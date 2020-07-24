@@ -68,29 +68,29 @@
  UDM_golden_republic_desc:0 "먼 우랄산맥 너머에 있는 우라는 독일 영향권을 간신히 벗어났습니다. 전쟁 중인 군벌들 한가운데 있으니 이익을 볼 기회도 많을 것입니다. 몇몇은 우리의 무기 거래를 더러운 돈벌이라고 생각할지도 모릅니다. 하지만 이 사업은 우리 주민과 우리 지역을 번영하게 합니다. 이 어두운 순간에 중요한 것은 그게 전부입니다."
  UDM_the_two_consuls:0 "두 집정관"
  UDM_the_two_consuls_desc:0 "예브게니 드라구노프와 미하일 칼라시니코프. 우리 공화국은 이 두 인물을 중심으로 돌아갑니다. 이들의 지휘 아래, 우리는 이 분쟁의 바닷속에 있는 평화의 오아시스가 되었습니다... 이를 위해 몇몇 분쟁에 장작을 던져넣어야 했지만 말입니다. 하지만 옛날에 금언이 있었습니다. 평화를 원하거든 전쟁을 준비하라."
- UDM_black_market_payments:0 "즐라토우스트에 보내는 ㅈ"
- UDM_black_market_payments_desc:0 "We are in the process of gathering a payment for our recent purchase from Zlatoust."
- UDM_filled_coffers:0 "Zlatoust Profits"
- UDM_warlord_interventions:0 "The All-Siberian Contractor"
- UDM_stocking_up:0 "Stocking Up"
- UDM_zlatoust_security_forces:0 "The Zlatoust Security Forces"
- UDM_final_defenses:0 "Final Defensive Preparations"
- UDM_zlatoust_advisors:0 "Zlatoust Advisors"
+ UDM_black_market_payments:0 "즐라토우스트에 보내는 지불금"
+ UDM_black_market_payments_desc:0 "최근 즐라토우스트에서 산 물품의 지불금을 모으는 중입니다."
+ UDM_filled_coffers:0 "즐라토우스트 이득"
+ UDM_warlord_interventions:0 "전시베리아 계약자"
+ UDM_stocking_up:0 "비축"
+ UDM_zlatoust_security_forces:0 "즐라토우스트 치안군"
+ UDM_final_defenses:0 "최종방어 준비"
+ UDM_zlatoust_advisors:0 "즐라토우스트 고문"
 
-### Tooltips ###
- UDM_CAN_INVEST_IN_YUGRA_tt:0 "Unlocks §Ydecisions§! to make investments in §YYugra§!.\n"
- UDM_a_mercenary_state_tt:0 "Unlocks §Ydecisions§! to hire §Ymercenary units§!.\n"
- UDM_pay_to_pass_tt:0 "Unlocks §Ydecisions§! for other warlords to purchase §Ymilitary access§! to our state.\n"
- UDM_the_all_russian_contractor_tt:0 "Unlocks §Ydecisions§! to send §Yvolunteers§! to §YWest Siberian§! nations that are at war.\n"
- UDM_send_mercenary_support_tt:0 "Unlocks the ability to send §Yvolunteers§! to §Y[FROM.GetNameDef]§!.\n"
- ZLATOUST_SENDS_VOLUNTEERS_tt:0 "§YZlatoust§! shall be able to send §Yvolunteers§! to our nation.\n"
- UDM_hire_mercenary_motorized_brigades_tt:0 "A unit of §Ymercenaries§! with §Ymotorized equipment§! shall be raised in our capital.\n"
- UDM_hire_mercenary_brigades_tt:0 "A unit of §Ymercenaries§! shall be raised in our capital.\n"
+### 툴팁 ###
+ UDM_CAN_INVEST_IN_YUGRA_tt:0 "§Y유그라§!에 투자하는 §Y결정§!을 해제합니다.\n"
+ UDM_a_mercenary_state_tt:0 "§Y용병 부대§!를 고용하는 §Y결정§!을 해제합니다.\n"
+ UDM_pay_to_pass_tt:0 "다른 군벌이 우리 국가의 §Y군사 통행권§!을 구매하게 하는 §Y결정§!을 해제합니다.\n"
+ UDM_the_all_russian_contractor_tt:0 "전쟁 중인 §Y서시베리아§! 국가에 §Y의용군§!을 보내는 §Y결정§!을 해제합니다.\n"
+ UDM_send_mercenary_support_tt:0 "§Y[FROM.GetNameDef]§!에 §Y의용군§!을 보내는 능력을 해제합니다.\n"
+ ZLATOUST_SENDS_VOLUNTEERS_tt:0 "§Y즐라토우스트§!가 우리 국가에 §Y의용군§!을 보낼 수 있을 것입니다.\n"
+ UDM_hire_mercenary_motorized_brigades_tt:0 "§Y차량화 장비§!를 이용하는 §Y용병§! 한 부대가 우리 수도에 모집될 것입니다.\n"
+ UDM_hire_mercenary_brigades_tt:0 "§Y용병§! 한 부대가 우리 수도에 모집될 것입니다.\n"
 
-### Opinion Modifiers ###
- UDM_the_yugra_connection_mod:0 "The Yugra Connection"
- UDM_the_siberian_mediator_mod:0 "The Siberian Mediator"
- UDM_helped_us:0 "Sent Us Aid"
+### 관계 모디파이어 ###
+ UDM_the_yugra_connection_mod:0 "유그라 커넥션"
+ UDM_the_siberian_mediator_mod:0 "시베리아의 중재자"
+ UDM_helped_us:0 "우리에게 지원을 보냄"
 
 ### Focus Trees ###
  UDM_speculation_and_accumulation:0 "Speculation and Accumulation"
@@ -293,9 +293,9 @@
  zlatoust_sales.7.desc:0 "Men shouted in the distance, retreating from the patch of trees and shrubbery handpicked by Colonel Utkin. That early morning, the few stars peaking through the rising sun's glare alongside the gentle falling snowflakes were not strong enough to pierce beauty through the grizzly sight of a blood-stained forest, as cloudy mists of Russian blood sprayed through the trees. There, deep within the Russian wilderness, Colonel Utkin found himself alive. His men, alive. And every single would-be marauder of his fine homestead and village on the run, or lying dead in the snow. Everyone stood silent, taking in their first victory in months, their first chance to make a stand against the Russian attacker who so greatly pillaged their lands for so long. The men threw down their rifles, hugged one another, and cheered to the heavens over their newfound victory against the murderous thieves who plagued them for so long. Colonel Utkin, however, took a minute to inspect the bodies. Boys, the least of which must have been sixteen. A prime age for cadets before the rise of the Soviets, perhaps, but the cold, lifeless eyes reminded him of that day when Russia would war no longer.\n\nCheers and cries greeted the party of guards as they entered their settlement once again, this time having tasted their first victory against the men who tore their land asunder for so long. However, whilst the rest of the men enjoyed family and the taverns, Colonel Utkin made his way up to his office, readying himself to congratulate the man truly in charge of their victory. Spinning the rotary, Colonel Utkin awaited.\n\n"Yes, Mayor-Consul Dragunov? This is Colonel Utkin. I wished to report the lives you saved with your most recent transaction with our government...""
  zlatoust_sales.7.a:0 "Excellent."
 
- zlatoust_sales.8.t:0 "Hidden event"
- zlatoust_sales.8.desc:0 "If you see this, tell someone."
- zlatoust_sales.8.a:0 "I will."
+ zlatoust_sales.8.t:0 "숨겨진 이벤트"
+ zlatoust_sales.8.desc:0 "이걸 본다면 말씀 주세요."
+ zlatoust_sales.8.a:0 "그럴게요."
 
 ### Decisions ###
  UDM_Black_Market_Order_Received:0 "Equipment Orders"
