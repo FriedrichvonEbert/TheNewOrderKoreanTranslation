@@ -1,0 +1,275 @@
+﻿l_english:
+
+
+ #Names
+ ILG_fascism:0 "Territorio Militare Algerino"
+ ILG_fascism_DEF:0 "Territorio Militare Algerino"
+ ILG_social_liberal:0 "Territorio Militare Algerino"
+ ILG_social_liberal_DEF:0 "Il Territorio Militare Algerino"
+ ILG_market_liberal:0 "Territorio Militare Algerino"
+ ILG_market_liberal_DEF:0 "Il Territorio Militare Algerino"
+ ILG_social_conservative:0 "Territorio Militare Algerino"
+ ILG_social_conservative_DEF:0 "Il Territorio Militare Algerino"
+ ILG_authoritarian_democrat:0 "Territorio Militare Algerino"
+ ILG_authoritarian_democrat_DEF:0 "Il Territorio Militare Algerino"
+ ILG_despotism:0 "Territorio Militare Algerino"
+ ILG_communist:0 "Territorio Militare Algerino"
+ ILG_communist_DEF:0 "Il Territorio Militare Algerino"
+ ILG_socialist:0 "Territorio Militare Algerino"
+ ILG_socialist_DEF:0 "Il Territorio Militare Algerino"
+ ILG_national_socialism:0 "Territorio Militare Algerino"
+ ILG_national_socialism_DEF:0 "Territorio Militare Algerino"
+ ILG_ultranational_socialism:0 "Territorio Militare Algerino"
+ ILG_ultranational_socialism_DEF:0 "Territorio Militare Algerino"
+ ILG_fascism_ADJ:0 "Italian Algerians"
+ ILG_social_liberal_ADJ:0 "Italian Algerians"
+ ILG_market_liberal_ADJ:0 "Italian Algerians"
+ ILG_social_conservative_ADJ:0 "Italian Algerians"
+ ILG_authoritarian_democrat_ADJ:0 "Italian Algerians"
+ ILG_communist_ADJ:0 "Italian Algerians"
+ ILG_despotism_ADJ:0 "Italian Algerians"
+ ILG_socialist_ADJ:0 "Italian Algerians"
+ ILG_ultranational_socialism_ADJ:0 "Italian Algerians"
+ ILG_national_socialism_ADJ:0 "Italian Algerians"
+
+ #Parties
+ ILG_authoritarian_democrat_party:0 "PNF-A"
+ ILG_authoritarian_democrat_party_long:0 "Partito Nazionale Fascista - Algeria"
+ ILG_despotism_party:0 "Tribal Rulers"
+ ILG_despotism_party_long:0 "Tribal Rulers"
+ ILG_fascism_party:0 "PNF-A"
+ ILG_fascism_party_long:0 "Partito Nazionale Fascista - Algeria"
+ ILG_national_socialism_party:0 "PNF-A"
+ ILG_national_socialism_party_long:0 "Partito Nazionale Fascista - Algeria"
+
+ #Provisional Government Parties
+ ILG_fascism_party_provgov:0 "PNF-A/UA"
+ ILG_fascism_party_provgov_long:0 "PNF-A/UA"
+
+ ILG_authoritarian_democrat_party_provgov:0 "UDMA"
+ ILG_authoritarian_democrat_party_provgov_long:0 "Union Démocratique du Manifeste Algérien"
+
+ #Starting Ideas
+ ILG_Wild_Frontier:0 "The Wild Frontier"
+ ILG_Wild_Frontier_desc:0 "As an unofficial military governorate in de jure French territory, we do not receive much attention from Rome. This has essentially rendered us useless and impotent, and our only hope for survival is aid from our Italian brethren."
+
+ ILG_Unofficial_Italian_Settlement:0 "Unofficial Italian Settlement"
+ ILG_Unofficial_Italian_Settlement_desc:0 "Due to the fact that the territory is ripe for settlement, many poor Italians have immigrated in the hopes of acquiring land. Needless to say, mass immigration of Italians will only compound our miseries due to our weak hold over the area."
+
+ ILG_Saharan_Bandits:0 "Rampant Banditry"
+ ILG_Saharan_Bandits_desc:0 "A limited military presence and a lack of manpower means that bandits constantly raid our convoys and loot settlements. However, it is at a boiling point, as destitute natives flock to their ranks in the hope of emerging out of poverty, thus making Italian control even more difficult to maintain."
+
+ #Later Ideas (pre-war)
+ ILG_Military_Boost_1:0 "Basic Desert Training"
+ ILG_Military_Boost_1_desc:0 "With some reforms, and some training, our men will be able to fight and govern the sands of Algeria."
+
+ ILG_Saharan_Bandits_Bad:0 "Intensified Banditry"
+ ILG_Saharan_Bandits_Bad_desc:0 "With the failed assault, the bandits have taken our weapons and engaged in guerilla warfare against our regime. There is no cleansing Algeria now."
+
+ ILG_Provisional_Government:0 "Provisional Government of Algeria"
+ ILG_Provisional_Government_desc:0 "With this step forward, we state the right of the peoples of Algeria to form a state, even if the land is nominally French. However, with a bureaucracy and functioning system, Algeria will prosper!"
+ #Focuses
+
+ #Intro#
+
+ ILG_state_of_algeria:0 "The State Of Algeria"
+ ILG_state_of_algeria_desc:0 ""
+ ILG_state_of_algeria_tt:0 "§YThe history of this place.§!"
+
+ ILG_the_western_frontier:0 "The Western Frontier"
+ ILG_the_western_frontier_desc:0 ""
+ ILG_the_western_frontier_tt:0 "§YUpdate Rome on our situation.§!"
+
+ #Banditry
+
+ ILG_saharan_bandits:0 "Saharan Bandits"
+ ILG_saharan_bandits_desc:0 ""
+ ILG_saharan_bandits_tt:0 "§YWe have to find a solution to our bandit problem!§!"
+
+ ILG_pay_informants:0 "Pay Informants"
+ ILG_pay_informants_desc:0 ""
+ ILG_pay_informants_tt:0 "§YWe need to get intelligence on the bandits...§!"
+
+ ILG_eye_on_the_sands:0 "Eye On The Sands"
+ ILG_eye_on_the_sands_desc:0 ""
+ ILG_eye_on_the_sands_tt:0 "§YRecon missions will be sent into the desert...§!"
+
+ ILG_cavalry_patrols:0 "Cavalry Patrols"
+ ILG_cavalry_patrols_desc:0 ""
+ ILG_cavalry_patrols_tt:0 "§YWe will get elite Libyans to guard the south!§!"
+
+ ILG_native_volunteers:0 "Native Volunteers"
+ ILG_native_volunteers_desc:0 ""
+ ILG_native_volunteers_tt:0 "§YNatives will be more numerous and efficient than Italians...§!"
+
+ ILG_italian_reinforcements:0 "Italian Reinforcements"
+ ILG_italian_reinforcements_desc:0 ""
+ ILG_italian_reinforcements_tt:0 "§YItalians will be brought in to solve the issues...§!"
+
+ ILG_hunt_them_down:0 "Hunt Them Down"
+ ILG_hunt_them_down_desc:0 ""
+ ILG_hunt_them_down_tt:0 "§xWe must destroy the bandits!§!"
+
+ #Government
+
+ ILG_forming_a_government:0 "Forming A Government"
+ ILG_forming_a_government_desc:0 ""
+ ILG_forming_a_government_tt:0 "§YWe must form an effective and capable government!§!"
+
+ ILG_algerian_bureaucrats:0 "Algerian Bureaucrats"
+ ILG_algerian_bureaucrats_desc:0 ""
+ ILG_algerian_bureaucrats_tt:0 "§YInvite Algerians into the low-level bureaucracy...§!"
+
+ ILG_tribal_self_rule:0 "Tribal Self-Rule"
+ ILG_tribal_self_rule_desc:0 ""
+ ILG_tribal_self_rule_tt:0 "§YAllow for tribes to rule over their own...§!"
+
+ ILG_italian_governors:0 "Italian Governors"
+ ILG_italian_governors_desc:0 ""
+ ILG_italian_governors_tt:0 "§YInstate Italian governors for each region...§!"
+
+ ILG_military_high_council:0 "Army High Council"
+ ILG_military_high_council_desc:0 ""
+ ILG_military_high_council_tt:0 "§YForm an Army High Council to rule in the meantime...§!"
+
+ ILG_pied_noir_representation:0 "Pieds-Noirs Representation"
+ ILG_pied_noir_representation_desc:0 ""
+ ILG_pied_noir_representation_tt:0 "§YInvite pieds-noirs to represent themselves in our regime...§!"
+
+ ILG_settler_assemblies:0 "Settler Assemblies"
+ ILG_settler_assemblies_desc:0 ""
+ ILG_settler_assemblies_tt:0 "§YAllow for the formation of settler assemblies...§!"
+
+ ILG_concede_to_natives:0 "Concede To Natives"
+ ILG_concede_to_natives_desc:0 ""
+ ILG_concede_to_natives_tt:0 "§xConceding to the natives means that the settlers will be upset!§!"
+
+ ILG_concede_to_settlers:0 "Concede To Settlers"
+ ILG_concede_to_settlers_desc:0 ""
+ ILG_concede_to_settlers_tt:0 "§xConceding to the settlers means that the natives will be upset!§!"
+
+ ILG_algerian_provisional_government:0 "Algerian Provisional Government"
+ ILG_algerian_provisional_government_desc:0 ""
+ ILG_algerian_provisional_government_tt:0 "§wA government for Algeria is formed!§!"
+
+ #Events#
+ ilg.1.t:0 "Bona Dispatch 1962.1"
+ ilg.1.d:0 "loc needed"
+ ilg.1.a:0 "Dispatch received."
+
+ ilg.2.t:0 "Bona Dispatch 1962.2"
+ ilg.2.d:0 "DUDE THIS CAR KICKSASSAND I CAN WATCH MADAGASCAR WHILE DRIVINGWHAT KINDA MUSIC DO YOU LIKE GLORIAHIPPO HOPHAHAHAHHADUDE THOSE ANIMALS ARE SO FUCKING FUNNYIM GONNA MERGE WITHOUT LOOKINGYEEAAHH RUMSFELD"
+ ilg.2.a:0 "Dispatch received."
+
+ ilg.3.t:0 "Bona Dispatch 1962.2.1"
+ ilg.3.d:0 "loc needed"
+ ilg.3.a:0 "Dispatch received. Investigate."
+ ilg.3.b:0 "Dispatch received. Pursue."
+
+ ilg.4.t:0 "Bona Dispatch 1962.2.2"
+ ilg.4.d:0 "loc needed"
+ ilg.4.a:0 "Dispatch received. Sit-rep received."
+
+ ilg.5.t:0 "Bona Dispatch 1962.2.1"
+ ilg.5.d:0 "loc needed"
+ ilg.5.a:0 "Dispatch received. Open fire."
+ ilg.5.b:0 "Dispatch received. Round them up."
+
+ ilg.6.t:0 "Bona Dispatch 1962.3"
+ ilg.6.d:0 "loc needed"
+ ilg.6.a:0 "Dispatch received. Request considered."
+
+ ilg.7.t:0 "Bona Dispatch 1962.4"
+ ilg.7.d:0 "loc needed"
+ ilg.7.a:0 "Dispatch received. Lira wired."
+
+ ilg.8.t:0 "Bona Dispatch 1962.5"
+ ilg.8.d:0 "loc needed"
+ ilg.8.a:0 "Dispatch received. Assistance granted."
+
+ ilg.9.t:0 "Bona Dispatch 1962.6"
+ ilg.9.d:0 "loc needed"
+ ilg.9.a:0 "Dispatch received. Cavalry granted."
+
+ ilg.10.t:0 "Bona Dispatch 1962.7"
+ ilg.10.d:0 "loc needed"
+ ilg.10.a:0 "Dispatch received. Request approved."
+
+ ilg.11.t:0 "Bona Dispatch 1962.8"
+ ilg.11.d:0 "loc needed"
+ ilg.11.a:0 "Dispatch received. Reinforcements sent."
+
+ ilg.12.t:0 "Bona Dispatch 1962.9"
+ ilg.12.d:0 "loc needed"
+ ilg.12.a:0 "Dispatch received. Rome approves."
+
+ ilg.13.t:0 "Civil Service Opened Up"
+ ilg.13.d:0 "loc needed"
+ ilg.13.a:0 "Italy builds a new Algeria!"
+
+ ilg.14.t:0 "Governor Castellano Empowers Tribes"
+ ilg.14.d:0 "loc needed"
+ ilg.14.a:0 "Italy brings freedom!"
+
+ ilg.15.t:0 "Regional Governors Appointed"
+ ilg.15.d:0 "loc needed"
+ ilg.15.a:0 "Order has been brought to the desert!"
+
+ ilg.16.t:0 "Army Transitional Council Formed"
+ ilg.16.d:0 "loc needed"
+ ilg.16.a:0 "A foundation for the government!"
+
+ ilg.17.t:0 "Pieds-Noirs Invited Into Government"
+ ilg.17.d:0 "loc needed"
+ ilg.17.a:0 "French, Italian, Arab, and Berber as one!"
+
+ ilg.18.t:0 "Settler Assemblies Allowed"
+ ilg.18.d:0 "loc needed"
+ ilg.18.a:0 "Voices for the minority as well!"
+
+ ilg.19.t:0 "For Algeria!"
+ ilg.19.d:0 "loc needed"
+ ilg.19.a:0 "Self-determination, as Wilson would have wanted."
+
+ ilg.20.t:0 "For The Empire!"
+ ilg.20.d:0 "loc needed"
+ ilg.20.a:0 "The empire's grip solidified."
+
+ ilg.21.t:0 "Power Returns To Algeria"
+ ilg.21.d:0 "loc needed"
+ ilg.21.a:0 "1830 avenged..."
+
+ #Gov Formation
+ ilg_gov.1.t:0 "Appointing a Native Director"
+ ilg_gov.1.d:0 "loc needed"
+ ilg_gov.1.a:0 "The moderate, Ferhat Abbas"
+ ilg_gov.1.b:0 "The radical, Said Boualam"
+
+ #Decisions
+ ILG_Banditry_Decisions:0 "Combat Banditry"
+ ILG_Banditry_Decisions_desc:0 "loc here"
+
+ ILG_Aerial_Patrols:0 "Aerial Patrols"
+ ILG_Aerial_Patrols_desc:0 ""
+
+ ILG_Infantry_Patrols:0 "Infantry Patrols"
+ ILG_Infantry_Patrols_desc:0 ""
+
+ #Ministers
+ ILG_Giuseppe_Castellano_dep:0 "Giuseppe Castellano"
+ ILG_Giuseppe_Castellano_eco:0 "Giuseppe Castellano"
+ ILG_Giuseppe_Castellano_for:0 "Giuseppe Castellano"
+ ILG_Giuseppe_Castellano_sec:0 "Giuseppe Castellano"
+ ILG_Ferhat_Abbas_dep:0 "Ferhat Abbas"
+ ILG_Said_Boualam_dep:0 "Said Boualam"
+ ILG_Ferhat_Abbas_eco:0 "Ferhat Abbas"
+ ILG_Salvatore_Castagna_for:0 "Salvatore Castagna"
+ ILG_Mourad_Kaouah_sec:0 "Mourad Kaouah"
+# ILG_Pierre_Guillaume_dep:0 "Pierre Guillaume" #duplicate loc key
+# ILG_Enrico_Braggiotti_eco:0 "Enrico Braggiotti" #duplicate loc key
+# ILG_Luciano_Mascia_for:0 "Luciano Mascia" #duplicate loc key
+# ILG_Fernando_Tanucci_Nannini_sec:0 "Fernando Tanucci Nannini" #duplicate loc key
+ #Country Flags
+ ILG_bandit_situation_addressed:0 "The bandit situation has been addressed..."
+#Leader Description
+POLITICS_GIUSEPPE_CASTELLANO_DESC:0 "General Giuseppe Castellano is perhaps one of the most common topics of gossip among the upper circles of the Regio Esercito. A veteran of two world wars, he served with distinction in the Balkans during the last World War, before rising up the ranks of the Italian high command. Castellano's ambition reached high, but destiny had other plans - a few years after the end of the war, the new Duce, Galeazzo Ciano, entrusted Castellano with watching over the lawless Algerian frontier.\n\nCastellano has been the head of the Algerian Military Territory for a few years now, but his leadership was not very much effective in amending the situation in the region. Italian settlers, mostly from Sicily and often tied to old mafia families, were enticed by Algeria, as the region was perceived to be far from the watching eye of the authorities in Rome. Settlers' enclaves now dot the Algerian landscape, and many rumors circulate about the true extent of Castellano's relationships with the mafia; and the instability is only further fueled by Rome's decision to support native Algerian militias, such as the Front de Libération Nationale, in their armed struggle against encroaching Iberian authorities and their Pied Noirs allies.\n\nThe Governor General, stranded in Algeria and given very little resources to actually do his job, was largely forced to sit and watched as the situation further slipped away from his grasp. However, with renewed tensions arising in the Triumvirate, soon Algeria and Castellano might find themselves in the spotlight once more. Once that happens, perhaps Castellano will have his chance to redeem himself in the eyes of Italy - from a general ruling over a backwater corner of the Empire through shady deals and backroom negotiations, to a hero of the nation who saved its frontiers from the many enemies who would threaten it." 

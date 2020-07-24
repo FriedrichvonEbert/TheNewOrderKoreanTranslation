@@ -1,0 +1,166 @@
+﻿l_english:
+ ## Country Names ##
+ 
+ ####Party Names#####
+
+ ## Ministers ##
+ 
+ ## Ideas ##
+ NIK_socintern_member:0 "SocIntern Member"
+
+ NIK_socintern_associate:0 "SocIntern Associate"
+
+ RUS_comecon_withdrew_money:0 "Withdrew COMECON Funds"
+
+ RUS_comecon_sent_aid:0 "Sent COMECON Aid"
+
+ RUS_comecon_requested_aid:0 "Requested COMECON Aid"
+
+ RUS_comecon_built_factory:0 "Developed COMECON Partner Industries"
+ 
+ ## Decisions ##
+ TNO_comecon_category:0 "§SCOMECON§!"
+ TNO_comecon_category_desc:0 "\n\n\n\n\n\nFor the interests of international solidarity and cooperation between socialist states in a world dominated by reaction, the §SCouncil for Mutual Economic Assistance§! offers an opportunity to sponsor the development of other socialist states. Through §SCOMECON§!, more developed socialist states may invest in less developed ones, policy may be enacted to assist workers and peasants across the socialist world, and emergency funds for strategic purposes may be maintained.\n\n§SCOMECON§! §Ymutual monetary fund§! balance: [?global.COMECON_monetary_fund_value|2]M USD."
+ COM_send_comecon_aid:0 "Send §SCOMECON§! Aid to [FROM.GetName]"
+ COM_request_comecon_investment:0 "Request [FROM.GetAdjective] §SCOMECON§! Investment"
+ COM_invest_in_comecon_monetary_fund:0 "Invest In §YMutual Monetary Fund§!"
+ COM_withdraw_from_comecon_monetary_fund:0 "Withdraw From §YMutual Monetary Fund§!"
+ COM_invest_in_collective_defense_fund:0 "Invest In §YCollective Defense Fund§!"
+ COM_withdraw_from_collective_defense_fund:0 "Withdraw From §YCollective Defense Fund§!"
+ COM_invest_in_cooperative_research:0 "Join the §SCOMECON§! §YScientific Bureau§!"
+ COM_develop_partner_industries:0 "Develop Industries In [FROM.GetName]"
+
+ TNO_socintern_category:0 "The §RSocialist International§!"
+ TNO_socintern_category_desc:0 "\n\n\n\n\n\nTo facilitate the interests of mutual cooperation among those nations which have adopted the socialist ideology, the §RSocialist International§! serves as a premier means of providing global cooperation and strategic assistance. Through the §RSocIntern§!, socialist states may coordinate with each other in defensively and politically, and a forum to discuss assistance to global proletarian and national liberation movements may be provided.\n\n§RSocIntern§! §Ycollective defense fund§! balance: [?global.COMECON_collective_defense_value|2]M USD.\n\n[GetSocInternVote]"
+ TNO_found_comecon:0 "Found §SCOMECON§!"
+ COM_invite_country:0 "Offer Membership to [FROM.GetName]"
+ COM_invite_country_associate:0 "Offer Associate Status to [FROM.GetName]"
+
+ TNO_SOCINTERN_VOTING:0 "Current SocIntern resolution - [GetSocInternResolutionTitle]\n\n[GetSocInternResolutionDesc]\n\n§GYES§! Votes - §G[?global.SocIntern_yes_votes]§!\n§RNO§! Votes - §R[?global.SocIntern_no_votes]§!\n§YABSTAIN§! Votes - §Y[?global.SocIntern_abs_votes]§!\n"
+ TNO_SOCINTERN_NOT_VOTING:0 "No SocIntern resolution is currently be voted on."
+ SOCINTERN_VOTE_NON_AGGRESSION_PACT_DESC:0 "§LProposal for every organization in the SocIntern to officially declare a policy of mutual co-existence and non-aggression against all other SocIntern member organizations.§!"
+
+ SOCINTERN_VOTE_NON_AGGRESSION_PACT_TITLE:0 "§RMutual Non-Aggression Pact§!"
+
+ COM_invite_country_associate_tt:0 "The selected country shall be offered §lassociate status§! in the §RSocialist International§!."
+ COM_invite_country_tt:0 "The selected country shall be offered §Rmembership§! in the §RSocialist International§!."
+ 
+ ## Tooltips ##
+ deficit_ratio_sufficient_tt:0 "Our §Ydeficit-to-income§! ratio is above 40%."
+ COMECON_money_transfer_10_tt:0 "§Y10%§! of the §RSocIntern§! §Ycollective defense fund§! shall be transfered to our coffers."
+ COMECON_money_transfer_25_tt:0 "§Y25%§! of the §RSocIntern§! §Ycollective defense fund§! shall be transfered to our coffers."
+ COMECON_money_transfer_50_tt:0 "§Y50%§! of the §RSocIntern§! §Ycollective defense fund§! shall be transfered to our coffers."
+
+ COMECON_money_transfer_10_monetary_tt:0 "§Y10%§! of the §SCOMECON§! §Ymutual monetary fund§! shall be transfered to our coffers."
+ COMECON_money_transfer_25_monetary_tt:0 "§Y25%§! of the §SCOMECON§! §Ymutual monetary fund§! shall be transfered to our coffers."
+ COMECON_money_transfer_50_monetary_tt:0 "§Y50%§! of the §SCOMECON§! §Ymutual monetary fund§! shall be transfered to our coffers."
+
+ COMECON_deposit_monetary_1:0 "1% of our §Ytotal budget§! shall be deposited in the §SCOMECON§! §Ymutual monetary fund§!."
+ COMECON_deposit_monetary_2_5:0 "2.5% of our §Ytotal budget§! shall be deposited in the §SCOMECON§! §Ymutual monetary fund§!."
+ COMECON_deposit_monetary_5:0 "5% of our §Ytotal budget§! shall be deposited in the §SCOMECON§! §Ymutual monetary fund§!."
+ COMECON_deposit_monetary_7_5:0 "7.5% of our §Ytotal budget§! shall be deposited in the §SCOMECON§! §Ymutual monetary fund§!."
+
+ COMECON_deposit_defense_1:0 "1% of our §Ytotal budget§! shall be deposited in the §SCOMECON§! §Ycollective defense fund§!."
+ COMECON_deposit_defense_2_5:0 "2.5% of our §Ytotal budget§! shall be deposited in the §SCOMECON§! §Ycollective defense fund§!."
+ COMECON_deposit_defense_5:0 "5% of our §Ytotal budget§! shall be deposited in the §SCOMECON§! §Ycollective defense fund§!."
+ COMECON_deposit_defense_7_5:0 "7.5% of our §Ytotal budget§! shall be deposited in the §SCOMECON§! §Ycollective defense fund§!."
+
+ pay_aid_to_comecon_country_tt:0 "§Y250m USD§! in aid shall be sent to [FROM.GetNameDef]."
+ recieve_aid_deposit_tt:0 "§Y250m USD§! shall be added to our §Yliquid reserves§!."
+ recieve_aid_growth_tt:0 "Our §YGDP growth§! shall increase by 0.3%."
+
+ COM_send_comecon_aid_tt:0 "We shall send a variable amount of §Ymonetary aid§! to the selected nation.\n"
+ COM_request_comecon_investment_tt:0 "We shall request a sum of §Ymonetary aid§! from the selected nation.\n"
+ COM_invest_in_comecon_monetary_fund_tt:0 "We shall invest a sum in the §SCOMECON§! §YMutual Monetary Fund§!, to aid developing member nations.\n"
+ COM_withdraw_from_comecon_monetary_fund_tt:0 "We shall withdraw a variable sum from the §SCOMECON§! §YMutual Monetary Fund§!, for developmental purposes.\n"
+ COM_invest_in_collective_defense_fund_tt:0 "We shall invest a sum in the §SCOMECON§! §YCollective Defense Fund§!, to provide monetary aid for any member nation which may find itself at war.\n"
+ COM_withdraw_from_collective_defense_fund_tt:0 "We shall withdraw a variable sum from the §SCOMECON§! §YCollective Defense Fund§!, to aid our economy in times of armed conflict.\n"
+ COM_develop_partner_industries_tt:0 "We shall finance direct §Yindustrial development§! in the selected nation, at the cost of §Y150M USD§!.\n"
+
+ ## Scripted Loc ##
+ COMECON_defense_fund_billion:0 "[?global.COMECON_collective_defense_value_billion|2]B USD"
+ COMECON_defense_fund_million:0 "[?global.COMECON_collective_defense_value|2]M USD"
+ COMECON_defense_fund_thousand:0 "[?global.COMECON_collective_defense_value_thousand|2]K USD"
+
+ COMECON_monetary_fund_billion:0 "[?global.COMECON_monetary_fund_value_billion|2]B USD"
+ COMECON_monetary_fund_million:0 "[?global.COMECON_monetary_fund_value|2]M USD"
+ COMECON_monetary_fund_thousand:0 "[?global.COMECON_monetary_fund_value_thousand|2]K USD"
+
+ RUS_comecon_withdrew_money:0 "Withdrew SocIntern Money"
+ RUS_comecon_built_factory:0 "Developed Partner Industries"
+ RUS_comecon_sent_aid:0 "Sent COMECON Aid"
+ RUS_comecon_requested_aid:0 "Requested COMECON Aid"
+ 
+ ## Focus Tree ##
+ 
+ ## Events ##
+ comecon.1.t:0 "Aid for Development"
+ comecon.1.d:0 ""
+ comecon.1.a:0 "Building the world."
+ 
+ comecon.2.t:0 "COMECON Aid Arrives"
+ comecon.2.d:0 ""
+ comecon.2.a:0 "Deposit the money into our reserves."
+ comecon.2.b:0 "Utilize it for direct economic growth."
+ comecon.2.c:0 "Invest it to increase standard of living."
+
+ comecon.3.t:0 "[FROM.GetAdjective] Request for COMECON Aid"
+ comecon.3.d:0 ""
+ comecon.3.a:0 "We would gladly provide."
+ comecon.3.b:0 "We cannot do this at this time."
+
+ comecon.4.t:0 "[FROM.GetAdjective] Aid Declined"
+ comecon.4.d:0 ""
+ comecon.4.a:0 "Better luck next time."
+
+ comecon.5.t:0 "[FROM.GetAdjective] Aid Approved"
+ comecon.5.d:0 ""
+ comecon.5.a:0 "Deposit the money into our reserves."
+ comecon.5.b:0 "Utilize it for direct economic growth."
+ comecon.5.c:0 "Invest it to increase standard of living."
+
+ comecon.6.t:0 "Funds for COMECON"
+ comecon.6.d:0 ""
+ comecon.6.a:0 "Deposit 1% of the budget."
+ comecon.6.b:0 "Deposit 2.5% of the budget."
+ comecon.6.c:0 "Deposit 5% of the budget."
+ comecon.6.e:0 "Deposit 7.5% of the budget."
+
+ comecon.7.t:0 "Funds From COMECON"
+ comecon.7.d:0 ""
+ comecon.7.a:0 "Withdraw 10% of the fund."
+ comecon.7.b:0 "Withdraw 25% of the fund."
+ comecon.7.c:0 "Withdraw 50% of the fund."
+
+ comecon.8.t:0 "Funds for Mutual Defense"
+ comecon.8.d:0 ""
+ comecon.8.a:0 "Deposit 1% of the budget."
+ comecon.8.b:0 "Deposit 2.5% of the budget."
+ comecon.8.c:0 "Deposit 5% of the budget."
+ comecon.8.e:0 "Deposit 7.5% of the budget."
+
+ comecon.9.t:0 "Funds From COMECON"
+ comecon.9.d:0 ""
+ comecon.9.a:0 "Withdraw 10% of the fund."
+ comecon.9.b:0 "Withdraw 25% of the fund."
+ comecon.9.c:0 "Withdraw 50% of the fund."
+
+ comecon.10.t:0 "[FROM.GetAdjective] Investment in the COMECON Research Bureau"
+ comecon.10.d:0 ""
+ comecon.10.a:0 "More minds are always appreciated."
+
+ comecon.11.t:0 "[FROM.GetAdjective] Industrial Aid Arrives"
+ comecon.11.d:0 ""
+ comecon.11.a:0 "We can use this to jump-start our manufacturing."
+ comecon.11.b:0 "Invest it in quality industrial equipment."
+ comecon.11.c:0 "Utilize it to train qualified personnel."
+ 
+
+
+ ## Tech Groups ##
+ comecon_tech_group_name:0 "COMECON Scientific Bureau"
+ comecon_tech_group_desc:0 "The COMECON Scientific Bureau is the collective international scientific organization of the Communist International, and serves as the research and development wing of COMECON. Its purpose is to assist with mutual research, and allow the rapid advancement of developing countries to technological parity with the rest of the COMECON member nations."
+ 
+ ## Opinion Modifiers ##
+ TNO_socintern_member:0 "SocIntern Member"
+ TNO_socintern_associate:0 "SocIntern Associate"

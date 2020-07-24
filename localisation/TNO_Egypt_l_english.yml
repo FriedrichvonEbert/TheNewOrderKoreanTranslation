@@ -1,0 +1,969 @@
+﻿l_english:
+
+ #Leader descriptions
+ POLITICS_FAROUK_I_DESC:0 "King Farouk of Egypt is a man of many, many tastes. To frame him in a positive light, Farouk is determined to make life a party, that every moment should be one of fun and excitement in an effort to never to grow old or dull. To frame him negatively, he is a sinkhole for the Egyptian economy, totally removed from his political responsibilities and an embarrassment for Egypt. The King might have once been a young man, keen and enthusiastic about reforming and modernizing his country. Those days have passed however, and now Farouk wishes only to entertain himself in any way that he can. \n\nFarouk spends his days eating, drinking, and smoking during his quiet moments. In his unfortunately frequent wild moments he spends his time driving through the streets of Cairo at full speed in his red sports car or perhaps engaging in some charity by firing a shower of gold coins into a crowd. If the King finds himself in a particularly active mood, he may get in his jet and fly to whatever destination he desires. His absence in Egypt is joyfully felt, as it usually leaves someone more competent in charge for a week or two. \n\nOn his tours of the world, Farouk puts the Egyptian treasury to "great" use, spending it lavishly to obtain all the objects of his desires, whether that be a diamond necklace for his latest mistress, a set of coins for his ever-expanding collection, or perhaps a shot at immortality. Regardless of what he purchases, it is certainly never of any use to the people of Egypt. Farouk is not malicious or evil, but he is a man that cares little for the world outside of his immediate vicinity. Politics is a serious, drawn out, and often boring matter for the King, and as such he ignores it. He would rather be happy himself than stress about what the world wishes for him to do."
+
+ #PARTIES
+ EGY_communist_party:0 "IIA"
+ EGY_communist_party_long:0 "al-Ittihād al-Ištirākī al-'Arabī"
+ EGY_socialist_party:0 "ESP"
+ EGY_socialist_party_long:0 "Egyptian Socialist Party"
+ EGY_social_democrat_party:0 "LSP"
+ EGY_social_democrat_party_long:0 "Liberal Socialists Party"
+ EGY_social_liberal_party:0 "HHS"
+ EGY_social_liberal_party_long:0 "Hizb al-Hayyat al-Suediat"
+ EGY_social_conservative_party:0 "HW - Left Wing"
+ EGY_social_conservative_party_long:0 "Hizb al-Wafd - Left Wing"
+ EGY_authoritarian_democrat_party:0 "HW - Right Wing"
+ EGY_authoritarian_democrat_party_long:0 "Hizb al-Wafd - Right Wing"
+ EGY_despotism_party:0 "al-'Alawiyya"
+ EGY_despotism_party_long:0 "al-'Usra al-'Alawiyya"
+ EGY_fascism_party:0 "Muslim Brotherhood - Moderate Wing"
+ EGY_fascism_party_long:0 "Muslim Brotherhood - Moderate Wing"
+ EGY_national_socialism_party:0 "Muslim Brotherhood - Center Wing"
+ EGY_national_socialism_party_long:0 "Muslim Brotherhood - Center Wing"
+ EGY_ultranational_socialism_party:0 "Muslim Brotherhood - Extremist Wing"
+ EGY_ultranational_socialism_party_long:0 "Muslim Brotherhood - Extremist Wing"
+ 
+ EGB_communist_party:0 "IIA"
+ EGB_communist_party_long:0 "al-Ittihād al-Ištirākī al-'Arabī"
+ EGB_socialist_party:0 "ESP"
+ EGB_socialist_party_long:0 "Egyptian Socialist Party"
+ EGB_social_democrat_party:0 "LSP"
+ EGB_social_democrat_party_long:0 "Liberal Socialists Party"
+ EGB_social_liberal_party:0 "HHS"
+ EGB_social_liberal_party_long:0 "Hizb al-Hayyat al-Suediat"
+ EGB_social_conservative_party:0 "HW - Left Wing"
+ EGB_social_conservative_party_long:0 "Hizb al-Wafd - Left Wing"
+ EGB_authoritarian_democrat_party:0 "HW - Right Wing"
+ EGB_authoritarian_democrat_party_long:0 "Hizb al-Wafd - Right Wing"
+ EGB_despotism_party:0 "al-'Alawiyya"
+ EGB_despotism_party_long:0 "al-'Usra al-'Alawiyya"
+ EGB_fascism_party:0 "Muslim Brotherhood - Moderate Wing"
+ EGB_fascism_party_long:0 "Muslim Brotherhood - Moderate Wing"
+ EGB_national_socialism_party:0 "Muslim Brotherhood - Center Wing"
+ EGB_national_socialism_party_long:0 "Muslim Brotherhood - Center Wing"
+ EGB_ultranational_socialism_party:0 "Muslim Brotherhood - Extremist Wing"
+ EGB_ultranational_socialism_party_long:0 "Muslim Brotherhood - Extremist Wing"
+ balbo_group:0 "Balbo's Cabinet"
+ EGB_fascism:0 "Egyptian Revolutionary Command Council"
+ EGB_fascism_DEF:0 "The Egyptian Revolutionary Command Council"
+ EGB_social_liberal:0 "Egyptian Revolutionary Command Council"
+ EGB_social_liberal_DEF:0 "The Egyptian Revolutionary Command Council"
+ EGB_market_liberal:0 "Egyptian Revolutionary Command Council"
+ EGB_market_liberal_DEF:0 "The Egyptian Revolutionary Command Council"
+ EGB_social_conservative:0 "Egyptian Revolutionary Command Council"
+ EGB_social_conservative_DEF:0 "The Egyptian Revolutionary Command Council"
+ EGB_authoritarian_democrat:0 "Egyptian Revolutionary Command Council"
+ EGB_authoritarian_democrat_DEF:0 "The Egyptian Revolutionary Command Council"
+ EGB_despotism:0 "Egyptian Revolutionary Command Council"
+ EGB_despotism_DEF:0 "The Egyptian Revolutionary Command Council"
+ EGB_communist:0 "Egyptian Revolutionary Command Council"
+ EGB_communist_DEF:0 "The Egyptian Revolutionary Command Council"
+ EGB_socialist:0 "Egyptian Revolutionary Command Council"
+ EGB_socialist_DEF:0 "The Egyptian Revolutionary Command Council"
+ EGB_national_socialism:0 "Egyptian Revolutionary Command Council"
+ EGB_national_socialism_DEF:0 "The Egyptian Revolutionary Command Council"
+ EGB_ultranational_socialism:0 "Egyptian Revolutionary Command Council"
+ EGB_ultranational_socialism_DEF:0 "The Egyptian Revolutionary Command Council"
+ 
+ EGQ_national_socialism:0 "Muslim Brotherhood"
+ EGQ_national_socialism_DEF:0 "The Muslim Brotherhood"
+ EGQ_ultranational_socialism:0 "Muslim Brotherhood"
+ EGQ_ultranational_socialism_DEF:0 "The Muslim Brotherhood"
+ 
+ #ideas
+# EGY_idea_colonial_government:0 "Colonial Government" #duplicate loc key
+ egy_arab_socialist_union:0 "The Arab Socialist Union"
+ egy_arab_socialist_union_desc:0 "Nasser!!!!!!!"
+ egy_farouks_hedonism:0 "Farouk's Hedonism"
+ egy_farouks_hedonism_desc:0 "Our king, Farouk I, is known the world over for his extravagance. Purpoted to eat 600 oysters a week, Farouk is much more of a playboy than a king. This has led to dissatisfaction with the king, and is also a big drain on the economy of the state."
+ egy_muslim_brotherhood:0 "The Muslim Brotherhood"
+ egy_muslim_brotherhood_desc:0 "Qutb!!!!!!"
+
+ #Decisions
+ egy_intro_event:0 "Situation of the Kingdom of Egypt"
+
+ #Events
+ egy.2.t:0 "The Situation of the Kingdom of Egypt"
+ egy.2.d:0 "Having expelled the British imperialists with the help of our loyal Italian allies, Egypt has finally achieved it's long awaited independence. Despite how great and glorious of a victory this was for all Egyptians, a nefarious cabal of disgruntled fascist-sympathizers attempted to overthrow our great king Farouk. This treasonous plot cumulated into the attempted 1956 "revolution", which was little more then a blind power grab by traitors within our armed forces. \n\nDespite some initial blunders on our part, and the temporary retreat from Cairo, help from our great Italian friends easily dispatched the remaining traitors. Of course, the Italians expected compensation, which was granted by our great king Farouk who personally allowed several Italian Advisers into our government. \n\nFarouk himself has celebrated our new found friendship with the Italians, and trusts them so much he's allowed them to begin governing in his absence. With this new found free time, Farouk has engaged in several important diplomatic trips, to such foreign places as Las Vegas, Havana, and Montecarlo."
+ egy.2.a:0 "Farouk is truly the ideal monarch"
+
+ egy.3.t:0 "The Hit to Our Treasury"
+ egy.3.d:0 "Placeholder"
+ egy.3.a:0 "Worrying"
+
+ egy.4.t:0 "Italian Loans"
+ egy.4.d:0 "Placeholder"
+ egy.4.a:0 "This is still manageable"
+
+ egy.5.t:0 "The Italians Refuse Us"
+ egy.5.d:0 "Placeholder"
+ egy.5.a:0 "Farouk please stop"
+
+ egy.6.t:0 "The Swiss Contact"
+ egy.6.d:0 "Our king, Farouk, has been approached by leading Swiss banks for a very enticing deal. As his adventures have been hitting front page newspapers across the globe, the question of how exactly he finances this has come into question. It appears that the Swiss have figured out that he is siphoning from the government's wealth and using astute calculations have figured out that he will be running out soon enough.\n\nTherefore, they have approached Farouk with the offer of giving him extraordinarily large loans with a high interest rate to keep him going on his adventures across the globe, which Farouk has indicated he has intended to do. Leading economists of our government have strongly advised against this saying that it would crumble the already weak Egyptian economy, however Farouk has yet to reply to the government."
+ egy.6.a:0 "What an obvious scam."
+
+ egy.7.t:0 "The Swiss Loans"
+ egy.7.d:0 "Shocked silence is the overwhelming noise in the palace halls and government offices today, as the reply that has been received from Farouk on the Swiss loans issue is that he is accepting all of the loans. The minister of the economy has been heard silently weeping in his office, and the government accountants still haven't come to the conclusion on how expensive this will be for the Kingdom. However, one thing is clear. It's going to cost more than Egypt can handle."
+ egy.7.a:0 "Farouk, for the love of god PLEASE stop."
+
+ egy.8.t:0 "The Swiss Want their Money Back"
+ egy.8.d:0 "Placeholder"
+ egy.8.a:0 "Maybe they'll give an Extension..."
+
+ egy.9.t:0 "The Loans are Called in"
+ egy.9.d:0 "Placeholder"
+ egy.9.a:0 "Dear Allah...."
+ 
+ egy.13.t:0 "Ba'athist meetings held in Cairo"
+ egy.13.d:0 "While the Free Officers may have failed in their revolution, some of their ideas still live on in the Ba'athist movement. The Ba'athist party is officially banned by the Egyptian government but that has not stopped people from supporting the group. In Cairo, newsppapers are running a story on how a meeting of military men, bureaucrats and various low level politicians have met up in a Cairo flat to discuss the future of Egypt and how best to install the Ba'athist revolution. Some even reported that the last surviving leader of the Free Officers movement, Gamel Abdel Nasser was seen at these meetings!\n\nWhile the government dismisses these stories as sensationalist nonsense, many in the government are worried about the Ba'athists organising and launching a revolution against our regime."
+ egy.13.a:0 "These Ba'athist gangs need to be put down!"
+ 
+ egy.14.t:0 "Qutb speaks in Khartoum"
+ egy.14.d:0 "The Sudan has always had some disconnect from the rest of Egypt, and has made prime breeding ground for anti-monarchist feeling. This is most obviously seen in the rise of Islamism there, mostly spearheaded by an Egyptian, Sayyid Qutb.\n\nJust today, he held a rally in Khartoum speaking of the Gunaah of the Egyptian regime and of Farouk himself. He also called for people to find their way back to the true light of Islam and not to remain the Takfirs that they have been led to become.\n\nBefore he could finish his speech, Egyptian policemen came into the square to break up the rally, much to the crowds anger."
+ egy.14.a:0 "People will believe anything these days."
+
+ egy.16.t:0 "Nasser Makes His Speech"
+ egy.16.d:0 "Placeholder Text"
+ egy.16.a:0 "He should be dead by now..."
+ 
+ egy.17.t:0 "If You See This, Report It"
+ egy.17.d:0 "Placeholder Text"
+ egy.17.a:0 "See Above."
+ 
+ egy.18.t:0 "Police Station Bombed In Cairo!"
+ egy.18.d:0 "Placeholder Text"
+ egy.18.a:0 "Barbarians!"
+ 
+ egy.19.t:0 "Ba'athists Caught Smuggling Weapons!"
+ egy.19.d:0 "Placeholder Text"
+ egy.19.a:0 "Thank goodness we stopped them!"
+ 
+ egy.20.t:0 "Investigators Mysteriously Disappear!"
+ egy.20.d:0 "Placeholder Text"
+ egy.20.a:0 "Could this be bigger than we expected?"
+ 
+ egy.21.t:0 "Police Raid Islamist Meeting!"
+ egy.21.d:0 "Placeholder Text"
+ egy.21.a:0 "At least we got them."
+ 
+ egy.22.t:0 "Rumors Of Collaboration"
+ egy.22.d:0 "Placeholder Text"
+ egy.22.a:0 "If this is true..."
+ 
+ egy.23.t:0 "Ba'athist Propaganda Network Found!"
+ egy.23.d:0 "Placeholder Text"
+ egy.23.a:0 "Tear it all down!"
+ 
+ egy.24.t:0 "Incidents Of Desertion Spike!"
+ egy.24.d:0 "Placeholder Text"
+ egy.24.a:0 "Court-martial them!"
+ 
+ egy.25.t:0 "Rumors In The Streets"
+ egy.25.d:0 "Placeholder Text"
+ egy.25.a:0 "Concerning."
+ 
+ egy.26.t:0 "Anti-Tank Weapons Stolen!"
+ egy.26.d:0 "Placeholder Text"
+ egy.26.a:0 "Find them! Now!"
+ 
+ egy.27.t:0 "The Unholy Alliance"
+ egy.27.d:0 "Placeholder Text"
+ egy.27.a:0 "Let's hope it's not true."
+ 
+ egy.28.t:0 "The Tensions On The Streets"
+ egy.28.d:0 "Placeholder Text"
+ egy.28.a:0 "We need more policemen, immediately!"
+ 
+ egy.29.t:0 "Silence In The Streets"
+ egy.29.d:0 "Placeholder Text"
+ egy.29.a:0 "Oh, no..."
+ 
+ egy.30.t:0 "The Great Hunt"
+ egy.30.d:0 "Placeholder Text"
+ egy.30.a:0 "After them!"
+ 
+ egy.31.t:0 "Inspecting The Army"
+ egy.31.d:0 "Placeholder Text"
+ egy.31.a:0 "We must ensure their loyalty."
+ 
+ egy.32.t:0 "Inspecting The Police"
+ egy.32.d:0 "Placeholder Text"
+ egy.32.a:0 "We must ensure their loyalty."
+ 
+ egy.33.t:0 "Inspecting The Politicians"
+ egy.33.d:0 "Placeholder Text"
+ egy.33.a:0 "They have to be hiding something..."
+ 
+ egy.34.t:0 "Officers' Conspiracy Uncovered!"
+ egy.34.d:0 "Placeholder Text"
+ egy.34.a:0 "No! Never again!"
+ 
+ egy.35.t:0 "Soldiers Arrested!"
+ egy.35.d:0 "Placeholder Text"
+ egy.35.a:0 "At least we got them in time."
+ 
+ egy.36.t:0 "A Veil Of Silence"
+ egy.36.d:0 "Placeholder Text"
+ egy.36.a:0 "Worrying..."
+ 
+ egy.37.t:0 "The Police Compromised!"
+ egy.37.d:0 "Placeholder Text"
+ egy.37.a:0 "Send in the military police!"
+ 
+ egy.38.t:0 "Infiltration Cell Unearthed!"
+ egy.38.d:0 "Placeholder Text"
+ egy.38.a:0 "Round them up!"
+ 
+ egy.39.t:0 "A Veil Of Silence"
+ egy.39.d:0 "Placeholder Text"
+ egy.39.a:0 "Worrying..."
+ 
+ egy.40.t:0 "High-level Sympathies?"
+ egy.40.d:0 "Placeholder Text"
+ egy.40.a:0 "How could this have gone so far?"
+ 
+ egy.41.t:0 "Judge Arrested In Alexandria!"
+ egy.41.d:0 "Placeholder Text"
+ egy.41.a:0 "Unfortunate implications..."
+ 
+ egy.42.t:0 "A Veil Of Silence"
+ egy.42.d:0 "Placeholder Text"
+ egy.42.a:0 "Worrying..."
+ 
+ egy.43.t:0 "Ba'athists Rise Against Faud!"
+ egy.43.d:0 "Placeholder Text"
+ egy.43.a:0 "Stand By The King!"
+ egy.43.b:0 "Stand By The Revolutionaries!"
+ 
+ egy.44.t:0 "Ba'athists Rise Against Faud!"
+ egy.44.d:0 "Placeholder Text"
+ egy.44.a:0 "Stand By The King!"
+ egy.44.b:0 "Stand By The Revolutionaries!"
+ 
+ egy.45.t:0 "Ba'athists Rise Against Faud!"
+ egy.45.d:0 "Placeholder Text"
+ egy.45.a:0 "Stand By The King!"
+ egy.45.b:0 "Stand By The Revolutionaries!"
+ 
+ 
+ ##### Farouks Grand Tour Focuses #######
+ egy_farouks_new_gig:0 "Farouk's New Gig"
+ egy_farouks_new_gig_def:0 ""
+ 
+ egy_the_fun_side_of_monarchy:0 "The Fun Side of Monarchy"
+ egy_the_fun_side_of_monarchy_def:0 ""
+
+ egy_withdraw_from_the_treasurey:0 "Withdraw from the Treasury"
+ egy_withdraw_from_the_treasurey_def:0 ""
+
+ egy_let_the_italians_do_it:0 "Let the Italians do it"
+ egy_let_the_italians_do_it_def:0 ""
+
+ egy_farouks_big_break:0 "Farouk's Big Break"
+ egy_farouks_big_break_def:0 ""
+
+ egy_fly_to_iberia:0 "Fly to Iberia"
+ egy_fly_to_iberia_def:0 ""
+
+ egy_portugese_wine:0 "Portuegese Wine"
+ egy_portugese_wine_def:0 ""
+
+ egy_barcelona_spree:0 "Barcelona Spree"
+ egy_barcelona_spree_def:0 ""
+
+ egy_head_to_the_boot:0 "Head to the Boot"
+ egy_head_to_the_boot_def:0 ""
+
+ egy_italian_fashion:0 "Italian Fashion"
+ egy_italian_fashion_def:0 ""
+
+ egy_the_fast_and_farouk:0 "The Fast and the Farouk"
+ egy_the_fast_and_farouk_def:0 ""
+
+ egy_party_like_a_egyptian:0 "Party like an Egyptian"
+ egy_party_like_a_egyptian_def:0 ""
+
+ egy_blitz_the_baazars:0 "Blitz the Bazaars"
+ egy_blitz_the_baazars_def:0 ""
+
+ egy_visit_the_turks:0 "Visit the Turks"
+ egy_visit_the_turks_def:0 ""
+
+ egy_the_wealth_of_istanbul:0 "The Wealth of Istanbul"
+ egy_the_wealth_of_istanbul_def:0 ""
+
+ egy_farouks_baazar_bargain:0 "Farouk's Baazar Bargain"
+ egy_farouks_baazar_bargain_def:0 ""
+
+ egy_athens_spree:0 "Athens Spree"
+ egy_athens_spree_def:0 ""
+
+ egy_expanding_our_horizons:0 "Expanding our Horizons"
+ egy_expanding_our_horizons_def:0 ""
+
+ egy_back_in_the_usa:0 "Back in the USA"
+ egy_back_in_the_usa_def:0 ""
+
+ egy_sex_drugs_and_rocknroll:0 "Sex Drugs and Rock'n Roll"
+ egy_sex_drugs_and_rocknroll_def:0 ""
+
+ egy_playboy_farouk:0 "Playboy Farouk"
+ egy_playboy_farouk_def:0 ""
+
+ egy_walk_broadway:0 "Walk Broadway"
+ egy_walk_broadway_def:0 ""
+
+ egy_the_colombian_exchange:0 "The Colombian Exchange"
+ egy_the_colombian_exchange_def:0 ""
+
+ egy_blitz_the_pakt:0 "Blitz the Pakt"
+ egy_blitz_the_pakt_def:0 ""
+
+ egy_go_go_nippon_another_trip_to_japan:0 "Go! Go! Nippon! Another Trip to Japan"
+ egy_go_go_nippon_another_trip_to_japan_desc:0 "Ah, my beloved Japan! Farouk swears to make the most of his time there. By that he will be boozing it up with whatever they have there, and enjoying the night life of the wonderful city of Tokyo. Oh, and of course visiting the royals. But who cares about that? Get the plane ready, we're off to Japan!"
+
+ egy_sip_sake:0 "Sip Sake"
+ egy_sip_sake_def:0 ""
+
+ egy_tour_tokyo:0 "Tour Tokyo"
+ egy_tour_tokyo_def:0 ""
+
+ egy_take_a_swing_through_india:0 "Take a Swing through India"
+ egy_take_a_swing_through_india_def:0 ""
+
+ egy_the_attraction_of_opium:0 "The Attraction of Opium"
+ egy_the_attraction_of_opium_def:0 ""
+
+ egy_tour_germania:0 "Tour Germania"
+ egy_tour_germania_def:0 ""
+
+ egy_the_beauty_of_paris:0 "The Beauty of Paris"
+
+ egy_head_down_into_africa:0 "Head Down into Africa"
+ egy_head_down_into_africa_def:0 ""
+
+ egy_meet_with_mueller:0 "Meet with Müller"
+ egy_meet_with_mueller_def:0 ""
+
+ egy_the_return_to_egypt:0 "The Return to Egypt"
+ egy_the_return_to_egypt_def:0 ""
+
+ egy_start_planning_a_small_party:0 "Start Planning a Small Party"
+ egy_start_planning_a_small_party_def:0 ""
+
+ egy_rock_the_pyramids:0 "Rock the Pyramids"
+ egy_rock_the_pyramids_def:0 ""
+
+ ##### Farouks Grand Tour Events #######
+ 
+ egy.46.t:0 "Farouk's New Gig"
+ egy.46.d:0 ""
+ egy.46.a:0 ""
+ 
+ egy.47.t:0 "Fun Side of Monarchy"
+ egy.47.d:0 ""
+ egy.47.a:0 ""
+ 
+ egy.48.t:0 "Withdraw from the Treasury"
+ egy.48.d:0 ""
+ egy.48.a:0 ""
+ 
+ egy.49.t:0 "Let the Italians Do It"
+ egy.49.d:0 ""
+ egy.49.a:0 ""
+ 
+ egy.50.t:0 "Farouk's Big Break"
+ egy.50.d:0 ""
+ egy.50.a:0 ""
+ 
+ egy.11.t:0 "The Flight to Iberia"
+ egy.11.d:0 "Farouk has been called many things, but modest is certainly not one of them. His arrival to Spain aboard a commercial airliner, confiscated for his personal use, should be proof enough of his character. To the anguish of the Iberian welcoming party, the transportation prepared for Farouk proved to be inadequate to transport his numerous escorts and luggage in addition to himself.\n\nBut such logistical problems could not interest the king the tiniest bit. Here he was, in Iberia, a land that promised to provide a multitude of pleasures to indulge in!"
+ egy.11.a:0 "The peninsula awaits! ¡Vamos!"
+ 
+ egy.51.t:0 "Portuegese Wine"
+ egy.51.d:0 ""
+ egy.51.a:0 ""
+ 
+ egy.52.t:0 "Barcelona Spree"
+ egy.52.d:0 ""
+ egy.52.a:0 ""
+ 
+ egy.1.t:0 "King Farouk Lands in Naples"
+ egy.1.d:0 ""
+ egy.1.a:0 "Hopefully he has a nice visit"
+ 
+ egy.53.t:0 "Blitz the Bazaars"
+ egy.53.d:0 ""
+ egy.53.a:0 ""
+ 
+ egy.54.t:0 "Italian Fashion"
+ egy.54.d:0 ""
+ egy.54.a:0 ""
+ 
+ egy.55.t:0 "The Fast and the Farouk"
+ egy.55.d:0 ""
+ egy.55.a:0 ""
+ 
+ egy.56.t:0 "Party Like an Egyptian"
+ egy.56.d:0 ""
+ egy.56.a:0 ""
+
+ egy.57.t:0 "Visit the Turks"
+ egy.57.d:0 ""
+ egy.57.a:0 ""
+ 
+ egy.10.t:0 "The Deal of a Lifetime"
+ egy.10.d:0 "Behind the facade formed by the busy main streets, Istanbul hides a thriving bazaar economy. Anything a man desires can be bought in these holes-in-walls, and vast amounts of money change hands daily. An especially infamous part of these markets are formed by historical artifacts, from antiquities around the world to memorabilia from the Second World War. Farouk's interest in all things expensive lead him to a certain shopkeeper, and soon he found himself in an auction for something dangerous.\n\nOnce the shopkeeper had determined that Farouk was indeed a man of great wealth, he invited the king to a secret auction happening in a shady warehouse. With the promise of items for sale that he would not want to miss, Farouk and his guards accepted the invitation. Upon arrival, Farouk joined a motley crew of a dozen others, among which two individuals stood out. The two large and imposing men, boasting a few scars on their faces, remained silent through most of the auction, as rare and expensive paintings, books and pottery was sold to the rest of the crowd. Farouk himself bought a few chandeliers, but the item advertised to him was the final piece on offer; A vial containing water from the Fountain of Youth."
+ egy.10.a:0 "Intriguing..."
+
+ egy.12.t:0 "The Auction of a Lifetime"
+ egy.12.d:0 "The auctioneer explained that the vial allegedly containing water from a fountain of legends had been passed on for centuries to great men and women throughout history. Beginning from Alexander the Great, it was said to have graced the hands of such men as Charlemagne, Elizabeth I and Otto von Bismarck, and in the aftermath of the Great War, it had been lost, only to end up in this warehouse for sale today. While suspicious, Farouk could not afford to miss on this chance of a lifetime. It was now that the two odd men sprung into action.\n\nThe auction was intense, and the constant gasping of the audience was music to Farouk's ears as the price kept climbing. Soon, it was Farouk against the two men. In a final bid to secure victory, Farouk made an offer the two men simply could not match, and the day was won.\n\nWhile the price had been disgustingly high, Farouk received the vial. To the shock of everyone in the room, he drank the contents as soon as he got the vial in his hands. His two competitors lamented loudly in German, and prior to making their exit they remarked that the League would not forget such an insult. Farouk naturally didn't give another thought to the threat, after all, he was now immortal! Unless he had been lied to from the start, which his pride would not allow to even be a possibility."
+ egy.12.a:0 "Tastes like victory!"
+ 
+ egy.58.t:0 "The Wealth of Istanbul"
+ egy.58.d:0 ""
+ egy.58.a:0 ""
+ 
+ egy.59.t:0 "Athens Spree"
+ egy.59.d:0 ""
+ egy.59.a:0 ""
+ 
+ egy.60.t:0 "Egyptians Annoyed With Farouk"
+ egy.60.d:0 ""
+ egy.60.a:0 ""
+ 
+ egy.61.t:0 "Expanding Our Horizons"
+ egy.61.d:0 ""
+ egy.61.a:0 ""
+ 
+ egy.62.t:0 "Egyptians Angry at Farouk"
+ egy.62.d:0 ""
+ egy.62.a:0 ""
+ 
+ egy.63.t:0 "Back in the USA"
+ egy.63.d:0 ""
+ egy.63.a:0 ""
+ 
+ egy.64.t:0 "Sex, Drugs and Rock'n Roll"
+ egy.64.d:0 ""
+ egy.64.a:0 ""
+ 
+ egy.65.t:0 "Playboy Farouk"
+ egy.65.d:0 ""
+ egy.65.a:0 ""
+ 
+ egy.66.t:0 "Walk Broadway"
+ egy.66.d:0 ""
+ egy.66.a:0 ""
+ 
+ egy.67.t:0 "The Colombian Exchange"
+ egy.67.d:0 ""
+ egy.67.a:0 ""
+
+ egy.68.t:0 "Blitz the Pakt"
+ egy.68.d:0 ""
+ egy.68.a:0 ""
+ 
+ egy.69.t:0 "Go Go Nippon"
+ egy.69.d:0 ""
+ egy.69.a:0 ""
+ 
+ egy.70.t:0 "Sip Sake"
+ egy.70.d:0 ""
+ egy.70.a:0 ""
+ 
+ egy.71.t:0 "Tour Tokyo"
+ egy.71.d:0 ""
+ egy.71.a:0 ""
+ 
+ egy.72.t:0 "Take a Swing Through India"
+ egy.72.d:0 ""
+ egy.72.a:0 ""
+ 
+ egy.73.t:0 "The Attraction of Opium"
+ egy.73.d:0 ""
+ egy.73.a:0 ""
+ 
+ egy.74.t:0 "Tour Germania"
+ egy.74.d:0 ""
+ egy.74.a:0 ""
+ 
+ egy.75.t:0 "The Beauty of Paris"
+ egy.75.d:0 ""
+ egy.75.a:0 ""
+ 
+ egy.76.t:0 "Head Down Into Africa"
+ egy.76.d:0 ""
+ egy.76.a:0 ""
+ 
+ egy.77.t:0 "Meet With Müller"
+ egy.77.d:0 ""
+ egy.77.a:0 ""
+ 
+ egy.78.t:0 "Return to Egypt"
+ egy.78.d:0 ""
+ egy.78.a:0 ""
+ 
+ egy.79.t:0 "Start Planning A Small Party"
+ egy.79.d:0 ""
+ egy.79.a:0 ""
+ 
+ egy.80.t:0 "Rock the Pyramids"
+ egy.80.d:0 ""
+ egy.80.a:0 ""
+ 
+ egy.15.t:0 "Farouk's Peak"
+ egy.15.d:0 "Farouk was having the time of his life. I mean, who wouldn't? A party in your name, with the most extravagant and lavish event with the richest and most famous people of the world attending. He might be very inebriated and at least a little high, but he could still think clearly enough to feel proud. He had travelled the world, seen the sights, met the good and the great, and had a hell of a good time doing it. These past 2 years, in Farouks eyes at least, were the best of the world.\n\nHowever, as he moved away from the buffet after gorging himself on food, he felt odd. It felt like something was stuck, and he had a hard time pinning down what was wrong. When he tried to speak, he quickly realised the issue. Something was stuck in his throat. He started trying to speak, trying to cough, anything to get people attention, trying to get the words out for help. Won't anyone notice, anyone come to help him? However, people were too busy talking amongst themselves, with the music drowning out his attempts at choking out a call for assistance. He collapsed to the ground, in his drunken state being unable to control his movements. His vision grew darker, the noises around him disappearing into the background. He made one last attempt at crying for help, trying to sputter out a final noise to try and get someone to come to his aid.\n\nBut Nobody Came.\n\nHis last thoughts were of his son, and how sorry he felt for him."
+ egy.15.a:0 "It appears that the party is over."
+ 
+ ###### RIP FAROUK LMAO #######
+
+ egy_the_death_of_farouk:0 "The Death of Farouk"
+ egy_the_death_of_farouk_desc:0 ""
+
+ egy_regency_council:0 "The Regency Council"
+ egy_regency_council_desc:0 ""
+
+ egy_farouk_debate:0 "The Farouk Debates"
+ egy_farouk_debate_desc:0 ""
+
+ egy_what_did_royalty_do:0 "What Did Royalty Ever Do To You?"
+ egy_what_did_royalty_do_desc:0 ""
+
+ egy_why_do_we_need_prime_minister:0 "Continue Monarchical Autonomy"
+ egy_why_do_we_need_prime_minister_desc:0 ""
+
+ egy_parliaments_shmarliaments:0 "Continue The Absolutist Style"
+ egy_parliaments_shmarliaments_desc:0 ""
+
+ egy_curtail_royal_power:0 "Curtail Royal Power"
+ egy_curtail_royal_power_desc:0 ""
+
+ egy_elect_prime_minister:0 "Appoint A New Prime Minister"
+ egy_elect_prime_minister_desc:0 ""
+
+ egy_create_parliament:0 "Restore Parliament"
+ egy_create_parliament_desc:0 ""
+
+ egy_regency_debate:0 "The Regency Debate"
+ egy_regency_debate_desc:0 ""
+
+ egy_regency_fuad:0 "Regent Muhammad Abdel Moneim"
+ egy_regency_fuad_desc:0 ""
+
+ egy_boy_king:0 "The Mess To Clean"
+ egy_boy_king_desc:0 ""
+
+ egy_promise_balbo:0 "Promise Balbo"
+ egy_promise_balbo_desc:0 ""
+
+ egy_republican_option:0 "The Republican Option"
+ egy_republican_option_desc:0 ""
+
+ egy_talk_with_moderates:0 "Speak With Moderates"
+ egy_talk_with_moderates_desc:0 ""
+
+ egy_no_kings:0 "No Kings"
+ egy_no_kings_desc:0 ""
+
+ egy_regency_adalberto:0 "Regent Adalberto di Savoia-Genova"
+ egy_regency_adalberto_desc:0 ""
+
+ egy_italian_king:0 "The Italian In Egypt"
+ egy_italian_king_desc:0 ""
+
+ egy_deny_controversies:0 "Deny Controversies"
+ egy_deny_controversies_desc:0 ""
+
+ egy_preparing_a_ceremony:0 "Get To Work"
+ egy_preparing_a_ceremony_desc:0 ""
+
+ egy_a_new_egypt:0 "A New Egypt"
+ egy_a_new_egypt_desc:0 ""
+
+ #### Regency Ideas ####
+ egy_a_post_farouk_egypt:0 "A Post-Farouk Egypt"
+ egy_a_post_farouk_egypt_desc:0 ""
+
+ egy_inefficient_regency_council:0 "Inefficient Regency Council"
+ egy_inefficient_regency_council_desc:0 ""
+
+ #### Regency Events ####
+ egy.300.t:0 ""
+ egy.300.d:0 ""
+ egy.300.a:0 ""
+
+ egy.301.t:0 ""
+ egy.301.d:0 ""
+ egy.301.a:0 ""
+
+ egy.302.t:0 ""
+ egy.302.d:0 ""
+ egy.302.a:0 ""
+
+ egy.303.t:0 ""
+ egy.303.d:0 ""
+ egy.303.a:0 ""
+
+ egy.304.t:0 ""
+ egy.304.d:0 ""
+ egy.304.a:0 ""
+
+ egy.305.t:0 ""
+ egy.305.d:0 ""
+ egy.305.a:0 ""
+
+ egy.306.t:0 ""
+ egy.306.d:0 ""
+ egy.306.a:0 ""
+
+ egy.307.t:0 ""
+ egy.307.d:0 ""
+ egy.307.a:0 ""
+
+ egy.308.t:0 ""
+ egy.308.d:0 ""
+ egy.308.a:0 ""
+
+ egy.309.t:0 ""
+ egy.309.d:0 ""
+ egy.309.a:0 ""
+
+ egy.310.t:0 ""
+ egy.310.d:0 ""
+ egy.310.a:0 ""
+
+ egy.311.t:0 ""
+ egy.311.d:0 ""
+ egy.311.a:0 ""
+
+ egy.312.t:0 ""
+ egy.312.d:0 ""
+ egy.312.a:0 ""
+
+ egy.313.t:0 ""
+ egy.313.d:0 ""
+ egy.313.a:0 ""
+
+ egy.314.t:0 ""
+ egy.314.d:0 ""
+ egy.314.a:0 ""
+
+ egy.315.t:0 ""
+ egy.315.d:0 ""
+ egy.315.a:0 ""
+
+ egy.316.t:0 ""
+ egy.316.d:0 ""
+ egy.316.a:0 ""
+
+ egy.317.t:0 ""
+ egy.317.d:0 ""
+ egy.317.a:0 ""
+
+ egy.318.t:0 ""
+ egy.318.d:0 ""
+ egy.318.a:0 ""
+ 
+ #### Adalberto Regency ####
+ egy_regency_of_adalberto:0 "The Regency Of Adalberto"
+ egy_regency_of_adalberto_desc:0 ""
+ egy_regency_adalberto_tt:0 "§GLong Live Regent Adalberto§!"
+ 
+ egy_get_country_under_control:0 "Get The Country Under Control"
+ egy_get_country_under_control_desc:0 ""
+
+ egy_deal_with_moderates:0 "Deal With The Moderates"
+ egy_deal_with_moderates_desc:0 ""
+ 
+ egy_round_them_up:0 "Round Them Up"
+ egy_round_them_up_desc:0 ""
+ 
+ egy_jail_them_all:0 "Jail Them All"
+ egy_jail_them_all_desc:0 ""
+ 
+ egy_enforce_propaganda:0 "Enforce Propaganda"
+ egy_enforce_propaganda_desc:0 ""
+ 
+ egy_italys_loyal_sons:0 "Egypt's Loyal Sons"
+ egy_italys_loyal_sons_desc:0 ""
+ 
+ egy_deal_with_nasser:0 "Deal With Nasser"
+ egy_deal_with_nasser_desc:0 ""
+ 
+ egy_side_with_muslim_brotherhood:0 "Side With The Muslim Brotherhood"
+ egy_side_with_muslim_brotherhood_desc:0 ""
+ 
+ egy_set_an_example_for_islam:0 "Set An Example For Islam"
+ egy_set_an_example_for_islam_desc:0 ""
+ 
+ egy_ban_nasserism:0 "Ban Nasserism"
+ egy_ban_nasserism_desc:0 ""
+ 
+ egy_egypt_not_for_socialists:0 "Egypt Is Not For the Socialists"
+ egy_egypt_not_for_socialists_desc:0 ""
+ 
+ egy_lets_go_a_bit_further:0 "Let's Go A Bit Further"
+ egy_lets_go_a_bit_further_desc:0 ""
+
+ egy_bribe_qutb:0 "Bribe Qutb"
+ egy_bribe_qutb_desc:0 ""
+ 
+ egy_promote_islam:0 "Promote Islam"
+ egy_promote_islam_desc:0 ""
+ 
+ egy_islam_is_italian_too:0 "Islam Is Italian Too"
+ egy_islam_is_italian_too_desc:0 ""
+ 
+ egy_de_faroukization:0 "De-Faroukization"
+ egy_de_faroukization_desc:0 ""
+ 
+ egy_fill_the_coffers:0 "Fill The Coffers"
+ egy_fill_the_coffers_desc:0 ""
+ 
+ egy_denounce_hedonism:0 "Denounce Hedonism"
+ egy_denounce_hedonism_desc:0 ""
+ 
+ egy_greater_italian_presence:0 "Greater Italian Presence"
+ egy_greater_italian_presence_desc:0 ""
+ 
+ egy_bring_in_more_settlers:0 "Bring In More Settlers"
+ egy_bring_in_more_settlers_desc:0 ""
+ 
+ egy_redraw_land_grants:0 "Redraw Land Grants"
+ egy_redraw_land_grants_desc:0 ""
+ 
+ egy_more_propaganda:0 "More Propaganda"
+ egy_more_propaganda_desc:0 ""
+ 
+ egy_mussolinis_brave_sons:0 "Mussolini's Brave Sons"
+ egy_mussolinis_brave_son_desc:0 ""
+ 
+ egy_italys_best_colony:0 "Italy's Best Colony"
+ egy_italys_best_colony_desc:0 ""
+ 
+ egy_an_italian_egypt:0 "An Italian Egypt"
+ egy_an_italian_egypt_desc:0 ""
+
+ #### Faud Regency ####
+ egy_egypts_new_epic_day:0 "A New Day For Egypt"
+ egy_egypts_new_epic_day_desc:0 ""
+ egy_egypts_new_epic_day_tt:0 "§GLong live the new regent!§!"
+ 
+ egy_egyptian_social:0 "A Social Egypt"
+ egy_egyptian_social_desc:0 ""
+ 
+ egy_the_role_of_religion:0 "The Role Of Religion"
+ egy_the_role_of_religion_desc:0 ""
+ 
+ egy_qutb_reasoning:0 "Reason With Qutb"
+ egy_qutb_reasoning_desc:0 ""
+ 
+ egy_emergence:0 "Emergence"
+ egy_emergence_desc:0 ""
+ 
+ egy_the_publics_voice:0 "The Public's Voice"
+ egy_the_publics_voice_desc:0 ""
+ 
+ egy_the_rights_of_man:0 "The Rights Of Man"
+ egy_the_rights_of_man_desc:0 ""
+ 
+ egy_the_same_here_as_there:0 "The Same Here As There"
+ egy_the_same_here_as_there_desc:0 ""
+ 
+ egy_break_falsehoods:0 "Break Falsehoods"
+ egy_break_falsehoods_desc:0 ""
+ 
+ egy_the_more_important_one:0 "The More Important One"
+ egy_the_more_important_one_desc:0 ""
+ 
+ egy_the_crowds:0 "The Crowds"
+ egy_the_crowds_desc:0 ""
+ 
+ egy_the_chains_that_bounds_us:0 "The Chains That Bound Us"
+ egy_the_chains_that_bounds_us_desc:0 ""
+ 
+ egy_the_monarch:0 "The Monarch"
+ egy_the_monarch_desc:0 ""
+ 
+ egy_the_regent:0 "The Regent"
+ egy_the_regent_desc:0 ""
+ 
+ egy_the_laws:0 "The Laws"
+ egy_the_laws_desc:0 ""
+ 
+ egy_the_speaker:0 "The Speaker"
+ egy_the_speaker_desc:0 ""
+ 
+ egy_just_a_bit_off:0 "Just A Bit Off"
+ egy_just_a_bit_off_desc:0 ""
+ 
+ egy_egypt_internal:0 "Egypt's Internal Struggles"
+ egy_egypt_internal_desc:0 ""
+ 
+ egy_farouks_flaws:0 "Farouk's Flaws"
+ egy_farouks_flaws_desc:0 ""
+ 
+ egy_dealing_with_his_gift:0 "Dealing With His Gift"
+ egy_dealing_with_his_gift_desc:0 ""
+ 
+ egy_the_italian_in_the_room:0 "The Italian In The Room"
+ egy_the_italian_in_the_room_desc:0 ""
+ 
+ egy_the_price_to_pay:0 "The Price To Pay"
+ egy_the_price_to_pay_desc:0 ""
+ egy_foreigntointernaldebt:0 "§OOur foreign debt is turned into national debt.§!"
+ 
+ egy_a_profit_to_turn:0 "A Profit To Turn"
+ egy_a_profit_to_turn_desc:0 ""
+ 
+ egy_free_the_corporations:0 "Free The Corporations"
+ egy_free_the_corporations_desc:0 ""
+ 
+ egy_slots_to_fill:0 "Slots To Fill"
+ egy_slots_to_fill_desc:0 ""
+ 
+ egy_send_debt_to_rome:0 "Send Debt To Rome"
+ egy_send_debt_to_rome_desc:0 ""
+ 
+ egy_a_shift_in_egypt:0 "A Shift In Egypt"
+ egy_a_shift_in_egypt_desc:0 ""
+ 
+ egy_a_more_free_egypt:0 "A More Free Egypt"
+ egy_a_more_free_egypt_desc:0 ""
+
+ ##Decision Loc##
+ EGY_protests_general:0 "Protest Management"
+ EGY_protests_general_desc:0 "god help us all"
+
+ EGY_cairo_protests:0 "Protests in Cairo"
+ EGY_protesting_cairo:0 "There are protests in Cairo"
+ EGY_cairo_control:0 "Keeping Cairo Under Control"
+
+ EGY_alexandria_protests:0 "Protests in Alexandria"
+ EGY_protesting_alexandria:0 "There are protests in Alexandria"
+ EGY_alexandria_control:0 "Keeping Alexandria Under Control"
+
+ EGY_ashwan_protests:0 "Protests in Aswan"
+ EGY_protesting_ashwan:0 "There are protests in Aswan"
+ EGY_ashwan_control:0 "Keeping Ashwan Under Control"
+
+ EGY_eastdesert_protests:0 "Protests in the Eastern Desert"
+ EGY_protesting_eastdesert:0 "There are protests in the Eastern Desert"
+ EGY_eastdesert_control:0 "Keeping the Eastern Desert Under Control"
+
+ EGY_PortSudan_protests:0 "Protests in Port Sudan"
+ EGY_protesting_PortSudan:0 "There are protests in Port Sudan"
+ EGY_PortSudan_control:0 "Keeping Port Sudan Under Control"
+
+ EGY_Khartoum_protests:0 "Protests in Khartoum"
+ EGY_protesting_Khartoum:0 "There are protests in Khartoum"
+ EGY_Khartoum_control:0 "Keeping Khartoum Under Control"
+
+ EGY_Juba_protests:0 "Protests in Juba"
+ EGY_protesting_Juba:0 "There are protests in Juba"
+ EGY_Juba_control:0 "Keeping Juba Under Control"
+
+ ###SADAT SADAT SADAT###
+ egy_the_past_in_perspective:0 "The Past In Perspective"
+ egy_the_past_in_perspective_desc:0 ""
+ egy_the_past_in_perspective_tt:0 "§GLong Live The Republic!§!"
+ 
+ egy_deradicalization:0 "Deradicalization"
+ egy_deradicalization_desc:0 ""
+ 
+ egy_traced_to_the_origin:0 "Traced To The Origin"
+ egy_traced_to_the_origin_desc:0 ""
+ 
+ egy_not_yet_free:0 "Not Yet Free"
+ egy_not_yet_free_desc:0 ""
+ 
+ egy_ignore_radical_parties:0 "Ignore Radical Parties"
+ egy_ignore_radical_parties_desc:0 ""
+ 
+ egy_guns_of_the_underground:0 "Guns Of The Underground"
+ egy_guns_of_the_underground_desc:0 ""
+ 
+ egy_something_to_lose:0 "Something To lose"
+ egy_something_to_lose_desc:0 ""
+ 
+ egy_ban_radical_parties:0 "Ban Radical Parties"
+ egy_ban_radical_parties_desc:0 ""
+ 
+ egy_freedom_isnt_free:0 "Freedom Isn't Free"
+ egy_freedom_isnt_free_desc:0 ""
+ 
+ egy_make_people_happy:0 "Make People Happy"
+ egy_make_people_happy_desc:0 ""
+ 
+ egy_answer_the_needs:0 "Answer The Needs"
+ egy_answer_the_needs_desc:0 ""
+ 
+ egy_livability:0 "Livability"
+ egy_livability_desc:0 ""
+ 
+ egy_hand_to_give:0 "Hand To Give"
+ egy_hand_to_give_desc:0 ""
+ 
+ egy_lift_them_up:0 "Lift Them Up"
+ egy_lift_them_up_desc:0 ""
+ 
+ egy_the_egyptians_of_egypt:0 "The Egyptians Of Egypt"
+ egy_the_egyptians_of_egypt_desc:0 ""
+ 
+ egy_the_settlers_of_egypt:0 "The Settlers Of Egypt"
+ egy_the_settlers_of_egypt_desc:0 ""
+ 
+ egy_those_in_egypt:0 "Those In Egypt"
+ egy_those_in_egypt_desc:0 ""
+ 
+ egy_new_justice:0 "New Justice"
+ egy_new_justice_desc:0 ""
+ 
+ egy_reformed_for_the_future:0 "Reformed For The Future"
+ egy_reformed_for_the_future_desc:0 ""
+ 
+ egy_distance_from_rome:0 "Distance From Rome"
+ egy_distance_from_rome_desc:0 ""
+ 
+ egy_pay_our_dues:0 "Pay Our Dues"
+ egy_pay_our_dues_desc:0 ""
+ 
+ egy_the_egyptian_standards:0 "The Egyptian Standards"
+ egy_the_egyptian_standards_desc:0 ""
+ 
+ egy_egyptian_factories:0 "Egyptian Factories"
+ egy_egyptian_factories_desc:0 ""
+ 
+ egy_greater_choice:0 "Greater Choice"
+ egy_greater_choice_desc:0 ""
+ 
+ egy_crimes_of_the_monarchy:0 "Crimes Of The Monarchy"
+ egy_crimes_of_the_monarchy_desc:0 ""
+ 
+ egy_the_hell_of_farouk:0 "The Hell Of Farouk"
+ egy_the_hell_of_farouk_desc:0 ""
+ 
+ egy_shed_sympathy:0 "Shed Sympathy"
+ egy_shed_sympathy_desc:0 ""
+ 
+ egy_lessons_to_learn:0 "Lessons To Learn"
+ egy_lessons_to_learn_desc:0 ""
+ 
+ egy_hefty_budget_limits:0 "Hefty Budget Limits"
+ egy_hefty_budget_limits_desc:0 ""
+ 
+ egy_no_remorse:0 "No Remorse"
+ egy_no_remorse_desc:0 ""
+ 
+ egy_break_the_past:0 "Break The Past"
+ egy_break_the_past_desc:0 ""
+ 
+ egy_all_to_forget:0 "All To Forget"
+ egy_all_to_forget_desc:0 ""
+ 
+ egy_the_peoples_egypt:0 "The People's Egypt"
+ egy_the_peoples_egypt_desc:0 ""

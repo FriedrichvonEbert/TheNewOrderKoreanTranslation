@@ -1,0 +1,221 @@
+﻿l_english:
+
+## Decisions ##
+
+ SGR_tree_reload_tt:0 "§T§YTree reloading§! can, sometimes, not work or not immediately work. This is a PDX bug we can't do anything about. §YTry to wait some days in-game or reload your save should this happen to you.§!§!"
+
+ SGR_state_of_the_reich_category:0 "The State of the Reich"
+ SGR_state_of_the_reich_category_desc:0 "The §YRegime§! currently leans... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§YMINIMUM REGIME STABILITY§! - [?SGRRegimeStability|W%]£stability_texticon\n\n\n  The §rReactionary§! wing of the NSDAP is currently [getSGRReactionaryDisposition].\n  The §gDissenters§! wing of the NSDAP is currently [getSGRDissentersDisposition].\n\n§MFOREIGN INFLUENCE ON GERMANY§!\n\n[USA.GetFlag][USA.GetName]: [getSGRUSAInfluence] §GReformist§! Influence ([?US_inf_display|+)])\n[JAP.GetFlag][JAP.GetName]: [getSGRJAPInfluence] §RConservative§! Influence ([?JAP_inf_display|-])\n[getSGRRussianNeighbor]\n\n§TSOCIAL OUTLOOK§! - [getLeaningPivot] ([?SGRSocietyLevel|+]/[getSGRLimits])\n\n  §RConservative Influence§! is currently [getConservativeWeight] ([?ConservativeWeight|-]).\n\n  §GReformist Influence§! is currently [getReformistWeight] ([?LiberalWeight|+]).\n\n  The §TOutlook§! is [getSGROutlook] at [?SGRSocietyTicker|+]/§Ymonth§!.\n\nThe §TSocial Outlook§! of the people is dependant on a wide range of factors, including party popularity, foreign influence and the state of economic reform. It determines where the §YRegime meter§! ticks towards, and is crucial to the future of the §YRegime§!."
+
+ SGR_authdemvsfash_ticker_desc:0 "§YRegime alignment§! currently has a [getSGRAlignmentTrend] ([?alignmentTickerDisplay|+]/§Ymonth§!) tick and a [getLeaningPivot] pivot.\n\nWhere the §YRegime's§! leaning ticks towards is determined by the §gGerman people's outlook§!, and is marked on the speedometer with a colored pivot.\n\n§YRegime alignment§! is influenced chiefly by decisions made as well as the influence of §TSocial Outlook§!.\n\n§GReformist§! or §RConservative§! regime leaning boosts the respective §TSocial Outlook§! influences."
+
+ SGR_reformist_influence_tt:0 "§WThe §GReformist§! cause in the §gReich§! benefits from this.§!\n"
+ SGR_reformist_influence_mid_tt:0 "§WThe §GReformist§! cause in the §gReich§! §Msignificantly§! benefits from this.§!\n"
+ SGR_reformist_influence_big_tt:0 "§WThe §GReformist§! cause in the §gReich§! §Tstrongly§! benefits from this!§!\n"
+
+ SGR_conservative_influence_tt:0 "§WThe §RConservative§! cause in the §gReich§! benefits from this.§!\n"
+ SGR_conservative_influence_mid_tt:0 "§WThe §RConservative§! cause in the §gReich§! §Osignificantly§! benefits from this.§!\n"
+ SGR_conservative_influence_big_tt:0 "§WThe §RConservative§! cause in the §gReich§! §xstrongly§! benefits from this.§!\n"
+
+ SGR_statereich_speeches:0 "Hold Speech"
+ SGR_statereich_speeches_desc:0 "Though many consider the students to be the backbone of Albert Speer's support, it is the NSDAP that is the Sword of Damocles hanging above him. With his charisma and political acumen, however, he can put on a dazzling display to appease some of the more pliable members."
+
+ SGR_StateReich_open_pakt:0 "§YShow Pakt-related Decisions§!"
+ SGR_StateReich_open_pakt_desc:0 "Click to show decisions related to recreating the Einheitspakt."
+
+ SGR_StateReich_close_pakt:0 "§YHide Pakt-related Decisions§!"
+ SGR_StateReich_close_pakt_desc:0 "Click to hide decisions related to recreating the Einheitspakt."
+
+ SGR_French_Question:0 "In the Land of Wine and Strife"
+ SGR_French_Question_desc:0 "The French have suffered much in the last years, partially at the hands of the Reich nonetheless. Convincing them to join the Einheitspakt again is going to be difficult and will require concessions. But we have to try, otherwise the land of wine will stay a cauldron of instability."
+
+ SGR_Brittany_War_Dec:0 "§RLaunch Fall Rollo§!"
+ SGR_Brittany_War_Dec_desc:0 "The time has come. Let us sail forwards and fulfill our part in the deal with France, so that we can finally reestablish our hegemoney in western europe."
+
+ SGR_FRA_Invasion_of_Brittany:0 "France Prepares for Fall Rollo"
+ SGR_FRA_Invasion_of_Brittany_desc:0 "The French are putting finishing touches on their part of Fall Rollo - the invasion will commence soon."
+
+ SGR_Invasion_of_Brittany:0 "Fall Rollo"
+ SGR_Invasion_of_Brittany_desc:0 "Fall Rollo is the Franco-German operation to regain control over Brittany, in exchange for France's reentry into the Einheitspakt. Like the eponymous Viking over a thousand years ago, Germany will reestablish its domain over France - with France's consent, no matter how reluctantly it is given..."
+
+ SGR_France_German_reinforcement:0 "Send Volunteers to France"
+ SGR_France_German_reinforcement_desc:0 "Considering our role in Fall Rollo, we will send Wehrmacht volunteer units in the form of Franco-German Freikorps."
+
+ SGR_France_German_equipment:0 "Ship Equipment to France"
+ SGR_France_German_equipment_desc:0 "The French army is hopelessly underequipped - we will send them arms to aid their effort in Fall Rollo."
+
+ SGR_France_German_manpower:0 "Send Reinforcements to France"
+ SGR_France_German_manpower_desc:0 "With the Burgundian attack against France, the French government has lost several of its largest population centers. We will send volunteers to aid their reserves."
+
+ SGR_Regime_Collapse_Impeding:0 "§xREGIME COLLAPSE IMMINENT!§!"
+ SGR_Regime_Collapse_Impeding_desc:0 "The Führer's regime has lost too much of its standing - we must act quickly and restore some sense of stability to it! The Reactionaries are already setting their sights on the government - hurry!"
+
+ SGR_Repatriation_Debug:0 "Commence Repatriation - DEBUG"
+ SGR_Repatriation_Debug_desc:0 "Placeholder"
+
+ SGR_South_African_War:0 "The South African War"
+ SGR_South_African_War_desc:0 "Warfare has erupted in the dark bowels of Afrika, and the time has come to support our Reichskommissariats. To aid Schenck, Müller and Hüttig in the struggle against the South Africans and their supporters, we will send the necessary troops to bolster their ranks. Our advisors predict success in less than a year, after which we shall establish a loyal Boer puppet state under Albert Hertzog."
+
+ SGR_South_African_War_Withdraw:0 "Withdraw from the South African War"
+ SGR_South_African_War_Withdraw_desc:0 "The situation in the South African War has not necessarily advantaged the Reich's position. Speer and his advisers have considered it prudent to withdraw our troops from this bloody conflict and let fate take its course."
+
+ SGR_Ukraine_Question:0 "Dealing with Ukraine"
+ SGR_Ukraine_Question_desc:0 "While not as unstable as Ostland, Ukraine must be dealt with as soon as possible. It is imperative that the political status of the 'Breadbasket of Europe' changes as part of our drive towards foreign policy reform."
+
+ SGR_Netherlands_Question:0 "The Dutch Problem"
+ SGR_Netherlands_Question_desc:0 "Our Germanic brethren in the Netherlands have torn themselves away from the security of the Reich, shockingly claiming their total independence despite Europe's cries of protestation. We will attempt to reintegrate the Dutch back into the Einheitspakt."
+
+ SGR_Denmark_Question:0 "The Status of Denmark"
+ SGR_Denmark_Question_desc:0 "The Germanization of our northern Protektorat has been under way for the last two decades. As well as the future of this nation in relation to the Reich, we must also address its changing political situation, and work towards integrating it back into the Einheitspakt."
+
+ SGR_Bohemia_Question:0 "Heim ins Reich, Böhmen-Mähren"
+ SGR_Bohemia_Question_desc:0 "For over two decades, the economic and political situation in the German Reich has seen Bohemia and Moravia stand firmly to the side as a loyal Protektorat. The chaotic upheaval of the Bürgerkrieg has blasted the winds of change throughout much of Europe, and now the time has come to rethink its current status."
+
+ SGR_Issue_of_Slovakia:0 "The Issue of Slovakia"
+ SGR_Issue_of_Slovakia_desc:0 "Having annexed the territory of Böhmen und Mähren, the Reich turns its monolithic gaze to the territory of Slovakia. Surrounded, with no friendly nations to back them up, and being simple to return back into the fold of the Pakt, we will issue them a concise ultimatum. They will either join, or we will smash open their pitiful army and march straight into Bratislava."
+ 
+ SGR_Moskowien_Question:0 "In the Heart of Russia"
+ SGR_Moskowien_Question_desc:0 "The plains of blood and snow await our attention in the east. The disappearance of Siegfried Kasche has shifted the political landscape of Moskowien, a situation we must maintain absolute control over if the Reich's territories are to survive and thrive."
+
+ SGR_Kaukasien_Question:0 "The Kaukasian Question"
+ SGR_Kaukasien_Question_desc:0 "In the swirling dark fog of the Caucasus lies our most disconnected and mysterious Reichskommissariat. As a key producer of oil, this territory must be completely stabilized if it is to continue serving the interests of the Reich."
+
+ SGR_Polish_Question:0 "The Polish Thorn"
+ SGR_Polish_Question_desc:0 "History has clearly dictated that Poland must remain a sharp pain in Germany's side no matter the decade. With the Bürgerkrieg won, we must turn our attention eastwards and make a firm decision on how to deal with this thorn - once and for all."
+
+ SGR_Norwegian_Question:0 "The Fortress Up North"
+ SGR_Norwegian_Question_desc:0 "As the Bürgerkrieg raged on, Josef Terboven shocked the Reich by dismantling our northern Reichskommissariat and sending its garrison back to Germany. As of now, the new self-professed leader of Norway will receive our full attention, and we will plot how best to approach the future of this nation."
+
+ SGR_Ostland_Question:0 "The Model Colony"
+ SGR_Ostland_Question_desc:0 "The so-called 'model colony' of the Reich, once a bastion of strength and loyalty, has been ravaged by internecine warfare and chaos. To ensure stability in our territories, we will shift our eyes eastwards and deal with Reichskommissariat Ostland."
+
+## GUI stuff ##
+
+ #State of the Reich
+
+ GER_SGR_propaganda_campaign_dynamic_modifier:0 "Propaganda Campaign"
+
+ SGR_state_propaganda:0 "§WSTATE PROPAGANDA§!"
+ SGR_reformist_button:0 "§GREFORMIST FOCUS§!"
+ SGR_reformist_underbutton:0 "§gREFORMIST FOCUS§!"
+ SGR_conservative_button:0 "§RCONSERVATIVE FOCUS§!"
+ SGR_conservative_underbutton:0 "§gCONSERVATIVE FOCUS§!"
+ SGR_launch_campaign_button:0 "§YLAUNCH CAMPAIGN§!"
+ SGR_launch_campaign_underbutton:0 "§gLAUNCH CAMPAIGN§!"
+
+ SGR_campaign_status:0 "[getSGRPropagandaCampaignStatus]"
+ SGR_propaganda_in_progress:0 "§RCAMPAIGN IN PROGRESS§!"
+ SGR_propaganda_not_ready:0 "§YCAMPAIGN IN PLANNING§!"
+ SGR_propaganda_nothing:0 "§OCAMPAIGN AVAILABLE§!"
+
+ SGR_launch_button_tt:0 "Current §WPropaganda Campaign§! effects:\n\n-Political Power gain modifier: [?SGRPropagandaPPDisplay|+%]\n-Weekly Stability gain: [?SGRPropagandaStabDisplay|+%]\n-[getSGRPropagandaOutlook]\n-[getSGRPropagandaRegime]"
+ SGR_reformist_regime_prop_display:0 "§GReformist§! Regime Tick: [?SGRPropagandaReformistTickDisplay|+0]"
+ SGR_conservative_regime_prop_display:0 "§RConservative§! Regime Tick: [?SGRPropagandaReformistTickDisplay|-0]"
+ SGR_reformist_outlook_prop_display:0 "§TSocial Outlook§! §Gprogression§!: [?SGRReformistVarDisplay|+0]"
+ SGR_conservative_outlook_prop_display:0 "§TSocial Outlook§! §Rregression§!: [?SGRConservativeVarDisplay|-0]"
+
+
+ SGR_launch_underbutton_tt:0 "Launching a §WPropaganda Campaign§! requires:\n\n-Either a §RConservative§! or §GReformist§! Focus set\n-£GFX_political_power_texticon §MPolitical Power§! Investment\n-£GFX_dollar_sign §GBudget§! Investment\n\nA Propaganda Campaign takes §Y4 months§!."
+ SGR_reformist_button_tt:0 "The Campaign will be set to focus on §GReformist§! propaganda.\n\nFocusing on §Greformist§! propaganda will increase the §YRegime's§! tick into reformism, §Gprogress§! §TSocial Outlook§! and increase §YRegime stability§!."
+ SGR_conservative_button_tt:0 "The Campaign will be set to focus on §RConservative§! propaganda.\n\nFocusing on §Rconservative§! propaganda will increase the §YRegime's§! tick into conservatism, §Rregress§! §TSocial Outlook§! and increase §YRegime stability§!."
+ SGR_increase_pp_button_tt:0 "Increase £GFX_political_power_texticon §MPolitical Power§! by §Y20§!, granting the following prospective boni:\n\n-§G+0.5%§! Political Power growth\n-§G+1§! §TSocial Outlook§! Tick"
+ SGR_decrease_pp_button_tt:0 "Decrease £GFX_political_power_texticon §MPolitical Power§! by §Y20§!, granting the following prospective boni:\n\n-§R-0.5%§! Political Power growth\n-§R-1§! §TSocial Outlook§! Tick"
+ SGR_increase_budget_button_tt:0 "Increase £GFX_dollar_sign §GBudget§! by §Y2M$§!, granting the following prospective boni:\n\n-§G+0.05§! Weekly Stability growth\n-§G+1§! §YRegime Leaning§! Tick"
+ SGR_decrease_budget_button_tt:0 "Decrease £GFX_dollar_sign §GBudget§! by §Y2M$§!, granting the following prospective boni:\n\n-§R-0.05§! Weekly Stability growth\n-§R-1§! §YRegime Leaning§! Tick"
+
+ SGR_ppinvest_text:0 "£GFX_political_power_texticon §MPOLITICAL POWER§!: [?SGRPPInvestment|Y0]"
+ SGR_moneyinvest_text:0 "£GFX_dollar_sign §GBUDGET§!: [?SGRUSDInvestment|Y0]§YM$§!"
+
+
+SGR_somewhat_reformist:0 "§Gsomewhat reformist§!"
+SGR_average_reformist:0 "§Greformist§!"
+SGR_strongly_reformist:0 "§Gstrongly reformist§!"
+SGR_somewhat_conservative:0 "§Rsomewhat conservative§!"
+SGR_average_conservative:0 "§Rconservative§!"
+SGR_strongly_conservative:0 "§Rstrongly conservative§!"
+SGR_unmoving_ticker:0 "§Yunmoving§!"
+
+SGR_russia_unifier_blank:0 "Russia: §YAssessment pending...§!"
+SGR_russia_unifier_fill:0 "[RUS_total_unifier.GetFlag][RUS_total_unifier.GetName]: [getSGRRussianInfluence]"
+
+SGR_russia_inf_strcon:0 "§xALARMING§! militarist outcry"
+SGR_russia_inf_con:0 "§ONOTICEABLE§! militarist outcry"
+SGR_russia_inf_ref:0 "§MMILD§! academic interest"
+SGR_russia_inf_strref:0 "§GSIGNIFICANT§! academic interest"
+
+SGR_foreigninf_nonexistant:0 "§WNON-EXISTENT§!"
+SGR_foreigninf_weak:0 "§YWEAK§!"
+SGR_foreigninf_middling:0 "§OMIDDLING§!"
+SGR_foreigninf_significant:0 "§RSIGNIFICANT§!"
+
+SGR_Cons_Inf_weak:0 "§YWEAK§!"
+SGR_Cons_Inf_med:0 "§OSIGNIFICANT§!"
+SGR_Cons_Inf_strong:0 "§RPOWERFUL§!"
+
+SGR_Ref_Inf_weak:0 "§WWEAK§!"
+SGR_Ref_Inf_med:0 "§MSIGNIFICANT§!"
+SGR_Ref_Inf_strong:0 "§GPOWERFUL§!"
+
+SGR_Leaning_str_con:0 "§ROVERWHELMINGLY CONSERVATIVE§!"
+SGR_Leaning_con:0 "§OCONSERVATIVE§!"
+SGR_Leaning_neutral:0 "§YINBETWEEN§!"
+SGR_Leaning_ref:0 "§MREFORMIST§!"
+SGR_Leaning_str_ref:0 "§GOVERWHELMINGLY REFORMIST§!"
+
+SGR_outlook_progressing:0 "§Gprogressing§!"
+SGR_outlook_regressing:0 "§Rregressing§!"
+SGR_outlook_stagnant:0 "§Ystagnant§!"
+SGR_outlook_upperlimit:0 "§Y100§!"
+SGR_outlook_lowerlimit:0 "§Y-100§!"
+
+SGR_party_support_none:0 "§xhostile§!"
+SGR_party_support_weak:0 "§Runcooperative§!"
+SGR_party_support_mid:0 "§Yundecided§!"
+SGR_party_support_strong:0 "§Tcooperative§!"
+SGR_party_support_complete:0 "§yfriendly§!"
+
+
+SGR_neutral_tt:0 "§Yneutral§!"
+
+SGR_authdemtrend_small:0 "§Greformist§!"
+SGR_authdemtrend_medium:0 "§Gstrongly reformist§!"
+SGR_authdemtrend_large:0 "§Goverwhelmingly reformist§!"
+
+SGR_fashtrend_small:0 "§Rconservative§!"
+SGR_fashtrend_medium:0 "§Rstrongly conservative§!"
+SGR_fashtrend_large:0 "§Roverwhelmingly conservative§!"
+
+#Propaganda events
+
+
+ speerpropaganda.1.t:0 "Letters From The Front"
+ speerpropaganda.1.desc:0 "Wilhelm was giddy with excitement as he entered the museum. A museum! His first trip outside the city without his parents! His class had won a visit to the newly-opened "Bürgerkriegsmuseum" in Hamburg and now twenty-five boys between nine and ten years old, along with two teachers, had left Elmshorn for the great metropolis.\n\nEveryone was in awe at what they saw. Each room had its theme: "urban warfare" with reconstructed trenches; "politics" with an analysis of what caused the civil war; "espionage" with the tactics used by the contenders to gain the upper hand. Finally, the last room's theme was "letters from the front" with hundreds of missives sent by soldiers or militiamen to their dear ones during the war.\n\nWilhelm looked at one of the cases, and started reading: "Dear Kriemhild, I miss you so much. You have no idea how much I would like to return to you home, to return to you, but I can't.\nHeydrich has sent his wolves. Do you remember the small restaurant where we dined during last year's holiday? They hanged half of the village outside there, the rest are digging trenches for the SS. I won't let this happen to you, I swear it upon my life.\nThey'll probably attack tomorrow, and I'll be ready. I keep your photo next to my heart, if I die, I'll die with your name on my lips. I love you."\nA small plaque said "Eberhart Jenk, killed in action"\nWilhelm trembled at the words he had just read, and asked his teacher: "Teacher, who was Heydrich?"\nThe teacher's expression immediately turned sour, but he looked calmly at the boy and answered: "Heydrich was a man who wanted to see the world burn, and he was committed to see his desires realized. Tell me Wilhelm, do you want it too? Do you want to see the world burn?"\n"No!" said the child, "I want a happy world, I want to go with mama and papa to have fun!"\nThe teacher's face turned jovial again, and he chuckled, patting the boy's head: "Come now, it's late" then he raised his voice: "Class! Time to go, I hope the visit was instructive!"
+ speerpropaganda.1.a:0 "Yes teacher!"
+
+ speerpropaganda.2.t:0 "A Show Trial, Literally"
+ speerpropaganda.2.desc:0 "The courtroom was filled to the brim. Journalists, cameramen, policemen and common folk filled the rows left for the public, and it was entirely justified: Herbert Otto Gille, head of security in the traitor SS faction during the Bürgerkrieg, and directly responsible for hundreds, if not thousands of summary executions, had been captured less than a week ago while trying to pass the border between Elsass and the Ordenstaat.\n\nThe doors opened, and the crowd roared as Gille was brought to his desk. Some, most likely relatives to some of his victims, tried to breach security to get to him, but the police kept them away. When order returned inside the large room, the trial begun. Requested if he had any declaration, the defendant stood: "I do not recognise this court! Each and everyone of you holds no authority over me!" screams erupted, but he yelled even louder, "Don't you see this? This disorder, this decadence? Heydrich wanted to bring peace to Germany! A new order, a perfect order! He would have excised corruption like one removes a cancer! Look at you now, you are nothing but a gangrene on the perfect body of Germany!"\n\nA laugh interrupted his tirade. Amidst his fits, the prosecutor started a recording.\n"Thank you for your donation to our cause" came Gille's perfectly audible voice, "my wife will surely appreciate this fine necklace, and I can indeed make use of a new car, but how about we talk more important business?"\n"Herr Gille" the prosecutor chimed happily, ending the recording, "if we are a cancer on Germany, it seems you are far from being healthy..."\n\nA few seconds passed, then someone from the crowd started laughing, then another joined, then another, until the entire room was falling apart, the laughs audible from the road outside the courtroom. That day, newspapers and television news all featured the livid SS as he desperately tried to scream at the crowd to shut up, only to be drowned by the laughing"
+ speerpropaganda.2.a:0 "The SS disappear in shame, defeated by a laugh."
+
+ speerpropaganda.3.t:0 "A New Future Of German Culinary Arts"
+ speerpropaganda.3.desc:0 "It's hard to make out at first as the screen cleared up, but within the monochrome kitchen was a traditional German woman. "My, I need to prepare food for the family!" She exclaimed. "I must prepare the tools first, however. First things first," she began, reaching in for a knife. After doing so, the camera panned to showcase some fruit. "I need to cut the fruit..." She muttered, setting the knife down and beginning to dig into the food. After a few seconds, she let out an annoyed sigh and pulled the knife out, it showing barely any progress. "Darn it. Well, I have to check on the plates and see if they're clean."\n\nReaching down, she grabbed two plates in both hands and turned around to show them to the camera. Surprise and disgust mixed in her face as she looked at them. "Cracks!" She said, groaning as she stared at the damaged plates. "And these were perfectly fine just yesterday!\n\nWhat sounded like a door opening was heard from the side, and a deeper, male voice interjected. "Honey!" He happily exclaimed, and she jolted a little, setting the plates down and walking over as the camera panned to her husband, who was carrying a large box. "I noticed the quality of our silverware and decided to take a look into the nearby store to see what they were selling and, oh, you cannot believe it!"\n\n"Can I?" The wife asked, motioning for the box to be settled down on the kitchen desk. "What makes this one stand out so much?" The husband chuckled and pointed towards a small label on the back. The camera zoomed in - it said 'MADE WITH ALL-GERMAN HANDS'. She raised her eyebrows. "Wow! You mean to tell me that this was all made by German workers?" He nodded. "In a German factory?" He nodded again. "Paid a fair, living wage, by German employers?" One last time, he nodded, and she smiled, turning towards the camera and crossing her arms."
+ speerpropaganda.3.a:0 "That's it, then! I'm never buying goods made by forced hands again! Only free and happy ones!"
+
+ speerpropaganda.4.t:0 "Rinsing Out Evil"
+ speerpropaganda.4.desc:0 "A burst of static filled the screen, before cutting to a man clad in black armor, holding a rifle in one hand and a flag in another. Stepping forward, he raised the flag and showed the old symbol of Germany, planting it in front of his feet. As he did, he took a step back and glanced at the flag, looking at it with curiosity. Then, curiosity turned into hostility, which turned into laughter. Shaking his head, the man merely gripped his rifle with both hands and pointed at the flag, pulling the trigger.\n\nGunfire erupted, and once he stopped, the camera panned back to the pole as the German flag fell. In cold, dead silence, a few seconds passed before another flag was lifted in its place. Pure black, with the Black Sun. Ordensstaat-Burgund.\n\nThe camera panned backwards as cruel laughter echoed, again and again. Ruined buildings and city blocks was all that there was to see - covering the entire span of the camera in smoke and destruction. It continued for almost a dozen seconds, before the camera switched yet again.\n\nThis time it was the clean streets of Germany proper. A young, healthy looking man, dressed in the colors of the Wehrmacht, was playing with two children, happily ruffling their hair and playing short games with them. In the distance, their parents watched, their faces approving and their smiles bright. As this was going on, a voice began speaking.\n\n"We must avoid the mistakes of the past that have led to cruelty. Yesterday, blood filled the streets in Germany. Today, peace reigns from our homes to the forests and the mountains. Tomorrow, we shall have an ethical Wehrmacht - one that will be incapable of committing the horrors that Germany was forced to follow in the past." Finally, the soldier bids the parents and their children farewell, and they amicably part ways."
+ speerpropaganda.4.a:0 "Do your part. Make Germany's armed forces a more humane place."
+
+ speerpropaganda.5.t:0 "Das Vaterland"
+ speerpropaganda.5.desc:0 ""It's beginning dear! Bring the boys!" Hilde Schwartz yelled from the living room, and immediately the rest of the family was there: Gunther on the sofa by his wife's side, Hans and little Frank playing on the floor in front of the TV. A few seconds later, a tune started playing: publicized by newspapers and posters, "Das Vaterland" was a large historical series focused on teaching German history to the larger populace, mixing education and entertainment.\n\n"Good evening, and welcome to Das Vaterland!" The host beamed to the camera. "To my right we have Karl Manitius, director of the Monumenta Germaniae Historica, the greatest study group on German Middle Age, and to my left Friedrich Zipfel, war veteran and expert in studies of the Second World War" the two men nodded politely. "This evening, we'll examine our relationship with the country widely considered as the greatest enemy of Germany throughout its history: France"\n\nThe show lasted until midnight, but to the family it felt like just minutes had passed. The reconstruction of the Battle of Bouvines, when France had unjustly refused the Holy Roman Empire as its legitimate lord, had fascinated the children; Gunther had appreciated Manitius's disquisition over how the French even allied with the infidels to oppose the Germans during the Thirty Years War; finally, Hilde was moved to tears by the recount of how how Louise, Queen of Prussia, was so brave as to personally face Napoleon when all hope had been lost.\n\nGunther collected Frank, who had fallen asleep, and made to the bedroom, but Hans tugged his trousers: "Daddy" came the child's sleepy voice, "will this happen again? The wars I mean, will France try to take our place again?". Gunther thought about it a second, then chuckled and patted his son's head: "No little one, it won't. Our Führer will protect us, as he did during the civil war" and then the family went to sleep together."
+ speerpropaganda.5.a:0 "Yes, daddy!"
+
+ speerpropaganda.6.t:0 "The Enemy Lurking Within"
+ speerpropaganda.6.desc:0 "The streets of Munich were still dark, the tiniest flickering at the horizon foretelling the dawn, but Eberhard Gottlieb was already going to start the oven. A baker needs to have fresh bread for everyone from the get go, doesn't he? As he made his way through well-known roads, he gave a quick hello to the Orpo patrol passing the crossroad at 5:45 sharp, but something attracted his attention as soon as the Wacht had passed: just past the road, an entire wall had been covered in posters, all identical. He reached the nearest one, and stopped to look at it.\n\nThe imagery was simple but effective. A tall column stood at the center, with a large, golden eagle perched at the top, majestic and proud. At the bottom of the column, dozens of little men were busy with pickaxes trying to bring the towering structure down: some of them wore rich clothes, others didn't, but all of them had their pockets filled with green dollars, and looked at the eagle with a mixture of hate and fear. At the lower end of the poster, in large, Gothic letters, was written "Schützen Sie Deutschland!"\n\nEberhard looked at the poster for a few minutes, reflecting. Were really the Americans responsible for all that had happened? For the economic collapse, the Russian War, the Civil War? It was impossible, but still, they were Germany's enemies until a few years ago, so they would surely have everything to gain from a weak Reich... As he made his way to the bakery, Eberhard couldn't help one last thought."
+ speerpropaganda.6.a:0 "Bastard Amerikaner..."
+
+ speerpropaganda.7.t:0 "It Starts With You!"
+ speerpropaganda.7.desc:0 "The screen cuts to a band of young men, wearing traditional Hitler Youth clothing, climbing up a hill in an act of physical training. A voice crackles in - deep, slow, and soft. "Do you believe your child is aimless in their goals and ambitions? Perhaps they are lazy, and want to do nothing but waste their time with the various frivolities of life. If you are a concerned parent of this type of son, we suggest to you an easy solution!"\n\nIt changes once again. A boy no younger than seventeen stands tall, though awkward, and gives a small, unnecessary pause before speaking to the camera. "When I joined the Hitler Youth, I hated it at first. Everything was so orderly and disciplined. It was like being trapped in a cage. But after a few months, things got much better. I became fit," he said, then it cut to him running a marathon. "I became passionate," he continued, cutting to him standing on a podium and holding a speech in front of his fellow Youth members. "And I made many friends."\n\nAs it finally shifts to him speaking with other members, the narrator chimes in. "So that is that. As you can see, it can turn the life of any youth on his head! We recommend that all Aryan men join the Hitler Youth, so your body and mind will sharpen and strengthen in equal rank.""
+ speerpropaganda.7.a:0 "And remember, a good Aryan man makes for a good Aryan Reich!"
+
+ speerpropaganda.8.t:0 "Guns Into Ploughshares"
+ speerpropaganda.8.desc:0 "All around him, gunfire rang. He was a soldier of the Reich - filled with grit and determination. In one bloodied hand he carried a pistol, and in the other a sharp, clean knife. Around him were the bodies of his fellow man, yet even more of the Bolshevik menace. He stared angrily at the flag on the edge of the building, standing tall and mocking him. It was a bright red, with the tainted symbol of the hammer and sickle painted in the top left corner.\n\nThe man spat with disgust. Walking forward, he aimed the knife high, and the camera panned to the side. As he neared the flag, his hand swung downwards, intending to rip straight through and tear it off. As it did, it stopped in the middle of his swing, and the image slowly faded into something else.\n\nIt was a hoe that struck into soil. The camera panned back, and it showed an older man working under the sun. A voice began speaking as the man continued working. "Your service does not have to end after being discharged from the Wehrmacht." He stated. "Indeed, they are especially valuable to the Reich. Men of brawn and brain, veterans who know their loyalty is true - they are what embodies the Reich! So, to those who have served loyally, there remains hope."\n\nIt cuts to another older man, who walked up to someone's house and knocked politely on the door, giving them mail before leaving. "New industries open, and so do new opportunities. If you are a veteran of the Heer, Luftwaffe, or Kriegsmarine, you are privileged employment in civilian sectors. We cannot forget the sacrifices you have made, and so in turn, you will be rewarded.""
+ speerpropaganda.8.a:0 "Never forget - the Reich is the people, and one must always work for the people!"

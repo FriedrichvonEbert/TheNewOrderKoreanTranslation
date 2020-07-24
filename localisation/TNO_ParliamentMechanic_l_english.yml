@@ -1,0 +1,202 @@
+﻿# |===============================================================================================================================| #
+#  ____   ____  ____   _      ____   ____  ___ ___    ___  ____   ______      ___ ___    ___    __  __ __   ____  ____   ____   __  #
+# |    \ /    ||    \ | |    |    | /    ||   |   |  /  _]|    \ |      |    |   |   |  /  _]  /  ]|  |  | /    ||    \ |    | /  ] #
+# |  o  )  o  ||  D  )| |     |  | |  o  || _   _ | /  [_ |  _  ||      |    | _   _ | /  [_  /  / |  |  ||  o  ||  _  | |  | /  /  #
+# |   _/|     ||    / | |___  |  | |     ||  \_/  ||    _]|  |  ||_|  |_|    |  \_/  ||    _]/  /  |  _  ||     ||  |  | |  |/  /   #
+# |  |  |  _  ||    \ |     | |  | |  _  ||   |   ||   [_ |  |  |  |  |      |   |   ||   [_/   \_ |  |  ||  _  ||  |  | |  /   \_  #
+# |  |  |  |  ||  .  \|     | |  | |  |  ||   |   ||     ||  |  |  |  |      |   |   ||     \     ||  |  ||  |  ||  |  | |  \     | #
+# |__|  |__|__||__|\_||_____||____||__|__||___|___||_____||__|__|  |__|      |___|___||_____|\____||__|__||__|__||__|__||____\____| #
+#                                                                                                                                   #
+# |=======================================================| Localization |========================================================| #
+
+l_english:
+
+##### GUI #####
+ #### Main - 'TNO_ParliamentMechanic_Container'
+  # Title
+  TNO_ParliamentMechanic_Title_text: "THE HOUSE OF COMMONS"
+  TNO_ParliamentMechanic_PGSD_GS_Title_text: "GOVERNM. STABILITY"
+  TNO_ParliamentMechanic_PGSD_Parties_Title_text: "PARTIES"
+  TNO_ParliamentMechanic_PGSD_Map_Title_text: "ELECTORAL MAP"
+  
+  ### Parliament Display - PD
+   ## Portraits
+    # Speaker
+    TNO_ParliamentMechanic_PD_Portrait_Speaker_tt: "The Right Honorable,\n§Y[TNO_ParliamentMechanic_Ideas_Get_Speaker_Name]§!\n[TNO_ParliamentMechanic_Ideas_Get_Speaker_Effects]"
+    TNO_ParliamentMechanic_PD_Portrait_Speaker_ttd: "[TNO_ParliamentMechanic_Ideas_Get_Speaker_Desc]"
+    # Monarch
+    TNO_ParliamentMechanic_PD_Portrait_Monarch_tt: "Their Majesty,\n§Y[TNO_ParliamentMechanic_Ideas_Get_Monarch_Name]§!\n[TNO_ParliamentMechanic_Ideas_Get_Monarch_Effects]"
+    TNO_ParliamentMechanic_PD_Portrait_Monarch_ttd: "[TNO_ParliamentMechanic_Ideas_Get_Monarch_Desc]"
+    # Opposition Leader
+    TNO_ParliamentMechanic_PD_Portrait_OppLeader_tt: "The Right Honorable,\n§Y[TNO_ParliamentMechanic_Ideas_Get_OppLeader_Name]§!\n[TNO_ParliamentMechanic_Ideas_Get_OppLeader_Effects]"
+    TNO_ParliamentMechanic_PD_Portrait_OppLeader_ttd: "[TNO_ParliamentMechanic_Ideas_Get_OppLeader_Desc]"
+    # See 'Parliamentary Leaders' section below for more info
+
+   ## Seats - See 'TNO_ParliamentMechanic_Seats_Entry_<Status>'
+
+  ### Parties & Government Stability Display - PGSD
+   ## Parties & TopBar (PTB)
+    # Info Button
+    TNO_ParliamentMechanic_PGSD_PTB_InfoButton_tt: "Info"
+   
+   ## Governmental Stability - GS
+    # Value
+    TNO_ParliamentMechanic_PGSD_GS_Value_tt: "Example"
+    TNO_ParliamentMechanic_PGSD_GS_Value_ttd: "Example"
+
+ #### Seats Entry - 'TNO_ParliamentMechanic_Seats_Entry_<Status>'
+  #
+
+ #### Parties Entry - 'TNO_ParliamentMechanic_Parties_Entry'
+  # Party Name
+  TNO_ParliamentMechanic_Parties_Entry_Name_text: "[TNO_ParliamentMechanic_Get_Party_ShortName]"
+  TNO_ParliamentMechanic_Parties_Entry_Name_tt: "[TNO_ParliamentMechanic_Get_Party_Name]"
+  TNO_ParliamentMechanic_Parties_Entry_Name_ttd: "Example"
+  # Support %
+  TNO_ParliamentMechanic_Parties_Entry_Support_text: "[TNO_ParliamentMechanic_Get_Party_Support]"
+  TNO_ParliamentMechanic_Party_Support_Green: "[?ParliamentMechanic_Party_Support^TNO_PM_GUIHelper_PartiesDisp_Array_val|%G0]"
+  TNO_ParliamentMechanic_Party_Support_Yellow: "[?ParliamentMechanic_Party_Support^TNO_PM_GUIHelper_PartiesDisp_Array_val|%Y0]"
+  TNO_ParliamentMechanic_Party_Support_Red: "[?ParliamentMechanic_Party_Support^TNO_PM_GUIHelper_PartiesDisp_Array_val|%R0]"
+  TNO_ParliamentMechanic_Parties_Entry_Support_tt: "Example"
+  TNO_ParliamentMechanic_Parties_Entry_Support_ttd: "Example"
+  # Number of Seats
+  TNO_ParliamentMechanic_Parties_Entry_NumSeats_text: "[?ParliamentMechanic_Party_SeatNum^TNO_PM_GUIHelper_PartiesDisp_Array_val|Y0]"
+  TNO_ParliamentMechanic_Parties_Entry_NumSeats_tt: "[TNO_ParliamentMechanic_Get_Party_Name] have [?ParliamentMechanic_Party_SeatNum^TNO_PM_GUIHelper_PartiesDisp_Array_val|Y0] held seats."
+  TNO_ParliamentMechanic_Parties_Entry_NumSeats_ttd: "Example"
+##### GUI #####
+
+##### Parties #####
+ ### Names:
+   # - Remember, parties are indexed by their identifier- which starts from 1 
+   TNO_ParliamentMechanic_Party_Name_1: "NULL Party" # Code convenience, 'holds' empty seats.
+   TNO_ParliamentMechanic_Party_Name_2: "Independents"
+   TNO_ParliamentMechanic_Party_Name_3: "The Royal Party's Moderates"
+   TNO_ParliamentMechanic_Party_Name_4: "The Royal Party's Reformists"
+   TNO_ParliamentMechanic_Party_Name_5: "The Royal Party's Hardliners"
+   TNO_ParliamentMechanic_Party_Name_6: "United England's Macmillanists"
+   TNO_ParliamentMechanic_Party_Name_7: "United England's Liberals"
+   TNO_ParliamentMechanic_Party_Name_8: "The Royal Party"
+   TNO_ParliamentMechanic_Party_Name_9: "The National Front"
+   TNO_ParliamentMechanic_Party_Name_10: "The Liberal Party"
+   TNO_ParliamentMechanic_Party_Name_11: "National Democratic League's New Whigs"
+   TNO_ParliamentMechanic_Party_Name_12: "National Democratic League's Democrats"
+   TNO_ParliamentMechanic_Party_Name_13: "National Democratic League's Patriots"
+   TNO_ParliamentMechanic_Party_Name_14: "Socialist Labour Party's Progress"
+   TNO_ParliamentMechanic_Party_Name_15: "Socialist Labour Party's Pollitites"
+   TNO_ParliamentMechanic_Party_Name_16: "Movement in Support of the Army"
+   TNO_ParliamentMechanic_Party_Name_17: "Independent Labour Party"
+   TNO_ParliamentMechanic_Party_Name_18: "Scottish National Party"
+   TNO_ParliamentMechanic_Party_Name_19: "The Unionist Party"
+   TNO_ParliamentMechanic_Party_Name_20: "Plaid Cymru"
+   TNO_ParliamentMechanic_Party_Name_21: "Cymru Goch"
+   TNO_ParliamentMechanic_Party_Name_22: "British National Convention"
+   TNO_ParliamentMechanic_Party_Name_23: "Popular Convention"
+
+   TNO_ParliamentMechanic_Party_ShortName_1: "NULL" # Code convenience, 'holds' empty seats.
+   TNO_ParliamentMechanic_Party_ShortName_2: "Independents"
+   TNO_ParliamentMechanic_Party_ShortName_3: "RP - Moderates"
+   TNO_ParliamentMechanic_Party_ShortName_4: "RP - Reformists"
+   TNO_ParliamentMechanic_Party_ShortName_5: "RP - Hardliners"
+   TNO_ParliamentMechanic_Party_ShortName_6: "UE - Macmillanists"
+   TNO_ParliamentMechanic_Party_ShortName_7: "UE - Liberals"
+   TNO_ParliamentMechanic_Party_ShortName_8: "RP"
+   TNO_ParliamentMechanic_Party_ShortName_9: "NF"
+   TNO_ParliamentMechanic_Party_ShortName_10: "LP"
+   TNO_ParliamentMechanic_Party_ShortName_11: "NDL - New Whigs"
+   TNO_ParliamentMechanic_Party_ShortName_12: "NDL - Democrats"
+   TNO_ParliamentMechanic_Party_ShortName_13: "NDL - Patriots"
+   TNO_ParliamentMechanic_Party_ShortName_14: "SLP - Progress"
+   TNO_ParliamentMechanic_Party_ShortName_15: "SLP - Pollitites"
+   TNO_ParliamentMechanic_Party_ShortName_16: "MSA"
+   TNO_ParliamentMechanic_Party_ShortName_17: "ILP"
+   TNO_ParliamentMechanic_Party_ShortName_18: "SNP"
+   TNO_ParliamentMechanic_Party_ShortName_19: "UP"
+   TNO_ParliamentMechanic_Party_ShortName_20: "Plaid Cymru"
+   TNO_ParliamentMechanic_Party_ShortName_21: "Cymru Goch"
+   TNO_ParliamentMechanic_Party_ShortName_22: "BNC"
+   TNO_ParliamentMechanic_Party_ShortName_23: "PC"
+
+   TNO_ParliamentMechanic_PartyGroup_Name_1: "The Royal Party"
+   TNO_ParliamentMechanic_PartyGroup_Name_2: "United England"
+   TNO_ParliamentMechanic_PartyGroup_Name_3: "National Democratic League"
+   TNO_ParliamentMechanic_PartyGroup_Name_4: "Socialist Labour Party"
+  
+ ### Statuses:
+  TNO_ParliamentMechanic_Party_DoesNotExist: "<x> does not hold seats in Parliament"
+  TNO_ParliamentMechanic_Party_isGovernment: "<x> is the leading party"
+  TNO_ParliamentMechanic_Party_inGovernment: "<x> is in the Government"
+  TNO_ParliamentMechanic_Party_inOpposition: "<x> is in the Opposition"
+  TNO_ParliamentMechanic_Party_isSittingOut: "<x> does not sit in Parliament"
+ # Seat Num:
+  TNO_ParliamentMechanic_Party_SeatNum: "<x> have <y> seats in Parliament"
+##### Parties #####
+
+##### Parliamentary Leaders #####
+ ### Speaker
+  ## Picture
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_ex: "GFX_ParliamentMechanic_PD_Portrait_Speaker_Ex"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Alec_Douglas_Home: "GFX_Portrait_ENG_Alec_Douglas_Home"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Reg_Birch: "GFX_Portrait_ENG_Reg_Birch"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Bernard_Montgomery: "GFX_Portrait_ENG_Bernard_Montgomery"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Claude_Auchinleck: "GFX_Portrait_ENG_Claude_Auchinleck"
+
+  ## Name
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_ex: "Example Speaker Man"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Alec_Douglas_Home: "Alec Douglas-Home"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Reg_Birch: "Reg Birch"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Bernard_Montgomery: "Bernard Montgomery"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Claude_Auchinleck: "Claude Auchinleck"
+
+  ## Effects
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_ex: "Prime Minister\nNational Socialism\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Alec_Douglas_Home: "Prime Minister\n§ERoyal Party - Moderates§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Reg_Birch: "Prime Minister\n§ESocialist Labour Party - Hardliners§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Bernard_Montgomery: "Prime Minister\n§gEnglish Preservation Junta§!"
+
+  ## Description
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_ex: "Description, blah blah blah"
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Alec_Douglas_Home: "Alec Douglas-Home holds the dubious honour of being the only Prime Minister in over twenty years to be capable of holding office for more than three. Solidifying the Royal Party from a morass of cliques and power blocks into a at least nominally more united party by making deals with the major factions, Home has surprised his critics by seemingly being the first PM to seriously address the matter of armed rebellious groups without direct Cornish intervention. Perhaps Douglas-Home will be the Prime Minister England needs, but even if he isn't he's all England has."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Reg_Birch: "The thoroughness with which the London Uprising was quashed cannot be understated, of the Communist leaders directly involved only a mere four dozen or so escaped, and less than half of the actual fighters were alive three weeks later. But Reg Birch did as he always does, he persevered and refused to give up. Rebuilding the communist networks into a less overt fighting force, Birch was one of the architects of the eventual Left Resistance and its union with HMMLR. Now that the fascists are gone, the former engineer is the face of English communism, God help those who stand in his way."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Bernard_Montgomery: "When Britain splintered under the iron boots of the Wehrmacht, Bernard Montgomery did his duty by serving the collaborationists and keeping the nation together, protecting it from the extremes of Germany's wrath. Once more he has answered the call of duty in the name of England. With a stiff upper lip and a firm hand, Field Marshal Montgomery has established himself as ruler of the Southern Temporary Military District. When his work is done, only then will England return to normality."
+
+ ### Monarch
+  ## Picture
+   TNO_ParliamentMechanic_Ideas_Monarch_Picture_ex: "GFX_ParliamentMechanic_PD_Portrait_Monarch_Ex"
+   TNO_ParliamentMechanic_Ideas_Monarch_Picture_Edward_VIII: "GFX_Portrait_Britain_Edward_VIII"
+   TNO_ParliamentMechanic_Ideas_Monarch_Picture_Elizabeth_II: "GFX_Portrait_Britain_Elizabeth_II"
+   TNO_ParliamentMechanic_Ideas_Monarch_Picture_NoMonarch: "GFX_Portrait_Britain_NoMonarch"
+
+  ## Name
+   TNO_ParliamentMechanic_Ideas_Monarch_Name_ex: "Example Monarch Man"
+   TNO_ParliamentMechanic_Ideas_Monarch_Name_Edward_VIII: "Edward VIII"
+   TNO_ParliamentMechanic_Ideas_Monarch_Name_Elizabeth_II: "Elizabeth II"
+   TNO_ParliamentMechanic_Ideas_Monarch_Name_NoMonarch: "No Monarch"
+
+  ## Effects
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_ex: "Monarch\nNational Socialism\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Edward_VIII: "Monarch\nAuthoritarian Democracy"
+
+  ## Description (Tooltip Delayed)
+   TNO_ParliamentMechanic_Ideas_Monarch_Desc_ex: "Description, blah blah blah"
+   TNO_ParliamentMechanic_Ideas_Monarch_Desc_Edward_VIII: "His Majesty, Edward VIII, the twice-crowned King of England, is hated by many from Bill Alexander to the English Church. Born during the reign of Queen Victoria II, Edward was directly in line for the British throne. He was crowned first in 1936 and reigned for an uneventful 3 years before crisis struck: Edward VIII was marrying an American divorcee and in order to do that, he was forced to give up his position as king. This was not to last. \n\nWhen the Germans landed on the shores of England, they crowned Edward as their puppet, and once again, Edward was reluctantly King of England. His second reign however was far more disastrous than the first and far less short with HMMLR growing in strength every day and the country in economic crisis as he watched. In truth, Edward would want nothing more than to abdicate his throne, but now, it falls to him to guide his nation through this time of turmoil."
+
+ ### Opposition Leader
+  ## Picture
+   TNO_ParliamentMechanic_Ideas_OppLeader_Picture_ex: "GFX_ParliamentMechanic_PD_OppLeader_Monarch_Ex"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Picture_Harold_Macmillan: "GFX_Portrait_ENG_Harold_Macmillan"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Picture_No_Opposition: "GFX_Portrait_Britain_No_Opposition"
+
+  ## Name
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_ex: "Example Opposition Leader Man"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_Harold_Macmillan: "Harold Macmillan"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_No_Opposition: "No Opposition"
+   
+  ## Effects
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_ex: "Opposition Leader\nNational Socialism\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Harold_Macmillan: "Opposition Leader\n§ERoyal Party - Reformists§!\n\tTODO"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_No_Opposition: ""
+ 
+  ## Description (Tooltip Delayed)
+   TNO_ParliamentMechanic_Ideas_OppLeader_Desc_ex: "Description, blah blah blah"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Desc_Harold_Macmillan: "Sacrifice is the most noble of attributes a politician can have, perhaps that is why it's so astonishingly rare? Regardless, Harold Macmillan is defined by the fact that he will do absolutely anything and everything to keep England from another destructive war. Whether it be Germany or the United States, England in Macmillan's eyes is just not ready to suffer the loss of yet another generation of young men to the battlefields. Whether Macmillan is able to enact these desires is yet to be ascertained, but may God have mercy on those who stand against him."
+##### Parliamentary Leaders #####

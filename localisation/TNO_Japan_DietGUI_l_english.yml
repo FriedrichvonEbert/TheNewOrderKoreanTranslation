@@ -1,0 +1,222 @@
+﻿l_english:
+
+#Modifiers
+
+JAP_peers_support_dynamic_modifier:0 "House of Peers Support"
+JAP_public_support_dynamic_modifier:0 "Public Approval"
+
+#Names and stuff
+
+JAP_D_house_of_reps:0 "§WTHE HOUSE OF REPRESENTATIVES§!"
+JAP_D_house_of_peers:0 "§WTHE HOUSE OF PEERS§!"
+
+JAP_D_pres_of_house:0 "§WPRESIDENT§!\nof the House:"
+JAP_D_pres_of_house_name:0 "Tokugawa Iemasa"
+JAP_D_support_peers:0 "§MSUPPORT§!\nin the House of Peers:"
+JAP_D_support_peers_var:0 "[getJAPPeersSupport] - [?JAP_Peers_support|Y%1]£GFX_podium_texticon"
+JAP_D_public_approval:0 "§TPUBLIC§!\nApproval:"
+JAP_D_public_approval_var:0 "[getJAPPublicSupport] - [?JAP_Public_support|Y%1]£GFX_approval_texticon"
+
+#Factions
+JAP_D_royalist_faction:0 "§GKIDOITES§!"
+JAP_D_liberals_faction:0 "§YLIBERALS§!"
+JAP_D_independents_faction:0 "§gINDEPENDENTS§!"
+JAP_D_conservatives_faction:0 "§BCONSERVATIVES§!"
+JAP_D_reformists_faction:0 "§rREFORMISTS§!"
+
+##Scripted loc##
+
+#GUI
+
+JAP_GUI_IJA_tt:0 "§OSupport from the Imperial Japanese Army§! ([?JAP_IJA_support|Y]§Y%§!)\n\nSupport from both branches of the Imperial Japanese Armed Forces is important to the §Ggovernment's§! stability and paramount to the Empire's ability to defend itself. Should the §OIJA§! and §BIJN§! not be approximately in equal favor of the §Ggovernment§!, §RParanoia§! will increase."
+JAP_GUI_IJA_title_sl:0 "§OThe Imperial Japanese Army§!"
+
+JAP_GUI_IJN_tt:0 "§BSupport from the Imperial Japanese Navy§! ([?JAP_IJN_support|Y]§Y%§!)\n\nSupport from both branches of the Imperial Japanese Armed Forces is important to the §Ggovernment's§! stability and paramount to the Empire's ability to defend itself. Should the §OIJA§! and §BIJN§! not be approximately in equal favor of the §Ggovernment§!, §RParanoia§! will increase."
+JAP_GUI_IJN_title_sl:0 "§BThe Imperial Japanese Navy§!"
+
+JAP_GUI_balance_title_sl:0 "§WNo branch§!"
+JAP_GUI_Tension_tt:0 "§RParanoia§! ([?JAP_Tension|R]§R%§!)\n\n[getJAPDominatingFaction] §Wis currently dominating the military.§!\n\n§RParanoia§! is an abstract measure of the Japanese military's unhingedness and willingness to take actions into their own hands, a possibly §Rextremely dangerous§! problem for the Empire of Japan. The higher §RParanoia§! becomes, the more infighting the military suffers and the lesser the §Ggovernment's§! control over the military becomes." 
+
+JAP_GUI_faction_name:0 "[getJAPGUIFaction]"
+
+JAP_GUI_faction_status:0 "[getJAPGUIFactionStatus]"
+JAP_GUI_faction_status_opposition:0 "§ROPPOSITION§!"
+JAP_GUI_faction_status_government:0 "§GGOVERNMENT§!"
+
+JAP_GUI_faction_seats:0 "[getJAPGUIFactionSeats]£GFX_diet_texticon"
+JAP_GUI_faction_seats_1:0 "[?JAP_Diet_Seats^1|Y0]"
+JAP_GUI_faction_seats_2:0 "[?JAP_Diet_Seats^2|Y0]"
+JAP_GUI_faction_seats_3:0 "[?JAP_Diet_Seats^3|Y0]"
+JAP_GUI_faction_seats_4:0 "[?JAP_Diet_Seats^4|Y0]"
+JAP_GUI_faction_seats_5:0 "[?JAP_Diet_Seats^5|Y0]"
+
+JAP_GUI_actions_timing_14:0 "Available every §Y14 days§!"
+JAP_GUI_actions_timing_30:0 "Available every §Y30 days§!"
+
+JAP_GUI_action_1:0 "[getJAPGUIAction1]"
+JAP_GUI_action_1_tt:0 "[getJAPGuiAction1tt]"
+JAP_government_action_1:0 "§GEmbellish Accomplishments§!"
+JAP_government_action_1_tt:0 "Results are still the best way to convince people to side with you. Sometimes, it takes a little convincing - and what better way is there to convince someone than to dress up the truth?"
+JAP_opposition_action_1:0 "§RDiscredit Faction§!"
+JAP_opposition_action_1_tt:0 "The strife for dominance over the House of Representatives is an eternal battle between its factions. Thankfully, all that some people need to switch sides is learning just how bad their current benefactors are - even if it may be somewhat exaggerated..."
+JAP_opposition_action_1_cost:0 "§Y25§!£GFX_political_power_texticon  | §Y2%§! £GFX_podium_texticon"
+
+JAP_GUI_action_2:0 "[getJAPGUIAction2]"
+JAP_GUI_action_2_tt:0 "[getJAPGuiAction2tt]"
+JAP_government_action_2:0 "§GUse the Public§!"
+JAP_government_action_2_tt:0 "One does not necessarily have to rule with the people's assent, but having it makes governing considerably easier. This includes convincing Members of Parliament to join ranks with you, even if at the cost of some of the public's respect."
+JAP_opposition_action_2:0 "§RAttack Publicly§!"
+JAP_opposition_action_2_tt:0 "Our enemies in the House of Representatives are fair game. It is part and parcel of the life of a politician to discredit adversaries whenever they can, however they must."
+JAP_opposition_action_2_cost:0 "§Y25§!£GFX_political_power_texticon  | §Y2%§!£GFX_approval_texticon"
+
+JAP_GUI_action_3:0 "[getJAPGUIAction3]"
+JAP_GUI_action_3_tt:0 "[getJAPGuiAction3tt]"
+JAP_government_action_3:0 "§GLaunch Propaganda Campaign§!"
+JAP_government_action_3_tt:0 "Although the right to rule is constitutionally mandated for the government, the people and House of Peers must be supportive of it for it to come to any fruition. A well-funded propaganda campaign is sure to foster this belief amongst them."
+JAP_opposition_action_3:0 "§RLaunch Slander Campaign§!"
+JAP_opposition_action_3_tt:0 "A concerning amount of people, both in the general public and the House of Peers, continue to support our government's adversaries. It is time for them to learn the truth about them, no matter how ugly we claim it is."
+JAP_opposition_action_3_cost:0 "§Y50§!£GFX_political_power_texticon  | §Y50M§!£GFX_dollar_sign"
+
+JAP_ConservativeParty_Ino:0 "Ino"
+JAP_ConservativeParty_Ikeda:0 "Ikeda"
+
+#IJA/IJN/Tension
+
+IJA_button_1_title:0 "§G+¥§!"
+IJA_button_1_tt:0 "§OINCREASE BUDGET§!\n\nInvesting into the budget of the §OIJA§! will surely grant our government their favor and support.\n\n§R+25M USD Expenditures§!\n§G+5% §OIJA§! Support§!\n§R-2.5% §BIJN§! Support§!\n§R+1.5% Paranoia§!\n\n§YAvailable every month§!"
+IJA_button_2_title:0 "§G+§!£GFX_army_experience"
+IJA_button_2_tt:0 "§OPROMOTE OFFICERS§!\n\nOfficers known to be friendly to our government will be promoted, satisfying the §OIJA§! as a whole and granting us useful allies.\n\n§R-10 Army Experience§!\n§G+10% §NIJA§! Support§!\n§R-5% §BIJN§! Support§!\n§R+1.5% Paranoia§!\n\n§YAvailable every month§!"
+IJA_button_3_title:0 "§R-¥§!"
+IJA_button_3_tt:0 "§RDECREASE BUDGET§!\n\nSlashing the budget of the §OIJA§! won't be liked by them, but at least it'll save us some money.\n\n§G-25M USD Expenditures§!\n§R-5% §OIJA§! Support§!\n§G+2.5% §BIJN§! Support§!\n§R+1.5% Paranoia§!\n\n§YAvailable every month§!"
+IJA_button_4_title:0 "§R-§!£GFX_army_experience"
+IJA_button_4_tt:0 "§RDEMOTE OFFICERS§!\n\nWhatever may be the reason, the government will demote several §OIJA§! officers deemed unruly. This will, however, cause the branch to become even more §Rparanoid§!.\n\n§R-5 Army Experience§!\n§R-5% §OIJA§! Support§!\n§G+2.5% §BIJN§! Support§!\n§R+1.5% Paranoia§!\n\n§YAvailable every month§!"
+
+IJN_button_1_title:0 "§G+¥§!"
+IJN_button_1_tt:0 "§BINCREASE BUDGET§!\n\nInvesting into the budget of the §BIJN§! will surely grant our government their favor and support.\n\n§R+25M USD Expenditures§!\n§G+5% §BIJN§! Support§!\n§R-2.5% §OIJA§! Support§!\n§R+1.5% Paranoia§!\n\n§YAvailable every month§!"
+IJN_button_2_title:0 "§G+§!£GFX_navy_experience"
+IJN_button_2_tt:0 "§BPROMOTE OFFICERS§!\n\nOfficers known to be friendly to our government will be promoted, satisfying the §BIJN§! as a whole and granting us useful allies.\n\n§R-10 Navy Experience§!\n§G+10% §BIJN§! Support§!\n§R-5% §OIJA§! Support§!\n§R+1.5% Paranoia§!\n\n§YAvailable every month§!"
+IJN_button_3_title:0 "§R-¥§!"
+IJN_button_3_tt:0 "§RDECREASE BUDGET§!\n\nSlashing the budget of the §BIJN§! won't be liked by them, but at least it'll save us some money.\n\n§G-25M USD Expenditures§!\n§R-5% §BIJN§! Support§!\n§G+2.5% §OIJA§! Support§!\n§R+1.5% Paranoia§!\n\n§YAvailable every month§!"
+IJN_button_4_title:0 "§R-§!£GFX_navy_experience"
+IJN_button_4_tt:0 "§RDEMOTE OFFICERS§!\n\nWhatever may be the reason, the government will demote several §BIJN§! officers deemed unruly. This will, however, cause the branch to become even more §Rparanoid§!.\n\n§R-5 Navy Experience§!\n§R-10% §BIJN§! Support§!\n§G+5% §OIJA§! Support§!\n§R+1.5% Paranoia§!\n\n§YAvailable every month§!"
+
+Tension_button_1_tt:0 "§GINTERSERVICE TRAINING PROGRAMS§!\n\n~~gimme loc~~\n\n§R+25M USD Expenditure§!\n§G+2.5% §BIJN§! Support§!\n§G+2.5% §OIJA§! Support§!\n§G-5% Paranoia§!\n\n§YAvailable every month§!"
+Tension_button_2_tt:0 "§GENCOURAGE INTERSERVICE WAR GAMES§!\n\n~~gimme loc~~\n\n§R+350M USD Expenditure§!\n§G+5% §BIJN§! Support§!\n§G+5% §OIJA§! Support§!\n§G-25% Paranoia§!\n\n§YAvailable every 180 days§!"
+Tension_button_3_tt:0 "§RFIGHT INTERSERVICE CORRUPTION§!\n\n~~gimme loc~~\n\n§R-10% §BIJN§! Support§!\n§R-10% §OIJA§! Support§!\n§G-10% Paranoia§!\n\n§YAvailable every 48 days§!"
+Tension_button_4_tt:0 "§RREMOVE GENERAL HQ'S COMMAND ROLE§!\n\n~~gimme loc~~\n\n§R-25% §BIJN§! Support§!\n§R-25% §OIJA§! Support§!\n§G-40% Paranoia§!\n\n§YAvailable once every §Ryear§!§!"
+
+JAP_IJA_support_inc_small_tt:0 "§W§OIJA§! support §Gincreases§! somewhat.§!"
+JAP_IJA_support_inc_med_tt:0 "§W§OIJA§! support §Gincreases§! moderately.§!"
+JAP_IJA_support_inc_big_tt:0 "§W§OIJA§! support §Gincreases§! significantly.§!"
+
+JAP_IJA_support_dec_small_tt:0 "§W§OIJA§! support §Rdecreases§! somewhat.§!"
+JAP_IJA_support_dec_med_tt:0 "§W§OIJA§! support §Rdecreases§! moderately.§!"
+JAP_IJA_support_dec_big_tt:0 "§W§OIJA§! support §Rdecreases§! significantly.§!"
+
+JAP_IJN_support_inc_small_tt:0 "§W§BIJN§! support §Gincreases§! somewhat.§!"
+JAP_IJN_support_inc_med_tt:0 "§W§BIJN§! support §Gincreases§! moderately.§!"
+JAP_IJN_support_inc_big_tt:0 "§W§BIJN§! support §Gincreases§! significantly.§!"
+
+JAP_IJN_support_dec_small_tt:0 "§W§BIJN§! support §Rdecreases§! somewhat.§!"
+JAP_IJN_support_dec_med_tt:0 "§W§BIJN§! support §Rdecreases§! moderately.§!"
+JAP_IJN_support_dec_big_tt:0 "§W§BIJN§! support §Rdecreases§! significantly.§!"
+
+JAP_Tension_inc_small_tt:0 "§W§RParanoia§! §Rincreases§! somewhat.§!"
+JAP_Tension_inc_med_tt:0 "§W§RParanoia§! §Rincreases§! moderately.§!"
+JAP_Tension_inc_big_tt:0 "§W§RParanoia§! §Rincreases§! significantly.§!"
+
+JAP_Tension_dec_small_tt:0 "§W§RParanoia§! §Gdecreases§! somewhat.§!"
+JAP_Tension_dec_med_tt:0 "§W§RParanoia§! §Gdecreases§! moderately.§!"
+JAP_Tension_dec_big_tt:0 "§W§RParanoia§! §Gdecreases§! significantly.§!"
+
+#House of Peers
+
+JAP_Peers_support_none:0 "§xNon-Existent§!"
+JAP_Peers_support_weak:0 "§RWeak§!"
+JAP_Peers_support_average:0 "§YAverage§!"
+JAP_Peers_support_high:0 "§OHigh§!"
+JAP_Peers_support_veryhigh:0 "§GVery High§!"
+
+JAP_Peers_support_tt:0 "The §MSupport of the House of Peers§! is viable to have for any Prime Minister of Japan, as it is the §WHouse of Peers§! and Privy Council that ultimately nominate the Prime Minister to begin with. As such, keeping them content is of paramount importance. Should their §MSupport§! fall below §Y50%§!, the Prime Minister's reign falls in §Rcritical danger and may collapse§!!"
+
+JAP_Peers_support_increase_small:0 "The §MSupport of the House of Peers§! §Gincreases§! somewhat."
+JAP_Peers_support_increase_med:0 "The §MSupport of the House of Peers§! §Gincreases§! moderately."
+JAP_Peers_support_increase_big:0 "The §MSupport of the House of Peers§! §Gincreases§! significantly."
+JAP_Peers_support_increase_huge:0 "The §MSupport of the House of Peers§! §Gincreases§! overwhelmingly!"
+
+JAP_Peers_support_decrease_small:0 "The §MSupport of the House of Peers§! §Rdecreases§! somewhat."
+JAP_Peers_support_decrease_med:0 "The §MSupport of the House of Peers§! §Rdecreases§! moderately."
+JAP_Peers_support_decrease_big:0 "The §MSupport of the House of Peers§! §Rdecreases§! significantly."
+JAP_Peers_support_decrease_huge:0 "The §MSupport of the House of Peers§! §Rdecreases§! overwhelmingly!"
+
+#Public Approval
+
+JAP_Public_support_none:0 "§xHostile§!"
+JAP_Public_support_weak:0 "§RUnpopular§!"
+JAP_Public_support_average:0 "§YWary§!"
+JAP_Public_support_high:0 "§OHigh§!"
+JAP_Public_support_veryhigh:0 "§GVery High§!"
+
+JAP_Public_support_tt:0 "§TPublic Support§! is crucial to any government wishing to safely rule over its state, and the Empire of Japan is not an exception to this. The Prime Minister's government thrives and shrivels under the §TPublic's§! watchful eye, and their demeanor is crucial to how much support the ruling faction has in the §WHouse of Representatives§!. Falling below §Y30%§! will §Rrapidly diminish the ruling faction's power§!."
+
+JAP_Public_support_increase_small:0 "§TPublic Approval§! §Gincreases§! somewhat."
+JAP_Public_support_increase_med:0 "§TPublic Approval§! §Gincreases§! moderately."
+JAP_Public_support_increase_big:0 "§TPublic Approval§! §Gincreases§! significantly."
+JAP_Public_support_increase_huge:0 "§TPublic Approval§! §Gincreases§! overwhelmingly!"
+
+JAP_Public_support_decrease_small:0 "§TPublic Approval§! §Rdecreases§! somewhat."
+JAP_Public_support_decrease_med:0 "§TPublic Approval§! §Rdecreases§! moderately."
+JAP_Public_support_decrease_big:0 "§TPublic Approval§! §Rdecreases§! significantly."
+JAP_Public_support_decrease_huge:0 "§TPublic Approval§! §Rdecreases§! overwhelmingly!"
+
+#Diet power
+
+Kido_too_powerful:0 "As §GKidoite§! power ([?JAP_Diet_Faction_Power^1|%Y]) lies at or over §Y75%§!, it can no longer increase."
+Kido_increase_small:0 "§WThe §GKidoite§! faction's power §Gincreases§! somewhat.§!"
+Kido_increase_med:0 "§WThe §GKidoite§! faction's power §Gincreases§! moderately.§!"
+Kido_increase_big:0 "§WThe §GKidoite§! faction's power §Gincreases§! significantly.§!"
+
+Kido_too_weak:0 "As §GKidoite§! power ([?JAP_Diet_Faction_Power^1|%Y]) lies at or below §Y2.5%§!, it can no longer decrease."
+Kido_decrease_small:0 "§WThe §GKidoite§! faction's power §Rdecreases§! somewhat.§!"
+Kido_decrease_med:0 "§WThe §GKidoite§! faction's power §Rdecreases§! moderately.§!"
+Kido_decrease_big:0 "§WThe §GKidoite§! faction's power §Rdecreases§! significantly.§!"
+
+Takagi_too_powerful:0 "As §YLiberal§! power ([?JAP_Diet_Faction_Power^2|%Y]) lies at or over §Y75%§!, it can no longer increase."
+Takagi_increase_small:0 "§WThe §YLiberal§! faction's power §Gincreases§! somewhat.§!"
+Takagi_increase_med:0 "§WThe §YLiberal§! faction's power §Gincreases§! moderately.§!"
+Takagi_increase_big:0 "§WThe §YLiberal§! faction's power §Gincreases§! significantly.§!"
+
+Takagi_too_weak:0 "As §YLiberal§! power ([?JAP_Diet_Faction_Power^2|%Y]) lies at or below §Y2.5%§!, it can no longer decrease."
+Takagi_decrease_small:0 "§WThe §YLiberal§! faction's power §Rdecreases§! somewhat.§!"
+Takagi_decrease_med:0 "§WThe §YLiberal§! faction's power §Rdecreases§! moderately.§!"
+Takagi_decrease_big:0 "§WThe §YLiberal§! faction's power §Rdecreases§! significantly.§!"
+
+Miki_too_powerful:0 "As §gIndependent§! power ([?JAP_Diet_Faction_Power^3|%Y]) lies at or over §Y75%§!, it can no longer increase."
+Miki_increase_small:0 "§WThe §gIndependent§! faction's power §Gincreases§! somewhat.§!"
+Miki_increase_med:0 "§WThe §gIndependent§! faction's power §Gincreases§! moderately.§!"
+Miki_increase_big:0 "§WThe §gIndependent§! faction's power §Gincreases§! significantly.§!"
+
+Miki_too_weak:0 "As §gIndependent§! power ([?JAP_Diet_Faction_Power^3|%Y]) lies at or below §Y2.5%§!, it can no longer decrease."
+Miki_decrease_small:0 "§WThe §gIndependent§! faction's power §Rdecreases§! somewhat.§!"
+Miki_decrease_med:0 "§WThe §gIndependent§! faction's power §Rdecreases§! moderately.§!"
+Miki_decrease_big:0 "§WThe §gIndependent§! faction's power §Rdecreases§! significantly.§!"
+
+Ino_too_powerful:0 "As §BConservative§! power ([?JAP_Diet_Faction_Power^4|%Y]) lies at or over §Y75%§!, it can no longer increase."
+Ino_increase_small:0 "§WThe §BConservative§! faction's power §Gincreases§! somewhat.§!"
+Ino_increase_med:0 "§WThe §BConservative§! faction's power §Gincreases§! moderately.§!"
+Ino_increase_big:0 "§WThe §BConservative§! faction's power §Gincreases§! significantly.§!"
+
+Ino_too_weak:0 "As §BConservative§! power ([?JAP_Diet_Faction_Power^4|%Y]) lies at or below §Y2.5%§!, it can no longer decrease."
+Ino_decrease_small:0 "§WThe §BConservative§! faction's power §Rdecreases§! somewhat.§!"
+Ino_decrease_med:0 "§WThe §BConservative§! faction's power §Rdecreases§! moderately.§!"
+Ino_decrease_big:0 "§WThe §BConservative§! faction's power §Rdecreases§! significantly.§!"
+
+Kaya_too_powerful:0 "As §rReformist§! power ([?JAP_Diet_Faction_Power^5|%Y]) lies at or over §Y75%§!, it can no longer increase."
+Kaya_increase_small:0 "§WThe §rReformist§! faction's power §Gincreases§! somewhat.§!"
+Kaya_increase_med:0 "§WThe §rReformist§! faction's power §Gincreases§! moderately.§!"
+Kaya_increase_big:0 "§WThe §rReformist§! faction's power §Gincreases§! significantly.§!"
+
+Kaya_too_weak:0 "As §rReformist§! power ([?JAP_Diet_Faction_Power^5|%Y]) lies at or below §Y2.5%§!, it can no longer decrease."
+Kaya_decrease_small:0 "§WThe §rReformist§! faction's power §Rdecreases§! somewhat.§!"
+Kaya_decrease_med:0 "§WThe §rReformist§! faction's power §Rdecreases§! moderately.§!"
+Kaya_decrease_big:0 "§WThe §rReformist§! faction's power §Rdecreases§! significantly.§!"

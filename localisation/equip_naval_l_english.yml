@@ -1,0 +1,318 @@
+﻿#NOTE - This file is for generic equipment loc. Use TNO_equipment_l_english for country specific stuff.
+l_english:
+
+#### Generic ####
+ # Some of this may be deprecated
+ ## Convoys
+ convoy:0 "Convoy"
+ convoy_desc:0 "Convoys used for international trade of goods and resources. Also used to ferry troops around and for performing naval invasions."
+
+ convoy_1:0 "Convoy"
+
+ ## Submarines
+ submarine:0 "Submarine"
+ submarine_desc:0 "Submarines employ stealth and powerful torpedoes to destroy enemy convoys."
+
+ ## Destroyers
+ destroyer:0 "Destroyer"
+ destroyer_desc:0 "The lightest screening vessel. Its job is to defend larger ships and to find and destroy submarines."
+
+ ## Cruisers
+ both_cruisers_desc:0 "Light Cruiser - A light screening vessel. Its primary duty is to shield capital ships from enemy light ships but can also unleash powerful torpedoes that can hurt bigger ships.\n\nHeavy Cruiser - A large armored cruiser that is pretty flexible. A good choice for nations who can not afford to build larger capital ships."
+
+ light_cruiser:0 "Light Cruiser"
+ light_cruiser_desc:0 "A light screening vessel. Its primary duty is to shield capital ships from enemy light ships but can also unleash powerful torpedoes that can hurt bigger ships."
+
+ heavy_cruiser:0 "Heavy Cruiser"
+ heavy_cruiser_desc:0 "A large armored cruiser that is pretty flexible. A good choice for nations who can not afford to build larger capital ships."
+
+ ## Battleships
+ battle_cruiser:0 "Battlecruiser"
+ battle_cruiser_desc:0 "A large capital ship often with offensive abilities close to those of a battleship, but with weaker armor traded for a faster speed."
+
+ battleship:0 "Battleship"
+ battleship_desc:0 "The largest capital ship with the biggest guns and strongest armor that money can buy. Such an expensive investment deserves proper support of smaller screening ships."
+
+ sh_battleship:0 "Superheavy Battleship"
+ sh_battleship_desc:0 "The largest capital ship with the biggest guns and strongest armor that money can buy. Such an expensive investment deserves proper support of smaller screening ships."
+
+ ## Carriers
+ carrier:0 "Carrier"
+ carrier_desc:0 "A capital ship able to carry wings of powerful carrier capable aircraft into battle. Also useful as a floating airfield you can position off the coast of your enemy."
+#### Generic ####
+
+#### Man the Guns ####
+ ### Corvettes ###
+  ship_hull_very_light:0 "Corvette"
+  ship_hull_very_light_desc:0 "Corvettes are vessels that are prominently used for offshore patrols. Being non-oceanworthy has made these types of vessels the perfect choice for guarding coasts."
+ 
+  ship_hull_very_light_1:2 "WW2 Corvette Hull"
+  ship_hull_very_light_1_desc:0 "Although utilized as easily-built patrol and convoy escort vessels, these ships, dating from the Second World War, have been surpassed, performing as little more than glorified artifacts from a long-gone age."
+  ship_hull_very_light_2:2 "1950 Corvette Hull"
+  ship_hull_very_light_2_desc:0 "Emerging in the wake of the cold war between the three superpowers, the corvette has now become a mainstay of navies worldwide, as the naval powers move towards smaller and more maneuverable fleets."
+  ship_hull_very_light_3:2 "1960 Corvette Hull"
+  ship_hull_very_light_3_desc:0 "As the cold war went on without an end in sight, the corvette had become somewhat of a multi-role smaller frigates that are affordable for smaller navies. The superpowers still use these, of course, though in support of larger, greater capital ships."
+  ship_hull_very_light_4:2 "1970 Corvette Hull"
+  ship_hull_very_light_4_desc:0 "Incorporating advancements such as greater hull capacity at the expense of heft, the corvettes of the 70s had become a formidable vessel on their own right. Capable of fast-attack and other such tactics, these are dangerous - if they can get close."
+  ship_hull_very_light_5:2 "1980 Corvette Hull"
+  ship_hull_very_light_5_desc:0 "In the twilight years of the Cold War, as the powers settle into their places in the world, the corvette has found itself a new role - offshore patrol. Too little to go up against destroyers, they now serve as deterrents against nuclear submarines."
+  ship_hull_very_light_6:2 "1990 Corvette Hull"
+  ship_hull_very_light_6_desc:0 "The cold war is over; the great confrontation between the superpowers have ended. With the use of navy reduced worldwide, the corvette has become ever more popular, as a method for nations to defend the coastal sections of their territory."
+ ### Corvettes ###
+
+ ### Frigates ###
+  ship_hull_more_light:0 "Frigate"
+  ship_hull_more_light_desc:0 "Frigates are designations used to describe the vessels that lie between corvettes and destroyers. Ocean-worthy and cheap, these act as counters against threats from over and under the sea: aircrafts and submarines. "
+
+  ship_hull_more_light_1:2 "WW2 Frigate Hull"
+  ship_hull_more_light_1_desc:0 "During the Second World War, the prevalence of submarines have forced the superpowers of the world to adopt a new class of vessel that are cost-efficient against submarines: the frigate."
+  ship_hull_more_light_2:2 "1950 Frigate Hull"
+  ship_hull_more_light_2_desc:0 "In the immediate aftermath of the Second World War, the frigate has found its niche. It is slower and weaker than a destroyer, but these qualities are not needed against submarines."
+  ship_hull_more_light_3:2 "1960 Frigate Hull"
+  ship_hull_more_light_3_desc:0 "The introduction of surface-to-air missile made the frigate fit another role. These small ships, armed with guided missiles, present a major threat against any aircraft above the seas."
+  ship_hull_more_light_4:2 "1970 Frigate Hull"
+  ship_hull_more_light_4_desc:0 "Equipped with both the means to fight threats from over and under the seas, the frigates of the 70s have essentially become ocean escorts - ocean-worthy ships bigger than a corvette, but smaller than a destroyer."
+  ship_hull_more_light_5:2 "1980 Frigate Hull"
+  ship_hull_more_light_5_desc:0 "As the cold war winds down, and the powers withdraw to their respective spheres of power, the frigate has become a versatile vessel. Designed as a threat to anything over and under the seas, when they act in support of other major vessels, they are dangerous."
+  ship_hull_more_light_6:2 "1990 Frigate Hull"
+  ship_hull_more_light_6_desc:0 "With the definitive end of the cold war, the frigate has been equipped with electronic countermeasures against missile guidance systems, making them a weak, if cheap ocean-going vessels for the new powers that rise from the ashes."
+ ### Frigates ###
+
+ ### Destroyers ###
+  ship_hull_light:0 "Destroyer"
+  ship_hull_light_desc:0 "A destroyer is a small vessel, lightly armed and meant to provide support to a battlefleet through ASW, AA, and surface combat capabilities."
+ 
+  ship_hull_light_1:2 "WW2 Destroyer Hull"
+  ship_hull_light_1_desc:0 "A destroyer from the second world war may be regarded as obsolete by some, but it could easily be upgraded with modern weapons into a low-cost screen."
+  ship_hull_light_2:2 "1950 Destroyer Hull"
+  ship_hull_light_2_desc:0 "The first destroyers built after the war have all the advanced technologies of the war they were just built after. They are capable of holding more advanced systems as well."
+  ship_hull_light_3:2 "1960 Destroyer Hull"
+  ship_hull_light_3_desc:0 "In the 1960s, a pressing need for a destroyer outfitted with a modern AA battery was identified. A Guided Missile Destroyer would be able to fight off enemy aircraft with its missile compliment, while doing traditional destroyer tasks as well."
+  ship_hull_light_4:2 "1970 Destroyer Hull"
+  ship_hull_light_4_desc:0 "The modern destroyer would be one of missiles and helicopters, relying upon them to shield the fleet from enemy aircraft and from submarines lurking in the depths."
+  ship_hull_light_5:2 "1980 Destroyer Hull"
+  ship_hull_light_5_desc:0 "No more would destroyers be limited to primary ASW roles. The new class of 1980's destroyers would be designed to excel at any task, with a special emphasis of anti-aircraft protection."
+  ship_hull_light_6:2 "1990 Destroyer Hull"
+  ship_hull_light_6_desc:0 "Multimission destroyers came onto the scene as the century ended, being adept at ground strike, ASW, AA, and ship-to-ship combat operations with their technologically advanced and numerous arsenals."
+ ### Destroyers ###
+
+ ### Cruisers ###
+  ship_hull_cruiser:0 "Cruiser"
+  ship_hull_cruiser_desc:0 "Heavier than a destroyer and lighter than a battleship, a cruiser serves as a cheap alternative for conducting operations normally reserved for large capital ships. Their use is prevalent among navies with long shorelines but short budgets."
+ 
+  ship_hull_cruiser_1:1 "WW2 Cruiser Hull"
+  ship_hull_cruiser_1_desc:0 "The Second World War has seen centuries' worth of innovations in war occur in less than a decade -- from coal- to oil- fired engines, from sliding rules to targeting computers. Cruiser development is no less exempt."
+
+  ship_hull_cruiser_2:1 "1950 Cruiser Hull"
+  ship_hull_cruiser_2_desc:0 "By the war's end, residues from wartime research has given sailors the world over new radars, longer decks, and the first ever SAM systems fitted onto a boat."
+
+  ship_hull_cruiser_3:1 "1960 Cruiser Hull"
+  ship_hull_cruiser_3_desc:0 "Missile technology has matured, and is now seeing widespread use as offensive weaponry in cruiser ships specially designed to fit several salvos worth of the subsonic armaments. Navies have taken to calling these ships "missile cruisers.""
+
+  ship_hull_cruiser_4:1 "1970 Cruiser Hull"
+  ship_hull_cruiser_4_desc:0 "Stealthier submarines have taken to the seas; in response, cruisers' sonars and radars were leapfrogged a generation. Similarly, its missile payloads have dramatically increased in tonnage and flight speed."
+
+  ship_hull_cruiser_5:1 "1980 Cruiser Hull"
+  ship_hull_cruiser_5_desc:0 "Cruiser hulls in the 1980s adapted to face the growing threat of nuclear submarines. This meant better armor, more aerodynamic designs, and more space for equipment and combat systems."
+
+  ship_hull_cruiser_6:1 "1990 Cruiser Hull"
+  ship_hull_cruiser_6_desc:0 "The most modern cruiser hull designs incorporated better load-bearing structure, and more effective armor defenses against both shells and missiles. "
+
+  # Torpedo Cruiser (Deprecated)
+  torpedo_cruiser_mtg:0 "Torpedo Cruiser"
+ ### Cruisers ###
+
+ ### Battleship ###
+  ship_hull_heavy:0 "Heavy Ship"
+  ship_hull_heavy_desc:0 "Battleships are built for sheer firepower and toughness, intended to fight and win large-scale fleet battles. Though their role in the modern navy has largely been overtaken by carriers, they are still a formidable foe on the high seas, especially when upgraded and modernized."
+ 
+  ship_hull_heavy_1:1 "WW2 Battleship Hull"
+  ship_hull_heavy_1_desc:0 "Battleship hulls built during the war were astoundingly diverse, mounting all manner of fearsome weaponry and serving as the lions of their era, unchallenged in their dominion of the seas. Those still around in the present day are the most fearsome of their kind."
+  ship_hull_heavy_2:1 "1950 Battleship Hull"
+  ship_hull_heavy_2_desc:0 "The 50's represented something of a nadir for battleships as the great nations of the world turned to carrier based warfare. Yet still those constructed in this era are formidable foes to any foolish enough to cross their path."
+  ship_hull_heavy_3:1 "1960 Battleship Hull"
+  ship_hull_heavy_3_desc:0 "The battleship of the 60's is an interesting beast, incorporating modern technology into a style of warfare left behind in the dust. Perhaps they shall exceed the expectations of their foes."
+  ship_hull_heavy_4:1 "1970 Battleship Hull"
+  ship_hull_heavy_4_desc:0 "A battleship built in the 70's is a sight to behold indeed, something capable of ripping any armada without air support to shreds and yet also strangely unprotected from the many dangers the ships of this era face."
+  ship_hull_heavy_5:1 "1980 Battleship Hull"
+  ship_hull_heavy_5_desc:0 "The addition of new technology to an old framework is something that few consider a truly worthwhile task. Perhaps then someone should inform those that built the battleships of the 1980's."
+  ship_hull_heavy_6:1 "1990 Battleship Hull"
+  ship_hull_heavy_6_desc:0 "A symbol of wealth and of stubbornness, the battleship of the 1990's is a terror at sea like none other, incorporating such a range of technology as to be nigh invincible from conventional attacks. Perhaps it is for the best that it is not seriously expected to fight in a war."
+ ### Battleship ###
+
+ ### Carrier ###
+  ship_hull_carrier:0 "Carrier"
+  ship_hull_carrier_desc:0 "Aircraft carriers are ships entirely devoted to hangars and flight decks, using onboard planes for both attack and defense. For any nation wealthy enough to field them, they form the core of a modern navy, providing versatile firepower and excellent power-projection capabilities."
+ 
+  ship_hull_carrier_1:1 "WW2 Carrier Hull"
+  ship_hull_carrier_1_desc:0 "The dawn of the carrier was the Second World War, and those which survived it are old but dangerous beasts nonetheless. Few expect those that remain to see combat and survive however."
+  ship_hull_carrier_2:1 "1950 Carrier Hull"
+  ship_hull_carrier_2_desc:0 "The 1950's were an age of experimentation for the proponents of carrier-based warfare. Improvements and redesigns mark the carriers of this era as more prototypes than weapons in and of themselves."
+  ship_hull_carrier_3:1 "1960 Carrier Hull"
+  ship_hull_carrier_3_desc:0 "With the tensions of the world rising, the 60's mark an increase in the number of carriers built worldwide, ones without the weaknesses of their ancestors. These vessels will be the backbone of any war fought at sea."
+  ship_hull_carrier_4:1 "1970 Carrier Hull"
+  ship_hull_carrier_4_desc:0 "Where the 60's were an age of expansion, the 70's are an age of fortification. Carriers built to withstand more punishment and dish out more than their worth in return. These vessels were built to last."
+  ship_hull_carrier_5:1 "1980 Carrier Hull"
+  ship_hull_carrier_5_desc:0 "The carrier of the 1980's is something built for a world it is not likely to see. Amidst the tensions and disasters, these titans of the waves sail on to their duties regardless."
+  ship_hull_carrier_6:1 "1990 Carrier Hull"
+  ship_hull_carrier_6_desc:0 "In the era of new and advanced designs, the carriers of the 90's might not be as numerous as those which came before but they can also quite likely destroy three or four of their ancestors without issue nor complaint."
+ ### Carrier ###
+
+ ### Submarine ###
+  ship_hull_submarine:0 "Submarine"
+  ship_hull_submarine_desc:0 "A submarine is a ship designed to travel underwater for durations of time. They usually carry torpedoes -- bulbous warheads with propellers -- as a main armament, and the most rudimentary designs can travel several feet underwater for days."
+
+  ship_hull_submarine_1:1 "WW2 Attack Submarine Hull"
+  ship_hull_submarine_1_desc:0 "Though WWI saw the first widespread use of submarines in naval warfare, WWII was where they truly showed their effectiveness, destroying vast swathes of merchant ships and enemy naval vessels alike. However, the submarines that fought in that conflict are now long out of date."
+  ship_hull_submarine_2:1 "1950 Attack Submarine Hull"
+  ship_hull_submarine_2_desc:0 "Most new attack submarines of the 1950s were incremental improvements on late-WWII designs, but they set the stage for important changes down the line; for example, the first submarine cruise-missile launch systems were designed during this period."
+  ship_hull_submarine_3:1 "1960 Attack Submarine Hull"
+  ship_hull_submarine_3_desc:0 "The first nuclear-powered submarines entered service in the late 1950s and early 1960s, and completely upended the paradigm of submarine warfare. At the same time, submarine-launched ballistic missiles began to rise to prominence; the combination of the two technologies created what the United States called SSBNs."
+  ship_hull_submarine_4:1 "1970 Attack Submarine Hull"
+  ship_hull_submarine_4_desc:0 "The 1970s saw a relative lull in submarine development as technological focus shifted to SLBMs; however, the drive to carry more powerful and longer-range missiles did lead to many submarines of the era being retrofitted or upgraded."
+  ship_hull_submarine_5:1 "1980 Attack Submarine Hull"
+  ship_hull_submarine_5_desc:0 "Submarine technology jumped forward once more in the 1980s as new classes were commissioned with more missile firepower and increased stealth capabilities."
+  ship_hull_submarine_6:1 "1990 Attack Submarine Hull"
+  ship_hull_submarine_6_desc:0 "The 1990s saw yet another leap in submarine technology, as they became better suited to counter the growing prevalence of anti-Submarine warfare with more aerodynamic and radar resistant hulls."
+
+  # Deprecated
+  ship_hull_ballistic_submarine:0 "1950 Ballistic Submarine Hull"
+  ship_hull_ballistic_submarine_2:0 "1960 Ballistic Submarine Hull"
+  ship_hull_ballistic_submarine_3:0 "1970 Ballistic Submarine Hull"
+  ship_hull_ballistic_submarine_4:0 "1980 Ballistic Submarine Hull"
+  ship_hull_ballistic_submarine_5:0 "1990 Ballistic Submarine Hull"
+  ship_hull_cruiser_submarine:0 "Cruiser Submarine Hull"
+ ### Submarine ###
+#### Man the Guns ####
+
+#### NOT Man the Guns ####
+ ## Frigates ##
+  frigate_1:0 "WW2 Frigate"
+  frigate_1_desc:0 "Frigates were readopted in the Second World War as escort ships tasked with anti-submarine operations. They were built larger than a corvette but smaller than a destroyer and were cheap to build and maintain. "
+  frigate_2:0 "1950's Frigate"
+  frigate_2_desc:0 "With the introduction of Surface-to-Air Missiles (or SAM for short), frigates began to carry one or two pairs of missile launchers. It allowed frigates to operate as fast and nimble anti-air platforms to help defend carriers against anti-ship cruise missiles."
+  frigate_3:0 "1960's Frigate"
+  frigate_3_desc:0 "As the technology advanced, the frigate received multiple upgrades in the forms of upgraded radar systems and new tracking systems. They also received a better engine, allowing their top speed to increase."
+  frigate_4:0 "1970's Frigate"
+  frigate_4_desc:0 "Frigates were often assigned to protect merchant ships and their trade routes and so they were upgraded with stronger caliber guns, better anti-submarine capabilities and better sonar to counter enemy threats."
+  frigate_5:0 "1980's Frigate"
+  frigate_5_desc:0 "The needs of the frigate increased, with modifications for it to allot the docking of helicopters to assist in escort of carriers. Their roles expanded, allowing them to assist in amphibious operations as well. "
+  frigate_6:0 "1990's Frigate"
+  frigate_6_desc:0 "The frigates of the '90s were the pinnacle of its kind, with top-off-the-line sonar detecting systems, advanced missile targeting systems, helipads, stronger engine, and larger caliber turrets. They excelled greatly at their anti-submarine and escort tasks."
+ ## Frigates ##
+
+ ## Destroyers ##
+  destroyer_1:0 "WW2 Destroyer"
+  destroyer_1_desc:0 "Destroyers of the Second World War played a major part in the naval actions off all the combatants. Unfortunately, they were later outclassed by improved technology and tactics."
+  destroyer_2:0 "1950's Destroyer"
+  destroyer_2_desc:0 "The first destroyers built after the war have all the advanced technologies of the war they were just built after. They are capable of holding more advanced systems as well."
+  destroyer_3:0 "1960's Destroyer"
+  destroyer_3_desc:0 "In the 1960s, a pressing need for a destroyer outfitted with a modern AA battery was identified. A Guided Missile Destroyer would be able to fight off enemy aircraft with its missile compliment, while doing traditional destroyer tasks as well."
+  destroyer_4:0 "1970's Destroyer"
+  destroyer_4_desc:0 "The modern destroyer would be one of missiles and helicopters, relying upon them to shield the fleet from enemy aircraft and from submarines lurking in the depths."
+  destroyer_5:0 "1980's Destroyer"
+  destroyer_5_desc:0 "No more would destroyers be limited to primary ASW roles. The new class of 1980's destroyers would be designed to excel at any task, with a special emphasis of anti-aircraft protection."
+  destroyer_6:0 "1990's Destroyer"
+  destroyer_6_desc:0 "Multimission destroyers came onto the scene as the century ended, being adept at ground strike, ASW, AA, and ship-to-ship combat operations with their technologically advanced and numerous arsenals."
+ ## Destroyers ##
+
+ ## Cruisers ##
+  cruiser_1:0 "WW2 Cruiser"
+  cruiser_1_desc:0 "The Second World War has seen centuries' worth of innovations in war occur in less than a decade -- from coal- to oil- fired engines, from sliding rules to targeting computers. Cruiser development is no less exempt."
+  cruiser_2:0 "1950's Cruiser"
+  cruiser_2_desc:0 "By the war's end, residues from wartime research has given sailors the world over new radars, longer decks, and the first ever SAM systems fitted onto a boat."
+  cruiser_3:0 "1960's Cruiser"
+  cruiser_3_desc:0 "Missile technology has matured, and is now seeing widespread use as offensive weaponry in cruiser ships specially designed to fit several salvos worth of the subsonic armaments. Navies have taken to calling these ships "missile cruisers.""
+  cruiser_4:0 "1970's Cruiser"
+  cruiser_4_desc:0 "Stealthier submarines have taken to the seas; in response, cruisers' sonars and radars were leapfrogged a generation. Similarly, its missile payloads have dramatically increased in tonnage and flight speed."
+  cruiser_5:0 "1980's Cruiser"
+  cruiser_5_desc:0 "Cruiser hulls in the 1980s adapted to face the growing threat of nuclear submarines. This meant better armor, more aerodynamic designs, and more space for equipment and combat systems."
+  cruiser_6:0 "1990's Cruiser"
+  cruiser_6_desc:0 "The most modern cruiser hull designs incorporated better load-bearing structure, and more effective armor defenses against both shells and missiles."
+  
+  # Heavy Cruiser (Deprecated)
+  heavy_cruiser_1:0 "WW2 Cruiser"
+  heavy_cruiser_1_desc:0 "The role of the cruiser varied according to ship and navy, often including air defense and shore bombardment."
+  heavy_cruiser_2:0 "1950's Cruiser"
+  heavy_cruiser_2_desc:0 "Improvements in torpedo technology call for an even greater role of the cruiser in large fleet naval operations and the addition of more anti-aircraft guns."
+  heavy_cruiser_3:0 "1960's Cruiser"
+  heavy_cruiser_3_desc:0 "Increases in both speed and maneuverability as well as firepower results in a proportionally greater role of the cruiser in naval combat."
+  heavy_cruiser_4:0 "1970's Cruiser"
+  heavy_cruiser_4_desc:0 "Guided missile launchers allow the next generation of cruisers to protect aircraft carriers, engage submarines, and bear the brunt of naval operations."
+  heavy_cruiser_5:0 "1980's Cruiser"
+  heavy_cruiser_5_desc:0 "Improvements in missile technology have resulted in a corresponding improvement in cruiser combat effectiveness."
+  heavy_cruiser_6:0 "1990's Cruiser"
+  heavy_cruiser_6_desc:0 "The modern cruiser is a marvel of naval warfare. Sensors, combat management systems, advanced weaponry capable of air, sea, and land attack all come together to form a vessel capable of being used as the basis for entire battle groups."
+ ## Cruisers ##
+
+ ## Battleships ##
+  battleship_1:0 "WW2 Battleship"
+  battleship_1_desc:0 "The interwar period was dominated by the battleship, as each major power rushed to build them. However, World War II and the rise of the carrier ended up relegating the battleship to mostly supporting duty. Battleships can still be used in any navy that has them, but their effectiveness in modern combat has been questioned."
+  battleship_2:0 "1950's Battleship"
+  battleship_2_desc:0 "By modernizing our battleships, we shall bring them into the modern day. Increasing the size of our guns shall allow us to strike from kilometers away. By improving the size of our engines, we can move faster than any battleship has before. Finally, we shall improve our armor to defend from bombs, torpedoes, and anything else that threatens us."
+  battleship_3:0 "1960's Battleship"
+  battleship_3_desc:0 "Our guns are large, but at range they are pitifully inaccurate. We can change this by adding aerial capabilities- a spotting craft high in the sky will certainly help our shooting. In addition, larger guns and even larger engines will continue to improve our speed and strength."
+  battleship_4:0 "1970's Battleship"
+  battleship_4_desc:0 "Our guns are unbelievably powerful, but their accuracy leaves something to be desired. By adding a modern computer to calculate our shots for us, our accuracy will markedly improve. In addition, upgraded anti-missile and anti-air will protect us from any battleship's greatest threat."
+  battleship_5:0 "1980's Battleship"
+  battleship_5_desc:0 "Bigger is better, as they say, and our battleships are only getting bigger. An increased engine, even larger weaponry, and improved armor will turn our capital ships into unsinkable fortresses, able to shred any poor fool who tried to stop it."
+  battleship_6:0 "1990's Battleship"
+  battleship_6_desc:0 "By adding a modern radar system to our fleet, we shall greatly improve our ability to detect and fight enemies. An improved computer will similarly aid both our main batteries and our secondary weapons. Finally, increased anti-missile defense will make our battleships almost untouchable."
+  
+  # Super Heavy Battleship (Deprecated)
+  SH_battleship_1:0 "Super-Heavy Battleship I"
+  SH_battleship_2:0 "Super-Heavy Battleship II"
+  SH_battleship_1_desc:0 "The current state of the world no longer has any room for abiding by naval treaties. Without these limitations, we can focus entirely on creating the heaviest, most well-armed battleships of all time, able to engage multiple lesser vessels."
+  SH_battleship_2_desc:0 "An improvement on our earlier super heavy design with stronger weapons and improved fire control systems."
+ ## Battleships ##
+
+ ## Carriers ##
+  carrier_1:0 "WW2 Carrier"
+  carrier_1_desc:0 "The dawn of the carrier was the Second World War, and those which survived it are old but dangerous beasts nonetheless. Few expect those that remain to see combat and survive however."
+  carrier_2:0 "1950's Carrier"
+  carrier_2_desc:0 "The 1950's were an age of experimentation for the proponents of carrier-based warfare. Improvements and redesigns mark the carriers of this era as more prototypes than weapons in and of themselves."
+  carrier_3:0 "1960's Carrier"
+  carrier_3_desc:0 "With the tensions of the world rising, the 60's mark an increase in the number of carriers built worldwide, ones without the weaknesses of their ancestors. These vessels will be the backbone of any war fought at sea."
+  carrier_4:0 "1970's Carrier"
+  carrier_4_desc:0 "Where the 60's were an age of expansion, the 70's are an age of fortification. Carriers built to withstand more punishment and dish out more than their worth in return. These vessels were built to last."
+  carrier_5:0 "1980's Carrier"
+  carrier_5_desc:0 "The carrier of the 1980's is something built for a world it is not likely to see. Amidst the tensions and disasters, these titans of the waves sail on to their duties regardless."
+  carrier_6:0 "1990's Carrier"
+  carrier_6_desc:0 "In the era of new and advanced designs, the carriers of the 90's might not be as numerous as those which came before but they can also quite likely destroy three or four of their ancestors without issue nor complaint."
+  
+  # Helicopter Carrier (Deprecated)
+  helicopter_carrier_1:0 "Helicopter Carrier I"
+  helicopter_carrier_1_desc:0 "A helicopter carrier is a type of aircraft carrier whose primary purpose is to operate helicopters, used as anti-submarine warfare carriers and amphibious assault ships."
+  helicopter_carrier_2:0 "Helicopter Carrier II"
+  helicopter_carrier_2_desc:0 "A helicopter carrier is a type of aircraft carrier whose primary purpose is to operate helicopters, used as anti-submarine warfare carriers and amphibious assault ships."
+  helicopter_carrier_3:0 "Helicopter Carrier III"
+  helicopter_carrier_3_desc:0 "A helicopter carrier is a type of aircraft carrier whose primary purpose is to operate helicopters, used as anti-submarine warfare carriers and amphibious assault ships."
+  helicopter_carrier_4:0 "Helicopter Carrier IV"
+  helicopter_carrier_4_desc:0 "A helicopter carrier is a type of aircraft carrier whose primary purpose is to operate helicopters, used as anti-submarine warfare carriers and amphibious assault ships."
+ ## Carriers ##
+
+ ## Submarines ##
+  submarine_1:0 "WW2 Attack Submarine"
+  submarine_1_desc:0 "New advancements in submarines make them a new, deadly threat not yet seen in marine history.They more than proved their worth during the Second World War. Better torpedoes, the ability to engage underwater, vastly improved stealth systems, new and improved batteries and engines, and much longer submerged times than ever make them the perfect undersea weapons."
+  submarine_2:0 "1950's Attack Submarine"
+  submarine_2_desc:0 "Faster and sleeker, new submarines totally outclass their older cousins. The first wire-guided torpedoes have been introduced, as well as a new, standardized teardrop hull has been designed for substantially better performance, making the subs faster and more stealthy underwater. Electronic systems of every type have improved, and active and passive sonars have all been upgraded."
+  submarine_3:0 "1960's Attack Submarine"
+  submarine_3_desc:0 "Ballistic missile carrying subs have also become much more common in the world's navies; nearly every submarine developed is now capable of launching them one way or another. Submarine' endurance has only improved as well; subs can now dive as far as 1000 meters, shattering depth records almost on a monthly basis. As a result, active and passive sonars have been forced to improve."
+  submarine_4:0 "1970's Attack Submarine"
+  submarine_4_desc:0 "Submarines have only gotten deadlier with age. Active/passive sonar guided torpedoes have been introduced, and their accuracy is dazing. Counter measures, such as noise makers and coatings that reflect sonar have been developed to counter new threats. Torpedoes become faster, more agile, and deadly in general. Paired with smaller, more efficient power plants, submarines are deadlier than ever. "
+  submarine_5:0 "1980's Attack Submarine"
+  submarine_5_desc:0 "From the literal bottom of the ocean to the surface of any waters, submarines can go virtually anywhere with impunity. Modern submarines have better survivability. Their propulsion systems have been nearly perfected, meaning subs can move faster underwater without cavitation. Submarine bodies have been enhanced for better y-axis mobility, and weapons technology is nearing its peak. Towed sonar arrays are now a common feature on most submarines, and many even come with their own radar systems."
+  submarine_6:0 "1990's Attack Submarine"
+  submarine_6_desc:0 "The pinnacle of submarine technology. Operational depths of over 1500 meter. With virtually unlimited endurance, only limited by fresh food and water on board, these submarines are cutting edge in every way. Torpedoes with ranges of nearly 40 kilometers and unmatched detection systems means unwary ships could be hit without any warnings, any time, anywhere. With state of the art technology, these boats are the best trade indirection weapons we have at our disposal. "
+
+  # Deprecated
+  nuclear_submarine_1:0 "Nuclear Submarine I"
+  nuclear_submarine_1_desc:0 "Nuclear propulsion frees the submarine from the need to surface frequently and allows them to operate at high speed for long periods of time"
+  nuclear_submarine_2:0 "Nuclear Submarine II"
+  nuclear_submarine_2_desc:0 "Nuclear propulsion frees the submarine from the need to surface frequently and allows them to operate at high speed for long periods of time"
+  nuclear_submarine_3:0 "Nuclear Submarine III"
+  nuclear_submarine_3_desc:0 "Nuclear propulsion frees the submarine from the need to surface frequently and allows them to operate at high speed for long periods of time"
+  nuclear_submarine_4:0 "Nuclear Submarine IV"
+  nuclear_submarine_4_desc:0 "Nuclear propulsion frees the submarine from the need to surface frequently and allows them to operate at high speed for long periods of time"
+ ## Submarines ##
+#### NOT Man the Guns ####

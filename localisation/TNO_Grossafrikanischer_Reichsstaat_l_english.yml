@@ -1,0 +1,1158 @@
+﻿l_english:
+ ## Factions ##
+ SOUTH_AFRICAN_DEMOCRATIC_FRONT:0 "South African Democratic Front"
+ ZULU_XHOSA_PACT:0 "Bantu Pact"
+
+ ## Scripted Loc ##
+
+ MZB_REICHSTAAT_situation_0:0 "§GAcceptable§!"
+ MZB_REICHSTAAT_situation_1:0 "§YUneasy§!"
+ MZB_REICHSTAAT_situation_2:0 "§OWorsening§!"
+ MZB_REICHSTAAT_situation_3:0 "§RCatastrophic§!"
+ MZB_REICHSTAAT_situation_4:0 "§PCollapsing§!"
+ MZB_REICHSTAAT_situation_5:0 "§gNot in our Control§!"
+
+ MZB_REICHSTAAT_BOR_situation_0:0 "§GAcceptable§!"
+ MZB_REICHSTAAT_BOR_situation_1:0 "§YUneasy§!"
+ MZB_REICHSTAAT_BOR_situation_2:0 "§OWorsening§!"
+ MZB_REICHSTAAT_BOR_situation_3:0 "§RCatastrophic§!"
+ MZB_REICHSTAAT_BOR_situation_4:0 "§POut of Control§!"
+ MZB_REICHSTAAT_BOR_situation_5:0 "§gOut of our Hands§!"
+
+ MZB_REICHSTAAT_ANC_influence_0:0 "§POverwhelming§!"
+ MZB_REICHSTAAT_ANC_influence_1:0 "§RDangerous§!"
+ MZB_REICHSTAAT_ANC_influence_2:0 "§OManageable§!"
+ MZB_REICHSTAAT_ANC_influence_3:0 "§YUnder Control§!"
+ MZB_REICHSTAAT_ANC_influence_4:0 "§GInsignificant§!"
+
+ MZB_REICHSTAAT_situation_politics_0:0 "§Gfully committed to Reichsführer Hüttig's vision§!"
+ MZB_REICHSTAAT_situation_politics_1:0 "§Yloyal to the Reichsführer§!"
+ MZB_REICHSTAAT_situation_politics_2:0 "§Oquestionning the Reichfürer's methods§!"
+ MZB_REICHSTAAT_situation_politics_3:0 "§Rstarting to leave Hans Hüttig's side§!"
+ MZB_REICHSTAAT_situation_politics_4:0 "§Pcompletly disloyal to Hüttig§!"
+
+ ## Ideas ##
+ MZB_REICHSTAAT_the_african_triumph:0 "The African Triumph"
+
+ MZB_REICHSTAAT_administrative_unknowns:0 "Administrative Unknowns"
+ MZB_REICHSTAAT_the_afrikanischer_system:0 "The Afrikanischer System"
+ MZB_REICHSTAAT_the_afrikanischer_system_2:0 "The Afrikanischer System"
+ MZB_REICHSTAAT_the_afrikanischer_system_3:0 "The Afrikanischer System"
+ MZB_REICHSTAAT_the_afrikanischer_system_4:0 "The Afrikanischer System"
+ MZB_REICHSTAAT_the_kontinentales_system:0 "The Kontinentales System"
+ MZB_REICHSTAAT_the_kontinentales_system_2:0 "The Kontinentales System"
+ MZB_REICHSTAAT_the_kontinentales_system_3:0 "The Kontinentales System"
+ MZB_REICHSTAAT_the_kontinentales_system_4:0 "The Kontinentales System"
+
+ MZB_REICHSTAAT_atmosphere_of_unrest:0 "Atmosphere of Unrest"
+
+ MZB_REICHSTAAT_the_legacy_of_the_traitors:0 "The Legacy of the Traitors"
+ MZB_REICHSTAAT_german_management:0 "Deutches Management"
+ MZB_REICHSTAAT_african_exploitation:0 "Afrikanische Ausbeutung"
+ MZB_REICHSTAAT_eat_program_0:0 "E.A.T. Programm"
+ MZB_REICHSTAAT_eat_program_left_1:0 "E.A.T. Programm - Militärische Entwicklung"
+ MZB_REICHSTAAT_eat_program_left_2:0 "E.A.T. Programm - Militärische Entwicklung"
+ MZB_REICHSTAAT_eat_program_left_3:0 "E.A.T. Programm - Militärische Entwicklung"
+ MZB_REICHSTAAT_eat_program_right_1:0 "E.A.T. Programm - Dezentrale Entwicklung"
+ MZB_REICHSTAAT_eat_program_right_2:0 "E.A.T. Programm - Dezentrale Entwicklung"
+ MZB_REICHSTAAT_eat_program_right_3:0 "E.A.T. Programm - Dezentrale Entwicklung"
+
+ ## Decisions ##
+
+ MZB_REICHSTAAT_stabilisierung_des_reichstaates:0 "Stabilisierung des Reichsstaates"
+ MZB_REICHSTAAT_stabilisierung_des_reichstaates_desc:0 "Situation in Angola : [MZB.MZBGetSituationAngola]\nSituation in Botswana : [MZB.MZBGetSituationBotswana]\nSituation in Kameroon : [MZB.MZBGetSituationKameroon]\nSituation in Kenia : [MZB.MZBGetSituationKenia]\nSituation in Kongo : [MZB.MZBGetSituationKongo]\nSituation in Mosambik : [MZB.MZBGetSituationMosambik]\nSituation in Namibia : [MZB.MZBGetSituationNamibia]\nSituation in Ruanda-Burundi : [MZB.MZBGetSituationRuandaBurundi]\nSituation in Sambia : [MZB.MZBGetSituationSambia]\nSituation in Sansibar : [MZB.MZBGetSituationSansibar]\nSituation in Simbabwe : [MZB.MZBGetSituationSimbabwe]\nSituation in Tanganika : [MZB.MZBGetSituationTanganika]\nSituation in Ubangi-Schari : [MZB.MZBGetSituationUbangiSchari]\nSituation in Uganda : [MZB.MZBGetSituationUganda]\n\nOur Vasallenstaat, the Boer Republic, is also undergoing immense political shifts and dissidence.\n\nThe situation in the Boer Republic is : [MZB.MZBGetSituationBoer]\nAnd the influence of the ANC is [MZB.MZBGetInfluenceANC]"
+
+ MZB_REICHSTAAT_act_in_kameroon:0 "Act in Kameroon"
+ MZB_REICHSTAAT_act_in_ubangi_schari:0 "Act in Ubangi-Schari"
+ MZB_REICHSTAAT_act_in_kongo:0 "Act in Kongo"
+ MZB_REICHSTAAT_act_in_angola:0 "Act in Angola"
+ MZB_REICHSTAAT_act_in_sambia:0 "Act in Sambia"
+ MZB_REICHSTAAT_act_in_botswana:0 "Act in Botswana"
+ MZB_REICHSTAAT_act_in_simbabwe:0 "Act in Simbabwe"
+ MZB_REICHSTAAT_act_in_mosambik:0 "Act in Mosambik"
+ MZB_REICHSTAAT_act_in_sansibar:0 "Act in Sansibar"
+ MZB_REICHSTAAT_act_in_ruanda_burundi:0 "Act in Ruanda-Urundi"
+ MZB_REICHSTAAT_act_in_uganda:0 "Act in Uganda"
+ MZB_REICHSTAAT_act_in_tanganika:0 "Act in Tanganika"
+ MZB_REICHSTAAT_act_in_namibia:0 "Act in Namibia"
+ MZB_REICHSTAAT_act_in_kenia:0 "Act in Kenia"
+
+ MZB_REICHSTAAT_stabilize_kameroon:0 "Stabilize Kameroon"
+ MZB_REICHSTAAT_stabilize_ubangi_schari:0 "Stabilize Ubangi-Schari"
+ MZB_REICHSTAAT_stabilize_kongo:0 "Stabilize Kongo"
+ MZB_REICHSTAAT_stabilize_angola:0 "Stabilize Angola"
+ MZB_REICHSTAAT_stabilize_sambia:0 "Stabilize Sambia"
+ MZB_REICHSTAAT_stabilize_botswana:0 "Stabilize Botswana"
+ MZB_REICHSTAAT_stabilize_simbabwe:0 "Stabilize Simbabwe"
+ MZB_REICHSTAAT_stabilize_mosambik:0 "Stabilize Mosambik"
+ MZB_REICHSTAAT_stabilize_sansibar:0 "Stabilize Sansibar"
+ MZB_REICHSTAAT_stabilize_ruanda_burundi:0 "Stabilize Ruanda-Urundi"
+ MZB_REICHSTAAT_stabilize_uganda:0 "Stabilize Uganda"
+ MZB_REICHSTAAT_stabilize_tanganika:0 "Stabilize Tanganika"
+ MZB_REICHSTAAT_stabilize_namibia:0 "Stabilize Namibia"
+ MZB_REICHSTAAT_stabilize_kenia:0 "Stabilize Kenia"
+
+ MZB_REICHSTAAT_die_grossafrikanishen_ss_einsatzgruppen:0 "Die Ostafrikanishen-SS Einsatzgruppen"
+ MZB_REICHSTAAT_die_grossafrikanishen_ss_einsatzgruppen_desc:0 "§YOur Einsatzgruppen will be able to quickly and precisely deal with problematic independance groups. They often aren't too risky in nature, and due to their expert training these missions will often end up being a success.§!\n\nManpower of the SS : [?MZB_REICHSTAAT_ss_manpower_supply]\nEquipment stockpile of the SS: [?MZB_REICHSTAAT_ss_weapon_supply]"
+
+ MZB_REICHSTAAT_die_organisation_werwolf:0 "Die Organisation Werwolf"
+ MZB_REICHSTAAT_die_organisation_werwolf_desc:0 "§YThe Organisation Werwolf's operations are often behind the ennemy lines. These type of operation are very risky, and quite often ends up by great losses of both men and precious equipment. However if successful, they will be very effective, even being able to entirely disrupt a brewing revolt.§!\n\nManpower of the Werwolf : [?MZB_REICHSTAAT_wwlf_manpower_supply]\nEquipment stockpile of the Werwolf : [?MZB_REICHSTAAT_wwlf_weapon_supply]"
+
+ ## Tooltips ##
+
+ MZB_REICHSTAAT_native_situation_improved_kameroon_tt:0 "The local situation in §YKameroon§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_kameroon_tt:0 "The local situation in §YKameroon§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_ubangi_schari_tt:0 "The local situation in §YUbangi-Schari§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_ubangi_schari_tt:0 "The local situation in §YUbangi-Schari§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_kongo_tt:0 "The local situation in §YKongo§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_kongo_tt:0 "The local situation in §YKongo§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_angola_tt:0 "The local situation in §YAngola§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_angola_tt:0 "The local situation in §YAngola§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_sambia_tt:0 "The local situation in §YSambia§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_sambia_tt:0 "The local situation in §YSambia§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_botswana_tt:0 "The local situation in §YBotswana§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_botswana_tt:0 "The local situation in §YBotswana§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_simbabwe_tt:0 "The local situation in §YSimbabwe§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_simbabwe_tt:0 "The local situation in §YSimbabwe§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_mosambik_tt:0 "The local situation in §YMosambik§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_mosambik_tt:0 "The local situation in §YMosambik§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_sansibar_tt:0 "The local situation in §YSansibar§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_sansibar_tt:0 "The local situation in §YSansibar§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_ruanda_burundi_tt:0 "The local situation in §YRuanda-Urundi§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_ruanda_burundi_tt:0 "The local situation in §YRuanda-Urundi§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_uganda_tt:0 "The local situation in §YUganda§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_uganda_tt:0 "The local situation in §YUganda§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_tanganika_tt:0 "The local situation in §YTanganika§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_tanganika_tt:0 "The local situation in §YTanganika§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_namibia_tt:0 "The local situation in §YNamibia§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_namibia_tt:0 "The local situation in §YNamibia§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_kenia_tt:0 "The local situation in §YKenia§! has §Gimproved§\n"
+ MZB_REICHSTAAT_native_situation_worsened_kenia_tt:0 "The local situation in §YKenia§! has §Rworsened§\n"
+
+ MZB_REICHSTAAT_native_situation_improved_effect_tt:0 "The local situation will §Gimprove§!\n"
+ MZB_REICHSTAAT_native_situation_worsened_effect_tt:0 "The local situation will §Rworsen§!\n"
+
+ MZB_REICHSTAAT_boer_situation_worsened_effect_tt:0 "The Boers §Rwon't like that§!\n"
+ MZB_REICHSTAAT_anc_influence_lessened_tt:0 "The influence of the ANC on our politics will decreased"
+ MZB_REICHSTAAT_anc_influence_lessened_a_lot_tt:0 "The influence of the ANC on our politics will §Ggreatly§! decreased"
+
+ MZB_stabilized_kameroon_tt:0 "The local situation in §YKameroon§! is stable enough\n"
+ MZB_stabilized_ubangi_schari_tt:0 "The local situation in §YUbangi-Schari§! is stable enough\n"
+ MZB_stabilized_kongo_tt:0 "The local situation in §YKongo§! is stable enough\n"
+ MZB_stabilized_angola_tt:0 "The local situation in §YAngola§! is stable enough\n"
+ MZB_stabilized_sambia_tt:0 "The local situation in §YSambia§! is stable enough\n"
+ MZB_stabilized_botswana_tt:0 "The local situation in §YBotswana§! is stable enough\n"
+ MZB_stabilized_simbabwe_tt:0 "The local situation in §YSimbabwe§! is stable enough\n"
+ MZB_stabilized_mosambik_tt:0 "The local situation in §YMosambik§! is stable enough\n"
+ MZB_stabilized_sansibar_tt:0 "The local situation in §YSansibar§! is stable enough\n"
+ MZB_stabilized_ruanda_burundi_tt:0 "The local situation in §YRuanda-Urundi§! is stable enough\n"
+ MZB_stabilized_uganda_tt:0 "The local situation in §YUganda§! is stable enough\n"
+ MZB_stabilized_tanganika_tt:0 "The local situation in §YTanganika§! is stable enough\n"
+ MZB_stabilized_namibia_tt:0 "The local situation in §YNamibia§! is stable enough\n"
+ MZB_stabilized_kenia_tt:0 "The local situation in §YKenia§! is stable enough\n"
+
+ MZB_garrison_kameroon_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YKameroon§!\n"
+ MZB_garrison_ubangi_schari_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YUbangi-Schari§!\n"
+ MZB_garrison_kongo_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YKongo§!\n"
+ MZB_garrison_angola_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YAngola§!\n"
+ MZB_garrison_sambia_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YSambia§!\n"
+ MZB_garrison_botswana_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YBotswana§!\n"
+ MZB_garrison_simbabwe_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YSimbabwe§!\n"
+ MZB_garrison_mosambik_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YMosambik§!\n"
+ MZB_garrison_sansibar_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YSansibar§!\n"
+ MZB_garrison_ruanda_burundi_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YRuanda-Urundi§!\n"
+ MZB_garrison_uganda_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YUganda§!\n"
+ MZB_garrison_tanganika_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YTanganika§!\n"
+ MZB_garrison_namibia_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YNamibia§!\n"
+ MZB_garrison_kenia_tt:0 "You have at least §Y6 divisions§! in §Rone§! of the state around §YKenia§!\n"
+
+ MZB_a_pure_africa_tt:0 "We will finally be able to call Afrika a continent worthy of the Reich!\n"
+
+ MZB_wake_the_werewolves_tt:0 "§RWe will wake up the Werwolf§!\n"
+ MZB_wwlf_equipment_50_tt:0 "This will increase the suplies of our Werwolf organization by §G50§! units\n"
+ MZB_wwlf_equipment_100_tt:0 "This will increase the suplies of our Werwolf organization by §G100§! units\n"
+ MZB_coopt_the_natives_tt:0 "§YFighting fire with fire, we will start using natives to infiltrate the rebels and gather valuable intel§!"
+ MZB_spark_the_uprisings_tt:0 "§YWe will be able to disrupt their groups, and hopefully completly destroy the rebel's leadership§!"
+ MZB_recover_the_boers_tt:0 "§YWe will recruit Boer volunteers into our Werwolf organization.§!"
+
+ MZB_gather_our_strength_tt:0 "§RWe will make better use of our reorganized SS§!\n"
+ MZB_ss_equipment_50_tt:0 "This will increase the suplies of our Werwolf organization by §G50§! units\n"
+ MZB_ss_equipment_100_tt:0 "This will increase the suplies of our Werwolf organization by §G100§! units\n"
+ MZB_add_raid_bounty_to_ss_tt:0 "§YAll of the looted equipments will be put in the Einsatzgruppen's stockpile§!"
+ MZB_loot_and_burn_the_way_home_tt:0 "§YNew operations that will grant you§! §Gequipment§! §Ywill be available§!"
+ MZB_abteilung_fuer_afrikanische_freiwillige_tt:0 "§YNew§! §Gnative conscription§! §Yoperations will be available§!"
+ MZB_salt_the_earth_tt:0 "§YYou will now be able to launch operations against new targets§!"
+ MZB_close_the_border_tt:0 "§YThis will greatly reduce§! §Rrevolt propagation§!"
+ MZB_REICHSTAAT_ss_weapon_supply_enough_for_mission_tt:0 "You need enough equipment to be able to launch this operation"
+
+ ## Focus Tree ##
+
+ MZB_afrika_forevermore:0 "Afrika Forevermore"
+
+ MZB_a_system_of_cleansing:0 "A System of Cleansing"
+ MZB_track_the_resistance:0 "Track the Resistance"
+ MZB_find_their_leaders:0 "Find their Leaders"
+ MZB_find_the_members:0 "Find the Members"
+ MZB_find_their_supporters:0 "Find their Supporters"
+ MZB_empty_the_homes:0 "Empty the Homes"
+ MZB_empty_the_cities:0 "Empty the Cities"
+ MZB_empty_the_countryside:0 "Empty the Countryside"
+ MZB_empty_the_continent:0 "Empty the Continent"
+ MZB_the_great_purge:0 "The Great Purge"
+
+ MZB_a_system_of_repression:0 "A Sytem of Repression"
+ MZB_keeping_up_with_the_joneses:0 "Keeping up with the Joneses"
+ MZB_a_more_burgundian_system:0 "A More Burgundian System"
+ MZB_camp_equalization:0 "Camp Equalization"
+ MZB_afrika_burn_them_all:0 "Burn them All"
+ MZB_new_states_new_policies:0 "New States, New Policies"
+ MZB_continental_redesign:0 "Continental Redisign"
+ MZB_increased_germanization_targets:0 "Increased Germanization Targets"
+ MZB_total_integrate_or_die:0 "Total Integration, or Death"
+ MZB_a_pure_africa:0 "A Pure Afrika"
+
+ MZB_a_system_of_efficiency:0 "A System of Efficiency"
+ MZB_strict_work_quotas:0 "Strict Work Quotas"
+ MZB_german_management_focus:0 "German Management Focus"
+ MZB_african_exploitation_focus:0 "African Exploitation Focus"
+ MZB_repurpose_the_villages:0 "Repurpose the Villages"
+ MZB_arsenals_in_your_abode:0 "Arsenals in your Abode"
+ MZB_raze_the_jungle:0 "Raze the Jungle"
+ MZB_work_camps:0 "Work Camps"
+ MZB_factories_in_the_darkness:0 "Factories in the Darkness"
+ MZB_arms_for_the_soldiers:0 "Arms for the Soldiers"
+
+ MZB_the_african_disaster:0 "The African Disaster"
+ MZB_werewolves_against_the_silver:0 "Werewolves against the Silver"
+ MZB_increase_arms_shipments:0 "Increase Arms Shipments"
+ MZB_coopt_the_natives:0 "Coopt the Natives"
+ MZB_recover_the_boers:0 "Recover the Boers"
+ MZB_spark_the_uprisings:0 "Spark the Uprisings"
+ MZB_gather_our_strength:0 "Gather our Strength"
+ MZB_loot_and_burn_the_way_home:0 "Loot and Burn the Way Home"
+ MZB_abteilung_fuer_afrikanische_freiwillige:0 "Abteilung fuer Afrikanische Freiwillige"
+ MZB_salt_the_earth:0 "Salt the Earth"
+ MZB_close_the_border:0 "Close the Border"
+
+ MZB_to_rule_a_continent:0 "To Rule a Continent"
+ MZB_orders_to_the_boers:0 "Orders to the Boers"
+ MZB_southern_exploitation:0 "Southern Exploitation"
+ MZB_POW_extradition:0 "POW Extradition"
+ MZB_hostage_program:0 "Hostage Program"
+ MZB_enforce_the_vasallenstaat:0 "Enforce the Vasallenstaat"
+ MZB_cleaning_up_the_OFN:0 "Cleaning Up the OFN"
+ MZB_recover_african_military_records:0 "Recover African Military Records"
+ MZB_track_down_the_veterans:0 "Track Down the Veterans"
+ MZB_find_socialists:0 "Find Socialists"
+ MZB_firebomb_the_south:0 "Firebomb the South"
+
+ MZB_evil_and_betrayal:0 "Evil and Betrayal"
+ MZB_the_boers_must_pay:0 "The Boers must Pay"
+ MZB_chemical_launches:0 "Chemical Launches"
+ MZB_strike_the_border:0 "Strike the Border"
+ MZB_no_room_for_treason:0 "No Room for Treason"
+ MZB_saving_our_men:0 "Saving our Men"
+ MZB_evacuate_state_personnel:0 "Evacuate State Personnel"
+ MZB_evacuate_state_industries:0 "Evacuate State Industries"
+ MZB_evacuate_state_armaments:0 "Evacuate State Armaments"
+ MZB_evacuate_military_forces:0 "Evacuate Military Forces"
+
+ ## Events ##
+
+ MZB_REICHSTAAT.2.t:0 "Unrest in Kameroon"
+ MZB_REICHSTAAT.2.desc:0 ""
+ MZB_REICHSTAAT.2.a:0 ""
+
+ MZB_REICHSTAAT.3.t:0 "Unrest in Ubangi-Schari"
+ MZB_REICHSTAAT.3.desc:0 ""
+ MZB_REICHSTAAT.3.a:0 ""
+
+ MZB_REICHSTAAT.4.t:0 "Unrest in Kongo"
+ MZB_REICHSTAAT.4.desc:0 ""
+ MZB_REICHSTAAT.4.a:0 ""
+
+ MZB_REICHSTAAT.5.t:0 "Unrest in Angola"
+ MZB_REICHSTAAT.5.desc:0 ""
+ MZB_REICHSTAAT.5.a:0 ""
+
+ MZB_REICHSTAAT.6.t:0 "Unrest in Sambia"
+ MZB_REICHSTAAT.6.desc:0 ""
+ MZB_REICHSTAAT.6.a:0 ""
+
+ MZB_REICHSTAAT.7.t:0 "Unrest in Botswana"
+ MZB_REICHSTAAT.7.desc:0 ""
+ MZB_REICHSTAAT.7.a:0 ""
+
+ MZB_REICHSTAAT.8.t:0 "Unrest in Simbabwe"
+ MZB_REICHSTAAT.8.desc:0 ""
+ MZB_REICHSTAAT.8.a:0 ""
+
+ MZB_REICHSTAAT.9.t:0 "Unrest in Mosambik"
+ MZB_REICHSTAAT.9.desc:0 ""
+ MZB_REICHSTAAT.9.a:0 ""
+
+ MZB_REICHSTAAT.10.t:0 "Unrest in Sansibar"
+ MZB_REICHSTAAT.10.desc:0 ""
+ MZB_REICHSTAAT.10.a:0 ""
+
+ MZB_REICHSTAAT.11.t:0 "Unrest in Ruanda-Burundi"
+ MZB_REICHSTAAT.11.desc:0 ""
+ MZB_REICHSTAAT.11.a:0 ""
+
+ MZB_REICHSTAAT.12.t:0 "Unrest in Uganda"
+ MZB_REICHSTAAT.12.desc:0 ""
+ MZB_REICHSTAAT.12.a:0 ""
+
+ MZB_REICHSTAAT.13.t:0 "Unrest in Tanganika"
+ MZB_REICHSTAAT.13.desc:0 ""
+ MZB_REICHSTAAT.13.a:0 ""
+
+ MZB_REICHSTAAT.14.t:0 "Revolt in Kameroon"
+ MZB_REICHSTAAT.14.desc:0 ""
+ MZB_REICHSTAAT.14.a:0 ""
+ MZB_REICHSTAAT.14.b:0 "Play as Orungu"
+
+ MZB_REICHSTAAT.15.t:0 "Revolt in Ubangi-Schari"
+ MZB_REICHSTAAT.15.desc:0 ""
+ MZB_REICHSTAAT.15.a:0 ""
+ MZB_REICHSTAAT.15.b:0 "Play as Beafrica"
+
+ MZB_REICHSTAAT.16.t:0 "Revolt in Kongo"
+ MZB_REICHSTAAT.16.desc:0 ""
+ MZB_REICHSTAAT.16.a:0 ""
+# MZB_REICHSTAAT.16.a:0 "Play as Congo" #duplicate loc key
+
+ MZB_REICHSTAAT.17.t:0 "Revolt in Angola"
+ MZB_REICHSTAAT.17.desc:0 ""
+ MZB_REICHSTAAT.17.a:0 ""
+ MZB_REICHSTAAT.17.b:0 "Play as Angola"
+
+ MZB_REICHSTAAT.18.t:0 "Revolt in Sambia"
+ MZB_REICHSTAAT.18.desc:0 ""
+ MZB_REICHSTAAT.18.a:0 ""
+ MZB_REICHSTAAT.18.b:0 "Zambia"
+
+ MZB_REICHSTAAT.19.t:0 "Revolt in Botswana"
+ MZB_REICHSTAAT.19.desc:0 ""
+ MZB_REICHSTAAT.19.a:0 ""
+ MZB_REICHSTAAT.19.b:0 "Play as Botswana"
+
+ MZB_REICHSTAAT.20.t:0 "Revolt in Simbabwe"
+ MZB_REICHSTAAT.20.desc:0 ""
+ MZB_REICHSTAAT.20.a:0 ""
+ MZB_REICHSTAAT.20.b:0 "Play as Zimbabwe"
+
+ MZB_REICHSTAAT.21.t:0 "Revolt in Mosambik"
+ MZB_REICHSTAAT.21.desc:0 ""
+ MZB_REICHSTAAT.21.a:0 ""
+ MZB_REICHSTAAT.21.b:0 "Play as Gazaland"
+
+ MZB_REICHSTAAT.22.t:0 "Revolt in Sansibar"
+ MZB_REICHSTAAT.22.desc:0 ""
+ MZB_REICHSTAAT.22.a:0 ""
+ MZB_REICHSTAAT.22.b:0 "Play as Zanzibar"
+
+ MZB_REICHSTAAT.23.t:0 "Revolt in Ruanda-Burundi"
+ MZB_REICHSTAAT.23.desc:0 ""
+ MZB_REICHSTAAT.23.a:0 ""
+ MZB_REICHSTAAT.23.b:0 "Play as Rwanda"
+ MZB_REICHSTAAT.23.c:0 "Play as Burundi"
+
+ MZB_REICHSTAAT.24.t:0 "Revolt in Uganda"
+ MZB_REICHSTAAT.24.desc:0 ""
+ MZB_REICHSTAAT.24.a:0 ""
+ MZB_REICHSTAAT.24.b:0 "Play as Uganda"
+
+ MZB_REICHSTAAT.25.t:0 "Revolt in Tanganika"
+ MZB_REICHSTAAT.25.desc:0 ""
+ MZB_REICHSTAAT.25.a:0 ""
+ MZB_REICHSTAAT.25.b:0 "Play as Tanganika"
+
+ MZB_REICHSTAAT.26.t:0 "Unrest in Namibia"
+ MZB_REICHSTAAT.26.desc:0 ""
+ MZB_REICHSTAAT.26.a:0 ""
+ MZB_REICHSTAAT.26.b:0 "Play as Namibia"
+
+ MZB_REICHSTAAT.27.t:0 "Revolt in Namibia"
+ MZB_REICHSTAAT.27.desc:0 ""
+ MZB_REICHSTAAT.27.a:0 ""
+
+ MZB_REICHSTAAT.28.t:0 "Unrest in Kenia"
+ MZB_REICHSTAAT.28.desc:0 ""
+ MZB_REICHSTAAT.28.a:0 ""
+ MZB_REICHSTAAT.28.b:0 "Play as Luoland"
+
+ MZB_REICHSTAAT.29.t:0 "Revolt in Kenia"
+ MZB_REICHSTAAT.29.desc:0 ""
+ MZB_REICHSTAAT.29.a:0 ""
+
+ MZB_REICHSTAAT.30.t:0 "Kameroon is now under control"
+ MZB_REICHSTAAT.30.desc:0 ""
+ MZB_REICHSTAAT.30.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.31.t:0 "Ubangi-Schari is now under control"
+ MZB_REICHSTAAT.31.desc:0 ""
+ MZB_REICHSTAAT.31.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.32.t:0 "Kongo is now under control"
+ MZB_REICHSTAAT.32.desc:0 ""
+ MZB_REICHSTAAT.32.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.33.t:0 "Angola is now under control"
+ MZB_REICHSTAAT.33.desc:0 ""
+ MZB_REICHSTAAT.33.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.34.t:0 "Sambia is now under control"
+ MZB_REICHSTAAT.34.desc:0 ""
+ MZB_REICHSTAAT.34.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.35.t:0 "Botswana is now under control"
+ MZB_REICHSTAAT.35.desc:0 ""
+ MZB_REICHSTAAT.35.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.36.t:0 "Simbabwe is now under control"
+ MZB_REICHSTAAT.36.desc:0 ""
+ MZB_REICHSTAAT.36.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.37.t:0 "Mosambik is now under control"
+ MZB_REICHSTAAT.37.desc:0 ""
+ MZB_REICHSTAAT.37.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.38.t:0 "Sansibar is now under control"
+ MZB_REICHSTAAT.38.desc:0 ""
+ MZB_REICHSTAAT.38.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.39.t:0 "Ruanda-Burundi is now under control"
+ MZB_REICHSTAAT.39.desc:0 ""
+ MZB_REICHSTAAT.39.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.40.t:0 "Uganda is now under control"
+ MZB_REICHSTAAT.40.desc:0 ""
+ MZB_REICHSTAAT.40.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.41.t:0 "Tanganika is now under control"
+ MZB_REICHSTAAT.41.desc:0 ""
+ MZB_REICHSTAAT.41.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.42.t:0 "Namibia is now under control"
+ MZB_REICHSTAAT.42.desc:0 ""
+ MZB_REICHSTAAT.42.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT.43.t:0 "Kenia is now under control"
+ MZB_REICHSTAAT.43.desc:0 ""
+ MZB_REICHSTAAT.43.a:0 "Wunderbar"
+
+
+
+ MZB_REICHSTAAT.100.t:0 "BNUP leaders spotted crossing the Iberian border"
+ MZB_REICHSTAAT.100.desc:0 ""
+ MZB_REICHSTAAT.100.a:0 "The cowards flee"
+
+
+
+ MZB_REICHSTAAT.200.t:0 "Border clashes against Azande tribes"
+ MZB_REICHSTAAT.200.desc:0 ""
+ MZB_REICHSTAAT.200.a:0 "Support the local garrisons"
+ MZB_REICHSTAAT.200.b:0 "Franz can handle that himself"
+
+ MZB_REICHSTAAT.201.t:0 "Rebel militias spotted near the shores of the Kongo See"
+ MZB_REICHSTAAT.201.desc:0 ""
+ MZB_REICHSTAAT.201.a:0 "Launch an investigation"
+ MZB_REICHSTAAT.201.b:0 "Don't bother with them"
+
+ MZB_REICHSTAAT.202.t:0 "Rebel militia in Nord-Kongo arrested near Bangui"
+ MZB_REICHSTAAT.202.desc:0 ""
+ MZB_REICHSTAAT.202.a:0 "Less scum in the region"
+
+ MZB_REICHSTAAT.203.t:0 "No traces of the Ubangui-Schari rebels found"
+ MZB_REICHSTAAT.203.desc:0 ""
+ MZB_REICHSTAAT.203.a:0 "Shameful"
+
+
+
+ MZB_REICHSTAAT.300.t:0 "Report form the Kolonialverwalter des Kongos"
+ MZB_REICHSTAAT.300.desc:0 ""
+ MZB_REICHSTAAT.300.a:0 "Send reinforcements to guard the dam"
+ MZB_REICHSTAAT.300.b:0 "Dismiss the report"
+
+ MZB_REICHSTAAT.301.t:0 "Mobutu's trail found"
+ MZB_REICHSTAAT.301.desc:0 ""
+ MZB_REICHSTAAT.301.a:0 "Follow the trail"
+ MZB_REICHSTAAT.301.b:0 "Who cares about an ex-officer"
+
+ MZB_REICHSTAAT.302.t:0 "The trial of the traitors"
+ MZB_REICHSTAAT.302.desc:0 ""
+ MZB_REICHSTAAT.302.a:0 "Send them to prison"
+ MZB_REICHSTAAT.302.b:0 "For them, the death penalty"
+
+ MZB_REICHSTAAT.303.t:0 "The Death of Rolf Steiner"
+ MZB_REICHSTAAT.303.desc:0 ""
+ MZB_REICHSTAAT.303.a:0 "..."
+
+ MZB_REICHSTAAT.304.t:0 "Local mercenary leader Jean Schramme disappears"
+ MZB_REICHSTAAT.304.desc:0 ""
+ MZB_REICHSTAAT.304.a:0 "Obviously"
+
+ MZB_REICHSTAAT.305.t:0 "Kolonialverwalter Förschner's worries"
+ MZB_REICHSTAAT.305.desc:0 ""
+ MZB_REICHSTAAT.305.a:0 "His worries are heard"
+ MZB_REICHSTAAT.305.b:0 "We cannot afford Förschner's follies"
+
+ MZB_REICHSTAAT.306.t:0 "The trail leads nowhere"
+ MZB_REICHSTAAT.306.desc:0 ""
+ MZB_REICHSTAAT.306.a:0 "Damn"
+
+ MZB_REICHSTAAT.307.t:0 "Large black market network uncovered"
+ MZB_REICHSTAAT.307.desc:0 ""
+ MZB_REICHSTAAT.307.a:0 "Some results after all"
+
+ MZB_REICHSTAAT.308.t:0 "Mobutu's hideout found somewhere in Southern Saraland"
+ MZB_REICHSTAAT.308.desc:0 ""
+ MZB_REICHSTAAT.308.a:0 "This again proves the incompetance of Müller"
+
+
+
+ MZB_REICHSTAAT.400.t:0 "Armed militias storms one of our military base"
+ MZB_REICHSTAAT.400.desc:0 ""
+ MZB_REICHSTAAT.400.a:0 "Send more men to deal with the threat"
+ MZB_REICHSTAAT.400.b:0 "I trust Kolonialverwalter Muhsfeldt's judgement"
+
+ MZB_REICHSTAAT.401.t:0 "UNITA leaders are broadcasting a call to resistance"
+ MZB_REICHSTAAT.401.desc:0 ""
+ MZB_REICHSTAAT.401.a:0 "Try to locate the broadcasting location"
+ MZB_REICHSTAAT.401.b:0 "Radio signals never hurt anyone"
+
+ MZB_REICHSTAAT.402.t:0 "Garrison troops found dead near Luanda"
+ MZB_REICHSTAAT.402.desc:0 ""
+ MZB_REICHSTAAT.402.a:0 "Something is brewing"
+
+ MZB_REICHSTAAT.403.t:0 "German settlers arrested for collaborating with local rebels"
+ MZB_REICHSTAAT.403.desc:0 ""
+ MZB_REICHSTAAT.403.a:0 "Good riddance"
+
+ MZB_REICHSTAAT.404.t:0 "Violent clashes in Angola"
+ MZB_REICHSTAAT.404.desc:0 ""
+ MZB_REICHSTAAT.404.a:0 "Send reinforcements to Muhsfeldt"
+ MZB_REICHSTAAT.404.b:0 "Angola's situation is spiraling down"
+
+ MZB_REICHSTAAT.405.t:0 "Explosion in the Luanda Kolonialamt"
+ MZB_REICHSTAAT.405.desc:0 ""
+ MZB_REICHSTAAT.405.a:0 "What?!"
+
+ MZB_REICHSTAAT.406.t:0 "Chaos in Luanda"
+ MZB_REICHSTAAT.406.desc:0 ""
+ MZB_REICHSTAAT.406.a:0 "Send even more men to Luanda"
+ MZB_REICHSTAAT.406.b:0 "Come on Muhsfeldt, we're already too preoccupied!"
+
+ MZB_REICHSTAAT.407.t:0 "UNITA leader Jonas Savimbi declares the independence of Angola"
+ MZB_REICHSTAAT.407.desc:0 ""
+ MZB_REICHSTAAT.407.a:0 "Damn you"
+
+ MZB_REICHSTAAT.408.t:0 "Major local leaders defies German orders"
+ MZB_REICHSTAAT.408.desc:0 ""
+ MZB_REICHSTAAT.408.a:0 "Why won't they obey!"
+
+ MZB_REICHSTAAT.409.t:0 "UNITA broadcasting station located"
+ MZB_REICHSTAAT.409.desc:0 ""
+ MZB_REICHSTAAT.409.a:0 "The rebellion will be curbed"
+
+ MZB_REICHSTAAT.410.t:0 "UNITA broadcasting station found empty"
+ MZB_REICHSTAAT.410.desc:0 ""
+ MZB_REICHSTAAT.410.a:0 "Damn"
+
+
+
+ MZB_REICHSTAAT.500.t:0 "Sambischen British worried by Kolonialverwalter Möser's methods"
+ MZB_REICHSTAAT.500.desc:0 ""
+ MZB_REICHSTAAT.500.a:0 "Ask the Kolonialverwalter to be more leniant on British possesions"
+ MZB_REICHSTAAT.500.b:0 "The British will have what we will give them"
+
+
+
+ MZB_REICHSTAAT.600.t:0 "Afrikaners in Botswana seeks Boer citizenship"
+ MZB_REICHSTAAT.600.desc:0 ""
+ MZB_REICHSTAAT.600.a:0 "Force the Boers to open their borders"
+ MZB_REICHSTAAT.600.b:0 "Let the Afrikaners cross the border themselves"
+
+
+
+ MZB_REICHSTAAT.700.t:0 "Infightings in Simbabwe"
+ MZB_REICHSTAAT.700.desc:0 ""
+ MZB_REICHSTAAT.700.a:0 "Let them fight themselves"
+
+ MZB_REICHSTAAT.701.t:0 "Gunshots heard 15km north of Salisbury"
+ MZB_REICHSTAAT.701.desc:0 ""
+ MZB_REICHSTAAT.701.a:0 "Send in reinforcements"
+ MZB_REICHSTAAT.701.b:0 "What are the local authorities doing?"
+
+ MZB_REICHSTAAT.702.t:0 "Insurgent leader Joshua Nkomo reported dead"
+ MZB_REICHSTAAT.702.desc:0 ""
+ MZB_REICHSTAAT.702.a:0 "Good riddance"
+
+ MZB_REICHSTAAT.703.t:0 "Major railway destroyed near Salisbury"
+ MZB_REICHSTAAT.703.desc:0 ""
+ MZB_REICHSTAAT.703.a:0 "Troublesome"
+
+ MZB_REICHSTAAT.704.t:0 "Shootout in the Madziwa Mines"
+ MZB_REICHSTAAT.704.desc:0 ""
+ MZB_REICHSTAAT.704.a:0 "Intervene to calm the situation down"
+ MZB_REICHSTAAT.704.b:0 "Watch from afar"
+
+ MZB_REICHSTAAT.705.t:0 "Disapearance of a local administratior in Lupane"
+ MZB_REICHSTAAT.705.desc:0 ""
+ MZB_REICHSTAAT.705.a:0 "We need to find him"
+ MZB_REICHSTAAT.705.b:0 "Not unusual in Simbabwe"
+
+ MZB_REICHSTAAT.706.t:0 "ZANU warlord manages to take control of Simbabwe"
+ MZB_REICHSTAAT.706.desc:0 ""
+ MZB_REICHSTAAT.706.a:0 "We are loosing our hold"
+
+ MZB_REICHSTAAT.707.t:0 "Missing Simbabwe administrator recovered"
+ MZB_REICHSTAAT.707.desc:0 ""
+ MZB_REICHSTAAT.707.a:0 "Good"
+
+ MZB_REICHSTAAT.708.t:0 "Searching squad unable to find the missing administrator"
+ MZB_REICHSTAAT.708.desc:0 ""
+ MZB_REICHSTAAT.708.a:0 "Damn"
+
+
+
+ MZB_REICHSTAAT.800.t:0 "FRELIGA leader Eduardo Mondlane arrested"
+ MZB_REICHSTAAT.800.desc:0 ""
+ MZB_REICHSTAAT.800.a:0 "Finally!"
+
+ MZB_REICHSTAAT.801.t:0 "Mondlane's trial"
+ MZB_REICHSTAAT.801.desc:0 ""
+ MZB_REICHSTAAT.801.a:0 "An easy verdict"
+
+ MZB_REICHSTAAT.802.t:0 "Mondlane managed to escape!"
+ MZB_REICHSTAAT.802.desc:0 ""
+ MZB_REICHSTAAT.802.a:0 "How?"
+
+ MZB_REICHSTAAT.803.t:0 "Control of Mozambik lost"
+ MZB_REICHSTAAT.803.desc:0 ""
+ MZB_REICHSTAAT.803.a:0 "Execute our fallback plan"
+
+ MZB_REICHSTAAT.804.t:0 "The Road to Léopoldville"
+ MZB_REICHSTAAT.804.desc:0 ""
+ MZB_REICHSTAAT.804.a:0 "A long road"
+
+ MZB_REICHSTAAT.805.t:0 "In our new headquarters"
+ MZB_REICHSTAAT.805.desc:0 ""
+ MZB_REICHSTAAT.805.a:0 "Let's get back to buisness"
+
+ MZB_REICHSTAAT.806.t:0 "Verrat"
+ MZB_REICHSTAAT.806.desc:0 ""
+ MZB_REICHSTAAT.806.a:0 "Long live Reichsführer Förschner!"
+
+ MZB_REICHSTAAT.807.t:0 "Collapse of the Oberkommando des Reichstaates"
+ MZB_REICHSTAAT.807.desc:0 ""
+ MZB_REICHSTAAT.807.a:0 "An expected outcome"
+
+
+
+ MZB_REICHSTAAT.900.t:0 "Local Militias takes control of Sansibar Hafen"
+ MZB_REICHSTAAT.900.desc:0 ""
+ MZB_REICHSTAAT.900.a:0 "Take back that port"
+ MZB_REICHSTAAT.900.b:0 "The islands were a lost cause anyway"
+
+ MZB_REICHSTAAT.901.t:0 "Local warlord attacks Dar es Salaam"
+ MZB_REICHSTAAT.901.desc:0 ""
+ MZB_REICHSTAAT.901.a:0 "Fight back"
+ MZB_REICHSTAAT.901.b:0 "What can this laughable general do to us?"
+
+
+
+ MZB_REICHSTAAT.1000.t:0 "Kigeli V refused the invitation of the Kolonialverwalter"
+ MZB_REICHSTAAT.1000.desc:0 ""
+ MZB_REICHSTAAT.1000.a:0 "Shocking"
+
+ MZB_REICHSTAAT.1001.t:0 "Coordinated attacks from Ugandisch and Ruandisch militias"
+ MZB_REICHSTAAT.1001.desc:0 ""
+ MZB_REICHSTAAT.1001.a:0 "Help the local garrisons"
+ MZB_REICHSTAAT.1001.b:0 "We cannot do anything"
+
+ MZB_REICHSTAAT.1002.t:0 "Communication lost between Quelimane and Kigali"
+ MZB_REICHSTAAT.1002.desc:0 ""
+ MZB_REICHSTAAT.1002.a:0 "Unacceptable!"
+
+ MZB_REICHSTAAT.1003.t:0 "Death of Mutara III"
+ MZB_REICHSTAAT.1003.desc:0 ""
+ MZB_REICHSTAAT.1003.a:0 "Ok"
+
+ MZB_REICHSTAAT.1004.t:0 "Crisis in Urundi"
+ MZB_REICHSTAAT.1004.desc:0 ""
+ MZB_REICHSTAAT.1004.a:0 "Urundisch problem in Urundisch hands"
+
+ MZB_REICHSTAAT.1005.t:0 "Local warlord Michel Micombero takes control of major Burundian positions"
+ MZB_REICHSTAAT.1005.desc:0 ""
+ MZB_REICHSTAAT.1005.a:0 "A warlord replaces another"
+
+ MZB_REICHSTAAT.1006.t:0 "Micombero's militias enters Gitega"
+ MZB_REICHSTAAT.1006.desc:0 ""
+ MZB_REICHSTAAT.1006.a:0 "Kolonialverwalter Franz will handle that promptly"
+
+ MZB_REICHSTAAT.1007.t:0 "Kolonialverwalter Kurt Franz brutally executed by Ugandisch militias"
+ MZB_REICHSTAAT.1007.desc:0 ""
+ MZB_REICHSTAAT.1007.a:0 "The savagery spreads!"
+
+
+
+ MZB_REICHSTAAT.1100.t:0 "Kolonialverwalter Georg Bachmayer found dead in his home"
+ MZB_REICHSTAAT.1100.desc:0 ""
+ MZB_REICHSTAAT.1100.a:0 "This is an urgent matter, send in more troops!"
+ MZB_REICHSTAAT.1100.b:0 "They don't waste time"
+
+ MZB_REICHSTAAT.1101.t:0 "Mutesa II disposed by local warlord"
+ MZB_REICHSTAAT.1101.desc:0 ""
+ MZB_REICHSTAAT.1101.a:0 "The obvious outcome"
+
+ MZB_REICHSTAAT.1102.t:0 "Ugandisch insurgency in Kampala"
+ MZB_REICHSTAAT.1102.desc:0 ""
+ MZB_REICHSTAAT.1102.a:0 "Put all of Uganda under direct military rule"
+# MZB_REICHSTAAT.1102.a:0 "We can't afford to do anything" #duplicate loc key
+
+ MZB_REICHSTAAT.1103.t:0 "Battle for Viktoria See"
+ MZB_REICHSTAAT.1103.desc:0 ""
+ MZB_REICHSTAAT.1103.a:0 "We are fighting savagery everywhere"
+
+ MZB_REICHSTAAT.1104.t:0 "Ugandisch militias blockades major roads to Kampala"
+ MZB_REICHSTAAT.1104.desc:0 ""
+ MZB_REICHSTAAT.1104.a:0 "Damn"
+
+ MZB_REICHSTAAT.1105.t:0 "General Idi Amin Dada declares the independence of Uganda"
+ MZB_REICHSTAAT.1105.desc:0 ""
+ MZB_REICHSTAAT.1105.a:0 "Damn you!"
+
+
+
+ MZB_REICHSTAAT.1200.t:0 "Tanganika event.1200"
+ MZB_REICHSTAAT.1200.desc:0 ""
+ MZB_REICHSTAAT.1200.a:0 ""
+
+
+
+ MZB_REICHSTAAT.1300.t:0 "SWAVO raids on Windhoek"
+ MZB_REICHSTAAT.1300.desc:0 ""
+ MZB_REICHSTAAT.1300.a:0 "Why didn't they meet any resistance?"
+
+ MZB_REICHSTAAT.1301.t:0 "Windhoek residents welcomes Sam Nujoma"
+ MZB_REICHSTAAT.1301.desc:0 ""
+ MZB_REICHSTAAT.1301.a:0 "This is becomming more and more suspicious"
+
+ MZB_REICHSTAAT.1302.t:0 "Kolonialverwalter Höcker discovers proofs of Schenck's treason"
+ MZB_REICHSTAAT.1302.desc:0 ""
+ MZB_REICHSTAAT.1302.a:0 "Proceed with the arrests"
+
+ MZB_REICHSTAAT.1303.t:0 "Mass arrests in Widhoek"
+ MZB_REICHSTAAT.1303.desc:0 ""
+ MZB_REICHSTAAT.1303.a:0 "There's no place for traitors"
+
+
+
+ MZB_REICHSTAAT.1400.t:0 "Oginga Odinga's plea for independence"
+ MZB_REICHSTAAT.1400.desc:0 ""
+ MZB_REICHSTAAT.1400.a:0 "He can plea however much he wants"
+
+ MZB_REICHSTAAT.1401.t:0 "Formation of the Luo Brigades"
+ MZB_REICHSTAAT.1401.desc:0 ""
+ MZB_REICHSTAAT.1401.a:0 "Worrying, but insignificant"
+
+ MZB_REICHSTAAT.1402.t:0 "The Luo Thrift and Trading Corporation resumes activity"
+ MZB_REICHSTAAT.1402.desc:0 ""
+ MZB_REICHSTAAT.1402.a:0 "Force them to cease activities again"
+ MZB_REICHSTAAT.1402.b:0 "Let it be"
+
+ MZB_REICHSTAAT.1403.t:0 "The Ker announces the creation of the Luo Popular Government for Sovereignty"
+ MZB_REICHSTAAT.1403.desc:0 ""
+ MZB_REICHSTAAT.1403.a:0 "The Ker means nothing to the Reichsführer"
+
+
+
+ MZB_REICHSTAAT_FOCUS.1.t:0 "Ein Neuer Tag"
+ MZB_REICHSTAAT_FOCUS.1.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.1.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.2.t:0 "The African Situation - An Overview"
+ MZB_REICHSTAAT_FOCUS.2.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.2.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.3.t:0 "Administrative Overhaul"
+ MZB_REICHSTAAT_FOCUS.3.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.3.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.4.t:0 "Treason must not be Tolerated"
+ MZB_REICHSTAAT_FOCUS.4.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.4.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.5.t:0 "Finishing the Job"
+ MZB_REICHSTAAT_FOCUS.5.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.5.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.6.t:0 "Picking up the Trail"
+ MZB_REICHSTAAT_FOCUS.6.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.6.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.7.t:0 "Rooting out the Rebels"
+ MZB_REICHSTAAT_FOCUS.7.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.7.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.8.t:0 "Suchen und Vernichten"
+ MZB_REICHSTAAT_FOCUS.8.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.8.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.9.t:0 "Political Cleansing"
+ MZB_REICHSTAAT_FOCUS.9.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.9.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.10.t:0 "Emptying the Homes"
+ MZB_REICHSTAAT_FOCUS.10.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.10.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.11.t:0 "Emptying the Cities"
+ MZB_REICHSTAAT_FOCUS.11.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.11.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.12.t:0 "Emptying the Countryside"
+ MZB_REICHSTAAT_FOCUS.12.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.12.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.13.t:0 "Emptying the Continent"
+ MZB_REICHSTAAT_FOCUS.13.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.13.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.14.t:0 "Der Afrikanische Code"
+ MZB_REICHSTAAT_FOCUS.14.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.14.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.15.t:0 "Political Purifications"
+ MZB_REICHSTAAT_FOCUS.15.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.15.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.16.t:0 "The Afrikanischer System"
+ MZB_REICHSTAAT_FOCUS.16.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.16.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.17.t:0 "Spartanism at all Levels"
+ MZB_REICHSTAAT_FOCUS.17.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.17.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.18.t:0 "Eliminitate the Weak and the Untrustworthy"
+ MZB_REICHSTAAT_FOCUS.18.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.18.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.19.t:0 "Officializing the Kolonialverwaltung"
+ MZB_REICHSTAAT_FOCUS.19.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.19.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.20.t:0 "The Kontinentales System"
+ MZB_REICHSTAAT_FOCUS.20.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.20.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.21.t:0 "Léopoldville-Salisbury Germanization Program"
+ MZB_REICHSTAAT_FOCUS.21.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.21.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.22.t:0 "No More Non-Germans"
+ MZB_REICHSTAAT_FOCUS.22.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.22.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.23.t:0 "Dusting Old Machinery"
+ MZB_REICHSTAAT_FOCUS.23.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.23.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.24.t:0 "Strict Programs"
+ MZB_REICHSTAAT_FOCUS.24.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.24.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.25.t:0 "Der Deutsch-Afrikanische Arbeiter"
+ MZB_REICHSTAAT_FOCUS.25.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.25.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.26.t:0 "Die Afrikanischen Sklaven"
+ MZB_REICHSTAAT_FOCUS.26.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.26.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.27.t:0 "From Huts to Industry"
+ MZB_REICHSTAAT_FOCUS.27.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.27.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.28.t:0 "Home Armament"
+ MZB_REICHSTAAT_FOCUS.28.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.28.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.29.t:0 "Waking up the Werwolf"
+ MZB_REICHSTAAT_FOCUS.29.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.29.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.29001.t:0 "Mission Success"
+ MZB_REICHSTAAT_FOCUS.29001.desc:0 "According to the post-operation report, we have lost a total of :\n    - [?MZB_wwlf_manpower_loss] men (MIA and KIA)\n    - [?MZB_wwlf_equipment_loss] pieces of military equipment"
+ MZB_REICHSTAAT_FOCUS.29001.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT_FOCUS.29002.t:0 "Mission Failure"
+ MZB_REICHSTAAT_FOCUS.29002.desc:0 "According to the post-operation report, we have lost a total of :\n    - [?MZB_wwlf_manpower_loss] men (MIA and KIA)\n    - [?MZB_wwlf_equipment_loss] pieces of military equipment"
+ MZB_REICHSTAAT_FOCUS.29002.a:0 "Scheisse"
+
+ MZB_REICHSTAAT_FOCUS.30.t:0 "Increases in our Needs"
+ MZB_REICHSTAAT_FOCUS.30.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.30.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.31.t:0 "Recruitment Expansions"
+ MZB_REICHSTAAT_FOCUS.31.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.31.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.32.t:0 "Boers Werewolves"
+ MZB_REICHSTAAT_FOCUS.32.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.32.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.33.t:0 "Lighting up the Powder Kegs"
+ MZB_REICHSTAAT_FOCUS.33.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.33.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.34.t:0 "Das Großafrikanischer SS"
+ MZB_REICHSTAAT_FOCUS.34.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.34.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.34001.t:0 "Mission Success"
+ MZB_REICHSTAAT_FOCUS.34001.desc:0 "According to the post-operation report, we have lost a total of :\n    - [?MZB_ss_manpower_loss] men (MIA and KIA)\n    - [?MZB_ss_equipment_loss] pieces of military equipment"
+ MZB_REICHSTAAT_FOCUS.34001.a:0 "Wunderbar"
+
+ MZB_REICHSTAAT_FOCUS.34002.t:0 "Mission Failure"
+ MZB_REICHSTAAT_FOCUS.34002.desc:0 "According to the post-operation report, we have lost a total of :\n    - [?MZB_ss_manpower_loss] men (MIA and KIA)\n    - [?MZB_ss_equipment_loss] pieces of military equipment"
+ MZB_REICHSTAAT_FOCUS.34002.a:0 "Scheisse"
+
+ MZB_REICHSTAAT_FOCUS.35.t:0 "The Masters of this World"
+ MZB_REICHSTAAT_FOCUS.35.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.35.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.35001.t:0 "Our Bounty"
+ MZB_REICHSTAAT_FOCUS.35001.desc:0 "According to the post-operation report, we have gained a total of [?MZB_raid_mission_equipment] pieces of military equipment"
+ MZB_REICHSTAAT_FOCUS.35001.a:0 "Keep it to ourselves"
+ MZB_REICHSTAAT_FOCUS.35001.b:0 "This will be better used by our SS"
+
+ MZB_REICHSTAAT_FOCUS.36.t:0 "Die Abteilung fuer Afrikanische Freiwillige"
+ MZB_REICHSTAAT_FOCUS.36.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.36.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.37.t:0 "Leave nothing to our Ennemies"
+ MZB_REICHSTAAT_FOCUS.37.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.37.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.38.t:0 "The Boer Border Issue"
+ MZB_REICHSTAAT_FOCUS.38.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.38.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.39.t:0 "A Letter to the Vasallenstaat"
+ MZB_REICHSTAAT_FOCUS.39.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.39.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.40.t:0 "Boer Diamonds"
+ MZB_REICHSTAAT_FOCUS.40.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.40.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.41.t:0 "POW Extradition"
+ MZB_REICHSTAAT_FOCUS.41.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.41.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.42.t:0 "Hostage Program"
+ MZB_REICHSTAAT_FOCUS.42.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.42.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.43.t:0 "The Boer Vasallenstaat"
+ MZB_REICHSTAAT_FOCUS.43.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.43.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.44.t:0 ""
+ MZB_REICHSTAAT_FOCUS.44.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.44.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.45.t:0 "Recover African Military Records"
+ MZB_REICHSTAAT_FOCUS.45.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.45.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.46.t:0 "Tracking Down the Veterans"
+ MZB_REICHSTAAT_FOCUS.46.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.46.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.47.t:0 "Finding Joe"
+ MZB_REICHSTAAT_FOCUS.47.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.47.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.48.t:0 "Operation Rotes Gewitter"
+ MZB_REICHSTAAT_FOCUS.48.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.48.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.49.t:0 ""
+ MZB_REICHSTAAT_FOCUS.49.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.49.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.50.t:0 ""
+ MZB_REICHSTAAT_FOCUS.50.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.50.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.51.t:0 ""
+ MZB_REICHSTAAT_FOCUS.51.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.51.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.52.t:0 ""
+ MZB_REICHSTAAT_FOCUS.52.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.52.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.53.t:0 ""
+ MZB_REICHSTAAT_FOCUS.53.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.53.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.54.t:0 ""
+ MZB_REICHSTAAT_FOCUS.54.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.54.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.55.t:0 ""
+ MZB_REICHSTAAT_FOCUS.55.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.55.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.56.t:0 ""
+ MZB_REICHSTAAT_FOCUS.56.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.56.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.57.t:0 ""
+ MZB_REICHSTAAT_FOCUS.57.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.57.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.58.t:0 ""
+ MZB_REICHSTAAT_FOCUS.58.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.58.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.59.t:0 ""
+ MZB_REICHSTAAT_FOCUS.59.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.59.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.60.t:0 ""
+ MZB_REICHSTAAT_FOCUS.60.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.60.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.61.t:0 ""
+ MZB_REICHSTAAT_FOCUS.61.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.61.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.62.t:0 ""
+ MZB_REICHSTAAT_FOCUS.62.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.62.a:0 ""
+
+ MZB_REICHSTAAT_FOCUS.63.t:0 ""
+ MZB_REICHSTAAT_FOCUS.63.desc:0 ""
+ MZB_REICHSTAAT_FOCUS.63.a:0 ""
+
+
+
+ MZB_REICHSTAAT_BOERS.1.t:0 "A Letter from Reichsführer Hans Hüttig"
+ MZB_REICHSTAAT_BOERS.1.desc:0 ""
+ MZB_REICHSTAAT_BOERS.1.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.2.t:0 "The Reichsstaat confiscates our diamonds"
+ MZB_REICHSTAAT_BOERS.2.desc:0 ""
+ MZB_REICHSTAAT_BOERS.2.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.3.t:0 "The Boers complies"
+ MZB_REICHSTAAT_BOERS.3.desc:0 ""
+ MZB_REICHSTAAT_BOERS.3.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.4.t:0 "POW Extradition"
+ MZB_REICHSTAAT_BOERS.4.desc:0 ""
+ MZB_REICHSTAAT_BOERS.4.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.5.t:0 "Hostage Program"
+ MZB_REICHSTAAT_BOERS.5.desc:0 ""
+ MZB_REICHSTAAT_BOERS.5.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.6.t:0 "We are a "Vasallenstaat""
+ MZB_REICHSTAAT_BOERS.6.desc:0 ""
+ MZB_REICHSTAAT_BOERS.6.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.7.t:0 "The last American cells"
+ MZB_REICHSTAAT_BOERS.7.desc:0 ""
+ MZB_REICHSTAAT_BOERS.7.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.8.t:0 "The Reichsstaat is requisitioning our military records"
+ MZB_REICHSTAAT_BOERS.8.desc:0 ""
+ MZB_REICHSTAAT_BOERS.8.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.9.t:0 "Questionning the Veterans"
+ MZB_REICHSTAAT_BOERS.9.desc:0 ""
+ MZB_REICHSTAAT_BOERS.9.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.10.t:0 "The HQ of the BCP searched by the Reichsstaat"
+ MZB_REICHSTAAT_BOERS.10.desc:0 ""
+ MZB_REICHSTAAT_BOERS.10.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.11.t:0 "Reënbui"
+ MZB_REICHSTAAT_BOERS.11.desc:0 ""
+ MZB_REICHSTAAT_BOERS.11.a:0 "Ok"
+
+ MZB_REICHSTAAT_BOERS.100.t:0 "The Boer Problem"
+ MZB_REICHSTAAT_BOERS.100.desc:0 ""
+ MZB_REICHSTAAT_BOERS.100.a:0 "To each problem, a solution"
+
+ MZB_REICHSTAAT_BOERS.101.t:0 "The Reichsführer disbands the Volksraad!"
+ MZB_REICHSTAAT_BOERS.101.desc:0 ""
+ MZB_REICHSTAAT_BOERS.101.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.102.t:0 "Panic at the Volksraad"
+ MZB_REICHSTAAT_BOERS.102.desc:0 ""
+ MZB_REICHSTAAT_BOERS.102.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.103.t:0 "Albert Hertzog resigns!"
+ MZB_REICHSTAAT_BOERS.103.desc:0 ""
+ MZB_REICHSTAAT_BOERS.103.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.104.t:0 "The Boer Defense Forces coup"
+ MZB_REICHSTAAT_BOERS.104.desc:0 ""
+ MZB_REICHSTAAT_BOERS.104.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.105.t:0 "Connie Mulder declares a dissident republic"
+ MZB_REICHSTAAT_BOERS.105.desc:0 ""
+ MZB_REICHSTAAT_BOERS.105.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.106.t:0 "The South African Liberation Front secedes"
+ MZB_REICHSTAAT_BOERS.106.desc:0 ""
+ MZB_REICHSTAAT_BOERS.106.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.107.t:0 "The Carnarvon Defense League declares neutrality"
+ MZB_REICHSTAAT_BOERS.107.desc:0 ""
+ MZB_REICHSTAAT_BOERS.107.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.108.t:0 "The Zulu-Xhosa Alliance breaks free"
+ MZB_REICHSTAAT_BOERS.108.desc:0 ""
+ MZB_REICHSTAAT_BOERS.108.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.109.t:0 "The Kingdoms of Lesotho and Eswatini declares their independance"
+ MZB_REICHSTAAT_BOERS.109.desc:0 ""
+ MZB_REICHSTAAT_BOERS.109.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.110.t:0 "General Chmielewski arrives in Johannesburg"
+ MZB_REICHSTAAT_BOERS.110.desc:0 ""
+ MZB_REICHSTAAT_BOERS.110.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.111.t:0 "Chmielewski's report"
+ MZB_REICHSTAAT_BOERS.111.desc:0 ""
+ MZB_REICHSTAAT_BOERS.111.a:0 "Retreat! It's an order!"
+
+ MZB_REICHSTAAT_BOERS.112.t:0 "The End of Disorder"
+ MZB_REICHSTAAT_BOERS.112.desc:0 ""
+ MZB_REICHSTAAT_BOERS.112.a:0 ""
+
+ MZB_REICHSTAAT_BOERS.113.t:0 "Chmielewski's new base of operations"
+ MZB_REICHSTAAT_BOERS.113.desc:0 ""
+ MZB_REICHSTAAT_BOERS.113.a:0 ""

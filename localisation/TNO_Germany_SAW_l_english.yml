@@ -1,0 +1,264 @@
+﻿l_english:
+
+ #IDEAS AND MODIFIERS
+
+ GER_SGR_student_protests:0 "Civilian Protests"
+ GER_SGR_student_protests_desc:0 "§DPolitical Power Gain Factor: [?SGR_protests_severity_pp|0+%]\nWeekly Stability: [?SGR_protests_severity_stab|1+%]\n--------------\n§!Gone are the days of near-unanimous support for the war effort in the Reich. The public, predominately the students - supporters of yore for Speer in the German Civil War - are up in arms about Germany's involvement in a war they view as senseless and monstrous. The longer their Führer fights it, the more they will resist it."
+
+ GER_BOR_student_protests:0 "Civilian Protests"
+ GER_BOR_student_protests_desc:0 "Political Power Gain Factor: [?GER_Bormann_protests_severity_pp|0+%]\nWeekly Stability: [?GER_Bormann_protests_severity_stab|1+%]\n--------------\nGone are the days of near-unanimous support for the war effort in the Reich. The public, predominately the students, are up in arms about Germany's involvement in a war they view as senseless and monstrous. The longer their Führer fights it, the more they will resist it."
+
+ GER_SGR_student_protests_dynamic_modifier:0 "Civilian Protests"
+ GER_BOR_student_protests_dynamic_modifier:0 "Civilian Protests"
+
+ GER_SGR_drugs_SAW:0 "Combat Drugs"
+ GER_SGR_drugs_SAW_desc:0 "From Speed to Pervitin and beyond, drugs allegedly enhancing combat performance have found their way into the hands of German soldiers."
+
+ #FOCUS WORK
+
+ SGR_a_game_of_balancing_trigger_tt:0 "§WSchmidt's proposal has been accepted.§!"
+ SGR_a_show_of_force_trigger_tt:0 "§WTresckow's proposal has been accepted.§!"
+
+ #DECISION WORK
+ #SPEER
+ SGR_South_African_War_category:0 "§ODer Krieg im Süden§!"
+ SGR_South_African_War_category_desc:0 "\n\n\n\n\n\n§YINVOLVEMENT:§! [GetSGRSAWInvolvement] ([?SGR_SAW_involvement|Y1]§Y%§!)  §MPROTEST:§! [GetSGRSAWProtest] ([?SGR_SAW_civilian_protest|Y1]§Y%§!)\n\nOur strategy is currently [getSGRSAWStrategy].\n\nThe §RSouth African War§! was not instigated or even intended by the §YFührer§!, but we can nonetheless profit from it. Whether we push the §RUnited States§! out of Africa or §Gwithdraw§! will have repercussions.\n\nIn spite of all this, the §Mcivilian population§! is protesting our involvement in this war already. We must carefully balance their demands and our plans, or §Rbe forced to withdraw§!."
+
+ SGR_SAW_withdraw_from_the_war:0 "§YWithdraw from the War§!"
+ SGR_SAW_withdraw_from_the_war_desc:0 ""
+
+ SGR_SAW_increase_volunteers:0 "§RReinforce the War Effort§!"
+ SGR_SAW_increase_volunteers_desc:0 "We will send more volunteers into the South African War."
+ SGR_SAW_increase_volunteers_tt:0 "§YWar Involvement§! must be at least [?SGR_SAW_involvement_check|Y]§Y%§! or higher."
+
+ SGR_SAW_decrease_volunteers:0 "§MReduce the War Effort§!"
+ SGR_SAW_decrease_volunteers_desc:0 "We will draw back volunteers from the South African War."
+ SGR_SAW_decrease_volunteers_tt:0 "§YWar Involvement§! must be at least §Y10%§! or higher."
+
+ SGR_SAW_war_report:0 "War Report"
+ SGR_SAW_war_report_desc:0 "Every month, the nation receives the newest report on the South African War by the Oberkommando der Wehrmacht. Despite best censorship efforts, information will always end up trickling through - and the truth of this senseless war in Africa does not make the German people happy."
+
+ SGR_SAW_war_effort_failure:0 "§xLooming Failure§!"
+ SGR_SAW_war_effort_failure_desc:0 "Due to mounting pressure from the §Mpublic§!, the §gReich's§! valiant war effort in South Africa may soon have to grind to a halt. A truly shameful result for such a noble, and profitable, cause..."
+
+ SGR_SAW_propaganda_open:0 "Show §TPropaganda Decisions§!"
+ SGR_SAW_propaganda_open_desc:0 "Click to show §TPropaganda Decisions§!."
+
+ SGR_SAW_propaganda_small:0 "Small Propaganda Effort"
+ SGR_SAW_propaganda_small_desc:0 "We will focus some resources on a small propaganda campaign aimed to calm down the protestors."
+
+ SGR_SAW_propaganda_med:0 "Medium Propaganda Effort"
+ SGR_SAW_propaganda_med_desc:0 "We will focus resources on a propaganda campaign aimed to evoke a feeling of national unity within the protestors."
+
+ SGR_SAW_propaganda_big:0 "Large Propaganda Effort"
+ SGR_SAW_propaganda_big_desc:0 "We will focus our resources on a truly grand propaganda campaign, aimed to recreate the flame of patriotism in our errant youth."
+
+ SGR_SAW_propaganda_close:0 "Hide §TPropaganda Decisions§!"
+ SGR_SAW_propaganda_close_desc:0 "Click to hide §TPropaganda Decisions§!."
+
+ SGR_SAW_equipment_open:0 "Show §OEquipment Decisions§!"
+ SGR_SAW_equipment_open_desc:0 "Click to show §OEquipment Decisions§!."
+
+ SGR_SAW_equipment_guns_schmidt:0 "Gun Shipments"
+ SGR_SAW_equipment_guns_schmidt_desc:0 "What equipment we can spare will be sent to the African RKs."
+
+ SGR_SAW_equipment_antitank_schmidt:0 "Anti-Tank and Artillery Shipments"
+ SGR_SAW_equipment_antitank_schmidt_desc:0 "What equipment we can spare will be sent to the African RKs."
+
+ SGR_SAW_equipment_helicopters_schmidt:0 "Attack Helicopter Shipments"
+ SGR_SAW_equipment_helicopters_schmidt_desc:0 "What equipment we can spare will be sent to the African RKs."
+
+ SGR_SAW_equipment_guns_tresckow:0 "Gun Shipments"
+ SGR_SAW_equipment_guns_tresckow_desc:0 "What equipment we can spare will be sent to the African RKs."
+
+ SGR_SAW_equipment_antitank_tresckow:0 "Anti-Tank and Artillery Shipments"
+ SGR_SAW_equipment_antitank_tresckow_desc:0 "What equipment we can spare will be sent to the African RKs."
+
+ SGR_SAW_equipment_helicopters_tresckow:0 "Attack Helicopter Shipments"
+ SGR_SAW_equipment_helicopters_tresckow_desc:0 "What equipment we can spare will be sent to the African RKs."
+
+ SGR_SAW_equipment_close:0 "Hide §OEquipment Decisions§!"
+ SGR_SAW_equipment_close_desc:0 "Click to hide §OEquipment Decisions§!."
+
+ SGR_SAW_reinforcements_open:0 "Show §RReinforcements Decisions§!"
+ SGR_SAW_reinforcements_open_desc:0 "Click to show §RReinforcements Decisions§!."
+
+ SGR_SAW_reinforcements_schmidt:0 "Send Volunteer Reinforcements"
+ SGR_SAW_reinforcements_schmidt_desc:0 "The brave patriots who have signed up for victory in South Africa will be sent to it."
+
+ SGR_SAW_advisors_schmidt:0 "Send Advisors"
+ SGR_SAW_advisors_schmidt_desc:0 "Oberkommando der Wehrmacht advisors are sent to the south to aid the local commands of the African RKs."
+
+ SGR_SAW_reinforcements_tresckow:0 "Send Volunteer Reinforcements"
+ SGR_SAW_reinforcements_tresckow_desc:0 "The brave patriots who have signed up for victory in South Africa will be sent to it."
+
+ SGR_SAW_drugs_tresckow:0 "Combat Drugs Shipments"
+ SGR_SAW_drugs_tresckow_desc:0 "Although it is a disgrace, the enemy has forced our hands..."
+
+ SGR_SAW_reinforcements_close:0 "Hide §RReinforcements Decisions§!"
+ SGR_SAW_reinforcements_close_desc:0 "Click to hide §RReinforcements Decisions§!."
+
+ SGR_SAW_steal_assets:0 "§YSeize RK Assets§!"
+ SGR_SAW_steal_assets_desc:0 "As we can see the writing on the wall, it is time to seize the remaining products of our decades long investment into Africa."
+
+ SGR_SAW_bombingruns:0 "§RCommence Luftwaffe Bombing Runs§!"
+ SGR_SAW_bombingruns_desc:0 "The situation in South Africa requires more direct intervention, of which the Luftwaffe is more than capable of."
+
+ #BORMANN
+ GER_Bormann_SAF_War_category:0 "§ODer Krieg im Süden§!"
+ GER_Bormann_SAF_War_category_desc:0 "\n\n\n\n\n\n§YINVOLVEMENT:§! [GetBORSAWInvolvement] ([?GER_Bormann_SAW_involvement|Y1]§Y%§!)  §MPROTEST:§! [GetBORSAWProtest] ([?GER_Bormann_SAW_civilian_protest|Y1]§Y%§!)\n\nOur strategy is currently [getBORSAWStrategy].\n\nThe §RSouth African War§! was not instigated or even intended by the §YFührer§!, but we can nonetheless profit from it. Whether we push the §RUnited States§! out of Africa or §Gwithdraw§! will have repercussions.\n\nIn spite of all this, the §Mcivilian population§! is protesting our involvement in this war already. We must carefully balance their demands and our plans, or §Rbe forced to withdraw§!."
+
+ GER_Bormann_SAF_withdraw_from_the_war:0 "§YWithdraw from the War§!"
+ GER_Bormann_SAF_withdraw_from_the_war_desc:0 ""
+
+ GER_Bormann_SAF_increase_volunteers:0 "§RReinforce the War Effort§!"
+ GER_Bormann_SAF_increase_volunteers_desc:0 "We will send more volunteers into the South African War."
+ GER_Bormann_SAF_increase_volunteers_tt:0 "§YWar Involvement§! must be at least [?SGR_SAW_involvement_check|Y]§Y%§! or higher."
+
+ GER_Bormann_SAF_decrease_volunteers:0 "§MReduce the War Effort§!"
+ GER_Bormann_SAF_decrease_volunteers_desc:0 "We will draw back volunteers from the South African War."
+ GER_Bormann_SAF_decrease_volunteers_tt:0 "§YWar Involvement§! must be at least §Y10%§! or higher."
+
+ GER_Bormann_SAF_war_report:0 "War Report"
+ GER_Bormann_SAF_war_report_desc:0 "Every month, the nation receives the newest report on the South African War by the Oberkommando der Wehrmacht. Despite best censorship efforts, information will always end up trickling through - and the truth of this senseless war in Africa does not make the German people happy."
+
+ GER_Bormann_SAF_war_effort_failure:0 "§xLooming Failure§!"
+ GER_Bormann_SAF_war_effort_failure_desc:0 "Due to mounting pressure from the §Mpublic§!, the §gReich's§! valiant war effort in South Africa may soon have to grind to a halt. A truly shameful result for such a noble, and profitable, cause..."
+
+ GER_Bormann_SAF_propaganda_open:0 "Show §TPropaganda Decisions§!"
+ GER_Bormann_SAF_propaganda_open_desc:0 "Click to show §TPropaganda Decisions§!."
+
+ GER_Bormann_SAF_propaganda_small:0 "Small Propaganda Effort"
+ GER_Bormann_SAF_propaganda_small_desc:0 "We will focus some resources on a small propaganda campaign aimed to calm down the protestors."
+
+ GER_Bormann_SAF_propaganda_med:0 "Medium Propaganda Effort"
+ GER_Bormann_SAF_propaganda_med_desc:0 "We will focus resources on a propaganda campaign aimed to evoke a feeling of national unity within the protestors."
+
+ GER_Bormann_SAF_propaganda_big:0 "Large Propaganda Effort"
+ GER_Bormann_SAF_propaganda_big_desc:0 "We will focus our resources on a truly grand propaganda campaign, aimed to recreate the flame of patriotism in our errant youth."
+
+ GER_Bormann_SAF_propaganda_close:0 "Hide §TPropaganda Decisions§!"
+ GER_Bormann_SAF_propaganda_close_desc:0 "Click to hide §TPropaganda Decisions§!."
+
+ GER_Bormann_SAF_equipment_open:0 "Show §OEquipment Decisions§!"
+ GER_Bormann_SAF_equipment_open_desc:0 "Click to show §OEquipment Decisions§!."
+
+ GER_Bormann_SAF_equipment_guns:0 "Gun Shipments"
+ GER_Bormann_SAF_equipment_guns_desc:0 "What equipment we can spare will be sent to the African RKs."
+
+ GER_Bormann_SAF_equipment_antitank:0 "Anti-Tank and Artillery Shipments"
+ GER_Bormann_SAF_equipment_antitank_desc:0 "What equipment we can spare will be sent to the African RKs."
+
+ GER_Bormann_SAF_equipment_helicopters:0 "Attack Helicopter Shipments"
+ GER_Bormann_SAF_equipment_helicopters_desc:0 "What equipment we can spare will be sent to the African RKs."
+
+ GER_Bormann_SAF_equipment_close:0 "Hide §OEquipment Decisions§!"
+ GER_Bormann_SAF_equipment_close_desc:0 "Click to hide §OEquipment Decisions§!."
+
+ GER_Bormann_SAF_reinforcements_open:0 "Show §RReinforcements Decisions§!"
+ GER_Bormann_SAF_reinforcements_open_desc:0 "Click to show §RReinforcements Decisions§!."
+
+ GER_Bormann_SAF_reinforcements:0 "Send Volunteer Reinforcements"
+ GER_Bormann_SAF_reinforcements_desc:0 "The brave patriots who have signed up for victory in South Africa will be sent to it."
+
+ GER_Bormann_SAF_drugs:0 "Combat Drugs Shipments"
+ GER_Bormann_SAF_drugs_desc:0 "Although it is a disgrace, the enemy has forced our hands..."
+
+ GER_Bormann_SAF_reinforcements_close:0 "Hide §RReinforcements Decisions§!"
+ GER_Bormann_SAF_reinforcements_close_desc:0 "Click to hide §RReinforcements Decisions§!."
+
+ GER_Bormann_SAF_bombingruns:0 "§RCommence Luftwaffe Bombing Runs§!"
+ GER_Bormann_SAF_bombingruns_desc:0 "The situation in South Africa requires more direct intervention, of which the Luftwaffe is more than capable of."
+
+ GER_Bormann_SAF_arsenal_of_afrika:0 "§wArsenal of Africa§!"
+ GER_Bormann_SAF_arsenal_of_afrika_desc:0 "Reichskommissariat Zentralafrika, located primarily within the geographic boundaries of the former-Belgian Congo, is notably a considerable distance from the conflict's frontline and largely outside the range of any enemy airfields & bombers, thereby making the Reichskommissariat and region difficult to directly strike. Therefore, Führer Bormann has decreed that Zentralafrika shall be built into a hub for arms & supplies, the proverbial 'Arsenal of Africa'"
+
+ GER_Bormann_SAF_restore_luftwaffe_divisions:0 "§TRestore Luftwaffe Divisions§!"
+ GER_Bormann_SAF_restore_luftwaffe_divisions_desc:0 "The Bürgerkrieg left the Luftwaffe bloated and many airmen are grounded, with little reason to maintain operations in Europe. Restoring the field divisions would provide valuable support for our Reichskommissar allies and give a chance to cut the chaff. These men are of questionable loyalty given their proximity to Göring, and little will be lost if they don't come back."
+
+ GER_Bormann_SAF_train_the_werewolves:0 "§jTrain the Werewolves§!"
+ GER_Bormann_SAF_train_the_werewolves_desc:0 "Unternehmen Werwulf was a plan from the less certain stages of the war, for the unthinkable event of the Reich falling and an Allied government being imposed. Recruits would be trained in guerilla warfare, supplied with silenced weaponry, explosives and vehicles, with the aim of making Germany ungovernable and aid the rise of the rightful government once more. This event naturally never came to fruition, but the Werwulf plans may yet be useful. Training Hüttig's soldiers in these tactics will provide a valuable edge."
+
+ GER_Bormann_SAF_festung_johannesburg:0 "§OFestung Johannesburg§!"
+ GER_Bormann_SAF_festung_johannesburg_desc:0 "Johannesburg has been a bastion of Aryan settlement on the Dark Continent for nearly two hundred years. The discovery of gold brought a flood of Boer settlers that rapidly turned it into South Africa's largest cities - now it is the capital of the Boer Republic. Our Afrikaner allies must not be allowed to falter in the defense of their homeland. We must send our engineers to turn the city into a fortress, one that will not fall to the Americans like it did to the British."
+
+ #EVENTS
+ 
+ speerkriegcategory.1.t:0 "Industrial Assets Seized"
+ speerkriegcategory.1.d:0 "Industrial assets from the African Reichskommissariats have successfully been seized and transported back to Germany."
+ speerkriegcategory.1.a:0 "Excellent."
+
+ speerkriegcategory.2.t:0 "Monetary Assets Seized"
+ speerkriegcategory.2.d:0 "Monetary assets from the African Reichskommissariats have successfully been seized and transported back to Germany."
+ speerkriegcategory.2.a:0 "Excellent."
+
+ speerkriegcategory.3.t:0 "Asset Seizure Failed"
+ speerkriegcategory.3.d:0 "The operation to seize economic assets from the African Reichskommissariats has shamefully failed."
+ speerkriegcategory.3.a:0 "Damned."
+
+ #TOOLTIPS
+
+ SGR_SAW_equip_decisions:0 "§W§OEquipment§! related decisions become available.§!"
+ SGR_SAW_reinf_decisions:0 "§W§RReinforcement§! related decisions become available.§!"
+ SGR_SAW_advisors_decisions:0 "§W§YAdvisor§! related decisions become available.§!"
+ SGR_SAW_drugs_decisions:0 "§W§RCombat drugs§! related decisions become available.§!"
+ SGR_SAW_soldier_return:0 "§W[?SGR_SAW_manpower|R0] soldiers return to §gGermany§!.§!"
+
+ SGR_SAW_war_report_predic_tt:0 "§WWe predict an increase of §MCivilian Upheaval§! of [?SGR_SAW_civilian_protest_growth_base|Y]§Y%§! for the next month.§!"
+ SGR_SAW_war_failure_tt:0 "§W§MPublic§! pressure has become too large!§!"
+ SGR_SAW_war_save_tt:0 "§W§MPublic§! pressure must fall below §Y90%§!.§!"
+ SGR_SAW_entry_tt:0 "§WThe §ODer Krieg im Süden§! Decision Category becomes available.§!"
+ SGR_SAW_conclude_tt:0 "§W§gThe Reich§! withdraws from the §RSouth African War§!.§!"
+ SGR_SAW_erhard_plan_tt:0 "§WErhard's plan has been chosen.§!"
+ SGR_SAW_tresckow_plan_tt:0 "§WTresckow's plan has been chosen.§!"
+ SGR_SAW_withdrawal_tt:0 "§W§gGermany§! is in the process of §Ywithdrawing§! from the §RSouth African War§!.§!"
+ SGR_SAW_involvement_0_tt:0 "§W§YInvolvement§! in the §RSouth African War§! lies at §Y0%§!.§!"
+ SGR_SAW_protests_overwhelming_tt:0 "§W§MProtests§! have become §Roverwhelming§! at atleast §Y75%§!.§!"
+ SGR_SAW_rob_assets_tt:0 "§WThe §gReich§! will attempt to seize assets from the African RKs.§!"
+ SGR_SAW_rob_assets_money_tt:0 "§WAssets seized will be added to §gGermany's§! §Yliquid reserves§!.§!"
+ SGR_SAW_rob_assets_failure_tt:0 "§RThe attempt to seize assets has failed!§!"
+ 
+ SGR_SAW_light_involvement_tt:0 "§WThe §gReich§! shall focus on §Ylight strategic involvement§! in the §RSouth African War§!.§!"
+ SGR_SAW_heavy_involvement_tt:0 "§WThe §gReich§! shall focus on §Yheavy strategic involvement§! in the §RSouth African War§!.§!"
+
+ SGR_SAW_involvement_increase_small_tt:0 "§YWar Involvement§! will §Rincrease§! by §Y2.5%§!."
+ SGR_SAW_involvement_increase_med_tt:0 "§YWar Involvement§! will §Rincrease§! by §Y5%§!."
+ SGR_SAW_involvement_increase_big_tt:0 "§YWar Involvement§! will §Rincrease§! by §Y10%§!."
+
+ SGR_SAW_involvement_decrease_small_tt:0 "§YWar Involvement§! will §Gdecrease§! by §Y2.5%§!."
+ SGR_SAW_involvement_decrease_med_tt:0 "§YWar Involvement§! will §Gdecrease§! by §Y5%§!."
+ SGR_SAW_involvement_decrease_big_tt:0 "§YWar Involvement§! will §Gdecrease§! by §Y10%§!."
+
+ SGR_SAW_protests_increase_small_tt:0 "§MCivilian Protest§! will §Rincrease§! by §Y2.5%§!."
+ SGR_SAW_protests_increase_med_tt:0 "§MCivilian Protest§! will §Rincrease§! by §Y5%§!."
+ SGR_SAW_protests_increase_big_tt:0 "§MCivilian Protest§! will §Rincrease§! by §Y10%§!."
+
+ SGR_SAW_protests_decrease_small_tt:0 "§MCivilian Protest§! will §Gdecrease§! by §Y2.5%§!."
+ SGR_SAW_protests_decrease_med_tt:0 "§MCivilian Protest§! will §Gdecrease§! by §Y5%§!."
+ SGR_SAW_protests_decrease_big_tt:0 "§MCivilian Protest§! will §Gdecrease§! by §Y10%§!."
+
+ BOR_SAW_war_report_predic_tt:0 "§WWe predict an increase of §MCivilian Upheaval§! of [?GER_Bormann_SAW_civilian_protest_growth_base|Y]§Y%§! for the next month.§!"
+ 
+
+ #SCRIPTED LOC
+
+ SGR_SAW_strategy_undecided:0 "undecided"
+ SGR_SAW_strategy_robbery:0 "§Gaiming to take Africa's wealth for us§!"
+ SGR_SAW_strategy_victory:0 "§Raiming to win the war§!"
+ BOR_SAW_strategy_dissidents:0 "§gaiming to send away dissidents§!"
+
+ SGR_SAW_involvement_none:0 "§Wnon-existent§!"
+ SGR_SAW_involvement_small:0 "§glow-level§!"
+ SGR_SAW_involvement_med:0 "§Ynotable§!"
+ SGR_SAW_involvement_big:0 "§Osignificant§!"
+ SGR_SAW_involvement_huge:0 "§Rmajor§!"
+
+ SGR_SAW_protest_none:0 "§Wnon-existent§!"
+ SGR_SAW_protest_small:0 "§gsmall§!"
+ SGR_SAW_protest_med:0 "§Ygrowing§!"
+ SGR_SAW_protest_big:0 "§Ovast§!"
+ SGR_SAW_protest_huge:0 "§Roverwhelming§!"
+
+ SGR_SAW_strat_rob_tt:0 "§WOur war-time strategy shall base on §Gevacuating what wealth remains in Africa§!.§!"
+ SGR_SAW_strat_win_tt:0 "§WOur war-time strategy shall base on §Rseeing the war to victory§!.§!"
+ BOR_SAW_strat_dis_tt:0 "§WOur war-time strategy shall base on §gusing the war to get rid of dissidents§!.§!"

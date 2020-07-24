@@ -1,0 +1,100 @@
+﻿l_english:
+
+ ### Party names ###
+ FAV_communist_party:0 "VKP(b)"
+ FAV_communist_party_long:0 "전연방 공산당 (볼셰비키)"
+ FAV_socialist_party:0 "자유 비행단"
+ FAV_socialist_party_long:0 "자유 비행단"
+ FAV_social_democrat_party:0 "RNP"
+ FAV_social_democrat_party_long:0 "러시아 인민당"
+ FAV_social_liberal_party:0 "PSD"
+ FAV_social_liberal_party_long:0 "시베리아 민주주의당"
+ FAV_social_conservative_party:0 "PSR"
+ FAV_social_conservative_party_long:0 "사회 개혁당"
+ FAV_authoritarian_democrat_party:0 "UKGS"
+ FAV_authoritarian_democrat_party_long:0 "우랄 국가 구원 위원회"
+ FAV_despotism_party:0 "검은 연맹"
+ FAV_despotism_party_long:0 "검은 연맹"
+ FAV_fascism_party:0 "RFP"
+ FAV_fascism_party_long:0 "러시아 파시스트당"
+ FAV_national_socialism_party:0 "RFP"
+ FAV_national_socialism_party_long:0 "러시아 파시스트당"
+ FAV_ultranational_socialism_party:0 "CL"
+ FAV_ultranational_socialism_party_long:0 "검은 연맹"
+ 
+ ### Ministers ###
+ FAV_Serafima_Amosova_hog:0 "Serafima Amosova"
+ FAV_Irina_Rakobolskaya_eco:0 "Irina Rakobolskaya"
+ FAV_Valentina_Stupina_for:0 "Valentina Stupina"
+ FAV_Yevdokya_Rachkevich_sec:0 "Yevdokya Rachkevich"
+
+ ### Leader Desc ###
+ POLITICS_YEVDOKIA_BERSHANSKAYA_DESC:0 "예브도키야 다비도브나 베르샨스카야는 러시아 내전 중 적군을 지원하다 죽음을 맞이한 부모님의 족적을 따라가고자 했습니다. 그녀는 18살이 되자마자 항공 학교에 입교하여 파일럿이자 비행 강사가 되었습니다. 독일의 침략 당시, 여성으로만 구성된 3개의 폭격기 연대(586, 587 항공 연대, 588 야간 폭격기 연대)가 결성되었습니다. 이미 십여 년 간의 비행 경험을 가진 여류 비행가였던 베르샨스카야는 588 항공 연대의 지휘를 맡게 되었습니다. 588 항공 연대의 작전 환경은 이상적인 환경과는 거리가 멀었습니다. 그들은 구식 복엽기를 사용해야만 했고, 유일하게 잠행할 수 있는 방법은 비행기의 엔진을 멈추고 그들의 타겟을 향해 활공하는 것이 전부였습니다. 그러나 이러한 한계에도 불구하고, 588 항공 연대는 그들의 임무를 대단히 성공적으로 완수하였으며 독일군은 그들에게 "밤의 마녀들"이라는 별명을 붙였습니다.\n\n혼란스러웠던 모스크바 철수 이후 소련 공군의 지휘계통이 무너지게 되었지만 588 항공 연대를 비롯한 몇몇 다른 연대들은 베르샨스카야를 중심으로 모여 조직 체계를 유지하고자 하였습니다. 그녀는 안정적이고 조직적인 퇴각을 이끌면서 금방이라도 무너질 것 같았던 잔존 공군 병력을 시베리아 수르구트 근교의 임시 활주로로 재배치하는데 성공하였습니다. 그 다음 해에 자칭 "자유 비행단"은 아르한겔스크에 잔존한 소련의 공업과 긁어모은 잔해 그리고 가내 작업장을 활용하여 군사력을 증강시키는 한편, 그들의 핵심이었던 베테랑 파일럿들은 신병 양성을 위해 힘썼습니다. 그들은 서부 러시아 전쟁 당시 귀중한 전력으로 활약했으며 전쟁이 끝난 이후에도 그들의 힘을 보전할 수 있었습니다. 현재까지도 베르샨스카야는 루프트바페의 폭격을 막아내기 위해 전투기를 출격시키고 있습니다."
+
+ ### National Focus Tree ###
+ 
+ ### Events ###
+ FAV.1.t:0 "Intro Event PLACEHOLDER"
+ FAV.1.desc:0 "PLACEHOLDER"
+ FAV.1.a:0 "PLACEHOLDER"
+ FAV.2.t:0 "An Imperial Donation"
+ FAV.2.desc:0 "Whilst is is not uncommon for us to receive donations or even tribute from some of the warlords in response to our efforts to defend the skies of Russia, we have received a gift from a more unexpected source. Towards Moskowien lies the region of Vyatka which has, it seems, become the 'Empire' of 'Emperor' Vladimir the first.\n\nModelling himself as 'the alternative' to Bolshevik and fascist rulers, he is seemingly gaining some degree of support in West Russia and has decided to show us his 'gratitude' for our service in protecting the skies as best we can. At his own expense, the Emperor has donated a number of aircraft to further aid our efforts. We suspect whilst there is truth to his desire to thank us, there is a large element of him trying to secure our support for his regime. Regardless, we have sent our gratitude for the donation."
+ FAV.2.a:0 "We can keep an eye on him we suppose." 
+ FAV.3.t:0 "CASUALTY REPORT"
+ FAV.3.desc:0 "Please file this notice with Comrade Yevdokia at the earliest possible convenience, for records.\n\n-----------------------------------------------------------------------------------------------------------------\n\nStandard Casualty Report - Red Air Force\n\nESTIMATED GERMAN CASUALTIES:\n[?FAVGERAdvancedAirCasualties] bombers\n[?FAVGERBasicAirCasualties] fighters\n\nESTIMATED SOVIET CASUALTIES:\n[?FAVAdvancedAirCasualties] Class II Aircraft\n[?FAVBasicAirCasualties] Class I Fighters\n\n-----------------------------------------------------------------------------------------------------------------\nGAINED RESOURCES:\n[?FAVCasualtyMetalGain] units of usable scrap metal.\n\n-----------------------------------------------------------------------------------------------------------------\nSigned,\n- Commissar Yevdokiya Rachkevich, [GetDateText]"
+ FAV.3.a:0 "More fallen comrades."
+ FAV.4.t:0 "INBOUND AIR RAID"
+ FAV.4.desc:0 "Reconnaisance Report - [GetDateText]\n\nAll available pilots to scramble immediately - confirmed German air wing is approaching numerous civilian targets in the WEST RUSSIAN military district.\n\n-----------------------------------------------------------------------------------------------------------------\n\nIntelligence Report - Red Air Force\n\nINBOUND BOMBERS: [?FAVGermanBomberWing] aircraft detected\nINBOUND ESCORTS: [?FAVGermanEscortWing] aircraft detected\n\n-----------------------------------------------------------------------------------------------------------------\nVerified by WEST RUSSIAN reconnaissance units." 
+ FAV.4.a:0 "All pilots, you are clear to engage."
+ 
+ ### Decisions ###
+ FAV_tutorial_category:0 "[GetFAVTutorialTitle]"
+ FAV_tutorial_category_desc:0 "[GetFAVTutorial]PRODUCTION:\nStocked §gscrap metal§!: [?FAVScrapMetalBank]\nProjected monthly §gscrap metal§! gain: [?FAVScrapMetalGain]\nNumber of §BBasic Aircraft§!: [?FAVBasicAircraft]\nNumber of §MAdvanced Aircraft:§! [?FAVAdvancedAircraft]\n\nTRAINING:\nNumber of §PPilots§!: [?FAVRecruitedPilots]\nMonthly §PPilot§! Gain: [?FAVPilotGain]\nNumber of §GGround Crew§!: [?FAVRecruitedGround]\nMonthly §GGround Crew§! Gain: [?FAVGroundGain]\n\nDEPLOYMENT:\nNumber of §BBasic Aircraft§! in Reserve: [?FAVBasicAirReserves]\nNumber of §MAdvanced Aircraft§! in Reserve: [?FAVAdvancedAirReserves]\nNumber of deployed §BBasic Aircraft§!: [?FAVBasicAirDeployed]\nNumber of deployed §MAdvanced Aircraft§!: [?FAVAdvancedAirDeployed]\nTotal §YDeployed Aircraft§!: [?FAVTotalAirDeployed]"
+ FAV_minimize_tutorial:0 "Minimize Tutorial"
+ FAV_maximize_tutorial:0 "Maximize Tutorial"
+ 
+ FAV_production_category:0 "Production"
+ FAV_production_category_desc:0 "Maintaining a supply of material and aircraft is crucial to presenting a solid defense against the Germans. Aircraft may be produced below, and the progress of gathering §gscrap metal§! shall be tracked.\nStocked §gscrap metal§!: [?FAVScrapMetalBank]\nProjected monthly §gscrap metal§! gain: [?FAVScrapMetalGain]\nNumber of §BBasic Aircraft§!: [?FAVBasicAircraft]\nNumber of §MAdvanced Aircraft:§! [?FAVAdvancedAircraft]\n\nWe currently have [?FAVRecruitedGround] §GGround Crew§!, who produce 0.1 §gscrap metal§! each, and we are projected to recruit [?FAVGroundGain] more per month.\n\nBelow, §BBasic Aircraft§! may be produced for 20 §gScrap Metal§!, and §MAdvanced Aircraft§! may be produced for 45 §gScrap Metal§!."
+ FAV_gathering_mission:0 "Scrap Metal Gathering"
+ FAV_produce_basic_aircraft:0 "Produce Basic Aircraft (1x)"
+ FAV_produce_5_basic_aircraft:0 "Produce Basic Aircraft (5x)"
+ FAV_produce_advanced_aircraft:0 "Produce Advanced Aircraft (1x)"
+ FAV_produce_5_advanced_aircraft:0 "Produce Advanced Aircraft (5x)"
+ 
+ FAV_produce_basic_aircraft_tt:0 "Removes 20 §gscrap metal§! from stocks."
+ FAV_produce_advanced_aircraft_tt:0 "Removes 45 §gscrap metal§! from stocks."
+ FAV_produce_5_basic_aircraft_tt:0 "Removes 100 §gscrap metal§! from stocks."
+ FAV_produce_5_advanced_aircraft_tt:0 "Removes 225 §gscrap metal§! from stocks."
+ 
+ FAV_training_category:0 "Training"
+ FAV_training_category_desc:0 "Our available manpower is low, and each worker and pilot is precious to us. Thus, maintaining a steady supply of recruits to either work as §GGround Crew§! or §PPilots§! is critically important. While §PPilots§! are needed to fly planes against Germany, §GGround Crew§! are necessary to maintain the ability to repair and manufacture aircraft.\n\nNumber of §PPilots§!: [?FAVRecruitedPilots]\nMonthly §PPilot§! Gain: [?FAVPilotGain]\nNumber of §GGround Crew§!: [?FAVRecruitedGround]\nMonthly §GGround Crew§! Gain: [?FAVGroundGain]\n\nWe are currently [GetFAVPilotGroundFavor]."
+ FAV_training_mission:0 "New Recruits"
+ FAV_prioritize_pilot_training:0 "Increase Pilot Training Priority"
+ FAV_prioritize_ground_crew_training:0 "Increase Ground Crew Training Priority"
+ FAV_balance_training_priorities:0 "Rebalance Training Priorities"
+ 
+ FAV_deployment_category:0 "Combat"
+ FAV_deployment_category_desc:0 "The purpose of our operations are to combat the German scourge in the air by all means necessary. Deploying aircraft to combat the Germans, and managing losses is important to prevent the total extinction of the Motherland beneath the Nazi glove.\n\nNumber of §BBasic Aircraft§! in Reserve: [?FAVBasicAirReserves]\nNumber of §MAdvanced Aircraft§! in Reserve: [?FAVAdvancedAirReserves]\nNumber of deployed §BBasic Aircraft§!: [?FAVBasicAirDeployed]\nNumber of deployed §MAdvanced Aircraft§!: [?FAVAdvancedAirDeployed]\nTotal §YDeployed Aircraft§!: [?FAVTotalAirDeployed]\n\nWe have [?FAVUsablePilots] available §PPilots§! to deploy.\nWe have [?FAVRecruitedPilots] total §PPilots§!."
+ FAV_next_wave_mission:0 "German Aerial Incursion"
+ 
+ FAV_diplomacy_category:0 "Diplomacy"
+ FAV_diplomacy_category_desc:0 ""
+ 
+ FAV_tutorial_open:0 "The Free Aviators are Russia's pre-eminent defense against the constant Nazi incursions into Western Russia, based across the warlord states to repel the Luftwaffe and deter further attempts to destroy the Motherland.\n\nIn the PRODUCTION menu below, aircraft of varying quality may be produced, using gathered §gScrap Metal§! from across the Russian wastes. §gScrap Metal§! may be gained by shooting down German planes, or through donations from other warlord states, which will raise their §YInfluence§! with the Free Aviators.\n\nThe TRAINING menu covers the process to train and prepare new pilots. Manpower is scarce and precious, and the Free Aviators must balance §GGround Crew§! and §PPilots§! carefully, to ensure mission-readiness and an ability to replace losses. New pilots and ground crew shall be recruited every 30 days.\n\nThe COMBAT menu covers missions against the Germans. In this menu, aircraft will be committed directly to combat, or placed in reserve for later use. The aircraft directly in use will be able to fly against German incursions - an intelligence event covering German activity will fire every 30 days. Aircraft that are kept in reserve cannot fight, but are immune to being destroyed. The strength of the Luftwaffe Bombing of West Russia will be directly dependent on how this is handled.\n\nFinally, the DIPLOMACY menu shall serve as a means of acquiring §gScrap Metal§!, extra §PPilots§! and §GGround Crew§!, and aircraft, at the cost of changing various warlords' §Yinfluence§! over the Free Aviators. This will affect the process of reuniting Russia, when the time comes.\n\n"
+ FAV_tutorial_closed:0 "A basic overview of the state of the Free Aviators organization, organized by sector, shall be presented as follows:\n\n"
+ FAV_tutorial_open_title:0 "Tutorial And Overview"
+ FAV_tutorial_closed_title:0 "Overview"
+ 
+ FAV_pilots_prioritized:0 "prioritizing §PPilots§! in our recruitment"
+ FAV_crew_prioritized:0 "prioritizing §GGround Crew§! in our recruitment"
+ FAV_crew_balanced:0 "not prioritizing any specific role"
+ 
+ FAV_increase_basic_aircraft_deployment:0 "Increase Basic Aircraft Deployment (1x)"
+ FAV_increase_basic_aircraft_deployment_5:0 "Increase Basic Aircraft Deployment (5x)"
+ FAV_increase_advanced_aircraft_deployment:0 "Increase Advanced Aircraft Deployment (1x)"
+ FAV_increase_advanced_aircraft_deployment_5:0 "Increase Advanced Aircraft Deployment (5x)"
+ FAV_decrease_basic_aircraft_deployment:0 "Decrease Basic Aircraft Deployment (1x)"
+ FAV_decrease_basic_aircraft_deployment_5:0 "Decrease Basic Aircraft Deployment (5x)"
+ FAV_decrease_advanced_aircraft_deployment:0 "Decrease Advanced Aircraft Deployment (1x)"
+ FAV_decrease_advanced_aircraft_deployment_5:0 "Decrease Advanced Aircraft Deployment (5x)"
+ FAV_clear_deployments:0 "Return All Aircraft To Reserves"

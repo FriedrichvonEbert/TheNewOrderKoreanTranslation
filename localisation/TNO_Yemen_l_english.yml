@@ -1,0 +1,76 @@
+﻿l_english:
+#Ideas
+ YEM_italian_overlordship:0 "Italian Overlordship"
+ YEM_italian_overlordship_desc:0 "Following the secong world war our country has fallen completely under Italian influence. They maintain a strong presence in our nation due to its stragetic location in the Gulf of Aden. This also means they very much direct our foreign policy and have great presence in domestic issues as well."
+
+ YEM_the_Aden_arsenal:0 "The Aden Arsenal"
+ YEM_the_Aden_arsenal_desc:0 "As the Italians imposed a protectorate status on Yemen, they took for themselves the most prized possession of the country - the city of Aden. Always a major port of the Indian Ocean, Aden soon became an Italian stronghold, where Rome keeps its largest concentration of troops and ships in South Arabia. While the population of the city is resentful of Italian domination, the Aden Arsenal remains the only major point through which Italy can project its military power into impervious and remote Yemen."
+ 
+ YEM_saudi_influence:0 "Saudi Influence"
+ YEM_saudi_influence_desc:0 "Yemen is nominally a Saudi protectorate, but the Italians have little way of actually influencing the court, and seldomly leave their stronghold in Yemen except for occasional forays to punish rebellious tribal leaders. In recent times, the Yemeni King has been finding itself more and more reliant on Saudi money and political support to keep itself afloat against internal opposition - but there are those who are bitterly opposed to Riyadh's newfound interest in the southern Kingdom."
+ 
+ YEM_tribes_and_Sects:0 "Tribes and Sects"
+ YEM_tribes_and_Sects_desc:0 "Yemen's landscape is predominantly mountainous, hilly and rural - and while the King and Imam nominally rules from his palace in Sana'a, power in the countryside resides in the hands of the numerous tribes populating it. What's worse, while the ruling minority in the country is Zaidi, the majority of the Yemeni population is Sunni, adding another layer of sectarianism to an already divided country. In response, many of the Yemeni youth are increasingly turning a reformist, pan-Yemeni ideology to finally bring change to the country."
+
+##############
+###ARAB WAR###
+##############
+
+#events
+ YEM.40.t:0 "Prelude 1"
+ YEM.40.desc:0 ""
+ YEM.40.a:0 ""
+ 
+ YEM.41.t:0 "Prelude 2"
+ YEM.41.desc:0 ""
+ YEM.41.a:0 ""
+ 
+ YEM.50.t:0 "Coup Attempt"
+ YEM.50.desc:0 ""
+ YEM.50.a:0 "[Play as Yemen Arab Republic]"
+ YEM.50.b:0 "Destroy these Rebels"
+ 
+ YEM.51.t:0 "War Starts"
+ YEM.51.desc:0 ""
+ YEM.51.a:0 ""
+ 
+ YEM.52.t:0 "Italian Involvement"
+ YEM.52.desc:0 ""
+ YEM.52.a:0 ""
+ 
+ YEM.53.t:0 "The Yemen Arab Republic"
+ YEM.53.desc:0 "A civil war has broken out in the sandy, mountainous, wasteland known as the Mutawakkilite Kingdom of Yemen, and it is in our interest to support the rebels fighting against the remote Arabian kingdom.\n\nThe rebels are fighting for an Arab Republic in the name of an ideology called "Ba'athism," which is a Pan-Arab nationalist and pseudo-socialist movement whose ideological intricacies would take far too long to explain. Besides, what is important is that they are challenging Italian and Saudi influence in the oil-rich Gulf region and factions of their movement are sympathetic to Germany.\n\nIf we send aid to these Ba'athist rebels and they successfully topple their Italian lapdog of a monarch, we could see our own geopolitical influence and economic power expand."
+ YEM.53.a:0 "Another piece on the global chessboard."
+ 
+ YEM.54.t:0 "IJN Destroyer Sunk off Yemen!"
+ YEM.54.desc:0 ""
+ YEM.54.a:0 ""
+ 
+#decisions
+ ITA_arab_war_category:0 "The Arab War"
+ ita_yem:0 "Intervene in Yemen"
+ increase_advisor_force_ita:0 "Increase Special Forces Deployment"
+ initiate_policing_action_ita:0 "Boots on the Ground"
+ increase_policing_action_ita:0 "Increase Regular Forces Deployment"
+ GER_arab_war_category:0 "The Arab War"
+ ger_yem:0 "Support the Ba'athists"
+ increase_advisor_force_ger:0 "Increase Advisor Force"
+ initiate_policing_action_ger:0 "Die Arabische Armee"
+ increase_policing_action_ger:0 "Increase 'Volunteer' Deployment"
+ JAP_arab_war_category:0 "The Arab War"
+ jap_yem:0 "Intervene in Yemen"
+ increase_advisor_force_jap:0 "Increase Special Forces Deployment"
+ initiate_policing_action_jap:0 "Boots on the Ground"
+ increase_policing_action_jap:0 "Increase Regular Forces Deployment"
+ 
+#ideas
+ YEM_civil_war:0 "Yemeni Civil War"
+ YEM_civil_war_desc:0 "WIP"
+ NYM_civil_war:0 "Yemeni Civil War"
+ NYM_civil_war_desc:0 "WIP"
+ 
+#modifiers
+ arab_imperialist_oppressor:0 "Imperialist Oppressor"
+ 
+ #Leader descriptions
+ POLITICS_YAHA_DESC:0 "Libya is the fourth shore, the first and greatest of the Italian colonies. Ethiopia is its most populous region, Egypt its breadbasket, and the Gulf Territories the source of its precious oil. The Imamate of Yemen is not much of anything. At a Triumvirate Summit in the late 50s, Mussolini himself committed a rare gaffe, forgetting the name of the current Imam, and quickly switching subjects in his shame. Ahmad Bin Yaha is not a man easily forgotten. He is powerful, but frail. He remains physically imposing even in his old age, but his mind grows ever more feeble thanks to his endless use of morphine. Under the British, Bin Yaha was a dichotomy, swearing loyalty and friendship to the empire even as he worked to undermine it. Under Italy, he is much the same. Were the lands he ruled of greater import, no doubt his underhanded moves would bring the wrath of the Mare Nostrum down upon Yemen, but for now, he rules unchallenged.\n\nBizarrely, for a man who clothes himself in jewels and golden cloth while his people starve, Bin Yaha is beloved by his subjects. Though there are reports of growing subversive movements in the army and civil service, Bin Yaha's face decorates the posters of every street corner, and when he travels, his caravan is mobbed by fervent admirers.\n\nBut he's also growing old. The Imam's visitors kneel before him and kiss his hands, and he pays them all the proper courtesies even if he doesn't remember their names. Though the Italian government is content to ignore Yemen so long as it pays its taxes and tributes, a few are already sounding alarms about how little prepared the nation is for a future without the firm hand of its ruler."

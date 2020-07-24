@@ -1,0 +1,447 @@
+﻿l_english:
+
+###GUI###
+topbar_economy_button_tt:0 "§Y경제§!\n국가의 경제 상황을 봅니다."
+economy_view_title:0 "경제"
+
+economy_view_GDP:0 "§GGDP§"
+economy_view_debt:0 "§S부채§"
+economy_view_income:0 "§n수익§"
+economy_view_expenditures:0 "§Y지출§"
+economy_view_deficit_reserves:0 "§O부족액 & 예비금§"
+
+military_buttons_value:0 "군사 예산"
+civilian_buttons_value:0 "민간 예산"
+reserves_buttons_value:0 "유동준비금"
+construction_buttons_value:0 "건설"
+
+gdp_value:0 "총 GDP: §W[ROOT.Get_GDP]§"
+income_rate_value:0 "연간 수익률: §W[?ROOT.income_rate|%]§"
+gdp_growth_value:0 "연간 GDP 성장률: §W[?ROOT.GDP_growth_display|%]§"
+misc_income_value:0 "기타 수익: §W[ROOT.Get_misc_income]§"
+annual_budget_value:0 "연간 수익: §W[ROOT.Get_total_budget]§"
+deficit_value:0 "연간 부족액: §W[ROOT.Get_deficit]§"
+national_debt_value:0 "국가 부채: §W[ROOT.Get_national_debt]§"
+national_debt_interest_value:0 "연간 국채 금리: §W[?ROOT.interest_rates|%]§"
+civilian_expenditures_value:0 "민간 예산: §W[ROOT.Get_civilian_expenditures]§"
+military_expenditures_value:0 "군사 예산: §W[ROOT.Get_military_expenditures]§"
+construction_expenditures_value:0 "건설 예산: §W[ROOT.Get_construction_expenditures]§"
+misc_costs_value:0 "기타 지출: §W[ROOT.Get_misc_costs]§"
+money_reserves_value:0 "유동준비금: §W[ROOT.Get_money_reserves]§"
+total_expenditures_value:0 "총 지출: §W[ROOT.Get_total_expenditures]§"
+economy_line_break:0 "--------------------------------------------"
+
+economy_topbar_GDP_text:0 "[ROOT.Get_GDP_topbar]"
+economy_topbar_GDP_short_tt:0 "현재 우리 §YGDP§!는 §Y[ROOT.Get_GDP]§!입니다.\n우리 §YGDP 성장률§!은 연간 [?ROOT.GDP_growth|2Y%]입니다.\n\n우리 §Y연간 예산§!은 §Y[ROOT.Get_total_budget]§!입니다.\n\n우리 §Y수익 대비 부족액§! 비율은 [Get_deficit_ratio]입니다."
+economy_topbar_GDP_long_tt:0 "§YGDP§! (§Y국내총생산§!)은 1년 동안 생산된 모든 재화와 서비스의 가치를 가격으로 측정한 것입니다. 측정 단위는 §Y1960년도 USD§!입니다."
+
+economy_topbar_debt_text:0 "[ROOT.Get_national_debt_topbar]"
+economy_topbar_debt_short_tt:0 "현재 우리 §Y금리§!는 [?ROOT.interest_rates|%Y]입니다.\n연간 §Y민간 지출§!: §Y[ROOT.Get_civilian_expenditures]§!\n연간 §Y군사 지출§!: §Y[ROOT.Get_military_expenditures]§!\n연간 §Y건설 & 무역 지출§!: §Y[ROOT.Get_construction_expenditures]§!"
+economy_topbar_debt_long_tt:0 "§Y국가 부채§!는 우리 정부가 갚지 않은 자금을 의미합니다. 부채는 보통 우리 국무부에서 발행한 미지불 증권으로 측정됩니다. 측정 단위는 §Y1960년도 USD§!입니다. 채권자들이 아무 이유 없이 사주는 것이 아니므로 매월마다 우리 국채의 일정 비율을 이자로 지급해야 합니다. 이 비율은 §Y금리§!로 결정됩니다."
+
+military_expenditures_value_tt:0 "인건비\n--------------\n배치된 인력 추정치: [?approx_fielded_manpower|Y0]\n명당 매년 §Y11k§! USD 소모\n\n변동치:\n[Get_training]\n[Get_military_supervision]\n[Get_oilcrisis_military]\n\n총 인건비: [Get_manpower_costs]\n\n생산비\n--------------\n사용중인 군수 공장: [?used_mil_facs|Y0]\n채당 매년 §Y100M§! USD 소모\n\n변동치:\n[Get_industrial_expertise]\n[Get_industrial_equipment]\n\n총 생산비: [ROOT.Get_military_factory_costs]\n\n핵무기 유지비:\n--------------\n[Get_nuclear_weapons_cost]"
+military_expenditures_value_short_tt:0 "인건비: [Get_manpower_costs]\n생산비: [Get_military_factory_costs]\n[Get_nuclear_weapons_cost]\n[Get_military_budget_modifier]"
+income_rate_value_tt:0 "GDP 대비 수익 비율: [?ROOT.income_rate|%G]"
+income_rate_value_tt_delayed:0 "[Get_tax_rate]\n[Get_income_tax]\n\nMultiplicative Factors:\n[Get_income_rate_factor]"
+civilian_expenditures_value_short_tt:0 "GDP 대비 지출 비율: [?modifier@proportional_gdp_cost|-1%][Get_civilian_budget_modifier]"
+civilian_expenditures_value_tt:0 "[Get_health_care]\n[Get_education]\n[Get_security_service]\n[Get_pensions]\n[Get_unemployment]\n[Get_ausgrenzung_civilian][Get_oilcrisis_civilian]"
+construction_expenditures_value_short_tt:0 "GDP 대비 지출 비율: [?construction_expenditures_factor|-1%]"
+construction_expenditures_value_tt:0 "건설  수준:\n[Get_construction_level]\n\n보정치:\n[Get_safety]\n[Get_pollution]\n[Get_penal_system]\n[Get_minimum_wage]\n[Get_max_workhours]\n[Get_child_labor]"
+national_debt_value_short_tt:0 "최소 연간 이자: [Get_annual_debt_payments]"
+national_debt_value_tt:0 "채권자들을 만족시키고 경제를 건강하게 유지하려면 금리대로 이자를 내야 합니다. 그렇지 않는다면 감당할 수 없는 양의 돈을 빌리고, 민간 예산과 군사 예산으로 쓸 돈이 없을 것이며, 투자자들의 믿음을 잃을 것입니다. 거기에 §R경제 위기§!가 일어날 가능성도 있습니다!"
+deficit_value_short_tt:0 "Our current deficit to budget ratio is: [Get_deficit_ratio]"
+
+tno_nuclear_stockpile_none_econ_tt:0 "핵 비보유국: §Y0.00§! USD"
+tno_nuclear_stockpile_one_econ_tt:0 "한 발의 핵무기 비축: §Y100.00M§! USD"
+tno_nuclear_stockpile_few_econ_tt:0 "여러 발의 핵무기 비축: §Y1.00B§! USD"
+tno_nuclear_stockpile_many_econ_tt:0 "많은 양의 핵무기 비축: §Y5.00B§! USD"
+tno_nuclear_stockpile_massive_econ_tt:0 "엄청난 양의 핵무기 비축: §Y15.00B§! USD"
+tno_nuclear_stockpile_apocalyptic_econ_tt:0 "묵시록적인 양의 핵무기 비축: §Y50.00B§! USD"
+
+#수익률 변동치
+tno_tax_rate_no_taxation_gui:0 "세금 없음: §Y+0.0%§!"
+tno_tax_rate_low_taxation_gui:0 "적은 세금: §G+30.0%§!"
+tno_tax_rate_medium_taxation_gui:0 "보통치 세금: §G+50.0%§!"
+tno_tax_rate_high_taxes_gui:0 "높은 세금: §G+60.0%§!"
+tno_tax_rate_exploitative_taxation_gui:0 "착취적인 세금: §G+65.0%§!"
+
+tno_income_taxation_elite_tax_exemptions_gui:0 "엘리트 계층 면제: §G+1.5%§!"
+tno_income_taxation_tax_havens_gui:0 "탈세 천국: §G+5.0%§!"
+tno_income_taxation_low_income_weighted_gui:0 "저소득자 중심: §G+10.0%§!"
+tno_income_taxation_flat_taxes_gui:0 "일률 과세: §G+15.0%§!"
+tno_income_taxation_high_income_weighted_gui:0 "고소득자 중심: §G+20.0%§!"
+
+tno_poverty_rate_spartan_ideal_gui:0 "Spartan Ideal: §Y100%§!"
+tno_poverty_rate_80_gui:0 ">80% Poverty Rate: §Y5%§!"
+tno_poverty_rate_50_gui:0 "50-80% Poverty Rate: §Y15%§!"
+tno_poverty_rate_25_gui:0 "25-50% Poverty Rate: §Y35%§!"
+tno_poverty_rate_15_gui:0 "15-25% Poverty Rate: §Y70%§!"
+tno_poverty_rate_10_gui:0 "10-15% Poverty Rate: §Y90%§!"
+tno_poverty_rate_5_gui:0 "5-10% Poverty Rate: §Y100%§!"
+tno_poverty_rate_0_gui:0 "<5% Poverty Rate: §Y100%§!"
+
+#민간 예산 변동치
+tno_health_care_no_health_care_gui:0 "건강보험 없음: §Y+0.0%§!"
+tno_health_care_private_health_care_gui:0 "민간 의료보험: §R+1.0%§!"
+tno_health_care_public_health_care_gui:0 "공공 의료보험: §R+3.5%§!"
+tno_health_care_universal_health_care_gui:0 "보편적 의료보험: §R+5.0%§!"
+tno_health_care_free_universal_care_gui:0 "무상치료: §R+8.0%§!"
+
+tno_education_elite_only_gui:0 "엘리트 전용 교육: §R+0.5%§!"
+tno_education_public_education_gui:0 "공교육: §R+1.0%§!"
+tno_education_subsidised_higher_education_gui:0 "고등교육 지원: §R+2.5%§!"
+tno_education_public_higher_education_gui:0 "공공 고등교육: §R+3.5%§!"
+tno_education_free_education_gui:0 "무상교육: §R+5.5%§!"
+
+tno_security_anarchic_gui:0 "무정부 치안: §Y+0.0%§!"
+tno_security_police_gui:0 "경찰: §R+1.0%§!"
+tno_security_security_service_gui:0 "보안 기관: §R+2.0%§!"
+tno_security_data_cohesion_gui:0 "정보 수집: §R+3.0%§!"
+tno_security_wire_tapping_gui:0 "도청: §R+5.0%§!"
+tno_security_preemptive_security_gui:0 "선제적 치안: §R+9.0%§!"
+
+tno_pensions_no_pensions_gui:0 "연금 없음: §Y+0.0%§!"
+tno_pensions_trinket_pensions_gui:0 "이름뿐인 연금: §R+2.0%§!"
+tno_pensions_low_pensions_gui:0 "낮은 연금: §R+4.0%§!"
+tno_pensions_acceptable_pensions_gui:0 "적당한 연금: §R+6.0%§!"
+tno_pensions_good_pensions_gui:0 "높은 연금: §R+8.0%§!"
+
+tno_unemployment_no_subsidies_gui:0 "실업급여 없음: §Y+0.0%§!"
+tno_unemployment_trinket_subsidies_gui:0 "이름뿐인 실업급여: §R+3.0%§!"
+tno_unemployment_low_subsidies_gui:0 "낮은 실업급여: §R+6.0%§!"
+tno_unemployment_generous_subsidies_gui:0 "넉넉한 실업급여: §R+9.0%§!"
+tno_unemployment_basic_income_gui:0 "보편적 기본소득: §R+15.0%§!"
+
+tno_oil_crisis_civilian_expenditure:0 "석유파동: [?OC_proportional_gdp_cost|-=%]\n"
+tno_ausgrenzung_civilian_expenditure:0 "Ausgrenzungsprogramm: [?BOR_SlaveCost|-=%]\n"
+
+#군사 예산 변동치
+tno_training_none_gui:0 "훈련 없음: §G60%§!"
+tno_training_minimal_training_gui:0 "최소한의 훈련: §G80%§!"
+tno_training_basic_training_gui:0 "기본적인 훈련: §Y100%§!"
+tno_training_combat_schooling_gui:0 "전투 교육: §R120%§!"
+tno_training_advanced_training_methods_gui:0 "향상된 훈련: §R140%§!"
+
+tno_military_supervision_kill_em_all_gui:0 "말살: §G80%§!"
+tno_military_supervision_no_supervision_gui:0 "통제 없음: §G90%§!"
+tno_military_supervision_military_policing_gui:0 "군사 경찰: §Y100%§!"
+tno_military_supervision_rules_of_engagement_gui:0 "교전규칙: §R110%§!"
+tno_military_supervision_watchdog_groups_gui:0 "감시단: §R120%§!"
+tno_military_supervision_total_supervision_gui:0 "완전한 통제: §R130%§!"
+
+tno_industrial_expertise_pre_industrial_gui:0 "산업혁명 이전 방식: §G50%§!"
+tno_industrial_expertise_incompetent_gui:0 "무능한 산업: §G65%§!"
+tno_industrial_expertise_nascent_gui:0 "초기 산업: §G80%§!"
+tno_industrial_expertise_experienced_gui:0 "경험 있는 산업: §Y100%§!"
+tno_industrial_expertise_innovative_gui:0 "획기적인 산업: §R120%§!"
+
+tno_industrial_equipment_hand_tools_gui:0 "수동 장비: §G50%§!"
+tno_industrial_equipment_power_tools_gui:0 "동력 장비: §G65%§!"
+tno_industrial_equipment_manufacturing_lines_gui:0 "생산라인: §G80%§!"
+tno_industrial_equipment_factory_complexes_gui:0 "공업단지: §G90%§!"
+tno_industrial_equipment_modern_gui:0 "현대 공업 장비: §Y100%§!"
+tno_industrial_equipment_cutting_edge_gui:0 "최첨단 장비: §R120%§!"
+
+tno_oil_crisis_military_expenditure:0 "석유파동: [?OC_personel_cost_modifier|Y=%]\n"
+
+#건설 예산 변동치
+construction_level_0_gui:0 "비중 §Y없음§!: GDP의 §Y0.0%§!"
+construction_level_1_gui:0 "§Y10%§! 비중: GDP의 §R5.0%§!"
+construction_level_2_gui:0 "§Y20%§! 비중: GDP의 §R10.0%§!"
+construction_level_3_gui:0 "§Y30%§! 비중: GDP의 §R15.0%§!"
+construction_level_4_gui:0 "§Y40%§! 비중: GDP의 §R20.0%§!"
+construction_level_5_gui:0 "§Y50%§! 비중: GDP의 §R25.0%§!"
+construction_level_6_gui:0 "§Y60%§! 비중: GDP의 §R30.0%§!"
+construction_level_7_gui:0 "§Y70%§! 비중: GDP의 §R35.0%§!"
+construction_level_8_gui:0 "§Y80%§! 비중: GDP의 §R40.0%§!"
+construction_level_9_gui:0 "§Y90%§! 비중: GDP의 §R45.0%§!"
+
+tno_safety_no_regulations_gui:0 "안전규정 없음: §G80%§!"
+tno_safety_minimal_regulations_gui:0 "최소한의 안전규정: §G90%§!"
+tno_safety_limited_regulations_gui:0 "제한된 안전규정: §Y100%§!"
+tno_safety_acceptable_regulations_gui:0 "적당한 안전규정: §R110%§!"
+tno_safety_excellent_regulations_gui:0 "훌륭한 안전규정: §R120%§!"
+
+tno_pollution_no_controls_gui:0 "환경오염 규제 없음: §G80%§!"
+tno_pollution_few_regulations_gui:0 "최소한의 환경오염 규제: §G90%§!"
+tno_pollution_some_regulations_gui:0 "적당한 환경오염 규제: §Y100%§!"
+tno_pollution_good_regulations_gui:0 "많은 환경오염 규제: §R110%§!"
+tno_pollution_strict_regulations_gui:0 "엄격한 환경오염 규제: §R120%§!"
+
+tno_penal_system_penal_slavery_gui:0 "형벌 노예: §G70%§!"
+tno_penal_system_capital_punishment_gui:0 "사형제: §G80%§!"
+tno_penal_system_penal_labor_gui:0 "형벌 노동: §G90%§!"
+tno_penal_system_incarceration_gui:0 "엄벌주의: §G95%§!"
+tno_penal_system_rehabilitation_gui:0 "교화주의: §Y100%§!"
+
+tno_minimum_wage_no_minimum_wage_gui:0 "최저임금 없음: §G80%§!"
+tno_minimum_wage_trinket_minimum_wage_gui:0 "이름뿐인 최저임금: §G90%§!"
+tno_minimum_wage_low_minimum_wage_gui:0 "낮은 최저임금: §Y100%§!"
+tno_minimum_wage_acceptable_minimum_gui:0 "적당한 최저임금: §R110%§!"
+tno_minimum_wage_good_minimum_wage_gui:0 "높은 최저임금: §R120%§!"
+
+tno_max_workhours_unlimited_work_day_gui:0 "무제한 노동: §G80%§!"
+tno_max_workhours_14_hour_work_day_gui:0 "14시간 노동: §G90%§!"
+tno_max_workhours_12_hour_work_day_gui:0 "12시간 노동: §Y100%§!"
+tno_max_workhours_8_hour_work_day_gui:0 "8시간 노동: §R110%§!"
+tno_max_workhours_6_hour_work_day_gui:0 "6시간 노동: §R110%§!"
+
+tno_child_labor_legal_gui:0 "아동 노동 합법화: §G70%§!"
+tno_child_labor_restricted_gui:0 "아동 노동 제한됨: §G85%§!"
+tno_child_labor_illegal_gui:0 "아동 노동 불법화: §Y100%§!"
+
+GDP_billion:0 "[?ROOT.GDP_billion|2]B USD"
+GDP_million:0 "[?ROOT.GDP|2]M USD"
+GDP_thousand:0 "[?ROOT.GDP_thousand|2]k USD"
+
+GDP_billion_topbar:0 "[?ROOT.GDP_billion|2]B"
+GDP_million_topbar:0 "[?ROOT.GDP|2]M"
+GDP_thousand_topbar:0 "[?ROOT.GDP_thousand|2]K"
+
+total_budget_billion:0 "[?ROOT.total_budget_billion|2]B USD"
+total_budget_million:0 "[?ROOT.total_budget|2]M USD"
+total_budget_thousand:0 "[?ROOT.total_budget_thousand|2]k USD"
+
+total_expenditures_billion:0 "[?ROOT.total_expenditures_billion|2]B USD"
+total_expenditures_million:0 "[?ROOT.total_expenditures|2]M USD"
+total_expenditures_thousand:0 "[?ROOT.total_expenditures_thousand|2]k USD"
+
+civilian_expenditures_billion:0 "[?ROOT.civilian_expenditures_billion|2]B USD"
+civilian_expenditures_million:0 "[?ROOT.civilian_expenditures|2]M USD"
+civilian_expenditures_thousand:0 "[?ROOT.civilian_expenditures_thousand|2]K USD"
+
+military_expenditures_billion:0 "[?ROOT.military_expenditures_billion|2]B USD"
+military_expenditures_million:0 "[?ROOT.military_expenditures|2]M USD"
+military_expenditures_thousand:0 "[?ROOT.military_expenditures_thousand|2]K USD"
+
+construction_expenditures_billion:0 "[?ROOT.construction_expenditures_billion|2]B USD"
+construction_expenditures_million:0 "[?ROOT.construction_expenditures|2]M USD"
+construction_expenditures_thousand:0 "[?ROOT.construction_expenditures_thousand|2]K USD"
+
+money_reserves_billion:0 "[?ROOT.money_reserves_billion|2]B USD"
+money_reserves_million:0 "[?ROOT.money_reserves|2]M USD"
+money_reserves_thousand:0 "[?ROOT.money_reserves_thousand|2]K USD"
+
+national_debt_billion:0 "[?ROOT.national_debt_billion|2]B USD"
+national_debt_million:0 "[?ROOT.national_debt|2]M USD"
+national_debt_thousand:0 "[?ROOT.national_debt_thousand|2]K USD"
+
+national_debt_billion_topbar:0 "[?ROOT.national_debt_billion|2]B"
+national_debt_million_topbar:0 "[?ROOT.national_debt|2]M"
+national_debt_thousand_topbar:0 "[?ROOT.national_debt_thousand|2]K"
+
+deficit_billion:0 "[?ROOT.deficit_billion|2]B USD"
+deficit_million:0 "[?ROOT.deficit|2]M USD"
+deficit_thousand:0 "[?ROOT.deficit_thousand|2]K USD"
+
+manpower_costs_billion:0 "§Y[?ROOT.manpower_costs_billion|2]B§! USD"
+manpower_costs_million:0 "§Y[?ROOT.manpower_costs|2]M§! USD"
+manpower_costs_thousand:0 "§Y[?ROOT.manpower_costs_thousand|2]K§! USD"
+
+military_factory_costs_billion:0 "§Y[?ROOT.military_factory_costs_billion|2]B§! USD"
+military_factory_costs_million:0 "§Y[?ROOT.military_factory_costs|2]M§! USD"
+military_factory_costs_thousand:0 "§Y[?ROOT.military_factory_costs_thousand|2]K§! USD"
+
+misc_costs_billion:0 "[?ROOT.misc_costs_billion|2]B USD"
+misc_costs_million:0 "[?ROOT.misc_costs|2]M USD"
+misc_costs_thousand:0 "[?ROOT.misc_costs_thousand|2]K USD"
+
+misc_income_billion:0 "[?ROOT.misc_income_billion|2]B USD"
+misc_income_million:0 "[?ROOT.misc_income|2]M USD"
+misc_income_thousand:0 "[?ROOT.misc_income_thousand|2]K USD"
+
+annual_debt_payments_billion:0 "§Y[?ROOT.annual_debt_payments_billion|2]B§! USD"
+annual_debt_payments_million:0 "§Y[?ROOT.annual_debt_payments|2]M§! USD"
+annual_debt_payments_thousand:0 "§Y[?ROOT.annual_debt_payments_thousand|2]K§! USD"
+
+civilian_budget_cuts_gui:0 "\n(최근의 예산 감축으로 §G85%§! 변동)"
+civilian_budget_boost_gui:0 "\n(최근의 예산 증가로 §R115%§! 변동)"
+civilian_budget_cuts_heavy_gui:0 "\n(최근의 긴급 감축으로 §G70%§! 변동)"
+bankrupt_civilian_gui:0 "\n(최근의 파산으로 §G40%§! 변동)"
+
+military_budget_cuts_gui:0 "\n(최근의 예산 감축으로 §G85%§! 변동)"
+military_budget_boost_gui:0 "\n(최근의 예산 증가로 §R115%§! 변동)"
+military_budget_cuts_heavy_gui:0 "\n(최근의 긴급 감축으로 §G70%§! 변동)"
+bankrupt_military_gui:0 "\n(최근의 파산으로 §G40%§! 변동)"
+
+deficit_ratio_green:0 "[?deficit_ratio|1G%]"
+deficit_ratio_yellow:0 "[?deficit_ratio|1Y%]"
+deficit_ratio_red:0 "[?deficit_ratio|1R%]"
+
+increase_construction_budget_text:0 "£increase_texticon"
+increase_construction_budget_tt:0 "건설 예산 증가\n비용: £pol_power 25\n민간 공장 사용량 §Y10%§! 증가\n§R건설 예산§! §Y5%§! 증가"
+increase_construction_budget_tt_delayed:0 "[!increase_construction_budget_click]"
+
+decrease_construction_budget_text:0 "£decrease_texticon"
+decrease_construction_budget_tt:0 "건설 예산 감소\n비용: £pol_power 25\n민간 공장 사용량 §Y10%§! 감소\n§R건설 예산§! §Y5%§! 감소"
+decrease_construction_budget_tt_delayed:0 "[!decrease_construction_budget_click]"
+
+increase_military_budget_tt:0 "군사 예산 증가:\n§Y120일§! 동안 군사 예산을 §Y15%§! 증가시키고 다음 혜택을 받습니다."
+increase_military_budget_tt_delayed:0 "[!increase_military_budget_click]"
+
+decrease_military_budget_tt:0 "군사 예산 감소:\n§Y120일§! 동안 군사 예산을 §Y15%§! 감소시키고 다음 불이익을 받습니다."
+decrease_military_budget_tt_delayed:0 "[!decrease_military_budget_click]"
+
+increase_civilian_budget_tt:0 "민간 예산 증가:\n§Y120일§! 동안 민간 예산을 §Y15%§! 증가시키고 다음 혜택을 받습니다."
+increase_civilian_budget_tt_delayed:0 "[!increase_civilian_budget_click]"
+
+decrease_civilian_budget_tt:0 "민간 예산 감소:\n§Y120일§! 동안 민간 예산을 §Y15%§! 감소시키고 다음 불이익을 받습니다."
+decrease_civilian_budget_tt_delayed:0 "[!decrease_civilian_budget_click]"
+
+dump_liquid_reserves_tt:0 "유동준비금 전부를 국채 상환에 사용합니다."
+dump_liquid_reserves_tt_delayed:0 "[!dump_liquid_reserves_click]"
+
+invest_liquid_reserves_tt:0 "유동준비금을 GDP 향상에 투자합니다."
+invest_liquid_reserves_tt_delayed:0 "[!invest_liquid_reserves_click]"
+
+econ_invest_money_tt:0 "유동준비금이 §Y50%§! 비율로 GDP로 변환됩니다."
+econ_invest_money_no_money_tt:0 "유동준비금이 §Y0 이상§!이어야 투자할 수 있습니다!"
+econ_dump_reserves_money_tt:0 "§Y모든§! 유동준비금을 국채 상환에 사용합니다. 확실합니까?"
+econ_dump_reserves_no_debt_tt:0 "... 국채가 없습니다."
+econ_dump_reserves_no_money_tt:0 "유동준비금이 §Y0 이상§!이어야 사용할 수 있습니다!"
+
+econ_wait_for_expiration:0 "\n현재 보정치가 사라질 때까지 기다려 주십시오!"
+econ_positive_budget:0 "\nWe have enough money for minimum payments on our debt (i.e. We have a positive annual budget)"
+econ_default_debt:0 "\n§RWe will default on all our national debt!§!"
+econ_use_liquid_reserves_tt:0 "We will put all our reserves towards paying off our national debt."
+
+econ_debt_rate_generic_increase:0 "\n§RInterest rates on our debt will increase!§!\n"
+econ_debt_rate_10_percent_increase:0 "\n§YInterest rates on our debt will increase by 10%.§!\n"
+econ_debt_rate_20_percent_increase:0 "\n§YInterest rates on our debt will increase by 20%.§!\n"
+econ_debt_rate_30_percent_increase:0 "\n§YInterest rates on our debt will increase by 30%.§!\n"
+econ_debt_rate_40_percent_increase:0 "\n§YInterest rates on our debt will increase by 40%.§!\n"
+econ_debt_rate_50_percent_increase:0 "\n§YInterest rates on our debt will increase by 50%.§!\n"
+econ_debt_rate_60_percent_increase:0 "\n§RInterest rates on our debt will increase by 60%!§!\n"
+econ_debt_rate_70_percent_increase:0 "\n§RInterest rates on our debt will increase by 70%!§!\n"
+econ_debt_rate_80_percent_increase:0 "\n§RInterest rates on our debt will increase by 80%!§!\n"
+econ_debt_rate_90_percent_increase:0 "\n§RInterest rates on our debt will increase by 90%!§!\n"
+econ_debt_rate_100_percent_increase:0 "\n§RInterest rates on our debt will double!§!\n"
+econ_debt_rate_200_percent_increase:0 "\n§RInterest rates on our debt will triple!§!\n"
+econ_debt_rate_generic_decrease:0 "\n§YInterest rates on our debt will be decreased.§!\n"
+
+##USEFUL TOOLTIPS
+
+econ_decrease_GDP_small:0 "\n§YOur§! §YGDP§! §Ywill take a small hit.§!\n"
+econ_decrease_GDP:0 "\n§YOur§! §YGDP§! §Ywill take a hit!§!\n"
+econ_decrease_GDP_large:0 "\n§ROur§! §YGDP§! §Rwill tank!§!\n"
+
+econ_increase_GDP_small:0 "\nOur §YGDP§! will receive a small boost.\n"
+econ_increase_GDP:0 "\nOur §YGDP§! will receive a boost!\n"
+econ_increase_GDP_large:0 "\n§GOur§! §YGDP§! §Gwill receive a large boost!§!\n"
+
+econ_decrease_GDP_growth_small:0 "\nOur §YGDP Growth§! will §Rdecrease§! a little.\n"
+econ_decrease_GDP_growth:0 "\nOur §YGDP Growth§! will §Rdecrease§!.\n"
+econ_decrease_GDP_growth_large:0 "\nOur §YGDP Growth§! will §Rdecrease§! a lot.\n"
+
+econ_increase_GDP_growth_small:0 "\nOur §YGDP Growth§! will §Gincrease a little.§!\n"
+econ_increase_GDP_growth:0 "\nOur §YGDP Growth§! will §Gincrease.§!\n"
+econ_increase_GDP_growth_large:0 "\nOur §YGDP Growth§! will §Gincrease a lot.§!\n"
+
+econ_increase_money_reserves_small:0 "\n§GA small amount of money will enter our reserves.§!\n"
+econ_increase_money_reserves:0 "\n§GOur reserves will receive an influx of cash.§!\n"
+econ_increase_money_reserves_large:0 "\n§GOur reserves will receive a large influx of cash!§!\n"
+
+econ_decrease_money_reserves_small:0 "\n§RA small amount of money will taken from our reserves.§!\n"
+econ_decrease_money_reserves:0 "\n§ROur reserves will lose some money.§!\n"
+econ_decrease_money_reserves_large:0 "\n§ROur reserves will lose a large amount of money!§!\n"
+
+econ_decrease_debt_small:0 "\n§YOur national debt will decrease a little.§!\n"
+econ_decrease_debt:0 "\n§YOur national debt will decrease.§!\n"
+econ_decrease_debt_large:0 "\n§ROur national debt will decrease sharply.§!\n"
+
+econ_increase_debt_small:0 "\n§YOur national debt will rise a little.§!\n"
+econ_increase_debt:0 "\n§YOur national debt will rise.§!\n"
+econ_increase_debt_large:0 "\n§ROur national debt will rise sharply.§!\n"
+
+econ_misc_expenses_add_small_increase:0 "\n§ROur expenses will rise a little.§!\n"
+econ_misc_expenses_add_medium_increase:0 "\n§ROur expenses will rise.§!\n"
+econ_misc_expenses_add_large_increase:0 "\n§ROur expenses will rise sharply.§!\n"
+
+econ_misc_expenses_add_small_decrease:0 "\n§GOur expenses will decrease a little.§!\n"
+econ_misc_expenses_add_medium_decrease:0 "\n§GOur expenses will decrease.§!\n"
+econ_misc_expenses_add_large_decrease:0 "\n§GOur expenses will decrease sharply.§!\n"
+econ_misc_costs_add_025_percent:0 "\n§RWe will have new expenses, costing 0.25% of our current GDP.§!\n"
+econ_misc_costs_add_05_percent:0 "\n§RWe will have new expenses, costing 0.5% of our current GDP.§!\n"
+econ_misc_costs_add_1_percent:0 "\n§RWe will have new expenses, costing 1% of our current GDP.§!\n"
+econ_misc_costs_add_1_5_percent:0 "\n§RWe will have new expenses, costing 1.5% of our current GDP.§!\n"
+econ_misc_costs_add_2_percent:0 "\n§RWe will have new expenses, costing 2% of our current GDP.§!\n"
+econ_misc_costs_add_3_percent:0 "\n§RWe will have new expenses, costing 3% of our current GDP.§!\n"
+econ_misc_costs_add_4_percent:0 "\n§RWe will have new expenses, costing 4% of our current GDP.§!\n"
+econ_misc_costs_add_5_percent:0 "\n§RWe will have new expenses, costing 5% of our current GDP.§!\n"
+econ_misc_costs_add_6_percent:0 "\n§RWe will have new expenses, costing 6% of our current GDP.§!\n"
+econ_misc_costs_add_7_percent:0 "\n§RWe will have new expenses, costing 7% of our current GDP.§!\n"
+econ_misc_costs_add_8_percent:0 "\n§RWe will have new expenses, costing 8% of our current GDP.§!\n"
+econ_misc_costs_add_9_percent:0 "\n§RWe will have new expenses, costing 9% of our current GDP.§!\n"
+econ_misc_costs_add_10_percent:0 "\n§RWe will have new expenses, costing 10% of our current GDP.§!\n"
+
+econ_misc_income_add_small_increase:0 "\n§GWe will have a small new source of income.§!\n"
+econ_misc_income_add_medium_increase:0 "\n§GWe will have a new source of income.§!\n"
+econ_misc_income_add_large_increase:0 "\n§GWe will have a large new source of income.§!\n"
+
+econ_misc_income_add_small_decrease:0 "\n§RWe will lose a small portion of our income.§!\n"
+econ_misc_income_add_medium_decrease:0 "\n§RWe will lose some of our income.§!\n"
+econ_misc_income_add_large_decrease:0 "\n§RWe will lose a large portion of our income.§!\n"
+
+econ_misc_income_add_1_percent:0 "\n§GWe will have a new source of income, worth 1% of our current GDP.§!\n"
+econ_misc_income_add_2_percent:0 "\n§GWe will have a new source of income, worth 2% of our current GDP.§!\n"
+econ_misc_income_add_3_percent:0 "\n§GWe will have a new source of income, worth 3% of our current GDP.§!\n"
+econ_misc_income_add_4_percent:0 "\n§GWe will have a new source of income, worth 4% of our current GDP.§!\n"
+econ_misc_income_add_5_percent:0 "\n§GWe will have a new source of income, worth 5% of our current GDP.§!\n"
+econ_misc_income_add_6_percent:0 "\n§GWe will have a new source of income, worth 6% of our current GDP.§!\n"
+econ_misc_income_add_7_percent:0 "\n§GWe will have a new source of income, worth 7% of our current GDP.§!\n"
+econ_misc_income_add_8_percent:0 "\n§GWe will have a new source of income, worth 8% of our current GDP.§!\n"
+econ_misc_income_add_9_percent:0 "\n§GWe will have a new source of income, worth 9% of our current GDP.§!\n"
+econ_misc_income_add_10_percent:0 "\n§GWe will have a new source of income, worth 10% of our current GDP.§!\n"
+
+econ_interest_rates_add_small_increase:0 "\n§YInterest rates will increase slightly.§!\n"
+econ_interest_rates_add_medium_increase:0 "\n§YInterest rates will increase.§!\n"
+econ_interest_rates_add_large_increase:0 "\n§YInterest rates will increase sharply.§!\n"
+
+econ_interest_rates_add_small_decrease:0 "\n§YInterest rates will decrease slightly.§!\n"
+econ_interest_rates_add_medium_decrease:0 "\n§YInterest rates will decrease.§!\n"
+econ_interest_rates_add_large_decrease:0 "\n§YInterest rates will decrease sharply.§!\n"
+
+
+
+###IDEAS###
+construction_level_0:0 "No Construction"
+construction_level_1:0 "10% Utilization"
+construction_level_2:0 "20% Utilization"
+construction_level_3:0 "30% Utilization"
+construction_level_4:0 "40% Utilization"
+construction_level_5:0 "50% Utilization"
+construction_level_6:0 "60% Utilization"
+construction_level_7:0 "70% Utilization"
+construction_level_8:0 "80% Utilization"
+construction_level_9:0 "90% Utilization"
+
+tno_construction_laws:0 "Construction Spending"
+
+military_budget_cuts:0 "군사 예산 감축"
+military_budget_cuts_heavy:0 "심각한 군사 예산 감축"
+military_budget_boost:0 "군사 예산 증가"
+civilian_budget_cuts:0 "민간 예산 감축"
+civilian_budget_cuts_heavy:0 "심각한 민간 예산 감축"
+civilian_budget_boost:0 "민간 예산 증가"
+
+bankrupt_military:0 "군사 예산 파산"
+bankrupt_civilian:0 "민간 계획 파산"
+
+###DECISIONS###
+economy_test_category:0 "경제 위기"
+economy_test_category_desc:0 "holy fucking shit we can't pay our debts no more"
+
+economic_crisis:0 "Uncontrollable Debt"
+economic_crisis_desc:0 "so basically we're going to die"
+
+econ_emergency_taxes:0 "Emergency Tax Hike"
+econ_emergency_taxes_desc:0 ""
+econ_emergency_military_austerity:0 "Emergency Military Austerity"
+econ_emergency_military_austerity_desc:0 ""
+econ_emergency_civilian_austerity:0 "Emergency Civilian Austerity"
+econ_emergency_civilian_austerity_desc:0 ""
+econ_use_liquid_reserves:0 "Use Liquid Reserves"
+econ_use_liquid_reserves_desc:0 ""
+
+worsen_army_professionalism_small:0 "Our §YArmy Professionalism§! Societal Development will begin to §Rslowly worsen§!\n"
+worsen_army_professionalism_medium:0 "Our §YArmy Professionalism§! Societal Development will begin to §Rworsen§!\n"

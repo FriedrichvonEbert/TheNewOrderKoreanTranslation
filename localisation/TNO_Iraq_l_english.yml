@@ -1,0 +1,531 @@
+﻿l_english:
+#Names
+ IRQ_fascism:0 "Iraqi State"
+ IRQ_fascism_DEF:0 "The Iraqi State"
+ IRQ_social_liberal:0 "Iraq"
+ IRQ_social_liberal_DEF:0 "The Republic of Iraq"
+ IRQ_market_liberal:0 "Iraq"
+ IRQ_market_liberal_DEF:0 "The Republic of Iraq"
+ IRQ_social_conservative:0 "Iraq"
+ IRQ_social_conservative_DEF:0 "The Republic of Iraq"
+ IRQ_authoritarian_democrat:0 "Iraq"
+ IRQ_authoritarian_democrat_DEF:0 "The Republic of Iraq"
+ IRQ_despotism:0 "Iraq"
+ IRQ_despotism_DEF:0 "The Republic of Iraq"
+ IRQ_communist:0 "Socialist Iraqi State"
+ IRQ_communist_DEF:0 "The Socialist Iraqi State"
+ IRQ_socialist:0 "Socialist Iraqi Republic"
+ IRQ_socialist_DEF:0 "The Socialist Iraqi Republic"
+ IRQ_national_socialism:0 "Iraqi Arab Republic"
+ IRQ_national_socialism_DEF:0 "The Iraqi Arab Republic"
+ IRQ_ultranational_socialism:0 "Iraqi State"
+ IRQ_ultranational_socialism_DEF:0 "The Iraqi State"
+ IRQ_fascism_ADJ:0 "Iraqi"
+ IRQ_social_liberal_ADJ:0 "Iraqi"
+ IRQ_market_liberal_ADJ:0 "Iraqi"
+ IRQ_social_conservative_ADJ:0 "Iraqi"
+ IRQ_authoritarian_democrat_ADJ:0 "Iraqi"
+ IRQ_communist_ADJ:0 "Iraqi"
+ IRQ_despotism_ADJ:0 "Iraqi"
+ IRQ_socialist_ADJ:0 "Iraqi"
+ IRQ_ultranational_socialism_ADJ:0 "Iraqi"
+ IRQ_national_socialism_ADJ:0 "Iraqi"
+
+#Parties
+ IRQ_communist_party:0 "ASU"
+ IRQ_communist_party_long:0 "Arab Socialist Union"
+ IRQ_socialist_party:0 "ICP"
+ IRQ_socialist_party_long:0 "Iraqi Communist Party"
+ IRQ_social_democrat_party:0 "J14M"
+ IRQ_social_democrat_party_long:0 "July 14th Movement"
+ IRQ_social_liberal_party:0 "LP"
+ IRQ_social_liberal_party_long:0 "Liberal Party"
+ IRQ_market_liberal_party:0 "INA"
+ IRQ_market_liberal_party_long:0 "Iraqi National Accord"
+ IRQ_social_conservative_party:0 "HDI"
+ IRQ_social_conservative_party_long:0 "Hizb al-Da'wa al-Islāmiyya"
+ IRQ_authoritarian_democrat_party:0 "HWD"
+ IRQ_authoritarian_democrat_party_long:0 "Hizb al-Wataniyah al-Dimuqratiyah"
+ IRQ_despotism_party:0 "CII"
+ IRQ_despotism_party_long:0 "Commissione Italiana in Iraq"
+ IRQ_fascism_party:0 "HBAII"
+ IRQ_fascism_party_long:0 "Hizb al-Baath al-'Arabi al-Ishtiraki fi al-'Iraq"
+ IRQ_national_socialism_party:0 "HBAII - Saddamiya"
+ IRQ_national_socialism_party_long:0 "Hizb al-Baath al-'Arabi al-Ishtiraki fi al-'Iraq - Saddamiya"
+ IRQ_ultranational_socialism_party:0 "HT"
+ IRQ_ultranational_socialism_party_long:0 "Hizb ut-Tahrir"
+ 
+#Leader Descriptions
+ POLITICS_Abd_al_Karim_Qasim_DESC:0 "During his tenure as prime minister of the Republic of Iraq, Abd al-Karim Qasim has earned the title of al-Za'im, the Leader, and even his numerous enemies have to recognize that it is well deserved. Born into a mixed Sunni and Shiite family, Qasim took quickly to the military, serving as a rebel officer during the Anglo-Iraqi War. During the conflict, Qasim became known for his charisma and cunning as a leader, soon rising through the ranks of the Iraqi army and creating a network of allies among the rising pan-Arabist cliques. At the same time, he kept up good relations with the Italian occupiers, careful to work with both camps while truly belonging to neither.\n\nThe unpopular Golden Square puppet regime was finally toppled by the revolution of July 14th, 1958. Qasim established him as a "moderate" and "reasonable" voice of the revolution, and maintained his Italian contacts throughout. The revolutionaries had grand projects of pan-Arab unity and a broad revolt against Italian imperialism - projects which clearly became doomed as the many different factions turned to infighting and the grand army of Fascism gathered on Iraq's borders. Qasim led a military revolt against both sides, and opened negotiations with Rome, through which he was allowed to remain as prime minister of an independent and republican Iraq in exchange for allowing a small Italian garrison and renouncing all dreams of Arab unity - a deal which Qasim was more than happy to take.\n\nFrom there on, Qasim began shaping Iraq in his vision. Pushing progressive and reformist policies, the new prime minister began to carry out land reform, social reform and education campaigns, with the goal of bringing Iraq into the modern age as a modern nation, even if one watched by Italy.  Though bold, his reforms have also been cautious, for fear of provoking the many enemies and false friends which wait in the shadows. And they are numerous indeed - Ba'athists and Nasserists which Qasim once betrayed and perhaps others, even more insidious, wait in the shadows, plotting and scheming the downfall of the al-Za'im."
+
+
+#Tooltips
+ IRQ_ITALY_UP:0 "§GItalian influence will rise§!.\n"
+ IRQ_ITALY_DOWN:0 "§GItalian influence will fall§!.\n"
+ 
+ IRQ_NDP_UP:0 "§GNational Democratic Party influence will rise§!.\n"
+ IRQ_NDP_DOWN:0 "§RNational Democratic Party influence will fall§!.\n"
+ 
+ IRQ_Dawa_UP:0 "§GIslamic Dawa Party influence will rise§!.\n"
+ IRQ_Dawa_DOWN:0 "§GIslamic Dawa Party influence will fall§!.\n"
+ 
+ IRQ_J14_UP:0 "§GJuly 14th Party influence will rise§!.\n"
+ IRQ_J14_DOWN:0 "§GJuly 14th Party influence will fall§!.\n"
+ 
+ 
+#Ideas
+ IRQ_july_14_legacy:0 "Legacy of July 14th"
+ IRQ_july_14_legacy_desc:0 "It has been almost 5 years since the 14th July Revolution, and in many ways it remains unfinished. The revolution began as a popular and widespread uprising against Italian Influence, but rapidly devolved into anarchy, a war of all against all. Communists fought Shiites, democrats fought militarists, and everyone fought the Ba'athists. It was only the military coup of general Abd al-Karim Qasim and the forging of his government of national consensus that brought an end to the fighting. Since then, Qasim has been recognized by every party as Iraq's leader, but not a very powerful one. His rule is based on consensus, that the nation's factitious political parties are individually too weak to unite against him, and that the Italians will be forever desperate to support his regime as a bulwark against German-backed Ba'athism."
+ 
+ IRQ_july_14_legacy1:0 "Legacy of July 14th"
+ IRQ_july_14_legacy1_desc:0 "It has been almost 5 years since the 14th July Revolution, and in many ways it remains unfinished. The revolution began as a popular and widespread uprising against Italian Influence, but rapidly devolved into anarchy, a war of all against all. Communists fought Shiites, democrats fought militarists, and everyone fought the Ba'athists. It was only the military coup of general Abd al-Karim Qasim and the forging of his government of national consensus that brought an end to the fighting. Since then, Qasim has been recognized by every party as Iraq's leader, but not a very powerful one. His rule is based on consensus, that the nation's factitious political parties are individually too weak to unite against him, and that the Italians will be forever desperate to support his regime as a bulwark against German-backed Ba'athism."
+ 
+ IRQ_dawa_ascendant:0 "Dawa Ascendant"
+ IRQ_dawa_ascendant_desc:0 "Much of the political scene in Iraq has been constant for decades. A weak puppet government supported by a foreign power. Pan-Arabists, numerous in their support but opposed by all others. Old men doddering about democracy, young men preaching communism. Opportunists and corruption in the army (and everywhere else). However, inspired by Iraq's economic stagnation and the oppression (both real and perceived) of their faith across the Middle East, Iraq's Shiites are flocking in ever greater numbers to join the Islamist Dawa Party, founded to represent them and their greivances. While the party itself is far from united, its star continues to rise even as Iraq's stability remains questionable, and few can doubt it's not a force to be reckoned with."
+ 
+ IRQ_italian_interference:0 "Italian Interference"
+ IRQ_italian_interference_desc:0 "While, on paper, Iraq is arguably the most independent nation of the Italian sphere, in reality the nation remains heavily dependent on its patrons in Rome. Iraq's oil is extracted by the Italians, its army is augmented and trained by Italian advisors, and its politics hampered by humiliating treaties which keep the nation limp wristed and dependent. While politicians of every stripe decry their nation's persistent servility, too many of them benefit too much from Italalian patronage and corruption to do much about it."
+ 
+ IRQ_italian_interference1:0 "Italian Interference"
+ IRQ_italian_interference1_desc:0 "While, on paper, Iraq is arguably the most independent nation of the Italian sphere, in reality the nation remains heavily dependent on its patrons in Rome. Iraq's oil is extracted by the Italians, its army is augmented and trained by Italian advisors, and its politics hampered by humiliating treaties which keep the nation limp wristed and dependent. While politicians of every stripe decry their nation's persistent servility, too many of them benefit too much from Italalian patronage and corruption to do much about it."
+ 
+ IRQ_ineffecient_oil_industry:0 "Ineffecient Oil Industry"
+ IRQ_ineffecient_oil_industry_desc:0 "One would think that the discovery of massive oil reserves would lead to some sort of economic improvement. One would be surprised then, if they visited Iraq. Although Iraq's deserts are home to towering oil fields and its cities stuffed with refineries for th eblack gold, its actual production remains under par. What oil is produced is often stolen and sold on the black market, or lost somewhere in Iraq's maze of bureaucracy, cronyism, and pollution. If, against all odds, a barral actually makes it to shipment, the money will mostly go to the Italians who ship it. Should a spare coin or two find its way back into the nation of its inception, then it will quickly go to line the pockets of the political or economic elite rather than into the hands of anyone who actually found the oil, extracted it, or worked to purify it."
+ 
+ IRQ_ineffecient_oil_industry1:0 "Ineffecient Oil Industry"
+ IRQ_ineffecient_oil_industry1_desc:0 "One would think that the discovery of massive oil reserves would lead to some sort of economic improvement. One would be surprised then, if they visited Iraq. Although Iraq's deserts are home to towering oil fields and its cities stuffed with refineries for th eblack gold, its actual production remains under par. What oil is produced is often stolen and sold on the black market, or lost somewhere in Iraq's maze of bureaucracy, cronyism, and pollution. If, against all odds, a barral actually makes it to shipment, the money will mostly go to the Italians who ship it. Should a spare coin or two find its way back into the nation of its inception, then it will quickly go to line the pockets of the political or economic elite rather than into the hands of anyone who actually found the oil, extracted it, or worked to purify it."
+ 
+ IRQ_the_spectre_of_baathism:0 "The Spectre of Ba'athism"
+ IRQ_the_spectre_of_baathism_desc:0 "As elsewhere in the region, Iraq's Arabs grow increasingly restless, desiring a unified state, free from imperialism and western degeneracy. This is nothing new, and these feelings have been unleashed before, in the July 14th revolution (which drew its inspiration from the uprisings in Egypt and elsewhere). However, the revolution's failure did not defeat Iraqi Pan-Arabism, but instead made it clandestine, efficient, and highly organized through the Ba'ath party. While one might not be able to see the Ba'aths they are there nonetheless. Their posters appear at night despite the government's and garrison's dual efforts to remove them; their slogans are shouted at ever more common protests; and the desert seems to have an inexhaustible supply of these dedicated, angry men, hungry for the power they're sure will inevitably come their way."
+ 
+ IRQ_the_spectre_of_baathism1:0 "The Spectre of Ba'athism"
+ IRQ_the_spectre_of_baathism1_desc:0 "As elsewhere in the region, Iraq's Arabs grow increasingly restless, desiring a unified state, free from imperialism and western degeneracy. This is nothing new, and these feelings have been unleashed before, in the July 14th revolution (which drew its inspiration from the uprisings in Egypt and elsewhere). However, the revolution's failure did not defeat Iraqi Pan-Arabism, but instead made it clandestine, efficient, and highly organized through the Ba'ath party. While one might not be able to see the Ba'aths they are there nonetheless. Their posters appear at night despite the government's and garrison's dual efforts to remove them; their slogans are shouted at ever more common protests; and the desert seems to have an inexhaustible supply of these dedicated, angry men, hungry for the power they're sure will inevitably come their way."
+ 
+ IRQ_iraq_economy_shift:0 "Shifting Economy"
+ IRQ_iraq_economy_shift_desc:0 ""
+ 
+ IRQ_iraq_economy_shift1:0 "Growing Economy"
+ IRQ_iraq_economy_shift1_desc:0 ""
+ 
+ IRQ_iraq_economy_shift2:0 "New Economy"
+ IRQ_iraq_economy_shift2_desc:0 ""
+ 
+ IRQ_ENIIPC_cooperation:0 "ENI-IPC Cooperation"
+ IRQ_ENIIPC_cooperation_desc:0 ""
+ 
+ IRQ_Matteis_bookering:0 "Mattei's Bookering"
+ IRQ_Matteis_bookering_desc:0 ""
+ 
+ IRQ_moderinizing_agriculture:0 "Modernization of Agriculture"
+ IRQ_moderinizing_agriculture_desc:0 ""
+ 
+ IRQ_exports_agriculture:0 "Increase Agriculture Exports"
+ IRQ_exports_agriculture_Desc:0 ""
+ 
+ IRQ_Ignorance_Sucks:0 "Against Ignorance"
+ IRQ_Ignorance_Sucks_desc:0 ""
+ 
+ IRQ_mandatory_enrollment:0 "Mandatory Enrollment"
+ IRQ_mandatory_enrollment_desc:0 ""
+ 
+ IRQ_tolerance_paradise:0 "Tolerance Haven"
+ IRQ_tolerance_paradise_desc:0 ""
+ 
+ IRQ_pious_society:0 "Pious Society"
+ IRQ_pious_society_desc:0 ""
+ 
+ IRQ_strong_society:0 "Strong Society"
+ IRQ_strong_society_desc:0 ""
+ 
+ IRQ_army_situation:0 "The Army's Reforms"
+ IRQ_army_situation_desc:0 ""
+ 
+ IRQ_army_situation1:0 "The Army's Reforms"
+ IRQ_army_situation1_desc:0 ""
+ 
+ IRQ_army_situation2:0 "The Army's Reforms"
+ IRQ_army_situation2_desc:0 ""
+ 
+ IRQ_army_situation3:0 "The Army's Reforms"
+ IRQ_army_situation3_desc:0 ""
+ 
+ IRQ_SIM_aid:0 "SIM Aid"
+ IRQ_SIM_aid_desc:0 ""
+ 
+ IRQ_NDP_Supremacy:0 "NDP Supremacy"
+ IRQ_NDP_Supremacy_desc:0 ""
+ 
+#Focuses
+ IRQ_reign_of_the_al_zaim:0 "Reign Of al-Zaim"
+ IRQ_reign_of_the_al_zaim_desc:0 ""
+ 
+ IRQ_wataniyah:0 "Wataniyah!"
+ IRQ_wataniyah_desc:0 ""
+ 
+ IRQ_iraqs_new_economy:0 "Iraq's New Economy"
+ IRQ_iraqs_new_economy_desc:0 ""
+ 
+ IRQ_review_the_IPC:0 "Review The IPC"
+ IRQ_review_the_IPC_desc:0 ""
+ 
+ IRQ_meet_with_miceli:0 "Meet With Miceli"
+ IRQ_meet_with_miceli_desc:0 ""
+ 
+ IRQ_under_the_table_deals:0 "Under The Table Deals"
+ IRQ_under_the_table_deals_desc:0 ""
+ 
+ IRQ_infinite_money:0 "Infinite Money"
+ IRQ_infinite_money_desc:0 ""
+ 
+ IRQ_hide_the_evidence:0 "Hide The Evidence"
+ IRQ_hide_the_evidence_desc:0 ""
+ 
+ IRQ_bring_in_italian_workers:0 "Bring In Italian Workers"
+ IRQ_bring_in_italian_workers_desc:0 ""
+ 
+ IRQ_italian_business_contacts:0 "Italian Business Contacts"
+ IRQ_italian_business_contacts_Desc:0 ""
+ 
+ IRQ_reinvest_the_money:0 "Reinvest The Money"
+ IRQ_reinvest_the_money_desc:0 ""
+ 
+ IRQ_an_offer_we_couldnt_refuse:0 "An Offer We Couldn't Refuse"
+ IRQ_an_offer_we_couldnt_refuse_desc:0 ""
+ 
+ IRQ_meet_with_mattei:0 "Meet With Mattei"
+ IRQ_meet_with_mattei_desc:0 ""
+ 
+ IRQ_ENIIPC_axis:0 "ENI-IPC Axis"
+ IRQ_ENIIPC_axis_desc:0 ""
+ 
+ IRQ_ENI_employment_programs:0 "ENI Employment Programs"
+ IRQ_ENI_employment_programs_desc:0 ""
+ 
+ IRQ_encourage_iraqi_know_how:0 "Encourage Iraqi Know-How"
+ IRQ_encourage_iraqi_know_how_desc:0 ""
+ 
+ IRQ_joint_oil_ventures:0 "Joint Oil Ventures"
+ IRQ_joint_oil_ventures_desc:0 ""
+ 
+ IRQ_negotiate_basra_transfer_rates:0 "Negotiate Basra Transfer Rates"
+ IRQ_negotiate_basra_transfer_rates_desc:0 ""
+ 
+ IRQ_expand_basra_infrastructure:0 "Expand Basra Infrastructure"
+ IRQ_expand_basra_infrastructure_desc:0 ""
+ 
+ IRQ_a_mutually_profitable_agreement:0 "A Mutually Profitable Agreement"
+ IRQ_a_mutually_profitable_agreement_desc:0 ""
+ 
+ IRQ_develop_the_countryside:0 "Develop The Countryside"
+ IRQ_develop_the_countryside_desc:0 ""
+ 
+ IRQ_repel_feudal_laws:0 "Repel Feudal Laws"
+ IRQ_repel_feudal_laws_desc:0 ""
+ 
+ IRQ_uplift_the_peasants:0 "Uplift The Peasants"
+ IRQ_uplift_the_peasants_desc:0 ""
+ 
+ IRQ_agrarian_reform_law:0 "Agrarian Reform Law"
+ IRQ_agrarian_reform_law_desc:0 ""
+ 
+ IRQ_invest_in_modernization:0 "Invest In Modernization"
+ IRQ_invest_in_modernization_desc:0 ""
+ 
+ IRQ_roads_and_canals:0 "Roads And Canals"
+ IRQ_roads_and_canals_desc:0 ""
+ 
+ IRQ_expands_cultivated_lands:0 "Expand Cultivated Lands"
+ IRQ_expands_cultivated_lands_desc:0 ""
+ 
+ IRQ_support_agricultural_cooperative_bank_of_iraq:0 "Support The Agricultural Bank"
+ IRQ_support_agricultural_cooperative_bank_of_iraq_desc:0 ""
+ 
+ IRQ_foster_agricultura_exports:0 "Foster Agricultural Exports"
+ IRQ_foster_agricultura_exports_desc:0 ""
+ 
+ IRQ_the_breadbasket_of_the_middle_east:0 "The Breadbasket Of The Middle East"
+ IRQ_the_breadbasket_of_the_middle_east_desc:0 ""
+ 
+ IRQ_iraqs_new_society:0 "Iraq's New Society"
+ IRQ_iraqs_new_society_desc:0 ""
+ 
+ IRQ_the_baghdad_blues:0 "The Baghdad Blues"
+ IRQ_the_baghdad_blues_desc:0 ""
+ 
+ IRQ_reach_into_the_slums:0 "Reach Into The Slums"
+ IRQ_reach_into_the_slums_desc:0 ""
+ 
+ IRQ_madinat_al_thawra:0 "Madinat al-Thawra"
+ IRQ_madinat_al_thawra_desc:0 ""
+ 
+ IRQ_improve_urban_infrastructure:0 "Improve Urban Infrastructure"
+ IRQ_improve_urban_infrastructure_desc:0 ""
+ 
+ IRQ_expand_healthcare:0 "Expand Healthcare"
+ IRQ_expand_healthcare_desc:0 ""
+ 
+ IRQ_the_woman_your_sister:0 "The Woman, Your Sister"
+ IRQ_the_woman_your_sister_desc:0 ""
+ 
+ IRQ_new_marriage_laws:0 "New Marriage Laws"
+ IRQ_new_marriage_laws_desc:0 ""
+ 
+ IRQ_article_74:0 "Article 14"
+ IRQ_article_74_desc:0 ""
+ 
+ IRQ_encourage_literacy_for_women:0 "Encourage Literacy For Women"
+ IRQ_encourage_literacy_for_women_desc:0 ""
+ 
+ IRQ_the_burdens_of_administration:0 "The Burdens Of Administration"
+ IRQ_the_burdens_of_administration_desc:0 ""
+ 
+ IRQ_against_ignorance:0 "Against Ignorance"
+ IRQ_against_ignorance_desc:0 ""
+ 
+ IRQ_raise_the_education_budget:0 "Raise The Education Budget"
+ IRQ_raise_the_education_budget_desc:0 ""
+ 
+ IRQ_the_scourge_of_illiteracy:0 "The Scourge Of Illiteracy"
+ IRQ_the_scourge_of_illiteracy_desc:0 ""
+ 
+ IRQ_enforce_school_enrollment:0 "Enforce School Enrollment"
+ IRQ_enforce_school_enrollment_desc:0 ""
+ 
+ IRQ_projects_for_higher_learning:0 "Project For Higher Learning"
+ IRQ_projects_for_higher_learning_desc:0 ""
+ 
+ IRQ_towards_a_new_golden_age:0 "Toward A New Golden Age"
+ IRQ_towards_a_new_golden_age_desc:0 ""
+ 
+ IRQ_introduce_economic_planning:0 "Introduce Economic Planning"
+ IRQ_introduce_economic_planning_desc:0 ""
+ 
+ IRQ_the_road_to_industrialization:0 "The Road To Industrialization"
+ IRQ_the_road_to_industrialization_desc:0 ""
+ 
+ IRQ_the_house_of_cards:0 "The House Of Cards"
+ IRQ_the_house_of_cards_desc:0 ""
+ 
+ IRQ_the_parliamentary_consensus:0 "The Parliamentary Consensus"
+ IRQ_the_parliamentary_consensus_desc:0 ""
+ 
+ IRQ_compromise_with_dawa:0 "Compromise With Dawa"
+ IRQ_compromise_with_dawa_desc:0 ""
+ 
+ IRQ_appeal_to_the_moderates:0 "Appeal To The Moderates"
+ IRQ_appeal_to_the_moderates_desc:0 ""
+ 
+ IRQ_autonomy_for_shia_communities:0 "Autonomy For Shia Communities"
+ IRQ_autonomy_for_shia_communities_desc:0 ""
+ 
+ IRQ_discourage_discrimination:0 "Discourgae Discrimination"
+ IRQ_discourage_discrimination_desc:0 ""
+ 
+ IRQ_ouvertures_to_najaf:0 "Ouvertures To Najaf"
+ IRQ_ouvertures_to_najaf_desc:0 ""
+ 
+ IRQ_support_from_the_ayatollahs:0 "Support From The Ayatollahs"
+ IRQ_support_from_the_ayatollahs_desc:0 ""
+ 
+ IRQ_a_pious_iraq:0 "A Pious Iraq"
+ IRQ_a_pious_iraq_desc:0 ""
+ 
+ IRQ_entice_the_july_14th:0 "Entice The July 14th Movenment"
+ IRQ_entice_the_july_14th_desc:0 ""
+ 
+ IRQ_promises_of_independence:0 "Promises Of Independence"
+ IRQ_promises_of_independence_desc:0 ""
+ 
+ IRQ_pan_arab_brotherhood:0 "Pan-Arab Brotherhood"
+ IRQ_pan_arab_brotherhood_desc:0 ""
+ 
+ IRQ_posture_against_the_italians:0 "Posture Against The Italians"
+ IRQ_posture_against_the_italians_desc:0 ""
+ 
+ IRQ_compromise_with_the_demagogues:0 "Compromise With The Demagogues"
+ IRQ_compromise_with_the_demagogues_desc:0 ""
+ 
+ IRQ_meet_with_saddam:0 "Meet With Saddam"
+ IRQ_meet_with_saddam_desc:0 ""
+ 
+ IRQ_a_strong_iraq:0 "A Strong Iraq"
+ IRQ_a_strong_iraq_desc:0 ""
+ 
+ IRQ_the_snakes_among_us:0 "The Snakes Among Us"
+ IRQ_the_snakes_among_us_desc:0 ""
+ 
+ IRQ_the_remnants_of_the_baath_party:0 "The Remnants Of The Ba'ath Party"
+ IRQ_the_remnants_of_the_baath_party_desc:0 ""
+ 
+ IRQ_the_syrian_ratline:0 "The Syrian Ratline"
+ IRQ_the_syrian_ratline_desc:0 ""
+ 
+ IRQ_investigate_their_tracks:0 "Investigate Their Tracks"
+ IRQ_investigate_their_tracks_desc:0 ""
+ 
+ IRQ_make_examples:0 "Make Examples"
+ IRQ_make_examples_desc:0 ""
+ 
+ IRQ_the_army_cliques:0 "The Army Cliques"
+ IRQ_the_army_cliques_desc:0 ""
+ 
+ IRQ_review_their_loyalty:0 "Review Their Loyalty"
+ IRQ_review_their_loyalty_desc:0 ""
+ 
+ IRQ_reshuffle_positions:0 "Reshuffle Positions"
+ IRQ_reshuffle_positions_desc:0 ""
+ 
+ IRQ_the_arif_brothers:0 "The Arif Brothers"
+ IRQ_the_arif_brothers_desc:0 ""
+ 
+ IRQ_another_army_purge:0 "Another Army Purge"
+ IRQ_another_army_purge_desc:0 ""
+ 
+ IRQ_SIM_advisors:0 "SIM Advisors"
+ IRQ_SIM_advisors_desc:0 ""
+ 
+ IRQ_rely_on_miceli:0 "Rely On Miceli"
+ IRQ_rely_on_miceli_desc:0 ""
+ 
+ IRQ_the_extremists_of_the_dawa:0 "The Extremists Of The Dawa"
+ IRQ_the_extremists_of_the_dawa_desc:0 ""
+ 
+ IRQ_exploit_their_rivalries:0 "Explot Their Rivalries"
+ IRQ_exploit_their_rivalries_desc:0 ""
+ 
+ IRQ_keep_the_shia_under_close_watch:0 "Keep The Shia Under Close Watch"
+ IRQ_keep_the_shia_under_close_watch_desc:0 ""
+ 
+ IRQ_condemn_relgious_bigotry:0 "Condemn Religious Bigotry"
+ IRQ_condemn_relgious_bigotry_desc:0 ""
+ 
+ IRQ_the_demagogues:0 "The Demagogues"
+ IRQ_the_demagogues_desc:0 ""
+ 
+ IRQ_put_the_spotlight_on_qasim:0 "Put The Spotlight On Qasim"
+ IRQ_put_the_spotlight_on_qasim_desc:0 ""
+ 
+ IRQ_reign_in_the_NDP:0 "Reign In The NDP"
+ IRQ_reign_in_the_NDP_desc:0 ""
+ 
+ IRQ_discredit_saddam:0 "Discredit Saddam"
+ IRQ_discredit_saddam_desc:0 ""
+ 
+ IRQ_the_fools_fight_among_themselves:0 "The Fools Fight Among Themselves"
+ IRQ_the_fools_fight_among_themselves_desc:0 ""
+
+
+
+
+##########################################
+##########################################
+##########################################
+##########################################
+##########################################
+##########################################
+##########################################
+ 
+#Events
+ IRQ.1.t:0 "Qasim's Reign and Situation"
+ IRQ.1.desc:0 ""
+ IRQ.1.a:0 "Interesting."
+ IRQ.2.t:0 "Wataniyah!"
+ IRQ.2.desc:0 ""
+ IRQ.2.a:0 "Iraq"
+ IRQ.3.t:0 "Overview of the IPC"
+ IRQ.3.desc:0 ""
+ IRQ.3.a:0 "We can turn this around."
+ IRQ.4.t:0 "Hiding the Evidence"
+ IRQ.4.desc:0 ""
+ IRQ.4.a:0 "And no one was the wiser."
+ IRQ.5.t:0 "Contacts in Iraq"
+ IRQ.5.desc:0 ""
+ IRQ.5.a:0 "Much appreciated."
+ IRQ.6.t:0 "Contacts in Italy"
+ IRQ.6.desc:0 ""
+ IRQ.6.a:0 "Glad to have them by our side."
+ IRQ.7.t:0 "Sorting Out Transfer Rates"
+ IRQ.7.desc:0 ""
+ IRQ.7.a:0 "Lets hope it works out."
+ IRQ.8.t:0 "Examination of the Countryside"
+ IRQ.8.desc:0 ""
+ IRQ.8.a:0 "Onwards!"
+ IRQ.9.t:0 "Supporting the Agricultural Bank"
+ IRQ.9.desc:0 ""
+ IRQ.9.a:0 "Amazing."
+ IRQ.10.t:0 "What We Live In"
+ IRQ.10.desc:0 ""
+ IRQ.10.a:0 "We must reform."
+ IRQ.11.t:0 "Article 14"
+ IRQ.11.desc:0 ""
+ IRQ.11.a:0 "We're all Iraqis."
+ IRQ.12.t:0 "The Fragile Politics"
+ IRQ.12.desc:0 ""
+ IRQ.12.a:0 "We're on a tightrope."
+ IRQ.13.t:0 "Parliament Says..."
+ IRQ.13.desc:0 ""
+ IRQ.13.a:0 "Hell of a situation."
+ IRQ.14.t:0 "With Najaf"
+ IRQ.14.desc:0 ""
+ IRQ.14.a:0 "Very well."
+ IRQ.15.t:0 "Needed Support"
+ IRQ.15.desc:0 ""
+ IRQ.15.a:0 "Appreciate it!"
+ IRQ.16.t:0 "The July 14th"
+ IRQ.16.desc:0 ""
+ IRQ.16.a:0 "We will see eachother again."
+ IRQ.17.t:0 "Saddam Hussein"
+ IRQ.17.desc:0 ""
+ IRQ.17.a:0 "An Odd Figure."
+ IRQ.18.t:0 "The Ba'ath Party"
+ IRQ.18.desc:0 ""
+ IRQ.18.a:0 "May they never return."
+ IRQ.19.t:0 "Issues In Syria"
+ IRQ.19.desc:0 ""
+ IRQ.19.a:0 "Things aren't what they seem."
+ IRQ.20.t:0 "Following Their Trail"
+ IRQ.20.desc:0 ""
+ IRQ.21.a:0 "For the security of our nation."
+ IRQ.21.t:0 "The Bait"
+ IRQ.21.desc:0 ""
+# IRQ.21.a:0 "Now we wait." #duplicate loc key
+ IRQ.22.t:0 "Dawa Extremism"
+ IRQ.22.desc:0 ""
+ IRQ.22.a:0 "We will emerge victorious."
+ IRQ.23.t:0 "Watch on Shia"
+ IRQ.23.desc:0 ""
+ IRQ.23.a:0 "What is th meaning of this?"
+ IRQ.24.t:0 "Tensions In July 14th"
+ IRQ.24.desc:0 ""
+ IRQ.24.a:0 "Explotation is our bullet."
+ 
+#Decisions
+ IRQ_political_hell:0 "The Political Situation"
+ IRQ_political_hell_desc:0 "July 14th Party Influence is: [ROOT.July14Inf]\nIslamic Dawa Party Influence is: [ROOT.DawaInf]\nNational Democratic Party Influence is: [ROOT.NDPInf]\nArab Socialist Ba'ath Party Influence is: [ROOT.BaathInf]\nItalian Influence is: [ROOT.IRQITAInf]\n"
+ 
+ IRQ_J14_Very_High:0 "§YVery High§!."
+ IRQ_J14_High:0 "§YHigh§!."
+ IRQ_J14_Medium:0 "§YMedium§!."
+ IRQ_J14_Irrelevant:0 "§GIrrelevant§!."
+ 
+ IRQ_DP_Very_High:0 "§YVery High§!."
+ IRQ_DP_High:0 "§YHigh§!."
+ IRQ_DP_Medium:0 "§YMedium§!."
+ IRQ_DP_Irrelevant:0 "§GIrrelevant§!."
+ 
+ IRQ_NDP_Very_High:0 "§GVery High§!."
+ IRQ_NDP_High:0 "§YHigh§!."
+ IRQ_NDP_Medium:0 "§YMedium§!."
+ IRQ_NDP_Irrelevant:0 "§RIrrelevant§!."
+ 
+ IRQ_baath_Very_High:0 "§RVery High§!."
+ IRQ_baath_High:0 "§YHigh§!."
+ IRQ_baath_Medium:0 "§YMedium§!."
+ IRQ_baath_Irrelevant:0 "§GIrrelevant§!."
+ IRQ_baath_gone:0 "§RUndeterminable§!."
+ 
+ IRQ_Italy_Very_High:0 "§RVery High§!."
+ IRQ_Italy_High:0 "§YHigh§!."
+ IRQ_Italy_Medium:0 "§YMedium§!."
+ IRQ_Italy_Irrelevant:0 "§RIrrelevant§!."
+ 

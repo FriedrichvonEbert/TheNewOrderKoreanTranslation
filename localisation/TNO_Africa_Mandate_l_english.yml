@@ -1,0 +1,156 @@
+﻿l_english:
+ OFN_AFRICA_MANDATE_huge_stability_increase_tt:0 "The §jPolitical Stability§! of our mandate will §yincrease greatly§!. "
+ OFN_AFRICA_MANDATE_medium_stability_increase_tt:0 "The §jPolitical Stability§! of our mandate will §Gincrease§!. "
+ OFN_AFRICA_MANDATE_small_stability_increase_tt:0 "The §jPolitical Stability§! of our mandate will §Tincrease a little bit§!. "
+
+ OFN_AFRICA_MANDATE_huge_stability_decrease_tt:0 "The §jPolitical Stability§! of our mandate will §Rdecrease greatly§!. "
+ OFN_AFRICA_MANDATE_medium_stability_decrease_tt:0 "The §jPolitical Stability§! of our mandate will §wdecrease§!. "
+ OFN_AFRICA_MANDATE_small_stability_decrease_tt:0 "The §jPolitical Stability§! of our mandate will §gdecrease a little bit§!. "
+
+ OFN_AFRICA_MANDATE_huge_admin_increase_tt:0 "The §PAdministrative Hold§! we have on our mandate will §yincrease greatly§!. "
+ OFN_AFRICA_MANDATE_medium_admin_increase_tt:0 "The §PAdministrative Hold§! we have on our mandate will §Gincrease§!. "
+ OFN_AFRICA_MANDATE_small_admin_increase_tt:0 "The §PAdministrative Hold§! we have on our mandate will §Tincrease a little bit§!. "
+
+ OFN_AFRICA_MANDATE_huge_admin_decrease_tt:0 "The §PAdministrative Hold§! we have on our mandate will §Rdecrease greatly§!. "
+ OFN_AFRICA_MANDATE_medium_admin_decrease_tt:0 "The §PAdministrative Hold§! we have on our mandate will §wdecrease§!. "
+ OFN_AFRICA_MANDATE_small_admin_decrease_tt:0 "The §PAdministrative Hold§! we have on our mandate will §gdecrease a little bit§!. "
+
+ OFN_AFRICA_MANDATE_huge_money_increase_tt:0 "Our §OMonetary Reserve§! will §yincrease greatly§!. "
+ OFN_AFRICA_MANDATE_medium_money_increase_tt:0 "Our §OMonetary Reserve§! will §Gincrease§!. "
+ OFN_AFRICA_MANDATE_small_money_increase_tt:0 "Our §OMonetary Reserve§! will §Tincrease a little bit§!. "
+
+ OFN_AFRICA_MANDATE_huge_money_decrease_tt:0 "Our §OMonetary Reserve§! will §Rdecrease greatly§!. "
+ OFN_AFRICA_MANDATE_medium_money_decrease_tt:0 "Our §OMonetary Reserve§! will §wdecrease§!. "
+ OFN_AFRICA_MANDATE_small_money_decrease_tt:0 "Our §OMonetary Reserve§! will §gdecrease a little bit§!. "
+
+ OFN_AFRICA_MANDATE_huge_military_increase_tt:0 "The §LMilitary Hold§! we have over our territory will §yincrease greatly§!. "
+ OFN_AFRICA_MANDATE_medium_military_increase_tt:0 "The §LMilitary Hold§! we have over our territory will §Gincrease§!. "
+ OFN_AFRICA_MANDATE_small_military_increase_tt:0 "The §LMilitary Hold§! we have over our territory will §Tincrease a little bit§!. "
+
+ OFN_AFRICA_MANDATE_huge_military_decrease_tt:0 "The §LMilitary Hold§! we have over our territory will §Rdecrease greatly§!. "
+ OFN_AFRICA_MANDATE_medium_military_decrease_tt:0 "The §LMilitary Hold§! we have over our territory will §wdecrease§!. "
+ OFN_AFRICA_MANDATE_small_military_decrease_tt:0 "The §LMilitary Hold§! we have over our territory will §gdecrease a little bit§!. "
+
+ OFN_MANDATE_has_enough_admin_tt:0 "To start the decolonization process, our mandate needs to have at least §R50%§! §PAdministrative Hold§!."
+ OFN_MANDATE_has_enough_admin_CAR_tt:0 "To start the decolonization process, our mandate needs to have at least either §R90%§! §PAdministrative Hold§! or §LMilitary Hold§!."
+
+ ## Decisions
+
+ OFN_AFRICA_MANDATE_temporary_command:0 "OFN Interim Military Command"
+ OFN_AFRICA_MANDATE_temporary_command_desc:0 "The §jPolitical Stability§! of the mandate is currently [ROOT.GetMandateStability] ([?ROOT.OFN_MANDATE_rebel_stability|%1], [?ROOT.OFN_MANDATE_stab_decay|%1=+] per day).\nThe §PAdministrative Hold§! we have on the territory in our jurisdiction is currently [ROOT.GetMandateAdmin] ([?ROOT.OFN_MANDATE_administrative_hold|%1]).\n\nThe §OMonetary Reserve§! available to our military command is currently §G[?ROOT.money_reserves]M USD§!."
+
+ OFN_AFRICA_MANDATE_temporary_command_CAR:0 "OFN Interim Military Command"
+ OFN_AFRICA_MANDATE_temporary_command_CAR_desc:0 "The §jPolitical Stability§! of the mandate is currently [ROOT.GetMandateStability] ([?ROOT.OFN_MANDATE_rebel_stability|%1], [?ROOT.OFN_MANDATE_stab_decay|%1=+] per day).\nThe §PAdministrative Hold§! we have on the territory in our jurisdiction is currently [ROOT.GetMandateAdmin] ([?ROOT.OFN_MANDATE_administrative_hold|%1]).\nThe §LMilitary Hold§! we have on the territory in our jurisdiction is currently [ROOT.GetMandateMilitary] ([?ROOT.OFN_MANDATE_military_presence|%1]).\n\nThe §OMonetary Reserve§! available to our military command is currently §G[?ROOT.money_reserves]M USD§!."
+
+ OFN_AFRICA_MANDATE_incrase_mining_exploitation:0 "Increase Mining Exploitation"
+ OFN_AFRICA_MANDATE_seize_local_properties:0 "Seize Local Properties"
+ OFN_AFRICA_MANDATE_pacify_the_main_roads:0 "Pacify the Main Roads"
+ OFN_AFRICA_MANDATE_restore_order_in_the_countryside:0 "Restore Order in the Countryside"
+ OFN_AFRICA_MANDATE_replace_difficult_leaders:0 "Replace Difficult Leaders"
+ OFN_AFRICA_MANDATE_give_out_oil_exploitation_rights:0 "Give Out Oil Exploitation Rights"
+ OFN_AFRICA_MANDATE_subsidize_local_plantation_owners:0 "Subsidize Local Plantation Owners"
+ OFN_AFRICA_MANDATE_expand_local_chemical_plant_workforce:0 "Expand Local Chemical Plant Workforce"
+
+ OFN_AFRICA_MANDATE_CAR_incrase_mining_exploitation:0 "Increase Mining Exploitation"
+ OFN_AFRICA_MANDATE_CAR_seize_local_properties:0 "Seize Local Properties"
+ OFN_AFRICA_MANDATE_CAR_pacify_the_main_roads:0 "Pacify the Main Roads"
+ OFN_AFRICA_MANDATE_CAR_restore_order_in_the_countryside:0 "Restore Order in the Countryside"
+ OFN_AFRICA_MANDATE_CAR_replace_difficult_leaders:0 "Replace Difficult Leaders"
+ OFN_AFRICA_MANDATE_CAR_give_out_oil_exploitation_rights:0 "Give Out Oil Exploitation Rights"
+ OFN_AFRICA_MANDATE_CAR_subsidize_local_plantation_owners:0 "Subsidize Local Plantation Owners"
+ OFN_AFRICA_MANDATE_CAR_expand_local_chemical_plant_workforce:0 "Expand Local Chemical Plant Workforce"
+
+ MZB_USA_start_decolonization_process:0 "§YPrematurely§! Start the §BDecolonization§! Process"
+ COG_USA_start_decolonization_process:0 "§YPrematurely§! Start the §BDecolonization§! Process"
+ ANG_USA_start_decolonization_process:0 "§YPrematurely§! Start the §BDecolonization§! Process"
+
+ # Angola Decolonization
+ OFN_AFR_DECOL_ANG.0.t:0 "Organizing Angolan Decolonization"
+ OFN_AFR_DECOL_ANG.0.desc:0 ""
+ OFN_AFR_DECOL_ANG.0.a:0 ""
+
+ OFN_AFR_DECOL_ANG.1.t:0 "The Luanda Conference"
+ OFN_AFR_DECOL_ANG.1.desc:0 ""
+ OFN_AFR_DECOL_ANG.1.a:0 ""
+
+ OFN_AFR_DECOL_ANG.2.t:0 "The Luanda Conference - Government"
+ OFN_AFR_DECOL_ANG.2.desc:0 ""
+ OFN_AFR_DECOL_ANG.2.a:0 "Favor UNITA"
+ OFN_AFR_DECOL_ANG.2.b:0 "Favor the MPLA"
+ OFN_AFR_DECOL_ANG.2.c:0 "Create a weaker neutral government"
+
+ OFN_AFR_DECOL_ANG.3.t:0 "The Luanda Conference - Cabinda's Ressources"
+ OFN_AFR_DECOL_ANG.3.desc:0 ""
+ OFN_AFR_DECOL_ANG.3.a:0 "It will be operated by the OFN"
+ OFN_AFR_DECOL_ANG.3.b:0 "It will be nationalized"
+
+ OFN_AFR_DECOL_ANG.4.t:0 "The Luanda Conference - Independance Day"
+ OFN_AFR_DECOL_ANG.4.desc:0 ""
+ OFN_AFR_DECOL_ANG.4.a:0 ""
+
+ # Central Africa Decolonization
+ OFN_AFR_DECOL_COG.0.t:0 "Organizing Central African Decolonization"
+ OFN_AFR_DECOL_COG.0.desc:0 ""
+ OFN_AFR_DECOL_COG.0.a:0 ""
+
+ OFN_AFR_DECOL_COG.1.t:0 "The Léopoldville Conference"
+ OFN_AFR_DECOL_COG.1.desc:0 ""
+ OFN_AFR_DECOL_COG.1.a:0 ""
+
+ OFN_AFR_DECOL_COG.2.t:0 "The Léopoldville Conference - The Brazzaville Issue"
+ OFN_AFR_DECOL_COG.2.desc:0 ""
+ OFN_AFR_DECOL_COG.2.a:0 "Create a greater Orungu republic"
+ OFN_AFR_DECOL_COG.2.b:0 "Split Orungu in two"
+
+ OFN_AFR_DECOL_COG.3.t:0 "The Léopoldville Conference - The Congolese Government"
+ OFN_AFR_DECOL_COG.3.desc:0 ""
+ OFN_AFR_DECOL_COG.3.a:0 "A republican state under Ileo"
+ OFN_AFR_DECOL_COG.3.b:0 "A loyal regime under Kasa-Vubu"
+
+ OFN_AFR_DECOL_COG.4.t:0 "The Léopoldville Conference - The Future of the Dam"
+ OFN_AFR_DECOL_COG.4.desc:0 ""
+ OFN_AFR_DECOL_COG.4.a:0 "It will stay under OFN protection"
+ OFN_AFR_DECOL_COG.4.b:0 "It will have a special status"
+ OFN_AFR_DECOL_COG.4.c:0 "Its future will be left to Congo's leaderhip"
+
+ OFN_AFR_DECOL_COG.5.t:0 "The Léopoldville Conference - The Katanga Conundrum"
+ OFN_AFR_DECOL_COG.5.desc:0 ""
+ OFN_AFR_DECOL_COG.5.a:0 "Give Katanga to Congo"
+ OFN_AFR_DECOL_COG.5.b:0 "Recognize the autonomy of Katanga"
+
+ OFN_AFR_DECOL_COG.6.t:0 "The Léopoldville Conference - Independance Day"
+ OFN_AFR_DECOL_COG.6.desc:0 ""
+ OFN_AFR_DECOL_COG.6.a:0 ""
+
+ # East Africa Decolonization
+ OFN_AFR_DECOL_MZB.0.t:0 "Organizing East African Decolonization"
+ OFN_AFR_DECOL_MZB.0.desc:0 ""
+ OFN_AFR_DECOL_MZB.0.a:0 ""
+
+ OFN_AFR_DECOL_MZB.1.t:0 "The Quelimane Conference"
+ OFN_AFR_DECOL_MZB.1.desc:0 ""
+ OFN_AFR_DECOL_MZB.1.a:0 ""
+
+ OFN_AFR_DECOL_MZB.2.t:0 "The Quelimane Conference - The Mozambique Issue"
+ OFN_AFR_DECOL_MZB.2.desc:0 ""
+ OFN_AFR_DECOL_MZB.2.a:0 "Entrust the nation to Mondlane"
+ OFN_AFR_DECOL_MZB.2.b:0 "Bet on Machel"
+
+ OFN_AFR_DECOL_MZB.3.t:0 "The Quelimane Conference - Anglo Demands"
+ OFN_AFR_DECOL_MZB.3.desc:0 ""
+ OFN_AFR_DECOL_MZB.3.a:0 "Give them a spot in Zambia"
+ OFN_AFR_DECOL_MZB.3.b:0 "They will have nothing"
+
+ OFN_AFR_DECOL_MZB.4.t:0 "The Quelimane Conference - Bartoseland Proposition"
+ OFN_AFR_DECOL_MZB.4.desc:0 ""
+ OFN_AFR_DECOL_MZB.4.a:0 "The more stability, the better"
+ OFN_AFR_DECOL_MZB.4.b:0 "No, I didn't even know it existed"
+
+ OFN_AFR_DECOL_MZB.5.t:0 "The Quelimane Conference - Ugandan Conflicts"
+ OFN_AFR_DECOL_MZB.5.desc:0 ""
+ OFN_AFR_DECOL_MZB.5.a:0 "Idi Amin Dada is a fierce leader"
+ OFN_AFR_DECOL_MZB.5.b:0 "Support Okello's Gamble"
+
+ OFN_AFR_DECOL_MZB.6.t:0 "The Quelimane Conference - Independance Day"
+ OFN_AFR_DECOL_MZB.6.desc:0 ""
+ OFN_AFR_DECOL_MZB.6.a:0 ""

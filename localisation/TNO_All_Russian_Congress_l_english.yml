@@ -1,0 +1,386 @@
+﻿l_english:
+ #Tooltips
+ ARC_fortifying_the_country_tooltip:0 "§RBy taking this decision we will be prevented from sending volunteers for 24 days and cooperating with the other warlords will be difficult.§!"
+ ARC_the_ideal_worker_tooltip:0 "§YWe have a unique opportunity to spread propaganda amongst the proletariat of the other warlords, the question is if we will do so.§!\n"
+ ARC_wartime_industrial_expansion_tooltip:0 "§YWhile our industry is doing quite nicely that of our neighbors is lacking, we could help them or simply increase our own production to compensate.§!\n"
+ ARC_our_role_in_the_congress_tooltip:0 "§YWe have become the informally industrial powerhouse of the Union, this means however that we do not have a lot of men for manpower. We can keep this role, or take up the true role of defenders of Russia.§!\n"
+ ARC_were_open_to_new_ideas_tooltip:0 "§YIf we are expected to work with all these other warlords we can surely absorb some new ideas from their military, with their permission or not.§!\n"
+ ARC_equip_our_troops_first_tooltip:0 "§YWe must focus on equipping our own army first before we look at those of the other warlords, we cannot let our guard down even in these times of supposed cooperation.§!\n§MThis will spawn 3 infantry divisions in our capital.§!\n"
+ ARC_convincing_the_people_tooltip:0 "§YConvincing everyone to work with the other godforsaken dictatorships in Russia will require pulling a few strings but it is worth it so our people can remain free.§!\n"
+ ARC_convincing_the_generals_tooltip:0 "§YOur generals spend the last years fighting against other Russian warlords, it is only logical for them to be sceptical to fight alongside them.§!\n"
+ ARC_convincing_the_government_tooltip:0 "§YNot all in the government are convinced of working with the All-Russian Congress, we must do everything we can to convince them.§!\n"
+ ARC_together_against_the_goliath_tooltip:0 "§YWe have succeeded in convincing the nation to support the All-Russian Congress.§!\n"
+ ARC_together_against_the_goliath_unconvinced:0 "§RDamn the nation! The All-Russian Congress is our only means for survival and we will damn well work with it!§!\n"
+ ARC_an_alliance_in_name_only_unconvinced:0 "§RDamn the nation! The All-Russian Congress is a mere ploy by the scum that would see our freedom scraped from us just like the Germans would. We march for ourselves!§!\n"
+ ARC_an_alliance_in_name_only_tooltip:0 "§YWe have failed in convincing the nation to support the All-Russian Congress§!\n"
+ ARC_streamlining_the_congress_tooltip:0 "§YThe Congress was created quickly and thus has several problems carrying with it, we can easily streamline it and possibly increase support for our democratic values.§!\n"
+ ARC_fighting_on_the_hidden_front_tooltip:0 "§YThe bigger they are the harder they fall, this can certainly be said for the German war machine. By sabotaging their economy we can make sure the fall comes sooner.§!\n§YThe German GDP§! will §Gdecrease§! with 1.5B USD dollars.\n"
+ ARC_in_the_slave_camps_tooltip:0 "§YOur spies have made quite a few contacts in German slave camps, time to light the fires of rebellion.§!\n"
+ ARC_spread_fear_among_industrialists_tooltip:0 "§YBy making ourselves appear like an industrial powerhouse we can scare the bankers of Germany hopefully bringing down the collapse faster.§!\n"
+ ARC_everyone_must_do_their_part_tooltip:0 "§YIf we must carry the largest army of all the warlords then they damn well will send the men to keep that army going.§!\n"
+ ARC_follow_our_example_tooltip:0 "§YWe have set the example of how a nation should behave during wartime, now its time for the rest of the Congress to follow us.§!\n"
+ ARC_the_problem_of_equipment_tooltip:0 "§YBy focusing on the Army our industry has degraded, we will bring up the issue of equipment with the congress.§!\n"
+ ARC_the_problem_of_labor_tooltip:0 "§YWith the short term problem of equipment solved its time to look at the long term problem of workers, which we also lack due to the war.§!\n"
+ ARC_improving_recruitment_methods_tooltip:0 "§YThe recruitment methods of our allies are lacking to say the least and we have been granted permission by the congress to improve them.§!\n"
+ 
+ ARC_voting_tooltip:0 "Our current amount of votes is:[?ARC_personal_votes|Y0].\n§MThe unity of the §!§TAll-Russian Congress§!§M will change depending on the difference between the votes for and against.§!"
+ 
+ ARC_decrease_agriculture:0 "§ROur agricultural development will take a hit because of this.§!\n"
+ ARC_decrease_industrial_expertise:0 "§ROur industrial expertise will take a hit because of this.§!\n"
+ ARC_increase_industrial_expertise:0 "§RThe Industrial Expertise of every member of the All-Russian Congress will increase.§!\n"
+ ARC_calm_russians_minor:0 "§PPartisan activity§! will §gslightly§! decrease.\n"
+ ARC_calm_russians_medium:0 "§PPartisan activity§! will decrease by a §wdecent§! amount.\n"
+ ARC_calm_russians_major:0 "§PPartisan activity§! will face a §Rmajor§! decrease.\n" 
+ ARC_anger_russians_minor:0 "§PPartisan activity§! will §Lslightly§! increase.\n"
+ ARC_anger_russians_medium:0 "§PPartisan activity§! will increase by a §Ydecent§! amount.\n"
+ ARC_anger_russians_major:0 "§PPartisan activity§! will face a §Gmajor§! increase.\n"
+ ARC_recall_partisans_tooltip:0 "§YKeeping pressure behind enemy lines has become of secondary importance to our own survival, order some partisans to start rising up and move to our territory.§!"
+ 
+ ARC_unity_decrease:0 "§TThe All-Russian Congress§! will §Rfracture§! more.\n"
+ ARC_unity_increase:0 "§TThe All-Russian Congress§! will grow §Gcloser§! together.\n"
+ 
+ #Decisions
+ Russian_fall_rot_decisions:0 "Fall Rot"
+ Russian_fall_rot_decisions_desc:0 "The German Goliath is once again on Russian soil. Its foul tanks driving our people away and its planes striking without mercy. But this time it is different, this time the Russian people have learned from our past mistakes. Our nation, although shattered, has grown stronger in spirit. While we do not stand much of a chance alone against the German threat, there is a small chance that we could stand united.\n\n§PAnti German Partisan activity§! [ROOT.GetGGR_russian_population_anger]\n[ROOT.GetARC_unity]"
+ ARC_leader_increase_partisan_support:0 "Increase Partisan Support"
+ ARC_leader_invest_in_the_partisans:0 "Invest in the Partisans"
+ ARC_leader_blow_up_factory:0 "Blow up enemy factories"
+ ANC_pull_back_partisans:0 "Pull back Partisans"
+ 
+ ARC_unity_brink:0 "§TThe All-Russian Congress§! is on the §ebrink of collapse§!."
+ ARC_unity_low:0 "§TThe All-Russian Congress§! is §Rdisunited§!."
+ ARC_unity_medium:0 "§TThe All-Russian Congress§! is §Yunited but not stable§!."
+ ARC_unity_high:0 "§TThe All-Russian Congress§! is on the §Gunited and stable§!."
+ 
+ #Ideas
+ ARC_industrial_aid:0 "Industrial Aid"
+ ARC_industrial_aid_desc:0 ""
+ ARC_intense_rationing:0 "Intense Rationing"
+ ARC_intense_rationing_desc:0 ""
+ ARC_focus_on_tank_production:0 "Tank Production Focus"
+ ARC_focus_on_tank_production_desc:0 ""
+ ARC_focus_on_plane_production:0 "Plane Production Focus"
+ ARC_focus_on_plane_production_desc:0 ""
+ ARC_focus_on_industry:0 "Industrial Focus"
+ ARC_focus_on_industry_desc:0 ""
+ ARC_rapid_army_expansion:0 "Rapid Army Expansion"
+ ARC_rapid_army_expansion_desc:0 ""
+ ARC_standing_strong:0 "Standing Strong"
+ ARC_standing_strong_desc:0 ""
+ ARC_joint_military_staff:0 "Joint Military Staff"
+ ARC_joint_military_staff_desc:0 ""
+ ARC_proud_russian_army:0 "Proud Russian Army"
+ ARC_proud_russian_army_desc:0 ""
+ 
+ #Focus descriptions
+ ARC_our_commitment_to_the_people:0 "Our Commitment to the People"
+ ARC_our_commitment_to_the_people_desc:0 "Our worst fear has become true. Once more, the German army has invaded Russia. It is our job to make it the last. To hold off the German hordes, though, we will need a better military. We will start by improving the root of our armies, the industry! Those fit for service will be recruited for the front, while the rest will be put to work for their country and carry out their patriotic duty, knowing that this is the only way Russia can triumph against the invader.\n\nWith the industry sufficient to support it, the army will begin an expansion too. Even more shall be recruited, better training will be put in place, while improved equipment coming from the home front will also be put to use. We will use tanks, planes, bombs, whatever is needed. All these pieces of the puzzle need to be in place, for perhaps nothing else will save us from the Reich's menace."
+
+ ARC_the_pan_russian_defense_industry:0 "The All-Russian Defense Industry"
+ ARC_the_pan_russian_defense_industry_desc:0 "To enjoy success on the front, a strong war effort and military industry is required. While our nation possesses some capability of producing military equipment necessary for our soldiers, it is indisputable that it is limited in comparison with the total capability of the Russian lands still free from the German yoke. A cooperation between all members of the All-Russian Congress will surely lead to a much improved war industry, required for success."
+
+ ARC_dealing_with_scarcity:0 "Dealing with Scarcity"
+ ARC_dealing_with_scarcity_desc:0 "We, as a small part of the Russian nation, may not be able to maintain a massive war industry or possess all the resources required for a powerful army. However, we also cannot be expected to cooperate with those who have been our enemies for years. Few of our neighbors and allies are aligned with our ideology and goals, and most have only reluctantly agreed to join the effort to see the end of German rule in Russia. This is why we need to use what we have to our advantage, and avoid relying on those who could turn against us at any point."
+
+ ARC_treads_on_the_ground:0 "Treads on the Ground"
+ ARC_treads_on_the_ground_desc:0 "If there is one thing our eternal enemies, the Germans, have taught us, it is the effectiveness of Blitzkrieg. A strong armored force can be the key to overwhelming and breaking through the enemy's armies, and can give an advantage to those using it. The time has finally come, seeing as the vast lands of Russia are plains ideal for tanks, to make some more of them. Our numerous factories and our natural resources will be put to use, and the tanks produced will be given to the forces of the All-Russian Congress. Let us hope this will give us the edge we need in this war."
+
+ ARC_wings_in_the_air:0 "Wings in the Air"
+ ARC_wings_in_the_air_desc:0 "Every modern and developed nation in the world requires an air force as a vital part of its armed forces. Aircraft are incredibly flexible in war; they can drop bombs, support the ground troops, or ensure dominance of one side in the air. They have been used for decades, yet the Russian warlord states have barely touched them other than the Free Aviators, who bravely contested the Luftwaffe bombings for years. It is high time we focused more on our air force, producing more planes to help the Russian nation defeat the German hordes by any means possible."
+
+ ARC_the_backbone_of_the_congress:0 "The Backbone of the Congress"
+ ARC_the_backbone_of_the_congress_desc:0 "The brunt of the war effort continues to fall mostly upon our shoulders. While our Russian brothers struggle to get off their feet and put their piecemeal industries to much of any use, it is our factories, our workers, and our trucks that supply the brunt of equipment to the brave soldiers of the All-Russian Congress.\n\nIt is with this in mind that other members of the Congress suggest we invest more in our industry, devoting everything from small-scale workshops making wood to large plants producing toys for our children to the war effort. Old, abandoned Soviet factories have been mapped out and marked for redevelopment to provide for the combined armies of Rossiya! We will not lose again!"
+
+ ARC_pool_the_work_forces:0 "Pool the Work Forces"
+ ARC_pool_the_work_forces_desc:0 "It has become abundantly clear to all members of our Great Congress that working with a decentralized industry, regardless of prevailing ideology, will surely lose us this Great Patriotic War! It is with the absolute necessity victory in mind that a recent convening of the congress returned with a strong "yes" to a motion to centralize the bureaucratic machinery that powers the cogs of the war effort!\n\nIn order to slicken the bureaucracy, it seems the first step is to strengthen it. The All-Russian Department of Military Industry (Vserossiyskoye upravleniye voyennoy promyshlennosti or Vserupvoypro) has been created out of a conglomeration of representatives from the industrial heads of every nation making up the Front. This organization will have power over the military industries of every member state of the Front. They will make decisions regarding the allocation of labor forces across the many factories that fuel the brave soldiers on our front lines."
+
+ ARC_integrate_the_industries:0 "Integrate the Industries"
+ ARC_integrate_the_industries_desc:0 "The Vserupvoypro, the Congress's supreme industrial body,has issued its first order; integrate the industries of the All-Russian Congress! A communique released after their first of many meetings stressed the importance of the centralization of war industry. This includes a complete overhaul of the way most of these nations have run their industry (in the form of tables, rail schedules, and job positions) in favor of doing the things the way we do.\n\nTrain schedules will be universal, to ensure the correct equipment arrives on time. Motor cargo will be organized into teams. Unnecessary bureaucratic positions will be liquidated and inefficient oligarchs sacked in favor of hardworking statisticians and minimal bureaucracy. It is necessary that all Russians come closer together, regardless of ideology, to combat further the disgusting beast that is the German Beast!"
+
+ ARC_the_ideal_worker:0 "The Ideal Worker"
+ ARC_the_ideal_worker_desc:0 "In these trying times, there is no place for substandard labor. Extraordinary circumstances call for extraordinary workers! Anyone who is "just meeting expectations" is falling terribly behind! All must follow the example of our workers, who stay in the factories from dawn till dusk, working overtime and far exceeding quotas with their payment being: an hour overtime a German killed! Every extra percent a factory overfills quotas is an extra artillery shell thrown at a German soldier, another dozen brave Russians fully equipped to combat the Nazi scum! This All-Russian Congress has approved our propaganda wing to begin operating throughout the whole congress, spreading this idea of an "Ideal'nyy rabotnik" or Ideal Worker throughout the entirety of Russia. Anything to win this war! Advance, brave workers of Rossiya!"
+
+ ARC_wartime_industrial_expansion:0 "Wartime Industrial Expansion"
+ ARC_wartime_industrial_expansion_desc:0 "It has been made clear by generals reporting shortages of ammunition, equipment, and spare parts at the front that we must make it a top priority to reinforce our military industry. Labor battalions have been given orders to turn everything, anything, into new factories and manufactories. Warehouses, barns, gymnasiums, garages. Can it fit an assembly line putting together manufactured parts into tools of liberation? Put one in.\n\nThis expansion is not only one of more factories, but these new factories will need more workers. Our administration has decided it is acceptable to allow schoolchildren and those traditionally considered unfit for factory labor (mostly women) to be thrust into the workforce in order to staff these new buildings. A week will be taken off of the weekday from schoolchildren's studies to instead be spent in the factories keeping their fathers and older brothers at the front going strong."
+
+ ARC_our_role_in_the_congress:0 "Our Role in the Congress"
+ ARC_our_role_in_the_congress_desc:0 "While we have made many attempts to strengthen the industries of our allies, ours remains the strongest by a wide margin. This means that now only one out of every two guns goes to one of our soldiers, who are of course the bravest and most devoted to our motherland. This leaves us with a dilemma: we could continue to merge our industries with the Congress, making the whole front stronger; or we could prioritize our own forces, strengthening those of the driving force of the Congress.\n\nNo matter what we do there will be consequences, but is that not the point? War is sacrifice, and in this time it is up to you to decide: which sacrifice will bring the most good to our fledgling alliance defeat the invader?"
+
+ ARC_were_open_to_new_ideas:0 "We're Open to New Ideas"
+ ARC_were_open_to_new_ideas_desc:0 "The war has proven no easy task. Ever since the beginning our generals have been scrambling to find new tactics to force back the Hun. It has been suggested that we speak to our newfound "allies" of the Front to discuss new tactics, and even invest more of our precious wartime money into military studies. Of course, this would also present a fantastic opportunity for gathering more... intel about our neighbors.\n\nDoing this would include the creation of a special congress of the military advisors and chiefs of staff of our respective nations. This would give them a fantastic opportunity to discuss successful and failing tactics. This intimate sharing of somewhat secretive military strategies may be a great chance for us to prepare for a more chaotic future."
+
+ ARC_equip_our_troops_first:0 "Equip Our Troops First"
+ ARC_equip_our_troops_first_desc:0 "It is soldiers of our army who give their lives more than any other Front force every day for the preservation of our motherland. It is only logical, then, that they get the best equipment. While it is important we supply our fellow Russians, we must remember that some of these other nations follow abhorrent ideologies and that the second this war ends we will most likely be in no better place than before it began. Is this not true?\n\nThis is the talk that we hear throughout our government. They make a good point: who can we trust better than troops commanded by us to make the best use of our equipment? While there are obvious downsides, it seems this is the right call."
+
+ ARC_our_commitment_to_freedom:0 "Our Commitment to Freedom"
+ ARC_our_commitment_to_freedom_desc:0 "There is nothing more important to us than the freedom and democratic potential of all-Russian people. While not all of our new "allies" agree with this, it is more than necessary that we let all Russians know that we will stop at nothing to defend the future: a Free Russia. It is important that during these trying times, times in which our very identity as Russians and democratizers will be put to the test, that we remain true to our cause and under no circumstances let our commitment to freedom and the democratic processes dwindle.\n\nThe war we have dreaded for so long has begun again, a war that robbed the Russian people of the one thing they had left twenty years ago: unity. It is time that we, through our new partners in the Congress must maneuver through this chaotic environment, and perhaps, in trying, spread our system to the rest of Russia."
+
+ ARC_convincing_the_people:0 "Convincing the People"
+ ARC_convincing_the_people_desc:0 "Not all of the populace is as convinced as we are about the legitimacy, pragmatism, or potential for a better Russian future that come with our membership in the All-Russian Congress. To be fair, they do have a good point. How much of a betrayal is it to our ideals to join in arms with fascists, bolsheviks, and despots? Is assisting them in this war really the only course of action? Are there no other alternatives?\n\nIt will certainly take some time to convince our people, but with enough time (and propaganda, it is sure) it is no question that they will come to see it our way. Russia currently faces a more existential threat than any before. Previous wars have only been buildup to this final conflict: it is here we save Russia, or watch the last vestiges of it disintegrate. It is up to us, our government, our people, to create a Free Russia for our people!"
+
+ ARC_convincing_the_generals:0 "Convincing the Generals"
+ ARC_convincing_the_generals_desc:0 "It has come to our attention that among our commanding staff there are those that are not so sure about the necessity of the ARC. In order to have a unified army, it is important that we convince them that they are wrong, and that the Front is a necessary and good project that may even allow us a faster route of freeing Russia.\n\nPropaganda will be spread amongst our commanding officers and those that are having their doubts will be allowed to speak with our top politicians who helped engineer the Congress. For, without the help of the Russian Generals, Russia will never be free!"
+
+ ARC_convincing_the_government:0 "Convincing the Government"
+ ARC_convincing_the_government_desc:0 "Despite our best efforts to convince the people and the generals, we have always known that much of our government is still against the idea of ARC. They fail to see that yes, while we are uniting in a coalition of fascists, communists, and nationalists, we also align ourselves with all of the Russia people and that through this action it is plainly obvious we can win their hearts and minds.\n\nHowever, it is impossible to do this without our government on our side. While this may be a war, we cannot stray from our ideals of democracy and it is important that every internal action we take is in accordance with our steel beliefs. Freedom to Russia!"
+
+ ARC_together_against_the_goliath:0 "Together against the Goliath"
+ ARC_together_against_the_goliath_desc:0 "This conflict is an existential one for all of Russia. It is not a choice to work together, it is an absolute necessity. We face together the combined forces of the most aggressive, most hardened, and possibly even the strongest nation in the world with nothing but ourselves and our fellow Russians. It should surprise no one, then, that we will have to work closer than ever with our Congress members. By opening new channels of communication, opening up our infrastructure to them, and supporting them militarily we will without a doubt win this new War of Independence. We fight with and for our fellow Russians, and with that power we cannot lose!"
+
+ ARC_march_for_the_nation:0 "March for the Nation"
+ ARC_march_for_the_nation_desc:0 "As the war continues there is nothing that we need more than men. Guns can be bought, oil can be procured, and alliances can be manufactured, but there is one resource that without you will never win a war, and that is manpower. We find ourself in a critical shortage of this critical resource and so, in the name of democracy, in the name of Russia, in our march for our nation, the Congress has passed the necessary measures to begin a draft.\n\nWe fight not for any warlord, or any ideology full of their false promises. No, we march for one thing that is our nation. All across Russia men will report to the towns, the cities, the barracks, and they will begin to march to their front. While they serve a warlord, they really serve the Russian nation, the Russian people. Without support from all of Russia and a true fraternal brotherhood, it is uncertain whether our experiment will truly survive. To a Free Russia!"
+
+ ARC_streamlining_the_congress:0 "Streamlining the Congress"
+ ARC_streamlining_the_congress_desc:0 "Despite how important the Congress seems to the struggle against the Nazis, the truth is it is far from an organized united front. Right now, it would be more accurate to say that it is a hastily created, fragile alliance between the warlord states. To increase its effectiveness, we must improve its organization and its functions. We will convince the warlords to sign an agreement, even if they are reluctant, promising greater cooperation between the member states and a proper, periodical conference between them to better organize our strategy."
+
+ ARC_anti_german_propoganda_campaigns:0 "Anti-German Propaganda Campaigns"
+ ARC_anti_german_propoganda_campaigns_desc:0 "In our glorious fight against the enemy, it is necessary to gather the support of the people. Of course, many are fully supportive of our efforts, yet some aren't convinced or do not care enough. To make sure that everyone is on our side, we shall embark on a propaganda campaign. The message shall be spread through the media, through newspapers and articles, through leaflets and posters. We will show that the Germans are ruthless, that they believe our nation is inferior and that they won't stop until every single one of us. Every Russian citizen must be supportive of this war."
+
+ ARC_fighting_on_the_hidden_front:0 "Fighting on the Hidden Front"
+ ARC_fighting_on_the_hidden_front_desc:0 "To win against the Germans, we cannot only fight on the frontlines. The German economy is a key, especially as it becomes more and more fragile with the invasions of Hermann Göring. We can use that to our advantage, doing what we can to destroy the German economy. The occupied Russian territories will be destabilized and their economy destroyed, while we will spread fear in the economic elite of the Reich. With that, we might gain an edge in the war."
+
+ ARC_in_the_slave_camps:0 "In the Slave Camps"
+ ARC_in_the_slave_camps_desc:0 "Years ago, the Nazis took their unimaginable atrocities to a whole new level; they enslaved our people. Across occupied Russia, millions of "subhumans" became parts of an inhumane system that was thought to be extinct. The time has passed by, and yet this continues with no end in sight. Now, it is time to do what Spartacus did millennia ago, and that is a revolution of the slaves. They will be encouraged to turn against those who have oppressed them for years, and take part in the revolution against the Nazi system. Hopefully, this will be a blow to the already unstable economy of the German territories in the east."
+
+ ARC_spread_fear_among_industrialists:0 "Spread Fear among Industrialists"
+ ARC_spread_fear_among_industrialists_desc:0 "It would be a big advantage for our cause if the economy of Germany and its satellites continued its economic decline, spiralling downwards and crashing. While we obviously cannot control it in its entirety, we can influence it in our own way. Information will be "leaked" and spread in Germany, about the economic trouble that the war could cause, especially if it continued. Hopefully, the bankers and businessmen will be scared and panic, throwing the German economy further into disarray."
+
+ ARC_an_alliance_in_name_only:0 "An Alliance in Name Only"
+ ARC_an_alliance_in_name_only_desc:0 "The foundation of the All-Russian Congress seemed to be a monumental step in the resistance of the Russian nation against the enemy for a third time in recent history. Still, this has not magically mended the divisions between the warlord states ruling the country, and it is unlikely that all member states will give up everything in favor of unity against the Germans. Unfortunately for us, the people have caught on to this. Many have criticized the Congress, questioning its functionality and believing it is unnecessary. Further integrating with and making ourselves reliant on the Congress might only bring negative results for us, and therefore, we must go on our own, only paying lip service to the congress the Russian people have lost their trust in."
+
+ ARC_march_for_democracy:0 "March for Democracy"
+ ARC_march_for_democracy_desc:0 "As the war continues, our boys die in the frontline, fighting the Germans. While we are doing our part in defending, it has become necessary to increase our numbers of troops, and therefore, we must expand our conscription. Of course, this might not sit well with some, or even most people within our domain. For this reason, we will begin a new round of propaganda; we will claim that joining the army is the only way to save our nation, and we must do everything possible to defend."
+
+ ARC_wartime_measures:0 "Wartime Measures"
+ ARC_wartime_measures_desc:0 "It has once again become necessary to defend our nation from invaders. However, we must not fall for the same mistake that the traitor Nikolai Bukharin fell for; industrialization is a key to victory on the battlefield. As we are already in a war, our time to act is limited, and therefore we must boost our war effort in the quickest way possible. Therefore, factory production must be increased, through quotas, improved machinery and equipment, or whatever else it takes to improve our war effort."
+
+ ARC_the_issue_of_spies:0 "The Issue of Spies"
+ ARC_the_issue_of_spies_desc:0 "The cruel reality is that in our state, much like in other warlord states in the region, there is a surprising number of foreign intelligence operatives. They may be from Germany or from other Russian warlords, but either way, we cannot let them continue operating when they can quickly become a threat to our sovereignty. We must conduct thorough investigations to find who in our country might be operating on the orders of a foreign government. Anyone could be a suspect, and we must find them."
+
+ ARC_our_commitment_to_the_war:0 "Our Commitment to the War"
+ ARC_our_commitment_to_the_war_desc:0 "Just like other states across the Russian lands, we have agreed to do everything we can to help stop the German menace. Now, it is time to fulfill that promise, as we will begin a total mobilization. Our reserves will be called up to serve on the frontline, while other able men at home will be drafted to join the cause. Everyone who can fire a rifle will be conscripted, in the name of fighting against the Nazis that have oppressed millions of our people. Hopefully, our people will reply to the call, and together, we will fight the enemy with everything we have."
+
+ ARC_rallying_the_cities:0 "Rallying the Cities"
+ ARC_rallying_the_cities_desc:0 "Conscripting everyone is not an easy or simple job. To achieve that, a concentrated effort must be made. In the urban areas, were thousands live, conscripting stations will be set up, and there, all who have to join the army will do just that, even if some are not excited at the prospect of fierce combat. They will soon understand that this is a necessary measure for the good of the country."
+
+ ARC_call_to_the_workers:0 "Call to the Workers"
+ ARC_call_to_the_workers_desc:0 "The working class forms a large part of our nation's citizens, and despite their hard work in the factories, there is a way they can offer even more into the war effort, and that is conscripting into the army itself. Of course, we understand that such a conscription drive could be a hit to our industrial capacity, but it will be relatively insignificant in comparison with the benefits of having more troops on the battlefield. While our manpower might shrink day by day, this might be a solution, even a temporary one."
+
+ ARC_rallying_the_villages:0 "Rallying the Villages"
+ ARC_rallying_the_villages_desc:0 "Russia has traditionally been a rural country. It is an indisputable fact that many of our citizens do not live in the big cities, but in small towns, villages and farms dotted across the countryside. In our search to increase our numbers, we must approach these people as well. Officials will roam these small communities, finding those able for military duty and recruiting them to the Russian armed forces. No one must be exempt from helping their country."
+
+ ARC_call_to_the_farmers:0 "Call to the Farmers"
+ ARC_call_to_the_farmers_desc:0 "The thousands of proud Russian people working in the farms are definitely an important part of the economy, if not the backbone of our state's agriculture and food production. Even though they might be the ones to bring food to our soldiers and at home, our situation is dire and soldiers are a precious resource. We need more people in our army, and most of these farmers are able to fight with some basic training. It is a sacrifice, but one we must make to help our chances of survival."
+
+ ARC_we_will_overcome:0 "We Will Overcome"
+ ARC_we_will_overcome_desc:0 "Russia's army might not be the biggest and most elite army in the world. We might not be the most technologically advanced, and our soldiers might not be the most experienced. Many of our troops are too old, or too young, and many are inexperienced. Some have never touched a rifle before. Still, our army is proud and ready to defend its motherland. Even though we might face numerous hurdles on the way to salvation and victory, we can do nothing but overcome them."
+
+ ARC_everyone_must_do_their_part:0 "Everyone Must Do Their Part"
+ ARC_everyone_must_do_their_part_desc:0 "The Congress' core function was always to increase cooperation between all the different Russian states. One field that we did not expect to have a problem in was our manpower; perhaps, the Congress can save us. It is time to see if they could provide some help in this problem, by asking if possible for other members to send conscripts they have recruited to us. Hopefully, we will make them understand our dire situation and our plead for aid will be successful."
+
+ ARC_follow_our_example:0 "Follow Our Example"
+ ARC_follow_our_example_desc:0 "As the German threat looms, our nation has done so much, punching above their weight, to mobilize and fight the invaders. We have done everything to gather soldiers, weapons, equipment and more, yet it seems to us as if other warlord states are not pulling their weight. Of course, this is not ideal for the defense of Russia. Therefore, we will make a demand from our allies in the Congress to expand their defensive efforts to meet our standards, in the name of keeping our nation alive and free."
+
+ ARC_you_can_do_more_than_this:0 "You Can Do More Than This"
+ ARC_you_can_do_more_than_this_desc:0 "As the situation necessitates even more of a commitment from every Russian authority not under the heel of a foreign power, our demands for their war effort must expand too. We will pressure our fellow allies to continue ramping up their mobilization, specifically their conscription; even though the men they will recruit might not be the best, manpower is critical in this war. These warlords will need to work for the greater good of the country, and their army shall be expanded whether they want it or not."
+
+ ARC_the_grunts_of_the_congress:0 "The Grunts of the Congress"
+ ARC_the_grunts_of_the_congress_desc:0 "It has become clear: we are the hole from which the Front draws their men, their human fuel. Without us, perhaps this front would be bereft. All across the long front lines drawn across Western Russia the men, the boys, the grandfathers that die every day are from none other than cities, towns, and villages of [ROOT.GetName]. While we could object to this, it seems that this label is only natural to us. It is our choice whether to force our fellow Congress members to pull more weight, or to accept this newfound natural position at the head of our military effort. Russia, forward!"
+
+ ARC_the_problem_of_equipment:0 "The Problem of Equipment"
+ ARC_the_problem_of_equipment_desc:0 "The size of our army carries with it a number of issues. The most obvious one is naturally the problem of supply. While we may have thousands upon thousands of men at our disposal, this means nothing if we do not do everything in our power to adequately support them with the tools of war: guns, ammunition, and supplies. We must solve this, and soon.\n\nWe are faced with options. While we are part of the All-Russian Congress, it is questionable whether our soldiers, who do most of the fighting, should receive equal amounts compared to other, less active fronts. We could enrich our own supplies, giving us more to work with but jeopardize our relations in the Front, or we could focus our procurement internally and allow resources to flow equally unstopped."
+
+ ARC_the_problem_of_labor:0 "The Problem of Labor"
+ ARC_the_problem_of_labor_desc:0 "War, as war does, has brought everyone into it. While once our factories were full and produced at full efficiency, as men from the factories left to go to the frontline they have waned, with some producing half or even less than they should be. This problem cannot go unsolved. It is our duty to find a solution that will better allow the men at the frontlines of our nation's great struggle to fight back against the Hun.\n\nWe could either help all of the Front nations improve their workforces, sharing with them new methods, allowing them to inspect our factories, or we could devote all of our interests into strengthening the core of [ROOT.GetName]. We must weigh the pros and cons of our choices to solve this dilemma."
+
+ ARC_assist_the_stragglers:0 "Assist the Stragglers"
+ ARC_assist_the_stragglers_desc:0 "As our men bravely fend off wave after wave of National Socialist invaders, it has come to our attention that not all nations of the front share our soldiers impressive abilities. We are the backbone of the front and our capabilities far outshines most others, something that while good for us undermines the strength of the front. We must help them.\n\nHow should that be done? We will send advisors, cooperate with their generals, help train their new recruits. Yes, it will cost us in supplies, but in this war we are not the only nation fighting. It will be a risk, but with a new, invigorated Front army to support us in our war against the invader, we will be twice as strong. Men of Russia, forwards!"
+
+ ARC_joint_military_command:0 "Joint Military Command"
+ ARC_joint_military_command_desc:0 "Certain... incidents have been observed during this war. Formations from one front member attack while others watch, artillery bombards friendly positions, trains full of supplies are put right in the face of supply deficient divisions. These have all happened many times, and these are only the ones we have observed. This must be stopped, and the only way to ensure that is to create an All-Russian Joint Military Command.\n\nWe shall propose to our members of the front a wartime necessity: a joint military command led by our generals in conjunction with those of the All-Russian Congress. By doing this we will be far more able to coordinate a strong defense and eventually offense to preserve the great and pure Russian nation!"
+
+ ARC_improving_recruitment_methods:0 "Improving Recruitment Methods"
+ ARC_improving_recruitment_methods_desc:0 "There are scant few men left in our brave nation whose lives still are not entirely devoted to the cause of the Russian people. In the villages, towns, and cities, most of their male populations now live on the front. This cannot be said of our allies in the Congress, however. While chunks of volunteers or those that couldn't pay the conscription bribe sit in foxholes across Western Russia, many of their men work in the fields, not knowing the true glory that is serving the people of Russia above all others.\n\nThis will not be allowed. After making our case to the congress, it will become obvious to them that they must up their conscription, clamp down on corruption, and increase recruitment propaganda. We will send our recruiters to them and then make our case as the true stewards of the future of Russia, a Russia for Russians, unadulterated by the Hun and their collaborators. Remember, all men of Russia, to the front!"
+
+ ARC_the_proud_russian_army:0 "The Proud Russian Army"
+ ARC_the_proud_russian_army_desc:0 "While walking through the campfires in a forest after the skirmishes have died down, inspecting foxholes after a particularly hard artillery barrage, or in the bunkers as the stench of chemical gas hovers meters above the ground, our men sing. They sing and they pray for a Russia where all pure Russian men and women may have a country to themselves, where they are all equals under the great Moscow sun. With these beliefs chambered in their hearts like the bullets in their guns, they are an almost unstoppable force.\n\nFighting the Germans for all this time has birthed from it a new spirit, a Russian spirit. As soldiers, their skin rough, their brows furrowed, and their spirits hardened by their veterancy, march into battle they find within themselves that they are no longer fighting for some town in the Urals or a city in West Russia, but for all the people from St. Petersburg to Vladivostok."
+ 
+ ### ARC events ###
+ ARC.2.t:0 "Russia Still Stands"
+ ARC.2.desc:0 "For fifty days our forces have beat the odds and stemmed the German tide. Göring's overconfident forces have become bogged down and are being opposed at every turn not only by our regular forces, but by spontaneous uprisings of the people. The heroism and dignity of the common Russian has held back the Hun's bayonet.\n\nHowever, a few members of our high command have examined our current situation, and their analysis is grim: supplies are growing thin, and the miracle we have experienced so far cannot last forever. We must face reality, they say - while we claim to be the legitimate government of all Russia, by any rational assessment we are simply a warlord state, and increasingly some within our high command are arguing that we lack the resources to take on a superpower alone. They call for an unprecedented move - reaching out to our rivals across Russia and forming a coalition to bring all of the country's resources to bear against the Teutonic hordes. Yet, it goes without saying that this would be politically costly and would risk putting too much trust in our enemies within Russia itself. Collaborating with our rivals could very well doom our vision of a united Russia to failure. But failing to do so could imperil the very idea of Russia itself.\n\nThis proposal has sparked a tremendous controversy within our faction's ranks, and a decision must be made."
+ ARC.2.a:0 "Form the coalition. We will stand together."
+ ARC.2.b:0 "Only we can save Russia. We fight alone."
+ 
+ ARC.3.t:0 "The West has Fallen"
+ ARC.3.desc:0 "Under any other circumstances, the news of the total destruction of our rivals to the west would be cause for jubilation. Yet, the news that the German Wehrmacht has already subdued western Russia, on a timetable exceeding even the most liberal of estimates, only means one thing - we are next on the firing line, and we must face Führer Göring's gun alone.\n\nOr perhaps we need not go alone.\n\nConsidering the dire circumstances, it seems reasonable that our rivals elsewhere in Russia - as hostile to us as they may be - might be amenable to some sort of temporary coalition to push the wolf back from our collective doorstep. Doing so would involve putting a questionable and quite possibly excessive amount of trust in them. But, at the same time, if we could assert a leading role in such a coalition of all Russians, the opportunities to advance our own agenda could be numerous.\n\nYet, many of our generals argue that we can go it alone. Speaking of the readiness and training of their men and the might of our forces, along with the harshness of the terrain, they assert that we are more than capable of ending Herr Göring's little military adventure where others have failed, and proving once and for all that we are the rightful government of all Russia."
+ ARC.3.a:0 "Form the coalition. We will stand together."
+ ARC.3.b:0 "Only we can save Russia. We fight alone."
+ 
+ ARC.4.t:0 "A Modest Proposal"
+ ARC.4.desc:0 "Today, our government received something highly unusual - diplomatic mail. Above-the-table, formalized diplomacy is not something that comes often, if at all, on the windswept steppes of warlord Russia. Our leaders have become accustomed to being addressed with disdain by other warlords, as a king would speak to a pretender to his throne. Yet today's arrival actually treated us like a sovereign government, for once - perhaps speaking to the desperation of those sending it.\n\n"To the Leadership of the [Root.GetNameDef]:\n\nOur nation is once again threatened by the German behemoth. The Hitlerite beast is now at our door, and, try as we might, no single one of us can stem the Nazi tide alone. We have different beliefs and ideas of what Russia is and what it should be. But we are all Russians. We are but branches of the same tree, children of a lineage of a thousand years of hardship and triumph. The All-Russian Congress is exactly what it sounds like - a coalition of other warlords intended to bring the full resources of this nation and land we share to bear against the German war machine. Russians have only ever been victorious when standing together. We pray that you will stand with us in our fight to save Russia.""
+ ARC.4.a:0 "We will stand together." 
+ ARC.4.b:0 "No. Flattery cannot make this proposal sensible." 
+ 
+ ARC.5.t:0 "[From.GetNameDef] Joins the Congress"
+ ARC.5.desc:0 "[From.GetNameDef]'s leadership has seen the light. No doubt swayed by the threat posed by Göring's invasion, they have agreed to join the All-Russian Congress and provide their forces for the common defense of all Russia. Though it remains to be seen as to how materially they will actually contribute to the war effort, this, at the very least, bodes well for the All-Russian project."
+ ARC.5.a:0 "Strength in numbers."
+ 
+ ARC.6.t:0 "The Congress is Formed!"
+ ARC.6.desc:0 "At long last, our rivals have seen the wisdom of our project to defend all Russia against the German threat. Today, in a packed hall in [Root.Capital.GetName], representatives of several of Russia's warlord states made a firm commitment to fight side-by-side in order to repel the invasion. Our government's propagandists have already hailed this as a shining victory of [Root.GetAdjective] diplomacy, and an undeniable display of our destiny to one day become Russia's one and only government.\n\nCynics, of course, have been quick to suggest that holding our rivals to the commitments they made today will be harder than it sounds, and that getting so many different governments, militaries, and militias to actually cooperate may be akin to herding cats. After all, as one general wryly commented, today's agreement is nothing but a piece of paper, and we live in a country where illiteracy runs rampant. But, for today, at least for a moment, optimism and idealism reigned, as we took a moment to remember that despite our political differences, we are still all Russians."
+ ARC.6.a:0 "God save the Congress! God save Russia!"
+ 
+ ARC.8.t:0 "[From.GetNameDEF] wants to Join!"
+ ARC.8.desc:0 "Despite their initial opposition to the plan, [From.GetNameDEF] seems to have come around to our way of thinking, and today submitted a formal request to join the All-Russian Congress. Many are skeptical of their sudden change of heart, but it cannot be denied that there is strength in numbers."
+ ARC.8.a:0 "Welcome aboard... friends?"
+ ARC.8.b:0 "They cannot be trusted."
+ 
+ ARC.9.t:0 "The Congress rejects Our offer!"
+ ARC.9.desc:0 "Our humble request for membership in the All-Russian Congress has been denied! Whether this is the result of our initial opposition to the project somehow poisoning relations, or the product of some political intrigue, this is a grave insult and an unconscionable betrayal of the pan-Russian ideals the Congress claims to represent."
+ ARC.9.a:0 "We are better off without such "friends"."
+ 
+ ARC.10.t:0 "The Congress accepts Our offer!"
+ ARC.10.desc:0 "No doubt eager to add our formidable strength to their own, the All-Russian Congress has formally accepted our request for membership, and has declared us a full member of the coalition against the German invasion. This marks a great step forward in our government's foreign policy, and confirms our position as a force to be reckoned with in the chaotic Russian political theater."
+ ARC.10.a:0 "United we stand, divided we fall."
+ 
+ ARC.11.t:0 "The Torch of Leadership Has Been Passed"
+ ARC.11.desc:0 "With the recent collapse of [ARC_leader.GetNameDEF], until now the de facto leader of the Congress, the task of leading the coalition has fallen to our government. As [ARC_leader.Capital.GetName] falls silent and is claimed by the ravages of history, our state is presented with a task that is at once a titanic burden but also an opportunity of astounding magnitude. If we succeed where [ARC_leader.GetNameDEF] failed, our government will no doubt take a preeminent place in the struggle to reunify Russia. If we fail, however..."
+ ARC.11.a:0 "God save the Congress. God save Russia."
+ 
+ ARC.12.t:0 "The Ideal Russian Worker"
+ ARC.12.desc:0 "As the Congress coordinates its efforts to build a unified propaganda campaign bringing all Russians together, a rather ...unique opportunity has presented itself to us. A key aspect of the campaign is the creation of an ideal of the "Russian worker" to motivate the civilian population to help with the war effort. Such Congress-sanctioned propaganda will no doubt see distribution across all of Russia, and the chance for socialists such as us to spread our way of thinking to workers toiling under reactionary regimes across Russia is undeniable, and could lay the foundation for a postwar campaign to reunite the whole country under our leadership. Of course, adding socialistic undertones to Congress propaganda would naturally strain relations between us and our rivals, possibly to the detriment of the war effort as a whole..."
+ ARC.12.a:0 "Russia comes before political agendas. Maintain neutrality."
+ ARC.12.b:0 "We cannot pass this opportunity up."
+ 
+ ### 13
+ 
+ ARC.13.t:0 "Industrial Cooperation"
+ ARC.13.desc:0 "Across our state, industrialization has begun! Admittedly, it is not the slow-paced industrialization that one would expect for a partly underdeveloped economy, but a much faster one. This is necessary, for the Wehrmacht will not be waiting for us to boost our industry.\n\nAnd as our assembly lines and the workers only grow in numbers, the All-Russian Congress has noted our progress. In fact, they have approached our government, to discuss a joint program of industrial expansion. With such a project, not only would we help other warlord states with their war economy, but we would also receive additional support from them. This could include getting resources hard to find in the territories we control, technological and industrial experts coming to our country, and more.\n\nOf course, just like with most business involving the Congress, the isolationists in our government have immediately spoken against this, and have issued a counter-proposal for expansion of factories and production in only our country, focusing on autarky. What program will we choose?"
+ ARC.13.a:0 "Work with the Congress."
+ ARC.13.b:0 "Expand only our own industry."
+ 
+ ### 14
+
+ ARC.14.t:0 "Expanding Our Army"
+ ARC.14.desc:0 "Throughout the war against Germany, our role in the All-Russian Congress has proven to be an important one, as we have become one of the biggest cogs in this complex machine. Our industry has proven to be, by a large margin, the biggest one in the united front. The people work hard in the factories and do their best to help the Congress in any way possible, and this has paid off.\n\nOf course, it seems beneficial that we have become the greatest industry in the alliance. From the start of the process, mining the resources needed, to its end, equipping the men with guns and tanks, no one can match us in numbers and production. However, this has not necessarily been beneficial for our own state. We have found ourselves sending more and more equipment to other warlords that need it more than us in the fight. This has been happening to the point where our own army has begun to face shortages in equipment and other necessities.\n\nWe need to finally decide what our place in the Congress and its war effort will be. One choice is to maintain the status quo, and continue supporting our Russian brothers with arms at the cost of our own military. On the other hand, we could isolate ourselves more, significantly lowering shipments and keeping all our valuable industrial products to ourselves for the sake of fighting the enemy."
+ ARC.14.a:0 "Continue to be the main arms supplier."
+ ARC.14.b:0 "Keep our production to ourselves!"
+ 
+ ### 15
+ 
+ ARC.15.t:0 "Rallying the People"
+ ARC.15.desc:0 "The All-Russian Congress, ever since its inception as the most desperate solution to save Russia from the invading Reich, has been a controversial topic in the territories we control. To some, it has been not only a necessity, but a beneficial development for the good of the nation. They have voiced their support in the streets and the radio, and rally the rest of the citizens around this noble cause.\n\nHowever, some have not been as convinced to what the Congress has to offer. To them, it is not an alliance to face the invader, but a patchwork of warlords that are clearly opposed to each other, from fascists to communists and monarchists. In their heads, only we can truly fight the German menace properly, and without needing any allies that could backstab us at any point.\n\nOf course, such deviations from the official position of the government have harmed the war effort. Some are reluctant to join the army or work in the factories, and worse, they convince other people to support the same position. Therefore, some officials have proposed a propaganda program in support of the Congress, to rally the people and get them to unanimously believe in its power and effectiveness."
+ ARC.15.a:0 "Authorize the propaganda program."
+ ARC.15.b:0 "Such action is not needed."
+ 
+ ### 16
+ 
+ ARC.16.t:0 "Rallying the Generals"
+ ARC.16.desc:0 "As much as the politicians of countries hate to admit it, war cannot be waged without a High Command and generals, especially if they are not loyal to the cause they are fighting for. Thus, we need to make sure that even the last officer in our military is convinced that the All-Russian Congress is objectively the best solution for our nation to fight the Germans, even if it means cooperation with traitors. After all, the enemy of your enemy is your friend.\n\nTo get the generals on our side could mean to appeal to their more patriotic side. Most have joined as officers to serve their nation and its cause, and we will need to assure them that they will be doing just that by fighting for the Congress. Perhaps some promises that these "traitors" will be dealt with once the Reich is defeated could also suffice. One way or another, the military's loyalty could be key to have in the war."
+ ARC.16.a:0 "Talk with the generals."
+ ARC.16.b:0 "We don't need to convince them of anything."
+ 
+ ### 17
+ 
+ ARC.17.t:0 "Rallying the Politicians"
+ ARC.17.desc:0 "In our quest to gather support for the Congress and its usefulness, we need to finally turn to the government itself. As a democracy, the government is not a solid core of despots and oligarchs, all devoted to the same cause. Instead, we believe in the representation of the people, and as such, many factions occupy positions in the legislature and in the bureaucracy. Of course, with the diversity of such a political system, some will inevitably be resentful against the All-Russian Congress, and we need to change that.\n\nChanging the beliefs of these people and what they stand for in the political stage is obviously difficult, and it would be an uphill battle. However, we can try. Through charismatic speeches, propaganda, and perhaps some more... shady methods, we will attempt to rally the politicians on the side of the Congress.\n\nShould this endeavour succeed, its benefits will be very important to us. We will not need to worry about the implications of our diplomatic and military successes and failures back at home, for we will know that we are always supported, and any laws and programs relating to the Congress will no longer have to struggle to pass through legislature. Should we divert our efforts to convincing the government and the opposition of the value of the Congress?"
+ ARC.17.a:0 "Yes, try to convince them!"
+ ARC.17.b:0 "No, there are more important matters to attend to!"
+ 
+ ### 18
+ 
+ ARC.18.t:0 "The Will of the People"
+ ARC.18.desc:0 "The success of the endeavour to convince our people and our leaders regarding the All-Russian Congress is clear. It can be seen in the streets and the squares, where our people hold protests supporting of the Congress, and against Germany. Some have even begun to feel a solidarity between them and the other warlords we have hesitantly allied with, believing in the necessity of such a pact. The same is true for our politicians, our bureaucrats and our generals, who all seem eager to cooperate for the glory of the Russian nation.\n\nThe consolidation of this feeling that has spread in the last few weeks in our state can be seen in the new legislative piece proposed. The "Law Regarding the Joint Defense of the Russian Nation" has been drafted and proposed by several of our own parliament members, both from the governing parties and the opposition. Should it pass, cooperation with the Congress will become more extensive through joint programs in the economy and military, and it will become easier as well, since a specific committee will be formed. This proposal has received widespread support from the nation, but the final decision is up to the legislature itself."
+ ARC.18.a:0 "For the glory of Russia, the motion passes."
+ ARC.18.b:0 "We might be going against the nation's will, but the motion fails."
+ 
+ ### 19
+ 
+ ARC.19.t:0 "Forcing a Law"
+ ARC.19.desc:0 "It appears that, despite our best efforts to convince everyone of the value of the All-Russian Congress, most are still not convinced. Many find it outrageous that a democracy like us would be willing to work with dictators, radical ideologues and other extremists. This feeling is further intensified by the belief some have spread, that our own state is capable of defending and defeating the Germans on its own, with no external help. While that is not true by any means, it has become a common statement, especially among the nationalists that have faith in their country.\n\nWith this sentiment being widespread, managing further cooperation with the Congress and its individual members will be all the more difficult. However, there is a potential solution for the government, if they are willing to go against the will of the people they serve to achieve their goals. Even though we are a democracy, the leader always has some extra power to ensure safety and stability at these times, and so has the power to issue decrees and acts without the approval of the public or the legislature. Thus, we could use this power to increase our cooperation with the Congress, at the cost of public support."
+ ARC.19.a:0 "Do it, even if it means going against our people."
+ ARC.19.b:0 "We must obey the will of our citizens."
+ 
+ ### 20
+ 
+ ARC.20.t:0 "The Question of Democracy"
+ ARC.20.desc:0 "Our government, a beacon of democracy in these dark times, has decided to take the initiative and spearhead the improvement of the Congress as a cohesive and effective body to deal with the struggle that is this great war against the Germans. While opinions on how this could be achieved differ from faction to faction and warlord to warlord, we must reach a common agreement for the good of the Russian nation.\n\nThe most obvious solution our democratic politicians have proposed and loudly support is that of a democratic system. We, as the torch-bearers of the representation of the people, must spread this system to the autocratic governments of Russia, as we see the Congress like a vessel. By making the function of the alliance mirror our own beliefs and ideals regarding the political system, we will do just that. The leaders and the decisions made will be decided not by power and influence, but through ballots, and this will hopefully make the alliance more effective in decision-making and a more powerful enemy for the Nazis.On the other hand, some have criticized such proposals, citing that these democratic processes will not make Russia stronger, but only weaken its power. Instead, they have proposed a system that, although it adheres less to what our own government believes, would likely be more suitable for a nation in total war. This system would revolve more around a stronger executive body responsible for making decisions, while still hearing input from each warlord state. What system will we propose to the All-Russian Congress?"
+ ARC.20.a:0 "Propose a democratic system."
+ ARC.20.b:0 "Propose the system for a decisive Congress."
+ 
+ ### 21
+ 
+ ARC.21.t:0 "The Spy Problem"
+ ARC.21.desc:0 "A Russian warlord state, usually being chaotic and lacking an effective government in control of its land, is perfect for foreign intelligence operatives to infiltrate. And we are afraid that this has already happened in multiple cases. We have several enemies that would want to spy on us, and those that come to mind first are the Reich, which has the power to establish a vast espionage network, and other Russian warlords, that even if they are in the Congress, may want to collect information from us or destroy us from the inside. Whatever the case may be, we must crack down on any potential spies.\n\nTo solve this issue, extensive searches and investigations must be made on citizens and officials within our state, especially the more suspicious ones. This would require significant resources, so for now we will focus on rooting out one of our two main enemies.\n\nThe first option is to focus on what could be our greatest enemy, the Germans. The story of Vlasov and the Russian Liberation Army is well known in our country, and we could have collaborators and spies within our ranks. However, that is not to say that internal enemies from Russia, even if they are seeking to fight the Reich as well, would not want to conduct espionage in our lands. Perhaps it is merely to secure their own interests as the rulers of Russia. Thus, we could also focus on hunting down spies from other warlords, and stabilize our hold over our territories."
+ ARC.21.a:0 "Focus on rooting out German spies."
+ ARC.21.b:0 "Focus on rooting out Russian warlord spies."
+ 
+ ### 22
+ 
+ ARC.22.t:0 "A Request from Our Allies"
+ ARC.22.desc:0 "Recently, we have received a "call for help" by another warlord, a fellow member of the All-Russian Congress. Using this to justify their request, they have contacted us to discuss matters regarding the war effort. Specifically, what they seem to be asking for is to provide the with manpower. Their military, with their own number of troops depleted from the fighting, has been facing some problems. Thus, they have asked whether we, as powerful members of the united front against the German menace, have any surplus manpower our own army does not need in its battles.\n\nDespite their autocratic, borderline fascist tendencies, many feel like we have an obligation to help our allies. The government and the people are torn between giving aid to our allies in the Congress, or keeping the men under our command for use against the German invaders. Perhaps the supporters of the latter option do not want our own men fighting for a "foreign" power, or see this as strengthening our future enemy. This has made the decision much harder than initially expected, and we need to send a response soon, as one can't afford to waste time in total war."
+ ARC.22.a:0 "Send the men to our allies."
+ ARC.22.b:0 "Decline the request."
+ 
+ ### 23
+ 
+ ARC.23.t:0 "The Question of Mobilization"
+ ARC.23.desc:0 "Today was the day where yet another session of the Congress was to be held. As always, the same faces appeared in the conference room, ready to discuss the latest developments in Russia and the great war in the West. Diplomats talked and made speeches, and all in all, the topics discussed were not that relevant to our own state. However, one speech was the exception to that.\n\nA delegate from one of the warlord states, that was known for its close cooperation with the Congress, delivered a long and intense speech regarding mobilization and the war effort of some states, that he claimed "were not pulling their weight in the war". What followed next was an exposition of the grand progress his own government had managed to make in this period, and a call to everyone else to help the war effort in a similar way. That would mean further mobilization, making our nation more militarized just like our allies had done. The delegate seemed to urge the entirety of the Congress to even more commitment to the battle, something not everyone was content with. Still, we ourselves need to decide if we will follow their example, or continue as we are."
+ ARC.23.a:0 "We must mobilize further!"
+ ARC.23.b:0 "There is no need for more militarization."
+
+ ARC.24.t:0 "They Want More"
+ ARC.24.desc:0 "Among the many nations that make up the ramshackle mess that is the All-Russian Congress, tensions and demands regularly spill over into heated arguments, eruptions of anger, and various other fights. This is quite par for the course in the Congress. However, one issue has continued to rear its head over and over again- the issue of our mobilization.\n\nOur nationalist compatriots have banded together to demand that our faction increases its mobilization order, despite our protests to the contrary. Despite our sacrifices, it seems that they still believe that we are not pulling our weight. Our leaders must choose whether to listen to their calls or ignore them. After all, have we not lost thousands of lives to the German menace ourselves?"
+ ARC.24.a:0 "Such sacrifice is necessary to save Russia."
+ ARC.24.b:0 "We don't need others to tell us what to do."
+ ARC.24.c:0 "To hell with them! Cut them off entirely!"
+
+ ARC.25.t:0 "We Can Do More"
+ ARC.25.desc:0 "Another argument has spilled over the normal edges of Congress squabbling, making its way to the highest offices of our territory. Once again, our supposed allies in the Congress demand that we conscript even more Russian men to join the fight against the Germans.\n\nMobilizing more men will undoubtedly aid our army in its struggle against the German tides, but removing even more men from our workforce will undoubtedly have a negative effect on the industrial base we have. We must make this decision carefully- to lose either our army or our economy would be fatal to the nation, and perhaps Russia as a whole."
+ ARC.25.a:0 "Send out more letters. We need the men."
+ ARC.25.b:0 "We cannot accede to this."
+
+ ARC.26.t:0 "They Always Want More"
+ ARC.26.desc:0 "Once again, more demands from our allies in the All-Russian Congress continue to flood our desks and jam our mailboxes. Once again, our allies demand that we step up our industrial militarization, in the name of the combined war effort. To say these demands are quickly growing tiresome would be a gross understatement, but we may as well take these requests into account.\n\nTo militarize our economy even more than it already is would require much sacrifice in our civilian industry, as many factories would need to be requisitioned for the war effort. Such a shock to our economy could certainly cause issues. On the other hand, Russia must give her all to fighting off the Germans. Failing to do enough for the war could lead to a disaster in the future. Of course, totally militarizing our industrial base could also lead to a future calamity. We must decide whether a short term or long term risk is more worth it to us."
+ ARC.26.a:0 "Anything for the fight."
+ ARC.26.b:0 "We cannot afford this."
+ ARC.26.c:0 "Why do we tolerate their babbling, anyway? Cut them off!"
+
+ ARC.27.t:0 "The Equipment Issue"
+ ARC.27.desc:0 "To fight one of the largest armies in the world, an army needs many things. Training, supplies, transport- all play a part in the great dance of war. However, a keystone of any army is their equipment. The lowliest militia with the best guns can defeat the best soldiers if those soldiers don't have the weapons to fight back. Unfortunately for Russia, Germany has spent most of the last decades building an endless war machine, while Russia has spent most of those years gunning each other down. Because of this, our soldiers are reporting a critical shortage in guns, shells, and ammo- things that are crucial if we wish to hold out against the German Goliath.\n\nTwo paths present themselves to us. We can attempt to solve our equipment issue on our own, converting our industry to a military focused footing in order to quickly make up the gap. Alternatively, we can ask our fellow allies in the Congress for aid. While this may be a little embarrassing on the home front, it will certainly be a quicker, less intensive way of recovering our stockpile. After all, someone in Russia certainly has the weapon stockpile that we need."
+ ARC.27.a:0 "We need no help in equipping our armies."
+ ARC.27.b:0 "Outside aid will fill the gaps well"
+
+ ARC.28.t:0 "The Labor Issue"
+ ARC.28.desc:0 "The drums of war beat loud and heavy in Russia, and its men march to meet them. Across the plains and mountains, men from all walks of life leave their homes, take their rifles and uniforms, and steel themselves to beat back the German menace. However, this leaves the home front with a profoundly new issue to Russia- for once, there aren't enough men to run all the factories.\n\nTwo paths have been laid out in front of us. The first is to take necessary domestic measures to staff our factories- perhaps using women, or those too old to fight as workers. The second is to appeal for aid from the All-Russian Congress. This would definitely not be a great look for our nation, but desperate times call for desperate measures, and what is this if not a desperate time?"
+ ARC.28.a:0 " Our women can do the job well enough."
+ ARC.28.b:0 "t is the All-Russian Congress, after all."
+
+ ARC.29.t:0 "The Recruitment Issue"
+ ARC.29.desc:0 "To increase our recruitment to our preferred levels, we will need to take a new strategy in recruitment. The debate about what methods to use, however, have begun to boil over into yet another political conflict for our leadership to solve.\n\nInternally, our best bet is to focus on nationalist propaganda to boost recruitment within our own borders. However, those who are more inclined to support the ARC as a whole push for us to instead focus on aiding our neighbors in their recruitment programs. Besides, this second option will mean that other nation's lives will be lost, instead of our own. Whether that's for better or worse depends on who you ask.\n\nIn any case, the issue has been debated hotly for days now, and a final decision must be made."
+ ARC.29.a:0 "We must focus on ourselves."
+ ARC.29.b:0 "Stronger together, as they say."
+
+ ARC.30.t:0 "Tighter Ties"
+ ARC.30.desc:0 "An interesting proposition has been made to our government- one from the ARC, of all sources. As far as we have considered it, the All-Russian Congress has merely been a collection of warlords in Russia, built to stop the German menace and nothing more. However, this proposition calls for tighter work among the faction, building ties between our differing states, and perhaps even solidly unifying into one nation.\n\nOf course, such a radical proposal has led to much controversy, as our own politicians debate back and forth over what such a deal would mean- not only for our nation and our ideals, but for Russia as a whole. One thing is certain- whatever we choose, this decision will certainly leave a mark on the Russian landscape for decades to come."
+ ARC.30.a:0 "We shall stand stronger united."
+ ARC.30.b:0 "We are allies, nothing more."
+
+ ARC.31.t:0 "An Embarrassing Brawl"
+ ARC.31.desc:0 "The ARC, at its core, is a hodge-podge mix of ideologies, national interests, regional pride, and personal beliefs. Though it stands united against the Germans on the outside, tearing away the front of unity reveals the messy chaos underneath. However, for most of the time, this fake front has held strong, hiding all our internal issues.\n\nThat front has failed today.\n\nNobody is quite sure how it happened, but elements of a nationalist division were mixed with elements of a communist one. Political differences soon devolved into physical ones, and before long, a full scale brawl had broken out among our troops. Luckily, these men were behind the front lines, and no harm to our military situation should be done, but this is an embarrassing moment for our alliance. Even now, supporters of each faction praise their own men and blame the other for starting the altercation. Hopefully, this will soon blow over."
+ ARC.31.a:0 "Humiliating."
+
+ ARC.32.t:0 "A Bomb in Congress"
+ ARC.32.desc:0 "Disaster! A bomb has gone off during one of our sessions! During one of the Congress's many, many arguments, a bomb suddenly detonated outside of the room. We are extremely lucky that nobody has died in the attack, but something else is on the verge of death- the All-Russian Congress itself.\n\nWith nobody quite sure of who committed the attack, the accusations of betrayal have been flung fast and furiously. Communists blame the attack on the "reactionary White traitors", nationalists blame "godless red bolsheviks", and every other faction has found someone to blame. With the seeds of discontent sown deep and heavy in the Congress, one has to wonder if it's a matter of when, not if, the Congress will finally shake itself apart."
+ ARC.32.a:0 "What a mess."
+
+ ARC.33.t:0 "A Speech in Our Favor"
+ ARC.33.desc:0 "Good news is not easy to come by in the government of the All-Russian Congress, but it seems that we have been blessed with luck today. A minor political official has delivered a rousing speech in support of the ARC, and it seems to have won over most of the representatives- at least, for now.\n\nExtolling the virtues of Russian unity, and pleading for the leaders of the various states that make up the ARC to set aside their differences for a better future, the bureaucrat's words have hit home. All across the Congress, bureaucrats scramble over each other to profess their support of the ARC- a very welcome break from the regular whining and shouting that usually spews from the very same mouths. While this tide of good will is certain to falter eventually, we have nobody to thank but our supporters in the Congress that we have been given such a breather."
+ ARC.33.a:0 "One day they'll see for sure."
+
+ ARC.34.t:0 "The End of the Congress"
+ ARC.34.desc:0 "It is over. Finally, the Congress has fallen apart completely. Perhaps it was coming for a long time- it's unclear that anyone is surprised by its final collapse. However, with the flaming remains of the ARC coming down, so goes the dream of Russian cooperation. We are unquestionably alone.\n\nIt's unclear whether, without the ARC, the Russian people will be able to hold off the Germans any longer. Each warlord that Germany threatens has sworn to continue the fight- however, without the aid of those who once were our allies, we may no longer have the organization needed to push the Germans back. Though our men will certainly do their best to win the war, some are beginning to see the war as lost- in any case, it's certain to be much, much more difficult to win."
+ ARC.34.a:0 "God help us."
+
+ ARC.36.t:0 "The Congress Dissolves"
+ ARC.36.desc:0 "The Germans are defeated! Finally, Goring and his pack of jackals have retreated, abandoning their hopes and dreams in the Russian plains, and we finally stand victorious over our enemies. However, as Germany falls, so too does the purpose of the All-Russian Congress, and it has been agreed that the organization shall be dissolved.\n\nThis is certainly a disappointment to those who thought the ARC could be the future of Russia, but perhaps this outcome was inevitable. The ARC, for its usefulness as a faction, was wracked internally by ideological debates between incompatible factions. It was doomed to collapse - this is certainly the best way for it to happen.\n\nWith the ARC gone, the conflict between warlords is sure to resume. Only the strongest shall emerge victorious. We can only hope that one day, Russia will be as united as it was in the heyday of the All-Russian Congress."
+ ARC.36.a:0 "All good things must end."

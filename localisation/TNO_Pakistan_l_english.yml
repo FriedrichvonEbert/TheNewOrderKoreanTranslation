@@ -1,0 +1,136 @@
+﻿l_english:
+ 
+ ###########
+ ##Parties##
+ ###########
+ PAK_communist_party:0 "CPP"
+ PAK_communist_party_long:0 "Communist Party of Pakistan"
+ PAK_social_democrat_party:0 "PPP"
+ PAK_social_democrat_party_long:0 "Pakistan People's Party"
+ PAK_social_liberal_party:0 "UOP"
+ PAK_social_liberal_party_long:0 "United Opposition Parties"
+ PAK_social_conservative_party:0 "ML"
+ PAK_social_conservative_party_long:0 "Muslim League"
+ PAK_authoritarian_democrat_party:0 "CML"
+ PAK_authoritarian_democrat_party_long:0 "Combined Muslim League"
+ PAK_despotism_party:0 "Razakars"
+ PAK_ultranational_socialism_party:0 "Mujahideen"
+ 
+ ###########
+ ##Faction##
+ ###########
+ AFG_PAK_Alliance:0 "Brotherhood of Islam"
+ 
+ #####################
+ ##Opinion Modifiers##
+ #####################
+ PAK_sent_aid:0 "Sent Aid"
+ PAK_didnt_send_aid:0 "Refused to Send Aid"
+ PAK_AFG_Brothers:0 "Afghan-Pakistani Unity"
+ PAK_didnt_faction:0 "Ignored Islamic Unity"
+ PAK_didnt_fund_razakars:0 "Refused to Fund Razakars"
+ PAK_didnt_guarantee:0 "Refused to Guarantee Our Independence"
+ PAK_AFG_Alliance_of_Gain:0 "An Alliance of Gain"
+ PAK_AFG_Alliance_of_Respect:0 "An Alliance of Respect"
+ PAK_AFG_The_Acronym_of_Pakistan:0 "The Acronym of Pakistan"
+ PAK_AFG_didnt_give_land:0 "Refused to Return Our Rightful Territories"
+ 
+ #################
+ ##Country Flags##
+ #################
+ PAK_ICW_dem:0 "Democracy has been maintained"
+ PAK_ICW_Ayub_Khan:0 "Mohammad Ayub Khan has taken over the government"
+ PAK_AFG_didnt_give_land_flag:0 "Afghanistan failed to return our rightful territories"
+ 
+ ################
+ ##Leader Descs##
+ ################
+ POLITICS_MAHMUD_AHMED_DESC:0 "Mahmud Ahmed was not born a terrorist. He was born a Muslim in Ludhiana, during the first days of the Republic of India. His childhood was hardly noteworthy, and no different from that of a typical Muslim child in India. However, nobody is born a villain - or, if you ask the disturbingly large number of Ahmed's supporters, a hero.\n\nNobody has a unified consensus on where Ahmed learned of the methods of terrorism and other ideas in the name of national liberation. According to some, he took inspiration from the INA's tactics in the Indian War of Independence. According to himself, he was, as a young boy, gifted an ayah by Allah himself, who told him of the necessity for a Jihad against the Hindu. He avoided conscription so that he would not serve the Hindu, and fled to the mountains across the loose border. It was here that he disappeared into the mountains, and received further ayahs from the Greatest.\n\nIt has now been years since he disappeared, and Ahmed has returned to free his people. Fighting alongside his numerous followers, he is known as al-Azad, or "the Free" in Urdu. His plan is to oust the Hindu from the Land of the Pure at any cost, and to build a new Islamic state on the ashes of what will be burnt down. After years, centuries of oppression, the time has come for all Muslims of India to break the chains that bind them, in the name of Faith, Unity, and Discipline. And just as those great warriors of Islam fought against Christianity, Ahmed and the Mujahideen fight against the Hindu kafirs, and for the glory of Allah."
+ 
+ #############
+ ##Ministers##
+ #############
+ PAK_Sajjad_Zaheer_hog:0 "Sajjad Zaheer"
+ PAK_Hassan_Nasir_eco:0 "Hassan Nasir"
+ PAK_Faiz_Ahmad_Faiz_for:0 "Faiz Ahmad Faiz"
+ PAK_Akbar_Khan_sec:0 "Akbar Khan"
+ PAK_Nusrat_Bhutto_hog:0 "Nusrat Bhutto"
+ PAK_Mubashir_Hassan_eco:0 "Mubashir Hassan"
+ PAK_Aziz_Ahmed_for:0 "Aziz Ahmed"
+ PAK_Abdul_Qayyum_Khan_sec:0 "Abdul Qayyum Khan"
+ PAK_Allah_Bakhsh_Gabol_hog:0 "Allah Bakhsh Gabol"
+ PAK_Fazal_Ilahi_Chaudhry_eco:0 "Fazal Ilahi Chaudhry"
+ PAK_Chaudhry_Muhammad_Ali_for:0 "Chaudhry Muhammad Ali"
+ PAK_Fazlur_Rahman_Malik_sec:0 "Fazlur Rahman Malik"
+ PAK_Muhammad_Khan_Junejo_hog:0 "Muhammad Khan Junejo"
+ PAK_Muzaffar_Ali_Khan_Qizilbash_eco:0 "Muzaffar Ali Khan Qizilbash"
+ PAK_Manzur_Qadir_for:0 "Manzur Qadir"
+ PAK_Jalal_Baba_sec:0 "Jalal Baba"
+ PAK_Mahmud_Ahmed_hog:0 "Mahmud Ahmed"
+ PAK_Sajid_Mir_eco:0 "Sajid Mir"
+ PAK_Ehsan_Elahi_Zaheer_for:0 "Ehsan Elahi Zaheer"
+ PAK_Sufi_Muhammad_sec:0 "Sufi Muhammad"
+ 
+ #############
+ ##Decisions##
+ #############
+ PAK_Pakistani_Insurgency_Cat:0 "The [PAK_PakistanInsurgency]"
+ PAK_Pakistani_Insurgency_Cat_desc:0 "Since the 1800s, the Hindu has occupied our lands, keeping us under their boot and oppressing us on the basis of so-called terror attacks which have not occurred. But no more! We shall fight for our freedom against the Hindu that keeps us under ball and chain, for the freedom of the Land of the Pure and the liberation of the Urdu! [PAK.GetNameDEF] fights for Pakistan!"
+ PAK_Rise_up_in_Indian_Lands:0 "Rise up in Indian Lands"
+ PAK_low_level_insurgency_tt:0 "We are fighting a low-level insurgency"
+ PAK_insurgency_cooldown_tt:0 "It has been more than 60 days since our last uprising"
+ PAK_Rise_up_in_Indian_Lands_tt:0 "We will begin a popular uprising in our lands under occupation by [RAJ.GetNameDEF]."
+ PAK_Rise_up_in_Afghan_Lands:0 "Rise up in Afghan Lands"
+ PAK_Rise_up_in_Afghan_Lands_tt:0 "We will begin a popular uprising in our lands under occupation by [AFG.GetNameDEF].\n"
+ PAK_PakistanInsurgency_MKF_loc:0 "Great Liberation War"
+ PAK_PakistanInsurgency_Mujahideen_loc:0 "Pakistani Jihad"
+ PAK_PakistanInsurgency_India_loc:0 "Pakistani Insurgency"
+ 
+ #########
+ ##Ideas##
+ #########
+ PAK_Jihad_for_Freedom:0 "Jihad For Freedom"
+ PAK_Go_It_Alone:0 "Going It Alone"
+ 
+ ########
+ ##Foci##
+ ########
+ ##War Tree##
+ PAK_War_The_Hour_Has_Come:0 "The Hour Has Come"
+ PAK_War_A_Democratic_Republic:0 "A Democratic Republic"
+ PAK_War_A_Nonpartisan_Struggle:0 "A Nonpartisan Struggle"
+ PAK_War_Communists_and_Conservatives_Alike:0 "Communists and Conservatives Alike"
+ PAK_War_An_Appeal_to_the_Free_World:0 "An Appeal to the Free World"
+ PAK_War_And_the_Not_So_Free:0 "...And the Not-So-Free"
+ PAK_War_Secularism:0 "Secularism"
+ PAK_War_Diversity:0 "Diversity"
+ PAK_War_Freedom:0 "Freedom"
+ PAK_War_Hold_Free_Elections:0 "Hold Free Elections"
+ PAK_War_The_Iron_Fist:0 "The Iron Fist"
+ PAK_War_Crack_Down_on_Liberties:0 "Crack Down on Liberties"
+ PAK_War_A_Tight_Leash:0 "A Tight Leash"
+ PAK_War_Strengthen_the_Razakars:0 "Strengthen the Razakars"
+ PAK_War_Cry_for_Help:0 "Cry for Help"
+ PAK_War_Faith:0 "Faith"
+ PAK_War_Unity:0 "Unity"
+ PAK_War_Discipline:0 "Discipline"
+ PAK_War_Hold_Fair_Elections:0 "Hold Fair Elections"
+ PAK_War_Our_Afghan_Brothers:0 "Our Afghan Brothers"
+ PAK_War_Call_for_Aid:0 "Call for Aid"
+ PAK_War_A_Brotherhood_of_Islam:0 "A Brotherhood of Islam"
+ PAK_War_Request_Money_For_Razakar_Regiments:0 "Request Money for Razakar Regiments"
+ PAK_War_An_Alliance_of_Gain:0 "An Alliance of Gain"
+ PAK_War_An_Alliance_of_Respect:0 "An Alliance of Respect"
+ PAK_War_A_Helping_Hand:0 "A Helping Hand"
+ PAK_War_Remember_the_Acronym:0 "Remember the Acronym"
+ PAK_War_Afghania:0 "Afghania"
+ PAK_War_Balochistan:0 "Balochistan"
+ PAK_War_Deliver_an_Ultimatum:0 "Deliver an Ultimatum"
+ PAK_War_Pakistan_Never_Forgets:0 "Pakistan Never Forgets"
+ PAK_War_Unite_Pakistan:0 "Unite Pakistan"
+ PAK_War_Go_It_Alone:0 "Go It Alone"
+ PAK_War_Pak_Sarzamin:0 "Pak Sarzamin"
+ 
+ ##########
+ ##Events##
+ ##########

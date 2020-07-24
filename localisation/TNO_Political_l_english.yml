@@ -1,0 +1,154 @@
+﻿l_english:
+
+### Stability ###
+disaster:0 "재앙"
+disaster_desc:0 "정치력이 §Y-500§! 이하로 떨어진다면 재앙에 직면하게 될 것이며, 매우 낮은 안정도 수준에 도달하기 위해서는 §Y-500§! 이상까지 끌어올려야만 합니다."
+very_low_stability:0 "매우 낮은 안정도"
+very_low_stability_desc:0 "정치력이 §Y-250§! 이하로 떨어진다면 매우 낮은 안정도에 직면하게 될 것이며, 낮은 안정도 수준에 도달하기 위해서는 §Y-250§! 이상까지 끌어올려야만 합니다."
+low_stability:0 "낮은 안정도"
+low_stability_desc:0 "정치력이 §Y-50§! 이하로 떨어진다면 낮은 안정도에 직면하게 될 것이며, 평균적인 안정도 수준에 도달하기 위해서는 §Y-50§! 이상까지 끌어올려야만 합니다."
+normal_stability:0 "평균적인 안정도"
+normal_stability_desc:0 "기본적인 안정도 수준입니다."
+good_stability:0 "좋은 안정도"
+good_stability_desc:0 "정치력이 §Y150§! 이상으로 올라간다면 좋은 안정도 수준에 다다를 수 있습니다. 만약 정치력이 §Y0§! 이하로 떨어진다면 평균적인 안정도로 떨어질 겁니다."
+very_good_stability:0 "매우 좋은 안정도"
+very_good_stability_desc:0 "정치력이 §Y150§! 이상으로 올라가고 좋은 안정도 수준에 있다면 매우 좋은 안정도 수준에 다다를 수 있습니다. 만약 정치력이 §Y0§! 이하로 떨어진다면 평균적인 안정도로 곧장 떨어질 겁니다."
+stability:0 "안정도"
+EFFECT_CHANGE_LAW_stability:0 "우리 나라의 안정도를 ($DESC$) 효과를 주는 '$NAME|Y$' 수준으로 변경합니다."
+
+### Popularity ###
+very_low_popularity:0 "매우 낮은 지지도"
+very_low_popularity_desc:0 "집권당 지지율이 §Y20%§! 이하라면 매우 낮은 지지율 상태에 해당합니다."
+low_popularity:0 "낮은 지지도"
+low_popularity_desc:0 "집권당 지지율이 §Y20%§! 와 §Y40%§! 사이에 있다면 낮은 지지율 상태에 해당합니다."
+normal_popularity:0 "보통 지지도"
+normal_popularity_desc:0 "집권당 지지율이 §Y40%§! 와 §Y60%§! 사이에 있다면 보통 지지율 상태에 해당합니다."
+high_popularity:0 "높은 지지도"
+high_popularity_desc:0 "집권당 지지율이 §Y60%§! 와 §Y80%§! 사이에 있다면 보통 지지율 상태에 해당합니다."
+very_high_popularity:0 "매우 높은 지지도"
+very_high_popularity_desc:0 "집권당 지지율이 §Y80%§! 이상이라면 매우 높은 지지율 상태에 해당합니다."
+popularity:0 "지지도"
+
+### Economic Health ###
+boom_economy:0 "WIP" #Boom Economy WIP!!!
+good_economy:0 "WIP" #Good Economy WIP!!!
+medium_economy:0 "WIP" #Medium Economy WIP!!!
+bad_economy:0 "WIP" #Bad Economy WIP!!!
+bust_economy:0 "WIP" #Bust Economy WIP!!!
+crash_economy:0 "WIP" #Crash Economy WIP!!!
+economic_health:0 "Work in progress, don't worry about this" #Economic Health WIP!!!
+
+### Stability Events ###
+kr.political.1.t:0 "안정도 저하!"
+kr.political.1.d:0 "최근 정치력이 부족해지면서 우리 나라의 안정도가 약해졌고, 더 이상 안정된 상태가 아닙니다. 다시 한번 정치적 담론 속에 의심이 스며들기 시작했습니다."
+kr.political.1.a:0 "모든 좋은 일에는 끝이 있기 마련이지."
+
+kr.political.2.t:0 "안정도 저하!"
+kr.political.2.d:0 "최근 정치력이 부족해지면서 우리 나라의 안정도가 약해졌고, 현재 불안정한 상태에 놓여있습니다. 우리 정책에 완벽하게 만족하는 이는 거의 없습니다."
+kr.political.2.a:0 "걱정스럽군."
+
+kr.political.3.t:0 "안정도 저하!"
+kr.political.3.d:0 "최근 정치력이 부족해지면서 우리 나라의 안정도가 약해졌고, 현재 대체로 불안정한 상태로 여겨지고 있습니다. 국가의 미래에 대한 두려움이 확산되기 시작했습니다."
+kr.political.3.a:0 "일시적 현상일 뿐이다."
+
+kr.political.4.t:0 "안정도 저하!"
+kr.political.4.d:0 "최근 정치력이 부족해지면서 우리 나라의 안정도가 한층 더 약해졌습니다. 폭동과 파업은 이제 흔한 일상사가 되어버렸고, 정부는 권위를 유지하기 위해 애쓰고 있습니다."
+kr.political.4.a:0 "좋지 않은 징조다."
+
+kr.political.5.t:0 "안정도 저하!"
+kr.political.5.d:0 "최근 정치력이 부족해지면서 우리 나라는 대재앙에 빠져버렸습니다. 어떤 관점에서 보더라도 이건 비극적인 참사입니다. 거리에서 혁명과 쿠데타에 대한 이야기가 나오면서 사람들은 정부에 대한 신뢰를 잃어버렸습니다. 우리는 국가 장악력을 유지하기 위해 애쓰고 있습니다."
+kr.political.5.a:0 "재앙이로다!"
+
+kr.political.6.t:0 "안정도 상승!"
+kr.political.6.d:0 "최근 정치력이 증가하면서 마침내 현 상황에 대해 통제력을 회복하기 시작하였습니다. 아지만 여전히 안전과는 거리가 멉니다. 적어도 대규모 폭동과 혁명에 관한 논의가 다시 시민 파업 운동으로 돌아오기는 했습니다."
+kr.political.6.a:0 "최악의 상황은 지나갔다!"
+
+kr.political.7.t:0 "안정도 상승!"
+kr.political.7.d:0 "최근 정치력이 증가하면서 마침내 현 사태의 끝이 보이기 시작하였습니다. 우리나라는 거의 안정된 국가입니다. 국민들이 여전히 우리를 완전히 믿지는 않겠지만, 최소한 분노에 휩싸여 폭력을 휘두르지는 않을 겁니다."
+kr.political.7.a:0 "거의 정상상태에 다다랐군."
+
+kr.political.8.t:0 "안정도 상승!"
+kr.political.8.d:0 "최근 정치력이 증가하면서 마침내 안정을 되찾았습니다. 사람들은 다시 거리로 돌아와 생업에 종사하면서 다시는 이런 일이 벌어지지 않기를 바랍니다."
+kr.political.8.a:0 "[Root.GetAdjective] 국가는 강인하다."
+
+kr.political.9.t:0 "잠재적인 안정도 증대"
+kr.political.9.d:0 "최근 정치력이 증가하면서 안정도를 높일 수 있는 기회가 생겼습니다. 하지만 수동으로 안정도를 조절해야 합니다.\n\n높은 안정도 또는 매우 높은 안정도 상태로 올라서기 위해서는 정치 화면 내의 법과 정부 아래에 있는 안정도 탭에서 해당하는 법률을 적용해야 하며, 비용은 옵션 하단에 표시됩니다.\n\n만약 정치력이 0 아래로 떨어진다면 모든 긍정적인 안정 상태를 빠르게 잃을 위험이 있을 수도 있다는 사실에 유의해야 합니다. 따라서 당신의 국가가 최소한 보통 수준의 안정도라도 유지할 수 있도록 단기적인 투자를 실시해야 합니다.\n\n이 메세지는 다시는 표시되지 않으므로, 절대 잊지 마십시오."
+kr.political.9.a:0 "어떻게 안정도를 올리는지 이해했다."
+
+### Popularity Events ###
+kr.political.11.t:0 "매우 높은 지지도"
+kr.political.11.d:0 "집권당에 대한 민중의 지지율이 매우 높은 수준에 이르러 정치계에 영향력을 미치고 있습니다. 우리에게 정치적 반대파는 거의 없다고 봐도 무방하며 현재 우리가 원하는 어떤 개혁도 추진할 수 있는 위치에 서 있습니다."
+kr.political.11.a:0 "최고야!"
+
+kr.political.12.t:0 "높은 지지도"
+kr.political.12.d:0 "집권당에 대한 민중의 지지율이 높은 수준에 이르러 정치계에 영향력을 미치고 있습니다. 정치적 반대파는 고립되었으며 엄청난 갈등을 불러일으키는 개혁이 아니라면 개별적인 투자를 투입할 필요가 없습니다."
+kr.political.12.a:0 "좋아!"
+
+kr.political.13.t:0 "평균적인 지지도"
+kr.political.13.d:0 "집권당에 대한 민중의 지지율이 평균 수준에 이르러 정치계에 영향력을 미치고 있습니다. 일부 개혁을 위해서는 반대파와도 협의할 필요가 있을지도 모르지만, 여전히 잘 통치할 수 있습니다."
+kr.political.13.a:0 "괜찮군."
+
+kr.political.14.t:0 "낮은 지지도"
+kr.political.14.d:0 "집권당에 대한 민중의 지지율이 낮은 수준에 이르러 정치계에 영향력을 미치고 있습니다. 우리의 반대파는 현 정권에 대항하는 연정을 형성할 만큼 강력하기 때문에 그들과 자주 협의하고 타협해야만 합니다."
+kr.political.14.a:0 "이거 안좋은데."
+
+kr.political.15.t:0 "매우 낮은 지지도"
+kr.political.15.d:0 "집권당에 대한 민중의 지지율이 매우 낮은 수준에 이르러 정치계에 영향력을 미치고 있습니다. 우리 당의 지지 기반은 거의 없으며, 우리의 개혁은 야당의 변덕에 의해 좌우됩니다."
+kr.political.15.a:0 "재난이로다!"
+
+### Minister Influences Ruling Party Events ###
+kr.political.16.t:0 "한 장관이 자신의 이념을 지지하다"
+kr.political.16.d:0 "현 정부에 다른 이념을 가진 장관이 참여하고 있습니다. 그는 우리 당의 인기에 손상을 입히는 자신만의 이념을 지지하기 시작했습니다. 그의 행동을 되돌리기 위해서는 지금 당장 행동해야만 합니다."
+kr.political.16.a:0 "우리가 할 수 있는 일은 아무것도 없다."
+kr.political.16.b:0 "우리의 영향력을 활용해서 그의 행동을 되돌려라."
+
+kr.political.17.t:0 "우리의 사상이 퍼지다"
+kr.political.17.d:0 "대 민중 정책을 펼치던 우리의 충직한 장관들 중 한명이 우리의 이념을 확산시켰습니다. 추가적으로 약간의 영향력을 행사한다면, 이 상황을 우리의 인기를 높이는데 활용할 수 있습니다."
+kr.political.17.a:0 "완벽해."
+kr.political.17.b:0 "필요 없다."
+
+kr.political.18.t:0 "우리의 사상이 퍼지다"
+kr.political.18.d:0 "대 민중 정책을 펼치던 우리의 충직한 장관들 중 한명이 우리의 이념을 확산시켰습니다. 추가적으로 약간의 영향력을 행사한다면, 이 상황을 우리의 인기를 높이는데 활용할 수 있습니다."
+kr.political.18.a:0 "완벽해."
+kr.political.18.b:0 "필요 없다."
+
+kr.political.19.t:0 "우리의 사상이 퍼지다"
+kr.political.19.d:0 "대 민중 정책을 펼치던 우리의 충직한 장관들 중 한명이 우리의 이념을 확산시켰습니다. 추가적으로 약간의 영향력을 행사한다면, 이 상황을 우리의 인기를 높이는데 활용할 수 있습니다."
+kr.political.19.a:0 "완벽해."
+kr.political.19.b:0 "필요 없다."
+
+kr.political.20.t:0 "우리의 사상이 퍼지다"
+kr.political.20.d:0 "대 민중 정책을 펼치던 우리의 충직한 장관들 중 한명이 우리의 이념을 확산시켰습니다. 추가적으로 약간의 영향력을 행사한다면, 이 상황을 우리의 인기를 높이는데 활용할 수 있습니다."
+kr.political.20.a:0 "완벽해."
+kr.political.20.b:0 "필요 없다."
+
+kr.political.21.t:0 "한 장관이 자신의 이념을 지지하다"
+kr.political.21.d:0 "현 정부에 다른 이념을 가진 장관이 참여하고 있습니다. 그는 우리 당의 인기에 손상을 입히는 자신만의 이념을 지지하기 시작했습니다. 그의 행동을 되돌리기 위해서는 지금 당장 행동해야만 합니다."
+kr.political.21.a:0 "우리가 할 수 있는 일은 아무것도 없다."
+kr.political.21.b:0 "우리의 영향력을 활용해서 그의 행동을 되돌려라."
+
+kr.political.22.t:0 "한 장관이 자신의 이념을 지지하다"
+kr.political.22.d:0 "현 정부에 다른 이념을 가진 장관이 참여하고 있습니다. 그는 우리 당의 인기에 손상을 입히는 자신만의 이념을 지지하기 시작했습니다. 그의 행동을 되돌리기 위해서는 지금 당장 행동해야만 합니다."
+kr.political.22.a:0 "우리가 할 수 있는 일은 아무것도 없다."
+kr.political.22.b:0 "우리의 영향력을 활용해서 그의 행동을 되돌려라."
+
+kr.political.23.t:0 "한 장관이 자신의 이념을 지지하다"
+kr.political.23.d:0 "현 정부에 다른 이념을 가진 장관이 참여하고 있습니다. 그는 우리 당의 인기에 손상을 입히는 자신만의 이념을 지지하기 시작했습니다. 그의 행동을 되돌리기 위해서는 지금 당장 행동해야만 합니다."
+kr.political.23.a:0 "우리가 할 수 있는 일은 아무것도 없다."
+kr.political.23.b:0 "우리의 영향력을 활용해서 그의 행동을 되돌려라."
+
+### Remove Independent War Event ###
+kr.political.30.t:0 "우리의 독립 전쟁이 끝나다"
+kr.political.30.d:0 "이제 우리의 독립전쟁이 끝났으니 동맹국들을 다시 전쟁에 불러들일 수 있습니다."
+kr.political.30.a:0 "이해했다"
+
+### Gamestart Opinion Modifiers ###
+kr.political.40.t:0 "의견 변동치 적용"
+kr.political.40.d:0 "만약 이걸 발견한다면, 버그로 제보해주세요!"
+kr.political.40.a:0 "진심입니다. 제보해주세요."
+
+KR_different_ideology:0 "다른 사상"
+KR_similar_ideology:0 "비슷한 사상"
+KR_same_ideology:0 "같은 사상"
+same_ruling_party:0 "기반"
+different_party_types:0 "기반"
