@@ -58,13 +58,13 @@
  BRG_food_consumption_base:0 "식량 소비"
 
  BRG_Political_Phase2_modifier:0 "군단 충성도"
- BRG_Political_Phase2_modifier_desc:0 "서러시아 전쟁 이후 힘러 경은 용담공 샤를의 공국과 이름은 같지만 크기 면에서는 이를 훨씬 뛰어넘는 영지의 지배자가 되었습니다. 그러나 모든 축복에는 저주가 있습니다. - 부르군트의 경우에는 국민의 수를 능가하는 비아리아인의 존재가 그것입니다. 그는 부역을 대가로 프랑스인, 플랑드르인, 발로니엔인을 SS 특권층의 반열에 올려놓았습니다.\n\n국가지도자께서 경솔하게 결정을 내리셨는지, 지금도 샤를마뉴, 랑게마르크, 발로니엔 군단은 그의 인내심을 시험할 새로운 방법을 발명하고 있습니다. 그럼에도 불구하고 그들은 각각의 민족에 기사단국의 권위를 집행하는데 필수적입니다. 그들의 충성스러운 봉사는 그들이 즐기는 자유에 달려있습니다; 만약 오스트 파리가 목줄을 조인다면, 협력자들은 지금보다 더 나쁜 성가신 존재가 될 수 있습니다..."
+ BRG_Political_Phase2_modifier_desc:0 "서러시아 전쟁 이후 힘러 경은 용담공 샤를의 공국과 이름은 같지만 크기 면에서는 이를 훨씬 뛰어넘는 영지의 지배자가 되었습니다. 그러나 모든 축복에는 저주가 있습니다. - 부르군트의 경우에는 국민의 수를 능가하는 비아리아인의 존재가 그것입니다. 그는 부역을 대가로 프랑스인, 플란데른인, 발로니엔인을 SS 특권층의 반열에 올려놓았습니다.\n\n국가지도자께서 경솔하게 결정을 내리셨는지, 지금도 샤를마뉴, 랑게마르크, 발로니엔 군단은 그의 인내심을 시험할 새로운 방법을 발명하고 있습니다. 그럼에도 불구하고 그들은 각각의 민족에 기사단국의 권위를 집행하는데 필수적입니다. 그들의 충성스러운 봉사는 그들이 즐기는 자유에 달려있습니다; 만약 오스트 파리가 목줄을 조인다면, 협력자들은 지금보다 더 나쁜 성가신 존재가 될 수 있습니다..."
 
  BRG_Get_RPY_Sus_tooltip:0 "현재 의심: [BRG_RPY_Sus]"
 
  ## GUI ##
- BRG_GP_Timeout_Mission:0 "Globalplan Cooldown"
- BRG_GP_Timeout_Mission_desc:0 "We have recently §Gcompleted§! or §Rcancelled§! a §YGlobalplan§!. It will take some time to prepare resources and operatives for our next undertaking. Until then, we should turn our attention §Yinwards§!, so that the §RSchattenstaat§! may continue to provide the §YResources§! the §YGlobalpläne§! require."
+ BRG_GP_Timeout_Mission:0 "세계계획 대기시간"
+ BRG_GP_Timeout_Mission_desc:0 "우리는 최근 §Y세계계획§!을 §G완료§!하거나 §R취소§!했습니다. 다음 사업을 시작하는데 필요한 자원을 모으고 계획을 세우기 위해서는 시간이 필요합니다. 그때까지 우리는 §Y내부로§! 관심을 돌려 §R그림자 국가§!가 §Y세계계획§!에 필요한 §Y자원§!을 모으도록 해야 합니다."
 
  BRG_globalplan_gui:0 "세계계획"
  BRG_globalplan_gui_locked:0 "§R잠김§"
@@ -73,65 +73,65 @@
 
 
  BRG_globalplan_overview_category:0 "세계계획"
- BRG_globalplan_overview_category_desc:0 "  세계계획 상태 개요:\n   - 세계계획 §Y볼프§!:       [BRG_Get_GP_Wolf_Status]\n   - 세계계획 §Y콘도르§!:     [BRG_Get_GP_Kondor_Status]\n   - 세계계획 §YAdler§!:      [BRG_Get_GP_Adler_Status]\n   - 세계계획 §YKrone§!:      [BRG_Get_GP_Lowe_Status]\n   - 세계계획 §YBär§!:        [BRG_Get_GP_Bar_Status]\n\n  - 세계계획 §YSonne§!:      [BRG_Get_GP_Sonne_Status]\n   - 세계계획 §YDrache§!:     [BRG_Get_GP_Drache_Status]\n   - 세계계획 §YSchwert§!:    [BRG_Get_GP_Puma_Status]\n\n\nIn the pursuit of all grand designs, meticulous planning is the key to guaranteed success. The ambition of the Reichsführer-SS is no different in this regard. To this end, the Globalpläne serve to realise our glorious Aryan destiny. Naturally, meddling with less gifted races is quite a costly and lengthy affair - luckily, the Ordensstaat provides us with just the right resources.\n\n§YEnabling§! §RLOCKED§! §YGlobalpläne§! requires sizable §Yinvestments§! and sufficient §Ypreparations§! through the use of respective §YDecisions§!.\n\nOnce unlocked, §YGlobalpläne§! will become §YAVAILABLE§! and can be set into motion §Yat any opportunate moment§!.\nWhile these plans are §OIN PROGRESS§!, we can make use of §YNational Focuses§! and §YDecisions§! to §Yinfluence events§! in other states towards our §Yend goal§!.\n\nIf we have §Yexhausted§! our operative capacities in a given region, the respective §YGlobalplan§! will become §GCOMPLETED§!, regardless of our level of success."
- BRG_GUI_Info_tt:0 "§!The §YGlobalpläne§! (literally "Global Plans") represent meticulous agendas working towards the Reichsführer's §Yultimate goal§!. Each §YGlobalplan§! is designed around influencing §Ykey players§! on the global stage. Of course, pulling the strings of global geopolitics is no easy undertaking and will require an extensive amount of resources; However, as long as the §Yfinal goal§! is achieved, §Rno cost is too great for the Aryan Race.§!\n\nBefore pursuing a §YGlobalplan§!, it must first be §Yactivated§! with an §Yinitial investment§!. Some §YGlobalpläne§! require §Ycertain conditions§! to be met, such as the §YGlobalpläne§! involving §Ymore distant regions§!.\n\nCurrently we have §Y[?BRG_supplies]§! supplies. Our base supply §Rconsumption§! is §Y[?BRG_supply_consumption]§! per month. Should §BWar Support§! or §BStability§! is below §Y50%§! we will require additional supplies. This starts at §Y1§! extra per month and increases to §Y2§! if its below §Y0%§! and §3§! supplies if below §Y-50%.§! The penalites for §Bstability§! and §BWar Support§! are seperate and stack.\nWe have been pursuing our current Globalplan for §Y[?BRG_gp_months_counter]§! months which increases §Rconsumption§! by an additional §Y[?BRG_additional_supply_consumption]§! every month. Running out of supplies would have §Rcatastrophic§! consequences for our stability.\n\nOnce activated, a §YGlobalplan§! may be cancelled at any time, returning a portion of the initial investment, but also preventing the activation of §YGlobalpläne§! for §R6 months§!.\n\n§ROnly one Globalplan may be active at a time.§!"
+ BRG_globalplan_overview_category_desc:0 "  세계계획 상태 개요:\n   - 세계계획 §Y볼프§!:       [BRG_Get_GP_Wolf_Status]\n   - 세계계획 §Y콘도르§!:     [BRG_Get_GP_Kondor_Status]\n   - 세계계획 §Y아들러§!:      [BRG_Get_GP_Adler_Status]\n   - 세계계획 §Y크로네§!:      [BRG_Get_GP_Lowe_Status]\n   - 세계계획 §Y베어§!:        [BRG_Get_GP_Bar_Status]\n\n  - 세계계획 §Y존네§!:      [BRG_Get_GP_Sonne_Status]\n   - 세계계획 §Y드라허§!:     [BRG_Get_GP_Drache_Status]\n   - 세계계획 §Y슈베르트§!:    [BRG_Get_GP_Puma_Status]\n\n\n모든 위대한 설계를 추구하는 데 있어 세심한 계획은 성공을 보장하는 비결입니다. 이런 점에서는 SS국가지도자의 야망도 다르지 않습니다. 이를 위해 세계계획은 영광스러운 아리아인의 운명을 실현하는 역할을 합니다. 당연히, 열등 인종에 간섭하는 것은 비용이 많이 들고 오래 걸립니다.다행히 기사단국은 우리에게 적절한 자원을 제공합니다.\n\n§R잠긴§! §Y세계계획§!을 §Y활성화§!하기 위해서는 각각의 결정을 통한 상당한 §Y투자§!와 적절한 §Y준비§!가 필요합니다.\n\n일단 해금된다면, §Y세계계획§!은 §Y활성화§!될 것이며 §Y언제든지 가동될 수 있습니다§!.\n만약 계획이 §O진행 중§!이라면, §Y최종 목표§!를 이루기 위해 다른 주의 §Y이벤트에 영향을 미치도록§! §Y국가 중점§!과 §Y결정§!을 이용할 수 있습니다.\n\n만약 정해진 지역에서 작전 능력을 §Y다 써버리면§!, 각각의 §Y세계계획§!은 수행 수준에 상관없이 §G완료§!될 것입니다."
+ BRG_GUI_Info_tt:0 "§!§Y세계계획§!은 국가지도자의 §Y최종 목표§!를 이루기 위한 세심한 계획을 말합니다. 각각의 §Y세계계획§!은 세계의 §Y주요 나라§!들에 영향을 미치도록 설계된 계획입니다. 물론 지정학적인 관계를 다루는 것은 쉽지 않으며 엄청난 양의 자원이 필요합니다. 하지만 언젠가 §Y최종 목표§!가 달성된다면, §R아리아 인종을 위해서라면 어떠한 비용도 감수할 수 있습니다§!.\n\n§Y세계계획§!을 시작하기 전에, 먼저 §Y초기 투자§!가 §Y활성화§!되어야 합니다. 몇몇 §Y먼 지역§!에 영향을 미치는 §Y세계계획§!은 §Y특정한 조건§!을 필요로 합니다.\n\n현재 우리는 §Y[?BRG_supplies]§!만큼의 물자를 가지고 있습니다. 기본 물자 §R소비량§!은 월당 §Y[?BRG_supply_consumption]§!입니다. 만약 §B전쟁 지지도§!나 §B안정도§!가 §Y50%§! 이하라면 물자가 추가로 더 필요할 것입니다. 이는 월당 §Y1§!만큼의 물자를 시작으로 §Y0%§! 이하로 떨어지면 §Y2§!, §Y-50%§! 이하로 떨어지면 §3§! 만큼의 물자를 추가로 사용할 것입니다. §B안정도§!와 §B전쟁 지지도§!에 따른 페널티는 각각 계산되어 합산됩니다.\n우린 §Y[?BRG_gp_months_counter]§!개월 만큼 현 세계계획을 시행하고 있으며, 이는 월간 §R소모량§!을 §Y[?BRG_additional_supply_consumption]§!만큼 늘릴 것입니다. 물자가 소진되면 이는 안정도에 §R치명적인 결과§!를 가져올 것입니다.\n\n일단 활성화되면, §Y세계계획§!은 언제나 취소될 수 있으며, 취소한다면 초기 투자의 일부분을 회수할 수 있지만 §Y세계계획§!을 다시 시작하는데 §R6개월§!이 더 필요할 것입니다.\n\n§R한 번에 하나의 세계계획 만을 활성화할 수 있습니다.§!"
 
  BRG_GP_Cooldown_Trigger_tt:0 "[BRG.BRG_Get_GP_Cooldown_tt]"
- BRG_GP_off_cooldown_no:0 "£GFX_trigger_no §YGlobalplan Cooldown§! is currently NOT active"
- BRG_GP_off_cooldown_yes:0 "£GFX_trigger_yes §YGlobalplan Cooldown§! is currently NOT active"
- BRG_GP_Timeout_Mission_remove:0 "Allow the §GActivation§! of §YGlobalpläne§!"
+ BRG_GP_off_cooldown_no:0 "£GFX_trigger_no §Y세계계획 대기시간§!이 현재 활성화되지 않음"
+ BRG_GP_off_cooldown_yes:0 "£GFX_trigger_yes §Y세계계획 대기시간§!이 현재 활성화되지 않음"
+ BRG_GP_Timeout_Mission_remove:0 "§Y세계계획§! §G활성화§!를 허가"
 
- BRG_no_other_GP_active_no:0 "£GFX_trigger_no Does NOT have an activate §YGlobalplan§! §Oin progress§!"
- BRG_no_other_GP_active_yes:0 "£GFX_trigger_yes Does NOT have an activate §YGlobalplan§! §Oin progress§!"
+ BRG_no_other_GP_active_no:0 "£GFX_trigger_no §O현재 활성화된§! 다른 §Y세계계획§!이 없음"
+ BRG_no_other_GP_active_yes:0 "£GFX_trigger_yes §O현재 활성화된§! 다른 §Y세계계획§!이 없음"
 
- BRG_GUI_Plan_Header_Wolf_tt:0 "§Y세계계획 볼프§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
- BRG_GUI_Plan_Header_Adler_tt:0 "§YGlobalplan Adler§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
- BRG_GUI_Plan_Header_Bar_tt:0 "§YGlobalplan Bär§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
- BRG_GUI_Plan_Header_Drache_tt:0 "§YGlobalplan Drache§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
- BRG_GUI_Plan_Header_Kondor_tt:0 "§Y세계계획 콘도르§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
- BRG_GUI_Plan_Header_Lowe_tt:0 "§YGlobalplan Löwe§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
- BRG_GUI_Plan_Header_Puma_tt:0 "§YGlobalplan Puma§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
- BRG_GUI_Plan_Header_Sonne_tt:0 "§YGlobalplan Sonne§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."#
+ BRG_GUI_Plan_Header_Wolf_tt:0 "현재 §Y세계계획 볼프§!를 §Y세계계획§!으로 지정했습니다.\n\n현재 이 §Y세계계획§!과 관련된 행동 및 국가 중점을 볼 수 있습니다.\n\n다른 §Y활성화된 세계계획§!으로 전환하고 싶다면, 각각의 §Y세계계획§! 칸 아래를 누르십시오."
+ BRG_GUI_Plan_Header_Adler_tt:0 "현재 §Y세계계획 아들러§!를 §Y세계계획§!으로 지정했습니다.\n\n현재 이 §Y세계계획§!과 관련된 행동 및 국가 중점을 볼 수 있습니다.\n\n다른 §Y활성화된 세계계획§!으로 전환하고 싶다면, 각각의 §Y세계계획§! 칸 아래를 누르십시오."
+ BRG_GUI_Plan_Header_Bar_tt:0 "현재 §Y세계계획 베어§!를 §Y세계계획§!으로 지정했습니다.\n\n현재 이 §Y세계계획§!과 관련된 행동 및 국가 중점을 볼 수 있습니다.\n\n다른 §Y활성화된 세계계획§!으로 전환하고 싶다면, 각각의 §Y세계계획§! 칸 아래를 누르십시오."
+ BRG_GUI_Plan_Header_Drache_tt:0 "현재 §Y세계계획 드라허§!를 §Y세계계획§!으로 지정했습니다.\n\n현재 이 §Y세계계획§!과 관련된 행동 및 국가 중점을 볼 수 있습니다.\n\n다른 §Y활성화된 세계계획§!으로 전환하고 싶다면, 각각의 §Y세계계획§! 칸 아래를 누르십시오."
+ BRG_GUI_Plan_Header_Kondor_tt:0 "현재 §Y세계계획 콘도르§!를 §Y세계계획§!으로 지정했습니다.\n\n현재 이 §Y세계계획§!과 관련된 행동 및 국가 중점을 볼 수 있습니다.\n\n다른 §Y활성화된 세계계획§!으로 전환하고 싶다면, 각각의 §Y세계계획§! 칸 아래를 누르십시오."
+ BRG_GUI_Plan_Header_Lowe_tt:0 "현재 §Y세계계획 뢰베§!를 §Y세계계획§!으로 지정했습니다.\n\n현재 이 §Y세계계획§!과 관련된 행동 및 국가 중점을 볼 수 있습니다.\n\n다른 §Y활성화된 세계계획§!으로 전환하고 싶다면, 각각의 §Y세계계획§! 칸 아래를 누르십시오."
+ BRG_GUI_Plan_Header_Puma_tt:0 "현재 §Y세계계획 퓨마§!를 §Y세계계획§!으로 지정했습니다.\n\n현재 이 §Y세계계획§!과 관련된 행동 및 국가 중점을 볼 수 있습니다.\n\n다른 §Y활성화된 세계계획§!으로 전환하고 싶다면, 각각의 §Y세계계획§! 칸 아래를 누르십시오."
+ BRG_GUI_Plan_Header_Sonne_tt:0 "현재 §Y세계계획 존네§!를 §Y세계계획§!으로 지정했습니다.\n\n현재 이 §Y세계계획§!과 관련된 행동 및 국가 중점을 볼 수 있습니다.\n\n다른 §Y활성화된 세계계획§!으로 전환하고 싶다면, 각각의 §Y세계계획§! 칸 아래를 누르십시오."#
 
- BRG_GUI_Kondor_Status_Box_tt:0 "§Y세계계획 콘도르§! (Iberia)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Kondor_Status_tt]"
- BRG_GUI_Wolf_Status_Box_tt:0 "§Y세계계획 볼프§! (Italian Sphere)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Wolf_Status_tt]"
- BRG_GUI_Lowe_Status_Box_tt:0 "§YGlobalplan Löwe§! (Britain)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Lowe_Status_tt]"
- BRG_GUI_Bar_Status_Box_tt:0 "§YGlobalplan Bär§! (Russia)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Bar_Status_tt]"
- BRG_GUI_Drache_Status_Box_tt:0 "§YGlobalplan Drache§! (China)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Drache_Status_tt]"
- BRG_GUI_Sonne_Status_Box_tt:0 "§YGlobalplan Sonne§! (Japan)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Sonne_Status_tt]"
- BRG_GUI_Adler_Status_Box_tt:0 "§YGlobalplan Adler§! (Germany)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Adler_Status_tt]"
- BRG_GUI_Puma_Status_Box_tt:0 "§YGlobalplan Puma§! (USA)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Puma_Status_tt]"
+ BRG_GUI_Kondor_Status_Box_tt:0 "§Y세계계획 콘도르§! (이베리아)\n\n이 §Y세계계획§!의 상태는 다음과 같습니다 :  [BRG.BRG_Get_GP_Kondor_Status_tt]"
+ BRG_GUI_Wolf_Status_Box_tt:0 "§Y세계계획 볼프§! (이탈리아 영향권)\n\n이 §Y세계계획§!의 상태는 다음과 같습니다 :  [BRG.BRG_Get_GP_Wolf_Status_tt]"
+ BRG_GUI_Lowe_Status_Box_tt:0 "§Y세계계획 뢰베§! (영국)\n\n이 §Y세계계획§!의 상태는 다음과 같습니다 :  [BRG.BRG_Get_GP_Lowe_Status_tt]"
+ BRG_GUI_Bar_Status_Box_tt:0 "§Y세계계획 베어§! (러시아)\n\n이 §Y세계계획§!의 상태는 다음과 같습니다 :  [BRG.BRG_Get_GP_Bar_Status_tt]"
+ BRG_GUI_Drache_Status_Box_tt:0 "§Y세계계획 드라허§! (중국)\n\n이 §Y세계계획§!의 상태는 다음과 같습니다 :  [BRG.BRG_Get_GP_Drache_Status_tt]"
+ BRG_GUI_Sonne_Status_Box_tt:0 "§Y세계계획 존네§! (일본)\n\n이 §Y세계계획§!의 상태는 다음과 같습니다 :  [BRG.BRG_Get_GP_Sonne_Status_tt]"
+ BRG_GUI_Adler_Status_Box_tt:0 "§Y세계계획 아들러§! (독일)\n\n이 §Y세계계획§!의 상태는 다음과 같습니다 :  [BRG.BRG_Get_GP_Adler_Status_tt]"
+ BRG_GUI_Puma_Status_Box_tt:0 "§Y세계계획 퓨마§! (미국)\n\n이 §Y세계계획§!의 상태는 다음과 같습니다 :  [BRG.BRG_Get_GP_Puma_Status_tt]"
 
- BRG_GUI_Adler_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §YGlobalplan Adler§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n   [BRG_GP_Active_tt]\n\nThe §YGlobalplan§! will be §Yunlocked§! automatically as soon as the requirements are met.\n\nOnce §Yunlocked§!, §Yactivating§! this §YGlobalplan§! will §Rconsume§! the following Resources:\n\n   §R[?BRG_gp_activation_cost]§! supplies\n"
- BRG_GUI_Adler_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§YGlobalplan Adler§! can be §Yactivated§! if the following requirements are met:\n   \n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R[?BRG_gp_activation_cost]§! supplies"
- BRG_GUI_Adler_Cancel_Button_tt:0 "This §YGlobalplan§! is currently §OIN PROGRESS§!.\n\nClick to §Ycancel§! the §YGlobalplan§!.\n§YCancelling§! the §YGlobalplan§! will return the following Resources:\n\nOnce a §YGlobalplan§! has been cancelled, Globalpläne cannot be §Yactivated§! again for §Rsix months§!. Furthermore, §Yreactivating§! the §YGlobalplan§! will §Rconsume additional Resources§!."
- BRG_GUI_Adler_Complete_Button_tt:0 "This §YGlobalplan§! is §GCOMPLETE§!.\n\nRegardless of the outcome, all options available to us have been exhausted. Only time will tell if the §YGlobalplan§! §Radvances our ambitions...§!"
+ BRG_GUI_Adler_Activate_Unavailable_Button_tt:0 "이 §Y세계계획§!은 현재 §R잠겨있습니다§!. 잠긴 §Y세계계획§!은 특정 조건을 만족할 때까지 §Y활성화§!할 수 없습니다. §Y세계계획 아들러§!는 다음 조건을 만족하면 §Y자동적으로 풀릴 것입니다§!:\n   [BRG_Get_GP_Cooldown_tt]\n   [BRG_GP_Active_tt]\n\n§Y세계계획§!은 조건을 만족하면 자동적으로 §Y풀릴 것입니다§!.\n\n§Y세계계획§!이 해금되면, 이를 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n   §R[?BRG_gp_activation_cost]§!개의 물자\n"
+ BRG_GUI_Adler_Activate_Available_Button_tt:0 "이 §Y세계계획§!은 현재 §Y수행 가능합니다§!.\n\n§Y세계계획 아들러§!는 다음 조건을 만족하면 §Y활성화§!할 수 있습니다.\n   \n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n§R[?BRG_gp_activation_cost]§!개의 물자"
+ BRG_GUI_Adler_Cancel_Button_tt:0 "이 §Y세계계획§!은 현재 §O진행 중§!입니다.\n\n§Y세계계획§!을 §Y취소§!하려면 누르십시오.\n§Y세계계획§!을 §Y취소§!하는 것은 다음 자원을 반환할 것입니다:\n\n§Y세계계획§!이 취소되면 §R6개월§! 안에 세계계획을 다시 §Y활성화§!할 수 없습니다. §Y세계계획§!을 §Y재활성화§!하기 위해서는 §추가로 자원을 소모해야 합니다§!."
+ BRG_GUI_Adler_Complete_Button_tt:0 "이 §Y세계계획§!은 §G완료§!되었습니다.\n\n결과에 상관없이 허용되었던 모든 선택지가 사라졌습니다. §Y세계계획§!이 §R우리의 야망을 전진시켰는 지§!는 시간만이 알려줄 것입니다..."
 
- BRG_GUI_Sonne_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §YGlobalplan Sonne§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n   [BRG_GP_Active_tt]\n   [BRG_Get_GP_Sonne_Unlock_Trigger_1]\n   [BRG_Get_GP_Sonne_Unlock_Trigger_2]\n\nThe §YGlobalplan§! will be §Yunlocked§! automatically as soon as the requirements are met.\n\nOnce §Yunlocked§!, §Yactivating§! this §YGlobalplan§! will §Rconsume§! the following Resources:\n   §RSTRENG GEHEIM§!"
- BRG_GUI_Sonne_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§YGlobalplan Sonne§! can be §Yactivated§! if the following requirements are met:\n   \n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:"
+ BRG_GUI_Sonne_Activate_Unavailable_Button_tt:0 "이 §Y세계계획§!은 현재 §R잠겨있습니다§!. 잠긴 §Y세계계획§!은 특정 조건을 만족할 때까지 §Y활성화§!할 수 없습니다. §Y세계계획 존네§!는 다음 조건을 만족하면 §Y자동적으로 풀릴 것입니다§!:\n   [BRG_Get_GP_Cooldown_tt]\n   [BRG_GP_Active_tt]\n   [BRG_Get_GP_Sonne_Unlock_Trigger_1]\n   [BRG_Get_GP_Sonne_Unlock_Trigger_2]\n\n§Y세계계획§!은 조건을 만족하면 자동적으로 §Y풀릴 것입니다§!.\n\n§Y세계계획§!이 해금되면, 이를 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n   §RSTRENG GEHEIM§!"
+ BRG_GUI_Sonne_Activate_Available_Button_tt:0 "이 §Y세계계획§!은 현재 §Y수행 가능합니다§!.\n\n§Y세계계획 존네§!는 다음 조건을 만족하면 §Y활성화§!할 수 있습니다.\n   \n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:"
  BRG_GP_Sonne_Unlock_1_true:0 "£GFX_trigger_yes After §Y1:00, 1 Jan, 1972§!"
  BRG_GP_Sonne_Unlock_1_false:0 "£GFX_trigger_no After §Y1:00, 1 Jan, 1972§!"
  BRG_GP_Sonne_Unlock_2_true:0 "£GFX_trigger_yes The target area of this §YGlobalplan§! sits at the edge of our reach. Setting up a reliable network of spies and agents will require an unprecedented amount of resources, even moreso if we were to influence the events in this region.\n\nAlthough this §YGlobalplan§! may become more feasible §Yin the coming decade§!, we should direct our attention towards the actors in our closer neighbourhood for now."
  BRG_GP_Sonne_Unlock_2_false:0 "£GFX_trigger_no The target area of this §YGlobalplan§! sits at the edge of our reach. Setting up a reliable network of spies and agents will require an unprecedented amount of resources, even moreso if we were to influence the events in this region.\n\nAlthough this §YGlobalplan§! may become more feasible §Yin the coming decade§!, we should direct our attention towards the actors in our closer neighbourhood for now."
- BRG_GUI_Sonne_Cancel_Button_tt:0 "This §YGlobalplan§! is currently §OIN PROGRESS§!.\n\nClick to §Ycancel§! the §YGlobalplan§!.\n§YCancelling§! the §YGlobalplan§! will return the following Resources:\n\nOnce a §YGlobalplan§! has been cancelled, Globalpläne cannot be §Yactivated§! again for §Rsix months§!. Furthermore, §Yreactivating§! the §YGlobalplan§! will §Rconsume additional Resources§!."
- BRG_GUI_Sonne_Complete_Button_tt:0 "This §YGlobalplan§! is §GCOMPLETE§!.\n\nRegardless of the outcome, all options available to us have been exhausted. Only time will tell if the §YGlobalplan§! §Radvances our ambitions...§!"
+ BRG_GUI_Sonne_Cancel_Button_tt:0 "이 §Y세계계획§!은 현재 §O진행 중§!입니다.\n\n§Y세계계획§!을 §Y취소§!하려면 누르십시오.\n§Y세계계획§!을 §Y취소§!하는 것은 다음 자원을 반환할 것입니다:\n\n§Y세계계획§!이 취소되면 §R6개월§! 안에 세계계획을 다시 §Y활성화§!할 수 없습니다. §Y세계계획§!을 §Y재활성화§!하기 위해서는 §추가로 자원을 소모해야 합니다§!."
+ BRG_GUI_Sonne_Complete_Button_tt:0 "이 §Y세계계획§!은 §G완료§!되었습니다.\n\n결과에 상관없이 허용되었던 모든 선택지가 사라졌습니다. §Y세계계획§!이 §R우리의 야망을 전진시켰는 지§!는 시간만이 알려줄 것입니다..."
 
- BRG_GUI_Drache_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §YGlobalplan Drache§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n   [BRG_GP_Active_tt]\n   [BRG_Get_GP_Drache_Unlock_Trigger_1]\n   [BRG_Get_GP_Drache_Unlock_Trigger_2]\n\nThe §YGlobalplan§! will be §Yunlocked§! automatically as soon as the requirements are met.\n\nOnce §Yunlocked§!, §Yactivating§! this §YGlobalplan§! will §Rconsume§! the following Resources:\n   §RSTRENG GEHEIM§!"
- BRG_GUI_Drache_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§YGlobalplan Drache§! can be §Yactivated§! if the following requirements are met:\n   \n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:"
+ BRG_GUI_Drache_Activate_Unavailable_Button_tt:0 "이 §Y세계계획§!은 현재 §R잠겨있습니다§!. 잠긴 §Y세계계획§!은 특정 조건을 만족할 때까지 §Y활성화§!할 수 없습니다. §Y세계계획 드라허§!는 다음 조건을 만족하면 §Y자동적으로 풀릴 것입니다§!:\n   [BRG_Get_GP_Cooldown_tt]\n   [BRG_GP_Active_tt]\n   [BRG_Get_GP_Drache_Unlock_Trigger_1]\n   [BRG_Get_GP_Drache_Unlock_Trigger_2]\n\n§Y세계계획§!은 조건을 만족하면 자동적으로 §Y풀릴 것입니다§!.\n\n§Y세계계획§!이 해금되면, 이를 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n   §RSTRENG GEHEIM§!"
+ BRG_GUI_Drache_Activate_Available_Button_tt:0 "이 §Y세계계획§!은 현재 §Y수행 가능합니다§!.\n\n§Y세계계획 드라허§!는 다음 조건을 만족하면 §Y활성화§!할 수 있습니다.\n   \n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:"
  BRG_GP_Drache_Unlock_1_true:0 "£GFX_trigger_yes After §Y1:00, 1 Jan, 1972§!"
  BRG_GP_Drache_Unlock_1_false:0 "£GFX_trigger_no After §Y1:00, 1 Jan, 1972§!"
  BRG_GP_Drache_Unlock_2_true:0 "£GFX_trigger_yes The target area of this §YGlobalplan§! sits at the edge of our reach. Setting up a reliable network of spies and agents will require an unprecedented amount of resources, even moreso if we were to influence the events in this region.\n\nAlthough this §YGlobalplan§! may become more feasible §Yin the coming decade§!, we should direct our attention towards the actors in our closer neighbourhood for now."
  BRG_GP_Drache_Unlock_2_false:0 "£GFX_trigger_no The target area of this §YGlobalplan§! sits at the edge of our reach. Setting up a reliable network of spies and agents will require an unprecedented amount of resources, even moreso if we were to influence the events in this region.\n\nAlthough this §YGlobalplan§! may become more feasible §Yin the coming decade§!, we should direct our attention towards the actors in our closer neighbourhood for now."
- BRG_GUI_Drache_Cancel_Button_tt:0 "This §YGlobalplan§! is currently §OIN PROGRESS§!.\n\nClick to §Ycancel§! the §YGlobalplan§!.\n§YCancelling§! the §YGlobalplan§! will return the following Resources:\n\nOnce a §YGlobalplan§! has been cancelled, Globalpläne cannot be §Yactivated§! again for §Rsix months§!. Furthermore, §Yreactivating§! the §YGlobalplan§! will §Rconsume additional Resources§!."
- BRG_GUI_Drache_Complete_Button_tt:0 "This §YGlobalplan§! is §GCOMPLETE§!.\n\nRegardless of the outcome, all options available to us have been exhausted. Only time will tell if the §YGlobalplan§! §Radvances our ambitions...§!"
+ BRG_GUI_Drache_Cancel_Button_tt:0 "이 §Y세계계획§!은 현재 §O진행 중§!입니다.\n\n§Y세계계획§!을 §Y취소§!하려면 누르십시오.\n§Y세계계획§!을 §Y취소§!하는 것은 다음 자원을 반환할 것입니다:\n\n§Y세계계획§!이 취소되면 §R6개월§! 안에 세계계획을 다시 §Y활성화§!할 수 없습니다. §Y세계계획§!을 §Y재활성화§!하기 위해서는 §추가로 자원을 소모해야 합니다§!."
+ BRG_GUI_Drache_Complete_Button_tt:0 "이 §Y세계계획§!은 §G완료§!되었습니다.\n\n결과에 상관없이 허용되었던 모든 선택지가 사라졌습니다. §Y세계계획§!이 §R우리의 야망을 전진시켰는 지§!는 시간만이 알려줄 것입니다..."
 
 
- BRG_GUI_Lowe_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §YGlobalplan Löwe§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n   [BRG_GP_Active_tt]\n   [BRG_Get_GP_Lowe_Unlock_Trigger_1]\n\nThe §YGlobalplan§! will be §Yunlocked§! automatically as soon as the requirements are met.\n\nOnce §Yunlocked§!, §Yactivating§! this §YGlobalplan§! will §Rconsume§! the following Resources:\n\n   §R[?BRG_gp_activation_cost]§! supplies\n"
- BRG_GUI_Lowe_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§YGlobalplan Löwe§! can be §Yactivated§! if the following requirements are met:\n   \n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n   §R[?BRG_gp_activation_cost]§! supplies"
+ BRG_GUI_Lowe_Activate_Unavailable_Button_tt:0 "이 §Y세계계획§!은 현재 §R잠겨있습니다§!. 잠긴 §Y세계계획§!은 특정 조건을 만족할 때까지 §Y활성화§!할 수 없습니다. §Y세계계획 뢰베§!는 다음 조건을 만족하면 §Y자동적으로 풀릴 것입니다§!:\n   [BRG_Get_GP_Cooldown_tt]\n   [BRG_GP_Active_tt]\n   [BRG_Get_GP_Lowe_Unlock_Trigger_1]\n\n§Y세계계획§!은 조건을 만족하면 자동적으로 §Y풀릴 것입니다§!.\n\n§Y세계계획§!이 해금되면, 이를 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n   §R[?BRG_gp_activation_cost]§!개의 물자\n"
+ BRG_GUI_Lowe_Activate_Available_Button_tt:0 "이 §Y세계계획§!은 현재 §Y수행 가능합니다§!.\n\n§YGlobalplan Löwe§!는 다음 조건을 만족하면 §Y활성화§!할 수 있습니다.\n   \n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n   §R[?BRG_gp_activation_cost]§!개의 물자"
  BRG_GP_Lowe_Unlock_1_true:0 "£GFX_trigger_yes §RD%Ta _C0R!UpTE€ OR&UnRE5DA)Le§!"
  BRG_GP_Lowe_Unlock_1_false:0 "£GFX_trigger_no §RD%Ta _C0R!UpTE€ OR&UnRE5DA)Le§!"
- BRG_GUI_Lowe_Cancel_Button_tt:0 "This §YGlobalplan§! is currently §OIN PROGRESS§!.\n\nClick to §Ycancel§! the §YGlobalplan§!.\n§YCancelling§! the §YGlobalplan§! will return the following Resources:\n\nOnce a §YGlobalplan§! has been cancelled, Globalpläne cannot be §Yactivated§! again for §Rsix months§!. Furthermore, §Yreactivating§! the §YGlobalplan§! will §Rconsume additional Resources§!."
- BRG_GUI_Lowe_Complete_Button_tt:0 "This §YGlobalplan§! is §GCOMPLETE§!.\n\nRegardless of the outcome, all options available to us have been exhausted. Only time will tell if the §YGlobalplan§! §Radvances our ambitions...§!"
+ BRG_GUI_Lowe_Cancel_Button_tt:0 "이 §Y세계계획§!은 현재 §O진행 중§!입니다.\n\n§Y세계계획§!을 §Y취소§!하려면 누르십시오.\n§Y세계계획§!을 §Y취소§!하는 것은 다음 자원을 반환할 것입니다:\n\n§Y세계계획§!이 취소되면 §R6개월§! 안에 세계계획을 다시 §Y활성화§!할 수 없습니다. §Y세계계획§!을 §Y재활성화§!하기 위해서는 §추가로 자원을 소모해야 합니다§!."
+ BRG_GUI_Lowe_Complete_Button_tt:0 "이 §Y세계계획§!은 §G완료§!되었습니다.\n\n결과에 상관없이 허용되었던 모든 선택지가 사라졌습니다. §Y세계계획§!이 §R우리의 야망을 전진시켰는 지§!는 시간만이 알려줄 것입니다..."
 
 
  ####################################################
@@ -140,13 +140,13 @@
  ############
  #####################################################
 
- BRG_GUI_Wolf_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §Y세계계획 콘도르§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+ BRG_GUI_Wolf_Activate_Unavailable_Button_tt:0 "이 §Y세계계획§!은 현재 §R잠겨있습니다§!. 잠긴 §Y세계계획§!은 특정 조건을 만족할 때까지 §Y활성화§!할 수 없습니다. §Y세계계획 콘도르§!는 다음 조건을 만족하면 §Y자동적으로 풀릴 것입니다§!:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
- BRG_GUI_Wolf_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§Y세계계획 콘도르§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+ BRG_GUI_Wolf_Activate_Available_Button_tt:0 "이 §Y세계계획§!은 현재 §Y수행 가능합니다§!.\n\n§Y세계계획 콘도르§!는 다음 조건을 만족하면 §Y활성화§!할 수 있습니다.\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
- BRG_GUI_Wolf_Cancel_Button_tt:0 "This §YGlobalplan§! is currently §OIN PROGRESS§!.\n\nClick to §Ycancel§! the §YGlobalplan§!.\n§YCancelling§! the §YGlobalplan§! will return the following Resources:\n[BRG_Get_GP_Kondor_Cancel_Return]\n\n§RThe amount of returned resources depends on the progress of the§! §YGlobalplan§!§R. As the§! §YGlobalplan§! §Rprogresses further, more Resources will become irretrievable.§!\n\nOnce a §YGlobalplan§! has been cancelled, Globalpläne cannot be §Yactivated§! again for §Rsix months§!. Furthermore, §Yreactivating§! the §YGlobalplan§! will §Rconsume additional Resources§!"
+ BRG_GUI_Wolf_Cancel_Button_tt:0 "이 §Y세계계획§!은 현재 §O진행 중§!입니다.\n\n§Y세계계획§!을 §Y취소§!하려면 누르십시오.\n§Y세계계획§!을 §Y취소§!하는 것은 다음 자원을 반환할 것입니다:\n[BRG_Get_GP_Kondor_Cancel_Return]\n\n§R반환되는 자원의 양은§! §Y세계계획§!§R이 얼마나 진행되었는지에 달려있습니다.§! §Y세계계획§!§R이 더 많이 진행되었다면, 더 적은 양의 자원을 반환받을 것입니다.§!\n\n§Y세계계획§!이 취소되면 §R6개월§! 안에 세계계획을 다시 §Y활성화§!할 수 없습니다. §Y세계계획§!을 §Y재활성화§!하기 위해서는 §추가로 자원을 소모해야 합니다§!."
 
- BRG_GUI_Wolf_Complete_Button_tt:0 "This §YGlobalplan§! is §GCOMPLETE§!.\n\nRegardless of the outcome, all options available to us have been exhausted. Only time will tell if the §YGlobalplan§! §Radvances our ambitions...§!"
+ BRG_GUI_Wolf_Complete_Button_tt:0 "이 §Y세계계획§!은 §G완료§!되었습니다.\n\n결과에 상관없이 허용되었던 모든 선택지가 사라졌습니다. §Y세계계획§!이 §R우리의 야망을 전진시켰는 지§!는 시간만이 알려줄 것입니다..."
 
 
 
@@ -174,17 +174,17 @@
 
  ### Activate Available button loc
 
- BRG_GUI_Kondor_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§Y세계계획 콘도르§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+ BRG_GUI_Kondor_Activate_Available_Button_tt:0 "이 §Y세계계획§!은 현재 §Y수행 가능합니다§!.\n\n§Y세계계획 콘도르§!는 다음 조건을 만족하면 §Y활성화§!할 수 있습니다.\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
  ### Activate Unavailable  button loc
- BRG_GUI_Kondor_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §Y세계계획 콘도르§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+ BRG_GUI_Kondor_Activate_Unavailable_Button_tt:0 "이 §Y세계계획§!은 현재 §R잠겨있습니다§!. 잠긴 §Y세계계획§!은 특정 조건을 만족할 때까지 §Y활성화§!할 수 없습니다. §Y세계계획 콘도르§!는 다음 조건을 만족하면 §Y자동적으로 풀릴 것입니다§!:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
  ### Cancel button loc
 
- BRG_GUI_Kondor_Cancel_Button_tt:0 "This §YGlobalplan§! is currently §OIN PROGRESS§!.\n\nClick to §Ycancel§! the §YGlobalplan§!.\n§YCancelling§! the §YGlobalplan§! will return the following Resources:\n[BRG_Get_GP_Kondor_Cancel_Return]\n\n§RThe amount of returned resources depends on the progress of the§! §YGlobalplan§!§R. As the§! §YGlobalplan§! §Rprogresses further, more Resources will become irretrievable.§!\n\nOnce a §YGlobalplan§! has been cancelled, Globalpläne cannot be §Yactivated§! again for §Rsix months§!. Furthermore, §Yreactivating§! the §YGlobalplan§! will §Rconsume additional Resources§!."
+ BRG_GUI_Kondor_Cancel_Button_tt:0 "이 §Y세계계획§!은 현재 §O진행 중§!입니다.\n\n§Y세계계획§!을 §Y취소§!하려면 누르십시오.\n§Y세계계획§!을 §Y취소§!하는 것은 다음 자원을 반환할 것입니다:\n[BRG_Get_GP_Kondor_Cancel_Return]\n\n§R반환되는 자원의 양은§! §Y세계계획§!§R이 얼마나 진행되었는지에 달려있습니다.§! §Y세계계획§!§R이 더 많이 진행되었다면, 더 적은 양의 자원을 반환받을 것입니다.§!\n\n§Y세계계획§!이 취소되면 §R6개월§! 안에 세계계획을 다시 §Y활성화§!할 수 없습니다. §Y세계계획§!을 §Y재활성화§!하기 위해서는 §추가로 자원을 소모해야 합니다§!."
 
  ### Complete button loc
- BRG_GUI_Kondor_Complete_Button_tt:0 "This §YGlobalplan§! is §GCOMPLETE§!.\n\nRegardless of the outcome, all options available to us have been exhausted. Only time will tell if the §YGlobalplan§! §Radvances our ambitions...§!"
+ BRG_GUI_Kondor_Complete_Button_tt:0 "이 §Y세계계획§!은 §G완료§!되었습니다.\n\n결과에 상관없이 허용되었던 모든 선택지가 사라졌습니다. §Y세계계획§!이 §R우리의 야망을 전진시켰는 지§!는 시간만이 알려줄 것입니다..."
 
 
   ####################################################
@@ -195,19 +195,19 @@
 
   ### Activate Available
 
-  BRG_GUI_Bar_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§Y세계계획 콘도르§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+  BRG_GUI_Bar_Activate_Available_Button_tt:0 "이 §Y세계계획§!은 현재 §Y수행 가능합니다§!.\n\n§Y세계계획 콘도르§!는 다음 조건을 만족하면 §Y활성화§!할 수 있습니다.\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
   ### Activate unavailable
 
-  BRG_GUI_Bar_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §Y세계계획 콘도르§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§!\n\n  §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+  BRG_GUI_Bar_Activate_Unavailable_Button_tt:0 "이 §Y세계계획§!은 현재 §R잠겨있습니다§!. 잠긴 §Y세계계획§!은 특정 조건을 만족할 때까지 §Y활성화§!할 수 없습니다. §Y세계계획 콘도르§!는 다음 조건을 만족하면 §Y자동적으로 풀릴 것입니다§!:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§!\n\n  §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
   ### Cancel Button loc
 
-  BRG_GUI_Bar_Cancel_Button_tt:0 "This §YGlobalplan§! is currently §OIN PROGRESS§!.\n\nClick to §Ycancel§! the §YGlobalplan§!.\n§YCancelling§! the §YGlobalplan§! will return the following Resources:\n[BRG_Get_GP_Kondor_Cancel_Return]\n\n§RThe amount of returned resources depends on the progress of the§! §YGlobalplan§!§R. As the§! §YGlobalplan§! §Rprogresses further, more Resources will become irretrievable.§!\n\nOnce a §YGlobalplan§! has been cancelled, Globalpläne cannot be §Yactivated§! again for §Rsix months§!. Furthermore, §Yreactivating§! the §YGlobalplan§! will §Rconsume additional Resources§!."
+  BRG_GUI_Bar_Cancel_Button_tt:0 "이 §Y세계계획§!은 현재 §O진행 중§!입니다.\n\n§Y세계계획§!을 §Y취소§!하려면 누르십시오.\n§Y세계계획§!을 §Y취소§!하는 것은 다음 자원을 반환할 것입니다:\n[BRG_Get_GP_Kondor_Cancel_Return]\n\n§R반환되는 자원의 양은§! §Y세계계획§!§R이 얼마나 진행되었는지에 달려있습니다.§! §Y세계계획§!§R이 더 많이 진행되었다면, 더 적은 양의 자원을 반환받을 것입니다.§!\n\n§Y세계계획§!이 취소되면 §R6개월§! 안에 세계계획을 다시 §Y활성화§!할 수 없습니다. §Y세계계획§!을 §Y재활성화§!하기 위해서는 §추가로 자원을 소모해야 합니다§!."
 
 
   ### Complete Button loc
-  BRG_GUI_Bar_Complete_Button_tt:0 "This §YGlobalplan§! is §GCOMPLETE§!.\n\nRegardless of the outcome, all options available to us have been exhausted. Only time will tell if the §YGlobalplan§! §Radvances our ambitions...§!"
+  BRG_GUI_Bar_Complete_Button_tt:0 "이 §Y세계계획§!은 §G완료§!되었습니다.\n\n결과에 상관없이 허용되었던 모든 선택지가 사라졌습니다. §Y세계계획§!이 §R우리의 야망을 전진시켰는 지§!는 시간만이 알려줄 것입니다..."
 
   ####################################################
   ############
@@ -217,17 +217,17 @@
 
   ### Activate Available
 
-  BRG_GUI_Puma_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§Y세계계획 콘도르§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!\n\n"
+  BRG_GUI_Puma_Activate_Available_Button_tt:0 "이 §Y세계계획§!은 현재 §Y수행 가능합니다§!.\n\n§Y세계계획 콘도르§!는 다음 조건을 만족하면 §Y활성화§!할 수 있습니다.\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!\n\n"
 
   ### Activate Unavailable
 
-  BRG_GUI_Puma_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §Y세계계획 콘도르§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+  BRG_GUI_Puma_Activate_Unavailable_Button_tt:0 "이 §Y세계계획§!은 현재 §R잠겨있습니다§!. 잠긴 §Y세계계획§!은 특정 조건을 만족할 때까지 §Y활성화§!할 수 없습니다. §Y세계계획 콘도르§!는 다음 조건을 만족하면 §Y자동적으로 풀릴 것입니다§!:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§Y세계계획§!을 §Y활성화§!하는 것은 다음 자원을 §R소모§!할 것입니다:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
   ### Cancel Button loc
 
-  BRG_GUI_Puma_Cancel_Button_tt:0 "This §YGlobalplan§! is currently §OIN PROGRESS§!.\n\nClick to §Ycancel§! the §YGlobalplan§!.\n§YCancelling§! the §YGlobalplan§! will return the following Resources:\n[BRG_Get_GP_Kondor_Cancel_Return]\n\n§RThe amount of returned resources depends on the progress of the§! §YGlobalplan§!§R. As the§! §YGlobalplan§! §Rprogresses further, more Resources will become irretrievable.§!\n\nOnce a §YGlobalplan§! has been cancelled, Globalpläne cannot be §Yactivated§! again for §Rsix months§!. Furthermore, §Yreactivating§! the §YGlobalplan§! will §Rconsume additional Resources§!."
+  BRG_GUI_Puma_Cancel_Button_tt:0 "이 §Y세계계획§!은 현재 §O진행 중§!입니다.\n\n§Y세계계획§!을 §Y취소§!하려면 누르십시오.\n§Y세계계획§!을 §Y취소§!하는 것은 다음 자원을 반환할 것입니다:\n[BRG_Get_GP_Kondor_Cancel_Return]\n\n§R반환되는 자원의 양은§! §Y세계계획§!§R이 얼마나 진행되었는지에 달려있습니다.§! §Y세계계획§!§R이 더 많이 진행되었다면, 더 적은 양의 자원을 반환받을 것입니다.§!\n\n§Y세계계획§!이 취소되면 §R6개월§! 안에 세계계획을 다시 §Y활성화§!할 수 없습니다. §Y세계계획§!을 §Y재활성화§!하기 위해서는 §추가로 자원을 소모해야 합니다§!."
 
-  BRG_GUI_Puma_Complete_Button_tt:0 "This §YGlobalplan§! is §GCOMPLETE§!.\n\nRegardless of the outcome, all options available to us have been exhausted. Only time will tell if the §YGlobalplan§! §Radvances our ambitions...§!"
+  BRG_GUI_Puma_Complete_Button_tt:0 "이 §Y세계계획§!은 §G완료§!되었습니다.\n\n결과에 상관없이 허용되었던 모든 선택지가 사라졌습니다. §Y세계계획§!이 §R우리의 야망을 전진시켰는 지§!는 시간만이 알려줄 것입니다..."
 
  BRG_GUI_currently_selected_gp_tt:0 "Current Active Globalplan:"
  BRG_GP_Locked_text:0 "§RLOCKED§!"
@@ -976,7 +976,7 @@ BRG_prepare_trap_cost:0 "§gSecurity personel§! effectivness willl §Rdecrease�
 ######################## EVENTS
 
 burgundy_political.1.t:0 "기다림"
-burgundy_political.1.desc:0 "회의는 가구가 거의 없는 추운 지하실에서 열릴 것입니다. 신은 비 독일인이 전구가 두 개 매달려 있고 맨 시멘트 바닥에 접이식 철제 의자가 있는 방보다 괜찮은 회의실에 있는 것을 금지했습니다. 드그렐은 담배를 꺼내며 한숨을 내쉬었습니다. 그는 다른 두 부역자를 몰래 훔쳐보았습니다. 그의 동료는 비품만큼이나 형편없었습니다.\n\n샤를마뉴 군단 사령관 크리스티앙 드 라 마지에르는 드그렐의 오른쪽에 앉았습니다. 마지에르는 무의식적으로 경련하여 드그렐을 긴장하게 했습니다. 그래도 드그렐은 잘 알고 있었습니다. 마지에르는 세상으로부터 잊혀진 채 마약에 취해있었고, 그 충혈된 눈은 의심을 확신으로 만들었습니다. 바로 건너편에는 랑게마르크 군단의 광적인 플랑드르인 지도자 베르트 에릭손이 있었는데, 둘 다 '불쾌한' 개자식이었습니다. 에릭손은 드그렐이 옳다는 것을 증명이라도 하듯 계속해서 발로니엔의 지도자를 노려보았습니다.\n\n"베르트, 내가 잘못 안 거 같네만, 자네는 치즈머리들처럼 나한테 구걸하려는 것 같군." 드그렐은 갑자기 쏘아붙이고는 고개를 들고 에릭손이 들어올 때부터 멍하게 자신을 바라보던 시선을 돌려주었습니다. 에릭손은 눈썹을 치켜올리며 멍하게 있었고 비방이 그의 빈틈을 찔렀습니다. 그는 말없이 의자에 뒤로 물러나 앉아 드그렐을 계속 응시했습니다. 드그렐은 에릭손의 움직임을 따라했습니다. 승리는 승리였습니다.\n"이봐." 마지에르가 소리쳤습니다. "우린 SS국가지도자 각하를 만나기로 되어 있는데 왜 여기 밑에 있는 거지?" 드그렐은 어깨를 으쓱이면서 침을 뱉고 담배를 밟아 뭉갰습니다. 에릭손은 시선을 옮겨 마지에르를 내려다 보았습니다.\n\n"아이고, 너무 불쾌해하잖아, 에릭손. 그냥 물어본 것 뿐이라고." 마지에르는 자기 의자에 기대어 한숨을 쉬었습니다. 드그렐과 에릭손은 둘 다 침착한 모습이었지만 그들의 생각은 그렇지 않았습니다. 힘러가 그들을 만난다면, 그들이 왜 이런 퀴퀴한 지하실에 앉아 있겠습니까? 5분간 기다린 끝에 문이 끼익 소리를 내었습니다. SS제복을 입은 젊은 여성이 서류철 셋을 챙긴 채 들어오고 있었습니다.\n\n"여러분," 그녀는 완벽한 독일어로 말을 시작했습니다. "국가지도자께서 안부를 전하셨습니다." 그 말 뒤에 숨은 의미는 분명했습니다. 힘러가 시간을 들일만한 가치가 없다는 것이었습니다.\n\n"여러분 셋은 여기 요약한 바와 같이 중요한 임무를 부여받았습니다." 그녀는 테이블 가운데에 서류철을 떨어뜨렸습니다. "국가지도자께서는 조속히 건물 밖으로 나간 뒤에 내용을 살펴보라고 '부탁'하셨습니다. 끝입니다." 여자는 돌더니 문을 쾅 닫으며 자리를 떴습니다. 에릭손과 마지에르는 얼굴에 놀라움을 드러내며 계속 앉아 있었습니다. 드그렐은 일어서서 서류철 중 하나를 휙 집어 들고 문밖으로 나갔습니다."
+burgundy_political.1.desc:0 "회의는 가구가 거의 없는 추운 지하실에서 열릴 것입니다. 신은 비 독일인이 전구가 두 개 매달려 있고 맨 시멘트 바닥에 접이식 철제 의자가 있는 방보다 괜찮은 회의실에 있는 것을 금지했습니다. 드그렐은 담배를 꺼내며 한숨을 내쉬었습니다. 그는 다른 두 부역자를 몰래 훔쳐보았습니다. 그의 동료는 비품만큼이나 형편없었습니다.\n\n샤를마뉴 군단 사령관 크리스티앙 드 라 마지에르는 드그렐의 오른쪽에 앉았습니다. 마지에르는 무의식적으로 경련하여 드그렐을 긴장하게 했습니다. 그래도 드그렐은 잘 알고 있었습니다. 마지에르는 세상으로부터 잊혀진 채 마약에 취해있었고, 그 충혈된 눈은 의심을 확신으로 만들었습니다. 바로 건너편에는 랑게마르크 군단의 광적인 플란데른인 지도자 베르트 에릭손이 있었는데, 둘 다 '불쾌한' 개자식이었습니다. 에릭손은 드그렐이 옳다는 것을 증명이라도 하듯 계속해서 발로니엔의 지도자를 노려보았습니다.\n\n"베르트, 내가 잘못 안 거 같네만, 자네는 치즈머리들처럼 나한테 구걸하려는 것 같군." 드그렐은 갑자기 쏘아붙이고는 고개를 들고 에릭손이 들어올 때부터 멍하게 자신을 바라보던 시선을 돌려주었습니다. 에릭손은 눈썹을 치켜올리며 멍하게 있었고 비방이 그의 빈틈을 찔렀습니다. 그는 말없이 의자에 뒤로 물러나 앉아 드그렐을 계속 응시했습니다. 드그렐은 에릭손의 움직임을 따라했습니다. 승리는 승리였습니다.\n"이봐." 마지에르가 소리쳤습니다. "우린 SS국가지도자 각하를 만나기로 되어 있는데 왜 여기 밑에 있는 거지?" 드그렐은 어깨를 으쓱이면서 침을 뱉고 담배를 밟아 뭉갰습니다. 에릭손은 시선을 옮겨 마지에르를 내려다 보았습니다.\n\n"아이고, 너무 불쾌해하잖아, 에릭손. 그냥 물어본 것 뿐이라고." 마지에르는 자기 의자에 기대어 한숨을 쉬었습니다. 드그렐과 에릭손은 둘 다 침착한 모습이었지만 그들의 생각은 그렇지 않았습니다. 힘러가 그들을 만난다면, 그들이 왜 이런 퀴퀴한 지하실에 앉아 있겠습니까? 5분간 기다린 끝에 문이 끼익 소리를 내었습니다. SS제복을 입은 젊은 여성이 서류철 셋을 챙긴 채 들어오고 있었습니다.\n\n"여러분," 그녀는 완벽한 독일어로 말을 시작했습니다. "국가지도자께서 안부를 전하셨습니다." 그 말 뒤에 숨은 의미는 분명했습니다. 힘러가 시간을 들일만한 가치가 없다는 것이었습니다.\n\n"여러분 셋은 여기 요약한 바와 같이 중요한 임무를 부여받았습니다." 그녀는 테이블 가운데에 서류철을 떨어뜨렸습니다. "국가지도자께서는 조속히 건물 밖으로 나간 뒤에 내용을 살펴보라고 '부탁'하셨습니다. 끝입니다." 여자는 돌더니 문을 쾅 닫으며 자리를 떴습니다. 에릭손과 마지에르는 얼굴에 놀라움을 드러내며 계속 앉아 있었습니다. 드그렐은 일어서서 서류철 중 하나를 휙 집어 들고 문밖으로 나갔습니다."
 burgundy_political.1.a:0 "It could certainly be worse, all things considered."
 
 
@@ -1026,7 +1026,7 @@ burgundy_political.14.desc:0 "국가지도자는 깨어 있었습니다. 이것�
 burgundy_political.14.a:0 "나약함은 용납될 수 없다. 어떤 경우에도."
 
 burgundy_political.15.t:0 "자넨 해고야"
-burgundy_political.15.desc:0 ""무슈 티리야르? 사무실로 전화가 왔습니다. 비서가 중요한 전화라고 했습니다."\n\n연대지도자는 장교에게 피곤한 듯 고개를 끄덕이며 함께 카드놀이를 하던 장교들에게 손을 내저었습니다. "지금 당장 그곳으로 올라가겠소."\n\n발로니엔 군단 사령부의 계단을 느릿하게 올라가면서 그는 눈에서 나오는 피로를 비벼 없애려고 했습니다. 요즘 밤에 잠을 못자는 날이 너무 많아, 의심을 너무 많이 하잖아. 그는 드그렐이 마침내 버티지 못한 이유를 더 잘 이해했습니다. 그가 사무실로 들어서자 비서는 즉시 책상 위의 전화를 가리키며 "셰프 도맹"이라 말하고는 입을 다물었습니다."\n\n티리야르는 마음속으로는 욕을 퍼부었지만, 최선을 다해 독일어를 구사했습니다. "국가지도자 각하! 오늘 아침에 각하한테서 전화가 오다니 이 얼마나 기쁜 일입니까."\n\n힘러가 듣기에는 평소보다 더 아첨하는 말투였습니다. "정말 기쁘군, 티리야르 경. 티리야르 연대지도자라 말하고 싶지만, 난 SS 군사본부에 자네를 즉시 모든 직책에서 해임하라고 지시했다네."\n\n티리야르는 얼어붙었습니다. "잠깐, 뭐라고 하셨습니까? 그러니까, 다시 한 번 말씀해주십시오, 각하."\n\n"자네는 이로써 모든 직책에서 해방되었다네. 발로니엔 군단은 해체되었고, 장교들은 반역행위에 대한 공식적인 조사가 있을 때까지 감사를 받고 있다네. 구텐 탁, 티리야르 경."\n\n그는 아래에서 독일어와 프랑스어로 뭐라 외치면서 문을 쾅 닫는 소리에 정신이 팔려 문장의 끝을 간신히 들었습니다. 그는 마치 생명줄이라도 되는 것처럼 필사적으로 전화를 받았습니다. "제발, 아닙니다, 각하. 전 항상 충성스러웠습니다. 군단의 일부라도..."\n\n그의 목소리는 상대방의 침묵을 깨달아 점점 가늘어졌습니다. 잠시 후 그는 뒤쪽의 문이 쾅 닫히면서 비명을 질렀습니다. 비서는 총성이 울려 퍼지기 전에 몇 초 동안 돌격하는 병사들과 씨름하려고 애썼고 티리야르와 전화기, 책상을 피, 뇌조각, 뼛조각으로 물들였습니다. 티리야르는 독일 SS 장교들에게 끌려가면서 필사적으로 전화를 붙들었고, 결국 전화선은 끊어지고 말았습니다.\n\n멀리 떨어진 곳에서, 국가지도자께서는 그의 목록에서 어느 한 항목에 가로줄을 그었습니다."
+burgundy_political.15.desc:0 ""무슈 티리야르? 사무실로 전화가 왔습니다. 비서가 중요한 전화라고 했습니다."\n\n연대지도자는 장교에게 피곤한 듯 고개를 끄덕이며 함께 카드놀이를 하던 장교들에게 손을 내저었습니다. "지금 당장 그곳으로 올라가겠소."\n\n발로니엔 군단 사령부의 계단을 느릿하게 올라가면서 그는 눈에서 나오는 피로를 비벼 없애려고 했습니다. 요즘 밤에 잠을 못자는 날이 너무 많아, 의심을 너무 많이 하잖아. 그는 드그렐이 마침내 버티지 못한 이유를 더 잘 이해하게 되었습니다. 그가 사무실로 들어서자 비서는 즉시 책상 위의 전화를 가리키며 "셰프 도맹"이라 말하고는 입을 다물었습니다."\n\n티리야르는 마음속으로는 욕을 퍼부었지만, 최선을 다해 독일어를 구사했습니다. "국가지도자 각하! 오늘 아침에 각하한테서 전화가 오다니 이 얼마나 기쁜 일입니까."\n\n힘러가 듣기에는 평소보다 더 아첨하는 말투였습니다. "정말 기쁘군, 티리야르 경. 티리야르 연대지도자라 말하고 싶지만, 난 SS 군사본부에 자네를 즉시 모든 직책에서 해임하라고 지시했다네."\n\n티리야르는 얼어붙었습니다. "잠깐, 뭐라고 하셨습니까? 그러니까, 다시 한 번 말씀해주십시오, 각하."\n\n"자네는 이로써 모든 직책에서 해방되었다네. 발로니엔 군단은 해체되었고, 장교들은 반역행위에 대한 공식적인 조사가 있을 때까지 감사를 받고 있다네. 구텐 탁, 티리야르 경."\n\n그는 아래에서 독일어와 프랑스어로 뭐라 외치면서 문을 쾅 닫는 소리에 정신이 팔려 문장의 끝을 간신히 들었습니다. 그는 마치 생명줄이라도 되는 것처럼 필사적으로 전화를 받았습니다. "제발, 아닙니다, 각하. 전 항상 충성스러웠습니다. 군단의 일부라도..."\n\n그의 목소리는 상대방의 침묵을 깨달아 점점 가늘어졌습니다. 잠시 후 그는 뒤쪽의 문이 쾅 닫히는 소리에 비명을 질렀습니다. 비서는 총성이 울려 퍼지기 전 몇 초 동안 돌격하는 병사들과 씨름을 하려고 애썼고 티리야르와 전화기, 책상을 피, 뇌조각, 뼛조각으로 물들였습니다. 티리야르는 독일 SS 장교들에게 끌려가면서 필사적으로 전화를 붙들었고, 결국 전화선은 끊어지고 말았습니다.\n\n멀리 떨어진 곳에서, 국가지도자께서는 그의 목록에서 한 항목에 삭선을 그었습니다."
 burgundy_political.15.a:0 "일이 잘 끝났군."
 
 burgundy_political.16.t:0 "발로니엔 군단 침투 보고서"
@@ -3771,7 +3771,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  ######################
  ###Globalplan Adler###
  ######################
- BRG_globalplan_adler_text:0 "Globalplan Adler"
+ BRG_globalplan_adler_text:0 "세계계획 아들러"
  BRG_globalplan_adler_desc:0 "The Reich, our beautiful, mighty Reich, has betrayed the German people and Aryan race it purports to champion. The sacred light of the black sun of national socialism grows dim as corruption, malice, greed, gluttony and statism causes our thousand year empire to crumble and fray at the edges, at any moment ready to be overrun by the circling hordes of subhumans. The Civil War was the final death blow for the Reich, this wounded eagle must be put down with the rest if we are to preserve the last true and pure here in the Ordenstaat. Still, we will rouse the giant one last time, try to guide her towards burying the eagle's claws in the foreigner as the end comes. We will see you in Valhalla."
 
  BRG_globalplan_adler:0 "[Root.GetBRGFocusGlobalplan_Adler]"
@@ -3871,7 +3871,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_der_entruckung_desc:0 "It appears the latest target for Göring's wild ride of military conquest is... the Ordenstaat. This is unfortunate, but not unexpected. The Oberkommando in Germania is fearful about our nuclear arsenal, which we can use to our advantage. If we can rush the SS into German territory, local silo commanders or even the Oberkommando themselves might panic and order the deployment of part of their nuclear arsenal. With how tense the Americans and Japanese are over German resurgence, that should be more than enough to trigger a global conflict. We must ready ourselves for Rapture, Ragnarök is upon us!"
 
  #Decisions category
- BRG_globalplan_adler_decisions:0 "§RGLOBALPLAN ADLER§!"
+ BRG_globalplan_adler_decisions:0 "§R세계계획 아들러§!"
  BRG_globalplan_adler_decisions_desc:0 "The Reich, what once was the glimmering hallmark of Aryan Masterdom against a world of putridity, in which the Vaterland would stand triumphant against the Judeo-Bolshevists who would dare call themselves equal to our mighty grasp, has since fallen into a despairful pit of decadence, sin, and treason. So great is the extreme putridity characterizing the Reich that it fell into its own horrific Civil War, pitting the Germanic Master Race against itself in a horrific gladiatorial arena throughout the Reich. Now, however, only one false Führer stands to call themselves leader of the Aryan people, gutting the strength of the Germanic people even more as they feed the bloated corpse of the Reich more lies every passing day in order to maintain the survival of their unholy power. However, while this sickly beast continues to crawl through the mud of this world to try to find power, the Ordenstaat poised to strike, ready to do all we can to bring down this fallen behemoth who once dared called themselves the masters of this solemn world. And with how deranged the country has become, it shall not be long until they aid greatly towards the Reichsführer-SS's plan..."
  #tooltips#
 
@@ -3891,7 +3891,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_what_is_left.tt:0 "This will §Gadd§! one §Ysupply§!"
  BRG_help_schroner:0 "This will make §RSpeer§! less prepared to fight Schörner in the midst of the §RRevolt§!"
  BRG_help_schroner_2:0 "This will greatly make §RSpeer§! less prepared to fight Schörner in the midst of the §RRevolt§!"
- BRG_taking_adler_action:0 "We are §RNOT§! taking another §YGlobalplan Adler§! action."
+ BRG_taking_adler_action:0 "We are §RNOT§! taking another §Y세계계획 아들러§! action."
 
  BRG_target_rnd_descision.tt:0 "This will §Rharm§! Speer's ability to utilize the §YRND§! properly!"
  #decisions
@@ -4167,7 +4167,7 @@ BRG_Light_The_Fuse_desc:0 "With another West Russian War seeming more and more l
 
  BRG_globalplan_bar_desc:0 "The situation in western Russia is at once both a great victory for the Reich and a humiliating example of the destitution wrought upon the Vaterland by the corruption that festers in Germania. On one hand, the blighted steppes and scorched forests of Western Russia—full of bombed out cities and collapsed into a menagerie of petty statelets—is a testament to the rightful fate of all that would stand against the invincible will of the Aryan race. Yet, on the other hand, the abject failure of the incomponent Reichskommisariat Moskowien to maintain the Reich's frontier against these subhuman raiders represents not only a material loss of living space for the Aryan people, but also an example of the types of calamity to befall the Vaterland since the exile of the Schutzstaffel to the Ordensstaat. Any patriotic citizen of the Reich could not help but sympathize with us after gazing upon such carnage; perhaps a few of the local untermenschen might be made to align themselves with our cause, too."
 
- BRG_globalplan_bar_text:0 "Globalplan Bär"
+ BRG_globalplan_bar_text:0 "세계계획 베어"
  BRG_The_Old_Foe_text:0 "The Old Enemies"
  BRG_Keep_Them_Divided_text:0 "Kicking Down the Rotten Structure"
  BRG_Northern_Light_Show_text:0 "A Lesson on Democracy's Failure"
@@ -4221,7 +4221,7 @@ BRG_Bar_Three_Coming_Inferno_tt:0 "It is time for §YRussia§! to §Rrise to the
 BRG_Begining_Of_End_Bar:0 "It is time for the §Ybegining§! to §Rend.\n§!"
  ### Decisions shit fuck you git
 
- BRG_globalplan_bar_decisions:0 "§RGlobalplan Bär§!"
+ BRG_globalplan_bar_decisions:0 "§R세계계획 베어§!"
  BRG_bar_sowing_chaos_Komi:0 "§RSabotage§! §GKomi§!"
  BRG_bar_sowing_chaos_AryBrd:0 "§RSabotage§! §Gthe Aryan Brotherhood§!"
  BRG_bar_sowing_chaos_Samara:0 "§RSabotage§! §GSamara§!"
@@ -5378,11 +5378,11 @@ BRG_Puma_radicalize_the_left:0 "Radicalizing the §Pleft wing§! of the §ONPP§
 
  #Globabplan Bar Events
 
-BRG.5400.t:0 "Globalplan Bär is Avilable to Advance"
+BRG.5400.t:0 "세계계획 베어 is Avilable to Advance"
 BRG.5400.desc:0 "To the Purifier of Partisans, the Reichsführer-SS:\n\nImmediate reports stolen from Reich operations as well as our own operatives stationed within the Reichskommissariat Moskowien have informed us of a new and extremely beneficial piece of information: past the borders of the backland Reichskommissariat, the Western region of Russia has unified under one of the dreaded Warlords, posing the first imminent threat to the Vaterland's eastern border since the West Russian War. This new and mysterious threat, most likely gearing to unite the rest of the Russian beast, will stir all of the Vaterland into a state of dismay and paranoia, one which can surely be exploited, should we aid this newfound power to the East. To Adolf Hitler's rotting corpse may we hope for the glorious Aryan to rise above the decrepitness of the Reich! \n\nWith all fervency and strength, \n\nSS-Obergruppenführer Heinrich Müller"
 BRG.5400.a:0 "A powerful foe for a degenerate Reich."
 
-BRG.5401.t:0 "Globalplan Bär is Avilable to Advance"
+BRG.5401.t:0 "세계계획 베어 is Avilable to Advance"
 BRG.5401.desc:0 "To the Master of Aryan Dominion, the Reichsführer-SS:\n\nPlentiful bounty adorns our intelligence reports today, as it appears that our operatives acting throughout the Russian lands and along the Vaterland's borders have unveiled a great and terrible danger to the Reich, but a more fearsome and more powerful opportunity for the Ordenstaat: it appears as though one of the many Lords of Russia, through constant conquest and battles and "diplomatic solutions," has managed to fully unify the lands once ruled over by the Judeo-Bolshevik Union many moons ago. While this may be a land of barbarism, impurity, and degeneracy, it is one eager to wage war against the Reich, and begin preparations to mount full scale operations to assume further power in other parts of the world. This ticking time-bomb will allow us to gain a further grip upon the world with every single exploitation in the shadows of its massive oversight! \n\nWith all servitude and prestige, \n\nSS-Obergruppenführer Heinrich Müller"
 BRG.5401.a:0 "The Russians take up arms again."
 
@@ -5725,10 +5725,10 @@ BRG_unlock.1000.desc:0 "SECRET! AUTHORIZED EYES ONLY\n\nCommander,\n We are to p
 BRG_unlock.1000.a:0 "Time to take a look and prioritize our next move!."
 BRG_unlock.1000.a.tt:0 "With the §Oactivation§! of the §YGlobalplan§!, new §Yactions§! become available to us. Completing §YNational Focuses§! and enacting §YDecisions§! will progress our §Ragenda§! considerably."
 
-BRG_unlock.1001.t:0 "Globalplan Cooldown Expired"
-BRG_unlock.1001.desc:0 "SECRET! AUTHORIZED EYES ONLY\n\nCommander,\n The Ordensstaat has pooled together enough resources and supplies to activate another global plan. Read the materials attached as soon as possible, and decide upon our next course of action carefully. You will directly advise the Reichsführer on what our next course of action should be. Ponder your options carefully.\n\nSS-Obergruppenfürhrer Heinrich Müller."
-BRG_unlock.1001.a:0 "Acknowledged."
-BRG_unlock.1001.a.tt:0 "With the §YGlobalplan Cooldown§! now expired, a new §YGlobalplan§! may be §Oactivated§! in the §YGlobalpläne £decision_icon_small decision menu§!."
+BRG_unlock.1001.t:0 "세계계획 대기시간이 끝남"
+BRG_unlock.1001.desc:0 "기밀! 인가받은 인원만 열람 가능\n\n사령관님,\n 기사단국은 또 다른 세계계획을 활성화하기 위한 충분한 자원과 물자를 모았습니다. 첨부된 자료를 가능한 한 빨리 읽고, 다음 조치를 신중하게 결정해주시기 바랍니다. 사령관님은 다음 행동 방침에 대해 국가지도자께 직접 조언을 들을 것입니다. 신중하게 선택사항을 숙고해주시기 바랍니다.\n\nSS상급집단지도자 하인리히 뮐러."
+BRG_unlock.1001.a:0 "확인."
+BRG_unlock.1001.a.tt:0 "§Y세계계획 대기시간§!이 끝났으니, 새로운 §Y세계계획§!을 §Y세계계획 £decision_icon_small 결정 메뉴§!에서 §O활성화§!할 수 있습니다."
 
 
 BRG_huntdegrelle.1.t:0 "Degrelle Vanishes!"
