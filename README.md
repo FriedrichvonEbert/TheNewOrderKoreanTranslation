@@ -7,3 +7,5 @@
 인명 등등 음차할 때 유용한 사이트: https://hangulize.org/
 
 러시아 인명이나 지명에 대해서 끝이 -v로 끝나면 보통은 -프라고 음차하시면 됩니다 (예: Malenkov -> 말렌코프)
+
+-하인리히 뵐 기념사업회 (https://discord.gg/fGPdPFP 번역할 사람은 들어오세용)
