@@ -66,14 +66,14 @@
  BRG_GP_Timeout_Mission:0 "Globalplan Cooldown"
  BRG_GP_Timeout_Mission_desc:0 "We have recently §Gcompleted§! or §Rcancelled§! a §YGlobalplan§!. It will take some time to prepare resources and operatives for our next undertaking. Until then, we should turn our attention §Yinwards§!, so that the §RSchattenstaat§! may continue to provide the §YResources§! the §YGlobalpläne§! require."
 
- BRG_globalplan_gui:0 "Die Globalpläne"
+ BRG_globalplan_gui:0 "세계계획"
  BRG_globalplan_gui_locked:0 "§R잠김§"
  BRG_globalplan_gui_activated:0 "§G활성화§"
  BRG_globalplan_gui_completed:0 "완료"
 
 
- BRG_globalplan_overview_category:0 "Die Globalpläne"
- BRG_globalplan_overview_category_desc:0 "  Globalpläne StatusOverview:\n   - Globalplan §YWolf§!:       [BRG_Get_GP_Wolf_Status]\n   - Globalplan §YKondor§!:     [BRG_Get_GP_Kondor_Status]\n   - Globalplan §YAdler§!:      [BRG_Get_GP_Adler_Status]\n   - Globalplan §YKrone§!:      [BRG_Get_GP_Lowe_Status]\n   - Globalplan §YBär§!:        [BRG_Get_GP_Bar_Status]\n\n  - Globalplan §YSonne§!:      [BRG_Get_GP_Sonne_Status]\n   - Globalplan §YDrache§!:     [BRG_Get_GP_Drache_Status]\n   - Globalplan §YSchwert§!:    [BRG_Get_GP_Puma_Status]\n\n\nIn the pursuit of all grand designs, meticulous planning is the key to guaranteed success. The ambition of the Reichsführer-SS is no different in this regard. To this end, the Globalpläne serve to realise our glorious Aryan destiny. Naturally, meddling with less gifted races is quite a costly and lengthy affair - luckily, the Ordensstaat provides us with just the right resources.\n\n§YEnabling§! §RLOCKED§! §YGlobalpläne§! requires sizable §Yinvestments§! and sufficient §Ypreparations§! through the use of respective §YDecisions§!.\n\nOnce unlocked, §YGlobalpläne§! will become §YAVAILABLE§! and can be set into motion §Yat any opportunate moment§!.\nWhile these plans are §OIN PROGRESS§!, we can make use of §YNational Focuses§! and §YDecisions§! to §Yinfluence events§! in other states towards our §Yend goal§!.\n\nIf we have §Yexhausted§! our operative capacities in a given region, the respective §YGlobalplan§! will become §GCOMPLETED§!, regardless of our level of success."
+ BRG_globalplan_overview_category:0 "세계계획"
+ BRG_globalplan_overview_category_desc:0 "  세계계획 상태 개요:\n   - 세계계획 §Y볼프§!:       [BRG_Get_GP_Wolf_Status]\n   - 세계계획 §Y콘도르§!:     [BRG_Get_GP_Kondor_Status]\n   - 세계계획 §YAdler§!:      [BRG_Get_GP_Adler_Status]\n   - 세계계획 §YKrone§!:      [BRG_Get_GP_Lowe_Status]\n   - 세계계획 §YBär§!:        [BRG_Get_GP_Bar_Status]\n\n  - 세계계획 §YSonne§!:      [BRG_Get_GP_Sonne_Status]\n   - 세계계획 §YDrache§!:     [BRG_Get_GP_Drache_Status]\n   - 세계계획 §YSchwert§!:    [BRG_Get_GP_Puma_Status]\n\n\nIn the pursuit of all grand designs, meticulous planning is the key to guaranteed success. The ambition of the Reichsführer-SS is no different in this regard. To this end, the Globalpläne serve to realise our glorious Aryan destiny. Naturally, meddling with less gifted races is quite a costly and lengthy affair - luckily, the Ordensstaat provides us with just the right resources.\n\n§YEnabling§! §RLOCKED§! §YGlobalpläne§! requires sizable §Yinvestments§! and sufficient §Ypreparations§! through the use of respective §YDecisions§!.\n\nOnce unlocked, §YGlobalpläne§! will become §YAVAILABLE§! and can be set into motion §Yat any opportunate moment§!.\nWhile these plans are §OIN PROGRESS§!, we can make use of §YNational Focuses§! and §YDecisions§! to §Yinfluence events§! in other states towards our §Yend goal§!.\n\nIf we have §Yexhausted§! our operative capacities in a given region, the respective §YGlobalplan§! will become §GCOMPLETED§!, regardless of our level of success."
  BRG_GUI_Info_tt:0 "§!The §YGlobalpläne§! (literally "Global Plans") represent meticulous agendas working towards the Reichsführer's §Yultimate goal§!. Each §YGlobalplan§! is designed around influencing §Ykey players§! on the global stage. Of course, pulling the strings of global geopolitics is no easy undertaking and will require an extensive amount of resources; However, as long as the §Yfinal goal§! is achieved, §Rno cost is too great for the Aryan Race.§!\n\nBefore pursuing a §YGlobalplan§!, it must first be §Yactivated§! with an §Yinitial investment§!. Some §YGlobalpläne§! require §Ycertain conditions§! to be met, such as the §YGlobalpläne§! involving §Ymore distant regions§!.\n\nCurrently we have §Y[?BRG_supplies]§! supplies. Our base supply §Rconsumption§! is §Y[?BRG_supply_consumption]§! per month. Should §BWar Support§! or §BStability§! is below §Y50%§! we will require additional supplies. This starts at §Y1§! extra per month and increases to §Y2§! if its below §Y0%§! and §3§! supplies if below §Y-50%.§! The penalites for §Bstability§! and §BWar Support§! are seperate and stack.\nWe have been pursuing our current Globalplan for §Y[?BRG_gp_months_counter]§! months which increases §Rconsumption§! by an additional §Y[?BRG_additional_supply_consumption]§! every month. Running out of supplies would have §Rcatastrophic§! consequences for our stability.\n\nOnce activated, a §YGlobalplan§! may be cancelled at any time, returning a portion of the initial investment, but also preventing the activation of §YGlobalpläne§! for §R6 months§!.\n\n§ROnly one Globalplan may be active at a time.§!"
 
  BRG_GP_Cooldown_Trigger_tt:0 "[BRG.BRG_Get_GP_Cooldown_tt]"
@@ -84,17 +84,17 @@
  BRG_no_other_GP_active_no:0 "£GFX_trigger_no Does NOT have an activate §YGlobalplan§! §Oin progress§!"
  BRG_no_other_GP_active_yes:0 "£GFX_trigger_yes Does NOT have an activate §YGlobalplan§! §Oin progress§!"
 
- BRG_GUI_Plan_Header_Wolf_tt:0 "§YGlobalplan Wolf§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
+ BRG_GUI_Plan_Header_Wolf_tt:0 "§Y세계계획 볼프§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
  BRG_GUI_Plan_Header_Adler_tt:0 "§YGlobalplan Adler§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
  BRG_GUI_Plan_Header_Bar_tt:0 "§YGlobalplan Bär§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
  BRG_GUI_Plan_Header_Drache_tt:0 "§YGlobalplan Drache§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
- BRG_GUI_Plan_Header_Kondor_tt:0 "§YGlobalplan Kondor§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
+ BRG_GUI_Plan_Header_Kondor_tt:0 "§Y세계계획 콘도르§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
  BRG_GUI_Plan_Header_Lowe_tt:0 "§YGlobalplan Löwe§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
  BRG_GUI_Plan_Header_Puma_tt:0 "§YGlobalplan Puma§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."
  BRG_GUI_Plan_Header_Sonne_tt:0 "§YGlobalplan Sonne§! is the current selected §YGlobalplan§!.\n\nActions and National Focuses related to this §YGlobalplan§! are currently visible.\n\nTo switch to another §Yactive Globalplan§!, click on the respective §YGlobalplan§! box below."#
 
- BRG_GUI_Kondor_Status_Box_tt:0 "§YGlobalplan Kondor§! (Iberia)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Kondor_Status_tt]"
- BRG_GUI_Wolf_Status_Box_tt:0 "§YGlobalplan Wolf§! (Italian Sphere)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Wolf_Status_tt]"
+ BRG_GUI_Kondor_Status_Box_tt:0 "§Y세계계획 콘도르§! (Iberia)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Kondor_Status_tt]"
+ BRG_GUI_Wolf_Status_Box_tt:0 "§Y세계계획 볼프§! (Italian Sphere)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Wolf_Status_tt]"
  BRG_GUI_Lowe_Status_Box_tt:0 "§YGlobalplan Löwe§! (Britain)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Lowe_Status_tt]"
  BRG_GUI_Bar_Status_Box_tt:0 "§YGlobalplan Bär§! (Russia)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Bar_Status_tt]"
  BRG_GUI_Drache_Status_Box_tt:0 "§YGlobalplan Drache§! (China)\n\nThis §YGlobalplan§! is [BRG.BRG_Get_GP_Drache_Status_tt]"
@@ -140,9 +140,9 @@
  ############
  #####################################################
 
- BRG_GUI_Wolf_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §YGlobalplan Kondor§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+ BRG_GUI_Wolf_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §Y세계계획 콘도르§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
- BRG_GUI_Wolf_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§YGlobalplan Kondor§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+ BRG_GUI_Wolf_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§Y세계계획 콘도르§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
  BRG_GUI_Wolf_Cancel_Button_tt:0 "This §YGlobalplan§! is currently §OIN PROGRESS§!.\n\nClick to §Ycancel§! the §YGlobalplan§!.\n§YCancelling§! the §YGlobalplan§! will return the following Resources:\n[BRG_Get_GP_Kondor_Cancel_Return]\n\n§RThe amount of returned resources depends on the progress of the§! §YGlobalplan§!§R. As the§! §YGlobalplan§! §Rprogresses further, more Resources will become irretrievable.§!\n\nOnce a §YGlobalplan§! has been cancelled, Globalpläne cannot be §Yactivated§! again for §Rsix months§!. Furthermore, §Yreactivating§! the §YGlobalplan§! will §Rconsume additional Resources§!"
 
@@ -174,10 +174,10 @@
 
  ### Activate Available button loc
 
- BRG_GUI_Kondor_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§YGlobalplan Kondor§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+ BRG_GUI_Kondor_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§Y세계계획 콘도르§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
  ### Activate Unavailable  button loc
- BRG_GUI_Kondor_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §YGlobalplan Kondor§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+ BRG_GUI_Kondor_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §Y세계계획 콘도르§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
  ### Cancel button loc
 
@@ -195,11 +195,11 @@
 
   ### Activate Available
 
-  BRG_GUI_Bar_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§YGlobalplan Kondor§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+  BRG_GUI_Bar_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§Y세계계획 콘도르§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
   ### Activate unavailable
 
-  BRG_GUI_Bar_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §YGlobalplan Kondor§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§!\n\n  §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+  BRG_GUI_Bar_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §Y세계계획 콘도르§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§!\n\n  §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
   ### Cancel Button loc
 
@@ -217,11 +217,11 @@
 
   ### Activate Available
 
-  BRG_GUI_Puma_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§YGlobalplan Kondor§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!\n\n"
+  BRG_GUI_Puma_Activate_Available_Button_tt:0 "This §YGlobalplan§! is currently §YAVAILABLE§!.\n\n§Y세계계획 콘도르§! can be §Yactivated§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n§R-500§! units of §YInfantry Equipment\n\n§R-50§! units of §YSupport Equipment§!\n\n§R-100§! £pol_power §YPolitical Power§!\n\n§R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!\n\n"
 
   ### Activate Unavailable
 
-  BRG_GUI_Puma_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §YGlobalplan Kondor§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
+  BRG_GUI_Puma_Activate_Unavailable_Button_tt:0 "This §YGlobalplan§! is currently §RLOCKED§!. Locked §YGlobalpläne§! cannot be §Yactivated§! until certain conditions are met. §Y세계계획 콘도르§! will §Yunlock automatically§! if the following requirements are met:\n   [BRG_Get_GP_Cooldown_tt]\n\n [BRG_Get_GP_Kondor_Activate_Trigger_1]\n\n[BRG_Get_GP_Kondor_Activate_Trigger_2]\n\n  [BRG_Get_GP_Kondor_Activate_Trigger_3]\n§YActivating§! the §YGlobalplan§! will §Rconsume§! the following Resources:\n\n\n  §R-500§! units of §YInfantry Equipment\n   §R-50§! units of §YSupport Equipment§!\n Equipment§!\n\n  §R-100§! £pol_power §YPolitical Power§! \n\n §R-[?BRG_gp_activation_cost]§! §Ysupplies from our stockpiles.§!"
 
   ### Cancel Button loc
 
@@ -1125,8 +1125,8 @@ BRG_Blackmailing_WLN_tt:0 "By exposing what we know to §YWalloon§!, we will be
 
 BRG_New_Evidence_Unlocked:0 "A new piece of §Yblackmailable evidence§! has been found."
  #Fuck you gi
-BRG_idea_grenzeschild:0 "The Grenzeschild"
-BRG_idea_grenzeschild_desc:0 "Along our borders with France, Dietsland, Switzerland and the Reich lie a combined thousands of miles of bunkers, minefields, watchtowers and concertina wire. These fortifications protect the Ordensstaat from hubris and treachery as much as they... dissuade, our loyal subjects from rethinking their loyalties. Already degenerates of all stripes decry them as the apex testament of our indomitable Aryan will.\n\nThey are incorrect. The Grenzschild's mighty redoubts are only a minuscule glimpse of Herr Himmler's glorious vision for Burgundy."
+BRG_idea_grenzeschild:0 "대방패"
+BRG_idea_grenzeschild_desc:0 "프랑스, 더치란드, 스위스, 독일과의 국경에 따라 수천 마일에 이르는 벙커, 지뢰밭, 초소, 철조망이 놓여있습니다. 이 요새들은 기사단국을 자만과 배신으로부터 보호해 주지만... 그들은 우리의 충신들이 충성을 다시 생각하도록 유혹했습니다. 이미 모든 방면에서 열등한 이들이 아리아인의 불굴의 의지의 최종증거를 비난하고 있습니다.\n\n그들은 틀렸습니다. 대방패의 강력한 보루로 부르군트에 대한 힘러 경의 찬란한 비전을 극히 일부나마 엿볼 수 있을 뿐입니다."
 
  ## Domestic GUI ##
  BRG_domestic_gui:0 "내부 상황"
@@ -2099,12 +2099,12 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_gp_puma_finisher:0 "Globalplan Puma: Abschlussbericht 44/B"
  BRG_gp_puma_finisher_desc:0 "FILL ME OUT"
  BRG_gp_puma_finisher_complete:0 "Finishes §YGlobalplan Puma§!."
- BRG_globalplan_kondor_decisions:0 "§RGlobalplan Kondor§!"
+ BRG_globalplan_kondor_decisions:0 "§R세계계획 콘도르§!"
  BRG_globalplan_kondor_decisions_desc:0 "The Iberian Union is an unholy amalgamation of the worst aspects of two subhuman tribes attempting to come together to overcome the inherent might of the Aryan man and his justified claim of dominion over this world. Try, try, and try all they may, however, the dual-dictatorship of the Spanish and Portuguese Caudillos have resulted in the brightest example of their inability to rule, as every day their state suffers under their incompetence, vanity, and intolerableness. It is our duty to ensure that this appalling display of rulership sees its bitter end through the flame of Aryan supremacy, and in doing so drag the rest of the world into this bitter conflict. Whether it be the echo of a new war, the delivery of military-grade weaponry, or the support of rebelling factions in this powderkeg, the rest of the world will be forced to throw themselves into the midst of this explosion.\n\n[GetBRGTerroristStatus]"
  BRG_terrorist_status:0 "CNT Resources: [?IBR.IBR_CNT_Resources]\nCNT Activity: [?IBR.IBR_CNT_Activity]\nCNT Support: [?IBR.IBR_CNT_Support]\n\nFSLP Resources: [?IBR.IBR_FSLP_Resources]\nFSLP Activity: [?IBR.IBR_FSLP_Activity]\nFSLP Support: [?IBR.IBR_FSLP_Support]\n\nTBA Resources: [?IBR.IBR_TBA_Resources]\nTBA Activity: [?IBR.IBR_TBA_Activity]\nTBA Support: [?IBR.IBR_TBA_Support]\n\nETA Resources: [?IBR.IBR_ETA_Resources]\nETA Activity: [?IBR.IBR_ETA_Activity]\nETA Support: [?IBR.IBR_ETA_Support]\n\n"
  BRB_no_status:0 "Nothing to see here"
 
- BRG_globalplan_wolf_decisions:0 "§RGlobalplan Wolf§!"
+ BRG_globalplan_wolf_decisions:0 "§R세계계획 볼프§!"
  BRG_globalplan_wolf_decisions_desc:0 "It is the permeate purpose and will of the Ordenstaat that we should pread chaos wherever possible, and strike blows against the degenerate filth that infest the world wherever they might be. There is a surplus of opportunities for both objectives within the Middle East, where the Italian Empire's fragile grip over a chaotic region grows ever looser and more violent. Already our agents are spread throughout the region, equipping enemies on every side and turning brother against brother. Before long the plowshares will be beaten into swords, the great powers will come streaming in fearful of losing their precious black gold, and the glorious plans ofthe Reichsfurher-SS will be one step closer to completion."
 
  #Focus tooltips
@@ -2430,7 +2430,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_blowing_on_the_sparks_tt:0 "Using our connections with them, we can start manipulating the various factions to stir up the pot"
  BRG_puppeting_the_terrorists_tt:0 "Large scale operations for increasing terrorist activity may now be undertaken."
  BRG_ignite_the_powder_keg_tt:0 "Tooltip"
- BRG_unlock_kondor_phase:0 "§GNew§! interactions can be undertaken for §RGlobalplan Kondor.§!\nOld interactions will §Rno longer§! be available.\n"
+ BRG_unlock_kondor_phase:0 "§GNew§! interactions can be undertaken for §R세계계획 콘도르.§!\nOld interactions will §Rno longer§! be available.\n"
  BRG_algeria_lean:0 "An operation for showing the Iberians §Rour truth§! regarding Italian ambitions in Algeria will be unlocked.\n"
  BRG_bribe_cost:0 "This will cost us §Y100 million.§!\n"
  BRG_smuggle_algeria_gain:0 "The equipment will be transfered to them.\nWe will gain §Y150 million.§!\n"'
@@ -2617,45 +2617,45 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_deploy_the_abwehr_text:0 "보안국 확장"
  BRG_deploy_the_abwehr_desc:0 "보안국은 SS국가보안본부의 정보기관으로, SS국가지도자의 국내외 적들을 모두 감시하는 임무를 맡고 있습니다. 그들의 효율성은 특히 비참한 아프베어와 비교하면 독일 전역에서 유명하지만, 기사단국 내에서는 다소 부진합니다. 충분한 요원이 없다면 파괴적인 요소들이 사회에 그 발톱을 박아넣을 것입니다. 이 상황은 빨리 바로잡아야 합니다."
  BRG_support_heydrichs_bid:0 "[From.GetBRGFocusHeydrichsBid]"
- BRG_support_heydrichs_bid_text:0 "Support Heydrich's Bid"
- BRG_support_heydrichs_bid_desc:0 "Reinhard Heydrich is a loyal and capable servant of the Reichsführer-SS,so skilled that he was personally entrusted with managing the Deutschen-SS after the Ordensstaat's establishment. That being said, his record is not spotless - he failed to capture Hitler during the failed SS coup, an act some speculate was intentional.\n\nHowever, it did provide a silver lining and get him in the Führer's good graces. With Hitler's ear and the entire Deutschen-SS at his back, Heydrich has become one of the most formidable candidates for the Führership. And the Reichsführer-SS's vision would be so much easier to achieve were he to succeed..."
+ BRG_support_heydrichs_bid_text:0 "하이드리히 지원"
+ BRG_support_heydrichs_bid_desc:0 "라인하르트 하이드리히는 SS국가지도자의 충직하고 유능한 하인으로, 기사단국 건국 이후 개인적으로 독일SS의 관리를 맡았을 정도로 매우 유능한 인물입니다. 그의 경력에 티끌 한점 없는 것은 아닙니다. 하이드리히는 SS 쿠데타 실패 당시 히틀러를 붙잡지 못했고, 일각에서는 이것이 의도된 행동이라고 추측하고 있습니다.\n\n하지만, 이 일이 한줄기 희망을 비췄으며 그는 총통의 신임을 받아 좋은 자리에 앉게 되었습니다. 히틀러의 귀와 독일SS 전체를 등에 업은 하이드리히는 가장 만만치 않은 총통 후보 중 하나가 되었습니다. 그리고 만약 그가 성공한다면, SS국가지도자의 계획은 훨씬 더 쉽게 성취될 것입니다..."
  BRG_extend_grenzeschild:0 "[From.GetBRGFocusExtendTheGrenzeschild]"
- BRG_extend_grenzeschild_text:0 "Extend the Grenzschild"
- BRG_extend_grenzeschild_desc:0 "The first stage of constructing the Ägis forts has been completed, but the Grenzschid still has far to go. The state of the fortresses notwithstanding, there are also the issues of reorganizing the garrisons, finding more soldiers to assign there, updating supply lines, and so on. But they are a price well worth paying.\n\nWith the completion of the second phase, the increased garrison shall hopefully be able to more comprehensively police the border, cutting down on the number of people trying to enter or leave without the SS's permission."
+ BRG_extend_grenzeschild_text:0 "대방패 확대"
+ BRG_extend_grenzeschild_desc:0 "아이기스 요새 건설의 첫 단계는 끝났지만 대방패 완공까지는 아직 갈 길이 멉니다. 요새 건설이 진행됨에도 불구하고, 주둔지를 재정비하고, 주둔할 병력을 더 구하며, 보급선을 다시 짜는 등의 문제도 있습니다. 하지만 이런 것들은 마땅히 감내할 수 있습니다\n\n2단계가 끝나면, 증원된 수비대가 SS의 허가 없이 출입을 시도하는 사람들의 수를 줄이면서 국경을 보다 포괄적으로 감시할 수 있기를 바랍니다."
  #BRG_expand_the_camps:0 "[From.GetBRGFocusExpandTheCamps]"
- BRG_expand_the_camps_text:0 "Expand the Camps"
- BRG_expand_the_camps_desc:0 "A powerful man cannot climb his way to the top without making many, many enemies. There are rivals within the bureaucracy, constantly conniving to further their own ends at the expense of the Volk. There are dissenters and rumor-mongers, preferring to spread lies and denounce the truths of National Socialism. There are also spies and saboteurs, undermining the Aryan race at every turn to aid their Semitic masters.\n\nThese vermin, like any other, shall be tracked down and caught. And that means that we will need more places to put them all. Preliminary locations in the Alps are being scouted, due to their proximity to new construction sites and the harshness of their climate as a deterrent for escape."
+ BRG_expand_the_camps_text:0 "수용소 확대"
+ BRG_expand_the_camps_desc:0 "힘있는 사람은 많은 적을 만들지 않고는 정상에 오를 수 없습니다. 관료 조직 내에는 인민을 희생하고 자신의 목적을 더 진전시키기 위해 끊임없이 남을 음해하는 경쟁자들이 있습니다. 그것은 반대자와 소문꾼입니다. 이들은 거짓말을 퍼뜨리고 국가사회주의의 진실을 비난하길 좋아합니다. 또한 스파이와 공작원도 있어 셈족 주인들을 돕기 위해 매 차례 아리아 인종을 거꾸러트릴려고 합니다.\n\n이 해충들은 다른 해충과 마찬가지로 추적되어 잡힐 것입니다. 그리고 이는 수용소를 지을 더 많은 땅이 필요하다는 것을 의미합니다. 새로운 건설 현장과 가깝고 날씨가 좋지 않아 탈출하기 어려우므로 알프스 산맥에 있는 땅을 확보해놨습니다."
  #Nuclear tree
  BRG_massenvernichtungswaffe:0 "[From.GetBRGFocusMassenvernichtungswaffe]"
- BRG_massenvernichtungswaffe_text:0 "Waffenentwicklung"
- BRG_massenvernichtungswaffe_desc:0 "A successful first nuclear test is cause enough for celebration, but the time for focus and hard work is ahead of us. If this data is not to go to waste, we must analyze it and use it to help us look to the future."
+ BRG_massenvernichtungswaffe_text:0 "무기 개발"
+ BRG_massenvernichtungswaffe_desc:0 "핵실험 성공은 축하하기에 충분하지만, 지금은 노력을 집중할 때입니다. 이 자료가 낭비되지 않으려면 이를 분석해 미래를 내다보는 데 도움이 되도록 활용해야 합니다."
  BRG_zweitschlagfahigkeit:0 "[From.GetBRGFocusZweitschlagfahigkeit]"
- BRG_zweitschlagfahigkeit_text:0 "Zweitschlagfähigkeit"
- BRG_zweitschlagfahigkeit_desc:0 "Successful as our test may have been, one functioning atomic bomb does not a fully-fledged nuclear program make. The underpinning of every successful act of nuclear diplomacy is the concept of mutually assured destruction-if everyone has the capability to destroy everyone else, then nobody will attempt any act too drastic against the others out of the desire for self-preservation. Until then, we are vulnerable to attack."
+ BRG_zweitschlagfahigkeit_text:0 "제2격"
+ BRG_zweitschlagfahigkeit_desc:0 "우리의 실험이 성공적이었을지 모르지만, 단 하나의 원자폭탄은 완전한 핵 계획을 만들지 못합니다. 핵 외교에서 모든 성공적인 행동의 기본은 상호 확증 파괴입니다. 모든 사람들이 다른 모든 사람들을 파괴할 수 있는 능력을 가지고 있다면, 아무도 자기 보존을 위해 다른 사람들에게 지나치게 극단적인 행동을 시도하지는 않을 것입니다. 그때까지 우리는 공격에 취약합니다."
  BRG_by_land:0 "[From.GetBRGFocusByLand]"
- BRG_by_land_text:0 "By Land"
- BRG_by_land_desc:0 "At the core of every world power's nuclear arsenal is a vast chain of missile silos spread across the country, waiting beneath concrete and earth for the orders to arrive. The Reich has them, the Americans have them, the Japanese have them, and so shall we."
+ BRG_by_land_text:0 "땅에서"
+ BRG_by_land_desc:0 "세계 모든 강대국들의 핵 무기의 핵심에는 전국에 흩어져 있는 거대한 미사일 발사대이며, 이 미사일은 콘크리트와 땅 밑에서 명령이 떨어지기를 기다리고 있습니다. 독일도 미국도 일본도 그러하며, 우리도 곧 그렇게 될 것입니다."
  BRG_apply_Grenzschild_knowledge:0 "[From.GetBRGFocusApplyGrenzschildKnowledge]"
- BRG_apply_Grenzschild_knowledge_text:0 "Apply Grenzschild Knowledge"
- BRG_apply_Grenzschild_knowledge_desc:0 "The Grenzschild is on its own a marvel of modern Aryan engineering. However, the benefits we learned from it should not be overlooked. Its designers are among the best in their field, and bringing them in to consult on the design of the new bunkers will ensure nothing but the best."
+ BRG_apply_Grenzschild_knowledge_text:0 "대방패 지식 적용"
+ BRG_apply_Grenzschild_knowledge_desc:0 "대방패는 현대 아리아인 공학의 정점입니다. 그러나 거기서 배운 이익을 간과해서는 안 됩니다. 대방패 설계자들은 그 분야에서 최고이고, 새로운 벙커의 설계에 대해 상담하기 위해 그들을 데려오는 것으로 오직 최고 수준의 벙커만을 지을 수 있게 될 것입니다."
  BRG_its_not_rocket_science:0 "[From.GetBRGFocusItsNotRocketScience]"
- BRG_its_not_rocket_science_text:0 "It's not Rocket Science"
- BRG_its_not_rocket_science_desc:0 "The missiles are fuelled, the warheads are primed, and the silos eagerly awaiting their presence. Put them all together, and we shall be orders of magnitude more powerful than we were the day before."
+ BRG_its_not_rocket_science_text:0 "이건 로켓 과학이 아니다"
+ BRG_its_not_rocket_science_desc:0 "미사일에는 연료가 꽉 찼으며, 탄두는 준비되어있고, 발사대는 그 순간을 간절히 기다리고 있습니다. 이것을 한 자리에 모은다면, 전날보다 위력이 더 큰 무기를 손에 넣게 될 것입니다."
  BRG_raketenwarnung:0 "[From.GetBRGFocusRaketenwarnung]"
- BRG_raketenwarnung_text:0 "Raketen-Vorwarnsystem"
- BRG_raketenwarnung_desc:0 "A nuclear defense system is worthless if it is unable to respond to the crisis for which it was built. All the silos must be able to be reached and transmitted firing orders, no matter the extent of the damage above the surface."
+ BRG_raketenwarnung_text:0 "미사일 경보 체계"
+ BRG_raketenwarnung_desc:0 "미사일 방어 체계는 점점 커지는 위기에 대응할 수 없다면 가치가 없습니다. 모든 발사대는 지상에서의 피해 정도와 상관없이 발사 명령을 받아 수행할 수 있어야 합니다."
  BRG_by_sea:0 "[From.GetBRGFocusBySea]"
- BRG_by_sea_text:0 "By Sea"
- BRG_by_sea_desc:0 "Although bunkers cannot escape from their enemies and planes have nowhere to hide in the sky, submarines are always protected by the sea. No missile stockpile is large enough to destroy the entire ocean, meaning that submarines will always be the most secure option."
+ BRG_by_sea_text:0 "바다에서"
+ BRG_by_sea_desc:0 "벙커는 적들로부터 탈출할 수 없고 비행기는 하늘에 숨을 곳이 없지만 잠수함은 항상 바다의 보호를 받습니다. 현 미사일 수량은 바다 전체를 파괴할 만큼 충분히 크지 않으며, 잠수함이 항상 가장 안전한 선택지가 될 것입니다."
  BRG_steal_u-boat_designs:0 "[From.GetBRGFocusStealU-boatDesigns]"
- BRG_steal_u-boat_designs_text:0 "Steal U-Boat Designs"
- BRG_steal_u-boat_designs_desc:0 "Although the Ordensstaat contains some of the brightest and most dedicated minds to be found within the Reich, our technical expertise is not limitless. If we were to design and construct a nuclear submarine fleet from scratch, we would precious time spent trying to reinvent the wheel and accomplish what lesser nations have already done decades ago.Thankfully, we don't have to."
+ BRG_steal_u-boat_designs_text:0 "유보트 설계 훔치기"
+ BRG_steal_u-boat_designs_desc:0 "기사단국에는 독일 내에서 볼 수 있는 가장 눈부시고 헌신적인 정신이 담겨 있지만, 우리의 기술적 전문지식은 무한하지 않습니다. 만약 처음부터 핵잠수함 함대를 설계한다면, 이는 바퀴를 재발명하는 것처럼 몇몇 나라가 이미 수십 년 전에 했던 것을 성취하는데 귀중한 시간을 할애할 것입니다. 다행히 그럴 필요는 없습니다."
  BRG_english_reactor_designs:0 "[From.GetBRGFocusEnglishReactorDesigns]"
- BRG_english_reactor_designs_text:0 "English Reactor Designs"
- BRG_english_reactor_designs_desc:0 "Despite the renown that the Reich has for technological innovation, they are not the sole seat of enlightenment within the Unity-Pakt. Genius still has a home in the classrooms and laboratories of England, where institutions like Oxford and Cambridge stay on the cutting edge of nuclear science. Perhaps we should pay them a visit."
+ BRG_english_reactor_designs_text:0 "영국 반응로 설계"
+ BRG_english_reactor_designs_desc:0 "독일은 기술 혁신의 선두라는 명성에도 불구하고 유니티팍트에서 유일하지는 아닙니다. 천재들은 여전히 영국에 집을 가지고 있는데, 그 곳에 있는 옥스포드나 캠브리지 같은 기관들이 핵 과학의 최첨단에 머물러 있습니다. 아마도 우리는 그들을 방문해야 할 것입니다."
  BRG_kanalflotte:0 "[From.GetBRGFocusKanalflotte]"
  BRG_kanalflotte_text:0 "Kanalflotte"
- BRG_kanalflotte_desc:0 "Although the Jörmungand program is proceeding as planned and the submarines are being constructed at an acceptable pace, it is not the only section of the Schutzmarine that needs expansion. Its surface component is a haphazard amalgamation of seized French vessels and cast-off relics from the Kriegsmarine. They are in desperate need of an upgrade, and we must play to the Ordensstaat's nautical strengths in order to match the raw power of our enemies."
+ BRG_kanalflotte_desc:0 "요르문간드 계획은 계획대로 진행되고 있고 잠수함은 느리진 않은 속도로 건조되고 있지만, 보호해군에서 확장이 필요한 곳은 많습니다. 표면적으로 보호해군은 압수된 프랑스 선박과 전쟁해군에서 나온 유물을 기괴하게 합쳐놓은 것입니다. 해군은 투자가 절실히 필요한 상황이며, 우리는 적의 힘에 맞추기 위해 기사단국의 해군력을 강화해야 합니다."
  BRG_by_air:0 "[From.GetBRGFocusByAir]"
  BRG_by_air_text:0 "By Air"
  BRG_by_air_desc:0 "The first atomic weapons were delivered by air, and the great powers of the world have never forgotten. They have all eagerly incorporated their air forces into maintaining the nuclear triad through fleets of bombers, which we must emulate in order to ensure our security."
@@ -2671,8 +2671,8 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_unter_der_schwarzen_sonne:0 "[From.GetBRGFocusUnterDerSchwarzenSonne]"
  BRG_unter_der_schwarzen_sonne_text:0 "검은 태양 아래"
 
- BRG_Fallout_Shelter:0 "§RTHE BUNKERS§!"
- BRG_CHARLEMANGE_NAME_TEXT:0 "§QCHARLEMAGNE§!"
+ BRG_Fallout_Shelter:0 "§R벙커§!"
+ BRG_CHARLEMANGE_NAME_TEXT:0 "§Q샤를마뉴§!"
  BRG_SPENT_HOW_MUCH_MONEY:0 "§GWE HAVE SPENT [?charlemagne_used_money] MILLION REICHMARKS§!"
  BRG_SPENT_HOW_MUCH_MANPOWER:0 "§RWE HAVE USED [?charlemagne_used_manpower]000 MANPOWER§!"
  BRG_SPENT_HOW_MUCH_WEAPONS:0 "§YWE HAVE STORED [?charlemagne_used_if]000 INFANTRY EQUIPMENT§!"
@@ -2695,9 +2695,9 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_invest_manpower_charlemagne:0 "Construct §YBunkers§!"
  BRG_invest_money_charlemagne:0 "Supply the Bunkers with §YFood§!"
  BRG_invest_if_charlemagne:0 "§YArm§! the Bunkers"
- BRG_FS_walloon:0 "§YWALLOON§!"
- BRG_FS_himmler:0 "§PHIMMLER§!"
- BRG_FS_langemarck:0 "§OLANGEMARCK§!"
+ BRG_FS_walloon:0 "§Y발로니엔§!"
+ BRG_FS_himmler:0 "§P힘러§!"
+ BRG_FS_langemarck:0 "§O랑게마르크§!"
  BRG_unlock_vents_tt:0 "We can upgrade our holdings with new §Yventilators!§!"
  BRG_invest_manpower_langemarck:0 "Construct §YBunkers§!"
  BRG_invest_money_langemarck:0 "Supply the Bunkers with §YFood§!"
@@ -3623,7 +3623,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_harvest_that_which_was_sowed:0 "[Root.GetBRGFocusHarvest_That_Which_Was_Sowed]"
  BRG_an_end:0 "[Root.GetBRGFocusAn_End]"
 
- BRG_globalplan_kondor_text:0 "Globalplan Kondor"
+ BRG_globalplan_kondor_text:0 "세계계획 콘도르"
  BRG_globalplan_kondor_desc:0 "The Iberian Peninsula has taken the greatness of its original colonization at the hands of the Germanic people and completely thrown it into a vat of decadence, corruption, and vanity, all strewn together into one unitedly broken land of terror, death, and impurity. The two reigning dictators, Captain General Francisco Franco of the Hispaniacs and António de Oliveira Salazar of the Portuguese run each other around in a political circle, broadcasting incompetence towards a broken and traitorous union, having only come together to restrict and disrupt the Vaterland. However, where Franco and Salazar fail, we shall rise, as the Iberian Peninsula shall become the perfect staging ground for a conflict on all sides, as untold death and destruction climbs whilst the ideals of the Iberians die..."
 
 
@@ -3684,7 +3684,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_harvest_that_which_was_sowed_desc:0 "Karl Marx's horrid call to the world for Socialistic backwateredness and corruption of the very purity which was held in the Aryan soul has crawled its way into the minds of many, as some within the world would dare call themselves Socialists and Communists in his name, trying to better the world through an accursed form of equality. This is where we shall benefit, however: the Asturians are one such bunch, who believe that through natural work together, then they shall harvest the Earth and its glories. Their faults will be our aid, however, as they shall work the land to death by command of our leadership, whilst every single cent is handed towards the Ordensstaat's wealth, rather than bolstering their own ranks. Yes, this may help spell death for this project of ours; however, why pump the heart of a dying, Communist battalion when we can fund so, so much more?"
 
  BRG_an_end_text:0 "An End"
- BRG_an_end_desc:0 "The conflict spreading across the Iberian peninsula has been pushed and pulled as far as our hands can manipulate it. Every day, another Spanish father, another Portuguese mother, and another child of a minority find themselves plunged straight into the battle which consumes their lands, as the ashes of their homes, business places, and sources of entertainment all wipe across their face, as does the blood of their comrades. Iberia is broken, Spain is destroyed, Portugal is dead, and we have benefitted each and every step of the way, both in operations and in investments. The world has sunk its entire attention towards the blood which floods the lands of the peninsula, while the coffers of the Ordensstaat stand bloated from all of the sales and investments coming forth from the entirety of our actions across that accursed Peninsula. The time has come for the SS-Ordensstaat Burgund to take its hand off of Globalplan Kondor, and allow our splendors to rain forth from the Hell that is now Iberia."
+ BRG_an_end_desc:0 "The conflict spreading across the Iberian peninsula has been pushed and pulled as far as our hands can manipulate it. Every day, another Spanish father, another Portuguese mother, and another child of a minority find themselves plunged straight into the battle which consumes their lands, as the ashes of their homes, business places, and sources of entertainment all wipe across their face, as does the blood of their comrades. Iberia is broken, Spain is destroyed, Portugal is dead, and we have benefitted each and every step of the way, both in operations and in investments. The world has sunk its entire attention towards the blood which floods the lands of the peninsula, while the coffers of the Ordensstaat stand bloated from all of the sales and investments coming forth from the entirety of our actions across that accursed Peninsula. The time has come for the SS-Ordensstaat Burgund to take its hand off of 세계계획 콘도르, and allow our splendors to rain forth from the Hell that is now Iberia."
  #Globalplan Wolf
  BRG_globalplan_wolf:0 "[FROM.GetBRGFocusGlobalplanWolf]"
  BRG_friends_in_high_places:0 "[FROM.GetBRGFocusFriendsInHighPlaces]"
@@ -3715,7 +3715,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_lavish_parties:0 "[FROM.GetBRGFocusLavishParties]"
  BRG_more_luxuries:0 "[FROM.GetBRGFocusMoreLuxuries]"
  BRG_the_third_circle:0 "[FROM.GetBRGFocusTheThirdCircle]"
- BRG_globalplan_wolf_text:0 "Globalplan Wolf"
+ BRG_globalplan_wolf_text:0 "세계계획 볼프"
  BRG_friends_in_high_places_text:0 "Our Friends In High Places"
  BRG_black_sun_over_the_levant_text:0 "The Black Sun Over The Levant"
  BRG_levantine_homes_and_farms_text:0 "Levantine Homes And Farms"
@@ -4023,7 +4023,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_wolf_goad_the_degenerates:0 "[Root.GetBRGFocus_Wolf_Goad_The_Degenerates]"
  BRG_wolf_fall_romulus:0 "[Root.GetBRGFocus_Wolf_Fall_Romulus]"
 
- BRG_wolf_globalplan_wolf_text:0 "Globalplan Wolf"
+ BRG_wolf_globalplan_wolf_text:0 "세계계획 볼프"
  BRG_wolf_globalplan_wolf_desc:0 "To the unaware eye it may seem stable, but our agents know that if we play our cards correctly, the Italian Empire will soon fall into chaos. Although its subversion is not as crucial to our plans as a few others, Italy holds much exploitable economic opportunities we can use for funding, stagnant cocoons of liquid gold awaiting our knives to plunge into. These manifest in holes in the integrity of the corporatist hierarchy, corrupt fascists willing to tear themselves open for counterfeit lire. The colonial order will be sustained until we have drained every last drop. Rome will suckle on our breasts, not knowing that our wolves are laced with poison. Here's to the tragedy to ensure."
  BRG_wolf_black_sun_over_the_levant_text:0 "Black Sun Over The Levant"
  BRG_wolf_black_sun_over_the_levant_desc:0 "The Italian Middle East, already a colony brimming with ethnic tension and administrative woes, is bound to fall into bloody conflict with its northern neighbors in Turkey. Toppling the fragile colonial orders of both down until a region-spanning war occurs would allow our plans in the Middle East to come into fruition. To do this, we will fund paramilitaries and terrorists to wreak havoc for our machinations. Palestinian liberation parties will inspire intercommunal violence, Jewish ultranationalists will massacre villages, and the incompotent adminstrators will utterly fail to resolve the crumbling wall that seperates the northern and southern corridors of Lebanon. The black sun of hate will rise."
@@ -5328,7 +5328,7 @@ BRG_Puma_radicalize_the_left:0 "Radicalizing the §Pleft wing§! of the §ONPP§
  BRG_kondor.9.a:0 "We will let chaos reign"
 
  BRG_kondor.14.t:0"Kondor Takes Flight"
- BRG_kondor.14.desc:0" Lord Reichsführer-SS,\n\nNow that the Iberian Wars have broken out, we can move on to the final phase of Globalplan Kondor. Our operatives have prepared several initiatives in accordance with aims and specifications from earlier correspondence. They await your command to put their plans into action."
+ BRG_kondor.14.desc:0" Lord Reichsführer-SS,\n\nNow that the Iberian Wars have broken out, we can move on to the final phase of 세계계획 콘도르. Our operatives have prepared several initiatives in accordance with aims and specifications from earlier correspondence. They await your command to put their plans into action."
  BRG_kondor.14.a:0"Excellent"
 
 
@@ -5469,8 +5469,8 @@ BRG.5014.a:0 "The Shadow State has a far reach."
 
  #Wolf Events#
 
- BRG_wolf.1.t:0 "Globalplan Wolf"
- BRG_wolf.1.desc:0 "The tentacles of the Ordenstaat stretch further and further across the globe, snatching up new tools for the plan of the Reichsfurher-SS. Globalplan Wolf focuses on one of the juciest prizes of all -- the Middle East. Already our agents have infiltrated the region, and now work to disturb the colonial order, wrecking havoc on global tensions and the supply of oil. Our short term focus is on excerbating tensions between the triumvirate rivals Italy and Turkey in Syria. A confrontation there would go a long way to unleashing a beautiful cycle of violence. In the longer term, we hope to make use of the gluttony and cowardice of the Egyptian King Farouk. In time, as our agents proliferate, we may consider even loftier plans."
+ BRG_wolf.1.t:0 "세계계획 볼프"
+ BRG_wolf.1.desc:0 "The tentacles of the Ordenstaat stretch further and further across the globe, snatching up new tools for the plan of the Reichsfurher-SS. 세계계획 볼프 focuses on one of the juciest prizes of all -- the Middle East. Already our agents have infiltrated the region, and now work to disturb the colonial order, wrecking havoc on global tensions and the supply of oil. Our short term focus is on excerbating tensions between the triumvirate rivals Italy and Turkey in Syria. A confrontation there would go a long way to unleashing a beautiful cycle of violence. In the longer term, we hope to make use of the gluttony and cowardice of the Egyptian King Farouk. In time, as our agents proliferate, we may consider even loftier plans."
  BRG_wolf.1.a:0 ""
 
  BRG_wolf.2.t:0 ""
@@ -5489,11 +5489,11 @@ BRG.5014.a:0 "The Shadow State has a far reach."
  BRG_wolf.6.desc:0 "Once more the Ordenstaat's subtle use of lesser factions has paid off. The winner of the Iranian civil war is permeated by our agents, and indebted to our influence. In hidden places throughout the Persian mountains, our bases pump out propaganda, weapons, and recruitment. Now with a stronghold near the current focal point of global tensions, we have the ability to exacerbate the ongoing oil crisis and support the faction most amenable to our interests. Soon the great powers of the world will be drawn into an unescapable conflict over black gold, one from which they are unlikely to walk away."
  BRG_wolf.6.a:0 ""
 
- BRG_wolf.7.t:0 " Globalplan Wolf begins the Hunt"
+ BRG_wolf.7.t:0 " 세계계획 볼프 begins the Hunt"
  BRG_wolf.7.desc:0 "To our most noble Lord, the Reichsführer-SS: \n\nIt has come to the attention of all of our operatives coordinating our overseas clandestine operations that the Italians are enduring a new crisis, delivering to us a new chance for intervention from the Ordenstaat; in particular, "Africa Orientale Italiana," or the East African territories ruled over by the decadent Italians, has lost all decent support from their miserably inefficient government and fallen to chaos to the native savages. It would be most opportune to begin our newly drafted potential operations in the Italian menace as pertinently as possible. \n\nWith all respect and honor,\n\nSS-Obergruppenführer Heinrich Müller"
  BRG_wolf.7.a:0 "Good, very good."
 
- BRG_wolf.8.t:0 "Globalplan Wolf continues the Prowl"
+ BRG_wolf.8.t:0 "세계계획 볼프 continues the Prowl"
  BRG_wolf.8.desc:0 "To the Knight of the Ordenstaat, the Reichsführer-SS: \n\nThe time has come, once more, to look towards the continuous failures and opportunities for exploitation within the most despicable traitors along the Italian Peninsula. Our current intelligence reports indicate the massive conflicts exploding out from the Middle East has caused extreme plummets in stock investments towards "Ente Nazionale Idrocarburi," the most powerful Italian oil company and, in turn, the top provider of international oil across the world. Though the world market shudders, may we toast to this most glorious collapse of Italian power? \n\nWith all admiration and resolution, \n\nSS-Obergruppenführer Heinrich Müller."
  BRG_wolf.8.a:0 "Only fools and cowards live upon that deserted Peninsula."
 
@@ -5574,29 +5574,29 @@ BRG_additional_nuclear_spending:0 "Favor Nuclear Spending"
 BRG_additional_construction_speed:0 "Favor Manufacturing Construction"
 BRG_additional_factory_output:0 "Expand Industrial Output"
 
-BRG_opener_new.1.t:0 "The Old General's Adieu"
-BRG_opener_new.1.desc:0 "General Carl-Heinrich von Stülpnagel stared out the window of his limousine, watching Ost-Paris shrink further and further into the distance. He had spent twenty years in the city, first as head of the German military occupation, then in a nebulously-defined "advisory position" for the collaborator government. Either way, his job had remained the same: keep the Teutonic boot pressed on the Gallic neck. It was a job that he had performed admirably, but it gnawed away at him over the decades. The orders he signed, the reprisal killings against Resistance members' hometowns, the cattle-cars full of people who would never return... there was much that he was willing to stomach for the sake of his Vaterland, but sometimes it crossed the line.\n\nBut there were other aspects of his duty that he carried out with pride. When the regime was reorganized and Himmler was appointed as his superior, Carl-Heinrich tried his damndest to keep the SS on a short leash. But everyone he trusted in the administration was suddenly demoted, arrested on suspicious charges, or suffered a tragic accident. His power in the Parisian bureaucracy waned, and he became little more than an informant, passing along Himmler's latest doings to Germania. Now, he could no longer do even that. Truth be told, he should have been feeling relief that it was no longer his burden to stare into that abyss every day.\n\nBut all he felt was terror at the thought of what they will do with no one watching."
+BRG_opener_new.1.t:0 "늙은 장군과의 이별"
+BRG_opener_new.1.desc:0 "카를-하인리히 폰 슈튈프나겔 장군은 리무진 창밖으로 점점 멀어지며 작아지는 오스트-파리스를 바라보았습니다. 그는 처음에는 독일 군사 점령군의 수장으로서 20년을 도시에서 보냈고, 그 후 협력 정부를 위해 "자문위원"이라는 모호한 직책에 있었습니다. 어느 쪽에 있든, 그가 할 일은 그대로였습니다: 게르만 족의 군화로 프랑스의 목을 계속 누르는 것. 이것은 그가 훌륭하게 해낸 일이었지만 수십 년 동안 잠자리에서 그를 괴롭혔습니다. 그가 서명한 명령, 저항군의 고향을 상대로 한 보복 살인, 다시는 돌아오지 않을 사람들로 가득 찬 소떼차... 그의 조국을 위해 기꺼이 참고 싶었지만, 때때로 선을 넘은 일도 많았습니다.\n\n그러나 그가 자부심을 가지고 수행했던 직무에는 다른 측면들이 있었습니다. 정권이 재편되고 힘러가 상사로 임명되자 카를-하인리히는 SS의 고삐를 쥐기 위해 최선을 다했습니다. 그러나 그가 행정부에서 신뢰했던 모든 사람들은 갑자기 좌천되거나 의심스러운 혐의로 체포되거나 비극적인 사고를 당했습니다. 그의 권력은 약해졌고, 그는 힘러가 최근 행한 일을 게르마니아에 그대로 전하는 정보원에 지나지 않게 되었습니다. 이제, 그는 더 이상 그것조차 할 수 없었습니다. 사실, 그는 매일 그 심연을 응시한다는 짐을 더 이상 지고 있지 않아도 된다는 사실에 안도감을 느끼고 있어야 했습니다.\n\n그러나 아무도 보고 있지 않을 때 그들이 무엇을 할 것인가 하는 생각에 그가 느낀 것은 공포뿐이었습니다."
 BRG_opener_new.1.a:0 "He will not be missed."
 
-BRG_opener_new.2.t:0 "Framing and Context"
-BRG_opener_new.2.desc:0 "In important matters of state, presentation is everything. Something as major as a lavish award ceremony for a prominent general can have just as much of a political ramification as something as minor as the seating arrangements at a state diner. And there is no exception when it comes to the humble framed photo.\n\nFor two decades, official state portraits of the Führer have been ubiquitous. Whether it was the young, dynamic firebrand of the 1930s, or the gracefully aging conqueror of the early 1950s, millions of blue eyes have loomed over the classrooms, offices, and sitting rooms of the Reich. And within the Ordensstaat's borders, they have always been accompanied by a smaller, more tasteful black-and-white photo portrait of the Reichsführer-SS. A way to exalt himself while remaining courteous and aware of his subservience.\n\nBut no longer. Over the weekend, every SS office in the Ordensstaat received a new portrait. It was a painting of the Reichsführer-SS, in full regalia with a peaked cap and overcoat—and in color no less— clearly meant to mimic his Führer. It was the exact same size, and even more shockingly, was ordered to be hung at the exact same height as the portrait of Hitler.\n\nThe members of the SS unflinchingly complied with this order, while the few dignitaries still representing the Reich in Ost-Paris quietly tut-tutted the move. Word would surely make its way back to Germania and the Führer would rave about how this is proof Himmler was plotting against him, but what would be done about it? After all, who would risk a civil war over a few lithographs?"
+BRG_opener_new.2.t:0 "구성과 맥락"
+BRG_opener_new.2.desc:0 "나라의 중요한 문제에서는 외관만이 전부입니다. 식당에서의 좌석 배치만큼 사소한 일은 저명한 장군에 대한 호화로운 시상식만큼 정치적 영향을 끼칠 수 있습니다. 그리고 보잘것없는 액자에 관해서도 예외는 없습니다.\n\n20년 동안 총통의 공식 초상화는 어디서나 볼 수 있었습니다. 1930년대의 젊고 역동적인 선동가의 모습이든, 아니면 우아하게 늙어가는 1950년대 초 정복자의 모습이든 간에, 수백만 개의 푸른 눈이 독일의 교실, 사무실, 방에서 총통을 바라보았습니다. 그리고 기사단국의 국경 안에서는 예의를 지키고 총통에 복종하면서 자신을 우러러보게 하는 방법으로써 언제나 SS국가지도자의 더 작고, 더 고상한 흑백 초상화가 그 옆에는 있었습니다.\n\n하지만 더 이상은 아닙니다. 주말 동안 기사단국의 모든 SS부서에서 새로운 초상화를 받았습니다. 그것은 휘황찬란한 예복을 입고 챙이 달린 모자와 외투를 착용한 SS국가지도자의 초상화였는데, 이는 총통 흉내를 내기 위한 것이 분명했습니다. 그 초상화는 총통의 것과 정확히 같은 크기였고, 더욱 충격적인 것은 히틀러의 초상화와 같은 높이에 걸으라는 명령이었습니다.\n\nSS 대원들은 이 명령에 응했고, 오스트-파리스에서 독일을 대표하는 몇 안 되는 고위 인사들은 조용히 이 움직임에 동조했습니다. 말 한마디면 게르마니아로 돌아갈 수 있을 것이고 총통은 이것이 힘러가 음모를 꾸민 증거라고 극찬할 것입니다. 하지만 어떻게 해야 할까요? 고작 초상화 때문에 내전을 치루어야 할까요?"
 BRG_opener_new.2.a:0 "The writing is on the wall."
 
-BRG_opener_new.3.t:0 "Initiaton"
-BRG_opener_new.3.desc:0 "The drums beat in the darkness as the SS cadets marched onto the parade ground, their only light being the torches surrounding the perimeter. There was an electricity in the air, and every one of them  could feel it. This was the culmination of their training, the moment they had been waiting for. The moment where they would no longer be boys under the tutelage of the Reich, but men of the Waffen-SS.\n\nA bugle call rang out, and a brass band played "SS Marschiert in Feindesland" as flags bearing swastikas, Sig runes, black suns, and all sorts of Aryan symbols were carried onto the stage.\n\nWhen that was done, the moment they were all waiting for began. They crisply raised their right hands into salutes, and recited the words they had spent weeks memorizing:\n\n"I swear to God this holy oath,\nthat I shall be eternally obedient\nto the guide and savior of the Aryan race,\nHeinrich Himmler, Reichsführer-SS,\nand that at all times I will gladly give my life\nin the name of blood, race, and Fatherland."\n\nTheir oath complete, the band struck up once again, playing the Horst-Wessel-Lied this time. It could hardly be seen in the dim, flickering light, but every single soldier on the parade ground was grinning from ear to ear."
-BRG_opener_new.3.a:0 "Mein Ehre heißt Treue!"
+BRG_opener_new.3.t:0 "수료"
+BRG_opener_new.3.desc:0 "SS 후보생들이 주변에 횃불만이 있는 연병장으로 행진할 때 어둠 속에서 북소리가 울려 퍼졌습니다. 전기가 흐르는 듯한 긴장된 분위기였으며, 그들 모두가 이를 느낄 수 있었습니다. 이것은 그들이 기다리던 순간, 그들이 받던 훈련의 절정이었습니다. 더 이상 독일의 보살핌 아래에 있는 소년이 아닌 무장친위대원이 될 순간 말입니다.\n\n나팔 소리가 울려 퍼지고, 스와스티카, 승리의 룬, 검은 태양 등 아리아인의 온갖 상징을 담은 깃발들이 무대 위로 옮겨지면서 군악대가 'SS는 적지로 돌격한다'를 연주했습니다.\n\n연주가 끝나자 그들 모두가 기다리고 있던 순간이 시작되었습니다. 그들은 군기가 잡힌 모습으로 오른손을 들어 경례를 하고, 몇 주 동안 암기하며 보냈던 말을 읊었습니다.\n"나는 아리아 인종의 지도자와 구세주이신\n하인리히 힘러, SS국가지도자께\n영원히 순종할 것이며,\n언제나 혈통과 인종, 조국의 이름으로\n기꺼이 목숨을 바치리라."\n\n선서가 끝나자 군악대는 호르스트 베셀의 노래를 연주했습니다. 흐릿하고 어두운 불빛 속에서는 거의 보이지 않았지만, 연병장의 모든 병사들은 빙그레 웃고 있었습니다."
+BRG_opener_new.3.a:0 "충성은 나의 영광이다!"
 
-BRG_opener_new.4.t:0 "From Cradle to Grave"
-BRG_opener_new.4.desc:0 "Hilda lay in the hospital bed, trying her best to regain her strength. Even though it was her third child, the pain of labor never got any less difficult. But the worst was behind her, and soon she could bring her little bundle of joy home with her. She and her husband were split between naming the boy—they knew that much—Lars or Siegfried. They ultimately decided that they would wait to see him and choose which one they felt was suitable then.\n\nThe nurse walked in, carrying a clipboard. "Frau Hilda Müller? Please fill this out," she rotely recited as she thrust a clipboard into Hilda's lap.\n\nHilda picked up the clipboard and looked at the paper on top. Notice of death?!\n\n"Your boy had visible signs of mongolism and was euthanized per the Law for the Prevention of Genetically Diseased Offspring of 1933. We need a name for the forms."\n\nHilda was being overwhelmed by emotions, but she was able to hold back tears long enough to choke out, "O-of course, all f-f-for our race..." She picked up the pen and shakily scrawled "Lars" in for the name of the deceased, because she didn't know if she could stay composed long enough to write all eight letters of the name Siegfried.\n\nThe nurse snatched back up the clipboard and strode out of the room, slamming the door behind her. Alone at last, Hilda could give into her grief and sob undisturbed."
-BRG_opener_new.4.a:0 "One death is a tragedy, one million deaths are a statistic."
+BRG_opener_new.4.t:0 "요람에서 무덤까지"
+BRG_opener_new.4.desc:0 "힐다는 병원 침대에 누워 힘을 되찾기 위해 노력했습니다. 셋째 아이임에도 불구하고 출산의 고통은 더 이상 줄어들지 않았습니다. 그러나 최악은 지나갔으며, 곧 그녀는 작은 행복 보따리를 집으로 가져갈 수 있었습니다. 그녀와 남편은 아들의 이름을 라스와 지크프리트 중 무엇으로 할 것인지 의견이 갈렸습니다. 결국 힐다는 남편을 만나기를 기다렸다가 그 때 어떤 이름이 잘 어울리는지 선택하기로 결정했습니다.\n\n간호사가 클립보드를 들고 들어왔습니다. "프라우 힐다 뮐러? 이것 좀 작성해주시겠어요?" 간호사는 기계적으로 말하며 힐다의 무릎에 클립보드를 들이밀었습니다.\n\n힐다는 클립보드를 집어들고 위에 놓인 문서를 바라보았습니다. 사망 통지서?!\n\n"당신 아들은 몽고증의 가시적인 징후를 보였으며 1933년 단종법에 따라 안락사되었습니다. 양식에 쓰일 이름이 필요합니다."\n\n힐다는 감정에 휩쓸릴 뻔 하였으나 간신히 말할 수 있을 정도로 오랫동안 눈물을 참았습니다. "그-그렇죠, 이-이-인종을 위해..." 그녀는 펜을 집어들고 사자 이름란에 "라스"를 휘갈겨 적었습니다. 지크프리트라는 여덟 글자를 모두 쓸 때까지 오랫동안 침착할 수 없을 거라 생각했기 때문입니다.\n\n간호사는 클립보드를 낚아채고 성큼성큼 방을 나가 문을 쾅 닫았습니다. 마침내 힐다는 홀로 슬픔에 빠져 방해받지 않고 흐느껴 울 수 있었습니다."
+BRG_opener_new.4.a:0 "한 명의 죽음은 비극이지만, 백만의 죽음은 통계이다."
 
-BRG_opener_new.5.t:0 "A Blade in the Dark"
-BRG_opener_new.5.desc:0 "From the first day he settled into Ost-Paris, the Reichsführer-SS spent his days mapping the long road that would lead him back to Germania. And the time had come for the journey to begin.\n\nIt had taken months of planning. The task at hand was twofold; not only did the Sicherheitsdienst have to smuggle a foreign national into Germania, but they also had to make sure he did so without resisting. The SD were experienced in implanting spies, but usually those spies wanted to be there. Thankfully, SD agents had captured the poor sap's family, and a few recordings of their interrogation were enough to keep him compliant. He was sent over with nothing but some forged credentials, a Nambu pistol, and a cyanide pill. He had no pretenses of ever returning—his handlers had made it very clear that if the next day's paper said anything other than "the assassin was killed while being apprehended," then his wife and children would suffer a slow and excruciating end. It would have to happen during the moon landing, when the eyes of every man, woman, and child in the Reich (and every soldier, sentry, and officer) would be glued to their television sets.\n\nAnd as the capsule hurtled towards the moon, so did destiny hurtle towards the Reich. The Burgundische-SS were on high alert, the Deutschen-SS were silently preparing to mobilize, and the secondary waves of murders were planned. Everything was coming together, and now, all the Reichsführer-SS could do was wait to see it unfold the next day."
-BRG_opener_new.5.a:0 "He slept, and dreamt of triumph."
+BRG_opener_new.5.t:0 "어둠 속 칼날"
+BRG_opener_new.5.desc:0 "그가 오스트-파리스에 정착한 첫날부터, SS국가지도자는 게르마니아로 돌아갈 기나긴 나날을 그리며 시간을 보냈습니다. 그리고 그 여정이 시작될 때가 왔습니다.\n\n계획을 세우는 데 몇 달이 걸렸습니다. 당면한 임무는 두 가지였습니다; 보안국은 외국인을 게르마니아로 몰래 보내야 했을 뿐만 아니라, 보안국은 그가 저항하지 않도록 해야 했다. 보안국은 스파이를 파견하는 데 경험이 있었지만, 대개 그런 스파이들은 고향에 있기를 원했습니다. 다행히 보안국 요원들은 그 불쌍한 멍청이의 가족을 붙잡아 두었고, 그들의 목소리를 녹음하여 그를 순순히 따르게 했습니다. 그는 위조 신분증, 난부 권총, 청산가리 알약만 가지고 독일로 보내줬습니다. 그는 영원히 돌아올 기약이 없었습니다. 다음날 신문에 "암살자가 체포되는 동안 살해되었다" 외의 기사가 실린다면 아내와 아이들은 느리고 고통스러운 최후를 겪을 것이은 분명합니다. 독일에 있는 모든 남자, 여자, 어린이(그리고 모든 군인, 보초, 장교)의 눈이 텔레비전에 붙어 있을 달 착륙 중에 임무를 해내야 할 것입니다.\n\n달에 캡슐이 착륙할 날이 가까워지듯 독일 운명의 날도 가까워졌습니다. 부르군트-SS는 경계 태세에 들어갔고, 독일-SS는 묵묵히 동원을 준비하고 있었으며, 두번째 학살이 계획되어 있습니다. 모든 것이 잘 이뤄지고 있으며, 이제 SS국가지도자가 할 수 있는 일은 다음 날이 밝아오기 만을 기다리는 것뿐이었습니다."
+BRG_opener_new.5.a:0 "그는 잠을 자고 승리의 꿈을 꾸었다."
 
-BRG_opener.1.t:0 "Der Fehlschlag"
-BRG_opener.1.desc:0 "The Reichsführer-SS sat at his desk, giddy with excitement. He had uncharacteristically taken a shot of schnapps to help settle his nerves, but he dared not take another one. He did not want to miss a moment of it.\n\nThe doors flew open, and a small cadre of clearly flustered officers burst in with newspapers in their hands. "My Reichsführer..."\n\nHe eagerly snatched a copy of the Volkischer Beobachter from their hands, turning to the front page. It was dominated by a black-and-white portrait of the wizened Führer and a photograph of the Volkshalle, its entrances cordoned off by Wehrmacht as paramedics ran inside. In bold block letters, it read ATTEMPT ON THE FÜHRER'S LIFE. Wait, attempt?\n\n"The assassin failed," the officer gasped, "Hitler still lives!"\n\nThe Reichsführer-SS's body froze, and time seemed to stand still. No, no, no, NO! Not after all this! Not during what was supposed to be his hour of triumph! His shock was soon replaced by a churning, fiery cauldron of rage, which violently exploded in a tirade of legendary proportions. Himmler cursed the inept assassin, the Japanese race, the ever-menacing Jews, the decrepit Führer, his damnable personal guard, and every god he could name.\n\nWhen his rant ended, he slumped back into his chair, his energy spent. For the first time in years, Himmler felt hopelessly and utterly lost."
-BRG_opener.1.a:0 "What to do, what to do?"
+BRG_opener.1.t:0 "실패"
+BRG_opener.1.desc:0 "SS국가지도자는 흥분에 빠져 책상에 앉아 있었습니다. 그는 평소와는 달리 신경을 가라앉히는 데 도움을 주기 위해 스넵스를 한 잔을 마셨지만, 감히 한 잔을 더 마실 수는 없었습니다. 그는 한 순간도 놓치고 싶지 않았습니다.\n\n문이 활짝 열리며, 당황한 기색이 역력한 장교들이 손에 신문을 들고 불쑥 들어왔습니다. "국가지도자 각하..."\n\n그는 그들의 손에서 푈키셔 베오바흐터를 낚아채 일면을 보았습니다. 주름이 가득한 총통의 흑백 초상화와 폭스할레 사진이 실려있었는데, 사진에서는 국방군이 폭스할레의 출입을 통제하고 구급대원이 안으로 달려들고 있었습니다. 신문에는 검고 진한 글씨로 "총통 암살 시도"라 쓰여있었습니다. 뭐? 시도?\n\n"암살이 실패했습니다." 장교가 탄식해며 말했습니다. "히틀러는 살아있습니다!"\n\nSS국가지도자의 몸은 얼어붙었으며, 마치 시간이 멈춘 것 같았습니다. 아니, 아니, 아니, 아니, 아니, 아니! 이래선 안돼! 암살이 성공할 것이 확실했는데! 그는 곧 거칠고 불같은 분노로 폭발했습니다. 힘러는 서투른 암살자, 일본 민족, 끊임없이 위협적인 유대인, 노쇠한 총통, 빌어먹을 개인 경호원, 그리고 이름을 댈 수 있는 모든 신을 저주했습니다.\n\n장광설이 끝나자, 그는 다시 의자에 털썩 주저앉았습니다. 그는 기운이 모두 빠졌습니다. 몇 년 만에 처음으로 힘러는 완전한 상실감과 절망을 느꼈습니다."
+BRG_opener.1.a:0 "어떻게 해야 되지? 어떻게 해야 돼?"
 
 #New Opening Tree Foci
 
@@ -5618,15 +5618,15 @@ BRG_call_upon_the_butcher:0 "[Root.GetBRGFocusCall_Upon_The_Butcher]"
 BRG_await_the_wanenkrieg:0 "[Root.GetBRGFocusAwait_The_Wanenkrieg]"
 BRG_die_enzig_hoffnung:0 "[Root.GetBRGFocusDie_Enzig_Hoffnung]"
 
-BRG_unter_der_schwarzen_sonne:0 "Unter Der Schwarzen Sonne"
-BRG_unter_der_schwarzen_sonne_text:0 "Unter Der Schwarzen Sonne"
-BRG_a_wise_leader_text:0 "A Wise Leader"
-BRG_a_loyal_army_text:0 "A Loyal Army"
-BRG_a_pure_race_text:0 "A Pure Race"
-BRG_the_last_hope_for_germania_text:0 "The Last Hope For Germania"
-BRG_a_change_in_plan_text:0 "A Change In Plan"
+BRG_unter_der_schwarzen_sonne:0 "검은 태양 아래에서"
+BRG_unter_der_schwarzen_sonne_text:0 "검은 태양 아래에서"
+BRG_a_wise_leader_text:0 "현명한 지도자"
+BRG_a_loyal_army_text:0 "충성스런 군대"
+BRG_a_pure_race_text:0 "순수한 인종"
+BRG_the_last_hope_for_germania_text:0 "게르마니아 최후의 희망"
+BRG_a_change_in_plan_text:0 "계획 변경"
 BRG_admit_no_fault_text:0 "Admit No Fault"
-BRG_expand_the_camps_text:0 "Expand The Camps"
+BRG_expand_the_camps_text:0 "수용소 확대"
 BRG_redouble_re_education_efforts_text:0 "Redouble Re-education Efforts"
 BRG_sonnenfinsternis_text:0 "Means to an End"
 BRG_expand_project_gjallarhorn_text:0 "Expand Project Gjallarhorn"
@@ -5645,7 +5645,7 @@ BRG_a_pure_race_desc:0 "The Aryan race teeters on the brink of catastrophe. The 
 BRG_the_last_hope_for_germania_desc:0 "In effeminate liberal democracies, the idea of government overthrow is treated as a weapon of last resort. Those who slaver at the thought of defending their so-called rights from tyranny only insist that they will act when so many laws are violated, or so many parties are banned, or so many men are arrested. It is a cover for their weakness, an excuse for them to say "not now, the time is not yet right" whenever someone asks them to show a backbone.\n\nThe Aryan, however, does not wait. He sees the opportunity for power, and he seizes it with as much force as he can muster! He does not fear to tear down the rotten old structure and rebuild it in his image! He does not let betrayal or exile dampen his will! He marches in, pushes aside all who stand in his way, and rights what is wrong permanently!"
 BRG_a_change_in_plan_desc:0 "Something had gone terribly wrong. Not only does Hitler still breathe, but he is also painfully aware of his own mortality. Someone will soon receive his blessing as the official successor to the office of Führer, and will undoubtedly have his supporters in the government and Wehrmacht on high alert if the Reichsführer-SS attempts to assert his power again.\n\nThe route to regaining power over such a broken Reich must be recalculated. It may take longer than initially anticipated, but it shall be iron-clad and leave nothing to chance. Time to call a meeting."
 BRG_admit_no_fault_desc:0 "There are those who, if they knew the truth of the assassination attempt, would use it to defame the Reichsführer-SS as a cowardly weakling professing a failed ideology. They could be no further from the truth. The Reichsführer-SS fully understands the meaning of National Socialism, and the so-called ideologues in Germania continue to vomit out degenerate lies in place of sound theory.\n\nThere is no such thing as a flaw in Nazism, only a flaw in the race implementing it. And the Aryan race has many flaws that must be expunged."
-BRG_expand_the_camps_desc:0 "A powerful man cannot climb his way to the top without making many, many enemies. There are rivals within the bureaucracy, constantly conniving to further their own ends at the expense of the Volk. There are dissenters and rumor-mongers, preferring to spread lies and denounce the truths of National Socialism. There are also spies and saboteurs, undermining the Aryan race at every turn to aid their Semitic masters.\n\nThese vermin, like any other, shall be tracked down and caught. And that means that we will need more places to put them all. Preliminary locations in the Alps are being scouted, due to their proximity to new construction sites and the harshness of their climate as a deterrent for escape."
+BRG_expand_the_camps_desc:0 "힘있는 사람은 많은 적을 만들지 않고는 정상에 오를 수 없습니다. 관료 조직 내에는 인민을 희생하고 자신의 목적을 더 진전시키기 위해 끊임없이 남을 음해하는 경쟁자들이 있습니다. 그것은 반대자와 소문꾼입니다. 이들은 거짓말을 퍼뜨리고 국가사회주의의 진실을 비난하길 좋아합니다. 또한 스파이와 공작원도 있어 셈족 주인들을 돕기 위해 매 차례 아리아 인종을 거꾸러트릴려고 합니다.\n\n이 해충들은 다른 해충과 마찬가지로 추적되어 잡힐 것입니다. 그리고 이는 수용소를 지을 더 많은 땅이 필요하다는 것을 의미합니다. 새로운 건설 현장과 가깝고 날씨가 좋지 않아 탈출하기 어려우므로 알프스 산맥에 있는 땅을 확보해놨습니다."
 BRG_redouble_re_education_efforts_desc:0 "There are many fine Aryan youths in the Ordensstaat who are genetically pure, but their minds have unfortunately been tainted by the teachings of degenerate parents or educators. It is too late for the generator that preceded them, but there is still hope for them to be molded into the image of the ideal Aryan man and woman.\n\nThe positive values of National Socialism must be reinforced, and the negative values of liberalism, leftism, or Judeo-cosmopolitan "traditionalism" must be eradicated. Hopefully by the time they reach adulthood, they may serve the Ordensstaat with pride."
 BRG_sonnenfinsternis_desc:0 "The Ordensstaat has one purpose, and one purpose alone. We are the body that enforces the Reichsführer-SS's will, nothing more, nothing less. Our purpose is not to construct a nation-state, nor is it to Aryanize the natives. The Reichsführer-SS's vision is one far grander than establishing a single enclave of racial purity atop a Gallic cesspit... and after all, the local verman may have a role in its fulfillment."
 BRG_expand_project_gjallarhorn_desc:0 "In war, every defeat is due to human error. Inability to properly anticipate the enemy and failure to prepare oneself have doomed dozens of kings and conquerors to the dustbin of history. We, however, shall not be taken unawares.\n\nIn the first days of the Ordensstaat, the Reichsführer-SS ordered the development of a nuclear early warning program called "Wotan." It was ultimately scrapped, but its infrastructure and resources can be reused for a greater purpose. Not as a watcher, but as a harbinger."
