@@ -1,13 +1,13 @@
 ﻿l_english:
 
- RUS_reunification_category:0 "러시아의 통일"
- RUS_reunification_category_desc:0 "After the German pillagers have shattered the Motherland, what parts of Russia that have not fallen under the German yoke directly have shattered into a mass of disorderly warlords. However, our history teaches us that we are stronger when unified, and it is only when unified that we have a chance of standing against any enemies. It is necessary: The Motherland must rise again."
+ RUS_reunification_category:0 "러시아의 재통일"
+ RUS_reunification_category_desc:0 "독일의 약탈자들이 조국을 산산조각 낸 후, 독일의 멍에에 들지 않은 러시아의 지역들은 무질서한 군벌 집단으로 산산조각 났습니다. 하지만 우리의 역사에서는 우리가 통일되었을 때 더 강했으며, 또한 통일되어야 비로써 우리는 어떠한 적이라도 맞서 싸울 수 있게 됩니다. 조국은 반드시 다시 일어서야 합니다."
 
- russian_total_reunification:0 "Re-Unify The Motherland"
+ russian_total_reunification:0 "모국의 재통일"
  russian_total_reunification_desc:0 ""
 
- russian_reunification:0 "Russian Re-Unification"
- siberian_reunification:0 "Siberian Re-Unification"
+ russian_reunification:0 "러시아의 재통일"
+ siberian_reunification:0 "시베리아의 재통일"
  
  can_form_west_russia_tt:0 "Controls all §YWestern Russia§! states\n"
  can_form_southern_urals_tt:0 "Controls all §YSouthern Urals§! states\n""
@@ -27,7 +27,7 @@
 
  #Reuinification
  ###Peaceful Unification###
- WSR_peace_category:0 "Diplomatic Re-Unification"
+ WSR_peace_category:0 "외교적 재통일"
  WSR_peace_category_desc:0 "Our ideological compatibility to our eastern neighbor has granted us a fortuitous opportunity for the §Ypeaceful unification§! of our states. Despite their receptiveness, however, tensions still exist, as a result of the conditions of warlord-era Russia. In order to successfully §Yunify§! our two states, it would be reasonable to not §Rpush too far§! diplomatically, lest negotiations fail, and Russia once more fall into violence.\n\nThe §YReceptiveness§! of our neighbor to peaceful unification is [?WSB.RUSUnificationReceptiveness].\nOur §YReceptiveness§! to our neighbor's diplomatic advances is [?WSR.RUSUnificationReceptiveness].\n\n§RTension§! between our two states is [?RUSUnificationTension].\n\nNegotiations are currently [GetRussianUnifierDominant].\nWest Russian diplomatic weight: [?WSR.RUS_diplo_prestige]\nWest Siberian diplomatic weight: [?WSB.RUS_diplo_prestige]"
  WSR_begin_final_unification_talks:0 "Begin §GFinal Unification Talks§!"
  WSR_hold_preliminary_conference:0 "Hold §GPreliminary Conference§!"
@@ -39,7 +39,7 @@
  WSR_propose_border_treaty:0 "Propose §YBorder Access Treaty§!"
  WSR_offer_diplomatic_concession:0 "Propose §YDiplomatic Concession§!"
 
- WSB_peace_category:0 "Diplomatic Re-Unification"
+ WSB_peace_category:0 "외교적 재통일"
  WSB_peace_category_desc:0 "Our ideological similarity to our western neighbor has granted us a fortuitous opportunity for the §Ypeaceful unification§! of our states. Despite their receptiveness, however, tensions still exist, as a result of the conditions of warlord-era Russia. In order to successfully §Yunify§! our two states, it would be reasonable to not §Rpush too far§! diplomatically, lest negotiations fail, and Russia once more fall into violence.\n\nThe §YReceptiveness§! of our neighbor to peaceful unification is [?WSR.RUSUnificationReceptiveness].\nOur §YReceptiveness§! to our neighbor's diplomatic advances is [?WSB.RUSUnificationReceptiveness].\n\n§RTension§! between our two states is [?RUSUnificationTension].\n\nNegotiations are currently [GetRussianUnifierDominant].\nWest Russian diplomatic weight: [?WSR.RUS_diplo_prestige]\nWest Siberian diplomatic weight: [?WSB.RUS_diplo_prestige]"
  WSB_begin_final_unification_talks:0 "Begin §GFinal Unification Talks§!"
  WSB_hold_preliminary_conference:0 "Hold §GPreliminary Conference§!"
