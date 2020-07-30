@@ -5,29 +5,29 @@ l_english:
  EQUIPMENT_ARMOR:0 "Armor"
  EQUIPMENT_MOTORIZED:0 "Motorized"
  EQUIPMENT_MECHANIZED:0 "Mechanized"
- EQUIPMENT_INFANTRY:0 "Infantry"
+ EQUIPMENT_INFANTRY:0 "보병"
  EQUIPMENT_CAPITAL_SHIP:0 "Capital Ship"
- EQUIPMENT_SUBMARINE:0 "Submarine"
+ EQUIPMENT_SUBMARINE:0 "잠수함"
  EQUIPMENT_SCREEN:0 "Screen"
  EQUIPMENT_CONVOY:0 "Trade Convoy"
- EQUIPMENT_AIR_FIGHTER:0 "Fighter"
+ EQUIPMENT_AIR_FIGHTER:0 "전투기"
  EQUIPMENT_AIR_CAS:0 "Close Air Support"
  EQUIPMENT_INTERCEPTOR:0 "Interceptor"
- EQUIPMENT_TACTICAL_BOMBER:0 "Tactical Bomber"
- EQUIPMENT_STRATEGIC_BOMBER:0 "Strategic Bomber"
+ EQUIPMENT_TACTICAL_BOMBER:0 "전술 폭격기"
+ EQUIPMENT_STRATEGIC_BOMBER:0 "전략 폭격기"
  EQUIPMENT_NAVAL_BOMBER:0 "Naval Bomber"
  EQUIPMENT_TRANSPORT:0 "Transport"
- EQUIPMENT_CARRIER:0 "Carrier"
+ EQUIPMENT_CARRIER:0 "항공모함"
  EQUIPMENT_PARACHUTE:0 "Parachute"
  EQUIPMENT_SUPPORT:0 "Support"
  EQUIPMENT_ANTI_AIR:0 "Anti-Air"
- EQUIPMENT_ARTILLERY:0 "Artillery"
+ EQUIPMENT_ARTILLERY:0 "포병"
  EQUIPMENT_ANTI_TANK:0 "Anti-Tank"
  EQUIPMENT_ROCKET:0 "Rocket"
  EQUIPMENT_MISSILE:0 "Guided Missile"
- EQUIPMENT_LAND:0 "Land Equipment"
- EQUIPMENT_NAVAL:0 "Naval Equipment"
- EQUIPMENT_AIR:0 "Air Equipment"
+ EQUIPMENT_LAND:0 "육군 장비"
+ EQUIPMENT_NAVAL:0 "해군 장비"
+ EQUIPMENT_AIR:0 "공군 장비"
  EQUIPMENT_VERSION:0 "Mk$VERSION|0$"
  EQUIPMENT_VEHICLE:0 "Vehicle"
  UNIT_GENERIC_NAME_GENERIC_INFANTRY:0 "$NR$. $NAME$"
@@ -291,7 +291,7 @@ l_english:
   tank_reliability_upgrade:0 "Reliability"
   tank_reliability_upgrade_desc:0 "Improving reliability leads to less broken down tanks you will need to replace."
  
-  tank_engine_upgrade:0 "Engine"
+  tank_engine_upgrade:0 "엔진"
   tank_engine_upgrade_desc:0 "More mobility give tactical and strategic advantages, as well as allowing more armor without being slowed down significantly."
  ### Tanks ###
 
@@ -309,7 +309,7 @@ l_english:
   carrier_armor_upgrade:0 "Armor"
   carrier_armor_upgrade_desc:0 "More armor to protect your ship against enemy fire"
 
-  ship_engine_upgrade:0 "Engine"
+  ship_engine_upgrade:0 "엔진"
   ship_engine_upgrade_desc:0 "A ship with a more powerful engine can control distance to its opponents in battle"
 
   ship_reliability_upgrade:0 "Reliability"
@@ -321,10 +321,10 @@ l_english:
   ship_ASW_upgrade:0 "ASW"
   ship_ASW_upgrade_desc:0 "Anti-Submarine-Warfare weapons are important for locating and taking out submarines."
 
-  destroyer_engine_upgrade:0 "Engine"
+  destroyer_engine_upgrade:0 "엔진"
   destroyer_engine_upgrade_desc:0 "A ship with a more powerful engine can control distance to its opponents in battle"
 
-  sub_engine_upgrade:0 "Engine"
+  sub_engine_upgrade:0 "엔진"
   sub_engine_upgrade_desc:0 "A ship with a more powerful engine can control distance to its opponents in battle"
 
   sub_stealth_upgrade:0 "Stealth"
@@ -661,15 +661,15 @@ l_english:
    MBT_aa_equipment_4_desc:0 "Heavy anti-air batteries are perfect to protect the army from enemy bombers or other heavy aircraft with their powerful payload. No longer towed or fixed into place, they are now self propelled for higher autonomy and mobility."
 
    # 1990
-   MBT_aa_equipment_5:0 "90's Heavy SPAA"
-   MBT_aa_equipment_5_short:0 "90's Heavy SPAA"
+   MBT_aa_equipment_5:0 "90년대 Heavy SPAA"
+   MBT_aa_equipment_5_short:0 "90년대 Heavy SPAA"
    MBT_aa_equipment_5_desc:0 "Heavy anti-air batteries are perfect to protect the army from enemy bombers or other heavy aircraft with their powerful payload. No longer towed or fixed into place, they are now self propelled for higher autonomy and mobility."
   ## Self-Propelled ##
  ### Anti-Air ###
 
  ### Deprecated ###
-  anti_tank_equipment:0 "Anti-Tank Equipment"
-  anti_tank_equipment_desc:0 "Anti-Tank Equipment"
+  anti_tank_equipment:0 "대전차 장비"
+  anti_tank_equipment_desc:0 "대전차 장비"
  ### Deprecated ###
 #### Artillery & Anti-Air ####
 
@@ -709,66 +709,66 @@ l_english:
  ### APC ###
   APC_equipment:0 "Armored Personnel Carrier"
 
-  APC_equipment_0:0 "1940's APC"
+  APC_equipment_0:0 "1940년대 APC"
   APC_equipment_0_desc:0 "Armored troop transport vehicle that was developed during the Second World War to carry personnel into combat. A bit crude in design, but effective enough to stop small arms and light artillery fire, and carry some light armaments."
 
-  APC_equipment_1:0 "1950's APC"
+  APC_equipment_1:0 "1950년대 APC"
   APC_equipment_1_desc:0 "A more refined transport vehicle, this APC can hold a larger number of soldiers and is more adapted to harsh combat environments. The vehicle's heavier armor can prove useful if ambushed or transporting troops through hostile areas."
 
-  APC_equipment_2:0 "1960's APC"
+  APC_equipment_2:0 "1960년대 APC"
   APC_equipment_2_desc:0 "Building our APC with amphibious capabilities in mind, and including features such as an exhaust snorkel or water jets, will allow them to preform river crossing if bridges are unavailable and be used in naval assaults."
 
-  APC_equipment_3:0 "1970's APC"
+  APC_equipment_3:0 "1970년대 APC"
   APC_equipment_3_desc:0 "By improving the suspension system in the wheel or track system of our APCs, we can make them more comfortable to be in during transport, and allow the passengers to disembark more quickly when a rapid exit is required."
 
-  APC_equipment_4:0 "1980's APC"
+  APC_equipment_4:0 "1980년대 APC"
   APC_equipment_4_desc:0 "Newly developed bulletproof glass blends will make our APCs safer and protect the drivers from small arms fire in the event of an attack. Improved engines components will also make our vehicles more reliable and fuel efficient."
 
-  APC_equipment_5:0 "1990's APC"
+  APC_equipment_5:0 "1990년대 APC"
   APC_equipment_5_desc:0 "Thicker underside plating will help to make this vehicle more resistant to mines and other IEDs, and integrated computing technology will allow it to stay connected and provide additional support when not transporting gear."
  ### APC ###
 
  ### IFV ###
   IFV_equipment:0 "Infantry Fighting Vehicle"
 
-  IFV_equipment_0:0 "1940's IFV"
+  IFV_equipment_0:0 "1940년대 IFV"
   IFV_equipment_0_desc:0 "Infantry fighting vehicle that was developed during the Second World War, generally with a half-track or light tank design. Able to transport a squadron of soldiers while also having an autocannon or heavier gun for direct fire support."
 
-  IFV_equipment_1:0 "1950's IFV"
+  IFV_equipment_1:0 "1950년대 IFV"
   IFV_equipment_1_desc:0 "Intended to fill the gap between an APC and a MBT, this vehicle is purpose-designed with both troop transport and combat capability in mind. Its heavier armaments can prove useful in a firefight when no other support is available."
 
-  IFV_equipment_2:0 "1960's IFV"
+  IFV_equipment_2:0 "1960년대 IFV"
   IFV_equipment_2_desc:0 "This new generation of IFV is both heavily armed and armored, packing a powerful automatic cannon and adorned with armor nearly as thick as an APC. It can serve as an effective assault vehicle that can fight alongside the troops inside."
 
-  IFV_equipment_3:0 "1970's IFV"
+  IFV_equipment_3:0 "1970년대 IFV"
   IFV_equipment_3_desc:0 "Featuring additional armaments such as a mounted machine gun in addition to the cannon, this IFV allows troops to fight from both within the vehicle using gun ports, or from outside the vehicle, using its heavier armor as cover."
 
-  IFV_equipment_4:0 "1980's IFV"
+  IFV_equipment_4:0 "1980년대 IFV"
   IFV_equipment_4_desc:0 "Additional armor features and countermeasures have been built into this IFV, offering improved protection from high-caliber rounds and artillery fragments, as well as thicker skirts to protect the wheels and treads from damage."
 
-  IFV_equipment_5:0 "1990's IFV"
+  IFV_equipment_5:0 "1990년대 IFV"
   IFV_equipment_5_desc:0 "Integrated digital systems and communications equipment enables this vehicle to provide substantial fire support, and specialized armor upgrades will allow it to keep its occupants safe in even the most hazardous of conditions."
  ### IFV ###
  
  ### MBT ###
-  MBT_equipment:0 "Main Battle Tank"
+  MBT_equipment:0 "주력전차"
 
-  MBT_equipment_0:0 "1940's MBT"
+  MBT_equipment_0:0 "1940년대 MBT"
   MBT_equipment_0_desc:0 "Instead of developing a multitude of tank variants, it is much more efficient and effective to design a vehicle that can fill handle all roles. Early main battle tanks were developed from medium tanks used during the Second World War."
   
-  MBT_equipment_1:0 "1950's MBT"
+  MBT_equipment_1:0 "1950년대 MBT"
   MBT_equipment_1_desc:0 "With the development of more powerful engines, lighter tanks can carry heavier armaments and thicker armor, all while keeping a respectable top speed. This main battle tank will form a key component of our armored forces."
 
-  MBT_equipment_2:0 "1960's MBT"
+  MBT_equipment_2:0 "1960년대 MBT"
   MBT_equipment_2_desc:0 "More powerful main cannons, with calibers around 100mm, can penetrate nearly any type of armor at long ranges. Specialized armor will help to increase tank survivability as anti-tank weapons continue to become more advanced."
 
-  MBT_equipment_3:0 "1970's MBT"
+  MBT_equipment_3:0 "1970년대 MBT"
   MBT_equipment_3_desc:0 "Further increasing the capabilities of the engines in our main battle tanks will allow us to make their armor even thicker and cover more of the vehicle, as well as increase overall reliability and fuel efficiency."
 
-  MBT_equipment_4:0 "1980's MBT"
+  MBT_equipment_4:0 "1980년대 MBT"
   MBT_equipment_4_desc:0 "Explosive reactive armor and other countermeasure system can further increase vehicle survivability, as helicopters and missiles continue to become a greater threat to our armored vehicles."
 
-  MBT_equipment_5:0 "1990's MBT"
+  MBT_equipment_5:0 "1990년대 MBT"
   MBT_equipment_5_desc:0 "Integrated electronic fire control systems can make use of newly developed computing technology, allowing our tanks to engage targets over longer distances with higher accuracy, and lighten the workload of the crew during an engagement."
  ### MBT ###
 #### Armor ####
