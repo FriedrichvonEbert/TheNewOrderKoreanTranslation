@@ -10,34 +10,34 @@ l_english:
  convoy_1:0 "Convoy"
 
  ## Submarines
- submarine:0 "Submarine"
- submarine_desc:0 "Submarines employ stealth and powerful torpedoes to destroy enemy convoys."
+ submarine:0 "잠수함"
+ submarine_desc:0 "잠수함은 적의 호위함을 파괴하기 위해 은밀하고 강력한 어뢰를 사용합니다."
 
  ## Destroyers
- destroyer:0 "Destroyer"
+ destroyer:0 "구축함"
  destroyer_desc:0 "The lightest screening vessel. Its job is to defend larger ships and to find and destroy submarines."
 
  ## Cruisers
- both_cruisers_desc:0 "Light Cruiser - A light screening vessel. Its primary duty is to shield capital ships from enemy light ships but can also unleash powerful torpedoes that can hurt bigger ships.\n\nHeavy Cruiser - A large armored cruiser that is pretty flexible. A good choice for nations who can not afford to build larger capital ships."
+ both_cruisers_desc:0 "경순양함 - A light screening vessel. Its primary duty is to shield capital ships from enemy light ships but can also unleash powerful torpedoes that can hurt bigger ships.\n\nHeavy Cruiser - A large armored cruiser that is pretty flexible. A good choice for nations who can not afford to build larger capital ships."
 
- light_cruiser:0 "Light Cruiser"
+ light_cruiser:0 "경순양함"
  light_cruiser_desc:0 "A light screening vessel. Its primary duty is to shield capital ships from enemy light ships but can also unleash powerful torpedoes that can hurt bigger ships."
 
- heavy_cruiser:0 "Heavy Cruiser"
+ heavy_cruiser:0 "중순양함"
  heavy_cruiser_desc:0 "A large armored cruiser that is pretty flexible. A good choice for nations who can not afford to build larger capital ships."
 
  ## Battleships
- battle_cruiser:0 "Battlecruiser"
+ battle_cruiser:0 "순양전함"
  battle_cruiser_desc:0 "A large capital ship often with offensive abilities close to those of a battleship, but with weaker armor traded for a faster speed."
 
- battleship:0 "Battleship"
+ battleship:0 "전함"
  battleship_desc:0 "The largest capital ship with the biggest guns and strongest armor that money can buy. Such an expensive investment deserves proper support of smaller screening ships."
 
- sh_battleship:0 "Superheavy Battleship"
+ sh_battleship:0 "초중전함"
  sh_battleship_desc:0 "The largest capital ship with the biggest guns and strongest armor that money can buy. Such an expensive investment deserves proper support of smaller screening ships."
 
  ## Carriers
- carrier:0 "Carrier"
+ carrier:0 "항공모함"
  carrier_desc:0 "A capital ship able to carry wings of powerful carrier capable aircraft into battle. Also useful as a floating airfield you can position off the coast of your enemy."
 #### Generic ####
 
@@ -79,7 +79,7 @@ l_english:
  ### Frigates ###
 
  ### Destroyers ###
-  ship_hull_light:0 "Destroyer"
+  ship_hull_light:0 "구축함"
   ship_hull_light_desc:0 "A destroyer is a small vessel, lightly armed and meant to provide support to a battlefleet through ASW, AA, and surface combat capabilities."
  
   ship_hull_light_1:2 "WW2 Destroyer Hull"
@@ -97,7 +97,7 @@ l_english:
  ### Destroyers ###
 
  ### Cruisers ###
-  ship_hull_cruiser:0 "Cruiser"
+  ship_hull_cruiser:0 "순양함"
   ship_hull_cruiser_desc:0 "Heavier than a destroyer and lighter than a battleship, a cruiser serves as a cheap alternative for conducting operations normally reserved for large capital ships. Their use is prevalent among navies with long shorelines but short budgets."
  
   ship_hull_cruiser_1:1 "WW2 Cruiser Hull"
@@ -141,7 +141,7 @@ l_english:
  ### Battleship ###
 
  ### Carrier ###
-  ship_hull_carrier:0 "Carrier"
+  ship_hull_carrier:0 "항공모함"
   ship_hull_carrier_desc:0 "Aircraft carriers are ships entirely devoted to hangars and flight decks, using onboard planes for both attack and defense. For any nation wealthy enough to field them, they form the core of a modern navy, providing versatile firepower and excellent power-projection capabilities."
  
   ship_hull_carrier_1:1 "WW2 Carrier Hull"
@@ -159,7 +159,7 @@ l_english:
  ### Carrier ###
 
  ### Submarine ###
-  ship_hull_submarine:0 "Submarine"
+  ship_hull_submarine:0 "잠수함"
   ship_hull_submarine_desc:0 "A submarine is a ship designed to travel underwater for durations of time. They usually carry torpedoes -- bulbous warheads with propellers -- as a main armament, and the most rudimentary designs can travel several feet underwater for days."
 
   ship_hull_submarine_1:1 "WW2 Attack Submarine Hull"
