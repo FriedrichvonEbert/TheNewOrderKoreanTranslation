@@ -18,12 +18,13 @@
 어떤 경우에도 파일 첫 줄의 l_english: 앞에 있는 붉은 점을 삭제하면 안됩니다.
 실수로 삭제한 채 Pull requests요청을 했다면, Issues탭 혹은 해당 요청에 코멘트를 적어주세요.
 문장 내부에 사용된 큰따옴표("")를 삭제하거나, 작은따옴표('')같은 다른 기호로 대체하면 안됩니다.
+번역기 복붙하면 한대 때릴거에용 
 
 예시) 
- KR_and_FR:0 "§YKaiserreich§! and §YFuhrerreich§!"
- KR_and_FR:0 "§Y카이저라이히§!(와)과 §Y퓌러라이히§!"
- camel_corps_tech_effect:0 "Enables §HCamel Corps§!\n§HCavalry\n    Desert§!\n      Attack: §G+15%§!\n"
- camel_corps_tech_effect:0 "§H낙타 부대§! 활성화\n§H기병\n    사막§!\n      공격: §G+15%§!\n"
+KR_and_FR:0 "§YKaiserreich§! and §YFuhrerreich§!"
+KR_and_FR:0 "§Y카이저라이히§!(와)과 §Y퓌러라이히§!"
+camel_corps_tech_effect:0 "Enables §HCamel Corps§!\n§HCavalry\n    Desert§!\n      Attack: §G+15%§!\n"
+camel_corps_tech_effect:0 "§H낙타 부대§! 활성화\n§H기병\n    사막§!\n      공격: §G+15%§!\n"
 
 -하인리히 뵐 기념사업회 (https://discord.gg/fGPdPFP 번역할 사람은 들어오세용)
 
