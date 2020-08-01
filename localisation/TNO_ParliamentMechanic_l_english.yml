@@ -51,25 +51,25 @@ l_english:
   # Party Name
   TNO_ParliamentMechanic_Parties_Entry_Name_text: "[TNO_ParliamentMechanic_Get_Party_ShortName]"
   TNO_ParliamentMechanic_Parties_Entry_Name_tt: "[TNO_ParliamentMechanic_Get_Party_Name]"
-  TNO_ParliamentMechanic_Parties_Entry_Name_ttd: "Example"
+  TNO_ParliamentMechanic_Parties_Entry_Name_ttd: "예시"
   # Support %
   TNO_ParliamentMechanic_Parties_Entry_Support_text: "[TNO_ParliamentMechanic_Get_Party_Support]"
   TNO_ParliamentMechanic_Party_Support_Green: "[?ParliamentMechanic_Party_Support^TNO_PM_GUIHelper_PartiesDisp_Array_val|%G0]"
   TNO_ParliamentMechanic_Party_Support_Yellow: "[?ParliamentMechanic_Party_Support^TNO_PM_GUIHelper_PartiesDisp_Array_val|%Y0]"
   TNO_ParliamentMechanic_Party_Support_Red: "[?ParliamentMechanic_Party_Support^TNO_PM_GUIHelper_PartiesDisp_Array_val|%R0]"
-  TNO_ParliamentMechanic_Parties_Entry_Support_tt: "Example"
-  TNO_ParliamentMechanic_Parties_Entry_Support_ttd: "Example"
+  TNO_ParliamentMechanic_Parties_Entry_Support_tt: "예시"
+  TNO_ParliamentMechanic_Parties_Entry_Support_ttd: "예시"
   # Number of Seats
   TNO_ParliamentMechanic_Parties_Entry_NumSeats_text: "[?ParliamentMechanic_Party_SeatNum^TNO_PM_GUIHelper_PartiesDisp_Array_val|Y0]"
   TNO_ParliamentMechanic_Parties_Entry_NumSeats_tt: "[TNO_ParliamentMechanic_Get_Party_Name] have [?ParliamentMechanic_Party_SeatNum^TNO_PM_GUIHelper_PartiesDisp_Array_val|Y0] held seats."
-  TNO_ParliamentMechanic_Parties_Entry_NumSeats_ttd: "Example"
+  TNO_ParliamentMechanic_Parties_Entry_NumSeats_ttd: "예시"
 ##### GUI #####
 
 ##### Parties #####
  ### Names:
    # - Remember, parties are indexed by their identifier- which starts from 1 
    TNO_ParliamentMechanic_Party_Name_1: "NULL Party" # Code convenience, 'holds' empty seats.
-   TNO_ParliamentMechanic_Party_Name_2: "Independents"
+   TNO_ParliamentMechanic_Party_Name_2: "무소속"
    TNO_ParliamentMechanic_Party_Name_3: "The Royal Party's Moderates"
    TNO_ParliamentMechanic_Party_Name_4: "The Royal Party's Reformists"
    TNO_ParliamentMechanic_Party_Name_5: "The Royal Party's Hardliners"
@@ -77,7 +77,7 @@ l_english:
    TNO_ParliamentMechanic_Party_Name_7: "United England's Liberals"
    TNO_ParliamentMechanic_Party_Name_8: "The Royal Party"
    TNO_ParliamentMechanic_Party_Name_9: "The National Front"
-   TNO_ParliamentMechanic_Party_Name_10: "The Liberal Party"
+   TNO_ParliamentMechanic_Party_Name_10: "자유당"
    TNO_ParliamentMechanic_Party_Name_11: "National Democratic League's New Whigs"
    TNO_ParliamentMechanic_Party_Name_12: "National Democratic League's Democrats"
    TNO_ParliamentMechanic_Party_Name_13: "National Democratic League's Patriots"
