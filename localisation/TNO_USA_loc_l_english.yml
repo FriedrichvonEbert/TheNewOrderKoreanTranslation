@@ -4426,7 +4426,7 @@ USA_OFN_Buffs_10_desc:0 "From the dark days of a war's aftermath shone forth a p
 
  USA_destabilize_sphere:0 "Begun Destabilizing the Japanese Sphere"
 
- german_civil_war:0 "The German Civil War has begun"
+ german_civil_war:0 "독일 내전이 시작되다"
 
  USA_nixon_neutral:0 "Nixon Remains Neutral"
 
@@ -4470,15 +4470,15 @@ USA_bill_decisions_category_desc:0 "[GetBillDesc][Get_RD_R_senate_support][Get_R
 #USA_bill_decisions_category_desc:0 "[GetBillDesc]\n\nthe support for the bill is as follows:\n\n[Get_RD_R_senate_support]\n\n[Get_RD_D_senate_support]\n\n[Get_L_NPP_senate_support]\n\n[Get_C_NPP_senate_support]\n\n[Get_Y_NPP_senate_support]\n\n[Get_FR_NPP_senate_support]."
 USA_talk_with_RD_R:0 "공화당과 대화"
 USA_talk_with_RD_D:0 "민주당과 대화"
-USA_talk_with_L_NPP:0 "Talk with [Get_NPP_Ref]'s Leftists"
-USA_talk_with_C_NPP:0 "Talk with [Get_NPP_Ref]'s Social Democrats"
-USA_talk_with_FR_NPP:0 "Talk with [Get_NPP_Ref]'s Far Right"
-USA_talk_with_Y_NPP:0 "Talk with [Get_NPP_Ref]'s "Yockeys""
+USA_talk_with_L_NPP:0 "[Get_NPP_Ref] 좌파와 대화"
+USA_talk_with_C_NPP:0 "[Get_NPP_Ref] 사회민주계와 대화"
+USA_talk_with_FR_NPP:0 "[Get_NPP_Ref] 극우와 대화"
+USA_talk_with_Y_NPP:0 "[Get_NPP_Ref] "요키"파와 대화"
 USA_talk_with_RD_R_eventless:0 "공화당과 대화"
 USA_talk_with_RD_D_eventless:0 "민주당과 대화"
-USA_talk_with_NPP_C_eventless:0 "Talk with [Get_NPP_Ref]'s Social Democrats"
-USA_talk_with_NPP_FR_eventless:0 "Talk with [Get_NPP_Ref]'s Far Right"
-USA_bill_timer:0 "Hold the Vote"
+USA_talk_with_NPP_C_eventless:0 "[Get_NPP_Ref] 사회민주계와 대화"
+USA_talk_with_NPP_FR_eventless:0 "[Get_NPP_Ref] 극우와 대화"
+USA_bill_timer:0 "투표 보류"
 USA_bill_timer_pass_criteria:0 "§BA vote has been held on this Bill§!"
 unavalible_already_negotiated:0 "We've haven't already struck a deal"
 RD_R_talking:0 "The Republicans are willing to negotiate"
@@ -4626,8 +4626,8 @@ USA_sen_bill.7.d:0 "LOC WORK"
 We_Are_NPP:0 "Our party"
 We_Are_Not_NPP:0 "The NPP"
 
-RD_R_senate_support_both:0 "\n\nBoth Republican senators support our bill."
-RD_R_senate_support_neither:0 "\n\nBoth Republican senators oppose our bill."
+RD_R_senate_support_both:0 "\n\n공화당 상원의원 모두 우리 법안을 지지합니다."
+RD_R_senate_support_neither:0 "\n\n공화당 상원의원 모두 우리 법안에 반대합니다."
 RD_R_senate_support_only:0 "\n\nThe Republican senator supports our bill."
 RD_R_senate_oppose_only:0 "\n\nThe Republican senator opposes our bill."
 RD_R_senate_support_max:0 "\n\nAll [?RD_R_senators|G0] Republican senators supports our bill."
@@ -4737,7 +4737,7 @@ USA_sen_bill.1008.a:0 "Pushovers!"
 
 RD_R_all_convinced:0 "만약 우리가 이 타협을 받아들인다면, 우리는 공화당원 전체를 같은 편으로 둘 수 있습니다!"
 RD_D_all_convinced:0 "만약 우리가 이 타협을 받아들인다면, 우리는 민주당원 전체를 같은 편으로 둘 수 있습니다!"
-L_NPP_all_convinced:0 "If we accepted this compromise, we'd have the entire leftist wing of [Get_NPP_Ref] on our side!"
+L_NPP_all_convinced:0 "만약 우리가 이 타협을 받아들인다면, 우리는 [Get_NPP_Ref]의 좌파를 같은 편으로 둘 수 있습니다!"
 C_NPP_all_convinced:0 "If we accepted this compromise, we'd have the entire social democrat wing of [Get_NPP_Ref] on our side!"
 Y_NPP_all_convinced:0 "If we accepted this compromise, we'd have the entire "Yockey" wing of [Get_NPP_Ref] on our side!"
 FR_NPP_all_convinced:0 "If we accepted this compromise, we'd have the entire far right wing of [Get_NPP_Ref] on our side!"
@@ -4791,10 +4791,10 @@ TP_fail_clause:0 "§rThis will result in the clause failing§!\n"
 ################## ICW
 
 
-USA_ICW_Military_Cat:0 "The Front Lines"
-USA_ICW_Domestic_Cat:0 "The Domestic Situation"
+USA_ICW_Military_Cat:0 "전선"
+USA_ICW_Domestic_Cat:0 "국내 상황"
 
-USA_IW_Peace_Decisions:0 "The Indonesian War"
+USA_IW_Peace_Decisions:0 "인도네시아 전쟁"
 USA_IW_Peace_Decisions_desc:0 "The outbreak of hostilities in Indonesia offer an opportunity to chip away at Japanese dominance of Southeast Asia. Still, we should exercise caution in the scope of our intervention. The more we invest into the rebels the more their failure will blow back on us.\n\nInitially we may find it quite §Geasy§! to escalate the fight in Indonesia but the §Rlonger§! and §Rharder§! we fight the more the public will find itself disillusioned with a war we have little right to be fighting in.\n§GMaintaining§! support for the war from the §wRepublican§!-§BDemocrats§! and the §ONational Progressive Party§! will be essential to allow congress to let us send §Gmore§! support for the war efforts, but should both parties be §Rsupportive§! of the war, anti-war activists may find themselves looking towards §Rextremism.§! Keeping the war §Gpopular§! will mean higher §Gsupport§! for our party.\n\nDomestic support for the war is [GetICWDomesticSupport] ([?USA_INS_CW_Domestic_Support])\n\n§wRepublican§!-§BDemocrat§! support for the war is [GetICWRDSupport] ([?USA_INS_CW_RD_Support])\n\n§ONational Progressive§! support for the war is [GetICWNPPSupport] ([?USA_INS_CW_NPP_Support])"
 USA_Pull_Out_Of_Indonesian_War:0 "Withdraw Our Support"
 
@@ -4930,9 +4930,9 @@ USA_SAF_WAR_Insurgency_Domestic_Discontent_10:0 "Domestic Discontent - Societal 
 
 
 
-USA_SAF_WAR_Extremism_increase:0 "There will be a rise in extremism\n"
+USA_SAF_WAR_Extremism_increase:0 "극단주의가 대두될 것입니다\n"
 
-USA_SAF_WAR_Insurgency_Pull_Out_Decision:0 "Pull Out of Africa"
+USA_SAF_WAR_Insurgency_Pull_Out_Decision:0 "아프리카에서 철수하기"
 
 USA_SAF_WAR_Domestic_Discontent_Key_None:0 "§ynon existant§!"
 USA_SAF_WAR_Domestic_Discontent_Key_Very_Low:0 "§yvery low§!"
