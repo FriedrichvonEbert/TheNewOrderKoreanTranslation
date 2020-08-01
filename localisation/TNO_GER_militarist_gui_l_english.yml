@@ -6,13 +6,13 @@
  GER_MILITARIST_POWER_MAIN_TT:0 "The Militarists maintain [GetGGR_militarist_power_intext] amount of power independent of the interests of the German State (§Y[?GER_Militarist_Power|0]%§!)"
  GER_MILITARIST_LOYALTY_MAIN_TT:0 "The Militarists [GetGGR_militarist_Loyalty_intext] to the leadership of the German State (§Y[?GER_Militarist_Loyalty|0]%§!)"
 
- GER_MILITARIST_INFLUENCE_VERY_HIGH:0 "VERY HIGH" 
- GER_MILITARIST_INFLUENCE_HIGH:0 "HIGH" 
- GER_MILITARIST_INFLUENCE_MEDIUM:0 "MEDIUM" 
- GER_MILITARIST_INFLUENCE_VERY_LOW:0 "LOW"  
- GER_MILITARIST_INFLUENCE_LOW:0 "VERY LOW" 
- GER_MILITARIST_INFLUENCE_CRITICAL:0 "§RCRITICAL!!§!"  
- GER_MILITARIST_INFLUENCE_ABSOLUTE:0 "§GABSOLUTE§!"
+ GER_MILITARIST_INFLUENCE_VERY_HIGH:0 "매우 높음" 
+ GER_MILITARIST_INFLUENCE_HIGH:0 "높음" 
+ GER_MILITARIST_INFLUENCE_MEDIUM:0 "중간" 
+ GER_MILITARIST_INFLUENCE_VERY_LOW:0 "낮음"  
+ GER_MILITARIST_INFLUENCE_LOW:0 "매우 낮음" 
+ GER_MILITARIST_INFLUENCE_CRITICAL:0 "§R위기!!§!"  
+ GER_MILITARIST_INFLUENCE_ABSOLUTE:0 "§G없음§!"
  GER_NOTHING:0 ""
 
 #Intext (used in the tooltip)
@@ -42,12 +42,12 @@
  GER_MILITARIST_LEADER_TRAIT_4:0 "[GetGGR_militarist_leader_trait_4]"   
 
 #Leader Descriptions
- GER_militarist_leader_goering_desc:0 "Hermann Goering"
- GER_militarist_leader_schorner_desc:0 "Ferdinand Schörner"
- GER_militarist_leader_speidel_desc:0 "Hans Speidel"
- GER_militarist_leader_muller_desc:0 "Siegfried Müller"
- GER_militarist_leader_anarchy_desc:0 "No leader"
- GER_militarist_leader_theodor_desc:0 "Heinrich Theodor Göring"
+ GER_militarist_leader_goering_desc:0 "헤르만 괴링"
+ GER_militarist_leader_schorner_desc:0 "페르디난트 쇠르너"
+ GER_militarist_leader_speidel_desc:0 "한스 슈파이델"
+ GER_militarist_leader_muller_desc:0 "지그프리드 뮐러"
+ GER_militarist_leader_anarchy_desc:0 "지도자 없음"
+ GER_militarist_leader_theodor_desc:0 "하인리히 테오도어 괴링"
 
 #Specific Leader Traits 
  GER_MILITARIST_LEADER_GOERING_TRAIT_1:0 "POWER HUNGRY"  
@@ -89,8 +89,8 @@
  
  ######Influence
  
- GER_INFLUENCER_SPEIDELS_DEFEAT:0 "+Speidels Defeat\n"
- GER_INFLUENCER_SPEIDELS_VICTORY:0 "-Speidels Victory\n"
+ GER_INFLUENCER_SPEIDELS_DEFEAT:0 "+슈파이델의 패배\n"
+ GER_INFLUENCER_SPEIDELS_VICTORY:0 "-슈파이델의 승리\n"
  
  GER_INFLUENCER_SCHORNER_MIL_LEADER_INFLUENCE:0 "+Schörners Influence\n"
  
