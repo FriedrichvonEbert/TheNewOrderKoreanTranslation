@@ -43,7 +43,7 @@
  CHI_slave_of_the_samurai_4_desc:0 " 우리는 일본이 그들의 영향력이 약해지고 있다는 피하고싶어 했던 사실에 직면하도록 만들고 있습니다. 5대 근대화 계획은 중국의 20세기를 격변시켰습니다. 중국은 더이상 외세의 멍에에 굴복하지 않을 것입니다. 호랑이는 다시 한 번 송곳니를 드러낼 것이며, 중국은 다시 자유롭고 강해질 것입니다.\n§MWe will have to pay an additional§! §Y500M$§! §Min§! §YCivilian Expenses§! §Mevery year.§!"
  CHI_small_army:0 "소규모 군대"
  CHI_small_army_desc:0 "한때 공포의 대상이였던 중국군은 반정부 활동 진압과 수비 임무에 적합한 방어군으로 전락하였습니다. 일본에 의해 잘 보급되고, 잘 무장되어 있고, 잘 훈련되어 있지만, 우리는 우리의 지배자들에 의해 그 규모를 제한 받고 있습니다. "
- CHI_small_army_tt:0 "§RCannot train units, disband units, or edit unit templates without §Ypermission§! from§! §Your Japanese overlords§!§R.§!\n"
+ CHI_small_army_tt:0 "§Y우리 일본 주인들의 허락없이는 §R새로운 사단을 훈련하거나, 해체시키거나, 편제할수 없습니다§!§R.§!\n"
  CHI_surrounded_by_enemies:0 "이빨빠진 호랑이"
  CHI_surrounded_by_enemies_desc:0 "아주 오래 전, 중국은 주변국과 깃발들을 고개숙이게 만드는 그야말로 중국 즉 아시아의 중심이였습니다. 이 황금의 시기는 오래전의 이야기일 뿐입니다. 지난 2세기 동안 중국은 물어 뜯기고 굴욕을 당해야만 했습니다. 우리의 광대한 영토는 떠오르는 태양에 의해 갈가리 찢기고 족쇄가 채워졌습니다. 변화의 흐름이 오지 않는한, 자유롭고 강대한 중국이라는 기억은 무로 사라지고야 말것입니다."
  CHI_arsenal_of_the_cosphere:0 "공영권의 병기창"
@@ -100,7 +100,7 @@
  
  CHI_Restricted_Army:0 "제한된 군대"
  CHI_Restricted_Army_desc:0 "가오의 외교수완을 통해, 우리는 도쿄로부터 애처로운 파수꾼에 불과한 우리의 군대를 언제 어느 작전에서나 투입할 수 있도록 개편에 하는 것에 대해 어느정도 양보를 얻어냈습니다. 이 협상에서의 승리로 우리의 병력 모집을 끌어올렸지만, 우리의 정적들은 일본군이 최종결정권을 유지하고 있음을 상기시켜주고 있습니다.  "
- CHI_Little_Brother_Army:0 "The Little Brother Army"
+ CHI_Little_Brother_Army:0 "작은 아우의 군대"
  CHI_Little_Brother_Army_desc:0 "일본과의 세밀한 외교공작과 감언이설을 통해 우리에 대한 그들의 인식을 바꿔놓았습니다. 비록 일본이 중국과 일본의 동등한 지위 인정을 거부했을지언정,  우리는 차선책을 확보했습니다. 일본은 형제와 같은 사고방식을 택했고, 우리가 우리 조국에 걸맞는 군대를 만드는 동안 일본은 공영권의 방어를 위해 더 큰 군사력을 가지도록 양보할 것입니다. "
  CHI_Necessary_Army:0 "군비 확장의 필요성"
  CHI_Necessary_Army_desc:0 "가오의 정치공작은 절정에 도달했습니다. 아시아를 확보하려면 협력이 필요하다는 것을 깨달은 일본은 우리 군을 완전히 확장시킬 수 있는 권한을 부여했습니다. 우리가 개혁을 실행한다면, 중국군은 다시 한번 두려운 존재가 될 것입니다. "
@@ -152,11 +152,11 @@
  CHI_Chen_Gongbo_eco:0 "첸공보"
  CHI_Zhou_Fohai_eco:0 "저우포하이"
  CHI_Li_Shengwu_for:0 "리솅우"
- CHI_Zhou_Longxiang_for:0 "Zhou Longxiang"
+ CHI_Zhou_Longxiang_for:0 "저우롱샹"
  CHI_Ye_Peng_sec:0 "예펭"
  CHI_Xiao_Shuxuan_sec:0 "Xiao Shuxuan"
  CHI_Mei_Siping_sec:0 "메이시핑"
- CHI_Zhou_Xuechang_sec:0 "Zhou Xuechang"
+ CHI_Zhou_Xuechang_sec:0 "저우췌창"
 
  #Dynamic Modifiers
  CHI_research_dynamic_modifier:0 "개선된 연구 능력"
@@ -166,7 +166,7 @@
 
  #Opinion Modifiers 
  CHI_placed_troops_on_YUN_border:0 "남서부 국경에 병력을 배치시켰습니다."
- CHI_investigate_YUN:0 "Investigated [YUN.GetName]"
+ CHI_investigate_YUN:0 "[YUN.GetName] 조사중"
  CHI_econ_links_trade_YUN:0 "[YUN.GetName]과의 경제적 연결 구축"
  CHI_sabotaged_japanophiles:0 "친일파 사보타주 당함"
 # CHI_investigate_YUN:0 "Has investigated Xinan" #duplicate loc key
@@ -182,8 +182,8 @@
  chi.2.d:0 "옛 국민당은 일본의 도래와 정복 이전 중국의 집권당이었습니다. 그들이 신정부를 세우고 국민당을 탄압하자, 장개석의 옛 동료들은 지하로 들어갔습니다. 국민당 우파 세력이 정부에 침투해 정책 결정에 영향을 미친다는 소문이 관료주의 내부에 퍼지면서 중국을 무정부 상태로 몰아가고 있습니다. \n\n 오늘, 이러한 의혹들이 사실로 드러났습니다. 말단 하위직에서 고위층에 이르기까지 다수의 공무원들이 국민당 우파의 스파이였음이 드러났습니다. 그들은 난징에서 원난으로 불러온 열차를 통해 남동부의 국민당 게릴라군과 은밀히 내톤하고 있음이 밝혀졌습니다. 한 경찰관이 기차역에서 그들을 발견하고 화물칸에 적합한 것이 있는지 확신하지 못해 그들과 이야기 하러 갔습니다. 그들이 형편없는 변명과 서류 위조 끝에, 경찰은 그 조직을 상급자에 보고하기로 결정했으며, 이로 인해 밀실이 발견되어 경찰은 그 조직을 체포했습니다. 현재 그들은 재판을 기다리고 이으며, 반역죄가 구형될 것으로 예상됩니다." 
  chi.2.a:0 "재에서, 먼지로."
 
- chi.3.t:0 "The Situation in China"
- chi.3.d:0 "The history of China is a complex one. Perhaps the most ancient civilization known to man, China has both dominated and been held under the boot. As the moon waxes and wanes, as does China, and currently the nation has suffered under decades of embarrassment, the so-called century of humiliation. But as rebels seized Nanjing and the Qing Dynasty came to its end, hope abounded. Hope for a new republican state where the Han controlled China. Hope for a true, lasting peace, where warlords no longer threatened the sanctity of life and every man was free.\n\nThe liberties and vices of the Roaring 20's came to a sudden stop with a coordinated Japanese invasion. Two giants of China, Chiang Kai-Shek and Mao Zedong, died alongside each other as they fought against the Japanese menace in the ruins of Chongqing. Outside of these giants of history, gears turned. Former KMT loyalist Wang Jingwei defected to the Japanese, hoping to defeat Chiang and his lackeys. When he began negotiations with the Japanese, he found out that the Japanese had no other intentions but to make China a simple colony.\n\nThey had swiftly dismantled the old government and created a new Chinese Republic in its place, one that would be more open to "cooperation." Wang Jingwei resigned to his fate and died, knowing that he had betrayed his country and ushered in another era of humiliation.\n\nAll was not hopeless, however. A new generation of Chinese, too young to remember the war, strove for a revived spirit. Old lackeys friendly to the Japanese still held the greatest influence, but as a power vacuum formed, they looked towards Gao Zongwu, a diplomat during the war, a weak candidate. What neither factions knew was that Gao, a cautious individual, intended to make use of his time in office. He had great plans for Zhongguo, the nation rising from ashes.``
+ chi.3.t:0 "중국의 현황 The Situation in China"
+ chi.3.d:0 "중국의 역사는 매우 복잡합니다. 인류사상 가장 오래된 문명이라할지라도, 중국은 점령당하고 총칼아래에서 지배받고있습니다.The history of China is a complex one. Perhaps the most ancient civilization known to man, China has both dominated and been held under the boot. As the moon waxes and wanes, as does China, and currently the nation has suffered under decades of embarrassment, the so-called century of humiliation. But as rebels seized Nanjing and the Qing Dynasty came to its end, hope abounded. Hope for a new republican state where the Han controlled China. Hope for a true, lasting peace, where warlords no longer threatened the sanctity of life and every man was free.\n\nThe liberties and vices of the Roaring 20's came to a sudden stop with a coordinated Japanese invasion. Two giants of China, Chiang Kai-Shek and Mao Zedong, died alongside each other as they fought against the Japanese menace in the ruins of Chongqing. Outside of these giants of history, gears turned. Former KMT loyalist Wang Jingwei defected to the Japanese, hoping to defeat Chiang and his lackeys. When he began negotiations with the Japanese, he found out that the Japanese had no other intentions but to make China a simple colony.\n\nThey had swiftly dismantled the old government and created a new Chinese Republic in its place, one that would be more open to "cooperation." Wang Jingwei resigned to his fate and died, knowing that he had betrayed his country and ushered in another era of humiliation.\n\nAll was not hopeless, however. A new generation of Chinese, too young to remember the war, strove for a revived spirit. Old lackeys friendly to the Japanese still held the greatest influence, but as a power vacuum formed, they looked towards Gao Zongwu, a diplomat during the war, a weak candidate. What neither factions knew was that Gao, a cautious individual, intended to make use of his time in office. He had great plans for Zhongguo, the nation rising from ashes.``
  chi.3.a:0 "재밌네, 계속해 봐"
  chi.3.b:0 "알아들었으니까, 이제 됐어"
 
@@ -428,7 +428,7 @@
  chi.73.d:0 "A decade ago, China was called the "breadbasket of the Sphere". To the Japanese, our agrarian economy was of particular use and they remain consistent customers to our millet and rice exports. Even then, our production was such that the Japanese men in Hawaii ate their bento over Chinese grown rice, much the same as the Japanese youth growing up on Chinese rice in their porridge. The Japanese would eat our beef, drink our tea, crack our eggs, and slice our bread. We have long controlled the Sack, it is what made us useful to the Japanese, but now we are forging our Sword.\n\nPickaxes, now made in China, crack against iron. Furnaces smelt the iron, technicians turn it to steel, and ferrymen ship tons of the metal out to factories. The lights never go out now, as coal and oil burn to keep the night alive. It is easy, even affordable, for a peasant to turn the lights on at night and teach themselves to read after a long day's worth of work. Factories turn resources into products useful for China's efforts at an incredible rate. Workers from all around the country stay in dormitories and work day in and out for national progress. Soldiers now shoot Chinese guns, ride Chinese bikes, and travel on Chinese busses. What is even more amazing still is the fact that this entire process can now occur without a word of Japanese spoken. In this sense, we are becoming free.\n\nNow we hold the Japanese in a precarious situation. Their food is Chinese and soon their appliances will be too. The Japanese government in Shanghai is taking protectionist measures, limiting Chinese industrial export traffic and keeping a closer eye on how much we're actually exporting. This is no issue, however, simply the burden of success."
  chi.73.a:0 "To China, stronger than ever!"
 
- chi.74.t:0 "Made in China"
+ chi.74.t:0 "메이드 인 차이나"
  chi.74.d:0 "A boy rides his bike down the beaten muddy trails of Luzon. It is not a new bike, but it works. He received it for his birthday. He is happy. Underneath the seat "Made in China" is pressed into the steel.\n\nThe village watch nurses a beer as he looks out into the jungles of Borneo. In his lap he cradles a hunting rifle. He likes it because it is reliable and hardly misses. Carved into the stock is "Made in China".\n\nIn the Tokyo Mitsukoshi, an impatient husband waits for his wife to decide on a new rice cooker. She is torn between two, one red and one blue. She does not want to buy something that will break after a few months' usage. It does not matter which one she choses, as both are stamped "Made in China"\n\n.A conductor on the Thai-Burma Link Railway smokes his cigarette as he watches the engine dials. The boiler could use a bit more heat, so he signals the engineer to shovel some more coal in. The shovel, the coal, and the engine were all Made in China."
  chi.74.a:0 "Let it be known."
 
@@ -448,7 +448,7 @@
  chi.78.d:0 "The Japanese teachers we were able to acquire are now being monitored by our own native curriculum, to root out any deceitful charlatans who might tarnish the education given with indoctrinating biases or influences. It will also be an opportunity to ensure that the good Chinese culture is being mantained and kept alive, rather than left to whither and die like what is happing in Korea or pratically all of Europe."
  chi.78.a:0 "Imperialism shall never be distilled in our youth! Well, just not too much imperialism."
 
- chi.79.t:0 "Working as Equals"
+ chi.79.t:0 "동등하게 "
  chi.79.d:0 "Instructors from both Japan and China now collaborate for the higher purpose of bringing our intellectually starving populace to a better future refined in humanities and sciences. We work with them for the material, administrative, and ecnomically collective prosperity for all of the Co-Prosperity sphere."
  chi.79.a:0 "Alone we are weak, together we are strong."
 
