@@ -135,12 +135,12 @@
  GER_speer_scale_back_milproduction_desc:0 ""
 
  #Bormann#
- GER_Martin_Bormann_hog:0 "Martin Bormann"
- GER_Hermann_Goring_sec:0 "Hermann Göring"
- GER_Walther_Hewel_for:0 "Walther Hewel"
- GER_Albert_Speer_eco:0 "Albert Speer"
- GER_Erwin_Rommel_hog:0 "Erwin Rommel"
- GER_Fritz_Bayerlein_sec:0 "Fritz Bayerlein"
+ GER_Martin_Bormann_hog:0 "마르틴 보어만"
+ GER_Hermann_Goring_sec:0 "헤르만 괴링"
+ GER_Walther_Hewel_for:0 "발터 헤벨"
+ GER_Albert_Speer_eco:0 "알베르트 슈페어"
+ GER_Erwin_Rommel_hog:0 "에르빈 롬멜"
+ GER_Fritz_Bayerlein_sec:0 "프리츠 바이에를라인"
  GER_Sigismund_von_Braun_for:0 "Sigismund von Braun"
  GER_Alfred_Muller_Armack_eco:0 "Alfred Müller Armack"
  GER_Baldur_von_Schirach_hog:0 "Baldur von Schirach"
@@ -148,15 +148,15 @@
  GER_Franz_Josef_Strauss_eco:0 "Franz Josef Strauss"
  GER_Kurt_Lange_eco:0 "Kurt Lange"
  GER_Adolf_von_Thadden_hog:0 "Adolf von Thadden"
- GER_Ferdinand_Schorner_sec:0 "Ferdinand Schörner"
- GER_Hans_Speidel_sec:0 "Hans Speidel"
+ GER_Ferdinand_Schorner_sec:0 "페르디난트 쇠르너"
+ GER_Hans_Speidel_sec:0 "한스 슈파이델"
  GER_Hermann_Esser_for:0 "Hermann Esser"
  GER_Kurt_Schmucker_eco:0 "Kurt Schmücker"
  GER_Philipp_Bouhler_hog:0 "Philipp Bouhler"
  GER_Herbert_Otto_Gille_sec:0 "Herbert Otto Gille"
  GER_Gunter_dAlquen_for:0 "Gunter d'Alquen"
  GER_Hanns_Martin_Schleyer_eco:0 "Hanns Martin Schleyer"
- GER_Helmut_Schmidt_for:0 "Helmut Schmidt"
+ GER_Helmut_Schmidt_for:0 "헬무트 슈미트"
  GER_Rudolf_Christoph_Freiherr_von_Gersdorff_sec:0 "Rudolf-Christoph Freiherr von Gersdorff"
  GER_Walter_Scheel_for:0 "Walter Scheel"
  GER_Karl_Schiller_eco:0 "Karl Schiller"
@@ -174,7 +174,7 @@
  GER_HGR_kriegsmarine_pressure:0 "Kriegsmarine Pressured"
 
  #Heydrich Opinion Modifiers#
- BRG_coup_attempt:0 "Coup Attempt"
+ BRG_coup_attempt:0 "쿠데타 시도"
  GER_failed_coup:0 "Failed Coup"
  BRG_extremists:0 "Extremists"
  GER_degenerates:0 "Degenerates"
@@ -342,7 +342,7 @@
  GER_OCW_Kovner_victory_tt:0 "§eKovner§! has won in §LOstland.§!"
  
 ### DECISIONS ###
- GER_power_struggle_category:0 "The Power Struggle"
+ GER_power_struggle_category:0 "권력 투쟁"
  GER_power_struggle_category_desc:0 "In the aftermath of the recent assassination attempt on the Führer's life, he has seen fit to name his official successor and designate upon him the matters of state that he, in his age, cannot perform. As the Führer's condition worsens, it is almost assured that the responsibilities of his most high office will pass more and more to his successor.\n\nYet Hitler's chosen is not alone. Three other men vie for the power of the Führer, and their webs of influence have been spun far and deep. The German People may not know it, but within the halls of the Volkshalle, a silent war for the future of Germany rages. Victory in this conflict may bring §Yadvantages§! were the situation to further deteriorate. §YInfluence§! points may be spent on several §Ybuffs§! for our faction. However, it would be unwise to spend it all at once as our remaining §YInfluence§! points could affect our starting position, if the worst comes to the worst... \n\n§YAdolf Hitler§! is currently [ROOT.GetHitlerHealth]\n\n§YMartin Bormann§!'s influence is currently [ROOT.GetBormannInfluence] ([?GER_Bormann_Influence|Y0])\n\n§YHermann Göring§!'s influence is currently [ROOT.GetGoringInfluence] ([?GER_Goring_Influence|Y0])\n\n§YAlbert Speer§!'s influence is currently [ROOT.GetSpeerInfluence] ([?GER_Speer_Influence|Y0])\n\n§YReinhard Heydrich§!'s influence is currently [ROOT.GetHeydrichInfluence] ([?GER_Heydrich_Influence|Y0])\n\nMore §YDecisions§! will be available as Hitler's condition §Rworsens.§!"
 
  GER_Hitler_Stage1:0 "§Gin good health.§!"
@@ -420,7 +420,7 @@
  speer_heer_units_count:0 "[?ROOT.GCW_Speer_heer_units|Y0]"
  heydrich_heer_units_count:0 "[?ROOT.GCW_Heydrich_heer_units|Y0]"
  
- GER_GCW_mechanic_category:0 "The German Civil War"
+ GER_GCW_mechanic_category:0 "독일 내전"
  GER_GCW_mechanic_category_desc:0 "The §YGerman Civil War§! is as much decided in the hearts and minds of the German people, as it is on the battlefield. The quest for §Ylegitimacy§! continues and so does the §Yinfluence§! we can exert on areas controlled by the contenders linger. Keeping and gaining them may just be the edge needed to win the battle for the Reich's future.\n\nWe currently have [?GCW_legitimacy|Y0] Legitimacy\n([ROOT.GetGCWLegitimacyLevel])\nWe currently have [?GCW_influence|Y0] Influence"
 
  GCW_legitimacy_dynamic_modifier:0 "State of Our Legitimacy"
