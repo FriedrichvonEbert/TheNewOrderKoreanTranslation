@@ -4428,7 +4428,7 @@ USA_OFN_Buffs_10_desc:0 "From the dark days of a war's aftermath shone forth a p
 
  german_civil_war:0 "독일 내전이 시작되다"
 
- USA_nixon_neutral:0 "Nixon Remains Neutral"
+ USA_nixon_neutral:0 "닉슨이 중립으로 남다"
 
  USA_failed_policing_action:0 "Failed Policing Action"
 
@@ -4479,8 +4479,8 @@ USA_talk_with_RD_D_eventless:0 "민주당과 대화"
 USA_talk_with_NPP_C_eventless:0 "[Get_NPP_Ref] 사회민주계와 대화"
 USA_talk_with_NPP_FR_eventless:0 "[Get_NPP_Ref] 극우와 대화"
 USA_bill_timer:0 "투표 보류"
-USA_bill_timer_pass_criteria:0 "§BA vote has been held on this Bill§!"
-unavalible_already_negotiated:0 "We've haven't already struck a deal"
+USA_bill_timer_pass_criteria:0 "§B이 법안에 대한 투표가 있었습니다§!"
+unavalible_already_negotiated:0 "우리는 아직 협상을 하지 않았습니다."
 RD_R_talking:0 "The Republicans are willing to negotiate"
 RD_D_talking:0 "The Democrats are willing to negotiate"
 L_NPP_talking:0 "[Get_NPP_Ref]'s leftists are willing to negotiate"
@@ -4934,16 +4934,16 @@ USA_SAF_WAR_Extremism_increase:0 "극단주의가 대두될 것입니다\n"
 
 USA_SAF_WAR_Insurgency_Pull_Out_Decision:0 "아프리카에서 철수하기"
 
-USA_SAF_WAR_Domestic_Discontent_Key_None:0 "§ynon existant§!"
-USA_SAF_WAR_Domestic_Discontent_Key_Very_Low:0 "§yvery low§!"
-USA_SAF_WAR_Domestic_Discontent_Key_Low:0 "§glow§!"
-USA_SAF_WAR_Domestic_Discontent_Key_Semi_Low:0 "§gsomewhat low§!"
-USA_SAF_WAR_Domestic_Discontent_Key_Medium:0 "§ymiddling§!"
-USA_SAF_WAR_Domestic_Discontent_Key_Sorta_High:0 "§ysomewhat middling§!"
-USA_SAF_WAR_Domestic_Discontent_Key_High:0 "§Rhigh§!"
-USA_SAF_WAR_Domestic_Discontent_Key_Very_High:0 "§Rvery high§!"
-USA_SAF_WAR_Domestic_Discontent_Key_Extremely_High:0 "§xextremely high§!"
-USA_SAF_WAR_Domestic_Discontent_Key_Societal_Breakdown:0 "§xapocalyptic§!"
+USA_SAF_WAR_Domestic_Discontent_Key_None:0 "§y존재하지 않습니다.§!"
+USA_SAF_WAR_Domestic_Discontent_Key_Very_Low:0 "§y매주 낮습니다.§!"
+USA_SAF_WAR_Domestic_Discontent_Key_Low:0 "§g낮습니다.§!"
+USA_SAF_WAR_Domestic_Discontent_Key_Semi_Low:0 "§g약간 낮습니다.§!"
+USA_SAF_WAR_Domestic_Discontent_Key_Medium:0 "§y중간 정도입니다.§!"
+USA_SAF_WAR_Domestic_Discontent_Key_Sorta_High:0 "§y약간 높습니다.§!"
+USA_SAF_WAR_Domestic_Discontent_Key_High:0 "§R높습니다.§!"
+USA_SAF_WAR_Domestic_Discontent_Key_Very_High:0 "§R매우 높습니다.§!"
+USA_SAF_WAR_Domestic_Discontent_Key_Extremely_High:0 "§x극도로 높습니다.§!"
+USA_SAF_WAR_Domestic_Discontent_Key_Societal_Breakdown:0 "§x재앙적입니다.§!"
 
 
 ##########################################################################
@@ -5012,7 +5012,7 @@ USA_SAF_WAR_Insurgency_Devil_Dogs:0 "법적 제약 없는 군대"
 ### Domestic
 
 USA_SAF_WAR_Insurgent_Domestic_Decision_Catagory:0 "국내 상황"
-USA_SAF_WAR_Insurgent_Domestic_Decision_Catagory_desc:0 "남아프리카 전쟁에서 승리하였습니다!  But now that Windhoek and Quelimane lie in our hands, and the old German colonial barons have been chased from power, the question remains... what now?\n\nAmerica now leads the OFN occupation of much of the African continent, which has both costs and benefits.  There is plenty of strategic advantage to be gained here, along with the vast amounts of resources that Africa has to offer.  But there are also numerous insurgencies that are still ongoing, from rogue German guerrillas to native Africans who resent our continued presence.  If we find ourselves drawn into yet another quagmire, even those who supported the initial war may become dissatisfied.  The insurgencies must be brought to heel, before Africa becomes a widening gyre from which escape is impossible.\n\nOur Domestic discontent is currently [GetSAWDomesticDiscontent].\n\nThe stability of the mandates are at §Y[?ANG.OFN_MANDATE_rebel_stability]§! for §BEast Africa§!, §Y[?COG.OFN_MANDATE_rebel_stability]§! for §GCentral Africa§!, and §Y[?MZB.OFN_MANDATE_rebel_stability]§! for §REast Africa§!. The higher the stability of the mandates when we pull out, the less the backlash will be at home."
+USA_SAF_WAR_Insurgent_Domestic_Decision_Catagory_desc:0 "남아프리카 전쟁에서 승리하였습니다! 이제 빈트후크와 켈리마느가 우리 손에 놓여 있고, 옛 독일의 식민귀족들이 쫓겨나고 있지만 여전히 의문이 남습니다... 이제 무엇을 해야 하는 것입니까?\n\n미국은 이제 아프리카 대륙의 대부분을 OFN의 점령 하에 두고 있는데 이는 비용과 편익 모두가 있습니다. 아프리카가 제공하는 방대한 양의 자원과 함께 이곳에서 얻을 수 있는 여러 전략적 이점들이 있습니다. 하지만 독일의 잔당 게릴라부터 우리의 지속적인 주둔에 분개하는 토착 아프리카인 저항군까지 여전히 진행중인 수많은 분란전이 있습니다. 만약 우리가 또 다른 분쟁에 휘말리게 된다면 처음에 전쟁을 지지했던 사람들조차 점차 불만족스러워 할 수도 있습니다. 아프리카가 탈출이 불가능한 거대한 소용돌이가 되기 전에 반란을 전부 해결해야 합니다.\n\n현재 우리의 국내 불만도는 [GetSAWDomesticDiscontent]\n\n현재 위임통치령의 안정도는 §B서아프리카§!가 §Y[?ANG.OFN_MANDATE_rebel_stability]§!이며, §G중앙아프리카§!가 §Y[?COG.OFN_MANDATE_rebel_stability]§!이며, §R동아프리카§!가 §Y[?MZB.OFN_MANDATE_rebel_stability]§!입니다. 철수할 때 위임통치령의 안정도가 높을수록 집으로 돌아가고 나서 후폭풍이 더 적어질 것입니다."
 USA_SAF_WAR_Insurgency_Pull_Out_Decision_Tooltip:0 "§x비용§!이 얼마나 들든, 우리는 집으로 돌아갈 것이다."
 
 ### discontent
