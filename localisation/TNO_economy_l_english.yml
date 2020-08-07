@@ -2,13 +2,15 @@
 
 ###GUI###
 topbar_economy_button_tt:0 "§Y경제§!\n국가의 경제 상황을 봅니다."
+topbar_economy_button_tt_normal:0 "§Y경제§!\n국가의 경제 상황을 봅니다."
+topbar_economy_button_tt_warlord:0 "§Y경제§!\n§R군벌§!은 사용할 수 없습니다."
 economy_view_title:0 "경제"
 
 economy_view_GDP:0 "§GGDP§"
 economy_view_debt:0 "§S부채§"
 economy_view_income:0 "§n수익§"
 economy_view_expenditures:0 "§Y지출§"
-economy_view_deficit_reserves:0 "§O부족액 & 예비금§"
+economy_view_deficit_reserves:0 "§O적자 & 예비금§"
 
 military_buttons_value:0 "군사 예산"
 civilian_buttons_value:0 "민간 예산"
@@ -20,7 +22,7 @@ income_rate_value:0 "연간 수익률: §W[?ROOT.income_rate|%]§"
 gdp_growth_value:0 "연간 GDP 성장률: §W[?ROOT.GDP_growth_display|%]§"
 misc_income_value:0 "기타 수익: §W[ROOT.Get_misc_income]§"
 annual_budget_value:0 "연간 수익: §W[ROOT.Get_total_budget]§"
-deficit_value:0 "연간 부족액: §W[ROOT.Get_deficit]§"
+deficit_value:0 "연간 적자: §W[ROOT.Get_deficit]§"
 national_debt_value:0 "국가 부채: §W[ROOT.Get_national_debt]§"
 national_debt_interest_value:0 "연간 국채 금리: §W[?ROOT.interest_rates|%]§"
 civilian_expenditures_value:0 "민간 예산: §W[ROOT.Get_civilian_expenditures]§"
@@ -32,7 +34,7 @@ total_expenditures_value:0 "총 지출: §W[ROOT.Get_total_expenditures]§"
 economy_line_break:0 "--------------------------------------------"
 
 economy_topbar_GDP_text:0 "[ROOT.Get_GDP_topbar]"
-economy_topbar_GDP_short_tt:0 "현재 우리 §YGDP§!는 §Y[ROOT.Get_GDP]§!입니다.\n우리 §YGDP 성장률§!은 연간 [?ROOT.GDP_growth|2Y%]입니다.\n\n우리 §Y연간 예산§!은 §Y[ROOT.Get_total_budget]§!입니다.\n\n우리 §Y수익 대비 부족액§! 비율은 [Get_deficit_ratio]입니다."
+economy_topbar_GDP_short_tt:0 "현재 우리 §YGDP§!는 §Y[ROOT.Get_GDP]§!입니다.\n우리 §YGDP 성장률§!은 연간 [?ROOT.GDP_growth|2Y%]입니다.\n\n우리 §Y연간 예산§!은 §Y[ROOT.Get_total_budget]§!입니다.\n\n우리 §Y수익 대비 적자§! 비율은 [Get_deficit_ratio]입니다."
 economy_topbar_GDP_long_tt:0 "§YGDP§! (§Y국내총생산§!)은 1년 동안 생산된 모든 재화와 서비스의 가치를 가격으로 측정한 것입니다. 측정 단위는 §Y1960년도 USD§!입니다."
 
 economy_topbar_debt_text:0 "[ROOT.Get_national_debt_topbar]"
@@ -415,7 +417,7 @@ construction_level_7:0 "70% 이용률"
 construction_level_8:0 "80% 이용률"
 construction_level_9:0 "90% 이용률"
 
-tno_construction_laws:0 "건설 예산"
+construction_laws:0 "건설 예산"
 
 military_budget_cuts:0 "군사 예산 감축"
 military_budget_cuts_heavy:0 "심각한 군사 예산 감축"
