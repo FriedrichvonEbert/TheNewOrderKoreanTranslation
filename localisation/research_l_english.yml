@@ -29,7 +29,7 @@
  RESEARCH_YEAR_AHEAD_PENALTY_RED:2 "§RTechnology is $YEARS|2$ years ahead of time (+$VALUE|%0$), but the ahead of time penalty have been reduced by $REDUCED_YEARS|.1$ years (+$RED|%0$) due to national focuses. The penalty will decrease over time.§!"
  RESEARCH_TECH_UNUSED:1 "§GClick to research§!\nWithin 30 days, you can choose a new area to research without loss of research time."
  RESEARCH_NO_LONGER_AVAILABLE:0 "$RESEARCH|H$\n§RNo longer available - Will be removed next day§!"
- RESEARCH_EQUIPMENT_HEADER:0 "Equipment"
+ RESEARCH_EQUIPMENT_HEADER:0 "장비"
  RESEARCH_UPGRADES_HEADER:0 "Upgrades"
  RESEARCH_UNLOCKS_HEADER:0 "Unlocks"
  RESEARCH_UNLOCKS_EQUIPMENT_HEADER:0 "§TEnables $EQUIPMENTS$§!"
@@ -38,7 +38,7 @@
  RESEARCH_UNLOCKS_SUBUNITS_HEADER:0 "§TEnables $SUBUNITS$§!"
  RESEARCH_UNLOCKS_TACTICS_HEADER:0 "§TEnables Tactic: $TACTICS$§!"
  RESEARCH_MODIFIERS_HEADER:0 "Global stats"
- RESEARCH_MESSAGE_UNLOCKED_TITLE:0 "Research Finished!"
+ RESEARCH_MESSAGE_UNLOCKED_TITLE:0 "연구 완료됨!"
  RESEARCH_MESSAGE_UNLOCKED_DESC:0 "Our country has completed research into $NAME|Y$.\n $DESC$"
  RESEARCH_INSTANT_DESC:0 "Research is instant when changing the tree with more than one technology researched in the current tree."
  # RESEARCH_BONUS_AHEAD_DESC:0 "§Y$COUNT$x§! $VALUE|G%0$ ahead of time $NAME$" #duplicate loc key
@@ -53,9 +53,9 @@
  already_researching:0 "§GYou are already researching this technology.§!"
  AIR_TITLE_CAS:0 "Close Air\nSupport"
  AIR_TITLE_FIGHTER:0 "Pre-War Biplane"
- AIR_TITLE_NAV:0 "Fighter"
+ AIR_TITLE_NAV:0 "전투기"
  AIR_TITLE_HEAVY_FIGHTER:0 "Multi-Role\nCombat\nAircraft"
- AIR_TITLE_MEDIUM_BOMBER:0 "Helicopter"
+ AIR_TITLE_MEDIUM_BOMBER:0 "헬리콥터"
  AIR_TITLE_STRAT_BOMBER:0 "Strategic\nBomber"
  TITLE_FLEET_IN_BEING:0 "Green Water Navy"
  TITLE_TRADE_INTERDICTION:0 "Trade Interdiction"
@@ -2387,9 +2387,9 @@
 
  ## Rockets & Nukes (DEPRECATED)
  # Rockets
- experimental_rockets:0 "Experimental Rockets"
+ experimental_rockets:0 "실험적인 로켓"
  experimental_rockets_desc:0 "Advancing the science of rocketry by improving the range and reliability of liquid-fuel rockets will teach us enough about the technology to allow the construction of launch sites for more advanced models."
- rocket_engines:0 "Rocket Engines"
+ rocket_engines:0 "로켓 엔진"
  rocket_engines_desc:0 "Knowledge of rocket propulsion is reaching a point where we can construct flying bombs and rocket-powered aircraft, operating at previously unreachable speeds."
  improved_rocket_engines:0 "Improved Rocket Engines"
  improved_rocket_engines_desc:0 "The first long-range ballistic missiles can be built and made ever more precise, reaching distant enemy cities and even into space."
@@ -2499,7 +2499,7 @@
 
  ### Resources
  ## Resource Extraction
- resource_extraction_methods:0 "Resource Extraction Techniques"
+ resource_extraction_methods:0 "자원 추출 기술"
  resource_extraction_methods_desc:0 "As a wise man once said "We can never dig too deep." With refinement to our resource gathering operations, whether through new machinery or better procedures, it shall allow us to extract more resources to better our economic position and harness Mother Earth's gifts."
  constructionmethods:0 "Modernized Construction Methods"
  constructionmethods_desc:0 "Rome wasn't built in a day, but neither would've our nation's factories and railways been without the strict  discipline and education our architects and builders had to undergo. With the quality of our workers, they ensure that our buildings are finished in a timely manner."
@@ -2533,13 +2533,13 @@
  modern_oil_processing_desc:1 "Our oil refineries can be further improved with new advanced oil processing methods like hydrocracking, alkylation, mercaptan oxidation and isomerization. Automatized processes and biological fuels will also increase efficiency and output."
  
  ## Rubber Processing
- rubber_processing:0 "Rubber Processing"
+ rubber_processing:0 "고무 가공"
  rubber_processing_desc:1 "With rubber having become a staple of industry, large-scale processing of synthetic rubber is needed to reduce a nation's dependency on natural rubber."
- improved_rubber_processing:0 "Improved Rubber Processing"
+ improved_rubber_processing:0 "진보된 고무 가공"
  improved_rubber_processing_desc:1 "Large-scale production of synthetic rubber can be further improved and made cheaper with new automated processes to accelerate dehydrogenation reactions."
- advanced_rubber_processing:0 "Advanced Rubber Processing"
+ advanced_rubber_processing:0 "발전된 고무 가공"
  advanced_rubber_processing_desc:1 "A general-purpose synthetic rubber recipe with improved processes such as dodecyl mercaptan polymerization modifiers will allow the nations with the means to afford it to expand synthetic rubber production."
- modern_rubber_processing:0 "Modern Rubber Processing"
+ modern_rubber_processing:0 "현대 고무 가공"
  modern_rubber_processing_desc:1 "Fully-optimized and computer-checked polymerization processes will result in lower costs and higher output, projecting rubber production into the new age."
  
  ### Construction
