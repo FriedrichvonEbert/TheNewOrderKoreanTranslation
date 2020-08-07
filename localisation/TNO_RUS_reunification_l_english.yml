@@ -51,7 +51,7 @@
  WSB_propose_border_treaty:0 "Propose §YBorder Access Treaty§!"
  WSB_offer_diplomatic_concession:0 "Propose §YDiplomatic Concession§!"
 
- CSB_peace_category:0 "Diplomatic Re-Unification"
+ CSB_peace_category:0 "외교적 재통일"
  CSB_peace_category_desc:0 "Our ideological similarity to our eastern neighbor has granted us a fortuitous opportunity for the §Ypeaceful unification§! of our states. Despite their receptiveness, however, tensions still exist, as a result of the conditions of warlord-era Russia. In order to successfully §Yunify§! our two states, it would be reasonable to not §Rpush too far§! diplomatically, lest negotiations fail, and Russia once more fall into violence.\n\nThe §YReceptiveness§! of our neighbor to peaceful unification is [?FST.RUSUnificationReceptiveness].\nOur §YReceptiveness§! to our neighbor's diplomatic advances is [?CSB.RUSUnificationReceptiveness].\n\n§RTension§! between our two states is [?RUSUnificationTension].\n\nNegotiations are currently [GetSiberianUnifierDominant].\nCentral Siberian diplomatic weight: [?CSB.RUS_diplo_prestige]\nFar Eastern diplomatic weight: [?FST.RUS_diplo_prestige]"
  CSB_begin_final_unification_talks:0 "Begin §GFinal Unification Talks§!"
  CSB_hold_preliminary_conference:0 "Hold §GPreliminary Conference§!"
@@ -63,7 +63,7 @@
  CSB_propose_border_treaty:0 "Propose §YBorder Access Treaty§!"
  CSB_offer_diplomatic_concession:0 "Propose §YDiplomatic Concession§!"
 
- FST_peace_category:0 "Diplomatic Re-Unification"
+ FST_peace_category:0 "외교적 재통일"
  FST_peace_category_desc:0 "Our ideological similarity to our western neighbor has granted us a fortuitous opportunity for the §Ypeaceful unification§! of our states. Despite their receptiveness, however, tensions still exist, as a result of the conditions of warlord-era Russia. In order to successfully §Yunify§! our two states, it would be reasonable to not §Rpush too far§! diplomatically, lest negotiations fail, and Russia once more fall into violence.\n\nThe §YReceptiveness§! of our neighbor to peaceful unification is [?CSB.RUSUnificationReceptiveness].\nOur §YReceptiveness§! to our neighbor's diplomatic advances is [?FST.RUSUnificationReceptiveness].\n\n§RTension§! between our two states is [?RUSUnificationTension].\n\nNegotiations are currently [GetSiberianUnifierDominant].\nCentral Siberian §ldiplomatic weight§!: [?CSB.RUS_diplo_prestige]\nFar Eastern §ldiplomatic weight§!: [?FST.RUS_diplo_prestige]"
  FST_begin_final_unification_talks:0 "Begin §GFinal Unification Talks§!"
  FST_hold_preliminary_conference:0 "Hold §GPreliminary Conference§!"
@@ -75,11 +75,11 @@
  FST_propose_border_treaty:0 "Propose §YBorder Access Treaty§!"
  FST_offer_diplomatic_concession:0 "Offer §YDiplomatic Concession§!"
  
- SIB_peace_category:0 "Diplomatic Re-Unification"
+ SIB_peace_category:0 "외교적 재통일"
  SIB_peace_category_desc:0 "Our ideological similarity to our western neighbor has granted us a fortuitous opportunity for the §Ypeaceful unification§! of our states. Despite their receptiveness, however, tensions still exist, as a result of the conditions of warlord-era Russia. In order to successfully §Yunify§! our two states, it would be reasonable to not §Rpush too far§! diplomatically, lest negotiations fail, and Russia once more fall into violence.\n\nThe §YReceptiveness§! of our neighbor to peaceful unification is [?RWS.RUSUnificationReceptiveness].\nOur §YReceptiveness§! to our neighbor's diplomatic advances is [?SIB.RUSUnificationReceptiveness].\n\n§RTension§! between our two states is [?RUSUnificationTension].\n\nNegotiations are currently [GetSiberianUnifierDominant].\nRussian §ldiplomatic weight§!: [?SIB.RUS_diplo_prestige]\nSiberian §ldiplomatic weight§!: [?RWS.RUS_diplo_prestige]"
  
 
- RWS_peace_category:0 "Diplomatic Re-Unification"
+ RWS_peace_category:0 "외교적 재통일"
  RWS_peace_category_desc:0 "Our ideological similarity to our western neighbor has granted us a fortuitous opportunity for the §Ypeaceful unification§! of our states. Despite their receptiveness, however, tensions still exist, as a result of the conditions of warlord-era Russia. In order to successfully §Yunify§! our two states, it would be reasonable to not §Rpush too far§! diplomatically, lest negotiations fail, and Russia once more fall into violence.\n\nThe §YReceptiveness§! of our neighbor to peaceful unification is [?SIB.RUSUnificationReceptiveness].\nOur §YReceptiveness§! to our neighbor's diplomatic advances is [?RWS.RUSUnificationReceptiveness].\n\n§RTension§! between our two states is [?RUSUnificationTension].\n\nNegotiations are currently [GetSiberianUnifierDominant].\nRussian §ldiplomatic weight§!: [?SIB.RUS_diplo_prestige]\nSiberian §ldiplomatic weight§!: [?RWS.RUS_diplo_prestige]"
 
  WSR_DOMINANT:0 "weighted towards §Y[RUS_western_unifier.GetNameDef]§!"
@@ -130,15 +130,15 @@
  RUS_held_preliminary_conference:0 "Successful prelimary unification conference."
  RUS_request_denied_tt:0 "§RPeaceful unification has proven an unrealistic course.§!\n\nNew §Yunification decisions§! have become available to begin §Rcombat operations§!."
  
- region_name_adj_WSB:0 "West Siberian"
- region_name_adj_WSR:0 "West Russian"
- region_name_adj_FST:0 "Far Eastern"
- region_name_adj_CSB:0 "Central Siberian"
+ region_name_adj_WSB:0 "서시베리아"
+ region_name_adj_WSR:0 "서러시아"
+ region_name_adj_FST:0 "극동"
+ region_name_adj_CSB:0 "중앙시베리아"
 
- region_name_WSB:0 "West Siberia"
- region_name_WSR:0 "West Russia"
- region_name_FST:0 "the Far East"
- region_name_CSB:0 "Central Siberia"
+ region_name_WSB:0 "서시베리아"
+ region_name_WSR:0 "서러시아"
+ region_name_FST:0 "극동"
+ region_name_CSB:0 "중앙시베리아"
 
  country_name_WSB_def:0 "[GetWSBNameDef]"
  country_name_WSR_def:0 "[GetWSRNameDef]"
@@ -151,10 +151,10 @@
  country_name_CSB:0 "[GetCSBName]"
 
  #Race For The Urals decisions
- RUS_race_for_the_urals:0 "The Race for the Urals"
+ RUS_race_for_the_urals:0 "우랄을 향한 경주"
  RUS_race_for_the_urals_desc:0 "The §YSouthern Urals§! is a region that, thanks to its isolation, has escaped the efforts of various unifying forces to unite the Russian state. This, however, is not a state of affairs that can last if Russia is to be truly restored. Gaining influence over the Ural Warlords, and preventing [GetOpponentName] from establishing a sphere of influence in the region, is necessary in order to finally integrate this region, and secure our hold over yet more of the Motherland.[GetOrenburgText][GetUralText][GetMagnitogorskText][GetOrskText]" 
 
- RUS_race_for_kazakhstan:0 "The Race for Kazakhstan"
+ RUS_race_for_kazakhstan:0 "카자흐스탄을 향한 경주"
  RUS_race_for_kazakhstan_desc:0 "In recent weeks a battle of influence has begun in Kazakhstan between us and our rivals. This diplomatic conflict has only continued to grow in severity as we both put more and more resources into gaining Kazakhstan as an ally. Our diplomats cannot let Kazakhstan fall into our enemy's hands, as it would greatly strengthen them and could even lead to another front we would have to fight on in the event of a war. We must get Kazakhstan on our side, as it could very well mean our victory or defeat.\n\n[GetNowaPoslkaText][GetKazakhText]" 
 
  DON_fire_string:0 "§Y[DON.GetName]§! ([GetDONRelations]):\nCurrent §Yinfluence investment§!: [GetDONInfluenceInvestment]\nCurrent §Yinfluence§!: §Y[?RUS_DON_Influence]§!.\nCurrent §Yinfluence gain:§! §Y[?RUS_DON_Influence_Daily_Ticker_End]§!/day.\nCurrent §Yopponent influence§!: §Y[GetOpponentDONInfluence]§! ([GetDONOpponentRelations]).\n\n"
@@ -283,28 +283,28 @@
  RUS_REGIONAL_POLITICAL_TREE_DONE:0 "Our immediately important political matters are resolved."
  RUS_unlock_race_to_urals_tt:0 "Unlocks §Ydecision§! to exert influence in the §YSouthern Urals§!.\n"
 
- far_east_war_with_csb:0 "Prepare for War"
- far_east_diplo_with_csb:0 "Begin Unification Talks"
+ far_east_war_with_csb:0 "전쟁 준비"
+ far_east_diplo_with_csb:0 "재통일 회담 시작"
 
- central_siberia_war_with_fst:0 "Prepare for War"
- central_siberia_diplo_with_fst:0 "Begin Unification Talks"
+ central_siberia_war_with_fst:0 "전쟁 준비"
+ central_siberia_diplo_with_fst:0 "재통일 회담 시작"
 
- west_siberia_war_with_wsr:0 "Prepare for War"
- west_siberia_diplo_with_wsr:0 "Begin Unification Talks"
+ west_siberia_war_with_wsr:0 "전쟁 준비"
+ west_siberia_diplo_with_wsr:0 "재통일 회담 시작"
 
- west_russia_war_with_wsb:0 "Prepare for War"
- west_russia_diplo_with_wsb:0 "Begin Unification Talks"
+ west_russia_war_with_wsb:0 "전쟁 준비"
+ west_russia_diplo_with_wsb:0 "재통일 회담 시작"
 
- siberia_diplo_with_russia:0 "Begin Unification Talks"
- siberia_war_with_russia:0 "Prepare for the Unification War"
+ siberia_diplo_with_russia:0 "재통일 회담 시작"
+ siberia_war_with_russia:0 "재통일 전쟁 준비"
 
- russia_diplo_with_siberia:0 "Begin Unification Talks"
- russia_war_with_siberia:0 "Prepare for the Unification War"
+ russia_diplo_with_siberia:0 "재통일 회담 시작"
+ russia_war_with_siberia:0 "재통일 전쟁 준비"
 
- WSR_war_category:0 "The Ural War"
- WSR_war_category_desc:0 "Diplomacy has failed. The unification of Siberia through war has shifted from a possibility to a certainty, and undoubtedly, our foe to the east is beginning their preparations as well.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y50%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
+ WSR_war_category:0 "우랄 전쟁"
+ WSR_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 동쪽의 적들도 준비를 시작하고 있습니다.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y50%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
 
- WSR_launch_attack_on_WSB:0 "Begin the Invasion"
+ WSR_launch_attack_on_WSB:0 "침공 시작"
  WSR_cross_the_urals:0 "Cross the Urals"
  WSR_establish_ural_fortifications:0 "Establish Ural Fortifications"
  WSR_prepare_vorkuta_defenses:0 "Prepare the Vorkuta Border"
@@ -322,10 +322,10 @@
  WSR_infiltrate_siberian_intelligence_service_tt:0 "Increases §Ypreparedness§! by §Y10%§!."
  WSR_raise_additional_reserves_tt:0 "Increases §Ypreparedness§! by §Y15%§!."
 
- WSB_war_category:0 "The Ural War"
- WSB_war_category_desc:0 "Diplomacy has failed. The unification of Siberia through war has shifted from a possibility to a certainty, and undoubtedly, our foe to the west is beginning their preparations as well.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y50%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
+ WSB_war_category:0 "우랄 전쟁"
+ WSB_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 서쪽의 적들도 준비를 시작하고 있습니다.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y50%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
 
- WSB_launch_attack_on_WSR:0 "Begin the Invasion"
+ WSB_launch_attack_on_WSR:0 "침공 시작"
  WSB_cross_the_urals:0 "Cross the Urals"
  WSB_establish_ural_fortifications:0 "Establish Ural Fortifications"
  WSB_fortify_vorkuta_beachhead:0 "Fortify the Vorkuta Beachhead"
@@ -385,7 +385,7 @@
  FST_infiltrate_siberian_intelligence_service_tt:0 "Increases §Ypreparedness§! by §Y10%§!."
  FST_raise_additional_reserves_tt:0 "Increases §Ypreparedness§! by §Y15%§!."
 
- RWS_war_category:0 "The Russian Re-Unification War"
+ RWS_war_category:0 "러시아 재통일 전쟁"
  RWS_war_category_desc:0 "Diplomacy has failed. The unification of the entire Motherland through war has shifted from a possibility to a certainty, and undoubtedly, our foe to the east is beginning their preparations as well.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y50%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
  RWS_launch_attack_on_SIB:0 "Strike Siberia"
  RWS_cross_the_border:0 "Sweep Eastwards"
@@ -405,7 +405,7 @@
  RWS_infiltrate_siberian_intelligence_service_tt:0 "Increases §Ypreparedness§! by §Y10%§!."
  RWS_raise_additional_reserves_tt:0 "Increases §Ypreparedness§! by §Y15%§!."
 
- SIB_war_category:0 "The Russian Re-Unification War"
+ SIB_war_category:0 "러시아 재통일 전쟁"
  SIB_war_category_desc:0 "Diplomacy has failed. The unification of the entire Motherland through war has shifted from a possibility to a certainty, and undoubtedly, our foe to the west is beginning their preparations as well.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y50%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
  SIB_launch_attack_on_RWS:0 "Strike Russia"
  SIB_cross_the_border:0 "Sweep Westwards"
