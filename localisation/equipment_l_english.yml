@@ -37,7 +37,7 @@ l_english:
  UNIT_GENERIC_NAME_JAP:0 "$NR$ $NAME$"
  UNIT_GENERIC_NAME_SOV:0 "$NR$ya $NAME$"
 
- ACTUAL_EQUIPMENT_HEADER:0 "\n\nEquipment:\n"
+ ACTUAL_EQUIPMENT_HEADER:0 "\n\n장비:\n"
  ACTUAL_EQUIPMENT_ENTRY:0 " - $NUM|Y0$ of $NAME|Y$"
  ACTUAL_EQUIPMENT_ENTRY_PERCENT:0 " - $NUM|Y0%$ from their production of $NAME|Y$"
  REQUESTED_REINFORCEMENT_DELIVERING_TO:0 "\nDelivering to $UNIT|Y$ ($PROG|G%$):"
@@ -55,9 +55,9 @@ l_english:
  REQUESTED_REINFORCEMENT_COLLECTING_ENTRY:0 "   - $NUM|Y0$/$MAX|Y0$ of $NAME|Y$"
  REQUESTED_REINFORCEMENT_DELIVERY_ENTRY:0 "   - $NUM|Y0$ of $NAME|Y$"
  REQUESTED_TIMED_ACTIVITY_COLLECTING_ENTRY:0 "   - $NUM|Y0$/$MAX|Y0$ of $NAME|Y$"
- REQUESTED_MANPOWER_DETAILS:0 "Next $NUM|Y$ of manpower will arrive in $HR|Y$ hours.\nFull manpower reinforcement roughly in $D|Y$ days."
- NOT_ENOUGH_MANPOWER_TO_REINFORCE:0 "Not enough manpower to reinforce."
- MANPOWER_REINFORCEMENT_NOT_POSSIBLE:0 "§RManpower reinforcement is not possible at the current location.§!"
+ REQUESTED_MANPOWER_DETAILS:0 "$HR|Y$시간 내 인력 $NUM|Y$이 도착할 것입니다.\n약 $D|Y$일 내에 인력이 완전히 충원됩니다."
+ NOT_ENOUGH_MANPOWER_TO_REINFORCE:0 "증원에 필요한 인력이 부족합니다."
+ MANPOWER_REINFORCEMENT_NOT_POSSIBLE:0 "§R현재 지역에 인력을 증원할 수 없습니다.§!"
  ARCHETYPE_DESC_ENTRY:0 "    - $COUNT|0$ $NAME|H$"
  OUTDATED_EQ:0 "Show outdated equipment"
 
@@ -242,19 +242,19 @@ l_english:
   FRA_EQUIPMENT_VERSION_12:0 "série L"
   FRA_EQUIPMENT_VERSION_13:0 "série M"
   
-  ITA_EQUIPMENT_VERSION_1:0 "I serie"
-  ITA_EQUIPMENT_VERSION_2:0 "II serie"
-  ITA_EQUIPMENT_VERSION_3:0 "III serie"
-  ITA_EQUIPMENT_VERSION_4:0 "IV serie"
-  ITA_EQUIPMENT_VERSION_5:0 "V serie"
-  ITA_EQUIPMENT_VERSION_6:0 "VI serie"
-  ITA_EQUIPMENT_VERSION_7:0 "VII serie"
-  ITA_EQUIPMENT_VERSION_8:0 "VIII serie"
-  ITA_EQUIPMENT_VERSION_9:0 "IX serie"
-  ITA_EQUIPMENT_VERSION_10:0 "X serie"
-  ITA_EQUIPMENT_VERSION_11:0 "XI serie"
-  ITA_EQUIPMENT_VERSION_12:0 "XII serie"
-  ITA_EQUIPMENT_VERSION_13:0 "XIII serie"
+  ITA_EQUIPMENT_VERSION_1:0 "I 세리에"
+  ITA_EQUIPMENT_VERSION_2:0 "II 세리에"
+  ITA_EQUIPMENT_VERSION_3:0 "III 세리에"
+  ITA_EQUIPMENT_VERSION_4:0 "IV 세리에"
+  ITA_EQUIPMENT_VERSION_5:0 "V 세리에"
+  ITA_EQUIPMENT_VERSION_6:0 "VI 세리에"
+  ITA_EQUIPMENT_VERSION_7:0 "VII 세리에"
+  ITA_EQUIPMENT_VERSION_8:0 "VIII 세리에"
+  ITA_EQUIPMENT_VERSION_9:0 "IX 세리에"
+  ITA_EQUIPMENT_VERSION_10:0 "X 세리에"
+  ITA_EQUIPMENT_VERSION_11:0 "XI 세리에"
+  ITA_EQUIPMENT_VERSION_12:0 "XII 세리에"
+  ITA_EQUIPMENT_VERSION_13:0 "XIII 세리에"
   
   SWE_EQUIPMENT_VERSION_1:0 "S I"
   SWE_EQUIPMENT_VERSION_2:0 "S II"
@@ -379,32 +379,32 @@ l_english:
 #### Infantry ####
  ### Infantry Equipment ###
   infantry_equipment:0 "보병 장비"
-  infantry_equipment_short:0 "보병 장비."
-  infantry_equipment_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
+  infantry_equipment_short:0 "보병 장비"
+  infantry_equipment_desc:0 "개인화기와 공용화기, 그 외 병사들에게 필요한 다양한 도구들입니다."
 
   infantry_equipment_0:0 "1차대전 소총"
   infantry_equipment_0_short:0 "1차대전 소총"
-  infantry_equipment_0_desc:0 "Basic infantry rifle developed before and during the Great War. Typically bolt action, this rifle can still be produced in a pinch if need be, although it may prove less effective in this modern age."
+  infantry_equipment_0_desc:0 "대전쟁 전과 그 도중에 개발된 기본적인 보병용 소총입니다. 보통 볼트액션 방식인 이 소총은 현대 소총보다 덜 효과적입니다. 하지만 꼭 필요하다면 만들 수는 있습니다."
 
   infantry_equipment_1:0 "2차대전 소총"
   infantry_equipment_1_short:0 "2차대전 소총"
-  infantry_equipment_1_desc:0 "Infantry rifle developed during the later stages of the Second World War. Whether it is fully- or semi-automatic, this rifle's design is well adapted to the challenges faced during by its mother country."
+  infantry_equipment_1_desc:0 "제2차 세계 대전 후반기에 만들어진 보병용 소총입니다. 반자동 방식이나 전자동 방식인 이 소총의 설계는 조국을 덮친 위기의 결과입니다."
 
   infantry_equipment_2:0 "냉전 소총"
   infantry_equipment_2_short:0 "냉전 소총"
-  infantry_equipment_2_desc:0 "Rifle improving upon shortcomings noticed in the Second World War. Less complex and more reliable, this rifle can be modified fairly easily to meet the demands of the environment it is serving in."
+  infantry_equipment_2_desc:0 "제2차 세계 대전 당시 발생한 문제점을 보완한 소총입니다. 이 덜 복잡하고 더 믿음직한 소총은 사용 환경에 따라 쉽게 개조할 수 있습니다."
 
   infantry_equipment_3:0 "개선된 소총"
   infantry_equipment_3_short:0 "개선된 소총"
-  infantry_equipment_3_desc:0 "A improved gas operated piston rifle, often equipped with choice fire and gas blowback. This rifle is designed for the anticipated conflicts of the Cold War, from urban streets to African jungles."
+  infantry_equipment_3_desc:0 "개선된 가스 작동식 피스톤 소총으로 조정간과 가스 블로우백 기능이 달려있기도 합니다. 이 소총은 냉전 당시 예상된 시가전이나 아프리카 밀림전을 염두에 두고 설계되었습니다."
 
   infantry_equipment_4:0 "진보된 소총"
   infantry_equipment_4_short:0 "진보된 소총"
-  infantry_equipment_4_desc:0 "A rifle incorporating lighter polymer materials, with more advanced addons available. This rifle generally fires a newly developed, relatively smaller, high-velocity bullet to allow for better recoil control and accuracy."
+  infantry_equipment_4_desc:0 "더 가벼운 고분자 재료를 사용하고 개선된 부착물을 달 수 있는 소총입니다. 더 나은 반동 조절과 정확성을 위해 상대적으로 작은 신형 고속탄을 사용합니다."
 
   infantry_equipment_5:0 "현대 소총"
   infantry_equipment_5_short:0 "현대 소총"
-  infantry_equipment_5_desc:0 "A modern rifle designed for high-tech compatibility and a larger range of operations. With the use of new computing technology, this rifle is designed to more exact specifications to further increase reliability."
+  infantry_equipment_5_desc:0 "첨단 기술을 도입하고 더 다양한 작전에 맞게 설계된 현대식 소총입니다. 최신 컴퓨터 기술의 힘을 빌려 만들어진 이 소총은 더 꼼꼼하고 신뢰성 있게 설계되었습니다."
  ### Infantry Equipment ###
 
  ### Support Equipment ###
@@ -412,35 +412,35 @@ l_english:
    anti_tank_equipment:0 "대전차 장비"
 
    anti_tank_equipment_0:0 "기본적 대전차 장비"
-   anti_tank_equipment_0_desc:0 "Developed during the Second World War, this rudimentary shoulder-fired anti-tank system enables our troops to pose a decent threat to most armored vehicles."
+   anti_tank_equipment_0_desc:0 "제2차 세계 대전 당시 개발된 이 원시적 견착식 대전차 무기체계는 우리 병사들이 대부분의 장갑 차량을 상대로 괜찮은 위협이 되게 합니다."
 
    anti_tank_equipment_1:0 "개선된 대전차 장비"
-   anti_tank_equipment_1_desc:0 "An improved shoulder-fired missile launcher, incorporating design improvements, such as lighter materials and better sights, and high-explosive anti-tank (HEAT) warheads."
+   anti_tank_equipment_1_desc:0 "가벼운 재료, 더 나은 조준장치, 대전차고폭탄(HEAT) 탄투를 도입한 개선된 견착식 대전차 미사일 발사기입니다."
 
    anti_tank_equipment_2:0 "진보된 대전차 장비"
-   anti_tank_equipment_2_desc:0 "Wire-guided shoulder-fired missile using a recoilless blowback system, with multiple types of warheads available, depending on the situation at hand."
+   anti_tank_equipment_2_desc:0 "무반동 블로우백 방식을 채택한 견착식 유선 유도 미사일입니다. 상황에 따라 다양한 탄두를 쓸 수 있습니다."
 
    anti_tank_equipment_3:0 "준현대 대전차 장비"
-   anti_tank_equipment_3_desc:0 "This launcher combines wire-guidance with improvements in warhead penetration in order to hit and pierce harder targets at a further distance. May include an integrated optical sight."
+   anti_tank_equipment_3_desc:0 "더 먼 거리에 있는 튼튼한 목표도 맞추고 꿰뚫을 수 있도록 유선 탄두를 개선한 유선 유도 발사기입니다. 내장형 조준경을 달 수도 있습니다."
 
    anti_tank_equipment_4:0 "현대 대전차 장비"
-   anti_tank_equipment_4_desc:0 "A highly advanced laser-guided shoulder-fired missile with massive penetrating ability, pinpoint accuracy, and a myriad of warhead variants. Always includes an advanced, integrated optical sight."
+   anti_tank_equipment_4_desc:0 "매우 진보한 레이저 조준식 견착식 미사일로 엄청난 관통력, 매우 뛰어난 정확도, 수많은 종류의 탄두들을 가지고 있습니다. 언제나 고급 조준경이 내장되어 있습니다."
   ## Infantry Anti-Tank ##
 
   ## Infantry Anti-Air ##
    anti_air_shoulder_equipment:0 "대공 장비"
 
    anti_air_shoulder_equipment_0:0 "기본적 대공 장비"
-   anti_air_shoulder_equipment_0_desc:0 "Basic man-portable air-defense system (MANPADS) developed shortly after the Second World War, with integrated sensors to track aircraft engine heat-signatures"
+   anti_air_shoulder_equipment_0_desc:0 "제2차 세계 대전 직후 개발된 기본적인 휴대용 방공체계(MANPADS)입니다. 항공기 엔진에서 나오는 열기를 추적하기 위한 센서가 달려있습니다."
 
    anti_air_shoulder_equipment_1:0 "개선된 대공 장비"
-   anti_air_shoulder_equipment_1_desc:0 "An improved MANPADS incorporating design improvements to both the rocket and warhead to increase velocity and damage, respectively, along with aircraft signature tracing." 
+   anti_air_shoulder_equipment_1_desc:0 "비행 속도와 피해량을 늘리기 위해 로켓과 탄두의 설계를 개선한 개선형 MANPADS입니다. 항공기에서 나오는 신호를 추적합니다." 
 
    anti_air_shoulder_equipment_2:0 "진보된 대공 장비"
-   anti_air_shoulder_equipment_2_desc:0 "MANPADS with a recoilless blowback system, with built-in components that can attempt to detect and circumvent anti-MANPADS countermeasures, such as flares and electronic measures." 
+   anti_air_shoulder_equipment_2_desc:0 "무반동 블로우백 방식을 채택한 MANPADS입니다. 플레어나 전자전과 같은 대항장비를 탐지하고 무력화할 수 있는 부품이 달려있습니다." 
 
    anti_air_shoulder_equipment_3:0 "현대 대공 장비"
-   anti_air_shoulder_equipment_3_desc:0 "A highly advanced MANPADS that incorporates electronic tracking with laser guidance along with lighter, composite materials, integrated digital systems, and multiple warhead variants." 
+   anti_air_shoulder_equipment_3_desc:0 "전자 추적과 레이저 조준 방식을 합친 매우 진보한 MANPADS입니다. 더 가벼우며, 복합재료를 사용했고, 디지털 방식을 사용했으며, 다양한 탄두를 쓸 수 있습니다." 
   ## Infantry Anti-Air ##
  ### Support Equipment ###
 
@@ -449,39 +449,39 @@ l_english:
   motorized_equipment_desc:0 "차량화 장비"
 
   motorized_equipment_0:0 "2차대전 차량화 장비"
-  motorized_equipment_0_desc:0 "Motorizing infantry is the first stage towards the mechanization of an army. Civilian trucks are readily adaptable to military uses of transporting soldiers, towing guns, and carrying equipment and supplies."
+  motorized_equipment_0_desc:0 "차량화보병은 군 기계화의 첫걸음입니다. 민간 트럭은 병력 수송, 화포 견인, 장비 및 보급품 운반과 같은 군용 임무에 쉽게 적응합니다."
 
   motorized_equipment_1:0 "차량화 장비 I"
-  motorized_equipment_1_desc:0 "Custom military variants of civilian trucks with military-only improvements, such as upgraded engines and hardened components tailored to survive the harsh conditions and demands of military operations."
+  motorized_equipment_1_desc:0 "전용 개선을 거친 민간 트럭의 군용 파생형입니다. 거친 환경과 군사 작전을 버티기 위해 엔진을 업그레이드하고 더 튼튼한 부품을 사용합니다."
 
   motorized_equipment_2:0 "차량화 장비 II"
-  motorized_equipment_2_desc:0 "Specially designed vehicles, geared specifically for military usage, these vehicles feature a host of design choices based on lessons learned from recent wars, along with compatibility tweaks for use with other military equipment."
+  motorized_equipment_2_desc:0 "처음부터 군사용으로 설계되고 군용 부품을 사용한 차량입니다. 최근 전쟁에서 얻은 교훈에 따라 설계되었으며. 다른 군사 장비와 함께 쓰기 위해 호환성을 손보았습니다."
 
   motorized_equipment_3:0 "차량화 장비 III"
-  motorized_equipment_3_desc:0 "These trucks were put through rigorous testing in order to maximize the endurance and lifespan of the vehicles, ensuring that they will not break down in the field even when pushed to the absolute limit."
+  motorized_equipment_3_desc:0 "이 트럭은 내구력과 수명을 최대화하기 위해 엄격한 시험을 거쳤습니다. 한계까지 밀어붙이더라도 야전에서 퍼지는 일은 없을 것입니다."
 
   motorized_equipment_4:0 "차량화 장비 IV"
-  motorized_equipment_4_desc:0 "Motorized equipment with fairly significant armor and anti-landmine plating on the underside of the vehicle. Tried and tested to be able to tackle almost any terrain on the globe."
+  motorized_equipment_4_desc:0 "두꺼운 장갑을 두르고 밑바닥에 지뢰 방호 장갑을 단 차량화 장비입니다. 지구의 어떤 곳에서도 굴러다니도록 만들어지고 시험받았습니다."
  ### Mobile Infantry ###
 
  ### Deprecated ###
   motorized_rocket_equipment:0 "차량화 로켓포"
   motorized_rocket_equipment_short:0 "차량화 로켓포"
-  motorized_rocket_equipment_desc:0 "Multiple rocket launchers such as these deliver explosives to a target area more quickly than conventional artillery, but with lower accuracy and requiring a longer time to reload. Being mounted on trucks, this version is able to launch attacks and change positions before the enemy can return fire."
+  motorized_rocket_equipment_desc:0 "이런 다연장 로켓포는 일반적인 화포보다 더 빠르게 포격할 수 있지만 정확도가 낮고 장전에 오랜 시간이 걸립니다. 이렇게 트럭 위에 올리면 공격한 뒤 적이 반격하기 전에 빠르게 위치를 전환할 수 있습니다."
 
   motorized_rocket_equipment_1:0 "차량화 로켓포"
   motorized_rocket_equipment_1_short:0 "차량화 로켓포"
-  motorized_rocket_equipment_1_desc:0 "Multiple rocket launchers such as these deliver explosives to a target area more quickly than conventional artillery, but with lower accuracy and requiring a longer time to reload. Being mounted on trucks, this version is able to launch attacks and change positions before the enemy can return fire."
+  motorized_rocket_equipment_1_desc:0 "이런 다연장 로켓포는 일반적인 화포보다 더 빠르게 포격할 수 있지만 정확도가 낮고 장전에 오랜 시간이 걸립니다. 이렇게 트럭 위에 올리면 공격한 뒤 적이 반격하기 전에 빠르게 위치를 전환할 수 있습니다."
  ### Deprecated ###
 #### Infantry ####
 
 #### Support Equipment ####
- support_equipment_short:0 "지원 장비."
+ support_equipment_short:0 "지원 장비"
  support_equipment:0 "지원 장비"
- support_equipment_desc:0 "Radios, tents, ammunition containers, generators & other equipment used to support troop formations and keep large scale operations running smoothly."
+ support_equipment_desc:0 "무전기, 천막, 탄약 상자, 발전기, 기타 등등. 부대를 지원하고 대규모 작전이 잘 돌아가도록 해주는 장비들입니다."
 
  support_equipment_1:0 "지원 장비"
- support_equipment_1_desc:0 "Radios, tents, ammunition containers, generators & other equipment used to support troop formations and keep large scale operations running smoothly."
+ support_equipment_1_desc:0 "무전기, 천막, 탄약 상자, 발전기, 기타 등등. 부대를 지원하고 대규모 작전이 잘 돌아가도록 해주는 장비들입니다."
 #### Support Equipment ####
 
 #### Artillery & Anti-Air ####
@@ -489,7 +489,7 @@ l_english:
   ## Normal ##
    artillery_equipment:0 "견인포"
    artillery_equipment_short:0 "야포"
-   artillery_equipment_desc:0 "Light-weight artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to reach."
+   artillery_equipment_desc:0 "가벼운 화포로 수송할 때 분해할 수 있습니다. 이 덕분에 전에는 가기 힘든 곳에도 가져갈 수 있습니다."
 
    artillery_equipment_1:0 "야포"
    artillery_equipment_1_short:0 "야포"
@@ -510,7 +510,7 @@ l_english:
 
   ## Light Self-Propelled ##
    APC_artillery_equipment:0 "경자주포"
-   APC_artillery_equipment_desc:0 "Larger caliber rounds and better propellants are today's order in the post-war decade, even for self-propelled artillery chassis."
+   APC_artillery_equipment_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
     
    # 1950
    APC_artillery_equipment_1:0 "50년대 경자주포"
@@ -540,7 +540,7 @@ l_english:
 
   ## Self-Propelled ##
    MBT_artillery_equipment:0 "중자주포"
-   MBT_artillery_equipment_desc:0 "A large artillery piece mounted on a heavy chassis, these self-propelled guns carry a lot of firepower."
+   MBT_artillery_equipment_desc:0 "무거운 차체에 대형 포를 얹은 이 자주포는 엄청난 화력을 지니고 있습니다."
   
    # 1950
    MBT_artillery_equipment_1:0 "50년대 중자주포"
@@ -571,7 +571,7 @@ l_english:
   ## Deprecated ##
    rocket_artillery_equipment:0 "견인 로켓포"
    rocket_artillery_equipment_short:0 "로켓포"
-   rocket_artillery_equipment_desc:0 "Rocket artillery is less accurate and has a much lower sustained rate of fire than batteries of traditional artillery guns. However, they have the capability of simultaneously hitting a target with multiple rockets with devastating effect."
+   rocket_artillery_equipment_desc:0 "로켓포는 기존 화포보다 덜 정확하며 지속 사격 능력도 약합니다. 하지만 하나의 목표를 대량의 로켓으로 날려버리는 능력을 갖추고 있습니다."
 
    rocket_artillery_equipment_1:0 "견인 로켓포"
    rocket_artillery_equipment_1_short:0 "로켓포"
@@ -586,8 +586,8 @@ l_english:
   ## Normal ##
    anti_air_equipment:0 "견인 대공포"
    anti_air_equipment_short:0 "대공포"
-   anti_air_equipment_desc:0 "The rapidly changing situation above the ground meant that anti-air guns needed to be able to move quickly from one place to another. Towed anti air made this possible."
-   anti_air_equipment_desc_old:0 "The rapidly changing situation above the ground meant that anti-air guns needed to be able to move quickly from one place to another. Towed anti air made this possible."
+   anti_air_equipment_desc:0 "지상 상황이 빠르게 변한다는 말은 대공포도 빠르게 이동해야 한다는 것을 의미합니다. 견인식 대공포라면 이를 만족할 수 있습니다."
+   anti_air_equipment_desc_old:0 "지상 상황이 빠르게 변한다는 말은 대공포도 빠르게 이동해야 한다는 것을 의미합니다. 견인식 대공포라면 이를 만족할 수 있습니다."
 
    anti_air_equipment_1:0 "개선된 대공포"
    anti_air_equipment_1_short:0 "개선된 대공포"
@@ -608,7 +608,7 @@ l_english:
 
   ## Light Self-Propelled ##
    APC_aa_equipment:0 "경자주대공포"
-   APC_aa_equipment_desc:0 "With the mobile warfare doctrine fully adopted by most nations worldwide, it's only natural that artillery and support pieces have been adapted. Light and powerful, self-propelled anti-air batteries can protect the army from any airborne peril as it advances or retreats."
+   APC_aa_equipment_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
     
    # 1950
    APC_aa_equipment_1:0 "50년대 경자주대공포"
@@ -638,7 +638,7 @@ l_english:
 
   ## Self-Propelled ##
    MBT_aa_equipment:0 "중자주대공포"
-   MBT_aa_equipment_desc:0 "Heavy anti-air batteries are perfect to protect the army from enemy bombers or other heavy aircraft with their powerful payload. No longer towed or fixed into place, they are now self propelled for higher autonomy and mobility."
+   MBT_aa_equipment_desc:0 "강력한 무기를 가진 중자주대공포대는 적 폭격기나 다른 대형 항공기를 막는 데 적합합니다. 과거에는 견인식이거나 고정식이었지만 더 나은 자주성과 기동성을 위해 스스로 움직입니다."
     
    # 1950
    MBT_aa_equipment_1:0 "50년대 중자주대공포"
@@ -679,7 +679,7 @@ l_english:
   # Great War Tank
   gw_tank_equipment:0 "대전쟁 전차"
   gw_tank_equipment_short:0 "대전쟁 전차"
-  gw_tank_equipment_desc:0 "Tanks in World War I were developed separately and simultaneously by the United Kingdom and France as a means to break the deadlock of trench warfare on the Western Front. The name Tank was adopted by the British during the early stages of their development, as a security measure to conceal their purpose. Early tanks were armed with machine guns and small cannons, moved slowly, and were armored only enough to stop small arms fire."
+  gw_tank_equipment_desc:0 "제1차 세계 대전 당시 영국과 프랑스는 서부전선의 참호전에서 벌어지는 교착상태를 뚫기 위해 각자 전차를 개발했습니다. 탱크라는 이름은 개발 초기 목적을 숨기려던 영국에 의해 붙여졌습니다. 초기 전차들은 기관총과 소구경 포로 무장했으며 느리게 움직였습니다. 이들의 장갑은 소화기 공격을 막을 수준밖에 되지 않았습니다."
   
   # Mechanized
   mechanised_infantry:0 "2차대전 기계화"
@@ -710,19 +710,19 @@ l_english:
   APC_equipment:0 "병력수송장갑차"
 
   APC_equipment_0:0 "1940년대 APC"
-  APC_equipment_0_desc:0 "Armored troop transport vehicle that was developed during the Second World War to carry personnel into combat. A bit crude in design, but effective enough to stop small arms and light artillery fire, and carry some light armaments."
+  APC_equipment_0_desc:0 "병력수송장갑차는 제2차 세계 대전 당시 병력을 전장으로 수송하기 위해 개발되었습니다. 설계는 좀 조잡하지만, 소화기와 소구경 포격을 효과적으로 막을 수 있습니다. 소량의 소구경 화기를 탑재했습니다."
 
   APC_equipment_1:0 "1950년대 APC"
-  APC_equipment_1_desc:0 "A more refined transport vehicle, this APC can hold a larger number of soldiers and is more adapted to harsh combat environments. The vehicle's heavier armor can prove useful if ambushed or transporting troops through hostile areas."
+  APC_equipment_1_desc:0 "조금 정돈된 이 APC는 더 많은 수의 병사들 태울 수 있으며 가혹한 전장 환경에 더 적합합니다. 차량의 두꺼운 장갑은 기습당하거나 적지 너머로 병력을 수송할 때 유용합니다."
 
   APC_equipment_2:0 "1960년대 APC"
-  APC_equipment_2_desc:0 "Building our APC with amphibious capabilities in mind, and including features such as an exhaust snorkel or water jets, will allow them to preform river crossing if bridges are unavailable and be used in naval assaults."
+  APC_equipment_2_desc:0 "수륙양용 기능을 생각하며 APC를 만들고 외장 스노클이나 워터젯 같은 기능을 도입하면 다리를 쓸 수 없을 때 강을 건널 수 있을 뿐 아니라 상륙작전에서도 사용할 수 있습니다."
 
   APC_equipment_3:0 "1970년대 APC"
-  APC_equipment_3_desc:0 "By improving the suspension system in the wheel or track system of our APCs, we can make them more comfortable to be in during transport, and allow the passengers to disembark more quickly when a rapid exit is required."
+  APC_equipment_3_desc:0 "APC 바퀴나 궤도의 현가장치를 개선하면 수송되는 승객들이 더 편안해할 뿐 아니라 필요할 때 더 빨리 나갈 수 있습니다."
 
   APC_equipment_4:0 "1980년대 APC"
-  APC_equipment_4_desc:0 "Newly developed bulletproof glass blends will make our APCs safer and protect the drivers from small arms fire in the event of an attack. Improved engines components will also make our vehicles more reliable and fuel efficient."
+  APC_equipment_4_desc:0 "새로 개발된 방탄유리를 우리 APC에 도입하면 공격 할때 조종수가 소화기 사격에 더 안전할 것입니다. 개선된 엔진은 우리 차량들을 더 신뢰성있고 연비 좋게 만들 것입니다."
 
   APC_equipment_5:0 "1990년대 APC"
   APC_equipment_5_desc:0 "Thicker underside plating will help to make this vehicle more resistant to mines and other IEDs, and integrated computing technology will allow it to stay connected and provide additional support when not transporting gear."
@@ -782,12 +782,12 @@ l_english:
   guided_missile_equipment_desc:0 "Guided Ballistic Missile"
 
   ICBM_equipment:0 "대륙간 탄도 미사일"
-  ICBM_equipment_desc:0 "Extremely powerful missile capable of hitting anywhere on the globe with ease."
+  ICBM_equipment_desc:0 "지구의 어떤 곳이든 쉽게 타격할 수 있는 매우 매우 강력한 미사일입니다."
 
   MRBM_equipment:0 "중거리 탄도 미사일"
-  MRBM_equipment_desc:0 "Very powerful missile capable of hitting almost anywhere in the world."
+  MRBM_equipment_desc:0 "지구의 거의 어떤 곳이든 타격할 수 있는 매우 강력한 미사일입니다."
 
   SRBM_equipment:0 "단거리 탄도미사일"
-  SRBM_equipment_desc:0 "Powerful missile capable of hitting anywhere in the same continent and then some."
+  SRBM_equipment_desc:0 "같은 대륙과 그 주변을 타격할 수 있는 강력한 미사일입니다."
  ### Missiles ###
 #### Special ####
