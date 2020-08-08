@@ -50,7 +50,7 @@
  upgrade_passive_defense:0 "Passive Defense"
  upgrade_passive_defense_desc:1 "§LThe Home Guard has the potential to be a vital tool to our intelligence. By training our Home Guard and Garrison troops in the ways of espionage and counter intelligence, we shall ensure that we always have a defensive presence at home, even when our experts are otherwise engaged.§!"
  upgrade_anti_guerrilla_activities:0 "Anti-Guerrilla Activities"
- upgrade_anti_guerrilla_activities_desc:0 "§LPropaganda is a powerful tool to ensure the loyalty of our own citizens, but creating compliance in enemy lands is much more complex. By training our operatives to infiltrate enemy resistance movements, we may begin being able to make effective arrests and end their disruptive activities. Surely then, foreign partisans will lose any hope of returning to their old regime.§!"
+ upgrade_anti_guerrilla_activities_desc:0 "§LGuerillas blur the line between citizen and soldiers, retreating into jungles - or urban jungles - when the sun rises. They are a microcosm of all of the problems present in modern warfare. New strategies to weed them out will be pivotal to winning the wars of today.§!"
  upgrade_double_agents:0 "Double-Agents"
  upgrade_double_agents_desc:0 "§LDouble-Agents§!"
  upgrade_communications_interception:0 "Communications Interception"
@@ -63,13 +63,13 @@
  upgrade_industrial_espionage:0 "Industrial Espionage"
  upgrade_industrial_espionage_desc:0 "§LWe know that our enemy has secret projects for experimental weapons and vehicles, what we do not know is exactly what those projects are and what they are building. By infiltrating the experimental weapons departments of our enemies, we will not only gain the opportunity to learn precisely what they plan to use against us, we will also be given the unique opportunity to use this information to advance our own weapons department.§!"
  upgrade_wiretapping:0 "Wiretapping"
- upgrade_wiretapping_desc:0 "§LConventional radio communications devices are far too large and sedentary to be useful in a covert environment, but by building compact versions of this technology and disguising it as regular domestic objects like briefcases, our agents shall be able to communicate at all hours of the day without arousing suspicion or alarm.§!"
+ upgrade_wiretapping_desc:0 "§LIn every landline, every lamp, every television, there is a potential for a tiny device. It can record the entirety of a conversation. As long as someone retrieves the device, anything can be captured.§!"
  upgrade_agency_infiltration:0 "Agency Infiltration"
- upgrade_agency_infiltration_desc:0 "§LA letter written in invisible ink is a mere blank sheet of paper to the naked eye, but the application of UV light or chemicals such as ammonia reveal the contents of the letter. By standardizing the use of invisible ink by all of our operatives, our information shall remain secret even if intercepted by our enemies.§!"
+ upgrade_agency_infiltration_desc:0 "§LTheir agents infiltrate our factories, research centers, and legislative bodies. We will infiltrate their agency.§!"
  upgrade_surveillance_aircraft:0 "Surveillance Aircraft"
- upgrade_surveillance_aircraft_desc:0 "§LThe putty-like texture of plastic explosives makes them ideal for sabotaging enemy production so it is only natural that we arm foreign partisans with the substance. The bombs can easily be placed out-of-sight and in vulnerable areas of enemy factories, and the malleable nature of the substance would make it an ideal weapon in a spectacular political assassination...§!"
+ upgrade_surveillance_aircraft_desc:0 "§LNew jet planes can go higher and farther than ever before. Improvements in telescoped lenses allow us to fly over enemy land and take high-quality photos without being spotted.§!"
  upgrade_computer_hacking:0 "Computer Hacking"
- upgrade_computer_hacking_desc:0 "§LWhile undesirable, it is inevitable that a handful of agents will be captured by our enemy. We must offer our operatives a way to evade the horror that awaits them in the interrogation room, and a cyanide pill in place of a tooth will provide them with that escape, should it ever comes to that.§!"
+ upgrade_computer_hacking_desc:0 "§LIt seems that every new log, list, and database are stored on computers now. If we wish to keep collecting information, we must break into these computers.§!"
  
  #Training
  
@@ -77,7 +77,7 @@
  upgrade_global_training_centers_desc:0 "§LWhile our agents are able to adapt to any environment, the cultural norms and languages of foreign lands come more naturally to those born and raised in the culture. If we are to build a worldwide network of spies, we must expand our recruitment and training centers all across the globe and recruit agents of all cultures and backgrounds.§!"
  upgrade_special_forces_training:0 "Special Forces Training"
  upgrade_special_forces_training_desc:1 "§LWhile our department usually handles the subtler aspects of war, often a small team of heavily armed soldiers are what's needed to complete our operations. By training all of our operatives the ways of Commando warfare, they will become more effective at sabotage operations, less likely to be detected by enemy counter-intelligence and more capable at capturing enemy cryptologic equipment.§!"
- upgrade_enhanced_interrogation_methods:0 "Enhanced Interrogation Methods"
+ upgrade_enhanced_interrogation_methods:0 "Modern Interrogation Methods"
  upgrade_enhanced_interrogation_methods_desc:0 "§LOften it can be more effective to break an enemy agent's mind rather than their body. The use of physical force is unreliable and often results in false information; a truly skilled interrogator is capable of breaking the enemy's will without violence. But, if it comes to that, we have ways of making them talk...§!"
  upgrade_diplomatic_training:0 "Diplomatic Training"
  upgrade_diplomatic_training_desc:0 "§LTraining our agents to grease the palm of a few foreign investors and diplomats may convince them of the benevolence of our cause and steer their interests away from enemies of the state.§!"
@@ -87,15 +87,15 @@
  #Crypto
  
  upgrade_modernize_department:0 "Modernize Department"
- upgrade_modernize_department_desc:0 "§LCryptology is the method of creating codes and cyphers to maintain secret communications. Without the necessary code, a message written with a cypher can be almost impossible to understand. It is of equal importance that we encrypt our data as we decrypt that of our enemies.§!"
+upgrade_modernize_department_desc:0 "§LIt seems that our cryptology department has never quite moved past the days of the enigma. New cryptology techniques are revealing themselves, and it is time we take advantage.§!"
  upgrade_cryptographic_engineering:1 "Cryptographic Engineering"
- upgrade_cryptographic_engineering_desc:0 "§LRadio waves have made it possible to communicate remotely across long distances, and signals are often encrypted by constantly changing the frequency of the broadcast at an irregular rate. If we are to intercept enemy communications, we must establish an interception group dedicated to cracking enemy radio encryption.§!"
- upgrade_government_developed_ciphers:1 "Government-Developed Ciphers"
- upgrade_government_developed_ciphers_desc:0 "§LMachines have proven useful in encrypting data already, with machine-assisted encrypted signals proving the most difficult to decipher. Cryptanalysis machines are vital in cracking messages we do not yet know the code for and will be a valuable asset to our deciphering team.§!"
+ upgrade_cryptographic_engineering_desc:0 "§LThe theory and study of cryptography is not something relevant only to dusty books and old schools, but to the intelligence agencies of today. Analyzing cryptographic formulas and methods must be done.§!"
+ upgrade_government_developed_ciphers:1 "Government Developed Ciphers"
+ upgrade_government_developed_ciphers_desc:0 "§LPublically known encryptions and ciphers might be tried and tested, but if we are to truly protect our secrets from our enemies, we must develop our own ciphers in-house, away from prying eyes.§!"
  upgrade_public_key_cryptography:1 "Public-Key Cryptography"
- upgrade_public_key_cryptography_desc:0 "§LCodes and cyphers have thus far proven to be the most effective way of establishing and protecting our spy networks overseas. The Government Communication Headquarters shall dedicate itself to the creation of new and elaborate encryption methods that our enemies shall be helpless to decipher.§!"
+ upgrade_public_key_cryptography_desc:0 "§LPublic-key cryptography is a relatively new development in cryptographic theory, and it is best used in direct communication between two individuals. Developing both public keys and private keys will be important to ensuring our spies survive.§!"
  upgrade_computerized_cracking:0 "Computerized Cracking"
- upgrade_computerized_cracking_desc:0 "§LIt's becoming apparent that our standard method of creating cyphers is insufficient to protect our communications from enemy eyes. Our finest minds have theorized a machine which can scramble the letters of the alphabet to generate new cyphers on as regular a basis as we desire. Deploying such technology would make our encryption methods a total enigma to our enemies.§!"
+ upgrade_computerized_cracking_desc:0 "§LSoftware may seem hard at first, but it is extremely malleable. Someone skilled enough can toy with it in such a way as to reveal endless information about it’s content.§!"
  
  #Other Stuff
  
