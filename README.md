@@ -9,7 +9,7 @@
 러시아 인명이나 지명에 대해서 끝이 -v로 끝나면 보통은 -프라고 음차하시면 됩니다 (예: Malenkov -> 말렌코프)
 
 # The New Order 한국어 번역 공지사항
-## [The New Order 한국어 번역](https://steamcommunity.com/sharedfiles/filedetails/?id=2098453801)은 공개 번역으로 진행됩니다.
+## The New Order 한국어 번역은 공개 번역으로 진행됩니다.
 - 따라서 누구든지 Github 가입 후 자유롭게 참여하실 수 있습니다! 
 - 번역팀 디스코드 주소 : https://discord.gg/fGPdPFP
 ***
