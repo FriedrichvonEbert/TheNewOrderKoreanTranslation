@@ -1,0 +1,94 @@
+﻿capital = 567
+#add after adding oob
+#oob = "UIL_1962"
+
+
+set_research_slots = 2
+set_convoys = 0
+
+set_stability = 0.6
+set_war_support = 0.6
+
+# add after adding ideas
+# add_ideas = {
+# 	UIL_wild_promises
+# 	UIL_kept_promises
+# 	UIL_broken_promises
+# }
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	basic_infantry_equipment = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	##ARTY##
+	artillery4 = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 9
+	ultranational_socialism = 1
+	national_socialism = 4
+	socialist = 6
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 15
+	authoritarian_democrat = 65
+	despotism = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Nikolai Andreev"
+	desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+	picture = "Portrait_UstIlimsk_Nikolai_Andreev.tga"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_field_marshal = {
+	name = "Nikolai Andreev"
+	picture = "Portrait_UstIlimsk_Nikolai_Andreev.tga"
+	traits = { media_personality winter_specialist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alexei Pesterev"
+	picture = "Portrait_UstIlimsk_Alexei_Pesterev.tga"
+	traits = { cavalry_officer trickster }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Nikolai Lyashchenko"
+	picture = "Portrait_UstIlimsk_Nikolai_Lyashchenko.tga"
+	traits = { infantry_officer trait_engineer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}

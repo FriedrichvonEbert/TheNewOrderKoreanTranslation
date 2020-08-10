@@ -1,0 +1,164 @@
+﻿capital = 324
+
+oob = "BHU_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1962.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 30
+    despotism = 70
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+set_cosmetic_tag = BHU_BEN
+
+create_country_leader = {
+	name = "Dasho Kesang"
+	desc = "POLITICS_DASHO_KESANG_DESC"
+	picture = "Portrait_Bhutan_Dasho_Kesang.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lhendup Dorji"
+	desc = "POLITICS_LHENDUP_DORJI_DESC"
+	picture = "Portrait_Bhutan_Lhendup_Dorji.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jigme Dorji Wangchuck"
+	desc = "POLITICS_JIGME_DORJI_WANGCHUCK_DESC"
+	picture = "Portrait_Bhutan_Jigme_Dorji_Wangchuck.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kanwal Singh"
+	desc = "POLITICS_KANWAL_SINGH_DESC"
+	picture = "Portrait_Bhutan_Kanwal_Singh.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+####################
+##Military Leaders##
+####################
+
+create_field_marshal = {
+	name = "Kanwal Singh"
+	picture = "Portrait_Bhutan_Kanwal_Singh.dds"
+	traits = { harsh_leader unyielding_defender }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3120
+}
+
+create_corps_commander = {
+	name = "Khaled Mosharraf"
+	picture = "Portrait_Bhutan_Khaled_Mosharraf.dds"
+	traits = { fortress_buster organizer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	id = 3121
+}
+
+create_corps_commander = {
+	name = "Hussain Muhammad Ershad"
+	picture = "Portrait_Bhutan_Hussain_Muhammad_Ershad.dds"
+	traits = { fortress_buster organizer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3122
+}
+
+add_ideas = {
+	#STARTING
+	BHU_Transitional_Military_Occupation
+	BHU_Bhotamuzh_Resistance
+	#MINISTERS
+	BHU_Kanwal_Singh_hog
+	BHU_Ian_Cardozo_eco
+	BHU_Piru_Singh_for
+	BHU_Hussain_Muhammad_Ershad_sec
+	#POLITICAL
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_outlawed
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_skilled
+	#MILITARY
+	tno_conscription_four_year_draft
+	tno_women_total_equality
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_advanced_training_methods
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_none
+	#SOCIAL
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_gender_equality
+	tno_minorities_segregation
+	tno_security_preemptive_security
+	#ECONOMIC
+	tno_trade_laws_export_focus
+	tno_economic_focus_partial_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_high_income_weighted
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_acceptable_pensions
+	tno_unemployment_trinket_subsidies
+	#DEVELOPMENT#
+	tno_poverty_rate_50
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_factory_complexes
+	tno_agriculture_subsistence
+	tno_research_facilities_militarized
+	tno_academic_base_mass_illiteracy
+	tno_army_professionalism_professional
+}

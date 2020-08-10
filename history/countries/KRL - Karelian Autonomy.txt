@@ -1,0 +1,161 @@
+﻿capital = 215
+
+add_ideas = {
+	##POLITICAL LAWS##
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_pluralism
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_not_applicable
+	##SOCIAL LAWS##
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+}
+
+oob = "VTY_1962"
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	motorized_infantry = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ARTY##
+	artillery4 = 1
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+
+	##AIRCRAFT##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	CAS_1945 = 1
+	##HEAVY AIRCRAFT##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+	construction0 = 1
+	military_construction0 = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 15
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 0
+	social_democrat = 13
+	social_liberal = 13
+	market_liberal = 0
+	social_conservative = 12
+	authoritarian_democrat = 47
+	despotism = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Sakari Simelius"
+	picture = "Portrait_Karelia_Sakari_Simelius.dds"
+	desc = "POLITICS_SAKARA_SIMELIUS_DESC"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sakari Simelius"
+	picture = "Portrait_Karelia_Sakari_Simelius.dds"
+	desc = "POLITICS_SAKARA_SIMELIUS_DESC"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sakari Simelius"
+	picture = "Portrait_Karelia_Sakari_Simelius.dds"
+	desc = "POLITICS_SAKARA_SIMELIUS_DESC"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sakari Simelius"
+	picture = "Portrait_Karelia_Sakari_Simelius.dds"
+	desc = "POLITICS_SAKARA_SIMELIUS_DESC"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}

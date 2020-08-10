@@ -1,0 +1,40 @@
+﻿capital = 1018
+
+add_ideas = {
+    AMK_old_men_and_old_bread
+    AMK_klu_klux_klan
+	AMK_free_american_alliance
+}
+
+set_politics = {
+ 	ruling_party = national_socialism
+ 	last_election = "1933.3.5"
+ 	election_frequency = 48
+ 	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 20
+    despotism = 0
+    fascism = 0
+    national_socialism = 80
+}
+
+create_country_leader = {
+	name = "Hans-Joachim Herrmann"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_GER_Hans_Joachim_Herrmann.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+		#
+	}
+}

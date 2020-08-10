@@ -1,0 +1,216 @@
+﻿capital = 252
+
+oob = "CHU_1962"
+
+add_ideas = {
+	##STANDARD##
+	RUS_terror_bombing
+	RUS_warlord_manpower
+	RUS_gorky_tank_factory
+	CHU_armor_expertise
+	CHU_mobile_bandits
+	##MINISTERS##
+	CHU_Nikolai_Averin_hog
+	CHU_Alexander_Alexandrovich_Morozov_eco
+	CHU_Pyotr_Norytsyin_for
+	CHU_Semyon_Krivoshein_sec
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_corvee
+	tno_public_meetings_outlawed
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_banned
+	##MILITARY LAWS###
+	tno_conscription_four_year_draft
+	tno_women_military_assistance
+	tno_military_supervision_no_supervision
+	tno_military_spending_militarycentric_budget
+	tno_training_minimal_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	##SOCIAL LAWS##
+	tno_safety_no_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_segregation
+	tno_security_police
+	##ECONOMIC LAWS##
+	tno_trade_laws_closed_economy
+	tno_economic_focus_war_economy
+	tno_tax_rate_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_80
+	tno_army_professionalism_reluctant_conscripts
+	tno_industrial_expertise_incompetent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_centralized
+	tno_research_facilities_makeshift
+	tno_academic_base_mass_illiteracy
+}
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_research_slots = 2
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	#infantry_aa = 1
+	#infantry_aa2 = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ARTY##
+	artillery4 = 1
+	antiair5 = 1
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+
+	IFV_1950 = 1
+
+	MBT_1950 = 1
+
+	##AIRCRAFT##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	CAS_1945 = 1
+	##HEAVY AIRCRAFT##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+	construction0 = 1
+	military_construction0 = 1
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 15
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 11
+	despotism = 65
+	fascism = 9
+	burgundian_system = 0
+}
+
+### Country Leader ###
+create_country_leader = {
+	name = "Nikolai Averin"
+	picture = "Portrait_Gorky_Nikolai_Averin.dds"
+	desc = "POLITICS_NIKOLAI_AVERIN_DESC"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Nikolai Averin"
+	picture = "Portrait_Gorky_Nikolai_Averin.dds"
+	traits = { offensive_doctrine bearer_of_artillery trickster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3331
+}
+
+create_corps_commander = {
+	name = "Pyotr Norytsyin"
+	picture = "Portrait_Gorky_Pyotr_Norytsyin.dds"
+	traits = { trait_cautious harsh_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+	id = 3332
+}
+
+create_corps_commander = {
+	name = "Sergei Bystrov"
+	picture = "Portrait_Gorky_Sergei_Bystrov.dds"
+	traits = { trait_engineer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3333
+}
+
+create_corps_commander = {
+	name = "Semyon Krivoshein"
+	picture = "Portrait_Gorky_Semyon_Krivoshein.dds"
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3334
+}

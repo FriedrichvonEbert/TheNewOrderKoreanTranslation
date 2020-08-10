@@ -1,0 +1,164 @@
+﻿capital = 289
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1960.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 10
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 20
+    despotism = 40
+    fascism = 20
+    national_socialism = 10
+    burgundian_system = 0
+}
+
+add_ideas = {
+	#SIL_thanom_kittikachorn_hog
+	#SIL_pote_sarasin_fm
+	#SIL_charun_rattanakun_seriroengrit_eco
+	#SIL_praphas_charusathien_sm
+	tno_political_parties_one_party_state
+	tno_religious_rights_pluralism
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_vetted_entry
+	tno_conscription_one_year_draft
+	tno_women_military_assistance
+	tno_military_supervision_no_supervision
+	tno_military_spending_large_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_legal
+	tno_pensions_trinket_pensions
+	tno_unemployment_trinket_subsidies
+	tno_safety_no_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_security_service
+}
+
+create_country_leader = {
+	name = "Rama IX"
+	#desc =
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rama IX"
+	#desc =
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rama IX"
+	#desc =
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rama IX"
+	#desc =
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rama IX"
+	#desc = 
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rama IX"
+	#desc = 
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rama IX"
+	#desc = 
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rama IX"
+	#desc = 
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Boonsanong Punyodyana"
+	#desc = 
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Phayom Chulanont"
+	#desc = 
+	picture = "Portrait_SIL_Bhumibol_Adulyadej.dds"
+	expire = "1999.12.12"
+	ideology = communist_subtype
+	traits = {
+	}
+}

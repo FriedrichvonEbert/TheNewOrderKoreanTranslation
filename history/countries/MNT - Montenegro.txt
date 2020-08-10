@@ -1,0 +1,58 @@
+﻿capital = 745 # Montenegro
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1958.1.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 2
+    ultranational_socialism = 0
+    socialist = 1
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 17
+    authoritarian_democrat = 23
+    despotism = 57
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Nikola II"
+	desc = "POLITICS_NIKOLA_II_DESC"
+	picture = "Portrait_Montenegro_King_Nikola_II.dds"
+	expire = "1983.4.24"
+	ideology = despotism_subtype
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Pavle Urisic"
+	picture = "Pavle_urisic_DDS.dds"
+	traits = {  
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Zaharije Ostojic"
+	picture = "Zaharije_Ostojic_DDS.dds"
+	traits = {  
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}

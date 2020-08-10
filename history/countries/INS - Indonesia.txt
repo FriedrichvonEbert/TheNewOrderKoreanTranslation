@@ -1,0 +1,354 @@
+﻿capital = 795 #Jakarta
+
+oob = "INS_1962"
+
+set_country_flag = INS_starting_tree_flag
+set_country_flag = INS_Not_in_Crisis
+load_focus_tree = INS_Starting_Tree
+
+set_stability = 0.9
+set_war_support = 0.6
+
+set_research_slots = 2
+
+add_manpower = 70000
+
+set_technology = {
+	##################
+	# infantry
+	##################
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+
+	marines = 1
+	marines2 = 1
+	paratroopers = 1
+	paratroopers2 = 1
+
+	basic_infantry_equipment = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+
+	motorized_infantry = 1
+	motorized_infantry_1 = 1
+
+	##################
+	# support
+	##################
+	tech_support = 1
+
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers_flamethrowers_2 = 1
+
+	tech_recon = 1
+	tech_recon2 = 1
+
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+
+	tech_field_hospital = 1
+
+	tech_logistics_company = 1
+
+	tech_signal_company = 1
+
+	##################
+	# armor
+	##################
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+
+	##################
+	# support
+	##################
+	gw_artillery = 1
+
+	antiair5 = 1
+	antiair_1950 = 1
+	antiair_1950_air_attack = 1
+	SPAA_1950 = 1
+
+	artillery4 = 1
+	artillery_1950 = 1
+	artillery_1950_soft_attack = 1
+	SPART_1950 = 1
+
+	##################
+	# navy
+	##################
+	ww2_destroyer = 1
+	basic_destroyer = 1
+	ww2_cruiser = 1
+	basic_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	basic_submarine = 1
+	ww2_carrier = 1
+	transport = 1
+	landing_craft = 1
+
+	##################
+	# helicopter
+	##################
+	very_early_helicopter = 1
+	early_helicopter = 1
+	helicopter_engines = 1
+
+	##################
+	# light aircraft
+	##################
+	early_fighter = 1
+	fighter_1945 = 1
+	cv_1945_fighter = 1
+	interceptor_1945 = 1
+	cas_1945 = 1
+	cv_1945_cas = 1
+	jet_engines = 1
+
+	##################
+	# heavy aircraft
+	##################
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	jet_engines_bombers = 1
+
+	##################
+	# engineering
+	##################
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+
+	basic_encryption = 1
+	improved_encryption = 1
+	advanced_encryption = 1
+	basic_decryption = 1
+
+	##################
+	# industry
+	##################
+	countrywide_improvements = 1
+	construction0 = 1
+	construction1 = 1
+	excavation0 = 1
+	excavation1 = 1
+	
+	
+
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1960.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 12
+    ultranational_socialism = 0
+    socialist = 3
+    social_democrat = 15
+    social_liberal = 7
+    market_liberal = 0
+    social_conservative = 21
+    authoritarian_democrat = 15
+    despotism = 0
+    fascism = 27
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+add_ideas = {
+	#Country
+	Sphere_Imp_Protectorate
+	INS_Romusha
+	INS_Shinkyoutei
+	INS_Pembela_Tanah_Air
+
+	#Political
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_corvee
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_no_voting
+	tno_refugees_banned
+
+	#Military
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_no_supervision
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_racial_integration_none
+	tno_draft_exemptions_none
+
+	#Economic
+	tno_trade_laws_export_focus
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_child_labor_legal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+
+	#Social
+	tno_safety_no_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_equal_rights
+	tno_security_police
+
+	#Societal Development
+	tno_poverty_rate_50
+	tno_army_professionalism_reluctant_conscripts
+	tno_industrial_expertise_incompetent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_centralized
+	tno_research_facilities_basic
+	tno_academic_base_mass_illiteracy
+
+	#Economy - Construction Spending
+	construction_level_0
+	
+	#Ministers
+	INS_Djuanda_Kartawidjaja_hog
+	INS_Subandrio_for
+	INS_General_Abdul_Haris_Nasution_sec
+	INS_Suwiryo_eco
+}
+
+create_country_leader = {
+	name = "Sukarno"
+	expire = "1989.1.1"
+	desc = "POLITICS_SUKARNO_DESC"
+	picture = "Portrait_Indonesia_Sukarno.dds"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+	
+create_field_marshal = {
+	name = "Suharto"
+	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_GeneralSuharto.dds"
+	traits = {
+		offensive_doctrine 
+		thorough_planner
+		organizer
+	}
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Abdul Haris Nasution"
+	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_General_Abdul_Haris_Nasution.dds"
+	traits = {
+		defensive_doctrine 
+		inspirational_leader
+	}
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "L.B Moerdani"
+	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_General_LB_Moerdani.dds"
+	traits = { old_guard jungle_rat }
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ignatius Rijadi"
+	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_General_Ignatius_Slamet_Rijadi.dds"
+	traits = {
+		trait_engineer
+		scavenger
+	}
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alex Kawilarang"
+	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_Alex_Kawilarang.dds"
+	traits = {
+		infantry_leader
+	}
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+ 	name = "Yos Sudarso"
+ 	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_Admiral_Yos_Sudarso.dds"
+ 	traits = { blockade_runner }
+ 	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+ 	name = "Sudomo"
+ 	portrait_path = "gfx/leaders/INS/Portrait_Indonesia_Admiral_Sudomo.dds"
+ 	traits = { old_guard }
+ 	attack_skill = 3
+	defense_skill = 5
+	maneuvering_skill = 2
+	coordination_skill = 3
+}

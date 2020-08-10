@@ -1,0 +1,427 @@
+﻿capital = 1306
+
+oob = "IME_1962"
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.5
+set_war_support = 0.5
+
+
+# Starting tech
+set_technology = {
+
+	# Infantry
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	tech_mountaineers = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	#	motorized_infantry_1 = 1
+
+	# Support
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+
+	# Armor
+	mechanised_infantry3 = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	IFV_1950 = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+
+	# Artillery
+	gw_artillery = 1
+	artillery4 = 1
+	antiair5 = 1
+
+	# Land Doctrine
+	strategic_theorem = 1
+
+	# Naval
+	ww2_submarine = 1
+	basic_submarine = 1
+	ww2_destroyer = 1
+	basic_destroyer = 1
+	ww2_cruiser = 1
+	basic_cruiser = 1
+	improved_cruiser = 1
+	ww2_battleship = 1
+	ww2_carrier = 1
+	early_carrier = 1
+	transport = 1
+
+	# Naval Doctrine
+	#fleet_in_being = 1
+
+	# Helicopters
+	very_early_helicopter = 1
+	early_helicopter = 1
+	scout_helicopter_1960 = 1
+	tech_scout_helicopter_company = 1
+
+	# Light Aircraft
+	early_fighter = 1
+	fighter_1945 = 1
+	cv_1945_fighter = 1
+	fighter_1950 = 1
+	cv_1950_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	CAS_1945 = 1
+	cv_1945_CAS = 1
+	CAS_1950 = 1
+	cv_1950_CAS = 1
+
+	# Heavy Aircraft
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	transport_air_1960 = 1
+
+	# Electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+}
+
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 10
+	despotism = 60
+	fascism = 30
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+add_ideas = {
+	#standard#
+	TRI_Member_Client
+	IME_italys_finest
+	IME_haganah_fatah_negotiations
+	IME_terrorism
+	IME_emirate_of_transjordan
+	IEA_idea_colonial_government
+
+	#political#
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_pluralism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_elite_voting
+	tno_refugees_open
+
+	#military#
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_educational_deferment
+
+	#economic#
+	tno_trade_laws_export_focus
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+
+	#social#
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_segregation
+	tno_security_security_service
+	construction_level_7
+
+	#Ministers#
+	IME_Boris_Giuliano_hog
+	IME_Giorgio_Liuzzi_sec
+	IME_Laura_Doriano_for
+	IME_Piero_Sraffa_eco
+}
+
+add_opinion_modifier = { target = GER modifier = embargo }
+add_opinion_modifier = { target = GGR modifier = embargo }
+add_opinion_modifier = { target = BGR modifier = embargo }
+add_opinion_modifier = { target = HGR modifier = embargo }
+add_opinion_modifier = { target = SGR modifier = embargo }
+add_opinion_modifier = { target = CZE modifier = embargo }
+add_opinion_modifier = { target = GGN modifier = embargo }
+add_opinion_modifier = { target = SLO modifier = embargo }
+add_opinion_modifier = { target = UKR modifier = embargo }
+add_opinion_modifier = { target = MCW modifier = embargo }
+add_opinion_modifier = { target = OST modifier = embargo }
+add_opinion_modifier = { target = COG modifier = embargo }
+add_opinion_modifier = { target = CAU modifier = embargo }
+add_opinion_modifier = { target = SER modifier = embargo }
+add_opinion_modifier = { target = DEN modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = NOR modifier = embargo }
+add_opinion_modifier = { target = CRN modifier = embargo }
+add_opinion_modifier = { target = MAD modifier = embargo }
+add_opinion_modifier = { target = MZB modifier = embargo }
+add_opinion_modifier = { target = ANG modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = BRG modifier = embargo }
+add_opinion_modifier = { target = BUL modifier = embargo }
+add_opinion_modifier = { target = ENG modifier = embargo }
+add_opinion_modifier = { target = FRA modifier = embargo }
+add_opinion_modifier = { target = BRT modifier = embargo }
+add_opinion_modifier = { target = IRE modifier = embargo }
+
+
+
+create_country_leader = {
+	name = "Carlo Alberto dalla Chiesa"
+	desc = "POLITICS_GG_CHIESA_DESC"
+	picture = "Portrait_IME_Carlo_Chiesa.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		the_prefect
+
+	}
+}
+
+create_field_marshal = {
+	name = "Carlo Alberto dalla Chiesa"
+	picture = "Portrait_IME_Carlo_Chiesa.dds"
+	traits = {
+		career_officer
+		media_personality
+		organizer
+		inspirational_leader
+		organisational_leader
+	}
+
+	skill = 4
+	id = 1868
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Alberto Fantacone"
+	picture = "Portrait_IME_Alberto_Fantacone.dds"
+	traits = {
+		infantry_officer
+		war_hero
+		trait_mountaineer
+		infantry_leader
+	}
+
+	skill = 3
+	id = 1866
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Goffredo Tonini"
+	picture = "Portrait_IME_Goffredo_Tonini.dds"
+	traits = {
+		infantry_officer
+		war_hero
+		trait_reckless
+		commando
+		paratrooper
+		trickster
+		infantry_leader
+	}
+
+	skill = 4
+	id = 1867
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "IME_mtg_navy_1962"
+	create_equipment_variant = {
+		name = "Aquila Class"
+		type = ship_hull_carrier_3
+		name_group = ITA_AAS
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_armor_carrier_deck
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_armor_carrier_deck
+			mid_1_custom_slot = ship_armor_carrier_deck
+			mid_2_custom_slot = ship_secondaries_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Marconi Class"
+		type = ship_hull_submarine_2
+		name_group = ITA_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Sentinella Class"
+		type = ship_hull_very_light_3
+		name_group = ITA_CR
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_radar_slot = ship_sonar_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_depth_charge_2
+			mid_1_custom_slot = ship_anti_air_4
+			rear_1_custom_slot = ship_light_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Centauro Class"
+		type = ship_hull_more_light_2
+		name_group = ITA_FR
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_battery_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_light_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Andrea Doria Class"
+		type = ship_hull_cruiser_3
+		name_group = ITA_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_light_medium_battery_1
+			mid_2_custom_slot = ship_anti_air_4
+			mid_1_custom_slot = ship_airplane_launcher_2
+			front_1_custom_slot = ship_light_medium_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Impavido Class"
+		type = ship_hull_light_3
+		name_group = ITA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_anti_ship_missile_battery_1
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_anti_ship_missile_battery_1
+		}
+	}
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_naval_oob = IME_navy_1962
+	create_equipment_variant = {
+		name = "Aquila Class"
+		type = carrier_1
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Marconi Class"
+		type = submarine_2
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Sentinella Class"
+		type = corvette_3
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Centauro Class"
+		type = frigate_2
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Impavido Class"
+		type = destroyer_3
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Andrea Doria Class"
+		type = heavy_cruiser_3
+		parent_version = 0
+	}
+}

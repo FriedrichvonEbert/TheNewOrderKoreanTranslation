@@ -1,0 +1,27 @@
+﻿capital = 1297
+set_research_slots = 0
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    socialist = 100
+}
+
+create_country_leader = {
+	name = "Mr. Zollverein Man"
+	desc = "POLITICS_ANARCHY_DESC"
+	picture = "Portrait_GER_Kaiser_Speer.dds"
+	expire = "3000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+set_political_power = 1999
+ 

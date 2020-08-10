@@ -1,0 +1,554 @@
+﻿capital = 131
+
+#vars, this looks stupid, but its needed for econ
+1300 = {
+	set_variable = { state_id = 1300 }
+}	
+127 = {
+	set_variable = { state_id = 127 }
+}	
+126 = {
+	set_variable = { state_id = 126 }
+}	
+125 = {
+	set_variable = { state_id = 125 }
+}	
+129 = {
+	set_variable = { state_id = 129 }
+}	
+128 = {
+	set_variable = { state_id = 128 }
+}	
+123 = {
+	set_variable = { state_id = 123 }
+}	
+122 = {
+	set_variable = { state_id = 122 }
+}	
+130 = {
+	set_variable = { state_id = 130 }
+}	
+132 = {
+	set_variable = { state_id = 132 }
+}	
+131 = {
+	set_variable = { state_id = 131 }
+}	
+885 = {
+	set_variable = { state_id = 885 }
+}	
+338 = {
+	set_variable = { state_id = 338 }
+}	
+777 = {
+	set_variable = { state_id = 777 }
+}	
+1301 = {
+	set_variable = { state_id = 1301 }
+}	
+1296 = {
+	set_variable = { state_id = 1296 }
+}	
+1375 = {
+	set_variable = { state_id = 1375 }
+}	
+121 = {
+	set_variable = { state_id = 121 }
+}	
+1321 = {
+	set_variable = { state_id = 1321 }
+}	
+133 = {
+	set_variable = { state_id = 133 }
+}	
+1320 = {
+	set_variable = { state_id = 1320 }
+}	
+136 = {
+	set_variable = { state_id = 136 }
+}	
+120 = {
+	set_variable = { state_id = 120 }
+}	
+337 = {
+	set_variable = { state_id = 337 }
+}	
+1322 = {
+	set_variable = { state_id = 1322 }
+}	
+119 = {
+	set_variable = { state_id = 119 }
+}	
+1355 = {
+	set_variable = { state_id = 1355 }
+}	
+1315 = {
+	set_variable = { state_id = 1315 }
+}	
+1357 = {
+	set_variable = { state_id = 1357 }
+}	
+113 = {
+	set_variable = { state_id = 113 }
+}	
+1356 = {
+	set_variable = { state_id = 1356 }
+}	
+134 = {
+	set_variable = { state_id = 134 }
+}	
+1358 = {
+	set_variable = { state_id = 1358 }
+}	
+1374 = {
+	set_variable = { state_id = 1374 }
+}	
+135 = {
+	set_variable = { state_id = 135 }
+}	
+1352 = {
+	set_variable = { state_id = 1352 }
+}	
+1353 = {
+	set_variable = { state_id = 1353 }
+}	
+1352 = {
+	set_variable = { state_id = 1352 }
+}	
+1354 = {
+	set_variable = { state_id = 1354 }
+}
+
+set_technology = {
+	electronic_mechanical_engineering = 1
+	transport = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	fighter_1945 = 1
+	CAS_1945 = 1
+	interceptor_1945 = 1
+	advanced_medium_tank = 1
+	MBT_1950 = 1
+	mechanised_infantry3 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	antiair5 = 1
+	basic_infantry_equipment = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+	constructionmethods = 1
+    construction0 = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	basic_encryption = 1
+	improved_encryption = 1
+	basic_decryption = 1
+	improved_decryption = 1
+	radio_detection = 1
+	tac_bomber1 = 1
+	strategic_bomber1 = 1
+	transport_air1 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_at = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	ww2_line_production = 1
+	infantry_weapons_improvements_2 = 1
+	#infantry_aa = 1
+	advanced_light_tank = 1
+	strategic_theorem = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_military_police = 1
+	resource_extraction_methods = 1
+    excavation0 = 1
+	infantry_at2 = 1
+	APC_1950 = 1
+	IFV_1950 = 1
+}
+
+set_research_slots = 3
+set_convoys = 200
+
+set_stability = 0.45
+set_war_support = 0.4
+
+add_ideas = {
+
+	### MINISTERS ###
+	FEN_Claude_Auchinleck_hog
+	FEN_David_Stirling_sec
+	FEN_Bill_Alexander_for
+	FEN_Reg_Birch_eco
+
+	### POLITICAL ###
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+	tno_immigration_closed_borders
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_registered_voting
+	tno_refugees_banned
+
+	### MILITARY ###
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_no_supervision
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_civil_service_deferment
+
+	### ECONOMIC ###
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	construction_level_4
+
+	### SOCIAL ###
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_police
+
+	### SOCIETAL DEVELOPMENT ###
+
+	tno_academic_base_secondary_schooling
+	tno_research_facilities_modern
+	tno_agriculture_mass_mechanized
+	tno_industrial_equipment_manufacturing_lines
+	tno_industrial_expertise_experienced
+	tno_army_professionalism_political_interference
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_25
+}
+
+add_opinion_modifier = { target = GER modifier = embargo }
+add_opinion_modifier = { target = GGR modifier = embargo }
+add_opinion_modifier = { target = BGR modifier = embargo }
+add_opinion_modifier = { target = HGR modifier = embargo }
+add_opinion_modifier = { target = SGR modifier = embargo }
+add_opinion_modifier = { target = CZE modifier = embargo }
+add_opinion_modifier = { target = GGN modifier = embargo }
+add_opinion_modifier = { target = SLO modifier = embargo }
+add_opinion_modifier = { target = UKR modifier = embargo }
+add_opinion_modifier = { target = MCW modifier = embargo }
+add_opinion_modifier = { target = OST modifier = embargo }
+add_opinion_modifier = { target = COG modifier = embargo }
+add_opinion_modifier = { target = CAU modifier = embargo }
+add_opinion_modifier = { target = SER modifier = embargo }
+add_opinion_modifier = { target = DEN modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = NOR modifier = embargo }
+add_opinion_modifier = { target = CRN modifier = embargo }
+add_opinion_modifier = { target = MAD modifier = embargo }
+add_opinion_modifier = { target = MZB modifier = embargo }
+add_opinion_modifier = { target = ANG modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = BRG modifier = embargo }
+add_opinion_modifier = { target = BUL modifier = embargo }
+add_opinion_modifier = { target = ENG modifier = embargo }
+add_opinion_modifier = { target = FRA modifier = embargo }
+add_opinion_modifier = { target = BRT modifier = embargo }
+add_opinion_modifier = { target = IRE modifier = embargo }
+
+add_opinion_modifier = { target = JAP modifier = embargo }
+add_opinion_modifier = { target = CHI modifier = embargo }
+add_opinion_modifier = { target = PHI modifier = embargo }
+add_opinion_modifier = { target = INS modifier = embargo }
+add_opinion_modifier = { target = BUR modifier = embargo }
+add_opinion_modifier = { target = SIA modifier = embargo }
+add_opinion_modifier = { target = CAM modifier = embargo }
+add_opinion_modifier = { target = LAO modifier = embargo }
+add_opinion_modifier = { target = VIN modifier = embargo }
+add_opinion_modifier = { target = SYO modifier = embargo }
+add_opinion_modifier = { target = HUI modifier = embargo }
+add_opinion_modifier = { target = GXC modifier = embargo }
+add_opinion_modifier = { target = MAN modifier = embargo }
+add_opinion_modifier = { target = SIC modifier = embargo }
+add_opinion_modifier = { target = GUZ modifier = embargo }
+add_opinion_modifier = { target = SHX modifier = embargo }
+add_opinion_modifier = { target = BEN modifier = embargo }
+add_opinion_modifier = { target = GNG modifier = embargo }
+add_opinion_modifier = { target = YUN modifier = embargo }
+add_opinion_modifier = { target = BHU modifier = embargo }
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 18
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 54
+    despotism = 28
+    fascism = 0
+}
+
+
+create_country_leader = {
+	name = "Claude Auchinleck"
+	desc = "POLITICS_CLAUDE_AUCHINLECK_DESC"
+	picture = "Portrait_England_Claude_Auchinleck.dds"
+	expire = "1989.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "David Stirling"
+	desc = "POLITICS_David_Stirling_DESC"
+	picture = "Portrait_England_David_Stirling.dds"
+	expire = "1985.1.1"
+	ideology = despotism_subtype
+	traits = {
+		
+	}
+}
+
+
+create_country_leader = {
+	name = "Jeffrey Hamm"
+	desc = "politics_Jeffrey_Ham_desc"
+	picture = "Portrait_England_Claude_Auchinleck.dds"
+	expire = "1989.1.1"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bill Alexander"
+	desc = "POLITICS_WILLIAM_ALEXANDER_DESC"
+	picture = "Portrait_England_Bill_Alexander.dds"
+	expire = "1985.1.1"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Heinrich HMMLR"
+	desc = "POLITICS_HENRY_HEAVENLY_DESC"
+	picture = "Portrait_England_Heinrich_HMMLR.dds"
+	expire = "1985.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Richard Hull"
+	picture = "Portrait_Richard_Hull.dds"
+	traits = { infantry_officer infantry_leader skilled_staffer armor_officer old_guard commando }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+	id = 624
+}
+
+create_field_marshal = {
+	name = "Bill Alexander"
+	picture = "Portrait_England_Bill_Alexander.dds"
+	traits = { politically_connected war_hero old_guard commando }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+	id = 622
+}
+
+create_field_marshal = {
+	name = "Cyril Lloyd"
+	picture = "Portrait_Cyril_Lloyd.dds"
+	traits = { politically_connected infantry_officer trait_cautious desert_fox }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+	id = 623
+}
+
+create_field_marshal = {
+	name = "David Stirling"
+	picture = "Portrait_England_David_Stirling.dds"
+	traits = { commando trickster }
+	skill = 4 
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 621
+}
+
+###Generals
+
+create_corps_commander = {
+	name = "Robert Bray"
+	picture = "Portrait_England_Robert_Bray.dds"
+	traits = { brilliant_strategist armor_officer hill_fighter }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 5
+	id = 625
+}
+
+
+create_corps_commander = {
+	name = "Douglas Kendrew"
+	picture = "General_Douglas_Kendrew.dds"
+	traits = { trait_cautious old_guard infantry_officer commando}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+	id = 627
+}
+
+
+create_corps_commander = {
+	name = "Frank Kitson"
+	picture = "General_Frank_Kitson.dds"
+	traits = { trait_reckless career_officer urban_assault_specialist }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	id = 626
+}
+
+create_corps_commander = {
+	name = "John Hackett"
+	picture = "General_John_Hackett.dds"
+	traits = { brilliant_strategist old_guard armor_officer panzer_leader}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+	id = 1628
+}
+
+create_corps_commander = {
+	name = "George William Symes"
+	picture = "Portrait_England_George_William_Symes.dds"
+	traits = { infantry_leader infantry_officer inflexible_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 1629
+}
+
+create_corps_commander = {
+	name = "Richard McCreery"
+	picture = "Portrait_England_Richard_McCreery.dds"
+	traits = { brilliant_strategist armor_officer cavalry_officer panzer_leader}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
+	id = 1634
+}
+
+
+create_corps_commander = {
+	name = "James Klugmann"
+	picture = "General_James_Klugmann.dds"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+	id = 1630
+}
+
+create_corps_commander = {
+	name = "Peter Kerrigan"
+	picture = "General_Peter_Kerrigan.dds"
+	traits = { politically_connected infantry_officer trait_mountaineer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+	id = 1631
+}
+
+#####Admirals
+
+create_navy_leader = {
+	name = "Bruce Fraser"
+	picture = "Admiral_Bruce_Fraser.dds"
+	traits = { old_guard battleship_adherent ironside fleet_protector }
+
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
+	id = 1632
+}
+
+
+create_navy_leader = {
+	name = "Fred Copeman"
+	picture = "Admiral_Fred_Copeman.dds"
+	traits = { gunnery_expert bold fly_swatter air_controller }
+
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 3
+	id = 1633
+}
+

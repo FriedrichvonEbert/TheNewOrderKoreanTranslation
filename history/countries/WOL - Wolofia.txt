@@ -1,0 +1,243 @@
+﻿capital = 830
+
+add_ideas = {
+	WEST_AFRICA_idea_terror_bombing
+	WOL_idea_wolofian_stiffness
+	WOL_idea_haven_africa
+
+	WOL_Abdou_Diouf_dep
+	WOL_Aime_Cesaire_for
+	WOL_Ibrahima_Sarr_eco
+	WOL_Jean_Alfred_Diallo_mil
+}
+
+
+set_technology = {
+	##INFANTRY##
+ 	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+ 	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	#infantry_aa = 1
+	#infantry_aa2 = 1
+	##SUPPORT##
+ 	tech_support = 1
+ 	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ARTY##
+ 	artillery4 = 1
+	antiair5 = 1
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+
+	IFV_1950 = 1
+	
+	MBT_1950 = 1
+
+	##AIRCRAFT##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	CAS_1945 = 1
+	##HEAVY AIRCRAFT##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+    construction0 = 1
+	military_construction0 = 1
+}
+
+oob = "WOL_1962"
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 30
+    social_liberal = 24
+    market_liberal = 0
+    social_conservative = 17
+    authoritarian_democrat = 16
+    despotism = 13
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Frantz Fanon"
+	desc = "POLITICS_FRANTZ_FANON_DESC"
+	picture = "Portrait_Wolofia_Frantz_Fanon.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Cheikh Anta Diop"
+	desc = "POLITICS_CHEIKH_ANTA_DIOP_DESC"
+	picture = "Portrait_Wolofia_Cheikh_Anta_Diop.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Léopold Sédar Senghor"
+	desc = "POLITICS_LEOPOLD_SEDAR_SENGHOR_DESC"
+	picture = "Portrait_Wolofia_Leopold_Sedar_Senghor.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abdoulaye Wade"
+	desc = "POLITICS_ABDOULAYE_WADE_DESC"
+	picture = "Portrait_Wolofia_Abdoulaye_Wade.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Valdiodio N'diaye"
+	desc = "POLITICS_VALDIODIO_NDIAYE_DESC"
+	picture = "Portrait_Wolofia_Valdiodio_Ndiaye.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mamadou Dia"
+	desc = "POLITICS_MAMADOU_DIA_DESC"
+	picture = "Portrait_Wolofia_Mamadou_Dia.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "Jean Alfred Diallo"
+    picture = "Portrait_Wolofia_Jean_Alfred_Diallo.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Amadou Abdoulaye Dieng"
+    picture = "Portrait_Wolofia_Amadou_Abdoulaye_Dieng.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Ameth Fall"
+    picture = "Portrait_Wolofia_Ameth_Fall.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Idrissa Fall"
+    picture = "Portrait_Wolofia_Idrissa_Fall.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Daouda Niang"
+    picture = "Portrait_Wolofia_Daouda_Niang.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Mamadou Niang"
+    picture = "Portrait_Wolofia_Mamadou_Niang.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Joseph Louis Tavarez de Souza"
+    picture = "Portrait_Wolofia_Joseph_Louis_Tavarez_de_Souza.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

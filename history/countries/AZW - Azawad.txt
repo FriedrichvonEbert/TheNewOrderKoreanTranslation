@@ -1,0 +1,134 @@
+﻿capital = 1228
+
+oob = "AZW_1962"
+
+add_ideas = {
+	WEST_AFRICA_idea_obliterated_infrastructures
+	#WEST_AFRICA_idea_tuareg_heritage
+	AZW_idea_saharan_nomads
+
+	AZW_Intalla_ag_Attaher_hog
+	AZW_Bey_ag_Akhamouk_for
+	AZW_Zodi_Ikhia_eco
+	AZW_Intalla_ag_Attaher_sec
+}
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 6
+    authoritarian_democrat = 23
+    despotism = 68
+    fascism = 3
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Zodi Ikhia"
+	desc = "POLITICS_ZODI_IKHIA_DESC"
+	picture = "Portrait_Azawad_Zodi_Ikhia.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Intalla ag Attaher"
+	desc = "POLITICS_INTALLA_AG_ATTAHER_DESC"
+	picture = "Portrait_Azawad_Intalla_Ag_Attaher.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bey ag Akhamouk"
+	desc = "POLITICS_BEY_AG_AKHAMOUK_DESC"
+	picture = "Portrait_Azawad_Bey_ag_Akhamouk.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hamid Algabid"
+	desc = "POLITICS_HAMID_ALGABID_DESC"
+	picture = "Portrait_Azawad_Hamid_Algabid.dds"
+	expire = "1965.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "Bey ag Akhamouk"
+    picture = "Portrait_Azawad_Bey_ag_Akhamouk.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+    name = "Intalla ag Attaher"
+    picture = "Portrait_Azawad_Intalla_Ag_Attaher.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Zeïd ag Attaher"
+    picture = "Portrait_Azawad_Zeid_ag_Attaher.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Alladi ag Alla"
+    picture = "Portrait_Azawad_Alladi_ag_Alla.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Hadj Moussa ag Akhamouk"
+    picture = "Portrait_Azawad_Hadj_Moussa_ag_Akhamouk.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

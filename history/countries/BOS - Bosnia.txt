@@ -1,0 +1,122 @@
+﻿capital = 1277
+
+oob = "BOS_1962"
+
+add_ideas = {
+	
+	#political#
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_pluralism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_elite_voting
+	tno_refugees_open
+	
+	#military#
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_educational_deferment
+	
+	#economic#
+	tno_trade_laws_export_focus
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	
+	#social#
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_segregation
+	tno_security_security_service
+
+	#societal development#
+	tno_academic_base_tertiary_schooling
+	tno_research_facilities_modern
+	tno_agriculture_modern
+	tno_industrial_equipment_modern
+	tno_industrial_expertise_experienced
+	tno_army_professionalism_political_interference
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_15
+	
+	#ministers#
+	BOS_Mehmed_Handzic_hog
+	BOS_Salih_Behmen_eco
+	BOS_Omer_Behmen_sec
+	BOS_Esad_Karadozovic_for
+}
+
+set_technology = {
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	infantry_weapons_1 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+}
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 12
+    social_liberal = 15
+    market_liberal = 0
+    social_conservative = 48
+    authoritarian_democrat = 15
+    despotism = 10
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Alija Izetbegović"
+	desc = "POLITICS_Izetbegovic_DESC"
+	picture = "Alija_Izetbegovic.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}

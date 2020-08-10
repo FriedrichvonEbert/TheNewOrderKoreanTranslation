@@ -1,0 +1,99 @@
+﻿capital = 741
+
+oob = "CAM_1962"
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1960.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 8
+    socialist = 8
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 15
+    authoritarian_democrat = 39
+    despotism = 30
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+
+create_country_leader = {
+	name = "Norodom Sihanouk"
+	picture = "Portrait_Cambodia_Norodom_Sihanouk.dds"
+	expire = "1999.12.12"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Pol Pot"
+	picture = "Portrait_Cambodia_Pol_Pot.dds"
+	expire = "1999.12.12"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+add_ideas = {
+	#Country#
+	Sphere_Fully_Dependent
+	#POLITICAL
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_registered_voting
+	tno_refugees_vetted_entry
+	#MILITARY
+	tno_conscription_one_year_draft
+	tno_women_military_assistance
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_religious_deferment
+	#SOCIAL
+	tno_safety_no_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_data_cohesion
+	#ECONOMIC
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_child_labor_restricted
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+	#DEVELOPMENT#
+	tno_poverty_rate_80
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_manufacturing_lines
+	tno_agriculture_subsistence
+	tno_research_facilities_basic
+	tno_academic_base_mass_illiteracy
+	tno_army_professionalism_cronyism
+	tno_nuclear_stockpile_none
+	#MINISTERS
+	CAM_Norodom_Kantol_hog
+	CAM_Son_Sann_eco
+	CAM_Nhiek_Tioulong_for
+	CAM_In_Tam_sec
+}

@@ -1,0 +1,42 @@
+﻿capital = 2
+
+oob = "MED_1962"
+
+set_stability = 0.8
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no ##suspended through duration of war, which is handled via event
+}
+
+create_country_leader = {
+    name = "Theodor Hoffmann"
+    desc = "POLITICS_Theodor_HoffmannL_DESC"
+    picture = "portrait_JAP_George_W_Bush.dds"
+    expire = "1984.10.28"
+    ideology = national_socialism_subtype
+    traits = {
+    }
+}
+
+set_popularities = {
+    communist = 10
+    ultranational_socialism = 0
+    socialist = 10
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 20
+    national_socialism = 30
+    fascism = 20
+    burgundian_system = 10
+}
+
+#HERE LIES THE COUNTRY OF MEDITTERANEA, ALSO KNOWN AS RK MITTLEMEER. IT IS A TESTAMENT TO EVERYTHING BAD IN THIS WORLD, AND WHY YOU SHOULD NEVER DRAIN AN ENTIRE OCEAN. REST IN PEACE 1962 - 2017
+#YOU’RE WITH GOD NOW, MEDITTERANEA
+#signed by mop, the greatest developer of all time
+#HIMMLER WAS HERE

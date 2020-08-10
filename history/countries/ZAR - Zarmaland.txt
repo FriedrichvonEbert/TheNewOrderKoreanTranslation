@@ -1,0 +1,68 @@
+﻿capital = 831
+
+oob = "YOR_1962"
+
+add_ideas = {
+	WEST_AFRICA_idea_obliterated_infrastructures
+	ZAR_idea_warlord_state
+	ZAR_idea_deficient_administration
+
+	ZAR_Seyni_Kountche_hog
+	ZAR_Seyni_Kountche_for
+	ZAR_Seyni_Kountche_eco
+	ZAR_Ali_Saibou_sec
+}
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 10
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 20
+    despotism = 12
+    fascism = 58
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Seyni Kountché"
+	desc = "POLITICS_SEYNI_KOUNTCHE_DESC"
+	picture = "Portrait_Zarmaland_Seyni_Kountche.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "Seyni Kountché"
+    picture = "Portrait_Zarmaland_Seyni_Kountche.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Ali Saibou"
+    picture = "Portrait_Zarmaland_Ali_Saibou.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

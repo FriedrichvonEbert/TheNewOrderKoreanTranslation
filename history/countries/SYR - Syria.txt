@@ -1,0 +1,184 @@
+﻿capital = 554
+
+oob = "SYR_1962"
+
+set_stability = 0.65
+set_war_support = 0.25
+set_research_slots = 3
+
+set_technology = {
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+
+	gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+	
+	##INFANTRY##
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	marines = 1
+	tech_mountaineers = 1
+	paratroopers = 1
+	
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+	APC_1960 = 1
+
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	IFV_1950_basic_armor = 1
+	#IFV_1950_basic_engine = 1
+	
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+	
+	##ARTY##
+	antiair5 = 1
+	antiair_1950 = 1
+	SPAA_1950 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	artillery_1950_soft_attack = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+	#SPART_1950_speed = 1
+	
+	##LAND DOCTRINE##
+	strategic_theorem = 1
+	
+	##NAVAL##
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	basic_submarine = 1
+	improved_submarine = 1
+	transport = 1
+	
+	##NAVAL DOCTRINE##
+	
+	##HELICOPTERS##
+	very_early_helicopter = 1
+	early_helicopter = 1
+	
+	##LIGHT AIR##
+	early_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	fighter_1945 = 1
+	fighter_1950 = 1
+	CAS_1945 = 1
+	CAS_1950 = 1
+	
+	##HEAVY AIR##
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	computing_machine_1950 = 1
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	
+	##INDUSTRY##
+	##INDUSTRY TECHS ARE WIP##
+}
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1958.1.8"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 1
+    ultranational_socialism = 0
+    socialist = 2
+    social_democrat = 7
+    social_liberal = 10
+    market_liberal = 0
+    social_conservative = 10
+    authoritarian_democrat = 5
+    despotism = 55
+    fascism = 5
+    national_socialism = 5
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Hafez Al-Assad"
+	desc = "POLITICS_HEFAZ_AL_ASSAD_DESC"
+	picture = "Portrait_Syria_Hafez_Al_Assad.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ziad al-Hariri"
+	desc = "POLITICS_HEFAZ_AL_ASSAD_DESC"
+	picture = "Portrai_Syria_Ziad_al-Hariri.dds"
+	expire = "1985.1.1"
+	ideology = despotism_subtype
+	traits = {	
+	}
+}

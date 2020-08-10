@@ -1,0 +1,33 @@
+﻿capital = 417
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1962.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 60
+	national_socialism = 40
+    burgundian_system = 0
+}
+create_country_leader = {
+	name = "Davud Monshizadeh"
+	desc = "POLITICS_DAVUD_MONSHIZADEH_DESC"
+	picture = "Portrait_Persia_Davud_Monshizadeh.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = {
+		
+	}
+}

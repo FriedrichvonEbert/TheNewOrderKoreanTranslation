@@ -1,0 +1,66 @@
+﻿capital = 691
+
+set_cosmetic_tag = TRI_FIXED
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1961.5.16"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 0
+    socialist = 4
+    social_democrat = 37
+    social_liberal = 8
+    market_liberal = 0
+    social_conservative = 51
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Eric Williams"
+	desc = "POLITICS_ERIC_WILLIAMS_DESC"
+	picture = "Portrait_TRI_Eric_Williams.dds"
+	expire = "1971.10.28"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rudranath Capilideo"
+	desc = "POLITICS_RUDRANATH_CAPILIDEO_DESC"
+	picture = "Portrait_TRI_Rubranath_Capilideo.dds"
+	expire = "1971.10.28"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bhadese Maraj"
+	desc = "POLITICS_BHADESE_MARAJ_DESC"
+	picture = "Portrait_TRI_Bhadese_Maraj.dds"
+	expire = "1971.10.28"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tubal Uriah Butler"
+	desc = "POLITICS_TUBAL_URIAH_BUTLER_DESC"
+	picture = "Portrait_TRI_Tubal_Uriah_Butler.dds"
+	expire = "1971.10.28"
+	ideology = socialist_subtype
+	traits = {
+	}
+}

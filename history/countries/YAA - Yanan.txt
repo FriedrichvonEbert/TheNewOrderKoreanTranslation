@@ -1,0 +1,175 @@
+﻿capital = 905
+oob = "YAA_1962"
+set_technology = {
+ 
+    ##INFANTRY##
+     # infantry_equipment_0 = 1
+     infantry_weapons_1 = 1
+     infantry_weapons_2 = 1
+     infantry_weapons_improvements_1 = 1
+     infantry_weapons_improvements_2 = 1
+     basic_infantry_equipment = 1
+     support_weapons = 1
+     infantry_at = 1
+     motorized_infantry = 1
+     motorized_rocket_unit = 1
+     motorized_infantry_1 = 1
+     marines = 1
+
+     ##SUPPORT##
+     tech_support = 1
+     tech_engineers = 1
+     tech_engineers_flamethrowers_1 = 1
+     tech_engineers2 = 1
+     tech_engineers_flamethrowers_2 = 1
+     tech_recon = 1
+     tech_recon2 = 1
+     tech_military_police = 1
+     tech_military_police2 = 1
+     tech_military_police3 = 1
+     tech_maintenance_company = 1
+     tech_maintenance_company2 = 1
+     tech_field_hospital = 1
+     tech_field_hospital2 = 1
+     tech_logistics_company = 1
+     tech_signal_company = 1
+     tech_signal_company2 = 1
+
+     ##ARMOR##
+     mechanised_infantry3 = 1
+     advanced_light_tank = 1
+    advanced_medium_tank = 1
+
+     ##HELICOPTERS##
+	helicopter_engines = 1
+     very_early_helicopter = 1
+     early_helicopter = 1
+ 
+    ##LIGHT AIR##
+     early_fighter = 1
+     interceptor_1945 = 1
+     fighter_1945 = 1
+     CAS_1945 = 1
+     
+##HEAVY AIR##
+  tac_bomber1 = 1
+     tac_air_1945 = 1
+     strategic_bomber1 = 1
+     heavy_air_1945 = 1
+     transport_air1 = 1
+     transport_air_1945 = 1
+##ENGINEERING##
+
+     electronic_mechanical_engineering = 1
+     radio = 1
+     radio_detection = 1
+     decimetric_radar = 1
+     centimetric_radar = 1
+     mechanical_computing = 1
+     computing_machine = 1
+     basic_encryption = 1
+     basic_decryption = 1
+     improved_computing_machine = 1
+     improved_encryption = 1
+     improved_decryption = 1
+     advanced_computing_machine = 1
+     advanced_encryption = 1
+
+    ##INDUSTRY##
+    ww2_line_production = 1
+    mass_production_1 = 1
+    countrywide_improvements = 1
+    concentrated_industry1 = 1
+    
+    constructionmethods = 1
+    construction0 = 1
+    resource_extraction_methods = 1
+    excavation0 = 1
+    military_construction0 = 1
+    batch_production_1 = 1
+}
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    national_socialism = 2
+    socialist = 4
+    social_democrat = 2
+    social_liberal = 4
+    market_liberal = 0
+    social_conservative = 4
+    authoritarian_democrat = 2
+    despotism = 75
+    fascism = 5
+    ultranational_socialism = 2
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Liu Wenhui"
+	desc = "POLITICS_LIU_WENHUI_DESC"
+	picture = "Portrait_Ya_an_Liu_Wenhui.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	#Political
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_state_controlled
+	tno_immigration_open_immigration
+	tno_slavery_corvee
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_no_voting
+	tno_refugees_skilled
+
+	#Military
+	tno_conscription_service_by_requirement 
+	tno_women_banned
+	tno_military_supervision_no_supervision
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_racial_integration_none
+	tno_draft_exemptions_none
+
+	#Economic
+	tno_trade_laws_export_focus
+	tno_economic_focus_demilitarized_economy
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_child_labor_legal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+
+	#Social
+	tno_safety_no_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_police
+
+	#Societal Development
+	tno_poverty_rate_50
+	tno_army_professionalism_reluctant_conscripts
+	tno_industrial_expertise_incompetent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_centralized
+	tno_research_facilities_basic
+	tno_academic_base_mass_illiteracy
+}

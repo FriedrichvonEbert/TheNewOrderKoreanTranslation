@@ -1,0 +1,35 @@
+﻿capital = 718
+
+oob = "CAF_1962"
+
+set_politics = {	
+	ruling_party = communist
+	last_election = "1933.5.17"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 70
+    ultranational_socialism = 0
+    socialist = 15
+    social_democrat = 15
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Christophe Gbenye"
+	desc = "POLITICS_PATRICE_LUMUMBA_DESC"
+	picture = "Portrait_Congo_Christophe_Gbenye.dds"
+	expire = "1999.1.23"
+	ideology = communist_subtype
+	traits = {
+		
+	}
+}

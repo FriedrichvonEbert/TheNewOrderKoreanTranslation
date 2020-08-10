@@ -1,0 +1,172 @@
+﻿capital = 856
+
+oob = "KST_1962"
+
+add_ideas = {
+	##STANDARD##
+	RUS_terror_bombing
+	RUS_warlord_manpower
+	KST_free_city
+	##MINISTERS##
+	KST_Vladimir_Kornilov_hog
+	KST_Mikhail_Lapin_for
+	KST_Gennady_Guzanov_eco
+	KST_Nikifor_Bolshakov_sec
+	##POLITICAL LAWS##
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_state_controlled
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+	##MILITARY LAWS###
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_police
+	##ECONOMIC LAWS##
+	tno_trade_laws_export_focus
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_trinket_pensions
+	tno_unemployment_trinket_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_25
+	tno_army_professionalism_reluctant_conscripts
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_primary_schooling
+}
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	motorized_infantry_1 = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_recon = 1
+	tech_military_police = 1
+	##ARTY##
+	artillery4 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	countrywide_improvements = 1
+	constructionmethods = 1
+	construction0 = 1
+	construction1 = 1
+}
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 4
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 0
+	social_democrat = 5
+	social_liberal = 21
+	market_liberal = 0
+	social_conservative = 64
+	authoritarian_democrat = 6
+	despotism = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Sergei Bolshakov"
+	desc = "POLITICS_SERGEI_BOLSHAKOV_DESC"
+	picture = "Portrait_Kostroma_Sergei_Bolshakov.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Nikifor Bolshakov"
+	picture = "Portrait_Kostroma_Nikifor_Bolshakov.dds"
+	traits = { urban_assault_specialist }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3451
+}
+
+create_corps_commander = {
+	name = "Nikolai Artemiev"
+	picture = "Portrait_Kostroma_Nikolai_Artemiev.dds"
+	traits = { winter_specialist ranger }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3452
+}
+
+create_corps_commander = {
+	name = "Gennady Guzanov"
+	picture = "Portrait_Kostroma_Gennady_Guzanov.dds"
+	traits = { trait_engineer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3453
+}

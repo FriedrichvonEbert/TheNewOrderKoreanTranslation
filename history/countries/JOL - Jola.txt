@@ -1,0 +1,112 @@
+﻿capital = 701
+
+add_ideas = {
+	WEST_AFRICA_idea_terror_bombing
+	JOL_idea_under_shadow_wolofia
+	JOL_idea_home_exiled_paigc
+
+	JOL_Assan_Musa_Camara_hog
+	JOL_Augustin_Diamacoune_Senghor_for
+	JOL_Daniel_Cabou_eco
+	JOL_Sheriff_Mustapha_Dibba_sec
+}
+
+oob = "JOL_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 22
+    social_liberal = 6
+    market_liberal = 0
+    social_conservative = 11
+    authoritarian_democrat = 23
+    despotism = 30
+    fascism = 8
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Luís Cabral"
+	desc = "POLITICS_LUIS_CABRAL_DESC"
+	picture = "Portrait_Jola_Luis_Cabral.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "João Bernardo Vieira"
+	desc = "POLITICS_JOAO_BERNARDO_VIEIRA_DESC"
+	picture = "Portrait_Jola_Joao_Bernardo_Vieira.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Dawda Jawara"
+	desc = "POLITICS_DAWDA_JAWARA_DESC"
+	picture = "Portrait_Jola_Dawda_Jawara.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pierre Sarr N'Jie"
+	desc = "POLITICS_ PIERRE_SARR_NJIE_DESC"
+	picture = "Portrait_Jola_Pierre_Sarr_NJie.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Émile Badiane"
+	desc = "POLITICS_EMILE_BEDIANE_DESC"
+	picture = "Portrait_Jola_Emile_Badiane.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal  = {
+    name = "Émile Badiane"
+    picture = "Portrait_Ewe_Emile_Badiane.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Mustapha Danso"
+    picture = "Portrait_Ewe_Mustapha_Danso.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

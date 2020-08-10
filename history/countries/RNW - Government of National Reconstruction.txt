@@ -1,0 +1,188 @@
+﻿capital = 55
+
+add_ideas = {
+    RNW_Eduard_Wagner_hog
+	RNW_Theodor_Tolsdorff_sec
+	RNW_Otto_Ernst_Remer_for
+	RNW_Kurt_Schmucker_eco
+
+	#Construction Level
+	construction_level_7
+}
+
+set_politics = {
+	ruling_party = ultranational_socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    fascism = 0
+    national_socialism = 20
+    ultranational_socialism = 80
+    burgundian_system = 0
+}
+create_country_leader = {
+	name = "Ferdinand Schörner"
+	desc = "POLITICS_FERDINAND_SCHORNER_DESC"
+	picture = "Portrait_Germany_Ferdinand_Schorner.dds"
+	expire = "1973.7.2"
+	ideology = ultranational_socialism_subtype
+}
+
+create_corps_commander = { 
+	name = "Harald von Hirschfeld"
+	picture = "Portrait_GER_Harald_von_Hirschfeld.dds"
+	traits = { harsh_leader trait_mountaineer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 111
+}
+
+create_corps_commander = { 
+	name = "Otto Ernst Remer"
+	picture = "Portrait_GER_Otto_Ernst_Remer.dds"
+	traits = { infantry_leader urban_assault_specialist }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 112
+}
+
+create_corps_commander = { 
+	name = "Theodor Tolsdorff"
+	picture = "Portrait_GER_Theodor_Tolsdorff.dds"
+	traits = { trait_reckless panzer_leader winter_specialist }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 114
+}
+
+create_corps_commander = { 
+	name = "Werner Mummert"
+	picture = "Portrait_GER_Werner_Mummert.dds"
+	traits = { trait_reckless panzer_leader trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 115
+}
+
+#create_field_marshal = { 
+#	name = "Ferdinand Schorner"
+#	picture = "Portrait_Germany_Ferdinand_Schorner.dds"
+#	traits = { war_hero harsh_leader organizer logistics_wizard }
+#	skill = 5
+#	attack_skill = 4
+#	defense_skill = 3
+#	planning_skill = 5
+#	logistics_skill = 3
+#	id = 122
+#}
+
+#create_field_marshal = { 
+#	name = "Eduard Wagner"
+#	picture = "Portrait_GER_Eduard_Wagner.dds"
+#	traits = { old_guard organizer logistics_wizard thorough_planner }
+#	skill = 4
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 3
+#	logistics_skill = 5
+#	id = 81
+#}
+
+#create_corps_commander = { 
+#	name = "Friedrich August Freiherr von der Heydte"
+#	picture = "Portrait_GER_Friedrich_August_Freiherr_von_der_Heydte.dds"
+#	traits = { media_personality commando paratrooper }
+#	skill = 3
+#	attack_skill = 3
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 1
+#	id = 98
+#}
+
+#create_corps_commander = { 
+#	name = "Gerhard von Schwerin"
+#	picture = "Portrait_GER_Gerhard_von_Schwerin.dds"
+#	traits = { commando desert_fox winter_specialist }
+#	skill = 4
+#	attack_skill = 4
+#	defense_skill = 3
+#	planning_skill = 2
+#	logistics_skill = 2
+#	id = 102
+#}
+
+#create_corps_commander = { 
+#	name = "Erich Bärenfänger"
+#	picture = "Portrait_GER_Erich_Barenfanger.dds"
+#	traits = { trait_reckless urban_assault_specialist }
+#	skill = 2
+#	attack_skill = 1
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 1
+#	id = 119
+#}
+
+create_navy_leader = {
+    name = "Heinrich Liebe"
+    picture = "Portrait_GER_Heinrich_Liebe.dds"
+    traits = { seawolf }
+    skill = 3
+	id = 153
+}
+
+create_navy_leader = {
+    name = "Bernhard Rogge"
+    picture = "Portrait_GER_Bernhard_Rogge.dds"
+    traits = { old_guard_navy superior_tactician }
+    skill = 3
+	id = 15400
+}
+
+create_navy_leader = {
+    name = "Heinz Kühnle"
+    picture = "Portrait_GER_Heinz_Kuhnle.dds"
+    traits = { spotter }
+    skill = 2
+	id = 15500
+}
+
+create_navy_leader = {
+    name = "Rolf Johannesson"
+    picture = "Portrait_GER_Rolf_Johannesson.dds"
+    traits = { ironside }
+    skill = 2
+	id = 156
+}
+
+create_navy_leader = {
+    name = "Kurt Weyher"
+    picture = "Portrait_GER_Kurt_Weyher.dds"
+    traits = { blockade_runner }
+    skill = 2
+	id = 157
+}

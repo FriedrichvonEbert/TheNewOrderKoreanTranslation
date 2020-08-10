@@ -1,0 +1,171 @@
+﻿capital = 828
+
+SUS = {
+ 	set_cosmetic_tag = SUS_FIXED
+}
+
+add_ideas = {
+	WEST_AFRICA_idea_terror_bombing
+	SUS_idea_guinean_democracy
+	SUS_idea_home_exiled_paigc
+
+	SUS_Louis_Lansana_Beavogui_hog
+	SUS_Ismael_Toure_for
+	SUS_NFamara_Keita_eco
+	SUS_Noumandian_Keita_sec
+}
+
+oob = "SUS_1962"
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 34
+    social_liberal = 13
+    market_liberal = 0
+    social_conservative = 16
+    authoritarian_democrat = 25
+    despotism = 10
+    fascism = 2
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Amílcar Cabral"
+	desc = "POLITICS_AMILCAR_CABRAL_DESC"
+	picture = "Portrait_Susu_Amilcar_Cabral.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ahmed Sékou Touré"
+	desc = "POLITICS_AHMED_SEKOU_TOURE_DESC"
+	picture = "Portrait_Susu_Ahmed_Sekou_Toure.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Saïfoulaye Diallo"
+	desc = "POLITICS_SAIFOULAYE_DIALLO_DESC"
+	picture = "Portrait_Susu_Saifoulaye_Diallo.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Louis Lansana Beavogui"
+	desc = "POLITICS_LOUIS_LANSANA_BEAVOGUI_DESC"
+	picture = "Portrait_Susu_Louis_Lansana_Beavogui.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Noumandian Keita"
+	desc = "POLITICS_NOUMANDIAN_KEITA_DESC"
+	picture = "Portrait_Susu_Noumandian_Keita.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Diarra Traoré"
+	desc = "POLITICS_ Diarra Traoré _DESC"
+	picture = "Portrait_Susu_Diarra_Traore.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal  = {
+    name = "Noumandian Keita"
+    picture = "Portrait_Susu_Noumandian_Keita.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal  = {
+    name = "Sidy Mahmoud Keita"
+    picture = "Portrait_Susu_Sidy_Mahmoud_Keita.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Amílcar Cabral"
+    picture = "Portrait_Susu_Amilcar_Cabral.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Lansana Diané"
+    picture = "Portrait_Susu_Lansana_Diane.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Siaka Touré"
+    picture = "Portrait_Susu_Siaka_Toure.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Thierno Ibrahima Diallo"
+    picture = "Portrait_Susu_Thierno_Ibrahima_Diallo.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

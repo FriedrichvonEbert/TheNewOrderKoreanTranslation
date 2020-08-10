@@ -1,0 +1,53 @@
+﻿capital = 296
+
+add_ideas = {
+	GNB_Francisco_Mendes_dep
+	GNB_Victor_Saude_for
+	GNB_Constantino_Teixeira_eco
+	GNB_Francisco_Mendes_mil
+}
+
+oob = "GNB_1962"
+
+set_politics = {	
+	ruling_party = socialist
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 19
+    ultranational_socialism = 0
+    socialist = 53
+    social_democrat = 16
+    social_liberal = 12
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Amílcar Cabral"
+	desc = "POLITICS_AMILCAR_CABRAL_DESC"
+	picture = "Portrait_GNB_Amilcar_Cabral.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+    name = "Amílcar Cabral"
+    picture = "Portrait_GNB_Amilcar_Cabral.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

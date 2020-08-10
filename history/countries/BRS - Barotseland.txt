@@ -1,0 +1,35 @@
+﻿capital = 1052
+
+oob = "BFR_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 20
+    despotism = 80
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Mwanawina III"
+	desc = "POLITICS_OJUKWU_DESC"
+	picture = "Portrait_Barotseland_Mwanawina_III.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,232 @@
+﻿capital = 827
+
+add_ideas = {
+	WEST_AFRICA_idea_terror_bombing
+	EWE_idea_language_barrier
+	EWE_idea_bloated_high_command
+
+	EWE_Edward_Akufo_Addo_hog
+	EWE_Ebenezer_Ako_Adjei_for
+	EWE_Emmanuel_Obetsebi_Lamptey_eco
+	EWE_Ignatius_Kutu_Acheampong_sec
+}
+
+oob = "EWE_1962"
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 4
+    authoritarian_democrat = 68
+    despotism = 15
+    fascism = 13
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Kwame Nkrumah"
+	desc = "POLITICS_KWAME_NKRUMAH_DESC"
+	picture = "Portrait_Gbeland_Kwame_Nkrumah.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edward Akufo-Addo"
+	desc = "POLITICS_EDWARD_AKUFO_ADDO_DESC"
+	picture = "Portrait_Gbeland_Edward_Akufo_Addo.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sylvanus Olympio"
+	desc = "POLITICS_SYLVANUS_OLYMPIO_DESC"
+	picture = "Portrait_Gbeland_Sylvanus_Olympio.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nicolas Grunitzky"
+	desc = "POLITICS_NICOLAS_GRUNITZKY_DESC"
+	picture = "Portrait_Gbeland_Nicolas_Grunitzky.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Komla Agbeli Gbedemah"
+	desc = "POLITICS_KOMLA_AGBELI_GBEDEMAH_DESC"
+	picture = "Portrait_Ewe_Komla_Agbeli_Gbedemah.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fred Akuffo"
+	desc = "POLITICS_FRED_AKUFFO_DESC"
+	picture = "Portrait_Ewe_Fred_Akuffo.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gnassingbé Eyadema"
+	desc = "POLITICS_GNASSINGBE_EYADEMA_DESC"
+	picture = "Portrait_Ewe_Gnassingbe_Eyadema.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal  = {
+    name = "Ignatius Kutu Acheampong"
+    picture = "Portrait_Ewe_Ignatius_Kutu_Acheampong.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_field_marshal  = {
+    name = "Gnassingbé Eyadema"
+    picture = "Portrait_Ewe_Gnassingbe_Eyadema.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_field_marshal  = {
+    name = "Emmanuel Bodjollé"
+    picture = "Portrait_Ewe_Emmanuel_Bodjolle.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Kléber Dadjo"
+    picture = "Portrait_Ewe_Kleber_Dadjo.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Fred Akuffo"
+    picture = "Portrait_Ewe_Fred_Akuffo.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "Joseph Arthur Ankrah"
+    picture = "Portrait_Ewe_Joseph_Arthur_Ankrah.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Akwasi Afrifa"
+    picture = "Portrait_Ewe_Akwasi_Afrifa.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Albert Kwesi Ocran"
+    picture = "Portrait_Ewe_Albert_Kwesi_Ocran.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Emmanuel Kwasi Kotoka"
+    picture = "Portrait_Ewe_Emmanuel_Kwasi_Kotoka.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_navy_leader = {
+    name = "Joy K. Amedume"
+    picture = "Portrait_Ewe_Joy_K_Amedume.dds"
+    traits = {  }
+    skill = 2
+}
+
+create_navy_leader = {
+    name = "Chemogoh Kevin Dzang"
+    picture = "Portrait_Ewe_Chemogoh_Kevin_Dzang.dds"
+    traits = {  }
+    skill = 1
+}
+
+create_navy_leader = {
+    name = "David Animle Hansen"
+    picture = "Portrait_Ewe_David_Animle_Hansen.dds"
+    traits = {  }
+    skill = 2
+}

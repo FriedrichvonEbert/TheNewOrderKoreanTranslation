@@ -1,0 +1,132 @@
+﻿capital = 118
+
+set_war_support = 0.8
+set_stability = 0.9
+
+
+oob = "GIB_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 30
+    despotism = 70
+    fascism = 0
+    burgundian_system = 0
+}
+
+add_ideas = {
+    #ministers#
+	GIB_Fernando_Dias_hog
+	GIB_Vasco_Lopes_mil
+	GIB_Albano_Rodrigues_for
+	GIB_Alvaro_Fontoura_eco
+	#political#
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_illegal
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_no_voting
+	tno_refugees_vetted_entry
+	#military#
+	tno_conscription_volunteer_only
+	tno_women_banned
+	tno_military_supervision_no_supervision
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	#economic#
+	tno_trade_laws_free_trade
+	tno_economic_focus_partial_mobilization
+	tno_tax_rate_no_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_child_labor_legal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+	#social#
+	tno_safety_no_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_gender_equality
+	tno_minorities_equal_rights
+	tno_security_anarchic
+}
+create_country_leader = {
+	name = "Fernando de Quintanilha"
+	desc = "POLITICS_FERNANDO_DIAS_DESC"
+	picture = "Portrait_Gibraltar_Ferdinando_Dias.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fernando de Quintanilha"
+	desc = "POLITICS_FERNANDO_DIAS_DESC"
+	picture = "Portrait_Gibraltar_Ferdinando_Dias.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = { 
+	name = "Fernando de Quintanilha e Mendonça Dias"
+	portrait_path = "gfx/leaders/GIB/Portrait_Gibraltar_Ferdinando_Dias.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	traits = { 
+	    
+	}
+	id = 1321
+}
+
+create_corps_commander = { 
+	name = "Manuel António Vassalo e Silva"
+	portrait_path = "gfx/leaders/GIB/Portrait_Gibraltar_Manuel_Antonio_Vassalo_e_Silva.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	traits = {
+	    organizer
+	}
+	id = 1322
+}
+
+create_navy_leader = { 
+	name = "Admiral Fernando"
+	portrait_path = "gfx/leaders/GIB/Portrait_Gibraltar_Ferdinando_Dias.dds"
+	skill = 3
+	traits = {
+	} 
+	id = 1323
+}

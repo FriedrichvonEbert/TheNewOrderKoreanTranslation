@@ -1,0 +1,503 @@
+﻿capital = 1349
+oob = "BEN_1962"
+
+set_technology = {
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+
+	transport = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	motorized_infantry = 1
+	marines = 1
+	tech_mountaineers = 1
+	paratroopers = 1
+	tech_support = 1
+	tech_engineers = 1
+	advanced_light_tank = 1
+	antiair5 = 1
+	gw_artillery = 1
+
+
+	###THE SUPER SPECIAL BLOCK OF DEATH###
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	tech_engineers_flamethrowers_1 = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	infantry_weapons_3 = 1
+	paratroopers2 = 1
+
+
+
+	motorized_rocket_unit = 1
+	tech_special_forces = 1
+	advanced_special_forces = 1
+	improved_special_forces = 1
+	artillery_1950 = 1
+	artillery_1950_soft_attack = 1
+	antiair_1950 = 1
+	antiair_1950_air_attack = 1
+	tech_engineers2 = 1
+	marines2 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_logistics_company2 = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_mountaineers2 = 1
+	motorized_infantry_1 = 1
+	mechanised_infantry3 = 1
+	advanced_medium_tank = 1
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	infantry_at = 1
+
+	###BLOCK OF DEATH###
+
+
+
+
+	artillery4 = 1
+	basic_frigate = 1
+	ww2_destroyer = 1
+	basic_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	transport = 1
+	early_fighter = 1
+	fighter_1945 = 1
+	CAS_1945 = 1
+	tac_bomber1 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	radar_1950 = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	computing_machine_1950 = 1
+	improved_encryption = 1
+	advanced_encryption = 1
+	encryption_1950 = 1
+	improved_decryption = 1
+	advanced_decryption = 1
+	decryption_1950 = 1
+	constructionmethods = 1
+    construction0 = 1
+
+	resource_extraction_methods = 1
+    excavation0 = 1
+
+
+	helicopter_engines = 1
+	jet_engines = 1
+	#ww_2_rocketry = 1
+	#SRBM_0 = 1
+	ww2_line_production = 1
+	mass_production_1 = 1
+	countrywide_improvements = 1
+	dispersed_industry1 = 1
+	construction1 = 1
+	excavation1 = 1
+	military_construction0 = 1
+	military_construction1 = 1
+	very_early_helicopter = 1
+	early_helicopter = 1
+}
+
+set_stability = 0.7
+set_war_support = 0.67
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1961.5.23"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 0
+	socialist = 7
+	social_democrat = 17
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 70
+	despotism = 6
+	fascism = 0
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+set_variable = {
+	var = BEN_Bengali_Ethnic_Tensions
+	value = 40
+}
+set_variable = {
+	var = BEN_Army_Independence
+	value = 40
+}
+set_variable = {
+	var = BEN_Army_Loyalty
+	value = 60
+}
+
+set_country_flag = USA_CIA_can_access_rebels
+
+add_opinion_modifier = { target = RAJ modifier = BEN_raj_sucks }
+add_opinion_modifier = { target = INC modifier = BEN_inc_sucks }
+add_opinion_modifier = { target = INF modifier = BEN_inf_sucks }
+add_opinion_modifier = { target = PAK modifier = BEN_acl_sucks }
+add_opinion_modifier = { target = SRI modifier = BEN_acl_sucks }
+
+if = {
+ 	limit = {
+ 		has_dlc = "Together for Victory"
+ 	}
+ 	set_autonomy = {
+ 		target = BHU
+ 		autonomous_state = autonomy_puppet
+ 	}
+	else = {
+		puppet = BHU
+	}
+}
+
+create_country_leader = {
+	name = "Charu Majumdar"
+	desc = "POLITICS_CHARU_MAJUMDAR_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Charu_Majumdar.dds"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mahendra Pratap"
+	desc = "POLITICS_MAHENDRA_PRATAP_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Raja_Mahendra_Pratap.dds"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lakshmi Sahgal"
+	desc = "POLITICS_LAKSHMI_SAHGAL_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Lakshmi_Sahgal.dds"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "P. V. Narasimha Rao"
+	desc = "POLITICS_PV_NARASIMHA_RAO_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_P.V._Narasimha_Rao.dds"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Charan Singh"
+	desc = "POLITICS_CHARAN_SINGH_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Charan_Singh.dds"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Subhas Chandra Bose"
+	desc = "POLITICS_BOSE_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Subhas_Chandra_Bose.dds"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mohan Singh"
+	desc = "POLITICS_MOHAN_SINGH_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Mohan_Singh.dds"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lal Krishna Advani"
+	desc = "POLITICS_LK_ADVANI_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_LK_Advani.dds"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rajneesh"
+	desc = "POLITICS_RAJNEESH_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Rajneesh.dds"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bal Thackeray"
+	desc = "POLITICS_BAL_THACKERAY_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Bal_Keshav_Thackeray.dds"
+	ideology = ultranational_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Savitri Devi"
+	desc = "POLITICS_SAVITRI_DEVI_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Savitri_Devi.dds"
+	ideology = burgundian_system_subtype
+	traits = {
+	}
+}
+
+####################
+##MILITARY LEADERS##
+####################
+
+create_field_marshal = {
+	name = "Shah Nawaz Khan"
+	picture = "Portrait_Azad_Hind_Shah_Nawaz_Khan.dds"
+	traits = { old_guard skilled_staffer trickster }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3101
+}
+
+create_field_marshal = {
+	name = "Mohan Singh"
+	picture = "Portrait_Azad_Hind_Mohan_Singh.dds"
+	traits = { old_guard offensive_doctrine war_hero }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3102
+}
+
+create_field_marshal = {
+	name = "Gurbaksh Singh Dhillon"
+	picture = "Portrait_Azad_Hind_Gurbaksh_Singh_Dhillon.dds"
+	traits = { old_guard organizer infantry_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3103
+}
+
+create_corps_commander = {
+	name = "Lakshmi Sahgal"
+	picture = "Portrait_Azad_Hind_Lakshmi_Sahgal.dds"
+	traits = { old_guard media_personality politically_connected }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	female = yes
+	id = 3104
+}
+
+create_corps_commander = {
+	name = "Prem Sahgal"
+	picture = "Portrait_Azad_Hind_Prem_Sahgal.dds"
+	traits = { old_guard career_officer }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3105
+}
+
+create_corps_commander = {
+	name = "Geoffrey Scoones"
+	picture = "Portrait_Azad_Hind_Geoffrey_Scoones.dds"
+	traits = { foreign_mercenary commando urban_assault_specialist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3106
+}
+
+create_corps_commander = {
+	name = "Iwachi Fujiwara"
+	picture = "Portrait_Azad_Hind_Iwachi_Fujiwara.dds"
+	traits = { politically_connected sea_lawrence }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
+	id = 3107
+}
+
+create_corps_commander = {
+	name = "Mohammad Usman"
+	picture = "Portrait_Azad_Hind_Mohammad_Usman.dds"
+	traits = { war_hero trait_reckless }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3108
+}
+
+create_corps_commander = {
+	name = "Aubertin Walter Sothern Mallaby"
+	picture = "Portrait_Azad_Hind_Aubertin Walter_Sothern_Mallaby.dds"
+	traits = { foreign_mercenary adaptable }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3109
+}
+
+create_corps_commander = {
+	name = "Gurbachan Singh Salaria"
+	picture = "Portrait_Azad_Hind_Gurbachan_Singh_Salaria.dds"
+	traits = { media_personality trait_reckless }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3110
+}
+
+add_ideas = {
+	#STARTING
+	Sphere_Coequal
+	BEN_Persistent_Communal_Violence
+	BEN_Private_Military_Contractors
+	BEN_Martial_Law
+	#MINISTERS
+	BEN_Lakshmi_Sahgal_hog
+	BEN_John_Thivy_for
+	BEN_AC_Chatterji_eco
+	BEN_Mohan_Singh_sec
+	#POLITICAL
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_state_atheism
+	tno_trade_unions_all_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_censored_press
+	tno_vote_franchise_universal
+	tno_refugees_skilled
+	#MILITARY
+	tno_conscription_two_year_draft
+	tno_women_total_equality
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_advanced_training_methods
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_civil_service_deferment
+	#SOCIAL
+	tno_safety_acceptable_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_allowed
+	tno_gender_rights_gender_equality
+	tno_minorities_equal_rights
+	tno_security_police
+	#ECONOMIC
+	tno_trade_laws_export_focus
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_high_income_weighted
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_acceptable_pensions
+	tno_unemployment_trinket_subsidies
+	#DEVELOPMENT#
+	tno_poverty_rate_50
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_factory_complexes
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_militarized
+	tno_academic_base_mass_illiteracy
+	tno_army_professionalism_professional
+}

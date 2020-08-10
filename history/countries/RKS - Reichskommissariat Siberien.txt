@@ -1,0 +1,118 @@
+﻿capital = 571
+
+
+ add_opinion_modifier = { target = USA modifier = embargo }
+ add_opinion_modifier = { target = CAN modifier = embargo }
+ add_opinion_modifier = { target = AST modifier = embargo }
+ add_opinion_modifier = { target = ICE modifier = embargo }
+ add_opinion_modifier = { target = NZL modifier = embargo }
+ add_opinion_modifier = { target = WIN modifier = embargo }
+ add_opinion_modifier = { target = GUY modifier = embargo }
+
+set_technology = {
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	infantry_weapons_1 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+}
+
+add_ideas = {
+	#political#
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_outlawed
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_skilled
+	#military#
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_none
+	#economic#
+	tno_trade_laws_export_focus
+	tno_economic_focus_partial_mobilization
+	tno_tax_rate_low_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_trinket_pensions
+	tno_unemployment_low_subsidies
+	#social#
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_police
+	
+	GGR_RKS_continued_resistance
+	GGR_RKS_wastes_of_siberia
+}
+
+set_research_slots = 1
+set_convoys = 200
+
+set_stability = 0.74
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1941.4.17"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    national_socialism = 92
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 8
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Bern von Baer"
+	desc = "POLITICS_BERN_VON_BAER_DESC"
+	picture = "GFX/leaders/GER/Portrait_GER_Bern_von_Baer.dds"
+	expire = "1999.4.24"
+	ideology = national_socialism_subtype
+	traits = {
+
+	}
+}

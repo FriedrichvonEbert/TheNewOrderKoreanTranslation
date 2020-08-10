@@ -1,0 +1,53 @@
+﻿capital = 217
+
+oob = "VRS_1962"
+
+set_technology = {
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	infantry_weapons_1 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+}
+
+set_research_slots = 3
+
+set_stability = 0.74
+
+set_politics = {
+	ruling_party = communist
+	last_election = "1941.4.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 5
+	ultranational_socialism = 5
+	socialist = 7
+	social_democrat = 14
+	social_liberal = 18
+	market_liberal = 0
+	social_conservative = 18
+	authoritarian_democrat = 3
+	despotism = 6
+	fascism = 24
+	burgundian_system = 0
+}

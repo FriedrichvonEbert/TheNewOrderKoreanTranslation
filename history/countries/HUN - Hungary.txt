@@ -1,0 +1,248 @@
+﻿capital = 1290
+
+oob = "HUN_1962"
+
+set_stability = 0.62
+
+set_war_support = 0.12
+
+set_technology = {
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	basic_infantry_equipment = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	advanced_medium_tank = 1
+	gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1961.9.12"
+	election_frequency = 96
+	elections_allowed = no
+
+}
+
+set_popularities = {
+	communist = 0
+	socialist = 0
+	social_democrat = 5
+	social_liberal = 3
+	market_liberal = 0
+	social_conservative = 8
+	authoritarian_democrat = 16
+	despotism = 6
+	fascism = 29
+	national_socialism = 26
+	ultranational_socialism = 7
+	burgundian_system = 0
+}
+
+add_ideas = {
+	### <STARTING IDEAS> ###
+	HUN_az_kormanypart
+	HUN_suffocated_economy
+	HUN_der_volksbund
+
+	### <MINISTERS> ###
+	HUN_Andor_Jaross_hog
+	HUN_Bela_Miklos_sec
+	HUN_Ferenc_Rajniss_for
+	HUN_Lajos_Remenyi_Schneller_eco
+	
+	### <LAWS> ###
+	###Political###
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_no_voting
+	tno_refugees_skilled
+	###Social###
+	tno_safety_limited_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_segregation
+	tno_security_police
+	###Military###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_combat_schooling
+	tno_racial_integration_none
+	tno_draft_exemptions_none
+	###Economy###
+	tno_trade_laws_export_focus
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_low_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+
+	construction_level_2
+}
+
+### POLITICAL LEADERS ###
+#KMP
+create_country_leader = {
+	name = "Mátyás Rákosi"
+	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
+	picture = "Portrait_HUN_Matyas_Rakoski.dds"
+	expire = "1989.1.1"
+	ideology = communist_subtype
+	traits = { }
+}
+
+#MSM
+create_country_leader = {
+	name = "István Vági"
+	desc = "POLITICS_ISTVAN_VAGI_DESC"
+	picture = "Portrait_HUN_Istvan_Vagi.dds"
+	expire = "1989.1.1"
+	ideology = socialist_subtype
+	traits = { }
+}
+
+#MSZDP Nerd
+create_country_leader = {
+	name = "Anna Kéthly"
+	desc = "POLITICS_ANNA_KETHLY_DESC"
+	picture = "Portrait_HUN_Anna_Kethly.dds"
+	expire = "1985.5.17"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+#PDP
+create_country_leader = {
+	name = "Géza Teleki"
+	desc = "POLITICS_GEZA_TELEKI_DESC"
+	picture = "Portrait_HUN_Geza_Teleki.dds"
+	expire = "1985.5.17"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+#FKGP
+create_country_leader = {
+	name = "Ferenc Nagy"
+	desc = "POLITICS_FERENC_NAGY_DESC"
+	picture = "Portrait_HUN_Ferenc_Nagy.dds"
+	expire = "1985.5.17"
+	ideology = social_conservative_subtype
+	traits = { }
+}
+
+#MEP
+create_country_leader = {
+	name = "István Horthy"
+	desc = "POLITICS_ISTVAN_HORTHY_DESC"
+	picture = "Portrait_HUN_Istvan_Horthy.dds"
+	expire = "1993.3.28"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+#MKH
+create_country_leader = {
+	name = "Béla Miklós"
+	desc = "POLITICS_BELA_MIKLOS_DESC"
+	picture = "Portrait_HUN_Bela_Miklos.dds"
+	expire = "1993.3.28"
+	ideology = despotism_subtype
+	traits = { }
+}
+
+#This Guy! :))))
+create_country_leader = {
+	name = "Béla Imrédy"
+	desc = "POLITICS_BELA_IMREDY_DESC"
+	picture = "Portrait_HUN_Bela_Imredy.dds"
+	expire = "1993.3.28"
+	ideology = fascism_subtype
+	traits = { }
+}
+
+#VB
+create_country_leader = {
+	name = "Franz Anton Basch"
+	desc = "POLITICS_FRANZ_ANTON_BASCH_DESC"
+	picture = "Portrait_HUN_Franz_Anton_Basch.dds"
+	expire = "1993.3.28"
+	ideology = national_socialism_subtype
+	traits = { }
+}
+
+#NYKP Time
+create_country_leader = {
+	name = "Ferenc Szálasi"
+	desc = "POLITICS_FERENC_SZALASI_DESC"
+	picture = "Portrait_HUN_Ferenc_Szalasi.dds"
+	expire = "1993.3.28"
+	ideology = ultranational_socialism_subtype
+	traits = { }
+}
+
+### MILITARY LEADERS ###
+create_corps_commander = { 
+	name = "István Oláh"
+	portrait_path = "gfx/leaders/HUN/Portrait_Hungary_Istvan_Olah.tga"
+	traits = { armor_officer career_officer }
+	skill = 3
+	id = 740
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = { 
+	name = "István Bata"
+	portrait_path = "gfx/leaders/HUN/Portrait_Hungary_Istvan_Bata.tga"
+	traits = { trait_cautious }
+	skill = 2
+	id = 741
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ferenc Kárpáti"
+	portrait_path = "gfx/leaders/HUN/Portrait_Hungary_Ferenc_Karpati.tga"
+	traits = { trait_cautious }
+	skill = 2
+	id = 742
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}

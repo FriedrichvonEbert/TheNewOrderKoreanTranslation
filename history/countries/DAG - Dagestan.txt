@@ -1,0 +1,31 @@
+﻿capital = 232 #Dagestan
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1920.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	despotism = 0
+	socialist = 6
+	social_democrat = 12
+	social_liberal = 54
+	market_liberal = 0
+	social_conservative = 22
+	authoritarian_democrat = 6
+	fascism = 0
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+
+create_country_leader = {
+ 	name = "Rasul Gamzatov"
+	desc = "POLITICS_RASUL_GAMZATOV_DESC"
+ 	picture = "Portrait_Caucasus_Rasul_Gamzatov.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+}

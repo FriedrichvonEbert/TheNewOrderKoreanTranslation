@@ -1,0 +1,35 @@
+﻿capital = 316
+
+oob = "COS_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 24
+    social_liberal = 50
+    market_liberal = 0
+    social_conservative = 26
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Jose Ferrer"
+	picture = "Portriat_Costa_Rica_Jose_Ferrer.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}

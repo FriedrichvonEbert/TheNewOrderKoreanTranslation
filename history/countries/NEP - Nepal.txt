@@ -1,0 +1,108 @@
+﻿capital = 323
+
+oob = "NEP_1962"
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1962.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 16
+    socialist = 0
+    social_democrat = 30
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 54
+    fascism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Mahendra Bir Bikram Shah"
+	desc = "POLITICS_MAHENDRA_BIR_BIKRAM_SHAH_DESC"
+	picture = "Portrait_Nepal_Mahendra_Bir_Bikram_Shah.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "B. P. Koirala"
+	desc = "POLITICS_BP_KOIRALA_DESC"
+	picture = "Portrait_Nepal_BP_Koirala.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Keshar Jung Rayamajhi"
+	desc = "POLITICS_KESHAR_RAYAMAJHI_DESC"
+	picture = "Portrait_Nepal_Keshar_Jung_Rayamajhi.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+
+add_ideas = {
+	#MINISTERS
+	NEP_Birendra_Bir_Bikram_Shah_hog
+	NEP_Surya_Bahadur_Thapa_eco
+	NEP_Tulsi_Giri_for
+	NEP_Kaiser_Shumsher_Jang_Bahadur_Rana_sec
+	#POLITICAL
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_elite_voting
+	tno_refugees_skilled
+	#MILITARY
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_advanced_training_methods
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_civil_service_deferment
+	#SOCIAL
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_gender_equality
+	tno_minorities_equal_rights
+	tno_security_data_cohesion
+	#ECONOMIC
+	tno_trade_laws_export_focus
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_high_income_weighted
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_acceptable_pensions
+	tno_unemployment_trinket_subsidies
+	#DEVELOPMENT#
+	tno_poverty_rate_50
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_factory_complexes
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_militarized
+	tno_academic_base_mass_illiteracy
+	tno_army_professionalism_professional
+}

@@ -1,0 +1,101 @@
+﻿capital = 64
+
+oob = "BGR_1962"
+
+add_ideas = {
+    ##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+    tno_immigration_quota_immigration
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending 
+	tno_training_basic_training
+	tno_racial_integration_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	###MINISTERS###
+    BGR_Baldur_von_Schirach_hog
+	BGR_Wilhelm_Burgdorf_sec
+	BGR_Walther_Hewel_for
+	BGR_Kurt_Lange_eco
+
+	#Construction Level
+	construction_level_7
+}
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_conservative = 2
+	authoritarian_democrat = 4
+	fascism = 18
+	national_socialism = 60
+	ultranational_socialism = 16
+}
+
+create_country_leader = {
+	name = "Martin Bormann"
+	desc = "POLITICS_MARTIN_BORMANN_DESC"
+	picture = "Portrait_Germany_Martin_Bormann.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Hans Speidel"
+	desc = "POLITICS_HANS_SPEIDEL_DESC"
+	picture = ""
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = {
+		
+	}
+}
+	
+create_country_leader = {
+	name = "Hans Filbinger"
+	desc = ""
+	picture = ""
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+	
+create_country_leader = {
+	name = "Eugen Gerstenmaier"
+	desc = ""
+	picture = ""
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}

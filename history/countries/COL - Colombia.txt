@@ -1,0 +1,35 @@
+﻿capital = 306
+
+oob = "COL_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 30
+    social_liberal = 40
+    market_liberal = 0
+    social_conservative = 30
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Alberto Camargo"
+	picture = "Portrait_Colombia_Alberto_Camargo.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}

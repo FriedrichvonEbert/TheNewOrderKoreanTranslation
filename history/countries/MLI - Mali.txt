@@ -1,0 +1,157 @@
+﻿capital = 1225
+
+oob = "MLI_1962"
+
+add_ideas = {
+	WEST_AFRICA_idea_obliterated_infrastructures
+	MLI_idea_keitas_leadership
+	MLI_idea_traore_problem
+
+	MLI_Modibo_Keita_hog
+	MLI_Kadari_Bamba_for
+	MLI_Younoussi_Toure_eco
+	MLI_Amadou_Baba_Diarra_sec
+}
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 1
+    ultranational_socialism = 0
+    socialist = 1
+    social_democrat = 2
+    social_liberal = 6
+    market_liberal = 0
+    social_conservative = 6
+    authoritarian_democrat = 61
+    despotism = 23
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Aoua Keïta"
+	desc = "POLITICS_MODIBO_KEITA_DESC"
+	picture = "Portrait_Mali_Aoua_Keita.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abdrahamane Baba Touré"
+	desc = "POLITICS_MODIBO_KEITA_DESC"
+	picture = "Portrait_Mali_Abdrahamane_Baba_Toure.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kadari Bamba"
+	desc = "POLITICS_MODIBO_KEITA_DESC"
+	picture = "Portrait_Mali_Kadari_Bamba.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abdoulaye Sékou Sow"
+	desc = "POLITICS_MODIBO_KEITA_DESC"
+	picture = "Portrait_Mali_Abdoulaye_Sekou_Sow.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+#create_country_leader = {
+#	name = "Seydou Badian Kouyaté"
+#	desc = "POLITICS_MODIBO_KEITA_DESC"
+#	picture = "Portrait_Mali_Seydou_Badian_Kouyate.dds"
+#	expire = "1965.1.1"
+#	ideology = market_liberal_subtype
+#	traits = {
+#		#
+#	}
+#}
+
+create_country_leader = {
+	name = "Younoussi Touré"
+	desc = "POLITICS_MODIBO_KEITA_DESC"
+	picture = "Portrait_Mali_Younoussi_Toure.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Modibo Keïta"
+	desc = "POLITICS_MODIBO_KEITA_DESC"
+	picture = "Portrait_Mali_Modibo_Keita.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Amadou Baba Diarra"
+	desc = "POLITICS_MODIBO_KEITA_DESC"
+	picture = "Portrait_Mali_Amadou_Baba_Diarra.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "Amadou Baba Diarra"
+    picture = "Portrait_Mali_Amadou_Baba_Diarra.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Mamadou Madeira Keita"
+    picture = "Portrait_Mali_Mamadou_Madeira_Keita.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Guediouma Samake"
+    picture = "Portrait_Mali_Guediouma_Samake.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

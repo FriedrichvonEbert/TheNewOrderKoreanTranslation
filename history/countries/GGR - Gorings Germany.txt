@@ -1,0 +1,295 @@
+﻿capital = 58
+
+oob = "GGR_1962"
+
+add_ideas = {
+    ##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+    tno_immigration_quota_immigration
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending 
+	tno_training_basic_training
+	tno_racial_integration_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	###MINISTERS
+	GGR_Wilhelm_Stuckart_hog
+	GGR_Ferdinand_Schorner_sec
+	GGR_Artur_Axmann_for
+	GGR_Paul_Korner_eco
+
+ 	#Construction Level
+	construction_level_7
+}
+
+### Politics
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    national_socialism = 65
+    ultranational_socialism = 35
+}
+
+### Leaders
+create_country_leader = {
+	name = "Hermann Göring"
+	desc = "POLITICS_HERMANN_GORING_DESC"
+	picture = "Portrait_Germany_Hermann_Goring.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+	traits = { dictator }
+}
+create_country_leader = {
+	name = "Ferdinand Schörner"
+	desc = "POLITICS_FERDINAND_SCHORNER_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Ferdinand_Schorner.dds"
+	expire = "1973.7.2"
+	ideology = ultranational_socialism_subtype
+}
+
+set_convoys = 100
+
+###GENERALS COMMENTED OUT BECAUSE CRACKHEAD PDX CODE WILL MAKE THE GAME SHIT ITSELF IF LOADED FROM HERE FOR SOME GODFORSAKEN REASON###
+#	create_corps_commander = { 
+#		name = "Harald von Hirschfeld"
+#		picture = "Portrait_GER_Harald_von_Hirschfeld.dds"
+#		traits = { harsh_leader trait_mountaineer }
+#		skill = 2
+#		attack_skill = 2
+#		defense_skill = 2
+#		planning_skill = 2
+#		logistics_skill = 3
+#		id = 1110
+#	}
+#
+#	create_corps_commander = { 
+#		name = "Otto Ernst Remer"
+#		picture = "Portrait_GER_Otto_Ernst_Remer.dds"
+#		traits = { infantry_leader urban_assault_specialist }
+#		skill = 3
+#		attack_skill = 2
+#		defense_skill = 3
+#		planning_skill = 2
+#		logistics_skill = 2
+#		id = 1120
+#	}
+#
+#	create_corps_commander = { 
+#		name = "Theodor Tolsdorff"
+#		picture = "Portrait_GER_Theodor_Tolsdorff.dds"
+#		traits = { trait_reckless panzer_leader winter_specialist }
+#		skill = 4
+#		attack_skill = 3
+#		defense_skill = 1
+#		planning_skill = 2
+#		logistics_skill = 2
+#		id = 1140
+#	}
+#
+#	create_corps_commander = { 
+#		name = "Werner Mummert"
+#		picture = "Portrait_GER_Werner_Mummert.dds"
+#		traits = { trait_reckless panzer_leader trickster }
+#		skill = 3
+#		attack_skill = 2
+#		defense_skill = 2
+#		planning_skill = 3
+#		logistics_skill = 1
+#		id = 1150
+#	}
+
+#create_corps_commander = { 
+#	name = "Heinz Georg Lemm"
+#	picture = "Portrait_Germany_Heinz_Georg_Lemm.dds"
+#	traits = { panzer_leader trickster }
+#	skill = 2
+#	attack_skill = 3
+#	defense_skill = 2
+#	planning_skill = 1
+#	logistics_skill = 1
+#	id = 74 
+#}
+#
+#create_field_marshal = { 
+#	name = "Johann von Kielmansegg"
+#	picture = "Portrait_GER_Johann_von_Kielmansegg.dds"
+#	traits = { career_officer infantry_leader offensive_doctrine }
+#	skill = 3
+#	attack_skill = 2
+#	defense_skill = 1
+#	planning_skill = 3
+#	logistics_skill = 2
+#	id = 75 
+#}
+#
+#create_corps_commander = { 
+#	name = "Friedrich August Freiherr von der Heydte"
+#	picture = "Portrait_GER_Friedrich_August_Freiherr_von_der_Heydte.dds"
+#	traits = { media_personality commando paratrooper }
+#	skill = 3
+#	attack_skill = 3
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 1
+#	id = 98
+#}
+#
+#create_corps_commander = { 
+#	name = "Friedrich Foertsch"
+#	picture = "Portrait_GER_Friedrich_Foertsch.dds"
+#	traits = { old_guard infantry_leader winter_specialist }
+#	skill = 3
+#	attack_skill = 2
+#	defense_skill = 3
+#	planning_skill = 2
+#	logistics_skill = 3
+#	id = 99
+#}
+#
+#create_field_marshal = { 
+#	name = "Eduard Wagner"
+#	picture = "Portrait_GER_Eduard_Wagner.dds"
+#	traits = { old_guard organizer logistics_wizard thorough_planner }
+#	skill = 4
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 3
+#	logistics_skill = 5
+#	id = 81
+#}
+#
+#create_corps_commander = { 
+#	name = "Gerhard von Schwerin"
+#	picture = "Portrait_GER_Gerhard_von_Schwerin.dds"
+#	traits = { commando desert_fox winter_specialist }
+#	skill = 4
+#	attack_skill = 4
+#	defense_skill = 3
+#	planning_skill = 2
+#	logistics_skill = 2
+#	id = 102
+#}
+#
+#create_corps_commander = { 
+#	name = "Leo Hepp"
+#	picture = "Portrait_GER_Leo_Hepp.dds"
+#	traits = { organizer hill_fighter }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 1
+#	planning_skill = 2
+#	logistics_skill = 4
+#	id = 104
+#}
+#
+#create_corps_commander = { 
+#	name = "Alfred Becker"
+#	picture = "Portrait_GER_Alfred_Becker.dds"
+#	traits = { bearer_of_artillery trait_engineer }
+#	skill = 2
+#	attack_skill = 3
+#	defense_skill = 1
+#	planning_skill = 2
+#	logistics_skill = 2
+#	id = 118
+#}
+#
+#create_corps_commander = { 
+#	name = "Erich Bärenfänger"
+#	picture = "Portrait_GER_Erich_Barenfanger.dds"
+#	traits = { trait_reckless urban_assault_specialist }
+#	skill = 2
+#	attack_skill = 1
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 1
+#	id = 119
+#}
+#
+#create_corps_commander = { 
+#	name = "Hans-Joachim Herrmann"
+#	picture = "Portrait_GER_Hans_Joachim_Herrmann.dds"
+#	traits = { politically_connected commando camouflage_expert }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 1
+#	id = 120
+#}
+#
+#create_field_marshal = { 
+#	name = "Ferdinand Schorner"
+#	picture = "Portrait_Germany_Ferdinand_Schorner.dds"
+#	traits = { war_hero harsh_leader organizer logistics_wizard }
+#	skill = 5
+#	attack_skill = 4
+#	defense_skill = 3
+#	planning_skill = 5
+#	logistics_skill = 3
+#	id = 122
+#}
+#
+#create_navy_leader = {
+#    name = "Otto von Bülow"
+#    picture = "Portrait_Germany_Otto_von_Bulow.dds"
+#    traits = { seawolf }
+#    skill = 2
+#	id = 79 
+#}
+#
+#create_navy_leader = {
+#    name = "Armin Zimmermann"
+#    picture = "Portrait_GER_Armin_Zimmermann.dds"
+#    traits = { fly_swatter }
+#    skill = 3
+#	id = 109
+#}
+#
+#create_navy_leader = {
+#    name = "Karl-Jesko von Puttkamer"
+#    picture = "Portrait_GER_Karl_Jesko_von_Puttkamer.dds"
+#    traits = { spotter superior_tactician }
+#    skill = 2
+#	id = 139
+#}
+#
+#create_navy_leader = {
+#    name = "Karl-Friedrich Merten"
+#    picture = "Portrait_GER_Karl_Friedrich_Merten.dds"
+#    traits = { seawolf }
+#    skill = 3
+#	id = 140
+#}
+#
+#create_navy_leader = {
+#    name = "Heinrich Lehmann-Willenbrock"
+#    picture = "Portrait_GER_Heinrich_Lehmann_Willenbrock.dds"
+#    traits = { seawolf spotter }
+#    skill = 4
+#	id = 141
+#}

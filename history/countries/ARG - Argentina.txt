@@ -1,0 +1,58 @@
+﻿capital = 278
+
+oob = "ARG_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 2
+    ultranational_socialism = 1
+    socialist = 2
+    social_democrat = 12
+    social_liberal = 29
+    market_liberal = 0
+    social_conservative = 32
+    authoritarian_democrat = 16
+    despotism = 0
+    fascism = 6
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Arturo Frondizi"
+	picture = "Portrait_Argentina_Arturo_Frondizi.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+set_technology = {
+	ww2_destroyer = 1
+	basic_destroyer = 1
+	ww2_cruiser = 1
+	basic_cruiser = 1
+	ww2_battleship = 1
+	ww2_carrier = 1
+	ww2_submarine = 1
+	basic_submarine = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	CAS_1945 = 1
+	early_fighter = 1
+	fighter_1945 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	infantry_at2 = 1
+}

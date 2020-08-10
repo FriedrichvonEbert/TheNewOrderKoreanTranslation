@@ -1,0 +1,159 @@
+﻿capital = 219
+
+oob = "MOS_1962"
+
+add_ideas = {
+	### MINISTERS ###
+	MOS_Konstantin_Voskoboinik_hog
+	MOS_Stepan_Mosin_for
+	MOS_Mikhail_Vasyukov_eco
+	MOS_Georgy_Khomutov_sec
+
+	### POLITICAL LAWS ###
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+    tno_immigration_closed_borders
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+
+	### MILITARY LAWS ###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_no_supervision
+	tno_military_spending_large_spending 
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+
+	### SOCIAL LAWS ###
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_security_service
+
+	### ECONOMIC LAWS ###
+	tno_trade_laws_export_focus
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+
+	### SOCIETAL DEVELOPMENT ###
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_25
+	tno_army_professionalism_political_interference
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_factory_complexes
+	tno_agriculture_mass_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+}
+
+set_technology = {
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	infantry_weapons_1 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+}
+
+set_research_slots = 3
+
+set_stability = 0.74
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1941.4.17"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 90
+    fascism = 10
+    burgundian_system = 0
+}
+
+### Country Leader ###
+create_country_leader = {
+	name = "Bronislav Kaminski"
+	desc = "POLITICS_BRONISLAV_KAMINSKI_DESC"
+	picture = "Portrait_Moskowien_Bronislaw_Kaminski.dds"
+	expire = "1999.10.12"
+	ideology = national_socialism_subtype
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Bronislav Kaminski"
+	desc = "POLITICS_BRONISLAV_KAMINSKI_DESC"
+	picture = "Portrait_Moskowien_Bronislaw_Kaminski.dds"
+	expire = "1999.10.12"
+	ideology = fascism_subtype
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Bronislav Kaminski"
+	desc = "POLITICS_BRONISLAV_KAMINSKI_DESC"
+	picture = "Portrait_Moskowien_Bronislaw_Kaminski.dds"
+	expire = "1999.10.12"
+	ideology = despotism_subtype
+	traits = {
+		
+	}
+}
+
+### Generals ###
+create_corps_commander = {
+	name = "Bronislav Kaminski"
+	picture = "Portrait_Moskowien_Bronislaw_Kaminski.dds"
+	traits = { politically_connected harsh_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 15024
+}

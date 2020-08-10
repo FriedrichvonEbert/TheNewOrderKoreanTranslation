@@ -1,0 +1,158 @@
+﻿capital = 301
+
+oob = "PAR_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communist = 10
+	socialist = 0
+	social_democrat = 17
+	social_liberal = 8
+	market_liberal = 0
+	social_conservative = 28
+	authoritarian_democrat = 11
+	despotism = 26
+	fascism = 0
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+add_ideas = {
+	##Spirits
+	PAR_disciplina_jerarquia_y_orden
+	PAR_coloradan_dissidence
+	PAR_fulna_insurgency
+	##Ministers
+	ramon_luciano_paredes_hog
+	rogelio_espinoza_eco
+	horacio_chiriani_for
+	amancio_pampliega_sec
+	##Laws
+	#Political
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_vote_franchise_elite_voting
+	tno_refugees_banned
+	#Military
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_no_supervision
+	tno_military_spending_large_spending
+	tno_training_basic_training
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_none
+	#Economic
+	tno_trade_laws_export_focus
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_low_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_trinket_pensions
+	tno_unemployment_no_subsidies
+	#Social
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_segregation
+	tno_security_police
+	##Social Development
+	tno_academic_base_basic_literacy
+	tno_research_facilities_outdated
+	tno_agriculture_centralized
+	tno_industrial_equipment_power_tools
+	tno_industrial_expertise_incompetent
+	tno_army_professionalism_cronyism
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+}
+
+### Leaders ###
+#AuthSoc
+create_country_leader = {
+	name = "Antonio Maidana"
+	picture = "Portrait_Paraguay_Antonio_Maidana.dds"
+	desc = "Paraguay_Antonio_Maidana_desc"
+	expire = "1990.1.1"
+	ideology = communist_subtype
+	traits = { red_intellectual }
+}
+#SocDem
+create_country_leader = {
+	name = "Rafael Franco"
+	picture = "Portrait_Paraguay_Rafael_Franco.dds"
+	desc = "Paraguay_Rafael_Franco_desc"
+	expire = "1990.1.1"
+	ideology = social_democrat_subtype
+	traits = { old_hero }
+}
+#LibDem
+create_country_leader = {
+	name = "Domingo Laíno"
+	picture = "Portrait_Paraguay_Domingo_Laino.dds"
+	desc = "Paraguay_Domingo_Laino_desc"
+	expire = "1990.1.1"
+	ideology = social_liberal_subtype
+	traits = { rebel_leader }
+}
+#ConDem
+create_country_leader = {
+	name = "Frederico Chávez"
+	picture = "Portrait_Paraguay_Frederico_Chavez.dds"
+	desc = "Paraguay_Frederico_Chavez_desc"
+	expire = "1990.1.1"
+	ideology = social_conservative_subtype
+	traits = { strongman }
+}
+#AuthDem
+create_country_leader = {
+	name = "Juan Natalicio González"
+	picture = "Portrait_Paraguay_Juan_Natalicio_Gonzalez.dds"
+	desc = "Paraguay_Juan_Natalicio_Gonzalez_desc"
+	expire = "1990.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { affable_puppet }
+}
+#Despotist - RULING
+create_country_leader = {
+	name = "Higinio Morínigo"
+	picture = "Portrait_Paraguay_Higinio_Morinigo.dds"
+	desc = "Paraguay_Higinio_Morinigo_desc"
+	expire = "1990.1.1"
+	ideology = despotism_subtype
+	traits = { dictator }
+}
+#Fascism
+create_country_leader = {
+	name = "Alfredo Stroessner"
+	picture = "Portrait_Paraguay_Alfredo_Stroessner.dds"
+	desc = "Paraguay_Alfredo_Stroessner_desc"
+	expire = "1990.1.1"
+	ideology = fascism_subtype
+	traits = { little_caudillo flippant_ideologue }
+}
+#NatSoc
+create_country_leader = {
+	name = "Alfredo Stroessner"
+	picture = "Portrait_Paraguay_Alfredo_Stroessner.dds"
+	desc = "Paraguay_Alfredo_Stroessner_desc"
+	expire = "1990.1.1"
+	ideology = national_socialism_subtype
+	traits = { little_caudillo flippant_ideologue }
+}

@@ -1,0 +1,145 @@
+﻿capital = 832
+
+oob = "HAU_1962"
+
+add_ideas = {
+	WEST_AFRICA_idea_obliterated_infrastructures
+	HAU_idea_ethnic_tensions
+	HAU_idea_islamic_influences
+
+	HAU_Shehu_Shagari_hog
+	HAU_Adamou_Mayaki_for
+	HAU_Mamadou_Maidah_eco
+	HAU_Mamadou_Tandja_sec
+}
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 11
+    authoritarian_democrat = 23
+    despotism = 58
+    fascism = 8
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Issoufou Saïdou-Djermakoye"
+	desc = "POLITICS_ISSOUFOU_SAIDOU_DJERMAKOYE_DESC"
+	picture = "Portrait_Hausaland_Issoufou_Saidou_Djermakoye.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abubakar Tafawa Balewa"
+	desc = "POLITICS_ABUBAKAR_TAFAWA_BALEWA_DESC"
+	picture = "Portrait_Hausaland_Abubakar_Tafawa_Balewa.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mamadou Tandja"
+	desc = "POLITICS_MAMADOU_TANDJA_DESC"
+	picture = "Portrait_Hausaland_Mamadou_Tandja.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Siddiq Abubakar III"
+	desc = "POLITICS_SIDDIQ_ABUBAKAR_III_DESC"
+	picture = "Portrait_Hausaland_Siddiq_Abubakar_III.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Osman Nuhu Sharubutu"
+	desc = "POLITICS_OSMAN_NUHU_SHARUBUTU_DESC"
+	picture = "Portrait_Hausaland_Osman_Nuhu_Sharubutu.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "Siddiq Abubakar III"
+    picture = "Portrait_Hausaland_Siddiq_Abubakar_III.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Mamadou Tandja"
+    picture = "Portrait_Hausaland_Mamadou_Tandja.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Osman Nuhu Sharubutu"
+    picture = "Portrait_Hausaland_Osman_Nuhu_Sharubutu.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Ahmadu Bello"
+    picture = "Portrait_Hausaland_Ahmadu_Bello.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Shehu Shagari"
+    picture = "Portrait_Hausaland_Shehu_Shagari.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

@@ -1,0 +1,136 @@
+﻿capital = 1308
+
+oob = "CHN_1962"
+
+set_stability = 0.7
+
+# Starting tech
+set_technology = {
+
+# Infantry
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	
+# Support
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	
+# Armor
+
+# Artillery
+	gw_artillery = 1
+	
+# Land Doctrine
+
+# Naval
+	ww2_destroyer = 1
+	
+# Helicopters
+
+# Light Aircraft
+	early_fighter = 1
+	fighter_1945 = 1
+	
+# Heavy Aircraft
+	tac_bomber1 = 1
+	transport_air1 = 1
+	
+# Air Doctrine
+
+# Engineering
+
+# Industry
+}
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 10
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 15
+    despotism = 65
+    fascism = 10
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Taik Chun"
+	desc = "POLITICS_TAIK_CHUN_DESC"
+	picture = "Portrait_Chin_Taik_Chun.dds"
+	expire = "1990.1.1"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zahre Lina"
+	desc = "POLITICS_TAIK_CHUN_DESC"
+	picture = "Portrait_Chin_Taik_Chun.dds"
+	expire = "1990.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+add_ideas = {
+	#ministers#
+	CHN_Sonkhopau_hog
+	CHN_Dal_Za_Kam_for
+	CHN_Lian_Cin_Zam_sec
+	#political#
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_elite_voting
+	tno_refugees_skilled
+	#military#
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_no_supervision
+	tno_military_spending_medium_spending
+	tno_training_minimal_training
+	tno_racial_integration_none
+	tno_draft_exemptions_civil_service_deferment
+	#economic#
+	tno_trade_laws_export_focus
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_low_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	#social#
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_oppression
+	tno_security_security_service
+}

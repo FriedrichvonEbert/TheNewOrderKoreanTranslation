@@ -1,0 +1,36 @@
+﻿capital = 1050
+
+oob = "BTS_1962"
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 20
+    social_liberal = 20
+    market_liberal = 0
+    social_conservative = 60
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Seretse Khama"
+	desc = "POLITICS_SERETSE_KHAMA_DESC"
+	picture = "Portrait_Botswana_Seretse_Khama.dds"
+	expire = "1999.1.23"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}

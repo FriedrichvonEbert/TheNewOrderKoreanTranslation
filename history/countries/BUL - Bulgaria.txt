@@ -1,0 +1,153 @@
+﻿capital = 48
+
+#oob = "BUL_1962"
+
+add_ideas = {
+	Pakt_Bundnispartner
+	
+	BUL_Dobri_Bozhilov_hog
+	BUL_Asen_Hristoforov_eco
+	BUL_Dimitar_Peshev_for
+	
+	BUL_the_tsars_government
+	BUL_german_forged_shackles
+	BUL_the_fatherland_front
+}
+set_technology = {
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	basic_infantry_equipment = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	motorized_infantry = 1
+	motorized_infantry_1 = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+}
+
+ add_opinion_modifier = { target = USA modifier = embargo }
+ add_opinion_modifier = { target = CAN modifier = embargo }
+ add_opinion_modifier = { target = AST modifier = embargo }
+ add_opinion_modifier = { target = ICE modifier = embargo }
+ add_opinion_modifier = { target = NZL modifier = embargo }
+ add_opinion_modifier = { target = WIN modifier = embargo }
+ add_opinion_modifier = { target = GUY modifier = embargo }
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1931.6.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    national_socialism = 10
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 20
+    authoritarian_democrat = 0
+    despotism = 70
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Boris III"
+	desc = "POLITICS_BORIS_III_DESC"
+	picture = "Portrait_Bulgaria_Boris_III.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = BUL_mtg_navy_1962
+	create_equipment_variant = {
+		name = "Zerstörer 1944"
+		type = ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1950"
+		type = ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+	create_equipment_variant = {
+		name = "Type XXI-Class"
+		type = ship_hull_submarine_1
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+    	}
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_naval_oob = BUL_navy_1962
+	create_equipment_variant = {
+		name = "Zerstörer 1944"
+		type = destroyer_1
+		name_group = GER_DD_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1950"
+		type = destroyer_1
+		name_group = GER_DD_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "Type XXI-Class"
+		type = submarine_1
+		name_group = GER_SS_HISTORICAL
+	}
+}

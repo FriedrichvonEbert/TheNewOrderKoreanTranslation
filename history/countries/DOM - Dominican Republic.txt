@@ -1,0 +1,36 @@
+﻿capital = 319
+
+oob = "DOM_1962"
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 16
+    social_liberal = 16
+    market_liberal = 0
+    social_conservative = 29
+    authoritarian_democrat = 39
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+set_stability = 0.87
+set_war_support = 0.94
+create_country_leader = {
+	name = "Joaquin Balaguer"
+	picture = "Portrait_Dominican_Republic_Joaquin_Balaguer.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

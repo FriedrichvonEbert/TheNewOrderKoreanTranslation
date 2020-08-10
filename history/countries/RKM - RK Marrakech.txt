@@ -1,0 +1,87 @@
+﻿capital = 461 
+
+set_research_slots = 3
+
+add_ideas = {
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+    tno_immigration_quota_immigration
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending 
+	tno_training_basic_training
+	tno_racial_integration_none
+	tno_draft_exemptions_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_security_service
+	##ECONOMIC LAWS##
+	tno_trade_laws_export_focus
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_25
+	tno_army_professionalism_professional
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_modern
+	tno_agriculture_mass_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+	##MINISTERS##
+}
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1941.4.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    national_socialism = 100
+    ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Günter Kießling"
+	desc = "POLITICS_GUNTER_KIESSLING_DESC"
+	picture = "GFX/leaders/GER/Portrait_GER_Gunter_Kiessling.dds"
+	expire = "1999.4.24"
+	ideology = national_socialism_subtype
+	traits = {
+
+	}
+}

@@ -1,0 +1,141 @@
+﻿capital = 1306
+
+set_stability = 0.35
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1958.1.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 11
+    social_democrat = 37
+    social_liberal = 19
+    market_liberal = 0
+    social_conservative = 12
+    authoritarian_democrat = 21
+    despotism = 0
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+set_party_name = {
+    ideology = national_socialism
+    long_name = ISR_national_socialism_party_long
+    name = ISR_national_socialism_party
+}
+
+create_country_leader = {
+    name = "Yitzhak Rabin"
+    desc = "POLITICS_Yitzhak_Rabin_DESC"
+    picture = "Portrait_Israel_Yitzhak_Rabin.dds"
+    expire = "1992.1.1"
+    ideology = social_democrat_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Yosef Sapir"
+    desc = "POLITICS_Yosef_Sapir_DESC"
+    picture = "Portrait_Israel_Yosef_Sapir.dds"
+    expire = "1992.1.1"
+    ideology = social_conservative_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Menachem Begin"
+    desc = "POLITICS_Menachem_Begin_DESC"
+    picture = "Portrait_Israel_Menachem_Begin.dds"
+    expire = "1992.1.1"
+    ideology = authoritarian_democrat_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Avraham Stern"
+    desc = "POLITICS_AVRAHAM_STERN_DESC"
+    picture = "Portrait_Israel_Avraham_Stern.dds"
+    expire = "1992.1.1"
+    ideology = national_socialism_subtype
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Yisrael Galili"
+    desc = "POLITICS_YISRAEL_GALILI_DESC"
+    picture = "Portrait_Israel_Yisrael_Galili.dds"
+    expire = "1992.1.1"
+    ideology = despotism_subtype
+    traits = {
+        #
+    }
+}
+
+add_ideas = {
+    
+    #political#
+    tno_political_parties_multiparty_system
+    tno_religious_rights_pluralism
+    tno_trade_unions_all_allowed
+    tno_immigration_quota_immigration
+    tno_slavery_outlawed
+    tno_public_meetings_allowed
+    tno_press_rights_free_press
+    tno_vote_franchise_universal
+    tno_refugees_open
+    
+    #military#
+    tno_conscription_one_year_draft
+    tno_women_banned
+    tno_military_supervision_military_policing
+    tno_military_spending_medium_spending
+    tno_training_basic_training
+    tno_racial_integration_segregated_regiments
+    tno_draft_exemptions_educational_deferment
+    
+    #economic#
+    tno_trade_laws_export_focus
+    tno_economic_focus_civilian_economy
+    tno_tax_rate_medium_taxation
+    tno_income_taxation_low_income_weighted
+    tno_minimum_wage_trinket_minimum_wage
+    tno_max_workhours_8_hour_work_day
+    tno_child_labor_illegal
+    tno_pensions_low_pensions
+    tno_unemployment_no_subsidies
+    
+    #social#
+    tno_safety_limited_regulations
+    tno_health_care_public_health_care
+    tno_pollution_no_controls
+    tno_education_public_education
+    tno_penal_system_capital_punishment
+    tno_lgbt_rights_lgbt_outlawed
+    tno_gender_rights_women_in_the_workplace
+    tno_minorities_segregation
+    tno_security_security_service
+
+    #societal development#
+    tno_academic_base_secondary_schooling
+    tno_research_facilities_modern
+    tno_agriculture_mass_mechanized
+    tno_industrial_equipment_factory_complexes
+    tno_industrial_expertise_nascent
+    tno_army_professionalism_disgruntled_veterans
+    tno_nuclear_stockpile_none
+    tno_poverty_rate_25
+}

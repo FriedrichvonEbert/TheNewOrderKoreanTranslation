@@ -1,0 +1,371 @@
+﻿capital = 123
+
+oob = "CRN_1962"
+
+set_cosmetic_tag = CRN_GER
+
+set_technology = {
+ 	##INFANTRY##
+ 	# infantry_equipment_0 = 1
+ 	infantry_weapons_1 = 1
+ 	infantry_weapons_2 = 1
+ 	infantry_weapons_improvements_1 = 1
+ 	infantry_weapons_improvements_2 = 1
+ 	infantry_weapons_improvements_3 = 1
+ 	infantry_weapons_improvements_4 = 1
+ 	infantry_weapons_3 = 1
+ 	infantry_weapons_improvements_5 = 1
+ 	basic_infantry_equipment = 1
+ 	support_weapons = 1
+ 	support_weapons2 = 1
+ 	support_weapons3 = 1
+ 	support_weapons4 = 1
+ 	infantry_at = 1
+ 	infantry_at2 = 1
+ 	infantry_at3 = 1
+
+ 	motorized_infantry = 1
+ 	motorized_rocket_unit = 1
+ 	motorized_infantry_1 = 1
+ 	marines = 1
+ 	tech_mountaineers = 1
+ 	tech_mountaineers2 = 1
+ 	tech_mountaineers3 = 1
+ 	paratroopers = 1
+ 	paratroopers2 = 1
+ 	paratroopers3 = 1
+
+ 	##SUPPORT##
+ 	tech_support = 1
+ 	tech_engineers = 1
+ 	tech_engineers_flamethrowers_1 = 1
+ 	tech_engineers2 = 1
+ 	tech_engineers_flamethrowers_2 = 1
+ 	tech_engineers3 = 1
+ 	tech_engineers_flamethrowers_3 = 1
+ 	tech_recon = 1
+ 	tech_recon2 = 1
+ 	tech_military_police = 1
+ 	tech_military_police2 = 1
+ 	tech_military_police3 = 1
+ 	tech_maintenance_company = 1
+ 	tech_maintenance_company2 = 1
+ 	tech_field_hospital = 1
+ 	tech_field_hospital2 = 1
+ 	tech_logistics_company = 1
+ 	tech_signal_company = 1
+ 	tech_signal_company2 = 1
+
+ 	##ARMOR##
+ 	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+	APC_1960 = 1
+
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	IFV_1950_basic_armor = 1
+	#IFV_1950_basic_engine = 1
+	IFV_1960 = 1
+
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+	MBT_1950_basic_armor = 1
+	MBT_1960 = 1
+
+	#kugelpanzer_tech = 1
+
+ 	##ARTY##
+ 	antiair5 = 1
+ 	antiair_1950 = 1
+ 	SPAA_1950 = 1
+ 	gw_artillery = 1
+ 	artillery4 = 1
+ 	artillery_1950 = 1
+ 	artillery_1950_soft_attack = 1
+ 	SPART_1950 = 1
+ 	SPART_1950_soft_attack = 1
+
+ 	##LAND DOCTRINE##
+ 	maneuver_warfare = 1
+
+ 	##NAVAL##
+ 	ww2_destroyer = 1
+ 	ww2_cruiser = 1
+	basic_cruiser = 1
+ 	ww2_battleship = 1
+ 	ww2_submarine = 1
+ 	basic_submarine = 1
+ 	improved_submarine = 1
+ 	transport = 1
+
+ 	##NAVAL DOCTRINE##
+
+ 	##HELICOPTERS##
+	helicopter_engines = 1
+ 	very_early_helicopter = 1
+ 	early_helicopter = 1
+ 	transport_helicopter_1960 = 1
+ 	attack_helicopter_1960 = 1
+
+ 	##LIGHT AIR##
+ 	early_fighter = 1
+ 	interceptor_1945 = 1
+ 	interceptor_1950 = 1
+ 	fighter_1945 = 1
+ 	fighter_1950 = 1
+ 	CAS_1945 = 1
+ 	CAS_1950 = 1
+
+ 	##HEAVY AIR##
+ 	tac_bomber1 = 1
+ 	tac_air_1945 = 1
+ 	tac_air_1950 = 1
+ 	tac_air_1960 = 1
+ 	strategic_bomber1 = 1
+ 	heavy_air_1945 = 1
+ 	heavy_air_1950 = 1
+ 	heavy_air_1960 = 1
+ 	transport_air1 = 1
+ 	transport_air_1945 = 1
+ 	transport_air_1950 = 1
+ 	transport_air_1960 = 1
+
+ 	##ENGINEERING##
+ 	electronic_mechanical_engineering = 1
+ 	radio = 1
+ 	radio_detection = 1
+ 	decimetric_radar = 1
+ 	mechanical_computing = 1
+ 	computing_machine = 1
+ 	basic_encryption = 1
+ 	basic_decryption = 1
+ 	improved_computing_machine = 1
+ 	improved_encryption = 1
+
+
+	##INDUSTRY##
+	ww2_line_production = 1
+	mass_production_1 = 1
+	countrywide_improvements = 1
+	dispersed_industry1 = 1
+	
+	oil_processing = 1
+	rubber_processing = 1
+	constructionmethods = 1
+    construction0 = 1
+	resource_extraction_methods = 1
+    excavation0 = 1
+	construction1 = 1
+	excavation1 = 1
+	military_construction0 = 1
+	batch_production_1 = 1
+}
+
+set_research_slots = 3
+set_convoys = 60
+add_manpower = 27000
+
+add_ideas = {
+	Pakt_Military_Authority
+	CRN_garrison
+	CRN_beachhead_5
+	CRN_Extreme_Overextension
+	CRN_GER_reliance
+	CRN_No_Gov
+	##MINISTERS##
+	CRN_Franz_Halder_dep
+	CRN_Rudolf_Schmundt_eco
+	CRN_Eberhard_Kinzel_for
+	CRN_Franz_Six_sec
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending
+	tno_training_basic_training
+	tno_racial_integration_none
+	tno_draft_exemptions_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_security_service
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_25
+	tno_army_professionalism_professional
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_modern
+	tno_agriculture_mass_mechanized
+	tno_research_facilities_modern
+	tno_academic_base_secondary_schooling
+}
+
+#OFN Embargos
+add_opinion_modifier = { target = USA modifier = embargo }
+add_opinion_modifier = { target = CAN modifier = embargo }
+add_opinion_modifier = { target = AST modifier = embargo }
+add_opinion_modifier = { target = GUY modifier = embargo }
+add_opinion_modifier = { target = NZL modifier = embargo }
+add_opinion_modifier = { target = ICE modifier = embargo }
+add_opinion_modifier = { target = WIN modifier = embargo }
+add_opinion_modifier = { target = BLZ modifier = embargo }
+
+#CPS Embargos
+add_opinion_modifier = { target = JAP modifier = embargo }
+add_opinion_modifier = { target = CHI modifier = embargo }
+add_opinion_modifier = { target = PHI modifier = embargo }
+add_opinion_modifier = { target = INS modifier = embargo }
+add_opinion_modifier = { target = BUR modifier = embargo }
+add_opinion_modifier = { target = SIA modifier = embargo }
+add_opinion_modifier = { target = CAM modifier = embargo }
+add_opinion_modifier = { target = LAO modifier = embargo }
+add_opinion_modifier = { target = VIN modifier = embargo }
+add_opinion_modifier = { target = SYO modifier = embargo }
+add_opinion_modifier = { target = HUI modifier = embargo }
+add_opinion_modifier = { target = GXC modifier = embargo }
+add_opinion_modifier = { target = MAN modifier = embargo }
+add_opinion_modifier = { target = SIC modifier = embargo }
+add_opinion_modifier = { target = GUZ modifier = embargo }
+add_opinion_modifier = { target = SHX modifier = embargo }
+add_opinion_modifier = { target = BEN modifier = embargo }
+add_opinion_modifier = { target = GNG modifier = embargo }
+add_opinion_modifier = { target = YUN modifier = embargo }
+add_opinion_modifier = { target = BHU modifier = embargo }
+
+create_country_leader = {
+	name = "Franz Halder"
+	desc = "POLITICS_FRANZ_HALDER_DESC"
+	picture = "Portrait_Cornwall_Franz_Halder.dds"
+	expire = "1972.3.12"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Heinz Jost"
+	desc = "POLITICS_HEINZ_JOST_DESC"
+	picture = "Portrait_Cornwall_Heinz_Jost.dds"
+	expire = "1972.3.12"
+	ideology = burgundian_system_subtype
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Franz Halder"
+	picture = "Portrait_Cornwall_Franz_Halder.dds"
+	traits = { skilled_staffer old_guard brilliant_strategist organisational_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+	id = 696
+}
+
+create_corps_commander = {
+	name = "Eberhard Kinzel"
+	picture = "Portrait_Cornwall_Eberhard_Kinzel.dds"
+	traits = { infantry_officer trait_cautious old_guard }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 697
+}
+
+create_corps_commander = {
+	name = "Max Sachsenheimer"
+	picture = "Portrait_Cornwall_Max_Sachsenheimer.dds"
+	traits = { trait_engineer career_officer trait_reckless inflexible_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 698
+}
+
+create_corps_commander = {
+	name = "Rudolf Schmundt"
+	picture = "Portrait_Cornwall_Rudolf_Schmundt.dds"
+	traits = { politically_connected old_guard infantry_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 699
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_very_light = 1
+	    basic_ship_hull_very_light = 1
+	}
+	set_naval_oob = CRN_mtg_navy_1962
+	create_equipment_variant = {
+		name = "Leipzig-class"
+		type = ship_hull_very_light_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_naval_oob = CRN_navy_1962
+	create_equipment_variant = {
+		name = "Rostock-class"
+		type = destroyer_1
+		name_group = GER_DD_HISTORICAL
+	}
+}

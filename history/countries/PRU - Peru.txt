@@ -1,0 +1,35 @@
+﻿capital = 303
+
+oob = "PRU_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1931.10.11"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 3
+    social_democrat = 23
+    social_liberal = 41
+    market_liberal = 0
+    social_conservative = 33
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Manuel Prado Ugarteche"
+	desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
+	picture = "Portrait_Peru_Manuel_Ugarteche.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}

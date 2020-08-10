@@ -1,0 +1,244 @@
+﻿capital = 219
+
+oob = "SHK_civilwar"
+
+set_technology = {
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	motorized_infantry = 1
+	marines = 1
+	tech_mountaineers = 1
+	paratroopers = 1
+	tech_support = 1
+	tech_engineers = 1
+	advanced_light_tank = 1
+	antiair5 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	basic_frigate = 1
+	ww2_destroyer = 1
+	basic_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	transport = 1
+	
+
+	###THE BLOCK OF DEATH###
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1 
+	tech_engineers_flamethrowers_1 = 1 
+	support_weapons2 = 1 
+	support_weapons3 = 1 
+	infantry_at2 = 1
+	infantry_at3 = 1
+	infantry_weapons_3 = 1 
+	paratroopers2 = 1 
+	 
+	 
+	 
+	motorized_rocket_unit = 1 
+	tech_special_forces = 1 
+	advanced_special_forces = 1
+	improved_special_forces = 1 
+	artillery_1950 = 1 
+	artillery_1950_soft_attack = 1 
+	antiair_1950 = 1 
+	antiair_1950_air_attack = 1 
+	tech_engineers2 = 1 
+	marines2 = 1 
+	tech_recon = 1 
+	tech_recon2 = 1 
+	tech_military_police = 1 
+	tech_military_police2 = 1 
+	tech_maintenance_company = 1 
+	tech_maintenance_company2 = 1 
+	tech_field_hospital = 1 
+	tech_field_hospital2 = 1 
+	tech_logistics_company = 1 
+	tech_logistics_company2 = 1 
+	tech_signal_company = 1 
+	tech_signal_company2 = 1
+	tech_mountaineers2 = 1 
+	motorized_infantry_1 = 1
+	mechanised_infantry3 = 1 
+	APC_1950 = 1 
+	APC_1950_basic_turret = 1
+	IFV_1950 = 1 
+	IFV_1950_basic_turret = 1 
+	MBT_1950 = 1 
+	MBT_1950_basic_turret = 1 
+	infantry_at = 1
+
+	###BLOCK OF DEATH###
+	
+
+
+
+	early_fighter = 1
+	fighter_1945 = 1
+	CAS_1945 = 1
+	tac_bomber1 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	decimetric_radar = 1 
+	centimetric_radar = 1 
+	radar_1950 = 1 
+	improved_computing_machine = 1 
+	advanced_computing_machine = 1 
+	computing_machine_1950 = 1 
+	improved_encryption = 1 
+	advanced_encryption = 1 
+	encryption_1950 = 1 
+	improved_decryption = 1 
+	advanced_decryption = 1 
+	decryption_1950 = 1 
+	constructionmethods = 1
+    construction0 = 1 
+	 
+	 
+	helicopter_engines = 1 
+	jet_engines = 1 
+	#ww_2_rocketry = 1 
+	#SRBM_0 = 1 
+		resource_extraction_methods = 1
+    excavation0 = 1 
+
+	ww2_line_production = 1
+	mass_production_1 = 1 
+	countrywide_improvements = 1 
+	dispersed_industry1 = 1 
+	construction1 = 1 
+	excavation1 = 1 
+	military_construction0 = 1 
+	military_construction1 = 1 
+}
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1962.2.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 3
+    socialist = 13
+    social_democrat = 24
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 60
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+set_research_slots = 2
+set_stability = 0.54
+set_war_support = 0.72
+
+create_country_leader = {
+	name = "Talwinder Singh Parmar"
+	desc = "POLITICS_TALWINDER_SINGH_PARMAR_DESC"
+	expire = "1989.1.1"
+	picture = "Portrait_Khalistan_Talwinder_Singh_Parmar.dds"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_corps_commander = { 
+	name = "Madan Lal Pahwa"
+	picture = "Portrait_Khalistan_Madan_Lal_Pahwa.dds"
+	traits = { war_hero infantry_officer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = { 
+	name = "Joginder Singh Dhillon"
+	picture = "Portrait_India_Joginder_Singh_Dhillon.dds"
+	traits = { war_hero armor_officer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Shabeg Singh"
+	picture = "Portrait_Khalistan_Shabeg_Singh.dds"
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Jagjit Singh Aurora"
+	picture = "Portrait_Khalistan_Jagjit_Singh_Aurora.dds"
+	traits = { trait_cautious }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Teja Singh Swatantar"
+	picture = "Portrait_Khalistan_Teja_Singh_Swatantar.dds"
+	traits = { politically_connected skilled_staffer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Kashmir Singh Katoch"
+	picture = "Portrait_Khalistan_Kashmir_Singh_Katoch.dds"
+	traits = { infantry_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}

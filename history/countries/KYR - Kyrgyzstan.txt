@@ -1,0 +1,185 @@
+﻿ capital = 586
+
+oob = "KYR_1962"
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	#Standard#
+	KYR_Stabilization_Regime
+
+	#Ministers#
+	KYR_Ivan_Grishin_hog
+	KYR_Zurakan_Imankalykova_for
+	KYR_Sultan_Ibraimov_eco
+	KYR_Kaliynur_Usenbekov_sec
+
+	#Political#
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_pluralism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_skilled
+
+	#Military#
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+
+	#Economic#
+	tno_trade_laws_export_focus
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+
+	#Social#
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_segregation
+	tno_security_security_service
+}
+
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	#infantry_aa = 1
+	#infantry_aa2 = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ARTY##
+	artillery4 = 1
+	antiair5 = 1
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+
+	IFV_1950 = 1
+
+	MBT_1950 = 1
+
+	##AIRCRAFT##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	CAS_1945 = 1
+	##HEAVY AIRCRAFT##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+	construction0 = 1
+	military_construction0 = 1
+}
+
+set_popularities = {
+	communist = 33
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	despotism = 67
+	social_conservative = 0
+	authoritarian_democrat = 0
+	fascism = 0
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Ivan Grishin"
+	desc = "POLITICS_IVAN_GRISHIN_DESC"
+	picture = "Portrait_Kyrgyzstan_Ivan_Grishin.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Sultan Ibraimov"
+	#desc = ""
+	picture = "Portrait_Kyrgyzstan_Sultan_Ibraimov.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+### Generals ###
+create_corps_commander = {
+	name = "Kaliynur Usenbekov"
+	picture = "Portrait_Kyrgyzstan_Kaliynur_Usenbekov.dds"
+	traits = { politically_connected organizer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	id = 15101
+}
+
+create_corps_commander = {
+	name = "Andrei Grebnev"
+	picture = "Portrait_Kyrgyzstan_Andrei_Grebnev.dds"
+	traits = { career_officer trickster }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 15102
+}

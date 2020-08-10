@@ -1,0 +1,187 @@
+﻿capital = 760
+
+oob = "SEV_1962"
+
+add_ideas = {
+	### Standard ###
+	RUS_warlord_manpower
+	RUS_petty_warlords_fiefdom
+
+	### Ministers ###
+	SEV_Gurzhap_Ochirov_hog
+	SEV_Nikolay_Abramenkov_for
+	SEV_Taras_Desyatkin_eco
+	SEV_Ivan_Shlapakov_sec
+
+	### Political ###
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_illegal
+	tno_immigration_closed_borders
+	tno_slavery_outlawed
+	tno_public_meetings_outlawed
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_banned
+
+	### Military###
+	tno_conscription_two_year_draft
+	tno_women_military_assistance
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_minimal_training
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_none
+
+	### Economic ###
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_child_labor_illegal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+
+	### Social ###
+	tno_safety_minimal_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_segregation
+	tno_security_police
+
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_disgruntled_veterans
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+}
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	#infantry_aa = 1
+	#infantry_aa2 = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ARTY##
+	artillery4 = 1
+	antiair5 = 1
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+
+	IFV_1950 = 1
+
+	MBT_1950 = 1
+
+	##AIRCRAFT##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	CAS_1945 = 1
+	##HEAVY AIRCRAFT##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+	construction0 = 1
+	military_construction0 = 1
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 8
+	ultranational_socialism = 1
+	national_socialism = 9
+	socialist = 5
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 3
+	authoritarian_democrat = 0
+	despotism = 74
+	fascism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Gurzhap Ochirov"
+	desc = "POLITICS_GURZHAP_OCHIROV_DESC"
+	picture = "Portrait_Aldan_Gurzhap_Ochirov.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+### Generals ###
+create_corps_commander = {
+	name = "Gurzhap Ochirov"
+	picture = "Portrait_Aldan_Gurzhap_Ochirov.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	traits = { war_hero winter_specialist }
+	id = 3731
+}
+
+create_corps_commander = {
+	name = "Ivan Shlapakov"
+	picture = "Portrait_Aldan_Ivan_Shlapakov.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	traits = { career_officer organizer }
+	id = 3732
+}

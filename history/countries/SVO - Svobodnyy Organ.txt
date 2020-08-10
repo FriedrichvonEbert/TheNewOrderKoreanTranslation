@@ -1,0 +1,267 @@
+﻿capital = 329
+
+oob = "SVO_1962"
+add_manpower = 13000
+
+add_ideas = {
+	### National Spirits ###
+	RUS_warlord_manpower
+	RUS_siberia_plan_startscreen
+	SVO_factionalism
+	SVO_red_army_exile
+
+	### Ministers ###
+	SVO_Grigory_Shtern_hog
+ 	SVO_Ivan_Ivanov_for
+ 	SVO_Jambyn_Batmonkh_eco
+ 	SVO_Jamiyangiin_Lkhagvasuren_sec
+
+	### Political Laws ###
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_all_allowed
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_open
+
+	### Military Laws ###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+
+	### Social Laws ###
+	tno_safety_minimal_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_segregation
+	tno_security_police
+
+	### Economic Laws ###
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+
+	### Societal Development ###
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_cronyism
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_basic
+	tno_academic_base_basic_literacy
+}
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	motorized_infantry = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+
+	##ARTY##
+	artillery4 = 1
+
+	##ARMOR##
+	advanced_light_tank = 1
+
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+
+	##INDUSTRY##
+	ww2_line_production = 1
+	military_construction0 = 1
+
+	helicopter_engines = 1
+	very_early_helicopter = 1
+ 	early_helicopter = 1
+	IFV_1950 = 1
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment
+	amount = 500
+}
+
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment
+	amount = 90
+}
+
+add_equipment_to_stockpile = {
+	type = IFV_equipment_0
+	amount = 50
+}
+
+add_equipment_to_stockpile = {
+	type = transport_helicopter_equipment
+	amount = 40
+}
+
+set_politics = {
+	ruling_party = communist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 72
+	authoritarian_democrat = 28
+}
+
+### Country Leader ###
+create_country_leader = {
+	name = "Aleksandr Vasilevsky"
+	desc = "POLITICS_ALEKSANDER_VASILEVSKY_DESC"
+	picture = "Portrait_Svobodnyy_Organ_Alexander_Vasilevsky.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Aleksandr Vasilevsky"
+	picture = "Portrait_Svobodnyy_Organ_Alexander_Vasilevsky.dds"
+	traits = { war_hero brilliant_strategist inspirational_leader organizer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+	id = 3686
+}
+
+create_corps_commander = {
+	name = "Grigori Shtern"
+	picture = "Portrait_Svobodnyy_Organ_Grigori_Shtern.dds"
+	traits = { old_guard infantry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3687
+}
+
+create_corps_commander = {
+	name = "Issa Pliyev"
+	picture = "Portrait_Svobodnyy_Organ_Issa_Pliev.dds"
+	traits = { cavalry_officer career_officer cavalry_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3688
+}
+
+create_corps_commander = {
+	name = "Pavel Batitsky"
+	picture = "Portrait_Svobodnyy_Organ_Pavel_Batitsky.dds"
+	traits = { career_officer cavalry_leader combined_arms_expert }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3689
+}
+
+create_corps_commander = {
+	name = "Leonid Brezhnev"
+	picture = "Portrait_Svobodnyy_Organ_Leonid_Brezhnev.dds"
+	traits = { politically_connected panzer_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3690
+}
+
+create_corps_commander = {
+	name = "Alexander Oskin"
+	picture = "Portrait_Svobodnyy_Organ_Alexander_Oskin.dds"
+	traits = { armor_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3691
+}
+
+create_corps_commander = {
+	name = "Batyn Dorzh"
+	picture = "Portrait_Svobodnyy_Organ_Batyn_Dorzh.dds"
+	traits = { cavalry_officer cavalry_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 4
+	id = 3692
+}
+
+create_corps_commander = {
+	name = "Butochiyn Tsog"
+	picture = "Portrait_Svobodnyy_Organ_Butochiyn_Tsog.dds"
+	traits = { career_officer organizer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3693
+}
+
+create_corps_commander = {
+	name = "Jamiyangiin Lkhagvasuren"
+	picture = "Portrait_Svobodnyy_Organ_Jamiyangiin_Lkhagvasuren.dds"
+	traits = { career_officer cavalry_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 1
+	id = 3694
+}
+
+create_corps_commander = {
+	name = "Lodongiin Dandar"
+	picture = "Portrait_Svobodnyy_Organ_Lodongiin_Dandar.dds"
+	traits = { infantry_officer trickster }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3695
+}

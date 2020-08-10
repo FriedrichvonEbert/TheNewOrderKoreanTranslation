@@ -1,0 +1,460 @@
+﻿capital = 897
+
+oob = "NOR_1962"
+
+set_variable = { nor_demlove = 0 }
+set_variable = { nor_gerlove = 0 }
+
+set_technology = {
+ 	##INFANTRY##
+ 	# infantry_equipment_0 = 1
+ 	infantry_weapons_1 = 1
+ 	infantry_weapons_2 = 1
+ 	infantry_weapons_improvements_1 = 1
+ 	infantry_weapons_improvements_2 = 1
+ 	infantry_weapons_improvements_3 = 1
+ 	infantry_weapons_improvements_4 = 1
+ 	infantry_weapons_3 = 1
+ 	basic_infantry_equipment = 1
+ 	support_weapons = 1
+ 	support_weapons2 = 1
+ 	support_weapons3 = 1
+ 	infantry_at = 1
+ 	infantry_at2 = 1
+ 	infantry_at3 = 1
+ 	
+ 	motorized_infantry = 1
+ 	motorized_rocket_unit = 1
+ 	motorized_infantry_1 = 1
+ 	marines = 1
+ 	tech_mountaineers = 1
+ 	paratroopers = 1
+
+ 	##SUPPORT##
+ 	tech_support = 1
+ 	tech_engineers = 1
+ 	tech_engineers_flamethrowers_1 = 1
+ 	tech_engineers2 = 1
+ 	tech_engineers_flamethrowers_2 = 1
+ 	tech_engineers3 = 1
+ 	tech_recon = 1
+ 	tech_recon2 = 1
+ 	tech_military_police = 1
+ 	tech_military_police2 = 1
+ 	tech_military_police3 = 1
+ 	tech_maintenance_company = 1
+ 	tech_maintenance_company2 = 1
+ 	tech_field_hospital = 1
+ 	tech_logistics_company = 1
+ 	tech_signal_company = 1
+
+ 	##ARMOR##
+ 	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+
+ 	##ARTY##
+ 	antiair5 = 1
+ 	antiair_1950 = 1
+ 	SPAA_1950 = 1
+ 	gw_artillery = 1
+ 	artillery4 = 1
+ 	artillery_1950 = 1
+ 	artillery_1950_soft_attack = 1
+ 	SPART_1950 = 1
+ 	SPART_1950_soft_attack = 1
+ 	#SPART_1950_speed = 1
+
+ 	##LAND DOCTRINE##
+ 	strategic_theorem = 1
+
+ 	##NAVAL##
+ 	ww2_destroyer = 1
+ 	ww2_cruiser = 1
+	basic_cruiser = 1
+ 	ww2_submarine = 1
+ 	transport = 1
+
+ 	##NAVAL DOCTRINE##
+
+ 	##HELICOPTERS##
+ 	very_early_helicopter = 1
+ 	early_helicopter = 1
+
+ 	##LIGHT AIR##
+ 	early_fighter = 1
+ 	interceptor_1945 = 1
+ 	interceptor_1950 = 1
+ 	fighter_1945 = 1
+ 	fighter_1950 = 1
+ 	CAS_1945 = 1
+ 	CAS_1950 = 1
+
+ 	##HEAVY AIR##
+ 	tac_bomber1 = 1
+ 	tac_air_1945 = 1
+ 	tac_air_1950 = 1
+ 	strategic_bomber1 = 1
+ 	heavy_air_1945 = 1
+ 	heavy_air_1950 = 1
+ 	transport_air1 = 1
+ 	transport_air_1945 = 1
+ 	transport_air_1950 = 1
+
+ 	##ENGINEERING##
+ 	electronic_mechanical_engineering = 1
+ 	radio = 1
+ 	radio_detection = 1
+ 	decimetric_radar = 1
+ 	centimetric_radar = 1
+ 	mechanical_computing = 1
+ 	computing_machine = 1
+ 	basic_encryption = 1
+ 	basic_decryption = 1
+ 	improved_computing_machine = 1
+ 	improved_encryption = 1
+ 	improved_decryption = 1
+ 	advanced_computing_machine = 1
+ 	advanced_encryption = 1
+ 	computing_machine_1950 = 1
+ 	helicopter_engines = 1
+ 	jet_engines = 1
+ 	jet_engines_bombers = 1
+ 	improved_jet_engines_bombers_1 = 1
+
+	##INDUSTRY##
+	ww2_line_production = 1
+	mass_production_1 = 1
+	mass_production_2 = 1
+	countrywide_improvements = 1
+	dispersed_industry1 = 1
+	dispersed_industry2 = 1
+	
+	oil_processing = 1
+	constructionmethods = 1
+    construction0 = 1
+	resource_extraction_methods = 1
+    excavation0 = 1
+	construction1 = 1
+	excavation1 = 1
+	construction2 = 1
+	excavation2 = 1
+	military_construction0 = 1
+	military_construction1 = 1
+	batch_production_1 = 1
+	batch_production_2 = 1
+}
+
+set_research_slots = 3
+set_convoys = 100
+
+set_stability = 0.4
+set_war_support = 0.15
+
+add_ideas = {
+	###FACTION###
+	Pakt_Autonomous_Reichskommissariat
+	###SPIRITS###
+    NOR_the_overstayed_occupation
+    NOR_Milorg
+	NOR_argricultural_devolution
+	###MINISTERS###
+	NOR_Gulbrand_Lunde_hog
+	NOR_Minister_Hans_Skarphagen_eco
+	NOR_Minister_Rolf_Jrgen_Fuglesang_for
+	NOR_Jonas_Lie_sec
+    ##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+    tno_immigration_quota_immigration
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending 
+	tno_training_basic_training
+	tno_racial_integration_none
+	tno_draft_exemptions_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_security_service
+	##ECONOMIC LAWS##
+	tno_trade_laws_export_focus
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_25
+	tno_army_professionalism_professional
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_modern
+	tno_agriculture_mass_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+}
+
+#OFN Embargos
+add_opinion_modifier = { target = USA modifier = embargo }
+add_opinion_modifier = { target = CAN modifier = embargo }
+add_opinion_modifier = { target = AST modifier = embargo }
+add_opinion_modifier = { target = GUY modifier = embargo }
+add_opinion_modifier = { target = NZL modifier = embargo }
+add_opinion_modifier = { target = ICE modifier = embargo }
+add_opinion_modifier = { target = WIN modifier = embargo }
+add_opinion_modifier = { target = BLZ modifier = embargo }
+
+#CPS Embargos
+add_opinion_modifier = { target = JAP modifier = embargo }
+add_opinion_modifier = { target = CHI modifier = embargo }
+add_opinion_modifier = { target = PHI modifier = embargo }
+add_opinion_modifier = { target = INS modifier = embargo }
+add_opinion_modifier = { target = BUR modifier = embargo }
+add_opinion_modifier = { target = SIA modifier = embargo }
+add_opinion_modifier = { target = CAM modifier = embargo }
+add_opinion_modifier = { target = LAO modifier = embargo }
+add_opinion_modifier = { target = VIN modifier = embargo }
+add_opinion_modifier = { target = SYO modifier = embargo }
+add_opinion_modifier = { target = HUI modifier = embargo }
+add_opinion_modifier = { target = GXC modifier = embargo }
+add_opinion_modifier = { target = MAN modifier = embargo }
+add_opinion_modifier = { target = SIC modifier = embargo }
+add_opinion_modifier = { target = GUZ modifier = embargo }
+add_opinion_modifier = { target = SHX modifier = embargo }
+add_opinion_modifier = { target = BEN modifier = embargo }
+add_opinion_modifier = { target = GNG modifier = embargo }
+add_opinion_modifier = { target = YUN modifier = embargo }
+add_opinion_modifier = { target = BHU modifier = embargo }
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 20
+    authoritarian_democrat = 0
+    despotism = 10
+    fascism = 40
+    national_socialism = 30
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Knut Møyen"
+	desc = "POLITICS_KNUT_MOYEN_DESC"
+	picture = "Portrait_Norway_Knut_Moyen.dds"
+	expire = "1984.3.20"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Per Borten"
+	desc = "POLITICS_PER_BORTEN_DESC"
+	picture = "Portrait_Norway_Per_Borten.dds"
+	expire = "2005.1.20"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Josef Terboven"
+	desc = "POLITICS_JOSEF_TERBOVEN_DESC"
+	picture = "Portrait_Norway_Josef_Terboven.dds"
+	expire = "1972.5.6"
+	ideology = fascism_subtype
+}
+
+create_country_leader = {
+	name = "Jonas Lie"
+	desc = "POLITICS_JONAS_LIE_DESC"
+	picture = "Portrait_Norway_Jonas_Lie.dds"
+	expire = "1973.11.5"
+	ideology = national_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Einar Gerhardsen"
+	desc = "POLITICS_EINAR_GERHARDSEN_DESC"
+	picture = "Portrait_Norway_Einar_Gerhardsen.dds"
+	expire = "1987.9.19"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Gunnar Garbo"
+	desc = "POLITICS_GUNNAR_GARBO_DESC"
+	picture = "Portrait_Norway_Gunnar_Garbo.dds"
+	expire = "2016.6.29"
+	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Alv Kjøs"
+	desc = "POLITICS_ALV_KJOS_DESC"
+	picture = "Portrait_Norway_Alv_Kjos.dds"
+	expire = "1990.4.14"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Knut Løfsnes"
+	desc = "POLITICS_KNUT_LOFSNES_DESC"
+	picture = "Portrait_Norway_Knut_Lofsnes.dds"
+	expire = "1996.1.5"
+	ideology = socialist_subtype
+}
+
+### Unit Leaders ###
+create_field_marshal = {
+	name = "Eduard Dietl"
+	picture = "Portrait_Norway_Eduard_Dietl.dds"
+	traits = { trait_mountaineer organisational_leader politically_connected }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 790
+}
+
+create_corps_commander = {
+	name = "Max-Josef Pemsel"
+	picture = "Portrait_Norway_Max_Josef_Pemsel.dds"
+	traits = { infantry_leader career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 784
+}
+
+create_corps_commander = {
+	name = "Paul Klatt"
+	picture = "Portrait_Norway_Paul_Klatt.dds"
+	traits = { trait_mountaineer infantry_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 785
+}
+
+# create_corps_commander = {
+# 	name = "Jürgen Bennecke"
+# 	picture = "Portrait_Norway_Jurgen_Bennecke.dds"
+# 	traits = { career_officer organizer infantry_officer }
+# 	skill = 4
+# 	attack_skill = 2
+# 	defense_skill = 3
+# 	planning_skill = 4
+# 	logistics_skill = 3
+# 	# id = 
+# }
+
+create_navy_leader = {
+	name = "Helmut Möhlmann"
+	picture = "Portrait_Norway_Helmut_Mohlmann.dds"
+	traits = { seawolf silent_hunter }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 1
+	id = 791
+}
+
+create_navy_leader = {
+	name = "Hans-Georg Hess"
+	picture = "Portrait_Norway_Hans_Georg_Hess.dds"
+	traits = { seawolf mine_sweeper }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 2
+	id = 792
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = NOR_mtg_navy_1962
+	create_equipment_variant = {
+		name = "Type XXVI-Class"
+		type = ship_hull_submarine_2
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+    	}
+	}
+	create_equipment_variant = {
+		name = "Rostock-Class"
+		type = ship_hull_more_light_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_sonar_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+    	}
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_naval_oob = NOR_navy_1962
+	create_equipment_variant = {
+		name = "Rostock-Class"
+		type = frigate_2
+		name_group = GER_DD_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "Type XXVI-Class"
+		type = submarine_2
+		name_group = GER_SS_HISTORICAL
+	}
+}

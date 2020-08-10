@@ -1,0 +1,167 @@
+﻿capital = 583
+
+oob = "DER_1962"
+
+set_stability = 1.0
+set_war_support = 1.0
+
+add_manpower = 15000
+
+add_ideas = {
+	##STANDARD##
+	RUS_terror_bombing
+	DER_base_idea
+	DER_islamic_brigades
+	RUS_warlord_manpower
+	##MINISTERS##
+	DER_Nikolai_Zabelkin_hog
+	DER_Alyubay_Dairov_for
+	DER_Sadwaqas_Ghylmani_eco
+	DER_Vasily_Afanasyev_sec
+	##POLITICAL LAWS##
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_state_religion
+	tno_trade_unions_nonsocialist_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_allowed
+	tno_public_meetings_allowed
+	##MILITARY LAWS###
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_minimal_training
+	tno_racial_integration_segregated_regiments
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_flat_taxes
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_disgruntled_veterans
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_centralized
+	tno_research_facilities_makeshift
+	tno_academic_base_basic_literacy
+}
+
+set_research_slots = 2
+set_stability = 0.7
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	tech_mountaineers = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+	communist = 0
+	socialist = 14
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	despotism = 68
+	social_conservative = 5
+	authoritarian_democrat = 0
+	fascism = 10
+	national_socialism = 3
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Nikolai Zabelkin"
+	desc = "POLITICS_NIKOLAI_ZABELKIN_DESC"
+	picture = "Portrait_DER_Nikolai_Zabelkin.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Nikolai Zabelkin"
+	picture = "Portrait_DER_Nikolai_Zabelkin.dds"
+	traits = { war_hero defensive_doctrine inspirational_leader  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3486
+}
+
+create_corps_commander = {
+	name = "Sergei Gundenko"
+	picture = "Portrait_DER_Sergei_Gudenko.dds"
+	traits = { infantry_leader desert_fox }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3487
+}
+
+create_corps_commander = {
+	name = "Seytkasim Ashirov"
+	picture = "Portrait_DER_Seytkasim_Ashirov.dds"
+	traits = { cavalry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+	id = 3488
+}
+
+create_corps_commander = {
+	name = "Vasily Afanasyev"
+	picture = "Portrait_DER_Vasily_Afanasyev.dds"
+	traits = { trickster guerilla_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3489
+}

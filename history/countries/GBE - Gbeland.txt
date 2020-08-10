@@ -1,0 +1,167 @@
+﻿capital = 883
+
+add_ideas = {
+	WEST_AFRICA_idea_terror_bombing
+	GBE_idea_ghosts_republic_dahomey
+	GBE_idea_militia_based_army
+
+	GBE_Jean_Baptiste_Hacheme_hog
+	GBE_Benoit_Koffi_Sinzogan_for
+	GBE_Justin_Ahomadegbe_Tometin_eco
+	GBE_Iropa_Maurice_Kouandete_sec
+}
+
+oob = "GBE_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 4
+    authoritarian_democrat = 22
+    despotism = 63
+    fascism = 11
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Mathieu Kérékou"
+	desc = "POLITICS_MATHIEU_KEREKOU_DESC"
+	picture = "Portrait_Gbeland_Mathieu_Kerekou.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sourou-Migan Apithy"
+	desc = "POLITICS_SOUROU_MIGAN_APITHY_DESC"
+	picture = "Portrait_Gbeland_Sourou_Migan_Apithy.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hubert Maga"
+	desc = "POLITICS_HUBERT_MAGA_DESC"
+	picture = "Portrait_Gbeland_Hubert_Maga.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Christophe Soglo"
+	desc = "POLITICS_CHRISTOPHE_SOGLO_DESC"
+	picture = "Portrait_Gbeland_Christophe_Soglo.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ibrahim Babangida"
+	desc = "POLITICS_IBRAHIM_BABANGIDA_DESC"
+	picture = "Portrait_Gbeland_Ibrahim_Babangida.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "Ibrahim Babangida"
+    picture = "Portrait_Gbeland_Ibrahim_Babangida.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+    name = "Christophe Soglo"
+    picture = "Portrait_Gbeland_Christophe_Soglo.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Iropa Maurice Kouandété"
+    picture = "Portrait_Gbeland_Iropa_Maurice_Kouandete.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Alphonse Alley"
+    picture = "Portrait_Gbeland_Alphonse_Alley.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Paul-Émile de Souza"
+    picture = "Portrait_Gbeland_Paul_Emile_de_Souza.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Mathieu Kérékou"
+    picture = "Portrait_Gbeland_Mathieu_Kerekou.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Phillipe Akpo"
+    picture = "Portrait_Gbeland_Phillipe_Akpo.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

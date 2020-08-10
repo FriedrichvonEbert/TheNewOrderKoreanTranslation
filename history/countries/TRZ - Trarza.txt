@@ -1,0 +1,189 @@
+﻿capital = 839
+
+oob = "TRZ_1962"
+
+add_ideas = {
+    TRZ_idea_mauritanian_claims
+    TRZ_idea_military_committee_national_recovery
+
+    TRZ_Moustapha_Ould_Mohamed_Saleck_hog
+    TRZ_Ahmed_Baba_Miske_for
+    TRZ_Ahmed_Ould_Mohamed_Saleh_eco
+    TRZ_Athie_Hamath_sec
+}
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    socialist = 1
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 2
+    authoritarian_democrat = 20
+    despotism = 48
+    fascism = 27
+    national_socialism = 0
+    ultranational_socialism = 2
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Achmed Ould Kerkoub"
+	desc = "POLITICS_ACHMED_OULD_KERKOUB_DESC"
+	picture = "Portrait_Trarza_Achmed_Ould_Kerkoub.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hadrami Ould Khattri"
+	desc = "POLITICS_HADRAMI_OULD_KHATTRI_DESC"
+	picture = "Portrait_Trarza_Hadrami_Ould_Khattri.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Athié Hamath"
+	desc = "POLITICS_ATHIE_HAMATH_DESC"
+	picture = "Portrait_Trarza_Athie_Hamath.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ahmed Salim Ould Sidi"
+	desc = "POLITICS_AHMED_SALIM_OULD_SIDI_DESC"
+	picture = "Portrait_Trarza_Ahmed_Salim_Ould_Sidi.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Moustapha Ould Mohamed Saleck"
+	desc = "POLITICS_MOUSTAPHA_OULD_MOHAMED_SALECK_DESC"
+	picture = "Portrait_Trarza_Moustapha_Ould_Mohamed_Saleck.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ahmed Baba Miské"
+	desc = "POLITICS_ADMED_BABA_MISKE_DESC"
+	picture = "Portrait_Trarza_Ahmed_Baba_Miske.dds"
+	expire = "1965.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "Athié Hamath"
+    picture = "Portrait_Trarza_Athie_Hamath.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+    name = "Ahmed Ould Bouceif"
+    picture = "Portrait_Trarza_Ahmed_Ould_Bouceif.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Cimper Gabriel"
+    picture = "Portrait_Trarza_Cimper_Gabriel.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Mohamed Khouna Ould Haidalla"
+    picture = "Portrait_Trarza_Mohamed_Khouna_Ould_Haidalla.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Maaouya Ould Sid'Ahmed Taya"
+    picture = "Portrait_Trarza_Maaouya_Ould_Sid_Ahmed_Taya.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Moustapha Ould Mohamed Saleck"
+    picture = "Portrait_Trarza_Moustapha_Ould_Mohamed_Saleck.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Ahmed Salim Ould Sidi"
+    picture = "Portrait_Trarza_Ahmed_Salim_Ould_Sidi.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Mohamed Mahmoud Ould Ahmed Louly"
+    picture = "Portrait_Trarza_Mohamed_Mahmoud_Ould_Ahmed_Louly.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

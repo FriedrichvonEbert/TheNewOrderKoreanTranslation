@@ -1,0 +1,271 @@
+﻿capital = 288
+
+oob = "BUR_1962"
+
+
+set_technology = {
+	##INFANTRY##
+ 	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+ 	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	#infantry_aa = 1
+	#infantry_aa2 = 1
+	##SUPPORT##
+ 	tech_support = 1
+ 	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ARTY##
+ 	artillery4 = 1
+	antiair5 = 1
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+
+	IFV_1950 = 1
+	
+	MBT_1950 = 1
+
+	##AIRCRAFT##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	CAS_1945 = 1
+	##HEAVY AIRCRAFT##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+    construction0 = 1
+	military_construction0 = 1
+}
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 3
+    ultranational_socialism = 0
+    socialist = 2
+    social_democrat = 1
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 12
+    despotism = 30
+    fascism = 40
+    national_socialism = 12
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Than Tun"
+	#picture = "Portrait_Burma_Aung_San.tga"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+create_country_leader = {
+	name = "Soe"
+	picture = "Portrait_Burma_Soe.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+create_country_leader = {
+	name = "Ba Swe"
+	picture = "Portrait_Burma_Ba_Swe.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Shwe Kyin"
+	#picture =
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Ba Sein"
+	#picture =
+	expire = "1991.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Nu"
+	#picture = "Portrait_Burma_Thakin_Nu.dds"
+	expire = "1991.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Aung San"
+	picture = "Portrait_Burma_Aung_San.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Ba Maw"
+	desc = "POLITICS_BA_MAW_DESC"
+	picture = "Portrait_Burma_Ba_Maw.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+}
+
+create_country_leader = {
+	name = "Ne Win"
+	picture = "Portrait_Burma_Ne_Win.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+}
+
+create_field_marshal = { 
+	name = "Ne Win"
+	picture = "Portrait_Burma_Ne_Win.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	id = 2702
+}
+
+create_field_marshal = { 
+	name = "Ba Maw"
+	picture = "Portrait_Burma_Ba_Maw.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 2701
+}
+
+create_corps_commander = { 
+	name = "Aung San"
+	picture = "Portrait_Burma_Aung_San.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 2703
+}
+
+create_corps_commander = { 
+	name = "Let Ya"
+	picture = "Let_Ya.tga"
+	traits = { }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 1
+	id = 2706
+}
+
+
+create_corps_commander = { 
+	name = "Kyaw Zaw"
+	picture = "Kyaw_Zaw.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+	id = 2704
+}
+
+create_corps_commander = { 
+	name = "Hmu Aung"
+	picture = "Hmu_Aung.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 2705
+}
+
+
+
+add_ideas = {
+	##Starting##
+	Sphere_Economic_Dependent
+	BUR_Minority_Unrest_dummy
+	BUR_Politicized_Society
+	BUR_Two_Faced_Burma
+	##MINISTERS###
+	BUR_Thakin_Mya_hog
+	BUR_Thakin_Nu_for
+	BUR_Ba_Win_eco
+	BUR_Thakin_Aung_San_sec
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_illegal
+	tno_immigration_closed_borders
+	tno_slavery_outlawed
+	tno_public_meetings_outlawed
+	tno_security_police
+	##MILITARY LAWS###
+	tno_conscription_volunteer_only
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_low_spending
+	tno_training_minimal_training
+	tno_racial_integration_segregated_regiments
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_demilitarized_economy
+	tno_tax_rate_exploitative_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_unlimited_work_day
+}

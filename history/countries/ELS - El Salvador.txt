@@ -1,0 +1,35 @@
+﻿capital = 314
+
+oob = "ELS_1962"
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 4
+    social_democrat = 6
+    social_liberal = 18
+    market_liberal = 0
+    social_conservative = 22
+    authoritarian_democrat = 50
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+create_country_leader = {
+	
+	name = "Jose Maria Lemus"
+	picture = "Portrait_El_Salvador_Jose_Maria_Lemus.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}

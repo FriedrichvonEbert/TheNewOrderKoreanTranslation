@@ -1,0 +1,115 @@
+﻿capital = 318
+
+oob = "HAI_1962"
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 4
+    social_democrat = 7
+    social_liberal = 12
+    market_liberal = 0
+    social_conservative = 20
+    authoritarian_democrat = 24
+    despotism = 0
+    fascism = 33
+    burgundian_system = 0
+}
+
+add_ideas = {
+
+			#IDEAS
+	tno_hai_vodou_cult_of_personality
+	tno_hai_communist_repression
+	
+		#POLITICAL 
+	tno_political_parties_one_party_state 
+	tno_religious_rights_state_atheism 
+	tno_trade_unions_illegal
+	tno_immigration_closed_borders 
+	tno_slavery_allowed
+	tno_public_meetings_outlawed 
+	tno_press_rights_state_press_only 
+	tno_vote_franchise_no_voting 
+	tno_refugees_banned 
+	#MILITARY 
+	tno_conscription_service_by_requirement 
+	tno_women_banned 
+	tno_military_supervision_kill_em_all
+	tno_military_spending_militarycentric_budget
+	tno_training_advanced_training_methods
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_none
+	#SOCIAL 
+	tno_safety_no_regulations 
+	tno_health_care_no_health_care 
+	tno_pollution_no_controls
+	tno_education_public_education 
+	tno_penal_system_penal_slavery 
+	tno_lgbt_rights_lgbt_outlawed 
+	tno_gender_rights_traditional_roles 
+	tno_minorities_oppression 
+	tno_security_preemptive_security 
+	#ECONOMIC 
+	tno_trade_laws_closed_economy 
+	tno_economic_focus_total_mobilization 
+	tno_tax_rate_exploitative_taxation 
+	tno_income_taxation_flat_taxes 
+	tno_minimum_wage_no_minimum_wage 
+	tno_max_workhours_unlimited_work_day 
+	tno_child_labor_legal 
+	tno_pensions_no_pensions 
+	tno_unemployment_no_subsidies
+	
+	construction_level_5
+
+}
+set_stability = 0.72
+set_war_support = 0.78
+create_country_leader = {
+	name = "François Duvalier"
+	picture = "Portrait_Haiti_Francois_Duvalier.dds"
+	expire = "2000.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "François Duvalier"
+	picture = "Portrait_Haiti_Francois_Duvalier.dds"
+	expire = "2000.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "François Duvalier"
+	picture = "Portrait_Haiti_Francois_Duvalier.dds"
+	expire = "2000.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "René Théodore"
+	picture = "Portrait_Haiti_Rene_Theodore.dds"
+	expire = "2000.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}

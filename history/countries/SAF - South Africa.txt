@@ -1,0 +1,671 @@
+﻿capital = 681
+
+oob = "SAF_1962"
+
+SAF_initialize_referendum = yes
+
+set_variable = { SAF_diamond_count = 24 }
+set_variable = { SAF_diamond_gain = 8 }
+set_variable = { SAF_Pakt_Displeasure = .12 }
+
+set_variable = { UNCLE_SAM_army_core_defence_factor = 0.2 }
+set_variable = { UNCLE_SAM_army_org_factor = 0.1 }
+set_variable = { UNCLE_SAM_army_morale_factor = 0.1 }
+set_variable = { UNCLE_SAM_offence = 0.05 }
+set_variable = { UNCLE_SAM_army_speed_factor = 0.10 }
+set_variable = { UNCLE_SAM_research = 0.05 }
+set_variable = { UNCLE_SAM_weeklymanpower = 300 }
+
+
+add_ideas = {
+    SAF_The_Empty_Throne
+	SAF_Desperate_Neutrality
+	SAF_Divided_Nation
+    #POLITICAL
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+	#MILITARY
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_combat_schooling
+	tno_racial_integration_none
+	tno_draft_exemptions_educational_deferment
+	#SOCIAL
+	tno_safety_acceptable_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_elite_only
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_segregation
+	tno_security_security_service
+	#ECONOMIC
+	tno_trade_laws_free_trade
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_acceptable_pensions
+	tno_unemployment_trinket_subsidies
+	#SOCIETAL DEVELOPMENT
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_disgruntled_veterans
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_factory_complexes
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_secondary_schooling
+	construction_level_8
+	### MINISTERS ###
+	SAF_Jan_Hendrik_Hofmeyr_dep
+	SAF_Colin_Eglin_mil
+	SAF_Vause_Raw_for
+	SAF_Barend_du_Plessis_eco
+}
+
+set_research_slots = 3
+set_convoys = 200
+add_war_support = 0.15
+add_manpower = 180000
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_2
+	amount = 1500
+	producer = SAF
+}
+
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_1
+	amount = 800
+	producer = SAF
+}
+
+add_equipment_to_stockpile = {
+	type = motorized_equipment_2
+	amount = 500
+	producer = SAF
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 800
+	producer = SAF
+}
+
+set_technology = {
+ 	##INFANTRY##
+ 	infantry_weapons_1 = 1
+ 	infantry_weapons_2 = 1
+ 	infantry_weapons_improvements_1 = 1
+ 	infantry_weapons_improvements_2 = 1
+ 	infantry_weapons_improvements_3 = 1
+ 	basic_infantry_equipment = 1
+ 	support_weapons = 1
+ 	support_weapons2 = 1
+ 	infantry_at = 1
+
+ 	motorized_infantry = 1
+ 	motorized_rocket_unit = 1
+ 	motorized_infantry_1 = 1
+ 	tech_mountaineers = 1
+ 	tech_mountaineers2 = 1
+
+ 	##SUPPORT##
+ 	tech_support = 1
+ 	tech_engineers = 1
+ 	tech_engineers_flamethrowers_1 = 1
+ 	tech_engineers2 = 1
+ 	tech_recon = 1
+ 	tech_recon2 = 1
+
+ 	##ARMOR##
+ 	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	IFV_1950_basic_armor = 1
+	#IFV_1950_basic_engine = 1
+
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+	MBT_1950_basic_armor = 1
+	
+ 	##ARTY##
+ 	antiair5 = 1
+ 	antiair_1950 = 1
+ 	SPAA_1950 = 1
+ 	gw_artillery = 1
+ 	artillery4 = 1
+ 	artillery_1950 = 1
+ 	SPART_1950 = 1
+
+ 	##LAND DOCTRINE##
+
+ 	##NAVAL##
+ 	ww2_frigate = 1
+	ww2_submarine = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	transport = 1
+	landing_craft = 1
+	early_ship_hull_very_light = 1
+	early_ship_hull_more_light = 1
+	early_ship_hull_light = 1
+	basic_depth_charges = 1
+	sonar = 1
+	improved_sonar = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_submarine = 1
+	basic_torpedo = 1
+	basic_battery = 1
+	basic_secondary_battery = 1
+	damage_control_1 = 1
+	mtg_transport = 1
+
+ 	##NAVAL DOCTRINE##
+
+ 	##HELICOPTERS##
+ 	very_early_helicopter = 1
+ 	early_helicopter = 1
+ 	transport_helicopter_1960 = 1
+
+ 	##LIGHT AIR##
+ 	early_fighter = 1
+ 	interceptor_1945 = 1
+ 	fighter_1945 = 1
+ 	fighter_1950 = 1
+ 	CAS_1945 = 1
+ 	CAS_1950 = 1
+
+ 	##HEAVY AIR##
+ 	tac_bomber1 = 1
+ 	tac_air_1945 = 1
+ 	tac_air_1950 = 1
+ 	strategic_bomber1 = 1
+ 	heavy_air_1945 = 1
+ 	heavy_air_1950 = 1
+ 	transport_air1 = 1
+ 	transport_air_1945 = 1
+ 	transport_air_1950 = 1
+
+ 	##ENGINEERING##
+ 	electronic_mechanical_engineering = 1
+ 	radio = 1
+ 	radio_detection = 1
+ 	decimetric_radar = 1
+
+ 	mechanical_computing = 1
+ 	computing_machine = 1
+ 	basic_encryption = 1
+ 	basic_decryption = 1
+ 	improved_computing_machine = 1
+ 	improved_encryption = 1
+ 	improved_decryption = 1
+ 	advanced_computing_machine = 1
+ 	computing_machine_1950 = 1
+
+ 	helicopter_engines = 1
+ 	jet_engines = 1
+ 	jet_engines_bombers = 1
+ 	improved_jet_engines_bombers_1 = 1
+ 	
+	##INDUSTRY##
+	ww2_line_production = 1
+	#mass_production_1 = 1
+	countrywide_improvements = 1
+	concentrated_industry1 = 1
+	batch_production_1 = 1
+	batch_production_2 = 1
+	
+	oil_processing = 1
+	rubber_processing = 1
+	constructionmethods = 1
+    construction0 = 1
+	resource_extraction_methods = 1
+    excavation0 = 1
+	excavation1 = 1
+	construction1 = 1
+	military_construction0 = 1
+	military_construction1 = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_intelligence_agency = {
+		name = "Bureau of State Security"
+		icon = "GFX_intelligence_agency_logo_saf"
+	}
+}
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 6
+    ultranational_socialism = 0
+    socialist = 12
+    social_democrat = 4
+    social_liberal = 9
+    market_liberal = 0
+    social_conservative = 36
+    authoritarian_democrat = 26
+    despotism = 3
+    fascism = 4
+    burgundian_system = 0
+}
+
+USA = {
+	add_opinion_modifier = {
+		target = SAF
+		modifier = SAF_bastion
+	}
+}
+
+create_country_leader = {
+	name = "Sir De Villiers Graaff"
+	desc = "POLITICS_VILLIERS_GRAAFF_DESC"
+	picture = "Portrait_South_Africa_Sir_de_Viller_Graaf.dds"
+	expire = "1999.4.20"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Charles Fraser"
+	picture = "Portrait_South_Africa_Charles_Fraser.dds"
+	traits = { old_guard bearer_of_artillery organisational_leader desert_fox }
+	id = 3801
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Constand Viljoen"
+	picture = "Portrait_South_Africa_Constand_Viljoen.dds"
+	traits = { trait_reckless commando paratrooper }
+	id = 3802
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Georg Meiring"
+	picture = "Portrait_South_Africa_Georg_Meiring.dds"
+	traits = { career_officer trickster }
+	id = 3803
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Johannes Geldenhuys"
+	picture = "Portrait_South_Africa_Johannes_Geldenhuys.dds"
+	traits = { trait_engineer infantry_leader }
+	id = 3804
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Nick Bierman"
+	picture = "Portrait_South_Africa_Nick_Bierman.dds"
+	traits = { war_hero desert_fox }
+	id = 3805
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Pieter Grobbelaar"
+	picture = "Portrait_South_Africa_Pieter_Grobbelaar.dds"
+	traits = { war_hero panzer_leader hill_fighter }
+	id = 3806
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Hendrik Klopper"
+	picture = "Portrait_South_Africa_Hendrik_Klopper.dds"
+	traits = { media_personality defensive_doctrine infantry_leader desert_fox }
+	id = 3807
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Christiaan du Toit"
+	picture = "Portrait_South_Africa_Christiaan_du_Toit.dds"
+	traits = { career_officer infantry_leader }
+	id = 3808
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Hugo Biermann"
+	picture = "Portrait_South_Africa_Hugo_Biermann.dds"
+	traits = { fleet_protector superior_tactician }
+	id = 3809
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "James Johnson"
+	picture = "Portrait_South_Africa_James_Johnson.dds"
+	traits = { spotter destroyer_leader mine_layer }
+	id = 3810
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Ronald Edwards"
+	picture = "Portrait_South_Africa_Ronald_Edwards.dds"
+	traits = { seawolf silent_hunter blockade_runner }
+	id = 3811
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+### Defectors to the Boers###
+
+create_corps_commander = {
+	name = "Andreas Liebenberg"
+	picture = "Portrait_South_Africa_Andreas_Liebenberg.dds"
+	traits = { harsh_leader infantry_leader }
+	id = 3812
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Magnus Malan"
+	picture = "Portrait_South_Africa_Magnus_Malan.dds"
+	traits = { politically_connected media_personality infantry_leader organizer }
+	id = 3813
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Sybrand Engelbrecht"
+	picture = "Portrait_South_Africa_Sybrand_Engelbrecht.dds"
+	traits = { old_guard inflexible_strategist trait_engineer  }
+	id = 3814
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Willem Louw"
+	picture = "Portrait_South_Africa_Willem_Louw.dds"
+	traits = { war_hero panzer_leader desert_fox }
+	id = 3815
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Johan Charl Walters"
+	picture = "Portrait_South_Africa_Johan_Charl_Walters.dds"
+	traits = { blockade_runner fly_swatter }
+	id = 3816
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = SAF_mtg_navy_1962
+	create_equipment_variant = {
+		name = "Illustrious Class"
+		type = carrier_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_radar_slot = ship_radar_3
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+    	}
+	}
+	
+	create_equipment_variant = {
+		name = "Nelson Class"
+		type = ship_hull_heavy_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_1
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_anti_air_2
+			front_1_custom_slot = ship_anti_air_2
+			rear_1_custom_slot = ship_heavy_battery_1
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Dido Class"
+		type = ship_hull_cruiser_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot =  ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_light_medium_battery_1 
+			rear_1_custom_slot = empty
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "County Class"
+		type = ship_hull_cruiser_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = ship_anti_air_1
+    	}
+	}
+
+
+	create_equipment_variant = {
+		name = "J Class"
+		type = ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "M Class"
+		type = ship_hull_submarine_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "River Class"
+		type = ship_hull_more_light_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+    	}
+	}
+	
+	create_equipment_variant = {
+		name = "Flower Class"
+		type = ship_hull_very_light_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_naval_oob = SAF_navy_1962
+	create_equipment_variant = {
+		name = "Nelson Class"
+		type = battleship_1
+		name_group = GER_BB_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "J Class"
+		type = destroyer_1
+		name_group = GER_DD_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "County Class"
+		type = heavy_cruiser_1
+		name_group = GER_CA_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "Dido Class"
+		type = light_cruiser_1
+		name_group = GER_CL_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "River Class"
+		type = frigate_1
+		name_group = GER_DD_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "M Class"
+		type = submarine_1
+		parent_version = 0
+	}
+}

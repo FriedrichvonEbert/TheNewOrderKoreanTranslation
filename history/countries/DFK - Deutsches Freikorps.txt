@@ -1,0 +1,105 @@
+﻿capital = 229
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 30
+    socialist = 0
+    social_democrat =0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 50
+    fascism = 0
+    national_socialism = 20
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Otto Weidinger"
+	desc = "POLITICS_OTTO_WEIDINGER_DESC"
+	picture = "Portrait_Deutsches_Freikorps_Otto_Weidinger.dds"
+	expire = "1995.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Otto Weidinger"
+	desc = "POLITICS_OTTO_WEIDINGER_DESC"
+	picture = "Portrait_Deutsches_Freikorps_Otto_Weidinger.dds"
+	expire = "1995.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Otto Weidinger"
+	desc = "POLITICS_OTTO_WEIDINGER_DESC"
+	picture = "Portrait_Deutsches_Freikorps_Otto_Weidinger.dds"
+	expire = "1995.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	#ideas#
+	DFK_Funding_from_the_Shadows
+	DFK_Band_of_Brothers
+	DFK_Rule_of_the_Mercenaries
+
+	#political#
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_all_allowed
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_universal
+	tno_refugees_open
+	
+	#military#
+	tno_conscription_service_by_requirement
+	tno_women_combat_roles
+	tno_military_supervision_no_supervision
+	tno_military_spending_militarycentric_budget
+	tno_training_minimal_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	
+	#economic#
+	tno_trade_laws_closed_economy
+	tno_economic_focus_total_mobilization
+	tno_tax_rate_no_taxation
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_no_pensions
+	tno_unemployment_low_subsidies
+	
+	#social#
+	tno_safety_limited_regulations
+	tno_health_care_universal_health_care
+	tno_pollution_some_regulations
+	tno_education_free_education
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_allowed
+	tno_gender_rights_gender_equality
+	tno_minorities_equal_rights
+	tno_security_anarchic
+}

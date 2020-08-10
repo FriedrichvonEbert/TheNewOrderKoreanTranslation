@@ -1,0 +1,179 @@
+﻿capital = 833
+
+oob = "BKR_1962"
+
+add_ideas = {
+	WEST_AFRICA_idea_obliterated_infrastructures
+	BKF_idea_remnant_francophilia
+	BKF_idea_relative_democracy
+
+	BKF_Maurice_Yameogo_hog
+	BKF_Moussa_Kargougou_for
+	BKF_Gerard_Kango_Ouedraogo_eco
+	BKF_Aboubacar_Sangoule_Lamizana_sec
+}
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 10
+    socialist = 3
+    social_democrat = 2
+    social_liberal = 1
+    market_liberal = 0
+    social_conservative = 14
+    authoritarian_democrat = 52
+    despotism = 15
+    fascism = 3
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Henri Zongo"
+	desc = "POLITICS_HENRI_ZONGO_DESC"
+	picture = "Portrait_Burkina_Faso_Henri_Zongo.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Ki-Zerbo"
+	desc = "POLITICS_JOSEPH_KI_ZERBO_DESC"
+	picture = "Portrait_Burkina_Faso_Joseph_Ki_Zerbo.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Ouédraogo"
+	desc = "POLITICS_JOSEPH_OUEDRAOGO_DESC"
+	picture = "Portrait_Burkina_Faso_Joseph_Ouedraogo.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Macaire Ouédraogo"
+	desc = "POLITICS_MAURICE_OUEDRAOGO_DESC"
+	picture = "Portrait_Burkina_Faso_Macaire_Ouedraogo.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Maurice Yaméogo"
+	desc = "POLITICS_MAURICE_YAMEOGO_DESC"
+	picture = "Portrait_Burkina_Faso_Maurice_Yameogo.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Naaba Kougri"
+	desc = "POLITICS_NAABA_KOUGRI_DESC"
+	picture = "Portrait_Burkina_Faso_Naaba_Kougri.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aboubacar Sangoulé Lamizana"
+	desc = "POLITICS_ABOUBACAR_SANGOULE_LAMIZANA_DESC"
+	picture = "Portrait_Burkina_Faso_Aboubacar_Sangoule_Lamizana.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "Aboubacar Sangoulé Lamizana"
+    picture = "Portrait_Burkina_Faso_Aboubacar_Sangoule_Lamizana.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+    name = "Jean-Baptiste Boukary Lingani"
+    picture = "Portrait_Burkina_Faso_Jean_Baptiste_Boukary_Lingani.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Jean-Baptiste Ouédraogo"
+    picture = "Portrait_Burkina_Faso_Jean_Baptiste_Ouedraogo.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Yaoua Marcel Tamini"
+    picture = "Portrait_Burkina_Faso_Yaoua_Marcel_Tamini.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Saye Zerbo"
+    picture = "Portrait_Burkina_Faso_Saye_Zerbo.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Kango Ouédraogo"
+    picture = "Portrait_Burkina_Faso_Kango_Ouedraogo.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

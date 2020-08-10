@@ -1,0 +1,112 @@
+﻿capital = 836
+
+oob = "FTF_1962"
+
+add_ideas = {
+	WEST_AFRICA_idea_obliterated_infrastructures
+	FTF_idea_murtalas_realm
+	FTF_idea_nascent_nationalism
+
+	FTF_Murtala_Mohammed_hog
+	FTF_Barema_Bocoum_for
+	FTF_Amadou_Hampate_Ba_eco
+	FTF_Tunde_Idiagbon_sec
+}
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 4
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 23
+    despotism = 9
+    fascism = 64
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Djibo Bakary"
+	desc = "POLITICS_DJIBO_BAKARY_DESC"
+	picture = "Portrait_Fuuta_Fulbe_Djibo_Bakary.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hamani Diori"
+	desc = "POLITICS_HAMANI_DIORI_DESC"
+	picture = "Portrait_Fuuta_Fulbe_Hamani_Diori.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Amadou Hampâté Bâ"
+	desc = "POLITICS_AMADOU_HAMPATE_BA_DESC"
+	picture = "Portrait_Fuuta_Fulbe_Amadou_Hampate_Ba.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Murtala Mohammed"
+	desc = "POLITICS_MURTALA_MOHAMMED_DESC"
+	picture = "Portrait_Fuuta_Fulbe_Murtala_Mohammed.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal  = {
+    name = "Murtala Mohammed"
+    picture = "Portrait_Fuuta_Fulbe_Murtala_Mohammed.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Muhammadu Buhari"
+    picture = "Portrait_Cameroon_Muhammadu_Buhari.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Tunde Idiagbon"
+    picture = "Portrait_Cameroon_Tunde_Idiagbon.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

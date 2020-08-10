@@ -1,0 +1,511 @@
+﻿capital = 137
+
+#set_cosmetic_tag = CRI_GER
+
+add_ideas = {
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+    tno_immigration_quota_immigration
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending 
+	tno_training_basic_training
+	tno_racial_integration_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	##Ministers##
+	CRI_Wilhelm_Meisel_hog
+	CRI_Fritz_Krauss_sec
+	CRI_Karl_Topp_eco
+	CRI_Eberhard_Godt_for
+}
+
+set_research_slots = 3
+set_convoys = 200
+set_stability = 0.4
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1935.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 5
+    authoritarian_democrat = 31
+    despotism = 0
+    fascism = 0
+    national_socialism = 64
+}
+
+create_country_leader = {
+	name = "Karl Dönitz"
+	desc = "POLITICS_KARL_DONITZ_DESC"
+	picture = "Portrait_CRI_Karl_Donitz.dds"
+	expire = "1999.10.12"
+	ideology = national_socialism_subtype
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "donitz_mtg_navy"
+	create_equipment_variant = {
+		name = "Bismarck Class"
+		type = ship_hull_heavy_1
+		name_group = GER_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_1
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_heavy_battery_1
+			front_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Hindenburg Class"
+		type = ship_hull_heavy_1
+		name_group = GER_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_heavy_battery_2
+			front_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Thule Class"
+		type = ship_hull_heavy_2
+		name_group = GER_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_heavy_battery_2
+			front_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Graf Zeppelin Class"
+		type = ship_hull_carrier_1
+		name_group = GER_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_armor_carrier_deck
+		}
+	}
+	create_equipment_variant = {
+		name = "Europa Class"
+		type = ship_hull_carrier_2
+		name_group = GER_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_deck_space
+			mid_1_custom_slot = ship_armor_carrier_deck
+		}
+	}
+	create_equipment_variant = {
+		name = "Raeder Class"
+		type = ship_hull_carrier_2
+		name_group = GER_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_deck_space
+			mid_1_custom_slot = ship_secondaries_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Adler Class"
+		type = ship_hull_carrier_3
+		name_group = GER_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_radar_slot = ship_radar_3
+			fixed_ship_engine_slot = carrier_ship_engine_3
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_armor_carrier_deck
+			mid_2_custom_slot = ship_deck_space
+		}
+	}
+	create_equipment_variant = {
+		name = "Type XX-Class"
+		type = ship_hull_submarine_1
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Type XXI-Class"
+		type = ship_hull_submarine_1
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Type XXVI-Class"
+		type = ship_hull_submarine_2
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Type XXV-Class"
+		type = ship_hull_submarine_2
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Type 401-Class"
+		type = ship_hull_submarine_3
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_3
+			fixed_ship_torpedo_slot = ship_torpedo_sub_3
+			rear_1_custom_slot = ship_torpedo_sub_3
+			mid_1_custom_slot = ship_radar_3
+			front_1_custom_slot = ship_torpedo_sub_3
+		}
+	}
+	create_equipment_variant = {
+		name = "M-Class"
+		type = ship_hull_cruiser_1
+		name_group = GER_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_medium_battery_2
+			mid_1_custom_slot = ship_airplane_launcher_1
+			front_1_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Admiral Hipper Class"
+		type = ship_hull_cruiser_1
+		name_group = GER_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_medium_battery_2
+			mid_1_custom_slot = ship_anti_air_2
+			front_1_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Deutschland Class"
+		type = ship_hull_cruiser_1
+		name_group = GER_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_medium_battery_2
+			mid_1_custom_slot = ship_anti_air_2
+			front_1_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "K-Class"
+		type = ship_hull_cruiser_1
+		name_group = GER_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_light_medium_battery_1
+			mid_1_custom_slot = ship_torpedo_1
+			front_1_custom_slot = ship_light_medium_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Moltke Class"
+		type = ship_hull_cruiser_2
+		name_group = GER_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_torpedo_2
+			front_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "P-Class"
+		type = ship_hull_cruiser_2
+		name_group = GER_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_medium_battery_2
+			mid_2_custom_slot = ship_anti_air_4
+			mid_1_custom_slot = ship_airplane_launcher_2
+			front_1_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Otto Class"
+		type = ship_hull_cruiser_2
+		name_group = GER_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_medium_battery_2
+			mid_2_custom_slot = ship_anti_air_4
+			mid_1_custom_slot = ship_airplane_launcher_2
+			front_1_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1944"
+		type = ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1934"
+		type = ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1950"
+		type = ship_hull_light_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_torpedo_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1955"
+		type = ship_hull_light_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_light_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Type 44 Torpedoboot"
+		type = ship_hull_very_light_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_battery_slot = ship_light_battery_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_torpedo_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Leipzig-Class"
+		type = ship_hull_very_light_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_battery_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_light_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "F-Class Escort Ship"
+		type = ship_hull_more_light_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_battery_slot = ship_light_battery_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Rostock-Class"
+		type = ship_hull_more_light_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_sonar_2
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_battery_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_depth_charge_2
+			rear_1_custom_slot = ship_depth_charge_2
+		}
+	}
+}

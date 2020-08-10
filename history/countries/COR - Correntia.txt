@@ -1,0 +1,150 @@
+﻿capital = 1111
+
+oob = "COR_1962"
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 19
+	authoritarian_democrat = 23
+	despotism = 17
+	fascism = 41
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Tullio Moneta"
+	desc = "POLITICS_OJUKWU_DESC"
+	picture = "Portrait_Tullio_Moneta.dds"
+	expire = "1989.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	#standard#
+
+
+	#political#
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_illegal
+	tno_immigration_closed_borders
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_banned
+
+	#military#
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending
+	tno_training_none
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_educational_deferment
+
+	#economic#
+	tno_trade_laws_free_trade
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_no_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_legal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+
+	#social#
+	tno_safety_no_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_oppression
+	tno_security_anarchic
+
+	#ministers#
+	COR_Guido_Cortese_hog
+	COR_Michele_Sindona_eco
+	COR_Gianadelio_Maletti_sec
+	COR_Ferruccio_Stefenelli_for
+}
+
+### GENERALS ###
+
+create_corps_commander = {
+	name = "Armand Iannarelli"
+	picture = "Portrait_Armand_Iannarelli.dds"
+	traits = {  desert_fox harsh_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	id = 1896
+}
+
+create_corps_commander = {
+	name = "Girolamo Nony Simonetti"
+	picture = "Portrait_Girolamo_Nony_Simonetti.dds"
+	traits = { infantry_officer desert_fox }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 1897
+}
+
+create_corps_commander = {
+	name = "Giustino De Vuono"
+	picture = "Portrait_Giustino_De_Vuono.dds"
+	traits = { infantry_officer trait_cautious trait_engineer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 1898
+}
+
+create_corps_commander = {
+	name = "Robert Muller"
+	picture = "Portrait_Robert_Muller.dds"
+	traits = { trait_reckless trickster desert_fox }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	id = 1899
+}
+
+create_field_marshal = {
+	name = "Sebastiano Veneziano"
+	picture = "Portrait_Sebastiano_Veneziano.dds"
+	traits = { trait_cautious organizer thorough_planner skilled_staffer  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 1900
+}

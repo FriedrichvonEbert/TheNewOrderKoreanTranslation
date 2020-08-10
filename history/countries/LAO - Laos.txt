@@ -1,0 +1,117 @@
+﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
+
+oob = "LAO_1962"
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1960.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 16
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 55
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 15
+    despotism = 14
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Souphanouvong"
+	picture = "Portrait_Laos_Souphanouvong.dds"
+	expire = "1999.12.12"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Souvanna Phouma"
+	picture = "Portrait_Laos_Souvanna_Phouma.dds"
+	expire = "1999.12.12"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Boun Oum"
+	picture = "Portrait_Laos_Boun_Oum.dds"
+	expire = "1999.12.12"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sisavang Vatthana"
+	picture = "Portrait_Laos_Sisavang_Vatthana.dds"
+	expire = "1999.12.12"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+add_ideas = {
+	#COUNTRY
+	Sphere_Fully_Dependent
+	#POLITICAL
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_all_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_universal
+	tno_refugees_vetted_entry
+	#MILITARY
+	tno_conscription_one_year_draft
+	tno_women_military_assistance
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_religious_deferment
+	#SOCIAL
+	tno_safety_acceptable_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_police
+	#ECONOMIC
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+	#DEVELOPMENT#
+	tno_poverty_rate_80
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_manufacturing_lines
+	tno_agriculture_subsistence
+	tno_research_facilities_basic
+	tno_academic_base_mass_illiteracy
+	tno_army_professionalism_cronyism
+	tno_nuclear_stockpile_none
+	#MINISTERS
+	LAO_Boun_Oum_hog
+	LAO_Sisouk_na_Champassak_eco
+	LAO_Sisouk_na_Champassak_for
+	LAO_Phoumi_Nosavan_sec
+}

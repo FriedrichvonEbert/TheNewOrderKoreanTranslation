@@ -1,0 +1,430 @@
+﻿capital = 284
+
+oob = "NZL_1962"
+
+set_technology = {
+	transport = 1
+	advanced_medium_tank = 1
+	advanced_light_tank = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	tech_support = 1	
+	tech_engineers = 1
+	tech_recon = 1
+	motorized_infantry = 1
+	marines = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fighter_1945 = 1
+	fighter_1950 = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	CAS_1945 = 1
+	cv_1945_CAS = 1
+	CAS_1950 = 1
+	cv_1950_CAS = 1
+	very_early_helicopter = 1
+	early_helicopter = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+	advanced_light_tank = 1
+	APC_1950 = 1
+	APC_1960 = 1
+	IFV_1950 = 1
+	IFV_1960 = 1
+	MBT_1950 = 1
+	MBT_1960 = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	artillery_1950_soft_attack = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+	#SPART_1950_speed = 1
+	antiair5 = 1
+	antiair_1950 = 1
+	antiair_1950_air_attack = 1
+	SPAA_1950 = 1
+	SPAA_1950_air_attack = 1
+	#SPAA_1950_speed = 1
+	
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	radar_1950 = 1
+	radar_1960 = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	computing_machine_1950 = 1
+	computing_machine_1960 = 1
+	basic_encryption = 1
+	improved_encryption = 1
+	advanced_encryption = 1
+	encryption_1950 = 1
+	encryption_1960 = 1
+	basic_decryption = 1
+	improved_decryption = 1
+	advanced_decryption = 1
+	decryption_1950 = 1
+	decryption_1960 = 1
+	
+	
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	improved_jet_engines_1 = 1
+	improved_jet_engines_bombers_1 = 1
+	countrywide_improvements = 1
+	dispersed_industry1 = 1
+	
+	oil_processing = 1
+	construction1 = 1
+	military_construction1 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	infantry_weapons_improvements_5 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	support_weapons4 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	infantry_at4 = 1
+	infantry_at5 = 1
+	
+	
+	
+	
+	motorized_infantry_1 = 1
+	basic_frigate = 1
+	ww2_destroyer = 1
+	basic_destroyer = 1
+	improved_destroyer = 1
+	ww2_cruiser = 1
+	basic_cruiser = 1
+	improved_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	basic_submarine = 1
+	ww2_carrier = 1
+	early_carrier = 1
+	tech_engineers2 = 1
+	tech_engineers3 = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers_flamethrowers_2 = 1
+	tech_recon2 = 1
+	tech_recon3 = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 2
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_logistics_company2 = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_signal_company3 = 1
+}
+
+set_research_slots = 3
+set_convoys = 300
+set_stability = 0.5
+
+add_opinion_modifier = { target = GER modifier = embargo }
+add_opinion_modifier = { target = GGR modifier = embargo }
+add_opinion_modifier = { target = BGR modifier = embargo }
+add_opinion_modifier = { target = HGR modifier = embargo }
+add_opinion_modifier = { target = SGR modifier = embargo }
+add_opinion_modifier = { target = CZE modifier = embargo }
+add_opinion_modifier = { target = GGN modifier = embargo }
+add_opinion_modifier = { target = SLO modifier = embargo }
+add_opinion_modifier = { target = UKR modifier = embargo }
+add_opinion_modifier = { target = MCW modifier = embargo }
+add_opinion_modifier = { target = OST modifier = embargo }
+add_opinion_modifier = { target = COG modifier = embargo }
+add_opinion_modifier = { target = CAU modifier = embargo }
+add_opinion_modifier = { target = SER modifier = embargo }
+add_opinion_modifier = { target = DEN modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = NOR modifier = embargo }
+add_opinion_modifier = { target = CRN modifier = embargo }
+add_opinion_modifier = { target = MAD modifier = embargo }
+add_opinion_modifier = { target = MZB modifier = embargo }
+add_opinion_modifier = { target = ANG modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = BRG modifier = embargo }
+add_opinion_modifier = { target = BUL modifier = embargo }
+add_opinion_modifier = { target = ENG modifier = embargo }
+add_opinion_modifier = { target = FRA modifier = embargo }
+add_opinion_modifier = { target = BRT modifier = embargo }
+add_opinion_modifier = { target = IRE modifier = embargo }
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1960.11.26"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 10
+    social_democrat = 33
+    social_liberal = 9
+    market_liberal = 0
+    social_conservative = 48
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+set_stability = 0.6
+set_war_support = 0.6
+
+add_ideas = {	
+	#Faction Status
+	OFN_Independent_Member
+
+	NZL_Relative_Isolation
+	NZL_American_Dominated_Trade
+	NZL_Urbanization_Crisis
+}
+
+create_country_leader = {
+	name = "Keith Holyoake"
+	desc = "POLITICS_KEITH_HOLYAOKE_DESC"
+	picture = "Portrait_NZL_Keith_Holyoake.dds"
+	expire = "1994.4.20"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arnold Nordmeyer"
+	desc = "POLITICS_ARNOLD_NORDMEYER_DESC"
+	picture = "Portrait_NZL_Arnold_Nordmeyer.dds"
+	expire = "1994.4.20"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vernon Cracknell"
+	desc = "POLITICS_VERNON_CRACKNELL_DESC"
+	picture = "Portrait_NZL_Vernon_Cracknell.dds"
+	expire = "1994.4.20"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Brian Poananga"
+	desc = "POLITICS_BRIAN_POANANGA_DESC"
+	picture = "Portrait_NZL_Brian_Poananga.dds"
+	#expire = "1995.9.5"
+	traits = {
+		media_personality
+		infantry_officer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "E.J. Torrance"
+	desc = "POLITICS_E_J_TORRANCE_DESC"
+	picture = "Portrait_NZL_E_J_Torrance.dds"
+	#expire = "2002.3.17"
+	traits = {
+		infantry_leader
+		infantry_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Richard Bolt"
+	desc = "POLITICS_RICHARD_BOLT_DESC"
+	picture = "Portrait_NZL_Richard_Bolt.dds"
+	#expire = "2002.3.17"
+	traits = {
+		career_officer
+		armor_officer
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Keith Lindsay Stewart"
+	desc = "POLITICS_KEITH_LINDSAY_STEWART_DESC"
+	picture = "Portrait_NZL_Keith_Lindsay_Stewart.dds"
+	#expire = "1972.11.13"
+	traits = {
+		thorough_planner
+		armor_officer
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Richard Webb"
+	desc = "POLITICS_RICHARD_WEBB_DESC"
+	picture = "Portrait_NZL_Richard_Webb.dds"
+	#expire = "1990.1.24"
+	traits = {
+		career_officer
+		thorough_planner
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "A.H. Andrews"
+	desc = "POLITICS_A_H_ANDREWS_DESC"
+	picture = "Portrait_NZL_A_H_Andrews.dds"
+	#expire = "1988.10.5"
+	traits = {
+		career_officer
+		war_hero
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "T.J. King"
+	desc = "POLITICS_RICHARD_WEBB_DESC"
+	picture = "Portrait_NZL_T_J_King.dds"
+	#expire = "2002.9.14"
+	traits = {
+		war_hero
+		desert_fox
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Terry Neil Culley"
+	desc = "POLITICS_TERRY_NEIL_CULLEY_DESC"
+	picture = "Portrait_NZL_Terry_Neil_Culley.dds"
+	#expire = "1996.6.24"
+	traits = {
+		career_officer
+		commando
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Edward Thorne"
+	desc = "POLITICS_EDWARD_THORNE_DESC"
+	picture = "Portrait_NZL_Edward_Thorne.dds"
+	#expire = "2013.10.23"
+	traits = {
+		gunnery_expert
+		destroyer_leader
+	}
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "John McKenzie"
+	desc = "POLITICS_JOHN_MCKENZIE_DESC"
+	picture = "Portrait_NZL_John_McKenzie.dds"
+	#expire = "2000.2.9"
+	traits = {
+		navy_career_officer
+		gentlemanly
+	}
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "John Ross"
+	desc = "POLITICS_JOHN_ROSS_DESC"
+	picture = "Portrait_NZL_John_Ross.dds"
+	#expire = "2000.2.9"
+	traits = {
+		navy_career_officer
+		gentlemanly
+	}
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Lawrence George"
+	desc = "POLITICS_LAWRENCE_GEORGE_DESC"
+	picture = "Portrait_NZL_Lawrence_George.dds"
+	#expire = "2000.2.9"
+	traits = {
+		cruiser_captain
+		old_guard_navy
+	}
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Michael Villiers"
+	desc = "POLITICS_MICHAEL_VILLIERS_DESC"
+	picture = "Portrait_NZL_Michael_Villiers.dds"
+	#expire = "2000.2.9"
+	traits = {
+		bold
+		old_guard_navy
+	}
+	skill = 3
+}

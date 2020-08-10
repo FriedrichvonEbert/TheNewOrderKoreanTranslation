@@ -1,0 +1,109 @@
+﻿capital = 333
+
+oob = "NRB_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1961.1.1"
+	election_frequency = 96
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 100
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Baba Masao"
+	desc = "POLITICS_BABA_MASAO_DESC"
+	picture = "Portrait_NRB_Baba_Masao.dds"
+	expire = "1985.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+set_technology = {
+	##INFANTRY##
+ 	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+ 	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	#infantry_aa = 1
+	#infantry_aa2 = 1
+	##SUPPORT##
+ 	tech_support = 1
+ 	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ARTY##
+ 	artillery4 = 1
+	antiair5 = 1
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+
+	IFV_1950 = 1
+	
+	MBT_1950 = 1
+
+	##AIRCRAFT##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	CAS_1945 = 1
+	##HEAVY AIRCRAFT##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+    construction0 = 1
+	military_construction0 = 1
+}
+
+add_ideas = {
+	Sphere_Imp_Protectorate
+	NRB_The_37th_Army
+	NRB_Sarawak_Independence_Movement
+	NRB_Extremely_Underfunded
+}
+
+set_country_flag = NBR_starting_tree

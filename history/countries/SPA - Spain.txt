@@ -1,0 +1,88 @@
+﻿capital = 1013
+
+set_war_support = 0.6
+set_stability = 0.4
+
+oob = "SPA_1962"
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 3
+    ultranational_socialism = 0
+    socialist = 5
+    social_democrat = 7
+    social_liberal = 9
+    market_liberal = 6
+    social_conservative = 11
+    authoritarian_democrat = 27
+    despotism = 32
+    fascism = 0
+    burgundian_system = 0
+}
+
+add_ideas = {
+	#political#
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_no_voting
+	tno_refugees_skilled
+	#military#
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_combat_schooling
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	#economic#
+	tno_trade_laws_limited_exports
+	tno_economic_focus_partial_mobilization
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_low_subsidies
+	#social#
+	tno_safety_acceptable_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_equal_rights
+	tno_security_police 
+	#societal development 
+	tno_academic_base_primary_schooling 
+	tno_research_facilities_outdated 
+	tno_agriculture_basic_mechanized 
+	tno_industrial_equipment_factory_complexes 
+	tno_industrial_expertise_experienced 
+	tno_army_professionalism_political_interference 
+	tno_nuclear_stockpile_none 
+	tno_poverty_rate_15
+}
+
+create_country_leader = {
+	name = "Francisco Franco"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "Portrait_Iberia_Francisco_Franco.dds"
+	expire = "1975.10.20"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}

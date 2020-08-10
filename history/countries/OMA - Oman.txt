@@ -1,0 +1,73 @@
+﻿capital = 294
+
+oob = "OMA_1962"
+
+# Starting tech
+set_technology = {
+
+# Infantry
+	infantry_weapons_1 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	
+# Support
+	tech_support = 1
+	
+# Armor
+
+# Artillery
+	
+# Land Doctrine
+
+# Naval
+	
+# Helicopters
+
+# Light Aircraft
+	
+# Heavy Aircraft
+	
+# Air Doctrine
+
+# Engineering
+
+# Industry
+}
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 2
+    ultranational_socialism = 15
+    socialist = 3
+    social_democrat = 10
+    social_liberal = 5
+    market_liberal = 0
+    social_conservative = 20
+    authoritarian_democrat = 0
+    despotism = 35
+    fascism = 10
+}
+
+create_country_leader = {
+	name = "Emir Said Bin Taimur"
+	desc = "POLITICS_TAIMUR_DESC"
+	picture = "portrait_Oman_Said_bin_Taimur.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		
+	}
+}
+
+add_ideas = {
+    OMA_the_old_sultan
+	OMA_the_young_heir
+	OMA_whispers_in_the_desert
+}

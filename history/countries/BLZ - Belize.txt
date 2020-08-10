@@ -1,0 +1,56 @@
+﻿capital = 311
+
+oob = "BLZ_1962"
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+add_ideas = {
+OFN_Dependent_Member
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 65
+    social_liberal = 11
+    market_liberal = 0
+    social_conservative = 24
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "George Cadle Price"
+	picture = "Portrait_Belize_George_Cadle_Price.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Herbert Fuller"
+	picture = "Portrait_Belize_George_Cadle_Price.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Denbeigh Jeffery"
+	picture = "Portrait_Belize_George_Cadle_Price.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}

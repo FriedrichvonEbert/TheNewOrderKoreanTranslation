@@ -1,0 +1,561 @@
+﻿capital = 14
+
+oob = "BRT_1962"
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	
+	set_technology = {
+		#Naval
+		
+		early_ship_hull_very_light = 1
+		early_ship_hull_more_light = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1944"
+		type = ship_hull_light_1
+		#name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "F-Class Escort Ship"
+		type = ship_hull_more_light_1
+		#name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Type 44 Torpedoboot"
+		type = ship_hull_very_light_1
+		#name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_torpedo_1
+		}
+	}
+	set_naval_oob = "BRT_1962_navy_mtg"
+}
+
+if = {
+	limit = {
+		NOT = { 
+			has_dlc = "Man the Guns" 
+		}
+	}
+	set_technology = {
+		#Naval
+		
+		ww2_frigate = 1
+		ww2_destroyer = 1
+		ww2_cruiser = 1
+		ww2_battleship = 1
+		ww2_submarine = 1
+		transport = 1
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1944"
+		type = destroyer_1
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "F-Class Escort Ship"
+		type = frigate_1
+		parent_version = 0
+	}
+	set_naval_oob = "BRT_1962_navy_legacy"
+}
+
+add_ideas = {
+		#Spirits
+	BRT_europes_staple_port
+	BRT_breton_national_committee
+	BRT_the_bezen_perrot
+	Pakt_Marionettenstaat
+		
+		#Ministers
+	BRT_Francois_Debeauvais_hog
+	BRT_Yann_Fouere_for
+	BRT_Yann_Bricler_eco
+	BRT_Celestin_Laine_sec
+		
+		#Political
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_secularism
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_corvee
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_elite_voting
+	tno_refugees_skilled
+	
+		#Military Laws
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_basic_training
+	tno_racial_integration_none
+	tno_draft_exemptions_none
+	
+		#Social Laws
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_some_regulations
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_segregation
+	tno_security_police
+	
+		#Economic Laws
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_trinket_subsidies
+	
+		#Societal Development
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_15
+	tno_army_professionalism_political_interference
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_factory_complexes
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_politicized
+	tno_academic_base_secondary_schooling
+	
+		#Construction Spending
+	construction_level_4
+}
+
+set_research_slots = 2
+set_convoys = 100
+set_stability = 0.45
+set_war_support = 0.2
+
+set_technology = {
+	# Infantry
+	
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	infantry_weapons_improvements_5 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	support_weapons4 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	tech_special_forces = 1
+	advanced_special_forces = 1
+	
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	marines2 = 1
+	tech_mountaineers = 1
+	paratroopers = 1
+	
+	#Support
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_engineers_flamethrowers_2 = 1
+	tech_engineers3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_recon3 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+
+	#Armor
+	
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	APC_1950_basic_armor = 1
+	APC_1960 = 1
+
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	IFV_1950_basic_armor = 1
+	IFV_1960 = 1
+	
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	MBT_1950_basic_armor = 1
+	MBT_1960 = 1
+
+	#Artillery
+	
+	antiair5 = 1
+	antiair_1950 = 1
+	light_SPAA_1950 = 1
+	light_SPAA_1950_air_attack = 1
+	SPAA_1950 = 1
+	SPAA_1950_air_attack = 1
+	gw_artillery = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+	light_SPART_1950 = 1
+	light_SPART_1950_soft_attack = 1
+
+	#Helicopters
+	
+	very_early_helicopter = 1
+	early_helicopter = 1
+	transport_helicopter_1960 = 1
+	attack_helicopter_1960 = 1
+	scout_helicopter_1960 = 1
+	asw_helicopter_1960 = 1
+
+	#Light Air
+	
+	early_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	fighter_1945 = 1
+	fighter_1950 = 1
+	CAS_1945 = 1
+	CAS_1950 = 1
+
+	#Heavy Air
+	
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+
+	#Engineering
+	
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	improved_encryption = 1
+	improved_decryption = 1
+	advanced_computing_machine = 1
+	computing_machine_1950 = 1
+	computing_machine_1960 = 1
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	improved_jet_engines_bombers_1 = 1
+	
+	#Industry
+	
+	ww2_line_production = 1
+	mass_production_1 = 1
+	countrywide_improvements = 1
+	concentrated_industry1 = 1
+	resource_extraction_methods = 1
+	oil_processing = 1
+	rubber_processing = 1
+	constructionmethods = 1
+	construction0 = 1
+	excavation0 = 1
+	construction1 = 1
+	excavation1 = 1
+	military_construction0 = 1
+	military_construction1 = 1
+	
+	#Doctrines
+	
+	green_water_navy = 1
+	strategic_theorem = 1
+}
+
+ add_opinion_modifier = { target = USA modifier = embargo }
+ add_opinion_modifier = { target = CAN modifier = embargo }
+ add_opinion_modifier = { target = AST modifier = embargo }
+ add_opinion_modifier = { target = ICE modifier = embargo }
+ add_opinion_modifier = { target = NZL modifier = embargo }
+ add_opinion_modifier = { target = WIN modifier = embargo }
+ add_opinion_modifier = { target = GUY modifier = embargo }
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1940.3.4"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_country_flag = BRT_SAV_exists
+set_country_flag = BRT_SBB_exists
+set_country_flag = BRT_mordrel_in_charge
+
+country_event = {
+	id = BRT.95
+	days = 1
+}
+
+set_popularities = {
+	communist = 0
+    ultranational_socialism = 5
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 5
+    authoritarian_democrat = 10
+    despotism = 0
+    fascism = 45
+    national_socialism = 25
+	burgundian_system = 10
+}
+
+set_variable = { interest_rates = 0.045 }
+set_variable = { national_debt = 125 }
+
+# Country Leaders #
+
+create_country_leader = {
+	name = "Olier Mordrel"
+	desc = "POLITICS_OLIER_MORDREL_DESC"
+	picture = "Portrait_Brittany_Olier_Mordrel.dds"
+	expire = "1986.10.12"
+	ideology = fascism_subtype
+	traits = {
+		dictator
+		the_merchant_of_death
+	}
+}
+
+create_country_leader = {
+	name = "Célestin Lainé"
+	desc = "POLITICS_CELESTIN_LAINE_DESC"
+	picture = "Portrait_Brittany_Celestin_Laine.dds"
+	expire = "1986.10.12"
+	ideology = national_socialism_subtype
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Célestin Lainé"
+	desc = "POLITICS_CELESTIN_LAINE_DESC"
+	picture = "Portrait_Brittany_Celestin_Laine.dds"
+	expire = "1986.10.12"
+	ideology = burgundian_system_subtype
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Yann Goulet"
+	desc = "POLITICS_CELESTIN_LAINE_DESC"
+	picture = "Portrait_Brittany_Yann_Goulet.dds"
+	expire = "1986.10.12"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Raymond Delaporte"
+	desc = "POLITICS_RAYMOND_DELAPORTE_DESC"
+	picture = "Portrait_Brittany_Raymond_Delaporte.dds"
+	expire = "1986.10.12"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Raymond Delaporte"
+	desc = "POLITICS_RAYMOND_DELAPORTE_DESC"
+	picture = "Portrait_Brittany_Raymond_Delaporte.dds"
+	expire = "1986.10.12"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+# Generals #
+
+create_corps_commander = { 
+	name = "Célestin Lainé"
+	picture = "Portrait_Brittany_Celestin_Laine.dds"
+	traits = { politically_connected war_hero ranger hidden_sympathies }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 730
+}
+
+create_corps_commander = { 
+	name = "Yann Goulet"
+	picture = "Portrait_Brittany_Yann_Goulet.dds"
+	traits = { war_hero hidden_sympathies }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	id = 731
+}
+
+create_corps_commander = { 
+	name = "Louis Feutren"
+	picture = "Portrait_Brittany_Louis_Feutren.dds"
+	traits = { trait_cautious urban_assault_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 732
+}
+
+create_corps_commander = { 
+	name = "Alan Heusaff"
+	picture = "Portrait_Brittany_Alan_Heusaff.dds"
+	traits = { media_personality hidden_sympathies }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 733
+}
+
+create_corps_commander = { 
+	name = "Goulven Pennaod"
+	picture = "Portrait_Brittany_Goulven_Pennaod.dds"
+	traits = { war_hero career_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 734
+}
+
+add_equipment_to_stockpile = {
+	type = transport_plane_equipment_2
+	amount = 40
+	producer = BRT
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_2
+	amount = 2000
+	producer = BRT
+}
+
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_1
+	amount = 100
+	producer = BRT
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 150
+	producer = BRT
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

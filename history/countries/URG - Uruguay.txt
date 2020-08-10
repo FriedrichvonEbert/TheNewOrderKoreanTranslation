@@ -1,0 +1,39 @@
+﻿capital = 300
+
+URG = {
+ 	set_cosmetic_tag = URG_FIXED
+}
+
+oob = "URG_1962"
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 2
+    ultranational_socialism = 1
+    socialist = 2
+    social_democrat = 12
+    social_liberal = 29
+    market_liberal = 0
+    social_conservative = 32
+    authoritarian_democrat = 16
+    despotism = 0
+    fascism = 6
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Benito Nardone"
+	picture = "Portrait_Uruguay_Benito_Nardone.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}

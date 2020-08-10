@@ -1,0 +1,168 @@
+﻿capital = 836
+
+oob = "KAY_1962"
+
+add_ideas = {
+	WEST_AFRICA_idea_obliterated_infrastructures
+	KAY_idea_islamic_influences
+	KAY_idea_decentralized_high_command
+
+	KAY_Kissima_Doukara_hog
+	KAY_Abdoulaye_Soumare_for
+	KAY_Moussa_Traore_eco
+	KAY_Yoro_Diakite_sec
+}
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 1
+    socialist = 1
+    social_democrat = 2
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 6
+    authoritarian_democrat = 19
+    despotism = 9
+    fascism = 58
+    national_socialism = 0
+    ultranational_socialism = 4
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Bakara Diallo"
+	desc = "POLITICS_BAKARA_DIALLO_DESC"
+	picture = "Portrait_Kayes_Bakara_Diallo.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fily Dabo Sissoko"
+	desc = "POLITICS_FILY_DABO_SISSOKO_DESC"
+	picture = "Portrait_Kayes_Fily_Dabo_Sissoko.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Boubacar Traoré"
+	desc = "POLITICS_BOUBACAR_TRAORE_DESC"
+	picture = "Portrait_Kayes_Boubacar_Traore.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Seydina Oumar Sy"
+	desc = "POLITICS_SEYDINA_OUMAR_SY_DESC"
+	picture = "Portrait_Kayes_Seydina_Oumar_Sy.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yoro Diakité"
+	desc = "POLITICS_YORO_DIAKITE_DESC"
+	picture = "Portrait_Kayes_Yoro_Diakite.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Moussa Traoré"
+	desc = "POLITICS_MOUSSA_TRAORE_DESC"
+	picture = "Portrait_Kayes_Moussa_Traore.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Moussa Traoré"
+	desc = "POLITICS_MOUSSA_TRAORE_DESC"
+	picture = "Portrait_Kayes_Moussa_Traore.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Moussa Traoré"
+	desc = "POLITICS_MOUSSA_TRAORE_DESC"
+	picture = "Portrait_Kayes_Moussa_Traore.dds"
+	expire = "1965.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+    name = "Moussa Traoré"
+    picture = "Portrait_Kayes_Moussa_Traore.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Yoro Diakité"
+    picture = "Portrait_Kayes_Yoro_Diakite.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Abdoulaye Soumaré"
+    picture = "Portrait_Kayes_Abdoulaye_Soumare.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Tiécoro Bagayoko"
+    picture = "Portrait_Kayes_Tiecoro_Bagayoko.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

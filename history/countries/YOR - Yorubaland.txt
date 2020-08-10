@@ -1,0 +1,145 @@
+﻿capital = 825
+
+add_ideas = {
+	WEST_AFRICA_idea_terror_bombing
+	YOR_idea_shield_against_socialism
+	YOR_idea_benevolent_dictatorship
+
+	YOR_Obafemi_Awolowo_hog
+	YOR_Kofo_Abayomi_for
+	YOR_Henry_Fajemirokun_eco
+	YOR_Olusegun_Obasanjo_mil
+}
+
+oob = "YOR_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 6
+    authoritarian_democrat = 25
+    despotism = 67
+    fascism = 2
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Frederick Fasehun"
+	desc = "POLITICS_FREDERICK_FASEHUN_DESC"
+	picture = "Portrait_Yorubaland_Frederick_Fasehun.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Olu Falae"
+	desc = "POLITICS_OLU_FALAE_DESC"
+	picture = "Portrait_Yorubaland_Olu_Falae.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Obafemi Awolowo"
+	desc = "POLITICS_OBAFEMI_AWOLOWO_DESC"
+	picture = "Portrait_Yorubaland_Obafemi_Awolowo.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ládòkè Akintola"
+	desc = "POLITICS_LADOKE_AKINTOLA_DESC"
+	picture = "Portrait_Yorubaland_Ladoke_Akintola.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "Ládòkè Akintola"
+    picture = "Portrait_Yorubaland_Ladoke_Akintola.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "Mobolaji Johnson"
+    picture = "Portrait_Yorubaland_Mobolaji_Johnson.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Akintunde Akinsehinwa"
+    picture = "Portrait_Yorubaland_Akintunde_Akinsehinwa.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Benjamin Adekunle"
+    picture = "Portrait_Yorubaland_Benjamin_Adekunle.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Olusegun Obasanjo"
+    picture = "Portrait_Yorubaland_Olusegun_Obasanjo.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Akintunde Akinsehinwa"
+    picture = "Portrait_Yorubaland_Akintunde_Akinsehinwa.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

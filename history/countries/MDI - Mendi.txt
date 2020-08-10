@@ -1,0 +1,156 @@
+﻿capital = 700
+
+add_ideas = {
+	WEST_AFRICA_idea_terror_bombing
+	MDI_idea_disloyal_army
+	MDI_idea_disorganized_political_spheres
+
+	MDI_David_Lansana_hog
+	MDI_William_Henry_Fitzjohn_for
+	MDI_Joseph_Saidu_Momoh_eco
+	MDI_Andrew_Juxon_Smith_sec
+}
+
+oob = "MDI_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 1
+    authoritarian_democrat = 23
+    despotism = 68
+    fascism = 8
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Siaka Stevens"
+	desc = "POLITICS_SIAKA_STEVENS_DESC"
+	picture = "Portrait_Mendi_Siaka_Stevens.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Milton Margai"
+	desc = "POLITICS_MILTON_MARGAI_DESC"
+	picture = "Portrait_Mendi_Milton_Margai.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John Amadu Bangura"
+	desc = "POLITICS_JOHN_AMADU_BANGURA_DESC"
+	picture = "Portrait_Mendi_John_Amadu_Bangura.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "David Lansana"
+	desc = "POLITICS_DAVID_LANSANA_DESC"
+	picture = "Portrait_Mendi_David_Lansana.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Andrew Juxon-Smith"
+	desc = "POLITICS_ANDREW_JUXON_SMITH_DESC"
+	picture = "Portrait_Mendi_Andrew_Juxon_Smith.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+    name = "David Lansana"
+    picture = "Portrait_Mendi_David_Lansana.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "John Amadu Bangura"
+    picture = "Portrait_Mendi_John_Amadu_Bangura.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Andrew Juxon-Smith"
+    picture = "Portrait_Mendi_Andrew_Juxon_Smith.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "Joseph Saidu Momoh"
+    picture = "Portrait_Mendi_Joseph_Saidu_Momoh.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Samuel Hinga Norman"
+    picture = "Portrait_Mendi_Samuel_Hinga_Norman.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Foday Sankoh"
+    picture = "Portrait_Mendi_Foday_Sankoh.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

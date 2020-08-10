@@ -1,0 +1,50 @@
+﻿capital = 327
+
+oob = "PHI_1962"
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1935.9.15"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 0
+	socialist = 6
+	social_democrat = 7
+	social_liberal = 8
+	market_liberal = 0
+	social_conservative = 8
+	authoritarian_democrat = 14
+	despotism = 18
+	fascism = 39
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Benigno Aquino Jr."
+	desc = "POLITICS_BENIGNO_AQUINO_JR_DESC"
+	picture = "Portrait_Phillipines_Benigno_Aquino_Jr.dds"
+	expire = "2000.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	#Country#
+	Sphere_Imp_Protectorate
+	PHI_democracy
+	PHI_dictatorship
+	PHI_Banditry
+	#Ministers
+	PHI_Camilo_Osias_hog
+	PHI_Jose_Laurel_eco
+	PHI_Emanuel_Pelaez_for
+	PHI_Jose_Zulueta_sec
+}
+
+set_country_flag = PHI_Aquino_1

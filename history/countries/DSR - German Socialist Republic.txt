@@ -1,0 +1,252 @@
+﻿capital = 55
+
+add_ideas = {
+	#POLITICAL
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_all_allowed
+	tno_immigration_closed_borders
+	tno_slavery_outlawed
+	tno_public_meetings_outlawed
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_banned
+	#MILITARY
+	tno_conscription_service_by_requirement
+	tno_women_combat_roles
+	tno_military_supervision_kill_em_all
+	tno_military_spending_medium_spending
+	tno_training_none
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_none
+	#SOCIAL
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_segregation
+	tno_security_police
+	#ECONOMIC
+	tno_trade_laws_closed_economy
+	tno_economic_focus_total_mobilization
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_high_income_weighted
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_acceptable_pensions
+	tno_unemployment_trinket_subsidies
+	###MINISTERS###
+	DSR_Andreas_Baader_hog_com
+	DSR_Jan_Carl_Raspe_sec
+	DSR_Gudrun_Ensslin_for
+	DSR_Horst_Mahler_eco
+
+	#Construction Level
+	construction_level_7
+}
+
+
+set_politics = {
+	ruling_party = communist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 60
+    socialist = 40
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+}
+
+create_country_leader = {
+	name = "Ulrike Meinhof"
+	desc = "POLITICS_ULRIKE_MEINHOF_DESC"
+	picture = "Portrait_DSR_Ulrike_Meinhof.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+create_country_leader = {
+	name = "Bernhard Sander"
+	desc = "POLITICS_BERNHARD_SANDER_DESC"
+	picture = "Portrait_DSR_Bernhard_Sander.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}
+
+create_field_marshal = { 
+	name = "Ulrike Meinhof"
+	picture = "Portrait_DSR_Ulrike_Meinhof.dds"
+	traits = { media_personality trickster guerilla_fighter urban_assault_specialist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 160
+}
+
+create_field_marshal = { 
+	name = "Andreas Baader"
+	picture = "Portrait_DSR_Andreas_Baader.dds"
+	traits = { trait_reckless infantry_leader trait_engineer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 161
+}
+
+create_corps_commander = { 
+	name = "Astrid Proll"
+	picture = "Portrait_DSR_Astrid_Proll.dds"
+	traits = { trickster guerilla_fighter }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	id = 162
+}
+
+create_corps_commander = { 
+	name = "Egon Krenz"
+	picture = "Portrait_DSR_Egon_Krenz.dds"
+	traits = { politically_connected skilled_staffer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 163
+}
+
+create_corps_commander = { 
+	name = "Gudrun Ensslin"
+	picture = "Portrait_DSR_Gudrun_Ensslin.dds"
+	traits = { politically_connected organizer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 3
+	id = 164
+}
+
+create_corps_commander = { 
+	name = "Gunther Maleuda"
+	picture = "Portrait_DSR_Gunther_Maleuda.dds"
+	traits = { organizer urban_assault_specialist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	id = 165
+}
+
+create_corps_commander = { 
+	name = "Horst Mahler"
+	picture = "Portrait_DSR_Horst_Mahler.dds"
+	traits = { harsh_leader trait_engineer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	id = 166
+}
+
+create_corps_commander = { 
+	name = "Karl Heinz Kurras"
+	picture = "Portrait_DSR_Karl_Heinz_Kurras.dds"
+	traits = { inflexible_strategist infantry_leader urban_assault_specialist }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	id = 167
+}
+
+create_corps_commander = { 
+	name = "Thorwald Proll"
+	picture = "Portrait_DSR_Thorwald_Proll.dds"
+	traits = { trait_reckless hill_fighter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 168
+}
+
+create_corps_commander = { 
+	name = "Fritz Teufel"
+	picture = "Portrait_DSR_Fritz_Teufel.dds"
+	traits = { infantry_leader trickster }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	id = 169
+}
+
+create_corps_commander = { 
+	name = "Holger Meins"
+	picture = "Portrait_DSR_Holger_Meins.dds"
+	traits = { commando skirmisher }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 170
+}
+
+create_corps_commander = { 
+	name = "Horst Sohnlein"
+	picture = "Portrait_DSR_Horst_Sohnlein.dds"
+	traits = { commando trait_engineer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 171
+}
+
+create_corps_commander = { 
+	name = "Jan Carl Raspe"
+	picture = "Portrait_DSR_Jan_Carl_Raspe.dds"
+	traits = { trait_cautious ranger }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 172
+}
+
+create_navy_leader = {
+    name = "Waldemar Verner"
+    picture = "Portrait_GER_Waldemar_Verner.dds"
+    traits = { spotter }
+    skill = 2
+	id = 158
+}

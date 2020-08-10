@@ -1,0 +1,78 @@
+﻿capital = 698
+
+set_war_support = 0.8
+set_stability = 0.5
+
+oob = "FML_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 10
+    despotism = 80
+    fascism = 10
+    burgundian_system = 0
+}
+
+add_ideas = {
+	#political#
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_outlawed
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_skilled
+	#military#
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_none
+	#economic#
+	tno_trade_laws_export_focus
+	tno_economic_focus_partial_mobilization
+	tno_tax_rate_low_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_trinket_pensions
+	tno_unemployment_low_subsidies
+	#social#
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_police
+}
+
+create_country_leader = {
+	name = "Luis Carrero Blanco"
+	desc = "POLITICS_LUIS_CARRERO_BLANCO_DESC"
+	picture = "Portrait_Admiralty_Luis_Carrero_Blanco.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+	}
+}

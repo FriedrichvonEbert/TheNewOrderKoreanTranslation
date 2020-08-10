@@ -1,0 +1,203 @@
+﻿capital = 945
+
+MDM = {
+ 	set_cosmetic_tag = MDM_FIXED
+}
+
+oob = "MDM_1962"
+
+add_ideas = {
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+    tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending 
+	tno_training_basic_training
+	tno_racial_integration_none
+	tno_draft_exemptions_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_police
+	##ECONOMIC LAWS##
+	tno_trade_laws_export_focus
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_25
+	tno_army_professionalism_professional
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_manufacturing_lines
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_basic
+	tno_academic_base_basic_literacy
+}
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 3
+    social_democrat = 4
+    social_liberal = 8
+    market_liberal = 0
+    social_conservative = 2
+    authoritarian_democrat = 46
+    despotism = 37
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Richard Andriamanjato"
+	picture = "Portrait_Madagascar_Richard_Andriamanjato.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_RICHARD_ANDRIAMANJATO_DESC"
+	ideology = communist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Charles Ravoajanahary"
+	picture = "Portrait_Madagascar_Charles_Ravoajanahary.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_CHARLES_RAVOAJANAHARY_DESC"
+	ideology = socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Philibert Tsiranana"
+	picture = "Portrait_Madagascar_Philibert_Tsiranana.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_PHILIBERT_TSIRANANA_DESC"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Monja Jaona"
+	picture = "Portrait_Madagascar_Monja_Jaona.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_MONJA_JAONA_DESC"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jacques Rabemananjara"
+	picture = "Portrait_Madagascar_Jacques_Rabemananjara.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_JACQUES_RABEMANANJARA_DESC"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gabriel Ramanantsoa"
+	picture = "Portrait_Madagascar_Gabriel_Ramanantsoa.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_GABRIEL_RAMANANTSOA_DESC"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Didier Ratsiraka"
+	picture = "Portrait_Madagascar_Didier_Ratsiraka.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_DIDIER_RATSIRAKA_DESC"
+	ideology = despotism_subtype
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Gabriel Ramanantsoa"
+	picture = "Portrait_Madagascar_Gabriel_Ramanantsoa.dds"
+	traits = { career_officer inspirational_leader infantry_leader }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Richard Ratsimandrava"
+	picture = "Portrait_Madagascar_Richard_Ratsimandrava.dds"
+	traits = { media_personality politically_connected jungle_rat }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gilles Andriamahazo"
+	picture = "Portrait_Madagascar_Gilles_Andriamahazo.dds"
+	traits = { desert_fox trait_engineer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+create_navy_leader = {
+	name = "Didier Ratsiraka"
+	picture = "Portrait_Madagascar_Didier_Ratsiraka.dds"
+	traits = { seawolf }
+	id = 4031
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}

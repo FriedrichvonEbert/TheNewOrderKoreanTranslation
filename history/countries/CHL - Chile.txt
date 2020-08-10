@@ -1,0 +1,35 @@
+﻿capital = 279
+
+oob = "CHL_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 2
+    ultranational_socialism = 0
+    socialist = 2
+    social_democrat = 19
+    social_liberal = 49
+    market_liberal = 0
+    social_conservative = 16
+    authoritarian_democrat = 12
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Jorge Alessandri"
+	picture = "Portrait_Chile_Jorge_Alessandri.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}

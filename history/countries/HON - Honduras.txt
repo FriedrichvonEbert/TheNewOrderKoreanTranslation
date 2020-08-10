@@ -1,0 +1,37 @@
+﻿capital = 312
+
+oob = "HON_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+HON = { add_opinion_modifier = { target = JAP modifier = TNO_japanese_influenced } }
+GUA = { add_opinion_modifier = { target = JAP modifier = TNO_japanese_influenced } }
+NIC = { add_opinion_modifier = { target = JAP modifier = TNO_japanese_influenced } }
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 2
+    social_democrat = 20
+    social_liberal = 49
+    market_liberal = 0
+    social_conservative = 29
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+create_country_leader = {
+	
+	name = "Ramon Morales"
+	picture = "Portrait_Honduras_Ramon_Morales.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}

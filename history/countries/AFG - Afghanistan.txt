@@ -1,0 +1,192 @@
+﻿capital = 267
+
+oob = "AFG_1962"
+
+set_technology = {
+ 	##INFANTRY##
+ 	infantry_weapons_1 = 1
+ 	infantry_weapons_2 = 1
+ 	infantry_weapons_improvements_1 = 1
+ 	infantry_weapons_improvements_2 = 1
+ 	basic_infantry_equipment = 1
+ 	support_weapons = 1
+ 	infantry_at = 1
+ 	motorized_infantry = 1
+    tech_mountaineers = 1
+
+ 	##SUPPORT##
+ 	tech_support = 1
+ 	tech_engineers = 1
+ 	tech_engineers_flamethrowers_1 = 1
+ 	tech_recon = 1
+ 	tech_recon2 = 1
+ 	tech_logistics_company = 1
+
+ 	##ARTY##
+ 	antiair5 = 1
+ 	artillery4 = 1
+
+ 	##LIGHT AIR##
+ 	early_fighter = 1
+ 	fighter_1945 = 1
+
+ 	##ENGINEERING##
+ 	electronic_mechanical_engineering = 1
+ 	radio = 1
+ 	mechanical_computing = 1
+ 	computing_machine = 1
+ 	basic_encryption = 1
+ 	basic_decryption = 1
+ 	improved_computing_machine = 1
+ 	improved_encryption = 1
+ 	advanced_computing_machine = 1
+
+	##INDUSTRY##
+	ww2_line_production = 1
+	countrywide_improvements = 1
+	constructionmethods = 1
+    construction0 = 1
+	resource_extraction_methods = 1
+    excavation0 = 1
+	construction1 = 1
+	military_construction0 = 1
+	batch_production_1 = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1960.8.29"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    socialist = 0
+    social_democrat = 18
+    social_liberal = 12
+    market_liberal = 0
+    social_conservative = 14
+    authoritarian_democrat = 56
+    despotism = 0
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Nur Muhammad Taraki"
+	desc = "POLITICS_NUR_MUHAMMAD_TARAKI_DESC"
+	picture = "Portrait_Afghanistan_Nur_Muhammed_Taraki.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mohammad Daoud Khan"
+	desc = "POLITICS_MOHAMMAD_DAOUD_KHAN_DESC"
+	picture = "Portrait_Afghanistan_Mohammad_Daoud_Khan.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mohammad Musa Shafiq"
+	desc = "POLITICS_MOHAMMAD_MUSA_SHAFIQ_DESC"
+	picture = "Portrait_Afghanistan_Mohammad_Musa_Shafiq.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Abdul Hadi Dawi"
+	desc = "POLITICS_ABDUL_HADI_DAWI_DESC"
+	#picture = "Portrait_Afghanistan_Abdul_Hadi_Dawi.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gulbuddin Hekmatyar"
+	desc = "POLITICS_GULBUDDIN_HEKMATYAR_DESC"
+	picture = "Portrait_Afghanistan_Gulbuddin_Hekmatyar.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+	}
+}
+add_ideas = {
+	#STARTING#
+	AFG_Westernising_Nation
+	#MINISTERS
+	AFG_Mohammad_Daoud_Khan_hog
+	AFG_Mohammad_Hashim_Maiwandwal_for
+	AFG_Sardar_Shah_Wali_Khan_sec
+	#POLITICAL
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_state_religion
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_no_voting
+	tno_refugees_vetted_entry
+	#MILITARY
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_not_applicable
+	tno_draft_exemptions_religious_deferment
+	#SOCIAL
+	tno_safety_no_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_data_cohesion
+	#ECONOMIC
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_child_labor_legal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+	#DEVELOPMENT#
+	tno_poverty_rate_80
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_manufacturing_lines
+	tno_agriculture_subsistence
+	tno_research_facilities_basic
+	tno_academic_base_mass_illiteracy
+	tno_army_professionalism_cronyism
+	tno_nuclear_stockpile_none
+}

@@ -1,0 +1,236 @@
+﻿capital = 57
+
+oob = "SGR_1962"
+
+add_ideas = {
+    ##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+    tno_immigration_quota_immigration
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending 
+	tno_training_basic_training
+	tno_racial_integration_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	###MINISTERS###
+	SGR_Kurt_Georg_Kiesinger_hog
+	SGR_Henning_von_Tresckow_sec
+	SGR_Helmut_Schmidt_for
+	SGR_Ludwig_Erhard_eco
+
+	#Construction Level
+	construction_level_7
+}
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 25
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 60
+    national_socialism = 15
+    burgundian_system = 0
+}
+create_country_leader = {
+	name = "Albert Speer"
+	desc = "POLITICS_SPEER_GERMANY_DESC"
+	picture = "Portrait_Germany_Albert_Speer.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = {
+		dictator
+	}
+}
+
+set_convoys = 100
+
+#create_corps_commander = { 
+#	name = "Alexis von Roenne"
+#	picture = "Portrait_GER_Alexis_von_Roenne.dds"
+#	traits = { politically_connected organizer trickster  }
+#	skill = 2
+#	attack_skill = 1
+#	defense_skill = 2
+#	planning_skill = 4
+#	logistics_skill = 2
+#	id = 80
+#}
+#
+#create_corps_commander = { 
+#	name = "Ewald-Heinrich von Kleist-Schmenzin"
+#	picture = "Portrait_GER_Ewald_Heinrich_von_Kleist_Schmenzin.dds"
+#	traits = { politically_connected panzer_leader }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 1
+#	logistics_skill = 3
+#	id = 82
+#}
+#
+#create_corps_commander = { 
+#	name = "Hans Ulrich von Oertzen"
+#	picture = "Portrait_GER_Hans_Ulrich_von_Oertzen.dds"
+#	traits = { trickster guerilla_fighter }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 1
+#	planning_skill = 3
+#	logistics_skill = 2
+#	id = 85
+#}
+#
+#create_corps_commander = { 
+#	name = "Philipp von Boeselager"
+#	picture = "Portrait_GER_Philipp_von_Boeselager.dds"
+#	traits = { trait_cautious ranger  }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 1
+#	planning_skill = 2
+#	logistics_skill = 2
+#	id = 91
+#}
+#
+#create_field_marshal = { 
+#	name = "Carl Szokoll"
+#	picture = "Portrait_GER_Carl_Szokoll.dds"
+#	traits = { infantry_leader urban_assault_specialist }
+#	skill = 3
+#	attack_skill = 2
+#	defense_skill = 3
+#	planning_skill = 1
+#	logistics_skill = 2
+#	id = 97
+#}
+#
+#create_field_marshal = { 
+#	name = "Rudolf-Christoph Freiherr von Gersdorff"
+#	picture = "Portrait_GER_Rudolf_Christoph_Freiherr_von_Gersdorff.dds"
+#	traits = { career_officer trait_engineer trickster  }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 1
+#	planning_skill = 3
+#	logistics_skill = 3
+#	id = 123
+#}
+#
+#create_corps_commander = { 
+#	name = "Wessel Freytag von Loringhoven"
+#	picture = "Portrait_GER_Wessel_Freytag_von_Loringhoven.dds"
+#	traits = { trait_cautious infantry_leader }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 1
+#	logistics_skill = 1
+#	id = 124
+#}
+#
+#create_corps_commander = { 
+#	name = "Werner Schrader"
+#	picture = "Portrait_GER_Werner_Schrader.dds"
+#	traits = { career_officer swamp_fox }
+#	skill = 1
+#	attack_skill = 1
+#	defense_skill = 1
+#	planning_skill = 2
+#	logistics_skill = 3
+#	id = 125
+#}
+#
+#create_corps_commander = { 
+#	name = "Hellmuth Stieff"
+#	picture = "Portrait_GER_Hellmuth_Stieff.dds"
+#	traits = { organizer infantry_leader }
+#	skill = 3
+#	attack_skill = 3
+#	defense_skill = 2
+#	planning_skill = 4
+#	logistics_skill = 2
+#	id = 126
+#}
+#
+#create_corps_commander = { 
+#	name = "Friedrich Klausing"
+#	picture = "Portrait_GER_Friedrich_Klausing.dds"
+#	traits = { winter_specialist urban_assault_specialist }
+#	skill = 3
+#	attack_skill = 3
+#	defense_skill = 2
+#	planning_skill = 1
+#	logistics_skill = 2
+#	id = 127
+#}
+#
+#create_navy_leader = {
+#    name = "Günter Luther"
+#    picture = "Portrait_GER_Gunter_Luther.dds"
+#    traits = { fly_swatter air_controller }
+#    skill = 4
+#	id = 69
+#}
+#
+#create_navy_leader = {
+#    name = "Wilhelm Ehm"
+#    picture = "Portrait_GER_Wilhelm_Ehm.dds"
+#    traits = { superior_tactician }
+#    skill = 2
+#	id = 131
+#}
+#
+#create_navy_leader = {
+#    name = "Hellmuth Heye"
+#    picture = "Portrait_GER_Hellmuth_Heye.dds"
+#    traits = { old_guard_navy blockade_runner }
+#    skill = 2
+#	id = 132
+#}
+#
+#create_navy_leader = {
+#    name = "Gerhard Wagner"
+#    picture = "Portrait_GER_Gerhard_Wagner.dds"
+#    traits = { spotter blockade_runner }
+#    skill = 3
+#	id = 133
+#}
+#
+#create_navy_leader = {
+#    name = "Friedrich Guggenberger"
+#    picture = "Portrait_GER_Friedrich_Guggenberger.dds"
+#    traits = { seawolf spotter }
+#    skill = 4
+#	id = 130
+#}

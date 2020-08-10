@@ -1,0 +1,35 @@
+﻿capital = 538
+
+oob = "CAF_1962"
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.5.17"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 10
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 10
+    authoritarian_democrat = 60
+    despotism = 10
+    fascism = 10
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "David Dacko"
+	desc = "POLITICS_DAVID_DACKO_DESC"
+	picture = "Portrait_Beafrika_David_Dacko.dds"
+	expire = "1999.1.23"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}

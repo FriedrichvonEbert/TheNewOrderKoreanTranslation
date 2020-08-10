@@ -1,0 +1,90 @@
+﻿capital = 660
+
+oob = "KNM_1962"
+
+add_ideas = {
+	WEST_AFRICA_idea_obliterated_infrastructures
+	KNM_idea_inhospitable_conditions
+	KNM_idea_legacy_kanem_bornu_kingdoms
+
+	KNM_Hissene_Habre_hog
+	KNM_Bernard_Fonlon_for
+	KNM_Alhadj_Adam_Adji_Hassan_eco
+	KNM_Hissene_Habre_sec
+}
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 11
+    authoritarian_democrat = 23
+    despotism = 13
+    fascism = 53
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Ibrahim Abatcha"
+	desc = "POLITICS_IBRAHIM_ABATCHA_DESC"
+	picture = "Portrait_Kanem_Ibrahim_Abatcha.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Omar III ibn Muhammad al-Amin Kiyari"
+	desc = "POLITICS_OMAR_III_IBN_MUHAMMAD_AL_AMIN_KIYARI_DESC"
+	picture = "Portrait_Kanem_Omar_III_ibn_Muhammad_al_Amin_Kiyari.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hissène Habré"
+	desc = "POLITICS_HISSENE_HABRE_DESC"
+	picture = "Portrait_Kanem_Hissene_Habre.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal  = {
+    name = "Hissène Habré"
+    picture = "Portrait_Kanem_Hissene_Habre.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_field_marshal  = {
+    name = "Ibrahim Abatcha"
+    picture = "Portrait_Kanem_Ibrahim_Abatcha.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 1
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 3
+}

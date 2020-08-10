@@ -1,0 +1,35 @@
+﻿capital = 1030
+
+oob = "CAF_1962"
+
+set_politics = {	
+	ruling_party = communist
+	last_election = "1933.5.17"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 75
+    ultranational_socialism = 0
+    socialist = 25
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Andimba Toivo ya Toivo"
+	desc = "POLITICS_ANDIMBA_TOIVO_YA_TOIVO_DESC"
+	picture = "Portrait_Ovamboland_Andimba_Toivo_ya_Toivo.dds"
+	expire = "1999.1.23"
+	ideology = communist_subtype
+	traits = {
+		
+	}
+}

@@ -1,0 +1,35 @@
+﻿capital = 305
+
+oob = "ECU_1962"
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 4
+    social_democrat = 12
+    social_liberal = 28
+    market_liberal = 0
+    social_conservative = 50
+    authoritarian_democrat = 6
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Jose Ibarra"
+	picture = "Portrait_Ecuador_Jose_Ibarra.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}

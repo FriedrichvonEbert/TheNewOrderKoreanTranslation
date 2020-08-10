@@ -1,0 +1,34 @@
+﻿capital = 500
+
+oob = "BRA_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 2
+    ultranational_socialism = 1
+    socialist = 2
+    social_democrat = 12
+    social_liberal = 12
+    market_liberal = 0
+    social_conservative = 49
+    authoritarian_democrat = 16
+    despotism = 0
+    fascism = 6
+    burgundian_system = 0
+}
+create_country_leader = {
+	name = "Juscelino Kubitschek"
+	desc = "POLITICS_JUSCELINO_KUBITSCHEK_DESC"
+	picture = "Portrait_Brazil_Juscelino_Kubitschek.dds"
+	expire = "1946.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}

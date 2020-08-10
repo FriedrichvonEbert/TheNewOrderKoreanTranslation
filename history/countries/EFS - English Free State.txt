@@ -1,0 +1,145 @@
+﻿capital = 132
+
+oob = "EFS_english_catastrophe"
+
+# Starting tech
+set_technology = {
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	fighter_1945 = 1
+	CAS_1945 = 1
+	interceptor_1945 = 1
+	advanced_medium_tank = 1
+	MBT_1950 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	antiair5 = 1
+	basic_infantry_equipment = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+	constructionmethods = 1
+    construction0 = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	basic_encryption = 1
+	improved_encryption = 1
+	basic_decryption = 1
+	improved_decryption = 1
+	radio_detection = 1
+	tac_bomber1 = 1
+	strategic_bomber1 = 1
+	transport_air1 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_at = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	ww2_line_production = 1
+	infantry_weapons_improvements_2 = 1
+	#infantry_aa = 1
+	advanced_light_tank = 1
+	strategic_theorem = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_military_police = 1
+	resource_extraction_methods = 1
+    excavation0 = 1
+	infantry_at2 = 1
+}
+
+set_research_slots = 4
+set_convoys = 200
+
+set_war_support = 0.2
+set_stability = 0.5
+add_manpower = 300000
+add_ideas = {
+	#MINISTERS#
+	#political#
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_all_allowed
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_vetted_entry
+	#military#
+	tno_conscription_two_year_draft
+	tno_women_noncombat_only
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_not_applicable
+	tno_draft_exemptions_civil_service_deferment
+	#economic#
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	#social#
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_police	
+}
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 4
+    ultranational_socialism = 0
+    socialist = 18
+    social_democrat = 16
+    social_liberal = 42
+    national_socialism = 0
+    social_conservative = 20
+    burgundian_system = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    market_liberal = 0
+}
+
+create_country_leader = {
+	name = "Orde Wingate"
+	desc = ""
+	picture = "Portrait_EFS_Orde_Wingate.dds"
+	expire = "1985.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}

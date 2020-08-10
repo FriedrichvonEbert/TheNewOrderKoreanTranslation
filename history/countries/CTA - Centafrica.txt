@@ -1,0 +1,35 @@
+﻿capital = 1187
+
+oob = "BFR_1962"
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 8
+    authoritarian_democrat = 67
+    despotism = 23
+    fascism = 2
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "David Dacko"
+	desc = "POLITICS_OJUKWU_DESC"
+	picture = "Portrait_Centrafrica_David_Dacko.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

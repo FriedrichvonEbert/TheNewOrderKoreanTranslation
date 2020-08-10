@@ -1,0 +1,58 @@
+﻿capital = 644
+
+oob = "OMO_1962"
+
+add_ideas = {
+	RUS_isolated_vilages
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_80
+	tno_army_professionalism_untrained
+	tno_industrial_expertise_pre_industrial
+	tno_industrial_equipment_hand_tools
+	tno_agriculture_subsistence
+	tno_research_facilities_makeshift
+	tno_academic_base_mass_illiteracy
+}
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	basic_infantry_equipment = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	##ARTY##
+	artillery4 = 1
+}
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	socialist = 100
+	despotism = 0
+}
+
+create_country_leader = {
+	name = "No Authority"
+	desc = "POLITICS_NO_AUTHORITY_DESC"
+	picture = "gfx/leaders/OMO/Portrait_Kamchatka_No_Authority.tga"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}
+
+create_country_leader = {
+	name = "Alexander Men"
+	desc = "POLITICS_ALEXANDER_MEN_DESC"
+	picture = "gfx/leaders/OMO/Portrait_Kamchatka_Father_Men.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}

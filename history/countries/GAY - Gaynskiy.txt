@@ -1,0 +1,224 @@
+﻿capital = 866
+
+oob = "GAY_1962"
+
+add_manpower = 15000
+
+add_ideas = {
+	## STANDARD ##
+	RUS_terror_bombing
+	RUS_warlord_manpower
+	GAY_warrior_order
+	## MINISTERS ##
+	GAY_Cyril_Pavlov_hog
+	GAY_Ivan_Snychev_eco
+	GAY_Nikolay_Fomichev_for
+	GAY_Ilya_Limonov_sec
+	## POLITICAL LAWS ##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_illegal
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_refugees_open
+	## MILITARY LAWS ##
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_low_spending
+	tno_training_combat_schooling
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	## SOCIAL LAWS ##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_equal_rights
+	tno_security_police
+	## ECONOMIC LAWS ##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_trinket_pensions
+	tno_unemployment_no_subsidies
+	## SOCIETAL DEVELOPMENT ##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_80
+	tno_army_professionalism_reluctant_conscripts
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+}
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	#infantry_aa = 1
+	#infantry_aa2 = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ARTY##
+	artillery4 = 1
+	antiair5 = 1
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+
+	IFV_1950 = 1
+
+	MBT_1950 = 1
+
+	##AIRCRAFT##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	CAS_1945 = 1
+	##HEAVY AIRCRAFT##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+	construction0 = 1
+	military_construction0 = 1
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 11
+	authoritarian_democrat = 27
+	despotism = 62
+	fascism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Mikhail Antipin"
+	desc = "POLITICS_MIKHAIL_ANTIPIN_DESC"
+	picture = "Portrait_Gayny_Mikhail_Antipin.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+		the_militant_shepherd
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Mikhail Antipin"
+	picture = "Portrait_Gayny_Mikhail_Antipin.dds"
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { unyielding_defender trait_engineer inflexible_strategist }
+	id = 3301
+}
+
+create_corps_commander = {
+	name = "Cyril Pavlov"
+	picture = "Portrait_Gayny_Cyril_Pavlov.dds"
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+	traits = { war_hero winter_specialist }
+	id = 3302
+}
+
+create_corps_commander = {
+	name = "Ivan Kalinin"
+	picture = "Portrait_Gayny_Ivan_Kalinin.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { ranger hill_fighter adaptable infantry_officer }
+	id = 3303
+}
+
+create_corps_commander = {
+	name = "Ilya Limonov"
+	picture = "Portrait_Gayny_Ilya_Limonov.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	traits = { organizer career_officer }
+	id = 3304
+}
+
+create_corps_commander = {
+	name = "Frol Vaskin"
+	picture = "Portrait_Gayny_Frol_Vaskin.dds"
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { infantry_leader harsh_leader }
+	id = 3305
+}

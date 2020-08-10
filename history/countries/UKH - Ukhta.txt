@@ -1,0 +1,255 @@
+﻿capital = 869
+
+oob = "UKH_1962"
+
+add_ideas = {
+	###MINISTERS
+	WRS_Konstantin_Telegin_hog
+	WRS_Nikolay_Ryzhkov_eco
+	WRS_Alexander_Yakovlev_for
+	WRS_Sergey_Akhromeyev_sec
+	##STANDARD##
+	RUS_terror_bombing
+	RUS_warlord_manpower
+	UKH_zhukovs_fiefdom
+	hidden_idea_encryption_russia
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_all_allowed
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_open
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_allowed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_police
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_cronyism
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_basic
+	tno_academic_base_basic_literacy
+}
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	#infantry_aa = 1
+	#infantry_aa2 = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##ARTY##
+	artillery4 = 1
+	antiair5 = 1
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+
+	IFV_1950 = 1
+
+	##AIRCRAFT##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	CAS_1945 = 1
+	##HEAVY AIRCRAFT##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+	construction0 = 1
+	military_construction0 = 1
+}
+
+set_politics = {
+	ruling_party = communist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 46
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 36
+	social_democrat = 18
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	despotism = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Nikolay Ryzhkov"
+	picture = ""
+	expire = "1999.1.1"
+	desc = "POLITICS_NIKOLAY_RYZHKOV_DESC"
+	ideology = socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Georgy Zhukov"
+	picture = "Portrait_UKH_Georgy_Zhukov.dds"
+	expire = "1999.1.1"
+	desc = "POLITICS_GEORGY_ZHUKOV_DESC"
+	ideology = communist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Yakovlev"
+	picture = "Portrait_WRS_Alexander_Yakovlev.dds"
+	expire = "1999.1.1"
+	desc = "POLITICS_ALEXANDER_YAKOVLEV_DESC"
+	ideology = social_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_field_marshal = {
+	name = "Georgy Zhukov"
+	picture = "Portrait_UKH_Georgy_Zhukov.dds"
+	traits = { offensive_doctrine armor_officer media_personality war_hero }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+	id = 3392
+}
+
+create_corps_commander = {
+	name = "Konstantin Telegin"
+	picture = "Portrait_UKH_Konstantin_Telegin.dds"
+	traits = { politically_connected harsh_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3393
+}
+
+create_corps_commander = {
+	name = "Sergey Akhromeyev"
+	picture = "Portrait_UKH_Sergey_Akhromeyev.dds"
+	traits = { infantry_officer trait_cautious career_officer ambusher }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3394
+}
+
+create_corps_commander = {
+	name = "Nikolay Vatutin"
+	picture = "Portrait_UKH_Nikolay_Vatutin.dds"
+	traits = { trait_reckless trickster }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3395
+}
+
+create_corps_commander = {
+	name = "Ivan Chernyakhovsky"
+	picture = "Portrait_UKH_Ivan_Chernyakhovsky.dds"
+	traits = { trickster armor_officer panzer_expert }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3396
+}
+
+create_corps_commander = {
+	name = "Nikolay Ogarkov"
+	picture = "Portrait_UKH_Nikolay_Ogarkov.dds"
+	traits = { trait_reckless harsh_leader brilliant_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3397
+}

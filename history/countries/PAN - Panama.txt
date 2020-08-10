@@ -1,0 +1,35 @@
+﻿capital = 304
+
+oob = "PAN_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1932.6.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 7
+    social_democrat = 24
+    social_liberal = 42
+    market_liberal = 0
+    social_conservative = 27
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Roberto Francisco Chiari Remón"
+	desc = "POLITICS_ROBERTO_FRANCISCO_CHIARI_REMON_DESC"
+	picture = "Portrait_Panama_Roberto_Chiari.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}

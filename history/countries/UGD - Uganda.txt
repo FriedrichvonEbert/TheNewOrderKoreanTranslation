@@ -1,0 +1,46 @@
+﻿capital = 548
+
+oob = "BFR_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 20
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 20
+    despotism = 60
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Mutesa II"
+	desc = "POLITICS_MUTESA_II_DESC"
+	picture = "Portrait_Uganda_Mutesa_II.dds"
+	expire = "1999.1.23"
+	ideology = despotism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Idi Amin Dada"
+	desc = "POLITICS_MUTESA_II_DESC"
+	picture = "Portrait_Uganda_Idi_Amin_Dada.dds"
+	expire = "1999.1.23"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		
+	}
+}

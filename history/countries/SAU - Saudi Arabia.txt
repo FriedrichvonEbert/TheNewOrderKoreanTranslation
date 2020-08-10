@@ -1,0 +1,182 @@
+﻿capital = 919
+
+oob = "SAU_1962"
+
+set_convoys = 200
+add_manpower = 5631
+create_faction = "Arab League"
+
+add_ideas = {
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	##MILITARY LAWS###
+	tno_conscription_volunteer_only
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_minimal_training
+	tno_racial_integration_segregated_regiments
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	##ECONOMIC LAWS##
+	tno_trade_laws_export_focus
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	## ideas
+	SAU_defenders_of_the_umma
+	SAU_salafi_ascendancy
+	SAU_kingdom_of_blacck_gold
+	SAU_ARCO_ENI_memorandum_of_understanding
+}
+
+set_technology = {
+ 	##INFANTRY##
+ 	infantry_weapons_1 = 1
+ 	infantry_weapons_2 = 1
+ 	infantry_weapons_improvements_1 = 1
+ 	infantry_weapons_improvements_2 = 1
+ 	infantry_weapons_improvements_3 = 1
+ 	infantry_weapons_improvements_4 = 1
+ 	infantry_weapons_3 = 1
+ 	basic_infantry_equipment = 1
+ 	support_weapons = 1
+ 	support_weapons2 = 1
+ 	support_weapons3 = 1
+ 	infantry_at = 1
+ 	infantry_at2 = 1
+ 	
+ 	motorized_infantry = 1
+ 	motorized_rocket_unit = 1
+ 	motorized_infantry_1 = 1
+ 	marines = 1
+
+ 	##SUPPORT##
+ 	tech_support = 1
+ 	tech_engineers = 1
+ 	tech_engineers_flamethrowers_1 = 1
+ 	tech_engineers2 = 1
+ 	tech_engineers_flamethrowers_2 = 1
+ 	tech_recon = 1
+ 	tech_recon2 = 1
+ 	tech_logistics_company = 1
+
+ 	##ARMOR##
+ 	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+
+ 	##ARTY##
+ 	antiair5 = 1
+ 	antiair_1950 = 1
+ 	gw_artillery = 1
+ 	artillery4 = 1
+ 	artillery_1950 = 1
+ 	artillery_1950_soft_attack = 1
+ 	SPART_1950 = 1
+ 	SPART_1950_soft_attack = 1
+ 	#SPART_1950_speed = 1
+
+ 	##NAVAL##
+ 	ww2_destroyer = 1
+ 	ww2_cruiser = 1
+ 	transport = 1
+
+ 	##HELICOPTERS##
+ 	very_early_helicopter = 1
+ 	early_helicopter = 1
+
+ 	##LIGHT AIR##
+ 	early_fighter = 1
+ 	interceptor_1945 = 1
+ 	fighter_1945 = 1
+ 	fighter_1950 = 1
+
+ 	##HEAVY AIR##
+ 	tac_bomber1 = 1
+ 	tac_air_1945 = 1
+ 	strategic_bomber1 = 1
+ 	heavy_air_1945 = 1
+ 	heavy_air_1950 = 1
+ 	transport_air1 = 1
+ 	transport_air_1945 = 1
+
+ 	##ENGINEERING##
+ 	electronic_mechanical_engineering = 1
+ 	radio = 1
+ 	radio_detection = 1
+ 	mechanical_computing = 1
+ 	computing_machine = 1
+ 	basic_encryption = 1
+ 	basic_decryption = 1
+ 	improved_computing_machine = 1
+ 	improved_encryption = 1
+ 	advanced_computing_machine = 1
+ 	advanced_encryption = 1
+ 	computing_machine_1950 = 1
+ 	helicopter_engines = 1
+ 	jet_engines = 1
+ 	jet_engines_bombers = 1
+
+	##INDUSTRY##
+	ww2_line_production = 1
+	mass_production_1 = 1
+	countrywide_improvements = 1
+	concentrated_industry1 = 1
+	constructionmethods = 1
+    construction0 = 1
+	resource_extraction_methods = 1
+    excavation0 = 1
+	construction1 = 1
+	excavation1 = 1
+	military_construction0 = 1
+	batch_production_1 = 1
+}
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 2
+    ultranational_socialism = 0
+    socialist = 3
+    social_democrat = 10
+    social_liberal = 5
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 70
+    fascism = 10
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Saud bin Abdulaziz"
+	desc = "POLITICS_SAUD_DESC"
+	picture = "gfx/leaders/SAU/Portrait_SAU_King_Saud.dds"
+	expire = "1980.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+country_event = { id = arabia.1 days = 730 }

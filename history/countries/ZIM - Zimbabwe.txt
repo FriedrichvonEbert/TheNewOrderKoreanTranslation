@@ -1,0 +1,47 @@
+﻿capital = 1061
+
+oob = "BFR_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+	national_socialism = 40
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 60
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Joshua Nkomo"
+	desc = "POLITICS_JOSHUA_NKOMO_DESC"
+	picture = "Portrait_Zimbabwe_Joshua_Nkomo.dds"
+	expire = "1999.1.23"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Robert Mugabe"
+	desc = "POLITICS_ROBERT_MUGABE_DESC"
+	picture = "Portrait_Zimbabwe_Robert_Mugabe.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		
+	}
+}

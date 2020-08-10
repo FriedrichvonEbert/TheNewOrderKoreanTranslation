@@ -1,0 +1,198 @@
+﻿capital = 398
+
+oob = "MAR_1962"
+
+add_ideas = {
+	##STANDARD##
+	RUS_terror_bombing
+	RUS_warlord_manpower
+	MAR_forced_syncretisism
+	##MINISTERS##
+	MAR_Sergey_Obolensky_hog
+	MAR_Vladimir_Krasinsky_sec
+	MAR_Nina_Krivosheina_eco
+	MAR_Dmitri_Alexandrovich_for
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_all_allowed
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_no_voting
+	tno_refugees_open
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	##SOCIAL LAWS##
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_equal_rights
+	tno_security_police
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_trinket_pensions
+	tno_unemployment_trinket_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_cronyism
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+}
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	tech_mountaineers = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_logistics_company = 1
+	##ARMOR##
+	mechanised_infantry3 = 1
+	##ARTY##
+	artillery4 = 1
+	##ENGINEERING## 
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	constructionmethods = 1
+    construction0 = 1
+	military_construction0 = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 10
+	authoritarian_democrat = 0
+	despotism = 42
+	fascism = 48
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Alexander Kazembek"
+	picture = "Portrait_Berezniki_Alexander_Kazembek.dds"
+	desc = "POLITICS_ALEXANDER_KAZEMBEK_DESC"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = {
+		the_eternal_azeri
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Kazembek"
+	picture = "Portrait_Berezniki_Alexander_Kazembek.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+		the_eternal_azeri
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Anatoly Vavilov"
+	picture = "Portrait_Berezniki_Anatoly_Vavilov.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	traits = {
+		defensive_doctrine
+		armor_officer
+		panzer_leader
+	}
+	id = 3311
+}
+
+create_corps_commander = {
+	name = "Valentin Ardashev"
+	picture = "Portrait_Berezniki_Valentin_Ardashev.dds"
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+	traits = {
+		war_hero
+		career_officer
+		trait_engineer
+	}
+	id = 3312
+}
+
+create_corps_commander = {
+	name = "Nikolai Volkov"
+	picture = "Portrait_Berezniki_Nikolai_Volkov.dds"
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	traits = {
+		trait_reckless
+		commando
+	}
+	id = 3313
+}

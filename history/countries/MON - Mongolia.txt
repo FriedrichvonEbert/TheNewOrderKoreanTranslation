@@ -1,0 +1,123 @@
+﻿capital = 330
+
+oob = "MON_1962"
+
+set_stability = 0.84
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1962.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 20
+    ultranational_socialism = 0
+    socialist = 20
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 50
+    fascism = 10
+    burgundian_system = 0
+}
+
+add_ideas = {
+	#Political#
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_no_voting
+	tno_refugees_banned
+	
+	#Military#
+	tno_conscription_service_by_requirement
+	tno_women_military_assistance
+	tno_military_supervision_no_supervision
+	tno_military_spending_large_spending
+	tno_training_minimal_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	
+	#Economic#
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	
+	#Social#
+	tno_safety_no_regulations
+	tno_health_care_no_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_security_service
+
+	#Societal Development#
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_reluctant_conscripts
+	tno_industrial_expertise_incompetent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_basic
+	tno_academic_base_mass_illiteracy
+}
+
+add_equipment_to_stockpile = {
+   type = infantry_equipment_1
+   amount = 600
+   producer = MON
+}
+
+add_equipment_to_stockpile = {
+   type = anti_tank_equipment_0
+   amount = 200
+   producer = MON
+}
+
+set_technology = {
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	tech_support = 1
+	tech_engineers = 1
+
+	electronic_mechanical_engineering = 1
+	radio = 1
+	
+	ww2_line_production = 1
+	batch_production_1 = 1
+	countrywide_improvements = 1
+	constructionmethods = 1
+    construction0 = 1
+}
+
+create_country_leader = {
+	name = "Yuumjaagiin Tsedenbal"
+	desc = "POLITICS_YUUMJAAGIIN_TSEDENBAL_DESC"
+	picture = "Portrait_Mongolia_Yuumjaagiin_Tsedenbal.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}

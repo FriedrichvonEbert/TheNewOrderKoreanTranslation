@@ -1,0 +1,68 @@
+﻿capital = 94
+
+add_ideas = {
+	##POLITICAL LAWS##
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_atheism
+	tno_trade_unions_illegal
+    tno_immigration_quota_immigration
+	tno_slavery_allowed
+	tno_public_meetings_regulated
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_kill_em_all
+	tno_military_spending_large_spending 
+	tno_training_basic_training
+	tno_racial_integration_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_penal_slavery
+	tno_lgbt_rights_lgbt_outlawed
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+}
+
+set_research_slots = 3
+set_convoys = 200
+set_stability = 0.4
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1935.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 5
+    authoritarian_democrat = 31
+    despotism = 0
+    fascism = 0
+    national_socialism = 64
+}
+
+create_country_leader = {
+	name = "Karl Dönitz"
+	desc = "POLITICS_KARL_DONITZ_DESC"
+	picture = "Portrait_CRI_Karl_Donitz.dds"
+	expire = "1999.10.12"
+	ideology = national_socialism_subtype
+	traits = {
+		
+	}
+}

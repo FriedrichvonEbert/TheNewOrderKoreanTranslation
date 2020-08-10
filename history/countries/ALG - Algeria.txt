@@ -1,0 +1,175 @@
+﻿capital = 459
+
+oob = "ALG_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1962.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 5
+    ultranational_socialism = 5
+    socialist = 7
+    social_democrat = 14
+    social_liberal = 6
+    market_liberal = 12
+    social_conservative = 18
+    authoritarian_democrat = 3
+    despotism = 6
+    fascism = 24
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Ferhat Abbas"
+	desc = "POLITICS_FERHAT_ABBAS_DESC"
+	picture = "Portrait_ALG_Ferhat_Abbas.dds"
+	expire = "1999.10.20"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+			add_opinion_modifier = {
+					target = BSQ
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = PRT
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = SPS
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = SPA
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = SPR
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = CNT
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = CTL
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = FSR
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = FSR
+					modifier = IBR_NRF_NuffSaid
+				}
+			add_opinion_modifier = {
+					target = POR
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = RPP
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = PPR
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = GAL
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = GNS
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = ETA
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = MOR
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = WAI
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = IBR
+					modifier = IBR_Iberian_Wars_Contender
+				}
+			add_opinion_modifier = {
+					target = BSQ
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = PRT
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = SPS
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = SPA
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = SPR
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = CNT
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = CTL
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = FSR
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = POR
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = RPP
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = PPR
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = GAL
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = GNS
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = ETA
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = MOR
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = WAI
+					modifier = IBR_Iberian_Wars_Contender_2
+				}
+			add_opinion_modifier = {
+					target = IBR
+					modifier = IBR_Iberian_Wars_Contender_2
+				}

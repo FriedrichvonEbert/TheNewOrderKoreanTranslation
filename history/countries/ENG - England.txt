@@ -1,0 +1,892 @@
+﻿capital = 1300
+add_political_power = 150
+
+oob = "ENG_1962"
+load_focus_tree = ENG_FT_Intro
+
+#vars, this looks stupid, but its needed for econ
+1300 = {
+	set_variable = { state_id = 1300 }
+}	
+127 = {
+	set_variable = { state_id = 127 }
+}	
+126 = {
+	set_variable = { state_id = 126 }
+}	
+125 = {
+	set_variable = { state_id = 125 }
+}	
+129 = {
+	set_variable = { state_id = 129 }
+}	
+128 = {
+	set_variable = { state_id = 128 }
+}	
+123 = {
+	set_variable = { state_id = 123 }
+}	
+122 = {
+	set_variable = { state_id = 122 }
+}	
+130 = {
+	set_variable = { state_id = 130 }
+}	
+132 = {
+	set_variable = { state_id = 132 }
+}	
+131 = {
+	set_variable = { state_id = 131 }
+}	
+885 = {
+	set_variable = { state_id = 885 }
+}	
+338 = {
+	set_variable = { state_id = 338 }
+}	
+777 = {
+	set_variable = { state_id = 777 }
+}	
+1301 = {
+	set_variable = { state_id = 1301 }
+}	
+1296 = {
+	set_variable = { state_id = 1296 }
+}	
+1375 = {
+	set_variable = { state_id = 1375 }
+}	
+121 = {
+	set_variable = { state_id = 121 }
+}	
+1321 = {
+	set_variable = { state_id = 1321 }
+}	
+133 = {
+	set_variable = { state_id = 133 }
+}	
+1320 = {
+	set_variable = { state_id = 1320 }
+}	
+136 = {
+	set_variable = { state_id = 136 }
+}	
+120 = {
+	set_variable = { state_id = 120 }
+}	
+337 = {
+	set_variable = { state_id = 337 }
+}	
+1322 = {
+	set_variable = { state_id = 1322 }
+}	
+119 = {
+	set_variable = { state_id = 119 }
+}	
+1355 = {
+	set_variable = { state_id = 1355 }
+}	
+1315 = {
+	set_variable = { state_id = 1315 }
+}	
+1357 = {
+	set_variable = { state_id = 1357 }
+}	
+113 = {
+	set_variable = { state_id = 113 }
+}	
+1356 = {
+	set_variable = { state_id = 1356 }
+}	
+134 = {
+	set_variable = { state_id = 134 }
+}	
+1358 = {
+	set_variable = { state_id = 1358 }
+}	
+1374 = {
+	set_variable = { state_id = 1374 }
+}	
+135 = {
+	set_variable = { state_id = 135 }
+}	
+1352 = {
+	set_variable = { state_id = 1352 }
+}	
+1353 = {
+	set_variable = { state_id = 1353 }
+}	
+1352 = {
+	set_variable = { state_id = 1352 }
+}	
+1354 = {
+	set_variable = { state_id = 1354 }
+}
+
+# ElectionSeason & ParliamentMech Initializers
+ParliamentMechanic_Initialize_Gamestart = yes
+#TNO_Britain_ElectionSeason_Initialize_GameStart = yes
+
+set_variable = { ENG_Hardliner_SLP_Lovers = 0.40 }
+set_variable = { ENG_Reformers_SLP_Lovers = 0.60 }
+set_variable = { ENG_SLPReformation_process = 0.05 }
+set_variable = { ENG_NDL_Mec_Conserv_Strength = 0.15 }
+set_variable = { ENG_NDL_Mec_Moderate_Strength = 0.70 }
+set_variable = { ENG_NDL_Mec_Liberal_Strength = 0.15 }
+ENG_SE_ThatcherSetVariables = yes
+ENG_SE_MacMillanSetVariables = yes
+ENG_something_bad_maggie = yes
+SLP_GUI_REFRESH = yes
+MAC_GUI_REFRESH = yes
+
+set_technology = {
+	tech_support = 1
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	fighter_1945 = 1
+	CAS_1945 = 1
+	interceptor_1945 = 1
+	fighter_1950 = 1
+	CAS_1950 = 1
+	advanced_medium_tank = 1
+	MBT_1950 = 1
+	mechanised_infantry3 = 1
+	APC_1950 = 1
+	IFV_1950 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	antiair5 = 1
+	basic_infantry_equipment = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+	constructionmethods = 1
+    construction0 = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	basic_encryption = 1
+	improved_encryption = 1
+	basic_decryption = 1
+	improved_decryption = 1
+	radio_detection = 1
+	tac_bomber1 = 1
+	strategic_bomber1 = 1
+	tac_air_1945 = 1
+	heavy_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_at = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	ww2_line_production = 1
+	infantry_weapons_improvements_2 = 1
+	batch_production_1 = 1
+	advanced_light_tank = 1
+	strategic_theorem = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_military_police = 1
+	resource_extraction_methods = 1
+	excavation0 = 1
+	excavation1 = 1
+	infantry_at2 = 1
+	cv_1945_fighter = 1
+	cv_1945_CAS = 1
+	cv_1950_fighter = 1
+	cv_1950_CAS = 1
+	basic_cruiser = 1
+	basic_destroyer = 1
+	improved_cruiser = 1
+	computing_machine_1950 = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	helicopter_engines = 1
+	very_early_helicopter = 1
+	early_helicopter = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	set_technology = {
+		early_ship_hull_submarine = 1
+		early_ship_hull_very_light = 1
+	    basic_ship_hull_very_light = 1
+	    early_ship_hull_more_light = 1
+	    basic_ship_hull_more_light = 1
+	    early_ship_hull_light = 1
+	    basic_ship_hull_light = 1
+	    basic_depth_charges = 1
+	    sonar = 1
+    	basic_battery = 1
+    	basic_secondary_battery = 1
+	    basic_torpedo = 1
+	    mtg_transport = 1
+	    basic_naval_mines = 1
+	    improved_naval_mines = 1
+	    submarine_mine_laying = 1
+	    early_ship_hull_carrier = 1
+	    early_ship_hull_heavy = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		improved_ship_hull_cruiser = 1
+		centimetric_radar = 1
+		basic_fire_control_system = 1
+		damage_control_1 = 1
+		fire_control_methods_1 = 1
+		smoke_generator = 1
+	}
+	set_naval_oob = "ENG_1962_naval"
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_naval_oob = "ENG_1962_naval_non_mtg"
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		scout_plane_1945 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 200
+
+set_war_support = 0.4
+set_stability = 0.4
+
+add_ideas = {
+
+	### FACTION ###
+	Pakt_Mitstreiter
+
+	### NATIONAL SPIRITS ###
+	ENG_Own_Peoples_Hate
+	ENG_HMMLR
+	ENG_Lying_In_Ruins
+	ENG_Across_The_Channel #Added via on_startup on_action
+
+	### MINISTERS ###
+	ENG_Alec_Douglas_Home_hog
+	ENG_Quintin_McGarel_Hogg_for
+	ENG_Harold_Macmillan_eco
+	ENG_Arthur_Kenneth_Chesterton_sec
+
+	### POLITICAL ###
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_state_religion
+	tno_trade_unions_illegal
+	tno_immigration_closed_borders
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_elite_voting
+	tno_refugees_banned
+
+	### MILITARY ###
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_no_supervision
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_racial_integration_none
+	tno_draft_exemptions_civil_service_deferment
+
+	### ECONOMIC ###
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	construction_level_4
+
+	### SOCIAL ###
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_oppression
+	tno_security_police
+
+	### SOCIETAL DEVELOPMENT ###
+
+	tno_academic_base_secondary_schooling
+	tno_research_facilities_modern
+	tno_agriculture_mass_mechanized
+	tno_industrial_equipment_manufacturing_lines
+	tno_industrial_expertise_experienced
+	tno_army_professionalism_political_interference
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_25
+}
+
+puppet = CRN
+CRN = {
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1935.11.14"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communist = 0
+		ultranational_socialism = 0
+		socialist = 0
+		social_democrat = 0
+		social_liberal = 0
+		social_conservative = 0
+		authoritarian_democrat = 0
+		despotism = 0
+		fascism = 0
+		national_socialism = 73
+		burgundian_system = 27
+	    market_liberal = 0
+	}
+}
+
+add_opinion_modifier = { target = USA modifier = embargo }
+add_opinion_modifier = { target = CAN modifier = embargo }
+add_opinion_modifier = { target = AST modifier = embargo }
+add_opinion_modifier = { target = GUY modifier = embargo }
+add_opinion_modifier = { target = NZL modifier = embargo }
+add_opinion_modifier = { target = ICE modifier = embargo }
+add_opinion_modifier = { target = WIN modifier = embargo }
+add_opinion_modifier = { target = BLZ modifier = embargo }
+
+add_opinion_modifier = { target = JAP modifier = embargo }
+add_opinion_modifier = { target = CHI modifier = embargo }
+add_opinion_modifier = { target = PHI modifier = embargo }
+add_opinion_modifier = { target = INS modifier = embargo }
+add_opinion_modifier = { target = BUR modifier = embargo }
+add_opinion_modifier = { target = SIA modifier = embargo }
+add_opinion_modifier = { target = CAM modifier = embargo }
+add_opinion_modifier = { target = LAO modifier = embargo }
+add_opinion_modifier = { target = VIN modifier = embargo }
+add_opinion_modifier = { target = SYO modifier = embargo }
+add_opinion_modifier = { target = HUI modifier = embargo }
+add_opinion_modifier = { target = GXC modifier = embargo }
+add_opinion_modifier = { target = MAN modifier = embargo }
+add_opinion_modifier = { target = SIC modifier = embargo }
+add_opinion_modifier = { target = GUZ modifier = embargo }
+add_opinion_modifier = { target = SHX modifier = embargo }
+add_opinion_modifier = { target = BEN modifier = embargo }
+add_opinion_modifier = { target = GNG modifier = embargo }
+add_opinion_modifier = { target = YUN modifier = embargo }
+add_opinion_modifier = { target = BHU modifier = embargo }
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	national_socialism = 0
+	social_conservative = 26
+	burgundian_system = 0
+	authoritarian_democrat = 54
+	despotism = 0
+	fascism = 20
+	market_liberal = 0
+}
+
+create_country_leader = {
+	name = "Alec Douglas-Home"
+	desc = "POLITICS_ALEC_DOUGLAS_HOME_DESC"
+	picture = "Portrait_ENG_Alec_Douglas_Home.dds"
+	expire = "1985.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Harold Macmillan"
+	desc = "POLITICS_HAROLD_MACMILLAN_DESC"
+	picture = "Portrait_ENG_Harold_Macmillan.dds"
+	expire = "1985.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Arthur Kenneth Chesterton"
+	desc = "POLITICS_AK_Chesterton_DESC"
+	picture = "Portrait_ENG_Arthur_Chesterton.dds"
+	expire = "1985.1.1"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Heinrich HMMLR"
+	desc = "POLITICS_HENRY_HEAVENLY_DESC"
+	picture = "Portrait_England_Heinrich_HMMLR.dds"
+	expire = "1985.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Bernard Montgomery"
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_Bernard_Montgomery.dds"
+	traits = {
+		logistics_wizard
+		media_personality
+		trait_cautious
+		inflexible_strategist
+	}
+	skill = 7
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+	id = 611
+}
+
+create_field_marshal = { 
+	name = "Gerald Templer" 
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_Gerald_Templer_General.dds"
+	traits = {
+		trait_reckless
+		offensive_doctrine
+		aggressive_assaulter
+	}
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+	id = 612
+}
+
+create_corps_commander = {
+	name = "Charles Frederic Keightley"
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_Charles_Frederic_Keightley.dds"
+	traits = {
+		panzer_leader
+		cavalry_leader
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+	id = 613
+}
+
+create_corps_commander = {
+	name = "Evelyn Hugh Barker"
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_Evelyn_Hugh_Barker.dds"
+	traits = {
+		organizer
+		infantry_leader
+		urban_assault_specialist
+	}
+	skill = 3
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+	id = 614
+}
+
+create_corps_commander = {
+	name = "Geoffrey Baker"
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_Geoffrey_Baker.dds"
+	traits = {
+		skilled_staffer
+		fortress_buster
+		infantry_leader
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 615
+}
+
+create_corps_commander = {
+	name = "Hugh Charles Stockwell"
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_Hugh_Charles_Stockwell.dds"
+	traits = {
+		skilled_staffer
+		infantry_leader
+		trait_mountaineer
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	id = 616
+}
+
+create_corps_commander = {
+	name = "James Cassels"
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_James_Cassels.dds"
+	traits = {
+		infantry_leader
+		ranger
+		commando
+	}
+	skill = 6
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 4
+	id = 617
+}
+
+create_corps_commander = {
+	name = "Michael Carver"
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_Michael_Carver.dds"
+	traits = {
+		organizer
+		skilled_staffer
+		trait_engineer
+		cavalry_leader
+		panzer_leader
+	}
+	skill = 6
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 6
+	logistics_skill = 5
+	id = 618
+}
+
+create_corps_commander = {
+	name = "Orde Wingate"
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_Orde_Wingate.dds"
+	traits = {
+		trickster
+		desert_fox
+		jungle_rat
+	}
+	skill = 5
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+	id = 619
+}
+
+create_corps_commander = {
+	name = "Ronald Gibbs"
+	portrait_path = "gfx/leaders/ENG/Generals/Portrait_ENG_Ronald_Gibbs.dds"
+	traits = {
+		infantry_leader
+		urban_assault_specialist
+		commando
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 3
+	id = 620
+}
+
+create_navy_leader = {
+	name = "Bernard Rawlings"
+	portrait_path = "gfx/leaders/ENG/Admirals/Portrait_ENG_Bernard_Rawlings.dds"
+	traits = { spotter blockade_runner }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 3
+	id = 801
+}
+
+create_navy_leader = {
+	name = "Michael O'Moore Creagh"
+	portrait_path = "gfx/leaders/ENG/Admirals/Portrait_ENG_Michael_O_Moore_Creagh.dds"
+	traits = { spotter blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 2
+	id = 802
+}
+
+create_navy_leader = {
+	name = "Philip Vian"
+	portrait_path = "gfx/leaders/ENG/Admirals/Portrait_ENG_Philip_Vian.dds"
+	traits = { spotter blockade_runner }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 1
+	id = 803
+}
+
+create_navy_leader = {
+	name = "Richard Bell Davies"
+	portrait_path = "gfx/leaders/ENG/Admirals/Portrait_ENG_Richard_Bell_Davies.dds"
+	traits = { spotter blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+	id = 804
+}
+
+create_navy_leader = {
+	name = "Victor Crutchley"
+	portrait_path = "gfx/leaders/ENG/Admirals/Portrait_ENG_Victor_Crutchley.dds"
+	traits = { spotter blockade_runner }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+	id = 805
+}
+
+create_navy_leader = {
+	name = "William Tennant"
+	portrait_path = "gfx/leaders/ENG/Admirals/Portrait_ENG_William_Tennant.dds"
+	traits = { spotter blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 3
+	id = 806
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Implacable Class"
+		type = ship_hull_carrier_1
+		name_group = ENG_CV_1945
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_deck_space
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "King George V Class"
+		type = ship_hull_heavy_1
+		name_group = ENG_BB_1945
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_anti_air_3
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_heavy_battery_1
+
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "County Class"
+		type = heavy_cruiser_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+			fixed_ship_radar_slot = ship_radar_3
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_2
+			mid_1_custom_slot = ship_light_medium_battery_2
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Tiger Class"
+		type = ship_hull_cruiser_2
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot =  ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_light_medium_battery_1 
+			rear_1_custom_slot = empty
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Dido Class"
+		type = light_cruiser_3
+		name_group = ENG_CL_1945
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_anti_air_3
+			rear_1_custom_slot = ship_light_battery_2
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Fiji Class"
+		type = light_cruiser_3
+		name_group = ENG_CL_1936
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_light_battery_2
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Leander Class"
+		type = light_cruiser_2
+		name_group = ENG_CL_1945
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			mid_1_custom_slot = ship_anti_air_3
+			rear_1_custom_slot = ship_light_medium_battery_2
+    	}
+	}
+
+
+	create_equipment_variant = {
+		name = "Daring Class"
+		type = ship_hull_light_2
+		name_group = ENG_DD_1950
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_anti_air_3
+			rear_1_custom_slot = ship_light_battery_2
+    	}
+	}
+
+
+	create_equipment_variant = {
+		name = "WW2 Era Destroyer"
+		type = ship_hull_light_1
+		name_group = ENG_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_anti_air_3
+			rear_1_custom_slot = ship_light_battery_2
+    	}
+	}
+
+
+
+
+
+
+
+	create_equipment_variant = {
+		name = "Amphion Class"
+		type = ship_hull_submarine_1
+		name_group = ENG_SS_1945
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+    	}
+	}
+
+}
+
+country_event = { id = ENG_flavor.1 days = 434 }

@@ -1,0 +1,35 @@
+﻿capital = 317
+
+oob = "NIC_1962"
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1934.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 4
+    social_democrat = 14
+    social_liberal = 17
+    market_liberal = 0
+    social_conservative = 18
+    authoritarian_democrat = 21
+    despotism = 26
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Luis Somoza Debayle"
+	desc = "POLITICS_LUIS_SOMOZA_DEBAYLE_DESC"
+	picture = "gfx/leaders/NIC/Portrait_Nicaragua_Luis_Somoza_Debayle.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}

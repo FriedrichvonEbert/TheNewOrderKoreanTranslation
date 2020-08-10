@@ -1,0 +1,35 @@
+﻿capital = 1163
+
+oob = "CAF_1962"
+
+set_politics = {	
+	ruling_party = communist
+	last_election = "1933.5.17"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 65
+    ultranational_socialism = 0
+    socialist = 25
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 10
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Marien Ngouabi"
+	desc = "POLITICS_MARIEN_NGOUABI_DESC"
+	picture = "Portrait_Orungu_Marien_Ngouabi.dds"
+	expire = "1999.1.23"
+	ideology = communist_subtype
+	traits = {
+		
+	}
+}

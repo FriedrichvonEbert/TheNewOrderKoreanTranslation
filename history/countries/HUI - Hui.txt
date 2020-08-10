@@ -1,0 +1,142 @@
+﻿capital = 283
+
+oob = "HUI_1962"
+
+set_technology = {
+ 
+    ##INFANTRY##
+     # infantry_equipment_0 = 1
+     infantry_weapons_1 = 1
+     infantry_weapons_2 = 1
+     infantry_weapons_improvements_1 = 1
+     infantry_weapons_improvements_2 = 1
+     basic_infantry_equipment = 1
+     support_weapons = 1
+     infantry_at = 1
+     motorized_infantry = 1
+     motorized_rocket_unit = 1
+     motorized_infantry_1 = 1
+     marines = 1
+
+     ##SUPPORT##
+     tech_support = 1
+     tech_engineers = 1
+     tech_engineers_flamethrowers_1 = 1
+     tech_engineers2 = 1
+     tech_engineers_flamethrowers_2 = 1
+     tech_recon = 1
+     tech_recon2 = 1
+     tech_military_police = 1
+     tech_military_police2 = 1
+     tech_military_police3 = 1
+     tech_maintenance_company = 1
+     tech_maintenance_company2 = 1
+     tech_field_hospital = 1
+     tech_field_hospital2 = 1
+     tech_logistics_company = 1
+     tech_signal_company = 1
+     tech_signal_company2 = 1
+
+     ##ARMOR##
+     mechanised_infantry3 = 1
+     advanced_light_tank = 1
+    advanced_medium_tank = 1
+
+     ##HELICOPTERS##
+	helicopter_engines = 1
+     very_early_helicopter = 1
+     early_helicopter = 1
+ 
+    ##LIGHT AIR##
+     early_fighter = 1
+     interceptor_1945 = 1
+     fighter_1945 = 1
+     CAS_1945 = 1
+     
+##HEAVY AIR##
+  tac_bomber1 = 1
+     tac_air_1945 = 1
+     strategic_bomber1 = 1
+     heavy_air_1945 = 1
+     transport_air1 = 1
+     transport_air_1945 = 1
+##ENGINEERING##
+
+     electronic_mechanical_engineering = 1
+     radio = 1
+     radio_detection = 1
+     decimetric_radar = 1
+     centimetric_radar = 1
+     mechanical_computing = 1
+     computing_machine = 1
+     basic_encryption = 1
+     basic_decryption = 1
+     improved_computing_machine = 1
+     improved_encryption = 1
+     improved_decryption = 1
+     advanced_computing_machine = 1
+     advanced_encryption = 1
+
+    ##INDUSTRY##
+    ww2_line_production = 1
+    mass_production_1 = 1
+    countrywide_improvements = 1
+    concentrated_industry1 = 1
+    
+    constructionmethods = 1
+    construction0 = 1
+    resource_extraction_methods = 1
+    excavation0 = 1
+    military_construction0 = 1
+    batch_production_1 = 1
+}
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 10
+    despotism = 30
+    fascism = 20
+    national_socialism = 40
+}
+
+create_country_leader = {
+	name = "Masanobu Tsuji"
+    desc = "POLITICS_MASANOBU_TSUJI_DESC"
+	picture = "Portrait_Hui_Masanobu_Tsuji.dds"
+	expire = "2000.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Masanobu Tsuji"
+	portrait_path = "gfx/leaders/HUI/Portrait_Hui_Masanobu_Tsuji.dds"
+	traits = {
+		offensive_doctrine thorough_planner organisational_leader
+	}
+	skill = 5
+	 attack_skill = 3
+     defense_skill = 2
+     planning_skill = 5
+     logistics_skill = 4
+}
+
+add_ideas = {
+	#Country#
+	Sphere_Imp_Protectorate
+}

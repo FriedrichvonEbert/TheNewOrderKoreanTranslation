@@ -1,0 +1,35 @@
+﻿capital = 1078
+
+oob = "BFR_1962"
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 20
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 80
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Mangosuthu Buthelezi"
+	desc = "POLITICS_MANGOSUTHU_BUTHELEZI_DESC"
+	picture = "Portrait_Zulu_Mangosuthu_Buthelezi.dds"
+	expire = "1999.1.23"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}

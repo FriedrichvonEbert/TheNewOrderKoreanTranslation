@@ -1,0 +1,83 @@
+﻿capital = 455
+set_research_slots = 2
+set_stability = 0.75
+
+oob = JOR_1962
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1958.1.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 10
+	authoritarian_democrat = 14
+	despotism = 76
+	fascism = 0
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Hussein ibn Talal"
+	#desc =
+	picture = "Portrait_JOR_Hussein.dds"
+	expire = "1999.12.12"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+add_ideas= {
+	#laws
+
+	#military
+	tno_conscription_service_by_requirement
+	tno_women_combat_roles
+	tno_military_supervision_kill_em_all
+	tno_military_spending_total_war_economy
+	tno_training_minimal_training
+	tno_racial_integration_not_applicable
+	tno_draft_exemptions_none
+
+	#political
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_state_controlled
+	tno_immigration_closed_borders
+	tno_slavery_outlawed
+	tno_public_meetings_outlawed
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_open
+
+	#social
+	tno_safety_no_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_oppression
+	tno_security_anarchic
+
+	#economic
+	tno_trade_laws_closed_economy
+	tno_economic_focus_war_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_flat_taxes
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+}

@@ -1,0 +1,1389 @@
+﻿capital = 992
+
+oob = "USA_1962"
+set_war_support = 0.42
+set_stability = .91 #fuck you
+add_political_power = 3 #allows you to start campaigning instantly
+# Starting tech
+set_technology = {
+
+		##Infantry##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	infantry_weapons_improvements_5 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	infantry_at4 = 1
+	motorized_infantry = 1
+	motorized_infantry_1 = 1
+	motorized_infantry_2 = 1
+	marines = 1
+	marines2 = 1
+	marines3 = 1
+	tech_mountaineers = 1
+	paratroopers = 1
+	paratroopers2 = 1
+
+		##Support Companies##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_engineers_flamethrowers_2 = 1
+	tech_engineers3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_recon3 = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_logistics_company2 = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_transport_helicopter_company = 1
+
+		##Armor##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+	APC_1960 = 1
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	IFV_1950_basic_armor = 1
+	#IFV_1950_basic_engine = 1
+	IFV_1960 = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+	MBT_1950_basic_armor = 1
+	MBT_1960 = 1
+
+		##Artillery##
+	antiair5 = 1
+	antiair_1950 = 1
+	light_SPAA_1950 = 1
+	light_SPAA_1960 = 1
+	SPAA_1950 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	light_SPART_1950 = 1
+	light_SPART_1950_soft_attack = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+
+		##Land Doctrine##
+	combined_operations = 1
+
+		##Naval Doctrine##
+	blue_water_navy = 1
+
+		##Helicopters##
+	very_early_helicopter = 1
+	early_helicopter = 1
+	transport_helicopter_1960 = 1
+	scout_helicopter_1960 = 1
+
+		##Light Aircraft##
+	early_fighter = 1
+	fighter_1945 = 1
+	cv_1945_fighter = 1
+	fighter_1950 = 1
+	cv_1950_fighter = 1
+	fighter_1960 = 1
+	cv_1960_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	interceptor_1960 = 1
+	CAS_1945 = 1
+	cv_1945_CAS = 1
+	CAS_1950 = 1
+	cv_1950_CAS = 1
+	CAS_1960 = 1
+	cv_1960_CAS = 1
+
+		##Heavy Aircraft##
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	heavy_air_1960 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	tac_air_1960 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	transport_air_1960 = 1
+
+		##Air Doctrine##
+	air_supremacy = 1
+
+		##Engineering##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	radar_1950 = 1
+	radar_1960 = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	computing_machine_1950 = 1
+	computing_machine_1960 = 1
+	basic_encryption = 1
+	improved_encryption = 1
+	advanced_encryption = 1
+	encryption_1950 = 1
+	encryption_1960 = 1
+	basic_decryption = 1
+	improved_decryption = 1
+	advanced_decryption = 1
+	decryption_1950 = 1
+	decryption_1960 = 1
+
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	improved_jet_engines_1 = 1
+	improved_jet_engines_bombers_1 = 1
+
+		##Industry##
+	ww2_line_production = 1
+	mass_production_1 = 1
+	mass_production_2 = 1
+	countrywide_improvements = 1
+	resource_extraction_methods = 1
+	excavation0 = 1
+	excavation1 = 1
+	rubber_processing = 1
+	constructionmethods = 1
+    construction0 = 1
+	construction1 = 1
+	military_construction0 = 1
+
+		##WMDs##
+	ICBM = 1
+	MRBM = 1
+	SRBM = 1
+}
+
+set_country_flag = gui_alert_visible
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_intelligence_agency = {
+		name = "Central Intelligence Agency"
+		icon = "GFX_intelligence_agency_logo_usa"
+	}
+	set_technology = {
+		scout_plane_1945 = 1
+		scout_plane_1950 = 1
+		scout_plane_1960 = 1
+	}
+}
+
+#MtG Naval Tech
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		improved_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		improved_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		improved_ship_hull_carrier = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		improved_ship_hull_submarine = 1
+		mtg_transport = 1
+		mtg_landing_craft = 1
+		nuclear_carrier_1960 = 1
+		early_ship_hull_very_light = 1
+		basic_ship_hull_very_light = 1
+		improved_ship_hull_very_light = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
+		sonar = 1
+		early_ship_hull_more_light = 1
+		basic_ship_hull_more_light = 1
+		improved_ship_hull_more_light = 1
+		improved_depth_charges = 1
+		advanced_depth_charges = 1
+		improved_sonar = 1
+		good_sonar = 1
+		missile_corvette_1960 = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		dp_secondary_battery = 1
+		damage_control_1 = 1
+		fire_control_methods_1 = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		improved_submarine_mine_laying = 1
+		improved_naval_mines = 1
+		degaussing = 1
+		improved_ship_torpedo_launcher = 1
+		magnetic_detonator = 1
+		basic_torpedo = 1
+		nuclear_sub_1960 = 1 
+	}
+	set_naval_oob = "USA_1962_naval_mtg"
+}
+#Non-MtG Naval Tech
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		ww2_destroyer = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		ww2_cruiser = 1
+		basic_cruiser = 1
+		improved_cruiser = 1
+		ww2_battleship = 1
+		ww2_carrier = 1
+		early_carrier = 1
+		improved_carrier = 1
+		ww2_submarine = 1
+		basic_submarine = 1
+		improved_submarine = 1
+		transport = 1
+		landing_craft = 1
+		improved_carrier_nuclear_engine = 1
+	}
+	set_naval_oob = "USA_1962_naval"
+}
+
+#set_variable = { USA_mil_research_speed_factor = 0.10 }
+#add_dynamic_modifier = {
+#	modifier = USA_military_tree_modifer
+#}
+
+create_faction = Organization_of_Free_Nations
+add_to_faction = USA
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = ICE
+add_to_faction = NZL
+add_to_faction = WIN
+add_to_faction = GUY
+add_to_faction = BLZ
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = WIN
+		autonomous_state = autonomy_client_state
+	}
+	else = {
+		puppet = WIN
+	}
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = GUY
+		autonomous_state = autonomy_client_state
+	}
+	else = {
+		puppet = GUY
+	}
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = ICE
+		autonomous_state = autonomy_military_government
+	}
+	else = {
+		puppet = ICE
+	}
+}
+
+create_import = {
+    resource = rubber
+    amount = 8
+    exporter = BRA
+}
+
+ add_opinion_modifier = { target = GER modifier = embargo }
+ add_opinion_modifier = { target = GGR modifier = embargo }
+ add_opinion_modifier = { target = BGR modifier = embargo }
+ add_opinion_modifier = { target = HGR modifier = embargo }
+ add_opinion_modifier = { target = SGR modifier = embargo }
+ add_opinion_modifier = { target = CZE modifier = embargo }
+ add_opinion_modifier = { target = GGN modifier = embargo }
+ add_opinion_modifier = { target = SLO modifier = embargo }
+ add_opinion_modifier = { target = UKR modifier = embargo }
+ add_opinion_modifier = { target = MCW modifier = embargo }
+ add_opinion_modifier = { target = OST modifier = embargo }
+ add_opinion_modifier = { target = COG modifier = embargo }
+ add_opinion_modifier = { target = CAU modifier = embargo }
+ add_opinion_modifier = { target = SER modifier = embargo }
+ add_opinion_modifier = { target = DEN modifier = embargo }
+ add_opinion_modifier = { target = HOL modifier = embargo }
+ add_opinion_modifier = { target = NOR modifier = embargo }
+ add_opinion_modifier = { target = CRN modifier = embargo }
+ add_opinion_modifier = { target = MAD modifier = embargo }
+ add_opinion_modifier = { target = MZB modifier = embargo }
+ add_opinion_modifier = { target = ANG modifier = embargo }
+ add_opinion_modifier = { target = HOL modifier = embargo }
+ add_opinion_modifier = { target = BRG modifier = embargo }
+ add_opinion_modifier = { target = BUL modifier = embargo }
+ add_opinion_modifier = { target = ENG modifier = embargo }
+ add_opinion_modifier = { target = FRA modifier = embargo }
+ add_opinion_modifier = { target = BRT modifier = embargo }
+ add_opinion_modifier = { target = IRE modifier = embargo }
+
+ add_opinion_modifier = { target = JAP modifier = embargo }
+ add_opinion_modifier = { target = CHI modifier = embargo }
+ add_opinion_modifier = { target = PHI modifier = embargo }
+ add_opinion_modifier = { target = INS modifier = embargo }
+ add_opinion_modifier = { target = BUR modifier = embargo }
+ add_opinion_modifier = { target = SIA modifier = embargo }
+ add_opinion_modifier = { target = CAM modifier = embargo }
+ add_opinion_modifier = { target = LAO modifier = embargo }
+ add_opinion_modifier = { target = VIN modifier = embargo }
+ add_opinion_modifier = { target = SYO modifier = embargo }
+ add_opinion_modifier = { target = HUI modifier = embargo }
+ add_opinion_modifier = { target = GXC modifier = embargo }
+ add_opinion_modifier = { target = MAN modifier = embargo }
+ add_opinion_modifier = { target = SIC modifier = embargo }
+ add_opinion_modifier = { target = GUZ modifier = embargo }
+ add_opinion_modifier = { target = SHX modifier = embargo }
+ add_opinion_modifier = { target = BEN modifier = embargo }
+ add_opinion_modifier = { target = GNG modifier = embargo }
+ add_opinion_modifier = { target = YUN modifier = embargo }
+ add_opinion_modifier = { target = BHU modifier = embargo }
+
+set_research_slots = 4
+set_convoys = 500
+add_political_power = 99
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1960.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 1
+    social_democrat = 15
+    social_liberal = 41
+    market_liberal = 0
+    social_conservative = 25
+    authoritarian_democrat = 17
+    despotism = 0
+    fascism = 1
+    burgundian_system = 0
+}
+
+#INITIAL COMPLETE FOCUSES#
+	complete_national_focus = USA_the_nixon_presidency
+	complete_national_focus = USA_the_campaign_trail
+	complete_national_focus = USA_get_our_hands_dirty
+	complete_national_focus = USA_steal_their_files
+	complete_national_focus = USA_the_juiciest_blackmail
+	complete_national_focus = USA_wiretap_the_NPP
+	complete_national_focus = USA_estrange_the_democrats
+	complete_national_focus = USA_everyone_i_dont_agree_with_is_hitler
+	complete_national_focus = USA_split_our_enemies
+	complete_national_focus = USA_proto_progressives
+	complete_national_focus = USA_turn_the_people
+	#complete_national_focus = USA_the_yockeys
+	#complete_national_focus = USA_wrangle_the_senate
+	complete_national_focus = USA_secure_the_party
+	complete_national_focus = USA_the_civil_rights_dillema
+	complete_national_focus = USA_toe_the_middle_line
+	complete_national_focus = USA_ease_civil_rights_leaders_fears
+	complete_national_focus = USA_rally_segregationists_support
+	complete_national_focus = USA_nationwide_riots
+	complete_national_focus = USA_reinforce_the_police
+	#complete_national_focus = USA_keep_it_calm
+	#complete_national_focus = USA_keep_it_orderly
+	complete_national_focus = USA_a_cold_war
+	complete_national_focus = USA_containment_theory
+	#complete_national_focus = USA_the_western_plan
+	#complete_national_focus = USA_nixon_cia
+
+add_ideas = {
+		#Faction Status
+		OFN_Leader_of_The_Free_World
+		#Spirits
+	USA_last_bastion_of_liberty
+	USA_the_american_depression_4
+	USA_jim_crow
+	USA_OFN_Buffs_4
+		#Ministers
+	USA_John_F_Kennedy_dep
+	USA_Melvin_Laird_mil
+	USA_William_P_Rogers_pol
+	USA_Robert_McNamara_eco
+		#POLITICAL
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_all_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_universal
+	tno_refugees_open
+		#MILITARY
+	tno_conscription_volunteer_only
+	tno_women_military_assistance
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_combat_schooling
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_educational_deferment
+		#SOCIAL
+	tno_safety_acceptable_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_segregation
+	tno_security_police
+		#ECONOMIC
+	tno_trade_laws_free_trade
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_trinket_pensions
+	tno_unemployment_trinket_subsidies
+
+		#SOCIETAL DEVELOPMENT
+	tno_nuclear_stockpile_massive
+	tno_poverty_rate_25
+	tno_army_professionalism_professional
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_modern
+	tno_agriculture_mass_mechanized
+	tno_research_facilities_modern
+	tno_academic_base_primary_schooling
+
+	construction_level_5
+
+}
+
+create_country_leader = {
+	name = "Richard Nixon"
+	desc = "POLITICS_RICHARD_NIXON_DESC"
+	picture = "Portrait_USA_Richard_Nixon.dds"
+	expire = "1994.4.20"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "John F. Kennedy"
+	desc = "POLITICS_JFK_DESC"
+	picture = "Portrait_USA_John_Fitzgerald_Kennedy.dds"
+	expire = "1994.4.20"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Francis Parker Yockey"
+	desc = "POLITICS_FRANCIS_YOCKEY_DESC"
+	picture = "Portrait_USA_Francis_Parker_Yockey.dds"
+	expire = "1994.4.20"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "George Wallace"
+	desc = "POLITICS_GEORGE_WALLACE_DESC"
+	picture = "Portrait_USA_George_Wallace.dds"
+	expire = "1994.4.20"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Henry M. Jackson"
+	desc = "POLITICS_SCP_DESC"
+	picture = "Portrait_USA_Henry_M_Jackson.dds"
+	expire = "1994.4.20"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gus Hall"
+	desc = "POLITICS_GUS_HALL_DESC"
+	picture = "Portrait_USA_Gus_Hall.dds"
+	expire = "1994.4.20"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Andrew McAllister"
+	#desc = "POLITICS_GUS_HALL_DESC"
+	#picture = "Portrait_USA_Gus_Hall.dds"
+	expire = "1994.4.20"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	# irrelivent as this ship was turned int oa command ship by the start date
+	#create_equipment_variant = {
+	#	name = "Freedom Class"
+	#	type = ship_hull_carrier_1
+	#	name_group = USA_Carrier_AA
+	#	parent_version = 0
+	#	modules = {
+	#		fixed_ship_deck_slot_1 = ship_deck_space
+	#		fixed_ship_deck_slot_2 = ship_deck_space
+	#		fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+	#		fixed_ship_radar_slot = ship_radar_1
+	#		fixed_ship_engine_slot = carrier_ship_engine_3
+	#		fixed_ship_secondaries_slot = ship_secondaries_2
+	#		front_1_custom_slot = ship_deck_space_medium
+	#	}
+	#}
+	create_equipment_variant = {
+		name = "Halsey Class"
+		type = ship_hull_more_light_2
+		name_group = USA_DE_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_mine_layer_1
+    	}
+	}
+	create_equipment_variant = {
+		name = "Turner Class"
+		type = ship_hull_more_light_1
+		name_group = USA_DE_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_anti_air_1
+    	}
+	}
+	create_equipment_variant = {
+		name = "Garcia Class"
+		type = ship_hull_more_light_3
+		name_group = USA_DE_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			front_1_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_anti_ship_missile_battery_1
+			rear_1_custom_slot = ship_anti_air_missile_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Flover Class"
+		type = ship_hull_very_light_1
+		name_group = USA_DE_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+    	}
+	}
+	create_equipment_variant = {
+		name = "Lafayette Class"
+		type = ship_hull_very_light_2
+		name_group = USA_DE_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+	create_equipment_variant = {
+		name = "High Point Class"
+		type = ship_hull_very_light_3
+		name_group = USA_DE_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_radar_slot = ship_sonar_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_anti_air_2
+			mid_1_custom_slot = ship_anti_air_missile_battery_1
+			rear_1_custom_slot = ship_anti_air_2
+		}
+	}
+	#deckspace right, redjust others
+	create_equipment_variant = {
+		name = "Ascension Class"
+		type = ship_hull_carrier_1
+		name_group = USA_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space_medium
+			fixed_ship_deck_slot_2 = ship_deck_space_medium
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_deck_space_large
+		}
+	}
+	#deckspace right, redjust others
+	#create_equipment_variant = {
+	#	name = "Essex Class"
+	#	type = ship_hull_carrier_1
+	#	name_group = USA_Carrier_Names
+	#	parent_version = 0
+	#	modules = {
+	#		fixed_ship_deck_slot_1 = ship_deck_space_medium
+	#		fixed_ship_deck_slot_2 = ship_deck_space_medium
+	#		fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+	#		fixed_ship_radar_slot = ship_radar_1
+	#		fixed_ship_engine_slot = carrier_ship_engine_1
+	#		fixed_ship_secondaries_slot = ship_secondaries_1
+	#		front_1_custom_slot = ship_deck_space_large
+	#	}
+	#}
+	#deckspace right, readjust others
+	#create_equipment_variant = {
+	#	name = "Lexington Class"
+	#	type = ship_hull_carrier_1
+	#	name_group = USA_Carrier_Names
+	#	parent_version = 0
+	#	modules = {
+	#		fixed_ship_deck_slot_1 = ship_deck_space_medium
+	#		fixed_ship_deck_slot_2 = ship_deck_space_medium
+	#		fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+	#		fixed_ship_radar_slot = ship_radar_1
+	#		fixed_ship_engine_slot = carrier_ship_engine_1
+	#		fixed_ship_secondaries_slot = ship_secondaries_1
+	#		front_1_custom_slot = ship_deck_space_medium
+	#	}
+	#}
+	#deckspace right, redjust others
+	create_equipment_variant = {
+		name = "Forrestal Class"
+		type = ship_hull_carrier_2
+		name_group = USA_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space_medium
+			fixed_ship_deck_slot_2 = ship_deck_space_medium
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_deck_space_medium
+			mid_1_custom_slot = ship_deck_space_medium
+		}
+	}
+	#deckspace right, readjust others
+	#create_equipment_variant = {
+	#	name = "Concord Class"
+	#	type = ship_hull_carrier_3
+	#	name_group = USA_Carrier_Names
+	#	parent_version = 0
+	#	modules = {
+	#		fixed_ship_deck_slot_1 = ship_deck_space_medium
+	#		fixed_ship_deck_slot_2 = ship_deck_space_medium
+	#		fixed_ship_anti_air_slot = ship_anti_air_missile_battery_3
+	#		fixed_ship_radar_slot = ship_radar_3
+	#		fixed_ship_engine_slot = carrier_ship_engine_3
+	#		fixed_ship_secondaries_slot = dp_ship_secondaries
+	#		front_1_custom_slot = ship_armor_carrier_deck
+	#		mid_1_custom_slot = ship_deck_space
+	#		mid_2_custom_slot = ship_deck_space
+	#	}
+	#}
+	#REAJUST
+	create_equipment_variant = {
+		name = "Kitty Hawk Class"
+		type = ship_hull_carrier_3
+		name_group = USA_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space_medium
+			fixed_ship_deck_slot_2 = ship_deck_space_medium
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_3
+			fixed_ship_radar_slot = ship_radar_3
+			fixed_ship_engine_slot = carrier_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			front_1_custom_slot = ship_armor_carrier_deck
+			mid_1_custom_slot = ship_deck_space
+			mid_2_custom_slot = ship_deck_space
+		}
+	}
+
+	#PLACEHOLDER
+	#create_equipment_variant = {
+	#	name = "Fletcher Class"
+	#	type = ship_hull_light_1
+	#	name_group = USA_Destroyer_Names
+	#	parent_version = 0
+	#	modules = {
+	#		fixed_ship_battery_slot = ship_light_battery_1
+	#		fixed_ship_anti_air_slot = ship_anti_air_1
+	#		fixed_ship_fire_control_system_slot = empty
+	#		fixed_ship_radar_slot = ship_sonar_1
+	#		fixed_ship_engine_slot = light_ship_engine_1
+	#		fixed_ship_torpedo_slot = ship_torpedo_1
+	#		mid_1_custom_slot = ship_depth_charge_1
+	#		rear_1_custom_slot = ship_depth_charge_1
+    #	}
+	#}
+	#PLACEHOLDER
+	#create_equipment_variant = {
+	#	name = "Allan M. Summner Class"
+	#	type = ship_hull_light_1
+	#	name_group = USA_Destroyer_Names
+	#	parent_version = 0
+	#	modules = {
+	#		fixed_ship_battery_slot = ship_light_battery_1
+	#		fixed_ship_anti_air_slot = ship_anti_air_1
+	#		fixed_ship_fire_control_system_slot = empty
+	#		fixed_ship_radar_slot = ship_sonar_1
+	#		fixed_ship_engine_slot = light_ship_engine_1
+	#		fixed_ship_torpedo_slot = ship_torpedo_1
+	#		mid_1_custom_slot = ship_depth_charge_1
+	#		rear_1_custom_slot = ship_depth_charge_1
+    #	}
+	#}
+	create_equipment_variant = {
+		name = "Gearing Class"
+		type = ship_hull_light_1
+		name_group = USA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_depth_charge_1
+    	}
+	}
+	#PLACEHOLDER
+	#create_equipment_variant = {
+	#	name = "Mitscher Class"
+	#	type = ship_hull_light_2
+	#	name_group = USA_Destroyer_Names
+	#	parent_version = 0
+	#	modules = {
+	#		fixed_ship_battery_slot = ship_light_battery_2
+	#		fixed_ship_anti_air_slot = ship_anti_air_2
+	#		fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+	#		fixed_ship_radar_slot = ship_radar_2
+	#		fixed_ship_engine_slot = light_ship_engine_2
+	#		fixed_ship_torpedo_slot = ship_torpedo_2
+	#		mid_1_custom_slot = ship_light_battery_2
+	#		rear_1_custom_slot = ship_anti_air_2
+	#	}
+	#}
+	create_equipment_variant = {
+		name = "Forrest Sherman Class"
+		type = ship_hull_light_2
+		name_group = USA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_anti_air_2
+		}
+	}
+	#PLACEHOLDER
+	#create_equipment_variant = {
+	#	name = "Farragut Class"
+	#	type = ship_hull_light_2
+	#	name_group = USA_Destroyer_Names
+	#	parent_version = 0
+	#	modules = {
+	#		fixed_ship_battery_slot = ship_light_battery_2
+	#		fixed_ship_anti_air_slot = ship_anti_air_2
+	#		fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+	#		fixed_ship_radar_slot = ship_radar_2
+	#		fixed_ship_engine_slot = light_ship_engine_2
+	#		fixed_ship_torpedo_slot = ship_torpedo_2
+	#		mid_1_custom_slot = ship_light_battery_2
+	#		rear_1_custom_slot = ship_anti_air_2
+	#	}
+	#}
+	create_equipment_variant = {
+		name = "Charles F. Adams Class"
+		type = ship_hull_light_3
+		name_group = USA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_radar_slot = ship_sonar_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_anti_ship_missile_battery_1
+			mid_1_custom_slot = ship_mine_sweeper_1
+			rear_1_custom_slot = ship_depth_charge_3
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Balao Class"
+		type = ship_hull_submarine_1
+		name_group = USA_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+    	}
+	}
+	create_equipment_variant = {
+		name = "Tench Class"
+		type = ship_hull_submarine_2
+		name_group = USA_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Sturgeon Class"
+		type = ship_hull_submarine_3
+		name_group = USA_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_3
+			fixed_ship_torpedo_slot = ship_torpedo_sub_3
+			rear_1_custom_slot = ship_torpedo_sub_3
+		}
+	}
+	create_equipment_variant = {
+		name = "Des Moines Class"
+		type = ship_hull_cruiser_1
+		name_group = USA_CLAA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = ship_medium_battery_1
+			front_1_custom_slot = ship_anti_air_2
+    	}
+	}
+	create_equipment_variant = {
+		name = "Worchester Class"
+		type = ship_hull_cruiser_2
+		name_group = USA_CLAA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			mid_1_custom_slot = ship_light_medium_battery_2
+			mid_2_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+	create_equipment_variant = {
+		name = "Albany Class"
+		type = ship_hull_cruiser_3
+		name_group = USA_CLAA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_light_medium_battery_1
+			mid_2_custom_slot = ship_anti_air_4
+			mid_1_custom_slot = ship_airplane_launcher_2
+			front_1_custom_slot = ship_light_medium_battery_1
+		}
+	}	
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	create_equipment_variant = {
+		name = "Ascension Class"
+		type = carrier_1
+		name_group = USA_CV_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Forrestal Class"
+		type = carrier_2
+		name_group = USA_CV_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Kitty Hawk Class"
+		type = carrier_3
+		name_group = USA_CV_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Gearing Class"
+		type = destroyer_1
+		name_group = USA_DD_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Forrest Sherman Class"
+		type = destroyer_2
+		name_group = USA_DD_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Halsey Class"
+		type = destroyer_2
+		name_group = USA_DD_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Charles F. Adams Class"
+		type = destroyer_3
+		name_group = USA_DD_HISTORICAL
+		parent_version = 0
+	}
+
+	create_equipment_variant = {
+		name = "Balao Class"
+		type = submarine_1
+		name_group = USA_SS_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Tench Class"
+		type = submarine_2
+		name_group = USA_SS_HISTORICAL
+		parent_version = 0
+	}
+
+	create_equipment_variant = {
+		name = "Sturgeon Class"
+		type = submarine_3
+		name_group = USA_SS_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Des Moines Class"
+		type = heavy_cruiser_1
+		name_group = USA_CLAA_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Worchester Class"
+		type = heavy_cruiser_2
+		name_group = USA_CLAA_HISTORICAL
+		parent_version = 0
+	}
+	create_equipment_variant = {
+		name = "Albany Class"
+		type = heavy_cruiser_3
+		name_group = USA_CLAA_HISTORICAL
+		parent_version = 0
+	}
+}
+
+create_corps_commander = {
+	name = "Wallace M. Greene Jr."
+	picture = "Portrait_USA_GEN_Wallace_M_Green_Jr.dds"
+	traits = { naval_invader invader_ii }
+
+	skill = 2
+	id = 1000
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Lyman Lemnitzer"
+	picture = "Portrait_USA_Lyman_Lemnitzer.dds"
+	traits = { war_hero brilliant_strategist expert_delegator }
+
+	skill = 4
+	id = 1001
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Robert W. Porter Jr."
+	picture = "Portrait_USA_GEN_Robert_W_Porter_Jr.dds"
+	traits = { infantry_expert }
+
+	skill = 2
+	id = 1002
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Earle Wheeler"
+	picture = "Portrait_USA_GEN_Earle_Wheeler.dds"
+	traits = { offensive_doctrine }
+
+	skill = 4
+	id = 1003
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Frank S. Besson Jr."
+	picture = "Portrait_USA_Frank_S_Besson_Jr.dds"
+	traits = { organizer }
+
+	skill = 3
+	id = 1004
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "William Westmoreland"
+	picture = "Portrait_USA_GEN_William_Westmoreland.dds"
+	traits = { offensive_doctrine  fast_planner aggressive_assaulter }
+
+	skill = 5
+	id = 1005
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Leonard F. Chapman Jr."
+	picture = "Portrait_USA_GEN_Leonard_F_Chapman_Jr.dds"
+	traits = { naval_invader war_hero }
+
+	skill = 3
+	id = 1006
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "John D. Lavelle"
+	picture = "Portrait_USA_GEN_John_D_Lavelle.dds" #removed in 72 but that's not hooked up yet
+	traits = { paratrooper }
+
+	skill = 2
+	id = 1016
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ben Harrell"
+	picture = "Portrait_USA_Ben_Harrell.dds"
+	traits = { paratrooper }
+
+	skill = 2
+	id = 1017
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Berton E. Spivy Jr."
+	picture = "Portrait_USA_Berton_E_Spivy_Jr.dds"
+	traits = { armor_officer commando }
+
+	skill = 3
+	id = 1018
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "James K. Woolnough"
+	picture = "Portrait_USA_James_K_Woolnough.dds"
+	traits = { organizer }
+
+	skill = 2
+	id = 1021
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Dwight E. Beach"
+	picture = "Portrait_USA_Dwight_E_Beach.dds"
+	traits = { naval_invader invader_ii }
+
+	skill = 3
+	id = 1022
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Maxwell D. Taylor"
+	picture = "Portrait_USA_Maxwell_D_Taylor.dds"
+	traits = { old_guard trickster }
+
+	skill = 4
+	id = 1023
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Charles H. Bonesteel III"
+	picture = "Portrait_USA_Charles_H_Bonesteel_III.dds"
+	traits = { infantry_expert trickster }
+
+	skill = 2
+	id = 1028
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "David L. McDonald"
+	#picture = "Portrait_USA_Earnest_King.dds"
+	traits = { flight_deck_manager gunnery_expert blue_water_expert }
+
+	skill = 4
+	id = 1100
+}
+
+create_navy_leader = {
+	name = "Thomas H. Moorer"
+	picture = "Portrait_USA_ADM_Thomas_Hinman_Moorer.dds"
+	traits = { aviation_enthusiast air_controller dive_bomber }
+
+	skill = 4
+	id = 1101
+}
+
+create_navy_leader = {
+	name = "Horacio Rivero Jr."
+	picture = "Portrait_USA_ADM_Horacio_Rivero.dds"
+	traits = { navy_career_officer battleship_adherent gunnery_expert gentlemanly}
+
+	skill = 3
+	id = 1102
+}
+create_navy_leader = {
+	name = "John Thach"
+	picture = "Portrait_USA_John_Thach.dds"
+	traits = {}
+
+	skill = 1
+	id = 1113
+}
+
+#Starting Equipment
+add_equipment_to_stockpile = {
+	type = infantry_equipment_2
+	amount = 1776
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_1
+	amount = 3000
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = motorized_equipment_2
+	amount = 1000
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 1000
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = artillery_equipment_3
+	amount = 1000
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = APC_equipment_2
+	amount = 500
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = MBT_equipment_2
+	amount = 500
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = jet_fighter_equipment_2
+	amount = 250
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = transport_helicopter_equipment_1
+	amount = 250
+	producer = USA
+}
+
+#Staring Missiles
+add_equipment_to_stockpile = {
+	type = ICBM_equipment
+	amount = 750
+	producer = USA
+}
+add_equipment_to_stockpile = {
+	type = MRBM_equipment
+	amount = 300
+	producer = USA
+}
+add_equipment_to_stockpile = {
+	type = SRBM_equipment
+	amount = 200
+	producer = USA
+}

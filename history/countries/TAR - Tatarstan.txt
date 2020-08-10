@@ -1,0 +1,157 @@
+﻿capital = 249
+
+oob = "TAR_1962"
+
+add_ideas = {
+	### STANDARD ###
+	RUS_warlord_manpower
+	RUS_terror_bombing
+	TAR_free_tatars
+	### MINISTERS ###
+	TAR_Abdurrakhman_Absalyamov_hog
+	TAR_Rostam_Yaxin_for
+	TAR_Gabbas_Gimatdinov_eco
+	TAR_Mansur_Abdullin_sec
+	### POLITICAL ###
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_secularism
+	tno_trade_unions_nonsocialist_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_universal
+	tno_refugees_skilled
+	### MILITARY ###
+	tno_conscription_one_year_draft
+	tno_women_military_assistance
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_none
+	### ECONOMIC ###
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_low_subsidies
+	### SOCIAL ###
+	tno_safety_minimal_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_affirmative_action
+	tno_security_police
+	### SOCIETAL DEVELOPMENT ###
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_disgruntled_veterans
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+}
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	##ARTY##
+	artillery4 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	constructionmethods = 1
+	construction0 = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 5
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 8
+	market_liberal = 0
+	social_conservative = 21
+	authoritarian_democrat = 66
+	despotism = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Abdulla Aliş"
+	desc = "POLITICS_ABDULA_ALIS_DESC"
+	picture = "Portrait_Tatarstan_Abdulla_Alis.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Farakh Kamaldinov"
+	picture = "Portrait_Tatarstan_Farakh_Kamaldinov.dds"
+	traits = { war_hero inflexible_strategist defensive_doctrine organizer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3341
+}
+
+create_corps_commander = {
+	name = "Mansur Abdullin"
+	picture = "Portrait_Tatarstan_Mansur_Abdullin.dds"
+	traits = { trait_reckless commando }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3342
+}

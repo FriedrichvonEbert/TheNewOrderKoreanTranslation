@@ -1,0 +1,342 @@
+﻿capital = 578
+
+oob = "ERS_1962"
+
+add_ideas = {
+	### Standard ###
+	RUS_warlord_manpower
+	RUS_siberia_plan_startscreen
+	ERS_formation_of_the_salons
+	ERS_warlord_of_the_city
+	ERS_provisional_government
+
+	### Ministers ###
+	ERS_Andrey_Sinyavsky_hog
+	ERS_Dmitry_Likhachev_for
+	ERS_Alexander_Yesenin_Volpin_eco
+	ERS_Matvey_Shaposhnikov_sec
+
+	### Political ###
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_all_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+
+	### Military ###
+	tno_conscription_two_year_draft
+	tno_women_combat_roles
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+
+	### Economic ###
+	tno_trade_laws_export_focus
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_low_subsidies
+
+	### Social ###
+	tno_safety_minimal_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_police
+
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_political_interference
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+}
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	tech_mountaineers = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_logistics_company = 1
+
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+	APC_1950 = 1
+	MBT_1950 = 1
+
+	##ARTY##
+	antiair5 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	artillery_1950 = 1
+
+	##LAND DOCTRINE##
+
+	##NAVAL##
+
+	##NAVAL DOCTRINE##
+
+	##HELICOPTERS##
+
+	##LIGHT AIR##
+	early_fighter = 1
+	interceptor_1945 = 1
+	fighter_1945 = 1
+	CAS_1945 = 1
+
+	##HEAVY AIR##
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	improved_encryption = 1
+	improved_decryption = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+
+	##INDUSTRY##
+	ww2_line_production = 1
+	countrywide_improvements = 1
+	constructionmethods = 1
+	construction0 = 1
+	resource_extraction_methods = 1
+	excavation0 = 1
+	military_construction0 = 1
+}
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democrat = 23.68
+	social_liberal = 25.43
+	social_conservative = 25.96
+	authoritarian_democrat = 24.93
+}
+
+ERS_setup_starting_variables = yes
+### Country Leaders ###
+create_country_leader = {
+	name = "Viktor Nekrasov"
+	desc = "POLITICS_VIKTOR_NEKRASOV_DESC"
+	picture = "Portrait_Tomsk_Viktor_Nekrasov.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Dmitry Shostakovich"
+	desc = "POLITICS_DMITRI_SHOSTAKOVICH_DESC"
+	picture = "Portrait_Tomsk_Dmitry_Shostakovich.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Andrey Sakharov"
+	desc = "POLITICS_ANDREY_SAKHAROV_DESC"
+	picture = "Portrait_Tomsk_Andrey_Sakharov.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Anna Akhmatova"
+	desc = "POLITICS_ANNA_AKHMATOVA_DESC"
+	picture = "Portrait_Tomsk_Anna_Akhmatova.dds"
+	expire = "1999.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Boris Pasternak"
+	desc = "POLITICS_BORIS_PASTERNAK_DESC"
+	picture = "Portrait_Tomsk_Boris_Pasternak.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Daniil Kharms"
+	desc = "POLITICS_DANIIL_KHARMS_DESC"
+	picture = "Portrait_Tomsk_Daniil_Kharms.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Matvey Shaposhnikov"
+	picture = "Portrait_Tomsk_Matvey_Shaposhnikov.dds"
+	skill = 3
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { war_hero armor_officer unyielding_defender panzer_leader }
+	id = 3601
+}
+
+create_corps_commander = {
+	name = "Nikolai Masalov"
+	picture = "Portrait_Tomsk_Nikolai_Masalov.dds"
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	traits = { trait_reckless infantry_officer trickster }
+	id = 3602
+}
+
+create_corps_commander = {
+	name = "Nikolai Batyuk"
+	picture = "Portrait_Tomsk_Nikolai_Batyuk.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	traits = { war_hero urban_assault_specialist winter_specialist }
+	id = 3603
+}
+
+create_corps_commander = {
+	name = "Mikhail Prudnikov"
+	picture = "Portrait_Tomsk_Mikhail_Prudnikov.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	traits = { career_officer trickster ranger expert_improviser }
+	id = 3604
+}
+
+create_corps_commander = {
+	name = "Alexey Nestrenko"
+	picture = "Portrait_Tomsk_Alexey_Nestrenko.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
+	traits = { career_officer bearer_of_artillery organizer }
+	id = 3605
+}
+
+create_corps_commander = {
+	name = "Pyotr Gavrilov"
+	picture = "Portrait_Tomsk_Pyotr_Gavrilov.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	traits = { armor_officer trait_engineer fortress_buster }
+	id = 3606
+}
+
+create_corps_commander = {
+	name = "Pyotr Kruglov"
+	picture = "Portrait_Tomsk_Pyotr_Kruglov.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+	traits = { trait_cautious bearer_of_artillery infantry_leader }
+	id = 3607
+}
+
+create_corps_commander = {
+	name = "Viktor Kharchenko"
+	picture = "Portrait_Tomsk_Viktor_Kharchenko.dds"
+	skill = 3
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+	traits = { war_hero trait_engineer }
+	id = 3608
+}
+
+create_corps_commander = {
+	name = "Pavel Kuleshov"
+	picture = "Portrait_Tomsk_Pavel_Kuleshov.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+	traits = { organizer bearer_of_artillery }
+	id = 3609
+}
+

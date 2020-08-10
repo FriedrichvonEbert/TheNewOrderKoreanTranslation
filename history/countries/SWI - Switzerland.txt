@@ -1,0 +1,94 @@
+﻿#needs air and industry techs
+
+capital = 3
+
+oob = "SWI_1962"
+
+add_ideas = {
+SWI_the_cash_must_flow
+SWI_fortress_switzerland
+}
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1959.10.25"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 5
+    social_liberal = 8
+    market_liberal = 0
+    social_conservative = 77
+    authoritarian_democrat = 10
+    despotism = 0
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Paul Chaudet"
+	#desc =
+	picture = "Portrait_Switzerland_Paul_Chaudet.dds"
+	expire = "1999.12.12"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+set_technology = {
+		##Infantry##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	infantry_weapons_improvements_5 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	infantry_at4 = 1
+	
+	
+	
+	motorized_infantry = 1
+	motorized_infantry_1 = 1
+	tech_mountaineers = 1
+	tech_mountaineers2 = 1
+	tech_mountaineers3 = 1
+		##Support Companies##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_engineers_flamethrowers_2 = 1
+	tech_engineers3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_recon3 = 1
+		##Armor##
+	mechanised_infantry3 = 1
+	APC_1950 = 1
+	advanced_light_tank = 1
+	IFV_1950 = 1
+	advanced_medium_tank = 1
+	MBT_1950 = 1
+		##Artillery##
+	antiair5 = 1
+	antiair_1950 = 1
+	artillery4 = 1
+	artillery_1950 = 1
+		##Land Doctrine##
+	strategic_theorem = 1
+}

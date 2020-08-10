@@ -1,0 +1,102 @@
+﻿capital = 275
+
+add_ideas = {
+    BOR_Fight_Home
+    #POLITICAL
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_illegal
+	tno_immigration_closed_borders
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_banned
+	#MILITARY
+	tno_conscription_four_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_combat_schooling
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_educational_deferment
+	#SOCIAL
+	tno_safety_acceptable_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_segregation
+	tno_security_police
+	#ECONOMIC
+	tno_trade_laws_free_trade
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_acceptable_pensions
+	tno_unemployment_trinket_subsidies
+}
+
+set_research_slots = 3
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 10
+    despotism = 0
+    fascism = 80
+    national_socialism = 10
+    burgundian_system = 0
+}
+
+set_politics = {
+    ruling_party = fascism
+	last_election = "1962.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_2
+	amount = 1500
+	producer = BOR
+}
+
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_0
+	amount = 400
+	producer = BOR
+}
+
+create_country_leader = {
+	name = "Albert Hertzog"
+	desc = "POLITICS_ALBERT_HERTZOG_DESC"
+	picture = "Portrait_Boer_Albert_Hertzog.dds"
+	expire = "1995.1.1"
+	ideology = fascism_subtype
+	traits = {	
+
+	}
+}
+
+create_corps_commander = {
+	name = "Rudolph Hiemstra"
+	picture = "Portrait_Boer_Rudolph_Hiemstra.dds"
+	traits = { inflexible_strategist commando camouflage_expert }
+	id = 3817
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}

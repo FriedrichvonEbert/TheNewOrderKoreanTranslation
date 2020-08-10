@@ -1,0 +1,259 @@
+﻿capital = 691
+oob = "WIN_1962"
+
+set_research_slots = 2
+set_convoys = 120
+
+set_technology = {
+	##INFANTRY##
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	motorized_infantry_1 = 1
+	
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	
+	##ARMOR##
+	advanced_light_tank = 1
+	mechanised_infantry3 = 1
+	
+	##ARTILLERY##
+	gw_artillery = 1
+	artillery4 = 1
+	antiair5 = 1
+	
+	##NAVAL##
+	ww2_destroyer = 1
+	ww2_submarine = 1
+	basic_submarine = 1
+	transport = 1
+	
+	##HELICOPTERS##
+	very_early_helicopter = 1
+ 	early_helicopter = 1
+	
+	##LIGHT AIR##
+	early_fighter = 1
+	fighter_1945 = 1
+	interceptor_1945 = 1
+	
+	##HEAVY AIR##
+	tac_bomber1 = 1
+	
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	improved_encryption = 1
+	improved_decryption = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+	advanced_decryption = 1
+	helicopter_engines = 1
+	jet_engines = 1
+	
+	##INDUSTRY##
+	##INDUSTRY TECHS ARE WIP##
+	
+}
+
+add_opinion_modifier = { target = GER modifier = embargo }
+add_opinion_modifier = { target = GGR modifier = embargo }
+add_opinion_modifier = { target = BGR modifier = embargo }
+add_opinion_modifier = { target = HGR modifier = embargo }
+add_opinion_modifier = { target = SGR modifier = embargo }
+add_opinion_modifier = { target = CZE modifier = embargo }
+add_opinion_modifier = { target = GGN modifier = embargo }
+add_opinion_modifier = { target = SLO modifier = embargo }
+add_opinion_modifier = { target = UKR modifier = embargo }
+add_opinion_modifier = { target = MCW modifier = embargo }
+add_opinion_modifier = { target = OST modifier = embargo }
+add_opinion_modifier = { target = COG modifier = embargo }
+add_opinion_modifier = { target = CAU modifier = embargo }
+add_opinion_modifier = { target = SER modifier = embargo }
+add_opinion_modifier = { target = DEN modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = NOR modifier = embargo }
+add_opinion_modifier = { target = CRN modifier = embargo }
+add_opinion_modifier = { target = MAD modifier = embargo }
+add_opinion_modifier = { target = MZB modifier = embargo }
+add_opinion_modifier = { target = ANG modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = BRG modifier = embargo }
+add_opinion_modifier = { target = BUL modifier = embargo }
+add_opinion_modifier = { target = ENG modifier = embargo }
+add_opinion_modifier = { target = FRA modifier = embargo }
+add_opinion_modifier = { target = BRT modifier = embargo }
+add_opinion_modifier = { target = IRE modifier = embargo }
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1961.5.16"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 3
+    socialist = 6
+    social_democrat = 35
+    social_liberal = 42
+    market_liberal = 0
+    social_conservative = 8
+    authoritarian_democrat = 6
+    despotism = 0
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+set_stability = 0.25
+set_war_support = 0.2
+
+add_ideas = {
+	#faction status
+	OFN_Dependent_Member
+	tno_safety_limited_regulations
+	tno_health_care_private_health_care
+	tno_pollution_some_regulations
+	tno_education_public_education
+	tno_penal_system_rehabilitation
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_gender_equality
+	tno_minorities_equal_rights
+	tno_security_police
+
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_all_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+
+	tno_trade_laws_free_trade
+	tno_economic_focus_demilitarized_economy
+	tno_tax_rate_low_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_trinket_pensions
+	tno_unemployment_no_subsidies
+
+	tno_conscription_volunteer_only
+	tno_women_noncombat_only
+	tno_military_supervision_military_policing
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_civil_service_deferment
+
+	#WIN_jamaican_nationalism
+	#WIN_splitting_apart
+	#WIN_history_occupation
+}
+
+create_country_leader = {
+	name = "David Hartman Smith"
+	desc = "POLITICS_DAVID_HARTMAN_SMITH_DESC"
+	picture = "Portrait_WIN_David_Hartman_Smith.dds"
+	expire = "1971.10.28"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Eric Williams"
+	desc = "POLITICS_ERIC_WILLIAMS_DESC"
+	picture = "Portrait_WIN_Eric_Williams.dds"
+	expire = "1971.10.28"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grantley Herbert Adams"
+	desc = "POLITICS_GRANTLEY_ADAMS_DESC"
+	picture = "Portrait_WIN_Grantley_Adams.dds"
+	expire = "1971.10.28"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grantley Herbert Adams"
+	desc = "POLITICS_GRANTLEY_ADAMS_DESC"
+	picture = "Portrait_WIN_Grantley_Adams.dds"
+	expire = "1971.10.28"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grantley Herbert Adams"
+	desc = "POLITICS_GRANTLEY_ADAMS_DESC"
+	picture = "Portrait_WIN_Grantley_Adams.dds"
+	expire = "1971.10.28"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Bustamante"
+	desc = "POLITICS_ALEXANDER_BUSTAMANTE_DESC"
+	picture = "Portrait_WIN_Alexander_Bustamante.dds"
+	expire = "1971.10.28"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+
+create_country_leader = {
+	name = "Aimé Césaire"
+	desc = "POLITICS_AIME_CESAIRE_DESC"
+	picture = "Portrait_WIN_Aime_Cesaire.dds"
+	expire = "1971.10.28"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Léopold Bissol"
+	desc = "POLITICS_LEOPOLD_BISSOL_DESC"
+	picture = "Portrait_WIN_Leopold_Bissol.dds"
+	expire = "1971.10.28"
+	ideology = communist_subtype
+	traits = {
+	}
+}

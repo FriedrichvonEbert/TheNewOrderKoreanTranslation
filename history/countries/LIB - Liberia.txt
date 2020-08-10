@@ -1,0 +1,170 @@
+﻿capital = 298
+
+oob = "LIB_1962"
+
+add_ideas = {
+	LIB_idea_gridlocked_politics
+	LIB_idea_ofn_support
+	LIB_idea_widespread_corruption
+
+	LIB_William_Tolbert_hog
+	LIB_Joseph_Rudolph_Grimes_for
+	LIB_James_A_A_Pierre_eco
+	LIB_Alford_Russ_sec
+}
+
+set_technology = {
+	infantry_weapons_1 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+}
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 5
+    ultranational_socialism = 5
+    socialist = 7
+    social_democrat = 14
+    social_liberal = 14
+    market_liberal = 0
+    social_conservative = 34
+    authoritarian_democrat = 12
+    despotism = 6
+    fascism = 3
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "George T. Washington"
+	desc = "POLITICS_GEORGE_T_WASHINGTON_DESC"
+	picture = "Portrait_Liberia_George_T_Washington.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fatima Massaquoi"
+	desc = "POLITICS_FATIMA_MASSAQUOI_DESC"
+	picture = "Portrait_Liberia_Fatima_Massaquoi.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gabriel Baccus Matthews"
+	desc = "POLITICS_GABRIEL_BACCUS_MATTHEWS_DESC"
+	picture = "Portrait_Liberia_Gabriel_Baccus_Matthews.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "William Tubman"
+	desc = "POLITICS_WILLIAM_TUBMAN_DESC"
+	picture = "Portrait_Liberia_William_Tubman.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Theophilus Ernest Eastman"
+	desc = "POLITICS_THEOPHILUS_ERNEST_EASTMAN_DESC"
+	picture = "Portrait_Liberia_Theophilus_Ernest_Eastman.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hans-Jürgen Massaquoi"
+	desc = "POLITICS_HANS_JURGEN_MASSAQUOI_DESC"
+	picture = "Portrait_Liberia_Hans_Jurgen_Massaquoi.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal  = {
+    name = "Alford Russ"
+    picture = "Portrait_Liberia_Alford_Russ.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "George T. Washington"
+    picture = "Portrait_Liberia_George_T_Washington.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Jenkins Yancey"
+    picture = "Portrait_Liberia_Jenkins_Yancey.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "David Nimley"
+    picture = "Portrait_Liberia_David_Nimley.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_navy_leader = {
+    name = "Reginald Brandon"
+    picture = "Portrait_Liberia_Reginald_Brandon.dds"
+    traits = {  }
+    skill = 2
+}
+
+create_navy_leader = {
+    name = "James Wah Wleh"
+    picture = "Portrait_Liberia_James_Wah_Wleh.dds"
+    traits = {  }
+    skill = 2
+}

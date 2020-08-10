@@ -1,0 +1,230 @@
+﻿capital = 793
+
+oob = "CAO_1962"
+
+add_namespace = {
+	name = "cao_unit_leader"
+	type = unit_leader
+}
+
+add_ideas = {
+	WEST_AFRICA_idea_terror_bombing
+	CAO_idea_pan_african_vanguard
+	CAO_idea_tense_borders
+	CAO_idea_political_rivalries
+	CAO_ACA
+
+	CAO_Felix_Roland_Moumie_hog
+	CAO_Jean_Fochive_for
+	CAO_Joseph_Tchundjang_Pouemi_eco
+	CAO_Osende_Afana_sec
+}
+
+set_research_slots = 3
+set_convoys = 10
+set_stability = 0.7
+
+# DIPLOMACY
+
+# TECH
+
+set_technology = {
+	infantry_weapons_1 = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	radio = 1
+	countrywide_improvements = 1
+	construction1 = 1
+}
+
+# POLITICS
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1955.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 13
+    social_liberal = 5
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 16
+    despotism = 63
+    fascism = 3
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Kwame Ture"
+	desc = "POLITICS_KWAME_TURE_DESC"
+	picture = "Portrait_Cameroon_Kwame_Ture.dds"
+	expire = "1966.7.7"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ruben Um Nyobé"
+	desc = "POLITICS_RUBEN_UM_NYOBE_DESC"
+	picture = "Portrait_Cameroon_Ruben_Um_Nyobe.dds"
+	expire = "1966.7.7"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Charles Assalé"
+	desc = "POLITICS_CHARLES_ASSALE_DESC"
+	picture = "Portrait_Cameroon_Charles_Assale.dds"
+	expire = "1966.7.7"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Tchundjang Pouemi"
+	desc = "POLITICS_JOSEPH_TCHUNDJANG_POUEMI_DESC"
+	picture = "Portrait_Cameroon_Joseph_Tchundjang_Pouemi.dds"
+	expire = "1966.7.7"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "André-Marie Mbida"
+	desc = "POLITICS_ANDRE_MARIE_MBIDA_DESC"
+	picture = "Portrait_Cameroon_Andre_Marie_Mbida.dds"
+	expire = "1966.7.7"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Paul Biya"
+	desc = "POLITICS_PAUL_BIYA_DESC"
+	picture = "Portrait_Cameroon_Paul_Biya.dds"
+	expire = "1966.7.7"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Félix-Roland Moumié"
+	desc = "POLITICS_FELIX_ROLAND_MOUMIE_DESC"
+	picture = "Portrait_Cameroon_Felix_Roland_Moumie.dds"
+	expire = "1966.7.7"
+	ideology = despotism_subtype
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Ahmadou Ahidjo"
+	desc = "POLITICS_AHMADOU_AHIDJO_DESC"
+	picture = "Portrait_Cameroon_Ahmadou_Ahidjo.dds"
+	expire = "1966.7.7"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Osendé Afana"
+	desc = "POLITICS_OSENDE_AFANA_DESC"
+	picture = "Portrait_Cameroon_Osende_Afana.dds"
+	expire = "1966.7.7"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal  = {
+    name = "Félix Roland Moumié"
+    picture = "Portrait_Cameroon_Felix_Roland_Moumie.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_field_marshal  = {
+    name = "Osendé Afana"
+    picture = "Portrait_Cameroon_Osende_Afana.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 3
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "John Fru Ndi"
+    picture = "Portrait_Cameroon_John_Fru_Ndi.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Kwame Ture"
+    picture = "Portrait_Cameroon_Kwame_Ture.dds"
+    traits = {  }
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Ernest Ouandié"
+    picture = "Portrait_Cameroon_Ernest_Ouandie.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Abel Kingué"
+    picture = "Portrait_Cameroon_Abel_Kingue.dds"
+    traits = {  }
+    skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

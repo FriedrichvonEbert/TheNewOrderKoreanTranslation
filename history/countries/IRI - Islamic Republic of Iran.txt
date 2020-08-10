@@ -1,0 +1,152 @@
+﻿capital = 421
+
+add_ideas = {
+	##POLITICAL LAWS##
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+    tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending 
+	tno_training_minimal_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_civil_service_deferment
+	##SOCIAL LAWS##
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_equal_rights
+	tno_security_security_service
+	##ECONOMIC LAWS##
+	tno_trade_laws_export_focus
+	tno_economic_focus_partial_mobilization
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_high_income_weighted
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_political_interference
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_mass_illiteracy
+	##MINISTERS##
+	IRI_Mohammad_Beheshti_hog
+	IRI_Abolhassan_Banisadr_for
+	IRI_Akbar_Hashemi_Rafsanjani_eco
+	IRI_Hossein_Fardoust_sec
+}
+
+set_research_slots = 3
+add_stability = 0.4
+add_war_support = 0.4
+
+set_politics = {	
+	ruling_party = despotism
+	last_election = "1962.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 100
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Ruhollah Khomeini"
+	desc = "POLITICS_RUHOLLAH_KHOMEINI_DESC"
+	picture = "Portrait_Persia_Ruhollah_Khomeini.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Mostafa Chamran"
+	picture = "Portrait_Iran_Mostafa_Chamran.dds"
+	traits = { trait_reckless trickster guerilla_fighter }
+	id = 5013
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mohsen Rafighdoost"
+	picture = "Portrait_Iran_Mohsen_Rafighdoost.dds"
+	traits = { commando trait_engineer }
+	id = 5014
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Qasem-Ali Zahirnejad"
+	picture = "Portrait_Iran_Qasem_Ali_Zahirnejad.dds"
+	traits = { inflexible_strategist infantry_leader }
+	id = 5015
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hossein Hassani Sa'di"
+	picture = "Portrait_Iran_Hossein_Hassani_Sadi.dds"
+	traits = { brilliant_strategist panzer_leader }
+	id = 5016
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Valiollah Fallahi"
+	picture = "Portrait_Iran_Valiollah_Fallahi.dds"
+	traits = { infantry_leader hill_fighter }
+	id = 5017
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}

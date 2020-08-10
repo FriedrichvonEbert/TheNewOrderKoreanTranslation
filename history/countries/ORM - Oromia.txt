@@ -1,0 +1,35 @@
+﻿capital = 1100
+
+oob = "BFR_1962"
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 67
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 8
+    authoritarian_democrat = 23
+    despotism = 0
+    fascism = 2
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Maammoo Mazamir"
+	desc = "POLITICS_OJUKWU_DESC"
+	picture = "Portrait_Oromo_Maammoo_Mazammir.dds"
+	expire = "1985.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,174 @@
+﻿capital = 671 #Hanoi
+
+VIN = {
+ 	set_cosmetic_tag = VIN_FIXED
+}
+
+oob = "VIN_1962"
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1960.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 7
+    ultranational_socialism = 0
+    socialist = 24
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 2
+    despotism = 67
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+add_ideas = {
+	#Ideas
+	Sphere_Fully_Dependent
+	VIN_vietcong_idea
+	VIN_Crippling_Illiteracy
+	VIN_agrarian_society
+	VIN_japanese_rubber_exports
+	VIN_japanese_army
+	#Ministers
+	VIN_Phan_Huy_Quat_hog
+	VIN_Ngo_Dinh_Diem_fm
+	VIN_Vu_Quoc_Thuc_em
+	VIN_Nguyen_Van_Hinh_sm
+	#POLITICAL
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_secularism
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_registered_voting
+	tno_refugees_vetted_entry
+	#MILITARY
+	tno_conscription_one_year_draft
+	tno_women_military_assistance
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_religious_deferment
+	#SOCIAL
+	tno_safety_no_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_police
+	#ECONOMIC
+	tno_trade_laws_limited_exports
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+	#DEVELOPMENT#
+	tno_poverty_rate_80
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_manufacturing_lines
+	tno_agriculture_subsistence
+	tno_research_facilities_basic
+	tno_academic_base_mass_illiteracy
+	tno_army_professionalism_cronyism
+	tno_nuclear_stockpile_none
+}
+
+create_country_leader = {
+	name = "Ho Chi Minh"
+	picture = "Portrait_Vietnam_Ho_Chi_Minh.dds"
+	expire = "1999.12.12"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Truong Chinh"
+	picture = "Portrait_Vietnam_Truong_Chinh.dds"
+	expire = "1999.12.12"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bao Dai"
+	picture = "Portrait_Vietnam_Bao_Dai.dds"
+	expire = "1999.12.12"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bao Dai"
+	picture = "Portrait_Vietnam_Bao_Dai.dds"
+	expire = "1999.12.12"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bao Dai"
+	picture = "Portrait_Vietnam_Bao_Dai.dds"
+	expire = "1999.12.12"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bao Dai"
+	picture = "Portrait_Vietnam_Bao_Dai.dds"
+	expire = "1999.12.12"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+
+create_country_leader = {
+	name = "Bao Dai"
+	picture = "Portrait_Vietnam_Bao_Dai.dds"
+	expire = "1999.12.12"
+	desc = "POLITICS_BAO_DAI_DESC"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ngo Dinh Diem"
+	picture = "Portrait_Vietnam_Ngo_Diem.dds"
+	expire = "1999.12.12"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Nguyễn Cao Kỳ"
+	picture = "Portrait_Vietnam_Nguyen_Cao_Ky.dds"
+	expire = "1999.12.12"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}

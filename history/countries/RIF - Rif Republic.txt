@@ -1,0 +1,150 @@
+﻿capital = 290
+
+set_war_support = 0.8
+set_stability = 0.5
+
+oob = "RIF_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 7
+    ultranational_socialism = 0
+    socialist = 18
+    social_democrat = 11
+    social_liberal = 34
+    market_liberal = 28
+    social_conservative = 0
+    authoritarian_democrat = 2
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+add_ideas = {
+	#political#
+	tno_political_parties_multiparty_system
+	tno_religious_rights_pluralism
+	tno_trade_unions_all_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_universal
+	tno_refugees_skilled
+	#military#
+	tno_conscription_service_by_requirement
+	tno_women_military_assistance
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	#economic#
+	tno_trade_laws_export_focus
+	tno_economic_focus_war_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_high_income_weighted
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_acceptable_pensions
+	tno_unemployment_generous_subsidies
+	#social#
+	tno_safety_acceptable_regulations
+	tno_health_care_public_health_care
+	tno_pollution_some_regulations
+	tno_education_public_education
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_allowed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_police 
+	#Cabinet 
+	RIF_abdelkrim_khatib_hog 
+	RIF_Abdelhadi_Boutaleb_for
+	RIF_Ahmed_Marzouki_mil
+	RIF_Abderrahim_Bouabid_eco
+}
+create_country_leader = {
+	name = "Ali Yata"
+	desc = "POLITICS_DUMMY_DESC"
+	picture = "Portrait_Generic_Male_1_Leader"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Mehdi Ben Barka"
+	desc = "POLITICS_DUMMY_DESC"
+	picture = "Portrait_Generic_Male_2_Leader"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Mehdi Ben Barka"
+	desc = "POLITICS_DUMMY_DESC"
+	picture = "Portrait_Generic_Male_3_Leader"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Mohamed Choukri"
+	desc = "POLITICS_MOHAMED_CHOUKRI_DESC"
+	picture = "Portrait_RIF_Mohamed_Choukri.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "M'hamed Boucetta"
+	desc = "POLITICS_DUMMY_DESC"
+	picture = "Portrait_Generic_Male_5_Leader"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Mohamed Medbouh"
+	desc = "POLITICS_DUMMY_DESC"
+	picture = "Portrait_Generic_Male_1_Leader"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Mohamed Medbouh"
+	picture = "Portrait_RIF_Mohamed_Medbouh.dds"
+	traits = { }
+	id = 1550
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Mohamed Oufkir"
+	picture = "Portrait_RIF_Mohamed_Oufkir.dds"
+	traits = { }
+	id = 1551
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}

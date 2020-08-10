@@ -1,0 +1,36 @@
+﻿capital = 466
+
+#oob = "QUE_1962"
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1960.8.31"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    social_democrat = 2
+    social_liberal = 56
+    market_liberal = 0
+    social_conservative = 42
+    socialist = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+    #burgundian_system = -100
+}
+
+create_country_leader = {
+	name = "Daniel Johnson Sr."
+	#desc = "POLITICS_DANIEL_JOHNSON_SR_DESC"
+	#picture = "Portrait_QUE_Daniel_Johnson_Sr.dds"
+	expire = "1994.4.20"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}

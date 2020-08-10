@@ -1,0 +1,35 @@
+﻿capital = 933
+
+oob = "BFR_1962"
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 10
+    social_democrat = 0
+    social_liberal = 10
+    market_liberal = 0
+    social_conservative = 20
+    authoritarian_democrat = 60
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Constand Viljoen"
+	desc = "POLITICS_CONSTAND_VILJOEN_DESC"
+	picture = "Portrait_South_Africa_Constand_Viljoen.dds"
+	expire = "1999.1.23"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}

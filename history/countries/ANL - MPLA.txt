@@ -1,0 +1,35 @@
+﻿capital = 1033
+
+oob = "BFR_1962"
+
+set_politics = {	
+	ruling_party = communist
+	last_election = "1966.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 75
+    ultranational_socialism = 0
+    socialist = 20
+    social_democrat = 5
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Agostinho Neto"
+	desc = "POLITICS_AGOSTINHO_NETO_DESC"
+	picture = "Portrait_MPLA_Agostinho_Neto.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}

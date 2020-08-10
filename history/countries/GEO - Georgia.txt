@@ -1,0 +1,38 @@
+﻿capital = 231 #Tbilisi
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 15
+    despotism = 0
+    socialist = 33
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    fascism = 42
+    national_socialism = 10
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Shalva Loladze"
+	desc  = "POLITICS_SHALVA_LOLADZE_DESC"
+	picture = "Portrait_Georgia_Shalva_Loladze.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+}
+ 
+create_country_leader = {
+	name = "Givi Javakhishvili"
+	desc = "POLITICS_GIVI_JAVAKHISHVILI_DESC"
+	picture = "Portrait_Georgia_Givi_Javakhishvili.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}

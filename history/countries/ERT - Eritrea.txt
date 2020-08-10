@@ -1,0 +1,46 @@
+﻿capital = 1108
+
+oob = "BFR_1962"
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 57
+    market_liberal = 0
+    social_conservative = 16
+    authoritarian_democrat = 13
+    despotism = 8
+    fascism = 6
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Woldeab Woldemariam"
+	desc = "POLITICS_OJUKWU_DESC"
+	picture = "Portrait_Eritrea_Woldeab_Woldemariam.dds"
+	expire = "1985.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Isaias Afwerki"
+	desc = "POLITICS_OJUKWU_DESC"
+	picture = "Portrait_Eritrea_Isaias_Afwerki.dds"
+	expire = "1985.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,222 @@
+﻿capital = 21
+
+#oob = "RPY_1962"
+
+set_technology = {
+	##INFANTRY##
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_3 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_improvements_5 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	support_weapons4 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	motorized_infantry = 1
+	motorized_infantry_1 = 1
+	paratroopers = 1
+	tech_mountaineers = 1
+	tech_mountaineers2 = 1
+
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+	APC_1960 = 1
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	IFV_1950_basic_armor = 1
+	#IFV_1950_basic_engine = 1
+	IFV_1960 = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+	MBT_1950_basic_armor = 1
+	MBT_1960 = 1
+
+	##ARTILLERY##
+	gw_artillery = 1
+	artillery4 = 1
+	antiair5 = 1
+	light_SPART_1950 = 1
+	light_SPART_1960 = 1
+	#light_SPAA_1950_speed = 1
+	antiair_1950 = 1
+	antiair_1950_air_attack = 1
+	SPAA_1950 = 1
+	#SPAA_1950_speed = 1
+	artillery_1950 = 1
+	artillery_1950_soft_attack = 1
+	light_SPART_1950 = 1
+	light_SPART_1960 = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+	SPART_1960 = 1
+
+	##NAVAL##
+	ww2_destroyer = 1
+	ww2_submarine = 1
+	basic_submarine = 1
+	transport = 1
+
+	##HELICOPTERS##
+	very_early_helicopter = 1
+	early_helicopter = 1
+	asw_helicopter_1960 = 1
+	transport_helicopter_1960 = 1
+	attack_helicopter_1960 = 1
+	scout_helicopter_1960 = 1
+
+	##LIGHT AIR##
+	early_fighter = 1
+	fighter_1945 = 1
+	fighter_1950 = 1
+	fighter_1960 = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	interceptor_1960 = 1
+	CAS_1945 = 1
+	CAS_1950 = 1
+
+	##HEAVY AIR##
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	tac_air_1960 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	heavy_air_1960 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	transport_air_1960 = 1
+
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	improved_encryption = 1
+	improved_decryption = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+	advanced_decryption = 1
+	computing_machine_1950 = 1
+	encryption_1950 = 1
+	decryption_1950 = 1
+	computing_machine_1960 = 1
+	encryption_1960 = 1
+	decryption_1960 = 1
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+
+
+
+
+}
+add_ideas = {
+		#POLITICAL
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_all_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_universal
+	tno_refugees_open
+		#MILITARY
+	tno_conscription_volunteer_only
+	tno_women_military_assistance
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_educational_deferment
+		#SOCIAL
+	tno_safety_acceptable_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_segregation
+	tno_security_police
+		#ECONOMIC
+	tno_trade_laws_export_focus
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_trinket_pensions
+	tno_unemployment_trinket_subsidies
+
+	construction_level_5
+
+}
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 11
+    national_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 12
+    despotism = 32
+    fascism = 45
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Raoul Salan"
+	desc = "POLITICS_RAOUL_SALAN_DESC"
+	picture = "Portrait_OAS_Raoul_Salan.dds"
+	expire = "1983.1.1"
+	ideology = fascism_subtype
+	traits = {
+	}
+}

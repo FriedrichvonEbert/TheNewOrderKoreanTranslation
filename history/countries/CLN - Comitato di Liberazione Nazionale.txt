@@ -1,0 +1,74 @@
+﻿capital = 570
+
+add_ideas = {
+	##POLITICAL LAWS##
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_secularism
+	tno_trade_unions_state_controlled
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_vote_franchise_no_voting
+	tno_public_meetings_regulated
+	tno_refugees_open
+	##MILITARY LAWS###
+	tno_conscription_two_year_draft
+	tno_women_noncombat_only
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_police
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_high_income_weighted
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_cronyism
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_basic
+	tno_academic_base_basic_literacy
+}
+
+set_research_slots = 3
+
+set_politics = {
+    ruling_party = social_liberal
+	last_election = "1970.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 3
+    ultranational_socialism = 0
+    socialist = 7
+    social_democrat = 23
+    social_liberal = 39
+    market_liberal = 0
+    social_conservative = 18
+    authoritarian_democrat = 8
+    despotism = 2
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}

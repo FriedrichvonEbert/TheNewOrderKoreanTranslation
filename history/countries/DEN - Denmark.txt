@@ -1,0 +1,299 @@
+﻿capital = 37
+
+oob = "DEN_1962"
+
+add_ideas = { 
+	#Faction
+	Pakt_Marionettenstaat
+	#Spirits
+	DEN_permanent_secretaries
+	DEN_agrarian_economy
+	DEN_threat_from_silkeborg
+	#Ministers
+	DEN_Nils_Svenningsen_hog
+	DEN_Axel_Gunnar_Larsen_eco
+	DEN_Hermann_von_Hanneken_sec
+	DEN_Georg_Ferdinand_Duckwitz_for
+}
+
+set_technology = {
+	##Infantry##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	motorized_infantry = 1
+	motorized_infantry_1 = 1
+	##Support Companies##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	##Armor##
+	mechanised_infantry3 = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	##Artillery##
+	antiair5 = 1
+	antiair_1950 = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	##Land Doctrine##
+	strategic_theorem = 1
+}
+
+#OFN Embargos
+add_opinion_modifier = { target = USA modifier = embargo }
+add_opinion_modifier = { target = CAN modifier = embargo }
+add_opinion_modifier = { target = AST modifier = embargo }
+add_opinion_modifier = { target = GUY modifier = embargo }
+add_opinion_modifier = { target = NZL modifier = embargo }
+add_opinion_modifier = { target = ICE modifier = embargo }
+add_opinion_modifier = { target = WIN modifier = embargo }
+add_opinion_modifier = { target = BLZ modifier = embargo }
+
+#CPS Embargos
+add_opinion_modifier = { target = JAP modifier = embargo }
+add_opinion_modifier = { target = CHI modifier = embargo }
+add_opinion_modifier = { target = PHI modifier = embargo }
+add_opinion_modifier = { target = INS modifier = embargo }
+add_opinion_modifier = { target = BUR modifier = embargo }
+add_opinion_modifier = { target = SIA modifier = embargo }
+add_opinion_modifier = { target = CAM modifier = embargo }
+add_opinion_modifier = { target = LAO modifier = embargo }
+add_opinion_modifier = { target = VIN modifier = embargo }
+add_opinion_modifier = { target = SYO modifier = embargo }
+add_opinion_modifier = { target = HUI modifier = embargo }
+add_opinion_modifier = { target = GXC modifier = embargo }
+add_opinion_modifier = { target = MAN modifier = embargo }
+add_opinion_modifier = { target = SIC modifier = embargo }
+add_opinion_modifier = { target = GUZ modifier = embargo }
+add_opinion_modifier = { target = SHX modifier = embargo }
+add_opinion_modifier = { target = BEN modifier = embargo }
+add_opinion_modifier = { target = GNG modifier = embargo }
+add_opinion_modifier = { target = YUN modifier = embargo }
+add_opinion_modifier = { target = BHU modifier = embargo }
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1935.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    socialist = 0
+    social_democrat = 12
+    social_liberal = 7
+    market_liberal = 0
+    social_conservative = 5
+    authoritarian_democrat = 33
+    despotism = 8
+    fascism = 12
+    national_socialism = 23
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Jens Otto Krag"
+	desc = "POLITICS_JENS_KRAG_DESC"
+	picture = "Portrait_Denmark_Werner_Best.dds"
+	expire = "1986.10.12"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Erik Eriksen"
+	desc = "POLITICS_ERIK_ERIKSEN_DESC"
+	picture = "Portrait_Denmark_Werner_Best.dds"
+	expire = "1986.10.12"
+	ideology = social_liberal_subtype
+}
+
+# create_country_leader = {
+# 	name = "Poul Møller"
+# 	desc = "POLITICS_POUL_MOLLER_DESC"
+# 	picture = "Portrait_Denmark_Werner_Best.dds"
+# 	expire = "1986.10.12"
+# 	ideology = social_conservative_subtype
+# 	traits = {
+# 	}
+# }
+
+create_country_leader = {
+	name = "Nils Svenningsen"
+	desc = "POLITICS_NILS_SVENNINGSEN_DESC"
+	picture = "Portrait_Denmark_Nils_Svenningsen.dds"
+	expire = "1983.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Werner Best"
+	desc = "POLITICS_WERNER_BEST_DESC"
+	picture = "Portrait_Denmark_Werner_Best.dds"
+	expire = "1986.10.12"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		career_burocrat
+	}
+}
+
+create_country_leader = {
+	name = "Hermann von Hanneken"
+	desc = "POLITICS_HERMANN_HANNEKEN_DESC"
+	picture = "Portrait_Denmark_Herman_Von_Hanneken.dds"
+	expire = "1986.10.12"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Carl Popp-Madsen"
+	desc = "POLITICS_FRITS_CLAUSEN_DESC"
+	picture = "Portrait_Denmark_Carl_Popp_Madsen.dds"
+	expire = "1986.10.12"
+	ideology = fascism_subtype
+}
+
+create_country_leader = {
+	name = "Knud Børge Martinsen"
+	desc = "POLITICS_KNUD_MARTINSEN_DESC"
+	picture = "Portrait_Denmark_Knud_Borge_Martinsen.dds"
+	expire = "1986.10.12"
+	ideology = national_socialism_subtype
+	traits = {
+		dictator
+	}
+}
+
+### Unit Leaders ###
+create_field_marshal = {
+	name = "Hermann von Hanneken"
+	picture = "Portrait_Denmark_Herman_Von_Hanneken.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Knud Børge Martinsen"
+	picture = "Portrait_Denmark_Knud_Borge_Martinsen.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Günther Pancke"
+	picture = "Portrait_Denmark_Gunther_Pancke.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Christian Frederik von Schalburg"
+	picture = "Portrait_Denmark_Christian_Frederik_von_Schalburg.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_navy_leader = {
+	name = "Erhard Qvistgaard"
+	picture = "Portrait_Denmark_Erhard_Qvistgaard.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+	#id = 1
+}
+
+create_navy_leader = {
+	name = "Jørgen Hviid"
+	picture = "Portrait_Denmark_Jorgen_Hviid.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+	#id = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = DEN_mtg_navy_1962
+	create_equipment_variant = {
+		name = "H-Class"
+		type = ship_hull_submarine_1
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+    	}
+	}
+	create_equipment_variant = {
+		name = "Triton-Class"
+		type = ship_hull_more_light_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+    	}
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_naval_oob = DEN_navy_1962
+	create_equipment_variant = {
+		name = "H-Class"
+		type = submarine_1
+		name_group = GER_SS_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "Triton-Class"
+		type = frigate_1
+		name_group = GER_DD_HISTORICAL
+	}
+}

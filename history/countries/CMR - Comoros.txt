@@ -1,0 +1,35 @@
+﻿capital = 708
+
+oob = "CMR_1962"
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.5.17"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 5
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 10
+    market_liberal = 0
+    social_conservative = 40
+    authoritarian_democrat = 45
+    despotism = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Saïd Mohamed Jaffar"
+	desc = "POLITICS_SAID_MOHAMED_JAFFAR_DESC"
+	picture = "Portrait_Comoros_Said_Mohamed_Jaffar.dds"
+	expire = "1999.1.23"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}

@@ -1,0 +1,394 @@
+﻿capital = 786
+
+oob = "FRA_1962"
+
+set_research_slots = 2
+set_convoys = 200
+#add_stability = 
+add_war_support = -0.3
+add_manpower = 32000
+
+add_ideas = {
+	#FACTION
+	Pakt_Mitstreiter
+
+	#MINISTERS
+	FRA_Pierre_Poujade_hog
+	FRA_Marcel_Peyrouton_for
+	FRA_Yves_Bouthillier_eco
+	FRA_Charles_Huntziger_sec
+
+	#SPIRITS
+	FRA_economic_meltdown
+	FRA_the_OAS
+	FRA_les_annees_noires
+	FRA_the_treaty_of_vichi #Added via on_startup on_action 
+
+	#TNO LAWS
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_conscription_disarmed_nation
+	tno_women_noncombat_only
+	tno_military_supervision_military_policing
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_educational_deferment
+	tno_political_parties_controlled_opposition
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_skilled
+	tno_trade_laws_limited_exports
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_high_income_weighted
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_trinket_pensions
+	tno_unemployment_trinket_subsidies
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_subsidised_higher_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_oppression
+	tno_security_preemptive_security 
+}
+
+set_technology = {
+ 	##INFANTRY##
+ 	infantry_weapons_1 = 1
+ 	infantry_weapons_2 = 1
+ 	basic_infantry_equipment = 1
+ 	support_weapons = 1
+ 	infantry_at = 1
+ 	motorized_infantry = 1
+ 	tech_mountaineers = 1
+
+ 	##SUPPORT##
+ 	tech_support = 1
+ 	tech_engineers = 1
+ 	tech_recon = 1
+ 	tech_military_police = 1
+
+ 	##ARMOR##
+ 	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+	
+ 	##ARTY##
+ 	antiair5 = 1
+ 	artillery4 = 1
+
+ 	##LAND DOCTRINE##
+
+ 	##HELICOPTERS##
+ 	very_early_helicopter = 1
+ 	early_helicopter = 1
+
+ 	##LIGHT AIR##
+ 	early_fighter = 1
+ 	interceptor_1945 = 1
+ 	fighter_1945 = 1
+ 	CAS_1945 = 1
+
+ 	##HEAVY AIR##
+ 	tac_bomber1 = 1
+ 	tac_air_1945 = 1
+ 	strategic_bomber1 = 1
+ 	heavy_air_1945 = 1
+ 	transport_air1 = 1
+ 	transport_air_1945 = 1
+
+ 	##ENGINEERING##
+ 	electronic_mechanical_engineering = 1
+ 	radio = 1
+ 	radio_detection = 1
+ 	decimetric_radar = 1
+	
+ 	mechanical_computing = 1
+ 	computing_machine = 1
+ 	basic_encryption = 1
+ 	basic_decryption = 1
+ 	improved_computing_machine = 1
+ 	improved_encryption = 1
+ 	improved_decryption = 1
+ 	advanced_computing_machine = 1
+	
+ 	helicopter_engines = 1
+ 	
+	##INDUSTRY##
+	ww2_line_production = 1
+	countrywide_improvements = 1
+	constructionmethods = 1  
+	resource_extraction_methods = 1
+    excavation0 = 1
+	construction0 = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_very_light = 1
+		
+	    early_ship_hull_more_light = 1
+		
+	    early_ship_hull_light = 1
+	    basic_depth_charges = 1
+	    sonar = 1
+		
+		early_ship_hull_cruiser = 1
+		
+		early_ship_hull_heavy = 1
+		
+		early_ship_hull_carrier = 1
+		
+	    early_ship_hull_submarine = 1
+	
+    	basic_battery = 1
+    	basic_secondary_battery = 1
+	    basic_torpedo = 1
+	    mtg_transport = 1
+	    basic_naval_mines = 1
+	    improved_naval_mines = 1
+	    submarine_mine_laying = 1
+	}
+	#set_naval_oob = 
+}
+
+ add_opinion_modifier = { target = USA modifier = embargo }
+ add_opinion_modifier = { target = CAN modifier = embargo }
+ add_opinion_modifier = { target = AST modifier = embargo }
+ add_opinion_modifier = { target = GUY modifier = embargo }
+ add_opinion_modifier = { target = NZL modifier = embargo }
+ add_opinion_modifier = { target = ICE modifier = embargo }
+ add_opinion_modifier = { target = WIN modifier = embargo }
+ add_opinion_modifier = { target = BLZ modifier = embargo }
+ 
+ add_opinion_modifier = { target = JAP modifier = embargo }
+ add_opinion_modifier = { target = CHI modifier = embargo }
+ add_opinion_modifier = { target = PHI modifier = embargo }
+ add_opinion_modifier = { target = INS modifier = embargo }
+ add_opinion_modifier = { target = BUR modifier = embargo }
+ add_opinion_modifier = { target = SIA modifier = embargo }
+ add_opinion_modifier = { target = CAM modifier = embargo }
+ add_opinion_modifier = { target = LAO modifier = embargo }
+ add_opinion_modifier = { target = VIN modifier = embargo }
+ add_opinion_modifier = { target = SYO modifier = embargo }
+ add_opinion_modifier = { target = HUI modifier = embargo }
+ add_opinion_modifier = { target = GXC modifier = embargo }
+ add_opinion_modifier = { target = MAN modifier = embargo }
+ add_opinion_modifier = { target = SIC modifier = embargo }
+ add_opinion_modifier = { target = GUZ modifier = embargo }
+ add_opinion_modifier = { target = SHX modifier = embargo }
+ add_opinion_modifier = { target = BEN modifier = embargo }
+ add_opinion_modifier = { target = GNG modifier = embargo }
+ add_opinion_modifier = { target = YUN modifier = embargo }
+ add_opinion_modifier = { target = BHU modifier = embargo }
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 6
+    socialist = 10
+    social_democrat = 4
+    social_liberal = 10
+    market_liberal = 0
+    social_conservative = 8
+    authoritarian_democrat = 12
+    despotism = 0
+    fascism = 45
+    national_socialism = 5
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Jean-Louis Tixier-Vignancour"
+	desc = "POLITICS_JEAN-LOUIS_TIXIER-VIGNANCOUR_DESC"
+	picture = "Portrait_France_Jean-Louis_Tixier-Vignancour.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+		
+	}
+}
+
+
+create_field_marshal = {
+	name = "Charles Huntziger"
+	picture = "Portrait_France_Charles_Huntziger.dds"
+	traits = { old_guard offensive_doctrine }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Marcel Carpentier"
+	picture = "Portrait_France_Marcel_Carpentier.dds"
+	traits = { offensive_doctrine }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Raoul Salan"
+	picture = "Portrait_France_Raoul_Salan.dds"
+	traits = { inspirational_leader fast_planner }
+	skill = 3
+	id = 951
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Paul Ély"
+	picture = "Portrait_France_Paul_Ely.dds"
+	traits = { desert_fox commando }
+	skill = 2
+	id = 950
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Marcel Alessandri"
+	picture = "Portrait_France_Marcel_Alessandri.dds"
+	traits = { old_guard jungle_rat }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+    name = "Charles Platon"
+    picture = "Portrait_France_Charles_Platon.dds"
+    traits = {  }
+    skill = 3
+}
+
+create_navy_leader = {
+    name = "Gabriel Auphan"
+    picture = "Portrait_France_Gabriel_Auphan.dds"
+    traits = {  }
+    skill = 2
+}
+
+create_navy_leader = {
+    name = "Antoine Sanguinetti"
+    picture = "Portrait_France_Antoine_Sanguinetti.dds"
+    traits = {  }
+    skill = 2
+}
+
+create_navy_leader = {
+    name = "Jean L'Herminier"
+    picture = "Portrait_France_Jean_LHerminier.dds"
+    traits = {  }
+    skill = 1
+}
+
+create_navy_leader = {
+    name = "Elie Groleau"
+    picture = "Portrait_France_Elie_Groleau.dds"
+    traits = {  }
+    skill = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = FRA_mtg_navy_1962
+	
+	create_equipment_variant = {
+		name = "Dunkerque-Class"
+		type = ship_hull_heavy_1
+		name_group = GER_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_anti_air_1
+			front_1_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_heavy_battery_1
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "La Fantasque-Class"
+		type = ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Minerve-Class"
+		type = ship_hull_submarine_1
+		name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+    	}
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_naval_oob = FRA_navy_1962
+	create_equipment_variant = {
+		name = "Dunkerque-Class"
+		type = battleship_1
+		name_group = GER_BB_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "La Fantasque-Class"
+		type = destroyer_1
+		name_group = GER_DD_HISTORICAL
+	}
+	create_equipment_variant = {
+		name = "Minerve-Class"
+		type = submarine_1
+		name_group = GER_SS_HISTORICAL
+	}
+}

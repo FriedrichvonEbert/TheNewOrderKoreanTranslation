@@ -1,0 +1,88 @@
+﻿capital = 765
+
+oob = "TIB_1962"
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1960.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 3
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 4
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 6
+    authoritarian_democrat = 0
+    despotism = 87
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Tenzin Gyatso"
+	#desc = 
+	picture = "Portrait_TIB_Tenzin_Gyatso.dds"
+	expire = "1999.12.12"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+add_ideas = {
+	#Political
+	tno_political_parties_one_party_state
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+	tno_immigration_open_immigration
+	tno_slavery_corvee
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_no_voting
+	tno_refugees_skilled
+
+	#Military
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_no_supervision
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_racial_integration_none
+	tno_draft_exemptions_religious_deferment
+
+	#Economic
+	tno_trade_laws_export_focus
+	tno_economic_focus_demilitarized_economy
+	tno_tax_rate_high_taxes
+	tno_income_taxation_elite_tax_exemptions
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_child_labor_legal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+
+	#Social
+	tno_safety_no_regulations
+	tno_health_care_no_health_care
+	tno_pollution_no_controls
+	tno_education_elite_only
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_oppression
+	tno_security_police
+
+	#Societal Development
+	tno_poverty_rate_50
+	tno_army_professionalism_reluctant_conscripts
+	tno_industrial_expertise_incompetent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_centralized
+	tno_research_facilities_basic
+	tno_academic_base_mass_illiteracy
+}

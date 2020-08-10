@@ -1,0 +1,132 @@
+﻿capital = 201
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communist = 0
+    ultranational_socialism = 0
+    socialist = 25
+    social_democrat = 25
+    social_liberal = 30
+    market_liberal = 0
+    social_conservative = 20
+    authoritarian_democrat = 0
+    despotism = 0
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Willy Brandt"
+	desc = "POLITICS_WILLY_BRANDT_DESC"
+	picture = "Portrait_Slave_Revolt_Willy_Brandt.dds"
+	expire = "1995.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+### Unit Leaders ###
+create_field_marshal = {
+	name = "Willy Brandt"
+	picture = "Portrait_Slave_Revolt_Willy_Brandt.dds"
+	traits = { defensive_doctrine }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Viacheslav Chornovil"
+	picture = "Portrait_Slave_Revolt_Viacheslav_Chornovil.dds"
+	traits = { skilled_staffer urban_assault_specialist }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Karol Wojtyla"
+	picture = "Portrait_Slave_Revolt_Karol_Wojtyla.dds"
+	traits = { infantry_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Nadezhda Troyan"
+	picture = "Portrait_Slave_Revolt_Nadezhda_Troyan.dds"
+	traits = { organizer commando }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	#id = 1
+}
+
+add_ideas = {
+	#ideas#
+	SRT_Freedom_or_Death
+	SRT_Partisan_Alliance
+	SRT_Unity_in_Diversity
+	
+	#political#
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_all_allowed
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_universal
+	tno_refugees_open
+	
+	#military#
+	tno_conscription_service_by_requirement
+	tno_women_combat_roles
+	tno_military_supervision_no_supervision
+	tno_military_spending_militarycentric_budget
+	tno_training_minimal_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	
+	#economic#
+	tno_trade_laws_closed_economy
+	tno_economic_focus_total_mobilization
+	tno_tax_rate_no_taxation
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_restricted
+	tno_pensions_no_pensions
+	tno_unemployment_low_subsidies
+	
+	#social#
+	tno_safety_limited_regulations
+	tno_health_care_universal_health_care
+	tno_pollution_some_regulations
+	tno_education_free_education
+	tno_penal_system_penal_labor
+	tno_lgbt_rights_lgbt_allowed
+	tno_gender_rights_gender_equality
+	tno_minorities_equal_rights
+	tno_security_anarchic
+}

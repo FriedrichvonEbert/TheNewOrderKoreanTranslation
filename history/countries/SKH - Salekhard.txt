@@ -1,0 +1,91 @@
+﻿capital = 844
+
+set_stability = 1
+set_war_support = 1
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1958.1.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 100
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	despotism = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+add_ideas = {
+	#standard#
+	RUS_isolated_vilages
+	
+	#political#
+	tno_political_parties_one_party_state
+	tno_religious_rights_secularism
+	tno_trade_unions_state_controlled
+	tno_immigration_closed_borders
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	tno_refugees_banned
+	
+	#military#
+	tno_conscription_service_by_requirement
+	tno_women_combat_roles
+	tno_military_supervision_no_supervision
+	tno_military_spending_militarycentric_budget
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_none
+	
+	#economic#
+	tno_trade_laws_closed_economy
+	tno_economic_focus_partial_mobilization
+	tno_tax_rate_high_taxes
+	tno_income_taxation_flat_taxes
+	tno_minimum_wage_no_minimum_wage
+	tno_max_workhours_unlimited_work_day
+	tno_child_labor_legal
+	tno_pensions_no_pensions
+	tno_unemployment_no_subsidies
+	
+	#social#
+	tno_safety_limited_regulations
+	tno_health_care_public_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_gender_equality
+	tno_minorities_equal_rights
+	tno_security_security_service
+
+	#societal development#
+	tno_academic_base_basic_literacy
+	tno_research_facilities_makeshift
+	tno_agriculture_subsistence
+	tno_industrial_equipment_power_tools
+	tno_industrial_expertise_nascent
+	tno_army_professionalism_disgruntled_veterans
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+}
+
+create_country_leader = {
+	name = "No Authority"
+	desc = "POLITICS_NO_AUTHORITY_DESC"
+	picture = "gfx/leaders/OMO/Portrait_Kamchatka_No_Authority.tga"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}

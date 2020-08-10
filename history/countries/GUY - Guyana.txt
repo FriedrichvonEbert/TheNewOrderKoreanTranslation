@@ -1,0 +1,161 @@
+﻿capital = 309
+
+oob = "GUY_1962"
+set_stability = 0.7
+
+add_opinion_modifier = { target = GER modifier = embargo }
+add_opinion_modifier = { target = GGR modifier = embargo }
+add_opinion_modifier = { target = BGR modifier = embargo }
+add_opinion_modifier = { target = HGR modifier = embargo }
+add_opinion_modifier = { target = SGR modifier = embargo }
+add_opinion_modifier = { target = CZE modifier = embargo }
+add_opinion_modifier = { target = GGN modifier = embargo }
+add_opinion_modifier = { target = SLO modifier = embargo }
+add_opinion_modifier = { target = UKR modifier = embargo }
+add_opinion_modifier = { target = MCW modifier = embargo }
+add_opinion_modifier = { target = OST modifier = embargo }
+add_opinion_modifier = { target = COG modifier = embargo }
+add_opinion_modifier = { target = CAU modifier = embargo }
+add_opinion_modifier = { target = SER modifier = embargo }
+add_opinion_modifier = { target = DEN modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = NOR modifier = embargo }
+add_opinion_modifier = { target = CRN modifier = embargo }
+add_opinion_modifier = { target = MAD modifier = embargo }
+add_opinion_modifier = { target = MZB modifier = embargo }
+add_opinion_modifier = { target = ANG modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = BRG modifier = embargo }
+add_opinion_modifier = { target = BUL modifier = embargo }
+add_opinion_modifier = { target = ENG modifier = embargo }
+add_opinion_modifier = { target = FRA modifier = embargo }
+add_opinion_modifier = { target = BRT modifier = embargo }
+add_opinion_modifier = { target = IRE modifier = embargo }
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communist = 3
+    ultranational_socialism = 0
+    socialist = 9
+    social_democrat = 4
+    social_liberal = 12
+    market_liberal = 0
+    social_conservative = 16
+    authoritarian_democrat = 38
+    despotism = 12
+    fascism = 6
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+set_technology = {
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+
+	basic_infantry_equipment = 1
+	support_weapons = 1
+
+	tech_support = 1
+
+	electronic_mechanical_engineering = 1
+	radio = 1
+	ww2_line_production = 1
+	countrywide_improvements = 1
+	constructionmethods = 1
+    construction0 = 1
+	military_construction0 = 1
+}
+
+add_ideas = {
+	#Faction Status
+	OFN_Dependent_Member
+
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_secularism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_censored_press
+	tno_vote_franchise_elite_voting
+	tno_refugees_open
+		#MILITARY
+	tno_conscription_two_year_draft
+	tno_women_military_assistance
+	tno_military_supervision_military_policing
+	tno_military_spending_large_spending
+	tno_training_minimal_training
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_none
+		#SOCIAL
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_public_education
+	tno_penal_system_capital_punishment
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
+	tno_minorities_segregation
+	tno_security_police
+		#ECONOMIC
+	tno_trade_laws_free_trade
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_trinket_pensions
+	tno_unemployment_trinket_subsidies
+
+		#SOCIETAL DEVELOPMENT
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_reluctant_conscripts
+	tno_industrial_expertise_incompetent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_basic
+	tno_academic_base_basic_literacy
+	
+	
+	GUY_Liberty_of_the_Few
+}
+
+create_country_leader = {
+	name = "Forbes Burnham"
+	picture = "Portrait_Guyana_Forbes_Burnham.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Forbes Burnham"
+	picture = "Portrait_Guyana_Forbes_Burnham.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Cheddi Jagan"
+	picture = "Portrait_Guyana_Cheddi_Jagan.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}

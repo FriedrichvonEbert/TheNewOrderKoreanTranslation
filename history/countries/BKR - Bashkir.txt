@@ -1,0 +1,155 @@
+﻿capital = 651
+
+oob = "BKR_1962"
+
+
+set_research_slots = 2
+set_convoys = 0
+
+set_stability = 0.6
+set_war_support = 0.6
+
+add_ideas = {
+	### STANDARD ###
+	RUS_terror_bombing
+	RUS_warlord_manpower
+	### MINISTERS ###
+	BKR_Gabdelbary_Isaev_hog
+	BKR_Muhammed_Gabdulkhay_Kurbangaliev_for
+	BKR_Midhat_Shakirov_eco
+	BKR_Tagir_Kusimov_sec
+	##POLITICAL LAWS##
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_state_religion
+	tno_trade_unions_illegal
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_open
+	##MILITARY LAWS###
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending
+	tno_training_minimal_training
+	tno_racial_integration_segregated_regiments
+	tno_draft_exemptions_civil_service_deferment
+	##SOCIAL LAWS##
+	tno_safety_minimal_regulations
+	tno_health_care_public_health_care
+	tno_pollution_some_regulations
+	tno_education_public_education
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_minorities_segregation
+	tno_minorities_oppression
+	tno_security_police
+	##ECONOMIC LAWS##
+	tno_trade_laws_limited_exports
+	tno_economic_focus_early_mobilization
+	tno_tax_rate_medium_taxation
+	tno_income_taxation_flat_taxes
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_low_pensions
+	tno_unemployment_low_subsidies
+	##SOCIETAL DEVELOPMENT##
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_reluctant_conscripts
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+}
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	mechanised_infantry3 = 1
+	advanced_light_tank = 1
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_recon = 1
+	##ARTY##
+	artillery4 = 1
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	##INDUSTRY##
+	ww2_line_production = 1
+	batch_production_1 = 1
+	countrywide_improvements = 1
+	constructionmethods = 1
+	construction0 = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 9
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 6
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 19
+	authoritarian_democrat = 66
+	despotism = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Ähmätzäki Välidi Tuġan"
+	desc = "POLITICS_VALIDI_TUGAN_DESC"
+	picture = "Portrait_Bashkiria_Validi_Tugan.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_corps_commander = {
+	name = "Tagir Kusimov"
+	picture = "Portrait_Bashkiria_Tagir_Kusimov.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	traits = {
+		trickster
+		infantry_officer
+	}
+	id = 3371
+}
