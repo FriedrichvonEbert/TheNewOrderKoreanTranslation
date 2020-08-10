@@ -1,0 +1,425 @@
+﻿division_template = {
+	name = "Panzergrenadier"
+	division_names_group = BRG_panzergrenadier
+	regiments = {
+		APC = { x = 0 y = 0 }
+		APC = { x = 0 y = 1 }
+		APC = { x = 0 y = 2 }
+		APC = { x = 1 y = 0 }
+		APC = { x = 1 y = 1 }
+		APC = { x = 1 y = 2 }
+		APC = { x = 2 y = 0 }
+		APC = { x = 2 y = 1 }
+		APC = { x = 2 y = 2 }
+	}
+	support = {
+	    engineer = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+		military_police = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Staatliche Polizei"
+	division_names_group = BRG_light_infantry
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+	}
+	support = {
+	    military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Waffen-SS"
+	division_names_group = BRG_waffen
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		MBT = { x = 2 y = 0 }
+		MBT = { x = 2 y = 1 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		military_police = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Panzer-Division"
+	division_names_group = BRG_panzer
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		MBT = { x = 1 y = 0 }
+		MBT = { x = 1 y = 1 }
+		MBT = { x = 1 y = 2 }
+		MBT = { x = 2 y = 0 }
+		MBT = { x = 2 y = 1 }
+	}
+	support = {
+	    MBT_recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "11519"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = "5291"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = "11516"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = "9434"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = "11563"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = "9534"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = "11506"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = "3506"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = "667"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = "11713"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = "11716"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = "3768"
+		division_template = "Panzergrenadier"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "516"
+		division_template = "Waffen-SS"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = "11506"
+		division_template = "Waffen-SS"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = "9644"
+		division_template = "Waffen-SS"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = "9625"
+		division_template = "Waffen-SS"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = "521"
+		division_template = "Waffen-SS"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "11548"
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = "9418"
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "516"
+		division_template = "Staatliche Polizei"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "3652"
+		division_template = "Staatliche Polizei"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "6613"
+		division_template = "Staatliche Polizei"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "6598"
+		division_template = "Staatliche Polizei"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+}
+
+air_wings = {
+	15 = {
+		jet_fighter_equipment_2 = {
+			owner = "BRG"
+			amount = 100
+		}
+		name = "제1전투비행단"
+	}
+	18 = {
+		attack_helicopter_equipment_1 = {
+			owner = "BRG"
+			amount = 50
+		}
+		name = "제1공격헬기비행단"
+		jet_fighter_equipment_2 = {
+			owner = "BRG"
+			amount = 100
+		}
+		name = "제2전투비행단"
+	}
+	20 = {
+		jet_fighter_equipment_2 = {
+			owner = "BRG"
+			amount = 100
+		}
+		name = "제1전투비행단"
+	}
+}
+
+### Starting Production ###
+
+instant_effect = {
+
+    add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_2
+			creator = "BRG"
+		}
+		requested_factories = 4
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BRG"
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_3
+			creator = "BRG"
+		}
+		requested_factories = 1
+		progress = 0.6
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_1
+			creator = "BRG"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "BRG"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = MBT_equipment_2
+			creator = "BRG"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = APC_equipment_2
+			creator = "BRG"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = jet_fighter_equipment_2
+			creator = "BRG"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}

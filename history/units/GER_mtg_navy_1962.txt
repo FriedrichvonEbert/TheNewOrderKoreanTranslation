@@ -1,0 +1,290 @@
+units = {
+    fleet = {
+        name = "흑해 함대"
+        naval_base = 137
+        task_force = {
+            name = "제1항모전단"
+            location = 3686
+            ship = { name = "베저" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Graf Zeppelin Class" } }
+				air_wings = {
+					cv_jet_fighter_equipment_1 = { owner = GER amount = 10 }
+					cv_jet_CAS_equipment_1 = { owner = GER amount = 10 }
+				}
+			}
+            ship = { name = "I (오이로파)" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_2 = { amount = 1 owner = GER version_name = "Europa Class" } }
+				air_wings = {
+					cv_jet_fighter_equipment_1 = { owner = GER amount = 20 }
+					cv_jet_CAS_equipment_1 = { owner = GER amount = 10 }
+				}
+			}
+        }
+        task_force = {
+            name = "제1전함전단"
+            location = 3686
+            ship = { name = "툴레" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_2  = { amount = 1 owner = GER version_name = "Thule Class" } } }
+            ship = { name = "휘페르보레아" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_2  = { amount = 1 owner = GER version_name = "Thule Class" } } }
+            ship = { name = "루돌프 폰 제보텐도르프" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_2  = { amount = 1 owner = GER version_name = "Thule Class" } } }
+        }
+        task_force = {
+            name = "제1순양함전단"
+            location = 3686
+            ship = { name = "아트미랄 귄터 뤼첸스" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "P-Class" } } }
+            ship = { name = "아르미니우스" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "P-Class" } } }
+            ship = { name = "토이토부르크" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "P-Class" } } }
+        }
+        task_force = {
+            name = "제1예비전단"
+            location = 3686
+            ship = { name = "Z 50" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1950" } } }
+			ship = { name = "Z 51" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1950" } } }
+        }
+        task_force = {
+            name = "제1구축함전단"
+            location = 3686
+            ship = { name = "Z 52" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1950" } } }
+			ship = { name = "Z 53" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1950" } } }
+            ship = { name = "Z 54" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1950" } } }
+			ship = { name = "Z 55" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1950" } } }
+        }
+        task_force = {
+            name = "제1해안경비전단"
+            location = 3686
+            ship = { name = "F 120" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_2 = { amount = 1 owner = GER version_name = "Rostock-Class" } } }
+			ship = { name = "F 121" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_2 = { amount = 1 owner = GER version_name = "Rostock-Class" } } }
+            ship = { name = "K60" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_2 = { amount = 1 owner = GER version_name = "Leipzig-Class" } } }
+        }
+    }
+    fleet = {
+        name = "흑해 U보트 함대"
+        naval_base = 137
+        task_force = {
+            name = "제1잠수정전단 '베딩겐'"
+            location = 3686
+            ship = { name = "U-3622" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-3621" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-3620" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-3619" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-3618" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-3617" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-2199" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-2198" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-2722" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+        }
+    }
+    fleet = {
+        name = "동부 함대"
+        naval_base = 195
+        task_force = {
+            name = "제3항모전단"
+            location = 3151
+            ship = { name = "아돌프 히틀러" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_2 = { amount = 1 owner = GER version_name = "Raeder Class" } }
+				air_wings = {
+				    cv_jet_fighter_equipment_1 = { owner = GER amount = 15 }
+					cv_jet_CAS_equipment_1 = { owner = GER amount = 15 }
+				}
+			}
+        }
+        task_force = {
+            name = "제3전함전단"
+            location = 3151
+            ship = { name = "티르피츠" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1  = { amount = 1 owner = GER version_name = "Bismarck Class" } } }
+            ship = { name = "루덴도르프" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1  = { amount = 1 owner = GER version_name = "Bismarck Class" } } }
+        }
+        task_force = {
+            name = "제2순양함전단"
+            location = 3151
+            ship = { name = "폰 호엔하임" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "M-Class" } } }
+            ship = { name = "슈바르체존네" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "M-Class" } } }
+        }
+        task_force = {
+            name = "제2구축함전단"
+            location = 3151
+            ship = { name = "Z 56" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1944" } } }
+            ship = { name = "Z 57" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1944" } } }
+            ship = { name = "Z 58" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1944" } } }
+            ship = { name = "Z 21" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1934" } } }
+            ship = { name = "Z 19" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1934" } } }
+            ship = { name = "Z 11" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1934" } } }
+            ship = { name = "Z 17" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1934" } } }
+            ship = { name = "Z 26" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1934" } } }
+        }
+        task_force = {
+            name = "제2해안경비전단"
+            location = 3151
+            ship = { name = "K20" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_1 = { amount = 1 owner = GER version_name = "Type 44 Torpedoboot" } } }
+            ship = { name = "K21" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_1 = { amount = 1 owner = GER version_name = "Type 44 Torpedoboot" } } }
+            ship = { name = "K26" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_1 = { amount = 1 owner = GER version_name = "Type 44 Torpedoboot" } } }
+            ship = { name = "K29" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_1 = { amount = 1 owner = GER version_name = "Type 44 Torpedoboot" } } }
+            ship = { name = "K24" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_1 = { amount = 1 owner = GER version_name = "Type 44 Torpedoboot" } } }
+            ship = { name = "K22" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_1 = { amount = 1 owner = GER version_name = "Type 44 Torpedoboot" } } }
+            ship = { name = "F 24" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_1 = { amount = 1 owner = GER version_name = "F-Class Escort Ship" } } }
+            ship = { name = "F 25" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_1 = { amount = 1 owner = GER version_name = "F-Class Escort Ship" } } }
+            ship = { name = "F 29" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_1 = { amount = 1 owner = GER version_name = "F-Class Escort Ship" } } }
+            ship = { name = "F 32" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_1 = { amount = 1 owner = GER version_name = "F-Class Escort Ship" } } }
+        }
+    }
+    fleet = {
+        name = "대서양 U보트 함대"
+        naval_base = 1375
+        task_force = {
+            name = "제3잠수정전단 '로흐스'"
+            location = 540
+            ship = { name = "U-3122" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-3123" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-3124" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-3125" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-3126" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+        }
+        task_force = {   
+            name = "제2잠수정전단 '잘츠베델'"
+            location = 540 
+            ship = { name = "U-4323" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4333" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4340" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4342" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4341" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4365" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4463" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4264" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4473" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4233" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4235" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4266" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4267" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4268" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4269" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4270" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4479" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+        }
+    }
+    fleet = {
+        name = "북부해군상급사령부"
+        naval_base = 56
+        task_force = {
+            name = "제11잠수정훈련소함대"
+            location = 3022
+            ship = { name = "U-901" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type XX-Class" } } }
+            ship = { name = "U-902" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type XX-Class" } } }
+            ship = { name = "U-903" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type XX-Class" } } }
+            ship = { name = "U-904" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type XX-Class" } } }
+            ship = { name = "U-905" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type XX-Class" } } }
+            ship = { name = "U-906" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type XX-Class" } } }
+            ship = { name = "U-926" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type XXI-Class" } } }
+            ship = { name = "U-927" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type XXI-Class" } } }
+            ship = { name = "U-928" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type XXI-Class" } } }
+        }
+        task_force = {
+            name = "제7잠수정전단 '베게너'"
+            location = 241
+            ship = { name = "U-4500" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4501" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4502" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4503" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-3650" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "25급" } } }
+            ship = { name = "U-3651" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "25급" } } }
+            ship = { name = "U-3652" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "25급" } } }
+            ship = { name = "U-3012" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "25급" } } }
+            ship = { name = "U-3013" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "25급" } } }
+            
+            ship = { name = "U-3656" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-3655" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-3654" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-3653" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+        }
+    }
+    fleet = {
+        name = "남부해군상급사령부"
+        naval_base = 137
+        task_force = {
+            name = "제2항모전단"
+            location = 3686
+            ship = { name = "아트미랄 레더" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_2 = { amount = 1 owner = GER version_name = "Raeder Class" } }
+				air_wings = {
+					cv_jet_fighter_equipment_1 = { owner = GER amount = 15 }
+					cv_jet_CAS_equipment_1 = { owner = GER amount = 15 }
+				}
+			}
+            ship = { name = "II (드 그라스)" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_2 = { amount = 1 owner = GER version_name = "Europa Class" } }
+				air_wings = {
+					cv_jet_fighter_equipment_1 = { owner = GER amount = 20 }
+					cv_jet_CAS_equipment_1 = { owner = GER amount = 10 }
+				}
+			}
+        }
+        task_force = {
+            name = "제2전함전단"
+            location = 3686
+            ship = { name = "힌덴부르크" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1  = { amount = 1 owner = GER version_name = "Hindenburg Class" } } }
+            ship = { name = "프리드리히 데어 그로세" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1  = { amount = 1 owner = GER version_name = "Hindenburg Class" } } }
+            ship = { name = "그로스도이칠란트" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1  = { amount = 1 owner = GER version_name = "Hindenburg Class" } } }
+        }
+        task_force = {
+            name = "제2순양함전단"
+            location = 3686
+            ship = { name = "오토 데어 그로세" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Otto Class" } } }
+            ship = { name = "프리드리히 바르바로사" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Otto Class" } } }
+            ship = { name = "루트비히 데어 바이어" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Otto Class" } } }
+        }
+        task_force = {
+            name = "제3순양함전단"
+            location = 3686
+            ship = { name = "프린츠 오이겐" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Admiral Hipper Class" } } }
+            ship = { name = "자이들리츠" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Admiral Hipper Class" } } }
+            ship = { name = "아트미랄 쉐어" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+        }
+        task_force = {
+            name = "제4순양함전단"
+            location = 3686
+            ship = { name = "블뤼허" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Admiral Hipper Class" } } }
+            ship = { name = "아트미랄 히퍼" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Admiral Hipper Class" } } }
+            ship = { name = "쾰른" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "K-Class" } } }
+        }
+        task_force = {
+            name = "제3구축함전단"
+            location = 3686
+            ship = { name = "Z 22" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1944" } } }
+            ship = { name = "Z 23" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1944" } } }
+            ship = { name = "Z 24" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1944" } } }
+            ship = { name = "Z 25" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1944" } } }
+            ship = { name = "Z 30" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1944" } } }
+            ship = { name = "Z 27" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1944" } } }
+        }
+        task_force = {
+            name = "제4구축함전단"
+            location = 3686
+            ship = { name = "Z 38" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1955" } } }
+            ship = { name = "Z 39" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1955" } } }
+            ship = { name = "Z 40" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1955" } } }
+            ship = { name = "Z 43" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1955" } } }
+            ship = { name = "Z 44" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1955" } } }
+        }
+        task_force = {
+            name = "제6잠수정전단 '훈디우스'"
+            location = 3686
+            ship = { name = "U-4722" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4723" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4724" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-4725" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_3 = { amount = 1 owner = GER version_name = "Type 401-Class" } } }
+            ship = { name = "U-3789" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+            ship = { name = "U-3790" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type XXVI-Class" } } }
+        }
+        task_force = {
+            name  = "남부해군상급사령부 예비전단"
+            location = 3686
+            ship = { name = "F 44" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_2 = { amount = 1 owner = GER version_name = "Rostock-Class" } } }
+            ship = { name = "F 46" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_2 = { amount = 1 owner = GER version_name = "Rostock-Class" } } }
+            ship = { name = "F 45" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_2 = { amount = 1 owner = GER version_name = "Rostock-Class" } } }
+            ship = { name = "F 47" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_2 = { amount = 1 owner = GER version_name = "Rostock-Class" } } }
+            ship = { name = "F 48" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_2 = { amount = 1 owner = GER version_name = "Rostock-Class" } } }
+            ship = { name = "F 49" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_2 = { amount = 1 owner = GER version_name = "Rostock-Class" } } }
+            ship = { name = "F 6" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_1 = { amount = 1 owner = GER version_name = "F-Class Escort Ship" } } }
+            ship = { name = "F 7" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_1 = { amount = 1 owner = GER version_name = "F-Class Escort Ship" } } }
+            ship = { name = "F 8" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_1 = { amount = 1 owner = GER version_name = "F-Class Escort Ship" } } }
+            ship = { name = "드라헤" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_1 = { amount = 1 owner = GER version_name = "F-Class Escort Ship" } } }
+            ship = { name = "브루머" definition = frigate start_experience_factor = 0.1 equipment = { ship_hull_more_light_1 = { amount = 1 owner = GER version_name = "F-Class Escort Ship" } } }
+            ship = { name = "K66" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_2 = { amount = 1 owner = GER version_name = "Leipzig-Class" } } }
+            ship = { name = "K67" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_2 = { amount = 1 owner = GER version_name = "Leipzig-Class" } } }
+            ship = { name = "K69" definition = corvette start_experience_factor = 0.1 equipment = { ship_hull_very_light_2 = { amount = 1 owner = GER version_name = "Leipzig-Class" } } }
+        }
+    } 
+}

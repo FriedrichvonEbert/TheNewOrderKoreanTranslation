@@ -1,0 +1,25 @@
+﻿units= {
+	fleet = {
+		name = "부르군트 전쟁해군"
+		naval_base = 11548
+		task_force = {
+			name = "잉글랜드 해협 함대"
+			location = 11548
+			ship = { name = "슈트라스부르크" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = BRG version_name = "Dunkerque-class" } } }
+			ship = { name = "라 갈리소니에르" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRG version_name = "La Galissonnière-class" } } }
+			ship = { name = "Le Hardi-class" definition = frigate equipment = { ship_hull_more_light_1 = { amount = 1 owner = BRG version_name = "Le Hardi-class" } } }
+			ship = { name = "코세어" definition = frigate equipment = { ship_hull_more_light_1 = { amount = 1 owner = BRG version_name = "Le Hardi-class" } } }
+			ship = { name = "에피" definition = frigate equipment = { ship_hull_more_light_1 = { amount = 1 owner = BRG version_name = "Le Hardi-class" } } }
+			ship = { name = "랑스케네" definition = frigate equipment = { ship_hull_more_light_1 = { amount = 1 owner = BRG version_name = "Le Hardi-class" } } }
+			ship = { name = "플루헤" definition = frigate equipment = { ship_hull_more_light_1 = { amount = 1 owner = BRG version_name = "Le Hardi-class" } } }	
+			ship = { name = "U-1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRG version_name = "Type XXVI" } } }
+			ship = { name = "U-2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRG version_name = "Type XXVI" } } }
+			ship = { name = "U-3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRG version_name = "Type XXVI" } } }
+			ship = { name = "U-4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRG version_name = "Type XXVI" } } }
+			ship = { name = "U-5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRG version_name = "Type XXVI" } } }
+			ship = { name = "U-6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRG version_name = "Type XXVI" } } }
+			ship = { name = "U-7" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRG version_name = "Type XXVI" } } }
+			ship = { name = "U-8" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BRG version_name = "Type XXVI" } } }
+		}
+	}
+}
