@@ -4,24 +4,24 @@
 
 #Infobox stuff
 
-SGR_igfarben_leader:0 "Hermann Josef Abs\n§LIG FARBEN§!"
+SGR_igfarben_leader:0 "헤르만 요제프 압스\n§L이게 파르벤§!"
 SGR_igfarben_expository_text:0 "From the stock exchanges in Milan and banks of Bordeaux to the institutes of Oslo and slave pens of Moskau stretches an economic empire unlike any other. §WHermann Josef Abs§! sits on its throne, controlling it from the shadows and in the light, under one clear objective - power. His power, and no one else's.\n\n§LIG Farben§! is the largest asset of an empire that spans the §LDeutsche Bank and many dozen more companies§!. Abs is not a member of the NSDAP; in fact, he was always distanced towards Hitler and his clique. Despite this he was a major architect of the war economy and carved his empire out of the spoils of the World War, even indulging in and financing the slave business to the point of forging §LIG Farben§! into the largest slaveholding corporation in Germany.\n\nHis obsession with power and refusal to cooperate cannot be ignored any longer. Abs and his empire must be destroyed."
 
-SGR_reichswerke_leader:0 "Edmund Geilenberg\n§jREICHSWERKE§!"
+SGR_reichswerke_leader:0 "에트문트 가일렌베르크\n§j라이크스베르크§!"
 SGR_reichswerke_expository_text:0 "§WEdmund Geilenberg§! presides over the Frankenstein's monster known as the §jReichswerke§!, one of the largest industrial conglomerates on Earth. His placement as its new Wehrwirtschaftsführer was an easy decision - Geilenberg's connection to the conglomerate goes back to even before the Second World War had started.\n\n§jReichswerke§!'s reach across Europe bases on the plethora of industry it swallowed from the territories annexed by the Reich during its ascendancy. Although surpassed by IG Farben, it remains one of the largest cartels and slave holders in Germany.\n\nStill, the fight against the conglomerate is not a lost cause. Being legally state-owned, direct action against Geilenberg's abomination is easier to justify to the ideologues and industrialists in the NSDAP. Geilenberg will fall, and Germany will finally move on from its barbary."
 
-SGR_daimler_leader:0 "Friedrich Flick\n§gDAIMLER-BENZ§!"
+SGR_daimler_leader:0 "프리드리히 플리크\n§g다임러-벤츠§!"
 SGR_daimler_expository_text:0 "§gVereinigte Stahlwerke§! was only the first milestone in a lifelong career in ruthless industry and lobbyism for §WFriedrich Flick§!. Politically active since the days of Weimar, he became a generous sponsor of the NSDAP, going as far as joining the §PCircle of Friends of Heinrich Himmler§! and providing hundreds of thousands in funds to the SS.\n\n§gDaimler-Benz§!, his domain, may be less expansive than those of his fellow Wehrwirtschaftsführer, but Flick's knack in stock affairs and all kinds of economics keep him a strong competitor regardless. A notorious user and abuser of the slavery system, Flick has burned through countless slaves already in his pursuit of maximizing profits, showing not even a sliver of repentance for his actions.\n\nFlick is the best example of a ruthless industrialist who capitalized on the NSDAP's rise to power and all the atrocities it brought. He must be removed."
 
-SGR_siemens_leader:0 "Ernst von Siemens\n§TSIEMENS§!"
+SGR_siemens_leader:0 "에른스트 폰 지멘스\n§T지멘스§!"
 SGR_siemens_expository_text:0 "§WErnst von Siemens§! stands out as somewhat of an anomaly compared to his peers. Under him, §TSiemens§! has increased its profits ten-fold, while avoiding reaching the levels of slavery other companies display. His company stands out as one of the few in Germany still carrying a respectable international reputation.\n\nMost importantly, von Siemen's fledgling empire of electronics and machines has shown sympathy towards the reformist cause; at least when it comes to programs from which §TSiemens§! would profit. No matter if this is out of genuine conviction or mere pragmatism at the inevitable demise of slavery in the new Germany, von Siemens and his family enterprise carry a significant amount of potential both economically and in the struggle against slavery.\n\nUnlikely ally or not, §TSiemens§!' nature as a cartel interferes with Germany's economic potential. Whilst the company and its proprietor may be kept, its power must diminish."
 
 #Frontscreen Metrics
 
-SGR_GDP_entry_1:0 "Zollverein GDP:  §W$§![?reich_GDP|2|W]§WB§! | [?zollvereinGDP_growth|%W2]"
+SGR_GDP_entry_1:0 "졸버레인 GDP:  §W$§![?reich_GDP|2|W]§WB§! | [?zollvereinGDP_growth|%W2]"
 SGR_slave_entry_scripted_loc:0 "[getSGRSlaveryStatus]"
-SGR_slave_entry_1:0 "Slaves: [?Reich_SlavesNum_m|3|R] §RMillion§!"
-SGR_slavery_abolished_entry:0 "§GSLAVERY ABOLISHED§!"
+SGR_slave_entry_1:0 "노예: [?Reich_SlavesNum_m|3|R] §R백만§!"
+SGR_slavery_abolished_entry:0 "§G노예제 폐지§!"
 SGR_workforce_entry_1:0 "Skilled Workforce: [?displayCurrentWorkforce|4|W] §WMillion§! | [?displayCivPercentage|%W2]"
 
 #Overview scripted loc
@@ -33,7 +33,7 @@ SGR_econ_overview:0 "The §QZollverein§! is formally a common market between mo
 
 #Zollverein Decision Category things
 
-SGR_Zollverein_members_investment_category:0 "Der Zollverein"
+SGR_Zollverein_members_investment_category:0 "졸버레인"
 SGR_Zollverein_members_investment_category_desc:0 "\n\n\n\n\n\n§QTOTAL BUDGET: [?GER.ZollvereinBudget|+]§GM USD§!§!\n\n§YALLOTMENT:§! [?THIS.MemberZVBudget|+]§GM USD§!\n\n§OAVAILABLE BUDGET:§! [?THIS.MemberSpentBudget|W]§WM USD§! / [?THIS.MemberZVBudget|+]§GM USD§!\n\nThe §QZollverein§! is a grand new project of economic cooperation between many nations of Europe. Spearheaded by §gGermany's§! §GGang of Four§!, it seeks to unite the continent under a common, single market, ensuring economic cooperation and mutual stability in the process."
 
 zv_quarterly_budget_tt:0 "The §QTotal Budget§! and §YAllotment§! will be updated."
