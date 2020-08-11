@@ -1,9 +1,9 @@
 ﻿l_english:
  ### Regional Stage ###
  #West Russia
- GAY_regional_unifier_despotism:0 "성 조지 기사단국"
- GAY_regional_unifier_despotism_DEF:0 "성 조지 기사단국"
- GAY_regional_unifier_despotism_ADJ:0 "조지 기사단"
+ GAY_regional_unifier_despotism:0 "성 게오르기 기사단국"
+ GAY_regional_unifier_despotism_DEF:0 "성 게오르기 기사단국"
+ GAY_regional_unifier_despotism_ADJ:0 "게오르기 기사단"
  
  KIR_regional_unifier_social_liberal:0 "서러시아 자주국"
  KIR_regional_unifier_social_liberal_DEF:0 "서러시아 자주국"
@@ -51,6 +51,10 @@
  NIK_REGIONAL_AUTHSOC_communist:0 "서러시아 소비에트 공화국"
  NIK_REGIONAL_AUTHSOC_communist_DEF:0 "서러시아 소비에트 공화국"
  NIK_REGIONAL_AUTHSOC_communist_ADJ:0 "서러시아"
+
+ NIK_REGIONAL_AUTHSOC_socialist:0 "서러시아 소비에트 공화국"
+ NIK_REGIONAL_AUTHSOC_socialist_DEF:0 "서러시아 소비에트 공화국"
+ NIK_REGIONAL_AUTHSOC_socialist_ADJ:0 "서러시아"
  
  NIK_REGIONAL_LIBSOC_socialist:0 "서러시아 소비에트 연방"
  NIK_REGIONAL_LIBSOC_socialist_DEF:0 ""서러시아 소비에트 연방"
@@ -150,8 +154,8 @@
  TOB_regional_unifier_authoritarian_democrat:0 "우랄 군구"
  TOB_regional_unifier_authoritarian_democrat_DEF:0 "우랄 군구"
  TOB_regional_unifier_authoritarian_democrat_ADJ:0 "우랄"
- TOB_regional_unifier_despotism:0 "예카테린부르크 섭정
- TOB_regional_unifier_despotism_DEF:0 "예카테린부르크 섭정
+ TOB_regional_unifier_despotism:0 "예카테린부르크 섭정"
+ TOB_regional_unifier_despotism_DEF:0 "예카테린부르크 섭정"
  TOB_regional_unifier_despotism_ADJ:0 "서시베리아"
 
  #Central Siberia
@@ -231,15 +235,18 @@
  MAG_regional_unifier_fascism_ADJ:0 "시베리아"
  
  OMO_father_men_despotism:0 "시베리아 신성 명령"
- OMO_father_men_despotism_DEF:0 "시베리아 신성 명령""
+ OMO_father_men_despotism_DEF:0 "시베리아 신성 명령"
  OMO_father_men_despotism_ADJ:0 "시베리아"
- OMO_regional_unifier_despotism:0 "시베리아 신성 명령""
- OMO_regional_unifier_despotism_DEF:0 "시베리아 신성 명령""
+ OMO_regional_unifier_despotism:0 "시베리아 신성 명령"
+ OMO_regional_unifier_despotism_DEF:0 "시베리아 신성 명령"
  OMO_regional_unifier_despotism_ADJ:0 "시베리아"
  
  WCH_regional_unifier_social_liberal:0 "극동 제국 영역"
  WCH_regional_unifier_social_liberal_DEF:0 "극동 제국 영역"
  WCH_regional_unifier_social_liberal_ADJ:0 "극동"
+ WCH_regional_unifier_authoritarian_democrat:0 "극동 제국 영역"
+ WCH_regional_unifier_authoritarian_democrat_DEF:0 "극동 제국 영역"
+ WCH_regional_unifier_authoritarian_democrat_ADJ:0 "극동"
  WCH_regional_unifier_despotism:0 "극동 제국 영역"
  WCH_regional_unifier_despotism_DEF:0 "극동 제국 영역"
  WCH_regional_unifier_despotism_ADJ:0 "극동"
@@ -247,7 +254,7 @@
  #South Urals
  BAS_regional_unifier_despotism:0 "남부 우랄 자치주"
  BAS_regional_unifier_despotism_DEF:0 "남부 우랄 자치주"
- BAS_regional_unifier_despotism_ADJ:0 "마그니토고르스크
+ BAS_regional_unifier_despotism_ADJ:0 "마그니토고르스크"
  BAS_NKVD_regional_unifier_despotism:0 "마그니토고르스크 지구"
  BAS_NKVD_regional_unifier_despotism_DEF:0 "마그니토고르스크 지구"
  BAS_NKVD_regional_unifier_despotism_ADJ:0 "마그니토고르스크"
@@ -371,6 +378,9 @@
  WCH_SIB_social_liberal:0 "시베리아 제국"
  WCH_SIB_social_liberal_DEF:0 "시베리아 제국"
  WCH_SIB_social_liberal_ADJ:0 "시베리아"
+ WCH_SIB_authoritarian_democrat:0 "시베리아 섭정"
+ WCH_SIB_authoritarian_democrat_DEF:0 "시베리아 섭정"
+ WCH_SIB_authoritarian_democrat_ADJ:0 "시베리아"
  WCH_SIB_despotism:0 "시베리아 섭정"
  WCH_SIB_despotism_DEF:0 "시베리아 섭정"
  WCH_SIB_despotism_ADJ:0 "시베리아"
@@ -543,9 +553,17 @@
  NIK_soviet_communist_DEF:0 "러시아 소비에트 공화국"
  NIK_soviet_communist_ADJ:0 "러시아"
  
+ NIK_soviet_socialist:0 "러시아 소비에트 공화국"
+ NIK_soviet_socialist_DEF:0 "러시아 소비에트 공화국"
+ NIK_soviet_socialist_ADJ:0 "러시아"
+ 
  NIK_federation_socialist:0 "소비에트 연방"
  NIK_federation_socialist_DEF:0 "소비에트 연방"
  NIK_federation_socialist_ADJ:0 "러시아"
+ 
+ NIK_federation_communist:0 "통일 소비에트 연방"
+ NIK_federation_communist_DEF:0 "통일 소비에트 연방"
+ NIK_federation_communist_ADJ:0 "러시아"
  
  NIK_fashrussia_fascism:0 "러시아 개혁국"
  NIK_fashrussia_fascism_DEF:0 "러시아 개혁국"
@@ -625,12 +643,12 @@
  WCH_RUS_social_liberal:0 "러시아 제국"
  WCH_RUS_social_liberal_DEF:0 "러시아 제국"
  WCH_RUS_social_liberal_ADJ:0 "러시아"
- WCH_RUS_despotism:0 "러시아 제국"
- WCH_RUS_despotism_DEF:0 "러시아 제국"
- WCH_RUS_despotism_ADJ:0 "러시아"
  WCH_RUS_authoritarian_democrat:0 "러시아 제국"
  WCH_RUS_authoritarian_democrat_DEF:0 "러시아 제국"
  WCH_RUS_authoritarian_democrat_ADJ:0 "러시아"
+ WCH_RUS_despotism:0 "러시아 제국"
+ WCH_RUS_despotism_DEF:0 "러시아 제국"
+ WCH_RUS_despotism_ADJ:0 "러시아"
 
  #Amur
  AMR_RUS_national_socialism:0 "러시아 국민국"
