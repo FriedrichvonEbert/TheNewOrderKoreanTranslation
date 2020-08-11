@@ -1187,8 +1187,8 @@
  WRS_David_Dragunsky:0 "다비드 드라군스키"
  
  ### Zhukovtangle ###
- WRS_Tangle_Decisions_Category:0 "The New Soviet State"
- WRS_Tangle_Decisions_Category_desc: "While Zhukov is an adept military strategist and an extremely charismatic figurehead, the fact remains that he is largely apolitical and apathetic to what path the WRRF takes diplomatically. Seeing an opportunity for power and the chance to reform the Soviet Union as they see fit, a number of politicians vie for control.\n\nSergrey Akhromeyev, the Orthodox politician and a staunch Bukharinist, supports the policy of war communism but advocated phasing it out. Open to collaboration with the OFN, Akhromeyev is willing to do almost anything to ensure that a Bukharinist polity continues to exist and thrive in Russia.\n\nNikolay Ryzkhov, a pragmatic Leninist, also supports phasing out war communism in the coming years. A believer in democratic elections as soon as the emergency is over, he will reshape Russia in the wake of Zhukov's death in the coming years.\n\nAlexander Yakovlev, the closest man to a capitalist in the WRRF, supports limited privatization, free and open trade, and halting war communism as soon as possible. Yakovlev is also notable in his staunch support of free and open elections and receiving aid from the OFN.\n\nThe current §Ybalance of power§! within the [WRS.GetName], between the factions of:\n- §eSergey Akhromeyev§!\n- §SNikolay Ryzhkov§!\n- §PAlexander Yakovlev§!\n\nIs in favor of [WRSGetContenderInfluence].\n\nPossible reforms to the bureaucracy can be seen below.\n"
+ WRS_Tangle_Decisions_Category:0 "새로운 소비에트국"
+ WRS_Tangle_Decisions_Category_desc: "주코프는 능숙한 군사 전략가로서 카리스마있는 인물이자 우두머리이지만, 사실 주코프는 서러시아 혁명전선의 외교적, 정치적으로 어느 길을 택하냐에 대해서는 매우 무관심하고 신경을 쓰지 않습니다. 권력을 쥐고 자신이 원하는 모습의 소련으로 개혁할 기회라고 생각한 여러 정치인들이 주도권을 두고 경쟁하고 있습니다.\n\n정교회 신앙 정치인이자 충실한 부하린주의자인 세르게이 아흐로메예프는 전쟁 공산주의를 지지하지만 단계적으로 폐지하는 방안을 지지하고 있습니다. 또한 OFN과의 협력에도 개방적인 아흐로메예프는 부하린주의자들이 러시아 정계에서 계속 남아 커지게 하기 위해 무엇이든지 할 것입니다.\n\n실용주의적인 레닌주의자인 니콜라이 리시코프 또한 향후 몇 년 안에 전쟁 공산주의를 단계적으로 폐지하는 방안을 지지하고 있습니다. 비상상황이 끝나자마자 민주적인 선거를 열어야 한다고 믿는 그는 주코프가 사망할 경우 곧바로 러시아를 개혁하기 시작할 것입니다.\n\n서러시아 혁명전선 내에서 자본가와 가장 가까운 인물인 알렉산드르 야코블레프는 제한적인 사유화 허용, 자유 무역 및 개방 무역 옹호를 지지하며 전쟁 공산주의를 가능한 한 빠르게 끝내기를 원합니다. 또한 야코블레프는 자유 및 공개 선거를 지지하며 OFN의 원조를 받아야 한다는 주장도 펼치고 있습니다.\n\n현재 [WRS.GetName] 내에서 각 계파간의 §Y힘의 균형§!은 다음과 같습니다.\n- §e세르게이 아흐로메예프§!\n- §S니콜라이 리시코프§!\n- §P알렉산드르 야코블레프§!\n\nIs in favor of [WRSGetContenderInfluence].\n\n관료제에 대한 여러 개혁 결정을 아래에서 선택할 수 있습니다.\n"
  
  WRS_reform_timer_tt:0 "We have not passed a §Yreform§! in the last 365 days."
  
@@ -1197,9 +1197,9 @@
  WRS_yakovlev_dominant:0 "§PAlexander Yakovlev§! - (§P[?WRS_Yakovlev_Balance]§!-§S[?WRS_Ryzhkov_Balance]§!-§e[?WRS_Akhromeyev_Balance]§!) "
  WRS_noone_dominant:0 "§ONo Faction§! - (§e[?WRS_Akhromeyev_Balance]§!-§S[?WRS_Ryzhkov_Balance]§!-§P[?WRS_Yakovlev_Balance]§!)"
  
- WRS_appease_akhromeyev:0 "Appease the §eAkhromeyev§! Faction"
- WRS_appease_ryzhkov:0 "Appease the §SRyzhkov§! Faction"
- WRS_appease_yakovlev:0 "Appease the §PYakovlev§! Faction"
+ WRS_appease_akhromeyev:0 "§e아흐로메예프§! 파벌 달래기"
+ WRS_appease_ryzhkov:0 "§S리시코프§! 파벌 달래기"
+ WRS_appease_yakovlev:0 "§P야코블레프§! 파벌 달래기"
  
  WRS_persuade_others_akhromeyev:0 "Persuade the §OOther Factions§!"
  WRS_persuade_others_ryzhkov:0 "Persuade the §OOther Factions§!"
@@ -1223,13 +1223,13 @@
  WRS_yakovlev_abolish_gulag_tt:0 "The §RGULAG§! system shall be abolished, freeing many §Ypolitical prisoners§!."
  
  
- WRS_AKHROMEYEV:0 "§eAKHROMEYEV§!"
+ WRS_AKHROMEYEV:0 "§e아흐로메예프§!"
  WRS_AKHROMEYEV_tt:0 "§eSergey Akhromeyev§! description here."
  
- WRS_RYZHKOV:0 "§SRYZHKOV§!"
+ WRS_RYZHKOV:0 "§S리시코프§!"
  WRS_RYZHKOV_tt:0 "§SNikolay Ryzhkov§! description here."
  
- WRS_YAKOVLEV:0 "§PYAKOVLEV§!"
+ WRS_YAKOVLEV:0 "§P야코블레프§!"
  WRS_YAKOVLEV_tt:0 "§PAlexander Yakovlev§! description here."
  
  WRS_zhukovregional_increase_akhromeyev_influence_low_tt:0 "§YIncreases§! the influence of §eSergey Akhromeyev§! by §Y1§!.\n\n"
