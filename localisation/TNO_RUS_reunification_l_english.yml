@@ -181,8 +181,8 @@
  RUS_race_for_kazakhstan:0 "카자흐스탄을 향한 경주"
  RUS_race_for_kazakhstan_desc:0 "최근 수 주 동안 카자흐스탄에서 우리와 경쟁자들 사이의 세력 다툼이 시작되었습니다. This diplomatic conflict has only continued to grow in severity as we both put more and more resources into gaining Kazakhstan as an ally. Our diplomats cannot let Kazakhstan fall into our enemy's hands, as it would greatly strengthen them and could even lead to another front we would have to fight on in the event of a war. We must get Kazakhstan on our side, as it could very well mean our victory or defeat.\n\n[GetNowaPoslkaText][GetKazakhText]" 
 
- DON_fire_string:0 "§Y[DON.GetName]§! ([GetDONRelations]):\n현재 §Y영향력 투자§!: [GetDONInfluenceInvestment]\n현재 §Y영향력§!: §Y[?RUS_DON_Influence]§!.\n현재 §Y영향력 획득:§! §Y[?RUS_DON_Influence_Daily_Ticker_End]§!/day.\nCurrent §Yopponent influence§!: §Y[GetOpponentDONInfluence]§! ([GetDONOpponentRelations]).\n\n"
- KZK_fire_string:0 "§Y[RUS_kazakhstan_unifier.GetName]§! ([GetKAZRelations]):\n현재 §Y영향력 투자§!: [GetKAZInfluenceInvestment]\nCurrent §Yinfluence§!: §Y[?RUS_KAZ_Influence]§!.\nCurrent §Yinfluence gain:§! §Y[?RUS_KAZ_Influence_Daily_Ticker_End]§!/day.\nCurrent §Yopponent influence§!: §Y[GetOpponentKAZInfluence]§! ([GetKAZOpponentRelations])."
+ DON_fire_string:0 "§Y[DON.GetName]§! ([GetDONRelations]):\n현재 §Y영향력 투자§!: [GetDONInfluenceInvestment]\n현재 §Y영향력§!: §Y[?RUS_DON_Influence]§!.\n현재 §Y영향력 획득:§! §Y[?RUS_DON_Influence_Daily_Ticker_End]§!/day.\n현재 §Y상대방의 영향력§!: §Y[GetOpponentDONInfluence]§! ([GetDONOpponentRelations]).\n\n"
+ KZK_fire_string:0 "§Y[RUS_kazakhstan_unifier.GetName]§! ([GetKAZRelations]):\n현재 §Y영향력 투자§!: [GetKAZInfluenceInvestment]\n현재 §Y영향력§!: §Y[?RUS_KAZ_Influence]§!.\n현재 §Y영향력 획득:§! §Y[?RUS_KAZ_Influence_Daily_Ticker_End]§!/day.\n현재 §Y상대방의 영향력§!: §Y[GetOpponentKAZInfluence]§! ([GetKAZOpponentRelations])."
 
  RUS_display_southern_urals_influence:0 "Reset Influence Variables"
  BEGIN_SOUTHERN_URALS_CRISIS:0 "New §Ydecisions§! for §Yinfluencing§! the §YSouthern Urals§! shall become available.\n"
