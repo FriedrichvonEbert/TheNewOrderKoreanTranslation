@@ -897,7 +897,7 @@ BRG_Lower_Sus_Decisions_Post_Degrelle_unlock_tooltip:0 "New decisions to lower t
   BRG_massive_inteligence_gain:0 "Our monthly §gintel§! gain will §Gincrease§! by §Y15.§!\n"
 
   BRG_Lower_Walloon_Sus_Little:0 "Counterintelligence Against §YWalloon§!"
-  BRG_Lower_Walloon_Sus_Medium:0 "Medium Counterintelligence Against §YWalloon§!"\
+  BRG_Lower_Walloon_Sus_Medium:0 "Medium Counterintelligence Against §YWalloon§!\n"
 
   BRG_Lower_Walloon_Sus_Little_tooltip:0 "§YWalloon§! §Rsuspicion§! of us will §Gdecrease§! by a §Ysmall§! amount through the use of new deception tactics to throw them off of our trail.\n"
  BRG_Lower_Walloon_Sus_medium_tooltip:0 "§YWalloon§! §Rsuspicion§! of us will §Gdecrease§! by a §Gmedium§! amount through the use of new deception tactics to throw them off of our trail.\n"
@@ -942,7 +942,7 @@ BRG_Lower_Sus_Decisions_Post_Degrelle_unlock_tooltip:0 "New decisions to lower t
 
  BRG_ready_the_strings_tooltip:0 "By acting from the shadows, new decisions to §Ggreatly decrease§! §YWalloon's Suspicion§! will be will be unlocked.\n"
 
- BRG_the_taste_of_victory_tooltip:0 "With our efforts the §Yloyalities§! of the Legions will §Gincrease§! further.\n"\n
+ BRG_the_taste_of_victory_tooltip:0 "With our efforts the §Yloyalities§! of the Legions will §Gincrease§! further.\n"
 
  BRG_the_only_way_forward_tooltip:0 "These new regions will be §Yadministered§! like any other, increasing our support in those §Ystates§!, even if §Qcertain Legions§! will be §Rangered§!\n\nNew decisions to §Graise§! §QCharlamagne's Loyalty§! will be unlocked.\n"
 
@@ -1113,7 +1113,7 @@ BRG_Get_Intel_tt:0 "§B첩보 역량§!을 늘려 §Y25 첩보§!를 얻을 것�
 BRG_increase_monthly_intel_a_little_DeGrelle:0 "이 작전에 더 많이 투자하여 §B월간 첩보 성장§!을 §Y2§!만큼 증가시킬 것입니다.\n"
 BRG_Low_Sus_DeGrelle_Tooltip:0 "조사에 새로운 기만 수법을 사용하여 §Y드그렐의 의심도§!를 §Y약간§! 낮출 것입니다.\n"
 BRG_Sus_Medium_DeGrelle_Tooltip:0 "조사에 새로운 기만 수법을 사용하여 §Y드그렐의 의심도§!를 §G어느 정도§! 낮출 것입니다.\n"
-BRG_Sus_Lots_DeGrelle_Tooltip:0""조사에 새로운 기만 수법을 사용하여 §Y드그렐의 의심도§!를 §y크게§! 낮출 것입니다.\n"
+BRG_Sus_Lots_DeGrelle_Tooltip:0 "조사에 새로운 기만 수법을 사용하여 §Y드그렐의 의심도§!를 §y크게§! 낮출 것입니다.\n"
 
 BRG_Cost_1_Evidence:0 "§Q샤를마뉴§!에 대한 증거를 적어도 §Y하나§!는 가지고 있어야 합니다."
 BRG_Blackmail_Charlemagne:0 "§Q샤를마뉴§! 협박"
@@ -2433,7 +2433,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_unlock_kondor_phase:0 "§GNew§! interactions can be undertaken for §R세계계획 콘도르.§!\nOld interactions will §Rno longer§! be available.\n"
  BRG_algeria_lean:0 "An operation for showing the Iberians §Rour truth§! regarding Italian ambitions in Algeria will be unlocked.\n"
  BRG_bribe_cost:0 "This will cost us §Y100 million.§!\n"
- BRG_smuggle_algeria_gain:0 "The equipment will be transfered to them.\nWe will gain §Y150 million.§!\n"'
+ BRG_smuggle_algeria_gain:0 "The equipment will be transfered to them.\nWe will gain §Y150 million.§!\n"
  BRG_anger_dam_workers:0 "The workers grow more §Rrestless.§!\n"
 
  BRG_cnt_minor_strength_increase:0 "The §YCNT-FAI§! will be provided with additional resources with which to §Rsow chaos.§!\n"
@@ -2463,7 +2463,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_unlock_splitter_buffs:0 "Decisions for supporting the various Iberian regionalist factions currently engaged in warfare will be unlocked.\n"
  BRG_unlock_successor_buffs:0 "Decisions for providing major support to the various successor factions in Iberia will be unlocked.\n"
  BRG_unlock_tba_buffs:0 "Will unlocklk a decision for supporting the TBA.\nThe hardline §gSS§! will §Rdisapprove.§!\n"
- BRG_iberia_pullout:0 "We shall §Rpermamently§! withdraw from Iberia. We will no longer be able to act in the region but will §Gregain§! some of the §Y[?BRG_kondor_invested_supplies_phase_3] supplies§! we invested in the war.\n"\
+ BRG_iberia_pullout:0 "We shall §Rpermamently§! withdraw from Iberia. We will no longer be able to act in the region but will §Gregain§! some of the §Y[?BRG_kondor_invested_supplies_phase_3] supplies§! we invested in the war.\n"
  BRG_activate_tba_extraction:0 "For as long as the TBA remains standing we will enjoy a steady cashflow.\n"
  BRG_tba_gains:0 "We will gain §Y100 million.§!\n"
  BRG_weakest_support:0 "Our aid shall go to whichever successor faction is performing the worst in these wars.\n"
@@ -2472,6 +2472,49 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
 
  #Kondor Ideas
  BRG_iberian_wars_cripple:0 "Sabotage!"
+
+ #Kondor Decisions
+
+ BRG_kondor_minor_smuggling_cnt:0 "Smuggle Arms to the CNT"
+ BRG_kondor_minor_smuggling_fslp:0 "Smuggle Arms to the FSLP"
+ BRG_kondor_minor_smuggling_tba:0 "Smuggle Arms to the BTA"
+ BRG_kondor_minor_smuggling_eta:0 "Smuggle Arms to the ETA"
+
+ BRG_kondor_major_smuggling_cnt:0 "Ensure the CNT are well armed"
+ BRG_kondor_major_smuggling_fslp:0 "Ensure the FSLP are well armed"
+ BRG_kondor_major_smuggling_tba:0 "Ensure the BTA are well armed"
+ BRG_kondor_major_smuggling_eta:0 "Ensure the ETA are well armed"
+
+ BRG_kondor_minor_activity_boost_cnt_cnt:0 "Provoke the CNT"
+ BRG_kondor_minor_activity_boost_cnt_fslp:0 "Provoke the FSLP"
+ BRG_kondor_minor_activity_boost_cnt_tba:0 "Provoke the BTA"
+ BRG_kondor_minor_activity_boost_cnt_eta:0 "Provoke the ETA"
+
+ BRG_kondor_major_activity_boost_cnt:0 "Incite CNT Rage"
+ BRG_kondor_major_activity_boost_fslp:0 "Incite FSLP Rage"
+ BRG_kondor_major_activity_boost_tba:0 "Incite BTA Rage"
+ BRG_kondor_major_activity_boost_eta:0 "Incite ETA Rage"
+
+ BRG_kondor_ignite_the_powder_keg_decision:0 "Arrange a False Flag Incident"
+
+ BRG_kondor_splitter_support:0 "Support [FROM.GetName]"
+ BRG_kondor_tba_support:0 "Support [TBA.GetNamer]"
+ BRG_kondor_support_successors:0 "Support [FROM.GetName]"
+ BRG_tba_money_extraction:0 "Wealth Extraction"
+
+ BRG_kondor_fuck_with_dam:0 "Sabotage the Dam"
+
+ BRG_kondor_morocco_incident:0 "Stage an incident in Morocco"
+
+ BRG_kondor_skeletons_incident:0 "Reveal Franco's Secrets"
+
+ BRG_kondor_bribe_salazar_support_bussiness:0 "Ensure Bussiness Support for Salazzar"
+
+ BRG_kondor_bribe_salazar_support_regionals:0 "Ensure Regionalist Support for Salazzar"
+
+ BRG_kondor_smuggle_algeria:0 "Smuggle Arms to Algeria"
+
+ BRG_kondor_false_flag_about_algeria:0 "Fabricate Italian Plans for Algeria"
 
  #Globalplan Wolf tooltips#
  BRG_itw_lost_tt:0 "The Italians have §Ylost§! the Italo-Turkish War."
@@ -3924,7 +3967,7 @@ BRG_education.24.b:0 "Only we are superior. Dissolve the Houses, seize their est
  BRG_where_we_dropping_boys:0 "Send the "§MInternational§!" Aid"
  ########################
  #supply tts
- BRG_Cost_1_supply:0 "This will cost §Y1§! piece of §Gsupplies§!"y
+ BRG_Cost_1_supply:0 "This will cost §Y1§! piece of §Gsupplies§!"
  BRG_Cost_2_supply:0 "This will cost §Y2§! pieces of §Gsupplies§!"
  BRG_Cost_3_supply:0 "This will cost §Y3§! pieces of §Gsupplies§!"
  BRG_Cost_4_supply:0 "This will cost §Y4§! pieces of §Gsupplies§!"
@@ -5470,48 +5513,44 @@ BRG.5014.a:0 "The Shadow State has a far reach."
  #Wolf Events#
 
  BRG_wolf.1.t:0 "세계계획 볼프"
- BRG_wolf.1.desc:0 "The tentacles of the Ordenstaat stretch further and further across the globe, snatching up new tools for the plan of the Reichsfurher-SS. 세계계획 볼프 focuses on one of the juciest prizes of all -- the Middle East. Already our agents have infiltrated the region, and now work to disturb the colonial order, wrecking havoc on global tensions and the supply of oil. Our short term focus is on excerbating tensions between the triumvirate rivals Italy and Turkey in Syria. A confrontation there would go a long way to unleashing a beautiful cycle of violence. In the longer term, we hope to make use of the gluttony and cowardice of the Egyptian King Farouk. In time, as our agents proliferate, we may consider even loftier plans."
- BRG_wolf.1.a:0 ""
+ BRG_wolf.1.desc:0 "The tentacles of the Ordenstaat stretch further and further across the globe, snatching up new tools for the plan of the Reichsfurher-SS. Globalplan Wolf focuses on one of the juciest prizes of all -- the Middle East. Already our agents have infiltrated the region, and now work to disturb the colonial order, wrecking havoc on global tensions and the supply of oil. Our short term focus is on excerbating tensions between the triumvirate rivals Italy and Turkey in Syria. A confrontation there would go a long way to unleashing a beautiful cycle of violence. In the longer term, we hope to make use of the gluttony and cowardice of the Egyptian King Farouk. In time, as our agents proliferate, we may consider even loftier plans."
+ BRG_wolf.1.a:0 "A place of oppurtunities."
 
- BRG_wolf.2.t:0 ""
+ BRG_wolf.2.t:0 "The Kings Folly"
  BRG_wolf.2.desc:0 "It is so convenient, that although we are certainly happy to help them on their way, the untermensch are often willing to be the agents of their own demise. In Egypt, the pathetic King Farouk is well known for his lust, luxorious tastes, and disdain for his people. Our agents are already well placed to lead the King to ever more exorbitant states, wrecking havoc on his nations economy and unleashing chaos throughout the region."
- BRG_wolf.2.a:0 ""
- #3 is unused#
- BRG_wolf.4.t:0 ""
- BRG_wolf.4.desc:0 "In the distant Southern Deserts of the Kingdom of Egypt, the nomads wandered miserably, looking for some humble hovel to spend the night. In the many farming settlements along the Nile, the peasants worked day and night for the chance to live another year, a future for their family, and maybe a small bottle of liqour to drain their sorrows. In the narrow streets of Cairo, the cityfolk begged and stole for a living, crouching in crumbling apartments devoid of light or water, despite the paromises of the government that infranstructure improvements would be coming "soon". \n\nIn the palaces of King Farouk, it was party time. Exotic dancers from across the world gyrated on poles of solid gold, whole platters of caviar were passed around h'ors'deovures, decorated cloth bags full of Cocaine were handed out as favors. The palace was always glowing with light, thundering with muscid, and reeking of the alcoholic excess within. \n\nFarouk was never one to be surpassed, and he out-drank the hardest German beer merchants and proprietors of Mexican tequila alike, he out-snorted even the most outrageous coke-addicts, and he ate more than a dozen portly British prostitutes combined. \n\nAround the king were clustered his closest friends and dearest enablers. For every line, bottle, and plate he consumed, they pressed two more in his hands. Despite their saccarine good cheer, they did not touch the delicacies themselves -- for they were true Aryans after all. This was merely another play in the game, one that would earn them profit in smuggling money yes, but more importantly one that would bankrupt the Egyptian government and bring the whole rotten untermensch edifice crashing to the ground."
- BRG_wolf.4.a:0 ""
+ BRG_wolf.2.a:0 "And his nation will bleed."
 
- BRG_wolf.5.t:0 ""
- BRG_wolf.5.desc:0 "Since the first untermench crawled out of the slime to drag the Aryan down, the Middle East has been the focal point of global conflict. Never has there been a great power that did not seek to dominate this region's resources and strategic position -- the land of black gold, the crossroads between Europe, Asia, and Africa, the birth place of modern religion. \n\nNow once again the region is aflame with a three way proxy conflict between the Saudis and their puppets in the Muslim Brotherhood, the Arab Nationalist Ba'athists, and the remnants of Italian colonialism. Each of these factions is backed by one global power or another, all are heavily armed, and thanks to our help, at the point of war. Now is the time for us to begin a general process of turning the cold war hot, and bringing an end to the long era of weakness and Aryan servitude."
- BRG_wolf.5.a:0 ""
+ BRG_wolf.3.t:0 "Laying the Bait"
+ BRG_wolf.3.desc:0 "In the distant Southern Deserts of the Kingdom of Egypt, the nomads wandered miserably, looking for some humble hovel to spend the night. In the many farming settlements along the Nile, the peasants worked day and night for the chance to live another year, a future for their family, and maybe a small bottle of liquor to drain their sorrows. In the narrow streets of Cairo, the cityfolk begged and stole for a living, crouching in crumbling apartments devoid of light or water, despite the promises of the government that infrastructure improvements would be coming “soon”. \n\n In the palaces of King Farouk, it was party time. Exotic dancers from across the world gyrated on poles of solid gold, whole platters of caviar were passed around hors d'oeuvres, decorated cloth bags full of Cocaine were handed out as favors. The palace was always glowing with light, thundering with muscid, and reeking of the alcoholic excess within. \n\n Farouk was never one to be surpassed, and he out-drank the hardest German beer merchants and proprietors of Mexican tequila alike, he out-snorted even the most outrageous coke-addicts, and he ate more than a dozen portly British prostitutes combined. \n\n Around the king were clustered his closest friends and dearest enablers. For every line, bottle, and plate he consumed, they pressed two more in his hands. Despite their saccharine good cheer, they did not touch the delicacies themselves -- for they were true Aryans after all. This was merely another play in the game, one that would earn them profit in smuggling money yes, but more importantly one that would bankrupt the Egyptian government and bring the whole rotten untermensch edifice crashing to the ground."
+ BRG_wolf.3.a:0 "The Third Circle awaits."
 
- BRG_wolf.6.t:0 ""
+ BRG_wolf.5.t:0 "The East Aflame"
+ BRG_wolf.5.desc:0 "Since the first untermensch crawled out of the slime to drag the Aryan down, the Middle East has been the focal point of global conflict. Never has there been a great power that did not seek to dominate this region’s resources and strategic position -- the land of black gold, the crossroads between Europe, Asia, and Africa, the birthplace of modern religion. \n\n Now once again the region is aflame with a three way proxy conflict between the Saudis and their puppets in the Muslim Brotherhood, the Arab Nationalist Baathists, and the remnants of Italian colonialism. Each of these factions is backed by one global power or another, all are heavily armed, and thanks to our help, at the point of war. Now is the time for us to begin a general process of turning the cold war hot, and bringing an end to the long era of weakness and Aryan servitude."
+ BRG_wolf.5.a:0 "The land of oppurtunity."
+
+ BRG_wolf.6.t:0 "A Favorable Outcome"
  BRG_wolf.6.desc:0 "Once more the Ordenstaat's subtle use of lesser factions has paid off. The winner of the Iranian civil war is permeated by our agents, and indebted to our influence. In hidden places throughout the Persian mountains, our bases pump out propaganda, weapons, and recruitment. Now with a stronghold near the current focal point of global tensions, we have the ability to exacerbate the ongoing oil crisis and support the faction most amenable to our interests. Soon the great powers of the world will be drawn into an unescapable conflict over black gold, one from which they are unlikely to walk away."
- BRG_wolf.6.a:0 ""
+ BRG_wolf.6.a:0 "A critical gateway secured."
 
- BRG_wolf.7.t:0 " 세계계획 볼프 begins the Hunt"
+ BRG_wolf.7.t:0 " Globalplan Wolf begins the Hunt"
  BRG_wolf.7.desc:0 "To our most noble Lord, the Reichsführer-SS: \n\nIt has come to the attention of all of our operatives coordinating our overseas clandestine operations that the Italians are enduring a new crisis, delivering to us a new chance for intervention from the Ordenstaat; in particular, "Africa Orientale Italiana," or the East African territories ruled over by the decadent Italians, has lost all decent support from their miserably inefficient government and fallen to chaos to the native savages. It would be most opportune to begin our newly drafted potential operations in the Italian menace as pertinently as possible. \n\nWith all respect and honor,\n\nSS-Obergruppenführer Heinrich Müller"
  BRG_wolf.7.a:0 "Good, very good."
 
- BRG_wolf.8.t:0 "세계계획 볼프 continues the Prowl"
+ BRG_wolf.8.t:0 "Globalplan Wolf continues the Prowl"
  BRG_wolf.8.desc:0 "To the Knight of the Ordenstaat, the Reichsführer-SS: \n\nThe time has come, once more, to look towards the continuous failures and opportunities for exploitation within the most despicable traitors along the Italian Peninsula. Our current intelligence reports indicate the massive conflicts exploding out from the Middle East has caused extreme plummets in stock investments towards "Ente Nazionale Idrocarburi," the most powerful Italian oil company and, in turn, the top provider of international oil across the world. Though the world market shudders, may we toast to this most glorious collapse of Italian power? \n\nWith all admiration and resolution, \n\nSS-Obergruppenführer Heinrich Müller."
  BRG_wolf.8.a:0 "Only fools and cowards live upon that deserted Peninsula."
 
- BRG_wolf.100.t:0 ""
+ BRG_wolf.100.t:0 "Growing Corruption"
  BRG_wolf.100.desc:0 "For a state such as ours, free from the cowardice and petty "democracy" of years past, corruption should be but a shadow of itself, and yet we seem to be unable to ever cleanse ourselves of it entirely. This has recently been especially true in our Middle Eastern Arab-Majority territories, where there has been a dramatic increase in embezzlement and bribe taking. It seems that nearly every low-level official has been implicated in some way, and several mid-tier beuracrauts as well. Although the highest echelons of our administration appears as surprised by this turn of events as we are, we must act quickly lest our hold over the region be rotted out from within."
- BRG_wolf.100.a:0 ""
+ BRG_wolf.100.a:0 "Start clearing out the rot."
 
- BRG_wolf.101.t:0 ""
+ BRG_wolf.101.t:0 "Terrorist Attack"
  BRG_wolf.101.desc:0 "It seems that there is no end to our troubles in the IME. No matter how many resources we throw at the region, it seems that every month brings some new terrorist attack or urban uprising. This time it was one of the former, a carefully coordinated series of explosions that killed a number of Italian soldiers and administrators, along with a heavy civilian toll. Although many different groups have claimed responsibility, the most likely true culprit is undoubtedly the Turks. In time perhaps we will be able to bring justice to these fools and sabotours, but for the mment the only thing to do is rebuild."
- BRG_wolf.101.a:0 ""
+ BRG_wolf.101.a:0 "Damn the Turks."
 
- BRG_wolf.102.t:0 ""
- BRG_wolf.102.desc:0 "It is rare that we receive good news from the Levantine region, where every day seems to bring news of new troubles among the locals and sabre-rattling from our enemies. However, our troops have recently recieved an enormous shipment of weapons and equipment from allies "sympathetic" to our cause. Although the weapons are unmarked and untraceable, and there is no way to confirm the veracity of this claim, they are also of high quality deep neccesity. Whoever this mysterious benefactor is, we will be greatly indebted to them should the growing tensions in the region boil over into open conflict."
- BRG_wolf.102.a:0 ""
-
- BRG_wolf.103.t:0 ""
- BRG_wolf.103.desc:0 ""
- BRG_wolf.103.a:0 ""
+ BRG_wolf.102.t:0 "Foreign Support"
+ BRG_wolf.102.desc:0 "It is rare that we receive good news from the Levantine region, where every day seems to bring news of new troubles among the locals and sabre-rattling from our enemies. However, our troops have recently received an enormous shipment of weapons and equipment from allies “sympathetic” to our cause. Although the weapons are unmarked and untraceable, and there is no way to confirm the veracity of this claim, they are also of high quality deep necessity. Whoever this mysterious benefactor is, we will be greatly indebted to them should the growing tensions in the region boil over into open conflict."
+ BRG_wolf.102.a:0 "We give our thanks."
 
 
  ### GCW Events ###
