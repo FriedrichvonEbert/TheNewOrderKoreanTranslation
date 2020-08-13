@@ -196,9 +196,9 @@ GDP_billion:0 "[?ROOT.GDP_billion|2]B USD"
 GDP_million:0 "[?ROOT.GDP|2]M USD"
 GDP_thousand:0 "[?ROOT.GDP_thousand|2]k USD"
 
-GDP_billion_topbar:0 "[?ROOT.GDP_billion|2]B"
-GDP_million_topbar:0 "[?ROOT.GDP|2]M"
-GDP_thousand_topbar:0 "[?ROOT.GDP_thousand|2]K"
+GDP_billion_topbar:0 "[?GDP_billion|2]B"
+GDP_million_topbar:0 "[?GDP|2]M"
+GDP_thousand_topbar:0 "[?GDP_thousand|2]K"
 
 total_budget_billion:0 "[?ROOT.total_budget_billion|2]B USD"
 total_budget_million:0 "[?ROOT.total_budget|2]M USD"
@@ -212,9 +212,17 @@ civilian_expenditures_billion:0 "[?ROOT.civilian_expenditures_billion|2]B USD"
 civilian_expenditures_million:0 "[?ROOT.civilian_expenditures|2]M USD"
 civilian_expenditures_thousand:0 "[?ROOT.civilian_expenditures_thousand|2]K USD"
 
+civilian_expenditures_billion_topbar:0 "[?civilian_expenditures_billion|2]B"
+civilian_expenditures_million_topbar:0 "[?civilian_expenditures|2]M"
+civilian_expenditures_thousand_topbar:0 "[?civilian_expenditures_thousand|2]K"
+
 military_expenditures_billion:0 "[?ROOT.military_expenditures_billion|2]B USD"
 military_expenditures_million:0 "[?ROOT.military_expenditures|2]M USD"
 military_expenditures_thousand:0 "[?ROOT.military_expenditures_thousand|2]K USD"
+
+military_expenditures_billion_topbar:0 "[?military_expenditures_billion|2]B"
+military_expenditures_million_topbar:0 "[?military_expenditures|2]M"
+military_expenditures_thousand_topbar:0 "[?military_expenditures_thousand|2]K"
 
 construction_expenditures_billion:0 "[?ROOT.construction_expenditures_billion|2]B USD"
 construction_expenditures_million:0 "[?ROOT.construction_expenditures|2]M USD"
@@ -228,9 +236,9 @@ national_debt_billion:0 "[?ROOT.national_debt_billion|2]B USD"
 national_debt_million:0 "[?ROOT.national_debt|2]M USD"
 national_debt_thousand:0 "[?ROOT.national_debt_thousand|2]K USD"
 
-national_debt_billion_topbar:0 "[?ROOT.national_debt_billion|2]B"
-national_debt_million_topbar:0 "[?ROOT.national_debt|2]M"
-national_debt_thousand_topbar:0 "[?ROOT.national_debt_thousand|2]K"
+national_debt_billion_topbar:0 "[?national_debt_billion|2]B"
+national_debt_million_topbar:0 "[?national_debt|2]M"
+national_debt_thousand_topbar:0 "[?national_debt_thousand|2]K"
 
 deficit_billion:0 "[?ROOT.deficit_billion|2]B USD"
 deficit_million:0 "[?ROOT.deficit|2]M USD"
@@ -248,9 +256,17 @@ misc_costs_billion:0 "[?ROOT.misc_costs_billion|2]B USD"
 misc_costs_million:0 "[?ROOT.misc_costs|2]M USD"
 misc_costs_thousand:0 "[?ROOT.misc_costs_thousand|2]K USD"
 
+misc_costs_billion_topbar:0 "[?misc_costs_billion|2]B"
+misc_costs_million_topbar:0 "[?misc_costs|2]M"
+misc_costs_thousand_topbar:0 "[?misc_costs_thousand|2]K"
+
 misc_income_billion:0 "[?ROOT.misc_income_billion|2]B USD"
 misc_income_million:0 "[?ROOT.misc_income|2]M USD"
 misc_income_thousand:0 "[?ROOT.misc_income_thousand|2]K USD"
+
+misc_income_billion_topbar:0 "[?misc_income_billion|2]B"
+misc_income_million_topbar:0 "[?misc_income|2]M"
+misc_income_thousand_topbar:0 "[?misc_income_thousand|2]K"
 
 annual_debt_payments_billion:0 "§Y[?ROOT.annual_debt_payments_billion|2]B§! USD"
 annual_debt_payments_million:0 "§Y[?ROOT.annual_debt_payments|2]M§! USD"
