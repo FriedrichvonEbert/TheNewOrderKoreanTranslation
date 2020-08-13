@@ -10,29 +10,29 @@ JAP_public_support_dynamic_modifier:0 "대중의 지지"
 JAP_D_house_of_reps:0 "§W중의원§!"
 JAP_D_house_of_peers:0 "§W귀족원§!"
 
-JAP_D_pres_of_house:0 "§WPRESIDENT§!\nof the House:"
+JAP_D_pres_of_house:0 "원내\n§W의장§!:"
 JAP_D_pres_of_house_name:0 "도쿠가와 이에마사"
-JAP_D_support_peers:0 "§MSUPPORT§!\nin the House of Peers:"
+JAP_D_support_peers:0 "귀족원 내\n§M지지도§!:"
 JAP_D_support_peers_var:0 "[getJAPPeersSupport] - [?JAP_Peers_support|Y%1]£GFX_podium_texticon"
-JAP_D_public_approval:0 "§TPUBLIC§!\nApproval:"
+JAP_D_public_approval:0 "§T대중의§!\n호의도:"
 JAP_D_public_approval_var:0 "[getJAPPublicSupport] - [?JAP_Public_support|Y%1]£GFX_approval_texticon"
 
 #Factions
-JAP_D_royalist_faction:0 "§GKIDOITES§!"
+JAP_D_royalist_faction:0 "§G기도 파§!"
 JAP_D_liberals_faction:0 "§YLIBERALS§!"
 JAP_D_independents_faction:0 "§gINDEPENDENTS§!"
-JAP_D_conservatives_faction:0 "§BCONSERVATIVES§!"
-JAP_D_reformists_faction:0 "§rREFORMISTS§!"
+JAP_D_conservatives_faction:0 "§B보수주의자§!"
+JAP_D_reformists_faction:0 "§r개혁주의자S§!"
 
 ##Scripted loc##
 
 #GUI
 
-JAP_GUI_IJA_tt:0 "§O일본 제국 육군의 지지§! ([?JAP_IJA_support|Y]§Y%§!)\n\nSupport from both branches of the Imperial Japanese Armed Forces is important to the §Ggovernment's§! stability and paramount to the Empire's ability to defend itself. Should the §OIJA§! and §BIJN§! not be approximately in equal favor of the §Ggovernment§!, §RParanoia§! will increase."
-JAP_GUI_IJA_title_sl:0 "§OThe Imperial Japanese Army§!"
+JAP_GUI_IJA_tt:0 "§O일본 제국 육군의 지지§! ([?JAP_IJA_support|Y]§Y%§!)\n\n일본 제국군 내 육해군 양 계열의 지지는 §G정부§! 안정도에 중요하며 제국의 방어 능력 그 자체로도 다른 무엇보다 중요합니다. §G정부§!에 대한 §O제국 육군§!과 §B제국 해군§!의 지지도가 거의 비슷하지 않는다면 §R편집증§!이 심해질 것입니다."
+JAP_GUI_IJA_title_sl:0 "§O일본 제국 육군§!"
 
-JAP_GUI_IJN_tt:0 "§B일본 제국 해군의 지지§! ([?JAP_IJN_support|Y]§Y%§!)\n\nSupport from both branches of the Imperial Japanese Armed Forces is important to the §Ggovernment's§! stability and paramount to the Empire's ability to defend itself. Should the §OIJA§! and §BIJN§! not be approximately in equal favor of the §Ggovernment§!, §RParanoia§! will increase."
-JAP_GUI_IJN_title_sl:0 "§BThe Imperial Japanese Navy§!"
+JAP_GUI_IJN_tt:0 "§B일본 제국 해군의 지지§! ([?JAP_IJN_support|Y]§Y%§!)\n\n일본 제국군 내 육해군 양 계열의 지지는 §G정부§! 안정도에 중요하며 제국의 방어 능력 그 자체로도 다른 무엇보다 중요합니다. §G정부§!에 대한 §O제국 육군§!과 §B제국 해군§!의 지지도가 거의 비슷하지 않는다면 §R편집증§!이 심해질 것입니다."
+JAP_GUI_IJN_title_sl:0 "§B일본 제국 해군§!"
 
 JAP_GUI_balance_title_sl:0 "§WNo branch§!"
 JAP_GUI_Tension_tt:0 "§RParanoia§! ([?JAP_Tension|R]§R%§!)\n\n[getJAPDominatingFaction] §Wis currently dominating the military.§!\n\n§RParanoia§! is an abstract measure of the Japanese military's unhingedness and willingness to take actions into their own hands, a possibly §Rextremely dangerous§! problem for the Empire of Japan. The higher §RParanoia§! becomes, the more infighting the military suffers and the lesser the §Ggovernment's§! control over the military becomes." 
@@ -77,8 +77,8 @@ JAP_opposition_action_3:0 "§RLaunch Slander Campaign§!"
 JAP_opposition_action_3_tt:0 "A concerning amount of people, both in the general public and the House of Peers, continue to support our government's adversaries. It is time for them to learn the truth about them, no matter how ugly we claim it is."
 JAP_opposition_action_3_cost:0 "§Y50§!£GFX_political_power_texticon  | §Y50M§!£GFX_dollar_sign"
 
-JAP_ConservativeParty_Ino:0 "Ino"
-JAP_ConservativeParty_Ikeda:0 "Ikeda"
+JAP_ConservativeParty_Ino:0 "이노"
+JAP_ConservativeParty_Ikeda:0 "이케다"
 
 #IJA/IJN/Tension
 
