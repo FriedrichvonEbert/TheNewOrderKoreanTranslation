@@ -1,5 +1,7 @@
 ﻿l_english:
 
+ ENG_ElectionSeason: "Election Season"
+
  TNO_ElectionSeason_NationalTurnout_PercValue_text: "§Y58.5%§!"
 
  TNO_ElectionSeason_NTO_TE_PossibleVoters_text: "Poss. Voters"
@@ -11,12 +13,113 @@
  TNO_ElectionSeason_PartyTurnout_Value_ILP_text: "§Y90.0%§!"
  TNO_ElectionSeason_PartyTurnout_Value_UP_text: "§Y88.6%§!"
 
- TNO_ElectionSeason_SE_Entry_StateName_text: "[v.GetName]"
- TNO_ElectionSeason_SE_Entry_TurnoutValue_text: "[v.highest_in_state]"
+# TNO_ElectionSeason_SE_Entry_StateName_text: "[v.GetName]"
+# TNO_ElectionSeason_SE_Entry_TurnoutValue_text: "[v.highest_in_state]"
 
- TNO_ElectionSeason_StateElections_Entry_FirstPlaceValue_text: "61%"
- TNO_ElectionSeason_StateElections_Entry_SecondPlaceValue_text: "36%"
- TNO_ElectionSeason_StateElections_Entry_ThirdPlaceValue_text: "3%"
+ TNO_ElectionSeason_StateElections_Entry_FirstPlaceValue_text: "§Y[ElectionMech_GetStateFirstPlace]%§!"
+ TNO_ElectionSeason_StateElections_Entry_SecondPlaceValue_text: "§Y[ElectionMech_GetStateSecondPlace]%§!"
+ TNO_ElectionSeason_StateElections_Entry_ThirdPlaceValue_text: "§Y[ElectionMech_GetStateThirdPlace]%§!"
  
- TNO_ElectionSeason_SE_Entry_Obv_CampaignBtn_tt:0 "[!TNO_ElectionSeason_StateElections_Entry_Obverse_CampaignBtn_click]"
- TNO_ElectionSeason_SE_Entry_Rev_CampaignBtn_tt:0 "[!TNO_ElectionSeason_StateElections_Entry_Reverse_CampaignBtn_click]"
+ TNO_ElectionSeason_SE_Entry_Obv_CampaignBtn_tt: "Add 4 §YPopularity§! to our Party's popularity"
+ TNO_ElectionSeason_SE_Entry_Rev_CampaignBtn_tt: "Add 4 §YPopularity§! to our Party's popularity"
+ TNO_ElectionSeason_SE_Entry_CampaignBtn_tt: "Add 4 §YPopularity§! to our Party's popularity"
+
+ TNO_ElectionSeason_SE_Entry_StateName_text: "§Y[ElectionMech_GetStateName]§!"
+ TNO_ElectionSeason_SE_Entry_TurnoutValue_text: "" #Oprhaned
+
+ TNO_ElectionSeason_SE_Entry_PartyIcon_text: "The [ElectionMech_GetDominantParty] is leading the polls in §Y[ElectionMech_GetStateName]§!."
+ TNO_ElectionSeason_SE_Entry_PartyIcon_text_delayed: "The three most popular parties are:\n -The [ElectionMech_GetFirstPlaceParty], with §Y[?ElectionSeason_State_PartyPop^ElectionSeason_State_FirstPlace|0]%§! support.\n -The [ElectionMech_GetSecondPlaceParty], with §Y[?ElectionSeason_State_PartyPop^ElectionSeason_State_SecondPlace|0]%§! support.\n -The [ElectionMech_GetThirdPlaceParty], with §Y[?ElectionSeason_State_PartyPop^ElectionSeason_State_ThirdPlace|0]%§! support."
+
+ TNO_ElectionSeason_SE_PartyName_IND: "§WIndependents§!"
+ TNO_ElectionSeason_SE_PartyName_NDL: "§wNational Democratic League§!"
+ TNO_ElectionSeason_SE_PartyName_SLP: "§RSocialist Labour Party§!"
+ TNO_ElectionSeason_SE_PartyName_MSA: "§jMovement in Support of the Army§!"
+ TNO_ElectionSeason_SE_PartyName_RP: "§PRoyal Party§!"
+ TNO_ElectionSeason_SE_PartyName_UE: "§BUnited England§!"
+ TNO_ElectionSeason_SE_PartyName_NF: "§ONational Front§!"
+ TNO_ElectionSeason_SE_PartyName_ILP_short: "§RIndependent Labour Party§!"
+ TNO_ElectionSeason_SE_PartyName_SNP_short: "§MScottish National Party§!"
+ TNO_ElectionSeason_SE_PartyName_UP_short: "§BUnionist Party§!"
+ TNO_ElectionSeason_SE_PartyName_PLD_short: "§GPlaid Cymru§!"
+ TNO_ElectionSeason_SE_PartyName_GOC_short: "§RCymru Goch§!"
+
+ TNO_ElectionSeason_SE_PartyName_IND_short: "§WINS§!"
+ TNO_ElectionSeason_SE_PartyName_NDL_short: "§wNDL§!"
+ TNO_ElectionSeason_SE_PartyName_SLP_short: "§RSLP§!"
+ TNO_ElectionSeason_SE_PartyName_MSA_short: "§jMSA§!"
+ TNO_ElectionSeason_SE_PartyName_RP_short: "§PRP§!"
+ TNO_ElectionSeason_SE_PartyName_UE_short: "§BUE§!"
+ TNO_ElectionSeason_SE_PartyName_NF_short: "§ONF§!"
+ TNO_ElectionSeason_SE_PartyName_ILP_short: "§RILP§!"
+ TNO_ElectionSeason_SE_PartyName_SNP_short: "§MSNP§!"
+ TNO_ElectionSeason_SE_PartyName_UP_short: "§BUP§!"
+ TNO_ElectionSeason_SE_PartyName_PLD_short: "§GPlaid§!"
+ TNO_ElectionSeason_SE_PartyName_GOC_short: "§RGoch§!"
+
+ TNO_ElectionSeason_SE_PartyName_NDL_W: "£NDL_NewWhigs_texticon. §YNDL (New Whigs)§!"
+ TNO_ElectionSeason_SE_PartyName_NDL_D: "£NDL_Democrats_texticon. §wNDL (Democrats)§!"
+ TNO_ElectionSeason_SE_PartyName_NDL_P: "£NDL_Patriots_texticon. §ONDL (Patriots)§!"
+ TNO_ElectionSeason_SE_PartyName_SLP_W: "£SLP_Progress_texticon. §RSLP (Progress)§!"
+ TNO_ElectionSeason_SE_PartyName_SLP_B: "£SLP_Pollitites_texticon. §eSLP (Pollitites)§!"
+ TNO_ElectionSeason_SE_PartyName_MSA_2: "£MSA_texticon. §jMSA§!"
+ TNO_ElectionSeason_SE_PartyName_RP_M: "£RP_Reformists_texticon. §PRP (Moderates)§!"
+ TNO_ElectionSeason_SE_PartyName_RP_R: "£RP_Moderates_texticon. §PRP (Reformists)§!"
+ TNO_ElectionSeason_SE_PartyName_RP_H: "£RP_Hardliners_texticon. §PRP (Hardliners)§!"
+ TNO_ElectionSeason_SE_PartyName_RP_T: "£RP_Thatcherites_texticon. §PRP§!"
+ TNO_ElectionSeason_SE_PartyName_UE_M: "£UE_MacMillanists_texticon. §BUE (Macmillanists)§!"
+ TNO_ElectionSeason_SE_PartyName_UE_L: "£UE_Liberals_texticon. §MUE (Liberals)§!"
+ TNO_ElectionSeason_SE_PartyName_NF_2: "£NF_texticon. §ONF§!"
+
+ ENG_ES_ElectionTimer: "Days until the election"
+ ENG_ES_Campaigning: "[ElectionMech_GetCampaigningParty] Campaigning in §Y[TNO_Britain_ElectionSeason_CampaignState.GetName]§!"
+ ENG_ES_Campaigning_desc: "Posters pasted upon every partition, speeches spouted in every square, and rallies roused in every region; the [ElectionMech_GetCampaigningParty] have truly come to [TNO_Britain_ElectionSeason_CampaignState.GetName]. With Election Season in full swing, the [ElectionMech_GetCampaigningParty] have been campaigning heavily within [TNO_Britain_ElectionSeason_CampaignState.GetName], hoping to both cement their support and steal the voters of their rivals. If they can win the hearts, minds, and votes of the electorate in [TNO_Britain_ElectionSeason_CampaignState.GetName], it could be what is required for the [ElectionMech_GetCampaigningParty] to win the election..."
+ ENG_ES_AI_Campaigning_A: "[ElectionMech_GetAICampaigningParty_A] Campaigning in §Y[TNO_Britain_ElectionSeason_AI_CampaignState_A.GetName]§!"
+ ENG_ES_AI_Campaigning_A_desc: "Posters pasted upon every partition, speeches spouted in every square, and rallies roused in every region; the [ElectionMech_GetAICampaigningParty_A] have truly come to [TNO_Britain_ElectionSeason_AI_CampaignState_A.GetName]. With Election Season in full swing, the [ElectionMech_GetAICampaigningParty_A] have been campaigning heavily within [TNO_Britain_ElectionSeason_AI_CampaignState_A.GetName], hoping to both cement their support and steal the voters of their rivals. If they can win the hearts, minds, and votes of the electorate in [TNO_Britain_ElectionSeason_AI_CampaignState_A.GetName], it could be what is required for the [ElectionMech_GetAICampaigningParty_A] to win the election..."
+ ENG_ES_AI_Campaigning_B: "[ElectionMech_GetAICampaigningParty_B] Campaigning in §Y[TNO_Britain_ElectionSeason_AI_CampaignState_B.GetName]§!"
+ ENG_ES_AI_Campaigning_B_desc: "Posters pasted upon every partition, speeches spouted in every square, and rallies roused in every region; the [ElectionMech_GetAICampaigningParty_B] have truly come to [TNO_Britain_ElectionSeason_AI_CampaignState_B.GetName]. With Election Season in full swing, the [ElectionMech_GetAICampaigningParty_B] have been campaigning heavily within [TNO_Britain_ElectionSeason_AI_CampaignState_B.GetName], hoping to both cement their support and steal the voters of their rivals. If they can win the hearts, minds, and votes of the electorate in [TNO_Britain_ElectionSeason_AI_CampaignState_B.GetName], it could be what is required for the [ElectionMech_GetAICampaigningParty_B] to win the election..."
+ ENG_ES_ElectionDebug: "§YDEBUG§! - Unlimited Campaigning Toggle"
+
+ TNO_Britain_ElectionSeason_Active_tt: "The §YElection Season§! has concluded."
+
+## Election
+ ENG_ElectionSeason.1.t: "An Englishperson's Duty"
+ ENG_ElectionSeason.1.desc: "The time has come. The candidates have been chosen for every party in every seat around the country. The parties have chosen their next Prime Ministers they hope will occupy 10 Downing Street. And now comes the short yet chaotic tradition of English parliament, rare yet so consequential for the future of the nation. It's time for the elections.\n\nThe National Democratic League and Socialist Labour Party are the two major political organizations in this election. The NDL, headed up by George Jellicoe and backed up by Claude Auchinleck, stands for the restoration of traditional prewar England, but with the necessary reforms to keep it relevant in the modern age, and to make it respected once again on the world stage. The SLP, headed up by Harold Wilson and endorsed by Bill Alexander, is taking a more radical approach. England will finally cast off the chains that held the workers down, and will move toward a more equitable future, free of poverty, and with the rest of the worldwide proletariat.\n\nThere is also David Stirling's organization, but many observers regard it as an extremist minor party. The choice will come down to Jellicoe's promises of a past glory restored, or Wilson's promises of a future glory to be claimed."
+ ENG_ElectionSeason.1.o_ndl: "For Queen and country, the NDL!"
+ ENG_ElectionSeason.1.o_slp: "Vote SLP and win the peace!"
+ ENG_ElectionSeason.1.o_dbg: ""
+
+ ENG_ElectionSeason.2.t: "NDL - Wing"
+ ENG_ElectionSeason.2.desc: ""
+ ENG_ElectionSeason.2.o_ndl_newwhigs: "New Whigs"
+ ENG_ElectionSeason.2.o_ndl_democrats: "Democrats"
+ ENG_ElectionSeason.2.o_ndl_patriots: "Patriots"
+
+ ENG_ElectionSeason.3.t: "SLP - Wing"
+ ENG_ElectionSeason.3.desc: ""
+ ENG_ElectionSeason.3.o_slp_progress: "Progress"
+ ENG_ElectionSeason.3.o_slp_pollitites: "Politilites"
+
+ ENG_ElectionSeason.4.t: "The Decision Of a Free People"
+ ENG_ElectionSeason.4.desc: "Months of advertisements, speeches, and rallies. Debates, arguments, and insults. Shouting and heated discussion. And now, it all comes down to this. The choice of the people of England.\n\nBoth parties have been battling hard to ensure their victory at the polls. Could they have done more? Could some missteps have been avoided? Could this campaign have been conducted more positively? Perhaps. But both campaigns have done whatever they could to ensure victory in the coming elections. Nothing less than the very future of the country is at stake.\n\nAfter their ballots are cast, the people of England scurry home to turn on their televisions and radios to see who the winner is. Many have predictions, many have biases and hopes. Others have polls and samples behind their thinking. But there is only one way to know for sure what has happened. And that is to count the votes."
+ ENG_ElectionSeason.4.a: "The National Democratic League wins the elections!"
+ ENG_ElectionSeason.4.b: "The Socialist Labour Party wins the elections!"
+ ENG_ElectionSeason.4.c: "The Movement in Support of the Army wins the elections!"
+
+ ENG_ElectionSeason.5.t: "Election Season"
+ ENG_ElectionSeason.5.desc: "Whether we wanted it or not, the 'Royal Divorce' has forced us to pick sides in the upcoming election. No matter what Prime Minister Home may have planned, we must make a decision. Shall we be campaigning with Macmillan, to bring forward the change our country so desperately needs? Or shall we work with Thatcher, that our country may stabilise and start to rebuild?"
+ ENG_ElectionSeason.5.o_ue: "Change England for the better, vote for United England!"
+ ENG_ElectionSeason.5.o_rp: "Stabilise the country, vote for the Royal Party!"
+ ENG_ElectionSeason.5.o_nf: ""
+ ENG_ElectionSeason.5.o_dbg: ""
+
+ ENG_ElectionSeason.6.t: "United England Convention"
+ ENG_ElectionSeason.6.desc: ""
+ ENG_ElectionSeason.6.o_ue_macmillanists: "Macmillanists"
+ ENG_ElectionSeason.6.o_ue_liberals: "Liberals"
+
+ ENG_ElectionSeason.7.t: "The Choice of Direction"
+ ENG_ElectionSeason.7.desc: "Nobody said both campaigns hadn't tried their hardest. Every possible deal they could  make was made. All the support they could purchase had been obtained. And every path they could take had been taken. Now, this was the night it all paid off.\n\nElections had typically been private, quiet affairs in Egland, where the outcome had never been in doubt. But this time, things were different. The victor was not known by the electorate, or the MPs themselves. All they could do was sit down and watch the ballots come in. And see who got the support from whom.\n\nThere were surprises and betrayals, along with expected trends and loyal support. But as the night went on, it added up in one direction. And England knew who would win this contested election, and have massive influence over the nation."
+ ENG_ElectionSeason.7.a: "The Royal Party wins the elections!"
+ ENG_ElectionSeason.7.b: "United England wins the elections!"
+ ENG_ElectionSeason.7.c: "The National Front wins the elections!"
+#### Collab Elections ####
