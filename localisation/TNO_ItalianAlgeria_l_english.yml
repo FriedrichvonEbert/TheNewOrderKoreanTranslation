@@ -33,18 +33,18 @@
  ILG_national_socialism_ADJ:0 "이탈리아령 알제리"
 
  #Parties
- ILG_authoritarian_democrat_party:0 "PNF-A"
- ILG_authoritarian_democrat_party_long:0 "Partito Nazionale Fascista - Algeria"
+ ILG_authoritarian_democrat_party:0 "Delease-A"
+ ILG_authoritarian_democrat_party_long:0 "Delegazione Africa Settentrionale - Algeria"
  ILG_despotism_party:0 "Tribal Rulers"
  ILG_despotism_party_long:0 "Tribal Rulers"
- ILG_fascism_party:0 "PNF-A"
- ILG_fascism_party_long:0 "Partito Nazionale Fascista - Algeria"
- ILG_national_socialism_party:0 "PNF-A"
- ILG_national_socialism_party_long:0 "Partito Nazionale Fascista - Algeria"
+ ILG_fascism_party:0 "Delease"
+ ILG_fascism_party_long:0 "Delegazione Africa Settentrionale - Algeria"
+ ILG_national_socialism_party:0 "Delease"
+ ILG_national_socialism_party_long:0 "Delegazione Africa Settentrionale - Algeria"
 
  #Provisional Government Parties
- ILG_fascism_party_provgov:0 "PNF-A/UA"
- ILG_fascism_party_provgov_long:0 "PNF-A/UA"
+ ILG_fascism_party_provgov:0 "GMA"
+ ILG_fascism_party_provgov_long:0 "Governo Militare dell'Algeria"
 
  ILG_authoritarian_democrat_party_provgov:0 "UDMA"
  ILG_authoritarian_democrat_party_provgov_long:0 "Union Démocratique du Manifeste Algérien"
@@ -56,15 +56,26 @@
  ILG_Unofficial_Italian_Settlement:0 "Unofficial Italian Settlement"
  ILG_Unofficial_Italian_Settlement_desc:0 "Due to the fact that the territory is ripe for settlement, many poor Italians have immigrated in the hopes of acquiring land. Needless to say, mass immigration of Italians will only compound our miseries due to our weak hold over the area."
 
- ILG_Saharan_Bandits:0 "Rampant Banditry"
- ILG_Saharan_Bandits_desc:0 "A limited military presence and a lack of manpower means that bandits constantly raid our convoys and loot settlements. However, it is at a boiling point, as destitute natives flock to their ranks in the hope of emerging out of poverty, thus making Italian control even more difficult to maintain."
+ ILG_Saharan_Bandits_Bad:0 "Rampant Banditry"
+ ILG_Saharan_Bandits_Bad_desc:0 "A limited military presence and a lack of manpower means that bandits constantly raid our convoys and loot settlements. However, it is at a boiling point, as destitute natives flock to their ranks in the hope of emerging out of poverty, thus making Italian control even more difficult to maintain."
 
- #Later Ideas (pre-war)
+ ILG_Saharan_Bandits_Crisis:0 "Rampant Banditry"
+ ILG_Saharan_Bandits_Crisis_desc:0 "A limited military presence and a lack of manpower means that bandits constantly raid our convoys and loot settlements. However, it is at a boiling point, as destitute natives flock to their ranks in the hope of emerging out of poverty, thus making Italian control even more difficult to maintain."
+
+ ILG_Saharan_Bandits_Prevalent:0 "Rampant Banditry"
+ ILG_Saharan_Bandits_Prevalent_desc:0 "A limited military presence and a lack of manpower means that bandits constantly raid our convoys and loot settlements. However, it is at a boiling point, as destitute natives flock to their ranks in the hope of emerging out of poverty, thus making Italian control even more difficult to maintain."
+
+ ILG_Saharan_Bandits_Problematic:0 "Banditry Curbed"
+ ILG_Saharan_Bandits_Problematic_desc:0 "While our military presence in most parts of Algeria is still limited, we have been able to reduce the scope of criminal operations."
+
+ ILG_Saharan_Bandits_Weakened:0 "Banditry Curbed"
+ ILG_Saharan_Bandits_Weakened_desc:0 "While our military presence in most parts of Algeria is still limited, we have been able to reduce the scope of criminal operations."
+
+ ILG_Saharan_Bandits:0 "Banditry Eliminated"
+ ILG_Saharan_Bandits_desc:0 "Banditry has been eradicated from the Saharan provinces of Algeria. While Iberian saboteurs and terrorists still make their raids in the border regions, at least we are able to prevent them from wreaking havoc upon our outposts, convoys, and villages."
+
  ILG_Military_Boost_1:0 "Basic Desert Training"
  ILG_Military_Boost_1_desc:0 "With some reforms, and some training, our men will be able to fight and govern the sands of Algeria."
-
- ILG_Saharan_Bandits_Bad:0 "Intensified Banditry"
- ILG_Saharan_Bandits_Bad_desc:0 "With the failed assault, the bandits have taken our weapons and engaged in guerilla warfare against our regime. There is no cleansing Algeria now."
 
  ILG_Provisional_Government:0 "Provisional Government of Algeria"
  ILG_Provisional_Government_desc:0 "With this step forward, we state the right of the peoples of Algeria to form a state, even if the land is nominally French. However, with a bureaucracy and functioning system, Algeria will prosper!"
@@ -109,6 +120,8 @@
  ILG_hunt_them_down:0 "Hunt Them Down"
  ILG_hunt_them_down_desc:0 ""
  ILG_hunt_them_down_tt:0 "§xWe must destroy the bandits!§!"
+
+ ILG_bandit_status_tt:0 "§YTaking these decisions will help §Gsolve§! our bandit problem!§!"
 
  #Government
 
@@ -190,6 +203,7 @@
  ilg.9.t:0 "Bona Dispatch 1962.6"
  ilg.9.d:0 "loc needed"
  ilg.9.a:0 "Dispatch received. Cavalry granted."
+ ilg.9.b:0 "Dispatch received. Reinforcements granted."
 
  ilg.10.t:0 "Bona Dispatch 1962.7"
  ilg.10.d:0 "loc needed"
@@ -246,14 +260,15 @@
  ilg_gov.1.b:0 "The radical, Said Boualam"
 
  #Decisions
- ILG_Banditry_Decisions:0 "Combat Banditry"
- ILG_Banditry_Decisions_desc:0 "loc here"
+ ILG_Banditry_Decisions:0 "The Battle Against Banditry"
+ ILG_Banditry_Decisions_desc:0 "We will crush these insidious parasites to our south harrassing Italian convoys and outposts! It is critical we solve this crisis in light of border tensions with our Iberian neighbor."
 
- ILG_Aerial_Patrols:0 "Aerial Patrols"
- ILG_Aerial_Patrols_desc:0 ""
-
- ILG_Infantry_Patrols:0 "Infantry Patrols"
- ILG_Infantry_Patrols_desc:0 ""
+ ILG_Destroy_Djanet_Bandits:0 "Destroy Bandits in Djanet"
+ ILG_Destroy_Tamanrasset_Bandits:0 "Destroy Bandits in Tamanrasset"
+ ILG_Destroy_Reggane_Bandits:0 "Destroy Bandits in Reggane"
+ ILG_Destroy_Chenachane_Bandits:0 "Destroy Bandits in Chenachane"
+ ILG_Destroy_Illizi_Bandits:0 "Destroy Bandits in Illizi"
+ ILG_Destroy_Adrar_Bandits:0 "Destroy Bandits in Adrar"
 
  #Ministers
  ILG_Giuseppe_Castellano_dep:0 "Giuseppe Castellano"
@@ -269,7 +284,9 @@
 # ILG_Enrico_Braggiotti_eco:0 "Enrico Braggiotti" #duplicate loc key
 # ILG_Luciano_Mascia_for:0 "Luciano Mascia" #duplicate loc key
 # ILG_Fernando_Tanucci_Nannini_sec:0 "Fernando Tanucci Nannini" #duplicate loc key
+
  #Country Flags
  ILG_bandit_situation_addressed:0 "The bandit situation has been addressed..."
-#Leader Description
-POLITICS_GIUSEPPE_CASTELLANO_DESC:0 "General Giuseppe Castellano is perhaps one of the most common topics of gossip among the upper circles of the Regio Esercito. A veteran of two world wars, he served with distinction in the Balkans during the last World War, before rising up the ranks of the Italian high command. Castellano's ambition reached high, but destiny had other plans - a few years after the end of the war, the new Duce, Galeazzo Ciano, entrusted Castellano with watching over the lawless Algerian frontier.\n\nCastellano has been the head of the Algerian Military Territory for a few years now, but his leadership was not very much effective in amending the situation in the region. Italian settlers, mostly from Sicily and often tied to old mafia families, were enticed by Algeria, as the region was perceived to be far from the watching eye of the authorities in Rome. Settlers' enclaves now dot the Algerian landscape, and many rumors circulate about the true extent of Castellano's relationships with the mafia; and the instability is only further fueled by Rome's decision to support native Algerian militias, such as the Front de Libération Nationale, in their armed struggle against encroaching Iberian authorities and their Pied Noirs allies.\n\nThe Governor General, stranded in Algeria and given very little resources to actually do his job, was largely forced to sit and watched as the situation further slipped away from his grasp. However, with renewed tensions arising in the Triumvirate, soon Algeria and Castellano might find themselves in the spotlight once more. Once that happens, perhaps Castellano will have his chance to redeem himself in the eyes of Italy - from a general ruling over a backwater corner of the Empire through shady deals and backroom negotiations, to a hero of the nation who saved its frontiers from the many enemies who would threaten it." 
+
+ #Leader Description
+ POLITICS_GIUSEPPE_CASTELLANO_DESC:0 "General Giuseppe Castellano is perhaps one of the most common topics of gossip among the upper circles of the Regio Esercito. A veteran of two world wars, he served with distinction in the Balkans during the last World War, before rising up the ranks of the Italian high command. Castellano's ambition reached high, but destiny had other plans - a few years after the end of the war, the new Duce, Galeazzo Ciano, entrusted Castellano with watching over the lawless Algerian frontier.\n\nCastellano has been the head of the Algerian Military Territory for a few years now, but his leadership was not very much effective in amending the situation in the region. Italian settlers, mostly from Sicily and often tied to old mafia families, were enticed by Algeria, as the region was perceived to be far from the watching eye of the authorities in Rome. Settlers' enclaves now dot the Algerian landscape, and many rumors circulate about the true extent of Castellano's relationships with the mafia; and the instability is only further fueled by Rome's decision to support native Algerian militias, such as the Front de Libération Nationale, in their armed struggle against encroaching Iberian authorities and their Pied Noirs allies.\n\nThe Governor General, stranded in Algeria and given very little resources to actually do his job, was largely forced to sit and watched as the situation further slipped away from his grasp. However, with renewed tensions arising in the Triumvirate, soon Algeria and Castellano might find themselves in the spotlight once more. Once that happens, perhaps Castellano will have his chance to redeem himself in the eyes of Italy - from a general ruling over a backwater corner of the Empire through shady deals and backroom negotiations, to a hero of the nation who saved its frontiers from the many enemies who would threaten it."  
