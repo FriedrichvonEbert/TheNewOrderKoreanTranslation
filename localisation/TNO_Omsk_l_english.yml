@@ -40,7 +40,7 @@
  POLITICS_VIKTOR_GRIGORIEV_DESC:0 "빅토르 안토노비치 그리고리예프는 다양한 성격의 소유자입니다: 용감하고, 대담하며, 확실하게도 기회주의자 입니다. 그가 그의 고향을 떠나서 붉은 군대의 부름을 듣고 들어왔을때, 그는 죽기살기로 싸웠으며, 동상에 걸린채로 전투를 치뤘으며 남아있는 적 탱크를 스스로 들이받기까지 했습니다. 그에게 남은 유일한 논리적 옵션은 흑색연합의 군대에 들어가 가망없는 싸움을 하는 거였지만, 그는 특별히 연합의 대의에 헌신하지 않았습니다.\n\n그리고리예프는 똑똑하게도 하급장교 치고는 세 서시베리아의 군벌들의 싸움에서 살아남았습니다. 죽음의 상인과의 전투 전까지는 말이죠. 그는 첫번째로 가라앉는 배를 버리고 적의 편에 섰습니다.\n\n그는 고향으로 돌아와서 굴욕을 당했지만, 그가 옴스크의 시장이자 군벌에 임명되는 데에는 걱정을 끼치지는 않았습니다. 그리고리예프는 아마도 우랄에 있는 정부의 꼭두각시일지는 몰라도 그는 말하길, 그가 계속 통제를 하고 있으면, 모든 것이 괞찮다고 말합니다."
 
  ### Leader Traits ###
- the_caged_general:0 "새장에 같힌 장군"
+ the_caged_general:0 "새장에 갇힌 장군"
  
  ### Ministers ###
  OMS_Dmitry_Yazov_hog:0 "Dmitry Yazov"
@@ -226,24 +226,24 @@
 
  ### Cosmetic Tags ###
  OMS_POTEMKIN_despotism:0 "서시베리아 임시정부"
- OMS_POTEMKIN_despotism_def:0 "서시베리아 임시정부"
- OMS_POTEMKIN_despotism_adj:0 "서시베리아"
+ OMS_POTEMKIN_despotism_DEF:0 "서시베리아 임시정부"
+ OMS_POTEMKIN_despotism_ADJ:0 "서시베리아"
 
  OMS_POTEMKIN_ultranational_socialism:0 "서시베리아 임시정부"
- OMS_POTEMKIN_ultranational_socialism_def:0 "서시베리아 임시정부"
- OMS_POTEMKIN_ultranational_socialism_adj:0 "서시베리아"
+ OMS_POTEMKIN_ultranational_socialism_DEF:0 "서시베리아 임시정부"
+ OMS_POTEMKIN_ultranational_socialism_ADJ:0 "서시베리아"
 
  TOB_OMSK_COLLAPSE_authoritarian_democrat:0 "러시아 국가 재건 위원회"
- TOB_OMSK_COLLAPSE_authoritarian_democrat_def:0 "러시아 국가 재건 위원회"
- TOB_OMSK_COLLAPSE_authoritarian_democrat_adj:0 "서시베리아"
+ TOB_OMSK_COLLAPSE_authoritarian_democrat_DEF:0 "러시아 국가 재건 위원회"
+ TOB_OMSK_COLLAPSE_authoritarian_democrat_ADJ:0 "서시베리아"
 
  OMS_OMS_COLLAPSE_ultranational_socialism:0 "옴스크"
- OMS_OMS_COLLAPSE_ultranational_socialism_def:0 "시베리아 흑색연합"
- OMS_OMS_COLLAPSE_ultranational_socialism_adj:0 "옴스크"
+ OMS_OMS_COLLAPSE_ultranational_socialism_DEF:0 "시베리아 흑색연합"
+ OMS_OMS_COLLAPSE_ultranational_socialism_ADJ:0 "옴스크"
 
  VOR_OMS_COLLAPSE_ultranational_socialism:0 "보르쿠타 임시 정부"
- VOR_OMS_COLLAPSE_ultranational_socialism_def:0 "보르쿠타 임시 정부"
- VOR_OMS_COLLAPSE_ultranational_socialism_adj:0 "보르쿠타"
+ VOR_OMS_COLLAPSE_ultranational_socialism_DEF:0 "보르쿠타 임시 정부"
+ VOR_OMS_COLLAPSE_ultranational_socialism_ADJ:0 "보르쿠타"
 
  #############################
  ##=====| Focus Trees |=====##
@@ -1027,6 +1027,10 @@
  omskexp.15.desc:0 "Not so long ago, Comrade Karbyshev's dream seemed an aspiration Yazov could never fulfil. In the wake of the old general's death, fate itself had conspired against his successor. A conspiracy of traitors sought to usurp him; Bolsheviks, merchants and criminals defied his mandate; partisans still plagued the rightful government.\n\nBut none of these things were a hindrance to the determined. In Yazov, the Black League had its Menelaus: a relentless pursuer of vengeance, possessed of an iron will and willing to pay any price for the salvation of that which he loved the most.\n\nHowever, Yazov knew in his heart that his mission - to fulfil the sacred destiny of Russia - would never get any easier. There was always another false claimant to the epithet of 'legitimate government'. It was in the nature of the League to never be understood by lesser men. Even come the Great Trial, Russia would still be crawling with turncoats and faint-hearted pacifists who refused to see the purity and valor of his hate. There was only one answer: an iron boot, perpetually grinding them into the dirt while its wearer conducted the symphony of war.\n\nFor today Yazov had his triumph, but tomorrow? Tomorrow would come the days of blood. No matter how many gallons he had to spill, Russia would pay the price for its future."
  omskexp.15.a:0 "끝날것이다. 언젠가는."
 
+ omskexp.17.t:0 "A Sanitation Exercise"
+ omskexp.17.desc:0 "Internal Security Directorate Report, STATUS: TRAITOR SON\nNote: All personnel of Class 5C and below are FORBIDDEN to access below information - DISOBEDIENCE IS DEATH!\n\nSummary: Liquidation of Dissident Political Elements, former titles "Lazar Kaganovich", "Nikita Khruschev", "Vyacheslav Molotov", "Mikhail Kaganovich" - Wave 1 complete with minimal losses of time and manpower. \n\nAbstract: Political Element Kaganovich reported to the podium at 0715 hours, 5 minutes ahead of schedule. Formal trial proceedings documented in full within Report Addendum A1, for access of Class 7A personnel and above only. Element was permitted brief speech acting in his own defense. Charges of Political Interference approved with no objections.\n\nTranscript of Speech as follows: "Damn you, damn you all - I know you're in there somewhere, Yazov! How - why - I saw what you were doing, what you did, to the city my people built. I saw the vans, I saw my people march into prisons and never come out. What monster would do this, to set jackals on his people?" (Element was taken into custody after being rendered incapable of speaking)\n\nActing Judge (REDACTED) approved Extraordinary Recess following speech, recognized possible mental stress of Element Kaganovich as reason for his hypocritical statements, and agreed to grant clemency to Political Elements thereafter. All Wave 1 candidates were barred from speaking to prevent themselves from further embarrassments, and conviction and sentencing proceeded ahead of schedule."
+ omskexp.17.a:0 "Median timing to liquidation: 5.35 minutes."
+
  #Batov insurgency events
  omskbatov.1.t:0 "반란"
  omskbatov.1.d:0 "Reports continue to come in of attacks by men of a rogue militant group led by the heinous former Sverdlovsk military junta leader Pavel Batov, as forces reportedly loyal to him have spontaneously led uprisings in several key cities against our rightful government. In Sverdlovsk and Tyumen, these rebels have succeeded in forcing out our local garrisons and now have proclaimed the Russian National Salvation Commission from their headquarters in Sverdlovsk.\n\nWe have succeeded in identifying several key characters of the rebellion, among them Karbyshev's daughter, Yelena Karbysheva, a great betrayal. Ivan Bagramyan, a prominent figure in subjugated Sverdlovsk, has reportedly joined the rebels along with Ernest Voznesensky from Tyumen and Hamazasp Babadzhdanian of Sverdlovsk. All evidence points towards these individuals working together in planning this.\n\nPavel Batov is known for his skill in military organization and strategy, which explains the dangerous success of his movement in such a short time. His ability to manage Sverdlovsk for as long as he did is a testament to such abilities, and we believe that without this competent "head" the rebellion is doomed to fail, making him a key target. The traitor Yelena Karbysheva acts as the head of inter-state affairs and is already reaching out to our rivals for support, and her close personal history with our former leader makes her especially dangerous as well. Ivan Bagramyan and Hamazasp Babadzhdanian are both former Soviet generals who served in the First Trial but now find themselves opposing us.\n\nWe must act quickly to ensure the early death of the rebellion! While they are weaker than us now, they have the advantage of fighting on ground where the foolish population supports them, and unless we move to wipe them out who knows how strong they will grow..."
@@ -1071,6 +1075,14 @@
  omskbatov.11.t:0 "작전명: 귀향"
  omskbatov.11.d:0 "It has long been suspected that Pavel Batov, the treacherous leader of the insurgency plaguing the League, has hidden somewhere on the outskirts of Sverdlovsk. The city was the former headquarters of the military clique that Batov belonged to, and even after it was reclaimed by the League it remained a hotspot of terrorism and sabotage. The local garrison has struggled to pacify the region around the city and recently reported there was a serious risk of being forced to abandon their positions in the face of escalating attacks if they were not reinforced. In response, a full division was ordered to the city to destroy the rebellion once and for all. Word of their impending arrival reached the city before they did, and the local rebels launched a full rebellion. By the time the division arrived the city had devolved into a war zone and the local garrison was besieged inside city hall and their fortified barracks.\n\nWith no possibility of a sudden citywide sweep that would catch the rebels off guard, the division commander adopted a new strategy. Combat squads entered the city ready to clear it house by house. Intense street fighting quickly enveloped Sverdlovsk, but the uprising had been hastily organized and began abruptly before the rebels were organized. They were no match for the disciplined forces of the Black League and by the end of the first day most of the garrison had been relieved and the city center was secure. It took several more days before the outskirts were recaptured, but by that time most of the partisans were on the run, their loyalty to their officers vanishing as soon as they realized they were losing. No sign was found of Batov, though a hidden command post that he may have stayed in was uncovered. The city suffered significant damage during the fighting, but with the rebels forced out restoring order should be an easier task than before."
  omskbatov.11.a:0 "The only way to guarantee obedience is with fear."
+
+ omskbatov.12.t:0 "A Lost Connection"
+ omskbatov.12.d:0 "Yazov watched the march-past as all commanders were expected to do; with all the efficiency of a gear turning against another the contingents, row by row, filed past him. He'd long since grown weary of these formalities: with every contingent that saluted him came another fifty to sixty men who weren't on duty against the Menace. Another company lost to the pointlessness of display, of an indulgence so polished it almost escaped notice.\n\nThe messenger hesitated by his ear, and Yazov started. Calming himself, he snapped: "What is it? Be quick, I'm on duty."\n\n"The daughter of Karbyshev has been found." Yazov's face froze. He whispered to his fellow general and bounded away from the procession. "Where has she been found? I must know." She was the daughter of his mentor; she was owed that much, one last kindness for the man he'd never said goodbye to. But how to tell her about her father? That he'd wandered off into the forest like an old boar looking for one last fight? Oh, his head spun so - but there was so much to do -\n\nA cold certainty began to slip into his gaze, and puzzle pieces fell together in his mind. "You didn't find her. You found her handiwork." The messenger looked away, his fists clenched white. "We have credible information she's working with Batov. A People's Popular - something."\n\nSomething died in Yazov's eyes. She'd turned into a disappointment. Saying nothing, he stalked back to his procession. At least there was one thing worth celebrating."
+ omskbatov.12.a:0 "Her father never lived to witness her disgrace."
+
+ omskbatov.13.t:0 "A Sense of Closure, Or..."
+ omskbatov.13.d:0 "Yazov stared at the dossier. It was thin, as were all files belonging to enemies of the Black League: the Black Hand knew the bare minimum necessary for strategic action, or they had already brought an abrupt end to their careers. In any case, there was little need to maintain extended correspondence. Most of the time the dossiers were also anonymous - why pretend these people mattered in more than purely operational capacities?\n\nNot this folder, however. This one was earmarked by Yazov himself, and in the days since he'd authorised offensive action against its subject he'd come again and again to its pages. How could he not? The dossier belonged to the daughter of his greatest influence, his second father - his enemy, and now an anonymous corpse officially buried in an anonymous grave.\n\nHe flicked open the pages, poring over the details; where had it gone wrong? Surely there had been some imagined slight, some magnified transgression that swallowed them both, broke father from child - there had to be. What had happened to them? If things had gone differently, would Karbysheva now be standing in Yazov's place, fighting for the Iron Dream of Russia born anew?\n\nAnd how best to honor a daughter who had died fighting her father's greatest dream? Yazov had never found the answer to that satisfactory. So he had come up with his own - as he grasped the pages of the dossier, he prayed that he'd done the right thing.\n\nThat night, the Government of Omsk announced a planned renewal of the Founder's Memorial, in the City Centre; repairs took a day to complete. If a coffin, with a dossier placed atop it, made its way to the Memorial, no one took notice - and if it did not emerge come the morning, when the Memorial was resealed, there was nary a peep."
+ omskbatov.13.a:0 "I do this for you, General."
 
  #Regional events
  omskreg.1.t:0 "성공할 확률"
