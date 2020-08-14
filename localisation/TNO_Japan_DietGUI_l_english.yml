@@ -35,7 +35,7 @@ JAP_GUI_IJN_tt:0 "§B일본 제국 해군의 지지§! ([?JAP_IJN_support|Y]§Y%
 JAP_GUI_IJN_title_sl:0 "§B일본 제국 해군§!"
 
 JAP_GUI_balance_title_sl:0 "§WNo branch§!"
-JAP_GUI_Tension_tt:0 "§RParanoia§! ([?JAP_Tension|R]§R%§!)\n\n[getJAPDominatingFaction] §Wis currently dominating the military.§!\n\n§RParanoia§! is an abstract measure of the Japanese military's unhingedness and willingness to take actions into their own hands, a possibly §Rextremely dangerous§! problem for the Empire of Japan. The higher §RParanoia§! becomes, the more infighting the military suffers and the lesser the §Ggovernment's§! control over the military becomes." 
+JAP_GUI_Tension_tt:0 "§R편집증도§! ([?JAP_Tension|R]§R%§!)\n\n[getJAPDominatingFaction] §W가 현재 군부를 장악하고 있습니다.§!\n\n§RParanoia§! is an abstract measure of the Japanese military's unhingedness and willingness to take actions into their own hands, a possibly §Rextremely dangerous§! problem for the Empire of Japan. The higher §RParanoia§! becomes, the more infighting the military suffers and the lesser the §Ggovernment's§! control over the military becomes." 
 
 JAP_GUI_faction_name:0 "[getJAPGUIFaction]"
 
@@ -50,12 +50,12 @@ JAP_GUI_faction_seats_3:0 "[?JAP_Diet_Seats^3|Y0]"
 JAP_GUI_faction_seats_4:0 "[?JAP_Diet_Seats^4|Y0]"
 JAP_GUI_faction_seats_5:0 "[?JAP_Diet_Seats^5|Y0]"
 
-JAP_GUI_actions_timing_14:0 "Available every §Y14 days§!"
-JAP_GUI_actions_timing_30:0 "Available every §Y30 days§!"
+JAP_GUI_actions_timing_14:0 "매 §Y14일§!마다 가능"
+JAP_GUI_actions_timing_30:0 "매 §Y30일§!마다 가능"
 
 JAP_GUI_action_1:0 "[getJAPGUIAction1]"
 JAP_GUI_action_1_tt:0 "[getJAPGuiAction1tt]"
-JAP_government_action_1:0 "§GEmbellish Accomplishments§!"
+JAP_government_action_1:0 "§G업적 꾸미기§!"
 JAP_government_action_1_tt:0 "Results are still the best way to convince people to side with you. Sometimes, it takes a little convincing - and what better way is there to convince someone than to dress up the truth?"
 JAP_opposition_action_1:0 "§RDiscredit Faction§!"
 JAP_opposition_action_1_tt:0 "The strife for dominance over the House of Representatives is an eternal battle between its factions. Thankfully, all that some people need to switch sides is learning just how bad their current benefactors are - even if it may be somewhat exaggerated..."
@@ -131,11 +131,11 @@ JAP_Tension_dec_big_tt:0 "§W§RParanoia§! §Gdecreases§! significantly.§!"
 
 #House of Peers
 
-JAP_Peers_support_none:0 "§xNon-Existent§!"
-JAP_Peers_support_weak:0 "§RWeak§!"
-JAP_Peers_support_average:0 "§YAverage§!"
-JAP_Peers_support_high:0 "§OHigh§!"
-JAP_Peers_support_veryhigh:0 "§GVery High§!"
+JAP_Peers_support_none:0 "§x없음§!"
+JAP_Peers_support_weak:0 "§R약함§!"
+JAP_Peers_support_average:0 "§Y보통§!"
+JAP_Peers_support_high:0 "§O높음§!"
+JAP_Peers_support_veryhigh:0 "§G매우 높음§!"
 
 JAP_Peers_support_tt:0 "The §MSupport of the House of Peers§! is viable to have for any Prime Minister of Japan, as it is the §WHouse of Peers§! and Privy Council that ultimately nominate the Prime Minister to begin with. As such, keeping them content is of paramount importance. Should their §MSupport§! fall below §Y50%§!, the Prime Minister's reign falls in §Rcritical danger and may collapse§!!"
 
@@ -151,11 +151,11 @@ JAP_Peers_support_decrease_huge:0 "The §MSupport of the House of Peers§! §Rde
 
 #Public Approval
 
-JAP_Public_support_none:0 "§xHostile§!"
+JAP_Public_support_none:0 "§x적대적임§!"
 JAP_Public_support_weak:0 "§RUnpopular§!"
 JAP_Public_support_average:0 "§YWary§!"
-JAP_Public_support_high:0 "§OHigh§!"
-JAP_Public_support_veryhigh:0 "§GVery High§!"
+JAP_Public_support_high:0 "§O높음§!"
+JAP_Public_support_veryhigh:0 "§G매우 높음§!"
 
 JAP_Public_support_tt:0 "§TPublic Support§! is crucial to any government wishing to safely rule over its state, and the Empire of Japan is not an exception to this. The Prime Minister's government thrives and shrivels under the §TPublic's§! watchful eye, and their demeanor is crucial to how much support the ruling faction has in the §WHouse of Representatives§!. Falling below §Y30%§! will §Rrapidly diminish the ruling faction's power§!."
 
