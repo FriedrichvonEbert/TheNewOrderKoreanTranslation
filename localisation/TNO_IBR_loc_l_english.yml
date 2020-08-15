@@ -2329,7 +2329,7 @@ IBR_choose_carefully_idea:0 "Choose Carefully"
  
  #GIBRALTAR DAM MECHANIC
 IBR_gibraltar_dam_category:0 "지브롤터 댐"
-IBR_gibraltar_dam_category_desc:0 "독일국이 1940년대 후반 유럽의 주인이 된 이후 이들은 아틀란트로파라는 열띤 꿈 같은 프로젝트를 시행하기로 결정했습니다. 이 프로젝트의 최정점은 지브롤터 댐으로 새로운 영토의 대부분이 현재 소금사막임에도 불구하고 지중해의 수위를 100m 이상 낮추고 지중해 지역 모든 나라의 영토를 넓혔습니다. 독일인은 댐을 관리했지만 50년대 경제 붕괴가 찾아온 후에는 곧바로 이를 버리고 실패한 나치 프로젝트의 껍데기를 우리에게 그냥 맡겼습니다.\n\n댐은 현재 완공까지 §G[?Root.IBR_dam_progress]%§! 진행한 상황입니다.\n\n댐에 드는 연간 소요 비용은 §G[?Root.IBR_dam_cost]§! 백만 달러 단위로 각각의 소요 비용은 다음과 같습니다.\n유지 보수 비용 §G[?Root.IBR_dam_cost_maintenance]§! 백만 달러\n노동자 관련 비용 §G[?Root.IBR_dam_cost_workers]§! 백만 달러\n업그레이드 작업 비용 §G[?Root.IBR_dam_cost_upgrades]§! 백만 달러\n연말에 지브롤터 댐의 총 비용이 우리의 지급준비금에서 변제될 것이지만, §x만일 우리가 이 비용을 지불할 여유가 없다면 이 비용은 우리의 국가 부채가 될 것입니다.§!\n\n현재 댐을 위해 배정된 예산은 §G[?Root.IBR_dam_budget]§! 백만 달러 입니다.\n\n현재 댐 노동자들은 [ROOT.GetIBR_dam_workers]\n댐 노동자들이 화가 날수록 그들은 더디게 일할 것이며 §x만약 노동자들이 파업한다면 업그레이드 작업은 아에 수행되지 않을 것입니다.§!\n\n[ROOT.GetIBR_dam_chair]"
+IBR_gibraltar_dam_category_desc:0 "독일국이 1940년대 후반 유럽의 주인이 된 이후 이들은 아틀란트로파라는 열띤 꿈 같은 프로젝트를 시행하기로 결정했습니다. 이 프로젝트의 최정점은 지브롤터 댐으로 새로운 영토의 대부분이 현재 소금사막임에도 불구하고 지중해의 수위를 100m 이상 낮추고 지중해 지역 모든 나라의 영토를 넓혔습니다. 독일인은 댐을 관리했지만 50년대 경제 붕괴가 찾아온 후에는 곧바로 이를 버리고 실패한 나치 프로젝트의 껍데기를 우리에게 그냥 맡겼습니다.\n\n댐은 현재 완공까지 §G[?Root.IBR_dam_progress]%§! 진행한 상황입니다.\n\n댐에 드는 연간 소요 비용은 §G[?Root.IBR_dam_cost]§! 백만 달러 단위로, 각각의 소요 비용은 다음과 같습니다.\n유지 보수 비용 §G[?Root.IBR_dam_cost_maintenance]§! 백만 달러\n노동자 관련 비용 §G[?Root.IBR_dam_cost_workers]§! 백만 달러\n업그레이드 작업 비용 §G[?Root.IBR_dam_cost_upgrades]§! 백만 달러\n연말에 지브롤터 댐의 총 비용이 우리의 지급준비금에서 변제될 것이지만, §x만일 우리가 이 비용을 지불할 여유가 없다면 이 비용은 우리의 국가 부채가 될 것입니다.§!\n\n현재 댐을 위해 배정된 예산은 §G[?Root.IBR_dam_budget]§! 백만 달러 입니다.\n\n현재 댐 노동자들은 [ROOT.GetIBR_dam_workers]\n댐 노동자들이 화가 날수록 그들은 더디게 일할 것이며 §x만약 노동자들이 파업한다면 업그레이드 작업은 아에 수행되지 않을 것입니다.§!\n\n[ROOT.GetIBR_dam_chair]"
 IBR_dam_workers_very_happy:0 "§y매우 행복합니다.§!"
 IBR_dam_workers_happy:0 "§G행복합니다.§!"
 IBR_dam_workers_content:0 "§Y그럭저럭입니다.§!"
@@ -2361,70 +2361,70 @@ IBR_add_1_dam_budget_decision:0 "댐 예산에 백만 달러 추가"
 IBR_add_2_dam_budget_decision:0 "댐 예산에 2백만 달러 추가"
 IBR_add_3_dam_budget_decision:0 "댐 예산에 3백만 달러 추가"
 
-IBR_finish_administration_building:0 "Complete the Administration Building" 
+IBR_finish_administration_building:0 "관리사무소 빌딩 완공" 
 IBR_dam_admin_tt:0 "The Gibraltar Dam administration building will be completed, giving access to new upgrades.\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_establish_surveillance:0 "Establish the Surveillance System" 
+IBR_establish_surveillance:0 "보안 감시 시스템 확충" 
 IBR_dam_cameras_tt:0 "A camera-based surveillance system will be installed to catch any wrong-doers within the Dam perimeter.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_finish_lights:0 "Add Lighting to the Electrical System" 
+IBR_finish_lights:0 "전기 시스템에 조명 추가" 
 IBR_dam_lights_tt:0 "Lights will be connected to the electrical system so no longer will we need to use autonomous spotlights.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_finish_east_plumbing:0 "Finish Eastern Side Canal Plumbing" 
+IBR_finish_east_plumbing:0 "동부측 운하 배관 작업 완공" 
 IBR_east_plumbing_tt:0 "The necessary plumbing for the east side of the canal will be finished and the lock system in that side will be able to be completed.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_finish_west_plumbing:0 "Finish Western Side Canal Plumbing" 
+IBR_finish_west_plumbing:0 "서부측 운하 배관 작업 완공" 
 IBR_west_plumbing_tt:0 "The necessary plumbing for the west side of the canal will be finished and the lock system in that side will be able to be completed.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_finish_east_lock:0 "Start the East Side Lock System" 
+IBR_finish_east_lock:0 "동부측 갑문 시스템 운용 시작" 
 IBR_east_lock_tt:0 "The lock system on the east side of the canal will become fully operative, letting ships through once more.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_finish_west_lock:0 "Start the West Side Lock System" 
+IBR_finish_west_lock:0 "서부측 갑문 시스템 운용 시작" 
 IBR_west_lock_tt:0 "The lock system on the west side of the canal will become fully operative, letting ships through once more.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_build_gibraltar_station:0 "Build the Gibraltar Station" 
+IBR_build_gibraltar_station:0 "지브롤터역 건설" 
 IBR_gib_station_tt:0 "The Gibraltar station of the Dam Express line will be opened.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_build_tangier_station:0 "Build the Tangier Station" 
+IBR_build_tangier_station:0 "탕헤르역 건설" 
 IBR_tan_station_tt:0 "The Tangier station of the Dam Express line will be opened.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_open_dam_train:0 "Open the Dam Express Train Line" 
+IBR_open_dam_train:0 "댐 급행 노선 개통" 
 IBR_train_line_tt:0 "The Dam Express train line that connects both sides of the Dam will be opened, making transport across it quicker and easier.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_dig_hydroelectric_tunnels:0 "Dig the Energy Plant Tunnels" 
+IBR_dig_hydroelectric_tunnels:0 "발전소 터널 파내기" 
 IBR_hydro_tunnels_tt:0 "The hydroelectric tunnels will be dug, allowing the hydroelectric infrastructure to be built.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_build_power_plant:0 "Build the Hydroelectric Power Plant"
+IBR_build_power_plant:0 "수력발전소 건설"
 IBR_power_plant_tt:0 "The hydroelectric power plant will be built, allowing us to install the necessary equipment to make it work.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_install_turbines:0 "Install the Hydroelectric Turbines" 
+IBR_install_turbines:0 "수력 터빈 설치" 
 IBR_turbines_tt:0 "The hydroelectric turbines will be installed, allowing us to harvest the power of moving water.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_install_generators:0 "Install the Hydroelectric Generators" 
+IBR_install_generators:0 "수력 발전기 설치" 
 IBR_generators_tt:0 "The hydroelectric generators will be installed, so we will be able to tranform the movement of water into electricity.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_radio_tower_gibraltar:0 "Build the Radio Tower" 
+IBR_radio_tower_gibraltar:0 "라디오 타워 건설" 
 IBR_radio_tower_gib_tt:0 "A radio tower will be built to make communications in the Dam area more reliable.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_attach_plant:0 "Attach the Power Plant to the Grid"
+IBR_attach_plant:0 "발전소를 전력망에 연결"
 IBR_attach_plant_tt:0 "The Gibraltar Dam power plant will be attached to the national electrical grid to provide electricity when decided.\n\n§RThis will increase the workers anger.§!\n\n§RThis will increase the total cost of upgrade expenses.§!"
 
-IBR_complete_monument:0 "Build the Gibraltar Monument" 
+IBR_complete_monument:0 "지브롤터 기념비 건립" 
 IBR_dam_monument_tt:0 "A monument will be built to commemorate all those affected by the Nazi mad dream of Atlantropa."
 
-IBR_rise_salaries_gibraltar:0 "Raise Workers Salaries"
+IBR_rise_salaries_gibraltar:0 "노동자 봉급 인상"
 IBR_salary_rise_gib_tt:0 "The salaries of the Dam workers will be slightly raised to keep them happy and productive.\n\n§GThis will decrease the workers anger.§!\n\n§RThis will increase the total cost of worker-related expenses.§!"
 
-IBR_improve_security_gibraltar:0 "Improve Worker Security"
+IBR_improve_security_gibraltar:0 "작업 안전도 향상"
 IBR_improve_sec_gib_tt:0 "Money will be invested into improving worker security in the Dam to keep them safe and happy.\n\n§GThis will decrease the workers anger.§!\n\n§RThis will increase the total cost of worker-related expenses.§!"
 
-IBR_improve_quarters_gibraltar:0 "Upgrade Worker's Quarters"
+IBR_improve_quarters_gibraltar:0 "작업자 숙소 확충"
 IBR_improve_room_gib_tt:0 "Worker's quarters will be upgraded so that they can rest better and be more productive.\n\n§GThis will decrease the workers anger.§!\n\n§RThis will increase the total cost of worker-related expenses.§!"
 
-IBR_allow_union_gibraltar:0 "Allow the Dam Workers to Unionize"
+IBR_allow_union_gibraltar:0 "댐 노동자 노동조합 수립 허용"
 IBR_allow_union_gib_tt:0 "The workers of the Dam will be allowed to create a trade union.\n\n§GThis will make the workers very happy.§!\n\n§RThis will increase the total cost of worker-related expenses.§!"
 
-IBR_electrical_equipment_gibraltar:0 "Buy More Electrical Equipment"
+IBR_electrical_equipment_gibraltar:0 "전기 장비 추가 구입"
 IBR_elect_gib_tt:0 "To make sure there is always material available, more electrial equipment will be bought.\n\n§GThis will reduce the maintenance cost of the Dam.§!"
 
 IBR_upgrade_cranes_gibraltar:0 "Upgrade the Cranes"
