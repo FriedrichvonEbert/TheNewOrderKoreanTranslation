@@ -1,9 +1,9 @@
 ﻿l_english:
 
-ENG_DECCAT_JamesBond:0 "James Bond"
+ENG_DECCAT_JamesBond:0 "제임스 본드"
 ENG_MIS_JamesBond_SpecOps:0 "Operation [Root.GetENG_JamesBond_OperationName] - [Root.GetENG_MIS_JamesBond_SpecOps_Stage]"
-ENG_MIS_JamesBond_SpecOps_Stage_Prep:0 "§OPREPARATION§!"
-ENG_MIS_JamesBond_SpecOps_Stage_Exec:0 "§OEXECUTION§!"
+ENG_MIS_JamesBond_SpecOps_Stage_Prep:0 "§준비§!"
+ENG_MIS_JamesBond_SpecOps_Stage_Exec:0 "§실행§!"
 ENG_MIS_JamesBond_SpecOps_trigger_tt:0 "To complete this stage of the operation the following amount of the resoursces is needed:\n\n£manpower_texticon : [?ENG_ARR_JamesBond_SpecOps_Resources_Invested^0|Y0] / [?ENG_ARR_JamesBond_SpecOps_Resources_Needed^0|Y0]\n£counter_intelligence : [?ENG_ARR_JamesBond_SpecOps_Resources_Invested^1|Y0] / [?ENG_ARR_JamesBond_SpecOps_Resources_Needed^1|Y0]\n£weapon_icon : [?ENG_ARR_JamesBond_SpecOps_Resources_Invested^2|Y0] / [?ENG_ARR_JamesBond_SpecOps_Resources_Needed^2|Y0]\n£political_power_texticon : [?ENG_ARR_JamesBond_SpecOps_Resources_Invested^3|Y0] / [?ENG_ARR_JamesBond_SpecOps_Resources_Needed^3|Y0]\n\nInvest the resources to complete this stage of the operation via the §Yoperation management menu§!."
 
 ENG_NeededTF_text:0 "£manpower_texticon \n[?ENG_ARR_JamesBond_SpecOps_Resources_Invested^0]/[?ENG_ARR_JamesBond_SpecOps_Resources_Needed^0]"
@@ -11,7 +11,7 @@ ENG_NeededGIntelXp_text:0 "£counter_intelligence \n[?ENG_ARR_JamesBond_SpecOps_
 ENG_NeededGuns_text:0 "£weapon_icon \n[?ENG_ARR_JamesBond_SpecOps_Resources_Invested^2]/[?ENG_ARR_JamesBond_SpecOps_Resources_Needed^2]"
 ENG_NeededPP_text:0 "£political_power_texticon \n[?ENG_ARR_JamesBond_SpecOps_Resources_Invested^3]/[?ENG_ARR_JamesBond_SpecOps_Resources_Needed^3]"
 
-ENG_JamesBond_OperationName_0:0 "§YBAD MORNING§!"
+ENG_JamesBond_OperationName_0:0 "§Y안좋은 아침§!"
 
 #Below - mostly debug stuff that is used before the whole system is set up.
 ENG_SpecOps_Resources:0 "DEBUG STUFF FOR INDICATING HOW MUCH RESOURCES THE PLAYER HAS\n\n£manpower_texticon Task Forces: [?ENG_ARR_JamesBond_SpecOps_Resources_Has^0|Y0]\n£counter_intelligence Intelligence Experience: [?ENG_ARR_JamesBond_SpecOps_Resources_Has^1|Y0]\n£weapon_icon Weapons: [?ENG_ARR_JamesBond_SpecOps_Resources_Has^2|Y0]\n£political_power_texticon Political Power: [?political_power|Y0]"
