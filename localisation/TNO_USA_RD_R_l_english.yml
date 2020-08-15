@@ -2365,70 +2365,70 @@ USA_GLN_Orion_Program_Activated:0 "We are currently planning an Orion mission"
 
 ######## Basic Prep Decisions
 
-USA_GLN_Upgrading_Mission:0 "We are currently upgrading our mission\n"
+USA_GLN_Upgrading_Mission:0 "우리는 현재 계획을 업그레이드하는 중입니다\n"
 
 ### Launch Pad
-USA_GLN_Mission_Control_Launch_Pad_Decision:0 "Prepare the Launch Pad"
-USA_GLN_Launch_Pad_Addition:0 "By upgrading the launch pad to fit our rocket, we can safely assure liftoff\n\nThis will add §O5 Preparedness§! to the mission and invest an additional §w25 million§!"
+USA_GLN_Mission_Control_Launch_Pad_Decision:0 "발사대 준비"
+USA_GLN_Launch_Pad_Addition:0 "발사대를 로켓에 맞게 개량함으로서 발사시의 안전도를 늘릴 수 있슬 것입니다.\n\n이것은 계획에 §O5 준비성§! 을 추가시키며 §w25 million§! 의 비용을 소모합니다"
 
 ### New Facilities
 
-USA_GLN_Mission_Control_Build_Up_Facilities:0 "Construct Custom Facilities"
-USA_GLN_New_Facilities_Decision:0 "By building a custom facility for our rocket we can ensure every step of its construction its taken with care and precision\n\nThis will add §O23 Preparedness§! to the mission and invest an additional §w45 million§!"
+USA_GLN_Mission_Control_Build_Up_Facilities:0 "특수 시설 건설"
+USA_GLN_New_Facilities_Decision:0 "우리의 로켓을 위한 특수 시설을 건설한다면 모든 과정에 있어 조심과 정확을 기할 수 있을 것입니다.\n\n이것은 계획에 §O23 준비성§! 을 추가시키며 §w45 million§! 의 비용을 소모합니다"
 
 ### Rocket Review
 
 USA_GLN_Mission_Control_Check_Over_Rocket:0 "로켓 테스트"
-USA_GLN_Rocket_Review_Addition:0 "Reviewing the rocket to ensure everything is where it should be means one loose bolt can't torpedo the entire mission\n\nThis will add §O10 Preparedness§! to the mission and invest an additional §w40 million§!"
+USA_GLN_Rocket_Review_Addition:0 "임무 도중에 나사가 떨어져나가진 않을지 실제 테스트를 통해 확인해볼 수 있습니다.\n\n이것은 계획에 §O10 준비성§! 을 추가시키며 §w40 million§! 의 비용을 소모합니다"
 
 ### Testing Scenarios
 
-USA_GLN_Mission_Control_Run_Diagnostics_Tests:0 "Run Diagnostic Simulations"
-USA_GLN_Diagnostics_Test_Additions:0 "By running thousands of test simulations, we can predict everything that can go wrong even before it happens\n\nThis will add §O15 Preparedness§! to the mission and invest an additional §w50 million§!"
+USA_GLN_Mission_Control_Run_Diagnostics_Tests:0 "점검 시뮬레이션 실행"
+USA_GLN_Diagnostics_Test_Additions:0 "수천번의 예측 시뮬레이션을 돌려보는 것으로 실제 사고가 일어나기 전에 어떤 문제가 있는지 미리 알아낼 수 있습니다.\n\n이것은 계획에 §O15 준비성§! 을 추가시키며 §w50 million§! 의 비용을 소모합니다"
 
 ### Extra Techinicians
 
-USA_GLN_Mission_Control_Hire_In_Extra_Techinicians:0 "Hire In Technicians"
-USA_GLN_Extra_Techinicians_Addition:0 "Hiring in some extra help to staff out Mission Control would make sure we are able to react to any challenge\n\nThis will add §O7 Preparedness§! to the mission and invest an additional §w30 million§!"
+USA_GLN_Mission_Control_Hire_In_Extra_Techinicians:0 "기술자 고용"
+USA_GLN_Extra_Techinicians_Addition:0 "통제소에 근무할 추가 인원을 고용한다면 추가적인 문제가 발생해도 대처할 수 있을 것입니다.\n\n이것은 계획에 §O7 준비성§! 을 추가시키며 §w30 million§! 의 비용을 소모합니다"
 
 #Rocket Launch
 
-USA_GLN_Mission_Control_Launched_Rocket_Screen:0 "Rocket Status"
-USA_GLN_Mission_Control_Launched_Rocket_Tooltip:0 "Our rocket is currently undergoing its mission!"
-USA_GLN_never_activated:0 "Our rocket has been recovered"
+USA_GLN_Mission_Control_Launched_Rocket_Screen:0 "로켓 현황"
+USA_GLN_Mission_Control_Launched_Rocket_Tooltip:0 "우리 로켓이 발사되어 임무를 진행중입니다!"
+USA_GLN_never_activated:0 "로켓을 회수했습니다"
 
 ########## Mission Decisions
 
 ## Orion Mission
-USA_GLN_NASA_Orion_Description:0 "The §GThe Orion Program§! are §SUnmanned§! missions into Low Earth Orbit to test our our techonolgy and get reacclimated to the cosmos\n"
-USA_GLN_Orion_Start_Funding:0 "This will invest §w125 million§! and unlock the program"
-USA_GLN_Mission_Control_Orion_Launch:0 "Launch Orion [?USA_GLN_Orion_Counter]"
+USA_GLN_NASA_Orion_Description:0 "§G오리온 계획§! 은 우리의 기술력을 시험하고 우주에 재적응하기 위한 저궤도 §S무안§! 임무입니다\n"
+USA_GLN_Orion_Start_Funding:0 "이 계획을 개시하며 §w125 million§! 의 비용이 소모됩니다"
+USA_GLN_Mission_Control_Orion_Launch:0 "오리온 [?USA_GLN_Orion_Counter]호 발사"
 
 ## Minerva
-USA_GLN_NASA_Minerva_Description:0 "§MThe Minerva Program§! are §SUnmanned§! missions that will launch satalites into orbit, giving us some enncryption and decryption boosts\n"
-USA_GLN_Minerva_Start_Funding:0 "This will invest §w75 million§! and unlock the program"
-USA_GLN_Mission_Control_Minerva_Launch:0 "Launch Minerva [?USA_GLN_Minerva_Counter]"
+USA_GLN_NASA_Minerva_Description:0 "§M미네르바 계획§!은 궤도에 인공위성을 발사하는 §S무인§! 임무로, 약간의 암호화와 복호화 보너스를 줄 것입니다\n"
+USA_GLN_Minerva_Start_Funding:0 "이 계획을 개시하며 §w75 million§! 의 비용이 소모됩니다"
+USA_GLN_Mission_Control_Minerva_Launch:0 "미네르바 [?USA_GLN_Minerva_Counter]호 발사"
 
 ## Daedulus Mission
 
-USA_GLN_NASA_Daedulus_Description:0 "§QThe Daedulus Program§! are §YManned§! missions designed to our explore our orbit, giving us an increase to base §OPreparedness§! for all missions\n"
-USA_GLN_Daedulus_Start_Funding:0 "This will invest §w250 million§! and unlock the program"
-USA_GLN_Mission_Control_Daedulus_Launch:0 "Launch Daedulus [?USA_GLN_Daedulus_Counter]"
+USA_GLN_NASA_Daedulus_Description:0 "§Q다이달로스 계획§! 은 우리의 궤도를 탐사하는 §Y유인§! 임무로서, 모든 임무의 §O준비성§! 을 증가시킵니다\n"
+USA_GLN_Daedulus_Start_Funding:0 "이 계획을 개시하며 §w250 million§! 의 비용이 소모됩니다"
+USA_GLN_Mission_Control_Daedulus_Launch:0 "다이달로스 [?USA_GLN_Daedulus_Counter]호 발사"
 
 ## Eros Missions
 
-USA_GLN_NASA_Eros_Description:0 "§PThe Eros Program§! are §SUnmanned§! missions designed to test out our missile arsenal, giving us an increase to war support as well as buffs to both rocket construction and air range\n"
-USA_GLN_Eros_Start_Funding:0 "This will invest §w15 million§! and unlock the program"
-USA_GLN_Mission_Control_Eros_Launch:0 "Launch Eros [?USA_GLN_Eros_Counter]"
+USA_GLN_NASA_Eros_Description:0 "§P에로스 계획§! 은 우리의 미사일 무기를 실험하는 §S무인§! 임무로서, 전쟁 지지도를 증가시키고 로켓 기지 건설과 출격 범위에 보너스를 줍니다\n"
+USA_GLN_Eros_Start_Funding:0 "이 계획을 개시하며 §w15 million§! 의 비용이 소모됩니다"
+USA_GLN_Mission_Control_Eros_Launch:0 "에로스 [?USA_GLN_Eros_Counter]호 발사"
 
 ## Diana Mission
 
-USA_GLN_NASA_Diana_Description:0 "§LThe Diana Program§! are §YManned§! missions that will allow us to put the tragedy of Apollo behind us and get to the Moon. It will take 3 succsesful Diana missions to achieve that goal\n"
-USA_GLN_Diana_Start_Funding:0 "This will invest §w275 million§! and unlock the program"
-USA_GLN_Mission_Control_Diana_Launch:0 "Launch diana [?USA_GLN_Diana_Counter]"
+USA_GLN_NASA_Diana_Description:0 "§L다이애나 계획§! 은 아폴로의 비극을 딛고 달에 착륙하는 §Y유인§! 임무입니다. 이 계획을 완수하기 위해선 3회의 임무 성공이 필요합니다\n"
+USA_GLN_Diana_Start_Funding:0 "이 개획을 개시하며 §w275 million§! 의 비용이 소모됩니다"
+USA_GLN_Mission_Control_Diana_Launch:0 "다이애나 [?USA_GLN_Diana_Counter]호 발사"
 
 ## Ars Mission
 
-USA_GLN_NASA_Ares_Description:0 "§xThe Ares Program§! are §YManned§! missions that will allow us to finally conquer the final frontier and reach further then any man before. It will take 4 succsesful Ares missions to achieve that goal\n"
-USA_GLN_Ares_Start_Funding:0 "This will invest §w451 million§! and unlock the program"
-USA_GLN_Mission_Control_Ares_Launch:0 "Launch Ares [?USA_GLN_Ares_Counter]"
+USA_GLN_NASA_Ares_Description:0 "§x아레스 계획§!은 §Y유인§! 임무로서 우리의 마지막 목표를 정복하고 인류를 전례없이 먼 곳까지 보내는 계획입니다. 이 계획를 완수하기 위해선 4회의 임무 성공이 필요합니다.\n"
+USA_GLN_Ares_Start_Funding:0 "이 계획을 개시하며 §w451 million§! 의 비용이 소모됩니다"
+USA_GLN_Mission_Control_Ares_Launch:0 "아레스 [?USA_GLN_Ares_Counter]호 발사"
