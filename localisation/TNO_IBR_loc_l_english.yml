@@ -2503,7 +2503,7 @@ IBR_dam_10_millions:0 "§Y천만 달러 $§!"
  
  #Foreign category
  
- IBR_pp_foreign_category:0 "Looking Beyond the Peninsula"
+ IBR_pp_foreign_category:0 "반도 그 너머로"
  IBR_pp_foreign_category_desc:0 "With the Algeria situation behind her, Iberia is ready to step onto the world stage, with Caudillo Salazar leading initiatives overseas. His greatest focus lies in reaching out to former colonies in attempts to reach mutually beneficial partnerships, but Iberia's current colonies also require additional attention. \n\nDespite the fact that §GIberia's standing in the world could be greatly strengthened§!, making these decisions will doubtless make Salazar new enemies across Iberia, her colonies, and around the world. \n§RWere Salazar's popularity to fall significantly during this trying time, the stability of the nation could be in jeopardy when he is needed the most.§!"
  
  foreign_military_decision:0 "Scale Back Military in Equatorial Guinea"
@@ -8412,8 +8412,8 @@ IBR_influence_tt_25:0 "The lack of foresight in South Africa will §Ydecrease th
  POLITICS_IBERIAN_COUNCIL_PRE68:0 "Every country needs a leader, and Iberia is no exception. However, how do you determine the sole, singular leader of a state when it has two equal leaders? The influence of both Caudillos wane and wax as time progresses, and one takes a greater role in the Union depending on just how much influence they could muster.\n\nSometimes, neither Caudillo can take precedence over one another. When both Caudillos are equal, then neither can honestly be called the greatest leader of Iberia. Therefore, a third party must take their place - the Council."
  
  #####CAUDILLO POPULARITY MECHANIC 
- IBR_caudillos_category:0 "Caudillo Popularity" 
- IBR_caudillos_category_desc:0 "Even though the Union is equal and both Caudillos share the same powers, this doesn't mean they are equally liked by the people. Iberian society is made up of many different groups, each with its own opinion of Salazar and Franco.\n§RThe most popular Caudillo is recognized as the de facto head of state§!\nThe military [ROOT.GetIBR_military_alignment]\nThe bureaucrats [ROOT.GetIBR_burocrat_alignment]\nThe Church [ROOT.GetIBR_church_alignment]\nThe businessmen [ROOT.GetIBR_business_alignment]\nThe intellectuals [ROOT.GetIBR_intellectual_alignment]\nColonial settlers [ROOT.GetIBR_settlers_alignment]\nColonial natives [ROOT.GetIBR_native_alignment]\nForeign leaders [ROOT.GetIBR_foreign_alignment]\nThe "silent majority" [ROOT.GetIBR_majority_alignment]\nRegional nationalists [ROOT.GetIBR_region_alignment]" 
+ IBR_caudillos_category:0 "카우디요의 인기" 
+ IBR_caudillos_category_desc:0 "연합은 평등하고 두 카우디요가 동등한 권력을 나누고 있다고는 하지만, 이것이 국민들에게 똑같이 지지받는다는 것을 의미하는 것은 아닙니다. 이베리아 사회는 각각 프랑코와 살라자르를 지지하는 서로 다른 여러 집단들로 구성되어 있습니다.\n§R가장 인기가 높은 카우디요가 사실상의 국가원수로 인정받을 것입니다§!\nThe military [ROOT.GetIBR_military_alignment]\nThe bureaucrats [ROOT.GetIBR_burocrat_alignment]\nThe Church [ROOT.GetIBR_church_alignment]\nThe businessmen [ROOT.GetIBR_business_alignment]\nThe intellectuals [ROOT.GetIBR_intellectual_alignment]\nColonial settlers [ROOT.GetIBR_settlers_alignment]\nColonial natives [ROOT.GetIBR_native_alignment]\nForeign leaders [ROOT.GetIBR_foreign_alignment]\nThe "silent majority" [ROOT.GetIBR_majority_alignment]\nRegional nationalists [ROOT.GetIBR_region_alignment]" 
  
  IBR_popularity_love_franco_singular:0 "§wis fully Franco-aligned§!" 
  IBR_popularity_favours_franco_singular:0 "§wis mostly Franco-aligned§!" 
@@ -8479,7 +8479,7 @@ IBR_influence_tt_25:0 "The lack of foresight in South Africa will §Ydecrease th
 
  #§G
  #§R
- caudillo.1.t:0 "The Struggle for Popularity"
+ caudillo.1.t:0 "지지도를 위한 투쟁"
  caudillo.1.d:0 "The unification of the Iberian peninsula had been a tumultuous if necessary task. In order to prevent divisive social and political issues from tearing the new country apart, both leaders of the previously separate nations agreed to hold a position of power that shared equal political standing. They became the Caudillos of Iberia, the saviours of a union besieged.\n\nHowever, neither man is entirely satisfied with their current standing and constantly wrestle for power and influence. To do this they use the sway of interest groups such as regional ethnicities or corporate interests. Hence the ever changing political arena of high Iberian politics is a scene to behold, with both Caudillos unwilling to let the other gain ultimate control of the nation."
  caudillo.1.a:0 "Interesting"
 
@@ -9128,7 +9128,7 @@ IBR_influence_tt_25:0 "The lack of foresight in South Africa will §Ydecrease th
  
  IBR_democracy_category_tt:0 "§wThe political parties' popularity§! can be tracked in the §wdecision screen§!!\n"
  
- the_iberian_congress_category:0 "Democracy In Iberia"
+ the_iberian_congress_category:0 "이베리아의 민주주의"
  the_iberian_congress_category_desc:0 "The current §Yfrontrunner§! is [ROOT.GetElectionLeader].\n\nCurrent §lUnión Republicana§! popularity is [ROOT.GetSocLibPopularity] ([?Root.IBRIRMUDPopularity]).\nCurrent §gNational Union§! popularity is [ROOT.GetAuthDemPopularity] ([?Root.IBRNationalUnionPopularity]).\nCurrent §BAlianza Popular§! popularity is [ROOT.GetSocConPopularity] ([?Root.IBRAlianzaPopularPopularity]).\nCurrent §wPartido Renovador Democrático§! popularity is [ROOT.GetMarkLibPopularity] ([?Root.IBRMarketLiberalPopularity]).\nCurrent §SIzquierda Republicana§! Popularity is [ROOT.GetSocDemPopularity] ([?Root.IBRIzquierdaPopularity])."
  IBR_SocLib_Leading:0 "§lUnión Republicana§!"
  IBR_MarkLib_Leading:0 "§wPartido Renovador Democrático§!"
