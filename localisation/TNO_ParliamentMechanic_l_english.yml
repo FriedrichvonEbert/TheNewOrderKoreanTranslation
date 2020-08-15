@@ -41,7 +41,7 @@ l_english:
    
    ## Governmental Stability - GS
     # Value
-    TNO_ParliamentMechanic_PGSD_GS_Value_tt: "예시"
+    TNO_ParliamentMechanic_PGSD_GS_Value_tt: "정부 안정도"
     TNO_ParliamentMechanic_PGSD_GS_Value_ttd: "예시"
 
  #### Seats Entry - 'TNO_ParliamentMechanic_Seats_Entry_<Status>'
@@ -52,13 +52,15 @@ l_english:
   TNO_ParliamentMechanic_Parties_Entry_Name_text: "[TNO_ParliamentMechanic_Get_Party_ShortName]"
   TNO_ParliamentMechanic_Parties_Entry_Name_tt: "[TNO_ParliamentMechanic_Get_Party_Name]"
   TNO_ParliamentMechanic_Parties_Entry_Name_ttd: "예시"
+
   # Support %
   TNO_ParliamentMechanic_Parties_Entry_Support_text: "[TNO_ParliamentMechanic_Get_Party_Support]"
   TNO_ParliamentMechanic_Party_Support_Green: "[?ParliamentMechanic_Party_Support^TNO_PM_GUIHelper_PartiesDisp_Array_val|%G0]"
   TNO_ParliamentMechanic_Party_Support_Yellow: "[?ParliamentMechanic_Party_Support^TNO_PM_GUIHelper_PartiesDisp_Array_val|%Y0]"
   TNO_ParliamentMechanic_Party_Support_Red: "[?ParliamentMechanic_Party_Support^TNO_PM_GUIHelper_PartiesDisp_Array_val|%R0]"
-  TNO_ParliamentMechanic_Parties_Entry_Support_tt: "예시"
-  TNO_ParliamentMechanic_Parties_Entry_Support_ttd: "예시"
+  TNO_ParliamentMechanic_Parties_Entry_Support_tt: "The [TNO_ParliamentMechanic_Get_Party_ShortName]'s §Ysupport§! of our Government"
+  #TNO_ParliamentMechanic_Parties_Entry_Support_ttd: "예시"
+
   # Number of Seats
   TNO_ParliamentMechanic_Parties_Entry_NumSeats_text: "[?ParliamentMechanic_Party_SeatNum^TNO_PM_GUIHelper_PartiesDisp_Array_val|Y0]"
   TNO_ParliamentMechanic_Parties_Entry_NumSeats_tt: "[TNO_ParliamentMechanic_Get_Party_Name] have [?ParliamentMechanic_Party_SeatNum^TNO_PM_GUIHelper_PartiesDisp_Array_val|Y0] held seats."
@@ -97,7 +99,7 @@ l_english:
    TNO_ParliamentMechanic_Party_ShortName_3: "RP - Moderates"
    TNO_ParliamentMechanic_Party_ShortName_4: "RP - Reformists"
    TNO_ParliamentMechanic_Party_ShortName_5: "RP - Hardliners"
-   TNO_ParliamentMechanic_Party_ShortName_6: "UE - Macmillanists"
+   TNO_ParliamentMechanic_Party_ShortName_6: "UE - Macmillanist"
    TNO_ParliamentMechanic_Party_ShortName_7: "UE - Liberals"
    TNO_ParliamentMechanic_Party_ShortName_8: "RP"
    TNO_ParliamentMechanic_Party_ShortName_9: "NF"
@@ -135,68 +137,167 @@ l_english:
  ### Speaker
   ## Picture
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_ex: "GFX_ParliamentMechanic_PD_Portrait_Speaker_Ex"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Military_Government: "GFX_Portrait_ENG_Military_Government"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_No_Opposition: "GFX_Portrait_ENG_No_Opposition"
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_Alec_Douglas_Home: "GFX_Portrait_ENG_Alec_Douglas_Home"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Harold_Macmillan: "GFX_Portrait_ENG_Harold_Macmillan"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Arthur_Chesterton: "GFX_Portrait_ENG_Arthur_Chesterton"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Margaret_Thatcher: "GFX_Portrait_ENG_Margaret_Thatcher"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Rab_Butler: "GFX_Portrait_ENG_Rab_Butler"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_George_Jellicoe: "GFX_Portrait_ENG_George_Jellicoe"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Harold_Wilson: "GFX_Portrait_ENG_Harold_Wilson"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Reginald_Maudling: "GFX_Portrait_ENG_Reginald_Maudling"
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_Reg_Birch: "GFX_Portrait_ENG_Reg_Birch"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_David_Stirling: "GFX_Portrait_ENG_David_Stirling"
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_Bernard_Montgomery: "GFX_Portrait_ENG_Bernard_Montgomery"
-   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Claude_Auchinleck: "GFX_Portrait_ENG_Claude_Auchinleck"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Claude_Auchinleck: "GFX_Portrait_ENG_Claude_Auchinleck" #총리 아님
 
   ## Name
-   TNO_ParliamentMechanic_Ideas_Speaker_Name_ex: "Example Speaker Man"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_ex: "ex"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Military_Government: "Military Government"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_No_Opposition: "No Opposition"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Alec_Douglas_Home: "Alec Douglas-Home"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Harold_Macmillan: "Harold Macmillan"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Arthur_Chesterton: "Arthur Chesterton"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Margaret_Thatcher: "Margaret Thatcher"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Rab_Butler: "Rab Butler"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_George_Jellicoe: "George Jellicoe"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Harold_Wilson: "Harold Wilson"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_Reginald_Maudling: "Reginald Maudling"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Reg_Birch: "Reg Birch"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_David_Stirling: "David Stirling"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Bernard_Montgomery: "Bernard Montgomery"
-   TNO_ParliamentMechanic_Ideas_Speaker_Name_Claude_Auchinleck: "Claude Auchinleck"
 
   ## Effects
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_ex: "Prime Minister\nNational Socialism\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Alec_Douglas_Home: "Prime Minister\n§ERoyal Party - Moderates§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Reg_Birch: "Prime Minister\n§ESocialist Labour Party - Hardliners§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Bernard_Montgomery: "Prime Minister\n§gEnglish Preservation Junta§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Military_Government: "Prime Minister\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §R-0.50§!\n§G++ Military Loyalty§!\n§G++ Military Effectiveness§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_No_Opposition: "Prime Minister"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Alec_Douglas_Home: "Prime Minister\n§ERoyal Party - Moderates§!\nGovernment Stability Factor: §G+10.00%§!\nDaily Political Power Gain: §G+0.10§!\n§G++ Military Loyalty§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Harold_Macmillan: "Prime Minister\n§iUnited England - Macmillanists§!\nGovernment Stability Factor: §G+5.00%§!\nDaily Political Power Gain: §G+0.05§!\n§G++ Employment Rate§!\n§i++ Macmillanists Influence§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Arthur_Chesterton: "Prime Minister\n§JNational Front§!\nGovernment Stability Factor: §R-10.00%§!\nDaily Political Power Gain: §R-0.10§!\n§R-- Military Loyalty§!\n§R-- Military Effectiveness§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Margaret_Thatcher: "Prime Minister\n§ERoyal Party§!\nGovernment Stability Factor: §G+5.00%§!\nDaily Political Power Gain: §G0.1§!\n§G++ Military Loyalty§!\n§E++ Thatcherite Influence§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Rab_Butler: "Prime Minister\n§ERoyal Party§!\nGovernment Stability Factor: §R-20.00%§!\nDaily Political Power Gain: §R-0.05§!\n§R-- Military Loyalty§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Reginald_Maudling: "Prime Minister\n§iUnited England - Liberals§!\nGovernment Stability Factor: §G+5.00%§!\n§R-- Monthly GDP Gain§!\n§e++ Liberals Influence§!\n§G++ Faster Democratization§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_George_Jellicoe: "Prime Minister\n§fNational Democratic League - Democrat§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §G+0.10§!\n§f++ Democrats Influence§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Harold_Wilson: "Prime Minister\n§VSocialist Labor Party - Progress§!\nGovernment Stability Factor: §R-8.00%§!\nDaily Political Power Gain: §G+0.2§!\n§G++ Monthly GDP Gain§!\n§V++ Reformists Influence§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Reg_Birch: "Prime Minister\n§VSocialist Labor Party - Pollitites§!\nGovernment Stability Factor: §R-5.00%§!\nWar Support Factor: §G+5.00%§!\n§G++ Monthly GDP Gain§!\n§G++ Military Loyalty§!\n§G++ Military Effectiveness§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_David_Stirling: "Prime Minister\n§GEnglish Preservation Junta§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Bernard_Montgomery: "Prime Minister\n§GEnglish Preservation Junta§!"
 
   ## Description
-   TNO_ParliamentMechanic_Ideas_Speaker_Desc_ex: "Description, blah blah blah"
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_ex: "Example !"
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Military_Government: "The streets of London are silent. The Houses of Parliament stand empty. The English government has collapsed, and its military has seized direct control to prevent a fall into anarchy. Martial law rules Britain, and for the first time in centuries, the position of Prime Minister is vacant.\n\nThe lion has survived many fights from the Hundred Years' War to the invasion of the Huns, but for the second time in 10 years, the future of England seems uncertain. Perhaps, this will just be remembered as a temporary setback in the road to English superiority, or the lion may have been finally slain, not by a foreign enemy but by squabbling within."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_No_Opposition: ""
    TNO_ParliamentMechanic_Ideas_Speaker_Desc_Alec_Douglas_Home: "Alec Douglas-Home holds the dubious honour of being the only Prime Minister in over twenty years to be capable of holding office for more than three. Solidifying the Royal Party from a morass of cliques and power blocks into a at least nominally more united party by making deals with the major factions, Home has surprised his critics by seemingly being the first PM to seriously address the matter of armed rebellious groups without direct Cornish intervention. Perhaps Douglas-Home will be the Prime Minister England needs, but even if he isn't he's all England has."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Harold_Macmillan: "Sacrifice is the most noble of attributes a politician can have, perhaps that is why it's so astonishingly rare? Regardless, Harold Macmillan is defined by the fact that he will do absolutely anything and everything to keep England from another destructive war. Whether it be Germany or the United States, England in Macmillan's eyes is just not ready to suffer the loss of yet another generation of young men to the battlefields. Whether Macmillan is able to enact these desires is yet to be ascertained, but may God have mercy on those who stand against him."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Arthur_Chesterton: "Arthur Kenneth Chesterton is a man of many layers. A scarred veteran of the trenches of the Great War, a theatre critic, an alcoholic. A fabian in past times, a fascist now. Though he left the sinking ship that was Mosley's BUF at the first opportunity, Chesterton was reinforced in his beliefs as the Axis stormed into Egypt.\n\nIt was for that purpose, that he would rally the Hardliner faction of the Royalist party around him and now the National Front. But Chesterton is a man long past his prime, his party full of division and sub-factions. And only time will tell if he can truly implement his vision of a fascist Isle or be swept away by the Nazi bootlickers he calls allies."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Margaret_Thatcher: "Margaret Thatcher is a woman whose will is as iron. Despite her family background as the daughter of a methodist preacher who sheltered jews fleeing Nazi Germany, Mrs Thatcher was convinced from a young age that open conflict against the Reich would merely ensure the final destruction of England as a nation. She hates the Reich most certainly, but as long as she lives and breathes Thatcher will do her utmost rekindle the mighty England of her youth without poking the fascists across the channel. In opposition or government, she is at least consistent in that much."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Rab_Butler: "Rab Butler was never the type of man expected to sit in a position of prominence, let alone real power. Born in India to a family of civil servants he most likely would never have gained prominence on the national stage at all if not for his support of appeasing German ambition. The aftermath of WW2 left the statesmen as one of the more palatable English political figures to lead the newly formed Royal Party, and he's never looked back since. Despite his association with the more elitist elements of the Royal Party however, he is not completely enamoured with the positions of some of his colleagues."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_George_Jellicoe: "George Jellicoe was never expected to equal his father's achievements at Jutland. Frankly he and most of the Commando regiments weren't expected to make a great difference in the war at all. But from low expectations comes an odd sort of valour, and Jellicoe used his wits and his rifle to go from a soldier to an overlooked civil servant to the leader of the largest and most diverse political party in English history. He still is a rambunctious womaniser at heart of course, but underneath the extravagant exterior is a truly terrifying strategic mind."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Harold_Wilson: "An economist and civil servant ending up as one of the foremost resistance leaders of the 1950's is a strange thought indeed, yet Harold Wilson's strength of will is matched only by his fervent idealism and sincere desire for change. Leading a mixed bag of socialists, communists and more besides has left Wilson as one of the finest political minds in England, for nothing less will keep the bag of cats that is the Socialist Labour Party focused on their opponents much less the elections. This is most fortuitous for the opposition, for with a united party Wilson could well be unstoppable."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Reginald_Maudling: "To be a liberal in times like these is quite the bold statement. Still Reginald Maudling didn't get where he is today by staying unknown and unremarkable, quite the opposite in fact. His alliance with Macmillan has left Maudling one of the more powerful men in England, and consequently means that his passionate campaigns for the restoration of proper democratic norms are forced to be taken somewhat seriously by people who'd really rather he just conveniently drop dead. Maudling is unlikely to give them the satisfaction, and whilst he breathes the dream of English democracy lives on."
    TNO_ParliamentMechanic_Ideas_Speaker_Desc_Reg_Birch: "The thoroughness with which the London Uprising was quashed cannot be understated, of the Communist leaders directly involved only a mere four dozen or so escaped, and less than half of the actual fighters were alive three weeks later. But Reg Birch did as he always does, he persevered and refused to give up. Rebuilding the communist networks into a less overt fighting force, Birch was one of the architects of the eventual Left Resistance and its union with HMMLR. Now that the fascists are gone, the former engineer is the face of English communism, God help those who stand in his way."
-   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Bernard_Montgomery: "When Britain splintered under the iron boots of the Wehrmacht, Bernard Montgomery did his duty by serving the collaborationists and keeping the nation together, protecting it from the extremes of Germany's wrath. Once more he has answered the call of duty in the name of England. With a stiff upper lip and a firm hand, Field Marshal Montgomery has established himself as ruler of the Southern Temporary Military District. When his work is done, only then will England return to normality."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_David_Stirling: "There is no man in the British Isles who fought longer than Stirling Stirling. Deserting from the surrendering British forces in the midlands at the end of WW2 Stirling is noteworthy for leading the only resistance group to conduct warfare from the start of Royal Party rule to its end. Now in the political scene, the man who planned and executed much of HMMLR's strategy turns that mind to less violent pursuits, though some might argue the stakes are even higher. For a Perthshire lad its not a bad rise, and to do so over the corpses of Germans makes it all the better."
+   TNO_ParliamentMechanic_Ideas_Speaker_Desc_Bernard_Montgomery: ""
 
  ### Monarch
   ## Picture
    TNO_ParliamentMechanic_Ideas_Monarch_Picture_ex: "GFX_ParliamentMechanic_PD_Portrait_Monarch_Ex"
    TNO_ParliamentMechanic_Ideas_Monarch_Picture_Edward_VIII: "GFX_Portrait_Britain_Edward_VIII"
    TNO_ParliamentMechanic_Ideas_Monarch_Picture_Elizabeth_II: "GFX_Portrait_Britain_Elizabeth_II"
+   TNO_ParliamentMechanic_Ideas_Monarch_Picture_Henry_IX: "GFX_Portrait_Britain_Henry_IX"
+   TNO_ParliamentMechanic_Ideas_Monarch_Picture_Henry_IX_Incapacitated: "GFX_Portrait_Britain_Henry_IX"
    TNO_ParliamentMechanic_Ideas_Monarch_Picture_NoMonarch: "GFX_Portrait_Britain_NoMonarch"
 
   ## Name
    TNO_ParliamentMechanic_Ideas_Monarch_Name_ex: "Example Monarch Man"
    TNO_ParliamentMechanic_Ideas_Monarch_Name_Edward_VIII: "Edward VIII"
    TNO_ParliamentMechanic_Ideas_Monarch_Name_Elizabeth_II: "Elizabeth II"
+   TNO_ParliamentMechanic_Ideas_Monarch_Name_Henry_IX: "Henry IX"
+   TNO_ParliamentMechanic_Ideas_Monarch_Name_Henry_IX_Incapacitated: "Henry IX"
    TNO_ParliamentMechanic_Ideas_Monarch_Name_NoMonarch: "No Monarch"
 
   ## Effects
    TNO_ParliamentMechanic_Ideas_Monarch_Effects_ex: "Monarch\nNational Socialism\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
-   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Edward_VIII: "Monarch\nAuthoritarian Democracy"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Edward_VIII: "Monarch\nAuthoritarian Democracy\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §R-0.10§!\nWar Support: §R-10.00%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Elizabeth_II: "Monarch\nConservative Democracy\nGovernment Stability Factor: §G+5.00%§!\nWar Support: §G+10.00%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Henry_IX: "Monarch\nConservative Democracy\nGovernment Stability Factor: §G+5.00%§!\nDaily Political Power Gain: §G+0.05§!\nWar Support: §G+5.00%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Henry_IX_Incapacitated: "Monarch\nConservative Democracy\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §R-0.05§!\nWar Support: §R-5.00%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_NoMonarch: ""
 
   ## Description (Tooltip Delayed)
    TNO_ParliamentMechanic_Ideas_Monarch_Desc_ex: "Description, blah blah blah"
-   TNO_ParliamentMechanic_Ideas_Monarch_Desc_Edward_VIII: "His Majesty, Edward VIII, the twice-crowned King of England, is hated by many from Bill Alexander to the English Church. Born during the reign of Queen Victoria II, Edward was directly in line for the British throne. He was crowned first in 1936 and reigned for an uneventful 3 years before crisis struck: Edward VIII was marrying an American divorcee and in order to do that, he was forced to give up his position as king. This was not to last. \n\nWhen the Germans landed on the shores of England, they crowned Edward as their puppet, and once again, Edward was reluctantly King of England. His second reign however was far more disastrous than the first and far less short with HMMLR growing in strength every day and the country in economic crisis as he watched. In truth, Edward would want nothing more than to abdicate his throne, but now, it falls to him to guide his nation through this time of turmoil."
+   TNO_ParliamentMechanic_Ideas_Monarch_Desc_Edward_VIII: "His Majesty, Edward VIII, the twice-crowned King of England, is hated by many from Bill Alexander to the English Church. Born during the reign of Queen Victoria II, Edward was directly in line for the British throne. He was crowned first in 1936 and reigned for an uneventful 3 years before crisis struck: Edward VIII was marrying an American divorcee and in order to do that, he was forced to give up his position as king. This was not to last.\n\nWhen the Germans landed on the shores of England, they crowned Edward as their puppet, and once again, Edward was reluctantly King of England. His second reign however was far more disastrous than the first and far less short with HMMLR growing in strength every day and the country in economic crisis as he watched. In truth, Edward would want nothing more than to abdicate his throne, but now, it falls to him to guide his nation through this time of turmoil."
+   TNO_ParliamentMechanic_Ideas_Monarch_Desc_Elizabeth_II: "Born Elizabeth Alexandra Mary Windsor, Elizabeth was expected to live as a minor princess for the rest of her life. This all changed with her uncle's abdication and her father's ascension as king. Elizabeth became heir apparent to the English throne for a few short years. When the wall of the English Channel was broken, Elizabeth was among the first to evacuate to Canada, and she would remain there as pretender to the English throne for the next 20 years.\n\nDespite the shattering of the British Empire, she enjoyed much support from the former British dominions and from home in the form of Her Majesty's Most Loyal Resistance. With the victory of HMMLR in the civil war, Elizabeth has returned to her homeland now as Elizabeth II, Queen of England. The Englishmen are hopeful that the new Elizabeth won't share the same fate as her uncle and will bring England into a new era of prosperity. It now falls to her to rebuild a fallen kingdom from the ashes."
+   TNO_ParliamentMechanic_Ideas_Monarch_Desc_Henry_IX: "Henry Windsor was born as the third son of George V and a most unexpected king. For much of his life, he saw his brothers ruling England while he was far along in the line of succession. He was the Duke of Gloucester and a prince of the House of Windsor. Henry's spot in the sun would finally come with Edward's abdication and the victory of the collaborators in the English Civil War.\n\nThe collaborators chose to crown Henry as their new king as all other options were off the table including the legitimate successor, Elizabeth. Henry IX is now the reluctant King of England, and it is now up to him to restore the trust of the English people and rebuild England."
+   TNO_ParliamentMechanic_Ideas_Monarch_Desc_Henry_IX_Incapacitated: "King Henry IX has unfortunately been rendered unable to rule. After suffering a stroke a year into his reign, he is now barely able to walk let alone rule his country. In his absence, his son, Prince William, rules as regent, and as heir to the throne, William may soon have to take his father's place as King William V. It's rather ominous that the King of the English people has been rendered weak only a year after being crowned. We can only hope that England does not come to the same fate as its king."
+   TNO_ParliamentMechanic_Ideas_Monarch_Desc_NoMonarch: "For the first time since the days of Cromwell, the English throne sits empty. The acts of Parliament rule the lands, not the decrees of a sovereign. The traditionalists hope this arrangement will be a brief hiatus before the coronation of a new monarch, but to the socialists, this will be more than another interregnum. This will be a shining step in England's march into the modern age where the will of the people is supreme. 1000 years of royal power over England may be undone, or this will be the beginning of another a thousand years where God and Sovereign reign supreme."
 
  ### Opposition Leader
   ## Picture
    TNO_ParliamentMechanic_Ideas_OppLeader_Picture_ex: "GFX_ParliamentMechanic_PD_OppLeader_Monarch_Ex"
    TNO_ParliamentMechanic_Ideas_OppLeader_Picture_Harold_Macmillan: "GFX_Portrait_ENG_Harold_Macmillan"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Picture_Margaret_Thatcher: "GFX_Portrait_ENG_Margaret_Thatcher"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Picture_Arthur_Chesterton: "GFX_Portrait_ENG_Arthur_Chesterton"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Picture_Reginald_Maudling: "GFX_Portrait_ENG_Reginald_Maudling"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Picture_George_Jellicoe: "GFX_Portrait_ENG_George_Jellicoe"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Picture_Harold_Wilson: "GFX_Portrait_ENG_Harold_Wilson"
    TNO_ParliamentMechanic_Ideas_OppLeader_Picture_No_Opposition: "GFX_Portrait_Britain_No_Opposition"
 
   ## Name
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_ex: "Example Opposition Leader Man"
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_Harold_Macmillan: "Harold Macmillan"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_Margaret_Thatcher: "Margaret Thatcher"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_Arthur_Chesterton: "Arthur Chesterton"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_Reginald_Maudling: "Reginald Maudling"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_George_Jellicoe: "George Jellicoe"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_Harold_Wilson: "Harold Wilson"
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_No_Opposition: "No Opposition"
    
   ## Effects
    TNO_ParliamentMechanic_Ideas_OppLeader_Effects_ex: "Opposition Leader\nNational Socialism\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
-   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Harold_Macmillan: "Opposition Leader\n§ERoyal Party - Reformists§!\n\tTODO"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Harold_Macmillan: "Opposition Leader\n§ERoyal Party - Reformists§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §R-0.05§!\n§G++ Employment Rate§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Margaret_Thatcher: "Opposition Leader\n§ERoyal Party§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §G+0.20§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Arthur_Chesterton: "Opposition Leader\n§JNational Front§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §G+0.10§!\n§G++ Military Loyalty§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Reginald_Maudling: "Opposition Leader\n§iUnited England - Liberals§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §G+0.1§!\n§R-- Monthly GDP Gain§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_George_Jellicoe: "Opposition Leader\n§fNational Democratic League - Democrat§!\nGovernment Stability Factor: §R-5.00%§!\n§R-- Military Loyalty§!\n§R-- Military Effectiveness§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Harold_Wilson: "Opposition Leader\n§VSocialist Labor Party - Progress§!\nGovernment Stability Factor: §R-5.00%§!\n§R-- Monthly GDP Gain§!\n§G++ Military Loyalty§!"
    TNO_ParliamentMechanic_Ideas_OppLeader_Effects_No_Opposition: ""
  
   ## Description (Tooltip Delayed)
    TNO_ParliamentMechanic_Ideas_OppLeader_Desc_ex: "Description, blah blah blah"
    TNO_ParliamentMechanic_Ideas_OppLeader_Desc_Harold_Macmillan: "Sacrifice is the most noble of attributes a politician can have, perhaps that is why it's so astonishingly rare? Regardless, Harold Macmillan is defined by the fact that he will do absolutely anything and everything to keep England from another destructive war. Whether it be Germany or the United States, England in Macmillan's eyes is just not ready to suffer the loss of yet another generation of young men to the battlefields. Whether Macmillan is able to enact these desires is yet to be ascertained, but may God have mercy on those who stand against him."
+   TNO_ParliamentMechanic_Ideas_OppLeader_Desc_Arthur_Chesterton: "Arthur Kenneth Chesterton is a man of many layers. A scarred veteran of the trenches of the Great War, a theatre critic, an alcoholic. A fabian in past times, a fascist now. Though he left the sinking ship that was Mosley's BUF at the first opportunity, Chesterton was reinforced in his beliefs as the Axis stormed into Egypt.\n\nIt was for that purpose, that he would rally the Hardliner faction of the Royalist party around him and now the National Front. But Chesterton is a man long past his prime, his party full of division and sub-factions. And only time will tell if he can truly implement his vision of a fascist Isle or be swept away by the Nazi bootlickers he calls allies."
+   TNO_ParliamentMechanic_Ideas_OppLeader_Desc_Margaret_Thatcher: "Margaret Thatcher is a woman whose will is as iron. Despite her family background as the daughter of a methodist preacher who sheltered jews fleeing Nazi Germany, Mrs Thatcher was convinced from a young age that open conflict against the Reich would merely ensure the final destruction of England as a nation. She hates the Reich most certainly, but as long as she lives and breathes Thatcher will do her utmost rekindle the mighty England of her youth without poking the fascists across the channel. In opposition or government, she is at least consistent in that much."
+   TNO_ParliamentMechanic_Ideas_OppLeader_Desc_Reginald_Maudling: "To be a liberal in times like these is quite the bold statement. Still Reginald Maudling didn't get where he is today by staying unknown and unremarkable, quite the opposite in fact. His alliance with Macmillan has left Maudling one of the more powerful men in England, and consequently means that his passionate campaigns for the restoration of proper democratic norms are forced to be taken somewhat seriously by people who'd really rather he just conveniently drop dead. Maudling is unlikely to give them the satisfaction, and whilst he breathes the dream of English democracy lives on."
+   TNO_ParliamentMechanic_Ideas_OppLeader_Desc_George_Jellicoe: "George Jellicoe was never expected to equal his father's achievements at Jutland. Frankly he and most of the Commando regiments weren't expected to make a great difference in the war at all. But from low expectations comes an odd sort of valour, and Jellicoe used his wits and his rifle to go from a soldier to an overlooked civil servant to the leader of the largest and most diverse political party in English history. He still is a rambunctious womaniser at heart of course, but underneath the extravagant exterior is a truly terrifying strategic mind."
+   TNO_ParliamentMechanic_Ideas_OppLeader_Desc_Harold_Wilson: "An economist and civil servant ending up as one of the foremost resistance leaders of the 1950's is a strange thought indeed, yet Harold Wilson's strength of will is matched only by his fervent idealism and sincere desire for change. Leading a mixed bag of socialists, communists and more besides has left Wilson as one of the finest political minds in England, for nothing less will keep the bag of cats that is the Socialist Labour Party focused on their opponents much less the elections. This is most fortuitous for the opposition, for with a united party Wilson could well be unstoppable."
+   TNO_ParliamentMechanic_Ideas_OppLeader_Desc_No_Opposition: ""
+
+ ### Idea names (for tooltips)
+   TNO_ParliamentMechanic_Speaker_Military_Government: "Military Government"
+   TNO_ParliamentMechanic_Speaker_No_Opposition: "No Opposition"
+   TNO_ParliamentMechanic_OppLeader_No_Opposition: "No Opposition"
+   TNO_ParliamentMechanic_Speaker_Alec_Douglas_Home: "Alec Douglas-Home"
+   TNO_ParliamentMechanic_Speaker_Harold_Macmillan: "Harold Macmillian"
+   TNO_ParliamentMechanic_OppLeader_Harold_Macmillan: "Harold Macmillian"
+   TNO_ParliamentMechanic_Speaker_Arthur_Chesterton: "Arthur Chesterton"
+   TNO_ParliamentMechanic_OppLeader_Arthur_Chesterton: "Arthur Chesterton"
+   TNO_ParliamentMechanic_Speaker_Margaret_Thatcher: "Margaret Thatcher"
+   TNO_ParliamentMechanic_OppLeader_Margaret_Thatcher: "Margaret Thatcher"
+   TNO_ParliamentMechanic_Speaker_Rab_Butler: "Rab Butler"
+   TNO_ParliamentMechanic_Speaker_Reginald_Maudling: "Reginald Maudling"
+   TNO_ParliamentMechanic_OppLeader_Reginald_Maudling: "Reginald Maudling"
+   TNO_ParliamentMechanic_Speaker_George_Jellicoe: "George Jellicoe"
+   TNO_ParliamentMechanic_OppLeader_George_Jellicoe: "George Jellicoe"
+   TNO_ParliamentMechanic_Speaker_Harold_Wilson: "Harold Wilson"
+   TNO_ParliamentMechanic_OppLeader_Harold_Wilson: "Harold Wilson"
+   TNO_ParliamentMechanic_Speaker_David_Stirling: "David Stirling"
+   TNO_ParliamentMechanic_Monarch_Portrait_England_John_Slim: "John Slim"
+   TNO_ParliamentMechanic_Monarch_Portrait_England_William_Whiteslaw: "Willian Whiteslaw"
+   TNO_ParliamentMechanic_Monarch_NoMonarch: "No Monarch"
+   TNO_ParliamentMechanic_Monarch_Edward_VIII: "Edward VIII"
+   TNO_ParliamentMechanic_Monarch_Elizabeth_II: "Elizabeth II"
+   TNO_ParliamentMechanic_Monarch_Henry_IX: "Henry IX"
+   TNO_ParliamentMechanic_Monarch_Henry_IX_Incapacitated: "Henry IX"
 ##### Parliamentary Leaders #####
