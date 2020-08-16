@@ -1,24 +1,42 @@
 ﻿l_english:
+ 
+ ## Focus prerequisites stuff (Regime Stab) ##
 
-## Decisions ##
+ SGR_RegimeStab_50:0 "At least §Y50%§! £GFX_regime_stability_texticon §YRegime Stability§!."
+ SGR_RegimeStab_75:0 "At least §Y75%§! £GFX_regime_stability_texticon §YRegime Stability§!."
+
+ ## Decisions ##
 
  SGR_tree_reload_tt:0 "§T§YTree reloading§! can, sometimes, not work or not immediately work. This is a PDX bug we can't do anything about. §YTry to wait some days in-game or reload your save should this happen to you.§!§!"
 
  SGR_state_of_the_reich_category:0 "독일국의 상태"
- SGR_state_of_the_reich_category_desc:0 "§Y정권§!이 현재 기울어지고 있습니다... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§Y최소 체제 안정도§! - [?SGRRegimeStability|W%]£stability_texticon\n\n\n  The §rReactionary§! wing of the NSDAP is currently [getSGRReactionaryDisposition].\n  The §gDissenters§! wing of the NSDAP is currently [getSGRDissentersDisposition].\n\n§MFOREIGN INFLUENCE ON GERMANY§!\n\n[USA.GetFlag][USA.GetName]: [getSGRUSAInfluence] §GReformist§! Influence ([?US_inf_display|+)])\n[JAP.GetFlag][JAP.GetName]: [getSGRJAPInfluence] §RConservative§! Influence ([?JAP_inf_display|-])\n[getSGRRussianNeighbor]\n\n§TSOCIAL OUTLOOK§! - [getLeaningPivot] ([?SGRSocietyLevel|+]/[getSGRLimits])\n\n  §RConservative Influence§! is currently [getConservativeWeight] ([?ConservativeWeight|-]).\n\n  §GReformist Influence§! is currently [getReformistWeight] ([?LiberalWeight|+]).\n\n  The §TOutlook§! is [getSGROutlook] at [?SGRSocietyTicker|+]/§Ymonth§!.\n\nThe §TSocial Outlook§! of the people is dependant on a wide range of factors, including party popularity, foreign influence and the state of economic reform. It determines where the §YRegime meter§! ticks towards, and is crucial to the future of the §YRegime§!."
+ SGR_state_of_the_reich_category_desc:0 "§Y정권§!이 현재 기울어지고 있습니다... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§Y체제 안정도§!: £GFX_regime_stability_texticon [?SGRRegimeStability|W%]\n\n£GFX_regime_stability_texticon §YRegime Stability§! is paramount for the longevity of the §OFührer's§! government. It is affected by §gcontroversial decisions§!, including §Rconservative§! or §Greformist§! actions when the §TSocial Outlook§! is at their respective opposite, as well as £GFX_stability_texticon §WNation Stability§!, which it ticks towards. Should £GFX_regime_stability_texticon §YRegime Stability§! fall below §Y30%§!, the §Ogovernment§! may collapse!\n\n§TSOCIAL OUTLOOK§!: £social_outlook_texticon [getLeaningPivot] ([?SGRSocietyLevel|+2]/[getSGRLimits])\n\n  The §TOutlook§! is [getSGROutlook] at [?SGRSocietyTick|+]/§Y14 days§!.\n\n£social_outlook_texticon §TSocial Outlook§! is a measure of the §gGerman people's§! views on the world. Depending on factors including §Qeconomic reform§!, §Oregime leaning§! and more, it will change over time. Should the §Ogovernment's§! leaning be opposite to it, £GFX_regime_stability_texticon §YRegime Stability§! will begin to drop!"
 
- SGR_authdemvsfash_ticker_desc:0 "§YRegime alignment§! currently has a [getSGRAlignmentTrend] ([?alignmentTickerDisplay|+]/§Ymonth§!) tick and a [getLeaningPivot] pivot.\n\nWhere the §YRegime's§! leaning ticks towards is determined by the §gGerman people's outlook§!, and is marked on the speedometer with a colored pivot.\n\n§YRegime alignment§! is influenced chiefly by decisions made as well as the influence of §TSocial Outlook§!.\n\n§GReformist§! or §RConservative§! regime leaning boosts the respective §TSocial Outlook§! influences."
+ SGR_authdemvsfash_ticker_desc:0 "§YRegime alignment§! currently has a [getSGRAlignmentTrend] ([?alignmentTicker|+]/§Ymonth§!) tick and a [getLeaningPivot] pivot.\n\nThe £social_outlook_texticon §TSocial Outlook§! pivot determines where §YRegime Leaning§! ticks towards, and is marked on the speedometer."
 
- SGR_reformist_influence_tt:0 "§WThe §GReformist§! cause in the §gReich§! benefits from this.§!\n"
- SGR_reformist_influence_mid_tt:0 "§WThe §GReformist§! cause in the §gReich§! §Msignificantly§! benefits from this.§!\n"
- SGR_reformist_influence_big_tt:0 "§WThe §GReformist§! cause in the §gReich§! §Tstrongly§! benefits from this!§!\n"
+ SGR_reformist_influence_tt:0 "§WThe §GReformist§! cause in the §gReich§! benefits from this[getRefMalus1].§!\n"
+ SGR_reformist_influence_mid_tt:0 "§WThe §GReformist§! cause in the §gReich§! §Msignificantly§! benefits from this[getRefMalus2].§!\n"
+ SGR_reformist_influence_big_tt:0 "§WThe §GReformist§! cause in the §gReich§! §Tstrongly§! benefits from this[getRefMalus3].§!\n"
 
- SGR_conservative_influence_tt:0 "§WThe §RConservative§! cause in the §gReich§! benefits from this.§!\n"
- SGR_conservative_influence_mid_tt:0 "§WThe §RConservative§! cause in the §gReich§! §Osignificantly§! benefits from this.§!\n"
- SGR_conservative_influence_big_tt:0 "§WThe §RConservative§! cause in the §gReich§! §xstrongly§! benefits from this.§!\n"
+ SGR_malus_1_small:0 ", costing us §R2.5%§! £GFX_regime_stability_texticon §YRegime Stability§!"
+ SGR_malus_1_med:0 ", costing us §R5%§! £GFX_regime_stability_texticon §YRegime Stability§!"
+ SGR_malus_1_big:0 ", costing us §R10%§! £GFX_regime_stability_texticon §YRegime Stability§!"
+
+ SGR_conservative_influence_tt:0 "§WThe §RConservative§! cause in the §gReich§! benefits from this[getConMalus1].§!\n"
+ SGR_conservative_influence_mid_tt:0 "§WThe §RConservative§! cause in the §gReich§! §Osignificantly§! benefits from this[getConMalus2].§!\n"
+ SGR_conservative_influence_big_tt:0 "§WThe §RConservative§! cause in the §gReich§! §xstrongly§! benefits from this[getConMalus3].§!\n"
 
  SGR_statereich_speeches:0 "Hold Speech"
  SGR_statereich_speeches_desc:0 "Though many consider the students to be the backbone of Albert Speer's support, it is the NSDAP that is the Sword of Damocles hanging above him. With his charisma and political acumen, however, he can put on a dazzling display to appease some of the more pliable members."
+
+ SGR_statereich_promises_light:0 "Token Political Promises"
+ SGR_statereich_promises_light_desc:0 "We can’t forget about the base of support for our regime; the students, the intellectuals, everyone who fought and died for their hopes of a brighter future. If only to calm them down, we will promise token reforms."
+
+ SGR_statereich_promises_huge:0 "Vast Political Promises"
+ SGR_statereich_promises_huge_desc:0 "We need to shore up the stability of the regime and get people to calm down right now. Whatever we can say, whatever we can promise, whatever will get the people’s attention towards us and away from our enemies, we will do it. The reactionaries and the dissenters who question us on ‘feasibility’ - well, we’ll just have to do without them."
+
+ SGR_statereich_charge_treason:0 "Charge §jReactionaries§! with §RTreason§!"
+ SGR_statereich_charge_treason_desc:0 "We may rule the Reich, but that does not mean we are without opposition - far from it. The Reactionaries have been a consistent thorn in our side since the beginning, dragging their feet the entire way. We will need to remind them about who exactly calls the shots in the Reich, and that they best get with the program, or else. Some will see this as excessive, but for the long-term interests of the Reich, it must be done."
 
  SGR_StateReich_open_pakt:0 "§YShow Pakt-related Decisions§!"
  SGR_StateReich_open_pakt_desc:0 "Click to show decisions related to recreating the Einheitspakt."
@@ -93,6 +111,21 @@
 
  #State of the Reich
 
+ SGR_stab_bonus_small:0 "§WOur £GFX_regime_stability_texticon §YRegime Stability§! will §Gincrease§! by §G2.5%§!\n§!"
+ SGR_stab_bonus_med:0 "§WOur £GFX_regime_stability_texticon §YRegime Stability§! will §Gincrease§! by §G5%§!\n§!"
+ SGR_stab_bonus_big:0 "§WOur £GFX_regime_stability_texticon §YRegime Stability§! will §Gincrease§! by §G10%§!\n§!"
+ SGR_stab_bonus_20:0 "§WOur £GFX_regime_stability_texticon §YRegime Stability§! will §Gincrease§! by §G20%§!\n§!"
+
+ SGR_stab_malus_small:0 "§WOur £GFX_regime_stability_texticon §YRegime Stability§! will §Rdecrease§! by §R2.5%§!\n§!"
+ SGR_stab_malus_med:0 "§WOur £GFX_regime_stability_texticon §YRegime Stability§! will §Rdecrease§! by §R5%§!\n§!"
+ SGR_stab_malus_big:0 "§WOur £GFX_regime_stability_texticon §YRegime Stability§! will §Rdecrease§! by §R10%§!\n§!"
+ SGR_stab_malus_15:0 "§WOur £GFX_regime_stability_texticon §YRegime Stability§! will §Rdecrease§! by §R15%§!\n§!"
+ SGR_stab_malus_huge:0 "§WOur £GFX_regime_stability_texticon §YRegime Stability§! will §Rdecrease§! by §x50%§!!\n§!"
+
+ SGR_regime_stab:0 "§W£GFX_regime_stability_texticon §YRegime Stability§! must return to over §Y30%§!!§!"
+ SGR_collapse_averted:0 "§WThe regime's collapse has been averted.§!"
+ SGR_collapse_looming:0 "§xThe regime will collapse!§!"
+
  GER_SGR_propaganda_campaign_dynamic_modifier:0 "Propaganda Campaign"
 
  SGR_state_propaganda:0 "§WSTATE PROPAGANDA§!"
@@ -111,8 +144,8 @@
  SGR_launch_button_tt:0 "Current §WPropaganda Campaign§! effects:\n\n-Political Power gain modifier: [?SGRPropagandaPPDisplay|+%]\n-Weekly Stability gain: [?SGRPropagandaStabDisplay|+%]\n-[getSGRPropagandaOutlook]\n-[getSGRPropagandaRegime]"
  SGR_reformist_regime_prop_display:0 "§GReformist§! Regime Tick: [?SGRPropagandaReformistTickDisplay|+0]"
  SGR_conservative_regime_prop_display:0 "§RConservative§! Regime Tick: [?SGRPropagandaReformistTickDisplay|-0]"
- SGR_reformist_outlook_prop_display:0 "§TSocial Outlook§! §Gprogression§!: [?SGRReformistVarDisplay|+0]"
- SGR_conservative_outlook_prop_display:0 "§TSocial Outlook§! §Rregression§!: [?SGRConservativeVarDisplay|-0]"
+ SGR_reformist_outlook_prop_display:0 "£social_outlook_texticon §TSocial Outlook§! §Gprogression§!: [?SGRReformistVarDisplay|+0]"
+ SGR_conservative_outlook_prop_display:0 "£social_outlook_texticon §TSocial Outlook§! §Rregression§!: [?SGRConservativeVarDisplay|-0]"
 
 
  SGR_launch_underbutton_tt:0 "Launching a §WPropaganda Campaign§! requires:\n\n-Either a §RConservative§! or §GReformist§! Focus set\n-£GFX_political_power_texticon §MPolitical Power§! Investment\n-£GFX_dollar_sign §GBudget§! Investment\n\nA Propaganda Campaign takes §Y4 months§!."

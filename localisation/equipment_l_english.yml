@@ -1,7 +1,7 @@
 ﻿#NOTE - This file is for generic equipment loc. Use TNO_equipment_l_english for country specific stuff.
 l_english:
 
- EQUIPMENT_DESIGNER_DESC:0 "Designed by: $DESIGNER|Y$"
+ EQUIPMENT_DESIGNER_DESC:0 "설계: $DESIGNER|Y$"
  EQUIPMENT_ARMOR:0 "전차"
  EQUIPMENT_MOTORIZED:0 "차량화"
  EQUIPMENT_MECHANIZED:0 "기계화"
@@ -29,7 +29,7 @@ l_english:
  EQUIPMENT_NAVAL:0 "해군 장비"
  EQUIPMENT_AIR:0 "공군 장비"
  EQUIPMENT_VERSION:0 "Mk$VERSION|0$"
- EQUIPMENT_VEHICLE:0 "차챵"
+ EQUIPMENT_VEHICLE:0 "차량"
  UNIT_GENERIC_NAME_GENERIC_INFANTRY:0 "$NR$. $NAME$"
  UNIT_GENERIC_NAME_GER:0 "$NR$. $NAME$"
  UNIT_GENERIC_NAME_FRA:0 "$NR$ème $NAME$"
@@ -368,6 +368,7 @@ l_english:
 
   plane_cas_upgrade:0 "공격"
   plane_cas_upgrade_desc:0 "Improved weapons for attacking ground targets"
+  
  ### Planes ###
 ### Upgrades (Used in Equipment Designer) ###
 
@@ -382,28 +383,28 @@ l_english:
   infantry_equipment_short:0 "보병 장비"
   infantry_equipment_desc:0 "개인화기와 공용화기, 그 외 병사들에게 필요한 다양한 도구들입니다."
 
-  infantry_equipment_0:0 "1차대전 소총"
-  infantry_equipment_0_short:0 "1차대전 소총"
+  infantry_equipment_0:0 "Early Infantry Rifle"
+  infantry_equipment_0_short:0 "Early Infantry Rifle"
   infantry_equipment_0_desc:0 "대전쟁 전과 그 도중에 개발된 기본적인 보병용 소총입니다. 보통 볼트액션 방식인 이 소총은 현대 소총보다 덜 효과적입니다. 하지만 꼭 필요하다면 만들 수는 있습니다."
 
-  infantry_equipment_1:0 "2차대전 소총"
-  infantry_equipment_1_short:0 "2차대전 소총"
+  infantry_equipment_1:0 "Basic Infantry Rifle"
+  infantry_equipment_1_short:0 "Basic Infantry Rifle"
   infantry_equipment_1_desc:0 "제2차 세계 대전 후반기에 만들어진 보병용 소총입니다. 반자동 방식이나 전자동 방식인 이 소총의 설계는 조국을 덮친 위기의 결과입니다."
 
-  infantry_equipment_2:0 "냉전 소총"
-  infantry_equipment_2_short:0 "냉전 소총"
+  infantry_equipment_2:0 "Improved Infantry Rifle"
+  infantry_equipment_2_short:0 "Improved Infantry Rifle"
   infantry_equipment_2_desc:0 "제2차 세계 대전 당시 발생한 문제점을 보완한 소총입니다. 이 덜 복잡하고 더 믿음직한 소총은 사용 환경에 따라 쉽게 개조할 수 있습니다."
 
-  infantry_equipment_3:0 "개선된 소총"
-  infantry_equipment_3_short:0 "개선된 소총"
+  infantry_equipment_3:0 "Advanced Infantry Rifle"
+  infantry_equipment_3_short:0 "Advanced Infantry Rifle"
   infantry_equipment_3_desc:0 "개선된 가스 작동식 피스톤 소총으로 조정간과 가스 블로우백 기능이 달려있기도 합니다. 이 소총은 냉전 당시 예상된 시가전이나 아프리카 밀림전을 염두에 두고 설계되었습니다."
 
-  infantry_equipment_4:0 "진보된 소총"
-  infantry_equipment_4_short:0 "진보된 소총"
+  infantry_equipment_4:0 "Semi-Modern Infantry Rifle"
+  infantry_equipment_4_short:0 "Semi-Modern Infantry Rifle"
   infantry_equipment_4_desc:0 "더 가벼운 고분자 재료를 사용하고 개선된 부착물을 달 수 있는 소총입니다. 더 나은 반동 조절과 정확성을 위해 상대적으로 작은 신형 고속탄을 사용합니다."
 
-  infantry_equipment_5:0 "현대 소총"
-  infantry_equipment_5_short:0 "현대 소총"
+  infantry_equipment_5:0 "Modern Infantry Rifle"
+  infantry_equipment_5_short:0 "Modern Infantry Rifle"
   infantry_equipment_5_desc:0 "첨단 기술을 도입하고 더 다양한 작전에 맞게 설계된 현대식 소총입니다. 최신 컴퓨터 기술의 힘을 빌려 만들어진 이 소총은 더 꼼꼼하고 신뢰성 있게 설계되었습니다."
  ### Infantry Equipment ###
 
@@ -428,18 +429,18 @@ l_english:
   ## Infantry Anti-Tank ##
 
   ## Infantry Anti-Air ##
-   anti_air_shoulder_equipment:0 "대공 장비"
+   anti_air_shoulder_equipment:0 "Anti-Air Equipment"
 
-   anti_air_shoulder_equipment_0:0 "기본적 대공 장비"
+   anti_air_shoulder_equipment_0:0 "Improved Anti-Air Equipment"
    anti_air_shoulder_equipment_0_desc:0 "제2차 세계 대전 직후 개발된 기본적인 휴대용 방공체계(MANPADS)입니다. 항공기 엔진에서 나오는 열기를 추적하기 위한 센서가 달려있습니다."
 
-   anti_air_shoulder_equipment_1:0 "개선된 대공 장비"
+   anti_air_shoulder_equipment_1:0 "Advanced Anti-Air Equipment"
    anti_air_shoulder_equipment_1_desc:0 "비행 속도와 피해량을 늘리기 위해 로켓과 탄두의 설계를 개선한 개선형 MANPADS입니다. 항공기에서 나오는 신호를 추적합니다." 
 
-   anti_air_shoulder_equipment_2:0 "진보된 대공 장비"
+   anti_air_shoulder_equipment_2:0 "Semi-Modern Anti-Air Equipment"
    anti_air_shoulder_equipment_2_desc:0 "무반동 블로우백 방식을 채택한 MANPADS입니다. 플레어나 전자전과 같은 대항장비를 탐지하고 무력화할 수 있는 부품이 달려있습니다." 
 
-   anti_air_shoulder_equipment_3:0 "현대 대공 장비"
+   anti_air_shoulder_equipment_3:0 "Modern Anti-Air Equipment"
    anti_air_shoulder_equipment_3_desc:0 "전자 추적과 레이저 조준 방식을 합친 매우 진보한 MANPADS입니다. 더 가벼우며, 복합재료를 사용했고, 디지털 방식을 사용했으며, 다양한 탄두를 쓸 수 있습니다." 
   ## Infantry Anti-Air ##
  ### Support Equipment ###
@@ -448,19 +449,19 @@ l_english:
   motorized_equipment:0 "차량화 장비"
   motorized_equipment_desc:0 "차량화 장비"
 
-  motorized_equipment_0:0 "2차대전 차량화 장비"
+  motorized_equipment_0:0 "Early Motorized Equipment"
   motorized_equipment_0_desc:0 "차량화보병은 군 기계화의 첫걸음입니다. 민간 트럭은 병력 수송, 화포 견인, 장비 및 보급품 운반과 같은 군용 임무에 쉽게 적응합니다."
 
-  motorized_equipment_1:0 "차량화 장비 I"
+  motorized_equipment_1:0 "Basic Motorized Equipment"
   motorized_equipment_1_desc:0 "전용 개선을 거친 민간 트럭의 군용 파생형입니다. 거친 환경과 군사 작전을 버티기 위해 엔진을 업그레이드하고 더 튼튼한 부품을 사용합니다."
 
-  motorized_equipment_2:0 "차량화 장비 II"
+  motorized_equipment_2:0 "Improved Motorized Equipment"
   motorized_equipment_2_desc:0 "처음부터 군사용으로 설계되고 군용 부품을 사용한 차량입니다. 최근 전쟁에서 얻은 교훈에 따라 설계되었으며. 다른 군사 장비와 함께 쓰기 위해 호환성을 손보았습니다."
 
-  motorized_equipment_3:0 "차량화 장비 III"
+  motorized_equipment_3:0 "Advanced Motorized Equipment"
   motorized_equipment_3_desc:0 "이 트럭은 내구력과 수명을 최대화하기 위해 엄격한 시험을 거쳤습니다. 한계까지 밀어붙이더라도 야전에서 퍼지는 일은 없을 것입니다."
 
-  motorized_equipment_4:0 "차량화 장비 IV"
+  motorized_equipment_4:0 "Modern Motorized Equipment"
   motorized_equipment_4_desc:0 "두꺼운 장갑을 두르고 밑바닥에 지뢰 방호 장갑을 단 차량화 장비입니다. 지구의 어떤 곳에서도 굴러다니도록 만들어지고 시험받았습니다."
  ### Mobile Infantry ###
 
@@ -491,17 +492,17 @@ l_english:
    artillery_equipment_short:0 "야포"
    artillery_equipment_desc:0 "가벼운 화포로 수송할 때 분해할 수 있습니다. 이 덕분에 전에는 가기 힘든 곳에도 가져갈 수 있습니다."
 
-   artillery_equipment_1:0 "야포"
+   artillery_equipment_1:0 "견인포"
    artillery_equipment_1_short:0 "야포"
    artillery_equipment_1_desc:0 "Light-weight artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to reach."
 
-   artillery_equipment_2:0 "개선된 야포"
+   artillery_equipment_2:0 "Early Artillery"
    artillery_equipment_2_desc:0 "Light-weight artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to reach."
 
-   artillery_equipment_3:0 "진보된 야포"
+   artillery_equipment_3:0 "Basic Artillery"
    artillery_equipment_3_desc:0 "Light-weight artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to reach."
 
-   artillery_equipment_4:0 "준현대 야포"
+   artillery_equipment_4:0 "Advanced Artillery"
    artillery_equipment_4_desc:0 "Light-weight artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to reach."
 
    artillery_equipment_5:0 "현대 야포"
@@ -513,28 +514,28 @@ l_english:
    APC_artillery_equipment_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
     
    # 1950
-   APC_artillery_equipment_1:0 "50년대 경자주포"
-   APC_artillery_equipment_1_short:0 "50년대 경자주포"
+   APC_artillery_equipment_1:0 "Basic Light SPART"
+   APC_artillery_equipment_1_short:0 "Basic Light SPART"
    APC_artillery_equipment_1_desc:0 "Larger caliber rounds and better propellants are today's order in the post-war decade, even for self-propelled artillery chassis."
 
    # 1960
-   APC_artillery_equipment_2:0 "60년대 경자주포"
-   APC_artillery_equipment_2_short:0 "60년대 경자주포"
+   APC_artillery_equipment_2:0 "Improved Light SPART"
+   APC_artillery_equipment_2_short:0 "Improved Light SPART"
    APC_artillery_equipment_2_desc:0 "Larger caliber rounds and better propellants are today's order in the post-war decade, even for self-propelled artillery chassis"
 
    # 1970
-   APC_artillery_equipment_3:0 "70년대 경자주포"
-   APC_artillery_equipment_3_short:0 "70년대 경자주포"
+   APC_artillery_equipment_3:0 "Advanced Light SPART"
+   APC_artillery_equipment_3_short:0 "Advanced Light SPART"
    APC_artillery_equipment_3_desc:0 "Larger caliber rounds and better propellants are today's order in the post-war decade, even for self-propelled artillery chassis"
    
    # 1980
-   APC_artillery_equipment_4:0 "80년대 경자주포"
-   APC_artillery_equipment_4_short:0 "80년대 경자주포"
+   APC_artillery_equipment_4:0 "Semi-Modern Light SPART"
+   APC_artillery_equipment_4_short:0 "Semi-Modern Light SPART"
    APC_artillery_equipment_4_desc:0 "Larger caliber rounds and better propellants are today's order in the post-war decade, even for self-propelled artillery chassis"
 
    # 1990
-   APC_artillery_equipment_5:0 "90년대 경자주포"
-   APC_artillery_equipment_5_short:0 "90년대 경자주포"
+   APC_artillery_equipment_5:0 "Modern Light SPART"
+   APC_artillery_equipment_5_short:0 "Modern Light SPART"
    APC_artillery_equipment_5_desc:0 "Larger caliber rounds and better propellants are today's order in the post-war decade, even for self-propelled artillery chassis"
   ## Light Self-Propelled ##
 
@@ -543,28 +544,28 @@ l_english:
    MBT_artillery_equipment_desc:0 "무거운 차체에 대형 포를 얹은 이 자주포는 엄청난 화력을 지니고 있습니다."
   
    # 1950
-   MBT_artillery_equipment_1:0 "50년대 중자주포"
-   MBT_artillery_equipment_1_short:0 "50년대 중자주포"
+   MBT_artillery_equipment_1:0 "Basic Heavy SPART"
+   MBT_artillery_equipment_1_short:0 "Basic Heavy SPART"
    MBT_artillery_equipment_1_desc:0 "A large artillery piece mounted on a heavy chassis, these self-propelled guns carry a lot of firepower."
 
    # 1960
-   MBT_artillery_equipment_2:0 "60년대 중자주포"
-   MBT_artillery_equipment_2_short:0 "60년대 중자주포"
+   MBT_artillery_equipment_2:0 "Improved Heavy SPART"
+   MBT_artillery_equipment_2_short:0 "Improved Heavy SPART"
    MBT_artillery_equipment_2_desc:0 "A large artillery piece mounted on a heavy chassis, these self-propelled guns carry a lot of firepower."
 
    # 1970
-   MBT_artillery_equipment_3:0 "70년대 중자주포"
-   MBT_artillery_equipment_3_short:0 "70년대 중자주포"
+   MBT_artillery_equipment_3:0 "Advanced Heavy SPART"
+   MBT_artillery_equipment_3_short:0 "Advanced Heavy SPART"
    MBT_artillery_equipment_3_desc:0 "A large artillery piece mounted on a heavy chassis, these self-propelled guns carry a lot of firepower."
 
    # 1980
-   MBT_artillery_equipment_4:0 "80년대 중자주포"
-   MBT_artillery_equipment_4_short:0 "80년대 중자주포"
+   MBT_artillery_equipment_4:0 "Semi-Modern Heavy SPART"
+   MBT_artillery_equipment_4_short:0 "Semi-Modern Heavy SPART"
    MBT_artillery_equipment_4_desc:0 "A large artillery piece mounted on a heavy chassis, these self-propelled guns carry a lot of firepower."
 
    # 1990
-   MBT_artillery_equipment_5:0 "90년대 중자주포"
-   MBT_artillery_equipment_5_short:0 "90년대 중자주포"
+   MBT_artillery_equipment_5:0 "Modern Heavy SPART"
+   MBT_artillery_equipment_5_short:0 "Modern Heavy SPART"
    MBT_artillery_equipment_5_desc:0 "A large artillery piece mounted on a heavy chassis, these self-propelled guns carry a lot of firepower."
   ## Self-Propelled ##
 
@@ -589,16 +590,16 @@ l_english:
    anti_air_equipment_desc:0 "지상 상황이 빠르게 변한다는 말은 대공포도 빠르게 이동해야 한다는 것을 의미합니다. 견인식 대공포라면 이를 만족할 수 있습니다."
    anti_air_equipment_desc_old:0 "지상 상황이 빠르게 변한다는 말은 대공포도 빠르게 이동해야 한다는 것을 의미합니다. 견인식 대공포라면 이를 만족할 수 있습니다."
 
-   anti_air_equipment_1:0 "개선된 대공포"
-   anti_air_equipment_1_short:0 "개선된 대공포"
+   anti_air_equipment_1:0 "Early Anti-Air"
+   anti_air_equipment_1_short:0 "Early Anti-Air"
    anti_air_equipment_1_desc:0 "The rapidly changing situation above the ground meant that anti-air guns needed to be able to move quickly from one place to another. Towed anti air made this possible."
 
-   anti_air_equipment_2:0 "진보된 대공포"
-   anti_air_equipment_2_short:0 "진보된 대공포"
+   anti_air_equipment_2:0 "Basic Anti-Air"
+   anti_air_equipment_2_short:0 "Basic Anti-Air"
    anti_air_equipment_2_desc:0 "The rapidly changing situation above the ground meant that anti-air guns needed to be able to move quickly from one place to another. Towed anti air made this possible."
 
-   anti_air_equipment_3:0 "준현대 대공포"
-   anti_air_equipment_3_short:0 "준현대 대공포"
+   anti_air_equipment_3:0 "Advanced Anti-Air"
+   anti_air_equipment_3_short:0 "Advanced Anti-Air"
    anti_air_equipment_3_desc:1 "The rapidly changing situation above the ground meant that anti-air guns needed to be able to move quickly from one place to another. Towed anti air made this possible."
 
    anti_air_equipment_4:0 "현대 대공포"
@@ -611,28 +612,28 @@ l_english:
    APC_aa_equipment_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
     
    # 1950
-   APC_aa_equipment_1:0 "50년대 경자주대공포"
-   APC_aa_equipment_1_short:0 "50년대 경자주대공포"
+   APC_aa_equipment_1:0 "Basic Light SPAA"
+   APC_aa_equipment_1_short:0 "Basic Light SPAA"
    APC_aa_equipment_1_desc:0 "With the mobile warfare doctrine fully adopted by most nations worldwide, it's only natural that artillery and support pieces have been adapted. Light and powerful, self-propelled anti-air batteries can protect the army from any airborne peril as it advances or retreats."
 
    # 1960
-   APC_aa_equipment_2:0 "60년대 경자주대공포"
-   APC_aa_equipment_2_short:0 "60년대 경자주대공포"
+   APC_aa_equipment_2:0 "Improved Light SPAA"
+   APC_aa_equipment_2_short:0 "Improved Light SPAA"
    APC_aa_equipment_2_desc:0 "With the mobile warfare doctrine fully adopted by most nations worldwide, it's only natural that artillery and support pieces have been adapted. Light and powerful, self-propelled anti-air batteries can protect the army from any airborne peril as it advances or retreats."
 
    # 1970
-   APC_aa_equipment_3:0 "70년대 경자주대공포"
-   APC_aa_equipment_3_short:0 "70년대 경자주대공포"
+   APC_aa_equipment_3:0 "Advanced Light SPAA"
+   APC_aa_equipment_3_short:0 "Advanced Light SPAA"
    APC_aa_equipment_3_desc:0 "With the mobile warfare doctrine fully adopted by most nations worldwide, it's only natural that artillery and support pieces have been adapted. Light and powerful, self-propelled anti-air batteries can protect the army from any airborne peril as it advances or retreats."
    
    # 1980
-   APC_aa_equipment_4:0 "80년대 경자주대공포"
-   APC_aa_equipment_4_short:0 "80년대 경자주대공포"
+   APC_aa_equipment_4:0 "Semi-Modern Light SPAA"
+   APC_aa_equipment_4_short:0 "Semi-Modern Light SPAA"
    APC_aa_equipment_4_desc:0 "With the mobile warfare doctrine fully adopted by most nations worldwide, it's only natural that artillery and support pieces have been adapted. Light and powerful, self-propelled anti-air batteries can protect the army from any airborne peril as it advances or retreats."
 
    # 1990
-   APC_aa_equipment_5:0 "90년대 경자주대공포"
-   APC_aa_equipment_5_short:0 "90년대 경자주대공포"
+   APC_aa_equipment_5:0 "Modern Light SPAA"
+   APC_aa_equipment_5_short:0 "Modern Light SPAA"
    APC_aa_equipment_5_desc:0 "With the mobile warfare doctrine fully adopted by most nations worldwide, it's only natural that artillery and support pieces have been adapted. Light and powerful, self-propelled anti-air batteries can protect the army from any airborne peril as it advances or retreats."
   ## Light Self-Propelled ##
 
@@ -641,28 +642,28 @@ l_english:
    MBT_aa_equipment_desc:0 "강력한 무기를 가진 중자주대공포대는 적 폭격기나 다른 대형 항공기를 막는 데 적합합니다. 과거에는 견인식이거나 고정식이었지만 더 나은 자주성과 기동성을 위해 스스로 움직입니다."
     
    # 1950
-   MBT_aa_equipment_1:0 "50년대 중자주대공포"
-   MBT_aa_equipment_1_short:0 "50년대 중자주대공포"
+   MBT_aa_equipment_1:0 "Basic Heavy SPAA"
+   MBT_aa_equipment_1_short:0 "Basic Heavy SPAA"
    MBT_aa_equipment_1_desc:0 "Heavy anti-air batteries are perfect to protect the army from enemy bombers or other heavy aircraft with their powerful payload. No longer towed or fixed into place, they are now self propelled for higher autonomy and mobility."
 
    # 1960
-   MBT_aa_equipment_2:0 "60년대 중자주대공포"
-   MBT_aa_equipment_2_short:0 "60년대 중자주대공포"
+   MBT_aa_equipment_2:0 "Improved Heavy SPAA"
+   MBT_aa_equipment_2_short:0 "Improved Heavy SPAA"
    MBT_aa_equipment_2_desc:0 "Heavy anti-air batteries are perfect to protect the army from enemy bombers or other heavy aircraft with their powerful payload. No longer towed or fixed into place, they are now self propelled for higher autonomy and mobility."
 
    # 1970
-   MBT_aa_equipment_3:0 "70년대 중자주대공포"
-   MBT_aa_equipment_3_short:0 "70년대 중자주대공포"
+   MBT_aa_equipment_3:0 "Advanced Heavy SPAA"
+   MBT_aa_equipment_3_short:0 "Advanced Heavy SPAA"
    MBT_aa_equipment_3_desc:0 "Heavy anti-air batteries are perfect to protect the army from enemy bombers or other heavy aircraft with their powerful payload. No longer towed or fixed into place, they are now self propelled for higher autonomy and mobility."
 
    # 1980
-   MBT_aa_equipment_4:0 "80년대 중자주대공포"
-   MBT_aa_equipment_4_short:0 "80년대 중자주대공포"
+   MBT_aa_equipment_4:0 "Semi-Modern Heavy SPAA"
+   MBT_aa_equipment_4_short:0 "Semi-Modern Heavy SPAA"
    MBT_aa_equipment_4_desc:0 "Heavy anti-air batteries are perfect to protect the army from enemy bombers or other heavy aircraft with their powerful payload. No longer towed or fixed into place, they are now self propelled for higher autonomy and mobility."
 
    # 1990
-   MBT_aa_equipment_5:0 "90년대 중자주대공포"
-   MBT_aa_equipment_5_short:0 "90년대 중자주대공포"
+   MBT_aa_equipment_5:0 "Modern Heavy SPAA"
+   MBT_aa_equipment_5_short:0 "Modern Heavy SPAA"
    MBT_aa_equipment_5_desc:0 "Heavy anti-air batteries are perfect to protect the army from enemy bombers or other heavy aircraft with their powerful payload. No longer towed or fixed into place, they are now self propelled for higher autonomy and mobility."
   ## Self-Propelled ##
  ### Anti-Air ###
@@ -709,70 +710,107 @@ l_english:
  ### APC ###
   APC_equipment:0 "병력수송장갑차"
 
-  APC_equipment_0:0 "1940년대 APC"
+  APC_equipment_0:0 "Early APC"
   APC_equipment_0_desc:0 "병력수송장갑차는 제2차 세계 대전 당시 병력을 전장으로 수송하기 위해 개발되었습니다. 설계는 좀 조잡하지만, 소화기와 소구경 포격을 효과적으로 막을 수 있습니다. 소량의 소구경 화기를 탑재했습니다."
 
-  APC_equipment_1:0 "1950년대 APC"
+  APC_equipment_1:0 "Basic APC"
   APC_equipment_1_desc:0 "조금 정돈된 이 APC는 더 많은 수의 병사들 태울 수 있으며 가혹한 전장 환경에 더 적합합니다. 차량의 두꺼운 장갑은 기습당하거나 적지 너머로 병력을 수송할 때 유용합니다."
 
-  APC_equipment_2:0 "1960년대 APC"
+  APC_equipment_2:0 "Improved APC"
   APC_equipment_2_desc:0 "수륙양용 기능을 생각하며 APC를 만들고 외장 스노클이나 워터젯 같은 기능을 도입하면 다리를 쓸 수 없을 때 강을 건널 수 있을 뿐 아니라 상륙작전에서도 사용할 수 있습니다."
 
-  APC_equipment_3:0 "1970년대 APC"
+  APC_equipment_3:0 "Advanced APC"
   APC_equipment_3_desc:0 "APC 바퀴나 궤도의 현가장치를 개선하면 수송되는 승객들이 더 편안해할 뿐 아니라 필요할 때 더 빨리 나갈 수 있습니다."
 
-  APC_equipment_4:0 "1980년대 APC"
+  APC_equipment_4:0 "Semi-Modern APC"
   APC_equipment_4_desc:0 "새로 개발된 방탄유리를 우리 APC에 도입하면 공격 할때 조종수가 소화기 사격에 더 안전할 것입니다. 개선된 엔진은 우리 차량들을 더 신뢰성있고 연비 좋게 만들 것입니다."
 
-  APC_equipment_5:0 "1990년대 APC"
+  APC_equipment_5:0 "Modern APC"
   APC_equipment_5_desc:0 "Thicker underside plating will help to make this vehicle more resistant to mines and other IEDs, and integrated computing technology will allow it to stay connected and provide additional support when not transporting gear."
  ### APC ###
 
  ### IFV ###
   IFV_equipment:0 "보병전투차"
 
-  IFV_equipment_0:0 "1940년대 IFV"
+  IFV_equipment_0:0 "Early IFV"
   IFV_equipment_0_desc:0 "Infantry fighting vehicle that was developed during the Second World War, generally with a half-track or light tank design. Able to transport a squadron of soldiers while also having an autocannon or heavier gun for direct fire support."
 
-  IFV_equipment_1:0 "1950년대 IFV"
+  IFV_equipment_1:0 "Basic IFV"
   IFV_equipment_1_desc:0 "Intended to fill the gap between an APC and a MBT, this vehicle is purpose-designed with both troop transport and combat capability in mind. Its heavier armaments can prove useful in a firefight when no other support is available."
 
-  IFV_equipment_2:0 "1960년대 IFV"
+  IFV_equipment_2:0 "Improved IFV"
   IFV_equipment_2_desc:0 "This new generation of IFV is both heavily armed and armored, packing a powerful automatic cannon and adorned with armor nearly as thick as an APC. It can serve as an effective assault vehicle that can fight alongside the troops inside."
 
-  IFV_equipment_3:0 "1970년대 IFV"
+  IFV_equipment_3:0 "Advanced IFV"
   IFV_equipment_3_desc:0 "Featuring additional armaments such as a mounted machine gun in addition to the cannon, this IFV allows troops to fight from both within the vehicle using gun ports, or from outside the vehicle, using its heavier armor as cover."
 
-  IFV_equipment_4:0 "1980년대 IFV"
+  IFV_equipment_4:0 "Semi-Modern IFV"
   IFV_equipment_4_desc:0 "Additional armor features and countermeasures have been built into this IFV, offering improved protection from high-caliber rounds and artillery fragments, as well as thicker skirts to protect the wheels and treads from damage."
 
-  IFV_equipment_5:0 "1990년대 IFV"
+  IFV_equipment_5:0 "Modern IFV"
   IFV_equipment_5_desc:0 "Integrated digital systems and communications equipment enables this vehicle to provide substantial fire support, and specialized armor upgrades will allow it to keep its occupants safe in even the most hazardous of conditions."
  ### IFV ###
  
  ### MBT ###
-  MBT_equipment:0 "주력전차"
+  MBT_equipment:0 "Main Battle Tank"
   MBT_Das_Liger:0 "Der Liger"
   MBT_das_liger:0 "Der Liger"
 
-  MBT_equipment_0:0 "1940년대 MBT"
+  MBT_equipment_0:0 "Early MBT"
   MBT_equipment_0_desc:0 "Instead of developing a multitude of tank variants, it is much more efficient and effective to design a vehicle that can fill handle all roles. Early main battle tanks were developed from medium tanks used during the Second World War."
   
-  MBT_equipment_1:0 "1950년대 MBT"
+  MBT_equipment_1:0 "Basic MBT"
   MBT_equipment_1_desc:0 "With the development of more powerful engines, lighter tanks can carry heavier armaments and thicker armor, all while keeping a respectable top speed. This main battle tank will form a key component of our armored forces."
 
-  MBT_equipment_2:0 "1960년대 MBT"
+  MBT_equipment_2:0 "Improved MBT"
   MBT_equipment_2_desc:0 "More powerful main cannons, with calibers around 100mm, can penetrate nearly any type of armor at long ranges. Specialized armor will help to increase tank survivability as anti-tank weapons continue to become more advanced."
 
-  MBT_equipment_3:0 "1970년대 MBT"
+  MBT_equipment_3:0 "Advanced MBT"
   MBT_equipment_3_desc:0 "Further increasing the capabilities of the engines in our main battle tanks will allow us to make their armor even thicker and cover more of the vehicle, as well as increase overall reliability and fuel efficiency."
 
-  MBT_equipment_4:0 "1980년대 MBT"
+  MBT_equipment_4:0 "Semi-Modern MBT"
   MBT_equipment_4_desc:0 "Explosive reactive armor and other countermeasure system can further increase vehicle survivability, as helicopters and missiles continue to become a greater threat to our armored vehicles."
 
-  MBT_equipment_5:0 "1990년대 MBT"
+  MBT_equipment_5:0 "Modern MBT"
   MBT_equipment_5_desc:0 "Integrated electronic fire control systems can make use of newly developed computing technology, allowing our tanks to engage targets over longer distances with higher accuracy, and lighten the workload of the crew during an engagement."
  ### MBT ###
+
+ ### Misc Junk ###
+  super_heavy_tank_equipment:0 "Super-Heavy Tank"
+  super_heavy_tank_equipment_desc:0 "The Maus is in the haus."
+  super_heavy_tank_equipment_1:0 "Super-Heavy Tank"
+  super_heavy_tank_equipment_1_desc:0 "The Maus is in the haus."
+  GER_super_heavy_tank_equipment:0 "Maus"
+  GER_super_heavy_tank_equipment_desc:0 "The Maus is in the haus."
+  GER_super_heavy_tank_equipment_1:0 "Maus"
+  GER_super_heavy_tank_equipment_1_desc:0 "The Maus is in the haus."
+  Maus_equipment_1:0 "Panzer VIII Maus"
+  Maus_equipment_1_desc:0 "The Maus is in the haus."
+  maus:0 "Maus"
+  MBT_Maus_equipment:0 "Maus"
+  MBT_Maus_equipment_desc:0 "The Maus is in the haus."
+  flakmaus:0 "Flakmaus"
+  Maus_aa_equipment_1:0 "Panzer VIII Flakmaus"
+  Maus_aa_equipment_1_desc:0 "*THOOM THOOM THOOM THOOM THOOM THOOM THOOM*"
+  MBT_Maus_aa_equipment:0 "Flakmaus"
+  MBT_Maus_aa_equipment_desc:0 "*THOOM THOOM THOOM THOOM THOOM THOOM THOOM*"
+  kugelpanzer:0 "Kugelpanzer"
+  kugelpanzer_equipment:0 "Kugelpanzer"
+  kugelpanzer_equipment_desc:0 "Achtung! Kugelpanzer!"
+  kugelpanzer_equipment_1:0 "Kugelpanzer"
+  kugelpanzer_equipment_1_desc:0 "Achtung! Kugelpanzer!"
+  GER_kugelpanzer_equipment:0 "Kugelpanzer"
+  GER_kugelpanzer_equipment_desc:0 "Achtung! Kugelpanzer!"
+  GER_kugelpanzer_equipment_1:0 "Kugelpanzer"
+  GER_kugelpanzer_equipment_1_desc:0 "Achtung! Kugelpanzer!"
+  MBT_equipment:0 "MBT"
+  MBT_equipment_desc:0 "MBT"
+  IFV_equipment:0 "IFV"
+  IFV_equipment_desc:0 "IFV"
+  APC_equipment:0 "APC"
+  APC_equipment_desc:0 "APC"
+  infantry_anti_tank:0 "Infantry Anti-Tank"
+ ### Misc Junk ###
 #### Armor ####
 
 #### Special ####

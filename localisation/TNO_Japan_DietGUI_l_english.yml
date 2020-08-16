@@ -10,38 +10,38 @@ JAP_public_support_dynamic_modifier:0 "대중의 지지"
 JAP_D_house_of_reps:0 "§W중의원§!"
 JAP_D_house_of_peers:0 "§W귀족원§!"
 
-JAP_D_pres_of_house:0 "§WPRESIDENT§!\nof the House:"
+JAP_D_pres_of_house:0 "원내\n§W의장§!:"
 JAP_D_pres_of_house_name:0 "도쿠가와 이에마사"
-JAP_D_support_peers:0 "§MSUPPORT§!\nin the House of Peers:"
+JAP_D_support_peers:0 "귀족원 내\n§M지지도§!:"
 JAP_D_support_peers_var:0 "[getJAPPeersSupport] - [?JAP_Peers_support|Y%1]£GFX_podium_texticon"
-JAP_D_public_approval:0 "§TPUBLIC§!\nApproval:"
+JAP_D_public_approval:0 "§T대중의§!\n호의도:"
 JAP_D_public_approval_var:0 "[getJAPPublicSupport] - [?JAP_Public_support|Y%1]£GFX_approval_texticon"
 
 #Factions
-JAP_D_royalist_faction:0 "§GKIDOITES§!"
-JAP_D_liberals_faction:0 "§YLIBERALS§!"
+JAP_D_royalist_faction:0 "§G기도 파§!"
+JAP_D_liberals_faction:0 "§Y진보주의자§!"
 JAP_D_independents_faction:0 "§gINDEPENDENTS§!"
-JAP_D_conservatives_faction:0 "§BCONSERVATIVES§!"
-JAP_D_reformists_faction:0 "§rREFORMISTS§!"
+JAP_D_conservatives_faction:0 "§B보수주의자§!"
+JAP_D_reformists_faction:0 "§r개혁주의자§!"
 
 ##Scripted loc##
 
 #GUI
 
-JAP_GUI_IJA_tt:0 "§O일본 제국 육군의 지지§! ([?JAP_IJA_support|Y]§Y%§!)\n\nSupport from both branches of the Imperial Japanese Armed Forces is important to the §Ggovernment's§! stability and paramount to the Empire's ability to defend itself. Should the §OIJA§! and §BIJN§! not be approximately in equal favor of the §Ggovernment§!, §RParanoia§! will increase."
-JAP_GUI_IJA_title_sl:0 "§OThe Imperial Japanese Army§!"
+JAP_GUI_IJA_tt:0 "§O일본 제국 육군의 지지§! ([?JAP_IJA_support|Y]§Y%§!)\n\n일본 제국군 내 육해군 양 계열의 지지는 §G정부§! 안정도에 중요하며 제국의 방어 능력 그 자체로도 다른 무엇보다 중요합니다. §G정부§!에 대한 §O제국 육군§!과 §B제국 해군§!의 지지도가 거의 비슷하지 않는다면 §R편집증§!이 심해질 것입니다."
+JAP_GUI_IJA_title_sl:0 "§O일본 제국 육군§!"
 
-JAP_GUI_IJN_tt:0 "§B일본 제국 해군의 지지§! ([?JAP_IJN_support|Y]§Y%§!)\n\nSupport from both branches of the Imperial Japanese Armed Forces is important to the §Ggovernment's§! stability and paramount to the Empire's ability to defend itself. Should the §OIJA§! and §BIJN§! not be approximately in equal favor of the §Ggovernment§!, §RParanoia§! will increase."
-JAP_GUI_IJN_title_sl:0 "§BThe Imperial Japanese Navy§!"
+JAP_GUI_IJN_tt:0 "§B일본 제국 해군의 지지§! ([?JAP_IJN_support|Y]§Y%§!)\n\n일본 제국군 내 육해군 양 계열의 지지는 §G정부§! 안정도에 중요하며 제국의 방어 능력 그 자체로도 다른 무엇보다 중요합니다. §G정부§!에 대한 §O제국 육군§!과 §B제국 해군§!의 지지도가 거의 비슷하지 않는다면 §R편집증§!이 심해질 것입니다."
+JAP_GUI_IJN_title_sl:0 "§B일본 제국 해군§!"
 
 JAP_GUI_balance_title_sl:0 "§WNo branch§!"
-JAP_GUI_Tension_tt:0 "§RParanoia§! ([?JAP_Tension|R]§R%§!)\n\n[getJAPDominatingFaction] §Wis currently dominating the military.§!\n\n§RParanoia§! is an abstract measure of the Japanese military's unhingedness and willingness to take actions into their own hands, a possibly §Rextremely dangerous§! problem for the Empire of Japan. The higher §RParanoia§! becomes, the more infighting the military suffers and the lesser the §Ggovernment's§! control over the military becomes." 
+JAP_GUI_Tension_tt:0 "§R편집증도§! ([?JAP_Tension|R]§R%§!)\n\n[getJAPDominatingFaction]§W이 현재 군부를 장악하고 있습니다.§!\n\n§R편집증§!은 일본군의 불안정함 및 자기 손으로 행동을 취하려는 의지를 추상적으로 보여주는 척도로 일본 제국에게 있어서 §R극히 위험한§! 문제일 것입니다. §R편집증도§!가 높아질수록 군의 내분은 점점 심해질 것이며 §G정부§!의 군부 통제력도 약해질 것입니다." 
 
 JAP_GUI_faction_name:0 "[getJAPGUIFaction]"
 
 JAP_GUI_faction_status:0 "[getJAPGUIFactionStatus]"
-JAP_GUI_faction_status_opposition:0 "§ROPPOSITION§!"
-JAP_GUI_faction_status_government:0 "§GGOVERNMENT§!"
+JAP_GUI_faction_status_opposition:0 "§R야당§!"
+JAP_GUI_faction_status_government:0 "§G여당§!"
 
 JAP_GUI_faction_seats:0 "[getJAPGUIFactionSeats]£GFX_diet_texticon"
 JAP_GUI_faction_seats_1:0 "[?JAP_Diet_Seats^1|Y0]"
@@ -50,35 +50,35 @@ JAP_GUI_faction_seats_3:0 "[?JAP_Diet_Seats^3|Y0]"
 JAP_GUI_faction_seats_4:0 "[?JAP_Diet_Seats^4|Y0]"
 JAP_GUI_faction_seats_5:0 "[?JAP_Diet_Seats^5|Y0]"
 
-JAP_GUI_actions_timing_14:0 "Available every §Y14 days§!"
-JAP_GUI_actions_timing_30:0 "Available every §Y30 days§!"
+JAP_GUI_actions_timing_14:0 "매 §Y14일§!마다 가능"
+JAP_GUI_actions_timing_30:0 "매 §Y30일§!마다 가능"
 
 JAP_GUI_action_1:0 "[getJAPGUIAction1]"
 JAP_GUI_action_1_tt:0 "[getJAPGuiAction1tt]"
-JAP_government_action_1:0 "§GEmbellish Accomplishments§!"
+JAP_government_action_1:0 "§G업적 꾸미기§!"
 JAP_government_action_1_tt:0 "Results are still the best way to convince people to side with you. Sometimes, it takes a little convincing - and what better way is there to convince someone than to dress up the truth?"
-JAP_opposition_action_1:0 "§RDiscredit Faction§!"
+JAP_opposition_action_1:0 "§R계파 신임 떨어뜨리기§!"
 JAP_opposition_action_1_tt:0 "The strife for dominance over the House of Representatives is an eternal battle between its factions. Thankfully, all that some people need to switch sides is learning just how bad their current benefactors are - even if it may be somewhat exaggerated..."
 JAP_opposition_action_1_cost:0 "§Y25§!£GFX_political_power_texticon  | §Y2%§! £GFX_podium_texticon"
 
 JAP_GUI_action_2:0 "[getJAPGUIAction2]"
 JAP_GUI_action_2_tt:0 "[getJAPGuiAction2tt]"
-JAP_government_action_2:0 "§GUse the Public§!"
+JAP_government_action_2:0 "§G대중을 이용하기§!"
 JAP_government_action_2_tt:0 "One does not necessarily have to rule with the people's assent, but having it makes governing considerably easier. This includes convincing Members of Parliament to join ranks with you, even if at the cost of some of the public's respect."
-JAP_opposition_action_2:0 "§RAttack Publicly§!"
+JAP_opposition_action_2:0 "§R공개적으로 공격하기§!"
 JAP_opposition_action_2_tt:0 "Our enemies in the House of Representatives are fair game. It is part and parcel of the life of a politician to discredit adversaries whenever they can, however they must."
 JAP_opposition_action_2_cost:0 "§Y25§!£GFX_political_power_texticon  | §Y2%§!£GFX_approval_texticon"
 
 JAP_GUI_action_3:0 "[getJAPGUIAction3]"
 JAP_GUI_action_3_tt:0 "[getJAPGuiAction3tt]"
-JAP_government_action_3:0 "§GLaunch Propaganda Campaign§!"
+JAP_government_action_3:0 "§G선전 작전 시작§!"
 JAP_government_action_3_tt:0 "Although the right to rule is constitutionally mandated for the government, the people and House of Peers must be supportive of it for it to come to any fruition. A well-funded propaganda campaign is sure to foster this belief amongst them."
-JAP_opposition_action_3:0 "§RLaunch Slander Campaign§!"
+JAP_opposition_action_3:0 "§R모략 작전 시작§!"
 JAP_opposition_action_3_tt:0 "A concerning amount of people, both in the general public and the House of Peers, continue to support our government's adversaries. It is time for them to learn the truth about them, no matter how ugly we claim it is."
 JAP_opposition_action_3_cost:0 "§Y50§!£GFX_political_power_texticon  | §Y50M§!£GFX_dollar_sign"
 
-JAP_ConservativeParty_Ino:0 "Ino"
-JAP_ConservativeParty_Ikeda:0 "Ikeda"
+JAP_ConservativeParty_Ino:0 "이노"
+JAP_ConservativeParty_Ikeda:0 "이케다"
 
 #IJA/IJN/Tension
 
@@ -100,10 +100,10 @@ IJN_button_3_tt:0 "§RDECREASE BUDGET§!\n\nSlashing the budget of the §BIJN§!
 IJN_button_4_title:0 "§R-§!£GFX_navy_experience"
 IJN_button_4_tt:0 "§RDEMOTE OFFICERS§!\n\nWhatever may be the reason, the government will demote several §BIJN§! officers deemed unruly. This will, however, cause the branch to become even more §Rparanoid§!.\n\n§R-5 Navy Experience§!\n§R-10% §BIJN§! Support§!\n§G+5% §OIJA§! Support§!\n§R+1.5% Paranoia§!\n\n§YAvailable every month§!"
 
-Tension_button_1_tt:0 "§GINTERSERVICE TRAINING PROGRAMS§!\n\n~~gimme loc~~\n\n§R+25M USD Expenditure§!\n§G+2.5% §BIJN§! Support§!\n§G+2.5% §OIJA§! Support§!\n§G-5% Paranoia§!\n\n§YAvailable every month§!"
-Tension_button_2_tt:0 "§GENCOURAGE INTERSERVICE WAR GAMES§!\n\n~~gimme loc~~\n\n§R+350M USD Expenditure§!\n§G+5% §BIJN§! Support§!\n§G+5% §OIJA§! Support§!\n§G-25% Paranoia§!\n\n§YAvailable every 180 days§!"
-Tension_button_3_tt:0 "§RFIGHT INTERSERVICE CORRUPTION§!\n\n~~gimme loc~~\n\n§R-10% §BIJN§! Support§!\n§R-10% §OIJA§! Support§!\n§G-10% Paranoia§!\n\n§YAvailable every 48 days§!"
-Tension_button_4_tt:0 "§RREMOVE GENERAL HQ'S COMMAND ROLE§!\n\n~~gimme loc~~\n\n§R-25% §BIJN§! Support§!\n§R-25% §OIJA§! Support§!\n§G-40% Paranoia§!\n\n§YAvailable once every §Ryear§!§!"
+Tension_button_1_tt:0 "§GINTERSERVICE TRAINING PROGRAMS§!\n\nBy holding training programs involving both the Army and the Navy, we can slightly increase the support of both and act to lessen military paranoia.\n\n§R+25M USD Expenditure§!\n§G+2.5% §BIJN§! Support§!\n§G+2.5% §OIJA§! Support§!\n§G-5% Paranoia§!\n\n§YAvailable every month§!"
+Tension_button_2_tt:0 "§GENCOURAGE INTERSERVICE WAR GAMES§!\n\nFor a larger cash investment, we can stage complex war games requiring cooperation between the branches of the Military, increasing the support of the Army and Navy and decreasing paranoia to a significant degree.\n\n§R+350M USD Expenditure§!\n§G+5% §BIJN§! Support§!\n§G+5% §OIJA§! Support§!\n§G-25% Paranoia§!\n\n§YAvailable every 180 days§!"
+Tension_button_3_tt:0 "§RFIGHT INTERSERVICE CORRUPTION§!\n\nFighting corruption within the Army and the Navy will decrease paranoia, but we will lose a degree of goodwill with both. No one likes having their dirty laundry aired out in public...\n\n§R-10% §BIJN§! Support§!\n§R-10% §OIJA§! Support§!\n§G-10% Paranoia§!\n\n§YAvailable every 48 days§!"
+Tension_button_4_tt:0 "§RREMOVE GENERAL HQ'S COMMAND ROLE§!\n\nWe can take drastic measures to decrease the ability of the Armed Forces to create instability. Yet in doing so, we will strongly harm our relationship with both. That, in itself, could have dire consequences.\n\n§R-25% §BIJN§! Support§!\n§R-25% §OIJA§! Support§!\n§G-40% Paranoia§!\n\n§YAvailable once every §Ryear§!§!"
 
 JAP_IJA_support_inc_small_tt:0 "§W§OIJA§! support §Gincreases§! somewhat.§!"
 JAP_IJA_support_inc_med_tt:0 "§W§OIJA§! support §Gincreases§! moderately.§!"
@@ -131,11 +131,11 @@ JAP_Tension_dec_big_tt:0 "§W§RParanoia§! §Gdecreases§! significantly.§!"
 
 #House of Peers
 
-JAP_Peers_support_none:0 "§xNon-Existent§!"
-JAP_Peers_support_weak:0 "§RWeak§!"
-JAP_Peers_support_average:0 "§YAverage§!"
-JAP_Peers_support_high:0 "§OHigh§!"
-JAP_Peers_support_veryhigh:0 "§GVery High§!"
+JAP_Peers_support_none:0 "§x없음§!"
+JAP_Peers_support_weak:0 "§R약함§!"
+JAP_Peers_support_average:0 "§Y보통§!"
+JAP_Peers_support_high:0 "§O높음§!"
+JAP_Peers_support_veryhigh:0 "§G매우 높음§!"
 
 JAP_Peers_support_tt:0 "The §MSupport of the House of Peers§! is viable to have for any Prime Minister of Japan, as it is the §WHouse of Peers§! and Privy Council that ultimately nominate the Prime Minister to begin with. As such, keeping them content is of paramount importance. Should their §MSupport§! fall below §Y50%§!, the Prime Minister's reign falls in §Rcritical danger and may collapse§!!"
 
@@ -151,11 +151,11 @@ JAP_Peers_support_decrease_huge:0 "The §MSupport of the House of Peers§! §Rde
 
 #Public Approval
 
-JAP_Public_support_none:0 "§xHostile§!"
-JAP_Public_support_weak:0 "§RUnpopular§!"
-JAP_Public_support_average:0 "§YWary§!"
-JAP_Public_support_high:0 "§OHigh§!"
-JAP_Public_support_veryhigh:0 "§GVery High§!"
+JAP_Public_support_none:0 "§x적대적임§!"
+JAP_Public_support_weak:0 "§R인기없음§!"
+JAP_Public_support_average:0 "§Y경계함§!"
+JAP_Public_support_high:0 "§O높음§!"
+JAP_Public_support_veryhigh:0 "§G매우 높음§!"
 
 JAP_Public_support_tt:0 "§TPublic Support§! is crucial to any government wishing to safely rule over its state, and the Empire of Japan is not an exception to this. The Prime Minister's government thrives and shrivels under the §TPublic's§! watchful eye, and their demeanor is crucial to how much support the ruling faction has in the §WHouse of Representatives§!. Falling below §Y30%§! will §Rrapidly diminish the ruling faction's power§!."
 

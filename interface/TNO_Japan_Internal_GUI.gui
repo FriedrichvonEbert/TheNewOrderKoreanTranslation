@@ -1,0 +1,660 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TNO_Japan_Internal_GUI_open"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "Japan_Internal_GUI_Open_Button"
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Open_Button"
+			position = { x = 238 y = 41 }
+			pdx_tooltip = "scripted_gui_open_tt_jap_gov"
+			scale = 0.65
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=189 y=-16 }
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Japan_Internal_GUI_main"
+		size = { width = 778 height = 672 }
+		position = { x = 541 y = 79 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		
+		iconType = {
+			name = "Japan_Internal_GUI_Background"
+			spriteType = "GFX_Japan_Internal_GUI_Background"
+			position = { x = 12 y = 16 }
+		}
+		
+		### House of Peers ###
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_HoP_Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_36_outline"
+			text = JAP_D_house_of_peers
+			maxWidth = 778
+			maxHeight = 36
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_HoP_Support"
+			position = { x = 0 y = 50 }
+			font = "aldrich_30_outline"
+			text = JAP_D_support_peers
+			maxWidth = 778
+			maxHeight = 36
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_HoP_Support_Percent"
+			position = { x = 0 y = 108 }
+			font = "aldrich_32_outline"
+			text = JAP_D_support_peers_var
+			maxWidth = 778
+			maxHeight = 36
+			format = center
+			pdx_tooltip = JAP_Peers_support_tt
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_HoP_President"
+			position = { x = 22 y = 50 }
+			font = "aldrich_30_outline"
+			text = JAP_D_pres_of_house
+			maxWidth = 225
+			maxHeight = 36
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_HoP_President_Name"
+			position = { x = 22 y = 108 }
+			font = "aldrich_32_outline"
+			text = JAP_D_pres_of_house_name
+			maxWidth = 225
+			maxHeight = 36
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_HoP_Approval"
+			position = { x = 532 y = 50 }
+			font = "aldrich_30_outline"
+			text = JAP_D_public_approval
+			maxWidth = 225
+			maxHeight = 36
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_HoP_Approval_Percentage"
+			position = { x = 532 y = 108 }
+			font = "aldrich_32_outline"
+			text = JAP_D_public_approval_var
+			maxWidth = 225
+			maxHeight = 36
+			format = center
+			pdx_tooltip = JAP_Public_support_tt
+		}
+		
+		
+		### House of Representatives ###
+
+
+		containerWindowType = {
+			name = "TNO_Japan_Internal_GUI_Seats_Slots"
+			size = { width = 500 height = 200 }
+			position = { x = 150 y = 205 }
+			orientation = UPPER_LEFT
+	
+			gridBoxType = {
+				name = "TNO_Japan_Internal_GUI_Seats_GridBox"
+				slotsize = { width = 16 height = 16 } 
+				add_horizontal = no
+				max_slots_vertical = 15
+				max_slots_horizontal = 31
+			}
+		}
+	
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_HoR_Title"
+			position = { x = 0 y = 170 }
+			font = "aldrich_36_outline"
+			text = JAP_D_house_of_reps
+			maxWidth = 778
+			maxHeight = 36
+			format = center
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "Japan_Internal_GUI_Military_Button"
+			position = { x = -67 y = 172 }
+			quadTextureSprite ="GFX_Japan_Internal_GUI_Military_Button"
+			orientation = upper_right
+		}
+		
+		# iconType = {
+		# 	name = "Japan_Internal_GUI_Seats_Grid"
+		# 	spriteType = "GFX_Japan_Internal_GUI_Seats_Grid"
+		# 	position = { x = 96 y = 204 }
+		# }
+		
+		iconType = {
+			name = "Japan_Internal_GUI_Portrait_Left_1"
+			spriteType = "GFX_Japan_Internal_GUI_Portrait_Kido_Kouichi"
+			position = { x = 74 y = 548 }
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Left_1_Faction"
+			position = { x = 56 y = 444 }
+			font = "aldrich_20_outline"
+			text = JAP_D_royalist_faction
+			maxWidth = 108
+			maxHeight = 36
+			format = center
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Left_1_Name"
+			position = { x = 57 y = 480 }
+			font = "aldrich_24_outline"
+			text = "기도"
+			maxWidth = 104
+			maxHeight = 36
+			format = center
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Box_Left_1_Button"
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Box_Button"
+			position = { x = 60 y = 519 }
+			buttonFont = "aldrich_18_outline"
+			text = "상호작용"
+		}
+		
+		iconType = {
+			name = "Japan_Internal_GUI_Portrait_Left_2"
+			spriteType = "GFX_Japan_Internal_GUI_Portrait_Takagi_Soukichi"
+			position = { x = 214 y = 548 }
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Left_2_Faction"
+			position = { x = 197 y = 444 }
+			font = "aldrich_20_outline"
+			text = JAP_D_liberals_faction
+			maxWidth = 104
+			maxHeight = 36
+			format = center
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Left_2_Name"
+			position = { x = 197 y = 480 }
+			font = "aldrich_24_outline"
+			text = "다카기"
+			maxWidth = 104
+			maxHeight = 36
+			format = center
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Box_Left_2_Button"
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Box_Button"
+			position = { x = 200 y = 519 }
+			buttonFont = "aldrich_18_outline"
+			text = "상호작용"
+		}
+		
+		iconType = {
+			name = "Japan_Internal_GUI_Portrait_Middle"
+			spriteType = "GFX_Japan_Internal_GUI_Portrait_Miki_Takeo"
+			position = { x = 354 y = 548 }
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Left_3_Faction"
+			position = { x = 319 y = 444 }
+			font = "aldrich_20_outline"
+			text = JAP_D_independents_faction
+			maxWidth = 140
+			maxHeight = 36
+			format = center
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Middle_Name"
+			position = { x = 337 y = 480 }
+			font = "aldrich_24_outline"
+			text = "미키"
+			maxWidth = 104
+			maxHeight = 36
+			format = center
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Box_Middle_Button"
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Box_Button"
+			position = { x = 340 y = 519 }
+			buttonFont = "aldrich_18_outline"
+			text = "상호작용"
+		}
+		
+		iconType = {
+			name = "Japan_Internal_GUI_Portrait_Right_2"
+			position = { x = 494 y = 548 }
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Right_2_Faction"
+			position = { x = 458 y = 444 }
+			font = "aldrich_20_outline"
+			text = JAP_D_conservatives_faction
+			maxWidth = 140
+			maxHeight = 36
+			format = center
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Right_2_Name"
+			position = { x = 477 y = 480 }
+			font = "aldrich_24_outline"
+			text = "[JAP_Internal_GUI_GetConservativePartyLeaderName]"
+			maxWidth = 104
+			maxHeight = 36
+			format = center
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Box_Right_2_Button"
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Box_Button"
+			position = { x = 480 y = 519 }
+			buttonFont = "aldrich_18_outline"
+			text = "상호작용"
+		}
+		
+		iconType = {
+			name = "Japan_Internal_GUI_Portrait_Right_1"
+			spriteType = "GFX_Japan_Internal_GUI_Portrait_Kaya_Okinori"
+			position = { x = 634 y = 548 }
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Right_1_Faction"
+			position = { x = 598 y = 444 }
+			font = "aldrich_20_outline"
+			text = JAP_D_reformists_faction
+			maxWidth = 140
+			maxHeight = 36
+			format = center
+		}
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Box_Right_1_Name"
+			position = { x = 618 y = 480 }
+			font = "aldrich_24_outline"
+			text = "가야"
+			maxWidth = 104
+			maxHeight = 36
+			format = center
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Box_Right_1_Button"
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Box_Button"
+			position = { x = 620 y = 519 }
+			buttonFont = "aldrich_18_outline"
+			text = "상호작용"
+		}
+		
+		buttonType = {
+			name = "TNO_Japan_Internal_GUI_close_button"
+			position = { x = -35 y = 20 }
+			quadTextureSprite ="GFX_crt_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Japan_Internal_GUI_faction_info_window"
+		size = { width = 400 height = 232 }
+		position = { x = 638 y = 177 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "SandboxFloaterBackground"
+		}
+
+		buttonType = {
+			name = "Japan_faction_info_close_button"
+			position = { x = -30 y = 11 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			Orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+		}
+
+		instantTextboxType = {
+			name = "Faction_Name"
+			position = { x = 0 y = 1 }
+			font = "aldrich_36_outline"
+			text = JAP_GUI_faction_name
+			maxWidth = 400
+			maxHeight = 36
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "Government_Status"
+			position = { x = 0 y = 32 }
+			font = "aldrich_30_outline"
+			text = JAP_GUI_faction_status
+			maxWidth = 200
+			maxHeight = 36
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "Faction_Strength"
+			position = { x = 200 y = 32 }
+			font = "aldrich_30_outline"
+			text = JAP_GUI_faction_seats
+			maxWidth = 200
+			maxHeight = 36
+			format = center
+		}
+
+		iconType = {
+			name = "Japan_faction_info_window_buttons_bg"
+			spriteType = "GFX_SGR_state_info_buttons_bg"
+			position = { x = 15 y = 65 }
+		}
+
+		buttonType = {
+			name = "Japan_faction_info_window_button_1"
+			quadTextureSprite = "GFX_SGR_state_info_button"
+			position = { x = 15 y = 65 }
+			pdx_tooltip = JAP_GUI_actions_timing_14
+			pdx_tooltip_delayed = JAP_GUI_action_1_tt
+		}
+		instantTextboxType = {
+			name = "Japan_faction_info_window_button_1_desc"
+			position = { x = 20 y = 67 }
+			font = "aldrich_20_outline"
+			text = JAP_GUI_action_1
+			format = left
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "Japan_faction_info_window_button_1_cost"
+			position = { x = 180 y = 83 }
+			font = "aldrich_24_outline"
+			text = JAP_opposition_action_1_cost
+			format = right
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "Japan_faction_info_window_button_2"
+			quadTextureSprite = "GFX_SGR_state_info_button"
+			position = { x = 15 y = 119 }
+			pdx_tooltip = JAP_GUI_actions_timing_14
+			pdx_tooltip_delayed = JAP_GUI_action_2_tt
+		}
+		instantTextboxType = {
+			name = "Japan_faction_info_window_button_2_desc"
+			position = { x = 20 y = 121 }
+			font = "aldrich_20_outline"
+			text = JAP_GUI_action_2
+			format = left
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "Japan_faction_info_window_button_2_cost"
+			position = { x = 180 y = 137 }
+			font = "aldrich_24_outline"
+			text = JAP_opposition_action_2_cost
+			format = right
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "Japan_faction_info_window_button_3"
+			quadTextureSprite = "GFX_SGR_state_info_button"
+			position = { x = 15 y = 173 }
+			pdx_tooltip = JAP_GUI_actions_timing_30
+			pdx_tooltip_delayed = JAP_GUI_action_3_tt
+		}
+		instantTextboxType = {
+			name = "Japan_faction_info_window_button_3_desc"
+			position = { x = 20 y = 175 }
+			font = "aldrich_20_outline"
+			text = JAP_GUI_action_3
+			format = left
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "Japan_faction_info_window_button_3_cost"
+			position = { x = 180 y = 191 }
+			font = "aldrich_24_outline"
+			text = JAP_opposition_action_3_cost
+			format = right
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "TNO_Japan_Internal_GUI_Military_Window"
+		size = { width = 380 height = 580 }
+		position = { x = 541 y = 79 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_thin_border2"
+		}
+		
+		iconType = {
+			name = "Japan_Internal_GUI_Sidebar_Background"
+			spriteType = "GFX_Japan_Internal_GUI_Sidebar_Background"
+			position = { x = 10 y = 10 }
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Sidebar_Title"
+			position = { x = 0 y = 22 }
+			font = "aldrich_36_outline"
+			text = "대일본제국군"
+			maxWidth = 380
+			maxHeight = 24
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Sidebar_IJA"
+			position = { x = 12 y = 148 }
+			font = "aldrich_36_outline"
+			text = "육군 지지"
+			maxWidth = 176
+			maxHeight = 24
+			format = center
+		}
+		iconType = {
+			name = "Japan_Internal_GUI_ProgressBar_IJA"
+			position = { x = 198 y = 113 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_ProgressBar"
+			pdx_tooltip = JAP_GUI_IJA_tt
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_IJA_Button_1"
+			position = { x = 196 y = 160 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Green"
+			buttonFont = "aldrich_24_outline"
+			buttonText = IJA_button_1_title
+			pdx_tooltip = IJA_button_1_tt
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_IJA_Button_2"
+			position = { x = 280 y = 160 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Green"
+			buttonFont = "aldrich_24_outline"
+			buttonText = IJA_button_2_title
+			pdx_tooltip = IJA_button_2_tt
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_IJA_Button_3"
+			position = { x = 196 y = 208 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Red"
+			buttonFont = "aldrich_24_outline"
+			buttonText = IJA_button_3_title
+			pdx_tooltip = IJA_button_3_tt
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_IJA_Button_4"
+			position = { x = 280 y = 208 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Red"
+			buttonFont = "aldrich_24_outline"
+			buttonText = IJA_button_4_title
+			pdx_tooltip = IJA_button_4_tt
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Sidebar_IJN"
+			position = { x = 12 y = 302 }
+			font = "aldrich_36_outline"
+			text = "해군 지지"
+			maxWidth = 176
+			maxHeight = 24
+			format = center
+		}
+		iconType = {
+			name = "Japan_Internal_GUI_ProgressBar_IJN"
+			position = { x = 198 y = 267 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_ProgressBar"
+			pdx_tooltip = JAP_GUI_IJN_tt
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_IJN_Button_1"
+			position = { x = 196 y = 314 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Green"
+			buttonFont = "aldrich_24_outline"
+			text = IJN_button_1_title
+			pdx_tooltip = IJN_button_1_tt
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_IJN_Button_2"
+			position = { x = 280 y = 314 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Green"
+			buttonFont = "aldrich_24_outline"
+			text = IJN_button_2_title
+			pdx_tooltip = IJN_button_2_tt
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_IJN_Button_3"
+			position = { x = 196 y = 362 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Red"
+			buttonFont = "aldrich_24_outline"
+			text = IJN_button_3_title
+			pdx_tooltip = IJN_button_3_tt
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_IJN_Button_4"
+			position = { x = 280 y = 362 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Red"
+			buttonFont = "aldrich_24_outline"
+			text = IJN_button_4_title
+			pdx_tooltip = IJN_button_4_tt
+		}
+		
+		instantTextBoxType = {
+			name = "Japan_Internal_GUI_Sidebar_Tension"
+			position = { x = 12 y = 472 }
+			font = "aldrich_36_outline"
+			text = "편집증도"
+			maxWidth = 176
+			maxHeight = 24
+			format = center
+		}
+		iconType = {
+			name = "Japan_Internal_GUI_ProgressBar_Tension"
+			position = { x = 198 y = 421 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_ProgressBar"
+			pdx_tooltip = JAP_GUI_Tension_tt
+		}
+		iconType = {
+			name = "Japan_Internal_GUI_Sidebar_Tension_Button_1_Icon"
+			position = { x = 216 y = 472 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_BtnIcn_6"
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_Tension_Button_1"
+			position = { x = 196 y = 468 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Green"
+			buttonFont = "aldrich_18_outline"
+			pdx_tooltip = Tension_button_1_tt
+		}
+		iconType = {
+			name = "Japan_Internal_GUI_Sidebar_Tension_Button_2_Icon"
+			position = { x = 300 y = 472 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_BtnIcn_6"
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_Tension_Button_2"
+			position = { x = 280 y = 468 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Green"
+			buttonFont = "aldrich_18_outline"
+			pdx_tooltip = Tension_button_2_tt
+		}
+		iconType = {
+			name = "Japan_Internal_GUI_Sidebar_Tension_Button_3_Icon"
+			position = { x = 216 y = 520 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_BtnIcn_5"
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_Tension_Button_3"
+			position = { x = 196 y = 516 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Red"
+			buttonFont = "aldrich_18_outline"
+			pdx_tooltip = Tension_button_3_tt
+		}
+		iconType = {
+			name = "Japan_Internal_GUI_Sidebar_Tension_Button_4_Icon"
+			position = { x = 300 y = 520 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_BtnIcn_5"
+		}
+		buttonType = {
+			name = "Japan_Internal_GUI_Sidebar_Tension_Button_4"
+			position = { x = 280 y = 516 }
+			quadTextureSprite = "GFX_Japan_Internal_GUI_Sidebar_Button_Red"
+			buttonFont = "aldrich_18_outline"
+			pdx_tooltip = Tension_button_4_tt
+		}
+		
+		buttonType = {
+			name = "TNO_Japan_Internal_GUI_Military_close_button"
+			position = { x = -33 y = 14 }
+			quadTextureSprite ="GFX_crt_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "TNO_Japan_Internal_GUI_Seats_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 25 height = 25 }
+
+		iconType = {
+			name = "TNO_Japan_Internal_GUI_Seats_Entry_Box"
+			spriteType = "GFX_Diet_Seat_Boxes"
+		}
+	}
+}

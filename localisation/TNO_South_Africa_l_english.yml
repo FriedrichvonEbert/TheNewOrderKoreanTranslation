@@ -1,5 +1,5 @@
 ﻿l_english:
- #Country leader
+ ### Country Leaders ###
  POLITICS_VILLIERS_GRAAFF_DESC:0 "Succeeding his father's position as Baronet of Cape Town, De Villiers Graaff soon entered the ring of South African politics. He had worked his way from the lower echelons, starting his career as a member of the House of Assembly and eventually, his hard labor and commitments paid off, as he was elected to lead the Union Party in '56. It seemed to Graaff that his ascension to power as Prime Minister was dutifully needed and to succeed, he had to balance the delicate house of cards and maneuver his way through the system to prevent his nation from tearing itself apart.\n\nSince his appointment, Graaff worked tirelessly to maintain his balancing act to preserve the fragile equilibrium South Africa had. The bulk of the problems mostly lay from the ramblings of the National Party and Boers, who stalked him with malice, armed with daggers, waiting for a chance to backstab him and break free. Another problem was the African National Congress, an organization established by a conglomeration of blacks who take to the streets and protest daily, all waiting for their long promised rights and fairer treatment. Naturally, Graaff's solution was clear, suppress both and play them against each other and maybe, just maybe, negotiate some terms to successfully quell their resistance.\n\nThe year is 1962, and South Africa teeters towards a collision course. Both the NP and the ANC are getting restless, becoming more radical and dangerous to the government each passing day. The Germans await at the border, sharpening their claws for when they can dig into the fresh meat of the Cape colony, threatening to destroy the liberty of the people. Prime Minister De Villiers Graff must steer his nation in the right course and prepare accordingly, lest all his hard-worked effort be destroyed in one fell swoop."
 
  ### Country Names ###
@@ -70,41 +70,40 @@
  SAF_REP_fascism_ADJ:0 "남아프리카"
 
  ### Ministers ###
- SAF_Jan_Hendrik_Hofmeyr_dep:0 "Jan Hendrik Hofmeyr"
- SAF_Colin_Eglin_mil:0 "Colin Eglin"
- SAF_Vause_Raw_for:0 "Vause Raw"
- SAF_Barend_du_Plessis_eco:0 "Barend du Plessis"
+ SAF_Jan_Hendrik_Hofmeyr_dep:0 "얀 헨드릭 호프메이"
+ SAF_Colin_Eglin_mil:0 "콜린 에글린"
+ SAF_Vause_Raw_for:0 "베우스 로우"
+ SAF_Barend_du_Plessis_eco:0 "바렌드 두 플레시"
 
  ### Political Parties ###
  SAF_national_socialism_party:0 "HNP"
- SAF_national_socialism_party_long:0 "Herstigte Nasionale Party"
+ SAF_national_socialism_party_long:0 "재편국민당"
 
  SAF_fascism_party:0 "HNP"
- SAF_fascism_party_long:0 "Herstigte Nasionale Party"
+ SAF_fascism_party_long:0 "재편국민당"
 
- SAF_despotism_party:0 "National Party - Militarists"
- SAF_despotism_party_long:0 "National Party - Militarists"
+ SAF_despotism_party:0 "국민당 - 군국주의"
+ SAF_despotism_party_long:0 "국민당 - 군국주의"
 
- SAF_authoritarian_democrat_party:0 "National Party"
- SAF_authoritarian_democrat_party_long:0 "National Party"
+ SAF_authoritarian_democrat_party:0 "국민당"
+ SAF_authoritarian_democrat_party_long:0 "국민당"
 
- SAF_social_conservative_party:0 "United Party"
- SAF_social_conservative_party_long:0 "United Party"
+ SAF_social_conservative_party:0 "통일당"
+ SAF_social_conservative_party_long:0 "통일당"
 
- SAF_social_liberal_party:0 "Liberal Party"
- SAF_social_liberal_party_long:0 "Liberal Party"
+ SAF_social_liberal_party:0 "자유당"
+ SAF_social_liberal_party_long:0 "자유당"
 
- SAF_social_democrat_party:0 "Progressive Party"
- SAF_social_democrat_party_long:0 "Progressive Party"
+ SAF_social_democrat_party:0 "진보당"
+ SAF_social_democrat_party_long:0 "진보당"
 
  SAF_socialist_party:0 "ANC"
- SAF_socialist_party_long:0 "African National Congress - Moderates"
+ SAF_socialist_party_long:0 "아프리카 국민회의 - 온건파"
 
  SAF_communist_party:0 "ANC"
- SAF_communist_party_long:0 "African National Congress"
+ SAF_communist_party_long:0 "아프리카 국민회의"
 
  ### Legacy of Rhodes / Mining Mechanic ###
- 
  SAF_diamonds_from_sierra_leon:0 "로즈의 유산"
  SAF_diamonds_from_sierra_leon_desc:0 "약 100년전에 킴벌리에서 다이아몬드가 발견되며, 그 이후로 전 세계의 정착민들이 끝없는 부에 대한 꿈을 찾아 케이프에 왔습니다만, 광업 거래는 이러한 모험자들을 위한 곳이 아닙니다. 세실 로즈가 설립하고 현재 케이프타운의 해리 오펜하이머가 운영하는 더 비어스 법인은 귀중한 광물의 추출과 거래를 완전히 통제하고 있습니다. 드 비어스와 긴밀히 협력함으로써, 우리는 OFN과 유니티-팍트 두 나라의 경제에 문호를 개방했을 뿐만 아니라, 우리나라를 자랑스러운 선진국으로 만들 수 있는 수단을 갖춘 셈입니다 - 만약 우리가 강대국들의 분노를 불러오는걸 피한다면 말이죠.\n\n우리는 한달에 £GFX_diamond_texticon [?SAF_diamond_gain|G0] [get.SAF_diamond_plural_gain] 를 얻습니다.\n우리는 £GFX_diamond_texticon [?SAF_diamond_count|G0] [get.SAF_diamond_plural].\n\n팍트와의 거래는 [get.SAF_PAKT_TRADE_CHECK].\n팍트의 불만도는 [?SAF_Pakt_Displeasure|R0%]"
 
@@ -180,7 +179,7 @@
  SAF_UNCLE_RESEARCH_GOES_UP_5:0 "§GAmerican support will boost research by 5%.§!"
  SAF_UNCLE_MANPOWER_POOL_GOES_UP_150:0 "§GAmerican support will boost Weekly Manpower Gain by 150.§!"
 
- #Ideas
+ ### Ideas ###
  SAF_Boer_Viet_Cong:0 "The Boer Kommando Rising"
  SAF_Boer_Viet_Cong_desc:0 "Armed Afrikaner paramilitary groups aren't a new phenomenon in South African history. However, many of these groups, bolstered by strong public support and RK influence, are conducting operations in South African territory with the goal of overthrowing the government. We must deal with this problem, or a free south Africa will cease to exist."
  SAF_The_Empty_Throne:0 "비어진 왕좌"
@@ -205,37 +204,38 @@
  policing_level_7:0 "Policing Level 7"
  policing_level_8:0 "Policing Level 8"
 
- SAF_CONTINUED_RESISTANCE:0 "Continued Resistance"
+ SAF_CONTINUED_RESISTANCE:0 "계속된 저항"
  SAF_CONTINUED_RESISTANCE_desc:0 ""
  SAF_Cape_Town_Massacre:0 "케이프타운 대학살"
  SAF_Cape_Town_Massacre_desc:0 "케이프타운 대학살은 우리의 손을 영원히 피로 물들였고, 사람들은 거리에서 혁명을 부르짖습니다. 그들을 막으려는 사람은 거의 없습니다. 이것으로부터 회복하는 것은 매우 힘든 일이 될것입니다."
  SAF_Army_Deployed:0 "군대 배치됨"
- SAF_Army_Deployed_desc:0 "We have deployed the army in to restore order in the Nation"
- SAF_ANC_Riots:0 "국민당 저항"
+ SAF_Army_Deployed_desc:0 "After the treacherous display from the police officers, it shows that we must take even further action to quell the Boers and their incitement of unrest. We must deploy our armed forces to areas of high resistance and continue the policing efforts employed.\n\nWhile the populace will become more aggressive due to this seemgingly hostile action, it is necessary to ensure the stability of South Africa."
+ SAF_ANC_Riots:0 "국민당 시위"
  SAF_ANC_Riots_desc:0 "국민당이 주도하는 시위와 파업은 우리의 경제를 마비시켰습니다. 뭔가 조치를 취해야합니다"
- SAF_icelandic_support_staff:0 "Icelandic support staff"
- SAF_icelandic_support_staff_desc:0 "The government of iceland has sent a large amount of support staff to aid in the war effort"
+ SAF_icelandic_support_staff:0 "Icelandic Support Staff"
+ SAF_icelandic_support_staff_desc:0 "The Icelandic Government has sent over a small envoy of highly trained doctors and nurses to help instruct and aid our young medics. Iceland possesses one of the most advanced healthcare systems, so their experienced systems and procedures used will be taught to us.\n\nWith this, we hope we can prevent more deaths whether on the battlefield or on the homefront."
  SAF_our_darkest_hour:0 "우리의 가장 어두운 순간"
  SAF_our_darkest_hour_desc:0 "독일인과 보어인들이 우리 나라를 압도하고 있습니다. 지금이 바로 젊은 공화국의 역사중 가장 어두운 순간입니다. 상황이 암담해보일지라도, 당면한 역경에도 불구하고, 우리는 계속 싸울것이며 절대 항복하지 않을겁니다!"
- SAF_boer_insurgency:0 "Boer Insurgency"
- SAF_boer_insurgency_desc: "The Boers continually strike at us from our own territory, so far our efforts at tracking them have born little fruit"
- SAF_boer_insurgency2:0 "Boer Insurgency"
- SAF_boer_insurgency_desc:0 "The Boers continually strike at us from our own territory, so far our efforts at tracking them have born little fruit" #duplicate loc key
+ SAF_boer_insurgency:0 "보어 반란"
+ SAF_boer_insurgency_desc: "The Boers plan to fight a protracted war once more, striking us the further we push into their territory. Our efforts to uproot their hideouts and warding off their raids have borne little fruit."
+ SAF_boer_insurgency2:0 "보어 반란"
+ SAF_boer_insurgency_desc:0 "The Boers plan to fight a protracted war once more, striking us the further we push into their territory. Our efforts to uproot their hideouts and warding off their raids have borne little fruit." #duplicate loc key
  SAF_surprise_attack:0 "Surprise Attack!"
- SAF_surprise_attack_desc:0 "TODO"
+ SAF_surprise_attack_desc:0 "When the Boers took up arms en masse against the South African state, we were caught with our pants down. They moved swiftly and unexpectedly in organizing themselves into a ramshackle state with an organized militia, fully capable of dealing crippling blows to our forces. We are still reeling from the shock.\n\nWithout a doubt, we must step back and re-organize our efforts before we proceed, else we risk being blindsided by the Boers once more."
  SAF_CORDS:0 "Civil Operations and Revolutionary Development Support"
  SAF_CORDS_desc:0 ""
  SAF_CORDS_2:0 "Civil Operations and Revolutionary Development Support"
  SAF_CORDS_2_desc:0 ""
  SAF_Coluna_Infernal:0 "Iberian Counterinsurgency Units"
- SAF_Coluna_Infernal:0 "Portugal produced perhaps one of the finest self-trained guerrilla fighters the world has ever seen, their years of experience, ruthless methods and knowledge of the terrain has proven to be tremendous effective in hunting down Boer insurgents in the African Bush earning them nicknames as 'Os Terriveis' and 'A Coluna Infernal', the 'Terrible Ones', and the 'Troops from Hell'"
+ SAF_Coluna_Infernal:0 "Portugal produced perhaps one of the finest self-trained guerrilla fighters the world has ever seen. Their years of experience, ruthless methods and knowledge of the terrain have proven tremendously effective in hunting down Boer insurgents in the African Bush, earning them nicknames such as 'Os Terriveis', 'A Coluna Infernal', the 'Terrible Ones', and the 'Troops from Hell'"
  SAF_USLANTCOM_benefits:0 "Benefits of USLANTCOM"
  SAF_USLANTCOM_benefits_desc:0 ""
  SAF_chaos_behind_lines:0 "Chaos Behind our Lines"
  SAF_chaos_behind_lines_desc:0 ""
  SAF_American_training:0 "American Training"
  SAF_American_training_desc:0 ""
- SAF_unconventional_tactics:0 "Unconventional Tactics"
+ SAF_Unconventional_Tactics:0 "Unconventional Tactics"
+ SAF_Unconventional_Tactics_desc:0 "As the war endures, we find ourselves under ever increasing pressure from the combined forces of the Reichskommissariats and the Boer insurgency. To counter these pressures, we have developed a plethora of robust and unconventional stratagems to employ against the Germans and Boers. Ambushes. Insurgency. Psychological warfare. Fighting behind their lines. Every step closer our enemies take towards our borders will make them grow ever more fearful of what tricks the South Africans have up their sleeves. More often than not, our foes find their ranks already noticeably depleted by the time they reach the lines of conventional battle."
  SAF_Unconventional_Tactics_RK:0 "Unconventional Tactics"
  SAF_Unconventional_Tactics_RK_desc:0 "On the open battlefield, our forces had no trouble whatsoever with the outdated army of South Africa. We were able to quickly overrun them in similar fashion to the Second World War. However, recent developments have given us more trouble than we would like to admit. The South Africans are beginning to utilize methods of warfare that we had not anticipated. The enemy now hides, making full use of their landscape to avoid direct confrontation. We now face ambushes and traps rather than conventional battles. Our soldiers are struggling to adapt to this dramatic shift in the war. Unless we can adjust equally as quickly, we suspect that the fight will rage on for longer than we could have anticipated."
  SAF_Unconventional_Tactics_RK_2:0 "Unconventional Tactics"
@@ -565,7 +565,7 @@
  SAF.50.a:0 "These broties look like they know how to throw a good party!"
 
  SAF.51.t:0 "The Cape Town Sealift"
- SAF.51.desc:0 ""The South Africans needed those guns in Cape Town yesterday! Don't keep me waiting like this again!" Major General Bigelow snapped, before slamming the phone receiver down on the representative from Norfolk & Western Railway. After sparing a second for a quiet sigh, he picked up the receiver again as he pored over the rail timetables provided by the Ordnance Corps. \n\nOutside Bigelow's office, a young major winced and turned to his colonel as the phone receiver crashed down again. "I know we're all up to our eyeballs organizing the sealift to South Africa, but what's got General Bigelow so worked up?" \n\n"Whatever supplies the South Africans didn't abandon, they're burning through in days," the colonel replied testily. "They're throwing all the munitions and men they have at the Nazis, and soon they'll be out of both. And besides..." \n\nThe colonel pointed at a campaign medal on the General's desk. \n\n"Twenty years ago, Major Bigelow was a logistics officer during the Defense of Britain. President Kennedy was slow getting industry to mobilize, so he had to send over every gun he could buy, beg, or divert." \n\nThe major's eyes widened as he made the connection. \n\n"It wasn't enough.""
+ SAF.51.desc:0 ""The South Africans needed those guns in Cape Town yesterday! Don't keep me waiting like this again!" Major General Bigelow snapped, before slamming the phone receiver down on the representative from Norfolk & Western Railway. After sparing a second for a quiet sigh, he picked up the receiver again as he pored over the rail timetables provided by the Ordnance Corps.\n\nOutside Bigelow's office, a young major winced and turned to his colonel as the phone receiver crashed down again. "I know we're all up to our eyeballs organizing the sealift to South Africa, but what's got General Bigelow so worked up?"\n\n"Whatever supplies the South Africans didn't abandon, they're burning through in days," the colonel replied testily. "They're throwing all the munitions and men they have at the Nazis, and soon they'll be out of both. And besides..."\n\nThe colonel pointed at a campaign medal on the General's desk.\n\n"Twenty years ago, Major Bigelow was a logistics officer during the Defense of Britain. President Kennedy was slow getting industry to mobilize, so he had to send over every gun he could buy, beg, or divert."\n\nThe major's eyes widened as he made the connection.\n\n"It wasn't enough.""
  SAF.51.a:0 "Not this time, goddamnit!"
 
  SAF.53.t:0 "The Queen's Men"
@@ -898,7 +898,7 @@
  SAF.147.a:0 "Südwestafrika beckons!"
 
  SAF.148.t:0 "Africa Addio - Zum Bomber "
- SAF.148.desc:0 "From the outside, the place looked almost surreal, or like a practical joke pulled by an architect with far too much free time and poor sense of humour. Just outside of the barbed wire, snaking around the perimeter of an air force base with its hangars and concrete control towers, stood the perfect imitation of a Bavarian brauhaus, dead in the middle of the arid landscape of the Kalahari. "Zum Bomber" said the sign outside, with a picture of a cartoonish pilot drinking an oversized pint of beer while driving its plane in mad circles across the sky. Much like the building, its colours were fading in the dusty wind. Two men, armed with cameras and a microphone, made their way inside.\n\nEin Film, ja? the airman laughed with his comrades, all of them looking into the camera. Most of them still wearing pilots' clothes, the Luftwaffe crew members each had their beers and cigarettes, coarsely laughing and smoking in the dimly lit interior. "Well, you've come to the right place!" said one of them, who seemed to be their leader, in a thickly accented English. "Right here you can see the forgotten heroes of the Reich. The proud airmen! We're the ones who'll save the day in Africa! We're the ones who will remind these dirty black Untermenschen they belong in the stone age, and we'll bomb them enough to make sure they go back to it!" Everyone laughed, and another round of alcohol was passed around, followed by many others.\n\nMany hours passed, and the night fell over the Namibian desert - thousands of stars lit above. And yet, the two filmmakers were still there - many pilots had gone to sleep, but a few, visibly drunk, were still in the tavern. "Franco und Gualtiero, huh? From Italy. I've been there, once. On vacation, when I was ein Kind." The pilot smiled, a half smoked cigarette hanging from his lips. "I wish I could go on a vacation. Sometimes, it's just...how do you say it in English?" A pause followed. The pilot's eyes wandered off in the far distance. A distant rumble was heard, a bomber returning to the runways. "Tiring. It feels tiring." The pilot got up, struggling to stay on his feet. "I did a mission on a rebel held village, yesterday. I've been to the place, there used to be children there. They will never go on a vacation." The pilot smiled dryly, before a grimace of disgust appeared on his face as he left the tavern."
+ SAF.148.desc:0 "From the outside, the place looked almost surreal, or like a practical joke pulled by an architect with far too much free time and poor sense of humour. Just outside of the barbed wire, snaking around the perimeter of an air force base with its hangars and concrete control towers, stood the perfect imitation of a Bavarian brauhaus, dead in the middle of the arid landscape of the Kalahari. "Zum Bomber" said the sign outside, with a picture of a cartoonish pilot drinking an oversized pint of beer while driving its plane in mad circles across the sky. Much like the building, its colours were fading in the dusty wind. Two men, armed with cameras and a microphone, made their way inside.\n\nEin Film, ja? The airman laughed with his comrades, all of them looking into the camera. Most of them still wearing pilots' clothes, the Luftwaffe crew members each had their beers and cigarettes, coarsely laughing and smoking in the dimly lit interior. "Well, you've come to the right place!" said one of them, who seemed to be their leader, in a thickly accented English. "Right here you can see the forgotten heroes of the Reich. The proud airmen! We're the ones who'll save the day in Africa! We're the ones who will remind these dirty black Untermenschen they belong in the stone age, and we'll bomb them enough to make sure they go back to it!" Everyone laughed, and another round of alcohol was passed around, followed by many others.\n\nMany hours passed, and the night fell over the Namibian desert - thousands of stars lit above. And yet, the two filmmakers were still there - many pilots had gone to sleep, but a few, visibly drunk, were still in the tavern. "Franco und Gualtiero, huh? From Italy. I've been there, once. On vacation, when I was ein Kind." The pilot smiled, a half smoked cigarette hanging from his lips. "I wish I could go on a vacation. Sometimes, it's just... how do you say it in English?" A pause followed. The pilot's eyes wandered off in the far distance. A distant rumble was heard, a bomber returning to the runways. "Tiring. It feels tiring." The pilot got up, struggling to stay on his feet. "I did a mission on a rebel-held village, yesterday. I've been to the place, there used to be children there. They will never go on a vacation." The pilot smiled dryly, before a grimace of disgust appeared on his face as he left the tavern."
  SAF.148.a:0 "Time to leave for Zentralafrika."
 
  SAF.149.t:0 "Africa Addio - Dogs of War"
@@ -1101,665 +1101,7 @@
  ask_the_ofn_for_assistance:0 "Ask the OFN for Assistance"
  ask_the_ofn_for_assistance_desc:0 "The OFN is an alliance that agrees that all members must assist in any war, but only after a majority vote in a united summit. Let's begin the preparations for the first declaration of this treaty, and show the fascists that the Free World will fight on!"
 
-  #Flags
+ #Flags
  SAF_pro_anc:0 "Talking with the ANC"
  SAF_anti_anc:0 "Opposing the ANC"
  SAF_schild_formed:0 "The African RKs have grouped together."
-
-##### Equipment Loc #####
- #### Infantry ####
-  ### Infantry Equipment ###
-   # 1936
-   SAF_infantry_equipment_0:0 "Short Magazine Lee-Enfield Mk VI"
-   SAF_infantry_equipment_0_short:0 "Lee-Enfield"
-
-   # 1945
-   SAF_infantry_equipment_1:0 "No.9 Mk1 Rifle"
-   SAF_infantry_equipment_1_short:0 "No.9 Mk1"
-
-   # 1958
-   SAF_infantry_equipment_2:0 "NF-LAG G1"
-   SAF_infantry_equipment_2_short:0 "NF-LAG G1"
-
-   # 1968
-   SAF_infantry_equipment_3:0 "SLRA1"
-   SAF_infantry_equipment_3_short:0 "SLRA1"
-
-   # 1978
-   SAF_infantry_equipment_4:0 "SLRA2"
-   SAF_infantry_equipment_4_short:0 "SLRA2"
-
-   # 1988
-   SAF_infantry_equipment_5:0 "SA80"
-   SAF_infantry_equipment_5_short:0 "SA80"
-  ### Infantry Equipment ###
-
-  ### Support Equipment ###
-   ## Support Weapons ##
-    SAF_support_weapons:0 "M1918A2 BAR and M2 mortar"
-    SAF_support_weapons2:0 "M1919A6 Browning and M30 mortar"
-    SAF_support_weapons3:0 "M60E1 GPMG and M29 mortar"
-    SAF_support_weapons4:0 "Colt Automatic Rifle"
-    SAF_support_weapons5:0 "Stoner 63 and M29A1 mortar"
-    SAF_support_weapons6:0 "M60E2 GPMG"
-    SAF_support_weapons7:0 "M19 Mortar"
-    SAF_support_weapons8:0 "M249 SAW"
-    SAF_support_weapons9:0 "M224 Mortar"
-    SAF_support_weapons10:0 "M60E3 GPMG"
-    SAF_support_weapons11:0 "M252 Mortar"
-   ## Support Weapons ##
-
-   ## Infantry Anti-Tank ##
-    SAF_anti_tank_equipment_0:0 "PIAT Mk1"
-    SAF_anti_tank_equipment_1:0 "M20B1 Super Bazooka"
-    SAF_anti_tank_equipment_2:0 "M72 LAW"
-    SAF_anti_tank_equipment_3:0 "M47 Dragon"
-    SAF_anti_tank_equipment_4:0 "M136 AT4"
-   ## Infantry Anti-Tank ##
-
-   ## Infantry Anti-Air ##
-    SAF_anti_air_shoulder_equipment_0:0 "FIM-43 Redeye"
-    SAF_anti_air_shoulder_equipment_1:0 "FIM-92A Stinger"
-    SAF_anti_air_shoulder_equipment_2:0 "FIM-92B Stinger"
-    SAF_anti_air_shoulder_equipment_3:0 "FIM-92C Stinger"
-   ## Infantry Anti-Air ##
-  ### Support Equipment ###
-
-  ### Mobile Infantry ###
-   SAF_motorized_equipment_0:0 "GMC CCKW"
-   SAF_motorized_equipment_1:0 "REO M35 6x6"
-   SAF_motorized_equipment_2:0 "REO M54 6x6"
-   SAF_motorized_equipment_3:0 "AM General M809"
-   SAF_motorized_equipment_4:0 "Oshkosh HEMTT"
-  ### Mobile Infantry ###
- #### Infantry ####
-
- #### Artillery & Anti-Air ####
-  ### Artillery ###
-   ## Normal ##
-    SAF_artillery_equipment_3:0 "Projector, Rocket 3in, No.8 Mk1"
-    SAF_artillery_equipment_3_short:0 "Land Mattress"
-
-    SAF_artillery_equipment_4:0 "Gun, 105mm, field, L118"
-    SAF_artillery_equipment_4_short:0 "L118 Light Gun"
-
-    SAF_artillery_equipment_5:0 "Gun, 105mm, field, L120"
-    SAF_artillery_equipment_5_short:0 "L120 Light Gun"
-   ## Normal ##
-
-   ## Light Self-Propelled ##
-    # 1950
-    SAF_APC_artillery_equipment_1:0 "Crusader 5.5-inch Self-Propelled"
-    SAF_APC_artillery_equipment_1_short:0 "Crusader 5.5-in. SP"
-
-    # 1960
-    SAF_APC_artillery_equipment_2:0 "105mm M108 Howitzer"
-    SAF_APC_artillery_equipment_2_short:0 "105mm M108"
-
-    # 1970
-    SAF_APC_artillery_equipment_3:0 "175mm M107 Howitzer"
-    SAF_APC_artillery_equipment_3_short:0 "175mm M107"
-
-    # 1980
-    SAF_APC_artillery_equipment_4:0 "M270 Multiple-Launch Rocket System"
-    SAF_APC_artillery_equipment_4_short:0 "M270 MLRS"
-
-    # 1990
-    SAF_APC_artillery_equipment_5:0 "M270 IDPS Multiple-Launch Rocket System"
-    SAF_APC_artillery_equipment_5_short:0 "M270 IDPS MLRS"
-   ## Light Self-Propelled ##
-
-   ## Heavy Self-Propelled ##
-    # 1950
-    SAF_MBT_artillery_equipment_1:0 "Ord. QF L4 on Carrier 'Chaplain'"
-    SAF_MBT_artillery_equipment_1_short:0 "Chaplain"
-
-    # 1960
-    SAF_MBT_artillery_equipment_2:0 "155mm M109 Howitzer"
-    SAF_MBT_artillery_equipment_2_short:0 "155mm M109"
-
-    # 1970
-    SAF_MBT_artillery_equipment_3:0 "155mm M109A2 Howitzer"
-    SAF_MBT_artillery_equipment_3_short:0 "155mm M109A2"
-
-    # 1980
-    SAF_MBT_artillery_equipment_4:0 "155mm M109A4 Howitzer"
-    SAF_MBT_artillery_equipment_4_short:0 "155mm M109A4"
-
-    # 1990
-    SAF_MBT_artillery_equipment_5:0 "155mm M109A6 Paladin"
-    SAF_MBT_artillery_equipment_5_short:0 "155mm M109A6"
-   ## Heavy Self-Propelled ##
-  ### Artillery ###
-
-  ### Anti-Air ###
-   ## Normal ##
-    SAF_anti_air_equipment_2:0 "QF 127/58 SBT X1 Green Mace"
-    SAF_anti_air_equipment_2_short:0 "Green Mace"
-
-    SAF_anti_air_equipment_3:0 "MIM-23 Hawk"
-    SAF_anti_air_equipment_3_short:0 "MIM-23 Hawk"
-
-    SAF_anti_air_equipment_4:0 "MIM-104 Patriot"
-    SAF_anti_air_equipment_4_short:0 "MIM-104 Patriot"
-   ## Normal ##
-
-   ## Light Self-Propelled ##
-    # 1950
-    SAF_APC_aa_equipment_1:0 "Crusader III, AA Mk.III"
-    SAF_APC_aa_equipment_1_short:0 "Crusader III, AA Mk.III"
-
-    # 1960
-    SAF_APC_aa_equipment_2:0 "M42 40mm Self-Propelled Anti-Air Gun"
-    SAF_APC_aa_equipment_2_short:0 "M42 Duster"
-
-    #1970
-    SAF_APC_aa_equipment_3:0 "M163 Vulcan Air Defense System"
-    SAF_APC_aa_equipment_3_short:0 "M163 VADS"
-
-    #1980
-    SAF_APC_aa_equipment_4:0 "M163A2 PI Vulcan Air Defense System"
-    SAF_APC_aa_equipment_4_short:0 "M163A2 PIVADS"
-
-    #1990
-    SAF_APC_aa_equipment_5:0 "M1097 Avenger Air Defense System"
-    SAF_APC_aa_equipment_5_short:0 "M1097 Avenger"
-   ## Light Self-Propelled ##
-
-   ## Heavy Self-Propelled ##
-    # 1950
-    SAF_MBT_aa_equipment_1:0 "QF 3.7-in on Carrier Centurion 'Skink'"
-    SAF_MBT_aa_equipment_1_short:0 "Centurion Skink"
-
-    # 1960
-    USA_MBT_aa_equipment_2:0 "M249 Vigilante"
-    USA_MBT_aa_equipment_2_short:0 "M249 Vigilante"
-
-    # 1970
-    USA_MBT_aa_equipment_3:0 "MIM-72 Chaparral"
-    USA_MBT_aa_equipment_3_short:0 "MIM-72 Chaparral"
-
-    # 1980
-    USA_MBT_aa_equipment_4:0 "M247 Sergeant York Division Air Defense"
-    USA_MBT_aa_equipment_4_short:0 "M247 DIVAD"
-
-    # 1990
-    USA_MBT_aa_equipment_5:0 "M6 Bradley Linebacker"
-    USA_MBT_aa_equipment_5_short:0 "M6 Linebacker"
-   ## Heavy Self-Propelled ##
-  ### Anti-Air ###
- #### Artillery & Anti-Air ####
-
- #### Armor ####
-  ### APC ###
-   USA_APC_equipment_0:0 "M44"
-   USA_APC_equipment_1:0 "M59"
-   USA_APC_equipment_2:0 "M113 AVAC"
-   USA_APC_equipment_3:0 "M113A2 AVAC"
-   USA_APC_equipment_4:0 "LAV-25"
-   USA_APC_equipment_5:0 "LAV-25A1"
-  ### APC ###
-
-  ### IFV ###
-   USA_IFV_equipment_0:0 "M3 Halftrack"
-   USA_IFV_equipment_1:0 "M8 Light Armored Car"
-   USA_IFV_equipment_2:0 "M706 Commando"
-   USA_IFV_equipment_3:0 "M706 Commando V-150"
-   USA_IFV_equipment_4:0 "M2 Bradley"
-   USA_IFV_equipment_5:0 "M2A1 Bradley"
-  ### IFV ###
-
-  ### MBT ###
-   USA_MBT_equipment_0:0 "M4A3E8 Sherman"
-   USA_MBT_equipment_1:0 "M47 Clark"
-   USA_MBT_equipment_2:0 "M60 Clark"
-   USA_MBT_equipment_3:0 "M60A1 Clark"
-   USA_MBT_equipment_4:0 "M1 Abrams"
-   USA_MBT_equipment_5:0 "M1A2 Abrams"
-  ### MBT ###
- #### Armor ####
-
- #### Naval - MtG ####
-  ### Corvettes ###
-   SAF_ship_hull_very_light_1:2 "Castle-class"
-   SAF_ship_hull_very_light_2:2 "Channel-class"
-   SAF_ship_hull_very_light_3:2 "High Point-class"
-   SAF_ship_hull_very_light_4:2 "Asheville-class"
-   SAF_ship_hull_very_light_5:2 "Sorento-class"
-   SAF_ship_hull_very_light_6:2 "Cyclone-class"
-  ### Corvettes ###
-
-  ### Frigates ###
-   SAF_ship_hull_more_light_1:2 "Weapon-class"
-   SAF_ship_hull_more_light_2:2 "Salisbury-class"
-   SAF_ship_hull_more_light_3:2 "Garcia-class"
-   SAF_ship_hull_more_light_4:2 "Knox-class"
-   SAF_ship_hull_more_light_5:2 "Oliver Hazard Perry-class"
-   SAF_ship_hull_more_light_6:2 "Boorda-class"
-  ### Frigates ###
-
-  ### Destroyers ###
-   SAF_ship_hull_light_1:2 "Battle-class"
-   SAF_ship_hull_light_2:2 "Daring-class"
-   SAF_ship_hull_light_3:2 "Charles F Adams-class"
-   SAF_ship_hull_light_4:2 "Spruance-class"
-   SAF_ship_hull_light_5:2 "Kidd-class"
-   SAF_ship_hull_light_6:2 "Arleigh Burke-class"
-  ### Destroyers ###
-
-  ### Cruisers ###
-   SAF_ship_hull_cruiser_1:1 "Crown Colony-class"
-   SAF_ship_hull_cruiser_2:1 "Minotaur-class"
-   SAF_ship_hull_cruiser_3:1 "Albany-class"
-   SAF_ship_hull_cruiser_4:1 "California-class"
-   SAF_ship_hull_cruiser_5:1 "Virginia-class"
-   SAF_ship_hull_cruiser_6:1 "Ticonderoga-class"
-  ### Cruisers ###
-
-  ### Battleship ###
-   SAF_ship_hull_heavy_1:1 "Edward VIII-class"
-   SAF_ship_hull_heavy_2:1 "Vanguard-class"
-   SAF_ship_hull_heavy_3:1 "Florida-class"
-   SAF_ship_hull_heavy_4:1 "Georgia-class"
-   SAF_ship_hull_heavy_5:1 "Pennsylvania-class"
-   SAF_ship_hull_heavy_6:1 "New York-class"
-  ### Battleship ###
-
-  ### Carrier ###
-   SAF_ship_hull_carrier_1:1 "Implacable-class"
-   SAF_ship_hull_carrier_2:1 "Audicious-class"
-   SAF_ship_hull_carrier_3:1 "Kitty Hawk-class"
-   SAF_ship_hull_carrier_4:1 "Nimitz-class"
-   SAF_ship_hull_carrier_5:1 "Theodore Roosevelt-class"
-   SAF_ship_hull_carrier_6:1 "John F. Kennedy-class"
-  ### Carrier ###
-
-  ### Submarine ###
-   SAF_ship_hull_submarine_1:1 "Amphion-class"
-   SAF_ship_hull_submarine_2:1 "Explorer-class"
-   SAF_ship_hull_submarine_3:1 "Sturgeon-class"
-   SAF_ship_hull_submarine_4:1 "Los Angeles-class"
-   SAF_ship_hull_submarine_5:1 "Ohio-class"
-   SAF_ship_hull_submarine_6:1 "Seawolf-class"
-  ### Submarine ###
- #### Naval - MtG ####
-
- #### Naval - MtG ####
-  ### Corvettes ###
-   SAF_corvette_1:2 "Castle-class"
-   SAF_corvette_2:2 "Channel-class"
-   SAF_corvette_3:2 "High Point-class"
-   SAF_corvette_4:2 "Asheville-class"
-   SAF_corvette_5:2 "Sorento-class"
-   SAF_corvette_6:2 "Cyclone-class"
-  ### Corvettes ###
-
-  ### Frigates ###
-   SAF_frigate_1:2 "Weapon-class"
-   SAF_frigate_2:2 "Salisbury-class"
-   SAF_frigate_3:2 "Garcia-class"
-   SAF_frigate_4:2 "Knox-class"
-   SAF_frigate_5:2 "Oliver Hazard Perry-class"
-   SAF_frigate_6:2 "Boorda-class"
-  ### Frigates ###
-
-  ### Destroyers ###
-   SAF_destroyer_1:2 "Battle-class"
-   SAF_destroyer_2:2 "Daring-class"
-   SAF_destroyer_3:2 "Charles F Adams-class"
-   SAF_destroyer_4:2 "Spruance-class"
-   SAF_destroyer_5:2 "Kidd-class"
-   SAF_destroyer_6:2 "Arleigh Burke-class"
-  ### Destroyers ###
-
-  ### Cruisers ###
-   SAF_cruiser_1:1 "Crown Colony-class"
-   SAF_cruiser_2:1 "Minotaur-class"
-   SAF_cruiser_3:1 "Albany-class"
-   SAF_cruiser_4:1 "California-class"
-   SAF_cruiser_5:1 "Virginia-class"
-   SAF_cruiser_6:1 "Ticonderoga-class"
-  ### Cruisers ###
-
-  ### Battleship ###
-   SAF_battleship_1:1 "Edward VIII-class"
-   SAF_battleship_2:1 "Vanguard-class"
-   SAF_battleship_3:1 "Florida-class"
-   SAF_battleship_4:1 "Georgia-class"
-   SAF_battleship_5:1 "Pennsylvania-class"
-   SAF_battleship_6:1 "New York-class"
-  ### Battleship ###
-
-  ### Carrier ###
-   SAF_carrier_1:1 "Implacable-class"
-   SAF_carrier_2:1 "Audicious-class"
-   SAF_carrier_3:1 "Kitty Hawk-class"
-   SAF_carrier_4:1 "Nimitz-class"
-   SAF_carrier_5:1 "Theodore Roosevelt-class"
-   SAF_carrier_6:1 "John F. Kennedy-class"
-  ### Carrier ###
-
-  ### Submarine ###
-   SAF_submarine_1:1 "Amphion-class"
-   SAF_submarine_2:1 "Explorer-class"
-   SAF_submarine_3:1 "Sturgeon-class"
-   SAF_submarine_4:1 "Los Angeles-class"
-   SAF_submarine_5:1 "Ohio-class"
-   SAF_submarine_6:1 "Seawolf-class"
-  ### Submarine ###
- #### Naval - MtG ####
-
- #### Helicopters ####
-  ### Experimental ###
-   # 1945
-   SAF_helicopter_equipment_0:0 "Sikorsky R-4"
-   SAF_helicopter_equipment_0_short:0 "R-4"
-
-   # 1950
-   SAF_helicopter_equipment_1:0 "Sikorsky H-19 Chickasaw"
-   SAF_helicopter_equipment_1_short:0 "H-19"
-  ### Experimental ###
-
-  ### Transport ###
-   # 1960
-   SAF_transport_helicopter_equipment_1:0 "Bell UH-1 Huey"
-   SAF_transport_helicopter_equipment_1_short:0 "UH-1 Huey"
-
-   # 1970
-   SAF_transport_helicopter_equipment_2:0 "Boeing CH-46 Chinook"
-   SAF_transport_helicopter_equipment_2_short:0 "CH-46 Chinook"
-
-   # 1980
-   SAF_transport_helicopter_equipment_3:0 "Sikorsky UH-60 Black Hawk"
-   SAF_transport_helicopter_equipment_3_short:0 "UH-60 Black Hawk"
-
-   # 1990
-   SAF_transport_helicopter_equipment_4:0 "Bell Boeing V-22 Osprey"
-   SAF_transport_helicopter_equipment_4_short:0 "V-22 Osprey"
-  ### Transport ###
-
-  ### Attack ###
-   # 1960
-   SAF_attack_helicopter_equipment_1:0 "Bell AH-1 Cobra"
-   SAF_attack_helicopter_equipment_1_short:0 "AH-1 Cobra"
-
-   # 1970
-   SAF_attack_helicopter_equipment_2:0 "Bell AH-1 Supercobra"
-   SAF_attack_helicopter_equipment_2_short:0 "AH-1 Supercobra"
-
-   # 1980
-   SAF_attack_helicopter_equipment_3:0 "Boeing AH-64 Apache"
-   SAF_attack_helicopter_equipment_3_short:0 "AH-64 Apache"
-
-   # 1990
-   SAF_attack_helicopter_equipment_4:0 "Boeing-Sikorsky AH-66 Comanche"
-   SAF_attack_helicopter_equipment_4_short:0 "AH-66 Comanche"
-  ### Attack ###
-
-  ### Scout ###
-   # 1960
-   SAF_scout_helicopter_equipment_1:0 "Hughes OH-6 Cayuse"
-   SAF_scout_helicopter_equipment_1_short:0 "OH-6 Cayuse"
-
-   # 1970
-   SAF_scout_helicopter_equipment_2:0 "Bell OH-58 Kiowa"
-   SAF_scout_helicopter_equipment_2_short:0 "OH-58 Kiowa"
-
-   # 1980
-   SAF_scout_helicopter_equipment_3:0 "Sikorsky HH-60 Pave Hawk"
-   SAF_scout_helicopter_equipment_3_short:0 "HH-60 Pave Hawk"
-
-   # 1990
-   SAF_scout_helicopter_equipment_4:0 "Bell OH-58 Kiowa Warrior"
-   SAF_scout_helicopter_equipment_4_short:0 "OH-58 Kiowa Warrior"
-  ### Scout ###
-
-  ### Anti-Submarine Warfare (ASW) ###
-   # 1960
-   SAF_asw_helicopter_equipment_1:0 "Kaman SH-2 Seasprite"
-   SAF_asw_helicopter_equipment_1_short:0 "SH-2 Seasprite"
-
-   # 1970
-   SAF_asw_helicopter_equipment_2:0 "Sikorsky MH-53E Sea Dragon"
-   SAF_asw_helicopter_equipment_2_short:0 "MH-53E Sea Dragon"
-
-   # 1980
-   SAF_asw_helicopter_equipment_3:0 "Sikorsky SH-60 Sea Hawk"
-   SAF_asw_helicopter_equipment_3_short:0 "SH-60 Sea Hawk"
-
-   # 1990
-   SAF_asw_helicopter_equipment_4:0 "Kaman SH-2G Super Seasprite"
-   SAF_asw_helicopter_equipment_4_short:0 "SH-2G Super Seasprit"
-  ### Anti-Submarine Warfare (ASW) ###
- #### Helicopters ####
-
- #### Light Aircraft ####
-  ### Interceptor ###
-   # 1945
-   SAF_interceptor_equipment_1:0 "Hawker Tempest"
-   SAF_interceptor_equipment_1_short:0 "Hawker Tempest"
-
-   # 1950
-   SAF_jet_interceptor_equipment_1:0 "Northrop F-89 Scorpion"
-   SAF_jet_interceptor_equipment_1_short:0 "F-89 Scorpion"
-
-   # 1960
-   SAF_jet_interceptor_equipment_2:0 "Convair F-106 Delta Dart"
-   SAF_jet_interceptor_equipment_2_short:0 "F-106 Delta Dart"
-
-   # 1970
-   SAF_jet_interceptor_equipment_3:0 "General Dynamics F-12B"
-   SAF_jet_interceptor_equipment_3_short:0 "F-12B"
-
-   # 1980
-   SAF_jet_interceptor_equipment_4:0 "Northrop F-16A Fighting Falcon"
-   SAF_jet_interceptor_equipment_4_short:0 "F-16A Fighting Falcon"
-
-   # 1990
-   SAF_jet_interceptor_equipment_5:0 "General Dynamics F-16E Fighting Falcon"
-   SAF_jet_interceptor_equipment_5_short:0 "F-16E Fighting Falcon"
-  ### Interceptor ###
-
-  ### Fighters ###
-   # 1936
-   SAF_fighter_equipment_0:0 "Hawker Hurricane"
-   SAF_fighter_equipment_0_short:0 "Hawker Hurricane"
-
-   SAF_cv_fighter_equipment_0:0 "Hawker Sea Hurricane"
-   SAF_cv_fighter_equipment_0_short:0 "Hawker Sea Hurricane"
-
-   # 1945
-   SAF_fighter_equipment_1:0 "Supermarine Spitfire"
-   SAF_fighter_equipment_1_short:0 "Supermarine Spitfire"
-
-   SAF_cv_fighter_equipment_1:0 "Supermarine Seafire"
-   SAF_cv_fighter_equipment_1_short:0 "Supermarine Seafire"
-
-   # 1950
-   SAF_jet_fighter_equipment_1:0 "CAC Sabre CA-27"
-   SAF_jet_fighter_equipment_1_short:0 "CAC Sabre CA-27"
-
-   SAF_cv_jet_fighter_equipment_1:0 "Vought F-8 Crusader"
-   SAF_cv_jet_fighter_equipment_1_short:0 "F-8 Crusader"
-
-   # 1960
-   SAF_jet_fighter_equipment_2:0 "McDonnell Douglas F-110 Spectre"
-   SAF_jet_fighter_equipment_2_short:0 "F-110 Spectre"
-
-   SAF_cv_jet_fighter_equipment_2:0 "McDonnell Douglas F-4 Phantom II"
-   SAF_cv_jet_fighter_equipment_2_short:0 "F-4 Phantom II"
-
-   # 1970
-   SAF_jet_fighter_equipment_3:0 "McDonnell Douglas F-15A Eagle"
-   SAF_jet_fighter_equipment_3_short:0 "F-15A Eagle"
-
-   SAF_cv_jet_fighter_equipment_3:0 "Grumman F-14 Tomcat"
-   SAF_cv_jet_fighter_equipment_3_short:0 "F-14 Tomcat"
-  ### Fighters ###
-
-  ### Close Air Support ###
-   # 1945
-   SAF_CAS_equipment_1:0 "Hawker Typhoon"
-   SAF_CAS_equipment_1_short:0 "Hawker Typhoon"
-
-   SAF_cv_CAS_equipment_1:0 "Hawker Sea Fury"
-   SAF_cv_CAS_equipment_1_short:0 "Hawker Sea Fury"
-
-   # 1950
-   SAF_jet_CAS_equipment_1:0 "Douglas A-1 Skyraider"
-   SAF_jet_CAS_equipment_1_short:0 "A-1 Skyraider"
-
-   SAF_cv_jet_CAS_equipment_1:0 "Douglas A-4 Skyhawk"
-   SAF_cv_jet_CAS_equipment_1_short:0 "A-4 Skyhawk"
-
-   # 1960
-   SAF_jet_CAS_equipment_2:0 "Republic F-105 Thunderchief"
-   SAF_jet_CAS_equipment_2_short:0 "F-105 Thunderchief"
-
-   SAF_cv_jet_CAS_equipment_2:0 "Grumman A-6 Intruder"
-   SAF_cv_jet_CAS_equipment_2_short:0 "A-6 Intruder"
-
-   # 1970
-   SAF_jet_CAS_equipment_3:0 "Fairchild Republic A-10 Thunderbolt II"
-   SAF_jet_CAS_equipment_3_short:0 "A-10 Warthog"
-
-   SAF_cv_jet_CAS_equipment_3:0 "Vought A-7 Corsair II"
-   SAF_cv_jet_CAS_equipment_3_short:0 "A-7 Corsair II"
-  ### Close Air Support ###
-
-  ### Multi-Role Combat Aircraft ###
-   # 1980
-   SAF_mca_equipment_1:0 "McDonnell Douglas F-15C Eagle"
-   SAF_mca_equipment_1_short:0 "F-15C Eagle"
-
-   SAF_cv_mca_equipment_1:0 "McDonnell Douglas F/A-18A Hornet"
-   SAF_cv_mca_equipment_1_short:0 "F/A-18A Hornet"
-
-   # 1990
-   SAF_mca_equipment_2:0 "McDonnell Douglas F-15S Eagle"
-   SAF_mca_equipment_2_short:0 "F-15S Eagle"
-
-   SAF_cv_mca_equipment_2:0 "McDonnell Douglas F/A-18C Hornet"
-   SAF_cv_mca_equipment_2_short:0 "F/A-18C Hornet"
-  ### Multi-Role Combat Aircraft ###
-
-  ### Stealth Fighter ###
-   # 1980
-   SAF_light_stealth_equipment_1:0 "Lockheed Martin F-19 Spider"
-   SAF_light_stealth_equipment_1_short:0 "F-19 Spider"
-
-   # 1990
-   SAF_light_stealth_equipment_2:0 "Lockheed Martin F-22 Raptor"
-   SAF_light_stealth_equipment_2_short:0 "F-22 Raptor"
-  ### Stealth Fighter ###
- #### Light Aircraft ####
-
- #### Heavy Aircraft ####
-  ### Strategic Bomber ###
-   # 1936
-   SAF_strat_bomber_equipment_0:0 "Handley Page Halifax B.III"
-   SAF_strat_bomber_equipment_0_short:0 "Handley Page Halifax"
-
-   # 1945
-   SAF_strat_bomber_equipment_1:0 "Avro Type 694 Lincoln"
-   SAF_strat_bomber_equipment_1_short:0 "Avro Lincoln"
-
-   # 1950
-   SAF_jet_strat_bomber_equipment_1:0 "Convair B-36 Peacemaker"
-   SAF_jet_strat_bomber_equipment_1_short:0 "B-36 Peacemaker"
-
-   # 1960
-   SAF_jet_strat_bomber_equipment_2:0 "Boeing B-52 Stratofortress"
-   SAF_jet_strat_bomber_equipment_2_short:0 "B-52 Stratofortress"
-
-   # 1970
-   SAF_jet_strat_bomber_equipment_3:0 "North American B-70 Valkyrie"
-   SAF_jet_strat_bomber_equipment_3_short:0 "B-70 Valkyrie"
-
-   # 1980
-   SAF_jet_strat_bomber_equipment_4:0 "Rockwell B-1A Lancer"
-   SAF_jet_strat_bomber_equipment_4_short:0 "B-1A Lancer"
-
-   # 1990
-   SAF_jet_strat_bomber_equipment_5:0 "Rockwell B-1B Lancer"
-   SAF_jet_strat_bomber_equipment_5_short:0 "B-1B Lancer"
-  ### Strategic Bomber ###
-
-  ### Tactical Bomber ###
-   # 1936
-   SAF_tac_bomber_equipment_0:0 "Armstrong Whitworth A.W.38 Whitley"
-   SAF_tac_bomber_equipment_0_short:0 "Whitley Mk.V"
-
-   # 1945
-   SAF_tac_bomber_equipment_1:0 "de Havilland DH.98 Mosquito"
-   SAF_tac_bomber_equipment_1_short:0 "Mosquito B Mk IV"
-
-   # 1950
-   SAF_jet_tac_bomber_equipment_1:0 "North American B-45 Tornado"
-   SAF_jet_tac_bomber_equipment_1_short:0 "B-45 Tornado"
-
-   # 1960
-   SAF_jet_tac_bomber_equipment_2:0 "Convair B-58 Hustler"
-   SAF_jet_tac_bomber_equipment_2_short:0 "B-58 Hustler"
-
-   # 1970
-   SAF_jet_tac_bomber_equipment_3:0 "General Dynamics F-111 Aardvark"
-   SAF_jet_tac_bomber_equipment_3_short:0 "F-111 Aardvark"
-
-   # 1980
-   SAF_jet_tac_bomber_equipment_4:0 "McDonnell Douglas F/A-18 Hornet"
-   SAF_jet_tac_bomber_equipment_4_short:0 "F/A-18 Hornet"
-
-   # 1990
-   SAF_jet_tac_bomber_equipment_5:0 "McDonnell Douglas F-15E Strike Eagle"
-   SAF_jet_tac_bomber_equipment_5_short:0 "F-15E Strike Eagle"
-  ### Tactical Bomber ###
-
-  ### Stealth Bombers ###
-   # 1980 - Tactical
-   SAF_tac_stealth_equipment_1:0 "Lockheed Martin F-117 Nighthawk"
-   SAF_tac_stealth_equipment_1_short:0 "F-117 Nighthawk"
-
-   # 1990 - Tactical
-   SAF_tac_stealth_equipment_2:0 "Lockhheed Martin F-117B Nighthawk"
-   SAF_tac_stealth_equipment_2_short:0 "F-117B Nighthawk"
-
-   # 1980 - Strategic
-   SAF_strat_stealth_equipment_1:0 "McDonnell Douglas A-12 Avenger II"
-   SAF_strat_stealth_equipment_1_short:0 "A-12 Avenger II"
-
-   # 1990 - Strategic
-   SAF_strat_stealth_equipment_2:0 "Northrop Gumman B-2 Spirit"
-   SAF_strat_stealth_equipment_2_short:0 "B-2 Spirit"
-  ### Stealth Bombers ###
-
-  ### Transport Planes ###
-   # 1936
-   SAF_transport_plane_equipment_1:0 "Bristol Type 130 Bombay"
-   SAF_transport_plane_equipment_1_short:0 "Bristol Bombay"
-
-   # 1945
-   SAF_transport_plane_equipment_2:0 "Avro Type 685 York"
-   SAF_transport_plane_equipment_2_short:0 "Avro York"
-
-   # 1950
-   SAF_transport_plane_equipment_3:0 "Boeing C-97 Stratofreighter"
-   SAF_transport_plane_equipment_3_short:0 "C-97 Stratofreighter"
-
-   # 1960
-   SAF_transport_plane_equipment_4:0 "Lockheed C-130 Hercules"
-   SAF_transport_plane_equipment_4_short:0 "C-130 Hercules"
-
-   # 1970
-   SAF_transport_plane_equipment_5:0 "Lockheed C-5A Galaxy"
-   SAF_transport_plane_equipment_5_short:0 "C-5A Galaxy"
-
-   # 1980
-   SAF_transport_plane_equipment_6:0 "Lockheed C-5B Galaxy"
-   SAF_transport_plane_equipment_6_short:0 "C-5B Galaxy"
-
-   # 1990
-   SAF_transport_plane_equipment_7:0 "Boeing C-17 Globemaster III"
-   SAF_transport_plane_equipment_7_short:0 "C-17 Globemaster III"
-  ### Transport Planes ###
- #### Heavy Aircraft ####

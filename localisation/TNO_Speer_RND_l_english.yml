@@ -77,26 +77,26 @@ SGR_RND_sabotage_enemy_cost_blocked:0 "§R25%§!£GFX_training_icon, §R20M§!£
 
 #Tooltips
 
-RND_training_tt:0 "§RExpertise§!£GFX_training_icon is the aggregate preparedness and training §WRND§! agents currently have, growing every two weeks. Its growth is affected by the size of the §GBudget§! and §Tresearch§!.\n\nTo embark on any missions for the §WRND§!, §RExpertise§! is spent as a currency."
+RND_training_tt:0 "£GFX_training_icon §RExpertise§! is the aggregate preparedness and training §WRND§! agents currently have, growing every two weeks. Its growth is affected by the size of the §GBudget§! and §Tresearch§!.\n\nTo embark on any missions for the §WRND§!,£GFX_training_icon §RExpertise§! is spent as a currency."
 
-RND_research_tt:0 "§TResearch and Development§! £GFX_science_icon is necessary to keep the §WRND§! in a competitive state, growing every week once research has been picked. Its growth is affected by the size of the §GBudget§! as well as previous §Tresearch§! already done.\n\nCurrent §TResearch Speed§!£GFX_science_icon is [?RND_research_speed_display|Y]§Y%§!/week." 
+RND_research_tt:0 "£GFX_science_icon §TResearch and Development§! is necessary to keep the §WRND§! in a competitive state, growing every week once research has been picked. Its growth is affected by the size of the §GBudget§! as well as previous §Tresearch§! already done.\n\nCurrent £GFX_science_icon §TResearch Speed§! is [?RND_research_speed_display|Y]§Y%§!/week." 
 
 RND_research_button_tt:0 "Open RND Research Menu"
 
 SGR_RND_regimestab_tt:0 "§YRegime Stability§! may profit from a weakened §rReactionary NSDAP wing§!."
 
-SGR_RND_10_expertise_tt:0 "§RExpertise§!£GFX_training_icon must be atleast §Y10%§! or higher"
-SGR_RND_20_expertise_tt:0 "§RExpertise§!£GFX_training_icon must be atleast §Y20%§! or higher"
-SGR_RND_30_expertise_tt:0 "§RExpertise§!£GFX_training_icon must be atleast §Y30%§! or higher"
+SGR_RND_10_expertise_tt:0 "£GFX_training_icon §RExpertise§! must be atleast §Y10%§! or higher"
+SGR_RND_20_expertise_tt:0 "£GFX_training_icon §RExpertise§! must be atleast §Y20%§! or higher"
+SGR_RND_30_expertise_tt:0 "£GFX_training_icon §RExpertise§! must be atleast §Y30%§! or higher"
 SGR_RND_mission_success_70_tt:0 "§TMission Success Chance§! must be atleast §Y75%§!"
 
-SGR_RND_sonder_researched_tt:0 "Has §TTechnology§!£GFX_science_icon "§YSonderblindfunkdienst§!""
-SGR_RND_bugs_researched_tt:0 "Has §TTechnology§!£GFX_science_icon "§Y31211-5 Bugs§!""
-SGR_RND_radio_researched_tt:0 "Has §TTechnology§!£GFX_science_icon "§YUFT-421 Personal Radio§!""
-SGR_RND_ent_researched_tt:0 "Has §TTechnology§!£GFX_science_icon "§YENTDECKER Recon Satellites§!""
-SGR_RND_cipher_researched_tt:0 "Has §TTechnology§!£GFX_science_icon "§YM-190 Cipher Machine§!""
-SGR_RND_truth_researched_tt:0 "Has §TTechnology§!£GFX_science_icon "§YTruth Serum§!""
-SGR_RND_camera_researched_tt:0 "Has §TTechnology§!£GFX_science_icon "§YRS 50 Modified Camera§!""
+SGR_RND_sonder_researched_tt:0 "Has £GFX_science_icon §TTechnology§! "§YSonderblindfunkdienst§!""
+SGR_RND_bugs_researched_tt:0 "Has £GFX_science_icon §TTechnology§! "§Y31211-5 Bugs§!""
+SGR_RND_radio_researched_tt:0 "Has £GFX_science_icon §TTechnology§! "§YUFT-421 Personal Radio§!""
+SGR_RND_ent_researched_tt:0 "Has £GFX_science_icon §TTechnology§! "§YENTDECKER Recon Satellites§!""
+SGR_RND_cipher_researched_tt:0 "Has £GFX_science_icon §TTechnology§! "§YM-190 Cipher Machine§!""
+SGR_RND_truth_researched_tt:0 "Has £GFX_science_icon §TTechnology§! "§YTruth Serum§!""
+SGR_RND_camera_researched_tt:0 "Has £GFX_science_icon §TTechnology§! "§YRS 50 Modified Camera§!""
 
 SGR_RND_mission_success_tt:0 "§Gthe mission succeeding, granting us insight into the country§!"
 SGR_RND_mission_failure_tt:0 "§Rthe mission failing§!"
@@ -195,16 +195,16 @@ RND_tech_1_tt_delayed:0 "'Fernmelde- und Elektronische Aufklärung' - known in t
 RND_tech_2_tt:0 "§YSonderblindfunkdienst§!\n\n§RCOST: 75M USD§!\n§G+5% Missions Success Chance§!\n§G+0.05 Army Organization Factor§!"
 RND_tech_2_tt_delayed:0 "The Sonderblindfunkdienst, or §WSpecial Binary Telegraph System Service§!, is a part of the proposed Schnellbahn system initiative in the RND. Transmitting information world wide to agents in form of Morse code is only one part of the systems proposed - repeated, encoded messages on all frequencies under the Schnellinformationsdienst and Harpune radio receivers for RND agents across the globe is the full span of it. An ambitious project, but one that is desperately needed in the face of the state of the world."
 
-RND_tech_3_tt:0 "§YENTDECKER Recon Satellites§!\n\n§RCOST: 150M USD§!\n§G+5% Missions Success Chance§!\n§G+1 RND Research Speed§!£GFX_science_icon"
+RND_tech_3_tt:0 "§YENTDECKER Recon Satellites§!\n\n§RCOST: 150M USD§!\n§G+5% Missions Success Chance§!\n§G+1 RND Research Speed§!£GFX_science_icon."
 RND_tech_3_tt_delayed:0 "Germany won the space race in 1962, yet she still has to make use of the full breadth of opportunities the 'Final Frontier' offers. It does not take a genius to realize the potential in space-based surveillance of the Reich's enemies - far out of range of their ability to intervene, and as such able to observe them in peace. quipped with 24-inch focal length cameras and several thousand feet of film, these probes will be launched into space and take photographs of our enemies' lands, to be recovered following mission end by plane."
 
-RND_tech_4_tt:0 "§Y31211-5 Bugs§!\n\n§RCOST: 25M USD§!\n§G+2.5% Political Power Growth Factor§!\n§G+1 RND Research Speed§!£GFX_science_icon"
+RND_tech_4_tt:0 "§Y31211-5 Bugs§!\n\n§RCOST: 25M USD§!\n§G+2.5% Political Power Growth Factor§!\n§G+1 RND Research Speed§!£GFX_science_icon."
 RND_tech_4_tt_delayed:0 "Second generation transmitters working on Band IV UHF frequencies, the §W31211-5 Covert RF Listening Devices§!, or bugs, are the latest in design by the RND. Intended for overhearing conversations in ordinary rooms, these devices can be hidden in most pieces of furniture with relative ease. Despite that and its simple make-up, the 31211-5 bugs carry a powerful and sensitive audio-amplifier and dynamic microphone able to record conversations easily and clearly. No secrets will remain hidden from the Reich anymore."
 
-RND_tech_5_tt:0 "§YM-190 Cipher Machine§!\n\n§RCOST: 50M USD§!\n§G+2 Expertise Growth§!£GFX_training_icon \n§G+0.5 RND Research Speed§!£GFX_science_icon"
+RND_tech_5_tt:0 "§YM-190 Cipher Machine§!\n\n§RCOST: 50M USD§!\n§G+2 Expertise Growth§!£GFX_training_icon \n§G+0.5 RND Research Speed§!£GFX_science_icon."
 RND_tech_5_tt_delayed:0 "A one-time tape-based cipher machine developed by §TSiemens§!, the M-190 is a mixer-class device. It is not classified - that is because the device itself is not enough to crack the cipher. What is needed to solve any cipher with the machine is an appropriate §WOne-Time-Tape§!, which is always destroyed right at the end of the information exchange. Intended for usage with a teleprinter device, the M-190 can operate both offline and online. A significant advancement on all accounts from the Second World War's T-43."
 
-RND_tech_6_tt:0 "§YNahkampf Training§!\n\n§RCOST: 30M USD§!\n§G+5% Mission Success Chance§!\n§G+2 RND Expertise Growth§!£GFX_training_icon"
+RND_tech_6_tt:0 "§YNahkampf Training§!\n\n§RCOST: 30M USD§!\n§G+5% Mission Success Chance§!\n§G+2 RND Expertise Growth§!£GFX_training_icon."
 RND_tech_6_tt_delayed:0 "In a world of infiltration and espionage, a fist to the face is sometimes still the best solution when it comes to a life or death situation. Military, espionage, even police forces across the world have adopted martial arts or even developed their own in response. The art of deftly taking control over an enemy in close quarters combat can prove useful in many situations, ones the RND's agents are likely to experience at one point or another as well. If so, all they must do is try to remember some of the basics of Nahkampf..."
 
 RND_tech_7_tt:0 "§YUFT-421 Personal Radio§!\n\n§RCOST: 60M USD§!\n§G+10% Mission Success Chance§!\n§G+2 RND Expertise Growth§!£GFX_training_icon."

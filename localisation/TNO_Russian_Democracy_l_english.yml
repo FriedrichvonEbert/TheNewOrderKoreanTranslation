@@ -26,13 +26,13 @@
  RUS_increase_state_conservative_minority_pop_tt:0 "§GIncreases§! §BConservative§! popularity with minorities.\n"
 
  RUS_decrease_state_auth_minority_pop_tt:0 "§ODecreases§! §gAuthoritarian Democrat§! popularity with minorities.\n"
- RUS_decrease_state_socdem_minority_pop_tt:0 "§ODecreases§! §PSocial Democrat§!  popularity with minorities.\n"
+ RUS_decrease_state_socdem_minority_pop_tt:0 "§ODecreases§! §PSocial Democrat§! popularity with minorities.\n"
  RUS_decrease_state_liberal_minority_pop_tt:0 "§ODecreases§! §MLiberal§! popularity with minorities.\n"
  RUS_decrease_state_conservative_minority_pop_tt:0 "§ODecreases§! §BConservative§! popularity with minorities.\n"
 
  RUS_increase_state_auth_industrial_pop_tt:0 "§GIncreases§! §gAuthoritarian Democrat§! popularity with industrial workers.\n"
  RUS_increase_state_socdem_industrial_pop_tt:0 "§GIncreases§! §PSocial Democrat§! popularity with industrial workers.\n"
- RUS_increase_state_liberal_industrial_pop_tt:0 "§GIncreases§! §MLiberal§! popularity with industrial workers.\n"        
+ RUS_increase_state_liberal_industrial_pop_tt:0 "§GIncreases§! §MLiberal§! popularity with industrial workers.\n"
  RUS_increase_state_conservative_industrial_pop_tt:0 "§GIncreases§! §BConservative§! popularity with industrial workers.\n"
 
  RUS_suppress_rural_voting_tt:0 "§ODecreases§! voter turnout in §Grural§! states.\n"
@@ -100,13 +100,13 @@
  RUS_democracy_conservative_win_TOB:0 "§BLPR§! victory"
  RUS_democracy_pure_tie_TOB:0 "§gUKGS§!-§BLPR§! tie"
 
- RUS_democracy_auth_final_win_NIK:0 "§gPSD§! victory (§g[?RUS_auth_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)"
- RUS_democracy_socdem_final_win_NIK:0 "§PDSNP§! victory (§P[?RUS_socdem_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)"
- RUS_democracy_liberal_final_win_NIK:0 "§MSMR§! victory (§M[?RUS_liberal_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)"
+ RUS_democracy_auth_final_win_NIK:0 "\n§YPresidential§! Election Results:\n§gPSD§! victory (§g[?RUS_auth_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gPSD§! final provincial delegates - §g[?RUS_auth_votes]§!\n§MSMR§! final provincial delegates - §M[?RUS_liberal_votes]§!\n§PDSNP§! final provincial delegates - §P[?RUS_socdem_votes]§!\n\n§gPSD§! total vote - [?RUS_auth_percentage_vote]%\n§MSMR§! total vote - [?RUS_liberal_percentage_vote]%\n§PDSNP§! total vote - [?RUS_socdem_percentage_vote]%\n\n§YNational Assembly§! Election Results:\n§gPSD§! deputies - [?RUS_auth_deputies]\n§MSMR§! deputies - [?RUS_liberal_deputies]\n§PDSNP§! deputies - [?RUS_socdem_deputies]"
+ RUS_democracy_socdem_final_win_NIK:0 "\n§YPresidential§! Election Results:\n§PDSNP§! victory (§P[?RUS_socdem_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gPSD§! final provincial delegates - §g[?RUS_auth_votes]§!\n§MSMR§! final provincial delegates - §M[?RUS_liberal_votes]§!\n§PDSNP§! final provincial delegates - §P[?RUS_socdem_votes]§!\n\n§gPSD§! total vote - [?RUS_auth_percentage_vote]%\n§MSMR§! total vote - [?RUS_liberal_percentage_vote]%\n§PDSNP§! total vote - [?RUS_socdem_percentage_vote]%\n\n§YNational Assembly§! Election Results:\n§gPSD§! deputies - [?RUS_auth_deputies]\n§MSMR§! deputies - [?RUS_liberal_deputies]\n§PDSNP§! deputies - [?RUS_socdem_deputies]"
+ RUS_democracy_liberal_final_win_NIK:0 "\n§YPresidential§! Election Results:\n§MSMR§! victory (§M[?RUS_liberal_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gPSD§! final provincial delegates - §g[?RUS_auth_votes]§!\n§MSMR§! final provincial delegates - §M[?RUS_liberal_votes]§!\n§PDSNP§! final provincial delegates - §P[?RUS_socdem_votes]§!\n\n§gPSD§! total vote - [?RUS_auth_percentage_vote]%\n§MSMR§! total vote - [?RUS_liberal_percentage_vote]%\n§PDSNP§! total vote - [?RUS_socdem_percentage_vote]%\n\n§YNational Assembly§! Election Results:\n§gPSD§! deputies - [?RUS_auth_deputies]\n§MSMR§! deputies - [?RUS_liberal_deputies]\n§PDSNP§! deputies - [?RUS_socdem_deputies]"
 
- RUS_democracy_auth_final_win_KIR:0 "§gNTS§! victory (§g[?RUS_auth_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)"
- RUS_democracy_conservative_final_win_KIR:0 "§BVNS§! victory (§B[?RUS_conservative_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)"
- RUS_democracy_liberal_final_win_KIR:0 "§MK-D§! victory (§M[?RUS_liberal_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)"
+ RUS_democracy_auth_final_win_KIR:0 "§gNTS§! victory (§g[?RUS_auth_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gNTS§! total vote - [?RUS_auth_percentage_vote]%\n§MK-D§! total vote - [?RUS_liberal_percentage_vote]%\n§BVNS§! total vote - [?RUS_conservative_percentage_vote]%"
+ RUS_democracy_conservative_final_win_KIR:0 "§BVNS§! victory (§B[?RUS_conservative_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gNTS§! total vote - [?RUS_auth_percentage_vote]%\n§MK-D§! total vote - [?RUS_liberal_percentage_vote]%\n§BVNS§! total vote - [?RUS_conservative_percentage_vote]%"
+ RUS_democracy_liberal_final_win_KIR:0 "§MK-D§! victory (§M[?RUS_liberal_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gNTS§! total vote - [?RUS_auth_percentage_vote]%\n§MK-D§! total vote - [?RUS_liberal_percentage_vote]%\n§BVNS§! total vote - [?RUS_conservative_percentage_vote]%"
 
 
  RUS_democracy_auth_final_win_TOB:0 "§gUKGS§! victory (§g[?RUS_auth_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)"
@@ -207,13 +207,13 @@
  RUS_democracy_transvolga_polls:0 "§YTransvolga:§!\n[GetRUSGorkyPolls][GetRUSCheboksaryPolls][GetRUSStavropolNaVolgaPolls][GetRUSUlyanovskPolls][GetRUSSamaraPolls][GetRUSNeftegorskPolls][GetRUSBalakovoPolls]\n" 
  RUS_democracy_southern_urals_polls:0 "§YSouthern Urals:§!\n[GetRUSAlekseevkaPolls][GetRUSSterlitimakPolls][GetRUSOrenburgPolls][GetRUSUstKatavPolls][GetRUSMezhgoryePolls][GetRUSChelyabinskPolls][GetRUSMagnitogorskPolls][GetRUSOrskPolls]\n" 
  RUS_democracy_trans_urals_polls:0 "§YTrans-Urals:§!\n[GetRUSSaranpaulPolls][GetRUSNyaganPolls][GetRUSYugorskPolls][GetRUSNizhniyTagilPolls][GetRUSZlatoustPolls]\n" 
- RUS_democracy_west_siberia_polls:0 "§YWestern Siberia:§!\n[GetRUSKantyMansyPolls][GetRUSSverdlovskPolls][GetRUSTyumenPolls][GetRUSKurganPolls][GetRUSOmskPolls]\n"  
- RUS_democracy_north_siberia_polls:0 "§YNorthern Siberia:§!\n[GetRUSSalekhardPolls][GetRUSSurgutPolls][GetRUSBakhtaPolls][GetRUSKolpashevoPolls]\n"  
- RUS_democracy_central_siberia_polls:0 "§YCentral Siberia:§!\n[GetRUSTomskPolls][GetRUSYeniseyskPolls][GetRUSNovosibirskPolls][GetRUSBarnaulPolls][GetRUSKemerovoPolls][GetRUSOyrotiaPolls]\n"  
- RUS_democracy_tuva_polls:0 "§YTuva:§!\n[GetRUSTannuTuvaPolls][GetRUSWesternMongoliaPolls]\n"  
- RUS_democracy_eastern_siberia_polls:0 "§YEastern Siberia:§!\n[GetRUSKrasnoyarskPolls][GetRUSLesosibirskPolls][GetRUSBoguchanyPolls][GetRUSKanskPolls][GetRUSTayshetPolls][GetRUSUstIlimskPolls]\n"  
- RUS_democracy_transbaikal_polls:0 "§YTrans-Baikal:§!\n[GetRUSIrkutskPolls][GetRUSChernyshevskiyPolls][GetRUSOlenekPolls][GetRUSVilyuyPolls][GetRUSAldanPolls][GetRUSTaksimoPolls][GetRUSVerkhneudinskPolls]\n"  
- RUS_democracy_far_east_polls:0 "§YFar East:§!\n[GetRUSAmurPolls][GetRUSBlagoveshchenskPolls][GetRUSChumikanPolls][GetRUSMagadanPolls][GetRUSYakutskPolls][GetRUSCherskiyPolls][GetRUSKolymaPolls][GetRUSOmolonPolls][GetRUSChukotkaPolls][GetRUSKamchatkaPolls]\n"  
+ RUS_democracy_west_siberia_polls:0 "§YWestern Siberia:§!\n[GetRUSKantyMansyPolls][GetRUSSverdlovskPolls][GetRUSTyumenPolls][GetRUSKurganPolls][GetRUSOmskPolls]\n"
+ RUS_democracy_north_siberia_polls:0 "§YNorthern Siberia:§!\n[GetRUSSalekhardPolls][GetRUSSurgutPolls][GetRUSBakhtaPolls][GetRUSKolpashevoPolls]\n"
+ RUS_democracy_central_siberia_polls:0 "§YCentral Siberia:§!\n[GetRUSTomskPolls][GetRUSYeniseyskPolls][GetRUSNovosibirskPolls][GetRUSBarnaulPolls][GetRUSKemerovoPolls][GetRUSOyrotiaPolls]\n"
+ RUS_democracy_tuva_polls:0 "§YTuva:§!\n[GetRUSTannuTuvaPolls][GetRUSWesternMongoliaPolls]\n"
+ RUS_democracy_eastern_siberia_polls:0 "§YEastern Siberia:§!\n[GetRUSKrasnoyarskPolls][GetRUSLesosibirskPolls][GetRUSBoguchanyPolls][GetRUSKanskPolls][GetRUSTayshetPolls][GetRUSUstIlimskPolls]\n"
+ RUS_democracy_transbaikal_polls:0 "§YTrans-Baikal:§!\n[GetRUSIrkutskPolls][GetRUSChernyshevskiyPolls][GetRUSOlenekPolls][GetRUSVilyuyPolls][GetRUSAldanPolls][GetRUSTaksimoPolls][GetRUSVerkhneudinskPolls]\n"
+ RUS_democracy_far_east_polls:0 "§YFar East:§!\n[GetRUSAmurPolls][GetRUSBlagoveshchenskPolls][GetRUSChumikanPolls][GetRUSMagadanPolls][GetRUSYakutskPolls][GetRUSCherskiyPolls][GetRUSKolymaPolls][GetRUSOmolonPolls][GetRUSChukotkaPolls][GetRUSKamchatkaPolls]\n"
 
  TOB_democratic_politics_category:0 "Election Polling"
  TOB_democratic_politics_category_desc:0 "With democracy ensured, we are free to finally hold between our parties and political factions.\n\nLatest §Ypolls§! are as follows:\n\n[GetRUSArcticRussiaPolls][GetRUSCentralRussiaPolls][GetRUSTransvolgaPolls][GetRUSUralRegionPolls][GetRUSSouthernUralPolls][GetRUSTransUralsPolls][GetRUSWesternSiberiaPolls][GetRUSNorthernSiberiaPolls][GetRUSCentralSiberiaPolls][GetRUSTuvaPolls][GetRUSEasternSiberiaPolls][GetRUSTransBaikalPolls][GetRUSFarEastPolls]"
@@ -231,7 +231,7 @@
  NIK_democratic_politics_category_desc:0 "With democracy ensured in our Republic, we are free to finally hold fair and unbiased elections between our multitude of parties and political factions.\n\nLatest §Ypolls§! are as follows:\n\n[GetRUSArcticRussiaPolls][GetRUSCentralRussiaPolls][GetRUSTransvolgaPolls][GetRUSUralRegionPolls][GetRUSSouthernUralPolls][GetRUSTransUralsPolls][GetRUSWesternSiberiaPolls][GetRUSNorthernSiberiaPolls][GetRUSCentralSiberiaPolls][GetRUSTuvaPolls][GetRUSEasternSiberiaPolls][GetRUSTransBaikalPolls][GetRUSFarEastPolls]"
 
  NIK_election_results_category:0 "The Russian Elections"
- NIK_election_results_category_desc:0 "With democracy ensured in our Republic, we are free to finally hold fair and unbiased elections between our multitude of parties and political factions.\n\nLatest §Yelection results§!, in provincial delegates, are as follows:\n\n[GetRUSArcticRussiaResults][GetRUSCentralRussiaResults][GetRUSTransvolgaResults][GetRUSUralRegionResults][GetRUSSouthernUralResults][GetRUSTransUralsResults][GetRUSWesternSiberiaResults][GetRUSNorthernSiberiaResults][GetRUSCentralSiberiaResults][GetRUSTuvaResults][GetRUSEasternSiberiaResults][GetRUSTransBaikalResults][GetRUSFarEastResults]§YFinal Results:§!\n§gPSD§! final provincial delegates - §g[?RUS_auth_votes]§!\n§MSMR§! final provincial delegates - §M[?RUS_liberal_votes]§!\n§PDSNP§! final provincial delegates - §P[?RUS_socdem_votes]§!\n\n[GetRUSFinalElectionWinnerNIK]"
+ NIK_election_results_category_desc:0 "With democracy ensured in our Republic, we are free to finally hold fair and unbiased elections between our multitude of parties and political factions.\n\nLatest §Yelection results§!, in provincial delegates, are as follows:\n\n[GetRUSArcticRussiaResults][GetRUSCentralRussiaResults][GetRUSTransvolgaResults][GetRUSUralRegionResults][GetRUSSouthernUralResults][GetRUSTransUralsResults][GetRUSWesternSiberiaResults][GetRUSNorthernSiberiaResults][GetRUSCentralSiberiaResults][GetRUSTuvaResults][GetRUSEasternSiberiaResults][GetRUSTransBaikalResults][GetRUSFarEastResults]§YFinal Results:§!\n[GetRUSFinalElectionWinnerNIK]"
 
  NIK_results_hide:0 "Hide Election Results"
 
@@ -241,13 +241,13 @@
  RUS_democracy_transvolga_results:0 "§YTransvolga:§!\n[GetRUSGorkyResults][GetRUSCheboksaryResults][GetRUSStavropolNaVolgaResults][GetRUSUlyanovskResults][GetRUSSamaraResults][GetRUSNeftegorskResults][GetRUSBalakovoResults]\n" 
  RUS_democracy_southern_urals_results:0 "§YSouthern Urals:§!\n[GetRUSAlekseevkaResults][GetRUSSterlitimakResults][GetRUSOrenburgResults][GetRUSUstKatavResults][GetRUSMezhgoryeResults][GetRUSChelyabinskResults][GetRUSMagnitogorskResults][GetRUSOrskResults]\n" 
  RUS_democracy_trans_urals_results:0 "§YTrans-Urals:§!\n[GetRUSSaranpaulResults][GetRUSNyaganResults][GetRUSYugorskResults][GetRUSNizhniyTagilResults][GetRUSZlatoustResults]\n" 
- RUS_democracy_western_siberia_results:0 "§YWestern Siberia:§!\n[GetRUSKantyMansyResults][GetRUSSverdlovskResults][GetRUSTyumenResults][GetRUSKurganResults][GetRUSOmskResults]\n"  
- RUS_democracy_north_siberia_results:0 "§YNorthern Siberia:§!\n[GetRUSSalekhardResults][GetRUSSurgutResults][GetRUSBakhtaResults][GetRUSKolpashevoResults]\n"  
- RUS_democracy_central_siberia_results:0 "§YCentral Siberia:§!\n[GetRUSTomskResults][GetRUSYeniseyskResults][GetRUSNovosibirskResults][GetRUSBarnaulResults][GetRUSKemerovoResults][GetRUSOyrotiaResults]\n"  
- RUS_democracy_tuva_results:0 "§YTuva:§!\n[GetRUSTannuTuvaResults][GetRUSWesternMongoliaResults]\n"  
- RUS_democracy_eastern_siberia_results:0 "§YEastern Siberia:§!\n[GetRUSKrasnoyarskResults][GetRUSLesosibirskResults][GetRUSBoguchanyResults][GetRUSKanskResults][GetRUSTayshetResults][GetRUSUstIlimskResults]\n"  
- RUS_democracy_transbaikal_results:0 "§YTrans-Baikal:§!\n[GetRUSIrkutskResults][GetRUSChernyshevskiyResults][GetRUSOlenekResults][GetRUSVilyuyResults][GetRUSAldanResults][GetRUSTaksimoResults][GetRUSVerkhneudinskResults]\n"  
- RUS_democracy_far_east_results:0 "§YFar East:§!\n[GetRUSAmurResults][GetRUSBlagoveshchenskResults][GetRUSChumikanResults][GetRUSMagadanResults][GetRUSYakutskResults][GetRUSCherskiyResults][GetRUSKolymaResults][GetRUSOmolonResults][GetRUSChukotkaResults][GetRUSKamchatkaResults]\n"  
+ RUS_democracy_western_siberia_results:0 "§YWestern Siberia:§!\n[GetRUSKantyMansyResults][GetRUSSverdlovskResults][GetRUSTyumenResults][GetRUSKurganResults][GetRUSOmskResults]\n"
+ RUS_democracy_north_siberia_results:0 "§YNorthern Siberia:§!\n[GetRUSSalekhardResults][GetRUSSurgutResults][GetRUSBakhtaResults][GetRUSKolpashevoResults]\n"
+ RUS_democracy_central_siberia_results:0 "§YCentral Siberia:§!\n[GetRUSTomskResults][GetRUSYeniseyskResults][GetRUSNovosibirskResults][GetRUSBarnaulResults][GetRUSKemerovoResults][GetRUSOyrotiaResults]\n"
+ RUS_democracy_tuva_results:0 "§YTuva:§!\n[GetRUSTannuTuvaResults][GetRUSWesternMongoliaResults]\n"
+ RUS_democracy_eastern_siberia_results:0 "§YEastern Siberia:§!\n[GetRUSKrasnoyarskResults][GetRUSLesosibirskResults][GetRUSBoguchanyResults][GetRUSKanskResults][GetRUSTayshetResults][GetRUSUstIlimskResults]\n"
+ RUS_democracy_transbaikal_results:0 "§YTrans-Baikal:§!\n[GetRUSIrkutskResults][GetRUSChernyshevskiyResults][GetRUSOlenekResults][GetRUSVilyuyResults][GetRUSAldanResults][GetRUSTaksimoResults][GetRUSVerkhneudinskResults]\n"
+ RUS_democracy_far_east_results:0 "§YFar East:§!\n[GetRUSAmurResults][GetRUSBlagoveshchenskResults][GetRUSChumikanResults][GetRUSMagadanResults][GetRUSYakutskResults][GetRUSCherskiyResults][GetRUSKolymaResults][GetRUSOmolonResults][GetRUSChukotkaResults][GetRUSKamchatkaResults]\n"
 
  #Events
  russian_democracy_helpers.1.t:0 "General Election Run"
@@ -724,7 +724,7 @@
 
  ##SVERD
 
-  RUS_democracy_859_results_TOB:0 "[859.GetName] - [859.GetRUSElectionStateVictorTOB] (§g[?859.RUS_auth_state_votes]§! - §B[?859.RUS_conservative_state_votes]§!) (§W[?859.RUS_total_state_votes]§! §Wtotal§!)\n"
+ RUS_democracy_859_results_TOB:0 "[859.GetName] - [859.GetRUSElectionStateVictorTOB] (§g[?859.RUS_auth_state_votes]§! - §B[?859.RUS_conservative_state_votes]§!) (§W[?859.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_858_results_TOB:0 "[858.GetName] - [858.GetRUSElectionStateVictorTOB] (§g[?858.RUS_auth_state_votes]§! - §B[?858.RUS_conservative_state_votes]§!) (§W[?858.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_214_results_TOB:0 "[214.GetName] - [214.GetRUSElectionStateVictorTOB] (§g[?214.RUS_auth_state_votes]§! - §B[?214.RUS_conservative_state_votes]§!) (§W[?214.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_862_results_TOB:0 "[862.GetName] - [862.GetRUSElectionStateVictorTOB] (§g[?862.RUS_auth_state_votes]§! - §B[?862.RUS_conservative_state_votes]§!) (§W[?862.RUS_total_state_votes]§! §Wtotal§!)\n"
