@@ -184,16 +184,16 @@
  
  #Regional Factions
  MAG_regional_factions_category:0 "러시아 국민노동당 내부사안"
- MAG_regional_factions_category_desc:0 "미하일 마트코프스키의 통치하에 시베리아 민족공화국은 (적어도 서류상으로는) 러시아 파시스트당을 제쳐놓고 '우리의 파시스트 이미지에서 자유로운 신당'인 러시아 국민노동당을 만들었습니다. 그러나 전러시아의 보즈드가 새로운 "자유당"을 축하함에도, RNLP 내의 분열이 나타난 것은 그를 포함한 여러 사람에게서 명백해졌습니다.\n\n그 중심에는 그의 충실한 지지자들인 §O노동자§! 들이 있습니다.\n\n그 좌익엔 니콜라이 페틀린이 그의 파벌인,§M개혁가§! 들이 함께 있습니다.\n\n그 우익엔 §g보수파§! 가 있습니다., 보즈드가 너무 '부드럽다'고 주장하는 파시스트들의 수척하고 이빨빠진 파벌로, 페틀린과 마트코프스키의 새로운 시베리아 국민 공화국에 대한 비전에 모두 단호히 맞서 싸웁니다. 그들은 원대한 계획엔 전혀 관심이 없습니다..\n\n주요 세력중 하나가 힘을 굳히는데 성공한다면, §Y시베리아 국민공화국§! 은 그들의 것이 될것입니다...\n\nCurrently [ROOT.GetMAG_reformists_vs_labourists] faction is the most influential.\n"
+ MAG_regional_factions_category_desc:0 "미하일 마트코프스키의 통치하에 시베리아 민족공화국은(적어도 서류상으로) 러시아 파시스트당을 제쳐놓고 '우리의 파시스트 이미지에서 자유로운 신당'인 러시아 국민노동당을 만들었습니다. 그러나 전 러시아의 보즈드가 새로운 "자유당"을 축하함에도, RNLP 내의 분열이 나타난 것은 그를 포함한 여러 사람에게서 명백해졌습니다.\n\n그 중심에는 그의 충실한 지지자들인 §O노동자§!들이 있습니다.\n\n그 좌익엔 니콜라이 페틀린이 그의 파벌인, §M개혁가§!들이 함께 있습니다.\n\n그 우익엔 §g보수파§! 가 있습니다., 보즈드가 너무 '부드럽다'고 주장하는 파시스트들의 수척하고 이빨빠진 파벌로, 페틀린과 마트코프스키의 새로운 시베리아 국민 공화국에 대한 비전에 모두 단호히 맞서 싸웁니다. 그들은 원대한 계획엔 전혀 관심이 없습니다..\n\n주요 세력중 하나가 힘을 굳히는데 성공한다면, §Y시베리아 국민공화국§! 은 그들의 것이 될것입니다...\n\nCurrently [ROOT.GetMAG_reformists_vs_labourists] faction is the most influential.\n"
 
  MAG_reformist_takeover:0 "§Y폭군을 폭로하다§!"
  MAG_reformist_takeover_desc:0 ""
  MAG_labourists_victorious:0 "§Y반역자 체포§!"
  MAG_labourists_victorious_desc:0 ""
  
- MAG_equal_faction_influence:0 "§Lneither§!"
- MAG_reformists_influential:0 "the §M개혁가§!"
- MAG_labourists_influential:0 "the §O노동자§!"
+ MAG_equal_faction_influence:0 "§L어디도 아님§!"
+ MAG_reformists_influential:0 "§M개혁가§!"
+ MAG_labourists_influential:0 "t§O노동자§!"
 
  MAG_sway_the_corporations:0 "§O기업 장악§!"
  MAG_investigate_the_reform_wing:0 "§O개혁파 조사§!"
@@ -213,15 +213,15 @@
  MAG_USA_support_high:0 "§G높음§!"
  MAG_USA_support_very_high:0 "§M매우 높음§!"
 
- MAG_increase_USA_support_low_tt:0 "우리는 미국의 지원을 §Y조금§! §G증가§! 시킬 것입니다.\n"
- MAG_increase_USA_support_med_tt:0 "우리는 미국의 지원을 §Y약간§! §G증가§! 시킬 것입니다.\n"
- MAG_increase_USA_support_high_tt:0 "우리는 미국의 지원을 §Y많이§! §G증가§! 시킬 것입니다.\n"
- MAG_increase_USA_support_very_high_tt:0 "우리는 미국의 지원을 §Y매우 많이§! §G증가§! 시킬 것입니다.\n"
+ MAG_increase_USA_support_low_tt:0 "우리는 미국의 지원을 §Y조금§! §G증가§!시킬 것입니다.\n"
+ MAG_increase_USA_support_med_tt:0 "우리는 미국의 지원을 §Y약간§! §G증가§!시킬 것입니다.\n"
+ MAG_increase_USA_support_high_tt:0 "우리는 미국의 지원을 §Y많이§! §G증가§!시킬 것입니다.\n"
+ MAG_increase_USA_support_very_high_tt:0 "우리는 미국의 지원을 §Y매우 많이§! §G증가§!시킬 것입니다.\n"
 
- MAG_decrease_USA_support_low_tt:0 "이는 미국의 지원을 §Y조금§! §R하락§! 시킬 것입니다.\n"
- MAG_decrease_USA_support_med_tt:0 "이는 미국의 지원을 §Y약간§! §R하락§! 시킬 것입니다.\n"
- MAG_decrease_USA_support_high_tt:0 "이는 미국의 지원을 §Y많이§! §R하락§! 시킬 것입니다.\n"
- MAG_decrease_USA_support_very_high_tt:0 "이는 미국의 지원을 §Y매우 많이§! §R하락§! 시킬 것입니다.\n"
+ MAG_decrease_USA_support_low_tt:0 "이는 미국의 지원을 §Y조금§! §R하락§!시킬 것입니다.\n"
+ MAG_decrease_USA_support_med_tt:0 "이는 미국의 지원을 §Y약간§! §R하락§!시킬 것입니다.\n"
+ MAG_decrease_USA_support_high_tt:0 "이는 미국의 지원을 §Y많이§! §R하락§!시킬 것입니다.\n"
+ MAG_decrease_USA_support_very_high_tt:0 "이는 미국의 지원을 §Y매우 많이§! §R하락§!시킬 것입니다.\n"
  
  MAG_USA_improve_relations:0 "미국과의 관계 개선"
  MAG_USA_improve_relations_desc:0 "우리는 우리 정권에 대한 미국의 의견을 적당히 향상시키기 위해 약간의 영향력을 사용할 수 있습니다."
@@ -235,30 +235,30 @@
  
  MAG_USA_20_support_tp:0 "§Y[Root.GetName]§! 는 적어도 §H낮은§! 미국의 지원을 가지고 있습니다!\n"
  MAG_USA_40_support_tp:0 "§Y[Root.GetName]§! 는 적어도 §Y보통의§! 미국의 지원을 가지고 있습니다!\n"
- MAG_USA_60_support_tp:0 "§Y[Root.GetName]§! 는 적어도 §GH높은§! 미국의 지원을 가지고 있습니다!\n"
+ MAG_USA_60_support_tp:0 "§Y[Root.GetName]§! 는 적어도 §G높은§! 미국의 지원을 가지고 있습니다!\n"
  MAG_USA_80_support_tp:0 "§Y[Root.GetName]§! 는 적어도 §M매우 높은§! 미국의 지원을 가지고 있습니다!\n"
  
- MAG_USA_capable:0 "[USA.GetName] 은 배를 보낼 수 있습니다."
+ MAG_USA_capable:0 "[USA.GetName](은)는 선박을 보낼 수 있습니다."
 
  RUS_emigre_connections:0 "러시아 망명자 "
  RUS_american_siberian_trade:0 "미-시베리아 무역 법"
  
  ### Custom Effect Tooltips ###
  MAG_kamchatka_port_tt:0 "우리는 일제의 눈을 피해 외국 선박에 적합한 항구를 가지고 있다.\n"
- MAG_market_unlock_tt:0 "외세로부터 §Y장비를 구매§! 할 수 있는 능력을 확보하십시오.\n"
+ MAG_market_unlock_tt:0 "외세로부터 §Y장비를 구매§!할 수 있는 능력을 확보하십시오.\n"
 
- MAG_siberian_rangers_tt:0 "우리는 §Y시베리아 레인저§! 의 §G정예 병력§! 을 키울 것입니다.\n"
+ MAG_siberian_rangers_tt:0 "우리는 §Y시베리아 레인저§!의 §G정예 병력§!을  들입니다.\n"
  MAG_motorized_div_tt:0 "§Y차량화 보병§! 사단이 하나 생성됩니다.\n"
- MAG_ready_at_last_tt:0 "§마침내 당을 Y재결합§! 할 시간이 왔습니다!\n"
- MAG_the_man_who_sold_the_vozhd_tt:0 "§Y기병대§! 를 불러올 시간이 됬습니다.\n"
- MAG_integrate_amur_generals_tt:0 "§YGeorgy Shekerev§! 와 §YKonstantin Ageev§! 장군이 됩니다.\n"
- MAG_integrate_chita_generals_tt:0 "우리는 차르주의 장성진을 §Y포용§! 할 것입니다.\n"
- WCH_integrate_magadan_generals_tt:0 "우리는 마가단 장성진을 §Y포용§! 할 것입니다.\n"
+ MAG_ready_at_last_tt:0 "§마침내 당을 Y재결합§!할 시간이 왔습니다!\n"
+ MAG_the_man_who_sold_the_vozhd_tt:0 "§Y기병대§!를 불러올 시간이 됬습니다.\n"
+ MAG_integrate_amur_generals_tt:0 "§YGeorgy Shekerev§!와 §YKonstantin Ageev§!가 장군이 됩니다.\n"
+ MAG_integrate_chita_generals_tt:0 "우리는 차르주의 장성진을 §Y포용§!할 것입니다.\n"
+ WCH_integrate_magadan_generals_tt:0 "우리는 마가단 장성진을 §Y포용§!할 것입니다.\n"
 
- MAG_our_way_forward_tt:0 "우리는 §Y우리의 운명을 개척§! 하고 §g극동§! 에 대한 지배를 확장할 것입니다!\n"
- MAG_the_gold_of_aldan_tt:0 "§Y산업 전문성§! 과 §Y산업 장비§! 를 개선합니다.\n"
+ MAG_our_way_forward_tt:0 "우리는 §Y우리의 운명을 개척§! 하고 §g극동§!에 대한 지배를 확장할 것입니다!\n"
+ MAG_the_gold_of_aldan_tt:0 "§Y산업 전문성§! 과 §Y산업 장비§!를 개선합니다.\n"
  MAG_deal_with_peasant_uprisings_tt:0 "§Y우리는 지역 농민 봉기의 영향을 줄이기 위한 조치를 취할 것입니다!§!\n"
- MAG_made_in_russia_tt:0 "우리의 §YGDP§! 와 §YGDP 성장§! 이 약간 증가합니다.\n"
+ MAG_made_in_russia_tt:0 "우리의 §YGDP§! 와 §YGDP 성장§!이 약간 증가합니다.\n"
  
  MAG_strengthen_reformers_tt:0 "§M이는 개혁가들을 강화시킬 것입니다§!\n"
  MAG_weaken_reformers_tt:0 "§M이는 개혁가들을 약화시킬 것입니다.§!\n"
@@ -266,16 +266,16 @@
  MAG_weaken_labourists_tt:0 "§O이는 노동자 세력을 약화시킬 것입니다.§!\n"
  MAG_the_enduring_will_of_the_people_tt:0 "§YThis will unlock a decision to deal with the rival faction.§!\n"
 
- MAG_connections_with_the_diaspora_tt:0 "망명자들의 귀환의 결과로,우리의 §YGDP 성장§! 이 약간 증가할 것 입니다.\n"
+ MAG_connections_with_the_diaspora_tt:0 "망명자들이 귀환한 결과로, 우리의 §YGDP 성장§!이 약간 증가할 것 입니다.\n"
 
- MAG_sensible_concessions_tt:0 "Our §YGDP 성장§! 이 약간 증가할 것 입니다., as a result of improved trade.\n"
+ MAG_sensible_concessions_tt:0 "개선된 무역의 결과로, 우리의 §YGDP 성장§!이 약간 증가할 것 입니다.\n"
 
  USA_the_american_siberian_trade_act_tt:0 "우리의 §YGDP§! 가 약간 증가합니다.\n"
  MAG_the_american_siberian_trade_act_tt:0 "우리의 §YGDP§! 가 대량 증가합니다.\n"
 
- MAG_new_horizons_tt:0 "§Y캐나다§!, §Y멕시코§!, §Y오스트레일리아§!, §Y뉴질랜드§! 에 무역 및 관계 확대 요청서를 발송합니다.\n"
+ MAG_new_horizons_tt:0 "§Y캐나다§!, §Y멕시코§!, §Y오스트레일리아§!, §Y뉴질랜드§!에 무역 및 관계 확대 요청서를 발송합니다.\n"
 
- MAG_sponsor_the_russian_liberation_front_tt:0 "우리는 그들의 투쟁에 도움을 주기 위해 §Y만주§! 에 있는 §G러시아 국민 해방 전선§! 에 무기를 공급할 것입니다.\n"
+ MAG_sponsor_the_russian_liberation_front_tt:0 "우리는 그들의 투쟁에 도움을 주기 위해 §Y만주§!에 있는 §G러시아 국민 해방 전선§!에 무기를 공급할 것입니다.\n"
 
  MAG_matkovsky_70s_tt:0 "보즈드는 §R절대§! 쉽게 항복하지 않을 것입니다.\n"
 
