@@ -2204,91 +2204,91 @@ USA_glenn_willing_abm_compromise:0 "willing compromise text"
 USA_glenn_forced_abm_compromise:0 "forced compromise text"
 
 #nuclear negotiations event chain
-USA_Glenn_nuclear_ec_pop_boost:0 "This will be popular with the public"
-USA_Glenn_nuclear_ec_cost_reduce_small:0 "Costs will be slightly reduced, we estimate about 200 million"
-USA_Glenn_nuclear_ec_cost_reduce_big:0 "Costs will be significantly reduced, we estimate about 500 million"
-USA_Glenn_nuclear_ec_conversion:0 "Nuclear stockpiles of the USA, Japan, and Germany will reduce depending on the negotiated numbers"
-USA_Glenn_nuclear_ec_pop_reduce:0 "This will be unpopular"
-USA_Glenn_nuclear_ec_pop_reduce_stockpile:0 "The stockpiles of the three nations will be significantly reduced"
-USA_Glenn_nuclear_ec_pop_reduce_stockpile_med:0 "The stockpiles of the three nations will be reduced"
-USA_Glenn_nuclear_ec_cost_stockpile_reduce:0 "This will slightly reduce the nuclear stockpiles and expenses of the three nations"
+USA_Glenn_nuclear_ec_pop_boost:0 "이것들은 인기가 있습니다"
+USA_Glenn_nuclear_ec_cost_reduce_small:0 "약 200M의 비용이 감소할 것입니다"
+USA_Glenn_nuclear_ec_cost_reduce_big:0 "약 500M의 비용이 감소할 것입니다"
+USA_Glenn_nuclear_ec_conversion:0 "미국, 일본, 독일의 핵무기 비축률이 협상에 기재된만큼 줄어들 것입니다"
+USA_Glenn_nuclear_ec_pop_reduce:0 "이것들은 인기가 없습니다"
+USA_Glenn_nuclear_ec_pop_reduce_stockpile:0 "3개국의 비축률이 상당히 줄어들 것입니다"
+USA_Glenn_nuclear_ec_pop_reduce_stockpile_med:0 "3개국의 비축률이 줄어들 것입니다"
+USA_Glenn_nuclear_ec_cost_stockpile_reduce:0 "이것은 3개국의 핵무기 비축률과 예산을 소폭 감소시킵니다"
 glenn.nuclear.105.a:0 "[?Root.glenn_abm_compromise_response]"
 
 ############################## JPL Decisions
 
-USA_GLN_JPL:0 "The Jet Propulsion Lab"
-USA_GLN_JPL_desc:0 "We currently have §M[?USA_GLN_NASA_Science_Points] Research Points§! We can get Research Points from succsesful missions and spend them on researching technologies that will help in the future!"
+USA_GLN_JPL:0 "제트 추진 연구소"
+USA_GLN_JPL_desc:0 "우리는 현재 §M[?USA_GLN_NASA_Science_Points] 연구 점수§!를 보유하고 있습니다. 연구 점수는 임무 성공으로 획득할 수 있으며, 점수를 연구에 사용함으로서 추후에 도움을 받을 수 있을 겁니다!"
 
 ######### Tier 1
 
-USA_GLN_Research_Improved_Engineering:0 "Improved Engineering"
-USA_GLN_Research_Improved_Engineering_Tooltip:0 "This will §Gincrease§! our base §OPreparedness§! on all missions!\n"
+USA_GLN_Research_Improved_Engineering:0 "진보된 공학"
+USA_GLN_Research_Improved_Engineering_Tooltip:0 "이것은 모든 임무의 기본 §O준비성§!을 §G증가§!시킬 것입니다!\n"
 
 ########## Tier 2
 
-USA_GLN_Research_Expanded_Payloads:0 "Expanded Payloads"
-USA_GLN_Research_Expanded_Payloads_Tooltip:0 "This will §Gincrease§! the amount of §MResearch Points§! we get from succsesful missions!\n"
+USA_GLN_Research_Expanded_Payloads:0 "탑재량 증가"
+USA_GLN_Research_Expanded_Payloads_Tooltip:0 "이것은 임무 성공으로 획득하는 §M연구 점수§!를 §G증가§!시킬 것입니다!\n"
 
-USA_GLN_Research_Reworked_Uplinks:0 "Reworked Uplinks"
-USA_GLN_Research_Reworked_Uplinks_Tooltip:0 "This will §Gincrease§! our base §OPreparedness§! for §SUnmanned§! Missions!\n"
+USA_GLN_Research_Reworked_Uplinks:0 "업링크 개편"
+USA_GLN_Research_Reworked_Uplinks_Tooltip:0 "이것은 §S무인§! 임무의 기본 §O준비성§!을 §G증가§!시킬 것입니다!\n"
 
 ########### Tier 3
 
-USA_GLN_Research_Improved_Alloys:0 "Stronger Alloys"
-USA_GLN_Research_Improved_Alloys_Tooltip:0 "This will §Gincrease§! the base §OPreparedness§! for Orion, Minvera, Eros, and Daedulus missions, but will also slightly increase their §wbudgets§!!\n"
+USA_GLN_Research_Improved_Alloys:0 "강력한 합금"
+USA_GLN_Research_Improved_Alloys_Tooltip:0 "이것은 오리온, 미네르바, 에로스, 다이달로스 계획의 기본 §O준비성§!을 §G증가§!시키겠지만 §w예산§! 소모량도 늘어날 것입니다!\n"
 
-USA_GLN_Research_Recycled_Fuel_Tanks:0 "Recylable Fuel Tanks"
-USA_GLN_Research_Recycled_Fuel_Tanks_Tooltip:0 "This will §Gdecrease§! the cost of all our §SUnmanned§! missions!\n"
+USA_GLN_Research_Recycled_Fuel_Tanks:0 "재사용 가능한 연료탱크"
+USA_GLN_Research_Recycled_Fuel_Tanks_Tooltip:0 "이것은 §S무인§! 임무의 비용을 §G감소§!시킬 것입니다!\n"
 
-USA_GLN_Research_High_Powered_Relays:0 "High Powered Relays"
-USA_GLN_Research_High_Powered_Relays_Tooltip:0 "This will §Gincrease§! our rewards from succsesful Orion, Eros, and Minerva missions!\n"
+USA_GLN_Research_High_Powered_Relays:0 "고성능 계전기"
+USA_GLN_Research_High_Powered_Relays_Tooltip:0 "이것은 오리온, 에로스, 미네르바 계획의 보상을 §G증가§!시킬 것입니다!\n"
 
-USA_GLN_Research_Remote_Guidance_V2:0 "Probe AI V2"
-USA_GLN_Research_Remote_Guidance_V2_Tooltip:0 "This will §Gincrease§! our base §OPreparedness§ for §SUnmanned§! missions by a lot but will also increase their §wbudgets§!!\n"
+USA_GLN_Research_Remote_Guidance_V2:0 "탐사선 AI V2"
+USA_GLN_Research_Remote_Guidance_V2_Tooltip:0 "이것은 §S무인§!임무에서 우리의 기본 §O준비성§!을 대단히 §G증가§!시키겠지만 §w예산§!소모도 늘어날 것입니다!!\n"
 
 ########## Tier 4
 
-USA_GLN_Research_Improved_Alloys_V2:0 "Cutting Edge Metals"
-USA_GLN_Research_Improved_Alloy_V2_Tooltip:0 "This will §Gincrease§! the base §OPreparedness§! for Diana and Ares missions, but will also slightly increase their §wbudgets§!!\n"
+USA_GLN_Research_Improved_Alloys_V2:0 "최첨단 정밀금속"
+USA_GLN_Research_Improved_Alloy_V2_Tooltip:0 "이것은 다이애나 계획과 아레스 계획의 기본 §O준비성§!을 §G증가§!시키겠지만 §w예산§! 소모도 소폭 증가할 것입니다!\n"
 
-USA_GLN_Research_Recycled_Fuel_Tanks_V2:0 "Cutting Edge Tanks"
-USA_GLN_Research_Recycled_Fuel_Tanks_V2_Tooltip:0 "This will greatly §Gdecrease§! the cost of our §YManned§! missions!\n"
+USA_GLN_Research_Recycled_Fuel_Tanks_V2:0 "최첨단 연료탱크"
+USA_GLN_Research_Recycled_Fuel_Tanks_V2_Tooltip:0 "이것은 §Y유인§! 임무에 드는 비용을 크게 §G감소§!시킬 것입니다!\n"
 
-USA_GLN_Research_Infrared_Telescopes:0 "Infrared Telescopes"
-USA_GLN_Research_Infrared_Telescopes_Tooltip:0 "This will §Ggreatly increase§! the amount of §MResearch Points§! we get from Minerva missions!"
+USA_GLN_Research_Infrared_Telescopes:0 "적외선 망원경"
+USA_GLN_Research_Infrared_Telescopes_Tooltip:0 "이것은 미네르바 계획의 §M연구 점수§! 보상을 대단히 크게 §G증가§!시킬 것입니다!"
 
-USA_GLN_Research_Remote_Guidance_V3:0 "Probe AI V2"
-USA_GLN_Research_Remote_Guidance_V3_Tooltip:0 "This will §Gincrease§! our base §OPreparedness§ for §SUnmanned§! missions by a huge amount but will also increase their §wbudgets§!!\n"
+USA_GLN_Research_Remote_Guidance_V3:0 "탐사선 AI V2"
+USA_GLN_Research_Remote_Guidance_V3_Tooltip:0 "이것은 §S무인§! 임무에서 우리의 기본 §O준비성§!을 대단히 §G증가§!시키겠지만 §w예산§! 소모도 늘어날 것입니다!!\n"
 
-USA_GLN_Research_Computer_Assisted_Landing:0 "Improved Landing Controls"
-USA_GLN_Research_Computer_Assisted_Landing_Tooltip:0 "This will §Gincrease§! our base §OPreparedness§ for §YManned§! missions a huge amount but will also increase their §wbudgets§!!\n"
+USA_GLN_Research_Computer_Assisted_Landing:0 "진보된 착륙 제어"
+USA_GLN_Research_Computer_Assisted_Landing_Tooltip:0 "이것은 §Y유인§! 임무에서 우리의 기본 §O준비성§!을 대단히 §G증가§!시키겠지만 §w예산§! 소모도 늘어날 것입니다!\n"
 
 
 ########## Special Research
 
 USA_GLN_Special_Research_New_Capsule:0 "머큐리 우주 캡슐"
 USA_GLN_Reworked_Capsule_Unlock_Tooltip:0 "§w머큐리 우주 캡슐의 개발이 가능해집니다!§!\n"
-USA_GLN_Special_Research_New_Capsule_tooltip:0 "이것은 §Y유인§! 임무에서 보상을 크게 §G증가§! 시켜주는 장비를 해금해줄 것입니다!\n"
-USA_GLN_New_Capsule_Features:0 "이것은 이번 임무의 보상을 §G증가§! 시켜줄 것입니다!\n"
+USA_GLN_Special_Research_New_Capsule_tooltip:0 "이것은 §Y유인§! 임무에서 보상을 크게 §G증가§!시켜주는 장비를 해금해줄 것입니다!\n"
+USA_GLN_New_Capsule_Features:0 "이것은 이번 임무의 보상을 §G증가§!시켜줄 것입니다!\n"
 
 USA_GLN_Special_Research_Space_Suit_V2:0 "제미니 Mark II"
 USA_GLN_Special_Research_Space_Suit_V2_Unlock_Tooltip:0 "§w제미니 Mark II 우주복의 연구가 가능해집니다!!§!\n"
-USA_GLN_Special_Research_Space_Suit_V2_tooltip:0 "이것은 §Y유인§! 임무에서 우리의 기본 §O준비성§! 을 크게 §G증가§! 시켜주는 장비를 해금해줍니다!\n"
-USA_GLN_Space_Suit_V2_Features:0 "이것은 우리의 §O준비성§! 을 10 §G증가§! 시켜줄 것입니다\n"
+USA_GLN_Special_Research_Space_Suit_V2_tooltip:0 "이것은 §Y유인§! 임무에서 우리의 기본 §O준비성§!을 크게 §G증가§!시켜주는 장비를 해금해줍니다!\n"
+USA_GLN_Space_Suit_V2_Features:0 "이것은 우리의 §O준비성§! 을 10 §G증가§!시켜줄 것입니다\n"
 
 USA_GLN_Special_Research_Software_Update:0 "심우주 통신장비"
 USA_GLN_Special_Research_Software_Update_Unlock_Tooltip:0 "§w심우주 통신계전기의 연구가 가능해집니다!§!\n"
-USA_GLN_Special_Research_Software_Update_Tooltip:0 "이것은 임무 보상을 §G증가§! 시키는 장비를 해금해줄 것입니다!\n"
+USA_GLN_Special_Research_Software_Update_Tooltip:0 "이것은 임무 보상을 §G증가§!시키는 장비를 해금해줄 것입니다!\n"
 USA_GLN_Software_Update_Features:0 "이것은 임무 보상을 §G증가§! 시킬 것입니다\n"
 
 USA_GLN_Special_Research_Improved_Heat_Shields:0 "신형 열차폐막"
 USA_GLN_Special_Research_Improved_Heat_Shields_Unlock_Tooltup:0 "§w신형 열차폐막의 연구가 가능해집니다!§!\n"
-USA_GLN_Special_Research_Improved_Heat_Shields_Tooltip:0 "이것이 장착되면 §Y유인§! 임무에서의 기본 §O준비성§! 과 보상을 §G증가§! 시킬 것입니다!\n"
+USA_GLN_Special_Research_Improved_Heat_Shields_Tooltip:0 "이것이 장착되면 §Y유인§! 임무에서의 기본 §O준비성§!과 보상을 §G증가§!시킬 것입니다!\n"
 USA_GLN_Heat_Shields_Feature:0 " 이것은 우리의 §O준비성§! 을 5 §G증가§! 시키고 보상을 증가시킵니다\n"
 
 USA_GLN_Special_Research_Saturn_V_Rocket:0 "새턴 V 로켓"
 USA_GLN_Special_Research_Saturn_V_Rocket_Unlock_Tooltip:0 "§w새턴 5호의 연구가 가능해집니다!!§!\n"
-USA_GLN_Special_Research_Saturn_V_Rocket_Tooltip:0 "조건이 만족될 경우 §L다이애나 계획§! 과 §x아레스 계획§! 이 해금될 것입니다!"
+USA_GLN_Special_Research_Saturn_V_Rocket_Tooltip:0 "조건이 만족될 경우 §L다이애나 계획§!과 §x아레스 계획§!이 해금될 것입니다!"
 
 
 ############## Cost Tooltips
@@ -2369,27 +2369,27 @@ USA_GLN_Upgrading_Mission:0 "우리는 현재 계획을 업그레이드하는 �
 
 ### Launch Pad
 USA_GLN_Mission_Control_Launch_Pad_Decision:0 "발사대 준비"
-USA_GLN_Launch_Pad_Addition:0 "발사대를 로켓에 맞게 개량함으로서 발사시의 안전도를 늘릴 수 있슬 것입니다.\n\n이것은 계획에 §O5 준비성§! 을 추가시키며 §w25 million§! 의 비용을 소모합니다"
+USA_GLN_Launch_Pad_Addition:0 "발사대를 로켓에 맞게 개량함으로서 발사시의 안전도를 늘릴 수 있슬 것입니다.\n\n이것은 계획에 §O5 준비성§!을 추가시키며 §w25 million§!의 비용을 소모합니다"
 
 ### New Facilities
 
 USA_GLN_Mission_Control_Build_Up_Facilities:0 "특수 시설 건설"
-USA_GLN_New_Facilities_Decision:0 "우리의 로켓을 위한 특수 시설을 건설한다면 모든 과정에 있어 조심과 정확을 기할 수 있을 것입니다.\n\n이것은 계획에 §O23 준비성§! 을 추가시키며 §w45 million§! 의 비용을 소모합니다"
+USA_GLN_New_Facilities_Decision:0 "우리의 로켓을 위한 특수 시설을 건설한다면 모든 과정에 있어 조심과 정확을 기할 수 있을 것입니다.\n\n이것은 계획에 §O23 준비성§!을 추가시키며 §w45 million§!의 비용을 소모합니다"
 
 ### Rocket Review
 
 USA_GLN_Mission_Control_Check_Over_Rocket:0 "로켓 테스트"
-USA_GLN_Rocket_Review_Addition:0 "임무 도중에 나사가 떨어져나가진 않을지 실제 테스트를 통해 확인해볼 수 있습니다.\n\n이것은 계획에 §O10 준비성§! 을 추가시키며 §w40 million§! 의 비용을 소모합니다"
+USA_GLN_Rocket_Review_Addition:0 "임무 도중에 나사가 떨어져나가진 않을지 실제 테스트를 통해 확인해볼 수 있습니다.\n\n이것은 계획에 §O10 준비성§!을 추가시키며 §w40 million§!의 비용을 소모합니다"
 
 ### Testing Scenarios
 
 USA_GLN_Mission_Control_Run_Diagnostics_Tests:0 "점검 시뮬레이션 실행"
-USA_GLN_Diagnostics_Test_Additions:0 "수천번의 예측 시뮬레이션을 돌려보는 것으로 실제 사고가 일어나기 전에 어떤 문제가 있는지 미리 알아낼 수 있습니다.\n\n이것은 계획에 §O15 준비성§! 을 추가시키며 §w50 million§! 의 비용을 소모합니다"
+USA_GLN_Diagnostics_Test_Additions:0 "수천번의 예측 시뮬레이션을 돌려보는 것으로 실제 사고가 일어나기 전에 어떤 문제가 있는지 미리 알아낼 수 있습니다.\n\n이것은 계획에 §O15 준비성§!을 추가시키며 §w50 million§!의 비용을 소모합니다"
 
 ### Extra Techinicians
 
 USA_GLN_Mission_Control_Hire_In_Extra_Techinicians:0 "기술자 고용"
-USA_GLN_Extra_Techinicians_Addition:0 "통제소에 근무할 추가 인원을 고용한다면 추가적인 문제가 발생해도 대처할 수 있을 것입니다.\n\n이것은 계획에 §O7 준비성§! 을 추가시키며 §w30 million§! 의 비용을 소모합니다"
+USA_GLN_Extra_Techinicians_Addition:0 "통제소에 근무할 추가 인원을 고용한다면 추가적인 문제가 발생해도 대처할 수 있을 것입니다.\n\n이것은 계획에 §O7 준비성§!을 추가시키며 §w30 million§!의 비용을 소모합니다"
 
 #Rocket Launch
 
@@ -2401,34 +2401,34 @@ USA_GLN_never_activated:0 "로켓을 회수했습니다"
 
 ## Orion Mission
 USA_GLN_NASA_Orion_Description:0 "§G오리온 계획§! 은 우리의 기술력을 시험하고 우주에 재적응하기 위한 저궤도 §S무안§! 임무입니다\n"
-USA_GLN_Orion_Start_Funding:0 "이 계획을 개시하며 §w125 million§! 의 비용이 소모됩니다"
+USA_GLN_Orion_Start_Funding:0 "이 계획을 개시하며 §w125 million§!의 비용이 소모됩니다"
 USA_GLN_Mission_Control_Orion_Launch:0 "오리온 [?USA_GLN_Orion_Counter]호 발사"
 
 ## Minerva
 USA_GLN_NASA_Minerva_Description:0 "§M미네르바 계획§!은 궤도에 인공위성을 발사하는 §S무인§! 임무로, 약간의 암호화와 복호화 보너스를 줄 것입니다\n"
-USA_GLN_Minerva_Start_Funding:0 "이 계획을 개시하며 §w75 million§! 의 비용이 소모됩니다"
+USA_GLN_Minerva_Start_Funding:0 "이 계획을 개시하며 §w75 million§!의 비용이 소모됩니다"
 USA_GLN_Mission_Control_Minerva_Launch:0 "미네르바 [?USA_GLN_Minerva_Counter]호 발사"
 
 ## Daedulus Mission
 
-USA_GLN_NASA_Daedulus_Description:0 "§Q다이달로스 계획§! 은 우리의 궤도를 탐사하는 §Y유인§! 임무로서, 모든 임무의 §O준비성§! 을 증가시킵니다\n"
-USA_GLN_Daedulus_Start_Funding:0 "이 계획을 개시하며 §w250 million§! 의 비용이 소모됩니다"
+USA_GLN_NASA_Daedulus_Description:0 "§Q다이달로스 계획§!은 우리의 궤도를 탐사하는 §Y유인§! 임무로서, 모든 임무의 §O준비성§! 을 증가시킵니다\n"
+USA_GLN_Daedulus_Start_Funding:0 "이 계획을 개시하며 §w250 million§!의 비용이 소모됩니다"
 USA_GLN_Mission_Control_Daedulus_Launch:0 "다이달로스 [?USA_GLN_Daedulus_Counter]호 발사"
 
 ## Eros Missions
 
-USA_GLN_NASA_Eros_Description:0 "§P에로스 계획§! 은 우리의 미사일 무기를 실험하는 §S무인§! 임무로서, 전쟁 지지도를 증가시키고 로켓 기지 건설과 출격 범위에 보너스를 줍니다\n"
-USA_GLN_Eros_Start_Funding:0 "이 계획을 개시하며 §w15 million§! 의 비용이 소모됩니다"
+USA_GLN_NASA_Eros_Description:0 "§P에로스 계획§!은 우리의 미사일 무기를 실험하는 §S무인§! 임무로서, 전쟁 지지도를 증가시키고 로켓 기지 건설과 출격 범위에 보너스를 줍니다\n"
+USA_GLN_Eros_Start_Funding:0 "이 계획을 개시하며 §w15 million§!의 비용이 소모됩니다"
 USA_GLN_Mission_Control_Eros_Launch:0 "에로스 [?USA_GLN_Eros_Counter]호 발사"
 
 ## Diana Mission
 
-USA_GLN_NASA_Diana_Description:0 "§L다이애나 계획§! 은 아폴로의 비극을 딛고 달에 착륙하는 §Y유인§! 임무입니다. 이 계획을 완수하기 위해선 3회의 임무 성공이 필요합니다\n"
+USA_GLN_NASA_Diana_Description:0 "§L다이애나 계획§!은 아폴로의 비극을 딛고 달에 착륙하는 §Y유인§! 임무입니다. 이 계획을 완수하기 위해선 3회의 임무 성공이 필요합니다\n"
 USA_GLN_Diana_Start_Funding:0 "이 개획을 개시하며 §w275 million§! 의 비용이 소모됩니다"
 USA_GLN_Mission_Control_Diana_Launch:0 "다이애나 [?USA_GLN_Diana_Counter]호 발사"
 
 ## Ars Mission
 
 USA_GLN_NASA_Ares_Description:0 "§x아레스 계획§!은 §Y유인§! 임무로서 우리의 마지막 목표를 정복하고 인류를 전례없이 먼 곳까지 보내는 계획입니다. 이 계획를 완수하기 위해선 4회의 임무 성공이 필요합니다.\n"
-USA_GLN_Ares_Start_Funding:0 "이 계획을 개시하며 §w451 million§! 의 비용이 소모됩니다"
+USA_GLN_Ares_Start_Funding:0 "이 계획을 개시하며 §w451 million§!의 비용이 소모됩니다"
 USA_GLN_Mission_Control_Ares_Launch:0 "아레스 [?USA_GLN_Ares_Counter]호 발사"
