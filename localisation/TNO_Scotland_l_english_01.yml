@@ -1,5 +1,35 @@
 ﻿l_english:
 
+ #names
+ SCO_national_socialism:0 "스코틀랜드 공화국"
+ SCO_national_socialism_DEF:0 "스코틀랜드 공화국"
+ SCO_fascism:0 "스코틀랜드 공화국"
+ SCO_fascism_DEF:0 "스코틀랜드 공화국"
+ SCO_social_liberal:0 "스코틀랜드 공화국"
+ SCO_social_liberal_DEF:0 "스코틀랜드 공화국"
+ SCO_market_liberal:0 "스코틀랜드 공화국"
+ SCO_market_liberal_DEF:0 "스코틀랜드 공화국"
+ SCO_social_conservative:0 "스코틀랜드 공화국"
+ SCO_social_conservative_DEF:0 "스코틀랜드 공화국"
+ SCO_authoritarian_democrat:0 "스코틀랜드 공화국"
+ SCO_authoritarian_democrat_DEF:0 "스코틀랜드 공화국"
+ SCO_despotism:0 "스코틀랜드 공화국"
+ SCO_despotism_DEF:0 "스코틀랜드 공화국"
+ SCO_communist:0 "스코틀랜드 공화국"
+ SCO_communist_DEF:0 "스코틀랜드 공화국"
+ SCO_socialist:0 "스코틀랜드 공화국"
+ SCO_socialist_DEF:0 "스코틀랜드 공화국"
+ SCO_social_democrat:0 "스코틀랜드 공화국"
+ SCO_social_democrat_DEF:0 "스코틀랜드 공화국"
+ SCO_social_democrat_ADJ:0 "스코틀랜드"
+ SCO_national_socialism_ADJ:0 "스코틀랜드"
+ SCO_fascism_ADJ:0 "스코틀랜드"
+ SCO_social_liberal_ADJ:0 "스코틀랜드"
+ SCO_market_liberal_ADJ:0 "스코틀랜드"
+ SCO_social_conservative_ADJ:0 "스코틀랜드"
+ SCO_authoritarian_democrat_ADJ:0 "스코틀랜드"
+ SCO_despotism_ADJ:0 "스코틀랜드"
+ SCO_communist_ADJ:0 "스코틀랜드"
  #Parties
 
  SCO_ultranational_socialism_party:0 "BIF"
@@ -112,6 +142,10 @@
  FEN_mayne_british_republic_social_conservative:0 "British Republic"
  FEN_mayne_british_republic_social_conservative_DEF:0 "the British Republic"
  FEN_mayne_british_republic_social_conservative_ADJ:0 "British"
+
+ SCO_military_administration_despotism:0 "Military Administration of Scotland"
+ SCO_military_administration_despotism_ADJ:0 "Military Administration of Scotland"
+ SCO_military_administration_despotism_DEF:0 "Military Administration of Scotland"
 
  #tooltips
  SCO_Paranoias_reassign_them_tt:0 "We will move the Military Police to a different location, far from the capital."
@@ -299,6 +333,7 @@
  
  #Mayne Stuff
  FEN_mayne_politics_cat:0 "The War For the Republic"
+
  FEN_mayne_politics_cat_desc:0 "\n\n\n\n\n\nThere are two groups in the British Republic. The militarists which are made up of the SAS Old Guard who push for a strong government led by the SAS and military that will protect the security of Britain. They are led by John Slim, and they support giving Mayne more power to combat the socialists and other groups that threaten Britain. The other group is the democrats which are made up of the remainder of the Unionist Party that wasn't purged and the remainders of HMMLR. The democrats want Mayne and the SAS to relinquish their control over government and allow democratic elections to take place. For now, the people of Britain accept the military government as a neccessary force to keep fascism out of Britain, but everyday, the government loses more support and the voices for democracy get louder. There has to be a breaking point.\n\n§QThe Militarists are [root.MayneMT_influence].§!\n\n§OThe Democrats are [root.MayneDM_influence].§!\n\n§WThe Military Government is [root.MT_popularity].§!"
  FEN_Mayyyyne:0 "DEBUG - §OWELCOME TO THE MAYNE ET LOIRE§!"
  FEN_mayne_Government_Criticized:0 "Government Under Fire"
@@ -1389,8 +1424,8 @@
  SCO.2011.t:0 "A Common Tongue"
  SCO.2011.desc:0 "The English exiles living in Scotland had long since been accepted with varying degrees of warmth. They weren't so different from us - survivors of the United Kingdom and were just trying to be safe. If they were here because they were fleeing from Scotland's enemies surely that made them our friends? Well, that was the prevailing sentiment among the soft citizenry, at least. The armed forces and the more vigilant citizens were beyond simply aware that the English might be a threat to Scotland - they were certain of it.\n\nThe Scottish high commander tapped his finger upon his desk as he thought about the problem. He didn't HATE the English, yet every refugee residing in Scotland was a crack in his highland fortress that could be exploited by the Germans and their ilk. The disparate children of London were a wildcard, any of these seemingly desperate folk could be spies, reactionary unionists, or might simply drag their host country into a hopeless war. Though the English might as well be siblings to the Scottish, it was impossible to ignore that these people were a threat, even if it was only a minority of them.\n\nAnd yet, he thought to himself, there might be room for half measures. The English could be pitied - for they were pitiable in exile like this, but they needn't be trusted - for they were untrustworthy. It could be arranged for them to be watched on a massive scale, observed to ensure continued loyalty. They were an easy minority to surveil, for they were kind enough to have shared their language with the Scots ages ago."
  SCO.2011.a:0 "North and south of the border; every Anglo speaks treachery."
- SCO.2012.t:0 "Off Rough Start"
- SCO.2012.desc:0 "News reached the armed forces command first thing in the morning and kept pouring in all day long. It fell upon the shoulders of Margaret Henderson to deliver the memos to the various junta leaders. This was her first day interning with the impromptu government and she was already cursing her more senior coworkers that had dumped the task of bearing bad news upon her. Every general was in a huff at the frenzy of civil unrest that had engulfed the streets.\n\n"We're a nation under siege!" They would say. "The Nazi's won't treat them as civilians, so we can't either!"\n\nMargaret would nod in agreement, and give her best "Yes Sir," when required, and would relay the responses back to the operators.\n\nMargaret found herself cursing under her breath as the day went on and more memos reached her hands stating that the military crackdowns had largely failed to quell the unrest. By the end of the day the generals were already beginning to hate seeing her at their doors."
+ SCO.2012.t:0 "Off to a Rough Start"
+ SCO.2012.desc:0 "News reached the armed forces command first thing in the morning and kept pouring in all day long. It fell upon the shoulders of Margaret Henderson to deliver the memos to the various junta leaders. This was her first day interning with the impromptu government and she was already cursing her more senior coworkers that had dumped the task of bearing bad news upon her. Every general was in a huff at the frenzy of civil unrest that had engulfed the streets.\n\n"We're a nation under siege!" they would say. "The Nazis won't treat them as civilians, so we can't either!"\n\nMargaret would nod in agreement, and give her best "Yes Sir," when required, and would relay the responses back to the operators.\n\nMargaret found herself cursing under her breath as the day went on and more memos reached her hands stating that the military crackdowns had largely failed to quell the unrest. By the end of the day the generals were already beginning to hate seeing her at their doors."
  SCO.2012.a:0 "The new girl is bad luck! Where's my old secretary?"
  SCO.2013.t:0 "How the Haggis Gets Made"
  SCO.2013.desc:0 "The meeting between Wimberley and his proteges happened behind closed doors without even a recorder to write down the pivotal ocasion. The arguments were fierce and dragged on most of the day. It was obvious that direct military rule wasn't going to be able to last, the people had made that abundantly clear with their nation-rocking protests. They would need to be appeased but how that was to be done was a contentious issue.\n\nThey would seize the initiative and crack down on the protestors, some had said, while others, wringing their hands, quietly suggested a restoration of democracy. At long last the five of them emerged with a plan to restore legitimacy to their government and keep the Scottish citizenry from further rioting.\n\There would be an election soon, one that all would know as being fair and free - and it was already decided that the armed forces would win it."
