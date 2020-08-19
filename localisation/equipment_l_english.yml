@@ -59,7 +59,7 @@ l_english:
  NOT_ENOUGH_MANPOWER_TO_REINFORCE:0 "증원에 필요한 인력이 부족합니다."
  MANPOWER_REINFORCEMENT_NOT_POSSIBLE:0 "§R현재 지역에 인력을 증원할 수 없습니다.§!"
  ARCHETYPE_DESC_ENTRY:0 "    - $COUNT|0$ $NAME|H$"
- OUTDATED_EQ:0 "Show outdated equipment"
+ OUTDATED_EQ:0 "구형 장비 표시"
 
  ### Equipment Version Names (by Country) ###
   GER_EQUIPMENT_VERSION_1:0 "A"
@@ -228,19 +228,19 @@ l_english:
   RAJ_EQUIPMENT_VERSION_13:0 "Mk. XIII"
   RAJ_EQUIPMENT_VERSION_12:0 "Mk. XII"
   
-  FRA_EQUIPMENT_VERSION_1:0 "série A"
-  FRA_EQUIPMENT_VERSION_2:0 "série B"
-  FRA_EQUIPMENT_VERSION_3:0 "série C"
-  FRA_EQUIPMENT_VERSION_4:0 "série D"
-  FRA_EQUIPMENT_VERSION_5:0 "série E"
-  FRA_EQUIPMENT_VERSION_6:0 "série F"
-  FRA_EQUIPMENT_VERSION_7:0 "série G"
-  FRA_EQUIPMENT_VERSION_8:0 "série H"
-  FRA_EQUIPMENT_VERSION_9:0 "série I"
-  FRA_EQUIPMENT_VERSION_10:0 "série J"
-  FRA_EQUIPMENT_VERSION_11:0 "série K"
-  FRA_EQUIPMENT_VERSION_12:0 "série L"
-  FRA_EQUIPMENT_VERSION_13:0 "série M"
+  FRA_EQUIPMENT_VERSION_1:0 "세리에 A"
+  FRA_EQUIPMENT_VERSION_2:0 "세리에 B"
+  FRA_EQUIPMENT_VERSION_3:0 "세리에 C"
+  FRA_EQUIPMENT_VERSION_4:0 "세리에 D"
+  FRA_EQUIPMENT_VERSION_5:0 "세리에 E"
+  FRA_EQUIPMENT_VERSION_6:0 "세리에 F"
+  FRA_EQUIPMENT_VERSION_7:0 "세리에 G"
+  FRA_EQUIPMENT_VERSION_8:0 "세리에 H"
+  FRA_EQUIPMENT_VERSION_9:0 "세리에 I"
+  FRA_EQUIPMENT_VERSION_10:0 "세리에 J"
+  FRA_EQUIPMENT_VERSION_11:0 "세리에 K"
+  FRA_EQUIPMENT_VERSION_12:0 "세리에 L"
+  FRA_EQUIPMENT_VERSION_13:0 "세리에 M"
   
   ITA_EQUIPMENT_VERSION_1:0 "I 세리에"
   ITA_EQUIPMENT_VERSION_2:0 "II 세리에"
@@ -429,18 +429,18 @@ l_english:
   ## Infantry Anti-Tank ##
 
   ## Infantry Anti-Air ##
-   anti_air_shoulder_equipment:0 "Anti-Air Equipment"
+   anti_air_shoulder_equipment:0 "대공 장비"
 
-   anti_air_shoulder_equipment_0:0 "Improved Anti-Air Equipment"
+   anti_air_shoulder_equipment_0:0 "개선된 대공 장비"
    anti_air_shoulder_equipment_0_desc:0 "제2차 세계 대전 직후 개발된 기본적인 휴대용 방공체계(MANPADS)입니다. 항공기 엔진에서 나오는 열기를 추적하기 위한 센서가 달려있습니다."
 
-   anti_air_shoulder_equipment_1:0 "Advanced Anti-Air Equipment"
+   anti_air_shoulder_equipment_1:0 "진보된 대공 장비"
    anti_air_shoulder_equipment_1_desc:0 "비행 속도와 피해량을 늘리기 위해 로켓과 탄두의 설계를 개선한 개선형 MANPADS입니다. 항공기에서 나오는 신호를 추적합니다." 
 
-   anti_air_shoulder_equipment_2:0 "Semi-Modern Anti-Air Equipment"
+   anti_air_shoulder_equipment_2:0 "준현대 대공 장비"
    anti_air_shoulder_equipment_2_desc:0 "무반동 블로우백 방식을 채택한 MANPADS입니다. 플레어나 전자전과 같은 대항장비를 탐지하고 무력화할 수 있는 부품이 달려있습니다." 
 
-   anti_air_shoulder_equipment_3:0 "Modern Anti-Air Equipment"
+   anti_air_shoulder_equipment_3:0 "현대 대공 장비"
    anti_air_shoulder_equipment_3_desc:0 "전자 추적과 레이저 조준 방식을 합친 매우 진보한 MANPADS입니다. 더 가벼우며, 복합재료를 사용했고, 디지털 방식을 사용했으며, 다양한 탄두를 쓸 수 있습니다." 
   ## Infantry Anti-Air ##
  ### Support Equipment ###
@@ -449,19 +449,19 @@ l_english:
   motorized_equipment:0 "차량화 장비"
   motorized_equipment_desc:0 "차량화 장비"
 
-  motorized_equipment_0:0 "Early Motorized Equipment"
+  motorized_equipment_0:0 "초기 차량화 장비"
   motorized_equipment_0_desc:0 "차량화보병은 군 기계화의 첫걸음입니다. 민간 트럭은 병력 수송, 화포 견인, 장비 및 보급품 운반과 같은 군용 임무에 쉽게 적응합니다."
 
-  motorized_equipment_1:0 "Basic Motorized Equipment"
+  motorized_equipment_1:0 "기본적 차량화 장비"
   motorized_equipment_1_desc:0 "전용 개선을 거친 민간 트럭의 군용 파생형입니다. 거친 환경과 군사 작전을 버티기 위해 엔진을 업그레이드하고 더 튼튼한 부품을 사용합니다."
 
-  motorized_equipment_2:0 "Improved Motorized Equipment"
+  motorized_equipment_2:0 "개선된 차량화 장비"
   motorized_equipment_2_desc:0 "처음부터 군사용으로 설계되고 군용 부품을 사용한 차량입니다. 최근 전쟁에서 얻은 교훈에 따라 설계되었으며. 다른 군사 장비와 함께 쓰기 위해 호환성을 손보았습니다."
 
-  motorized_equipment_3:0 "Advanced Motorized Equipment"
+  motorized_equipment_3:0 "진보된 차량화 장비"
   motorized_equipment_3_desc:0 "이 트럭은 내구력과 수명을 최대화하기 위해 엄격한 시험을 거쳤습니다. 한계까지 밀어붙이더라도 야전에서 퍼지는 일은 없을 것입니다."
 
-  motorized_equipment_4:0 "Modern Motorized Equipment"
+  motorized_equipment_4:0 "현대 차량화 장비"
   motorized_equipment_4_desc:0 "두꺼운 장갑을 두르고 밑바닥에 지뢰 방호 장갑을 단 차량화 장비입니다. 지구의 어떤 곳에서도 굴러다니도록 만들어지고 시험받았습니다."
  ### Mobile Infantry ###
 
