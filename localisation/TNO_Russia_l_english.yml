@@ -16,18 +16,18 @@
  WSB_add_collapse_administration_tt:0 "우리 협력국의 §Y전 정부§!가 대체될 것입니다!\n"
  WRS_west_russian_collapse_tt:0 "우리 협력국의 §Y전 정부§!가 대체될 것입니다!\n"
 
- RUS_generic_debug:0 "Russian Generic Debug"
- RUS_generic_debug_desc:0 "Insert witty placeholder loc."
- RUS_unite_west_russia:0 "Unite §Ywest Russia§!"
- RUS_unite_west_siberia:0 "Unite §YWest Siberia§!"
- RUS_unite_central_siberia:0 "Unite §YCentral Siberia§!"
- RUS_unite_far_east:0 "Unite §YFar East§!"
- RUS_unite_kazakhstan:0 "Unite §YKazakhstan§!"
- RUS_unite_wrs:0 "Unite §YRussian Superregional§!"
- RUS_unite_siberia:0 "Unite §YSiberian Superregional§!"
- RUS_random_get_regionals:0 "Random §YRegionals§!"
- RUS_random_get_superreg:0 "Random §YSuperregional§!"
- RUS_unite_russia:0 "Unite §YRussia§!"
+ RUS_generic_debug:0 "러시아 일반 디버그"
+ RUS_generic_debug_desc:0 "여기다가 빵터지는 플레이스홀더 써둬라"
+ RUS_unite_west_russia:0 "§Y서러시아§! 통일"
+ RUS_unite_west_siberia:0 "§Y서시베리아§! 통일"
+ RUS_unite_central_siberia:0 "§Y중앙시베리아§! 통일"
+ RUS_unite_far_east:0 "§Y극동§! 통일"
+ RUS_unite_kazakhstan:0 "§Y카자흐스탄§! 통일"
+ RUS_unite_wrs:0 "§Y러시아 광역§! 통일"
+ RUS_unite_siberia:0 "§Y시베리아 광역§! 통일"
+ RUS_random_get_regionals:0 "무작위 §Y지방§!"
+ RUS_random_get_superreg:0 "무작위 §Y광역§!"
+ RUS_unite_russia:0 "§Y러시아§! 통일"
 
 
  region_name_WRS:0 "[WRS.GetName]"
@@ -164,7 +164,7 @@
 
  #지방 개발 
  regional_development_decision_category:0 "지방 개발"
- regional_development_decision_category_desc:0 "\n\n\n\n\n\n러시아 내 지방 통일로 광활한 영토와 수백만 명의 인구, 어마어마한 군대를 갖게 되었습니다. 하지만 지금까지의 진보가 전부는 아닙니다. 우리 기반시설은 아직 완성되지 않았고, 우리 국민도 아직 빈곤에 처해있습니다. 우리는 많은 부분에서 독일국에게 뒤떨어졌습니다. 우리 국가를 정말 훌륭한 국가로 만들려면 개발과 진보를 위한 대규모 계획을 시작해야 합니다. 그렇지 않는다면 경쟁자들이 우리를 압도해 모국 통일의 꿈을 짓밟고 말 것입니다."
+ regional_development_decision_category_desc:0 "\n\n\n\n\n\n러시아 내 지방 통일로 광활한 영토와 수백만 명의 인구, 어마어마한 군대를 갖게 되었습니다. 하지만 지금까지의 진보가 전부는 아닙니다. 우리 기반시설은 아직 완성되지 않았고, 우리 국민도 아직 빈곤에 처해있습니다. 우리는 많은 부분에서 라이히에게 뒤떨어졌습니다. 우리 국가를 정말 훌륭한 국가로 만들려면 개발과 진보를 위한 대규모 계획을 시작해야 합니다. 그렇지 않는다면 경쟁자들이 우리를 압도해 모국 통일의 꿈을 짓밟고 말 것입니다."
 
  regional_democratic_encourage_political_thought:0 "정치 사상 고무"
  regional_democratic_encourage_political_thought_tt:0 "§Y과격 사상§!의 지지도가 §G감소합니다§!."
@@ -225,7 +225,7 @@
  regional_encourage_agricultural_mechanization:0 "농업 기계화 장려"
  regional_encourage_agricultural_mechanization_cost_tt:0 "§Y부채§!가 §Y$145M§! 증가합니다."
  
- regional_hire_foreign_instructors:0 "해외 강사 고용"
+ regional_hire_foreign_instructors:0 "해외 교관 고용"
  regional_hire_foreign_instructors_cost_tt:0 "§Y부채§!가 §Y$130M§! 증가합니다."
  
  regional_encourage_returning_expatriates:0 "해외 거주자 귀환 장려"
@@ -474,9 +474,9 @@
 
 ### 정신 ###
  RUS_terror_bombing:0 "루프트바페 테러 폭격"
- RUS_terror_bombing_desc:0 "몇 주마다 모스코비엔 국가판무관 부에서 이륙한 루프트바페 항공기들이 서러시아 군벌 국가 위를 비행합니다. 이들은 낄낄거리며 눈에 보이는 모든 민간 표적을 폭격합니다. 이는 "조종사 훈련"이라는 정신 나간 형태로 벌어지는 일입니다. 이들은 시골 지역의 삶을 지옥으로 만들 뿐 아니라 가끔 지방 도시 위를 지나치며 불벼락을 뿌리기도 합니다. 하지만 루프트바페 항공기가 러시아 상공에 너무 오래 머문다면 소련 공군 잔당에게 요격당할 위험이 있습니다. 기회가 있을 때마다 루프트바페를 혼내주는 자유로운 비행가들이 없었다면 러시아의 상황은 더 심각했을 것입니다."
+ RUS_terror_bombing_desc:0 "몇 주마다 모스코비엔 국가판무관부에서 이륙한 루프트바페 항공기들이 서러시아 군벌 국가 위를 비행합니다. 이들은 낄낄거리며 눈에 보이는 모든 민간 표적을 폭격합니다. 이는 "조종사 훈련"이라는 정신 나간 형태로 벌어지는 일입니다. 이들은 시골 지역의 삶을 지옥으로 만들 뿐 아니라 가끔 지방 도시 위를 지나치며 불벼락을 뿌리기도 합니다. 하지만 루프트바페 항공기가 러시아 상공에 너무 오래 머문다면 소련 공군 잔당에게 요격당할 위험이 있습니다. 기회가 있을 때마다 루프트바페를 혼내주는 자유 비행단이 없었다면 러시아의 상황은 더 심각했을 것입니다."
  SIB_terror_bombing:0 "루프트바페 테러 폭격"
- SIB_terror_bombing_desc:0 "몇 주마다 모스코비엔 국가판무관 부에서 이륙한 루프트바페 항공기들이 서러시아 군벌 국가 위를 비행합니다. 이들은 낄낄거리며 눈에 보이는 모든 민간 표적을 폭격합니다. 이는 "조종사 훈련"이라는 정신 나간 형태로 벌어지는 일입니다. 이들은 시골 지역의 삶을 지옥으로 만들 뿐 아니라 가끔 지방 도시 위를 지나치며 불벼락을 뿌리기도 합니다. 하지만 루프트바페 항공기가 러시아 상공에 너무 오래 머문다면 소련 공군 잔당에게 요격당할 위험이 있습니다. 기회가 있을 때마다 루프트바페를 혼내주는 자유로운 비행가들이 없었다면 러시아의 상황은 더 심각했을 것입니다."
+ SIB_terror_bombing_desc:0 "몇 주마다 모스코비엔 국가판무관부에서 이륙한 루프트바페 항공기들이 서러시아 군벌 국가 위를 비행합니다. 이들은 낄낄거리며 눈에 보이는 모든 민간 표적을 폭격합니다. 이는 "조종사 훈련"이라는 정신 나간 형태로 벌어지는 일입니다. 이들은 시골 지역의 삶을 지옥으로 만들 뿐 아니라 가끔 지방 도시 위를 지나치며 불벼락을 뿌리기도 합니다. 하지만 루프트바페 항공기가 러시아 상공에 너무 오래 머문다면 소련 공군 잔당에게 요격당할 위험이 있습니다. 기회가 있을 때마다 루프트바페를 혼내주는 자유 비행단이 없었다면 러시아의 상황은 더 심각했을 것입니다."
 
  RUS_warlord_manpower:0 "군벌 모병"
  RUS_regional_manpower:0 "지방 모병"
@@ -685,9 +685,9 @@
  raiding.17.a:0 "어떤 금수들이 이런 짓을 할까..."
 
  #서러시아 불가사의
- RUSwonder.0.t:0 "An End To Wonders"
- RUSwonder.0.desc:0 "We have come far! Where once our government was seen as a mere warlord, holding onto a scrap of Russian land, we can now assert ourselves as a proper nation on the world stage. Having made it into the final basket of candidates to reunify Russia, our country can stand proud of its accomplishment, and look to the road ahead with determination.\n\nThis progress has filled our citizens with awe, even as we rebuild the country, its infrastructures and its industries. However, our successes have rendered the Wonders of old much less critical to our efforts. Where once holding on to these relics of a happier past gave our government legitimacy and gave our people tools needed for survival, the Wonders under our control are now a tiny portion of our overall assets. They will no doubt continue to inspire our people, and they stand as mementos to the warlord era; but the age where holding onto Wonders was of great importance has come to an end."
- RUSwonder.0.a:0 "Onto an uncertain future."
+ RUSwonder.0.t:0 "불가사의의 끝"
+ RUSwonder.0.desc:0 "해냈습니다! 러시아 땅 일부분을 차지한 군벌로 여겨지던 우리 정부가 이제는 세계에 보여줄 만한 국가로 자처할 수 있게 되었습니다. 우리는 러시아 재통일의 최종 후보가 되었습니다. 우리는 이를 자랑스럽게 여기며 투지를 갖고 앞으로 있을 일을 기대할 자격이 있습니다.\n\n우리가 국가와 기반시설, 산업을 재건하는 동안 우리 시민들의 경외감에 휩싸였습니다. 하지만 이 성공으로 구시대의 불가사의는 노력보다 덜 중요해졌습니다. 옛날에는 이 즐거웠던 순간의 유물들이 우리에게는 정통성을, 시민들에게는 살아남기 위한 도구를 주었습니다. 이제 우리가 통제하는 불가사의들은 우리들의 모든 자산에 비해 보잘것없어졌습니다. 물론 이 유물들은 우리 사람들을 고무시키며 군벌 시대의 기념품으로 남아있을 것입니다. 하지만 불가사의가 중요한 시대는 이제 끝났습니다."
+ RUSwonder.0.a:0 "알수없는 미래로.
  
  RUSwonder.1.t:0 "크라스노예 소르모보 공장 점령!"
  RUSwonder.1.desc:0 "서러시아에서 제일 많은 기갑 차량을 생산하는 고리키 전차공장을 확보했습니다. 이 공장은 소련 산업에서 빼놓을 수 없는 시설로 서러시아 전쟁 당시 대규모로 가동되었습니다. 서러시아 혁명전선 붕괴 이후 니콜라이 아베린과 그의 도적 사단이 이 공장을 차지했습니다. 이들은 모스코비엔 국가판무관부를 약탈하기 위해 이 시설에서 전차를 뽑아냈습니다. 이런 주요 군사 시설에 맞지 않는 운명이었죠! 러시아 군벌 사이에서 전차는 보기 힘든 물건입니다. 그렇기에 전차 부대를 만들 수 있는 이들은 무시할 수 없는 자들입니다. 그리고 이 공장은 매우 인기 있는 전리품입니다.\n\n이제 고리키 전차공장은 우리 것이 되었습니다. 우리는 이 공장을 독일인에게서 고철을 빼앗는 것보다 더 좋은 곳에 쓸 수 있습니다. 전차 생산 능력을 회복하는 일은 한 발자국이 될 것입니다. 그 길 끝에는 국가다운 된 군사력과 서러시아에서 벌어지는 전쟁의 최종 승리 선언이 있겠죠."
@@ -798,98 +798,98 @@
  RUSwonder.1991.desc:0 "블라디미르 레닌은 소련의 창시자이자 러시아가 군벌주의로 붕괴하게 만든 인물입니다. 그는 더는 공산주의자의 방종과 퇴보의 상징으로 번창하지 않을 것입니다. 그의 시신은 불태워져 재가 되었습니다. 재는 러시아 황무지에 흩뿌려졌습니다. 어떤 이들은 그의 시신이 상징하는 사상에 애착을 둘지도 모릅니다. 하지만 우리는 레닌이 '러시아사에서 제일 중요한 지도자 중 한 명'이라는 말이 사실이 아니라는 것을 알았습니다. 짧은 기간에 우리나라를 무너뜨렸다고 해도 레닌은 단지 한 남자일 뿐입니다. 그 이상도 그 이하도 아닙니다."
  RUSwonder.1991.a:0 "이상한 사상을 가지고 짧게 살다 간 지도자지. 참신한 건 없어."
 
- #떠돌이 개 이벤트 체인 - 서러시아
+ #떠돌이 개 이벤트 체인 - 서부 러시아
  RUS.8.t:0 "가족과 떨어져"
- RUS.8.desc:0 "사샤는 폭격으로 박살 난 오두막의 잔해 옆에 앉아 기다렸다. 그녀의 귀는 파편에 찢겨나가 있었다. 그녀는 사냥꾼과 함께 사냥감을 쫓던 순간을 떠올렸다. 얼마나 즐거운 시간이었던가! 하지만 이제는 모든 것이 사라졌다. 낡은 회색 오두막의 초가지붕은 날아가 버렸고, 벽 너머에서 들려오던 웃음과 취기 어린 농담은 죽은 침묵이 되었다. 머리 위로 높게 뻗은 소나무 숲은 인간과 함께 있었을 때 누렸던 따뜻함도 안락함도 주지 못했다. 그녀는 공터에 드러누웠다. 머리 위에 우거진 잎사귀들을 보는 것도 두려웠다. 단지 시골로 달려가고 싶을 뿐이었다. 하지만 사샤는 동료들을 믿고 있었다. 그들이 다시 돌아와 옛날처럼 같이 사냥을 나갈 것이었다.\n\n해가 뜨고 졌다. 밤이 오고 갔다. 그녀가 잘 때, 그녀가 덤불 속으로 도망친 작은 동물을 쫓아 나갈 때, 그녀가 자신 없어 하며 사라진 친구들을 찾으려 할 때 소나무의 눈이 그녀를 지켜보았다. 빽빽한 덤불 밑에는 해로워 보이는 다른 동물들, 한때 그녀가 사냥했던 사냥감들, 그리고 이상한 냄새를 풍기는 낯선 사람이 있었다. 그녀는 전율했다. 이 땅에 그녀 혼자만이 남아있었다. 그녀는 두 번째 새벽에 눈을 뜨고 네 발로 일어나 자리를 떴다. 여전히 그녀는 동료들을 다시 만나고 숲의 동물들이 다시 그녀를 두려워할 게 될 거라고 믿고 있었다. 하지만 살아남는 게 제일 중요했다. 그녀는 숲속으로 걸어 들어갔다. 소나무들은 가능한 높은 것에서 알 수 없는 목적을 가지고 그녀를 내려다보았다."
+ RUS.8.desc:0 "사샤는 폭격으로 박살 난 오두막의 잔해 옆에 앉아 기다렸다. 그녀의 귀는 파편에 찢겨나가 있었다. 그녀는 사냥꾼과 함께 사냥감을 쫓던 순간을 떠올렸다. 얼마나 즐거운 시간이었던가! 하지만 이제는 모든 것이 사라졌다. 낡은 회색 오두막의 초가지붕은 날아가 버렸고, 벽 너머에서 들려오던 웃음과 취기 어린 농담은 죽은 침묵이 되었다. 머리 위로 높게 뻗은 소나무 숲은 인간과 함께 있었을 때 누렸던 따뜻함도 안락함도 주지 못했다. 그녀는 공터에 드러누웠다. 머리 위에 우거진 잎사귀들을 보는 것도 두려웠다. 단지 시골로 달려가고 싶을 뿐이었다. 하지만 사샤는 동료들을 믿고 있었다. 그들이 다시 돌아와 옛날처럼 같이 사냥을 나갈 것이었다.\n\n해가 뜨고 졌다. 밤이 오고 갔다. 그녀가 잘 때, 그녀가 덤불 속으로 도망친 작은 동물을 쫓아 나갈 때, 그녀가 자신 없어 하며 사라진 친구들을 찾으려 할 때 소나무의 눈이 그녀를 지켜보았다. 빽빽한 덤불 밑에는 해로워 보이는 다른 동물들, 한때 그녀가 사냥했던 사냥감들, 그리고 이상한 냄새를 풍기는 낯선 인간이 있었다. 그녀는 전율했다. 이 땅에 그녀 혼자만이 남아있었다. 그녀는 두 번째 새벽에 눈을 뜨고 네 발로 일어나 자리를 떴다. 여전히 그녀는 동료들을 다시 만나고 숲의 동물들이 다시 그녀를 두려워할 게 될 거라고 믿고 있었다. 하지만 살아남는 게 제일 중요했다. 그녀는 숲속으로 걸어 들어갔다. 소나무들은 가능한 높은 것에서 알 수 없는 목적을 가지고 그녀를 내려다보았다."
  RUS.8.a:0 "개의 일생 중 하루."
 
  RUS.9.t:0 "시골을 지나"
  RUS.9.desc:0 "블라디미르는 불붙인 담배를 물고는 숨을 들이쉬었다. 따뜻한 연기가 폐를 채우자 그는 안도의 한숨을 내뱉었다. 좋다고 할 수는 없지만, 이걸로도 충분했다. 그는 겨우 한 달 전에 단체에 가입했었다. 담배가 분해될 거라는 생각은 못 했다. 어떤 공장 노동자가 담배를 잘못 만게 틀림없었다. "젠장." 그는 혼잣말을 내뱉었다. "담배 하나 정말 좆같네." 그는 담뱃불을 발로 짓뭉개 껐다. 음. 혼자 순찰 돌면서 담배를 피우다니. 그는 몸을 떨었다. 손이 점점 풀리고 있었지만 차가운 아침 공기는 그를 아직도 보내주지 않았다. 곧 아침이 된다. 그는 편히 드러누웠다.\n\n그의 등 뒤에서 잔가지가 부러지는 소리가 들렸다. 그는 돌아서서 소총을 겨누었다. 숨을 참으며 침입자가 그를 순식간에 찢어버릴 거라고 생각했다. 나온 것은 왼쪽 귀가 없는 개 한 마리였다. "개 같네. 괜히 겁먹었잖아." 그는 땀을 닦았다. 개는 신기한 듯이 그를 쳐다보았다. 그는 무기를 집어넣고 천천히 다가갔다. 개는 블라디미르를 무서워해 하지 않았다. 그건 확실했다. "길 잃었니? 내가 대체 무슨 말을 하는 거람. 넌 개인데." 그는 개의 거친 털에 손을 올려 부드럽게 두들겼다. 개는 느긋하게 있다가 블라디미르가 멈추자 저 멀리 걸어갔다.\n\n블라디미르는 개가 푸른 아침 하늘 속으로 사라질 때까지 지켜보았다. 그는 앉아 한숨을 내쉬었다. 그는 돛대를 꺼내 불을 붙였다. 이번에는 분해되지 않도록 조심했다. 어떻게 보면 러시아의 모두는 개와 같았다. 그는 약탈자, 민간인, 노동자, 보초를 떠올렸다. 모두 무언가를 잃었다. 그는 그 사실을 아주 뼈저리게 느꼈다. 러시아는 집이 아니었다. 러시아는 쾌적한 곳도 아니었다. 러시아가 준 것은 알 수 없는 잔혹함과 이해할 수 없는 생활이었다. 하지만 그는 언젠가 저 개처럼 집을, 있을 곳을 찾을 것이다. 그는 담배를 다 태우고는 떠오르는 해를 보았다."
- RUS.9.a:0 "어떤 개라도 최고의 날은 있다."
+ RUS.9.a:0 "개구멍에도 볕 들 날 있다."
 
- RUS.10.t:0 "New Friends"
- RUS.10.desc:0 "Sasha walked through the woods, keeping her head down in case the eyes of the trees looked at her. She hunted a pair of rabbits and managed to find a tin of dog food, opened and unspoiled. She strolled along the countryside, happy that her stomach was humming along with delight. The sky was overcast, and it looked like it might rain at any moment. The arms of the pines reached out, expectant. Sasha wondered where she should take cover, as the clouds were at the precipice of a deluge. She walked on, thinking that she would find it, wherever she went.\n\n"We won't find anything to eat if this keeps up," she heard a deep voice say, "if your tracking keeps on being this bad." "Shut up!" came the reply, evidently from a younger man, "What the hell did you expect? I'm no tracker. I'm the son of a fa-" "Yeah, yeah. Just keep on looking." She came near them and looked at them. They were two men bent on the end of a deer trail. "If only Dmitri didn't die, we wouldn't be stuck with you-" the old man noticed Sasha, and stopped. She met his eyes, and he didn't look evil at all. He reached into his pocket. Two beef jerky's proceeded out. "What are you doing?" "Shh." He threw them in front of her. She smelt them and was about to devour them before training strained her body straight. The old man said, "Pavel, would you look at that, a trained dog!" and laughed. It had been a long time since Sasha had heard human laughter. He came closer and caressed her neck, gently bringing her to the trail. Pavel picked up the jerky. "Now, do you smell that?" She did. She cantered into the forest, the humans following.\n\nIt's been so long. Her heart ached. She had never been this happy. She remembered the old hut and her friends within. Now she had a home again. Overhead, the sky parted its steel sheets, and the sun shone down on Russia."
- RUS.10.a:0 "Every dog goes to heaven."
+ RUS.10.t:0 "새 친구들"
+ RUS.10.desc:0 "사샤는 나무랑 눈이 마주칠까 봐 고개를 숙인 채 숲속을 걸었다. 그녀는 토끼 두 마리를 잡았고 개 사료 통조림 하나를 찾아냈다. 통조림은 따져 있었고 상하지도 않았었다. 사샤는 행복하게 배를 채운 채 시골길을 걸었다. 하늘은 흐렸다. 언제라도 비가 내릴 것 같았다. 소나무들은 기대하듯이 팔을 내밀었다. 폭우가 내릴 조짐이 가까워지자 사샤는 어디로 비를 피해야 할지 생각했다. 그녀는 어떻게든 숨을 곳을 찾을 수 있을 거라고 생각하며 계속 걸었다.\n\n"이런 식이라면 아무것도 못 먹어." 낮은 목소리가 들렸다. "이런 식으로 찾으면 못 먹는다고." "닥쳐요!" 대답이 들렸다. 젊은 남자의 목소리가 틀림없었다. "대체 제가 뭐라고 생각하는 건데요? 전 사냥꾼이 아니에요. 전 그냥 농부 아ㄷ-" "그래. 그래. 계속 찾기나 해." 그녀는 소리가 나는 쪽으로 다가갔다. 두 남자가 사슴을 추적에 열중하고 있었다. "드미트리가 죽지만 않았어도 너를 안 데려ㅇ-" 나이 많은 남자가 사샤를 보고 말을 멈췄다. 사샤는 그의 눈을 보았다. 나쁜 사람은 아닌 것 같았다. 남자는 주머니에 손을 넣었다. 주머니에서 나온 것은 육포 두 개였다. "뭐 하는 거예요?" "쉬잇." 그는 사샤 앞에 육포를 던졌다. 냄새를 맡은 사샤는 육포를 먹어 치울 뻔했다. 하지만 전에 받았던 훈련은 그녀가 몸을 똑바로 피게 했다. "파벨, 이것 좀 봐. 훈련받은 개야!" 나이 많은 남자가 말하고는 웃었다. 사샤는 오랜만에 인간의 웃음소리를 들었다. 남자는 가까이와 그녀의 목을 쓰다듬고는 추적에 끼워줬다. 파벨은 육포를 주웠다. "냄새 맡을 수 있겠니?" 사샤는 냄새를 맡았다. 그녀는 숲속으로 뛰어 들어갔다. 인간들은 그녀를 뒤따랐다.\n\n정말 오랜만이었다. 그녀의 마음이 저렸다. 이렇게 행복했던 적은 없었다. 그녀는 낡은 오두막과 거기 살던 친구들을 떠올렸다. 이제 그녀는 다시 집이 생겼다. 머리 위 하늘이 강판으로 된 집 지붕을 갈랐다. 햇빛이 러시아의 땅을 비추었다."
+ RUS.10.a:0 "모든 개는 천국으로 간다."
 
- RUS.11.t:0 "A Dog's Life"
- RUS.11.desc:0 "Sergei's stomach grumbled again, the third time today. It had been a few days since he last ate. He was shivering in the afternoon wind, clinging to his thick coat while trying to calm the dull pain in his abdomen. The last time he checked, he had loose skin there. He was losing weight fast. Sergei wasn't stupid; he tried hunting the rabbits, but his shots missed, and when they connected, the bullets riddled his meal with lead. He still remembered the bitter meat and how it made him vomit. The bears towered over him, and he didn't have enough bullets to take them down. The stags seemed to sense his presence and ran too fast for him. His only solace was a pack of cigarettes thrust upon him by the party, as well as some slices of bread he had to ration carefully. He looked down, checking if they were still there.\n\nLeaves rustled in front of him. A dog with a missing left ear stood there, looking at him curiously. His mind sputtered awake at an idea. He put his hand on his pistol and approached the dog slowly. It broke into a gallop after its eyes met his. No, not again, thought Sergei. He knelt and fired. The shot clipped the dog on its hind legs, and it fell. Finally, dinner! He caught up to it to discover it still breathing. It looked up to him pleadingly. "I'm sorry, little one." A final gunshot rang through the air. Sergei stood and took out his knife.\n\nThe pine trees watched as a man butchered a dog. All that happened here were immaterial to them. But as the shadows grow longer and longer, they would turn to see from man and dog, back and forth. As the dusk darkened, their lines blur together, more and more, until the man was no more than a rabid dog, and the dog no lesser than a dead man. To the trees, it seemed strange, odd; but they didn't care. They looked on, still, with indifference."
- RUS.11.a:0 "It's a dog eat dog world."
+ RUS.11.t:0 "한 개의 일생"
+ RUS.11.desc:0 "세르게이의 배가 다시 꼬록거렸다. 오늘에만 세 번째였다. 그가 마지막 식사를 한 지 며칠이 지났다. 그는 배에서 느껴지는 둔탁한 고통을 진정시키려 하며 두꺼운 코트를 꼭 붙잡았다. 오후의 바람은 그를 떨게 했다. 마지막으로 확인했을 때 그의 살은 축 늘어져 있었다. 몸무게가 빠르게 줄고 있었다. 세르게이는 바보가 아니었다. 토끼를 사냥하려 했지만, 총알이 빗나갔다. 맞추기는 했지만, 총알이 그의 식사를 납 범벅으로 만들었다. 씁쓸한 고기 맛과 그 고기 때문에 토했던 일을 아직도 기억하고 있었다. 곰은 세르게이보다 강했다. 세르게이는 곰을 잡을 만큼 총알이 많지 않았다. 사슴은 세르게이를 쉽게 찾아내는 것 같았다. 거기다가 너무 빨리 달려서 잡을 수 없었다. 위안이 되는 것은 동료들이 맡긴 담배 한 갑과 아껴 먹어야 할 빵 조각뿐이었다. 그는 놈들이 아직 거기 있는지 확인하기 위해 아래를 내려다보았다.\n\n그의 앞에서 나뭇잎이 바스락거렸다. 그곳에는 왼쪽 귀가 없는 개 한 마리가 서서 그를 신기하다는 듯이 바라보고 있었다. 어떤 생각이 그의 마음을 스쳐 지나갔다. 그는 권총 위에 손을 올리고는 서서히 개에게 다가갔다. 개는 그와 눈을 마주치자마자 도망치기 시작했다. 안돼. 또 놓치면 안 돼. 세르게이는 생각했다. 그는 무릎을 꿇고 총을 쏘았다. 개는 뒷다리에 총을 맞고 쓰러졌다. 드디어 밥이다! 그는 개에게 다가갔다. 아직 숨을 쉬고 있는 개는 애원하듯이 세르게이를 올려다보았다. "미안하다 꼬맹아." 마지막 총성이 하늘을 갈랐다. 세르게이는 일어나 단검을 꺼냈다.\n\n소나무 숲은 한 인간이 개를 해체하는 광경을 지켜보았다. 여기서 일어난 모든 일들은 숲에게 중요하지 않은 일이었다. 하지만 그림자가 점점 길어질수록 계속해서 인간과 개를 볼 것이다. 땅거미가 어두워질수록 둘은 점점 구분할 수 없게된다. 인간이 미친 개에 지나지 않고 개가 죽은 인간에 지나지 않을 때까지. 숲에게 이 광경은 이상하게 보였다. 하지만 숲은 신경쓰지 않았다. 숲은 무관심하게 계속 지켜봤다."
+ RUS.11.a:0 "개가 같은 개를 잡아먹는 세상이군."
 
 
- RUS.50.t:0 "Eviction Notice"
- RUS.50.desc:0 ""Good day." A middle-aged man eyed Vasily with suspicion from behind horn-rimmed glasses, his figure planted squarely against the doorframe. "I am under obligation to inform you..." A schoolteacher reached for a pad of paper to take notes before realizing that she had none. "...that under the Law on Land and Property Restitution as passed by the Veche of the Russian Republic on 18 December, 1973..." An aging, stolid Bavarian launched into a blistering political tirade, spittle flying in the air, as Vasily nervously eyed the rifle mounted on the wall. "...your residence has been classified as Schedule I Expropriated Land Belonging to the Russian People." A quailing Dutch housewife asked what it all meant in the broken German her husband had taught her.\n\n"Accordingly, in thirty days legal ownership of your house and land will be transferred to its original, prewar owner..." A farmer pleadingly recounted all that he had built on the land, his watching children on the brink of tears in the background. "...and it is advised that you leave the property with all of your possessions by that time." An aging veteran said nothing, but gave Vasily a look of almost-sympathy, as if he somehow understood.\n\n"Please refrain from damaging the property. You will be charged for any damage you do the land prior to your departure." A sobbing construction worker was no longer listening. "The Russian state regrets that this action has to be taken, but believes it to be necessary in order to ensure the just compensation of those who lost property due to the German occupation. An elderly woman stared back at the newest ideologue on her doorstep with blank, almost lifeless eyes.\n\n"Do you have any questions?""
- RUS.50.a:0 "An onslaught of voices engulfed Vasily."
+ RUS.50.t:0 "퇴거 통보"
+ RUS.50.desc:0 ""좋은 하루입니다." 뿔테 안경을 쓴 중년 남성이 문 앞에 똑바로 서 바실리를 의심스럽다는 눈으로 보았다. "사실을 알려드릴 의무가 있어서 왔습니다..." 교사가 공책을 잡기 위해 종이 뭉치로 손을 뻗었다. 그녀는 그 뒤에야 공책이 없다는 것을 깨달았다. "...1973년 12월 18일 러시아 공화국 베체에서 통과된 토지 및 재산 환수법에 따라..." 나이 들고 무뚝뚝한 바이에른인은 정치적 비난을 맹렬하게 늘어놓기 시작했다. 침방울이 하늘을 날았다. 바실리는 초조하게 벽에 붙어있는 소총을 보았다. "...당신의 주택은 강탈된 러시아인 소유 토지 제1형으로 분류되었습니다." 겁에 질린 네덜란드인 주부는 남편이 가르쳐 준 엉터리 독일어로 무슨 말인지 물었다.\n\n"따라서 30일 내로 당신 주택의 법적 소유권은 원래 전쟁 전 소유주에게 이전됩니다..." 농부는 자신이 이 땅에 일군 것이 무엇인지 애원하듯 말했다. 뒤에서 지켜보던 아이들은 금방이라도 울듯이 울먹였다. "...따라서 기한 내 모든 소지품을 가지고 떠나시기를 권고합니다." 나이 든 참전자는 아무 말도 하지 않았다. 단지 어떻게든 이해했다는 듯이 공감에 가까운 눈으로 바실리를 보았다.\n\n"주택을 훼손하지 말아 주십시오. 이곳을 떠나기 전에 생긴 피해는 당신 책임입니다." 훌쩍이는 건설 노동자는 더는 아무 말도 듣지 않았다. "러시아국은 이 일을 안타깝게 여기지만 독일 점령으로 재산을 잃은 이들에게 배상하기 위해 필요한 일이라고 믿습니다." 늙은 여자가 공허한 눈으로 현관을 보았다. 그곳에는 새로운 사상가의 모습이 걸려 있었다.\n\n"질문 있으신가요?""
+ RUS.50.a:0 "수많은 목소리가 바실리를 뒤덮었다."
 
  ##########################
- ### Unification Events ###
+ ###     통일 이벤트     ###
  ##########################
- RUS.200.t:0 "Red October Forevermore"
- RUS.200.desc:0 "Across Russia today, celebration can be heard, as soldiers garbed in old Soviet uniforms, carrying old and scavenged Soviet banners from the times of revolution to the carnage of the Great Patriotic War. It is a new day for Russia, and begets the first time in over two decades that the scarred region seems to stand united in any real purpose, and behind any real cause.\n\nThe reaction from international onlookers to the cheering crowds is mixed, in Europe, many fear the Slavic revenge and the sudden possibility of retribution for their failures in the World War, while in America, many celebrate, leftists heralding this as the pendulum swinging back against the Nazis and Japan.\n\nIn Russia, however, the people are united. Even those who decry the Soviets and Communism can not deny the fact that a united Russia is the only hope the region has had in seemingly a lifetime, and already, many debate what, exactly, the nation shall do now."
- RUS.200.a:0 "What face will the Union put on to the world?"
- RUS.200.b:0 "Workers of the world, unite!"
+ RUS.200.t:0 "붉은 10월이여 영원하라"
+ RUS.200.desc:0 "오늘 러시아 전역에서 환영의 목소리가 울려 퍼졌습니다. 병사들은 구식 소련 군복을 입고 어디선가 주워온 낡은 혁명기~대조국전쟁 시기 소련 군기를 들었습니다. 오늘은 러시아에 새로운 날입니다. 20여 년 만에 이 상처 입은 땅이 참된 목적과 대의 아래 결집한 것으로 보입니다.\n\n세계의 반응은 혼합되었습니다. 유럽의 많은 사람은 슬라브인의 복수와 러시아가 세계 대전에서 겪은 실패의 보복의 가능성을 두려워했습니다. 하지만 미국에서는 많은 이들이 환영했습니다. 미국 좌파들은 이 일로 전세가 나치와 일본에 불리해졌다고 알렸습니다.\n\n하지만 러시아에서는 사람들이 단결했습니다. 소비에트와 공산주의를 혐오하는 이들조차 통일 러시아가 이 땅에 단 한 번 찾아온 유일한 희망이라는 것을 부정하지는 못합니다. 이미 많은 이들이 이 국가가 지금 무엇을 해야 할지를 두고 토론을 벌이고 있습니다."
+ RUS.200.a:0 "연방이 세계에 보여줄 모습은 무엇일까?"
+ RUS.200.b:0 "만국의 노동자여, 단결하라!"
 
- RUS.201.t:0 "Unity in Russia - Unending"
- RUS.201.desc:0 "The regime of [From.GetRulingParty] and [From.GetLeader] has declared victory in their efforts to reunite the many Russian states today, announcing a new regime of strength and power that will finally throw their enemies back to the depths. Cheering crowds and marching soldiers can be seen in every major population center, with every village at least having one or two drunken militiamen waving the flag of this new union stumbling through its streets.\n\nIt is a new day for Russia, a new regime. The nation has experimented with monarchy, Communism and now, after its greatest defeat, ironically, fascism. Many look in surprise as the Russians seem to have adopted the same ideology as their most hated enemies, but at the same time many others see this as the natural reaction.\n\nTo fight your enemies, they say, you must become the enemy."
- RUS.201.a:0 "When you stare into the abyss..."
- RUS.201.b:0 "The enemies of Russia will fear us!"
+ RUS.201.t:0 "영원한 러시아의 통일"
+ RUS.201.desc:0 "오늘 [From.GetLeader]의 [From.GetRulingParty] 정권이 수많은 러시아 국가를 재통일하는 데 성공했다고 발표했습니다. 이들은 새 정권의 힘이 적들을 마침내 심해 속에 처박았다고 선언했습니다. 모든 주요 인구 중심지에서 군중들이 환호하고 병사들이 행진했습니다. 모든 마을에서 최소 한두 명의 술 취한 민병대원이 새 연방의 깃발을 휘날리며 거리를 비틀거렸습니다.\n\n오늘은 러시아와 신 정부에게 새로운 날입니다. 러시아는 과거 왕정과 공산주의를 시험했습니다. 그리고 역사상 최악의 패배 이후 모순적이게도 파시즘을 시험하게 되었습니다. 많은 이들은 러시아인들이 자신이 제일 증오하는 적들과 같은 사상을 받아들였다는 것에 놀랐습니다. 하지만 또 다른 많은 이들은 이를 당연한 일로 여겼습니다.\n\n적과 싸우기 위해서는 적이 되어야 한다고요."
+ RUS.201.a:0 "네가 그 심연을 오랫동안 들여다본다면..."
+ RUS.201.b:0 "러시아의 적들은 우리를 두려워 할 것이다!"
  
- RUS.202.t:0 "The Republican Phoenix"
- RUS.202.desc:0 "The Russian Republic was short lived and ended in fire and flames as the revolution claimed it and dragged it screaming into the darkness. Perpetually ineffective, and never having been able to form a stable government, the Republic never seemed to have a proper chance and few seemed to mourn its passing.\n\nThings change, however, and today [From.GetLeader] and his supporters have announced the final preparations for the reunification of the Russian state have finally been completed. A new, modern, Russian Republic will replace the squabbling warlords, and bring unity and justice to the Russian people.\n\nNobody knows, exactly, what the Russians plan. Whether they will seek reconquest or peaceful reintegration has yet to be seen, and the world waits with bated breath."
- RUS.202.a:0 "Well, here's to second chances."
- RUS.202.b:0 "Liberty for all Russians!"
+ RUS.202.t:0 "공화국의 불사조"
+ RUS.202.desc:0 "러시아 공화국은 화염 속에서 짧은 생을 마쳤습니다. 혁명이 비명 지르는 공화국을 어둠 속으로 끌고 갔었죠. 러시아 공화국은 비효율적이었으며 안정적인 정부를 세우지도 못했습니다. 제대로 된 기회를 얻지도 못한 것 같았습니다. 공화국의 붕괴를 슬퍼하는 사람은 별로 없었습니다.\n\n하지만 상황이 바뀌었습니다. 오늘 [From.GetLeader]와(과) 그 지지자들이 러시아국 재통일 준비가 드디어 끝났다고 선언했습니다. 새롭고 현대적인 러시아 공화국이 내분을 벌이는 군벌들을 대체하고 러시아 민중에게 통합과 정의를 가져다줄 것입니다.\n\n러시아의 계획이 정확히 뭔지는 아무도 모릅니다. 재정복을 꿈꿀지 평화적인 재통합을 꿈꿀지는 아직 알 수 없습니다. 세계는 숨을 죽이며 기다리고 있습니다."
+ RUS.202.a:0 "그래, 두 번째 기회구만."
+ RUS.202.b:0 "모든 러시아인에게 자유를!"
  
- RUS.203.t:0 "A Crown from the Gutter"
- RUS.203.desc:0 "In a grand ceremony in Russia's new capital today, [From.GetLeader] was crowned as Tsar of all Russias today, thousands of cheering citizens and an already growing band of courtiers heralding their new autocrat to their throne.\n\nGenuine surprise seems to pervade the world, a return to the Tsardom being the last thing many expected, but many experts are disagreeing and claiming that this was long expected. Russia's true downfall, after all, seemed to come once the Tsar was overthrown, and autocratic sentiments have survived long into the warlord era.\n\nSurprise or no, however, a Tsar now sits in charge of Russia in all of her vastness, and the people of the nation for the first time in decades have something, or more accurately, someone, to unite behind. While those in the west look at this with approval, Japan and Germany have both begun preparing their armies, fearing that a renewed conflict in Russia will be the breaking point for their empires.\n\nThe only reaction not known is that of the new Tsar, and many wait in fear or anticipation for their first decrees."
- RUS.203.a:0 "Orthodoxy, autocracy, and nationality reign anew."
- RUS.203.b:0 "Glory to the Tsar! Ruler of all Russias and beyond!"
+ RUS.203.t:0 "시궁창에서 나온 왕관"
+ RUS.203.desc:0 "오늘 러시아의 새 수도에서 장대한 기념식이 열렸습니다. [From.GetLeader]이(가) 전 러시아의 차르로 왕관을 썼으며 수천 명의 환호하는 군중과 벌써 만들어진 궁정 관료들이 새로운 전제 군주가 옥좌에 앉았다고 알렸습니다.\n\n전 세계는 놀라움에 휩싸였습니다. 차르의 귀환은 많은 사람이 예상하지 못했던 일이었습니다. 하지만 많은 전문가는 이를 반박하며 오래전부터 예상되었던 일이라고 주장했습니다. 러시아의 진정한 몰락은 차르가 끌려 내려간 후 일어난 일로 여겨졌으며 전제 군주에 우호적인 정서는 군벌 시대까지 남아있었다는 것입니다.\n\n놀랍건 아니건 이제 차르는 광대한 러시아 전역을 통치합니다. 러시아 민중은 수십 년 만에 처음으로 무언가를 갖게 되었습니다. 정확히는 이들을 통합할 누군가를 말이죠. 서부 사람들은 이를 찬성하는 눈으로 봅니다. 하지만 일본과 독일은 러시아와의 분쟁이 자신들의 한계가 될 것이라 두려워하며 군대를 준비하기 시작했습니다.\n\n유일하게 단 한 사람, 바로 차르의 반응만이 알려지지 않았습니다. 많은 이들이 공포나 기대 속에 첫 번째 어명을 기다립니다."
+ RUS.203.a:0 "정교회, 전제 군주, 민족이 다시 정권을 잡았군."
+ RUS.203.b:0 "차르께 영광을! 전 러시아와 그 이상의 지배자이실지니!"
  
- RUS.204.t:0 "Strength Eternal"
- RUS.204.desc:0 "[From.GetLeader] and his band of military men have, today, announced the final preparations in the reunification of the Russian nation have finally ended. Televisions across the world show marching soldiers saluting their generals and, often the same men, governors, as cheering crowds welcome the stability and security that the junta have promised them.\n\nRussia is now a nation, but more specifically, they are a military with a nation, [From.GetLeader]'s [From.GetRulingParty] ruling with an iron fist from the top of the chain of command.\n\nWhile the Russians cheer, the reaction internationally is one of confusion and fear. While many welcome an end to the cruelty and banditry that has been endemic to the nation's warlord era for long, behind a single autocratic military leader and his inner circle, Russia is now also a beast to be feared. Already, the Russian military has begun building up to new, modern levels, and [From.GetLeader] seems, from the view of international observers, ready to use it."
- RUS.204.a:0 "This can only bring further conflict."
- RUS.204.b:0 "Enemies of Russia, fear us!"
+ RUS.204.t:0 "영원한 힘"
+ RUS.204.desc:0 "오늘 [From.GetLeader]와(과) 휘하 군인들이 러시아 국가의 재통일을 위한 최종 준비가 드디어 끝났다고 선언했습니다. 전 세계의 텔레비전은 장군과 통치자들-대부분 동일인-에게 경례하는 병사들의 행진과 군사 정부가 약속한 안정과 치안을 반기는 환영 인파의 모습을 송출했습니다.\n\n러시아는 이제 하나의 국가가 되었습니다. 더 정확하게 말하자면 국가를 가진 군대가 되었습니다. 그 지휘 계통 꼭대기에는 [From.GetLeader]의 [From.GetRulingParty]이(가) 철권으로 나라를 통치합니다.\n\n러시아인들은 이를 환호로 맞이했지만, 세계는 이를 보며 혼란과 공포를 느꼈습니다. 많은 이들이 오랜 군벌 시대 동안 창궐했던 잔혹 행위와 강도질의 종말을 환영했습니다. 이는 독재적인 군 지휘관과 그 이너 서클의 산물입니다. 하지만 러시아는 이제 두려움 받는 야수가 되었습니다. 이미 러시아 군부는 새롭고 현대적인 군대를 양성하기 시작했습니다. 국제 사회가 보기에 [From.GetLeader]은(는) 이 군대를 쓸 준비가 된 것 같습니다."
+ RUS.204.a:0 "이건 더 많은 분쟁만을 불러올거야."
+ RUS.204.b:0 "러시아의 적들이여, 우리를 두려워하라!"
 
- RUS.205.t:0 "The Great Journey Begins"
- RUS.205.desc:0 "Today in Russia, [From.GetLeader] has been declared spiritual leader of the Russian peoples, effectively centralizing his role as the master of the entire region. A prayer service held in every church across Russia was followed by widespread celebration into the night as the leader of the newly united nation became the first in the region to have a televised and radio broadcast from the Urals to the Pacific.\n\nFor those many villagers without access to either, their own spiritual leaders and local military governors have read off his speech themselves.\n\nNobody knows what is next for the new theocratic administration. Some seem to believe that the [From.GetRulingParty] will bring the faith to those within the borders, but others fear the holy legions will march abroad, or begin their own spiritual crusade against their former enemies."
- RUS.205.a:0 "Let us hope this new regime learns moderation."
- RUS.205.b:0 "Our holy father will bring us to glory!"
+ RUS.205.t:0 "대여정이 시작되다"
+ RUS.205.desc:0 "오늘 러시아에서 [From.GetLeader]이(가) 자신이 러시아 민중의 영적 지도자라고 선언했습니다. 그는 이 선언으로 러시아 전 지역의 지배자 자리에 올랐습니다. 러시아 전역의 모든 교회에서 예배가 치러진 후 밤까지 광범위한 축하 행사가 벌어졌습니다. 신생 통일 국가의 지도자는 우랄산맥에서 태평양까지 송출된 텔레비전과 라디오 방송에 처음으로 출연한 사람이 되었습니다.\n\n영적 지도자들과 지방 군정 장관들은 텔레비전도 라디오도 없는 사람들을 위해 새 지도자의 연설을 소리 내 읽었습니다.\n\n이제 새로운 신정 정부가 무엇을 할지 아는 사람은 아무도 없습니다. 일부는 [From.GetRulingParty]이(가) 국경 내 사람들에게 신앙을 가져다줄 것이라 믿는 것으로 보입니다. 하지만 다른 이들은 성스러운 군단이 국경 밖으로 행진하거나 과거의 적을 상대로 영적 성전을 벌일까 두려워하고 있습니다."
+ RUS.205.a:0 "새 정권이 절제란걸 배우길 빌자."
+ RUS.205.b:0 "신앙의 아버지가 우리를 영광으로 인도하시니!"
  
- RUS.206.t:0 "The Black March Begins"
- RUS.206.desc:0 "The black flag flies in Russia today, soldiers marching out the last 'traitors' to Russia, several alleged German and Japanese spies included, and on international television, executed them to cheering crowds of Russians.\n\n[From.GetLeader] and the [From.GetRulingParty] declared that they would be the first on Russia's long journey to face the wraith of the Russian people for their evils during the World War.\n\nAlready, Commissars have visited each village and town and have begun the process of bringing every eligible man into what many are calling the Black Legions, for their dark uniforms and the flags they bear, and there seems to be talk of even bringing women into these legions as well.\n\nThe new state has said little of their economy, nothing on industry besides its use as a tool for war, and seem to care little about the rights or freedoms of their people. What they have talked about, and in great detail, is the utter annihilation of Russia's enemies, and the people seem to be welcoming this in open arms. In public, at least."
- RUS.206.a:0 "There is no way that this will end well."
- RUS.206.b:0 "One final war, one final victory!"
+ RUS.206.t:0 "검은 행군이 시작되다"
+ RUS.206.desc:0 "오늘 러시아에 검은 깃발이 휘날립니다. 병사들은 마지막으로 남은 러시아에 대한 '반역자들'을 끌고 나왔습니다. 이들 중에는 독일과 일본의 스파이로 지목된 이들도 있었습니다. 이들이 환호하는 러시아 군중 앞에서 처형되는 장면은 국제 텔레비전을 통해 송출되었습니다.\n\n[From.GetLeader]와(과) [From.GetRulingParty]은(는) 이 일이 세계 대전 때의 악에 대한 러시아 민중의 분노를 마주하기 위한 긴 여정의 첫걸음이라고 선언했습니다.\n\n이미 정치장교가 각 마을에 방문해 가능한 모든 남성을 흑색 군단이라고 불리는 조직에 동원하기 시작했습니다. 흑색 군단이라는 이름은 검은 군복과 깃발 때문에 붙여진 이름입니다. 여성도 이 군단에 동원하는 게 어떻냐는 얘기가 나오고 있는 거로 보입니다.\n\n새로운 국가는 경제에 대해서는 극히 작은 언급만을 했습니다. 산업에 대한 말은 전쟁의 도구로 표현하는 말밖에 없었습니다. 민중의 권리나 자유에 관해서도 별로 신경 쓰지 않는 것 같습니다. 이들이 말하는 것은 매우 상세하게 묘사되는 러시아의 적의 완전한 절멸입니다. 민중은 이를 두 팔 벌려 환영하는 것으로 보입니다. 최소한 남들이 보는 앞에서는 말입니다."
+ RUS.206.a:0 "저런게 좋게 끝날리 없지."
+ RUS.206.b:0 "최후의 전쟁, 최후의 승리!"
  
- RUS.207.t:0 "The Swastika Eternal"
- RUS.207.desc:0 "For a long time, Russia has become known for being a sinkhole regarding news; everything goes in, almost nothing comes out. And whatever comes out usually does via the rumor mill. The recent announcement by [From.GetLeader], however, has shocked the world.\n\nThe Aryan Brotherhood, long thought to be just a bad rumor, has made its existence and its power known throughout the entire world, via reaching out towards Russia and unifying it beneath its iron grip. Swastikas adorn every town as the Brotherhood's leadership deliberates on how best to extend its doctrines over the large territory they acquired.\n\nRumours still spread, as some even say that the Brotherhood may be willing to turn on the Reich it allegedly idolizes should it become weak enough, given their belief that Aryanhood can be acquired, and thus, lost as well. Allegedly, should the Reich decline enough, the Brotherhood's leadership may claim that the mantle of True Aryanhood will pass on their shoulders, and Germany must be brought to heel as a result.\n\nRegardless of the Brotherhood's intentions, most observers have reacted with shock and horror when analyzing the new Russia, and can only pray that it either becomes more benevolent or collapses soon..."
- RUS.207.a:0 "Dear God..."
- RUS.207.b:0 "We are become Death, the destroyer of worlds."
+ RUS.207.t:0 "영원한 스바스티카"
+ RUS.207.desc:0 "오랜 시간 동안 러시아는 소식의 블랙홀로 여겨졌습니다. 온갖 소식이 들어가지만 나오는 소식은 없었거든요. 나오는 소식들은 보통 카더라 통신이었습니다. 하지만 최근 [From.GetLeader]이(가) 한 발표는 세상을 충격에 빠뜨렸습니다.\n\n오랜 시간 동안 악질 소문으로만 여겨졌던 아리아인 형제단이 러시아를 철권으로 통일하는 데 성공하며 전 세계에 존재와 힘을 알렸습니다. 형제단 지도부가 새로운 영토에 자신들의 교리를 어떻게 퍼뜨리는지 고심한 결과 모든 마을에 스바스티카가 내걸렸습니다.\n\n소문은 여전히 퍼져나가는 중입니다. 심지어 일부에선, 라이히를 떠받드는 양 굴던 형제단이라도 라이히가 약해지고 나면 기꺼이 그를 향해 달려들게 될 것이라 말합니다. 형제단에게 아리아성이란 얻어낼 수 있는 것인 만큼, 또한 잃을 수도 있다는 믿음을 준 건 바로 라이히였습니다.\n\n형제단의 의도가 어떻든, 대부분의 관측자는 새로운 러시아를 보며 충격과 공포를 표했습니다. 이들이 할 수 있는 것은 아리아인 형제단이 자애로워지거나 빠르게 붕괴하기를 기도하는 것뿐이었습니다..."
+ RUS.207.a:0 "신이시여..."
+ RUS.207.b:0 "우리는 이제 죽음이요, 세상의 파괴자가 되었도다."
  
- RUS.300.t:0 "A Sunny Day in Siberia"
+ RUS.300.t:0 "시베리아의 화창한 하루"
  RUS.300.d:0 ""
- RUS.300.a:0 "This changes everything!"
+ RUS.300.a:0 "이제 모든 것이 바뀔거야!"
  
- RUS.999.t:0 "The Bombings Stop"
- RUS.999.d:0 "For a long time, daily life in the remnants of Russia not protected by the Urals has been defined by the ruthless Luftwaffe bombing campaign. Many Russian citizens grew used to hearing the engines of the German airplanes and the plunge of their deadly payloads. Yet, something changed recently. Many Russian citizens just had a good night's sleep, then as they woke up and went on their daily routine, they noticed that the whole day passed without the bombings. A day that then turned into a week... Whoever had access to radio networks and some grasp of German confirmed the rumors; the Germans collapsed into civil war, and the bombings will not be returning any time soon. For many people, this is a relief, as it allows them to start rebuilding more properly, however in the halls of power, this is an opportunity to more properly deal with their enemies, once and for all."
- RUS.999.a:0 "Our servitude is over; time to conquer."
+ RUS.999.t:0 "폭격이 멈추다"
+ RUS.999.d:0 "오랜 세월 동안 우랄 산맥에 보호받지 못한 러시아 생존자들의 일상은 무자비한 루프트바페 폭격 작전으로 설명할 수 있었습니다. 많은 러시아인들은 자라며 독일 항공기의 엔진 소리와 그 끔찍한 폭탄이 떨어지는 소리에 익숙해졌습니다. 하지만 최근 무언가가 바뀌었습니다. 많은 러시아 시민들은 밤에 푹 자고 일어나 일상 업무를 시작했습니다. 이들은 하루 동안 폭탄이 한 번도 떨어지지 않았다는 것을 깨달았습니다. 하루는 일주일이 되었습니다... 누군가가 라디오를 통해 독일이 확인한 소문을 일부 건져냈습니다. 독일이 내전으로 붕괴한 것입니다. 당분간 폭탄은 떨어지지 않을 것입니다. 많은 이들에게 이는 구원입니다. 폭격이 멈췄기에 재건을 더 잘 할 수 있게 되었습니다. 하지만 권력 중심부에게 이는 적을 단번에 처리할 기회입니다."
+ RUS.999.a:0 "예속은 끝났다. 정복할 시간이다."
  
- RUS.100.t:0 "Another Day in Siberia"
- RUS.100.desc:0 "It was a cold, cold day in Siberia, as it always was. Snow covered the ground, hiding dirt that had never seen the sun deep below, and never would. As Artyom marched through it in boots and furs, a bundle of birds in one hand and his rifle in the other, he looked at the clouds above. They looked darker than normal, a sure sign of a storm.\n\nShrugging off the snow from his furs and leathers, he approached his ramshackle hut and slowly opened the door, carefully placing his items down on a table nearby.\n\nAfter a quiet moment of contemplation as he remarked over his quiet abode and lit his lamp, he scratched his dog, Sasha, behind the ear and turned on the radio as he did everyday, and frowned as he got nothing besides static.\n\nArtyom quickly started surfing through the few stations he reached, and found nothing but static, static, and more static. After some time, he shrugged, he had expected the old tilting radio tower near the equally dilapidated village to collapse for days now, nothing could be done. The outside world, and all of its wonders, were nothing but a distant thought for Artyom, and after a sigh, he turned off the radio for the last time."
- RUS.100.a:0 "Life goes on..."
+ RUS.100.t:0 "시베리아의 또다른 하루"
+ RUS.100.desc:0 "언제나 그렇듯이 시베리아의 춥고 추운 날입니다. 흙은 두껍게 쌓인 눈에 덮여 태양이란 걸 보지도 못합니다. 부츠와 모피를 두른 아르티옴은 한 손에는 새들을, 다른 한 손에는 소총을 들고 눈 속을 걷습니다. 그는 걸으며 하늘에 낀 구름을 봅니다. 하늘은 평상시 때보다 어두웠습니다. 분명 폭풍이 몰아칠 징조였습니다.\n\n옷에서 눈을 털어낸 아르티옴은 그가 사는 금방이라도 무너질 것 같은 오두막에 다가가 느리게 문을 열고 조심스럽게 물건을 탁자 위에 내려놓습니다.\n\n잠깐의 생각이 지난 후 그는 집 안이 조용하다는 것을 깨닫고 등불을 켭니다. 개 사샤를 쓰다듬고 다른 날처럼 라디오를 켭니다. 라디오에서 지직거리는 소리 밖에 나오니 않자 아르티옴의 얼굴이 구겨집니다.\n\n아르티옴은 재빨리 전에 찾아냈던 주파수들로 돌려봅니다. 하지만 나오는 소리는 잡음, 잡음, 또 잡음 뿐입니다. 얼마간의 시간이 지나자 그는 어깨를 으쓱 합니다. 며칠 전부터 버려진 마을 근처의 기울어진 방송탑이 무너질 것 같았지만 할 수 있는 일은 없었습니다. 바깥 세상과 그곳에서 일어나는 신기한 일들은 아르티옴에게 다른 세상 이야기였습니다. 아르티옴은 한숨을 한 번 쉬고는 라디오를 영원히 꺼버렸습니다."
+ RUS.100.a:0 "뭐 그런 거지..."
  
- RUS.5000.t:0 "Another Day in Siberia"
- RUS.5000.desc:0 "What the fuck did you just fucking say about me, you fucking kulak? I'll have you know I graduated top of my class in the The People's Commissariat for Internal Affairs, and I've been involved in numerous secret raids on Batista's cuban government, and I have over 410757864530 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire USSR armed forces. You are nothing to me but just another target.\n\nI will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words.\n\nYou think you can get away with saying that shit to me over the Internet you ass munching fascist? Think again, fucker. As we speak I am contacting my secret network of spies across the world and your IP is being traced right now so you better prepare for the storm, whitey.\n\nThe storm that wipes out the pathetic little thing you call your life.\n\nYou're fucking dead, kulak. I can be anywhere, anytime, and I can kill you in over seven hundred thousand ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the Soviet Navy and I will use it to its full extent to wipe your miserable ass off the face of the earth, you little shit eating fascist insect. If only you could have known what unholy retribution your little "clever" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn nazi. I will shit fury all over you and you will drown in it.\n\nYou're fucking dead, kulak."
- RUS.5000.a:0 "OH MY GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOD"
+ RUS.5000.t:0 "시베리아의 또다른 하루"
+ RUS.5000.desc:0 "씨발 나에 대해 무슨 말을 지껄인 거야 쿨라크 씨발놈아? 나는 내무인민위원회에서 우리 반 탑으로 졸업했어 그리고 쿠바의 바티스타 정부를 상대로 수많은 비밀 강습을 벌였고 공식적으로 410757864530 킬 이상을 했다고 난 고릴라전 훈련도 받았고 소련군 내에서 최고의 스나이퍼야 나에게 넌 그냥 타겟 1밖에 안 돼\n\n난 지구 역사상 최고의 정확도로 널 썰어버릴 수 있어 씨발 내 말 기억하라고\n\n인터넷에서 나에게 그딴 개소리를 지껄이고 도망칠 수 있을 거라 생각했냐 파시스트 등신 새끼야? 다시 한번 생각해보시지 병신아 말해두겠는데 난 내 비밀 스파이 네트워크에 접속하고 있어 지금 니 IP를 추적하고 있다고 폭풍을 준비하는 게 좋을 거야 흰둥이 새끼야\n\n그 폭풍이 니가 인생이라고 부르는 하찮은 것을 쓸어버릴 테니까\n\n씨발 넌 죽었어 쿨라크 난 언제 어디에나 있을 수 있어 널 7,000개 이상의 방법으로 죽일 수 있어 도구 같은거 안 쓰고 말이야 내가 맨손 전투만 훈련받은건 아니거든? 난 소련 해군 무기를 전부 쓸 수도 있어 그걸 죄다 써서 니 후장을 지표면에서 지워버릴거야 똥이나 처먹는 파시스트 벌레새끼야 니가 싼 좀 "똑똑한" 리플이 어떤 불경한 징벌을 가져올지만 알았다면 아마 아가리를 닥쳤을거야 하지만 넌 그러지 못했지 그러지 않았어 이제 그 대가를 치르는 거야 좆같은 나치 새끼야 사방에 분노를 싸질러서 네가 거기 익사하게 해주마\n\n씨발 넌 죽었어 쿨라크"
+ RUS.5000.a:0 "맙소사ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ"
  
  ###############################
- ### Russia Diplomacy events ###
+ ###    러시아 외교 이벤트    ###
  ###############################
- ### Race For The Urals ###
- russiadiplo.1.t:0 "The Race for the Urals"
- russiadiplo.1.d:0 "To our east lay the great Ural mountains. The traditional border between Europe and Asia, this great mountain range is critically important to our unification ambitions.\n\nIn the aftermath of the West Russian War and the collapse of the WRRF, the region was left bereft of any central authority. Many communes and villages looked to either the city of Orenburg, or the soldiers of the Ural League for protection. Our intelligence report that others fell under the sway of NKVD remnants in Magnitogorsk, or were sacked by Dirlewanger's brigade. The rise in tension after the end of the German terror bombing resulted in conflicts that have led to the region's current power structure.\n\nThe Urals present both an opportunity as well as a threat to our nation. Seizing the area's resources and population would be a great boon to our cause. However, on the far side of the Ural another unifier state claims its legitimacy as the true Russian government. Were this opponent to capture the Urals, they would be able to station troops on our side of the mountain range, threatening our eastern provinces. We must thus assert our prominence in the region through any way necessary!\n\nOur diplomats and generals have prepared an array of tools to bring the Urals into our sphere of interest. It is projected that the side with the best combination of prestige, diplomatic success and military intimidation will be able to be the first to tip over local elites into accepting unification. Were the diplomatic option to fail, military intervention remains an option... An option that our eastern rivals are not likely to accept easily.\n\nThe race to the Urals is upon us! We will triumph over our Siberian rivals, and integrate another part of shattered Russia to our growing nation!"
- russiadiplo.1.a:0 "A new theatre."
+ ### 우랄산맥 쟁탈전 ###
+ russiadiplo.1.t:0 "우랄산맥 쟁탈전"
+ russiadiplo.1.d:0 "우리 동쪽에는 거대한 우랄산맥이 있습니다. 전부터 유럽과 아시아를 가르던 이 거대한 산맥은 우리가 꿈꾸는 통일에 매우 중요합니다.\n\n서러시아 전쟁과 서러혁전의 붕괴 이후 이 지방은 통일된 정부 없이 지냈습니다. 많은 공동체와 마을은 오렌부르크시나 우랄 연맹의 보호에 의지했습니다. 우리 정보에 따르면 그러지 않은 곳들은 마그니토고르스크의 NKVD 잔당에게 장악되거나 디를레방어 여단에 약탈당했습니다. 독일의 테러 폭격이 끝난 후 긴장이 고조되며 일어난 분쟁으로 이 지방의 현재 세력 구조가 형성되었습니다.\n\n우랄산맥은 우리에게 기회이자 위협입니다. 이 지역의 자원과 인구를 손에 넣으면 우리 대의에 큰 도움이 될 것입니다. 하지만 우랄산맥 너머에는 통일을 꿈꾸는 또 다른 국가가 자신들이 진정한 러시아 정부의 적통을 계승했다고 주장하고 있습니다. 이들이 우랄산맥을 점령할 경우 우리 쪽 산맥에 병력을 주둔할 수 있습니다. 이는 우리 동쪽 지방을 위협할 것입니다. 그렇기에 우리는 어떤 수단을 써서라도 이 지방에 우리의 중요성을 설파해야 합니다!\n\n외교관과 장군들이 우랄산맥을 우리 이익권으로 끌어올 다양한 수단을 준비했습니다. 위신, 외교적 성공, 군사적 위협을 잘 조합하면 지방 엘리트 계층이 굴복해 통일을 받아들일 것 같습니다. 외교적 방법이 실패한다면 군사 개입이 남아있습니다... 이 방법은 우리 동쪽 경쟁자가 쉽게 받아들일 것 같지는 않습니다.\n\n우랄산맥 쟁탈전이 시작됩니다! 우리는 시베리아의 경쟁자를 상대로 승리해 산산조각이 난 러시아의 또 다른 일부를 우리 국가에 통합할 것입니다!"
+ russiadiplo.1.a:0 "새로운 전장이군."
  
- russiadiplo.2.t:0 " The Race for the Urals"
- russiadiplo.2.d:0 "To our west lay the great Ural mountains. The traditional border between Europe and Asia, this great mountain range is critically important to our unification ambitions.\n\nIn the aftermath of the West Russian War and the collapse of the WRRF, the region was left bereft of any central authority. Many communes and villages looked to either the city of Orenburg, or the soldiers of the Ural League for protection. Our intelligence report that others fell under the sway of NKVD remnants in Magnitogorsk, or were sacked by Dirlewanger's brigade. The rise in tension after the end of the German terror bombing resulted in conflicts that have led to the region's current power structure.\n\nThe Urals present both an opportunity as well as a threat to our nation. Seizing the area's resources and population would be a great boon to our cause. However, on the far side of the Ural another unifier state claims its legitimacy as the true Russian government. Were this opponent to capture the Urals, they would be able to station troops on our side of the mountain range, threatening our western provinces. We must thus assert our prominence in the region through any way necessary!\n\nOur diplomats and generals have prepared an array of tools to bring the Urals into our sphere of interest. It is projected that the side with the best combination of prestige, diplomatic success and military intimidation will be able to be the first to tip over local elites into accepting unification. Were the diplomatic option to fail, military intervention remains an option... An option that our eastern rivals are not likely to accept easily.\n\nThe race to the Urals is upon us! We will triumph over our West Russian rivals, and integrate another part of shattered Russia to our growing nation!"
- russiadiplo.2.a:0 "A new theatre."
+ russiadiplo.2.t:0 " 우랄산맥 쟁탈전"
+ russiadiplo.2.d:0 "우리 서쪽에는 거대한 우랄산맥이 있습니다. 전부터 유럽과 아시아를 가르던 이 거대한 산맥은 우리가 꿈꾸는 통일에 매우 중요합니다.\n\n서러시아 전쟁과 서러혁전의 붕괴 이후 이 지방은 통일된 정부 없이 지냈습니다. 많은 공동체와 마을은 오렌부르크시나 우랄 연맹의 보호에 의지했습니다. 우리 정보에 따르면 그러지 않은 곳들은 마그니토고르스크의 NKVD 잔당에게 장악되거나 디를레방어 여단에 약탈당했습니다. 독일의 테러 폭격이 끝난 후 긴장이 고조되며 일어난 분쟁으로 이 지방의 현재 세력 구조가 형성되었습니다.\n\n우랄산맥은 우리에게 기회이자 위협입니다. 이 지역의 자원과 인구를 손에 넣으면 우리 대의에 큰 도움이 될 것입니다. 하지만 우랄산맥 너머에는 통일을 꿈꾸는 또 다른 국가가 자신들이 진정한 러시아 정부의 적통을 계승했다고 주장하고 있습니다. 이들이 우랄산맥을 점령할 경우 우리 쪽 산맥에 병력을 주둔할 수 있습니다. 이는 우리 서쪽 지방을 위협할 것입니다. 그렇기에 우리는 어떤 수단을 써서라도 이 지방에 우리의 중요성을 설파해야 합니다!\n\n외교관과 장군들이 우랄산맥을 우리 이익권으로 끌어올 다양한 수단을 준비했습니다. 위신, 외교적 성공, 군사적 위협을 잘 조합하면 지방 엘리트 계층이 굴복해 통일을 받아들일 것 같습니다. 외교적 방법이 실패한다면 군사 개입이 남아있습니다... 이 방법은 우리 서쪽 경쟁자가 쉽게 받아들일 것 같지는 않습니다.\n\n우랄산맥 쟁탈전이 시작됩니다! 우리는 서러시아의 경쟁자를 상대로 승리해 산산조각이 난 러시아의 또 다른 일부를 우리 국가에 통합할 것입니다!"
+ russiadiplo.2.a:0 "새로운 전장이군."
 
  russiadiplo.3.t:0 "Our Diplomats Discredited in Orenburg!"
  russiadiplo.3.d:0 "Invitations left unanswered. Calls not returned. Doors slamming shut. Our diplomats in Orenburg have had a recent string of failures. A recent string of suspect failures, as the local's hostility appears to have no easily discernible cause.\n\nIt is evident that our diplomats have been discredited by our rivals in the race to the Urals. Through what is suspected to be a combination of blackmail, forged evidence, slander and outright lies about our intention, our rivals have managed to discredit our diplomats in the great city on the Ural river.\n\nIt will take some time to extricate our position from this mess. We would be wise to be careful about our rivals' diplomatic effort in the Ural region."

@@ -14,12 +14,12 @@
 
  RUS_comecon_sent_aid:0 "Sent COMECON Aid"
 
- RUS_comecon_requested_aid:0 "Requested COMECON Aid"
+ RUS_comecon_requested_aid:0 "경제상호원조회의에 지원 요청"
 
  RUS_comecon_built_factory:0 "Developed COMECON Partner Industries"
  
  ## Decisions ##
- TNO_comecon_category:0 "§S코메콘§!"
+ TNO_comecon_category:0 "§S경제상호원조회의§!"
  TNO_comecon_category_desc:0 "\n\n\n\n\n\nFor the interests of international solidarity and cooperation between socialist states in a world dominated by reaction, the §SCouncil for Mutual Economic Assistance§! offers an opportunity to sponsor the development of other socialist states. Through §SCOMECON§!, more developed socialist states may invest in less developed ones, policy may be enacted to assist workers and peasants across the socialist world, and emergency funds for strategic purposes may be maintained.\n\n§SCOMECON§! §Ymutual monetary fund§! balance: [?global.COMECON_monetary_fund_value|2]M USD."
  COM_send_comecon_aid:0 "Send §SCOMECON§! Aid to [FROM.GetName]"
  COM_request_comecon_investment:0 "Request [FROM.GetAdjective] §SCOMECON§! Investment"
@@ -30,7 +30,7 @@
  COM_invest_in_cooperative_research:0 "Join the §SCOMECON§! §YScientific Bureau§!"
  COM_develop_partner_industries:0 "Develop Industries In [FROM.GetName]"
 
- TNO_socintern_category:0 "The §RSocialist International§!"
+ TNO_socintern_category:0 "§R사회주의 인터네셔널§!"
  TNO_socintern_category_desc:0 "\n\n\n\n\n\nTo facilitate the interests of mutual cooperation among those nations which have adopted the socialist ideology, the §RSocialist International§! serves as a premier means of providing global cooperation and strategic assistance. Through the §RSocIntern§!, socialist states may coordinate with each other in defensively and politically, and a forum to discuss assistance to global proletarian and national liberation movements may be provided.\n\n§RSocIntern§! §Ycollective defense fund§! balance: [?global.COMECON_collective_defense_value|2]M USD.\n\n[GetSocInternVote]"
  TNO_found_comecon:0 "Found §SCOMECON§!"
  COM_invite_country:0 "Offer Membership to [FROM.GetName]"

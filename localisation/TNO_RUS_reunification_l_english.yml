@@ -263,15 +263,15 @@
  RUS_opponent_discredit_add_tt:0 "우리의 상대국이 45일간 §Y불신 상태§!가 되어 상대국의 군벌에 대한 §Y영향력 획득량§!이 감소할 것입니다.\n"
  RUS_increase_relations_1_tt:0 "우리와의 관계를 §Y대항적§!으로 올리기.\n"
  RUS_increase_relations_2_tt:0 "우리와의 관계를 §Y중립적§!으로 올리기.\n"
- RUS_increase_relations_3_tt:0 "Increases relations to §Ycordial§!.\n"
+ RUS_increase_relations_3_tt:0 "우리와의 관계를 §Y수용적§!으로 올리기.\n"
  RUS_increase_relations_4_tt:0 "Increases relations to §Yfriendly§!.\n"
  RUS_increase_relations_5_tt:0 "Increases relations to §Yin sphere§!.\n"
 
  RUS_decrease_relations_5_tt:0 "Decreases opponent relations to §Yfriendly§!.\n"
- RUS_decrease_relations_4_tt:0 "Decreases opponent relations to §Ycordial§!.\n"
- RUS_decrease_relations_3_tt:0 "Decreases opponent relations to §Yneutral§!.\n"
- RUS_decrease_relations_2_tt:0 "Decreases opponent relations to §Yopposed§!.\n"
- RUS_decrease_relations_1_tt:0 "Decreases opponent relations to §Yhostile§!.\n"
+ RUS_decrease_relations_4_tt:0 "상대국의 관계를 §Y수용적§!으로 내리기.\n"
+ RUS_decrease_relations_3_tt:0 "상대국의 관계를 §Y중립적§!으로 내리기.\n"
+ RUS_decrease_relations_2_tt:0 "상대국의 관계를 §Y대항적§!으로 내리기.\n"
+ RUS_decrease_relations_1_tt:0 "상대국의 관계를 §Y적대적§!으로 내리기.\n"
 
  opponent_is_WSR:0 "우리 서부의 경쟁자들" 
  opponent_is_WSB:0 "우리 동부의 경쟁자들"
@@ -342,7 +342,7 @@
  SIB_increase_prestige:0 "Enhance Our Diplomatic Standing"
 
  WSR_war_category:0 "우랄 전쟁"
- WSR_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 동쪽의 적들도 준비를 시작하고 있습니다.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y50%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
+ WSR_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 동쪽의 적들도 준비를 시작하고 있습니다.\n\n전략적 유리함을 얻고 적을 무찌르기 위해서는 §Y대비 태세§!를 올려야 합니다. 이런 규모의 전쟁에서는 우리가 신생국의 존재만큼 매우 중요한 것을 운에 맡기지 않는 것이 최선입니다.\n\n우리의 현재 §Y대비 태세§!는 §Y[?RUSWarPreparedness]%§!입니다. 우리가 선전 포고를 하기 위해서는 §Y대비 태세§!가 반드시 §Y50%§!를 넘어야 합니다.\n\n§Y공격 개시 전에 더 높은 대비 태세를 갖출수록 우리의 상황을 더 유리하게 만들 수 있습니다.§!"
 
  WSR_launch_attack_on_WSB:0 "침공 시작"
  WSR_cross_the_urals:0 "Cross the Urals"
@@ -363,7 +363,7 @@
  WSR_raise_additional_reserves_tt:0 "Increases §Ypreparedness§! by §Y15%§!."
 
  WSB_war_category:0 "우랄 전쟁"
- WSB_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 서쪽의 적들도 준비를 시작하고 있습니다.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y50%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
+ WSB_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 서쪽의 적들도 준비를 시작하고 있습니다.\n\n전략적 유리함을 얻고 적을 무찌르기 위해서는 §Y대비 태세§!를 올려야 합니다. 이런 규모의 전쟁에서는 우리가 신생국의 존재만큼 매우 중요한 것을 운에 맡기지 않는 것이 최선입니다.\n\n우리의 현재 §Y대비 태세§!는 §Y[?RUSWarPreparedness]%§!입니다. 우리가 선전 포고를 하기 위해서는 §Y대비 태세§!가 반드시 §Y50%§!를 넘어야 합니다.\n\n§Y공격 개시 전에 더 높은 대비 태세를 갖출수록 우리의 상황을 더 유리하게 만들 수 있습니다.§!"
 
  WSB_launch_attack_on_WSR:0 "침공 시작"
  WSB_cross_the_urals:0 "Cross the Urals"
@@ -384,7 +384,7 @@
  WSB_raise_additional_reserves_tt:0 "Increases §Ypreparedness§! by §Y15%§!."
 
  CSB_war_category:0 "제2차 시베리아 전쟁"
- CSB_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 동쪽의 적들도 준비를 시작하고 있습니다.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y75%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
+ CSB_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 동쪽의 적들도 준비를 시작하고 있습니다.\n\n전략적 유리함을 얻고 적을 무찌르기 위해서는 §Y대비 태세§!를 올려야 합니다. 이런 규모의 전쟁에서는 우리가 신생국의 존재만큼 매우 중요한 것을 운에 맡기지 않는 것이 최선입니다.\n\n우리의 현재 §Y대비 태세§!는 §Y[?RUSWarPreparedness]%§!입니다. 우리가 선전 포고를 하기 위해서는 §Y대비 태세§!가 반드시 §Y50%§!를 넘어야 합니다.\n\n§Y공격 개시 전에 더 높은 대비 태세를 갖출수록 우리의 상황을 더 유리하게 만들 수 있습니다.§!"
 
  CSB_launch_attack_on_FST:0 "침공 시작"
  CSB_cross_the_border:0 "Sweep Eastwards"
@@ -405,7 +405,7 @@
  CSB_raise_additional_reserves_tt:0 "Increases §Ypreparedness§! by §Y15%§!."
 
  FST_war_category:0 "제2차 시베리아 전쟁"
- FST_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 서쪽의 적들도 준비를 시작하고 있습니다.\n\nIn order to gain the strategic advantage, and defeat our foe, we must increase our §Ypreparedness§! - in a war on such scale, it is best to not leave something as crucial as the existence of our fledgling state up to chance.\n\nOur current §Ypreparedness§! is §Y[?RUSWarPreparedness]%§! - our §Ypreparedness§! must exceed §Y75%§! to declare war.\n\n§YBuilding up higher levels of preparedness before launching our attack may make our situation more advantageous.§!"
+ FST_war_category_desc:0 "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 확실함으로 바뀌었으며, 또한 의심할 여지 없이 서쪽의 적들도 준비를 시작하고 있습니다.\n\n전략적 유리함을 얻고 적을 무찌르기 위해서는 §Y대비 태세§!를 올려야 합니다. 이런 규모의 전쟁에서는 우리가 신생국의 존재만큼 매우 중요한 것을 운에 맡기지 않는 것이 최선입니다.\n\n우리의 현재 §Y대비 태세§!는 §Y[?RUSWarPreparedness]%§!입니다. 우리가 선전 포고를 하기 위해서는 §Y대비 태세§!가 반드시 §Y50%§!를 넘어야 합니다.\n\n§Y공격 개시 전에 더 높은 대비 태세를 갖출수록 우리의 상황을 더 유리하게 만들 수 있습니다.§!"
 
  FST_launch_attack_on_CSB:0 "침공 시작"
  FST_cross_the_border:0 "Sweep Westwards"
@@ -481,8 +481,8 @@
  RUS_SAM_west_russia:0 "Form the §YProvisional Commissariat of Western Russia§!"
  RUS_SAM_west_russia_desc:0 "We are in control of all major cities in Western Russia. The spirit of Russia surges us forward as our armies sweep across the nation! We need a new name, one more befitting our glorious status."
 
- RUS_WRS_west_russia:0 "Restore the §YWest Russian Revolutionary Front§!"
- RUS_WRS_west_russia_desc:0 "Finally, the shame placed upon us by the failed Liberation of the 1950s has been reversed, and we once more find ourselves in control of West Russia! Everything for the Union, as we march onwards!"
+ RUS_WRS_west_russia:0 "§Y서러시아 혁명전선§!의 복원"
+ RUS_WRS_west_russia_desc:0 "마침내, 1950년대의 실패한 해방으로부터의 치욕이 뒤집혔습니다. 우리는 다시 한번 서러시아를 통제하고 있습니다! 모든것은 연방을 위하여, 우리는 앞을 향해 전진하리라!"
 
 
  RUS_somethings_wrong:0 "DEBUG--SOMETHING'S WRONG"

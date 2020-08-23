@@ -1,13 +1,13 @@
 ﻿l_english:
 
 #Ideas
- OIL_prelude:0 "Oil Market Instability"
+ OIL_prelude:0 "석유 시장 불안정"
  OIL_prelude_desc:0 ""
  OIL_stage_1:0 "Oil Crash"
  OIL_stage_1_desc:0 ""
- OIL_stage_2:0 "Oil Crisis"
+ OIL_stage_2:0 "석유 파동"
  OIL_stage_2_desc:0 ""
- OIL_stage_3:0 "Extreme Oil Crisis"
+ OIL_stage_3:0 "극도의 석유 파동"
  OIL_stage_3_desc:0 ""
  OIL_stage_4:0 "Lessening Crisis"
  OIL_stage_4_desc:0 ""
@@ -34,7 +34,7 @@
  USA_fucked_with_jap:0 "Preventing Arms Shipment"
  
  #Events
- OIL.500.t:0 "The Oil Must Flow"
+ OIL.500.t:0 "석유는 반드시 흘러야 한다"
  OIL.500.desc:0 "Like the she-wolf that nursed Romulus and his treacherous brother Remus, the United States has come to offer succor to Italy in its hour of need. Our newly democratic ally, wracked by rebellion in the Middle East, has little hope of holding onto their oil-rich colonial territory without the kind of help a superpower can provide. If Italy is able to re-establish their control over the region, not only will we be able to spread the OFN's influence but we will have a limitless source of oil, ready to keep the lights on in the US for decades to come. \n\nHowever, like just about every issue these days, intervention in the Middle East has become a fiercely debated issue, with two camps forming in Congress; those who advocate indirect intervention by supplying the Italians with funds, advisors and materiel, and those who argue for direct military intervention. The Republican-Democrats for the most part support limited intervention, while the NPP argue to slam the brunt of the United States military down on the enemy, but support for either policy come from both sides of the party line. The debate, consequently, is fierce at best and caustic at worst. \n\nDirect interventionists argue that the Italian military combined with the full force of the United States in combat is more than sufficient to defeat groups of ragtag desert guerrillas, and will ensure OFN supremacy in the region for the foreseeable future. On the other side, it is suggested that, while perhaps not quite as effective, indirect intervention is more than enough to help Italy win the war on their own, and prevent thousands of American boys dying in the sand. \n\nWith the memories of South Africa still fresh in the minds of every American, war in the Middle East could be a greatly polarizing issue. Whichever degree of intervention is chosen, we must be careful not to get mired in a conflict we can't win."
  OIL.500.a:0 "We need that oil. Send in the troops."
  OIL.500.b:0 "Play it safe, the Italians can handle this."
@@ -147,8 +147,8 @@
 # UAR_national_socialism:0 "United Arab Republic" #duplicate loc key
 # UAR_national_socialism_DEF:0 "the United Arab Republic" #duplicate loc key
 
- TNO_Oil_Crisis_dynamic_modifier:0 "Oil Crisis effects"
- TNO_Oil_Crisis:0 "The Oil Crisis"
+ TNO_Oil_Crisis_dynamic_modifier:0 "석유 파동의 영향"
+ TNO_Oil_Crisis:0 "석유 파동"
  TNO_Oil_Crisis_desc:0 "Political Power Gain: [?OC_political_power_factor|=%+0]\nConsumer Goods Factories: [?OC_consumer_goods_factor|%Y0]\nStability: [?OC_stability_factor|=%+2]\nConstruction Speed: [?OC_production_speed_buildings_factor|=%+2]\nFactory Output: [?OC_industrial_capacity_factory|=%+2]\nDockyard Output: [?OC_industrial_capacity_dockyard|=%+2]\nSynthetic Oil: [?OC_production_oil_factor|=%+2]\nTrade deal opinion factor: [?OC_trade_opinion_factor|=%Y2]\nFuel Gain per Oil: [?OC_fuel_gain_factor|=%+2]\nAnnual GDP Growth Factor: [?OC_annual_gdp_growth_factor|=%+2]\nProportional GDP Cost: [?OC_proportional_gdp_cost|=%-2]\nPersonnel Cost Modifier: [?OC_personnel_cost_modifier|=%Y1]\n--------------\nWith the recent crash of the ENI oil company, oil prices worldwide are undergoing a period of rapid fluctuation, and the resultant strife throughout the world has threatened to crash the Global Market as a whole.\n\nRegardless of ideology, nationality, or loyalty, economic experts worldwide agree on only one thing:\n\nOur only hope for economic survival is to §Yride out the storm§! and §Rpray for a miracle.§!"
 
  TNO_Oil_Crisis_reduce_effects_tooltip:0 "The effects of the §YOil Crisis§! will be §Greduced§!.\n"
