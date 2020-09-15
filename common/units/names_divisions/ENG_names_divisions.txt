@@ -1,0 +1,64 @@
+﻿ENG_RoyalMilitaryPolice = {
+	name = "왕립군사경찰"
+	for_countries = { ENG }
+	can_use = { always = yes }
+	division_types = { "cavalry" }
+	fallback_name = "제%d왕립군사경찰대"
+	ordered = {
+		1 = { "제%d왕립군사경찰대 '더럼'" }
+		2 = { "제%d왕립군사경찰대 '칼라일'" }
+		3 = { "제%d왕립군사경찰대 '노리치'" }
+		4 = { "제%d왕립군사경찰대 '헐'" }
+		5 = { "제%d왕립군사경찰대 '노팅엄'" }
+		6 = { "제%d왕립군사경찰대 '슈류즈버리'" }
+		7 = { "제%d왕립군사경찰대 '도버'" }
+		8 = { "제%d왕립군사경찰대 '케임브리지'" }
+	}
+}
+ENG_InfantryDivision = {
+	name = "보병사단"
+	for_countries = { ENG }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "제%d보병사단"
+	ordered = { 
+		1 = { "제%d보병사단" }
+	}
+}
+ENG_LightDivision = {
+	name = "경사단"
+	for_countries = { ENG }
+	can_use = { always = yes }
+	division_types = { "light_infantry" }
+	fallback_name = "제%d경보병사단"
+	ordered = {
+		1 = { "제%d경사단 '뉴캐슬'" }
+		2 = { "제%d경사단 '리버풀'" }
+		3 = { "제%d경사단 '브리스톨'" }
+		4 = { "제%d경사단 '요크'" }
+		5 = { "제%d경사단 '포츠머스'" }
+		6 = { "제%d경사단 '런던'" }
+	}
+}
+ENG_ArmouredInfantry = {
+	name = "기갑보병"
+	for_countries = { ENG }
+	can_use = { always = yes }
+	division_types = { "motorized" }
+	fallback_name = "제%d기갑보병사단"
+	ordered = {
+		1 = { "제%d기갑보병사단 '에드워드 8세'" }
+		2 = { "제%d기갑보병사단 '런던 근위대'" }
+		3 = { "제%d기갑보병사단 '모스트 로열'" }
+		4 = { "제%d기갑보병사단 '미드랜즈 근위대'" }
+	}
+}
+ENG_HonourableArtilleryCompany = {
+	name = "명예포병중대"
+	for_countries = { ENG }
+	can_use = { always = yes }
+	division_types = { "artillery" }
+	ordered = {
+		1 = { "명예포병중대" }
+	}
+}
