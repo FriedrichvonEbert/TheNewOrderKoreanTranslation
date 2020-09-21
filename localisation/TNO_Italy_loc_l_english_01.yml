@@ -1123,9 +1123,9 @@ ita_changes_later:0 "§WThe impacts of this endeavour won't immediately be appar
 ita_growing_scorza:0 "§YThis will support Ciano's opposition.§!"
 ita_growing_ciano:0 "§YThis will support Ciano's plans.§!"
 
-#########################
-# IME Related Decisions #
-#########################
+###########################
+# 이탈리아령 중동 관련 결정 #
+###########################
 ita_italian_middle_east_settlements:0 "중동 정착지 문제"
 ita_italian_middle_east_settlements_desc:0 ""
 
@@ -1135,82 +1135,82 @@ ita_israel_support_desc:0 ""
 ita_palestine_support:0 "추가 정착 금지"
 ita_palestine_support_desc:0 ""
 
-ita_supported_settlers:0 "Settlements Continue To Grow"
-ita_supported_arabs:0 "Fututre Settlements Prevented"
-ita_ime_decided:0 "The situation in the Italian Middle East has been resolved."
+ita_supported_settlers:0 "정착지가 계속 증가함"
+ita_supported_arabs:0 "추가 정착이 금지됨"
+ita_ime_decided:0 "이탈리아령 중동 상황이 해결되었습니다."
 
 #####################
-# Empire Management #
+#      제국 경영     #
 #####################
-ita_empire_managaement:0 "Empire Management"
-ita_empire_managaement_desc:0 "The Italian eagle is one that stretches proudly from the slopes of Kilimanjaro to the harsh colds of the Alps, having conquered for herself a massive and wealthy empire through the carnage of two world wars. Without her domains, Italy would slink back to being a second rate power. However, for as great and mighty as the empire is, it has certainly spread itself thin. Budget drains, garrison issues and many more have hindered its ability to exert force, let alone expand. If not patched, these cracks will only grow.\n\nExpendible Points: [?ITA_empire_management_coins]\n\nEgyptian Delegates: [get.ITA_Egypt_Block_Status]\nEast African Government: [get.ITA_IEA_Block_Status]\nLevantine Government: [get.ITA_IME_Block_Status]\nIraqi-Italian Commission: [get.ITA_IRQ_Block_Status][get.ITA_ILG_Block_Status]"
-ITA_empire_management_political_power:0 "Political Commitment to Empire"
+ita_empire_managaement:0 "제국 경영"
+ita_empire_managaement_desc:0 "이탈리아라는 독수리는 킬리만자로산부터 지독하게 추운 알프스산맥까지 위풍당당하게 몸을 뻗었습니다. 이 땅들은 두 차례의 세계 대전 당시 광대하고 부유한 제국이 되기 위해 정복한 땅입니다. 이 땅들이 없다면 이탈리아는 다시 이류 열강으로 전락할 것입니다. 하지만 제국이 위대하고 강인하다고 해도 얇게 퍼져있다는 것은 확실합니다. 예산 소모, 주둔군 문제, 기타 많은 것들이 이탈리아가 확장하고 힘을 행사할 수 있게 하는 능력을 방해하고 있습니다. 만약 이 문제를 해결하지 않는다면 제국에 난 금은 점점 더 커질 것입니다.\n\n쓸 수 있는 점수: [?ITA_empire_management_coins]\n\n이집트 대표단: [get.ITA_Egypt_Block_Status]\n동아프리카 정부: [get.ITA_IEA_Block_Status]\n레반트 정부: [get.ITA_IME_Block_Status]\n이라크-이탈리아 위원회: [get.ITA_IRQ_Block_Status][get.ITA_ILG_Block_Status]"
+ITA_empire_management_political_power:0 "제국에 대한 정치적 공로"
 
 ITA_Block_Status_0:0 "£GFX_box_empty £GFX_box_empty £GFX_box_empty "
 ITA_Block_Status_1:0 "£GFX_box_filled £GFX_box_empty £GFX_box_empty "
 ITA_Block_Status_2:0 "£GFX_box_filled £GFX_box_filled £GFX_box_empty "
 ITA_Block_Status_3:0 "£GFX_box_filled £GFX_box_filled £GFX_box_filled "
-ITA_ILG_Block_Status_0:0 "\nAlgerian Government: £GFX_box_empty £GFX_box_empty £GFX_box_empty "
-ITA_ILG_Block_Status_1:0 "\nAlgerian Government: £GFX_box_filled £GFX_box_empty £GFX_box_empty "
-ITA_ILG_Block_Status_2:0 "\nAlgerian Government: £GFX_box_filled £GFX_box_filled £GFX_box_empty "
-ITA_ILG_Block_Status_3:0 "\nAlgerian Government: £GFX_box_filled £GFX_box_filled £GFX_box_filled "
+ITA_ILG_Block_Status_0:0 "\n알제리 정부: £GFX_box_empty £GFX_box_empty £GFX_box_empty "
+ITA_ILG_Block_Status_1:0 "\n알제리 정부: £GFX_box_filled £GFX_box_empty £GFX_box_empty "
+ITA_ILG_Block_Status_2:0 "\n알제리 정부: £GFX_box_filled £GFX_box_filled £GFX_box_empty "
+ITA_ILG_Block_Status_3:0 "\n알제리 정부: £GFX_box_filled £GFX_box_filled £GFX_box_filled "
 ITA_NO_MORE_ALGERIA:0 ""
 
-ITA_EGY_POINTS_SET_0:0 "§YOur commitment to Egypt will become 0§!"
-ITA_EGY_POINTS_SET_1:0 "§YOur commitment to Egypt will become 1§!"
-ITA_EGY_POINTS_SET_2:0 "§YOur commitment to Egypt will become 2§!"
-ITA_EGY_POINTS_SET_3:0 "§YOur commitment to Egypt will become 3§!"
+ITA_EGY_POINTS_SET_0:0 "§Y이집트에 대한 공로가 0이 됩니다.§!"
+ITA_EGY_POINTS_SET_1:0 "§Y이집트에 대한 공로가 1이 됩니다.§!"
+ITA_EGY_POINTS_SET_2:0 "§Y이집트에 대한 공로가 2가 됩니다.§!"
+ITA_EGY_POINTS_SET_3:0 "§Y이집트에 대한 공로가 3이 됩니다.§!"
 
-ITA_IEA_POINTS_SET_0:0 "§YOur commitment to East Africa will become 0.§!"
-ITA_IEA_POINTS_SET_1:0 "§YOur commitment to East Africa will become 1.§!"
-ITA_IEA_POINTS_SET_2:0 "§YOur commitment to East Africa will become 2.§!"
-ITA_IEA_POINTS_SET_3:0 "§YOur commitment to East Africa will become 3.§!"
+ITA_IEA_POINTS_SET_0:0 "§Y동아프리카에 대한 공로가 0이 됩니다.§!"
+ITA_IEA_POINTS_SET_1:0 "§Y동아프리카에 대한 공로가 1이 됩니다.§!"
+ITA_IEA_POINTS_SET_2:0 "§Y동아프리카에 대한 공로가 2가 됩니다.§!"
+ITA_IEA_POINTS_SET_3:0 "§Y동아프리카에 대한 공로가 3이 됩니다.§!"
 
-ITA_IME_POINTS_SET_0:0 "§YOur commitment to the Levant will become 0.§!"
-ITA_IME_POINTS_SET_1:0 "§YOur commitment to the Levant will become 1.§!"
-ITA_IME_POINTS_SET_2:0 "§YOur commitment to the Levant will become 2.§!"
-ITA_IME_POINTS_SET_3:0 "§YOur commitment to the Levant will become 3.§!"
+ITA_IME_POINTS_SET_0:0 "§Y레반트에 대한 공로가 0이 됩니다.§!"
+ITA_IME_POINTS_SET_1:0 "§Y레반트에 대한 공로가 1이 됩니다.§!"
+ITA_IME_POINTS_SET_2:0 "§Y레반트에 대한 공로가 2가 됩니다.§!"
+ITA_IME_POINTS_SET_3:0 "§Y레반트에 대한 공로가 3이 됩니다.§!"
 
-ITA_IRQ_POINTS_SET_0:0 "§YOur commitment to Iraq will become 0.§!"
-ITA_IRQ_POINTS_SET_1:0 "§YOur commitment to Iraq will become 1.§!"
-ITA_IRQ_POINTS_SET_2:0 "§YOur commitment to Iraq will become 2.§!"
-ITA_IRQ_POINTS_SET_3:0 "§YOur commitment to Iraq will become 3.§!"
-IRQ_MONEY_OUT_IRQ:0 "§YWe will Qasim's regime some money.§!"
-IRQ_MONEY_IN_IRQ:0 "§YQasim's regime has paid us a shiny profit.§!"
-IRQ_MONEY_GET_OUT_IRQ:0 "§YWe will fund the evacuation.§!"
+ITA_IRQ_POINTS_SET_0:0 "§Y이라크에 대한 공로가 0이 됩니다.§!"
+ITA_IRQ_POINTS_SET_1:0 "§Y이라크에 대한 공로가 1이 됩니다.§!"
+ITA_IRQ_POINTS_SET_2:0 "§Y이라크에 대한 공로가 2가 됩니다.§!"
+ITA_IRQ_POINTS_SET_3:0 "§Y이라크에 대한 공로가 3이 됩니다.§!"
+IRQ_MONEY_OUT_IRQ:0 "§Y카심 정권에게 돈을 좀 줍니다.§!"
+IRQ_MONEY_IN_IRQ:0 "§Y카심 정권이 짭짤한 수입을 줬습니다§!"
+IRQ_MONEY_GET_OUT_IRQ:0 "§Y피난 자금을 지원합니다.§!"
 
-ITA_GUL_POINTS_SET_0:0 "§YOur commitment to the Gulf will become 0.§!"
-ITA_GUL_POINTS_SET_1:0 "§YOur commitment to the Gulf will become 1.§!"
-ITA_GUL_POINTS_SET_2:0 "§YOur commitment to the Gulf will become 2.§!"
-ITA_GUL_POINTS_SET_3:0 "§YOur commitment to the Gulf will become 3.§!"
+ITA_GUL_POINTS_SET_0:0 "§Y걸프에 대한 공로가 0이 됩니다.§!"
+ITA_GUL_POINTS_SET_1:0 "§Y걸프에 대한 공로가 1이 됩니다.§!"
+ITA_GUL_POINTS_SET_2:0 "§Y걸프에 대한 공로가 2가 됩니다.§!"
+ITA_GUL_POINTS_SET_3:0 "§Y걸프에 대한 공로가 3이 됩니다.§!"
 
-ITA_ILG_POINTS_SET_0:0 "§YOur commitment to Algeria will become 0.§!"
-ITA_ILG_POINTS_SET_1:0 "§YOur commitment to Algeria will become 1.§!"
-ITA_ILG_POINTS_SET_2:0 "§YOur commitment to Algeria will become 2.§!"
-ITA_ILG_POINTS_SET_3:0 "§YOur commitment to Algeria will become 3.§!"
+ITA_ILG_POINTS_SET_0:0 "§Y알제리에 대한 공로가 0이 됩니다.§!"
+ITA_ILG_POINTS_SET_1:0 "§Y알제리에 대한 공로가 1이 됩니다.§!"
+ITA_ILG_POINTS_SET_2:0 "§Y알제리에 대한 공로가 2가 됩니다.§!"
+ITA_ILG_POINTS_SET_3:0 "§Y알제리에 대한 공로가 3이 됩니다.§!"
 
-ITA_MANGO_IS_FUCKING_CRUNCHING:0 "§YMy commitment to TNO will become 4.§!"
+ITA_MANGO_IS_FUCKING_CRUNCHING:0 "§YTNO에 대한 내 공로가 4가 됩니다.§!"
 
-ITA_use_only_like_twice_ever:0 "§GWe will expand our colonial management efforts, gaining us§! §Y1 Empire Management Point§! £GFX_box_filled."
+ITA_use_only_like_twice_ever:0 "§G식민지 경영 능력을 확대하면 §Y1 제국 경영 점수§!를 얻습니다.§! £GFX_box_filled."
 
 ############################
-# Cassa per il Mezzogiorno #
+#        남부개발기금       #
 ############################
 
-ita_Cassa_per_il_Mezzogiorno:0 "Cassa per il Mezzogiorno"
-ita_Cassa_per_il_Mezzogiorno_desc:0 "Southern Italy has always been a barren land, devoid of much of anything but the odd shipping port and many, many farms. Even in the early days of the 19th century, as the deltas of the north hummed to life with industrial activity, the south still acted the way it had centuries before. Now, this will all change. For Italy to be united, it must be in every sense, and that includes its economics. The Cassa per il Mezzogiorno will ensure the fruits of the industrial revolution fully spread through the south, for the benefit of the entire peninsula.\n\nTotal Project Points: [?ITA_Cassa_per_il_Mezzogiorno_Available]\n\nProjects in Progress: [?ITA_Industry_in_use]\n\nAvailable Projects: [?Industy_Checker_ITA]\n\n"
-ita_survey:0 "Survey for a Project"
-ITA_industry_decider:0 "Project Being Decided"
-ITA_private_industry_expand_building_slot_1:0 "Rennovating Land"
-ITA_private_industry_expand_building_slot_2:0 "Rennovating Land"
-ITA_private_industry_expand_building_slot_3:0 "Rennovating Land"
-ITA_private_industry_construct_civillian_factory_1:0 "Constructing Civillian Factories"
-ITA_private_industry_construct_civillian_factory_2:0 "Constructing Civillian Factories"
-ITA_private_industry_construct_civillian_factory_3:0 "Constructing Civillian Factories"
-ITA_private_industry_expand_infrastrcuture_1:0 "Expanding Infrastructure"
-ITA_private_industry_expand_infrastrcuture_2:0 "Expanding Infrastructure"
-ITA_private_industry_expand_infrastrcuture_3:0 "Expanding Infrastructure"
-ITA_private_industry_expand_infrastrcuture_4:0 "Expanding Infrastructure"
+ita_Cassa_per_il_Mezzogiorno:0 "남부개발기금"
+ita_Cassa_per_il_Mezzogiorno_desc:0 "남부 이탈리아는 언제나 황량한 땅이었습니다. 있는 게 거의 없지만 특이한 선적항들과 엄청 엄청 많은 농장이 있죠. 19세기 초에 북부 삼각주 사람들이 산업 활동이 있는 삶을 누릴 때도 남부는 몇 세기 전의 방식대로 행동했습니다. 이제 모든 것이 바뀔 것입니다. 이탈리아가 하나가 되기 위해서는 모든 것을 맞춰야 합니다. 경제도 예외는 아닙니다. 남부개발기금은 산업혁명의 과실이 남부에 주렁주렁 열리게 할 것입니다. 이는 반도 전체를 위해서입니다.\n\n총 프로젝트 점수: [?ITA_Cassa_per_il_Mezzogiorno_Available]\n\n진행 중인 프로젝트: [?ITA_Industry_in_use]\n\n가능한 프로젝트: [?Industy_Checker_ITA]\n\n"
+ita_survey:0 "프로젝트 조사"
+ITA_industry_decider:0 "프로젝트 결정 중"
+ITA_private_industry_expand_building_slot_1:0 "토지 개간"
+ITA_private_industry_expand_building_slot_2:0 "토지 개간"
+ITA_private_industry_expand_building_slot_3:0 "토지 개간"
+ITA_private_industry_construct_civillian_factory_1:0 "민간공장 건설"
+ITA_private_industry_construct_civillian_factory_2:0 "민간공장 건설"
+ITA_private_industry_construct_civillian_factory_3:0 "민간공장 건설"
+ITA_private_industry_expand_infrastrcuture_1:0 "기반시설 확장"
+ITA_private_industry_expand_infrastrcuture_2:0 "기반시설 확장"
+ITA_private_industry_expand_infrastrcuture_3:0 "기반시설 확장"
+ITA_private_industry_expand_infrastrcuture_4:0 "기반시설 확장"
 ita_point_5_gain_closer_to_new_project:0 "§YFunding for the Cassa per il Mezzogiorno will go§! §Gup§!§Y, bringing us closer to further rennovations.§!"
 ita_point_5_loss_farther_to_new_project:0 "§YFunding for the Cassa per il Mezzogiorno will go§! §Rdown§!§Y, bringing us closer to further rennovations.§!"
 
