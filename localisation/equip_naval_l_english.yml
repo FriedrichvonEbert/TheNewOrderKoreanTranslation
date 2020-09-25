@@ -4,27 +4,27 @@ l_english:
 #### Generic ####
  # Some of this may be deprecated
  ## Convoys
- convoy:0 "Convoy"
- convoy_desc:0 "Convoys used for international trade of goods and resources. Also used to ferry troops around and for performing naval invasions."
+ convoy:0 "수송선"
+ convoy_desc:0 "수송선은 상품과 자원의 국제 무역에 이용됩니다. 또한 부대를 수송하고 해상 상륙 수행을 위해 이용됩니다."
 
- convoy_1:0 "Convoy"
+ convoy_1:0 "수송선"
 
  ## Submarines
  submarine:0 "잠수함"
- submarine_desc:0 "잠수함은 적의 호위함을 파괴하기 위해 은밀하고 강력한 어뢰를 사용합니다."
+ submarine_desc:0 "잠수함은 잠행하여 강력한 어뢰를 사용해 적의 수송선단을 공격합니다."
 
  ## Destroyers
  destroyer:0 "구축함"
- destroyer_desc:0 "The lightest screening vessel. Its job is to defend larger ships and to find and destroy submarines."
+ destroyer_desc:0 "가장 가벼운 보조함. 구축함의 임무는 보다 큰 함선을 보호하고 잠수함을 수색하여 격침하는 것입니다."
 
  ## Cruisers
- both_cruisers_desc:0 "경순양함 - A light screening vessel. Its primary duty is to shield capital ships from enemy light ships but can also unleash powerful torpedoes that can hurt bigger ships.\n\nHeavy Cruiser - A large armored cruiser that is pretty flexible. A good choice for nations who can not afford to build larger capital ships."
+ both_cruisers_desc:0 "경순양함 - 가벼운 보조함. 주 임무는 적군 보조함들에게서 아군 주력함을 보호하는 것이지만 강력한 어뢰를 사용해 적 주력함에 피해를 입힐 수도 있습니다.\n\n중순양함 - 장갑을 두른 커다란 순양함. 다용도로 활용될 수 있으며, 거대한 주력함을 만들 역량이 부족한 국가에게 좋은 선택입니다."
 
  light_cruiser:0 "경순양함"
- light_cruiser_desc:0 "A light screening vessel. Its primary duty is to shield capital ships from enemy light ships but can also unleash powerful torpedoes that can hurt bigger ships."
+ light_cruiser_desc:0 "가벼운 보조함. 주 임무는 적군 보조함들에게서 아군 주력함을 보호하는 것이지만 강력한 어뢰를 사용해 적 주력함에 피해를 입힐 수도 있습니다."
 
  heavy_cruiser:0 "중순양함"
- heavy_cruiser_desc:0 "A large armored cruiser that is pretty flexible. A good choice for nations who can not afford to build larger capital ships."
+ heavy_cruiser_desc:0 "장갑을 두른 커다란 순양함. 다용도로 활용될 수 있으며, 거대한 주력함을 만들 역량이 부족한 국가에게 좋은 선택입니다."
 
  ## Battleships
  battle_cruiser:0 "순양전함"
@@ -43,8 +43,8 @@ l_english:
 
 #### Man the Guns ####
  ### Corvettes ###
-  ship_hull_very_light:0 "Corvette"
-  ship_hull_very_light_desc:0 "Corvettes are vessels that are prominently used for offshore patrols. Being non-oceanworthy has made these types of vessels the perfect choice for guarding coasts."
+  ship_hull_very_light:0 "초계함"
+  ship_hull_very_light_desc:0 "초계함은 주로 연안 초계에 사용되는 함정입니다. 대양 항해에 적합하지 않은 이 함정은 해안 방어에 딱 맞는 선택지입니다."
  
   ship_hull_very_light_1:2 "Early Corvette Hull"
   ship_hull_very_light_1_desc:0 "Although utilized as easily-built patrol and convoy escort vessels, these ships, dating from the Second World War, have been surpassed, performing as little more than glorified artifacts from a long-gone age."
@@ -61,8 +61,8 @@ l_english:
  ### Corvettes ###
 
  ### Frigates ###
-  ship_hull_more_light:0 "Frigate"
-  ship_hull_more_light_desc:0 "Frigates are designations used to describe the vessels that lie between corvettes and destroyers. Ocean-worthy and cheap, these act as counters against threats from over and under the sea: aircrafts and submarines. "
+  ship_hull_more_light:0 "호위함"
+  ship_hull_more_light_desc:0 "호위함은 초계함과 구축함 사이에 있는 함정들을 구분하는 명칭입니다. 대양 항해에 적합하고 저렴한 이 선박들은 하늘의 항공기와 바닷속의 잠수함의 위협에 대한 대항마로 활동합니다."
 
   ship_hull_more_light_1:2 "Early Frigate Hull"
   ship_hull_more_light_1_desc:0 "During the Second World War, the prevalence of submarines have forced the superpowers of the world to adopt a new class of vessel that are cost-efficient against submarines: the frigate."
@@ -80,7 +80,7 @@ l_english:
 
  ### Destroyers ###
   ship_hull_light:0 "구축함"
-  ship_hull_light_desc:0 "A destroyer is a small vessel, lightly armed and meant to provide support to a battlefleet through ASW, AA, and surface combat capabilities."
+  ship_hull_light_desc:0 "작고 경무장한 구축함은 대잠, 대공, 해상 전투 능력으로 전투 함대를 지원하기 위해 만들어졌습니다."
  
   ship_hull_light_1:2 "Early Destroyer Hull"
   ship_hull_light_1_desc:0 "A destroyer from the second world war may be regarded as obsolete by some, but it could easily be upgraded with modern weapons into a low-cost screen."
@@ -98,7 +98,7 @@ l_english:
 
  ### Cruisers ###
   ship_hull_cruiser:0 "순양함"
-  ship_hull_cruiser_desc:0 "Heavier than a destroyer and lighter than a battleship, a cruiser serves as a cheap alternative for conducting operations normally reserved for large capital ships. Their use is prevalent among navies with long shorelines but short budgets."
+  ship_hull_cruiser_desc:0 "구축함보다 무겁고 전함보다는 가벼운 순양함은 보통은 대형 주력함이 맡는 작전을 싸게 수행하기 위한 대체품입니다. 해안선이 길지만 예산은 부족한 나라의 해군이 자주 사용합니다."
  
   ship_hull_cruiser_1:1 "Early Cruiser Hull"
   ship_hull_cruiser_1_desc:0 "The Second World War has seen centuries' worth of innovations in war occur in less than a decade -- from coal- to oil- fired engines, from sliding rules to targeting computers. Cruiser development is no less exempt."
@@ -123,8 +123,8 @@ l_english:
  ### Cruisers ###
 
  ### Battleship ###
-  ship_hull_heavy:0 "Heavy Ship"
-  ship_hull_heavy_desc:0 "Battleships are built for sheer firepower and toughness, intended to fight and win large-scale fleet battles. Though their role in the modern navy has largely been overtaken by carriers, they are still a formidable foe on the high seas, especially when upgraded and modernized."
+  ship_hull_heavy:0 "중형함"
+  ship_hull_heavy_desc:0 "전함은 순수한 화력과 강인함의 결정체로 대규모 함대전에서 싸우고 이기기 위해 만들어졌습니다. 현대 해군에서의 전함의 역할은 대부분 항공모함이 가져갔지만 공해에 떠있는 전함, 특히 업그레이드되고 현대화된 전함은 여전히 무시무시한 상대입니다."
  
   ship_hull_heavy_1:1 "Early Battleship Hull"
   ship_hull_heavy_1_desc:0 "Battleship hulls built during the war were astoundingly diverse, mounting all manner of fearsome weaponry and serving as the lions of their era, unchallenged in their dominion of the seas. Those still around in the present day are the most fearsome of their kind."
@@ -142,7 +142,7 @@ l_english:
 
  ### Carrier ###
   ship_hull_carrier:0 "항공모함"
-  ship_hull_carrier_desc:0 "Aircraft carriers are ships entirely devoted to hangars and flight decks, using onboard planes for both attack and defense. For any nation wealthy enough to field them, they form the core of a modern navy, providing versatile firepower and excellent power-projection capabilities."
+  ship_hull_carrier_desc:0 "항공모함은 격납고와 비행갑판에 모든 것을 투자한 함선으로 탑재한 항공기를 공격과 방어에 사용합니다. 항공모함을 배치할 정도로 부유한 나라라면 현대식 해군의 중심에 항공모함이 있습니다. 그곳에서 항공모함은 다재다능한 화력과 훌륭한 세력투사 능력을 제공합니다."
  
   ship_hull_carrier_1:1 "Early Carrier Hull"
   ship_hull_carrier_1_desc:0 "The dawn of the carrier was the Second World War, and those which survived it are old but dangerous beasts nonetheless. Few expect those that remain to see combat and survive however."
@@ -160,7 +160,7 @@ l_english:
 
  ### Submarine ###
   ship_hull_submarine:0 "잠수함"
-  ship_hull_submarine_desc:0 "A submarine is a ship designed to travel underwater for durations of time. They usually carry torpedoes -- bulbous warheads with propellers -- as a main armament, and the most rudimentary designs can travel several feet underwater for days."
+  ship_hull_submarine_desc:0 "잠수함은 수중에서 긴 시간을 항해할 수 있도록 설계된 선박입니다. 이들은 보통 둥글납작한 탄두에 프로펠러가 달린 어뢰를 주무장으로 사용합니다. 가장 기초적인 설계를 채용한 잠수함도 몇십 센티미터 수중에서 며칠을 버틸 수 있습니다."
 
   ship_hull_submarine_1:1 "Early Attack Submarine Hull"
   ship_hull_submarine_1_desc:0 "Though WWI saw the first widespread use of submarines in naval warfare, WWII was where they truly showed their effectiveness, destroying vast swathes of merchant ships and enemy naval vessels alike. However, the submarines that fought in that conflict are now long out of date."

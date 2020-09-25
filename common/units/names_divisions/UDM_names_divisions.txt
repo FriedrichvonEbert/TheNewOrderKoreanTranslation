@@ -1,0 +1,47 @@
+﻿UDM_Guards = {
+	name = "근위소총사단"
+
+	for_countries = { UDM }
+
+	can_use = { always = yes }
+
+	division_types = { "elite_infantry" }
+
+	fallback_name = "제%d근위소총사단"
+
+	ordered = {
+		1 = { "제%d근위소총사단" }
+	}
+}
+
+UDM_Motorized = {
+	name = "근위차량화소총사단"
+
+	for_countries = { UDM }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	fallback_name = "제%d근위차량화소총사단"
+
+	ordered = {
+		1 = { "제%d근위차량화소총사단" }
+	}
+}
+
+UDM_Infantry = {
+	name = "소총사단"
+
+	for_countries = { UDM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "제%d소총사단"
+
+	ordered = {
+		1 = { "제%d소총사단" }
+	}
+}

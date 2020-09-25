@@ -1,0 +1,1533 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TNO_Iberia_terrorism_window_open"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType ={
+			name = "ibr_terrorism_menu_open"
+			spriteType = "GFX_AAS_Icon"
+			position = { x = 238 y = 41 }
+			pdx_tooltip = "scripted_gui_open_tt_ibr_ter"
+			scale = 0.65
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=185 y=-16 }
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Iberia_terrorism_window_main"
+		size = { width = 849 height = 681 }
+		position = { x = 538 y = 77 }
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		iconType = {
+			name = "IBR_Background"
+			spriteType = "GFX_Iberia_Background"
+			position = { x = 12 y = 16 }
+		}
+
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_title"
+			position = { x = 0 y = 22 }
+			font = "aldrich_48_outline"
+			text = "IBR_Axencia_GUI_title"
+			maxWidth = 849
+			format = center
+		}
+		
+		### CNT TEXT ###
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_CNT_title"
+			position = { x = 12 y = 77 }
+			font = "aldrich_36_outline"
+			text = "IBR_CNT_name"
+			maxWidth = 412
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_CNT_title_full"
+			position = { x = 62 y = 112 }
+			font = "aldrich_16_outline"
+			text = "전국노동자연합-이베리아 아나키스트 연맹"
+			maxWidth = 312
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_CNT_activity"
+			position = { x = 8 y = 149 }
+			font = "aldrich_18_outline"
+			text = "IBR_activity_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_CNT_supplies"
+			position = { x = 121 y = 149 }
+			font = "aldrich_18_outline"
+			text = "IBR_supplies_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_CNT_support"
+			position = { x = 236 y = 149 }
+			font = "aldrich_18_outline"
+			text = "IBR_support_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		### FSLP TEXT ###
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_FSLP_title"
+			position = { x = 425 y = 77 }
+			font = "aldrich_36_outline"
+			text = "IBR_FSLP_name"
+			maxWidth = 412
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_FSLP_title_full"
+			position = { x = 475 y = 120 }
+			font = "aldrich_16_outline"
+			text = "포트루갈 사회주의 해방전선"
+			maxWidth = 312
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_FSLP_activity"
+			position = { x = 412 y = 149 }
+			font = "aldrich_18_outline"
+			text = "IBR_activity_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_FSLP_supplies"
+			position = { x = 525 y = 149 }
+			font = "aldrich_18_outline"
+			text = "IBR_supplies_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_FSLP_support"
+			position = { x = 640 y = 149 }
+			font = "aldrich_18_outline"
+			text = "IBR_support_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		### ETA TEXT ###
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_ETA_title"
+			position = { x = 12 y = 331 }
+			font = "aldrich_36_outline"
+			text = "IBR_ETA_name"
+			maxWidth = 412
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_ETA_title_full"
+			position = { x = 62 y = 374 }
+			font = "aldrich_16_outline"
+			text = "바스크 조국과 자유"
+			maxWidth = 312
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_ETA_activity"
+			position = { x = 8 y = 404 }
+			font = "aldrich_18_outline"
+			text = "IBR_activity_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_ETA_supplies"
+			position = { x = 121 y = 404 }
+			font = "aldrich_18_outline"
+			text = "IBR_supplies_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_ETA_support"
+			position = { x = 236 y = 404 }
+			font = "aldrich_18_outline"
+			text = "IBR_support_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		### BTA TEXT ###
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_BTA_title"
+			position = { x = 425 y = 331 }
+			font = "aldrich_36_outline"
+			text = "IBR_BTA_name"
+			maxWidth = 412
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_BTA_title_full"
+			position = { x = 475 y = 374 }
+			font = "aldrich_16_outline"
+			text = "아스투리아스 노동대대"
+			maxWidth = 312
+			format = center
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_BTA_activity"
+			position = { x = 412 y = 404 }
+			font = "aldrich_18_outline"
+			text = "IBR_activity_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_BTA_supplies"
+			position = { x = 525 y = 404 }
+			font = "aldrich_18_outline"
+			text = "IBR_supplies_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_BTA_support"
+			position = { x = 640 y = 404 }
+			font = "aldrich_18_outline"
+			text = "IBR_support_loc"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_Iberia_terrorism_AAS_resources_title"
+			position = { x = 0 y = 589 }
+			font = "aldrich_22_outline"
+			text = "IBR_AAS_Resources_loc"
+			format = center
+			alwaystransparent = yes
+			maxWidth = 849
+		}
+
+		containerWindowType = {
+			name = "IBR_GUI_Assets"
+			position = { x = 12 y = 16 }
+			size = { width = 849 height = 655 }
+
+			#####AAS RESOURCES LOC
+
+			#SINGLE DIGIT
+			instantTextBoxType = {
+				name = "AAS_Resources_Single"
+				position = { x = 404 y = 594 }
+				#eta =position = { x = 229 y = 574 }
+				#fslp = position = { x = 519 y = 574 }
+				font = "aldrich_36_outline"
+				borderSize = { X = 0 y = 0 }
+				text = "IBR_AAS_LOC"
+				maxWidth = 50
+				maxHeight = 1
+			}
+			#DOUBLE DIGIT
+			instantTextBoxType = {
+				name = "AAS_Resources_Double"
+				position = { x = 396 y = 594 }
+				#eta =position = { x = 229 y = 574 }
+				#fslp = position = { x = 519 y = 574 }
+				font = "aldrich_36_outline"
+				borderSize = { X = 0 y = 0 }
+				text = "IBR_AAS_LOC"
+				maxWidth = 50
+				maxHeight = 1
+			}
+
+			###Info button
+
+			buttonType = {
+				name = "iberia_info_button"
+				position = { x = 7 y = 7 }
+				quadTextureSprite ="GFX_Iberia_InfoButton"
+				buttonFont = "aldrich_18_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_INFO_TT"
+			}
+
+			###Strike Buttons
+
+			buttonType = {
+				name = "StrikeCNTEnabled_button"
+				position = { x = 115 y = 574 }
+				quadTextureSprite ="GFX_Iberia_StrikeCNTEnabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_CNT_ENABLED_TT"
+				text = "IBR_strike_cnt_enabled"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeCNTEnabledNOT_button"
+				position = { x = 115 y = 574 }
+				quadTextureSprite ="GFX_Iberia_StrikeCNTEnabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_CNT_ENABLED_NOT_TT"
+				text = "IBR_strike_cnt_enabled_not"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeCNTDisabled_button"
+				position = { x = 116 y = 575 }
+				quadTextureSprite ="GFX_Iberia_StrikeCNTDisabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_CNT_DISABLED_TT"
+				text = "IBR_strike_cnt_disabled"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeETAEnabled_button"
+				position = { x = 229 y = 574 }
+				quadTextureSprite ="GFX_Iberia_StrikeETAEnabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_ETA_ENABLED_TT"
+				text = "IBR_strike_eta_enabled"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeETAEnabledNOT_button"
+				position = { x = 229 y = 574 }
+				quadTextureSprite ="GFX_Iberia_StrikeETAEnabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_ETA_ENABLED_NOT_TT"
+				text = "IBR_strike_eta_enabled_not"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeETADisabled_button"
+				position = { x = 230 y = 575 }
+				quadTextureSprite ="GFX_Iberia_StrikeETADisabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_ETA_DISABLED_TT"
+				text = "IBR_strike_eta_disabled"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeFSLPEnabled_button"
+				position = { x = 519 y = 574 }
+				quadTextureSprite ="GFX_Iberia_StrikeFSLPEnabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_FSLP_ENABLED_TT"
+				text = "IBR_strike_fslp_enabled"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeFSLPEnabledNOT_button"
+				position = { x = 519 y = 574 }
+				quadTextureSprite ="GFX_Iberia_StrikeFSLPEnabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_FSLP_ENABLED_NOT_TT"
+				text = "IBR_strike_fslp_enabled_not"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeFSLPDisabled_button"
+				position = { x = 520 y = 575 }
+				quadTextureSprite ="GFX_Iberia_StrikeFSLPDisabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_FSLP_DISABLED_TT"
+				text = "IBR_strike_fslp_disabled"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeBTAEnabled_button"
+				position = { x = 633 y = 574 }
+				quadTextureSprite ="GFX_Iberia_StrikeBTAEnabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_BTA_ENABLED_TT"
+				text = "IBR_strike_bta_enabled"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeBTAEnabledNOT_button"
+				position = { x = 633 y = 574 }
+				quadTextureSprite ="GFX_Iberia_StrikeBTAEnabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_BTA_ENABLED_NOT_TT"
+				text = "IBR_strike_bta_enabled_not"
+				multiline = yes
+			}
+			buttonType = {
+				name = "StrikeBTADisabled_button"
+				position = { x = 634 y = 575 }
+				quadTextureSprite ="GFX_Iberia_StrikeBTADisabled"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_STRIKE_BTA_DISABLED_TT"
+				text = "IBR_strike_bta_disabled"
+				multiline = yes
+			}
+			
+			iconType = {
+				name = "Disbanded_BTA"
+				spriteType = "GFX_Disbanded_BTA"
+				position = { x = 635 y = 576 }
+			}
+			iconType = {
+				name = "Disbanded_ETA"
+				spriteType = "GFX_Disbanded_ETA"
+				position = { x = 231 y = 576 }
+			}
+			iconType = {
+				name = "Disbanded_FSLP"
+				spriteType = "GFX_Disbanded_FSLP"
+				position = { x = 521 y = 576 }
+			}
+			iconType = {
+				name = "Disbanded_CNT"
+				spriteType = "GFX_Disbanded_CNT"
+				position = { x = 117 y = 576 }
+			}
+
+			###CNT Buttons
+
+			buttonType = {
+				name = "CNT_CrackdownButton"
+				position = { x = 47 y = 263 }
+				quadTextureSprite ="GFX_Iberia_CrackdownButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_CNT_CRACKDOWN_TT"
+				text = "지역 단속"
+				multiline = yes
+			}
+			buttonType = {
+				name = "CNT_CrackdownButtonDisabled"
+				position = { x = 47 y = 263 }
+				quadTextureSprite ="GFX_Iberia_CrackdownButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_CNT_CRACKDOWN_NOT_TT"
+				text = "지역 단속"
+				multiline = yes
+			}
+			buttonType = {
+				name = "CNT_RaidButton"
+				position = { x = 162 y = 263 }
+				quadTextureSprite ="GFX_Iberia_RaidButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_CNT_RAID_TT"
+				text = "보급품 급습"
+				multiline = yes
+			}
+			buttonType = {
+				name = "CNT_RaidButtonDisabled"
+				position = { x = 162 y = 263 }
+				quadTextureSprite ="GFX_Iberia_RaidButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_CNT_RAID_NOT_TT"
+				text = "보급품 급습"
+				multiline = yes
+			}
+			buttonType = {
+				name = "CNT_PropagandaButton"
+				position = { x = 275 y = 263 }
+				quadTextureSprite ="GFX_Iberia_PropagandaButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_CNT_PROPAGANDA_TT"
+				text = "선전 활동"
+				multiline = yes
+			}
+			buttonType = {
+				name = "CNT_PropagandaButtonDisabled"
+				position = { x = 275 y = 263 }
+				quadTextureSprite ="GFX_Iberia_PropagandaButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_CNT_PROPAGANDA_NOT_TT"
+				text = "선전 활동"
+				multiline = yes
+			}
+
+			###ETA Buttons
+
+			buttonType = {
+				name = "ETA_CrackdownButton"
+				position = { x = 47 y = 518 }
+				quadTextureSprite ="GFX_Iberia_CrackdownButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_ETA_CRACKDOWN_TT"
+				text = "지역 단속"
+				multiline = yes
+			}
+			buttonType = {
+				name = "ETA_CrackdownButtonDisabled"
+				position = { x = 47 y = 518 }
+				quadTextureSprite ="GFX_Iberia_CrackdownButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_ETA_CRACKDOWN_NOT_TT"
+				text = "지역 단속"
+				multiline = yes
+			}
+			buttonType = {
+				name = "ETA_RaidButton"
+				position = { x = 162 y = 518 }
+				quadTextureSprite ="GFX_Iberia_RaidButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_ETA_RAID_TT"
+				text = "보급품 급습"
+				multiline = yes
+			}
+			buttonType = {
+				name = "ETA_RaidButtonDisabled"
+				position = { x = 162 y = 518 }
+				quadTextureSprite ="GFX_Iberia_RaidButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_ETA_RAID_NOT_TT"
+				text = "보급품 급습"
+				multiline = yes
+			}
+			buttonType = {
+				name = "ETA_PropagandaButton"
+				position = { x = 275 y = 518 }
+				quadTextureSprite ="GFX_Iberia_PropagandaButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_ETA_PROPAGANDA_TT"
+				text = "선전 활동"
+				multiline = yes
+			}
+			buttonType = {
+				name = "ETA_PropagandaButtonDisabled"
+				position = { x = 275 y = 518 }
+				quadTextureSprite ="GFX_Iberia_PropagandaButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_ETA_PROPAGANDA_NOT_TT"
+				text = "선전 활동"
+				multiline = yes
+			}
+
+			###FSLP Buttons
+
+			buttonType = {
+				name = "FSLP_CrackdownButton"
+				position = { x = 451 y = 263 }
+				quadTextureSprite ="GFX_Iberia_CrackdownButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_FSLP_CRACKDOWN_TT"
+				text = "지역 단속"
+				multiline = yes
+			}
+			buttonType = {
+				name = "FSLP_CrackdownButtonDisabled"
+				position = { x = 451 y = 263 }
+				quadTextureSprite ="GFX_Iberia_CrackdownButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_FSLP_CRACKDOWN_NOT_TT"
+				text = "지역 단속"
+				multiline = yes
+			}
+			buttonType = {
+				name = "FSLP_RaidButton"
+				position = { x = 566 y = 263 }
+				quadTextureSprite ="GFX_Iberia_RaidButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_FSLP_RAID_TT"
+				text = "보급품 급습"
+				multiline = yes
+			}
+			buttonType = {
+				name = "FSLP_RaidButtonDisabled"
+				position = { x = 566 y = 263 }
+				quadTextureSprite ="GFX_Iberia_RaidButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_FSLP_RAID_NOT_TT"
+				text = "보급품 급습"
+				multiline = yes
+			}
+			buttonType = {
+				name = "FSLP_PropagandaButton"
+				position = { x = 679 y = 263 }
+				quadTextureSprite ="GFX_Iberia_PropagandaButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_FSLP_PROPAGANDA_TT"
+				text = "선전 활동"
+				multiline = yes
+			}
+			buttonType = {
+				name = "FSLP_PropagandaButtonDisabled"
+				position = { x = 679 y = 263 }
+				quadTextureSprite ="GFX_Iberia_PropagandaButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_FSLP_PROPAGANDA_NOT_TT"
+				text = "선전 활동"
+				multiline = yes
+			}
+
+			###BTA Buttons
+
+			buttonType = {
+				name = "BTA_CrackdownButton"
+				position = { x = 451 y = 518 }
+				quadTextureSprite ="GFX_Iberia_CrackdownButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_BTA_CRACKDOWN_TT"
+				text = "지역 단속"
+				multiline = yes
+			}
+			buttonType = {
+				name = "BTA_CrackdownButtonDisabled"
+				position = { x = 451 y = 518 }
+				quadTextureSprite ="GFX_Iberia_CrackdownButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_BTA_CRACKDOWN_NOT_TT"
+				text = "지역 단속"
+				multiline = yes
+			}
+			buttonType = {
+				name = "BTA_RaidButton"
+				position = { x = 566 y = 518 }
+				quadTextureSprite ="GFX_Iberia_RaidButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_BTA_RAID_TT"
+				text = "보급품 급습"
+				multiline = yes
+			}
+			buttonType = {
+				name = "BTA_RaidButtonDisabled"
+				position = { x = 566 y = 518 }
+				quadTextureSprite ="GFX_Iberia_RaidButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_BTA_RAID_NOT_TT"
+				text = "보급품 급습"
+				multiline = yes
+			}
+			buttonType = {
+				name = "BTA_PropagandaButton"
+				position = { x = 679 y = 518 }
+				quadTextureSprite ="GFX_Iberia_PropagandaButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_BTA_PROPAGANDA_TT"
+				text = "선전 활동"
+				multiline = yes
+			}
+			buttonType = {
+				name = "BTA_PropagandaButtonDisabled"
+				position = { x = 679 y = 518 }
+				quadTextureSprite ="GFX_Iberia_PropagandaButton"
+				buttonFont = "aldrich_16_outline"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "IBR_BTA_PROPAGANDA_NOT_TT"
+				text = "선전 활동"
+				multiline = yes
+			}
+
+			###Bar Graphs
+
+			iconType = {
+				name = "CNT_Bar_Red_1"
+				spriteType = "GFX_Iberia_REDBAR1"
+				position = { x = 177 y = 245 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_1"
+				spriteType = "GFX_Iberia_REDBAR1"
+				position = { x = 177 y = 500 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_1"
+				spriteType = "GFX_Iberia_REDBAR1"
+				position = { x = 581 y = 245 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_1"
+				spriteType = "GFX_Iberia_REDBAR1"
+				position = { x = 581 y = 500 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_1"
+				spriteType = "GFX_Iberia_GREENBAR1"
+				position = { x = 290 y = 245 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_1"
+				spriteType = "GFX_Iberia_GREENBAR1"
+				position = { x = 290 y = 500 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_1"
+				spriteType = "GFX_Iberia_GREENBAR1"
+				position = { x = 694 y = 245 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_1"
+				spriteType = "GFX_Iberia_GREENBAR1"
+				position = { x = 694 y = 500 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_1"
+				spriteType = "GFX_Iberia_BLUEBAR_1"
+				position = { x = 62 y = 245 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_1"
+				spriteType = "GFX_Iberia_BLUEBAR_1"
+				position = { x = 466 y = 500 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_1"
+				spriteType = "GFX_Iberia_BLUEBAR_1"
+				position = { x = 466 y = 245 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_1"
+				spriteType = "GFX_Iberia_BLUEBAR_1"
+				position = { x = 62 y = 500 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+
+			##########CNT Bars
+
+			iconType = {
+				name = "CNT_Bar_Red_2"
+				spriteType = "GFX_Iberia_REDBAR2"
+				position = { x = 177 y = 235 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Red_3"
+				spriteType = "GFX_Iberia_REDBAR3"
+				position = { x = 177 y = 225 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Red_4"
+				spriteType = "GFX_Iberia_REDBAR4"
+				position = { x = 177 y = 216 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Red_5"
+				spriteType = "GFX_Iberia_REDBAR5"
+				position = { x = 177 y = 207 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Red_6"
+				spriteType = "GFX_Iberia_REDBAR6"
+				position = { x = 177 y = 198 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Red_7"
+				spriteType = "GFX_Iberia_REDBAR7"
+				position = { x = 177 y = 188 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Red_8"
+				spriteType = "GFX_Iberia_REDBAR8"
+				position = { x = 177 y = 179 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Red_9"
+				spriteType = "GFX_Iberia_REDBAR9"
+				position = { x = 177 y = 169 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Red_10"
+				spriteType = "GFX_Iberia_REDBAR10"
+				position = { x = 177 y = 160 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Red_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 177 y = 160 }
+				pdx_tooltip = "IBR_CNT_RED_TT"
+			}
+
+			iconType = {
+				name = "CNT_Bar_Green_2"
+				spriteType = "GFX_Iberia_GREENBAR2"
+				position = { x = 290 y = 235 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_3"
+				spriteType = "GFX_Iberia_GREENBAR3"
+				position = { x = 290 y = 225 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_4"
+				spriteType = "GFX_Iberia_GREENBAR4"
+				position = { x = 290 y = 216 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_5"
+				spriteType = "GFX_Iberia_GREENBAR5"
+				position = { x = 290 y = 207 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_6"
+				spriteType = "GFX_Iberia_GREENBAR6"
+				position = { x = 290 y = 198 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_7"
+				spriteType = "GFX_Iberia_GREENBAR7"
+				position = { x = 290 y = 188 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_8"
+				spriteType = "GFX_Iberia_GREENBAR8"
+				position = { x = 290 y = 179 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_9"
+				spriteType = "GFX_Iberia_GREENBAR9"
+				position = { x = 290 y = 169 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_10"
+				spriteType = "GFX_Iberia_GREENBAR10"
+				position = { x = 290 y = 160 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Green_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 290 y = 160 }
+				pdx_tooltip = "IBR_CNT_GREEN_TT"
+			}
+
+			iconType = {
+				name = "CNT_Bar_Blue_2"
+				spriteType = "GFX_Iberia_BLUEBAR2"
+				position = { x = 62 y = 235 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_3"
+				spriteType = "GFX_Iberia_BLUEBAR3"
+				position = { x = 62 y = 225 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_4"
+				spriteType = "GFX_Iberia_BLUEBAR4"
+				position = { x = 62 y = 216 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_5"
+				spriteType = "GFX_Iberia_BLUEBAR5"
+				position = { x = 62 y = 207 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_6"
+				spriteType = "GFX_Iberia_BLUEBAR6"
+				position = { x = 62 y = 198 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_7"
+				spriteType = "GFX_Iberia_BLUEBAR7"
+				position = { x = 62 y = 188 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_8"
+				spriteType = "GFX_Iberia_BLUEBAR8"
+				position = { x = 62 y = 179 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_9"
+				spriteType = "GFX_Iberia_BLUEBAR9"
+				position = { x = 62 y = 169 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_10"
+				spriteType = "GFX_Iberia_BLUEBAR10"
+				position = { x = 62 y = 160 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+			iconType = {
+				name = "CNT_Bar_Blue_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 62 y = 160 }
+				pdx_tooltip = "IBR_CNT_BLUE_TT"
+			}
+
+
+			##########FSLP Bars
+			iconType = {
+				name = "FSLP_Bar_Red_2"
+				spriteType = "GFX_Iberia_REDBAR2"
+				position = { x = 581 y = 235 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_3"
+				spriteType = "GFX_Iberia_REDBAR3"
+				position = { x = 581 y = 225 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_4"
+				spriteType = "GFX_Iberia_REDBAR4"
+				position = { x = 581 y = 216 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_5"
+				spriteType = "GFX_Iberia_REDBAR5"
+				position = { x = 581 y = 207 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_6"
+				spriteType = "GFX_Iberia_REDBAR6"
+				position = { x = 581 y = 198 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_7"
+				spriteType = "GFX_Iberia_REDBAR7"
+				position = { x = 581 y = 188 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_8"
+				spriteType = "GFX_Iberia_REDBAR8"
+				position = { x = 581 y = 179 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_9"
+				spriteType = "GFX_Iberia_REDBAR9"
+				position = { x = 581 y = 169 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_10"
+				spriteType = "GFX_Iberia_REDBAR10"
+				position = { x = 581 y = 160 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Red_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 581 y = 160 }
+				pdx_tooltip = "IBR_FSLP_RED_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_2"
+				spriteType = "GFX_Iberia_GREENBAR2"
+				position = { x = 694 y = 235 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_3"
+				spriteType = "GFX_Iberia_GREENBAR3"
+				position = { x = 694 y = 225 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_4"
+				spriteType = "GFX_Iberia_GREENBAR4"
+				position = { x = 694 y = 216 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_5"
+				spriteType = "GFX_Iberia_GREENBAR5"
+				position = { x = 694 y = 207 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_6"
+				spriteType = "GFX_Iberia_GREENBAR6"
+				position = { x = 694 y = 198 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_7"
+				spriteType = "GFX_Iberia_GREENBAR7"
+				position = { x = 694 y = 188 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_8"
+				spriteType = "GFX_Iberia_GREENBAR8"
+				position = { x = 694 y = 179 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_9"
+				spriteType = "GFX_Iberia_GREENBAR9"
+				position = { x = 694 y = 169 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_10"
+				spriteType = "GFX_Iberia_GREENBAR10"
+				position = { x = 694 y = 160 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Green_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 694 y = 160 }
+				pdx_tooltip = "IBR_FSLP_GREEN_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_2"
+				spriteType = "GFX_Iberia_BLUEBAR2"
+				position = { x = 466 y = 235 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_3"
+				spriteType = "GFX_Iberia_BLUEBAR3"
+				position = { x = 466 y = 225 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_4"
+				spriteType = "GFX_Iberia_BLUEBAR4"
+				position = { x = 466 y = 216 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_5"
+				spriteType = "GFX_Iberia_BLUEBAR5"
+				position = { x = 466 y = 207 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_6"
+				spriteType = "GFX_Iberia_BLUEBAR6"
+				position = { x = 466 y = 198 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_7"
+				spriteType = "GFX_Iberia_BLUEBAR7"
+				position = { x = 466 y = 188 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_8"
+				spriteType = "GFX_Iberia_BLUEBAR8"
+				position = { x = 466 y = 179 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_9"
+				spriteType = "GFX_Iberia_BLUEBAR9"
+				position = { x = 466 y = 169 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_10"
+				spriteType = "GFX_Iberia_BLUEBAR10"
+				position = { x = 466 y = 160 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+			iconType = {
+				name = "FSLP_Bar_Blue_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 466 y = 160 }
+				pdx_tooltip = "IBR_FSLP_BLUE_TT"
+			}
+
+			#########ETA Bars
+			iconType = {
+				name = "ETA_Bar_Red_2"
+				spriteType = "GFX_Iberia_REDBAR2"
+				position = { x = 177 y = 490 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_3"
+				spriteType = "GFX_Iberia_REDBAR3"
+				position = { x = 177 y = 481 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_4"
+				spriteType = "GFX_Iberia_REDBAR4"
+				position = { x = 177 y = 471 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_5"
+				spriteType = "GFX_Iberia_REDBAR5"
+				position = { x = 177 y = 462 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_6"
+				spriteType = "GFX_Iberia_REDBAR6"
+				position = { x = 177 y = 453 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_7"
+				spriteType = "GFX_Iberia_REDBAR7"
+				position = { x = 177 y = 443 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_8"
+				spriteType = "GFX_Iberia_REDBAR8"
+				position = { x = 177 y = 434 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_9"
+				spriteType = "GFX_Iberia_REDBAR9"
+				position = { x = 177 y = 424 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_10"
+				spriteType = "GFX_Iberia_REDBAR10"
+				position = { x = 177 y = 415 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Red_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 177 y = 415 }
+				pdx_tooltip = "IBR_ETA_RED_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_2"
+				spriteType = "GFX_Iberia_GREENBAR2"
+				position = { x = 290 y = 490 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_3"
+				spriteType = "GFX_Iberia_GREENBAR3"
+				position = { x = 290 y = 481 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_4"
+				spriteType = "GFX_Iberia_GREENBAR4"
+				position = { x = 290 y = 471 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_5"
+				spriteType = "GFX_Iberia_GREENBAR5"
+				position = { x = 290 y = 462 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_6"
+				spriteType = "GFX_Iberia_GREENBAR6"
+				position = { x = 290 y = 453 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_7"
+				spriteType = "GFX_Iberia_GREENBAR7"
+				position = { x = 290 y = 443 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_8"
+				spriteType = "GFX_Iberia_GREENBAR8"
+				position = { x = 290 y = 434 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_9"
+				spriteType = "GFX_Iberia_GREENBAR9"
+				position = { x = 290 y = 424 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_10"
+				spriteType = "GFX_Iberia_GREENBAR10"
+				position = { x = 290 y = 415 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Green_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 290 y = 415 }
+				pdx_tooltip = "IBR_ETA_GREEN_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_2"
+				spriteType = "GFX_Iberia_BLUEBAR2"
+				position = { x = 62 y = 490 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_3"
+				spriteType = "GFX_Iberia_BLUEBAR3"
+				position = { x = 62 y = 481 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_4"
+				spriteType = "GFX_Iberia_BLUEBAR4"
+				position = { x = 62 y = 471 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_5"
+				spriteType = "GFX_Iberia_BLUEBAR5"
+				position = { x = 62 y = 462 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_6"
+				spriteType = "GFX_Iberia_BLUEBAR6"
+				position = { x = 62 y = 453 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_7"
+				spriteType = "GFX_Iberia_BLUEBAR7"
+				position = { x = 62 y = 443 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_8"
+				spriteType = "GFX_Iberia_BLUEBAR8"
+				position = { x = 62 y = 434 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_9"
+				spriteType = "GFX_Iberia_BLUEBAR9"
+				position = { x = 62 y = 424 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_10"
+				spriteType = "GFX_Iberia_BLUEBAR10"
+				position = { x = 62 y = 415 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+			iconType = {
+				name = "ETA_Bar_Blue_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 62 y = 415 }
+				pdx_tooltip = "IBR_ETA_BLUE_TT"
+			}
+
+			#########BTA Bars 466 B, 581 R, 694 G
+			iconType = {
+				name = "BTA_Bar_Red_2"
+				spriteType = "GFX_Iberia_REDBAR2"
+				position = { x = 581 y = 490 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_3"
+				spriteType = "GFX_Iberia_REDBAR3"
+				position = { x = 581 y = 481 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_4"
+				spriteType = "GFX_Iberia_REDBAR4"
+				position = { x = 581 y = 471 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_5"
+				spriteType = "GFX_Iberia_REDBAR5"
+				position = { x = 581 y = 462 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_6"
+				spriteType = "GFX_Iberia_REDBAR6"
+				position = { x = 581 y = 453 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_7"
+				spriteType = "GFX_Iberia_REDBAR7"
+				position = { x = 581 y = 443 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_8"
+				spriteType = "GFX_Iberia_REDBAR8"
+				position = { x = 581 y = 434 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_9"
+				spriteType = "GFX_Iberia_REDBAR9"
+				position = { x = 581 y = 424 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_10"
+				spriteType = "GFX_Iberia_REDBAR10"
+				position = { x = 581 y = 415 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Red_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 581 y = 415 }
+				pdx_tooltip = "IBR_BTA_RED_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_2"
+				spriteType = "GFX_Iberia_GREENBAR2"
+				position = { x = 694 y = 490 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_3"
+				spriteType = "GFX_Iberia_GREENBAR3"
+				position = { x = 694 y = 481 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_4"
+				spriteType = "GFX_Iberia_GREENBAR4"
+				position = { x = 694 y = 471 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_5"
+				spriteType = "GFX_Iberia_GREENBAR5"
+				position = { x = 694 y = 462 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_6"
+				spriteType = "GFX_Iberia_GREENBAR6"
+				position = { x = 694 y = 453 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_7"
+				spriteType = "GFX_Iberia_GREENBAR7"
+				position = { x = 694 y = 443 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_8"
+				spriteType = "GFX_Iberia_GREENBAR8"
+				position = { x = 694 y = 434 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_9"
+				spriteType = "GFX_Iberia_GREENBAR9"
+				position = { x = 694 y = 424 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_10"
+				spriteType = "GFX_Iberia_GREENBAR10"
+				position = { x = 694 y = 415 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Green_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 694 y = 415 }
+				pdx_tooltip = "IBR_BTA_GREEN_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_2"
+				spriteType = "GFX_Iberia_BLUEBAR2"
+				position = { x = 466 y = 490 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_3"
+				spriteType = "GFX_Iberia_BLUEBAR3"
+				position = { x = 466 y = 481 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_4"
+				spriteType = "GFX_Iberia_BLUEBAR4"
+				position = { x = 466 y = 471 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_5"
+				spriteType = "GFX_Iberia_BLUEBAR5"
+				position = { x = 466 y = 462 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_6"
+				spriteType = "GFX_Iberia_BLUEBAR6"
+				position = { x = 466 y = 453 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_7"
+				spriteType = "GFX_Iberia_BLUEBAR7"
+				position = { x = 466 y = 443 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_8"
+				spriteType = "GFX_Iberia_BLUEBAR8"
+				position = { x = 466 y = 434 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_9"
+				spriteType = "GFX_Iberia_BLUEBAR9"
+				position = { x = 466 y = 424 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_10"
+				spriteType = "GFX_Iberia_BLUEBAR10"
+				position = { x = 466 y = 415 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			iconType = {
+				name = "BTA_Bar_Blue_Invisible"
+				spriteType = "GFX_Iberia_INVISIBLEBAR"
+				position = { x = 466 y = 415 }
+				pdx_tooltip = "IBR_BTA_BLUE_TT"
+			}
+			
+			iconType = {
+				name = "Disbanded_Overlay_BTA"
+				spriteType = "GFX_Disbanded_Overlay_BTA"
+				position = { x = 439 y = 383 }
+			}
+			iconType = {
+				name = "Disbanded_Overlay_ETA"
+				spriteType = "GFX_Disbanded_Overlay_ETA"
+				position = { x = 27 y = 383 }
+			}
+			iconType = {
+				name = "Disbanded_Overlay_FSLP"
+				spriteType = "GFX_Disbanded_Overlay_FSLP"
+				position = { x = 439 y = 126 }
+			}
+			iconType = {
+				name = "Disbanded_Overlay_CNT"
+				spriteType = "GFX_Disbanded_Overlay_CNT"
+				position = { x = 27 y = 133 }
+			}
+			
+			buttonType = {
+				name = "close_button"
+				position = { x = -46 y = 3 }
+				quadTextureSprite ="GFX_crt_closebutton"
+				buttonFont = "aldrich_18_outline"
+				shortcut = "ESCAPE"
+				Orientation = "UPPER_RIGHT"
+				clicksound = click_close
+				pdx_tooltip = "CLOSE"
+			}
+		}
+	}
+}
