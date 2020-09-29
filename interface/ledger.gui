@@ -1,0 +1,1774 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ledger_open_container"
+		position = { x=274 y=-36 }
+		Orientation = UPPER_RIGHT
+		origo = UPPER_RIGHT
+		buttonType = {
+			name = "ledger_open_btn"
+			position = { x = -2 y = 0 }
+			quadTextureSprite = "GFX_ledger_open_button"
+			pdx_tooltip = "LEDGER_OPEN"
+		}
+	}
+
+	containerWindowType = {
+		name = "ledger_container"
+		position = { x=0 y =0 }
+		size = {width=1024 height =703 }
+		clipping = no
+		Orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_ledger"
+		}
+
+		buttonType = {
+			name = "close"
+			position = {x=-38 y=52}
+			spriteType = "GFX_TNO_closebutton"
+			orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		instantTextBoxType = {
+			name = "ledger_title"
+			position = { x = 290 y = 44 }
+			font = "Bomb_36"
+			borderSize = {x = 0 y = 0}
+			text = "LEDGER_TITLE_SL"
+			maxWidth = 450
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		buttonType = {
+			name = "country_header"
+			position = { x=50 y =106}
+			font = "aldrich_20_outline"
+			buttonText = "LEDGER_COUNTRY"
+			quadTextureSprite = "GFX_tt_overlay_150_20"
+			format = center
+			pdx_tooltip = "LEDGER_REFRESH_TT"
+			clicksound = click_default
+		}
+
+		containerWindowType = {
+			name = "countries_info_1"
+			position = { x=30 y =106 }
+			clipping = no
+
+			buttonType = {
+				name = "ideology_header"
+				position = { x = 220 y = 0 }
+				font = "aldrich_20_outline"
+				text = "IDEOLOGY"
+				quadTextureSprite = "GFX_tt_overlay_150_20"
+				format = center
+				pdx_tooltip = "LEDGER_GROUP_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "stability_header"
+				position = { x = 365 y = 0 }
+				font = "aldrich_20_outline"
+				text = "STABILITY"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "war_support_header"
+				position = { x = 440 y = 0 }
+				font = "aldrich_20_outline"
+				text = "WAR_SUPPORT"
+				quadTextureSprite = "GFX_tt_overlay_150_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "political_power_header"
+				position = { x = 565 y = -7 }
+				font = "aldrich_20_outline"
+				text = "POLITICAL_POWER"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "industry_header_2"
+				position = { x = 665 y = 0 }
+				font = "aldrich_20_outline"
+				text = "INDUSTRIAL_CAPACITY"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "population_header"
+				position = { x = 765 y = 0 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_POPULATION"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "research_slots_header"
+				position = { x = 865 y = -7 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_RESEARCH_SLOTS"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "countries_info_2"
+			position = { x=30 y =106 }
+			clipping = no
+
+			ButtonType = {
+				name = "num_battalions_header"
+				position = { x=265 y =0}
+				font = "aldrich_20_outline"
+				text = "LEDGER_BATTALIONS"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "num_divisions_header"
+				position = { x = 365 y = 0 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_DIVISIONS"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "manpower_header"
+				position = { x = 465 y = 0 }
+				font = "aldrich_20_outline"
+				text = "MANPOWER"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "army_xp_header"
+				position = { x = 565 y = -7 }
+				font = "aldrich_20_outline"
+				text = "ARMY_EXPERIENCE"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "command_power_header"
+				position = { x = 665 y = -7 }
+				font = "aldrich_20_outline"
+				text = "COMMAND_POWER"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			ButtonType = {
+				name = "casualties_header"
+				position = { x = 765 y = 0 }
+				font = "aldrich_20_outline"
+				text = "CASUALTY"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "land_doctrine_level_header"
+				position = { x = 865 y = -7 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_LAND_DOCTRINE_LEVEL"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "countries_info_3"
+			position = { x=30 y =106 }
+			clipping = no
+
+			buttonType = {
+				name = "navy_header_4"
+				position = { x=265 y =0}
+				font = "aldrich_20_outline"
+				text = "LEDGER_NAVY"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "air_header_4"
+				position = { x = 365 y = 0 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_AIR"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "navy_xp_header"
+				position = { x = 465 y = -7 }
+				font = "aldrich_20_outline"
+				text = "NAVY_EXPERIENCE"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "air_xp_header"
+				position = { x = 565 y = -7 }
+				font = "aldrich_20_outline"
+				text = "AIR_EXPERIENCE"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "num_of_nukes_header"
+				position = { x = 665 y = -7 }
+				font = "aldrich_20_outline"
+				text = "NUCLEAR_BOMB"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "nuclear_reactors_header"
+				position = { x = 765 y = -7 }
+				font = "aldrich_20_outline"
+				text = "nuclear_reactor_plural"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "rocket_sites_header"
+				position = { x = 865 y = -7 }
+				font = "aldrich_20_outline"
+				text = "rocket_site_plural"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "countries_info_4"
+			position = { x=30 y =106 }
+			clipping = no
+
+			buttonType = {
+				name = "faction_header_5"
+				position = { x=245 y =0}
+				font = "aldrich_20_outline"
+				text = "FACTION"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_GROUP_TT"
+				clicksound = click_default
+			}
+
+			instantTextBoxType = {
+				name = "num_civilian_factories_header_txt"
+				position = { x=365 y = -7 }
+				font = "aldrich_20_outline"
+				text = "industrial_complex_plural"
+				maxWidth = 100
+				maxHeight = 34
+				#fixedsize = yes
+				format = center
+			}
+
+			ButtonType = {
+				name = "num_civilian_factories_header"
+				position = { x=365 y = -16 }
+				font = "aldrich_20_outline"
+				text = ""
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			ButtonType = {
+				name = "consumer_goods_header"
+				position = { x = 465 y = -7 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_CONSUMER_GOODS"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			instantTextBoxType = {
+				name = "military_factories_header_txt"
+				position = { x = 565 y = -7 }
+				font = "aldrich_20_outline"
+				text = "arms_factory_plural"
+				maxWidth = 100
+				maxHeight = 34
+				#fixedsize = yes
+				format = center
+			}
+
+			ButtonType = {
+				name = "military_factories_header"
+				position = { x = 565 y = -16 }
+				font = "aldrich_20_outline"
+				text = ""
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			ButtonType = {
+				name = "naval_factories_header"
+				position = { x = 665 y = -7 }
+				font = "aldrich_20_outline"
+				text = "dockyard_plural"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			ButtonType = {
+				name = "industry_header_5"
+				position = { x = 765 y = 0 }
+				font = "aldrich_20_outline"
+				text = "INDUSTRIAL_CAPACITY"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "fuel_header"
+				position = { x = 865 y = 0 }
+				font = "aldrich_20_outline"
+				text = "FUEL"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "countries_info_5"
+			position = { x=30 y =106 }
+			clipping = no
+
+			ButtonType = {
+				name = "faction_header_6"
+				position = { x = 245 y = 0}
+				font = "aldrich_20_outline"
+				text = "FACTION"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_GROUP_TT"
+				clicksound = click_default
+			}
+
+			instantTextBoxType = {
+				name = "owned_states_header_txt"
+				position = { x= 365 y = -6 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_OWNED_STATES"
+				maxWidth = 100
+				maxHeight = 34
+				#fixedsize = yes
+				format = center
+			}
+
+			ButtonType = {
+				name = "owned_states_header"
+				position = { x=365 y =-16}
+				font = "aldrich_20_outline"
+				text = ""
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			instantTextBoxType = {
+				name = "controlled_states_header_txt"
+				position = { x= 465 y = -6 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_CONTROLLED_STATES"
+				maxWidth = 100
+				maxHeight = 34
+				#fixedsize = yes
+				format = center
+			}
+
+			ButtonType = {
+				name = "controlled_states_header"
+				position = { x = 465 y = -6 }
+				font = "aldrich_20_outline"
+				text = ""
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			instantTextBoxType = {
+				name = "owned_controlled_states_header_txt"
+				position = { x = 565 y = -6}
+				font = "aldrich_20_outline"
+				text = "LEDGER_OWNED_CONTROLLED_STATES"
+				maxWidth = 100
+				maxHeight = 34
+				#fixedsize = yes
+				format = center
+			}
+
+			ButtonType = {
+				name = "owned_controlled_states_header"
+				position = { x = 565 y = -16 }
+				font = "aldrich_20_outline"
+				text = ""
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			instantTextBoxType = {
+				name = "occupied_states_header_txt"
+				position = { x= 665 y = -6 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_OCCUPIED_STATES"
+				maxWidth = 100
+				maxHeight = 34
+				#fixedsize = yes
+				format = center
+			}
+
+			ButtonType = {
+				name = "occupied_states_header"
+				position = { x = 665 y = -16 }
+				font = "aldrich_20_outline"
+				text = ""
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			instantTextBoxType = {
+				name = "core_states_header_txt"
+				position = { x= 765 y = -6 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_CORE_STATES"
+				maxWidth = 100
+				maxHeight = 34
+				#fixedsize = yes
+				format = center
+			}
+
+			ButtonType = {
+				name = "core_states_header"
+				position = { x = 765 y = -16 }
+				font = "aldrich_20_outline"
+				text = ""
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			instantTextBoxType = {
+				name = "controlled_states_including_subjects_header_txt"
+				position = { x = 835 y = -6 }
+				font = "aldrich_20_outline"
+				text = "LEDGER_CONTROLELD_STATES_INCLUDING_SUBJECTS"
+				maxWidth = 140
+				maxHeight = 34
+				#fixedsize = yes
+				format = center
+			}
+
+			ButtonType = {
+				name = "controlled_states_including_subjects_header"
+				position = { x = 865 y = -16 }
+				font = "aldrich_20_outline"
+				text = ""
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "countries_info_6"
+			position = { x=30 y =106 }
+			clipping = no
+
+			ButtonType = {
+				name = "faction_header_7"
+				position = { x=20 y =0}
+				font = "aldrich_20_outline"
+				buttonText = "FACTION"
+				quadTextureSprite = "GFX_tt_overlay_150_20"
+				format = center
+				pdx_tooltip = "LEDGER_REFRESH_TT"
+				clicksound = click_default
+			}
+
+			ButtonType = {
+				name = "faction_leader_header"
+				position = { x=245 y = 0}
+				font = "aldrich_20_outline"
+				text = "LEDGER_FACTION_LEADER"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				clicksound = click_default
+			}
+
+			ButtonType = {
+				name = "faction_members_header"
+				position = { x=365 y = 0}
+				font = "aldrich_20_outline"
+				text = "LEDGER_FACTION_MEMBERS"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			ButtonType = {
+				name = "faction_battalions_header"
+				position = { x=465 y = 0}
+				font = "aldrich_20_outline"
+				text = "LEDGER_BATTALIONS"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			ButtonType = {
+				name = "faction_ships_header"
+				position = { x=565 y = 0}
+				font = "aldrich_20_outline"
+				text = "LEDGER_NAVY"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			ButtonType = {
+				name = "faction_airforce_header"
+				position = { x=665 y = 0}
+				font = "aldrich_20_outline"
+				text = "LEDGER_AIR"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			ButtonType = {
+				name = "faction_industry_header"
+				position = { x=765 y = 0}
+				font = "aldrich_20_outline"
+				text = "INDUSTRIAL_CAPACITY"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			instantTextBoxType = {
+				name = "faction_states_header_txt"
+				position = { x= 865 y =-6}
+				font = "aldrich_20_outline"
+				text = "LEDGER_CONTROLLED_STATES"
+				maxWidth = 100
+				maxHeight = 34
+				#fixedsize = yes
+				format = center
+			}
+
+			ButtonType = {
+				name = "faction_states_header"
+				position = { x=865 y = -16}
+				font = "aldrich_20_outline"
+				text = ""
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+		}
+		
+		containerWindowType = {
+			name = "countries_info_7"
+			position = { x=30 y =106 }
+			clipping = no
+
+			ButtonType = {
+				name = "gdp_header"
+				position = { x=265 y =0}
+				font = "aldrich_20_outline"
+				text = "GDP"
+				quadTextureSprite = "GFX_tt_overlay_100_20"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "GDP_growth_header"
+				position = { x = 365 y = -7 }
+				font = "aldrich_20_outline"
+				text = "GDP 성장률"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "national_debt_header"
+				position = { x = 465 y = -7 }
+				font = "aldrich_20_outline"
+				text = "국채"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "civilian_expenditures_header"
+				position = { x = 565 y = -7 }
+				font = "aldrich_20_outline"
+				text = "민간 지출"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "military_expenditures_header"
+				position = { x = 665 y = -7 }
+				font = "aldrich_20_outline"
+				text = "군사 지출"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			ButtonType = {
+				name = "misc_income_header"
+				position = { x = 765 y = -7 }
+				font = "aldrich_20_outline"
+				text = "기타 수입"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+
+			buttonType = {
+				name = "misc_costs_header"
+				position = { x = 865 y = -7 }
+				font = "aldrich_20_outline"
+				text = "기타 지출"
+				quadTextureSprite = "GFX_tt_overlay_100_40"
+				format = center
+				pdx_tooltip = "LEDGER_SORT_TT"
+				clicksound = click_default
+				multiline = yes
+			}
+		}
+		
+		containerWindowType = {
+			name = "countries_info_list"
+			position = { x=30 y =129 }
+			size = { width = 973 height=522 }
+			margin = { top = 8 bottom = 8 }
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_transparent"
+			}
+
+			gridboxType = {
+				name ="country_list"
+				position = { x = 0 y = 0 }
+				padding = { top = 50 bottom = 50 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 270 height = 25 }
+				format = "UPPER_LEFT"
+				#add_horizontal = no
+				max_slots_horizontal = 1
+			}
+		}
+
+		buttonType = {
+			name = "next_page"
+			position = { x = 200 y = 300}
+			buttonFont = "Bomb_16"
+			quadTextureSprite ="GFX_tno_button_148x34"
+			buttonText = ""
+			Orientation = center
+			origo = center
+			clicksound = click_default
+		}
+		instantTextBoxType = {
+			name = "button_next"
+			position = { x = 260 y = 310 }
+			font = "Bomb_16"
+			borderSize = {x = 0 y = 0}
+			text = "Next"
+			Orientation = center
+		}
+
+		buttonType = {
+			name = "previous_page"
+			position = { x = -348 y = 300}
+			buttonFont = "Bomb_16"
+			quadTextureSprite ="GFX_tno_button_148x34"
+			Orientation = center
+			origo = center
+			clicksound = click_default
+		}
+		
+		instantTextBoxType = {
+			name = "button_prev"
+			position = { x = -300 y = 310 }
+			font = "Bomb_16"
+			borderSize = {x = 0 y = 0}
+			text = "Previous"
+			Orientation = center
+		}
+	}
+
+	containerWindowType = {
+		name = "ledger_country_entry_1"
+
+		iconType = {
+			name = "flag"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = -2 y = -2 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+
+		iconType ={
+			name ="major_overlay"
+			spriteType = "GFX_endgame_flag_overlay"
+			position = { x = 0 y = 1 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 43 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetName]"
+			pdx_tooltip = "LEDGER_COUNTRY_TT"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "ideology_name"
+			position = { x = 220 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "IdeologyLoc"
+			maxWidth = 150
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+			alwaystransparent = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "stability"
+			position = { x = 365 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.stability|%0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "war_support"
+			position = { x = 465 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.has_war_support|%0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "political_power"
+			position = { x = 565 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.has_political_power|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			pdx_tooltip = "LEDGER_POLITICAL_POWER_TT"
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "industry"
+			position = { x = 665 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_of_factories]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			pdx_tooltip = "LEDGER_INDUSTRY_TT"
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "population"
+			position = { x = 765 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.max_manpower_k|2]k"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "research_slots"
+			position = { x = 865 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.amount_research_slots]"
+			pdx_tooltip = "LEDGER_RESEARCH_SLOTS_TT"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	containerWindowType = {
+		name = "ledger_country_entry_2"
+
+		iconType = {
+			name = "flag"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = -2 y = -2 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+
+		iconType ={
+			name ="major_overlay"
+			spriteType = "GFX_endgame_flag_overlay"
+			position = { x = 0 y = 1 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 43 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetName]"
+			pdx_tooltip = "LEDGER_COUNTRY_TT"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "num_battalions"
+			position = { x = 265 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_battalions|0]"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+			alwaystransparent = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "num_divisions"
+			position = { x = 365 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_divisions|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "manpower"
+			position = { x = 465 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.manpower_k|2]k"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "army_xp"
+			position = { x = 565 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.army_experience|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "command_power"
+			position = { x = 665 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.command_power|0]"
+			pdx_tooltip = "LEDGER_COMMAND_POWER_TT"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "casualties"
+			position = { x = 765 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.casualties_k|2]k"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "land_doctrine_level"
+			position = { x = 865 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.land_doctrine_level|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	containerWindowType = {
+		name = "ledger_country_entry_3"
+
+		iconType = {
+			name = "flag"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = -2 y = -2 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+
+		iconType ={
+			name ="major_overlay"
+			spriteType = "GFX_endgame_flag_overlay"
+			position = { x = 0 y = 1 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 43 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetName]"
+			pdx_tooltip = "LEDGER_COUNTRY_TT"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "num_ships"
+			position = { x = 265 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_ships|0]"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+			alwaystransparent = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "air"
+			position = { x = 365 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.deployed_air_force_size|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "navy_xp"
+			position = { x = 465 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.navy_experience|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "air_xp"
+			position = { x = 565 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.air_experience|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "num_of_nukes"
+			position = { x = 665 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_of_nukes|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "nuclear_reactors"
+			position = { x = 765 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.nuclear_reactors|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "rocket_sites"
+			position = { x = 865 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.rocket_sites|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	containerWindowType = {
+		name = "ledger_country_entry_4"
+
+		iconType = {
+			name = "flag"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = -2 y = -2 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+
+		iconType ={
+			name ="major_overlay"
+			spriteType = "GFX_endgame_flag_overlay"
+			position = { x = 0 y = 1 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 43 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetName]"
+			pdx_tooltip = "LEDGER_COUNTRY_TT"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		instantTextBoxType = {
+			name = "faction_name"
+			position = { x = 220 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetFactionName]"
+			maxWidth = 150
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "num_civilian_factories"
+			position = { x = 365 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_of_civilian_factories|0]"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+			pdx_tooltip = "LEDGER_CIV_FACTORIES_TT"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "consumer_goods"
+			position = { x = 465 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.modifier@consumer_goods_factor|%0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			pdx_tooltip = "LEDGER_CONSUMER_GOODS_TT"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "military_factories"
+			position = { x = 565 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_of_military_factories|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			pdx_tooltip = "LEDGER_MILITARY_FACTORIES_TT"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "naval_factories"
+			position = { x = 665 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_of_naval_factories|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "LEDGER_DOCKYARDS_TT"
+		}
+
+		instantTextBoxType = {
+			name = "industry"
+			position = { x = 765 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_of_factories|0]"
+			pdx_tooltip = "LEDGER_INDUSTRY_TT"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "fuel"
+			position = { x = 865 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.fuel_k|2]k"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	containerWindowType = {
+		name = "ledger_country_entry_5"
+
+		iconType = {
+			name = "flag"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = -2 y = -2 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+
+		iconType ={
+			name ="major_overlay"
+			spriteType = "GFX_endgame_flag_overlay"
+			position = { x = 0 y = 1 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 43 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetName]"
+			pdx_tooltip = "LEDGER_COUNTRY_TT"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "faction_name"
+			position = { x = 220 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetFactionName]"
+			maxWidth = 150
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "owned_states"
+			position = { x = 365 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_owned_states|0]"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "controlled_states"
+			position = { x = 465 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_of_controlled_states|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "owned_controlled_states"
+			position = { x = 565 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_owned_controlled_states|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "occupied_states"
+			position = { x = 665 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_occupied_states|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "core_states"
+			position = { x = 765 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_core_states|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "controlled_states_including_subjects"
+			position = { x = 865 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.num_controlled_states_including_subjects|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	containerWindowType = {
+		name = "ledger_country_entry_6"
+
+		instantTextBoxType = {
+			name = "faction_name"
+			position = { x = 43 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetFactionName]"
+			pdx_tooltip = "LEDGER_COUNTRY_TT"
+			maxWidth = 150
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 195 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetNameWithFlag]"
+			maxWidth = 175
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "faction_members"
+			position = { x = 365 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.faction_members^num|0]"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "faction_brigades"
+			position = { x = 465 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.faction_battalions|0]"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "faction_ships"
+			position = { x = 565 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.faction_ships|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "faction_air"
+			position = { x = 665 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.faction_air|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "faction_industry"
+			position = { x = 765 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.faction_industry|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "faction_controlled_states"
+			position = { x = 865 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.faction_controlled_states|0]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+	containerWindowType = {
+		name = "ledger_country_entry_7"
+
+		iconType = {
+			name = "flag"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = -2 y = -2 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+
+		iconType ={
+			name ="major_overlay"
+			spriteType = "GFX_endgame_flag_overlay"
+			position = { x = 0 y = 1 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 43 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?this.GetName]"
+			pdx_tooltip = "LEDGER_COUNTRY_TT"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "gdp"
+			position = { x = 265 y = 0 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[This.Get_GDP_topbar]"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+			alwaystransparent = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "GDP_growth"
+			position = { x = 365 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[?This.GDP_growth|%]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "national_debt"
+			position = { x = 465 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[This.Get_national_debt_topbar]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "civilian_expenditures"
+			position = { x = 565 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[This.Get_civilian_expenditures_topbar]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "military_expenditures"
+			position = { x = 665 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[This.Get_military_expenditures_topbar]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "misc_income"
+			position = { x = 765 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[This.Get_misc_income_topbar]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "misc_costs"
+			position = { x = 865 y = 0 }
+
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "[This.Get_misc_costs_topbar]"
+			maxWidth = 100
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+	}
+}
