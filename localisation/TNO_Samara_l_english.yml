@@ -143,8 +143,8 @@
  SAM_received_foreign_support_tt:0 "We will receive §Y$100 million USD§! for our monetary reserves.\n"
  
  ### Decisions ###
- SAM_smuggling_category:0 "Smuggling Operations"
- SAM_smuggling_category_desc:0 "Many of Mikhail Oktan's men are notoriously corrupt, however, they do get us the best gear. We could try to rid ourselves of them, but this would likely limit the amount of arms we could smuggle in from the German Reichskommissariats.\n\n§LCorruption§! in our system is currently [ROOT.GetSAM_corruption]\n\n§MCivilian morale§! is [ROOT.GetSAM_civilian_morale]\n\n§jMilitary morale§! is [ROOT.GetSAM_military_morale]"
+ SAM_smuggling_category:0 "밀수 작전"
+ SAM_smuggling_category_desc:0 "미하일 옥탄의 사람들은 부패하기로 악명이 높지만, 우리에게 최고의 장비를 가져다 주는 것도 그들입니다. 그놈들을 제거해 버릴 수도 있겠지만, 그렇게 한다면 우리가 독일 국가판무관부들로부터 밀수할 수 있는 장비의 양도 상당히 줄어들 것입니다.\n\n§LCorruption§! in our system is currently [ROOT.GetSAM_corruption]\n\n§MCivilian morale§! is [ROOT.GetSAM_civilian_morale]\n\n§jMilitary morale§! is [ROOT.GetSAM_military_morale]"
  SAM_increase_corruption_large_tt:0 "This will §Rincrease§! corruption by a §Rlarge amount§!.\n"
  SAM_increase_corruption_medium_tt:0 "This will §Rincrease§! corruption by a §Omedium amount§!.\n"
  SAM_increase_corruption_small_tt:0 "This will §Rincrease§! corruption by a §Ysmall amount§!.\n"
@@ -463,16 +463,16 @@
  SAM_zykov_decrease_ROA_high_tt:0 "This will §Gdecrease§! §jROA Influence§! greatly"
  
  ### Focus Tree ###
- SAM_Our_Guide:0 "Our Guide"
- SAM_Our_Guide_desc:0 "As another year rolls on, our guide Andrey Vlasov continues his Sisyphean reconquest effort. Whatever power he gathers, his underlings steal. Whatever legitimacy he possesses, the German bombing strip away. The sad man grows older, buried under the weight of history and the judgement of those outside his borders. Yet he has not yet given up, for the upcoming troubles in Germany may signal his one last chance.\n\nFor now, his greatest quality is that he is able to maintain a coalition. The various generals like him better than they like one another and the people have found his rule fair if not particularly noteworthy. There are worse places in Russia than Samara, certainly. But if Vlasov is to serve as a Guide to a renewed Russia, he must begin anew his consolidation of military and popular support."
+ SAM_Our_Guide:0 "우리의 인도자"
+ SAM_Our_Guide_desc:0 "또 다른 해가 찾아오면서, 우리의 인도자 안드레이 블라소프는 그의 무의미한 재정복 시도를 계속합니다. 그가 권력을 얻는 족족, 그의 부하들이 훔쳐갑니다. 그가 가지고 있는 정당성이란 정당성은, 독일의 폭격이 모두 앗아갑니다. 이 슬픈 남자는 역사의 무게와 국경 밖의 사람들이 내리는 판단에 파묻힌 채로 늙어갑니다. 그렇지만 그는 아직 포기하지 않았습니다, 다가오는 독일 내부의 위협이 그에게 마지막 한 번의 기회가 되어줄 지도 모르니까요. \n\n지금 당장은, 그의 최대의 장점은 그가 연합을 유지할 수 있다는 장점입니다. 저 수많은 장군들은 서로보다 그를 더 좋아하고, 사람들은 그의 지배를 특출나지는 못하지만 최소한 공평하다고 받아들여 왔습니다. 확실히, 러시아에는 사마라보다 상황이 나쁜 곳도 많습니다. 그러나 블라소프가 새로운 러시아의 인도자가 되고 싶다면, 군부와 대중의 지지를 새로이 통합하기 시작할 필요가 있습니다."
 
- SAM_Our_Voice:0 "Our Voice"
+ SAM_Our_Voice:0 "우리의 목소리"
  SAM_Our_Voice_desc:0 "Our consolidation effort goes through Miletiy Zykov. Zykov is difficult to describe, for much of his past is cloaked in mystery. Few claim to know where he comes from. The man himself claims to have been a leading ideologue in the opposition to the Soviet government, and he has indeed shown himself to be a highly talented public speaker and propagandist. His effort to reach the people of Russia in general, and Samara in particular, have done much to generate what few shreds of good reputation we possess. Zykov is among the greatest advocates of freedom and democracy in our officer corp, and he has built himself a small clique around this position. His aim is not merely to free Russia from both warlordism and from the Germans, but to bring forth a new, carefully supervised democracy. To many militarists in our government, he is a soft man. To German loyalists, he is a decadent parasite intent on betraying our German benefactors.\n\nFew are sure where Zykov comes from, and few can claim to know his real endgame. But at this critical juncture, his skills in propaganda are irreplaceable. We need his voice as the army of liberation marches onwards."
 
- SAM_Our_General:0 "Our General"
+ SAM_Our_General:0 "우리의 장군"
  SAM_Our_General_desc:0 "There is in theory a hierarchy to the National Liberation Army, with Vlasov at the top and a range of officers neatly arrayed below him. In practice, however, the opinion of the officer corp as a whole is critical to our endeavors. And the officer corp and its committee has a champion in Sergey Bunyachenko. A former Soviet Officer, Bunyachenko was captured by the Germans in the second world war and thrown into a penal colony for his troubles. Few in Russia mourned his fate, as he was widely blamed by the Soviet leadership for losing several critical battles in the opening stages of the war.\n\nIn the dark days of the west Russian war, Bunyachenko was offered a way out of his jail sentence: join the Russian Army of National Liberation and push the WRRF back. Angry at the Soviet Leadership and desperate to leave his prison, Bunyachenko agreed, and quickly rose through the rank of the National Liberation Army. Bunyachenko Is widely seen as a capable officer, beloved by the men for standing up for their ideas. The general cares for little but the reunification of Russia, the annihilation of the Soviet Remnant, and most of all, the downfall of Germany."
 
- SAM_Their_Puppet:0 "Their Puppet"
+ SAM_Their_Puppet:0 "그들의 꼭두각시"
  SAM_Their_Puppet_desc:0 "Mikhail Oktan is a hard man to his supporters, and a broken man to others. He has little sympathy for the communist regime, defeated twice in fifteen years by the Germans. He is not a monarchist, or a democrat, for the weakness of these past regimes has brought Russia into the shackles of the failed communist regime.\n\nThe Germans have become the masters of Europe, and what of it? For Oktan and his supporters, Berlin has crushed every Jewish regime that had obscured man's progress. Vlasov and his ilk might see the Germans as means to an end, but Oktan knows better. He sees Vlasov as a broken, pathetic man squirming to get out from under the German shadow.\n\nMikhail Oktan is happy to collaborate with Germany. He sees no greater purpose than helping to enforce the German will upon the ruins of the Soviet Union, and his eager collaboration has let him secure many contacts in RK Moskowien and beyond. Mikhail Oktan may be a hard man, or a broken man, but he is certainly a dangerous man. And an essential one, for through him Samara secures essential supplies from the German ogre."
   
  SAM_It_Never_Ends:0 "It Never Ends"
