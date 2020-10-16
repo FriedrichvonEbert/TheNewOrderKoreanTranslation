@@ -10,17 +10,17 @@
  SGR_tree_reload_tt:0 "§T§YTree reloading§! can, sometimes, not work or not immediately work. This is a PDX bug we can't do anything about. §YTry to wait some days in-game or reload your save should this happen to you.§!§!"
 
  SGR_state_of_the_reich_category:0 "독일국의 상태"
- SGR_state_of_the_reich_category_desc:0 "§Y정권§!이 현재 기울어지고 있습니다... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§Y체제 안정도§!: £GFX_regime_stability_texticon [?SGRRegimeStability|W%]\n\n£GFX_regime_stability_texticon §YRegime Stability§! is paramount for the longevity of the §OFührer's§! government. It is affected by §gcontroversial decisions§!, including §Rconservative§! or §Greformist§! actions when the §TSocial Outlook§! is at their respective opposite, as well as £GFX_stability_texticon §WNation Stability§!, which it ticks towards. Should £GFX_regime_stability_texticon §YRegime Stability§! fall below §Y30%§!, the §Ogovernment§! may collapse!\n\n§TSOCIAL OUTLOOK§!: £social_outlook_texticon [getLeaningPivot] ([?SGRSocietyLevel|+2]/[getSGRLimits])\n\n  The §TOutlook§! is [getSGROutlook] at [?SGRSocietyTick|+]/§Y14 days§!.\n\n£social_outlook_texticon §TSocial Outlook§! is a measure of the §gGerman people's§! views on the world. Depending on factors including §Qeconomic reform§!, §Oregime leaning§! and more, it will change over time. Should the §Ogovernment's§! leaning be opposite to it, £GFX_regime_stability_texticon §YRegime Stability§! will begin to drop!"
+ SGR_state_of_the_reich_category_desc:0 "§Y정권§!이 현재 기울어지고 있습니다... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§Y체제 안정도§!: £GFX_regime_stability_texticon [?SGRRegimeStability|W%]\n\n£GFX_regime_stability_texticon §Y정권 안정도§!는 §O총통§!의 정부가 오래 존속 할 수 있는 수치입니다. 이것은 §g논란의 여지가 있는 결정§!,에 영향을 줍니다 §R보수파§! 혹은 §개혁파§!가 포함된 행동은 §T사회적 관점§! 에서 각각 반대편에 있습니다. £GFX_stability_texticon §WNation Stability§!, which it ticks towards. Should £GFX_regime_stability_texticon §Y정권 안정도§!가 §Y30%§! 이하로 내려가면  §O정부§!는 붕괴할 것입니다!\n\n§T사회적 관점§!: £social_outlook_texticon [getLeaningPivot] ([?SGRSocietyLevel|+2]/[getSGRLimits])\n\n  The §TOutlook§! is [getSGROutlook] at [?SGRSocietyTick|+]/§Y14 days§!.\n\n£social_outlook_texticon §T사회적 관점§!은 세계에 대한§g독일인§!들의 관점의 척도입니다. 다음과 같은 요인에 따라 달라집니다. §Q경제 개혁§!, §O정권 기울기§! 그리고, 시간이 지남에 따라 그것은 바뀝니다. 만약 §O정부§!가 반대편으로 기울어져있다면  £GFX_regime_stability_texticon §Y정권 안정도는§! 떨어질 것입니다!"
 
- SGR_authdemvsfash_ticker_desc:0 "§Y정권 지지도§! currently has a [getSGRAlignmentTrend] ([?alignmentTicker|+]/§Ymonth§!) tick and a [getLeaningPivot] pivot.\n\nThe £social_outlook_texticon §TSocial Outlook§! pivot determines where §YRegime Leaning§! ticks towards, and is marked on the speedometer."
+ SGR_authdemvsfash_ticker_desc:0 "§Y정권 지지도§! 현재는 [getSGRAlignmentTrend] ([?alignmentTicker|+]/§Ymonth§!) 틱과 그리고 [getLeaningPivot] 중점이 있다.\n\n £social_outlook_texticon §T사회적 관점§! 중점은 §Y정권 기울기§!틱이 어디로 향하는지 결정하고 이것은 표시계에 표시됩니다."
 
  SGR_reformist_influence_tt:0 "§W§g라이히§!의 §G개혁파§!가 이점을 얻을 것입니다[getRefMalus1].§!\n"
  SGR_reformist_influence_mid_tt:0 "§W§g라이히§!의 §G개혁파§!가 §M중대한§! 이점을 얻을 것입니다 [getRefMalus2].§!\n"
  SGR_reformist_influence_big_tt:0 "§W§g라이히§!의 §G개혁파§!가 §T강력한§! 이점을 얻을 것입니다 [getRefMalus3].§!\n"
 
- SGR_malus_1_small:0 ", costing us §R2.5%§! £GFX_regime_stability_texticon §Y정권 안정도§!"
- SGR_malus_1_med:0 ", costing us §R5%§! £GFX_regime_stability_texticon §YRegime S정권 안정도§!"
- SGR_malus_1_big:0 ", costing us §R10%§! £GFX_regime_stability_texticon §YRegime S정권 안정도§!"
+ SGR_malus_1_small:0 ", §R2.5%§! 감소 £GFX_regime_stability_texticon §Y정권 안정도§!"
+ SGR_malus_1_med:0 ", §R5%§! 감소 £GFX_regime_stability_texticon §YRegime S정권 안정도§!"
+ SGR_malus_1_big:0 ", §R10%§! 감소 £GFX_regime_stability_texticon §YRegime S정권 안정도§!"
 
  SGR_conservative_influence_tt:0 "§W§g라이히§!의 §R보수파§!가 이점을 얻을 것입니다[getConMalus1].§!\n"
  SGR_conservative_influence_mid_tt:0 "§W§g라이히§!의 §R보수파§!가 §O중대한§! 이점을 얻을 것입니다 [getConMalus2].§!\n"
@@ -195,9 +195,9 @@ SGR_Leaning_neutral:0 "§Y중도!"
 SGR_Leaning_ref:0 "§M개혁파§!"
 SGR_Leaning_str_ref:0 "§G초강경 개혁파§!"
 
-SGR_outlook_progressing:0 "§Gprogressing§!"
-SGR_outlook_regressing:0 "§Rregressing§!"
-SGR_outlook_stagnant:0 "§Ystagnant§!"
+SGR_outlook_progressing:0 "§G진보중인§!"
+SGR_outlook_regressing:0 "§R퇴행하는§!"
+SGR_outlook_stagnant:0 "§Y정체된§!"
 SGR_outlook_upperlimit:0 "§Y100§!"
 SGR_outlook_lowerlimit:0 "§Y-100§!"
 
