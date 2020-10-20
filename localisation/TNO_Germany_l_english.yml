@@ -173,7 +173,7 @@
  GER_HGR_civil_war_offense:0 "독일 내전"
  GER_HGR_civil_war_offense_desc:0 ""
 
- GER_hitlers_chosen_successor:0 "Hitler's Chosen Successor"
+ GER_hitlers_chosen_successor:0 "히틀러가 선택한 후계자"
  GER_hitlers_chosen_successor_desc:0 "Ours is the legitimate government of Germany! Our beloved leader Adolf Hitler stood before the Reichstag and named our regime as his rightfull successors for all the world to see. All others are traitors, and the German people flock to fight for Hitler's rightful heir."
 
  GER_for_the_reich:0 "독일국을 위해!"
@@ -190,9 +190,9 @@
  GER_speer_new_kindof_war_desc:0 ""
  GER_speer_sensible_economy:0 "A Sensible Economy"
  GER_speer_sensible_economy_desc:0 ""
- GER_speer_opening_the_market:0 "Opening the Market"
+ GER_speer_opening_the_market:0 "시장 개방"
  GER_speer_opening_the_market_desc:0 ""
- GER_speer_scale_back_milproduction:0 "Military Production Reduced"
+ GER_speer_scale_back_milproduction:0 "군사 생산 감소"
  GER_speer_scale_back_milproduction_desc:0 ""
 
  #Bormann#
@@ -215,7 +215,7 @@
  GER_Kurt_Schmucker_eco:0 "쿠르트 슈뮈커"
  GER_Philipp_Bouhler_hog:0 "필리프 보울러"
  GER_Herbert_Otto_Gille_sec:0 "헤르베르트 오토 길레"
- GER_Gunter_dAlquen_for:0 "Gunter d'Alquen"
+ GER_Gunter_dAlquen_for:0 "군터 트알퀸"
  GER_Hanns_Martin_Schleyer_eco:0 "한스 마르틴 슐라이어"
  GER_Helmut_Schmidt_for:0 "헬무트 슈미트"
  GER_Rudolf_Christoph_Freiherr_von_Gersdorff_sec:0 "루돌프크리스토프 프라이허 폰 게르스도르프"
@@ -225,7 +225,7 @@
  GER_Kurt_Georg_Kiesinger_hog:0 "쿠르트 게오로크 키징거"
  GER_Henning_von_Tresckow_sec:0 "헤닝 폰 트레스코프"
  
- GER_GOR_total_economic_collapse:0 "Complete Economic Collapse"
+ GER_GOR_total_economic_collapse:0 "완전한 경제 붕괴"
 
  #Heydrich# 
  GER_HGR_militarists_framed:0 "Militarists Framed"
@@ -446,9 +446,9 @@
  
  GER_GCW_look_for_opportunities:0 "기회를 찾기"
  GER_GCW_look_for_opportunities_desc:0 "어떤 일을 제대로 하고 싶다면 스스로 직접 처리해야 합니다. 독일인들 사이에서 끝없는 적법성을 위한 싸움에서는 어떤 기회라도 잡아서 스스로 써야 할 필요가 있습니다. 살펴봅시다. 우리가 충분히 열심히만 본다면 \"가능성\"은 얼마든지 있습니다."
- GER_GCW_build_up_civ_factories:0 "Influence Civilian Factory Contracts"
+ GER_GCW_build_up_civ_factories:0 "민간 공장 계약에 영향 주기"
  GER_GCW_build_up_civ_factories_desc:0 "By exploiting our leader's authority as Hitler's appointed heir, we can secure several large contracts with important civilian industries to prepare in case the worst happens."
- GER_GCW_build_up_mil_factories:0 "Influence Military Factory Contracts"
+ GER_GCW_build_up_mil_factories:0 "군사 공장 계약에 영향 주기"
  GER_GCW_build_up_mil_factories_desc:0 "It's evident that the other claimants to the title of Führer are arming themselves. With our leader's prominent position, we can do more, and convince important arms industries to open new factories in regions loyal to us. We might need them sooner than expected..."
  GER_GCW_build_up_forts:0 "전략 요새 건축"
  GER_GCW_build_up_forts_desc:0 "The situation is quickly deteriorating, and it's only a matter of time before the gates of hell open. By ordering the construction of fortifications in zones where our control is strongest, we can gain enough time to organize our supporters in the coming struggle."
@@ -487,44 +487,44 @@
  heydrich_heer_units_count:0 "[?ROOT.GCW_Heydrich_heer_units|Y0]"
  
  GER_GCW_mechanic_category:0 "독일 내전"
- GER_GCW_mechanic_category_desc:0 "The §YGerman Civil War§! is as much decided in the hearts and minds of the German people, as it is on the battlefield. The quest for §Ylegitimacy§! continues and so does the §Yinfluence§! we can exert on areas controlled by the contenders linger. Keeping and gaining them may just be the edge needed to win the battle for the Reich's future.\n\nWe currently have [?GCW_legitimacy|Y0] Legitimacy\n([ROOT.GetGCWLegitimacyLevel])\nWe currently have [?GCW_influence|Y0] Influence"
+ GER_GCW_mechanic_category_desc:0 "§Y독일 내전§!은 전쟁터에 있는 독일 국민의 감성과 마음에서 그 향방이 결정될 것입니다. The quest for §Ylegitimacy§! continues and so does the §Yinfluence§! we can exert on areas controlled by the contenders linger. Keeping and gaining them may just be the edge needed to win the battle for the Reich's future.\n\nWe currently have [?GCW_legitimacy|Y0] Legitimacy\n([ROOT.GetGCWLegitimacyLevel])\nWe currently have [?GCW_influence|Y0] Influence"
 
- GCW_legitimacy_dynamic_modifier:0 "State of Our Legitimacy"
- GCW_legitimacy_very_high:0 "§GVery High Legitimacy§!"
- GCW_legitimacy_high:0 "§GHigh Legitimacy§!"
- GCW_legitimacy_medium:0 "§YModerate Legitimacy§!"
- GCW_legitimacy_low:0 "§RLow Legitimacy§!"
- GCW_legitimacy_very_low:0 "§RVery Low Legitimacy§!"
+ GCW_legitimacy_dynamic_modifier:0 "우리의 정통성"
+ GCW_legitimacy_very_high:0 "§G매우 높은 정통성§!"
+ GCW_legitimacy_high:0 "§G높은 정통성§!"
+ GCW_legitimacy_medium:0 "§Y중간의 정통성§!"
+ GCW_legitimacy_low:0 "§R낮은 정통성§!"
+ GCW_legitimacy_very_low:0 "§R매우 낮은 정통성§!"
 
- GER_GCW_convert_5_legitimacy_to_influence:0 "Convert §Y5§! Legitimacy to §Y5§! Influence"
- GER_GCW_show_hide_influence_opportunities:0 "§YShow/Hide§! Influence Opportunities"
+ GER_GCW_convert_5_legitimacy_to_influence:0 "§Y5§! 정통성을 §Y5§! 영향력으로 변환"
+ GER_GCW_show_hide_influence_opportunities:0 "영향력 기회 §Y보이기/감추기§!"
  GER_GCW_show_hide_influence_opportunities_desc:0 "Toggles visibility of available influence opportunities."
- GER_GCW_capture_frankfurt_decision:0 "Capture §YFrankfurt§!"
- GER_GCW_capture_frankfurt_mission:0 "Capture §YFrankfurt§!"
- GER_GCW_capture_bremen_decision:0 "Capture §YBremen§!"
- GER_GCW_capture_bremen_mission:0 "Capture §YBremen§!"
- GER_GCW_capture_danzig_decision:0 "Capture §YDanzig§!"
- GER_GCW_capture_danzig_mission:0 "Capture §YDanzig§!"
- GER_GCW_capture_kiel_decision:0 "Capture §YKiel§!"
- GER_GCW_capture_kiel_mission:0 "Capture §YKiel§!"
- GER_GCW_capture_munich_decision:0 "Capture §YMünchen§!"
- GER_GCW_capture_munich_mission:0 "Capture §YMünchen§!"
- GER_GCW_capture_wien_decision:0 "Capture §YWien§!"
- GER_GCW_capture_wien_mission:0 "Capture §YWien§!"
- GER_GCW_capture_leipzig_decision:0 "Capture §YLeipzig§!"
- GER_GCW_capture_leipzig_mission:0 "Capture §YLeipzig§!"
- GER_GCW_capture_hamburg_decision:0 "Capture §YHamburg§!"
- GER_GCW_capture_hamburg_mission:0 "Capture §YHamburg§!"
+ GER_GCW_capture_frankfurt_decision:0 "§Y프랑크푸르트§! 점령"
+ GER_GCW_capture_frankfurt_mission:0 "§Y프랑크푸르트§! 점령"
+ GER_GCW_capture_bremen_decision:0 "§Y브레멘§! 점령"
+ GER_GCW_capture_bremen_mission:0 "§Y브레멘§! 점령"
+ GER_GCW_capture_danzig_decision:0 "§Y단치히§! 점령"
+ GER_GCW_capture_danzig_mission:0 "§Y단치히§! 점령"
+ GER_GCW_capture_kiel_decision:0 "§Y키엘§! 점령"
+ GER_GCW_capture_kiel_mission:0 "§Y키엘§! 점령"
+ GER_GCW_capture_munich_decision:0 "§Y뮌헨§! 점령"
+ GER_GCW_capture_munich_mission:0 "§Y뮌헨§! 점령"
+ GER_GCW_capture_wien_decision:0 ""§Y빈§! 점령"
+ GER_GCW_capture_wien_mission:0 "§Y빈§! 점령"
+ GER_GCW_capture_leipzig_decision:0 "§Y라이프치히§! 점령"
+ GER_GCW_capture_leipzig_mission:0 "§Y라이프치히§! 점령"
+ GER_GCW_capture_hamburg_decision:0 "§Y함부르크§! 점령"
+ GER_GCW_capture_hamburg_mission:0 "§Y함부르크§! 점령"
  
- GER_GCW_show_hide_influence_actions:0 "§YShow/Hide§! Influence Actions"
+ GER_GCW_show_hide_influence_actions:0 "영향력 행동 §Y보이기/감추기§!"
  GER_GCW_show_hide_influence_actions_desc:0 "Toggles visibility of available influence actions."
- GER_GCW_factory_bombings:0 "Factory Bombings in [FROM.GetName]"
+ GER_GCW_factory_bombings:0 "[FROM.GetName] 공장 폭격"
  GER_GCW_steal_equipment:0 "Steal Equipment from [FROM.GetName]"
- GER_GCW_sabotage_frontlines:0 "Sabotage Frontlines in [FROM.GetName]"
+ GER_GCW_sabotage_frontlines:0 "[FROM.GetName] 전선 사보타지"
  GER_GCW_sabotage_frontlines_desc:0 "With the outbreak of war, German lands have been fractured and split between by various forces vying for power. If we are to come out on top of this conflict, we must utilize any means possible to overwhelm our enemy. A covert operation to harass and disrupt the frontline of the enemy could prove to be the tactical maneuver needed to turn the tide of battle."
- GER_GCW_disrupt_supply_lines:0 "Disrupt Supply Lines in [FROM.GetName]"
+ GER_GCW_disrupt_supply_lines:0 "[FROM.GetName] 보급선 방해"
  GER_GCW_disrupt_supply_lines_desc:0 "The supply lines of our enemy provide our foes with guns, rations, and ammunition on a daily basis. If we are to gain the upperhand in this conflict, we must sever the supply lines of the enemy and extinguish their fighting spirit."
- GER_GCW_start_uprisings:0 "Start an Uprising in [FROM.GetName]"
+ GER_GCW_start_uprisings:0 "[FROM.GetName] 내 봉기 유도"
  GER_GCW_start_uprisings_desc:0 "There are brave men loyal to us trapped behind enemy lines, waiting for a chance to rise up and rebel against the common enemy. We should look into supplying and contacting these forces in order to gain a strategic advantage over our foes and assert our hegemony over Germany."
  GER_GCW_convert_10_influence_to_legitimacy:0 "Convert §Y10§! Influence to §Y5§! Legitimacy"
 
@@ -533,14 +533,14 @@
  GCW_disrupted_supply_lines:0 "Disrupted Supply Lines"
  GCW_disrupted_supply_lines_desc:0 ""
  
- GCW_hidden_debuff_1:0 "War Exhaustion"
- GCW_hidden_debuff_2:0 "War Exhaustion"
- GCW_hidden_debuff_3:0 "War Exhaustion"
+ GCW_hidden_debuff_1:0 "전쟁 피로"
+ GCW_hidden_debuff_2:0 "전쟁 피로"
+ GCW_hidden_debuff_3:0 "전쟁 피로"
 
  ger_ss_category:0 "SS Decisions"
 
  GER_SAF_war_intervention_category:0 "남아프리카 전쟁"
- GER_SAF_war_intervention_category_desc:0 "Whilst our own conflict has come to an end, another conflict yet rages on in the heart of Africa. The German colonies fight a valiant struggle against the South African government and their OFN puppet masters, and it is our duty to aid our countrymen. The future of the entirety of Africa will surely be decided here.\n\nOur involvement in the war is currently [ROOT.GetGER_SAF_war_germany_involvement].\n\nPublic support is currently [ROOT.GetGER_SAF_war_public_support] for the war.\n\nThe Wehrmacht is currently [ROOT.GetGER_SAF_war_military_happiness] the war."
+ GER_SAF_war_intervention_category_desc:0 "우리 본국 안에 있었던 분쟁은 끝났지만 아프리카 중심부에서는 또 다른 분쟁이 이어지고 있습니다. 독일 식민지들은 OFN과 그들의 괴뢰국인 남아프리카를 상대로 용맹스러운 투쟁을 이어가고 있으며, 우리의 동포를 돕는 것이 바로 우리의 의무입니다. 아프리카 전체의 미래는 분명 이곳에서 결정될 것입니다.\n\nOur involvement in the war is currently [ROOT.GetGER_SAF_war_germany_involvement].\n\nPublic support is currently [ROOT.GetGER_SAF_war_public_support] for the war.\n\nThe Wehrmacht is currently [ROOT.GetGER_SAF_war_military_happiness] the war."
 
  GER_SAF_war_advisor_level_1:0 "Commit Additional Forces"
  GER_SAF_war_advisor_level_1_desc:0 "§YThis will increase the number of divisions we can send to the South African conflict. However, becoming more and more involved in the conflict will surely have consequences for our regime.\n\nThis decision can be taken every 90 days.§!\n\n"
@@ -691,7 +691,7 @@
  GER_send_in_heydrich_desc:0 "학생 시위자들이 우리의 내부 안정과 세계무대에서 제국의 존립에 매우 실질적인 위협을 가한다는 것은 우리 정부에게 분명한 사실로 다가왔고, 이들을 완전히 제거해야 한다는 것이 분명해졌습니다. 주요 도시를 점령하고, 당사를 공격하고, 질서경찰을 폭행하고, 대규모 혼란을 초래한 시위자들은 제국 전역에서 우리와 맞서는 파르티잔들과 거의 다르지 않다는 것을 증명했습니다. 그들에 대한 우리의 입장을 분명히하고, 그들의 활동을 분산시키기 위해 우리들의 전문대를 파견할 때가 왔습니다. 그것은 바로 하이드리히와 그의 친위대 입니다."
  GER_ss_scapegoats:0 "SS 희생양"
  GER_ss_scapegoats_desc:0 "SS는 신속하고 능률적이며 잔혹함으로 시위를 분산시켰지만, 독일 젊은이들의 피로 얼룩진 거리를 보게 되었습니다. 국내외를 비롯해 책임을 묻는 사람이 많는 상황에서, 우리는 그 책임을 SS의 어깨에 지울 수 있습니다. 조작된 서류와 강압적인 증언으로, 우리는 지나치게 열성적인 SS 장교들에게 책임을 돌릴 수 있습니다. 그 결과 정부의 알벽을 다소 완화하는 동시에, 몇몇 SS 인사들을 조기 퇴직시키게 되겠지만, 하이드리히가 이러한 움직임에 좋은 반응을 보일 것 같진 않습니다."
- GER_pakt_wargames:0 "Pakt Wargames"
+ GER_pakt_wargames:0 "팍트 워게임"
  GER_pakt_wargames_desc:0 "Although the Cold War is, well, cold, the threat of a 'Hot War' is not lost upon the upper echelons of the Großgermanisches Reich and thus we must be ready for armed conflict at a moment's notice. Therefore, the Pakt Wargames are our answer to keeping Europe prepared for a new, major conflict with our enemies. These military exercises are designed to be vast in its scope, with on average over one million soldiers from across the Pakt partaking in these intensive Wargames, helping strengthen the brotherhood and comradeship between the Großgermanisches Reich and her allies whilst sending a strong message to the wider world."
  GER_reinforce_the_east:0 "Reinforce The East"
  GER_reinforce_the_east_desc:0 "The East, both our greatest accomplishment and our greatest failure. We may have crushed the Soviet bear in Operation Barbarossa, but the bear bit back to forced us away from the A-A line a mere decade later. Since the disaster of the West-Russian War, our eastern Reichskommissariats, namely Moskowien, have suffered tremendously at the hands of degenerate raiders who plunge into the borders of the Reich, slaughtering settlers and pillaging their homes for what little loot they can find. It's evident to the Führer that the East at this time is the area of greatest strategic importance to the Reich, and must be strengthened against continued Russian aggression."
@@ -751,7 +751,7 @@
  GER_the_mercenaries_desc:0 "The issue of the loyalty of the Waffen-SS is one of great complexity. In recent years, the loyalty of certain divisions has been called into question. There is no denying that the Waffen-SS is an elite fighting force, in some respects of better quality than certain Heer divisions. As a result, we will attempt to bribe certain division commanders who have begun offering their services in a somewhat 'mercenary' style. We have no choice but to buy their loyalty, as they may be extremely useful to our cause."
  
  ##Goering Successor
- GER_goring:0 "The Militarist"
+ GER_goring:0 "군국주의자"
  GER_goring_desc:0 "With the Führer's proclamation of Reichsmarschall Hermann Göring as successor a significant amount of German citizens are optimistic that the Reich will be restored to greatness. Among the population 'Uncle Göring', as he is affectionately called, is extremely popular and is generally regarded as quite the 'man of the people'. Göring himself is somewhat of a political conservative, yet his brand of National-Socialist conservatism is one of general re-militarization and conquest, all designed to reinvigorate the Reich's economy and global dominance. "
  GER_send_in_the_heer:0 "Send In The Heer"
  GER_send_in_the_heer_desc:0 "With the student protests intensifying over the past few weeks over the appointment of Reichsmarschall Hermann Göring as the Führer's successor, the time has come to show that in Göring's Germany dissent will not be tolerated. Unlike his opponents, the Reichsmarschall is not afraid to do what must be done. Therefore it's been decided that the only way to end the protests is to send in the Heer to silence the many voices of discontent who seek to destabilize the Reich with their reformist dogma. "
@@ -827,7 +827,7 @@
  GER_too_little_too_late_desc:0 "최근 몇 주 동안 대게르만국 내의 상황은 더욱 악화되었으며, 이는 개혁적인 경제 정책의 시행으로 인해 개선되었을 것이라는 슈페어의 믿음과 대치됩니다. 대신에 슈페어는 상황이 나아지기 전에 더 나빠질 것이라는 것을 깨닫기 시작했습니다. 그리고 이 정도 속도라면 제국이 경제 개혁을 이룰 수 있을 때까지는 상당한 시간이 걸릴 것입니다. 우리가 너무 늦게 성취한 것이 너무 적다는 것은 명백합니다.."
  
  ##Heydrich Successor
- GER_heydrich:0 "The Butcher"
+ GER_heydrich:0 "도살자"
  GER_heydrich_desc:0 "With the Führer's proclamation of Reichsführer-SS Reinhard Heydrich as successor public opinion is firmly united against this choice, with only the most die-hard Schutzstaffel lunatics publicly supporting Heydrich's bid. An extremely controversial choice, Herr Heydrich has little to non-existent support in Germany, with much of his support coming from Ordensstaat Burgund and the Reichsführer-SS Heinrich Himmler. As the Führer's health worsens, Herr Heydrich must move quickly to annihilate those who dare oppose and secure the Reich for himself and the 'Black Order' of the SS."
  GER_crush_the_protesters:0 "Crush The Protesters"
  GER_crush_the_protesters_desc:0 "In the aftermath of the Führer's announcement the Fatherland has experienced a sharp increase in the amount of anti-government/pro-reformist acts of protests, along with the veracity of said protests. To secure the Fatherland we must permanently halt the spread of ideals counter to that of National-Socialism. As a result, we must show no mercy toward the protestors, as they themselves have exposed their anti-government leanings... They must and will be crushed!"
@@ -922,7 +922,7 @@ GER_detente_with_burgundy_desc:0 "Over the past decade relations between the Gro
  reich.2.b:0 "Let's start the game"
 
  reich.5.t:0 "암살자가 총통을 공격하다!"
- reich.5.desc:0 "1962년 1월 21일 ,아직 독일이 우주경쟁에서의 그들의 승리를 자축하고 있던 때, 게르마니아는 일본 출신 개인이 총통의 집무실에 들어가 히틀러를 암살하려고 시도한 사건으로 생긴 충격으로 얼어붙었습니다. Armed with a handgun, the assassin, suspected to be a member of the Japanese Kempeitai, would have killed Hitler if one of his bodyguard's had not happened to enter the Führer's office off schedule. Hitler was shot once before the agent was killed and the Führer was briefly hospitalized before being declared stable. While he survived, news briefly leaked that he had been killed in the attempt, and the Reichstag entered crisis without a leader.\n\nMembers of the German RSD briefly locked down the city, armored cars filling the streets and roadblocks ending all traffic for the day. The situation nearly turned to disaster when separate orders were given to both forces of the Wehrmacht and units belonging to the RHSA to occupy the city and ensure peace. When both groups, as well as the RSD, ordered the others to stand down, a 36 hour standoff occurred that nearly turned to open war in the streets had Hitler not recovered and given a personal order for all military units to return to their barracks. Blood was shed regardless, as several officials belonging to various factions were assassinated in the chaos, victims of plans sprung too soon.\n\nHeinrich Himmler has denounced the chaos, claiming that the strike would have been prevented had the Reich not fallen to decadence, and ordering SS units across Burgundy to prepare to ensure peace in Germany, supposedly only if Hitler requests their assistance. The German SS, while supposedly independent from Himmler, has began voicing support for his involvement.\n\nThe incident has showed the dire need the state has for an heir to the Nazi empire, but the Reichstag sits frozen- unable to decide. Not only has this been brought to light however, but relations with Japan are now at an all time low, and although Japan has denied sending the assassin, Wehrmacht leaders have been ordered to prepare readying for the worst."
+ reich.5.desc:0 "1962년 1월 21일, 아직 독일이 우주경쟁에서의 그들의 승리를 자축하고 있던 때, 게르마니아는 일본 출신의 한 인물이 총통의 집무실에 들어가 히틀러를 암살하려고 시도한 사건으로 생긴 충격으로 얼어붙었습니다. Armed with a handgun, the assassin, suspected to be a member of the Japanese Kempeitai, would have killed Hitler if one of his bodyguard's had not happened to enter the Führer's office off schedule. Hitler was shot once before the agent was killed and the Führer was briefly hospitalized before being declared stable. While he survived, news briefly leaked that he had been killed in the attempt, and the Reichstag entered crisis without a leader.\n\nMembers of the German RSD briefly locked down the city, armored cars filling the streets and roadblocks ending all traffic for the day. The situation nearly turned to disaster when separate orders were given to both forces of the Wehrmacht and units belonging to the RHSA to occupy the city and ensure peace. When both groups, as well as the RSD, ordered the others to stand down, a 36 hour standoff occurred that nearly turned to open war in the streets had Hitler not recovered and given a personal order for all military units to return to their barracks. Blood was shed regardless, as several officials belonging to various factions were assassinated in the chaos, victims of plans sprung too soon.\n\nHeinrich Himmler has denounced the chaos, claiming that the strike would have been prevented had the Reich not fallen to decadence, and ordering SS units across Burgundy to prepare to ensure peace in Germany, supposedly only if Hitler requests their assistance. The German SS, while supposedly independent from Himmler, has began voicing support for his involvement.\n\nThe incident has showed the dire need the state has for an heir to the Nazi empire, but the Reichstag sits frozen- unable to decide. Not only has this been brought to light however, but relations with Japan are now at an all time low, and although Japan has denied sending the assassin, Wehrmacht leaders have been ordered to prepare readying for the worst."
  reich.5.a:0 "Our scars are exposed to the world"
  reich.5.d:0 "What does this mean for the world?"
  reich.5.c:0 "We are innocent!"
@@ -935,19 +935,19 @@ GER_detente_with_burgundy_desc:0 "Over the past decade relations between the Gro
  reich.6.c:0 "The Reformer, Albert Speer"
  reich.6.e:0 "The Butcher, Reinhard Heydrich"
 
- reich.7.t_bormann:0 "Hitler Chooses Bormann"
+ reich.7.t_bormann:0 "히틀러가 보어만을 선택하다"
  reich.7.d_bormann:0 "After much deliberation in the Reichstag, Hitler has chosen Martin Bormann, his personal secretary and the Chief of the Parteikanzlei, as the successor to the Reich. Bormann announced in a speech to the Reichstag that he would ensure the ideals the Reich were founded on would be followed, and that he would ensure the Reich remains strong and able going into the future. This has come to mixed reaction, though moderates and conservatives in the Reich remain pleased.\n\nWhile possibly the least controversial choice, Bormann still faces large amounts of resistance from his constituents, namely Speer, Göring and Heydrich, all of which have vowed to continue petitioning for the position. The military remains divided as well, hawks in the Wehrmacht's general staff siding with Göring, and perhaps more worringly, the German SS remaining firmly divided by those loyal to the state and those loyal to Himmler, who's own candidate, Heydrich, still contests the seat.\n\nOne thing is for certain, Bormann represents the continuing status quo of the Reich, an empire characterized by its rapid decline and slow deteoriation. Perhaps his staunchest opposition comes from the very large group who believes the Reich needs radical change to survive into the future."
  reich.7.o_bormann:0 "Bormann will ensure stability in these trying times."
 
- reich.7.t_goering:0 "Hitler Chooses Göring"
+ reich.7.t_goering:0 "히틀러가 괴링을 선택하다"
  reich.7.d_goering:0 "With the Reichstag in crisis and the world watching, the Führer has announced today that Hermann Göring would succeed him as the leader of the Reich. An ardent supporter of Hitler's from his earliest days, Göring has received not only support from the Nazi oldguard but also much of the Wehrmacht, namely the Heer, whose leaders hope Göring will strengthen the Reich against Japan and also among the airforce, whom with Göring served under during the war. Moderates and liberals, however, have taken offense to the appointment, most wishing to find some peaceful solution to the crisis with Japan, which they fear Göring will fail to deliver. In addition, Göring has some breadth of support in the older population of the Reich, more than at least Speer and Heydrich can say.\n\nEven with this support, however, Göring remains standing on a rocky foundation. Much of the Reich has outright refused to accept the nomination, and Speer, Bormann and Heydrich have all refused to rescind their bids. Many fear war, both inside the Reich, and without. To his credit, Bormann has assured diplomats and party officials that his response will be measured and approrpriate for the situation, for the Reich's enemies abroad and for the traitors inside, but his assurances, and his dogged refusal to outright deny the possibility of another world war, has done little to calm the Reichstag or the many protesters who have seen a marked increase in participation. The Japanese reaction is perhaps most telling of all, as they have mobilized several fleets in response.\n\nThe oddest support, however, comes from Himmler, who, while not outright supporting Göring, and still pushing Heydrich as his own candidate, has called him a "Strong man, the sort that the Reich may need in these times."
  reich.7.o_goering:0 "The Reich will be made strong again!"
 
- reich.7.t_speer:0 "Hitler Chooses Speer"
+ reich.7.t_speer:0 "히틀러가 슈페어를 선택하다"
  reich.7.d_speer:0 "Today, Hitler announced that Albert Speer would be his chosen successor to the position of Führer. While a highly controversial choice, Speer has gained the support of a large swathe of left leaning members of the Reichstag, as well as the peace faction, who wishes to avoid war with Japan at all costs. Speer has announced his hopes to bring the Reich forward into the future, and has assured the German people that he will personally ensure the ailing infastructure and failing economy is brought back from ruin. The various student protesters are hopeful that Speer will prove an adequate inroad to the future.\n\nHowever, this news has been less well received by Speer many enemies, most notably Bormann, Göring and Heydrich, all of whom still contest Speer's claim to the position. The military in particular has taken the news poorly, Wehrmacht command and various hardliners in the Reichstag wanting a strong response to Japanese aggression, which Speer seems hesitant to give. Most worrying of all, perhaps, is Himmler, who has vowed to ensure the Reich remains true to the ideals it was founded on, whether its own Führer agrees or not.\n\nInternational observers are generally hopeful Speer might bring peace to a world desperately praying for it. Despite Burgundian hostilities, support has come from the diplomats of the United States and its allies, as well as several members of the former Soviet Union. Japan, however, has, while congratulating Speer, begun taking the chance to posture anew, already testing the future Führer, and the various minor members of the German Unity-Pakt have taken the chance to begin pushing for further independence."
  reich.7.o_speer:0 "A new dawn for the Reich!"
 
- reich.7.t_heydrich:0 "Hitler Chooses Heydrich"
+ reich.7.t_heydrich:0 "히틀러가 하이드리히를 선택하다"
  reich.7.d_heydrich:0 "Chaos erupted in the Reichstag today when Adolf Hitler announced that Reinhard Heydrich would be succeeding him to the position of Chancelor of the Reich. Heydrich, known for his cruelty in the war and adherence to the National Socialist cause, even compared to his constiuents, has received the least support out of any candidates for the position, and the reaction only further shows that. For the first time in the history of Nazi Germany, the Reichstag did not vote unanimously, with a quarter of the seats voting against the appointment, and almost the same number refusing to vote.\n\nHeydrich has been denounced by the other candidates, Speer, Bormann and Göring, who claim the man to be a puppet working on behalf of Himmler, and accusing him of having convinced Hitler through trickery, the three vowing to ensure Heydrich does not receieve the seat. He has, however, received support from the SS, who remains divided in its loyalty to both the state and Himmler, as well as fringe elements of the military. The citizenry, as always, is mostly ambivalent, though the student protests have begun turning into riots at the announcements, to be brutally put down by police units.\n\nHimmler has, predictably, celebrated the news, announcing that the Burgundian SS stands ready to assist their German brethren. While Burgundian-German relations soar, tensions otherwise have only become exasperated, and the international reaction is generally one of horror."
  reich.7.o_heydrich:0 "The SS will lead us to glory!"
 
@@ -956,7 +956,7 @@ GER_detente_with_burgundy_desc:0 "Over the past decade relations between the Gro
  reich.8.a:0 "Last menu, please"
  reich.8.b:0 "Let's start the game"
 
- reich.9.t:0 "The Reich's Last Conquest"
+ reich.9.t:0 "독일국의 최후의 점령"
  reich.9.desc:0 "On the 19th of January, 1962, Eberhard Köllner, using a rocket based upon the A9/A10 design from WW2, and as a member of a team led by acclaimed scientist Wernher von Braun, became the first man to ever land on the moon. While the space race has been a struggle between the Reich, Japan and the USA, and while the Americans had managed to put the first man in space, the Führer was proud to announce that the German landing firmly plants the Reich as the victor in the competition, and that Köllner, who was photographed giving the characteristic Nazi salute at the flag as the Earth rose in the horizon, was the perfect example of a hero of Germany.\n\nA grand ceremony is planned in Germania to present Köllner and his fellow astronauts with the Iron Cross, and a week of celebration has been declared across the Reich.\n\nWhile terse congratulations have been sent from America and Japan, President Nixon has vowed that the United States would be the first to create a permanent mission on the moon, and Japan shortly thereafter announced it would be the first to land on Mars."
  reich.9.a:0 "The final frontier!"
 
@@ -973,7 +973,7 @@ GER_detente_with_burgundy_desc:0 "Over the past decade relations between the Gro
  reich.12.b:0 "Wai-"
  reich.12.c:0 "Don-"
 
- reich.13.t:0 "The Student Revolt"
+ reich.13.t:0 "학생 봉기"
  reich.13.desc:0 "Der Tag des Verrats is what they're calling it, the Day of Betrayal. Betrayal against the people of the Reich by their leaders, their police, their military, by everyone. Police in Aachen took it upon themselves to open fire on a crowd of teenagers who had started a small riot outside the local Orpo station, and what started as a police shooting has sparked a massive riot across the city. Aachen is now burning as Orpo units there struggle to hold their lines against furious crowds of rioters, and, with the military stepping in and declaring martial law and Orpo units ordered to stand down, large sections of the city have been left to the mob.\n\nThe action hasn't been limited to Aachen, with both protesters and over-zealous Orpo officers across the country taking up arms in inspiration. Most of the largest cities of the Reich now look like a warzone, with condemnation and protests in fellowship reaching as far as Moskowien."
  reich.13.a:0 "For the sake of the Führer, remain calm!"
 
@@ -1030,15 +1030,15 @@ GER_detente_with_burgundy_desc:0 "Over the past decade relations between the Gro
  reich.31.desc:0 "With the nation falling into the chaos of civil war, our already unstable alliance has collapsed. Already the various reichskommissars and subject nations have made moves to assert independence in our moment of weakness!"
  reich.31.a:0 "Gott, hilf uns!"
 
- reich.36.t:0 "Heydrich Rises Up!"
- reich.36.desc:0 "As the wave of violence continues throughout Germany, Heydrich has declared himself the rightful Führer of all Germany. This is not new news from him, but what is news is the fact that he has called upon his SS to 'restore order' within the country! Forces of the SS based in Elsaß-Lothringen (conveniently close to the border with Burgundy) and Ostpreußen, his strongest areas of support, have stormed local police stations and administrative buildings with full intent of taking over all of Germany! Thanks to the absolute state of the Reich, however, we can do nothing."
- reich.36.a:0 "It has begun!"
+ reich.36.t:0 "하이드리히가 봉기하다!"
+ reich.36.desc:0 "독일 전역에 폭력 사태가 이어지면서 하이드리히는 자신이 전 독일의 정당한 총통이라고 선언하였습니다. 이것은 그리 새로운 소식은 아닙니다만, 가장 충격적인 뉴스는 하이드리히가 SS에게 본국에 와서 '구국의 결단'을 결행하라고 요구했다는 것입니다! 하이드리히의 가장 강력한 지지 지역이자 부르군트와의 경계와 바로 맞닿아 있는 엘자스-로트링겐과 오스트프로이센에 기지를 둔 SS 병력들은 독일 전역을 점령할 목적을 가지고 지역 경찰서와 행정청사를 급습하고 있습니다! 하지만 독일국의 완전히 마비된 현재 상태에서 우리는 아무것도 할 수 없습니다."
+ reich.36.a:0 "그것이 시작되었다!"
 
- reich.37.t:0 "Speerians Rise Up!"
- reich.37.desc:0 "After the recent chaos in the Reich, Albert Speer and divisions loyal to him have begun a rebellion in the northwest of Germany! Armed students have taken over government buildings in the area, and student uprisings have been reported throughout the country. Our country now continues to crumble as the first sparks of the civil war have been lit."
- reich.37.a:0 "Speer jetzt!"
+ reich.37.t:0 "슈페어 지지자들이 봉기하다!"
+ reich.37.desc:0 "최근 독일국이 큰 혼란에 빠진 이후, 알베르트 슈페어와 그에 충성하는 군사들이 독일 서북부에서 반란을 일으켰습니다! 무장한 학생들이 지역 정부청사 건물을 점거하였으며, 전국적으로 학생들의 소요 사태가 일어났습니다. 우리 나라가 내전의 첫 불꽃이 켜지면서 점점 무너지고 있습니다."
+ reich.37.a:0 "이젠 슈페어!"
 
- reich.38.t:0 "Göring Rises Up!"
+ reich.38.t:0 "괴링이 봉기하다!"
  reich.38.desc:0 "As the streets begin to fill with the sounds of war, and forces loyal to each contender begin armed insurrection, Hermann Göring has called upon loyal legions to stamp out rebellion within the nation - by starting his own. About half of the country's total landmass have declared themselves loyal to him, and his forces now begin open battles against disloyal militiamen and the rest of the contenders."
  reich.38.a:0 "Would Hitler have wanted this?"
 
