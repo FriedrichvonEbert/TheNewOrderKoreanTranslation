@@ -30,6 +30,10 @@
  SCO_authoritarian_democrat_ADJ:0 "스코틀랜드"
  SCO_despotism_ADJ:0 "스코틀랜드"
  SCO_communist_ADJ:0 "스코틀랜드"
+ 
+ FEN_mayne_british_republic_despotism:0 "영국"
+ FEN_mayne_british_republic_despotism_ADJ:0 "영국"
+ 
  #Parties
 
  SCO_ultranational_socialism_party:0 "BIF"
@@ -148,6 +152,8 @@
  SCO_military_administration_despotism_DEF:0 "스코틀랜드 군사정부"
 
  #tooltips
+ SCO_Increase_Approval_10:0 "§yEnglish Approval will increase by 10%§"
+ SCO_Increase_Approval_5:0 "§yEnglish Approval will increase by 5%§"
  SCO_Increase_English_Poverty_tt:0 "§rEnglish Poverty will increase§\n\n§!"
  SCO_Decrease_English_Poverty_tt:0 "§yEnglish Poverty will decrease§\n\n§!"
  SCO_Increase_English_Approval_tt:0 "§yEnglish Approval will increase§\n\n§!"
@@ -327,6 +333,9 @@
  SCO_oil_fund_500_tt:0 "This will cost §R500§! million from our Fund."
  SCO_oil_fund_400_tt:0 "This will cost §R400§! million from our Fund."
  SCO_oil_fund_200_tt:0 "This will cost §R200§! million from our Fund."
+ SCO_gain_barrels_0_1_tt:0 "We will produce §G0.1§! million more barrels per month."
+ SCO_gain_barrels_0_2_tt:0 "We will produce §G0.2§! million more barrels per month."
+ SCO_gain_barrels_0_3_tt:0 "We will produce §G0.3§! million more barrels per month."
  SCO_gain_barrels_3_tt:0 "We will produce §G3§! million more barrels per month."
  SCO_gain_barrels_5_tt:0 "We will produce §G5§! million more barrels per month."
  SCO_gain_barrels_10_tt:0 "We will produce §G10§! million more barrels per month."
@@ -728,6 +737,33 @@
  SCO_UPECW_victorious_at_last_desc:0 "After weeks and months of fighting we and our allies in England we have succeeded in our battle against the tyranny of the Collaborators and their German masters. Now that we have won this conflict we can finally return home to Scotland as victors. This is our greatest achievement as an independent country and this shall usher in British Reunification faster than ever. We are preparing for a victory parade in Edinburgh and across the border regions. Our relations have officially been created with HMMLR who is known as Free England. We are victorious and our honor is restored."
  SCO_UPECW_our_greatest_defeat:0 "Our Greatest Defeat"
  SCO_UPECW_our_greatest_defeat_desc:0 "After all of our effort and blood put into the English Civil War, our allies HMMLR could not hold out against the onslaught of the Collaborators and their German allies. This is a disaster for us. Our people are saddened and we are crushed as a government. We had split blood for the English in trying to help them and reunite the Isles. We must not let a defeat as dark as this to ever happen again. However, we must learn from our mistakes and attempt to learn from them to ensure a defeat as great as this never happens again."
+
+ #english invasion
+
+ SCO_English_Invasion:0 "Invasion"
+ SCO_English_Invasion_Reserves:0 "Reserves"
+ SCO_English_Invasion_Concessions_to_the_English_Minority:0 "Concessions to the English Minority"
+ SCO_English_Invasion_Arise_For_England:0 "Arise for England"
+ SCO_English_Join_for_Scotland:0 "Join for Scotland"
+ SCO_English_Build_for_Scotland:0 "Build for Scotland"
+ SCO_English_We_Will_Make_You_Fight_For_Scotland:0 "We will make you fight for Scotland"
+ SCO_English_Invasion_The_Flag_Will_Fly_Forever:0 "The FLag will Fly Forever"
+ SCO_English_Invasion_Open_the_Stockpile:0 "Open the Stockpile"
+ SCO_English_Invasion_Necasary_Production:0 "Necassary Production"
+ SCO_English_Give_the_Army_a_Blank_Check:0 "Give the Army a Black Check"
+ SCO_English_Invasion_desc:0 "Invasion"
+ SCO_English_Invasion_Reserves_desc:0 "Reserves"
+ SCO_English_Invasion_Concessions_to_the_English_Minority_desc:0 "Concessions to the English Minority"
+ SCO_English_Invasion_Arise_For_England_desc:0 "Arise for England"
+ SCO_English_Join_for_Scotland_desc:0 "Join for Scotland"
+ SCO_English_Build_for_Scotland_desc:0 "Build for Scotland"
+ SCO_English_We_Will_Make_You_Fight_For_Scotland_desc:0 "We will make you fight for Scotland"
+ SCO_English_Invasion_The_Flag_Will_Fly_Forever_desc:0 "The FLag will Fly Forever"
+ SCO_English_Invasion_Open_the_Stockpile_desc:0 "Open the Stockpile"
+ SCO_English_Invasion_Necasary_Production_desc:0 "Necassary Production"
+ SCO_English_Give_the_Army_a_Blank_Check_desc:0 "Give the Army a Black Check"
+ SCO_The_Flag_Will_Fly_Forever:0 "The Flag will Fly Forever"
+
 
 
  SCO_Britain_Triumphant:0 "Britain Triumphant"
@@ -1355,11 +1391,11 @@
  SCO.291.a:0 "The fingers of industry have curled around the North."
 
  SCO.292.t:0 "A Very English Disturbance."
- SCO.292.desc:0 "Scottish Constables, Mark David and Luke Stevens walked into the Police headquarters, wanting to meet with the chief constable to discuss the current developments of the English protests. They have begun to grow in size in recent months. Due to this, the Scottish police have been given more power and reach. However, due to this, protests had begun to spring up across Scotland by the English minority, along with some sympathetic Scots. \n\n"Sir, we finally got a lead on the pub where the protesters are staying. It seems to be in the southern districts of Glasgow. However there is an issue, most of the population in that area currently is English. When the operation occurs, we must be able to get into the pub quickly, arrest the protesters and leave before anyone finds out what we have done." replied Constable Luke \n\nThe chief constable looked at Luke and Mark, before pulling out a few maps from his desk. He motioned for the two men to look at the map. \n\n"As you can see, there is an intersection right here." He pointed at it, and then moved his finger down a little to a circle. "You'll have around twenty minutes to do this, it may be a bit shorter, so work quickly. The second that word gets out that we are arresting some English folks, people will amass, protesting it. So work quick." Said the chief constable, hoping that the two men would understand.\n\nThe two men nodded and left, not before grabbing the maps. "
+ SCO.292.desc:0 "Scottish Constables, Mark David and Luke Stevens walked into the Police headquarters, wanting to meet with the chief constable to discuss the current developments of the English protests. They have begun to grow in size in recent months. Due to this, the Scottish police have been given more power and reach. However, due to this, protests had begun to spring up across Scotland by the English minority, along with some sympathetic Scots.\n\n"Sir, we finally got a lead on the pub where the protesters are staying. It seems to be in the southern districts of Glasgow. However there is an issue, most of the population in that area currently is English. When the operation occurs, we must be able to get into the pub quickly, arrest the protesters and leave before anyone finds out what we have done." replied Constable Luke\n\nThe chief constable looked at Luke and Mark, before pulling out a few maps from his desk. He motioned for the two men to look at the map.\n\n"As you can see, there is an intersection right here." He pointed at it, and then moved his finger down a little to a circle. "You'll have around twenty minutes to do this, it may be a bit shorter, so work quickly. The second that word gets out that we are arresting some English folks, people will amass, protesting it. So work quick." Said the chief constable, hoping that the two men would understand.\n\nThe two men nodded and left, not before grabbing the maps. "
  SCO.292.a:0 "Alright, let's get to work."
 
  SCO.293.t:0 "Interviews with the SNP"
- SCO.293.desc:0 ""Excuse me!" Asked a reporter from the SBC. She looked at the politician sitting at the table. A press conference had recently been called after the SNP had announced that they would begin a much harsher stance on the status of the English refugees and crackdowns would begin to happen on the immigration status. The politician looked at her and pointed, prompting her to ask a question. "Jill Anderson, SBC, what are your current opinions on the status of the English minority here in Scotland at the moment?" \n\nThe politician thought for a few moments, before replying to her. "The SNP has begun to have a much more hard stance on the refugees that are coming into Scotland. We don’t know much about them. We don’t know what they could be bringing in Scotland. Maybe even some of them have been sent here by the Collaborators in London trying to influence Scotland and affect us in ways we haven’t seen before. While this move will be seen as unpopular, it is necessary to make sure Scotland will stand independent and free of outside influence." Replied the politician, who was beginning to get annoyed with the questions. \n\nJill scribbled this down on her notes, as she was writing them down, the politician began to think. Why on earth was the general public so nosy when it came to this sort of thing. Could they not tell that some of the English had been causing problems for them? Ever since Home had been put in place by the Germans, refugees have flooded the borders even more! Either way, it annoyed him."
+ SCO.293.desc:0 ""Excuse me!" Asked a reporter from the SBC. She looked at the politician sitting at the table. A press conference had recently been called after the SNP had announced that they would begin a much harsher stance on the status of the English refugees and crackdowns would begin to happen on the immigration status. The politician looked at her and pointed, prompting her to ask a question. "Jill Anderson, SBC, what are your current opinions on the status of the English minority here in Scotland at the moment?"\n\nThe politician thought for a few moments, before replying to her. "The SNP has begun to have a much more hard stance on the refugees that are coming into Scotland. We don't know much about them. We don't know what they could be bringing in Scotland. Maybe even some of them have been sent here by the Collaborators in London trying to influence Scotland and affect us in ways we haven't seen before. While this move will be seen as unpopular, it is necessary to make sure Scotland will stand independent and free of outside influence." Replied the politician, who was beginning to get annoyed with the questions.\n\nJill scribbled this down on her notes, as she was writing them down, the politician began to think. Why on earth was the general public so nosy when it came to this sort of thing. Could they not tell that some of the English had been causing problems for them? Ever since Home had been put in place by the Germans, refugees have flooded the borders even more! Either way, it annoyed him."
  SCO.293.a:0 "Then another reporter stuck their hand up."
 
  SCO.356.t:0 "The Queen's Silence"
