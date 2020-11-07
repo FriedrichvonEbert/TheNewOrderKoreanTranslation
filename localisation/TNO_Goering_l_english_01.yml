@@ -1283,20 +1283,20 @@ GGR_loot_runout:0 "Due to our extensive looting efforts, we have deprived the ar
 
  #GGR_fall_rockwell_status:0 "Fall Rockwell Status"
 
- GGR_military_demands_category:0 "Militarist Demands"
+ GGR_military_demands_category:0 "군국주의자의 요구"
  GGR_military_demands_category_desc:0 "With the final victory of Führer Göring over the pathetic traitors that dared to defy his rule during the civil war, the time has come for the Wehrmacht to once more venture out into the world, and conquer it for the thousand year Reich.\n\nHowever, the militarists are a powerful and influential faction within the Wehrmacht, and they have their own designs on how the military might of Germany is to be used. The militarists will expect the new conquests of the Reich to be carried out promptly, and they will be §Gmost pleased §!when new lands are won for Germany through force of arms.\n\nBut beware that if the militarists perceive the Führer to be lacking the strength of will to carry out their plans to their full extent, §Runexpected consequences§! may occur. "
  start_war_plan_0:0 "Commence War Plan 0"
  GGR_militarist_status:0 "Status of the Militarists"
- conquer_denmark:0 "Crush Denmark!"
+ conquer_denmark:0 "덴마크 분쇄!"
  conquer_poland: "Wipe Poland off the map!"
- conquer_slovakia:0 "Conquer Slovakia!"
+ conquer_slovakia:0 "슬로바키아 점령!"
  conquer_Bohemia: "보헤미아 병합!"
  conquer_ostland:0 "Reclaim Ostland!"
  GGR_enable_hard_mode:0 "Enable §RHard Mode§!"
  GGR_ignore_enemy_aid_events:0 "Ignore enemy aid events"
  GGR_hard_mode_tooltip:0 "All nations post war plan 0 will recieve full buffs similar to those of a full custom difficutly slider when their corresponding war plan focus is taken.\n §RThis cannot be reversed.§!\n"
 
- GGR_economy:0 "The German Economy"
+ GGR_economy:0 "독일 경제"
  #GGR_economy_desc:0 "The German economy should be the envy of the entire world, and for a long time, it truly was. Fueled by our conquests of the lesser nations of Europe, Germany grew strong and prosperous. It is no coincidence that our beloved Führer Herman Göring had a large amount of influence on the economy during those years, his economic genius saving the nation from ruin countless times.\n\nBut as a new decade dawned, we had forgotten how to properly manage our financials. The steady flow of plunder and loot rightfully earned by the Reich through its glorious conquests was stopped in the name of stability, and this act proved itself to be disastrous, as the economy itself ground to a halt soon after.\n\nThe mistakes of the past will not be repeated, and under the guidance of our new Führer, a true economic prodigy, we shall restore Germany to its proper place as the foremost economy of the entire world.\n\nTemporary section for easy development and testing of the economic system\n\nCurrent §Yworker participation§! is: §Y[?GGR_worker_participation|%]§!\nCurrent §wworker enthusiasm§! is: §Y[?GGR_worker_enthusiasm|%]§!\n\nCurrent §jslave participation is:§! §Y[?GGR_slave_participation|%]§!\nCurrent §rslave organisation§! is: §Y[?GGR_slave_organisation|%]§!\n\nCurrent §Oforeign participation§! is: §Y[?GGR_foreign_participation|%]§!\n\nCurrent §Rinflation§! is: §Y[?GGR_inflation|%]§!\nCurrent §Smonetary faith§! is: §Y[?GGR_monetary_faith|%]§!\n\nCurrent §Lcivilian investment§! is: §Y[?GGR_civilian_investment|%]§!\nCurrent §gbanking participation§! is: §Y[?GGR_banking_participation|%]§!\nCurrent §emilitary industrial participation§! is: §Y[?GGR_military_industrial_participation|%]§!"
  GOR_mefo_bills_mission:0 "MEFO Bills"
  GGR_import_slaves:0 "Import Slaves"
@@ -1554,6 +1554,7 @@ GGR_loot_runout:0 "Due to our extensive looting efforts, we have deprived the ar
  GER_GOR_huttigs_werewolves_desc:0 "Whatever else his deficiencies, Reichskommissar Huttig is adept at asymmetrical strategy. Before the situation in Afrika fully collapsed, the wiley bastard managed to deploy dozens of SS "Werewolf" units to prepare for stay-behind operations against the incoming OFN pacification troops. These men are fanatics, and SS fanatics to boot, but given their potential use the Fuhrer has agreed to ignore the bans on the SS for now. After all, these men are not technically part of the Reich anyways, making it all the better for us.\n\nWhile the Werewolves have been given what effectively is a suicide mission, Huttig assures us they will carry out any operations against OFN and native forces we give them. Perhaps the SS is good for something after all?"
  GER_GOR_scorched_earth_on_a_grand_scale:0 "Scorched Earth On A Grand Scale"
  GER_GOR_scorched_earth_on_a_grand_scale_desc:0 "The OFN has won Afrika, but so what? Do they think we will leave it to them intact? Of course not! They can have the continent - as a heap of ash. Our stay behind units will carry our specific destructions of critical infrastructure, roads, government buildings, and the like. At the same time, we will use what bombers and airfields we still control in the region to rain down Hell indiscriminately. Let them know that the price of victory is steep indeed. Orders to remaining Wehrmacht forces will be to hold the airfields at all costs until the planes can no longer make the runs. The fire of our bitter loss will scorch their tongues as they attempt to savor their triumph."
+ 
 
 
  ### INDUSTRIAL TREE ###
@@ -1770,5 +1771,5 @@ GGR_loot_runout:0 "Due to our extensive looting efforts, we have deprived the ar
  GGR_new_silos_desc:0 "While our current nuclear silos are sufficient in keeping up the threat of MAD, they are still too concentrated in certain locations and, thus, we risk being wiped out in a decapitation strike before we can retaliate. Thus, building up new and, more importantly, spread out silo installations in all corners are vital to the defense of the Reich."
  GGR_new_missile_designs_desc:0 "The nuclear arms race means a constant effort to improve, to overcome and to adapt. Obviously our missiles are no exception to this. A fresh investment into new and improved missile designs will ensure our silos can't be taken out before the missiles leave for the counterstrike."
  GGR_safeguard_the_volk_desc:0 "With our recent efforts the security of our Volk from nuclear annihilation has been, if not ended, then at least mitigated. Our grand investment into both technology and concrete has ensured. The German people rejoice for such a caring Führer, that has taken it upon him to spare them the horrors of nuclear war."
-
+ 
  ### WAR PLAN 0 TREE 로 이어짐
