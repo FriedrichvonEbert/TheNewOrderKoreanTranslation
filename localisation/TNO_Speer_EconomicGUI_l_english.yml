@@ -40,7 +40,7 @@ zv_quarterly_budget_tt:0 "The §QTotal Budget§! and §YAllotment§! will be upd
 
 # Oil Crisis #
 
-SGR_ZV_debt_reduction:0 "빛 상환"
+SGR_ZV_debt_reduction:0 "빚 상환"
 SGR_ZV_debt_reduction_desc:0 "Although not exactly the most elegant solution to our mounting debt problem, the Zollverein's budget can and will nonetheless serve as a source for money to pay off our state debt."
 SGR_ZV_debt_reduction_cost:0 "§Y150M§! £GFX_dollar_sign"
 SGR_ZV_debt_reduction_cost_blocked:0 "§R150M§! £GFX_dollar_sign"
@@ -92,7 +92,7 @@ SGR_ZV_education_investment_desc:0 "If there's anything that's important to the 
 SGR_ZV_education_investment_cost:0 "§Y50M§! £GFX_dollar_sign"
 SGR_ZV_education_investment_cost_blocked:0 "§R50M§! £GFX_dollar_sign"
 
-SGR_ZV_poverty_investment:0 "빈곤-절감 계획
+SGR_ZV_poverty_investment:0 "빈곤 절감 계획
 SGR_ZV_poverty_investment_desc:0 "People who can barely get by with their paycheck, or people who are simply out on the street and asking for spare change so that they can survive - they are the most vulnerable, yet most available to pick up and put back into society. With the help of the Zollverein, we will make a significant attempt to clear the streets and make sure that more people can keep their lights on more often than not."
 
 SGR_ZV_workers_investment:0 "무역 계획"
@@ -113,7 +113,7 @@ SGR_task_invest_tt:0 "§GInvestment§! into the fledgling local middle class wil
 SGR_task_weaken:0 "§Y기업 자산 압류§!"
 SGR_task_weaken_tt:0 "§RSeizing corporate assets§! from the §YWehrwirtschaftsführer§! with the help of the Wehrmacht is an efficient, albeit brutal, way to lessen their influence.\n\n§WONE MONTH COOLDOWN§!"
 
-SGR_task_antitrust:0 "§Y반-독점 명령§!"
+SGR_task_antitrust:0 "§Y반독점 명령§!"
 SGR_task_antitrust_tt:0 "Once the §YWehrwirtschaftsführer power§!£GFX_megacorp! over the region reaches §Y0%§!, the §Ggovernment§! can pass a directive to oust them from economic control over the region."
 SGR_task_antitrust_reward:0 "Ousting the §YWehrwirtschaftsführer§! from control over this region grants the following bonus: \n\n[getSGRStatesBonusTooltip]"
 SGR_task_antitrust_ger_tt:0 "§YLeader of the Zollverein Commission§! Consumer Goods: §Y-2%§!"
@@ -141,14 +141,14 @@ SGR_Poland_investment_desc:0 "폴란드 내에는 경제 투자와 인프라에 
 SGR_Ukraine_investment:0 "우크라이나에 투자"
 SGR_Ukraine_investment_desc:0 "독일의 잘못된 관리와 노예제도는 우크라이나와 주변 지역의 경제적, 정치적 안정을 심각하게 해쳤습니다. 우크라이나 산업의 상당 부분은 시대에 뒤떨어진 강제 노동 수용소를 기반으로 하고 있습니다. 이것은 우리가 미래에 우크라이나가 번영하고 번영할 수 있도록 하려면 정당화될 수 없는 경제 관행입니다."
 
-SGR_Ostland_investment:0 "오스트란트에 투자"
-SGR_Ostland_investment_desc:0 "지난 수십 년 동안 오스트란트가 독일화되면서 상당한 성공을 거두었지만, 이 지역의 많은 산업은 운영되지 않거나 완전히 구식입니다. 특히 벨로루시 국가는 이전 오스트란트 행정부의 상당 부분이 이 지역 내에서 외국인 투자나 경제적 기회를 전혀 배양하지 못하고 있는 등 황폐화 된 상태입니다. 유럽에 독일의 경제적 영향력을 재확보하려면 선대의 잘못을 바로잡아야 합니다."
+SGR_Ostland_investment:0 "오스틀란트에 투자"
+SGR_Ostland_investment_desc:0 "지난 수십 년 동안 오스틀란트가 독일화되면서 상당한 성공을 거두었지만, 이 지역의 많은 산업은 운영되지 않거나 완전히 구식입니다. 특히 벨로루시 국가는 이전 오스틀란트 행정부의 상당 부분이 이 지역 내에서 외국인 투자나 경제적 기회를 전혀 배양하지 못하고 있는 등 황폐화 된 상태입니다. 유럽에 독일의 경제적 영향력을 재확보하려면 선대의 잘못을 바로잡아야 합니다."
 
 SGR_Kaukasien_investment:0 "카우카지엔에 투자"
 SGR_Kaukasien_investment_desc:0 "카우카지엔 지역 내의 풍부한 천연자원과 값싼 노동력은 카우카지엔과 독일 사이의 다소 불건전한 관계를 초래했습니다. 카우카지엔 국가판무관부의 노동 조건은 독일 지배자들이 값싸고 경험 없는 노동력을 착취하는 것으로 악명높습니다. 구체적인 경제 성장을 촉진하려면 카우카지엔의 이런 끔찍한 노동 조건을 해결해야 합니다."
 
 SGR_Volga_investment:0 "볼가에 투자"
-SGR_Volga_investment_desc:0 "많은 사람들이 동쪽에 있는 우리 민족을 제멋대로이고 무법천지로 볼 수 있지만, 이 지역 내 독일인들과 러시아 원주민들 사이에 종종 협력적인 조치가 취해져 왔습니다. 만약 우리가 장기적인 경제적 번영의 외형을 만들려면, 제국에 이익을 주기 위해 독일과 러시아 사이의 이러한 관계를 강화해야 합니다."
+SGR_Volga_investment_desc:0 "많은 사람들이 동쪽에 있는 우리 민족을 제멋대로이고 무법천지로 볼 수 있지만, 이 지역 내 독일인들과 러시아 원주민들 사이에 종종 협력적인 조치가 취해져 왔습니다. 만약 우리가 장기적인 경제적 번영의 외형을 만들려면, 라이히에 이익을 주기 위해 독일과 러시아 사이의 이러한 관계를 강화해야 합니다."
 
 SGR_konjunkturpaket_cost:0 "§W경기부양책의 비용은 매달 §R100,000,000 USD.§!.§!"
 SGR_eastern_investment_cost:0 "§W동부 투자의 비용은 매달 §R25,000,000 USD.§!§!"
@@ -183,10 +183,10 @@ SGR_zollverein_members_scriptedloc_bloc:0 "\n졸페어라인 예산 할당: §G$
 
 SGR_zollverein_scriptedloc_bloc:0 "\n총 졸페어라인 예산: §G$§![?ZollvereinBudget|+]§GM USD§!\nZollverein Budget Payments: [?ZollvereinPayments|0Y%] of Annual Revenue\nZollverein Budget Payout: [?GER.SGRZVfactor|0+%]"
 
-SGR_zollverein_germany:0 "졸베어라인 위원회 지도국"
+SGR_zollverein_germany:0 "졸페어라인 위원회 지도국"
 SGR_zollverein_germany_desc:0 "§DResources to Market: [?SGR_export_factor|0Y%]\nConsumer Goods Factories: [?SGR_consumer_goods|1Y%][getZollvereinIdeaBlock] \n--------------\n§!The Zollverein is a common market and customs union between its members. A replacement for the clearly obsolete and dysfunctional Großraum Kontinentaleuropa concept, it is a means for Germany to continue being the hegemon of Europe - albeit now, hopefully, in a less bloody manner."
 
-SGR_zollverein_basic:0 "졸베어라인 위원회 회원국"
+SGR_zollverein_basic:0 "졸페어라인 위원회 회원국"
 SGR_zollverein_basic_desc:0 "§DPolitical Power Gain Factor: [?THIS.ZV_pp_gain|0+%]\nConsumer Goods Factories: [?THIS.ZV_consumer_goods|1Y%]\nProduction Efficiency Gain Factor: [?THIS.ZV_production_gain|1+%][getZollvereinMembersIdeaBlock] \n--------------\n§!The Zollverein is a common market and customs union between its members. A replacement for the clearly obsolete and dysfunctional Großraum Kontinentaleuropa concept, it is a means for Germany to continue being the hegemon of Europe - albeit now, hopefully, in a less bloody manner."
 
 SGR_zollverein_reich:0 "독일의 졸페어리인"
@@ -383,33 +383,33 @@ SGR_1month:0 "Available every month"
 
 #State names
 
-SGR_rhineland:0 "§YRHEINLAND§!"
-SGR_northgermany:0 "§YNORDDEUTSCHLAND§!"
-SGR_centralgermany:0 "§YMITTELDEUTSCHLAND§!"
-SGR_sachsenanhalt:0 "§YSACHSEN-ANHALT§!"
-SGR_prussia:0 "§YPREUßEN§!"
-SGR_bohemia:0 "§YBÖHMEN-MÄHREN§!"
-SGR_southgermany:0 "§YSÜDDEUTSCHLAND§!"
-SGR_austria:0 "§YOSTMARK§!"
-SGR_poland:0 "§YPOLEN§!"
-SGR_belarus:0 "§YWEIßRUTHENIEN§!"
-SGR_lithuania:0 "§YLITTAUEN§!"
-SGR_estonia:0 "§YESTLAND§!"
-SGR_kyiv:0 "§YWOLHYNIEN-PODOLIEN§!"
-SGR_southukraine:0 "§YSAPORISCHSCHJA§!"
-SGR_eastukraine:0 "§YSEWERIEN§!"
-SGR_azerbaijan:0 "§YASERBAIDSCHAN§!"
-SGR_georgia:0 "§YGEORGIEN§!"
-SGR_katharinastadt:0 "§YKATHARINASTADT§!"
-SGR_leningrad:0 "§YBRAUCHITSCHSTADT§!"
-SGR_holland:0 "§YNIEDERLANDE§!"
-SGR_denmark:0 "§YDÄNEMARK§!"
-SGR_oslo:0 "§YØSTLANDET§!"
-SGR_westnorway:0 "§YVESTLANDET§!"
-SGR_crimea:0 "§YGOTENLAND§!"
-SGR_uppervolga:0 "§YOBERWOLGA§!"
-SGR_lowervolga:0 "§YNIEDERWOLGA§!"
-SGR_bessarabia:0 "§YTRANSNISTRIEN§!"
+SGR_rhineland:0 "§Y라인란트§!"
+SGR_northgermany:0 "§Y노르트도이칠란트§!"
+SGR_centralgermany:0 "§Y미텔도이칠란트§!"
+SGR_sachsenanhalt:0 "§Y작센-안할트§!"
+SGR_prussia:0 "§Y프로이센§!"
+SGR_bohemia:0 "§Y뵈멘-매렌§!"
+SGR_southgermany:0 "§Y쥐트도이칠란트§!"
+SGR_austria:0 "§Y오스트마르크§!"
+SGR_poland:0 "§Y폴렌§!"
+SGR_belarus:0 "§Y바이스루테니엔§!"
+SGR_lithuania:0 "§Y리타우엔§!"
+SGR_estonia:0 "§Y에스틀란트§!"
+SGR_kyiv:0 "§Y보리니엔-포도리엔§!"
+SGR_southukraine:0 "§Y자포리쉬쉬야§!"
+SGR_eastukraine:0 "§Y제베리엔§!"
+SGR_azerbaijan:0 "§Y아제르바이잔§!"
+SGR_georgia:0 "§Y게오르기엔§!"
+SGR_katharinastadt:0 "§Y카타리나슈타트§!"
+SGR_leningrad:0 "§Y브라우히치슈타트§!"
+SGR_holland:0 "§Y니덜란데§!"
+SGR_denmark:0 "§Y대네마르크§!"
+SGR_oslo:0 "§Y외스트란데트§!"
+SGR_westnorway:0 "§Y페스트란데트§!"
+SGR_crimea:0 "§Y고텐란트§!"
+SGR_uppervolga:0 "§Y오버볼가§!"
+SGR_lowervolga:0 "§Y니더볼가§!"
+SGR_bessarabia:0 "§Y트란스니스트리엔§!"
 
 #State powers
 
