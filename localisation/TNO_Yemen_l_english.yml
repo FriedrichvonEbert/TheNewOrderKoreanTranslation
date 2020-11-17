@@ -7,61 +7,61 @@
  YEM_the_Aden_arsenal_desc:0 "이탈리아가 예멘에 보호혈 지위를 줌에 따라 이탈리아는 국가에서 제일 소중한 곳인 아덴 도시를 차지하였습니다. 인도양에서 제일 중요한 항구였던 아덴은 남아라비아에서 이탈리아가 제일 많은 병력과 함선을 배치시킨 최거점 도시가 되었습니다. 도시민 대부분은 이탈리아의 지배에 분개하고 있지만, 아덴 병기창은 이탈리아가 유일하게 예멘과 가까우면서도 영향을 받지 않는 곳에 군사력을 투영할 수 있는 유일한 주요 거점으로 남아 있습니다."
  
  YEM_saudi_influence:0 "사우디의 영향"
- YEM_saudi_influence_desc:0 "Yemen is nominally a Saudi protectorate, but the Italians have little way of actually influencing the court, and seldomly leave their stronghold in Yemen except for occasional forays to punish rebellious tribal leaders. In recent times, the Yemeni King has been finding itself more and more reliant on Saudi money and political support to keep itself afloat against internal opposition - but there are those who are bitterly opposed to Riyadh's newfound interest in the southern Kingdom."
+ YEM_saudi_influence_desc:0 "예멘은 명목상으로는 사우디의 보호국이고, 이탈리아가 그 곳에 실제로 영향을 끼칠 수 있는 일은 거의 없으며 가끔 반역적인 부족 지도자들을 처벌하기 위한 급습 외에는 예멘의 교두보를 떠나는 일이 거의 없습니다. 최근들어 예멘 국왕은 점점 사우디의 돈과 정치적 지원에 의존하고 있으며 내부에서는 리야드가 남쪽의 왕국에 새롭게 관심을 가지게 된 것에 대해 몹시 반대하는 사람들이 있습니다."
  
- YEM_tribes_and_Sects:0 "Tribes and Sects"
- YEM_tribes_and_Sects_desc:0 "Yemen's landscape is predominantly mountainous, hilly and rural - and while the King and Imam nominally rules from his palace in Sana'a, power in the countryside resides in the hands of the numerous tribes populating it. What's worse, while the ruling minority in the country is Zaidi, the majority of the Yemeni population is Sunni, adding another layer of sectarianism to an already divided country. In response, many of the Yemeni youth are increasingly turning a reformist, pan-Yemeni ideology to finally bring change to the country."
+ YEM_tribes_and_Sects:0 "부족과 종파"
+ YEM_tribes_and_Sects_desc:0 "예멘의 풍경은 거의 대부분 산지, 언덕, 시골로 가득합니다. 그리고 국왕과 이맘은 명목상 사나에 있는 궁전만을 지배하는 한편, 넓은 시골에는 수많은 부족들이 각자 지배하고 있습니다. 더 심각한 것은 이 나라의 지배적인 소수민족이 자이드파인 반면 예멘인의 대다수는 수니파로 이미 분단된 나라에서 종파주의가 더해졌습니다. 이에 예멘 젊은이중의 많은 수가 개혁적인 범예멘주의로 이념을 차츰 변화하면서 나라에 변화를 가져오고 있습니다."
 
 ##############
 ###ARAB WAR###
 ##############
 
 #events
- YEM.40.t:0 "Prelude 1"
+ YEM.40.t:0 "전조 1"
  YEM.40.desc:0 ""
  YEM.40.a:0 ""
  
- YEM.41.t:0 "Prelude 2"
+ YEM.41.t:0 "전조 2"
  YEM.41.desc:0 ""
  YEM.41.a:0 ""
  
- YEM.50.t:0 "Coup Attempt"
+ YEM.50.t:0 "쿠데타 시도"
  YEM.50.desc:0 ""
- YEM.50.a:0 "[Play as Yemen Arab Republic]"
- YEM.50.b:0 "Destroy these Rebels"
+ YEM.50.a:0 "[예멘 아랍 공화국으로 플레이하기]"
+ YEM.50.b:0 "이 반군을 무너뜨러라"
  
- YEM.51.t:0 "War Starts"
+ YEM.51.t:0 "전쟁의 시작"
  YEM.51.desc:0 ""
  YEM.51.a:0 ""
  
- YEM.52.t:0 "Italian Involvement"
+ YEM.52.t:0 "이탈리아의 개입"
  YEM.52.desc:0 ""
  YEM.52.a:0 ""
  
  YEM.53.t:0 "예멘 아랍 공화국"
  YEM.53.desc:0 "A civil war has broken out in the sandy, mountainous, wasteland known as the Mutawakkilite Kingdom of Yemen, and it is in our interest to support the rebels fighting against the remote Arabian kingdom.\n\nThe rebels are fighting for an Arab Republic in the name of an ideology called "Ba'athism," which is a Pan-Arab nationalist and pseudo-socialist movement whose ideological intricacies are very complex and complicated. What is important is that they are challenging Italian and Saudi influence in the oil-rich Gulf region and factions of their movement are sympathetic to Germany.\n\nIf we send aid to these Ba'athist rebels and they successfully topple their Italian lapdog of a monarch, we could see our own geopolitical influence and economic power expand."
- YEM.53.a:0 "Another piece on the global chessboard."
+ YEM.53.a:0 "세계의 체스판에 또 다른 작품이 만들어졌군."
  
- YEM.54.t:0 "IJN Destroyer Sunk off Yemen!"
+ YEM.54.t:0 "일본 구축함이 예멘 앞바다에서 침몰하다!"
  YEM.54.desc:0 ""
  YEM.54.a:0 ""
  
 #decisions
  ITA_arab_war_category:0 "아랍 전쟁"
- ita_yem:0 "Intervene in Yemen"
- increase_advisor_force_ita:0 "Increase Special Forces Deployment"
- initiate_policing_action_ita:0 "Boots on the Ground"
- increase_policing_action_ita:0 "Increase Regular Forces Deployment"
- GER_arab_war_category:0 "The Arab War"
- ger_yem:0 "Support the Ba'athists"
- increase_advisor_force_ger:0 "Increase Advisor Force"
- initiate_policing_action_ger:0 "Die Arabische Armee"
- increase_policing_action_ger:0 "Increase 'Volunteer' Deployment"
- JAP_arab_war_category:0 "The Arab War"
- jap_yem:0 "Intervene in Yemen"
- increase_advisor_force_jap:0 "Increase Special Forces Deployment"
- initiate_policing_action_jap:0 "Boots on the Ground"
- increase_policing_action_jap:0 "Increase Regular Forces Deployment"
+ ita_yem:0 "예멘 개입"
+ increase_advisor_force_ita:0 "특수부대 배치 증가"
+ initiate_policing_action_ita:0 "현장에 군 파견"
+ increase_policing_action_ita:0 "정규군 배치 증가"
+ GER_arab_war_category:0 "아랍 전쟁"
+ ger_yem:0 "바트주의자 지원"
+ increase_advisor_force_ger:0 "고문단 증파"
+ initiate_policing_action_ger:0 "아랍군"
+ increase_policing_action_ger:0 "'의용군' 배치 증가"
+ JAP_arab_war_category:0 "아랍 전쟁"
+ jap_yem:0 "예멘 개입"
+ increase_advisor_force_jap:0 특수부대 배치 증가"
+ initiate_policing_action_jap:0 "현장에 군 파견"
+ increase_policing_action_jap:0 "정규군 배치 증가"
  
 #ideas
  YEM_civil_war:0 "예멘 내전"
