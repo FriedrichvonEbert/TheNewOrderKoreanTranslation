@@ -20,9 +20,9 @@ SGR_siemens_expository_text:0 "§W에른스트 폰 지멘스§!는 그의 동료
 
 SGR_GDP_entry_1:0 "졸페어라인 GDP:  §W$§![?reich_GDP|2|W]§WB§! | [?zollvereinGDP_growth|%W2]"
 SGR_slave_entry_scripted_loc:0 "[getSGRSlaveryStatus]"
-SGR_slave_entry_1:0 "노예: [?Reich_SlavesNum_m|3|R] §R백만 달러§!"
+SGR_slave_entry_1:0 "노예: [?Reich_SlavesNum_m|3|R] §R백만 명§!"
 SGR_slavery_abolished_entry:0 "§G노예제 폐지§!"
-SGR_workforce_entry_1:0 "숙련 노동자: [?displayCurrentWorkforce|4|W] §W백만 달러§! | [?displayCivPercentage|%W2]"
+SGR_workforce_entry_1:0 "숙련 노동자: [?displayCurrentWorkforce|4|W] §W백만 명§! | [?displayCivPercentage|%W2]"
 
 #Overview scripted loc
 
@@ -41,10 +41,10 @@ zv_quarterly_budget_tt:0 "§Q총 예산§!과 §Y할당량§!은 업데이트 �
 # Oil Crisis #
 
 SGR_ZV_debt_reduction:0 "빚 상환"
-SGR_ZV_debt_reduction_desc:0 "Although not exactly the most elegant solution to our mounting debt problem, the Zollverein's budget can and will nonetheless serve as a source for money to pay off our state debt."
-SGR_ZV_debt_reduction_cost:0 "§Y150M§! £GFX_dollar_sign"
-SGR_ZV_debt_reduction_cost_blocked:0 "§R150M§! £GFX_dollar_sign"
-SGR_ZV_debt_reduction_tt:0 "§W§RDebt§! and §RInterest Rates§! will decrease by §Y200M USD§! and §Y1.5%§! respectively.§!"
+SGR_ZV_debt_reduction_desc:0 "우리의 산더미같은 부채 문제에 대하여 가장 우아한 해결책은 아닐테지만, 졸페어라인의 예산은 그럼에도 불구하고 우리의 국채 상환금을 제공할 원천의 역할을 할 수 있고, 할 것입니다."
+SGR_ZV_debt_reduction_cost:0 "§Y1억 5천§! £GFX_dollar_sign"
+SGR_ZV_debt_reduction_cost_blocked:0 "§R1억 5천§! £GFX_dollar_sign"
+SGR_ZV_debt_reduction_tt:0 "§W§R채무§! 및 §R이율§!은 각각 §Y2억 달러§! 그리고 §Y1.5%§!로 감소할 것입니다.§!"
 
 SGR_ZV_oil_exploration:0 "유정 탐사"
 SGR_ZV_oil_exploration_desc:0 "Oil has become the lifeblood of modern civilization, and it is this crisis that is showing us just how valuable that lifeblood really is. Untapped oil reserves exist in our country - it is time to access them."
