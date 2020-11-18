@@ -39,7 +39,7 @@
 ```
 번역 예시:
   TNO_and_KORLOCAL:0 "§YThe New Order§! and §YKorean Translation§!"
-  TNO_and_KORLOCAL:0 "§뉴 오더§!와 §Y한국어 번역§!"
+  TNO_and_KORLOCAL:0 "§Y뉴 오더§!와 §Y한국어 번역§!"
   camel_corps_tech_effect:0 "Enables §HCamel Corps§!\n§HCavalry\n    Desert§!\n      Attack: §G+15%§!\n"
   camel_corps_tech_effect:0 "§H낙타 부대§! 활성화\n§H기병\n    사막§!\n      공격: §G+15%§!\n"
 ```
