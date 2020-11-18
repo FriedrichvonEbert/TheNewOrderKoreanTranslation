@@ -63,6 +63,7 @@
   - [한글라이즈](https://hangulize.org) - 각 언어에 맞는 글자를 넣어야 정상적으로 출력됩니다.
   - [한어병음/일문가나 한글표기 변환 도구](https://boncho.kiom.re.kr/tool/index.htm) - 중국어를 로마자로 표기한 것을 넣으면 변환이 됩니다.
   - [한국어 맞춤법/문법 검사기](http://speller.cs.pusan.ac.kr/) - 번역 후에 어색한 느낌이 든다면 사용해보세요. 강한 규칙 적용을 권장드립니다.
+  - [키릴 문자/알파벳 변환 도구](https://www.lexilogos.com/keyboard/russian_conversion.htm) - 알파벳으로 적힌 러시아어를 키릴 문자 표기로 변환하는 도구입니다.
 ***
 
 ## 번역팀 자매 프로젝트   
