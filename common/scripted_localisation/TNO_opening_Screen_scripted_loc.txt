@@ -1,0 +1,923 @@
+defined_text = {
+	name = GET_CLOSEBUTTON_TEXT
+
+	## West Russia
+	text = {
+		trigger = { tag = KIR }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_KIR
+	}
+	text = {
+		trigger = { tag = PRM }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_PRM
+	}
+	text = {
+		trigger = { tag = NIK }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_NIK
+	}
+
+	## West Siberia
+	text = {
+		trigger = { tag = TOB }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_TOB
+	}
+	text = {
+		trigger = { tag = OMS }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_OMS
+	}
+	text = {
+		trigger = { tag = WRS }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_WRS
+	}
+
+	## Central Siberia
+	text = {
+		trigger = { tag = KHA }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_KHA
+	}
+
+	## Far East
+	text = {
+		trigger = { tag = WCH }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_WCH
+	}
+	text = {
+		trigger = { tag = AMR }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_AMR
+	}
+	text = {
+		trigger = { tag = BRY }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_BRY
+	}
+
+	## Afrikan RKs
+	text = {
+		trigger = {
+			OR = {
+				tag = MZB
+				tag = ANG
+				tag = COG
+				tag = MAD
+			}
+		}
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_RKS
+	}
+
+	## South Afrika
+	text = {
+		trigger = { tag = SAF }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_SAF
+	}
+
+	##USA
+	text = {
+		trigger = { tag = USA }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_USA
+	}
+	##Wales
+	text = {
+		trigger = { tag = WAL }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_WAL
+	}
+	##Scotland
+	text = {
+		trigger = { tag = SCO }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_SCO
+	}
+	##England
+	text = {
+		trigger = { tag = ENG }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_ENG
+	}
+	##Iberia
+	text = {
+		trigger = { tag = IBR }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_IBR
+	}
+	##Brittany
+	text = {
+		trigger = { tag = BRT }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_BRT
+	}
+	##Indonesia
+	text = {
+		trigger = { tag = INS }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_INS
+	}
+	##China
+	text = {
+		trigger = { tag = CHI }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_CHI
+	}
+	##Japan
+	text = {
+		trigger = { tag = JAP }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_JAP
+	}
+	##Germany
+	text = {
+		trigger = { tag = GER }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GER
+	}
+	text = {
+		trigger = { tag = OST }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GER
+	}
+
+	##Germany
+	text = {
+		trigger = { tag = BRG }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_BRG
+	}
+	##Italy
+	text = {
+		trigger = { tag = ITA }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_ITA
+	}
+	##Ireland
+	text = {
+		trigger = { tag = IRE }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_IRE
+	}
+	## Default
+	text = {
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GEN
+	}
+}
+
+defined_text = {
+	name = GET_CURRENT_INTRO_TEXT
+
+	text = {
+		trigger = { check_variable = { TNO_Opening_Screen = 1 } }
+		localization_key = "[GET_COUNTRY_INFO]"
+	}
+
+	text = {
+		trigger = { check_variable = { TNO_Opening_Screen = 2 } }
+		localization_key = "[GET_REGIONAL_INFO]"
+	}
+
+	text = {
+		trigger = { check_variable = { TNO_Opening_Screen = 3 } }
+		localization_key = "[GET_MOD_FEATURES_PAGE_TEXT]"
+	}
+
+	text = {
+		trigger = { check_variable = { TNO_Opening_Screen = 4 } }
+		localization_key = MOD_INFO_TEXT
+	}
+}
+
+defined_text = {
+	name = GET_MOD_FEATURES_PAGE_TEXT
+	text = {
+		trigger = { check_variable = { FEATURES_INFO_PAGE = 0 } }
+		localization_key = MOD_FEATURES_TEXT_1
+	}
+	text = {
+		trigger = { check_variable = { FEATURES_INFO_PAGE = 1 } }
+		localization_key = MOD_FEATURES_TEXT_2
+	}
+}
+
+defined_text = {
+	name = GET_CLOSING_SCREEN_TEXT
+	text = {
+		trigger = { check_variable = { ENDING_INFO_PAGE = 0 } }
+		localization_key = CLOSING_SCREEN_TEXT_1
+	}
+	text = {
+		trigger = { check_variable = { ENDING_INFO_PAGE = 1 } }
+		localization_key = CLOSING_SCREEN_TEXT_2
+	}
+}
+
+defined_text = {
+	name = GET_COUNTRY_INFO_PAGE_TEXT_GER
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_GER
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_GER
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_GER
+	}
+}
+
+defined_text = {
+	name = GET_COUNTRY_INFO_PAGE_TEXT_USA
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_USA
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_USA
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_USA
+	}
+}
+
+defined_text = {
+	name = GET_COUNTRY_INFO_PAGE_TEXT_NIK
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_NIK
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_NIK
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_NIK
+	}
+}
+
+defined_text = {
+	name = GET_COUNTRY_INFO_PAGE_TEXT_WRRF
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_WRRF
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_WRRF
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_WRRF
+	}
+}
+
+defined_text = {
+	name = GET_COUNTRY_INFO
+	## Countries with Opening pages
+	text = {
+		trigger = { tag = USA }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_USA]"
+	}
+	text = {
+		trigger = { tag = GER }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_GER]"
+	}
+	text = {
+		trigger = { tag = WRS }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_WRRF]"
+	}
+	## West Russia
+	text = {
+		trigger = { tag = NIK }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_NIK]"
+	}
+	text = {
+		trigger = { tag = KIR }
+		localization_key = COUNTRY_INFO_VYATKA
+	}
+	text = {
+		trigger = { tag = PRM }
+		localization_key = COUNTRY_INFO_ARYAN_BROTHERHOOD
+	}
+	text = {
+		trigger = { tag = SAM }
+		localization_key = COUNTRY_INFO_SAMARA
+	}
+	text = {
+		trigger = { tag = VTY }
+		localization_key = COUNTRY_INFO_ONEGA
+	}
+
+	## West Siberia
+	text = {
+		trigger = { tag = ISH }
+		localization_key = COUNTRY_INFO_TYUMEN
+	}
+	text = {
+		trigger = { tag = TOB }
+		localization_key = COUNTRY_INFO_SVERDLOVSK
+	}
+	text = {
+		trigger = { tag = OMS }
+		localization_key = COUNTRY_INFO_OMSK
+	}
+	text = {
+		trigger = { tag = UDM }
+		localization_key = COUNTRY_INFO_ZLATOUST
+	}
+
+	## Central Siberia
+	text = {
+		trigger = { tag = ERS }
+		localization_key = COUNTRY_INFO_TOMSK
+	}
+	text = {
+		trigger = { tag = KEM }
+		localization_key = COUNTRY_INFO_KEMEROVO
+	}
+	text = {
+		trigger = { tag = KHA }
+		localization_key = COUNTRY_INFO_SBA
+	}
+	text = {
+		trigger = { tag = PAV }
+		localization_key = COUNTRY_INFO_NOVOSIBIRSK
+	}
+	text = {
+		trigger = { tag = SVO }
+		localization_key = COUNTRY_INFO_PRC
+	}
+
+	## Far East
+	text = {
+		trigger = { tag = AMR }
+		localization_key = COUNTRY_INFO_AMUR
+	}
+	text = {
+		trigger = { tag = MAG }
+		localization_key = COUNTRY_INFO_MAGADAN
+	}
+	text = {
+		trigger = { tag = WCH }
+		localization_key = COUNTRY_INFO_CHITA
+	}
+	text = {
+		trigger = { tag = BRY }
+		localization_key = COUNTRY_INFO_BURYATIA
+	}
+	text = {
+		trigger = { tag = IRK }
+		localization_key = COUNTRY_INFO_IRKUTSK
+	}
+
+	## Ural Four
+	text = {
+		trigger = { tag = URL }
+		localization_key = COUNTRY_INFO_URAL
+	}
+
+	text = {
+		trigger = { tag = ORE }
+		localization_key = COUNTRY_INFO_ORENBURG
+	}
+
+	text = {
+		trigger = { tag = BAS }
+		localization_key = COUNTRY_INFO_LYSENKO
+	}
+
+	text = {
+		trigger = { tag = ORS }
+		localization_key = COUNTRY_INFO_DIRLEWANGER
+	}
+
+	## South Africa Lads:
+	text = {
+		trigger = { tag = MZB }
+		localization_key = COUNTRY_INFO_OSTAFRIKA
+	}
+	text = {
+		trigger = { tag = ANG }
+		localization_key = COUNTRY_INFO_SUDWESTAFRIKA
+	}
+	text = {
+		trigger = { tag = COG }
+		localization_key = COUNTRY_INFO_ZENTRALAFRIKA
+	}
+	text = {
+		trigger = { tag = SAF }
+		localization_key = COUNTRY_INFO_SOUTHAFRICA
+	}
+	text = {
+		trigger = { tag = MAD }
+		localization_key = COUNTRY_INFO_MADAGASKAR
+	}
+	## Britain
+	text = {
+		trigger = { tag = WAL }
+		localization_key = COUNTRY_INFO_WAL
+	}
+	text = {
+		trigger = { tag = SCO }
+		localization_key = COUNTRY_INFO_SCO
+	}
+	text = {
+		trigger = { tag = ENG }
+		localization_key = COUNTRY_INFO_ENG
+	}
+	text = {
+		trigger = { tag = IRE }
+		localization_key = COUNTRY_INFO_IRE
+	}
+	## Iberia
+	text = {
+		trigger = { tag = IBR }
+		localization_key = COUNTRY_INFO_IBERIA
+	}
+	## Brittany
+	text = {
+		trigger = { tag = BRT }
+		localization_key = COUNTRY_INFO_BRITTANY
+	}
+	## Asia
+	text = {
+		trigger = { tag = YUN }
+		localization_key = COUNTRY_INFO_YUNNAN
+	}
+	text = {
+		trigger = { tag = INS }
+		localization_key = COUNTRY_INFO_INDONESIA
+	}
+	text = {
+		trigger = { tag = CHI }
+		localization_key = COUNTRY_INFO_CHINA
+	}
+	text = {
+		trigger = { tag = JAP }
+		localization_key = COUNTRY_INFO_JAPAN
+	}	
+	## Burgundy
+	text = {
+		trigger = { tag = BRG }
+		localization_key = COUNTRY_INFO_BURGUNDY
+	}
+	## Ostland
+	text = {
+		trigger = { tag = OST }
+		localization_key = COUNTRY_INFO_OSTLAND
+	}
+
+	## Italy / Italosphere
+	text = {
+		trigger = { tag = ITA }
+		localization_key = COUNTRY_INFO_ITALY
+	}
+	
+	## Default
+	text = {
+		localization_key = COUNTRY_INFO_NO_CONTENT
+	}
+}
+
+defined_text = {
+	name = GET_REGIONAL_INFO
+
+	## West Russia
+	text = {
+		trigger = {
+			is_central_russian_nation = yes
+		}
+		localization_key = REGIONAL_INFO_WEST_RUSSIA
+	}
+	## West Siberia
+	text = {
+		trigger = {
+			is_west_siberian_nation = yes
+		}
+		localization_key = REGIONAL_INFO_WEST_SIBERIA
+	}
+	## Central Siberia
+	text = {
+		trigger = {
+			is_central_siberian_nation = yes
+		}
+		localization_key = REGIONAL_INFO_CENTRAL_SIBERIA
+	}
+	## The Far East
+	text = {
+		trigger = {
+			is_far_eastern_nation = yes
+		}
+		localization_key = REGIONAL_INFO_FAR_EAST
+	}
+	## Southern Urals
+	text = {
+		trigger = {
+			OR = {
+				tag = URL
+				tag = ORE
+				tag = BAS
+				tag = ORS
+			}
+		}
+		localization_key = REGIONAL_INFO_URAL
+	}
+	## South Africa
+	text = {
+		trigger = {
+			OR = {
+				tag = MZB
+				tag = ANG
+				tag = COG
+				tag = SAF
+				tag = MAD
+			}
+		}
+		localization_key = REGIONAL_INFO_AFRICA
+	}
+	## North America
+	text = {
+		trigger = {
+			OR = {
+				tag = WIN
+				tag = MEX
+				tag = CAN
+				tag = USA
+			}
+		}
+		localization_key = REGIONAL_INFO_AMERICA
+	}
+	## East Asia
+	text = {
+		trigger = {
+			OR = {
+				tag = JAP
+				tag = CHI
+				tag = INS
+				tag = PHI
+				tag = FRI
+				tag = YUN
+			}
+		}
+		localization_key = REGIONAL_INFO_EAST_ASIA
+	}
+	## Europe
+	text = {
+		trigger = {
+			OR = {
+				tag = IME
+				tag = ILG
+				tag = ITA
+				tag = IBR
+				tag = BRG
+				tag = GER
+				tag = OST
+				tag = NOR
+				tag = CZE
+				tag = TUR
+				tag = FRA
+				tag = BRT
+				tag = UKR
+				tag = EGY
+				tag = SLG
+				tag = SWI
+				tag = DEN
+				tag = FIN
+				tag = SWE
+			}
+		}
+		localization_key = REGIONAL_INFO_EUROPE
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = WAL
+				tag = SCO
+				tag = IRE
+				tag = ULS
+				tag = CRN
+			}
+		}
+		localization_key = REGIONAL_INFO_ENGLAND
+	}
+	## Default
+	text = {
+		localization_key = REGIONAL_INFO_NO_CONTENT
+	}
+}
+
+defined_text = {
+	name = GET_REGIONALSYMBOL
+
+	## West Russia
+	text = {
+		trigger = {
+			is_central_russian_nation = yes
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_WEST_RUSSIA"
+	}
+	## West Siberia
+	text = {
+		trigger = {
+			is_west_siberian_nation = yes
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_WEST_SIBERIA"
+	}
+	## Central Siberia
+	text = {
+		trigger = {
+			is_central_siberian_nation = yes
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_CENTRAL_SIBERIA"
+	}
+	## The Far East
+	text = {
+		trigger = {
+			is_far_eastern_nation = yes
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_FAR_EAST"
+	}
+	## Southern Urals
+	text = {
+		trigger = {
+			OR = {
+				tag = URL
+				tag = ORE
+				tag = BAS
+				tag = ORS
+			}
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_URALS"
+	}
+	## South Africa
+	text = {
+		trigger = {
+			OR = {
+				tag = MZB
+				tag = ANG
+				tag = COG
+				tag = SAF
+				tag = MAD
+			}
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_SOUTHERN_AFRICA"
+	}
+	## North America
+	text = {
+		trigger = {
+			OR = {
+				tag = WIN
+				tag = MEX
+				tag = CAN
+				tag = USA
+			}
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_AMERICA"
+	}
+	## East Asia
+	text = {
+		trigger = {
+			OR = {
+				tag = JAP
+				tag = CHI
+				tag = INS
+				tag = PHI
+				tag = FRI
+				tag = YUN
+			}
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_EASTERN_ASIA"
+	}
+	## Europe
+	text = {
+		trigger = {
+			OR = {
+				tag = IME
+				tag = ILG
+				tag = ITA
+				tag = IBR
+				tag = BRG
+				tag = GER
+				tag = OST
+				tag = NOR
+				tag = CZE
+				tag = TUR
+				tag = FRA
+				tag = BRT
+				tag = UKR
+				tag = EGY
+				tag = SLG
+				tag = SWI
+				tag = DEN
+				tag = FIN
+				tag = SWE
+			}
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_EUROPE"
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = WAL
+				tag = SCO
+				tag = IRE
+				tag = ULS
+				tag = CRN
+			}
+		}
+		localization_key = "GFX_TNO_OpeningScreen_Region_ENGLAND"
+	}
+	## Default
+	text = {
+		localization_key = "GFX_TNO_OpeningScreen_Region_EUROPE"
+	}
+}
+
+defined_text = {
+	name = GET_POSTER
+	#Iberia
+	text = {
+		trigger = { tag = IBR }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Iberia"
+	}
+	## West Russia
+	text = {
+		trigger = { tag = KIR }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Vyatka"
+	}
+	text = {
+		trigger = { tag = PRM }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Aryan_Brotherhood"
+	}
+	text = {
+		trigger = { tag = VTY }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Onega"
+	}
+	text = {
+		trigger = { tag = SAM }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Samara"
+	}
+	text = {
+		trigger = { tag = WRS }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_WRRF"
+	}
+	text = {
+		trigger = { tag = NIK }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Komi"
+	}
+
+	## West Siberia
+	text = {
+		trigger = { tag = ISH }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Tyumen"
+	}
+	text = {
+		trigger = { tag = TOB }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Sverdlovsk"
+	}
+	text = {
+		trigger = { tag = OMS }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Omsk"
+	}
+	text = {
+		trigger = { tag = UDM }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Zlatoust"
+	}
+
+	## Central Siberia
+	text = {
+		trigger = { tag = KEM }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Kemerovo"
+	}
+	text = {
+		trigger = { tag = ERS }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Tomsk"
+	}
+	text = {
+		trigger = { tag = KHA }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_SBA"
+	}
+	text = {
+		trigger = { tag = PAV }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Novosibirsk"
+	}
+	text = {
+		trigger = { tag = SVO }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_PRC"
+	}
+
+	## The Far East
+	text = {
+		trigger = { tag = AMR }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Amur"
+	}
+	text = {
+		trigger = { tag = MAG }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Magadan"
+	}
+	text = {
+		trigger = { tag = WCH }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Chita"
+	}
+	text = {
+		trigger = { tag = BRY }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Buryatia"
+	}
+	text = {
+		trigger = { tag = IRK }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Irkutsk"
+	}
+
+	## Ural Four
+	text = {
+		trigger = { tag = URL }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_UralGuard"
+	}
+	text = {
+		trigger = { tag = ORE }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Orenburg"
+	}
+	text = {
+		trigger = { tag = BAS }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Magnitogorsk"
+	}
+	text = {
+		trigger = { tag = ORS }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Dirlewanger"
+	}
+
+	## South African Lads
+	text = {
+		trigger = { tag = SAF }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_SouthAfrica"
+	}
+	text = {
+		trigger = { tag = ANG }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Sudwest"
+	}
+	text = {
+		trigger = { tag = COG }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Zentral"
+	}
+	text = {
+		trigger = { tag = MZB }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Ostafrika"
+	}
+	text = {
+		trigger = { tag = MAD }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Madagaskar"
+	}
+	text = {
+		trigger = { tag = USA }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_USA"
+	}
+	##Britain
+	text = {
+		trigger = { tag = WAL }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Wales"
+	}
+	text = {
+		trigger = { tag = SCO }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Scotland"
+	}
+	text = {
+		trigger = { tag = ENG }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_England"
+	}
+	text = {
+		trigger = { tag = IRE }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Ireland"
+	}
+	##Reich and Pakt
+	text = {
+		trigger = { tag = GER }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Germany"
+	}
+	text = {
+		trigger = { tag = OST }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Ostland"
+	}
+	text = {
+		trigger = { tag = BRG }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Burgundy"
+	}
+	##Italy
+	text = {
+		trigger = { tag = ITA }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Italy"
+	}
+	##Brittany
+	text = {
+		trigger = { tag = BRT }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Brittany"
+	}
+	## Asia
+	text = {
+		trigger = { tag = YUN }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Yunnan"
+	}
+	text = {
+		trigger = { tag = INS }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Indonesia"
+	}
+	text = {
+		trigger = { tag = CHI }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_China"
+	}
+	##Japan
+	text = {
+		trigger = { tag = JAP }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Japan"
+	}
+	## Default
+	text = {
+		localization_key = "GFX_TNO_OpeningScreen_Poster_ChairmanPink"
+	}
+}

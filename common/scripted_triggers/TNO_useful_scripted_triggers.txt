@@ -1,0 +1,842 @@
+TNO_has_big_opening_screen = {
+	OR = {
+		tag = NIK
+		tag = USA
+		tag = GER
+		tag = WRS
+	}
+}
+
+
+#
+#	Credit to the Kaiserreich team
+#
+
+# checks whether the country in scope has the same government as ROOT (the country running the event/focus)
+has_same_government_as_ROOT = {
+	OR = {
+		AND = {
+			has_government = communist
+			ROOT = { has_government = communist }
+		}
+		AND = {
+			has_government = socialist
+			ROOT = { has_government = socialist }
+		}
+		#		AND = {
+			#			has_government = radical_socialist
+			#			ROOT = { has_government = radical_socialist }
+			#	}
+		AND = {
+			has_government = social_democrat
+			ROOT = { has_government = social_democrat }
+		}
+		AND = {
+			has_government = social_liberal
+			ROOT = { has_government = social_liberal }
+		}
+		AND = {
+			has_government = market_liberal
+			ROOT = { has_government = market_liberal }
+		}
+		AND = {
+			has_government = social_conservative
+			ROOT = { has_government = social_conservative }
+		}
+		AND = {
+			has_government = authoritarian_democrat
+			ROOT = { has_government = authoritarian_democrat }
+		}
+		AND = {
+			has_government = despotism
+			ROOT = { has_government = despotism }
+		}
+		AND = {
+			has_government = fascism
+			ROOT = { has_government = fascism }
+		}
+		AND = {
+			has_government = national_socialism
+			ROOT = { has_government = national_socialism }
+		}
+		AND = {
+			has_government = ultranational_socialism
+			ROOT = { has_government = ultranational_socialism }
+		}
+		AND = {
+			has_government = burgundian_system
+			ROOT = { has_government = burgundian_system }
+		}
+	}
+}
+
+# checks for these three government types for the country in scope
+has_socialist_government = {
+	OR = {
+		has_government = communist
+		has_government = socialist
+		#		has_government = radical_socialist
+	}
+}
+
+# checks for these four government types for the country in scope
+has_elected_government = {
+	OR = {
+		has_government = social_democrat
+		has_government = social_liberal
+		has_government = market_liberal
+		has_government = social_conservative
+	}
+}
+
+# checks for these five government types for the country in scope
+has_democratic_government = {
+	OR = {
+		has_government = social_democrat
+		has_government = social_liberal
+		has_government = market_liberal
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+	}
+}
+
+# checks for these two government types for the country in scope
+has_authoritarian_government = {
+	OR = {
+		has_government = authoritarian_democrat
+		has_government = despotism
+		has_government = fascism
+		has_government = national_socialism
+		has_government = ultranational_socialism
+		has_government = burgundian_system
+	}
+}
+
+# checks for these two government types for the country in scope
+has_dictatorship_government = {
+	OR = {
+		has_government = despotism
+		has_government = fascism
+		has_government = national_socialism
+		has_government = ultranational_socialism
+		has_government = burgundian_system
+	}
+}
+
+# checks whether the country in scope has the same government type as ROOT (the country running the event/focus)
+# note that it's not the exact same government - just the general type, as above
+same_government_type_as_ROOT = {
+	OR = {
+		AND = {
+			has_socialist_government = yes
+			ROOT = { has_socialist_government = yes }
+		}
+		AND = {
+			has_democratic_government = yes
+			ROOT = { has_democratic_government = yes }
+		}
+		AND = {
+			has_dictatorship_government = yes
+			ROOT = { has_dictatorship_government = yes }
+		}
+	}
+}
+
+### CHECK STATES IN CONTINENT ###
+# fire in STATE scope
+
+is_in_asia = {
+	is_on_continent = asia
+}
+
+is_in_europe = {
+	is_on_continent = europe
+}
+
+is_in_africa = {
+	is_on_continent = africa
+}
+
+is_in_north_america = {
+	is_on_continent = north_america
+}
+
+is_in_south_america = {
+	is_on_continent = south_america
+}
+
+is_in_middle_east = {
+	is_on_continent = middle_east
+}
+
+is_in_australia = {
+	is_on_continent = australia
+}
+
+# the following triggers will check if the country in scope is on a particular continent
+# note that these are continents as per the game - asia and middle-east are considered separate continents
+
+# checks whether the country in scope is in the same continent as ROOT (the country running the event)
+same_continent_as_ROOT = {
+	OR = {
+		AND = {
+			is_in_asia = yes
+			ROOT = { is_in_asia = yes }
+		}
+		AND = {
+			is_in_europe = yes
+			ROOT = { is_in_europe = yes }
+		}
+		AND = {
+			is_in_africa = yes
+			ROOT = { is_in_africa = yes }
+		}
+		AND = {
+			is_in_north_america = yes
+			ROOT = { is_in_north_america = yes }
+		}
+		AND = {
+			is_in_south_america = yes
+			ROOT = { is_in_south_america = yes }
+		}
+		AND = {
+			is_in_middle_east = yes
+			ROOT = { is_in_middle_east = yes }
+		}
+		AND = {
+			is_in_australia = yes
+			ROOT = { is_in_australia = yes }
+		}
+	}
+}
+
+# checks whether the state in scope is on the same continent as ROOT (the country running the event)
+state_same_continent_as_ROOT = {
+	OR = {
+		AND = {
+			is_on_continent = asia
+			ROOT = { is_in_asia = yes }
+		}
+		AND = {
+			is_on_continent = europe
+			ROOT = { is_in_europe = yes }
+		}
+		AND = {
+			is_on_continent = africa
+			ROOT = { is_in_africa = yes }
+		}
+		AND = {
+			is_on_continent = north_america
+			ROOT = { is_in_north_america = yes }
+		}
+		AND = {
+			is_on_continent = south_america
+			ROOT = { is_in_south_america = yes }
+		}
+		AND = {
+			is_on_continent = middle_east
+			ROOT = { is_in_middle_east = yes }
+		}
+		AND = {
+			is_on_continent = australia
+			ROOT = { is_in_australia = yes }
+		}
+	}
+}
+
+### world news triggers
+# fix these fucking scopes
+
+#wants_world_news = {
+	#	OR = {
+		#		has_global_flag = NEWS_ALL
+		#		has_global_flag = NEWS_SOME
+		#	}
+	#}
+#
+#regional_europe_news = {
+	#	OR = {
+		#		has_global_flag = NEWS_ALL
+		#		is_in_europe = yes
+		#		any_neighbor_country = { is_in_europe = yes }
+		#	}
+	#}
+#
+#regional_asia_news = {
+	#	OR = {
+		#		has_global_flag = NEWS_ALL
+		#		is_in_asia = yes
+		#		any_neighbor_country = { is_in_asia = yes }
+		#		is_in_australia = yes
+		#	}
+	#}
+#
+#regional_africa_news = {
+	#	OR = {
+		#		has_global_flag = NEWS_ALL
+		#		is_in_africa = yes
+		#		any_neighbor_country = { is_in_africa = yes }
+		#	}
+	#}
+#
+#regional_north_america_news = {
+	#	OR = {
+		#		has_global_flag = NEWS_ALL
+		#		is_in_north_america = yes
+		#		any_neighbor_country = { is_in_north_america = yes }
+		#	}
+	#}
+#
+#regional_south_america_news = {
+	#	OR = {
+		#		has_global_flag = NEWS_ALL
+		#		is_in_south_america = yes
+		#		any_neighbor_country = { is_in_south_america = yes }
+		#	}
+	#}
+#
+#regional_middle_east_news = {
+	#	OR = {
+		#		has_global_flag = NEWS_ALL
+		#		is_in_middle_east = yes
+		#		any_neighbor_country = { is_in_middle_east = yes }
+		#	}
+	#}
+
+is_nuclear_armed = {
+	OR = {
+		tag = USA
+		tag = GER
+		tag = JAP
+		AND = {
+			tag = BRG
+			BRG = { has_nuclear_socdev = yes }
+		}
+		AND = {
+			tag = RAJ
+			RAJ = { has_nuclear_socdev = yes }
+		}
+		AND = {
+			tag = ITA
+			ITA = { has_nuclear_socdev = yes }
+		}
+		AND = {
+			has_global_flag = RUS_national_unification
+			tag = RUS
+		}
+	}
+}
+has_nuclear_socdev = {
+	OR = {
+		has_idea = tno_nuclear_stockpile_one
+		has_idea = tno_nuclear_stockpile_few
+		has_idea = tno_nuclear_stockpile_many
+		has_idea = tno_nuclear_stockpile_massive
+		has_idea = tno_nuclear_stockpile_apocalyptic
+	}
+}
+is_in_OFN = {
+	is_in_faction_with = USA
+}
+is_in_UnityPakt = {
+	is_in_faction_with = GER
+}
+is_in_Sphere = {
+	is_in_faction_with = JAP
+}
+is_in_Indian_Alliance = {
+	is_in_faction_with = RAJ
+}
+is_indian_nation = {
+	OR = {
+		tag = RAJ
+		tag = INC
+		tag = INF
+		tag = PAK
+		tag = BEN
+		tag = SHK
+		tag = SRI
+		tag = MLD
+		tag = RAO
+		tag = MER
+		tag = TIG
+		tag = KAS
+		tag = RSS
+		#tag = BEN
+	}
+}
+is_indian_nation_icw = {
+	OR = {
+		tag = RAJ
+		tag = INC
+		tag = INF
+		tag = PAK
+		tag = BEN
+		tag = SHK
+		tag = SRI
+		tag = MLD
+		tag = RAO
+		tag = MER
+		tag = TIG
+		tag = KAS
+		tag = RSS
+		#tag = BEN
+	}
+	has_global_flag = ICW_yes
+	has_war = yes
+}
+is_indian_major = {
+	OR = {
+		tag = RAJ
+		tag = INC
+		tag = INF
+		#tag = BEN
+	}
+}
+
+is_iberian_nation = {
+	#custom_trigger_tooltip = is_iberian_nation_tt
+	hidden_trigger = {
+		OR = {
+			original_tag = IBR
+			original_tag = SPR
+			original_tag = SPS
+			original_tag = CTL
+			original_tag = CNT
+			original_tag = BSQ
+			original_tag = FSR
+			original_tag = GNS
+			original_tag = TBA
+			original_tag = POR
+			original_tag = PPR
+			original_tag = RPP
+			original_tag = GIB
+			original_tag = RIF
+			original_tag = MOR
+			original_tag = GAL
+			original_tag = TRZ
+			original_tag = FZL
+			original_tag = ADL
+		}
+	}
+}
+
+is_european_nation = {
+	#custom_trigger_tooltip = is_iberian_nation_tt
+	hidden_trigger = {
+		OR = {
+			original_tag = IBR
+			original_tag = GER
+			original_tag = OST
+			original_tag = ITA
+			original_tag = TUR
+			original_tag = SWI
+			original_tag = OST
+			original_tag = UKR
+			original_tag = SWE
+			original_tag = NOR
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = HOL
+			original_tag = FRA
+			original_tag = BRG
+			original_tag = CRO
+			original_tag = SER
+			original_tag = IBR
+			original_tag = BRT
+			original_tag = BUL
+			original_tag = GRE
+			original_tag = ENG
+			original_tag = FEN
+			original_tag = IRE
+			original_tag = SCO
+			original_tag = WAL
+
+		}
+	}
+}
+
+has_war_with_iberian_nation = {
+	#custom_trigger_tooltip = is_iberian_nation_tt
+	hidden_trigger = {
+		OR = {
+			has_war_with = IBR
+			has_war_with = SPR
+			has_war_with = SPA
+			has_war_with = SPS
+			has_war_with = CTL
+			has_war_with = CNT
+			has_war_with = BSQ
+			has_war_with = FSR
+			has_war_with = GNS
+			has_war_with = ETA
+			has_war_with = TBA
+			has_war_with = POR
+			has_war_with = PRT
+			has_war_with = PPR
+			has_war_with = RPP
+			has_war_with = FML
+			has_war_with = GIB
+			has_war_with = ALG
+			has_war_with = RIF
+			has_war_with = MOR
+			has_war_with = WAI
+			has_war_with = GAL
+			has_war_with = KBY
+			has_war_with = MAU
+			has_war_with = SAH
+		}
+	}
+}
+
+has_war_with_iberian_major = {
+	#custom_trigger_tooltip = is_iberian_nation_tt
+	hidden_trigger = {
+		OR = {
+			has_war_with = IBR
+			has_war_with = SPR
+			has_war_with = SPS
+			has_war_with = FSR
+			has_war_with = GNS
+			has_war_with = POR
+			has_war_with = PPR
+			has_war_with = RPP
+			has_war_with = MOR
+			has_war_with = RIF
+			has_war_with = TRZ
+		}
+	}
+}
+
+owns_enemy_state = {
+	any_controlled_state = {
+		NOT = {
+			is_owned_by = ROOT
+		}
+	}
+}
+
+is_iberian_major = {
+	OR = {
+		original_tag = IBR
+		original_tag = SPR
+		original_tag = SPS
+		original_tag = FSR
+		original_tag = GNS
+		original_tag = FZL
+		original_tag = POR
+		original_tag = PPR
+		original_tag = RPP
+	}
+}
+
+is_iberian_minor = {
+	OR = {
+		original_tag = CTL
+		original_tag = CNT
+		original_tag = BSQ
+		original_tag = TBA
+		original_tag = GIB
+		original_tag = ADL
+		original_tag = GAL
+	}
+}
+claims_catalan_region = {
+	OR = {
+		1084 = {
+			is_claimed_by = ROOT
+		}
+		986 = {
+			is_claimed_by = ROOT
+		}
+		165 = {
+			is_claimed_by = ROOT
+		}
+	}
+}
+
+claims_basque_region = {
+	OR = {
+		1065 = {
+			is_claimed_by = ROOT
+		}
+		984 = {
+			is_claimed_by = ROOT
+		}
+	}
+}
+
+claims_galician_region = {
+	OR = {
+		171 = {
+			is_claimed_by = ROOT
+		}
+		982 = {
+			is_claimed_by = ROOT
+		}
+	}
+}
+
+claims_andalusian_region = {
+	OR = {
+		169 = {
+			is_claimed_by = ROOT
+		}
+		173 = {
+			is_claimed_by = ROOT
+		}
+		1075 = {
+			is_claimed_by = ROOT
+		}
+		988 = {
+			is_claimed_by = ROOT
+		}
+		1074 = {
+			is_claimed_by = ROOT
+		}
+		1073 = {
+			is_claimed_by = ROOT
+		}
+		168 = {
+			is_claimed_by = ROOT
+		}
+	}
+}
+
+claims_castillean_region = {
+	OR = {
+		166 = {
+			is_claimed_by = ROOT
+		}
+		175 = {
+			is_claimed_by = ROOT
+		}
+		170 = {
+			is_claimed_by = ROOT
+		}
+		1068 = {
+			is_claimed_by = ROOT
+		}
+		174 = {
+			is_claimed_by = ROOT
+		}
+		1067 = {
+			is_claimed_by = ROOT
+		}
+		172 = {
+			is_claimed_by = ROOT
+		}
+		176 = {
+			is_claimed_by = ROOT
+		}
+		1066 = {
+			is_claimed_by = ROOT
+		}
+		985 = {
+			is_claimed_by = ROOT
+		}
+	}
+}
+
+claims_nportuguese_region = {
+	OR = {
+		180 = {
+			is_claimed_by = ROOT
+		}
+		1069 = {
+			is_claimed_by = ROOT
+		}
+		1070 = {
+			is_claimed_by = ROOT
+		}
+		181 = {
+			is_claimed_by = ROOT
+		}
+	}
+}
+
+claims_sportuguese_region = {
+	OR = {
+		1072 = {
+			is_claimed_by = ROOT
+		}
+		112 = {
+			is_claimed_by = ROOT
+		}
+		179 = {
+			is_claimed_by = ROOT
+		}
+		1076 = {
+			is_claimed_by = ROOT
+		}
+	}
+}
+
+claims_valencian_region = {
+	OR = {
+		167 = {
+			is_claimed_by = ROOT
+		}
+		987 = {
+			is_claimed_by = ROOT
+		}
+	}
+}
+
+claims_madrid_region = {
+	OR = {
+		41 = {
+			is_claimed_by = ROOT
+		}
+	}
+}
+is_controlled_by_ROOT_or_subject = {
+	controller = {
+		OR = {
+			tag = ROOT
+			is_subject_of = ROOT
+		}
+	}
+}
+has_ROOT_at_least_1_div_in_current_state_scope = {
+	custom_trigger_tooltip = {
+		tooltip = at_least_one_division_in_state
+		ROOT = { divisions_in_state = { state = PREV size > 0 } }
+	}
+}
+
+
+
+has_far_left_ruling_party = {
+	OR = {
+		has_government = communist
+		has_government = socialist
+	}
+}
+
+has_far_right_ruling_party = {
+	OR = {
+		has_government = fascism
+		has_government = national_socialism
+		has_government = ultranational_socialism
+	}
+}
+
+econ_can_add_modifier_military = {
+	NOT = {
+		OR = {
+			has_idea = military_budget_cuts
+			has_idea = military_budget_boost
+			has_idea = military_budget_cuts_heavy
+			has_idea = bankrupt_military
+		}
+	}
+}
+
+econ_can_add_modifier_civilian = {
+	NOT = {
+		OR = {
+			has_idea = civilian_budget_cuts
+			has_idea = civilian_budget_boost
+			has_idea = civilian_budget_cuts_heavy
+			has_idea = bankrupt_civilian
+		}
+	}
+}
+
+econ_can_use_economy_system = {
+	NOT = {
+		is_warlord = yes
+	}
+}
+
+is_warlord = {
+
+	has_country_flag = is_warlord
+	#bottom is too inefficient to constantly check
+
+	#OR = {
+		#	is_in_array = {
+			#		array = global.russian_warlords
+			#		value = THIS
+			#	}
+		#	is_in_array = {
+			#		array = global.african_warlords
+			#		value = THIS
+			#	}
+		#	is_in_array = {
+			#		array = global.chinese_warlords
+			#		value = THIS
+			#	}
+		#}
+}
+
+is_exempt_from_division_limit = {
+	OR = {
+		has_war = yes
+		has_country_flag = anti_goering_preparation
+		any_neighbor_country = { #any neighboring country is over the limit, and not at war with
+			set_temp_variable = {
+				upper_limit = num_of_factories
+			}
+			multiply_temp_variable = {
+				upper_limit = 1.15
+			}
+
+			NOT = {
+				has_war_with = PREV
+				has_war = yes
+			}
+			check_variable = {
+				num_divisions > upper_limit
+			}
+		}
+	}
+}
+
+has_custom_division_templates = {
+	OR = {
+		original_tag = USA
+	}
+}
+
+
+get_academic_base_monthly_change_value_with_modifiers = {
+	set_temp_variable = { academic_base_monthly_change_trigger = academic_base_monthly_change }
+	add_to_temp_variable = { academic_base_monthly_change_trigger = modifier@academic_base_monthly_rate }
+}
+
+get_research_facilities_monthly_change_value_with_modifiers = {
+	set_temp_variable = { research_facilities_monthly_change_trigger = research_facilities_monthly_change }
+	add_to_temp_variable = { research_facilities_monthly_change_trigger = modifier@research_facilities_monthly_rate }
+}
+
+get_agriculture_monthly_change_value_with_modifiers = {
+	set_temp_variable = { agriculture_monthly_change_trigger = agriculture_monthly_change }
+	add_to_temp_variable = { agriculture_monthly_change_trigger = modifier@agriculture_monthly_rate }
+}
+
+get_poverty_monthly_change_value_with_modifiers = {
+	set_temp_variable = { poverty_monthly_change_trigger = poverty_monthly_change }
+	add_to_temp_variable = { poverty_monthly_change_trigger = modifier@poverty_monthly_rate }
+}
+
+get_industrial_equipment_monthly_change_value_with_modifiers = {
+	set_temp_variable = { industrial_equipment_monthly_change_trigger = industrial_equipment_monthly_change }
+	add_to_temp_variable = { industrial_equipment_monthly_change_trigger = modifier@industrial_equipment_monthly_rate }
+}
+
+get_industrial_expertise_monthly_change_value_with_modifiers = {
+	set_temp_variable = { industrial_expertise_monthly_change_trigger = industrial_expertise_monthly_change }
+	add_to_temp_variable = { industrial_expertise_monthly_change_trigger = modifier@industrial_expertise_monthly_rate }
+}
+
+get_army_professionalism_monthly_change_value_with_modifiers = {
+	set_temp_variable = { army_professionalism_monthly_change_trigger = army_professionalism_monthly_change }
+	add_to_temp_variable = { army_professionalism_monthly_change_trigger = modifier@army_professionalism_monthly_rate }
+}
+
+get_nuclear_stockpile_monthly_change_value_with_modifiers = {
+	set_temp_variable = { nuclear_stockpile_monthly_change_trigger = nuclear_stockpile_monthly_change }
+	add_to_temp_variable = { nuclear_stockpile_monthly_change_trigger = modifier@nuclear_stockpile_monthly_rate }
+}
