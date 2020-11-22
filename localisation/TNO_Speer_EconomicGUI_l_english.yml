@@ -16,6 +16,7 @@ SGR_daimler_expository_text:0 "§g페어라이니히테 슈탈베르케§!는 §
 SGR_siemens_leader:0 "에른스트 폰 지멘스\n§T지멘스§!"
 SGR_siemens_expository_text:0 "§W에른스트 폰 지멘스§!는 그의 동료들에 비해 다소 특이한 점이 눈에 띕니다. 그 사람 밑에 있는 §T지멘스§! 다른 회사들이 보여주는 노예제도에 도달하는 것을 피하면서, 지멘스의 이익은 10배 증가했습니다. 그의 회사는 독일에서 여전히 존경할 만한 국제적 명성을 가지고 있는 몇 안 되는 회사 중 하나로 눈에 띕니다.\n\n가장 중요한 것은, 폰 지멘스의 초창기 전자제품과 기계 제국은 개혁적인 대의에 공감하는 모습을 보여주었습니다. 적어도 §T지멘스§!가 수익을 올릴 수 있는 프로그램에 관해서는 말이죠. 이것이 새로운 독일에서 노예제도가 불가피하게 종식되었을 때 진정한 신념에서 나온 것이든 아니면 단지 실용주의에서 나온 것이든 간에, 폰 지멘스와 그의 가족 사업은 경제적으로나 노예제도에 대항하기 위한 투쟁에서 상당한 잠재력을 발휘합니다.\n\n동맹이든 아니든 간에, §T지멘스§!는 카르텔로서의 성격이 독일의 경제적 잠재력을 방해합니다. 회사와 소유주는 유지될 수 있지만, 그 힘은 줄어들어야 합니다.
 
+
 #Frontscreen Metrics
 
 SGR_GDP_entry_1:0 "졸페어라인 GDP:  §W$§![?reich_GDP|2|W]§WB§! | [?zollvereinGDP_growth|%W2]"
@@ -46,8 +47,8 @@ SGR_ZV_debt_reduction_cost:0 "§Y1억 5천만§! £GFX_dollar_sign"
 SGR_ZV_debt_reduction_cost_blocked:0 "§R1억 5천만§! £GFX_dollar_sign"
 SGR_ZV_debt_reduction_tt:0 "§W§R채무§! 및 §R이율§!은 각각 §Y2억 달러§! 그리고 §Y1.5%§!로 감소할 것입니다.§!"
 
-SGR_ZV_oil_exploration:0 "유정 탐사"
-SGR_ZV_oil_exploration_desc:0 "석유는 현대 문명의 생명줄이 되었습니다. 따라서 이 위기는 그 생명줄이 얼마나 정말 가치있는 것인지를 잘 보여주고 있습니다. 아직 개발되지 않은 유정이 우리나라에 존재합니다. 그것들을 이용할 때입니다."
+SGR_ZV_oil_exploration:0 "Invest in Alternative Energy"
+SGR_ZV_oil_exploration_desc:0 "Oil has become the lifeblood of modern civilization, and it is this crisis that is showing us just how valuable that lifeblood really is. It is time to invest into alternative sources of energy."
 
 SGR_ZV_introduce_rationing:0 "배급제 도입"
 SGR_ZV_introduce_rationing_desc:0 "쉬우나 사회에게는 고통스러운 일입니다. 석유 및 가스 배급제는 석유 위기에 대응하기 위한 가장 합리적인 방책입니다. 이 제한을 둠으로써 우리는 가치있는 시간과 돈을 아낄 수 있습니다. 시민들이 이것을 싫어한다고 하더라도 말입니다."
@@ -183,10 +184,10 @@ SGR_zollverein_members_scriptedloc_bloc:0 "\n졸페어라인 예산 할당: §G$
 
 SGR_zollverein_scriptedloc_bloc:0 "\n총 졸페어라인 예산: §G$§![?ZollvereinBudget|+]§GM USD§!\nZollverein Budget Payments: [?ZollvereinPayments|0Y%] of Annual Revenue\nZollverein Budget Payout: [?GER.SGRZVfactor|0+%]"
 
-SGR_zollverein_germany:0 "졸페어라인 위원회 지도국"
+SGR_zollverein_germany:0 "졸페어라인 지도국"
 SGR_zollverein_germany_desc:0 "§DResources to Market: [?SGR_export_factor|0Y%]\nConsumer Goods Factories: [?SGR_consumer_goods|1Y%][getZollvereinIdeaBlock] \n--------------\n§!The Zollverein is a common market and customs union between its members. A replacement for the clearly obsolete and dysfunctional Großraum Kontinentaleuropa concept, it is a means for Germany to continue being the hegemon of Europe - albeit now, hopefully, in a less bloody manner."
 
-SGR_zollverein_basic:0 "졸페어라인 위원회 회원국"
+SGR_zollverein_basic:0 "졸페어라인 회원국"
 SGR_zollverein_basic_desc:0 "§DPolitical Power Gain Factor: [?THIS.ZV_pp_gain|0+%]\nConsumer Goods Factories: [?THIS.ZV_consumer_goods|1Y%]\nProduction Efficiency Gain Factor: [?THIS.ZV_production_gain|1+%][getZollvereinMembersIdeaBlock] \n--------------\n§!The Zollverein is a common market and customs union between its members. A replacement for the clearly obsolete and dysfunctional Großraum Kontinentaleuropa concept, it is a means for Germany to continue being the hegemon of Europe - albeit now, hopefully, in a less bloody manner."
 
 SGR_zollverein_reich:0 "독일의 졸페어리인"
