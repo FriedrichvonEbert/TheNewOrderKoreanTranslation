@@ -164,6 +164,7 @@
  battlefield_support_tree:0 "전장 지원 교리"
  CAS_1945:0 "1945 CAS"
  cas_bomber:0 "근접항공지원 모델"
+ jet_cas:0 "제트 CAS"
  cat_anti_tank:0 "대전차"
  cat_base_strike_research:0 "기지 타격 교리"
  cat_battlefield_support_research:0 "전장 지원 교리"
@@ -191,6 +192,7 @@
  computing_tech:0 "연산 기술"
  construction_tech:0 "건설 기술"
  convoy_defense_tree:0 "수송선 방어 교리"
+ decryption_tech:0 "복호화 기술 연구"
  decryption_tech_research:1 "복호화 연구 속도"
  electronics:0 "전자 기기"
  encryption_tech_research:1 "암호화 연구 속도"
@@ -516,6 +518,7 @@
   ## 공중강습 / 항공기병 / 공수부대 ##
 
   ## 특수부대 일반 ##
+    special_forces_tech:0 "특수부대 기술"
     tech_special_forces:0 "특수부대"
     tech_special_forces_desc:0 "평범하지 않은 전투에는 전문적인 훈련이 필요합니다. 우리 병력이 가혹한 환경에 대비하고 즉시 적응할 수 있도록 해야 합니다."
 
@@ -2503,7 +2506,7 @@
 
  ### Resources
  ## Resource Extraction
- resource_extraction_methods:0 "자원 추출 기술"
+ resource_extraction_methods:0 "현대화된 자원 추출 기술"
  resource_extraction_methods_desc:0 "As a wise man once said "We can never dig too deep." With refinement to our resource gathering operations, whether through new machinery or better procedures, it shall allow us to extract more resources to better our economic position and harness Mother Earth's gifts."
  constructionmethods:0 "현대화된 시공법"
  constructionmethods_desc:0 "Rome wasn't built in a day, but neither would've our nation's factories and railways been without the strict  discipline and education our architects and builders had to undergo. With the quality of our workers, they ensure that our buildings are finished in a timely manner."

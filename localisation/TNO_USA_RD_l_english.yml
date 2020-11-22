@@ -1,13 +1,19 @@
 ﻿l_english:
 
-#RD SAF events
-RD_SAF.11.t:0 "Inheriting a War"
-RD_SAF.11.desc:0 "A painful realization strikes the newly elected Commander-in-Chief as he takes office. The war in South Africa still rages on, and will prove to be one of the first issues that requires Presidential action. It is evident that the longer the war rages, the less favor the populace and military will bestow upon it. Hence, it is necessary to develop new measures to take control of the war in South Africa, drive out the radical Boers and Germans, and secure an American victory in South Africa."
-RD_SAF.11.a:0 "The President will save us!"
-
+#Intro to the treaty port
 RD.1.t:0 "The Day After the Election"
 RD.1.desc:0 "The two men shook hands as they entered the Oval Office. "Congratulations on your reelection, Mr. President," the first man said.\n\n"The pleasure's all mine," said President-reelect [USA.GetLeader]. What wasn't to be pleased about? The economy was going up, race riots were becoming a thing of the past, and America's largely moved on from Watergate and South Africa. Everything was going fine and steady... except.\n\n"Mr. Secretary," began the President as he occupied the Resolute Desk, "what can you tell me about the Ports?"\n\nThe Secretary of State bolted from his seat, sending it scraping across the floor. He turned back to the entrance saying, "I'll notify JCS immediately-"\n\n"Don't. What do I look like, a Rightist nutjob?" President [GetPresidentLastName] chuckled, gesturing to the Secretary's chair. "I'm not gonna escalate, if that's what you thought. I've something bigger in mind."\n\nEyes widened in dawning realization. "You mean..."\n\nA nod. "I want a report on my desk by tomorrow morning - likelihoods, risk assessments, angles of approach, everything you think I need to know. We'll discuss this in detail with the rest of the Cabinet."\n\n"Right away!""
 RD.1.a:0 "And with that, the Handover was in motion."
+
+#RD SAF events
+RD_SAF.1.t:0 "What Do We Do Now?"
+RD_SAF.1.desc:0 "President [GetPresidentLastName] watches as his Secretary of Defense and the Joint Chiefs of Staff continue to argue over the best course of action for the South African War. Since the enemy has been a tougher nut to crack than expected, it was now up to him to sort out the mess. One suggestion is to focus on nation building and winning the hearts and minds of the local populace, undercutting the support that the fascists and Boers get, the so called CORDS Program that Donald Rumsfeld has come up with. The other is to jump on the Germans with both feet, use the full force of the American armed forces to bludgeon the enemy into surrender.\n\nBoth options have their pros and cons, and after listening to everyone argue about it, it's time for the President to decide."
+RD_SAF.1.a:0 "CORDS is a go! We'll make the people love us!"
+RD_SAF.1.b:0 "Fuel up the bombers and send the tanks!"
+
+RD_SAF.11.t:0 "Inheriting a War"
+RD_SAF.11.desc:0 "A painful realization strikes the newly elected Commander-in-Chief as he takes office. The war in South Africa still rages on, and will prove to be one of the first issues that requires Presidential action. It is evident that the longer the war rages, the less favor the populace and military will bestow upon it. Hence, it is necessary to develop new measures to take control of the war in South Africa, drive out the radical Boers and Germans, and secure an American victory in South Africa."
+RD_SAF.11.a:0 "The President will save us!"
 
 RD_SAF.2.t:0 "Meeting with Rumsfeld"
 RD_SAF.2.desc:0 ""Mr. President, I do hope that you've had time to examine my proposal."\n\nDonald Rumsfeld set his coffee down on a side table, glancing at the presidential seal on the coaster. With his close-cropped hair and vast chin, he looked every part the Princeton defensive back that he used to be. President [GetPresidentLastName] stared at the report that sat on the Resolute Desk.\n\nASSESSING THE VALUE OF NUMERICAL ADVANTAGE IN COUNTERINSURGENCY OPERATIONS\n\n"I can see," said the President, "that you have a somewhat different perspective from much of the brass. And the Cabinet."\n\n"Indeed. With all due respect, Mr. President, McNamara is concerned with the wrong things. He'll put out statements about advisors in this sector, or new deployments to this province, to make us seem strong. He's a numbers man, as I understand it, so that makes sense. But numbers aren't everything. We need to focus on counterinsurgency and free up South Africa proper to fight the Germans. I believe in protecting American lives, as you do, but that can't be accomplished without combating attrition in the South's own territory. We need to be smarter about this."\n\nPresident [GetPresidentLastName] thought it over. Rumsfeld made some good points, and he seemed to know what he was talking about."
