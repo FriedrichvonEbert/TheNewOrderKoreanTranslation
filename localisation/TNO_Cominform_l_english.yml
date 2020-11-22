@@ -14,21 +14,30 @@
 
  RUS_comecon_sent_aid:0 "Sent COMECON Aid"
 
- RUS_comecon_requested_aid:0 "경제상호원조회의에 지원 요청"
+ RUS_comecon_requested_aid:0 "Requested COMECON Aid"
 
  RUS_comecon_built_factory:0 "Developed COMECON Partner Industries"
  
- ## Decisions ##
- TNO_comecon_category:0 "§S경제상호원조회의§!"
- TNO_comecon_category_desc:0 "\n\n\n\n\n\nFor the interests of international solidarity and cooperation between socialist states in a world dominated by reaction, the §SCouncil for Mutual Economic Assistance§! offers an opportunity to sponsor the development of other socialist states. Through §SCOMECON§!, more developed socialist states may invest in less developed ones, policy may be enacted to assist workers and peasants across the socialist world, and emergency funds for strategic purposes may be maintained.\n\n§SCOMECON§! §Ymutual monetary fund§! balance: [?global.COMECON_monetary_fund_value|2]M USD."
- COM_send_comecon_aid:0 "Send §SCOMECON§! Aid to [FROM.GetName]"
- COM_request_comecon_investment:0 "Request [FROM.GetAdjective] §SCOMECON§! Investment"
- COM_invest_in_comecon_monetary_fund:0 "Invest In §YMutual Monetary Fund§!"
- COM_withdraw_from_comecon_monetary_fund:0 "Withdraw From §YMutual Monetary Fund§!"
- COM_invest_in_collective_defense_fund:0 "Invest In §YCollective Defense Fund§!"
- COM_withdraw_from_collective_defense_fund:0 "Withdraw From §YCollective Defense Fund§!"
+ ## GUI ##
  COM_invest_in_cooperative_research:0 "Join the §SCOMECON§! §YScientific Bureau§!"
- COM_develop_partner_industries:0 "Develop Industries In [FROM.GetName]"
+
+ COMECON_desc:0 "In the name of international cooperation between socialist states, the §SCouncil for Mutual Economic Assistance§! offers an opportunity to sponsor the development of less developed nations through §SCOMECON§! aid and emergency assistance."
+
+ COMECON_defense_transfer_amt:0 "$[?ROOT.COMECONDefTransferAmt]M"
+ COMECON_dev_transfer_amt:0 "$[?ROOT.COMECONDevTransferAmt]M"
+
+ COMECON_defense_transfer_amt_yearly:0 "$[?ROOT.COMECONDefTransferAmtYearly]M/yr"
+ COMECON_dev_transfer_amt_yearly:0 "$[?ROOT.COMECONDevTransferAmtYearly]M/yr"
+
+ COMECON_dev_amt:0 "$[?global.COMECON_monetary_fund_value|2]M"
+ COMECON_defense_amt:0 "$[?global.COMECON_collective_defense_value|2]M"
+
+ COMECON_GUI_Country_Entry_Button_tt:0 "§Y$250 million§! shall be sent as §SCOMECON§! aid to [THIS.GetNameDef]."
+
+ COMECON_GUI_Defense_Fund_Withdraw_Label_tt:0 "Withdrawals from the defense fund are unlocked when we are currently in an §Rarmed conflict§!."
+ COMECON_GUI_Dev_Fund_Withdraw_Label_tt:0 "Withdrawals from the development fund are unlocked when we are §Rrunning a deficit§!, or have a §RGDP under $50 Billion§!."
+
+ ### Decisions ###
 
  TNO_socintern_category:0 "§R사회주의 인터네셔널§!"
  TNO_socintern_category_desc:0 "\n\n\n\n\n\nTo facilitate the interests of mutual cooperation among those nations which have adopted the socialist ideology, the §RSocialist International§! serves as a premier means of providing global cooperation and strategic assistance. Through the §RSocIntern§!, socialist states may coordinate with each other in defensively and politically, and a forum to discuss assistance to global proletarian and national liberation movements may be provided.\n\n§RSocIntern§! §Ycollective defense fund§! balance: [?global.COMECON_collective_defense_value|2]M USD.\n\n[GetSocInternVote]"
@@ -44,6 +53,8 @@
 
  COM_invite_country_associate_tt:0 "The selected country shall be offered §lassociate status§! in the §RSocialist International§!."
  COM_invite_country_tt:0 "The selected country shall be offered §Rmembership§! in the §RSocialist International§!."
+
+ TNO_COMECON_GUI:0 "§SCOMECON§!"
  
  ## Tooltips ##
  deficit_ratio_sufficient_tt:0 "Our §Ydeficit-to-income§! ratio is above 40%."
@@ -100,13 +111,13 @@
  socintern.0.a:0 "A glorious day for workers of the world!"
 
  socintern.1.t:0 "[FROM.GetNameDef] Offers SocIntern Membership"
- socintern.1.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Socialist International as associate member. This new organization, often shortened to the “SocIntern” is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the SocIntern or not."
+ socintern.1.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Socialist International as associate member. This new organization, often shortened to the "SocIntern" is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the SocIntern or not."
  socintern.1.a:0 "We would gladly accept."
  socintern.1.b:0 "Accept associate status."
  socintern.1.c:0 "We have no desire to associate ourselves with the SocIntern."
  
  socintern.2.t:0 "[FROM.GetNameDef] Offers SocIntern Associate Status"
- socintern.2.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Socialist International as associate member. This new organization, often shortened to the “SocIntern” is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the SocIntern or not."
+ socintern.2.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Socialist International as associate member. This new organization, often shortened to the "SocIntern" is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the SocIntern or not."
  socintern.2.a:0 "We would gladly accept."
  socintern.2.b:0 "We have no desire to associate ourselves with the SocIntern."
 
@@ -122,7 +133,7 @@
  socintern.5.d:0 "Sadly, it seems that [FROM.GetNameDef] will not join the Socialist Internationale. Representatives of their ruling party have politely but firmly turned down our invitation to join the new organization and its fight for workers' rights and socialism. Perhaps [FROM.GetNameDef] will show more interest in the future; for now joining the SocIntern is simply not within their priorities."
  socintern.5.a:0 "Unfortunate."
 
- socintern.6.t:0 "An Invitation From [FROM.GetNameDef]"
+ socintern.6.t:0 "An Invitation from [FROM.GetNameDef]"
  socintern.6.d:0 "Good news! It seems like our brothers in the global socialist movement have recognized our contributions to the struggle against capitalism and socialism and have been invited to the Rykov Conference! This is our chance to hobnob with the highest placed leaders of the proletariat, and encourage the networks that will broaden the success of the great revolution (and the prestige of our own nation).\n\nAlready our diplomats and party officials are competing for coveted spots among the guest list, hoping to be the ones to represent their nation among the emerging global movement. Without a doubt, we will demonstrate to our allies that we are a true partner in the march for justice and equality."
  socintern.6.a:0 "We would gladly attend."
  socintern.6.b:0 "We're... busy."
