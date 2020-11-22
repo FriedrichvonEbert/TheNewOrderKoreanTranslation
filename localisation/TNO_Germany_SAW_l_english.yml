@@ -6,7 +6,7 @@
  GER_SGR_student_protests_desc:0 "§DPolitical Power Gain Factor: [?SGR_protests_severity_pp|0+%]\nWeekly Stability: [?SGR_protests_severity_stab|1+%]\n--------------\n§!Gone are the days of near-unanimous support for the war effort in the Reich. The public, predominately the students - supporters of yore for Speer in the German Civil War - are up in arms about Germany's involvement in a war they view as senseless and monstrous. The longer their Führer fights it, the more they will resist it."
 
  GER_BOR_student_protests:0 "Civilian Protests"
- GER_BOR_student_protests_desc:0 "Political Power Gain Factor: [?GER_Bormann_protests_severity_pp|0+%]\nWeekly Stability: [?GER_Bormann_protests_severity_stab|1+%]\n--------------\nGone are the days of near-unanimous support for the war effort in the Reich. The public, predominately the students, are up in arms about Germany's involvement in a war they view as senseless and monstrous. The longer their Führer fights it, the more they will resist it."
+ GER_BOR_student_protests_desc:0 "Political Power Gain Factor: [?GER_Bormann_SAF_protests_severity_pp|0+%]\nWeekly Stability: [?GER_Bormann_SAF_protests_severity_stab|1+%]\n--------------\nGone are the days of near-unanimous support for the war effort in the Reich. The public, predominately the students, are up in arms about Germany's involvement in a war they view as senseless and monstrous. The longer their Führer fights it, the more they will resist it."
 
  GER_SGR_student_protests_dynamic_modifier:0 "Civilian Protests"
  GER_BOR_student_protests_dynamic_modifier:0 "Civilian Protests"
@@ -181,6 +181,36 @@
 
  GER_Bormann_SAF_festung_johannesburg:0 "§OFestung Johannesburg§!"
  GER_Bormann_SAF_festung_johannesburg_desc:0 "Johannesburg has been a bastion of Aryan settlement on the Dark Continent for nearly two hundred years. The discovery of gold brought a flood of Boer settlers that rapidly turned it into South Africa's largest cities - now it is the capital of the Boer Republic. Our Afrikaner allies must not be allowed to falter in the defense of their homeland. We must send our engineers to turn the city into a fortress, one that will not fall to the Americans like it did to the British."
+ 
+ ###Anti-Huttig Cabal
+
+ MZB_REICHSTAAT_african_cabal:0 "The Anti-Hüttig Cabal"
+ MZB_REICHSTAAT_african_cabal_desc:0 "The deranged Reichskommissar Hans Hüttig has occupied the other African Reichskommissariats, declaring the Grossafrikaner Reichsstaat. With the help of his fanatical SS divisions, he is transforming our colonies into an abomination: unless we do something, we'll lose all our investments in the Dark Continent!\n\nHowever, a small clique of officers and administrators who call themselves the "African Cabal" is still loyal to Germania. While they are too weak - and too scared of Hüttig's revenge - to act independently, with our help they'll be able to resist, and perhaps even salvage our influence in Africa when the madman's dream inevitably turns into a nightmare.\n\nCurrent Cabal Strength: [?MZB.MZB_REICHSTAAT_cabal_power|%]\nCurrent bi-weekly decay: [?MZB.MZB_cabal_decay|%]"
+ GER_cabal_supply_weapons:0 "Arm Friendly Rebel Forces"
+ GER_cabal_supply_weapons_desc:0 "There is irony to be found in the fact that we are funding partisans to undermine our own former colony. Still, we can't deny that we need to resort to such methods to weaken Hüttig's stranglehold over Africa: by arming loyal Germans who still fight for the remnants of Zentralafrika and Südwestafrika, we'll force the madman to overstretch his already-meagre forces, reducing his control over the abomination he calls "state" and strengthening our allies"
+ GER_cabal_administrative_aid:0 "Bolster Anti-Hüttig Factions"
+ GER_cabal_administrative_aid_desc:0 "The Cabal fights every single day, not only to undermine Hüttig's hold over the continent, but also to keep their heads on their neck. This is far more than a metaphor, as Hüttig is known for his tendency to resort to mass executions for the slightest hint of treason: by sending our secret services to help them, we can make sure that Hüttig is kept too busy with other problems to bother with discovering our friends."
+ GER_cabal_cover_em:0 "Cover Up Cabal Efforts"
+ GER_cabal_cover_em_desc:0 ""
+ GER_cabal_fund_them:0 "Fund the Cabal"
+ GER_cabal_fund_them_desc:0 "The Cabal is an expensive endeavor, requiring a wide web of agents and bribes to expand their power base and remain hidden from Hüttig's paranoid eye. By granting our allies secret funds, we can strengthen their connections and ensure they can keep being useful to the Reich."
+ GER_cabal_siphon_funds:0 "Siphon Funds from the Reichsstaat"
+ GER_cabal_siphon_funds_desc:0 "Our friends in the Cabal can be very much useful to us. By exploiting their connections, we can steal money and siphon funds from the coffers of our rogue colony: while highly beneficial for our budget, this will surely put several members of the clique at risk of being discovered, and we all know what happens when Hüttig catches someone with their hands on his money..."
+ GER_cabal_implicate_political_enemies:0 "Implicate Our Political Enemies"
+ GER_cabal_implicate_political_enemies_desc:0 "While the Cabal's first and foremost task is protecting our interests in Africa, they have... other uses which may prove highly beneficial to us. For instance, what would happen if someone who opposes our reforms was found in possession of documents proving deep and extremely compromising connections to none other than Hans Hüttig, a traitor Reichskommissar who illegally occupies our colonies in Africa and has thrown his lots with the likes of Himmler.."
+ GER_cabal_hide_funding:0 "Obfuscate Funding Sources"
+ GER_cabal_hide_funding_desc:0 "Hüttig and his minions are getting suspicious as of late, due to our activities or their own raging paranoia. It would be wise to scale down our efforts for a while, and use our secret services to cover any leftover trace of our secret funding. Between us, CIA, the Kempeitai and the SIM, literally everyone in the world has a reason to undermine the Reichsstaat, something that makes it very easy to lay the blame on everyone but us..."
+ GER_cabal_provide_training:0 "Provide Training"
+ GER_cabal_provide_training_desc:0 "The forces of the Cabal are few and weak compared to the SS serving Hüttig. Every man counts, and we need to ensure that they'll be ready when the madman's little empire inevitably collapses. Through our secret services, we'll infiltrate special teams charged with providing training in both asymmetric warfare and counterintelligence, increasing their ability to protect themselves from Hüttig's paranoia, and to resist when everything crumbles around them."
+
+ GER_increase_cabal_strength_5:0 "The strength of the cabal will §Gincrease§! by §Y5.§!\n"
+ GER_decrease_cabal_strength_7_5:0 "The strength of the cabal will §Rdecrease§! by §Y7.5.§!\n"
+ GER_cabal_not_maxed_out:0 "The cabals influence is not already at maximum."
+ GER_cabal_require_7_5_influence:0 "The cabal must have at least §Y7.5§! influence."
+ GER_cabal_provide_100_milllion:0 "This will §Rcost§! us §Y100 milllion.§!\n"
+ GER_cabal_provide_150_milllion:0 "This will §Rcost§! us §Y150 milllion.§!\n"
+ GER_cabal_steal_100_milllion:0 "We wil §Ggain§! §Y100 milllion.§!\n"
+ GER_decrease_cabal_decay:0 "Monthly §Rdecay§! of cabal strength will §Gdecrease§R! by §Y1.§!\n"
 
  #EVENTS
  
