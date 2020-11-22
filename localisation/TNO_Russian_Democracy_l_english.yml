@@ -216,13 +216,13 @@
  RUS_democracy_far_east_polls:0 "§YFar East:§!\n[GetRUSAmurPolls][GetRUSBlagoveshchenskPolls][GetRUSChumikanPolls][GetRUSMagadanPolls][GetRUSYakutskPolls][GetRUSCherskiyPolls][GetRUSKolymaPolls][GetRUSOmolonPolls][GetRUSChukotkaPolls][GetRUSKamchatkaPolls]\n"
 
  TOB_democratic_politics_category:0 "Election Polling"
- TOB_democratic_politics_category_desc:0 "With democracy ensured, we are free to finally hold between our parties and political factions.\n\nLatest §Ypolls§! are as follows:\n\n[GetRUSArcticRussiaPolls][GetRUSCentralRussiaPolls][GetRUSTransvolgaPolls][GetRUSUralRegionPolls][GetRUSSouthernUralPolls][GetRUSTransUralsPolls][GetRUSWesternSiberiaPolls][GetRUSNorthernSiberiaPolls][GetRUSCentralSiberiaPolls][GetRUSTuvaPolls][GetRUSEasternSiberiaPolls][GetRUSTransBaikalPolls][GetRUSFarEastPolls]"
+ TOB_democratic_politics_category_desc:0 "With democracy ensured, we are free to finally hold elections between our parties and political factions.\n\nLatest §Ypolls§! are as follows:\n\n[GetRUSArcticRussiaPolls][GetRUSCentralRussiaPolls][GetRUSTransvolgaPolls][GetRUSUralRegionPolls][GetRUSSouthernUralPolls][GetRUSTransUralsPolls][GetRUSWesternSiberiaPolls][GetRUSNorthernSiberiaPolls][GetRUSCentralSiberiaPolls][GetRUSTuvaPolls][GetRUSEasternSiberiaPolls][GetRUSTransBaikalPolls][GetRUSFarEastPolls]"
 
  TOB_election_results_category:0 "The Russian Elections"
  TOB_election_results_category_desc:0 "With democracy ensured, we are free to finally hold elections between our parties and political factions.\n\nLatest §Yelection results§!, in provincial delegates, are as follows:\n\n[GetRUSArcticRussiaResults][GetRUSCentralRussiaResults][GetRUSTransvolgaResults][GetRUSUralRegionResults][GetRUSSouthernUralResults][GetRUSTransUralsResults][GetRUSWesternSiberiaResults][GetRUSNorthernSiberiaResults][GetRUSCentralSiberiaResults][GetRUSTuvaResults][GetRUSEasternSiberiaResults][GetRUSTransBaikalResults][GetRUSFarEastResults]§YFinal Results:§!\n§gUKGS§! final provincial delegates - §g[?RUS_auth_votes]§!\n§BLPR§! final provincial delegates - §B[?RUS_conservative_votes]§!\n\n[GetRUSFinalElectionWinnerTOB]"
 
  KIR_democratic_politics_category:0 "Election Polling"
- KIR_democratic_politics_category_desc:0 "With democracy ensured, we are free to finally hold between our parties and political factions.\n\nLatest §Ypolls§! are as follows:\n\n[GetRUSArcticRussiaPolls][GetRUSCentralRussiaPolls][GetRUSTransvolgaPolls][GetRUSUralRegionPolls][GetRUSSouthernUralPolls][GetRUSTransUralsPolls][GetRUSWesternSiberiaPolls][GetRUSNorthernSiberiaPolls][GetRUSCentralSiberiaPolls][GetRUSTuvaPolls][GetRUSEasternSiberiaPolls][GetRUSTransBaikalPolls][GetRUSFarEastPolls]"
+ KIR_democratic_politics_category_desc:0 "With democracy ensured, we are free to finally hold elections between our parties and political factions.\n\nLatest §Ypolls§! are as follows:\n\n[GetRUSArcticRussiaPolls][GetRUSCentralRussiaPolls][GetRUSTransvolgaPolls][GetRUSUralRegionPolls][GetRUSSouthernUralPolls][GetRUSTransUralsPolls][GetRUSWesternSiberiaPolls][GetRUSNorthernSiberiaPolls][GetRUSCentralSiberiaPolls][GetRUSTuvaPolls][GetRUSEasternSiberiaPolls][GetRUSTransBaikalPolls][GetRUSFarEastPolls]"
 
  KIR_election_results_category:0 "The Russian Elections"
  KIR_election_results_category_desc:0 "With democracy ensured, we are free to finally hold elections between our parties and political factions.\n\nLatest §Yelection results§!, in provincial delegates, are as follows:\n\n[GetRUSArcticRussiaResults][GetRUSCentralRussiaResults][GetRUSTransvolgaResults][GetRUSUralRegionResults][GetRUSSouthernUralResults][GetRUSTransUralsResults][GetRUSWesternSiberiaResults][GetRUSNorthernSiberiaResults][GetRUSCentralSiberiaResults][GetRUSTuvaResults][GetRUSEasternSiberiaResults][GetRUSTransBaikalResults][GetRUSFarEastResults]§YFinal Results:§!\n§gNTS§! final provincial delegates - §g[?RUS_auth_votes]§!\n§BVNS§! final provincial delegates - §B[?RUS_conservative_votes]§!\n§MK-D§! final provincial delegates - §M[?RUS_liberal_votes]§!\n\n[GetRUSFinalElectionWinnerKIR]"
@@ -250,38 +250,42 @@
  RUS_democracy_far_east_results:0 "§YFar East:§!\n[GetRUSAmurResults][GetRUSBlagoveshchenskResults][GetRUSChumikanResults][GetRUSMagadanResults][GetRUSYakutskResults][GetRUSCherskiyResults][GetRUSKolymaResults][GetRUSOmolonResults][GetRUSChukotkaResults][GetRUSKamchatkaResults]\n"
 
  #Events
- russian_democracy_helpers.1.t:0 "General Election Run"
- russian_democracy_helpers.1.d:0 "Election is run"
+ russian_democracy_helpers.1.t:0 "Election Day"
+ russian_democracy_helpers.1.d:0 "Following months of debates, speeches, politicking, and campaigning, the big day has finally arrived. As volunteers across the nation begin opening voting booths and counting ballots, candidates and voters settle around radios and street corners to await the results.\n\nAmidst the many elections for mayors, governors, and other elected bodies, the main focus rests on the general election and on who will lead Russia through the coming years.\n\nAs votes are tallied and ballots counted, it is clear the winner of the [GetYear] election is..."
  russian_democracy_helpers.1.a:0 "Results in decisions"
  
  russian_democracy_helpers.2.t:0 "Hiding Election Results"
- russian_democracy_helpers.2.d:0 "as title says"
- russian_democracy_helpers.2.a:0 "Results no longer in decisions"
+ russian_democracy_helpers.2.d:0 "As the victors celebrate and the losers mourn, the many polls which were a staple during election season have quickly faded from the forefront. While some continue to run, measuring public opinion on everything from voter satisfaction to the latest scandals, most have been shuttered, awaiting the next election cycle.\n\nThe many lessons learned from this year's election polling will soon be applied to the next, as experts and amateurs continue to look for ways to improve upon accuracy and reduce bias throughout the polling process."
+ russian_democracy_helpers.2.a:0 "Hopefully they'll be more accurate next time around."
 
- russian_democracy_helpers.3.t:0 "Polling Period Begins"
- russian_democracy_helpers.3.d:0 "Polls are open, check decisions"
- russian_democracy_helpers.3.a:0 "DSNP Time"
- russian_democracy_helpers.3.b:0 "SMR Time"
- russian_democracy_helpers.3.c:0 "PSD Time"
+ russian_democracy_helpers.3.t:0 "Election Year"
+ russian_democracy_helpers.3.d:0 "The people of Russia are gearing up for election season. An idea once unthinkable scant decades before, now it is up to the Russian people to decide the fate of their nation and their leaders.\n\nPolitical parties, both big and small, are preparing their supporters and their backers across the nation. Thousands of volunteers, campaign staff, and candidates make ready to depart to the rallies, tours, speeches, and debates that will dominate the headlines for the coming months. Candidates will be scrutinized, issues debated, and at its end, millions of voters will be able to make their voices heard by the powers-that-be."
+ russian_democracy_helpers.3.a:0 "The DSNP; fighting for the working man!"
+ russian_democracy_helpers.3.b:0 "The SMR; building better tomorrow!"
+ russian_democracy_helpers.3.c:0 "The PSD, for a strong and sovereign Russia!"
 
- russian_democracy_helpers.3.e:0 "K-D time"
- russian_democracy_helpers.3.f:0 "VNS time"
- russian_democracy_helpers.3.g:0 "NTS time"
+ russian_democracy_helpers.3.e:0 "The Kadets, to a brighter future!"
+ russian_democracy_helpers.3.f:0 "The VNS; Shulgin will show us the way!"
+ russian_democracy_helpers.3.g:0 "The NTS, for strength and stability!"
 
- russian_democracy_helpers.3.h:0 "LPR time"
- russian_democracy_helpers.3.i:0 "UKGS time"
+ russian_democracy_helpers.3.h:0 "The LPR; For a better Russia!"
+ russian_democracy_helpers.3.i:0 "For the Army, and the Rodina!"
 
  russian_democracy_helpers.4.t:0 "Polling Updated"
- russian_democracy_helpers.4.d:0 "check decisions to see if everything works"
- russian_democracy_helpers.4.a:0 "yes"
+ russian_democracy_helpers.4.d:0 "Polling in Russia is an imperfect art, an unfortunate consequence of the destruction and turmoil of decades past. Yet, the introduction of democracy to a large population has brought with it quick development in the field. Monthly and weekly polls conducted by newspapers and new polling organizations have allowed campaigns, candidates, and the wider public to measure the popularity of candidates and their ideas.\n\nWhile struggling to balance bias, location, under-representation, and many other matters of concern, polling remains the only way to gauge a campaign's performance until the ballots are cast on election day."
+ russian_democracy_helpers.4.a:0 "Time to check in on the horse race."
 
- russian_democracy_helpers.5.t:0 "Polling Hidden"
- russian_democracy_helpers.5.d:0 "election done"
- russian_democracy_helpers.5.a:0 "yes"
+ russian_democracy_helpers.5.t:0 "The End of Election Season"
+ russian_democracy_helpers.5.d:0 "The people of Russia have decided. The last of the ballots have been counted, and the winners of the [GetYear] election decided. The victors have made their speeches, thanked their voters, and have begun to focus energies towards the task of governance.\n\nReporters and Journalists have returned to the regular crime, scandal, and fluff pieces pushed aside during the election. Party machines have begun shutting down, ads removed, and campaign posters and items put in storage for future use. Soon the campaign will become a distant memory, something for historians and political strategists to look back on in the future.\n\nAfter all, plans are already being drawn for the next election cycle, for when the whole process will begin again."
+ russian_democracy_helpers.5.a:0 "Candidates and Voters, you have done Russia proud!"
 
  russian_democracy_helpers.6.t:0 "The [GetYear] General Election"
- russian_democracy_helpers.6.d:0 "we'll see who won"
+ russian_democracy_helpers.6.d:0 "Following months of debates, speeches, politicking, and campaigning, the big day has finally arrived. As volunteers across the nation begin opening voting booths and counting ballots, candidates and voters settle around radios and street corners to await the results.\n\nAmidst the many elections for mayors, governors, and other elected bodies, the main focus rests on the general election and on who will lead Russia through the coming years.\n\nAs votes are tallied and ballots counted, it is clear the winner of the [GetYear] election is..."
  russian_democracy_helpers.6.a:0 "Let the best candidate win."
+
+ russian_democracy_helpers.61.t:0 "The [GetYear] General Election"
+ russian_democracy_helpers.61.d:0 "Following months of debates, speeches, politicking, and campaigning, the big day has finally arrived. As volunteers across the nation begin opening voting booths and counting ballots, candidates and voters settle around radios and street corners to await the results.\n\nAmidst the many elections for mayors, governors, and other elected bodies, the main focus rests on the general election and on who will lead Russia through the coming years.\n\nAs votes are tallied and ballots counted, it is clear the winner of the [GetYear] election is..."
+ russian_democracy_helpers.61.a:0 "Let the best candidate win."
 
  russian_democracy_helpers.7.t:0 "Where to Campaign?"
  russian_democracy_helpers.7.d:0 "If you see this someone fucked up"
