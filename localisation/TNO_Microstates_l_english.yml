@@ -7,25 +7,55 @@ POLITICS_CHARLOTTE_DESC:0 "Princess Charlotte Louise Juliette Grimaldi is the cu
 
 POLITICS_Leonida_Suzzi_Valli_DESC:0 "His Excellence Leonida Suzzi Valli is the newly elected Captain Regent of the Most Serene Republic of San Marino, the tiny republic nested on the Monte Titano, in the Apennine mountains. A mathematics and physics high school teacher by trade, Valli also later became involved in the political life of the Republic, pursuing a diplomatic career and becoming the envoy of San Marino to Italy and Germany during WWII. Despite resenting fascism and its negative effects on the once free and democratic life of his small nation, Valli was forced into joining the Partito Fascista Sammarinese in order to continue his political career.\n\nAfter WWII, Valli continued his political activity, despite the country being dominated by the fascists and the powerful Gozi family, which placed its members in the position of Captain Regent multiple times. Over the years, Valli became the most prominent members of the opposition against the Gozi, finally managing to become Captain Regent with the goal of reverting the undemocratic and illiberal policies of the past and restore a semblance of freedom to the ancient Republic.\n\nDespite having its ancient tradition of democracy tarnished by the stain of fascism, San Marino developed greatly in the last few decades, and new troubles afflict the old republic. With industrialization and urbanization increasing ever faster, the economy of the country depends more and more from Italy, chipping away at San Marino's prized independence, and the workers and proles are becoming more and more resentful towards the institutions of the Republic. Now, Valli and his allies have to navigate this tangled web of problems ensnaring the Monte Titano, being careful not to draw too much unwanted attention from their Italian neighbors."
 
-#Party Names
+#############################
+##=====| Party Names |=====##
+#############################
+                                
+                                         
 
-VAC_despotism_party:0 "Holy See"
-VAC_despotism_party_long:0 "Sancta Sedes"
-
+### Andorra ###
 PAD_despotism_party:0 "CGdA"
 PAD_despotism_party_long:0 "Consell General d'Andorra"
 
-SNM_fascism_party:0 "PFS"
-SNM_fascism_party_long:0 "Partito Fascista Sammarinese"
-
+### Monaco ###
 MOC_authoritarian_democrat_party:0 "Royal Family"
 MOC_authoritarian_democrat_party_long:0 "Royal Family"
 
-#Ministers 
+### San Marino ###
+SNM_fascism_party:0 "PFS"
+SNM_fascism_party_long:0 "Partito Fascista Sammarinese"
+
+### Vatican City ###
+VAC_despotism_party:0 "Holy See"
+VAC_despotism_party_long:0 "Sancta Sedes"
+
+###########################
+##=====| Ministers |=====##
+###########################
+
+### Andorra ###
 PAD_Julia_Reig_hog:0 "Julià Reig Ribó"
 PAD_Francesc_Cairat_for:0 "Francesc Cairat i Freixes" 
 PAD_Josep_Pintat_eco:0 "Josep Pintat-Solans"
 PAD_Jacint_Riberaygua_mil:0 "Jacint Riberaygua Caelles"
+
+### Monaco ###
+MOC_Pierre_Voizard_hog:0 "Pierre Voizard"
+MOC_Andre_Saint_Mleux_for:0 "André Saint-Mleux"
+MOC_Francois_Didier_Gregh_eco:0 "François-Didier Gregh"
+MOC_Paul_Demange_sec:0 "Paul Demange"
+
+### San Marino ###
+SNM_Francesco_Balsimelli_hog:0 "Francesco Balsimelli"
+SNM_Marino_Michelotti_for:0 "Marino Michelotti"
+SNM_Federico_Bigi_eco:0 "Federico Bigi"
+SNM_Orlando_Reffi_sec:0 "Orlando Reffi"
+
+### Vatican City ###
+VAC_Alberto_di_Jorio_hog:0 "Alberto di Jorio"
+VAC_Angelo_DellAcqua_for:0 "Angelo Dell'Acqua"
+VAC_Amleto_Giovanni_Cicognani_eco:0 "Amleto Giovanni Cicognani"
+VAC_Robert_Nunlist_sec:0 "Robert Nünlist"
 
 #######################
 ##=====| Ideas |=====##

@@ -34,7 +34,7 @@ total_expenditures_value:0 "총 지출: §W[ROOT.Get_total_expenditures]§!"
 economy_line_break:0 "--------------------------------------------"
 
 economy_topbar_GDP_text:0 "[ROOT.Get_GDP_topbar]"
-economy_topbar_GDP_short_tt:0 "현재 우리 §YGDP§!는 §Y[ROOT.Get_GDP]§!입니다.\n우리 §YGDP 성장률§!은 연간 [?ROOT.GDP_growth|2Y%]입니다.\n\n우리 §Y연간 예산§!은 §Y[ROOT.Get_total_budget]§!입니다.\n\n우리 §Y수익 대비 적자§! 비율은 [Get_deficit_ratio]입니다."
+economy_topbar_GDP_short_tt:0 "현재 우리 §YGDP§!는 §Y[ROOT.Get_GDP]§!입니다.\n우리 §YGDP 성장률§!은 연간 [?ROOT.GDP_growth_display|2Y%]입니다.\n\n우리 §Y연간 예산§!은 §Y[ROOT.Get_total_budget]§!입니다.\n\n우리 §Y수익 대비 적자§! 비율은 [Get_deficit_ratio]입니다."
 economy_topbar_GDP_long_tt:0 "§YGDP§! (§Y국내총생산§!)은 1년 동안 생산된 모든 재화와 서비스의 가치를 가격으로 측정한 것입니다. 측정 단위는 §Y1960년도 USD§!입니다."
 
 economy_topbar_debt_text:0 "[ROOT.Get_national_debt_topbar]"
