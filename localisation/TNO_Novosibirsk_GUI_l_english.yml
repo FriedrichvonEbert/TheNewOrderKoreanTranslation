@@ -1,0 +1,382 @@
+﻿l_english:
+
+### Megacorp Info ###
+
+PAV_megacorp_1_name: "Feniks"
+PAV_megacorp_1_desc: "The Feniks Corporation is one of the three main economic forces within the Federation, and has long ties with Alexander Pokryshkin. As the principal arms manufacturer and distributor within the Federation, Feniks is both the driving force behind and the beating heart of the Federation's sizable army.\n\nThe corporation was founded by prospective siloviki soon after the collapse of the Soviet Union. With their close relationship with Pokryshkin, and their invaluable service as the provider for our armed forces, Feniks Corporation is a natural friend of the government."
+
+PAV_megacorp_2_name: "Sibir"
+PAV_megacorp_2_desc: "Associated with the mayor of Barnaul, the Sibir Corporation was founded by the landowning bourgeoisie following the Soviet Union's collapse. They represent, and hold the principal shares of, agricultural production within the Federation and, indeed, perhaps the entire Central Siberian region. Not only producing agricultural products, but also the agricultural equipment and, surprisingly enough, act as the backbone for much of the Federation's financial institutions, Sibir is certainly the heart of the Federation's civilian industry.\n\nThese facts, tied with Sibir's close association with civilian politicians within the silovik-dominated government and tacit support for Vasily Shukshin, make it an incredibly important organ of the Federation's economy."
+
+PAV_megacorp_3_name: "Titan"
+PAV_megacorp_3_desc: "If Feniks is the Federation's muscle, and Sibir its beating heart, Titan is the Federation's brain. Their motto, simple and precise as the corporation's mission itself, is: "Progress", and this is what Titan does best.\n\nGeared towards the furthering of the Federation's technological fronts, Titan has long been the frontrunner in the Federation's race towards mechanization and the furthering of all technology, Titan once directly competed with the Modernists in Tomsk."
+
+PAV_megacorp_4_name: "The People"
+PAV_megacorp_4_desc: "The Federation does not solely comprise of corporations and the resources that they produce. The Federation, and, by extension, her economy, are fueled by the people - the civilians that live under our administration. These people, from the lowliest rural peasant to the highest administrator within our government, have at least a nominal say in how we run things.\n\nIt's important for us to be well aware of the status of our people, how loyal they are to our regime, how popular our administration is, and how influential they are within our borders."
+
+PAV_megacorp_1_modifiers: "Division Organization: [?PAV_MC1_army_org_factor|%+] §Y%§!\nDivision Attack: [?PAV_MC1_army_attack_factor|%+] §Y%§!\nArmy Professionalism Monthly Change: [?PAV_MC1_army_professionalism_monthly_rate|+] §Y%§!"
+PAV_megacorp_2_modifiers: "Consumer Goods Factories: [?PAV_MC2_consumer_goods_factor|%Y] §Y%§!\nConstruction Speed: [?PAV_MC2_production_speed_buildings_factor|%+] §Y%§!\n£prod_eff_cap Production Efficiency Cap: [?PAV_MC2_production_factory_max_efficiency_factor|%+] §Y%§!"
+PAV_megacorp_3_modifiers: "Research Speed: [?PAV_MC3_research_speed_factor|%+] §Y%§!\nAcademic Base Monthly Change: [?PAV_MC3_academic_base_monthly_rate|+] §Y%§!\nResearch Facilities Monthly Change: [?PAV_MC3_research_facilities_monthly_rate|+] §Y%§!"
+PAV_megacorp_4_modifiers: "Daily Political Power Gain: [?PAV_MC4_political_power_gain|+] §Y%§!\nPoverty Monthly Change: [?PAV_MC4_poverty_monthly_rate|+] §Y%§!"
+
+### Map Tooltips ###
+## fuck johan
+# i agree
+
+PAV_Silovik_GUI_state_aldan_tt: "§Y[760.Owner.GetName]§!\n\nWe currently have [760.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_amur_tt: "§Y[561.Owner.GetName]§!\n\nWe currently have [561.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_bashkiria_tt: "§Y[651.Owner.GetName]§!\n\nWe currently have [651.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_berezniki_tt: "§Y[398.Owner.GetName]§!\n\nWe currently have [398.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_buryatia_tt: "§Y[564.Owner.GetName]§!\n\nWe currently have [564.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_chita_tt: "§Y[563.Owner.GetName]§!\n\nWe currently have [563.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_chukotka_tt: "§Y[891.Owner.GetName]§!\n\nWe currently have [891.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_dirle_tt: "§Y[846.Owner.GetName]§!\n\nWe currently have [846.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_gayny_tt: "§Y[866.Owner.GetName]§!\n\nWe currently have [866.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_gorky_tt: "§Y[252.Owner.GetName]§!\n\nWe currently have [252.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_irkutsk_tt: "§Y[566.Owner.GetName]§!\n\nWe currently have [566.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_kamchatka_tt: "§Y[637.Owner.GetName]§!\n\nWe currently have [637.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_kolyma_tt: "§Y[759.Owner.GetName]§!\n\nWe currently have [759.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_magadan_tt: "§Y[562.Owner.GetName]§!\n\nWe currently have [562.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_magnitogorsk_tt: "§Y[582.Owner.GetName]§!\n\nWe currently have [582.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_novosibirsk_tt: "§Y[570.Owner.GetName]§!\n\nWe currently have [570.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_omolon_tt: "§Y[644.Owner.GetName]§!\n\nWe currently have [644.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_omsk_tt: "§Y[571.Owner.GetName]§!\n\nWe currently have [571.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_orenburg_tt: "§Y[652.Owner.GetName]§!\n\nWe currently have [652.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_oyrotia_tt: "§Y[654.Owner.GetName]§!\n\nWe currently have [654.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_plesetsk_tt: "§Y[861.Owner.GetName]§!\n\nWe currently have [861.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_prc_tt: "§Y[329.Owner.GetName]§!\n\nWe currently have [329.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_samara_tt: "§Y[850.Owner.GetName]§!\n\nWe currently have [850.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_tomsk_tt: "§Y[578.Owner.GetName]§!\n\nWe currently have [578.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_sba_tt: "§Y[568.Owner.GetName]§!\n\nWe currently have [568.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_kras_tt: "§Y[757.Owner.GetName]§!\n\nWe currently have [757.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_kemerovo_tt: "§Y[569.Owner.GetName]§!\n\nWe currently have [569.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_tyumen_tt: "§Y[403.Owner.GetName]§!\n\nWe currently have [403.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_sverdlovsk_tt: "§Y[653.Owner.GetName]§!\n\nWe currently have [653.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_ural_tt: "§Y[848.Owner.GetName]§!\n\nWe currently have [848.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_vilyuy_tt: "§Y[890.Owner.GetName]§!\n\nWe currently have [890.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_chernyshevsky_tt: "§Y[575.Owner.GetName]§!\n\nWe currently have [575.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_vologda_tt: "§Y[351.Owner.GetName]§!\n\nWe currently have [351.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_kostroma_tt: "§Y[856.Owner.GetName]§!\n\nWe currently have [856.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_ab_tt: "§Y[753.Owner.GetName]§!\n\nWe currently have [753.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_vyatka_tt: "§Y[400.Owner.GetName]§!\n\nWe currently have [400.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_tatarstan_tt: "§Y[249.Owner.GetName]§!\n\nWe currently have [249.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_wrrf_tt: "§Y[214.Owner.GetName]§!\n\nWe currently have [214.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_ukhta_tt: "§Y[869.Owner.GetName]§!\n\nWe currently have [869.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_onega_tt: "§Y[859.Owner.GetName]§!\n\nWe currently have [859.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_yakutia_tt: "§Y[574.Owner.GetName]§!\n\nWe currently have [574.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_yugra_tt: "§Y[845.Owner.GetName]§!\n\nWe currently have [845.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_fav_tt: "§Y[579.Owner.GetName]§!\n\nWe currently have [579.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_vorkuta_tt: "§Y[863.Owner.GetName]§!\n\nWe currently have [863.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_zlatoust_tt: "§Y[573.Owner.GetName]§!\n\nWe currently have [573.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+PAV_Silovik_GUI_state_komi_tt: "§Y[397.Owner.GetName]§!\n\nWe currently have [397.Owner.GetNovosibirskTakeoverProgress]§Y%§! progress in this region.\n\n§YCLICK FOR FURTHER ACTIONS§!"
+
+PAV_Takeover_ProgressBar_tt: "[PAV_target_country.GetNovosibirskTakeoverProgress]% Progress"
+PAV_Silovik_GUI_policies_tt: "§PPOLICIES:§!\n§YCorporatism:§! [?PAV_policies_corporatism]\n§RCollectivism:§! [?PAV_policies_collectivism]\n\n§BUnitarianism:§! [?PAV_policies_unitarianism]\n§GFederalism:§! [?PAV_policies_federalism]"
+PAV_takeover_progress_loc: "[?temp_takeover|Y0]"
+
+PAV_Silovik_GUI_megacorp_1_option_1_plus_tt: "[GetNovosibirskMegacorpCooldown1]"
+PAV_megacorp_1_has_cooldown: "§RThis action is on a 30 day cooldown.§!"
+PAV_megacorp_1_no_cooldown: "This will raise §YLoyalty§! by §Y10§! and cost §Y35§! Political Power."
+#
+PAV_Silovik_GUI_megacorp_1_option_1_minus_tt: "[GetNovosibirskMegacorpCooldownMinus1]"
+PAV_megacorp_1_no_cooldown_minus: "This will lower §YLoyalty§! by §Y10§! and cost §Y35§! Political Power."
+
+PAV_Silovik_GUI_megacorp_1_option_2_plus_tt: "[GetNovosibirskMegacorpCooldownPower1]"
+PAV_Silovik_GUI_megacorp_1_option_2_minus_tt: "[GetNovosibirskMegacorpCooldownPowerMinus1]"
+
+PAV_megacorp_1_no_cooldown_power: "This will raise §YPower§! by §Y10§! and cost §Y35§! Political Power."
+PAV_megacorp_1_no_cooldown_minus_power: "This will lower §YPower§! by §Y10§! and cost §Y35§! Political Power."
+PAV_megacorp_not_enough_PP: "§RWe do not have enough§! §YPolitical Power.§!\n\nThis would cost §Y35§! Political Power."
+#
+PAV_Silovik_GUI_PC_circle_tt: "The §Rpower§! of each §YMegacorp§! will heavily influence our political stance:\nA strong §YFeniks§! will make us more §PUnitary§!\nA strong §YSibir§! will make us more §GFederal§!\nA strong §YTitan§! will make us more §YCorporatist§!\nand a strong §YPopulace§! will make us more §xCollectivist.§!\n\n§PFeniks§! Drift: [?PAV_unit_drift]\n§GSibir§! Drift: [?PAV_federal_drift]\n§YTitan§! Drift: [?PAV_corp_drift]\n§xPopulace§! Drift: [?PAV_coll_drift]"
+#
+PAV_Silovik_GUI_megacorp_2_option_1_plus_tt: "[GetNovosibirskMegacorpCooldown2]"
+PAV_Silovik_GUI_megacorp_2_option_1_minus_tt: "[GetNovosibirskMegacorpCooldownMinus2]"
+PAV_Silovik_GUI_megacorp_2_option_2_plus_tt: "[GetNovosibirskMegacorpCooldownPower2]"
+PAV_Silovik_GUI_megacorp_2_option_2_minus_tt: "[GetNovosibirskMegacorpCooldownPowerMinus2]"
+#
+PAV_Silovik_GUI_megacorp_3_option_1_plus_tt: "[GetNovosibirskMegacorpCooldown3]"
+PAV_Silovik_GUI_megacorp_3_option_1_minus_tt: "[GetNovosibirskMegacorpCooldownMinus3]"
+PAV_Silovik_GUI_megacorp_3_option_2_plus_tt: "[GetNovosibirskMegacorpCooldownPower3]"
+PAV_Silovik_GUI_megacorp_3_option_2_minus_tt: "[GetNovosibirskMegacorpCooldownPowerMinus3]"
+#
+PAV_Silovik_GUI_megacorp_4_option_1_plus_tt: "[GetNovosibirskMegacorpCooldown4]"
+PAV_Silovik_GUI_megacorp_4_option_1_minus_tt: "[GetNovosibirskMegacorpCooldownMinus4]"
+PAV_Silovik_GUI_megacorp_4_option_2_plus_tt: "[GetNovosibirskMegacorpCooldownPower4]"
+PAV_Silovik_GUI_megacorp_4_option_2_minus_tt: "[GetNovosibirskMegacorpCooldownPowerMinus4]"
+#
+PAV_Silovik_GUI_megacorp_1_status_text: "§GLoyalty:§! [?PAV_megacorp1_loyalty]\n§RPower:§! [?PAV_megacorp1_power]"
+PAV_Silovik_GUI_megacorp_2_status_text: "§GLoyalty:§! [?PAV_megacorp2_loyalty]\n§RPower:§! [?PAV_megacorp2_power]"
+PAV_Silovik_GUI_megacorp_3_status_text: "§GLoyalty:§! [?PAV_megacorp3_loyalty]\n§RPower:§! [?PAV_megacorp3_power]"
+PAV_Silovik_GUI_megacorp_4_status_text: "§GLoyalty:§! [?PAV_megacorp4_loyalty]\n§RPower:§! [?PAV_megacorp4_power]"
+PAV_Interact_TakeOver_tt: "§gOnce our§! §WTakeover Progress§! §gover the region reaches§! §Y100%§!§g, we can diplomatically annex the target.§!\n\n§RONLY NEIGHBORS CAN BE INFLUENCED, AND ONLY CENTRAL SIBERIAN WARLORDS UNTIL 1969.§!\nBase: §Y[?PAV.PAV_Takeover_Power]§!\nOur §Yideological similarity§! with this country gives us a bonus of §G[?PAV.PAV_Dummy_Id_Sim]§!\nOur megacorps §Rpower§! and §Gloyalty§! grants us a bonus of §Y[?PAV.PAV_dummy_megacorp_boost]§!\n\nThis country's ideology means its megacorp bonus comes from [GetNovosibirskWhichMegaCorp]"
+
+
+PAV_Interact_1_tt: "§Y10 DAYS COOLDOWN§!\n\nThis will cost §Y30§!  £political_power_texticon  Political Power"
+PAV_Interact_2_tt: "§Y10 DAYS COOLDOWN§!\n\nThis will cost §Y25§!  £command_power  §RCommand Power§!"
+PAV_Interact_3_tt: "§Y10 DAYS COOLDOWN§!\n\nThis will cost §Y100§! £green_dollar_sign  §GMonetary Reserves§!"
+PAV_Silovik_GUI_extra_button_1_tt: "Our primary goal is to successfully §Gtakeover§! all nearby states in §YCentral Siberia§! and then §Rall of Russia itself,§! to do this we must complete §Ymissions§! for warlords by paying them in various forms, this is done by §Ypressing on a state in the above map GUI.§!\n\nIn order to speed up this process as much as possible, we should attempt to become §Yideologically aligned,§! the closer we are to a warlord ideologically the §Gfaster§! our takeover progress will grow and the more ideologically distant, §Rthe slower.§! We may view our current ideological standpoint by pressing the §Rred button below this one.§!\n\nTo influence our current ideological standpoint, we may §Ytake focuses§! or §Yempower certain Megacorps,§! the stronger the Megacorp, the more we will lean towards their ideology. We may view our current §Yideological drift§! in the §Rbutton below this one§! menu and hovering over the £GFX_PAV_GUI_Political_Compass_circle.\n\nMegacorps are not just helpful to drift our ideology, but the §Ymore powerful§! a Megacorp is, the easier it will be to assimilate warlords of that Megacorps ideology. §RHowever, should Megacorp §GLoyalty§! fall under §Y50,§! this will turn into a malus and not a bonus.§!\nTo learn about each Megacorp and their ideology click the i under each of their names."
+
+
+#Flavour Loc
+
+PAV_SEV_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_AMR_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_BKR_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_MAR_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_BRY_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_WCH_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_CHK_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_ORS_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_GAY_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_CHU_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_IRK_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_KMC_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_KOL_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_MAG_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_BAS_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_PAV_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_OMO_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_OMS_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_ORE_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_ALT_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_MIR_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_SVO_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_SAM_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_ERS_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_KHA_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_SAH_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_KEM_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_ISH_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_TOB_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_URL_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_VIL_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_CHR_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_VOL_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_KST_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_PRM_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_KIR_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_TAR_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_WRS_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_UKH_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_VTY_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_YAK_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_KOM_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_FAV_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_VOR_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_UDM_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+PAV_NIK_mission1_name: "Increase Political Pressure  §Y30§!  £political_power_texticon"
+
+PAV_SEV_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_AMR_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_BKR_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_MAR_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_BRY_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_WCH_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_CHK_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_ORS_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_GAY_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_CHU_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_IRK_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_KMC_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_KOL_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_MAG_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_BAS_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_PAV_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_OMO_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_OMS_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_ORE_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_ALT_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_MIR_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_SVO_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_SAM_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_ERS_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_KHA_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_SAH_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_KEM_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_ISH_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_TOB_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_URL_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_VIL_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_CHR_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_VOL_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_KST_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_PRM_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_KIR_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_TAR_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_WRS_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_UKH_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_VTY_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_YAK_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_KOM_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_FAV_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_VOR_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_UDM_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+PAV_NIK_mission2_name: "Increase Military Pressure  §Y25§!  £command_power"
+
+PAV_SEV_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_AMR_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_BKR_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_MAR_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_BRY_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_WCH_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_CHK_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_ORS_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_GAY_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_CHU_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_IRK_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_KMC_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_KOL_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_MAG_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_BAS_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_PAV_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_OMO_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_OMS_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_ORE_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_ALT_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_MIR_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_SVO_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_SAM_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_ERS_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_KHA_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_SAH_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_KEM_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_ISH_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_TOB_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_URL_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_VIL_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_CHR_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_VOL_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_KST_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_PRM_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_KIR_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_TAR_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_WRS_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_UKH_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_VTY_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_YAK_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_KOM_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_FAV_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_VOR_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_UDM_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+PAV_NIK_mission3_name: "Increase Economic Pressure  §Y100§! £green_dollar_sign"
+
+
+PAV_uses_megacorp1: "§PFeniks§!"
+PAV_uses_megacorp2: "§GSibir§!"
+PAV_uses_megacorp3: "§YTitan§!"
+PAV_uses_megacorp4: "§xthe People§!"
+##########################
+##=====| Tooltips |=====##
+##########################
+
+### Political Compass ###
+#Corporatism
+PAV_Add_Corporatism_Low_tt: "This will §Qincrease§! our leanings towards §YCorporatism§! by a small amount.\n"
+PAV_Add_Corporatism_Mid_tt: "This will §Qincrease§! our leanings towards §YCorporatism§! by a moderate amount.\n"
+PAV_Add_Corporatism_High_tt: "This will §Qincrease§! our leanings towards §YCorporatism§! by a large amount.\n"
+
+PAV_Lower_Corporatism_Low_tt: "This will §wdecrease§! our leanings towards §YCorporatism§! by a small amount.\n"
+PAV_Lower_Corporatism_Mid_tt: "This will §wdecrease§! our leanings towards §YCorporatism§! by a moderate amount.\n"
+PAV_Lower_Corporatism_High_tt: "This will §wdecrease§! our leanings towards §YCorporatism§! by a large amount.\n"
+
+#Collectivism
+PAV_Add_Collectivism_Low_tt: "This will §Qincrease§! our leanings towards §RCollectivism§! by a small amount.\n"
+PAV_Add_Collectivism_Mid_tt: "This will §Qincrease§! our leanings towards §RCollectivism§! by a moderate amount.\n"
+PAV_Add_Collectivism_High_tt: "This will §Qincrease§! our leanings towards §RCollectivism§! by a large amount.\n"
+
+PAV_Lower_Collectivism_Low_tt: "This will §wdecrease§! our leanings towards §RCollectivism§! by a small amount.\n"
+PAV_Lower_Collectivism_Mid_tt: "This will §wdecrease§! our leanings towards §RCollectivism§! by a moderate amount.\n"
+PAV_Lower_Collectivism_High_tt: "This will §wdecrease§! our leanings towards §RCollectivism§! by a large amount.\n"
+
+#Federalism
+PAV_Add_Federalism_Low_tt: "This will §Qincrease§! our leanings towards §GFederalism§! by a small amount.\n"
+PAV_Add_Federalism_Mid_tt: "This will §Qincrease§! our leanings towards §GFederalism§! by a moderate amount.\n"
+PAV_Add_Federalism_High_tt: "This will §Qincrease§! our leanings towards §GFederalism§! by a large amount.\n"
+
+PAV_Lower_Federalism_Low_tt: "This will §wdecrease§! our leanings towards §GFederalism§! by a small amount.\n"
+PAV_Lower_Federalism_Mid_tt: "This will §wdecrease§! our leanings towards §GFederalism§! by a moderate amount.\n"
+PAV_Lower_Federalism_High_tt: "This will §wdecrease§! our leanings towards §GFederalism§! by a large amount.\n"
+
+#Unitarism
+PAV_Add_Unitarianism_Low_tt: "This will §Qincrease§! our leanings towards §BUnitarianism§! by a small amount.\n"
+PAV_Add_Unitarianism_Mid_tt: "This will §Qincrease§! our leanings towards §BUnitarianism§! by a moderate amount.\n"
+PAV_Add_Unitarianism_High_tt: "This will §Qincrease§! our leanings towards §BUnitarianism§! by a large amount.\n"
+
+PAV_Lower_Unitarianism_Low_tt: "This will §wdecrease§! our leanings towards §BUnitarianism§! by a small amount.\n"
+PAV_Lower_Unitarianism_Mid_tt: "This will §wdecrease§! our leanings towards §BUnitarianism§! by a moderate amount.\n"
+PAV_Lower_Unitarianism_High_tt: "This will §wdecrease§! our leanings towards §BUnitarianism§! by a large amount.\n"
+
+### Power Changes ###
+#Feniks
+PAV_Feniks_ADD_Feniks_Power_Low_tt: "This will §Qincrease§! the strength of §PFeniks§! by a small amount.\n"
+PAV_Feniks_ADD_Feniks_Power_Med_tt: "This will §Qincrease§! the strength of §PFeniks§! by a moderate amount.\n"
+PAV_Feniks_ADD_Feniks_Power_High_tt: "This will §Qincrease§! the strength of §PFeniks§! by a large amount.\n"
+
+PAV_Feniks_SUBTRACT_Feniks_Power_Low_tt: "This will §wdecrease§! the strength of §PFeniks§! by a small amount.\n"
+PAV_Feniks_SUBTRACT_Feniks_Power_Med_tt: "This will §wdecrease§! the strength of §PFeniks§! by a moderate amount.\n"
+PAV_Feniks_SUBTRACT_Feniks_Power_High_tt: "This will §wdecrease§! the strength of §PFeniks§! by a large amount.\n"
+
+#Sibir
+PAV_Feniks_ADD_Sibir_Power_Low_tt: "This will §Qincrease§! the strength of §GSibir§! by a small amount.\n"
+PAV_Feniks_ADD_Sibir_Power_Med_tt: "This will §Qincrease§! the strength of §GSibir§! by a moderate amount.\n"
+PAV_Feniks_ADD_Sibir_Power_High_tt: "This will §Qincrease§! the strength of §GSibir§! by a large amount.\n"
+
+PAV_Feniks_SUBTRACT_Sibir_Power_Low_tt: "This will §wdecrease§! the strength of §GSibir§! by a small amount.\n"
+PAV_Feniks_SUBTRACT_Sibir_Power_Med_tt: "This will §wdecrease§! the strength of §GSibir§! by a moderate amount.\n"
+PAV_Feniks_SUBTRACT_Sibir_Power_High_tt: "This will §wdecrease§! the strength of §GSibir§! by a large amount.\n"
+
+#Titan
+PAV_Feniks_ADD_Titan_Power_Low_tt: "This will §Qincrease§! the strength of §YTitan§! by a small amount.\n"
+PAV_Feniks_ADD_Titan_Power_Med_tt: "This will §Qincrease§! the strength of §YTitan§! by a moderate amount.\n"
+PAV_Feniks_ADD_Titan_Power_High_tt: "This will §Qincrease§! the strength of §YTitan§! by a large amount.\n"
+
+PAV_Feniks_SUBTRACT_Titan_Power_Low_tt: "This will §wdecrease§! the strength of §YTitan§! by a small amount.\n"
+PAV_Feniks_SUBTRACT_Titan_Power_Med_tt: "This will §wdecrease§! the strength of §YTitan§! by a moderate amount.\n"
+PAV_Feniks_SUBTRACT_Titan_Power_High_tt: "This will §wdecrease§! the strength of §YTitan§! by a large amount.\n"
+
+#The People
+PAV_Feniks_ADD_People_Power_Low_tt: "This will §Qincrease§! the strength of §xthe Populace§! by a small amount.\n"
+PAV_Feniks_ADD_People_Power_Med_tt: "This will §Qincrease§! the strength of §xthe Populace§! by a moderate amount.\n"
+PAV_Feniks_ADD_People_Power_High_tt: "This will §Qincrease§! the strength of §xthe Populace§! by a large amount.\n"
+
+PAV_Feniks_SUBTRACT_People_Power_Low_tt: "This will §wdecrease§! the strength of §xthe Populace§! by a small amount.\n"
+PAV_Feniks_SUBTRACT_People_Power_Med_tt: "This will §wdecrease§! the strength of §xthe Populace§! by a moderate amount.\n"
+PAV_Feniks_SUBTRACT_People_Power_High_tt: "This will §wdecrease§! the strength of §xthe Populace§! by a large amount.\n"
+
+### Loyalty Changes ###
+#Feniks
+PAV_Feniks_ADD_Feniks_Loyalty_Low_tt: "This will §Qincrease§! the loyalty of §PFeniks§! by a small amount.\n"
+PAV_Feniks_ADD_Feniks_Loyalty_Med_tt: "This will §Qincrease§! the loyalty of §PFeniks§! by a moderate amount.\n"
+PAV_Feniks_ADD_Feniks_Loyalty_High_tt: "This will §Qincrease§! the loyalty of §PFeniks§! by a large amount.\n"
+
+PAV_Feniks_SUBTRACT_Feniks_Loyalty_Low_tt: "This will §wdecrease§! the loyalty of §PFeniks§! by a small amount.\n"
+PAV_Feniks_SUBTRACT_Feniks_Loyalty_Med_tt: "This will §wdecrease§! the loyalty of §PFeniks§! by a moderate amount.\n"
+PAV_Feniks_SUBTRACT_Feniks_Loyalty_High_tt: "This will §wdecrease§! the loyalty of §PFeniks§! by a large amount.\n"
+
+#Sibir
+PAV_Feniks_ADD_Sibir_Loyalty_Low_tt: "This will §Qincrease§! the loyalty of §GSibir§! by a small amount.\n"
+PAV_Feniks_ADD_Sibir_Loyalty_Med_tt: "This will §Qincrease§! the loyalty of §GSibir§! by a moderate amount.\n"
+PAV_Feniks_ADD_Sibir_Loyalty_High_tt: "This will §Qincrease§! the loyalty of §GSibir§! by a large amount.\n"
+
+PAV_Feniks_SUBTRACT_Sibir_Loyalty_Low_tt: "This will §wdecrease§! the loyalty of §GSibir§! by a small amount.\n"
+PAV_Feniks_SUBTRACT_Sibir_Loyalty_Med_tt: "This will §wdecrease§! the loyalty of §GSibir§! by a moderate amount.\n"
+PAV_Feniks_SUBTRACT_Sibir_Loyalty_High_tt: "This will §wdecrease§! the loyalty of §GSibir§! by a large amount.\n"
+
+#Titan
+PAV_Feniks_ADD_Titan_Loyalty_Low_tt: "This will §Qincrease§! the loyalty of §YTitan§! by a small amount.\n"
+PAV_Feniks_ADD_Titan_Loyalty_Med_tt: "This will §Qincrease§! the loyalty of §YTitan§! by a moderate amount.\n"
+PAV_Feniks_ADD_Titan_Loyalty_High_tt: "This will §Qincrease§! the loyalty of §YTitan§! by a large amount.\n"
+
+PAV_Feniks_SUBTRACT_Titan_Loyalty_Low_tt: "This will §wdecrease§! the loyalty of §YTitan§! by a small amount.\n"
+PAV_Feniks_SUBTRACT_Titan_Loyalty_Med_tt: "This will §wdecrease§! the loyalty of §YTitan§! by a moderate amount.\n"
+PAV_Feniks_SUBTRACT_Titan_Loyalty_High_tt: "This will §wdecrease§! the loyalty of §YTitan§! by a large amount.\n"
+
+#The People
+PAV_Feniks_ADD_People_Loyalty_Low_tt: "This will §Qincrease§! the loyalty of §xthe Populace§! by a small amount.\n"
+PAV_Feniks_ADD_People_Loyalty_Med_tt: "This will §Qincrease§! the loyalty of §xthe Populace§! by a moderate amount.\n"
+PAV_Feniks_ADD_People_Loyalty_High_tt: "This will §Qincrease§! the loyalty of §xthe Populace§! by a large amount.\n"
+
+PAV_Feniks_SUBTRACT_People_Loyalty_Low_tt: "This will §wdecrease§! the loyalty of §xthe Populace§! by a small amount.\n"
+PAV_Feniks_SUBTRACT_People_Loyalty_Med_tt: "This will §wdecrease§! the loyalty of §xthe Populace§! by a moderate amount.\n"
+PAV_Feniks_SUBTRACT_People_Loyalty_High_tt: "This will §wdecrease§! the loyalty of §xthe Populace§! by a large amount.\n"
