@@ -206,10 +206,10 @@ scripted_gui = {
 		
 		triggers = {
 			closing_button_next_page_visible = {
-				check_variable = { ENDING_INFO_PAGE < 1.99 }
+				check_variable = { ENDING_INFO_PAGE < 0.99 }
 			}
 			closing_button_prev_page_visible = {
-				check_variable = { ENDING_INFO_PAGE > 1.01 }
+				check_variable = { ENDING_INFO_PAGE > 0.01 }
 			}
 		}
 	}
