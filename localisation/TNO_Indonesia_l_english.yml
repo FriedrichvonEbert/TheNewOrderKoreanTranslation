@@ -83,8 +83,9 @@
  #########################
  ##Military Leader Descs##
  #########################
- FIELD_MARSHAL_SUHARTO:0 ""
- FIELD_MARSHAL_ABDUL_HARIS_NASUTION:0 ""
+ FIELD_MARSHAL_SUHARTO:0 "Commander Suharto of the Indonesian Army is the second most powerful and third most influential man in the entire country. Quickly rising through the ranks during the National Revolution, Suharto became an integral part of the military and constructed a minor powerbase around himself. Filled with ambition, he makes every attempt to advise President Sukarno, much to the chagrin of Vice President Hatta, who opposes him at every turn. Where exactly Suharto's ambition will take him is anyone's guess, but everyone expects, or fears, that he will do whatever it takes to get there."
+ FIELD_MARSHAL_ABDUL_HARIS_NASUTION:0 "Commander Abdul Haris Nasution is feared for his brutality among the rebel forces of Indonesia and even his own troops, and rightfully so. The terror he inflicts is that of a man who has a greater purpose for which he can do no wrong in service of. Everything he does is for Indonesia. Every village set aflame. Every rebel executed. Every order issued. All of it for Indonesia."
+ GENERAL_LB_MOERDANI:0 "General Leonardus Benjamin Moerdani's military career was jump-started by his service in a Student Army during the National Revolution. He rose to prominence and fame, though not necessarily the good kind, due to his strong, outspoken political stances and religion. Being a Catholic in a majority Muslim country, he is the subject of a great deal of suspicion, though his loyalty to Indonesia and Sukarno has never been openly called into question."
  
  #########
  ##Ideas##
@@ -173,11 +174,12 @@
  ##Ministers##
  #############
  INS_Djuanda_Kartawidjaja_hog:0 "주안다 카르타위자자"
- INS_Djuanda_Kartawidjaja_hog_desc:0 ""
+ INS_Djuanda_Kartawidjaja_hog_desc:0 "§L §!"
  INS_Subandrio_for:0 "수반드리오"
  INS_General_Abdul_Haris_Nasution_sec:0 "압둘 하리스 나수티온"
+ INS_General_Abdul_Haris_Nasution_sec_desc:0 "§LUnyielding. Resilient. Brutal. These words fail to completely describe General Abdul Haris Nasution, a veteran of the Indonesian independence war and Commander of the Armed Forces. Unlike the charismatic Sukarno, Nasution prefers to rule by fear and fear alone. Both the disgruntled infantryman and seasoned rebel fear his violent and often over enthusiastic tactics. He often finds himself in conflict with the President, who finds his extreme tendencies distasteful, but in these tumultuous times, he may just be the man needed to save Indonesia.§!"
  INS_Suwiryo_eco:0 "수위료"
- INS_Suwiryo_eco_desc:0 ""
+ INS_Suwiryo_eco_desc:0 "§LSuwiryo first rose to prominence during the Japanese liberation of Indonesia, where he served as the head of economic affairs at the headquarters of mobilization center Putera, and later, as the deputy mayor of Jakarta. This work earned him a position in the government of the new independent Indonesia, where he has proved to be a staunch advocate of Romusha, Shinkimakinaoshi, and stronger ties with Japan. Ambitious, manipulative, but ultimately politically inexperienced, Suwiryo has great plans that almost always fall on deaf ears.§!"
  INS_Hamengkubuwono_hog:0 "하멩쿠부워노 9세"
 
  ########
@@ -730,6 +732,20 @@ ins_coailtion.4.a:0 "As the Americans say; the show must go on."
  ins_sukarnowar.4.t:0 "Sukarno Instates Conscription"
  ins_sukarnowar.4.desc:0 "In a civil war, one assumes that the people will come out in droves to whichever side they deem best to steer the nation. As Sukarno preached, however, the Indonesian people do not want another war, they do not want to be made the playground of the international community, they want only to work and to flourish. While the simple goal is admirable, the situation demands a change of course.\n\nSukarno held much of the default support, he had devoted his entire life to the independence of Indonesia and the people recognized that. They had heard his speeches, seen his scars, some few even fought alongside him, but much could be said of Hatta as well. The two played a tug-of-war over the people, vying for control of enough of the masses to overwhelm their enemies. Hatta could not compare in the battle of oration, and yet, the number of recruits dwindled day by day. It seemed to Sukarno that perhaps it did not take words to vex one to fight, it took vision. The people today held sight in higher standing than hearing, what Hatta could not accomplish in a speech, he could compensate for by warping the perception of the standard of living\n\nIt was playing dirty, tricking the people into joining the cause of Hatta by speaking half-truths. Two could play at that game. Though Sukarno felt some resignation as he sat down to author his next decree, he put his mind at ease with visions of the future, when he could return to the prosperity and, more importantly, the normalcy of the early sixties."
  ins_sukarnowar.4.a:0 "All Indonesians must fight traitors!"
+ 
+ ins_sukarnowar.5.t:0 "The President and His War"
+ ins_sukarnowar.5.desc:0 "The phone rang loudly in the otherwise tranquil early morning. The security minister, who had been at his desk all night long, touched the shrill device tentatively and then picked it up and held it close to his ear.\n\n"Hello." he said. He knew who was calling.\n\nGarbled chattering in accented Japanese spilled out of the speaker. The security minister nodded along and gave nigh imperceptible hmms in response to the caller.\n\n"Yes, I know. That is, however, a lot to ask."\n\nThe caller grew frantic and began to speak rapidly, mutilating their Japanese like an inexperienced, zealous butcher. The security minister listened calmly and mentally parsed their words.\n\n"I can't give an answer to that, I apologize." He wasn't sorry. "But I can answer your first question: 'Will the Japanese help in Indonesia?'" The security minister paused for a moment. On the other end of the line, President Sukarno held his breath."
+ ins_sukarnowar.5.a:0 ""Of course we will.""
+ ins_sukarnowar.5.b:0 ""No, we will not.""
+
+ ins_sukarnowar.6.t:0 "A Certain Sentiment"
+ ins_sukarnowar.6.desc:0 "President Sukarno leafed through the manilla folder and its numerous clean white pages besmirched only by the aesthetic red impression of the Co-Prosperity Sphere brand. General Suharto stood, and had been standing, uncomfortably in Sukarno's office as the President inspected each page with the utmost care from the comfort of his desk. He finally shut the perfect folder, creasing a page that he had stuck haphazardly into it, and turned to Suharto.\n\n"Why not more?" he asked.\n\nSuharto blinked at him. "That was all we could get." he said plainly.\n\nSukarno opened the folder again. The creased page sprung up, liberated from the manilla. He read the black, inky figures once more before closing the folder and condemning the creased page to its previous fate.\n\n"I expected more." the President said and then stood up and left the room, handing Suharto the report on Japanese military assistance on his way out.\n\nSuharto sighed, opened the folder, and carefully straightened the creased page before tucking the entire report under his arm and exiting the room."
+ ins_sukarnowar.6.a:0 "Hatta won't stand a chance."
+
+ ins_sukarnowar.7.t:0 "The Orator"
+ ins_sukarnowar.7.desc:0 ""Those insolent Japanese whores!" President Sukarno yelled. "We've done everything for those bastards: made their oil, flew their little flag next to ours, and done everything we could to keep the finger pointed at anyone but them and this is how they repay us?! I'll strangle every last one of those aristocratic tea drinkers!"\n\nEconomic Minister Suwiryo nervously rubbed his hands together. He hated being around Sukarno, or any of the loud members of government, when they were angry, and Sukarno was the loudest and agriest of all.\n\n"You!" Suakarno shouted, pointing at Suwiryo. "Send a message to those Japanese fucks and tell them - and say this exactly you sniveling weasel - fuck you and fuck your 'desire to avoid inciting tensions!' I'll win this war without you! Well? Go, get out of my sight!"\n\nSuwiryo dashed out of the room, suddenly aware why General Suharto had asked him, the economic minister, to discuss an explicitly military matter with the President."
+ ins_sukarnowar.7.a:0 "We don't need fancy Japanese equipment to win this one!"
+
 
  ####################
  ##LOCK AND KEY GUI## luv u komno <3
