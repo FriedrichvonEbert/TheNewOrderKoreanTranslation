@@ -820,9 +820,29 @@ POLITICS_ORDE_WINDGATE_COLLAB_DESC:0 "§w Born:§! February 26 1903, in Nainital
 ###################
 
 ENG_DECCAT_Debug:0 "§O디버그 디시전§!"
-ENG_DEC_LoadIntroTree:0 "§O인트로 계통도§! §Y로드§!"
-ENG_DEC_LoadPreEcwHmmlrTree:0 "§O내전 이전 저항군 계통도§! §Y로드§!"
-ENG_DEC_LoadPreEcwCollabsTree:0 "§O내전 이전 협력정부 계통도§! §Y로드§!"
+ENG_ShowHide_Pre_ECW:0 "Show/Hide §OPre-ECW Decisions§!"
+ENG_ShowHide_Collab_Vic:0 "Show/Hide §jCollab Victory Decisions"
+ENG_ShowHide_HMMLR_Vic:0 "Show/Hide §THMMLR Victory Decisions"
+ENG_Debug_Tree_Intro:0 "Load Intro Tree"
+ENG_Debug_Tree_PreEcw_Collabs:0 "Load Pre-ECW §jCollab Tree§!"
+ENG_Debug_Tree_PreEcw_HMMLR:0 "Load Pre-ECW §jHMMLR Tree§!"
+ENG_DEC_ActivateGoogleMapsDecisions:0 "Enable Google Map Decisions"
+ENG_DEC_SetCollabECWFlag:0 "Set Gameplay in the Perspective of §jCollab§!"
+ENG_DEC_SetHMMLRECWFlag:0 "Set Gameplay in the Perspective of §THMMLR§!"
+ENG_DEC_SetupEnglishEcon:0 "Setup English Economy"
+ENG_DEC_AddStateToEcon:0 "Add State to English Economy"
+ENG_Debug_Tree_Collab_Recon:0 "Load §jCollab§! Reconstruction Tree"
+ENG_Debug_Tree_Collab_Recon_2:0 "Load §jCollab§! Election Tree"
+ENG_Debug_RP_Vic_1:0 "Fire §eRP§! 1st Election Victory Event"
+ENG_Debug_RP_Vic_2:0 "Fire §eRP§! 2nd Election Victory Event"
+ENG_Debug_UE_Vic_1:0 "Fire §MUE§! 1st Election Victory Event"
+ENG_Debug_UE_Vic_2:0 "Fire §MUE§! 2nd Election Victory Event"
+ENG_Debug_Tree_HMMLR_Recon:0 "Load §THMMLR§! Reconstruction Tree"
+ENG_Debug_NDL_Vic_1:0 "Fire §YNDL§! 1st Election Victory Event"
+ENG_Debug_NDL_Vic_2:0 "Fire §YNDL§! 2nd Election Victory Event"
+ENG_Debug_SLP_Vic_1:0 "Fire §VSLP§! 1st Election Victory Event"
+ENG_Debug_SLP_Vic_2:0 "Fire §VSLP§! 2nd Election Victory Event"
+
 ENG_DECCAT_PreEcwFactions:0 "내전 이전 저항군 vs 협력정부 디버그"
 ENG_DECCAT_PreEcwFactions_desc:0 "§Y저항군§! Stats\nUnity: [?ENG.ENG_Hmmlr_Unity]\nGuns: [?ENG.ENG_Hmmlr_Guns]\n\n§Y협력정부§! Stats\nUnity: [?ENG.ENG_Collab_Unity]\nGuns: [?ENG.ENG_Collab_Guns]"
 
@@ -1408,7 +1428,7 @@ ENG_Collab_not_enough_time_desc:0 "Germany has descended into chaos. Would-be Hi
 # HMMLR Pre-ECW Tree #
 ######################
 
-ENG_FT_PreEcw_Collabs:0 "영국 내전 준비"
+ENG_FT_PreEcw_Hmmlr:0 "영국 내전 준비"
 ENG_days_of_the_resistance:0 "저항의 시간"
 ENG_stirlings_methods:0 "스털링의 방식"
 ENG_a_couple_of_tongues:0 "두개의 혀"
@@ -1481,11 +1501,13 @@ ENG_HMMLR_not_enough_time_desc:0 "Time is something that is not on our side. The
 # Post-ECW collab tree #
 ########################
 
+ENG_FT_Collab_Reconstruction:0 "The Reconstruction of England"
 ENG_an_end_of_the_disaster:0 "End of the Disaster"
 ENG_a_message_for_edward:0 "A Message For Edward"
 ENG_the_oxford_trials:0 "The Oxford Trials"
 ENG_meeting_with_montomery:0 "Meeting with Montgomery"
 ENG_an_announcement_for_everyone:0 "An Announcement for Everyone"
+ENG_FT_Collab_Reconstruction_2:0 "The Election"
 ENG_and_now_its_on_fire:0 "And Now Its on Fire"
 ENG_no_chance_to_win_mac:0 "No Chance To Win, Mac"
 ENG_not_so_easy:0 "Its Not So Easy"
@@ -1539,6 +1561,7 @@ ENG_whats_left_to_sort_out_desc:0 "The polls don't lie, Reginald Maudling is the
 # Post-ECW HMMLR tree #
 #######################
 
+FEN_FT_HMMLR_Reconstruction:0 "The Reconstruction of England"
 FEN_a_forgotten_word_england:0 "A Forgotten Word, "England""
 FEN_assembly_of_heroes:0 "Assembly of Heroes"
 FEN_urgent_matters_first:0 "Urgent Matters First"
