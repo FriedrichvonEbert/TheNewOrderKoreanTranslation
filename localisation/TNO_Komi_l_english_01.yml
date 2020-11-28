@@ -14,15 +14,15 @@
  NIK_authoritarian_democrat_DEF:0 "코미 공화국"
  NIK_despotism:0 "우스티시솔스크"
  NIK_despotism_DEF:0 "우스티시솔스크국"
- NIK_DEMOCRATIC_despotism:0 "코미"
- NIK_DEMOCRATIC_despotism_DEF:0 "코미 공화국"
+ NIK_STALINA_despotism:0 "코미"
+ NIK_STALINA_despotism_DEF:0 "코미 공화국"
  NIK_communist:0 "코미"
  NIK_communist_DEF:0 "코미 소비에트 공화국"
  NIK_socialist:0 "코미"
  NIK_socialist_DEF:0 "코미 소비에트 공화국"
  NIK_burgundian_system:0 "우스티시솔스크"
  NIK_burgundian_system_DEF:0 "우스티시솔스크국"
- NIK_ultranational_socialism:0 "우스티시솔스크"
+ NIK_ultranational_socialism:0 "우스티시솔스크 공화국"
  NIK_ultranational_socialism_DEF:0 "우스티시솔스크국"
  NIK_fascism_ADJ:0 "우스티시솔스크"
  NIK_social_liberal_ADJ:0 "코미"
@@ -36,77 +36,190 @@
  NIK_ultranational_socialism_ADJ:0 "우스티시솔스크"
  NIK_burgundian_system_ADJ:0 "우스티시솔스크"
  
- ### Country Desc ###
- NIK_THENEWORDER_DESC:0 "서러시아 전쟁 말기 서러시아 혁명전선이 무너지면서, 전선의 민간정부가 스스로 찾은 곳은 코미 ASSR의 수도 식팁카르에 있었습니다. WRRF 관리들, 소련의 정치 망명자들, 난민들, 그리고 다른 주에서 환영받지 못할 사람들로부터 코미 공화국이 세워졌고, 그것을 괴롭혔던 폭력의 순환을 끝내는 데 기여하는 헌법과 민주 제도를 제정했습니다.\n\n하지만, 공화국의 모든 것은 잘 되어가고 있지 않습니다. 정치적 갈등과 책략이 위기 상황에 이르고 있으며, 민주주의의 시대는 한정돼 있는 것 같습니다."
+ ### Party Names ###
+ NIK_fascism_party:0 "RNP"
+ NIK_fascism_party_long:0 "Rossiyskaya Natsionalnaya Partiya"
+ NIK_fascism_party_long:0 "Rossiyskaya Natsionalnaya Partiya"
+ NIK_national_socialism_party:0 "열성당"
+ NIK_national_socialism_party_long:0 "열성당 쇼비니즘파"
+ NIK_ultranational_socialism_party:0 "열성당"
+ NIK_ultranational_socialism_party_long:0 "열성당 유라시아파"
+ NIK_despotism_party:0 "OVRI"
+ NIK_despotism_party_long:0 "러시아 제국의 부흥을 위한 사회"
+ NIK_authoritarian_democrat_party:0 "PSD"
+ NIK_authoritarian_democrat_party_long:0 "주권민주당"
+ NIK_social_conservative_party:0 "RNP"
+ NIK_social_conservative_party_long:0 "Rossiyskaya Natsionalnaya Partiya"
+ NIK_social_liberal_party:0 "SMR"
+ NIK_social_liberal_party_long:0 "청년개혁연합"
+ NIK_social_liberal_party:0 "SMR"
+ NIK_social_liberal_party_long:0 "청년개혁연합"
+ NIK_social_democrat_party:0 "DSNP"
+ NIK_social_democrat_party_long:0 "인민민주사회당"
+ NIK_socialist_party:0 "KPK(R)"
+ NIK_socialist_party_long:0 "Kommunisticheskaya Partiya Komi (Reformist)"
+ NIK_communist_party:0 "KPK(O)"
+ NIK_communist_party_long:0 "Kommunisticheskaya Partiya Komi (Ortodoksal)"
+ NIK_burgundian_system_party:0 "OVRI"
+ NIK_burgundian_system_party_long:0 "러시아 제국의 부흥을 위한 사회"
+
+ NIK_communist_party_ultravisionary:0 "RKPSS(D)"
+ NIK_communist_party_ultravisionary_long:0 "개혁 소련 공산당(달노비드나야)"
+ NIK_socialist_party_ultravisionary:0 "RKPSS(D)"
+ NIK_socialist_party_ultravisionary_long:0 "개혁 소련 공산당(달노비드나야)"
+
+ NIK_communist_party_cpsu:0 "KPSS"
+ NIK_communist_party_cpsu_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza"
+ NIK_socialist_party_cpsu:0 "KPSS (L)"
+ NIK_socialist_party_cpsu_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza - Levaya"
+ 
+ ### Leader Bios ###
+ POLITICS_NIKOLAI_VOZNESENSKY_DESC:0 "Originally only a middle-level Soviet statesman, Nikolai Alekseevich Voznesensky found himself as the only guarantor of democracy, flawed as he is, in a small piece of the former Soviet Union. Being remarkable among his peers for extraordinary talents in the economic science and administrative work, Voznesensky was chosen by the Red Army Stavka on the eve of the West Russian War to oversee the recovery mission in the Komi ASSR. For his service to the Soviet province, Voznesensky acquired a considerable popularity among the people of Komi, who saw him as the benevolent statesman wishing to put the benefit of a common man ahead of the bickering and intrigues between the power-hungry Soviet cliques.\n\nAs the result of endless power plays between the Front and the hardline Communist bureaucrats in Syktyvkar, the now-president of the Komi ASSR Voznesensky remained as the sole figurehead in the Republic who could boast about the public support. Disillusioned with the Orthodox Marxist dogma and remaining bitter about the incompetence and pettiness of the Soviet higher-ups that nearly brought Komi to destruction, he reshaped the political system of the Republic into a representative democracy, where the voice of every man or woman can be heard and will be heard, breaking away with the single-party dictatorship.\n\nAlthough the hard efforts of Voznesensky brought daily bread and a sense of confidence for average Komi citizens, the reputation of Syktyvkar brought many unsavory people to the city who seek nothing but eliminate the democracy of Komi through her own institutions. But challenges to Voznesensky come not only from the extremists, but also from his fellow democratic politicians, who question the capability of Voznesenky to maintain the republican values, citing his abrasive and inappropriate behavior for a man of his position and his embarrassing ties to various Socialist groups. However, despite the political pressure, Voznesensky is not a person who wants to abandon the system he envisioned without a fight."
+
+ POLITICS_SVETLANA_STALINA_DESC:0 "Svetlana Iosifovna Stalina was one of the children of Josif Stalin, a Georgian member of the Soviet Union's Central Committee and one of Nikolai Bukharin's fiercest rivals. Although her father vanished from the historical record during the Great Patriotic War, Svetlana was able to safely survive the chaotic evacuation of Moscow and came to find refuge in Sykvytkar, capital of the fledgling Komi Republic. While her father was infamous in Party circles for being a hardliner and socialist ideologue, his parenting seems to have driven Svetlana in the opposite direction, and she quickly associated herself with Komi's rapidly growing political center. They welcomed her as a stabilizing force in a chaotic political system, and she quickly became a figurehead for the fragile center to rally around.\n\nNow that the political situation in Komi has deteriorated, Stalina has stepped up and decided to take the reins of state herself. Although she has resorted to some rather authoritarian methods to maintain order, she insists that they are temporary measures in the name of stability, and that she will soon fully restore democracy to Komi. Some are skeptical of her claims, but her actions still trend toward the center, and she is a far more pleasing candidate for many than the alternatives."
+
+ POLITICS_SVETLANA_STALINA_DEM_DESC:0 "Svetlana Iosifovna Stalina has been praised by her supporters as one of the few voices of stability or sanity in western Russia, and by her enemies as an authoritarian in denial, an opportunist who would take any chance she could to destroy the perceived radicalism she so hates.\n\nWhatever the case, Stalina's success as a politician is as unmatched as her story tragic. Her father, Iosif Stalin, was a Soviet bureaucrat and early supporter of Bukharin, who had died in an industrial accident rumored to be orchestrated on the orders of the Soviet government. In the long period following the death of Stalin, she has lost more and more - her mother, in the Great Patriotic War, her husband, purged by the West Russian Revolutionary Front, and her eldest brother, killed by friendly fire during the collapse of the Front at the end of the West Russian War.\n\nIndeed, Stalina claims that the war is where she first tasted the bite of radicalism, and when she vowed to oppose it at all costs. Stalina's party, the Sovereign Democratic Party, or PSD, gained prominence in the Komi Republic as a big tent comprised of big tents, a place for all who valued a safe and stable Russia over all else. Though Stalina's policies often borrow from left-wing populist principles, it would be most unwise to mistake her for a Marxist, as her father was. The basis for her political stances exists in the principles of "sovereignty, democracy, and patriotism" - the construction of a strong, independent Russia through an assertive foreign policy, heavy support for public welfare, and a strong, modern military.\n\nThrough the democratic process she fought so long to protect, the people have given Stalina their mandate, and the Lady of Steel stands prepared to defend her beloved Motherland from all enemies that may assail it - even if that danger is the unchecked will of the people itself."
+
+ POLITICS_ANDREY_ZHDANOV_DESC:0 "Andrei Alexandrovich Zhdanov - a name surrounded by either love or suspicion, depending on how much one actually knows about the man. Zhdanov is one of Komi's key politicians, a proud socialist leader with experience from chairing the Leningrad Communist Party before the Great Patriotic War, Zhdanov ended up entangled with the government of the West Russian Revolutionary Front, serving as an influential figure in an attempt to encourage Russian cultural unity against the Germans.\n\nHowever, the Front fell, and with it, Zhdanov's beloved universal cultural program. When the government fled to Syktyvkar and promptly dissolved, Zhdanov stayed behind, forming ties with Mikhail Suslov in the series of coups and power struggles that preceded the formation of the Republic. Despite his more authoritarian socialist stances in the early days of the Republic, Zhdanov has recently taken to pushing for more libertarian initiatives - democratization of a Komi socialist state, encouraging growth of minority culture, and reconciliation with the center-left. Additional initiatives he has supported include a greater synthesis of universal culture, science, and ideology into a general doctrine of Zhdanovshchina, increasing prioritization towards research into scientific management within the Communist Party, and creating standards for 'revolutionary art'.\n\nStill, paranoia seems to follow him, as persistent rumors push the idea that his true nature is not truly changed, but rather lying deep below the surface, waiting for him to acquire true power."
+
+ POLITICS_ALEXEI_KOSIGIN_DESC:0 "An economic mastermind, Alexey Nikolayevich Kosygin is one of the many people to have made himself part of the chaotic politics in Komi. Starting as the director of a textile mill, he was a supporter of the Bolshevik cause but only began to climb the hierarchy of the party and its nation-wide bureaucracy a few years before the war. By the time the Great Patriotic War had begun, Kosygin had been noted by the Soviet leadership as a trustworthy Party member and an overall clever individual. During the small time window between the beginning of the German invasion and the complete collapse of the motherland, he played a key role in evacuating industry to the east. His whereabouts following the dissolution of Bukharin's government remained unknown, until years later, when he emerged in the newly formed Komi Republic. There, Kosygin distinguished himself as a brilliant economist, and a vocal proponent of the Center coalition that held the country together.\n\nSoon, he would found the Union of Young Reformers, a party of his own which still allied with President Voznesensky, but clearly followed a separate agenda. Eventually, while the coalition he belonged in held out against radicals, the Young Reformers were able to usurp power from the dominant coalition leader, and now Kosygin has become the new President. Unlike Voznesensky and his absurdly close relation with certain factions of the Left, he has been clear on this issue: there will be no negotiation and no alliances with radicals on either side of the political spectrum, no matter what. The democrats must stand on their own, and create an economic power that can challenge other contenders for the reunification of Russia - Kosygin always being the designer of these ingenious plans for reform. How far these reforms will go remains to be seen."
+
+ POLITICS_MIKHAIL_SUSLOV_DESC:0 "Despite his humble origins, having been born in a rural community near the Volga, Mikhail Andreyevich Suslov has made a name for himself in his homeland. Starting from the Communist Youth, Suslov quickly became a prominent member of the Bolsheviks in Rostov and even managed to entangle himself in the local administration of the Party.\n\nWhen the Germans attacked, Suslov was designated to orchestrate guerrillas in the Caucasus. With the arrival of Wehrmacht forces, he was nowhere to be seen. There were rumours that he continued fighting in the woods, or that he was hanged by the garrison, but these rumours were soon proved false for the people of Arkhangelsk, as the man appeared in the city so far away from his home. Soon, just like when he was young, he entered the political stage of the West Russian Revolutionary Front. Climbing up the hierarchy, he became one of the most prominent WRRF politicians, and soon, was granted the prestigious position of Minister of Foreign Affairs. With the passage of time, Suslov was becoming even more influential and it was believed he could be the next Premier. Then, the West Russian War happened.\n\nAs the West Russian Revolutionary Front collapsed, Suslov found himself in the city of Syktyvkar, along with economic planner Nikolai Voznesensky. Together, they carefully created the Komi Republic, but soon this uneasy pact would end as each side had a different vision for the country. Suslov quickly used his position as leader of the red paramilitaries to gain power and influence, and managed to make himself an integral part of the Republic in political and military affairs, which meant removing him from the equation would not be easy. Having remained a puppet master for a long time, Suslov has finally come out to assume leadership as the Komi Republic has become a socialist state, allowing him to carry out his plan for governing the country."
+
+ POLITICS_BORIS_PONOMARYOV_DESC:0 "Boris Nikolayevich Ponomaryov has long been the face of the Komi Republic's Socialists, yet he is not its true leader. A relatively unremarkable historian and party functionary in the final years of Bukharin's Soviet Union, by sheer luck, he was able to flee the German invasion. With the collapse of the united Front in West Russia, Ponomaryov had to once again abandon his comfort, and headed to the newly established Komi Republic, a safe haven for political radicals and revolutionaries like him.\n\nIn Syktyvkar, he was able to come in contact with many supporters of the Revolution, those who wanted a return to the ways of old, before the glorious Union fell. As far away as that dream seemed, it still gained the support of Ponomaryov, who was quickly entangled in the webs of the left wing of the Republic. One man who was particularly keen on including him in his machinations was Mikhail Suslov, the "Puppetmaster". By propelling him to prominence in the party, and securing him a position in the National Assembly as well as some degree of power, Suslov could ensure Ponomaryov's loyalty, who was satisfied with what he had.\n\nNow, the socialists have finally made their move, and one of their loyal members has been expectedly assigned the position of General Secretary. As nothing more but a puppet of the men pulling the strings, Ponomaryov lacks real influence, and remains merely a strong figurehead for the government and population, as well as a way for his allies to remain in the shadows. However, he is absolutely content with that."
+
+ POLITICS_SERGEY_TABORITSKY_DESC:0 "The story of Sergey Vladimirovich Taboritsky is as anomalous as his personality and political views. Born to a Russian merchant and Jewish seamstress, Taboritsky was nevertheless a staunch Russian monarchist and earnest anti-Semite from an early age, trying to get rid of the "Cain's seal" inherited from his mother. Becoming an exile in the Weimar Republic following the Russian Civil War, he acquitanced himself with Russian reactionary circles, reinforcing his beliefs and helping to spread the infamous 'Protocols of Zion' in Germany. Along with his long-time friend Pyotr Shabelsky-Bork, he assassinated a former Russian Kadet politician Vladimir Dmitrievich Nabokov in attempt to bring revenge upon those whom he considered the main instigators of the revolution that ruined the Russian Tsardom. As the NSDAP came to power in Germany, he became one of the most enthusiastic collaborators with the Nazi regime among the White émigrés, hoping that the German dominance would pave a road for the restoration of monarchy in Russia.\n\nLike others, Taboritsky joined Vladimir in Vyatka, but soon he became displeased with who he claimed was the 'impostor Tsar', sincerely believing that the true Emperor of Russia, Tsarevich Alexey, miraculously survived and will arrive to his subjects should they prove their loyalty to their rightful ruler. Few in Vyatka could share his eccentric beliefs, but soon he found his following in Ust-Sysolsk.\n\nA person too unhinged for his enemies and friends alike, Taboritsky, however, succeeded to outplay them all and emerge as the sole ruler of the city, claiming the title of the Imperial Regent for Tsar Alexey II for himself. Few expect Taboritsky's delusions to come true, but few doubt his rule will be anything but ferocious one, as his zeal is fueled by long-standing hatred for Bolsheviks and anyone who betrayed the Russian Tsar in his darkest hour."
+
+ POLITICS_SERGEY_TABORITSKY_BURGSYS_DESC:0 "The mask has finally slipped, and the clock now ticks ever forward. Sergey Vladimirovich Taboritsky, formerly the dark horse of the Passionariyy Organization, has finally secured utter control of the state, and his plans for its future could not be any more disturbing - at least to his many detractors.\n\nOnce again harnessing the talent for oratory that ensured the relevance of his Society for the Restoration of the Russian Empire even when, by all accounts, it should have been entirely subsumed by the larger Organization, he has now announced that very restoration. Claiming to rule as regent for the Tsar Alexei II, who he states escaped execution by the Bolsheviks long ago, he routinely issues thunderous appeals to those to value traditionalism and Imperial nostalgia, and couples these appeals with open and extremely virulent anti-Semitism.\n\nTo those supporters, relatively numerous as they may be, it is as if God himself descended, in the form of Taboritsky, from Heaven in order to save the Empire. To everybody else, he is an abject madman, as unstable as he is dangerous, and as opposition coalesces, both within the state and within his own mind, the question is clear:\n\nHow long until the clock strikes midnight?"
+
+ POLITICS_SERGEY_TABORITSKY_DEAD_DESC:0 ""
+
+ POLITICS_BURGSYS_COLLAPSE_DESC:0 "§RRemain calm.\n\nThe Regent endures.\n\nAlexei lives.\n\nThe Holy Russian Empire shall endure.\n\nThere is much to be done.§!"
+
+ POLITICS_LEV_GUMILEV_DESC:0 "Lev Nikolayevich Gumilyov, the only child of famous poets Anna Akhmatova and Nikolay Gumiylov, spent most of his youth being persecuted by the Soviet power for his unreliable ancestry and unorthodox scholarly views. In the years of his exile and wandering across Russia, he thoroughly studied history and ethnography, introducing the concept of passionarity, which postulates that the rise and fall of every historical ethnos is driven by the Passionariyy, the few people who change their environment and society to their vision, driving the history of their people forward. Instead of reducing his discovery to a merely academic matter, he saw that the salvation of Russia lies in the practical application of his theory and fancied himself as the one who will bring the passionarity of the Russian super-ethnos to its maximum heat. Being rejected and ignored by Russian warlords, Gumilyov found his supporters in Komi, among those Russians who felt betrayed and disenfranchised by the Bolsheviks and democrats alike.\n\nGumilyov's deep erudition, amiable personality and impeccable charisma attracted almost every shade of the right-wing in Ust-Sysolsk under his banner, making him the patriarch of the Russian nationalism overnight. The Passionariyy initially were considered an underdog of the Komi politics, however, as Gumilyov proved himself not just as an ardent Russian patriot and charming, if slightly eccentric, ideologue, but also as a ruthless manipulator who does not shun any means to achieve his goals, the right-wing extremism became a force that prevailed over every other political group in Komi.\n\nThough Gumilyov emerged as an indisputable master of Ust-Sysolsk, his ultimate agenda remains unknown to anyone due to his chameleonic and sometimes even opportunistic nature. Whether if he wishes to appeal to the whims of his nationalistic supporters or he decides to pursue his own dream of the Eurasian civilizational empire, the whole Russia stands in waiting of his Scythian advance to bring the dying Western world down."
+
+ POLITICS_SVETLANA_BUKHARINA_DESC:0 "Svetlana Nikolayevna Bukharina was brought up at the very top of Soviet society, being the daughter of General Secretary Nikolai Bukharin. She spent her youth in the Union's best academies, attending galas and cultural exhibitions with the Party's uppermost echelons, and carefully observing her father's debates and political maneuvers. When the Union disintegrated and Bukharin vanished, so did Svetlana. Rumors flew that she had escaped with her father and gone into hiding, gotten "disappeared" by a political rival, or even hiding in a secret bunker complex beneath Moscow. Those rumors were quashed when she eventually resurfaced in Syktyvkar, capital of the (relatively) democratic post-Soviet Komi Republic. But her idle years had not dulled her political edge.\n\nMany in Komi's socialist movement saw that having her as a figurehead would be a massive propaganda coup, and quickly worked to gain her willing support. But they did not anticipate that she would have ambitions of her own. Through careful manipulation and backroom deals, Svetlana was able to build up a powerful support base, and ended up launching an internal coup against the ideologues who once tried to control her. Now that she sits at the top of Komi's political ladder, people wonder - or fear - what her next move will be. Few believe that her vaulting ambition has run out, and many suspect she may soon turn her eye toward the rest of her father's former domain..."
+
+ POLITICS_IVAN_SEROV_DESC:0 "Ivan Alexandrovich Serov is a man to which the term 'former' has often - and correctly - been applied. Former chief of the NKVD in Bukharin's Soviet Union. Former friend and political ally of Mikhail Suslov. Former supporter of orthodox Marxism-Leninism. And, now, former political contender. For having established firm control over the state as a whole, he is now in a position to determine its future.\n\nThat future is his own vision of the political philosophy of so-called 'Ordosocialism' - an eclectic mixture of far-left socialism and far-right nationalism, and one where Russian exceptionalism, in many fields and areas, is strongly emphasized. Although considered an inherent oxymoron by many, Serov is firmly committed, as least ostensibly, to ensuring its representation within the policies of the state.\n\nThough none can say with certainty what the positions he intends to take will be, it can be reasonably expected that, under the tenets of Ordosocialism, they will include the formation of a strong authoritarian state, a dramatic increase in military expenditures, a rise in revanchist propaganda, and aggressive approaches to territorial expansion."
+
+ POLITICS_IGOR_SHAFAREVICH_DESC:0 "Igor Rostislavovich Shafarevich is many things to many people. Fascist. Democrat. Reformist. Radical. Anti-semite. Patriot. But if there's one thing that people do not call him, it is unintelligent. Shafarevich, born to a moderately successful family living in Moscow, was from a young age gifted at mathematics. A remarkable genius for his age, he was enrolled in a university level math course, even entering his final undergraduate year at Moscow University without having finished the 9th grade. His future never seemed brighter, until the German arrived.\n\nForced to flee Moscow, he was evacuated to the east, in Komi, never to see Moscow again. As Russia was consumed in warlordism, Shafarevich became involved in politics in Komi, a rump state carved up after the failure that was the West Russian War. There, he rose up the ranks of the right wing Passionariyy organization, leading the party's moderate faction, much to the chagrin of Gumilyov and his faction.\n\nDeveloping a right wing ideology known as 'Passionate Conservatism', Shafarevich has made himself popular among more reformist rightists in the party, those favoring working within the democratic system. Despite this, he has been accused of fascism, anti-semitism, as his hatred of the 'small nation' (a group of 'anti-national elites' whose values are completely at odds with Russia) echoes that of the hatred of Jews and other minority groups. Now, as leader of Komi, he will fully implement his vision of a better, more stable, order."
+
+ POLITICS_KONSTANTIN_KATUSHEV_DESC:0 "Known throughout the Republic as the 'Iron Governor,' Konstantin Fyodorovich Katushev was, originally, an engineer and industrialist in Gorky, working to administer one of the vast factory complexes there under the purview of General Averin and his brigade of armored raiders.\n\nWith their collapse, and the re-integration of the now-renamed Nizhny Novgorod into the Republic, he quickly entered politics, winning the endorsement of the Young Reformers and election as the region's Governor. A phenomenally skilled organizer, administrator, and perhaps most importantly, orator, Katushev quickly grew to dominate his party, centralizing operations in Nizhny Novgorod and shaping its policies along staunchly liberal lines. He was elected party leader in short order, and soon after stood for President.\n\nOnce again demonstrating his talent as a politician, he led the Reformers to victory, and was elected as President. Now so empowered, he intends absolutely to put his lberal policies into practice, shifting the Reformers - and the country - away from their and its socialist roots, and towards a liberal future he considers far superior."
+
+ POLITICS_ALEXANDER_YAKOVLEV_DESC:0 "Alexander Nikolayevich Yakovlev's career is one marked by remarkable change and evolution. Born to a peasant family in Korolyova, Yakolev's father was a Red Cavalryman during the Civil War and an important leader in the local agricultural commune. Raised in such an environment, at a young age he became an ideological adherent to Marxist-Leninism. Under normal circumstances, he might have even become an important local politician, and maybe even beyond. But the German invasion changed all that.\n\nConscripted in the Red Army, Yakovlev saw how easily Marxist-Leninism fell to the hoards of German soldiers, crushed beneath the tire treads of Panzers, then, after it was all done, shattered into a thousand bickering generals and warlords. Such destruction forced Yakovlev to view socialism through a different, more independent lens - a view that placed human dignity above ideological purity.\n\nOriginally a member of Zhukov's clique in the West Russian Revolutionary Front, he has adapted well to the Russian Republic, organizing the Arkhangelsk Oblast into a DSNP stronghold. A firm member of his party's left flank, he has made himself famous as an orator of populist values. Now, as President and successor to Voznesensky, he intends to take both the party and the Republic in a different direction, and to ensure, once and for all, that all citizens are happy and free."
+
+ POLITICS_NIKOLAI_KARDASHEV_DESC:0 "One of the youngest senior figures within the Ultravisionary faction, Nikolai Semyonovich Kardashev is also perhaps one of the most prominent, inextricably linked with the movement through his development of one of its foundations - the eponymous Kardashev scale.\n\nA method of evaluating the level of technological advancement of a society he, along with everyone else within the faction, ensures that every policy acts to increase it. This, together with his natural administrative abilities and affable personality, allowed him to rapidly advance towards the office of Paramount Leader.\n\nA physicist by education and trade, Kardashev takes his goal of scientific advancement very seriously. Despite this, however, he is not a member of the so-called 'orthodox' wing of the faction, and indeed disagrees with many of their projects and pursuits. Dismissing the many pseudo-scientific pursuits of others towards a nebulous 'superculture,' he instead concentrates upon economic affairs.\n\nThis expresses itself in his tireless advocacy and pursuit of developments supporting what he considers to be true ultravisionary socialism - a fusion economy where science serves the people and permits the creation of a post-scarcity society. Though many scoff at this dream, Kardashev knows it is achievable.\n\nAnd he intends to make sure that it is so realized."
+
+ POLITICS_VLADIMIR_CHELOMEI_DESC:0 "A longtime member of the Ultravisionary faction, Vladimir Nikolayevich Chelomei became a household name within the movement through his tireless participation - and enormous success - within the Federation's space program.\n\nTrading on this recognition, as well as his ability to muster support amongst a broad range of influential figures within the Federation, he has been able to rapidly advance his standing, ascending to fill the office of Paramount Leader.\n\nOne of the most prominent members of what could be considered the 'orthodox' wing of the Ultravisionary movement, Chelomei unsurprisingly holds true to many of the core tenets laid down by Zhdanov and other central figures. This includes strong support for initiatives relating to space exploration as well as the ideological concept of the ultravisionary superculture.\n\nIndeed, he believes this to such an extent that he holds it as a simple fact that space is the natural 'next frontier' of the terrestrial Cold War. Securing victory in space, therefore, means securing victory on Earth, and vice versa.\n\nAnd he intends to do everything possible to ensure that the Federation achieves that victory."
+
+ POLITICS_ANDREI_ZHDANOV_ULTRAVIS_DESC:0 "An Ultravisionary future is within grasp, and Andrei Zhdanov has no intention of allowing it to slip through his, or the state's, fingers.\n\nHaving occupied senior positions in Bukharin's old Soviet Union, the Komi Republic's old Assembly and now, of course, in the position of highest authority within the Federation, Zhdanov is well-accustomed to power, which he has used to advance not only his own cause, but also the cause of the Ultravisionary movement in general.\n\nHe carried it to victory through the chaos of the late Republic. He presented it with a clear path forward. With well-defined objectives that he had meticulously crafted and patiently explained to lesser men. And he had thought his confederates to have supported his view entirely.\n\nBut such was not the case. The rot had set in. Compromise and deviancy had corrupted the agenda, diverting resources and attention from critical projects, scientific and otherwise. The very destiny of the Federation itself was at stake, and as a true visionary, Zhdanov could not remain idle.\n\nRoundly denouncing and taking decisive action against the libertarians and other holders of unorthodox interpretations of the Ultravisionary agenda, Zhdanov has now reasserted his authority over the movement. Now firmly in absolute control, he can turn both his attention and the resources of the state, finally and once again, outwards.\n\nTo the stars - and beyond."
+
+ ### Leader Traits ###
+ daughter_of_soviet_union:0 "소비에트 연방의 딸"
+ ultravisionary_socialist:0 "극단적 사회주의자"
+ paramount_leader:0 "최고 지도자"
+ controversial_populist:0 "논란의 대중주의자"
+ low_energy_candidate:0 "무기력한 후보"
+ grim_pragmatist:0 "음울한 실용주의자"
+ steel_maiden:0 "강철의 여인"
+ affable_puppet:0 "상냥한 꼭두각시"
+ master_ideologue:0 "붉은 명성"
+ diabolical_intellectual:0 "비열한 지식인"
+ black_regent:0 "혼돈의 독재자"
+ silent_regent:0 "침묵의 섭정"
+ the_new_marx:0 "새로운 마르크스"
+ visionary_protege:0 "Visionary Protege"
+ the_dreamer_unbound:0 "Visionary Idealist"
 
  ### Ministers ###
- NIK_Mikhail_Rodionov_hog:0 "미하일 로디오노프"
- NIK_Leonid_Kantorovich_eco:0 "레오니드 칸토로비치"
- NIK_Yegor_Ligachev_sec:0 "에고르 리가초프"
- NIK_Vyacheslav_Malyshev_for:0 "비아체슬라프 말리셰프"
- NIK_Yevsei_Liberman_hog:0 "예브세이 리베르만"
+ #DSNP (SocDem)
+ NIK_Mikhail_Rodionov_hog:0 "Mikhail Rodionov"
+ NIK_Vyacheslav_Malyshev_for:0 "Vyacheslav Malyshev"
+ NIK_Leonid_Kantorovich_eco:0 "Leonid Kantorovich"
+ NIK_Yegor_Ligachev_sec:0 "Yegor Ligachev"
+
+ #SMR (LibDem)
+ NIK_Yevsei_Liberman_hog:0 "Yevsei Liberman"
+ NIK_Gennady_Voronov_for:0 "Gennady Voronov"
  NIK_Dzhermen_Gvishiani_eco:0 "Dzhermen Gvishiani"
- NIK_Ivan_Morozov_sec:0 "이반 모로조프"
- NIK_Nikolay_Ryzhkov_for:0 "니콜라이 리시코프"
- NIK_Gennady_Voronov_for:0 "겐나디 보로노프"
- NIK_Yelena_Bonner_hog:0 "옐레나 보네르"
- NIK_Vadim_Medvedev_eco:0 "바딤 메드베데프"
- NIK_Viktor_Nekipelov_sec:0 "빅토르 네키펠로프"
+ NIK_Ivan_Morozov_sec:0 "Ivan Morozov"
+
+ #PSD (AuthDem)
+ NIK_Yelena_Bonner_hog:0 "Yelena Bonner"
+                                          
+                                              
  NIK_Georgy_Shakhnazarov_for:0 "Georgy Shakhnazarov"
- NIK_Alexander_Shelepin_hog:0 "알렉산드르 셸레핀"
- NIK_Dmitry_Shepilov_eco:0 "드미트리 셰필로프"
- NIK_Vladimir_Semichastny_sec:0 "Vladimir Semichastny"
- NIK_Yekaterina_Furtseva_for:0 "예카테리나 푸르트세바"
- NIK_Mikhail_Suslov_hog:0 "미하일 수슬로프"
- NIK_Boris_Ponomaryov_hog:0 "Boris Ponomaryov"
- NIK_Arvids_Pelshe_eco:0 "Arvids Pelshe"
- NIK_Yury_Andropov_sec:0 "유리 안드로포프"
- NIK_Alexander_Panyushkin_for:0 "알렉산드르 파뉴시킨"
- NIK_Alexander_Prokhanov_hog:0 "알렉산드르 프로하노프"
- NIK_Petro_Grigorenko_sec:0 "표트르 그리고렌코"
- NIK_Roy_Medvedev_hog:0 "로이 메드베제프"
- NIK_Varlam_Shalamov_sec:0 "Varlam Shalamov"
- NIK_Vasily_Lytkin_for:0 "바실리 리트킨"
- NIK_Apollon_Kuzmin_hog:0 "Apollon Kuzmin"
- NIK_Ivan_Shevtsov_eco:0 "Ivan Shevtsov"
- NIK_Nikolay_Rutchenko_sec:0 "니콜라이 류첸코"
- NIK_Valentin_Rasputin_for:0 "발렌틴 라스푸틴"
- NIK_Sergey_Kruglov_hog:0 "세르게이 그루글로브"
- NIK_Mikhail_Ryumin_eco:0 "미하일 류민"
- NIK_Aleksandr_Korotkov_sec:0 "Aleksandr Korotkov"
- NIK_Alexander_Baygushev_for:0 "Alexander Baygushev"
- NIK_Viktor_Larionov_hog:0 "빅토르 라리오노프"
- NIK_Pyotr_Shabelsky_Bork_hog:0 "Pyotr Shabelsky-Bork"
- NIK_Nikolay_Talberg_eco:0 "Nikolay Talberg"
- NIK_Viktor_Larionov_sec:0 "빅토르 라리오노프"
- NIK_Ivan_Melkikh_sec:0 "Ivan Melkikh"
- NIK_Andrey_Dikiy_for:0 "Andrey Dikiy"
- NIK_Vadim_Kozhinov_eco:0 "Vadim Kozhinov"
- NIK_Dmitry_Balashov_sec:0 "디미트리 발라쇼프"
- NIK_Sergey_Semanov_for:0 "세르게이 세메노프"
- NIK_Olimpiada_Kozlova_eco:0 "올림피아다 코즐로바"
- NIK_Alexander_Slepkov_for:0 "알렉산드르 슬렙코프"
- NIK_svetlana_stalina_hog:0 "스베틀라나 스탈리나"
- NIK_alexei_kosygin_hog:0 "알렉세이 코시킨"
- NIK_Leonid_Kantorovich_hog:0 "레오니드 칸토로비치"
- NIK_Igor_Shafarevich_hog:0 "Igor Shafarevich"
- NIK_Ivan_Serov_hog:0 "이반 세로프"
- NIK_Igor_Kurchatov_hog:0 "이고리 쿠르차토프"
+ NIK_Vadim_Medvedev_eco:0 "Vadim Medvedev"
+ NIK_Petro_Grigorenko_sec:0 "Petro Grigorenko"
  
- ###Leader Bios ###
- POLITICS_NIKOLAI_VOZNESENSKY_DESC:0 "Originally only a middle-level Soviet statesman, Nikolai Alekseevich Voznesensky found himself as the only guarantor of democracy, flawed as he is, in a small piece of the former Soviet Union. Being remarkable among his peers for extraordinary talents in the economic science and administrative work, Voznesensky was chosen by the Red Army Stavka on the eve of the West Russian War to oversee the recovery mission in the Komi ASSR. For his service to the Soviet province, Voznesensky acquired a considerable popularity among the people of Komi, who saw him as the benevolent statesman wishing to put the benefit of a common man ahead of the bickering and intrigues between the power-hungry Soviet cliques.\n\nAs the result of endless power plays between the Front and the hardline Communist bureaucrats in Syktyvkar, the now-president of the Komi ASSR Voznesensky remained as the sole figurehead in the Republic who could boast about the public support. Disillusioned with the Orthodox Marxist dogma and remaining bitter about the incompetence and pettiness of the Soviet higher-ups that nearly brought Komi to destruction, he reshaped the political system of the Republic into a representative democracy, where the voice of every man or woman can be heard and will be heard, breaking away with the single-party dictatorship.\n\nAlthough the hard efforts of Voznesensky brought daily bread and a sense of confidence for average Komi citizens, the reputation of Syktyvkar brought many unsavory people to the city who seek nothing but eliminate the democracy of Komi through her own institutions. But challenges to Voznesensky come not only from the extremists, but also from his fellow democratic politicians, who question the capability of Voznesenky to maintain the republican values, citing his abrasive and inappropriate behavior for a man of his position and his embarrassing ties to various Socialist groups. However, despite the political pressure, Voznesensky is not a person who wants to abandon the system he envisioned without a fight."
- POLITICS_SVETLANA_STALINA_DESC:0 "Svetlana Iosifovna Stalina was one of the children of Josif Stalin, a Georgian member of the Soviet Union's Central Committee and one of Nikolai Bukharin's fiercest rivals. Although her father vanished from the historical record during the Great Patriotic War, Svetlana was able to safely survive the chaotic evacuation of Moscow and came to find refuge in Sykvytkar, capital of the fledgling Komi Republic. While her father was infamous in Party circles for being a hardliner and socialist ideologue, his parenting seems to have driven Svetlana in the opposite direction, and she quickly associated herself with Komi's rapidly growing political center. They welcomed her as a stabilizing force in a chaotic political system, and she quickly became a figurehead for the fragile center to rally around.\n\nNow that the political situation in Komi has deteriorated, Stalina has stepped up and decided to take the reins of state herself. Although she has resorted to some rather authoritarian methods to maintain order, she insists that they are temporary measures in the name of stability, and that she will soon fully restore democracy to Komi. Some are skeptical of her claims, but her actions still trend toward the center, and she is a far more pleasing candidate for many than the alternatives."
- POLITICS_SVETLANA_STALINA_DEM_DESC:0 "Svetlana Iosifovna Stalina has been praised by her supporters as one of the few voices of stability or sanity in western Russia, and by her enemies as an authoritarian in denial, an opportunist who would take any chance she could to destroy the perceived radicalism she so hates.\n\nWhatever the case, Stalina's success as a politician is as unmatched as her story tragic. Her father, Iosif Stalin, was a Soviet bureaucrat and early supporter of Bukharin, who had died in an industrial accident rumored to be orchestrated on the orders of the Soviet government. In the long period following the death of Stalin, she has lost more and more - her mother, in the Great Patriotic War, her husband, purged by the West Russian Revolutionary Front, and her eldest brother, killed by friendly fire during the collapse of the Front at the end of the West Russian War.\n\nIndeed, Stalina claims that the war is where she first tasted the bite of radicalism, and when she vowed to oppose it at all costs. Stalina's party, the Sovereign Democratic Party, or PSD, gained prominence in the Komi Republic as a big tent comprised of big tents, a place for all who valued a safe and stable Russia over all else. Though Stalina's policies often borrow from left-wing populist principles, it would be most unwise to mistake her for a Marxist, as her father was. The basis for her political stances exists in the principles of "sovereignty, democracy, and patriotism" - the construction of a strong, independent Russia through an assertive foreign policy, heavy support for public welfare, and a strong, modern military.\n\nThrough the democratic process she fought so long to protect, the people have given Stalina their mandate, and the Lady of Steel stands prepared to defend her beloved Motherland from all enemies that may assail it - even if that danger is the unchecked will of the people itself."
- POLITICS_ANDREY_ZHDANOV_DESC:0 "Andrei Alexandrovich Zhdanov - a name surrounded by either love or suspicion, depending on how much one actually knows about the man. Zhdanov is one of Komi's key politicians, a proud socialist leader with experience from chairing the Leningrad Communist Party before the Great Patriotic War, Zhdanov ended up entangled with the government of the West Russian Revolutionary Front, serving as an influential figure in an attempt to encourage Russian cultural unity against the Germans.\n\nHowever, the Front fell, and with it, Zhdanov's beloved universal cultural program. When the government fled to Syktyvkar and promptly dissolved, Zhdanov stayed behind, forming ties with Mikhail Suslov in the series of coups and power struggles that preceded the formation of the Republic. Despite his more authoritarian socialist stances in the early days of the Republic, Zhdanov has recently taken to pushing for more libertarian initiatives - democratization of a Komi socialist state, encouraging growth of minority culture, and reconciliation with the center-left. Additional initiatives he has supported include a greater synthesis of universal culture, science, and ideology into a general doctrine of Zhdanovshchina, increasing prioritization towards research into scientific management within the Communist Party, and creating standards for 'revolutionary art'.\n\nStill, paranoia seems to follow him, as persistent rumors push the idea that his true nature is not truly changed, but rather lying deep below the surface, waiting for him to acquire true power."
- POLITICS_ALEXEI_KOSIGIN_DESC:0 "An economic mastermind, Alexey Nikolayevich Kosygin is one of the many people to have made himself part of the chaotic politics in Komi. Starting as the director of a textile mill, he was a supporter of the Bolshevik cause but only began to climb the hierarchy of the party and its nation-wide bureaucracy a few years before the war. By the time the Great Patriotic War had begun, Kosygin had been noted by the Soviet leadership as a trustworthy Party member and an overall clever individual. During the small time window between the beginning of the German invasion and the complete collapse of the motherland, he played a key role in evacuating industry to the east. His whereabouts following the dissolution of Bukharin's government remained unknown, until years later, when he emerged in the newly formed Republic of Komi. There, Kosygin distinguished himself as a brilliant economist, and a vocal proponent of the Center coalition that held the country together.\n\nSoon, he would found the Union of Young Reformers, a party of his own which still allied with President Voznesensky, but clearly followed a separate agenda. Eventually, while the coalition he belonged in held out against radicals, the Young Reformers were able to usurp power from the dominant coalition leader, and now Kosygin has become the new President. Unlike Voznesensky and his absurdly close relation with certain factions of the Left, he has been clear on this issue: there will be no negotiation and no alliances with radicals on either side of the political spectrum, no matter what. The democrats must stand on their own, and create an economic power that can challenge other contenders for the reunification of Russia - Kosygin always being the designer of these ingenious plans for reform. How far these reforms will go remains to be seen."
- POLITICS_MIKHAIL_SUSLOV_DESC:0 "Despite his humble origins, having been born in a rural community near the Volga, Mikhail Andreyevich Suslov has made a name for himself in his homeland. Starting from the Communist Youth, Suslov quickly became a prominent member of the Bolsheviks in Rostov and even managed to entangle himself in the local administration of the Party.\n\nWhen the Germans attacked, Suslov was designated to orchestrate guerrillas in the Caucasus. With the arrival of Wehrmacht forces, he was nowhere to be seen. There were rumours that he continued fighting in the woods, or that he was hanged by the garrison, but these rumours were soon proved false for the people of Arkhangelsk, as the man appeared in the city so far away from his home. Soon, just like when he was young, he entered the political stage of the West Russian Revolutionary Front. Climbing up the hierarchy, he became one of the most prominent WRRF politicians, and soon, was granted the prestigious position of Minister of Foreign Affairs. With the passage of time, Suslov was becoming even more influential and it was believed he could be the next Premier. Then, the West Russian War happened.\n\nAs the West Russian Revolutionary Front collapsed, Suslov found himself in the city of Syktyvkar, along with economic planner Nikolai Voznesensky. Together, they carefully created the Komi Republic, but soon this uneasy pact would end as each side had a different vision for the country. Suslov quickly used his position as leader of the red paramilitaries to gain power and influence, and managed to make himself an integral part of the Republic in political and military affairs, which meant removing him from the equation would not be easy. Having remained a puppet master for a long time, Suslov has finally come out to assume leadership as the Komi Republic has become a socialist state, allowing him to carry out his plan for governing the country."
- POLITICS_BORIS_PONOMARYOV_DESC:0 "보리스 니콜라예비치 포노마료프는 코미 공화국 내 사회주의파의 오랜 대표자였음에도, 진정한 지도자는 아니었습니다. 부하린의 소비에트 연방의 최후의 나날 당시 비교적 특출나지 않은 역사학자이자 활동당원이었던 그는 순전히 운 덕에 독일의 침공에서 벗어날 수 있었습니다. 서러시아에서 연합전선이 붕괴하자, 자신의 위안을 벗어던진 포노마료프는 자신과 같은 정치급진파와 혁명가들의 안전처가 된 신생 코미 공화국으로 향했습니다.\n\n식팁카르에서 그는, 영광스러운 연방이 무너지기 전에 있던 구식으로의 회귀를 바라는 혁명의 수많은 지지자들과 접촉할 수 있었습니다. As far away as that dream seemed, it still gained the support of Ponomaryov, who was quickly entangled in the webs of the left wing of the Republic. One man who was particularly keen on including him in his machinations was Mikhail Suslov, the "Puppetmaster". By propelling him to prominence in the party, and securing him a position in the National Assembly as well as some degree of power, Suslov could ensure Ponomaryov's loyalty, who was satisfied with what he had.\n\nNow, the socialists have finally made their move, and one of their loyal members has been expectedly assigned the position of General Secretary. As nothing more but a puppet of the men pulling the strings, Ponomaryov lacks real influence, and remains merely a strong figurehead for the government and population, as well as a way for his allies to remain in the shadows. However, he is absolutely content with that."
- POLITICS_SERGEY_TABORITSKY_DESC:0 "세르게이 블라디미로비치 타보리츠키의 이야기는 그의 성격과 정치적 견해만큼이나 변칙적입니다. 러시아인 상인과 유대인 재봉사 사이에서 태어난 타보리츠키는 어릴 때부터 강건한 러시아 군주주의자이자 진지한 반유대주의자로, 어머니로부터 물려받은 '카인의 표식'을 없애려 했습니다. 러시아 내전 이후 바이마르 공화국으로 망명한 그는 러시아 반동계와 함께하며 신념을 강화하고, 악명 높은 '시온 의정서'를 독일에 전파하는 데 일조했습니다. 오랜 친구인 표트르 샤벨스키-보르크와 함께, 타보리츠키는 러시아 제국을 파괴한 혁명의 주요 선동자로 여겨졌던 이들에게 복수하고자 전직 러시아 입헌민주당 정치가 블라디미르 드미트리예비치 나보코프를 암살했습니다. 독일에서 나치가 집권하자 타보리츠키는 독일의 지배가 러시아에서 군주제 복원의 길을 터주길 바라면서, 백군 이민자들 사이에서 나치 정권의 가장 열렬한 협력자 중 한 명이 되었습니다.\n\n다른 사람들이 그랬듯 타보리츠키 역시 뱟카에서 블라디미르와 합류했습니다. 그러나 곧 그는 자기 주장하는 대로의 '사기꾼 차르'를 불쾌하게 여기게 됐고, 정당한 통치자에 대한 충성심을 증명하면 기적적으로 살아남은 진정한 러시아의 황제가 될 차례비치 알렉세이가 그의 신하들 앞에 나타날 것이라 진심으로 믿게 되었습니다. 뱟카에서 그의 별난 믿음을 공유할 수 있는 사람은 거의 없었지만, 그는 곧 우스티시솔스크에서 그의 추종자들을 발견했습니다.\n\n적과 친구 모두에게 너무나 불안정한 사람임에도, 타보리츠키는 그들 모두를 뛰어넘고 도시의 유일한 통치자로 부상하며 차르 알렉세이 2세의 제국 섭정의 칭호를 자처했습니다. 타보리츠키의 망상이 실현될 것이라 예상하는 사람은 거의 없지만, 가장 어두운 때에 러시아의 차르를 배반한 이들과 볼셰비키에 대한 오랜 증오가 그의 열의를 자아내는 한, 그의 통치가 흉포하지 않을 것이라 의심하는 사람 역시 거의 없습니다."
- POLITICS_SERGEY_TABORITSKY_BURGSYS_DESC:0 ""
- POLITICS_SERGEY_TABORITSKY_DEAD_DESC:0 ""
- POLITICS_BURGSYS_COLLAPSE_DESC:0 "§RRemain calm.\n\nThe Regent endures.\n\nAlexei lives.\n\nThe Holy Russian Empire shall endure.\n\nThere is much to be done.§!"
- POLITICS_LEV_GUMILEV_DESC:0 "레프 니콜라예비치 구밀료프, 유명 시인들인 안나 아흐마토바와 니콜라이 구밀료프의 유일한 자식인 그는 자신의 신뢰성 떨어지는 혈통과 비정통학파적 시각으로 인해 청년기의 대부분을 소비에트 권력의 핍박 아래서 보냈습니다. 추방으로 러시아 전역을 떠도는 동안 역사와 종족학을 심도있게 탐구한 구밀료프는, 모든 역사적 종족들의 흥망은 열성적인 이들(파시오나리)에 달린 것이며, 그 일부의 사람들만이 자신들의 전망에 맞추어 주변 환경과 사회를 바꿈으로써 그 인민의 역사를 앞으로 나아가게 한다는 열성성 개념을 주장했습니다. 자신의 발견을 단순한 학술사안으로 축소하는 대신, 구밀료프는 자기 이론의 실천적 적용에 러시아의 구원이 있다며 스스로를 러시아 초종족이 지닌 열성성을 극한으로 이끌어낼 이라 치장했습니다. 러시아 군벌들에게 박대당했던 구밀료프는 볼셰비키와 민주주의자 모두에게 배신당하고 선거권을 빼앗겼다 여긴 코미의 러시아인들에게서 지지를 얻을 수 있었습니다.\n\n구밀료프의 깊은 박식, 다정한 인격, 흠결없는 감화력은 우스트-시솔스크의 우익 내 거의 모든 분파를 자신의 기치 아래 끌어모으면서, 하룻밤만에 그를 러시아 민족주의의 대부로 만들어 주었습니다. 이 열성파는 본래 코미 정계에서 약체로 취급받았습니다. 하지만, 약간의 자기중심적 기질의 이념가이자, 자신의 목표를 이루기 위해서라면 그 어떤 수단도 꺼리지 않을 구밀료프가 자신의 열렬한 애국심과 매력을 증명해보이면서, 우익 극단주의는 코미 내 다른 모든 정치집단들 중에서 가장 돋보이는 세력으로 떠올랐습니다.\n\n구밀료프가 우스트-시솔스크의 의심할 바 없는 주인으로 발흥했다곤 하나, 구밀료프의 최종의제는 그가 지닌 변화무쌍하고 때로는 기회주의적이기까지 한 기질로 인해 누구도 알지 못 합니다. 구밀료프가 민족주의적 지지층의 변덕에 호소를 바라든, 혹은 유라시아 문명제국이라는 자기만의 꿈을 쫓길 결정하든 간에, 전 러시아는 죽어가는 서방세계를 끌어내릴 그의 스키타이적 전진을 기다리며 서있는 중입니다."
- POLITICS_SVETLANA_BUKHARINA_DESC:0 "Svetlana Nikolayevna Bukharina was brought up at the very top of Soviet society, being the daughter of General Secretary Nikolai Bukharin. She spent her youth in the Union's best academies, attending galas and cultural exhibitions with the Party's uppermost echelons, and carefully observing her father's debates and political maneuvers. When the Union disintegrated and Bukharin vanished, so did Svetlana. Rumors flew that she had escaped with her father and gone into hiding, gotten "disappeared" by a political rival, or even hiding in a secret bunker complex beneath Moscow. Those rumors were quashed when she eventually resurfaced in Syktyvkar, capital of the (relatively) democratic post-Soviet Republic of Komi. But her idle years had not dulled her political edge.\n\nMany in Komi's socialist movement saw that having her as a figurehead would be a massive propaganda coup, and quickly worked to gain her willing support. But they did not anticipate that she would have ambitions of her own. Through careful manipulation and backroom deals, Svetlana was able to build up a powerful support base, and ended up launching an internal coup against the ideologues who once tried to control her. Now that she sits at the top of Komi's political ladder, people wonder - or fear - what her next move will be. Few believe that her vaulting ambition has run out, and many suspect she may soon turn her eye toward the rest of her father's former domain..."
+ #Zhdanov (AuthSoc)
+ NIK_Igor_Kurchatov_hog:0 "Igor Kurchatov"
+ NIK_Yekaterina_Furtseva_for:0 "Yekaterina Furtseva"
+ NIK_Dmitry_Shepilov_eco:0 "Dmitry Shepilov"
+ NIK_Vladimir_Chelomei_sec:0 "Vladimir Chelomei"
+ NIK_Vladimir_Chelomei_hog:0 "Vladimir Chelomei"
+ NIK_Nikolai_Kardashev_hog:0 "Nikolai Kardashev"
+ 
+ #Suslov (AuthSoc)
+ NIK_Mikhail_Suslov_hog:0 "Mikhail Suslov"
+ NIK_Boris_Ponomaryov_hog:0 "Boris Ponomaryov"
+ NIK_Alexander_Panyushkin_for:0 "Alexander Panyushkin"
+ NIK_Arvids_Pelshe_eco:0 "Arvids Pelshe"
+ NIK_Yury_Andropov_sec:0 "Yuri Andropov"
+
+ #Bukharina (LibSoc)
+                                              
+ NIK_Roy_Medvedev_hog:0 "Roy Medvedev"
+ NIK_Alexander_Slepkov_for:0 "Alexander Slepkov"
+ NIK_Olimpiada_Kozlova_eco:0 "Olympiada Kozlova"
+
+ #Shafarevich (Fascist)
+ NIK_Apollon_Kuzmin_hog:0 "Apollon Kuzmin"
+                                        
+                                                
+ NIK_Valentin_Rasputin_for:0 "Valentin Rasputin"
+ NIK_Ivan_Shevtsov_eco:0 "Ivan Shevtsov"
+ NIK_Vladimir_Soloukhin_sec:0 "Vladimir Soloukhin"
+
+ #Ivan Serov (NatSoc)
+ NIK_Sergey_Kruglov_hog:0 "Sergey Kruglov"
+ NIK_Vsevolod_Kochetov_hog:0 "Vsevolod Kochetov"
+ NIK_Alexander_Baygushev_for:0 "Alexander Baygushev"
+ NIK_Mikhail_Ryumin_eco:0 "Mikhail Ryumin"
+ NIK_Aleksandr_Korotkov_sec:0 "Aleksandr Korotkov"
+
+ #Gumilyov (UltraNat)
+ NIK_Dmitry_Balashov_hog:0 "Dmitry Balashov"
+ NIK_Sergey_Semanov_for:0 "Sergey Semanov"
+ NIK_Vadim_Kozhinov_eco:0 "Vadim Kozhinov"
+ NIK_Alexander_Prokhanov_sec:0 "Alexander Prokhanov"
+
+ #Taboritsky (BurgSys)
+ NIK_Pyotr_Shabelsky_Bork_hog:0 "Pyotr Shabelsky-Bork"
+ NIK_Viktor_Larionov_hog:0 "Viktor Larionov"
+ NIK_Andrey_Dikiy_for:0 "Andrey Dikiy"
+ NIK_Nikolay_Talberg_eco:0 "Nikolay Talberg"
+ NIK_Viktor_Larionov_sec:0 "Viktor Larionov"
+ NIK_Ivan_Melkikh_sec:0 "Ivan Melkikh"
+
+ #Misc
+ Generic_Vacant_hog:0 "Vacant Position"
+ Generic_Vacant_for:0 "Vacant Position"
+ Generic_Vacant_sec:0 "Vacant Position"
+ Generic_Vacant_eco:0 "Vacant Position"
+ NIK_Alexander_Shelepin_hog:0 "Alexander Shelepin"
+ NIK_Nikolay_Ryzhkov_for:0 "Nikolay Ryzhkov"
+ NIK_Vladimir_Semichastny_sec:0 "Vladimir Semichastny"
+ NIK_Viktor_Nekipelov_sec:0 "Viktor Nekipelov"
+ NIK_Varlam_Shalamov_sec:0 "Varlam Shalamov"
+ NIK_Vasily_Lytkin_for:0 "Vasily Lytkin"
+ NIK_svetlana_stalina_hog:0 "Svetlana Stalina"
+ NIK_alexei_kosygin_hog:0 "Alexei Kosygin"
+ NIK_Leonid_Kantorovich_hog:0 "Leonid Kantorovich"
+ NIK_Igor_Shafarevich_hog:0 "Igor Shafarevich"
+ NIK_Ivan_Serov_hog:0 "Ivan Serov"
+ NIK_Dmitry_Ustinov_sec:0 "Dmitry Ustinov"
+ NIK_Valentin_Glushko_sec:0 "Valentin Glushko"
 
  ### Debug Decisions ###
  NIK_debug_category:0 "Komi Debug Category"
@@ -151,7 +264,7 @@
  
  ### Focuses ###
  #Initial Tree
- NIK_the_minutes_of_the_congress:0 "의회 의사록"
+ NIK_the_minutes_of_the_congress:0 "Foundations of Sand"
  NIK_the_last_years_of_the_voznesentsi:0 "보즈네센치의 마지막 해?"
  NIK_speak_with_stalina:0 "스탈리나와의 대담"
  NIK_our_paramilitaries_reports:0 "우리 준군사조직의 보고서"
@@ -196,8 +309,8 @@
  NIK_the_interlude_desc:0 "잠시 동안이지만 마침내 상황이 다시 진정된 것 같습니다. 음모를 꾸미는 자들은 대중의 눈을 피해 후퇴했습니다. 어둠 속에서 계속 음모를 꾸밀 수 있도록 말이죠. 거리는 평온해졌고, 입법 회기는 점점 덜 혼란스러워지고 있습니다.\n\n하지만, 이런 고요함에는 이유가 있습니다. 곧, 민주주의는 코미 공화국 전역의 선거에서 다시 한번 시험받게 될 것입니다. 그들의 지도자가 지금 권력을 잡기를 원하는 모든 파벌들은 대중의 지지와 지역에 대한 준군사조직의 통제를 계산하면서 계획을 세우고 통합하고있습니다. 운동의 시간이 끝났습니다. 전략 수립의 시간이 시작되었습니다."
  
  #Second Tree
- NIK_the_1963_assembly:0 "1963년 국회"
- NIK_the_1963_assembly_tt:0 "우리는 1963년 선거에서 우리의 §Y후보를 선택§!할 것입니다."
+ NIK_the_1963_assembly:0 "The Coalition Negotiations"
+ NIK_the_1963_assembly_tt:0 "We will §Ychoose the official center candidate§! for the 1963 elections."
  NIK_election_day_preparations:0 "선거일 준비"
  NIK_ensure_internal_stability:0 "내부 안정 보장"
  NIK_calculate_the_bombing_intervals:0 "폭격 간격 계산"
@@ -205,7 +318,7 @@
  NIK_watch_the_radicals:0 "급진주의자 감시"
  NIK_something_wicked_this_way_comes:0 "미지의 세계로"
  
- NIK_the_1963_assembly_desc:0 "때가 왔습니다. 매년 새 의회를 선출하는 코미 입법부에게 이번 선거 역시 매년 실시되는 선거들과 다르지 않지만, 각 하원의장 후보들이 공화국을 장악하기 위해 선거운동을 벌이는 한 발자국도 물러설 수 없는, 그리고 그 안에서 가치 있는 모든 것을 다하는 선거입니다.\n\n관례에 따라, 이제 우리 민주주의 진영을 대표하는 후보를 선택해야 할 때입니다. 보즈네센스키, 코시긴, 스탈리나 세 후보는 각각 자신들의 입장을 표명할 것이며, 왜 그들이 민주주의와 국민의 지도자가 될 자격이 있는지 정확히 알 수 있을 것입니다. 그 다음 우리는 후보를 선출할 것이고, 바라건대 우리나라에 가장 좋은 선택이 될 것입니다."
+ NIK_the_1963_assembly_desc:0 "때가 왔습니다. Every five years, a new President is elected, and every two years, a new National Assembly. This election is no different than every other election: a high-stakes contest where each candidate for the head of the house campaigns to control the Republic, and everything valuable within.\n\nAs per tradition, it is now time to choose our candidate for figurehead of the democratic coalition. Each of the three candidates - Voznesensky, Kosygin, and Stalina - will express their positions and why, exactly, they deserve to be the leader of the democrats - and the people. After, we will select a Presidential candidate, who, hopefully, will be the best choice for our nation."
  NIK_election_day_preparations_desc:0 "An election is not something that can be organized on the spot, even if the radicals believe otherwise. We must now begin the process of readying the poll booths, sending out fliers, organizing locations, and more of the standard procedure that bores our legislators to no end.\n\nAs usual, we will call up ready volunteers to do their duty to democracy, and do these tasks for us. And in all of this, of course, we must also be aware of the radicals, for their idea of 'preparations' is something much more sinister..."
  NIK_ensure_internal_stability_desc:0 "In recent days, it has been reported that our party is a "mess" in certain areas, such as the fact that debates over sometimes trivial things can run hot and wild between our Deputies, as well as growing factionalism and refusal of cooperation between party members. While, normally, this has been allowed under the perpetrator's defense of "freedom of opinion and expression", the upcoming election is one of the most critical in our history, and the democratic party cannot permit these problems any longer.\n\nThrough distinct methods, we will ensure that everyone sits down and shuts up - united as one party. No longer shall the chamber erupt into argument every other speech, and no longer shall we tolerate the cracks between our wings. We will be as one, together - we must be, for the radicals shall come as one as well."
  NIK_calculate_the_bombing_intervals_desc:0 "Each and every week brings hellish armageddon down upon our lands, as the Nazi bastards rain down their bombs upon the people of Russia. New orphans are created every day, and hospitals always fill to the brim for days after - especially Tuesdays, for that's when they all come.\n\nThe Germans are as predictable as they are evil. It is no coincidence that the bombs always rain down at specific times and more on certain days than others, that their Wehrmacht seeks to enjoy the coffee breaks at their designated hours and days and not any other. They will not stop our "little" democracy. All it takes is a little calculation, and any interruption of the election will no longer come from the air."
@@ -266,7 +379,7 @@
  NIK_countercoup_restore_the_quiet:0 "고요함 복원"
  NIK_countercoup_komi_belongs_to_the_citizens:0 "코미는 시민의 것이다!"
  
- NIK_countercoup_democrats_coup_desc:0 "역-쿠데타"
+ NIK_countercoup_democrats_coup_desc:0 "When the Republic was founded, it was the goal of the governing parties to keep violence out of Komi's political system. Though noble, this goal was a terrible failure in practice, to the point that the defenders of democracy have had to use the same weapon as its enemies: a military coup.\n\nNow that Komi's democracy has been saved from the brink of death, it is the military's responsibility to safeguard it, lest it be lost again and irreversibly. We must be ever vigilant; never again can extremism be allowed to threaten our liberties. Only after we have weathered the storm can the Republic return to a situation approaching normal."
  NIK_countercoup_defend_democracy_desc:0 "It was nearly lost, but the people of Komi have retaken their democracy from the clutches of an extremist putsch. The Republic is restored, but this may all be for naught if the same forces who nearly destroyed it rebuild their efforts. It is for this reason that we must remain vigilant, and extend our wariness of authoritarianism to the public.\n\nThe people, turned skeptical by recent turbulence, must be reminded to love democracy. Media campaigns against extremism of both the right and the left and a hunt for the anti-democratic forces in our midst are a must if we want to fully restore confidence in the liberal system." NIK_countercoup_expel_the_radicals_desc:0 "While the political leadership stakes out its course, most of the day-to-day runnings of the republic is handled by the bureaucracy, the police and the army. We must ensure these vital institutions can't be subverted by radicals. We will thoroughly vet our institutions and get rid of everyone with dangerous radical sympathies."
  NIK_countercoup_expel_the_radicals_desc:0 "While the political leadership stakes out its course, most of the day-to-day runnings of the republic is handled by the bureaucracy, the police and the army. We must ensure these vital institutions can't be subverted by radicals. We will thoroughly vet our institutions and get rid of everyone with dangerous radical sympathies."
  NIK_countercoup_every_last_resource_desc:0 "We are at a precipice. Our beloved republic is at real threat of being destroyed by subversive forces. To save it, we must be prepared to throw everything we have into the struggle. All our resources and materiel must be put to use. Every last rouble invested. Every loyal citizen must be mobilized. We can't afford to keep anything in reserve. For the good of the republic!"
@@ -487,7 +600,7 @@
  NIK_demexpansion_negotiate_with_the_remnants_desc:0 "Having broken the back of the far left and far right and sending their surviving leaders on the run, it is time to negotiate with their remnants.\n\nThe extremist paramilitaries have been a permanent thorn in our side, but their tenacity and resourcefulness has not gone unnoticed. What's more, a great deal of these thugs are officially soldiers and officers of the republic. Were we to purge extremism from our army, a great deal of experience would be bled out from the institution.\n\nWe will offer these crooks a deal: fight for us, or be hammered by the law. Any weapon and supplies that are brought from paramilitary control back into official use will be rewarded, and former paramilitaries who prove especially willing to work with us will see their army career given a slight boost."
  NIK_demexpansion_the_vilegodsk_conference_desc:0 "To show our goodwill to the far right and far left, a conference in Vilegodsk has been called to help establish a legal framework of spheres of influences within the republic. Political organizations will be allowed to run schools, unions, news agencies and other such services for their own community, with oversight from the central government.\n\nThe ability to live separately from offensive sociopolitical groups within a clearly defined framework will assuage fears that the central government is one decree away from outlawing personal rights. In return, high level members of sociopolitical groups will be in constant communication and coordination with the central government, all in the spirit of showing loyalty to the Republic and a commitment to keeping the system alive."
  NIK_demexpansion_centralize_redistricting_desc:0 "Woe to the conquered!\n\nOur willingness to cooperate with extremists who recognize their defeat should not be misunderstood for a willingness to turn the other cheek and forget past misdeeds. As such, our government will create a new centralized redistricting office that will be in charge of designing the Republic's electoral constituencies.\n\nUsing this technique we will harvest a bounty of centrist deputies who will help strengthen our grip on the legislative and executive wings of government. This will allow us to pummel renegade extremists, and tempt those willing to compromise to join us at the negotiating table."
- NIK_demexpansion_a_united_army_desc:0 "A United Army"
+ NIK_demexpansion_a_united_army_desc:0 "The Republic of Komi was founded on the ideals of those who had suffered the Gulags. Never again would the lash of repression strike upon an individual's back. We welcomed the accursed and the forsaken. Now our freedoms must be protected and upheld by those who would strip it away forever. We are an island of light and tolerance in a sea of darkness. Unfortunately the shadow clinging to our borders has taken root at home. Infighting infests the Republican Army not too dissimilar from cancer. Factionalism has set root from the squad level up to entire regiments being divided along ideological lines. We must break up these formations and reform them with a pluralistic mix, led by officers loyal to the ideals of the state than any self avowed creed. Already a new generation of military men are being instructed and trained to take command.\n\nAll that is required is the order."
  NIK_demexpansion_to_arms_desc:0 "Citizens, the Republic stands more united than ever! Once wasting time in pointless bickering and endless bloodshed, the children of the nation stand united and ready to face their enemies. Old rivalries have been ended in the name of stabilizing and expanding the Republic.\n\nNow that fascists and communists soldiers stand side by side with their democratic counterparts, Komi is ready to go on the offense. The experience of our men and the vast scope of personalities and ideas within our army grants us the flexibility needed to tackle any enemy!\n\nAt least, so goes the theory. The extremists have quieted down for now. We can only hope that they keep their end of the bargain, lest internecine squabbles threaten to destroy our Republic once more."
  NIK_demexpansion_peace_for_now_desc:0 "Perhaps just a passing dream? The streets of our capital are quiet, for once. A few families are seen walking about where once thugs manned barricades and checkpoints.\n\nThe police reports echo this anomaly. Peace seems to have descended on Syvtyvkar. A fragile peace perhaps, for the demons of civil strife might return if we are not vigilant. A fragile peace, if our rivals in western Russia try to end our democratic experiment. A peace, nonetheless, and one we intend to defend by force.\n\nCitizens, much remains to be done. We must be vigilant, so that our nation's future is not dashed against the rocks of war nor the chaos of internal conflict."
  NIK_demexpansion_a_new_democratic_foundation_desc:0 "The Republic, once seeing its electoral system frayed and closing down due to extremism, must see democracy flourish again.\n\nRegenerating the interest and trust our citizens have in the democratic process will be tough, especially coming on the tail end of our efforts to end political extremism once and for all. We must accomplish this nevertheless, if the democratic center's power is to be assured.\n\nLetting go of our power to design electoral districts now that they have been sanitized will help restore confidence. As will the ability to call snap elections to remove governments that are wildly unpopular with the electorate. Finally, propaganda campaigns extolling the virtue of engaged citizens will hopefully draw crowds once more to polling stations."
@@ -526,7 +639,7 @@
  NIK_second_election_hope_for_a_radiant_future:0 "A Blueprint for the Future"
  NIK_second_election_let_the_race_begin:0 "The People's Mandate"
 
- NIK_second_election_start_desc:0 "With our liberation of the West, we are closer than ever to realizing the dream of the February Revolution: A truly democratic Russia. Now that we govern West Russia and have transcended the simple borders of the old Komi Republic, it's time to hold [NIK.GetName]'s first official elections. For many West Russians, this will be their first free election. They are excited to head to the polls.\n\nThree parties have thrown their hats into the ring: The democratic socialist §PDSNP§! headed by [GetNIKSocDemLeader], the centrist §MPSD§! under Svetlana Stalina, and the liberal §YSMR§! fielding Alexei Kosygin. The 1968 elections are sure to be a close race, and whoever wins will decide the fate of West Russia for 4 more years. The race is on!"
+ NIK_second_election_start_desc:0 "With our liberation of the West, we are closer than ever to realizing the dream of the February Revolution: A truly democratic Russia. Now that we govern West Russia and have transcended the simple borders of the old Komi Republic, it's time to hold [NIK.GetName]'s first official elections. For many West Russians, this will be their first free election. They are excited to head to the polls.\n\nThree parties have thrown their hats into the ring: The democratic socialist §PDSNP§! headed by [GetNIKSocDemLeader], the centrist §MPSD§! under Svetlana Stalina, and the liberal §YSMR§! fielding Alexei Kosygin. The [GetYear] elections are sure to be a close race, and whoever wins will decide the fate of West Russia for 4 more years. The race is on!"
  NIK_second_election_the_DSNP_campaign_desc:0 "[GetNIKSocDemLeaderLast] isn't perfect, but he's perfect for West Russia. The working man in Russia has no better choice than the founder of modern Russian democracy. The DSNP blends the best of old Soviet socialism with new democratic institutions to create a democratic socialist party that protects workers' lives and liberties.\n\nThe DSNP will get a head start on their election campaign. [GetNIKSocDemLeaderLast] will criss-cross [NIK.GetName] giving speeches promoting his Presidential record and plans for the future. As many West Russians will be choosing him for the first time, this campaign will be crucial to securing their votes."
  NIK_second_election_tour_the_industrial_centers_desc:0 ""West Russians, workers, countrymen, you have been liberated. Some of you have been liberated from noblemen, juntas, and collaborators who expected you to work to make them richer. Some of you have been liberated from authoritarian communists who valued you only for your output as a line item in a centrally planned budget. But now you have a true friend in your government. Our party fights for you, not for your servitude. We fight that you may earn a fair wage for fair work, that you may feel secure from job precarity, and that you may retire with a well-deserved pension. We are the DSNP, and we are your party."\n\n[GetNIKSocDemLeaderLast] will go on a speaking tour in factories across [NIK.GetName]. He will play to the party's industrial base and promote himself as a friend of the working class. By shoring up support from our core constituency, we should have a strong showing in the election."
  NIK_second_election_present_a_workers_agenda_desc:0 "Since many of our voters are new to our party, it would be wise to teach them what we stand for. West Russia needs to know what our ideology and policies are if we are to win a mandate in the 1968 elections.\n\nThe DSNP will publish their party platform across [NIK.GetName]. In it, they will detail their plans for wage, occupational safety, and pension reform. They will also make it clear that their ultimate goals are to reunify the whole of Russia and apply their pro-worker agenda across all of its regions. Nobody with a heart could oppose this platform!"
@@ -844,17 +957,28 @@
  ### DEMOCRATIC SUPERREGIONALS ###
 
  NIK_third_election_start:0 "[GetYear]년 선거"
+ NIK_third_election_start_desc:0 "It is time for a new election! The usual suspects are running fierce campaigns to make their way to the top, and as always, only one will become Russia's helmsman for the next few years.\n\nOf course, considering our current position as master of Western Russia, whoever wins the presidency is likely to go down in history as the one who finally made the nation whole again after nearly thirty years of strife. Such a fact is not lost on the contenders, who each have their own ideas of how the reunification should play out..."
  NIK_third_election_start_tt:0 "The §Yelection season§! shall reach its most intense phase.\n"
  NIK_third_election_the_DSNP_campaign:0 "The DSNP Campaign"
+ NIK_third_election_the_DSNP_campaign_desc:0 "The People's Democratic Socialist Republic has always been a powerful force in the republic's politics, ever since the party stood beside Nikolai Voznesensky when he founded it. However, the party has also been a consistently divisive topic, as Voznesensky has proven to be a problematic figure at even the best of times.\n\nA newcomer, Alexander Yakovlev, wishes to change the party's troubled reputation. He is now running a campaign based on ideals of democratic socialism, free from the mistakes made by the party in years past. Only time will tell if his bold promises will pay off."
  NIK_third_election_tour_the_industrial_centers:0 "Cater to the Working Class"
+ NIK_third_election_tour_the_industrial_centers_desc:0 "The DSNP, above all, serves the working class of the republic. This is no reason to grow complacent, however, as the other parties are already seeking to encroach upon our most important base of support.\n\nAlexander Yakovlev already has plans to tour the industrial centers of the nation, and to publicly shake hands with the most influential worker's councils of our cities. With the councils on our side, we may have an easier time organizing future campaigns. Most importantly, however, this show of good faith will restore the worker's confidence in our party, and once again solidify our voter base."
  NIK_third_election_present_a_workers_agenda:0 "A Radical New Platform"
+ NIK_third_election_present_a_workers_agenda_desc:0 "The DSNP has long been an advocate of democratic socialism, even during the days of the Voznesentsiy. However, certain compromises in these ideals had to be made to ensure better cooperation with the coalition to stem the tide of radicalism. Now that the storm has passed, the time has come for a new platform to reaffirm our commitment to socialism.\n\nAlexander Yakovlev has given the party the green light to make public this new platform, which is far more radical than anything we have seen before. It calls for a renewed push towards a democratic transition towards socialism, as well as a strict adherence to radical worker's rights policies. Women's rights, which were always present but never really the main focus, have been reemphasized as part of the party's goals. These policies may be seen as a bold shift towards the far left, but Yakovlev is confident that this new direction will revitalize the party for years to come."
  NIK_third_election_the_PSD_campaign:0 "The PSD Campaign"
+ NIK_third_election_the_PSD_campaign_desc:0 ""Citizens of the Republic, listen to me!"\n\n"Long has our nation been broken by the Germans, forced to cower beneath the shadow of the Kaiser and the Fuhrer! Well, I say on this day, no more!"\n\n"No more will we cower beneath the German, no more will we suffer from its wrath! No, today we stand against the German and those who seek Russia to remain fractured!"\n\n"We fight to make sure no son or daughter of Russia will ever watch the Luftwaffe reign hellfire from the skies! No more, for I swear that if the PSD is elected, we will unify Russia and take Moscow back from the German scum!"\n\n"So who will stand with me? Will you fight for your nation and make sure our flag is known on the world stage?""
  NIK_third_election_a_platform_for_a_modern_russia:0 "A Patriotic Platform"
+ NIK_third_election_a_platform_for_a_modern_russia_desc:0 "The Sovereign Democratic Party was founded at a time when Komi faced threats largely from within. It was a call by those who would see democracy preserved from the radicals, by any means necessary. Some in our party argue that our purpose has been served. No longer do radicals threaten to steal our freedoms. Instead, the officials of the PSD argue that we must look outward. Effective immediately, the party's platform for the upcoming election will incorporate a strong, pro-unification message. How the nature of Russian legislation will be left largely in the hands of local politicians. The focus of the national government will be on a massive rearmament program, which will improve industry, infrastructure, and provide employment to hundreds of thousands of Russians. Who can compete with that?"
  NIK_third_election_an_appeal_to_force:0 "Stress the Border Issue"
+ NIK_third_election_an_appeal_to_force_desc:0 "Just across the A-A line lies our occupied homeland. Long ago, Bukharin's Soviet Union fell to the Germans and occupied the heartland of our country. Later, Vorishilov's West Russian Revolutionary Front tried to take it back, but the West Russian War and the Republic's independence led to the war's eventual failure.\n\nHowever, now we have an opportunity. While we can not invade the remnants of Moscowien right now, we can start to press the issue of the border to the general public. Troops will be sent to ensure the warlords who have emerged do not invade the Republic and Russian refugees are taken care of. We can not take back what is rightfully ours so long as our flank is exposed, but we certainly can make our case known that all of Russia, including Moscowien, is rightfully ours."
  NIK_third_election_the_SMR_campaign:0 "The SMR Campaign"
+ NIK_third_election_the_SMR_campaign_desc:0 "It's election time once again in the Republic, and the Union of Young Reformers has a serious chance of achieving victory. Naturally, a winning strategy will require a winning campaign, emphasizing issues that Russia's voters see as relevant to their own lives and choosing popular policies in response to them. But, as the question always is, what to choose?\n\nRussia as it stands is backwards, uneducated, and globally isolated. It has been so for decades, and voters no doubt want things to change. Here is where the SMR can present its recipe for the nation's recovery: expanded investment in education, free trade policy so capital can flow into Russia once again, and the construction of robust ties to the free world. May Russia's rise to global prominence mirror our rise in the polls."
  NIK_third_election_meet_with_the_youth:0 "Connect with the Intellectuals"
+ NIK_third_election_meet_with_the_youth_desc:0 "The SMR's philosophy emphasizes the values of openness, humanism, and intellectual achievement. Unsurprisingly, this makes the middle classes and the intellectual elite natural bases for the party. Any successful campaign will involve mobilizing voters of higher status, whether material or educational, to the polls in order to beat the other parties' rabble, and voters don't simply turn out because of similar social class.\n\nThe SMR needs an effective infrastructure that can mobilize this base, and the best way of doing so is by meeting them where they are. Sending campaign officials to donors and universities will allow us to build the party's connections to voters just in time to shepherd them to the polls."
  NIK_third_election_hope_for_a_radiant_future:0 "A Platform for a New Century"
+ NIK_third_election_hope_for_a_radiant_future_desc:0 "Alexei Kosygin was a very principled leader, and he helped raise Russia's new democracy from infancy. However, he still held onto obsolete ideals, elements of Russia's Soviet past; while his methods were liberal and democratic, his ends were socialist, even if they were less so than Voznesensky or the extreme left. This element of the SMR was already vestigial when Kosygin was in office, and it is now time to move on.\n\nThe new platform will invoke our earlier ideals of freedom, both in speech and in markets, and of sensible international cooperation, while quietly abandoning Kosygin's leftist sympathies. While some voters may be upset by the transition, others previously hostile to voting for a socialist should more than make up the difference."
  NIK_third_election_let_the_race_begin:0 "The New Mandate"
+ NIK_third_election_let_the_race_begin_desc:0 "As election is upon us, hordes of citizens can be seen rushing schools, public offices and other polling places in order to let their voices be heard by the high instances of power. While they place their trust and hopes of a better future by voting for their preferred parties and candidates, the countdown starts as Russia's future is decided by its people."
 
  #SocDem superregional
  NIK_dsnp_establish_the_russian_sovereign_wealth_fund_tt:0 "This will add §Y$100 million USD§! to our monetary reserves.\n"
@@ -1075,6 +1199,8 @@
 
  NIK_switch_roe:0 "보안 절차 변경"
  NIK_abandon_operations:0 "작전 중지"
+ 
+ NIK_hunt_opposition:0 "We are hunting down the oppostion."
 
  NIK_hunt_for_stalina:0 "§g스베틀라나 스탈리나§! 추적"
  NIK_hunt_for_kosygin:0 "§M알렉세이 코시긴§! 추적"
@@ -1116,7 +1242,7 @@
  NIK_campaign_for_the_democratic_coalition:0 "§B민주주의§!에 대한 신뢰 증대"
  NIK_expand_kosygin_influence:0 "§MSMR§! 운동"
  NIK_expand_stalina_influence:0 "§gPSD§! 운동"
- NIK_expand_voznesentsi_influence:0 "§MDSNP§! 운동"
+ NIK_expand_voznesentsi_influence:0 "§PDSNP§! 운동"
  NIK_suppress_the_left:0 "§R좌파§! 탄압"
  NIK_suppress_the_right:0 "§Y우파§! 탄압"
  NIK_impeach_the_president:0 "§R불신임 투표 강제§!"
@@ -1339,6 +1465,40 @@
  NIK_abandon_operations_condition_tt:0 "정부에 대한 즉각적인 위협은 모두 무력화되었습니다."
 
  NIK_POLITICS_RESOLVED:0 "당장의 정치적 상황이 §Y해결되었습니다§!."
+ 
+ NIK_Stalina_Retired:0 "§gSvetlana Stalina§! has §Ywithdrawn from politics§!."
+ NIK_Kosygin_Retired:0 "§MAlexei Kosygin§! has §Ywithdrawn from politics§!."
+ NIK_Voznesensky_Retired:0 "§P[GetNIKSocDemLeader]§! has §Ywithdrawn from politics§!."
+ NIK_Suslov_Retired:0 "§xMikhail Suslov§! has §Ywithdrawn from politics§!."
+ NIK_Zhdanov_Retired:0 "§SAndrei Zhdanov§! has §Ywithdrawn from politics§!."
+ NIK_Bukharina_Retired:0 "§lSvetlana Bukharina§! has §Ywithdrawn from politics§!."
+ NIK_Gumilyov_Retired:0 "§OLev Gumilyov§! has §Ywithdrawn from politics§!."
+ NIK_Shafarevich_Retired:0 "§YIgor Shafarevich§! has §Ywithdrawn from politics§!."
+ NIK_Serov_Retired:0 "§rIvan Serov§! has §Ywithdrawn from politics§!."
+ NIK_Taboritsky_Retired:0 "§jSergey Taboritsky§! has §Ywithdrawn from politics§!."
+
+ NIK_Stalina_Dead:0 "§gSvetlana Stalina§! has §Rdied§!."
+ NIK_Kosygin_Dead:0 "§MAlexei Kosygin§! has §Rdied§!."
+ NIK_Voznesensky_Dead:0 "§P[GetNIKSocDemLeader]§! has §Rdied§!."
+ NIK_Suslov_Dead:0 "§xMikhail Suslov§! has §Rdied§!."
+ NIK_Zhdanov_Dead:0 "§SAndrei Zhdanov§! has §Rdied§!."
+ NIK_Bukharina_Dead:0 "§lSvetlana Bukharina§! has §Rdied§!."
+ NIK_Gumilyov_Dead:0 "§OLev Gumilyov§! has §Rdied§!."
+ NIK_Shafarevich_Dead:0 "§YIgor Shafarevich§! has §Rdied§!."
+ NIK_Serov_Dead:0 "§rIvan Serov§! has §Rdied§!."
+ NIK_Taboritsky_Dead:0 "§jSergey Taboritsky§! has §Rdied§!."
+
+ NIK_Stalina_Arrested:0 "§gSvetlana Stalina§! has §Obeen imprisoned§!."
+ NIK_Kosygin_Arrested:0 "§MAlexei Kosygin§! has §Obeen imprisoned§!."
+ NIK_Voznesensky_Arrested:0 "§P[GetNIKSocDemLeader]§! has §Obeen imprisoned§!."
+ NIK_Suslov_Arrested:0 "§xMikhail Suslov§! has §Obeen imprisoned§!."
+ NIK_Zhdanov_Arrested:0 "§SAndrei Zhdanov§! has §Obeen imprisoned§!."
+ NIK_Bukharina_Arrested:0 "§lSvetlana Bukharina§! has §Obeen imprisoned§!."
+ NIK_Gumilyov_Arrested:0 "§OLev Gumilyov§! has §Obeen imprisoned§!."
+ NIK_Shafarevich_Arrested:0 "§YIgor Shafarevich§! has §Obeen imprisoned§!."
+ NIK_Serov_Arrested:0 "§rIvan Serov§! has §Obeen imprisoned§!."
+ NIK_Taboritsky_Arrested:0 "§jSergey Taboritsky§! has §Obeen imprisoned§!."
+ 
 
  ### Scripted Loc ###
  NIK_Left_Leading:0 "§R좌파§!"
@@ -1428,59 +1588,6 @@
  NIK_Party_Unstable:0 "§Yunstable§!"
  NIK_Party_Dangerously_Unstable:0 "§Odangerously unstable§!"
  NIK_Party_Collapsing:0 "§Rdangerously close to total collapse§!"
-
- ### Leader Traits ###
- 
- daughter_of_soviet_union:0 "소비에트 연방의 딸"
- ultravisionary_socialist:0 "극단적 사회주의자"
- paramount_leader:0 "최고 지도자"
- controversial_populist:0 "논란의 대중주의자"
- low_energy_candidate:0 "무기력한 후보"
- grim_pragmatist:0 "음울한 실용주의자"
- steel_maiden:0 "강철의 여인"
- affable_puppet:0 "상냥한 꼭두각시"
- master_ideologue:0 "붉은 명성"
- diabolical_intellectual:0 "비열한 지식인"
- black_regent:0 "혼돈의 독재자"
- silent_regent:0 "침묵의 섭정"
- the_new_marx:0 "새로운 마르크스"
-
- ####Party Names#####
-
- NIK_fascism_party:0 "열성당"
- NIK_fascism_party_long:0 "열성당 주권파"
- NIK_national_socialism_party:0 "열성당"
- NIK_national_socialism_party_long:0 "열성당 쇼비니즘파"
- NIK_ultranational_socialism_party:0 "열성당"
- NIK_ultranational_socialism_party_long:0 "열성당 유라시아파"
- NIK_despotism_party:0 "OVRI"
- NIK_despotism_party_long:0 "러시아 제국의 부흥을 위한 사회"
- NIK_authoritarian_democrat_party:0 "PSD"
- NIK_authoritarian_democrat_party_long:0 "주권민주당"
- NIK_social_conservative_party:0 "열성당"
- NIK_social_conservative_party_long:0 "열성당 주권파"
- NIK_market_liberal_party:0 "코미 주식회사"
- NIK_market_liberal_party_long:0 "코미 주식회사" 
- NIK_social_liberal_party:0 "SMR"
- NIK_social_liberal_party_long:0 "청년개혁연합"
- NIK_social_democrat_party:0 "DSNP"
- NIK_social_democrat_party_long:0 "인민민주사회당"
- NIK_socialist_party:0 "식팁카르스카야 레바야"
- NIK_socialist_party_long:0 "식팁카르스카야 레바야"
- NIK_communist_party:0 "식팁카르스카야 레바야"
- NIK_communist_party_long:0 "식팁카르스카야 레바야"
- NIK_burgundian_system_party:0 "OVRI"
- NIK_burgundian_system_party_long:0 "러시아 제국의 부흥을 위한 사회"
-
- NIK_communist_party_ultravisionary:0 "RKPSS(D)"
- NIK_communist_party_ultravisionary_long:0 "개혁 소련 공산당(달노비드나야)"
- NIK_socialist_party_ultravisionary:0 "RKPSS"
- NIK_socialist_party_ultravisionary_long:0 "개혁 소련 공산당"
-
- NIK_communist_party_cpsu:0 "KPSS"
- NIK_communist_party_cpsu_long:0 "소련 공산당"
- NIK_socialist_party_cpsu:0 "KPSS (L)"
- NIK_socialist_party_cpsu_long:0 "소련 공산당 좌파"
  
  ### ideas ###
  NIK_syvtyvkartsi:0 "우리 모두를 위한 곳"
@@ -1562,6 +1669,10 @@
  NIK_anarchy_8_desc:0 "With the violent overthrow of the Republic's government, a spiral of discontent and instability has begun. Paramilitaries mobilize, civilians purchase weapons at unseen scales, and the military itself is forced to resort to more and more pacification operations.\n\n§RThe effects of this will get worse as more and more attempts on the government are made.§!"
 
  NIK_reliable_commissars:0 "신뢰할 수 있는 육군 지휘관들"
+ 
+ NIK_seize_vologdan_wealth:0 "Seize Vologdan Wealth"
+ 
+ NIK_against_WRS:0 "Prepared Against the Front"
  
  NIK_against_WRS:0 "전선에 대한 대비"
  
