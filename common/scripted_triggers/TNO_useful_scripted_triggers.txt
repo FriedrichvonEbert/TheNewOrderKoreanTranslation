@@ -303,6 +303,7 @@ state_same_continent_as_ROOT = {
 	#}
 
 is_nuclear_armed = {
+	NOT = { has_global_flag = nukes_disabled }
 	OR = {
 		tag = USA
 		tag = GER

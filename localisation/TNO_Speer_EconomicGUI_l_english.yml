@@ -29,6 +29,11 @@ SGR_workforce_entry_1:0 "숙련 노동자: [?displayCurrentWorkforce|4|W] §W백
 
 SGR_ranking_gdp_entry:0 "§G$[?econRankingGDP^i|G]B§!"
 SGR_ranking_gdp_entry_ZV:0 "§G$[?ZV_members^i.GDP_billion|G]B§!"
+SGR_econgui_economic_overview:0 "ECONOMIC OVERVIEW"
+SGR_econgui_member_overview:0 "MEMBER OVERVIEW"
+
+SGR_ZVmembers_GDP:0 "§G$[THIS.Get_GDP_topbar]§!"
+SGR_ZVMembers_text:0 "Members: [?ZV_Members^num|Y0]"
 
 SGR_econ_overview:0 "§Q졸페어라인§!은 형식상 §g아인하이츠팍트§!를 구성하는 대부분의 국가들과 지역들 사이의 공동 시장입니다. 사실상, 이는 독일인에 의해 점유되고 있는 거의 모든 동유럽 산업으로 구성된 §g독일§!의 경제권인데, 동유럽의 국가판무관들이 최근까지 사실상 독일의 식민 행정가 그 이상도 그 이하도 아니기 때문입니다. §R게네랄플란 오스트§!와 기타 바보같은 계획들은 동부 경제의 대부분을 파괴했습니다. 하지만 자원과 인력으로 이루어진 잠재력은 아직 남아있습니다. 노예제를 폐지하고 동부에 대규모 투자를 감행함으로써, §Q졸페어라인§!은 세계에서 가장 거대한 경제 블록 중 하나가 될 수 있을 것입니다.\n\n§g독일§!에게는 미래를 가질 자격이 있습니다."
 
@@ -126,9 +131,9 @@ SGR_task_cost3:0 "§Y25§!£political_power_texticon  | §Y0%§!£GFX_megacorp!"
 
 #Frontscreen Tolltips
 
-SGR_GDP_entry_1_tt:0 "The §QZollverein's GDP§! corresponds to its economic wealth and currently lies at §Y$§![?reich_GDP|2|Y]§YB§!, with §gGermany's§! share being §Y$§![?displayGermanyGDP|2|Y]§YB§!. Its mean growth rate lies at [?zollvereinGDP_growth|%Y2].\n\nIn international negotiations, a high §QZollverein GDP§! will make the §gReich§! more attractive to investors and businesspartners. The GDP's growth is directly impacted by an increasing §GSkilled Workforce§! ratio, currently at [?displayCivPercentage|%G2], and the reduction and eventual abolition of §Rslavery§!."
-SGR_slave_entry_1_tt:0 "§RSlavery§! is the §gReich's§! cancer and encompasses [?Reich_SlavesNum_m|3|R] §Rmillion§! enslaved people. \n\nA travesty of a system originally introduced to win the Second World War and pursue the insane dreams of the elite, only to finally be usurped by the §HWehrwirtschaftsführer§! to line their own pockets. From international relations to economy, the abolition of §Rslavery§! can only benefit §gGermany§! and the §QZollverein§! as a whole."
-SGR_workforce_entry_1_tt:0 "The §GSkilled Workforce§! is the civilian workforce of skilled labourers in §gGermany§! and currently lies at [?displayCurrentWorkforce|4|G] §Gmillion§!, or [?displayCivPercentage|%G] of the theoretically available workforce of [?displayTheoreticalWorkforce|4|G] §Gmillion§!.\n\nThe §GSkilled Workforce§! is increased by sponsoring tradesmanships initiatives in the §gReich§! while reducing the amount of §Rslave labour§! in the §QZollverein§!."
+SGR_GDP_entry_1_tt:0 "§Q졸페어라인의 GDP§!는 그 경제적인 부에 상응하며 현재 §Y$§![?reich_GDP|2|Y]§YB§!이고, 그 중 §g독일의§! 몫은 §Y$§![?displayGermanyGDP|2|Y]§YB§!입니다. 이는 성장률이 [?zollvereinGDP_growth|%Y2]임을 의미합니다.\n\n국제적인 협상에서, 높은 §Q졸페어라인 GDP§!는 투자자들과 비즈니스 파트너들에게 §g라이히§!를 더 매력적으로 만들 것입니다. GDP 성장률은 현재 [?displayCivPercentage|%G2]인, 증가하는 §G숙련된 인력§! 비율과 §R노예제§!의 축소 및 궁극적인 폐지로부터 직접적인 영향을 받고 있습니다."
+SGR_slave_entry_1_tt:0 "§R노예제§!는 §g라이히의§! 암이며 [?Reich_SlavesNum_m|3|R] §R백만 명§!의 노예화된 사람들을 포함하고 있습니다.\n\n본래 제2차 세계대전에서 승리하기 위해 도입되었으며 엘리트 계급의 정신나간 희망을 추구하는 체제의 졸렬한 모방품인 이는, 결국에는 제 잇속을 채우려는 §H국방경제 지도자§!들에게 강탈당할 뿐이었습니다. 국제 관계부터 경제까지, §R노예제§!의 폐지는 §g독일§!과 §Q졸페어라인§! 모두에게 이익만을 줄 수 있습니다."
+SGR_workforce_entry_1_tt:0 "§G숙련된 인력§!은 §g독일§!의 숙련 노동자들 중 민간 인력을 의미하며 현재 [?displayCurrentWorkforce|4|G] §G백만 명§!이자 [?displayTheoreticalWorkforce|4|G] §G백만 명§!의 이론적으로 이용 가능한 인력 중 [?displayCivPercentage|%G]입니다.\n\n§G숙련된 인력§!은 §g라이히§!에서 무역가 육성 계획을 지원함으로써 증가합니다. 동시에 §Q졸페어라인§!의 §R노예 노동력§!의 수를 줄여야 합니다."
 
 
 #Decision category stuff
@@ -151,62 +156,62 @@ SGR_Kaukasien_investment_desc:0 "카우카지엔 지역 내의 풍부한 천연�
 SGR_Volga_investment:0 "볼가에 투자"
 SGR_Volga_investment_desc:0 "많은 사람들이 동쪽에 있는 우리 민족을 제멋대로이고 무법천지로 볼 수 있지만, 이 지역 내 독일인들과 러시아 원주민들 사이에 종종 협력적인 조치가 취해져 왔습니다. 만약 우리가 장기적인 경제적 번영의 외형을 만들려면, 라이히에 이익을 주기 위해 독일과 러시아 사이의 이러한 관계를 강화해야 합니다."
 
-SGR_konjunkturpaket_cost:0 "§W경기부양책의 비용은 매달 §R100,000,000 USD.§!.§!"
-SGR_eastern_investment_cost:0 "§W동부 투자의 비용은 매달 §R25,000,000 USD.§!§!"
+SGR_konjunkturpaket_cost:0 "§W경기부양책의 비용은 매달 §R1억 달러§!입니다.§!"
+SGR_eastern_investment_cost:0 "§W동부 투자의 비용은 매달 §R2500만 달러§!입니다.§!"
 
-SGR_oilsteelchrome_reward:0 "§WResource deposits including §Yoil§!, §Ysteel§! and §Ychromium§! will be made accessible.§!"
-SGR_oilsteel_reward:0 "§WResource deposits including §Yoil§! and §Ysteel§! will be made accessible.§!"
+SGR_oilsteelchrome_reward:0 "§W§Y석유§!, §Y강철§!, §Y크로뮴§!을 포함한 자원 광상이 접근가능해질 것입니다.§!"
+SGR_oilsteel_reward:0 "§W§Y석유§!와 §Y강철§!을 포함한 자원 광상이 접근가능해질 것입니다.§!"
 
 #Econ tree stuff
 
-SGR_econ_decisions_available:0 "§WA new decision category is enabled. The §QEconomic GUI§!'s actions against corporations become activated!§!"
-SGR_decisions_available:0 "§WNew decisions will be available.§!"
+SGR_econ_decisions_available:0 "§W새로운 결정 카테고리가 가능해졌습니다. 기업들에 대한 §Q경제 GUI§! 활동들이 활성화되었습니다!§!"
+SGR_decisions_available:0 "§W새로운 결정이 가능해질 것입니다.§!"
 
-SGR_trigger_allinvestments:0 "§WWe need to have invested into §Gall§! the eastern regimes before we can make this decision.§!"
-SGR_trigger_konjunkturpaket:0 "§W경기부양책은 그전에 우리가 모든 디시전을 §G완료§!하는 것을 필요로 합니다.§!"
+SGR_trigger_allinvestments:0 "§W우리는 이 결정을 내리기 전에 §G모든§! 동부 지역들에게 투자를 할 필요가 있습니다.§!"
+SGR_trigger_konjunkturpaket:0 "§W경기부양책은 그전에 우리가 모든 결정을 §G완료§!하는 것을 필요로 합니다.§!"
 
-SGR_trigger_igfarben:0 "§W§LIG FARBEN§! must be §GVULNERABLE§! for us to take action.§!"
-SGR_trigger_reichswerke:0 "§W§jREICHSWERKE§! must be §GVULNERABLE§! for us to take action.§!"
-SGR_trigger_daimler:0 "§W§gDAIMLER-BENZ§! must be §GVULNERABLE§! for us to take action.§!"
-SGR_trigger_siemens:0 "§W§TSIEMENS§! must be §GVULNERABLE§! for us to take action.§!"
+SGR_trigger_igfarben:0 "§W우리가 행동을 취하기 위해서는 §LIG 파르벤§!이 §G취약함§!이어야 합니다.§!"
+SGR_trigger_reichswerke:0 "§W우리가 행동을 취하기 위해서는 §j라이히스베르케§!가 §G취약함§!이어야 합니다.§!"
+SGR_trigger_daimler:0 "§W우리가 행동을 취하기 위해서는 §g다임러-벤츠§!가 §G취약함§!이어야 합니다.§!"
+SGR_trigger_siemens:0 "§W우리가 행동을 취하기 위해서는 §T지멘스§!가 §G취약함§!이어야 합니다.§!"
 
-SGR_all_resources:0 "§WWe will be granted access to §Gall resources§! uncovered in the eastern regimes, at the cost of §RGDP growth§!.§!"
-SGR_some_resources:0 "§WWe will be granted access to only §Rsome§! resources uncovered in the eastern regimes, at the benefit of §GGDP growth§!.§!"
+SGR_all_resources:0 "§W우리는 §RGDP 성장률§!의 희생을 감수하고 동부 지역들에 매장된 §G모든 자원들§!에 접근할 수 있게 될 것입니다.§!"
+SGR_some_resources:0 "§W우리는 §GGDP 성장률§!을 높이면서 동부 지역들에 매장된 §R일부§! 자원들에만 접근할 수 있게 될 것입니다.§!"
 
-SGR_wealth_for_all:0 "§WThe surplus wealth we have gained in the course of Erhard's reforms will be invested back into the §QZollverein§!, §Gincreasing GDP growth across the board.§!§!"
-SGR_wealth_for_us:0 "§WThe surplus wealth we have gained in the course of Erhard's reforms will be invested back into §gGermany§!, §Gincreasing the Reich's GDP growth.§!§!"
+SGR_wealth_for_all:0 "§W에르하르트의 개혁 과정에서 우리가 얻었던 잉여 부는 다시금 §Q졸페어라인§!에 투자될 것입니다. 이는 §G여러 구성국들의 GDP 성장률을 증가시킬 것입니다.§!§!"
+SGR_wealth_for_us:0 "§W에르하르트의 개혁 과정에서 우리가 얻었던 잉여 부는 다시금 §g독일§!에 투자될 것입니다. §G이는 라이히의 GDP 성장률을 증가시킬 것입니다.§!§!"
 
 #Ideas
 
-SGR_join_zollverein_tt:0 "§W§Y[THIS.GetName]§!이(가)§QZollverein§!.에 가입"
+SGR_join_zollverein_tt:0 "§W§Y[THIS.GetName]§!이(가) §QZollverein§!에 가입함."
 
-SGR_zollverein_members_scriptedloc_bloc:0 "\n졸페어라인 예산 할당: §G$§![?FROM.MemberZVBudget|+]§GM USD§!"
+SGR_zollverein_members_scriptedloc_bloc:0 "\n졸페어라인 예산 할당: §G$§![?FROM.MemberZVBudget|+]§G백만 달러§!"
 
-SGR_zollverein_scriptedloc_bloc:0 "\n총 졸페어라인 예산: §G$§![?ZollvereinBudget|+]§GM USD§!\nZollverein Budget Payments: [?ZollvereinPayments|0Y%] of Annual Revenue\nZollverein Budget Payout: [?GER.SGRZVfactor|0+%]"
+SGR_zollverein_scriptedloc_bloc:0 "\n총 졸페어라인 예산: §G$§![?ZollvereinBudget|+]§G백만 달러§!\n졸페어라인 예산 지불: 연 수입의 [?ZollvereinPayments|0Y%]\n졸페어라인에 대한 예산 지불금: [?GER.SGRZVfactor|0+%]"
 
 SGR_zollverein_germany:0 "졸페어라인 지도국"
-SGR_zollverein_germany_desc:0 "§DResources to Market: [?SGR_export_factor|0Y%]\nConsumer Goods Factories: [?SGR_consumer_goods|1Y%][getZollvereinIdeaBlock] \n--------------\n§!The Zollverein is a common market and customs union between its members. A replacement for the clearly obsolete and dysfunctional Großraum Kontinentaleuropa concept, it is a means for Germany to continue being the hegemon of Europe - albeit now, hopefully, in a less bloody manner."
+SGR_zollverein_germany_desc:0 "§D시장으로 가는 자원: [?SGR_export_factor|0Y%]\n소비재 공장: [?SGR_consumer_goods|1Y%][getZollvereinIdeaBlock] \n--------------\n§!졸페어라인은 구성국들 사이의 공동 시장이자 관세 동맹입니다. 이는 구식이고 결함이 있는 유럽대륙 블록 개념을 대신하는 것으로, 독일이 유럽의 헤게모니를 계속해서 쥘 수 있게 하는 수단입니다. 비록 당장은 바라건대 피가 덜 흐르는 방식일지라도 말입니다."
 
 SGR_zollverein_basic:0 "졸페어라인 회원국"
-SGR_zollverein_basic_desc:0 "§DPolitical Power Gain Factor: [?THIS.ZV_pp_gain|0+%]\nConsumer Goods Factories: [?THIS.ZV_consumer_goods|1Y%]\nProduction Efficiency Gain Factor: [?THIS.ZV_production_gain|1+%][getZollvereinMembersIdeaBlock] \n--------------\n§!The Zollverein is a common market and customs union between its members. A replacement for the clearly obsolete and dysfunctional Großraum Kontinentaleuropa concept, it is a means for Germany to continue being the hegemon of Europe - albeit now, hopefully, in a less bloody manner."
+SGR_zollverein_basic_desc:0 "§D정치력 획득 요인: [?THIS.ZV_pp_gain|0+%]\n소비재 공장: [?THIS.ZV_consumer_goods|1Y%]\n생산 효율성 획득 요인: [?THIS.ZV_production_gain|1+%][getZollvereinMembersIdeaBlock] \n--------------\n§!졸페어라인은 구성국들 사이의 공동 시장이자 관세 동맹입니다. 이는 구식이고 결함이 있는 유럽대륙 블록 개념을 대신하는 것으로, 독일이 유럽의 헤게모니를 계속해서 쥘 수 있게 하는 수단입니다. 비록 당장은 바라건대 피가 덜 흐르는 방식일지라도 말입니다."
 
 SGR_zollverein_reich:0 "독일의 졸페어리인"
-SGR_zollverein_reich_desc:0 "졸베린의 독일 중심 관료주의는 대체로 유지되어 왔으며, 어떤 면에서는 심지어 강화되었습니다. 따라서 독일 경제와 동유럽 경제를 구분하는 일은 앞으로도 거의 없을 것입니다. 같고, 같을 것 입니다."
+SGR_zollverein_reich_desc:0 "졸페어라인의 독일 중심 관료주의는 대체로 유지되어 왔으며, 어떤 면에서는 심지어 강화되었습니다. 따라서 독일 경제와 동유럽 경제를 구분하는 일은 앞으로도 거의 없을 것입니다. 같고, 또 같을 것 입니다."
 
 SGR_zollverein_common:0 "유럽의 졸페어라인"
-SGR_zollverein_common_desc:0 "졸베린의 독일 중심 관료주의는 상당히 완화되었습니다. 나치 경제 방향주의는 개혁파와 동부경제가 주도하는 풀뿌리 협력에 끈질기게 길을 내주면서 지역 교역이 번창하는 결과를 낳았습니다.
+SGR_zollverein_common_desc:0 "졸페어라인의 독일 중심 관료주의는 상당히 완화되었습니다. 나치 경제 방향주의는 개혁파와 동부경제가 주도하는 풀뿌리 협력에 끈질기게 길을 내주면서 지역 교역이 번창하는 결과를 낳았습니다.
 
-SGR_siemenswelt:0 "Siemenswelt"
-SGR_siemenswelt_desc:0 "Siemens is Germany's leading tech company and simultaneously one of the few with significant international standing. Their presence on our side is a boon for our research and development efforts."
+SGR_siemenswelt:0 "지멘스의 세상"
+SGR_siemenswelt_desc:0 "지멘스는 독일의 선구적인 기술 회사이며 동시에 국제적으로 중요한 위치를 가지고 있는 몇 안 되는 회사들 중 하나이기도 합니다. 그들을 우리 편으로 끌어들이는 것은 우리가 연구 및 발전을 이룩하는데 큰 도움이 될 것입니다."
 
-SGR_reichswerke_mass_privatisation:0 "Reichswerke Privatisation"
-SGR_reichswerke_mass_privatisation_desc:0 "Reichswerke is in the process of largely being privatized, with middleclass corporations profitting the most off of this."
+SGR_reichswerke_mass_privatisation:0 "라이히스베르케 사유화"
+SGR_reichswerke_mass_privatisation_desc:0 "라이히스베르케는 대규모 사유화 과정을 거치는 중입니다. 이를 통해 중소기업이 상당한 이익을 얻게 될 것입니다."
 
-SGR_reichswerke_limited_privatisation:0 "Reichswerke Limited Privatisation"
-SGR_reichswerke_limited_privatisation_desc:0 "Reichswerke is partly being privatized. The Reich will nonetheless hold on to the most important aspects of the company, namely arms production."
+SGR_reichswerke_limited_privatisation:0 "라이히스베르케에 대한 제한적인 사유화"
+SGR_reichswerke_limited_privatisation_desc:0 "라이히스베르케는 부분적으로 사유화되고 있습니다. 그럼에도 불구하고 라이히는 이 회사의 가장 중요한 면면들을 장악할 것입니다. 특히 군수 산업 말입니다."
 
-SGR_daimler_slashed:0 "Daimler-Benz Slashed"
-SGR_daimler_slashed_desc:0 "Daimler-Benz's assets are being seized wholesale and sold off to our growing middleclass corporations at low prices."
+SGR_daimler_slashed:0 "분쇄된 다임러-벤츠"
+SGR_daimler_slashed_desc:0 "다임러-벤츠의 자산 대부분이 압류되었으며 성장하고 있는 중소기업들에게 낮은 가격으로 판매되고 있습니다."
 
 SGR_made_in_germany_reformist_tt:0 "해외 무역 지불금: §G+15%§!"
 SGR_made_in_germany_conservative_tt:0 "해외 무역 지불금: §G+10%§!"
@@ -215,58 +220,58 @@ SGR_zollverein_reich_tt:0 "졸페어라인 GDP 흭득: §G+10%§!"
 SGR_zollverein_basic_tt:0 "GDP 성장률: §G+1.5%§!\n졸페어라인 지불금: §R10%§! 연간 수익"
 
 SGR_made_in_germany_reformist:0 "독일산"
-SGR_made_in_germany_reformist_desc:0 "Through hard work and millions spent, Germany finally has a foundation to build an economy on. Our current measures are still far from what the economic potential of the Reich truly is - but they are a start. A second chance Germany desperately needed. Still, with our name recovering, the money foreigners are willing to pay for our goods will slowly but surely increase."
+SGR_made_in_germany_reformist_desc:0 "고된 노동과 수백만 달러를 소모함으로써, 독일은 마침내 경제를 세울 만한 기반을 갖게 되었습니다. 현재 우리의 수치들은 라이히가 진정 가지고 있는 경제적인 잠재력과 여전히 거리가 멉니다. 하지만 이건 시작일 뿐입니다. 독일이 절박히 필요로 했던 두 번째 기회입니다. 우리가 이름을 되찾는다면 외국인들이 기꺼이 우리의 상품에 대한 대가로 돈을 지불하려 할 것이고 이는 천천히, 하지만 확실히 증대할 것입니다."
 
 SGR_made_in_germany_conservative:0 "독일산"
-SGR_made_in_germany_conservative_desc:0 "Through hard work and millions spent, Germany finally has a foundation to build an economy on. Our current measures are still far from what the economic potential of the Reich truly is - but they are a start. A second chance Germany desperately needed. Still, with our name recovering, the money foreigners are willing to pay for our goods will slowly but surely increase."
+SGR_made_in_germany_conservative_desc:0 "고된 노동과 수백만 달러를 소모함으로써, 독일은 마침내 경제를 세울 만한 기반을 갖게 되었습니다. 현재 우리의 수치들은 라이히가 진정 가지고 있는 경제적인 잠재력과 여전히 거리가 멉니다. 하지만 이건 시작일 뿐입니다. 독일이 절박히 필요로 했던 두 번째 기회입니다. 우리가 이름을 되찾는다면 외국인들이 기꺼이 우리의 상품에 대한 대가로 돈을 지불하려 할 것이고 이는 천천히, 하지만 확실히 증대할 것입니다."
 
 #GUI Tooltips
 
-SGR_igfarben_button_tt:0 "Available once company power is at §G0%§! and focus §YFührererlass§! has been taken."
-SGR_reichswerke_button_tt:0 "Available once company power is at §G0%§! and focus §YPast is Past§! has been taken."
-SGR_siemens_button_tt:0 "Available once company power is at §G0%§! and focus §YZukunftsmusik§! has been taken."
-SGR_daimler_button_tt:0 "Available once company power is at §G0%§! and focus §YBuyout§! has been taken."
+SGR_igfarben_button_tt:0 "회사의 힘이 §G0%§!이고 §Y총통의 명령§! 중점이 완료되어야 가능함."
+SGR_reichswerke_button_tt:0 "회사의 힘이 §G0%§!이고 §Y과거는 과거다§! 중점이 완료되어야 가능함."
+SGR_siemens_button_tt:0 "회사의 힘이 §G0%§!이고 §Y미래 음악§! 중점이 완료되어야 가능함."
+SGR_daimler_button_tt:0 "회사의 힘이 §G0%§!이고 §Y인수§! 중점이 완료되어야 가능함."
 
 
 
 #Scripted Effects Tooltips
 
-SGR_europes_dreams_tt:0 "§YThe payments to the Zollverein's budget will increase by §G5%§!, while Germany's budget payout decreases by §R10%§!§!."
-SGR_reichs_needs_tt:0 "§YThe payments to the Zollverein's budget will increase by §G5%§!, while Germany's budget payout increases by §G5%§!§!."
+SGR_europes_dreams_tt:0 "§Y졸페어라인 예산에 대한 지불금은 §G5%§! 증가할 것인 반면, 독일 예산에 대한 지불금은 §R10%§! 감소할 것입니다§!."
+SGR_reichs_needs_tt:0 "§Y졸페어라인 예산에 대한 지불금은 §G5%§! 증가할 것이고, 독일 예산에 대한 지불금은 §G5%§! 증가할 것입니다§!."
 
-SGR_erhard_plan_tt:0 "§GErhard's plan must be started as early and followed as closely as possible to work best.§!\n"
-SGR_skilled_labour_increase_small_tt:0 "§GThe Skilled Workforce will slightly benefit from this.§!\n"
-SGR_skilled_labour_increase_mid_tt:0 "§GThe Skilled Workforce will benefit from this.§!\n"
-SGR_skilled_labour_increase_big_tt:0 "§GThe Skilled Workforce will significantly benefit from this!§!\n"
+SGR_erhard_plan_tt:0 "§G에르하르트의 계획이 가장 효과가 좋기 위해서는 가능한 빨리 시작되고 진행되어야 합니다.§!\n"
+SGR_skilled_labour_increase_small_tt:0 "§G숙련된 인력은 이로부터 약간의 이익을 얻을 것입니다.§!\n"
+SGR_skilled_labour_increase_mid_tt:0 "§G숙련된 인력은 이로부터 이익을 얻을 것입니다.§!\n"
+SGR_skilled_labour_increase_big_tt:0 "§G숙련된 인력은 이로부터 상당한 이익을 얻을 것입니다!§!\n"
 
-SGR_repatriation_started_tt:0 "§YIt is time to act upon our promises.§!"
-SGR_repatriation_increase_small:0 "§WRepatriation efforts will be §Gsomewhat enhanced§!.§!"
-SGR_repatriation_increase_mid:0 "§WRepatriation efforts will be §Genhanced§!.§!"
-SGR_repatriation_increase_big:0 "§WRepatriation efforts will be §Gsignificantly enhanced§!!§!"
+SGR_repatriation_started_tt:0 "§Y우리가 한 약속을 실천할 때입니다.§!"
+SGR_repatriation_increase_small:0 "§W본국 송환 노력이 §G다소 향상될 것§!입니다.§!"
+SGR_repatriation_increase_mid:0 "§W본국 송환 노력은 §G향상될 것§!입니다.§!"
+SGR_repatriation_increase_big:0 "§W본국 송환 노력이 §G크게 향상될 것§!입니다!§!"
 
-SGR_igfarben_attack_tt:0 "§WEfforts against §LIG FARBEN§! will §Gincrease in strength§!.§!"
-SGR_reichswerke_attack_tt:0 "§WEfforts against §jREICHSWERKE§! will §Gincrease in strength§!.§!"
-SGR_daimler_attack_tt:0 "§WEfforts against §gDAIMLER-BENZ§! will §Gincrease in strength§!.§!"
-SGR_siemens_attack_tt:0 "§WEfforts against §TSIEMENS§! will §Gincrease in strength§!.§!"
+SGR_igfarben_attack_tt:0 "§W§LIG 파르벤§!에 대한 노력의 §G힘이 증가할 것§!입니다.§!"
+SGR_reichswerke_attack_tt:0 "§W§j라이히스베르케§!에 대한 노력의 §G힘이 증가할 것§!입니다.§!"
+SGR_daimler_attack_tt:0 "§W§g다임러-벤츠§!에 대한 노력의 §G힘이 증가할 것§!입니다.§!"
+SGR_siemens_attack_tt:0 "§W§T지멘스§!에 대한 노력의 §G힘이 증가할 것§!입니다.§!"
 
 #Scripted Loc Stuff
 
-SGR_IGFarben_bar_tt:0 "§LIG FARBEN§!'s power is at [?IGFarbenPower|%W]."
-SGR_Reichswerke_bar_tt:0 "§jREICHSWERKE§!'s power is at [?ReichswerkePower|%W]."
-SGR_Daimler_bar_tt:0 "§gDAIMLER-BENZ§!'s power is at [?DaimlerPower|%W]."
-SGR_Siemens_bar_tt:0 "§TSIEMENS§!'s power is at [?SiemensPower|%W]."
+SGR_IGFarben_bar_tt:0 "§LIG 파르벤§!의 힘은 [?IGFarbenPower|%W]."
+SGR_Reichswerke_bar_tt:0 "§j라이히스베르케§!의 힘은 [?ReichswerkePower|%W]."
+SGR_Daimler_bar_tt:0 "§g다임러-벤츠§!의 힘은 [?DaimlerPower|%W]."
+SGR_Siemens_bar_tt:0 "§T지멘스§!의 힘은 [?SiemensPower|%W]."
 
 SGR_IGFarben_power:0 "[GetIGFarbenPower]\n"
 SGR_Reichswerke_power:0 "[GetReichswerkePower]\n"
 SGR_Daimler_power:0 "[GetDaimlerPower]\n"
 SGR_Siemens_power:0 "[GetSiemensPower]\n"
 
-SGR_untouched:0 "§R그대로의§!"
+SGR_untouched:0 "§R그대로임§!"
 SGR_powerful:0 "§O강력함§!"
-SGR_influential:0 "§Y영향력 있는§!"
-SGR_middling:0 "§g보통의§!"
+SGR_influential:0 "§Y영향력 있음§!"
+SGR_middling:0 "§g보통임§!"
 SGR_waning:0 "§T약함§!"
-SGR_vulnerable:0 "§G연약한§!"
+SGR_vulnerable:0 "§G연약함§!"
 SGR_dismantled:0 "§W해체됨§!"
 
 SGR_balanced:0 "§Q카르텔 없음§!"
@@ -314,73 +319,73 @@ SGR_bessarabia_slaves:0 "[?SGR_WWS_Mil_Regions^26|R3] §R백만 명의 노예§!
 
 #Germany
 
-SGR_economic_rhineland_tt:0 "§YRHEINLAND§!\n\nThere are currently [getRhinelandSlaves] in this economic region.\n\nThis region is dominated by [GetRheinlandMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_northgermany_tt:0 "§YNORDDEUTSCHLAND§!\n\nThere are currently [getNorthgermanySlaves] in this economic region.\n\nThis region is dominated by [GetNorthgermanMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_centralgermany_tt:0 "§YMITTELDEUTSCHLAND§!\n\nThere are currently [getCentralgermanySlaves] in this economic region.\n\nThis region is dominated by [GetCentralgermanMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_sachsenanhalt_tt:0 "§YSACHSEN-ANHALT§!\n\nThere are currently [getSachsenanhaltSlaves] in this economic region.\n\nThis region is dominated by [GetSachsenanhaltMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_prussia_tt:0 "§YPREUßEN§!\n\nThere are currently [getPrussiaSlaves] in this economic region.\n\nThis region is dominated by [GetPrussiaMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_bohemia_tt:0 "§YBÖHMEN-MÄHREN§!\n\nThere are currently [getBohemiaSlaves] in this economic region.\n\nThis region is dominated by [GetBohemiaMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_southgermany_tt:0 "§YSÜDDEUTSCHLAND§!\n\nThere are currently [getSouthgermanySlaves] in this economic region.\n\nThis region is dominated by [GetSouthgermanMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_austria_tt:0 "§YOSTMARK§!\n\nThere are currently [getAustriaSlaves] in this economic region.\n\nThis region is dominated by [GetAustrianMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_rhineland_tt:0 "§Y라인란트§!\n\n현재 이 경제권에는 [getRhinelandSlaves]가 있습니다.\n\n이 지역은 [GetRheinlandMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_northgermany_tt:0 "§Y노르트도이칠란트§!\n\n현재 이 경제권에는 [getNorthgermanySlaves]가 있습니다.\n\n이 지역은 [GetNorthgermanMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_centralgermany_tt:0 "§Y미텔도이칠란트§!\n\n현재 이 경제권에는 [getCentralgermanySlaves]가 있습니다.\n\n이 지역은 [GetCentralgermanMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_sachsenanhalt_tt:0 "§Y작센-안할트§!\n\n현재 이 경제권에는 [getSachsenanhaltSlaves]가 있습니다.\n\n이 지역은 [GetSachsenanhaltMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_prussia_tt:0 "§Y프로이센§!\n\n현재 이 경제권에는 [getPrussiaSlaves]가 있습니다.\n\n이 지역은 [GetPrussiaMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_bohemia_tt:0 "§Y뵈멘-매렌§!\n\n현재 이 경제권에는 [getBohemiaSlaves]가 있습니다.\n\n이 지역은 [GetBohemiaMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_southgermany_tt:0 "§Y쥐트도이칠란트§!\n\n현재 이 경제권에는 [getSouthgermanySlaves]가 있습니다.\n\n이 지역은 [GetSouthgermanMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_austria_tt:0 "§Y오스트마르크§!\n\n현재 이 경제권에는 [getAustriaSlaves]가 있습니다.\n\n이 지역은 [GetAustrianMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Poland
 
-SGR_economic_poland_tt:0 "§YPOLEN§!\n\nThere are currently [getPolandSlaves] in this economic region.\n\nThis region is dominated by [GetPolishMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_poland_tt:0 "§Y폴렌§!\n\n현재 이 경제권에는 [getPolandSlaves]가 있습니다.\n\n이 지역은 [GetPolishMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Ostland
 
-SGR_economic_belarus_tt:0 "§YWEIßRUTHENIEN§!\n\nThere are currently [getBelarusSlaves] in this economic region.\n\nThis region is dominated by [GetBelarusianMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_lithuania_tt:0 "§YLITTAUEN§!\n\nThere are currently [getLithuaniaSlaves] in this economic region.\n\nThis region is dominated by [GetLithuanianMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_estonia_tt:0 "§YESTLAND-RIGA§!\n\nThere are currently [getEstoniaSlaves] in this economic region.\n\nThis region is dominated by [GetEstonianMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_belarus_tt:0 "§Y바이스루테니엔§!\n\n현재 이 경제권에는 [getBelarusSlaves]가 있습니다.\n\n이 지역은 [GetBelarusianMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_lithuania_tt:0 "§Y리타우엔§!\n\n현재 이 경제권에는 [getLithuaniaSlaves]가 있습니다.\n\n이 지역은 [GetLithuanianMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_estonia_tt:0 "§Y에스틀란트-리가§!\n\n현재 이 경제권에는 [getEstoniaSlaves]가 있습니다.\n\n이 지역은 [GetEstonianMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Ukraine
 
-SGR_economic_kyiv_tt:0 "§YWOLHYNIEN-PODOLIEN§!\n\nThere are currently [getKyivSlaves] in this economic region.\n\nThis region is dominated by [GetWolhynianMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_southukraine_tt:0 "§YSAPORISCHSCHJA§!\n\nThere are currently [getSouthukraineSlaves] in this economic region.\n\nThis region is dominated by [GetZaporizhianMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_eastukraine_tt:0 "§YSEWERIEN§!\n\nThere are currently [getEastukraineSlaves] in this economic region.\n\nThis region is dominated by [GetSewerianMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_kyiv_tt:0 "§Y보리니엔-포도리엔§!\n\n현재 이 경제권에는 [getKyivSlaves]가 있습니다.\n\n이 지역은 [GetWolhynianMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_southukraine_tt:0 "§Y자포리쉬쉬야§!\n\n현재 이 경제권에는 [getSouthukraineSlaves]가 있습니다.\n\n이 지역은 [GetZaporizhianMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_eastukraine_tt:0 "§Y제베리엔§!\n\n현재 이 경제권에는 [getEastukraineSlaves]가 있습니다.\n\n이 지역은 [GetSewerianMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Kaukasia
 
-SGR_economic_azerbaijan_tt:0 "§YASERBAIDSCHAN§!\n\nThere are currently [getAzerbaijanSlaves] in this economic region.\n\nThis region is dominated by [GetAzerbaijanMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_georgia_tt:0 "§YGEORGIEN§!\n\nThere are currently [getGeorgiaSlaves] in this economic region.\n\nThis region is dominated by [GetGeorgianMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_katharinastadt_tt:0 "§YKATHARINASTADT§!\n\nThere are currently [getKatharinastadtSlaves] in this economic region.\n\nThis region is dominated by [GetKatharinastadtMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_azerbaijan_tt:0 "§Y아제르바이잔§!\n\n현재 이 경제권에는 [getAzerbaijanSlaves]가 있습니다.\n\n이 지역은 [GetAzerbaijanMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_georgia_tt:0 "§Y게오르기엔§!\n\n현재 이 경제권에는 [getGeorgiaSlaves]가 있습니다.\n\n이 지역은 [GetGeorgianMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_katharinastadt_tt:0 "§Y카타리나슈타트§!\n\n현재 이 경제권에는 [getKatharinastadtSlaves]가 있습니다.\n\nT이 지역은 [GetKatharinastadtMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Leningrad
 
-SGR_economic_leningrad_tt:0 "§YBRAUCHITSCHSTADT§!\n\nThere are currently [getLeningradSlaves] in this economic region.\n\nThis region is dominated by [GetLeningradMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_leningrad_tt:0 "§Y브라우히치슈타트§!\n\n현재 이 경제권에는 [getLeningradSlaves]가 있습니다.\n\n이 지역은 [GetLeningradMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Holland
 
-SGR_economic_holland_tt:0 "§YNIEDERLANDE§!\n\nThere are currently [getHollandSlaves] in this economic region.\n\nThis region is dominated by [GetHollandMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_holland_tt:0 "§Y니덜란데§!\n\n현재 이 경제권에는 [getHollandSlaves]가 있습니다.\n\n이 지역은 [GetHollandMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Denmark
 
-SGR_economic_denmark_tt:0 "§YDÄNEMARK§!\n\nThere are currently [getDenmarkSlaves] in this economic region.\n\nThis region is dominated by [GetDanishMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_denmark_tt:0 "§Y대네마르크§!\n\n현재 이 경제권에는 [getDenmarkSlaves]가 있습니다.\n\n이 지역은 [GetDanishMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Norway
 
-SGR_economic_oslo_tt:0 "§YØSTLANDET§!\n\nThere are currently [getOsloSlaves] in this economic region.\n\nThis region is dominated by [GetOsloMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_westnorway_tt:0 "§YVESTLANDET§!\n\nThere are currently [getWestnorwaySlaves] in this economic region.\n\nThis region is dominated by [GetWestnorwegianMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_oslo_tt:0 "§Y외스트란데트§!\n\n현재 이 경제권에는 [getOsloSlaves]가 있습니다.\n\n이 지역은 [GetOsloMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_westnorway_tt:0 "§Y페스트란데트§!\n\n현재 이 경제권에는 [getWestnorwaySlaves]가 있습니다.\n\n이 지역은 [GetWestnorwegianMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Crimea
 
-SGR_economic_crimea_tt:0 "§YGOTENLAND§!\n\nThere are currently [getCrimeaSlaves] in this economic region.\n\nThis region is dominated by [GetCrimeanMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_crimea_tt:0 "§Y고텐란트§!\n\n현재 이 경제권에는 [getCrimeaSlaves]가 있습니다.\n\n이 지역은 [GetCrimeanMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Volga
 
-SGR_economic_uppervolga_tt:0 "§YOBERWOLGA§!\n\nThere are currently [getUppervolgaSlaves] in this economic region.\n\nThis region is dominated by [GetUppervolgaMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
-SGR_economic_lowervolga_tt:0 "§YNIEDERWOLGA§!\n\nThere are currently [getLowervolgaSlaves] in this economic region.\n\nThis region is dominated by [GetLowervolgaMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_uppervolga_tt:0 "§Y오버볼가§!\n\n현재 이 경제권에는 [getUppervolgaSlaves]가 있습니다.\n\n이 지역은 [GetUppervolgaMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_lowervolga_tt:0 "§Y니더볼가§!\n\n현재 이 경제권에는 [getLowervolgaSlaves]가 있습니다.\n\n이 지역은 [GetLowervolgaMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Bessarabia
 
-SGR_economic_bessarabia_tt:0 "§YTRANSNISTRIEN§!\n\nThere are currently [getBessarabiaSlaves] in this economic region.\n\nThis region is dominated by [GetBessarabiaMegacorp].\n\n§YCLICK FOR FURTHER ACTIONS§!"
+SGR_economic_bessarabia_tt:0 "§Y트란스니스트리엔TRANSNISTRIEN§!\n\n현재 이 경제권에는 [getBessarabiaSlaves]가 있습니다.\n\n이 지역은 [GetBessarabiaMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #States Windows#
 
 #More tts
 
-SGR_2weeks:0 "Available every two weeks"
-SGR_1month:0 "Available every month"
+SGR_2weeks:0 "2주마다 가능함"
+SGR_1month:0 "1개월마다 가능함"
 
 #State names
 

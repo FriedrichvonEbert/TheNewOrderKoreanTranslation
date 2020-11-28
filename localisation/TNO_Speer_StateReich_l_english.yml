@@ -2,34 +2,34 @@
  
  ## Focus prerequisites stuff (Regime Stab) ##
 
- SGR_RegimeStab_50:0 "At least §Y50%§! £GFX_regime_stability_texticon §YRegime Stability§!."
- SGR_RegimeStab_75:0 "At least §Y75%§! £GFX_regime_stability_texticon §YRegime Stability§!."
+ SGR_RegimeStab_50:0 "최소한 £GFX_regime_stability_texticon §Y정권 안정도§!가 §Y50%§!이어야 함."
+ SGR_RegimeStab_75:0 "최소한 £GFX_regime_stability_texticon §Y정권 안정도§!가 §Y75%§!이어야 함."
 
  ## Decisions ##
 
- SGR_tree_reload_tt:0 "§T§YTree reloading§! can, sometimes, not work or not immediately work. This is a PDX bug we can't do anything about. §YTry to wait some days in-game or reload your save should this happen to you.§!§!"
+ SGR_tree_reload_tt:0 "§T§Y중점 불러오기§!는 때때로 제대로 이뤄지지 않거나 즉시 이뤄지지 않을 수 있습니다. 이는 우리가 어떻게 해볼 수 없는 구동기의 버그입니다. §Y만일 당신에게 이런 일이 일어난다면, 인게임 상에서 며칠 기다려보시거나 세이브파일을 다시 불러와 보세요.§!§!"
 
- SGR_state_of_the_reich_category:0 "독일국의 상태"
- SGR_state_of_the_reich_category_desc:0 "§Y정권§!이 현재 기울어지고 있습니다... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§Y체제 안정도§!: £GFX_regime_stability_texticon [?SGRRegimeStability|W%]\n\n£GFX_regime_stability_texticon §Y정권 안정도§!는 §O총통§!의 정부가 오래 존속 할 수 있는 수치입니다. 이것은 §g논란의 여지가 있는 결정§!,에 영향을 줍니다 §R보수파§! 혹은 §개혁파§!가 포함된 행동은 §T사회적 관점§! 에서 각각 반대편에 있습니다. £GFX_stability_texticon §WNation Stability§!, which it ticks towards. Should £GFX_regime_stability_texticon §Y정권 안정도§!가 §Y30%§! 이하로 내려가면  §O정부§!는 붕괴할 것입니다!\n\n§T사회적 관점§!: £social_outlook_texticon [getLeaningPivot] ([?SGRSocietyLevel|+2]/[getSGRLimits])\n\n  The §TOutlook§! is [getSGROutlook] at [?SGRSocietyTick|+]/§Y14 days§!.\n\n£social_outlook_texticon §T사회적 관점§!은 세계에 대한§g독일인§!들의 관점의 척도입니다. 다음과 같은 요인에 따라 달라집니다. §Q경제 개혁§!, §O정권 기울기§! 그리고, 시간이 지남에 따라 그것은 바뀝니다. 만약 §O정부§!가 반대편으로 기울어져있다면  £GFX_regime_stability_texticon §Y정권 안정도는§! 떨어질 것입니다!"
+ SGR_state_of_the_reich_category:0 "라이히의 상태"
+ SGR_state_of_the_reich_category_desc:0 "§Y정권§!이 현재 기울어지고 있습니다...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§Y최소 정권 안정도§!: £GFX_regime_stability_texticon [?SGRRegimeStability|W%]\n\n£GFX_regime_stability_texticon §Y정권 안정도§!는 §O총통 각하§!의 정부가 오래 존속하기 위해 가장 중요한 수치입니다. 이것은 §T사회적 관점§!에서 §R보수파§!와 §개혁파§!가 각각 반대편에 있을 때 두 세력 중 하나가 하는 행동을 포함한 §g논란의 여지가 있는 결정§!으로부터 영향을 받습니다. 또한 시시각각 변화하는 £GFX_stability_texticon §W국가 안정도§!로부터도 영향을 받을 것입니다. 만일 £GFX_regime_stability_texticon §Y정권 안정도§!가 §Y30%§! 이하로 내려가면  §O정부§!는 붕괴할 것입니다!\n\n§T사회적 관점§!: £social_outlook_texticon [getLeaningPivot] ([?SGRSocietyLevel|+2]/[getSGRLimits])\n\n§T관점§!은 [?SGRSocietyTick|+]/§Y14일§!에 [getSGROutlook]입니다.\n\n£social_outlook_texticon §T사회적 관점§!은 세계에 대한 §g독일 민족§!이 가진 관점의 척도입니다. 이는 §Q경제 개혁§!, §O정권 기울기§! 그리고, 시간이 지남에 따라 바뀝니다. 만약 §O정부§!가 그와는 반대편으로 기울어져 있다면  £GFX_regime_stability_texticon §Y정권 안정도§!는 떨어질 것입니다!"
 
- SGR_authdemvsfash_ticker_desc:0 "§Y정권 지지도§! 현재는 [getSGRAlignmentTrend] ([?alignmentTicker|+]/§Ymonth§!) 틱과 그리고 [getLeaningPivot] 중점이 있다.\n\n £social_outlook_texticon §T사회적 관점§! 중점은 §Y정권 기울기§!틱이 어디로 향하는지 결정하고 이것은 표시계에 표시됩니다."
+ SGR_authdemvsfash_ticker_desc:0 "§Y정권 지지도§!는 현재 [getSGRAlignmentTrend] ([?alignmentTicker|+]/§Y1개월§!) 틱과 그리고 [getLeaningPivot] 중심을 가지고 있습니다.\n\n£social_outlook_texticon §T사회적 관점§! 중심은 §Y정권 기울기§!의 틱이 어디로 향하는지 결정하고 이것은 표시계에 표시됩니다."
 
- SGR_reformist_influence_tt:0 "§W§g라이히§!의 §G개혁파§!가 이점을 얻을 것입니다[getRefMalus1].§!\n"
- SGR_reformist_influence_mid_tt:0 "§W§g라이히§!의 §G개혁파§!가 §M중대한§! 이점을 얻을 것입니다 [getRefMalus2].§!\n"
- SGR_reformist_influence_big_tt:0 "§W§g라이히§!의 §G개혁파§!가 §T강력한§! 이점을 얻을 것입니다 [getRefMalus3].§!\n"
+ SGR_reformist_influence_tt:0 "§W§g라이히§!의 §G개혁파§!가 이점을 얻을 것입니다. [getRefMalus1].§!\n"
+ SGR_reformist_influence_mid_tt:0 "§W§g라이히§!의 §G개혁파§!가 §M중대한§! 이점을 얻을 것입니다. [getRefMalus2].§!\n"
+ SGR_reformist_influence_big_tt:0 "§W§g라이히§!의 §G개혁파§!가 §T강력한§! 이점을 얻을 것입니다. [getRefMalus3].§!\n"
 
- SGR_malus_1_small:0 ", §R2.5%§! 감소 £GFX_regime_stability_texticon §Y정권 안정도§!"
- SGR_malus_1_med:0 ", §R5%§! 감소 £GFX_regime_stability_texticon §YRegime S정권 안정도§!"
- SGR_malus_1_big:0 ", §R10%§! 감소 £GFX_regime_stability_texticon §YRegime S정권 안정도§!"
+ SGR_malus_1_small:0 "또한 £GFX_regime_stability_texticon §Y정권 안정도§!가 §R2.5%§! 감소합니다"
+ SGR_malus_1_med:0 "또한 £GFX_regime_stability_texticon §Y정권 안정도§!가 §R5%§! 감소합니다"
+ SGR_malus_1_big:0 "또한 £GFX_regime_stability_texticon §Y정권 안정도§!가 §R10%§! 감소합니다"
 
- SGR_conservative_influence_tt:0 "§W§g라이히§!의 §R보수파§!가 이점을 얻을 것입니다[getConMalus1].§!\n"
- SGR_conservative_influence_mid_tt:0 "§W§g라이히§!의 §R보수파§!가 §O중대한§! 이점을 얻을 것입니다 [getConMalus2].§!\n"
- SGR_conservative_influence_big_tt:0 "§W§g라이히§!의 §R보수파§!가 §x강력한§! 이점을 얻을 것입니다 [getConMalus3].§!\n"
+ SGR_conservative_influence_tt:0 "§W§g라이히§!의 §R보수파§!가 이점을 얻을 것입니다. [getConMalus1].§!\n"
+ SGR_conservative_influence_mid_tt:0 "§W§g라이히§!의 §R보수파§!가 §O중대한§! 이점을 얻을 것입니다. [getConMalus2].§!\n"
+ SGR_conservative_influence_big_tt:0 "§W§g라이히§!의 §R보수파§!가 §x강력한§! 이점을 얻을 것입니다. [getConMalus3].§!\n"
 
  SGR_statereich_speeches:0 "연설하기"
  SGR_statereich_speeches_desc:0 "많은 사람들이 학생들을 알베르트 슈페어의 지지의 중추라고 생각하지만, 그의 위에 걸려 있는 것은 다모클레스의 검인 나치당입니다. 하지만 카리스마와 정치적 수완으로 그는 더 유연한 멤버들을 달래기 위해 눈부신 모습을 보여줄 수 있습니다."
 
- SGR_statereich_promises_light:0 "이름뿐인 정치적 약속"
+ SGR_statereich_promises_light:0 "이름 뿐인 정치적 약속"
  SGR_statereich_promises_light_desc:0 "우리는 우리 정권에 대한 지지 기반을 잊을 수 없습니다; 학생, 지식인, 밝은 미래를 위해 싸우고 죽은 모든 사람들. 그들을 진정시킬 수만 있다면, 우리는 명목상 개혁을 약속할 것입니다."
 
  SGR_statereich_promises_huge:0 "방대한 정치적 약속"
@@ -39,58 +39,58 @@
  SGR_statereich_charge_treason_desc:0 "우리가 라이히를 통치할 수도 있지만, 그렇다고 해서 우리가 반대가 없는 것은 아닙니다. 그것과는 거리가 멀죠. 반동분자들은 처음부터 내내 발을 질질 끌며 우리 편에서 한결같은 눈엣가시입니다. 우리는 그들에게 누가 라이히에서 총을 쏘는지 그리고 그들이 그 프로그램으로 얻는 것이 최선인지, 아니면 다른 방법으로 얻는 것에 대해 상기시킬 필요가 있을 것입니다. 일부는 이를 과도하다고 볼 것이지만, 제국의 장기적인 이익을 위해서는 반드시 그렇게 해야 합니다.
 
  SGR_StateReich_open_pakt:0 "§Y팍트-관계 디시전을 표시§!"
- SGR_StateReich_open_pakt_desc:0 "아인히스팍트 재창조와 관련된 결정을 표시하려면 클릭하십시오."
+ SGR_StateReich_open_pakt_desc:0 "아인하이츠팍트 재창조와 관련된 결정을 표시하려면 클릭하십시오."
 
  SGR_StateReich_close_pakt:0 "§Y팍트-관계 디시전 숨기기§!"
- SGR_StateReich_close_pakt_desc:0 "아인히스팍트 재생성과 관련된 결정을 숨기려면 클릭하십시오."
+ SGR_StateReich_close_pakt_desc:0 "아인하이츠팍트 재생성과 관련된 결정을 숨기려면 클릭하십시오."
 
  SGR_French_Question:0 "와인과 투쟁의 땅에서"
  SGR_French_Question_desc:0 "그럼에도 불구하고 프랑스인들은 지난 몇 년 동안 부분적으로 라이히의 손에 의해 많은 고통을 받았습니다. 그들이 다시 아인히스팍트에 가입하도록 설득하는 것은 어려울 것이며 양보가 필요할 것입니다. 그러나 우리는 노력해야 합니다, 그렇지 않으면 와인의 땅은 불안정의 가마솥에 머물 것입니다."
 
- SGR_Brittany_War_Dec:0 "§R롤로 작전 개시§!"
+ SGR_Brittany_War_Dec:0 "§R상황 롤로 개시§!"
  SGR_Brittany_War_Dec_desc:0 "때가 왔습니다. 앞으로 나아가 프랑스와의 거래에서 우리의 역할을 다하여 마침내 서유럽에서 헤게모니를 재정립할 수 있도록 하십시오."
 
- SGR_FRA_Invasion_of_Brittany:0 "프랑스가 롤로 작전을 준비하다"
- SGR_FRA_Invasion_of_Brittany_desc:0 "프랑스군은 롤로 작전의 마지막 준비를 하고 있습니다. 곧 침공이 시작될 것입니다."
+ SGR_FRA_Invasion_of_Brittany:0 "프랑스가 상황 롤로를 준비하다"
+ SGR_FRA_Invasion_of_Brittany_desc:0 "프랑스군은 상황 롤로의 마지막 준비를 하고 있습니다. 곧 침공이 시작될 것입니다."
 
- SGR_Invasion_of_Brittany:0 "롤로 작전"
- SGR_Invasion_of_Brittany_desc:0 "롤로 작전은 프랑스의 아인히트파크에 재가입하는 대가로 브리타뉴에 대한 통제권을 되찾기 위한 프랑스와 독일의 작전입니다. 천여 년 전 바이킹처럼, 독일은 아무리 마지못해 주어지더라도 프랑스의 동의를 얻어 프랑스에 대한 영토를 다시 복원할 것입니다.."
+ SGR_Invasion_of_Brittany:0 "상황 롤로"
+ SGR_Invasion_of_Brittany_desc:0 "상황 롤로는 프랑스의 아인하이츠파크에 재가입하는 대가로 브리타뉴에 대한 통제권을 되찾기 위한 프랑스와 독일의 작전입니다. 천여 년 전 바이킹처럼, 독일은 아무리 마지못해 주어지더라도 프랑스의 동의를 얻어 프랑스에 대한 영토를 다시 복원할 것입니다.."
 
  SGR_France_German_reinforcement:0 "프랑스에 자원병 파견"
- SGR_France_German_reinforcement_desc:0 "Considering our role in Fall Rollo, we will send Wehrmacht volunteer units in the form of Franco-German Freikorps."
+ SGR_France_German_reinforcement_desc:0 "상황 롤로에서 우리가 맡고 있는 역할을 고려하여, 우리는 프랑스-독일 합동 의용대의 형태로 국방군 의용군을 파견할 것입니다."
 
  SGR_France_German_equipment:0 "프랑스에 장비 전달"
- SGR_France_German_equipment_desc:0 "The French army is hopelessly underequipped - we will send them arms to aid their effort in Fall Rollo."
+ SGR_France_German_equipment_desc:0 "프랑스 육군은 절망적일 정도로 장비가 부족합니다. 따라서 우리는 상황 롤로에서 그들의 수행을 돕기 위해 무기를 보낼 것입니다."
 
  SGR_France_German_manpower:0 "프랑스에 지원군 파견"
- SGR_France_German_manpower_desc:0 "With the Burgundian attack against France, the French government has lost several of its largest population centers. We will send volunteers to aid their reserves."
+ SGR_France_German_manpower_desc:0 "부르군트인들이 프랑스를 공격하고 있습니다. 프랑스 정부는 가장 인구가 많이 살던 중심지들을 잃었습니다. 우리는 그들의 예비군을 돕기 위해 의용군을 파견할 것입니다."
 
  SGR_Regime_Collapse_Impeding:0 "§x정권 붕괴 임박!§!"
- SGR_Regime_Collapse_Impeding_desc:0 "총통의 정권은 너무 많은 안정도를 잃었습니다. 우리는 신속히 행동하고 그것에 대한 안정도를 회복해야 합니다! 반동분자들은 이미 정부를 목표로 삼고 있습니다. 서두르십시오!"
+ SGR_Regime_Collapse_Impeding_desc:0 "총통 각하의 정권은 너무 많은 안정도를 잃었습니다. 우리는 신속히 행동하고 그것에 대한 안정도를 회복해야 합니다! 반동분자들은 이미 정부를 목표로 삼고 있습니다. 서두르십시오!"
 
- SGR_Repatriation_Debug:0 "Commence Repatriation - DEBUG"
- SGR_Repatriation_Debug_desc:0 "Placeholder"
+ SGR_Repatriation_Debug:0 "본국 송환을 시작하다 - 디버그"
+ SGR_Repatriation_Debug_desc:0 "추후 업데이트로 추가될 예정입니다."
 
  SGR_South_African_War:0 "남아프리카 전쟁"
- SGR_South_African_War_desc:0 "아프리카의 어두운 변두리에서 전쟁이 발발했고, 우리의 국가판무관부를 지원할 때가 왔습니다. 남아공과 그 지지자들에 대항하는 투쟁에서 솅크, 뮐러, 휘티어를 돕기 위해 우리는 그들의 대열을 강화하기 위해 필요한 군대를 파견할 것입니다. 우리의 고문관들은 1년도 안 되어 성공을 예측하고, 그 후 우리는 알베트 헤르조그 휘하에 충실한 보어 괴뢰국을 세울 것입니다."
+ SGR_South_African_War_desc:0 "아프리카의 어두운 변두리에서 전쟁이 발발했고, 우리의 국가판무관부를 지원할 때가 왔습니다. 남아공과 그 지지자들에 대항하는 투쟁에서 솅크, 뮐러, 휘티어를 돕기 위해 우리는 그들의 대열을 강화하기 위해 필요한 군대를 파견할 것입니다. 우리의 고문관들은 1년도 안 되어 성공을 예측하고, 그 후 우리는 알베르트 헤르조크 휘하에 충실한 보어 괴뢰국을 세울 것입니다."
 
  SGR_South_African_War_Withdraw:0 "남아프리카 전쟁 철수"
- SGR_South_African_War_Withdraw_desc:0 "남아프리카 전쟁의 상황이 라이히의 입장을 반드시 유리하게 만든 것은 아닙니다. 슈페어와 그의 참모들은 이 유혈 분쟁에서 아군을 철수시키고 운명의 길을 걷게 하는 것이 현명하다고 생각해 왔습니다."
+ SGR_South_African_War_Withdraw_desc:0 "남아프리카 전쟁의 상황이 라이히의 입장을 반드시 유리하게 만든 것은 아닙니다. 슈페어 각하와 그의 참모들은 이 유혈 분쟁에서 아군을 철수시키고 운명의 길을 걷게 하는 것이 현명하다고 생각해 왔습니다."
 
  SGR_Ukraine_Question:0 "우크라이나와 협상"
- SGR_Ukraine_Question_desc:0 "오스트란트만큼 불안정하지는 않지만, 우크라이나는 가능한 한 빨리 대처해야 합니다. 외교정책 개혁을 향한 추진의 일환으로 '유럽의 빵바구니'의 정치적 지위를 바꾸는 것이 급선무입니다.
+ SGR_Ukraine_Question_desc:0 "오스틀란트만큼 불안정하지는 않지만, 우크라이나는 가능한 한 빨리 대처해야 합니다. 외교정책 개혁을 향한 추진의 일환으로 '유럽의 빵바구니'의 정치적 지위를 바꾸는 것이 급선무입니다.
 
  SGR_Netherlands_Question:0 "네덜란드 문제"
- SGR_Netherlands_Question_desc:0 "네덜란드에 있는 우리 게르만계 동포들은 유럽의 항의의 외침에도 불구하고 충격적으로 자신들의 완전한 독립을 주장하면서 라이히의 안보로부터 스스로를 떼어냈습니다. 네덜란드를 다시 아인히스팍트로 재통합시켜야 할 것입니다."
+ SGR_Netherlands_Question_desc:0 "네덜란드에 있는 우리 게르만계 동포들은 유럽의 항의의 외침에도 불구하고 충격적으로 자신들의 완전한 독립을 주장하면서 라이히의 안보로부터 스스로를 떼어냈습니다. 네덜란드를 다시 아인하이츠팍트로 재통합시켜야 할 것입니다."
 
  SGR_Denmark_Question:0 "덴마크의 상태"
- SGR_Denmark_Question_desc:0 "북부 판무관부의 독일화는 지난 20년 동안 진행되어 왔습니다. 제국과 관련하여 이 나라의 미래뿐만 아니라, 우리는 또한 변화하는 정치 상황을 다루어야 하며, 그것을 다시 아인히스팍트로 통합하는 데 힘써야 합니다."
+ SGR_Denmark_Question_desc:0 "북부 판무관부의 독일화는 지난 20년 동안 진행되어 왔습니다. 제국과 관련하여 이 나라의 미래뿐만 아니라, 우리는 또한 변화하는 정치 상황을 다루어야 하며, 그것을 다시 아인하이츠팍트로 통합하는 데 힘써야 합니다."
 
- SGR_Bohemia_Question:0 "라이히의 왕관 뵈멘-메렌"
- SGR_Bohemia_Question_desc:0 "20년 이상, 독일국의 경제와 정치 상황은 보헤미아와 모라비아를 충성스런 판무관부로 확고히 측면에 서 있는 것을 보아왔습니다. 내전의 혼란스러운 격변은 유럽 전역의 변화의 바람을 불러왔고, 이제 그 현재 상태를 재고할 때가 왔습니다."
+ SGR_Bohemia_Question:0 "라이히의 왕관 뵈멘-매렌"
+ SGR_Bohemia_Question_desc:0 "20년 이상, 라이히의 경제와 정치 상황은 보헤미아와 모라비아를 충성스런 판무관부로 확고히 측면에 서 있는 것을 보아왔습니다. 내전의 혼란스러운 격변은 유럽 전역의 변화의 바람을 불러왔고, 이제 그 현재 상태를 재고할 때가 왔습니다."
 
  SGR_Issue_of_Slovakia:0 "슬로바키아 쟁점"
- SGR_Issue_of_Slovakia_desc:0 "뵈멘과 메렌의 영토를 병합한 라이히는 일석이조의 시선을 슬로바키아 영토로 돌립니다. 포위되어 있고, 그들을 뒷받침할 우호적인 국가들이 없으며, 팍트 강국으로 돌아오는 것이 간단합니다. 우리는 그들에게 간결한 최후통첩을 내릴 것입니다. 그들이 합류하든지, 아니면 우리가 그들의 가련한 군대를 박살내고 곧장 브라티슬라바로 진격하든지 할 것입니다."
+ SGR_Issue_of_Slovakia_desc:0 "뵈멘과 매렌의 영토를 병합한 라이히는 일석이조의 시선을 슬로바키아 영토로 돌립니다. 포위되어 있고, 그들을 뒷받침할 우호적인 국가들이 없으며, 팍트 강국으로 돌아오는 것이 간단합니다. 우리는 그들에게 간결한 최후통첩을 내릴 것입니다. 그들이 합류하든지, 아니면 우리가 그들의 가련한 군대를 박살내고 곧장 브라티슬라바로 진격하든지 할 것입니다."
  
  SGR_Moskowien_Question:0 "러시아의 심장에서"
  SGR_Moskowien_Question_desc:0 "동쪽에서 피와 눈의 평야가 우리의 관심을 기다리고 있습니다. 지그프리드 카셰의 실종은 모스코비엔의 정치 지형을 이동시켰는데, 제국의 영토가 살아남고 번영하려면 우리가 절대적인 통제를 유지해야 하는 상황입니다."
@@ -105,60 +105,60 @@
  SGR_Norwegian_Question_desc:0 "내전이 맹위를 떨치자, 요제프 테르보벤은 우리 북부 국가판무관부를 해체하고 수비대를 독일로 돌려보냄으로써 라이히를 충격에 빠뜨렸습니다. 현재로써는 노르웨이의 새로운 자칭 지도자는 우리의 전폭적인 관심을 받게 될 것이며, 우리는 이 나라의 미래에 어떻게 가장 잘 다가갈 수 있는가를 그려낼 것입니다."
 
  SGR_Ostland_Question:0 "모범 식민지"
- SGR_Ostland_Question_desc:0 "한때 힘과 충성심의 보루였던 제국의 이른바 '모범 식민지'가 내전과 혼란으로 황폐화됐습니다. 우리 영토의 안정을 기하기 위해 동쪽으로 눈을 옮겨 오스트란트 국가판무관부를 상대할 것입니다."
+ SGR_Ostland_Question_desc:0 "한때 힘과 충성심의 보루였던 라이히의 이른바 '모범 식민지'가 내전과 혼란으로 황폐화됐습니다. 우리 영토의 안정을 기하기 위해 동쪽으로 눈을 옮겨 오스틀란트 국가판무관부를 상대할 것입니다."
 
 ## GUI stuff ##
 
  #State of the Reich
 
- SGR_stab_bonus_small:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §G상승§! by §G2.5%§!\n§!"
- SGR_stab_bonus_med:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §G상승§! by §G5%§!\n§!"
- SGR_stab_bonus_big:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §G상승§! by §G10%§!\n§!"
- SGR_stab_bonus_20:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §G상승§! by §G20%§!\n§!"
+ SGR_stab_bonus_small:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §G2.5%§!만큼 §G상승§!할 것입니다\n§!"
+ SGR_stab_bonus_med:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §G5%§!만큼 §G상승§!할 것입니다\n§!"
+ SGR_stab_bonus_big:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §G10%§!만큼 §G상승§!할 것입니다\n§!"
+ SGR_stab_bonus_20:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §G20%§!만큼 §G상승§!할 것입니다\n§!"
 
- SGR_stab_malus_small:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §R감소§! by §R2.5%§!\n§!"
- SGR_stab_malus_med:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §R감소§! by §R5%§!\n§!"
- SGR_stab_malus_big:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §R감소§! by §R10%§!\n§!"
- SGR_stab_malus_15:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §R감소§! by §R15%§!\n§!"
- SGR_stab_malus_30:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §R감소§! by §R30%§!\n§!"
- SGR_stab_malus_huge:0 "§WOur £GFX_regime_stability_texticon §Y정권 안정도§! will §R감소§! by §x50%§!!\n§!"
+ SGR_stab_malus_small:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §R2.5%§!만큼 §R감소§!할 것입니다\n§!"
+ SGR_stab_malus_med:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §R5%§!만큼 §R감소§!할 것입니다\n§!"
+ SGR_stab_malus_big:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §R10%§!만큼 §R감소§!할 것입니다\n§!"
+ SGR_stab_malus_15:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §R15%§!만큼 §R감소§!할 것입니다\n§!"
+ SGR_stab_malus_30:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §R30%§!만큼 §R감소§!할 것입니다\n§!"
+ SGR_stab_malus_huge:0 "§W우리의 £GFX_regime_stability_texticon §Y정권 안정도§!는 §x50%§!만큼 §R감소§!할 것입니다!\n§!"
 
  SGR_regime_stab:0 "§W£GFX_regime_stability_texticon §Y정권 안정도§!는 §Y30%§!!§! 이상으로 돌아가야 합니다"
- SGR_collapse_averted:0 "§W정권의 몰락을 모면했습니다..§!"
+ SGR_collapse_averted:0 "§W정권의 몰락을 모면했습니다...§!"
  SGR_collapse_looming:0 "§x정권이 붕괴되다!§!"
 
- GER_SGR_propaganda_campaign_dynamic_modifier:0 "프로파간다 캠페인"
+ GER_SGR_propaganda_campaign_dynamic_modifier:0 "프로파간다 작전"
 
  SGR_state_propaganda:0 "§W국가 프로파간다§!"
- SGR_reformist_button:0 "§G개혁파 중점§!"
- SGR_reformist_underbutton:0 "§g개혁파 중점§!"
- SGR_conservative_button:0 "§R보수파 중점§!"
- SGR_conservative_underbutton:0 "§g보수파 중점§!"
- SGR_launch_campaign_button:0 "§Y캠페인 개시§!"
- SGR_launch_campaign_underbutton:0 "§g캠페인 개시§!"
+ SGR_reformist_button:0 "§G개혁파 중심§!"
+ SGR_reformist_underbutton:0 "§g개혁파 중심§!"
+ SGR_conservative_button:0 "§R보수파 중심§!"
+ SGR_conservative_underbutton:0 "§g보수파 중심§!"
+ SGR_launch_campaign_button:0 "§Y작전 개시§!"
+ SGR_launch_campaign_underbutton:0 "§g작전 개시§!"
 
  SGR_campaign_status:0 "[getSGRPropagandaCampaignStatus]"
- SGR_propaganda_in_progress:0 "§R캠페인이 진행중임§!"
- SGR_propaganda_not_ready:0 "§Y캠페인이 계획중임§!"
- SGR_propaganda_nothing:0 "§O캠페인 가능함§!"
+ SGR_propaganda_in_progress:0 "§R작전이 진행 중임§!"
+ SGR_propaganda_not_ready:0 "§Y작전이 계획 중임§!"
+ SGR_propaganda_nothing:0 "§O작전 가능함§!"
 
- SGR_launch_button_tt:0 "Current §WPropaganda Campaign§! effects:\n\n-Political Power gain modifier: [?SGRPropagandaPPDisplay|+%]\n-Weekly Stability gain: [?SGRPropagandaStabDisplay|+%]\n-[getSGRPropagandaOutlook]\n-[getSGRPropagandaRegime]"
- SGR_reformist_regime_prop_display:0 "§GReformist§! Regime Tick: [?SGRPropagandaReformistTickDisplay|+0]"
- SGR_conservative_regime_prop_display:0 "§RConservative§! Regime Tick: [?SGRPropagandaReformistTickDisplay|-0]"
- SGR_reformist_outlook_prop_display:0 "£social_outlook_texticon §TSocial Outlook§! §Gprogression§!: [?SGRReformistVarDisplay|+0]"
- SGR_conservative_outlook_prop_display:0 "£social_outlook_texticon §TSocial Outlook§! §Rregression§!: [?SGRConservativeVarDisplay|-0]"
+ SGR_launch_button_tt:0 "현재 §W프로파간다 작전§! 효과:\n\n-정치력 획득 모디파이어: [?SGRPropagandaPPDisplay|+%]\n-주 안정도 획득: [?SGRPropagandaStabDisplay|+%]\n-[getSGRPropagandaOutlook]\n-[getSGRPropagandaRegime]"
+ SGR_reformist_regime_prop_display:0 "§G개혁파§! 정권 틱: [?SGRPropagandaReformistTickDisplay|+0]"
+ SGR_conservative_regime_prop_display:0 "§R보수파§! 정권 틱: [?SGRPropagandaReformistTickDisplay|-0]"
+ SGR_reformist_outlook_prop_display:0 "£social_outlook_texticon §T사회적 관점§! §G진보§!: [?SGRReformistVarDisplay|+0]"
+ SGR_conservative_outlook_prop_display:0 "£social_outlook_texticon §T사회적 관점§! §R퇴보§!: [?SGRConservativeVarDisplay|-0]"
 
 
- SGR_launch_underbutton_tt:0 "§W프로파간다 캠페인§!을 개시하고 requires:\n\n-§R보수파§! 혹은 §G개혁파§! 둘중에 중점을 설정하십시오\n-£GFX_political_power_texticon §MPolitical Power§! Investment\n-£GFX_dollar_sign §GBudget§! Investment\n\nA Propaganda Campaign takes §Y4 months§!."
- SGR_reformist_button_tt:0 "The Campaign will be set to focus on §GReformist§! propaganda.\n\nFocusing on §Greformist§! propaganda will increase the §YRegime's§! tick into reformism, §Gprogress§! §TSocial Outlook§! and increase §YRegime stability§!."
- SGR_conservative_button_tt:0 "The Campaign will be set to focus on §RConservative§! propaganda.\n\nFocusing on §Rconservative§! propaganda will increase the §YRegime's§! tick into conservatism, §Rregress§! §TSocial Outlook§! and increase §YRegime stability§!."
- SGR_increase_pp_button_tt:0 "Increase £GFX_political_power_texticon §MPolitical Power§! by §Y20§!, granting the following prospective boni:\n\n-§G+0.5%§! Political Power growth\n-§G+1§! §TSocial Outlook§! Tick"
- SGR_decrease_pp_button_tt:0 "Decrease £GFX_political_power_texticon §MPolitical Power§! by §Y20§!, granting the following prospective boni:\n\n-§R-0.5%§! Political Power growth\n-§R-1§! §TSocial Outlook§! Tick"
- SGR_increase_budget_button_tt:0 "Increase £GFX_dollar_sign §GBudget§! by §Y2M$§!, granting the following prospective boni:\n\n-§G+0.05§! Weekly Stability growth\n-§G+1§! §YRegime Leaning§! Tick"
- SGR_decrease_budget_button_tt:0 "Decrease £GFX_dollar_sign §GBudget§! by §Y2M$§!, granting the following prospective boni:\n\n-§R-0.05§! Weekly Stability growth\n-§R-1§! §YRegime Leaning§! Tick"
+ SGR_launch_underbutton_tt:0 "§W프로파간다 작전§!을 개시하려면 다음이 필요합니다:\n\n-§R보수파§! 혹은 §G개혁파§! 둘 중에 중심 설정\n-£GFX_political_power_texticon §M정치력§! 투자\n-£GFX_dollar_sign §G예산§! 투자\n\n프로파간다 작전은 §Y4개월§!이 소모됩니다."
+ SGR_reformist_button_tt:0 "작전은 §G개혁파§! 프로파간다에 중점을 둘 것입니다.\n\n§G개혁파§! 프로파간다에 중점을 두는 것은 §Y정권의§! 틱을 개혁주의로 기울게 할 것입니다. 또한 §T사회적 관점§!을 §G진보적으로 바꾸고§! §Y정권 안정도§!를 높일 것입니다."
+ SGR_conservative_button_tt:0 "작전은 §R보수파§! 프로파간다에 중점을 둘 것입니다.\n\n§R보수파§! 프로파간다에 중점을 두는 것은 §Y정권의§! 틱을 보수주의로 기울게 할 것입니다. 또한 §T사회적 관점§!을 §R보수적으로 바꾸고§! §Y정권 안정도§!를 높일 것입니다."
+ SGR_increase_pp_button_tt:0 "£GFX_political_power_texticon §M정치력§!을 §Y20§! 증가시킵니다. 이로써 다음과 같은 미래의 보너스를 확보합니다:\n\n-§G+0.5%§! 정치력 획득\n-§G+1§! §T사회적 관점§! 틱"
+ SGR_decrease_pp_button_tt:0 "£GFX_political_power_texticon §M정치력§!을 §Y20§! 감소시킵니다. 이로써 다음과 같은 미래의 보너스를 확보합니다:\n\n-§R-0.5%§! 정치력 획득\n-§R-1§! §T사회적 관점§! 틱"
+ SGR_increase_budget_button_tt:0 "£GFX_dollar_sign §G예산§!을 §Y2백만 달러§!만큼 증가시킵니다. 이로써 다음과 같은 미래의 보너스를 확보합니다:\n\n-§G+0.05§! 주 안정도 획득\n-§G+1§! §Y정권 기울기§! 틱"
+ SGR_decrease_budget_button_tt:0 "£GFX_dollar_sign §G예산§!을 §Y2백만 달러§!만큼 감소시킵니다. 이로써 다음과 같은 미래의 보너스를 확보합니다:\n\n-§R-0.05§! 주 안정도 획득\n-§R-1§! §Y정권 기울기§! 틱"
 
- SGR_ppinvest_text:0 "£GFX_political_power_texticon §MPOLITICAL POWER§!: [?SGRPPInvestment|Y0]"
- SGR_moneyinvest_text:0 "£GFX_dollar_sign §GBUDGET§!: [?SGRUSDInvestment|Y0]§YM$§!"
+ SGR_ppinvest_text:0 "£GFX_political_power_texticon §M정치력§!: [?SGRPPInvestment|Y0]"
+ SGR_moneyinvest_text:0 "£GFX_dollar_sign §G예산§!: [?SGRUSDInvestment|Y0]§Y백만 달러§!"
 
 
 SGR_somewhat_reformist:0 "§G약간 개혁파§!"
@@ -169,17 +169,17 @@ SGR_average_conservative:0 "§R보수파§!"
 SGR_strongly_conservative:0 "§R강경 보수파§!"
 SGR_unmoving_ticker:0 "§Yunmoving§!"
 
-SGR_russia_unifier_blank:0 "Russia: §YAssessment pending...§!"
+SGR_russia_unifier_blank:0 "러시아: §Y평가를 기다리는 중...§!"
 SGR_russia_unifier_fill:0 "[RUS_total_unifier.GetFlag][RUS_total_unifier.GetName]: [getSGRRussianInfluence]"
 
-SGR_russia_inf_strcon:0 "§xALARMING§! militarist outcry"
-SGR_russia_inf_con:0 "§ONOTICEABLE§! militarist outcry"
-SGR_russia_inf_ref:0 "§MMILD§! academic interest"
-SGR_russia_inf_strref:0 "§GSIGNIFICANT§! academic interest"
+SGR_russia_inf_strcon:0 "§x두려워하는§! 군국주의자들의 격렬한 반응"
+SGR_russia_inf_con:0 "§O뚜렷한§! 군국주의자들의 격렬한 반응"
+SGR_russia_inf_ref:0 "§M가벼운§! 학술적인 관심"
+SGR_russia_inf_strref:0 "§G상당한§! 학술적인 관심"
 
 SGR_foreigninf_nonexistant:0 "§W존재하지 않음§!"
 SGR_foreigninf_weak:0 "§Y약함§!"
-SGR_foreigninf_middling:0 "§O보통의§!"
+SGR_foreigninf_middling:0 "§O보통임§!"
 SGR_foreigninf_significant:0 "§R중요함§!"
 
 SGR_Cons_Inf_weak:0 "§Y약함§!"
@@ -196,11 +196,11 @@ SGR_Leaning_neutral:0 "§Y중도!"
 SGR_Leaning_ref:0 "§M개혁파§!"
 SGR_Leaning_str_ref:0 "§G초강경 개혁파§!"
 
-SGR_outlook_progressing:0 "§G진보중인§!"
+SGR_outlook_progressing:0 "§G진보 중인§!"
 SGR_outlook_regressing:0 "§R퇴행하는§!"
 SGR_outlook_stagnant:0 "§Y정체된§!"
-SGR_outlook_upperlimit:0 "§Y150§!"
-SGR_outlook_lowerlimit:0 "§Y-150§!"
+SGR_outlook_upperlimit:0 "§Y250§!"
+SGR_outlook_lowerlimit:0 "§Y-250§!"
 
 SGR_party_support_none:0 "§x적대적§!"
 SGR_party_support_weak:0 "§R비협력적§!"
@@ -222,13 +222,13 @@ SGR_fashtrend_large:0 "§R초강경 보수파§!"
 #Propaganda events
 
 
- speerpropaganda.1.t:0 "Letters From The Front"
- speerpropaganda.1.desc:0 "Wilhelm was giddy with excitement as he entered the museum. A museum! His first trip outside the city without his parents! His class had won a visit to the newly-opened "Bürgerkriegsmuseum" in Hamburg and now twenty-five boys between nine and ten years old, along with two teachers, had left Elmshorn for the great metropolis.\n\nEveryone was in awe at what they saw. Each room had its theme: "urban warfare" with reconstructed trenches; "politics" with an analysis of what caused the civil war; "espionage" with the tactics used by the contenders to gain the upper hand. Finally, the last room's theme was "letters from the front" with hundreds of missives sent by soldiers or militiamen to their dear ones during the war.\n\nWilhelm looked at one of the cases, and started reading: "Dear Kriemhild, I miss you so much. You have no idea how much I would like to return to you home, to return to you, but I can't.\nHeydrich has sent his wolves. Do you remember the small restaurant where we dined during last year's holiday? They hanged half of the village outside there, the rest are digging trenches for the SS. I won't let this happen to you, I swear it upon my life.\nThey'll probably attack tomorrow, and I'll be ready. I keep your photo next to my heart, if I die, I'll die with your name on my lips. I love you."\nA small plaque said "Eberhart Jenk, killed in action"\nWilhelm trembled at the words he had just read, and asked his teacher: "Teacher, who was Heydrich?"\nThe teacher's expression immediately turned sour, but he looked calmly at the boy and answered: "Heydrich was a man who wanted to see the world burn, and he was committed to see his desires realized. Tell me Wilhelm, do you want it too? Do you want to see the world burn?"\n"No!" said the child, "I want a happy world, I want to go with mama and papa to have fun!"\nThe teacher's face turned jovial again, and he chuckled, patting the boy's head: "Come now, it's late" then he raised his voice: "Class! Time to go, I hope the visit was instructive!"
- speerpropaganda.1.a:0 "Yes teacher!"
+ speerpropaganda.1.t:0 "전선에서 온 편지"
+ speerpropaganda.1.desc:0 "빌헬름은 박물관에 들어가자 흥분으로 온 몸이 들떠있었다. 박물관이라니! 부모님 없이 도시 바깥으로 가는 첫 여행이라니! 빌헬름의 학급은 함부르크에 새로이 개장한 "내전박물관"을 방문할 기회를 얻었고, 그래서 지금 9살에서 10살 사이의 25명의 소년들이 2명의 선생님과 함께 엠스호른을 떠나 이 위대한 대도시로 떠나 온 것이었다.\n\n모두들 자신이 본 것에 대해 경외심을 가지고 있었다. 각 전시실은 테마를 가지고 있었다. 복원된 참호가 전시되던 "시가전", 무엇이 내전을 야기했는지에 대한 분석과 관련된 "정치", 다른 경쟁자들이 우위를 가지기 위해 사용했던 전술들을 설명하던 "스파이"가 그것들이었다. 마지막 방의 테마는 "전선에서 온 편지"였다. 전쟁 때 병사들이나 민병대원들이 사랑하는 사람에게 보낸 수백 개의 편지들이 전시되어 있었다.\n\n빌헬름은 전시대들 중 하나를 바라보며 편지를 읽기 시작했다. "크림힐트에게, 정말 너가 그리워. 내가 집으로, 너에게 얼마나 돌아가고 싶은지 너는 모를거야. 하지만 그럴 수는 없어.\n하이드리히가 휘하에 있는 잔인한 자들을 파견했거든. 우리가 작년 휴일에 저녁식사를 했던 작은 레스토랑 기억나? 그 자들이 레스토랑 바깥에다가 마을 주민 절반의 목을 매달아놓고 나머지는 SS를 위해 참호를 파도록 시키고 있대. 너에게도 이런 일이 일어나게 두고 싶지 않아. 평생토록 이 맹세를 지키겠어.\n아마도 내일 우릴 공격해올지도 몰라. 하지만 나는 준비가 되어 있어. 내 심장 바로 옆에다가 너의 사진을 둘게. 내가 죽으면, 나는 입술로 너의 이름을 부르며 죽을거야. 사랑해."\n작은 명판에는 이렇게 써있었다. "에베르하르트 옝크, 교전 중 사망"\n빌헬름은 그가 읽던 문장을 보며 몸을 가볍게 떨었다. 그러고는 선생님께 여쭤보았다. "선생님, 하이드리히가 누구에요?"\n선생님의 표정은 갑자기 굳어졌다. 하지만 그는 조용히 빌헬름을 바라보며 대답했다. "하이드리히는 세계가 불타는 것을 보길 원했던 자란다. 그래서 그는 자신의 소망이 이뤄지길 보기 위해 일을 저지른거지. 빌헬름, 말해보렴. 너도 그런 걸 원하니? 너도 세계가 불타는 것을 보고 싶니?"\n"아뇨!" 빌헬름이 대답했다. "저는 세상이 행복했으면 좋겠어요. 엄마 아빠랑 재밌게 놀고 싶어요!"\n선생님의 표정은 다시 아주 쾌활해졌다. 그는 빌헬름의 머리를 쓰다듬으며 웃음지었다. "이제 가자, 늦었어." 그리고 선생님은 목소리를 키웠다. "여러분! 가야 할 시간이에요. 박물관 관람이 유익했길 바래요!""
+ speerpropaganda.1.a:0 "네! 선생님!"
 
- speerpropaganda.2.t:0 "A Show Trial, Literally"
- speerpropaganda.2.desc:0 "The courtroom was filled to the brim. Journalists, cameramen, policemen and common folk filled the rows left for the public, and it was entirely justified: Herbert Otto Gille, head of security in the traitor SS faction during the Bürgerkrieg, and directly responsible for hundreds, if not thousands of summary executions, had been captured less than a week ago while trying to pass the border between Elsass and the Ordenstaat.\n\nThe doors opened, and the crowd roared as Gille was brought to his desk. Some, most likely relatives to some of his victims, tried to breach security to get to him, but the police kept them away. When order returned inside the large room, the trial begun. Requested if he had any declaration, the defendant stood: "I do not recognise this court! Each and everyone of you holds no authority over me!" screams erupted, but he yelled even louder, "Don't you see this? This disorder, this decadence? Heydrich wanted to bring peace to Germany! A new order, a perfect order! He would have excised corruption like one removes a cancer! Look at you now, you are nothing but a gangrene on the perfect body of Germany!"\n\nA laugh interrupted his tirade. Amidst his fits, the prosecutor started a recording.\n"Thank you for your donation to our cause" came Gille's perfectly audible voice, "my wife will surely appreciate this fine necklace, and I can indeed make use of a new car, but how about we talk more important business?"\n"Herr Gille" the prosecutor chimed happily, ending the recording, "if we are a cancer on Germany, it seems you are far from being healthy..."\n\nA few seconds passed, then someone from the crowd started laughing, then another joined, then another, until the entire room was falling apart, the laughs audible from the road outside the courtroom. That day, newspapers and television news all featured the livid SS as he desperately tried to scream at the crowd to shut up, only to be drowned by the laughing"
- speerpropaganda.2.a:0 "The SS disappear in shame, defeated by a laugh."
+ speerpropaganda.2.t:0 "말 그대로, 여론조작용 재판"
+ speerpropaganda.2.desc:0 "법정은 꽉 차있었다. 기자, 카메라맨, 경찰관, 그리고 일반인들이 대중들을 위해 남겨진 줄을 꽉 채웠다. 그럴만한 이유가 있었다. 내전 동안 SS 반역자 파벌에 가담했던 방위장관으로, 수백 건, 많게는 수천 건의 즉결 처형과 직접적으로 연관이 되어있는 헤르베르트 오토 길레가 엘자스와 기사단국 사이의 국경을 지나려 시도하다가 1주 전 체포되었기 때문이다.\n\n문이 열렸다. 길레가 자신의 자리로 옮겨지자 대중들은 소리를 질렀다. 희생자들의 친척으로 보이는 일부는 경찰관들을 뿌리치고 그에게 다가가려 했으나, 경찰들이 빠르게 그들을 저지했다. 커다란 법정 안에 질서가 돌아오자 재판이 시작되었다. 할 말이라도 있냐고 물음을 받자, 피고가 일어섰다. "나는 이 재판을 인정할 수 없소! 당신들 모두는 나에 대해 그 어떤 권위도 가지고 있지 않소!" 분통의 소리가 터져나왔다. 하지만 그는 더욱 크게 소리질렀다. "당신들은 이 꼬라지가 보이지 않소? 이 무질서, 이 타락이? 하이드리히께서는 독일에 평화를 가져오길 원했소! 새로운 질서, 완벽한 질서를! 그분께서는 우리가 암세포를 지워버리듯 부패를 잘라내셨을 것이오! 지금 당신들 꼬라지를 보시오. 당신들은 독일이라는 완벽한 몸체를 썩히고 있을 뿐이오!"\n\n그의 장광설에 웃음이 끼어들었다. 길레의 모습을 향해 검사가 녹화를 시작했다.\n"우리의 대의에 기여해주셔서 정말 감사합니다." 길레가 완벽히 들을 수 있는 목소리로 말했다. "제 아내는 이 아름다운 목걸이를 보고 분명 감사할 것이고, 저도 새 차 한 대를 살 수 있을 것입니다. 근데 더 중요한 사업에 대해서 이야기하는 것은 어떨까요?"\n"길레 씨." 검사가 행복한 듯이 목소리를 내며 녹화를 중단했다. "우리가 독일의 암세포라면, 당신은 건강하지 못한 것 같습니다만..."\n\n수 초 동안 침묵이 흘렀지만, 군중들 사이에 몇몇이 웃기 시작했고, 더 많은 사람이, 더 더 많은 사람이 웃기 시작했다. 이제는 법정 전체가 뒹굴면서 웃음을 터뜨렸다. 웃음소리는 법정 바깥의 도로에서도 들을 수 있었다. 그 날, 모든 신문과 텔레비전 뉴스는 격노한 친위대원을 조명했다. 그가 절망적으로 대중들에게 조용히 하라며 소리를 질러댔지만, 결국에는 웃음소리에 묻혀버렸다고."
+ speerpropaganda.2.a:0 "SS는 웃음소리에 패배한 채 부끄러워하며 사라졌다고 전해진다."
 
  speerpropaganda.3.t:0 "A New Future Of German Culinary Arts"
  speerpropaganda.3.desc:0 "It's hard to make out at first as the screen cleared up, but within the monochrome kitchen was a traditional German woman. "My, I need to prepare food for the family!" She exclaimed. "I must prepare the tools first, however. First things first," she began, reaching in for a knife. After doing so, the camera panned to showcase some fruit. "I need to cut the fruit..." She muttered, setting the knife down and beginning to dig into the food. After a few seconds, she let out an annoyed sigh and pulled the knife out, it showing barely any progress. "Darn it. Well, I have to check on the plates and see if they're clean."\n\nReaching down, she grabbed two plates in both hands and turned around to show them to the camera. Surprise and disgust mixed in her face as she looked at them. "Cracks!" She said, groaning as she stared at the damaged plates. "And these were perfectly fine just yesterday!\n\nWhat sounded like a door opening was heard from the side, and a deeper, male voice interjected. "Honey!" He happily exclaimed, and she jolted a little, setting the plates down and walking over as the camera panned to her husband, who was carrying a large box. "I noticed the quality of our silverware and decided to take a look into the nearby store to see what they were selling and, oh, you cannot believe it!"\n\n"Can I?" The wife asked, motioning for the box to be settled down on the kitchen desk. "What makes this one stand out so much?" The husband chuckled and pointed towards a small label on the back. The camera zoomed in - it said 'MADE WITH ALL-GERMAN HANDS'. She raised her eyebrows. "Wow! You mean to tell me that this was all made by German workers?" He nodded. "In a German factory?" He nodded again. "Paid a fair, living wage, by German employers?" One last time, he nodded, and she smiled, turning towards the camera and crossing her arms."

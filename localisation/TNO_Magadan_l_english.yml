@@ -45,31 +45,24 @@
  ##############################################################
  
  ### Country Names ###
- MAG_fascism:0 "마가단"
- MAG_fascism_DEF:0 "마가단 자유국"
- MAG_national_socialism:0 "마가단"
- MAG_national_socialism_DEF:0 "마가단 자유국"
  MAG_social_liberal:0 "마가단"
  MAG_social_liberal_DEF:0 "마가단"
+ MAG_social_liberal_ADJ:0 "마가단"
  MAG_social_conservative:0 "마가단"
  MAG_social_conservative_DEF:0 "마가단"
+ MAG_social_conservative_ADJ:0 "마가단"
  MAG_authoritarian_democrat:0 "마가단"
  MAG_authoritarian_democrat_DEF:0 "마가단"
+ MAG_authoritarian_democrat_ADJ:0 "마가단"
  MAG_despotism:0 "마가단"
  MAG_despotism_DEF:0 "마가단"
- MAG_communist:0 "마가단"
- MAG_communist_DEF:0 "마가단"
- MAG_socialist:0 "마가단"
- MAG_socialist_DEF:0 "마가단"
- MAG_radical_socialist:0 "마가단"
- MAG_radical_socialist_DEF:0 "마가단"
- MAG_fascism_ADJ:0 "마가단"
- MAG_national_socialism_ADJ:0 "마가단"
- MAG_social_liberal_ADJ:0 "마가단"
- MAG_social_conservative_ADJ:0 "마가단"
- MAG_authoritarian_democrat_ADJ:0 "마가단"
  MAG_despotism_ADJ:0 "마가단"
- MAG_communist_ADJ:0 "마가단"
+ MAG_fascism:0 "마가단"
+ MAG_fascism_DEF:0 "마가단 자유국"
+ MAG_fascism_ADJ:0 "마가단"
+ MAG_national_socialism:0 "마가단"
+ MAG_national_socialism_DEF:0 "마가단 자유국"
+ MAG_national_socialism_ADJ:0 "마가단"
 
  ### Parties ###
  MAG_communist_party:0 "VKP(b)"
@@ -326,7 +319,7 @@
  
  #OG Cabinet/OSS/Intelligence contacts
  MAG_WA_OSS_ministers_effigy:0 "§BIntelligence Contacts§!"
- MAG_WA_OSS_ministers_effigy_desc:0 "Governing is hard, especially when the people you are governing hate your guts. Thankfully, having the right contacts can make that job just a little bit easier. President WerBell has always had contacts in the CIA and old friends from his days working for the Office of Strategic Services, it's time to put them to good use, and find anyone interested in coming to Russia."
+ AG_WA_OSS_ministers_effigy_desc:0 "Governing is hard, especially when the people you are governing hate your guts. Thankfully, having the right contacts can make that job just a little bit easier.\n\nPresident WerBell has always had contacts in the CIA and old friends from his days working for the Office of Strategic Services, it's time to put them to good use, and find anyone interested in coming to Russia."
  MAG_WA_OSS_Boris_Pash:0 "Appoint Boris Pash"
  MAG_WA_OSS_Serge_Obolensky:0 "Appoint Serge Obolensky"
  MAG_WA_OSS_Chiyoki_Ikeda:0 "Appoint Chiyoki Ikeda"
@@ -335,7 +328,7 @@
 
  #Mercenary contacts
  MAG_WA_mercenary_ministers_effigy:0 "§OMercenary Connections§!"
- MAG_WA_mercenary_ministers_effigy_desc:0 "Mercenaries are the most important thing to keeping us in power currently, and we can never have enough. Loyal to money more than any government, they provide the perfect function to keeping the peace in this Russian wasteland. With some good weapons, they can fight communist or fascist militias while a more elite army can be organized. This nation wouldn't even exist without mercenaries in the first place, so let's keep them coming!"
+ MAG_WA_mercenary_ministers_effigy_desc:0 "Mercenaries are the most important thing to keeping us in power currently, and we can never have enough. Loyal to money more than any government, they provide the perfect function to keeping the peace in this Russian wasteland.\n\nWith some good weapons, they can fight communist or fascist militias while a more elite army can be organized. This nation wouldn't even exist without mercenaries in the first place, so let's keep them coming!"
  MAG_WA_mercenary_Gerry_Patrick_Hemming:0 "Appoint Gerry Patrick Hemming"
  MAG_WA_mercenary_John_Peters:0 "Appoint John Peters"
  MAG_WA_mercenary_Roger_Faulques:0 "Appoint Roger Faulques"
@@ -345,7 +338,7 @@
 
  #Collaborators
  MAG_WA_collaborator_ministers_effigy:0 "§YRussian Collaborators§!"
- MAG_WA_collaborator_ministers_effigy_desc:0 "We may have vanquished the Harbin Three and the NKVD, but that doesn't mean they have to be gone for good. Partisans and insurgents continue to run rampant in our country, and the only way to end it is with more manpower. If we have a bunch of willing, capable operators lying around, we might as well use them. The more moderate types will be very useful collaborators to administrate the territories of the Republic and deal with any insurgents threatening our Republic."
+ MAG_WA_collaborator_ministers_effigy_desc:0 "We may have vanquished the Harbin Three and the NKVD, but that doesn't mean they have to be gone for good. Partisans and insurgents continue to run rampant in our country, and the only way to end it is with more manpower.\n\nIf we have a bunch of willing, capable operators lying around, we might as well use them. The more moderate types will be very useful collaborators to administrate the territories of the Republic and deal with any insurgents threatening our Republic."
  MAG_WA_collaborator_Nikolay_Kossov:0 "Appoint Nikolay Kossov"
  MAG_WA_collaborator_Georgy_Dzhakelli:0 "Appoint Georgy Dzhakelli"
  MAG_WA_collaborator_Alexander_Pavlov:0 "Appoint Alexander Pavlov"
@@ -357,7 +350,7 @@
 
  #Locals
  MAG_WA_local_ministers_effigy:0 "§GLocal Politicians§!"
- MAG_WA_local_ministers_effigy_desc:0 "The most useful people in our government are the Russians, they are the ones keeping everyone else calm enough to listen to us. If we want to effectively control this country, we need more local politicians to ease tensions with the natives. Local leaders will also have a much easier time administering, so it's best to leave that work for them. Finding loyal ones shouldn't be too hard, and anything is worth not having the entire country in open revolt."
+ MAG_WA_local_ministers_effigy_desc:0 "The most useful people in our government are the Russians, they are the ones keeping everyone else calm enough to listen to us. If we want to effectively control this country, we need more local politicians to ease tensions with the natives.\n\nLocal leaders will also have a much easier time administering, so it's best to leave that work for them. Finding loyal ones shouldn't be too hard, and anything is worth not having the entire country in open revolt."
  MAG_WA_local_Valentin_Abramov:0 "Appoint Valentin Abramov"
  MAG_WA_local_Igor_Kovalchuk_Koval:0 "Appoint Igor Kovalchuk-Koval"
  MAG_WA_local_Anatoly_Sobchak:0 "Appoint Anatoly Sobchak"
@@ -366,7 +359,7 @@
 
  #Hotline America
  MAG_WA_USA_market_category:0 "Our Relationship with Uncle Sam"
- MAG_WA_USA_market_category_desc:0 "Mitchell WerBell III has a very close relationship with the United States, with several friends and contacts embedded within the Central Intelligence Agency. Through these valuable connections, WerBell is able to pipe a wide variety of weapons and assorted military hardware into his young republic, and the types of equipment available are far better than the usual hand-me-downs that Uncle Sam pawns off to his allies.\n\nAmerican support for our regime is currently [ROOT.GetMAG_USA_support]."
+ MAG_WA_USA_market_category_desc:0 "Mitchell WerBell III has a very close relationship with the United States, with several friends and contacts embedded within the Central Intelligence Agency.\n\nThrough these valuable connections, WerBell is able to pipe a wide variety of weapons and assorted military hardware into his young republic, and the types of equipment available are far better than the usual hand-me-downs that Uncle Sam pawns off to his allies.\n\nAmerican support for our regime is currently [ROOT.GetMAG_USA_support]."
 
  MAG_WA_USA_influence_ticker:0 "§YWaning American Support§!"
  MAG_WA_USA_improve_relations:0 "Improve American Relations"
@@ -381,39 +374,75 @@
  
  ## Merc Contracts Mechanic ##
  MAG_WA_mercenary_contracts_category:0 "Mercenary Contracts"
- MAG_WA_mercenary_contracts_category_desc:0 "\n\n\n\n\n\nTo most nations, war is a terrible tragedy that must be avoided at all costs. To us, however, war is a lucrative opportunity to make a killing in more ways than one. Our main export is soldiers without a home or a cause of their own, and there are plenty of flashpoints across the globe that they could lend their particular talents to- for a price, of course.[GetMAG_WA_Yemeni_Civil_War][GetMAG_WA_Saudi_War][GetMAG_WA_Egyptian_Civil_War][GetMAG_WA_Sudanese_Civil_War][GetMAG_WA_South_Sudanese_Civil_War][GetMAG_WA_Iraqi_Civil_War][GetMAG_WA_Omani_Civil_War][GetMAG_WA_Iranian_Civil_War]"
+ MAG_WA_mercenary_contracts_category_desc:0 "\n\n\n\n\n\nTo most nations, war is a terrible tragedy that must be avoided at all costs. To us, however, war is a lucrative opportunity to make a killing in more ways than one.\n\nOur main export is soldiers without a home or a cause of their own, and there are plenty of flashpoints across the globe that they could lend their particular talents to - for a price, of course.[GetMAG_WA_Yemeni_Civil_War][GetMAG_WA_Saudi_War][GetMAG_WA_Egyptian_Civil_War][GetMAG_WA_Sudanese_Civil_War][GetMAG_WA_South_Sudanese_Civil_War][GetMAG_WA_Iraqi_Civil_War][GetMAG_WA_Omani_Civil_War][GetMAG_WA_Iranian_Civil_War][GetMAG_WA_Iberian_Wars]"
+ 
+ MAG_yemeni_civil_war_effigy:0 "§YTHE YEMENI CIVIL WAR§!"
  MAG_WA_support_yemeni_republicans:0 "Offer contract to the §OYemen Arab Republic§!"
  MAG_WA_support_yemeni_monarchists:0 "Offer contract to the §REmirate of Yemen§!"
+
+ MAG_yemeni_saudi_war_effigy:0 "§fTHE SAUDI-YEMENI WAR§!"
  MAG_WA_support_yemen:0 "Offer contract to the §OYemen Arab Democratic Republic§!"
  MAG_WA_support_saudis:0 "Offer contract to the §GKingdom of Saudi Arabia§!"
+
+ MAG_egyptian_civil_war_effigy:0 "§VTHE EGYPTIAN CIVIL WAR§!"
  MAG_WA_support_egyptian_nasserists:0 "Offer contract to the §eEgyptian Revolutionary Command Council§!"
  MAG_WA_support_egyptian_monarchists:0 "Offer contract to the §GKingdom of Egypt§!"
+ 
+ MAG_sudanese_civil_war_effigy:0 "§fTHE SUDANESE CIVIL WAR§!"
  MAG_WA_support_sudanese_baathists:0 "Offer contract to the §rBa'athist State of Sudan§!"
  MAG_WA_support_sudanese_republicans:0 "Offer contract to the §MRepublic of Sudan§!"
  MAG_WA_support_sudanese_junta:0 "Offer contract to the §gSudan Defense Force§!"
+
+ MAG_south_sudanese_civil_war_effigy:0 "§jTHE SOUTH SUDANESE CIVIL WAR§!"
  MAG_WA_support_azania:0 "Offer contract to the §rAzania Liberation Front§!"
  MAG_WA_support_anyanya:0 "Offer contract to §PAnyanya§!"
+
+ MAG_iraqi_civil_war_effigy:0 "§kTHE IRAQI CIVIL WAR§!"
  MAG_WA_support_iraqi_baathists:0 "Offer contract to the §GArab Republic of Iraq§!"
  MAG_WA_support_iraqi_saddamists:0 "Offer contract to the §LIraqi Republic§!"
  MAG_WA_support_iraqi_italians:0 "Offer contract to the §gRepublic of Iraq§!"
  MAG_WA_support_iraqi_islamists:0 "Offer contract to the §TIslamic Republic of Iraq§!"
+ MAG_WA_support_kurdistan:0 "Offer contract to the §h[KUR.GetName]§!"
+
+ MAG_omani_civil_war_effigy:0 "§JTHE OMANI CIVIL WAR§!"
  MAG_WA_support_omani_baathists:0 "Offer contract to the §eDhofar Rebellion§!"
  MAG_WA_support_omani_islamists:0 "Offer contract to the §LImamate of Oman§!"
  MAG_WA_support_omani_sultanate:0 "Offer contract to the §MSultanate of Oman§!"
+
+ MAG_iranian_civil_war_effigy:0 "§KTHE IRANIAN CIVIL WAR§!"
  MAG_WA_support_iranian_communists:0 "Offer contract to the §RSocialist Federation of Iran§!"
  MAG_WA_support_iranian_monarchists:0 "Offer contract to the §gImperial State of Iran§!"
  MAG_WA_support_iranian_liberals:0 "Offer contract to the §YDemocratic Republic of Iran§!"
  MAG_WA_support_iranian_islamists:0 "Offer contract to the §GIslamic Republic of Iran§!"
  MAG_WA_support_iranian_constitutionalists:0 "Offer contract to the §MShahdom of Iran§!"
+
+ MAG_iberian_wars_effigy:0 "§OTHE IBERIAN WARS§!"
+ MAG_WA_support_union_remnants:0 "Offer contract to the §f[IBR.GetName]§!"
+ MAG_WA_support_spanish_republicans:0 "Offer contract to the §l[SPR.GetName]§!"
+ MAG_WA_support_spanish_falangists:0 "Offer contract to the §r[SPS.GetName]§!"
+ MAG_WA_support_catalan_republicans:0 "Offer contract to the §Y[CRL.GetName]§!"
+ MAG_WA_support_cnt:0 "Offer contract to the §R[CNT.GetName]§!"
+ MAG_WA_support_basques:0 "Offer contract to the §d[BSQ.GetName]§!"
+ MAG_WA_support_gns:0 "Offer contract to the §K[GNS.GetName]§!"
+ MAG_WA_support_portuguese_salazarists:0 "Offer contract to the §n[POR.GetName]§!"
+ MAG_WA_support_portuguese_communists:0 "Offer contract to the §V[PPR.GetName]§!"
+ MAG_WA_support_portuguese_republicans:0 "Offer contract to the §y[RPP.GetName]§!"
+ MAG_WA_support_galicia:0 "Offer contract to the §D[GAL.GetName]§!"
+ MAG_WA_support_andalusia:0 "Offer contract to the §G[ADL.GetName]§!"
+ MAG_WA_support_morocco:0 "Offer contract to the §o[MOR.GetName]§!"
+ MAG_WA_support_the_rif_republic:0 "Offer contract to the §j[RIF.GetName]§!"
+ MAG_WA_support_trarza:0 "Offer contract to the §k[TRZ.GetName]§!"
+
  MAG_WA_no_war:0 ""
- MAG_WA_Yemen_war:0 "\n\nYemeni Civil War:\n - We are [GetMAG_WA_Yemen_Contract]."
- MAG_WA_Saudi_war:0 "\n\nYemeni-Saudi War:\n - We are [GetMAG_WA_Saudi_Contract]."
- MAG_WA_Egypt_war:0 "\n\nEgyptian Civil War:\n - We are [GetMAG_WA_Egypt_Contract]."
- MAG_WA_Sudan_war:0 "\n\nSudanese Civil War:\n - We are [GetMAG_WA_Sudan_Contract]."
- MAG_WA_South_Sudan_war:0 "\n\nSouth Sudanese Civil War:\n - We are [GetMAG_WA_South_Sudan_Contract]."
- MAG_WA_Iraq_war:0 "\n\nIraqi Civil War:\n - We are [GetMAG_WA_Iraq_Contract]."
- MAG_WA_Oman_war:0 "\n\nOmani Civil War:\n - We are [GetMAG_WA_Oman_Contract]."
- MAG_WA_Iran_war:0 "\n\nIranian Civil War:\n - We are [GetMAG_WA_Iran_Contract]."
+ MAG_WA_Yemen_war:0 "\n\n§YYemeni Civil War§!:\n - We are [GetMAG_WA_Yemen_Contract]."
+ MAG_WA_Saudi_war:0 "\n\n§fSaudi-Yemeni War§!:\n - We are [GetMAG_WA_Saudi_Contract]."
+ MAG_WA_Egypt_war:0 "\n\n§VEgyptian Civil War§!:\n - We are [GetMAG_WA_Egypt_Contract]."
+ MAG_WA_Sudan_war:0 "\n\n§fSudanese Civil War§!:\n - We are [GetMAG_WA_Sudan_Contract]."
+ MAG_WA_South_Sudan_war:0 "\n\n§jSouth Sudanese Civil War§!:\n - We are [GetMAG_WA_South_Sudan_Contract]."
+ MAG_WA_Iraq_war:0 "\n\n§kIraqi Civil War§!:\n - We are [GetMAG_WA_Iraq_Contract]."
+ MAG_WA_Oman_war:0 "\n\n§JOmani Civil War§!:\n - We are [GetMAG_WA_Oman_Contract]."
+ MAG_WA_Iran_war:0 "\n\n§KIranian Civil War§!:\n - We are [GetMAG_WA_Iran_Contract]."
+ MAG_WA_Iberian_Wars:0 "\n\n§OIberian Wars§!:\n - We are [GetMAG_WA_Iberia_Contract]."
  MAG_WA_No_Side:0 "not supporting a side"
  MAG_WA_Yemen_Republicans:0 "are supporting the §OYemen Arab Democratic Republic§!"
  MAG_WA_Yemen_Monarchists:0 "are supporting the §REmirate of Yemen§!"
@@ -430,6 +459,7 @@
  MAG_WA_Iraq_Saddam:0 "are supporting the §LIraqi Republic§!"
  MAG_WA_Iraq_Baathists:0 "are supporting the §GArab Republic of Iraq§!"
  MAG_WA_Iraq_Islamists:0 "are supporting the §TIslamic Republic of Iraq§!"
+ MAG_WA_Kurdistan:0 "are supporting the §h[KUR.GetName]§!"
  MAG_WA_Oman_Baathists:0 "are supporting the §eDhofar Rebellion§!"
  MAG_WA_Oman_Islamists:0 "are supporting the §LImamate of Oman§!"
  MAG_WA_Oman_Sultanate:0 "are supporting the §MSultanate of Oman§!"
@@ -438,6 +468,22 @@
  MAG_WA_Iran_Liberals:0 "are supporting the §YDemocratic Republic of Iran§!"
  MAG_WA_Iran_Islamists:0 "are supporting the §GIslamic Republic of Iran§!"
  MAG_WA_Iran_Constitutionalists:0 "are supporting the §MShahdom of Iran§!"
+ MAG_WA_Union_Remnants:0 "are supporting the §f[IBR.GetName]§!"
+ MAG_WA_Spain_Republicans:0 "are supporting the §l[SPR.GetName]§!"
+ MAG_WA_Spain_Falangists:0 "are supporting the §r[SPS.GetName]§!"
+ MAG_WA_Catalonia_Republicans:0 "are supporting the §Y[CTL.GetName]§!"
+ MAG_WA_Catalonia_CNT:0 "are supporting the §R[CNT.GetName]§!"
+ MAG_WA_Basques:0 "are supporting the §d[BSQ.GetName]§!"
+ MAG_WA_Portugal_GNS:0 "are supporting the §K[GNS.GetName]§!"
+ MAG_WA_Portugal_Salazarists:0 "are supporting the §n[POR.GetName]§!"
+ MAG_WA_Portugal_Communists:0 "are supporting the §V[PPR.GetName]§!"
+ MAG_WA_Portugal_Republicans:0 "are supporting the §y[RPP.GetName]§!"
+ MAG_WA_Galicia:0 "are supporting the §D[GAL.GetName]§!"
+ MAG_WA_Andalusia:0 "are supporting the §G[ADL.GetName]§!"
+ MAG_WA_Morroco:0 "are supporting the §o[MOR.GetName]§!"
+ MAG_WA_Rif_Republic:0 "are supporting the §j[RIF.GetName]§!"
+ MAG_WA_Trarza:0 "are supporting the §k[TRZ.GetName]§!"
+ 
  MAG_WA_global_reach_idea:0 "Global Reach"
  MAG_WA_international_redoubt_idea:0 "An International Redoubt"
  MAG_WA_mercenary_contract_idea:0 "Mercenary Contract"
@@ -1570,6 +1616,34 @@
  petlin.13.t:0 "Siberian Sports"
  petlin.13.desc:0 "'...you should also have a look at the Krasnoyarsk hockey team,' Foreign Minister Yuriy Vlasov said, pointing to Krasnoyarsk on a map of Siberia for the businessman in the Magadan hotel room they were sitting in, 'Yes, they are in a very far off location, but they are very tough and hardy nonetheless, and they will make excellent athletes if given the proper training.'\n\nThe businessman in question, Jason Morrison, stared at the map.\n\n'Are you sure it'll be worth it?' he asked after a long pause.\n\n'Of course! With American money in the team's coffers, they'll have the coaches and equipment they need to be stars on the international trade! Starostin, am I missing anything else?' Vlasov replied.\n\nMorrison looked at Starostin.\n\n'The city of Krasnoyarsk has fallen on hard times, and the sports team is no exception,' the economic minister said, 'If you invest, even to something as ephemeral as sports, it'll go a long way to getting the city back on track to being one of the greatest industrial cities in Siberia.'\n\nAnother pause followed as Morrison considered the city's value, and the team.\n\n'We'll start at a hundred grand a month. If the team shows signs of improving after three, I'll increase it to two.'\n\nThe room muttered in agreement as the two ministers parted the room together. It was important for a new nation like Siberia to get as many powerful allies as it could. While sports may seem trivial, that businessmen were willing to invest in a field like this was a sign that much closer ties to the US would be made in the coming months."
  petlin.13.a:0 "And, perhaps, the citizens may benefit from such bonds as well."
+ 
+ petlin.14.t:0 "The Old Admiral"
+ petlin.14.desc:0 "Ivan Stepanovich Yumashev walked through the streets of Petropavlovsk in the early hours of the morning. The former admiral observed the people as they went about their business. Men and women on their way to factories and shops, parents and children hurried about to grocers to fill their pantries, and some simply sat on benches and observed the passing of the day. A smile broke out on his face when he saw a young soldier guide a scared child back to her parents.\n\nEvery once in a while a former sailor of the Pacific Fleet would approach him and they would talk of life since the dark days in Kamchatka. The younger would boast of pregnant wives and new children and the elders of grandchildren and the relatively easy lives they live now. The Admiral always took time to speak with these men, to hear their problems and their triumphs. When his men needed help, he would do his best to give it and when all they needed was an ear to listen he was all too happy to do so.\n\nIvan eventually found his usual haunt. A small bench under the shade of a great old pine tree facing out into the waters of the Pacific. As he sat, he thought back to the old days. The days after the end of the Great Patriotic War, as the Pacific Fleet slowly but surely came together in Petropavlovsk. He remembered the hard times when the fleet, once the pride of the Union in the East, were forced to prey on shipping lanes in order to survive.\n\nHe thought back to the Divine Mandate's fall to the Fascists of the National Republic, the very same republic he now lived in. It was a strange time for the fleet, as the fascists were soon ousted from within by the current President. Now, as he gazed out at the waters of the Pacific he could not help but think how lucky they had been. Disaster had been averted when Petlin and his supporters ousted the Vozhd and restored the rights of the people. It was strange to think of the origins of this state, but he would say that it was a worthy one. A state he had come to truly feel at home in."
+ petlin.14.a:0 "A home for the lost."
+
+ petlin.15.t:0 ""
+ petlin.15.desc:0 ""
+ petlin.15.a:0 ""
+
+ petlin.16.t:0 ""
+ petlin.16.desc:0 ""
+ petlin.16.a:0 ""
+
+ petlin.17.t:0 ""
+ petlin.17.desc:0 ""
+ petlin.17.a:0 ""
+
+ petlin.18.t:0 ""
+ petlin.18.desc:0 ""
+ petlin.18.a:0 ""
+
+ petlin.19.t:0 ""
+ petlin.19.desc:0 ""
+ petlin.19.a:0 ""
+
+ petlin.20.t:0 ""
+ petlin.20.desc:0 ""
+ petlin.20.a:0 ""
 
  #Matkovsky
  matkovsky.1.t:0 "A New, Winter Dawn"
@@ -2177,18 +2251,29 @@
  westalaska.57.desc:0 "Handshakes, fake smiles and whisky shots are three things diplomats must be acquainted with in order to broker deals.\n\nThe Stars-Spangled Banner could be seen waving atop a small ship entering Magadan's port, a place so very far from home. Well-suited men were standing on the its bridge, furrowed brows on their faces as they looked to the congregation of brawny men in battle-worn uniforms standing on the harbor's edge, solemnly waiting for their arrival.\n\nAs the Americans landed, one of the burly figures stepped forward and quickly shook each of the envoys's hands, nearly breaking their feeble wrists in the process of doing so.\n\n"Welcome to West Alaska gentlemen, a place not so different than the good ol' US of A, so you won't get homesick. Let's get you to your quarters, shall we? We can talk more over a glass of whisky and toast to the great budding friendship between our countries, eh?"\n\nThe diplomats at each other, visibly flabbergasted at the mercenary's bluntness and get down to business approach. Then again, whisky seemed alluring as the cold wind blew over the harbor..."
  westalaska.57.a:0 "God it's freezing out here!"
 
- westalaska.58.t:0 ""
- westalaska.58.desc:0 ""
- westalaska.58.a:0 ""
+ #Blackbear event chain
+ westalaska.58.t:0 "Boot Camp"
+ westalaska.58.desc:0 ""Gun. Give," barked a voice behind Jack Svoboda's back, tearing his attention from the row of bottles yonder. For all of a second he thought a grizzly bear learned how to walk; man certainly towered over him like one, clad head to toe in furs to match. Only the outstretched hand dispelled all manbear thoughts; before they could return, Jack handed his father's gun over.\n\nAnd then it flew up and went crack- crack- crack. Three bullets flew with Siberia's winds and toppled three shattered bottles into the snow. The manbear did in three seconds what Jack couldn't with thirty - he resisted the urge to gape.\n\n"Elbow bent, leg too wide and shaking," said the bulky man in harsh, broken English. "Close eye when trigger pull. Move with recoil like grass in wind." He held Jack's gun closer, inspecting the fine patterns that ran its length. "Revolver with ivory handle and fancy drawing. Useless." Without looking away he continued, "Zapadnaya Alyaska no place for child playing toy soldier. Where from?"\n\n"T-Texas," muttered Jack hurriedly.\n\n"Amerikanskiy, eh? Think you are cowboy hunting Indian in forest? Keep shooting like debil and men here slit your throat with vodka bottle themself." The man turned to the range's other five curious shooters. "This go for everyone who come to Magadan. Here you not fight naked Tatar with bow; you fight army with more gun and brain than you all combine. Forget Hollywood der'mo. You are Blackbear, finest soldier of fortune in entire world. And we teach you to fight like one - or you die like one."\n\nThe Texan had barely gathered himself when the Russian walked away. "Wait!" he called. "My gun, uh, sir...?"\n\n"Get better gun from Supplies. And tell Trofim Boss sent you.""
+ westalaska.58.a:0 ""Python," said Boss as he left. "Is your name now, like your bad gun.""
 
- westalaska.59.t:0 ""
- westalaska.59.desc:0 ""
- westalaska.59.a:0 ""
+ westalaska.59.t:0 "Field Training"
+ westalaska.59.desc:0 "One of the unwritten rules Boss taught in boot was that bitching is a free action. Ten klicks away from civilization and buried in sub-zero snow, now-Private Jack Svoboda had a lot to bitch about: his stomach suffered hunger pangs for want of breakfast, and his legs still ached from yesterday's march. Frost bit into skin like the fatigues weren't there. Half a brain went to keeping his mouth shut; half prayed a witless bastard would enter his scope before sundown.\n\nAnd like his gripes were an invocation, the radio blared alive. "Python," crackled its Russian-tinged static, "Patrol, two at treeline north, 300 yard. I take left. In three."\n\nFucking finally! "Copy Boss," Jack near-shouted as he reoriented his Springfield towards the forest's edge. As promised, two men shuffled out from the trees, their arctic camouflage given away by gunmetal black. Why they were here and what for were fleeting thoughts to the tired, hungry merc. Sooner these yahoos drop dead, sooner he RTBs to a warm meal.\n\nJack swallowed a breath and held, like Młynarz taught. Hands steadied, he peered through the scope. The patrol had stopped: Left's buddy neared a pine and fiddled with his zipper. Trigger squeezed, fine cross inched to the pisser's head, that's right, just painting the snow yellow before a bullet blows his brains out in one-\n\n"Three." Crack. The 30-06 flew and hit snow. Heads swiveled in panic; another crack, more distant, before Left lost his. His buddy had barely covered up before a third knocked him face-first into his own piss.\n\nJust like that, Jack had missed his ration ticket for tonight."
+ westalaska.59.a:0 "Wasted shots bought only time in the firing range."
 
- westalaska.60.t:0 ""
- westalaska.60.desc:0 ""
- westalaska.60.a:0 ""
+ westalaska.60.t:0 "Squad Patrol"
+ westalaska.60.desc:0 ""So I was thinking."\n\nSergeant "Python" Jack mulled the medic's question over as he kept watch ahead of the makeshift camp. Pitch-black midnight shifts and idle chatter never led anywhere good. Then again... "You're always thinking, Seong. But granted."\n\n"Well..." drawled Seong "Kay" Jung-Hwa on his cot. "doesn't all this sound like the silver screens? Bunch of mercs flock to a land of warlords, take things into their own hands and carve a place to call their own. All you need's John Wayne, Joan Fontaine, a hackneyed romance plot and-" he clapped, "-bam! Blockbuster of the year."\n\nAcross Kay sat Kazimierz "Kaz" Młynarz. Ember and spark glinted off rimmed sunglasses seemingly fused to the support gunner's head. "Like Boss said, Kay: keep Hollywood in Hollywood. Unless we're living in a fever dream of yours, West Alaska is our home now. One by and for those without."\n\n"Boss this, Boss that- bah, say something yourself for a change!" Kay retorted. "And I'm not the one who dresses up like a cowboy and twirls his pistols around. That's Baldie!"\n\nHe pointed at Adam "Shashka" Abramov, who was twirling revolvers on each hand. "Mark of good taste, my Korean friend. It say a lot more about you than me. Chasseur, if you can educate the young virgin on woman's wants?"\n\n"Chasseur" Mirielle whistled twice as the silent sniper fed a round to her scoped MAS-36. Someone was close. Before the conversation fully died, Jack leveled his rifle at rustling bushes where the clearing met trees. Thunder split the air twice, and a body hit snow with a soft, distant thud.\n\nTen more emerged with brandished guns."
+ westalaska.60.a:0 ""Fancy shooting Py!" said Kay right before lead filled the empty night."
+ MAG_special_activities_unit_tt:0 "We will raise a §YSpecial Activities Unit§!"
+
+ westalaska.61.t:0 ""
+ westalaska.61.desc:0 ""
+ westalaska.61.a:0 ""
+
+ westalaska.62.t:0 ""
+ westalaska.62.desc:0 ""
+ westalaska.62.a:0 ""
  
+ #Mercenary Contract events
  westalaska.100.t:0 "[MAG.GetName] Offers a Mercenary Contract"
  westalaska.100.desc:0 "Our war continues, and we'll need every advantage at our disposal to defeat the enemy. Luckily, one such opportunity to get a leg up may have just presented itself.\n\nA representative from [MAG.GetName] has presented us with an offer. For a price, they will send "private defense consultants" to aid us in our conflict, be it training our troops or fighting alongside them on the frontlines. According to the representative, these mercenaries are highly skilled in the arts of war, and have considerable experience gained from combat zones across the globe.\n\nAlthough they won't come cheap, perhaps these soldiers of fortune are just what our war effort needs?"
  westalaska.100.a:0 "Tell them they've got a deal."
@@ -2263,3 +2348,4 @@
 # Ideas
  MAG_american_military_advisers_1:0 "Expanded American Mission"
  MAG_american_military_advisers_1_desc:0 "Our benevolent American friends have been incredibly thoughtful by sending us a delegation of military instructors who are helping in the organization and drill of our troops, allowing us to have an edge over our rivals in combat proficiency."
+ 
