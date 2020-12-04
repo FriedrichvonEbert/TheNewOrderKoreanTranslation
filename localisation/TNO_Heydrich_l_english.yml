@@ -295,13 +295,13 @@
  HGR_Quality_1:0 "§R최악§!"
 
  HGR_Coalition_Category:0 "신뢰의 균형"
- HGR_Coalition_Category_desc:0 "In our struggle to unify the Vaterland against the apocalyptic madness of §EHimmler§!, we have been forced to call upon many §gunconventional§! §eallies§!, and build a disparate coalition of conflicting interests. Whilst in a more ideal situation, this would not be allowed to stand, it is a matter of necessity that we maintain the opinion of each group that we have turned to.\n\n§RFailure to do so may lead to the deaths of all that we hold dear.§!\n\n§ESS-Idealists§! - [GetHGRSSHardlinerOpinion] factional opinion ([?GER.SSHardlinerOpinion])\n[GetHGRSSHardliners]§lSS-Pragmatists§! - [GetHGRSSModerateOpinion] factional opinion ([?GER.SSModerateOpinion])\n[GetHGRSSModerates]§rMilitarists§! - [GetHGRMilitaristOpinion] factional opinion ([?GER.MilitaristOpinion])\n[GetHGRMilitarists]§gModerates§! - [GetHGRModerateOpinion] factional opinion ([?GER.ModerateOpinion])\n[GetHGRModerates]§eNatives§! - [GetHGRNativeOpinion] factional opinion ([?GER.NativeOpinion])\n[GetHGRNatives]"
+ HGR_Coalition_Category_desc:0 "In our struggle to unify the Vaterland against the apocalyptic madness of §EHimmler§!, we have been forced to call upon many §gunconventional§! §eallies§!, and build a disparate coalition of conflicting interests. Whilst in a more ideal situation, this would not be allowed to stand, it is a matter of necessity that we maintain the opinion of each group that we have turned to.\n\n§RFailure to do so may lead to the deaths of all that we hold dear.§!\n\n§ESS-이상주의자§! - [GetHGRSSHardlinerOpinion] factional opinion ([?GER.SSHardlinerOpinion])\n[GetHGRSSHardliners]§lSS-실용주의자§! - [GetHGRSSModerateOpinion] factional opinion ([?GER.SSModerateOpinion])\n[GetHGRSSModerates]§r군국주의자s§! - [GetHGRMilitaristOpinion] factional opinion ([?GER.MilitaristOpinion])\n[GetHGRMilitarists]§g온건파§! - [GetHGRModerateOpinion] factional opinion ([?GER.ModerateOpinion])\n[GetHGRModerates]§e토착민§! - [GetHGRNativeOpinion] factional opinion ([?GER.NativeOpinion])\n[GetHGRNatives]"
 
- HGR_Coalition_SS_Hardliners:0 "Coalition Members:\n[HGRgetFLRCoalition][HGRgetPICCoalition][HGRgetSSLCoalition][HGRgetSSWCoalition][HGRgetLHHCoalition][HGRgetAGSCoalition][HGRgetKHPCoalition][HGRgetSSNCoalition][HGRgetKLBCoalition][HGRgetFSPCoalition]\n"
- HGR_Coalition_SS_Moderates:0 "Coalition Members:\n[HGRgetDSHCoalition][HGRgetAPFCoalition][HGRgetSSFCoalition][HGRgetKSSCoalition][HGRgetAUSCoalition]\n"
- HGR_Coalition_Militarists:0 "Coalition Members:\n[HGRgetOERCoalition][HGRgetDSGCoalition][HGRgetISSCoalition]\n"
- HGR_Coalition_Moderates:0 "Coalition Members:\n[HGRgetFHHCoalition][HGRgetOKLCoalition][HGRgetFPGCoalition]\n"
- HGR_Coalition_Natives:0 "Coalition Members:\n[HGRgetPRKCoalition]\n"
+ HGR_Coalition_SS_Hardliners:0 "연합 구성원:\n[HGRgetFLRCoalition][HGRgetPICCoalition][HGRgetSSLCoalition][HGRgetSSWCoalition][HGRgetLHHCoalition][HGRgetAGSCoalition][HGRgetKHPCoalition][HGRgetSSNCoalition][HGRgetKLBCoalition][HGRgetFSPCoalition]\n"
+ HGR_Coalition_SS_Moderates:0 "연합 구성원:\n[HGRgetDSHCoalition][HGRgetAPFCoalition][HGRgetSSFCoalition][HGRgetKSSCoalition][HGRgetAUSCoalition]\n"
+ HGR_Coalition_Militarists:0 "연합 구성원:\n[HGRgetOERCoalition][HGRgetDSGCoalition][HGRgetISSCoalition]\n"
+ HGR_Coalition_Moderates:0 "연합 구성원:\n[HGRgetFHHCoalition][HGRgetOKLCoalition][HGRgetFPGCoalition]\n"
+ HGR_Coalition_Natives:0 "연합 구성원:\n[HGRgetPRKCoalition]\n"
 
  Blank_Coalition_Status:0 ""
 
@@ -478,23 +478,23 @@
  HGR_expose_himmlers_treachery_tt:0 "§YFurther options§! will become available to §Winfluence§! our allied §ESS-Idealist§! faction members."
 
  HGR_German_Warlord_Influence_Category:0 "조국의 통일"
- HGR_German_Warlord_Influence_Category_desc:0 "With the current appalling state of the Reich, a critical component of our crusade against §EHimmler§! is the re-unification of the Vaterland. The numerous cliques spread across what was once harmonious German soil must be either negotiated with or §Rbrought to heel by force§!.\n\nThe status of our coalition, and §Rthe fate of the very world§!, depends on our efforts to save the Reich from its own divisions."
+ HGR_German_Warlord_Influence_Category_desc:0 "현재 끔찍한 상황에 처한 라이히에서 §E힘러§!에 대항하는 우리 십자군의 가장 중요한 요소는 조국의 재통일입니다. 한 때 화목했던 독일 땅 곳곳에 퍼진 도당들과 협상하거나 §R강제로 굴복시키거나§! 둘 중 하나를 반드시 선택해야 합니다.\n\n우리의 연합 상태와 §R바로 이 세계의 운명§!은 라이히 스스로의 분열로부터 구원하고자 하는 우리의 노력에 달려 있습니다."
 
- HGR_show_hide_idealist_decisions:0 "Show/Hide §ESS-Idealist§! Decisions"
- HGR_show_hide_pragmatist_decisions:0 "Show/Hide §lSS-Pragmatist§! Decisions"
- HGR_show_hide_militarist_decisions:0 "Show/Hide §rMilitarist§! Decisions"
- HGR_show_hide_moderate_decisions:0 "Show/Hide §gModerate§! Decisions"
- HGR_show_hide_native_decisions:0 "Show/Hide §eNative§! Decisions"
+ HGR_show_hide_idealist_decisions:0 "§ESS-이상주의자§! 결정 보이기/감추기"
+ HGR_show_hide_pragmatist_decisions:0 "§lSS-실용주의자§! 결정 보이기/감추기"
+ HGR_show_hide_militarist_decisions:0 "§r군국주의자§! 결정 보이기/감추기"
+ HGR_show_hide_moderate_decisions:0 "§g온건파§! 결정 보이기/감추기"
+ HGR_show_hide_native_decisions:0 "§e토착민§! 결정 보이기/감추기"
 
- HGR_incorporate_FLR:0 "§WRe-integrate§! §E[FLR.GetNameDef]§!"
+ HGR_incorporate_FLR:0 "§E[FLR.GetNameDef]§! §W재통합§!"
  HGR_incorporate_FLR_req_tt:0 "[FLR.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?FLR.HGR_Influence_Balance]/95§!)"
  HGR_aligned_FLR_req_tt:0 "[FLR.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?FLR.HGR_Influence_Balance]/60§!)"
 
- HGR_incorporate_PIC:0 "§WRe-integrate§! §E[PIC.GetNameDef]§!"
+ HGR_incorporate_PIC:0 "§E[PIC.GetNameDef]§! §W재통합§!"
  HGR_incorporate_PIC_req_tt:0 "[PIC.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?PIC.HGR_Influence_Balance]/95§!)"
  HGR_aligned_PIC_req_tt:0 "[PIC.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?PIC.HGR_Influence_Balance]/95§!)"
 
- HGR_incorporate_SSL:0 "§WRe-integrate§! §E[SSL.GetNameDef]§!"
+ HGR_incorporate_SSL:0 "§E[SSL.GetNameDef]§! §W재통합§!"
  HGR_incorporate_SSL_req_tt:0 "[SSL.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?SSL.HGR_Influence_Balance]/95§!)"
  HGR_aligned_SSL_req_tt:0 "[SSL.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?SSL.HGR_Influence_Balance]/60§!)"
  
@@ -503,7 +503,7 @@
  HGR_SSL_decision_b_1:0 "[SSL.GetFlag]Fabricate Himmlerite Communications"
  HGR_SSL_decision_b_2:0 "[SSL.GetFlag]Appeal to §EEicke's Ambition§!"
 
- HGR_incorporate_SSW:0 "§WRe-integrate§! §E[SSW.GetNameDef]§!"
+ HGR_incorporate_SSW:0 "§E[SSW.GetNameDef]§! §W재통합§!"
  HGR_incorporate_SSW_req_tt:0 "[SSW.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?SSW.HGR_Influence_Balance]/95§!)"
  HGR_aligned_SSW_req_tt:0 "[SSW.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?SSW.HGR_Influence_Balance]/60§!)"
 
@@ -512,11 +512,11 @@
  HGR_SSW_decision_b_1:0 "[SSW.GetFlag]Execute §rCommando Raids§!"
  HGR_SSW_decision_b_2:0 "[SSW.GetFlag]Carry Out §gLuftwaffe Bombing Missions§!"
 
- HGR_incorporate_LHH:0 "§WRe-integrate§! §E[LHH.GetNameDef]§!"
+ HGR_incorporate_LHH:0 "§E[LHH.GetNameDef]§! §W재통합§!"
  HGR_incorporate_LHH_req_tt:0 "[LHH.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?LHH.HGR_Influence_Balance]/95§!)"
  HGR_aligned_LHH_req_tt:0 "[LHH.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?LHH.HGR_Influence_Balance]/60§!)"
 
- HGR_incorporate_AGS:0 "§WRe-integrate§! §E[AGS.GetNameDef]§!"
+ HGR_incorporate_AGS:0 "§E[AGS.GetNameDef]§! §W재통합§!"
  HGR_incorporate_AGS_req_tt:0 "[AGS.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?AGS.HGR_Influence_Balance]/95§!)"
  HGR_aligned_AGS_req_tt:0 "[AGS.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?AGS.HGR_Influence_Balance]/60§!)"
 
@@ -525,7 +525,7 @@
  HGR_AGS_decision_b_1:0 "[AGS.GetFlag]Encourage §lSS Supremacy§!"
  HGR_AGS_decision_b_2:0 "[AGS.GetFlag]Inspire §rWehrmacht Rebellions§!"
 
- HGR_incorporate_KHP:0 "§WRe-integrate§! §E[KHP.GetNameDef]§!"
+ HGR_incorporate_KHP:0 "§E[KHP.GetNameDef]§! §W재통합§!"
  HGR_incorporate_KHP_req_tt:0 "[KHP.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?KHP.HGR_Influence_Balance]/95§!)"
  HGR_aligned_KHP_req_tt:0 "[KHP.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?KHP.HGR_Influence_Balance]/60§!)"
 
@@ -534,7 +534,7 @@
  HGR_KHP_decision_b_1:0 "[KHP.GetFlag]Negotiate with Peiper's Forces"
  HGR_KHP_decision_b_2:0 "[KHP.GetFlag]Share §ELocal Intelligence§!"
 
- HGR_incorporate_SSN:0 "§WRe-integrate§! §E[SSN.GetNameDef]§!"
+ HGR_incorporate_SSN:0 "§E[SSN.GetNameDef]§! §W재통합§!"
  HGR_incorporate_SSN_req_tt:0 "[SSN.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?SSN.HGR_Influence_Balance]/95§!)"
  HGR_aligned_SSN_req_tt:0 "[SSN.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?SSN.HGR_Influence_Balance]/60§!)"
 
@@ -544,14 +544,14 @@
  decision_cost_HGR_SSN_decision_a_2:0 "£army_experience §Y20§! £manpower_texticon §Y150§!"
  decision_cost_HGR_SSN_decision_a_2_blocked:0 "£army_experience §R20§! £manpower_texticon §R150§!"
 
- HGR_incorporate_KLB:0 "§WRe-integrate§! §E[KLB.GetNameDef]§!"
+ HGR_incorporate_KLB:0 "§E[KLB.GetNameDef]§! §W재통합§!"
  HGR_incorporate_KLB_req_tt:0 "[KLB.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?KLB.HGR_Influence_Balance]/95§!)"
  HGR_aligned_KLB_req_tt:0 "[KLB.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?KLB.HGR_Influence_Balance]/60§!)"
 
  HGR_KLB_decision_a_1:0 "[KLB.GetFlag]Intercept Burgundian Intelligence"
  HGR_KLB_decision_a_2:0 "[KLB.GetFlag]Cut Communication Lines"
 
- HGR_incorporate_FSP:0 "§WRe-integrate§! §E[FSP.GetNameDef]§!"
+ HGR_incorporate_FSP:0 "§E[FSP.GetNameDef]§! §W재통합§!"
  HGR_incorporate_FSP_req_tt:0 "[FSP.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?FSP.HGR_Influence_Balance]/95§!)"
  HGR_aligned_FSP_req_tt:0 "[FSP.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?FSP.HGR_Influence_Balance]/60§!)"
 
@@ -562,14 +562,14 @@
  decision_cost_HGR_FSP_decision_a_1:0 "£weapon_icon §Y1000§! £supply_texticon §Y250§!"
  decision_cost_HGR_FSP_decision_a_1_blocked:0 "£weapon_icon §R1000§! £supply_texticon §R250§!"
 
- HGR_incorporate_BEL:0 "§WRe-integrate§! §l[BEL.GetNameDef]§!"
+ HGR_incorporate_BEL:0 "§l[BEL.GetNameDef]§! §W재통합§!"
  HGR_incorporate_BEL_req_tt:0 "[BEL.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?BEL.HGR_Influence_Balance]/95§!)"
  HGR_aligned_BEL_req_tt:0 "[BEL.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?BEL.HGR_Influence_Balance]/60§!)"
 
  HGR_BEL_decision_a_1:0 "[BEL.GetFlag]Arm §lDegrelle's Men§!"
  HGR_BEL_decision_a_2:0 "[BEL.GetFlag]Send §EUndercover Units§!"
 
- HGR_incorporate_DSH:0 "§WRe-integrate§! §l[DSH.GetNameDef]§!"
+ HGR_incorporate_DSH:0 "§l[DSH.GetNameDef]§! §W재통합§!"
  HGR_incorporate_DSH_req_tt:0 "[DSH.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?DSH.HGR_Influence_Balance]/95§!)"
  HGR_aligned_DSH_req_tt:0 "[DSH.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?DSH.HGR_Influence_Balance]/60§!)"
 
@@ -578,7 +578,7 @@
  HGR_DSH_decision_b_1:0 "[DSH.GetFlag]Cripple Local Defenses"
  HGR_DSH_decision_b_2:0 "[DSH.GetFlag]Facilitate Harassment Raids"
 
- HGR_incorporate_APF:0 "§WRe-integrate§! §l[APF.GetNameDef]§!"
+ HGR_incorporate_APF:0 "§l[APF.GetNameDef]§! §W재통합§!"
  HGR_incorporate_APF_req_tt:0 "[APF.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?APF.HGR_Influence_Balance]/95§!)"
  HGR_aligned_APF_req_tt:0 "[APF.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?APF.HGR_Influence_Balance]/60§!)"
 
@@ -587,7 +587,7 @@
  HGR_APF_decision_b_1:0 "[APF.GetFlag]Arm §lLocal Forces§!"
  HGR_APF_decision_b_2:0 "[APF.GetFlag]Send §EReliable Advisors§!"
 
- HGR_incorporate_SSF:0 "§WRe-integrate§! §l[SSF.GetNameDef]§!"
+ HGR_incorporate_SSF:0 "§l[SSF.GetNameDef]§! §W재통합§!"
  HGR_incorporate_SSF_req_tt:0 "[SSF.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?SSF.HGR_Influence_Balance]/95§!)"
  HGR_aligned_SSF_req_tt:0 "[SSF.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?SSF.HGR_Influence_Balance]/60§!)"
 
@@ -596,7 +596,7 @@
  HGR_SSF_decision_b_1:0 "[SSF.GetFlag]Collect Convenient Blackmail"
  HGR_SSF_decision_b_2:0 "[SSF.GetFlag]Subvert Propaganda Apparatus"
 
- HGR_incorporate_KSS:0 "§WRe-integrate§! §l[KSS.GetNameDef]§!"
+ HGR_incorporate_KSS:0 "§l[KSS.GetNameDef]§! §W재통합§!"
  HGR_incorporate_KSS_req_tt:0 "[KSS.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?KSS.HGR_Influence_Balance]/95§!)"
  HGR_aligned_KSS_req_tt:0 "[KSS.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?KSS.HGR_Influence_Balance]/60§!)"
 
@@ -605,7 +605,7 @@
  HGR_KSS_decision_b_1:0 "[KSS.GetFlag]Bolster §lGille's Forces§!"
  HGR_KSS_decision_b_2:0 "[KSS.GetFlag]Support §rStadler's Waffen-SS§!"
 
- HGR_incorporate_AUS:0 "§WRe-integrate§! §l[AUS.GetNameDef]§!"
+ HGR_incorporate_AUS:0 "§l[AUS.GetNameDef]§! §W재통합§!"
  HGR_incorporate_AUS_req_tt:0 "[AUS.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?AUS.HGR_Influence_Balance]/95§!)"
  HGR_aligned_AUS_req_tt:0 "[AUS.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?AUS.HGR_Influence_Balance]/60§!)"
 
@@ -614,14 +614,14 @@
  HGR_AUS_decision_b_1:0 "[AUS.GetFlag]Encourage §gIntelligence Cooperation§!"
  HGR_AUS_decision_b_2:0 "[AUS.GetFlag]Assist §gCode-Breaking Operations§!"
 
- HGR_incorporate_OER:0 "§WRe-integrate§! §r[OER.GetNameDef]§!"
+ HGR_incorporate_OER:0 "§r[OER.GetNameDef]§! §W재통합§!"
  HGR_incorporate_OER_req_tt:0 "[OER.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?OER.HGR_Influence_Balance]/95§!)"
  HGR_aligned_OER_req_tt:0 "[OER.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?OER.HGR_Influence_Balance]/60§!)"
 
  HGR_OER_decision_a_1:0 "[OER.GetFlag]Send in §ESS Saboteurs§!"
  HGR_OER_decision_a_2:0 "[OER.GetFlag]Assist §rSchörnerite Insurgents§!"
 
- HGR_incorporate_DSG:0 "§WRe-integrate§! §r[DSG.GetNameDef]§!"
+ HGR_incorporate_DSG:0 "§r[DSG.GetNameDef]§! §W재통합§!"
  HGR_incorporate_DSG_req_tt:0 "[DSG.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?DSG.HGR_Influence_Balance]/95§!)"
  HGR_aligned_DSG_req_tt:0 "[DSG.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?DSG.HGR_Influence_Balance]/60§!)"
 
@@ -630,11 +630,11 @@
  HGR_DSG_decision_b_1:0 "[DSG.GetFlag]Facilitate Refugee Movement"
  HGR_DSG_decision_b_2:0 "[DSG.GetFlag]Relocate §rCivilian Assets§!"
 
- HGR_incorporate_FPG:0 "§WRe-integrate§! §g[FPG.GetNameDef]§!"
+ HGR_incorporate_FPG:0 "§g[FPG.GetNameDef]§! §W재통합§!"
  HGR_incorporate_FPG_req_tt:0 "[FPG.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?FPG.HGR_Influence_Balance]/95§!)"
  HGR_aligned_FPG_req_tt:0 "[FPG.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?FPG.HGR_Influence_Balance]/60§!)"
 
- HGR_incorporate_ISS:0 "§WRe-integrate§! §r[ISS.GetNameDef]§!"
+ HGR_incorporate_ISS:0 "§r[ISS.GetNameDef]§! §W재통합§!"
  HGR_incorporate_ISS_req_tt:0 "[ISS.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?ISS.HGR_Influence_Balance]/95§!)"
  HGR_aligned_ISS_req_tt:0 "[ISS.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?ISS.HGR_Influence_Balance]/60§!)"
  
@@ -643,7 +643,7 @@
  HGR_ISS_decision_b_1:0 "[ISS.GetFlag]Suppress §rSlave Revolts§!"
  HGR_ISS_decision_b_2:0 "[ISS.GetFlag]Provide §rSupplemental Workers§!"
 
- HGR_incorporate_FHH:0 "§WRe-integrate§! §g[FHH.GetNameDef]§!"
+ HGR_incorporate_FHH:0 "§g[FHH.GetNameDef]§! §W재통합§!"
  HGR_incorporate_FHH_req_tt:0 "[FHH.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?FHH.HGR_Influence_Balance]/95§!)"
  HGR_aligned_FHH_req_tt:0 "[FHH.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?FHH.HGR_Influence_Balance]/60§!)"
 
@@ -652,7 +652,7 @@
  HGR_FHH_decision_b_1:0 "[FHH.GetFlag]Infiltrate Pretender Strongholds"
  HGR_FHH_decision_b_2:0 "[FHH.GetFlag]Supply §ESS Infiltrators§!"
 
- HGR_incorporate_OKL:0 "§WRe-integrate§! §g[OKL.GetNameDef]§!"
+ HGR_incorporate_OKL:0 "§g[OKL.GetNameDef]§! §W재통합§!"
  HGR_incorporate_OKL_req_tt:0 "[OKL.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?OKL.HGR_Influence_Balance]/95§!)"
  HGR_aligned_OKL_req_tt:0 "[OKL.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?OKL.HGR_Influence_Balance]/60§!)"
  
@@ -661,7 +661,7 @@
  HGR_OKL_decision_b_1:0 "[OKL.GetFlag]Support §rLuftwaffe Leadership§!"
  HGR_OKL_decision_b_2:0 "[OKL.GetFlag]Provide §gLocal Assistance§!"
 
- HGR_incorporate_PRK:0 "§WRe-integrate§! §e[PRK.GetNameDef]§!"
+ HGR_incorporate_PRK:0 "§e[PRK.GetNameDef]§! §W재통합§!"
  HGR_incorporate_PRK_req_tt:0 "[PRK.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?PRK.HGR_Influence_Balance]/95§!)"
  HGR_aligned_PRK_req_tt:0 "[PRK.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?PRK.HGR_Influence_Balance]/60§!)"
 
@@ -670,23 +670,23 @@
 
  HGR_picking_up_the_remnants_tt:0 "§WWe will ask England for the return of our POWs in Cornwall.§!"
 
- HGR_incorporate_HOL:0 "§WRe-integrate§! §T[HOL.GetNameDef]§!"
+ HGR_incorporate_HOL:0 "§T[HOL.GetNameDef]§! §W재통합§!"
  HGR_incorporate_HOL_req_tt:0 "[HOL.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?HOL.HGR_Influence_Balance]/95§!)"
  HGR_aligned_HOL_req_tt:0 "[HOL.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?HOL.HGR_Influence_Balance]/60§!)"
 
  HGR_HOL_decision_a_1:0 "[HOL.GetFlag]Decouple Himmler's Influence"
  HGR_HOL_decision_a_2:0 "[HOL.GetFlag]Assist in Counterinsurgency Efforts"
 
- HGR_BRT_black_market_infantry_equipment:0 "Purchase §YInfantry Equipment§!"
- HGR_BRT_black_market_support_equipment:0 "Purchase §YSupport Equipment§!"
- HGR_BRT_black_market_motorized_equipment:0 "Purchase §YMotorized Equipment§!"
- HGR_incorporate_BRT:0 "§WRe-integrate§! §T[BRT.GetNameDef]§!"
+ HGR_BRT_black_market_infantry_equipment:0 "§Y보병 장비§! 구매"
+ HGR_BRT_black_market_support_equipment:0 "§Y지원 장비§! 구매"
+ HGR_BRT_black_market_motorized_equipment:0 "§Y차량화 장비§! 구매"
+ HGR_incorporate_BRT:0 "§T[BRT.GetNameDef]§! §W재통합§!"
  HGR_incorporate_BRT_req_tt:0 "[BRT.GetNameDef] is sufficiently §Gloyal to Heydrich§!. (§Y[?BRT.HGR_Influence_Balance]/95§!)"
  HGR_BRT_decision_a_1:0 "[BRT.GetFlag]Discredit the Burgundian Position"
  HGR_BRT_decision_a_2:0 "[BRT.GetFlag]Praise Lainé's Service"
  HGR_BRT_decision_b_1:0 "[BRT.GetFlag]Send Financial Investments"
  HGR_BRT_decision_b_2:0 "[BRT.GetFlag]Promote Anti-Burgundy Propaganda"
- HGR_BRT_increase_gdp:0 "Our §YGDP§! will receive a small boost."
+ HGR_BRT_increase_gdp:0 "§YGDP§!가 약간 증가합니다."
 
  ### Modifiers ###
  
