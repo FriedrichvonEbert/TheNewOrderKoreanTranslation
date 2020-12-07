@@ -466,7 +466,7 @@ GGR_loot_runout:0 "Due to our extensive looting efforts, we have deprived the ar
  GGR_fight_the_insurgency_tooltip:0 "§YWe must keep a tight grip on the Russian population to prevent any form of insurgency from even beginning.§!\n§MUnlock a new decision to attack §Pthe Russian Partisans.§!\n"
  GGR_searching_in_perm_tooltip:0 "§YWe have heard rumors of a Russian warlord fully adopting the doctrine of national socialism, these people will surely make loyal collaborators. Contact them now!§!\n"
  GGR_reestablish_the_roa_tooltip:0"§YIts better to use the devil you know, they betrayed us once but by keeping a tight grip they will not get the opportunity to do this again.§!\n"
- GGR_rebuild_the_aa_line_tooltip:0 "§YThe Arkhangelsk-Astrakhan line will be the pride of Germany's triump against the slavic hordes! It will also serve as a nice retirement location for the radical wehrmacht officers.§!\n"
+ GGR_rebuild_the_aa_line_tooltip:0 "§YThe Arkhangelsk-Astrakhan line will be the pride of Germany's triumph against the slavic hordes! It will also serve as a nice retirement location for the radical wehrmacht officers.§!\n"
  GGR_redevelop_the_roads_tooltip:0 "§YThe bankers will be coerced into investing in new roads for Russia stimulating the economy and makes the invasion easier.§!\n"
  GGR_dont_look_back_tooltip:0 "§YBy moving extraction equipment from Kazachstan into Moskowien we can increase resource extraction there. Overal this is a net loss but Moskowien lies much closer to the Heartland.§!\n"
  GGR_pacify_AA_line_regions:0 "These states also had their populations subdued by the army giving us a §G5% bonus§! to non-core manpower in them."
@@ -1130,6 +1130,9 @@ GGR_loot_runout:0 "Due to our extensive looting efforts, we have deprived the ar
 
 
 ###### Decisions
+ GGR_match_them_mission:0 "Match Them"
+ GGR_ringhorn_bb_mission:0 "The Ringhorn Doctrine"
+ GGR_ringhorn_cv_mission:0 "The Ringhorn Doctrine"
  GGR_return_to_norway:0 "노르웨이를 스칸디나비아 국가판무관부로 병합"
  GGR_annex_the_netherlands:0 "네덜란드 병합"
  GGR_annex_bohemia:0 "보헤미아 병합"
@@ -1700,11 +1703,11 @@ GGR_loot_runout:0 "Due to our extensive looting efforts, we have deprived the ar
  GER_GOR_are_we_missing_something:0 "우리가 뭔가 놓치고 있나?"
  GER_GOR_are_we_missing_something_desc:0 "The Panzerkampfwagen 'MBT' improvement project has thankfully come to its completion, having run its course smoothly and without difficulty. However, this has caused worry amongst a few military circles who doubt the project's seeming success. Yet, despite our misgivings, it's best we don't inform the Führer and Schörner about it - as we're quite sure that there is totally nothing wrong with the Panzer! We will take the additional measure of making our designers sign non-disclosure agreements for the Good of the Reich, to prevent morale losses from any potential leakers. It's for the best, really."
  GER_GOR_das_liger:0 "다스 리거"
- GER_GOR_das_liger_desc:0 "Führer Göring has officially decreed the most recent 'MBT' design & project shall be classified as the 'Das Liger' Panzer. With this declaration, those who manufacture Panzerkampfwagen have since become emboldened and encouraged in their work, thereby increasing the development & research capacity for future designs. The next fat stacks of research money and grant funding are well on the way - and given the efficiency of the German scientific machine, we are certain this will not incentivise corruption or budgetary bloat in any way. Utterly foolproof!"
+ GER_GOR_das_liger_desc:0 "Führer Göring has officially decreed the most recent 'MBT' design & project shall be classified as the 'Das Liger' Panzer. With this declaration, those who manufacture Panzerkampfwagen have since become emboldened and encouraged in their work, thereby increasing the development & research capacity for future designs. The next fat stacks of research money and grant funding are well on the way - and given the efficiency of the German scientific machine, we are certain this will not incentivise corruption or budgetary bloat in any way. Utterly###### Decisions foolproof!"
  GER_GOR_Volkswissenschaft:0 "Volkswissenschaft"
  GER_GOR_Volkswissenschaft_desc:0 "Everyone always likes to think about the military applications of technology, but far too few (including the Führer it seems) often consider the civilian benefits of new knowledge. Chemicals are great at causing chaos and death amongst enemies, but can they not also improve our crops? The atom can be split to destroy entire cities, but can it not also power them? Herr Osenberg is smart enough to realize that putting all his technological eggs in one basket is a foolish idea. At the same time however, he realizes that given the martial bent of the current regime, he will have to carefully tailor the applications of his ideas so that they might also serve more military-minded purposes, if only to get the projects approved."
  GER_GOR_the_power_of_the_atom:0 "원자의 힘"
- GER_GOR_the_power_of_the_atom_desc:0 "The Atomic Bomb, the weapon which won the war. Proof of the superiority of the Aryan race, the Gods had aided us in our quest for world domination decades prior through the gift of heavenly power. Yet, in the decades following the end of the Second World War, our opponents have regrettably achieved this God-like power. Thus, Führer Göring has decreed that research & development shall commence on the construction of an Atomic bomb with far greater destructive power. Some have called the hypothetical prototype the Führer-Bombe - [CONTENT REDACTED FOR SECURITY PURPOSES]"
+ GER_GOR_the_power_of_the_atom_desc:0 "The Atomic Bomb, the weapon which won the war. Proof of the superiority of the Aryan race, the Gods had aided us in our quest for world domination decades prior through the gift of heavenly power. Yet, in the decades following the end of the Second World War, our opponents have regrettably achieved this God-like power. Thus, Führer Göring has decreed that research & development shall commence on the construction of an Atomic bomb with far greater destructive power. Some have called the hypothetical prototype the Führer-Bombe - (CONTENT REDACTED FOR SECURITY PURPOSES)"
  GER_GOR_infrastructure_planning:0 "인프라 계획"
  GER_GOR_infrastructure_planning_desc:0 "라이히의 인프라를 개선하는 것이 우리의 혁신과 정복능력 향상에 중요합니다. 프랑크푸르트에서 동프로이센에 이르기까지 크게 파괴된 우리의 기반 시설 네트워크를 다시 통합하고 완전히 재건해야 합니다. 우리는 세계 무대에서 우리의 정당한 위치를 돌려받을 것입니다. 그러므로 우리는 새 시대의 도로, 철도, 전력선을 계획하기 시작해야 합니다. 그래야 대독일국이 새롭고 개선된 원자력 발전소를 건설할 수 있을 것입니다."
  GER_GOR_railroad_plan:0 "브라이츠푸르반"
