@@ -18,11 +18,11 @@ JAP_D_public_approval:0 "§T대중의§!\n호의도:"
 JAP_D_public_approval_var:0 "[getJAPPublicSupport] - [?JAP_Public_support|Y%1]£GFX_approval_texticon"
 
 #Factions
-JAP_D_royalist_faction:0 "§G기도 파§!"
-JAP_D_liberals_faction:0 "§Y진보주의자§!"
-JAP_D_independents_faction:0 "§gINDEPENDENTS§!"
-JAP_D_conservatives_faction:0 "§B보수주의자§!"
-JAP_D_reformists_faction:0 "§r개혁주의자§!"
+JAP_D_royalist_faction:0 "§G기도파§!"
+JAP_D_liberals_faction:0 "§Y진보파§!"
+JAP_D_independents_faction:0 "§g무소속§!"
+JAP_D_conservatives_faction:0 "§B보수파§!"
+JAP_D_reformists_faction:0 "§r개혁파§!"
 
 ##Scripted loc##
 
@@ -56,17 +56,17 @@ JAP_GUI_actions_timing_30:0 "매 §Y30일§!마다 가능"
 JAP_GUI_action_1:0 "[getJAPGUIAction1]"
 JAP_GUI_action_1_tt:0 "[getJAPGuiAction1tt]"
 JAP_government_action_1:0 "§G업적 꾸미기§!"
-JAP_government_action_1_tt:0 "Results are still the best way to convince people to side with you. Sometimes, it takes a little convincing - and what better way is there to convince someone than to dress up the truth?"
+JAP_government_action_1_tt:0 "답은 역시 사람들이 우리의 편을 들도록 설득하는 것입니다. 때로는 약간의 설득력이 필요하고 진실을 꾸며내는 것보다 누군가를 설득하는 데 더 좋은방법이 있을까요?"
 JAP_opposition_action_1:0 "§R계파 신임 떨어뜨리기§!"
-JAP_opposition_action_1_tt:0 "The strife for dominance over the House of Representatives is an eternal battle between its factions. Thankfully, all that some people need to switch sides is learning just how bad their current benefactors are - even if it may be somewhat exaggerated..."
+JAP_opposition_action_1_tt:0 "중의원에 대한 지배권을 위한 투쟁은 파벌들 사이에서의 영원한 싸움입니다. 나쁘게도, 비록 다소 과장된 것일지라도 일부 사람들이 편을 바꾸는데 필요한 모든 것은 현재의 후원자들이 얼마나 나쁜지 배우는 것 뿐입니다..."
 JAP_opposition_action_1_cost:0 "§Y25§!£GFX_political_power_texticon  | §Y2%§! £GFX_podium_texticon"
 
 JAP_GUI_action_2:0 "[getJAPGUIAction2]"
 JAP_GUI_action_2_tt:0 "[getJAPGuiAction2tt]"
 JAP_government_action_2:0 "§G대중을 이용하기§!"
-JAP_government_action_2_tt:0 "One does not necessarily have to rule with the people's assent, but having it makes governing considerably easier. This includes convincing Members of Parliament to join ranks with you, even if at the cost of some of the public's respect."
+JAP_government_action_2_tt:0 "우리가 반드시 국민의 동의를 얻어 통치할 필요는 없지만, 동의를 받는것은 통치하는 것을 상당히 쉽게 만듭니다. 여기에는 대중들의 존경심을 희생시키더라도 의원들이 우리와 함께 대열에 합류하도록 설득하는 것도 포함합니다."
 JAP_opposition_action_2:0 "§R공개적으로 공격하기§!"
-JAP_opposition_action_2_tt:0 "Our enemies in the House of Representatives are fair game. It is part and parcel of the life of a politician to discredit adversaries whenever they can, however they must."
+JAP_opposition_action_2_tt:0 "중의원에서 우리의 적들은 만만한 대상입니다. 적들을 가능할때마다 신용을 떨어뜨리는 것은 정치인들의 삶의 일부입니다."
 JAP_opposition_action_2_cost:0 "§Y25§!£GFX_political_power_texticon  | §Y2%§!£GFX_approval_texticon"
 
 JAP_GUI_action_3:0 "[getJAPGUIAction3]"
@@ -157,17 +157,17 @@ JAP_Public_support_average:0 "§Y경계함§!"
 JAP_Public_support_high:0 "§O높음§!"
 JAP_Public_support_veryhigh:0 "§G매우 높음§!"
 
-JAP_Public_support_tt:0 "§TPublic Support§! is crucial to any government wishing to safely rule over its state, and the Empire of Japan is not an exception to this. The Prime Minister's government thrives and shrivels under the §TPublic's§! watchful eye, and their demeanor is crucial to how much support the ruling faction has in the §WHouse of Representatives§!. Falling below §Y30%§! will §Rrapidly diminish the ruling faction's power§!."
+JAP_Public_support_tt:0 "§T대중의 지지§!는 국가를 안전하게 통치하고자 하는 모든 정부에게 중요하며 일본제국도 예외는 아닙니다. 총리는 §T대중들의§! 감시 아래 번영하고 약화되고 있으며, 그들의 태도는 §W중의원§!에서 집권파가 얼마나 많은 지지를 받고 있는지를 알려줍니다. §Y30%§!아래로 떨어지면 §R집권파의 힘이 감소될 것입니다§!."
 
-JAP_Public_support_increase_small:0 "§TPublic Approval§! §Gincreases§! somewhat."
-JAP_Public_support_increase_med:0 "§TPublic Approval§! §Gincreases§! moderately."
-JAP_Public_support_increase_big:0 "§TPublic Approval§! §Gincreases§! significantly."
-JAP_Public_support_increase_huge:0 "§TPublic Approval§! §Gincreases§! overwhelmingly!"
+JAP_Public_support_increase_small:0 "§T대중의 지지§!가 약간 §G증가한다§!."
+JAP_Public_support_increase_med:0 "§T대중의 지지§!가 보통정도 §G증가한다§!."
+JAP_Public_support_increase_big:0 "§T대중의 지지§!가 상당히 §G증가한다§!."
+JAP_Public_support_increase_huge:0 "§T대중의 지지§!가 압도적으로 §G증가한다§!."
 
-JAP_Public_support_decrease_small:0 "§TPublic Approval§! §Rdecreases§! somewhat."
-JAP_Public_support_decrease_med:0 "§TPublic Approval§! §Rdecreases§! moderately."
-JAP_Public_support_decrease_big:0 "§TPublic Approval§! §Rdecreases§! significantly."
-JAP_Public_support_decrease_huge:0 "§TPublic Approval§! §Rdecreases§! overwhelmingly!"
+JAP_Public_support_decrease_small:0 "§T대중의 지지§!가 약간 §R감소한다§!."
+JAP_Public_support_decrease_med:0 "§T대중의 지지§!가 보통정도 §R감소한다§!."
+JAP_Public_support_decrease_big:0 "§T대중의 지지§!가 상당히 §R감소한다§!."
+JAP_Public_support_decrease_huge:0 "§T대중의 지지§!가 압도적으로 §R감소한다§!."
 
 # Diet Power
 
