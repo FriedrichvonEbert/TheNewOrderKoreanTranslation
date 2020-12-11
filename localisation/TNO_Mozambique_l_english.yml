@@ -180,6 +180,7 @@
  MZB_the_drums_of_war:0 "전쟁의 북"
  MZB_hell_on_earth_self:0 "생지옥"
  MZB_hell_on_earth_others:0 "생지옥"
+ MZB_renewed_offensive:0 "개편된 공세"
  
  ## Shared Ideas ##
  
@@ -304,11 +305,14 @@
  MZB_reduce_patrols_desc:0 "지속적인 순찰이 필요하지 않은 수준으로 불온한 활동이 감소했습니다. 경비를 줄여도 되겠습니다... 지금은."
  MZB_test_the_gas:0 "가스 시험"
  MZB_test_the_gas_desc:0 "분쟁이 다가오는 것이 확실합니다. 우리는 준비할 것입니다. 우리 무기도 준비될 것입니다. 비축된 우리 화학약품도...시험될 것입니다. 그리고 필요한 대로 현대화될 것입니다."
+ MZB_hold_against_amerika_category:0 "Hold against the Amerikaners"
+ MZB_hold_against_amerika_category_desc:0 "The damn Amerikaners have directly intervened in the war! Terrible as it seems, we can still turn the tides around. If we hold out for long enough, the Amerikaners will get discouraged and negotiate a seperate peace with us, allowing us to focus our efforts on Sud-Afrika alone!"
+ MZB_hold_against_amerika:0 "§xHold Verdmant, Hold!§!"
  
 
  ## Tooltips ##
- MZB_booby_trap_the_border_tooltip:0 "§Y이 중점을 완료하면 남아프리카 국경에 함정을 준비하는 결정들이 해금됩니다.§!\n"
- MZB_supply_the_boers_tooltip:0 "§Y이 중점을 완료하면 보어 공화국에게 장비를 보내는 결정들이 해금됩니다.§!\n"
+ MZB_booby_trap_the_border_tooltip:0 "§Y남아프리카 국경에 함정을 준비하는 결정들이 해금됩니다.§!\n"
+ MZB_supply_the_boers_tooltip:0 "§Y보어 공화국에게 장비를 보내는 결정들이 해금됩니다.§!\n"
  MZB_boer_support_staff_tooltip:0 "§Y보어인들이 압제자에 대항해 봉기할 때, 보어인들은 우리와의 연합훈련으로 인한 귀중한 교리 이해와 경험을 얻게됩니다.§!\n"
  MZB_unified_holdouts_tooltip:0 "§Y이 중점을 완료하면 주요 OFN 공세 가능성에 대비하기 위해 동아프리카 전역의 주요 지점을 요새화하는 결정들이 해금됩니다.§!\n"
  MZB_prepare_the_werewolves_tt:0 "§Y웨어울프 사단은 특별한 취급을 받으며 추가 인력과 장비를 받습니다.§!"
@@ -327,11 +331,11 @@
  MZB_huttig_paranoia_increase_tt:0 "휘티히의 피해망상이 §R증가합니다§!."
  MZB_patrols:0 "식민지 사방에 순찰대를 배치합니다."
  MZB_reduced_patrols:0 "식민지 내 순찰대를 축소합니다."
- MZB_drums_initial_tt:0 "§R전쟁의 북소리§!가 울려 집중 계보도를 진행할수록 다양한 혜택을 줍니다."
+ MZB_drums_initial_tt:0 "§R전쟁의 북소리§!가 울려 상황이 더 진행될수록 다양한 혜택을 줍니다."
  MZB_drums_empowered_tt:0 "§R전쟁의 북소리§!가 더 크게 울려 더 큰 혜택을 줍니다!"
- MZB_gas_attacks_tt:0 "남아프리카에 §G화학병기§!를 §Y임시적으로§! 사용합니다."
- MZB_brudermord_tt:0 "§R반역자§!라는 낙인이 찍히더라도 전쟁수행을 §R직접 지휘할 권한을 잡을§! 때입니다!\n\n§R전쟁의 북소리§!가 잠잠해집니다."
- MZB_reinige_den_suden_tt:0 "적에게 우리 §G화학병기§!를 본격적으로 풀 때입니다. 이는 §R미국의 직접적인 개입§!을 불러올 수 있습니다.\n\n§R전쟁의 북소리§!가 잠잠해집니다."
+ MZB_gas_attacks_tt:0 "§Y남아프리카인들에게 우리 §K화학 무기§!를 §f임시적§!으로 사용합니다.§!"
+ MZB_brudermord_tt:0 "§OThe time has come to §eassume direct control§! of the war effort, even if we shall be branded as §Rtraitors§! for our actions.§!\n\n§YThe §RDrums of War§! will be silenced.§!"
+ MZB_reinige_den_suden_tt:0 "§VThe time has come to unleash the full might of our §Kchemical arsenal§! on our enemies.§! §YThis may provoke §Mdirect American itervention.§!§!\n\n§YThe §RDrums of War§! will be silenced.§!"
 
 
  ## Focus Tree ##
@@ -541,7 +545,7 @@ MZB.20.a:0 "개새끼들, 소총 몇 정은 두고 갈 수 있잖아!"
  MZB.55.a:0 ""다 다시 말씀해 주시겠습니까, 각하?""
  
  MZB.56.t:0 "플리거파우스트의 한계"
- MZB.56.d:0 "수신: 아프리카 최고사령부\n주제: 플리거파우스트 성능\n보안 등급: 최고사령부 전용\n본문: 1. 남아프리카 전투보고서에서 보고된 플리거파우스트 전장 도입의 결과는 복합적이었다.\n\n2. 유도체계가 없어 선도 사격을 해야했기에 고속 이동 중인 제트기 상대로는 사용할 수 없었다. 또한 500m 이상 거리에서는 성능이 크게 감소했다. 그렇기에 저공 비행하는 근접지원기 상대로만 사용할 수 있었다. 위와 같은 이유로 플리거파우스트는 맨패즈로써의 문제가 있었다.\n\n3. 하지만 헬리콥터를 상대로는 예외적인 성능을 보였다. 헬리콥터의 느린 속도와 낮은 비행 고도는 플리거파우스트를 사용하기 이상적인 환경이었다. 특히 미군 공중강습부대와 교전한 부대는 플리거파우스트를 매우 높게 평가했다. 플리거파우스트가 있다면 격렬한 교전 중 진입하는 UH-1 "휴이" 건십을 쉽게 해치울 수 있었기 때문이었다.\n\n4. 고속 이동하는 미국 항공 자산을 상대하기 위해 장거리 맨패즈를 확보 및 개발하는 것이 권장된다. 또한 플리거파우스트를 중대급 대 헬리콥터 지원화기로 쓰도록 보병 편제를 수정하는 것이 좋다.\n\n[생략]"
+ MZB.56.d:0 "수신: 아프리카 최고사령부\n주제: 플리거파우스트 성능\n보안 등급: 최고사령부 전용\n본문: 1. 남아프리카 전투보고서에서 보고된 플리거파우스트 전장 도입의 결과는 복합적이었다.\n\n2. 유도체계가 없어 선도 사격을 해야했기에 고속 이동 중인 제트기 상대로는 사용할 수 없었다. 또한 500m 이상 거리에서는 성능이 크게 감소했다. 그렇기에 저공 비행하는 근접지원기 상대로만 사용할 수 있었다. 위와 같은 이유로 플리거파우스트는 맨패즈로써의 문제가 있었다.\n\n3. 하지만 헬리콥터를 상대로는 예외적인 성능을 보였다. 헬리콥터의 느린 속도와 낮은 비행 고도는 플리거파우스트를 사용하기 이상적인 환경이었다. 특히 미군 공중강습부대와 교전한 부대는 플리거파우스트를 매우 높게 평가했다. 플리거파우스트가 있다면 격렬한 교전 중 진입하는 UH-1 "휴이" 건십을 쉽게 해치울 수 있었기 때문이었다.\n\n4. 고속 이동하는 미국 항공 자산을 상대하기 위해 장거리 맨패즈를 확보 및 개발하는 것이 권장된다. 또한 플리거파우스트를 중대급 대 헬리콥터 지원화기로 쓰도록 보병 편제를 수정하는 것이 좋다.\n\n(간결함을 위해 생략)"
  MZB.56.a:0 "보고서 끝"
  
  MZB.57.t:0 "친절한 말과 총"
