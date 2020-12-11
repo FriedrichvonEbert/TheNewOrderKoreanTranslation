@@ -467,7 +467,7 @@ IRE_mcs_bill_rad_desc:0 "Recent legislation from the Irish government has been p
   AdWil_App_Med:0 "[?IRE.AdWilGerTrust|%Y0] §YInvestor Approval§!"
   AdWil_App_Low:0 "[?IRE.AdWilGerTrust|%R0] §RInvestor Approval§!"
 
-  IRE_gui_funds:0 "§G$[?IRE.AdWilAvFund|G0]M§!"
+  IRE_gui_funds:0 "§G$[?IRE.AdWilAvFund|G0] Million§!"
 
   # AdWil Efficiency Ideas
   IRE_AdWil_efficiency_hidden:0 "Minor Extra AdWil Efficiency"
@@ -482,7 +482,7 @@ IRE_mcs_bill_rad_desc:0 "Recent legislation from the Irish government has been p
   AdWil_stage_1_1_tt:0 "Increased the level of infrastructure by one in §C[get_AdWilState]§!."
   AdWil_stage_1_2_tt:0 "Increased the level of infrastructure by two in §C[get_AdWilState]§!."
   AdWil_stage_1_3_tt:0 "Increased the level of infrastructure by three in §C[get_AdWilState]§!."
-  AdWil_stage_2_1_tt:0 "A civilian factory has been constructed in §C[get_AdWilState.]§!"
+  AdWil_stage_2_1_tt:0 "A civilian factory has been constructed in §C[get_AdWilState]§!"
   AdWil_stage_2_2_tt:0 "Two civilian factories has been constructed in §C[get_AdWilState]§!."
   AdWil_stage_2_3_tt:0 "Three civilian factories has been constructed in §C[get_AdWilState]§!."
   AdWIl_presence:0 "[?IRE.AdWilGerPresence|%R0] Presence"
@@ -491,7 +491,7 @@ IRE_mcs_bill_rad_desc:0 "Recent legislation from the Irish government has been p
   gdp_increase_tt:0 "§GGDP will increase§!"
 
   get_AdWilState_Dublin:0 "Dublin"
-  get_AdWilState_Leinster:0 "Lenister"
+  get_AdWilState_Leinster:0 "Leinster"
   get_AdWilState_Louth:0 "Louth"
   get_AdWilState_Cork:0 "Cork"
   get_AdWilState_Limerick:0 "Limerick"
@@ -548,7 +548,7 @@ IRE_mcs_bill_rad_desc:0 "Recent legislation from the Irish government has been p
  IRE_Investor_Presence_minus_10_tt:0 "Investor presence in the economy will §Gdecrease§! by §B10%§!."
 
 # MOG
-  IRE_DECCAT_MOG:0 "Managing the Old Giant     "
+  IRE_DECCAT_MOG:0 "Managing the Old Giant     " #일부러 공백 남겨둔거임
   IRE_DECCAT_MOG_desc:0 ""
   IRE_MOG_GroupBox_LIB_Title:0 "§TLiberals§!"
   IRE_MOG_no_bill_TDs:0 "§YN/A§!"
@@ -769,68 +769,42 @@ DEV_Interactions:0 "§LThe De Valerists§!"
 HAR_Interactions:0 "§gThe Hardliners§!"
 
 #FundToFactory#
-IRE_german_funding_category:0 "German Funding"
-IRE_german_funding_category_desc:0 "A subject of much controversy, and perhaps greater opportunity - our economy is heavily reliant upon deals and funding presented by German corporations.\n\nNationalists may hate the Reich's influence in our nation, but economic cooperation with the Nazi regime has proven to be wildly lucrative for our fledgling economy.\n\nThere are many ways we might draw more Deutsche Mark into our economy - and many ways we might spend them.\n\nCurrent German Funding is §R$[?IRE.AdWilAvFund]§!."
+
+
+
+
+
+
+
+
+
+
+IRE_german_funding_category:0 "[get_IRE_AdWil_title]"
+IRE_german_funding_category_desc:0 "[get_IRE_AdWil_desc]"
+
+IRE_AdWil_title_Ger:0 "German Funding"
+IRE_AdWil_desc_Ger:0 "A subject of much controversy, and perhaps greater opportunity - our economy is heavily reliant upon deals and funding presented by German corporations.\n\nNationalists may hate the Reich's influence in our nation, but economic cooperation with the Nazi regime has proven to be wildly lucrative for our fledgling economy.\n\nThere are many ways we might draw more Deutsche Mark into our economy - and many ways we might spend them.\n\nCurrent German Funding is §R$[?IRE.AdWilAvFund]§!."
+
+IRE_AdWil_title_OFN:0 "OFN Funding"
+IRE_AdWil_desc_OFN:0 "money from da eichmerikkkein and kkkanadein. you've got §R$[?IRE.AdWilAvFund]§ imperialismbucks to play with"
+
+IRE_AdWil_title_Celts:0 "Celtic Funding"
+IRE_AdWil_desc_Celts:0 "money from the perfidious w*lsh and sc*ttish. you've got §R$[?IRE.AdWilAvFund]§ CayoBucks to play with"
+
+IRE_AdWil_title_Gov:0 "Government Funding"
+IRE_AdWil_desc_Gov:0 "governemnt spening money? cringe communism ngl. you've got §R$[?IRE.AdWilAvFund]§ in taxpayer money to play with"
 
 IRE_spend_approval:0 "Request Funding"
-IRE_dinner_with_corporates:0 "[IRE_dinner_with_corporates]"
-IRE_dinner_with_corporates_ger:0 "Dinner with German Corporate Members"
-IRE_dinner_with_corporates_ofn:0 "Dinner with American Corporate Members"
-IRE_dinner_with_corporates_celt:0 "Dinner with Scottish and Welsh Corporate Members"
-IRE_dinner_with_corporates_gov:0 "Dinner with Our Corporate Members"
-IRE_send_gifts_ger:0 "Send Gifts to German Corporates"
-IRE_send_gifts_ofn:0 "Send Gifts to American Corporates"
-IRE_send_gifts_celt:0 "Send Gifts to Scottish and Welsh Corporates"
-IRE_send_gifts_gov:0 "Send Gifts to Our Corporate Members"
-IRE_send_bodyguards_ger:0 "Send Bodyguards to German Corporates"
-IRE_send_bodyguards_ofn:0 "Send Bodyguards to American Corporates"
-IRE_send_bodyguards_celt:0 "Send Bodyguards to Scottish and Welsh Corporates"
-IRE_send_bodyguards_gov:0 "Send Bodyguards to Our Corporates"
-IRE_privatize:0 "[IRE_privatize]"
-IRE_privatize_to_germans:0 "Privatize and Sell to Germans"
-IRE_privatize_to_ofn:0 "Privatize and Sell to Americans"
-IRE_privatize_to_celts:0 "Privatize and Sell to Scottish and Welsh Corporations"
-IRE_privatize_to_us:0 "Privatize and Sell to Irish Corporates"
-IRE_lower_tariffs:0 "[IRE_lower_tariffs]"
-IRE_lower_tariffs_ger:0 "Lower Tariffs for Germans"
-IRE_lower_tariffs_ofn:0 "Lower Tariffs for Americans"
-IRE_lower_tariffs_celt:0 "Lower Tariffs for Scottish and Welsh Corporations"
-IRE_lower_tariffs_gov:0 "Lower Tariffs for Our Private Corporates"
-IRE_no_tax:0 "[IRE_no_tax]"
-IRE_no_tax_ger:0 "Remove Taxation for Germans"
-IRE_no_tax_ofn:0 "Remove Taxation for Americans"
-IRE_no_tax_celt:0 "Remove Taxation for Scottish and Welsh Corporations"
-IRE_no_tax_gov:0 "Remove Taxation for Our Private Corporations"
-IRE_intimidate:0 "[IRE_intimidate]"
-IRE_intimidate_ger:0 "Intimidate Germans"
-IRE_intimidate_ofn:0 "Intimidate Americans"
-IRE_intimidate_celt:0 "Intimidate Scottish and Welsh Corporations"
-IRE_intimidate_gov:0 "Intimidate Private Corporations"
-IRE_nationalize:0 "[IRE_nationalize]"
-IRE_nationalize_ger:0 "Nationalize German Owned Corporations"
-IRE_nationalize_ofn:0 "Nationalize American Owned Corporations"
-IRE_nationalize_celt:0 "Nationalize Scottish and Welsh Owned Corporations"
-IRE_nationalize_gov:0 "Nationalize Private Corporations"
-IRE_raise_tariff:0 "[IRE_raise_tariff]"
-IRE_raise_tariff_ger:0 "Raise Tariffs for Germans"
-IRE_raise_tariff_ofn:0 "Raise Tariffs for Americans"
-IRE_raise_tariff_celt:0 "Raise Tariffs for Scottish and Welsh Corporations"
-IRE_raise_tariff_gov:0 "Raise Tariffs for Private Corporations"
-IRE_raise_tax:0 "[IRE_raise_tax]"
-IRE_raise_tax_ger:0 "New Taxes for Germans"
-IRE_raise_tax_ofn:0 "New Taxes for Americans"
-IRE_raise_tax_celt:0 "New Taxes for Scottish and Welsh Corporations"
-IRE_raise_tax_gov:0 "New Taxes for Private Corporations"
-IRE_privilege:0 "[IRE_privilege]"
-IRE_privilege_ger:0 "Take Back German's Privileges"
-IRE_privilege_ofn:0 "Take Back American's Privileges"
-IRE_privilege_celt:0 "Take Back Scottish and Welsh Corporation's Privileges"
-IRE_privilege_gov:0 "Take Back Private Corporation's Privileges"
-IRE_disrespect:0 "[IRE_disrespet]"
-IRE_disrespect_ger:0 "Disrespect German Corporations' Members"
-IRE_disrespect_ofn:0 "Disrespect American Corporations' Members"
-IRE_disrespect_celt:0 "Disrespect Scottish and Welsh Corporations' Members"
-IRE_disrespect_gov:0 "Disrespect Private Corporations' Members"
+IRE_dinner_with_corporates:0 "Dinner with [IRE_AdwilType] Corporate Members"
+IRE_privatize:0 "Privatize and Sell to [IRE_AdwilType_C]s"
+IRE_lower_tariffs:0 "Lower Tariffs for [IRE_AdwilType_C]s"
+IRE_no_tax:0 "Remove Taxation for [IRE_AdwilType_C]s"
+IRE_intimidate:0 "Intimidate [IRE_AdwilType_C]s"
+IRE_nationalize:0 "Nationalize [IRE_AdwilType] Corporations"
+IRE_raise_tariff:0 "Raise Tariffs for [IRE_AdwilType_C]s"
+IRE_raise_tax:0 "New Taxes for [IRE_AdwilType_C]s"
+IRE_privilege:0 "Take Back [IRE_AdwilType_C]'s Privileges"
+IRE_disrespect:0 "Disrespect [IRE_AdwilType] Corporations' Members"
 IRE_fund_civfac:0 "Fund a Civilian Factory"
 IRE_fund_milfac:0 "Fund a Military Factory"
 IRE_fund_dock:0 "Fund a Naval Dockyard"
@@ -1316,12 +1290,12 @@ IRE_arms_crisis_groups_desc:0 "Ireland has had a tumultuous history, one that ha
 
 IRE_arms_crisis_NIC:0 "The N.I.C."
 IRE_arms_crisis_NIC_desc:0 "The Northern Irish Constabulary is a government agency that is tasked with policing the Northern Counties Special Zone. Officially a subdivision of the Garda, the N.I.C. spends most of its time acting as the government's hand in dealing with the myriad paramilitary groups that infest the northern counties.\n\nThe somewhat Sisyphean nature of the tasks appointed to the N.I.C. has left the organization in a semi-permanent state of being understaffed and underfunded, leaving no love lost between the Constabulary and the government to which it pledges its allegiance. Corruption is also rife within the organization, as they must sometimes make less than savory deals simply to survive.\n\n\nThe N.I.C.'s opinion of us is: [ROOT.GetIRE_Groups_NIC_Opinion]\nThe N.I.C. is: [ROOT.GetIRE_Groups_NIC_Corruption]\n\nSuppression Efficiency is [?IRE_Groups_NIC_Repression_effective]\n\n\nInvestigation Results:\n\n[ROOT.GetIRE_Investigation_first]\n\n[ROOT.GetIRE_Investigation_second]\n\n[ROOT.GetIRE_Investigation_third]\n\n[ROOT.GetIRE_Investigation_fourth]"
-IRE_arms_crisi_root_out_corruption:0 "Root Out Corruption."
-IRE_arms_crisi_repress_RIRA:0 "Repress RIRA."
-IRE_arms_crisi_repress_SE:0 "Repress SE."
-IRE_arms_crisi_repress_UVF:0 "Repress UVF."
-IRE_arms_crisi_send_weapons_to_NIC:0 "Send Weapons to N.I.C."
-IRE_arms_crisi_raise_officer_salaries:0 "Raise Officer Salaries."
+IRE_arms_crisi_root_out_corruption:0 "Root Out Corruption"
+IRE_arms_crisi_repress_RIRA:0 "Repress RIRA"
+IRE_arms_crisi_repress_SE:0 "Repress SE"
+IRE_arms_crisi_repress_UVF:0 "Repress UVF"
+IRE_arms_crisi_send_weapons_to_NIC:0 "Send Weapons to N.I.C"
+IRE_arms_crisi_raise_officer_salaries:0 "Raise Officer Salaries"
 cp_more_than_5:0 "£command_power §H5§!"
 cp_more_than_5_blocked:0 "£command_power §R5§!"
 cp_more_than_5_tooltip:0 "It costs £command_power §H5§! to take the decision"
@@ -1678,7 +1652,7 @@ IRE_crisis.36.a:0 "A maneuver to save an isle..."
  IRE_crisis.65.desc:0 ""We seem to have received a letter, ma'am," said Francis Pym, somewhat out of breath. The foriegn minister had entered Thatcher's office in 10 Downing street in quite a hurry, barely giving her secretary enough time to announce his presence before he simply barged in.\n\n"Yes, Mr. Pym, we receive quite a few of those," responded the Prime Minister, her voice dripping with sarcasm, "Why exactly did a simple letter demand an unannounced meeting right this very minute?"\n\n"I apologize ma'am, but this couldn't wait," he replied, "This is no simple letter. It's from that Paisley fellow across the sea, over in Ulster. He's written to us, saying that he's secured independence from Ireland and wishes to rejoin the Kingdom."\n\n"Well how wonderful!" exclaimed Thatcher, "Write him back and tell him we accept."\n\n"I, ah, I'm afraid it isn't quite that simple ma'am," Pym stammered.\n\n"Why ever not?" Thatcher asked, "They want to join us, and I don't quite see why we shouldn't let them join."\n\n"Well, it's the Irish themselves, ma'am," he said, "While Paisley might want to rejoin, Ulster is a volatile region, and many might not share the same sentiments and react violently. There's also the Republic in the south to consider; they might not appreciate so brazen a power play."\n\n"I'm not terribly concerned about Ireland's displeasure," the Prime Minister said, voice dry.\n\n"And neither am I, ma'am, but Ireland is still a member of the Einheitspakt," Pym reasoned, "The Germans might not care for us expanding into an area that they nominally protect."\n\nThatcher hummed. The man had a point, but Ulster was a very hard target to give up. "Write Paisley back," she ordered."
  IRE_crisis.65.a:0 ""Welcome him to the Kingdom.""
  IRE_crisis.65.b:0 ""Tell him that we must decline.""
- 
+
  IRE_crisis.66.t:0 "An Expected Outcome"
  IRE_crisis.66.desc:0 ""Looks like Ireland's joining the Zollverein," Schmidt said. "The Dáil approved it last night. I expect they'll have the Taoiseach sign the deal shortly."\n\nSpeer sat back and sighed. "No surprise there, but they're going to take in far more than they'll pay out. Erhard says they're a wreck economically."\n\n"Well, they're a wreck because they let Abs and his gang do whatever they wanted for years before the Civil War. And it's not the worst situation for us economically. After all, they aren't being run by the megacorporations anymore. Nor are there any slaves we have to liberate. In a few years, Ireland will be on its feet again and paying back what they put in."\n\n"Provided they have enough sense to keep IG Farben out," remarked Speer. "They're lost without us, Schmidt, you know that. The Reich is the only thing keeping them afloat, and they know it."\n\nThere was a brief silence in the room as Speer shuffled the papers on his desk and Schmidt thought about what Speer had just said.\n\n"So," said Speer, "I suppose you'll be off to Dublin for the ceremony? Or do the Irish want it to be a head of state sort of thing?""
  IRE_crisis.66.a:0 "Once more into the fold."
@@ -1686,7 +1660,7 @@ IRE_crisis.36.a:0 "A maneuver to save an isle..."
  IRE_crisis.67.t:0 "A Simple Matter of Time"
  IRE_crisis.67.desc:0 "Speer glanced up from his work as Erhard walked into his office with little ceremony, not even pretending to offer the customary salute and greeting as he fell into one of the chairs in front of the Führer's desk. In his hands was an overstuffed manila folder, filled to the brim with what was doubtlessly more paperwork that would do his headache no favors. He slid the folder across the table, disturbing the many forms and memos that Speer had been reading before the economist had so rudely walked in.\n\n"Was that really necessary?" Speer asked. Exhaustion dulled any anger that he may have felt at the insolence of the act to mere annoyance. "What do you want, Erhard?"\n\n"Ireland's economy has been fully integrated into the Zollverein," he replied, briefly fumbling with a lighter as he brought a cigar hidden in his suit pocket to his lips. "That folder there has all the relevant information on the integration process," he said, smoke wafting from his mouth as he spoke.\n\nEyeing the folder with some degree of wariness, Speer opened it and began leafing through the intimidating stack of papers. "Summarize it for me," he said, idly.\n\nErhard sighed, taking the cigar from his lips. "It was disgustingly easy," he began, "Ever since the coup, that new Taoiseach Blaney has been falling over himself to offer more and more concessions to us. I'm surprised he didn't call my office begging to be let in the economic program." His chuckle was mirthless, "With that, combined with the fact that Ireland's economy was almost completely dominated by ours even before the depression a few years back, it was child's play to simply reinforce those old contracts and allow them entry. Even you could have done it- no offence, of course."\n\n"Of course," Speer grumbled, "At least that's the Irish matter put to bed."\n\n"Oh yes," Erhard agreed, "Ireland is now officially ours.""
  IRE_crisis.67.a:0 "Ireland returns to where it began."
- 
+
 
 
 ###Twomey Moment
@@ -1837,27 +1811,27 @@ IRE_eco_collapse.1.t:0 "The Worst Case Scenario"
 IRE_eco_collapse.1.desc:0 "As Danny walked down the beaten road, glancing from block to block, he imagined that what he saw here in Dublin was happening on every other Irish street. With shop fronts boarded up and the muffled city life, that usually could be heard at this time of the night, all but gone. Hope bit the dust behind all the closed doors, and despair had swept in swiftly to fill its place. Indeed, it was an empty and lifeless place to be left in.\n\nDanny thought that, in some weird way, he was no different to each of these abandoned buildings. He too had been ditched by everyone around him the moment the realisation of economic chaos had set in. Though those who had already left had gone on to a far better place, at least that is what he imagined. Nevertheless, they had gone and he was left behind to rot.\n\nOne of the only comforts Danny could find in the midst of it all was the assurance that it could not possibly get any worse. The sheer amount of discontent and devastation would have to get the attention of those in power. Surely they would realise the need for change, they could not go on allowing him, and the rest of Ireland, to be beaten like this. A better country would surely form from all the insanity and confusion.\n\nYet that promise was not as comforting as he had first thought.\n\nThose who had allowed the collapse to happen appeared to be in charge of the recovery. Again Danny asked himself where the hope of the last few years had bought him. And given the bleak reality he endured he cast doubt on any optimism once more.\n\nWhy should he think the next era would be any better, let alone any different, from the last?"
 IRE_eco_collapse.1.a:0 "Things can only get better."
 
-IRE_eco_collapse.2.t:0 "Bread prices soar!"
+IRE_eco_collapse.2.t:0 "Bread Prices Soar!"
 IRE_eco_collapse.2.desc:0 "Families across the isle have become quite used to cutting down the size of their shopping lists. First went the few pleasant luxuries they could afford - televisions, telephones and the like - then more spending had to be stopped. New clothes, shoes, bedding, fuel, furniture; all were becoming too expensive for the majority of households. Yet to every worker's continuing despair, prices continued to become steeper and steeper, while their incomes remained meager. It did not take long before there was little left to cut.\n\nFood had to be taken off their plates, meals needed to be skipped. There was no choice but to ignore their constant aching in their half starved stomachs, all the while knowing that all this was not their fault. Still the prices rose.\n\nWithout food to feed their families, the good citizens of Ireland despaired; for soon they would find there was nothing left to lose but their lives."
 IRE_eco_collapse.2.a:0 "Something, anything, has to be done."
 
-IRE_eco_collapse.3.t:0 "Inflation spirals out of control!"
+IRE_eco_collapse.3.t:0 "Inflation Spirals out of Control!"
 IRE_eco_collapse.3.desc:0 "'PRICES RISE BY OVER 1000%'\n\n"Cara, pack our stuff... yes ALL of it. We have to go, now. Cara!"\n\nThe headline alone was enough to spook Seán to his very core. He dared not read any further in case it added more to his mounting stress. Seán knew he had to act decisive and fast if he were to get out of here with anything of value.\n\n"Yes I'm serious, Cara." Seán exclaimed, struggling to keep his nerves in check, "Pack all you can, it's not like it will be worth anything here!"\n\nHis life's work was gone, his whole fortune, scant as it might have been, was reduced to nothing in the course of a few days. He could not even see a point in staying to the end of the week to receive his pay, it would only be a matter of hours before the bastards in the Dáil wiped that out too. If he wanted a better life for him and his wife, there was no other option for Seán than to leave, and leave fast.\n\n"You know we're doing the right thing for the both of us. There is nothing left for us here, you understand, don't you Cara?""
 IRE_eco_collapse.3.a:0 "Everything of value is lost."
 
-IRE_eco_collapse.4.t:0 "Government bails out Irish companies"
+IRE_eco_collapse.4.t:0 "Government Bails out Irish Companies"
 IRE_eco_collapse.4.desc:0 "Clutching his notice that had arrived from the government, Dermot hobbled as fast as his aging, yet determined, legs could bear. Despite the vigorous shaking of his hands, he grasped at his thin rimmed spectacles, placed them on his pointed nose and forced his tired eyes to dart across the page. By now he was desperate for any sign of respite from the uncertainty that had plagued his life these past few days.\n\nThe relief practically swept Dermot off his feet.\n\nA bailout was to be issued in order to prop up what remained of the Irish economy, and his company was to be included. He could keep his family, and the families of his workers, fed for another day; and his legacy would be preserved in the process.\n\nOf course his worries were far from aswade. The economic collapse had dealt him a great deal of stress, which had surely done no good to his already declining health. Furthermore, Ireland's economy remained stagnant, and if things did not improve quickly then the government's actions would only be postponing the worst of Dermot's fears.\n\nThough he could rest easier tonight, safe in the knowledge that his business would survive another day."
 IRE_eco_collapse.4.a:0 "At least someone was saved."
 
-IRE_eco_collapse.5.t:0 "A rare show of unity"
+IRE_eco_collapse.5.t:0 "A Rare Show of Unity"
 IRE_eco_collapse.5.desc:0 "The Dáil was rarely a place of unity, there was a reason it was widely believed that fist fights were a more common occurrence than handshakes. Though in this time of crisis, there was little choice for the politicians besides working together. So a great deal of pride had been swallowed before the members of the Dáil convened to attempt to work together for once.\n\nStanding in his usual position inside the Dáil, Lemass began his speech with a bold, or perhaps more of an unwitting, comment, "I'm glad you all have finally come round to my way of thinking."\n\n"Oh for heaven's sake sod off Lemass, get on with it man."\n\nThe Taoiseach scowled into the crowd of TDs who were assembled, trying in vain to pick out who had spoken out in such a brash manner. Failing to find the culprit, he pressed on with the more urgent matters at hand.\n\n"As I am sure we are all aware, the current economic situation has deteriorated far beyond what any of us could have, er, anticipated. Now we must work together to turn this sinking ship around, or try and bailout what we can."\n\nNot one man expected for the following to be easy, however the reality that they had all agreed to at least attempt a fix of the waning economy was enough to usher in a hope for a fundamentally different future. A future where Irish politics was less divise and more constructive. A hopeful future that was unfortunately far removed from the reality of what Ireland was yet to endure."
 IRE_eco_collapse.5.a:0 "Off to a good enough start."
 
-IRE_eco_collapse.6.t:0 "The next steps"
+IRE_eco_collapse.6.t:0 "The Next Steps"
 IRE_eco_collapse.6.desc:0 "It was the beginning of another day, before the daily tense activity of the Dáil had come into life, and Lemass was already working hard on how he was to express his preferred future economic policy to the rest of his party. The speech, scheduled for later that same day, was also going to mark a key turning point in the overall economic situation of Ireland; from decline to recovery, a process Lemass desperately wanted to be in control of. Better that he was in command than some crank from outside Fianna Fáil, he thought as he stood up to take his seat in the Dáil.\n\nAfter the strained business of facing the Dáil was over with, Lemass headed hastily to the destination of the looming meeting, all the while going over the plans he had made earlier that day. And once the hour of the party congress had arrived, the taoiseach's delivery was thoroughly rehearsed.\n\n"The entire nation stands at a crossroads, and we, in the Fianna Fáil, are the ones most trusted to lead them toward a brighter age. There is no doubt that the fortunes of the people of Ireland have fallen foul to a spectacular downwards spiral, in which we empathise greatly. These peoples' futures demand that we, as a party take action; now, my accomplished colleague, deputy Ryan, has already put forward such a thorough plan for action that will assuredly usher in the new economic age. All I ask from you, as members of Fianna Fáil, is to back this deal and end this madness."\n\nA tired ripple of applause came up from the party members in reply, nothing like as resounding a response as Lemass had hoped for. In a moment, the man realised how futile his actions were. Even his party would remain uncooperative."
 IRE_eco_collapse.6.a:0 "Inspiring words, falling on deaf ears, end in nothing."
 
-IRE_eco_collapse.7.t:0 "Haunts from the past and fear for the future"
+IRE_eco_collapse.7.t:0 "Haunts from the Past and Fear for the Future"
 IRE_eco_collapse.7.desc:0 ""I hope you're aware that you could have prevented this whole thing."\n\nCorish's words stung Lemass far more than he was willing to admit even to himself. If the man was not of such importance to the government, he would have swung back in a much less literary manner. But even that would not have removed the nagging in the back of his mind that constantly questions if what he did, and carries on doing, is right.\n\n"I've done nothing but what's best for Ireland at all times, and I plan to continue doing just that," the growingly despondent Taoiseach responded. "Now, er, let's just move on to what we can do now, rather than whatever any of us did not do in the past, huh? For starters, we really need to start letting the Americans invest in Ireland."\n\n"And allow for this whole cycle to repeat with the US instead of the Germans? I'd rather hope not." McAntee shot back. "We need to rely on no one but ourselves, that way this chaos will never come back to haunt us."\n\nCorish nodded with slight approval; seeing this, Lemass tried to keep his face from dropping in despair. Nothing ever came easy in Ireland, but this was ridiculous. Hammering out a new economic policy was going to be a herculean task, and Lemass knew he had vanishingly little willingness to overcome such an obstacle. Though he was not about to let his growing hopelessness catch on, he had always been a fighter, so to fight was his only option if he were to hang on."
 IRE_eco_collapse.7.a:0 "We move forward."
 
@@ -1919,7 +1893,7 @@ IRE_operation_banner.tt:0 "§RWe must end the UVF's Reign of Terror.§!"
 IRE_puppetmaster.tt:0 "§RTwomey's Regime must not last for Long.§!"
 IRE_continue_peace.tt:0 "§RThe Path of Peace will be Expensive.§!"
 
-IRE_plan_chosen.tt:0 "§YWe have chosen a Plan.§!"
+IRE_plan_chosen.tt:0 "§YWe have chosen a plan.§!"
 IRE_lemass_rising_tide_plan.tt:0 "§YWe will pick Lemass's Plan.§!"
 IRE_macentees_austerity_plan.tt:0 "§YWe will pick Macentee's Plan.§!"
 IRE_corish_new_republic_plan.tt:0 "§YWe will pick Corish's Plan.§!"
@@ -1931,7 +1905,7 @@ IRE_corish_new_republic_plan.tt:0 "§YWe will pick Corish's Plan.§!"
  IRE_flavor.1.b:0 "Tell the committee to spare no expense."
 
  IRE_flavor.2.t:0 "A Garden of Remembrance"
- IRE_flavor.2.desc:0 "The amount of monuments in Dublin to commemorate the Easter Rising is rather slim; the only one of note is a statue of the death mythical hero Cúchulainn inside the General Post Office. The committee has identified the need for an open, public memorial space that can remind the people of Dublin of their countrymen's sacrifice for freedom, as well as the need for beautification in downtown Dublin in general.\n\nA corner of Rotunda Gardens, in Parnell Square, has already been earmarked on account of its historical significance: it's where the Irish Volunteers were founded in 1913, and where several of the Easter Rising's leaders were briefly detained before being sent to Kilmainham Gaol. A design by architect Dáithí Hanly has been approved, and ground will be broken next week. However, the major question is what exactly should be commemorated: just the fallen of the 1916 rising, or earlier anti-British rebellions. The United Irishmen of 1798, Robert Emmet in 1803, Young Ireland in 1848, and the Fenian Rising of 1867 all lack similar public memorials, and it would be a boon to public rleations if the cause of the Rising were presented as the fulfillment of these earlier rebellions."
+ IRE_flavor.2.desc:0 "The amount of monuments in Dublin to commemorate the Easter Rising is rather slim; the only one of note is a statue of the death mythical hero Cúchulainn inside the General Post Office. The committee has identified the need for an open, public memorial space that can remind the people of Dublin of their countrymen's sacrifice for freedom, as well as the need for beautification in downtown Dublin in general.\n\nA corner of Rotunda Gardens, in Parnell Square, has already been earmarked on account of its historical significance: it's where the Irish Volunteers were founded in 1913, and where several of the Easter Rising's leaders were briefly detained before being sent to Kilmainham Gaol. A design by architect Dáithí Hanly has been approved, and ground will be broken next week. However, the major question is what exactly should be commemorated: just the fallen of the 1916 rising, or earlier anti-British rebellions. The United Irishmen of 1798, Robert Emmet in 1803, Young Ireland in 1848, and the Fenian Rising of 1867 all lack similar public memorials, and it would be a boon to public relations if the cause of the Rising were presented as the fulfillment of these earlier rebellions."
  IRE_flavor.2.a:0 "Make it a memorial to just the Rising and the War of Independence."
  IRE_flavor.2.b:0 "All fallen sons of Ireland deserve to be honored."
 
@@ -1939,7 +1913,6 @@ IRE_corish_new_republic_plan.tt:0 "§YWe will pick Corish's Plan.§!"
  IRE_flavor.3.desc:0 "Robert Emmet, leader of an 1803 rebellion against Britain, was legendarily quoted as saying, "When my country takes her place among the nations of the earth, then and not till then, let my epitaph be written." And now, Ireland is a free and united nation (though not as united up north as some would hope it to be). Although Emmet was executed by the British more than a century before the Rising, furthering the association between such lauded heroes and the modern Republic is a boon that cannot be understated.\n\nAn area of open land known as the Bully's Acre is said to be the final resting place of Emmet, though his body has never actually been discovered. Nevertheless, it will make a good location for a memorial. However, the question still remains of what exactly to engrave as an epitaph? Should he be extolled as a martyr for the cause of self-determination, or as a patriot who wanted Irish unity?"
  IRE_flavor.3.a:0 "Here lies Robert Emmet, who died for a free Ireland."
  IRE_flavor.3.b:0 "Here lies Robert Emmet, who died for a united Ireland."
-
 
  IRE_flavor.4.t:0 "Commemorative Coins?"
  IRE_flavor.4.desc:0 "While suggesting ideas to make the commemoration more ubiquitous around Ireland and outlast the date of the anniversary, some members of the committee suggested an unlikely field: numismatics. They cited examples from recent English and American history of minting commemorative coins to celebrate important anniversaries, and it is not an idea without merit.\n\nA new denomination and design have already been voted upon by the committee: a silver ten-shilling coin, the highest face value of a coin yet, designed by artist T. Hugh Paget featuring an image of Patrick Pearse on the obverse the Cúchulainn memorial on the reverse. Ideally, two million of them would be minted and distributed for public circulation, but minting would stop in 1967 and no further coins of that denomination will be produced.\n\nWhile it has been approved by the planning committee and received warmly by many others in the government, some think that it would be folly to create a new denomination of coins only for one year in limited numbers. Does it deserve to enter circulation?"
@@ -1951,7 +1924,6 @@ IRE_corish_new_republic_plan.tt:0 "§YWe will pick Corish's Plan.§!"
  IRE_flavor.5.desc:0 "Late last night, central Dublin was awoken by a loud blast and the sounds of stone shattering on pavement. The dawn came and the origin of the noise became clear: someone had blown up Nelson's Pillar.\n\nThe forty meter-high column, which depicted Admiral Horatio Nelson, had been erected in the middle of what is now O'Connell Street over a hundred and fifty years ago to celebrate the his victory over the French at Trafalgar. It had always been a source of contention and a target of ire for Irish nationalists: during the Easter Rising, the Irish Republicans attempted to demolish the Pillar to no avail. Petitions and bills to have it dismantled or relocated have continually cropped up in the last half-century, but they continually faced opposition from the Pillar Trust, which owns the memorial, and the Dáil's unwillingness to bother drafting legislation to enforce it.\n\nAnd now, nearly fifty years after the first attempt at toppling it, some enterprising citizens have taken the matter into their own hands. The upper half of the pillar was severed and fell to the ground due to the blast, which caused surprisingly little damage to surrounding buildings and vehicles. The statue of Nelson that topped the pillar lies shattered, its surviving fragments severely damaged in the fall. The Gardai is unsurprisingly looking into potential involvement by the nationalist rebel group Saor Éire, but their progress seems unlikely. Public opinion ranges from indifferent to celebratory, but the probability that it was done by armed paramilitaries does deserve some form of condemnation."
  IRE_flavor.5.a:0 "Denounce the act and offer the Pillar Trust monetary compensation."
  IRE_flavor.5.b:0 "Truth be told, it was a bit of an eyesore..."
-
 
  IRE_flavor.6.t:0 "The Semicentennial of the Easter Rising"
  IRE_flavor.6.desc:0 "Today, Easter Sunday 1966, is the date where the Republic of Ireland commemorates the fiftieth anniversary of the rebellion that inspired its independence. Festivities began beneath the morning sun in downtown Dublin, where a long parade of Garda officers and Defense Force soldiers marched down O'Connell Street, followed by nearly a thousand surviving veterans who fought in the Rising. Crowds cheered, medals were issued, and President De Valera was (unsurprisingly) overseeing all the festivities from a stand set up in front of the General Post Office. Some noted the conspicuous absences of politicians like Lynch, Flanagan, and Corish, and speculated whether it was an intentional snub by the President.\n\nLater in the day, the center of the ceremonies shifted a bit outside of the city epicenter, to the former prison of Kilmainham Gaol. It was here numerous Irish nationalists, including De Valera himself, served time for opposing the British, and it was also here that sixteen of the Rising's leaders were executed by firing squad. The President toured the facilities, recently rehabilitated thanks to a campaign by private citizens, announced the opening of a history museum on the grounds, and concluded ceremonies by laying a wreath for the fallen in the execution yard."
