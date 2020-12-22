@@ -262,7 +262,7 @@
  INFANTRY_TITLE_SPECIAL:0 "특수부대"
  INFANTRY_TITLE_MOTORISED:1 "기동 보병"
  INFANTRY_TITLE_SUPPORT:0 "지원 장비"
- INFANTRY_TITLE_SQUAD_WEAPONS:0 "분대 무기체계"
+ INFANTRY_TITLE_SQUAD_WEAPONS:0 "지원화기체계"
  INFANTRY_TITLE_ANTI_TANK_WEAPONS:0 "대전차 무기"
  INFANTRY_TITLE_ANTI_AIR_WEAPONS:0 "대공 무기"
  INFANTRY_TITLE_SPECIAL_WEAPONS:0 "특수 장비"
@@ -370,6 +370,20 @@
     support_weapons11:0 "지원 화기 XI"
     support_weapons11_desc:0 "새로 개발된 대인지뢰를 시험해 본 결과 현재 사용하는 모델보다 찾기 힘들고 살상반경은 더 넓어 더 효율적이라는 것이 밝혀졌습니다."
   ## 지원화기 ##
+
+  ## 야시경 ##
+    night_vision_1:0 "Night Vision I"
+    night_vision_1_desc:0 "Early infra-red technology has proved successful in its usage during the Second World War. Although originally for long-range combat, the development of lighter models has allowed more of our troops to be more aware during night combat."
+
+    night_vision_2:0 "Night Vision II"
+    night_vision_2_desc:0 "As land warfare becomes faster paced, we must be more prepared for night engagements. Adapting earlier prototypes, we are now able to use moonlight as an alternative to an extra infra-red light source in our night vision models."
+
+    night_vision_3:0 "Night Vision III"
+    night_vision_3_desc:0 "As technology improves, so must our night vision models. Improved image-intensifier technology allows for increased illumination in moonless environments, as well as an increase in reliability and image resolution."
+
+    night_vision_4:0 "Night Vision IV"
+    night_vision_4_desc:0 "As we enter the modern age, innovation is happening faster than ever before. Further improvements to image resolution and amplification allow for greater visibility when using night vision technology, at the cost of higher power consumption."
+  ## 야시경 ##
 
   ## 보병 대전차 ##
     infantry_at:0 "" #장비 잠금 해제, 그러니 장비 이름과 설명을 씀
@@ -732,13 +746,13 @@
  
  ## Attack Helicopter Company
  tech_attack_helicopter_company:0 "Attack Helicopter Company I"
- tech_attack_helicopter_company_desc:0 ""
+ tech_attack_helicopter_company_desc:0 "As helicopters have become bulkier and able to carry heavier loads, their potential for military use is obvious. Supporting our units with helicopters powerful enough to carry military armaments, such as autocannons and anti-tank missiles, may prove extremely beneficial."
  tech_attack_helicopter_company2:0 "Attack Helicopter Company II"
- tech_attack_helicopter_company2_desc:0 ""
+ tech_attack_helicopter_company2_desc:0 "Helicopters have begun to prove their worth on the battlefield. Developing more adaptable platforms and weapons created specifically for helicopters operating in infantry support roles will allow for more firepower to be packed on a single craft."
  tech_attack_helicopter_company3:0 "Attack Helicopter Company III"
- tech_attack_helicopter_company3_desc:0 ""
+ tech_attack_helicopter_company3_desc:0 "As attack helicopters mature into a core part of warfare, many tactics have formed around them. The creation of advanced anti-tank weapons and air-to-air missiles should be prioritized to make sure that attack helicopters are as effective as possible."
  tech_attack_helicopter_company4:0 "Attack Helicopter Company IV"
- tech_attack_helicopter_company4_desc:0 ""
+ tech_attack_helicopter_company4_desc:0 "Helicopters are becoming indispensable to ground warfare. The attack helicopter has revolutionized the way we fight wars, and we must make sure that this progress does not stop. Lighter frames, more powerful armaments, and easier production all must be looked into."
  
 #### 지원 폴더 ####
  
