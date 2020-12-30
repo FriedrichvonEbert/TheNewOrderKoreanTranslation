@@ -185,9 +185,9 @@
  SAM_Alexander_Albov_sec:0 "Alexander Albov"
  
  ### Flags ###
- SAM_Zykov:0 "Zykov has won the power struggle."
- SAM_Bunyachenko:0 "Bunyachenko has won the power struggle."
- SAM_Oktan:0 "Oktan has won the power struggle."
+ SAM_Zykov:0 "지코프가 권력 투쟁에서 승리하였습니다."
+ SAM_Bunyachenko:0 "부냐첸코가 권력 투쟁에서 승리하였습니다."
+ SAM_Oktan:0 "옥탄이 권력 투쟁에서 승리하였습니다."
  
  ### Tooltips ###
  SAM_gdp_growth_tt:0 "This will slightly §Gincrease§! our §YGDP Growth§!.\n"
@@ -233,27 +233,27 @@
  SAM_smuggle_support_equipment_tt:0 "We will smuggle in an additional §G25§! §YSupport Equipment§! each month.\n"
  SAM_smuggle_motorized_equipment_tt:0 "We will smuggle in an additional §G10§! §YMotorized Equipment§! each month.\n"
  
- SAM_smuggling_cut:0 "We have §Ycut ties§! with Germany, dismantling our smuggling network. (0% efficiency)"
- SAM_smuggling_collapse:0 "Reichskommissariat Moskowien has §rcollapsed§!, severely crippling our smuggling network. (20% efficiency)"
- SAM_smuggling_civil_war:0 "Germany is embroiled in a §Rcivil war§!, crippling our smuggling network. (40% efficiency)"
- SAM_smuggling_separated:0 "Reichskommissariat Moskowien has been §Oseparated§! from Germany, hurting our smuggling network. (60% efficiency)"
- SAM_smuggling_order:0 "Germany has §Yrestored order§! to Moskowien, slightly hurting our smuggling network. (80% efficiency)"
- SAM_smuggling_normal:0 "The situation in the Reichskommissariats is §Gnormal§!. (100% efficiency)"
+ SAM_smuggling_cut:0 "우리는 독일과 §Y절연§!했으며, 우리의 밀수 네트워크는 해체되었습니다. (효율 0%)"
+ SAM_smuggling_collapse:0 "모스코비엔 국가판무관부는 §r몰락§!했으며, 우리의 밀수 네트워크는 심각한 손상을 입었습니다. (효율 20%)"
+ SAM_smuggling_civil_war:0 "Germany is embroiled in a §Rcivil war§!, crippling our smuggling network. (효율 40%)"
+ SAM_smuggling_separated:0 "모스코비엔 국가판무관부는 독일로부터 §O분리§!했으며, 우리의 밀수 네트워크 hurting our smuggling network. (효율 60%)"
+ SAM_smuggling_order:0 "Germany has §Yrestored order§! to Moskowien, slightly hurting our smuggling network. (효율 80%)"
+ SAM_smuggling_normal:0 "국가판무관부에서의 상황은 §G정상§!입니다. (효율 100%)"
  
- SAM_huge_network:0 "§RVery High§!"
- SAM_large_network:0 "§OHigh§!"
- SAM_medium_network:0 "§YAverage§!"
+ SAM_huge_network:0 "§R매우 높음§!"
+ SAM_large_network:0 "§O높음§!"
+ SAM_medium_network:0 "§Y보통§!"
  SAM_small_network:0 "§gNegligible§!"
  
- SAM_very_high_civilian_morale:0 "§GVery High§!"
- SAM_high_civilian_morale:0 "§YHigh§!"
- SAM_medium_civilian_morale:0 "§OAverage§!"
- SAM_low_civilian_morale:0 "§RLow§!"
+ SAM_very_high_civilian_morale:0 "§G매우 높음§!"
+ SAM_high_civilian_morale:0 "§Y높음§!"
+ SAM_medium_civilian_morale:0 "§O보통§!"
+ SAM_low_civilian_morale:0 "§R낮음§!"
  
- SAM_very_high_military_morale:0 "§GVery High§!"
- SAM_high_military_morale:0 "§YHigh§!"
- SAM_medium_military_morale:0 "§OAverage§!"
- SAM_low_military_morale:0 "§RLow§!"
+ SAM_very_high_military_morale:0 "§G매우 높음§!"
+ SAM_high_military_morale:0 "§Y높음§!"
+ SAM_medium_military_morale:0 "§O보통§!"
+ SAM_low_military_morale:0 "§R낮음§!"
  
  SAM_smuggling_shipment:0 "Smuggling Shipment"
  SAM_expand_smuggling_network:0 "Expand the Smuggling Network"
@@ -592,19 +592,19 @@
  SAM_low_inner_circle_tension:0 "§GLow§!"
  SAM_negligent_inner_circle_tension:0 "§LNegligent§!"
  
- SAM_high_military_influence:0 "§OHigh§!"
- SAM_medium_military_influence:0 "§YMedium§!"
- SAM_low_military_influence:0 "§GLow§!"
+ SAM_high_military_influence:0 "§O높음§!"
+ SAM_medium_military_influence:0 "§Y보통§!"
+ SAM_low_military_influence:0 "§G낮음§!"
  
- SAM_high_civilian_influence:0 "§OHigh§!"
- SAM_medium_civilian_influence:0 "§YMedium§!"
- SAM_low_civilian_influence:0 "§GLow§!"
+ SAM_high_civilian_influence:0 "§O높음§!"
+ SAM_medium_civilian_influence:0 "§Y보통§!"
+ SAM_low_civilian_influence:0 "§G낮음§!"
  
- SAM_high_inner_circle_influence:0 "§OHigh§!"
- SAM_medium_inner_circle_influence:0 "§YMedium§!"
- SAM_low_inner_circle_influence:0 "§GLow§!"
+ SAM_high_inner_circle_influence:0 "§O높음§!"
+ SAM_medium_inner_circle_influence:0 "§Y보통§!"
+ SAM_low_inner_circle_influence:0 "§G낮음§!"
  
- SAM_unity_party_category:0 "State of the Unity Party"
+ SAM_unity_party_category:0 "통합당의 현 상황"
  SAM_unity_party_category_desc:0 "Yedinstvo, the Unity Party, is a Frankenstein creation of Miletiy Zykov meant to represent a combination of pro-democrat, business, and military interests that have kept him afloat so far. Thus, the party's split is not based on ideology, but instead on personal interests. The military wants to merge the new army with Yedinstvo and to turn away from democracy. The businesses want a strong, centralized government that protects private business and keeps the peace, while the democrats want a transition towards a full democracy. Juggling all of these factions will be a challenge.\n\nThe current §Ybalance of power§! within the [SAM.GetName], between the factions of:\n- §jThe ROA§!\n- §TBusinesses§!\n- §MDemocrats§!\n\nIs in favor of [GetSAM_zykov_contender_influence]\n"
 
  SAM_ROA_dominant:0 "§jThe ROA§! - (§j[?SAM_ROA_faction_strength]§!-§T[?SAM_business_faction_strength]§!-§M[?SAM_democrat_faction_strength]§!).\nDivision Organisation: §G+10%§! War Support: §G+5%§!"
@@ -627,8 +627,8 @@
  
  SAM_business_trade_with_USA:0 "Eliminate Tariffs with the §MOFN§!"
  SAM_business_trade_with_USA_tt:0 "Tariffs with the §MOFN§! shall be eliminated, granting us access to §Ygreater trade oppurtunities in the future§!."
- SAM_business_increase_exports:0 "Loosen §YTrade Restrictions§!"
- SAM_business_increase_exports_tt:0 "Trade laws will be relaxed, increasing the [SAM.GetName]'s connection with the §Yglobal market§!."
+ SAM_business_increase_exports:0 "§Y무역 규제§! 완화"
+ SAM_business_increase_exports_tt:0 "무역 법안은 느슨해질 것이며, [SAM.GetName]와 §Y세계 시장§!간의 연결을 증대시킬 것입니다."
  
  SAM_democrat_decrease_poverty:0 "Begin §YPoverty Relief Efforts§!"
  SAM_democrat_decrease_poverty_tt:0 "Government initiatives to decrease Russia's §Ypoverty rate§! will be undertaken."
