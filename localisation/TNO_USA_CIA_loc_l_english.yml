@@ -59,19 +59,19 @@
  USA_CIA_Mission_Cost_45_Million_blocked:0 "§R45M 달러§!"
  USA_CIA_Mission_Cost_50_Million_blocked:0 "§R50M 달러§!"
 
- USA_CIA_Mission_ShortCost_15_Million:0 "§w$15M§!"
- USA_CIA_Mission_ShortCost_25_Million:0 "§w$25M§!"
- USA_CIA_Mission_ShortCost_30_Million:0 "§w$30M§!"
- USA_CIA_Mission_ShortCost_35_Million:0 "§w$35M§!"
- USA_CIA_Mission_ShortCost_45_Million:0 "§w$45M§!"
- USA_CIA_Mission_ShortCost_50_Million:0 "§w$50M§!"
+ USA_CIA_Mission_ShortCost_15_Million:0 "§w15M 달러§!"
+ USA_CIA_Mission_ShortCost_25_Million:0 "§w25M 달러§!"
+ USA_CIA_Mission_ShortCost_30_Million:0 "§w30M 달러§!"
+ USA_CIA_Mission_ShortCost_35_Million:0 "§w35M 달러§!"
+ USA_CIA_Mission_ShortCost_45_Million:0 "§w45M 달러§!"
+ USA_CIA_Mission_ShortCost_50_Million:0 "§w50M 달러§!"
 
- USA_CIA_Mission_ShortCost_15_Million_blocked:0 "§R$15M§!"
- USA_CIA_Mission_ShortCost_25_Million_blocked:0 "§R$25M§!"
- USA_CIA_Mission_ShortCost_30_Million_blocked:0 "§R$30M§!"
- USA_CIA_Mission_ShortCost_35_Million_blocked:0 "§R$35M§!"
- USA_CIA_Mission_ShortCost_45_Million_blocked:0 "§R$45M§!"
- USA_CIA_Mission_ShortCost_50_Million_blocked:0 "§R$50M§!"
+ USA_CIA_Mission_ShortCost_15_Million_blocked:0 "§R15M 달러§!"
+ USA_CIA_Mission_ShortCost_25_Million_blocked:0 "§R25M 달러§!"
+ USA_CIA_Mission_ShortCost_30_Million_blocked:0 "§R30M 달러§!"
+ USA_CIA_Mission_ShortCost_35_Million_blocked:0 "§R35M 달러§!"
+ USA_CIA_Mission_ShortCost_45_Million_blocked:0 "§R45M 달러§!"
+ USA_CIA_Mission_ShortCost_50_Million_blocked:0 "§R50M 달러§!"
 
  USA_CIA_Mission_Cost_2500_guns:0 "§w2500§! £GFX_weapon_icon" # might remove the weapon budget
  USA_CIA_Mission_Cost_2500_guns_blocked:0 "§R2500§! £GFX_weapon_icon"
@@ -98,9 +98,9 @@
 
  USA_CIA_Training_Title_tt:0 "§R훈련§!"
 
- USA_CIA_not_at_operative_cap:0 "We currenty have less than §Y10§! operatives.\n"
- USA_CIA_add_operative:0 "We will §Ggain§! a new operative.\n"
- USA_CIA_operative_returns:0 "Our operative will be ready for a new task.\n"
+ USA_CIA_not_at_operative_cap:0 "우리는 현재 보유한 요원은 §Y10§!명보다 적습니다.\n"
+ USA_CIA_add_operative:0 "우리는 새로운 요원을 §G채용§!할 것입니다.\n"
+ USA_CIA_operative_returns:0 "우리 요원이 새로운 작전을 행할 준비가 되었습니다.\n"
  USA_CIA_add_1_expertise:0 "We will §Ggain§! §Y1§! expertise.\n"
  USA_CIA_add_3_expertise:0 "We will §Ggain§! §Y3§! expertise.\n"
  USA_CIA_add_5_expertise:0 "We will §Ggain§! §Y5§! expertise.\n"
@@ -125,27 +125,27 @@
  USA_CIA_recruit_button_status:0 "[GetCIARecruitStatus]"
  USA_CIA_can_recruit:0 "We can recruit a new operative in exchange for §Y15§! million and §Y50§! expertise. Once the training is complete we will regain §Y25§! expertise."
  USA_CIA_cant_recruit:0 "We can not recruit any more agents at this time. Recruiting an agent requires §Y15§! million and §Y50§! expertise."
- USA_CIA_at_operative_cap:0 "We currently have our maximum of §Y10§! operatives."
- USA_CIA_training_progress:0 "Our new operatives training is §Y[?USA_CIA_recruit_progress]%§! complete.\n"
- USA_CIA_already_recruiting:0 "We are already recruiting a new operative."
- USA_CIA_not_recruiting:0 "We are not currently training a new operative."
+ USA_CIA_at_operative_cap:0 "우리가 현재 보유한 요원은 최대 한도 §Y10명§!에 도달했습니다."
+ USA_CIA_training_progress:0 "새 요원 훈련은 §Y[?USA_CIA_recruit_progress]%§! 완료된 상태입니다.\n"
+ USA_CIA_already_recruiting:0 "우리는 이미 새로운 요원을 채용중입니다."
+ USA_CIA_not_recruiting:0 "우리는 현재 새로운 요원을 채용하고 있지 않습니다."
 
- USA_CIA_decrease_GER_capability:0 "We shall launch an operation aimed to §Gdamage§! the ability of §jGermany§! to conduct operations in this region.\n"
+ USA_CIA_decrease_GER_capability:0 "우리는 이 지역 내 §j독일§!의 작전 수행 능력을 §G손상§!시키기 위한 작전을 개시할 것입니다.\n"
 
 
- USA_CIA_destabilize_japan_tt:0 "We shall launch an operation aimed at hurting Japanese domestic §Ystabillity.§!\n"
- USA_CIA_korean_resistance:0 "We shall launch an operation to fund Korean resistance against Japan.\n"
- USA_CIA_vladivostok_resistance:0 "We shall launch an operation to incite resistance against the Japanese occupation of Vladivostok.\n"
- USA_CIA_chinese_resistance:0 "We shall launch an operation to help the resistance against Japanese rule in the Chinese coastal cities.\n"
- USA_CIA_hawaii_resistance:0 "We shall launch an operation to aid the brave freedom fighters in the Japanese occupied state of Hawaii.\n"
+ USA_CIA_destabilize_japan_tt:0 "우리는 일본 내부의 §Y안정성§!을 해하는 작전을 개시할 것입니다.\n"
+ USA_CIA_korean_resistance:0 "우리는 일본에 대항하여 조선 독립 단체에 자금을 지원하는 작전을 개시할 것입니다.\n"
+ USA_CIA_vladivostok_resistance:0 "우리는 블라디보스토크의 일본 점령군에 맞서는 저항을 선동하는 작전을 시작할 것입니다.\n"
+ USA_CIA_chinese_resistance:0 "우리는 일본이 지배하는 중국 도시의 저항 세력을 돕는 작전을 시작할 것입니다.\n"
+ USA_CIA_hawaii_resistance:0 "우리는 일본이 점령한 하와이주의 용감한 자유투사를 지원하는 작전을 시작할 것입니다.\n"
 
- USA_CIA_give_fri_buff:0 "We shall direct the CIA to provide §Goperational support§! to Free Indonesia.\n"
- USA_CIA_give_ins_debuff:0 "We shall direct the CIA to sabotage the §Roperational integrity§! of the Indonesian forces.\n"
- USA_CIA_sabotage_ins:0 "We will launch an operation to §Rcripple§! Indonesian infrastructure.\n"
+ USA_CIA_give_fri_buff:0 "우리는 CIA에게 §G작전 수행§!으로 자유 인도네시아를 지원하도록 지시할 것입니다.\n"
+ USA_CIA_give_ins_debuff:0 "우리는 CIA에게 인도네시아 군의 §R완전한 작전 수행§!을 사보타주하도록 지시할 것입니다.\n"
+ USA_CIA_sabotage_ins:0 "우리는 인도네시아 기반시설을 §R마비§!시키는 작전을 개시할 것입니다.\n"
 
- USA_speer_radio_address_tt:0 "This will launch an operation to§Gboost stability and add political power§! to Speer's Germany in the Civil War."
- USA_speer_send_weapons_tt:0 "This will launch an operation to §Gboost morale and fighting ability§! in Speer's Germany in the Civil War."
- USA_speer_support_internationally_tt:0 "This will launch an operation to §Gsend infantry equipment§! to Speer's Germany in the Civil War."
+ USA_speer_radio_address_tt:0 "이는 내전에서 슈페어의 독일에 §G안정도를 늘리고 정치력 획득량을 증가시키는§! 작전을 개시할 것입니다."
+ USA_speer_send_weapons_tt:0 "이는 내전에서 슈페어의 독일에 §G사기와 전투능력을 향상시키는§! 작전을 개시할 것입니다."
+ USA_speer_support_internationally_tt:0 "이는 내전에서 슈페어의 독일에 §G보병 장비를 제공§!하는 작전을 개시할 것입니다."
  USA_speer_send_fighters_tt:0 "This will launch an operation to send §Gfighter planes§! to Speer's Germany in the Civil War."
  USA_CIA_early_game_speer_reactionary_weaken:0 "An operation to discredit §Rreactionary§! voices within the Reich will be initiated.\n"
  USA_CIA_early_game_speer_reformist_strengthen:0 "An operation to strengthen §Greformist§! voices within the Reich will be initiated.\n"
@@ -186,10 +186,10 @@
  USA_CIA_Allign_Iberia_Towards_Franco:0 "Allign Iberian Politics Towards Franco"
  USA_CIA_Allign_Iberia_Towards_Salazar:0 "Allign Iberian Politics Towards Salazar"
  USA_CIA_Iberia_AAS_Resources:0 "Contribute to the Iberian AAS"
- USA_CIA_Iberia_Strike_At_Iberian_Terrorism:0 "Strike at Iberian Terrorism"
- USA_CIA_Fund_Gibralter_Dam:0 "Fund the Gibralter Dam"
+ USA_CIA_Iberia_Strike_At_Iberian_Terrorism:0 "이베리아 테러리스트 공격"
+ USA_CIA_Fund_Gibralter_Dam:0 "지브롤터 댐에 자금 지원"
  USA_CIA_Add_Reform_Iberia:0 "Rally Reformists in the Iberian Council"
- USA_CIA_Add_Stabilize_Iberia:0 "Stabilize Iberia"
+ USA_CIA_Add_Stabilize_Iberia:0 "이베리아 안정화"
  USA_CIA_Back_Iberian_Wars:0 "Supply Parties in the Iberian Wars"
 
  USA_CIA_IBR_align_caudillo_franco:0 "By all accounts, the twin Iberian caudillos of Francisco Franco and António de Oliveira Salazar have a good working relationship. However, not everyone in the Union holds them in equal esteem. Through a variety of active measures, we can ensure that §YFranco§! will dominate Iberian leadership."
@@ -201,12 +201,12 @@
  USA_CIA_IBR_reform:0 "An effort to aid reformist causes within the Iberian government will be initiated.\n"
  USA_CIA_IBR_interfer_wars:0 "An operation to aid friendly factions in the Iberian Wars will be initiated.\n"
 
- USA_CIA_franco_boost:0 "The popularity of Franco will greatly increase.\n"
- USA_CIA_salazar_boost:0 "The popularity of Salazar will greatly increase.\n"
+ USA_CIA_franco_boost:0 "프랑코의 지지도는 크게 상승할 것입니다.\n"
+ USA_CIA_salazar_boost:0 "살리자르의 지지도는 크게 상승할 것입니다.\n"
  USA_CIA_aas_boost:0 "We will §Ggain§! §Y3 AAS§! resources.\n"
  USA_CIA_terrorism_harm:0 "All active terrorists will suffer §Gdecrease.§!\n"
  USA_CIA_gibraltar_boost:0 "Costs for maintaining and upgrading the dam will §Gdecrease.§!\n"
- USA_CIA_stability_boost:0 "§YStability§! will §Gincrease.§!\n"
+ USA_CIA_stability_boost:0 "§Y안정도§!는 §G상승§!할 것입니다.\n"
  USA_CIA_reformism_boost:0 "§YReformism§! will §Yincrease.§!\n"
 
  USA_CIA_trade_influence_tooltip:0 "An operation to strengthen our trade influence with a country in the region will be launched.\n"
@@ -292,7 +292,7 @@
 ##########################################################
 
  USA_CIA_decisions_category:0 "CIA 국제작전"
- USA_CIA_decisions_category_desc:0 "We are administrating a vast network of agents, operators and facilitators around the world. They are hired with the goal of working for conditions more conducive to American diplomacy and in favor for the OFN."
+ USA_CIA_decisions_category_desc:0 "우리는 전 세계의 요원, 오퍼레이터, 조력자들로 구성된 방대한 네트워크를 관리하고 있습니다. 그들은 미국 외교와 OFN에게 더 유리한 상태를 만드는 것을 목표로 하고 있습니다."
  USA_Fallen_Domino_tooltip:0 "§G노르웨이 저항세력§!과 §Y접촉해 영향력을 행사할 방법§!이 해금될 것입니다."
 
  USA_speer_radio_address:0 "자유 독일 라디오"
@@ -316,7 +316,7 @@
 ### NORTH AMERICA
 ###################
 
- USA_CIA_Dummy_Decision_1:0 "§YOperation§! §PMIDNIGHT CLIMAX§!"
+ USA_CIA_Dummy_Decision_1:0 "§Y작전명§! §P미드나잇 §!"
  
  USA_CIA_fuckery_republicans:0 "우리는 §S공화당§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
  USA_CIA_fuckery_democrats:0 "우리는 §B민주당§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
@@ -327,14 +327,14 @@
 
 USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_analize_intelligence_desc:0 "Even if riddled with past failures, there's much to learn when properly analizing our collection of intelligence reports."
- USA_CIA_slander_republicans:0 "§YOperation§! §SLNMERCY§!"
- USA_CIA_slander_democrats:0 "§YOperation§! §BLNCEILING§!"
- USA_CIA_slander_right:0 "§YOperation§! §gLNPOSTURE§!"
- USA_CIA_slander_center:0 "§YOperation§! §PLNMOTIF§!"
- USA_CIA_slander_yockey:0 "§YOperation§! §jLNJUNGLE§!"
- USA_CIA_slander_left:0 "§YOperation§! §eLNSHAKE§!"
+ USA_CIA_slander_republicans:0 "§Y작전명§! §SLN머시§!"
+ USA_CIA_slander_democrats:0 "§Y작전명§! §BLN실링§!"
+ USA_CIA_slander_right:0 "§Y작전명§! §gLN포스쳐§!"
+ USA_CIA_slander_center:0 "§Y작전명§! §PLN모티프§!"
+ USA_CIA_slander_yockey:0 "§Y작전명§! §jLN정글§!"
+ USA_CIA_slander_left:0 "§Y작전명§! §eLN셰이크§!"
  
- USA_CIA_mhchaos:0 "§YOperation§! §PLNCHAOS§!"
+ USA_CIA_mhchaos:0 "§Y작전명§! §PLN카오스§!"
 
 #####################
 ### CENTRAL AMERICA
@@ -342,7 +342,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 
  USA_CIA_trade_influence_ca:0 "미국 기업 이익 수호"
  USA_CIA_pro_usa_ca:0 "친미정서 강화"
- USA_CIA_coup:0 "§YOperation§! §gKRWARLOCK§!"
+ USA_CIA_coup:0 "§Y작전명§! §gKRWARLOCK§!"
 
 #####################
 ### SOUTH AMERICA
@@ -395,37 +395,37 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_NORWAY_1_tt:0 "저항 세력은 필요하다면 쿠데타를 일으킬 준비를 더욱 해놓을 것입니다."
 
 # ENG vs FEN
- USA_CIA_Increase_OFN_England_Relations:0 "§YOperation§! §SHOMESTEAD§!"
- USA_CIA_Smuggle_Guns_to_FEN:0 "§YOperation§! §BLIMESTONE§!"
- USA_CIA_Smuggle_Lots_Of_Guns_to_FEN:0 "§YOperation§! §MCOBBLESTONE§!"
+ USA_CIA_Increase_OFN_England_Relations:0 "§Y작전명§! §S홈스테드§!"
+ USA_CIA_Smuggle_Guns_to_FEN:0 "§Y작전명§! §B라임스톤§!"
+ USA_CIA_Smuggle_Lots_Of_Guns_to_FEN:0 "§Y작전명§! §M조약돌§!"
 # Start
- USA_CIA_ENG_find_out_about_politics:0 "§YOperation§! §WSTATEROOM§!"
- USA_CIA_ENG_increase_military_loyalty:0 "§YOperation§! §GRUPERT§!"
- USA_CIA_ENG_decrease_military_loyalty:0 "§YOperation§! §RFAIRFAX§!"
+ USA_CIA_ENG_find_out_about_politics:0 "§Y작전명§! §W스테이츠룸§!"
+ USA_CIA_ENG_increase_military_loyalty:0 "§Y작전명§! §G루퍼트§!"
+ USA_CIA_ENG_decrease_military_loyalty:0 "§Y작전명§! §R페어펙스§!"
 # SLP
- USA_CIA_ENG_slp_reduce_hardliners:0 "§YOperation§! §RTRANSPORT§!"
- USA_CIA_ENG_slp_increase_reform:0 "§YOperation§! §OPALL MALL§!"
- USA_CIA_ENG_slp_increase_reformists:0 "§YOperation§! §PLOVETT§!"
+ USA_CIA_ENG_slp_reduce_hardliners:0 "§Y작전명§! §R트랜스포트§!"
+ USA_CIA_ENG_slp_increase_reform:0 "§Y작전명§! §O펠멜§!"
+ USA_CIA_ENG_slp_increase_reformists:0 "§Y작전명§! §P러벳§!"
 # NDL
- USA_CIA_ENG_ndl_decrease_liberals:0 "§YOperation§! §SHANKEY§!"
- USA_CIA_ENG_ndl_decrease_patriots:0 "§YOperation§! §BHUGUENOT§!"
- USA_CIA_ENG_ndl_increase_moderates:0 "§YOperation§! §MRUSHWORTH§!"
+ USA_CIA_ENG_ndl_decrease_liberals:0 "§Y작전명§! §S행키§!"
+ USA_CIA_ENG_ndl_decrease_patriots:0 "§YOperation§! §B위그노§!"
+ USA_CIA_ENG_ndl_increase_moderates:0 "§Y작전명§! §M러시워스§!"
 # SuperMac
- USA_CIA_ENG_mac_increase_macmillan:0 "§YOperation§! §MMERRIMAC§!"
- USA_CIA_ENG_mac_increase_liberals:0 "§YOperation§! §GCORNLAW§!"
- USA_CIA_ENG_mac_increase_democratization:0 "§YOperation§! §WANDY§!"
+ USA_CIA_ENG_mac_increase_macmillan:0 "§Y작전명§! §M메리맥§!"
+ USA_CIA_ENG_mac_increase_liberals:0 "§Y작전명§! §G콘로우§!"
+ USA_CIA_ENG_mac_increase_democratization:0 "§Y작전명§! §웬디§!"
 # Maggie
- USA_CIA_ENG_thatcher_party_influence:0 "§YOperation§! §RYOUNGBLOOD§!"
- USA_CIA_ENG_thatcher_populist_support:0 "§YOperation§! §WSUNNY§!"
- USA_CIA_ENG_thatcher_elite_support:0 "§YOperation§! §OCHICAGOBOY§!"
+ USA_CIA_ENG_thatcher_party_influence:0 "§Y작전명§! §R영블러드§!"
+ USA_CIA_ENG_thatcher_populist_support:0 "§Y작전명§! §W써니§!"
+ USA_CIA_ENG_thatcher_elite_support:0 "§Y작전명§! §O시카고보이§!"
 
 
- USA_CIA_Disrupt_Irish_Politics:0 "§YOperation§! §GSERPENT§!"
- USA_CIA_Build_Up_Norways_Resistance:0 "§YOperation§! §OCUCKOO§!"
+ USA_CIA_Disrupt_Irish_Politics:0 "§Y작전명§! §G서펜드§!"
+ USA_CIA_Build_Up_Norways_Resistance:0 "§Y작전명§! §O쿠쿠§!"
 
- USA_CIA_OCW_Send_Landrut_Rifles:0 "§YOperation§! §WPHOENIX§!"
- USA_CIA_GGN_send_help_to_the_underground:0 "§YOperation§! §gCHERRY§!"
- USA_CIA_SER_send_rifles_to_the_insurrection:0 "§YOperation§! §RCHARITY§!"
+ USA_CIA_OCW_Send_Landrut_Rifles:0 "§Y작전명§! §W피닉스§!"
+ USA_CIA_GGN_send_help_to_the_underground:0 "§Y작전명§! §g체리§!"
+ USA_CIA_SER_send_rifles_to_the_insurrection:0 "§Y작전명§! §R채리티§!"
 
  USA_CIA_GER_SGR_weaken_reactionaries_early: "라이히에 반동에 반대하는 선전 퍼트리기"
  USA_CIA_GER_SGR_boost_reformers_early: "독일 개혁 세력 강화"
@@ -754,7 +754,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 
 # Russia
 
- USA_CIA_RUS.1.t:0 "The Red-White (and Blue) Alliance"
+ USA_CIA_RUS.1.t:0 "적백 (그리고 청) 연합"
  USA_CIA_RUS.1.desc:0 "A week ago, several delegates from America contacted several members of our government to invest into Magadan proper and its Port on top of discreetly shoveling us some industrial aid. This morning, several ships arrived on our shores, carrying literal boatloads of raw industrial equipment, raw materials, and generic supplies. While the sight of Americans was cheered on by many, and nobody will certainly be complaining about the influx of this material on our shores, there is something worrying people in the party.\n\nThe Americans only initially had success contacting the Bukharinites, and thus most if not all of the work involving this shipment came through and relied on them. Although certain Sablinite members of our government were informed and attempted to reach out to the delegates, no response was received despite the Bukharinites essentially having constant contact. Regardless, the Americans are clearly playing favorites for this aid, and many in the Bukharin wing of the party are celebrating. Members of their caucus shook hands with some of the delegates and workers arriving on the ships, creating an uneasy atmosphere among Sablin's cadre.\n\nOnly time will tell what becomes of this relationship and the aid received from it, but perhaps it may further exacerbate the rift between our great party's two wings."
  USA_CIA_RUS.1.a:0 "Great help from our capitalist comrades, regardless."
 
@@ -762,63 +762,63 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_RUS.2.desc:0 "Comrade Sablin is a traitor, and will not carry our revolution forward! We must preserve Bukharin's legacy at any cost!"\n\nMany cries of peaceful protesters sounded something similar to this all across the country. For whatever reason, a rather noticeable wave of support for the Bukharinite wing has overtaken our country. The cities are full of demonstrators, Bukharinite posters adorn building walls and their fliers litter the hands of our citizens. Perhaps even more concerningly, several low-ranking bureaucratic members of our party have simply switched allegiances or jumped ship to fully support the supporters of Bukharin.\n\nAs far as we know, no major societal rift or change has been noticed by our government in order to cause such an increase in support. Despite several of our party wing's informants in bars, meeting halls, and demonstrations, they all come to the immediate observation that the support simply sprouted out of thin air. However, the attitude in our cabinet is more cynical. Given that both of our wings are roughly equal in raw power and resources, it is incredibly likely that an outside benefactor has been supporting the Bukharin wing directly. Even after an informant of ours managed to get hands on their financial records however, there is no succinct proof, and for the time being we cannot be sure of where their good fortune is coming from. We may be simply becoming unpopular, but paranoia is beginning to run deep among our administration..."
  USA_CIA_RUS.2.a:0 "What could be causing this?"
 
- USA_CIA_RUS.3.t:0 "American Business in Magadan"
+ USA_CIA_RUS.3.t:0 "마가단의 미국 사업"
  USA_CIA_RUS.3.desc:0 "A new ship arrived at our port this morning, emerging out of the crisp fog with the rustling of the deep sea waves. She was oddly clean looking, large, modern. Many on the horn were sure they were Americans, but why were they here? Nobody on the horn knew. As the men at our port scrambled to prepare for a potential rogue ship, a voice on the other side of the radio responded.\n\n"Hello, Magadan! This is the Porter. inbound from Seattle. We're here to provide commercial aid to this port on request of the government. Will you let us dock?"\n\nThe radio room fell silent. As far as everyone knew, there was no official order to let an American ship dock at our shipyard. Some in the radio room were furious, and were considering calling the city garrison. Others were vastly supportive, not opposed to American economic aid. Most did not care, and were simply worried about the uncertainty of this event. However, after a bit of bickering and impatience on the other side, a single voice was spoken through the radio.\n\n"This is Magadan. You can dock."\n\nA businessman in a black suit walked out, looking at the sky around him while puffing a cigarette. Several men behind him were beginning to unload crates full of valuable goods, industrial material, and civilian supplies. As the dock administrators approached in front of him, eyeing the seemingly endless supply of surplus arriving on their shores, he extinguished his cigarette, and smiled warmly.\n\n"Gentlemen. You'd best make room for more ships with this aid, since more are coming."
- USA_CIA_RUS.3.a:0 "Let the money flow!"
+ USA_CIA_RUS.3.a:0 "돈이 흐르게 하자!"
 
  USA_CIA_RUS.4.t:0 "Reaping the Red, White, and Blue"
  USA_CIA_RUS.4.desc:0 "A new fleet of commercial ships from our American allies arrived today. Unloading precious supplies and goods, the businessmen have been cooperating greatly with their investments into the Port of Magadan. Further crates of theirs are being unloaded across the country to be put to use in various civilian, industrial, and military applications.\n\nAlong with this, several of the businessmen seem to be making closer ties with members of the RFP. While it is unusual that these sharply dressed American businessmen seem to be working so closely with our government, are providing loans, and generally making our lives easier for little economic gain on their part, nobody seems to be complaining. The goods are flowing, money is changing hands, and everyone is walking away happy.\n\nIt seems that with each visit the Americans make to our shores, it becomes easier for everyone to work together."
  USA_CIA_RUS.4.a:0 "Our American friends will help us greatly."
 
- USA_CIA_RUS.5.t:0 "From Langley, With Love"
+ USA_CIA_RUS.5.t:0 "랭글리로부터, 사랑을 담아"
  USA_CIA_RUS.5.desc:0 "Matkovsky sat tensely on a balcony overlooking the Port of Magadan. As far as the eye could see, both the sea and the life surrounding it was blooming. Despite all of this recent fortune, most of it was brought forward by that one fateful American ship arriving on our shores. He was expecting visitors. Some bigwig capitalist stockholders, with fancy Italian suits, selling goods to Russians. But what came through the doors was something much, much more important.\n\n"Mister Matkovsky. I'm Agent Morgan, and this is Agent Patterson. It's a pleasure to finally make your acquaintance."\n\nThe Vozhd sat nervous surrounded by the CIA agents. Formality upon formality, endless droning about the costs of economic aid building. How much eyes did they have on him? Did accepting that ship bring a lot more trouble than it was worth? He couldn't take it anymore. The longer they talked, the more power they got in this situation. He'd never let Russia be intertwined so deep with the American tendrils that they couldn't escape...\n\n"You look anxious, Mister Matkovsky. Something the matter?" He sat silent for some time. Standing up and facing the ocean, he began to speak.\n\n"We can never truly repay you for this aid, yet I feel we need something more... permanent than simple manufactured goods." The two agents exchanged glances. Patterson cleared his throat, and approached Matkovsky.\n\n"We figured you would say that. How is the state of your military training? I'm sure we could provide some assistance in that area..."
  USA_CIA_RUS.5.a:0 "The roots grow deeper."
 
- USA_CIA_RUS.6.t:0 "American Arms Aid Arrives"
+ USA_CIA_RUS.6.t:0 "미국산 무기 지원이 도착하다"
  USA_CIA_RUS.6.desc:0 "Today a nondescript ship has arrived in port, its holds filled with rifles and ammunition for us. Most of them are old, Second World War vintage weapons, but they are still functional and more than useful for our nation. While the flag on the ship was from Panama, it's well known to the upper leadership of Magadan, the dock workers of the city, and the troops in the field, that these are supplied by the American Central Intelligence Agency. Why they are supporting us even though they claim to hate our ideology, we don't know, and we don't care. We are just pleased to benefit from the American's generosity."
- USA_CIA_RUS.6.a:0 "Spasibo, Amerikanets!"
+ USA_CIA_RUS.6.a:0 "감사하오, 미국인 동지들!"
 
  USA_CIA_RUS.7.t:0 "The Reformists are Growing Stronger"
  USA_CIA_RUS.7.desc:0 "In the past few weeks, we've noticed that some of those in the RFP who seek to reform our party and nation have received a boost in resources and money that they have used to try to increase their support. While we can't confirm where this money is coming from, we have a suspicion it's from a foreign source, most likely from the United States. However, we cannot verify this, and we can't tell the American's to stop either, since they are supporting our armed forces. But we will have to keep an eye on this."
  USA_CIA_RUS.7.a:0 "Can't bite the hand that feeds us."
 
- USA_CIA_RUS.8.t:0 "Foreign Influence Grows"
+ USA_CIA_RUS.8.t:0 "외세의 영향력이 강해지다"
  USA_CIA_RUS.8.desc:0 "As Magadan pushes west and begins to unify the broken Russian people into a new, powerful state, it is not without its problems. Cities have been fought over, farms have been burnt, factories are ruined husks, not to mention the lack of manpower and the limited resources we have to accomplish things quickly. While in time we can rebuild all of it and further increase our power, it will be a long, hard road.\n\nHowever, this hasn't stopped some from trying to fix it themselves. Rich Russian emigres from the west are returning by the boatload, with pockets full of gold seeking to rebuild factories and mines. Alongside them are many Americans and other foreign nationals, with the technical know-how or even deeper pockets of greenbacks, seeking to build massive fortunes by buying up the factories and rebuilding them and turning them over to American corporations, using the labor of poor Russian men and women to make their products to sell here and abroad, often for wages slightly higher than can be given by loyal RFP aligned businesses.\n\nMatkovsky himself has grown suspicious and wary of the arrival of all these Americans and American influenced Russians, wildily spending money and resources. Of course, getting the economy back on track would be a good thing, and the taxes and customs Magadan can charge will provide a steadily increasing source of income, but there is a cost. American style consumerism and ideals are spreading amongst the people. Matkovsky is also increasingly convinced that the tales of all these successful Russians or Americans looking to make their fortune are actually CIA plants, seeking to increase the USA's influence in Magadan, and turn us into a puppet state of Western Imperialism..."
  USA_CIA_RUS.8.a:0 "Vozhd, you are being paranoid. Why not calm down and relax with a bottle of Pepsi-Cola?"
 
- USA_CIA_RUS.9.t:0 "American Supplies Arrive!"
+ USA_CIA_RUS.9.t:0 "미국의 보급품이 도착하다!"
  USA_CIA_RUS.9.desc:0 "A new shipment of weapons, ammo, clothing, medical supplies and much more has arrived at our borders, supplied by the generosity of the Central Intelligence Agency, so we can use these guns on our enemies, and eventually on the Germans that destroyed our nation. These weapons have traveled over great oceans, through hostile territory in horse drawn wagons and sleighs before finally arriving here. Undoubtedly, this is only a fraction of that the Americans actually shipped us, as corrupt officials and bandits would have been paid off with some of the bounty, but what we have received will be more than enough to equip some battalions with better weapons to continue our fight to unite Russia!"
- USA_CIA_RUS.9.a:0 "Spasibo, Amerikanets!"
+ USA_CIA_RUS.9.a:0 "고맙소, 미국인 동지들!"
 
- USA_CIA_RUS.10.t:0 "A New Shipment Arrives"
+ USA_CIA_RUS.10.t:0 "새로운 수송품이 도착하다"
  USA_CIA_RUS.10.desc:0 "Many ships with suspicious port registries and questionable cargoes arrive every day along the freezing coasts of Russia, with products that could make or break warlords, or be the difference between life and death for many leaders seeking to reform Russia. Today, another such ship arrived at our port, but this one is different only in it's scale. Packed to the brim with weapons and ammo, this old, leaky ship is carrying more armaments than our factories could produce in months.\n\nThe cargo is provided by our American CIA contacts, as they seek to aid us in our quest to eventually rebuild Russia, and take the fight to our common enemies in the east. While the guns may be outdated and old, they are a godsend to us, allowing our state to grow stronger."
  USA_CIA_RUS.10.a:0 "Every little bit helps!"
 
- USA_CIA_RUS.11.t:0 "What should we send?"
+ USA_CIA_RUS.11.t:0 "무엇을 보내주어야 할까요?"
  USA_CIA_RUS.11.desc:0 ""
- USA_CIA_RUS.11.a:0 "Infantry Equipment"
- USA_CIA_RUS.11.b:0 "Vehicles"
- USA_CIA_RUS.11.c:0 "Helicopters and Old Jets"
+ USA_CIA_RUS.11.a:0 "보병 장비"
+ USA_CIA_RUS.11.b:0 "차량들"
+ USA_CIA_RUS.11.c:0 "헬리콥터와 구식 제트기들"
 
- USA_CIA_RUS.12.t:0 "War in Russia"
+ USA_CIA_RUS.12.t:0 "러시아의 전쟁"
  USA_CIA_RUS.12.desc:0 "President [USA.GetLeader] sat at the Resolute desk, looking over the maps and files that the CIA had produced to illustrate the current situation in what was once the Soviet Union.\n\n"As you can see, Mr. President, the situation is rapidly changing," the CIA Director said. "Most of the warlords of the area have been defeated, and consolidation is proceeding rapidly. Just a few days ago, the western half of the old Russia erupted into war, trying to unify the whole area to prepare to take over all of Russia."\n\nThe President leaned forward. "And what are you proposing?"\n\n"We are still evaluating what options are available, depending on what side we think would be the most aligned with us, and which would be the strongest to balance against our enemies in Eurasia," The CIA Director said. "We will have some proposals within the next week."\n\nThe President drummed his fingers on the desk as he looked at the maps, with the rough dotted lines of where the old warlords had once been, the path of broken ideologies and armies that had failed in their goal to unify Russia. Finally, the CIA Director raised his voice and asked:\n\n"President, if I may, who do you think we should back?""
  USA_CIA_RUS.12.a:0 ""Our allies in [WSR.GetNameDef], naturally.""
- USA_CIA_RUS.12.b:0 ""Our friends in [WSB.GetNameDef], of course.""
- USA_CIA_RUS.12.c:0 ""Let them fight.""
+ USA_CIA_RUS.12.b:0 ""물론, 우리 친구들인 [WSB.GetNameDef].""
+ USA_CIA_RUS.12.c:0 ""싸우게 둬라.""
 
  USA_CIA_RUS.13.t:0 "The Battle for Russia: Eastern"
  USA_CIA_RUS.13.desc:0 "Interesting news has landed on the President's desk this morning. After years of preparation from regional-level states in the Russian Anarchy, [CSB.GetNameDef] in the Central Siberian Region and [FST.GetNameDef] in the Russian Far East have declared war on each other. The outcome of this war will most likely determine a successor of one half of the former Soviet Union, and as such, it is of great importance that we support the state which would be friendlier to America and the OFN.\n\nWhile we see many potential ins for each different country, advisors are suggesting a course of action be taken soon in order to best improve our chances of making a difference in this conflict. The Director of the CIA has assured the President that their men are standing by, and have a multitude of options to assist each nation. Whatever the case is, the President eventually stands up, clears their throat, and makes a decision..."
  USA_CIA_RUS.13.a:0 ""We should throw our support behind [CSB.GetNameDef].""
  USA_CIA_RUS.13.b:0 ""[FST.GetNameDef] would be the better contender.""
- USA_CIA_RUS.13.c:0 ""Let them fight.""
+ USA_CIA_RUS.13.c:0 ""싸우게 둬라.""
 
- USA_CIA_RUS.14.t:0 "The Conclusion of the Battle for Russia"
+ USA_CIA_RUS.14.t:0 "러시아 전쟁의 결말"
  USA_CIA_RUS.14.desc:0 "Sometime this morning, an urgent message has caught the attention of the President. With two states left in the former Soviet Union, [RWS.GetNameDef] in Western Russia and [SIB.GetNameDef] in Siberia, the struggle for unification is almost finished. Both nations have declared war on each other not long ago, and the winner will almost certainly have complete control over the former lands of Russia. An impromptu cabinet meeting was called today, with several advisors to the President making their cases and discussing strategies on how best to support American interests in this war.\n\nMuch like the other two reunification wars, the CIA is once again offering their help, and reassures the President that no candidate will win without our explicit approval. After hours of discussion, the entire room eventually comes to a conclusion, and concludes that..."
- USA_CIA_RUS.14.a:0 ""[RWS.GetNameDef] clearly is the better choice.""
- USA_CIA_RUS.14.b:0 ""[SIB.GetNameDef] is a stronger ally, support them.""
- USA_CIA_RUS.14.c:0 ""Let them fight.""
+ USA_CIA_RUS.14.a:0 ""[RWS.GetNameDef]가 최선의 선택지임이 분명하군.""
+ USA_CIA_RUS.14.b:0 ""[SIB.GetNameDef]는 더 강한 동맹이지. 그들을 지원하라.""
+ USA_CIA_RUS.14.c:0 ""싸우게 둬라.""
 
- USA_CIA_RUS.15.t:0 "American Supplies Arrive"
+ USA_CIA_RUS.15.t:0 "미국산 보급품들이 도착하다"
  USA_CIA_RUS.15.desc:0 "An unassuming freighter from the United States has arrived in the port of Magadan under the shroud of darkness, it's contents quickly unloaded by diligent dock workers under the careful gaze of the NKVD officers. The ship is full of industrial machinery and supplies that will greatly boost our economy as we work to reunify the Soviet Union.\n\nThis bounty was organized and shipped by the Central Intelligence Agency, seeking to aid all those who stand against fascism even if the Americans themselves are hostile to the teachings of Marx. Of course, they aren't doing this simply out of the goodness of their heartland to make it easier for us to kill our common enemies, but they are trying to influence our nation to their own ends. Some agents have investigated the crates to find pamphlets and other materials advocating for policies that align with the Party Faction. While we have confiscated all the foreign propaganda that we have found, undoubtedly more will slip through our hands and will be seen by our citizens and may sway them. "
  USA_CIA_RUS.15.a:0 "The supplies are appreciated, the propaganda is not."
 
@@ -826,23 +826,23 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_RUS.16.desc:0 ""Yagoda will doom us, there cannot be any doubt. If there is to be any hope for the future of the Union, we must have immediate and urgent reform through all strata of the state. Even if that means getting rid of him." - Transcript recorded by Commissar Sergey Chuprin. Subject taken into NKVD custody for questioning.\n\nThere have been rumblings of dissent within the Party towards Comrade Yagoda's rule as of late. While there have always been those who disagree with the state's direction, their voices seem to have become amplified in recent days. They have displayed greater cohesion and more willingness to speak out in state meetings, and many even boast far larger security details than before. This, understandably, has greatly angered Chairman Yagoda. Several arrests of lower ranking dissenters have occurred over the last few weeks, though many within the Party itself are largely immune to such action.\n\nIt is unclear what exactly is causing them to feel so comfortable speaking out, and allowing them to organize so freely. Though Yagoda quietly blames the foreign capitalists and fascists, believing them to be attempting to sabotage the revolution, many simply believe that the Party feels the time is right to push for reform. For now though, those opposed to the Chairman will still have to carefully watch their words for fear of provoking his ire."
  USA_CIA_RUS.16.a:0 "Damned revisionists!"
 
- USA_CIA_RUS.17.t:0 "American Industrial Assistance"
+ USA_CIA_RUS.17.t:0 "미국의 산업 지원"
  USA_CIA_RUS.17.desc:0 "While Russia was never a strongly-industrialized nation in its prime, our people dream of mighty factories, strong and efficient production lines, and modern conveniences brought on by mass industrialization. Today, our dream became a little bit closer to fruition. American businessmen have brought over shipments of industrial equipment, heavy machinery, and technical experts to send to our industrial sectors and factories.\n\nMany in our government and even the common population are thankful for this incoming aid, and the Americans themselves say that if their investments are successful, they will be back with more. Regardless of where it came from, our industry just got a bit mightier, and our country a bit more developed as a result."
- USA_CIA_RUS.17.a:0 "We will match their industrial might one day!"
+ USA_CIA_RUS.17.a:0 "언젠가 우리들도 그들의 산업과 비슷해질 수 있을거야!"
 
- USA_CIA_RUS.18.t:0 "Intelligence Aid from the Americans"
+ USA_CIA_RUS.18.t:0 "미국인들의 정보 지원"
  USA_CIA_RUS.18.desc:0 "In our ongoing war, any advantage to help us fight the enemy is necessary for our ultimate victory. As a stroke of luck would have it, our American allies have finally intercepted some important enemy intelligence and are willing to share it with us. CIA Agents have been operating closely deep in enemy territory, and have escaped successfully with a plethora of useful information. Our military staff are eager to further analyze this information and put it to better use, which will hopefully give us an upper hand in the tactical department."
  USA_CIA_RUS.18.a:0 "Time to hit our enemies where it hurts most..."
 
- USA_CIA_RUS.19.t:0 "Supply Lines Sabotaged!"
+ USA_CIA_RUS.19.t:0 "사보타주된 보급선!"
  USA_CIA_RUS.19.desc:0 "Disaster has struck yesterday on one of our supply lines. Enemy infiltrators have snuck deep into our lines, and have blown up some basic infrastructure, sabotaged road signs, destroyed trucks, cut telephone wires, smashed signal radios, and generally caused chaos to our chain of supply inbound to our frontline troops. Surviving soldiers claim that the men were using American weapons, and were extremely well supplied with tactical gear, retreating back toward enemy territory under the cover of nighttime. While we can still send supplies to our front line, our ability to do so has been significantly hampered for the next few weeks while we repair the damage these subversives have caused. We should be more cautious in the future to prevent these enemy agents from causing further dismay."
- USA_CIA_RUS.19.a:0 "Blasted Americansky!"
+ USA_CIA_RUS.19.a:0 "젠장할 미국 놈들!"
 
  USA_CIA_RUS.20.t:0 "Yakovlev's Surge of Popularity"
  USA_CIA_RUS.20.desc:0 "While Premier Zhukov is still considering a successor once he eventually passes away, like the great Marshal Voroshilov before him, a particular candidate has recently enjoyed a vast surge in popularity. Alexander Yakovlev's support has risen to even more notable levels recently. Yakovlev is enjoying a surge of endorsements from party members, has posters of him adorning city squares, and has received seemingly nothing but positive media coverage.\n\nWhile this normally would not be a problem, rumors have been speculating among Zhukov's inner circle as to why this surge has occurred. Some point to Yakovlev's internationalist beliefs which may attract foreign supporters. Others suspect that Yakovlev has been scheming within the government to gain favors, while the most extreme and paranoid claim that he is a reactionary working with major powers to subvert our revolution. Whatever the case is, it is without a doubt present that a majority of the public now supports Yakovlev taking the place of the Marshal, and, perhaps, Zhukov himself has something else to consider during his appointment."
  USA_CIA_RUS.20.a:0 "How could he have gotten this popular this fast?"
 
- USA_CIA_RUS.21.t:0 "The Arsenal of Democracy"
+ USA_CIA_RUS.21.t:0 "민주주의의 병기창"
  USA_CIA_RUS.21.desc:0 "Wide eyed soldiers of ours look on in shock as an absolutely massive shipment of American military material has just arrived on our land today. Many can only consider it a treasure trove; crates full modern assault rifles, truckloads of native and foreign ammunition, a plethora AT equipment and rockets, a fleet of APCs and Multi-Role Helicopters, and, most surprisingly, some old jet planes along with staff to help us repair and maintain them.\n\nAlthough the Stars and Bars adorn our men's gear, they could not be happier. American equipment is obviously several steps above our own, and as such, our frontline officers are already working on distributing this equipment efficiently. Our footsoldiers shall march into combat fielding the most advanced weaponry known to man, and we will win against our now woefully obsolete foe!"
  USA_CIA_RUS.21.a:0 "Let's put it to good use, Hoo-rah!"
 
@@ -874,17 +874,17 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 
 # Indonesia
 
- USA_CIA_ICW.1.t:0 "Presents from America"
+ USA_CIA_ICW.1.t:0 "미국이 보낸 선물"
  USA_CIA_ICW.1.desc:0 "The recently arrived 'advisors' from the American Central Intelligence Agency have wasted little time in getting to work, focusing their efforts on providing tactical assistance and situational awareness to our freedom fighters in the field.\n\nWhile we receive CIA assistance on the battlefield, we can expect our fighters to be better prepared to defend against the Indonesian army's attacks and to be better organized on the offensive. To a limited extent, we are also intercepting communications from the Indonesian armed forces, courtesy of military ciphers broken by the Americans.\n\nThese benefits will not last forever - the Indonesian regime is sure to adopt new military secrecy codes and improve their own operational security against American espionage. But for now, we need any advantage we can get."
- USA_CIA_ICW.1.a:0 "Forward!"
+ USA_CIA_ICW.1.a:0 "!"
 
- USA_CIA_ICW.2.t:0 "Disrupted Chain of Command"
+ USA_CIA_ICW.2.t:0 "방해된 지휘체계"
  USA_CIA_ICW.2.desc:0 "Orders being lost between Jakarta and the frontline. Entire units, rooted in place when they should have been redeployed. Networks of informants, in place for decades, suddenly going dark. A sharp increase in combat deaths of our junior officers, leaving the men without leadership at this most critical time.\n\nSome of this was expected, of course; Hatta's men have clearly been planning their rebellion for a long while, long enough to escape substantial detection - and long enough to prepare to disrupt our activities. But the scope of the interference hKas far exceeded what we thought reasonably achievable for a group of limited resources. Far from being isolated to the areas of strongest known rebel sympathies, the disruptions are occurring even in our most stalwart centers of support.\n\nEven without concrete proof, the culprit is abundantly clear - the United States and their Central Intelligence Agency, operating out of Australia and in the myriad islands of the Indonesian archipelago, must be aiding Hatta's rebels and sapping our ability to fight back. And they have done their work, for it will take months to recover what has been lost."
- USA_CIA_ICW.2.a:0 "Damn the Americans!"
+ USA_CIA_ICW.2.a:0 "젠장할 미국 놈들!"
 
- USA_CIA_ICW.3.t:0 "Sabotage Behind the Lines"
+ USA_CIA_ICW.3.t:0 "후방 보급선이 사보타주받다"
  USA_CIA_ICW.3.desc:0 "The reports continue to pile in - twisted railway tracks, detonated bridges, and roads blocked by jungle foliage. Even as our men on the lines need as much ammunition and supplies as we can send them from Jakarta, the infrastructure needed to transport critical goods continues to be sabotaged at an alarming rate.\n\nWhile we expected some degree of partisan activity and sabotage, the ability of Hatta's rebels to penetrate deep into our interior and the breadth of their attacks almost certainly indicates outside help. Whether it be by forward observers or by clandestine airstrikes, the Americans and their intelligence operatives are clearly trying to tip the scales of the war in the rebels' favor.\n\nSadly, given our stretched resources and the pressing need to prevent a wider intervention in our war, we have limited options to retaliate directly against the Americans. We will simply have to rebuild what was destroyed, and hope that it won't be destroyed again."
- USA_CIA_ICW.3.a:0 "Can't the Americans stay out of our war?!"
+ USA_CIA_ICW.3.a:0 "제발, 미국인들 좀 우리 전쟁에서 꺼지라고 할 수 없나?!"
 
 
 
@@ -893,16 +893,16 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 ###################
 
  USA_ICW_CIA_fri_buff:0 "CIA Operational Support"
- USA_ICW_CIA_fri_debuff:0 "Foreign Sabotage"
+ USA_ICW_CIA_fri_debuff:0 "외국의 사보타주"
 
 # Russia
- RUS_Unification_WSR_Intel:0 "Enemy Intel"
- RUS_Unification_WSB_Intel:0 "Enemy Intel"
- RUS_Unification_CSB_Intel:0 "Enemy Intel"
- RUS_Unification_FST_Intel:0 "Enemy Intel"
- RUS_Unification_RWS_Intel:0 "Enemy Intel"
- RUS_Unification_SIB_Intel:0 "Enemy Intel"
- RUS_Unification_Sabotage_Victim:0 "Supply Lines Sabotaged"
+ RUS_Unification_WSR_Intel:0 "적 정보"
+ RUS_Unification_WSB_Intel:0 "적 정보"
+ RUS_Unification_CSB_Intel:0 "적 정보"
+ RUS_Unification_FST_Intel:0 "적 정보"
+ RUS_Unification_RWS_Intel:0 "적 정보"
+ RUS_Unification_SIB_Intel:0 "적 정보"
+ RUS_Unification_Sabotage_Victim:0 "사보타주된 보급선"
 
 
 
