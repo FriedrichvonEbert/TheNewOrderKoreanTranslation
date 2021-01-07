@@ -1108,7 +1108,7 @@
 
  ### Decisions ###
  NIK_horrifying_politics_category:0 "§W불안정한 상황§!"
- NIK_horrifying_politics_category_desc:0 "The political scene in the §WKomi Republic§! is one of the most chaotic and dangerous on the planet, with a variety of movements clashing in the §MNational Assembly§!, the streets, and in dark backrooms. In the unstable §WRepublic§!, political paramilitaries are treated as legitimate partisan apparatus, extortion is a standard practice, and only the greatest schemers may survive to rise to the top. In the Republic, one's influence must thusly be maintained and guarded, lest the environment of the §WRepublic§! claim one more hopeful victim...\n\n§W코미 공화국§!에서 가장 강력한 정파는 [GetNIKMostPowerfulParty]입니다.\n\n---------------------------------------------------------------\n\n§Y우파§!: \n[GetNIKShowRightPower] (§Y[?NIKRightPower]§!).\n가장 영향력 있는 인물: [GetNIKRightLeader]\n\n§O레프 구밀료프§![GetNIKGumilyovInfluence] (§O[?NIKGumilyovInfluence]§!).\n§j세르게이 타보리츠키§![GetNIKTaboritskyInfluence] (§j[?NIKTaboritskyInfluence]§!).[GetNIKSerovExistence]\n\n---------------------------------------------------------------\n\n§B중도파§!: \n[GetNIKShowCenterPower] (§B[?NIKCenterPower]§!).\n가장 영향력 있는 인물: [GetNIKCenterLeader]\n\n§M알렉세이 코시긴§![GetNIKKosyginInfluence] (§M[?NIKKosyginInfluence]§!).\n§g스베틀라나 스탈리나§![GetNIKStalinaInfluence] (§g[?NIKStalinaInfluence]§!).\n§P니콜라이 보즈네센스키§![GetNIKVoznesenskyInfluence] (§P[?NIKVoznesenskyInfluence]§!).\n\n---------------------------------------------------------------\n\n§x좌파§!: \n[GetNIKShowLeftPower] (§R[?NIKLeftPower]§!).\n가장 영향력 있는 인물: [GetNIKLeftLeader]\n\n§x미하일 수슬로프§![GetNIKSuslovInfluence] (§R[?NIKSuslovInfluence]§!).\n§S안드레이 즈다노프§![GetNIKZhdanovInfluence] (§S[?NIKZhdanovInfluence]§!).\n§l스베틀라나 부하리나§![GetNIKBukharinaInfluence] (§l[?NIKBukharinaInfluence]§!)."
+ NIK_horrifying_politics_category_desc:0 "§W코미 공화국§!의 정치적 상황은 지구상에서 가장 혼란스럽고 위험한 곳 중 하나로 §M의회§!에서, 거리에서, 은밀한 뒷방에서 다양한 움직임이 서로 부딪치고 있습니다. 불안정한 §W공화국§!에서 정치적 준군사조직은 합리적인 당리당략으로 취급받고 부당갈취가 표준적인 관행이 되었으며 가장 위대한 책략가만이 정상에 올라 살아남을 수 있습니다. 공화국에서 §W공화국§!의 환경이 또 하나의 추가적인 희생자를 요구하지 않도록 개개인의 영향력이 유지되고 보호되어야만 합니다...\n\n§W코미 공화국§!에서 가장 강력한 정파는 [GetNIKMostPowerfulParty]입니다.\n\n---------------------------------------------------------------\n\n§Y우파§!: \n[GetNIKShowRightPower] (§Y[?NIKRightPower]§!).\n가장 영향력 있는 인물: [GetNIKRightLeader]\n\n§O레프 구밀료프§![GetNIKGumilyovInfluence] (§O[?NIKGumilyovInfluence]§!).\n§j세르게이 타보리츠키§![GetNIKTaboritskyInfluence] (§j[?NIKTaboritskyInfluence]§!).[GetNIKSerovExistence]\n\n---------------------------------------------------------------\n\n§B중도파§!: \n[GetNIKShowCenterPower] (§B[?NIKCenterPower]§!).\n가장 영향력 있는 인물: [GetNIKCenterLeader]\n\n§M알렉세이 코시긴§![GetNIKKosyginInfluence] (§M[?NIKKosyginInfluence]§!).\n§g스베틀라나 스탈리나§![GetNIKStalinaInfluence] (§g[?NIKStalinaInfluence]§!).\n§P니콜라이 보즈네센스키§![GetNIKVoznesenskyInfluence] (§P[?NIKVoznesenskyInfluence]§!).\n\n---------------------------------------------------------------\n\n§x좌파§!: \n[GetNIKShowLeftPower] (§R[?NIKLeftPower]§!).\n가장 영향력 있는 인물: [GetNIKLeftLeader]\n\n§x미하일 수슬로프§![GetNIKSuslovInfluence] (§R[?NIKSuslovInfluence]§!).\n§S안드레이 즈다노프§![GetNIKZhdanovInfluence] (§S[?NIKZhdanovInfluence]§!).\n§l스베틀라나 부하리나§![GetNIKBukharinaInfluence] (§l[?NIKBukharinaInfluence]§!)."
  NIK_clean_up:0 "[FROM.GetName] 공격"
 
  NIK_coups_category:0 "정치적 불안정"
@@ -1120,8 +1120,8 @@
  NIK_communist_opposition_menu_gui:0 "§B중도파§!:\n§M알렉세이 코시긴§![NIKGetKosyginOppositionStatus].\n§g스베틀라나 스탈리나§![NIKGetStalinaOppositionStatus].\n§P니콜라이 보즈네센스키§![NIKGetVoznesenskyOppositionStatus].\n\n§Y우파§!:\n\n§O레프 구밀료프§![NIKGetGumilyovOppositionStatus].\n§j세르게이 타보리츠키§![NIKGetTaboritskyOppositionStatus].\n§Y이고리 샤파레비치§![NIKGetShafarevichOppositionStatus].\n§r이반 세로프§![NIKGetSerovOppositionStatus]."
  NIK_fascist_opposition_menu_gui:0 "§R좌파§!:\n§x미하일 수슬로프§![NIKGetSuslovOppositionStatus].\n§S안드레이 즈다노프§![NIKGetZhdanovOppositionStatus].\n§l스베틀라나 부하리나§![NIKGetBukharinaOppositionStatus].\n\n§B중도파§!:\n§M알렉세이 코시긴§![NIKGetKosyginOppositionStatus].\n§g스베틀라나 스탈리나§![NIKGetStalinaOppositionStatus].\n§P니콜라이 보즈네센스키§![NIKGetVoznesenskyOppositionStatus]."
 
- NIK_leftist_favors_category:0 "A Friend on the Left"
- NIK_leftist_favors_category_desc:0 "§PNikolai Voznesensky§! and §SAndrei Zhdanov§!. The President of the Republic, and a high-rankingc communist official. Nominal enemies... and close friends. §SZhdanov§! and §PVoznesensky§! have maintained their close personal relationship even throughout the current state of political crisis, allowing for certain actions to be taken across political lines.\n\nThis is, of course, off the record, and the release of these ties could be incredibly dangerous for the state of the Republic.\n\n§SZhdanov§! may currently call in up to §Y[?NIKZhdanovFavors]§! favors..."
+ NIK_leftist_favors_category:0 "좌파 친구들"
+ NIK_leftist_favors_category_desc:0 "§PN니콜라이 보즈네센스키§!와 §S안드레이 즈다노프§!. 둘은 각각 공화국의 대통령이자 고위 공산당 간부입니다. 명목상으로는 적이지만... 아주 가까운 친구죠. §SZhdanov§! and §PVoznesensky§! have maintained their close personal relationship even throughout the current state of political crisis, allowing for certain actions to be taken across political lines.\n\nThis is, of course, off the record, and the release of these ties could be incredibly dangerous for the state of the Republic.\n\n§SZhdanov§! may currently call in up to §Y[?NIKZhdanovFavors]§! favors..."
  NIK_form_coalition_tickets:0 "Form Coalition Tickets"
  NIK_cut_ties:0 "Cut Ties"
  NIK_discourage_paramilitary_violence:0 "Discourage Paramilitary Violence"
@@ -1200,7 +1200,7 @@
  NIK_switch_roe:0 "보안 절차 변경"
  NIK_abandon_operations:0 "작전 중지"
  
- NIK_hunt_opposition:0 "We are hunting down the oppostion."
+ NIK_hunt_opposition:0 "우리는 현재 반대파를 추적하는 중입니다."
 
  NIK_hunt_for_stalina:0 "§g스베틀라나 스탈리나§! 추적"
  NIK_hunt_for_kosygin:0 "§M알렉세이 코시긴§! 추적"
@@ -1597,7 +1597,7 @@
  NIK_syvtyvkartsi_final_desc:0 "The list of ideologies represented among the ruins of Russia is long, yet it still has its outcasts and lost ideologues. Those people who could not find a home among the ruins, those who have been cast out because of ideas too radical or alien, they have come here. As a result, Komi has one of the most diverse political environments on earth... and also one of the most dangerous ones."
 
  NIK_unrestricted_arsenal:0 "무제한 화학 공장"
- NIK_unrestricted_arsenal_desc:0 "Beneath the city of Syktyvkar lies a practical treasure trove of Soviet technology and weaponry. Vats and canisters of lethal 'revenge weapons' were stored here before the Front collapsed, and they have found new usage amongst the defenders of the Republic. The gas is potent, and the ability to scorch the lands of our enemies is an effective tool.\n\n§RIt will be used.§!"
+ NIK_unrestricted_arsenal_desc:0 "식티프카르 도시 지하에는 소련의 기술력과 무기가 모인 실용적인 보물창고가 있습니다. 전선이 붕괴되기 이전 치명적인 '보복 무기' 통과 탄들이 이곳에 보관되었으며 공화국 방어자들은 이 무기의 새로운 사용법을 찾아냈습니다. 가스는 강력하며, 적의 땅을 태울 수 있는 능력을 가진 효과적인 도구입니다.\n\n§R이는 언젠가 쓰일 것입니다.§!"
 
  NIK_unrestricted_arsenal_2:0 "무제한 화학 공장"
  
