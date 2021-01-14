@@ -727,9 +727,9 @@
  NIK_encourage_zhdanovite_thought:0 "즈다노프주의 장려"
  NIK_tighten_ideological_restrictions:0 "이념적 제약 강화"
  
- NIK_society_category:0 "A Socialist Society"
- NIK_society_category_desc:0 "The greatest goal of our Paramount Leader, and of our ideology as a whole, is the creation of a universal socialist society, one that may expand to the stars and beyond.\n\nThe §YSocialist Society Initative§! is the means through which this grand and noble goal shall be achieved. Advances in the field of social engineering, cultural studies, and the encouragement of class conciousness shall be the domain of this initiative. Through understanding and reshaping society and culture, we shall pave the way to the utopia of the future!\n\n§YExperiment Status:§!\n[GetNIKSocietyExperiments]"
- NIK_psychological_revolution_category:0 "Psychological Revolution"
+ NIK_society_category:0 "사회주의 사회"
+ NIK_society_category_desc:0 "우리의 주석과 우리 이념 전체의 가장 큰 목표는 별들과 그 이상으로 확장 할 수 있는 우주적인 사회주의 사회를 만드는 것입니다.\n\n§Y사회주의 사회 계획§!은 웅장하고 고귀한 목표를 달성하는 수단입니다. 사회 공학, 문화 연구 분야의 발전과 계급 의식의 장려가 이 계획의 중점이 될 것입니다. 사회와 문화를 이해하고 재구성함으로써 미래의 유토피아로 가는 길을 열 것입니다!\n\n§Y실험 상태:§!\n[GetNIKSocietyExperiments]"
+ NIK_psychological_revolution_category:0 "정신적 혁명"
 
  NIK_psychological_revolution_category_desc:0 "The fields of physics and chemistry hold the triumphs of the fascist and capitalist powers, made before our grand socialist state had the chance to catch up to their progress. However, there is another field, as critical as these, that has yet remained untapped: the field of psychology.\n\nThrough the brilliance of our scientists, the §YPsychological Revolution Initiative§! shall unlock the true powers of the human mind, and establish a truly and inherently socialist field of science, ripe for our exploration. With control of the will, and of thought, within our grasp, the tanks and nuclear devices of the imperial powers shall not repel us!\n\n§YExperiment Status:§!\n[GetNIKPsychExperiments]"
 
@@ -820,11 +820,11 @@
  laser_AA_tech:0 "Laser Anti-Air Systems"
  laser_AA_tech_desc:0 "With the success of tests into the weaponization and deployment of high-yield lasers as anti-aircraft and electronic warfare means, laser anti-air systems have been deemed viable for deployment, and shall be implemented on a land-based platform. Said platform, deemed the 1K17 Szhatie, shall make use of artificial rubies as a laser focusing mechanism, and be capable of targeting and rapidly destroying the electronics of enemy aircraft. Whilst this technology is extremely expensive, this offers an unprecedented edge in anti-aircraft combat."
  
- laser_aa_equipment:0 "Laser SPAA"
- laser_aa_equipment_1:0 "Laser SPAA"
- laser_aa_equipment_desc:0 "A high-powered solid-state laser mounted on an armored chassis, designed to disable the electronics of aircraft, blind soldiers, and destroy sensitive equipment with great precision."
+ laser_aa_equipment:0 "레이저 SPAA"
+ laser_aa_equipment_1:0 "레이저 SPAA"
+ laser_aa_equipment_desc:0 "장갑화된 차대에 장착된 반도체를 이용한 고출력 레이저는 항공기의 전자 공학, 눈이 먼 군인들, 그리고 세심한 장비들을 매우 정밀하게 파괴할 수 있도록 설계되었습니다."
 
- laser_anti_air:0 "Support Laser SPAA"
+ laser_anti_air:0 "레이저 SPAA 지원"
 
  #Tooltips
  NIK_subliminal_trigger_project_cost_tt:0 "Adds §Y$15 Million USD§! to the §YNational Debt§!.\n"
@@ -1183,11 +1183,11 @@
  bukharina.51.d:0 "Bukharina sat on the park bench, enjoying the cool breeze. She had done a lot of work over the past few months, and it had been a long time since she was able to take a proper break. Not since her walk in Omsk had she been able to relax properly. Her mind wandered, for once freed of political concerns. However, her thoughts, after a time, would inevitably drift back to politics.\n\nBukharina was content. Her reforms had borne fruit, and it seemed the [NIK.GetName] was stronger than ever. Man and woman stood as equals, and those of a different race were not oppressed anymore. Unlike so many other socialists, she had worked to ensure that these rights weren't in name only. Bukharina could only hope it was a good start for fighting for equality.\n\nNow, with West Siberia stabilized and the foundations of a new Soviet Union forged, the time was approaching to unite all of Russia under one banner. Finally, the chaos that had plagued Russia for decades would be ended. However, that could wait for one more day. It was a beautiful day outside, and Bukharina would be remiss to let it go to waste."
  bukharina.51.a:0 "United forever, one can only hope..."
 
- zhdanov.1.t:0 "Taking Charge"
- zhdanov.1.d:0 ""And from our humble beginnings, here we stand, comrades! We have defeated the collaborators and counter-revolutionaries across these lands, and taken up our position as the rightful heirs to Bukharin!"\n\nHe paused, to allow the thunderous applause to end. Triumphant joy filled the chamber, filled with beaming officials and applauding military officers.\n\n"But we will not follow in the footsteps of Comrade Bukharin, for he lacked in one critical aspect; the ability to define the ambitious goals necessary to carry Mother Russia forwards! The people must have the guidance from above to achieve their full potential, and to keep them united upon their course, from our humble beginnings in Komi, to the formation of our new federation, to our ultimate destination in the stars."\n\n"To achieve this, our guiding hand must be strengthened. If we wish to seize our destiny, we cannot wait for popular consensus, but must establish it ourselves.""
- zhdanov.1.a:0 "The future comes, whether they like it or not"
+ zhdanov.1.t:0 "책임을 지는것"
+ zhdanov.1.d:0 ""그리고 보잘것없는 시작부터, 우리는 계속 여기에 서 있습니다, 동지 여러분! 우리는 이 땅에 걸친 협력자들과 반혁명분자들을 물리치고, 부하린의 정당한 후계자로서 우리의 위치를 차지했습니다!"\n\n그는 우레와 같은 박수 소리가 이어지도록 잠시 말을 멈추었습니다. 환호하는 관리들과 박수를 치는 군 장교들의 승리감이 회의장에 가득 찼습니다.\n\n"그러나 우리는 부하린 동지의 계획을 따라가지 않을 것입니다. 왜냐하면 그는 한 가지 중요한 측면, 즉 조국 러시아를 나아가게 하는 데 필요한 야심찬 목표들을 정의하는 능력이 부족했기 때문입니다. 그리고 코미에서의 초라한 시작에서부터 새로운 연방의 형성, 우주에서 우리의 궁극적인 목적지에 이르기까지의 발자취에서 국민들을 단결시킬 수 있도록 잠재력을 최대한 발휘하기 위해 위에서부터 계획을 받아야합니다."\n\n"이를 위해 우리의 통솔력이 강화돼야 합니다. 운명을 점치려면 국민적 합의를 기다릴 수 없고 스스로 확립시켜야 할 것입니다.""
+ zhdanov.1.a:0 "좋든 싫든 미래는 다가온다"
 
- zhdanov.2.t:0 "An Unsettled Peace"
+ zhdanov.2.t:0 "불안한 평화"
  zhdanov.2.d:0 "The first real indications that Zhdanov has no intention of structuring his Socialism along democratic lines are the widespread repeal of the Revolutionary Decrees, announced in public along a dozen channels. Radios are switched on, through the Republic's environs, and their volume turned all the way up as horrified ears take it all in.\n\nIt would probably have been easier to accept if the new regime offered concessions or promised a transition to a more permanent and just public order. Zhdanov, of course, promises with his trademark cheer that soon the citizens will return to a normality that favours the Republic as a whole.\n\nThe initial protests are unsettlingly loud and unnervingly close. Stations are barricaded or simply refuse to open, as do shophouses and public institutions. Police officers stationed in the district find themselves overwhelmed by the popular pressure, and a number of undercover police are nearly discovered and lynched by sheer force of popular anger. As it turns out, the broken clock of public anger does, in fact, strike twice a day.\n\nThis unnerves the covert agents of Special Circumstances. New plans are created in the dead of night, and networks once thought solid melt and coalesce in new configurations, like a shifting cloud forming around a dense maze. At the heart of this cloud are a group of seemingly random individuals. They will be the first test of the new Republic's socialist science.\n\nOn a Monday morning, as the not-protests roll into their fifth day, individuals begin to disappear from the protests, and when they return they speak as if they had never doubted the Republic - when they speak at all. The confusion they spread instead poisons the protests, rumors of internal disorder and violence stain its reputation, and by Wednesday order has returned, albeit in a less-than-satisfactory form."
  zhdanov.2.a:0 "Order is of paramount importance."
 
