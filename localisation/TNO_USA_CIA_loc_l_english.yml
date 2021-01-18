@@ -85,7 +85,7 @@
 
  USA_CIA_1_agent_free:0 "최소 §Y1명§!의 요원이 있습니다.\n"
 
- USA_CIA_Mission_Over25_Obfuscation:0 "§YHas over 25 Regional Obfuscation§!"
+ USA_CIA_Mission_Over25_Obfuscation:0 "§Y최소 25개 이상의 지역 난독화 발생§!"
 
  USA_CIA_Yes_Unlock_Tooltip:0 "[GetUSACIAUnlockBudgetTooltip]"
  USA_CIA_Not_Enough_Budget:0 "§R예산이 충분하지 않습니다.§!"
@@ -123,8 +123,8 @@
 
  USA_CIA_recruit_bar_status:0 "[GetCIARecruitBarStatus]"
  USA_CIA_recruit_button_status:0 "[GetCIARecruitStatus]"
- USA_CIA_can_recruit:0 "We can recruit a new operative in exchange for §Y15§! million and §Y50§! expertise. Once the training is complete we will regain §Y25§! expertise."
- USA_CIA_cant_recruit:0 "We can not recruit any more agents at this time. Recruiting an agent requires §Y15§! million and §Y50§! expertise."
+ USA_CIA_can_recruit:0 "대신 새로운 요원을 채용할 수 있고 §Y15§!백만달러와 §Y50§! 전문지식이 필요합니다. 일단 교육이 완료되면, 우리는 §Y25§! 전문성을 회복할 것입니다."
+ USA_CIA_cant_recruit:0 "지금은 요원을 더 이상 모집할 수 없습니다. 요원 모집에 필요한 사항은 §Y15§!백만달러와 §Y50§!수준의 전문성이 필요합니다."
  USA_CIA_at_operative_cap:0 "우리가 현재 보유한 요원은 최대 한도 §Y10명§!에 도달했습니다."
  USA_CIA_training_progress:0 "새 요원 훈련은 §Y[?USA_CIA_recruit_progress]%§! 완료된 상태입니다.\n"
  USA_CIA_already_recruiting:0 "우리는 이미 새로운 요원을 채용중입니다."
@@ -146,7 +146,7 @@
  USA_speer_radio_address_tt:0 "이는 내전에서 슈페어의 독일에 §G안정도를 늘리고 정치력 획득량을 증가시키는§! 작전을 개시할 것입니다."
  USA_speer_send_weapons_tt:0 "이는 내전에서 슈페어의 독일에 §G사기와 전투능력을 향상시키는§! 작전을 개시할 것입니다."
  USA_speer_support_internationally_tt:0 "이는 내전에서 슈페어의 독일에 §G보병 장비를 제공§!하는 작전을 개시할 것입니다."
- USA_speer_send_fighters_tt:0 "This will launch an operation to send §Gfighter planes§! to Speer's Germany in the Civil War."
+ USA_speer_send_fighters_tt:0 "그러면 보낼 작업이 시작됩니다. §Gfighter planes§! to Speer's Germany in the Civil War."
  USA_CIA_early_game_speer_reactionary_weaken:0 "An operation to discredit §Rreactionary§! voices within the Reich will be initiated.\n"
  USA_CIA_early_game_speer_reformist_strengthen:0 "An operation to strengthen §Greformist§! voices within the Reich will be initiated.\n"
  USA_CIA_early_game_speer_leaning_boost:0 "An operation to distribute foreign media in the German black market will be initiated.\n"
@@ -159,7 +159,7 @@
  USA_CIA_sabotaging_reptriation:0 "An operation to sabotage German §Rrepatriation§! efforts and prolong their economic malaise will be initiated.\n"
  USA_CIA_destroying_repatriation_infrastructure:0 "An operation to target German infrastructure in order to slow down §Rrepatriation§! efforts and sabotage economic growth will be initiated.\n"
 
- USA_CIA_slow_down_repatriation_small:0 "Repatriation efforts will §Rsuffer.§!\n"
+ USA_CIA_slow_down_repatriation_small:0 "송환 노력은 §R수포§!로 돌아갈 것입니다.\n"
 
  USA_CIA_GER_BOR_political_fuckery:0 "We will initiate an operation aimed at sabotaging the §Yinternal politics§! of the Reich.\n"
  USA_CIA_GER_BOR_political_fuckery_big:0 "Another operation aimed at sabotaging the §Yinternal politics§! of the Reich will be launched.\n"
@@ -178,40 +178,40 @@
  USA_CIA_IRK_political_aid:0 "We shall launch an operation to provide the old guard faction in [IRK.GetName] with political aid.\n"
 
 
- USA_CIA_bor_workforce_sabotage:0 "The rate at which our skilled workforce grows will §Rdecrease.§!\n"
- USA_CIA_bor_infrastructure_sabotage:0 "The minimum investment required to maintain the §YGrossraum§! will §Rincrease.§!\n"
+ USA_CIA_bor_workforce_sabotage:0 "우리의 숙련된 노동력의 성장률은 §R감소§!할 것입니다.\n" 
+ USA_CIA_bor_infrastructure_sabotage:0 "§Y그로스람§!을 유지하는 데 필요한 최소 투자가 §R증가§!할 것다.\n" 
 
  USA_nixon_cia:0 "CIA"
- USA_nixon_cia_desc:0 "The CIA has drawn up a few plans to work against the influence of Germany and Japan. These plans include cooperating with the Truimvirate as a counterweight to German influence in Europe, as well as supporting various rebel groups in the Japanese sphere to undermine Japanese control."
- USA_CIA_Allign_Iberia_Towards_Franco:0 "Allign Iberian Politics Towards Franco"
- USA_CIA_Allign_Iberia_Towards_Salazar:0 "Allign Iberian Politics Towards Salazar"
- USA_CIA_Iberia_AAS_Resources:0 "Contribute to the Iberian AAS"
+ USA_nixon_cia_desc:0 "CIA는 독일과 일본의 영향력에 반하는 일을 하기 위해 몇 가지 계획을 세웠습니다. 이러한 계획에는 트리움비라투스와 협력하는 것은 물론, 유럽의 독일 영향력에 대한 균형자 역할을 할 뿐만 아니라, 일본의 지배권을 약화시키기 위해 일본 내 여러 반군 단체들을 지원하는 것도 포함되어 있습니다."
+ USA_CIA_Allign_Iberia_Towards_Franco:0 "프랑코를 향한 이베리아 정치 조정"
+ USA_CIA_Allign_Iberia_Towards_Salazar:0 "살라자르를 향한 이베리아 정치 조정"
+ USA_CIA_Iberia_AAS_Resources:0 "이베리아 AAS 자원 지원"
  USA_CIA_Iberia_Strike_At_Iberian_Terrorism:0 "이베리아 테러리스트 공격"
  USA_CIA_Fund_Gibralter_Dam:0 "지브롤터 댐에 자금 지원"
- USA_CIA_Add_Reform_Iberia:0 "Rally Reformists in the Iberian Council"
+ USA_CIA_Add_Reform_Iberia:0 "이베리아 평의회에서의 개혁주의자들"
  USA_CIA_Add_Stabilize_Iberia:0 "이베리아 안정화"
- USA_CIA_Back_Iberian_Wars:0 "Supply Parties in the Iberian Wars"
+ USA_CIA_Back_Iberian_Wars:0 "이베리아 전쟁에서의 보급당사자"
 
- USA_CIA_IBR_align_caudillo_franco:0 "By all accounts, the twin Iberian caudillos of Francisco Franco and António de Oliveira Salazar have a good working relationship. However, not everyone in the Union holds them in equal esteem. Through a variety of active measures, we can ensure that §YFranco§! will dominate Iberian leadership."
- USA_CIA_IBR_align_caudillo_salazar:0 "By all accounts, the twin Iberian caudillos of Francisco Franco and António de Oliveira Salazar have a good working relationship. However, not everyone in the Union holds them in equal esteem. Through a variety of active measures, we can ensure that §YSalazar§! will dominate Iberian leadership."
- USA_CIA_IBR_aas_aid:0 "The Iberian Union is home to a wide array of terrorist groups and separatist organizations. Every nationality, from the Basque to the Portuguese, are represented, along with pan-Iberian socialist guerrillas. While we aren't strictly allies with Iberia, the continued stability of the Union is in our interests. Our intelligence agencies can certainly provide covert aid to the Iberian government, so that the whole Union doesn't shatter like porcelain if these groups rise up."
- USA_CIA_IBR_major_terrorist_op:0 "A major operation to weaken Iberian separatist movements will be initiated.\n"
- USA_CIA_IBR_gibraltar_aid:0 "The Gibraltar dam is one of the most important stops in all of Europe, and through the incompetence of the Germans it has been left in disrepair. The Iberian government is currently attempting to bring the dam to its full technical capacity, and we can help them out in this regard. The Iberians will be sure to appreciate our favour...\n"
- USA_CIA_IBR_stabilize:0 "An operation to improve Iberian stability will be initiated.\n"
- USA_CIA_IBR_reform:0 "An effort to aid reformist causes within the Iberian government will be initiated.\n"
- USA_CIA_IBR_interfer_wars:0 "An operation to aid friendly factions in the Iberian Wars will be initiated.\n"
+ USA_CIA_IBR_align_caudillo_franco:0 "어느 모로 보나, 프란시스코 프랑코와 안토니오 데 올리베이라 살라자르의 쌍둥이 이베리아 카우디요는 좋은 관계를 맺고 있습니다. 그러나 연합의 모든 사람들이 그들을 동등하게 존중하는 것은 아닙니다. 다양한 적극적인 조치를 통해, 우리는 §Y프랑코§!가 이베리아의 지도력을 장악할 수 있도록 보장할 수 있습니다."
+ USA_CIA_IBR_align_caudillo_salazar:0 "어느 모로 보나, 프란시스코 프랑코와 안토니오 데 올리베이라 살라자르의 쌍둥이 이베리아 카우디요는 좋은 관계를 맺고 있습니다. 그러나 연합의 모든 사람들이 그들을 동등하게 존중하는 것은 아닙니다. 다양한 적극적인 조치를 통해, 우리는 §Y살리자르§!가 이베리아의 지도력을 장악할 수 있도록 보장할 수 있습니다."
+ USA_CIA_IBR_aas_aid:0 "이베리아 연합은 광범위한 테러 단체와 분리주의 단체들의 본거지입니다. 바스크에서 포르투갈에 이르는 모든 국적은 범이베리아 사회주의 게릴라들과 함께 대표되고있습니다. 우리가 이베리아와 공식적인 동맹은 아니지만, 연합의 지속적인 안정은 우리의 이익에 달려 있습니다. 우리의 정보기관은 분명히 이베리아 정부에 은밀한 지원을 할 수 있습니다. 그래서 이 테러단체들이 일어나도 연합 전체가 소련처럼 산산조각이 나지 않도록 말이죠."
+ USA_CIA_IBR_major_terrorist_op:0 "이베리아 분리주의 운동을 약화시키기 위한 주요 작전이 시작될 것입니다.\n"
+ USA_CIA_IBR_gibraltar_aid:0 "지브롤터 댐은 유럽 전역에서 가장 중요한 곳 중 하나이지만, 독일의 무능함으로 인해 황폐한 상태로 방치되었습니다. 이베리아 정부는 현재 댐의 기술적 역량을 최대한 끌어올리려고 시도하고 있으며, 우리는 이러한 점에서 댐을 건설하는데 도움을 줄 수 있습니다. 이베리아인들은 틀림없이 우리의 호의를 고맙게 여길 것다...\n"
+ USA_CIA_IBR_stabilize:0 "이베리아의 안정성을 향상시키기 위한 작전이 시작될 것입니다.\n"
+ USA_CIA_IBR_reform:0 "이베리아 정부 내에서 개혁주의자들을 돕기 위한 노력이 시작될 것입니다.\n"
+ USA_CIA_IBR_interfer_wars:0 "이베리아 전쟁에서 우호적인 파벌들을 돕기 위한 작전이 시작될 것입니다.\n"
 
  USA_CIA_franco_boost:0 "프랑코의 지지도는 크게 상승할 것입니다.\n"
- USA_CIA_salazar_boost:0 "살리자르의 지지도는 크게 상승할 것입니다.\n"
- USA_CIA_aas_boost:0 "We will §Ggain§! §Y3 AAS§! resources.\n"
- USA_CIA_terrorism_harm:0 "All active terrorists will suffer §Gdecrease.§!\n"
- USA_CIA_gibraltar_boost:0 "Costs for maintaining and upgrading the dam will §Gdecrease.§!\n"
+ USA_CIA_salazar_boost:0 "살자르의 지지도는 크게 상승할 것입니다.\n"
+ USA_CIA_aas_boost:0 "우리는 §Y3 AAS§! 자원을 §G얻는데§! 도움을 줄 것입니다.\n"
+ USA_CIA_terrorism_harm:0 "모든 활동적인 테러리스트들의 활동은 §Gd감소할 것입니다.§!\n"
+ USA_CIA_gibraltar_boost:0 "댐의 유지 및 개조 비용을 §G감소시킬 것입니다.§!\n"
  USA_CIA_stability_boost:0 "§Y안정도§!는 §G상승§!할 것입니다.\n"
- USA_CIA_reformism_boost:0 "§YReformism§! will §Yincrease.§!\n"
+ USA_CIA_reformism_boost:0 "§Y개혁주의§!는 §Y증가§!할 것입니다.\n"
 
  USA_CIA_trade_influence_tooltip:0 "An operation to strengthen our trade influence with a country in the region will be launched.\n"
  USA_CIA_pro_usa_tooltip:0 "An operation to strengthen our political influence in the region will be launched. If successful we will gain some §Ypolitical power.§!\n"
- USA_CIA_training_with_australians_cooldown:0 "At least 1 year has passed since last we did this.\n"
+ USA_CIA_training_with_australians_cooldown:0 "우리가 이것을 한 지 적어도 1년이 지났습니다.\n"
 
 
  USA_CIA_af_status:0 "[GetCIAAFStatus]"
@@ -244,11 +244,11 @@
  USA_CIA_au_status:0 "[GetCIAAUStatus]"
  USA_CIA_au_status_tooltip:0 "Regional Obfuscation: §Y[?USA_CIA_Oceania_Encryption]§!\n"
 
- USA_CIA_region_locked:0 "§RLOCKED§!"
+ USA_CIA_region_locked:0 "§R잠김§!"
 
- USA_CIA_decryption_info:0 "The higher our analysis capability the more we will be able to counteract regional obfuscation."
+ USA_CIA_decryption_info:0 "분석 능력이 높을수록 지역 난독화에 대응할 수 있을 것입니다."
 
- USA_CIA_expertise_info:0 "Expertise is used to train agents and research advanced technollogies. It also provides bonuses to missions. Expertise is gained by successfullly completing missions and lost after failures."
+ USA_CIA_expertise_info:0 "전문성은 요원을 교육하고 고급 기술을 연구하는데 사용됩니다. 또한 임무에 보너스를 제공합니다. 전문성은 임무를 성공적으로 완수함으로써 얻어지고 실패 후에 상실됩니다."
 
  USA_CIA_agent_info:0 "Agents are needed to conduct operations. They can be trained in exchange for expert
  CIA_tech_1_tt_delayed:0 "Aerial reconnaissance is expensive, prone to interception and requires hundreds of man-hours in planning. In contrast, pigeons come in flocks, blend with any environment and easily follow a trained handler's orders. A miniature camera with a timed delay, strapped onto a carrier pigeon with a flight path, will deliver overhead photographs of higher fidelity than any U2's - and at a fraction of its cost, to boot."
@@ -441,9 +441,9 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 
  USA_CIA_GER_BOR_political_sabotage: "독일 정계 사보타주"
  USA_CIA_GER_BOR_political_sabotage_big: "보어만 정권 방해"
- USA_CIA_GER_BOR_economic_sabotage_initial: "Slow Down the Grossraum Project"
+ USA_CIA_GER_BOR_economic_sabotage_initial: "그로스람 계획 개발속도 저하"
  USA_CIA_GER_BOR_economic_sabotage_second: "독일 숙련공 성장 방해"
- USA_CIA_GER_BOR_economic_sabotage_infrastructure: "Target Grossraum Infrastructure"
+ USA_CIA_GER_BOR_economic_sabotage_infrastructure: "그로스람 기반시설 "
  USA_CIA_GER_BOR_economic_sabotage_infrastructure_second: "독일 노예 수송 사보타주"
  USA_CIA_GER_BOR_economic_sabotage_combined: "독일 경제 마비시키기"
  USA_CIA_GER_BOR_fuck_with_anti_reformist_dismantlement: "나치당 관료체제 약화"
@@ -467,12 +467,12 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 ### AFRICA
 ###################
 
- USA_CIA_Support_Monarchists_SAF:0 "§YOperation§! §GJEWEL§!"
- USA_CIA_Sell_Guns_to_SAF:0 "§YOperation§! §TCONCORD§!"
- USA_CIA_support_the_monarchists_in_saf:0 "Campaign for the Monarchist Cause in South Africa"
- USA_CIA_SAF_1_tt:0 "Shoring up support for the institution in crucial states would mean keeping our Anglo friends in power."
- USA_CIA_SAF_2_tt:0 "To ensure that the last light of Liberty in the Dark Continent stays alive in the face of the Nazi menace, we should equip the defense forces of the country."
- USA_SAF_New_CIA_Decisions:0 "A new operation in South Africa has been unlocked.\n"
+ USA_CIA_Support_Monarchists_SAF:0 "§Y작전명§! §G보석§!"
+ USA_CIA_Sell_Guns_to_SAF:0 "§Y작전명§! §T콩고드§!"
+ USA_CIA_support_the_monarchists_in_saf:0 "남아프리카의 군주자 운동"
+ USA_CIA_SAF_1_tt:0 "결정적인 나라에서 그 정부에 대한 지원을 늘리는 것은 우리의 앵글로 친구들을 계속 집권시키는 것을 의미할 것입니다."
+ USA_CIA_SAF_2_tt:0 "암흑 대륙에서의 자유의 마지막 빛이 나치의 위협에 맞서 살아있도록 하기 위해서, 우리는 그 나라의 방위군을 갖추어야 합니다."
+ USA_SAF_New_CIA_Decisions:0 "남아프리카의 새로운 작전이 공개되었다.\n"
 
 ###################
 ### Russia
