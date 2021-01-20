@@ -892,7 +892,7 @@
    IFV_1950_advanced_turret_desc:0 "포탑 회전은 이동하며 전투할 차량에게 중요하며, IFV가 적 차량을 상대로 교전할 수 있는 능력을 크게 늘려줍니다. 하지만 이것이 일반적인 상황에서도 그래야 한다는 뜻은 아닙니다."
 
    # 1960
-   IFV_1960_basic_turret:0 "IFV 73mm 기관포"
+   IFV_1960_basic_turret:0 "IFV 73mm 포"
    IFV_1960_basic_turret_desc:0 "Whilst most IFV's retain the standard 20mm armament there is room for specific models to have greatly increased firepower depending upon their desired role. Additionally, this will assist in fighting entrenched enemy positions."
    IFV_1960_improved_turret:0 "공축기관총"
    IFV_1960_improved_turret_desc:0 "Machine guns are an important part of the armament of an IFV, and their placement is important so as to provide the widest firing arc possible. Suppression is an under appreciated factor of warfare upon occasion."
@@ -905,13 +905,13 @@
    IFV_1970_improved_turret:0 "개선된 무기 설치"
    IFV_1970_improved_turret_desc:0 "One of the more important factors of any IFV design is its actual weapon setup. The main gun needs to be capable of effectively engaging foes, as well as being a moderated support weapon arrangement for additional combat firepower."
    IFV_1970_advanced_turret:0 "90mm 주포"
-   IFV_1970_advanced_turret_desc:0 "Whilst an IFV might not be exactly designed for sustained combat, it should not be helpless. A 90mm cannon works wonders against vehicles, perhaps moreso on soldiers."
+   IFV_1970_advanced_turret_desc:0 "IFV가 계속되는 전투에 맞게 설계되지 않았다는 것이 사실일지도 모릅니다. 그렇다고 무력하지는 않을 것입니다. 90mm 포는 차량을 상대로 경이로운 위력을 보이며 적 병사들을 상대로는 그보다 더 엄청난 위력을 선보일 것입니다."
 
    # 1980
-   IFV_1980_basic_turret:0 "2인승 포탑"
-   IFV_1980_basic_turret_desc:0 "A two man cannon is arguably superior to a one man design, as it removes some of the vulnerabilities associated with one man being knocked out in combat or being distracted doing two things at once."
+   IFV_1980_basic_turret:0 "일인승 포탑"
+   IFV_1980_basic_turret_desc:0 "두 명이 조작하는 포가 한 명이 조작하는 설계보다 뛰어나다는 것은 거의 확실합니다. 일인승 포탑의 경우 한 명이 전투로 무력화되거나 동시에 두가지 일을 하게되어 주의가 산만해지면 문제가 생깁니다. 이인승 포탑은 이러한 문제 중 일부를 없앱니다."
    IFV_1980_improved_turret:0 "더 많은 총안구"
-   IFV_1980_improved_turret_desc:0 "Increasing the number of firing ports will allow to troops to return fire from the safety of the IFV, even when they are engaged while moving or unable to exit the vehicle."
+   IFV_1980_improved_turret_desc:0 "총안구의 수를 늘리면 병사들이 IFV 내에서 안전하게 반격할 수 있습니다. 이동 중이거나 차량을 나갈 수 없는 상황에서도 말이지요."
    IFV_1980_advanced_turret:0 "대전차 미사일"
    IFV_1980_advanced_turret_desc:0 "The next logical step in increasing the fighting capabilities of our IFVs is mounting them with anti-tank missiles. This will allow them to engage heavier armor with moderate success."
   ## Improvements - Turret ##
@@ -923,11 +923,11 @@
   ## Improvements - Armor ##
    # 1950
    MBT_1950_basic_armor:0 "기초적 세라믹 복합체"
-   MBT_1950_basic_armor_desc:0 "It has been demonstrated that a thin layer of enamel will improve the ballistic properties of steel. We should test this out and begin looking for ways to expand on this concept."
+   MBT_1950_basic_armor_desc:0 "얇은 에나멜막이 강철의 방탄 성능을 개선한다는 것이 밝혀졌습니다. 이 개념을 시험하고 확대해볼 방법을 찾아야합니다."
    MBT_1950_improved_armor:0 "퓨즈드 실리카 충전 장갑"
-   MBT_1950_improved_armor_desc:0 "Putting a piece of fused silica glass between two rolled steel plates almost doubles the armor effectiveness of the steel plates. This will help our tanks shrug off enemy fire much easier."
+   MBT_1950_improved_armor_desc:0 "두 압연 강철판 사이에 퓨즈스 실리카 유리를 넣으면 그냥 강철판의 두 배에 가까운 장갑 효율이 나옵니다. 우리 전차가 적 공격을 훨씬 더 쉽게 떨쳐내는데 도움이 될 것입니다."
    MBT_1950_advanced_armor:0 "컴비네이션 K 울트라 포세린 삽입형"
-   MBT_1950_advanced_armor_desc:0 "Instead of glass, our experiments have found a layer of plastic reinforced by glass and ceramic plates works much better. We can defend against HEAT rounds and shaped charges better without sacrificing defense against kinetic energy penetrators."
+   MBT_1950_advanced_armor_desc:0 "실험 결과 유리보다는 유리와 세라믹판으로 보강된 플라스틱막이 더 낫다는게 밝혀졌습니다. 운동 에너지탄에 대한 방호력을 희생하는 일 없이 대탄과 성형작약을 더 잘 막을 수 있습니다."
 
    # 1960
    MBT_1960_basic_armor:0 "적층 강철-세라믹 복합장갑"
@@ -935,7 +935,7 @@
    MBT_1960_improved_armor:0 "향상된 사이드스커트 장갑"
    MBT_1960_improved_armor_desc:0 "By placing strong armor composites on the outside of the tank hull, spaced just a few inches from the main armor, we can radically increase its effectiveness, as the spaced armor causes shaped-charge projectiles to shatter and explode before they can strike the main plate."
    MBT_1960_advanced_armor:0 "초기형 반응장갑"
-   MBT_1960_advanced_armor_desc:0 "We can equip our tanks with additional armor composed high explosive sandwiched in between composite metallic-ceramic plating, which, when struck by an armor-piercing round, should explode and shatter the projectile, greatly decreasing its damaging potential, if not negating it entirely. However, this armor is could prove expensive and unreliable."
+   MBT_1960_advanced_armor_desc:0 "두 금속-세라믹 판 사이에 고폭약을 끼운 추가 장갑을 우리 전차에 달 수 있습니다. 적탄에 피격당한다면 이 장갑이 폭발해 투사체를 박살냅니다. 이는 공격을 무효화하며, 그러지 못할 경우에도 잠재적 피해를 크게 줄일 것입니다. 하지만 이런 장갑은 비싸거나 신뢰할 수 없을지도 모릅니다."
 
    # 1970
    MBT_1970_basic_armor:0 "개량된 세라믹 복합재"
@@ -949,7 +949,7 @@
    MBT_1980_basic_armor:0 "열화우라늄 복합재"
    MBT_1980_basic_armor_desc:0 "Depleted Uranium, a by-product of uranium enrichment, can be incorporated into some of the layers of already established composites. Due to its high density, it can shatter the projectile more effectively than standard composites."
    MBT_1980_improved_armor:0 "향상된 폭발 반응장갑"
-   MBT_1980_improved_armor_desc:0 "More advanced and more sensitive high explosives can be incorporated into our reactive armor plates, allowing them to more effectively destroy incoming projectiles before they damage their targets."
+   MBT_1980_improved_armor_desc:0 "우리 반응장갑에 더 진보되고 더 민감한 고폭탄을 쓸 수 있습니다. 이는 날아오는 투사체가 목표에 피해를 주기도 전에 더 효율적으로 파괴할 것입니다."
    MBT_1980_advanced_armor:0 "비활성 반응장갑"
    MBT_1980_advanced_armor_desc:0 "Instead of using high explosives sandwiched in-between armor plates, we could use a porous material like rubber. When struck by a shaped charge warhead, the warhead's energy causes a dramatic increase in pressure and counter-explosion in the rubber, destroying the warhead. While slightly less effective, it is much safer and lighter than the explosive variety."
   ## Improvements - Armor ##
@@ -959,9 +959,9 @@
    MBT_1950_basic_turret:0 "초기형 자동장전장치"
    MBT_1950_basic_turret_desc:0 "Mechanical aids for our tank crews can facilitate loading and extraction of tank shells, reducing the tasks necessary to operate a tank in the middle of combat."
    MBT_1950_improved_turret:0 "대전차고폭탄 통합"
-   MBT_1950_improved_turret_desc:0 "A High-Explosive Anti-Tank (HEAT) warhead relies on a shaped charge to punch through enemy armor and send a molten stream of it into the vehicle, messing it up. It should be the primary anti-armor round used by our main battle tanks."
+   MBT_1950_improved_turret_desc:0 "대전차고폭탄(HEAT), 일명 대탄은 성형작약을 이용해 적 장갑을 뚫고 차량 안으로 녹은 가스를 불어넣어 큰 피해를 줍니다. 이 대탄이 우리 주력전차가 사용하는 주요 대전차탄이 되어야 합니다."
    MBT_1950_advanced_turret:0 "날개안정분리철갑탄"
-   MBT_1950_advanced_turret_desc:0 "Armour-Piercing Fin-Stabilized Discarding Sabot (APFSDS) rounds will give our tanks heavier striking power against modern armor systems, by adding fins to increase the stability and range of traditional Sabot shells."
+   MBT_1950_advanced_turret_desc:0 "날개안정분리철갑탄(APFSDS), 일명 날탄은 안정성과 사거리를 위해 전통적인 분리식 탄에 날개를 단 포탄입니다. 이는 우리 전차들이 현대 장갑 체계를 상대로 더 큰 타격력을 발휘할 수 있게 합니다."
 
    # 1960
    MBT_1960_basic_turret:0 "기계식 탄도 계산 컴퓨터"
@@ -975,7 +975,7 @@
    MBT_1970_basic_turret:0 "주포안정기 탑재"
    MBT_1970_basic_turret_desc:0 "Add-on stabilization mechanisms allow the tank to have greater accuracy while firing, improving the effectiveness of the vehicle while at speed. This will improve our existing guns immensely."
    MBT_1970_improved_turret:0 "열화우라늄탄"
-   MBT_1970_improved_turret_desc:0 "Enemy tanks are getting harder to penetrate, so we use harder weaponry. After much research, our scientists have decided that depleted uranium shells will allow us to breech enemy armor most effectively."
+   MBT_1970_improved_turret_desc:0 "적 전차가 점점 단단해지고 있습니다. 그러니 우리도 단단한 무기를 씁니다. 수많은 연구 끝에 우리 과학자들은 열화우라늄이 적 장갑을 제일 효과적으로 뚫을 것이라 결론 내렸습니다."
    MBT_1970_advanced_turret:0 "적외선 탐지기 및 야간 투시 장비"
    MBT_1970_advanced_turret_desc:0 "Installing infrared and night vision systems on our tanks allow our tank crews to see more, avoiding ambushes and camouflage, and allowing our tanks to operate more effectively at night."
 
@@ -1021,7 +1021,7 @@
  ### Artillery ###
   ## Normie Artillery ##
    artillery_1950_soft_attack:0 "50년형 대포 무장 업그레이드"
-   artillery_1950_soft_attack_desc:0 "Compounding on World War II era designs, these shells pack a higher yield for a lower cost. Effective at softening hard targets, as well as providing fire support, they are a must have in modern warfare."
+   artillery_1950_soft_attack_desc:0 "2대전 설계로 이루어진 이 포탄은 가성비가 좋습니다. 하드 타겟을 부드럽게 만들거나 화력지원을 제공하는데 효율적인 이 포탄은 현대전의 필수품입니다."
    artillery_1970_soft_attack:0 "70년형 대포 무장 업그레이드"
    artillery_1970_soft_attack_desc:0 "Continued improvements in efficiency and yield have allowed for highly destructive payloads. These armaments make their decade old counterparts foolish in comparison"
   ## Normie Artillery ##
@@ -1088,11 +1088,11 @@
    SPART_1950_armor_3:0 "50년형 자주포 복합장갑 적용"
    SPART_1950_armor_3_desc:0 "Composite armor is expensive and still a new field, but the promises it offers to protection and it's lightweight qualities are worthy of implementation across the field."
    artillery_1950_soft_attack:0 "50년형 야포 무장 업그레이드"
-   artillery_1950_soft_attack_desc:0 "Compounding on earlier designs, these shells pack a higher yield for a lower cost. Effective at softening hard targets, as well as providing fire support, they are a must have in modern warfare."
+   artillery_1950_soft_attack_desc:0 "초기 설계로 이루어진 이 포탄은 가성비가 좋습니다. 하드 타겟을 부드럽게 만들거나 화력지원을 제공하는데 효율적인 이 포탄은 현대전의 필수품입니다."
    artillery_1950_soft_attack_2:0 "50년형 야포 '항력감속탄' 도입"
-   artillery_1950_soft_attack_2_desc:0 "One innovation recently developed in artillery to increase range is "base bleed" - a controlled amount of fuel being let go out of the back of the shell in order to increase aerodynamic efficiency. When engineered correctly, this technique can allow shells to go 15-30% farther."
-   artillery_1950_soft_attack_3:0 "50년형 야포 사거리 연장탄(RAPs) 도입"
-   artillery_1950_soft_attack_3_desc:0 "While perhaps the most expensive option, rocket assisted projectiles have small rocket engines inside that can shoot shells as far as practically needed."
+   artillery_1950_soft_attack_2_desc:0 "최근 포병 개발사에서 이루어진 사거리의 혁신이라면 "항력감소탄"입니다. 공기역학적 효율을 증대시키기 위해 많은 양의 연료가 통제 하에 포탄 뒤에서 나오도록 하는거죠. 제대로만 만들어진다면 포탄이 15~30% 더 날아가게 할 수 있습니다."
+   artillery_1950_soft_attack_3:0 "50년형 야포 로켓보조탄 도입"
+   artillery_1950_soft_attack_3_desc:0 "제일 비싼 방법이기는 하지만 안에 소형 로켓 엔진이 달린 로켓보조탄은 현실적으로 필요한 거리까지 포탄을 날릴 수 있습니다."
    light_SPAA_1950_air_attack:0 "50년형 경장갑 자주대공포 무장 업그레이드"
    light_SPAA_1950_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
    light_SPAA_1950_air_attack_2:0 "50년형 경장갑 자주대공포 대구경 포 설치"
@@ -1151,8 +1151,8 @@
    artillery_1960_soft_attack:0 "60년형 야포 무장 업그레이드"
    artillery_1960_soft_attack_desc:0 "Compounding on earlier designs, these shells pack a higher yield for a lower cost. Effective at softening hard targets, as well as providing fire support, they are a must have in modern warfare."
    artillery_1960_soft_attack_2:0 "60년형 야포 '항력감속탄' 도입"
-   artillery_1960_soft_attack_2_desc:0 "One innovation recently developed in artillery to increase range is "base bleed" - a controlled amount of fuel being let go out of the back of the shell in order to increase aerodynamic efficiency. When engineered correctly, this technique can allow shells to go 16-30% farther."
-   artillery_1960_soft_attack_3:0 "60년형 야포 사거리 연장탄(RAPs) 도입"
+   artillery_1960_soft_attack_2_desc:0 "최근 포병 개발사에서 이루어진 사거리의 혁신이라면 "항력감소탄"입니다. 공기역학적 효율을 증대시키기 위해 많은 양의 연료가 통제 하에 포탄 뒤에서 나오도록 하는거죠. 제대로만 만들어진다면 포탄이 16~30% 더 날아가게 할 수 있습니다."
+   artillery_1960_soft_attack_3:0 "60년형 야포 로켓보조탄 도입"
    artillery_1960_soft_attack_3_desc:0 "While perhaps the most expensive option, rocket assisted projectiles have small rocket engines inside that can shoot shells as far as practically needed."
    light_SPAA_1960_air_attack:0 "60년형 경장갑 자주대공포 무장 업그레이드"
    light_SPAA_1960_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
@@ -1213,7 +1213,7 @@
    artillery_1970_soft_attack_desc:0 "Compounding on earlier designs, these shells pack a higher yield for a lower cost. Effective at softening hard targets, as well as providing fire support, they are a must have in modern warfare."
    artillery_1970_soft_attack_2:0 "70년형 야포 '항력감속탄' 도입"
    artillery_1970_soft_attack_2_desc:0 "One innovation recently developed in artillery to increase range is "base bleed" - a controlled amount of fuel being let go out of the back of the shell in order to increase aerodynamic efficiency. When engineered correctly, this technique can allow shells to go 17-30% farther."
-   artillery_1970_soft_attack_3:0 "70년형 야포 사거리 연장탄(RAPs) 도입"
+   artillery_1970_soft_attack_3:0 "70년형 야포 로켓보조탄 도입"
    artillery_1970_soft_attack_3_desc:0 "While perhaps the most expensive option, rocket assisted projectiles have small rocket engines inside that can shoot shells as far as practically needed."
    light_SPAA_1970_air_attack:0 "70년형 경장갑 자주대공포 무장 업그레이드"
    light_SPAA_1970_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
@@ -1274,7 +1274,7 @@
    artillery_1980_soft_attack_desc:0 "Compounding on earlier designs, these shells pack a higher yield for a lower cost. Effective at softening hard targets, as well as providing fire support, they are a must have in modern warfare."
    artillery_1980_soft_attack_2:0 "80년형 야포 '항력감속탄' 도입"
    artillery_1980_soft_attack_2_desc:0 "One innovation recently developed in artillery to increase range is "base bleed" - a controlled amount of fuel being let go out of the back of the shell in order to increase aerodynamic efficiency. When engineered correctly, this technique can allow shells to go 18-30% farther."
-   artillery_1980_soft_attack_3:0 "80년형 야포 사거리 연장탄(RAPs) 도입"
+   artillery_1980_soft_attack_3:0 "80년형 야포 로켓보조탄 도입"
    artillery_1980_soft_attack_3_desc:0 "While perhaps the most expensive option, rocket assisted projectiles have small rocket engines inside that can shoot shells as far as practically needed."
    light_SPAA_1980_air_attack:0 "80년형 경장갑 자주대공포 무장 업그레이드"
    light_SPAA_1980_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
@@ -1335,7 +1335,7 @@
    artillery_1990_soft_attack_desc:0 "Compounding on earlier designs, these shells pack a higher yield for a lower cost. Effective at softening hard targets, as well as providing fire support, they are a must have in modern warfare."
    artillery_1990_soft_attack_2:0 "90년형 야포 '항력감속탄' 도입"
    artillery_1990_soft_attack_2_desc:0 "One innovation recently developed in artillery to increase range is "base bleed" - a controlled amount of fuel being let go out of the back of the shell in order to increase aerodynamic efficiency. When engineered correctly, this technique can allow shells to go 19-30% farther."
-   artillery_1990_soft_attack_3:0 "90년형 야포 사거리 연장탄(RAPs) 도입"
+   artillery_1990_soft_attack_3:0 "90년형 야포 로켓보조탄 도입"
    artillery_1990_soft_attack_3_desc:0 "While perhaps the most expensive option, rocket assisted projectiles have small rocket engines inside that can shoot shells as far as practically needed."
    light_SPAA_1990_air_attack:0 "90년형 경장갑 자주대공포 무장 업그레이드"
    light_SPAA_1990_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
@@ -1522,17 +1522,17 @@
 
  ## Combined Operations
  combined_operations:0 "연합 작전"
- combined_operations_desc:0 "Antiquated doctrines focus only on one aspect of warfare. Advanced cooperation between air, naval, armored and infantry aspects will destroy our enemies fully in modern battlefields.\n\n"
+ combined_operations_desc:0 "낡은 교리는 전쟁의 한 부분에만 집중할 뿐입니다. 공군, 해군, 기갑, 보병. 네 부분의 진보된 협동은 현대전에서 우리의 적을 완전히 파괴할 것입니다.\n\n"
  army_interoperability:0 "군 상호운용성"
  army_interoperability_desc:0 "A combined operations doctrine can only be successful if followers are coordinated. We must redouble our efforts to ensure cooperation on all levels of our armed forces. We may serve different roles, but none shall fight alone!"
 
  support_companies:0 "지원 중대"
  support_companies_desc:0 "Be they medical, logistical, communications, or any other detachment, Support companies must remain properly supplied. The smallest edge is often the most vital.\n\n"
  tactical_support:0 "전술 지원"
- tactical_support_desc:0 "Infantry forces cannot operate alone! In those precious moments, when lives are on the line, tactical support makes the difference, be it softening a hard target or coordinating evacuations.\n\n"
+ tactical_support_desc:0 "보병 부대는 혼자서 작전을 수행할 수 없습니다! 이 귀중한 순간에, 목숨이 걸린 시기에, 전술 지원은 결과를 뒤바꿀 수 있습니다. 딱딱한 목표를 부드럽게 만들거나 철수를 조율하는 방식으로 말입니다.\n\n"
 
  artillery_barrage:0 "포병 화망"
- artillery_barrage_desc:0 "Artillery has existed in some form for hundreds of years, and continues to be relevant today. A good artillery barrage saves the lives of many infantrymen, instilling fear in enemy lines and disrupting their operations. There are many new innovations to be made in this field.\n\n"
+ artillery_barrage_desc:0 "포병은 수백 년 동안 존재해왔으며 오늘날에도 존재할 이유가 있습니다. 제대로 된 포병 화망은 수많은 보병의 목숨을 구하고 적 전열에 공포를 불어넣으며 적 작전을 방해합니다. 이 바닥에는 수많은 새로운 혁신이 이루어졌습니다.\n\n"
  preemptive_strike:0 "선제 타격"
  preemptive_strike_desc:0 "The best defense is always a good offense. Why should we wait in hiding-holes for the enemy to confront or even maneuver around us when we could be taking the fight to them. By hitting them before they are prepared for battle we are able to fight on our own terms.\n\n"
 
@@ -1550,12 +1550,12 @@
  airland_strikes_desc:0 "By providing our ground forces with the enhanced ability to directly request air strikes and support from attack aircraft, the accuracy, deadliness, and speed of our air-land strikes will be greatly improved.\n\n"
  vertical_envelopement:0 "수직포위"
  vertical_envelopement_desc:0 "Aerial insertion of infantry near the battlefield has the potential to greatly increase the speed and unpredictability of our land forces. By either air-dropping or air-lifting troops behind the front line we can rapidly encircle and cut off large enemy formations. Our army and air force will work in unison to strike the enemy from every direction.\n\n"
- air_ground_task_forces:0 "Air-Ground Task Forces"
+ air_ground_task_forces:0 "항공-지상 태스크포스"
  air_ground_task_forces_desc:0 "Merged so to act in unison, combat elements from different fields of battle - army, artillery, airspace - can quickly respond to and counter enemy offensives as they appear. The counteroffensives they deliver hence will deliver swift, decisive victory.\n\n"
 
  ## Maneuver Warfare
  maneuver_warfare:0 "기동전"
- maneuver_warfare_desc:0 "Maneuver warfare may be an obselescent doctrine, but its core principles are still useful today. By adding modern day tactics, we can easily reapply the strategy that had once guided the Reich to victory.\n\n"
+ maneuver_warfare_desc:0 "기동적은 낡은 교리일지도 모릅니다. 하지만 그 중심이 되는 원칙은 오늘날에도 아직 쓸만합니다. 현대의 전술을 첨가해 과거 라이히를 승리로 이끈 전략을 쉽게 재적용할 수 있습니다.\n\n"
 
  schwerpunkt_tactics:0 "Schwerpunkt Tactics"
  schwerpunkt_tactics_desc:0 "Schwerpunkt - "focal point" in German - refers to the strategy of concentrating an attack onto one portion of an enemy's defensive line. The tactic is intended to break through this portion and quickly spread into the rear of an enemy's line. By training our forces with this philosophy in mind, we shall take the first step to a Blitzkrieg of our own.\n\n"
@@ -1574,7 +1574,7 @@
  adaptive_command_training_desc:0 "The tides of war can be as unpredictable as those of a stormy sea, and we must train our officers to account for this reality. Soon not even surprise and circumstance are acceptable excuses.\n\n"
  mission_type_tactics:0 "임무형 전술"
  mission_type_tactics_desc:0 "While we cannot always expect our officers to predict the circumstances of combat, we can train them in every scenario we can think of. The more familiar they become with the situations they are likely to encounter, the better our officers will be able to confront our enemies in a more efficient fashion.\n\n"
- military_deception:0 "Military Deception"
+ military_deception:0 "군사적 기만"
  military_deception_desc:0 "Part of the problem of adopting a strategy used to win the biggest war in history is that tactics are developed to counter it. Our enemies are doubtless ready to rush reinforcements to wherever we attack - therefore, we shall use feints to trick them into sending their forces away from the true battle.\n\n"
 
  assault_concentration:0 "돌격 집중"
@@ -1589,7 +1589,7 @@
 
  ## Strategic Theorem
  strategic_theorem:0 "전략 법칙"
- strategic_theorem_desc:0 "Wars are unglamorous, but there is beauty in seeing well-planned, well-timed and well-performed operations unfold in real time. Our generals shall prioritize perfecting this art.\n\n"
+ strategic_theorem_desc:0 "전쟁을 매력적이라고 할 수는 없습니다. 하지만 제대로 계획된 작전이 제대로 된 시간에 제대로 펼쳐지는 광경은 아름답습니다. 우리 장군들은 이 예술을 완벽하게 만드는 일을 우선할 것입니다.\n\n"
 
  prepared_defense:0 "Prepared Redoubt Systems"
  prepared_defense_desc:0 "Small, well-fortified redoubts will serve as early warning systems against incoming enemy attacks. If positioned at certain strategic positions, these redoubts can delay offensives for hours and even days.\n\n"
@@ -1603,12 +1603,12 @@
  large_front_operations:0 "대규모 전선 작전"
  large_front_operations_desc:0 "By striking the enemy at multiple points simultaneously along their entire front we can keep our foes on their backfoot and without the initiative. They dare not launch a counterattack for fear of being broken through down the line and they further have no ability to reinforce the points of contact as there are too many to handle even by the best led armies.\n\n"
  overwhelming_force:0 "압도적인 힘"
- overwhelming_force_desc:0 "There is no point in fighting a battle you cannot be sure you will win. In modern warfare, the waste of equipment and manpower cannot be condoned. That is why, when we do attack, we do so with such a massed force as to sweep away any defensive that might be offered.\n\n"
+ overwhelming_force_desc:0 "승리를 확신할 수 없다면 싸우는 것은 의미가 없습니다. 현대전에서 장비와 인력의 낭비는 용납할 수 없습니다. 이게 우리가 공격할 때 어떠한 방어도 일소할 정도로 병력을 모으는 원인이 될 것입니다.\n\n"
 
  comprehensive_strategic_analysis:0 "포괄적인 전략적 분석"
  comprehensive_strategic_analysis_desc:0 "We need to train our staff officers to be able to grasp the strategic implication of every on-ground decision, and to be able to see the big picture as well as the small. Far too often an army is ruined by an inability to look beyond the tactical level. This will not happen to our forces, as our generals will have the skills needed to craft intelligent and successful operations.\n\n"
  large_scale_exercises:0 "대규모 훈련"
- large_scale_exercises_desc:0 "Individual recruit training is of course, a requirement for any professional army, but so too is strategic training. Using divisions, corps, and even entire armies we can simulate massive battlefields in which our generals will be able to learn the skills of directing troops and our soldiers will better learn to fight in their greater roles together.\n\n"
+ large_scale_exercises_desc:0 "물론 개인적인 신병 훈련은 어떤 전문적인 군대에도 필요한 것입니다. 하지만 전략 훈련도 그러합니다. 우리는 사단, 군단, 심지어는 군 전체를 동원해 대규모 전장을 시뮬레이션 할 수 있습니다. 우리 장군들은 그 곳에서 병력에게 지시를 내리는 기술을 배울 수 있을 것입니다. 우리 병사들은 더 큰 역할 내에서 함께 싸우는 법을 훨씬 더 잘 알 것입니다.\n\n"
 
  supply_routes:0 "보급망 증원"
  supply_routes_desc:0 "Our use of large scale operations is contingent upon plentiful supply lines. It is therefore imperative that we adequately prepare them by using our engineers to rebuild infrastructure in occupied territories and using reserve forces as truck drivers and escorts wherever possible to ensure a steady line of supply reaches the front.\n\n"
@@ -1738,7 +1738,7 @@
    # Missile Cruiser (Module)
    # - Don't let the name fool you, it's for Cruisers.
    missile_corvette_1960:0 "1960년형 미사일 순양함"
-   missile_corvette_1960_desc:0 "With carriers and naval aircraft having risen to prominence during and after WWII, a role has opened for dedicated cruisers to counter the threat. They will be equipped with surface-to-air missiles to ward off air strikes and keep our fleet safe from enemy carriers."
+   missile_corvette_1960_desc:0 "2대전과 그 이후 항모와 해군 항공기가 중요해지며 이 위협에 대처하는 순양함이라는 역할이 만들어졌습니다. 이들은 적 공습을 격퇴하고 적 항모로부터 우리 함대를 지키기 위해 함대공 미사일을 장비할 것입니다."
    missile_corvette_1970:0 "1970년형 미사일 순양함"
    missile_corvette_1970_desc:0 "Advances in doctrine and technology have enabled our missile cruisers to carry more and longer-range SAMs for better coverage and defense."
    missile_corvette_1980:0 "1980년형 미사일 순양함"
@@ -1770,12 +1770,12 @@
 
    # Continue Development ()
    continue_battleship_developement:0 "전함 개발 재개"
-   continue_battleship_developement_desc:0 "The battleship is the king of the sea. Carriers are useful, but nothing compares to the raw power of a battleship's broadside. Instead of throwing the prides of our fleet out, we shall retrofit and modernize them into true kings of the ocean."
-   continue_battleship_developement_tooltip:0 "§YCompleting this technology will allow us to defy the global trend of an air-power centered naval doctrine and continue with the development of battleships.§!"
+   continue_battleship_developement_desc:0 "전함은 바다의 왕입니다. 항모가 유용하기는 해도 전함의 일제사격이 뿜어내는 힘에 비하면 아무것도 아닙니다. 우리는 함대의 긍지를 내버리지 않을 것입니다. 우리는 전함을 개장하고 현대화해 대양의 진정한 왕으로 만들어낼 것입니다."
+   continue_battleship_developement_tooltip:0 "§Y이 기술을 완료하면 항공력 중심 해군 교리라는 세계 시류에 역행하며 전함 개발을 계속할 수 있습니다.§!"
   
    # Nuclear Reactor (Module)
    nuclear_battleship_1960:0 "1960년형 핵추진 전함 반응로"
-   nuclear_battleship_1960_desc:0 "One of the quickest ways to modernize our battleships is to move them to nuclear power. With nuclear power pushing our dreadnoughts forward, we shall gain speed, power, and efficiency, as well as reducing our need for fuel."
+   nuclear_battleship_1960_desc:0 "전함을 현대화시키는 제일 빠른 방법 중 하나는 원자력으로 움직이게 만드는 것입니다. 원자력이 우리 드레드노트를 나아가게 만들면 연료 필요량을 줄일 뿐 아니라 속도, 힘, 효율을 얻게 됩니다."
    nuclear_battleship_1970:0 "1970년형 핵추진 전함 반응로"
    nuclear_battleship_1970_desc:0 "By upgrading our reactors to the next generation, we shall gain even more power and speed. Our battleships will also have their trips back to base drop sharply - fuel is no longer necessary for our kings of the sea to operate."
    nuclear_battleship_1980:0 "1980년형 핵추진 전함 반응로"
@@ -1895,7 +1895,7 @@
   ## Improvements - Etc ##
    # Torpedoes - Launcher (Module)
    basic_torpedo:0 "제2차 세계대전기 어뢰"
-   basic_torpedo_desc:0 "Torpedoes in WWII were notoriously unreliable due to inadequate testing. They detonated prematurely due to interference from the earth's magnetic field and faulty depth sensors and lacked the firepower to destroy ships directly."
+   basic_torpedo_desc:0 "2대전 당시에는 어뢰 시험이 부족했기에 그 시기 어뢰는 믿을 수 없기로 유명했습니다. 이들은 지구의 자기장이나 잘못 만들어진 수심 측정기 때문에 너무 빨리 터지고는 했습니다. 거기다가 즉시 함선을 파괴할만한 화력도 부족했습니다."
    improved_ship_torpedo_launcher:0 "개선된 어뢰 발사관"
    improved_ship_torpedo_launcher_desc:0 "Improved warheads and better motors give torpedoes greater maneuverability and strength, assuming that the submarine they launch out of is strong enough."
    advanced_ship_torpedo_launcher:0 "발전된 어뢰 발사관"
@@ -1929,7 +1929,7 @@
   
    # Transports (Modifier)
    mtg_transport:0 "제2차 세계대전기 상륙주정"
-   mtg_transport_desc:0 "In the Second World War, the Americans used Higgins boats - riveted iron boats ten meters long carrying a ramp and a whole platoon - to ferry their men from ship to shore. We're using them today."
+   mtg_transport_desc:0 "제2차 세계 대전 당시 미군은 함선에서 해안으로 병사들을 옮기기 위해 히긴스 보트를 사용했습니다. 이는 화물 램프가 달린 10미터 짜리 철제 보트로 리벳으로 만들어졌으며 소대 하나가 탈 수 있었습니다. 그리고 우리는 지금도 그걸 쓰고 있습니다."
    mtg_landing_craft:0 "발전된 상륙주정"
    mtg_landing_craft_desc:0 "The helicopter has changed how we conceive an amphibious assault. Instead of exposing our men to battery fire in lumbering tin cans, we can use a squadron of helicopters to deliver them to the coast in a fraction of the time."
    mtg_tank_landing_craft:0 "현대적 상륙주정"
@@ -1937,7 +1937,7 @@
   
    ## Mine Warfare (Modules)
    basic_naval_mines:0 "접촉 기뢰"
-   basic_naval_mines_desc:0 "A simple floating bomb, anchored to the sea floor. The mine explodes when it comes into contact with a ship."
+   basic_naval_mines_desc:0 "바다 밑바닥에 뿌리를 박은 간단한 부유 폭탄입니다. 이 기뢰는 선박이랑 접촉하면 폭발합니다."
    improved_naval_mines:0 "자성 기뢰"
    improved_naval_mines_desc:0 "This sophisticated mine explodes when it detects changes in the magnetic field stemming from a passing ship."
    advanced_naval_mines:0 "음향 기뢰"
@@ -2079,11 +2079,11 @@
 
  ### Blue Water Navy
  blue_water_navy:0 "대양해군"
- blue_water_navy_desc:0 "How many nations can boast a fleet worthy of the high seas? A true modern superpower must be able to contest any point on the globe at any time with overwhelming force, mustering a force of battleships and carriers that would bankrupt a smaller nation. Gunboat diplomacy has never been so big.\n"
- global_fleet_distribution:0 "Global Fleet Distribution"
- global_fleet_distribution_desc:0 "To be able to maintain global hegemony, we must be within arm's reach of every continent. Our fleets will never tire in their patrol of the oceans, stationed at far-flung bases across the world.\n"
+ blue_water_navy_desc:0 "대양에 걸맞는 함대를 양성할 수 있는 나라가 얼마나 있을까요? 진정한 현대 초강대국이라면 지구상 어디에서나, 어느 순간에서나, 압도적인 함대를 이끌고 경쟁할 수 있어야만합니다. 소국들을 파산시킬 정도의 전함과 항모를 모을 수 있어야하죠. 포함외교라는게 이렇게 컸던 적은 지금까지 없었습니다.\n"
+ global_fleet_distribution:0 "전 지구적 함대 배치"
+ global_fleet_distribution_desc:0 "세계적 패권을 유지하려면 어떤 대륙에도 손을 댈 수 있어야 합니다. 전세계에 널리 퍼진 기지에 주둔하는 우리 함대는 절대 지치지 않고 대양을 순찰할 것입니다.\n"
  the_hidden_arm:0 "숨겨진 무기"
- the_hidden_arm_desc:0 "A good navy has just as much tonnage beneath the waves as it does above it. The silent warfare beneath the surface is just as important as the noisy one above it - perhaps moreso, with the advent of the nuclear triad.\n"
+ the_hidden_arm_desc:0 "좋은 해군이라면 파도를 타는 함대의 배수량과 파도 밑에 숨은 함대의 배수량이 같아야 합니다. 물 밑에서 벌어지는 조용한 전쟁은 그 위에서 벌어지는 시끄러운 전쟁만큼이나 중요합니다. 이제는 핵 삼위일체라는게 생겼으니 더 중요할수도 있겠군요.\n"
  reserve_fleets:0 "예비 함대"
  reserve_fleets_desc:0 "Fleets are ruinous to produce, and to replace one takes longer than most governments are in existence. We must maintain ships in reserve, to perform the roles of the those lost in combat or being repaired in drydock. Outlasting our enemy may be the key to starving them out.\n"
  global_range_operations:0 "전 지구적 작전"
@@ -2091,7 +2091,7 @@
  strike_groups:0 "타격단"
  strike_groups_desc:0 "A captain is the king of his own vessel but our captains must know how to work together to achieve victory. Within each fleet our ships will be assigned to strike groups, working together with programmed efficiency to dismantle the enemy in detail \n"
  modern_kantai_kessen:0 "현대 함대결전"
- modern_kantai_kessen_desc:0 "The Kantai Kessen, or Decisive Battle Doctrine, is the strategy of eliminating the enemy navy in a quick, decisive battle, which the IJN used successfully in the last war. Though technology has changed, the rules of naval combat still apply, and we must prepare for this decisive moment.\n"
+ modern_kantai_kessen_desc:0 "함대결전 교리는 적 해군을 빠르고 결정적인 전투로 제거하는 전술입니다. 지난 전쟁에서 일본 해군은 이 교리를 성공적으로 선보였습니다. 기술은 변했지만 이 해전의 규칙은 여전히 사용됩니다. 우리는 이 결정적인 순간에 대비해야만 합니다.\n"
  undersea_coordination_tactics:0 "수중 합동 전술"
  undersea_coordination_tactics_desc:0 "눈 가리고 술래잡기를 하는데 죄다 칼을 들었다고 생각해 보세요. 그리고 전부 바다 깊숙히 있는겁니다. 우리 함장들이 이런 상황에서 예상대로 움직이도록 절차를 만들어야 합니다. 그러면 직접 통신하지 않고도 협동할 수 있겠죠.\n"
  superior_screen_organization:0 "강력한 보조함 조직"
@@ -2111,7 +2111,7 @@
 
  ### Green Water Navy
  green_water_navy:0 "지역해군"
- green_water_navy_desc:0 "We may never have the ability to have a navy that can project power globally, but we can certainly have one that defends our waters with pride and honor. By focusing on the light ships of a navy, we can create a fleet that serves our purposes without bankrupting our economy."
+ green_water_navy_desc:0 "우리가 세계적으로 세력투사를 벌이는 해군을 가질 수 없을지도 모릅니다. 하지만 우리는 긍지와 명예를 가진채 우리의 바다를 지킬 수 있는 해군을 가질 수 있습니다. 소형함에 집중한다면 경제를 박살내지 않고도 우리 목적에 따라 일할 수 있는 함대를 만들 수 있습니다."
  coastal_submarine_patrols:0 "잠수함 해안 초계"
  coastal_submarine_patrols_desc:0 "The defense of our nation's waters do not only need to come from our surface fleet. By using submarines in our coastal patrols, we shall be able to defend our waters from smugglers and small craft, and pose enough of a deterrent to ward off attack from another nation.\n"
  destroyer_based_operations:0 "구축함 기반 작전"
@@ -2453,11 +2453,11 @@
 
  ### Production
  ww2_line_production:0 "제2차 세계대전기 생산 라인"
- ww2_line_production_desc:0 "Good old production lines. In service since the second great war, this system of manufacturing was highly effective at producing standardized products. Components are refined by human operated machines in factories, ensuring a steady flow."
+ ww2_line_production_desc:0 "오래된 정든 생산 라인입니다. 제2차 대전쟁 시기부터 사용된 이 생산 체계는 표준화된 상품을 생산하는데 매우 효율적입니다. 부품들은 공장에서 유인 조작되는 기계로 정제되어 꾸준히 뽑아낼 수 있게 해줍니다."
  early_industrial_robots:0 "초기 산업 로봇공학"
- early_industrial_robots_desc:0 "The first industrial robotics patents were granted in the late 1950s and early 1960s, and worked simply to transfer objects. However, these early prototypes were the foundation for much more productive advances down the line."
+ early_industrial_robots_desc:0 "산업용 로봇에 대한 최초의 특허는 1950년 말부터 1960년 초에 나왔습니다. 이 로봇들은 단순히 물건을 옮기는 역할만 했습니다. 하지만 이 초창기 프로토타입들은 이후 있을 더 생산적인 진보의 기반이 되었습니다."
  advanced_industrial_robots:0 "발전된 산업 로봇공학"
- advanced_industrial_robots_desc:0 "Industrial robots saw a great leap forward in 1968, when the first fully-actuated robot arm was developed. The dramatic increase in flexibility allowed robots to be used for more complex and specialized applications."
+ advanced_industrial_robots_desc:0 "1968년 최초의 완전작동 로봇팔이 개발되며 산업용 로봇은 큰 진전을 이루었습니다. 유연성이 극적으로 향상되며 로봇은 더 복잡하고 전문화된 일에도 쓰일 수 있게 되었습니다."
 
  ## Batch Production
  batch_production_1:0 "간헐 생산 방식 I"
