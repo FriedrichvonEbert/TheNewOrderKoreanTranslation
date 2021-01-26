@@ -11,7 +11,7 @@
 # The New Order 한국어 번역 공지사항
 ## [The New Order 한국어 번역](https://steamcommunity.com/sharedfiles/filedetails/?id=2195231810)은 공개 번역으로 진행됩니다.
 - 따라서 누구든지 Github 가입 및 번역팀 디스코드에 등록 후 자유롭게 참여하실 수 있습니다! 
-- 번역팀 디스코드 주소 : https://discord.gg/fGPdPFP
+- 번역팀 디스코드 주소 : https://discord.gg/AhCjdxxFA5
 ***
 
 ## 번역 방법 [(이 곳을 눌러 이동)](https://github.com/skullbe/Kaiserreich-Korean-Translation/wiki/%EA%B9%83%ED%97%88%EB%B8%8C-%EC%A0%80%EC%9E%A5%EB%B2%95)
