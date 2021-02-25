@@ -1589,12 +1589,12 @@
 
  ## Strategic Theorem
  strategic_theorem:0 "전략 법칙"
- strategic_theorem_desc:0 "전쟁을 매력적이라고 할 수는 없습니다. 하지만 제대로 계획된 작전이 제대로 된 시간에 제대로 펼쳐지는 광경은 아름답습니다. 우리 장군들은 이 예술을 완벽하게 만드는 일을 우선할 것입니다.\n\n"
+ strategic_theorem_desc:0 "전쟁을 매력적이라고 할 수는 없습니다만 제대로 계획된 작전이 제대로 된 시간에 제대로 펼쳐지는 광경은 아름답습니다. 우리 장군들은 이 예술을 완벽하게 만드는 일을 우선할 것입니다.\n\n"
 
  prepared_defense:0 "Prepared Redoubt Systems"
  prepared_defense_desc:0 "Small, well-fortified redoubts will serve as early warning systems against incoming enemy attacks. If positioned at certain strategic positions, these redoubts can delay offensives for hours and even days.\n\n"
- army_reserve_training:0 "Army Reserve Training"
- army_reserve_training_desc:0 "Guns, tanks and planes only perform as well as the men who man them. Take away the men, and even the most sophisticated weapon systems remain as inert and useless as scrap metal. A healthy reserve corps will preclude this scenario from occurring in our armies.\n\n"
+ army_reserve_training:0 "예비군 훈련"
+ army_reserve_training_desc:0 "총, 전차, 항공기는 쓸 사람이 있어야만 잘 작동할 수 있습니다. 사람이 없다면 아무리 정교한 무기체계라도 쓸모없는 고철일 뿐입니다. 대규모 예비대가 있다면 우리 군에서 이런 일이 일어나지 않을겁니다.\n\n"
  infrastructural_reserve:0 "Infrastructural Reserve"
  infrastructural_reserve_desc:0 "By maintaining a stockpile of construction materials, construction equipment and construction workers on hand, roads and factories damaged from air strikes or artillery fire will not have to wait long before returning to work as good as new.\n\n"
 
@@ -1693,7 +1693,7 @@
 
    # Smoke Generators (Module)
    smoke_generator:0 "연막 발생기"
-   smoke_generator_desc:0 "Some minor modifications to the engines and smokestacks of light and medium ships allow them to make a lot of smoke to avoid or break contact with the enemy."
+   smoke_generator_desc:0 "경량함과 중형함의 기관과 굴뚝을 약간만 개량한다면 적을 피하거나 적과 떨어지기 위해 대량의 연막을 칠 수 있게 됩니다."
    
    # Depth Charge (Module)
    basic_depth_charges:0 "폭뢰 발사기"
@@ -2208,7 +2208,7 @@
  precision_bombardment_desc:0 "With the advent of precision-guided munitions, the old WWII-era paradigm has been turned on its head - instead of counting the number of sorties per target, we can now begin working to maximize the number of targets per sortie, drastically increasing the efficiency of air-to-ground operations."
  air_tasking_order:0 "Air Tasking Order"
  air_tasking_order_desc:0 "The development of efficient air tasking - that is, the establishment of set target priorities - is a game-changer for operations planning. Ensuring that our communications network is capable of securely transmitting such orders in real time will grant us much better command and control."
- high_altitude_bombing:0 "High-Altitude Bombing"
+ high_altitude_bombing:0 "고고도 폭격"
  high_altitude_bombing_desc:0 "Advancements in precision bombing have allowed us to conduct bombing missions at staggeringly high altitude. By taking advantage of this, the effectiveness of our strategic strikes will increase. With these changes, our bombing runs will be able to level even the most fortified target."
  pop_up_attacks:0 "Pop-Up Attacks"
  pop_up_attacks_desc:0 "In the face of ever-advancing anti-aircraft weapons systems, our pilots must use tactics which minimize their risk of being successfully targeted by hostile ground units. The so-called "pop-up" attack run does precisely this, while also ensuring maximum probability of successful payload delivery."
@@ -2232,8 +2232,8 @@
  defensive_tactics_desc:0 "Radar and interception is integral to maintaining aerial dominance, and developing defensive tactics to quickly intercept incoming fighter jets and bombers is important for defending the nation's home skies. "
  offensive_area_denial:0 "Offensive Area Denial"
  offensive_area_denial_desc:0 "Area denial tactics emphasize denying the enemy entry into specific strategic regions through traps and preparations against incoming enemy units. Fighters and interceptors can deny incoming foes by executing a ruthless offense."
- rolling_thunder:0 "Rolling Thunder"
- rolling_thunder_desc:0 "Wars are won by the industrial capabilities of the nations involved. Massive bombardment campaigns over infrastructure, factories, military bases, and the front lines should substantially weaken the opponent's morale and wartime capabilities."
+ rolling_thunder:0 "롤링 썬더"
+ rolling_thunder_desc:0 "전쟁에서 승리를 가져오는 것은 한 국가의 산업 역량입니다. 기반시설, 공장, 군 기지, 전선에 대규모 폭격을 하면 적의 사기와 전쟁 역량을 크게 약화시킬겁니다."
  fire_support_coordination:0 "Fire Support Coordination"
  fire_support_coordination_desc:0 "Fire support coordination measures ensures closer cooperation between air and ground forces. The goal of coordination is to focus greater air force measures on higher-priority land targets, as well as closer coordination with anti-air support units."
  point_air_defense:0 "Point Air Defense"
@@ -2242,7 +2242,7 @@
  maximized_sortie_rate_desc:0 "Bombers are meant for the battlefield, where they must be efficiently deployed to overrun the enemy troops. We can maximize this deployment by implementing modern engineering methods to ensure bombers carry out their mission efficiently without being targeted by interceptors."
  infrastructure_disruption:0 "Infrastructure Disruption"
  infrastructure_disruption_desc:0 "Enemy troops are commonly deployed away from the front lines, meaning transportation is important to their rate of deployment. By bombing enemy roads, railways and networking systems, our bombers will hurt enemy morale and stability."
- nap_of_the_earth_maneuvers:0 "Nap-of-the-Earth Maneuvers"
+ nap_of_the_earth_maneuvers:0 "전술 지형 비행 기동"
  nap_of_the_earth_maneuvers_desc:0 "When our air assets are operating in potentially hostile areas, we need to ensure that they aren't detected and blown to kingdom come. Nap-of-the-Earth Maneuvers, or NOE, will involve aircraft flying very low to the ground. This will help avoid enemy detection, and keep our pilots safe."
  quick_reaction_groups:0 "Quick Reaction Groups"
  quick_reaction_groups_desc:0 "The unpredictability of modern war means that we must be constantly ready. By assigning aircraft to quick reaction groups, our air power will always be on call to assist ground forces in whatever situation they've found themselves in."
@@ -2263,7 +2263,7 @@
 
  ### Air Parity
  air_parity:0 "전장 지원"
- air_parity_desc:0 "War has changed, and our country is in need of an air force that prioritizes supporting land units. This strategy is useful in ensuring victories in small confrontations and skirmishes, which is particularly useful in guerrilla warfare."
+ air_parity_desc:0 "전쟁은 바뀌었습니다. 우리 나라는 지상 부대 지원을 최우선으로 하는 공군이 필요합니다. 이 전략은 소규모 대치나 교전에서, 특히 게릴라전에서 승리하는데 유용할겁니다."
  light_strike_groups:0 "Light Strike Groups"
  light_strike_groups_desc:0 "Our helicopters may be good to use hit and run tactics due to the speed and low profile of them. If we attach small infantry groups to each helicopter, they can land in and out of hot-zones and be much faster than sending an armored section while giving support."
  low_risk_engagements:0 "Low-Risk Engagements"
@@ -2355,23 +2355,23 @@
 
  ## Computing
  mechanical_computing:0 "기계식 연산"
- mechanical_computing_desc:0 "We can develop a system of gears and levers that will allow us to calculate math problems or add up vast sums of information. This could have tremendous potential in research and other fields."
+ mechanical_computing_desc:0 "수학 문제를 계산하거나 수많은 정보의 합을 낼 수 있는 톱니바퀴와 레버로 된 기계를 만들 수 있습니다. 이 기계가 연구 및 기타 분야에서 엄청난 잠재성을 지니고 있을지도 모릅니다."
  computing_machine:0 "연산 기계"
- computing_machine_desc:0 "Electrifying our preexisting mechanical computers will allow them to do their tasks faster, and allows for greater capability with less effort on the part of the operator."
+ computing_machine_desc:0 "기존의 기계식 연산기를 기계로 움직이게 뜯어 고친다면 계산이 더 빨라집니다. 또한 성능도 좋아지며 조작원의 수고도 줄게 됩니다."
  improved_computing_machine:0 "향상된 연산 기계"
- improved_computing_machine_desc:0 "We can now make our computers run programs based on our mechanical inputs. This makes life easier, and our researchers are begging for one to be installed in their offices to help them in their work."
+ improved_computing_machine_desc:0 "이제 우리가 기계적으로 입력한 내용에 기반한 프로그램을 연산기에서 돌릴 수 있습니다. 이는 일을 더 쉽게 만들겁니다. 연구원들이 작업을 돕기 위해 연구실에 이런거 하나만 달라고 애원하고 있습니다."
  advanced_computing_machine:0 "발전된 연산 기계"
- advanced_computing_machine_desc:0 "Transistors hold tremendous opportunity for electronics, promising to limit the physical size of computers while enhancing their electronic power. We must take advantage of this new development, lest we be left in an analog age."
+ advanced_computing_machine_desc:0 "트랜지스터는 전자공학계의 엄청난 기회입니다. 연산기의 크기를 줄이며 전자적 능력은 늘려둡니다. 이 새 발전을 써먹어야 합니다. 그렇지 않는다면 아날로그 시대에 혼자 남을 겁니다."
  computing_machine_1950:0 "진공관 컴퓨터"
- computing_machine_1950_desc:0 "Since the end of the Second World War, the old, antiquated computers were not enough. Using vacuum tubes, these giant, hulking electronic machines becomes a great aid in calculation and algorithmic tasks."
+ computing_machine_1950_desc:0 "제2차 세계 대전이 끝나며 낡은 구식 연산기로는 충분하지 않게 되었습니다. 이 진공관이 들어있는 거대한 전자기기는 계산과 알고리즘 업무를 하는데 큰 도움이 됩니다."
  computing_machine_1960:0 "트랜지스터 컴퓨터"
- computing_machine_1960_desc:0 "Continuing from the vacuum tube, the computers of the 60s have undergone the first steps of miniaturization. As machines get smaller, their performance increases, making them more and more ideal and affordable to use outside academic settings."
+ computing_machine_1960_desc:0 "진공관의 뒤를 이은 60년대 컴퓨터는 소형화의 첫 단계를 밟았습니다. 컴퓨터의 크기는 작아지고 성능은 좋아지며 점점 더 연구 외의 용도로 사용하는데 걸맞게 되어가고 있습니다."
  computing_machine_1970:0 "집적회로 컴퓨터"
- computing_machine_1970_desc:0 "By syndicating multiple transistors into one package, the integrated circuit was born. So begins the era where the computer and the technology behind it become more available to the public, accelerating research rate and productivity."
- computing_machine_1980:0 "임베디드 마이크로컨트롤러 컴퓨터"
- computing_machine_1980_desc:0 "From transistors into circuits - the next step was the embedded microcontroller, or the chip. Long gone were the days where the computer were only tools used by the government. Commercial and industrial usage abound, increasing research speed and productivity."
+ computing_machine_1970_desc:0 "여러 개의 트랜지스터를 한데 묶어서 집적회로가 탄생했습니다. 그리하여 컴퓨터와 관련 기술을 대중이 더 잘 누릴 수 있는 시대가 열렸습니다. 연구율과 생산성이 강화됩니다."
+ computing_machine_1980:0 "내장형 마이크로컨트롤러 컴퓨터"
+ computing_machine_1980_desc:0 "트랜지스터에서 회로로. 그 다음은 내장형 마이크로컨트롤러나 칩이었습니다. 정부에서만 컴퓨터를 쓰던 시대는 오래 전에 끝났습니다. 컴퓨터는 상업용이나 산업용으로도 널리 쓰이고 있습니다. 연구 속도와 생산성이 증가합니다."
  computing_machine_1990:0 "현대 컴퓨터"
- computing_machine_1990_desc:0 "As the year 2000 approaches, chips become smaller and smaller, with their sizes shrinking to the nanometers. Usage of computers becomes prevalent, and a new era dawns as these machines learn to communicate and transfer data from one another. Few can tell what will happen next."
+ computing_machine_1990_desc:0 "새천년이 다가오며 칩은 점점 작아져 이제는 나노미터 수준까지 이르렀습니다. 사람들은 널리 컴퓨터를 쓰게 됩니다. 컴퓨터가 다른 컴퓨터와 소통하고 데이터를 전달하는 법을 알게 되며 새로운 시대의 여명이 밝아옵니다. 다음에는 무슨 일이 벌어질지 자신있게 말할 수 있는 사람은 별로 없습니다."
 
  # Fire Control Systems
  basic_fire_control_system:0 "기초 사격 통제 장치"
