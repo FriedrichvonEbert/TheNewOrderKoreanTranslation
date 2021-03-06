@@ -123,12 +123,12 @@
 
  USA_CIA_recruit_bar_status:0 "[GetCIARecruitBarStatus]"
  USA_CIA_recruit_button_status:0 "[GetCIARecruitStatus]"
- USA_CIA_can_recruit:0 "We can recruit a new operative in exchange for §Y15§! million and §Y50§! expertise. Once the training is complete we will regain §Y25§! expertise."
- USA_CIA_cant_recruit:0 "We can not recruit any more agents at this time. Recruiting an agent requires §Y15§! million and §Y50§! expertise."
+ USA_CIA_can_recruit:0 "우리는 §Y15§!M의 예산과 §Y50§!의 전문성을 지불해 새로운 요원을 모집할 수 있습니다. 훈련이 완료되면 §Y25§!의 전문성을 돌려 받을 것입니다."
+ USA_CIA_cant_recruit:0 "지금은 더 이상 요원을 모집할 수 없습니다. 요원을 모집하려면 §Y15§!M의 예산과 §Y50§!의 전문성이 필요합니다."
  USA_CIA_at_operative_cap:0 "우리가 현재 보유한 요원은 최대 한도 §Y10명§!에 도달했습니다."
  USA_CIA_training_progress:0 "새 요원 훈련은 §Y[?USA_CIA_recruit_progress]%§! 완료된 상태입니다.\n"
- USA_CIA_already_recruiting:0 "우리는 이미 새로운 요원을 채용중입니다."
- USA_CIA_not_recruiting:0 "우리는 현재 새로운 요원을 채용하고 있지 않습니다."
+ USA_CIA_already_recruiting:0 "우리는 이미 새로운 요원을 훈련하고 있습니다."
+ USA_CIA_not_recruiting:0 "우리는 현재 새로운 요원을 훈련하지 않고 있습니다."
 
  USA_CIA_decrease_GER_capability:0 "우리는 이 지역 내 §j독일§!의 작전 수행 능력을 §G손상§!시키기 위한 작전을 개시할 것입니다.\n"
 
@@ -459,8 +459,8 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_Contact_Israeli_Paramilitaries:0 "§Y작전명§! §GWS로커스트§!"
  USA_CIA_IME_1_tt:0 "우리는 이르군 유대인 민병대와 접촉할 것입니다.\n\n그들이 개새끼일 수도 있습니다. 하지만 그들은 우리 개새끼입니다."
  
- USA.4.t:0 "Irgun grows more confident"
- USA.4.desc:0 "CIA gives some support to Irgun.\n\nIrgun variable increased by 5\n\nLoc requested by Lazergaz: 9th of February 2020"
+ USA.4.t:0 "이르군이 더욱 더 자신감을 갖다"
+ USA.4.desc:0 "CIA는 이르군에게 추가 지원을 할 것입니다.\n\nIrgun variable increased by 5\n\nLoc requested by Lazergaz: 9th of February 2020"
  USA.4.a:0 "Send loc pls"
 
 ###################
@@ -469,9 +469,9 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 
  USA_CIA_Support_Monarchists_SAF:0 "§Y작전명§! §G주얼§!"
  USA_CIA_Sell_Guns_to_SAF:0 "§Y작전명§! §T콩코드§!"
- USA_CIA_support_the_monarchists_in_saf:0 "Campaign for the Monarchist Cause in South Africa"
- USA_CIA_SAF_1_tt:0 "Shoring up support for the institution in crucial states would mean keeping our Anglo friends in power."
- USA_CIA_SAF_2_tt:0 "To ensure that the last light of Liberty in the Dark Continent stays alive in the face of the Nazi menace, we should equip the defense forces of the country."
+ USA_CIA_support_the_monarchists_in_saf:0 "남아프리카 전제주의를 위한 작전"
+ USA_CIA_SAF_1_tt:0 "주요 국가에서 그 제도에 대한 지지를 강화한다는 것은 우리의 백인 친구들을 계속 집권시키는 것을 의미할 것입니다."
+ USA_CIA_SAF_2_tt:0 "어두운 대륙에서 자유의 마지막 빛이 나치의 위협 앞에서 살아 남을 수 있도록, 우리는 그 나라의 방위군을 갖춰주어야 합니다."
  USA_SAF_New_CIA_Decisions:0 "남아프리카에서의 새로운 작전이 해금될 것입니다.\n"
 
 ###################
@@ -532,19 +532,19 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_Magadan_Increase_Support_desc:0 "우리는 [MAG.GetNameDef]의 RFP에 이익이 되는 후한 대출과 특혜를 줄 것입니다."
  USA_CIA_Magadan_2_tt:0 "§G마가단에 있는 RFP가 지원을 요청하면 더 많은 지원을 허가할 것입니다.§!"
 
- USA_CIA_Magadan_Military_Instructors:0 "Expand Advisor Presence in Magadan"
- USA_CIA_Magadan_Military_Instructors_desc:0 "We will send more agents to Magadan in order to train and drill their troops in our doctrines more extensively."
- USA_CIA_Magadan_3_tt:0 "§GMagadan's troop quality will be increased.§!"
+ USA_CIA_Magadan_Military_Instructors:0 "마가단에 있는 고문 주둔 확장"
+ USA_CIA_Magadan_Military_Instructors_desc:0 "우리는 마가단에 더 많은 요원을 파견하여, 군대를 훈련시키고 우리의 교리를 더 광범위하게 훈련시킬 것입니다."
+ USA_CIA_Magadan_3_tt:0 "§G마가단의 병력의 질이 향상될 것입니다.§!"
 
  USA_CIA_Magadan_Arms_Shipment:0 "마가단으로 무기 선적"
  USA_CIA_Magadan_Arms_Shipment_desc:0 "마가단에 있는 우리 친구들의 명분을 돕는 가장 확실한 방법은 그들이 살아남기 위해 필요한 무기를 보내는 것입니다. 우리는 일본인들이 이들의 경쟁자들을 무장시키고 있다는 것을 알고 있기 때문에 우리는 현물로 대응해야 합니다."
 
- USA_CIA_Magadan_Support_Reformists:0 "Support Reform Wing in [MAG.GetNameDef]"
- USA_CIA_Magadan_Support_Reformists_desc:0 "The Reform Wing of the RFP in [MAG.GetNameDef] is the most aligned with our country and thus must be strengthened for our mutual benefit."
- USA_CIA_Magadan_Suporting_Reformists_tt:0 "§GWe will support the reform wing of the RFP.§!"
+ USA_CIA_Magadan_Support_Reformists:0 "[MAG.GetNameDef]의 개혁파 지원"
+ USA_CIA_Magadan_Support_Reformists_desc:0 "[MAG.GetNameDef]의 개혁파는 우리 나라와 가장 잘 어울리기 때문에, 상호 이익을 위해 관계가 강화되어야 합니다."
+ USA_CIA_Magadan_Suporting_Reformists_tt:0 "§G우리는 RFP의 개혁파에 지원할 것입니다.§!"
 
- USA_CIA_Magadan_Increase_Presence:0 "Increased Presence in [MAG.GetNameDef]"
- USA_CIA_Magadan_Increase_Presence_tt:0 "§GWill unlock new operations inside [MAG.GetNameDef].§!"
+ USA_CIA_Magadan_Increase_Presence:0 "[MAG.GetNameDef]에서의 주둔 화장"
+ USA_CIA_Magadan_Increase_Presence_tt:0 "§G[MAG.GetNameDef]에서의 새로운 임무가 해금됩니다.§!"
 
 ###################
 ### EAST ASIA
