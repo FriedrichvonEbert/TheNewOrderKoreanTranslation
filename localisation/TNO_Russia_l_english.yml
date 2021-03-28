@@ -30,49 +30,6 @@
  RUS_random_get_superreg:0 "무작위 §Y광역§!"
  RUS_unite_russia:0 "§Y러시아§! 통일"
 
-
- region_name_WRS:0 "[WRS.GetName]"
- region_name_KIR:0 "[KIR.GetName]"
- region_name_SAM:0 "[SAM.GetName]"
- region_name_NIK:0 "[NIK.GetName]"
- region_name_PRM:0 "[PRM.GetName]"
- region_name_ISH:0 "[ISH.GetName]"
- region_name_TOB:0 "[TOB.GetName]"
- region_name_OMS:0 "[OMS.GetName]"
- region_name_PAV:0 "[PAV.GetName]"
- region_name_ERS:0 "[ERS.GetName]"
- region_name_KEM:0 "[KEM.GetName]"
- region_name_SAH:0 "[SAH.GetName]"
- region_name_KHA:0 "[KHA.GetName]"
- region_name_SVO:0 "[SVO.GetName]"
- region_name_BRY:0 "[BRY.GetName]"
- region_name_IRK:0 "[IRK.GetName]"
- region_name_WCH:0 "[WCH.GetName]"
- region_name_AMR:0 "[AMR.GetName]"
- region_name_MAG:0 "[MAG.GetName]"
- region_name_OMO:0 "[OMO.GetName]"
-
- region_name_def_WRS:0 "[WRS.GetNameDef]"
- region_name_def_KIR:0 "[KIR.GetNameDef]"
- region_name_def_SAM:0 "[SAM.GetNameDef]"
- region_name_def_NIK:0 "[NIK.GetNameDef]"
- region_name_def_PRM:0 "[PRM.GetNameDef]"
- region_name_def_ISH:0 "[ISH.GetNameDef]"
- region_name_def_TOB:0 "[TOB.GetNameDef]"
- region_name_def_OMS:0 "[OMS.GetNameDef]"
- region_name_def_PAV:0 "[PAV.GetNameDef]"
- region_name_def_ERS:0 "[ERS.GetNameDef]"
- region_name_def_KEM:0 "[KEM.GetNameDef]"
- region_name_def_SAH:0 "[SAH.GetNameDef]"
- region_name_def_KHA:0 "[KHA.GetNameDef]"
- region_name_def_SVO:0 "[SVO.GetNameDef]"
- region_name_def_BRY:0 "[BRY.GetNameDef]"
- region_name_def_IRK:0 "[IRK.GetNameDef]"
- region_name_def_WCH:0 "[WCH.GetNameDef]"
- region_name_def_AMR:0 "[AMR.GetNameDef]"
- region_name_def_MAG:0 "[MAG.GetNameDef]"
- region_name_def_OMO:0 "[OMO.GetNameDef]"
-
 ### 결정 카테고리 ###
  #습격
  russian_raiding_category:0 "§Y습격과 약탈§!"
@@ -550,9 +507,9 @@
  
  ### 레닌의 시신 ###
  RUS_lenin_embalmed:0 "레닌 영묘"
- RUS_lenin_embalmed_desc:0 ""
+ RUS_lenin_embalmed_desc:0 "The father of the Revolution, Vladimir Illich Lenin, was preserved by his successor upon his death so that all might remember who liberated us from the tyranny of bourgeois rule. During Barbarossa, it was evacuated from his resting place, and now rests in our respectful stewardship. Possession of his remains lends a certain legitimacy to our government in the eyes of the people."
  RUS_lenin_body_destroyed:0 "레닌의 시신이 파괴되다"
- RUS_lenin_body_destroyed_desc:0 ""
+ RUS_lenin_body_destroyed_desc:0 "In the name of all he oppressed, defiled and murdered, the earthly remains of the arch-traitor Lenin have been consigned to the flames. The most despicable villain in the history of the Motherland is nothing more than ash and smoke on the wind, as he deserves."
  RUS_destroyed_lenin_body:0 "파괴된 레닌의 시신"
  RUS_lenin_body_tt:0 "새 결정 사용 가능"
  RUS_lenin_enbalmed_category:0 "레닌의 시신"
@@ -644,7 +601,8 @@
 
  raiding.101.t:0 "놈들이 조공을 거부하다"
  raiding.101.d:0 "예상대로 [FROM.GetName] 놈들은 제안을 거부하고 전투 준비가 되었다고 알려왔습니다. 우리도 전투를 준비해야 합니다.\n\n아아. 유혈사태를 피할 수 없는 때도 있는 겁니다. 우리는 뒤 일을 준비해야만 합니다. [FROM.GetName] 놈들이 협조하지 않는다면 힘으로 약탈품을 빼앗아야 합니다."
- raiding.101.a:0 "러시아의 총성은 계속 울려퍼진다."
+ raiding.101.a:0 "러시아의 총성은 계속 울려퍼진다..."
+ raiding.101.a.tt:0 "...갑작스러운 변화로만 취소될 뿐."
 
  raiding.102.t:0 "조공을 받다"
  raiding.102.d:0 "기적적으로, [FROM.GetName]이(가) 항복하고 조공을 내놓았습니다. 놈들은 우리가 원한 약탈품을 넘겼습니다. 유혈사태는 피했고, 우리 병사들은 살아서 내일도 싸울 수 있습니다. 나중에도 [FROM.GetName]이(가) 이렇게 쉽게 항복할 것 같지는 않습니다."
@@ -1776,7 +1734,7 @@
  RUS_tourist.35.b:0 "실험 중인 제트기로 깊은 인상을 안겨주자!"
 
  RUS_tourist.36.t:0 "일기 14: 저 하늘로 날아가"
- RUS_tourist.36.d:0 "하늘에서 보는 러시아는 정말 볼만한 장관이었다.\n\n이 무정부 상태에 바다로 오고 땅으로 여행했지만 우랄 앞에서 구름을 뚫고 날아오르는 것은 사랑스럽기 그지 없는 광경이었다. 노보시비르스크 병사들은 내 이야기에 홀딱 빠져서 독일과의 분쟁에서 쓰인 골동품을 가져오기로 했다. 1940년대 말에 만들어진 구소련제 Il-10을 말이다.\n\n이 비행기는 서러시아 전쟁에서도 약간 날아봤다고 한다. 너무 자신만만했던 ME-262 몇 대와 교전했고 가능할 때면 지상지원을 제공했다. 모스크바 상공에서 벌어진 격렬한 공중전에서 격추될 뻔 했지만 용감하게 살아남았다... 아니면 조종사인 예브게니가 그렇게 지어낸거겠지. 사실이던 아니던 나는 신경 안 쓴다. 내가 신경 쓰는 것은 내가 말 그대로 날고 있다는 것과 예브게니가 이 역사의 낡은 골동품으로 주는 편안함 뿐이다.\n\n우리가 노보시비르스크 국경 안에, 대부분은 옴 강 유역에 머물렀지만 고요한 시베리아 시골의 모습과 소리는 하늘에서 봤을 때 숨을 턱 멎게 할 광경이었다. 이걸 절대 잊을 수는 없을 것이다. 이 일기에 제대로 묘사할 수도 없을거고. 우리가 착륙했을 때 예브게니는 작별의 뜻으로 형제처럼 안아주었다. 그리고는 안전하게 톰스크로 가는 길을 알려줬다.\n\n"따바리쉬. 좋은 여행 하십시오. 당신의 여정이 진심어린 성공으로 기록되기를 빕니다." 이 말은 정말 정말 오랫동안 내 머릿속에서 울렸다. 내 마음 속 깊은 곳에서 우러나오는 감사를 제대로 표현할 방법은 없었다."
+ RUS_tourist.36.d:0 "하늘에서 보는 러시아는 정말 볼만한 장관이었다.\n\n이 무정부 상태에 바다로 오고 땅으로 여행했지만 우랄 앞에서 구름을 뚫고 날아오르는 것은 사랑스럽기 그지 없는 광경이었다. 노보시비르스크 병사들은 내 이야기에 홀딱 빠져서 독일과의 분쟁에서 쓰인 골동품을 가져오기로 했다. 1940년대 말에 만들어진 구소련제 Il-10을 말이다.\n\n이 비행기는 서러시아 전쟁에서도 약간 날아봤다고 한다. 너무 자신만만했던 ME-262 몇 대와 교전했고 가능할 때면 지상지원을 제공했다. 모스크바 상공에서 벌어진 격렬한 공중전에서 격추될 뻔 했지만 용감하게 살아남았다... 아니면 조종사인 예브게니가 그렇게 지어낸거겠지. 사실이던 아니던 나는 신경 안 쓴다. 내가 신경 쓰는 것은 내가 말 그대로 날고 있다는 것과 예브게니가 이 역사의 낡은 골동품으로 주는 편안함 뿐이다.\n\n우리가 노보시비르스크 국경 안에, 대부분은 오브 강 유역에 머물렀지만 고요한 시베리아 시골의 모습과 소리는 하늘에서 봤을 때 숨을 턱 멎게 할 광경이었다. 이걸 절대 잊을 수는 없을 것이다. 이 일기에 제대로 묘사할 수도 없을거고. 우리가 착륙했을 때 예브게니는 작별의 뜻으로 형제처럼 안아주었다. 그리고는 안전하게 톰스크로 가는 길을 알려줬다.\n\n"따바리쉬. 좋은 여행 하십시오. 당신의 여정이 진심어린 성공으로 기록되기를 빕니다." 이 말은 정말 정말 오랫동안 내 머릿속에서 울렸다. 내 마음 속 깊은 곳에서 우러나오는 감사를 제대로 표현할 방법은 없었다."
  RUS_tourist.36.a:0 ""오, 대지 위로 미끄러지듯 날고 급상승하는 새들에 둘러싸여 같이 춤을 추는...""
 
  RUS_tourist.37.t:0 "불행한 항공 사고"
