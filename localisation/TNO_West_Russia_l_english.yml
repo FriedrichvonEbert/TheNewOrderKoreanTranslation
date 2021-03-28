@@ -21,6 +21,9 @@
  WRS_communist_party:0 "서러시아 혁명전선"
  WRS_communist_party_long:0 "서러시아 혁명전선"
 
+ ##Thing that will obsolete down the line##
+  WRS_tsar_not_captured:0 "We have the Tsar"
+
  ### Leader Descriptions ###
  POLITICS_KLIMENT_VOROSHILOV_DESC:0 "클리멘트 예프레모비치 보로실로프에겐, 전쟁은 결코 끝난적이 없습니다. 소비에트 연방의 창립기부터 자랑스럽게 복무해왔고, 볼셰비키의 이름하에 수많은 승리를 가져왔으며, 차리친 방어는 그의 이름을 가장 영예롭고 유명하게 만들었습니다. 그의 용맹한 위업과 넉살 좋은 프롤레타리아트적 인격을 통해, 보로실로프는 소비에트 연방의 인민들 사이에서 가장 신화적인 인물들 중 하나이자 부하린 휘하의 첫번째 원수가 되었습니다. 비록 1941년 독일의 침략으로부터 모국을 지켜내지는 못하였지만, 무스코비와 우크라이나의 인민들이 훈족의 변덕에 굴종한 이후에도 러시아의 대지에서 파시스트들을 몰아내려는 시도를 결코 포기한적이 없습니다. A-A선 너머로의 망명 이후에도 보로실로프는 성공적으로 서부 러시아의 붉은 군대 잔존병들을 그의 깃발 아래 결집시키는데 성공했으며, 독일과 모스코비엔 애완견들에게 큰 타격을 입히는데 성공했습니다. 그리하여 전설적인 서러시아 전쟁이 시작되었고 서러시아 혁명전선은 거의 승리할것만 같았습니다만, 그의 노력은 곧 반동적인 러시아계 부역자들과 혁명전선 내부의 적들에 의해 갉아먹히고 말았습니다.\n\n패배 이후에도, 원수의 결의는 결코 깨지지 않았으며 언젠가 크레믈린 위로 다시 붉은 깃발이 휘날릴것이라는 희망을 결코 버린적이 없습니다. 늙은 클리멘트는 아르한겔스크의 사람들에게 인기있는 인물로 남아있지만, 끝없는 새월간의 투쟁과 잃어버린 모국을 향한 오랜 우울감은 그의 건강을 갉아먹고 있습니다. 그의 권위는 여전히 소비에트 연방의 잔존병들을 한데 모으고 있지만, 휘하 장군들은 더 많은 권력을 그들의 영지에 결집시키려 하고 전선의 상징을 그들의 것으로 갈아치우려 하며, 국가 전체에 걸친 서로의 영향력을 사납게 겨루고 있습니다, 그 누가 보로실로프의 사후 서러시아 혁명전선에 어떤 미래가 찾아올지 논할 수 있을까요..."
  
@@ -531,7 +534,7 @@
  WRS_zhukov_friends_in_syktyvkar_desc:0 "코미의 공산주의자들은 정치적으로 중요한 세력이며, 많은 사람들은 우리와 함께 일할 수 있어 기뻐합니다. 그들이 공화국에서 정권을 잡을 수 있다면, 이들을 수용하고 기존의 체계를 접는것이 가장 쉽고 간편한 방법이 될 것입니다. 많은 경우에서 서로의 목표가 일치하며 쉽게 성취할 수 있는 평화가 있을때, 사소한 원한을 품거나 폭력적인 방법에 의지하는것은 어리석은 행동입니다."
  WRS_zhukov_invite_comrade_suslov_desc:0 "미하일 수슬로프는 혁명전선의 가장 확고한 동맹 중 하나였으며, 오늘날 혁명전선을 이탈한 국가인 코미 내에서도 가장 영향력있고 강력한 인물 중 하나입니다. 비록 아르한겔스크의 많은 사람들은 우리의 가장 중요한 지역을 상실한것을 씁슬하게 생각하지만, 우리는 실용적으로 생각해야 합니다. 수슬로프를 통해 이 지역과의 유대 관계를 재수립함으로서 식티프카르의 강력한 동맹을 보장받을 수 있습니다. 수슬로프는 전문적이고 잘 조직되어 있으며, 광범위한 지지자들의 정보망은 코미에서의 혁명전선 통제력을 유혈사태 없이 확보할 수 있도록 도울것 입니다. 코미와 혁명전선이 모두 중앙 정부의 굳건한 통제를 받을 수 있도록 할 동맹이 되기를, 그리고 이 국가는 절대로 우리를 앞으로 이끄는 이념적 인도에서 흔들리지 않기를..."
  WRS_zhukov_march_on_the_old_capital_desc:0 "옛 소비에트 연방이 붕괴한 이후, 코미 지역은 서러시아 혁명전선의 주요한 영토였으며, 이 지역의 수도인 식티프카르는 서러시아 전쟁기 동안 우리의 긴급 수도로써 기능하기도 했습니다. 하지만 그 무렵 코미에 대한 우리의 장악력은 약해졌고, 이제 이 지역은 정부 자신도 제대로 통제 못할듯한 신생 정부에 의해 통제되고 있습니다. 하지만 그들의 혼란스러운 통치에도 불구하고, 이 반군들은 어떻게든 엄청한 힘과 영향력을 축적했고, 이제 그들은 우리의 권위에 도전할 수 있다고 믿고 있습니다.\n\n우리는 저들이 이 광기를 이어가도록 내버려둘 수 없습니다. 우리는 모국의 통일의 첫 단계로서 이 반군들을 공격하고 이 지역을 되찾아와야 합니다." 
- WRS_zhukov_trial_the_government_desc:0 "정부를 재판하라"
+ WRS_zhukov_trial_the_government_desc:0 ""
  WRS_zhukov_the_priesthood_desc:0 "위대한 마르크스가 말했듯이, 종교는 인민의 아편입니다. 그리고 러시아보다 이것이 더 사실인 나라는 세상에 없다고 단언코 말할 수 있습니다. 정교회는 사회적 정치적 힘을 지나치게 키운 나머지 전쟁을 견뎌낸 이후 조악한 신권 독재를 일삼는 신권주의자가 되었습니다. 1917년 이후, 교회는 아무 소용은 없었지라도, 백방으로 노력하며 인민들의 운동을 저지하고, 우리의 위대한 투쟁을 파괴하려 하며 우리의 행동을 위태롭게 하고, 우리들의 인민들에 의문을 던졌습니다. 그들은 인류의 가장 위대한 무기인 희망을 자신들의 의지에 굴복시키기 위해 사용합니다. 이는 더 이상 용납될 수 없습니다.\n\n이러한 징후는 확고하니, 우리가 다음으로 해야할 일은 명백합니다. 우리의 위대한 혁명전선의 군인들은 가이니를 해방시키고 모든 단계에세 브루주아적 힘과 협력하는 종교라는 쓰레기를 치우고 그 자 리에 인민들의 힘을 불어넣을 것 입니다. 혁명전선이 다시 한번 힘을 불러일으킬때마다, 반동 세력또한 그리합니다. 하지만 인민들은 언제나 가장 강력합니다!"
  WRS_zhukov_crush_the_church_desc:0 "만약 종교가 러시아의 아편이라면, 이 아편은 모국을 병들고 병들게 만들며 과거속에 가두는 존재입니다. 그리고 혁명전선은 모국의 재활을 가져올 것입니다. 이 악의 세력의 표상들이 모국을 타락시키기 전에 뭉게버려야 합니다!\n\n가이니에선 오랫동안 러시아를 썩혀온 부패의 가장 순수한 형태가 드러나고 있습니다. 종교 자체는 개인의 문제이며, 가정의 안에서는 유해하지 않게 실천될 수 있지만 종교가 개인의 문제를 넘어서는 순간 이는 크나큰 문제가 됩니다. 교회의 힘이 러시아에 미치는 부정적 영향력은 한 국가가 종교에 기반하여 설 수 없다는 것을 증명합니다.\n\n이것이 바로 우리가 가이니의 성직자가 러시아 인민에 맞선 종교적 전쟁을 짓밟아야 하는 이유입니다. 우리는 전차를 타고 교회를 짓밟아야 하며, 십자가를 집어던지고 붉은 깃발을 세우며, 러시아를 정교회라는 위협에서 몰아내야 합니다!"
  WRS_zhukov_cease_this_foolishness_desc:0 "인민들의 삶에서 종교의 역할을 감소시키는 소비에트 연방의 진보가 러시아의 비도덕적인 현황에 의해 크게 쇠퇴하여 다시 광신의 길에 접어들게 된 것은 매우 유감스러운 결과입니다. 오랫동안 절박함에 빠져 효율적인 교육조차 받지 못한 농부들은 결국 농촌을 반 마르크스적 신조의 거점으로 만들곤 "인민의 아편"에 빠져들기로 하였습니다.\n\n이제 전연방 공산당은 합리주의적 원칙이 다시 한번 마을의 주도권을 쥐게하기 위해 교회에 맞선 효율적인 선전전에 나서기로 결정했습니다. 간부회는 우리의 작은 마을들을 순회하며 여행하는 곳 마다 읽고 쓰기를 장려하고 대중을 교육하여 미신을 뿌리채 뽑을것 입니다. 물론 이는 힘겨운 작업이며 해야할 일은 산더미같겠지만, 신앙의 족쇄에서 가난한 이들을 해방하는것은 이에 대하여 충분한 보상이 될 것입니다."
@@ -1011,38 +1014,37 @@
 
 
  #Power Struggle Mechanic
- WRS_increase_tukha_influence_low_tt:0 "\n이것은 §g미하일 투하쳅스키§!의 영향력을 조금 상승시킬것 입니다.\n"
- WRS_increase_tukha_influence_med_tt:0 "\n이것은 §g미하일 투하쳅스키§!의 영향력을 상승시킬것 입니다.\n"
- WRS_increase_tukha_influence_high_tt:0 "\n이것은 §g미하일 투하쳅스키§!의 영향력을 크게 상승시킬것 입니다.\n"
+ WRS_increase_tukha_influence_low_tt:0 "이것은 §g미하일 투하쳅스키§!의 영향력을 조금 상승시킬것 입니다.\n"
+ WRS_increase_tukha_influence_med_tt:0 "이것은 §g미하일 투하쳅스키§!의 영향력을 상승시킬것 입니다.\n"
+ WRS_increase_tukha_influence_high_tt:0 "이것은 §g미하일 투하쳅스키§!의 영향력을 크게 상승시킬것 입니다.\n"
 
- WRS_decrease_tukha_influence_low_tt:0 "\n이것은 §g미하일 투하쳅스키§!의 영향력을 조금 하락시킬것 입니다.\n"
- WRS_decrease_tukha_influence_med_tt:0 "\n이것은 §g미하일 투하쳅스키§!의 영향력을 하락시킬것 입니다.\n"
- WRS_decrease_tukha_influence_high_tt:0 "\n이것은 §g미하일 투하쳅스키§!의 영향력을 크게 상승시킬것 입니다.\n"
+ WRS_decrease_tukha_influence_low_tt:0 "이것은 §g미하일 투하쳅스키§!의 영향력을 조금 하락시킬것 입니다.\n"
+ WRS_decrease_tukha_influence_med_tt:0 "이것은 §g미하일 투하쳅스키§!의 영향력을 하락시킬것 입니다.\n"
+ WRS_decrease_tukha_influence_high_tt:0 "이것은 §g미하일 투하쳅스키§!의 영향력을 크게 상승시킬것 입니다.\n"
 
- WRS_increase_zhukov_influence_low_tt:0 "\n이것은 §S게오르기 주코프§!의 영향력을 조금 상승시킬것 입니다.\n"
- WRS_increase_zhukov_influence_med_tt:0 "\n이것은 §S게오르기 주코프§!의 영향력을 상승시킬것 입니다.\n"
- WRS_increase_zhukov_influence_high_tt:0 "\n이것은 §S게오르기 주코프§!의 영향력을 크게 상승시킬것 입니다.\n"
+ WRS_increase_zhukov_influence_low_tt:0 "이것은 §S게오르기 주코프§!의 영향력을 조금 상승시킬것 입니다.\n"
+ WRS_increase_zhukov_influence_med_tt:0 "이것은 §S게오르기 주코프§!의 영향력을 상승시킬것 입니다.\n"
+ WRS_increase_zhukov_influence_high_tt:0 "이것은 §S게오르기 주코프§!의 영향력을 크게 상승시킬것 입니다.\n"
 
- WRS_decrease_zhukov_influence_low_tt:0 "\n이것은 §S게오르기 주코프§!의 영향력을 조금 하락시킬것 입니다\n"
- WRS_decrease_zhukov_influence_med_tt:0 "\n이것은 §S게오르기 주코프§!의 영향력을 하락시킬것 입니다\n"
- WRS_decrease_zhukov_influence_high_tt:0 "\n이것은 §S게오르기 주코프§!의 영향력을 상승시킬것 입니다\n"
+ WRS_decrease_zhukov_influence_low_tt:0 "이것은 §S게오르기 주코프§!의 영향력을 조금 하락시킬것 입니다\n"
+ WRS_decrease_zhukov_influence_med_tt:0 "이것은 §S게오르기 주코프§!의 영향력을 하락시킬것 입니다\n"
+ WRS_decrease_zhukov_influence_high_tt:0 "이것은 §S게오르기 주코프§!의 영향력을 상승시킬것 입니다\n"
 
- WRS_decrease_factionalism_low_tt:0 "\n이것은 §R파벌주의§!를 조금 §Y하락§!시킬것 입니다.\n"
- WRS_decrease_factionalism_med_tt:0 "\n이것은 §R파벌주의§!를 §Y하락§!시킬것 입니다.\n"
- WRS_decrease_factionalism_high_tt:0 "\n이것은 §R파벌주의§!를 크게 §Y하락§!시킬것 입니다.\n"
+ WRS_decrease_factionalism_low_tt:0 "이것은 §R파벌주의§!를 조금 §Y하락§!시킬것 입니다.\n"
+ WRS_decrease_factionalism_med_tt:0 "이것은 §R파벌주의§!를 §Y하락§!시킬것 입니다.\n"
+ WRS_decrease_factionalism_high_tt:0 "이것은 §R파벌주의§!를 크게 §Y하락§!시킬것 입니다.\n"
 
- WRS_increase_factionalism_low_tt:0 "\n이것은 §R파벌주의§!를 조금 §Y상승§!시킬것 입니다.\n"
- WRS_increase_factionalism_med_tt:0 "\n이것은 §R파벌주의§!를 §Y상승§!시킬것 입니다.\n"
- WRS_increase_factionalism_high_tt:0 "\n\n이것은 §R파벌주의§!를 크게 §Y상승§!시킬것 입니다.\n"
+ WRS_increase_factionalism_low_tt:0 "이것은 §R파벌주의§!를 조금 §Y상승§!시킬것 입니다.\n"
+ WRS_increase_factionalism_med_tt:0 "이것은 §R파벌주의§!를 §Y상승§!시킬것 입니다.\n"
+ WRS_increase_factionalism_high_tt:0 "이것은 §R파벌주의§!를 크게 §Y상승§!시킬것 입니다.\n"
 
- WRS_tank_tukha_influence_tt:0 "\n§gMikhail Tukhachevsky§!'s influence will §etank§!!\n"
- WRS_tank_zhukov_influence_tt:0 "\n§SGeorgy Zhukov§!'s influence will §etank§!!\n"
+ WRS_tank_tukha_influence_tt:0 "§gMikhail Tukhachevsky§!'s influence will §etank§!!\n"
+ WRS_tank_zhukov_influence_tt:0 "§SGeorgy Zhukov§!'s influence will §etank§!!\n"
 
  #Tukhachevsky Power Struggle Decisions
  WRS_power_struggle_tukha_category:0 "보로실로프의 계승자"
  WRS_power_struggle_tukha_category_desc:0 "서러시아 혁명전선은 산산조각 난 러시아에서 가장 강력한 정치체로 남아 있습니다. 서러시아 혁명전선의 옛 지도자인 보로실로프 원수는 노망이 든 상태입니다. 그는 온종일 옛 전쟁과 옛 전우들에 대해 중얼거리며 보내고 있습니다. 이 때, 부하린의 옛 연방의 장군이였던 주코프 장군과 투하쳅스키 장군이 나타났습니다. 두 사람은 붉은 군대의 가장 합법적인 후계자가 누구인지, 궁극적으로 연방을 이끌 사람이 누구인지 결정하기 위해 각자의 두 파벌을 가지고 공개적인 정치적 전쟁, 이른바 치열한 권력 투쟁을 벌이고 있습니다.\n\n두 명의 장군, §g미하일 투하쳅스키§!와 §S게오르기 주코프§!가 §G보로실로프§!의 후계자 자리와 대원수 칭호를 두고 경쟁하고 있습니다.\n\n현재 전선 내 §Y권력 균형§! 상태는 [WRSGetMarshalInfluence].\n\n전선 내부의 파벌주의 수준은 [ROOT.GetWRSFactionalism] 입니다.\n\n전선 내부의 개혁과 지지 후보 결정은 아래의 결정을 통해 수행할 수 있습니다."
  WRS_zhukov_influence_ticker:0 "§S주코프§!가 움직이고 있습니다!"
- WRS_zhukov_influence_ticker_tt:0 "§S게오르기 주코프§!의 영향력이 조금 §Y증가합니다§!."
  WRS_appease_zhukov:0 "§S주코프§!를 달래다"
  WRS_work_against_zhukov:0 "§S주코프§!에게 맞서다"
  WRS_tukha_military_parade:0 "군 열병식 주최"
@@ -1065,7 +1067,6 @@
  WRS_power_struggle_zhukov_category:0 "보로실로프의 계승자"
  WRS_power_struggle_zhukov_category_desc:0 "서러시아 혁명전선은 산산조각 난 러시아에서 가장 강력한 정치체로 남아 있습니다. 서러시아 혁명전선의 옛 지도자인 보로실로프 원수는 노망이 든 상태입니다. 그는 온종일 옛 전쟁과 옛 전우들에 대해 중얼거리 보내고 있습니다. 이 때, 부하린의 옛 연방의 장군이였던 주코프 장군과 투하쳅스키 장군이 나타났습니다. 두 사람은 붉은 군대의 가장 합법적인 후계자가 누구인지, 궁극적으로 연방을 이끌 사람이 누구인지 결정하기 위해 각자의 두 파벌을 가지고 공개적인 정치적 전쟁, 이른바 치열한 권력 투쟁을 벌이고 있습니다.\n\n두 명의 장군, §g미하일 투하쳅스키§!와 §S게오르기 주코프§!가 §G보로실로프§!의 후계자 자리와 대원수 칭호를 두고 경쟁하고 있습니다.\n\n현재 전선 내 §Y권력 균형§! 상태는 [WRSGetMarshalInfluence].\n\n전선 내부 파벌주의 수준은 [ROOT.GetWRSFactionalism]입니다.\n\n전선 내부의 개혁과 지지 후보 결정은 아래의 결정을 통해 수행할 수 있습니다."
  WRS_tukha_influence_ticker:0 "§g투하쳅스키§!가 움직이고 있습니다!"
- WRS_tukha_influence_ticker_tt:0 "§g미하일 투하쳅스키§!의 영향력이 조금 §Y증가합니다§!."
  WRS_appease_tukha:0 "§g투하쳅스키§!를 달래다"
  WRS_work_against_tukha:0 "§g투하쳅스키§!에게 맞서다"
  WRS_zhukov_military_parade:0 "군 열병식 주최"
@@ -1086,7 +1087,7 @@
 
  WRS_tukha_dominant:0 "§g미하일 투하쳅스키 쪽입니다§! (§g[?global.WRSTukhaInfluence]§!-§S[?global.WRSZhukovInfluence]§!)"
  WRS_zhukov_dominant:0 "§S게오르키 주코프 쪽입니다§! (§S[?global.WRSZhukovInfluence]§!-§g[?global.WRSTukhaInfluence]§!)"
- WRS_no_marshal_dominant:0 "§O어느 쪽도 아닙니다§!"
+ WRS_no_marshal_dominant:0 "§O어느 쪽도 아닙니다§! (§g[?global.WRSTukhaInfluence]§!-§S[?global.WRSZhukovInfluence]§!)"
 
  ### PROJECT INDRIK ###
  WRS_project_indrik_category:0 "프로젝트 §RINDRIK§!"
@@ -1194,22 +1195,6 @@
  WRS_project_shchuka_cost_tt:0 "소련이 크릭스마리네나 일본 제국 연합함대와 같은 청해 함대를 건설하려는 시도는 분명히 무모한 짓입니다. 무역 차단과 잠수함전에 집중하는 것이 훨씬 더 좋은 선택이겠지만, 현재 우리의 잠수함 전력은 끔찍할 정도로 시대에 뒤떨어져 있습니다. 새로운 디젤-동력의, 더 나아가 궁극적으로는 핵 잠수함을 설계하는 것이 필수적입니다.\n\n이는 §Y$2억 7천5백만 USD§!의 §Y국가 부채§!를 추가할 것입니다.\n"
  WRS_project_leshiy_cost_tt:0 "거의 반세기동안, 전장에서의 화학무기 사용은 국제적으로 금기시 되었습니다. 그러나, 우리는 스스로의 생존 뿐만 아니라 전 인류의 구원을 위해 싸우고 있으며, 이러한 투쟁 속에서 규칙은 무의미합니다. 화학무기는 적의 작전 주도권을 말 그대로 질식시킬 수 있으며, 우리의 기존 비축분은 단순히 확장될 뿐만 아니라, 새롭고 훨씬 치명적인 조합법으로 무장되어야 합니다.\n\n이는 §Y$3억 5천만 USD§!의 §Y국가 부채§!를 추가할 것입니다.\n"
  WRS_project_ferment_cost_tt:0 "미래의 전쟁은 현재 우리의 전장의 개념과 방식을 총체적이고 완전하게 대체할 것입니다. 전장은 하늘, 바다, 육지를 아우르는 전통적인 공간 뿐만 아니라, 생물학의 영역 또한 포함될 수 있습니다. 생물 무기는 엄청난 규모의 힘의 승수를 더할 것이며, 초강대국과의 격돌에서조차 우리 군에게 결정적인 우위를 선사할 것입니다. 이들의 개발은 반드시 우선시 되어야 합니다.\n\n이는 §Y$4억 USD§!의 §Y국가 부채§!를 추가할 것입니다.\n"
- 
- WRS_indrik_civ_fact_cost_1:0 "£civ_factory §Y1§!"
- WRS_indrik_civ_fact_cost_1_blocked:0 "£civ_factory §R1§!"
- WRS_indrik_civ_fact_cost_1_tooltip:0 "이 결정은 일시적으로 1£civ_factory를 차지할 것 입니다."
-
- WRS_indrik_civ_fact_cost_2:0 "£civ_factory §Y2§!"
- WRS_indrik_civ_fact_cost_2_blocked:0 "£civ_factory §R2§!"
- WRS_indrik_civ_fact_cost_2_tooltip:0 "이 결정은 일시적으로 2£civ_factory를 차지할 것 입니다."
-
- WRS_indrik_civ_fact_cost_5:0 "£civ_factory §Y5§!"
- WRS_indrik_civ_fact_cost_5_blocked:0 "£civ_factory §R5§!"
- WRS_indrik_civ_fact_cost_5_tooltip:0 "이 결정은 일시적으로 5£civ_factory를 차지할 것 입니다."
-
- WRS_indrik_civ_fact_cost_10:0 "£civ_factory §Y10§!"
- WRS_indrik_civ_fact_cost_10_blocked:0 "£civ_factory §R10§!"
- WRS_indrik_civ_fact_cost_10_tooltip:0 "이 결정은 일시적으로 10£civ_factory를 차지할 것 입니다."
 
  ### Ministers ###
  WRS_Yakov_Dashevsky:0 "야코프 다셰프스키"
@@ -1313,6 +1298,11 @@
  WRS.6.t:0 "혁명전선의 제안" #Doodger
  WRS.6.d:0 "The trade convoys rumbled past Zhdanov's office at the usual time each month. Headed north west toward the Front, the trucks carried crate of essential food from Komi. Each truck's food cargo would help the Front stave off starvation for a few more precious days. In return, the trucks would be loaded with high quality hardware such as AK pattern rifles.\n\nZhdanov's mind inevitably turned to the Front itself. He missed his comrades in the Front. Hard working men that kept up the fight for the eternal worker's revolution. Zhdanov remembered the long flight to Syktyvkar, and the panic caused by the bombings. In its aftermath the politician had found himself stranded in Komi, and involved himself with the burgeoning local communist movement.\n\nStill, the Front held only by a few threads. Zhdanov had often thought of returning there, but the Red Army's precarious position made it a losing proposal. Better for the revolution to take over Komi first as a base of operation."
  WRS.6.a:0 "Always of use."
+
+#Event for Komi - the WRRF trades guns for food. However, the face is different...
+ WRS.601.t:0 "An Unusual Circunstance" #Fetti
+ WRS.601.d:0 "The trade convoys rumbled past Zhdanov's office at the usual time each month. However, this time no person, neither Zhdanov, neither his usual attendants came to their presence. In fact, for the longest time, the convoy handlers simply stood, the accompanying scout repeatedly knocking on their contact's office, for no avail. Perhaps, the time of their old contact in the Republic had come to a sudden end.\n\nAs they prepare to turn back, however, a peculiar figure approached them. Pronouncing themselves as someone representing the interest of a "sympathetic comrade in the revolution", it offered to honor the deal of the now late Zhdanov, and his bridge with the Revolutionary Front. While in more fortuitous circumstances such suspicious handlings of Komi were matters beyond the decisions of those transporting the goods, the hunger of the people at home spoke louder. The deal was struck, the trucks were driven further down the street, and the deal was finished, even if by different hands."
+ WRS.601.a:0 "As long as it's not a wasted trip..."
 
 #Event for Vorkuta, the WRRF trades guns for food that originates in Zlatoust/Yugra.
  WRS.7.t:0 "Dealings with the Front" #Doodger - Skipped with pacifica's blessing
@@ -1553,6 +1543,8 @@
  WRS_power_struggle.12.t:0 "SMERSH의 유정 사보타주 사건 수사"
  WRS_power_struggle.12.desc:0 "After learning of the extensive damage done to his oil wells, our adversary Zhukov was reportedly furious. The destruction of this represents no chance of him to meet his quota, which will lead to some incredibly awkward conversations between him and Voroshilov as to how he let his most important asset be sabotaged. In his fury, he ordered for SMERSH to investigate, and with our agents not yet safe and sound and their whereabouts not entirely known, we cannot do anything but hope they are able to return to Plesetsk before SMERSH catches up to them.\n\nFor us to be implicated in the sabotage of the oil wells would completely embarrass us and any chance of our victory in the power struggle would perhaps disappear for good. However, if Zhukov fails to find a saboteur, this will further tarnish his reputation. We can only imagine how good the telling off he got from Voroshilov was, perhaps enough to tip his opinion in our favor...\n\nBut that's enough, we have documents to burn and people to question. Our participation in the sabotage of Zhukov's oil wells cannot get out..."
  WRS_power_struggle.12.a:0 "Cautious optimism is the way to go."
+ WRS_power_struggle.12.b:0 "Let's hope our men can get away..."
+ WRS_power_struggle.12.c:0 "Perhaps we can blame the ROA..."
 
  WRS_power_struggle.13.t:0 "SMERSH가 사보타주의 증거를 찾는데 실패하다"
  WRS_power_struggle.13.desc:0 "We have just received the greatest of news! Smersh has failed to find any evidence of sabotage in a lengthy and embarrassing communique indicating that the incident was most likely caused by the incompetence of Zhukov's station manager, several workers, or just lack of maintenance. It features most notably several scathing remarks towards Zhukov, passively aggressively blaming him for both blowing things out of proportion and failing to run one of the Front's most important pieces of equipment. Not a word is mentioned about Tukhachevsky, other than a short remark mentioning how they believe oversights due to the competition may have led to Zhukov ignoring regulations.\n\nOne of Voroshilov's aides, a secret close Tukhachevsky ally notified us of the massive telling off that Zhukov received last night in front of the entirety of Voroshilov's and Zhukov's staff. Voroshilov was furious, despite his old and weary figure, he was practically an erupting volcano screaming at Zhukov for causing immense damage to the wells and wasting Front resources on a pointless mission when it was "clear that he held the burden of responsibility."\n\nZhukov reportedly was scared white, and as not made any public remarks yet. This failure may mark the end of Zhukov's chances to be the leader of the Front..."
@@ -1563,7 +1555,7 @@
  WRS_power_struggle.14.a:0 "우리 진짜 끝났구만..."
 
  WRS_power_struggle.15.t:0 "차가운 무덤"
- WRS_power_struggle.15.desc:0 " "Over here! Over here!" Nikolai screamed to his associate. Having been put on the case days ago, he and his work partner Denigin had been assigned to combing an entire forest some miles west of the wells. The truth was, it was snow, snow, and then more snow.\n\nThe temperature was bitingly cold, and that was not helped by the fact they had to scale the same mountainside everyday, walk past the same damn trees everyday, see the same damn animals, and get home with the same damn numb toes. However, Nikolai had just found something. Looking down in a small ravine to catch his breath after a relatively tough climbing episode, he had seen an object covered in snow and surrounded by ice. Denigin was beside him in seconds, panting to ask what he had found. Nikolai descended the cliff of the ravine, slipping on a rock that had actually been snow and falling back-first on the ground. Though hurt, he couldn't wait and forced himself to his knees, crawling to the strange object.\n\nHe wiped the snow off, and sure enough, it was a man. Denigin, having found a long way around brining him down, arrived some minutes later as Nikolai closely examined the bodies he had found. Two, each wearing the insignia of Vlasov's ROA, were dead at the bottom of a mountain ravine that they figured they likely had tried to go into for warmth, before dying of exposure during the night. Each agent took a man's corpse over their shoulder and painfully, slowly, got back to their car.\n\nThe men working at the SMERSH headquarters did full background checks on the men. Working currently as low-ranking Tukhachevsky associates, both were found to have ROA connections and one was a rehabilitated member of the group. The case was closed. It was an ROA job."
+ WRS_power_struggle.15.desc:0 ""Over here! Over here!" Nikolai screamed to his associate. Having been put on the case days ago, he and his work partner Denigin had been assigned to combing an entire forest some miles west of the wells. The truth was, it was snow, snow, and then more snow.\n\nThe temperature was bitingly cold, and that was not helped by the fact they had to scale the same mountainside everyday, walk past the same damn trees everyday, see the same damn animals, and get home with the same damn numb toes. However, Nikolai had just found something. Looking down in a small ravine to catch his breath after a relatively tough climbing episode, he had seen an object covered in snow and surrounded by ice. Denigin was beside him in seconds, panting to ask what he had found. Nikolai descended the cliff of the ravine, slipping on a rock that had actually been snow and falling back-first on the ground. Though hurt, he couldn't wait and forced himself to his knees, crawling to the strange object.\n\nHe wiped the snow off, and sure enough, it was a man. Denigin, having found a long way around brining him down, arrived some minutes later as Nikolai closely examined the bodies he had found. Two, each wearing the insignia of Vlasov's ROA, were dead at the bottom of a mountain ravine that they figured they likely had tried to go into for warmth, before dying of exposure during the night. Each agent took a man's corpse over their shoulder and painfully, slowly, got back to their car.\n\nThe men working at the SMERSH headquarters did full background checks on the men. Working currently as low-ranking Tukhachevsky associates, both were found to have ROA connections and one was a rehabilitated member of the group. The case was closed. It was a ROA job."
  WRS_power_struggle.15.a:0 "참으로 소름돋는 길이군... 우리와는 연관없는 장소라 다행이야."
 
  WRS_power_struggle.100.t:0 "오두막의 일당들"
@@ -1581,8 +1573,8 @@
  WRS_power_struggle.103.t:0 "기록과 음모"
  WRS_power_struggle.103.desc:0 "Zhukov was beginning to get frustrated, waiting so patiently. It had been weeks since he sent out the order, yet nothing had yet returned. Not even a murmur about some big find, a smoking gun, nothing! But he knew it had to be there somewhere, somewhere among the thousands of paper trails, document boxes and file cabinets. It had to be. And so they pressed on. The SMERSH agents were really getting quite tired, but this was their job after all. Or, at least they were told. As long as they kept hunched over their desks, magnifying glass kept sturdy over the fading ink, they would find something. So the work went on and on.\n\nPaper trails which were first said to be promising were found to be nothing but dead ends, brick wall after brick wall. Agents were up so late into the night, doing work they shouldn't dare to be doing, not behind the Red Napoleon's back, that their wives began to worry. But it HAD to be there. Eventually, on one especially cramped, humid day at the office, a worker's hand excitedly shot up. He grasped in his perspiring fist a document, the end all be all, or so it was in his bloodshot eyes. The work foreman came over and snatched it away. The paper travelled up through the ranks, read by many eyes and promised to be greater than it had the last time. Eventually, Zhukov held it in his hands, peering at it closely, rereading some paragraphs a million times over.\n\nYes, something had been there."
  WRS_power_struggle.103.a:0 "수사팀은 거대한 건수를 잡았습니다."
- WRS_power_struggle.103.b:0 "수사팀은 그럭저럭한 증거를 찾았습니다."
- WRS_power_struggle.103.c:0 "수사팀은 별 사건을 찾지 못했습니다."
+ WRS_power_struggle.103.b:0 "수사팀은 별 사건을 찾지 못했습니다."
+ WRS_power_struggle.103.c:0 "수사팀은 그럭저럭한 증거를 찾았습니다."
 
  WRS_power_struggle.104.t:0 "명백한 증거"
  WRS_power_struggle.104.desc:0 "It had been there. Oh lord, had it been there. The smoking gun. The incriminating document, the convicting letter, the end all be all that would finally drag Tukhachevsky's slimy hide to a firing line. Zhukov had not been this giddy since the West Russian War. Not only was there one convicting paper, but a dozen. The hard effort of the SMERSH agents had finally paid off, and paid so handsomely had it.\n\nVoroshilov by now was a weak man, his lungs failing him and his voice growing more weak by the day. But this morning, it was a thunderous boom that echoed across the office, the surrounding field and the whole of Archangelesk.\n\n"Tukhachevsky! Where the fuck are you, you lying, backstabbing cheating bastard!" It appeared that Voroshilov had not quite liked the smoking gun as much as Zhukov had, but that was the best part of the whole ordeal. Documents which were buried under so many goddamn waste baskets worth of fodder were dug up and showed something that could make even Voroshilov storm around.\n\nTukhachevsky had moved supplies, supplies that could've won battles, won them the entire war, from Voroshilov's army to his own during the advance on Moscow. This action is something short of sheer treason in Voroshilov's eyes, but only barely so! Tukhachevsky would inevitably receive a berating of a lifetime once he was eventually found cowering in some place in the city, and Zhukov can only sit by the sidelines and laugh! His gambit had paid off after all, and by God, was he now a rich man."
@@ -1774,7 +1766,7 @@
  tukha.41.a:0 "Sufficient."
 
  tukha.42.t:0 "폭풍을 뚫고"
- tukha.42.d:0 "As black flags rise on our border, and the declaration of war is received over radio, the first Bolshevik artillery shells have landed within our territory. The war against the Front is upon us, and we can only hope that our forces can break the onslaught of the Grand Marshal.\n\nOur men shall stand bravely, until the very end, be it against chemical cloud, armored column, or infantry surge, and our officers are proud and prepared to fight. With the skill of our army, and fate on our side, we shall be the fortress that shatters the West Russian Revolutionary Front for the last time.\n\nIf we are to fall, let it be as heroes, and if we are to triumph, let us ring eternal in the halls of history - Invincible, and Legendary!""
+ tukha.42.d:0 "As black flags rise on our border, and the declaration of war is received over radio, the first Bolshevik artillery shells have landed within our territory. The war against the Front is upon us, and we can only hope that our forces can break the onslaught of the Grand Marshal.\n\nOur men shall stand bravely, until the very end, be it against chemical cloud, armored column, or infantry surge, and our officers are proud and prepared to fight. With the skill of our army, and fate on our side, we shall be the fortress that shatters the West Russian Revolutionary Front for the last time.\n\nIf we are to fall, let it be as heroes, and if we are to triumph, let us ring eternal in the halls of history - "Invincible, and Legendary!""
  tukha.42.a:0 "Let them come!"
 
  tukha.43.t:0 "국경에 내걸린 백기"
@@ -1972,7 +1964,7 @@
 #Zhukov events
  zhukov.1.t:0 "서러시아 혁명전선이 재통합 회담을 요구하다"
  zhukov.1.d:0 "President Ivanov sat in his desk, messaging his temples. Another day, another debate between the Militarists and Democrats. When will it all end? He eyed the phone. A call might come at any second, bearing terrific news that both of the factions would cease their bickering - if only for a minute. A generalship in the WRRF had been easier: no debates, no backtalk, and everyone followed his orders. He sighed. He had burnt his bridges to them, a long, long time ago.\n\nAn aide knocked on his door. "Sir?" she said, "a communique. It's not from someone you'd expect."\n\n"Come in," he said, his voice ringing in his ears. What now? What sort of political deal would either the Militarists and Democrats would be willing to cut? He had told them countless times that he would never compromise his neutrality to the cause of Vologda. "Who is it from? The Militarists, or the Democrats?" He could barely hide the loathing in his voice.\n\n"It's from the Revolutionary Front, sir." Well, speak of the devil.\n\n"Put them on my desk, please, and thank you." After handing Ivanov the telegram, she walked off. "Let's see here," Ivanov said to himself, "what sort of deal would they want now?"\n\nHis pupils slowly dilated at the words of the telegram. "You are either with us or against us," the tiny piece of paper said as if each word were punctuated by a megaphone, "General Ivanov. Join us, or perish in obscurity."\n\nHe reached for the phone. He did not even have to think. Thumbing the number of Vologda's foreign ministry, he said:"
- zhukov.1.a:0 ""Call them."
+ zhukov.1.a:0 "Call them."
  zhukov.1.b:0 "Unacceptable."
 
  zhukov.2.t:0 "볼로그다가 거절하다!"
