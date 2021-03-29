@@ -10,10 +10,11 @@
  siberian_reunification:0 "시베리아의 재통일"
  
  can_form_west_russia_tt:0 "§Y서러시아§!의 모든 주를 소유\n"
- can_form_southern_urals_tt:0 "§Y남부 우랄§!의 모든 주를 소유\n""
+ can_form_southern_urals_tt:0 "§Y남부 우랄§!의 모든 주를 소유\n"
  can_form_west_siberia_tt:0 "§Y서시베리아§!의 모든 주를 소유\n"
  can_form_central_siberia_tt:0 "§Y중앙시베리아§!의 모든 주를 소유\n"
  can_form_far_east_tt:0 "§Y극동§!의 모든 주를 소유\n"
+ can_form_kazakhstan_tt:0 "§Y카자흐스탄§!의 모든 주를 소유\n"
 
  west_siberia_launch_race_to_urals:0 "우랄 남부에 영향력 행사하기"
  west_russia_launch_race_to_urals:0 "우랄 남부에 영향력 행사하기"
@@ -26,6 +27,8 @@
  RUS_CSB_compatible_tt:0 "§Y중앙시베리아§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
  RUS_FST_compatible_tt:0 "§Y극동§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
 
+ RUS_RWS_compatible_tt:0 "§Y러시아§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
+ RUS_SIB_compatible_tt:0 "§Y시베리아§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
  RUS_diplo_action_executing:0 "우리는 현재 §Y외교적 행동§!을 취하는 중입니다."
 
  #Reuinification
@@ -178,20 +181,6 @@
  region_name_RUS:0 "러시아"
  region_name_SIB:0 "시베리아"
 
- country_name_WSB_def:0 "[GetWSBNameDef]"
- country_name_WSR_def:0 "[GetWSRNameDef]"
- country_name_FST_def:0 "[GetFSTNameDef]"
- country_name_CSB_def:0 "[GetCSBNameDef]"
- country_name_RWS_def:0 "[GetRWSNameDef]"
- country_name_SIB_def:0 "[GetSIBNameDef]"
-
- country_name_WSB:0 "[GetWSBName]"
- country_name_WSR:0 "[GetWSRName]"
- country_name_FST:0 "[GetFSTName]"
- country_name_CSB:0 "[GetCSBName]"
- country_name_RWS:0 "[GetRWSName]"
- country_name_SIB:0 "[GetSIBName]"
-
  #Race For The Urals decisions
  RUS_race_for_the_urals:0 "우랄을 향한 경주"
  RUS_race_for_the_urals_desc:0 "§Y남부 우랄§! 지역은 고립되었다는 특성 때문에 러시아국을 통일하러는 여러 통일 주장 세력의 손길을 피할 수 있었습니다. 하지만 러시아가 진정으로 다시 복원되기 위해서는 이런 상황을 영원히 지속시킬 수 없습니다. 우랄 지역을 통합하고 우리가 조국을 더 많이 장악하기 위해서는 우랄 세력에 대한 영향력을 가지고 [GetOpponentName] 국가가 이 지역에 세력을 뻗으러는 것을 막아야만 합니다.[GetOrenburgText][GetUralText][GetMagnitogorskText][GetOrskText]" 
@@ -278,6 +267,7 @@
  RUS_25_influence_tt:0 "우리는 이 군벌에 25만큼의 §Y영향력§!이 있습니다.\n"
  RUS_opponent_discredit_remove_tt:0 "Our opponent will no longer be §Ydiscredited§!.\n"
  RUS_opponent_discredit_add_tt:0 "우리의 상대국이 45일간 §Y불신 상태§!가 되어 상대국의 군벌에 대한 §Y영향력 획득량§!이 감소할 것입니다.\n"
+ RUS_opponent_decrease_influence_tt:0 "Our opponent's influence in the region will be §Ydecreased§!.\n"
  RUS_increase_relations_1_tt:0 "우리와의 관계를 §Y대항적§!으로 올리기.\n"
  RUS_increase_relations_2_tt:0 "우리와의 관계를 §Y중립적§!으로 올리기.\n"
  RUS_increase_relations_3_tt:0 "우리와의 관계를 §Y수용적§!으로 올리기.\n"
@@ -501,7 +491,7 @@
  RUS_BORDER_TREATY:0 "A §Yborder treaty§! has been signed."
 
  RUS_unification_conference_warning_tt:0 "If successful, the nation with the §Ghigher§! §ldiplomatic weight§! shall annex the §Rother§!."
- 
+ RUS_unification_gameover_tt:0 "§RThe game will end§! for you because you have a §Rlower§! §ldiplomatic weight§!."
  
  ### West Russia ###
  west_russia_reunification:0 "[ROOT.GetWestRussianReunificationTitle]"
@@ -588,7 +578,7 @@
  russia_unification.0.a:0 "Worrying."
 
  russia_unification.1.t:0 "A Grand Showdown"
- russia_unification.1.d:0 "The [ROOT.GetName] has overcome its obstacles and conquered all other nations in its way - either through peaceful unification, or forceful war. Now it stands at a precipice. The vast territories of Russia are expansive, and while the [ROOT.GetName] controls a significant portion of it, there is still much more to conquer. We must begin preparing for a war that will challenge our military unlike all the other wars that have come before us. [GetOtherRegionalName] shall fall."
+ russia_unification.1.d:0 "The [ROOT.GetName] has overcome its obstacles and conquered all other nations in its way - either through peaceful unification, or forceful war. Now it stands at a precipice. The vast territories of Russia are expansive, and while the [ROOT.GetName] controls a significant portion of it, there is still much more to conquer. We must begin preparing for a war that will challenge our military unlike all the other wars that have come before us. The [GetOtherRegionalName] shall fall."
  russia_unification.1.a:0 "Let us see who will stand tall in the end."
  
  russia_unification.2.t:0 "Extending The Olive Branch"
@@ -596,7 +586,7 @@
  russia_unification.2.a:0 "Pushing ever onwards."
 
  russia_unification.3.t:0 "A Grand Showdown"
- russia_unification.3.d:0 "The [ROOT.GetName] has overcome its obstacles and conquered all other nations in its way - either through peaceful unification, or forceful war. Now it stands at a precipice. The vast territories of Russia are expansive, and while the [ROOT.GetName] controls a significant portion of it, there is still much more to conquer. We must begin preparing for a war that will challenge our military unlike all the other wars that have come before us. [GetOtherRegionalName] shall fall."
+ russia_unification.3.d:0 "The [ROOT.GetName] has overcome its obstacles and conquered all other nations in its way - either through peaceful unification, or forceful war. Now it stands at a precipice. The vast territories of Russia are expansive, and while the [ROOT.GetName] controls a significant portion of it, there is still much more to conquer. We must begin preparing for a war that will challenge our military unlike all the other wars that have come before us. The [GetOtherRegionalName] shall fall."
  russia_unification.3.a:0 "Let us see who will stand tall in the end."
 
  russia_unification.4.t:0 "Extending The Olive Branch"
@@ -612,7 +602,7 @@
  russia_unification.6.a:0 "Pushing ever onwards."
 
  russia_unification.7.t:0 "A Grand Showdown"
- russia_unification.7.d:0 "The [ROOT.GetName] has overcome its obstacles and conquered all other nations in its way - either through peaceful unification, or forceful war. Now it stands at a precipice. The vast territories of Russia are expansive, and while the [ROOT.GetName] controls a significant portion of it, there is still much more to conquer. We must begin preparing for a war that will challenge our military unlike all the other wars that have come before us. [GetOtherRegionalName] shall fall."
+ russia_unification.7.d:0 "The [ROOT.GetName] has overcome its obstacles and conquered all other nations in its way - either through peaceful unification, or forceful war. Now it stands at a precipice. The vast territories of Russia are expansive, and while the [ROOT.GetName] controls a significant portion of it, there is still much more to conquer. We must begin preparing for a war that will challenge our military unlike all the other wars that have come before us. The [GetOtherRegionalName] shall fall."
  russia_unification.7.a:0 "Let us see who will stand tall in the end."
 
  russia_unification.8.t:0 "Extending The Olive Branch"
@@ -660,7 +650,7 @@
  russia_unification.18.a:0 "Pushing ever onwards."
 
  russia_unification.19.t:0 "A Grand Showdown"
- russia_unification.19.d:0 "The [ROOT.GetName] has overcome its obstacles and conquered all other nations in its way - either through peaceful unification, or forceful war. Now it stands at a precipice. The vast territories of Russia are expansive, and while the [ROOT.GetName] controls a significant portion of it, there is still much more to conquer. We must begin preparing for a war that will challenge our military unlike all the other wars that have come before us. [GetOtherRegionalNameDef] shall fall."
+ russia_unification.19.d:0 "The [ROOT.GetName] has overcome its obstacles and conquered all other nations in its way - either through peaceful unification, or forceful war. Now it stands at a precipice. The vast territories of Russia are expansive, and while the [ROOT.GetName] controls a significant portion of it, there is still much more to conquer. We must begin preparing for a war that will challenge our military unlike all the other wars that have come before us. The [GetOtherRegionalName] shall fall."
  russia_unification.19.a:0 "The final conflict."
 
  russia_unification.20.t:0 "Extending The Olive Branch"
@@ -911,7 +901,7 @@
  russia_unification.72.t:0 "May Our Work Be Fruitful"
  russia_unification.72.d:0 "It is officially time for the Conference we have prepared for so diligently between our government and the leadership of [GetOtherRegionalName]. The future is frightening, anxiety-inducing, enthralling, and exciting all at once. Yes, it is quite terribly filled with the unknown, but through this unknown, we must find hope, confidence, and a light at the end of the tunnel for this battered Russian people."
  russia_unification.72.a:0 "To hope, to Russia!"
- russia_unification.72.a:0 "We shall reject their honeyed lies once and for all!"
+ russia_unification.72.b:0 "We shall reject their honeyed lies once and for all!"
 
  russia_unification.73.t:0 "After So Long..."
  russia_unification.73.d:0 "Our diplomats leave the conference with their new compatriots in tow and a treaty declaring the [GetOtherRegionalName]'s integration into the [ROOT.GetName]. These two nations, already so intertwined with each other's economy, military and politics, have now formalized their unity by sharing a banner and name. Though work in adapting the [GetOtherRegionalName]'s laws and administration remains, our union can no longer be interfered with or interrupted by other, ill-intentioned nations.\n\nWith malice towards none and charity for all, we have bound one more wound on the Motherland's bleeding soma."
@@ -1149,7 +1139,7 @@
  russia_unification.172.t:0 "May Our Work Be Fruitful"
  russia_unification.172.d:0 "It is officially time for the Conference we have prepared for so diligently between our government and the leadership of [GetOtherRegionalName]. The future is frightening, anxiety-inducing, enthralling, and exciting all at once. Yes, it is quite terribly filled with the unknown, but through this unknown, we must find hope, confidence, and a light at the end of the tunnel for this battered Russian people."
  russia_unification.172.a:0 "To hope, to Russia!"
- russia_unification.172.a:0 "We shall reject their honeyed lies once and for all!"
+ russia_unification.172.b:0 "We shall reject their honeyed lies once and for all!"
 
  russia_unification.173.t:0 "After So Long..."
  russia_unification.173.d:0 "Our diplomats leave the conference with their new compatriots in tow and a treaty declaring the [GetOtherRegionalName]'s integration into the [ROOT.GetName]. These two nations, already so intertwined with each other's economy, military and politics, have formalized their unity by sharing a banner and name. Though work in adapting the [GetOtherRegionalName]'s laws and administration remains, our union can no longer be interfered with or interrupted by other, ill-intentioned nations.\n\nSo ends in peace Russia's half-century of national humiliation."
