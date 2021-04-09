@@ -285,6 +285,11 @@ USA_sen_bill_desc_602:0 "The Military Readiness Act of [GetYear] is the first ma
 USA_sen_bill_name_603:0 "The FREE Act"
 USA_sen_bill_desc_603:0 "Following discussions with the more hawkish segments of the National Progressive Party on how best to win the Cold War, the McNamara administration has announced a set of bills granting the Executive Branch expansive authority to advance its foreign affairs agenda with reduced Congressional oversight. The Foreign Relations Executive Efforts Act will grant administrations the ability to respond quickly and decisively to foreign conflicts that affect American interests - with a 'Deployments, Overseas Military' provision for deploying American military units overseas if deemed necessary.\n\nMuch opposition is expected to the FREE Act and it's DOM provision. Constitutional hardliners within the R-Ds and more dovish members of the NPP are already arguing that the Act would gut Congress' traditional powers to declare and prosecute wars in the pursuit of short-term geopolitical objectives. But we can't turn back now - both for the hard work of our allies in the NPP, and for the sake of American victory in the Cold War."
 
+# Kirkpatrick Bills
+
+USA_sen_bill_name_421:0 "War Powers Act"
+USA_sen_bill_desc_421:0 "Stuff"
+
 
 # Hall Bills
 USA_sen_bill_name_650:0 "The Civil Rights Act of [GetYear]"
@@ -444,6 +449,9 @@ USA_failed_RR.t:0 "The Glass Ceiling in the Barracks"
 We_Are_NPP:0 "§Oour§! party"
 We_Are_Not_NPP:0 "the §ONPP§!"
 
+We_Are_NPP_only:0 "§OOur§! party"
+We_Are_Not_NPP_only:0 "The §ONPP§!"
+
 RD_R_senate_support_both:0 "\n\n두 명의 §R공화당§! 상원 의원이 우리 법안을 지지합니다."
 RD_R_senate_support_neither:0 "\n\n두 명의 §R공화당§! 상원 의원이 우리 법안에 반대합니다."
 RD_R_senate_support_only:0 "\n\n한 명의 §R공화당§! 상원 의원이 우리 법안을 지지합니다."
@@ -451,9 +459,6 @@ RD_R_senate_oppose_only:0 "\n\n한 명의 §R공화당§! 상원 의원이 우�
 RD_R_senate_support_max:0 "\n\n[?RD_R_senators|G0]명의 §R공화당§! 상원 의원 전원이 우리 법안을 지지합니다."
 RD_R_senate_support_none:0 "\n\n[?RD_R_senators|R0]명의 §R공화당§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
 RD_R_senate_support_some:0 "\n\n[?RD_R_senators|Y0]명 중 [?RD_R_supporting_senators|Y0]명의 §R공화당§! 상원 의원이 우리 법안을 지지합니다."
-
-
-USA_saf_pays_us_little:0 "§Y남아프리카§!는 우리의 지원에 대해 §G보상할 것입니다.§!"
 
 RD_D_senate_support_both:0 "\n\n두 명의 §B민주당§! 상원 의원이 우리 법안을 지지합니다."
 RD_D_senate_support_neither:0 "\n\n두 명의 §B민주당§! 상원 의원이 우리 법안에 반대합니다."
@@ -463,37 +468,39 @@ RD_D_senate_support_max:0 "\n\n[?RD_D_senators|G0]명의 §B민주당§! 상원 
 RD_D_senate_support_none:0 "\n\n[?RD_D_senators|R0]명의 §B민주당§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
 RD_D_senate_support_some:0 "\n\n[?RD_D_senators|Y0]명 중 [?RD_D_supporting_senators|Y0]명의 §B민주당§! 상원 의원이 우리 법안을 지지합니다."
 
-L_NPP_senate_support_both:0 "\n\n두 명의 §ONPP§! §x좌파§! 상원 의원이 우리 법안을 지지합니다."
-L_NPP_senate_support_neither:0 "\n\n두 명의 §ONPP§! §x좌파§! 상원 의원이 우리 법안에 반대합니다."
-L_NPP_senate_support_only:0 "\n\n한 명의 §ONPP§! §x좌파§! 상원 의원이 우리 법안을 지지합니다."
-L_NPP_senate_oppose_only:0 "\n\n한 명의 §ONPP§! §x좌파§! 상원 의원이 우리 법안에 반대합니다."
-L_NPP_senate_support_max:0 "\n\n[?NPP_L_senators|G0]명의 §ONPP§! §x좌파§! 상원 의원 전원이 우리 법안을 지지합니다."
-L_NPP_senate_support_none:0 "\n\n[?NPP_L_senators|R0]명의 §ONPP§! §x좌파§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
-L_NPP_senate_support_some:0 "\n\n[?NPP_L_senators|Y0]명 중 [?NPP_L_supporting_senators|Y0]명의 §ONPP§! §x좌파§! 상원 의원이 우리 법안을 지지합니다."
+L_NPP_senate_support_both:0 "\n\n두 명의 [Get_NPP_Ref] §x좌파§! 상원 의원이 우리 법안을 지지합니다."
+L_NPP_senate_support_neither:0 "\n\n두 명의 [Get_NPP_Ref] §x좌파§! 상원 의원이 우리 법안에 반대합니다."
+L_NPP_senate_support_only:0 "\n\n한 명의 [Get_NPP_Ref_only] §x좌파§! 상원 의원이 우리 법안을 지지합니다."
+L_NPP_senate_oppose_only:0 "\n\n한 명의 [Get_NPP_Ref_only] §x좌파§! 상원 의원이 우리 법안에 반대합니다."
+L_NPP_senate_support_max:0 "\n\n[?NPP_L_senators|G0]명의 [Get_NPP_Ref] §x좌파§! 상원 의원 전원이 우리 법안을 지지합니다."
+L_NPP_senate_support_none:0 "\n\n[?NPP_L_senators|R0]명의 [Get_NPP_Ref] §x좌파§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
+L_NPP_senate_support_some:0 "\n\n[?NPP_L_senators|Y0]명 중 [?NPP_L_supporting_senators|Y0]명의 [Get_NPP_Ref] §x좌파§! 상원 의원이 우리 법안을 지지합니다."
 
-C_NPP_senate_support_both:0 "\n\n두 명의 §ONPP§! §P중도파§! 상원 의원이 우리 법안을 지지합니다."
-C_NPP_senate_support_neither:0 "\n\n두 명의 §ONPP§! §P중도파§! 상원 의원이 우리 법안에 반대합니다."
-C_NPP_senate_support_only:0 "\n\n한 명의 §ONPP§! §P중도파§! 상원 의원이 우리 법안을 지지합니다."
-C_NPP_senate_oppose_only:0 "\n\n한 명의 §ONPP§! §P중도파§! 상원 의원이 우리 법안에 반대합니다."
-C_NPP_senate_support_max:0 "\n\n[?NPP_C_senators|G0]명의 §ONPP§! §P중도파§! 상원 의원 전원이 우리 법안을 지지합니다."
-C_NPP_senate_support_none:0 "\n\n[?NPP_C_senators|R0]명의 §ONPP§! §P중도파§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
-C_NPP_senate_support_some:0 "\n\n[?NPP_C_senators|Y0]명 중 [?NPP_C_supporting_senators|Y0]명의 §ONPP§! §P중도파§! 상원 의원이 우리 법안을 지지합니다."
+C_NPP_senate_support_both:0 "\n\n두 명의 [Get_NPP_Ref] §P중도파§! 상원 의원이 우리 법안을 지지합니다."
+C_NPP_senate_support_neither:0 "\n\n두 명의 [Get_NPP_Ref] §P중도파§! 상원 의원이 우리 법안에 반대합니다."
+C_NPP_senate_support_only:0 "\n\n한 명의 [Get_NPP_Ref_only]'s §P중도파§! 상원 의원이 우리 법안을 지지합니다."
+C_NPP_senate_oppose_only:0 "\n\n한 명의 [Get_NPP_Ref_only]'s §P중도파§! 상원 의원이 우리 법안에 반대합니다."
+C_NPP_senate_support_max:0 "\n\n[?NPP_C_senators|G0]명의 [Get_NPP_Ref] §P중도파§! 상원 의원 전원이 우리 법안을 지지합니다."
+C_NPP_senate_support_none:0 "\n\n[?NPP_C_senators|R0]명의 [Get_NPP_Ref] §P중도파§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
+C_NPP_senate_support_some:0 "\n\n[?NPP_C_senators|Y0]명 중 [?NPP_C_supporting_senators|Y0]명의 [Get_NPP_Ref] §P중도파§! 상원 의원이 우리 법안을 지지합니다."
 
-Y_NPP_senate_support_both:0 "\n\n두 명의 §ONPP§! §r"요키파"§! 상원 의원이 우리 법안을 지지합니다."
-Y_NPP_senate_support_neither:0 "\n\n두 명의 §ONPP§! §r"요키파"§! 상원 의원이 우리 법안에 반대합니다."
-Y_NPP_senate_support_only:0 "\n\n한 명의 §ONPP§! §r"요키파"§! 상원 의원이 우리 법안을 지지합니다."
-Y_NPP_senate_oppose_only:0 "\n\n한 명의 §ONPP§! §r"요키파"§! 상원 의원이 우리 법안에 반대합니다."
-Y_NPP_senate_support_max:0 "\n\n[?NPP_R_senators|G0]명의 §ONPP§! §r"요키파"§! 상원 의원 전원이 우리 법안을 지지합니다."
-Y_NPP_senate_support_none:0 "\n\n[?NPP_R_senators|R0]명의 §ONPP§! §r"요키파"§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
-Y_NPP_senate_support_some:0 "\n\n [?NPP_R_senators|Y0]명 중 [?NPP_Y_supporting_senators|Y0]명의 §ONPP§! §r"요키파"§! 상원 의원이 우리 법안을 지지합니다."
-FR_NPP_senate_support_both:0 "\n\n두 명의 §ONPP§! §g극우파§! 상원 의원이 우리 법안을 지지합니다."
-FR_NPP_senate_support_neither:0 "\n\n두 명의 §ONPP§! §g극우파§! 상원 의원이 우리 법안에 반대합니다."
-FR_NPP_senate_support_only:0 "\n\n한 명의 §ONPP§! §g극우파§! 상원 의원이 우리 법안을 지지합니다."
-FR_NPP_senate_oppose_only:0 "\n\n한 명의 §ONPP§! §g극우파§! 상원 의원이 우리 법안에 반대합니다."
-FR_NPP_senate_support_max:0 "\n\n[?NPP_FR_senators|G0]명의 §ONPP§! §g극우파§! 상원 의원 전원이 우리 법안을 지지합니다."
-FR_NPP_senate_support_none:0 "\n\n[?NPP_FR_senators|R0]명의 §ONPP§! §g극우파§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
-FR_NPP_senate_support_some:0 "\n\n[?NPP_FR_senators|Y0]명 중 [?NPP_FR_supporting_senators|Y0]명의 §ONPP§! §g극우파§! 상원 의원이 우리 법안을 지지합니다."
+Y_NPP_senate_support_both:0 "\n\n두 명의 [Get_NPP_Ref] §r"요키파"§! 상원 의원이 우리 법안을 지지합니다."
+Y_NPP_senate_support_neither:0 "\n\n두 명의 [Get_NPP_Ref] §r"요키파"§! 상원 의원이 우리 법안에 반대합니다."
+Y_NPP_senate_support_only:0 "\n\n한 명의 [Get_NPP_Ref_only]'s §r"요키파"§! 상원 의원이 우리 법안을 지지합니다."
+Y_NPP_senate_oppose_only:0 "\n\n한 명의 [Get_NPP_Ref_only]'s §r"요키파"§! 상원 의원이 우리 법안에 반대합니다."
+Y_NPP_senate_support_max:0 "\n\n[?NPP_R_senators|G0]명의 [Get_NPP_Ref] §r"요키파"§! 상원 의원 전원이 우리 법안을 지지합니다."
+Y_NPP_senate_support_none:0 "\n\n[?NPP_R_senators|R0]명의 [Get_NPP_Ref] §r"요키파"§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
+Y_NPP_senate_support_some:0 "\n\n[?NPP_R_senators|Y0]명 중 [?NPP_Y_supporting_senators|Y0]명의 [Get_NPP_Ref] §r"요키파"§! 상원 의원이 우리 법안을 지지합니다."
 
+FR_NPP_senate_support_both:0 "\n\n두 명의 [Get_NPP_Ref] §g극우파§! 상원 의원이 우리 법안을 지지합니다."
+FR_NPP_senate_support_neither:0 "\n\n두 명의 [Get_NPP_Ref] §g극우파§! 상원 의원이 우리 법안에 반대합니다."
+FR_NPP_senate_support_only:0 "\n\n한 명의 [Get_NPP_Ref_only] §g극우파§! 상원 의원이 우리 법안을 지지합니다."
+FR_NPP_senate_oppose_only:0 "\n\n한 명의 [Get_NPP_Ref_only] §g극우파§! 상원 의원이 우리 법안에 반대합니다."
+FR_NPP_senate_support_max:0 "\n\n[?NPP_FR_senators|G0]명의 [Get_NPP_Ref] §g극우파§! 상원 의원 전원이 우리 법안을 지지합니다."
+FR_NPP_senate_support_none:0 "\n\n[?NPP_FR_senators|R0]명의 [Get_NPP_Ref] §g극우파§! 상원 의원 중 누구도 우리 법안을 지지하지 않습니다."
+FR_NPP_senate_support_some:0 "\n\n[?NPP_FR_senators|Y0]명 중 [?NPP_FR_supporting_senators|Y0]명의 [Get_NPP_Ref] §g극우파§! 상원 의원이 우리 법안을 지지합니다."
+
+USA_saf_pays_us_little:0 "§Y남아프리카§!는 우리의 지원에 대해 §G보상할 것입니다.§!"
 
 senate_support_party_doesnt_exist:0 ""
 

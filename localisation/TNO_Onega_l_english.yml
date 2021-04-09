@@ -82,8 +82,8 @@
  VTY_social_liberal_party_long:0 "RPRS"
  VTY_social_conservative_party:0 "북러시아 공화당"
  VTY_social_conservative_party_long:0 "RPRS"
- VTY_authoritarian_democrat_party:0 "투하쳅스키 파벌"
- VTY_authoritarian_democrat_party_long:0 "투하쳅스키 파벌"
+ VTY_authoritarian_democrat_party:0 "북러시아 공화당 - 권위주의"
+ VTY_authoritarian_democrat_party_long:0 "RPRS"
  VTY_unity_authoritarian_democrat_party:0 "북러시아 공화당 - 권위주의"
  VTY_unity_authoritarian_democrat_party_long:0 "RPRS"
  VTY_despotism_party:0 "PDAG"
@@ -288,7 +288,7 @@
  VTY_exploittheirfactionalism:0 "집단어업의 상태"
  VTY_exploittheirfactionalism_desc:0 "연방 시절, 부하린의 경제 정책은 모든 노동자들에게 협력과 단결을 강요했습니다. 일반 노동자들에게 이는 유익하고 혁명적이었습니다: 경제성장이 이루어졌고 봉급이 올랐습니다. 하지만 국경너머의 빨갱이들을 고려할 때 이러한 정책을 통해 우리 노동자들이 오네가 백위대보다는 혁명전선을 지원하게 될지도 모릅니다.\n\n이 문제를 해결하기 위해 우리는 집단화 계획을 검토하기 시작했습니다. 정부가 처음으로 해결하기로 결정한 가장 중요한 산업은 공동 어업입니다. 우리는 이 문제를 빨리 매듭지어야 합니다. 우리가 어떤 방식을 택하든, 옛 연방의 방식은 안됩니다. 우리 국가에서 소비에트 시절의 정책들을 완전히 몰아낸다면 우리 노동자들은 빨갱이들과 거리를 두게 될 것이며 우리를 합심하여 도와줄 것입니다."
 
- VTY_probetheirline:0 "Probe Their Line"
+ VTY_probetheirline:0 "혁명전선 조사"
  VTY_probetheirline_desc:0 "비록 빨갱이들이 위압적으로 보일지라도 그들은 하나의 연합된 전선이 아닙니다. 그들은 우흐타, 플레세츠크, 아르한겔스크라는 세개의 전선으로 나뉘어져 있습니다: 우흐타와 플레세츠크를 책임지고 있는 원수들은 서러시아 전쟁의 악명으로 이름높으며, 우리는 이들이 스스로 무너져내리기만 기다려야 할 것입니다. 하지만, 키르피흐니코프는 전선의 파벌주의가 우리 오네가에 큰 이점을 제공한다고 생각합니다.\n\n빨갱이들을 시험해 봅시다. 키르피흐니코프와 총참모부는 최고의 능력자들로 정찰팀을 구성하도록 지시를 내릴 것이며, 빨갱이들을 건드려 봐서 그들의 전투력이 어느 정도인지 시험해 볼 것입니다. 보로실로프의 죽음으로 전선은 혼란스런 상황이며 우리 공격에 제대로 대응하지 못할 것이며, 이는 무시할 수 없는 기회입니다."
 
  VTY_preparetheredoubts:0 "보루 건설"
@@ -325,14 +325,14 @@
  VTY_defendtheriver_desc:0 "남쪽에서 흘러 백해에 이르고 반공방위대와 서러시아 혁명전선의 경계를 형성하는 오네가 강은 우리 영토의 요충지입니다. 빨갱이들이 우리에게 계속 위협을 가해오는만큼, 좋은 자연방어선인 오네가 강을 적절히 활용해야 합니다.\n\n만약 그것이 없어진다면, 우리는 매우 곤경에 처하게 될 것입니다. 핀란드의 원조를 통해 우리는 기존에 존재하는 낡은 방위선을 보수할 것이며, 혁명전선이나 다른 군벌의 침공가능성을 원천차단할 것입니다. 우리는 준비되어 있습니다."
 
  VTY_fortifyonega:0 "오네가 요새화"
- VTY_fortifyonega_desc:0 "The Anti-Communist Guard unfortunately only has one major city it can reliably control right now - of course, that is Onega. Lying just across the WRRF military outposts, it is key to our goals, for if it is lost, there is nowhere to retreat to. Over the years, it has evolved into a hub of trade, as well as a station for all those who want to flee the oppressive Soviet system.\n\nIf and when the Front carries out its invasion, it is more than certain that our capital, resting so close to the unofficial border, will be a prime target. Thus, even though much of the Guard is already positioned in the militarized town to protect it, further reinforcements must be called in. From other villages and towns, as well as newly recruited troops, more men must come to ensure that our capital never falls."
+ VTY_fortifyonega_desc:0 "불행히도 반공방위대의 통제하엔 단 하나의 도시- 오네가밖에 없습니다. 서러혁전 전초기지 바로 앞에 위치한 이곳은 우리의 핵심이며, 이곳이 무너진다면 후퇴할 곳은 없습니다. 수년 동안 이곳은 무역허브로 발전해 왔으며, 억압적인 소비에트 체제로부터 도망쳐 나온 이들의 경유지가 되어주기도 했습니다.\n\n혁명전선은 비공식적 국경 가까이에 위치한 이곳을 주 목표로 삼을 것이며, 방위대 대부분 전력이 이곳을 지키기 위해 배치되어 있음에도 불구하고 우리는 오네가 방위를 추가 강화해야 합니다. 우리의 수도를 지키려면 더 많은 이들이 필요합니다."
 
  VTY_antiair:0 "소비에트 공군에 맞서자"
- VTY_antiair_desc:0 "One might think that Onega, as a minor warlord state, could never hope to stand up against the air forces of other, much more formidable armies in Russia. The industrial bases of others, especially the West Russian Revolutionary Front, dwarf that of our state, which can only count on what few factories were recently built with Finnish aid by the Kirpichnikov government. We are behind in airplane production capabilities, but that does not mean it's impossible to make a difference.\n\nOnegan and Finnish engineers have been in contact over the last few weeks, discussing how to combat the effects of socialist air power. Anti-aircraft guns and technicians will be provided. Combined with our knowledge of Soviet Air Force tactics and their weak points from when we fought with them and against them, it should not be a difficult task to protect the skies of Onega."
+ VTY_antiair_desc:0 "누군가는 작은 군벌 국가인 오네가가 러시아의 다른, 훨씬 더 강력한 군대의 공군을 절대 이길수 없다고 생각할지 모릅니다. 다른 군벌들의 산업기반, 특히 혁명전선의 그것은 핀란드의 원조를 받아 지은 몇 개의 공장에만 의존하는 우리의 산업기반을 상대적으로 빈약하게 보이게 만들었습니다. 우리는 항공기 생산능력이 딸리지만, 그것이 불가능을 의미하진 않습니다.\n\n오네가와 핀란드 기술자들은 지난 몇 주 동안 빨갱이 공군과 싸우는 방법에 대해 논의해 왔으며, 핀란드는 우리에게 대공포와 기술자들을 제공해 주기로 했습니다. 소비에트 공군 전술과 그들의 약점에 대한 우리 지식을 적극 활용한다면 오네가의 하늘을 지키는 것은 그리 어려운 일이 아닐 것입니다."
 
  ### Post-Victory tree ###
  VTY_thevictory:0 "승리"
- VTY_thevictory_desc:0 "The mission Helsinki had given to the caravan of Karelian Russians and prisoners of war when it left for the eastern border was simple: defend against the WRRF's threat, no matter what the cost may be. Any threat presented to Finland was, by extension, a threat we had to deal with.\n\nFor once, we have come out victorious in the struggle against the rising power of West Russia, and the fate of the land is in our hands. While we may have achieved our mission, that does not mean all our problems are solved, however. Unrest remains, bandits roam the countryside, and we need to decide if we will act on General Kirpichnikov's promises for when victory was ensured. Will we restore democracy, even when it could pose a danger to the newly established order?"
+ VTY_thevictory_desc:0 "카렐리야 러시아인들과 전쟁포로들의 카라반 행렬이 동쪽으로 떠날때 헬싱키가 그들에게 준 임무는 간단했습니다: 어떤 대가를 치뤄서라도 혁명전선의 위협을 막아내는 것이었습니다. 핀란드의 위협은 곧 우리의 위협과 다름없습니다.\n\n우리는 서러시아 세력과의 전쟁에서 승리했고, 그 땅의 운명은 우리에게 달려 있습니다. 하지만 우리가 우리의 임무를 완수하기 전까진 모든 문제가 해결된 것은 아닙니다. 불안정이 남아있고, 도적들이 시골에 돌아다니고 있으며, 우리는 키르피흐니코프 장군의 약속을 이행할 것인지 결정해야 합니다. 우리는 민주주의를 복원해야 할까요? 설령 그것이 질서를 무너뜨리는 결과를 낳을지라도?"
 
  VTY_weregoingtohavetoact:0 "우리는 행동해야 한다"
  VTY_weregoingtohavetoact_desc:0 "We might have won the noble war against those who tried to invade us, but that does not mean that resistance to the newly declared North Russian Republic has magically halted. Dozens of small groups of bandits or former soldiers still resist our authority, hiding in the mountains and launching raids on towns and villages. Often, they are devoted to the same regimes we fought so hard to bring down. From now on, we cannot allow this to happen as the rulers of North Russia.\n\nThe Volunteer Guard's job, besides protecting the nation from the few external threats that exist, is dealing with these bandits. Increased patrols, a recruitment drive and utilizing local support will all be crucial in restoring order, and creating a sense of safety and stability."
