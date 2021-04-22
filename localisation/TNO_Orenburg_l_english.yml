@@ -34,7 +34,7 @@
 
  ORE_commune_armament:0 "코뮌의 재무장"
  ORE_commune_armament_desc:0 ""
- ORE_burba_loves_URL:0 "Burba's Diplomacy"
+ ORE_burba_loves_URL:0 "부르바의 외교"
 
  ### Parties ###
  ORE_communist_party:0 "말렌코프 당파"
@@ -52,42 +52,42 @@
  POLITICS_ALEKSANDER_BURBA_DESC:0 "Ever since the founding of the Communes of Orenburg, the city has seemed to have two natures at war with itself. On one hand, its people are free. They live their own lives, and run their own little governments, free from the damaging influence of either the invisible hand of the market, or the iron hand of the state. But on the other hand, Orenburg is a state of chaos, and has been since its foundation. The Communes are filled with discord, petty squabbles and even violence. They are far richer than the surrounding lands, but seemingly far poorer than they should be. The men and women of the Communes are tough and resourceful, but the militia shrinks from even the most meager of challenges. Orenburg is great, yet it is small. It is powerful, yet it is weak. It is a symbol of the future of the Russian Wastes, and a reminder of their past.\n\nAleksander Adolfovich Burba rose to power promising a convergence of these dual natures. He promised a strong centralized state, but not the iron-fisted dictatorship of Malenkov. He promised to respect the independent desires and needs of the people of Orenburg, but not succumb to the communes anarchic nature. And who better? Burba also seems to be made of contradictions. He is as rich a capitalist magnate as one can find among the warlords, yet he acts seemingly only out of concern for his fellow citizens. His first move in power was was to cement his control over Orenburg's institutions, yet his seconds are independent souls rather than toadies or henchmen.\n\nBurba is most of all a deal maker, and the choice he has offered the people of Orenburg is a tempting one indeed. Their city can be made great again, forged in the fires of industry into the shining jewel of the Urals, paid for with loyalty, obedience, and hard work. And is it such a terrible price to pay? Are full bellies and warm homes worth a voice in government? Are nights free from gunfire worth squares empty of demonstrators? Is a glorious future worth a stifling present? Only time will tell how far Burba's ambitions stretch, and how far the people of Orenburg are willing to go to fulfill them."
 
  ### Ministers ###
- ORE_Alexander_Kovalenko_hog:0 "Alexander Kovalenko"
- ORE_Alexander_Gorkin_hog:0 "Alexander Gorkin"
- ORE_Alexander_Rodimtsev_sec:0 "Alexander Rodimtsev"
- ORE_Alexander_Khomentovsky_eco:0 "Alexander Khomentovsky"
- ORE_Antonina_Osokina_for:0 "Antonina Osokina"
+ ORE_Alexander_Kovalenko_hog:0 "알렉산더 코발렌코"
+ ORE_Alexander_Gorkin_hog:0 "알렉산더 고르킨"
+ ORE_Alexander_Rodimtsev_sec:0 "알렉산더 로딤셰프"
+ ORE_Alexander_Khomentovsky_eco:0 "알렉산더 코멘토프스키"
+ ORE_Antonina_Osokina_for:0 "안토니나 오소키나"
 
  ### Decisions #####
- southern_urals_reunification:0 "Reunification of the Southern Urals"
+ southern_urals_reunification:0 "남부우랄 재통합"
 
- ORE_category_political_situation:0 "Political Situation in Orenburg"
- ORE_category_political_situation_desc:0 "The council is terribly inefficient, and must change. Though some argue it should be reformed, it really should be removed entirely and replaced with a centralized organization. On that, both Burba and Malenkov can agree. By passing through a series of reforms, we can put power behind a unified body instead of the council, allowing us to finally make impactful decisions and act on behalf of the people. But if we push too hard, we will only empower those that seek to maintain the council. Currently Orenburg is [This.GetOrenburgCentralisation](§R[?ROOT.ORECentralizedPower]§!).\n\nThe head of the reformist party is [This.GetOrenburgReformist]."
- orenburg_complete_centralisation:0 "§Bready for full centralization§!"
- orenburg_high_centralisation:0 "§Gclose to centralisation§!"
- orenburg_medium_centralisation:0 "§Ymoderately centralised§!"
- orenburg_low_centralisation:0 "§Rfar from centralisation§!"
- orenburg_reformist_burba:0 "§YAleksander Burba§!"
- orenburg_reformist_malenkov:0 "§YGeorgy Malenkov§!"
- orenburg_reformist_undecided:0 "§Yundecided§!"
+ ORE_category_political_situation:0 "오렌부르크의 정치적 상황"
+ ORE_category_political_situation_desc:0 "평의회는 매우 비효율적이며 바껴야합니다. 아니, 개혁만으로는 부족하며 완전히 제거하여 중앙집권화 시켜야합니다. 이러한 작업은 부르바와 말렌코프 모두가 동의합니다. 일련의 개혁안을 통과함으로써, 평의회 대신 통일된 기구에 권력을 부여하여 국가가 돌아가게 할 수 있습니다. 그러나 이러한 개혁안을 너무 세게 민다면 평의회를 유지하려는 사람들에게 권력이 집중될 것입니다. 현재 오렌부르크는 [This.GetOrenburgCentralisation](§R[?ROOT.ORECentralizedPower]§!)입니다.\n\n현재 개혁파의 수장은 [This.GetOrenburgReformist]입니다."
+ orenburg_complete_centralisation:0 "§B완전한 중앙집권화를 위한 준비가 되어있습니다§!"
+ orenburg_high_centralisation:0 "§G중앙집권화에 가깝습니다§!"
+ orenburg_medium_centralisation:0 "§Y적당히 중앙집권화되었습니다§!"
+ orenburg_low_centralisation:0 "§R중앙집권화와 거리가 멉니다§!"
+ orenburg_reformist_burba:0 "§Y알렉산드르 부르바§!"
+ orenburg_reformist_malenkov:0 "§Y게오르기 말렌코프§!"
+ orenburg_reformist_undecided:0 "§미정§!"
 
- ore_push_reformist_party_to_burba:0 "Push Towards Burba"
- ore_push_reformist_party_to_malenkov:0 "Push Towards Malenkov"
+ ore_push_reformist_party_to_burba:0 "부르바를 향한 공격"
+ ore_push_reformist_party_to_malenkov:0 "말렌코프를 향한 공격"
  
- ORE_category_centralization_gamble:0 "Exploit the Centralization Situation"
+ ORE_category_centralization_gamble:0 "중앙집권화 활용"
  ORE_category_centralization_gamble_desc:0 "Orenburg's anarchist nature has slowly been undermined both in public discourse and in the previously frightfully inefficient council. This was done all in favour of providing the communes with the political benefits of centralization. Necessary reforms such as increasing conscription, changing economic policy and recruiting more militias still however take time and political effort to be agreed upon. Some more action oriented reformers however see opportunity in the current popularity of centralization to quickly push through unpopular but necessary reforms. This may be bad for unified decision making in the long run but could better prepare Orenburg for the challenges it has to face in the present."
- ore_recruit_orenburgians:0 "Recruit Orenburgians"
- ore_push_the_council_to_recruit_orenburgians:0 "Push the Council to Recruit Orenburgians"
- ore_mobilize_the_country:0 "Mobilize the Workforce"
- ore_push_the_council_to_mobilize_the_country:0 "Push the Council to Mobilize the Workforce"
- ore_assemble_more_men:0 "Assemble Volunteers"
- ore_push_the_council_to_assemble_more_men:0 "Push the Council to Assemble Volunteers"
+ ore_recruit_orenburgians:0 "오렌부르크인 영입"
+ ore_push_the_council_to_recruit_orenburgians:0 "평의회에 오렌부르크인 영입 추진"
+ ore_mobilize_the_country:0 "인력 동원"
+ ore_push_the_council_to_mobilize_the_country:0 "평의회에 인력 동원 추진"
+ ore_assemble_more_men:0 "지원병 소집"
+ ore_push_the_council_to_assemble_more_men:0 "평의회에 지원병 소집 추진"
 
- ita_general_improvement:0 "Improve Orenburg"
+ ita_general_improvement:0 "더 나아진 오렌부르크"
  ita_general_improvement_desc:0 "People like electric lighting and heating in their homes. People like not having to dispose of their feces near a drinking source. People like well maintained roads they can ride on. And people like having somebody take their trash off their hands for free every week. Thus, if we tell people that a degree of centralization is required to accomplish these things, people will like centralization as well. Of course, that's not the point of these public works. The real reason is we like all of these things, too."
- ORE_infrastructure:0 "Focus On Infrastructure"
- ORE_factory:0 "Focus On Factory Usage"
- ore_intro_event:0 "State of Orenburg"
+ ORE_infrastructure:0 "기반시설에 집중"
+ ORE_factory:0 "공장 사용량에 집중"
+ ore_intro_event:0 "오렌부르크의 상황"
 
  ### Tooltips ###
  ORE_the_fifty_seventh_congress_tt:0 "§R평의회가 공식적으로 열릴 것입니다...§!\n\n"
@@ -159,7 +159,7 @@
  ORE_the_necessity_of_military_reorganization_tt:0 "§Y우리는 명령체계의 집중화를 시작할 것입니다.§!\n\n"
  ORE_centralize_the_communal_guard_tt:0 "§Y우리는 명령체계의 집중화를 마쳤습니다.§!\n\n"
  ORE_standardize_their_weaponry_tt:0 "§Y우리는 군사 장비를 소비에트의 표준 모델로 바꿀 것입니다.§!\n\n"
- ORE_commissar_units_tt_tt:0 "§R우리 군 부대들에 정치 위원들이 배치될 것입니다.§!\n\n"
+ ORE_commissar_units_tt:0 "§R우리 군 부대들에 정치 위원들이 배치될 것입니다.§!\n\n"
  ORE_ensure_officers_loyalty_tt:0 "§R모든 장교들은 점차 말렌코프에게 충성하는 사람들로 대체될 것입니다.§!\n\n"
  ORE_the_peoples_guards_tt:0 "§Y우리는 신병 모집을 장려하기 위해 선전활동을 시작할 것입니다.§!\n\n"
  ORE_alone_and_strong_tt:0 "§R오렌부르크는 우랄 연맹과의 동맹을 거절할 것입니다.§!\n\n"
@@ -218,7 +218,7 @@
  ORE_ural_guard_survivors:0 "인내하는 수비대"
  ORE_put_militias_down:0 "코뮌 민병대 중앙집중화"
  ORE_anarchic_commune:0 "아나키즘 코뮌"
- ORE_anarchic_commune_desc:0 "The Communes are disunited. We share nothing, we do not trust one another, we insist on having no real police or military for fear of the possibility of someone taking power over the communes. The highest government outside the city of Orenburg is a scant few village elders and councils, but even those are rare. It will take much work to begin reversing the massive problems this cause, and many hope we can do so without betraying our ideals."
+ ORE_anarchic_commune_desc:0 "코뮌은 분열되었습니다. 서로가 아무것도 공유하지 않고, 아무도 서로 신뢰하지 않으며, 누군가가 지역 사회를 장악할 힘을 가지는 것을 우려하여 군대도 경찰도 없습니다. 오렌부르크 외곽의 가장 힘있는 정부는 소수의 지역 원로들과 평의회원들이지만, 그런 사람들조차도 드뭅니다. 이러한 사태의 원인이 되는 거대한 문제들을 철폐하기 위해서는 많은 노력들이 필요할 것이고 인민들의 지지가 필요할 것입니다."
  ORE_refugee_crisis:0 "난민 위기"
  ORE_refugee_crisis_desc:0 "우랄 산맥에서 쏟아져 나온 피난민들은 코뮌에서 안전한 피난처를 찾길 바라면서 우랄 연맹에 의해 서쪽으로 호송되고 있습니다. 남쪽에서 멀리 벗어날수록, 방랑하는 독일 도적 무리나 그들의 애완견 카자흐 기마병들로부터 멀리 떨어지게 될 것입니다. 코뮌의 대다수 시민들은 이 이방인들을 받아들이는 것을 꺼리고 있으며, 우리가 감당할 수 있는 정도를 벗어난 것이라 믿고 있습니다."
  ORE_anarchic_commune_malenkov_2:0 "아나키즘 코뮌"
@@ -300,25 +300,25 @@
  ORE_anarchic_commune_politics_5_desc:0 "오렌부르크는 폭압적인 곳이 아니며 평의회에 자유롭게 참여하고 있는 공동체들의 집합체입니다. 이는 우리 정부를 대단히 비효율적으로 만들어 우리 영토 내의 모든 사람들의 목소리를 듣지 못하게 하고 있습니다. 어떻게 하면 압제에서 진정으로 벗어날 수 있을까요?"
 
  ### Focuses ###
- ORE_the_fifty_seventh_congress:0 "The Fifty-Seventh Congress"
+ ORE_the_fifty_seventh_congress:0 "제 57차 회의"
  ORE_the_fifty_seventh_congress_desc:0 "It is time again to call representatives of the communes to begin a great congress of the communes. A long, raucous democratic affair where every man is given a chance to discuss the state of the Orenburg commune. Problems both internal and external require the urgent attention of this 57th council. However, getting the assembly to agree unanimously on moving forward with various projects is a Sisyphean task..."
 
- ORE_the_matter_of_the_urals:0 "The Matter of the Urals"
+ ORE_the_matter_of_the_urals:0 "우랄의 문제"
  ORE_the_matter_of_the_urals_desc:0 "The most pressing topic on the council's agenda is the ever worsening refugee crisis. The trickle of men and women seeking an oasis from the Russian anarchy has turned into a flood of wretched refugees trying to escape the depravity of the Black Mountain or the Black army. This influx of newcomers is straining the economy of various communes in the region and has brought our sluggish political system to a standstill.\n\nTo the north, the Ural League is facing a similar refugee crisis, and has suggested we join forces to solve the refugee crisis, and perhaps even strike at the twin evils of the east. While many on the council believe this to be the only real way to fix the crisis, a surprising level of opposition has coalesced against this idea. The Ural League's military hierarchy stands against every political principle of the Orenburg Commune, such as decentralization and bottom up leadership. Breaking the deadlock on this issue is crucial for our future defensive and foreign policy."
 
- ORE_the_matter_of_communal_agriculture:0 "The Matter of Communal Agriculture"
+ ORE_the_matter_of_communal_agriculture:0 "집단 농업 문제"
  ORE_the_matter_of_communal_agriculture_desc:0 "Among the communes, only the city of Orenburg has something vaguely approximating a pre-industrial craftsmen economy. Every other commune is a loose association of local peasants working their fields in antediluvian fashion. As a result, crop yield is never very high even in good harvests. Keeping the city of Orenburg fed in a timely fashion generates much of the tension between the other communes and the city council even in the best of times. Now, the refugee crisis stresses the food stores to breaking point.\n\nComrade Malenkov and Burba of Orenburg city have for once found a topic where both agree: industrialization and organization of the various commune's agriculture must improve. Their proposal for mild reforms toward a joint agricultural policy has raised an uproar among the council. However, others have shown interest in helping the peasants by sharing tools and knowledge. We find ourselves with the opportunity of building a coalition on the topic, or letting the reform idea slide."
 
- ORE_the_matter_of_communal_autonomy:0 "The Matter of Communal Autonomy"
+ ORE_the_matter_of_communal_autonomy:0 "집단 자율성 문제"
  ORE_the_matter_of_communal_autonomy_desc:0 "Difficulties in discussing Orenburg's relationship with the Ural League and potential reforms to the commune's agriculture originate from a single place: the centralization debate. Most of Orenburg's peasants do not feel any particular attachment to any regional identity; they work their land with their neighbors, and whenever a complicated problem arises a few local representative make the trek to Orenburg to complain and seek arbitration.\n\nThis extreme decentralization had to give way a little, explaining the creation of the worker's council. But few agree on what should the council really be. Many, especially among Orenburg city itself, wish to see the council be a springboard for a more centralized government able to cut through endless negotiations and squabbles between the different communes, for the good of everyone in Orenburg. But many others argue that the council doesn't have any authority beyond mediation and that true power has always resided in the communes.\n\nOn and on the centralization debate goes, as old arguments are brought on again and again. Meanwhile, the wolves outside Orenburg look on as our disunity threatens our land. The 57th worker's council is an occasion to try and sway the debate one way or the other."
 
- ORE_the_matter_of_trade_security:0 "The Matter of Trade"
+ ORE_the_matter_of_trade_security:0 "무역 문제"
  ORE_the_matter_of_trade_security_desc:0 "Our land has been mercifully spared most of the devastation brought on by the Germans. Some left-over Soviet industry as well as still functional natural resource extraction facilities bring the communes what little non-agricultural wealth they possess. Over time some of the outer communes have even begun to trade with the outer world, bringing in rare tools, supplies, and even a little bit of industrial and agricultural knowhow. Orenburg city itself is visited by foreign caravans several times a year.\n\nHowever the direction that Orenburg should take with regard to trade is filled with controversy. Many decry the impact of traders on regional security. Once safe roads are now preyed on by bandits. Communal militias bear much of the costs of keeping the trade routes secure, and communes with little interest in exports still find themselves embroiled in low intensity skirmish with bandits. During the Ural League debate a young priest from Abramovka suggested that the refugee crisis was made worse by the rumor that Orenburg is an untouched oasis amidst the chaos of Russia and Kazakhstan. His words touched a nerve, and soon a working committee of isolationist communes began producing proposals to regulate trade with the outside world."
 
- ORE_the_communes_input:0 "The Communes' Input"
+ ORE_the_communes_input:0 "코뮌의 압력"
  ORE_the_communes_input_desc:0 "The worker's council waxes and wanes as the days pass. Previously discussed topics recur again and again. Sasha, a peasant from Chernyy Otrog commune wishes to give his village's opinion on how the Ural League bastards that once bought him a cow for a fifth of its real worth. Another commune has helpfully crafted a new version of Malenkov and Burba's agricultural policy that they insist will obtain everyone's agreement.\n\nCommune by commune, village by village, family by family, all of Orenburg has the right to speak at the worker's council. Peasants plough old topics, revealing fresh disagreements. Communal representatives give their assessment of the day's proposals. Occasionally representatives from remote area stumble through the door, and other members explain to them in detail the discussions they missed.\n\nThe effort of worker's democracy continues late into every night, only stopping when the samovar runs out of water for tea."
 
- ORE_the_end_of_the_congress:0 "The End of the Congress"
+ ORE_the_end_of_the_congress:0 "회의의 끝"
  ORE_the_end_of_the_congress_desc:0 "The congress has at last reached the end of every member's patience. The representative have split off in several committees to write closing remarks, to be read during the final session.\n\nTired Orenburg city council members struggle to write their position paper. Treasures of rhetoric, energy and backroom deals have once again been spent by the centralization faction for little gain.\n\nOutside Orenburg, the wolves circle ever closer..."
 
  ORE_word_from_the_fringes:0 "Word from the Fringes"
@@ -345,31 +345,31 @@
  ORE_arrange_the_program:0 "Arrange the Program"
  ORE_arrange_the_program_desc:0 "It is time again to call representatives of the communes to begin a great congress of the communes. A long, raucous democratic affair where every man is given a chance to discuss the state of the Orenburg commune. This time, however, things shall be different.\n\nThe soft and leaderless worker's council has been hardened by the military crisis and energized by a newfound sense of urgency. With the backing of increasingly desperate border communes, we have begun finalizing our preparation for the worker's congress. It will be a difficult fight, but for the good of the Orenburg commune it is one that we must win."
 
- ORE_the_fifty_eighth_congress:0 "The Fifty-Eighth Congress"
+ ORE_the_fifty_eighth_congress:0 "제 58차 회의"
  ORE_the_fifty_eighth_congress_desc:0 "The time has come for the Fifty-Eighth Congress, a meeting which we hope shall lead to actual solutions for the issues that plague Orenburg. Much political capital has been spent, plans discussed, and coalitions formed in the Worker's Council.\n\nThe issues that shall be discussed are many - the decentralized militias, the lack of leadership on the Council, and the utter inability for Orenburg to perform any sort of decisive action. By the end of the Congress, we hope to be able to finally start addressing these issues."
 
- ORE_fight_the_controversy:0 "Fight the Controversy"
+ ORE_fight_the_controversy:0 "논란과의 사투"
  ORE_fight_the_controversy_desc:0 "One of the greatest controversies that has afflicted Orenburg is the issue of putting a chairperson at the head of the Worker's Council. To many in the communes, it harkens back to the days of Lenin putting down the regional soviets and the left-SRs - a dangerous and reactionary move that could lead to tyranny in Orenburg.\n\nHowever, we must be able to fight this controversy, and move past it. The Council needs a chair in this trying time, and any excessive powers that they are given are sure to have a check on them that can be used in a truly democratic manner."
 
- ORE_make_compromises:0 "Make Compromises"
+ ORE_make_compromises:0 "타협"
  ORE_make_compromises_desc:0 "Currently, the Worker's Council can be separated into two: Those who wish to concentrate power into the government in the name of efficiency, and those who wish to distribute it across the Commune in the name of principle. Nowhere has their diverging opinions erupted more violently than in deciding upon the new Chairman's powers. Understandably, the firebrands for maintaining Orenburg's direct democracy to the letter look askance at any attempts to give the Chairman responsibilities beyond that of a figurehead, whereas its reformists long for a figure who can bring motion to their government past shaky, tenuous consensus.\n\nIn an ideal world either side will find all their objectives accomplished - the Chairman can be as weak or as strong as they wish. But in the war-torn remnants of Russia, where wolves gather upon hoarfrosted sheep? Compromise must suffice."
 
- ORE_propose_a_chairperson:0 "Propose a Chairperson"
+ ORE_propose_a_chairperson:0 "의장 제안"
  ORE_propose_a_chairperson_desc:0 "The time has come, to propose a chairperson for the Council. This is a drastic measure, but even if we fail in our task, there are alternatives. In addition to proposing a chairman, one of our allies has also put forth a proposal for an empowered council with a rotating chair, voted on each meeting. By putting our most extreme proposal first, even if it fails, we should be able to negotiate the Council down to choosing our more moderate proposal. The indecision and inanity ends today!"
 
- ORE_the_counter_proposal:0 "The Counter-Proposal"
+ ORE_the_counter_proposal:0 "반대 제안"
  ORE_the_counter_proposal_desc:0 "The council has voted down our proposal, but accepted our more discrete secondary proposal. The Council shall having a rotating chairperson with the power to end discussion on a topic, so long as this measure is not cancelled by a 50% vote in the Council. Additionally, the new position will have the power to prioritize measures. This should, hopefully, open up a window where we can propose measures that would otherwise be buried in less important issues, lost, or otherwise require an impractical amount of political capital to actually bring to the floor."
 
- ORE_malenkovs_speech:0 "Malenkov Rises"
+ ORE_malenkovs_speech:0 "말렌코프의 성장"
  ORE_malenkovs_speech_desc:0 "The council has approved our proposal, and chosen Georgy Malenkov as the new Chairman, for a term of four years. Malenkov has promised stability and order above all, within the framework of Orenburg's libertine tradition, of course. Already, his faction is preparing numerous emergency measures to deal with the crisis at hand.\n\nWhile some call Malenkov a tyrant-in-waiting, he has taken numerous measures to attempt to prove to the Council that he has no grand ambitions towards seizing power or other such betrayals of Orenburg. After all, he says, such things would be counter-revolutionary, and would only be justified in the time of greatest need..."
 
- ORE_burbas_speech:0 "Burba's Speech"
+ ORE_burbas_speech:0 "부르바의 연설"
  ORE_burbas_speech_desc:0 "The Council has approved our proposal, and chosen Aleksander Burba to serve as our new Chairman. Burba has been accused of radicalism in the past, but his well-spoken manners and painstakiningly organized plans have won over many in the Council to his side. He promises a re-organization of the economy over all, industrialization, and a more scientific and orderly means of organizing life in Orenburg.\n\nBurba has already proven his worth to Orenburg by establishing several industrial committees and schools in the past, and many on the Council are excited and pleased to see his goal of turning Orenburg into a true sparkling jewel of Russia be realized."
  
  #Anarchy/LibSoc
  
  ORE_calling_the_council_to_order:0 "Calling the Council to Order"
- ORE_calling_the_council_to_order_desc:0 "The end of the 58th's worker congress has seen some anger and infighting break out amongst the centralization faction of the worker's council. Many are dissapointed in the inability to push through a really strong central executive.\n\nThankfully the new chairman has managed to squelch dissent. In a rousing speech, the council's members were reminded of the unprecendented opportuntiy to reform, strenghten and organize Orenburg. We can now assign people to various comittees and get the projects started."
+ ORE_calling_the_council_to_order_desc:0 "The end of the 58th's worker congress has seen some anger and infighting break out amongst the centralization faction of the worker's council. Many are dissapointed in the inability to push through a really strong central executive.\n\nThankfully the new chairman has managed to squelch dissent. In a rousing speech, the council's members were reminded of the unprecendented opportuntiy to reform, strenghten and organize Orenburg. We can now assign people to various committees and get the projects started."
 
  ORE_institute_common_judicial_guidelines:0 "Institute Common Judicial Guidelines"
  ORE_institute_common_judicial_guidelines_desc:0 ""Each commune is free to make its own justice" has always been how things are done. In practice, the few provincial lawyers left in Orenburg after the war were unable to prevent the rise of lynch mob and show trials across the vast range of communes. Even in Orenburg city crowds of people are able to sway the proceedings of the courts.\n\nThe old way of doing things, with laws imposed by a central clique of lawyers, will never be accepted again in Orenburg. But a new justice, built from the grounds up on the rights of every citizen can be established. Once the workers of a commune have built up the laws with the help of worker city's legal advisors, they shall feel compelled to let justice run its course."
@@ -756,7 +756,7 @@
  ORE.26.a:0 "Oh dear."
 
  ORE.27.t:0 "The Chairman's Controversy"
- ORE.27.d:0 ""Like every good Socialist of the Orenburg Commune, I have despised hierarchy in all its forms; the latter is dangerous not because of its power, but because of the invisible fears it creates. I hereby warn the Council and all gathered here today in particular that the election of a Chairman, our greatest exercise in Liberty as a Councillor, might also prove to be our last."\n\n"We know, friends, that the abusive and terrible Union was a false prophet, preaching Marx while tossing his word aside whenever it was convenient for the regime. We founded the Communes in the hopes that we could erase that history, and start again without the wounds inflicted by those who claimed to be socialists in name,but are predators by nature. But the imperatives which power a Chairman, the need for agreement and order, will lead us onto the dark and bitter road of totalitarianism - all with the best of intentions."\n\n"So I beseech this Council, look outside at the freedom we have before we vote! Is the poverty of the soul really worth the material advancement? Can you trade liberty for gold, friends? And would you want to even if you could?""
+ ORE.27.d:0 ""Like every good Socialist of the Orenburg Commune, I have despised hierarchy in all its forms; the latter is dangerous not because of its power, but because of the invisible fears it creates. I hereby warn the Council and all gathered here today in particular that the election of a Chairman, our greatest exercise in Liberty as a Councillor, might also prove to be our last."\n\n"We know, friends, that the abusive and terrible Union was a false prophet, preaching Marx while tossing his word aside whenever it was convenient for the regime. We founded the Communes in the hopes that we could erase that history, and start again without the wounds inflicted by those who claimed to be socialists in name, but are predators by nature. But the imperatives which power a Chairman, the need for agreement and order, will lead us onto the dark and bitter road of totalitarianism - all with the best of intentions."\n\n"So I beseech this Council, look outside at the freedom we have before we vote! Is the poverty of the soul really worth the material advancement? Can you trade liberty for gold, friends? And would you want to even if you could?""
  ORE.27.a:0 "Impassioned, but unrealistic."
 
  ORE.28.t:0 "Compromising on Powers"

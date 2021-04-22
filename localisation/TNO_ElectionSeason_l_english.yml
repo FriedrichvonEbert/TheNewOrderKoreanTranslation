@@ -27,7 +27,7 @@
  TNO_ElectionSeason_SE_Entry_StateName_text: "§Y[ElectionMech_GetStateName]§!"
  TNO_ElectionSeason_SE_Entry_TurnoutValue_text: "" #Oprhaned
 
- TNO_ElectionSeason_SE_Entry_PartyIcon_text: "[ElectionMech_GetDominantParty]이(가) §Y[ElectionMech_GetStateName]§!에서 투표를 주도하고 있습니다."
+ TNO_ElectionSeason_SE_Entry_PartyIcon_text: "[ElectionMech_GetDominantParty]이(가) §Y[ElectionMech_GetStateName]§!에서 투표를 주도하고 있습니다. 이 주에는 §W[ElectionMech_GetAlottedSeats]§!개의 의석이 있습니다."
  TNO_ElectionSeason_SE_Entry_PartyIcon_text_delayed: "세 가지 인기있는 정당은 다음과 같습니다:\n -[ElectionMech_GetFirstPlaceParty], §Y[?ElectionSeason_State_PartyPop^ElectionSeason_State_FirstPlace|0]% 지원.\n -[ElectionMech_GetSecondPlaceParty], §Y[?ElectionSeason_State_PartyPop^ElectionSeason_State_SecondPlace|0]%§! 지원.\n -[ElectionMech_GetThirdPlaceParty], §Y[?ElectionSeason_State_PartyPop^ElectionSeason_State_ThirdPlace|0]%§! 지원."
 
  TNO_ElectionSeason_SE_PartyName_IND: "§W무소속§!"
