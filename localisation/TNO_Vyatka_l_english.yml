@@ -216,8 +216,8 @@
  
  ### Decisions ###
  ## Debug ##
- KIR_debug:0 "Thunder's Whacky Workshop"
- KIR_debug_desc:0 "Insert witty placeholder loc."
+ KIR_debug:0 "Thunder의 이상한 공방"
+ KIR_debug_desc:0 "여기 빵터지는 플레이스 홀더 써둬라."
  
  KIR_load_starting_tree:0 "Load Starting Tree"
  KIR_load_post_bombing_tree:0 "Load Post-Bombing Tree"
@@ -234,52 +234,52 @@
  ## 인트로 이벤트 ##
  KIR_Viatka_intro_event:0 "인트로 이벤트 - 뱟카"
  
- ## The Imperial Court ##
- KIR_court_politics_category:0 "The Imperial Court"
- KIR_court_politics_category_desc:0 "Bozhe, Tsarya khrani!\nSil'nyy, derzhavnyy,\nTsarstvuy na slavu, na slavu nam!\n\nTsarstvuy na strakh vragam,\nTsar' pravoslavnyy!\nBozhe, Tsarya khrani!"
+ ## 황궁 ##
+ KIR_court_politics_category:0 "황궁"
+ KIR_court_politics_category_desc:0 "하느님, 차르를 보호하소서!\n강인하고 강대한 군주여\n우리의 영광 위에 군림하소서!\n\n적들의 두려움 위에 군림하소서\n차르는 정교회의 수호자이시니!\n하느님, 차르를 보호하소서!"
  
- ## Popular Support ##
- KIR_popular_support_category:0 "Popular Support"
- KIR_popular_support_category_desc:0 "Despite the Tsar's actions, popular support for monarchism in Russia is not guaranteed. If the Tsar wishes to both maintain and expand his support among ordinary Russians, he will need to make an effort.\n\nThe current popular support for Tsar Vladimir III is [ROOT.GetKIR_popular_support]"
+ ## 대중 지지도 ##
+ KIR_popular_support_category:0 "대중 지지도"
+ KIR_popular_support_category_desc:0 "차르의 행동에도 불구하고, 러시아 내 대중의 군주주의 지지는 확실하지 않습니다. 차르가 평범한 러시아인들의 지지를 지키고 확대하기 위해서는 노력을 해야합니다.\n\n현재 차르 블라디미르 3세의 대중 지지도는 [ROOT.GetKIR_popular_support]."
  
- KIR_popular_support_very_low:0 "§Rvery low§!"
- KIR_popular_support_low:0 "§Hlow§!"
- KIR_popular_support_medium:0 "§Ymoderate§!"
- KIR_popular_support_high:0 "§Ghigh§!"
- KIR_popular_support_very_high:0 "§Mvery high§!"
+ KIR_popular_support_very_low:0 "§R매우 낮습니다§!"
+ KIR_popular_support_low:0 "§H낮습니다§!"
+ KIR_popular_support_medium:0 "§Y보통입니다§!"
+ KIR_popular_support_high:0 "§G높습니다§!"
+ KIR_popular_support_very_high:0 "§M매우 높습니다§!"
 
- KIR_increase_popular_support_low_tt:0 "We will §Gincrease§! popular support by a §Ysmall amount.§!\n"
- KIR_increase_popular_support_med_tt:0 "We will §Gincrease§! popular support by §Ysome amount.§!\n"
- KIR_increase_popular_support_high_tt:0 "We will §Gincrease§! popular support by a §Ylarge amount.§!\n"
- KIR_increase_popular_support_very_high_tt:0 "We will §Gincrease§! popular support by a §Yvery large amount.§!\n"
+ KIR_increase_popular_support_low_tt:0 "대중 지지도가 §Y조금§! §G증가§!합니다.\n"
+ KIR_increase_popular_support_med_tt:0 "대중 지지도가 §Y상당히§! §G증가§!합니다.\n"
+ KIR_increase_popular_support_high_tt:0 "대중 지지도가 §Y많이§! §G증가§!합니다.\n"
+ KIR_increase_popular_support_very_high_tt:0 "대중 지지도가 §Y매우 많이§! §G증가§!합니다.\n"
 
- KIR_decrease_popular_support_low_tt:0 "This will §Rdecrease§! popular support by a §Ysmall amount.§!\n"
- KIR_decrease_popular_support_med_tt:0 "This will §Rdecrease§! popular support by §Ysome amount.§!\n"
- KIR_decrease_popular_support_high_tt:0 "This will §Rdecrease§! popular support by a §Ylarge amount.§!\n"
- KIR_decrease_popular_support_very_high_tt:0 "This will §Rdecrease§! popular support by a §Yvery large amount.§!\n"
+ KIR_decrease_popular_support_low_tt:0 "대중 지지도가 §Y조금§! §R감소§!합니다.\n"
+ KIR_decrease_popular_support_med_tt:0 "대중 지지도가 §Y상당히§! §R감소§!합니다.\n"
+ KIR_decrease_popular_support_high_tt:0 "대중 지지도가 §Y많이§! §R감소§!합니다.\n"
+ KIR_decrease_popular_support_very_high_tt:0 "대중 지지도가 §Y매우 많이§! §R감소§!합니다.\n"
  
- KIR_speak_on_the_radio_decision:0 "Speak on the Radio"
- KIR_speak_on_the_radio_decision_desc:0 "Well known in West Russia for his radio speeches during the war, the Emperor will hold another radio address to his people.\n\nThe Emperor's Popular Support must be at least §Rvery low§!"
- KIR_peaceful_unification_pledge_decision:0 "Peaceful Unification Pledge"
- KIR_peaceful_unification_pledge_decision_desc:0 "The Emperor's Popular Support must be at least §Rvery low§!"
- KIR_hold_public_speech_decision:0 "Hold Public Speech"
- KIR_hold_public_speech_decision_desc:0 "The Emperor's Popular Support must be at least §Hlow§!"
- #KIR_meet_with_the_clergy_decision:0 "Meet with the Clergy"
- #KIR_meet_with_the_clergy_decision_desc:0 "The Emperor's Popular Support must be at least §Hlow§!"
- KIR_rally_new_recruits_decision:0 "Rally New Recruits"
- KIR_rally_new_recruits_decision_desc:0 "The Emperor's Popular Support must be at least §Ymoderate§!"
- KIR_appeal_for_trucks_decision:0 "Appeal for Trucks"
- KIR_appeal_for_trucks_decision_desc:0 "The Emperor's Popular Support must be at least §Ymoderate§!"
- KIR_meet_with_the_generals_decision:0 "Meet with the Generals"
- KIR_meet_with_the_generals_decision_desc:0 "The Emperor's Popular Support must be at least §Ghigh§!"
- KIR_introduce_new_taxes_decision:0 "Introduce New Taxes"
- KIR_introduce_new_taxes_decision_desc:0 "The Emperor's Popular Support must be at least §Ghigh§!"
- KIR_refuge_to_soviet_scientists_decision:0 "Give Refuge to Soviet Scientists"
- KIR_refuge_to_soviet_scientists_decision_desc:0 "The Emperor's Popular Support must be at least §Mvery high§!"
- KIR_refuge_to_fascist_officers_decision:0 "Give Refuge to Fascist Officers"
- KIR_refuge_to_fascist_officers_decision_desc:0 "The Emperor's Popular Support must be at least §Mvery high§!"
+ KIR_speak_on_the_radio_decision:0 "라디오 연설"
+ KIR_speak_on_the_radio_decision_desc:0 "전쟁 당시 라디오 연설로 잘 알려진 황제께서 국민들에게 또다른 라디오 연설을 하실겁니다.\n\n황제의 대중 지지도가 최소 §R매우 낮음§!이어야 함"
+ KIR_peaceful_unification_pledge_decision:0 "평화 통일 약속"
+ KIR_peaceful_unification_pledge_decision_desc:0 "황제의 대중 지지도가 최소 §R매우 낮음§!이어야 함"
+ KIR_hold_public_speech_decision:0 "공개 연설"
+ KIR_hold_public_speech_decision_desc:0 "황제의 대중 지지도가 최소 §H낮음§!이어야 함"
+ #KIR_meet_with_the_clergy_decision:0 "성직자와 만나기"
+ #KIR_meet_with_the_clergy_decision_desc:0 "황제의 대중 지지도가 최소 §H낮음§!이어야 함"
+ KIR_rally_new_recruits_decision:0 "신병 모집"
+ KIR_rally_new_recruits_decision_desc:0 "황제의 대중 지지도가 최소 §Y보통§!이어야 함"
+ KIR_appeal_for_trucks_decision:0 "트럭 지원 호소"
+ KIR_appeal_for_trucks_decision_desc:0 "황제의 대중 지지도가 최소 §Y보통§!이어야 함"
+ KIR_meet_with_the_generals_decision:0 "장군들과 만나기"
+ KIR_meet_with_the_generals_decision_desc:0 "황제의 대중 지지도가 최소 §G높음§!이어야 함"
+ KIR_introduce_new_taxes_decision:0 "새로운 세금 도입"
+ KIR_introduce_new_taxes_decision_desc:0 "황제의 대중 지지도가 최소 §G높음§!이어야 함"
+ KIR_refuge_to_soviet_scientists_decision:0 "소비에트 과학자 보호"
+ KIR_refuge_to_soviet_scientists_decision_desc:0 "황제의 대중 지지도가 최소 §M매우 높음§!이어야 함"
+ KIR_refuge_to_fascist_officers_decision:0 "파시스트 장교 보호"
+ KIR_refuge_to_fascist_officers_decision_desc:0 "황제의 대중 지지도가 최소 §M매우 높음§!이어야 함"
  
- ## Economic Strength ##
+ ## 경제력 ##
  KIR_economic_strength_category:0 "State of the Economy"
  KIR_economic_strength_category_desc:0 "One revolution, two massive wars, and twenty years of bombing have left the Russian economy in utter ruin. If we are to pursue unification, we must take action to ensure domestic economic strength.\n\nThe current strength of our economy is [ROOT.GetKIR_economic_strength]"
  
