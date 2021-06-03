@@ -1,0 +1,266 @@
+guiTypes = {
+	containerWindowType = {
+		name = "world_tension_popup"
+		position = { x = -650 y = -400 }
+		size = { width = 1197 height = 805 }
+		orientation = center
+		moveable = yes
+		fade_time = 200
+		fade_type = linear
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_world_tension_background"
+		}
+
+		#instantTextboxType = {
+		#	name = "window_name"
+		#	position = {x=20 y=28}
+		#	font = "aldrich_32_outline"
+		#	text = "세계 긴장도 역사"
+		#	maxWidth = 500
+		#	maxHeight = 23
+		#	format = center
+		#}
+
+		#buttonType = {
+		#	name = "close_button"
+		#	position = { x = -44 y = 12 }
+		#	quadTextureSprite ="GFX_closebutton"
+		#	buttonFont = "aldrich_18_outline"
+		#	shortcut = "ESCAPE"
+		#	Orientation = "UPPER_RIGHT"
+		#	clicksound = click_close
+		#	pdx_tooltip = "CLOSE"
+		#}
+
+		buttonType = {
+			name = "close_button"
+			position = { x = 1163 y = 304 }
+			quadTextureSprite ="GFX_crt_closebutton"
+			buttonFont = "aldrich_24_outline"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_LEFT"
+			#buttonText = "DIPLOMACY_CLOSE"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+		}
+
+		buttonType = {
+			name = "sort_date_button"
+			spriteType = "GFX_diplomaticcrises_date_button"
+			buttonFont = "aldrich_18_outline"
+			clicksound = click_default
+			position = { x = 468 y = 304 }
+			#text = DATE_NAME
+			pdx_tooltip = SORT_BY_DATE
+		}
+
+		buttonType = {
+			name = "sort_country_button"
+			spriteType = "GFX_diplomaticcrises_button"
+			buttonFont = "aldrich_18_outline"
+			clicksound = click_default
+			#position = { x = 149 y = 77 }
+			position = { x = -6000 y = 77 }
+			#text = country
+			pdx_tooltip = SORT_BY_COUNTRY
+		}
+
+		buttonType = {
+			name = "sort_value_button"
+			spriteType = "GFX_diplomaticcrises_severity_button"
+			buttonFont = "aldrich_18_outline"
+			clicksound = click_default
+			position = { x = 828 y = 304 }
+			#text = WORLD_TENSION_NAME
+			pdx_tooltip = SORT_BY_TENSION
+		}
+
+		buttonType = {
+			name = "show_wars_button"
+			spriteType = "GFX_ongoingconflicts_button"
+			buttonFont = "aldrich_18_outline"
+			clicksound = click_default
+			position = { x = 109 y = 304 }
+			#text = WORLD_TENSION_WARS
+			pdx_tooltip = SHOW_WARS
+		}
+
+		containerWindowType = {
+			name = "tension_entries_wnd"
+			position = {x = 13 y = 339}
+			orientation = upper_left
+			size = {width = 1171 height = 453 }
+			margin = {top=6 left=0 bottom=7 right=14}
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_paper_bg2"
+			}
+
+			gridBoxType = {
+				name = "list"
+				position = { x = 14 y = 4 }
+				size = { width = 447 height = 100%% }
+				max_slots_horizontal = 1
+				slotsize = { width = 465 height = 87 }
+			}
+
+			instantTextboxType = {
+				name = "no_surces_info"
+				#wtf paradox
+				position = {x=0 y=50}
+				font = "aldrich_18_outline"
+				text = NO_THREAT_SOURCES_WINDOW
+				maxWidth = 500
+				maxHeight = 100
+				format = center
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "world_tension_war_entry"
+		position = { x=3 y=0 }
+		size = { width = 1171 height = 88 }
+		orientation = upper_left
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_world_tension_entry_bg"
+		}
+
+		iconType = {
+			name = "tension_war_list_major"
+			spriteType = "GFX_tension_war_list_major"
+			position = { x = 100 y = 5 }
+			pdx_tooltip = WAR_HAS_MAJOR
+		}
+
+		instantTextboxType = {
+			name = "war_name"
+			position = { x = 67 y = 11 }
+			font = "aldrich_32_outline"
+			maxWidth = 1000
+			maxHeight = 40
+			fixedsize = yes
+			format = center
+		}
+
+		iconType = {
+			name = "warscore_progressbar"
+			spriteType = "GFX_warscore_progressbar_small"
+			position = { x = 307 y = 47 }
+		}
+
+		iconType = {
+			name = "attacker_country_flag"
+			quadTextureSprite ="GFX_flag_medium_plain"
+			position = { x = 49 y = 39 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="attacker_flag_border"
+			quadTextureSprite = "GFX_flag_frame_warscreen"
+			position = { x = 0 y = 4 }
+			alwaystransparent = yes
+			scale = 2.0
+		}
+
+		iconType = {
+			name = "defender_country_flag"
+			quadTextureSprite = "GFX_flag_medium_plain"
+			position = { x = 1085 y = 39 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name = "defender_flag_border"
+			position = { x = 1036 y = 4 }
+			spriteType = "GFX_flag_frame_warscreen"
+			alwaystransparent = yes
+			scale = 2.0
+		}
+	}
+
+	containerWindowType = {
+		name = "world_tension_entry"
+		position = { x = 3 y = 0 }
+		size = { width = 1171 height = 88 }
+		orientation = upper_left
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_world_tension_entry_bg"
+		}
+
+		iconType = {
+			name = "country_flag"
+			quadTextureSprite ="GFX_flag_medium_plain"
+			position = { x = 49 y = 39 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name = "country_flag_frame"
+			position = { x = 0 y = 4 }
+			spriteType = "GFX_flag_frame_warscreen"
+			alwaystransparent = yes
+			scale = 2.0
+		}
+
+		instantTextboxType = {
+			name = "country_name"
+			position = {x=100 y=39}
+			font = "aldrich_32_outline"
+			maxWidth = 1000
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "date"
+			position = {x=700 y=47}
+			font = "aldrich_30_outline"
+			maxWidth = 300
+			maxHeight = 20
+			fixedsize = yes
+			format = right
+		}
+		
+		instantTextboxType = {
+			name = "dash"
+			position = {x=715 y=47}
+			font = "aldrich_32_outline"
+			text = "-"
+			maxWidth = 300
+			maxHeight = 20
+			fixedsize = yes
+			format = right
+		}
+
+		instantTextboxType = {
+			name = "value"
+			position = {x=1020 y=47}
+			font = "aldrich_30_outline"
+			maxWidth = 300
+			maxHeight = 40
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "reason"
+			position = {x=100 y=9}
+			font = "aldrich_32_outline"
+			maxWidth = 1025
+			maxHeight = 40
+			format = left
+			fixedsize = yes
+		}
+	}
+}
