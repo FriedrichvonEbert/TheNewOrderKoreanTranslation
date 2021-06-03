@@ -1,0 +1,1299 @@
+guiTypes = {
+
+	extendedScrollbarType = {
+		name = "bottom_horizontal_slider_investigation"
+		position = { x = 0 y = -10 }
+		size = { width = 18 height = 18 }
+		tileSize = { width = 12 height = 12}
+		maxValue = 1
+		minValue = 0
+		stepSize = 0.01
+		startValue = 0
+		horizontal = yes
+		orientation = lower_left
+		origo = lower_left
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_horisontal_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x=0 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track_horisontal"
+			position = { x=0 y = 3 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_left"
+			position = { x=3 y = 1 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_right"
+			position = { x=-19 y = -17 }
+		}
+	}
+
+	extendedScrollbarType = {
+		name = "right_vertical_slider_investigation"
+		position = { x = -10 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x=-17 y = -19}
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Investigation_GUI_Opener"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "BRG_InvestigationGUI_open_button"
+			quadTextureSprite = "GFX_BRG_Investigation_Opener"
+			position = { x = 235 y = 34 }
+			pdx_tooltip = BRG_Investigation_Button_Tooltip_Scripted_Key
+			scale = 0.8
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=189 y=-16 }
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Investigation_GUI_3_Options"
+		size = { width = 1000 height = 650 }
+		position = { x = 190 y = 28 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		iconType = {
+			name = "Burgundy_Investigation_3_Options_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 13 y = 12 }
+			pdx_tooltip = BRG_Investigation_Info_tt
+		}
+
+		instantTextboxType = {
+			name = "Burgundy_GUI_3_Title"
+			font = "vt323_72_WT_outline"
+			text = "조사"
+			position = { x = 0 y = 60 }
+			format = center
+			maxWidth = 1000
+			maxHeight = 72
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "Burgundy_GUI_CHR"
+			quadTextureSprite = "GFX_Burgundy_GUI_CHR"
+			position = { x = 190 y = 375 }
+			centerposition = yes
+		}
+		instantTextboxType = {
+			name = "Burgundy_GUI_CHR_Title"
+			font = "aldrich_36_outline"
+			text = "샤를마뉴"
+			position = { x = 92 y = 200 }
+			format = center
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "BRG_Investigation_CHR_Current_Sus"
+			position = { x = 67 y = 503 }
+			font = "aldrich_36_outline"
+			text = "현재 의혹: [?BRG_Charla_Sus]"
+			format = center
+			maxWidth = 250
+		}
+
+		buttonType = {
+			name = "Burgundy_GUI_RPY"
+			quadTextureSprite = "GFX_Burgundy_GUI_RPY"
+			position = { x = 500 y = 375 }
+			centerposition = yes
+		}
+		instantTextboxType = {
+			name = "Burgundy_GUI_RPY_Title"
+			font = "aldrich_36_outline"
+			text = "Red Poppy"
+			position = { x = 402 y = 200 }
+			format = center
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "BRG_Investigation_RPY_Current_Sus"
+			position = { x = 375 y = 503 }
+			font = "aldrich_36_outline"
+			text = "현재 의혹: [?BRG_RPY_Sus]"
+			format = center
+			maxWidth = 250
+		}
+
+		buttonType = {
+			name = "Burgundy_GUI_WLN"
+			quadTextureSprite = "GFX_Burgundy_GUI_WLN"
+			position = { x = 810 y = 375 }
+			centerposition = yes
+		}
+		instantTextboxType = {
+			name = "Burgundy_GUI_WLN_Title"
+			font = "aldrich_36_outline"
+			text = "발로니엔"
+			position = { x = 712 y = 200 }
+			format = center
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "BRG_Investigation_WLN_Current_Sus"
+			position = { x = 685 y = 503 }
+			font = "aldrich_36_outline"
+			text = "현재 의혹: [?BRG_WLN_Sus]"
+			format = center
+			maxWidth = 250
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Total_Current_Intel"
+			position = { x = 0 y = 570 }
+			font = "aldrich_36_outline"
+			text = "현재 첩보: [?BRG_Gathered_Intelligence]"
+			maxWidth = 1000
+			format = center
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "BRG_Investigation_Total_Current_Intel_Gain"
+			position = { x = 0 y = 600 }
+			font = "aldrich_36_outline"
+			text = BRG_Monthly_Intel_Gain_Tooltip
+			maxWidth = 1000
+			format = center
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_3_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Investigation_GUI_CHR"
+		size = { width = 1000 height = 650 }
+		position = { x = 190 y = 28 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		containerWindowType = {
+			name = "TNO_Burgundy_Investigation_GUI_CHR_evidence"
+			size = { width = 1000 height = 650 }
+			position = { x = 0 y = 0 }
+			moveable = yes
+			horizontalScrollbar = "bottom_horizontal_slider_investigation"
+			verticalScrollbar = "right_vertical_slider_investigation"
+			margin = { left = 10 right = 10 top = 32 bottom = 30}
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+				alwaystransparent = yes
+			}
+
+			# Evidence Backgrounds Below
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_1"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 100 y = 425 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_2"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 300 y = 225 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_3"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 125 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_4"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 325 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_5"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 900 y = 225 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_6"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 700 y = 125 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_7"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 700 y = 425 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_8"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 300 y = 825 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_9"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 825 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_10"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 725 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_11"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 700 y = 725 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_12"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 900 y = 725 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_13"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 1100 y = 725 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_15"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 700 y = 625 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_16"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 300 y = 1025 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_17"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 1125 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_18"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 925 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_19"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 700 y = 1025 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_20"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 900 y = 925 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_21"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 900 y = 1125 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_CHR_Evidence_bg_22"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 1100 y = 1025 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			# Evidence Backgrounds Above
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_1"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev1"
+				position = { x = 100 y = 425 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_2"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev2"
+				position = { x = 258 y = 276 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_3"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev3"
+				position = { x = 458 y = 126 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_4"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev4"
+				position = { x = 458 y = 324 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_5"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev5"
+				position = { x = 738 y = 250 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_6"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev6"
+				position = { x = 679 y = 125 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_7"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev7"
+				position = { x = 658 y = 424 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_8"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev8"
+				position = { x = 258 y = 674 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_9"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev9"
+				position = { x = 479 y = 825 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_10"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev10"
+				position = { x = 458 y = 726 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_11"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev11"
+				position = { x = 679 y = 725 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_12"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev12"
+				position = { x = 779 y = 751 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_13"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev13"
+				position = { x = 979 y = 698 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_15"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev15"
+				position = { x = 658 y = 626 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_16"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev16"
+				position = { x = 300 y = 974 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_17"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev17"
+				position = { x = 479 y = 1098 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_18"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev18"
+				position = { x = 479 y = 951 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_19"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev19"
+				position = { x = 679 y = 1025 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_20"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev20"
+				position = { x = 879 y = 976 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_21"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev21"
+				position = { x = 779 y = 1125 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_CHR_Evidence_22"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_CHR_Ev22"
+				position = { x = 1079 y = 1025 }
+				centerposition = yes
+			}
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_CHR_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Investigation_GUI_RPY"
+		size = { width = 1000 height = 650 }
+		position = { x = 190 y = 28 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		containerWindowType = {
+			name = "TNO_Burgundy_Investigation_GUI_RPY_evidence"
+			size = { width = 1000 height = 650 }
+			position = { x = 0 y = 0 }
+			moveable = yes
+			horizontalScrollbar = "bottom_horizontal_slider_investigation"
+			verticalScrollbar = "right_vertical_slider_investigation"
+			margin = { left = 10 right = 10 top = 32 bottom = 30}
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+				alwaystransparent = yes
+			}
+
+			# Evidence Backgrounds Below
+			iconType = {
+				name = "BRG_Investigation_RPY_Evidence_bg_1"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 100 y = 325 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_RPY_Evidence_bg_2"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 300 y = 225 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_RPY_Evidence_bg_3"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 300 y = 425 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_RPY_Evidence_bg_4"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 325 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_RPY_Evidence_bg_5"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 700 y = 325 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_RPY_Evidence_bg_6"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 900 y = 325 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_RPY_Evidence_bg_7"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 1100 y = 425 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_RPY_Evidence_bg_8"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 1100 y = 225 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_RPY_Evidence_bg_9"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 1300 y = 425 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			# Evidence Backgrounds Above
+
+			buttonType = {
+				name = "BRG_Investigation_RPY_Evidence_1"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_RPY_Ev1"
+				position = { x = 100 y = 325 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_RPY_Evidence_2"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_RPY_Ev2"
+				position = { x = 260 y = 226 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_RPY_Evidence_3"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_RPY_Ev3"
+				position = { x = 260 y = 424 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_RPY_Evidence_4"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_RPY_Ev4"
+				position = { x = 479 y = 325 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_RPY_Evidence_5"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_RPY_Ev5"
+				position = { x = 679 y = 325 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_RPY_Evidence_6"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_RPY_Ev6"
+				position = { x = 879 y = 325 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_RPY_Evidence_7"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_RPY_Ev7"
+				position = { x = 1060 y = 424 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_RPY_Evidence_8"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_RPY_Ev8"
+				position = { x = 1060 y = 226 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_RPY_Evidence_9"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_RPY_Ev9"
+				position = { x = 1279 y = 425 }
+				centerposition = yes
+			}
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_RPY_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Investigation_GUI_WLN"
+		size = { width = 1000 height = 650 }
+		position = { x = 190 y = 28 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		containerWindowType = {
+			name = "TNO_Burgundy_Investigation_GUI_WLN_evidence"
+			size = { width = 1000 height = 650 }
+			position = { x = 0 y = 0 }
+			moveable = yes
+			horizontalScrollbar = "bottom_horizontal_slider_investigation"
+			verticalScrollbar = "right_vertical_slider_investigation"
+			margin = { left = 10 right = 10 top = 32 bottom = 30}
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+				alwaystransparent = yes
+			}
+
+			# Evidence_bg Backgrounds Below
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_1"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 100 y = 425 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_2"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 300 y = 688 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_3"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 100 y = 725 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_4"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 750 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_5"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 625 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_6"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 900 y = 688 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_7"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 1100 y = 688}
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_8"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 1300 y = 425 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_9"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 225 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_10"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 500 y = 100 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_11"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 900 y = 100 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_12"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 250 y = 160 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_13"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 700 y = 425 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_14"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 900 y = 225 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Investigation_WLN_Evidence_bg_15"
+				quadTextureSprite = "GFX_BRG_Investigation_GUI_Unknown_Ev"
+				position = { x = 1100 y = 160 }
+				centerposition = yes
+				alwaystransparent = yes
+			}
+			# Evidence Backgrounds Above
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_8"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev8"
+				position = { x = 1079 y = 425 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_1"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev1"
+				position = { x = 100 y = 425 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_2"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev2"
+				position = { x = 279 y = 580 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_3"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev3"
+				position = { x = 121 y = 725 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_4"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev4"
+				position = { x = 479 y = 750 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_5"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev5"
+				position = { x = 479 y = 625 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_6"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev6"
+				position = { x = 779 y = 580 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_7"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev7"
+				position = { x = 1079 y = 688}
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_9"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev9"
+				position = { x = 454 y = 225 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_10"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev10"
+				position = { x = 454 y = 100 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_14"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev14"
+				position = { x = 779 y = 162 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_11"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev11"
+				position = { x = 779 y = 113 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_12"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev12"
+				position = { x = 210 y = 243 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_13"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev13"
+				position = { x = 679 y = 425 }
+				centerposition = yes
+			}
+
+			buttonType = {
+				name = "BRG_Investigation_WLN_Evidence_15"
+				quadTextureSprite = "GFX_Burgundy_Investigation_GUI_WLN_Ev15"
+				position = { x = 1079 y = 160 }
+				centerposition = yes
+			}
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_WLN_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Investigation_GUI_GameStart"
+		size = { width = 650 height = 650 }
+		position = { x = 540 y = 78 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		iconType = {
+			name = "Burgundy_Investigation_GameStart_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 13 y = 12 }
+			pdx_tooltip = BRG_Investigation_Info_tt
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Title"
+			position = { x = 0 y = 20 }
+			font = "aldrich_36_outline"
+			text = "FALL WIESEL"
+			maxWidth = 650
+			format = center
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_Portrait_Leon_Degrelle"
+			quadTextureSprite = "GFX_BRG_Investigation_Portrait_Leon_Degrelle"
+			position = { x = 325 y = 315 }
+			centerposition = yes
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_Walloon_Evidence_1"
+			quadTextureSprite = "GFX_BRG_Investigation_Walloon_Evidence_1"
+			position = { x = 325 y = 137 }
+			centerposition = yes
+		}
+		buttonType = {
+			name = "BRG_Investigation_Walloon_Evidence_2"
+			quadTextureSprite = "GFX_BRG_Investigation_Walloon_Evidence_2"
+			position = { x = 146 y = 240 }
+			centerposition = yes
+		}
+		buttonType = {
+			name = "BRG_Investigation_Walloon_Evidence_3"
+			quadTextureSprite = "GFX_BRG_Investigation_Walloon_Evidence_3"
+			position = { x = 504 y = 240 }
+			centerposition = yes
+		}
+		buttonType = {
+			name = "BRG_Investigation_Walloon_Evidence_4"
+			quadTextureSprite = "GFX_BRG_Investigation_Walloon_Evidence_4"
+			position = { x = 475 y = 463 }
+			centerposition = yes
+		}
+		buttonType = {
+			name = "BRG_Investigation_Walloon_Evidence_5"
+			quadTextureSprite = "GFX_BRG_Investigation_Walloon_Evidence_5"
+			position = { x = 175 y = 463 }
+			centerposition = yes
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Current_Intel"
+			position = { x = 0 y = 543 }
+			font = "aldrich_36_outline"
+			text = "현재 첩보: [?BRG_Gathered_Intelligence]"
+			maxWidth = 650
+			format = center
+		}
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Current_Intel_Gain"
+			position = { x = 0 y = 573 }
+			font = "aldrich_36_outline"
+			text = BRG_Monthly_Intel_Gain_Tooltip
+			maxWidth = 650
+			format = center
+		}
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Current_Sus"
+			position = { x = 0 y = 603 }
+			font = "aldrich_36_outline"
+			text = "현재 의혹: [?BRG_Degrelle_Sus]"
+			maxWidth = 650
+			format = center
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Investigation_GUI_Walloon_Leader_Window"
+		size = { width = 300 height = 500 }
+		position = { x = 560 y = 525 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Walloon_Leader_Window_Title"
+			position = { x = 0 y = 32 }
+			font = "aldrich_24_outline"
+			text = "레옹 드그렐"
+			maxWidth = 300
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Walloon_Leader_Window_Info"
+			position = { x = 10 y = 60 }
+			font = "aldrich_20_outline"
+			text = "BRG_DeGrelle_Leader_Desc_Investigation"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 265
+			maxHeight = 295
+			format = left
+			scrollbarType = standardtext_slider
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_Walloon_Leader_Window_Button_1"
+			position = { x = 19 y = 360 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_18_outline"
+			text = BRG_DeGrelle_Portrait_Action_1
+			#pdx_tooltip =
+		}
+		buttonType = {
+			name = "BRG_Investigation_GUI_Walloon_Leader_Window_Button_2"
+			position = { x = 19 y = 400 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_18_outline"
+			text = BRG_DeGrelle_Portrait_Action_2
+		}
+		buttonType = {
+			name = "BRG_Investigation_GUI_Walloon_Leader_Window_Button_3"
+			position = { x = 19 y = 440 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_18_outline"
+			text = BRG_DeGrelle_Portrait_Action_3
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_Walloon_Leader_Window_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Investigation_GUI_Walloon_Evidence_Window"
+		size = { width = 300 height = 500 }
+		position = { x = 870 y = 525 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Walloon_Evidence_Window_Title"
+			position = { x = 30 y = 23 }
+			font = "aldrich_24_outline"
+			text = [GetBRG_Investigation_Evidence_Name]
+			maxWidth = 240
+			maxHeight = 24
+			format = center
+			vertical_alignment = center
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Walloon_Evidence_Window_Info"
+			position = { x = 10 y = 60 }
+			font = "aldrich_20_outline"
+			text = [GetBRG_DeGrelle_Investigation_Evidence_Descriptions]
+			borderSize = {x = 0 y = 0}
+			maxWidth = 265
+			maxHeight = 295
+			format = left
+			scrollbarType = standardtext_slider
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_Walloon_Evidence_Window_Button_1"
+			position = { x = 19 y = 360 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_18_outline"
+			text = [GetBRG_Investigation_Action_1]
+			pdx_tooltip = BRG_DeGrelle_Dead_End
+		}
+		buttonType = {
+			name = "BRG_Investigation_GUI_Walloon_Evidence_Window_Button_2"
+			position = { x = 19 y = 400 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_18_outline"
+			text = [GetBRG_DeGrelle_Investigation_Action_2]
+			pdx_tooltip = BRG_DeGrelle_Dead_End
+		}
+		buttonType = {
+			name = "BRG_Investigation_GUI_Walloon_Evidence_Window_Button_3"
+			position = { x = 19 y = 440 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_18_outline"
+			text = [GetBRG_DeGrelle_Investigation_Action_3]
+			pdx_tooltip = BRG_DeGrelle_Dead_End
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_Walloon_Evidence_Window_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Investigation_GUI_Walloon_Evidence_Action_Window"
+		size = { width = 300 height = 250 }
+		position = { x = 975 y = 425 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Title"
+			position = { x = 0 y = 35 }
+			font = "aldrich_30_outline"
+			text = "조사 시작"
+			maxWidth = 300
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Intel"
+			position = { x = 0 y = 94 }
+			font = "aldrich_30_outline"
+			text = "[?BRG_Used_Intel_In_Operation] 첩보력 사용"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Minus_Intel"
+			position = { x = 19 y = 89 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Plus_Intel"
+			position = { x = 245 y = 89 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
+		}
+
+		instantTextboxType = {
+			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Percent"
+			position = { x = 0 y = 144 }
+			font = "aldrich_30_outline"
+			text = "[GetBRG_Investigation_Chance_Tooltip]"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 300
+			format = center
+			scrollbarType = standardtext_slider
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Button"
+			position = { x = 19 y = 192 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_24_outline"
+			text = "처형"
+			#pdx_tooltip =
+		}
+
+		buttonType = {
+			name = "BRG_Investigation_GUI_Walloon_Evidence_Action_Window_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+}

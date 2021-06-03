@@ -1,0 +1,262 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ENG_GUI_EnglishGoogleMaps"
+		size = { width = 500 height = 550 }
+		position = { x = 0 y = 0 }
+		#buttonType = {
+		#	name = "TNO_ENG_GUI_EnglishGoogleMaps_Info"
+		#	spriteType = "GFX_ENG_EnglishGoogleMaps_Info"
+		#	position = { x = 424 y = -64 }
+		#	pdx_tooltip = "ENG_EnglishGoogleMaps_Info_tt"
+		#}
+		containerWindowType = {
+			name = "TNO_ENG_GUI_EnglishGoogleMaps_Legend_Container"
+			size = { width = 0 height = 0 }
+			position = { x = 90 y = -10 }
+				iconType = {
+					name = "TNO_ENG_GUI_EnglishGoogleMaps_Legend"
+					spriteType = "GFX_ENG_EnglishGoogleMaps_Legend"
+					#position = { x = 90 y = -10 }
+				}
+				#instantTextBoxType = {
+				#	name = "EnglishGoogleMaps_OpEfficiency"
+				#	position = { x = 300 y = 50 }
+				#	font = "aldrich_20_outline"
+				#	text = ENG_EnglishGoogleMaps_OpEff
+				#	maxWidth = 100
+				#	maxHeight = 40
+				#	format = left
+				#	pdx_tooltip = "ENG_EnglishGoogleMaps_OpEff_tt"
+				#}
+		}
+		containerWindowType = {
+			name = "TNO_ENG_GUI_EnglishGoogleMaps_ProgBars"
+			size = { width = 0 height = 0 }
+			position = { x = 25 y = 300 }
+				iconType = {
+					name = "ENG_EnglishGoogleMaps_HMMLRSupport_ProgBar"
+					spriteType = "GFX_ENG_EnglishGoogleMaps_ProgBar"
+					position = { x = 2 y = 77 }	
+				}
+				iconType = {
+					name = "ENG_EnglishGoogleMaps_HMMLRSupport_ProgBar_Frame"
+					spriteType = "GFX_ENG_EnglishGoogleMaps_ProgBar_Frame"
+					position = { x = 0 y = 76 }
+					pdx_tooltip = "ENG_EnglishGoogleMaps_HMMLRSupport_tt"
+				}
+				iconType = {
+					name = "ENG_EnglishGoogleMaps_StateStability_ProgBar"
+					spriteType = "GFX_ENG_EnglishGoogleMaps_ProgBar2"
+					position = { x = 2 y = 177 }
+				}
+				iconType = {
+					name = "ENG_EnglishGoogleMaps_StateStability_ProgBar_Frame"
+					spriteType = "GFX_ENG_EnglishGoogleMaps_ProgBar_Frame"
+					position = { x = 0 y = 176 }
+					pdx_tooltip = "ENG_EnglishGoogleMaps_StateStability_tt"
+				}
+		}
+		containerWindowType = {
+			name = "TNO_ENG_GUI_EnglishGoogleMaps_Map"
+			size = { width = 0 height = 0 }
+			position = { x = 120 y = 20 }
+			iconType = {
+				name = "EnglishGoogleMaps_MapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_MapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_131HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_131HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_130HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_130HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_132HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_132HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_129HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_129HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_128HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_128HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_885HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_885HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_125HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_125HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_126HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_126HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_777HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_777HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_338HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_338HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_127HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_127HLMapOutline"
+			}
+			iconType = {
+				name = "EnglishGoogleMaps_1300HLMapOutline"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_1300HLMapOutline"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State131"
+				position = { x = 37 y = 1 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State131_Neut"
+				pdx_tooltip = "STATE_131"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State131_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State130"
+				position = { x = 123 y = 63 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State130_Neut"
+				pdx_tooltip = "STATE_130"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State130_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State132"
+				position = { x = 97 y = 85 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State132_Neut"
+				pdx_tooltip = "STATE_132"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State132_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State129"
+				position = { x = 161 y = 111 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State129_Neut"
+				pdx_tooltip = "STATE_129"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State129_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State128"
+				position = { x = 130 y = 130 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State128_Neut"
+				pdx_tooltip = "STATE_128"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State128_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State885"
+				position = { x = 95 y = 132 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State885_Neut"
+				pdx_tooltip = "STATE_885"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State885_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State125"
+				position = { x = 198 y = 147 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State125_Neut"
+				pdx_tooltip = "STATE_125"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State125_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State126"
+				position = { x = 174 y = 187 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State126_Neut"
+				pdx_tooltip = "STATE_126"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State126_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State777"
+				position = { x = 144 y = 186 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State777_Neut"
+				pdx_tooltip = "STATE_777"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State777_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State338"
+				position = { x = 119 y = 191 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State338_Neut"
+				pdx_tooltip = "STATE_338"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State338_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State127"
+				position = { x = 139 y = 219 }
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State127_Neut"
+				pdx_tooltip = "STATE_127"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State127_tt_delayed"
+			}
+			buttonType = {
+				name = "EnglishGoogleMaps_State1300"
+				spriteType = "GFX_ENG_EnglishGoogleMaps_State1300_Neut"
+				position = { x = 204 y = 216 }
+				pdx_tooltip = "STATE_1300"
+				pdx_tooltip_delayed = "ENG_EnglishGoogleMaps_State1300_tt_delayed"
+			}
+			#buttonType = {
+			#	name = "EnglishGoogleMaps_State123"
+			#	spriteType = "GFX_ENG_EnglishGoogleMaps_State123_Neut"
+			#	position = { x = 1 y = 219 }
+			#	pdx_tooltip = "STATE_123"
+			#}
+		}
+		containerWindowType = {
+			name = "TNO_ENG_GUI_EnglishGoogleMaps_Text"
+			size = { width = 0 height = 0 }
+			#position = { x = 0 y = 30 }
+			orientation = CENTER
+			instantTextBoxType = {
+				name = "EnglishGoogleMaps_ChosenStateName"
+				position = { x = -230 y = 50 }
+				font = "aldrich_30_outline"
+				text = "선택한 주: [EnglishGoogleMaps_ChosenStateName]"
+				maxWidth = 500
+				maxHeight = 29
+				format = center
+			}
+			instantTextBoxType = {
+				name = "EnglishGoogleMaps_ChosenState_HmmlrSupport"
+				position = { x = -230 y = 141 }
+				font = "aldrich_20_outline"
+				text = "HMMLR 지지도: [?var:ENG_EnglishGoogleMaps_ChosenState:ENG_StateStats_HMMLRSupport|1]%"
+				maxWidth = 500
+				maxHeight = 20
+				format = center
+			}
+			instantTextBoxType = {
+				name = "EnglishGoogleMaps_ChosenState_HmmlrSupportTrend"
+				position = { x = -230 y = 161 }
+				font = "aldrich_20_outline"
+				text = [ENG_HMMLRSupportTrend]
+				maxWidth = 500
+				maxHeight = 20
+				format = center
+			}
+			instantTextBoxType = {
+				name = "EnglishGoogleMaps_ChosenState_Stability"
+				position = { x = -230 y = 241 }
+				font = "aldrich_20_outline"
+				text = "주 안정도: [?var:ENG_EnglishGoogleMaps_ChosenState:ENG_StateStats_Stability|1]%"
+				maxWidth = 500
+				maxHeight = 20
+				format = center
+			}
+		}
+	}
+}

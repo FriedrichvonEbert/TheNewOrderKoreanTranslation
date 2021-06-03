@@ -1,0 +1,985 @@
+guiTypes = {
+	containerWindowType = {
+		name = "TNO_US_CIA_Decisions_GUI"
+		size = { width = 525 height = 1070 }
+		position = { x = 0 y = 0 }
+
+		instantTextboxType = {
+			name = "USA_CIA_Decisions_GUI_Title"
+			position = { x = 0 y = -10 }
+			font = "aldrich_36_outline"
+			text = USA_CIA_Decisions_GUI_Title
+			maxWidth = 525
+			maxHeight = 20
+			format = center
+		}
+
+		iconType = {
+			name = "USA_CIA_Decisions_GUI_Logo"
+			spriteType = "GFX_USA_CIA_Decisions_GUI_Logo"
+			position = { x = 146 y = 15 }
+		}
+
+		instantTextboxType = {
+			name = "USA_CIA_Decisions_GUI_Budget_Title"
+			position = { x = 0 y = 246 }
+			font = "aldrich_30_outline"
+			text = USA_CIA_Change_Budget_Tooltip
+			maxWidth = 525
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "USA_CIA_Decisions_GUI_Budget_Increase_Amount_Title"
+			position = { x = 171 y = 285 }
+			font = "aldrich_20_outline"
+			text = "예산 증액 기준량:"
+			maxWidth = 175
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "USA_CIA_Decisions_GUI_Budget_Increase_Amount"
+			position = { x = 171 y = 305 }
+			font = "aldrich_20_outline"
+			text = USA_CIA_Change_Budget_Change_Tooltip
+			maxWidth = 175
+			maxHeight = 20
+			format = center
+		}
+
+		buttonType = {
+			name = "USA_CIA_Decisions_GUI_Budget_Minus"
+			position = { x = 128 y = 284 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
+		}
+
+		buttonType = {
+			name = "USA_CIA_Decisions_GUI_Budget_Plus"
+			position = { x = 354 y = 284 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
+		}
+
+		buttonType = {
+			name = "USA_CIA_Decisions_GUI_Budget_Minus_Change"
+			position = { x = 228 y = 335 }
+			quadTextureSprite = "GFX_SGR_RND_GUI_decrease_budget_button"
+		}
+
+		buttonType = {
+			name = "USA_CIA_Decisions_GUI_Budget_Plus_Change"
+			position = { x = 265 y = 335 }
+			quadTextureSprite = "GFX_SGR_RND_GUI_increase_budget_button"
+		}
+
+		containerWindowType = {
+			name = "TNO_US_CIA_Decisions_GUI_Map"
+			size = { width = 0 height = 0 }
+			position = { x = 15 y = 600 }
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map"
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_EA"
+				position = { x = 17 y = 44 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_EA"
+				pdx_tooltip = USA_CIA_ea_status
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_AF"
+				position = { x = 208 y = 73 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_AF"
+				pdx_tooltip = USA_CIA_af_status
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_CA"
+				position = { x = 73 y = 78 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_CA"
+				pdx_tooltip = USA_CIA_ca_status
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_EU"
+				position = { x = 218 y = 5 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_EU"
+				pdx_tooltip = USA_CIA_eu_status
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_ME"
+				position = { x = 266 y = 64 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_ME"
+				pdx_tooltip = USA_CIA_me_status
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_NA"
+				position = { x = 1 y = 1 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_NA"
+				pdx_tooltip = USA_CIA_na_status
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_RU"
+				position = { x = 280 y = 4 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_RU"
+				pdx_tooltip = USA_CIA_ru_status
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_SA"
+				position = { x = 106 y = 110 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_SA"
+				pdx_tooltip = USA_CIA_sa_status
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_SEA"
+				position = { x = 355 y = 84 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_SEA"
+				pdx_tooltip = USA_CIA_sea_status
+			}
+
+			buttonType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_AU"
+				position = { x = 385 y = 145 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_AU"
+				pdx_tooltip = USA_CIA_au_status
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_EA_outline"
+				position = { x = 14 y = 41 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_EA_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_AF_outline"
+				position = { x = 205 y = 70 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_AF_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_CA_outline"
+				position = { x = 70 y = 75 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_CA_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_EU_outline"
+				position = { x = 215 y = 2 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_EU_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_ME_outline"
+				position = { x = 263 y = 61 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_ME_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_NA_outline"
+				position = { x = -2 y = -2 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_NA_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_RU_outline"
+				position = { x = 277 y = 1 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_RU_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_SA_outline"
+				position = { x = 103 y = 107 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_SA_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_SEA_outline"
+				position = { x = 352 y = 81 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_SEA_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "USA_CIA_Decisions_GUI_World_Map_AU_outline"
+				position = { x = 382 y = 142 }
+				quadTextureSprite = "GFX_USA_CIA_Decisions_GUI_World_Map_AU_outline"
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "USA_CIA_Decisions_GUI_Selected_Region"
+				position = { x = -15 y = 230 }
+				font = "aldrich_30_outline"
+				text = "강조된 지역: [GetUSACIARegionScriptedLoc]"
+				maxWidth = 525
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "USA_CIA_Decisions_GUI_Decryption_Info"
+				position = { x = -15 y = 300 }
+				font = "aldrich_30_outline"
+				text = "현재 분석 능력: [?USA_CIA_Decryption]"
+				maxWidth = 525
+				maxHeight = 20
+				format = center
+				pdx_tooltip = USA_CIA_decryption_info
+			}
+
+			instantTextboxType = {
+				name = "USA_CIA_Decisions_GUI_Expertise_Info"
+				position = { x = -15 y = 370 }
+				font = "aldrich_30_outline"
+				text = "현재 숙련도: [?USA_CIA_expertise]"
+				maxWidth = 525
+				maxHeight = 20
+				format = center
+				pdx_tooltip = USA_CIA_expertise_info
+			}
+
+			instantTextboxType = {
+				name = "USA_CIA_Decisions_GUI_Agent_Info"
+				position = { x = -15 y = 440 }
+				font = "aldrich_30_outline"
+				text = "활동중인 요원: [?USA_CIA_operatives]"
+				maxWidth = 525
+				maxHeight = 20
+				format = center
+				pdx_tooltip = USA_CIA_agent_info
+			}
+
+		}
+
+		containerWindowType = {
+			name = "USA_CIA_GUI_research_window"
+			position = { x = 0 y = -280 }
+			size = { width = 0 height = 0 }
+
+			iconType = {
+				name = "USA_CIA_GUI_research_bg"
+				position = { x = 50 y = 655 }
+				quadTextureSprite = "GFX_USA_CIA_GUI_research_bg"
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "RUSA_CIA_GUI_research_title"
+				position = { x = 55 y = 659 }
+				font = "aldrich_24_outline"
+				text = USA_CIA_Research_Screen_Title_tt
+				format = left
+				maxWidth = 400
+			}
+			buttonType = {
+				name = "USA_CIA_GUI_research_window_button"
+				quadTextureSprite = "GFX_SGR_RND_GUI_RandD_button"
+				position = { x = 406 y = 661 }
+			}
+			iconType = {
+				name = "USA_CIA_GUI_research_bar"
+				spriteType = "GFX_SGR_RND_GUI_research_progress_bar"
+				position = { x = 60 y = 726 }
+				pdx_tooltip = USA_CIA_research_progress
+			}
+			instantTextboxType = {
+				name = "USA_CIA_GUI_research_InProgress"
+				position = { x = 55 y = 688 }
+				font = "aldrich_18_outline"
+				text = USA_CIA_Pick_Research_tt
+				format = left
+				maxWidth = 350
+				pdx_tooltip = USA_CIA_research_progress
+			}
+		}
+
+		containerWindowType = {
+			name = "USA_CIA_GUI_recruit_window"
+			position = { x = 0 y = -280 }
+			size = { width = 0 height = 0 }
+
+			iconType = {
+				name = "USA_CIA_GUI_recruit_bg"
+				position = { x = 118 y = 760 }
+				quadTextureSprite = "GFX_USA_CIA_GUI_recruit_bg"
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "USA_CIA_GUI_recruit_training_title"
+				position = { x = 123 y = 769 }
+				font = "aldrich_24_outline"
+				text = USA_CIA_Training_Title_tt
+				format = left
+				maxWidth = 300
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name = "USA_CIA_GUI_recruit_button"
+				quadTextureSprite = "GFX_SGR_RND_GUI_recuit_button"
+				position = { x = 292 y = 766 }
+				buttonFont = "aldrich_20_outline"
+				pdx_tooltip = USA_CIA_recruit_button_status
+			}
+			iconType = {
+				name = "USA_CIA_GUI_recruit_expertise_bar"
+				spriteType = "GFX_SGR_RND_GUI_expertise_progress_bar"
+				position = { x = 128 y = 818 }
+				pdx_tooltip = USA_CIA_recruit_bar_status
+			}
+			instantTextboxType = {
+				name = "USA_CIA_GUI_recruit_expertise_title"
+				position = { x = 123 y = 797 }
+				font = "aldrich_16_outline"
+				text = "상태"
+				format = left
+				maxWidth = 300
+				alwaystransparent = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_US_CIA_Decisions_GUI_Unlock_Window"
+		size = { width = 300 height = 260 }
+		position = { x = 543 y = 229 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		instantTextboxType = {
+			name = "US_CIA_Decisions_GUI_Title"
+			position = { x = 25 y = 12 }
+			text = USA_CIA_Unlock_Region_Tooltip
+			font = "aldrich_30_outline"
+			maxWidth = 250
+			maxHeight = 20
+			format = center
+		}
+
+		buttonType = {
+			name = "US_CIA_Decisions_GUI_Unlock_Yes"
+			position = { x = 19 y = 167 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_24_outline"
+			text = "예"
+			pdx_tooltip = USA_CIA_Yes_Unlock_Tooltip
+		}
+
+		buttonType = {
+			name = "US_CIA_Decisions_GUI_Unlock_No"
+			position = { x = 19 y = 207 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_24_outline"
+			text = "아니오"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_US_CIA_Decisions_GUI_Recruit_Window"
+		size = { width = 730 height = 474 }
+		position = { x = 543 y = 229 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		buttonType = {
+			name = "recruit_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite ="GFX_crt_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		iconType = {
+			name = "Agent_1"
+			spriteType = "GFX_SGR_portrait_border"
+			position = { x = 22 y = 22 }
+		}
+		instantTextboxType = {
+			name = "Agent_1_Name"
+			position = { x = 185 y = 111 }
+			font = "aldrich_30_outline"
+			text = "요원 1 이름"
+			maxWidth = 250
+			format = left
+		}
+
+		iconType = {
+			name = "Agent_2"
+			spriteType = "GFX_SGR_portrait_border"
+			position = { x = 22 y = 242 }
+		}
+		instantTextboxType = {
+			name = "Agent_2_Name"
+			position = { x = 185 y = 331 }
+			font = "aldrich_30_outline"
+			text = "요원 2 이름"
+			maxWidth = 250
+			format = left
+		}
+
+		iconType = {
+			name = "Agent_3"
+			spriteType = "GFX_SGR_portrait_border"
+			position = { x = 372 y = 22 }
+		}
+		instantTextboxType = {
+			name = "Agent_3_Name"
+			position = { x = 535 y = 111 }
+			font = "aldrich_30_outline"
+			text = "요원 3 이름"
+			maxWidth = 250
+			format = left
+		}
+
+		iconType = {
+			name = "Agent_4"
+			spriteType = "GFX_SGR_portrait_border"
+			position = { x = 372 y = 242 }
+		}
+		instantTextboxType = {
+			name = "Agent_4_Name"
+			position = { x = 535 y = 331 }
+			font = "aldrich_30_outline"
+			text = "요원 4 이름"
+			maxWidth = 250
+			format = left
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_US_CIA_Decisions_GUI_tech_window"
+		position = { x = 542 y = 79 }
+		size = { width = 1092 height = 400 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_plain_grey"
+		}
+
+		instantTextboxType = {
+			name = "Upgrades_title"
+			position = { x = 0 y = 4 }
+			font = "Bomb_36"
+			text = "과학기술국"
+			maxWidth = 1092
+			maxHeight = 36
+			format = center
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "Upgrades_subtitle"
+			position = { x = 0 y = 42 }
+			font = "Bomb_28"
+			text = "아래의 연구를 선택하세요."
+			maxWidth = 1092
+			maxHeight = 36
+			format = center
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "tech_close_button"
+			position = { x = -40 y = 8 }
+			quadTextureSprite ="GFX_tno_close_button"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		containerWindowType = {
+			name = "TNO_US_CIA_Decisions_GUI_tech_upgrades_window"
+			position = { x = 4 y = 75 }
+			size = { width = 1084 height = 325 }
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_tiled_window_thin_border2"
+			}
+
+			instantTextboxType = {
+				name = "CIA_upper_tech_row_title"
+				position = { x = 28 y = 27 }
+				font = "aldrich_24_outline"
+				text = "랭글리 연구소"
+				format = left
+				maxWidth = 500
+			}
+
+			instantTextboxType = {
+				name = "CIA_lower_tech_row_title"
+				position = { x = 28 y = 170 }
+				font = "aldrich_24_outline"
+				text = "윌리엄 도너번 연구실"
+				format = left
+				maxWidth = 500
+			}
+
+			iconType = {
+				name = "CIA_tech_bg"
+				spriteType = "GFX_RND_tech_bg"
+				position = { x = 37 y = 104 }
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "Row_1_bg"
+				spriteType = "GFX_agency_branch_upgrade_entry_bg"
+				position = { x = 20 y = 22 }
+			}
+
+			iconType = {
+				name = "Row_2_bg"
+				spriteType = "GFX_agency_branch_upgrade_entry_bg"
+				position = { x = 20 y = 165 }
+			}
+
+			iconType = {
+				name = "upgrade_picture_1"
+				spriteType = "GFX_CIA_PIGEONCAMERA"
+				position = { x = 37 y = 51 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_1"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 35 y = 96 }
+				buttonFont = "aldrich_16_outline"
+				text = "비둘기 사진술"
+				pdx_tooltip = CIA_tech_1_tt
+				pdx_tooltip_delayed = CIA_tech_1_tt_delayed
+			}
+
+			iconType = {
+				name = "upgrade_picture_2"
+				spriteType = "GFX_CIA_BELLYBUSTER"
+				position = { x = 242 y = 51 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_2"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 240 y = 96 }
+				buttonFont = "aldrich_16_outline"
+				text = "벨리 버스터"
+				pdx_tooltip = CIA_tech_2_tt
+				pdx_tooltip_delayed = CIA_tech_2_tt_delayed
+			}
+
+			iconType = {
+				name = "upgrade_picture_3"
+				spriteType = "GFX_CIA_ENGRAVED_MIRRORS"
+				position = { x = 447 y = 51 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_3"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 445 y = 96 }
+				buttonFont = "aldrich_16_outline"
+				text = "각인 거울"
+				pdx_tooltip = CIA_tech_3_tt
+				pdx_tooltip_delayed = CIA_tech_3_tt_delayed
+			}
+
+			iconType = {
+				name = "upgrade_picture_4"
+				spriteType = "GFX_CIA_CIGARETTECAMERA"
+				position = { x = 652 y = 51 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_4"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 650 y = 96 }
+				buttonFont = "aldrich_16_outline"
+				text = "시가 카메라"
+				pdx_tooltip = CIA_tech_4_tt
+				pdx_tooltip_delayed = CIA_tech_4_tt_delayed
+			}
+
+			iconType = {
+				name = "upgrade_picture_5"
+				spriteType = "GFX_CIA_MINIATURECOMPASS"
+				position = { x = 857 y = 51 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_5"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 855 y = 96 }
+				buttonFont = "aldrich_16_outline"
+				text = "미니어처 컴퍼스"
+				pdx_tooltip = CIA_tech_5_tt
+				pdx_tooltip_delayed = CIA_tech_5_tt_delayed
+			}
+
+			iconType = {
+				name = "upgrade_picture_6"
+				spriteType = "GFX_CIA_PIPERADIO"
+				position = { x = 37 y = 194 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_6"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 35 y = 239 }
+				buttonFont = "aldrich_16_outline"
+				text = "파이프 라디오"
+				pdx_tooltip = CIA_tech_6_tt
+				pdx_tooltip_delayed = CIA_tech_6_tt_delayed
+			}
+
+			iconType = {
+				name = "upgrade_picture_7"
+				spriteType = "GFX_CIA_FILMSPIKE"
+				position = { x = 242 y = 194 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_7"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 240 y = 239 }
+				buttonFont = "aldrich_16_outline"
+				text = "Film Spike"
+				pdx_tooltip = CIA_tech_7_tt
+				pdx_tooltip_delayed = CIA_tech_7_tt_delayed
+			}
+
+			iconType = {
+				name = "upgrade_picture_8"
+				spriteType = "GFX_CIA_MOTIONDETECTION"
+				position = { x = 447 y = 194 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_8"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 445 y = 239 }
+				buttonFont = "aldrich_16_outline"
+				text = "동작 감지기"
+				pdx_tooltip = CIA_tech_8_tt
+				pdx_tooltip_delayed = CIA_tech_8_tt_delayed
+			}
+
+			iconType = {
+				name = "upgrade_picture_9"
+				spriteType = "GFX_CIA_PICTOGRAM"
+				position = { x = 652 y = 194 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_9"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 650 y = 239 }
+				buttonFont = "aldrich_16_outline"
+				text = "Pictogram Counter"
+				pdx_tooltip = CIA_tech_9_tt
+				pdx_tooltip_delayed = CIA_tech_9_tt_delayed
+			}
+
+			iconType = {
+				name = "upgrade_picture_10"
+				spriteType = "GFX_CIA_HollowCoin"
+				position = { x = 857 y = 194 }
+			}
+
+			buttonType = {
+				name = "upgrade_button_10"
+				spriteType = "GFX_CIA_tech_button"
+				position = { x = 855 y = 239 }
+				buttonFont = "aldrich_16_outline"
+				text = "Hollow Coins"
+				pdx_tooltip = CIA_tech_10_tt
+				pdx_tooltip_delayed = CIA_tech_10_tt_delayed
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_US_CIA_Decisions_GUI_tech_window_completed"
+		position = { x = -225 y = -160 }
+		size = { width = 500 height = 260 }
+		orientation = center
+		moveable = yes
+		fade_time = 200
+		fade_type = linear
+		show_sound = research_complete
+		hide_sound = menu_close_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_bg"
+		}
+
+		instantTextBoxType = {
+			name = "tech_window_title"
+			position = { x = 0 y = 15 }
+			textureFile = ""
+			font = "aldrich_36_outline"
+			borderSize = {x = 0 y = 0}
+			text = "CIA 연구 완료됨"
+			format = center
+			maxWidth = 500
+			maxHeight = 24
+		}
+
+		iconType = {
+			name = "tech_icon_1"
+			quadTextureSprite = "GFX_CIA_PIGEONCAMERA"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_1"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_1
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		iconType = {
+			name = "tech_icon_2"
+			quadTextureSprite = "GFX_CIA_BELLYBUSTER"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_2"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_2
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		iconType = {
+			name = "tech_icon_3"
+			quadTextureSprite = "GFX_CIA_ENGRAVED_MIRRORS"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_3"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_3
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		iconType = {
+			name = "tech_icon_4"
+			quadTextureSprite = "GFX_CIA_CIGARETTECAMERA"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_4"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_4
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		iconType = {
+			name = "tech_icon_5"
+			quadTextureSprite = "GFX_CIA_MINIATURECOMPASS"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_5"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_5
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		iconType = {
+			name = "tech_icon_6"
+			quadTextureSprite = "GFX_CIA_PIPERADIO"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_6"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_6
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		iconType = {
+			name = "tech_icon_7"
+			quadTextureSprite = "GFX_CIA_FILMSPIKE"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_7"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_7
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		iconType = {
+			name = "tech_icon_8"
+			quadTextureSprite = "GFX_CIA_MOTIONDETECTION"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_8"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_8
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		iconType = {
+			name = "tech_icon_9"
+			quadTextureSprite = "GFX_CIA_PICTOGRAM"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_9"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_9
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		iconType = {
+			name = "tech_icon_10"
+			quadTextureSprite = "GFX_CIA_HollowCoin"
+			position = { x = 246 y = 135 }
+			centerposition = yes
+		}
+		instantTextBoxType = {
+			name = "tech_name_10"
+			position = { x = 70 y = 48 }
+			font = "aldrich_24_outline"
+			text = CIA_tech_10
+			maxWidth = 360
+			maxHeight = 100
+			format = center
+		}
+		
+
+		buttonType = {
+			name = "ok_button"
+			position = { x = 195 y = 205}
+			quadTextureSprite = "GFX_sort_button_100x29"
+			frame = 1
+			buttonText = "BUTTON_OK"
+			buttonFont = "aldrich_24_outline"
+			shortcut = "RETURN"
+			clicksound = click_ok
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_US_CIA_Decisions_GUI_Action_Window"
+		size = { width = 400 height = 250 }
+		position = { x = 542 y = 475 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+
+		instantTextboxType = {
+			name = "TNO_US_CIA_Decisions_GUI_Action_Window_Title"
+			position = { x = 0 y = 27 }
+			font = "aldrich_36_outline"
+			text = "작전 개시"
+			maxWidth = 400
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "TNO_US_CIA_Decisions_GUI_Action_Window_Intel"
+			position = { x = 0 y = 94 }
+			font = "aldrich_30_outline"
+			text = "[?USA_CIA_Invested_Budget]백만 달러 할당"
+			maxWidth = 400
+			maxHeight = 20
+			format = center
+		}
+
+		buttonType = {
+			name = "TNO_US_CIA_Decisions_GUI_Action_Window_Minus_Intel"
+			position = { x = 19 y = 89 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
+		}
+
+		buttonType = {
+			name = "TNO_US_CIA_Decisions_GUI_Action_Window_Plus_Intel"
+			position = { x = 345 y = 89 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
+		}
+
+		instantTextboxType = {
+			name = "TNO_US_CIA_Decisions_GUI_Action_Window_Percent"
+			position = { x = 0 y = 144 }
+			font = "aldrich_30_outline"
+			text = "[?USA_CIA_Operation_Success_Chance]% 성공 확률"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 400
+			maxHeight = 30
+			format = center
+			scrollbarType = standardtext_slider
+		}
+
+		buttonType = {
+			name = "TNO_US_CIA_Decisions_GUI_Action_Window_Button"
+			position = { x = 69 y = 192 }
+			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+			buttonFont = "aldrich_24_outline"
+			text = "Execute"
+			#pdx_tooltip =
+		}
+	}
+}
