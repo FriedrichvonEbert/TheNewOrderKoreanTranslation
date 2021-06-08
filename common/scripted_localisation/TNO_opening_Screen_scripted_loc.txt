@@ -268,6 +268,23 @@ defined_text = {
 }
 
 defined_text = {
+	name = GET_COUNTRY_INFO_PAGE_TEXT_BRA
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_BRA
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_BRA
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_BRA
+	}
+}
+
+
+defined_text = {
 	name = GET_COUNTRY_INFO
 	## Countries with Opening pages
 	text = {
