@@ -138,6 +138,13 @@ defined_text = {
 		trigger = { tag = IRE }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_IRE
 	}
+	#### CSS ####
+	## Brazil ##
+	text = {
+		trigger = { tag = BRA }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_BRA
+	}
+
 	## Default
 	text = {
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GEN
@@ -189,6 +196,10 @@ defined_text = {
 	text = {
 		trigger = { check_variable = { ENDING_INFO_PAGE = 1 } }
 		localization_key = CLOSING_SCREEN_TEXT_2
+	}
+	text = {
+		trigger = { check_variable = { ENDING_INFO_PAGE = 2 } }
+		localization_key = CLOSING_SCREEN_TEXT_3
 	}
 }
 
@@ -440,7 +451,7 @@ defined_text = {
 	text = {
 		trigger = { tag = JAP }
 		localization_key = COUNTRY_INFO_JAPAN
-	}	
+	}
 	## Burgundy
 	text = {
 		trigger = { tag = BRG }
@@ -457,11 +468,17 @@ defined_text = {
 		trigger = { tag = ITA }
 		localization_key = COUNTRY_INFO_ITALY
 	}
-	
+
+	## CSS
+	text = {
+		trigger = { tag = BRA }
+		localization_key = [GET_COUNTRY_INFO_PAGE_TEXT_BRA]
+	}
 	## Default
 	text = {
 		localization_key = COUNTRY_INFO_NO_CONTENT
 	}
+
 }
 
 defined_text = {
@@ -585,6 +602,20 @@ defined_text = {
 			}
 		}
 		localization_key = REGIONAL_INFO_ENGLAND
+	}
+
+	##### LATIN SUBMOD
+	## South America
+	text = {
+		trigger = {
+			OR = {
+				tag = CHL
+				tag = ARG
+				tag = BRA
+				tag = URG
+			}
+		}
+		localization_key = REGIONAL_INFO_SOUTH_AMERICA
 	}
 	## Default
 	text = {
@@ -713,6 +744,11 @@ defined_text = {
 			}
 		}
 		localization_key = "GFX_TNO_OpeningScreen_Region_ENGLAND"
+	}
+	## South America
+	text = {
+		trigger = { CSS_is_south_american_nation = yes }
+		localization_key = "GFX_TNO_OpeningScreen_Region_SOUTHAMERICA"
 	}
 	## Default
 	text = {
@@ -916,8 +952,14 @@ defined_text = {
 		trigger = { tag = JAP }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Japan"
 	}
+
+	#### CSS ####
+	text = {
+		trigger = { tag = BRA }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Brazil"
+	}
 	## Default
 	text = {
-		localization_key = "GFX_TNO_OpeningScreen_Poster_ChairmanPink"
+		localization_key = "GFX_TNO_OpeningScreen_Poster_NoContent"
 	}
 }
