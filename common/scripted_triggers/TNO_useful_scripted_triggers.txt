@@ -3,6 +3,7 @@ TNO_has_big_opening_screen = {
 		tag = NIK
 		tag = USA
 		tag = GER
+		tag = CHL
 		tag = WRS
 	}
 }
@@ -452,6 +453,23 @@ is_european_nation = {
 			original_tag = SCO
 			original_tag = WAL
 
+		}
+	}
+}
+
+CSS_is_south_american_nation = {
+	ROOT = {
+		OR = {
+			tag = ARG
+			tag = BRA
+			tag = CHL
+			tag = PAR
+			tag = URG
+			tag = PRU
+			tag = BOL
+			tag = ECU
+			tag = COL
+			tag = VEN
 		}
 	}
 }
