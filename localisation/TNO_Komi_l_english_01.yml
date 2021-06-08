@@ -303,6 +303,7 @@
  NIK_the_interlude_desc:0 "잠시 동안이지만 마침내 상황이 다시 진정된 것 같습니다. 음모를 꾸미는 자들은 대중의 눈을 피해 후퇴했습니다. 어둠 속에서 계속 음모를 꾸밀 수 있도록 말이죠. 거리는 평온해졌고, 입법 회기는 점점 덜 혼란스러워지고 있습니다.\n\n하지만, 이런 고요함에는 이유가 있습니다. 곧, 민주주의는 코미 공화국 전역의 선거에서 다시 한번 시험받게 될 것입니다. 그들의 지도자가 지금 권력을 잡기를 원하는 모든 파벌들은 대중의 지지와 지역에 대한 준군사조직의 통제를 계산하면서 계획을 세우고 통합하고있습니다. 운동의 시간이 끝났습니다. 전략 수립의 시간이 시작되었습니다."
  
  #Second Tree
+ NIK_interlude:0 "$NIK_the_1963_assembly$"
  NIK_the_1963_assembly:0 "연합 협상"
  NIK_the_1963_assembly_tt:0 "우리는 1963년 선거를 위하여 §Y공식 후보자를 선택할 것입니다.§!"
  NIK_election_day_preparations:0 "선거일 준비"
@@ -408,6 +409,7 @@
  NIK_unstable_victory_komi_is_strong_and_stable_desc:0 "Throngs of suspected fascist or communist sympathizers are being marched to various secure prisons around the city. Shock and dismay cloud the eyes of the defeated paramilitaries, woken in the middle of the night by the toothless coalition government and its soldiers.\n\nThe minority government has somehow succeeded in its mission to crush the far right and far left! Some might worry that the city's democracy will forever be stained by the violent crackdown. These men and women simply fail to see that for the first time since its foundation, Komi's republic is now strong and stable! No longer shall violence intimidate politicians of the nation!"
  
  #Democratic Expansion
+ NIK_democratic_expansion:0 "$NIK_demexpansion_the_republic_saved$"
  NIK_demexpansion_the_republic_saved:0 "구원받은 공화국"
  NIK_demexpansion_assemble_the_armories:0 "Assemble the Armories"
  NIK_demexpansion_infrastructure_programs:0 "산업기반 프로그램"
@@ -1295,6 +1297,10 @@
  NIK_komi_intro_event:0 "코미 공화국의 상황"
 
  ### Tooltips ###
+ NIK_COMMUNIST_PEACE_VOL:0 "§GVologda has agreed to peacefully integrate.§!"
+ NIK_COMMUNIST_WAR_VOL:0 "§VVologda has rejected our offers for peace.§!"
+ WRRF_WILL_MERGE:0 "has agreed to have integration talks with us."
+ WRRF_WILL_MERGE_tt:0 "The §YWest Russian Revolutionary Front§! has §Vrejected§! our offers for integration talks."
 
  can_unify_west_russia_tt:0 "우리는 §Y서러시아§!를 모두 확보했고, 우리의 국경을 안전하게 만들었습니다."
 
@@ -1422,6 +1428,11 @@
  NIK_democratic_call_for_investment_tt:0 "Foreign countries will be invited to make §Yinvestments§! in our state."
  NIK_democratic_appeal_for_recognition_tt:0 "We will appeal to the anti-Nazi Western powers for §Yformal diplomatic recognition§! as the legitimate Russian government."
  NIK_democratic_the_last_democracies_of_europe_tt:0 "We shall §Ymake formal contact§! with democratic European nations, in order to expand our diplomatic reach."
+ 
+ NIK_demexpansion_an_alliance_for_peace_tt:0 "We will form a §Gpact§! with §wVologda§!."
+ NIK_demexpansion_the_republic_alone_tt:0 "§wVologda§! has §Rrefused§! our offer for an alliance.\n§RWe stand alone.§!"
+ NIK_demexpansion_negotiate_with_vologda_tt:0 "Vologda has §Gaccepted§! §wannexation§!."
+ NIK_demexpansion_execute_plan_blue_tt:0 "Vologda has §Rdenied§! §wannexation§!."
 
  NIK_second_election_the_SMR_campaign_tt:0 "§MSMR§! popularity shall increase nationwide, as the party embarks on a new campaign.\n"
  NIK_second_election_the_DSNP_campaign_tt:0 "§PDSNP§! popularity shall increase nationwide, as the party embarks on a new campaign.\n"
@@ -1484,7 +1495,7 @@
  
  NIK_Stalina_Retired:0 "§g스베틀라나 스탈리나§!가 §Y정계에서 물러났습니다§!."
  NIK_Kosygin_Retired:0 "§M알렉세이 코시긴§!이 §Y정계에서 물러났습니다§!."
- NIK_Voznesensky_Retired:0 "§P[GetNIKSocDemLeader]§!가 §Y정계에서 물러났습니다§!."
+ NIK_Voznesensky_Retired:0 "§P니콜라이 보즈네센스키§!가 §Y정계에서 물러났습니다§!."
  NIK_Suslov_Retired:0 "§x미하일 수슬로프§!가 §Y정계에서 물러났습니다§!."
  NIK_Zhdanov_Retired:0 "§S안드레이 즈다노프§!가 §Y정계에서 물러났습니다§!."
  NIK_Bukharina_Retired:0 "§l스베틀라나 부하리나§!가 §Y정계에서 물러났습니다§!."
@@ -1495,7 +1506,7 @@
 
  NIK_Stalina_Dead:0 "§g스베틀라나 스탈리나§!가 §R사망했습니다§!."
  NIK_Kosygin_Dead:0 "§M알렉세이 코시긴§!이 §R사망했습니다§!."
- NIK_Voznesensky_Dead:0 "§P[GetNIKSocDemLeader]§!가 §R사망했습니다§!."
+ NIK_Voznesensky_Dead:0 "§P니콜라이 보즈네센스키§!가 §R사망했습니다§!."
  NIK_Suslov_Dead:0 "§x미하일 수슬로프§!가 §R사망했습니다§!."
  NIK_Zhdanov_Dead:0 "§S안드레이 즈다노프§!가 §R사망했습니다§!."
  NIK_Bukharina_Dead:0 "§l스베틀라나 부하리나§!가 §R사망했습니다§!."
@@ -1506,7 +1517,7 @@
 
  NIK_Stalina_Arrested:0 "§g스베틀라나 스탈리나§!가 §O투옥되었습니다§!."
  NIK_Kosygin_Arrested:0 "§M알렉세이 코시긴§!이 §O투옥되었습니다§!."
- NIK_Voznesensky_Arrested:0 "§P[GetNIKSocDemLeader]§!가 §O투옥되었습니다§!."
+ NIK_Voznesensky_Arrested:0 "§P니콜라이 보즈네센스키§!가 §O투옥되었습니다§!."
  NIK_Suslov_Arrested:0 "§x미하일 수슬로프§!가 §O투옥되었습니다§!."
  NIK_Zhdanov_Arrested:0 "§S안드레이 즈다노프§!가 §O투옥되었습니다§!."
  NIK_Bukharina_Arrested:0 "§l스베틀라나 부하리나§!가 §O투옥되었습니다§!."
@@ -1515,7 +1526,6 @@
  NIK_Serov_Arrested:0 "§r이반 세로프§!가 §O투옥되었습니다§!."
  NIK_Taboritsky_Arrested:0 "§j세르게이 타보리츠키§!가 §O투옥되었습니다§!."
  
-
  ### Scripted Loc ###
  NIK_Left_Leading:0 "§R좌파§!"
  NIK_Center_Leading:0 "§B중도파§!"
