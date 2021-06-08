@@ -314,7 +314,7 @@ BRA_lott_act_passed_flag: "The §YLott Act§! has been §GApproved§! by the §Y
  BRA_usa_CIA_ties: "CIA Connections"
 
  ## Events
- brazil.1.t: "The Lobster War"
+ brazil.1.t: "바닷가재 전쟁"
  brazil.1.desc: "Lott was sat reading the latest documents that covered his desk. New reports of piracy and illegal fishing just off the coast of Pernambuco had been reported to the government. Their main ports of origin, the German colony of Zentralafrika, and the numerous West African states. Lott coughed before saying "This is a matter of national security, we have to stop this 'Lobster War' immediately."\n\nAcross his desk sat Odílio Denys, his War Minister, who was smoking a big cigar, and whose face had grown angrier as the meeting went on and the numerous reports of the breach of Brazilian waters had been discussed. Right next to him was Admiral Arnoldo Toscano, the man who was dealing with these threats in the north. Toscano looked exhausted, with dark circles under his eyes. Notably Vice President Quadros was not there, Lott having decided not to invite him to this meeting.\n\n"I have been trying to stop it." Arnoldo Toscano said, "I have already directed for two destroyers to confront the pirates and fishermen, but this latest resurgence is more widespread than we had thought initially."\n\nOdílio chuckled at that and muttered under his breath "The might of the Brazilian Navy can not defeat a few pirates, unbelievable." Lott gave Odílio a quick but stern glance and did not say anything in response.\n\nArnoldo continued, undisturbed by Odílio's comments, "Pirates continue to harass our fishermen and attack tourist boats. It was only a few months ago when the wealthy Japanese couple had been taken hostage by pirates while out whale watching. This has only emboldened further pirates to harass our waters, there are simply too many for just two destroyers to deal with. Meanwhile, subsistence fishermen from West Africa and large commercial fishing ships from Zentralafrika continue to illegally enter our waters to take large amounts of fish, the Zentralafrikan ships mainly for our prized lobsters. As I have stated two destroyers are simply not enough, I am requesting a larger task force to stop this threat once and for all."\n\nLott remained quiet, thinking about all the possible courses of action and what may happen depending on his choice. After about ten seconds, Lott spoke."
  brazil.1.a: ""Arnoldo, you will have your task force.""
  BRA_lobster_war_1_tt: "§wOur choices will have consequences.§!"
@@ -1994,9 +1994,9 @@ BRA_lacerda.14.a: "This self-talk only somewhat helped."
  # UNUSED, kind of long
  BRA_military_category_description: "The military is [BRA_military_loyalty_level] and [BRA_military_nepotism_level]"
  
- BRA_military_loyalty_title_good: "§GLOYALTY§!"
- BRA_military_loyalty_title_bad: "§RLOYALTY§!"
- BRA_military_nepotism_title: "§YNEPOTISM§!"
+ BRA_military_loyalty_title_good: "§G충성도§!"
+ BRA_military_loyalty_title_bad: "§R충성도§!"
+ BRA_military_nepotism_title: "§Y족벌주의§!"
 
  BRA_military_loyalty_tt: "The military is [BRA_military_loyalty_level]." 
  BRA_military_loyalty_tt_delay: "Ever since the military coup which bore Brazil's Fourth Republic, the nation's armed forces have played an outsized role in its politics. The Lott administration has managed to appease the military's top brass, but if the political situation grows dire a §Rdisloyal§! military may choose to §Rintervene§!."
@@ -2215,7 +2215,7 @@ BRA_lacerda.14.a: "This self-talk only somewhat helped."
  BRA_lacerda_sub_govt_torch_tt: "§YSubtract Support§!\n--------------\n§YLeft Click:§! Subtract 1 £BRA_govt_support §IGovernment Support§!"
 
  ## Hundred Days Mechanic
- BRA_hundred_days_category: "The Hundred Days Crisis"
+ BRA_hundred_days_category: "백일 위기"
  BRA_hundred_days_info_tt: "The §YHundred Days Crisis§! will only be resolved once one of the four contenders reaches §G50%§! support, becoming interim president.\n\nThe military's threat of §Rintervention§! dangles over the Senado, a Sword of Damocles ready to strike if the 100 day period elapses or the political situation grows too §Runstable§!.\n\nTotal Support:\n§YKubitschek§! has §Y[?BRA_hd_kubitschek_support|1]%§! support.\n§VGoulart§! has §Y[?BRA_hd_goulart_support|1]%§! support.\n§QLacerda§! has §Y[?BRA_hd_lacerda_support|1]%§! support.\n§hAdhemar§! has §Y[?BRA_hd_adhemar_support|1]%§! support."
 
  BRA_hd_kubitschek_name: "§YJuscelino Kubitschek§!"
@@ -2498,9 +2498,9 @@ BRA_lacerda.14.a: "This self-talk only somewhat helped."
  BRA_rally_effect_dynamic_text_equal: "[?min_num_senators]"
 
  ## Lott-Quadros Mechanic
- BRA_lottquadros_category: "Lott-Quadros Power Struggle"
+ BRA_lottquadros_category: "로트-쿠아드루스 권력 투쟁"
  # BRA_lottquadros_category_description: "Following the 1960 Presidential elections, the office of President and Vice-President were held by two differing tickets. The President's office held by §KTeixeira Lott§!, supported by the §YPSD§! and §VPTB§!. The Vice-President's is held by §QJânio Quadros§! supported by numerous right-wing, chiefly being the §QUDN§!, and other smaller parties. Their differences have caused tension between the two over the course of the term. While both have promised to work effectively with the other, what has instead developed is a power struggle between the two with both candidates wishing to push forward their agenda with what power they have. The power struggle over influence will continue, as long as the two continue to conflict over policies and their political and personal relationship change, for better or for worse."
- BRA_lottquadros_category_description: "The 1960 Presidential election left Brazil's executive divided between President §KTeixeira Lott§!, supported by the left-wing §YPSD§!-§VPTB§! coalition, and Vice President §QJânio Quadros§!, backed by the §QUDN§!. Both have publicly promised to work with the other, but behind closed doors, tensions are high and a power struggle is brewing. As Brazil navigates turbulent times, both have the opportunity to grow their §Yinfluence§!, but drastic moves may §Rtear their relationship apart§!."
+ BRA_lottquadros_category_description: "1960년 대통령 선거는 브라질 행정부를 좌익계 §YPSD§!-§VPTB§! 연합의 지지를 받은 대통령 §K테이셰이라 로트§와 §QUDN§!의 지지를 받은 부통령 §Q자니우 쿠아드루스§! 두 세력으로 분열시켰습니다. 양 측은 모두 공개적으로는 상대방과 협력하겠다고 약속했지만, 수면 아래에서는 양 측 간 긴장이 고조되어가며 권력 투쟁이 일어나고 있습니다. 브라질은 격동의 시기를 해처나가면서 양 측 모두 §Y영향력§!을 키울 기회를 가졌지만, 과격한 움직임은 §R둘 사이를 갈라놓을 수 있습니다.§"
  BRA_lottquadros_info_tt: "§KPresident Lott§! and §QVice President Quadros'§! relationship is unsteady, with both attempting to gain the upper hand and make their vision for Brazil a reality.\n\nWhile the decisions their administration makes may shift the §Ybalance of power§!, the §Ystrength of their relationship§! will affect how their government weathers a §Rpotential crisis§!."
 
  BRA_lottquadros_status_long: "[BRA_lottquadros_status]" #\n\n[?BRA.BRA_lottquadros_cooperation] [?BRA.BRA_lottquadros_lott_influence] [?BRA.BRA_lottquadros_quadros_influence] [?BRA.BRA_lottquadros_total_influence] [?BRA.BRA_lottquadros_display_value]
@@ -2516,8 +2516,8 @@ BRA_lacerda.14.a: "This self-talk only somewhat helped."
  BRA_lottquadros_bar_tooltip_lott_dominant: "§KPresident Lott§! is currently dominant."
  BRA_lottquadros_bar_tooltip_quadros_dominant: "§QVice President Quadros§! is currently dominant."
  BRA_lottquadros_bar_tooltip_balanced: "Executive power is currently §Ycontested§!."
- BRA_lottquadros_quadros_influence: "Quadros' Influence"
- BRA_lottquadros_lott_influence: "Lott's Influence"
+ BRA_lottquadros_quadros_influence: "쿠아드루스의 영향력"
+ BRA_lottquadros_lott_influence: "로트의 영향력"
 
  ## Lott-Quadros Decisions
  BRA_lottquadros_improve_relations: "[BRA_lottquadros_improve_relations_dyn_title]"
@@ -2751,7 +2751,7 @@ BRA_lacerda.14.a: "This self-talk only somewhat helped."
  BRA_senate_campaign_cooldown_inactive: ""
  BRA_senate_campaign_cooldown_active: "§VA campaign is currently active§!\n\n"
 
- BRA_senate_no_election: "§LNo active election§!"
+ BRA_senate_no_election: "§L진행중인 선거 없음§!"
  BRA_senate_campaign_date_text: "[BRA_senate_campaign_date_msg]"
 
  BRA_pres_campaign_date_text: "[BRA_prese_campaign_date_msg]"
