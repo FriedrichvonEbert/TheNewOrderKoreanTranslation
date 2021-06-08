@@ -4,25 +4,25 @@
  OFN.1.a:0 "우리는 승리를 위해 투표한다!"
  OFN.1.b:0 "우리 아들들이 아프리카에서 피를 흘리는 꼴을 보지 않을 거다!"
 
- OFN.2.t:0 "Increase Efforts in South Africa"
- OFN.2.desc:0 "The American officer stationed in Paramaribo handed over a request from the American Chief of Staff this morning. He wants us to send more men, as we neither see any oppertunity nor any reason to object we reply that we will send a division as soon as we can."
- OFN.2.a:0 "Yes, sir!"
+ OFN.2.t:0 "남아프리카에 노력하다"
+ OFN.2.desc:0 "파라마리보에 주둔하고 있는 미국인 장교가 오늘 아침 참모총장의 요청을 가지고 왔습니다. 그는 미국이 더 많은 인력을 보내길 준비하고 있으며 가능한 한 빨리 사단을 파견할 것이라고 말했습니다."
+ OFN.2.a:0 "옛썰!"
 
- OFN.3.t:0 "Support Staff to Africa"
+ OFN.3.t:0 "아프리카 지원 인력"
  OFN.3.desc:0 "Very far down south, there is a war going on. American General H. Howse has relayed a message that requests support staff to help with organizing hostipals and administrating logistics. Some volunteers have voiced their concerns with the temprature, afraid that they will not stand the heat. Anyways, the first group of men has already left Reykjavik, with destination Cape Town."
- OFN.3.a:0 "It's gonna be way too hot!"
+ OFN.3.a:0 "거긴 아마 무척이나 덥겠지!"
 
- OFN.8.t:0 "We Must Send Men to Africa"
+ OFN.8.t:0 "우리는 반드시 아프리카를 도와야한다"
  OFN.8.desc:0 "The war in South Africa is raging on, and the Americans have requested us to mobilize forces to defend the freedom and democracy of the South African people. With the state of the Federation, this is certainly not the optimal time to send out troops we could sue to enforce the peace. Demands are demands and we realize we have no choice in the matter, so today we have sent out telegrams to various stations to call out for volunteers."
- OFN.8.a:0 "Okay, then"
+ OFN.8.a:0 "그래"
 
  OFN.9.t:0 "캐나다는 반드시 돕는다!"
  OFN.9.desc:0 "Formerly fellow commonwealth member, South Africa, is being invaded by nazis! We should do what we can to help them, it is a long way from home, but when our Alliance calls upon us to rescue a nation from evil and tyranny, we must do what we can!"
- OFN.9.a:0 "Do our duty!"
+ OFN.9.a:0 "의무를 다해라!"
 
- OFN.10.t:0 "The Church Endorse the War Efforts"
+ OFN.10.t:0 "교회가 전쟁 지원을 지지하다"
  OFN.10.desc:0 "The past week several congregations have encouraged their members to sign up for military service. They stress the unchristian values that national socialists espouse, and stresses the need to save the christian people of the Cape land. South Africa is the lone democracy in Africa, and it is our christian duty to protect the freedom and root out the evil, for the glory of God."
- OFN.10.a:0 "Bless our soldiers"
+ OFN.10.a:0 "병사들에게 축복을"
 
  OFN.11.t:0 ""
  OFN.11.desc:0 ""
@@ -59,7 +59,7 @@
  OFN.19.b:0 "Yes, please"
 
 ####OFN Membership System
- OFN.membership.1.t:0 "[?USA.OFN_candidate.GetName] Wants to Join the OFN"
+ OFN.membership.1.t:0 "[?USA.OFN_candidate.GetName]이(가) OFN 가입을 원함"
  OFN.membership.1.desc:0 "After a period of negotiations [?USA.OFN_candidate.GetName] has officiallly asked to join the OFN. The US has already accepted their application and it's now up to us to vote on their membership."
  OFN.membership.1.desc_brittany_delaporte:0 "Brittany has sent a request to the United States, hoping to be allowed into the OFN. As per protocol, the United States has in turn sent all member nations the following question: Should Brittany be allowed membership in the OFN?"
  OFN.membership.1.desc_brittany_mordrel:0 "The Bretons are looking to join our alliance. Brittany holds major strategic importance, as they are located on mainland Europe, and can easily give safe harbor to naval units operating in the Atlantic. The largest threat to their existance is the Burgundian state, which is surely the reason they are looking for protection."
@@ -94,10 +94,10 @@
 #####Membership Decision category
  USA_OFN_membership_category:0 "OFN Expansion Negotiations"
  USA_OFN_membership_category_desc:0 "In order for a country to join the OFN unanimous consent is required from all current members. In theory this is meant to underscore the alliance being one of equals. In practice however the US has plenty of means for "convincing" dissenting members to change their votes.\n\nThe current candidate is: [?USA.OFN_candidate.GetNameWithFlag]\n\n[GetCanadaVote]\n[GetNewZeelandVote]\n[GetAustraliaVote]\n[GetBelizeVote]\n[GetSouthAfricaVote]\n[GetIberiaVote]\n[GetEnglandVote]\n[GetItalyVote]"
- OFN_open_negotiations_with:0 "Negotiate with [FROM.GetName]"
+ OFN_open_negotiations_with:0 "[FROM.GetName]와 거래"
  OFN_admit_member:0 "Admit [?USA.OFN_candidate.GetNameWithFlag] to the OFN"
  OFN_addition_timeout:0 "Ensure Support for the candidacy of [?USA.OFN_candidate.GetNameWithFlag]"
- OFN_grant_observer_status_iberia:0 "Grant Observer Status to Iberia"
+ OFN_grant_observer_status_iberia:0 "이베리아에 참관국 지위 부여"
 
  OFN_CAN_supports_member:0 "§G[CAN.GetName] supports their membership.\n§!"
  OFN_CAN_neutral_member:0 "§Y[CAN.GetName] seems open to their membership.\n§!"

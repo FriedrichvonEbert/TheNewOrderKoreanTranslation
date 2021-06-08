@@ -172,9 +172,9 @@
  USA_CIA_GER_BOR_turn_the_people:0 "We shall launch an operation to sway the German people to the side of the opposition.\n"
  USA_CIA_GER_BOR_turn_the_banks:0 "We shall launch an operation to sway the German banks to the side of the opposition.\n"
 
- USA_CIA_BRY_industrial_aid:0 "We shall try to make contact with the the Bukharinists in [BRY.GetName] and offer them industrial aid. By doing so we can both strengthen a potential future ally and increase the political influence of those most favorable to us.\n"
+ USA_CIA_BRY_industrial_aid:0 "We shall try to make contact with the Bukharinists in [BRY.GetName] and offer them industrial aid. By doing so we can both strengthen a potential future ally and increase the political influence of those most favorable to us.\n"
  USA_CIA_BRY_political_aid:0 "We shall launch an operation to provide the Bukharinists in [BRY.GetName] with political aid.\n"
- USA_CIA_IRK_industrial_aid:0 "We shall try to make contact with the the old guard faction in [IRK.GetName] and offer them industrial aid. By doing so we can both strengthen a potential future ally and increase the political influence of those most favorable to us.\n"
+ USA_CIA_IRK_industrial_aid:0 "We shall try to make contact with the old guard faction in [IRK.GetName] and offer them industrial aid. By doing so we can both strengthen a potential future ally and increase the political influence of those most favorable to us.\n"
  USA_CIA_IRK_political_aid:0 "We shall launch an operation to provide the old guard faction in [IRK.GetName] with political aid.\n"
 
 
@@ -182,13 +182,13 @@
  USA_CIA_bor_infrastructure_sabotage:0 "The minimum investment required to maintain the §YGrossraum§! will §Rincrease.§!\n"
 
  USA_nixon_cia:0 "CIA"
- USA_nixon_cia_desc:0 "The CIA has drawn up a few plans to work against the influence of Germany and Japan. These plans include cooperating with the Truimvirate as a counterweight to German influence in Europe, as well as supporting various rebel groups in the Japanese sphere to undermine Japanese control."
- USA_CIA_Allign_Iberia_Towards_Franco:0 "Allign Iberian Politics Towards Franco"
- USA_CIA_Allign_Iberia_Towards_Salazar:0 "Allign Iberian Politics Towards Salazar"
+ USA_nixon_cia_desc:0 "CIA는 독일과 일본의 영향력에 대항하기 위해 몇 가지 계획을 수립했습니다. 이 계획에는 트리움비라투스와 협력하는 것은 물론 일본의 지배력을 약화시키기 위해 일본 공영권 내에 있는 다양한 저항단체를 지원하는 계획이 포함되어 있습니다."
+ USA_CIA_Allign_Iberia_Towards_Franco:0 "이베리아 정계에 프랑코 지지"
+ USA_CIA_Allign_Iberia_Towards_Salazar:0 "이베리아 정계에 살라자르 지지"
  USA_CIA_Iberia_AAS_Resources:0 "Contribute to the Iberian AAS"
  USA_CIA_Iberia_Strike_At_Iberian_Terrorism:0 "이베리아 테러리스트 공격"
  USA_CIA_Fund_Gibralter_Dam:0 "지브롤터 댐에 자금 지원"
- USA_CIA_Add_Reform_Iberia:0 "Rally Reformists in the Iberian Council"
+ USA_CIA_Add_Reform_Iberia:0 "이베리아 평의회에 개혁파 단결 지원"
  USA_CIA_Add_Stabilize_Iberia:0 "이베리아 안정화"
  USA_CIA_Back_Iberian_Wars:0 "Supply Parties in the Iberian Wars"
 
@@ -244,25 +244,25 @@
  USA_CIA_au_status:0 "[GetCIAAUStatus]"
  USA_CIA_au_status_tooltip:0 "Regional Obfuscation: §Y[?USA_CIA_Oceania_Encryption]§!\n"
 
- USA_CIA_region_locked:0 "§RLOCKED§!"
+ USA_CIA_region_locked:0 "§R잠김§!"
 
- USA_CIA_decryption_info:0 "The higher our analysis capability the more we will be able to counteract regional obfuscation."
+ USA_CIA_decryption_info:0 "우리의 분석 능령이 높을수록 우리는 더 많은 지역의 혼란상에 대응할 수 있습니다."
 
- USA_CIA_expertise_info:0 "Expertise is used to train agents and research advanced technollogies. It also provides bonuses to missions. Expertise is gained by successfullly completing missions and lost after failures."
+ USA_CIA_expertise_info:0 "전문성은 요원을 교육하고 고급 기술을 연구하는 데 사용됩니다. 임무에 보너스를 줄 수도 있습니다. 전문성은 임무를 성공적으로 완수할 경우 얻을 수 있으며, 임무에 실패할 경우 잃습니다."
 
  USA_CIA_agent_info:0 "Agents are needed to conduct operations. They can be trained in exchange for expert
- CIA_tech_1_tt_delayed:0 "Aerial reconnaissance is expensive, prone to interception and requires hundreds of man-hours in planning. In contrast, pigeons come in flocks, blend with any environment and easily follow a trained handler's orders. A miniature camera with a timed delay, strapped onto a carrier pigeon with a flight path, will deliver overhead photographs of higher fidelity than any U2's - and at a fraction of its cost, to boot."
- CIA_tech_1_tt:0 "§GAnalysis Capability§!: §Y+1§!\n§GMission Success Chance§!: §Y+2%§!\nCost:\n§w$100 Million§!\n§Y50§! §SExpertise§!\n"
- CIA_tech_2_tt_delayed:0 "A "belly buster" is an informal term for the Company's standard issue hand-powered drill. As the name suggests, the drill is operated by turning its crank while its bit is pressed firmly against a surface by the user's stomach. An experienced operator can bore holes onto wood and masonry by their lonesome, preparing the unsuspecting adjacent room for a listening device's rapt attention."
- CIA_tech_2_tt:0 "§GAnalysis Capability§!: §Y+2§!\n§GPolitical Power Growth§!: §Y+1.5%§!\nCost:\n§w$50 Million§!\n§Y50§! §SExpertise§!"
- CIA_tech_3_tt_delayed:0 "Progress may introduce new methods and equipment to the age-old art of espionage, but equally old 'tricks of the light' still find use within a Company operative's repertoire. Taking the expression more literally are specially designed mirrors which unveil text and imagery when viewed at a certain angle. Such devices allow agents to access information stored without drawing eyes; the fair lady may just be inspecting her makeup, or the vain man his insufferable mug."
- CIA_tech_3_tt:0 "§GOperative Escape Chance§!: §Y+5%§!\n§GMission Success Chance§!: §Y+1%§!\nCost:\n§w$50 Million§!\n§Y50§! §SExpertise§!"
+ CIA_tech_1_tt_delayed:0 "항공 정찰은 비용이 많이 들고, 요격당하기 쉬우며, 계획 수립에 수백 인시의 인력이 필요합니다. 이와는 다르게 비둘기는 떼지어 몰려들고 어느 환경에서나 어색하지 않으며 훈련된 조련사의 명령을 쉽게 따릅니다. 지연 시간을 계산해 둔 소형 카메라를 단, 정해진 경로를 날아가게 만든 비둘기를 날려보내면 U2보다 높은 해상도를 가지면서도 매우 적은 비용을 들인 상공 사진을 얻을 수 있을 것입니다."
+ CIA_tech_1_tt:0 "§G분석 능력§!: §Y+1§!\n§G임무 성공 확률§!: §Y+2%§!\n비용:\n§w$1억 달러§!\n§Y50§! §S전문성§!\n"
+ CIA_tech_2_tt_delayed:0 ""벨리 버스터"는 회사가 표준으로 보급하는 수동식 드릴을 의미하는 별칭입니다. 이름에서 알 수 있듯이 드릴은 사용자의 배로 드릴을 표면에 움직이지 않게 단단히 고정시킨 후 크랭크를 돌리면 작동됩니다. 숙련된 작업자는 혼자서 나무와 돌에 구멍을 뚫을 수 있으며, 청음 장치의 주의를 완전히 다른 곳으로 끌기 위해 의심받지 않는 인접 공간을 준비할 수 있습니다."
+ CIA_tech_2_tt:0 "§G분석 능력§!: §Y+2§!\n§G정치력 증가율§!: §Y+1.5%§!\n비용:\n§w$5천만 달러§!\n§Y50§! §S전문성§!"
+ CIA_tech_3_tt_delayed:0 "오래된 스파이 기술에 새로운 방법과 장비를 동원해 기술이 진보하기도 하지만, 오래된 "빛을 이용한 속임수"는 딱히 변함없이 여전히 회사 직원들이 계속해서 잘 사용하고 있습니다. 문자 그대로 이 물건을 소개하자면 특정 각도에서 바라보면 숨겨진 문자와 그림이 나타나는 특수 설계된 거울입니다. 이러한 장비들은 요원이 눈길을 끌지 않고 미리 기록한 정보를 볼 수 있게 만들 수 있습니다. 아름다운 여성의 경우에는 얼굴 메이크업을 확인하는 것처럼 보일 것이고, 허영심 많은 신사는 낯짝이 어떤지 참을 수 없어 보는 것일 수도 있겠죠."
+ CIA_tech_3_tt:0 "§G요원 탈출 기회§!: §Y+5%§!\n§G임무 성공 기회§!: §Y+1%§!\n비용:\n§w$5천만 달러§!\n§Y50§! §S전문성§!"
  CIA_tech_4_tt_delayed:0 "매년 살아있는 사람들보다 더 많은 양의 담배가 팔립니다. 문명화되지 않은 변방이나, 전쟁으로 황폐화된 지옥구덩이나, 금연 구역이 아니라면 남자가 주머니에 럭키 스트라이크 한 갑을 넣고 다닌다고 뭐라 할 사람은 없을 것입니다. 우리 요원들은 담배갑에 소형 카메라를 장착해 이런 무죄 추정의 원칙을 이용합니다. 안에 든 구름과자는 흥정이나 뇌물 같은 더 좋은 용도에 쓰입니다."
- CIA_tech_4_tt:0 "§GAnalysis Capability§!: §Y+1§!\n§GMission Success Chance§!: §Y+2%§!\n§GAgency Research Speed§!: §Y+2%§!\nCost:\n§w$150 Million§!\n§Y50§! §SExpertise§!"
- CIA_tech_5_tt_delayed:0 "A map, a compass and the Mk.1 Eyeball are all an agent needs to travel far, both literally and figuratively. But space is a luxury behind enemy lines; there a compass's metal bulk may mean the difference between relative health and malarial sickness. Small enough to fit a buttonhole, miniature compasses solve this dilemma handily."
- CIA_tech_5_tt:0 "§GOperative Escape Chance§!: §Y+2%§!\n§GMission Success Chance§!: §Y+2%§!\nCost:\n§w$50 Million§!\n§Y50§! §SExpertise§!"
+ CIA_tech_4_tt:0 "§G분석 능력§!: §Y+1§!\n§G임무 성공 확률§!: §Y+2%§!\n§G기관 연구 속도§!: §Y+2%§!\n비용:\n§w$1억 오천만 달러§!\n§Y50§! §S전문성§!"
+ CIA_tech_5_tt_delayed:0 "지도, 나침반, 자신의 눈알은 말 그대로나 비유적으로나 요원이 멀리 여행하기 위해서 반드시 필요한 것입니다. But space is a luxury behind enemy lines; there a compass's metal bulk may mean the difference between relative health and malarial sickness. Small enough to fit a buttonhole, miniature compasses solve this dilemma handily."
+ CIA_tech_5_tt:0 "§G요원 탈출 기회§!: §Y+2%§!\n§G임무 성공 기회§!: §Y+2%§!\n비용:\n§w$5천만 달러§!\n§Y50§! §S전문성§!"
  CIA_tech_6_tt_delayed:0 "Operatives disguised as gentlemen of high breeding often encounter difficulties receiving instructions in social gatherings, where listeners are plentiful and suspicions easily raised. They shall look no further for remedies than radios specially designed to resemble a pipe cigar's narrow stem. These ingenious devices deliver sound vibrations from the mandible to the ear canal - hardly an act worth scrutinizing amidst the haze of song and dance."
- CIA_tech_6_tt:0 "§GMission Success Chance§!: §Y+2%§!\n§GAgency Research Speed§!: §Y+1%§!\n§GReduces Expertise loss from failed missions§!\nCost:\n§w$100 Million§!\n§Y50§! §SExpertise§!"
+ CIA_tech_6_tt:0 "§G임무 성공 확률§!: §Y+2%§!\n§G기관 연구 속도§!: §Y+1%§!\n§G실패한 임무로 인한 전문성 손실량 감소§!\n비용:\n§w$1억 달러§!\n§Y50§! §S전문성§!"
  CIA_tech_7_tt_delayed:0 "One man leaves behind his rubbish, and another comes to pick it up: this is the operating principle behind the dead man's drop, among the oldest techniques known to tradecraft. With the prevalence of film as a storage medium, modern spies now insert camera rolls into small, innocuous, waterproof spikes for their contacts to retrieve at an agreed-upon date and location."
  CIA_tech_7_tt:0 "§GIncreased obfuscation reduction from successfull missions§!\n§GReduces Expertise loss from failed missions§!\nCost:\n§w$50 Million§!\n§Y50§! §SExpertise§!"
  CIA_tech_8_tt_delayed:0 "As the decades have proved, gentlemen do, in fact, read each other's mail. More than a few take the extra step and read each other's lips. The Company deflects nosy busybodies with suspiciously ample free time on their hands with ultrasonic motion sensors; should their invisible pulse catch intruders unaware, gentlemen will know to swap sensitive conversations with the most idling chatter."
@@ -270,7 +270,7 @@
  CIA_tech_9_tt_delayed:0 "The CIA owes its extensive global reach in large part to native groups resisting Germany and Japan's pernicious grip. Such cooperation, however, entails frequent communication with contacts barely capable of speaking or writing English. To assist them in identifying enemy assets, our technicians have devised a contraption depicting vehicles' silhouettes adjacent to knob-adjustable numbers. Operators on the ground or on plane would then receive these counters' output as bursts of radio signal."
  CIA_tech_9_tt:0 "§GAnalysis Capability§!: §Y+2§!\n§GArmy Reconnaissance§!: §Y+0.1§!\n§GDaily Compliance Gain§!: §Y+0.010%§!\nCost:\n§w$100 Million§!\n§Y50§! §SExpertise§!"
  CIA_tech_10_tt_delayed:0 "For anyone else, it is a 1921 silver dollar, with Lady Liberty's smiling bust plastered on sheen 90% pure and an inch and half wide.\n\nFor the Company, it is a state secret bought a dollar per. Inflation, am I right?"
- CIA_tech_10_tt:0 "§GMission Success Chance§!: §Y+2%§!\n§GIncreased effectiveness at obscuring rival operations§!\n§GIncrease Expertise gain from successfull missions§!\nCost:\n§w$50 Million§!\n§Y50§! §SExpertise§!"
+ CIA_tech_10_tt:0 "§G임무 성공 확률§!: §Y+2%§!\n§GIncreased effectiveness at obscuring rival operations§!\n§GIncrease Expertise gain from successfull missions§!\nCost:\n§w$50 Million§!\n§Y50§! §SExpertise§!"
 
  CIA_tech_1:0 "비둘기 카메라"
  CIA_tech_2:0 "벨리 버스터"
@@ -279,8 +279,8 @@
  CIA_tech_5:0 "소형 나침반"
  CIA_tech_6:0 "파이프 무전기"
  CIA_tech_7:0 "필름 말뚝"
- CIA_tech_8:0 "감지기"
- CIA_tech_9:0 "Pictogram Counter"
+ CIA_tech_8:0 "동작 감지기"
+ CIA_tech_9:0 "그림 카운터"
  CIA_tech_10:0 "속이 빈 동전"
 
  USA_CIA_research_progress:0 "Research is §Y[?USA_CIA_research_progress_percentage|%]§! towards being complete."
@@ -299,13 +299,13 @@
  USA_speer_send_weapons:0 "무기 밀수"
  USA_speer_support_internationally:0 "고문단 은닉"
  USA_speer_send_fighters:0 "제트기 운송"
- USA_speer_progressive_support:0 "Secure Progressive Support for Speer"
- USA_speer_hawk_support:0 "Secure Hawk Support for Speer"
+ USA_speer_progressive_support:0 "슈페어의 진보적 지지 확보"
+ USA_speer_hawk_support:0 "슈페어에게 호크 지원 확보"
  USA_CIA_start_selling_equipment_saf:0 "남아프리카에 총기 판매"
  USA_CIA_give_guns_to_fen:0 "잉글랜드 무기 밀수"
- USA_Supportin_Speer:0 "We must not already be supporting our favored contender."
+ USA_Supportin_Speer:0 "미리 우리가 선호중인 경쟁자를 지지하면 안됩니다."
 
- USA_aid_triumvirate_category:0 "Aid the Triumvirate"
+ USA_aid_triumvirate_category:0 "트리움비라투스 지원"
  USA_aid_triumvirate_category_desc:0 "Fill this out"
  USA_look_into_italy:0 "Look into Italy"
  USA_look_into_italy_desc:0 "Fill this out"
@@ -356,7 +356,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 ###################
 
  USA_CIA_mess_with_irish_politics:0 "아일랜드 정계 민주주의화"
- USA_CIA_mess_with_irish_politics_desc:0 "The Republic of Ireland isn't very republic-like. While Fianna Fáil, the leading party there, is not necessarily the most democraticly minded, they are unfortunately the most democratic in Ireland, authoritarian parties with ties to the German Reich is on the rise. If they come to hold power, that development would be largely in our disfavor, and we should do what we can to prevent it."
+ USA_CIA_mess_with_irish_politics_desc:0 "아일랜드 공화국은 그리 공화국이라 부를 수 없습니다. 아일랜드의 여당인 피어너 팔은 객관적으로 그리 민주적이진 않지만 불행하게도 아일랜드 내에서는 가장 민주적인 정당이며 독일국의 지원을 받는 권위주의적 정당의 지지도가 오르고 있습니다. 만일 그들이 권력을 장악하게 된다면 상황이 우리에게 크게 불리해질 것이며 우리는 그 일을 막기 위해 할 수 있는 최대한 모든 것을 해야 합니다."
 
  USA_CIA_IRELAND_1_tt:0 "아일랜드의 친OFN 성향 정치인들에게 자금을 지원하며 파시스트 정당 내의 불화의 씨를 뿌립니다."
 
@@ -391,7 +391,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_THATCHER_ELI_1_tt:0 "외교관과 경제학자들을 파견하여 잉글랜드의 충성당과 엘리트 모두에게 대처의 경제정책을 지지하도록 합니다."
 
  USA_CIA_contact_the_norwegian_resistance:0 "노르웨이 저항세력 접촉"
- USA_CIA_contact_the_norwegian_resistance_desc:0 "On the edge of the German Reich lies Norway. A long, sparsely populated country: occupied by the Reich. There the Germans have set up a Reichskommissariat, and is keeping the Norwegian people in check. But the Norwegians are resilient, they keep on fighting. While the people most connected to the active resistance in Norway live in Canada, nothing prevents us from establishing similar networks. The Swedes have been running an arms and pipeline funding to the Norwegian partisans for years. We could use this connection to destabilize one of the Reich's tendrils.'For Konge og Fedreland' as they say over there."
+ USA_CIA_contact_the_norwegian_resistance_desc:0 "독일국의 가장자리에 노르웨이가 있습니다. 남북으로 길쭉하며 인구가 별로 없는 이 나라는 독일국이 점령한 상태입니다. 이 곳에 독일국은 국가판무관부를 세우고 노르웨이 국민을 감시하고 있습니다. 하지만 노르웨이인들은 끈질기게 저항을 계속하고 있습니다. 노르웨이의 적극적인 저항세력과 가장 긴밀한 사람들은 캐나다에 살고 있지만 우리가 비슷한 인적 네트워크를 구축하는 데 방해하는 것은 아무것도 없습니다. 스웨덴은 수년 간 노르웨이 저항세력에 무기와 돈줄을 대주는 창구를 운용했습니다. 우리는 이 연결고리를 이용해 라이히의 덩굴들을 불안정하게 만들 수 있습니다. 그들이 말하는 '국왕과 조국을 위해'서와 같이 말이죠."
  USA_CIA_NORWAY_1_tt:0 "저항 세력은 필요하다면 쿠데타를 일으킬 준비를 더욱 해놓을 것입니다."
 
 # ENG vs FEN

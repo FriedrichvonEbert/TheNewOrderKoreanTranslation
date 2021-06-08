@@ -1,0 +1,93 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ENG_GUI_MILMAN_CONTAINER"
+		size = { width = 525 height = 450 }
+		position = { x = 0 y = 0 }
+		
+		
+		containerWindowType = {  ##exists solely to make centering slightly easier
+			name = "ENG_GUI_MILMAN"
+			size = { width = 452 height = 240 }
+			position = { x = 25 y = 0 }
+			
+			
+			iconType = {
+				name = "ENG_MIL_LOY_PROGBAR"
+				spriteType = "GFX_ENG_MILMAN_PROGBAR"
+				position = { x = 2 y = 47 }
+			}
+			iconType = {
+				name = "ENG_MIL_LOY_PROGBAR_FRAME"
+				spriteType = "GFX_ENG_MILMAN_PROGBAR_FRAME"
+				position = { x = 0 y = 46 }
+				pdx_tooltip = ENG_DECCAT_MILMAN_LOY_tt
+			}
+			iconType = {
+				name = "ENG_MIL_EFF_PROGBAR"
+				spriteType = "GFX_ENG_MILMAN_PROGBAR"
+				position = { x = 2 y = 177 }
+			}
+			iconType = {
+				name = "ENG_MIL_EFF_PROGBAR_FRAME"
+				spriteType = "GFX_ENG_MILMAN_PROGBAR_FRAME"
+				position = { x = 0 y = 176 }
+				pdx_tooltip = ENG_DECCAT_MILMAN_EFF_tt
+			}
+		
+			instantTextBoxType = {
+				name = "ENG_GUI_MILMAN_LOY_HEADER"
+				maxWidth = 452
+				maxHeight = 36
+				format = center
+				orientation = upper_left
+				font = "aldrich_36_outline"
+				alwaystransparent = yes
+				text = "충성도"
+			}
+			instantTextBoxType = {
+				name = "ENG_GUI_MILMAN_EFF_HEADER"
+				position = { x = 0 y = 130 }
+				maxWidth = 452
+				maxHeight = 36
+				format = center
+				orientation = upper_left
+				font = "aldrich_36_outline"
+				alwaystransparent = yes
+				text = "능률"
+			}
+			instantTextBoxType = {
+				name = "ENG_GUI_MILMAN_LOY_TXT"
+				position = { x = 0 y = 88 }
+				maxWidth = 452
+				maxHeight = 24
+				format = center
+				orientation = upper_left
+				font = "aldrich_24_outline"
+				alwaystransparent = yes
+				text = "OUR HIGH COMMAND IS: [ENG_MILMAN_LOY_TXT]"
+			}
+			instantTextBoxType = {
+				name = "ENG_GUI_MILMAN_EFF_TXT"
+				position = { x = 0 y = 218 }
+				maxWidth = 452
+				maxHeight = 24
+				format = center
+				orientation = upper_left
+				font = "aldrich_24_outline"
+				alwaystransparent = yes
+				text = "OUR HIGH COMMAND IS: [ENG_MILMAN_EFF_TXT]"
+			}
+			instantTextBoxType = {
+				name = "ENG_GUI_MILMAN_FX_EXPLANATION"
+				position = { x = 0 y = 263 }
+				maxWidth = 452
+				maxHeight = 24
+				format = left
+				orientation = upper_left
+				font = "aldrich_20_outline"
+				alwaystransparent = yes
+				text = ENG_MILMAN_FX_EXPLANATION
+			}
+		}
+	}
+}
