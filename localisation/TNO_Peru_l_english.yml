@@ -1,1 +1,99 @@
-﻿
+﻿l_english:
+  #################################
+  ### Peruvian Political Parties ##
+  #################################
+  PRU_communist_party: "PCP"
+  PRU_communist_party_long: "Partido Comunista Peruano"
+  PRU_social_democrat_party: "APN"
+  PRU_social_democrat_party_long: "Alianza para el Pueblo y la Nación"
+  PRU_social_liberal_party: "AP - DC (Ap)"
+  PRU_social_liberal_party_long: "Accion Popular - Democracia Cristiana (Accionpopulistas)"
+  PRU_social_conservative_party: "ACDN (MDP)"
+  PRU_social_conservative_party_long: "Alianza Conservadora Democratica Nacional (Movimiento Democratico Peruano)"
+  PRU_authoritarian_democrat_party: "UNO (O)"
+  PRU_authoritarian_democrat_party_long: "Union Nacional Odriísta (Odriistas)"
+  PRU_despotism_party: "FF.AA."
+  PRU_despotism_party_long: "Fuerzas Armadas del Peru"
+  PRU_fascism_party: "PRN"
+  PRU_fascism_party_long: "Partido Revolucionario Nacional" 
+
+
+  ##############################
+  ##### Ministers of Peru ######
+  ##############################
+  PRU_Carlos_Moreyra_hog: "Carlos Moreyra y Paz Soldan"
+  PRU_Alvarado_Garrido_pol: "Luis Alvarado Garrido"
+  PRU_Gallo_Porras_eco: "Luis Gallo Porras"
+  PRU_Ricardo_Elias_sec: "Ricardo Elías Aparicio"
+
+  ##### Ministers Description ######
+  PRU_Carlos_Moreyra_hog_desc: "------------\n§LBorn in 1898, Moreyra is an engineer and politician. He served under Prado as Minister of Development and Public Works, where he disagreed with Prado’s policy of playing both sides during WW2. Postwar, he worked in the Agrarian National Society until Prado’s return to Peru in 1956. As keeping the door open for Japan lost Prado support from the landowners, Moreyra convinced him to join the ACDN, and became Prado’s second vice president. After Beltran criticized Prado’s government, Moreyra mediated, and Beltran became Minister of Economics and President of the Council of Ministers, or Premier. Following Beltran’s resignation, Moreyra took over as Premier, and remains a close friend of Prado.§!"
+  PRU_Alvarado_Garrido_pol_desc: "------------\n§LBorn in 1907, Alvarado Garrido has been a lawyer and diplomat for a record 40 years, teaching in the UNMSM and PUCP as a professor, and served as ambassador to Bolivia in the 1950s. His long and stellar career has impressed Prado, who appointed him Minister of Foreign Affairs in 1960. Alvarado is tasked with dealing with the Ecuadorians, and keeping good relations with the US and Japan.§!"  
+  PRU_Gallo_Porras_eco_desc: "------------\n§LBorn in 1894, Gallo Porras is one of Peru’s most outstanding politicians. His post as mayor of Miraflores and Lima during the 1930s gave him invaluable experience. He joined the ACDN in 1955, and was Prado’s running mate in the 1957 elections. After Beltran resigned as Minister of Economy and Finance, Gallo took his place, and continues to be one of Prado’s closest friends in these trying times.§!"
+  PRU_Ricardo_Elias_sec_desc: "------------\n§LBorn in 1906, Elías Aparicio is an experienced lawyer. Commissioned by the Benavides government in 1938 to investigate Germany and Italy’s penal systems, Elías became interested in Peru’s own penal system. This led him to later work for the military and police. Appointed Minister of Security by Prado in 1960, Elías is presently worried about the ominous silence in the north, and sporadic terrorism in the countryside.§!"
+
+  #### Ministers Traits #####
+  PRU_head_pcm: "President of the Council of Ministers"
+  PRU_head_minex: "Minister of Foreign Affairs"
+  PRU_head_mineco: "Minister of Finance and Commerce"
+  PRU_head_minpol: "Minister of Government and Police"
+  PRU_first_vp: "First Vice President"
+  PRU_second_vp: "Second Vice President"
+
+
+
+  ##############################
+  #### Leaders of Peru stuff ###
+  ##############################
+  ### Traits ###
+  presidente_peru_latin: "His Excellency, Señor Presidente"
+  master_of_peruvian_politics_latin: "Master of Politics"
+
+
+  ### Leader Description ### \n
+  POLITICS_MANUEL_PRADO_UGARTECHE_DESC: "Born in 1889 to a wealthy family and son of ex-President Manuel Ignacio Prado, Prado Ugarteche is a civil engineer who became one of the major players in Peruvian politics during the 1940s and 50s. Rising through the ranks, he was tapped by President Oscar R. Benavides to be his successor, and won the 1939 election. Prado continued Benavides's suppression of the outlawed APRA and PCP. As the Nazis invaded Poland, Prado's government changed the course of Peru with a new foreign policy. After the attack on Pearl Harbor, Prado publicly supported the US and the Allies to keep Peru's good relations with Washington, but he kept the door open for the Japanese as an option. By 1944, the Allies were on the retreat, yet the US still stood strong. So Prado kept his ‘neutral' foreign policy, up until the fateful day that Pearl Harbor was erased in a flash of blinding light, and the US signed a conditional surrender to the Axis Powers.\n\nStunned by how the mighty northern giant had fallen, Prado was now haunted by one thought - did he make the right choice? After his term ended, he left Peru for the US and Canada, wanting to escape Peru and the question that troubled him. He watched from afar as his homeland descended into chaos, then returned to normality. The normality convinced him to return in 1956 to run for the 1957 elections, but he couldn't run without popular support. His close allies convinced him to join the ACDN and work with Manuel Odria, and the fateful ‘Pact of Monterrico' was sealed, where Prado would win the elections as the ACDN candidate, in exchange for sweeping Odria's corruption under the rug. In his second term, he lifted the APRA ban to ‘moderate them' despite the worrying silence in the north, and worked with Pedro Beltran to stabilize the economy.\n\nIt's been five years since Prado became President, and yet so much more needs to be done. With elections looming, factionalism in the ACDN, the investment war, and the threat of APRA, Prado prepares to make his final moves before he leaves office. After all, he didn't get in the big chair because of luck."
+
+  ##############################
+  ###### Peruvian Events #######
+  ##############################
+  peru.1.t: "Elections!"
+  peru.1.d: "Select the president! I LOVE DEMOCRACY SO MUCH!"
+  peru.1.a: "belaunde"
+  peru.1.b: "apra"
+  peru.1.c: "porque...odria"
+  peru.1.e: "acdn"
+  peru.2.t: "ACDN candidate"
+  peru.2.d: "Choose!"
+  peru.2.a: "mr beltran"
+  peru.2.b: "bustamante que sorpresa!"
+
+
+  #############################
+  ##### National Spirits ######
+  #############################
+  PRU_idea_fake_democratic_dream: "The Fake Dream"
+  PRU_idea_fake_democratic_dream_desc: "On the surface, Peru appears to have a strong and healthy democracy. Of course, the truth's far more complex once you dig deeper. Democracy was restored in 1939 with the election of President Prado, only to face its hardest challenge with the Battle of Lima. Peruvian democracy triumphed, and the people believed it was finally strong enough... but rumors of electoral fraud in the 1950s under the Odria government hurt its image again, with accusations of a guiding hand always manipulating the voting polls.\n\nCan Peru achieve the long lasting dream of democracy, or will history repeat itself again? We must be careful attending this issue. If we fail, the dream dies, §Rand the people's faith in democracy with it§!. But if we succeed, §mdemocracy will be finally realized§!."
+  PRU_idea_silent_liberation: "The Silent Liberation"
+  PRU_idea_silent_liberation_desc: "After the Battle for Lima, the pro-APRA northern regions continued to rebel against the Bustamante and Odria governments, until one day they stopped... and there was only silence. Our soldiers report no firefights, our policemen confidently tell us that everything is under control, and the citizens continue as if nothing happened. But to Lima, this silence is a bad omen. We need to keep the north in check, §Rbecause we know that the Aprists are still there, hiding...§!"
+  PRU_idea_investor_war: "Investors War"
+  PRU_idea_investor_war_desc: "With their total victory in the Pacific, and Peru's large population of Japanese immigrants, the Japanese began investing in our country starting from 1947. But they quickly aroused the wrath of their nemesis by operating in its backyard. From the 1950s to now, the United States and the Japanese Empire wage a war of investment, trying to seize control of first the major farms, then the industrial sector, and finally the great oil fields of Talara. The oil fields are presently in the hands of the Yanquis and their International Petroleum Company. But recently, Japan has launched a new investment offensive to seize the oil, provoking more conflict between the two superpowers. With our people helplessly caught in between their squabbles, we must play our cards right to win this war, so that Peru comes out as the winner, not foreign greed!"
+  PRU_idea_peru_diverse_problems: "A Diverse Country with Diverse Problems"
+  PRU_idea_peru_diverse_problems_desc: "Once the heart of the Incan Empire, our beautiful country is filled with different cultures and traditions, from our mestizos, to the foreign migrants, to the natives. But with just as many peoples comes just as many problems. The last governments and those before them have neglected agrarian reform, integration of the jungle, development of the Andean regions, and many more. Even the people protesting over all of these issues couldn't sway them to do something. We won't repeat their mistakes! Sooner or later, we'll address these problems once and for all. And if we succeed, §nwe will earn the people's lasting trust.§!"
+
+
+  PRU_idea_peruvian_armed_forces: "Peruvian Armed Forces"
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ###SECRET, NO LEER POR SU PROTECCION. VIVA LA REPUBLICA###
+  POLITICS_SALEM_MARGARET_DESC: "Salem y Margaret, like the ying and yang.\n\n\n\n\n\nTwo cats, one Peru.\n\n\n\n\n\nTwo cats, one Anthony.\n\n\n\n\n\nOne Anthony, one Peru.\n\n\n\nLONG LIVE THE REPUBLIC.\n\nLONG LIVE PERU!"
