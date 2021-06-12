@@ -1,25 +1,5 @@
 ﻿l_english:
 
-
-#####목록#####
-### Leaders ###
-#names
-### Tooltips ###
-### Opinion modifiers
-### Parties ###
-### Ideas ###
-### Dynamic Modifiers ###
-### GOERING SCIENCE IDEAS
-### Decisions
-### GREAT PURGE TREE
-### WAR PLAN 0
-### National Focus Tree - Civil War ###
-### SOUTH AFRICA WAR TREE ###
-### INDUSTRIAL TREE ###
-### SCIENCE TREE ###
-### Military Tree ###
-
-
  ### Leaders ###
  POLITICS_HERMANN_GORING_DESC:0 "괴링은 \"만약 연합군 폭격기가 한 대라도 독일에 닿는다면, 나를 헤르만 마이어라 불러도 좋다!\"라고 한 적이 있습니다. 세계대전에서 국가사회주의가 승리함으로서 괴링의 허풍은 더 이상 허풍이 아니게 되었고, 연합군이 패배하면서 괴링의 명성은 드높아졌습니다.\n\n어찌보면 정치적으로 유능하다 할 수 있는 사고방식과 깡패, 민병대, 그리고 '애국자' 등을 사용해 그의 권력을 방해하는 자들을 몰아내는 것으로 괴링은 군부의 목소리에 진정으로 귀를 귀울이는 유일한 정치인으로서 독일 정계의 중심 인물이 되었습니다. 다른 좋은 집권 방법을 찾지 못한 괴링은 늙은 총통을 '제국이 번영할 유일한 방법은 바로 제국의 적들을 완전히 파괴하는것'이라고 확신하게 만든 제복을 입은 아첨꾼들과 길을 같이했습니다.\n\n이제, 괴링은 많은 사람들이 제국의 패망으로 가는 지름길이라 생각하는 길을 행진하고 있습니다. 그러나 이것은 그가 얼마 안가 망할 것이라는 가정 하에서 그런 것인데, 왜냐하면 괴링이 바다 건너에 눈길을 돌린다면 어떤 일이 일어날지는 상상만 할 수 있기 때문입니다."
  POLITICS_ALBERT_BORMANN_DESC:0 "라이히와 같이 파벌주의와 뇌물에 취약한 정권에서는 자연스럽게 최고위 당직자 중 한 명의 형이 능력과는 상관 없이 자신이 원하는 만큼 고위직에 올라갈 수 있을 것이라 생각할 수 있습니다. 알베르트 보어만은 이에 동의하지 않을 것입니다. 당수부장이자 라이히의 최고 권력자 중 하나인 마르틴 보어만의 형임에도 불구하고 형제의 쌀쌀맞은 관계로 알베르트는 쉽게 정부 고위층으로 갈 수가 없었습니다. 하지만 예전에 있었던 총통과의 끈끈한 유대관계는 그를 완전히 홀로 두게 만들지 않았습니다. 당연히 그가 한 때 육군 내 중재자로 활약했을 때 아돌프 히틀러는 그를 항상 좋아했으며 알베르트가 관계가 소원한 동생 때문에 저 멀리 있는 국가판무관부 중 한 곳에서 썩혀 버려지지 않도록 만든 것도 고 총통의 후원으로 가능했던 일이었습니다.\n\n총통의 사망은 모든 것을 위협했습니다. 즉, 승리자가 라이히 권력층 내에 있는 다른 주요 보호자인 군국주의자들의 사랑, 헤르만 괴링이 아니였다면 실제로 위험했을 것입니다. 군국주의가 장교들을 제국원수로 붙게 만들었고, 그 또한 마르틴은 가졌던 적이 없는 괴링만의 상당한 매력에 빠졌습니다. 이제 괴링은 그의 가장 큰 적 중 한 명의 형제였지만 이제는 기꺼이 그의 명령을 이행할 유능한 행정관을 얻게 되었습니다."
@@ -1436,7 +1416,7 @@
  GGR_warlord_influence:0 "[SHX.GetInfluenceBreakdown][SIK.GetInfluenceBreakdown][ETR.GetInfluenceBreakdown][XSM.GetInfluenceBreakdown][HUI.GetInfluenceBreakdown]\n[SIC.GetInfluenceBreakdown][YAA.GetInfluenceBreakdown][YUN.GetInfluenceBreakdown][GUZ.GetInfluenceBreakdown]\n[GXC.GetInfluenceBreakdown][GNG.GetInfluenceBreakdown][MEN.GetInfluenceBreakdown]"
 
  GGR_anti_goering_preparation:0 "다가오는 폭풍 준비"
- anti_goering_preparation_desc:0 "The German war machine has focused its gaze on our country, its tanks are rolling to our borders, its leader shouting about our demise and its men loading their guns once again. While the German army may be large they lack one important resource: time. Every second the German economy starts slowing down, all we must do is stall for as long as possible. For this we shall prepare, their tanks shall be repelled by our forts, their leaders will be unable to sleep soundly and their men will face the unified will of our nation united under a single purpose: surival."
+ anti_goering_preparation_desc:0 "전차들이 우리 국경으로 굴러들어오고, 지도자들은 우리의 종말에 대해 소리치며 부하들은 총을 재장전하면서 독일 전쟁기계가 우리 국가를 향해 뚫어저라 보고 있습니다. 독일군은 크지만, 가장 중요한 자원인 시간이 부족합니다. 독일의 경제는 매초마다 침체되고 있으며 우리는 최대한 오랫동안 무너지지 않게 유지해야 합니다. 이를 위해 우리들은 제대로 준비해서 그들의 전차를 우리의 요새가 분쇄시킬 것이며, 그들의 지도자들을 잠못지내게 만들며 그들의 부하들은 단 하나의 목적, 생존이라는 우리 민족의 단결된 의지에 부딪칠 것입니다."
  anti_goering_initial_preparations:0 "초기 준비"
  anti_goering_emergency_conscription:0 "긴급 징병"
  anti_goering_produce_guns:0 "총기 생산"
@@ -1454,7 +1434,7 @@
  GGR_anarchy:0 "무정부!"
  GGR_anarchy_desc:0 "이 전쟁이 시작되었을 때에는 상상도 할 수 없었던 일인, 몇 년이 지난 후에도 여전히 전쟁이 계속되고 있습니다. 국가는 이미 붕괴의 끝자락에서 한참이나 벗어났고 독일 전역이 무정부 상태로 집어삼켜져 있습니다. 혼란과 무법 상태가 전례 없는 수준에 이르고 있으며, 만일 어떤 일이라도 빨리 하지 않는다면 상황은 더 이상 무를 수 없는 상태까지 이를 수도 있습니다."
  GGR_rally_the_workers:0 "노동자 집결"
- GGR_rally_the_workers_desc:0 "Whilst our soldiers fight for the dream of a united and mighty Germany once again, the slaves in our factories dream more of their feedom from bondage. By mixing together some vague committments, white lies and symbolic gestures we will see about cultivating the notion that if the slaves give us a hundred and ten percent their dreams might just come true."
+ GGR_rally_the_workers_desc:0 "군인들이 다시 한 데 모여 일치되고 통일된 강력한 독일의 꿈을 위해 싸우는 동안 공장의 노예들은 속박으로부터 벗어날 자유를 꿈꾸고 있습니다. 막연한 약속, 선의의 거짓말, 상징적인 제스처들을 한 데 섞어 우리는 노에들에게 110%나 일한다면 꿈이 아마 실현될 수도 있다고 희망적인 생각을 심어둘 수 있습니다."
  GGR_guns_of_the_patriots:0 "애국자들의 무기"
  GGR_guns_of_the_patriots_desc:0 "Allowing slaves to produce our uniforms, radios, trucks and bandages is one thing, but allowing them to make our guns is quite another. Thankfully this war is bringing out the best in a number of our civilians who wish to play their part in the war effort whilst being unable to serve themselves. By putting them to work in our munitions factories we can proudly ensure a sturdy, reliable German made gun in the hands of our boys."
  GGR_equipment_exploitation:0 "무기 생산을 쥐어짜기"
