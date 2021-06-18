@@ -1,0 +1,25 @@
+guiTypes = {
+	containerWindowType = {
+		name = "britain_state_overview"
+		position = {x=20 y=200}
+		size = { width=780 height=496 }
+		
+		iconType={
+			name ="econ_bg" 
+			position = {x=0 y=0}
+			spriteType = GFX_3333_box
+			pdx_tooltip = "ENG_ECON_TT"
+		}
+		instantTextboxType = {
+			name = "ENG_Text_Explain"
+			textureFile = ""
+			font = "aldrich_18_outline"
+			text = "국가 경제"
+			position = { x= 41 y= 7 }
+			maxWidth = 81
+			maxHeight = 26
+			format = center
+			pdx_tooltip = "ENG_ECON_TT"
+		}
+	}
+} 

@@ -1,0 +1,288 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "MZB_gui_investigation_display"
+		size = { width = 500 height = 700 }
+		position = { x = 0 y = 0 }
+
+		containerWindowType = {
+			name = "MZB_gui_investigation_display_muller"
+			size = { width = 500 height = 700 }
+			position = { x = 20 y = 0 }
+
+			containerWindowType = {
+				name = "MZB_gui_investigation_list_muller"
+				size = { width = 455 height = 350 }
+				position = { x = 0 y = 0 }
+				margin = { left = 0 right = 0 top = 0 bottom = 0 }
+
+				##Frame
+				iconType = {
+					name = "MZB_gui_investigation_case_frame_muller"
+					spriteType = "GFX_mzb_investigation_case_frame"
+					orientation = upper_left
+					position = { x = 0 y = 0 }
+
+					alwaystransparent = yes
+				}
+
+				iconType = {
+					name = "MZB_gui_investigation_case_muller"
+					spriteType = "GFX_mzb_investigation_case_muller"
+					orientation = upper_left
+					position = { x = 6 y = 6 }
+
+					alwaystransparent = yes
+				}
+
+				instantTextBoxType = {
+					name = "MZB_gui_investigation_case_title_muller"
+					orientation = upper_left
+					position = { x = 140 y = 10 }
+
+					maxHeight = 100
+					maxWidth = 306
+					format = center
+					font = "aldrich_18_outline"
+					text = "동아프리카 공식 조사국"
+				}
+
+				instantTextBoxType = {
+					name = "MZB_gui_investigation_case_name_muller"
+					orientation = upper_left
+					position = { x = 140 y = 60 }
+
+					maxHeight = 100
+					maxWidth = 306
+					format = center
+					font = "aldrich_36_outline"
+					text = "지크프리트 뮐러"
+				}
+
+				containerWindowType = {
+					name = "MZB_gui_investigation_list_grid_muller"
+					size = { width = 450 height = 200 }
+					position = { x = 0 y = 142 }
+					margin = { left = 0 right = 0 top = 0 bottom = 0 }
+					verticalScrollbar = "right_vertical_slider"
+
+					background = {
+						name = "MZB_gui_investigation_list_muller_background"
+						quadTextureSprite = "GFX_mzb_investigation_case_frame_background"
+					}
+
+					##Gridbox
+					gridboxtype = {
+						name = "MZB_gui_investigation_gridbox_muller"
+						format = "UPPER_LEFT"
+						position = { x = 6 y = 0 }
+						size = { width = 450 height = 200 }
+
+						max_slots_horizontal = 1
+						slotsize = { width = 125 height = 50 }
+					}
+				}
+			}
+		}
+
+		containerWindowType = {
+			name = "MZB_gui_investigation_display_schenck"
+			size = { width = 500 height = 700 }
+			position = { x = 20 y = 350 }
+
+			containerWindowType = {
+				name = "MZB_gui_investigation_list_schenck"
+				size = { width = 455 height = 350 }
+				position = { x = 0 y = 0 }
+				margin = { left = 0 right = 0 top = 0 bottom = 0 }
+
+				##Frame
+				iconType = {
+					name = "MZB_gui_investigation_case_frame_schenck"
+					spriteType = "GFX_mzb_investigation_case_frame"
+					orientation = upper_left
+					position = { x = 0 y = 0 }
+
+					alwaystransparent = yes
+				}
+
+				iconType = {
+					name = "MZB_gui_investigation_case_schenck"
+					spriteType = "GFX_mzb_investigation_case_schenck"
+					orientation = upper_left
+					position = { x = 6 y = 6 }
+
+					alwaystransparent = yes
+				}
+
+				instantTextBoxType = {
+					name = "MZB_gui_investigation_case_title_schenck"
+					orientation = upper_left
+					position = { x = 140 y = 10 }
+
+					maxHeight = 100
+					maxWidth = 306
+					format = center
+					font = "aldrich_18_outline"
+					text = "동아프리카 공식 조사국"
+				}
+
+				instantTextBoxType = {
+					name = "MZB_gui_investigation_case_name_schenck"
+					orientation = upper_left
+					position = { x = 140 y = 60 }
+
+					maxHeight = 100
+					maxWidth = 306
+					format = center
+					font = "aldrich_36_outline"
+					text = "볼프강 솅크"
+				}
+
+				containerWindowType = {
+					name = "MZB_gui_investigation_list_grid_schenck"
+					size = { width = 450 height = 200 }
+					position = { x = 0 y = 142 }
+					margin = { left = 0 right = 0 top = 0 bottom = 0 }
+					verticalScrollbar = "right_vertical_slider"
+
+					background = {
+						name = "MZB_gui_investigation_list_schenck_background"
+						quadTextureSprite = "GFX_mzb_investigation_case_frame_background"
+					}
+
+					##Gridbox
+					gridboxtype = {
+						name = "MZB_gui_investigation_gridbox_schenck"
+						format = "UPPER_LEFT"
+						position = { x = 6 y = 0 }
+						size = { width = 450 height = 200 }
+
+						max_slots_horizontal = 1
+						slotsize = { width = 125 height = 50 }
+					}
+				}
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "MZB_gui_investigation_evidence_container_muller"
+		orientation = upper_left
+		position = { x = 0 y = 10 }
+		size = { width = 360 height = 40 }
+
+		##Text
+		instantTextBoxType = {
+			name = "MZB_gui_investigation_evidence_name_muller"
+			orientation = upper_left
+			position = { x = 2 y = 2 }
+
+			maxHeight = 40
+			maxWidth = 352
+			format = center
+			font = "aldrich_18_outline"
+			text = "[MZBGetEvidenceMullerName]"
+		}
+
+		##Buttons
+		buttonType = {
+			name = "MZB_gui_investigation_evidence_add_to_case_muller"
+			spriteType = "GFX_mzb_investigation_evidance_add_to_case"
+			orientation = upper_left
+			position = { x = 365 y = 0 }
+
+			pdx_tooltip = "Add to Case"
+		}
+
+		##Frame
+		iconType = {
+			name = "MZB_gui_investigation_evidence_frame_muller"
+			spriteType = "GFX_mzb_investigation_evidance_frame"
+			orientation = upper_left
+			position = { x = 0 y = 0 }
+
+			alwaystransparent = yes
+			pdx_tooltip = "[MZBGetEvidenceMullerTT]"
+		}
+
+		iconType = {
+			name = "MZB_gui_investigation_evidence_frame_selected_muller"
+			spriteType = "GFX_mzb_investigation_evidance_frame_selected"
+			orientation = upper_left
+			position = { x = 0 y = 0 }
+
+			alwaystransparent = yes
+			pdx_tooltip = "[MZBGetEvidenceSchenckTT]"
+		}
+
+		iconType = {
+			name = "MZB_gui_investigation_evidence_frame_locked_muller"
+			spriteType = "GFX_mzb_investigation_evidance_frame_locked"
+			orientation = upper_left
+			position = { x = 0 y = 0 }
+
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "MZB_gui_investigation_evidence_container_schenck"
+		orientation = upper_left
+		position = { x = 0 y = 10 }
+		size = { width = 360 height = 40 }
+
+		##Text
+		instantTextBoxType = {
+			name = "MZB_gui_investigation_evidence_name_schenck"
+			orientation = upper_left
+			position = { x = 2 y = 2 }
+
+			maxHeight = 40
+			maxWidth = 352
+			format = center
+			font = "aldrich_18_outline"
+			text = "[MZBGetEvidenceSchenckName]"
+		}
+
+		##Buttons
+		buttonType = {
+			name = "MZB_gui_investigation_evidence_add_to_case_schenck"
+			spriteType = "GFX_mzb_investigation_evidance_add_to_case"
+			orientation = upper_left
+			position = { x = 365 y = 0 }
+
+			pdx_tooltip = "Add to Case"
+		}
+
+		##Frame
+		iconType = {
+			name = "MZB_gui_investigation_evidence_frame_schenck"
+			spriteType = "GFX_mzb_investigation_evidance_frame"
+			orientation = upper_left
+			position = { x = 0 y = 0 }
+
+			alwaystransparent = yes
+			pdx_tooltip = "[MZBGetEvidenceSchenckTT]"
+		}
+
+		iconType = {
+			name = "MZB_gui_investigation_evidence_frame_selected_schenck"
+			spriteType = "GFX_mzb_investigation_evidance_frame_selected"
+			orientation = upper_left
+			position = { x = 0 y = 0 }
+
+			alwaystransparent = yes
+			pdx_tooltip = "[MZBGetEvidenceSchenckTT]"
+		}
+
+		iconType = {
+			name = "MZB_gui_investigation_evidence_frame_locked_schenck"
+			spriteType = "GFX_mzb_investigation_evidance_frame_locked"
+			orientation = upper_left
+			position = { x = 0 y = 0 }
+
+			alwaystransparent = yes
+		}
+	}
+}

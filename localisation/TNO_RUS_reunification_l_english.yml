@@ -354,10 +354,10 @@
  WSR_launch_attack_on_WSB:0 "침공 시작"
  WSR_cross_the_urals:0 "Cross the Urals"
  WSR_establish_ural_fortifications:0 "우랄 요새 세우기"
- WSR_prepare_vorkuta_defenses:0 "Prepare the Vorkuta Border"
- WSR_survey_eastern_positions:0 "Survey Eastern Positions"
- WSR_eastern_airbase_expansion:0 "Eastern Airbase Expansion"
- WSR_develop_ural_supply_chain:0 "Develop Ural Supply Chain"
+ WSR_prepare_vorkuta_defenses:0 "보르쿠타 국경 준비"
+ WSR_survey_eastern_positions:0 "동부 지형 조사"
+ WSR_eastern_airbase_expansion:0 "동부 공군기지 확장"
+ WSR_develop_ural_supply_chain:0 "우랄 보급로 확보"
  WSR_infiltrate_siberian_intelligence_service:0 "Infiltrate Enemy Intelligence Service"
  WSR_raise_additional_reserves:0 "Raise Additional Reserves"
 
@@ -375,10 +375,10 @@
  WSB_launch_attack_on_WSR:0 "침공 시작"
  WSB_cross_the_urals:0 "Cross the Urals"
  WSB_establish_ural_fortifications:0 "우랄 요새 세우기"
- WSB_fortify_vorkuta_beachhead:0 "Fortify the Vorkuta Beachhead"
- WSB_survey_western_positions:0 "Survey Western Positions"
- WSB_convert_industrial_centers:0 "Convert Industrial Centers"
- WSB_develop_ural_supply_chain:0 "Develop Ural Supply Chain"
+ WSB_fortify_vorkuta_beachhead:0 "보르쿠타 교두보 요새화"
+ WSB_survey_western_positions:0 "서부 지형 조사"
+ WSB_convert_industrial_centers:0 "산업 중심지 전환"
+ WSB_develop_ural_supply_chain:0 "우랄 보급로 확보"
  WSB_infiltrate_russian_intelligence_service:0 "Infiltrate Enemy Intelligence Service"
  WSB_raise_additional_reserves:0 "Raise Additional Reserves"
 
@@ -497,16 +497,16 @@
  west_russia_reunification:0 "[ROOT.GetWestRussianReunificationTitle]"
  west_russia_reunification_desc:0 "[ROOT.GetWestRussianReunificationDesc]"
 
- RUS_KIR_west_russia:0 "Form the §YSovereignty of Western Russia§!"
+ RUS_KIR_west_russia:0 "§Y서러시아 자주국§! 수립"
  RUS_KIR_west_russia_desc:0 "We stand triumphant in the ashes of Western Russia, all Bolsheviks and Germanophiles having been cast out. It is time we properly proclaim ourselves as the one true government in abeyance of All the Russias, and that Vladimir III is its true ruler. God Save the Tsar!"
 
- RUS_NIK_west_russia:0 "Form the §Y[ROOT.GetKomiIdeologyTitle]§!"
+ RUS_NIK_west_russia:0 "§Y[ROOT.GetKomiIdeologyTitle]§! 수립"
  RUS_NIK_west_russia_desc:0 "We are in control of all major cities in Western Russia. Those who said our nation was nothing but a poor joke now lie forgotten, left behind the path of our ascent. Let us continue onwards to the full liberation of the Motherland, and claim our true status as the one true Russian government!"
 
- RUS_PRM_west_russia:0 "Form the §YPurified Aryan Brotherhood§!"
+ RUS_PRM_west_russia:0 "§Y순수 아리안 형제단§! 수립"
  RUS_PRM_west_russia_desc:0 "This corner of what was once Russia bows down before us! While the task given to us by the Aryans to unite the rest of Russia lays before us, we must entrench our position in these lands. Let the Purification begin!"
 
- RUS_SAM_west_russia:0 "Form the §YProvisional Commissariat of Western Russia§!"
+ RUS_SAM_west_russia:0 "§Y서러시아 임시 위원회§! 수립"
  RUS_SAM_west_russia_desc:0 "We are in control of all major cities in Western Russia. The spirit of Russia surges us forward as our armies sweep across the nation! We need a new name, one more befitting our glorious status."
 
  RUS_WRS_west_russia:0 "§Y서러시아 혁명전선§!의 복원"
@@ -522,26 +522,29 @@
  west_siberia_reunification:0 "[ROOT.GetWestSiberianReunificationTitle]"
  west_siberia_reunification_desc:0 "[ROOT.GetWestSiberianReunificationDesc]"
 
- RUS_ISH_west_siberia:0 "Form the §YWest Siberian People's Republic§!"
+ RUS_ISH_west_siberia:0 "§Y서시베리아 인민 공화국§! 수립"
  RUS_ISH_west_siberia_desc:0 "We are in control of all major cities in Western Siberia. The people join us as socialism spreads far and wide! Soon, we will reunite Russia under our red banner, with bread and roses for all!"
- RUS_OMS_west_siberia:0 "Form the §YWest Siberian Provisional Authority§!"
+ RUS_OMS_west_siberia:0 "§Y서시베리아 임시정부§! 수립"
  RUS_OMS_west_siberia_desc:0 "We are in control of all important cities in Western Siberia. The time has come to proclaim to the rest of Russia, and to the world, that nothing shall stand in the way of the West Siberian Provisional Authority and revenge."
- RUS_TOB_west_siberia:0 "Form the §YWest Siberian Military District§!"
+ RUS_TOB_west_siberia:0 "§Y서시베리아 군구§! 수립"
  RUS_TOB_west_siberia_desc:0 "We are in control of all major cities in Western Siberia. The Marshal has proclaimed that all the people of Russia are under his protection, and that it is time for all the people to come together under one banner, or be destroyed."
  
  ### Central Siberia ###
  central_siberia_reunification:0 "[ROOT.GetCentralSiberianReunificationTitle]"
  central_siberia_reunification_desc:0 "[ROOT.GetCentralSiberianReunificationDesc]"
 
- RUS_ERS_central_siberia:0 "Form the §YCentral Siberian Republic§!"
+ RUS_ERS_central_siberia:0 "§Y중앙 시베리아 공화국§! 수립"
  RUS_ERS_central_siberia_desc:0 "We are in control of all important cities in Central Siberia. Now, we will announce to all that the Central Siberian Republic is a beacon of democracy, and, more importantly, hope to all Russians."
- RUS_ERS_HUM_central_siberia:0 "Form the §YCommonwealth of Siberia§!"
+ RUS_ERS_HUM_central_siberia:0 "§Y시베리아 연방§! 수립"
  RUS_ERS_HUM_central_siberia_desc:0 "We are in control of all important cities in Central Siberia. Now, we will announce to all that the Commonwealth of Siberia is a beacon of democracy, and, more importantly, hope to all Russians."
  RUS_KEM_central_siberia:0 "Form the §YGreat Principality of Central Siberia§!"
  RUS_KEM_central_siberia_desc:0 "We are in control of all important cities in Central Siberia. The Rurikid monarchy, with natural authority over all of Russia, has been re-established here, and we will proclaim this to the world!"
  RUS_KHA_central_siberia:0 "Form the §YSiberian Free Territory§!"
+ RUS_KHA_central_siberia_desc:0 "We are in control of all important cities in Central Siberia. From here, we will create a new Russia free from statist oppression and exploitation, one true to Makhno's vision. Long live the Anarchist Revolution!"
  RUS_SAH_central_siberia:0 "Form the §YRepublic of Siberia§!"
+ RUS_SAH_central_siberia_desc:0 "We are in control of all important cities in Central Siberia. Let's create a new nation."
  RUS_PAV_central_siberia:0 "Form the §YCentral Siberian Federation§!"
+ RUS_PAV_central_siberia_desc:0 "We are in control of all important cities in Central Siberia. Under Marshal Pokryshkin's lead, we will create a new Siberian Republic from the ashes of the old, and begin the reclamation of the Motherland."
  RUS_SVO_central_siberia:0 "Form the §YProvisionary Central Siberian Revolutionary Council§!"
  RUS_SVO_central_siberia_desc:0 "We are in control of all important cities in Central Siberia. Comrades, the first step in the liberation of Russia is now complete! Onwards, for socialism! For Mother Russia!"
 
@@ -550,14 +553,19 @@
  far_east_reunification_desc:0 "[ROOT.GetFarEasternReunificationDesc]"
 
  RUS_AMR_far_east:0 "Form the §YAll-Russian Government of the Far East§!"
+ RUS_AMR_far_east_desc:0 "The entire Russian Far East is under our control. The Vozhd has seen fit to announce that we are the only true Russian government and begin the restoration of the Motherland. For God, Nation, and Labor!"
  RUS_BRY_far_east:0 "Form the §YFar Eastern Free Soviet Republic§!"
+ RUS_BRY_far_east_desc:0 "The tyrants have been defeated and the red banner of Revolution flies proud over the Russian Far East. It is time to declare the formation of a new Soviet Republic and soon the Red Flag will wave again over Moscow and Leningrad!"
  RUS_IRK_far_east:0 "Restore the §YUnion of Soviet Socialist Republics§!"
+ RUS_IRK_far_east_desc:0 "We defeated the revisionists, the reactionaries, and the fascists of the Russian Far East. Now we can begin the restoration of the Soviet Union and pacify the lands to the west. Three cheers for Comrade Yagoda!"ㄴ
  RUS_MAG_far_east:0 "Form the §YSiberian National Republic§!"
  RUS_MAG_far_east_desc:0 "We are in control of all important cities in the Russian Far East. With our core lands secure, men at our disposal, and resources aplenty, soon the flag of Russia shall fly from the Kremlin once more!"
  RUS_MAG_WA_far_east:0 "Entrench §Ycontrol of Siberia§!"
  RUS_MAG_WA_far_east_desc:0 "Sir! We've completed all major pacification operations in the Russian Far East. We can begin fortifying all positions immediately."
  RUS_WCH_far_east:0 "Form the §YFar Eastern Imperial Realm§!"
+ RUS_WCH_far_east_desc:0 "Imperial authority has been restored to the Russian Far East. Now, we proclaim ourselves as the one true government in abeyance of All the Russias, and that Mikhail II is its true ruler. God Save Tsar Mikhail II!"
  RUS_OMO_far_east:0 "Form the §YDivine Mandate of Siberia§!"
+ RUS_OMO_far_east_desc:0 "We are in control of all important cities in the Russian Far East. But the Motherland and Her people still need salvation. We will bring the Lord and His light to all the lost souls in Russia. Amen."
  
  ### Kazakhstan ###
  kazakhstan_reunification:0 "[ROOT.GetKazakhstanReunificationTitle]"

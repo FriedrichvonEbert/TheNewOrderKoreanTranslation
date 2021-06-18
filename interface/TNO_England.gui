@@ -1,0 +1,483 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "ENG_GUI_TheKingsSpeech"
+		size = { width = 525 height = 490 }
+		position = { x = 0 y = 0 }
+		
+		iconType = {
+			name = "TheKingsSpeech_Header"
+			position = { x = 20 y = -15 }
+		}
+		
+		instantTextboxType = {
+			name = "TheKingsSpeech_Desc"
+			position = { x = 20 y = 90 }
+			font = "aldrich_18_outline"
+			text = [GetENG_TheKingsSpeech_Desc]
+			maxWidth = 481
+			maxHeight = 300
+			format = left
+		}
+		
+		instantTextboxType = {
+			name = "TheKingsSpeech_SafetyBar_Title"
+			position = { x = 20 y = 325 }
+			font = "aldrich_36_outline"
+			text = ENG_TheKingsSpeech_SafetyBar_Title_text
+			maxWidth = 481
+			maxHeight = 36
+			format = center
+		}
+		
+		iconType = {
+			name = "TheKingsSpeech_SaferyBar_Itself"
+			spriteType = "GFX_ENG_TheKingsSpeech_SaferyBar_Itself"
+			position = { x = 32 y = 361 }
+		}
+		
+		iconType = {
+			name = "TheKingsSpeech_SafetyBar_Frame"
+			spriteType = "GFX_ENG_TheKingsSpeech_SafetyBar_Frame"
+			position = { x = 30 y = 360 }
+			pdx_tooltip = TheKingsSpeech_SafetyBar_Frame_tt
+		}
+		
+		instantTextboxType = {
+			name = "TheKingsSpeech_SafetyBar_PeriodicChange"
+			position = { x = 20 y = 390 }
+			font = "aldrich_24_outline"
+			text = [GetENG_TheKingsSpeech_SafetyBar_PeriodicChange]
+			maxWidth = 481
+			maxHeight = 36
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "TheKingsSpeech_Guns_Title"
+			position = { x = 20 y = 425 }
+			font = "aldrich_36_outline"
+			text = ENG_TheKingsSpeech_Guns_Title_text
+			maxWidth = 481
+			maxHeight = 36
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "TheKingsSpeech_Guns_Number"
+			position = { x = 20 y = 460 }
+			font = "aldrich_24_outline"
+			text = [GetENG_TheKingsSpeech_Guns_Number]
+			maxWidth = 481
+			maxHeight = 300
+			format = center
+		}
+	}
+	
+	containerWindowType = {
+		name = "ENG_GUI_Macmillan_Decision_GUI"
+		size = { width = 525 height = 450 }
+		position = { x = 0 y = 0 }
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Portrait_1"
+			spriteType = "GFX_ENG_Portrait_Macmillan_Decision"
+			position = { x = 83 y = 25 }
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Portrait_2"
+			spriteType = "GFX_ENG_Portrait_Maudling_Decision"
+			position = { x = 283 y = 25 }
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_ProgressBar_1"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Bar"
+			position = { x = 37 y = 266 }
+			pdx_tooltip = ENG_DECCAT_United_Englands_Inner_Politics_Support_Bar_tt
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_ProgressBar_Frame_1"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Bar_Frame"
+			position = { x = 35 y = 265 }
+			pdx_tooltip = ENG_DECCAT_United_Englands_Inner_Politics_Support_Bar_tt
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_ProgressBar_2"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Bar"
+			position = { x = 37 y = 410 }
+			pdx_tooltip = ENG_DECCAT_United_Englands_Inner_Politics_Democrat_Bar_tt
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_ProgressBar_Frame_2"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Bar_Frame"
+			position = { x = 35 y = 409 }
+			pdx_tooltip = ENG_DECCAT_United_Englands_Inner_Politics_Democrat_Bar_tt
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Mac_Text"
+			position = { x = 34 y = 300 }
+			font = "aldrich_18_outline"
+			text = "맥밀런주의자 지지"
+			maxWidth = 300
+			format = left
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Lib_Text"
+			position = { x = 313 y = 300 }
+			font = "aldrich_18_outline"
+			text = "자유주의자 지지"
+			maxWidth = 300
+			format = left
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Text"
+			position = { x = 200 y = 332 }
+			alwaystransparent = yes
+			font = "aldrich_18_outline"
+			text = "잉글랜드의 민주화"
+			maxWidth = 120
+			format = center
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Red_1"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Red_Box"
+			position = { x = 38 y = 358 }
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Red_2"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Red_Box"
+			position = { x = 103 y = 358 }
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Red_3"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Red_Box"
+			position = { x = 167 y = 358 }
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Green_1"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Green_Box"
+			position = { x = 482 y = 358 }
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Green_2"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Green_Box"
+			position = { x = 418 y = 358 }
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Green_3"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Green_Box"
+			position = { x = 353 y = 358 }
+			centerposition = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "ENG_DECCAT_SLP_MECH_GUI"
+		size = { width = 525 height = 425 }
+		position = { x = 0 y = 0 }
+		
+		iconType = {
+			name = "ENG_DECCAT_SLP_MECH_GUI_Portrait_1"
+			spriteType = "GFX_ENG_Portrait_Wilson_Decision"
+			position = { x = 83 y = 25 }
+		}
+		
+		iconType = {
+			name = "ENG_DECCAT_SLP_MECH_GUI_Portrait_2"
+			position = { x = 283 y = 25 }
+		}
+		
+		iconType = {
+			name = "ENG_DECCAT_SLP_MECH_GUI_ProgressBar_1"
+			spriteType = "GFX_ENG_DECCAT_SLP_MECH_GUI_Bar_1"
+			position = { x = 37 y = 266 }
+		}
+		
+		iconType = {
+			name = "ENG_DECCAT_SLP_MECH_GUI_ProgressBar_Frame_1"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Bar_Frame"
+			position = { x = 35 y = 265 }
+		}
+		
+		iconType = {
+			name = "ENG_DECCAT_SLP_MECH_GUI_ProgressBar_2"
+			spriteType = "GFX_ENG_DECCAT_SLP_MECH_GUI_Bar_2"
+			position = { x = 37 y = 370 }
+		}
+		
+		iconType = {
+			name = "ENG_DECCAT_SLP_MECH_GUI_ProgressBar_Frame_2"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Bar_Frame"
+			position = { x = 35 y = 369 }
+		}
+		
+		instantTextboxType = {
+			name = "ENG_DECCAT_SLP_MECH_GUI_ProgressBar_1_Text"
+			position = { x = 34 y = 300 }
+			font = "aldrich_18_outline"
+			text = "개혁파의 영향력"
+			maxWidth = 300
+			format = left
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_DECCAT_SLP_MECH_GUI_ProgressBar_2_Text"
+			position = { x = 352 y = 300 }
+			font = "aldrich_18_outline"
+			text = "강경파의 영향력"
+			maxWidth = 300
+			format = left
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Macmillan_Decision_GUI_Ref_Text"
+			position = { x = 0 y = 335 }
+			font = "aldrich_32_outline"
+			text = "당 개혁"
+			maxWidth = 525
+			format = center
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "ENG_DECCAT_NDL_MECH_GUI"
+		size = { width = 525 height = 350 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "ENG_DECCAT_NDL_MECH_GUI_Scale"
+			position = { x = 100 y = 55 }
+		}
+		
+		instantTextboxType = {
+			name = "ENG_DECCAT_NDL_MECH_GUI_Con_Power_Text"
+			position = { x = -5 y = 125 }
+			font = "aldrich_22_outline"
+			text = "보수파 세력:"
+			maxWidth = 135
+			format = center
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "ENG_DECCAT_NDL_MECH_GUI_Con_Power_Num"
+			position = { x = -5 y = 170 }
+			font = "aldrich_30_outline"
+			text = "ENG_NDL_CON_PERCENT"
+			maxWidth = 135
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_DECCAT_NDL_MECH_GUI_Mod_Power_Text"
+			position = { x = 0 y = 5 }
+			font = "aldrich_22_outline"
+			text = "중도파 세력:"
+			maxWidth = 525
+			format = center
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "ENG_DECCAT_NDL_MECH_GUI_Mod_Power_Num"
+			position = { x = 0 y = 25 }
+			font = "aldrich_30_outline"
+			text = "ENG_NDL_MOD_PERCENT"
+			maxWidth = 525
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_DECCAT_NDL_MECH_GUI_Lib_Power_Text"
+			position = { x = 405 y = 125 }
+			font = "aldrich_22_outline"
+			text = "자유주의파 세력:"
+			maxWidth = 100
+			format = center
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "ENG_DECCAT_NDL_MECH_GUI_Lib_Power_Num"
+			position = { x = 405 y = 170 }
+			font = "aldrich_30_outline"
+			text = "ENG_NDL_LIB_PERCENT"
+			maxWidth = 100
+			format = center
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "ENG_GUI_Maggie_Decision_GUI"
+		size = { width = 525 height = 625 }
+		position = { x = 0 y = 0 }
+		
+		iconType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Portrait_1"
+			spriteType = "GFX_ENG_Portrait_Thatcher_Decision"
+			position = { x = 83 y = 25 }
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Portrait_2"
+			spriteType = "GFX_ENG_Portrait_Old_Guard_Decision"
+			position = { x = 283 y = 25 }
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_ProgressBar"
+			spriteType = "GFX_ENG_GUI_Maggie_Decision_GUI_Bar"
+			position = { x = 37 y = 266 }
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_ProgressBar_Frame"
+			spriteType = "GFX_ENG_GUI_Macmillan_Decision_GUI_Bar_Frame"
+			position = { x = 35 y = 265 }
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Maggie_Text"
+			position = { x = 34 y = 245 }
+			font = "aldrich_16_outline"
+			text = "당내 마가렛의 영향력"
+			maxWidth = 300
+			format = left
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_OG_Text"
+			position = { x = 267 y = 245 }
+			font = "aldrich_16_outline"
+			text = "당내 보수파의 영향력"
+			maxWidth = 300
+			format = left
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Influence_Change"
+			position = { x = 18 y = 310 }
+			font = "aldrich_16_outline"
+			text = "ENG_THATCH_INFLUENCE"
+			maxWidth = 490
+			maxHeight = 125
+			format = center
+		}
+		
+		iconType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Box"
+			spriteType = "GFX_ENG_GUI_Maggie_Decision_GUI_Box"
+			position = { x = 26 y = 355 }
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Elitist_Support_Title"
+			position = { x = 6 y = 362 }
+			font = "aldrich_22_outline"
+			text = "엘리트주의자 지지"
+			maxWidth = 200
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Elitist_Support_Number"
+			position = { x = 6 y = 412 }
+			font = "aldrich_36_outline"
+			text = "ENG_MAGGIE_OG_PER"
+			maxWidth = 200
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Elitist_Likes"
+			position = { x = 190 y = 359 }
+			font = "aldrich_20_outline"
+			text = "ENG_THATCH_ELITIST_LIKES"
+			maxWidth = 150
+			maxHeight = 125
+			fixedsize = yes
+			format = left
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Elitist_Disikes"
+			position = { x = 348 y = 359 }
+			font = "aldrich_20_outline"
+			text = "ENG_THATCH_ELITIST_DISLIKES"
+			maxWidth = 150
+			maxHeight = 125
+			fixedsize = yes
+			format = left
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Populist_Support_Title"
+			position = { x = 6 y = 489 }
+			font = "aldrich_22_outline"
+			text = "대중주의자 지지"
+			maxWidth = 200
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Populist_Support_Number"
+			position = { x = 6 y = 539 }
+			font = "aldrich_36_outline"
+			text = "ENG_MAGGIE_MAGGIE_PER"
+			maxWidth = 200
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Populist_Likes"
+			position = { x = 190 y = 486 }
+			font = "aldrich_20_outline"
+			text = "ENG_THATCH_POP_LIKES"
+			maxWidth = 150
+			maxHeight = 125
+			fixedsize = yes
+			format = left
+		}
+		
+		instantTextboxType = {
+			name = "ENG_GUI_Maggie_Decision_GUI_Populist_Disikes"
+			position = { x = 348 y = 486 }
+			font = "aldrich_20_outline"
+			text = "ENG_THATCH_POP_DISLIKES"
+			maxWidth = 150
+			maxHeight = 125
+			fixedsize = yes
+			format = left
+		}
+	}
+}

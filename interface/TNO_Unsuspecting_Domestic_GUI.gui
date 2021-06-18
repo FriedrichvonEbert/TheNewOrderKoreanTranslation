@@ -1,0 +1,426 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Domestic_GUI"
+		size = { width = 525 height = 775 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "Burgundy_Domestic_GUI_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 402 y = -63 }
+			pdx_tooltip = BRG_Info_Button_Domestic_GUI
+		}
+
+		iconType = {
+			name = "BRG_DomesticGUI_Key"
+			spriteType = "GFX_BRG_DomesticGUI_Key"
+			position = { x = 20 y = -20 }
+		}
+
+		containerWindowType = {
+			name = "TNO_Burgundy_Domestic_GUI_Movement_Container"
+			size = { width = 525 height = 675 }
+			position = { x = 0 y = 35 }
+
+			iconType = {
+				name = "BRG_Domestic_GUI_BG"
+				spriteType = "GFX_BRG_DomesticGUI_BG"
+				position = { x = 28 y = 0 }
+			}
+
+			iconType = {
+				name = "BRG_DomesticGUI_Netherlands_Cover"
+				spriteType = "GFX_BRG_DomesticGUI_Netherlands_Cover"
+				position = { x = 334 y = 0 }
+			}
+			iconType = {
+				name = "BRG_DomesticGUI_Brittany_Cover"
+				spriteType = "GFX_BRG_DomesticGUI_Brittany_Cover"
+				position = { x = 28 y = 183 }
+			}
+			iconType = {
+				name = "BRG_DomesticGUI_France_Cover"
+				spriteType = "GFX_BRG_DomesticGUI_France_Cover"
+				position = { x = 199 y = 200 }
+			}
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Walloon_Status"
+				position = { x = 0 y = 460 }
+				font = "aldrich_30_outline"
+				text = BRG_domestic_gui_walloon_status
+				maxWidth = 525
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Langemarck_Status"
+				position = { x = 0 y = 518 }
+				font = "aldrich_30_outline"
+				text = BRG_domestic_gui_langemarck_status
+				maxWidth = 525
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Charlemagne_Status"
+				position = { x = 25 y = 572 }
+				font = "aldrich_30_outline"
+				text = BRG_domestic_gui_charlemagne_status
+				maxWidth = 475
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Reserves"
+				position = { x = 25 y = 630 }
+				font = "aldrich_30_outline"
+				text = BRG_DomesticGUI_Total_Reserves
+				maxWidth = 475
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Reserves_Workers"
+				position = { x = 25 y = 688 }
+				font = "aldrich_30_outline"
+				text = BRG_DomesticGUI_Total_Reserves_Workers
+				maxWidth = 475
+				maxHeight = 20
+				format = center
+			}
+
+			containerWindowType = {
+				name = "TNO_Burgundy_Domestic_GUI_States"
+				size = { width = 525 height = 455 }
+				position = { x = 0 y = 0 }
+
+				iconType = {
+					name = "BRG_DomesticGUI_State1" # West Frisia
+					position = { x = 408 y = 1 }
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State2" # Holland
+					position = { x = 334 y = 23 }
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State3" # Brabant
+					position = { x = 376 y = 82 }
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State4" # Flandern
+					position = { x = 308 y = 100 }
+					pdx_tooltip = BRG_Domestic_GUI_Flandern_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State5" # Wallonien
+					position = { x = 347 y = 126 }
+					pdx_tooltip = BRG_Domestic_GUI_Wallonien_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State6" # Pickardien
+					position = { x = 267 y = 118 }
+					pdx_tooltip = BRG_Domestic_GUI_Pickardien_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State7" # Kampen
+					position = { x = 339 y = 167 }
+					pdx_tooltip = BRG_Domestic_GUI_Kampen_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State8" # Freigafschaft
+					position = { x = 392 y = 224 }
+					pdx_tooltip = BRG_Domestic_GUI_Freigafschaft_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State9" # Normandie
+					position = { x = 214 y = 165 }
+					pdx_tooltip = BRG_Domestic_GUI_Normandie_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State10" # Greater Paris
+					position = { x = 267 y = 207 }
+					pdx_tooltip = BRG_Domestic_GUI_Greater_Paris_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State11" #West-Paris
+					position = { x = 265 y = 224 }
+					pdx_tooltip = BRG_Domestic_GUI_Paris_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State12" # Meau
+					position = { x = 302 y = 214 }
+					pdx_tooltip = BRG_Domestic_GUI_Meau_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State13" # Breton France
+					position = { x = 141 y = 184 }
+					pdx_tooltip = BRG_Domestic_GUI_Breton_France_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State14" # Evreux
+					position = { x = 217 y = 201 }
+					pdx_tooltip = BRG_Domestic_GUI_Evreux_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State15" # Versailles
+					position = { x = 236 y = 232 }
+					pdx_tooltip = BRG_Domestic_GUI_VERSAILLE_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State16" # Sully sur Loire
+					position = { x = 265 y = 256 }
+					pdx_tooltip = BRG_Domestic_GUI_Sully_Sur_Loire_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State17" # Burgund
+					position = { x = 317 y = 249 }
+					pdx_tooltip = BRG_Domestic_GUI_Burgund_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State18" # Bretagne
+					position = { x = 29 y = 225 }
+					pdx_tooltip = BRG_Domestic_GUI_Bretagne_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State19" # Loire
+					position = { x = 152 y = 281 }
+					pdx_tooltip = BRG_Domestic_GUI_Loire_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State20" # Centre
+					position = { x = 200 y = 246 }
+					pdx_tooltip = BRG_Domestic_GUI_Centre_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State21" # Centre sud
+					position = { x = 203 y = 303 }
+					pdx_tooltip = BRG_Domestic_GUI_Centre_Sud_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State22" # Vichy
+					position = { x = 322 y = 320 }
+					pdx_tooltip = BRG_Domestic_GUI_Vichy_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State23" # Rhone
+					position = { x = 360 y = 352 }
+					pdx_tooltip = BRG_Domestic_GUI_Rhone_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State24" # Vallon pont du arc
+					position = { x = 339 y = 374 }
+					pdx_tooltip = BRG_Domestic_GUI_Vallon_Tooltip
+				}
+				iconType = {
+					name = "BRG_DomesticGUI_State25" # Alepnland
+					position = { x = 389 y = 375 }
+					pdx_tooltip = BRG_Domestic_GUI_Alpenland_Tooltip
+				}
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Domestic_GUI_State_Window"
+		size = { width = 300 height = 575 }
+		position = { x = 543 y = 229 }
+		moveable = yes
+
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window_thin_border2"
+		}
+
+		instantTextboxType = {
+			name = "BRG_DomesticGUI_State_Menu_Title"
+			position = { x = 0 y = 8 }
+			font = "aldrich_24_outline"
+			text = BRG_DomesticGUI_STATE_INTERACTIONS
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+
+		containerWindowType = {
+			name = "TNO_Burgundy_Domestic_GUI_State_Window_asset_mover"
+			size = { width = 300 height = 575 }
+			position = { x = 0 y = 10 }
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Officers_In_State_Title"
+				position = { x = 0 y = 33 }
+				font = "aldrich_30_outline"
+				text = BRG_DomesticGUI_Officers_In_State
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Officers_In_State"
+				position = { x = 0 y = 91 }
+				font = "aldrich_24_outline"
+				text = BRG_DomesticGUI_Officers_getOfficers
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Officers_Change"
+				position = { x = 0 y = 147 }
+				font = "aldrich_22_outline"
+				text = BRG_DomesticGUI_Officers_Transfer
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Minus_State"
+				position = { x = 19 y = 84 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Plus_State"
+				position = { x = 245 y = 84 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Minus_Change"
+				position = { x = 19 y = 144 }
+				quadTextureSprite = "GFX_SGR_RND_GUI_decrease_budget_button"
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Plus_Change"
+				position = { x = 256 y = 144 }
+				quadTextureSprite = "GFX_SGR_RND_GUI_increase_budget_button"
+			}
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Workers_In_State_Title"
+				position = { x = 0 y = 188 }
+				font = "aldrich_30_outline"
+				text = BRG_DomesticGUI_Workers_In_State
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Workers_In_State"
+				position = { x = 0 y = 247 }
+				font = "aldrich_24_outline"
+				text = BRG_DomesticGUI_Workers_getWorkers
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Workers_Change"
+				position = { x = 0 y = 301 }
+				font = "aldrich_22_outline"
+				text = BRG_DomesticGUI_Workers_Transfer
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Minus_State_Workers"
+				position = { x = 19 y = 239 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Plus_State_Workers"
+				position = { x = 245 y = 239 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Minus_Change_Workers"
+				position = { x = 19 y = 299 }
+				quadTextureSprite = "GFX_SGR_RND_GUI_decrease_budget_button"
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Plus_Change_Workers"
+				position = { x = 256 y = 299 }
+				quadTextureSprite = "GFX_SGR_RND_GUI_increase_budget_button"
+			}
+
+			instantTextboxType = {
+				name = "BRG_DomesticGUI_Workers_Warning"
+				position = { x = 10 y = 330 }
+				font = "aldrich_24_outline"
+				text = BRG_DomesticGUI_Workers_Warning
+				maxWidth = 280
+				maxHeight = 20
+				format = center
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Infra_Button"
+				position = { x = 19 y = 387 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+				buttonFont = "aldrich_24_outline"
+				text = "인프라 시설 개선"
+				pdx_tooltip = BRG_infra_button_tooltip
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Slots_Button"
+				position = { x = 19 y = 427 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+				buttonFont = "aldrich_24_outline"
+				text = "건축물 공간 확보"
+				pdx_tooltip = BRG_slots_button_tooltip
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Factory_Button"
+				position = { x = 19 y = 467 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+				buttonFont = "aldrich_24_outline"
+				text = "공장 건설"
+				pdx_tooltip = BRG_factories_button_tooltip
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_City_Button"
+				position = { x = 19 y = 507 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
+				buttonFont = "aldrich_24_outline"
+				text = "브루탈리즘 도시 확장"
+				pdx_tooltip = BRG_brutalism_button_tooltip
+			}
+
+			buttonType = {
+				name = "BRG_DomesticGUI_Info_Button"
+				position = { x = 10 y = 1 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Info_Button"
+				pdx_tooltip =  BRG_Info_Button_Domestic_GUI
+				scale = 0.5
+			}
+		}
+
+		buttonType = {
+			name = "BRG_DomesticGUI_close_button"
+			position = { x = -29 y = 10 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+}
