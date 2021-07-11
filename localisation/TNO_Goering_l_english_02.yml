@@ -1,22 +1,4 @@
 ﻿l_english:
-
-
-#####목록#####
-### WAR PLAN 0 TREE
-### WAR PLAN A TREE
-#Kaukasien#
-#War PLAN C Trees#
-#Operation Dämmerung JAPAN TREE
-#France tree#
-### ALGERIA TREE ###
-### NAVAL TREE ###
-### Fall Schwarz ###
-### Rockwell Locwell
-### TURKEY TREE ###
-#War Plan B subfocus#
-### ITALY TREE ###
-
-
  ### WAR PLAN 0 TREE
 # GER_GOR_war_plan_0:0 "War Plan Zero" #duplicate loc key
  GGR_zero_plan:0 "전쟁계획 0호"
@@ -1803,10 +1785,10 @@ GER_silent_war_spies_6:0 "§G광범위함§!"
 
 GGR_schwarz_covert_level_1:0 "§노출됨§!"
 GGR_schwarz_covert_level_2:0 "§R위험에 빠짐§!"
-GGR_schwarz_covert_level_3:0 "§OEmbedding§!"
-GGR_schwarz_covert_level_4:0 "§SEntrentched§!"
-GGR_schwarz_covert_level_5:0 "§YQuiet§!"
-GGR_schwarz_covert_level_6:0 "§GSilent§!"
+GGR_schwarz_covert_level_3:0 "§O박힘§!"
+GGR_schwarz_covert_level_4:0 "§S견고함§!"
+GGR_schwarz_covert_level_5:0 "§Y조용함§!"
+GGR_schwarz_covert_level_6:0 "§G완전히 침묵함§!"
 
 GGR_try_to_contact_the_belgians:0 "벨기에인들에 접촉 시도"
 
@@ -1833,7 +1815,7 @@ GGR_send_more_spies:0 "추가 스파이 배치"
 GGR_kill_mission:0 "부르군트 스파이를 죽이자!"
 
 GGR_burgundian_schemes:0 "흑색 상황 준비"
-GGR_burgundian_schemes_desc:0 "현재 부르군트의 스파이 레벨은 [ROOT.GetBRG_silent_war_spies] 입니다.\n\n우리의 현재 스파이 레벨은 [ROOT.GetGER_silent_war_spies] 입니다.\n\n우리 작전에 대한 부르군트의 경계도는 현재 [ROOT.GetBRG_go_hot] 입니다.\n\n현재 우리의 첩보 수준은 [ROOT.GetGGR_schwarz_covert_level] 입니다.\n\n현재 우리는 [ROOT.Getsw_status] §L침묵의 전쟁§ 상태에 있습니다.\n\n우리가 §L침묵의 전쟁§!에서 승리하기 위해선 부르군트보다 더 높은 스파이 레벨을 유지해야 합니다.\nWe must be careful not to raise Burgundy's suspicions too high or they may pre-emtively strike us!\nOur covert level determines our operatives' ability to operate in secret and keeping it high will unlock more options for our agents."
+GGR_burgundian_schemes_desc:0 "현재 부르군트의 스파이 레벨은 [ROOT.GetBRG_silent_war_spies] 입니다.\n\n우리의 현재 스파이 레벨은 [ROOT.GetGER_silent_war_spies] 입니다.\n\n우리 작전에 대한 부르군트의 경계도는 현재 [ROOT.GetBRG_go_hot] 입니다.\n\n현재 우리의 첩보 수준은 [ROOT.GetGGR_schwarz_covert_level] 입니다.\n\n현재 우리는 [ROOT.Getsw_status] §L침묵의 전쟁§ 상태에 있습니다.\n\n우리가 §L침묵의 전쟁§!에서 승리하기 위해선 부르군트보다 더 높은 스파이 레벨을 유지해야 합니다.\n우리는 부르군트에게 의심을 너무 높이 사지 말아야 하며, 그렇지 못할 경우 선제 공격을 받을 수도 있습니다!\n우리의 대외비 수준은 비밀리에 작전을 수행중인 요원들의 능력을 결정하며 비밀 수준을 높게 유지하면 우리 요원들에게도 더욱 많은 선택지가 생깁니다."
 
 ### Rockwell Locwell
 GER_GOR_operation_von_spee_tooltip:0 "남미 대륙을 통제하기 위한 우리 프로젝트의 일환으로 우리는 아르헨티나를 침공하여 아르헨티나를 미국과 일본에 대항하는 해군 기지로 만들 것입니다.\n\n"
@@ -1854,7 +1836,7 @@ goering.1502.d:0 "헤르만 괴링 총통에게,\n달콤한 말로 저의 신뢰
 goering.1502.a:0 "망할 빨갱이들!"
 
 goering.1503.t:0 "같은 우파끼리"
-goering.1503.d:0 "To President François Duvalier of Haiti,\nI wish you and your country goodwill. Your tenure as President has seen great improvements to the suffering and poverty that has plagued Haiti since its great revolution against the French tyrants. Haiti is a peaceful and stable island, and many in Germany admire the means by which you have applied the lessons of Fascism and National Socialism to the American continent.\n\nI write to offer an alliance in these dark times. Haiti is strong, but in the event of a German-American conflict it risks being trampled underfoot. The Reich's friendship is a valuable thing, one that could protect Haiti in this event. The day the Haitian Republic joins the Einheitspakt will be a day of prosperity and peace to be marked for the ages. Haiti and Dominica could be unified under one banner for the first time with our assistance, and your name praised for eternity.\n\nI eagerly await your reply.\n\nBest Wishes,\nFührer Hermann Göring"
+goering.1503.d:0 "아이티의 대통령 프랑수아 뒤발리에에게,\n당신과 당신 국가의 무궁한 발전을 기원합니다. Your tenure as President has seen great improvements to the suffering and poverty that has plagued Haiti since its great revolution against the French tyrants. Haiti is a peaceful and stable island, and many in Germany admire the means by which you have applied the lessons of Fascism and National Socialism to the American continent.\n\nI write to offer an alliance in these dark times. Haiti is strong, but in the event of a German-American conflict it risks being trampled underfoot. The Reich's friendship is a valuable thing, one that could protect Haiti in this event. The day the Haitian Republic joins the Einheitspakt will be a day of prosperity and peace to be marked for the ages. Haiti and Dominica could be unified under one banner for the first time with our assistance, and your name praised for eternity.\n\n답변을 기다리겠습니다.\n\n행복을 빌며,\n총통 헤르만 괴링"
 goering.1503.a:0 "독재자가 동류를 알아보았군."
 
 goering.1504.t:0 "적의 적은 나의 적"
@@ -2480,6 +2462,6 @@ GGR_forward_men_desc:0 "The traitors are about to fall! Each day our brave and p
  GGR_infiltration_tactics_desc:0 "Our power is undeniable and the Untermensch shall surely falter. It is also undeniable that our men will die in huge numbers if we do not use them wisely, even against savages. It is best that we invest in the training of operatives that shall infiltrate deep into enemy lines - if we are successful in disrupting Italy's defensive encampments it will ensure that our naval invasion shall suffer less strained supply lines. Moreover, if we are successful it may limit German casualties when we land on the beaches of Italy. A little planning will do much for us when the time comes: be assured, however, that it will all be worth it."
  
  GGR_the_time_has_come:0 "시간이 다가오다"
- GGR_the_time_has_come_desc:0 "The time has come to prepare our forces for the trip to the beaches. The Kriegsmarine has successfully achieved every goal it has set out to achieve: with the Mediterranean Sea secure and the Italian fleet decimated, the way is open for a large-scale amphibious landing. There is now a critical window of opportunity, before land defenses are fortified and the beaches turn into killing fields: we must land the soldiers of the Heer as soon as possible. And when we have landed in strength, the Heer will display its untamed might against the pitiful remnants of the Italian army. And then - how did the Latin go again? We will engage in, ah, making a desert and calling it peace."
+ GGR_the_time_has_come_desc:0 "해변으로 갈 아군을 준비해야 할 때가 왔습니다. 크릭스마리네 해병대는 지중해를 안전하게 보호하고, 이탈리아 함대를 격멸하는 모든 목표를 성공적으로 달성하며 대규모 수륙양용 상륙작전의 길이 열렸습니다. There is now a critical window of opportunity, before land defenses are fortified and the beaches turn into killing fields: we must land the soldiers of the Heer as soon as possible. And when we have landed in strength, the Heer will display its untamed might against the pitiful remnants of the Italian army. And then - how did the Latin go again? We will engage in, ah, making a desert and calling it peace."
  
  ##### EVENTS ##### 로 이어짐
