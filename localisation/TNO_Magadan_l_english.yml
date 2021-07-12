@@ -202,7 +202,7 @@
  MAG_WA_caesar:0 "용병 카이사르"
  MAG_WA_cincinnatus:0 "용병 킨키나투스"
  MAG_WA_gateway_into_russia:0 "러시아로의 관문"
- MAG_WA_gateway_into_russia_desc:0 "Every day more ships come into Magadan's harbor, bearing goods from the outside world and ushering in a new age of Siberian prosperity. Magadan is finally becoming what we always knew it could be: A central hub of Pacific trade."
+ MAG_WA_gateway_into_russia_desc:0 "매일 외부 세계의 물건들을 실은 수많은 배들이 마가단의 항구로 들어와 시베리아 번영의 새로운 시대를 열고 있습니다. 마침내 마가단은 우리에게 익숙한 것이 되었습니다: 태평양 무역의 중심지 말입니다."
  MAG_WA_mercenary_looters:0 "용병 약탈자들"
  MAG_WA_american_economy_1:0 "미국인 경제"
  MAG_WA_american_economy_2:0 "미국인 경제"
@@ -210,7 +210,7 @@
  MAG_WA_russian_economy_1:0 "러시아인 경제"
  MAG_WA_russian_economy_2:0 "러시아인 경제"
  MAG_WA_russian_economy_3:0 "러시아인 경제"
- MAG_WA_strategic_services_unit:0 "Strategic Services Unit"
+ MAG_WA_strategic_services_unit:0 "전략정보국"
  MAG_WA_training_centers:0 "치타 훈련소"
 
  #West Alaska ideas
@@ -303,22 +303,22 @@
  
  ### West Alaska - A Government of Personalities ###
  MAG_WA_a_government_of_personalities_category:0 "개성있는 정부"
- MAG_WA_a_government_of_personalities_category_desc:0 "West Alaska has a unique style of government. WerBell's outsider nature and connections to America have allowed him to have a broad field of ministers to help him administer the republic. These range from CIA contacts, mercenary buddies, collaborationist Russians, and local politicians.\n\nHowever, the President must be weary on who is present in his cabinet, for some sides may grow envious at the others' power if not placated.\n\n- §OMercenary Influence§!: [?MAG_mercenaries_faction_strength] §OOpinion§!: [?MAG_mercenaries_faction_opinion]\n[?MAG_WA_merc_army_weekly_manpower] Weekly Manpower, [?MAG_WA_merc_army_army_attack_factor_change]% Attack, [?MAG_WA_merc_army_army_defence_factor_change]% Defence\n\n- §YCollaborator Influence§!: [?MAG_collabs_faction_strength] §YOpinion§!: [?MAG_collabs_faction_opinion]\n[?MAG_WA_merc_army_conscription_factor_change_c]% Recruitable Population Factor, [?MAG_WA_merc_army_de_encryption_factor_change]% Encryption, [?MAG_WA_merc_army_de_encryption_factor_change]% Decryption\n\n- §GLocals Influence§!: [?MAG_locals_faction_strength] §GOpinion§!: [?MAG_locals_faction_opinion]\n[?MAG_WA_merc_army_conscription_factor_change_l]% Recruitable Population Factor, [?MAG_WA_merc_army_production_factory_max_efficiency_factor_change]% Production Efficiency Cap"
+ MAG_WA_a_government_of_personalities_category_desc:0 "서알래스카는 독특한 스타일의 정부를 가지고 있으며, 워벨의 자유분방한 성격과 미국에의 연줄은 그의 공화국 통치를 도와줄 다양한 분야의 장관들을 불러모았습니다. 이들은 CIA 연락책, 용병 친구, 러시아인 협력자들, 그리고 지역 정치인들로 이루어져 있습니다.\n\n하지만 대통령은 누구를 내각에 집어넣을지 결정하는 데 싫증이 났으며, 한 쪽을 내각에 임명하면 다른 쪽의 이들이 불만을 품을 것입니다.\n\n- §O용병 영향력§!: [?MAG_mercenaries_faction_strength] §O의견§!: [?MAG_mercenaries_faction_opinion]\n[?MAG_WA_merc_army_weekly_manpower] 주간 인력, [?MAG_WA_merc_army_army_attack_factor_change]% 공격력, [?MAG_WA_merc_army_army_defence_factor_change]% 방어력\n\n- §Y협력자 영향력§!: [?MAG_collabs_faction_strength] §Y의견§!: [?MAG_collabs_faction_opinion]\n[?MAG_WA_merc_army_conscription_factor_change_c]% 징병 가능 인구, [?MAG_WA_merc_army_de_encryption_factor_change]% 암호화, [?MAG_WA_merc_army_de_encryption_factor_change]% 복호화\n\n- §G원주민 영향력§!: [?MAG_locals_faction_strength] §G의견§!: [?MAG_locals_faction_opinion]\n[?MAG_WA_merc_army_conscription_factor_change_l]% 징병 가능 인구, [?MAG_WA_merc_army_production_factory_max_efficiency_factor_change]% 생산 효율성 한도"
  MAG_WA_minister_cooldown:0 "장관 임명 재사용 대기시간"
  
  MAG_LOCALS_TANGLE:0 "§G원주민§!"
  MAG_MERCENARY_TANGLE:0 "§O용병§!"
  MAG_COLLABS_TANGLE:0 "§Y협력자§!"
  
- MAG_WA_increase_merc_influence_high_tt:0 "This will §Ggreatly increase§! §OMercenary Influence§!.\n"
- MAG_WA_increase_merc_influence_low_tt:0 "This will §Gincrease§! §OMercenary Influence§!.\n"
- MAG_WA_decrease_merc_influence_high_tt:0 "This will §Rdecrease§! §OMercenary Influence§!.\n"
- MAG_WA_increase_collabs_influence_high_tt:0 "This will §Ggreatly increase§! §YCollaborator Influence§!.\n"
- MAG_WA_increase_collabs_influence_low_tt:0 "This will §Gincrease§! §YCollaborator Influence§!.\n"
- MAG_WA_decrease_collabs_influence_high_tt:0 "This will §Rdecrease§! §YCollaborator Influence§!.\n"
- MAG_WA_increase_locals_influence_high_tt:0 "This will §Ggreatly increase§! §GLocals Influence§!.\n"
- MAG_WA_increase_locals_influence_low_tt:0 "This will §Gincrease§! §GLocals Influence§!.\n"
- MAG_WA_decrease_locals_influence_high_tt:0 "This will §Rdecrease§! §GLocals Influence§!.\n"
+ MAG_WA_increase_merc_influence_high_tt:0 "이는 §O용병 영향력§!을 §G대단히 증가시킬§! 것입니다.\n"
+ MAG_WA_increase_merc_influence_low_tt:0 "이는 §O용병 영향력§!을 §G증가시킬§! 것입니다.\n"
+ MAG_WA_decrease_merc_influence_high_tt:0 "이는 §O용병 영향력§!을 §R감소시킬§! 것입니다.\n"
+ MAG_WA_increase_collabs_influence_high_tt:0 "이는 §Y협력자 영향력§!을 §G대단히 증가시킬§! 것입니다.\n"
+ MAG_WA_increase_collabs_influence_low_tt:0 "이는 §Y협력자 영향력§!을 §G증가시킬§! 것입니다.\n"
+ MAG_WA_decrease_collabs_influence_high_tt:0 "이는 §Y협력자 영향력§!을 §R감소시킬§! 것입니다.\n"
+ MAG_WA_increase_locals_influence_high_tt:0 "이는 §G원주민 영향력§!을 §G대단히 증가시킬§! 것입니다.\n"
+ MAG_WA_increase_locals_influence_low_tt:0 "이는 §G원주민 영향력§!을 §G증가시킬§! 것입니다.\n"
+ MAG_WA_decrease_locals_influence_high_tt:0 "이는 §G원주민 영향력§!을 §R감소시킬§! 것입니다.\n"
  
  #OG Cabinet/OSS/Intelligence contacts
  MAG_WA_OSS_ministers_effigy:0 "§B정보국 접촉§!"
@@ -2308,8 +2308,8 @@
  wa_superregional.4.desc:0 "Anatoly expected to see an American or a fellow Russian. Not the 193 centimeter tall African man that followed him everywhere now. He was from the Congo apparently, a mercenary who left during the war over there. Anatoly wasn't quite sure about it or the man's bizarre Russian accent. In the end, it didn't matter. This man would be his protector for the rest of time. Anatoly had held a significant post in Novosibirsk and unlike everyone of a similar rank, was willing to work with the madman from Magadan. Not that it had made him any friends. Already every single colleague had greeted the Provisional Governor of the State of Novosibirsk death threats. Pinned to his door with a knife, of course. Just to drive that little detail home. Anatoly looked for solace among the many mercenaries flowing into his city but found only the Congolese a decent drinking companion. Largely because he didn't speak. The others were loud, largely foreign mob that had no respect for anything besides their own pockets!\n\nIt wasn't like his work was particularly important either. He signed off on orders to repair railway lines, rebuild factories, and repurpose old military surplus to be used by the...Oh it was such a ridiculous fucking name! The United States of Siberia? He had sold his soul not to the devil, but to an idiot. Still...The post brought him prestige, no small amount of money, and influence with the Senators of the other States for helping grease the wheels of bureaucracy in their favor. If it helped the people of Novosibirsk, all the better no?\n\nAs he contemplated these matters, several bullets richoted from his window. The Congolese tackled him to the floor as others opened fire. After a few seconds it was over. No casualties on either side. Anatoly took a moment to get in his chair, take a deep breath, and..."
  wa_superregional.4.a:0 "...start laughing so hard until he started sobbing."
  
- wa_superregional.5.t:0 "A Long Resume"
- wa_superregional.5.desc:0 ""I've been looking over your record, Mr. Tarasov." Said the Minister of Defense of the USS as he strolled past the table where Ivan was sitting. Both their faces were illuminated by a flickering light in the concrete walled room, lending its sputtering radiance to the greyscale meeting room. Ivan had been dragged here about an hour ago, for what he thought was an interrogation. That was the only logical reason why they hadn't killed killed him for being a Novosibirsk general. He had never expected what it would turn into - a job interview.\n\n"Victory at the battle of Kemerovo. Victorious partisan campaign in northern Tomsk. Embittered last stand in the ruins of Altay. A million more victories and bitter, but hard fought, defeats. Quite a track record you have, really. Your boys put a great few of our boys in the dirt." Continued the Minister.\n\n"And? It was my job." Replied Ivan, surprised at the rather biting addition to the list.\n\n"Mr. Tarasov, you're mistaking a compliment for an accusation. What I'm saying, is we could use men like you leading our armies. They are efficient and skilled, as you have seen, but unruly. A strong hand at the lead."\n\n"I see. Is that why I'm not dead yet?"\n\n"Now you're getting the gist, Tarasov. So, what will it be? Another 10 years in here..." A drop of water fell from the leaky ceiling onto the table, "Or back on the frontline, commanding honest Russian men... and a few less than honest foreigners."\n\nIvan gritted his teeth before hissing a reply, "Fine.""
+ wa_superregional.5.t:0 "재시작"
+ wa_superregional.5.desc:0 ""당신의 기록을 검토하고 있었네, 타라소프 씨." 시베리아 합중국 국방장관이 이반 옆을 어슬렁거리며 말했다. 회색톤 회의실의 불빛이 두 사람의 얼굴에 반사되어 밝게 빛났다. 한 시간 전 이반은 여기로 끌려왔으며, 처음에는 이게 심문이라 생각했다. 옛 노보시비르스크 장군을 사형시키지 않은 단 하나의 논리적인 이유니까. 그는 그에게 닥칠 일을 전혀 예상치 못했다- 바로 취업 면접이었다.\n\n"케메로보 전투 승리, 톰스크 북부에서의 파르티잔 소탕 작전 성공, 알타이의 폐허에서의 쓰라린 패배. 수많은 전투와 승리와 패배. 정말 좋은 전적이군. 당신과 당신의 병사들은 수많은 우리 젊은이들을 쓰러뜨렸지." 장관이 말을 이어갔다.\n\n"그런데요? 그게 내 일입니다." 이반이 약간 놀란 듯 답했다.\n\n"타라소프 씨, 당신은 칭찬을 비난으로 착각하고 있소. 내가 말하고자 하는 건 우리 군대를 이끄는 데 당신같은 자들이 적합하다는 뜻이었소. 우리 병사들은 강인하고 능력있으나, 무질서하네. 강력한 지도자가 필요하지."\n\n"네. 저를 아직 죽이지 않은 이유가 그겁니까?"\n\n"이제 요점을 파악했군, 타라소프. 그래서 어쩔 건가? 여기서 10년을 더 보낼텐가..." 천장에서 물방울이 테이블로 떨어졌다. "아니면 전선에 복귀하여 성실한 러시아 병사들을 이끌텐가... 아, 그리고 이들보다는 덜 성실한 외국인들도 말이지."\n\n이반은 이를 악물고 대답했다. "좋습니다.""
  wa_superregional.5.a:0 ""환상적이군. 군대에 온 것을 환영하네.""
  
  wa_superregional.6.t:0 "So Long and Thanks for All the Cash"
