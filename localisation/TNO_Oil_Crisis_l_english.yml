@@ -3,7 +3,7 @@
 #Ideas
  OIL_prelude:0 "석유 시장 불안정"
  OIL_prelude_desc:0 ""
- OIL_stage_1:0 "Oil Crash"
+ OIL_stage_1:0 "석유 시장 붕괴"
  OIL_stage_1_desc:0 ""
  OIL_stage_2:0 "석유 파동"
  OIL_stage_2_desc:0 ""
@@ -11,7 +11,7 @@
  OIL_stage_3_desc:0 ""
  OIL_stage_4:0 "Lessening Crisis"
  OIL_stage_4_desc:0 ""
- OIL_stage_5:0 "End of the Crisis"
+ OIL_stage_5:0 "위기 종결"
  OIL_stage_5_desc:0 ""
  USA_OilCrisis_Covert_Actions:0 "Covert Actions"
  USA_OilCrisis_Covert_Actions_2:0 "Covert Actions"
@@ -23,14 +23,14 @@
  USA_OilCrisis_FUCKYOUSAUDIS_2:0 "Guerrilla Rebels"
  USA_OilCrisis_FUCKYOUSAUDIS_2_desc:0 "Guerrilla rebels operate across the deserts of Saudi Arabia against our government, them destroying supply routes and initating surprise attacks can bog us down."
  OIL_proitaly_volunteers:0 "Only the Best!"
-  OIL_prosaud_volunteers:0 "Pro-Saudi Volunteers"
- OIL_prouar_volunteers:0 "Pro-Ba'ath Volunteers"
+  OIL_prosaud_volunteers:0 "친사우디 자원군"
+ OIL_prouar_volunteers:0 "친바트당 자원군"
  
  #Decisions
- USA_Feeding_the_Flames:0 "Send Weapons to Italy"
+ USA_Feeding_the_Flames:0 "이탈리아에 무기 지원"
  USA_Feeding_the_Flames_2:0 "Begin Sending Advisory Forces to Italy" 
  USA_Oil_Italy_Support_category:0 "Aid Italy with the Oil Crisis"
- USA_Bolsteir_Their_Forces:0 "Send Weapons to Italy"
+ USA_Bolsteir_Their_Forces:0 "이탈리아에 무기 지원"
  USA_Bolsteir_Their_Forces_2:0 "Send Even More Weapons!"
  
  #Opinion Modifiers
@@ -150,7 +150,7 @@
 
  TNO_Oil_Crisis_dynamic_modifier:0 "석유 파동의 영향"
  TNO_Oil_Crisis:0 "석유 파동"
- TNO_Oil_Crisis_desc:0 "정치력 획득: [?OC_political_power_factor|=%+0]\n소비재 공장: [?OC_consumer_goods_factor|%Y0]\nStability: [?OC_stability_factor|=%+2]\nConstruction Speed: [?OC_production_speed_buildings_factor|=%+2]\nFactory Output: [?OC_industrial_capacity_factory|=%+2]\nDockyard Output: [?OC_industrial_capacity_dockyard|=%+2]\nSynthetic Oil: [?OC_production_oil_factor|=%+2]\nTrade deal opinion factor: [?OC_trade_opinion_factor|=%Y2]\nFuel Gain per Oil: [?OC_fuel_gain_factor|=%+2]\nAnnual GDP Growth Factor: [?OC_annual_gdp_growth_factor|=%+2]\nProportional GDP Cost: [?OC_proportional_gdp_cost|=%-2]\nPersonnel Cost Modifier: [?OC_personnel_cost_modifier|=%Y1]\n--------------\nWith the recent crash of the ENI oil company, oil prices worldwide are undergoing a period of rapid fluctuation, and the resultant strife throughout the world has threatened to crash the Global Market as a whole.\n\nRegardless of ideology, nationality, or loyalty, economic experts worldwide agree on only one thing:\n\nOur only hope for economic survival is to §Yride out the storm§! and §Rpray for a miracle.§!"
+ TNO_Oil_Crisis_desc:0 "정치력 획득: [?OC_political_power_factor|=%+0]\n소비재 공장: [?OC_consumer_goods_factor|%Y0]\n안정도: [?OC_stability_factor|=%+2]\n건설 속도: [?OC_production_speed_buildings_factor|=%+2]\n공장 산출량: [?OC_industrial_capacity_factory|=%+2]\n조선소 산출량: [?OC_industrial_capacity_dockyard|=%+2]\nSynthetic Oil: [?OC_production_oil_factor|=%+2]\nTrade deal opinion factor: [?OC_trade_opinion_factor|=%Y2]\nFuel Gain per Oil: [?OC_fuel_gain_factor|=%+2]\nAnnual GDP Growth Factor: [?OC_annual_gdp_growth_factor|=%+2]\nProportional GDP Cost: [?OC_proportional_gdp_cost|=%-2]\nPersonnel Cost Modifier: [?OC_personnel_cost_modifier|=%Y1]\n--------------\nWith the recent crash of the ENI oil company, oil prices worldwide are undergoing a period of rapid fluctuation, and the resultant strife throughout the world has threatened to crash the Global Market as a whole.\n\nRegardless of ideology, nationality, or loyalty, economic experts worldwide agree on only one thing:\n\nOur only hope for economic survival is to §Yride out the storm§! and §Rpray for a miracle.§!"
 
  TNO_Oil_Crisis_reduce_effects_tooltip:0 "The effects of the §YOil Crisis§! will be §Greduced§!.\n"
  TNO_Oil_Crisis_remove_modifier_tooltip:0 "The §YOil Crisis§! modifier will be §Gremoved§!.\n"
