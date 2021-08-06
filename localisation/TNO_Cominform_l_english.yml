@@ -12,9 +12,9 @@
 
  RUS_comecon_withdrew_money:0 "코메콘 기금 철회"
 
- RUS_comecon_sent_aid:0 "코메콘 원조 전송"
+ RUS_comecon_sent_aid:0 "코메콘이 보내준 원조"
 
- RUS_comecon_requested_aid:0 "Requested COMECON Aid"
+ RUS_comecon_requested_aid:0 "요청된 코메콘 원조"
 
  RUS_comecon_built_factory:0 "코메콘 동맹국의 산업 개발"
  
@@ -41,10 +41,10 @@
 
  TNO_socintern_category:0 "§R사회주의 인터네셔널§!"
  TNO_socintern_category_desc:0 "\n\n\n\n\n\nTo facilitate the interests of mutual cooperation among those nations which have adopted the socialist ideology, the §RSocialist International§! serves as a premier means of providing global cooperation and strategic assistance. Through the §RSocIntern§!, socialist states may coordinate with each other in defensively and politically, and a forum to discuss assistance to global proletarian and national liberation movements may be provided.\n\n§RSocIntern§! §Ycollective defense fund§! balance: [?global.COMECON_collective_defense_value|2]M USD.\n\n[GetSocInternVote]"
- TNO_found_comecon:0 "Found §SCOMECON§!"
- COM_invite_country:0 "Offer Membership to [FROM.GetName]"
- COM_invite_country_associate:0 "Offer Associate Status to [FROM.GetName]"
- COM_propose_mutual_nap:0 "Propose a mutual Non-Aggression Pact to [FROM.GetName]"
+ TNO_found_comecon:0 "§S코메콘§!의 창설"
+ COM_invite_country:0 "[FROM.GetName]에게 회원국 지위 제공"
+ COM_invite_country_associate:0 "[FROM.GetName]에게 제휴국 지위 제공"
+ COM_propose_mutual_nap:0 "[FROM.GetName]에게 상호 불가침 조약 제안"
 
  TNO_SOCINTERN_VOTING:0 "Current SocIntern resolution - [GetSocInternResolutionTitle]\n\n[GetSocInternResolutionDesc]\n\n§GYES§! Votes - §G[?global.SocIntern_yes_votes]§!\n§RNO§! Votes - §R[?global.SocIntern_no_votes]§!\n§YABSTAIN§! Votes - §Y[?global.SocIntern_abs_votes]§!\n"
  TNO_SOCINTERN_NOT_VOTING:0 "No SocIntern resolution is currently be voted on."
