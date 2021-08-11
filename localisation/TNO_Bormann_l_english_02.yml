@@ -67,14 +67,14 @@
  GER_bormann_next_generation_desc:0 "게르마니아는 박살나고 반항적인 젊은 세대에 군사적 자부심과 애국심을 주입할 목적의 대규모 선전 운동에 착수했습니다. 라이히의 국방군 징병소는 충격에 대비하고 있습니다."
 
  #SAF
- MZB_additional_werewolve_training: "Additional Werewolves Training"
- MZB_additional_werewolve_training_desc: "Martin Bormann has ordered the establishment of a new program in Ostafrika to train additional guerrilla units which will stay behind in overrun areas and inflict damage to the enemy. While these so-called Werewolves will strike fear into any foe foolish enough to advance into our territory, their loyalty to Hüttig is dubious at best. To whom do they truly answer: the Reichskommissar or the Führer?"
- MZB_savanna_mine_laying: "Savanna Mine Laying"
- MZB_savanna_mine_laying_desc: "The Führer has coordinated with our military to produce a massive mine-laying program in Ostafrika to inflict physical and psychological damage to enemy troops marching into our territory. Every inch of land taken will be paid for with blood as the Americans and their South African lap dogs are torn apart limb from limb."
- BOR_safwar_weapon_tests: "Weapons Tests"
- BOR_safwar_weapon_tests_desc: "The Reich is testing various weapons in the hopes of a breakthrough that will propel us to victory. Several new prototypes are being experimented with, including the most secretive Wunderwaffen projects. If any such advancements in weaponry prove successful, victory is all but guaranteed."
- GER_BOR_schock_methode: "Schock-Methode"
- GER_BOR_schock_methode_desc: "To obtain victory in Africa, the Wehrmacht high command has developed and decreed the Schock-Methode. Overwhelming force and spectacular displays of power in quick succession shall shatter our enemy's will to fight."
+ MZB_additional_werewolve_training: "추가적인 베어불프 훈련"
+ MZB_additional_werewolve_training_desc: "마르틴 보어만은 동아프리카에 후방에 널리 퍼져 숨어있다가 적에게 피해를 줄 추가적인 게릴라 병력을 육성할 새로운 프로그램을 개설할 것을 명령했습니다. 소위 베어불프 부대는 우리의 영역으로 진군하는 바보같은 적들에게 공포를 안겨주겠지만 그들의 휘티히를 향한 충성은 수상합니다. 그들이 국가판무관과 총통 중 진심으로 충성하는 대상은 누구일까요?"
+ MZB_savanna_mine_laying: "사바나 지뢰 매설"
+ MZB_savanna_mine_laying_desc: "총통은 동아프리카에 우리의 군대가 우리의 영역으로 들어오는 적 병력에게 물리적, 심리적 피해를 입히기 위해 대규모로 매설할 지뢰의 생산을 편성했습니다. 미국인들과 그들의 개, 남아프리카인들은 사지가 찢기면서 그들이 얻는 땅 1인치마다 피를 값으로 지불할 것입니다."
+ BOR_safwar_weapon_tests: "무기 테스트"
+ BOR_safwar_weapon_tests_desc: "라이히는 우리를 승리로 이끌 희망의 돌파구로 다양한 무기를 테스트하고 있습니다. 새로운 프로토타입들이 시험운용되고 있고 더욱 기밀에 싸인 분더바펜 프로젝트 역시 여기 포함되어 있습니다. 만일 이런 무기가 성공한다면 우리의 승리는 따 놓은 당상입니다."
+ GER_BOR_schock_methode: "충격 계획"
+ GER_BOR_schock_methode_desc: "아프리카에서 승리를 얻기 위해 국방군 고위사령부는 충격 계획을 개발해 도입했습니다. 넘치는 병력과 놀라운 힘을 빠르게 보여준다면 우리의 적의 전의는 꺾일 것입니다."
 
  #Poland
  GER_bormann_surround_the_borders:0 "Wehrmacht Mobilisation"
@@ -266,10 +266,10 @@
  decision_cost_600_artillery_blocked: "£artillery_texticon §R600§!"
 
  #T H E  S H O W D O W N
- GER_BOR_favour_schorner: "§MThis option will favour§! §YSchörner§!§M.§!\n"
- GER_BOR_favour_speidel: "§MThis option will favour§! §YSpeidel§!§M.§!\n"
- BOR_speidel_okw: "§YHans Speidel§! has been appointed §gChief of the OKW§!"
- BOR_schorner_okw: "§YFerdinand Schörner§! has been appointed §gChief of the OKW§!"
+ GER_BOR_favour_schorner: "§M이 선택지는§! §Y쇠르너§!§M의 편을 들어줍니다.§!\n"
+ GER_BOR_favour_speidel: "§M이 선택지는§! §Y슈파이델§!§M의 편을 들어줍니다.§!\n"
+ BOR_speidel_okw: "§Y한스 슈파이델§!이 §g국방군 최고사령부 수장§!으로 지명되었습니다."
+ BOR_schorner_okw: "§Y페르디난트 쇠르너§!가 §g국방군 최고사령부 수장§!으로 지명되었습니다."
 
  #Poland diplo tree
  POL_victory:0 "The Poles have defeated the §gGeneralgouvernment§!"
@@ -1210,11 +1210,11 @@
  BOR_a_thousand_year_reich_forevermore_desc:0 "우리는 내전 이후 생존하는데 성공했으며 대게르만국은 수십년 만에 처음으로 정치적인 안정을 얻었습니다. 그 결과로 강력한 낙관주의의 물결이 라이히를 휩쓸고 있고 좋은 미래를 희망하는 독일인들은 이것이 국가사회주의의 영광스러운 세기의 시작이라 믿으며 마르틴 보어만 총통 아래에서의 새로운 황금기가 여명에 달했습니다. 시간이 지나봐야 알 수 있겠지만 최근의 사건들을 고려해보면 천년의 라이히가 영원하리라는 것은 자명합니다."
 
  ##South Africa
- BOR_the_reichs_war_down_in_africa:0 "The Reich's War Down in Afrika"
- BOR_the_reichs_war_down_in_africa_desc:0 "The rightful successor has finally triumphed and reunited Germany proper under his rule, but the Reich's wars are far from over. In darkest Afrika, our Reichskomissariats fight a brave war in protection of the Boers of the Union of South Africa. The Boers have long proved a civilising element to the barbarians of the dark continent, and their fight against the American-aligned Union must be supported to maintain the influence of the German Reich outside Europe.\n\nThe people of the Reich are battle-hardened but weary, for fighting fellow Aryans is not good for the soul. It will be good to give them a just war to reinvigorate them - to prove that Germany is not yet through."
+ BOR_the_reichs_war_down_in_africa:0 "라이히의 남아프리카 전쟁"
+ BOR_the_reichs_war_down_in_africa_desc:0 "적법한 계승자가 마침내 승리했고 재통일된 독일은 완전히 그의 통치 아래에 들어왔지만 라이히의 전쟁은 아직 끝나지 않았습니다. 가장 어두운 대륙 아프리카에서는 우리의 국가판무관들이 남아프리카 연방의 보어인들의 수호를 위해 용감하게 전쟁을 치르고 있습니다. 보어인들은 이 암흑 대륙의 야만인들을 문명화시킬 존재임을 오랫동안 입증해왔으며 미국과 연합한 연방과 그들의 싸움은 유럽 외부에서 대게르만국의 영향력을 유지하기 위해서라도 지지받아야합니다.\n\n독일의 국민들은 전투에 단련되었지만 지쳤습니다. 동료 아리아인들과 싸우는 것은 그들의 영혼에 좋지 못한 영향을 끼쳤습니다. 그들을 다시 일깨우기 위해서라면 전쟁에 참여하는 것도 좋을 것입니다. - 독일이 아직 무너지지 않았음을 증명하기 위해서라도 말입니다."
 
- BOR_assess_the_situation:0 "Assess the Situation"
- BOR_assess_the_situation_desc:0 "It is not for nothing that Afrika is called the dark continent. It's vast lands have long remained undeveloped, and little information escapes our colonies outside official channels. The Bürgerkrieg severed these channels of communication, with our agents in the continent experiencing confusion at the simple task of to whom to send their reports. With the command structure effectively decapitated, our Reichskommisarriats banded together into the Afrika-Schild. The Schild's war against South Africa has further complicated issues, so it is vital we gain accurate reports of the situation on the ground and re-establish communications."
+ BOR_assess_the_situation:0 "상황 접근"
+ BOR_assess_the_situation_desc:0 "아프리카가 암흑 대륙이라 불리는 것은 괜히 나온 말이 아닙니다. 그 광대한 땅은 오랜 기간 미개발 상태였고 공식적인 채널 이외에는 우리의 식민지에서는 거의 정보가 나오지 않습니다. 내전은 그 연락 채널조차 끊어버렸고 대륙에 있는 우리 요원들은 누구에게 보고를 올리지에 대한 간단한 문제마저 혼란을 경험하고 있습니다. 지휘 구조가 거의 붕괴되자 우리의 국가판무관부들은 함께 모여 아프리카 실트를 결성했습니다. 남아프리카에 대한 실트의 전쟁은 더욱 더 복잡한 문제가 되었습니다. 따라서 상황에 대한 바닥에서부터의 정확한 정보를 얻는 것과 연락망을 재건하는 것은 필수적인 사안입니다."
 
  BOR_huttig_has_to_suffice:0 "Hüttig Has to Suffice"
  BOR_huttig_has_to_suffice_desc:0 "Hans Hüttig, Reichskommissar of Ostafrika, is a deeply unpleasant man. The former concentration camp commander has taken those lessons to heart, and Ostafrika is ruled like a country sized version of Buchenwald. His cruelty is known from the Atlantic to the Indian Ocean, his racially pure SS troops enforce a strict caste system over their African subjects - and that hair. Still, he is an effective tool against the South Africans and must be aided - even if he does keep insisting his Reichskommisar peers are traitors."
