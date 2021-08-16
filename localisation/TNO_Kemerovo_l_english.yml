@@ -72,7 +72,7 @@
 
  ### Ideas ###
  KEM_esoteric_kingdom:0 "난해한 왕국"
- KEM_esoteric_kingdom_desc:0 "루리크 2세는 모든 반역자들과 신성한 러시아의 모든 약탈자들이 멸망하는 것을 보고자 하는 열망으로 불타는 사람입니다. 보통은, 이 산산조각이 난 우리 땅에 이런 사람이 필요할 겁니다. 하지만 그의 정신상태는 그로 하여금 어떤 것을 발전시키게 했습니다. 조국복원이 어떻게 진행되어야 하는지에 대한 흥미로운 생각들 입니다. 어떤 사람들은 그의 추진력에서 희망과 영감을 발견할지 모르지만, 그의 이웃들은 대부분 미친 놈으로만 볼 것입니다."
+ KEM_esoteric_kingdom_desc:0 "류리크 2세는 모든 반역자들과 신성한 러시아의 모든 약탈자들이 멸망하는 것을 보고자 하는 열망으로 불타는 사람입니다. 보통은, 이 산산조각이 난 우리 땅에 이런 사람이 필요할 겁니다. 하지만 그의 정신상태는 그로 하여금 어떤 것을 발전시키게 했습니다. 조국복원이 어떻게 진행되어야 하는지에 대한 흥미로운 생각들 입니다. 어떤 사람들은 그의 추진력에서 희망과 영감을 발견할지 모르지만, 그의 이웃들은 대부분 미친 놈으로만 볼 것입니다."
  
  KEM_the_two_wolves:0 "두 늑대"
  KEM_the_two_wolves_desc:0 "국왕 전하의 두 자제분이신 유리, 리디아 두 분께선 모두 훌륭하신 고문이자 행정가이시지만, 두 분은 서로 다른 방향으로 통치하시길 원하십니다. 유리 저하께선 좀 더 가볍고 포퓰리즘적인 접근법을 선호하시며, 전하께 신민들이 스스로의 운명을 결정할 수 있는 힘을 가질 수 있게 허하라 촉구하시고 계십니다.\n\n반면 리디아 공주는 군국주의적이고 위계적인 이상을 따르십니다. 공주저하께선 평민들 중 어느 누구도 자신의 어깨에 짐을 지기에 적합하지 않다며 전하께서 군을 가까이하고 평민들을 멀리할 것을 촉구하시고 계십니다."
@@ -130,7 +130,7 @@
  ###########################
  #Debug
  KEM_debug_category:0 "Kemerovo Debug Category"
- KEM_debug_category_desc:0 "Insert witty placeholder loc."
+ KEM_debug_category_desc:0 "여기다 웃긴 플레이스홀더 써둬라."
 
  KEM_load_starting_tree:0 "Load the §YStarting§! Tree"
  KEM_load_expansion_tree:0 "Load the §YExpansion§! Tree"
@@ -141,38 +141,38 @@
  KEM_national_decision:0 "§Y러시아§! 통일"
 
  #Royal Court
- KEM_kingdom_of_kemerovo_category:0 "The Royal Court"
- KEM_kingdom_of_kemerovo_category_desc:0 "Inside King Rurik's court, two wolves quarrel for his favor. §MPrince Yuriy§!, friend of labor and the reformist intelligentsia, seeks to transform Kemerovo into something approaching a liberal democracy.\n\n§LPrincess Lydia§!, on the other hand, holds strength as the highest national ideal, and she will pursue her harsh, militaristic path fiercely.\n\nDespite their differences, they have one key similarity: neither has the ability to do much besides nudge the king from behind the scenes, at least for now...\n\nCurrently, the most influential advisor is [GetWolfInfluence]."
+ KEM_kingdom_of_kemerovo_category:0 "왕의 궁정"
+ KEM_kingdom_of_kemerovo_category_desc:0 "왕의 궁정 내부에는 두 늑대가 자신들의 이념을 두고 다투고 있습니다. 노동자들을 지지하시며 개혁을 원하는 지식인이신 §M유리 왕자§!께선 케메로보를 자유민주주의에 근접하는 국가로 바꾸길 원하십니다.\n\n반면 §L리디아 공주§!께선 왕국을 강력하게 바꾸겠다는 이상을 갖고계시며, 가혹하고 군국주의적인 길을 추구하십니다.\n\n이런 차이에도 불구하고, 두 분 다 왕을 설득하는 것 외에는 할 수 있는 일이 많지 않습니다, 적어도 지금은 말이죠...\n\n현재 가장 많은 영향력을 가진 조언가는 [GetWolfInfluence]입니다."
 
- KEM_yuriy_influential:0 "§MPrince Yuriy§!"
- KEM_lydia_influential:0 "§LPrincess Lydia§!"
- KEM_tied_influence:0 "§Yno one§!. §MPrince Yuriy§! and §LPrincess Lydia§! have equal influence in the court."
+ KEM_yuriy_influential:0 "§M유리 왕자§!"
+ KEM_lydia_influential:0 "§L리디아 공주§!"
+ KEM_tied_influence:0 "§Y없습니다§!. §M유리 왕자§!와 §L리디아 공주§!의 영향력이 같은 상태."
 
- KEM_unlock_yuriy_decisions:0 "§MUnlock Yuriy Influence Decisions§!"
- KEM_disable_yuriy_decisions:0 "§MDisable Yuriy Influence Decisions§!"
- KEM_meet_with_union_leaders:0 "§MMeet with Union Leaders§!"
- KEM_sway_sympathetic_generals:0 "§MSway Sympathetic Generals§!"
- KEM_sponsor_cultural_events:0 "§MSponsor Cultural Events§!"
+ KEM_unlock_yuriy_decisions:0 "§M유리 왕자의 영향력 디시전 활성화§!"
+ KEM_disable_yuriy_decisions:0 "§M유리 왕자의 영향력 디시전 비활성화§!"
+ KEM_meet_with_union_leaders:0 "§M노조 지도부들과의 만남§!"
+ KEM_sway_sympathetic_generals:0 "§M동정적인 장군들 동요§!"
+ KEM_sponsor_cultural_events:0 "§M문화 행사 후원§!"
 
- KEM_unlock_lydia_decisions:0 "§LUnlock Lydia Influence Decisions§!"
- KEM_disable_lydia_decisions:0 "§LDisable Lydia Influence Decisions§!"
- KEM_meet_with_industrialists:0 "§LMeet with Industrialists§!"
- KEM_assert_kingsguard_influence:0 "§LAssert Kingsguard Influence§!"
- KEM_expand_mining_operations:0 "§LExpand Mining Operations§!"
+ KEM_unlock_lydia_decisions:0 "§L리디아 공주의 영향력 디시전 활성화§!"
+ KEM_disable_lydia_decisions:0 "§L리디아 공주의 영향력 디시전 비활성화§!"
+ KEM_meet_with_industrialists:0 "§L기업가들과의 만남§!"
+ KEM_assert_kingsguard_influence:0 "§L국왕 호위대 영향력 주장§!"
+ KEM_expand_mining_operations:0 "§L채굴 작업 확장§!"
 
  ### Tooltips ###
- KEM_increase_yuriy_influence_1_tt:0 "This will slightly increase the influence of §MPrince Yuriy§!.\n"
- KEM_increase_yuriy_influence_2_tt:0 "This will moderately increase the influence of §MPrince Yuriy§!.\n"
- KEM_increase_yuriy_influence_3_tt:0 "This will greatly increase the influence of §MPrince Yuriy§!.\n"
- KEM_increase_lydia_influence_1_tt:0 "This will slightly increase the influence of §LPrincess Lydia§!.\n"
- KEM_increase_lydia_influence_2_tt:0 "This will moderately increase the influence of §LPrincess Lydia§!.\n"
- KEM_increase_lydia_influence_3_tt:0 "This will greatly increase the influence of §LPrincess Lydia§!.\n"
- KEM_decrease_yuriy_influence_1_tt:0 "This will slightly decrease the influence of §MPrince Yuriy§!.\n"
- KEM_decrease_yuriy_influence_2_tt:0 "This will moderately decrease the influence of §MPrince Yuriy§!.\n"
- KEM_decrease_yuriy_influence_3_tt:0 "This will greatly decrease the influence of §MPrince Yuriy§!.\n"
- KEM_decrease_lydia_influence_1_tt:0 "This will slightly decrease the influence of §LPrincess Lydia§!.\n"
- KEM_decrease_lydia_influence_2_tt:0 "This will moderately decrease the influence of §LPrincess Lydia§!.\n"
- KEM_decrease_lydia_influence_3_tt:0 "This will greatly decrease the influence of §LPrincess Lydia§!.\n"
+ KEM_increase_yuriy_influence_1_tt:0 "이는 §M유리 왕자§!의 영향력을 약간 증가시킬 것입니다.\n"
+ KEM_increase_yuriy_influence_2_tt:0 "이는 §M유리 왕자§!의 영향력을 적당히 증가시킬 것입니다.\n"
+ KEM_increase_yuriy_influence_3_tt:0 "이는 §M유리 왕자§!의 영향력을 많이 증가시킬 것입니다.\n"
+ KEM_increase_lydia_influence_1_tt:0 "이는 §L리디아 공주§!의 영향력을 약간 증가시킬 것입니다.\n"
+ KEM_increase_lydia_influence_2_tt:0 "이는 §L리디아 공주§!의 영향력을 적당히 증가시킬 것입니다.\n"
+ KEM_increase_lydia_influence_3_tt:0 "이는 §L리디아 공주§!의 영향력을 많이 증가시킬 것입니다.\n"
+ KEM_decrease_yuriy_influence_1_tt:0 "이는 §M이는 유리 왕자§!의 영향력을 약간 감소시킬 것입니다.\n"
+ KEM_decrease_yuriy_influence_2_tt:0 "이는 §M유리 왕자§!의 영향력을 적당히 감소시킬 것입니다.\n"
+ KEM_decrease_yuriy_influence_3_tt:0 "이는 §M유리 왕자§!의 영향력을 많이 감소시킬 것입니다.\n"
+ KEM_decrease_lydia_influence_1_tt:0 "이는 §L리디아 공주§!의 영향력을 약간 감소시킬 것입니다.\n"
+ KEM_decrease_lydia_influence_2_tt:0 "이는 §L리디아 공주§!의 영향력을 적당히 감소시킬 것입니다.\n"
+ KEM_decrease_lydia_influence_3_tt:0 "이는 §L리디아 공주§!의 영향력을 많이 감소시킬 것입니다.\n"
 
  KEM_the_will_of_the_people_tt:0 "Improves §YAcademic Base§!.\n"
  KEM_lean_right_tt:0 "Improves §YIndustrial Expertise§!.\n"
@@ -187,7 +187,7 @@
  KEM_no_friends_in_the_steppes_tt:0 "§RThe current Kazakh government is not friendly to us. We shall condemn them as an illegitimate government.§!\n"
  KEM_the_varyags_of_rus_tt:0 "We will raise an elite §YVaryag§! unit in Magadan!\n"
  
- KEM_influence_trigger_tt:0 "§YOne of the siblings must have higher influence!§!"
+ KEM_influence_trigger_tt:0 "§Y남매들 중 한 명은 영향력이 더 높아야 합니다!§!"
  KEM_reg_politics_done:0 "Internal politics stabilized.\n"
 
  #############################
@@ -1168,7 +1168,7 @@
  KEM_lydia.5.a:0 "They will make us proud."
  
  KEM_lydia.6.t:0 "도쿄를 찾아간 왕"
- KEM_lydia.6.desc:0 "류리크 2세는 도쿄의 놀라운 광경에 압도되었습니다. 도쿄의 지평선은 그가 러시아에서 본 그 어떤 것보다도 밝은 불빛과 고층 건물들로 가득 차 있었습니다. 왕은 일본이 콘크리트 건축물과 네온 사인으로 이뤄진 끝없는 정글이라는 것을 들은적이 있었습니다, 그리고 진정으로 그 말뜻을 알수 있었습니다. "이런게 바로 문명이란거군! 이런 건물들이 [KEM.Capital.GetName]에 있다고 상상해 보게!"\n\n공항 터미널에 들어가자마자 류리크 2세는 일본 외교관들로 구성된 대규모 대표단들을 만날수 있었습니다. 그들의 얼굴 표정만 봤을때, 왕을 만나는것에 상당히 흥분한 상태였습니다. "반갑습니다, 류리크 사마! 우리 일본이 따뜻한 환영의 말씀을 드립니다!" 신이 난 일본인 외교관이 왕에게 악수를 청했습니다.\n\n"고맙지만, 류리크사마가 아니라 류리크요." 류리크 2세가 대답에 당황한 외교관의 손을 뿌리치며 불편한듯한 미소를 지었습니다.\n\n"그, 네, 알고있습니다, 류리크 사마."\n\n"아니오, 그냥 류리크요. 류리크. 이해했소?"\n\n"이해가 가질 않습니다, 류리크 사마. 제가 뭐라도 잘못 말했습니까?"\n\n왕은 꽤나 당황한듯 보였습니다. "이보시오, 류리크사마가 아니라 류리크라고 했잖-" 말을 끝내기도 전에 왕은 그의 수행원들중 한 명이 그를 옆으로 끌어내고 속삭였습니다.\n\n"죄송합니다만 전하, 그 외교관께선 존댓말을 쓰고 계십니다, 폐하의 이름은 알고 계시니 걱정 마십시오." 그 얘기를 듣자마자 왕의 얼굴이 홍당무 마냥 빨개졌습니다. 일본인들의 이상한 화법을 배우는 데엔 다소 노력이 필요할 것입니다."
+ KEM_lydia.6.desc:0 "류리크 2세는 도쿄의 놀라운 광경에 압도되었습니다. 도쿄의 지평선은 그가 러시아에서 본 그 어떤 것보다도 밝은 불빛과 고층 건물들로 가득 차 있었습니다. 왕은 일본이 콘크리트 건축물과 네온 사인으로 이뤄진 끝없는 정글이라는 것을 들은적이 있었습니다, 그리고 진정으로 그 말뜻을 알수 있었습니다. "이런게 바로 문명이란거군! 이런 건물들이 [KEM.Capital.GetName]에 있다고 상상해 보게!"\n\n공항 터미널에 들어가자마자 류리크 2세는 일본 외교관들로 구성된 대규모 대표단들을 만날수 있었습니다. 그들의 얼굴 표정만 봤을때, 왕을 만나는것에 상당히 흥분한 상태였습니다. "반갑습니다, 류리크 사마! 우리 일본이 따뜻한 환영의 말씀을 드립니다!" 신이 난 일본인 외교관이 왕에게 악수를 청했습니다.\n\n"고맙지만, 류리크사마가 아니라 류리크요." 류리크 2세가 대답에 당황한 외교관의 손을 뿌리치며 불편한듯한 미소를 지었습니다.\n\n"그, 네, 알고있습니다, 류리크 사마."\n\n"아니오, 그냥 류리크요. 류리크. 이해했소?"\n\n"이해가 가질 않습니다, 류리크 사마. 제가 뭐라도 잘못 말했습니까?"\n\n왕은 꽤나 당황한듯 보였습니다. "이보시오, 류리크사마가 아니라 류리크라고 했잖-" 왕이 말을 끝내기도 전에 그의 수행원들중 한 명이 그를 옆으로 끌어내고 속삭였습니다.\n\n"죄송합니다만 전하, 그 외교관께선 존댓말을 쓰고 계십니다, 폐하의 이름은 알고 계시니 걱정 마십시오." 그 얘기를 듣자마자 왕의 얼굴이 홍당무 마냥 빨개졌습니다. 일본인들의 이상한 화법을 배우는 데엔 다소 노력이 필요할 것입니다."
  KEM_lydia.6.a:0 "정말 이상하고 놀라운 곳이군."
  KEM_lydia.6.b:0 "그의 방문을 영광으로 생각한다."
  
