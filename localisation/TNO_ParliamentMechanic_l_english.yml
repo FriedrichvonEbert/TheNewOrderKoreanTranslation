@@ -15,7 +15,7 @@ l_english:
  #### Main - 'TNO_ParliamentMechanic_Container'
   # Title
   TNO_ParliamentMechanic_Title_text: "서민원"
-  TNO_ParliamentMechanic_PGSD_GS_Title_text: "정부 안정성"
+  TNO_ParliamentMechanic_PGSD_GS_Title_text: "정부 안정도"
   TNO_ParliamentMechanic_PGSD_Parties_Title_text: "정당"
   TNO_ParliamentMechanic_PGSD_Map_Title_text: "선거 지도"
   
@@ -85,14 +85,14 @@ l_english:
    TNO_ParliamentMechanic_Party_Name_13: "국가민주동맹 애국파"
    TNO_ParliamentMechanic_Party_Name_14: "사회노동당 진보파"
    TNO_ParliamentMechanic_Party_Name_15: "사회노동당 폴릿파"
-   TNO_ParliamentMechanic_Party_Name_16: "군부의 지원을 받는 행동파"
+   TNO_ParliamentMechanic_Party_Name_16: "군부 지지를 위한 행동"
    TNO_ParliamentMechanic_Party_Name_17: "독립노동당"
    TNO_ParliamentMechanic_Party_Name_18: "스코틀랜드 국민당"
-   TNO_ParliamentMechanic_Party_Name_19: "The Unionist Party"
-   TNO_ParliamentMechanic_Party_Name_20: "Plaid Cymru"
-   TNO_ParliamentMechanic_Party_Name_21: "Cymru Goch"
-   TNO_ParliamentMechanic_Party_Name_22: "British National Convention"
-   TNO_ParliamentMechanic_Party_Name_23: "Popular Convention"
+   TNO_ParliamentMechanic_Party_Name_19: "통합당"
+   TNO_ParliamentMechanic_Party_Name_20: "플라이드 컴리"
+   TNO_ParliamentMechanic_Party_Name_21: "컴리 고흐"
+   TNO_ParliamentMechanic_Party_Name_22: "영국 국가 협의회"
+   TNO_ParliamentMechanic_Party_Name_23: "대중 협의회"
 
    TNO_ParliamentMechanic_Party_ShortName_1: "NULL" # Code convenience, 'holds' empty seats.
    TNO_ParliamentMechanic_Party_ShortName_2: "무소속"
@@ -113,8 +113,8 @@ l_english:
    TNO_ParliamentMechanic_Party_ShortName_17: "ILP"
    TNO_ParliamentMechanic_Party_ShortName_18: "SNP"
    TNO_ParliamentMechanic_Party_ShortName_19: "UP"
-   TNO_ParliamentMechanic_Party_ShortName_20: "Plaid Cymru"
-   TNO_ParliamentMechanic_Party_ShortName_21: "Cymru Goch"
+   TNO_ParliamentMechanic_Party_ShortName_20: "플라이드 컴리"
+   TNO_ParliamentMechanic_Party_ShortName_21: "컴리 고흐"
    TNO_ParliamentMechanic_Party_ShortName_22: "BNC"
    TNO_ParliamentMechanic_Party_ShortName_23: "PC"
 
@@ -155,7 +155,7 @@ l_english:
   ## Name
    TNO_ParliamentMechanic_Ideas_Speaker_Name_ex: "ex"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Military_Government: "군사 행정부"
-   TNO_ParliamentMechanic_Ideas_Speaker_Name_No_Opposition: "No Opposition"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_No_Opposition: "공석"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Alec_Douglas_Home: "앨릭 더글러스흄"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Harold_Macmillan: "해럴드 맥밀런"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Arthur_Chesterton: "아서 체스터턴"
@@ -165,7 +165,7 @@ l_english:
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Harold_Wilson: "해럴드 윌슨"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Reginald_Maudling: "레지널드 모들링"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Reg_Birch: "레그 버치"
-   TNO_ParliamentMechanic_Ideas_Speaker_Name_David_Stirling: "David Stirling"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_David_Stirling: "데이비드 스털링"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Bernard_Montgomery: "버나드 몽고메리"
 
   ## Effects
@@ -252,7 +252,7 @@ l_english:
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_Reginald_Maudling: "레지널드 모들링"
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_George_Jellicoe: "조지 젤리코"
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_Harold_Wilson: "해럴드 윌슨"
-   TNO_ParliamentMechanic_Ideas_OppLeader_Name_No_Opposition: "No Opposition"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_No_Opposition: "공석"
    
   ## Effects
    TNO_ParliamentMechanic_Ideas_OppLeader_Effects_ex: "Opposition Leader\nNational Socialism\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
@@ -276,8 +276,8 @@ l_english:
 
  ### Idea names (for tooltips)
    TNO_ParliamentMechanic_Speaker_Military_Government: "군사 행정부"
-   TNO_ParliamentMechanic_Speaker_No_Opposition: "No Opposition"
-   TNO_ParliamentMechanic_OppLeader_No_Opposition: "No Opposition"
+   TNO_ParliamentMechanic_Speaker_No_Opposition: "공석"
+   TNO_ParliamentMechanic_OppLeader_No_Opposition: "공석"
    TNO_ParliamentMechanic_Speaker_Alec_Douglas_Home: "앨릭 더글라스흄"
    TNO_ParliamentMechanic_Speaker_Harold_Macmillan: "해럴드 맥밀런"
    TNO_ParliamentMechanic_OppLeader_Harold_Macmillan: "해럴드 맥밀런"
@@ -292,9 +292,9 @@ l_english:
    TNO_ParliamentMechanic_OppLeader_George_Jellicoe: "조지 젤리코"
    TNO_ParliamentMechanic_Speaker_Harold_Wilson: "해럴드 윌슨"
    TNO_ParliamentMechanic_OppLeader_Harold_Wilson: "해럴드 윌슨"
-   TNO_ParliamentMechanic_Speaker_David_Stirling: "David Stirling"
-   TNO_ParliamentMechanic_Monarch_Portrait_England_John_Slim: "John Slim"
-   TNO_ParliamentMechanic_Monarch_Portrait_England_William_Whiteslaw: "Willian Whiteslaw"
+   TNO_ParliamentMechanic_Speaker_David_Stirling: "데이비드 스털링"
+   TNO_ParliamentMechanic_Monarch_Portrait_England_John_Slim: "존 슬림"
+   TNO_ParliamentMechanic_Monarch_Portrait_England_William_Whiteslaw: "윌리엄 화이트로"
    TNO_ParliamentMechanic_Monarch_NoMonarch: "공위"
    TNO_ParliamentMechanic_Monarch_Edward_VIII: "에드워드 8세"
    TNO_ParliamentMechanic_Monarch_Elizabeth_II: "엘리자베스 2세"
