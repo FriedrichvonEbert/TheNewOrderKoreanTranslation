@@ -15,20 +15,20 @@ l_english:
  #### Main - 'TNO_ParliamentMechanic_Container'
   # Title
   TNO_ParliamentMechanic_Title_text: "서민원"
-  TNO_ParliamentMechanic_PGSD_GS_Title_text: "정부 안정성"
+  TNO_ParliamentMechanic_PGSD_GS_Title_text: "정부 안정도"
   TNO_ParliamentMechanic_PGSD_Parties_Title_text: "정당"
   TNO_ParliamentMechanic_PGSD_Map_Title_text: "선거 지도"
   
   ### Parliament Display - PD
    ## Portraits
     # Speaker
-    TNO_ParliamentMechanic_PD_Portrait_Speaker_tt: "각하,\n§Y[TNO_ParliamentMechanic_Ideas_Get_Speaker_Name]§!\n[TNO_ParliamentMechanic_Ideas_Get_Speaker_Effects]"
+    TNO_ParliamentMechanic_PD_Portrait_Speaker_tt: "존경하는 각하,\n§Y[TNO_ParliamentMechanic_Ideas_Get_Speaker_Name]§!\n[TNO_ParliamentMechanic_Ideas_Get_Speaker_Effects]"
     TNO_ParliamentMechanic_PD_Portrait_Speaker_ttd: "[TNO_ParliamentMechanic_Ideas_Get_Speaker_Desc]"
     # Monarch
-    TNO_ParliamentMechanic_PD_Portrait_Monarch_tt: "폐하,\n§Y[TNO_ParliamentMechanic_Ideas_Get_Monarch_Name]§!\n[TNO_ParliamentMechanic_Ideas_Get_Monarch_Effects]"
+    TNO_ParliamentMechanic_PD_Portrait_Monarch_tt: "경애하는 폐하,\n§Y[TNO_ParliamentMechanic_Ideas_Get_Monarch_Name]§!\n[TNO_ParliamentMechanic_Ideas_Get_Monarch_Effects]"
     TNO_ParliamentMechanic_PD_Portrait_Monarch_ttd: "[TNO_ParliamentMechanic_Ideas_Get_Monarch_Desc]"
     # Opposition Leader
-    TNO_ParliamentMechanic_PD_Portrait_OppLeader_tt: "각하,\n§Y[TNO_ParliamentMechanic_Ideas_Get_OppLeader_Name]§!\n[TNO_ParliamentMechanic_Ideas_Get_OppLeader_Effects]"
+    TNO_ParliamentMechanic_PD_Portrait_OppLeader_tt: "존경하는 각하,\n§Y[TNO_ParliamentMechanic_Ideas_Get_OppLeader_Name]§!\n[TNO_ParliamentMechanic_Ideas_Get_OppLeader_Effects]"
     TNO_ParliamentMechanic_PD_Portrait_OppLeader_ttd: "[TNO_ParliamentMechanic_Ideas_Get_OppLeader_Desc]"
     # See 'Parliamentary Leaders' section below for more info
 
@@ -85,14 +85,14 @@ l_english:
    TNO_ParliamentMechanic_Party_Name_13: "국가민주동맹 애국파"
    TNO_ParliamentMechanic_Party_Name_14: "사회노동당 진보파"
    TNO_ParliamentMechanic_Party_Name_15: "사회노동당 폴릿파"
-   TNO_ParliamentMechanic_Party_Name_16: "군부의 지원을 받는 행동파"
+   TNO_ParliamentMechanic_Party_Name_16: "군부 지지를 위한 행동"
    TNO_ParliamentMechanic_Party_Name_17: "독립노동당"
    TNO_ParliamentMechanic_Party_Name_18: "스코틀랜드 국민당"
-   TNO_ParliamentMechanic_Party_Name_19: "The Unionist Party"
-   TNO_ParliamentMechanic_Party_Name_20: "Plaid Cymru"
-   TNO_ParliamentMechanic_Party_Name_21: "Cymru Goch"
-   TNO_ParliamentMechanic_Party_Name_22: "British National Convention"
-   TNO_ParliamentMechanic_Party_Name_23: "Popular Convention"
+   TNO_ParliamentMechanic_Party_Name_19: "통합당"
+   TNO_ParliamentMechanic_Party_Name_20: "플라이드 컴리"
+   TNO_ParliamentMechanic_Party_Name_21: "컴리 고흐"
+   TNO_ParliamentMechanic_Party_Name_22: "영국 국가 협의회"
+   TNO_ParliamentMechanic_Party_Name_23: "대중 협의회"
 
    TNO_ParliamentMechanic_Party_ShortName_1: "NULL" # Code convenience, 'holds' empty seats.
    TNO_ParliamentMechanic_Party_ShortName_2: "무소속"
@@ -113,8 +113,8 @@ l_english:
    TNO_ParliamentMechanic_Party_ShortName_17: "ILP"
    TNO_ParliamentMechanic_Party_ShortName_18: "SNP"
    TNO_ParliamentMechanic_Party_ShortName_19: "UP"
-   TNO_ParliamentMechanic_Party_ShortName_20: "Plaid Cymru"
-   TNO_ParliamentMechanic_Party_ShortName_21: "Cymru Goch"
+   TNO_ParliamentMechanic_Party_ShortName_20: "플라이드 컴리"
+   TNO_ParliamentMechanic_Party_ShortName_21: "컴리 고흐"
    TNO_ParliamentMechanic_Party_ShortName_22: "BNC"
    TNO_ParliamentMechanic_Party_ShortName_23: "PC"
 
@@ -155,7 +155,7 @@ l_english:
   ## Name
    TNO_ParliamentMechanic_Ideas_Speaker_Name_ex: "ex"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Military_Government: "군사 행정부"
-   TNO_ParliamentMechanic_Ideas_Speaker_Name_No_Opposition: "No Opposition"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_No_Opposition: "공석"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Alec_Douglas_Home: "앨릭 더글러스흄"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Harold_Macmillan: "해럴드 맥밀런"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Arthur_Chesterton: "아서 체스터턴"
@@ -165,22 +165,22 @@ l_english:
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Harold_Wilson: "해럴드 윌슨"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Reginald_Maudling: "레지널드 모들링"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Reg_Birch: "레그 버치"
-   TNO_ParliamentMechanic_Ideas_Speaker_Name_David_Stirling: "David Stirling"
+   TNO_ParliamentMechanic_Ideas_Speaker_Name_David_Stirling: "데이비드 스털링"
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Bernard_Montgomery: "버나드 몽고메리"
 
   ## Effects
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_ex: "총리\n국가사회주의\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Military_Government: "총리\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §R-0.50§!\n§G++ Military Loyalty§!\n§G++ Military Effectiveness§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Military_Government: "총리\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §R-0.50§!\n§G++ Military Loyalty§!\n§G++ Military Effectiveness§!"
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_No_Opposition: "총리"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Alec_Douglas_Home: "총리\n§E근왕당 - 온건파§!\nGovernment Stability Factor: §G+10.00%§!\nDaily Political Power Gain: §G+0.10§!\n§G++ Military Loyalty§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Harold_Macmillan: "총리\n§i잉글랜드 통합당 - 맥밀런파§!\nGovernment Stability Factor: §G+5.00%§!\nDaily Political Power Gain: §G+0.05§!\n§G++ Employment Rate§!\n§i++ Macmillanists Influence§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Arthur_Chesterton: "총리\n§J국가전선§!\nGovernment Stability Factor: §R-10.00%§!\nDaily Political Power Gain: §R-0.10§!\n§R-- Military Loyalty§!\n§R-- Military Effectiveness§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Margaret_Thatcher: "총리\n§E근왕당§!\nGovernment Stability Factor: §G+5.00%§!\nDaily Political Power Gain: §G0.1§!\n§G++ Military Loyalty§!\n§E++ Thatcherite Influence§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Rab_Butler: "총리\n§E근왕당§!\nGovernment Stability Factor: §R-20.00%§!\nDaily Political Power Gain: §R-0.05§!\n§R-- Military Loyalty§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Reginald_Maudling: "총리\n§iUnited England - Liberals§!\nGovernment Stability Factor: §G+5.00%§!\n§R-- Monthly GDP Gain§!\n§e++ Liberals Influence§!\n§G++ Faster Democratization§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_George_Jellicoe: "총리\n§f국가민주전선 - 민주파§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §G+0.10§!\n§f++ Democrats Influence§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Harold_Wilson: "총리\n§V사회노동당 - 진보파§!\nGovernment Stability Factor: §R-8.00%§!\nDaily Political Power Gain: §G+0.2§!\n§G++ Monthly GDP Gain§!\n§V++ Reformists Influence§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Reg_Birch: "총리\n§V사회노동당 - 폴릿파§!\nGovernment Stability Factor: §R-5.00%§!\nWar Support Factor: §G+5.00%§!\n§G++ Monthly GDP Gain§!\n§G++ Military Loyalty§!\n§G++ Military Effectiveness§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Alec_Douglas_Home: "총리\n§E근왕당 - 온건파§!\n정부 안정도 영향: §G+10.00%§!\n매일 정치력 획득: §G+0.10§!\n§G++ Military Loyalty§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Harold_Macmillan: "총리\n§i잉글랜드 통합당 - 맥밀런파§!\n정부 안정도 영향: §G+5.00%§!\n매일 정치력 획득: §G+0.05§!\n§G++ Employment Rate§!\n§i++ Macmillanists Influence§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Arthur_Chesterton: "총리\n§J국가전선§!\n정부 안정도 영향: §R-10.00%§!\n매일 정치력 획득: §R-0.10§!\n§R-- Military Loyalty§!\n§R-- Military Effectiveness§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Margaret_Thatcher: "총리\n§E근왕당§!\n정부 안정도 영향: §G+5.00%§!\n매일 정치력 획득: §G0.1§!\n§G++ Military Loyalty§!\n§E++ Thatcherite Influence§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Rab_Butler: "총리\n§E근왕당§!\n정부 안정도 영향: §R-20.00%§!\n매일 정치력 획득: §R-0.05§!\n§R-- Military Loyalty§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Reginald_Maudling: "총리\n§i잉글랜드 통합당 - 자유파§!\n정부 안정도 영향: §G+5.00%§!\n§R-- Monthly GDP Gain§!\n§e++ Liberals Influence§!\n§G++ Faster Democratization§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_George_Jellicoe: "총리\n§f국가민주전선 - 민주파§!\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §G+0.10§!\n§f++ Democrats Influence§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Harold_Wilson: "총리\n§V사회노동당 - 진보파§!\n정부 안정도 영향: §R-8.00%§!\n매일 정치력 획득: §G+0.2§!\n§G++ Monthly GDP Gain§!\n§V++ Reformists Influence§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Reg_Birch: "총리\n§V사회노동당 - 폴릿파§!\n정부 안정도 영향: §R-5.00%§!\nWar Support Factor: §G+5.00%§!\n§G++ Monthly GDP Gain§!\n§G++ Military Loyalty§!\n§G++ Military Effectiveness§!"
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_David_Stirling: "총리\n§G잉글랜드 구국 군사정부§!"
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_Bernard_Montgomery: "총리\n§G잉글랜드 구국 군사정부§!"
 
@@ -219,10 +219,10 @@ l_english:
 
   ## Effects
    TNO_ParliamentMechanic_Ideas_Monarch_Effects_ex: "군주\n국가사회주의\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
-   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Edward_VIII: "Monarch\nAuthoritarian Democracy\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §R-0.10§!\nWar Support: §R-10.00%§!"
-   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Elizabeth_II: "Monarch\nConservative Democracy\nGovernment Stability Factor: §G+5.00%§!\nWar Support: §G+10.00%§!"
-   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Henry_IX: "Monarch\nConservative Democracy\nGovernment Stability Factor: §G+5.00%§!\nDaily Political Power Gain: §G+0.05§!\nWar Support: §G+5.00%§!"
-   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Henry_IX_Incapacitated: "Monarch\nConservative Democracy\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §R-0.05§!\nWar Support: §R-5.00%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Edward_VIII: "군주\n권위민주주의\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §R-0.10§!\n전쟁 지지도: §R-10.00%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Elizabeth_II: "군주\n보수민주주의\n정부 안정도 영향: §G+5.00%§!\n전쟁 지지도: §G+10.00%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Henry_IX: "군주\n보수민주주의\n정부 안정도 영향: §G+5.00%§!\n매일 정치력 획득: §G+0.05§!\n전쟁 지지도: §G+5.00%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_Henry_IX_Incapacitated: "군주\n보수민주주의\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §R-0.05§!\n전쟁 지지도: §R-5.00%§!"
    TNO_ParliamentMechanic_Ideas_Monarch_Effects_NoMonarch: ""
 
   ## Description (Tooltip Delayed)
@@ -252,16 +252,16 @@ l_english:
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_Reginald_Maudling: "레지널드 모들링"
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_George_Jellicoe: "조지 젤리코"
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_Harold_Wilson: "해럴드 윌슨"
-   TNO_ParliamentMechanic_Ideas_OppLeader_Name_No_Opposition: "No Opposition"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Name_No_Opposition: "공석"
    
   ## Effects
    TNO_ParliamentMechanic_Ideas_OppLeader_Effects_ex: "Opposition Leader\nNational Socialism\nPolitical Protege\n\tDaily Political Power Gain: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
-   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Harold_Macmillan: "Opposition Leader\n§ERoyal Party - Reformists§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §R-0.05§!\n§G++ Employment Rate§!"
-   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Margaret_Thatcher: "Opposition Leader\n§ERoyal Party§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §G+0.20§!"
-   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Arthur_Chesterton: "Opposition Leader\n§JNational Front§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §G+0.10§!\n§G++ Military Loyalty§!"
-   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Reginald_Maudling: "Opposition Leader\n§iUnited England - Liberals§!\nGovernment Stability Factor: §R-5.00%§!\nDaily Political Power Gain: §G+0.1§!\n§R-- Monthly GDP Gain§!"
-   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_George_Jellicoe: "Opposition Leader\n§fNational Democratic League - Democrat§!\nGovernment Stability Factor: §R-5.00%§!\n§R-- Military Loyalty§!\n§R-- Military Effectiveness§!"
-   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Harold_Wilson: "Opposition Leader\n§VSocialist Labor Party - Progress§!\nGovernment Stability Factor: §R-5.00%§!\n§R-- Monthly GDP Gain§!\n§G++ Military Loyalty§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Harold_Macmillan: "Opposition Leader\n§ERoyal Party - Reformists§!\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §R-0.05§!\n§G++ Employment Rate§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Margaret_Thatcher: "Opposition Leader\n§ERoyal Party§!\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §G+0.20§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Arthur_Chesterton: "Opposition Leader\n§JNational Front§!\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §G+0.10§!\n§G++ Military Loyalty§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Reginald_Maudling: "Opposition Leader\n§iUnited England - Liberals§!\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §G+0.1§!\n§R-- Monthly GDP Gain§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_George_Jellicoe: "Opposition Leader\n§fNational Democratic League - Democrat§!\n정부 안정도 영향: §R-5.00%§!\n§R-- Military Loyalty§!\n§R-- Military Effectiveness§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Harold_Wilson: "Opposition Leader\n§VSocialist Labor Party - Progress§!\n정부 안정도 영향: §R-5.00%§!\n§R-- Monthly GDP Gain§!\n§G++ Military Loyalty§!"
    TNO_ParliamentMechanic_Ideas_OppLeader_Effects_No_Opposition: ""
  
   ## Description (Tooltip Delayed)
@@ -276,8 +276,8 @@ l_english:
 
  ### Idea names (for tooltips)
    TNO_ParliamentMechanic_Speaker_Military_Government: "군사 행정부"
-   TNO_ParliamentMechanic_Speaker_No_Opposition: "No Opposition"
-   TNO_ParliamentMechanic_OppLeader_No_Opposition: "No Opposition"
+   TNO_ParliamentMechanic_Speaker_No_Opposition: "공석"
+   TNO_ParliamentMechanic_OppLeader_No_Opposition: "공석"
    TNO_ParliamentMechanic_Speaker_Alec_Douglas_Home: "앨릭 더글라스흄"
    TNO_ParliamentMechanic_Speaker_Harold_Macmillan: "해럴드 맥밀런"
    TNO_ParliamentMechanic_OppLeader_Harold_Macmillan: "해럴드 맥밀런"
@@ -292,9 +292,9 @@ l_english:
    TNO_ParliamentMechanic_OppLeader_George_Jellicoe: "조지 젤리코"
    TNO_ParliamentMechanic_Speaker_Harold_Wilson: "해럴드 윌슨"
    TNO_ParliamentMechanic_OppLeader_Harold_Wilson: "해럴드 윌슨"
-   TNO_ParliamentMechanic_Speaker_David_Stirling: "David Stirling"
-   TNO_ParliamentMechanic_Monarch_Portrait_England_John_Slim: "John Slim"
-   TNO_ParliamentMechanic_Monarch_Portrait_England_William_Whiteslaw: "Willian Whiteslaw"
+   TNO_ParliamentMechanic_Speaker_David_Stirling: "데이비드 스털링"
+   TNO_ParliamentMechanic_Monarch_Portrait_England_John_Slim: "존 슬림"
+   TNO_ParliamentMechanic_Monarch_Portrait_England_William_Whiteslaw: "윌리엄 화이트로"
    TNO_ParliamentMechanic_Monarch_NoMonarch: "공위"
    TNO_ParliamentMechanic_Monarch_Edward_VIII: "에드워드 8세"
    TNO_ParliamentMechanic_Monarch_Elizabeth_II: "엘리자베스 2세"

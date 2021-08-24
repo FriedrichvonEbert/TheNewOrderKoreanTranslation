@@ -48,12 +48,12 @@
  BRG_famine_tree_modifier_desc:0  "예상치 못한 재난이 기사단국을 덮쳤습니다. 바로 기근의 유령입니다. 수확은 실패했고 굶주림은 널리퍼져 귀중한 가축과 중요한 노동자를 모두 죽였습니다. 만약 이 상황이 지속된다면, 기사단국의 아리아인들은 그 생존이 어느 때보다도 중요한 시기에 모두 죽고 말 것입니다. SS국가지도자께서는 이런 보이지 않는 위협에 맞서 싸우고 궁핍한 시기에 기사단국의 밥줄을 유지하기 위해 농무청을 결성하셨습니다."
 
  BRG_famine_fake:0 "농무청"
- BRG_famine_fake_desc:0 "예상치 못한 재난이 기사단국을 덮쳤습니다. 바로 기근의 유령입니다. 수확은 실패했고 굶주림은 널리퍼져 귀중한 가축과 중요한 노동자를 모두 죽였습니다. 만약 이 상황이 지속된다면, 기사단국의 아리아인들은 그 생존이 어느 때보다도 중요한 시기에 모두 죽고 말 것입니다. SS국가지도자께서는 이런 보이지 않는 위협에 맞서 싸우고 궁핍한 시기에 기사단국의 밥줄을 유지하기 위해 농무청을 결성하셨습니다.\n\n§g식량 생산:§! §Y[?BRG_national_food_boost|%]§!\n§g식량 소비:§! §Y[?BRG_food_rationing|%]§!\n§g월간 인구 성장:§! §Y[?BRG_famine_growth_penalty|%]§!\n§g월간 농업 사회 발달:§! §Y[?BRG_famine_agriculture_gain]§!\n§g월간 산업 지식 사회 발달:§! §Y[?BRG_famine_expertise_penalty]§!\n§g월산 산업 장비 사회 발달:§! §Y[?BRG_famine_equipment_penalty]§!\n§g월간 연구 시설 사회 발달:§! §Y[?BRG_famine_equipment_penalty]§!"
+ BRG_famine_fake_desc:0 "예상치 못한 재난이 기사단국을 덮쳤습니다. 바로 기근의 유령입니다. 수확은 실패했고 굶주림은 널리퍼져 귀중한 가축과 중요한 노동자를 모두 죽였습니다. 만약 이 상황이 지속된다면, 기사단국의 아리아인들은 그 생존이 어느 때보다도 중요한 시기에 모두 죽고 말 것입니다. SS국가지도자께서는 이런 보이지 않는 위협에 맞서 싸우고 궁핍한 시기에 기사단국의 밥줄을 유지하기 위해 농무청을 결성하셨습니다.\n\n§g식량 생산:§! §Y[?BRG_national_food_boost|%]§!\n§g식량 소비:§! §Y[?BRG_food_rationing|%]§!\n§g매월 인구 성장:§! §Y[?BRG_famine_growth_penalty|%]§!\n§g매월 농업 사회 발달:§! §Y[?BRG_famine_agriculture_gain]§!\n§g매월 산업 지식 사회 발달:§! §Y[?BRG_famine_expertise_penalty]§!\n§g월산 산업 장비 사회 발달:§! §Y[?BRG_famine_equipment_penalty]§!\n§g매월 연구 시설 사회 발달:§! §Y[?BRG_famine_equipment_penalty]§!"
  BRG_rodomo_fake:0 "로도모 산업구역"
  BRG_rodomo_fake_desc:0 "미국엔 스틸 벨트, 독일엔 루르, 일본엔 만주가 있듯 기사단국에는 로도모 산업구역이 있습니다. 이전엔 루앙이라고 불렸던 도시 주변의 센 강 일대는 최근 몇 년 동안 급속도로 정비되어 그림 같은 대도시에서 부르군트 중공업의 중추로 탈바꿈했습니다. 친위대에게는 이 나라의 미래가 탄생하는 곳이지만, 파견된 수십만 명의 강제징용자들에게는 강철과 콘크리트의 무덤에 지나지 않습니다.\n\n§g건설 속도:§! §Y[?BRG_Rodomo_Workers|%]§!\n§g생산 효율:§! §Y[?BRG_Rodomo_Effeciency|%]§!\n§g공장 생산량:§! §Y[?BRG_Rodomo_Output|%]§!"
 
  BRG_Cop_To_Worker_Ratio:0 "감시 효율도"
- BRG_Skilled_Worker_Pop_Monthly_Change:0 "월간 노동자 성장"
+ BRG_Skilled_Worker_Pop_Monthly_Change:0 "매월 노동자 성장"
  BRG_food_income_base:0 "식량 생산"
  BRG_food_consumption_base:0 "식량 소비"
 
@@ -74,7 +74,7 @@
 
  BRG_globalplan_overview_category:0 "세계계획"
  BRG_globalplan_overview_category_desc:0 "  세계계획 상태 개요:\n   - 세계계획 §Y볼프§!:       [BRG_Get_GP_Wolf_Status]\n   - 세계계획 §Y콘도르§!:     [BRG_Get_GP_Kondor_Status]\n   - 세계계획 §Y아들러§!:      [BRG_Get_GP_Adler_Status]\n   - 세계계획 §Y크로네§!:      [BRG_Get_GP_Lowe_Status]\n   - 세계계획 §Y베어§!:        [BRG_Get_GP_Bar_Status]\n\n  - 세계계획 §Y존네§!:      [BRG_Get_GP_Sonne_Status]\n   - 세계계획 §Y드라허§!:     [BRG_Get_GP_Drache_Status]\n   - 세계계획 §Y슈베르트§!:    [BRG_Get_GP_Puma_Status]\n\n\n모든 위대한 설계를 추구하는 데 있어 세심한 계획은 성공을 보장하는 비결입니다. 이런 점에서는 SS국가지도자께서 가지신 야망도 다르지 않습니다. 이를 위해 세계계획은 영광스러운 아리아인의 운명을 실현하는 역할을 합니다. 당연히, 열등 인종에 간섭하는 것은 비용이 많이 들고 오래 걸립니다. 다행히 기사단국은 우리에게 적절한 자원을 제공합니다.\n\n§R잠긴§! §Y세계계획§!을 §Y활성화§!하기 위해서는 각각의 결정을 통한 상당한 §Y투자§!와 적절한 §Y준비§!가 필요합니다.\n\n일단 해금된다면, §Y세계계획§!은 §Y활성화§!될 것이며 §Y언제든지 가동될 수 있습니다§!.\n만약 계획이 §O진행 중§!이라면, §Y최종 목표§!를 이루기 위해 다른 주의 §Y이벤트에 영향을 미치도록§! §Y국가 중점§!과 §Y결정§!을 이용할 수 있습니다.\n\n만약 정해진 지역에서 작전 능력을 §Y다 써버리면§!, 각각의 §Y세계계획§!은 수행 수준에 상관없이 §G완료§!될 것입니다."
- BRG_GUI_Info_tt:0 "§!§Y세계계획§!은 국가지도자의 §Y최종 목표§!를 이루기 위한 세심한 계획을 말합니다. 각각의 §Y세계계획§!은 세계의 §Y주요 나라§!들에 영향을 미치도록 설계된 계획입니다. 물론 지정학적인 관계를 다루는 것은 쉽지 않으며 엄청난 양의 자원이 필요합니다. 하지만 언젠가 §Y최종 목표§!가 달성된다면, §R아리아 인종을 위해서라면 어떠한 비용도 감수할 수 있습니다§!.\n\n§Y세계계획§!을 시작하기 전에, 먼저 §Y초기 투자§!가 §Y활성화§!되어야 합니다. 몇몇 §Y먼 지역§!에 영향을 미치는 §Y세계계획§!은 §Y특정한 조건§!을 필요로 합니다.\n\n현재 우리는 §Y[?BRG_supplies]§!만큼의 물자를 가지고 있습니다. 기본 물자 §R소비량§!은 월당 §Y[?BRG_supply_consumption]§!입니다. 만약 §B전쟁 지지도§!나 §B안정도§!가 §Y50%§! 이하라면 물자가 추가로 더 필요할 것입니다. 이는 월당 §Y1§!만큼의 물자를 시작으로 §Y0%§! 이하로 떨어지면 §Y2§!, §Y-50%§! 이하로 떨어지면 §3§! 만큼의 물자를 추가로 사용할 것입니다. §B안정도§!와 §B전쟁 지지도§!에 따른 페널티는 각각 계산되어 합산됩니다.\n우린 §Y[?BRG_gp_months_counter]§!개월 만큼 현 세계계획을 시행하고 있으며, 이는 월간 §R소모량§!을 §Y[?BRG_additional_supply_consumption]§!만큼 늘릴 것입니다. 물자가 소진되면 이는 안정도에 §R치명적인 결과§!를 가져올 것입니다.\n\n일단 활성화되면, §Y세계계획§!은 언제나 취소될 수 있으며, 취소한다면 초기 투자의 일부분을 회수할 수 있지만 §Y세계계획§!을 다시 시작하는데 §R6개월§!이 더 필요할 것입니다.\n\n§R한 번에 하나의 세계계획 만을 활성화할 수 있습니다.§!"
+ BRG_GUI_Info_tt:0 "§!§Y세계계획§!은 국가지도자의 §Y최종 목표§!를 이루기 위한 세심한 계획을 말합니다. 각각의 §Y세계계획§!은 세계의 §Y주요 나라§!들에 영향을 미치도록 설계된 계획입니다. 물론 지정학적인 관계를 다루는 것은 쉽지 않으며 엄청난 양의 자원이 필요합니다. 하지만 언젠가 §Y최종 목표§!가 달성된다면, §R아리아 인종을 위해서라면 어떠한 비용도 감수할 수 있습니다§!.\n\n§Y세계계획§!을 시작하기 전에, 먼저 §Y초기 투자§!가 §Y활성화§!되어야 합니다. 몇몇 §Y먼 지역§!에 영향을 미치는 §Y세계계획§!은 §Y특정한 조건§!을 필요로 합니다.\n\n현재 우리는 §Y[?BRG_supplies]§!만큼의 물자를 가지고 있습니다. 기본 물자 §R소비량§!은 월당 §Y[?BRG_supply_consumption]§!입니다. 만약 §B전쟁 지지도§!나 §B안정도§!가 §Y50%§! 이하라면 물자가 추가로 더 필요할 것입니다. 이는 월당 §Y1§!만큼의 물자를 시작으로 §Y0%§! 이하로 떨어지면 §Y2§!, §Y-50%§! 이하로 떨어지면 §3§! 만큼의 물자를 추가로 사용할 것입니다. §B안정도§!와 §B전쟁 지지도§!에 따른 페널티는 각각 계산되어 합산됩니다.\n우린 §Y[?BRG_gp_months_counter]§!개월 만큼 현 세계계획을 시행하고 있으며, 이는 매월 §R소모량§!을 §Y[?BRG_additional_supply_consumption]§!만큼 늘릴 것입니다. 물자가 소진되면 이는 안정도에 §R치명적인 결과§!를 가져올 것입니다.\n\n일단 활성화되면, §Y세계계획§!은 언제나 취소될 수 있으며, 취소한다면 초기 투자의 일부분을 회수할 수 있지만 §Y세계계획§!을 다시 시작하는데 §R6개월§!이 더 필요할 것입니다.\n\n§R한 번에 하나의 세계계획 만을 활성화할 수 있습니다.§!"
 
  BRG_GP_Cooldown_Trigger_tt:0 "[BRG.BRG_Get_GP_Cooldown_tt]"
  BRG_GP_off_cooldown_no:0 "£GFX_trigger_no §Y세계계획 대기시간§!이 현재 활성화되지 않음"
@@ -251,22 +251,22 @@
  BRG_remove_negative_spirit:0 "국가 재정비"
  BRG_reduced_supply_consumption:0 "물자 소비 감축"
  BRG_reduced_supply_consumption_desc:0 "기사단국은 우리의 노동력으로 생산되는 국내 자원을 세계계획으로 전용시키기 위한 명령을 실행하는데 해외 정보 요원들을 크게 활용했습니다. 이것이 국내 전선에 문제를 일으킬지는 모르지만, 어떤 전쟁도, 심지어 냉전조차도 집중 없이 승리하지 못합니다."
- BRG_supply_consumption:0 "월간 물자 획득"
- BRG_buy_supplies_with_workers_and_pp_monthly_pulse:0 "월간 정치적, 산업적으로 투자"
- BRG_buy_supplies_with_workers_and_pp_monthly_pulse_cancel:0 "월간 정치적, 산업적으로 투자 취소"
- BRG_buy_supplies_with_workers_and_money_monthly_pulse:0 "월간 재정적, 산업적으로 투자"
- BRG_buy_supplies_with_workers_and_money_monthly_pulse_cancel:0 "월간 재정적, 산업적으로 투자 취소"
- BRG_buy_supplies_with_workers_and_equipment_monthly_pulse:0 "월간 산업적으로 투자 및 무기 판매 증대"
- BRG_buy_supplies_with_workers_and_equipment_monthly_pulse_cancel:0 "월간 산업적으로 투자 및 무기 판매 증대 취소"
- BRG_buy_supplies_with_equipment_and_money_monthly_pulse:0 "월간 무기 판매 증대"
- BRG_buy_supplies_with_equipment_and_money_monthly_pulse_cancel:0 "월간 무기 판매 증대 취소"
- BRG_buy_supplies_with_equipment_and_pp_monthly_pulse:0 "월간 정치적으로 투자 및 무기 판매 증대"
- BRG_buy_supplies_with_equipment_and_pp_monthly_pulse_cancel:0 "월간 정치적으로 투자 및 무기 판매 증대 취소"
- BRG_buy_supplies_with_money_and_pp_monthly_pulse:0 "월간 정치적, 재정적으로 투자"
- BRG_buy_supplies_with_money_and_pp_monthly_pulse_cancel:0 "월간 정치적, 재정적으로 투자 취소"
+ BRG_supply_consumption:0 "매월 물자 획득"
+ BRG_buy_supplies_with_workers_and_pp_monthly_pulse:0 "매월 정치적, 산업적으로 투자"
+ BRG_buy_supplies_with_workers_and_pp_monthly_pulse_cancel:0 "매월 정치적, 산업적으로 투자 취소"
+ BRG_buy_supplies_with_workers_and_money_monthly_pulse:0 "매월 재정적, 산업적으로 투자"
+ BRG_buy_supplies_with_workers_and_money_monthly_pulse_cancel:0 "매월 재정적, 산업적으로 투자 취소"
+ BRG_buy_supplies_with_workers_and_equipment_monthly_pulse:0 "매월 산업적으로 투자 및 무기 판매 증대"
+ BRG_buy_supplies_with_workers_and_equipment_monthly_pulse_cancel:0 "매월 산업적으로 투자 및 무기 판매 증대 취소"
+ BRG_buy_supplies_with_equipment_and_money_monthly_pulse:0 "매월 무기 판매 증대"
+ BRG_buy_supplies_with_equipment_and_money_monthly_pulse_cancel:0 "매월 무기 판매 증대 취소"
+ BRG_buy_supplies_with_equipment_and_pp_monthly_pulse:0 "매월 정치적으로 투자 및 무기 판매 증대"
+ BRG_buy_supplies_with_equipment_and_pp_monthly_pulse_cancel:0 "매월 정치적으로 투자 및 무기 판매 증대 취소"
+ BRG_buy_supplies_with_money_and_pp_monthly_pulse:0 "매월 정치적, 재정적으로 투자"
+ BRG_buy_supplies_with_money_and_pp_monthly_pulse_cancel:0 "매월 정치적, 재정적으로 투자 취소"
 
  BRG_supply_decisions_category:0 "물자 현황"
- BRG_supply_decisions_category_desc:0 "현재 우리는 §Y[?BRG_supplies]§!만큼의 물자를 가지고 있습니다. 기본 월간 물자 §R소비량§!은 §Y[?BRG_supply_consumption]§!입니다. 낮은 §Y안정도나 전쟁 지지도§!는 소비량을 늘릴 것입니다.\n 우린 현 세계계획을 §Y[?BRG_gp_months_counter]§!달 동안 계속하고 있으며 이는 월간 물자 §소비량§!을 §Y[?BRG_additional_supply_consumption]§!만큼 늘립니다.\n물자 소진은 안정도에 §R치명적인§! 결과를 가지고 올 것입니다."
+ BRG_supply_decisions_category_desc:0 "현재 우리는 §Y[?BRG_supplies]§!만큼의 물자를 가지고 있습니다. 기본 매월 물자 §R소비량§!은 §Y[?BRG_supply_consumption]§!입니다. 낮은 §Y안정도나 전쟁 지지도§!는 소비량을 늘릴 것입니다.\n 우린 현 세계계획을 §Y[?BRG_gp_months_counter]§!달 동안 계속하고 있으며 이는 매월 물자 §소비량§!을 §Y[?BRG_additional_supply_consumption]§!만큼 늘립니다.\n물자 소진은 안정도에 §R치명적인§! 결과를 가지고 올 것입니다."
 
  BRG_gain_1_supplies:0 "§Y1§!만큼의 물자를 §G얻을§! 것입니다.\n"
  BRG_gain_1_supplies:0 "§Y2§!만큼의 물자를 §G얻을§! 것입니다.\n"
@@ -430,7 +430,7 @@ BRG_unlock_famine_foci:0 "이 위기를 §e다루는§! 새로운 중점이 해�
 
  BRG_end_collaborators:0 "§R협력자 군단의 도움은 §!§x더 이상 필요하지 않습니다.§!\n향후 조치를 위해 §G준비 작업§!을 폐기하는 새로운 결정이 해금될 것입니다.§!\n"
  BRG_unlock_massive_sus:0 "§Q샤를마뉴§!와 §Y발로니엔§!의 §R의심도§!를 §G크게 낮추는§! 결정이 해금될 것입니다.\n"
- BRG_unlock_massive_intel:0 "§B월간 첩보 성장§!을 §G크게 늘리는§! 결정이 해금될 것입니다.\n"
+ BRG_unlock_massive_intel:0 "§B매월 첩보 성장§!을 §G크게 늘리는§! 결정이 해금될 것입니다.\n"
  BRG_massive_intel_costs:0 "이는 §Y2억§!이 §R필요합니다.§!\n"
  BRG_unlock_legion_operations:0 "§g군단§!과 §R빨치산§! §R해체§!를 준비하는 작전이 해금될 것입니다.\n"
  BRG_operations_category:0 "최종 행동"
@@ -892,13 +892,13 @@ BRG_Percent_Sucsess_Mission_Tooltip:0 "[?BRG_Operation_Sucsess_Prediction]% 성�
 
 BRG_DeGrelle_Doing_Another_Investigation:0 "현재 또 다른 단서를 조사하고 있습니다."
 BRG_Current_Sus_Walloon_Tooltip:0 "§R현재 의심도§!: [BRG_Degrelle_Sus]"
-BRG_Monthly_Intel_Gain_Tooltip:0 "월간 첩보 성장: [?BRG_Monthly_Intel_Gain]"
+BRG_Monthly_Intel_Gain_Tooltip:0 "매월 첩보 성장: [?BRG_Monthly_Intel_Gain]"
 
 BRG_New_Intel_Decisions_DeGrelle:0 "§B첩보§!를 §G늘리는§! 새로운 결정이 해금될 것입니다.\n"
 
 BRG_Already_Found_Lead_Reward:0 "§B20 첩보§!를 얻을 것입니다.\n"
 
-BRG_Intel_Gain_DeGrelle:0 "§B월간 첩보 성장§!이 늘어날 것이며 새로운 결정이 해금될 것입니다.\n"
+BRG_Intel_Gain_DeGrelle:0 "§B매월 첩보 성장§!이 늘어날 것이며 새로운 결정이 해금될 것입니다.\n"
 
 BRG_New_Sus_Decisions_DeGrelle:0 "§R드그렐의 의심§!을 §G낮추는§! 새로운 결정이 해금될 것입니다.\n"
 
@@ -910,7 +910,7 @@ BRG_Stench_Focus_Tooltip:0 "§R불충하고 수상한 군단§!에 대한 조사
 
 BRG_Lower_Sus_Decisions_Post_Degrelle_unlock_tooltip:0 "그들의 §R의심도§!를 낮추는 결정이 §G해금될 것입니다§!.\n"
 
- BRG_Mole_In_Every_Hq_Tooltip:0 "§B월간 첩보 성장§!을 §G높이는§! 결정이 §G해금될 것입니다§!.\n"
+ BRG_Mole_In_Every_Hq_Tooltip:0 "§B매월 첩보 성장§!을 §G높이는§! 결정이 §G해금될 것입니다§!.\n"
 
  BRG_Against_RPY:0 "§R가장 이해하기 어려운 적에 대한 조사§!가 §x승인될 것입니다§!.\n"
 
@@ -918,17 +918,17 @@ BRG_Lower_Sus_Decisions_Post_Degrelle_unlock_tooltip:0 "그들의 §R의심도§
 
  BRG_Already_Doing_Loyalty_Decision:0 "아직 §R군단 지지도§!를 다루지 않았습니다."
 
-  BRG_Increase_Monthly_Cops_decision_tooltip:0 "새로운 모집 전략을 써서 §R월간 보안 장교 성장§!을 §Y25§!만큼 늘릴 것입니다.\n"
-  BRG_Increase_Monthly_Cops_decision_large_tooltip:0 "새로운 모집 전략을 써서 §R월간 보안 장교 성장§!을 §Y55§!만큼 늘릴 것입니다.\n"
+  BRG_Increase_Monthly_Cops_decision_tooltip:0 "새로운 모집 전략을 써서 §R매월 보안 장교 성장§!을 §Y25§!만큼 늘릴 것입니다.\n"
+  BRG_Increase_Monthly_Cops_decision_large_tooltip:0 "새로운 모집 전략을 써서 §R매월 보안 장교 성장§!을 §Y55§!만큼 늘릴 것입니다.\n"
 
   BRG_Monthly_Intel_Gain_Post_Degrelle_Up_Medium:0 "§B첩보§! 수집을 증대"
-  BRG_Monthly_Intel_Gain_Post_Degrelle_Up_Medium_tt:0 "이 작전에 더 투자함으로써 §B월간 첩보 성장§!을 §Y3§!만큼 늘릴 수 있습니다.\n"
+  BRG_Monthly_Intel_Gain_Post_Degrelle_Up_Medium_tt:0 "이 작전에 더 투자함으로써 §B매월 첩보 성장§!을 §Y3§!만큼 늘릴 수 있습니다.\n"
 
   BRG_Monthly_Intel_Gain_Post_Degrelle_Up_Large:0 "§B첩보§! 수집을 크게 증대"
-  BRG_Montly_Intel_Up_Large:0 "이 작전에 더 투자함으로써 §B월간 첩보 성장§!을 §Y5§!만큼 늘릴 수 있습니다.\n"
+  BRG_Montly_Intel_Up_Large:0 "이 작전에 더 투자함으로써 §B매월 첩보 성장§!을 §Y5§!만큼 늘릴 수 있습니다.\n"
 
   BRG_Monthly_Intel_Gain_Post_Degrelle_Up_Massive:0 "추가 자산 확보"
-  BRG_massive_inteligence_gain:0 "§B월간 첩보 성장§!이 §Y15§!만큼 늘 것입니다.\n"
+  BRG_massive_inteligence_gain:0 "§B매월 첩보 성장§!이 §Y15§!만큼 늘 것입니다.\n"
 
   BRG_Lower_Walloon_Sus_Little:0 "대§Y발로니엔§! 방첩 활동"
   BRG_Lower_Walloon_Sus_Medium:0 "중간 정도의 대§Y발로니엔§! 방첩 활동\n"
@@ -986,7 +986,7 @@ BRG_Lower_Sus_Decisions_Post_Degrelle_unlock_tooltip:0 "그들의 §R의심도§
 
  BRG_encourage_erikson_tooltip:0 "§O랑게마르크§!가 벨기에 전체를 차지하도록 도와 §Y충성도§!를 §G높일§! 수 있습니다.\n"
 
- BRG_under_our_thumb_tooltip:0 "이 §Y새로 얻은 정보§! 덕분에 §B월간 첩보 획득§!을 §G5§!만큼 늘릴 새로운 결정이 해금될 것입니다.\n\n§G30§! §B첩보§!를 얻을 것입니다..\n\n"
+ BRG_under_our_thumb_tooltip:0 "이 §Y새로 얻은 정보§! 덕분에 §B매월 첩보 획득§!을 §G5§!만큼 늘릴 새로운 결정이 해금될 것입니다.\n\n§G30§! §B첩보§!를 얻을 것입니다..\n\n"
 
  BRG_a_few_key_positions_tooltip:0 "§G경질된 장교들§!은 §Y발로니엔의 충성도§! 보장하기 위해 큰 일을 할 것입니다.\n"
 
@@ -1122,14 +1122,14 @@ BRG_A_Temp_solution_tooltip:0 "이는 §B샤를마뉴 사단의 충성심§!을 
 
 BRG_a_temp_solution_tooltip_2:0 "§B샤를마뉴 사단§!의 §R의심§!을 §G크게 낮출§! 결정이 해금될 것입니다.\n"
 
-BRG_New_Cops_tooltip:0 "월마다 §R보안국 장교§!를 §G10명 더§! 얻을 것입니다. 또한 §G월간 모집 인원을 늘릴§! 결정이 해금될 것입니다.\n"
+BRG_New_Cops_tooltip:0 "월마다 §R보안국 장교§!를 §G10명 더§! 얻을 것입니다. 또한 §G매월 모집 인원을 늘릴§! 결정이 해금될 것입니다.\n"
 
 BRG_new_loyalty_decsions:0 "§O랑게마르크 사단§!과 §B샤를마뉴 사단§!의 충성심을 올리는 새로운 결정이 해금될 것입니다."
 
 ################################## DECISIONS
 
 BRG_Investigations_Decisions_Catagory:0 "내부 조사"
-BRG_Investigations_Decisions_Catagory_desc:0 "SS상급집단지도자인 아돌프 아이히만은 독일을 위해 일하는 것을 매우 자랑스럽게 여겼습니다. 그의 일은 위대한 조사 작품인 사냥을 통해 독일을 살펴 그 땅에서 유전적 불순물의 흔적을 파괴하는 일이었습니다. 그러나 이제 아이히만은 기사단국을 섬기므로 국경 내에 있는 새로운 타락의 위협인, 이 땅 그늘에 숨어 있는 비겁한 반역자들을 파괴하기 위해 SS국가지도자 각하를 섬길 것입니다. SS해골부대의 사령관으로써 SS상급집단지도자를 기사단국 전역에 걸쳐 활동하는 정보원 몇 명과 함께 배치하는 것은 그에게 SS국가지도자께서 발견한 수상한 인물을 추적하고 존재하는 위협을 섬멸하는 데 필요한 모든 권력을 제공할 것입니다.\n\n월간 §B첩보 성장률§B : §Y[?BRG_Monthly_Intel_Gain]§!"
+BRG_Investigations_Decisions_Catagory_desc:0 "SS상급집단지도자인 아돌프 아이히만은 독일을 위해 일하는 것을 매우 자랑스럽게 여겼습니다. 그의 일은 위대한 조사 작품인 사냥을 통해 독일을 살펴 그 땅에서 유전적 불순물의 흔적을 파괴하는 일이었습니다. 그러나 이제 아이히만은 기사단국을 섬기므로 국경 내에 있는 새로운 타락의 위협인, 이 땅 그늘에 숨어 있는 비겁한 반역자들을 파괴하기 위해 SS국가지도자 각하를 섬길 것입니다. SS해골부대의 사령관으로써 SS상급집단지도자를 기사단국 전역에 걸쳐 활동하는 정보원 몇 명과 함께 배치하는 것은 그에게 SS국가지도자께서 발견한 수상한 인물을 추적하고 존재하는 위협을 섬멸하는 데 필요한 모든 권력을 제공할 것입니다.\n\n매월 §B첩보 성장률§B : §Y[?BRG_Monthly_Intel_Gain]§!"
 
 
 BRG_Open_GUI:0 "조사 개방"
@@ -1144,7 +1144,7 @@ BRG_Lower_DeGrelle_Sus_Lots:0 "큰 속임수 쓰기"
 
 BRG_Get_Little_Intel_tt:0 "§B첩보 역량§!을 늘려 §Y10 첩보§!를 얻을 것입니다.\n"
 BRG_Get_Intel_tt:0 "§B첩보 역량§!을 늘려 §Y25 첩보§!를 얻을 것입니다.\n"
-BRG_increase_monthly_intel_a_little_DeGrelle:0 "이 작전에 더 많이 투자하여 §B월간 첩보 성장§!을 §Y2§!만큼 증가시킬 것입니다.\n"
+BRG_increase_monthly_intel_a_little_DeGrelle:0 "이 작전에 더 많이 투자하여 §B매월 첩보 성장§!을 §Y2§!만큼 증가시킬 것입니다.\n"
 BRG_Low_Sus_DeGrelle_Tooltip:0 "조사에 새로운 기만 수법을 사용하여 §Y드그렐의 의심도§!를 §Y약간§! 낮출 것입니다.\n"
 BRG_Sus_Medium_DeGrelle_Tooltip:0 "조사에 새로운 기만 수법을 사용하여 §Y드그렐의 의심도§!를 §G어느 정도§! 낮출 것입니다.\n"
 BRG_Sus_Lots_DeGrelle_Tooltip:0 "조사에 새로운 기만 수법을 사용하여 §Y드그렐의 의심도§!를 §y크게§! 낮출 것입니다.\n"
@@ -1166,7 +1166,7 @@ BRG_idea_grenzeschild_desc:0 "프랑스, 더치란드, 스위스, 독일과의 �
  BRG_domestic_gui:0 "내부 상황"
  BRG_Info_Button_Domestic_GUI:0 "§Y숙련공§!은 기사단국이 특별히 유용하다고 여기는 선택받은 소수를 가리킵니다. §Y그들의 수와 존재는 전국적으로 추적되며§! §GSS는 가장 유용하다고 생각하는 곳§!으로 그들을 쉽게 옮길 수 있습니다. 그들의 §Y노동§!을 잘 이용하는 것은 성공적으로 §G우리의 산업화를 가속할 수 있습니다§!. 그것이 도로를 만드는 일이든, 토지를 닦아내는 일이든 새로 공장을 세우거나 심지어 도시를 개조하는 일이든 말입니다.\n\n그러나 이러한 §Y숙련공§!에게는 §G주의§!를 기울여야 합니다. 그들의 귀중한 기술 또한 §Y세심한 감시§!가 필요합니다. 만약 한 주의 §Y노동자§!의 수가 그곳에 배치된 §R감시원§!의 수를 훨씬 초과한다면, 우리의 영향력은 줄어들기 시작할 것이고 §x탐욕스러운 협력자들§!의 영향력은 커질 것입니다. 만약 그들의 영향력이 너무 §G높아지고§! 우리의 영향력이 너무 §R낮아지면§! §Y비참한 결과§!를 초래할 수도 있습니다.\n\n§R보안 경찰§!은 §Y기사단국을 유지하기 위한§! 우리의 도구입니다. 기본적으로, 우리는 매달 §Y20명§!의 §R보안 경찰§!을 얻겠지만, 이는 도시화와 함께 더 늘어날 수 있습니다. §Y노동자들§!과 마찬가지로, 우리는 §R보안 경찰§!을 일종의 §Y국가 비축역§!처럼 다뤄 보안 경찰이 필요한 어떤 주로 옮길 수 있습니다.\n\n§R감시원 1명§!이 §Y노동자 2명§!을 관리하는 것이 기준이지만, §G우리가 땅을 도시화할수록 이 비율은 더 높아질 것입니다§!. 그러나 어떤 사건들은 이 비율을 감소시키고 추가적인 감시원 배치를 필요로 할 수 있습니다.\n\n어떤 계획은 주의 범위를 넘어설 수도 있습니다. 이러한 임무를 수행하기 위해 우리는 §Y노동자를 국가 예비역§!에 투입할 수 있습니다. 그 곳에서 그들은 §G기사단국을 더욱 강화하는 데 활용될 수 있습니다§!. 그들이 주나 국가 전체를 강화하는데 이용되든 간에, 노동자들은 일단 일이 시작되면 소비될 것입니다. 일부는 그 일을 유지하는데 쓰이고, 나머지는 §R소모될 것입니다§!."
 
- BRG_rodomo_information_tt:0 "§R로도모 산업구역§!은 §P기사단국§!을 산업화할 수단입니다. §Y숙련공§!을 노르망디에 집중하여 §R산업구역§!의 다양한 요소를 개발할 수 있습니다. 이는 §G전국적인 산업적 이득§!을 가져오겠지만 로도모를 확장하기 위해서는 §Y노동자§!가 필요하며 §R노동자의 월간 소비량도 고려해야 합니다.§! 충분한 수의 §Y노동자§!를 구하지 못한다면 §R산업에 치명적인 결과를 가져올 것입니다.§!\n\n우리가 이 비용을 지불하지 않기 위해 §T산업화§!를 가속해야 합니다. §Y노동자§!를 집중하여 올바른 기술을 가진 사람들을 더 쉽게 식별하고 다른 기술을 익히도록 할 수 있을 것입니다.\n\n핵무기 계획의 확장과 함께 §Y프랑스 중앙 산괴§!에는 귀중한 우라늄이 매장되어 있으며 적절히 이용하면 §G우리의 억지력을 늘리는데§! 사용될 수 있습니다. 우선 여러 지역에 광산을 건설해야 할 것입니다. 광산은 새로운 농출시설을 건설하고 무기고를 확장하기에 충분한 우라늄을 제공할 것입니다."
+ BRG_rodomo_information_tt:0 "§R로도모 산업구역§!은 §P기사단국§!을 산업화할 수단입니다. §Y숙련공§!을 노르망디에 집중하여 §R산업구역§!의 다양한 요소를 개발할 수 있습니다. 이는 §G전국적인 산업적 이득§!을 가져오겠지만 로도모를 확장하기 위해서는 §Y노동자§!가 필요하며 §R노동자의 매월 소비량도 고려해야 합니다.§! 충분한 수의 §Y노동자§!를 구하지 못한다면 §R산업에 치명적인 결과를 가져올 것입니다.§!\n\n우리가 이 비용을 지불하지 않기 위해 §T산업화§!를 가속해야 합니다. §Y노동자§!를 집중하여 올바른 기술을 가진 사람들을 더 쉽게 식별하고 다른 기술을 익히도록 할 수 있을 것입니다.\n\n핵무기 계획의 확장과 함께 §Y프랑스 중앙 산괴§!에는 귀중한 우라늄이 매장되어 있으며 적절히 이용하면 §G우리의 억지력을 늘리는데§! 사용될 수 있습니다. 우선 여러 지역에 광산을 건설해야 할 것입니다. 광산은 새로운 농출시설을 건설하고 무기고를 확장하기에 충분한 우라늄을 제공할 것입니다."
 
  BRG_famine_information_tt:0 "§R기근§!의 도래는 §P기사단국§!에 좋지 않은 일입니다. 비숙련 원주민 노동력의 손실은 상관없지만, §Y다른 인력§!은 더 귀중하며 보존해야 합니다. 매달 §Y숙련공§!과 §R보안 경찰§!은 국가 비축량에서 §Q식량§!을 소비합니다. 식량 부족은 §R국가적 침체§!로 이어질 것입니다. §Y숙련공§!의 식량 부족은 산업을 침체시킬 것이고 §R보안 경찰§!의 식량 부족은 원주민을 감시할 수 없게 만들 것입니다.\n\n기사단국은 장기적이지 않은 국가이므로 이러한 손실은 §x뒤집을 수 없을 것입니다.§! 유일한 희망은 손실이 너무 커지기 전에 §G충분한 식량을 생산하는 것입니다.§! 매달 파리스와 로도모 산업구역을 제외한 모든 주는 식량을 생산합니다. §Y덜 개발되고 농업 중심인 주§!는 §G더 많은 식량§!을 생산하며 §Q브루탈리즘 양식 도시§!는 §R상대적으로 더 적은 양§!을 생산합니다. §Y발달된 농업 양식§!은 식량 생산을 늘릴 것입니다. 식량 생산을 늘릴 다른 방법이 있는지 찾아봐야 합니다.\n\n이 위기를 더 잘 대처하기 위해 §Y집단 간 우선순위를 매기는 것§!도 고려해야 합니다. 물론 이는 낮은 우선순위의 집단의 능력을 §R매달 떨어트릴 것입니다.§!"
 
@@ -2028,7 +2028,7 @@ BRG_education.24.b:0 "오직 우리만이 우월하다. 하원을 해산하고, 
  set_stability_to_zero:0 "정치적 안정을 0으로 설정"
  set_native_stability_to_zero:0 "원주민 긴장을 0으로 설정"
  BRG_famine_overview:0 "기근 상황"
- BRG_famine_overview_desc:0 "현재 식량 공급 수준은 §! §R[?From.BRG_famine_counter]§!퍼센트입니다. 이 수치가 0이 되면 기근은 악화될 것입니다. 100이 되면 기근은 나아질 것입니다.\n\n현재 월간 식량 공급 변화량은§! §R[?From.BRG_famine_monthly_change]§!퍼센트입니다."
+ BRG_famine_overview_desc:0 "현재 식량 공급 수준은 §! §R[?From.BRG_famine_counter]§!퍼센트입니다. 이 수치가 0이 되면 기근은 악화될 것입니다. 100이 되면 기근은 나아질 것입니다.\n\n현재 매월 식량 공급 변화량은§! §R[?From.BRG_famine_monthly_change]§!퍼센트입니다."
  BRG_internal_development_tree_decisions:0 "내부 개발"
  BRG_internal_development_tree_decisions_desc:0 "우리는 내부 개발에 노력을 집중할 수 있습니다. 그러한 결정이 내려질 때마다 연간 50만 달러의 추가 비용이 들 것입니다."
  BRG_access_infrastructure_tree:0 "기반시설과 산업에 집중하는 중점"
@@ -2233,15 +2233,15 @@ BRG_education.24.b:0 "오직 우리만이 우월하다. 하원을 해산하고, 
  BRG_unlock_mine_expansions:0 "§M숙련공§!을 대가로 중앙 산괴의 자원을 수확하는 능력을 얻게 될 것입니다.\n"
  BRG_unlock_factories_for_workers:0 "§M숙련공§!을 대가로 새로운 §G공장§!의 건설을 가속하는 능력을 얻게 될 것입니다.\n"
  BRG_rodomo_massive_expansion:0 "§R그들의 피가 발전을 부채질할 것입니다.§!\n공장 생산량이 §Y10%§! §G증가하고§! 생산 효율이 §Y5%§! §R감소할§! 것입니다.\n"
- BRG_rodomo_worker_decrease_minor:0 "§R로도모 산업구역§!의 월간 §M숙련공§! 성장이 §Y15§! §R감소할§! 것입니다.\n"
- BRG_rodomo_worker_decrease_small:0 "§R로도모 산업구역§!의 월간 §M숙련공§! 성장이 §Y30§! §R감소할§! 것입니다.\n"
- BRG_rodomo_worker_decrease_medium:0 "§R로도모 산업구역§!의 월간 §M숙련공§! 성장이 §Y50§! §R감소할§! 것입니다.\n"
- BRG_rodomo_worker_decrease_large:0 "§R로도모 산업구역§!의 월간 §M숙련공§! 성장이 §Y90§! §R감소할§! 것입니다.\n"
- BRG_worker_decrease_minor:0 "이 주의 월간 §M숙련공§! 성장이 §Y5§! §R감소할§! 것입니다.\n"
- BRG_worker_decrease_small:0 "이 주의 월간 §M숙련공§! 성장이 §Y20§! §R감소할§! 것입니다.\n"
- BRG_worker_decrease_medium:0 "이 주의 월간 §M숙련공§! 성장이 §Y40§! §R감소할§! 것입니다.\n"
- BRG_worker_decrease_large:0 "이 주의 월간 §M숙련공§! 성장이 §Y80§! §R감소할§! 것입니다.\n"
- BRG_refinery_penalties:0 "영향받는 주의 월간 §M숙련공§! 성장이 §Y40§! §R감소할§! 것입니다.\n"
+ BRG_rodomo_worker_decrease_minor:0 "§R로도모 산업구역§!의 매월 §M숙련공§! 성장이 §Y15§! §R감소할§! 것입니다.\n"
+ BRG_rodomo_worker_decrease_small:0 "§R로도모 산업구역§!의 매월 §M숙련공§! 성장이 §Y30§! §R감소할§! 것입니다.\n"
+ BRG_rodomo_worker_decrease_medium:0 "§R로도모 산업구역§!의 매월 §M숙련공§! 성장이 §Y50§! §R감소할§! 것입니다.\n"
+ BRG_rodomo_worker_decrease_large:0 "§R로도모 산업구역§!의 매월 §M숙련공§! 성장이 §Y90§! §R감소할§! 것입니다.\n"
+ BRG_worker_decrease_minor:0 "이 주의 매월 §M숙련공§! 성장이 §Y5§! §R감소할§! 것입니다.\n"
+ BRG_worker_decrease_small:0 "이 주의 매월 §M숙련공§! 성장이 §Y20§! §R감소할§! 것입니다.\n"
+ BRG_worker_decrease_medium:0 "이 주의 매월 §M숙련공§! 성장이 §Y40§! §R감소할§! 것입니다.\n"
+ BRG_worker_decrease_large:0 "이 주의 매월 §M숙련공§! 성장이 §Y80§! §R감소할§! 것입니다.\n"
+ BRG_refinery_penalties:0 "영향받는 주의 매월 §M숙련공§! 성장이 §Y40§! §R감소할§! 것입니다.\n"
  BRG_rebirth_of_paris:0 "§R현대의 능률§!.\n오스트파리스, 베스트파리스의 §M숙련공 성장§!과 §g억제 효율§!이 §G크게 상승할§! 것입니다.\n"
  BRG_increase_fuel_efficiency:0 "§Y연료§! 효율이 §Y5%§! §G상승할§! 것입니다.\n"
  BRG_increase_fuel_efficiency_cost:0 "암시장을 통해 연간 §Y2500만§!의 비용을 대가로 더 많은 §Y연료§!를 얻게될 것입니다.\n"
@@ -2331,8 +2331,8 @@ BRG_education.24.b:0 "오직 우리만이 우월하다. 하원을 해산하고, 
  BRG_unlock_socdev_conversions:0 "§Y사회적 기반§!을 §R대가§!로 하여 §G농업§!을 현대화하는 결정이 해금될 것입니다.\n"
  BRG_unlock_industrial_farm_aid:0 "§R로도모 산업구역§!의 생산성을 §G농업 생산량을 늘리는§! 쪽으로 돌리는 결정이 해금될 것입니다.\n"
  BRG_unlock_reserves_expansion:0 "§R로도모 산업구역§!을 대가로 §Y식량 비축 한도§!를 확장할 수 있게 될 것입니다.\n"
- BRG_increase_food_production:0 "월간 §Y식량 생산량§!이 §G증가할§! 것입니다.\n"
- BRG_decrease_food_production:0 "월간 §Y식량 생산량§!이 §R감소할§! 것입니다.\n"
+ BRG_increase_food_production:0 "매월 §Y식량 생산량§!이 §G증가할§! 것입니다.\n"
+ BRG_decrease_food_production:0 "매월 §Y식량 생산량§!이 §R감소할§! 것입니다.\n"
  BRG_reduce_food_consumption:0 "§Y식량 소비§!가 §G감소할§! 것입니다.\n"
  BRG_steal_food:0 "§Y식량 비축량§!이 §Y2000만큼§! 늘어날 것입니다.\n"
  BRG_reduce_growth:0 "§Y인구 성장§!이 §R하락할§!것입니다.\n"
@@ -2349,7 +2349,7 @@ BRG_education.24.b:0 "오직 우리만이 우월하다. 하원을 해산하고, 
  BRG_loyalty_hit_small:0 "§gSS§!를 향한 충성도가 약간 §R감소할§! 것입니다.\n"
  BRG_unlock_farm_regions:0 "주 전체가 오직 §G농업§!에만 집중하게끔 할 수 있게 될 것입니다. 이 목적을 위해 지정된 주는 §R어떠한§! §Y산업§!도 유지할 수 없을 것입니다."
  BRG_mega_farm_construction:0 "이 주의 §Y식량 생산량§!이 §G세 배§!로 늘어날 것입니다.\n§R모든 산업 건물이 사라질 것입니다.§!\n"
- BRG_drastic_food_increase:0 "월간 §Y식량 생산량§!이 §G급격하게 증가할 것입니다.§!\n"
+ BRG_drastic_food_increase:0 "매월 §Y식량 생산량§!이 §G급격하게 증가할 것입니다.§!\n"
  BRG_second_try_tt:0 "§R과감한§! 조치가 필요할 것입니다.\n"
  BRG_prioritize_workers:0 "§Y산업 역량§!은 반드시 유지해야 합니다.\n이 경로로 나아가면 산업이 온전하게 살아남을 가능성이 더 높아지지만 §g감시 역량§!은 불가피하게 §R쇠퇴할§! 것입니다.\n§gSS§! 팝이 더 적은 식량을 소비할 것입니다.\n"
  BRG_prioritize_cops:0 "§g통제§!는 반드시 유지해야 합니다.\n이 경로로 나아가면 지배가 유지될 가능성이 더 높아지지만 §M산업 역량§!은 불가피하게 §R쇠퇴할§! 것입니다.\n§M노동자§! 팝이 더 적은 식량을 소비할 것입니다.\n"
@@ -2362,10 +2362,10 @@ BRG_education.24.b:0 "오직 우리만이 우월하다. 하원을 해산하고, 
  BRG_demolish_city:0 "이 주의 도시는 §R파괴될§! 것입니다. §Y식량 생산§!은 더이상 불이익 받지 않겠지만 도시가 주는 모든 이익은 §R사라질§! 것입니다.\n"
  BRG_famine_over:0 "§R피해§!는 남겠지만 더이상 악화나 기아는 일어나지 않을 것입니다.\n§!"
 
- BRG_increase_agriculture_modifier:0 "월간 §Y농업§! 생산량이 §G늘고 있습니다.§!\n"
- BRG_decrease_equipment_modifier:0 "월간 §Y산업용 장비§! 생산량이 §R줄어들고 있습니다.§!\n"
- BRG_decrease_experitse_modifier:0 "월간 §Y산업 지식§! 생산량이 §R줄어들고 있습니다.§!\n"
- BRG_decrease_research_modifier:0 "월간 §Y연구 시설§! 생산량이 §R줄어들고 있습니다.§!\n"
+ BRG_increase_agriculture_modifier:0 "매월 §Y농업§! 생산량이 §G늘고 있습니다.§!\n"
+ BRG_decrease_equipment_modifier:0 "매월 §Y산업용 장비§! 생산량이 §R줄어들고 있습니다.§!\n"
+ BRG_decrease_experitse_modifier:0 "매월 §Y산업 지식§! 생산량이 §R줄어들고 있습니다.§!\n"
+ BRG_decrease_research_modifier:0 "매월 §Y연구 시설§! 생산량이 §R줄어들고 있습니다.§!\n"
  burgundian_mega_farm:0 "거대 농장"
 
  BRG_industrial_farm:0 "[FROM.GetName]에 공장형 농장 도입"
@@ -2397,7 +2397,7 @@ BRG_education.24.b:0 "오직 우리만이 우월하다. 하원을 해산하고, 
  BRG_salt_the_earth.tt:0 "이는 모든 §Y교육 결정§!을 §R잠글 것입니다.§!"
  BRG_destroy_it_all.tt:0 "§Y가혹한 문화 전환§! 결정이 §G해금될 것입니다.§!"
  BRG_education_tree_dynamic_modifier_again:0 "§Y교육§! 위기"
- BRG_education_tree_dynamic_modifier_again_desc:0 "월간 학문적 기반은 사보타주에 따라 바뀔 것입니다."
+ BRG_education_tree_dynamic_modifier_again_desc:0 "매월 학문적 기반은 사보타주에 따라 바뀔 것입니다."
  BRG_EDUCATION_FAILURE.tt:0 "이전 §R실패§!를 §G매꿀§! 새 §Y결정§!을 해금할 것입니다."
  BRG_HIMMLER_SUPPORT_1:0 "§P힘러 충성도§!가 §Y5§!만큼 §R감소할 것입니다.§!\n§Y샤를마뉴 충성도§!가 §Y5§!만큼 §R증가할 것입니다.§!\n"
  BRG_HIMMLER_SUPPORT_2:0 "§P힘러 충성도§!가 §Y10§!만큼 §R감소할 것입니다.§!\n§O발로니엔 충성도§!가 §Y15§!만큼 §R증가할 것입니다.§!\n"
