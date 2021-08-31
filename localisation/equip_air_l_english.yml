@@ -197,7 +197,7 @@ l_english:
   jet_stealth_research_desc:0 "항공기의 크기보다 형상이 레이다 노출에 더 영향을 준다는 것이 밝혀졌습니다. 비행기를 각지고 극단적인 형태로 만들어야 하기에 이를 이용할 수는 없습니다. 그렇지만 이제 전투기 크기면서 최소한 노출되는, 레이다에 거의 잡히지 않는 항공기를 만들 수 있습니다."
  ### 전체적인 개선 ###
 
- ### Interceptor ###
+ ### 요격기 ###
   interceptor:0 "요격기"
   jet_interceptor:0 "제트 요격기"
   interceptor_equipment:0 "요격기"
@@ -225,16 +225,16 @@ l_english:
 
   # 1980
   jet_interceptor_equipment_4:0 "준현대 제트 요격기"
-  jet_interceptor_equipment_4_desc:0 "Supersonic interceptors can now be built in smaller sizes than before. Their futuristic electronics systems and advanced missiles will give our pilots the edge over all other aircraft, even if they have more limited altitudes."
+  jet_interceptor_equipment_4_desc:0 "이제 전보다 더 작은 크기의 초음속 요격기를 만들 수 있습니다. 선진적인 전자 시스템과 진보한 미사일은 우리 조종사들이 다른 기체를 상대로 우위를 차지할 수 있게 해줄겁니다. 우리 기가 더 낮은 고도로 날고있더라도 말입니다."
   jet_interceptor_equipment_4_short:0 "준현대 제트 요격기"
 
   # 1990
   jet_interceptor_equipment_5:0 "현대적 제트 요격기"
-  jet_interceptor_equipment_5_desc:0 "Improved engines and advanced radar systems are the next step forward in interceptor technology. We can give our pilots the gear to intercept and destroy any target with the advanced models we have designed."
+  jet_interceptor_equipment_5_desc:0 "개선된 엔진과 진보한 레이다 시스템은 요격기 기술의 다음 단계입니다. 우리가 설계한 진보된 모델로, 조종사들에게 어떤 목표든 요격해 파괴할 수 있는 장비를 줄 수 있습니다."
   jet_interceptor_equipment_5_short:0 "현대적 제트 요격기"
- ### Interceptor ###
+ ### 요격기 ###
 
- ### Fighters ###
+ ### 전투기 ###
   fighter:0 "전투기"
   jet_fighter:0 "제트 전투기"
   jet_fighter_equipment:0 "제트 전투기"
@@ -286,7 +286,7 @@ l_english:
   cv_jet_fighter_equipment_3:0 "진보된 제트 전투기 CV"
   cv_jet_fighter_equipment_3_desc:0 "배운 교훈과 전투기를 위해 개발한 신기술을 해군에서도 쓸 수 있습니다. 현대 전투기는 공중전의 위협으로부터 우리 함대를 지킬 것입니다."
   cv_jet_fighter_equipment_3_short:0 "진보된 제트 전투기 CV"
- ### Fighters ###
+ ### 전투기 ###
 
  ### Random Carrier Stuff ###
   cv_CAS_equipment:0 "함재 근접항공지원기"
@@ -304,7 +304,7 @@ l_english:
   cv_nav_bomber_equipment_desc:0 "함재 해군폭격기"
   cv_nav_bomber:0 "함재 해군폭격기"
 
- ### Close Air Support ###
+ ### 근접항공지원기 ###
   cas:0 "근접항공지원기"
   jet_CAS:0 "제트 근접항공지원기"
   cv_jet_CAS:0 "함재 제트 근접항공지원기"
@@ -346,9 +346,9 @@ l_english:
   cv_jet_CAS_equipment_3:0 "진보된 제트 근접항공지원기 CV"
   cv_jet_CAS_equipment_3_desc:0 "초음속으로 날고, 더 많은 무장을 탑재하고, 더 멀리 나는 함재 경공격기가 필요합니다. 기술 발전 덕분에 해군 조종사들이 원하는 것을 줄 수 있습니다."
   cv_jet_CAS_equipment_3_short:0 "진보된 제트 근접항공지원기 CV"
- ### Close Air Support ###
+ ### 근접항공지원기 ###
 
- ### Multi-Role Combat Aircraft ###
+ ### 다목적 전투기 ###
   mca:0 "다목적 전술기"
   mca_equipment:0 "다목적 전술기"
   mca_equipment_desc:0 "다목적 전술기"
@@ -370,9 +370,9 @@ l_english:
   cv_mca_equipment_2:0 "현대적 다목적 전술기 CV"
   cv_mca_equipment_2_desc:0 "Our improvements in multi-role land based aircraft can be applied to our naval air arm as well. Newer electronics and avionics will make our naval aircraft capable of any task we give them."
   cv_mca_equipment_2_short:0 "현대적 다목적기 CV"
- ### Multi-Role Combat Aircraft ###
+ ### 다목적 전투기 ###
 
- ### Stealth Fighter ###
+ ### 스텔스 전투기 ###
   light_stealth_equipment:0 "스텔스 전투기"
   light_stealth:0 "스텔스 전투기"
   light_stealth_equipment_desc:0 "스텔스 전투기"
