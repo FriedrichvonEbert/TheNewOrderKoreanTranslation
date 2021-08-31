@@ -9,8 +9,8 @@ l_english:
 #| #########  #          #########  #########  #########  #       #  ######### |#
 #|=============================================================================|#
 
-#### Special ####
- ### USA - Gunship ###
+#### 건십 ####
+ ### USA - 건십 ###
   gunship:0 "건십"
   gunship_equipment:0 "건십"
 
@@ -29,8 +29,8 @@ l_english:
   gunship_equipment_3:0 "록히드 AC-130E 스펙터"
   gunship_equipment_3_short:0 "AC-130"
   gunship_equipment_3_desc:0 "장군, 난 휘티히가 살아있길 바라네. 수단과 방법을 가리지 않고 그를 살려서 데려오게."
- ### USA - Gunship ###
-#### Special ####
+ ### USA - 건십 ###
+#### 건십 ####
 
 #|============================================|#
 #| #       #  #########  #          ######### |#
@@ -40,7 +40,7 @@ l_english:
 #| #       #  #########  #########  ######### |#
 #|============================================|#
 
-#### Helicopters ####
+#### 헬리콥터 ####
  helicopter:0 "헬리콥터"
 
  helicopter_equipment_engines:0 "헬리콥터 엔진"
@@ -61,7 +61,7 @@ l_english:
   helicopter_equipment_1_desc:0 "헬리콥터라는 개념에 대한 계속된 작업은 날고, 체공하고, 다른 비행기들처럼 싸울 수 있을지도 모르는 항공기를 만들어냈습니다. 이러한 개념은 특성화될 잠재력이 아주 많습니다."
  ### Experimental ###
 
- ### Transport ###
+ ### 수송 ###
   transport_helicopter:0 "수송 헬리콥터"
   transport_helicopter_desc:0 "수송 헬리콥터"
 
@@ -87,9 +87,9 @@ l_english:
   transport_helicopter_equipment_4:0 "현대적 수송 헬기"
   transport_helicopter_equipment_4_short:0 "현대적 수송 헬기"
   transport_helicopter_equipment_4_desc:0 "우리는 장거리로 많은 수의 병력을 빠른 속도로 수송할 수 있는 수송 헬기 모델이 필요합니다. 새로운 모터와 혁신이 이를 성취할 수 있게 만듭니다."
- ### Transport ### 
+ ### 수송 ### 
 
- ### Attack ###
+ ### 공격 ###
   attack_helicopter:0 "공격 헬리콥터"
   attack_helicopter_desc:0 "공격 헬리콥터"
 
@@ -115,9 +115,9 @@ l_english:
   attack_helicopter_equipment_4:0 "현대적 공격 헬기"
   attack_helicopter_equipment_4_short:0 "현대적 공격 헬기"
   attack_helicopter_equipment_4_desc:0 "최근에 컴퓨팅 기술이 발전함에 따라 우리는 이제 헬리콥터에 고도로 발전된 컴퓨터 지휘 시스템을 설치할 수 있게 되었습니다. 현대식 전방 상향 시현기, 보다 강력한 엔진, 새로운 위성 기반 네비게이션이 결합되어 성능이 대폭 향상될 것입니다."
- ### Attack ###
+ ### 공격 ###
 
- ### Scout ###
+ ### 정찰 ###
   scout_helicopter:0 "정찰 헬리콥터"
   scout_helicopter_desc:0 "정찰 헬리콥터"
 
@@ -143,9 +143,9 @@ l_english:
   scout_helicopter_equipment_4:0 "현대적 정찰 헬기"
   scout_helicopter_equipment_4_short:0 "현대적 정찰 헬기"
   scout_helicopter_equipment_4_desc:0 "현대 기술은 정찰기가 전보다 더 오래 날고, 더 멀리 보고, 더 빠르게 움직이고, 더 잘 싸운다는걸 의미합니다. 유도미사일을을 장비한 정찰기는 군대의 눈 만이 되지 않습니다. 군대의 저격 소총도 됩니다."
- ### Scout ###
+ ### 정찰 ###
 
- ### Anti-Submarine Warfare (ASW) ###
+ ### 대잠 (ASW) ###
   asw_helicopter:0 "대잠 헬리콥터"
   asw_helicopter_desc:0 "대잠 헬리콥터"
 
@@ -171,8 +171,8 @@ l_english:
   asw_helicopter_equipment_4:0 "현대적 대잠 헬기"
   asw_helicopter_equipment_4_short:0 "현대적 대잠 헬기"
   asw_helicopter_equipment_4_desc:0 "더 강력한 엔진과 외부 연료 탱크를 달 수 있게 재설계한 하드포인트는 해군 헬리콥터의 운용 범위 뿐만 아니라 성능도 향상시킵니다."
- ### Anti-Submarine Warfare (ASW) ###
-#### Helicopters ####
+ ### 대잠 (ASW) ###
+#### 헬리콥터 ####
 
 #|=======================================================|#
 #| #          #########  #########  #       #  ######### |#
@@ -182,20 +182,20 @@ l_english:
 #| #########  #########  #########  #       #      #     |#
 #|=======================================================|#
 
-#### Light Aircraft ####
- ### General Improvements ###
+#### 경 항공기 ####
+ ### 전체적인 개선 ###
   jet_equipment_engines:0 "제트 엔진"
-  jet_equipment_engines_desc:0 "제2차 세계 대전 초장기에 개발된 제트 엔진은 고압축 공기를 고반응도 제트연료와 혼합한 후 이를 발화시키는 방식으로 작동합니다. 이렇게 고에너지 가스를 배출해 일반 터빈식 항공기보다 더 많은 추력을 발생시키는겁ㄴ디ㅏ."
+  jet_equipment_engines_desc:0 "제2차 세계 대전 초장기에 개발된 제트 엔진은 고압축 공기를 고반응도 제트연료와 혼합한 후 이를 발화시키는 방식으로 작동합니다. 이렇게 고에너지 가스를 배출해 일반 터빈식 항공기보다 더 많은 추력을 발생시키는겁니다."
 
   improved_jet_range_1:0 "외부연료탱크"
   improved_jet_range_1_desc:0 "제트기는 엄청난 양의 연료를 불태우기에 항속거리가 매우 제한됩니다. 공기역학적 연료탱크를 개발해 제트기 밑에 달면 연료 탑재량을 늘리고 최소한의 비용으로 작전거리도 넓힐 수 있습니다."
 
   improved_jet_range_2:0 "발전된 외부연료탱크"
-  improved_jet_range_2_desc:0 "By utilizing new designs, lighter materials, and taking advantage of the increased thrust of newer jet engines, we can significantly increase the size of our aircrafts external fuel tanks. With more fuel available to them, our aircraft will be able to enjoy an even greater range."
+  improved_jet_range_2_desc:0 "새로운 설계와 더 가벼운 재질을 사용하고, 신형 제트 엔진의 더 강력한 추진력을 이용한다면 항공기용 외부연료탱크의 크기를 키울 수 있습니다. 더 많은 연료를 실을 수 있다면 더 넓은 작전 범위를 누릴 수 있을겁니다."
 
   jet_stealth_research:0 "경항공기 스텔스 기술"
-  jet_stealth_research_desc:0 "It has been discovered that radar signature is influenced more by an aircraft's shape than its size. While we could not exploit this due to the extreme, angular shape required, now we are able to create an aircraft the size of a fighter with a minimal signature, making it nearly invisible to radar."
- ### General Improvements ###
+  jet_stealth_research_desc:0 "항공기의 크기보다 형상이 레이다 노출에 더 영향을 준다는 것이 밝혀졌습니다. 비행기를 각지고 극단적인 형태로 만들어야 하기에 이를 이용할 수는 없습니다. 그렇지만 이제 전투기 크기면서 최소한 노출되는, 레이다에 거의 잡히지 않는 항공기를 만들 수 있습니다."
+ ### 전체적인 개선 ###
 
  ### Interceptor ###
   interceptor:0 "요격기"
