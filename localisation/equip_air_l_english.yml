@@ -9,8 +9,8 @@ l_english:
 #| #########  #          #########  #########  #########  #       #  ######### |#
 #|=============================================================================|#
 
-#### Special ####
- ### USA - Gunship ###
+#### 건십 ####
+ ### USA - 건십 ###
   gunship:0 "건십"
   gunship_equipment:0 "건십"
 
@@ -29,8 +29,8 @@ l_english:
   gunship_equipment_3:0 "록히드 AC-130E 스펙터"
   gunship_equipment_3_short:0 "AC-130"
   gunship_equipment_3_desc:0 "장군, 난 휘티히가 살아있길 바라네. 수단과 방법을 가리지 않고 그를 살려서 데려오게."
- ### USA - Gunship ###
-#### Special ####
+ ### USA - 건십 ###
+#### 건십 ####
 
 #|============================================|#
 #| #       #  #########  #          ######### |#
@@ -40,7 +40,7 @@ l_english:
 #| #       #  #########  #########  ######### |#
 #|============================================|#
 
-#### Helicopters ####
+#### 헬리콥터 ####
  helicopter:0 "헬리콥터"
 
  helicopter_equipment_engines:0 "헬리콥터 엔진"
@@ -61,7 +61,7 @@ l_english:
   helicopter_equipment_1_desc:0 "헬리콥터라는 개념에 대한 계속된 작업은 날고, 체공하고, 다른 비행기들처럼 싸울 수 있을지도 모르는 항공기를 만들어냈습니다. 이러한 개념은 특성화될 잠재력이 아주 많습니다."
  ### Experimental ###
 
- ### Transport ###
+ ### 수송 ###
   transport_helicopter:0 "수송 헬리콥터"
   transport_helicopter_desc:0 "수송 헬리콥터"
 
@@ -87,9 +87,9 @@ l_english:
   transport_helicopter_equipment_4:0 "현대적 수송 헬기"
   transport_helicopter_equipment_4_short:0 "현대적 수송 헬기"
   transport_helicopter_equipment_4_desc:0 "우리는 장거리로 많은 수의 병력을 빠른 속도로 수송할 수 있는 수송 헬기 모델이 필요합니다. 새로운 모터와 혁신이 이를 성취할 수 있게 만듭니다."
- ### Transport ### 
+ ### 수송 ### 
 
- ### Attack ###
+ ### 공격 ###
   attack_helicopter:0 "공격 헬리콥터"
   attack_helicopter_desc:0 "공격 헬리콥터"
 
@@ -115,9 +115,9 @@ l_english:
   attack_helicopter_equipment_4:0 "현대적 공격 헬기"
   attack_helicopter_equipment_4_short:0 "현대적 공격 헬기"
   attack_helicopter_equipment_4_desc:0 "최근에 컴퓨팅 기술이 발전함에 따라 우리는 이제 헬리콥터에 고도로 발전된 컴퓨터 지휘 시스템을 설치할 수 있게 되었습니다. 현대식 전방 상향 시현기, 보다 강력한 엔진, 새로운 위성 기반 네비게이션이 결합되어 성능이 대폭 향상될 것입니다."
- ### Attack ###
+ ### 공격 ###
 
- ### Scout ###
+ ### 정찰 ###
   scout_helicopter:0 "정찰 헬리콥터"
   scout_helicopter_desc:0 "정찰 헬리콥터"
 
@@ -142,10 +142,10 @@ l_english:
   # 1990
   scout_helicopter_equipment_4:0 "현대적 정찰 헬기"
   scout_helicopter_equipment_4_short:0 "현대적 정찰 헬기"
-  scout_helicopter_equipment_4_desc:0 "Modern technology means that our scouts can fly for longer, see further, move quicker, and fight better than they ever have before. With the addition of guided missiles, our recon craft are no longer just the eyes of the army- they are the sniper rifles."
- ### Scout ###
+  scout_helicopter_equipment_4_desc:0 "현대 기술은 정찰기가 전보다 더 오래 날고, 더 멀리 보고, 더 빠르게 움직이고, 더 잘 싸운다는걸 의미합니다. 유도미사일을을 장비한 정찰기는 군대의 눈 만이 되지 않습니다. 군대의 저격 소총도 됩니다."
+ ### 정찰 ###
 
- ### Anti-Submarine Warfare (ASW) ###
+ ### 대잠 (ASW) ###
   asw_helicopter:0 "대잠 헬리콥터"
   asw_helicopter_desc:0 "대잠 헬리콥터"
 
@@ -165,14 +165,14 @@ l_english:
   # 1980
   asw_helicopter_equipment_3:0 "준현대 대잠 헬기"
   asw_helicopter_equipment_3_short:0 "준현대 대잠 헬기"
-  asw_helicopter_equipment_3_desc:0 "Our naval helicopters could be more than just anti-submarine aircraft. We could easily give them anti-surface weapons as well, to increase their lethality against enemy naval forces."
+  asw_helicopter_equipment_3_desc:0 "해군 헬리콥터는 대잠 항공기 이상의 무언가가 될 수 있습니다. 적 해군을 상대로 더 치명적이게 만드려면 대함 무장을 장비하기만 하면 됩니다."
 
   # 1990
   asw_helicopter_equipment_4:0 "현대적 대잠 헬기"
   asw_helicopter_equipment_4_short:0 "현대적 대잠 헬기"
-  asw_helicopter_equipment_4_desc:0 "Heavier engines and a rethought hardpoint system to allow external fuel tanks will improve the performance of our naval helicopters as well as their range"
- ### Anti-Submarine Warfare (ASW) ###
-#### Helicopters ####
+  asw_helicopter_equipment_4_desc:0 "더 강력한 엔진과 외부 연료 탱크를 달 수 있게 재설계한 하드포인트는 해군 헬리콥터의 운용 범위 뿐만 아니라 성능도 향상시킵니다."
+ ### 대잠 (ASW) ###
+#### 헬리콥터 ####
 
 #|=======================================================|#
 #| #          #########  #########  #       #  ######### |#
@@ -182,22 +182,22 @@ l_english:
 #| #########  #########  #########  #       #      #     |#
 #|=======================================================|#
 
-#### Light Aircraft ####
- ### General Improvements ###
+#### 경 항공기 ####
+ ### 전체적인 개선 ###
   jet_equipment_engines:0 "제트 엔진"
-  jet_equipment_engines_desc:0 "제2차 세계 대전 초장기에 개발된 제트 엔진은 고압축 공기를 고반응도 제트연료와 혼합한 후 이를 발화시키는 방식으로 작동합니다. 이렇게 고에너지 가스를 배출해 일반 터빈식 항공기보다 더 많은 추력을 발생시키는겁ㄴ디ㅏ."
+  jet_equipment_engines_desc:0 "제2차 세계 대전 초장기에 개발된 제트 엔진은 고압축 공기를 고반응도 제트연료와 혼합한 후 이를 발화시키는 방식으로 작동합니다. 이렇게 고에너지 가스를 배출해 일반 터빈식 항공기보다 더 많은 추력을 발생시키는겁니다."
 
   improved_jet_range_1:0 "외부연료탱크"
   improved_jet_range_1_desc:0 "제트기는 엄청난 양의 연료를 불태우기에 항속거리가 매우 제한됩니다. 공기역학적 연료탱크를 개발해 제트기 밑에 달면 연료 탑재량을 늘리고 최소한의 비용으로 작전거리도 넓힐 수 있습니다."
 
   improved_jet_range_2:0 "발전된 외부연료탱크"
-  improved_jet_range_2_desc:0 "By utilizing new designs, lighter materials, and taking advantage of the increased thrust of newer jet engines, we can significantly increase the size of our aircrafts external fuel tanks. With more fuel available to them, our aircraft will be able to enjoy an even greater range."
+  improved_jet_range_2_desc:0 "새로운 설계와 더 가벼운 재질을 사용하고, 신형 제트 엔진의 더 강력한 추진력을 이용한다면 항공기용 외부연료탱크의 크기를 키울 수 있습니다. 더 많은 연료를 실을 수 있다면 더 넓은 작전 범위를 누릴 수 있을겁니다."
 
   jet_stealth_research:0 "경항공기 스텔스 기술"
-  jet_stealth_research_desc:0 "It has been discovered that radar signature is influenced more by an aircraft's shape than its size. While we could not exploit this due to the extreme, angular shape required, now we are able to create an aircraft the size of a fighter with a minimal signature, making it nearly invisible to radar."
- ### General Improvements ###
+  jet_stealth_research_desc:0 "항공기의 크기보다 형상이 레이다 노출에 더 영향을 준다는 것이 밝혀졌습니다. 비행기를 각지고 극단적인 형태로 만들어야 하기에 이를 이용할 수는 없습니다. 그렇지만 이제 전투기 크기면서 최소한 노출되는, 레이다에 거의 잡히지 않는 항공기를 만들 수 있습니다."
+ ### 전체적인 개선 ###
 
- ### Interceptor ###
+ ### 요격기 ###
   interceptor:0 "요격기"
   jet_interceptor:0 "제트 요격기"
   interceptor_equipment:0 "요격기"
@@ -225,16 +225,16 @@ l_english:
 
   # 1980
   jet_interceptor_equipment_4:0 "준현대 제트 요격기"
-  jet_interceptor_equipment_4_desc:0 "Supersonic interceptors can now be built in smaller sizes than before. Their futuristic electronics systems and advanced missiles will give our pilots the edge over all other aircraft, even if they have more limited altitudes."
+  jet_interceptor_equipment_4_desc:0 "이제 전보다 더 작은 크기의 초음속 요격기를 만들 수 있습니다. 선진적인 전자 시스템과 진보한 미사일은 우리 조종사들이 다른 기체를 상대로 우위를 차지할 수 있게 해줄겁니다. 우리 기가 더 낮은 고도로 날고있더라도 말입니다."
   jet_interceptor_equipment_4_short:0 "준현대 제트 요격기"
 
   # 1990
   jet_interceptor_equipment_5:0 "현대적 제트 요격기"
-  jet_interceptor_equipment_5_desc:0 "Improved engines and advanced radar systems are the next step forward in interceptor technology. We can give our pilots the gear to intercept and destroy any target with the advanced models we have designed."
+  jet_interceptor_equipment_5_desc:0 "개선된 엔진과 진보한 레이다 시스템은 요격기 기술의 다음 단계입니다. 우리가 설계한 진보된 모델로, 조종사들에게 어떤 목표든 요격해 파괴할 수 있는 장비를 줄 수 있습니다."
   jet_interceptor_equipment_5_short:0 "현대적 제트 요격기"
- ### Interceptor ###
+ ### 요격기 ###
 
- ### Fighters ###
+ ### 전투기 ###
   fighter:0 "전투기"
   jet_fighter:0 "제트 전투기"
   jet_fighter_equipment:0 "제트 전투기"
@@ -286,7 +286,7 @@ l_english:
   cv_jet_fighter_equipment_3:0 "진보된 제트 전투기 CV"
   cv_jet_fighter_equipment_3_desc:0 "배운 교훈과 전투기를 위해 개발한 신기술을 해군에서도 쓸 수 있습니다. 현대 전투기는 공중전의 위협으로부터 우리 함대를 지킬 것입니다."
   cv_jet_fighter_equipment_3_short:0 "진보된 제트 전투기 CV"
- ### Fighters ###
+ ### 전투기 ###
 
  ### Random Carrier Stuff ###
   cv_CAS_equipment:0 "함재 근접항공지원기"
@@ -304,7 +304,7 @@ l_english:
   cv_nav_bomber_equipment_desc:0 "함재 해군폭격기"
   cv_nav_bomber:0 "함재 해군폭격기"
 
- ### Close Air Support ###
+ ### 근접항공지원기 ###
   cas:0 "근접항공지원기"
   jet_CAS:0 "제트 근접항공지원기"
   cv_jet_CAS:0 "함재 제트 근접항공지원기"
@@ -340,22 +340,22 @@ l_english:
 
   # 1970
   jet_CAS_equipment_3:0 "진보된 제트 근접항공지원기"
-  jet_CAS_equipment_3_desc:0 "Dedicated CAS Aircraft can be produced that take advantage of our advancements in avionics to provide ground support. These aircraft are designed to destroy the enemy's ground forces first and foremost; everything else is secondary."
+  jet_CAS_equipment_3_desc:0 "지상 지원을 위해 항공 전자 공학에서의 발전을 이용한 CAS 전문 기체를 제작할 수 있습니다. 이 기체는 적 지상군 격멸을 최우선으로 두었습니다. 다른 것들은 부차적인 목표입니다."
   jet_CAS_equipment_3_short:0 "진보된 제트 근접항공지원기"
 
   cv_jet_CAS_equipment_3:0 "진보된 제트 근접항공지원기 CV"
-  cv_jet_CAS_equipment_3_desc:0 "There is a need for a light attack carrier-based aircraft that can make supersonic speeds, carry larger loads, and fly further than its ancestors. With new technological advancements, we can give our naval pilots what they need."
+  cv_jet_CAS_equipment_3_desc:0 "초음속으로 날고, 더 많은 무장을 탑재하고, 더 멀리 나는 함재 경공격기가 필요합니다. 기술 발전 덕분에 해군 조종사들이 원하는 것을 줄 수 있습니다."
   cv_jet_CAS_equipment_3_short:0 "진보된 제트 근접항공지원기 CV"
- ### Close Air Support ###
+ ### 근접항공지원기 ###
 
- ### Multi-Role Combat Aircraft ###
+ ### 다목적 전투기 ###
   mca:0 "다목적 전술기"
   mca_equipment:0 "다목적 전술기"
   mca_equipment_desc:0 "다목적 전술기"
 
   # 1980
   mca_equipment_1:0 "준현대 다목적 전술기"
-  mca_equipment_1_desc:0 "A jet aircraft that combines the attack potential of a fighter with the capabilities of a ground-strike aircraft is extremely appealing to our forces. This modern aircraft will be able to replace a variety of aging aircraft variants."
+  mca_equipment_1_desc:0 "전투기의 잠재적인 공격 능력과 지상타격기의 능력을 합한 제트기는 우리 군대가 군침을 삼키는 대상입니다. 이 현대적인 항공기는 다양한 종류의 노후 기체를 대체할 수 있습니다."
   mca_equipment_1_short:0 "준현대 다목적기"
 
   cv_mca_equipment_1:0 "준현대 다목적 전술기 CV"
@@ -370,9 +370,9 @@ l_english:
   cv_mca_equipment_2:0 "현대적 다목적 전술기 CV"
   cv_mca_equipment_2_desc:0 "Our improvements in multi-role land based aircraft can be applied to our naval air arm as well. Newer electronics and avionics will make our naval aircraft capable of any task we give them."
   cv_mca_equipment_2_short:0 "현대적 다목적기 CV"
- ### Multi-Role Combat Aircraft ###
+ ### 다목적 전투기 ###
 
- ### Stealth Fighter ###
+ ### 스텔스 전투기 ###
   light_stealth_equipment:0 "스텔스 전투기"
   light_stealth:0 "스텔스 전투기"
   light_stealth_equipment_desc:0 "스텔스 전투기"
@@ -419,16 +419,16 @@ l_english:
   scout_plane_equipment:0 "정찰기"
 
   scout_plane_equipment_1:0 "초기형 정찰기"
-  scout_plane_equipment_1_desc:0 "Gathering intelligence on enemy troop movements and providing reports of enemy naval deployments has been the original mission for airplanes since their first deployment in the First World War."
+  scout_plane_equipment_1_desc:0 "적 병력 이동에 대한 정보 수집과 적 해군의 배치 상태 보고는 제1차 세계 대전 당시 정찰기가 처음 배치되었을 때부터 있었던 근본적인 임무였습니다."
 
   scout_plane_equipment_2:0 "기초적 정찰기"
-  scout_plane_equipment_2_desc:0 "By bringing our spy planes into the jet age, we will improve their survivability and capabilities."
+  scout_plane_equipment_2_desc:0 "정찰기를 제트 시대에 합류시킴으로서 생존성과 성능을 향상시킬 수 있습니다."
 
   scout_plane_equipment_3:0 "개선된 정찰기"
-  scout_plane_equipment_3_desc:0 "By developing dedicated planes for aerial surveillance and long-range reconnaissance, we ensure that we gain and maintain an accurate picture of our opponent's intentions and capabilities."
+  scout_plane_equipment_3_desc:0 "항공감시와 장거리 정찰만을 수행하는 기체를 개발해 적이 어떤 능력을 지녔는지, 무슨 의도를 갖고 있는지 정확히 알 수 있도록 합니다."
 
   scout_plane_equipment_4:0 "진보된 정찰기"
-  scout_plane_equipment_4_desc:0 "A plane developed specifically for photo reconnaissance. Relies primarily on speed and stealth to survive and will lose in any stand-up fight."
+  scout_plane_equipment_4_desc:0 "사전 정찰을 위해 특별히 개발된 기체입니다. 속도와 은밀성에 의지하기에 격전에서는 질 것입니다."
  ### Spy Plane ###
 
  ### Strategic Bomber ###
@@ -439,27 +439,27 @@ l_english:
 
   # 1936
   strat_bomber_equipment_0:0 "전간기 전략폭격기"
-  strat_bomber_equipment_0_desc:0 "While highly outdated, many pre-WWII bomber designs can be pulled out of mothballs to create relatively reliable propeller-driven strategic bombers. They will serve well in a pinch if no other options are available."
+  strat_bomber_equipment_0_desc:0 "심히 구식이지만, 창고에 수북히 쌓여있는 2차 대전 이전 폭격기를 끄집어내 비교적 신뢰성 있는 프로펠러식 전략폭격기를 만들 수 있습니다. 다른 방법이 없다면 비상시에 잘 쓸 수 있습니다."
   strat_bomber_equipment_0_short:0 "전간기 전략폭격기"
 
   # 1945
   strat_bomber_equipment_1:0 "초기형 전략폭격기"
-  strat_bomber_equipment_1_desc:0 "The strategic bomber saw much improvement during World War II. As fighters improved, so did the armament of our bombers. Larger engines also allow us to load even more ordinance and fuel into these massive machines. Despite how outdated they are, these old beasts can still pack a punch if needed."
+  strat_bomber_equipment_1_desc:0 "제2차 세계 대전 당시 전략폭격기는 크게 발전했습니다. 전투기가 더 강해지며, 폭격기의 무장도 더 강해졌습니다. 더 큰 엔진은 무장 뿐만 아니라 이 거대한 기계에 먹일 기름도 더 많이 탑재할 수 있게 해주었습니다. 얼마나 낡았건, 이 늙은 야수는 필요할 경우 강렬한 한 방을 날릴 수 있습니다."
   strat_bomber_equipment_1_short:0 "초기형 전략폭격기"
 
   # 1950
   jet_strat_bomber_equipment_1:0 "기초적 제트 전략폭격기"
-  jet_strat_bomber_equipment_1_desc:0 "The addition of jet engines to our strategic bombers opens up vast opportunities. Our bombers now carry more, fly faster, and are more equipped than they have ever been. With a number of other improvements, these bombers can rain tons of destruction on cities thousands of kilometers away."
+  jet_strat_bomber_equipment_1_desc:0 "전략폭격기와 제트엔진의 결합은 광대한 기회를 불러옵니다. 이제 더 많이 싣고, 더 멀리 날고, 더 많은 장비를 실을 수 있습니다. 많은 부분이 개선된 이 폭격기는 수천 킬로미터 떨어진 도시에 수톤의 파괴를 흩뿌릴 수 있습니다."
   jet_strat_bomber_equipment_1_short:0 "기초적 제트 전략폭격기"
 
   # 1960
   jet_strat_bomber_equipment_2:0 "개선된 제트 전략폭격기"
-  jet_strat_bomber_equipment_2_desc:0 "Our newest generation of strategic bombers will have to adapt to the new and varied requirements of aerial warfare. This model will have improved range and speed, and its payload delivery will be substantially expanded in order to destroy targets with brutal effectiveness."
+  jet_strat_bomber_equipment_2_desc:0 "신세대 전략폭격기는 항공전의 새롭고도 다양한 요구사항을 충족해야 합니다. 이 모델은 항속거리와 속도를 개선했습니다. 목표를 인정사정없이 파괴하기 위해 탑재량도 꽤 늘었습니다."
   jet_strat_bomber_equipment_2_short:0 "개선된 제트 전략폭격기"
 
   # 1970
   jet_strat_bomber_equipment_3:0 "진보된 제트 전략폭격기"
-  jet_strat_bomber_equipment_3_desc:0 "The development of large-scale aircraft frames and the expansion of existing turboprop engine designs will enable us to fly planes as intercontinental as our ballistic payload. More importantly, it will enable us to reduce dependence on our allies' airbases - and keep our planes aloft for longer durations."
+  jet_strat_bomber_equipment_3_desc:0 "대형 항공기 뼈대와 터브프롭엔진 설계의 발전은 탄도미사일처럼 다른 대륙에도 항공기를 보낼 수 있게 했습니다. 더 중요한 것은 동맹국 공군기지 의존도를 낮출 뿐 아니라 우리 기체가 더 오래 날 수 있다는 것입니다."
   jet_strat_bomber_equipment_3_short:0 "진보된 제트 전략폭격기"
 
   # 1980
@@ -486,22 +486,22 @@ l_english:
 
   # 1945
   tac_bomber_equipment_1:0 "초기형 전술폭격기"
-  tac_bomber_equipment_1_desc:0 "The second world war brought many innovations to the Tactical Bomber. While still inferior compared to their modern counterparts, these aircraft exist in vast supply, and are plenty effective. With more fuel efficient engines, and larger payloads, they will do the job."
+  tac_bomber_equipment_1_desc:0 "제2차 세계 대전은 전술폭격기에게 많은 혁신을 안겨줬습니다. 현대 전술폭격기에 비하면 형편없지만 대규모로 공급되었고, 꽤 효과적이기까지 합니다. 더 가성비 좋은 엔진을 달고 탑재량을 늘린다면 제 일을 해낼 것입니다."
   tac_bomber_equipment_1_short:0 "초기형 전술폭격기"
 
   # 1950
   jet_tac_bomber_equipment_1:0 "기초적 제트 전술폭격기"
-  jet_tac_bomber_equipment_1_desc:0 "With a max speed of well over 500 kilometers per hour, and a significantly improved carrying capacity, these aircraft truly surpass their counterparts from the second world war. Tactical bomber technology has become a marvel of aviation."
+  jet_tac_bomber_equipment_1_desc:0 "시속 500km를 가볍게 뛰어넘는 최고 속도와 크게 개선된 탑재 능력을 가진 이 항공기는 제2차 세계 대전 당시의 전술폭격기를 능가합니다. 전술폭격기 기술은 항공학의 경이가 되었습니다."
   jet_tac_bomber_equipment_1_short:0 "기초적 제트 전술폭격기"
 
   # 1960
   jet_tac_bomber_equipment_2:0 "개선된 제트 전술폭격기"
-  jet_tac_bomber_equipment_2_desc:0 "Early stage hard-points, combined with better coordination with fighters and air traffic controllers allowed tactical bombers to begin to be deployed more frequently, and for heavier duty missions."
+  jet_tac_bomber_equipment_2_desc:0 "초창기 하드포인트와 전투기 및 항공교통관제사와의 더 나은 협동은 전술폭격기를 더 힘든 임무에 더 자주 배치할 수 있게 해주었습니다."
   jet_tac_bomber_equipment_2_short:0 "개선된 제트 전술폭격기"
 
   # 1970
   jet_tac_bomber_equipment_3:0 "진보된 제트 전술폭격기"
-  jet_tac_bomber_equipment_3_desc:0 "The addition of hard-points will allow our tactical bombers to carry a wide variety of payloads to fit the situation on the ground. We can also make them carry larger loads of ordinance faster and over longer distances."
+  jet_tac_bomber_equipment_3_desc:0 "하드포인트 도입은 전술폭격기가 지상 상황에 따라 다양한 무장을 탑재할 수 있게 해줍니다. 더 많은 양의 무장을 더 먼 곳까지 더 빨리 옮길 수 있게 만들수도 있습니다."
   jet_tac_bomber_equipment_3_short:0 "진보된 제트 전술폭격기"
 
   # 1980
@@ -549,27 +549,27 @@ l_english:
   
   # 1936
   transport_plane_equipment_1:0 "전간기 수송기"
-  transport_plane_equipment_1_desc:0 "One of the most important functions for military aircraft is transportation. While we can't transport much more than a few squads at a time per plane, it still represents an impressive new leap in air power."
+  transport_plane_equipment_1_desc:0 "군용기의 제일 중요한 기능 중 하나는 수송입니다. 비행기 한 대로는 몇 개 분대 밖에 수송할 수 없지만 이는 항공력의 새롭고도 인상적인 한 걸음입니다."
   transport_plane_equipment_1_short:0 "전간기 수송기"
 
   # 1945
   transport_plane_equipment_2:0 "초기형 수송기"
-  transport_plane_equipment_2_desc:0 "Derived primarily from new heavy bomber designs, this new generation of transport aircraft can move more men and more cargo than our earlier efforts."
+  transport_plane_equipment_2_desc:0 "주로 신형 중폭격기 설계에서 파생된 이 차세대 수송기는 전의 기체보다 더 많은 병력과 화물을 옮길 수 있습니다."
   transport_plane_equipment_2_short:0 "초기형 수송기"
 
   # 1950
   transport_plane_equipment_3:0 "기초적 제트 수송기"
-  transport_plane_equipment_3_desc:0 "Our new designs for transport aircraft represent a major leap forward. With much more space than even the planes of a few years ago, we can transport vastly more men and supplies. Alternatively, these craft can be used as fuel tankers and command posts."
+  transport_plane_equipment_3_desc:0 "우리가 설계한 새 수송기는 커다란 한 걸음입니다. 몇 년 전 기체보다 더 큰 공간을 갖고 있기에 훨씬 더 많은 병력과 보급품을 수송할 수 있습니다. 수송기로 쓰지 않는다면 급유기나 지휘소로도 사용할 수 있습니다."
   transport_plane_equipment_3_short:0 "기초적 수송기"
 
   # 1960
   transport_plane_equipment_4:0 "개선된 제트 수송기"
-  transport_plane_equipment_4_desc:0 "This newest transport plane is faster, has a superior range compared to earlier generations, and can take on a variety of roles, including firefighting, medevac, and even humanitarian efforts."
+  transport_plane_equipment_4_desc:0 "이 최신 수송기는 전세대 기체보다 빠르며 항속거리도 더 넓습니다. 그 뿐만 아니라 소방, 부상자 수송, 인도주의적 활동을 포함한 다양한 역할을 할 수 있습니다."
   transport_plane_equipment_4_short:0 "개선된 제트 수송기"
 
   # 1970
   transport_plane_equipment_5:0 "진보된 제트 수송기"
-  transport_plane_equipment_5_desc:0 "With more jet power and a larger body, we can improve our transport aircraft even more. Now we will be able to undertake gargantuan airlifts that were thought impossible a generation ago."
+  transport_plane_equipment_5_desc:0 "더 큰 추진력과 더 큰 동체를 통해 수송기를 더욱 더 개선할 수 있습니다. 이제 한 세대 전만해도 불가능하다고 생각했던 수준의 공수 작전을 수행할 수 있습니다."
   transport_plane_equipment_5_short:0 "진보된 제트 수송기"
 
   # 1980
