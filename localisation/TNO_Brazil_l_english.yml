@@ -2594,7 +2594,7 @@ BRA_lacerda.14.a: "This self-talk only somewhat helped."
 
  BRA_develop_region_blurb: "§Y[BRA_develop_selected_region_dynamic]§!\n-----------------------\n§W[BRA_develop_region_progress_dynamic]§!"
 
- BRA_develop_total_econinfo: "§Y총합:§!\n총 GDP:\n§W[ROOT.Get_GDP_topbar]§!\n총 인구: §W[?max_manpower_k|*1]§!\n인플래이션: §W[?BRA_develop_inflation|0%]§!\n산업: §WGDP의 [?BRA_develop_industry_pct_gdp|0%]§!"
+ BRA_develop_total_econinfo: "§Y총합:§!\n총 GDP:\n§W[ROOT.Get_GDP_topbar]§!\n총 인구: §W[?max_manpower_k|*1]§!\n인플레이션: §W[?BRA_develop_inflation|0%]§!\n산업: §WGDP의 [?BRA_develop_industry_pct_gdp|0%]§!"
  BRA_develop_region_econinfo: "§Y[BRA_develop_selected_region_caps]:§!\n인구: §W[?BRA_develop_region_population^BRA_develop_selected_region]§!\n도시 인구: §W[?BRA_develop_region_pct_urbanized^BRA_develop_selected_region|*1%]§!\nMechanization Rate: §W[?BRA_develop_region_mech_rate^BRA_develop_selected_region|0%]§!\n산업: §WGDP의 [?BRA_develop_industry_pct_gdp_region^BRA_develop_selected_region|0%]§!"
 
  BRA_megaproject_tah: "아마조니아 횡단 고속도로"
@@ -2686,9 +2686,9 @@ BRA_lacerda.14.a: "This self-talk only somewhat helped."
  BRA_develop_total_GDP_title: "§Y총 GDP§!"
  BRA_develop_total_pop: "총 인구:\n§G[BRA_develop_total_pop_sl]§!"
  BRA_develop_total_pop_title: "§Y총 인구§!"
- BRA_develop_total_inflation: "인플래이션:\n§G[?BRA_develop_inflation|1]%§!"
- BRA_develop_total_inflation_title: "§Y국내 인플래이션§!"
- BRA_develop_total_inflation_tt: "§F§O인플래이션§! 영향:\n소비재 공장: [?BRA_inflation_consumer_goods_factor|%Y]\nProduction Efficency Growth: [?BRA_inflation_production_factory_efficiency_gain_factor|%+]\nConstruction Speed: [?BRA_inflation_production_speed_buildings_factor|%+]\nStability: [?BRA_inflation_stability_factor|%+]\nDaily Political Power Gain: [?BRA_inflation_political_power_gain|+]§!"
+ BRA_develop_total_inflation: "인플레이션:\n§G[?BRA_develop_inflation|1]%§!"
+ BRA_develop_total_inflation_title: "§Y국내 인플레이션§!"
+ BRA_develop_total_inflation_tt: "§F§O인플레이션§! 영향:\n소비재 공장: [?BRA_inflation_consumer_goods_factor|%Y]\nProduction Efficency Growth: [?BRA_inflation_production_factory_efficiency_gain_factor|%+]\nConstruction Speed: [?BRA_inflation_production_speed_buildings_factor|%+]\nStability: [?BRA_inflation_stability_factor|%+]\nDaily Political Power Gain: [?BRA_inflation_political_power_gain|+]§!"
  BRA_develop_total_industry: "산업:\n§GGDP의 [?BRA_develop_industry_pct_gdp|0]%§!"
  BRA_develop_total_industry_title: "§Y산업 (% of GDP)§!"
 
