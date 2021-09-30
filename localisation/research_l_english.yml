@@ -851,9 +851,9 @@
   ## Improvements - Armor ##
    # 1950
    IFV_1950_basic_armor:0 "오픈탑 IFV"
-   IFV_1950_basic_armor_desc:0 "초기 IFV 기술은 수송되는 보병을 별로 보호하지 못했습니다. 보통 해치도 없었고 화생방 방호도 안 되었죠. 병사들은 바깥에 노출되었습니다."
+   IFV_1950_basic_armor_desc:0 "초기 IFV 기술은 수송되는 보병을 별로 보호하지 못했습니다. 보통은 해치도 없었고 화생방 방호도 되지 않았습니다. 병사들은 바깥에 노출되었습니다."
    IFV_1950_improved_armor:0 "대량살상무기 방호"
-   IFV_1950_improved_armor_desc:0 "해치를 달고, IFV 내부를 밀폐하고, 환기 장치를 달면 화학 무기로부터 병사들을 효율적으로 지킬 수 있습니다. 핵전쟁이 벌어졌을 때는 방사선도 막을 수 있고요. 이 초창기 대량파괴무기 방호체계는 IFV를 더 안전하게 만들었습니다."
+   IFV_1950_improved_armor_desc:0 "해치를 달고, IFV 내부를 밀폐하고, 환기 장치를 달면 화학 무기로부터 병사들을 효율적으로 지킬 수 있습니다. 핵전쟁이 벌어졌을 때는 방사선을 막을 수 있었습니다. 이 초창기 대량파괴무기 방호체계는 IFV를 더 안전하게 만들었습니다."
    IFV_1950_advanced_armor:0 "NBC 방호 향상"
    IFV_1950_advanced_armor_desc:0 "환기 기술의 발달과 공기 여과 기술의 혁신은 병력이 최악의 상황에서도 싸우고 움직일 수 있다는 것을 뜻합니다. 전보다 더 발달한 기술은 방호 성능을 크게 개선합니다."
 
@@ -1053,13 +1053,13 @@
 
    # Upgrade- Armament
    SPART_1950_soft_attack:0 "50년형 자주포 무장 업그레이드"
-   SPART_1950_soft_attack_desc:0 "After early use of self-propelled artillery during World War II, the next advances made in the field allowed self-propelled artillery to be airdropped to support airborne forces."
+   SPART_1950_soft_attack_desc:0 "제2차 세계 대전에서 자주포가 처음 사용된 이후 이 분야에서 이루어진 진보는 자주포를 공수해 공수부대를 지원할 수 있게 해주었습니다."
    SPART_1960_soft_attack:0 "60년형 자주포 무장 업그레이드"
-   SPART_1960_soft_attack_desc:0 "An increased diversity of armament types on SPARTs designed in the 1960s allowed better operational and tactical flexibility."
+   SPART_1960_soft_attack_desc:0 "1960년대 설계된 자주포 무장의 종류는 전보다 다양했습니다. 이는 작전 및 전술적 유연성을 증가시켰습니다."
    SPART_1970_soft_attack:0 "70년형 자주포 무장 업그레이드"
-   SPART_1970_soft_attack_desc:0 "The 1970s saw the introduction of missiles to supplement the armaments of SPARTs, increasing their range and killing power against both infantry and armor."
+   SPART_1970_soft_attack_desc:0 "1970년대에는 미사일이 도입되어 자주포의 무장을 보충했습니다. 미사일은 자주포의 사거리와 대보병 및 대기갑 살상력을 증대시켰습니다."
    SPART_1980_soft_attack:0 "80년형 자주포 무장 업그레이드"
-   SPART_1980_soft_attack_desc:0 "The more advanced SPART cannons allowed for an almost universal coverage of the modern battlefield. Just moments after the beginning of an engagement, infantry could be fully supported."
+   SPART_1980_soft_attack_desc:0 "더 진보한 자주포 주포는 현대 전장의 거의 모든 곳을 지원할 수 있게 해줬습니다. 보병들은 교전을 시작한 후 얼마 지나지 않아 완전한 지원을 받을 수 있게 되었습니다."
   
    # Stuff That Was Added Last Minute
    
@@ -1076,17 +1076,17 @@
    light_SPART_1950_armor_3:0 "50년형 경장갑 자주포 복합장갑 적용"
    light_SPART_1950_armor_3_desc:0 "Composite armor is expensive and still a new field, but the promises it offers to protection and it's lightweight qualities are worthy of implementation across the field."
    SPART_1950_soft_attack:0 "50년형 자주포 경량 프레임 채택"
-   SPART_1950_soft_attack_desc:0 "After early use of self-propelled artillery, the next advances made in the field allowed self-propelled artillery to be airdropped to support airborne forces."
+   SPART_1950_soft_attack_desc:0 "제2차 세계 대전에서 자주포가 처음 사용된 이후 이 분야에서 이루어진 진보는 자주포를 공수해 공수부대를 지원할 수 있게 해주었습니다."
    SPART_1950_soft_attack_2:0 "50년형 자주포 대구경 포 설치"
-   SPART_1950_soft_attack_2_desc:0 "If there is one simple fact in war, it is that bigger guns and bigger bullets cause more destruction. There's no harm in increasing caliber size."
+   SPART_1950_soft_attack_2_desc:0 "전쟁에 간단한 사실이 하나 있다면, 더 큰 포와 더 큰 포탄이 더 큰 파괴를 일으킨다는 것입니다. 구경을 늘린다고 나쁠건 없습니다."
    SPART_1950_soft_attack_3:0 "50년형 자주포 포탄 재설계"
-   SPART_1950_soft_attack_3_desc:0 "Self-propelled artillery has usually used simple shells without significant upgrade. By using new molding technologies and recalculating aerodynamics, we can make our shells go faster and longer."
+   SPART_1950_soft_attack_3_desc:0 "자주포는 간단한 포탄을 큰 업그레이드 없이 써왔습니다. 새로운 주조 기술을 도입하고 공기역학을 재계산해, 포탄이 더 먼 곳까지 더 빠르게 날아도록 할 수 있습니다."
    SPART_1950_armor:0 "50년형 자주포 장갑 업그레이드"
-   SPART_1950_armor_desc:0 "By refining our designs, our artillery will go farther and be more fuel efficient."
+   SPART_1950_armor_desc:0 "설계를 개선하면 자주포가 더 먼 곳까지 연비 좋게 갈 수 있습니다."
    SPART_1950_armor_2:0 "50년형 자주포 세라믹 장갑 적용"
-   SPART_1950_armor_2_desc:0 "New technologies like ceramic armor are becoming a mainstay in armored vehicles. Applying them to our self-propelled artillery will require some adaptation, but is a no-brainer."
+   SPART_1950_armor_2_desc:0 "세라믹 장갑과 같은 신기술이 기갑 차량의 대세가 되어가고 있습니다. 이 기술들을 자주포에 적용하려면 조정이 좀 필요하겠습니다. 그렇지만 이건 생각할 필요도 없는 일입니다."
    SPART_1950_armor_3:0 "50년형 자주포 복합장갑 적용"
-   SPART_1950_armor_3_desc:0 "Composite armor is expensive and still a new field, but the promises it offers to protection and it's lightweight qualities are worthy of implementation across the field."
+   SPART_1950_armor_3_desc:0 "복합장갑은 값비싼 미개척지지만 방호력을 보장합니다. 또한 복합장갑의 가벼움은 전장에 도입할만한 가치가 있습니다."
    artillery_1950_soft_attack:0 "50년형 야포 무장 업그레이드"
    artillery_1950_soft_attack_desc:0 "초기 설계로 이루어진 이 포탄은 가성비가 좋습니다. 하드 타겟을 부드럽게 만들거나 화력지원을 제공하는데 효율적인 이 포탄은 현대전의 필수품입니다."
    artillery_1950_soft_attack_2:0 "50년형 야포 '항력감속탄' 도입"
@@ -1527,7 +1527,7 @@
  army_interoperability_desc:0 "연합 작전 교리는 따르는 이들이 잘 조직화되어야만 성공할 수 있습니다. 군의 모든 단계가 협동할 수 있도록 박차를 가해야 합니다. 우리가 서로 다른 역할을 맡을지는 몰라도, 혼자 싸우는 일은 없을겁니다!"
 
  support_companies:0 "지원 중대"
- support_companies_desc:0 "Be they medical, logistical, communications, or any other detachment, Support companies must remain properly supplied. The smallest edge is often the most vital.\n\n"
+ support_companies_desc:0 "의무반, 군수반, 통신반, 그 외 어떤 분견대건 지원 중대는 제대로 보급을 받아야만 합니다. 흔히 제일 작은 우위가 제일 중요해지는 법입니다.\n\n"
  tactical_support:0 "전술 지원"
  tactical_support_desc:0 "보병 부대는 혼자서 작전을 수행할 수 없습니다! 이 귀중한 순간에, 목숨이 걸린 시기에, 전술 지원은 결과를 뒤바꿀 수 있습니다. 딱딱한 목표를 부드럽게 만들거나 철수를 조율하는 방식으로 말입니다.\n\n"
 
@@ -1536,8 +1536,8 @@
  preemptive_strike:0 "선제 타격"
  preemptive_strike_desc:0 "언제나 좋은 공격이 최고의 방어입니다. 적을 상대로 싸울 수 있을 때 구멍에 숨어서 적이 오거나 우리를 우회하기를 기다릴 이유가 있을까요. 놈들이 전투 준비를 하기 전에 후려패면 우리 방식대로 싸울 수 있습니다.\n\n"
 
- organic_units:0 "건제 부대"
- organic_units_desc:0 "While broader tactical support is an important part of our doctrine, so too are organic units. In the interest of response time and cohesion, we will allow each branch to create specialized support forces. With any luck, they will fulfill roles of their rival branches while remaining embedded within their own."
+ organic_units:0 "건제부대"
+ organic_units_desc:0 "광범위한 전술 지원은 우리 교리에서 중요한 부분입니다. 그렇지만 건제부대 역시 중요합니다. 반응 시간과 단결성을 개선하기 위해 각 부서가 전문 지원군을 창설할 수 있도록 할 계획입니다. 운이 따른다면 이 부대들이 각자의 부서에 소속된 상태에서 경쟁 부서의 역할을 할 수 있을 것입니다."
 
  land_navy_coordination:0 "지상-해양 합동"
  land_navy_coordination_desc:0 "상륙 작전에서 지상-해양 합동은 매우 중요합니다. 수송선에서 지원 포격까지, 함선들은 아군 보병이 쓸 수 있는 강력한 도구입니다. 우리는 이 관계를 기반으로 삼을겁니다.\n\n"
@@ -1547,11 +1547,11 @@
  commando_landing_operations_desc:0 "믿음직하면서도 은밀한 투입 방식으로 정예 코만도 부대를 적 전선 뒤에 투입해 놈들의 조직, 사기, 보급선에 엄청난 피해를 줄 수 있습니다. 이 전술은 적군이 더 큰 작전을 효율적으로 준비하는 것을 막는데 특히 효과적입니다.\n\n"
 
  airland_strikes:0 "공중-지상 타격"
- airland_strikes_desc:0 "By providing our ground forces with the enhanced ability to directly request air strikes and support from attack aircraft, the accuracy, deadliness, and speed of our air-land strikes will be greatly improved.\n\n"
+ airland_strikes_desc:0 "우리 지상군이 공격기에게 직접 타격과 지원을 요청할 수 있는 능력을 강화시킨다면, 공중-지상 타격의 정확성, 치명성, 속도가 크게 개선될 것입니다.\n\n"
  vertical_envelopement:0 "수직포위"
- vertical_envelopement_desc:0 "Aerial insertion of infantry near the battlefield has the potential to greatly increase the speed and unpredictability of our land forces. By either air-dropping or air-lifting troops behind the front line we can rapidly encircle and cut off large enemy formations. Our army and air force will work in unison to strike the enemy from every direction.\n\n"
- air_ground_task_forces:0 "항공-지상 태스크포스"
- air_ground_task_forces_desc:0 "Merged so to act in unison, combat elements from different fields of battle - army, artillery, airspace - can quickly respond to and counter enemy offensives as they appear. The counteroffensives they deliver hence will deliver swift, decisive victory.\n\n"
+ vertical_envelopement_desc:0 "전장 근처에 보병을 공중 투입하는 것은 우리 지상군의 속도와 예측불가성을 크게 늘릴 것입니다. 전선 뒤에 낙하산이나 수송기로 부대를 투입해 적의 대규모 진형을 포위하고 잘라낼 수 있습니다. 육군과 공군은 사방에서 적을 타격하기 위해 마음을 한마음으로 일할 것입니다.\n\n"
+ air_ground_task_forces:0 "항공-지상 특임대"
+ air_ground_task_forces_desc:0 "지상군, 포병, 항공 - 다양한 전장의 전투 부대를 함께 행동하도록 합친다면 적 공세를 마주치는대로 대응하고 반격할 수 있습니다. 그런 이유로 이 특수임무부대의 역공은 빠르고 결정적인 승리를 가져올 것입니다.\n\n"
 
  ## Maneuver Warfare
  maneuver_warfare:0 "기동전"
@@ -1595,30 +1595,30 @@
  prepared_defense_desc:0 "작고 잘 요새화된 보루는 적 공격에 대한 조기경보체계가 되어줄 겁니다. 전략적으로 확실히 중요한 곳에 배치한다면 공세를 몇 시간, 심지어는 며칠 동안 지연할 수 있습니다.\n\n"
  army_reserve_training:0 "예비군 훈련"
  army_reserve_training_desc:0 "총, 전차, 항공기는 쓸 사람이 있어야만 잘 작동할 수 있습니다. 사람이 없다면 아무리 정교한 무기체계라도 쓸모없는 고철일 뿐입니다. 대규모 예비대가 있다면 우리 군에서 이런 일이 일어나지 않을겁니다.\n\n"
- infrastructural_reserve:0 "Infrastructural Reserve"
- infrastructural_reserve_desc:0 "By maintaining a stockpile of construction materials, construction equipment and construction workers on hand, roads and factories damaged from air strikes or artillery fire will not have to wait long before returning to work as good as new.\n\n"
+ infrastructural_reserve:0 "인프라 예비대"
+ infrastructural_reserve_desc:0 "건설 자재, 건설 장비, 건설 노동자들 대량으로 비축해두면, 공습이나 포화로 파괴된 도로와 공장을 다시 운용하는데 오랜 시간이 걸리지 않을 것입니다.\n\n"
 
- operational_assault:0 "Operational Assault"
- operational_assault_desc:0 "An offensive attacks not only from the front, but also behind the adversary's lines and within their home fronts. A good general masters all three attacks to achieve unconditional victory.\n\n"
+ operational_assault:0 "작전상의 공격"
+ operational_assault_desc:0 "공격은 전방에서만 이루어지는 것이 아닙니다. 적의 후방과 국내전선에서도 이루어집니다. 유능한 장군은 무조건적인 승리를 거두기 위해 이 세 공격을 모두 숙지합니다.\n\n"
  large_front_operations:0 "대규모 전선 작전"
- large_front_operations_desc:0 "By striking the enemy at multiple points simultaneously along their entire front we can keep our foes on their backfoot and without the initiative. They dare not launch a counterattack for fear of being broken through down the line and they further have no ability to reinforce the points of contact as there are too many to handle even by the best led armies.\n\n"
+ large_front_operations_desc:0 "적 전선 전체의 여러 지점을 동시에 타격한다면 적에게서 주도권을 빼앗을 뿐만 아니라, 놈들을 불리한 상황에 몰아 넣을 수 있습니다. 놈들은 전선이 돌파당할 것을 겁내 반격을 벌이지도 못할 것입니다. 또한 신경써야 할 곳이 너무 많아 전투가 벌어지는 곳에 증원군을 보낼 수도 없을 것입니다.\n\n"
  overwhelming_force:0 "압도적인 힘"
  overwhelming_force_desc:0 "승리를 확신할 수 없다면 싸우는 것은 의미가 없습니다. 현대전에서 장비와 인력의 낭비는 용납할 수 없습니다. 이게 우리가 공격할 때 어떠한 방어도 일소할 정도로 병력을 모으는 원인이 될 것입니다.\n\n"
 
  comprehensive_strategic_analysis:0 "포괄적인 전략적 분석"
- comprehensive_strategic_analysis_desc:0 "We need to train our staff officers to be able to grasp the strategic implication of every on-ground decision, and to be able to see the big picture as well as the small. Far too often an army is ruined by an inability to look beyond the tactical level. This will not happen to our forces, as our generals will have the skills needed to craft intelligent and successful operations.\n\n"
+ comprehensive_strategic_analysis_desc:0 "참모장교들이 현장에서 내려지는 모든 결정의 전략적 영향을 파악하고, 작은 그림 뿐만 아니라 큰 그림도 볼 수 있게 훈련시켜야합니다. 수없이 많은 군대가 전술 이상의 것을 보지 못해 무너졌습니다. 우리 군에는 그런 일이 없을 것입니다. 우리 장군들은 지능적이고 성공적인 작전을 짜는데 필요한 기술을 가질테니 말입니다.\n\n"
  large_scale_exercises:0 "대규모 훈련"
  large_scale_exercises_desc:0 "물론 개인적인 신병 훈련은 어떤 전문적인 군대에도 필요한 것입니다. 하지만 전략 훈련도 그러합니다. 우리는 사단, 군단, 심지어는 군 전체를 동원해 대규모 전장을 시뮬레이션 할 수 있습니다. 우리 장군들은 그 곳에서 병력에게 지시를 내리는 기술을 배울 수 있을 것입니다. 우리 병사들은 더 큰 역할 내에서 함께 싸우는 법을 훨씬 더 잘 알 것입니다.\n\n"
 
  supply_routes:0 "보급망 증원"
- supply_routes_desc:0 "Our use of large scale operations is contingent upon plentiful supply lines. It is therefore imperative that we adequately prepare them by using our engineers to rebuild infrastructure in occupied territories and using reserve forces as truck drivers and escorts wherever possible to ensure a steady line of supply reaches the front.\n\n"
+ supply_routes_desc:0 "대규모 작전의 활용은 풍부한 보급선에 달렸습니다. 공병으로 점령지의 기반시설을 재건하고, 전장까지 가는 탄탄한 보급선을 세울 수 있는 곳이라면 예비대를 트럭 운전수와 호위대로 동원하는 방식으로 충분한 보급선을 확보해야 합니다.\n\n"
  wartime_industry:0 "전시 산업"
- wartime_industry_desc:0 "Napoleon had learned that an army marches on his stomach; a century and a half later, the army's stomach has grown enough to necessitate a nation's worth of factories and workers. Ours shall step up to the task.\n\n"
+ wartime_industry_desc:0 "나폴레옹은 군대는 위장으로 행군한다는 것을 알았습니다. 한 세기하고도 반이 지난 지금, 군대의 위장은 한 국가 수준의 공장과 노동자가 필요할 정도로 커졌습니다. 우리 공장과 노동자를 이 일에 투입해야 합니다.\n\n"
 
- strategic_cycles:0 "Strategic Cycles"
- strategic_cycles_desc:0 "Always being on the offense will quickly wear out our forces, and always being on the defensive will ruin morale. We can make our strategic objectives easier to grasp and therefore easier to carry out by placing them into a cycle. We will attack along the line, hold to stabilize, and then attack after letting the enemy whittle themselves down uselessly.\n\n"
+ strategic_cycles:0 "전략적 주기"
+ strategic_cycles_desc:0 "언제나 공격에 나선다면 군대가 빠르게 나가떨어질 것입니다. 언제나 방어에 매달린다면 사기가 떨어질 것입니다. 전략적 목표에 주기를 둔다면 이해하기 쉬워질 것입니다. 그렇다면 수행하기도 쉬워질 것입니다. 우리는 전선을 따라 공격하고, 안정을 위해 멈추고, 적이 병력을 헛되이 소모하게 만든 다음 공격할 것입니다.\n\n"
  concurrent_front_assaults:0 "동시적인 정면 공격"
- concurrent_front_assaults_desc:0 "An enemy on the back foot, no matter how strong, can neither defend itself nor fight back. Our strategies shall hence make use of multiple units fighting concurrently to keep the enemy as often in the back foot as possible.\n\n"
+ concurrent_front_assaults_desc:0 "얼마나 강력하던, 불리한 상황에 처한 적은 스스로를 지킬수도, 맞서 싸울수도 없습니다. 그러니 동시에 여러 부대를 교전시켜 적을 가능한 불리한 상황에 몰아넣는게 우리 전략이 되어야합니다.\n\n"
 #### LAND DOCTRINE FOLDER ####
 
 ##### NAVY FOLDER GROUP #####
@@ -2220,7 +2220,7 @@
  countermeasure_systems_desc:0 "For every advancement in precision-guided munitions, corresponding vulnerabilities in missile guidance systems appear. These developments must become an integral part of our doctrine and training in order to assure maximum pilot and airframe survivability in a combat scenario."
  stealth_integration:0 "Stealth Integration"
  stealth_integration_desc:0 "Perhaps no second offset technology has the sheer potential to transform air warfare as stealth. Integrating low-observable and stealth aircraft into our aviation doctrine will be utterly transformative for our ability to comprehensively control the battlespace."
- joint_air_operations:0 "Joint Air Operations"
+ joint_air_operations:0 "합동 항공 작전"
  joint_air_operations_desc:0 "He who flies alone, dies alone. If we commit air resources to a mission, we must ensure that they are comprehensively supported by all available air, land, sea, and space assets, regardless of service or command. Enhancing this coordination will greatly improve our global fighting capabilities."
  mission_specialties:0 "Mission Specialties"
  mission_specialties_desc:0 "In the changing technological landscape of the post-Second Offset world, our military planners must be able to think on their feet and recognize emerging mission paradigms, allowing us to better structure and deploy our forces to meet any threat."
