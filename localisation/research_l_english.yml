@@ -1018,22 +1018,22 @@
  ARTILLERY_TITLE_TOWED1:0 "견인"
  ARTILLERY_TITLE_TOWED2:0 "견인"
 
- ### Artillery ###
-  ## Normie Artillery ##
+ ### 대포 ###
+  ## 일반 대포 ##
    artillery_1950_soft_attack:0 "50년형 대포 무장 업그레이드"
    artillery_1950_soft_attack_desc:0 "2대전 설계로 이루어진 이 포탄은 가성비가 좋습니다. 하드 타겟을 부드럽게 만들거나 화력지원을 제공하는데 효율적인 이 포탄은 현대전의 필수품입니다."
    artillery_1970_soft_attack:0 "70년형 대포 무장 업그레이드"
    artillery_1970_soft_attack_desc:0 "효율과 파괴력을 계속 개선했더니 매우 파괴적인 포탄을 만들 수 있게 되었습니다. 이 무기는 10년 전에 만든 무기들을 멍청해보이게 만듭니다."
-  ## Normie Artillery ##
+  ## 일반 대포 ##
 
-  ## Light Self-Propelled Artillery / Light SPART ##
-   # Upgrade- Speed (OLD)
+  ## 경자주포 / Light SPART ##
+   # 업그레이드- 속력 (옛날 것)
    light_SPART_1950_speed:0 "50년형 경장갑 자주포 속력 업그레이드"
    light_SPART_1960_speed:0 "60년형 경장갑 자주포 속력 업그레이드"
    light_SPART_1970_speed:0 "70년형 경장갑 자주포 속력 업그레이드"
    light_SPART_1980_speed:0 "80년형 경장갑 자주포 속력 업그레이드"
 
-   # Upgrade- Armament
+   # 업그레이드- 무장
    light_SPART_1950_soft_attack:0 "50년형 경장갑 자주포 무장 업그레이드"
    light_SPART_1950_soft_attack_desc:0 "The early upgrades to SPART guns allowed for more mobility and a higher firing rate within the driving brand, enabling greater lethality."
    light_SPART_1960_soft_attack:0 "60년형 경장갑 자주포 무장 업그레이드"
@@ -1041,17 +1041,17 @@
    light_SPART_1970_soft_attack:0 "70년형 경장갑 자주포 무장 업그레이드"
    light_SPART_1970_soft_attack_desc:0 "병사들 몇몇이 불평하던 주포의 정확도 및 신뢰성을 개선할 수 있습니다. 이는 우리 무기 체계가 전투에서 더 효과적으로 작동하게 해줄 것입니다."
    light_SPART_1980_soft_attack:0 "80년형 경장갑 자주포 무장 업그레이드"
-   light_SPART_1980_soft_attack_desc:0 "Our missile systems can be updated to fire longer range rockets, and include GPS guidance systems for laser-sharp accuracy to compliment their overwhelming firepower against the enemy."
-  ## Light Self-Propelled Artillery / Light SPART ##
+   light_SPART_1980_soft_attack_desc:0 "사거리가 더 긴 미사일을 쏘면서, GPS 유도 시스템을 탑재하도록 미사일 시스템을 업그레이드 할 수 있습니다. GPS 유도 시스템은 압도적인 화력에 레이저와 같이 정밀한 정확도를 더해줄 것입니다."
+  ## 경자주포 / Light SPART ##
 
-  ## Self-Propelled Artillery / SPART ##
-   # Speed Upgrade (Deprecated)
+  ## 자주포 Artillery / SPART ##
+   # 속력 업그레이드 (삭제 예정)
    SPART_1950_speed:0 "50년형 자주포 속력 업그레이드"
    SPART_1960_speed:0 "60년형 자주포 속력 업그레이드"
    SPART_1970_speed:0 "70년형 자주포 속력 업그레이드"
    SPART_1980_speed:0 "80년형 자주포 속력 업그레이드"
 
-   # Upgrade- Armament
+   # 업그레이드- 무장
    SPART_1950_soft_attack:0 "50년형 자주포 무장 업그레이드"
    SPART_1950_soft_attack_desc:0 "제2차 세계 대전에서 자주포가 처음 사용된 이후 이 분야에서 이루어진 진보는 자주포를 공수해 공수부대를 지원할 수 있게 해주었습니다."
    SPART_1960_soft_attack:0 "60년형 자주포 무장 업그레이드"
@@ -1061,20 +1061,20 @@
    SPART_1980_soft_attack:0 "80년형 자주포 무장 업그레이드"
    SPART_1980_soft_attack_desc:0 "더 진보한 자주포 주포는 현대 전장의 거의 모든 곳을 지원할 수 있게 해줬습니다. 보병들은 교전을 시작한 후 얼마 지나지 않아 완전한 지원을 받을 수 있게 되었습니다."
   
-   # Stuff That Was Added Last Minute
+   # 마지막에 추가한 것들
    
    light_SPART_1950_soft_attack:0 "50년형 경장갑 자주포 포열 개선"
    light_SPART_1950_soft_attack_desc:0 "The early upgrades to SPART guns allow for more mobility and a higher firing rate within the driving brand, enabling greater lethality."
    light_SPART_1950_soft_attack_2:0 "50년형 경장갑 자주포 기관총 설치"
-   light_SPART_1950_soft_attack_2_desc:0 "Light self-propelled artillery is currently equipped with smaller-caliber weaponry. The addition of short-range machine guns will mean that these self-propelled artillery batteries still have some level of defensive capabilities."
+   light_SPART_1950_soft_attack_2_desc:0 "지금의 경자주포는 소구경 무장을 탑재했습니다. 단거리 기관총을 추가한다면 자주포 포대가 어느 정도의 방어 능력을 갖게 됩니다."
    light_SPART_1950_soft_attack_3:0 "50년형 경장갑 자주포 포탄 재설계"
-   light_SPART_1950_soft_attack_3_desc:0 "Light self-propelled artillery has usually used simple shells without significant upgrade. By using new molding technologies and recalculating aerodynamics, we can make our shells go faster and longer."
+   light_SPART_1950_soft_attack_3_desc:0 "경자주포는 간단한 포탄을 큰 업그레이드 없이 써왔습니다. 새로운 주조 기술을 도입하고 공기역학을 재계산해, 포탄이 더 먼 곳까지 더 빠르게 날아도록 할 수 있습니다."
    light_SPART_1950_armor:0 "50년형 경장갑 자주포 장갑 업그레이드"
-   light_SPART_1950_armor_desc:0 "By refining our designs, our artillery will go farther and be more fuel efficient."
+   light_SPART_1950_armor_desc:0 "설계를 개선하면 연비를 높이며 더 먼 곳까지 갈 수 있습니다."
    light_SPART_1950_armor_2:0 "50년형 경장갑 자주포 세라믹 장갑 적용"
-   light_SPART_1950_armor_2_desc:0 "New technologies like ceramic armor are becoming a mainstay in armored vehicles. Applying them to our self-propelled artillery will require some adaptation, but is a no-brainer."
+   light_SPART_1950_armor_2_desc:0 "세라믹 장갑과 같은 신기술이 기갑 차량의 대세가 되어가고 있습니다. 이 기술들을 자주포에 적용하려면 조정이 좀 필요하겠습니다. 그렇지만 이건 생각할 필요도 없는 일입니다."
    light_SPART_1950_armor_3:0 "50년형 경장갑 자주포 복합장갑 적용"
-   light_SPART_1950_armor_3_desc:0 "Composite armor is expensive and still a new field, but the promises it offers to protection and it's lightweight qualities are worthy of implementation across the field."
+   light_SPART_1950_armor_3_desc:0 "복합장갑은 값비싼 미개척지지만 방호력을 보장합니다. 또한 복합장갑의 가벼움은 전장에 도입할만한 가치가 있습니다."
    SPART_1950_soft_attack:0 "50년형 자주포 경량 프레임 채택"
    SPART_1950_soft_attack_desc:0 "제2차 세계 대전에서 자주포가 처음 사용된 이후 이 분야에서 이루어진 진보는 자주포를 공수해 공수부대를 지원할 수 있게 해주었습니다."
    SPART_1950_soft_attack_2:0 "50년형 자주포 대구경 포 설치"
@@ -1082,7 +1082,7 @@
    SPART_1950_soft_attack_3:0 "50년형 자주포 포탄 재설계"
    SPART_1950_soft_attack_3_desc:0 "자주포는 간단한 포탄을 큰 업그레이드 없이 써왔습니다. 새로운 주조 기술을 도입하고 공기역학을 재계산해, 포탄이 더 먼 곳까지 더 빠르게 날아도록 할 수 있습니다."
    SPART_1950_armor:0 "50년형 자주포 장갑 업그레이드"
-   SPART_1950_armor_desc:0 "설계를 개선하면 자주포가 더 먼 곳까지 연비 좋게 갈 수 있습니다."
+   SPART_1950_armor_desc:0 "설계를 개선하면 연비를 높이며 더 먼 곳까지 갈 수 있습니다."
    SPART_1950_armor_2:0 "50년형 자주포 세라믹 장갑 적용"
    SPART_1950_armor_2_desc:0 "세라믹 장갑과 같은 신기술이 기갑 차량의 대세가 되어가고 있습니다. 이 기술들을 자주포에 적용하려면 조정이 좀 필요하겠습니다. 그렇지만 이건 생각할 필요도 없는 일입니다."
    SPART_1950_armor_3:0 "50년형 자주포 복합장갑 적용"
@@ -1096,15 +1096,15 @@
    light_SPAA_1950_air_attack:0 "50년형 경장갑 자주대공포 무장 업그레이드"
    light_SPAA_1950_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
    light_SPAA_1950_air_attack_2:0 "50년형 경장갑 자주대공포 대구경 포 설치"
-   light_SPAA_1950_air_attack_2_desc:0 "Jet planes have rendered the smaller caliber weapons of the past useless. Larger guns, with longer ranges and faster shell velocities, are the only real practical option in our new, terrifying world."
+   light_SPAA_1950_air_attack_2_desc:0 "제트기는 과거의 소구경 화기를 무용지물로 만들었습니다. 이 무서운 신세계에서 실용적인 선택은 더 긴 사거리와 더 높은 포구초속을 가진 더 큰 포 뿐입니다."
    light_SPAA_1950_air_attack_3:0 "50년형 경장갑 자주대공포 레이다 유도 도입"
-   light_SPAA_1950_air_attack_3_desc:0 "With conventional guns it is almost impossible to take down jets. However, the introduction of radar guiding will allow for bullets to land, even with a ton of inaccuracy."
+   light_SPAA_1950_air_attack_3_desc:0 "기존의 포로 제트기를 격추하는 것은 불가능에 가깝습니다. 하지만, 레이다 유도를 도입하면 포탄을 맞출 수 있습니다. 심히 부정확하긴 하지만 말입니다."
    light_SPAA_1950_armor:0 "50년형 경장갑 자주대공포 장갑 업그레이드"
-   light_SPAA_1950_armor_desc:0 "By refining our designs, our anti-aircraft weapons will go farther and be more fuel efficient."
+   light_SPAA_1950_armor_desc:0 "설계를 개선하면 연비를 높이며 더 먼 곳까지 갈 수 있습니다."
    light_SPAA_1950_armor_2:0 "50년형 경장갑 자주대공포 세라믹 장갑 적용"
-   light_SPAA_1950_armor_2_desc:0 "New technologies like ceramic armor are becoming a mainstay in armored vehicles. Applying them to our self-propelled anti-aircraft weapons will require some adaptation, but is a no-brainer."
+   light_SPAA_1950_armor_2_desc:0 "세라믹 장갑과 같은 신기술이 기갑 차량의 대세가 되어가고 있습니다. 이 기술들을 자주대공포에 적용하려면 조정이 좀 필요하겠습니다. 그렇지만 이건 생각할 필요도 없는 일입니다."
    light_SPAA_1950_armor_3:0 "50년형 경장갑 자주대공포 복합장갑 적용"
-   light_SPAA_1950_armor_3_desc:0 "Composite armor is expensive and still a new field, but the promises it offers to protection and it's lightweight qualities are worthy of implementation across the field."
+   light_SPAA_1950_armor_3_desc:0 "복합장갑은 값비싼 미개척지지만 방호력을 보장합니다. 또한 복합장갑의 가벼움은 전장에 도입할만한 가치가 있습니다."
    SPAA_1950_air_attack:0 "50년형 자주대공포 무장 업그레이드"
    SPAA_1950_air_attack_desc:0 "With the onset of the Cold War, the SPAA increased in the power of the gun-based platforms and increased range to better combat jet aircraft."
    SPAA_1950_air_attack_2:0 "50년형 자주대공포 대구경 포 설치"
