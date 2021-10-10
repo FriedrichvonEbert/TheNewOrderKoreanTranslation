@@ -5,14 +5,14 @@
  
  ERS_socialist_party:0 "ND"
  ERS_socialist_party_long:0 "노브고로드 운동"
- ERS_social_democrat_party:0 "구마니스트(휴머니스트)"
- ERS_social_democrat_party_long:0 "구마니스트(휴머니스트)"
- ERS_social_liberal_party:0 "마데르니스트(모더니스트)"
- ERS_social_liberal_party_long:0 "마데르니스트(모더니스트)"
+ ERS_social_democrat_party:0 "휴머니스트"
+ ERS_social_democrat_party_long:0 "구마니스트"
+ ERS_social_liberal_party:0 "모더니스트"
+ ERS_social_liberal_party_long:0 "마데르니스트"
  ERS_social_conservative_party:0 "데카브리스트"
  ERS_social_conservative_party_long:0 "데카브리스트"
- ERS_authoritarian_democrat_party:0 "바스틸랴르(바스티야드)"
- ERS_authoritarian_democrat_party_long:0 "바스틸랴르(바스티야드)"
+ ERS_authoritarian_democrat_party:0 "바스티야드"
+ ERS_authoritarian_democrat_party_long:0 "바스틸랴르"
  ERS_despotism_party:0 "류리크 왕당파"
  ERS_despotism_party_long:0 "류리크 왕당파"
  ERS_fascism_party:0 "RFP"
@@ -368,7 +368,7 @@
  MOD_CABINET_0:0 "산업부 장관"
  MOD_CABINET_1:0 "기술부 장관"
  MOD_CABINET_2:0 "과학부 장관"
- MOD_CABINET_3:0 "기반시설 장관"
+ MOD_CABINET_3:0 "인프라부 장관"
  MOD_CABINET_4:0 "교육부 장관"
  MOD_CABINET_5:0 "통상부 장관"
  MOD_CABINET_6:0 "국방부 장관"
@@ -714,23 +714,23 @@
 
  ### Decisions ###
  #Debug
- ERS_debug_category:0 "Tomsk Debug Category"
+ ERS_debug_category:0 "톰스크 디버그 카테고리"
  ERS_debug_category_desc:0 "Disabling Debug decisions can be reverted with the console command "set_flag ERS_Disable_Debug 0""
  ERS_disable_debug:0 "§RDisable Debug Decisions§!"
- ERS_load_starting_tree:0 "§YLoad the Starting Tree§!"
- ERS_load_duma_tree:0 "§YLoad the Duma Tree§!"
- ERS_load_humanist_tree:0 "§YLoad the Humanist Tree§!"
- ERS_load_modernist_tree:0 "§YLoad the Modernist Tree§!"
- ERS_load_decembrist_tree:0 "§YLoad the Decembrist Tree§!"
- ERS_load_bastillard_tree:0 "§YLoad the Bastillard Tree§!"
- ERS_load_regional_humanist_tree:0 "§YLoad the Humanist Regional Tree§!"
- ERS_load_regional_modernist_tree:0 "§YLoad the Modernist Regional Tree§!"
- ERS_load_regional_decembrist_tree:0 "§YLoad the Decembrist Regional Tree§!"
- ERS_load_regional_bastillard_tree:0 "§YLoad the Bastillard Regional Tree§!"
- ERS_load_superregional_humanist_tree:0 "§YLoad the Humanist Superregional Tree§!"
- ERS_load_superregional_modernist_tree:0 "§YLoad the Modernist Superregional Tree§!"
- ERS_load_superregional_decembrist_tree:0 "§YLoad the Decembrist Superregional Tree§!"
- ERS_load_superregional_bastillard_tree:0 "§YLoad the Bastillard Superregional Tree§!"
+ ERS_load_starting_tree:0 "§Y시작 계통도를 불러옵니다§!"
+ ERS_load_duma_tree:0 "§Y두마 계통도를 불러옵니다§!"
+ ERS_load_humanist_tree:0 "§Y휴머니스트 계통도를 불러옵니다§!"
+ ERS_load_modernist_tree:0 "§Y모더니스트 계통도를 불러옵니다§!"
+ ERS_load_decembrist_tree:0 "§Y데카브리스트 계통도를 불러옵니다§!"
+ ERS_load_bastillard_tree:0 "§Y바스티야드 계통도를 불러옵니다§!"
+ ERS_load_regional_humanist_tree:0 "§Y휴머니스트 지역 계통도를 불러옵니다§!"
+ ERS_load_regional_modernist_tree:0 "§Y모더니스트 지역 계통도를 불러옵니다§!"
+ ERS_load_regional_decembrist_tree:0 "§Y데카브리스트 지역 계통도를 불러옵니다§!"
+ ERS_load_regional_bastillard_tree:0 "§Y바스티야드 지역 계통도를 불러옵니다§!"
+ ERS_load_superregional_humanist_tree:0 "§Y휴머니스트 초지역 계통도를 불러옵니다§!"
+ ERS_load_superregional_modernist_tree:0 "§Y모더니스트 초지역 계통도를 불러옵니다§!"
+ ERS_load_superregional_decembrist_tree:0 "§Y데카브리스트 초지역 계통도를 불러옵니다§!"
+ ERS_load_superregional_bastillard_tree:0 "§Y바스티야드 초지역 계통도를 불러옵니다§!"
  ERS_region_decision:0 "§Y중앙 시베리아 통일§!"
  ERS_national_decision:0 "§Y러시아 통일§!"
 
@@ -750,7 +750,7 @@
  ERS_Grey_Duma_desc:0 "바스티야드는 오랫동안 프랑스 혁명의 한계와 뒤이은 모든 민주주의의 실패는 선출직 의원들의 포퓰리즘 정책과 직접적으로 연관이 있다는 그들의 정치 테제를 고수해 왔습니다. 그래서 그들은 전통적인 양원제 의회가 뒤집어진 형태의 두마를 고안해냈습니다.\n\n국민의 의지를 대변하는 선출직 하원의원들은 상원에서 제안된 법안을 검토하는 업무를 수행합니다.\n\n상원의 냉정하고 치밀한 전문가들이 법률을 입안하고 대중들은 철저한 검토를 통해 법안의 존폐여부를 결정합니다.\n\n하지만 바스티야드당은 포퓰리즘이 공화국의 혈관에 독처럼 퍼지는 것은 절대적으로 용납하지 않을 것입니다."
 
  ERS_Bill_Category:0 "군사 법안 카테고리"
- ERS_unlock_war_plans:0 "중앙시베리아 확장안 "
+ ERS_unlock_war_plans:0 "중앙시베리아 확장안"
  ERS_unlock_war_plans_bill:0 "중앙시베리아 확장안 검토"
 
  ERS_military_program_tt:0 "§Y우리는 두마에 §G군의 현대화§! 계획을 발의할 것입니다.§!"
@@ -2420,7 +2420,6 @@
  ERS.74.desc:0 "몇몇 사람들이 탐탁지 않은 이념인 과격주의 사상의 징후를 보이고 있습니다. 과격주의를 중심으로 하는 정치적 집단들이 우리 국경 내에서 하나둘씩 튀어나오고 있는데, 이 문제를 빨리 해결하지 않는다면, 우리 민주주의를 산산조각내어 잔인하게 찢어버리고 말 것입니다. 우리는 우리 영토에 몰래 들어와 전제 정치라는 독약으로 우리의 흐르는 지적 사상을 오염시킨 자들을 찾아내야 합니다.\n\n우리는 대중과, 심지어 어떠한 중대한 진전이 있다면 정치적 엘리트까지 주시할 것입니다. 그 동안, 우리 요원들은 농민들의 마음을 타락시키려고 시도하는 과격파 정당을 찾아내 부숴버릴 것입니다."
  ERS.74.a:0 "우리는 이 문제를 미연에 방지해야 한다."
 
-
  ERS.79.t:0 "우리의 외교적 상황"
  ERS.79.desc:0 "우리가 관심을 가지고 있는 국가, 특히 태평양의 강대국들에 접근할 때가 되었습니다. 우리의 가장 큰 관심사는 특히, 미국과 일본 같은 몇몇 국가들이 우리에 관심이 있는지 입니다. 우리는 냉전에서 중립을 지켜야 합니다. 동맹에 가깝게 근접시키는 것은 미래에 우리를 위험에 빠뜨릴 수 있습니다.\n\n이는 미국과 일본, 둘 다와 잘 지내는 것을 의미하며, 이것이 미국과 더 가까워지지 않아 몇몇 살롱들을 화나게 할 수도 있겠지만 일본의 맹렬한 분노를 받아내고 싶지 않다면 이는 훨씬 더 중요한 일입니다. 현 시점에서, 우리는 어떠한 종류의 금수조치나 침공의 위협을 감수할 수 없습니다. 금수조치는 우리 경제를 완전히 파괴하고, 서쪽의 경쟁자를 극복할 수 있는 기회를 완전히 끝내버릴 것입니다. 그리고, 침공의 가능성은 낮지만 우리는 항상 예상치 못한 결과에 대비해야 합니다.\n\n이러한 이유로, 미래에 우리는 일본과 미국, 모두와 친하게 지내야 합니다. 일본과의 우호적인 관계를 유지하는 것은 아마도 보상으로 돌아올 수도 있을 것입니다. 우리가 두 나라와의 관계를 계속 유지하려고 노력하는 데 두 국가 모두가 화내지 않기를 바랍니다."
  ERS.79.a:0 "우리는 위험한 게임을 하고 있군. "
@@ -2499,12 +2498,12 @@
  ERS.107.a:0 "행운을 빕니다, 대통령 각하."
 
  ERS.108.t:0 "자문 국민투표 - 모더니스트-바스티야드 승리" #Tomsk common regional The Advisory Referendum - Modernist-Bastillard victory
- ERS.108.desc:0 "민주주의의 빛나고 자랑스러운 특징 중 하나는 국민의 의지에 따라 정확히 결정을 내릴 수 있는 능력입니다. 그리고 오늘 우리는 바로 그렇게 할 것입니다! ... 어느 정도는 말이죠. 무소속 의원들의 정치적 위치에 대한 구속력 없는 국민투표 결과는 다음과 같습니다. : the Modernist-Bastillard plan of denying independent politicians easy ballot and government access in favour of more gradual political integration has won.\n\nThe people of Tomsk seem to largely accept and appreciate our unique Salon system the way it is, and agree with the Modernists and Bastillards that allowing independents to operate freely within the system would destabilize and slow our governance. While there are many people who support independents working outside of the current system, these people were not as numerous as some may have anticipated.\n\nOf course... the referendum is non-binding. The president is not legally obligated to act upon its results, and if they feel that making life easier for independents is the moral or practical thing to do, there is nothing stopping them except the knowledge that doing so would create a lot of cynics."
+ ERS.108.desc:0 "민주주의의 빛나고 자랑스러운 특징 중 하나는 국민의 의지에 따라 정확히 결정을 내릴 수 있는 능력입니다. 그리고 오늘 우리는 바로 그렇게 할 것입니다! ... 어느 정도는 말이죠. 무소속 의원들의 정치적 위치에 대한 구속력 없는 국민투표 결과는 다음과 같습니다. : the Modernist-Bastillard plan of denying independent politicians easy ballot and government access in favour of more gradual political integration has won.\n\n톰스크 사람들은 우리의 독특한 살롱 시스템을 그대로 받아들이고 높이 평가하고 있으며, 무소속들이 살롱 시스템 내부에서 자유롭게 활동할 수 있게 허락한다면, 우리 통치를 불안정화하고 더디게 만들 것이라는 모더니스트와 바스티야드의 의견에 동의하고 있습니다. 현 체제 밖에서 일하는 무소속들을 지지하는 사람들이 많지만, 이 사람들은 몇몇 사람들이 예상했던 것만큼은 많지 않았습니다.\n\n물론... 국민투표는 구속력이 없습니다. 대통령은 그 결과에 따라 행동할 법적 의무가 없으며, 만약 무소속들에게 더 나은 삶을 만들어 주는 것이 도덕적이거나 타당한 일이라고 생각한다면, 그렇게 하는 것이 수많은 냉소주의자들을 만들어 낼 것이라는 사실 외에는 막을 수 있는 방법은 없습니다."
  ERS.108.a:0 "국민의 뜻대로."
  ERS.108.b:0 "우리가 소중히 여기는 자유를 국민이 짓밟도록 놔둘 수는 없다."
 
  ERS.109.t:0 "자문 국민투표 - 휴머니스트-데카브리스트 승리" #Tomsk common regional The Advisory Referendum - Humanist-Decembrist victory
- ERS.109.desc:0 "민주주의의 빛나고 자랑스러운 특징 중 하나는 국민의 의지에 따라 정확히 결정을 내릴 수 있는 능력입니다. 그리고 오늘 우리는 바로 그렇게 할 것입니다! ... 어느 정도는 말이죠. 무소속 의원들의 정치적 위치에 대한 구속력 없는 국민투표 결과는 다음과 같습니다. : the Humanist-Decembrist plan to allow independents to more easily run on the Salon lists has won.\n\nWhile the people of Tomsk appreciate our unique Salon system, it seems that many people across Central Siberia are not as enamored by it and desire the opportunity for outsiders to provide them a voice in our government. The Humanists and Decemberists, while not enthusiastic about losing power, saw this as a plan of both pragmatism and principle. They say we are obligated to provide our people with maximum political freedoms, and who are we to stop them?\n\nOf course... the referendum is non-binding. The president is not legally obligated to act upon its results, and if they feel that increasing political freedoms for independents would be too destabilizing or impractical, there is nothing stopping them from ignoring the referendum results except the knowledge that doing so would create a lot of cynics."
+ ERS.109.desc:0 "민주주의의 빛나고 자랑스러운 특징 중 하나는 국민의 의지에 따라 정확히 결정을 내릴 수 있는 능력입니다. 그리고 오늘 우리는 바로 그렇게 할 것입니다! ... 어느 정도는 말이죠. 무소속 의원들의 정치적 위치에 대한 구속력 없는 국민투표 결과는 다음과 같습니다. : the Humanist-Decembrist plan to allow independents to more easily run on the Salon lists has won.\n\n톰스크 사람들은 우리의 독특한 살롱 시스템을 높이 평가하지만, 중앙 시베리아 전역의 많은 사람들은 그에 매혹되지 않고, 외부인들이 우리 정부에 목소리를 낼 수 있는 기회를 원하는 것으로 보입니다. 휴머니스트들과 데카브리스트들은 권력을 잃는 것에 열렬한 것은 아니지만, 이를 실용주의와 원칙 둘 모두의 계획으로서 보고 있습니다. 그들은 우리가 국민들에게 최대한의 정치적 자유를 제공해야 할 의무가 있다고 말하고 잇습니다. 그리고 누가 그들을 막겠습니까?\n\n물론... 국민투표는 구속력이 없습니다. 대통령은 그 결과에 따라 행동할 법적 의무가 없으며, 만약 무소속들에게 더 나은 삶을 만들어 주는 것이 도덕적이거나 타당한 일이라고 생각한다면, 그렇게 하는 것이 수많은 냉소주의자들을 만들어 낼 것이라는 사실 외에는 막을 수 있는 방법은 없습니다."
  ERS.109.a:0 "국민의 뜻대로."
  ERS.109.b:0 "불안정을 유발하기에 거부권을 행사할 수 밖에 없다."
 
@@ -2580,9 +2579,9 @@
  ERS.127.desc:0 "바스티야드는 크고 화려한 군대가 아니라, 효율적이고 효과적인 군대를 믿고 있습니다. 이를 위해, 그들의 개혁은 군을 포퓰리즘의 불안에서 자유로워지고, 내외의 적들로부터 공화국을 수호할 수 있는 소규모 전문적 병력으로 만드는 것을 목표로 하고 있습니다.\n\n군대를 공격 지향적으로 만들어자원을 낭비하는 것 대신, 우리는 포병과 요새 둘 다 어느 정도 투자할 것입니다. 우리는 우리 적들이 우리를 공격하는 데 자신들의 자원을 다 써버리도록 놔둘 것입니다. 그들이 공격해도 별 피해를 받지 않는 곳에서, 그들이 우리가 반격할 수 있을 정도로 충분히 약해질 때까지 말이죠. 새로운 공화국 군대에서 낭비나 겉치레는 없을 것입니다."
  ERS.127.a:0 "간단하고 효과적이군."
 
- ERS.128.t:0 "A Symphony of Steel and Movement" #Tomsk Bastillard Regional A symphony of Steel and Movement
- ERS.128.desc:0 "Everything is finally well-tuned and balanced in Central Siberia. We have a mixture of state enterprises and private businesses generating high profits and plenty of new jobs. The region is finally becoming industrialized, as our economy, resource output, and military production all grow day-by-day. Our just-enough-to-get-by social safety net has placated the workers enough that they are content while we have not had to sacrifice too much from government or industry coffers to earn this stability. And finally, our new culture of hard work and strong discipline has spread everywhere.\n\nThe economy, and the workers and businessmen in it, are all running smoothly and efficiently, and this accomplishment alone is enough to confirm that we have achieved economic success."
- ERS.128.a:0 "I suppose we can pat ourselves on the back."
+ ERS.128.t:0 "강철과 부품의 교향곡" #Tomsk Bastillard Regional A symphony of Steel and Movement
+ ERS.128.desc:0 "중앙시베리아에서는 마침내 모든것이 잘 조정되었고 균형이 잡혔습니다. 우리에게는 높은 수익과 수많은 새로운 일자리를 창출하는 공기업과 민간 사업체들이 있습니다. 우리 경제, 자원 생산, 그리고 군사 생산 모두가 날로 성장함에 따라, 이 지역은 마침내 산업화되고 있습니다. 그럭저럭 살아갈 수 있게 해주는 사회안전망 덕분에, 안정성을 위해 정부나 산업 재원의 너무 많은 희생을 감당할 필요도 없이 노동자들은 충분히 만족했습니다. 그리고 마침내, 우리의 근면과 엄격한 규율이라는 새로운 문화가 도처에 퍼졌습니다.\n\n경제, 그리고 그 안의 노동자들과 기업인들은 모두 원활하고 효율적으로 일하고 잇으며, 이 성과만으로도 우리가 경제적 성공을 거두었음을 확인하기에는 충분합니다."
+ ERS.128.a:0 "우리 스스로 칭찬해도 될 것 같군."
 
  ERS.129.t:0 "공화국의 눈과 귀" #Tomsk Bastillard Regional Eyes and Ears of the Republic
  ERS.129.desc:0 "일부 사람들에 따르면, 논란의 여지가 있고 공화국의 가치에 반하는 것이지만, 우리 정보기관의 발달은 우리가 사랑하는 국가의 지속적인 존재와 마찬가지입니다.\n\n바스티야드는 정보기관에 구체적이고 중요한 권한을 부여했으며, 이 기관은 네 곳의 살롱 출신의 회원들과 공동 위원회에 의해 감독됩니다. 이는 우리의 서쪽, 동쪽의 적들에 대한 우리의 궁극적인 공격에 대비하여 적의 행동을 감시하는 데 사용될 것입니다. 우리가 수집한 모든 정보들은 아주 귀중합니다. 공화국은 경쟁국에 대한 모든 것을 알아야 합니다!"
