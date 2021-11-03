@@ -122,7 +122,7 @@
  BOR_the_march_east_collapse_desc: "The Reich is going to war against the secessionist states now occupying large portions of the former Reichskommissariat Moskowien. The Wehrmacht is being fully mobilized for the war effort, and great care must be put to ensure that the logistics and infrastructure are ready to support the armed forces."
  BOR_the_march_east_2SS: "The March East"
  BOR_the_march_east_2SS_desc: "The Reich is going to war against the secessionist states now occupying large portions of the former Reichskommissariat Moskowien. The Wehrmacht is being fully mobilized for the war effort, and great care must be put to ensure that the logistics and infrastructure are ready to support the armed forces."
- BOR_moskowien_reconstruction: "The Reconstruction of Moskowien"
+ BOR_moskowien_reconstruction: "모스코비엔 "
  BOR_moskowien_reconstruction_desc: "The war to reconquer Moskowien is over, and the Reichskommissariat is once again under full German control. Now, a comprehensive effort has been undertaken to rebuild the region and ensure it can become a productive province of the larger Reich: large funds are being destined to reconstruct cities, factories and key infrastructures destroyed by the belligerents."
  BOR_MCW_russian_dissidence:0 "Russian Dissidence"
  BOR_MCW_russian_dissidence_desc:0 "The native Russians in Moskowien are fomenting dissent and rebellion in the Reichskommissariat. Whether their grievances are justified, or they are merely trying to secede once more from the Reich, this is disturbing ordinary life as protests and terrorist attacks cause delays in public works and victims among the security forces: if decisive actions are not undertaken, the protest will only continue, and may even grow."
@@ -185,35 +185,35 @@
  GER_BOR_Econ_RK_idea_targeted_effects_3:0 "\nCivilian Factories to [GER.GetFlag] Germany: §R+15.00%§!\nMilitary Factories to [GER.GetFlag] Germany: §R+15.00%§!\nExtra Trade to [GER.GetFlag] Germany: §G+7.50%§!\nTrade Cost for [GER.GetFlag] Germany: §G-7.50%§!"
  GER_BOR_Econ_RK_idea_targeted_effects_4:0 "\nCivilian Factories to [GER.GetFlag] Germany: §R+20.00%§!\nMilitary Factories to [GER.GetFlag] Germany: §R+20.00%§!\nExtra Trade to [GER.GetFlag] Germany: §G+10.00%§!\nTrade Cost for [GER.GetFlag] Germany: §G-10.00%§!"
  
- GER_BOR_Econ_RK_targeted_1:0 "Großraum Kontinentaleuropa"
- GER_BOR_Econ_RK_targeted_2:0 "Großraum Kontinentaleuropa"
- GER_BOR_Econ_RK_targeted_3:0 "Großraum Kontinentaleuropa"
- GER_BOR_Econ_RK_targeted_4:0 "Großraum Kontinentaleuropa"
+ GER_BOR_Econ_RK_targeted_1:0 "그로스라움 콘티넨탈오이로파"
+ GER_BOR_Econ_RK_targeted_2:0 "그로스라움 콘티넨탈오이로파"
+ GER_BOR_Econ_RK_targeted_3:0 "그로스라움 콘티넨탈오이로파"
+ GER_BOR_Econ_RK_targeted_4:0 "그로스라움 콘티넨탈오이로파"
  
  #Econ I ideas
 
- GER_BOR_Econ_a_modern_wundewaffe_modifier:0 "A Modern Wunderwaffe"
+ GER_BOR_Econ_a_modern_wundewaffe_modifier:0 "현대적 꿈의 무기"
  GER_BOR_Econ_a_modern_wundewaffe_modifier_desc:0 ""
 
- GER_BOR_Econ_entscheidungsnetzwerk:0 "Das Entscheidungsnetzwerk"
+ GER_BOR_Econ_entscheidungsnetzwerk:0 "결정 네트워크"
  GER_BOR_Econ_entscheidungsnetzwerk_desc:0 ""
 
  GER_BOR_Econ_megacorp_help:0 ""
  GER_BOR_Econ_megacorp_help_desc:0 ""
  
  #Post Dismantlement I
- GER_BOR_die_strategische_unterstutzungspolizei:0 "Die Strategische Unterstützungspolizei"
+ GER_BOR_die_strategische_unterstutzungspolizei:0 "전략지원경찰"
 
  #Dismantlement II
  GER_BOR_internal_opposition:0 "Internal Opposition!?"
  GER_BOR_internal_opposition_desc:0 "A black webs stretches across Germania, and no one is safe from its sticky embrace. An Internal Opposition schemes behind Bormann's back, seeking his removal from power and the establishment of... something new? Something old? Whispers dance around him and the shadows close in. Who is the spider at the heart of this conspiracy?"
 
  #Opulence
- GER_BOR_Herbst:0 "Herbst"
+ GER_BOR_Herbst:0 "가을"
  GER_BOR_Herbst_desc:0 "The Herbst has struck the German Reich. Protests, riots, terrorist attacks and widespread dissent permeate German society, which is reeling from the disastrous effects of Bormann's purges over the last decade. The Second Night of the Long Knives may have brought a temporary stability, but the ongoing chaos looks set to be permanent."
- GER_BOR_redevelop_the_nation:0 "Redevelop the Nation"
- GER_BOR_mass_propaganda:0 "Mass Propaganda"
- GER_BOR_the_peoples_fuhrer:0 "The People's Führer"
+ GER_BOR_redevelop_the_nation:0 "국가 재개발"
+ GER_BOR_mass_propaganda:0 "대중 선전"
+ GER_BOR_the_peoples_fuhrer:0 "국민의 총통"
 
  ############
  # Tooltips #
@@ -297,25 +297,25 @@
  BOR_NOR_refused_conference: "노르웨이가 협상을 거부했습니다.\n"
  BOR_NOR_negotiation_failure: "협상이 §R실패했습니다.§!."
  BOR_NOR_negotiation_success: "협상이 §G성공했습니다.§!."
- BOR_NOR_negotiations_will_end: "§RNegotiations will break down if we refuse their demand.§!"
- BOR_NOR_subvert_norwegian_democracy: "§ROur agents shall work to slowly subvert Norwegian democracy from within.§!"
- GER_BOR_coup_under_preparation_tooltip: "§RPreparations shall begin for a Hardliner coup in§! §YNorway§!\n§YNew decisions§! are available"
- BOR_NOR_coup_failure: "The coup attempt has §Rfailed§!."
- BOR_NOR_coup_success: "The coup attempt has §Gsucceeded§!."
- BOR_NOR_norway_puppet: "We have asserted our dominion over Norway"
- BOR_NOR_norway_independent: "We have allowed Norway to remain independent"
+ BOR_NOR_negotiations_will_end: "§R그들의 요구를 거절한다면 협상이 결렬될 것입니다.§!"
+ BOR_NOR_subvert_norwegian_democracy: "§R우리 요원들이 노르웨이의 민주주의를 내부에서부터 전복하기 시작할 것입니다.§!"
+ GER_BOR_coup_under_preparation_tooltip: "노르웨이§!§R에서의 강경파 쿠데타를 위한 준비가 시작될 것입니다.§!\n§Y새로운 국가 중점창§!이 개방되었습니다."
+ BOR_NOR_coup_failure: "쿠데타 시도가 §R실패했습니다§!."
+ BOR_NOR_coup_success: "쿠데타 시도가 §G성공했습니다.§!."
+ BOR_NOR_norway_puppet: "우리는 노르웨이에 대한 지배권을 확립했습니다."
+ BOR_NOR_norway_independent: "우리는 노르웨이가 독립국으로 남도록 허용했습니다."
  
- BOR_NOR_dealt_with_tt: "We have resolved our diplomatic situation with §QNorway.§!"
+ BOR_NOR_dealt_with_tt: "우리는 §Q노르웨이§!와의 외교 문제를 해결했습니다."
 
  #Norway opinion modifiers
- NOR_GER_allowed_norwegian_force: "Allowed a Norwegian force"
+ NOR_GER_allowed_norwegian_force: "노르웨이군 허용함"
  NOR_GER_sent_the_garrison_back: "Sent the Garrison back"
  NOR_GER_allowed_reforms: "Allowed our economic reforms"
- NOR_GER_kept_economic_control: "Kept economic control"
+ NOR_GER_kept_economic_control: "경제 제어 유지함"
  
  #Sweden/Finland diplo chains
- BOR_SWE_negotiations:0 "We negotiated with §YSweden§!"
- BOR_has_reclaimed_norway_tt: "We have reclaimed Norway"
+ BOR_SWE_negotiations:0 "우리는 §Y스웨덴§!과 협상했습니다."
+ BOR_has_reclaimed_norway_tt: "우리는 노르웨이를 되찾았습니다."
  GER_BOR_SWE_failure: "협상 실패"
  GER_BOR_SWE_success: "협상 성공"
  GER_BOR_FIN_failure: "협상 실패"
@@ -323,9 +323,9 @@
  GER_FIN_rejected_missles: "Rejected missles"
  GER_FIN_rejected_petsamo_road: "페트사모 도로 거부됨"
  GER_FIN_rejected_petsamo_fab: "페트사모 섬유 거부됨"
- GER_FIN_help_hand: "Helping Hand"
+ GER_FIN_help_hand: "도움의 손길"
  GER_FIN_border_patrol: "국경 경비대"
- GER_BOR_SWE_mines_access: "Ensured access to the Swedish iron mines"
+ GER_BOR_SWE_mines_access: "스웨덴 철 광산에 접근 확보함"
  BOR_sweden_pakt_observer: "§Y스웨덴§!은 공식적으로 §g팍트의 참관국§!으로 복귀할 것입니다."
  BOR_finland_pakt_observer: "§Y핀란드§!는 공식적으로 §g팍트의 참관국§!으로 복귀할 것입니다."
 
@@ -343,7 +343,7 @@
  GER_BOR_set_up_moskowien_tt: "모스코비엔은 복구를 위해 임시적으로 군사 정부의 통치를 받게 될 것입니다. "
  GER_BOR_new_moskowien_tt: "툴팁"
  GER_BOR_has_dealt_with_wolgastaat: "우리는 §Y볼가슈타트§!와 타협했습니다."
- GER_BOR_3SS_russian_negotiations_success: "Negotiations with the §Y러시아인§!들과의 협상이 §G성공했습니다.§!"
+ GER_BOR_3SS_russian_negotiations_success: "§Y러시아인§!들과의 협상이 §G성공했습니다.§!"
  GER_BOR_3SS_russian_negotiations_failure: "§Y러시아인§!들과의 협상이 §R실패했습니다§!"
 
  #Kaukasien diplo trees
@@ -372,10 +372,10 @@
  BOR_german_investments:0 "새로운 §L독일인§!의 투자는 §YGDP 성장량§! 을 §G증가§!시킬 것입니다.\n"
  BOR_brittany_recognized:0 "§YBrittany's status as an independent nation will be safeguarded for the near future.§!"
  BOR_fall_rollo_bormann:0 "§YPreparations will begin for a military intervention against the rogue state of Brittany.§!"
- BOR_brittany_in_faction:0 "§YWe will support France's claim to the Breton lands.§!"
+ BOR_brittany_in_faction:0 "§Y우리는 프랑스의 영국 영토 주장을 지지할 것입니다.§!"
 
- TNO_betrayed_us:0 "Betrayed us"
- TNO_supported_our_claim:0 "Supported our claim"
+ TNO_betrayed_us:0 "우리를 배신했습니다."
+ TNO_supported_our_claim:0 "우리의 주장을 지지합니다."
  BOR_fall_rollo_support:0 "We have given §BFrance§! our support for their invasion of §gBrittany§!."
  BOR_fall_rollo_ally:0 "We have allied with §BFrance§! for an invasion of §gBrittany§!."
 
@@ -386,7 +386,7 @@
  BOR_JAP_a_heist_for_the_ages_tt:0 "§RIt's time to pay a visit to an old friend.§!"
  BOR_JAP_anti_sphere_increase_tt:0 "\n§SThe effects of the "Anti-Sphere Vanguard" modifier will be increased.§!"
  BOR_JAP_ceylon_nukes_tt:0 "§RWe will begin to station nuclear weapons at our allies in Ceylon.§!"
- BOR_JAP_spy_increase_tt:0 "§YThe success chance of all our HVA operations in East Asia and South East Asia will increase.§!"
+ BOR_JAP_spy_increase_tt:0 "§YThe success chance of all our 국가안전부정찰총국 operations in East Asia and South East Asia will increase.§!"
 
  GER_diplomatic_mission:0 "Diplomatic mission"
  GER_RAJ_anti_japanese_rethoric:0 "Anti-Japanese rethoric"
@@ -400,8 +400,8 @@
  GER_BOR_OFN_Talks_Stalling:0 "미국-독일 회담이 §Y지연될 것입니다.§!"
 
  #OFN Opinion modifiers
- TNO_BOR_OFN_Offered_Concessions:0 "Offered us concessions"
- TNO_BOR_Recognised_US_Claims:0 "Recognised Pacific Claims"
+ TNO_BOR_OFN_Offered_Concessions:0 "우리에게 양보를 제안했습니다."
+ TNO_BOR_Recognised_US_Claims:0 "태평양 주장을 인정했습니다."
 
  #Econ I tree
  BOR_ECON_ONE_as_long_as_theyre_useful: "우리는 §B그로스라움§!의 우리의 통제를 공고히 할 것입니다."
@@ -432,7 +432,7 @@
  BOR_ECON_ONE_put_them_to_work: "§R25,000 slaves shall be removed and put to work§!"
 
  #Oil Crisis trees
- BOR_OilCrisis_End: "Not:The Crisis has come to an end"
+ BOR_OilCrisis_End: "알림:위기가 끝났습니다."
  BOR_begin_supply_runs_tt: "§YDecisions§! will be unlocked to send military supplies for the Ba'athist states."
  BOR_baathists_have_a_port: "The Ba'athists have secured a Mediterraenan port"
  BOR_liquidate_our_assets_tt: "§YOur liquid reserves will be cleared.§!"
@@ -477,16 +477,16 @@
  herbst_end:0 "§xWe could not save him...§!"
 
  #Opulence
- BOR_econ_2_done_tt:0 "Our economy has begun to recover from the Oil Crisis"
+ BOR_econ_2_done_tt:0 "우리 경재가 석유파동에서 회복하기 시작했습니다."
  BOR_the_fuhrers_power_secured_tt:0 "The §Rwild ride§! shall §Yend.§!"
  BOR_reviving_the_space_program_tt:0 "§YThe revival of this Program will send us back to the stars.§!"
- BOR_beyond_the_moon_tt:0 "§YThe Aryan race will overtake the American Space Program.§!"
+ BOR_beyond_the_moon_tt:0 "§Y아리아인이 미국의 우주 계획을 따라잡을 것입니다.§!"
  BOR_a_german_space_station_tt:0 "§YOur scientific research will improve.§!"
  BOR_military_redevelopment_tt:0 "§YThe loyalty and skills of the Wehrmacht will increase.§!"
- BOR_expand_the_entscheidungsnetzwerk_tt:0 "§YThe GDP will soar to the skies.§!"
- BOR_maximized_efficiency_tt:0 "§YThe German economy shall become the largest in the world for a Thousand Years to come.§!"
+ BOR_expand_the_entscheidungsnetzwerk_tt:0 "§YGDP가 하늘로 치솟을 것입니다.§!"
+ BOR_maximized_efficiency_tt:0 "§Y앞으로 다가올 천 년을 위해 독일 경제는 세계에서 가장 큰 경제가 될 것입니다.§!"
  BOR_a_new_age_of_science_tt:0 "§YWe shall unlock new advancements in weaponry and science.§!"
- BOR_an_eternal_reich_tt:0 "§YThe Reich will stand One Thousand Years.§!"
+ BOR_an_eternal_reich_tt:0 "§Y라이히는 천 년을 서 있을 것입니다.§!"
 
  BOR_closing_tt:0 "§TAs the Führer's health deteriorates, the Reich enters its greatest period of crisis yet. With things looking even more grim,§! §OAutumn's§! §Twinds blow and who knows how long until the§! §WHouse of Cards§! §ecollapses§!§T...§!\n\n§GFrom the entire Bormann team, thank you for playing! We hope you enjoyed it.§!"
 
@@ -549,22 +549,22 @@
  GER_Bormann_Foreign_Policy_Mauritius_and_Reunion_desc:0 "독일령 아프리카 본토의 몰락과 마다가스카르 상실 이후 우리는 인도양의 유일한 전초기지를 상실했고 남반구의 바다에 대한 일본의 통치를 막아낼 수 없게 되었습니다. 하지만 아프리카의 혼란스러운 상황은 우리가 이 지역에 다시 들어갈 기회를 제공해주었습니다. 크릭스마리네는 마다가스카르 근처의 모리셔스와 레위니옹을 점거하고 있는 적대 세력에 대한 빠른 공격을 준비하고 있습니다.\n\n만약 그들이 성공한다면 우리는 인도양에서 일본의 공격을 견뎌낼 기지를 재설치할 수 있을 것입니다."
 
  #Norway coup decisions
- GER_Bormann_NOR_coup_category: "The Rogstad Conspiracy"
- GER_Bormann_NOR_coup_category_desc: "With Norway currently under the control of a hostile parliamentary government our interests and position in Scandinavia are at a severe risk of falling apart completely. This is a state of affairs that has to be rectified immediately. §gHenrik Rogstad§! is the name of the man, who has proven himself to be the most loyal local to the Reich. Such loyalty shall be rewarded. We will send him everything he needs to put the current usurper government into the ground.\n\nThe chances of the plot being sucessful are [GetNORCoupStrength].\nThe Norwegian authorities are [GetNORCoupSuspicion]."
+ GER_Bormann_NOR_coup_category: "로그스타드 음모"
+ GER_Bormann_NOR_coup_category_desc: "우리에게 적대적인 의회 정부가 통치하는 노르웨이 때문에 스칸디나비아 지역의 우리의 이권이 완전히 무너질 심각한 위기에 놓여 있습니다. 이 상황은 즉시 바로잡아야 합니다. §g헨릭 로그스타드§!는 자신이 라이히에 충성하는 노르웨이인임을 증명한 사람입니다. 이런 충성은 보상받을 것입니다. 우리는 그에게 그가 정부를 무너뜨리기 위해 필요한 모든 것을 제공할 것입니다.\n\n계획이 성공할 기회는 [GetNORCoupStrength]입니다.\n노르웨이 정부는 [GetNORCoupSuspicion]"
 
- bormann_increase_NOR_coup_strength_tt: "§YThe coup's success chance will increase.§!\n"
- bormann_increase_NOR_coup_suspicion_tt: "§RThe suspicion of the Norwegian government will increase.§!"
+ bormann_increase_NOR_coup_strength_tt: "§Y쿠데타 성공 확률이 늘어날 것입니다.§!\n"
+ bormann_increase_NOR_coup_suspicion_tt: "§R노르웨이 정부의 의심이 늘어날 것입니다.§!"
 
  bormann_launch_NOR_coup: "§g쿠데타 개시§!"
- bormann_launch_NOR_coup_desc: "The Norwegians have spat upon our faces with their disgusting betrayal. Orders will be sent to our most loyal conspirators to prepare a swift coup and drag Norway back into the fold of the Einheitspakt."
- bormann_NOR_coup_seek_popular_support: "Seek Popular Support"
- bormann_NOR_coup_seek_popular_support_desc: "To have sway over the minds of the Norwegians, so too must we have sway over their hearts. Far-right movements within Norway will be given the necessary supplies to engage in a mass propaganda campaign promoting the values of National Socialism."
- bormann_NOR_coup_send_soldiers: "Send Soldiers"
- bormann_NOR_coup_send_soldiers_desc: "Our most experienced troops will be smuggled to Norway to aid the conspirators. To lower their chances of detection, we must send small groups of disguised soldiers via boats and planes."
+ bormann_launch_NOR_coup_desc: "노르웨이인들은 더러운 배신이라는 침을 우리 얼굴에 뱉었습니다. 신속한 쿠데타를 준비해 노르웨이를 아인하이츠팍트로 다시 끌고 오라는 명령이 보내질 것입니다."
+ bormann_NOR_coup_seek_popular_support: "인기 있는 지원 모색"
+ bormann_NOR_coup_seek_popular_support_desc: "노르웨이인들의 마음을 지배하는 것은 노르웨이인들의 생각을 지배하는 것만큼이나 중요합니다. 노르웨이 안에서 벌어지는 극우파 운동들은 국가사회주의의 가치를 홍보하는 대중 선전 캠페인에 필수적인 보급품을 받을 겁니다."
+ bormann_NOR_coup_send_soldiers: "병사 보내기"
+ bormann_NOR_coup_send_soldiers_desc: "우리의 가장 경험 많은 병사들이 노르웨이의 공모자들을 돕기 위해 몰래 노르웨이로 들어갈 것입니다. 발각될 위험을 줄이기 위해, 우리는 변장한 병사들을 소규모로 배와 비행기에 태워 보내야 합니다."
  bormann_NOR_coup_send_equipment: "장비 보내기"
  bormann_NOR_coup_send_equipment_desc: "피를 흘리든 흘리지 않든 어떤 쿠데타도 무기 없이 시작한 적은 없습니다. 우리의 비밀 무기들이 노르웨이 공모자들에게 밀수될 것입니다."
- bormann_NOR_coup_send_supplies: "Send Supplies"
- bormann_NOR_coup_send_supplies_desc: "Our loyal conspirators must be as strong as possible if their coup is to succeed. We will stealthily smuggle vital supply shipments to Norway to further aid their cause."
+ bormann_NOR_coup_send_supplies: "물자 보내기"
+ bormann_NOR_coup_send_supplies_desc: "우리에게 충성하는 공모자들이 쿠데타를 성공하려면 그들은 최대한 강해져야 합니다. 우리는 중요한 물자들을 비밀스럽게 노르웨이로 밀수할 겁니다."
 
  NORCoup_extremely_low_chance: "§R극히 낮음§!"
  NORCoup_very_low_chance: "§R매우 낮음§!"
@@ -573,18 +573,18 @@
  NORCoup_high_chance: "§R높음§!"
  NORCoup_very_high_chance: "§R매우 높음§!"
 
- NORCoup_detection_level_0: "§B계획을 모름§!"
- NORCoup_detection_level_1: "§B현재 상황을 의심§!"
- NORCoup_detection_level_2: "§B우리의 작전을 조사 중§!"
- NORCoup_detection_level_3: "§B위험을 알아차림§!"
- NORCoup_detection_level_4: "§B공모자들을 추적하는 중§!"
+ NORCoup_detection_level_0: "§B계획을 모릅니다.§!"
+ NORCoup_detection_level_1: "§B현재 상황을 의심합니다.§!"
+ NORCoup_detection_level_2: "§B우리의 작전을 조사 중입니다.§!"
+ NORCoup_detection_level_3: "§B위험을 알아차렸습니다.§!"
+ NORCoup_detection_level_4: "§B공모자들을 추적하고 있습니다.§!"
 
  #Fall Rollo
- GER_Bormann_Fall_Rollo_category:0 "Fall Rollo"
- GER_Bormann_Fall_Rollo_category_desc:0 "In the days since the nation's establishment, Brittany has established itself as little but a rogue state of smugglers and ruffians, ignorant to the new order that surrounds them. The French State has requested that this rogue nation be dealt with and brought back into the fold. In the interest of maintaining the viability of the French state and the strength of the Einheitspakt, we ought to accept.\n\nA joint force of German and French troops will storm the small state, where we expect the Bretons will be swiftly overwhelmed and subdued. From there, the French shall handle the rest, and the concept of a Breton state will be but a footnote in history, as it was before."
+ GER_Bormann_Fall_Rollo_category:0 "롤로 상황"
+ GER_Bormann_Fall_Rollo_category_desc:0 "나라가 세워질때부터 영국은 그들을 둘러싼 신 질서를 무시하고 스스로를 범죄자와 깡패의 나라로 세웠습니다. 프랑스 지역은 이 범죄자 국가가 라이히의 영억으로 돌아오게 해야 한다고 요청했습니다. 프랑스의 생존력과 아인하이츠팍트의 힘을 위해서, 우리는 이 요청을 받아들여야 합니다.\n\nA 독일-프랑스 합동군이 영국을 휩쓸 것이고, 우리는 영국인들은 신속하게 무너지고 진압될 것으로 기대합니다. 그때부터는 프랑스가 나머지를 처리할 것이고, 영국의 개념은 예전처럼 부차적인 것이 될 겁니다."
 
- BOR_Brittany_War_Dec:0 "§RLaunch Fall Rollo§!"
- BOR_Brittany_War_Dec_desc:0 "The time has come. Let us sail forwards and fulfill our part in the deal with France, so that we can finally reestablish our hegemony in western europe."
+ BOR_Brittany_War_Dec:0 "§R롤로 작전 개시§!"
+ BOR_Brittany_War_Dec_desc:0 "시간이 되었습니다. 프랑스와 한 약속의 우리 부분을 지켜 서유럽에 우리의 지배권을 다시 세웁시다."
 
  BOR_Invasion_of_Brittany:0 "롤로 상황"
  BOR_Invasion_of_Brittany_desc:0 "롤로 작전은 영국의 통치권을 되찾는데 프랑스가 협조하는 대신, 프랑스가 아인하이츠팍트로 다시 돌아올 수 있게 해 주는 조건의 프랑스-독일의 합작 작전입니다.천년 전 바이킹처럼, 독일은 프랑스에 대한 영토를 다시 세울 것입니다. - 우리가 뭘 어떻게 하든 프랑스는 반대하겠지만.."
@@ -603,14 +603,14 @@
  
  #Oil Crisis
  GER_Bormann_oil_crisis_support_category: "불타는 중동"
- GER_Bormann_oil_crisis_support_category_desc: "As the Oil Crisis spirals across the world, it is becoming increasingly clear that if we want to stabilise our supplies we will need to support those factions in the region friendly to our interests. The Ba'athists must be supported by all means necessary.\n\nThe conflicts engulfing the Middle East are:[BOR_OC_Iraq_string][BOR_OC_Egypt_string][BOR_OC_Oman_string]\n    §SYEMEN§! - [BOR_OC_Get_War_Status_Yemen] ([NYM.BOR_OC_Get_Country_Status])\n\nOur current involvement in the conflict is [BOR_OC_Get_Participation].\n§OThe more resources we send to help the Ba'athists, the more we will gain once the conflicts end.§!"
+ GER_Bormann_oil_crisis_support_category_desc: "석유 파동의 위기가 전세계를 덮치며, 중동에서 우리의 석유 공급을 안정시키려면 지역에서 우리의 이권에 친화적인 세력을 지원해야 할 것이라는 사실은 분명해졌습니다. 바트주의자들을 필요한 모든 방법으로 지원해야 합니다.\n\nThe conflicts engulfing the Middle East are:[BOR_OC_Iraq_string][BOR_OC_Egypt_string][BOR_OC_Oman_string]\n    §SYEMEN§! - [BOR_OC_Get_War_Status_Yemen] ([NYM.BOR_OC_Get_Country_Status])\n\nOur current involvement in the conflict is [BOR_OC_Get_Participation].\n§O우리가 바트주의자들을 도울 자원을 많이 보낼수록 전쟁이 끝난 후 많은 것을 얻을 것입니다.§!"
  GER_Bormann_oil_crisis_oman: "\n    §T오만§! - [BOR_OC_Get_War_Status_Oman] ([OMB.BOR_OC_Get_Country_Status])"
  GER_Bormann_oil_crisis_egypt: "\n    §w이집트§! - [BOR_OC_Get_War_Status_Egypt] ([EGB.BOR_OC_Get_Country_Status])"
  GER_Bormann_oil_crisis_iraq: "\n    §L이라크§! - [BOR_OC_Get_War_Status_Iraq] ([BIR.BOR_OC_Get_Country_Status])"
  GER_Bormann_oil_crisis_support_category_map_category_name: "지원할 국가를 선택하세요"
  GER_Bormann_OC_send_weapons: "[From.GetFlag]§Y[From.GetName]§!에 §g무기§! 보내기"
  GER_Bormann_OC_send_motorized: "[From.GetFlag]§Y[From.GetName]§!에 §g차량§! 보내기"
- GER_Bormann_OC_steal_oil:0 "§YSeize Oil Reserves§!"
+ GER_Bormann_OC_steal_oil:0 "§Y연료 비축분 압수§!"
 
  BOR_OC_country_still_at_war: "---"
  BOR_OC_country_victory: "§G승리§!"
@@ -622,18 +622,18 @@
  BOR_OC_participation_2: "§r매우 낮음 ([?BOR_OC_participation|0])§!"
  BOR_OC_participation_3: "§T미미함 ([?BOR_OC_participation|0])§!"
  BOR_OC_participation_4: "§Y상당함 ([?BOR_OC_participation|0])§!"
- BOR_OC_participation_5: "§wsubstantial ([?BOR_OC_participation|0])§!"
+ BOR_OC_participation_5: "§w큼 ([?BOR_OC_participation|0])§!"
  BOR_OC_participation_6: "§S중대함 ([?BOR_OC_participation|0])§!"
  BOR_OC_participation_7: "§e거대함 ([?BOR_OC_participation|0])§!"
 
- BOR_OC_add_participation_2_5:0 "§TOur§! §Oinvolvement§! §Tin the conflict will increase by§! §Y2.5§!§T.§!"
- BOR_OC_add_participation_3:0 "§TOur§! §Oinvolvement§! §Tin the conflict will increase by§! §Y3§!§T.§!"
- BOR_OC_add_participation_5:0 "§TOur§! §Oinvolvement§! §Tin the conflict will increase by§! §Y5§!§T.§!"
- BOR_OC_add_participation_6:0 "§TOur§! §Oinvolvement§! §Tin the conflict will increase by§! §Y6§!§T.§!"
- BOR_OC_add_participation_8:0 "§TOur§! §Oinvolvement§! §Tin the conflict will increase by§! §Y8§!§T.§!"
- BOR_OC_baath_unhappy_tt:0 "§RThe Arabs will not like this decision.§!\n§YOur§! §Oinvolvement§! §Yin the conflict will§! §Rdecrease§! §Yby§! §R5§!§Y.§!\n"
+  BOR_OC_add_participation_2_5:0 "§T분쟁에 대한 우리의§! §O개입§!이 §Y2.5§!§T만큼 증가할 것입니다.§!"
+ BOR_OC_add_participation_3:0 "§T분쟁에 대한 우리의§! §O개입§!이 §Y3§!§T만큼 증가할 것입니다.§!"
+ BOR_OC_add_participation_5:0 "§T분쟁에 대한 우리의§! §O개입§!이 §Y5§!§T만큼 증가할 것입니다.§!"
+ BOR_OC_add_participation_6:0 "§T분쟁에 대한 우리의§! §O개입§!이 §Y6§!§T만큼 증가할 것입니다.§!"
+ BOR_OC_add_participation_8:0 "§T분쟁에 대한 우리의§! §O개입§!이 §Y8§!§T만큼 증가할 것입니다.§!"
+ BOR_OC_baath_unhappy_tt:0 "§R아랍인들이 이 결정을 좋아하지 않을 것입니다.§!\n"§T분쟁에 대한 우리의§! §O개입§!이 §Y6§!§T만큼 감소할 것입니다.§!"\n"
 
- backup_GER_Bormann_oil_crisis_support_category_desc: "As the Oil Crisis spirals across the world, it is becoming increasingly clear that if we want to stabilise our supplies we will need to support those factions in the region friendly to our interests. The Ba'athists must be supported by all means necessary.\n\nThe conflicts engulfing the Middle East are:\n    §LIRAQ§! - [BOR_OC_Get_War_Status_Iraq] ([BIR.BOR_OC_Get_Country_Status])\n    §wEGYPT§! - [BOR_OC_Get_War_Status_Egypt] ([EGB.BOR_OC_Get_Country_Status])\n    §SYEMEN§! - [BOR_OC_Get_War_Status_Yemen] ([NYM.BOR_OC_Get_Country_Status])\n    §TOMAN§! - [BOR_OC_Get_War_Status_Oman] ([OMB.BOR_OC_Get_Country_Status])\n\nOur current level of participation in the conflict is [BOR_OC_Get_Participation].\n§OThe more resources we send to help the Ba'athists, the more we will gain once the conflicts end.§!"
+ backup_GER_Bormann_oil_crisis_support_category_desc: "석유 파동의 위기가 전세계를 덮치며, 중동에서 우리의 석유 공급을 안정시키려면 지역에서 우리의 이권에 친화적인 세력을 지원해야 할 것이라는 사실은 분명해졌습니다. 바트주의자들을 필요한 모든 방법으로 지원해야 합니다.\n\n중동을 둘러싼 분쟁은:\n    §L이라크§! - [BOR_OC_Get_War_Status_Iraq] ([BIR.BOR_OC_Get_Country_Status])\n    §w이집트§! - [BOR_OC_Get_War_Status_Egypt] ([EGB.BOR_OC_Get_Country_Status])\n    §S예멘§! - [BOR_OC_Get_War_Status_Yemen] ([NYM.BOR_OC_Get_Country_Status])\n    §T오만§! - [BOR_OC_Get_War_Status_Oman] ([OMB.BOR_OC_Get_Country_Status])\n\n우리의 분쟁 개입 수준은[BOR_OC_Get_Participation]입니다.\n§O우리가 바트주의자들을 도울 자원을 많이 보낼수록 전쟁이 끝난 후 많은 것을 얻을 것입니다.§!"
 
  decision_cost_3_cp: "£command_power §Y3§!"
  decision_cost_3_cp_blocked: "£command_power §R3§!"
@@ -694,10 +694,10 @@
 
  #Bormann Economy Mechanic
  # "If there's hunger, then it's not the German who hungers, it's the others."
- GER_Bormann_EconMech_category:0 "Großraum Kontinentaleuropa"
- GER_Bormann_EconMech_category_desc:0 "\n\n\n\n\n\nTo make Germany and the Pakt strong again, Bormann has instituted the Großraum Kontinentaleuropa economic project. A shared market with the goal to make the Reich and Europe utterly self-sufficient, the Großraum is also the financial leash with which the Führer ensures German domination. In more practical terms the program is especially aiming to rebind the economies of the Reichskommissariats back to the heartland, and to reduce and eventually abolish the slave system.\n"
+ GER_Bormann_EconMech_category:0 "그로스라움 콘티넨탈오이로파"
+ GER_Bormann_EconMech_category_desc:0 "\n\n\n\n\n\n독일과 팍트를 다시 한번 강하게 만들기 위해 보어만은 라이히와 유럽을 완전 자급자족이 가능한 공유 시장으로 만들 목적으로 그로스라움 콘티넨탈오이로파 경제 계획을 도입했습니다. 또한 그로스라움은 총통이 독일의 지배를 확언한 경제적 족쇄이기도 합니다. 더 정확히 말하자면 그로스라움은 국가판무관부들의 경제를 라이히에 다시 종속시키며, 노예제의 규모를 차차 줄여나가 결국에는 완전히 없애는 것을 목표로 한 계획입니다.\n  "
  
- GER_Bormann_EconMech_new_decision_available_tt:0 "A §Gnew project§! will become available for the §YGroßraum§!."
+ GER_Bormann_EconMech_new_decision_available_tt:0 "§Y그로스라움§!에서 §G새 프로젝트§!를 실행할 수 있게 될 것입니다."
 
  GER_Bormann_EconMech_economy_policy_failure:0 "§e경제적 실패§!"
  GER_Bormann_EconMech_limit_slavery:0 "노예제에 제한 설정"
@@ -735,11 +735,11 @@
  GER_Bormann_EconMech_baku_germania_pipeline:0 "바쿠-게르마니아 송유관"
  GER_Bormann_EconMech_baku_germania_pipeline_desc:0 "모든 현대의 경제는 석유로 굴러가고, 라이히의 경제도 예외는 아닙니다. 바쿠의 유전지대를 게르마니아와 연결해 팍트의 석유 분배를 간단하게 만들 수 있을 것입니다."
  GER_Bormann_EconMech_modernize_infrastructure:0 "기반시설 현대화"
- GER_Bormann_EconMech_modernize_infrastructure_desc:0 "The infrastructure of the Reichskommissariats have just not kept up with the times. Rectifying that situation has become necessary. Roads, railways, waterways and all the modes of transport and travel should get an overdue expansion, modernization and of course, new constructions."
- GER_Bormann_EconMech_expand_resource_extraction:0 "Expand Extraction Operations"
- GER_Bormann_EconMech_expand_resource_extraction_desc:0 "Our industry hungers for resources, while there are large and unclaimed deposits all over the Eastern Reichskommissariats. We need to expand and create new mines and oil wells."
+ GER_Bormann_EconMech_modernize_infrastructure_desc:0 "국가판무관부의 기반시설은 시대의 흐름을 따라오지 못했습니다. 상황을 바로잡는 것은 이제 필수적이 되었습니다. 도로, 철도, 수로와 모든 운송 수단은 늦었지만 확장되고 현대화될 것이며, 물론 새로운 시설도 건설될 겁니다."
+ GER_Bormann_EconMech_expand_resource_extraction:0 "석유 채취 시설 확장"
+ GER_Bormann_EconMech_expand_resource_extraction_desc:0 "우리의 산업은 자원에 굶주렸습니다. 동부 전체에는 크고 아직 개발되지 않은 유정이 널려 있습니다. 우리는 새로운 광산과 유정을 확장하고 개발해야 합니다."
  GER_Bormann_EconMech_eastern_industrial_buildup:0 "동부 산업 건설"
- GER_Bormann_EconMech_eastern_industrial_buildup_desc:0 "With so many ex-slaves running around, a lot of new work is needed. Our friends in the conglomerates have suggested employing these individuals in newly built industrial centers all throughout the East. A splendid idea!"
+ GER_Bormann_EconMech_eastern_industrial_buildup_desc:0 "With so many ex-slaves running around, a lot of new work is needed.예전에 노예였던 사람들이 돌아다니는 새로운 일이 필요합니다.  Our friends in the conglomerates have suggested employing these individuals in newly built industrial centers all throughout the East. A splendid idea!"
  GER_Bormann_EconMech_dockyard_investment:0 "해군 산업 투자"
  GER_Bormann_EconMech_dockyard_investment_desc:0 "As much as we dislike to admit it, our rivals in Tokyo and Washington have surpassed us in many things naval. If we are to ever match them we need capacity in shipbuilding. The Western Reichskommissariats are the perfect place for some new dockyards."
  GER_Bormann_EconMech_western_slave_repatriation:0 "서부 노예 송환"
@@ -748,9 +748,9 @@
  GER_Bormann_EconMech_krakow_railway_junction_desc:0 "Poland sits in a prime location for logistical affairs for the Reich. Resting in easy-to-wreak lands, in which rail lines may be easily laid. Already in Krakau there exists a great baseline for rail infrastructure, one that is well situated for eastern expansion. With the proper investment, Krakau will serve as a railway hub for all lines coming to and fro the eastern territories."
  GER_Bormann_EconMech_fortify_moskowien:0 "모스코비엔 강화"
  GER_Bormann_EconMech_fortify_moskowien_desc:0 "The large urban centres in Moskowien stand tall as the beating heart of the Reich's easternmost extremities. Yet should anything happen to these cities, this beating heart could possibly falter. As such, we shall take measures to fortify these critical eastern population centres as a precaution against a native Russian revolt or, god forbid, a resurgent Russian state in the far east."
- GER_Bormann_EconMech_expand_groningen_gas_fields:0 "Expand the Groningen Gas Fields"
+ GER_Bormann_EconMech_expand_groningen_gas_fields:0 "그로닝언 유전 확장"
  GER_Bormann_EconMech_expand_groningen_gas_fields_desc:0 "Below the soil of the Netherlands lies a great reserve of natural gas, unlike anywhere else in Europe. Such reserves have the capacity to power the Reich for decades, if not generations. Not an opportunity that should be turned away. By expanding the exploitation of the Groningen fields in Frisia, we can ensure that energy will be in no short supply. Not in the Reich."
- GER_Bormann_EconMech_reactivate_siegfried_line:0 "Reactivate the Siegfried Line"
+ GER_Bormann_EconMech_reactivate_siegfried_line:0 "지크프리드선 재가동"
  GER_Bormann_EconMech_reactivate_siegfried_line_desc:0 "Tensions with the rogue Schutzstaffel statelet in Burgundy continue to rise, as any communication attempts with Himmler's regime prove to be near-impossible. The Reich is left but no choice but to consider hostilities with the SS-Ordensstaat Burgund to be a real possibility. As a result, our border must be secured so that the Wehrmacht is not found upon the backfoot in the case of conflict.\n\nThe foundations for such security have existed for decades in the Siegfried Line, but following France's defeat in the Second World War, the necessity of maintaining an expensive defensive fortification swiftly diminished.\n\nAs a result, it will be a costly endeavor to reactivate the Siegfried Line -- yet an endeavor that could prove necessary for the near future."
  GER_Bormann_EconMech_expand_siegfried_line:0 "지크프리드선 확장"
  GER_Bormann_EconMech_expand_siegfried_line_desc:0 "The Siegfried Line has been re-manned and brought back to the most basic operational standards.지크프리드선은 However, the line does not meet the needs of modern warfare, and will require great efforts of revitalization in order for it to come to good use in the case of open conflict.\n\nOnce the line is reinvigorated with modern defensive weaponry and state of the art defenses, then we shall be ready for any foolhardy move the Burgundians may make."
@@ -760,9 +760,9 @@
  GER_Bormann_EconMech_oil_investigation:0 "북해 탐사"
  GER_Bormann_EconMech_oil_investigation_desc:0 "북해의 깊고 차가운 바다 아래에는 보물이 묻혀 있습니다. 옛날에 선원들이 봤던 보석 같은 게 아니라 훨씬 더 현대에 발견된 겁니다. 바로 석유죠.\n\nd우리는 원유가 거친 파도 밑에 있는 걸 알지만, 이렇게 잘 보존된 자원은 개발되어야만 합니다. 운이 따라준다면 북해를 철저히 탐사해 라이히에 필요한 석유의 생산지를 찾을 수 있을 겁니다."
  GER_Bormann_EconMech_north_sea_oil_exploration:0 "북해 유전 탐사"
- GER_Bormann_EconMech_north_sea_oil_exploration_desc:0 "With no more border destruction, our engineers can finally move in and set up the first rigs in the North Sea. The conglomerates will, of course, also get their share of the pie and help with developing the new oil fields."
- GER_Bormann_EconMech_expand_oil_exploration:0 "Expand North Sea Exploration"
- GER_Bormann_EconMech_expand_oil_exploration_desc:0 "The North Sea oil is the solution to the Reich"s ever thirsty economy. We need more wells and more rigs. Time to search and dig deep and greedily!"
+ GER_Bormann_EconMech_north_sea_oil_exploration_desc:0 "더 이상 국경에 방해받지 않으니, 마침내 우리의 기술자들은 북해로 들어가 첫 번째 시추장을 지을 수 있게 되었습니다. 물론 복합 기업들도 새로운 유전을 개발한 이익의 일부분을 그들 몫으로 받을 것입니다."
+ GER_Bormann_EconMech_expand_oil_exploration:0 "북해 유전 탐사 확대"
+ GER_Bormann_EconMech_expand_oil_exploration_desc:0 "북해는 라이히의 항상 목마른 경제의 해법입니다. 우리는 더 많은 유정과 굴착기가 필요합니다. 욕심을 부려서 깊게 파 봅시다!"
  GER_Bormann_EconMech_infrastructure_investment:0 "§Y국내 기반시설§!에 투자"
  GER_Bormann_EconMech_civfactory_investment:0 "§Y국내 민수용품 생산§!에 투자"
  GER_Bormann_EconMech_milfactory_investment:0 "§Y국내 군수용품 생산§!에 투자"
@@ -804,24 +804,41 @@
  BOR_EconMech_DEN_suficiently_integrated:0 "§T덴마크§!가 §Y그로스라움§!으로의 통합이 §Q완료됨§!"
  BOR_EconMech_GGN_suficiently_integrated:0 "§T폴란드§!가 §Y그로스라움§!으로의 통합이 §Q완료됨§!"
  BOR_EconMech_OST_suficiently_integrated:0 "§T오스틀란트§!가 §Y그로스라움§!으로의 통합이 §Q완료됨§!"
- BOR_agricultural_modernization_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n   민간 공장 사용량: §Y-2%§!"
+ BOR_agricultural_modernization_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n   민간 공장 사용량: §Y-2%§!"
+ BOR_expand_manufacturing_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    민간 공장 사용량: §Y-3%§!\n    공장 생산량: §G+5.00%§!"
+ BOR_baku_germania_pipeline_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 채집 효율: §G+5.00%§!"
+ BOR_baku_germania_pipeline_GER_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    석유당 연료 생산 효율: §G+25.00%§!"
+ BOR_modernize_infrastructure_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 채취 효율: §G+5.00%§!\n        건설 속도: §G+15.00%§!\n"
+ BOR_modernize_infrastructure_effects_tt:0 "선택한 §T국가판무관부§!의 효과:\n    The 3개 중 무작위 주 하나의 §Y기반시설§!수치가 §Y1§!만큼 증가할 것입니다.\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 추출 효율성: §G+5.00%§!\n        건설 속도: §G+15.00%§!"
+ BOR_expand_resource_extraction_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 추출 효율성: §G+20.00%§!\n        시장으로 가는 자원량:: §Y+20%§!\n"
+ BOR_expand_resource_extraction_effects_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    시장으로 가는 자원량:: §Y-4%§!\n 선택한 §T국가판무관부§!의 효과:\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 추출 효율성: §G+20.00%§!\n        시장으로 가는 자원량:: §Y+20%§!\n"
+ BOR_expand_resource_extraction_GER_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    시장으로 가는 자원량:: §Y-5%§!\n"
+ BOR_eastern_industrial_buildup_effects_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    Consumer Goods Factor: §Y-1%§!\n 선택한 §T국가판무관부§!의 효과:\n    Three §Y민간공장 3개§!가 무작위 주에 지어질 것입니다."
+ BOR_eastern_industrial_buildup_GER_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    Consumer Goods Factor: §Y-1%§!\n"
+ BOR_dockyard_investment_effects_tt:0 "해군 경험치: §G+20§!\n수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    공장 생산량: §G+2.50%§!\n 선택한 §T국가판무관부§!의 효과:\ㄱ §Y항구 2개§!가 바다와 접한 무작위 주에 지어질 것입니다."
+ BOR_dockyard_investment_GER_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    공장 생산량: §G+2.50%§!\n"
+ BOR_western_slave_repatriation_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        공장 생산량: §G+5.00%§!\n        안정도: §G+5.00%§!\n"
+ BOR_western_slave_repatriation_effects_tt:0 "우리의 §YGDP 성장률§!이 §G조금 증가§!할 것입니다. §!\n 선택한 §T국가판무관부§!의 효과:\n    국가판무관부에 살고 있는 노예들은 동부 식민지로 송환될 것입니다.\n    Our §Y빈곤율§! 사회적 개발률이 §G개선§!되기 시작할 것입니다.\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        공장 생산량: §G+5.00%§!\n        안정도: §G+5.00%§!\n"
+ BOR_expand_groningen_gas_fields_tt:0 "우리의 §YGDP 성장률§!이  §G증가§!할 것입니다.\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 추출 효율성: §G+5.00%§!"
+ BOR_krakow_railway_junction_tt:0 "우리의 §YGDP 성장률§!이 §G증가§!할 것입니다.\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        건설 속도: §G+20.00%§!\n"
+ BOR_breitspurbahn_효과:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    연간 GDP 성장률 요소: §G+0.50%§!"BOR_agricultural_modernization_tt:0 "수정 §g그로스라움 콘티넨탈오이이로파§! 효과:\n   민간 공장 사용량: §Y-2%§!"
  BOR_expand_manufacturing_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n    민간 공장 사용량: §Y-3%§!\n    공장 생산량: §G+5.00%§!"
  BOR_baku_germania_pipeline_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n        자원 채집 효율: §G+5.00%§!"
  BOR_baku_germania_pipeline_GER_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n    석유당 연료 생산 효율: §G+25.00%§!"
  BOR_modernize_infrastructure_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n        자원 채취 효율: §G+5.00%§!\n        건설 속도: §G+15.00%§!\n"
- BOR_modernize_infrastructure_effects_tt:0 "Effects on the chosen §TReichskommissariat§!:\n    The §Y기반시설§! level of three random states will be increased by §Yone§!.\n    Modify §gGroßraum Kontinentaleuropa§! effect:\n        Resource gain efficiency: §G+5.00%§!\n        Construction Speed: §G+15.00%§!"
- BOR_expand_resource_extraction_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n        Resource gain efficiency: §G+20.00%§!\n        Resources to Market: §Y+20%§!\n"
- BOR_expand_resource_extraction_effects_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n    Resources to Market: §Y-4%§!\nEffects on the chosen §TReichskommissariat§!:\n    Modify §gGroßraum Kontinentaleuropa§! effect:\n        Resource gain efficiency: §G+20.00%§!\n        Resources to Market: §Y+20%§!\n"
- BOR_expand_resource_extraction_GER_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n    Resources to Market: §Y-5%§!\n"
- BOR_eastern_industrial_buildup_effects_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n    Consumer Goods Factor: §Y-1%§!\nEffects on the chosen §TReichskommissariat§!:\n    Three §YCivilian Factories§! will be built on a random state."
- BOR_eastern_industrial_buildup_GER_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n    Consumer Goods Factor: §Y-1%§!\n"
- BOR_dockyard_investment_effects_tt:0 "Naval Experience: §G+20§!\nModify §gGroßraum Kontinentaleuropa§! effect:\n    Factory Output: §G+2.50%§!\nEffects on the chosen §TReichskommissariat§!:\n    Two §YDockyards§! will be built on a random coastal state."
- BOR_dockyard_investment_GER_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n    Factory Output: §G+2.50%§!\n"
- BOR_western_slave_repatriation_tt:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n        Factory Output: §G+5.00%§!\n        Stability: §G+5.00%§!\n"
- BOR_western_slave_repatriation_effects_tt:0 "Our §YGDP Growth§! will §Gincrease a little.§!\nEffects on the chosen §TReichskommissariat§!:\n    The slaves residing in the Reichskommissariat will be reaptriated to the eastern colonies.\n    Our §YPoverty Rate§! Societal Development will begin to §Gimprove§!.\n    Modify §gGroßraum Kontinentaleuropa§! effect:\n        Factory Output: §G+5.00%§!\n        Stability: §G+5.00%§!\n"
- BOR_expand_groningen_gas_fields_tt:0 "Our §YGDP Growth§! will §Gincrease.§!\n    Modify §gGroßraum Kontinentaleuropa§! effect:\n        Resource gain efficiency: §G+5.00%§!"
- BOR_krakow_railway_junction_tt:0 "Our §YGDP Growth§! will §Gincrease.§!\n    Modify §gGroßraum Kontinentaleuropa§! effect:\n        Construction Speed: §G+20.00%§!\n"
- BOR_breitspurbahn_effect:0 "Modify §gGroßraum Kontinentaleuropa§! effect:\n    Annual GDP Growth Factor: §G+0.50%§!"
+ BOR_modernize_infrastructure_effects_tt:0 "선택한 §T국가판무관부§! 효과:\n3개의 무작위 주의 §Y기반시설§!이 §Y1§!만큼 증가할 것입니다..\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 채취 효율: §G+5.00%§!\n        건설 속도: §G+15.00%§!"
+ BOR_expand_resource_extraction_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 채취 효율: §G+20.00%§!\n        시장으로 가는 자원량: §Y+20%§!\n"
+ BOR_expand_resource_extraction_effects_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    시장으로 가는 자원량: §Y-4%§!\n선택한 §T국가판무관부§! 효과:\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 채취 효율: §G+20.00%§!\n        시장으로 가는 자원량: §Y+20%§!\n"
+ BOR_expand_resource_extraction_GER_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    시장으로 가는 자원량: §Y-5%§!\n"
+ BOR_eastern_industrial_buildup_effects_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    민간공장 사용량: §Y-1%§!\n선택한 §T국가판무관부§! 효과:\n    §Y민간공장 3개§!가 무작위 주에 지어질 것입니다."
+ BOR_eastern_industrial_buildup_GER_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    민간공장 사용량: §Y-1%§!\n"
+ BOR_dockyard_investment_effects_tt:0 "해군 경험치: §G+20§!\n수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    공장 생산량: §G+2.50%§!\n선택한 §T국가판무관부§! 효과:\n    Two §YDockyards§! will be built on a 바다에 접한 무작위 주 ."
+ BOR_dockyard_investment_GER_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    공장 생산량: §G+2.50%§!\n"
+ BOR_western_slave_repatriation_tt:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        공장 생산량: §G+5.00%§!\n        안정도: §G+5.00%§!\n"
+ BOR_western_slave_repatriation_effects_tt:0 "§YGDP 성장률§!이§G조금 증가§!할 것입니다.\n선택한 §T국가판무관부§! 효과:\n     국가판무관부내의 노예들이 동부 식민지로 송환될 것입니다.\n    Our §Y빈곤율§!사회적 발전이 §G개선§! 되기 시작할 것입니다..\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        공장 생산량: §G+5.00%§!\n        안정도: §G+5.00%§!\n"
+ BOR_expand_groningen_gas_fields_tt:0 "§YGDP 성장률§!이 §G증가§!할 것입니다.\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        자원 채취 효율: §G+5.00%§!"
+ BOR_krakow_railway_junction_tt:0 "§YGDP 성장률§! will §G증가.§!\n    수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n        건설 속도: §G+20.00%§!\n"
+ BOR_breitspurbahn_효과:0 "수정 §g그로스라움 콘티넨탈오이로파§! 효과:\n    연간 GDP 성장률 요소: §G+0.50%§!"
  BOR_EconMech_RK_integration_tt:0 "\n이것은§T선택한 국가판무관부§!를 §Y그로스라움§! 과 §Q라이히의 경제§!로의 통합을 진전시킬 것입니다"
  BOR_EconMech_RK_integration_selected_tt:0 "\n이것은§T[THIS.GetNameDef]§!을/를 §Y그로스라움§! 과 §Q라이히의 경제§!로의 통합을 진전시킬 것입니다\n\n"
  BOR_EconMech_RK_integration_tt_GGN:0 "\n이것은§T[Get_EconMech_POL_status_lowercase]§!을/를 §Y그로스라움§! 과 §Q라이히의 경제§!로의 통합을 진전시킬 것입니다"
@@ -847,24 +864,24 @@
  GER_Bormann_EconMech_Workforce_over_95:0 "§Y숙련된 노동자§! §g95%§! 이상"
  GER_Bormann_EconMech_above_required_investment_value:0 "§YAusgrenzungsprogramm Costs§! (§Y[?BOR_SlaveCost_Display|2]B§!) are §Gabove§! the required value (§Y[?BOR_MinimumInvestment|2]B§!)"
 
- GER_Bormann_EconMech_startup_tt:0 "§YThe Großraum Kontinentaleuropa program will be put into action.§!"
+ GER_Bormann_EconMech_startup_tt:0 "§Y그로스라움 콘티넨탈오이로파프로그램이 실행될 것입니다.§!"
 
  GER_Bormann_EconMech_SlavePop_info:0 "노예 인구: §W[?BOR_SlavePop^Germany]백만§!"
- GER_Bormann_EconMech_SlavePop_info_tt:0 "The population of forced labourers and "freed" slaves in Germany itself. Their numbers will drop as more of them get resettled in our eastern possessions.\n\nCurrently, there are [?BOR_SlavePop^Total|Y] §YMillion§! slaves in all of the §gReich.§!\n\n§Y[?BOR_RepatriatedSlaves|0] thousand§! slaves were repatriated last month.\n §Y[?BOR_SlaveRepatriation^Poland|0] thousand§! to [Get_EconMech_POL_status]\n §Y[?BOR_SlaveRepatriation^Ostland|0] thousand§! to §gOSTLAND§!\n §Y[?BOR_SlaveRepatriation^Ukraine|0] thousand§! to §gUKRAINE§!\n §Y[?BOR_SlaveRepatriation^Kaukasien|Y0] thousand§! to §gKAUKASIEN§!\n §Y[?BOR_SlaveRepatriation^Moskowien|Y0] thousand§! to §gMOSKOWIEN§!"
+ GER_Bormann_EconMech_SlavePop_info_tt:0 "독일 안의 강제 노동에 동원된 인구와 '해방된' 노예 인구 수치입니다. 더 많은 노예가 동부 영토에 재정착하면 노예 인구의 수는 더 감소할 것입니다.\n\n현재 §g라이히§!전체에는 [?BOR_SlavePop^Total|Y] §Y백만§!명의 노예가 있습니다. \n\n§Y[?BOR_RepatriatedSlaves|0] 천§! 명의 노예가 지난 달에 송환되었습니다.\n §Y[?BOR_SlaveRepatriation^Poland|0] 천 명§! to [Get_EconMech_POL_status]\n §g오스틀란트§!로 §Y[?BOR_SlaveRepatriation^Ostland|0] 천 명§! \n §g우크라이나§!로 §Y[?BOR_SlaveRepatriation^Ukraine|0] 천 명§! \n §g카우카지엔§!으로 §Y[?BOR_SlaveRepatriation^Kaukasien|Y0] 천 명§!  \n §g모스코비엔§!으로 §Y[?BOR_SlaveRepatriation^Moskowien|Y0] 천 명§!"
  GER_Bormann_EconMech_Ausgrenzung_info:0 "Ausgrenzungsprogramm Costs: [Get_EconMech_Ausgrenzung]"
  GER_Bormann_EconMech_Ausgrenzung_info_tt:0 "The current amount of the Reich's budget spent on the resettlement and segregation of the slaves. §GThe more is spent on the program, the faster it will progress.§!"
  GER_Bormann_EconMech_minimum_investment:0 "최소 투자: [Get_EconMech_Investment]"
  GER_Bormann_EconMech_minimum_investment_tt:0 "To keep the §YAusgrenzungsprogramm§! going, a certain amount of funding is required. As time goes on the minimum sufficient spending will change.\n\n§RSpending below this value could have dire consequences.§!"
- GER_Bormann_EconMech_Workforce_info:0 "숙련된 노동자: [?BOR_Workforce|3W] §WMillion |§! [?BOR_WorkforceFactor|%W]"
+ GER_Bormann_EconMech_Workforce_info:0 "숙련 노동자: [?BOR_Workforce|3W] §W백만 |§! [?BOR_WorkforceFactor|%W]"
  GER_Bormann_EconMech_Workforce_info_tt:0 "The current well trained non-slave civilian workforce, relative to the potentially available workforce of §Y[?BOR_MaxWorkforce|3] Million§!. As the slave system weakens, these skilled civilians will increase in numbers, improving our economy.\n\nThe §Ynon-slave workforce§! had an increase of [?BOR_WorkforceChange|Y%] last month.\n\nGDP 성장 보너스: [?BOR_Econ_GER_gdp_growth_modifier|G%]"
  GER_Bormann_EconMech_CombinedGDP:0 "Großraum GDP: §W[?BOR_GrossraumGDPs^Total|2]B USD§!"
  GER_Bormann_EconMech_CombinedGDP_tt:0 "The combined Gross Domestic Product of all member states of the §YGroßraum Kontinentaleuropa§! and it's shared market."
 
  GER_Bormann_EconMech_current_investment:0 "현재 투자: §WGDP의 [?BOR_SlaveCost|%]퍼센트§!"
 
- BOR_EconMech_investment_good:0 "§W[?BOR_MinimumInvestment|2]B USD§!"
- BOR_EconMech_investment_bad:0 "§R[?BOR_MinimumInvestment|2]B USD§!"
- BOR_EconMech_Ausgrenzung_Costs:0 "§W[?BOR_SlaveCost_Display|2]B USD§!"
+ BOR_EconMech_investment_good:0 "§W[?BOR_MinimumInvestment|2]십억 USD§!"
+ BOR_EconMech_investment_bad:0 "§R[?BOR_MinimumInvestment|2]십억 USD§!"
+ BOR_EconMech_Ausgrenzung_Costs:0 "§W[?BOR_SlaveCost_Display|2]십억 USD§!"
  backup_BOR_EconMech_Ausgrenzung_Costs:0 "§W[?BOR_SlaveCost_Display|2]10억 USD GDP의([?BOR_SlaveCost|%])퍼센트§!"
  BOR_EconMech_program_end:0 "§W----§!"
 
@@ -909,7 +926,7 @@
 
  BOR_econ_debug_tt:0 "§Y디버그- 매달 업데이트§!"
 
- TNO_Bormann_EconMech_GER_tt:0 "§gGROßDEUTSCHES REICH§!\n\n§RSlave Population:§! [?BOR_SlavePop^Germany] Million\n\n§GGDP:§! [?GER.GDP_billion|2]B USD\n§GGDP Growth:§! [?GER.GDP_growth_display|%]\n§eNational Debt:§! [?GER.national_debt_billion|2]B USD"
+ TNO_Bormann_EconMech_GER_tt:0 "§G대독일제국§!\n\n§R노예 인구:§! [?BOR_SlavePop^Germany] 백만\n\n§GGDP:§! [?GER.GDP_billion|2]십억 USD\n§GGDP 성장률:§! [?GER.GDP_growth_display|%]\n§e국가 부채:§! [?GER.national_debt_billion|2]십억 USD"
  TNO_Bormann_EconMech_POL_tt:0 "[Get_EconMech_POL_status]\n\n[BOR_EconMech_POL_button]"
  TNO_Bormann_EconMech_OST_tt:0 "§g오스틀란트§!\n\n[BOR_EconMech_OST_button]"
  TNO_Bormann_EconMech_UKR_tt:0 "§g우크라이나§!\n\n[BOR_EconMech_UKR_button]"
@@ -969,9 +986,9 @@
  GER_Bormann_Sphere_Trade_suck_up_to_japan_desc:0 "Since the moment we restarted our relations with Japan, we have been provided with a variety of tasks to be accomplished in order to ensure their trust in mutually beneficial cooperation. Many of such movies won't be very popular among numerous officials who are unhappy with the very idea of concessions to Japan, but it is up to our decision whether we can afford temporal setbacks for the sake of our long-term diplomatic interests."
  GER_Bormann_Sphere_Trade_open_to_zaibatsus:0 "자이바츠에게 시장 개방"
  GER_Bormann_Sphere_Trade_open_to_zaibatsus_desc:0 "독일을 일본 자이바츠에게 개방하는 것은 독일 기업들에게 위협적이지 않았습니다. 동양의 상업 가문들의 경쟁과 정면으로 맞부딪치며 독일 기업들은 자원을 더 효율적으로 사용하는 법을 배우고 힘든 노력을 기울여 결과적으로 전체 독일 경제를 향상시킬 수 있었습니다. \n\n한편 독일 기업의 대표자들은 일본 기업이 독일에서 낸 실적에 대해 별로 감명을 받지 못했습니다. 2차 대전 종전 직후부터 계속된 자연스러운 독점을 유지해 오면서, 그들은 일본 기업을 자신들의 경쟁 영역에서 몰아내기를 원하고 있습니다."
- GER_Bormann_Sphere_Trade_encourage_trade:0 "Encourage Inter-Bloc Trade"
+ GER_Bormann_Sphere_Trade_encourage_trade:0 "블록간 무역 장려"
  GER_Bormann_Sphere_Trade_encourage_trade_desc:0 "Between the flow of Japanese goods into the Reich and the exploitation of the frontiers of China and the East Indies by the German businessmen, the promises of furthering the inter-bloc business between the Pakt and the Sphere look very appealing.\n\nHowever, it should be taken into account that expanding trade with Japan and her sphere can weaken our Großraum Kontinentaleuropa program. Our relationships with dependencies in Europe have been based on the idea of autarky and self-sufficiency, and excessive international trade can obstruct such order..."
- GER_Bormann_Sphere_Trade_stop_spying:0 "Reduce HVA Operations in East Asia"
+ GER_Bormann_Sphere_Trade_stop_spying:0 "동아시아에서 HVA 활동 축소"
  GER_Bormann_Sphere_Trade_stop_spying_desc:0 "Rightfully indicating our little enthusiasm on the matter, the Japanese offered us a deal, promising additional trade privileges for our businessmen and providing additional technological equipment in exchange for ceasing most of the HVA missions in the Asian countries.\n\nTheir offer sounds alluring, but are we truly willing to abandon most of operations in East Asia and Southeast Asia, as well as to cripple our intelligence forces in the region, for their fragile trust and a short supply in money and toys?"
  GER_Bormann_Sphere_Trade_negotiate_presence_in_country:0 "[BOR_SphereTrade_NeogitatePresence_GetCountry]에 영향력 형성"
  GER_Bormann_Sphere_Trade_negotiate_presence_in_country_desc:0 "The economic policy in the East bears the first fruits. Thanks to our decisions, we have established links not only within the Japanese Archipelago, but also formed trade connections with other countries of East and Southeast Asia.\n\nFascinated by the Oriental riches, the leading corporations of Germany showed their desire in advancing our interests within the rest of the so-called "Co-Prosperity Sphere". Using their assets, we can set up our economic presence in [BOR_SphereTrade_NeogitatePresence_GetCountry]."
@@ -987,7 +1004,7 @@
  GER_Bormann_Sphere_Trade_stop_spying_mission:0 "§R요구:§! Reign in the HVA"
  GER_Bormann_Sphere_Trade_stop_spying_mission_desc:0 "Though barbarian as they may be, the Japanese are not fools when it comes to internal security, as they took notice of our increased espionage efforts and utilized the Kempeitai forces to suppress our pursuits in the region.\n\nWith that in mind, the Japanese delegation asked to reduce the activities of the HVA in their dependent territories. There can be no question of surrendering our agency in Asia - but the straightforward refusal to the Japanese pleas can jeopardize our relationship even further."
 
- GER_Bormann_Sphere_Trade_open_to_zaibatsus_mission_trigger_tt:0 "Has selected §YOpen Up to the Zaibatsus§!"
+ GER_Bormann_Sphere_Trade_open_to_zaibatsus_mission_trigger_tt:0 "Has selected §YOpen Up to the Zaibatsus자이바츠§!"
  GER_Bormann_Sphere_Trade_encourage_trade_mission_trigger_tt:0 "Has selected §YEncourage Inter-Bloc Trade§!"
  GER_Bormann_Sphere_Trade_stop_spying_mission_trigger_tt:0 "Has selected §YReduce HVA Operations in East Asia§!"
 
@@ -1271,22 +1288,22 @@
 
 ##Ostland Interactions##
 #Ongoing War#
-BOR_war_in_the_ostfront:0 "War in the Ostfront"
+BOR_war_in_the_ostfront:0 "동부전선의 전쟁"
 BOR_war_in_the_ostfront_desc:0 "While the traitors in Germany were being delt with, a new insurrection has sprung up in Ostland, we must deal with this as quickly as possible to secure our domain over our eastern territory once more. Send word to the Heer to get ready."
 
 BOR_brave_stahlecker:0 "Brave Stahlecker"
 BOR_brave_stahlecker_desc:0 "It seems that not all hope is lost for Ostland. The Reichskommisar, Stahlecker, was an open advocate of Bormann's succession to Hitler since before the civil war, we will reward this loyalty by helping him put down the radicals who seek to claim Ostland for themselves."
 
-BOR_the_intervention:0 "The Intervention"
-BOR_the_intervention_desc:0 "The time has come, Ostland will be saved from the vile natives, militarists, Burgundian bootlickers and liberals who seek to destroy it."
+BOR_the_intervention:0 "개입"
+BOR_the_intervention_desc:0 "시간이 되었습니다. 오스틀란트는 오스틀란트를 파괴하려고 하는 현지인, 군국주의자, 아첨하는 부르군트와 자유주의자로부터 구해질 것입니다."
 
-BOR_remembering_a_hero:0 "Remembering a Hero"
-BOR_remembering_a_hero_desc:0 "It seems we are too late. The Reichskommisar who was loyal to us, Franz Walter Stahlecker, has been defeated and murdered. This is however a great propoganda opportunity, we will remind the people of the Reich that if they listen to the lies of radicals they will only end up dead in their inevitable attempt to gain power."
+BOR_remembering_a_hero:0 "영웅 추모하기"
+BOR_remembering_a_hero_desc:0 "너무 늦은 것 같습니다. 우리에게 충성하던 국가판무관 프란츠 발터 슈탈렉커는 패배했고 처형당했습니다. 하지만 동시에 이것은 선전할 좋은 기회입니다. 우리는 사람들에게 극단주의자들의 거짓말을 들으면 그들이 권력을 잡으려고 반드시 시도할 것이고, 그 과정에서 사람들은 죽을 것이란 사실을 말이죠."
 
-BOR_prepare_the_intervention:0 "Prepare the Intervention"
+BOR_prepare_the_intervention:0 "개입 준비"
 BOR_prepare_the_intervention_desc:0 "We will send word to the Heer to mass on the borders of Ostland, every armed group shall be considered hostile, you may shoot on sight."
 
-BOR_save_ostland:0 "Save Ostland"
+BOR_save_ostland:0 "오스틀란트 구원"
 BOR_save_ostland_desc:0 "The preparations are in place. It's time to liberate our eastern border from traitors who would reject their Fuhrer."
 
 #Stahlecker Victory#
@@ -1369,7 +1386,7 @@ BOR_darkness_in_the_ostfront:0 "동부전선의 어둠"
 BOR_darkness_in_the_ostfront_desc:0 "이럴 수가. 힘러의 노예가 정말로 오스틀란트 내전에서 이겼습니다... 이게 도대체 어떻게 된 거죠?솔직히 우리는 이 질문의 답을 알 수도 없고 알고 싶지도 않습니다. 하지만 우리는 프리드리히 제켈른이 자기의 영토에서 무슨 짓을 벌이는지는 알고 있습니다. -최소한 우리 정보기관에 따르면, 매우 무서운 일을요 - 동쪽에서의 잔인한 행동이 뉴스에 나오는 걸 막으려고 최대한 노력했지만 많은 분노한 독일 시민들은 개혁주의를 향해 나아가고 있습니다..."
 
 BOR_the_ss_threat:0 "SS의 위협"
-BOR_the_ss_threat_desc:0 "During the 1950s, the Reichsführer-SS Heinrich Himmler attempted to seize power in the aftermath of the economic calamity and subsequent great chaos. Following this, Hitler granted Himmler his dream Burgundian State under the assumption that this would tame the Reichsführer-SS... it did not. Since then, Ordensstaat Burgund has become an international pariah and its achievement of nuclear weaponry makes Burgundy and its contemporaries the greatest contemporary threat to our Reich..."
+BOR_the_ss_threat_desc:0 "1950년대에 SS 국가지도자 하인리히 힘러가 경제 재앙과 이어진 대혼란 속에서 권력을 장악하려고 시도했습니다. 이에 따라, 히틀러는 힘러를 길들일 수 있을 것이라는 예상하에 힘러를 부르군트의 지도자로 임명했습니다.. 아니었습니다. 그때부터, 부르군트는 국제적으로 고립되었고 부르군트의 핵 무기는 부르군트를 라이히에게 가장 큰 위협으로 만들었습니다.."
 
 BOR_interrogate_the_prisoners:0 "죄수들 심문하기"
 BOR_interrogate_the_prisoners_desc:0 "Due in part to the Bürgerkrieg and the former Reichskommissariat Ostland's current aggression toward Führer Bormann's Großgermanisches Reich, we have in our possession many captured Schutzstaffel and Waffen-SS personnel - including some relatively high-ranked officials of Heinrich Himmler's 'Black Order'. Although (let us face it) those captured are Germans, they have technically acted in opposition to Hitler's Political Will & Testament, and therefore we can treat them as we desire. Thus, we shall brutally interrogate those captured till they inform us of details pertaining to Jeckeln's dark order."
@@ -1619,47 +1636,47 @@ BOR_peace_on_the_volga_desc:0 "Unlike Ostland, Reichskommissariat Moskowien coll
 BOR_reunite_with_our_brothers:0 "Reunite with our Brothers"
 BOR_reunite_with_our_brothers_desc:0 "With our internal matters sorted out, it's time to reclaim the East in full. The Wolgastaat is the perfect starting point for our reclamation efforts, as it is mostly inhabited by Germans already: most of them are natives emigrated there from German lands centuries ago, while a small but important minority is made of more recent immigrants who settled the region as part of the Lebensraum project.\n\nWhile the modern colonists are mostly loyal to the Reich and to National Socialism, the Wolga-Deutsch population is far from happy at the prospect of having to bow their heads to us. As of now, they enjoy almost total independence, and they may be willing to rejoin us in exchange for autonomy in internal matters, though there's always another option to reunite with or brothers, one more... forceful."
 
-BOR_set_aside_our_differences:0 "Set Aside our Differences"
+BOR_set_aside_our_differences:0 "서로의 차이는 제쳐두고"
 BOR_set_aside_our_differences_desc:0 "A son, ungrateful as he may be, is still a son in the end. Despite their unacceptable arrogance, it may be in our best interests to find common ground: the Führer shall once again ask for full integration into the Reich, but will accept the Wolgastaat's autonomy.\n\nThey will be allowed to maintain their government, and we won't meddle in their internal affairs as long as they swear their unconditional allegiance to the Vaterland and accept to pay their due in taxes."
 
 BOR_the_black_sheep_of_the_family:0 "The Black Sheep of the Family"
 BOR_the_black_sheep_of_the_family_desc:0 "Our Führer had always known that giving the Wolgastaat their autonomy was a mistake. Look at them now: they spit on the Vaterland, and refuse to acknowledge their duties as part of the Aryan race! They have grown ungrateful and arrogant, and ungrateful, arrogant children always receive the punishment they deserve from their parents.\n\nEffective immediately, the Wolgastaat is no longer an autonomous region, and will be immediately reintegrated into the Reich! Should they refuse to submit, we'll just have to show them that we don't take kindly to traitors, even if they are Germans: the crime is twice as severe when committed by family..."
 
-BOR_deal_with_the_natives:0 "Deal with the Natives"
+BOR_deal_with_the_natives:0 "현지인과 협상"
 BOR_deal_with_the_natives_desc:0 "With the Wolgastaat secured, we must now deal with the Russians. The Moscow Autonomy is the evolution of the Ostvolk Council, an institution established by Kasche to give natives a modicum of representation in the German-led administration: though questionable, this initiative granted Moskowien a degree of social peace no other Reichskommissariat enjoyed.\n\nNow, however, the Moscow Autonomy proclaims itself to be an independent nation, disavowing the Ostvolk Council and refusing reintegration into the Reich. We can try to find an agreement to avoid unnecessary bloodshed, but many implore the Führer to show those fools the depth of their mistake: we defeated Russia twice, and - they claim - there's no two without three!"
 
-BOR_compromise_reached:0 "An Acceptable Compromise"
+BOR_compromise_reached:0 "수용 가능한 타협안"
 BOR_compromise_reached_desc:0 "The proposal sent by the Moscow Autonomy is sound, and allows both parties to claim they won the day. Investing in our Russian possessions was already our intention to begin with, and now we can even appear as friends to the local natives!\n\nThough the idea of being friends with a Russian is a bit creepy, we can't deny the advantages we'll gain in this relationship. An Aryan's word is set in stone, and we shall keep our part of the deal: aid and investments will be sent towards Moscow, and in exchange they will rejoin the Reich as an autonomous region. We can only hope we won't regret this..."
 
 BOR_they_cannot_be_trusted:0 "Put Them Back in their Places"
 BOR_they_cannot_be_trusted_desc:0 "It seems the Slavic race lacks even the most basic concept of self-preservation. Despite our reasonable terms, the Russians have refused our offer! Those fools have chosen to oppose the inevitable resurgence of the Reich, and now they will learn the painful lesson that comes with their hubris...\n\nWe ravaged their frozen land three times over the course of the last fifty years, and yet the Russians still stand defiant. The time has come to break them for the fourth and - hopefully - final time: they will come to regret ever having crossed the path of our glorious Führer!"
 
-BOR_keep_the_peace:0 "Keep the Peace"
+BOR_keep_the_peace:0 "평화 유지"
 BOR_keep_the_peace_desc:0 "Despite the difficult circumstances, our great leader has managed to unify the East once again, and without even a single drop of blood being spilled! Some complain that Bormann "caved" to the requests of upstarts and inferiors, but they fail to see the truth: we are far from strong, and the Reich cannot afford mindless war until we have rebuilt our empire from the ravages of the civil war.\n\nNow, we can reap the benefit of our prudent choices. With a peaceful reunification of the former Reichskommissariat Moskowien, the natives won't fight against our rule: this will allow investments to freely flow into our Eastern possessions, in turn strengthening the entire Reich as the industries in our homeland expand their business!"
 
 BOR_ensure_the_peace:0 "Ensure the Peace"
 BOR_ensure_the_peace_desc:0 "Despite our diplomatic overtures, not everyone has accepted to help us restore the Reich to its former glory. During the last few weeks, we have finalized the plans for the invasion of the territories still resisting our righteous authority: now, it's time to unleash the might of the Wehrmacht upon the secessionists!\n\nOnce their pathetic attempt at getting independent has been mercilessly crushed, we shall reinstate our full control, and rebuild the East as it should have always been! Let it be known that the Reich can't be trifled with: we'll return to the top, just wait and see..."
 
 ##Collapse##
-BOR_anarchy_in_moskowien:0 "Anarchy in the East"
+BOR_anarchy_in_moskowien:0 "동부 무정부상태"
 BOR_anarchy_in_moskowien_desc:0 "With our internal problems solved, and the Vaterland's immediate premises secured, we must now reclaim what was once Reichskommissariat Moskowien. After Kasche fled Moskau, our largest and most populous colony fell apart: revolts erupted across all major cities, and with the mainland gripped by the civil war, the administration was unable to restore order.\n\nNow, Moskowien is but a copy of the rest of Russia, warlords and bandits roaming the land and trying to establish their petty kingdoms and personal domains. It falls upon us to reclaim our legacy in the frozen lands of Russia: we defeated the Bolsheviks once, we'll do it as many times as necessary!"
 
 BOR_contact_the_volk:0 "Contact the Volk"
 BOR_contact_the_volk_desc:0 "Despite being predominantly Russian, Moskowien has a large German minority among natives already living there from the times of the Tsardom, and the colonists who settled within the Reichskommissariat as part of the Lebensraum project. These men and women still hope to reunite with their kin, and the Reich will answer!\n\nWe shall send our agents to establish communications with regions still under German control, and with resistance cells within the rebel states. They will build a network of forces ready to strike at the right moment: with enough support, they'll be able to help us greatly in the reclamation of Western Russia."
 
-BOR_approach_kaminski:0 "Approach Kaminski"
+BOR_approach_kaminski:0 "카민스키에게 접근"
 BOR_approach_kaminski_desc:0 "One of the Russian collaborators who were part of Kasche's administration has managed to secure a sizeable portion of the Reichskommissariat. His influence within Moskowien, and the loyalty he commands from the moderate natives willing to come to an agreement with us can help us greatly, but he's in danger of being attacked by the rebels surrounding him.\n\nOur Führer doesn't ignore this man's value, and agrees that he can be extremely helpful in managing the colony after we have reconquered it. He has sent a letter to Kaminski, promising him help in exchange for his complete loyalty once the Reichskommissariat has been reunified: all we need to do is for him to agree, though to most this seems but a rhetoric question..."
 
-BOR_mobilize_the_heer:0 "Mobilize the Heer"
+BOR_mobilize_the_heer:0 "육군 동원"
 BOR_mobilize_the_heer_desc:0 "The table is set, and we have played our cards. Now, the game must proceed to the next stage. With our agents in place, and the collaborators ready to make their part, all we need to do is to give the signal to our main forces. Within days, our troops will reach the border with the traitor warlords, and prepare to cross it.\n\nThe invasion will still require some time, as such an endeavor requires adequate logistics and sufficient reserves. As soon as they are ready, we shall unleash the might of the Heer upon those foolish enough to stand against the resurgent might of the Reich!"
 
-BOR_restore_order:0 "Restore Order"
+BOR_restore_order:0 "질서 복원"
 BOR_restore_order_desc:0 "Our glorious leader Adolf Hitler envisioned a Lebensraum only for the Aryans. Such a bountiful land was to be found in Russia, controlled by the Bolsheviks: in the greatest war known to mankind, he shattered the hammer and sickle, and planted the eagle and the swastika in their place.\n\nNow, we are ready return to these lands as conquerors just like twenty years ago. just like his predecessor, Führer Bormann shall triumph upon the degenerates who dare to deny German right to rule! Let the world know that the Reich suffers no interlopers on its road to eternal glory: onwards, to victory!"
 
 BOR_german_rule_endures:0 "German Rule Endures"
 BOR_german_rule_endures_desc:0 "Against all hope, German rule has endured in Moskowien. In a shining example of Aryan ingenuity and skill, the security forces of the Reichskommissariat have reorganized into the Oberkommando Brauchitschtadt: despite fierce opposition, they crushed the revolts that followed Kasche's disappearance, and managed to restore control over our colony!\n\nNow that we have solved our internal problems, we are ready to restore formal German rule upon Western Russia. An official delegation from Germania shall meet with the leaders of the Oberkommando and reward them with medals for their extreme bravery in the face of grave danger: not only that, but they will deliver the first batch of supplies for their forces, and prepare the ground for the re-establishment of a civilian administration.\n\nThe Reich endures!"
 
-BOR_begin_the_reconstruction:0 "Begin the Reconstruction"
+BOR_begin_the_reconstruction:0 "재건축 시작"
 BOR_begin_the_reconstruction_desc:0 "Now that Moskowien has been secured once more, it's time for the reconstruction to begin. The economy and infrastructure of the Reichskommissariat have suffered greatly from the chaos that followed the Bürgerkrieg, Kasche's disappearance, and the subsequent restoration of order: now that peace has returned, we need to repair the damage.\n\nTo this end, a reconstruction committee shall oversee the arrival, organization and distribution of all supplies and investments coming from Germania. In addition to the economists and administrators, the committee will be joined by a strong security complement, in order to ensure that peace is maintained against all those who would try to endanger it again."
 
 ##Bormann Kaukasien focuses##
@@ -1677,15 +1694,15 @@ BOR_lifeline_of_the_reich:0 "The Lifeline of the Reich"
 BOR_lifeline_of_the_reich_desc:0 "The black lifeblood of the Reich is pumping again from the refineries of Kaukasia! The oil shipments have resumed with little issue, and Germany is once again oil self-sufficient!\n\nOur operations in the Kaukasus have been a major success; we have restored order in good fashion, oil is once again flowing, and administration has transitioned smoothly, now working for us and us alone.\n\nWe should not dwell on the Reich regaining its oilfields, however, for we have also won a huge strategic victory through our actions; the Reich again has land access to the Middle East, should we need to intervene there. All in all, this is a glorious day for the Reich!"
 
 ##Supported Bormann##
-BOR_the_correct_choice:0 "The Correct Choice"
-BOR_the_correct_choice_desc:0 "During our Civil War, Paul Pleiger made a choice; the correct choice, as it turns out.\n\nHe endorsed our government and sent us vital aid in our time of need. Naturally, his loyalty should be and shall be rewarded. Our administration shall announce Paul Pleiger as the new official Reichskommissariat of the Kaukasus. With Pleiger's assistance and newly gained office, we shall be able to easily reincorporate the entire area back into our sphere, crush the few bandits left starving in the mountains, and secure then resume sending vital oil shipments to the Reich."
+BOR_the_correct_choice:0 "올바른 선택"
+BOR_the_correct_choice_desc:0 "내전 중에 파울 플라이거는 결정을 내렸습니다. 그리고 그 결정은 옳은 결정이었습니다.\n\n그는 우리 정부를 지지했고 우리가 필요할 때 꼭 필요한 자원을 보내주었습니다. 당연하게도, 그의 충성은 보답받아야 하고 보답받을 겁니다. 우리 행정부는 파울 플라이거를 카우카지엔의 새 국가판무관으로 알릴 겁니다. 플라이거의 도움을 받아 우리는 쉽게 카우카지엔을 우리 영역으로 다시 통합할 수 있게 될 것이며, 산에서 굶고 있는 도적들을 분쇄하고 라이히에 꼭 필요한 석유를 다시 공급받을 수 있을 것입니다."
 
-BOR_an_industrial_heartland:0 "An Industrial Heartland"
+BOR_an_industrial_heartland:0 "공업의 심장부"
 BOR_an_industrial_heartland_desc:0 "Kaukasien's heart beats and bleeds black for the Reich. And her heart? Her heart is her industry.\n\nWith Pleiger at the helm of the ship, he and the other industrialists in Kaukasien can build up the heartland to increase Kaukasien's self dependency and exports to the homeland. More factories can only be a net good for everyone; we can force more natives to work for us, which would produce more weapons and supplies for our men while keeping them under supervision. More oil gets processed and shipped to us, and the industrialists pat themselves on the back telling themselves how smart they were aligning with the Führer.\n\nIt's a situation where we all win, and we only benefit from cutting Pleiger's men loose to industrialize, build, and exploit where they please."
 
 ##Supported Göring##
-BOR_those_who_were_not_with_us:0 "Those Who Were Not With Us"
-BOR_those_who_were_not_with_us_desc:0 "Paul Pleiger made a choice, and as it turns out, it was the wrong one.\n\nPleiger and his cronies; the self proclaimed "Barons of Kaukasien" backed the traitor Göring during the war openly, going as far as to send him military supplies and aid. After our victory, the entire region has gone eerily silent; the industrialists waiting on what our inevitable response will be to their betrayal.\n\nThere are two obvious choices we can make. An open war could be waged quickly to reintegrate the rogue state back into the fold, but there would almost certainly be damage to the industrial facilities that dot the landscape as well as the vital refineries, more importantly.\n\nThe other choice would be to cut a deal with the sorry lot. While Pleiger and the "Barons" are traitors, they are perhaps not irredeemable, and us accepting them back into the fold does save us the effort of invading them and cleaning up the mess."
+BOR_those_who_were_not_with_us:0 "우리와 함께하지 않은 사람들"
+BOR_those_who_were_not_with_us_desc:0 "내전 중에 파울 플라이거는 결정을 내렸습니다. 그리고 그 결정은 잘못된 결정이었습니다.\n\n스스로를 '카우카지엔 남작'으로 칭한 플라이거와 그의 집단은 내전 중에 배신자 괴링을 무기와 자원을 보내며 공공연히 지지했습니다. 우리가 승리한 이후, 카우카지엔은 무섭도록 조용해졌습니다. 반역자들은 그들의 배신에 필연적으로 뒤따를 우리의 반응을 기다리고 있습니다. An open war could be waged quickly to reintegrate the rogue state back into the fold, but there would almost certainly be damage to the industrial facilities that dot the landscape as well as the vital refineries, more importantly.\n\nThe other choice would be to cut a deal with the sorry lot. While Pleiger and the "Barons" are traitors, they are perhaps not irredeemable, and us accepting them back into the fold does save us the effort of invading them and cleaning up the mess."
 
 BOR_work_out_a_deal:0 "Work Out a Deal"
 BOR_work_out_a_deal_desc:0 "We have decided that we are going to accept the Kaukasien industrialists back into the fold. While letting Pleiger and the others reintegrate back into our sphere may be a bitter pill to swallow, the benefits of a peaceful solution far outweigh invading the mountainous country and risking damage to the vital oil refineries.\n\nThere are, of course, stipulations. The Barons will still pay, and they shall do so by toiling for the Reich! They will make the black gold once again flow to Germania and supply her with Kaukasia's wealth... or else."
@@ -1694,7 +1711,7 @@ BOR_traitors_must_be_punished:0 "Traitors Must be Punished"
 BOR_traitors_must_be_punished_desc:0 "It has been decided. There will be no leniency for the traitors of Kaukasia.\n\nWe can not forgive Pleiger and his band of traitors for supporting Göring during the war. The supplies and guns received from them resulted in the deaths of our fellow brothers, and that can not be forgotten, much less forgiven. They have more than proved that we can not trust them, and we have no choice but to remove them.\n\nThe operation will be quick. Like countless times before, we'll kick down the rotten door. We will blitz across the plains, siege their cities, and bomb their mountain hovels to ruble, and any traitor that survives (if any) will be executed for treason. The oil be damned, the Reich demands justice for its fallen heros, and we shall deliver it. Our new bureaucrats can then clean up the mess."
 
 ##Josias##
-BOR_the_mad_prince:0 "The Mad Prince"
+BOR_the_mad_prince:0 "미친 왕자"
 BOR_the_mad_prince_desc:0 "Josias has always been perhaps a little... unbalanced, especially after his unfortunate encounter with the local partisans that called the Kaukasian mountains home, but his descent into madness is more obvious.\n\nThe occult? Expeditions for ancient artifacts? The Holy Grail? That on top of being a traitor to the Reich is more than enough reason for us to intervene and remove him from power. The Reich doesn't need another Dirlewanger; ruling his country like a fief while wasting precious resources on pointless endeavors. We need a man who will keep the locals in check and let the black gold flow back to Germania, and that man is not Josias."
 
 BOR_off_with_his_head:0 "Off With His Head"
@@ -1713,8 +1730,8 @@ BOR_lifeline_of_the_reich2:0 "The Lifeline of the Reich"
 BOR_lifeline_of_the_reich2_desc:0 "The black lifeblood of the Reich is pumping again from the refineries of Kaukasia! The oil shipments have resumed with little issue, and Germany is once again oil self-sufficient!\n\nOur operations in the Kaukasus have been a major success; we have restored order in good fashion, oil is once again flowing, and administration has transitioned smoothly, now working for us and us alone.\n\nWe should not dwell on the Reich regaining its oilfields, however, for we have also won a huge strategic victory through our actions; the Reich again has land access to the Middle East, should we need to intervene there. All in all, this is a glorious day for the Reich!"
 
 ##Revolt##
-BOR_chaos_in_kaukasia:0 "Chaos in Kaukasia"
-BOR_chaos_in_kaukasia_desc:0 "Chaos continues to plague the Reich's territories. Reichskommissariat Kaukasien has exploded into open revolt as several factions of minorities and partisans rise up against the administration. This civil war not only disrupts the flow of vital resources to the Reich, but puts our weakness on display for all of our enemies to see.\n\nThese revolts must be crushed without mercy. We will send the Wehrmacht to put these rebels down and occupy the area indefinitely."
+BOR_chaos_in_kaukasia:0 "카우카지엔의 혼란"
+BOR_chaos_in_kaukasia_desc:0 "라이히의 영토에 공포가 번지고 있습니다. Reichskommissariat Kaukasien has exploded into open revolt as several factions of minorities and partisans rise up against the administration. This civil war not only disrupts the flow of vital resources to the Reich, but puts our weakness on display for all of our enemies to see.\n\nThese revolts must be crushed without mercy. We will send the Wehrmacht to put these rebels down and occupy the area indefinitely."
 
 BOR_scour_the_mountains:0 "Scour the Mountains"
 BOR_scour_the_mountains_desc:0 "Ethnic resistance movements remain active throughout the region, disrupting our supply lines and initiating terror attacks against Wehrmacht troops and native civilians alike. To eliminate these savage mongrels we must scour Kaukasien and hunt down every last possible holdout."
@@ -1781,7 +1798,7 @@ BOR_just_more_of_the_same:0 "...Just more of the same."
 BOR_just_more_of_the_same_desc:0 "After the diplomatic dèbacle, the Führer has decided to retaliate heavily against the Italians. All concessions shall be revoked, and the Alpine border fully remilitarized: in addition, we shall build new, expanded fortifications to let the traitors understand that no one can abuse our patience.\n\nWe tried to change, really. For the best. But they didn't.\n\nSo, from now on, we'll be the same as before, once again.\n\nForever, this time."
 
 ##Bormann Econ I focuses##
-BOR_a_modern_wunderwaffe:0 "A Modern Wunderwaffe"
+BOR_a_modern_wunderwaffe:0 "현대의 꿈의 무기"
 BOR_a_modern_wunderwaffe_desc:0 "Just like the days of old, Germany's economic strength lies in the motivation, grit, and determination of its civilian populace! Martin Bormann, Führer of the Reich, has motioned to look into the past and see what had made Germany so great, and so strong!\n\nAs it was thirty years ago, the people of Germany will build infrastructure across the nation - the heart of the Reich is in its steel and concrete, after all - and make sure that every part of Germany is connected to each other. We will invest into the heart of Europe, and when we receive our due profits, we shall invest further, until the economy soars above the rest of the world!\n\nWith Bormann's vision, the future of Germany will be all the brighter - no longer shall the slave be the working man's image of the Reich. Instead, it will be the German man working in the factories and in the fields - and it is the Führer's will that slavery will no longer serve as Germany's modus operandi."
 
 BOR_removing_the_weeds:0 "Removing the Weeds..."
@@ -1854,26 +1871,26 @@ BOR_laying_the_ground_desc:0 "The issue of slavery permeates throughout the Gro�
 BOR_by_carrot:0 "당근으로"
 BOR_by_carrot_desc:0 "Hm... the time has come for the government to commence with the undertaking of the Reich's grandest of infrastructure projects. Unfortunately, for too long the rails and roads of the Großgermanisches Reich have been subject to neglect from the government... shall we rectify this? Indeed, upgrading our vital links will provide an easy way to employ large swathes of workers who will kickstart the economy by spending their hard-earned money on goods & services offered by firms - who will, in turn, hire a greater quantity of workers... Of course, this will prove to be a costly endeavor, but it shall grant the Reich an exponential return."
 
-BOR_das_werk_des_volkes:0 "Das Werk des Volkes"
-BOR_das_werk_des_volkes_desc:0 "The German worker, the historical backbone of the National Socialist regime, has been giving our Großgermanisches Reich their all. Thanks in part to the everlasting devotion of the workers to the government, the Reich has already seen a significant decrease in poverty due to their efforts. Furthermore, the loyalty of the population to Führer Bormann's regime has strengthened thanks to our gracious provision of work."
+BOR_das_werk_des_volkes:0 "국민의 일"
+BOR_das_werk_des_volkes_desc:0 "국가사회주의 정권의 근본인 독일 노동자들은 대독일제국에 모든 걸 바치고 있었습니다. 노동자들의 정부 참여, 멈추지 않는 헌신과 노력 덕분에 라이히는 벌써 엄청난 빈곤율 감소를 기록했습니다. 더 나아가 국민들이 보어만 총통의 정권에 바치는 충성은 우리의 자애로운 일자리 공급 때문에 더 강해졌습니다."
 
-BOR_und_das_werk_der_intelligenz:0 "Und das Werk der Intelligenz"
-BOR_und_das_werk_der_intelligenz_desc:0 "The power of an intelligent mind can alter the fabric of reality - thankfully, the Übermensch has bred some of humanity's greatest minds (at least in contemporary terminology). Therefore, the government has a duty to investigate scientific/technological alternatives to the status-quo that may help propel economic growth. Moreover, through the encouragement of an innovative ethos, the Großgermanisches Reich shall cut above the rest - perhaps even allowing us to once more firmly reestablish our economic supremacy over the Americans and Japanese in due time?"
+BOR_und_das_werk_der_intelligenz:0 "그리고 지식인들의 일"
+BOR_und_das_werk_der_intelligenz_desc:0 "지식인들의 생각은 현실을 바꿀 수 있습니다. 다행히도, 위버맨쉬는 인류의 가장 위대한 사고방식을 가졌습니다.(최소한 현대에는 말이죠.) 그러므로, 정부는 경제 성장을 뒷받침할 과학적이고 기술적인 대안을 찾을 의무가 있습니다. 게다가, Moreover, 국가가 혁신을 장려한다면 대독일제국은 다시 위대해질 것입니다. 어쩌면 짧은 시일 내에 일본과 미국에 대한 우리의 경제적 우세를 다시 한번 더 굳힐 수 있을지도요?"
 
 BOR_and_stick:0 "And Stick"
 BOR_and_stick_desc:0 "For too long the Megacorporations have acted autonomously of the government, choosing to ignore our rightful will over the Großgermanisches Reich's economic direction in pursuit of their own loathsome, profit-driven agenda - most notably their continued adherence to the philosophies of the slave economy, acting in annoying opposition to our attempts to destroy the flawed system. Thus, we shall bring in systems that will cause these entities to become dependent on the government for attainment of profit. Undoubtedly these new measures will prove deeply unpopular amongst the Megacorporations, but the Führer and their leaders know it could be far worse for them..."
 
-BOR_das_werk_des_konzerns:0 "Das Werk des Konzerns"
+BOR_das_werk_des_konzerns:0 "대기업의 일"
 BOR_das_werk_des_konzerns_desc:0 "The efforts of our government have proven to be successful, the power of the Megacorporations has been successfully curbed. Under the skillful leadership of the Führer Bormann (who has worked tirelessly for the German people) we have accomplished the impossible and have therefore secured the Reich a future. For the first time in decades the government can now more reliably improve the economy whilst having to worry less about the influence of Megacorps over our affairs."
 
 ##Bormann Oil Crisis focuses##
 BOR_hot_wind_blowing:0 "Hot Wind Blowing"
 BOR_hot_wind_blowing_desc:0 "A wind is stirring in the Middle East. What we are now calling "The Oil Crisis" has begun, and the whole region is on fire. ENI, the company holding and exploiting much of the Middle East's oil reserves has totally collapsed, leading to a global oil crisis. Oil prices are spiraling out of control, production and exports are plummeting, and it looks like this is only the beginning.\n\nSaudi Arabia and other like minded states in their sphere have attempted to crack down on the Ba'ath revolutionaries, a diverse group of republicans fighting to break the stranglehold and exploitation that the Saudis, Italians, and other foreign powers hold over their homes. Although this is a time of economic disaster for the Reich, it presents us an opportunity to establish a significant presence in the Middle East. If nothing else, this is an excellent time to support the Ba'ath revolutionaries and to destabilize the cursed Italians!"
 
-BOR_getting_our_hands_dirty:0 "Getting Our Hands Dirty"
+BOR_getting_our_hands_dirty:0 "손 더럽히기"
 BOR_getting_our_hands_dirty_desc:0 "It's time to get to work! The Ba'ath revolutionaries have risen up, and they need our support. The Saudis and Italians have both started to send supplies and support to suppress the Ba'aths, so we have no time to waste.\n\nThe Republicans need all the help they can get and everything we can send them; guns, supplies, and even men are needed to ensure their victory.\n\nMuch still needs to be prepared, however. Supply lines must be set up by sea, land, air, or all of the above. Advisors, and even expeditionary troops could and should also be deployed. Perhaps our greatest asset, the Luftwaffe, could also be deployed to directly support our and our allies forces. Whatever we choose to focus on first, we should do so with haste!"
 
-BOR_the_eagle_rises_still:0 "The Eagle Rises Still"
+BOR_the_eagle_rises_still:0 "독수리는 다시 날아오른다"
 BOR_the_eagle_rises_still_desc:0 "It has been over two decades since a Swastika flew in the cradle of humanity. It is only fitting that we send our Eagle to rise over the birthplace of humanity. Well shall deploy German soldiers in limited numbers to areas where Ba'ath revolutionaries are struggling to support them directly. We will only be able to send a limited number of men, but those that we do will have a huge impact on the outcome in the many ongoing conflicts in the Middle East."
 
 BOR_heat_of_the_desert:0 "사막의 열기"
@@ -1912,37 +1929,37 @@ BOR_liquidate_our_assets_desc:0 "Our pre-existing economic policy was no doubt w
 BOR_past_expertise:0 "Past Expertise"
 BOR_past_expertise_desc:0 "During the last war the Reich's raw materials shortages were so pressing that they became the top priority for Speer's economic projects: they necessitated considerable financial investment and drove our strategic military operations in Russia. With a fraying empire and a collapsing economy, however, our newfound abundance was seen as a liability - and then the oil crisis happened. We shall put our old synthetic refineries back into action to keep supply up to our domestic sector, and hopefully spur domestic investment in an increasingly hobbled financial environment."
 
-BOR_new_discoveries:0 "New Discoveries"
+BOR_new_discoveries:0 "새로운 발견"
 BOR_new_discoveries_desc:0 "Scientific development is a wonderful thing, worth celebrating and even sponsoring - but only if it benefits the Großgermanisches Reich, at least according to Führer Bormann. We have received a proposal co-written by our nation's top scientific and engineering authorities, one which could turn our crisis into opportunity. Alternative sources of energy, like wind power and photovoltaic cells, may lessen our dependence on foreign oil. It is a strange idea, but Bormann is enthralled by the idea of a Civilian Wunderwaffen. Prototypes will be built in Niederlande and within our borders. If this works, the Reich may yet be saved by miracle science, and this time it will not be delivered from high-altitude bombers."
 
-BOR_the_power_of_the_atom:0 "The Power of the Atom"
+BOR_the_power_of_the_atom:0 "원자의 힘"
 BOR_the_power_of_the_atom_desc:0 "In recent weeks Führer Bormann has found himself deeply concerned with the widespread electricity shortages caused by the Großgermanisches Reich's considerable lack of oil. These shortages have already incited considerable public dissent, which threatens to spill over into violence on the streets. Thankfully, an old friend of the Reich is already here to save us from descending into riots, the power of the Atom. Massive expansions in budgetary funding and the enforced relaxation of safety standards will boost both the number and cost-effectiveness of a new wave of reactors.\n\nWe are particularly optimistic about what they call Hochleistungskanalreaktors, or high-power channel type reactors - these reactors, while unstable in certain testing conditions, have proven to be ridiculously cheap compared to safer variants. On the wave of power the Cheap Atom provides, we will ride this crisis to victory!"
 
 BOR_wrangle_the_east:0 "Wrangle the East"
 BOR_wrangle_the_east_desc:0 "For decades the non-Aryan citizens of the Eastern Reichskommissariats have proven worryingly resistant to our rule, which has given our colonial administration no end of sleepless nights. In order to ensure our dominion over Europe's markets and resources remains viable, we must accept that the grand colonial experiment has failed in its present form. Only one thing is left to do: the Großgermanisches Reich shall assert greater control over their administrations and raise the troop quotas for regime critical facilities."
 
-BOR_ramping_up_production:0 "Ramping Up Production"
+BOR_ramping_up_production:0 "생산량 늘리기"
 BOR_ramping_up_production_desc:0 "With the delicate supply chain that keeps foreign oil flowing to German industries increasingly imperiled, it would only be wise to boost our own production as a safeguard. The Reich's continued foothold in the oil rich region of the Kaukasus will be key to this domestic ramp-up - massive expansion of our domestic facilities will enable a greater quantity of oil production and boost our domestic industry as a welcome side effect."
 
-BOR_harsh_quotas:0 "Harsh Quotas"
+BOR_harsh_quotas:0 "가혹한 할당량"
 BOR_harsh_quotas_desc:0 "For too long the Reich has been lenient to the administrations of our Reichskomissariats, giving them leeway in the name of stability and political unity - it is an open secret. Now that the Reich's economy is spiraling into crisis, however, we must take extraordinary measures to stabilize a fragile economy. Harsh quotas shall be enforced on the Reichskommissariats' domestic economy and their resource extraction operations to combat the ongoing crisis. With any luck, we will push the Reich back to greatness on the backs of those who have bettered themselves through our mercy, and they will know better than to complain."
 
-BOR_reduce_usage:0 "Limit Consumption"
+BOR_reduce_usage:0 "소모 제한"
 BOR_reduce_usage_desc:0 "The Reich's people are its greatest strength - this we have known since the first rallies in Nuremberg. But their rapidly growing consumption is also our national vulnerability, draining already fragile resource networks and imperilling our offensive capabilities against our rivals. We must take measures to reduce oil consumption rates - everything from speed limits to transport details for civilian and military patrols can be controlled. For the sake of the nation, we must make immense sacrifices - and our people, our strength, must go first."
 
 BOR_help_the_populace:0 "Help the Populace"
 BOR_help_the_populace_desc:0 "The people of the Reich are our strength - a strength we have often abused in the past. In the face of biting economic stagnation and slow-burn inflationary pressure, however, this neglect must end. Amidst opposition from the hawks of the Wehrmacht, Führer Bormann has decreed that the government shall implement one of the largest stimulus packages in the Reich's history to ameliorate our economic downturn. This should go some way towards placating the reformists of the Reichstag - God help us, it might even shut them up for five minutes."
 
-BOR_volksgemeinschaft:0 "Volksgemeinschaft"
-BOR_volksgemeinschaft_desc:0 "How can a Reich long divided unite, to borrow a phrase from the Orientals? The answer, obviously, is populism. It's worked for us before and it'll sure as hell work for us again. The Volksgemeinschaft, or People's Community, is the centrepiece of the NSDAP's national identity policies, boosting domestic unity through public programmes and community initiatives - alas, it has fallen far from its initial state. But Berliners have a saying: do not stop until the whipped horse is actually dead! We will move to our populist roots by making concessions to the Reich's reformist elements and implementing more social programs to bring the German citizenry through these trying times."
+BOR_volksgemeinschaft:0 "국민공동체"
+BOR_volksgemeinschaft_desc:0 "동양의 말을 빌리자면, 어떻게 오랫동안 분열되었던 라이히가 다시 하나로 뭉칠 수 있을까요? 분명히 답은 포퓰리즘입니다. 포퓰리즘은 예전에도 효과가 있었고 이번에도 당연히 다시 효과가 있을 겁니다. 볼크스게마인샤프트, 또는 국민공동체는 공공정책과 공동체 계획에서의 국가적 소속감을 북돋울 나치당의 국가 정체성 정책의 핵심입니다. - 하지만 아아, 그것은 원래 상태와 너무 달라져 버렸습니다! 그런데 베를린 시민들이 할 말이 있다는군요: 말이 정말 죽을 때까지는 채찍질을 멈추지 마라! 라이히의 개혁파들에게 양보하고 더 많은 사회 프로그램을 시행하여 독일 시민이 어려운 시기를 헤쳐나갈 수 있도록 함으로써 우리의 원론적 포퓰리즘으로 나아갈 것입니다."
 
-BOR_work_for_the_fatherland:0 "Work for the Fatherland"
+BOR_work_for_the_fatherland:0 "조국을 위해 일하라"
 BOR_work_for_the_fatherland_desc:0 "Unemployment once again mars the face of the Reich, erasing the gains we have made since the West Russian War. It is enough to make the strongest of men weep - but now is not the time for mourning. Now is not the time at all. Swift and decisive action is necessary to secure employment, and we have a means of producing that security: booting the slave caste out of their workplaces and moving German workers into these positions instead. Active and incisive propaganda will motivate our nation to take on the burdens of maintenance - we must all 'work for the Fatherland' in these times!"
 
 BOR_keep_the_wehrmacht_afloat:0 "Keep the Wehrmacht Afloat"
 BOR_keep_the_wehrmacht_afloat_desc:0 "The Wehrmacht is the most vital institution in the Reich, and its salaries feed a significant portion of domestic consumption. Ignoring their needs would be ethically wrong, considering their role in elevating Germany to greatness - more importantly, it would lead to unrest, and the Führer really does not need more problems on his plate right now. Rather than pumping funds into what the reformists call their precious 'domestic sector' and 'workers' protection measures', the government shall instead focus our efforts on keeping the Wehrmacht's spending up and stabilizing soldier payouts."
 
-BOR_they_still_have_their_uses:0 "They Still Have Their Uses"
+BOR_they_still_have_their_uses:0 "그들은 아직 쓸모있다"
 BOR_they_still_have_their_uses_desc:0 "Although it is quite evident that slavery is an outmoded system and must regrettably be outphased, the slaves we once shackled remain useful to the Großgermanisches Reich. We must postpone their liquidation, for a greater task lies ahead - the Reich's recently expanded resource extraction operations out in the Eastern Reichskommissariats. Through the use of brute force, intimidation and the stripping of excess luxuries like sanitation and basic worker safety, we will improve resource yields a hundredfold!"
 
 BOR_work_for_freedom:0 "Work for Freedom"
@@ -1956,25 +1973,25 @@ BOR_back_to_black_desc:0 "Despite all the setbacks we have encountered, we have 
 
 ##Borman Opulence tree##
 BOR_end_of_the_ride:0 "길의 끝"
-BOR_end_of_the_ride_desc:0 "The Second Night of the Long Knives, they call it. A fitting name for such a drastic measure. After a decade of struggling to unravel the political Gordian Knot of conspiracies and treason, the sword has fallen. The last filthy vestiges of treason infesting the Reich had been burned out, from the corrupt Church and the scheming Corporations to the cowardly Wehrmacht 'allies' and the wormy little bureaucrats.\n\nMartin Bormann and the Conservatives, at last, truly reign supreme. Sieg Heil!"
+BOR_end_of_the_ride_desc:0 "2차 장검의 밤. 사람들은 그렇게 부릅니다. 이렇게 극단적인 조치에 딱 맞는 이름이군요. 음모와 반역 등 정치적으로 아주 어려운 문제의 실체를 드러내려고 노력한 10년 이후에, 드디어  부패한 교회에서 사기를 일삼는 대기업, 겁쟁이 국방군 '동맹'과 벌레같은 관료들까지 라이히를 좀먹는 더러운 반역의 마지막 잔재가 불탔습니다.\n\n드디어, 마르틴 보어만과 보수파들은 우월하게 군림합니다. 지크 하일!"
 
 BOR_asserting_our_control:0 "통제 확립"
-BOR_asserting_our_control_desc:0 "Without intervention, flames will continue to spread and engulf everything in their unquenchable thirst for destruction. Burning out the rot within the Reich is only the first step to consolidating our power. We must establish total control over the State, the Party, the Wehrmacht and society in general. Once the Führer has cemented his gains, few will deny his status as the most powerful man in German history."
+BOR_asserting_our_control_desc:0 "Without intervention, flames will continue to spread and engulf everything in their unquenchable채울 수 없는 thirst for destruction. Burning out the rot within the Reich is only the first step to consolidating our power. We must establish total control over the State, the Party, the Wehrmacht and society in general. Once the Führer has cemented his gains, few will deny his status as the most powerful man in German history."
 
 BOR_deal_with_the_aftermath:0 "내전의 여파 해결"
-BOR_deal_with_the_aftermath_desc:0 "Development. Transformation. Evolution. To change is to suffer, but as we suffer, so do we grow stronger. The bloody aftermath of Unternehmen Adler must be cleaned up if we are to force all German eyes forward towards a hopeful future, and away from the murky past.\n\nShort building projects will begin to repair buildings and roads damaged by the fighting in Germania and most major cities. Streets will quite literally have to be cleaned of blood, and bodies disposed of. The organization of the Party and the Wehrmacht will have to be reshuffled with absolute precision. Most important of all, Germany must return to the world stage looking stronger and more ruthless than ever."
+BOR_deal_with_the_aftermath_desc:0 "발전. 변화. 진화. 변화는 고통이지만, 우리는 변화하기 때문에 더 강하게 자라납니다. 우리가 모든 독일인들의 눈을 어두운 과거에서 희망찬 미래로 돌리려면, 아들러 작전의 여파는 깨끗이 치워져야 합니다.\n\n게르마니아와 독일 주요 도시들에서 전투로 파괴된 건물과 도로들을 수리하는 건설 계획이 시작될 것입니다. 거리에서 피와 시체가 치워질 것이고, 나치당과 국방군은 아주 정확히 재조직되어야 할 것입니다. 무엇보다 가장 중요한 것은 독일이 세계 무대에 그 어느 때보다 더 강하고 무자비한 모습으로 돌아올 것이라는 사실입니다."
 
 BOR_the_fuhrers_power_secured:0 "총통"
 BOR_the_fuhrers_power_secured_desc:0 "정적들은 숙청되었습니다. 우리의 완전한 통제권이 확립되었습니다. 극단적인 사건들 이후에 발생한 잠재적인 혼란은 국가 주도의 신속한 청소 계획으로 조기에 진압되었습니다. 나치당, 국방군, 대기업과 국민들은 총통의 뜻을 전적으로 따릅니다. 어떤 형태로든 존재하는 정적이 없으므로, 마르틴 보어만은 히틀러도 능가한 독일의 가장 강력한 지도자입니다."
 
-BOR_societal_engineering:0 "Societal Engineering"
-BOR_societal_engineering_desc:0 "As Hitler said of the masses: "...their intelligence is small, but their power of forgetting is enormous." The total reordering of German society and the Aryan mind has continued to ramp up in speed since that fateful day in 1933, but only a genius could hope to continue Hitler's work in this regard. Fortunately for the Reich, Bormann is one such genius. With unlimited power at his disposal, the Führer will increase the brainwashing of the German people with two specific goals in mind: the total elimination of the Church, and the emergence of a Cult of Personality."
+BOR_societal_engineering:0 "사회적 조작"
+BOR_societal_engineering_desc:0 "히틀러는 대중에 대해 이렇게 말했습니다:"사람들의 지능은 작지만, 사람들의 망각의 힘은 거대하다." 독일 사회와 아리아인의 사고방식을 완전히 재정의하는 것은 1933년의 운명적인 날부터 계속 늘어 왔지만, 그 후로 어떤 천재가 히틀러의 계획을 지속시켜 주기를 바래야 했습니다. 라이히에게는 다행히도 보어만이 그 천재였습니다. 총통은 무한한 권력으로 교회의 완전한 제거와 개인숭배, 2가지 목표를 두고 독일 국민에게 더 강한 세뇌를 시작할 것입니다."
 
 BOR_mass_propaganda:0 "대중에게 선전"
 BOR_mass_propaganda_desc:0 "대중계몽선전부의 새로운 장관 레오폴드 쿠터러의 약속과 함께 놀랍도록 거대한 프로파간다 운동이 시작될 겁니다. 인쇄된 신문, 라디오, 텔레비전, 연극과 영화는 모두 라이히와 총통, 정통적이고 보수적인 국가사회주의를 찬양할 것입니다.\n\n"사람은 낙원을 지옥으로 보도록 만들어질 수 있고, 가장 끔찍한 삶도 천국으로 여기도록 만들어질 수 있다.""
 
-BOR_reviving_kirtchenkampf:0 "Reviving Kirchenkampf"
-BOR_reviving_kirtchenkampf_desc:0 "Closing down the Protestant and Catholic churches and arresting their most outspoken priests was only the first step in Bormann's master plan. The institutional destruction of the Church will be completely cemented with anti-Christian propaganda, shaming the religious and reforming Christians into worshipping their Party and Führer instead. Whatever cruel deity watches over Germany, it will not miss the whining of the weak."
+BOR_reviving_kirtchenkampf:0 "반교회 운동의 부활"
+BOR_reviving_kirtchenkampf_desc:0 "프로테스탄트와 카톨릭 교회들의 문을 닫고 노골적인 수도사들을 체포하는 것은 보어만 총통의 완벽한 계획의 첫 번째 단계일 뿐입니다. 국가적인 교회 파괴 운동은 반 기독교 선전과 신자들에게 모욕을 주고 그들의 신 대신 당과 총통을 경배하게 만듦으로서 구체화될 것입니다. 어떤 잔인한 신이 독일을 보든지, 약한 자들의 울음을 놓치지 않을 것입니다."
 
 BOR_the_peoples_fuhrer:0 "국민의 총통"
 BOR_the_peoples_fuhrer_desc:0 "모두에게 사랑받는 히틀러와는 다르게, 보어만은 독일인들로부터 진정한 친밀감과 존경을 받기 위해 노력했습니다. 질서경찰의 보고에 따르면 그는 초대 총통이 남겨놓고 간 일을 하는 강한 행정가 이상으로 사람들에게 인식되고 있지 않습니다.  만약 사람들이 정말로 자신의 국가와 국민들을 믿는다면, 그들의 총통에게도 마땅히 그래야 할 것입니다. 2차 장검의 밤 이후로 사회에 널리 퍼진 공포와 경외심은 보어만을 히틀러에 필적하는 천재이자 선지자로 묘사하는 국가계몽선전부의 개인 숭배 계획에 활용되어야 합니다."
@@ -1994,7 +2011,7 @@ BOR_connect_it_all_desc:0 "메가프로젝트는 이제 막 시작했을 뿐입�
 BOR_a_soft_hand:0 "부드러운 손"
 BOR_a_soft_hand_desc:0 "1950년대에 알베르트 슈페어와 제국경제부는 노예제라는 시스템을 도입했습니다. 이것은 썩어가는 나무로 계속 높아지는 파도를 막을 댐을 세운 꼴이었습니다. 마침내, 이 시스템의 마지막 자취가 폐지될 것입니다. 더 일하는 것은 노동 계층이 더 부유해진다는 뜻이고, 부유해진 사람들은 소비를 늘리고 시장이 재기할 수 있게 해 줄 겁니다. 마지막 노예들은 동유럽 전역의수용소,게토,도시로 운송되어 '자유로운' 계약 노예제에서 살게 될 겁니다."
 
-BOR_a_tight_leash:0 "A Tight Leash"
+BOR_a_tight_leash:0 "단단한 족쇄"
 BOR_a_tight_leash_desc:0 "Our authority extends past the borders of the Reich proper. The aftershocks of the Second Night of the Long Knives have rippled through the eastern Reichskommissariats, who now bow to the Führer's demands without question.\n\nMeanwhile, after decades of preparation, Bormann will finally initiate the integration of Reichskommisariat Ostland and the Generalgouvernment into Germany. The process will be long and intense, but the Aryan race has long since learned to abandon pain."
 
 BOR_a_national_renaissance:0 "국가적 르네상스"
@@ -2010,10 +2027,10 @@ BOR_beyond_the_moon:0 "달을 넘어"
 BOR_beyond_the_moon_desc:0 "1962년의 달 착륙은 라이히의 가장 위대한 업적으로 역사에 기록될 것이며, 아리아인이 타고난 용기와 기술적인 혁신은 길이 남을 것입니다. 한편 보어만 총통은 달은 우주를 향해 더 멀리 나아갈 첫 번째 단계라라고 결정했습니다. 태양계의 다른 행성을 무인 탐사할 준비가 시작될 것입니다. 충분한 고집과 노력이 있다면, 사람을 화성에 보낼 수 있을지도 모릅니다."
 
 BOR_a_german_space_station:0 "독일 우주정거장"
-BOR_a_german_space_station_desc:0 "우주에 대한 우리 주장을 펼치려면 최초의 독일 우주정거장을 설치해야 합니다. 우주정거장은 저고도로 발사된 후 성공 여부와 재사용 가능성을 결정하게 될 것입니다.  우주정거장은 독일 우주비행사들이 연구하고 실험할 수 있는 만능 허브로 기능할 것입니다."
+BOR_a_german_space_station_desc:0 "우주에 대한 우리 주장을 펼치려면 최초의 독일 우주정거장을 설치해야 합니다. 우주정거장은 저고도로 발사된 후 성공 여부와 재사용 가능성을 결정하게 될 것입니다. 우주정거장은 독일 우주비행사들이 연구하고 실험할 수 있는 만능 허브로 기능할 것입니다."
 
 BOR_military_redevelopment:0 "군대 개혁"
-BOR_military_redevelopment_desc:0 "The Reformists whined about the need for a limited, apolitical military, the Militarists ranted for the essential creation of a Wehrmacht State. Both factions have been annihilated from the face of Germany. Reforms shall come for the Germany military, but they shall come from Bormann's mouth, and his alone!\n\nThe Wehrmacht will undergo further intense reorganization and loyalty training to ensure its complete faith in the Führer and the cause of National Socialism. Immense and speedy developments of new tactics and equipment will be initiated to prepare the Wehrmacht for the age of modern warfare. The might of the Heer, the Kriegsmarine and the Luftwaffe alike will resonate throughout the world and send world leaders crying to their mothers' bosoms!"
+BOR_military_redevelopment_desc:0 "개혁파들은 제한을 받고 정치와 무관한 군대의 필요성에 대해 징징거리고, 군국주의자들은 국방 국가의 필수적 형성을 큰 소리로 외치고 있었습니다. 이제 두 세력은 독일에서 완전히 사라졌습니다. 독일군에 개혁은 이루어지겠지만, 보어만 총통의 말에 따라 이루어질 것이며, 그 말은 총통만이 할 수 있을 것입니다!\n\n총통과 국가사회주의에 대한 믿음을 증명하기 위해 국방군은 재조직화와 충성도 훈련을 받게 될 겁니다. 현대전의 시대에 맞춰 빠르고 큰 규모의 전술과 장비가 국방군을 위해 준비될 것입니다. 헤어, 크릭스마리네, 루프트바페의 힘은 전 세계에 울려 퍼져 세계의 지도자들을 자기 엄마 품이나 찾게 만들 것입니다!"
 
 BOR_expand_the_entscheidungsnetzwerk:0 "결정 네트워크 확장"
 BOR_expand_the_entscheidungsnetzwerk_desc:0 "망한 전자관리체계는 다시 시작되어 완전히 가동될 것이고, 우리가 아직 모르는 가능성을 찾을 것입니다. 미국인들과 일본인들은 이 프로젝트의 확장에 치를 떨겠지만, 우리는 이를 경제 전반에 확장시켜 생산성과 효율성의 영광스러운 증가를 알릴 것입니다."
@@ -2031,34 +2048,34 @@ BOR_autumn_in_germany:0 "독일의 가을"
 BOR_autumn_in_germany_desc:0 "내전에서부터 국방군의 계획을 무너뜨린 일,2차 장검의 밤까지 지난 10년의 트라우마가 독일의 땅 아래에서 소리 없는 비명을 지르며 끓고 있었습니다. 제국장관 발터 헤벨을 납치하고 살해한 것은 국민들의 숨겨진 고통을 잔인한 폭력으로 분출시켰습니다. 제국 전체에 걸쳐 폭력과 테러 공격이 점점 늘어나고 있으며, 보어만이 조심스레 쌓아올린 불안정한 카드탑은 그의 눈 앞에서 부너지고 있습니다.\n\n독일에 가을이 찾아왔고, 겨울이 제국을 뒤덮기까지는 그리 오래 걸리지 않을 겁니다."
 
 ##Bormann Burgundy tree##
-BOR_against_the_shadow_state:0 "Against the Shadow State"
+BOR_against_the_shadow_state:0 "유령 국가에 대항"
 BOR_against_the_shadow_state_desc:0 "It is time to deal with that black blotch on the map to the west of the Reich and the malnourished snake in charge of it! For decades the "Aryan Knights" of the SS have been operating their own shadow state, a dark cancer in the heart of the glorious Reich undermining the authority of the NSDAP and doing essentially what they want with no oversight. After their treachery was revealed in the fifties, they were granted a mercy they did not deserve and allowed their own little fief in the West, but what did they do with it? They promptly began exploiting the ailing condition of the Führer to totally extricate themselves from state control and gradually cut off all communications and trade with the Heimat. In the years since, Himmler and his band of villains have gone totally rogue and embarrassed the Reich by attacking the French and developing atomic weaponry. We must immediately draw up containment plans for this stain on our glory!"
 
 BOR_himmler_the_arch_traitor:0 "반역자 힘러"
-BOR_himmler_the_arch_traitor_desc:0 "하이드리히가 있기 전에 힘러가 있었습니다. 힘러는 Before there was Heydrich, there was Himmler, who dug away at the very foundations of the Thousand Year Reich to elevate himself and his organization. Before there was Speer, there was a malfunctioning slave economy that deprived the students of jobs. Who was it who was so eager to empty their camps into this disastrous prospect? Himmler's SS. Before there was Göring and Schörner, there was the West Russian War, in which near-defeat radicalized the militarists. Who was at fault for the failure there? It was not the Party, slaving away in Germania. It was not the soldier at the front, heroically defending his Fatherland against the Cisuralic hordes. But who betrayed the Fatherland in its darkest hour, attempted to coup it and overthrow the rightful Führer? Himmler, Himmler, and again Himmler and his accursed SS! It is time to make it clear to the Reichstag and the world that almost all evils that have plagued the Reich the last thirty years go back to the SS snake with Himmler as its head, gnawing at the roots of the Germanic Yggdrasil, poisoning the well. Its head must be cut off!"
+BOR_himmler_the_arch_traitor_desc:0 "하이드리히가 있기 전에 힘러가 있었습니다. 그는 자신과 자기 집단을 위해 천년제국의 기초를 무너뜨렸습니다. 슈페어가 있기 전에, 학생들의 일자리를 뺏었지만 제대로 작동하지 않는 노예 경제가 있었습니다. 이 비참한 상황 속에서도 수용소를 비우려고 열심이었던 사람은 누구였을까요? 힘러의 SS였습니다. 괴링과 쇠르너가 있기 전에, 우리가 거의 패배하고 군국주의자들을 급진화시킨 서러시아 전쟁이 있었습니다. 이런 패배에는 누가 책임이 있을까요? 게르마니아에서 힘들게 일하던 당은 아니었습니다. 전선에서 영웅적으로 볼세비키들로부터 조국을 지킨 병사들도 아닙니다. 하지만 조국의 가장 어두운 시기에 조국을 배신하고 쿠데타를 일으켜 정당한 총통을 자리에서 끌어내려고 한 자들은 누구입니까? 물론 힘러, 힘러, 또 힘러이고 저주받은 SS입니다! 지난 30년 동안 독일이라는 나무의 뿌리를 갉아먹고 우물에 독을 풀었던 것은 대부분 머리는 힘러이고 몸은 SS인 뱀이었다는 것을 라이히스탁과 전 세계에 알릴 시간입니다! 그놈의 목은 반드시 잘려야 합니다!"
 
-BOR_denounce_the_ss:0 "Denounce the SS"
-BOR_denounce_the_ss_desc:0 "It is not enough to simply reveal the duplicity and treachery of Himmler, the world must know how all of national socialism has been undermined and betrayed by the unfettered radicalism and decadent mysticism of the SS. Like the Pretorians of old, the SS quickly turned from loyal guards of their nation's Führer into murderous traitors acting out of little more than vain self-interest and radical hatred for the ways that had made their Reich a great empire. The blackened tumor on the heart of the Reich must be excised in the name of Volk und Führer! Ban them, censure them, and hunt down the members of this rogue outfit of traitors!"
+BOR_denounce_the_ss:0 "SS 비난"
+BOR_denounce_the_ss_desc:0 "힘러의 이중성과 배신을 공개하는것만으로는 충분하지 않습니다. 세계는 국가사회주의가 SS의 무절제한 극단주의와 타락한 신비주의에 배신당했고 약화되었다는 것을 알아야 합니다. SS는 총통을 지키는 충성스러운 경비병에서 의미없는 사리사욕과 라이히를 위대한 제국으로 만든 방법에 대한 증오로 움직이는 잔혹한 배신자로 변했습니다. 라이히의 심장에 있는 검은 종양은 국민과 총통의 이름으로 잘라내져야 합니다! SS를 금지하고,비난하고,그 마지막 한 놈까지 잡아죽여야 합니다!"
 
-BOR_reactivate_the_siegfried_line:0 "Reactivate the Siegfried Line"
-BOR_reactivate_the_siegfried_line_desc:0 "In the west of the Heimat lies the Siegfried line, our defensive works against French aggression, an ultimately pointless endeavor given our swift and decisive defeat of the puny armies of the Western Allies during the War. However, this relic of a feared repeat of the Weltkrieg can now be of use to us again. By refurbishing it and modernizing its fortifications and infrastructure, we have an effective, nigh-impenetrable wall against any attempted SS rebellion or raid of our vulnerable Saar-Rheinland region. No cost is too great when it comes to containing and deterring the dark madness inhabiting the remnants of RK Nord-Frankreich!"
+BOR_reactivate_the_siegfried_line:0 "지크프리드선 재가동"
+BOR_reactivate_the_siegfried_line_desc:0 "독일 서쪽에는 지크프리선이 있습니다. 우리를 프랑스의 공격성에서 보호하기 위해 지어졌지만, 그것은 전쟁에서 보잘것없는 연합군이 신속하고 결정적으로 패배한 것을 보아 별로 의미 없는 행동이었습니다. 하지만 반복된 세계대전의 유산은 우리에게 다시 쓸모있을 수 있습니다. 우리는 지크프리트선의 방비 시설과 기반시설을 재개발하고 현대화함으로써 취약한 자르-라인란트 지역에 효율적이고 어떤 공격이든 막아낼 수 있는 벽을 가지게 될 것입니다. 북프랑스 국가판무관부에 있는 어두운 광기를 가두고 막을 수 있다면 너무 비싼 값이란 건 없습니다."
 
 BOR_early_detection_system:0 "조기감지시스템"
-BOR_early_detection_system_desc:0 "A consistent problem with the Ordensstaat is their unknown nuclear quantity. We are aware they possess the technology and know-how to produce at least low-yield atomic weapons, but their deployment cabapibilities and distribution is unclear at this point. To shield ourselves from a potential first strike by the traitors, we will need to invest in a net of radar stations and surveillance planes to ascertain imminent threats from the West."
+BOR_early_detection_system_desc:0 "부르군트에 대한 가장 큰 문제점은 그들이 핵무기를 얼마나 가지고 있는지 모른다는 겁니다. 우리는 We are aware they possess the technology and know-how to produce at least low-yield atomic weapons, but their deployment cabapibilities and distribution is unclear at this point. To shield ourselves from a potential first strike by the traitors, we will need to invest in a net of radar stations and surveillance planes to ascertain imminent threats from the West."
 
-BOR_cut_them_off:0 "Cut Them Off"
+BOR_cut_them_off:0 "잘라내기"
 BOR_cut_them_off_desc:0 "Burgundy is luckily highly isolated already, despite largely lacking the resources for effective autarky. Our economists all conclude that the economic integrity of the Ordensstaat must be extremely weak and the best way to undermine their authority. As such, we will have to endeavor to sever their last few ties with the outside world. This will need to focus on three fronts. From the Reich proper, their only significant trading partner is the oil company Wintershall. This firm must be banned from conducting trade with them, promptly, and an example set for the others. Secondly, we must up naval patrols in the British Channel to intercept Burgundian smugglers. Finally, we must try to pressure the Bretons into cutting off the Ordensstaat from their trade networks. They will no doubt help us stamp out this cockroach, for the right... pecuniary motivation."
 
-BOR_into_the_unknown:0 "Into the Unknown"
+BOR_into_the_unknown:0 "미지의 세계로"
 BOR_into_the_unknown_desc:0 "It is time to deploy the considerable intelligence resources of the Reich to pry the secrets of the Ordensstaat from Himmler's cold, skeletal fingers. While Orpo has expressed... reservations about the feasibility of extracting actionable intelligence of note from a state as totalitarian as the Ordensstaat Burgund, military intelligence has stated confidence that a combination of focused signals intelligence, high altitude spy plane flyovers, and human intelligence team infiltration will be certain to yield at least some avenues of information regarding the internal workings and defenses of the rogue state. Let us pick up this rock and observe the critters scatter in the darkness underneath!"
 
-BOR_the_iron_curtain:0 "The Iron Curtain"
+BOR_the_iron_curtain:0 "철의 장막"
 BOR_the_iron_curtain_desc:0 "Lately we have seen signs of a worrying reorganization of SS assets in our joint border region. It is possible they are preparing for an attack of some sort in the coming months or years. To help secure our defenses, the refurbishment of the Siegfried line must be accelerated, reinforced with new bastions, and provided with experimental missile shield technology to protect it from potential SRBM strikes. If Himmler tries shooting his missiles at the strong shield of the Reich, he will be sorely disappointed as we shoot his puny rockets right out of the sky! None shall pass our curtain of iron and steel!"
 
-BOR_connections_to_brittany:0 "Connections to Brittany"
+BOR_connections_to_brittany:0 "영국으로의 연결"
 BOR_connections_to_brittany_desc:0 "Our intelligence believes the Breton ports to be the primary access point for the Ordensstaat to goods from the wider world. The Bretons operate a worldwide trade network, and it is a poorly kept secret that they also engage in widespread smuggling with minimal oversight. While normally, we would be greatly angered and punish them severely for undermining our economic pact in such a manner, we will have to overlook this until the rogue state dividing our nations is dealt with. Pursuing friendly relations with Brittany will perhaps allow us to cut off Himmler's revenue stream and access to foreign goods. It is time we reminded them of our halcyon days of mutual profit and enmity towards the French, in the years before our New Order crumbled under the assault of traitors."
 
-BOR_the_enemy_of_my_enemy:0 "The Enemy of my Enemy..."
+BOR_the_enemy_of_my_enemy:0 "적의 적은..."
 BOR_the_enemy_of_my_enemy_desc:0 "Ah, the French. Our old enemies, as always raging against the fate that dooms old and bloated nations like theirs to be fodder for young and energetic powers like ours. While the last century of French history has been mostly an endless parade of humiliation on the part of their martial, scientific, and racial superiors in Germany, we did learn during the First World War that they can hold a line surprisingly well. Now that we have endeavored to deepen our ties with them, we can exploit the fact that Himmler recently shattered and broke the back of the majority of the French State, humiliating them far deeper than even the Reich did in the forties. Hungry for revenge and eager to reclaim their people, we can easily pull them into a defensive pact against the Burgundians in return for promising them most of their lands back. We have all the land we could ever need in the East; trading the promises of some Western lands filled with Frenchmen and Himmlerites for a solid alliance against the evils of the SS is definitely working. They only need to hold the line until the armed might of the Reich can be brought to bear. They can do that, right?"
 
 ###USA/OFN Bormann Diplo Tree###
@@ -2133,7 +2150,7 @@ BOR_something_they_could_never_understand_desc:0 "The Japanese did not carve out
 BOR_the_art_of_diplomacy:0 "외교의 기술"
 BOR_the_art_of_diplomacy_desc:0 "화내기는 쉽습니다. 독일 국민들이 일본이 교사한 총통의 암살에 대해 눈먼 분노를 표출하게 하는 것 말입니다.\n\n그렇게 하는 건 순진함을 넘어 바보같은 짓입니다.\n\n독일군들이 도쿄에 상륙하는 일은 없겠지만, 독일의 자본이 일본 금융시장의 중심에 비처럼 쏟아지고 있을 겁니다. 한쪽에서는 미국인들과, 한쪽에는 부패한 기업들과 싸우며 일본 정부는 완전히 포위되었습니다. 화해의 손길을 내미는 것은 일본을 안쪽에서부터 무너뜨리는 것을 가릴 완벽한 위장일 수 있습니다. "
 
-BOR_plant_the_seeds:0 "Plant the Seeds"
+BOR_plant_the_seeds:0 "씨앗 심기"
 BOR_plant_the_seeds_desc:0 "Japan is very protective of its dominion. It must be Hell for the managers of such a Sphere to know that the slightest crack in the system will send the whole rotten structure crumbling down. Every deal and decision is weighed down with paranoia, paranoia that once Germania and Washington have wormed their way inside, the Japanese will never be able to expunge them.\n\nWhether this fear has basis is neither here nor there to Führer Bormann. Under the direction of the foreign minister, the part the Führer must play is obvious; smile and wave.\n\nNegotiations to open the Sphere up fully to Germany business will take weeks, but at the end of it all, the Reich will no longer be contained to Europe alone."
 
 BOR_we_come_bearing_gifts:0 "We Come Bearing Gifts"
@@ -2158,7 +2175,7 @@ BOR_international_forum_on_the_stability_of_asia:0 "International Forum on the S
 BOR_international_forum_on_the_stability_of_asia_desc:0 "Japan stands surrounded. The itchy trigger finger of the Americans keeps Tokyo on edge at all times. In days of old, Japan needn't worry about the Reich, their ally. That changed when Japanese depravity was put on full display during the attempted assassination.\n\nThe Führer's gaze has been directed towards the east, the hotspot for conflict and civil strife. With a plurality of the world defying the Japanese empire, it is imperative for the world to see a different side of the Führer, a calculated and strategic one. Though little is likely to come from the Forum, the Führer will be able to use the opportunity to publicly denounce the Japanese government."
 
 BOR_a_heist_for_the_ages:0 "세대를 위한 강탈"
-BOR_a_heist_for_the_ages_desc:0 "일본은 중국을 얻기 위해 모든 걸 바쳤습니다. 수백만 명의 사람, 수백만 엔, 수백만 발의 총알이 제국의 이름으로 제단 위에서 불탔습니다. 영국의 왕관의 보석이 인도였다면, 떠오르는 태양의 가장 밝은 빛은 중국입니다.\n\nTo keep their most prized possession close, Japan polices diplomats in China like no other. There is no excuse in the eyes of Tokyo to allow a foreign power into China, to allow another state to do what Japan did to Britain's jewel.\n\nHosting a meeting in China with Japan present may be the only way to get access into the Middle Kingdom. It's only a matter of applying their strategy and using it against them."
+BOR_a_heist_for_the_ages_desc:0 "일본은 중국을 얻기 위해 모든 걸 바쳤습니다. 수백만 명의 사람, 수백만 엔, 수백만 발의 총알이 제국의 이름으로 제단 위에서 불탔습니다. 영국의 왕관의 보석이 인도였다면, 떠오르는 태양의 가장 밝은 빛은 중국입니다.\n\n일본은 가장 가치있는 소유물을 지키기 위해 중국에 배치된 경찰관과 외교관To keep their most prized possession close, Japan polices diplomats in China like no other. There is no excuse in the eyes of Tokyo to allow a foreign power into China, to allow another state to do what Japan did to Britain's jewel.\n\nHosting a meeting in China with Japan present may be the only way to get access into the Middle Kingdom. It's only a matter of applying their strategy and using it against them."
 
 ### Bormann Post-Dismantlement I tree ###
 BOR_sweeping_the_dregs:0 "찌꺼기 청소"
