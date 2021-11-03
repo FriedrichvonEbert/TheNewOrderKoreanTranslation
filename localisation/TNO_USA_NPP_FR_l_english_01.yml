@@ -864,11 +864,11 @@ USA_WAL_64:0 "월레스의 임기"
 USA_WAL_starts_a_bill:0 "§B월레스 대통령은 법률안을 통과시키려 할 것입니다.§!\n 결정 탭에서 법안을 찾을 수 있습니다."
 USA_WAL_fails_bill:0 "§R당신의 당에게 당신의 임기가 점점 무능해보이기 시작할 것입니다.§!\n"
 
-wal_expectations_increase:0 "\nWhile not working on anything related to §SStates' Rights§! or §lSegregation§!, our base's expectations for the future will grow!\n"
+wal_expectations_increase:0 "\n§S주의 권리§!나 §l인종분리§!에 대한 어떠한 행동도 하지 않는다면, 미래에 대한 우리 지지 기반의 기대가 커질 것입니다!\n"
 
-wal_add_expectations_tt:0 "Our base will expect more §SStates' Rights§! and §lSegregation§! legislation passed in the future!\n"
-wal_subtract_expectations_tt:0 "Our base will get more satisfied with the state of §SStates' Rights§! and §lSegregation§!.\n"
-wal_did_enough_tt:0 "We need to have passed enough §SStates' Rights§! and §lSegregation§! legislation before taking this decision.\n"
+wal_add_expectations_tt:0 "우리 지지 기반은 향후 더 많은 §S주의 권리§!와 §l인종분리§! 관련 법안이 통과되리라 기대할 것입니다!\n"
+wal_subtract_expectations_tt:0 "우리 지지 기반은 현재 §S주의 권리§!와 §l인종 분리§! 현환에 더 만족해할 것입니다.\n"
+wal_did_enough_tt:0 "이 결정을 하기 앞서 §S주의 권리§!와 §l인종분리§! 관련 법안을 충분히 통과시켜야 합니다.\n"
 
 #Wallace Ideas
 WAL64_states_militias:0 "주 민병대"
@@ -890,20 +890,20 @@ USA_WAL64_the_resegregation_of_schools_desc:0 "월레스 대통령은 루비콘 
 USA_WAL64_self_help_idea:0 "자력구제 기관"
 USA_WAL64_self_help_idea_desc:0 "의료보험이 산산조각날지는 몰라도 월레스가 아예 피도 눈물도 없는 자는 아닙니다. 그는 이 나라엔 스스로의 힘으로 번영의 길을 걸을 수 없는 불행한 영혼들이 있다는 것을 인지하고 있습니다. 이를 끝내기 위해 그는 국내의 실업자들이 일자리를 찾을 수 있도록 국립 직업단을 창설했습니다. 구직자들은 미국 전역에서 일자리를 찾기 위해 정부의 도움을 받을 수 있을 것입니다."
 
-wallace.600.t:0"A Challenge to Segregation"
-wallace.600.desc:0""If any of you are in doubt that this Social Security Bill is an extension of segregation, allow me to read from an excerpt from the proposed legislation"\n\n"...there shall be no certification for payment to any State unless it is found that the law of such State, approved by the Secretary of Labor under the Social Security Act(3), includes provision for-\n\n...\n\n(4) Tariffs differentiated according to past earnings for individuals, and the particular needs of the communities of that State"\n\n"Ostensibly, this paragraph was added to scale benefits according to professions, so that Social Security could be meaningful to high earners without being so generous for low earners that unemployment would look attractive. But what "communities" will be judged to have "particular needs"?\n\nIn practice, this provides a strong mandate for States to segregate their Social Security systems based on race."\n\n"The President can rest assured that we will not take such a blatant attack on the equality of our citizens lying down. We will take this matter to the Supreme Court, who we are certain will find it violates the Equal Protection Clause of the Fourteenth Amendment to the United States Constitution!"
-wallace.600.a:0"We will see them in court."
+wallace.600.t:0"인종 분리에 대한 도전"
+wallace.600.desc:0""사회보장법안이 인종분리의 연장선상이 아닌가 하는 의심이 드신다면, 발의된 법안의 발췌문을 읽어보겠습니니다."\n\n"...제3조에 따라 노동장관의 승인을 받은 해당 주의 법안이 다음 각호의 사항을 포함해야만 해당 주는 지급의 의무를 갖는다.\n\n...\n\n(4) 개인의 과거 소득과 해당 주의 지역사회에 대한 특정 요구에 따라 차등화된 가격표"\n\n"표면적으로는 일을 하지 않는 것이 더 나아 보일 정도로 저소득층에 관대하지는 않고 고소득자에게 사회보장이 의미가 있을 수 있도록 직종에 따른 복지 규모를 정하기 위해 이 항을 추가한 것으로 보입니다. 그러나 어떤 "지역사회"가 "특정 요구"를 가지고 있다고 판단되겠습니까?\n\n실제로는, 이 조항이 각 주에 인종에 따라 사회 보장 시스템을 분리할 수 있는 강력한 권한을 제공합니다."\n\n"대통령이 나머지 사람들에게는 국민의 평등에 대해 그런 노골적인 공격을 하지 않을 것이라고 안심시킬 수 있습니다. 우리는 이 문제를 대법원으로 가져갈 것입니다. 우리는 이 법안이 미국 수정 헌법 제14조의 평등 보호 조항에 위배된다고 확신합니다!""
+wallace.600.a:0"법정에서 보자고."
 
-wallace.601.t:0"The Verdict"
-wallace.601.desc:0"After a stormy session in the United States Supreme Court, the constitutional status of the Social Security Act has been determined. After a long deliberation and with several dissenters, the court has found that,\n\n"State social security laws, like those involved here, that differentiate entitlements based on precisely defined criteria do not violate the Equal Protections Clause of the Fourteenth Amendment, which mandates equal protections under the law, not equal treatment in all cases. Differentiated tariffs, set according to profession, residence or education status do not constitute a violation of that right."\n\nIn short, the Social Security Act is constitutional."
-wallace.601.a:0"Of course it is."
+wallace.601.t:0"평결"
+wallace.601.desc:0"미국 연방대법원에서 격렬한 논의 끝에 사회보장법의 헌법적 지위가 결정됐습니다. 오랜 숙고 끝에 여러 반대자들과 함께 법원은 다음과 같은 결론을 내렸습니다.\n\n"관련된 법안과 마찬가지로 정확하게 정의된 기준에 따라 자격을 차별화하는 주사회보장법은 모든 경우에 평등한 대우가 아니라 법에 따라 평등한 보호를 의무화하는 수정헌법 제14조의 평등보호조항을 위반하지 않는다. 직업, 거주지, 교육 상태에 따라 책정되는 차별적인 가격은 그 권리를 침해하는 것이 아니다."\n\n간단히 말해서, 사회보장법은 합헌입니다."
+wallace.601.a:0"당연히 그렇지"
 
-wallace.602.t:0"The Verdict"
-wallace.602.desc:0"After a stormy session in the United States Supreme Court, the constitutional status of the Social Security Act has been determined. The court has found that,\n\n"State Social Security Laws, like those involved here, are obliged to ensure the equal protection of the laws to all persons to remain in compliance with the Equal Protection Clause of the Fourteenth Amendment. The Federal Government cannot demand that States override that right in its provisions to citizens, and any legislation that provides benefits to residents must provide equally to all."\n\nIn short, the Social Security Act is not constitutional."
+wallace.602.t:0"평결"
+wallace.602.desc:0"미국 연방대법원에서 격렬한 논의 끝에 사회보장법의 헌법적 지위가 결정됐습니다. 법원은 다음과 같은 결론을 내렸습니다.\n\n"주사회보장법은 관련된 법안과 마찬가지로 모든 사람들이 미국 수정헌법 제14조의 평등보호조항을 준수할 수 있도록 평등한 보호를 보장할 의무가 있다. 연방정부는 각 주정부가 시민에게 그 권리를 무효화하도록 요구할 수 없으며, 거주민에게 혜택을 제공하는 모든 법률은 모든 사람에게 동등하게 제공해야 한다."\n\n간단히 말해서, 사회보장법은 위헌입니다."
 wallace.602.a:0"Preposterous! Outrageous! Overreach!"
 
-wallace.603.t:0"The Progressive Wing Reacts"
-wallace.603.desc:0""It's Henry Jackson, Mr. President, should I patch him through?"\n\n"Yeah, I'll take the call"\n\nPresident Wallace sighed deeply. It was going to be a difficult conversation.\n\n"Hello Henry, how are you?"\n\n"Mr. President, I'm calling about the Social Security Act. Will you really force States to pay out different benefits according to the "Particular needs of communities"? Do you take us for fools, Mr. President? We both know that's not only an invitation to segregate Social Security Programs, it's practically a requirement to!"\n\n"You're going too far, George. I was really hoping Social Security could be a subject we'd see eye to eye on, but the Center wing is dead if we support this! I'm sorry to say I'm going to vote against this Bill, and that I will encourage my fellow senators to vote against it as well.""
+wallace.603.t:0"진보 진영의 반응"
+wallace.603.desc:0""헨리 잭슨입니다, 대통령님, 연결해 드릴까요?"\n\n"그래, 받도록 하지."\n\n월리스 대통령은 깊은 한숨을 내쉬었습니다. 어려운 대화가 될 것 같았습니다.\n\n"그래요 헨리, 무슨 일이죠?"\n\n"대통령님, 사회보장법 때문에 전화드렸습니다. 정말로 주에서 "지역사회의 특정 요구"에 따라 다른 혜택들을 지급하도록 강요할 겁니까? 우리를 바보로 보십니까, 대통령님? 그게 사회보장 프로그램에서 분리를 허용하는 걸 넘어서 실질적으로 강제한다는 걸 모두가 알고 있습니다!"\n\n"당신은 선을 넘었어요, 조지. 사회보장제도는 우리가 공감할 수 있는 주제이길 바랐는데 우리가 이걸 지지하면 중도파는 끝장이에요! 유감스럽게도 이 법안에 반대표를 던질 것이며, 동료 의원들에게도 반대표를 던지도록 독려할 것입니다.""
 wallace.603.a:0"We'll do it without them."
 
 wallace.604.t:0"Humphrey on the Line"
