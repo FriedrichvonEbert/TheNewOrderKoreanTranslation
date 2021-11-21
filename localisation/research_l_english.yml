@@ -2,10 +2,10 @@
  RESEARCH_BONUSES_TOOLTIP:0 "제한된 기술 혜택:"
  RESEARCH_BONUSES_EMPTY_TOOLTIP:0 "제한된 기술 혜택이 여기에 열거될 것입니다."
  RESEARCH_BONUS_SPEED_DESC:0 "§Y$COUNT$x§! $VALUE|G%0$연구속도 $NAME$"
- RESEARCH_BONUS_AHEAD_DESC:1 "§Y$COUNT$x§! $VALUE|G.1$년의 단축시간으로 $NAME$(이)가 감소합니다."
- RESEARCH_BONUS_SPEED_AHEAD_DESC:1 "연구속도 §Y$COUNT$x§! $VALUE1|G%0$와 $VALUE2|G.1$년의 단축시간으로 $NAME$(이)가 감소합니다"
- RESEARCH_BONUS_SPEED_NO_COUNT_DESC:1 "연구 속도가 $VALUE|G%0$ 까지 늘어날 것입니다."
- RESEARCH_BONUS_AHEAD_NO_COUNT_DESC:1 "시대를 앞서 나간 불이익은  $VALUE|.1G$로 줄어들 것입니다."
+ RESEARCH_BONUS_AHEAD_DESC:0 "§Y$COUNT$x§! $VALUE|G.1$년의 단축시간으로 $NAME$(이)가 감소합니다."
+ RESEARCH_BONUS_SPEED_AHEAD_DESC:0 "연구속도 §Y$COUNT$x§! $VALUE1|G%0$와 $VALUE2|G.1$년의 단축시간으로 $NAME$(이)가 감소합니다"
+ RESEARCH_BONUS_SPEED_NO_COUNT_DESC:0 "연구 속도가 $VALUE|G%0$ 까지 늘어날 것입니다."
+ RESEARCH_BONUS_AHEAD_NO_COUNT_DESC:0 "시대를 앞서 나간 불이익은  $VALUE|.1G$로 줄어들 것입니다."
  RESEARCH_BONUS_SPEED_AHEAD_NO_COUNT_DESC:2 "연구 속도는 $VALUE|G%0$로 증가하고 선행 연구 불이익은 $VALUE2|.1G$로 줄어들 것입니다."
  RESEARCH_BONUS_VALUE_DESC:0 "연구 혜택: $VALUE|Y%0$"
  TECH_BASE_COST:0 "기본 비용: $BASE|Y0$ 일\n"
@@ -25,9 +25,9 @@
  RESEARCH_EXCLUSIVE_INFO_DESC:0 "다음과 상호 배타적 :"
  RESEARCH_EXCLUSIVE_INFO_ENTRY:0 "$TECH|Y$"
  RESEARCH_YEAR_AHEAD_PENALTY_NO_VALUE:0 "§R$YEARS|2$년을 앞선 선행 연구입니다. 연구 시기가 빠를수록, 연구 시간에 더 큰 불이익을 받습니다.§!"
- RESEARCH_YEAR_AHEAD_PENALTY:1 "§R기술이 $YEARS|2$년 앞선 것입니다 (+$VALUE|%0$). 시간이 갈수록 불이익은 줄어들 것입니다.§!"
+ RESEARCH_YEAR_AHEAD_PENALTY:0 "§R기술이 $YEARS|2$년 앞선 것입니다 (+$VALUE|%0$). 시간이 갈수록 불이익은 줄어들 것입니다.§!"
  RESEARCH_YEAR_AHEAD_PENALTY_RED:2 "§R기술은 $YEARS|2$년 앞선 것이지만 (+$VALUE|%0$), 선행 연구로 인한 불이익은 국가 방침에 따라 $REDUCED_YEARS|.1$년 (+$RED|%0$) 만큼 줄어들었습니다. 시간이 갈수록 불이익은 줄어들 것 입니다.§!"
- RESEARCH_TECH_UNUSED:1 "§G연구하려면 클릭§!\n30일 이내에, 연구 시간의 손실 없이 연구할 새로운 분야를 선택할 수 있습니다."
+ RESEARCH_TECH_UNUSED:0 "§G연구하려면 클릭§!\n30일 이내에, 연구 시간의 손실 없이 연구할 새로운 분야를 선택할 수 있습니다."
  RESEARCH_NO_LONGER_AVAILABLE:0 "$RESEARCH|H$\n§R더 이상 사용할 수 없음 - 다음 날 제거될 것입니다§!"
  RESEARCH_EQUIPMENT_HEADER:0 "장비"
  RESEARCH_UPGRADES_HEADER:0 "업그레이드"
@@ -46,7 +46,7 @@
  # RESEARCH_BONUS_SPEED_NO_COUNT_DESC:0 "Research time will be reduced by $VALUE|G%0$" #duplicate loc key
  # RESEARCH_BONUS_AHEAD_NO_COUNT_DESC:0 "Ahead of time penalty will be reduced by $VALUE|G%0$" #duplicate loc key
  # RESEARCH_BONUS_SPEED_AHEAD_NO_COUNT_DESC:0 "Research time will be reduced by $VALUE|G%0$ and ahead of time penalty reduced by $VALUE2|G%0$" #duplicate loc key
- # RESEARCH_YEAR_AHEAD_PENALTY_RED:1 "§RTechnology is $YEARS|2$ years ahead of time (+$VALUE|%0$), but the ahead of time penalty have been reduced to (+$RED|%0$) due to national focuses. The penalty will decrease over time.§!" #duplicate loc key
+ # RESEARCH_YEAR_AHEAD_PENALTY_RED:0 "§RTechnology is $YEARS|2$ years ahead of time (+$VALUE|%0$), but the ahead of time penalty have been reduced to (+$RED|%0$) due to national focuses. The penalty will decrease over time.§!" #duplicate loc key
  RESEARCH_PROGRESS_DONE:0 "§T연구된 시간: $WEEKS|H$§!"
  RESEARCH_PROGRESS_COMPACT:0 "§T$DAYS|H$ 일§!"
  RESEARCH_PROGRESS_INSTANT:0 "§T즉시§!"
@@ -95,7 +95,7 @@
  TRADE_INTERDICTION_DESC:0 "강력한 해군을 상대할 때는 적 함대를 묶어놓고 보급선을 파괴해 적 전쟁 기계가 굶주리게 하는데 집중할 수 있습니다."
  BASE_STRIKE_DESC:0 "우리 국가의 해군은 크고 유연할 것입니다. 이들은 세력을 투사하고 대양을 놓고 다툴 수 있을 정도로 강력할 것입니다."
  AIR_SUPERIORITY_DESC:0 "우리 전투기는 공군의 중추입니다. 이들은 우리의 하늘을 지키고, 폭격기를 호위하고, 우리 지상군을 위해 적의 하늘을 정리합니다."
- BATTLEFIELD_SUPPORT_DESC:1 "우리 공군은 하늘을 완벽하게 통제하며 적 공군이 효과적으로 개입할 수 없을 정도의 공중 우세를 유지할 것입니다. 우리는 지구 전역에서 벌어지는 우리 군사적 선택에 항공 지원을 제공할 수 있어야 하며 언제나 어디든지 타격할 수 있도록 장거리 폭격기 편대를 단단히 준비해둬야 합니다."
+ BATTLEFIELD_SUPPORT_DESC:0 "우리 공군은 하늘을 완벽하게 통제하며 적 공군이 효과적으로 개입할 수 없을 정도의 공중 우세를 유지할 것입니다. 우리는 지구 전역에서 벌어지는 우리 군사적 선택에 항공 지원을 제공할 수 있어야 하며 언제나 어디든지 타격할 수 있도록 장거리 폭격기 편대를 단단히 준비해둬야 합니다."
  OPERATIONAL_INTEGRITY_DESC:0 "우리 국가의 영공은 우리의 것입니다. 우리에게 필요한 것은 우리 국가의 하늘을 완벽하게 지킬 수 있는 공군입니다. 우리는 적 공군의 과도한 개입 없이 지상군과 해상군을 완전히 지원할 수 있도록 지역적 우세를 유지할 것입니다."
  STRATEGIC_DESTRUCTION_DESC:0 "우리 공군의 주목표는 전장의 부대에 항공지원을 해주는 것입니다. 우리 공군은 세상에서 제일 큰 공군은 아니겠지만 COIN기나 경 헬리콥터를 가진다면 저강도전이나 게릴라전에서 큰 차이를 만들 수 있습니다."
  RESEARCH_REQUIREMENTS_SINGLE:0 "§R기술 필요 ($TECH$)§!"
@@ -149,6 +149,7 @@
  # 여러가지
  1960_RADAR_COMPLETE_EARLY_WARNING_SYSTEM:0 "\n이 기술을 해금하면 당신의 모든 §Y레이다 기지§!에서 장거리 미사일 조기 경고 기능이 제공됩니다.\n"
  1960_RADAR_COMPLETE_EARLY_WARNING_SYSTEM_DESC:0 "작동중인 레이다 기지는 §G더욱 좋은 보복 기회§!와 미사일에 대한 §G더욱 좋은 보호력§!을 제공합니다."
+ AIR_ASSAULT_ATTACK_HELICOPTER_ADDON:0 "§WAdds Attack Helicopters to £GFX_unit_category_helicopter_icon_small Air Assault, at the expense of a higher cost.§!"
 
  excavation_tech_research:0 "채굴"
  computing_tech_research:0 "연산"
@@ -158,7 +159,7 @@
  
 #### 카테고리 ####
  air_doctrine:0 "공군 교리"
- air_equipment_research:1 "공군 연구 속도"
+ air_equipment_research:0 "공군 연구 속도"
  armor:0 "기갑 기술"
  battlefield_support_tree_research:0 "전장 지원 교리"
  battlefield_support_tree:0 "전장 지원 교리"
@@ -193,10 +194,11 @@
  construction_tech:0 "건설 기술"
  convoy_defense_tree:0 "수송선 방어 교리"
  decryption_tech:0 "복호화 기술 연구"
- decryption_tech_research:1 "복호화 연구 속도"
+ decryption_tech_research:0 "복호화 연구 속도"
  electronics:0 "전자 기기"
- encryption_tech_research:1 "암호화 연구 속도"
+ encryption_tech_research:0 "암호화 연구 속도"
  encryption_tech:0 "암호화 방법"
+ air_assault_tech:0 "Air Assault Technology"
  engineers_tech:0 "공병 기술"
  fleet_in_being_tree:0 "현존함대 교리"
  heavy_air:0 "중항공기"
@@ -232,7 +234,7 @@
  suicide_craft:0 "요코스카 MXY7 오카"
  support_tech_research:0 "지원 부대 연구 속도"
  support_tech:0 "지원 기술"
- synth_resources_research:1 "합성 자원 연구 속도"
+ synth_resources_research:0 "합성 자원 연구 속도"
  synth_resources:0 "합성 자원"
  tactical_bomber:0 "전술 폭격기 모델"
  trade_interdiction_tree:0 "무역 차단 교리"
@@ -245,6 +247,7 @@
  cv_tech:0 "항공모함 모델"
  bb_tech:0 "전함 모델"
  ss_tech:0 "잠수함 모델"
+ ssn_tech:0 "Nuclear submarine Models"
  tp_tech:0 "수송선 모델"
  naval_mines:0 "기뢰전 기술"
  naval_minelaying:0 "기뢰 부설 기술"
@@ -260,7 +263,7 @@
  # 레이블 / 섹션 이름
  INFANTRY_TITLE_WEAPONS:0 "소총"
  INFANTRY_TITLE_SPECIAL:0 "특수부대"
- INFANTRY_TITLE_MOTORISED:1 "기동 보병"
+ INFANTRY_TITLE_MOTORISED:0 "기동 보병"
  INFANTRY_TITLE_SUPPORT:0 "지원 장비"
  INFANTRY_TITLE_SQUAD_WEAPONS:0 "지원화기체계"
  INFANTRY_TITLE_ANTI_TANK_WEAPONS:0 "대전차 무기"
@@ -539,8 +542,8 @@
     advanced_special_forces:0 "발전된 특수부대 훈련"
     advanced_special_forces_desc:0 "엄청난 훈련을 통해 특수부대가 일반인보다 더 뛰어난 능력을 발휘하게 만들 수 있습니다.\n\n"
 
-    improved_special_forces:1 "확장된 특수부대 프로그램"
-    improved_special_forces_desc:1 "특수부대는 일반 병사가 할 수 없는 작전을 할 수 있습니다. 훈련 프로그램을 확장해 자격이 있는 병사들을 더 많이 끌어와야 합니다.\n"
+    improved_special_forces:0 "확장된 특수부대 프로그램"
+    improved_special_forces_desc:0 "특수부대는 일반 병사가 할 수 없는 작전을 할 수 있습니다. 훈련 프로그램을 확장해 자격이 있는 병사들을 더 많이 끌어와야 합니다.\n"
 
     extreme_environment_training:0 "극한 환경 훈련"
     extreme_environment_training_desc:0 "우리는 극도로 가혹한 환경에도 싸울 수 있어야 합니다. 적절한 훈련과 장비만 갖춘다면 우리 병사들은 가장 극한의 상황에서도 싸울 수 있을 것입니다."
@@ -600,7 +603,7 @@
   amphibious_tank_2_desc:0 "2세대 수륙 양용 전차는 더 나은 방호와 증가된 화력을 특징으로 가집니다."
 
   motorized_rocket_unit:0 "차량화 로켓포"
-  mot_rockets_research:1 "차량화 로켓포 연구 속도"
+  mot_rockets_research:0 "차량화 로켓포 연구 속도"
  ### 뭔가 aka 아마도 삭제될 잡것들 ###
 #### 보병 폴더 ####
 
@@ -998,6 +1001,10 @@
    MBT_1950_advanced_engine:0 "제동력 배분"
    MBT_1950_advanced_engine_desc:0 "TODO"
   ## 개선 - 엔진 (옛날 것, 삭제 예정) ##
+  ## SPART and SPAA
+
+   MBT_art:0 "Heavy SPART"
+   MBT_aa:0 "Heavy SPAA"
  ### MBT ###
 #### 기갑 폴더 ####
 
@@ -1487,8 +1494,8 @@
  tactical_explotion_desc:0 "With a coordination of tank and infantry attack we can achieve a force multiplier when attacking."
  hej_hej:0 "Assault Concentration"
  hej_hej_desc:0 "By concentrating a assault with a total support we can create a large opening in the enemy line."
- independant_formations:0 "Independent Formations"
- independant_formations_desc:0 "By making all squads self-sustainable for a short while we can lessen the effect on cut-off troops, and give our other troops more time to respond."
+ independent_formations:0 "Independent Formations"
+ independent_formations_desc:0 "By making all squads self-sustainable for a short while we can lessen the effect on cut-off troops, and give our other troops more time to respond."
  asymmetric_warfare:0 "비대칭전"
  asymmetric_warfare_desc:0 "자기가 선택한 곳에서 자신의 힘으로 싸우십시오. 적은 누구에게 싸움을 걸은건지도 모릅니다."
  strategic_deployments:0 "Strategic Deployments"
@@ -2033,6 +2040,15 @@
 
  ### *Possibly* Deprecated / Dont Care ###
   # Remind someone who isn't Calph to come clean this up
+  
+  # What the fuck is a boat
+  ww2_submarine:0 "WW2 - Submarine"
+  ww2_destroyer:0 "WW2 - Destroyer"
+  ww2_frigate:0 "WW2 - Frigate"
+  ww2_cruiser:0 "WW2 - Cruiser"
+  ww2_battleship:0 "WW2 - Battleship"
+  basic_battleship:0 "Basic Battleship"
+  
   coastal_defense_ships:0 "해방전함"
   
   basic_ship_hull_heavy:0 "1936 Heavy Ship Hull"
@@ -2064,7 +2080,7 @@
   ship_hull_pre_dreadnought_desc:0 "TODO"
   ship_hull_cruiser_panzerschiff:0 "Panzerschiff"
   ship_hull_cruiser_panzerschiff_desc:0 "In an attempt to do the impossible, German engineers succeeded in mating almost-battleship-level armament with a cruiser hull. The result is a ship that outguns any other known cruiser, but which is also expensive, comparatively slow and relatively poorly armored."
-  ship_hull_cruiser_coastal_defense_ship:1 "Coastal Defense Ship"
+  ship_hull_cruiser_coastal_defense_ship:0 "Coastal Defense Ship"
   ship_hull_torpedo_cruiser:0 "Torpedo Cruiser"
   ship_hull_super_heavy_1:0 "Super Heavy Battleship Hull"
   ship_hull_cruiser_submarine:0 "Cruiser Submarine"
@@ -2301,6 +2317,7 @@
 
  ### Electro-Mechanical Engineering
  electronic_mechanical_engineering:0 "전자 기계 공학"
+ electronic_mechanical_engineering_research:0 "Electronic Mechanical Engineering Research"
  electronic_mechanical_engineering_desc:0 "우리는 전기로 작동하는 기계들이 단지 우리를 따뜻하게 하고 빛을 제공할 뿐만 아니라 판단과 소통을 도와주는 시대에 살고 있습니다. 전자공학은 다가오는 시대에 군사 정보의 핵심이 될 것입니다."
  
  ## Radio & Radar
@@ -2382,11 +2399,11 @@
  advanced_fire_control_system_desc:0 "Advanced fire control systems have in-built chips allowing them to predict target movement and aim and engage correspondingly. Few can escape."
 
  # Encryption (DEPRECATED)
- basic_encryption:1 "암호화 - 다중 치환 암호"
+ basic_encryption:0 "암호화 - 다중 치환 암호"
  basic_encryption_desc:0 "새로운 통신방식은 가로챌 수 있는 새로운 위험이 있습니다. 회전식 암호화 장치는 빠르고 복잡한 암호화를 사용할 수 있게 해 줍니다."
- improved_encryption:1 "암호화 - 순환 치환"
+ improved_encryption:0 "암호화 - 순환 치환"
  improved_encryption_desc:0 "암호화 장비의 무작위를 제한은 암호화를 깨는데 이용될 수 있습니다. 향상된 회전 장비의 무작위는 이런 종류의 암호화를 더 어렵게 만듭니다."
- advanced_encryption:1 "암호화 - 펄스 부호 변조"
+ advanced_encryption:0 "암호화 - 펄스 부호 변조"
  advanced_encryption_desc:0 "기술개량과 애써 얻은 경험들은 우리 통신의 트래픽 흐름을 더 안전하게 조치 할 수 있게 했습니다."
  encryption_1950:0 "암호화 - 비상호적 회전자"
  encryption_1950_desc:0 "In this variation of a reciprocal rotary, The key needs to be shifted either by three or its negative counterpart when converting from cypher to plaintext and vice versa. This ensures a harder code to decrypt."
@@ -2400,11 +2417,11 @@
  encryption_1990_desc:0 "The system uses a pair of keys, a key which could be for public use, and a private key that only the receiver would hold. This allows for easy encryption via public key, however the message can only be decrypted by the private key, held by a sole owner."
 
  # Decryption (DEPRECATED)
- basic_decryption:1 "복호화 - 빈도 분석"
+ basic_decryption:0 "복호화 - 빈도 분석"
  basic_decryption_desc:0 "암호 해독은 더욱더 수리과학을 진보 시켰습니다. 카드 카탈로그와 회전기록 장치처럼 생긴 시스템은 해독에 필요한 일을 도울수 있습니다."
- improved_decryption:1 "복호화 - 부채널 공격"
+ improved_decryption:0 "복호화 - 부채널 공격"
  improved_decryption_desc:0 "더 정교해진 컴퓨터의 개발은 손으로 푸는 복호화 방식과 차등방식의 새로운 암호해독 프로그램이 결합될 때, 진보된 암호를 깨는데 사용 될 수 있습니다."
- advanced_decryption:1 "복호화 - 자동 연역"
+ advanced_decryption:0 "복호화 - 자동 연역"
  advanced_decryption_desc:0 "계산능력이 증가된 우리의 복호화 기술은 지금까지 앞으로 거의 해독 불가능한 암호를 만들 우려가 있습니다. 계속 앞서나가기 위해서, 기술의 더 깊은 지식을 얻을 수 있도록 보다 적극적으로 연구를 할 준비를 해야합니다."
  decryption_1950:0 "복호화 - 선택 평문 공격"
  decryption_1950_desc:0 "The earliest forms of decryption involved using glorified guesswork to acquire the secret key. That it is still being used today is a testament to its timeless efficiency."
@@ -2441,6 +2458,11 @@
  atomic_research_desc:0 "핵분열, 원자의 분열은 막대한 양의 에너지를 발생시키며 끝없는 파괴력을 지녔습니다."
  nukes:0 "핵폭탄"
  nukes_desc:0 "원자폭탄을 제조하려는 계획은 한 국가가 시도할 수 있는 가장 은밀하고 어려운 과업이지만, 성공할 수만 있다면 오늘날의 전쟁이 나아갈 길은 물론 세계의 미래까지 바꿀 수 있습니다."
+ 
+ # Dummy stuff
+ nuclear_reactors:0 "Nuclear Reactors"
+ missile_silos:0 "Missile Silos"
+ nuclear_weapons:0 "Nuclear Weapons"
 #### ENGINEERING FOLDER ####
 
 
@@ -2487,48 +2509,6 @@
  mass_production_6:0 "일반적 산업 로봇공학 II"
  mass_production_6_desc:0 "Improvements to computing systems and experience with their flaws allows for increasingly efficient machine-tools, and industry-wide incorporation will of course bring its own benefits."
 
- ### Industry
- countrywide_improvements:0 "실용적 산업행정관리"
- countrywide_improvements_desc:0 "Educating our industrial management personnel on the basics of industrial administration such as economies of scale and labour specialisation is a necessity to get any industrial base up and running."
- enhanced_industrial_administration:0 "산업행정관리 강화"
- enhanced_industrial_administration_desc:0 "Once the rudiments of industrial administration are established throughout our industrial base, more advanced administrative techniques such as cartels, conglomerates and inter-firm cooperation will be taught to our men on the ground."
-
- ## Concentrated Industry
- concentrated_industry1:0 "수직적 산업조직 I"
- concentrated_industry1_desc:0 "산업 사회는 기업, 노동자, 자원에서 이익을 봅니다. 집중이 효율 그 자체라는 것은 경제학계에서 간단한 사실입니다."
- concentrated_industry2:0 "수직적 산업조직 II"
- concentrated_industry2_desc:0 "운송업은 국가 전역에 생명을 실어나르는 혈관입니다. 더 많은 철도, 더 많은 도로, 더 많은 차는 생산력을 증가시킬 것입니다."
- concentrated_industry3:0 "수직적 산업조직 III"
- concentrated_industry3_desc:0 "현대 산업은 하나의 삶의 방식이 되었습니다. 모든 행동은 산업적인 행동입니다. 모든 신념은 산업적인 신념입니다. 우리는 살기 위해 일하고 일하기 위해 삽니다."
- concentrated_industry4:0 "수직적 산업조직 IV"
- concentrated_industry4_desc:0 "높이 솟은 아파트는 전에는 본 적 없는 방식으로 노동자들을 압축시킵니다. 이제 한 지방 안에서 살고, 일하고 죽을 수 있게 되었습니다."
- concentrated_industry5:0 "수직적 산업조직 V"
- concentrated_industry5_desc:0 "효율, 진보, 기술은 절대 멈추지 않습니다. 산업 연구의 집중은 엄청난 기회를 만들어냅니다."
- concentrated_industry6:0 "수직적 산업조직 VI"
- concentrated_industry6_desc:0 "공장과 농장은 동전의 양면과도 같습니다. 산업적 농업은 모순이 아닌 미래입니다. 농장은 발전된 기계학에게 도움을 받고 , 그 후에는 사회에 도움을 줄 것입니다."
- concentrated_industry7:0 "수직적 산업조직 VII"
- concentrated_industry7_desc:0 "Labor and life are not separate. Work doesn't end at home anymore than it begins in the work place. We are always working, always producing."
- concentrated_industry8:0 "수직적 산업조직 VIII"
- concentrated_industry8_desc:0 "History is but a single infinite line stretching towards an industrial singularity. Farms, homes, and factories are all just the means of production, but so are we. The ideal human form is one of creation, endless creation for endless consumption. The human body is but a factory built for one purpose: production."
-
- ## Dispersed Industry
- dispersed_industry1:0 "수평적 산업조직 I"
- dispersed_industry1_desc:0 "산업 기반을 분산시켜 전국에 흩뿌리면 산업으로 인한 고용과 부를 나눌 수 있습니다. 대신 운송이 불편해집니다."
- dispersed_industry2:0 "수평적 산업조직 II"
- dispersed_industry2_desc:0 "국가의 산업기반을 개선함으로써 상품 운송을 쉽게할 뿐 아니라 효율과 생산성을 크게 개선할 수 있습니다."
- dispersed_industry3:0 "수평적 산업조직 III"
- dispersed_industry3_desc:0 "현대 산업이 조국을 지배할 것입니다. 한때 황야와 텅 빈 공간 밖에 없던 곳에 새로운 공장들이 솟아나 번영의 원천이 되고, 사람들은 그곳으로 몰려들 것입니다."
- dispersed_industry4:0 "수평적 산업조직 IV"
- dispersed_industry4_desc:0 "산업을 나라 곳곳에 퍼트리면 노동자들이 어느 곳에 살던 짐을 챙겨 이동하지 않고도 빛나는 새 공장에 가기 쉬워질 것입니다."
- dispersed_industry5:0 "수평적 산업조직 V"
- dispersed_industry5_desc:0 "상품 운송 속도를 늘리기 위해 철도와 도로를 더 지어야 합니다. 수익이 먼저입니다. 수익이 없다면 우리 시스템은 죽어버릴 것입니다."
- dispersed_industry6:0 "수평적 산업조직 VI"
- dispersed_industry6_desc:0 "산업 혁명에게 버려진 이들이 번영하도록 도우려면 산업을 더 작은 마을과 도시까지 퍼트려야 합니다. 모두가 공장에서 일할 기회를 얻을 것입니다."
- dispersed_industry7:0 "수평적 산업조직 VII"
- dispersed_industry7_desc:0 "Continued investment into our industrial base is bound to increase the profits that we take in. After all, more money in means more money out."
- dispersed_industry8:0 "수평적 산업조직 VIII"
- dispersed_industry8_desc:0 "Our nation is dotted with factories, each selling their own wares and their own goods. Everyone can share in the industrial prosperity that our economic plan has brought us. There is no place left behind here. All have seen the light of the industrial way, and we shall prosper because of it."
-
  ### Resources
  ## Resource Extraction
  resource_extraction_methods:0 "현대화된 자원 추출 기술"
@@ -2562,56 +2542,17 @@
  advanced_oil_processing:0 "발전된 석유 가공"
  advanced_oil_processing_desc:0 "New experimental purification techniques like hydrotreating can be used in oil manufacturing to greatly improve the final product, substantially increasing production rates and decreasing costs."
  modern_oil_processing:0 "현대식 석유 가공"
- modern_oil_processing_desc:1 "Our oil refineries can be further improved with new advanced oil processing methods like hydrocracking, alkylation, mercaptan oxidation and isomerization. Automatized processes and biological fuels will also increase efficiency and output."
+ modern_oil_processing_desc:0 "Our oil refineries can be further improved with new advanced oil processing methods like hydrocracking, alkylation, mercaptan oxidation and isomerization. Automatized processes and biological fuels will also increase efficiency and output."
  
  ## Rubber Processing
  rubber_processing:0 "고무 가공"
- rubber_processing_desc:1 "고무가 산업의 주요 구성원이 되며, 천연 고무 의존도를 낮추기 위한 대규모 인공 고무 가공이 필요해졌습니다."
+ rubber_processing_desc:0 "고무가 산업의 주요 구성원이 되며, 천연 고무 의존도를 낮추기 위한 대규모 인공 고무 가공이 필요해졌습니다."
  improved_rubber_processing:0 "개선된 고무 가공"
- improved_rubber_processing_desc:1 "탈수소 반응을 가속하는 새 자동화 절차를 도입한다면 대규모 인공 고무 생산을 개선시킬뿐만 아니라 더 싼 값에 고무를 뽑아낼 수 있습니다."
+ improved_rubber_processing_desc:0 "탈수소 반응을 가속하는 새 자동화 절차를 도입한다면 대규모 인공 고무 생산을 개선시킬뿐만 아니라 더 싼 값에 고무를 뽑아낼 수 있습니다."
  advanced_rubber_processing:0 "발전된 고무 가공"
- advanced_rubber_processing_desc:1 "A general-purpose synthetic rubber recipe with improved processes such as dodecyl mercaptan polymerization modifiers will allow the nations with the means to afford it to expand synthetic rubber production."
+ advanced_rubber_processing_desc:0 "A general-purpose synthetic rubber recipe with improved processes such as dodecyl mercaptan polymerization modifiers will allow the nations with the means to afford it to expand synthetic rubber production."
  modern_rubber_processing:0 "현대식 고무 가공"
- modern_rubber_processing_desc:1 "Fully-optimized and computer-checked polymerization processes will result in lower costs and higher output, projecting rubber production into the new age."
- 
- ### Construction
- ## Civilian Construction
- construction0:0 "민간건설 I"
- construction0_desc:0 "노동자들에게 더 나은 숙소와 장비를 준다면 건설 계획을 제때 끝낼 수 있습니다.\n\n"
- construction1:0 "민간건설 II"
- construction1_desc:0 "건축 공사에 기계화와 자동화를 도입했습니다. 이는 다양한 산업을 더 빠르게 건설하게 해줍니다.\n\n"
- construction2:0 "민간건설 III"
- construction2_desc:0 "The organization of the workers via timetables and schedules allows for synchronization between the different groups in completing projects on time.\n\n"
- construction3:0 "민간건설 IV"
- construction3_desc:0 "불도저, 크레인, 포크레인, 레미콘과 같은 현대 공사 차량의 개선으로 더 적은 시간에 더 많은 일을 하게 됩니다.\n\n"
- construction4:0 "민간건설 V"
- construction4_desc:0 "더 나은 도심 계획으로 공간을 최대한 활용하며 더 크고 더 많은 건물들을 지을 수 있습니다.\n\n"
- construction5:0 "민간건설 VI"
- construction5_desc:0 "By contracting massive building projects with large firms, we may be able to work on multiple amounts of widespread industrial expansions\n\n"
- construction6:0 "민간건설 VII"
- construction6_desc:0 "New tools allow for quicker and more efficient build speed. Another boon is that it can be easily used and even some inexperienced workers can quickly learn and operate them.\n\n"
- construction7:0 "민간건설 VIII"
- construction7_desc:0 "With the advent of massive skyscrapers, the size of the vehicles to carry larger and increased load of construction materials has increased.\n\n"
- construction8:0 "민간건설 IX"
- construction8_desc:0 "Our cranes are spotted on every block. Empty lots one day, replaced by towering factories the next. There is a shortage, not of jobs, but of people to fill them.\n\n"
- 
- ## Military Construction
- military_construction0:0 "군사건설 I"
- military_construction0_desc:0 "Military construction has long held a reputation for haphazard and poorly considered design paradigms. Thankfully, modern developments will allow us to make this process more efficient than ever before.\n\n"
- military_construction1:0 "군사건설 II"
- military_construction1_desc:0 "신형 장비와 신기술의 등장으로 전차, 대포, 기타 전쟁 무기들을 더 빠르게 생산할 수 있게 됩니다.\n\n"
- military_construction2:0 "군사건설 III" 
- military_construction2_desc:0 "Military factories are being upgraded with the latest technology stolen from civilian factories around the world. Soon we will have the best machines that money can buy.\n\n"
- military_construction3:0 "군사건설 IV"
- military_construction3_desc:0 "Better coordination among work staff and management will allow us to produce equipment and vehicles faster, and of better quality.\n\n"
- military_construction4:0 "군사건설 V"
- military_construction4_desc:0 "Using computer-assisted design, we'll be able to keep our schematics up-dated and as effective as possible. Soon there will be nothing that can stop the unstoppable production lines of our nation.\n\n"
- military_construction5:0 "군사건설 VII"
- military_construction5_desc:0 "By introducing more modern and carefully calibrated drill and design mechanisms, we will be able to produce military equipment faster and more efficiently.\n\n"
- military_construction6:0 "군사건설 VII"
- military_construction6_desc:0 "Modern designs allow for factories with fewer workers each, allowing a better spread of equipment production. This will allow for greater flexibility and productivity overall.\n\n"
- military_construction7:0 "군사건설 VIII"
- military_construction7_desc:0 "Our workers know no world beside their work. Our managers keep them to their place. The line keeps moving. The wheels keep turning. The tanks roll straight off the assembly line and onto the battlefield.\n\n"
+ modern_rubber_processing_desc:0 "Fully-optimized and computer-checked polymerization processes will result in lower costs and higher output, projecting rubber production into the new age."
 
  ### Deprecated
  fuel_silos:0 "연료 저장"
@@ -2627,8 +2568,117 @@
  fuel_refining5:0 "연료 정제 V"
  fuel_refining5_desc:0 "정유 공장의 건설 과정에 새로운 방식과 향상된 배치가 사용되어 낭비가 감소했으며 처리량은 대폭 상승했습니다."
 
+ building_construction_1:0 "General Building Construction I"
+ building_construction_1_desc:0 "Through new planning methods, architectural education, and improvements in tools new means for construction can be adopted. These can be used to greatly improve our nation's construction capabilities and the efficiency of our construction, much needed if we wish to grow and refine our nation's wellbeing."
+ building_construction_2:0 "General Building Construction II"
+ building_construction_2_desc:0 "Along with better education on designs and overall architecture, our people have now learnt how to utilize technology well and make use of it for productivity. Therefore new machinery and better tools ought to be employed for construction to aid in our building capabilities and better refine our nation's variety of structures."
+ building_construction_3:0 "General Building Construction III"
+ building_construction_3_desc:0 "Technology has been well improved so as to allow even the most miniscule of corners to be picture-perfect. With precise planning and even better tools for our construction workers, we can make full use of modern technology to better our designs and make sure what we build is as sturdy and optimal as possible."
+ 
+ social_construction_1:0 "Social Building Construction I"
+ social_construction_1_desc:0 "Though the fires of the Second World War are a decade behind us now, the massive technological boom the conflict brought with it is only now beginning to become widespread in civilian life. The lessons learned from constructing infrastructure in the hellish conditions of total war will allow us to construct far more robust transport links in peacetime; the same air bases that launched bombers and ports that floated battleships will now be home and host to cruise ships and PanAm flights."                       
+ social_construction_2:0 "Social Building Construction II"
+ social_construction_2_desc:0 "Now more than ever we have come to realize the sheer power of the simple highway; it yields great cultural power as well as economic, and as more and more of our nation's people gain access to personal vehicles, we desperately need an expansion of our nascent infrastructure. By using new innovations in the fields of construction and civil engineering, we have the ability to create a strong national network of infrastructure, turning our nation into a single, co-operative machine."                       
+ social_construction_3:0 "Social Building Construction III"
+ social_construction_3_desc:0 "As our population continues to expand, so too must our transport links. Larger airports, more efficient dockyards, poly-lane concrete knots of highway inevitably tying our metropolitan areas together into a cohesive entity. Our nation's heart is beating; we must ensure that the veins are wide enough to accommodate the blood. This "Cold War" is being fought more and more on the economic battlefield, and that makes ports, roads, and dockyards our frontline soldiers."
+ social_construction_4:0 "Social Building Construction IV"
+ social_construction_4_desc:0 "We are on the precipice of something truly new and exciting; as computing technology improves at a rapid pace, experiments into "packet switching" have begun to bear fruit. In a decade, we may all be communicating over computers; perhaps we will have no need for highways and dockyards in the first place! For now, however, we ought to begin the slow process of digitization-- imagine the speed of an airport that already has your ticket number before you even show up, or the limitless potential of a fully automated toll road. By embracing this nascent technology, we can improve both the construction time and efficiency of our national infrastructure."
+
+ military_construction_1:0 "Military Building Construction I"
+ military_construction_1_desc:0 "War is the failure of the war of diplomacy, and a responsible authority must be prepared for such an eventuality. Supplements to the military itself, such as RADAR stations, forts, and anti-air guns are all necessary in order to defend the homeland in full. Such defense infrastructure will be improved and strengthened with new technology and methods. With these, the military shall have an easier time doing its job."                         
+ military_construction_2:0 "Military Building Construction II"
+ military_construction_2_desc:0 "As the pace of innovation grows faster, so too must we race to update and adapt to these new developments. Forts must be strengthened and made to hide. RADAR stations must be fortified and retrofitted with new equipment. Anti-air must have longer and longer ranges and be able to withstand outside attack. Such is the nature of this day and age, where the pace of development increases every day."                         
+ military_construction_3:0 "Military Building Construction III"
+ military_construction_3_desc:0 "Forts, RADAR, and anti-air, as the main bulwark against enemy attack, must constantly be retrofitted, expanded, and maintained. As our capabilities expand, our armies will be strengthened along with them, and victory ever more possible. Our already strong defenses shall become even stronger and more reliable in the face of enemy attack."
+ military_construction_4:0 "Military Building Construction IV"
+ military_construction_4_desc:0 "With the tense situation in the world, our strong defenses have been outfitted further with new technologies and methods. With the chances of war becoming likelier and likelier by the day, our military facilities such as airfields, troop bases, RADAR stations, and anti-air have been improved. Our country's defenses, already strong in the face of threats, will now become impregnable."
+
+ administration_construction_1:0 "Administrative Building Construction I"
+ administration_construction_1_desc:0 "The second world war saw a massive expansion of the complexity of military, governmental and private institutions. By integrating the lessons of this conflict our state can expand and improve our administrative facilities."                               
+ administration_construction_2:0 "Administrative Building Construction II"
+ administration_construction_2_desc:0 "The post war cycles of booms and busts have put the humdrum science of administration under increased focus. Efforts to make administrative and business apparatus more efficient, transparent and nimble are beginning to pay fruits as a new generation of administrators joins the workforce. "                               
+ administration_construction_3:0 "Administrative Building Construction III"
+ administration_construction_3_desc:0 "As the industrial age permitted craftsmen to automate and expand their productivity, our burgeoning age of electronics is giving office workers an array of tools to multiply the work they tackle."
+ administration_construction_4:0 "Administrative Building Construction IV"
+ administration_construction_4_desc:0 "Developing further the use of technological tool and administrative reforms allows our administrators to work on ever expanding and ever more complicated tasks as our state stays abreast of economic and technological developments."
+ 
+ education_construction_1:0 "School Construction I"
+ education_construction_1_desc:0 "The transformation of the uneducated, particularly children, into model citizens knowledgeable in the skills necessary to function in the modern world has long been considered a core duty of the government. By directing our energy into establishing schools of all levels, we can further the cause of education on a national scale."              
+ education_construction_2:0 "School Construction II"
+ education_construction_2_desc:0 "A further prioritization of educational infrastructure will allow us to produce more advanced facilities for our nation's students. Up to date science and technology teaching facilities and larger capacity spaces for physical education will also be prioritized. With schools such as these, our future will be well secured."
+ 
+ health_construction_1:0 "Hospital Construction I"
+ health_construction_1_desc:0 "Without hospitals, no nation can consider itself truly modern. A concept refined over the past centuries, hospitals allow for the organised treatment of illness and infirmity without needing to rely on local specialists. Even a small one can provide great benefit to the communities which surround it."                
+ health_construction_2:0 "Hospital Construction II"
+ health_construction_2_desc:0 "A modernised hospital has many advances from their older kin. Be it improved design layouts, technology or even dedicated research facilities, it all goes towards ensuring greater results and comfort for the patients of a given facility. "
+ 
+ prison_construction_1:0 "Prison Construction I"
+ prison_construction_1_desc:0 "Sometimes, those persons who fundamentally disagree with the way society runs cannot be allowed to remain inside it, and must be separated from regular life. The prison system is the means by which this is done, punishing those guilty of crime in the eye of a given society."              
+ prison_construction_2:0 "Prison Construction II"
+ prison_construction_2_desc:0 "If a prison can be escaped, it is not a particularly effective facility. Improved layouts for the facility and training for personnel goes a long way towards mitigating not only escapes, but also improves the livelihood of those incarcerated to some degree. If those in charge will it of course."
+ 
+ army_base_construction_1:0 "Military Base Construction I"
+ army_base_construction_1_desc:0 "Every unit that we have in the field requires at least one base facility back home. It is in these sprawling complexes that soldiers spend most of their time in between deployment. Fielding a strong force depends in no small part on our military facilities. Luckily, we have plenty of recent records to draw on, allowing us to see what works, what does not, and what can be improved."                     
+ army_base_construction_2:0 "Military Base Construction II"
+ army_base_construction_2_desc:0 "By standardizing the layout of our military bases we can significantly decrease the time and effort required to build new complexes. Further, removing extraneous facilities from our plans will cut costs to both time and resources."
+ 
+ production_unit_gain_1:0 "Industry Management I"
+ production_unit_gain_1_desc:0 "The art of industrial management is a burgeoning new field with enormous potential to improve our production yields a thousandfold. From ensuring that all the paperwork that coordinates the activities of the 4 M's - Man, Material, Machine and Method - are in order, to simplifying wasteful processes and supply chains, in order for our industry to compete on the global scale (and satisfy our domestic demands) both private companies and our own nationalized firms are beginning to dedicate significant sections of their managerial class to this new discipline."
+ production_unit_gain_2:0 "Industry Management II"
+ production_unit_gain_2_desc:0 "With the increasing rationalization of our industrial practices comes friction with the ones who actually carry them out. Industrial unions have emerged as a powerful force representing the workers and their demands for higher wages and increased benefits, and it is the job of the new industrial manager to accommodate their demands while maintaining high productivity - either for the state and its demands, or the voracious appetite of the free market."
+ production_unit_gain_3:0 "Industry Management III"
+ production_unit_gain_3_desc:0 "Automotive companies were the first to realize how dramatically production output and quality increase by utilizing a system of group assembly, where a group of workers is responsible for the entire process of assembly of one car, as opposed to the previous method of line assembly. Now these ideas are spreading rapidly as the cutting edge in industrial management, and their results in productivity are tremendous - as are their effects on morale."
+ production_unit_gain_4:0 "Industry Management IV"
+ production_unit_gain_4_desc:0 "The introduction of the system of 'quality circles', whereby workers are now involved in the management process by being allowed to make suggestions to improve production efficiency, has started yet another revolution in the management of industries globally. In some cases, designated 'leaders' have been given the right to halt production entirely if they notice a flaw occurring - while this has tremendously increased build and output quality, it has concentrated a huge amount of power in the hands of the workers, something the field appears to be concerned about."
+ production_unit_gain_5:0 "Industry Management V"
+ production_unit_gain_5_desc:0 "Techniques for improving productivity not only involve workers and their specific roles but also layout and spatial organization. New methods of planning now incorporate specific factory designs with segmented and interlinked regions to minimize wasteful space and keep the flow of production running with as few obstacles as possible - requiring changes in layout, job assignment, and renovation handled in as smooth and well-planned a fashion as possible."
+ production_unit_gain_6:0 "Industry Management VI"
+ production_unit_gain_6_desc:0 "Developments in spatial organization have coincided with the first wave of introduction of industrial robots - currently simple machines that can only perform the simplest and most repetitive of tasks, albeit at a fraction of the long-term cost of a human worker. Managing the acquisition of these machines and intelligently placing them in the most important parts of the production line without causing disputes with the existing workforce is rapidly becoming a vital function of any good industrial manager. "
+ production_unit_gain_7:0 "Industry Management VII"
+ production_unit_gain_7_desc:0 "Advances in computing and robotics technology offer unparalleled opportunities to streamline the process of personnel management - though the initial investment in these highly advanced and technical machines is prohibitively costly at this time. Radical new ideas of diversifying the locations of factories (even abroad) have gained so much traction they now influence the political process. Nations and companies stuck in the ways of the past now lose ground daily to those utilizing the new techniques, making continued advancement all the more required."
+ production_unit_gain_8:0 "Industry Management VIII"
+ production_unit_gain_8_desc:0 "Dramatic shifts have occurred globally in the theories of how to manage industries, and there are now multiple competing streams almost aligned with the geopolitical situation. Techniques for breaking the power of unions entirely using competing incentives like stock options, and even shifting entire enterprises to different countries with less heavy labor law have become predominant in some parts. Others incorporate them entirely into the process using their ideological alignment. Some mix and match - but the end result is a completely changed industrial landscape of equal parts man and robotic machine."
+ production_unit_gain_9:0 "Industry Management IX"
+ production_unit_gain_9_desc:0 "The field of industrial management is unrecognizable from its inception several decades ago. Highly advanced practices utilizing a mixture of robots, advanced computers, and men have resulted in industrial behemoths capable of producing several times the output of what would have taken decades to complete just a few years ago. In order to keep this titanic productive capacity functional and in control modern industrial managers and techniques are more in demand than ever, and those that employ them have an immense and unbeatable competitive advantage."
+ 
+ consumer_goods_reduction_1:0 "Consumer Goods Production Efficiency I"
+ consumer_goods_reduction_1_desc:0 "Consumer goods comprise the things our citizens enjoy in their normal everyday lives. However, inefficiencies in their production can prove wasteful towards other needs of the state. Therefore, technological improvements should be used to increase the efficiency of production and keep both the nation and its people satisfied."
+ consumer_goods_reduction_2:0 "Consumer Goods Production Efficiency II"
+ consumer_goods_reduction_2_desc:0 "They may be well desired by our people, but the fact still remains that consumer goods put a burden on our nation's production capabilities and can clog up factories and divest resources from being put to use in national needs, such as military equipment. Improving this issue will be much needed for the future."
+ consumer_goods_reduction_3:0 "Consumer Goods Production Efficiency III"
+ consumer_goods_reduction_3_desc:0 "Consumer goods consist of the wide array of necessities our people make use of consistently. It is therefore vital that we learn to manufacture such goods with the least waste, so that more of our citizens can procure such goods while also allowing for our country to invest more resources into important military matters."
+ consumer_goods_reduction_4:0 "Consumer Goods Production Efficiency IV"
+ consumer_goods_reduction_4_desc:0 "Even more prevalent these days is the rise in technology and machinery in the day-to-day lives of our citizens and the items they obtain, which have proven to be effective for them but will take a toll on our factories to produce. Therefore, refining production will help better prepare for the mass-production of these personal devices."
+ consumer_goods_reduction_5:0 "Consumer Goods Production Efficiency V"
+ consumer_goods_reduction_5_desc:0 "Consumer goods include the belongings, technology, utilities, and tools used by our countrymen on a daily basis. With technological advancements becoming even more pronounced, they allow people to greatly improve the efficiency of their everyday tasks. So too can technology be used to maximize the productivity of the making of these goods, so as to ease the load of our nation's industry as a whole."
+ consumer_goods_reduction_6:0 "Consumer Goods Production Efficiency VI"
+ consumer_goods_reduction_6_desc:0 "As our industry burgeons and both the world, and our country's innovators and engineers make headway into streamlining production and design, the rate at which we produce our consumer goods increase, and the negative impact it has on the rest of our economy is beginning to lessen gradually. The production of consumer goods is a vital part of the economy, and as we produce and our people buy, the flow of money into our economy will benefit us greatly."
+ consumer_goods_reduction_7:0 "Consumer Goods Production Efficiency VII"
+ consumer_goods_reduction_7_desc:0 "With the popularization of computers as more than just big, clunky devices used to crack ciphers or count censuses, the production efficiency of our economy has increased up to an even greater point. The competition between making consumer goods and the rest of our economy seems to be lessening, as new methods to increase our productivity make both our lives, and our citizens' lives easier."
+ consumer_goods_reduction_8:0 "Consumer Goods Production Efficiency VIII"
+ consumer_goods_reduction_8_desc:0 "Upstart new entrepreneurs make computers that the average person can put into their home, and production methods, supervision, and coordination have all advanced with the passing of time. As the economy develops, consumer goods fly off the shelves, injecting money into our economy and benefiting everyone that takes a part in it. The part of our economy that produces consumer goods is no longer such a ball and chain like it was in the years past."
+ consumer_goods_reduction_9:0 "Consumer Goods Production Efficiency IX"
+ consumer_goods_reduction_9_desc:0 "The economy soars. Worldwide, the efficiency of consumer goods is no longer a detriment any longer, owing to the culmination of decades of technological development: be it computers, tools, or factory organization. Both civilian and military sectors of our economy work in almost tandem, the burden of producing consumer goods having been eased as much as possible. With the prevalence of ever advancing computers, we expect this trend will only continue into the future."
+ 
+ energy_technology_1:0 "Energy Production Technology"
+ energy_technology_1_desc:0 "Energy is the single most important resource for any nation in the current era, being the lifeline by which all the vital processes which sustain both state and private enterprise are maintained. Modern processes for Coal and Oil production and processing generate several times the output of previous techniques, important both for industrializing nations struggling to escape their agrarian past and developed nations attempting to carve out their mark on the world. Output, more than efficiency, is the keyword of today - he who controls the power controls the world."
+ energy_technology_2:0 "Improved Energy Production Technology"
+ energy_technology_2_desc:0 "A virtual arms race has begun in the field of energy production, now more heavily in the field of oil processing than any other fuel. The petroleum industry has become both immensely profitable and extremely vital for materials science with the emergence of plastics, and has pioneered techniques that not only include extremely high-volume shipping of immense quantities of oil across the seas, but large-scale processing and destructive refinement that has steadily increased in power output to match the endless hunger of both civilian and military demands."
+ energy_technology_3:0 "Advanced Energy Production Technology"
+ energy_technology_3_desc:0 "It all came crashing down with the global oil crisis. With dramatic shocks to oil supply, the energy industry adapted as rapidly as it could towards maximum efficiency and alternative sources of energy, seeking to extract as much fuel as they possibly could from what supplies exist within their operational borders, as well as utilizing previously underused sectors. Natural gas, once burned off in gigantic flares at pump sites, has emerged as a modern champion - and techniques such as fracking, involving the internal shattering of deep bedrock formations with a fluid, have allowed previously untappable reserves to be accessed. The environmental cost of these new methods, however, is now a hotly contested debate."
+ energy_technology_4:0 "Modern Energy Production Technology"
+ energy_technology_4_desc:0 "Computers and digitization have begun to emerge in this field as in many others to optimize and maximize the production cycle in previously unimaginable ways, and a new order has emerged from the ashes of the Oil Crisis. While the black gold remains the lifeblood of empires, Biofuels and increased use of non-combustion based sources have begun to radically reshape the way nations and consumers partake in the energy cycle. Increased popular demand for environmental protections has also emerged as a growingly severe side-effect of the more ruthless techniques of extraction now in common use. Global fuel consumption has skyrocketed nations previously dominated by other powers come into their own and carve out their own industries and demands. The future is anyone's game, now more than ever."
+ 
+ nuclear_technology_1:0 "Nuclear Energy Technology"
+ nuclear_technology_1_desc:0 "The most titanic conflicts ever witnessed in history came to an end in the previous decade with humanity finally reaching the atomic frontier and harnessing the power of the fundamental constituents of reality - and then proceeding to use this immense energy in acts of immense and unprecedented destruction. Out of this burning, lethally radioactive fallout emerged the New Order - and the Atomic Age. Now, peaceful applications of that wartime research are rapidly emerging, as the potential for limitless energy and a post-scarcity world have begun to capture the imagination of millions of people."
+ nuclear_technology_2:0 "Improved Nuclear Energy Technology"
+ nuclear_technology_2_desc:0 "Improvements in nuclear power have advanced steadily as prototypes of 'nuclear submarines' and other atomic-powered vehicles begin reaching the experimental production stage. Fusion, once dismissed as the sole domain of the stars, is now the ultimate goal of nuclear engineers, with reactors the size of megaprojects being proposed in an attempt to harness this seemingly inexhaustible source. The materials science required, however, still seems to be tantalizingly out of the grasp of current science."
+ nuclear_technology_3:0 "Advanced Nuclear Energy Technology"
+ nuclear_technology_3_desc:0 "The Oil Crisis has provoked massive funding from both governments and private sources into the avenue of nuclear power, with fission reactors assuming increasingly important roles across the power grids of advanced nations. Though energy output has increased exponentially with the development of the technology, so has the waste produced - and nuclear waste remains a hazard for dozens of generations after it is created. Solutions to efficient waste disposal and maximising the output of energy with as little nuclear fuel as possible has become the driving force behind the current industry, with other concerns thrown to the wayside."
+ nuclear_technology_4:0 "Modern Nuclear Energy Technology"
+ nuclear_technology_4_desc:0 "As the crisis in fossil fuel supply eased, nuclear power has assumed less of a last-ditch role and become increasingly integrated and accepted as a standard component of the fuel grid. With fusion power remaining out of reach despite immense efforts to create a practical, net-gain reactor design, fission power has become by far the dominant field of both construction and research. Though occasional voices point to the potential safety dangers and apparent flaws in reactor design, nuclear energy as a percentage of output only seems to be increasing - and this trend is unlikely to change without some sort of radical reassessment of the technology."
+ 
  ### Unsure
  concentrated_industry_category:0 "산업 집중 기술"
  dispersed_industry_category:0 "산업 분산 기술"
 #### INDUSTRY FOLDER ####
-
