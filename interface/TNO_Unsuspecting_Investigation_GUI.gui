@@ -165,7 +165,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "Burgundy_GUI_RPY_Title"
 			font = "aldrich_36_outline"
-			text = "Red Poppy"
+			text = "개양귀비 운동"
 			position = { x = 402 y = 200 }
 			format = center
 			alwaystransparent = yes
@@ -1125,7 +1125,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
 			buttonFont = "aldrich_18_outline"
 			text = BRG_DeGrelle_Portrait_Action_1
-			#pdx_tooltip =
+			pdx_tooltip = BRG_DeGrelle_Dead_End
 		}
 		buttonType = {
 			name = "BRG_Investigation_GUI_Walloon_Leader_Window_Button_2"
@@ -1133,6 +1133,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
 			buttonFont = "aldrich_18_outline"
 			text = BRG_DeGrelle_Portrait_Action_2
+			pdx_tooltip = BRG_DeGrelle_Dead_End
 		}
 		buttonType = {
 			name = "BRG_Investigation_GUI_Walloon_Leader_Window_Button_3"
@@ -1140,6 +1141,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
 			buttonFont = "aldrich_18_outline"
 			text = BRG_DeGrelle_Portrait_Action_3
+			pdx_tooltip = BRG_DeGrelle_Dead_End
 		}
 
 		buttonType = {
@@ -1214,80 +1216,6 @@ guiTypes = {
 
 		buttonType = {
 			name = "BRG_Investigation_GUI_Walloon_Evidence_Window_close_button"
-			position = { x = -29 y = 10 }
-			quadTextureSprite = "GFX_crt_closebutton"
-			shortcut = "ESCAPE"
-			Orientation = "UPPER_RIGHT"
-			clicksound = click_close
-			pdx_tooltip = "CLOSE"
-		}
-	}
-
-	containerWindowType = {
-		name = "TNO_Burgundy_Investigation_GUI_Walloon_Evidence_Action_Window"
-		size = { width = 300 height = 250 }
-		position = { x = 975 y = 425 }
-		moveable = yes
-
-		background = {
-			name = "Background"
-			quadTextureSprite = "GFX_tiled_window_thin_border2"
-		}
-
-		instantTextboxType = {
-			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Title"
-			position = { x = 0 y = 35 }
-			font = "aldrich_30_outline"
-			text = "조사 시작"
-			maxWidth = 300
-			format = center
-		}
-
-		instantTextboxType = {
-			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Intel"
-			position = { x = 0 y = 94 }
-			font = "aldrich_30_outline"
-			text = "[?BRG_Used_Intel_In_Operation] 첩보력 사용"
-			maxWidth = 300
-			maxHeight = 20
-			format = center
-		}
-
-		buttonType = {
-			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Minus_Intel"
-			position = { x = 19 y = 89 }
-			quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
-		}
-
-		buttonType = {
-			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Plus_Intel"
-			position = { x = 245 y = 89 }
-			quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
-		}
-
-		instantTextboxType = {
-			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Percent"
-			position = { x = 0 y = 144 }
-			font = "aldrich_30_outline"
-			text = "[GetBRG_Investigation_Chance_Tooltip]"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 300
-			maxHeight = 300
-			format = center
-			scrollbarType = standardtext_slider
-		}
-
-		buttonType = {
-			name = "BRG_Investigation_Walloon_Walloon_Evidence_Action_Window_Button"
-			position = { x = 19 y = 192 }
-			quadTextureSprite = "GFX_BRG_DomesticGUI_Button"
-			buttonFont = "aldrich_24_outline"
-			text = "실행"
-			#pdx_tooltip =
-		}
-
-		buttonType = {
-			name = "BRG_Investigation_GUI_Walloon_Evidence_Action_Window_close_button"
 			position = { x = -29 y = 10 }
 			quadTextureSprite = "GFX_crt_closebutton"
 			shortcut = "ESCAPE"
