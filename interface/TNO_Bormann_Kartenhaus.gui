@@ -1,12 +1,12 @@
 guiTypes = {
 
 	containerWindowType = {
-		name = "TNO_Bormann_InfMech_AccessButton"
+		name = "TNO_Bormann_Kartenhaus_AccessButton"
 		size = { width = 220 height = 128 }
 		position = { x = 0 y = 289 }
 
 		buttonType = {
-			name = "TNO_Bormann_InfMech_OpenButton"
+			name = "TNO_Bormann_Kartenhaus_OpenButton"
 			quadTextureSprite = "GFX_BOR_SIG_open_button"
 			scale = 0.68
 			position = { x = 238 y = 36 }
@@ -26,7 +26,7 @@ guiTypes = {
 	#### Main Display ####
 	## Primary
 	containerWindowType = {
-		name = "TNO_Bormann_InfMech_Display"
+		name = "TNO_Bormann_Kartenhaus_Display"
 		# size = { width = 989 height = 850 }
 		size = { width = 1182 height = 842 }
 		position = { x = 538 y = 77 }
@@ -44,45 +44,45 @@ guiTypes = {
 		## Top Bar
 		# Title Box
 		iconType = {
-			name = "InfMech_TitleBox"
-			spriteType = "GFX_InfMech_TitleBox"
+			name = "Kartenhaus_TitleBox"
+			spriteType = "GFX_Kartenhaus_TitleBox"
 			position = { x = 19 y = 17 }
 		}
 		# Title
 		instantTextBoxType = {
-			name = "InfMech_Title"
+			name = "Kartenhaus_Title"
 			position = { x = 23 y = 22 }
 			maxWidth = 640
 			maxHeight = 46
 			format = center
 			orientation = upper_left
 			font = "aldrich_48_outline"
-			text = "InfMech_Title_text"
+			text = "Kartenhaus_Title_text"
 		}
 		# Info Button
 		# buttonType = {
-		# 	name = "InfMech_InfoButton"
-		# 	spriteType = "GFX_InfMech_InfoButton"
+		# 	name = "Kartenhaus_InfoButton"
+		# 	spriteType = "GFX_Kartenhaus_InfoButton"
 		# 	position = { x = 613 y = 17 }
-		# 	pdx_tooltip = InfMech_InfoButton_tt
+		# 	pdx_tooltip = Kartenhaus_InfoButton_tt
 		# 	clicksound = click_ok
 		# }
 
 		# Dismantlement Button
 		buttonType = {
-			name = "InfMech_DismantleBtn"
-			spriteType = "GFX_InfMech_DismantleButton"
+			name = "Kartenhaus_DismantleBtn"
+			spriteType = "GFX_Kartenhaus_DismantleButton"
 			position = { x = 678 y = 17 }
 			buttonFont = "aldrich_36_outline"
-			text = "[BOR_InfMech_GUI_DismantleBTN]"
-			pdx_tooltip = InfMech_DismantleBtn_tt
+			text = "[BOR_Kartenhaus_GUI_DismantleBTN]"
+			pdx_tooltip = Kartenhaus_DismantleBtn_tt
 			clicksound = click_ok
 		}
 
 		# Close Button
 		buttonType = {
-			name = "InfMech_CloseBtn"
-			spriteType = "GFX_InfMech_CloseButton"
+			name = "Kartenhaus_CloseBtn"
+			spriteType = "GFX_Kartenhaus_CloseButton"
 			position = { x = 916 y = 17 }
 			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE"
@@ -93,7 +93,7 @@ guiTypes = {
 		## Control & Faction Power
 		# Title
 		instantTextBoxType = {
-			name = "TNO_InfMech_ControlPower_Title"
+			name = "TNO_Kartenhaus_ControlPower_Title"
 			position = { x = 21 y = 72 }
 			maxWidth = 643
 			maxHeight = 37
@@ -105,8 +105,8 @@ guiTypes = {
 
 		# Control Bar
 		iconType = {
-			name = "InfMech_ControlBar"
-			spriteType = "GFX_InfMech_ControlBar"
+			name = "Kartenhaus_ControlBar"
+			spriteType = "GFX_Kartenhaus_ControlBar"
 			position = { x = 21 y = 105 }
 			#frame = 64
 			pdx_tooltip = GER_BOR_ControlBar_tooltip
@@ -115,28 +115,28 @@ guiTypes = {
 		
 		# Power Bar
 		iconType = {
-			name = "InfMech_PowerBar_Base"
-			spriteType = "GFX_InfMech_PowerBar_Base"
+			name = "Kartenhaus_PowerBar_Base"
+			spriteType = "GFX_Kartenhaus_PowerBar_Base"
 			position = { x = 21 y = 132 }
 			pdx_tooltip = BOR_PowerBar_tooltip
 		}
 		iconType = {
-			name = "InfMech_PowerBar_Left"
-			spriteType = "GFX_InfMech_PowerBar_RC"
-			position = { x = 21 y = 132 }
+			name = "Kartenhaus_PowerBar_Left"
+			spriteType = "GFX_Kartenhaus_PowerBar_RC"
+			position = { x = 21 y = 131 }
 			alwaystransparent = yes
 		}
 		iconType = {
-			name = "InfMech_PowerBar_Right"
-			spriteType = "GFX_InfMech_PowerBar_CM"
-			position = { x = 21 y = 132 }
+			name = "Kartenhaus_PowerBar_Right"
+			spriteType = "GFX_Kartenhaus_PowerBar_CM"
+			position = { x = 21 y = 131 }
 			alwaystransparent = yes
 		}
 
 		## Faction Loyalty
 		# Title
 		instantTextBoxType = {
-			name = "TNO_InfMech_FactionLoyalty_Title"
+			name = "TNO_Kartenhaus_FactionLoyalty_Title"
 			position = { x = 678 y = 69 }
 			maxWidth = 291
 			maxHeight = 37
@@ -148,108 +148,108 @@ guiTypes = {
 
 		# Container
 		containerWindowType = {
-			name = "InfMech_FactionLoyalty_Container"
+			name = "Kartenhaus_FactionLoyalty_Container"
 			position = { x = 678 y = 102 }
 			size = { width = 291 height = 55 }
 
 			# Box
 			background = {
 				name = "Background"
-				spriteType = "GFX_InfMech_FactionLoyalty_Box"
+				spriteType = "GFX_Kartenhaus_FactionLoyalty_Box"
 			}
 
 			## Reformist
 			# Text
 			instantTextBoxType = {
-				name = "InfMech_FactionLoyalty_Title_Reformist"
+				name = "Kartenhaus_FactionLoyalty_Title_Reformist"
 				position = { x = 2 y = 2 }
 				maxWidth = 95
 				maxHeight = 18
 				format = left
 				orientation = upper_left
 				font = "aldrich_16_outline"
-				text = InfMech_FactionLoyalty_Title_Reformist_text
+				text = Kartenhaus_FactionLoyalty_Title_Reformist_text
 			}
 			# Bar
 			iconType = {
-				name = "InfMech_FactionLoyalty_Bar_Reformist"
-				spriteType = "GFX_InfMech_FactionLoyalty_Bar_Reformist"
-				position = { x = 100 y = 3 }
+				name = "Kartenhaus_FactionLoyalty_Bar_Reformist"
+				spriteType = "GFX_Kartenhaus_FactionLoyalty_Bar_Reformist"
+				position = { x = 100 y = 2 }
 				frame = 50
-				pdx_tooltip = InfMech_FactionLoyalty_Bar_Reformist_tt
+				pdx_tooltip = Kartenhaus_FactionLoyalty_Bar_Reformist_tt
 			}
 
 			# Dismantled text
 			instantTextBoxType = {
-				name = "InfMech_FactionLoyalty_Title_Reformist_Dismantled"
+				name = "Kartenhaus_FactionLoyalty_Title_Reformist_Dismantled"
 				position = { x = 95 y = 3 }
 				format = center
 				orientation = upper_left
 				font = "aldrich_16_outline"
-				text = InfMech_FactionLoyalty_Title_Dismantled_text
+				text = Kartenhaus_FactionLoyalty_Title_Dismantled_text
 			}
 
 			## Conservative
 			# Text
 			instantTextBoxType = {
-				name = "InfMech_FactionLoyalty_Title_Conservative"
+				name = "Kartenhaus_FactionLoyalty_Title_Conservative"
 				position = { x = 2 y = 19 }
 				maxWidth = 100
 				maxHeight = 18
 				format = left
 				orientation = upper_left
 				font = "aldrich_16_outline"
-				text = InfMech_FactionLoyalty_Title_Conservative_text
+				text = Kartenhaus_FactionLoyalty_Title_Conservative_text
 			}
 			# Bar
 			iconType = {
-				name = "InfMech_FactionLoyalty_Bar_Conservative"
-				spriteType = "GFX_InfMech_FactionLoyalty_Bar_Conservative"
-				position = { x = 100 y = 20 }
+				name = "Kartenhaus_FactionLoyalty_Bar_Conservative"
+				spriteType = "GFX_Kartenhaus_FactionLoyalty_Bar_Conservative"
+				position = { x = 100 y = 19 }
 				frame = 50
-				pdx_tooltip = InfMech_FactionLoyalty_Bar_Conservative_tt
+				pdx_tooltip = Kartenhaus_FactionLoyalty_Bar_Conservative_tt
 			}
 
 			## Militarist
 			# Text
 			instantTextBoxType = {
-				name = "InfMech_FactionLoyalty_Title_Militarist"
+				name = "Kartenhaus_FactionLoyalty_Title_Militarist"
 				position = { x = 2 y = 36 }
 				maxWidth = 95
 				maxHeight = 18
 				format = left
 				orientation = upper_left
 				font = "aldrich_16_outline"
-				text = InfMech_FactionLoyalty_Title_Militarist_text
+				text = Kartenhaus_FactionLoyalty_Title_Militarist_text
 			}
 			# Bar
 			iconType = {
-				name = "InfMech_FactionLoyalty_Bar_Militarist"
-				spriteType = "GFX_InfMech_FactionLoyalty_Bar_Militarist"
-				position = { x = 100 y = 37 }
+				name = "Kartenhaus_FactionLoyalty_Bar_Militarist"
+				spriteType = "GFX_Kartenhaus_FactionLoyalty_Bar_Militarist"
+				position = { x = 100 y = 36 }
 				frame = 50
-				pdx_tooltip = InfMech_FactionLoyalty_Bar_Militarist_tt
+				pdx_tooltip = Kartenhaus_FactionLoyalty_Bar_Militarist_tt
 			}
 
 			# Dismantled text
 			instantTextBoxType = {
-				name = "InfMech_FactionLoyalty_Title_Militarist_Dismantled"
+				name = "Kartenhaus_FactionLoyalty_Title_Militarist_Dismantled"
 				position = { x = 95 y = 37 }
 				format = center
 				orientation = upper_left
 				font = "aldrich_16_outline"
-				text = InfMech_FactionLoyalty_Title_Dismantled_text
+				text = Kartenhaus_FactionLoyalty_Title_Dismantled_text
 			}
 		}
 
 		## SIG List
 		containerWindowType = {
-			name = "InfMech_SIGList"
+			name = "Kartenhaus_SIGList"
 			size = { width = 658 height = 667 }
 			position = { x = 14 y = 165 }
 
 			gridboxtype = {
-				name = "InfMech_SIGGridBox"
+				name = "Kartenhaus_SIGGridBox"
 				format = "UPPER_LEFT"
 
 				add_horizontal = yes
@@ -260,76 +260,70 @@ guiTypes = {
 
 		##DEBUG
 		buttonType = {
-			name = "InfMech_logs_debug_setup"
+			name = "Kartenhaus_logs_debug_setup"
 			spriteType = "GFX_add_one"
 			position = { x = 970 y = 168 }
 			pdx_tooltip = "BOR_LogList_dbg_setup"
 		}
 		buttonType = {
-			name = "InfMech_logs_debug_add_remove"
+			name = "Kartenhaus_logs_debug_add_remove"
 			spriteType = "GFX_add_one"
 			position = { x = 970 y = 198 }
 			pdx_tooltip = "BOR_LogList_dbg_add_remove"
 		}
 		buttonType = {
-			name = "InfMech_logs_debug_cycle"
+			name = "Kartenhaus_logs_debug_add_interaction"
 			spriteType = "GFX_add_one"
 			position = { x = 970 y = 228 }
-			pdx_tooltip = "BOR_LogList_dbg_cycle"
-		}
-		buttonType = {
-			name = "InfMech_logs_debug_add_interaction"
-			spriteType = "GFX_add_one"
-			position = { x = 970 y = 258 }
 			pdx_tooltip = "BOR_LogList_dbg_add_interaction"
 		}
 		buttonType = {
-			name = "InfMech_logs_debug_reformist_support"
+			name = "Kartenhaus_logs_debug_reformist_support"
 			spriteType = "GFX_add_one"
-			position = { x = 970 y = 288 }
+			position = { x = 970 y = 258 }
 			pdx_tooltip = "BOR_LogList_dbg_reformist_support"
 		}
 		buttonType = {
-			name = "InfMech_logs_debug_conservative_support"
+			name = "Kartenhaus_logs_debug_conservative_support"
 			spriteType = "GFX_add_one"
-			position = { x = 970 y = 318 }
+			position = { x = 970 y = 288 }
 			pdx_tooltip = "BOR_LogList_dbg_conservative_support"
 		}
 		buttonType = {
-			name = "InfMech_logs_debug_militarist_support"
+			name = "Kartenhaus_logs_debug_militarist_support"
 			spriteType = "GFX_add_one"
-			position = { x = 970 y = 348 }
+			position = { x = 970 y = 318 }
 			pdx_tooltip = "BOR_LogList_dbg_militarist_support"
 		}
 		buttonType = {
-			name = "InfMech_logs_debug_kill_the_church"
+			name = "Kartenhaus_logs_debug_kill_the_church"
 			spriteType = "GFX_add_one"
-			position = { x = 970 y = 378 }
+			position = { x = 970 y = 348 }
 			pdx_tooltip = "BOR_LogList_dbg_kill_the_church"
 		}
 		buttonType = {
-			name = "InfMech_logs_debug_AI_test"
+			name = "Kartenhaus_logs_debug_AI_test"
 			spriteType = "GFX_add_one"
-			position = { x = 970 y = 408 }
+			position = { x = 970 y = 378 }
 			pdx_tooltip = "BOR_LogList_dbg_AI_test"
 		}
 		##
 
 		#Logs
 		containerWindowType = {
-			name = "TNO_InfMech_InteractionsInfo_Container"
+			name = "TNO_Kartenhaus_InteractionsInfo_Container"
 			position = { x = 678 y = 168 }
 			size = { width = 292 height = 660 }
 	
 			background = {
 				name = "Background"
-				quadTextureSprite = "GFX_InfMech_LogBox"
+				quadTextureSprite = "GFX_Kartenhaus_LogBox"
 			}
 
 			##Log Box
 			#Title
 			instantTextBoxType = {
-				name = "TNO_InfMech_LogBox_Title"
+				name = "TNO_Kartenhaus_LogBox_Title"
 				position = { x = 4 y = 8 }
 				maxWidth = 284
 				maxHeight = 37
@@ -341,7 +335,7 @@ guiTypes = {
 
 			#Logs
 			containerWindowType = {
-				name = "TNO_InfMech_LogBox_Logs"
+				name = "TNO_Kartenhaus_LogBox_Logs"
 				size = { width = 280 height = 496 }
 				position = { x = 6 y = 44 }
 
@@ -349,11 +343,11 @@ guiTypes = {
 
 				background = {
 					name = "Background"
-					quadTextureSprite = "InfMech_Log_Scrollbar_Background"
+					quadTextureSprite = "GFX_tiled_window_transparent"
 				}
 
 				gridboxtype = {
-					name = "TNO_InfMech_LogBox_Gridbox"
+					name = "TNO_Kartenhaus_LogBox_Gridbox"
 					format = "UPPER_LEFT"
 
 					add_horizontal = no
@@ -365,7 +359,7 @@ guiTypes = {
 			##Count Box
 			#Title
 			instantTextBoxType = {
-				name = "TNO_InfMech_CountBox_Title"
+				name = "TNO_Kartenhaus_CountBox_Title"
 				position = { x = 3 y = 559 }
 				maxWidth = 284
 				maxHeight = 36
@@ -376,21 +370,21 @@ guiTypes = {
 			}
 			#Count
 			instantTextBoxType = {
-				name = "TNO_InfMech_CountBox_Count"
+				name = "TNO_Kartenhaus_CountBox_Count"
 				position = { x = 4 y = 568 }
 				maxWidth = 284
 				maxHeight = 92
 				format = center
 				orientation = upper_left
 				font = "vt323_72_WT_outline"
-				text = "BOR_InfMech_InteractionsCountDisp"
+				text = "BOR_Kartenhaus_InteractionsCountDisp"
 			}
 		}
 
 		### Card ###
 		## Primary
 		containerWindowType = {
-			name = "TNO_Bormann_InfMech_Card"
+			name = "TNO_Bormann_Kartenhaus_Card"
 			size = { width = 207 height = 287 }
 			# position = { x = 1521 y = 640 }
 			# position = { x = 979 y = 563 }
@@ -404,321 +398,321 @@ guiTypes = {
 
 			# SIG Background
 			iconType = {
-				name = "TNO_Bormann_InfMech_Card_BG"
-				spriteType = "GFX_InfMech_Cards_bg_bureaucracy"
+				name = "TNO_Bormann_Kartenhaus_Card_BG"
+				spriteType = "GFX_Kartenhaus_Cards_bg_bureaucracy"
 				position = { x = 32 y = 44 }
 				#scale = 1.22
 			}
 			
 			# Boundary - Status
 			iconType = {
-				name = "TNO_Bormann_InfMech_Card_Boundary"
-				# spriteType = "GFX_InfMech_Cards_StatusContainer"
+				name = "TNO_Bormann_Kartenhaus_Card_Boundary"
+				# spriteType = "GFX_Kartenhaus_Cards_StatusContainer"
 				position = { x = 15 y = 19 }
 				# frame = 5
 			}
 
 			# Header - Icons
 			iconType = {
-				name = "TNO_Bormann_InfMech_Card_Header_IconLeft"
-				spriteType = "GFX_InfMech_Cards_mini_bureaucracy"
+				name = "TNO_Bormann_Kartenhaus_Card_Header_IconLeft"
+				spriteType = "GFX_Kartenhaus_Cards_mini_bureaucracy"
 				position = { x = 18 y = 26 }
 			}
 			iconType = {
-				name = "TNO_Bormann_InfMech_Card_Header_IconRight"
-				spriteType = "GFX_InfMech_Cards_mini_bureaucracy"
+				name = "TNO_Bormann_Kartenhaus_Card_Header_IconRight"
+				spriteType = "GFX_Kartenhaus_Cards_mini_bureaucracy"
 				position = { x = 161 y = 26 }
 			}
 
 			# Header - Text
 			instantTextBoxType = {
-				name = "TNO_Bormann_InfMech_Card_Header_Text"
+				name = "TNO_Bormann_Kartenhaus_Card_Header_Text"
 				position = { x = 0 y = 32 }
 				maxWidth = 207
 
 				font = "aldrich_16_outline"
 				format = center
-				text = "TNO_Bormann_InfMech_Card_Header_Text_text"
-				pdx_tooltip = TNO_Bormann_InfMech_Card_Header_Text_tt
-				pdx_tooltip_delayed = TNO_Bormann_InfMech_Card_Header_Text_ttd
+				text = "TNO_Bormann_Kartenhaus_Card_Header_Text_text"
+				pdx_tooltip = TNO_Bormann_Kartenhaus_Card_Header_Text_tt
+				pdx_tooltip_delayed = TNO_Bormann_Kartenhaus_Card_Header_Text_ttd
 			}
 
 			# Header - Divider
 			iconType = {
-				name = "TNO_Bormann_InfMech_Card_Header_Divider"
-				spriteType = "GFX_Bormann_InfMech_Card_Divider_2"
+				name = "TNO_Bormann_Kartenhaus_Card_Header_Divider"
+				spriteType = "GFX_Bormann_Kartenhaus_Card_Divider_2"
 				position = { x = 22 y = 57 }
 			}
 
 			# Loyalty Bar
 			iconType = {
-				name = "TNO_Bormann_InfMech_Card_LoyaltyBar_Base"
-				spriteType = "GFX_InfMech_Cards_SmallBar_Base"
+				name = "TNO_Bormann_Kartenhaus_Card_LoyaltyBar_Base"
+				spriteType = "GFX_Kartenhaus_Cards_SmallBar_Base"
 				position = { x = 21 y = 68 }
-				pdx_tooltip = TNO_Bormann_InfMech_Card_LoyaltyBar_Base_tt
-				pdx_tooltip_delayed = TNO_Bormann_InfMech_Card_LoyaltyBar_Base_ttd
+				pdx_tooltip = TNO_Bormann_Kartenhaus_Card_LoyaltyBar_Base_tt
+				pdx_tooltip_delayed = TNO_Bormann_Kartenhaus_Card_LoyaltyBar_Base_ttd
 			}
 			iconType = {
-				name = "TNO_Bormann_InfMech_Card_LoyaltyBar_Left"
-				spriteType = "GFX_InfMech_Cards_SmallBar_RC"
-				position = { x = 21 y = 68 }
+				name = "TNO_Bormann_Kartenhaus_Card_LoyaltyBar_Left"
+				spriteType = "GFX_Kartenhaus_Cards_SmallBar_RC"
+				position = { x = 21 y = 67 }
 				alwaystransparent = yes
 				frame = 20
 			}
 			iconType = {
-				name = "TNO_Bormann_InfMech_Card_LoyaltyBar_Right"
-				spriteType = "GFX_InfMech_Cards_SmallBar_CM"
-				position = { x = 21 y = 68 }
+				name = "TNO_Bormann_Kartenhaus_Card_LoyaltyBar_Right"
+				spriteType = "GFX_Kartenhaus_Cards_SmallBar_CM"
+				position = { x = 21 y = 67 }
 				alwaystransparent = yes
 				frame = 20
 			}
 
 			# Power Display
 			instantTextBoxType = {
-				name = "TNO_Bormann_InfMech_Card_PowerDisplay"
+				name = "TNO_Bormann_Kartenhaus_Card_PowerDisplay"
 				position = { x = 0 y = 98 }
 				maxWidth = 207
 
 				font = "aldrich_48_outline"
 				format = center
-				text = "TNO_Bormann_InfMech_Card_PowerDisplay_text"
-				pdx_tooltip = "TNO_Bormann_InfMech_Card_PowerDisplay_tt"
+				text = "TNO_Bormann_Kartenhaus_Card_PowerDisplay_text"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Card_PowerDisplay_tt"
 			}
 
 			# Selection Buttons
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Card_SelectionBtn_Ref"
+				name = "TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref"
 				position = { x = 32 y = 150 }
-				quadTextureSprite = "GFX_InfMech_Cards_SelectionButton_None"
+				quadTextureSprite = "GFX_Kartenhaus_Cards_SelectionButton_None"
 				clicksound = click_close
 
 				buttonFont = "aldrich_20_outline"
-				text = "TNO_Bormann_InfMech_Card_SelectionBtn_Ref_text"
+				text = "TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_text"
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Card_SelectionBtn_Ref_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_tt"
 			}
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Card_SelectionBtn_Con"
+				name = "TNO_Bormann_Kartenhaus_Card_SelectionBtn_Con"
 				position = { x = 82 y = 150 }
-				quadTextureSprite = "GFX_InfMech_Cards_SelectionButton_None"
+				quadTextureSprite = "GFX_Kartenhaus_Cards_SelectionButton_None"
 				clicksound = click_close
 
 				buttonFont = "aldrich_20_outline"
-				text = "TNO_Bormann_InfMech_Card_SelectionBtn_Con_text"
+				text = "TNO_Bormann_Kartenhaus_Card_SelectionBtn_Con_text"
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Card_SelectionBtn_Con_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Card_SelectionBtn_Con_tt"
 			}
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Card_SelectionBtn_Mil"
+				name = "TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil"
 				position = { x = 132 y = 150 }
-				quadTextureSprite = "GFX_InfMech_Cards_SelectionButton_None"
+				quadTextureSprite = "GFX_Kartenhaus_Cards_SelectionButton_None"
 				clicksound = click_close
 
 				buttonFont = "aldrich_20_outline"
-				text = "TNO_Bormann_InfMech_Card_SelectionBtn_Mil_text"
+				text = "TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_text"
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Card_SelectionBtn_Mil_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_tt"
 			}
 
 			# Interactions Buttons - Loyalty
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Card_InteractionBtn_Loyalty_Add"
+				name = "TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_Add"
 				position = { x = 32 y = 180 }
-				quadTextureSprite = "GFX_InfMech_Cards_InteractionBtn_AddLoyalty"
+				quadTextureSprite = "GFX_Kartenhaus_Cards_InteractionBtn_AddLoyalty"
 				clicksound = click_close
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Card_InteractionBtn_Loyalty_Add_tt"
-				pdx_tooltip_delayed = "TNO_Bormann_InfMech_Card_Interaction_Btn_Cost_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_Add_tt"
+				pdx_tooltip_delayed = "TNO_Bormann_Kartenhaus_Card_Interaction_Btn_Cost_tt"
 			}
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Card_InteractionBtn_Loyalty_Sub"
+				name = "TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_Sub"
 				position = { x = 33 y = 208 }
-				quadTextureSprite = "GFX_InfMech_Cards_InteractionBtn_SubLoyalty"
+				quadTextureSprite = "GFX_Kartenhaus_Cards_InteractionBtn_SubLoyalty"
 				clicksound = click_close
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Card_InteractionBtn_Loyalty_Sub_tt"
-				pdx_tooltip_delayed = "TNO_Bormann_InfMech_Card_Interaction_Btn_Cost_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_Sub_tt"
+				pdx_tooltip_delayed = "TNO_Bormann_Kartenhaus_Card_Interaction_Btn_Cost_tt"
 			}
 
 			# Interaction Buttons - Power
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Card_InteractionBtn_Power_Add"
+				name = "TNO_Bormann_Kartenhaus_Card_InteractionBtn_Power_Add"
 				position = { x = 108 y = 180 }
-				quadTextureSprite = "GFX_InfMech_Cards_InteractionBtn_AddPower"
+				quadTextureSprite = "GFX_Kartenhaus_Cards_InteractionBtn_AddPower"
 				clicksound = click_close
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Card_InteractionBtn_Power_Add_tt"
-				pdx_tooltip_delayed = "TNO_Bormann_InfMech_Card_Interaction_Btn_Cost_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Card_InteractionBtn_Power_Add_tt"
+				pdx_tooltip_delayed = "TNO_Bormann_Kartenhaus_Card_Interaction_Btn_Cost_tt"
 			}
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Card_InteractionBtn_Power_Sub"
+				name = "TNO_Bormann_Kartenhaus_Card_InteractionBtn_Power_Sub"
 				position = { x = 108 y = 208 }
-				quadTextureSprite = "GFX_InfMech_Cards_InteractionBtn_SubPower"
+				quadTextureSprite = "GFX_Kartenhaus_Cards_InteractionBtn_SubPower"
 				clicksound = click_close
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Card_InteractionBtn_Power_Sub_tt"
-				pdx_tooltip_delayed = "TNO_Bormann_InfMech_Card_Interaction_Btn_Cost_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Card_InteractionBtn_Power_Sub_tt"
+				pdx_tooltip_delayed = "TNO_Bormann_Kartenhaus_Card_Interaction_Btn_Cost_tt"
 			}
 
 			# SIG Type Display
 			instantTextBoxType = {
-				name = "TNO_Bormann_InfMech_Card_SIGTypeDisplay"
+				name = "TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay"
 				position = { x = 0 y = 241 }
 				maxWidth = 207
 
 				font = "aldrich_24_outline"
 				format = center
 
-				text = "TNO_Bormann_InfMech_Card_SIGTypeDisplay_text"
-				pdx_tooltip = TNO_Bormann_InfMech_Card_SIGTypeDisplay_tt
-				pdx_tooltip_delayed = TNO_Bormann_InfMech_Card_SIGTypeDisplay_ttd
+				text = "TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_text"
+				pdx_tooltip = TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_tt
+				pdx_tooltip_delayed = TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_ttd
 			}
 		}
 
 		#### Info Section ####
 		### Primary
 		containerWindowType = {
-			name = "TNO_Bormann_InfMech_Info"
+			name = "TNO_Bormann_Kartenhaus_Info"
 			size = { width = 207 height = 570 }
 			position = { x = 985 y = 18 }
 
 			# SIG Background
 			iconType = {
-				name = "TNO_Bormann_InfMech_Info_BG"
-				spriteType = "InfMech_InfoBox_Boundary"
+				name = "TNO_Bormann_Kartenhaus_Info_BG"
+				spriteType = "Kartenhaus_InfoBox_Boundary"
 				position = { x = 0 y = 0 }
 			}
 
 			### Header
 			# Header Icon
 			iconType = {
-				name = "TNO_Bormann_InfMech_Info_Header_Icon"
-				spriteType = "GFX_InfMech_InfoIcon"
+				name = "TNO_Bormann_Kartenhaus_Info_Header_Icon"
+				spriteType = "GFX_Kartenhaus_InfoIcon"
 				position = { x = 2 y = 2 }
 			}
 
 			# Header Text
 			instantTextBoxType = {
-				name = "TNO_Bormann_InfMech_Info_Header_Text"
+				name = "TNO_Bormann_Kartenhaus_Info_Header_Text"
 				position = { x = 52 y = 8 }
 				font = "aldrich_20_outline"
 				format = left
-				text = "TNO_Bormann_InfMech_Info_Header_Text_text"
+				text = "TNO_Bormann_Kartenhaus_Info_Header_Text_text"
 			}
 
 			# Header Divider
 			iconType = {
-				name = "TNO_Bormann_InfMech_Info_Header_Divider"
-				spriteType = "GFX_Bormann_InfMech_InfoSection_Divider_3"
+				name = "TNO_Bormann_Kartenhaus_Info_Header_Divider"
+				spriteType = "GFX_Bormann_Kartenhaus_InfoSection_Divider_3"
 				position = { x = 0 y = 54 }
 			}
 
 			### TBZ - The Buttons Zone ###
 			# TBZ Overview
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Info_TBZ_OverviewBtn"
+				name = "TNO_Bormann_Kartenhaus_Info_TBZ_OverviewBtn"
 				position = { x = 4 y = 65 }
-				quadTextureSprite = "GFX_Bormann_InfMech_InfoSection_MenuBtn"
+				quadTextureSprite = "GFX_Bormann_Kartenhaus_InfoSection_MenuBtn"
 				clicksound = click_close
 
 				buttonFont = "aldrich_14_outline"
-				buttonText = "TNO_Bormann_InfMech_Info_TBZ_OverviewBtn_text"
+				buttonText = "TNO_Bormann_Kartenhaus_Info_TBZ_OverviewBtn_text"
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Info_TBZ_OverviewBtn_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Info_TBZ_OverviewBtn_tt"
 			}
 
 			# TBZ Control & Factions
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Info_TBZ_ControlAndFactionsBtn"
+				name = "TNO_Bormann_Kartenhaus_Info_TBZ_ControlAndFactionsBtn"
 				position = { x = 4 y = 93 }
-				quadTextureSprite = "GFX_Bormann_InfMech_InfoSection_MenuBtn"
+				quadTextureSprite = "GFX_Bormann_Kartenhaus_InfoSection_MenuBtn"
 				clicksound = click_close
 
 				buttonFont = "aldrich_14_outline"
-				buttonText = "TNO_Bormann_InfMech_Info_TBZ_ControlAndFactionsBtn_text"
+				buttonText = "TNO_Bormann_Kartenhaus_Info_TBZ_ControlAndFactionsBtn_text"
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Info_TBZ_ControlAndFactionsBtn_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Info_TBZ_ControlAndFactionsBtn_tt"
 			}
 
 			# TBZ Special Interest Groups
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Info_TBZ_SIGBtn"
+				name = "TNO_Bormann_Kartenhaus_Info_TBZ_SIGBtn"
 				position = { x = 4 y = 121 }
-				quadTextureSprite = "GFX_Bormann_InfMech_InfoSection_MenuBtn"
+				quadTextureSprite = "GFX_Bormann_Kartenhaus_InfoSection_MenuBtn"
 				clicksound = click_close
 
 				buttonFont = "aldrich_14_outline"
-				buttonText = "TNO_Bormann_InfMech_Info_TBZ_SIGBtn_text"
+				buttonText = "TNO_Bormann_Kartenhaus_Info_TBZ_SIGBtn_text"
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Info_TBZ_SIGBtn_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Info_TBZ_SIGBtn_tt"
 			}
 
 			# TBZ Interactions
 			buttonType = {
-				name = "TNO_Bormann_InfMech_Info_TBZ_InteractionsBtn"
+				name = "TNO_Bormann_Kartenhaus_Info_TBZ_InteractionsBtn"
 				position = { x = 4 y = 149 }
-				quadTextureSprite = "GFX_Bormann_InfMech_InfoSection_MenuBtn"
+				quadTextureSprite = "GFX_Bormann_Kartenhaus_InfoSection_MenuBtn"
 				clicksound = click_close
 
 				buttonFont = "aldrich_14_outline"
-				buttonText = "TNO_Bormann_InfMech_Info_TBZ_InteractionsBtn_text"
+				buttonText = "TNO_Bormann_Kartenhaus_Info_TBZ_InteractionsBtn_text"
 
-				pdx_tooltip = "TNO_Bormann_InfMech_Info_TBZ_InteractionsBtn_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_Info_TBZ_InteractionsBtn_tt"
 			}
 
 			### InfoSection InfoScrawls ###
 			## Header
 			# Header Back Button
 			buttonType = {
-				name = "TNO_Bormann_InfMech_InfoScrawl_Header_BackBtn"
+				name = "TNO_Bormann_Kartenhaus_InfoScrawl_Header_BackBtn"
 				position = { x = 4 y = 65 }
-				quadTextureSprite = "GFX_Bormann_InfMech_InfoSection_BackBtn"
+				quadTextureSprite = "GFX_Bormann_Kartenhaus_InfoSection_BackBtn"
 				clicksound = click_close
-				pdx_tooltip = "TNO_Bormann_InfMech_InfoScrawl_BackBtn_tt"
+				pdx_tooltip = "TNO_Bormann_Kartenhaus_InfoScrawl_BackBtn_tt"
 			}
 
 			# Header Title Container
 			iconType = {
-				name = "TNO_Bormann_InfMech_InfoScrawl_Header_TitleContainer"
+				name = "TNO_Bormann_Kartenhaus_InfoScrawl_Header_TitleContainer"
 				position = { x = 39 y = 65 }
-				spriteType = "GFX_Bormann_InfMech_InfoSection_MenuTitleContainer"
+				spriteType = "GFX_Bormann_Kartenhaus_InfoSection_MenuTitleContainer"
 			}
 
 			# Header Title
 			instantTextBoxType = {
-				name = "TNO_Bormann_InfMech_InfoScrawl_Header_Title"
+				name = "TNO_Bormann_Kartenhaus_InfoScrawl_Header_Title"
 				position = { x = 41 y = 70 }
 				maxWidth = 129
 				font = "aldrich_14_outline"
 				format = center
 
-				text = "TNO_Bormann_InfMech_InfoScrawl_Header_Title_Text"
+				text = "TNO_Bormann_Kartenhaus_InfoScrawl_Header_Title_Text"
 			}
 
 			# Header Divider
 			iconType = {
-				name = "TNO_Bormann_InfMech_InfoScrawl_Header_Divider"
-				spriteType = "GFX_Bormann_InfMech_InfoSection_Divider_1"
+				name = "TNO_Bormann_Kartenhaus_InfoScrawl_Header_Divider"
+				spriteType = "GFX_Bormann_Kartenhaus_InfoSection_Divider_1"
 				position = { x = 0 y = 93 }
 			}
 
 			## Scrawl
 			instantTextBoxType = {
-				name = "TNO_Bormann_InfMech_InfoScrawl_Scrawl_Text"
+				name = "TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text"
 				font = "aldrich_16_outline"
 				position = { x = 5 y = 96 }
 				maxWidth = 153
 				maxHeight = 435
 				format = left
-				text = "TNO_Bormann_InfMech_InfoScrawl_Scrawl_Text_Text"
+				text = "TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_Text"
 				alwaystransparent = yes
 				scrollbarType = standardtext_slider
 			}
 
 			# Bottom Divider
 			iconType = {
-				name = "TNO_Bormann_InfMech_InfoScrawl_Bottom_Divider"
-				spriteType = "GFX_Bormann_InfMech_InfoSection_Divider_3"
+				name = "TNO_Bormann_Kartenhaus_InfoScrawl_Bottom_Divider"
+				spriteType = "GFX_Bormann_Kartenhaus_InfoSection_Divider_3"
 				position = { x = 0 y = 533 }
 			}
 		}
@@ -727,32 +721,32 @@ guiTypes = {
 	## Entry_Containers
 	# SIGContainer
 	containerWindowType = {
-		name = "InfMech_SIGContainer"
+		name = "Kartenhaus_SIGContainer"
 		size = { width = 164 height = 223 }
 		position = { x = 0 y = 0 }
 
 		iconType = {
-			name = "InfMech_SIG_Boundary"
+			name = "Kartenhaus_SIG_Boundary"
 			position = { x = 6 y = 4 }
-			spriteType = "GFX_InfMech_Cards_boundary"
+			spriteType = "GFX_Kartenhaus_Cards_boundary"
 		}
 
 		iconType = {
-			name = "InfMech_SIG_bg"
+			name = "Kartenhaus_SIG_bg"
 			position = { x = 6 y = 4 }
-			spriteType = "GFX_InfMech_Cards_bg_bureaucracy"
+			spriteType = "GFX_Kartenhaus_Cards_bg_bureaucracy"
 		}
 
 		##Title
 		iconType = {
-			name = "InfMech_SIG_TitleContainer"
+			name = "Kartenhaus_SIG_TitleContainer"
 			position = { x = 9 y = 9 }
-			spriteType = "GFX_InfMech_Cards_title_container"
+			spriteType = "GFX_Kartenhaus_Cards_title_container"
 			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
-			name = "InfMech_SIG_Name"
+			name = "Kartenhaus_SIG_Name"
 			position = { x = 9 y = 11 }
 			maxHeight = 20
 			maxWidth = 146
@@ -765,25 +759,25 @@ guiTypes = {
 
 		##Status
 		iconType = {
-			name = "InfMech_SIG_StatusContainer"
+			name = "Kartenhaus_SIG_StatusContainer"
 			position = { x = 9 y = 30 }
 		}
 		
 		instantTextBoxType = {
-			name = "InfMech_SIG_Status"
+			name = "Kartenhaus_SIG_Status"
 			position = { x = 37 y = 33 }
 			maxHeight = 20
 			maxWidth = 90
 			format = center
 			orientation = upper_left
 			font = "aldrich_16_outline"
-			text = InfMech_SIG_Status_text
-			pdx_tooltip = InfMech_SIG_Status_tt
+			text = Kartenhaus_SIG_Status_text
+			pdx_tooltip = Kartenhaus_SIG_Status_tt
 		}
 
 		##Power
 		instantTextBoxType = {
-			name = "InfMech_SIG_Power"
+			name = "Kartenhaus_SIG_Power"
 			position = { x = 9 y = 50 }
 			maxHeight = 23
 			maxWidth = 146
@@ -796,7 +790,7 @@ guiTypes = {
 		##Loyalty
 		#Title
 		instantTextBoxType = {
-			name = "InfMech_SIG_Loyalty_Title"
+			name = "Kartenhaus_SIG_Loyalty_Title"
 			position = { x = 9 y = 82 }	
 			maxHeight = 20
 			maxWidth = 146
@@ -808,20 +802,20 @@ guiTypes = {
 
 		# Loyalty container, for non-dismantled SIGs
 		containerWindowType = {
-			name = "InfMech_SIGContainer_Loyalty"
+			name = "Kartenhaus_SIGContainer_Loyalty"
 			size = { width = 140 height = 60 }
 			position = { x = 0 y = 0 }
 
 			#Divider
 			iconType = {
-				name = "InfMech_SIG_LoyaltySeperator"
+				name = "Kartenhaus_SIG_LoyaltySeperator"
 				position = { x = 56 y = 99 }
-				spriteType = "GFX_InfMech_Cards_LoyaltySeperator"
+				spriteType = "GFX_Kartenhaus_Cards_LoyaltySeperator"
 			}
 
 			#Top
 			instantTextBoxType = {
-				name = "InfMech_SIG_Loyalty_Top_Faction_Disp"
+				name = "Kartenhaus_SIG_Loyalty_Top_Faction_Disp"
 				position = { x = 20 y = 102 }	
 				maxHeight = 20
 				maxWidth = 80
@@ -831,7 +825,7 @@ guiTypes = {
 				text = BOR_SIGLoyalty_Disp_Top_Faction
 			}
 			instantTextBoxType = {
-				name = "InfMech_SIG_Loyalty_Top_Value_Disp"
+				name = "Kartenhaus_SIG_Loyalty_Top_Value_Disp"
 				position = { x = 114 y = 102 }	
 				maxHeight = 20
 				maxWidth = 41
@@ -843,7 +837,7 @@ guiTypes = {
 
 			#Middle
 			instantTextBoxType = {
-				name = "InfMech_SIG_Loyalty_Mid_Faction_Disp"
+				name = "Kartenhaus_SIG_Loyalty_Mid_Faction_Disp"
 				position = { x = 20 y = 122 }	
 				maxHeight = 20
 				maxWidth = 80
@@ -853,7 +847,7 @@ guiTypes = {
 				text = BOR_SIGLoyalty_Disp_Mid_Faction
 			}
 			instantTextBoxType = {
-				name = "InfMech_SIG_Loyalty_Mid_Value_Disp"
+				name = "Kartenhaus_SIG_Loyalty_Mid_Value_Disp"
 				position = { x = 114 y = 122 }	
 				maxHeight = 20
 				maxWidth = 41
@@ -865,7 +859,7 @@ guiTypes = {
 
 			#Bottom
 			instantTextBoxType = {
-				name = "InfMech_SIG_Loyalty_Bot_Faction_Disp"
+				name = "Kartenhaus_SIG_Loyalty_Bot_Faction_Disp"
 				position = { x = 20 y = 142 }	
 				maxHeight = 20
 				maxWidth = 80
@@ -875,7 +869,7 @@ guiTypes = {
 				text = BOR_SIGLoyalty_Disp_Bot_Faction
 			}
 			instantTextBoxType = {
-				name = "InfMech_SIG_Loyalty_Bot_Value_Disp"
+				name = "Kartenhaus_SIG_Loyalty_Bot_Value_Disp"
 				position = { x = 114 y = 142 }	
 				maxHeight = 20
 				maxWidth = 41
@@ -889,14 +883,14 @@ guiTypes = {
 		# Loyalty for dismantled SIGs
 		#Divider
 		iconType = {
-			name = "InfMech_SIG_LoyaltySeperator_Dismantled"
+			name = "Kartenhaus_SIG_LoyaltySeperator_Dismantled"
 			position = { x = 56 y = 99 }
-			spriteType = "GFX_InfMech_Cards_LoyaltySeperator_Mini"
+			spriteType = "GFX_Kartenhaus_Cards_LoyaltySeperator_Mini"
 		}
 
 		# Dismantled SIG loyalty
 		instantTextBoxType = {
-			name = "InfMech_SIG_Loyalty_Dismantled"
+			name = "Kartenhaus_SIG_Loyalty_Dismantled"
 			position = { x = 75 y = 102 }
 			maxHeight = 20
 			maxWidth = 80
@@ -909,32 +903,32 @@ guiTypes = {
 		##Interaction Button
 		#Icon
 		iconType = {
-			name = "InfMech_SIG_Mini"
+			name = "Kartenhaus_SIG_Mini"
 			position = { x = 66 y = 174 }
-			spriteType = "GFX_InfMech_Cards_mini_bureaucracy"
+			spriteType = "GFX_Kartenhaus_Cards_mini_bureaucracy"
 		}
 		#Button
 		buttonType = {
-			name = "InfMech_SIG_InteractionsBtn"
+			name = "Kartenhaus_SIG_InteractionsBtn"
 			position = { x = 13 y = 168 }
-			spriteType = "GFX_InfMech_Cards_interactions_btn_frame"
+			spriteType = "GFX_Kartenhaus_Cards_interactions_btn_frame"
 			clicksound = click_ok
 		}
 	}
 
 	# Logs_Container
 	containerWindowType = {
-		name = "TNO_InfMech_Logs_Container"
+		name = "TNO_Kartenhaus_Logs_Container"
 		size = { width = 278 height = 33 }
 		position = { x = 2 y = 1 }
 
 		iconType = {
-			name = "InfMech_Log_Box"
-			spriteType = "InfMech_Log_Box"
+			name = "Kartenhaus_Log_Box"
+			spriteType = "Kartenhaus_Log_Box"
 		}
 
 		instantTextboxType = {
-			name = "InfMech_Log_Actor_and_SIG"
+			name = "Kartenhaus_Log_Actor_and_SIG"
 			position = { x = 3 y = 1 }
 			font = "aldrich_16_outline"
 			format = left
@@ -943,7 +937,7 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
-			name = "InfMech_Log_InteractionPower"
+			name = "Kartenhaus_Log_InteractionPower"
 			position = { x = 3 y = 14 }
 			font = "aldrich_16_outline"
 			format = left
@@ -952,7 +946,7 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
-			name = "InfMech_Log_InteractionLoyalty"
+			name = "Kartenhaus_Log_InteractionLoyalty"
 			position = { x = 3 y = 14 }
 			font = "aldrich_16_outline"
 			format = left
@@ -961,11 +955,11 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
-			name = "InfMech_Log_ID"
+			name = "Kartenhaus_Log_ID"
 			position = { x = 47 y = 14 }
 			font = "aldrich_16_outline"
 			format = right
-			text = "InfMech_Log_ID_text"
+			text = "Kartenhaus_Log_ID_text"
 		}
 	}
 }
