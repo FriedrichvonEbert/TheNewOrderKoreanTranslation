@@ -16,26 +16,26 @@ guiTypes = {
 			name = "Idealism_Title_1"
 			position = { x = -30 y = 65 }
 			font = "aldrich_16_outline"
-			text = "ERS_IDEALISM"
+			text = "TOM_IDEALISM"
 			format = center
 		}
 		instantTextBoxType = {
 			name = "Idealism_Title_2"
 			position = { x = 300 y = 65 }
 			font = "aldrich_16_outline"
-			text = "ERS_CYNICISM"
+			text = "TOM_CYNICISM"
 			format = center
 		}
 		iconType = {
-			name = "ERS_Cynicism_control_bar_Frame"
+			name = "TOM_Cynicism_control_bar_Frame"
 			spriteType = "GFX_Tomsk_control_bar_bg"
 			position = { x = 48 y = 93 }
 		}
 		iconType = {
-			name = "ERS_Cynicism_control_bar"
-			spriteType = "GFX_ERS_control_bars"
-			pdx_tooltip = "ERS_Cynicism_bar"
-			pdx_tooltip_delayed = "ERS_Cynicism_bar_desc"
+			name = "TOM_Cynicism_control_bar"
+			spriteType = "GFX_TOM_control_bars"
+			pdx_tooltip = "TOM_Cynicism_bar"
+			pdx_tooltip_delayed = "TOM_Cynicism_bar_desc"
 			position = { x = 51 y = 95 }
 		}
 
@@ -52,26 +52,26 @@ guiTypes = {
 			name = "Integration_Title_1"
 			position = { x = -30 y = 215 }
 			font = "aldrich_16_outline"
-			text = "ERS_NO_OUTSIDERS"
+			text = "TOM_NO_OUTSIDERS"
 			format = center
 		}
 		instantTextBoxType = {
 			name = "Integration_Title_2"
 			position = { x = 300 y = 210 }
 			font = "aldrich_16_outline"
-			text = "ERS_EXTREME_OUTSIDERS"
+			text = "TOM_EXTREME_OUTSIDERS"
 			format = center
 		}
 		iconType = {
-			name = "ERS_Integration_control_bar_Frame"
+			name = "TOM_Integration_control_bar_Frame"
 			spriteType = "GFX_Tomsk_control_bar_bg"
 			position = { x = 48 y = 243 }
 		}
 		iconType = {
-			name = "ERS_Integration_control_bar"
-			spriteType = "GFX_ERS_control_bars"
-			pdx_tooltip = "ERS_Integration_bar"
-			pdx_tooltip_delayed = "ERS_Integration_bar_desc"
+			name = "TOM_Integration_control_bar"
+			spriteType = "GFX_TOM_control_bars"
+			pdx_tooltip = "TOM_Integration_bar"
+			pdx_tooltip_delayed = "TOM_Integration_bar_desc"
 			position = { x = 51 y = 245 }
 		}
 	}
@@ -98,7 +98,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Tomsk_Button"
-			spriteType = "GFX_ERS_Map_Button"
+			spriteType = "GFX_TOM_Map_Button"
 			orientation = upper_left
 			position = { x = 110 y = 30 }
 		}
@@ -119,7 +119,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Kry_Button"
-			spriteType = "GFX_ERS_Map_Button"
+			spriteType = "GFX_TOM_Map_Button"
 			orientation = upper_left
 			position = { x = 110 y = 465 }
 		}
@@ -140,7 +140,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Novo_Button"
-			spriteType = "GFX_ERS_Map_Button"
+			spriteType = "GFX_TOM_Map_Button"
 			orientation = upper_left
 			position = { x = 510 y = 30 }
 		}
@@ -161,7 +161,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Kem_Button"
-			spriteType = "GFX_ERS_Map_Button"
+			spriteType = "GFX_TOM_Map_Button"
 			orientation = upper_left
 			position = { x = 510 y = 465 }
 		}
@@ -186,7 +186,7 @@ guiTypes = {
 			position = { x = 7 y = 85 }
 			iconType = {
 				name = "Tomsk_Map"
-				spriteType = "GFX_ERS_Tomsk_Map"
+				spriteType = "GFX_TOM_Tomsk_Map"
 				orientation = upper_left
 				position = { x = 20 y = 20 }
 			}
@@ -226,7 +226,7 @@ guiTypes = {
 			position = { x = 470 y = 85 }
 			iconType = {
 				name = "Novo_Map"
-				spriteType = "GFX_ERS_Novo_Map"
+				spriteType = "GFX_TOM_Novo_Map"
 				orientation = upper_left
 				position = { x = 20 y = 20 }
 			}
@@ -286,7 +286,7 @@ guiTypes = {
 			position = { x = 7 y = 515 }
 			iconType = {
 				name = "Kry_Map"
-				spriteType = "GFX_ERS_Kry_Map"
+				spriteType = "GFX_TOM_Kry_Map"
 				orientation = upper_left
 				position = { x = 20 y = 20 }
 			}
@@ -347,7 +347,7 @@ guiTypes = {
 			position = { x = 460 y = 530 }
 			iconType = {
 				name = "Kem_Map"
-				spriteType = "GFX_ERS_Kem_Map"
+				spriteType = "GFX_TOM_Kem_Map"
 				orientation = upper_left
 				position = { x = 20 y = 20 }
 			}
@@ -389,17 +389,17 @@ guiTypes = {
 		size = { width = 220 height = 128 }
 		position = { x = 0 y = 289 }
 		buttonType = {
-			name = "ERS_Open_Map"
+			name = "TOM_Open_Map"
 			spriteType = "GFX_Tomsk_District_Map"
 			position = { x = 131 y = 31 }
-			pdx_tooltip = "scripted_gui_open_tt_ERS_map"
+			pdx_tooltip = "scripted_gui_open_tt_TOM_map"
 			scale = 0.65
 		}
 		buttonType ={
-			name = "ERS_Duma_GUI"
+			name = "TOM_Duma_GUI"
 			spriteType = "GFX_Tomsk_Duma_GUI"
 			position = { x = 234 y = 31 }
-			pdx_tooltip = "scripted_gui_open_tt_ERS_gov"
+			pdx_tooltip = "scripted_gui_open_tt_TOM_gov"
 			scale = 0.65
 		}
 		iconType = {
@@ -419,10 +419,10 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_window_thin_border2"
 		}
 		instantTextBoxType = {
-			name = "ERS_Dec_Int_Textbox"
+			name = "TOM_Dec_Int_Textbox"
 			position = { x = 0 y = 20 }
 			font = "aldrich_30_outline"
-			text = "ERS_Dec_Int_Title"
+			text = "TOM_Dec_Int_Title"
 			format = center
 			maxWidth = 600
 		}
@@ -437,66 +437,66 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 		buttonType = {
-			name = "ERS_Ask_For_Decembrist_Support_in_Lower_House"
+			name = "TOM_Ask_For_Decembrist_Support_in_Lower_House"
 			position = { x = 22 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Ask_For_Decembrist_Support_in_Lower_House"
+			text = "TOM_Ask_For_Decembrist_Support_in_Lower_House"
 			format = center
-			pdx_tooltip = "ERS_Ask_For_Decembrist_Support_in_Lower_House_tt"
+			pdx_tooltip = "TOM_Ask_For_Decembrist_Support_in_Lower_House_tt"
 		}
 		buttonType = {
-			name = "ERS_Ask_For_Decembrist_Support_in_Upper_House"
+			name = "TOM_Ask_For_Decembrist_Support_in_Upper_House"
 			position = { x = 22 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Ask_For_Decembrist_Support_in_Upper_House"
+			text = "TOM_Ask_For_Decembrist_Support_in_Upper_House"
 			format = center
-			pdx_tooltip = "ERS_Ask_For_Decembrist_Support_in_Upper_House_tt"
+			pdx_tooltip = "TOM_Ask_For_Decembrist_Support_in_Upper_House_tt"
 		}
 
 		buttonType = {
-			name = "ERS_Anti_Decembrist_Propaganda"
+			name = "TOM_Anti_Decembrist_Propaganda"
 			position = { x = 232 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Anti_Decembrist_Propaganda"
+			text = "TOM_Anti_Decembrist_Propaganda"
 			format = center
-			pdx_tooltip = "ERS_Anti_Decembrist_Propaganda_tt"
+			pdx_tooltip = "TOM_Anti_Decembrist_Propaganda_tt"
 		}
 		buttonType = {
-			name = "ERS_Pro_Decembrist_Campaign"
+			name = "TOM_Pro_Decembrist_Campaign"
 			position = { x = 232 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Pro_Decembrist_Campaign"
+			text = "TOM_Pro_Decembrist_Campaign"
 			format = center
-			pdx_tooltip = "ERS_Pro_Decembrist_Campaign_tt"
+			pdx_tooltip = "TOM_Pro_Decembrist_Campaign_tt"
 		}
 
 		buttonType = {
-			name = "ERS_Weaken_Decembrist_Authority"
+			name = "TOM_Weaken_Decembrist_Authority"
 			position = { x = 442 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Weaken_Decembrist_Authority"
+			text = "TOM_Weaken_Decembrist_Authority"
 			format = center
-			pdx_tooltip = "ERS_Weaken_Decembrist_Authority_tt"
+			pdx_tooltip = "TOM_Weaken_Decembrist_Authority_tt"
 		}
 		buttonType = {
-			name = "ERS_Consolidate_Decembrist_Rule"
+			name = "TOM_Consolidate_Decembrist_Rule"
 			position = { x = 442 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Consolidate_Decembrist_Rule"
+			text = "TOM_Consolidate_Decembrist_Rule"
 			format = center
-			pdx_tooltip = "ERS_Consolidate_Decembrist_Rule_tt"
+			pdx_tooltip = "TOM_Consolidate_Decembrist_Rule_tt"
 		}
 	}
 
@@ -510,10 +510,10 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_window_thin_border2"
 		}
 		instantTextBoxType = {
-			name = "ERS_Mod_Int_Textbox"
+			name = "TOM_Mod_Int_Textbox"
 			position = { x = 0 y = 20 }
 			font = "aldrich_30_outline"
-			text = "ERS_Mod_Int_Title"
+			text = "TOM_Mod_Int_Title"
 			format = center
 			maxWidth = 600
 		}
@@ -528,66 +528,66 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 		buttonType = {
-			name = "ERS_Ask_For_Modernist_Support_in_Lower_House"
+			name = "TOM_Ask_For_Modernist_Support_in_Lower_House"
 			position = { x = 22 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Ask_For_Modernist_Support_in_Lower_House"
+			text = "TOM_Ask_For_Modernist_Support_in_Lower_House"
 			format = center
-			pdx_tooltip = "ERS_Ask_For_Modernist_Support_in_Lower_House_tt"
+			pdx_tooltip = "TOM_Ask_For_Modernist_Support_in_Lower_House_tt"
 		}
 		buttonType = {
-			name = "ERS_Ask_For_Modernist_Support_in_Upper_House"
+			name = "TOM_Ask_For_Modernist_Support_in_Upper_House"
 			position = { x = 22 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Ask_For_Modernist_Support_in_Upper_House"
+			text = "TOM_Ask_For_Modernist_Support_in_Upper_House"
 			format = center
-			pdx_tooltip = "ERS_Ask_For_Modernist_Support_in_Upper_House_tt"
+			pdx_tooltip = "TOM_Ask_For_Modernist_Support_in_Upper_House_tt"
 		}
 
 		buttonType = {
-			name = "ERS_Anti_Modernist_Propaganda"
+			name = "TOM_Anti_Modernist_Propaganda"
 			position = { x = 232 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Anti_Modernist_Propaganda"
+			text = "TOM_Anti_Modernist_Propaganda"
 			format = center
-			pdx_tooltip = "ERS_Anti_Modernist_Propaganda_tt"
+			pdx_tooltip = "TOM_Anti_Modernist_Propaganda_tt"
 		}
 		buttonType = {
-			name = "ERS_Pro_Modernist_Campaign"
+			name = "TOM_Pro_Modernist_Campaign"
 			position = { x = 232 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Pro_Modernist_Campaign"
+			text = "TOM_Pro_Modernist_Campaign"
 			format = center
-			pdx_tooltip = "ERS_Pro_Modernist_Campaign_tt"
+			pdx_tooltip = "TOM_Pro_Modernist_Campaign_tt"
 		}
 
 		buttonType = {
-			name = "ERS_Weaken_Modernist_Authority"
+			name = "TOM_Weaken_Modernist_Authority"
 			position = { x = 442 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Weaken_Modernist_Authority"
+			text = "TOM_Weaken_Modernist_Authority"
 			format = center
-			pdx_tooltip = "ERS_Weaken_Modernist_Authority_tt"
+			pdx_tooltip = "TOM_Weaken_Modernist_Authority_tt"
 		}
 		buttonType = {
-			name = "ERS_Consolidate_Modernist_Rule"
+			name = "TOM_Consolidate_Modernist_Rule"
 			position = { x = 442 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Consolidate_Modernist_Rule"
+			text = "TOM_Consolidate_Modernist_Rule"
 			format = center
-			pdx_tooltip = "ERS_Consolidate_Modernist_Rule_tt"
+			pdx_tooltip = "TOM_Consolidate_Modernist_Rule_tt"
 		}
 	}
 
@@ -601,10 +601,10 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_window_thin_border2"
 		}
 		instantTextBoxType = {
-			name = "ERS_Hum_Int_Textbox"
+			name = "TOM_Hum_Int_Textbox"
 			position = { x = 0 y = 20 }
 			font = "aldrich_30_outline"
-			text = "ERS_Hum_Int_Title"
+			text = "TOM_Hum_Int_Title"
 			format = center
 			maxWidth = 600
 		}
@@ -619,66 +619,66 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 		buttonType = {
-			name = "ERS_Ask_For_Humanist_Support_in_Lower_House"
+			name = "TOM_Ask_For_Humanist_Support_in_Lower_House"
 			position = { x = 22 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Ask_For_Humanist_Support_in_Lower_House"
+			text = "TOM_Ask_For_Humanist_Support_in_Lower_House"
 			format = center
-			pdx_tooltip = "ERS_Ask_For_Humanist_Support_in_Lower_House_tt"
+			pdx_tooltip = "TOM_Ask_For_Humanist_Support_in_Lower_House_tt"
 		}
 		buttonType = {
-			name = "ERS_Ask_For_Humanist_Support_in_Upper_House"
+			name = "TOM_Ask_For_Humanist_Support_in_Upper_House"
 			position = { x = 22 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Ask_For_Humanist_Support_in_Upper_House"
+			text = "TOM_Ask_For_Humanist_Support_in_Upper_House"
 			format = center
-			pdx_tooltip = "ERS_Ask_For_Humanist_Support_in_Upper_House_tt"
+			pdx_tooltip = "TOM_Ask_For_Humanist_Support_in_Upper_House_tt"
 		}
 
 		buttonType = {
-			name = "ERS_Anti_Humanist_Propaganda"
+			name = "TOM_Anti_Humanist_Propaganda"
 			position = { x = 232 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Anti_Humanist_Propaganda"
+			text = "TOM_Anti_Humanist_Propaganda"
 			format = center
-			pdx_tooltip = "ERS_Anti_Humanist_Propaganda_tt"
+			pdx_tooltip = "TOM_Anti_Humanist_Propaganda_tt"
 		}
 		buttonType = {
-			name = "ERS_Pro_Humanist_Campaign"
+			name = "TOM_Pro_Humanist_Campaign"
 			position = { x = 232 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Pro_Humanist_Campaign"
+			text = "TOM_Pro_Humanist_Campaign"
 			format = center
-			pdx_tooltip = "ERS_Pro_Humanist_Campaign_tt"
+			pdx_tooltip = "TOM_Pro_Humanist_Campaign_tt"
 		}
 
 		buttonType = {
-			name = "ERS_Weaken_Humanist_Authority"
+			name = "TOM_Weaken_Humanist_Authority"
 			position = { x = 442 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Weaken_Humanist_Authority"
+			text = "TOM_Weaken_Humanist_Authority"
 			format = center
-			pdx_tooltip = "ERS_Weaken_Humanist_Authority_tt"
+			pdx_tooltip = "TOM_Weaken_Humanist_Authority_tt"
 		}
 		buttonType = {
-			name = "ERS_Consolidate_Humanist_Rule"
+			name = "TOM_Consolidate_Humanist_Rule"
 			position = { x = 442 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Consolidate_Humanist_Rule"
+			text = "TOM_Consolidate_Humanist_Rule"
 			format = center
-			pdx_tooltip = "ERS_Consolidate_Humanist_Rule_tt"
+			pdx_tooltip = "TOM_Consolidate_Humanist_Rule_tt"
 		}
 	}
 
@@ -692,10 +692,10 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_window_thin_border2"
 		}
 		instantTextBoxType = {
-			name = "ERS_Bas_Int_Textbox"
+			name = "TOM_Bas_Int_Textbox"
 			position = { x = 0 y = 20 }
 			font = "aldrich_30_outline"
-			text = "ERS_Bas_Int_Title"
+			text = "TOM_Bas_Int_Title"
 			format = center
 			maxWidth = 600
 		}
@@ -710,66 +710,66 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 		buttonType = {
-			name = "ERS_Ask_For_Bastillard_Support_in_Lower_House"
+			name = "TOM_Ask_For_Bastillard_Support_in_Lower_House"
 			position = { x = 22 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Ask_For_Bastillard_Support_in_Lower_House"
+			text = "TOM_Ask_For_Bastillard_Support_in_Lower_House"
 			format = center
-			pdx_tooltip = "ERS_Ask_For_Bastillard_Support_in_Lower_House_tt"
+			pdx_tooltip = "TOM_Ask_For_Bastillard_Support_in_Lower_House_tt"
 		}
 		buttonType = {
-			name = "ERS_Ask_For_Bastillard_Support_in_Upper_House"
+			name = "TOM_Ask_For_Bastillard_Support_in_Upper_House"
 			position = { x = 22 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Ask_For_Bastillard_Support_in_Upper_House"
+			text = "TOM_Ask_For_Bastillard_Support_in_Upper_House"
 			format = center
-			pdx_tooltip = "ERS_Ask_For_Bastillard_Support_in_Upper_House_tt"
+			pdx_tooltip = "TOM_Ask_For_Bastillard_Support_in_Upper_House_tt"
 		}
 
 		buttonType = {
-			name = "ERS_Anti_Bastillard_Propaganda"
+			name = "TOM_Anti_Bastillard_Propaganda"
 			position = { x = 232 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Anti_Bastillard_Propaganda"
+			text = "TOM_Anti_Bastillard_Propaganda"
 			format = center
-			pdx_tooltip = "ERS_Anti_Bastillard_Propaganda_tt"
+			pdx_tooltip = "TOM_Anti_Bastillard_Propaganda_tt"
 		}
 		buttonType = {
-			name = "ERS_Pro_Bastillard_Campaign"
+			name = "TOM_Pro_Bastillard_Campaign"
 			position = { x = 232 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Pro_Bastillard_Campaign"
+			text = "TOM_Pro_Bastillard_Campaign"
 			format = center
-			pdx_tooltip = "ERS_Pro_Bastillard_Campaign_tt"
+			pdx_tooltip = "TOM_Pro_Bastillard_Campaign_tt"
 		}
 
 		buttonType = {
-			name = "ERS_Weaken_Bastillard_Authority"
+			name = "TOM_Weaken_Bastillard_Authority"
 			position = { x = 442 y = 84 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Weaken_Bastillard_Authority"
+			text = "TOM_Weaken_Bastillard_Authority"
 			format = center
-			pdx_tooltip = "ERS_Weaken_Bastillard_Authority_tt"
+			pdx_tooltip = "TOM_Weaken_Bastillard_Authority_tt"
 		}
 		buttonType = {
-			name = "ERS_Consolidate_Bastillard_Rule"
+			name = "TOM_Consolidate_Bastillard_Rule"
 			position = { x = 442 y = 244 }
 			multiline = yes
-			spriteType = "GFX_ERS_Party_Table"
+			spriteType = "GFX_TOM_Party_Table"
 			font = "aldrich_24_outline"
-			text = "ERS_Consolidate_Bastillard_Rule"
+			text = "TOM_Consolidate_Bastillard_Rule"
 			format = center
-			pdx_tooltip = "ERS_Consolidate_Bastillard_Rule_tt"
+			pdx_tooltip = "TOM_Consolidate_Bastillard_Rule_tt"
 		}
 	}
 
@@ -809,16 +809,16 @@ guiTypes = {
 			maxWidth = 850
 		}
 		containerWindowType = {
-			name = "ERS_Dec_Salon_Popularity"
+			name = "TOM_Dec_Salon_Popularity"
 			size = { width = 530 height = 275 }
 			position = { x = 37 y = 254 }
 			iconType = {
-				name = "ERS_Dec_gui_alert"
+				name = "TOM_Dec_gui_alert"
 				spriteType = "GFX_gui_alert"
 				position = { x = 43 y = -82 }
 			}
 			buttonType = {
-				name = "ERS_Salon_Dec_Interactions"
+				name = "TOM_Salon_Dec_Interactions"
 				scale = 0.65
 				position = { x = 8 y = -10 }
 				spriteType = "GFX_Tomsk_control_bar_bg"
@@ -826,23 +826,23 @@ guiTypes = {
 				format = center
 			}
 			instantTextBoxType = {
-				name = "ERS_Salon_Dec_Interactions_Text"
+				name = "TOM_Salon_Dec_Interactions_Text"
 				position = { x = 14 y = -6 }
 				alwaystransparent = yes
 				font = "aldrich_20_outline"
-				text = "ERS_Dec_Interaction_tt"
+				text = "TOM_Dec_Interaction_tt"
 				maxWidth = 270
 				format = left
 			}
 			iconType = {
 				name = "Salon_Table_Frame"
 				scale = 0.50
-				spriteType = "GFX_ERS_Salon_Table"
+				spriteType = "GFX_TOM_Salon_Table"
 				orientation = upper_left
 				position = { x = 8 y = 32 }
 			}
 			iconType = {
-				name = "ERS_Salon_Dec_Button"
+				name = "TOM_Salon_Dec_Button"
 				scale = 0.70
 				position = { x = -20 y = 36 }
 				spriteType = "GFX_Decembrists_GUI"
@@ -908,7 +908,7 @@ guiTypes = {
 				position = { x = 16 y = 145 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Dec_Get_PopsTotal]"
+				text = "[Root.TOM_Dec_Get_PopsTotal]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -916,7 +916,7 @@ guiTypes = {
 				position = { x = 135 y = 145 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Dec_Get_AuthTotal]"
+				text = "[Root.TOM_Dec_Get_AuthTotal]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -924,7 +924,7 @@ guiTypes = {
 				position = { x = 14 y = 229 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Dec_Get_Upper_House_Seats]"
+				text = "[Root.TOM_Dec_Get_Upper_House_Seats]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -932,7 +932,7 @@ guiTypes = {
 				position = { x = 135 y = 229 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Dec_Get_Lower_House_Seats]"
+				text = "[Root.TOM_Dec_Get_Lower_House_Seats]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -940,7 +940,7 @@ guiTypes = {
 				position = { x = 16 y = 305 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "ERS_Dec_upper_seats_app"
+				text = "TOM_Dec_upper_seats_app"
 				format = center
 			}
 			instantTextBoxType = {
@@ -948,21 +948,21 @@ guiTypes = {
 				position = { x = 135 y = 305 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "ERS_Dec_lower_seats_app"
+				text = "TOM_Dec_lower_seats_app"
 				format = center
 			}
 		}
 		containerWindowType = {
-			name = "ERS_Mod_Salon_Popularity"
+			name = "TOM_Mod_Salon_Popularity"
 			size = { width = 530 height = 275 }
 			position = { x = 316 y = 254 }
 			iconType = {
-				name = "ERS_Mod_gui_alert"
+				name = "TOM_Mod_gui_alert"
 				spriteType = "GFX_gui_alert"
 				position = { x = 43 y = -82 }
 			}
 			buttonType = {
-				name = "ERS_Salon_Mod_Interactions"
+				name = "TOM_Salon_Mod_Interactions"
 				scale = 0.65
 				position = { x = 8 y = -10 }
 				spriteType = "GFX_Tomsk_control_bar_bg"
@@ -970,23 +970,23 @@ guiTypes = {
 				format = center
 			}
 			instantTextBoxType = {
-				name = "ERS_Salon_Mod_Interactions_Text"
+				name = "TOM_Salon_Mod_Interactions_Text"
 				position = { x = 14 y = -6 }
 				alwaystransparent = yes
 				font = "aldrich_20_outline"
-				text = "ERS_Mod_Interaction_tt"
+				text = "TOM_Mod_Interaction_tt"
 				maxWidth = 270
 				format = left
 			}
 			iconType = {
 				name = "Salon_Table_Frame"
 				scale = 0.50
-				spriteType = "GFX_ERS_Salon_Table"
+				spriteType = "GFX_TOM_Salon_Table"
 				orientation = upper_left
 				position = { x = 8 y = 32 }
 			}
 			iconType = {
-				name = "ERS_Salon_Mod_Button"
+				name = "TOM_Salon_Mod_Button"
 				scale = 0.70
 				position = { x = -20 y = 36 }
 				spriteType = "GFX_Modernists_GUI"
@@ -1052,7 +1052,7 @@ guiTypes = {
 				position = { x = 16 y = 145 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Mod_Get_PopsTotal]"
+				text = "[Root.TOM_Mod_Get_PopsTotal]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1060,7 +1060,7 @@ guiTypes = {
 				position = { x = 135 y = 145 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Mod_Get_AuthTotal]"
+				text = "[Root.TOM_Mod_Get_AuthTotal]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1068,7 +1068,7 @@ guiTypes = {
 				position = { x = 14 y = 229 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Mod_Get_Upper_House_Seats]"
+				text = "[Root.TOM_Mod_Get_Upper_House_Seats]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1076,7 +1076,7 @@ guiTypes = {
 				position = { x = 135 y = 229 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Mod_Get_Lower_House_Seats]"
+				text = "[Root.TOM_Mod_Get_Lower_House_Seats]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1084,7 +1084,7 @@ guiTypes = {
 				position = { x = 16 y = 305 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "ERS_Mod_upper_seats_app"
+				text = "TOM_Mod_upper_seats_app"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1092,21 +1092,21 @@ guiTypes = {
 				position = { x = 135 y = 305 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "ERS_Mod_lower_seats_app"
+				text = "TOM_Mod_lower_seats_app"
 				format = center
 			}
 		}
 		containerWindowType = {
-			name = "ERS_Hum_Salon_Popularity"
+			name = "TOM_Hum_Salon_Popularity"
 			size = { width = 530 height = 275 }
 			position = { x = 37 y = 654 }
 			iconType = {
-				name = "ERS_Hum_gui_alert"
+				name = "TOM_Hum_gui_alert"
 				spriteType = "GFX_gui_alert"
 				position = { x = 43 y = -82 }
 			}
 			buttonType = {
-				name = "ERS_Salon_Hum_Interactions"
+				name = "TOM_Salon_Hum_Interactions"
 				scale = 0.65
 				position = { x = 8 y = -10 }
 				spriteType = "GFX_Tomsk_control_bar_bg"
@@ -1114,23 +1114,23 @@ guiTypes = {
 				format = center
 			}
 			instantTextBoxType = {
-				name = "ERS_Salon_Hum_Interactions_Text"
+				name = "TOM_Salon_Hum_Interactions_Text"
 				position = { x = 14 y = -6 }
 				alwaystransparent = yes
 				font = "aldrich_20_outline"
-				text = "ERS_Hum_Interaction_tt"
+				text = "TOM_Hum_Interaction_tt"
 				maxWidth = 270
 				format = left
 			}
 			iconType = {
 				name = "Salon_Table_Frame"
 				scale = 0.50
-				spriteType = "GFX_ERS_Salon_Table"
+				spriteType = "GFX_TOM_Salon_Table"
 				orientation = upper_left
 				position = { x = 8 y = 32 }
 			}
 			iconType = {
-				name = "ERS_Salon_Hum_Button"
+				name = "TOM_Salon_Hum_Button"
 				scale = 0.70
 				position = { x = -20 y = 36 }
 				spriteType = "GFX_Humanists_GUI"
@@ -1196,7 +1196,7 @@ guiTypes = {
 				position = { x = 16 y = 145 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Hum_Get_PopsTotal]"
+				text = "[Root.TOM_Hum_Get_PopsTotal]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1204,7 +1204,7 @@ guiTypes = {
 				position = { x = 135 y = 145 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Hum_Get_AuthTotal]"
+				text = "[Root.TOM_Hum_Get_AuthTotal]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1212,7 +1212,7 @@ guiTypes = {
 				position = { x = 14 y = 229 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Hum_Get_Upper_House_Seats]"
+				text = "[Root.TOM_Hum_Get_Upper_House_Seats]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1220,7 +1220,7 @@ guiTypes = {
 				position = { x = 135 y = 229 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Hum_Get_Lower_House_Seats]"
+				text = "[Root.TOM_Hum_Get_Lower_House_Seats]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1228,7 +1228,7 @@ guiTypes = {
 				position = { x = 16 y = 305 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "ERS_Hum_upper_seats_app"
+				text = "TOM_Hum_upper_seats_app"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1236,21 +1236,21 @@ guiTypes = {
 				position = { x = 135 y = 305 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "ERS_Hum_lower_seats_app"
+				text = "TOM_Hum_lower_seats_app"
 				format = center
 			}
 		}
 		containerWindowType = {
-			name = "ERS_Bas_Salon_Popularity"
+			name = "TOM_Bas_Salon_Popularity"
 			size = { width = 530 height = 275 }
 			position = { x = 316 y = 654 }
 			iconType = {
-				name = "ERS_Bas_gui_alert"
+				name = "TOM_Bas_gui_alert"
 				spriteType = "GFX_gui_alert"
 				position = { x = 43 y = -82 }
 			}
 			buttonType = {
-				name = "ERS_Salon_Bas_Interactions"
+				name = "TOM_Salon_Bas_Interactions"
 				scale = 0.65
 				position = { x = 8 y = -10 }
 				spriteType = "GFX_Tomsk_control_bar_bg"
@@ -1258,23 +1258,23 @@ guiTypes = {
 				format = center
 			}
 			instantTextBoxType = {
-				name = "ERS_Salon_Bas_Interactions_Text"
+				name = "TOM_Salon_Bas_Interactions_Text"
 				position = { x = 14 y = -6 }
 				alwaystransparent = yes
 				font = "aldrich_20_outline"
-				text = "ERS_Bas_Interaction_tt"
+				text = "TOM_Bas_Interaction_tt"
 				maxWidth = 270
 				format = left
 			}
 			iconType = {
 				name = "Salon_Table_Frame"
 				scale = 0.50
-				spriteType = "GFX_ERS_Salon_Table"
+				spriteType = "GFX_TOM_Salon_Table"
 				orientation = upper_left
 				position = { x = 8 y = 32 }
 			}
 			iconType = {
-				name = "ERS_Salon_Bas_Button"
+				name = "TOM_Salon_Bas_Button"
 				scale = 0.70
 				position = { x = -20 y = 36 }
 				spriteType = "GFX_Bastillards_GUI"
@@ -1340,7 +1340,7 @@ guiTypes = {
 				position = { x = 16 y = 145 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Bas_Get_PopsTotal]"
+				text = "[Root.TOM_Bas_Get_PopsTotal]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1348,7 +1348,7 @@ guiTypes = {
 				position = { x = 135 y = 145 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Bas_Get_AuthTotal]"
+				text = "[Root.TOM_Bas_Get_AuthTotal]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1356,7 +1356,7 @@ guiTypes = {
 				position = { x = 14 y = 229 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Bas_Get_Upper_House_Seats]"
+				text = "[Root.TOM_Bas_Get_Upper_House_Seats]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1364,7 +1364,7 @@ guiTypes = {
 				position = { x = 135 y = 229 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "[Root.ERS_Bas_Get_Lower_House_Seats]"
+				text = "[Root.TOM_Bas_Get_Lower_House_Seats]"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1372,7 +1372,7 @@ guiTypes = {
 				position = { x = 16 y = 305 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "ERS_Bas_upper_seats_app"
+				text = "TOM_Bas_upper_seats_app"
 				format = center
 			}
 			instantTextBoxType = {
@@ -1380,7 +1380,7 @@ guiTypes = {
 				position = { x = 135 y = 305 }
 				maxWidth = 110
 				font = "aldrich_30_outline"
-				text = "ERS_Bas_lower_seats_app"
+				text = "TOM_Bas_lower_seats_app"
 				format = center
 			}
 		}
@@ -1397,9 +1397,9 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "Hum_Reps_Title"
-					position = { x = 90 y = -40 }
-					font = "aldrich_36_outline"
-					text = "[Root.ERSGetLowerHouseName]"
+					position = { x = 90 y = -60 }
+					font = "aldrich_32_outline"
+					text = "[Root.TOMGetLowerHouseName]"
 					format = center
 					maxWidth = 538
 					maxHeight = 20
@@ -1427,8 +1427,8 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "Dec_Reps_Title"
 					position = { x = 90 y = -40 }
-					font = "aldrich_36_outline"
-					text = "ERS_upper_house_name"
+					font = "aldrich_32_outline"
+					text = "TOM_upper_house_name"
 					format = center
 					maxWidth = 538
 				}		
@@ -1463,84 +1463,84 @@ guiTypes = {
 				iconType = {
 					name = "Slot1"
 					orientation = upper_left
-					position = { x = 202 y = 363 }
+					position = { x = 232 y = 363 }
 				}
 				iconType = {
 					name = "Slot2"
 					orientation = upper_left
-					position = { x = 83 y = 461 }
+					position = { x = 113 y = 461 }
 				}
 				iconType = {
 					name = "Slot3"
 					orientation = upper_left
-					position = { x = 321 y = 461 }
+					position = { x = 351 y = 461 }
 				}
 				iconType = {
 					name = "Slot4"
 					orientation = upper_left
-					position = { x = 83 y = 621 }
+					position = { x = 113 y = 621 }
 				}
 				iconType = {
 					name = "Slot5"
 					orientation = upper_left
-					position = { x = 321 y = 621 }
+					position = { x = 361 y = 621 }
 				}
 				iconType = {
 					name = "Slot6"
 					orientation = upper_left
-					position = { x = 83 y = 781 }
+					position = { x = 113 y = 781 }
 				}
 				iconType = {
 					name = "Slot7"
 					orientation = upper_left
-					position = { x = 321 y = 781 }
+					position = { x = 361 y = 781 }
 				}
 
 				instantTextBoxType = {
 					name = "Slot1_Text"
-					position = { x = 146 y = 461 }
+					position = { x = 176 y = 461 }
 					font = "aldrich_20_outline"
 					text = "MOD_CABINET_0"
 					format = center
 				}
 				instantTextBoxType = {
 					name = "Slot2_Text"
-					position = { x = 25 y = 559 }
+					position = { x = 55 y = 559 }
 					font = "aldrich_20_outline"
 					text = "MOD_CABINET_1"
 					format = center
 				}
 				instantTextBoxType = {
 					name = "Slot3_Text"
-					position = { x = 262 y = 559 }
+					position = { x = 292 y = 559 }
 					font = "aldrich_20_outline"
 					text = "MOD_CABINET_2"
 					format = center
 				}
 				instantTextBoxType = {
 					name = "Slot4_Text"
-					position = { x = 25 y = 719 }
+					position = { x = 55 y = 719 }
 					font = "aldrich_20_outline"
 					text = "MOD_CABINET_3"
 					format = center
 				}
 				instantTextBoxType = {
 					name = "Slot5_Text"
-					position = { x = 262 y = 719 }
+					position = { x = 292 y = 719 }
 					font = "aldrich_20_outline"
 					text = "MOD_CABINET_4"
 					format = center
 				}
 				instantTextBoxType = {
 					name = "Slot6_Text"
-					position = { x = 25 y = 879 }
+					position = { x = 35 y = 879 }
 					font = "aldrich_20_outline"
 					text = "MOD_CABINET_5"
 					format = center
 				}
 				instantTextBoxType = {
 					name = "Slot7_Text"
-					position = { x = 262 y = 879 }
+					position = { x = 292 y = 879 }
 					font = "aldrich_20_outline"
 					text = "MOD_CABINET_6"
 					format = center
@@ -1554,7 +1554,7 @@ guiTypes = {
 		position = { x = 105 y = 10 }
 		size = { width = 482 height = 208 }
 		iconType = {
-			name = "ERS_Lower_House_GUI_Seats_Entry_Box"
+			name = "TOM_Lower_House_GUI_Seats_Entry_Box"
 			position = { x = 90 y = 5 }
 			spriteType = "GFX_Tomsk_Dots"
 		}
@@ -1565,7 +1565,7 @@ guiTypes = {
 		position = { x = 105 y = 10 }
 		size = { width = 482 height = 208 }
 		iconType = {
-			name = "ERS_Upper_House_GUI_Seats_Entry_Box"
+			name = "TOM_Upper_House_GUI_Seats_Entry_Box"
 			position = { x = 90 y = 5 }
 			spriteType = "GFX_Tomsk_Dots"
 		}
