@@ -24,7 +24,7 @@ guiTypes = {
 			name = "USA_CIA_Decisions_GUI_Budget_Title"
 			position = { x = 0 y = 246 }
 			font = "aldrich_30_outline"
-			text = USA_CIA_Change_Budget_Tooltip
+			text = USA_CIA_Change_Budget_tt
 			maxWidth = 525
 			maxHeight = 20
 			format = center
@@ -44,7 +44,7 @@ guiTypes = {
 			name = "USA_CIA_Decisions_GUI_Budget_Increase_Amount"
 			position = { x = 171 y = 305 }
 			font = "aldrich_20_outline"
-			text = USA_CIA_Change_Budget_Change_Tooltip
+			text = USA_CIA_Change_Budget_Change_tt
 			maxWidth = 175
 			maxHeight = 20
 			format = center
@@ -943,7 +943,7 @@ guiTypes = {
 			name = "TNO_US_CIA_Decisions_GUI_Action_Window_Intel"
 			position = { x = 0 y = 94 }
 			font = "aldrich_30_outline"
-			text = "[?USA_CIA_Invested_Budget]백만 달러 할당"
+			text = USA_CIA_Invested_Budget_tt
 			maxWidth = 400
 			maxHeight = 20
 			format = center
