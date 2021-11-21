@@ -1,25 +1,25 @@
 guiTypes = {
 
 	containerWindowType = {
-		name = "MZB_gui_investigation_display"
+		name = "GRO_gui_investigation_display"
 		size = { width = 500 height = 700 }
 		position = { x = 0 y = 0 }
 
 		containerWindowType = {
-			name = "MZB_gui_investigation_display_muller"
+			name = "GRO_gui_investigation_display_muller"
 			size = { width = 500 height = 700 }
 			position = { x = 20 y = 0 }
 
 			containerWindowType = {
-				name = "MZB_gui_investigation_list_muller"
+				name = "GRO_gui_investigation_list_muller"
 				size = { width = 455 height = 350 }
 				position = { x = 0 y = 0 }
 				margin = { left = 0 right = 0 top = 0 bottom = 0 }
 
 				##Frame
 				iconType = {
-					name = "MZB_gui_investigation_case_frame_muller"
-					spriteType = "GFX_mzb_investigation_case_frame"
+					name = "GRO_gui_investigation_case_frame_muller"
+					spriteType = "GFX_GRO_investigation_case_frame"
 					orientation = upper_left
 					position = { x = 0 y = 0 }
 
@@ -27,8 +27,8 @@ guiTypes = {
 				}
 
 				iconType = {
-					name = "MZB_gui_investigation_case_muller"
-					spriteType = "GFX_mzb_investigation_case_muller"
+					name = "GRO_gui_investigation_case_muller"
+					spriteType = "GFX_GRO_investigation_case_muller"
 					orientation = upper_left
 					position = { x = 6 y = 6 }
 
@@ -36,7 +36,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "MZB_gui_investigation_case_title_muller"
+					name = "GRO_gui_investigation_case_title_muller"
 					orientation = upper_left
 					position = { x = 140 y = 10 }
 
@@ -48,7 +48,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "MZB_gui_investigation_case_name_muller"
+					name = "GRO_gui_investigation_case_name_muller"
 					orientation = upper_left
 					position = { x = 140 y = 60 }
 
@@ -60,20 +60,20 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "MZB_gui_investigation_list_grid_muller"
+					name = "GRO_gui_investigation_list_grid_muller"
 					size = { width = 450 height = 200 }
 					position = { x = 0 y = 142 }
 					margin = { left = 0 right = 0 top = 0 bottom = 0 }
 					verticalScrollbar = "right_vertical_slider"
 
 					background = {
-						name = "MZB_gui_investigation_list_muller_background"
-						quadTextureSprite = "GFX_mzb_investigation_case_frame_background"
+						name = "GRO_gui_investigation_list_muller_background"
+						quadTextureSprite = "GFX_GRO_investigation_case_frame_background"
 					}
 
 					##Gridbox
 					gridboxtype = {
-						name = "MZB_gui_investigation_gridbox_muller"
+						name = "GRO_gui_investigation_gridbox_muller"
 						format = "UPPER_LEFT"
 						position = { x = 6 y = 0 }
 						size = { width = 450 height = 200 }
@@ -86,20 +86,20 @@ guiTypes = {
 		}
 
 		containerWindowType = {
-			name = "MZB_gui_investigation_display_schenck"
+			name = "GRO_gui_investigation_display_schenck"
 			size = { width = 500 height = 700 }
 			position = { x = 20 y = 350 }
 
 			containerWindowType = {
-				name = "MZB_gui_investigation_list_schenck"
+				name = "GRO_gui_investigation_list_schenck"
 				size = { width = 455 height = 350 }
 				position = { x = 0 y = 0 }
 				margin = { left = 0 right = 0 top = 0 bottom = 0 }
 
 				##Frame
 				iconType = {
-					name = "MZB_gui_investigation_case_frame_schenck"
-					spriteType = "GFX_mzb_investigation_case_frame"
+					name = "GRO_gui_investigation_case_frame_schenck"
+					spriteType = "GFX_GRO_investigation_case_frame"
 					orientation = upper_left
 					position = { x = 0 y = 0 }
 
@@ -107,8 +107,8 @@ guiTypes = {
 				}
 
 				iconType = {
-					name = "MZB_gui_investigation_case_schenck"
-					spriteType = "GFX_mzb_investigation_case_schenck"
+					name = "GRO_gui_investigation_case_schenck"
+					spriteType = "GFX_GRO_investigation_case_schenck"
 					orientation = upper_left
 					position = { x = 6 y = 6 }
 
@@ -116,7 +116,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "MZB_gui_investigation_case_title_schenck"
+					name = "GRO_gui_investigation_case_title_schenck"
 					orientation = upper_left
 					position = { x = 140 y = 10 }
 
@@ -128,7 +128,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "MZB_gui_investigation_case_name_schenck"
+					name = "GRO_gui_investigation_case_name_schenck"
 					orientation = upper_left
 					position = { x = 140 y = 60 }
 
@@ -140,20 +140,20 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "MZB_gui_investigation_list_grid_schenck"
+					name = "GRO_gui_investigation_list_grid_schenck"
 					size = { width = 450 height = 200 }
 					position = { x = 0 y = 142 }
 					margin = { left = 0 right = 0 top = 0 bottom = 0 }
 					verticalScrollbar = "right_vertical_slider"
 
 					background = {
-						name = "MZB_gui_investigation_list_schenck_background"
-						quadTextureSprite = "GFX_mzb_investigation_case_frame_background"
+						name = "GRO_gui_investigation_list_schenck_background"
+						quadTextureSprite = "GFX_GRO_investigation_case_frame_background"
 					}
 
 					##Gridbox
 					gridboxtype = {
-						name = "MZB_gui_investigation_gridbox_schenck"
+						name = "GRO_gui_investigation_gridbox_schenck"
 						format = "UPPER_LEFT"
 						position = { x = 6 y = 0 }
 						size = { width = 450 height = 200 }
@@ -167,14 +167,14 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "MZB_gui_investigation_evidence_container_muller"
+		name = "GRO_gui_investigation_evidence_container_muller"
 		orientation = upper_left
 		position = { x = 0 y = 10 }
 		size = { width = 360 height = 40 }
 
 		##Text
 		instantTextBoxType = {
-			name = "MZB_gui_investigation_evidence_name_muller"
+			name = "GRO_gui_investigation_evidence_name_muller"
 			orientation = upper_left
 			position = { x = 2 y = 2 }
 
@@ -182,13 +182,13 @@ guiTypes = {
 			maxWidth = 352
 			format = center
 			font = "aldrich_18_outline"
-			text = "[MZBGetEvidenceMullerName]"
+			text = "[GROGetEvidenceMullerName]"
 		}
 
 		##Buttons
 		buttonType = {
-			name = "MZB_gui_investigation_evidence_add_to_case_muller"
-			spriteType = "GFX_mzb_investigation_evidance_add_to_case"
+			name = "GRO_gui_investigation_evidence_add_to_case_muller"
+			spriteType = "GFX_GRO_investigation_evidance_add_to_case"
 			orientation = upper_left
 			position = { x = 365 y = 0 }
 
@@ -197,28 +197,28 @@ guiTypes = {
 
 		##Frame
 		iconType = {
-			name = "MZB_gui_investigation_evidence_frame_muller"
-			spriteType = "GFX_mzb_investigation_evidance_frame"
+			name = "GRO_gui_investigation_evidence_frame_muller"
+			spriteType = "GFX_GRO_investigation_evidance_frame"
 			orientation = upper_left
 			position = { x = 0 y = 0 }
 
 			alwaystransparent = yes
-			pdx_tooltip = "[MZBGetEvidenceMullerTT]"
+			pdx_tooltip = "[GROGetEvidenceMullerTT]"
 		}
 
 		iconType = {
-			name = "MZB_gui_investigation_evidence_frame_selected_muller"
-			spriteType = "GFX_mzb_investigation_evidance_frame_selected"
+			name = "GRO_gui_investigation_evidence_frame_selected_muller"
+			spriteType = "GFX_GRO_investigation_evidance_frame_selected"
 			orientation = upper_left
 			position = { x = 0 y = 0 }
 
 			alwaystransparent = yes
-			pdx_tooltip = "[MZBGetEvidenceSchenckTT]"
+			pdx_tooltip = "[GROGetEvidenceSchenckTT]"
 		}
 
 		iconType = {
-			name = "MZB_gui_investigation_evidence_frame_locked_muller"
-			spriteType = "GFX_mzb_investigation_evidance_frame_locked"
+			name = "GRO_gui_investigation_evidence_frame_locked_muller"
+			spriteType = "GFX_GRO_investigation_evidance_frame_locked"
 			orientation = upper_left
 			position = { x = 0 y = 0 }
 
@@ -227,14 +227,14 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "MZB_gui_investigation_evidence_container_schenck"
+		name = "GRO_gui_investigation_evidence_container_schenck"
 		orientation = upper_left
 		position = { x = 0 y = 10 }
 		size = { width = 360 height = 40 }
 
 		##Text
 		instantTextBoxType = {
-			name = "MZB_gui_investigation_evidence_name_schenck"
+			name = "GRO_gui_investigation_evidence_name_schenck"
 			orientation = upper_left
 			position = { x = 2 y = 2 }
 
@@ -242,13 +242,13 @@ guiTypes = {
 			maxWidth = 352
 			format = center
 			font = "aldrich_18_outline"
-			text = "[MZBGetEvidenceSchenckName]"
+			text = "[GROGetEvidenceSchenckName]"
 		}
 
 		##Buttons
 		buttonType = {
-			name = "MZB_gui_investigation_evidence_add_to_case_schenck"
-			spriteType = "GFX_mzb_investigation_evidance_add_to_case"
+			name = "GRO_gui_investigation_evidence_add_to_case_schenck"
+			spriteType = "GFX_GRO_investigation_evidance_add_to_case"
 			orientation = upper_left
 			position = { x = 365 y = 0 }
 
@@ -257,28 +257,28 @@ guiTypes = {
 
 		##Frame
 		iconType = {
-			name = "MZB_gui_investigation_evidence_frame_schenck"
-			spriteType = "GFX_mzb_investigation_evidance_frame"
+			name = "GRO_gui_investigation_evidence_frame_schenck"
+			spriteType = "GFX_GRO_investigation_evidance_frame"
 			orientation = upper_left
 			position = { x = 0 y = 0 }
 
 			alwaystransparent = yes
-			pdx_tooltip = "[MZBGetEvidenceSchenckTT]"
+			pdx_tooltip = "[GROGetEvidenceSchenckTT]"
 		}
 
 		iconType = {
-			name = "MZB_gui_investigation_evidence_frame_selected_schenck"
-			spriteType = "GFX_mzb_investigation_evidance_frame_selected"
+			name = "GRO_gui_investigation_evidence_frame_selected_schenck"
+			spriteType = "GFX_GRO_investigation_evidance_frame_selected"
 			orientation = upper_left
 			position = { x = 0 y = 0 }
 
 			alwaystransparent = yes
-			pdx_tooltip = "[MZBGetEvidenceSchenckTT]"
+			pdx_tooltip = "[GROGetEvidenceSchenckTT]"
 		}
 
 		iconType = {
-			name = "MZB_gui_investigation_evidence_frame_locked_schenck"
-			spriteType = "GFX_mzb_investigation_evidance_frame_locked"
+			name = "GRO_gui_investigation_evidence_frame_locked_schenck"
+			spriteType = "GFX_GRO_investigation_evidance_frame_locked"
 			orientation = upper_left
 			position = { x = 0 y = 0 }
 
