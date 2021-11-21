@@ -3,22 +3,22 @@ defined_text = {
 
 	## West Russia
 	text = {
-		trigger = { tag = KIR }
-		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_KIR
+		trigger = { tag = VYT }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_VYT
 	}
 	text = {
 		trigger = { tag = PRM }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_PRM
 	}
 	text = {
-		trigger = { tag = NIK }
-		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_NIK
+		trigger = { tag = KOM }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_KOM
 	}
 
 	## West Siberia
 	text = {
-		trigger = { tag = TOB }
-		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_TOB
+		trigger = { tag = SVR }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_SVR
 	}
 	text = {
 		trigger = { tag = OMS }
@@ -31,14 +31,14 @@ defined_text = {
 
 	## Central Siberia
 	text = {
-		trigger = { tag = KHA }
-		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_KHA
+		trigger = { tag = SBA }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_SBA
 	}
 
 	## Far East
 	text = {
-		trigger = { tag = WCH }
-		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_WCH
+		trigger = { tag = CHT }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_CHT
 	}
 	text = {
 		trigger = { tag = AMR }
@@ -53,7 +53,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = MZB
+				tag = GRO
 				tag = ANG
 				tag = COG
 				tag = MAD
@@ -103,6 +103,11 @@ defined_text = {
 		trigger = { tag = INS }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_INS
 	}
+	##Yunnan
+	text = {
+		trigger = { tag = YUN }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_YUN
+	}
 	##China
 	text = {
 		trigger = { tag = CHI }
@@ -138,8 +143,14 @@ defined_text = {
 		trigger = { tag = IRE }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_IRE
 	}
+	##Norway
+	text = {
+		trigger = { tag = NOR }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GER
+	}
 	#### CSS ####
 	## Brazil ##
+	
 	text = {
 		trigger = { tag = BRA }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_BRA
@@ -236,18 +247,18 @@ defined_text = {
 }
 
 defined_text = {
-	name = GET_COUNTRY_INFO_PAGE_TEXT_NIK
+	name = GET_COUNTRY_INFO_PAGE_TEXT_KOM
 	text = {
 		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
-		localization_key = COUNTRY_INFO_1_NIK
+		localization_key = COUNTRY_INFO_1_KOM
 	}
 	text = {
 		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
-		localization_key = COUNTRY_INFO_2_NIK
+		localization_key = COUNTRY_INFO_2_KOM
 	}
 	text = {
 		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
-		localization_key = COUNTRY_INFO_3_NIK
+		localization_key = COUNTRY_INFO_3_KOM
 	}
 }
 
@@ -283,6 +294,17 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	name = GET_COUNTRY_INFO_PAGE_TEXT_YUN
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_YUN
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_YUN
+	}
+}
 
 defined_text = {
 	name = GET_COUNTRY_INFO
@@ -301,11 +323,11 @@ defined_text = {
 	}
 	## West Russia
 	text = {
-		trigger = { tag = NIK }
-		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_NIK]"
+		trigger = { tag = KOM }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_KOM]"
 	}
 	text = {
-		trigger = { tag = KIR }
+		trigger = { tag = VYT }
 		localization_key = COUNTRY_INFO_VYATKA
 	}
 	text = {
@@ -317,17 +339,17 @@ defined_text = {
 		localization_key = COUNTRY_INFO_SAMARA
 	}
 	text = {
-		trigger = { tag = VTY }
+		trigger = { tag = ONG }
 		localization_key = COUNTRY_INFO_ONEGA
 	}
 
 	## West Siberia
 	text = {
-		trigger = { tag = ISH }
+		trigger = { tag = TYM }
 		localization_key = COUNTRY_INFO_TYUMEN
 	}
 	text = {
-		trigger = { tag = TOB }
+		trigger = { tag = SVR }
 		localization_key = COUNTRY_INFO_SVERDLOVSK
 	}
 	text = {
@@ -335,13 +357,13 @@ defined_text = {
 		localization_key = COUNTRY_INFO_OMSK
 	}
 	text = {
-		trigger = { tag = UDM }
+		trigger = { tag = ZLT }
 		localization_key = COUNTRY_INFO_ZLATOUST
 	}
 
 	## Central Siberia
 	text = {
-		trigger = { tag = ERS }
+		trigger = { tag = TOM }
 		localization_key = COUNTRY_INFO_TOMSK
 	}
 	text = {
@@ -349,15 +371,15 @@ defined_text = {
 		localization_key = COUNTRY_INFO_KEMEROVO
 	}
 	text = {
-		trigger = { tag = KHA }
+		trigger = { tag = SBA }
 		localization_key = COUNTRY_INFO_SBA
 	}
 	text = {
-		trigger = { tag = PAV }
+		trigger = { tag = NOV }
 		localization_key = COUNTRY_INFO_NOVOSIBIRSK
 	}
 	text = {
-		trigger = { tag = SVO }
+		trigger = { tag = PRC }
 		localization_key = COUNTRY_INFO_PRC
 	}
 
@@ -371,7 +393,7 @@ defined_text = {
 		localization_key = COUNTRY_INFO_MAGADAN
 	}
 	text = {
-		trigger = { tag = WCH }
+		trigger = { tag = CHT }
 		localization_key = COUNTRY_INFO_CHITA
 	}
 	text = {
@@ -395,18 +417,18 @@ defined_text = {
 	}
 
 	text = {
-		trigger = { tag = BAS }
+		trigger = { tag = MGN }
 		localization_key = COUNTRY_INFO_LYSENKO
 	}
 
 	text = {
-		trigger = { tag = ORS }
+		trigger = { tag = DRL }
 		localization_key = COUNTRY_INFO_DIRLEWANGER
 	}
 
 	## South Africa Lads:
 	text = {
-		trigger = { tag = MZB }
+		trigger = { tag = GRO }
 		localization_key = COUNTRY_INFO_OSTAFRIKA
 	}
 	text = {
@@ -455,7 +477,7 @@ defined_text = {
 	## Asia
 	text = {
 		trigger = { tag = YUN }
-		localization_key = COUNTRY_INFO_YUNNAN
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_YUN]"
 	}
 	text = {
 		trigger = { tag = INS }
@@ -484,6 +506,11 @@ defined_text = {
 	text = {
 		trigger = { tag = ITA }
 		localization_key = COUNTRY_INFO_ITALY
+	}
+	## Norway
+	text = {
+		trigger = { tag = NOR }
+		localization_key = COUNTRY_INFO_NORWAY
 	}
 
 	## CSS
@@ -535,8 +562,8 @@ defined_text = {
 			OR = {
 				tag = URL
 				tag = ORE
-				tag = BAS
-				tag = ORS
+				tag = MGN
+				tag = DRL
 			}
 		}
 		localization_key = REGIONAL_INFO_URAL
@@ -545,7 +572,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = MZB
+				tag = GRO
 				tag = ANG
 				tag = COG
 				tag = SAF
@@ -677,8 +704,8 @@ defined_text = {
 			OR = {
 				tag = URL
 				tag = ORE
-				tag = BAS
-				tag = ORS
+				tag = MGN
+				tag = DRL
 			}
 		}
 		localization_key = "GFX_TNO_OpeningScreen_Region_URALS"
@@ -687,7 +714,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = MZB
+				tag = GRO
 				tag = ANG
 				tag = COG
 				tag = SAF
@@ -782,7 +809,7 @@ defined_text = {
 	}
 	## West Russia
 	text = {
-		trigger = { tag = KIR }
+		trigger = { tag = VYT }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Vyatka"
 	}
 	text = {
@@ -790,7 +817,7 @@ defined_text = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Aryan_Brotherhood"
 	}
 	text = {
-		trigger = { tag = VTY }
+		trigger = { tag = ONG }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Onega"
 	}
 	text = {
@@ -802,17 +829,17 @@ defined_text = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_WRRF"
 	}
 	text = {
-		trigger = { tag = NIK }
+		trigger = { tag = KOM }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Komi"
 	}
 
 	## West Siberia
 	text = {
-		trigger = { tag = ISH }
+		trigger = { tag = TYM }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Tyumen"
 	}
 	text = {
-		trigger = { tag = TOB }
+		trigger = { tag = SVR }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Sverdlovsk"
 	}
 	text = {
@@ -820,7 +847,7 @@ defined_text = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Omsk"
 	}
 	text = {
-		trigger = { tag = UDM }
+		trigger = { tag = ZLT }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Zlatoust"
 	}
 
@@ -830,19 +857,19 @@ defined_text = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Kemerovo"
 	}
 	text = {
-		trigger = { tag = ERS }
+		trigger = { tag = TOM }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Tomsk"
 	}
 	text = {
-		trigger = { tag = KHA }
+		trigger = { tag = SBA }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_SBA"
 	}
 	text = {
-		trigger = { tag = PAV }
+		trigger = { tag = NOV }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Novosibirsk"
 	}
 	text = {
-		trigger = { tag = SVO }
+		trigger = { tag = PRC }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_PRC"
 	}
 
@@ -856,7 +883,7 @@ defined_text = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Magadan"
 	}
 	text = {
-		trigger = { tag = WCH }
+		trigger = { tag = CHT }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Chita"
 	}
 	text = {
@@ -878,11 +905,11 @@ defined_text = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Orenburg"
 	}
 	text = {
-		trigger = { tag = BAS }
+		trigger = { tag = MGN }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Magnitogorsk"
 	}
 	text = {
-		trigger = { tag = ORS }
+		trigger = { tag = DRL }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Dirlewanger"
 	}
 
@@ -900,7 +927,7 @@ defined_text = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Zentral"
 	}
 	text = {
-		trigger = { tag = MZB }
+		trigger = { tag = GRO }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Ostafrika"
 	}
 	text = {
@@ -969,7 +996,11 @@ defined_text = {
 		trigger = { tag = JAP }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Japan"
 	}
-
+	## Norway
+	text = {
+		trigger = { tag = NOR }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Norway"
+	}
 	#### CSS ####
 	text = {
 		trigger = { tag = BRA }
