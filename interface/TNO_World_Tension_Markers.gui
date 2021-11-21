@@ -31,7 +31,7 @@ guiTypes = {
 			name = "TNO_World_Tension_number"
 			position = { x = 681 y = 130 }
 			font = "vt323_72_WT_outline"
-			text = "[?global.TNO_World_Tension]%"
+			text = "[?global.TNO_World_Tension|0]%"
 			maxWidth = 200
 			maxHeight = 50
 			format = center
@@ -365,6 +365,25 @@ guiTypes = {
 			name = "conflict_marker_Middle_East_proxy"
 			spriteType = "GFX_conflict_marker_proxy"
 			position = { x = 366 y = 104 }
+		}
+	}
+	
+	containerWindowType = {
+		name = "TNO_tension_animation_gui"
+		iconType = {
+			name = "block"
+			quadtexturesprite = "GFX_world_tension_block"
+			position = { x = 21 y = 312 }
+		}
+		iconType = {
+			name = "globe_animation"
+			quadtexturesprite = "GFX_world_tension_globe_animation"
+			position = { x = 200 y = 360 }
+		}
+		iconType = {
+			name = "progbar_animation"
+			quadtexturesprite = "GFX_world_tension_progbar_animation"
+			position = { x = 600 y = 430 }
 		}
 	}
 }
