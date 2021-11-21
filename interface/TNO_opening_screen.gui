@@ -154,7 +154,7 @@ guiTypes = {
 			name = "TNO_discord_button"
 			quadTextureSprite = "GFX_discord_button"
 			position = { x = 14 y = 40 }
-			web_link = "https://discordapp.com/invite/NUmjGny"
+			web_link = "https://discordapp.com/invite/tno"
 		}
 		buttonType = {
 			name = "TNO_reddit_button"
@@ -201,6 +201,7 @@ guiTypes = {
 			buttonText = "플레이 해 주셔서 감사합니다!"
 			position = { x = 227 y = 497 }
 			shortcut = "ESCAPE"
+			pdx_tooltip = TNO_ClosingScreen_CloseButton_tt
 		}
 		
 		instantTextBoxType = {
