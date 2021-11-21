@@ -1,11 +1,23 @@
 TNO_has_big_opening_screen = {
 	OR = {
-		tag = NIK
+		tag = KOM
 		tag = USA
 		tag = GER
 		tag = CHL
+		tag = BRA
+		tag = YUN
 		tag = WRS
 	}
+}
+
+Is_BRG_Player = {
+	BRG = {
+		is_ai = no
+	}
+}
+
+TNO_has_content = {
+	has_country_flag = tno_playable_country
 }
 
 #
@@ -23,29 +35,21 @@ has_same_government_as_ROOT = {
 			has_government = socialist
 			ROOT = { has_government = socialist }
 		}
-		#		AND = {
-			#			has_government = radical_socialist
-			#			ROOT = { has_government = radical_socialist }
-			#	}
 		AND = {
-			has_government = social_democrat
-			ROOT = { has_government = social_democrat }
+			has_government = social_democracy
+			ROOT = { has_government = social_democracy }
 		}
 		AND = {
-			has_government = social_liberal
-			ROOT = { has_government = social_liberal }
+			has_government = liberal_democracy
+			ROOT = { has_government = liberal_democracy }
 		}
 		AND = {
-			has_government = market_liberal
-			ROOT = { has_government = market_liberal }
+			has_government = conservative_democracy
+			ROOT = { has_government = conservative_democracy }
 		}
 		AND = {
-			has_government = social_conservative
-			ROOT = { has_government = social_conservative }
-		}
-		AND = {
-			has_government = authoritarian_democrat
-			ROOT = { has_government = authoritarian_democrat }
+			has_government = authoritarian_democracy
+			ROOT = { has_government = authoritarian_democracy }
 		}
 		AND = {
 			has_government = despotism
@@ -60,12 +64,12 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = national_socialism }
 		}
 		AND = {
-			has_government = ultranational_socialism
-			ROOT = { has_government = ultranational_socialism }
+			has_government = ultranationalism
+			ROOT = { has_government = ultranationalism }
 		}
 		AND = {
-			has_government = burgundian_system
-			ROOT = { has_government = burgundian_system }
+			has_government = esoteric_nazism
+			ROOT = { has_government = esoteric_nazism }
 		}
 	}
 }
@@ -75,40 +79,37 @@ has_socialist_government = {
 	OR = {
 		has_government = communist
 		has_government = socialist
-		#		has_government = radical_socialist
 	}
 }
 
 # checks for these four government types for the country in scope
 has_elected_government = {
 	OR = {
-		has_government = social_democrat
-		has_government = social_liberal
-		has_government = market_liberal
-		has_government = social_conservative
+		has_government = social_democracy
+		has_government = liberal_democracy
+		has_government = conservative_democracy
 	}
 }
 
 # checks for these five government types for the country in scope
 has_democratic_government = {
 	OR = {
-		has_government = social_democrat
-		has_government = social_liberal
-		has_government = market_liberal
-		has_government = social_conservative
-		has_government = authoritarian_democrat
+		has_government = social_democracy
+		has_government = liberal_democracy
+		has_government = conservative_democracy
+		has_government = authoritarian_democracy
 	}
 }
 
 # checks for these two government types for the country in scope
 has_authoritarian_government = {
 	OR = {
-		has_government = authoritarian_democrat
+		has_government = authoritarian_democracy
 		has_government = despotism
 		has_government = fascism
 		has_government = national_socialism
-		has_government = ultranational_socialism
-		has_government = burgundian_system
+		has_government = ultranationalism
+		has_government = esoteric_nazism
 	}
 }
 
@@ -118,8 +119,8 @@ has_dictatorship_government = {
 		has_government = despotism
 		has_government = fascism
 		has_government = national_socialism
-		has_government = ultranational_socialism
-		has_government = burgundian_system
+		has_government = ultranationalism
+		has_government = esoteric_nazism
 	}
 }
 
@@ -243,182 +244,12 @@ state_same_continent_as_ROOT = {
 		}
 	}
 }
-
-### world news triggers
-# fix these fucking scopes
-
-#wants_world_news = {
-	#	OR = {
-		#		has_global_flag = NEWS_ALL
-		#		has_global_flag = NEWS_SOME
-		#	}
-	#}
-#
-#regional_europe_news = {
-	#	OR = {
-		#		has_global_flag = NEWS_ALL
-		#		is_in_europe = yes
-		#		any_neighbor_country = { is_in_europe = yes }
-		#	}
-	#}
-#
-#regional_asia_news = {
-	#	OR = {
-		#		has_global_flag = NEWS_ALL
-		#		is_in_asia = yes
-		#		any_neighbor_country = { is_in_asia = yes }
-		#		is_in_australia = yes
-		#	}
-	#}
-#
-#regional_africa_news = {
-	#	OR = {
-		#		has_global_flag = NEWS_ALL
-		#		is_in_africa = yes
-		#		any_neighbor_country = { is_in_africa = yes }
-		#	}
-	#}
-#
-#regional_north_america_news = {
-	#	OR = {
-		#		has_global_flag = NEWS_ALL
-		#		is_in_north_america = yes
-		#		any_neighbor_country = { is_in_north_america = yes }
-		#	}
-	#}
-#
-#regional_south_america_news = {
-	#	OR = {
-		#		has_global_flag = NEWS_ALL
-		#		is_in_south_america = yes
-		#		any_neighbor_country = { is_in_south_america = yes }
-		#	}
-	#}
-#
-#regional_middle_east_news = {
-	#	OR = {
-		#		has_global_flag = NEWS_ALL
-		#		is_in_middle_east = yes
-		#		any_neighbor_country = { is_in_middle_east = yes }
-		#	}
-	#}
-
-is_nuclear_armed = {
-	NOT = { has_global_flag = nukes_disabled }
-	OR = {
-		tag = USA
-		tag = GER
-		tag = JAP
-		AND = {
-			tag = BRG
-			BRG = { has_nuclear_socdev = yes }
-		}
-		AND = {
-			tag = RAJ
-			RAJ = { has_nuclear_socdev = yes }
-		}
-		AND = {
-			tag = ITA
-			ITA = { has_nuclear_socdev = yes }
-		}
-		AND = {
-			has_global_flag = RUS_national_unification
-			tag = RUS
-		}
-	}
-}
-has_nuclear_socdev = {
-	OR = {
-		has_idea = tno_nuclear_stockpile_one
-		has_idea = tno_nuclear_stockpile_few
-		has_idea = tno_nuclear_stockpile_many
-		has_idea = tno_nuclear_stockpile_massive
-		has_idea = tno_nuclear_stockpile_apocalyptic
-	}
-}
-is_in_OFN = {
-	is_in_faction_with = USA
-}
-is_in_UnityPakt = {
-	is_in_faction_with = GER
-}
-is_in_Sphere = {
-	is_in_faction_with = JAP
-}
-is_in_Indian_Alliance = {
-	is_in_faction_with = RAJ
-}
-is_indian_nation = {
-	OR = {
-		tag = RAJ
-		tag = INC
-		tag = INF
-		tag = PAK
-		tag = BEN
-		tag = SHK
-		tag = SRI
-		tag = MLD
-		tag = RAO
-		tag = MER
-		tag = TIG
-		tag = KAS
-		tag = RSS
-		#tag = BEN
-	}
-}
-is_indian_nation_icw = {
-	OR = {
-		tag = RAJ
-		tag = INC
-		tag = INF
-		tag = PAK
-		tag = BEN
-		tag = SHK
-		tag = SRI
-		tag = MLD
-		tag = RAO
-		tag = MER
-		tag = TIG
-		tag = KAS
-		tag = RSS
-		#tag = BEN
-	}
-	has_global_flag = ICW_yes
-	has_war = yes
-}
-is_indian_major = {
-	OR = {
-		tag = RAJ
-		tag = INC
-		tag = INF
-		#tag = BEN
-	}
-}
+#####################################################
 
 is_iberian_nation = {
 	#custom_trigger_tooltip = is_iberian_nation_tt
 	hidden_trigger = {
-		OR = {
-			original_tag = IBR
-			original_tag = SPR
-			original_tag = SPS
-			original_tag = CTL
-			original_tag = CNT
-			original_tag = BSQ
-			original_tag = FSR
-			original_tag = GNS
-			original_tag = TBA
-			original_tag = POR
-			original_tag = PPR
-			original_tag = RPP
-			original_tag = GIB
-			original_tag = RIF
-			original_tag = MOR
-			original_tag = GAL
-			original_tag = TRZ
-			original_tag = FZL
-			original_tag = ADL
-		}
+		has_country_flag = is_iberian_nation
 	}
 }
 
@@ -443,7 +274,6 @@ is_european_nation = {
 			original_tag = BRG
 			original_tag = CRO
 			original_tag = SER
-			original_tag = IBR
 			original_tag = BRT
 			original_tag = BUL
 			original_tag = GRE
@@ -474,35 +304,47 @@ CSS_is_south_american_nation = {
 	}
 }
 
+is_west_african_nation = {
+	ROOT = {
+		OR = {
+			tag = TRZ
+			tag = WOL
+			tag = JOL
+			tag = MLI
+			tag = KAY
+			tag = SUS
+			tag = MDI
+			tag = LIB
+			tag = FFR
+			tag = IVO
+			tag = HAU
+			tag = FTF
+			tag = ZAR
+			tag = SWB
+			tag = NGR
+			tag = BKF
+			tag = EWE
+			tag = CPP
+			tag = GBE
+			tag = YOR
+			tag = AZW
+			tag = AYR
+			tag = KNM
+			tag = CHF
+			tag = CHD
+			tag = CAO
+			tag = NNG
+			tag = NGA
+			tag = BFR
+		}
+	}
+}
+
 has_war_with_iberian_nation = {
 	#custom_trigger_tooltip = is_iberian_nation_tt
 	hidden_trigger = {
-		OR = {
-			has_war_with = IBR
-			has_war_with = SPR
-			has_war_with = SPA
-			has_war_with = SPS
-			has_war_with = CTL
-			has_war_with = CNT
-			has_war_with = BSQ
-			has_war_with = FSR
-			has_war_with = GNS
-			has_war_with = ETA
-			has_war_with = TBA
-			has_war_with = POR
-			has_war_with = PRT
-			has_war_with = PPR
-			has_war_with = RPP
-			has_war_with = FML
-			has_war_with = GIB
-			has_war_with = ALG
-			has_war_with = RIF
-			has_war_with = MOR
-			has_war_with = WAI
-			has_war_with = GAL
-			has_war_with = KBY
-			has_war_with = MAU
-			has_war_with = SAH
+		any_enemy_country = {
+			has_country_flag = is_iberian_nation
 		}
 	}
 }
@@ -723,8 +565,6 @@ has_ROOT_at_least_1_div_in_current_state_scope = {
 	}
 }
 
-
-
 has_far_left_ruling_party = {
 	OR = {
 		has_government = communist
@@ -736,7 +576,7 @@ has_far_right_ruling_party = {
 	OR = {
 		has_government = fascism
 		has_government = national_socialism
-		has_government = ultranational_socialism
+		has_government = ultranationalism
 	}
 }
 
@@ -763,8 +603,22 @@ econ_can_add_modifier_civilian = {
 }
 
 econ_can_use_economy_system = {
-	NOT = {
-		is_warlord = yes
+	NOT = {	has_country_flag = can_not_use_econ_system }
+	exists = yes
+}
+
+econ_deficit_10_percent_debt = {
+	OR = {
+		check_variable = { debt_10_percent < deficit }
+		check_variable = { debt_10_percent = deficit }
+	}
+
+}
+
+econ_deficit_20_percent_debt = {
+	OR = {
+		check_variable = { debt_20_percent < deficit }
+		check_variable = { debt_20_percent = deficit }
 	}
 }
 
@@ -793,21 +647,35 @@ is_exempt_from_division_limit = {
 	OR = {
 		has_war = yes
 		has_country_flag = anti_goering_preparation
-		any_neighbor_country = { #any neighboring country is over the limit, and not at war with
-			set_temp_variable = {
-				upper_limit = num_of_factories
+		if = { # Superpowers shouldn't be exempt
+			limit = {
+				NOT = {
+					tag = USA
+					#tag = GER
+					#tag = JAP
+					#tag = ITA
+					tag = ENG
+				}
 			}
-			multiply_temp_variable = {
-				upper_limit = 1.15
-			}
+			any_neighbor_country = { #any neighboring country is over the limit, and not at war with
+				set_temp_variable = {
+					upper_limit = TNOLimiterIndustry
+				}
+				multiply_temp_variable = {
+					upper_limit = 1.15
+				}
 
-			NOT = {
-				has_war_with = PREV
-				has_war = yes
+				NOT = {
+					has_war_with = PREV
+					has_war = yes
+				}
+				check_variable = {
+					num_divisions > upper_limit
+				}
 			}
-			check_variable = {
-				num_divisions > upper_limit
-			}
+		}
+		else = {
+			always = no
 		}
 	}
 }
@@ -834,9 +702,9 @@ get_agriculture_monthly_change_value_with_modifiers = {
 	add_to_temp_variable = { agriculture_monthly_change_trigger = modifier@agriculture_monthly_rate }
 }
 
-get_poverty_monthly_change_value_with_modifiers = {
-	set_temp_variable = { poverty_monthly_change_trigger = poverty_monthly_change }
-	add_to_temp_variable = { poverty_monthly_change_trigger = modifier@poverty_monthly_rate }
+get_admin_efficiency_monthly_change_value_with_modifiers = {
+	set_temp_variable = { admin_efficiency_monthly_change_trigger = admin_efficiency_monthly_change }
+	add_to_temp_variable = { admin_efficiency_monthly_change_trigger = modifier@admin_efficiency_monthly_rate }
 }
 
 get_industrial_equipment_monthly_change_value_with_modifiers = {
@@ -854,7 +722,216 @@ get_army_professionalism_monthly_change_value_with_modifiers = {
 	add_to_temp_variable = { army_professionalism_monthly_change_trigger = modifier@army_professionalism_monthly_rate }
 }
 
-get_nuclear_stockpile_monthly_change_value_with_modifiers = {
-	set_temp_variable = { nuclear_stockpile_monthly_change_trigger = nuclear_stockpile_monthly_change }
-	add_to_temp_variable = { nuclear_stockpile_monthly_change_trigger = modifier@nuclear_stockpile_monthly_rate }
+get_trade_laws_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { trade_laws_policy_monthly_change_trigger = trade_laws_policy_monthly_change }
+	add_to_temp_variable = { trade_laws_policy_monthly_change_trigger = modifier@trade_laws_policy_monthly_rate }
+}
+get_income_taxation_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { income_taxation_policy_monthly_change_trigger = income_taxation_policy_monthly_change }
+	add_to_temp_variable = { income_taxation_policy_monthly_change_trigger = modifier@income_taxation_policy_monthly_rate }
+}
+get_minimum_wage_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { minimum_wage_policy_monthly_change_trigger = minimum_wage_policy_monthly_change }
+	add_to_temp_variable = { minimum_wage_policy_monthly_change_trigger = modifier@minimum_wage_policy_monthly_rate }
+}
+get_max_workhours_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { max_workhours_policy_monthly_change_trigger = max_workhours_policy_monthly_change }
+	add_to_temp_variable = { max_workhours_policy_monthly_change_trigger = modifier@max_workhours_policy_monthly_rate }
+}
+get_child_labor_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { child_labor_policy_monthly_change_trigger = child_labor_policy_monthly_change }
+	add_to_temp_variable = { child_labor_policy_monthly_change_trigger = modifier@child_labor_policy_monthly_rate }
+}
+get_pensions_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { pensions_policy_monthly_change_trigger = pensions_policy_monthly_change }
+	add_to_temp_variable = { pensions_policy_monthly_change_trigger = modifier@pensions_policy_monthly_rate }
+}
+get_unemployment_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { unemployment_policy_monthly_change_trigger = unemployment_policy_monthly_change }
+	add_to_temp_variable = { unemployment_policy_monthly_change_trigger = modifier@unemployment_policy_monthly_rate }
+}
+
+get_safety_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { safety_policy_monthly_change_trigger = safety_policy_monthly_change }
+	add_to_temp_variable = { safety_policy_monthly_change_trigger = modifier@safety_policy_monthly_rate }
+}
+get_health_care_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { health_care_policy_monthly_change_trigger = health_care_policy_monthly_change }
+	add_to_temp_variable = { health_care_policy_monthly_change_trigger = modifier@health_care_policy_monthly_rate }
+}
+get_pollution_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { pollution_policy_monthly_change_trigger = pollution_policy_monthly_change }
+	add_to_temp_variable = { pollution_policy_monthly_change_trigger = modifier@pollution_policy_monthly_rate }
+}
+get_education_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { education_policy_monthly_change_trigger = education_policy_monthly_change }
+	add_to_temp_variable = { education_policy_monthly_change_trigger = modifier@education_policy_monthly_rate }
+}
+get_penal_system_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { penal_system_policy_monthly_change_trigger = penal_system_policy_monthly_change }
+	add_to_temp_variable = { penal_system_policy_monthly_change_trigger = modifier@penal_system_policy_monthly_rate }
+}
+get_lgbt_rights_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { lgbt_rights_policy_monthly_change_trigger = lgbt_rights_policy_monthly_change }
+	add_to_temp_variable = { lgbt_rights_policy_monthly_change_trigger = modifier@lgbt_rights_policy_monthly_rate }
+}
+get_gender_rights_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { gender_rights_policy_monthly_change_trigger = gender_rights_policy_monthly_change }
+	add_to_temp_variable = { gender_rights_policy_monthly_change_trigger = modifier@gender_rights_policy_monthly_rate }
+}
+get_minorities_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { minorities_policy_monthly_change_trigger = minorities_policy_monthly_change }
+	add_to_temp_variable = { minorities_policy_monthly_change_trigger = modifier@minorities_policy_monthly_rate }
+}
+get_security_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { security_policy_monthly_change_trigger = security_policy_monthly_change }
+	add_to_temp_variable = { security_policy_monthly_change_trigger = modifier@security_policy_monthly_rate }
+}
+
+get_political_parties_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { political_parties_policy_monthly_change_trigger = political_parties_policy_monthly_change }
+	add_to_temp_variable = { political_parties_policy_monthly_change_trigger = modifier@political_parties_policy_monthly_rate }
+}
+get_religious_rights_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { religious_rights_policy_monthly_change_trigger = religious_rights_policy_monthly_change }
+	add_to_temp_variable = { religious_rights_policy_monthly_change_trigger = modifier@religious_rights_policy_monthly_rate }
+}
+get_trade_unions_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { trade_unions_policy_monthly_change_trigger = trade_unions_policy_monthly_change }
+	add_to_temp_variable = { trade_unions_policy_monthly_change_trigger = modifier@trade_unions_policy_monthly_rate }
+}
+get_immigration_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { immigration_policy_monthly_change_trigger = immigration_policy_monthly_change }
+	add_to_temp_variable = { immigration_policy_monthly_change_trigger = modifier@immigration_policy_monthly_rate }
+}
+get_slavery_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { slavery_policy_monthly_change_trigger = slavery_policy_monthly_change }
+	add_to_temp_variable = { slavery_policy_monthly_change_trigger = modifier@slavery_policy_monthly_rate }
+}
+get_public_meetings_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { public_meetings_policy_monthly_change_trigger = public_meetings_policy_monthly_change }
+	add_to_temp_variable = { public_meetings_policy_monthly_change_trigger = modifier@public_meetings_policy_monthly_rate }
+}
+get_press_rights_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { press_rights_policy_monthly_change_trigger = press_rights_policy_monthly_change }
+	add_to_temp_variable = { press_rights_policy_monthly_change_trigger = modifier@press_rights_policy_monthly_rate }
+}
+get_vote_franchise_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { vote_franchise_policy_monthly_change_trigger = vote_franchise_policy_monthly_change }
+	add_to_temp_variable = { vote_franchise_policy_monthly_change_trigger = modifier@vote_franchise_policy_monthly_rate }
+}
+get_refugees_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { refugees_policy_monthly_change_trigger = refugees_policy_monthly_change }
+	add_to_temp_variable = { refugees_policy_monthly_change_trigger = modifier@refugees_policy_monthly_rate }
+}
+
+get_conscription_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { conscription_policy_monthly_change_trigger = conscription_policy_monthly_change }
+	add_to_temp_variable = { conscription_policy_monthly_change_trigger = modifier@conscription_policy_monthly_rate }
+}
+get_women_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { women_policy_monthly_change_trigger = women_policy_monthly_change }
+	add_to_temp_variable = { women_policy_monthly_change_trigger = modifier@women_policy_monthly_rate }
+}
+get_military_supervision_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { military_supervision_policy_monthly_change_trigger = military_supervision_policy_monthly_change }
+	add_to_temp_variable = { military_supervision_policy_monthly_change_trigger = modifier@military_supervision_policy_monthly_rate }
+}
+get_training_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { training_policy_monthly_change_trigger = training_policy_monthly_change }
+	add_to_temp_variable = { training_policy_monthly_change_trigger = modifier@training_policy_monthly_rate }
+}
+get_racial_integration_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { racial_integration_policy_monthly_change_trigger = racial_integration_policy_monthly_change }
+	add_to_temp_variable = { racial_integration_policy_monthly_change_trigger = modifier@racial_integration_policy_monthly_rate }
+}
+get_draft_exemptions_policy_monthly_change_value_with_modifiers = {
+	set_temp_variable = { draft_exemptions_policy_monthly_change_trigger = draft_exemptions_policy_monthly_change }
+	add_to_temp_variable = { draft_exemptions_policy_monthly_change_trigger = modifier@draft_exemptions_policy_monthly_rate }
+}
+
+has_nuclear_arsenal = {
+	custom_trigger_tooltip = {
+		tooltip = has_nuclear_arsenal_tt
+		NOT = { has_global_flag = nukes_disabled }
+		check_variable = { nuclear_stockpile > 0 }
+	}
+}
+
+is_superpower = {
+	custom_trigger_tooltip = {
+		tooltip = is_superpower_tt
+		is_in_array = { global.TNO_Superpowers = THIS }
+	}
+}
+
+is_urban_state = {
+	custom_trigger_tooltip = {
+		tooltip = is_urban_state_tt
+		OR = {
+			has_state_category = megalopolis
+			has_state_category = metropolis
+			has_state_category = large_city
+			has_state_category = city
+			has_state_category = large_town
+		}
+	}
+}
+
+is_rural_state = {
+	custom_trigger_tooltip = {
+		tooltip = is_rural_state_tt
+		OR = {
+			has_state_category = burgundian_mega_farm
+			has_state_category = town
+			has_state_category = rural
+			has_state_category = pastoral
+			# has_state_category = small_island
+			# has_state_category = tiny_island
+		}
+	}
+}
+
+# Seazone access triggers
+has_access_to_seazone_east_pacific = {
+	custom_trigger_tooltip = {
+		tooltip = has_access_to_seazone_east_pacific_tt
+		check_variable = { CW_SeaZone_Status^0 = 1 }
+	}
+}
+has_access_to_seazone_west_pacific = {
+	custom_trigger_tooltip = {
+		tooltip = has_access_to_seazone_west_pacific_tt
+		check_variable = { CW_SeaZone_Status^1 = 1 }
+	}
+}
+has_access_to_seazone_south_atlantic = {
+	custom_trigger_tooltip = {
+		tooltip = has_access_to_seazone_south_atlantic_tt
+		check_variable = { CW_SeaZone_Status^2 = 1 }
+	}
+}
+has_access_to_seazone_north_atlantic = {
+	custom_trigger_tooltip = {
+		tooltip = has_access_to_seazone_north_atlantic_tt
+		check_variable = { CW_SeaZone_Status^3 = 1 }
+	}
+}
+has_access_to_seazone_north_sea = {
+	custom_trigger_tooltip = {
+		tooltip = has_access_to_seazone_north_sea_tt
+		check_variable = { CW_SeaZone_Status^4 = 1 }
+	}
+}
+has_access_to_seazone_mediterranean = {
+	custom_trigger_tooltip = {
+		tooltip = has_access_to_seazone_mediterranean_tt
+		check_variable = { CW_SeaZone_Status^5 = 1 }
+	}
+}
+has_access_to_seazone_indian_ocean = {
+	custom_trigger_tooltip = {
+		tooltip = has_access_to_seazone_indian_ocean_tt
+		check_variable = { CW_SeaZone_Status^6 = 1 }
+	}
 }

@@ -195,6 +195,7 @@ scripted_gui = {
 		effects = {
 			TNO_ClosingScreen_CloseButton_click = {
 				clr_country_flag = TNO_closing_screen_show
+				set_country_flag = TNO_ArcadeMode_enable
 			}
 			closing_button_next_page_click = {
 				add_to_variable = { ENDING_INFO_PAGE = 1 }
