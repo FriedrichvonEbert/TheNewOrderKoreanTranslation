@@ -1,0 +1,86 @@
+﻿l_english:
+
+fiscal_crisis.0.t:0 "Fiscal Crisis!"
+fiscal_crisis.0.desc: "We have mismanaged our finances and our debt-to-GDP has skyrocketed! The government must now significantly cut expenditures or face a major economic crisis.\n\nThe government, led by [THIS.GetLeader], must find a way to balance the budget while also significantly reducing the country's sovereign debt, lest we be forced to default, or worse, face complete insolvency."
+fiscal_crisis.0.a: "You don't get a sustained economic recovery while the fiscal system is in crisis."
+
+fiscal_crisis.1.t: "The Long Road To Recovery"
+fiscal_crisis.1.desc: "As the banks reopen their doors, shops unshutter their windows, and as belts are loosened, our nation breathes a sigh of relief. Our economy has weathered the worst of the storm and clear skies appear on the horizon. However, not all is well. Homes have been foreclosed, businesses folded, and lives ruined by poverty. For some, the recovery has come far too late. "
+fiscal_crisis.1.a: "The future is brighter, if only a little bit."
+
+fiscal_crisis.2.t: "Breathing Room"
+fiscal_crisis.2.desc: "The wound left by our economic downturn has begun to scar. Though it still throbs and pulsates with pain from time to time, it is healing. Government support and individual ingenuity have led to our fiscal recovery, and we can only be thankful for how far we have come. Across the country, people tentatively have begun to invest, to take out loans, to make some risks with their money, the fear of sudden descent into poverty averted. Though things are improving, we must stay vigilant, lest we slip into such a crisis again."
+fiscal_crisis.2.a: "A little hope goes a long way."
+
+fiscal_crisis.11.t: "Credit Out of Default"
+fiscal_crisis.11.desc: "A year after our government could no longer pay its debt and declared bankruptcy, we have, thankfully, escaped from our fiscal sinkhole. Our credit is no longer defaulted, and we can once again resume borrowing money. Our economists, however, urge us to be more careful in the future, lest we find ourselves back in such dire circumstances."
+fiscal_crisis.11.a: "Steady as she goes."
+
+fiscal_crisis.12.t: "Bankruptcy"
+fiscal_crisis.12.desc: "Due to terrible mismanagement and misfortune, we are no longer able to pay our creditors. As a result, we have declared bankruptcy, which will have devastating effects on our economy and citizenry. Our reputation amongst our creditors will be damaged, the banks will be forced to issue write offs, and internal demand will plummet. We can only hope that things will improve, but we face a bleak immediate future."
+fiscal_crisis.12.a: "How did we let this happen?"
+TNO_bankruptcy: "§RThis will not be good for the economy§!"
+
+fiscal_crisis.20.t: "Deeper Into The Red"
+fiscal_crisis.20.desc: "Despite our best efforts, the fiscal crisis continues to worsen. Homes have foreclosed, businesses have evaporated, and jobs have been lost. If we continue on this path, we stand to lose even more than we already have. As economists and politicians scramble, the people watch their savings go up in smoke. As money makes a hasty exit, so too does trust in the government."
+fiscal_crisis.20.a: ""Fix this, and fast!""
+
+econ_fiscal_crisis_deccat_available:0 "A new §Ydecision category§! to manage the fiscal crisis will be unlocked!"
+
+
+no_action_against_fc: "We are not acting on the fiscal crisis"
+Fiscal_crisis_response_category: "Tackling the crisis"
+Fiscal_crisis_response_category_desc: "This is where debt are turned into political crisis"
+
+slash_bureaucracy: "Slash the bureaucracy"
+slash_bureaucracy_desc: "Decrease admin cost greatly until we're out, at the cost of our adminitrative efficiency"
+FC_admin_cost_down: "This will decrease our administrative expanses by 60%"
+
+privatisation_programs: "Privatization program"
+privatisation_programs_desc: "Sell whatever companies, land and ressources the state owns to fill the gap in the budget"
+FC_privatization: "This will harm our stability and our income, but will grant us some quickly needed cash"
+
+negotiate_deferred_payment: "Negotiate decreased payments with our creditors"
+negotiate_deferred_payment_desc: "Our creditors still want our money. By threatening to withold payment should they not accept concession, we can get them to temporarily relieve the weight of our debt on our balance, at the price of their trust in our economy."
+FC_interest_rate_down: "We will decrease our interest rate by 60% in exchange of 5% of inflation"
+
+print_emergency: "Increase monetary supply"
+print_emergency_desc: "By pressuring the central bank, we can get them to print money to repay our debt, but this will generate high amount of inflation."
+
+fiscal_crisis_default_overlord: "Negotiate a debt repayment plan with our overlord"
+fiscal_crisis_default_overlord_desc: "We can ask our overlord to help us in these trying time, at the price of some influence on our affair"
+FC_overlord_cancel_debt: "Our overlord will repay some of our debt, in exchange of some of our revenue"
+
+fiscal_crisis_default_1: "Issue emergency public bonds"
+fiscal_crisis_default_1_desc: "We will ask our citizen, in those times of crisis, to purchase state bonds, in a desperate bid to clear some of our debt. This will not be extremely successful, but it's worth trying, before resorting to more drastic measure."
+
+fiscal_crisis_default_2: "Cut a deal with national banks"
+fiscal_crisis_default_2_desc: "We will force an agreement upon national banks to forgive some of our debts. They won't like us for that, but they do not have much choice if they ever wants to get back some of their money."
+default_2_tooltip: "§RThis will slightly increase the impact of the debt on political power for the duration of the crisis§!"
+
+fiscal_crisis_default_3: "Call for a conference on our debt"
+fiscal_crisis_default_3_desc: "We will call for an international conference with foreign organization and banks, so as to get some fiscal relief. This will limit our manoeuvre margin and be unpopular, but we may not have a choice"
+default_3_tooltip: "§RThis will increase the impact of the debt on political power  for the duration of this crisis and reduce stability§!
+
+fiscal_crisis_default_4: "Force concession on debtors"
+fiscal_crisis_default_4_desc: "We are, so to speak, pushing our luck extremely far. We may extract some concession, but at the price of their goodwill"
+default_4_tooltip: "§RThis will greatly increase the impact of the debt on political power for the duration of this crisis and greatly reduce stability§!
+
+fiscal_crisis_default_5: "Restructurate unfavourable bonds"
+fiscal_crisis_default_5_desc: "We are crossing the Rubicon, by unilateraly restructuring our most unfavourable IOU. This opens us to litigation that we will have to fight, and make our economy appear on its dying breath."
+default_5_tooltip: "§RThis will greatly increase the impact of the debt on political power for the duration of this crisis and reduce stability even more§!"
+
+end_econ_investment: "Cut state program"
+end_econ_investment_desc: "We will slash in as many program subsidized by the state as possible."
+FC_civ_cost_down: "§RWe will temporarily decrease our state expanses at the cost of economic growth§!"
+
+slash_research: "Slash research fundings"
+slash_research_desc: "End at once state-funded research"
+FC_research_freeze: "We will greatly decrease how much is spent on research, but it will severly slow future research"
+
+restore_trust_debtors: "Buy back some goodwill"
+restore_trust_debtors_desc: "By paying in anticipation some of the bonds owned with interest, we might increase our working margin with our debtors."
+
+freeze_military: "Cut military spendings"
+freeze_military_desc: "All new military program will be cut, and recruitment halted, in exchange of lessened military expanses."
+FC_mil_freeze: "We will not be able to train troops, and will see our manpower craters, in exchange of military expanses reduced by 80%"
