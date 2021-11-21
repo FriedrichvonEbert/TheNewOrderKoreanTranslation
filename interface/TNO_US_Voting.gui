@@ -1,6 +1,19 @@
 guiTypes = {
 
 	containerWindowType = {
+		name = "TNO_USA_political_situation_text"
+		size = { width = 482 height = 840 }
+		
+		instantTextboxType = {
+			name = "TNO_USA_political_situation_desc"
+			position = { x = 11 y = 6 }
+			text = USA_politics_details_category_desc_gui
+			font = "aldrich_18_outline"
+			maxwidth = 482
+		}
+	}
+		
+	containerWindowType = {
 		name = "TNO_us_voting_menu_open"
 		size = { width = 220 height = 128 }
 		position = { x=0 y=289 }
