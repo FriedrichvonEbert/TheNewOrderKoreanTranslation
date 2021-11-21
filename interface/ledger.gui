@@ -700,7 +700,7 @@ guiTypes = {
 				name = "GDP_growth_header"
 				position = { x = 365 y = -7 }
 				font = "aldrich_20_outline"
-				text = "GDP 성장률"
+				text = "실 GDP 성장률"
 				quadTextureSprite = "GFX_tt_overlay_100_40"
 				format = center
 				pdx_tooltip = "LEDGER_SORT_TT"
@@ -800,6 +800,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_tno_button_148x34"
 			buttonText = ""
 			Orientation = center
+			origo = center
 			clicksound = click_default
 		}
 		instantTextBoxType = {
@@ -817,6 +818,7 @@ guiTypes = {
 			buttonFont = "Bomb_16"
 			quadTextureSprite ="GFX_tno_button_148x34"
 			Orientation = center
+			origo = center
 			clicksound = click_default
 		}
 		
@@ -1198,7 +1200,7 @@ guiTypes = {
 
 			font = "aldrich_20_outline"
 			borderSize = {x = 0 y = 0}
-			text = "[?this.num_of_nukes|0]"
+			text = "[?this.nuclear_stockpile|0]"
 			maxWidth = 100
 			maxHeight = 20
 			fixedsize = yes
@@ -1306,7 +1308,7 @@ guiTypes = {
 
 			font = "aldrich_20_outline"
 			borderSize = {x = 0 y = 0}
-			text = "[?this.modifier@consumer_goods_factor|%0]"
+			text = "[?this.consumer_goods_monthly_use|0]"
 			maxWidth = 100
 			maxHeight = 20
 			fixedsize = yes
@@ -1689,7 +1691,7 @@ guiTypes = {
 
 			font = "aldrich_20_outline"
 			borderSize = {x = 0 y = 0}
-			text = "[?This.GDP_growth|%]"
+			text = "[?This.GDP_growth_real|2]%"
 			maxWidth = 100
 			maxHeight = 20
 			fixedsize = yes
