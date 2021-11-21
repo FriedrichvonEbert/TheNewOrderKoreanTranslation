@@ -11,7 +11,13 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_world_tension_background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+		
+		iconType = {
+			name = "Background_actual"
+			spriteType = "GFX_world_tension_background"
+			alwaystransparent = yes
 		}
 
 		#instantTextboxType = {
@@ -36,23 +42,12 @@ guiTypes = {
 		#}
 
 		buttonType = {
-			name = "close_button"
-			position = { x = 1163 y = 304 }
-			quadTextureSprite ="GFX_crt_closebutton"
-			buttonFont = "aldrich_24_outline"
-			shortcut = "ESCAPE"
-			Orientation = "UPPER_LEFT"
-			#buttonText = "DIPLOMACY_CLOSE"
-			pdx_tooltip = "CLOSE"
-			clicksound = click_close
-		}
-
-		buttonType = {
 			name = "sort_date_button"
 			spriteType = "GFX_diplomaticcrises_date_button"
 			buttonFont = "aldrich_18_outline"
 			clicksound = click_default
-			position = { x = 468 y = 304 }
+			#position = { x = 468 y = 304 }
+			position = { x = -6000 y = 77 }
 			#text = DATE_NAME
 			pdx_tooltip = SORT_BY_DATE
 		}
@@ -73,26 +68,17 @@ guiTypes = {
 			spriteType = "GFX_diplomaticcrises_severity_button"
 			buttonFont = "aldrich_18_outline"
 			clicksound = click_default
-			position = { x = 828 y = 304 }
+			#position = { x = 828 y = 304 }
+			position = { x = -6000 y = 77 }
 			#text = WORLD_TENSION_NAME
 			pdx_tooltip = SORT_BY_TENSION
 		}
 
-		buttonType = {
-			name = "show_wars_button"
-			spriteType = "GFX_ongoingconflicts_button"
-			buttonFont = "aldrich_18_outline"
-			clicksound = click_default
-			position = { x = 109 y = 304 }
-			#text = WORLD_TENSION_WARS
-			pdx_tooltip = SHOW_WARS
-		}
-
 		containerWindowType = {
 			name = "tension_entries_wnd"
-			position = {x = 13 y = 339}
+			position = {x = 13 y = 302}
 			orientation = upper_left
-			size = {width = 1171 height = 453 }
+			size = {width = 1171 height = 490 }
 			margin = {top=6 left=0 bottom=7 right=14}
 			verticalScrollbar = "right_vertical_slider"
 
@@ -111,7 +97,6 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "no_surces_info"
-				#wtf paradox
 				position = {x=0 y=50}
 				font = "aldrich_18_outline"
 				text = NO_THREAT_SOURCES_WINDOW
@@ -119,6 +104,28 @@ guiTypes = {
 				maxHeight = 100
 				format = center
 			}
+		}
+
+		buttonType = {
+			name = "close_button"
+			position = { x = 1160 y = 7 }
+			quadTextureSprite ="GFX_tno_close_button"
+			buttonFont = "aldrich_24_outline"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_LEFT"
+			#buttonText = "DIPLOMACY_CLOSE"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+		}
+
+		buttonType = {
+			name = "show_wars_button"
+			spriteType = "GFX_ongoingconflicts_button"
+			buttonFont = "aldrich_18_outline"
+			clicksound = click_default
+			position = { x = 428 y = 450 }
+			#text = WORLD_TENSION_WARS
+			pdx_tooltip = SHOW_WARS
 		}
 	}
 
@@ -131,6 +138,7 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_world_tension_entry_bg"
+			clicksound = "click_default"
 		}
 
 		iconType = {
@@ -189,7 +197,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "world_tension_entry"
-		position = { x = 3 y = 0 }
+		position = { x = -6000 y = 0 }
 		size = { width = 1171 height = 88 }
 		orientation = upper_left
 
