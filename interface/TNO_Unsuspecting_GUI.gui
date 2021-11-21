@@ -1,0 +1,563 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "BRG_Foreign_GUI"
+		size = { width = 525 height = 535 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "BRG_Foreign_GUI_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 395 y = -63 }
+			pdx_tooltip = "BRG_GUI_Info_tt"
+		}
+		
+		instantTextboxType = {
+			name = "BRG_Foreign_GUI_Title"
+			position = { x = 0 y = -12 }
+			font = "aldrich_30_outline"
+			text = "슈츠슈타펠 외무국"
+			maxWidth = 525
+			maxHeight = 20
+			format = center
+		}
+
+		iconType = {
+			name = "BRG_Foreign_GUI_Logo"
+			spriteType = "GFX_intelligence_agency_logo_brg"
+			position = { x = 272 y = 80 }
+			frame = 1
+			centerposition = yes
+		}
+		
+		containerWindowType = {
+			name = "BRG_Foreign_GUI_Budget_Container"
+			size = { width = 0 height = 0 }
+			position = { x = 0 y = -105 }
+			
+			instantTextboxType = {
+				name = "BRG_Foreign_GUI_Budget_Title"
+				position = { x = 0 y = 246 }
+				font = "aldrich_30_outline"
+				text = BRG_Title_GP_Budget
+				maxWidth = 525
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "BRG_Foreign_GUI_Budget_Increase_Amount_Title"
+				position = { x = 171 y = 285 }
+				font = "aldrich_20_outline"
+				text = "현재 예산 :"
+				maxWidth = 175
+				maxHeight = 20
+				format = center
+			}
+
+			instantTextboxType = {
+				name = "BRG_Foreign_GUI_Budget_Increase_Amount"
+				position = { x = 171 y = 305 }
+				font = "aldrich_20_outline"
+				text = BRG_SubTitle_GP_Budget
+				maxWidth = 175
+				maxHeight = 20
+				format = center
+			}
+
+			buttonType = {
+				name = "BRG_Foreign_GUI_Budget_Minus"
+				position = { x = 128 y = 284 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
+			}
+
+			buttonType = {
+				name = "BRG_Foreign_GUI_Budget_Plus"
+				position = { x = 354 y = 284 }
+				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
+			}
+		}
+
+		containerWindowType = {
+			name = "BRG_Foreign_GUI_Map_Container"
+			size = { width = 0 height = 0 }
+			position = { x = 13 y = 275 }
+			
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_BG"
+				position = { x = -5 y = -15 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_BG"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map"
+			}
+
+			buttonType = {
+				name = "BRG_Foreign_GUI_World_Map_EA"
+				position = { x = 17 y = 44 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_EA"
+				#pdx_tooltip = USA_CIA_ea_status
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_EA_Mark"
+				position = { x = 377 y = 56 }
+				spriteType = "GFX_BRG_Foreign_GUI_World_Map_Mark"
+				alwaystransparent = yes
+			}
+
+			buttonType = {
+				name = "BRG_Foreign_GUI_World_Map_AF"
+				position = { x = 208 y = 73 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_AF"
+				#pdx_tooltip = USA_CIA_af_status
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_AF_Mark"
+				position = { x = 260 y = 85 }
+				spriteType = "GFX_BRG_Foreign_GUI_World_Map_Mark"
+				alwaystransparent = yes
+			}
+
+			buttonType = {
+				name = "BRG_Foreign_GUI_World_Map_EU"
+				position = { x = 218 y = 5 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_EU"
+				#pdx_tooltip = USA_CIA_eu_status
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_EU_Mark"
+				position = { x = 255 y = 30 }
+				spriteType = "GFX_BRG_Foreign_GUI_World_Map_Mark"
+			}
+
+			buttonType = {
+				name = "BRG_Foreign_GUI_World_Map_ME"
+				position = { x = 266 y = 64 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_ME"
+				#pdx_tooltip = USA_CIA_me_status
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_ME_Mark"
+				position = { x = 291 y = 70 }
+				spriteType = "GFX_BRG_Foreign_GUI_World_Map_Mark"
+			}
+
+			buttonType = {
+				name = "BRG_Foreign_GUI_World_Map_NA"
+				position = { x = 1 y = 1 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_NA"
+				#pdx_tooltip = USA_CIA_na_status
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_NA_Mark"
+				position = { x = 86 y = 52 }
+				spriteType = "GFX_BRG_Foreign_GUI_World_Map_Mark"
+			}
+
+			buttonType = {
+				name = "BRG_Foreign_GUI_World_Map_RU"
+				position = { x = 280 y = 4 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_RU"
+				#pdx_tooltip = USA_CIA_ru_status
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_RU_Mark"
+				position = { x = 318 y = 30 }
+				spriteType = "GFX_BRG_Foreign_GUI_World_Map_Mark"
+			}
+
+			buttonType = {
+				name = "BRG_Foreign_GUI_World_Map_AU"
+				position = { x = 385 y = 145 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_AU"
+				#pdx_tooltip = USA_CIA_au_status
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_AU_Mark"
+				position = { x = 408 y = 146 }
+				spriteType = "GFX_BRG_Foreign_GUI_World_Map_Mark"
+			}
+		
+			buttonType = {
+				name = "BRG_Foreign_GUI_World_Map_SA"
+				position = { x = 103 y = 107 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_SA"
+				#pdx_tooltip = USA_CIA_au_status
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_SA_Mark"
+				position = { x = 146 y = 130 }
+				spriteType = "GFX_BRG_Foreign_GUI_World_Map_Mark"
+			}
+
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_EA_outline"
+				position = { x = 14 y = 41 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_EA_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_AF_outline"
+				position = { x = 205 y = 70 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_AF_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_EU_outline"
+				position = { x = 215 y = 2 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_EU_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_ME_outline"
+				position = { x = 263 y = 61 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_ME_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_NA_outline"
+				position = { x = -2 y = -2 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_NA_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_RU_outline"
+				position = { x = 277 y = 1 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_RU_outline"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_AU_outline"
+				position = { x = 382 y = 142 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_AU_outline"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_Foreign_GUI_World_Map_SA_outline"
+				position = { x = 103 y = 107 }
+				quadTextureSprite = "GFX_BRG_Foreign_GUI_World_Map_SA_outline"
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "BRG_Foreign_GUI_Selected_Region"
+				position = { x = -15 y = -40 }
+				font = "aldrich_30_outline"
+				text = "선택한 지역: [GetBRGFORRegion]"
+				maxWidth = 525
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "BRG_Foreign_GUI_Selected_GP"
+				position = { x = -15 y = 218 }
+				font = "aldrich_24_outline"
+				text = "선택한 세계계획: [getGlobalPlanBRG]"
+				maxWidth = 525
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_CoverageProgressBar"
+				position = { x = -4 y = 242 }
+				quadTextureSprite = "GFX_BRG_CoverageProgressBar"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "BRG_CoverageProgressBarEnd"
+				position = { x = 464 y = 243 }
+				quadTextureSprite = "GFX_BRG_CoverageProgressBarEnd"
+				alwaystransparent = yes
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "BRG_Foreign_GUI_Close_Up"
+		size = { width = 800 height = 600 }
+		position = { x = 542 y = -600 }
+		moveable = yes
+		show_position = { x = 542 y = 200 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		clipping = no
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_BRG_GP_BG"
+		}
+		gridboxtype = {
+			name = "closeup_countries"
+			position = { x = -399 y = 0 }
+			size = { width = 800 height = 600 }
+			slotsize = { width = 1 height = 1 }
+		}
+		
+		iconType = {
+			name = "BRG_Foreign_GUI_Large_Map_Africa"
+			position = { x = 400 y = 300 }
+			quadTextureSprite = "GFX_BRG_Foreign_GUI_Large_Map_Africa"
+			alwaystransparent = yes
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "BRG_Foreign_GUI_Large_Map_Europe"
+			position = { x = 400 y = 300 }
+			quadTextureSprite = "GFX_BRG_Foreign_GUI_Large_Map_Europe"
+			alwaystransparent = yes
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "BRG_Foreign_GUI_Large_Map_Middle_East"
+			position = { x = 400 y = 300 }
+			quadTextureSprite = "GFX_BRG_Foreign_GUI_Large_Map_Middle_East"
+			alwaystransparent = yes
+			centerposition = yes
+		}
+	
+		iconType = {
+			name = "BRG_Foreign_GUI_Large_Map_North_America"
+			position = { x = 400 y = 300 }
+			quadTextureSprite = "GFX_BRG_Foreign_GUI_Large_Map_North_America"
+			alwaystransparent = yes
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "BRG_Foreign_GUI_Large_Map_Oceania"
+			position = { x = 400 y = 300 }
+			quadTextureSprite = "GFX_BRG_Foreign_GUI_Large_Map_Oceania"
+			alwaystransparent = yes
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "BRG_Foreign_GUI_Large_Map_Russia"
+			position = { x = 400 y = 300 }
+			quadTextureSprite = "GFX_BRG_Foreign_GUI_Large_Map_Russia"
+			alwaystransparent = yes
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "BRG_Foreign_GUI_Large_Map_East_Asia"
+			position = { x = 400 y = 300 }
+			quadTextureSprite = "GFX_BRG_Foreign_GUI_Large_Map_East_Asia"
+			alwaystransparent = yes
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "BRG_Foreign_GUI_Large_Map_SA"
+			position = { x = 400 y = 300 }
+			quadTextureSprite = "GFX_BRG_Foreign_GUI_Large_Map_SA"
+			alwaystransparent = yes
+			centerposition = yes
+		}
+		
+		buttonType = {
+			name = "BRG_Foreign_GUI_close_button"
+			position = {x=-31 y=6}	
+			spriteType = "GFX_crt_closebutton"
+			orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+		}
+		containerWindowType = {
+			name = "BRG_Master_GP_Close_Up_Tier"
+			size = { width = 200 height = 601 }
+			position = { x = 795 y = 0 }
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_BRG_CloseUp_Tier_BG"
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog"
+				spriteType = "GFX_BRG_InfluenceBarClose_Prog"
+				position = { x = 176 y = 60 }
+			}
+			iconType = {
+				name = "BRG_NukeCoverageClose_Prog"
+				spriteType = "GFX_BRG_NukeCoverageClose_Prog"
+				position = { x = 25 y = 382 }
+			}
+			instantTextboxType = {
+				name = "BRG_InfluenceBarClose_Prog5"
+				position = { x = 20 y = 76 }
+				font = "aldrich_36_outline"
+				text = "티어 - 5"
+				maxWidth = 120
+				maxHeight = 60
+				format = center
+				text_color_code = R
+			}
+			instantTextboxType = {
+				name = "BRG_InfluenceBarClose_Prog4"
+				position = { x = 20 y = 136 }
+				font = "aldrich_36_outline"
+				text = "티어 - 4"
+				maxWidth = 120
+				maxHeight = 60
+				format = center
+				text_color_code = O
+			}
+			instantTextboxType = {
+				name = "BRG_InfluenceBarClose_Prog3"
+				position = { x = 20 y = 196 }
+				font = "aldrich_36_outline"
+				text = "티어 - 3"
+				maxWidth = 120
+				maxHeight = 60
+				format = center
+				text_color_code = n
+			}
+			instantTextboxType = {
+				name = "BRG_InfluenceBarClose_Prog2"
+				position = { x = 20 y = 256 }
+				font = "aldrich_36_outline"
+				text = "티어 - 2"
+				maxWidth = 120
+				maxHeight = 60
+				format = center
+				text_color_code = M
+			}
+			instantTextboxType = {
+				name = "BRG_InfluenceBarClose_Prog1"
+				position = { x = 17 y = 316 }
+				font = "aldrich_36_outline"
+				text = "티어 - 1"
+				maxWidth = 120
+				maxHeight = 60
+				format = center
+				text_color_code = W
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog5_NotSelect"
+				spriteType = "GFX_BRG_CloseUp_Tier_NotSelected"
+				position = { x = 5 y = 63 }
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog4_NotSelect"
+				spriteType = "GFX_BRG_CloseUp_Tier_NotSelected"
+				position = { x = 5 y = 123 }
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog3_NotSelect"
+				spriteType = "GFX_BRG_CloseUp_Tier_NotSelected"
+				position = { x = 5 y = 183 }
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog2_NotSelect"
+				spriteType = "GFX_BRG_CloseUp_Tier_NotSelected"
+				position = { x = 5 y = 243 }
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog5_Select"
+				spriteType = "GFX_BRG_CloseUp_Tier_Selected"
+				position = { x = 5 y = 63 }
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog4_Select"
+				spriteType = "GFX_BRG_CloseUp_Tier_Selected"
+				position = { x = 5 y = 123 }
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog3_Select"
+				spriteType = "GFX_BRG_CloseUp_Tier_Selected"
+				position = { x = 5 y = 183 }
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog2_Select"
+				spriteType = "GFX_BRG_CloseUp_Tier_Selected"
+				position = { x = 5 y = 243 }
+			}
+			iconType = {
+				name = "BRG_InfluenceBarClose_Prog1_Select"
+				spriteType = "GFX_BRG_CloseUp_Tier_Selected"
+				position = { x = 5 y = 303 }
+			}
+			instantTextboxType = {
+				name = "BRG_NukeBarClose_T"
+				position = { x = 0 y = 555 }
+				font = "aldrich_14_outline"
+				text = "핵무기 범위 - [?BRG_GP_NukeCoverage^BRG_Foreign_GUI_Selected]%"
+				maxWidth = 193
+				maxheight = 14
+				format = center
+			}
+			instantTextboxType = {
+				name = "BRG_InfluenceBarClose_T"
+				position = { x = 0 y = 20 }
+				font = "aldrich_24_outline"
+				text = "영향도 - [?BRG_GP_Influence^BRG_Foreign_GUI_Selected]%"
+				maxWidth = 193
+				maxHeight = 24
+				format = center
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "BRG_Master_GP_Close_Up_Country"
+		size = { width = 0 height = 0 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "BRG_Master_GP_Close_Up_Country_Button"
+			spriteType = "GFX_BRG_Foreign_GUI_Large_Map_East_Asia"
+			position = { x = 0 y = 0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Rodomo_Info_Button_GUI"
+		size = { width = 525 height = 0 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "TNO_Burgundy_Rodomo_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 403 y = -318 }
+			pdx_tooltip = BRG_rodomo_information_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Education_Info_Button_GUI"
+		size = { width = 525 height = 0 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "TNO_Burgundy_Education_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 403 y = -678 }
+			pdx_tooltip = BRG_education_information_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Burgundy_Famine_Info_Button_GUI"
+		size = { width = 525 height = 0 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "TNO_Burgundy_Famine_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 403 y = -539 }
+			pdx_tooltip = BRG_famine_information_tt
+		}
+	}
+}
