@@ -1,41 +1,41 @@
 guiTypes = {
 	containerWindowType = {
-		name = "PAV_Election_GUI"
+		name = "NOV_Election_GUI"
 		size = { width = 525 height = 340 }
 		position = { x = 0 y = 0 }
 		
 		iconType = {
-			name = "PAV_Election_GUI_Portrait_1"
-			spriteType = "GFX_PAV_elections_Alexander_Pokryshkin"
+			name = "NOV_Election_GUI_Portrait_1"
+			spriteType = "GFX_NOV_elections_Alexander_Pokryshkin"
 			position = { x = 83 y = 25 }
 		}
 		
 		iconType = {
-			name = "PAV_Election_GUI_Portrait_2"
-			spriteType = "GFX_PAV_elections_Vasily_Shukshin"
+			name = "NOV_Election_GUI_Portrait_2"
+			spriteType = "GFX_NOV_elections_Vasily_Shukshin"
 			position = { x = 283 y = 25 }
 		}
 		
 		iconType = {
-			name = "PAV_Election_GUI_ProgressBar"
-			spriteType = "GFX_PAV_Election_GUI_Bar"
+			name = "NOV_Election_GUI_ProgressBar"
+			spriteType = "GFX_NOV_Election_GUI_Bar"
 			position = { x = 37 y = 266 }
-			pdx_tooltip = "PAV_election_bar_support_tt"
+			pdx_tooltip = "NOV_election_bar_support_tt"
 		}
 
 		iconType = {
-			name = "PAV_Election_GUI_ProgressBar_Frame"
-			spriteType = "GFX_PAV_Election_GUI_Bar_Frame"
+			name = "NOV_Election_GUI_ProgressBar_Frame"
+			spriteType = "GFX_NOV_Election_GUI_Bar_Frame"
 			position = { x = 35 y = 265 }
 		}
 		
 		iconType = {
-			name = "PAV_Election_GUI_Bar_Tick"
-			spriteType = "GFX_PAV_Election_GUI_Bar_Tick"
+			name = "NOV_Election_GUI_Bar_Tick"
+			spriteType = "GFX_NOV_Election_GUI_Bar_Tick"
 		}
 		
 		instantTextboxType = {
-			name = "PAV_Election_GUI_ProgressBar_Text_Left"
+			name = "NOV_Election_GUI_ProgressBar_Text_Left"
 			position = { x = 34 y = 300 }
 			font = "aldrich_24_outline"
 			text = "알렉산드르 포크리시킨"
@@ -45,7 +45,7 @@ guiTypes = {
 		}
 		
 		instantTextboxType = {
-			name = "PAV_Election_GUI_ProgressBar_Text_Right"
+			name = "NOV_Election_GUI_ProgressBar_Text_Right"
 			position = { x = 188 y = 300 }
 			font = "aldrich_24_outline"
 			text = "바실리 슉신"
@@ -56,15 +56,16 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "PAV_Silovik_State_GUI_Opener"
+		name = "NOV_Silovik_State_GUI_Opener"
 		size = { width = 220 height = 128 }
 		position = { x = 0 y = 289 }
 
 		buttonType = {
-			name = "PAV_Silovik_State_GUI_Open_Button"
-			spriteType = "GFX_PAV_GUI_open_button"
+			name = "NOV_Silovik_State_GUI_Open_Button"
+			spriteType = "GFX_NOV_GUI_open_button"
 			position = { x = 218 y = 32 }
 			scale = 1
+			pdx_tooltip = "NOV_Silovik_State_GUI_Open_Button_tt"
 		}
 		iconType = {
 			name = "gui_alert"
@@ -118,7 +119,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "PAV_Silovik_State_Interactions_GUI"
+		name = "NOV_Silovik_State_Interactions_GUI"
 		size = { width = 490 height = 375 }
 		position = { x = 200 y = 200 }
 		moveable = yes
@@ -127,65 +128,65 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_window_thin_border2"
 		}
 		instantTextboxType = {
-			name = "PAV_Target_Country_Name"
+			name = "NOV_Target_Country_Name"
 			position = { x = 60 y = 10 }
 			font = "aldrich_32_outline"
-			text = "[?PAV_target_country.GetName] 임무"
+			text = "[?NOV_target_country.GetName] 임무"
 			maxWidth = 400
 			format = center
 			alwaystransparent = yes
 		}
 
 		iconType = {
-			name = "PAV_Takeover_ProgressBar"
-			spriteType = "GFX_PAV_Election_GUI_Bar"
+			name = "NOV_Takeover_ProgressBar"
+			spriteType = "GFX_NOV_Election_GUI_Bar"
 			position = { x = 24 y = 74 }
-			pdx_tooltip = "PAV_Takeover_ProgressBar_tt"
+			pdx_tooltip = "NOV_Takeover_ProgressBar_tt"
 		}
 		iconType = {
-			name = "PAV_Takeover_ProgressBar_Frame"
-			spriteType = "GFX_PAV_Election_GUI_Bar_Frame"
+			name = "NOV_Takeover_ProgressBar_Frame"
+			spriteType = "GFX_NOV_Election_GUI_Bar_Frame"
 			position = { x = 22 y = 74 }
 		}
 
 		buttonType = {
-			name = "PAV_Interact_TakeOver"
+			name = "NOV_Interact_TakeOver"
 			position = { x = 68 y = 114 }
 			spriteType = "GFX_SGR_state_info_button"
 			font = "aldrich_24_outline"
 			text = "지역 합병"
 			format = center
-			pdx_tooltip = "PAV_Interact_TakeOver_tt"
+			pdx_tooltip = "NOV_Interact_TakeOver_tt"
 		}
 		buttonType = {
-			name = "PAV_Interact_1"
+			name = "NOV_Interact_1"
 			position = { x = 68 y = 164 }
 			spriteType = "GFX_SGR_state_info_button"
 			font = "aldrich_24_outline"
-			text = "[GetPAV_Mission1Text]"
+			text = "[GetNOV_Mission1Text]"
 			format = center
-			pdx_tooltip = "PAV_Interact_1_tt"
+			pdx_tooltip = "NOV_Interact_1_tt"
 		}
 		buttonType = {
-			name = "PAV_Interact_2"
+			name = "NOV_Interact_2"
 			position = { x = 68 y = 214 }
 			spriteType = "GFX_SGR_state_info_button"
 			font = "aldrich_24_outline"
-			text = "[GetPAV_Mission2Text]"
+			text = "[GetNOV_Mission2Text]"
 			format = center
-			pdx_tooltip = "PAV_Interact_2_tt"
+			pdx_tooltip = "NOV_Interact_2_tt"
 		}
 		buttonType = {
-			name = "PAV_Interact_3"
+			name = "NOV_Interact_3"
 			position = { x = 68 y = 264 }
 			spriteType = "GFX_SGR_state_info_button"
 			font = "aldrich_24_outline"
-			text = "[GetPAV_Mission3Text]"
+			text = "[GetNOV_Mission3Text]"
 			format = center
-			pdx_tooltip = "PAV_Interact_3_tt"
+			pdx_tooltip = "NOV_Interact_3_tt"
 		}
 		buttonType = {
-			name = "PAV_Mission_close_button"
+			name = "NOV_Mission_close_button"
 			position = { x = -22 y = 5 }
 			quadTextureSprite ="GFX_crt_closebutton"
 			buttonFont = "Main_14_black"
@@ -197,7 +198,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "PAV_Silovik_Megacorp_Info_GUI"
+		name = "NOV_Silovik_Megacorp_Info_GUI"
 		size = { width = 440 height = 560 }
 		position = { x = 120 y = 100 }
 		verticalScrollbar = "TNO_Germany_SGR_corporation_info_window_scrollbar"
@@ -250,7 +251,7 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "PAV_political_compass_GUI"
+		name = "NOV_political_compass_GUI"
 		position = { x = 762 y = 516 }
 		size = { width = 320 height = 295 }
 		margin = { top = 14 bottom = 14 }
@@ -259,435 +260,447 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_window_thin_border2"
 		}
 		buttonType = {
-			name = "PAV_PC_close"
+			name = "NOV_PC_close"
 			quadTextureSprite = "GFX_crt_closebutton"
 			position = { x = -33 y = 0 }
 			orientation = upper_right
 			shortcut = "ESCAPE"
 		}
 		iconType = {
-			name = "PAV_Pol_Compass_bg"
-			spriteType = "GFX_PAV_GUI_Political_Compass"
+			name = "NOV_Pol_Compass_bg"
+			spriteType = "GFX_NOV_GUI_Political_Compass"
 			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
 		iconType = {
-			name = "PAV_Silovik_GUI_PC_circle"
-			spriteType = "GFX_PAV_GUI_Political_Compass_circle"
-			pdx_tooltip = "PAV_Silovik_GUI_PC_circle_tt"
+			name = "NOV_Silovik_GUI_PC_circle"
+			spriteType = "GFX_NOV_GUI_Political_Compass_circle"
+			pdx_tooltip = "NOV_Silovik_GUI_PC_circle_tt"
 		}
 	}
 
 	containerWindowType = {
-		name = "PAV_Silovik_State_GUI"
+		name = "NOV_Silovik_State_GUI"
 		size = { width = 900 height = 720 }
 		position = { x = 540 y = 78 }
 		moveable = yes
 
 		background = {
-			name = "PAV_Silovik_State_GUI_bg"
+			name = "NOV_Silovik_State_GUI_bg"
 			quadTextureSprite = "GFX_tiled_window_thin_border2"
 		}
 
 		iconType = {
-			name = "PAV_Silovik_GUI_extra_button_1"
+			name = "NOV_Silovik_GUI_extra_button_1"
 			quadTextureSprite = "GFX_SGR_RND_GUI_info_button"
 			position = { x = 762 y = 486 }
-			pdx_tooltip = "PAV_Silovik_GUI_extra_button_1_tt"
+			pdx_tooltip = "NOV_Silovik_GUI_extra_button_1_tt"
 		}
 		
 		buttonType = {
-			name = "PAV_Silovik_GUI_extra_button_2"
-			quadTextureSprite = "GFX_PAV_Silovik_GUI_extra_button_1"
+			name = "NOV_Silovik_GUI_extra_button_2"
+			quadTextureSprite = "GFX_NOV_Silovik_GUI_extra_button_1"
 			position = { x = 762 y = 531 }
 		}
 		
 		containerWindowType = {
-			name = "PAV_Silovik_State_GUI_Russia_Map"
+			name = "NOV_Silovik_State_GUI_Russia_Map"
 			size = { width = 900 height = 470 }
 			position = { x = 0 y = 0 }
 			clipping = yes
-			margin = { left = 9 right = 32 top = 0 bottom = 0 }
+			margin = { left = 9 right = 9 top = 0 bottom = 0 }
 			horizontalScrollbar = "bottom_horizontal_slider_silovik"
 			
 			background = {
-				name = "PAV_Silovik_State_GUI_Russia_Map_bg"
+				name = "NOV_Silovik_State_GUI_Russia_Map_bg"
 				quadTextureSprite = "GFX_tiled_window_transparent"
 			}
 			
 			iconType = {
-				name = "PAV_Silovik_GUI_state_bg"
-				spriteType = "GFX_PAV_Silovik_GUI_state_bg"
+				name = "NOV_Silovik_GUI_state_bg"
+				spriteType = "GFX_NOV_Silovik_GUI_state_bg"
 				position = { x = 7 y = 7 }
 			}
-			
-			
+					
+   
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_aldan"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_aldan"
-				position = { x = 965 y = 239 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_aldan_tt"
-			}
-			buttonType = {
-				name = "PAV_Silovik_GUI_state_amur"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_amur"
+										
+														 
+								  
+				name = "NOV_Silovik_GUI_state_amur"
+	
+				 
+									   
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_amur"
 				position = { x = 1098 y = 293 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_amur_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_amur_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_bashkiria"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_bashkiria"
+				name = "NOV_Silovik_GUI_state_bashkiria"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_bashkiria"
 				position = { x = 205 y = 325 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_bashkiria_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_bashkiria_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_berezniki"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_berezniki"
-				position = { x = 247 y = 240 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_berezniki_tt"
-			}
-			buttonType = {
-				name = "PAV_Silovik_GUI_state_buryatia"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_buryatia"
+											
+															 
+								  
+				name = "NOV_Silovik_GUI_state_buryatia"
+	
+				 
+										   
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_buryatia"
 				position = { x = 857 y = 265 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_buryatia_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_buryatia_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_chita"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_chita"
-				position = { x = 979 y = 316 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_chita_tt"
-			}
-			buttonType = {
-				name = "PAV_Silovik_GUI_state_chukotka"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_chukotka"
-				position = { x = 1478 y = 5 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_chukotka_tt"
-			}
-			buttonType = {
-				name = "PAV_Silovik_GUI_state_dirle"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_dirle"
+										
+														 
+								  
+												  
+	
+				 
+										   
+															
+								 
+													 
+	
+				 
+				name = "NOV_Silovik_GUI_state_dirle"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_dirle"
 				position = { x = 277 y = 382 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_dirle_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_dirle_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_gayny"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_gayny"
+				name = "NOV_Silovik_GUI_state_gayny"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_gayny"
 				position = { x = 233 y = 213 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_gayny_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_gayny_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_gorky"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_gorky"
-				position = { x = 85 y = 322 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_gorky_tt"
+				name = "NOV_Silovik_GUI_state_gorky"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_gorky"
+				position = { x = 85 y = 316 }
+				pdx_tooltip = "NOV_Silovik_GUI_state_gorky_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_irkutsk"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_irkutsk"
+				name = "NOV_Silovik_GUI_state_irkutsk"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_irkutsk"
 				position = { x = 791 y = 240 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_irkutsk_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_irkutsk_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_kamchatka"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_kamchatka"
+				name = "NOV_Silovik_GUI_state_kamchatka"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_kamchatka"
 				position = { x = 1485 y = 159 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_kamchatka_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_kamchatka_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_kolyma"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_kolyma"
-				position = { x = 1013 y = 5 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_kolyma_tt"
-			}
-			buttonType = {
-				name = "PAV_Silovik_GUI_state_magadan"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_magadan"
+										 
+														  
+								 
+				name = "NOV_Silovik_GUI_state_magadan"
+	
+				 
+										  
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_magadan"
 				position = { x = 1106 y = 177 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_magadan_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_magadan_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_magnitogorsk"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_magnitogorsk"
+				name = "NOV_Silovik_GUI_state_magnitogorsk"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_magnitogorsk"
 				position = { x = 294 y = 346 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_magnitogorsk_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_magnitogorsk_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_novosibirsk"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_novosibirsk"
+				name = "NOV_Silovik_GUI_state_novosibirsk"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_novosibirsk"
 				position = { x = 502 y = 305 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_novosibirsk_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_novosibirsk_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_omolon"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_omolon"
-				position = { x = 1236 y = 5 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_omolon_tt"
-			}
-			buttonType = {
-				name = "PAV_Silovik_GUI_state_omsk"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_omsk"
+										 
+														  
+								 
+				name = "NOV_Silovik_GUI_state_omsk"
+	
+				 
+									   
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_omsk"
 				position = { x = 426 y = 280 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_omsk_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_omsk_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_orenburg"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_orenburg"
+				name = "NOV_Silovik_GUI_state_orenburg"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_orenburg"
 				position = { x = 202 y = 356 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_orenburg_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_orenburg_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_oyrotia"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_oyrotia"
+				name = "NOV_Silovik_GUI_state_oyrotia"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_oyrotia"
 				position = { x = 623 y = 382 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_oyrotia_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_oyrotia_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_plesetsk"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_plesetsk"
+				name = "NOV_Silovik_GUI_state_plesetsk"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_plesetsk"
 				position = { x = 49 y = 187 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_plesetsk_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_plesetsk_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_prc"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_prc"
+				name = "NOV_Silovik_GUI_state_prc"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_prc"
 				position = { x = 673 y = 363 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_prc_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_prc_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_samara"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_samara"
+				name = "NOV_Silovik_GUI_state_samara"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_samara"
 				position = { x = 124 y = 336 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_samara_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_samara_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_tomsk"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_tomsk"
+				name = "NOV_Silovik_GUI_state_tomsk"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_tomsk"
 				position = { x = 430 y = 6 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_tomsk_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_tomsk_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_sba"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_sba"
+				name = "NOV_Silovik_GUI_state_sba"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_sba"
 				position = { x = 696 y = 233 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_sba_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_sba_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_kras"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_kras"
+				name = "NOV_Silovik_GUI_state_kras"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_kras"
 				position = { x = 655 y = 287 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_kras_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_kras_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_kemerovo"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_kemerovo"
+				name = "NOV_Silovik_GUI_state_kemerovo"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_kemerovo"
 				position = { x = 621 y = 313 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_kemerovo_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_kemerovo_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_tyumen"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_tyumen"
+				name = "NOV_Silovik_GUI_state_tyumen"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_tyumen"
 				position = { x = 310 y = 229 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_tyumen_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_tyumen_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_sverdlovsk"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_sverdlovsk"
+				name = "NOV_Silovik_GUI_state_sverdlovsk"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_sverdlovsk"
 				position = { x = 318 y = 206 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_sverdlovsk_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_sverdlovsk_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_ural"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_ural"
+				name = "NOV_Silovik_GUI_state_ural"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_ural"
 				position = { x = 266 y = 314 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_ural_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_ural_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_vilyuy"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_vilyuy"
-				position = { x = 771 y = 5 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_vilyuy_tt"
-			}
-			buttonType = {
-				name = "PAV_Silovik_GUI_state_chernyshevsky"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_chernyshevsky"
-				position = { x = 756 y = 139 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_chernyshevsky_tt"
-			}
-			buttonType = {
-				name = "PAV_Silovik_GUI_state_vologda"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_vologda"
+										 
+														  
+								
+												   
+	
+				 
+												
+																 
+								  
+														  
+	
+				 
+				name = "NOV_Silovik_GUI_state_vologda"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_vologda"
 				position = { x = 39 y = 236 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_vologda_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_vologda_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_kostroma"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_kostroma"
-				position = { x = 68 y = 273 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_kostroma_tt"
-			}
-			buttonType = {
-				name = "PAV_Silovik_GUI_state_ab"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_ab"
+										   
+															
+								 
+				name = "NOV_Silovik_GUI_state_ab"
+	
+				 
+									 
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_ab"
 				position = { x = 231 y = 280 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_ab_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_ab_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_vyatka"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_vyatka"
+				name = "NOV_Silovik_GUI_state_vyatka"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_vyatka"
 				position = { x = 165 y = 246 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_vyatka_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_vyatka_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_tatarstan"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_tatarstan"
+				name = "NOV_Silovik_GUI_state_tatarstan"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_tatarstan"
 				position = { x = 131 y = 287 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_tatarstan_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_tatarstan_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_wrrf"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_wrrf"
+				name = "NOV_Silovik_GUI_state_wrrf"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_wrrf"
 				position = { x = 22 y = 63 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_wrrf_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_wrrf_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_ukhta"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_ukhta"
+				name = "NOV_Silovik_GUI_state_ukhta"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_ukhta"
 				position = { x = 190 y = 158 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_ukhta_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_ukhta_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_onega"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_onega"
+				name = "NOV_Silovik_GUI_state_onega"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_onega"
 				position = { x = 7 y = 177 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_onega_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_onega_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_yakutia"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_yakutia"
-				position = { x = 998 y = 170 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_yakutia_tt"
+				name = "NOV_Silovik_GUI_state_yakutia"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_yakutia"
+				position = { x = 965 y = 170 }
+				pdx_tooltip = "NOV_Silovik_GUI_state_yakutia_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_yugra"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_yugra"
+				name = "NOV_Silovik_GUI_state_chita"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_chita"
+				position = { x = 979 y = 299 }
+				pdx_tooltip = "NOV_Silovik_GUI_state_chita_tt"
+			}
+			buttonType = {
+				name = "NOV_Silovik_GUI_state_yugra"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_yugra"
 				position = { x = 285 y = 5 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_yugra_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_yugra_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_fav"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_fav"
+				name = "NOV_Silovik_GUI_state_fav"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_fav"
 				position = { x = 388 y = 121 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_fav_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_fav_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_vorkuta"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_vorkuta"
+				name = "NOV_Silovik_GUI_state_vorkuta"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_vorkuta"
 				position = { x = 209 y = 5 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_vorkuta_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_vorkuta_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_zlatoust"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_zlatoust"
+				name = "NOV_Silovik_GUI_state_zlatoust"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_zlatoust"
 				position = { x = 293 y = 218 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_zlatoust_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_zlatoust_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_state_komi"
-				quadTextureSprite = "GFX_PAV_Silovik_GUI_state_komi"
+				name = "NOV_Silovik_GUI_state_komi"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_komi"
 				position = { x = 123 y = 208 }
-				pdx_tooltip = "PAV_Silovik_GUI_state_komi_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_state_komi_tt"
 			}
+			buttonType = {
+				name = "NOV_Silovik_GUI_state_omolon"
+				quadTextureSprite = "GFX_NOV_Silovik_GUI_state_omolon"
+				position = { x = 755 y = 6 }
+				pdx_tooltip = "NOV_Silovik_GUI_state_omolon_tt"
+			}	
 		}
 		
 		instantTextboxType = {
-			name = "PAV_Silovik_GUI_selected_state"
+			name = "NOV_Silovik_GUI_selected_state"
 			position = { x = 0 y = 459 }
 			font = "aldrich_30_outline"
-			text = "선택한 주: [?PAV_target_country.GetName]"
+			text = "선택한 주: [?NOV_target_country.GetName]"
 			maxWidth = 900
 			format = center
 			alwaystransparent = yes
 		}
 		
 		containerWindowType = {
-			name = "PAV_Silovik_GUI_megacorp_window"
+			name = "NOV_Silovik_GUI_megacorp_window"
 			size = { width = 0 height = 0 }
 			position = { x = 0 y = 10 }
 			
 			iconType = {
-				name = "PAV_Silovik_GUI_megacorp_bg"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_bg"
+				name = "NOV_Silovik_GUI_megacorp_bg"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_bg"
 				position = { x = 140 y = 476 }
 			}
 		
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_1_name"
+				name = "NOV_Silovik_GUI_megacorp_1_name"
 				position = { x = 140 y = 475 }
 				font = "aldrich_20_outline"
-				text = "PAV_megacorp_1_name"
+				text = "NOV_megacorp_1_name"
 				maxWidth = 139
 				maxHeight = 30
 				format = center
 				vertical_alignment = center
 			}
 			iconType = {
-				name = "PAV_Silovik_GUI_megacorp_1_logo"
-				spriteType = "GFX_PAV_Feniks_logo"
+				name = "NOV_Silovik_GUI_megacorp_1_logo"
+				spriteType = "GFX_NOV_Feniks_logo"
 				scale = 0.80
 				position = { x = 185 y = 500 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_1_status"
+				name = "NOV_Silovik_GUI_megacorp_1_status"
 				position = { x = 140 y = 600 }
 				font = "aldrich_20_outline"
-				text = "PAV_Silovik_GUI_megacorp_1_status_text"
+				text = "NOV_Silovik_GUI_megacorp_1_status_text"
 				maxWidth = 139
 				maxHeight = 30
 				format = center
 				vertical_alignment = center
 			}
 			iconType = {
-				name = "PAV_MC_gui_alert"
+				name = "NOV_MC_gui_alert"
 				scale = 0.70
 				spriteType = "GFX_gui_alert"
 				position = { x = 150 y = 515 }
 			}
 			#iconType = {
-			#	name = "PAV_PC_gui_alert"
+			#	name = "NOV_PC_gui_alert"
 			#	scale = 0.70
 			#	spriteType = "GFX_gui_alert"
 			#	position = { x = 350 y = 515 }
 			#}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_1_info_button"
+				name = "NOV_Silovik_GUI_megacorp_1_info_button"
 				spriteType = "GFX_SGR_corporation_info_button"
 				position = { x = 177 y = 560 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_1_option_1_text"
+				name = "NOV_Silovik_GUI_megacorp_1_option_1_text"
 				position = { x = 140 y = 645 }
 				font = "aldrich_18_outline"
-				text = "충성도"
+				text = ""충성도"
 				maxWidth = 139
 				maxHeight = 30
 				format = center
 				#alwaystransparent = yes
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_1_option_1_plus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_plus"
+				name = "NOV_Silovik_GUI_megacorp_1_option_1_plus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_plus"
 				position = { x = 251 y = 640 }
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_1_option_1_plus_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_1_option_1_plus_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_1_option_1_minus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_minus"
+				name = "NOV_Silovik_GUI_megacorp_1_option_1_minus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_minus"
 				position = { x = 143 y = 640 }
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_1_option_1_minus_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_1_option_1_minus_tt"
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_1_option_2_text"
+				name = "NOV_Silovik_GUI_megacorp_1_option_2_text"
 				position = { x = 140 y = 675 }
 				font = "aldrich_18_outline"
 				text = "권력"
@@ -698,23 +711,23 @@ guiTypes = {
 				
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_1_option_2_plus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_plus"
+				name = "NOV_Silovik_GUI_megacorp_1_option_2_plus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_plus"
 				position = { x = 251 y = 670 }
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_1_option_2_plus_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_1_option_2_plus_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_1_option_2_minus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_minus"
+				name = "NOV_Silovik_GUI_megacorp_1_option_2_minus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_minus"
 				position = { x = 143 y = 670 }
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_1_option_2_minus_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_1_option_2_minus_tt"
 			}
 			
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_2_name"
+				name = "NOV_Silovik_GUI_megacorp_2_name"
 				position = { x = 300 y = 475 }
 				font = "aldrich_20_outline"
-				text = "PAV_megacorp_2_name"
+				text = "NOV_megacorp_2_name"
 				maxWidth = 139
 				maxHeight = 30
 				format = center
@@ -722,28 +735,28 @@ guiTypes = {
 				vertical_alignment = center
 			}
 			iconType = {
-				name = "PAV_Silovik_GUI_megacorp_2_logo"
-				spriteType = "GFX_PAV_Sibir_logo"
+				name = "NOV_Silovik_GUI_megacorp_2_logo"
+				spriteType = "GFX_NOV_Sibir_logo"
 				scale = 0.90
 				position = { x = 340 y = 500 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_2_status"
+				name = "NOV_Silovik_GUI_megacorp_2_status"
 				position = { x = 300 y = 600 }
 				font = "aldrich_20_outline"
-				text = "PAV_Silovik_GUI_megacorp_2_status_text"
+				text = "NOV_Silovik_GUI_megacorp_2_status_text"
 				maxWidth = 139
 				maxHeight = 30
 				format = center
 				vertical_alignment = center
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_2_info_button"
+				name = "NOV_Silovik_GUI_megacorp_2_info_button"
 				spriteType = "GFX_SGR_corporation_info_button"
 				position = { x = 337 y = 560 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_2_option_1_text"
+				name = "NOV_Silovik_GUI_megacorp_2_option_1_text"
 				position = { x = 300 y = 645 }
 				font = "aldrich_18_outline"
 				text = "충성도"
@@ -754,19 +767,19 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_2_option_1_plus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_plus"
+				name = "NOV_Silovik_GUI_megacorp_2_option_1_plus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_plus"
 				position = { x = 411 y = 640 }
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_2_option_1_plus_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_2_option_1_plus_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_2_option_1_minus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_minus"
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_2_option_1_minus_tt"
+				name = "NOV_Silovik_GUI_megacorp_2_option_1_minus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_minus"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_2_option_1_minus_tt"
 				position = { x = 303 y = 640 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_2_option_2_text"
+				name = "NOV_Silovik_GUI_megacorp_2_option_2_text"
 				position = { x = 300 y = 675 }
 				font = "aldrich_18_outline"
 				text = "권력"
@@ -776,23 +789,23 @@ guiTypes = {
 				#alwaystransparent = yes
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_2_option_2_plus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_plus"
+				name = "NOV_Silovik_GUI_megacorp_2_option_2_plus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_plus"
 				position = { x = 411 y = 670 }
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_2_option_2_plus_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_2_option_2_plus_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_2_option_2_minus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_minus"
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_2_option_2_minus_tt"
+				name = "NOV_Silovik_GUI_megacorp_2_option_2_minus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_minus"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_2_option_2_minus_tt"
 				position = { x = 303 y = 670 }
 			}
 			
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_3_name"
+				name = "NOV_Silovik_GUI_megacorp_3_name"
 				position = { x = 460 y = 475 }
 				font = "aldrich_20_outline"
-				text = "PAV_megacorp_3_name"
+				text = "NOV_megacorp_3_name"
 				maxWidth = 139
 				maxHeight = 30
 				format = center
@@ -800,28 +813,28 @@ guiTypes = {
 				vertical_alignment = center
 			}
 			iconType = {
-				name = "PAV_Silovik_GUI_megacorp_3_logo"
-				spriteType = "GFX_PAV_Titan_logo"
+				name = "NOV_Silovik_GUI_megacorp_3_logo"
+				spriteType = "GFX_NOV_Titan_logo"
 				scale = 0.80
 				position = { x = 500 y = 500 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_3_status"
+				name = "NOV_Silovik_GUI_megacorp_3_status"
 				position = { x = 460 y = 600 }
 				font = "aldrich_20_outline"
-				text = "PAV_Silovik_GUI_megacorp_3_status_text"
+				text = "NOV_Silovik_GUI_megacorp_3_status_text"
 				maxWidth = 139
 				maxHeight = 30
 				format = center
 				vertical_alignment = center
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_3_info_button"
+				name = "NOV_Silovik_GUI_megacorp_3_info_button"
 				spriteType = "GFX_SGR_corporation_info_button"
 				position = { x = 497 y = 560 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_3_option_1_text"
+				name = "NOV_Silovik_GUI_megacorp_3_option_1_text"
 				position = { x = 460 y = 645 }
 				font = "aldrich_18_outline"
 				text = "충성도"
@@ -832,19 +845,19 @@ guiTypes = {
 				
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_3_option_1_plus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_plus"
+				name = "NOV_Silovik_GUI_megacorp_3_option_1_plus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_plus"
 				position = { x = 571 y = 640 }
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_3_option_1_plus_tt"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_3_option_1_plus_tt"
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_3_option_1_minus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_minus"
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_3_option_1_minus_tt"
+				name = "NOV_Silovik_GUI_megacorp_3_option_1_minus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_minus"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_3_option_1_minus_tt"
 				position = { x = 463 y = 640 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_3_option_2_text"
+				name = "NOV_Silovik_GUI_megacorp_3_option_2_text"
 				position = { x = 460 y = 675 }
 				font = "aldrich_18_outline"
 				text = "권력"
@@ -854,23 +867,23 @@ guiTypes = {
 				#alwaystransparent = yes
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_3_option_2_plus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_plus"
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_3_option_2_plus_tt"
+				name = "NOV_Silovik_GUI_megacorp_3_option_2_plus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_plus"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_3_option_2_plus_tt"
 				position = { x = 571 y = 670 }
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_3_option_2_minus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_minus"
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_3_option_2_minus_tt"
+				name = "NOV_Silovik_GUI_megacorp_3_option_2_minus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_minus"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_3_option_2_minus_tt"
 				position = { x = 463 y = 670 }
 			}
 			
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_4_name"
+				name = "NOV_Silovik_GUI_megacorp_4_name"
 				position = { x = 620 y = 475 }
 				font = "aldrich_20_outline"
-				text = "PAV_megacorp_4_name"
+				text = "NOV_megacorp_4_name"
 				maxWidth = 139
 				maxHeight = 30
 				format = center
@@ -878,28 +891,28 @@ guiTypes = {
 				vertical_alignment = center
 			}
 			iconType = {
-				name = "PAV_Silovik_GUI_megacorp_4_logo"
-				spriteType = "GFX_PAV_The_People_logo"
+				name = "NOV_Silovik_GUI_megacorp_4_logo"
+				spriteType = "GFX_NOV_The_People_logo"
 				scale = 0.80
 				position = { x = 660 y = 500 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_4_status"
+				name = "NOV_Silovik_GUI_megacorp_4_status"
 				position = { x = 620 y = 600 }
 				font = "aldrich_20_outline"
-				text = "PAV_Silovik_GUI_megacorp_4_status_text"
+				text = "NOV_Silovik_GUI_megacorp_4_status_text"
 				maxWidth = 139
 				maxHeight = 30
 				format = center
 				vertical_alignment = center
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_4_info_button"
+				name = "NOV_Silovik_GUI_megacorp_4_info_button"
 				spriteType = "GFX_SGR_corporation_info_button"
 				position = { x = 657 y = 560 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_4_option_1_text"
+				name = "NOV_Silovik_GUI_megacorp_4_option_1_text"
 				position = { x = 620 y = 645 }
 				font = "aldrich_18_outline"
 				text = "충성도"
@@ -909,19 +922,19 @@ guiTypes = {
 				#alwaystransparent = yes
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_4_option_1_plus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_plus"
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_4_option_1_plus_tt"
+				name = "NOV_Silovik_GUI_megacorp_4_option_1_plus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_plus"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_4_option_1_plus_tt"
 				position = { x = 731 y = 640 }
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_4_option_1_minus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_minus"
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_4_option_1_minus_tt"
+				name = "NOV_Silovik_GUI_megacorp_4_option_1_minus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_minus"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_4_option_1_minus_tt"
 				position = { x = 623 y = 640 }
 			}
 			instantTextboxType = {
-				name = "PAV_Silovik_GUI_megacorp_4_option_2_text"
+				name = "NOV_Silovik_GUI_megacorp_4_option_2_text"
 				position = { x = 620 y = 675 }
 				font = "aldrich_18_outline"
 				text = "권력"
@@ -931,21 +944,21 @@ guiTypes = {
 				#alwaystransparent = yes
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_4_option_2_plus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_plus"
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_4_option_2_plus_tt"
+				name = "NOV_Silovik_GUI_megacorp_4_option_2_plus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_plus"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_4_option_2_plus_tt"
 				position = { x = 731 y = 670 }
 			}
 			buttonType = {
-				name = "PAV_Silovik_GUI_megacorp_4_option_2_minus"
-				spriteType = "GFX_PAV_Silovik_GUI_megacorp_minus"
-				pdx_tooltip = "PAV_Silovik_GUI_megacorp_4_option_2_minus_tt"
+				name = "NOV_Silovik_GUI_megacorp_4_option_2_minus"
+				spriteType = "GFX_NOV_Silovik_GUI_megacorp_minus"
+				pdx_tooltip = "NOV_Silovik_GUI_megacorp_4_option_2_minus_tt"
 				position = { x = 623 y = 670 }
 			}
 		}
 
 		buttonType = {
-			name = "PAV_Silovik_State_GUI_close_button"
+			name = "NOV_Silovik_State_GUI_close_button"
 			quadTextureSprite = "GFX_crt_closebutton"
 			position = { x = -29 y = 10 }
 			orientation = upper_right
