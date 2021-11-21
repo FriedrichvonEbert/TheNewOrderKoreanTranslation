@@ -40,7 +40,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Title"
-			position = { x = 0 y = 9 }
+			position = { x = 0 y = 10 }
 			font = "aldrich_32_outline"
 			text = "HGR_MISSILE_CONTROL"
 			format = center
@@ -49,7 +49,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Missile_Count_Per_Faction"
-			position = { x = 0 y = 32 }
+			position = { x = 0 y = 33 }
 			font = "aldrich_32_outline"
 			text = "HGR_MISSILE_COUNTER"
 			format = center
@@ -58,7 +58,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Germany_Count"
-			position = { x = 0 y = 55 }
+			position = { x = 0 y = 56 }
 			font = "aldrich_30_outline"
 			text = "HGR_MISSILE_PERCENT_GER"
 			format = center
@@ -67,16 +67,16 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Burgundy_Count"
-			position = { x = 0 y = 81 }
+			position = { x = 0 y = 82 }
 			font = "aldrich_30_outline"
 			text = "HGR_MISSILE_PERCENT_BURG"
 			format = center
 			maxWidth = 1000
 		}
 		
-		instantTextBoxType = { 
+		instantTextBoxType = {
 			name = "Uncontrolled_Count"
-			position = { x = 0 y = 108 }
+			position = { x = 0 y = 109 }
 			font = "aldrich_30_outline"
 			text = "HGR_MISSILE_PERCENT_NEU"
 			format = center
