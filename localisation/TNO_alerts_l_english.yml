@@ -1,19 +1,58 @@
 ﻿l_english:
- TNO_alert_tooltip: "§Y[Get_TNO_alert_name]§!"
+TNO_alert_tooltip: "§Y[Get_TNO_alert_name]§!"
 
- TNO_alert_name_missing: "Name missing"
- TNO_alert_desc_missing: ""
+TNO_alert_name_missing: "Name missing"
+TNO_alert_desc_missing: ""
 
- CSS_alert_name_senado_voting: "Senado Campaign Available"
- CSS_alert_desc_senado_voting: "We can now run another campaign in the Senado race."
+TNO_alert_name_unallocated_pu: "Free Production Units"
+TNO_alert_desc_unallocated_pu: "You have free Production Units which can be allocated."
 
- CSS_alert_name_pres_voting: "Presidential Campaign Available"
- CSS_alert_desc_pres_voting: "We can now run another campaign in the presidential race."
+TNO_alert_name_fiscal_crisis: "Fiscal Crisis Imminent"
+TNO_alert_desc_fiscal_crisis: "A Fiscal Crisis is imminent as our debt has reached an unsustainable level.\nThis Fiscal Crisis will begin in approximately §Y[?Months_Till_Fiscal]§!§B months."
 
- CSS_alert_name_pl_voting_begun: "Senado Vote Active"
- CSS_alert_desc_pl_voting_begun: "[BRA_pl_current_bill] is currently being voted on in the Senado, use the Decisions menu to negotiate for votes."
+TNO_alert_name_high_tension: "High Tension Between Superpowers"
+TNO_alert_desc_high_tension: "Our Tension with an opposing Superpower is §Rover 90!§!"
 
- CSS_alert_name_development: "Development Edict Available"
- CSS_alert_desc_development: "We can now enact another development edict."
+TNO_alert_name_consumer_goods_empty: "Consumer Goods Shortage!"
+TNO_alert_desc_consumer_goods_empty: "§Yconsumer goods§! stockpiles are §Rempty.§!\n"
 
- TNO_alert_desc: "§B[Get_TNO_alert_description]§!\n§GRight-click to dismiss§!"
+TNO_alert_name_lost_pu: "Lost Production Units"
+TNO_alert_desc_lost_pu: "Due to changes in our economy you have lost production units compared to last month. You may want to alter your allocation."
+
+TNO_alert_name_senado_voting: "Senado Campaign Available"
+TNO_alert_desc_senado_voting: "We can now run another campaign in the Senado race."
+
+TNO_alert_name_pres_voting: "Presidential Campaign Available"
+TNO_alert_desc_pres_voting: "We can now run another campaign in the presidential race."
+
+TNO_alert_name_pl_voting_begun: "Senado Vote Active"
+TNO_alert_desc_pl_voting_begun: "[BRA_pl_current_bill] is currently being voted on in the Senado, use the Decisions menu to negotiate for votes."
+
+TNO_alert_name_development: "Development Edict Available"
+TNO_alert_desc_development: "We can now enact another development edict."
+
+TNO_alert_name_credit_rating_improved: "Credit Rating Improved"
+TNO_alert_desc_credit_rating_improved: "Our credit has improved to [GetCreditRatingValue], which grants lower interest rates and a higher debt ceiling!"
+
+TNO_alert_name_credit_rating_degraded: "Credit Rating Degraded"
+TNO_alert_desc_credit_rating_degraded: "Our credit has degraded to [GetCreditRatingValue], which causes higher interest rates and a lower debt ceiling!"
+
+TNO_alert_name_kartenhaus_action_available: "Kartenhaus Interactions Available"
+TNO_alert_desc_kartenhaus_action_available: "We may now take another action targeting one of the Special Interest Groups."
+
+TNO_alert_desc: "§B[Get_TNO_alert_description]§!\n§GRight-click to dismiss§!"
+
+TNO_alert_name_armed_forces_paranoia: "Suspicious Armed Forces Activity"
+TNO_alert_desc_armed_forces_paranoia: "The Armed Forces of Scotland are doing suspicious activities, use the Decisions menu to interact with the situation."
+
+TNO_alert_name_great_game: "New Great Game Turn"
+TNO_alert_desc_great_game: "A new Great Game Turn has begun, use the Decisions menu to manipulate the situation to our favor."
+
+TNO_alert_name_aas_resources: "AAS Resources Available"
+TNO_alert_desc_aas_resources: "The AAS has new resources to crush the separatist menace, use the AAS screen to manage them."
+
+TNO_alert_name_US_election: "Campaign Available"
+TNO_alert_desc_US_election: "We may now campaign for the elections, use the Decisions menu to pick a focus region."
+
+TNO_alert_name_eng_election: "Election Action Available"
+TNO_alert_desc_eng_election: "We may now carry out political campaigning for the election."
