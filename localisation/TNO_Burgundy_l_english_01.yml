@@ -1,23 +1,39 @@
 ﻿l_english:
+
+ 
+###################################################################################################################################################################################################################################################################################
+
+################ BASIC STUFF
+
+####################################################################################################################################################################################################################################################################################
+
+ BRG_globalplan_gui:0 "§PDie Globalpläne§!"
+ BRG_domestic_gui_nothing:0 ""
+
  ## Country Names ##
- BRG_ultranational_socialism:0 "부르군트 SS 기사단국"
- BRG_ultranational_socialism_DEF:0 "부르군트 SS 기사단국"
- BRG_ultranational_socialism_ADJ:0 "부르군트"
- BRG_burgundian_system:0 "부르군트 SS 기사단국"
- BRG_burgundian_system_DEF:0 "부르군트 SS 기사단국"
- BRG_burgundian_system_ADJ:0 "부르군트"
+ BRG_ultranationalism:0 "부르군트 SS 기사단국"
+ BRG_ultranationalism_DEF:0 "부르군트 SS 기사단국"
+ BRG_ultranationalism_ADJ:0 "부르군트"
+ BRG_esoteric_nazism:0 "부르군트 SS 기사단국"
+ BRG_esoteric_nazism_DEF:0 "부르군트 SS 기사단국"
+ BRG_esoteric_nazism_ADJ:0 "부르군트"
  BRG_national_socialism:0 "부르군트 SS 기사단국"
- BRG_GUI_ultranational_socialism:0 "Grafische-Benutzeroberflächestaat 65EBF6"
+ BRG_GUI_ultranationalism:0 "그래픽-사용자인터페이스국 65EBF6"
  BRG_national_socialism_DEF:0 "부르군트 SS 기사단국"
  BRG_national_socialism_ADJ:0 "부르군트"
+ 
+ ## Leader Bios ##
+ POLITICS_HEINRICH_HIMMLER_DESC:0 "하인리히 힘러는 1923년 뮌헨 폭동까지 참여했을 정도로 수십 년간 나치당의 충실한 당원이었습니다. 정부 전복 시도 이래로 몇 달간 지속된 독일의 실패에 힘러는 격분했으며 환멸했고 그 어느 때보다 지신만의 신념에 몰두하게 되었습니다.\n\n전후의 희열이 가시고 거창한 계획들이 독일 경제에 압박을 주기 시작하자 힘러의 신념은 흔들렸습니다. 경제가 붕괴하고 게르마니아의 정부가 그것을 해결할 길이 요원해 보이자 그의 신념은 불안정해졌습니다. 소련 잔존 세력들이 모스크바 수복 목전까지 왔을 때, 그의 신념은 산산조각 났습니다. 이는 유대인의 음모 혹은 연합군의 방해공작에 의한 것이 아니었습니다. 이번에는 아무도 독일의 등을 찌르지 않았으니까요... 나치 그 자신을 제외하고는 말입니다.\n\n힘러는 나치당이 끝내 타락했으며 안에서부터 독일을 갉아먹고 있다고 확신하게 되었습니다. 독일을 그 자체로부터 구원하는것은 힘러의 의무 - 아니, 그의 소명이었습니다. 파리에서부터 게르마니아까지 그리고 급속하게 무너지고 있는 동부의 A-A 전선까지, 무장SS 부대는 히틀러를 실각시키고 독일의 방향을 바로잡을 준비가 되었습니다. 그러나, 음모에 대한 첩보를 사전에 입수한 슈파이델이 맞불 작전을 시행하면서 음모는 초장에 실패하였습니다.\n\n힘러의 계획이 누설되었다는 소식과 함께 십여 개의 사단이 생포되었으며 SS의 파멸은 기정사실화 되었습니다. 히틀러가 드물게 정신이 맑아지는 순간에, 힘러를 죽이는 것은 곧 내전을 의미함을 깨닫고 그에게 게르마니아에서 멀리 떨어진 영토(부르군트 SS 기사단국)를 내주어 독일 정치에 접근하지 못하도록 하였습니다. 힘러는 이를 마지못해 수용했고 독일 내 SS의 지휘권을 그의 충실한 부관, 라인하르트 하이드리히에게 맡긴 뒤 오스트 파리로 떠났습니다. 그러나 힘러는 자신의 신념을 더욱 확고히 했을 뿐만 아니라, 자신에게 행해진 불의를 잊지 않고 있습니다..."
+ POLITICS_HEINRICH_HIMMLER_DESC_1972:0 "Incompetence. Sabotage. Treason. From the very beginning Heinrich Himmler had been surrounded by those who wished nothing more than to see him fail, to see his grand vision for Burgundy collapse into dust, degeneracy, and anarchy.\n\nDespite this, Heinrich Himmler endures.\n\nThe state he has devoted his life to is little more than a hollowed out husk, one stripped of nature and color. One filled with concrete cemeteries of industry that lie dormant in the darkness of the blackout. One with a population in revolt, or living in abject terror.\n\nThe state he presides over is a mass grave, yet to Himmler it does not matter how many die. Thousands have died on his orders, and would condemn thousands more to see the dream of Burgundy realized - even as it collapses all around him. It does not matter that his authority is ignored. It does not matter that resistance grows stronger. It does not matter, because it cannot matter. The Shadow State may be a shambling corpse of a nation, awaiting its final breath, but he will hold onto the dream until the very end.\n\nBecause without Burgundy, he is nothing."
+ POLITICS_HEINRICH_HIMMLER_DESC_COLLAPSE:0 "It was never supposed to be this way.\n\nWho, ultimately, is responsible for the failure of the Ordensstaat? Not he, of course - not the Reichsführer! Subversive elements are everywhere, naturally, for that is the way of the Eternal Jew. But was he not careful enough? Twelve years of the Gestapo grinding down on the emaciated neck of France, and still the perfidious nation kept its secrets from them? Unlikely! No, it was higher up, closer to the top. The SS Legions were already suspect for their selfish, anti-German nationalism, but hadn't they all been checked, double-checked, checked again, and monitored for the entirety of their service? It had to be higher still!\n\nHeydrich, maybe? His failure after such an illustrious career was suspect. 'White Moses', they used to call him. He had always believed it to be a mere schoolboy taunt, but did the slur sprout from a seed of truth? Or perhaps he was an unwitting servant of the Jew, like Oswald Pohl? No, impossible - that didn't make any sense! What rational explanation could there be for this outcome?\n\nSo goes the delusional mind of Heinrich Himmler, running in circles and chasing shadows, even as his subordinates beg for orders and the crackle of gunfire grows ever closer."
 
  ## Party Names ##
  BRG_national_socialism_party:0 "NSDAP"
  BRG_national_socialism_party_long:0 "국가사회주의 독일 노동자당"
- BRG_ultranational_socialism_party:0 "NSDAP - 드그렐 파벌"
- BRG_ultranational_socialism_party_long:0 "국가사회주의 독일 노동자당 - 드그렐 파벌"
- BRG_burgundian_system_party:0 "NSDAP - 힘러 추종세력"
- BRG_burgundian_system_party_long:0 "국가사회주의 독일 노동자당 - 힘러 추종세력"
+ BRG_ultranationalism_party:0 "NSDAP - 드그렐 파벌"
+ BRG_ultranationalism_party_long:0 "국가사회주의 독일 노동자당 - 드그렐 파벌"
+ BRG_esoteric_nazism_party:0 "NSDAP - 힘러 추종세력"
+ BRG_esoteric_nazism_party_long:0 "국가사회주의 독일 노동자당 - 힘러 추종세력"
 
  ## Ministers ##
  BRG_Gottlob_Berger_dep:0 "고틀로프 베르거"
@@ -26,6 +42,235 @@
  BRG_Oswald_Pohl_eco:0 "오스팔트 폴"
  BRG_Franz_Novak_eco:0 "프란츠 노바크"
 
+
+###################################################################################################################################################################################################################################################################################
+
+################ UNLOCK EVENTS
+
+####################################################################################################################################################################################################################################################################################
+
+
+
+#Unlock events
+ 
+BRG_unlock.1.t:0 "라이히의 고난"
+BRG_unlock.1.desc:0 "라이히는 지난 수십 년 동안 유럽 전역에 걸쳐 질서와 안보의 튼튼한 기둥 역할을 하며 유럽을 자랑스럽게 지켜왔습니다. 그리고 라이히에 있어 가장 중요한 것은 총통의 행정을 타락시킨 게르마니아의 퇴폐적인 돼지들이 이익을 유지했다는 것입니다. 심지어 기사단국의 행정권을 위임받은 SS국가지도자조차도 아리아인의 의지를 집행하는 데 있어 국가사회주의의 이상을 타락시킨 범인들에 의해 얽매인 있는 자신을 발견했습니다.\n\n그러나 이제 게르마니아의 그늘에서 놀던 퇴폐자들이 양지로 기어나와 서로를 쓰러뜨리려고 시도하고 있습니다. 그 결과 독일은 흔들리기 시작했고, 아리아인의 아들들은 노쇠한 노인들의 명분을 위해 봉사하게끔 강요받고 있습니다. 그러나 독일의 급속한 붕괴와 함께 밝은 희망이 찾아옵니다. 라이히라는 강한 기둥이 무너지기 시작했고, 그 기둥에 유럽을 붙들어 놓은 쇠사슬이 느슨해지기 시작했습니다. 한때는 헛수고지만 꿈만 꾸던 음모와 계획이 곧 가능성의 영역으로 들어설지도 모릅니다.\n\n우리의 꿈은 반드시 실현되어야 합니다. 프랑스, 아니 그보다는 아직 프랑스라고 불리는 이 잔당들은 다시 한번 궁지에 몰려야 기사단국이 번창하고 SS국가지도자의 계획을 위해 일할 수 있습니다. 하지만, 우리가 기사단국의 영역을 확장하기 위해 행진하기 전에, 우리는 우선 충실한 협력자들이 보이는 것만큼 충성스러운지 확인해야 합니다..."
+BRG_unlock.1.a:0 "승리를 위해."
+
+BRG_unlock.2.t:0 "앞이 아니면 어디로 가야하는가?"
+BRG_unlock.2.desc:0 "비가 창문을 요란하게 두드리고, 방에 있는 유일한 촛불이 꺼진 채 신들이 쏟아내는 우레와 같은 천둥번개가 유일한 광원이던 어둡고 폭풍우가 몰아치는 밤에 SS국가지도자는 책상 앞에 앉아 있었습니다. 그의 앞에는 레옹 드그렐에 관한 첩보 파일이 놓여 있었습니다. 기사단국 벨기에 지역의 전 지도자. 악마와 같은 혁명가들을 이끌고 아리아인과의 공개 전쟁을 벌인 반역자 중의 반역자. 대탐색 끝에 죽은 채 발견된 자. 드그렐이 걸어간 길은 비참해 보였지만, 그것은 SS국가지도자에게 '계획'에 대한 더 많은 위협에 대해 냉담한 생각을 갖게 했습니다. \n\n스테이크를 들고 있는 사람 앞에 놓인 누더기를 걸친 굶주린 사냥개처럼 기사단국의 통치에 굴복하는 나머지 잠재적 반란자들이 없다면 그가 어떻게 자신의 계획을 세상에 내놓을 생각을 했을까요? 프랑스인, 발로니엔인, 또는 벨기에인이 패배의 비웃음 속에서 조련된 채 있는 것이 반란을 불가피하게 만든다고 볼 수도 있습니다. 그러나 만약 우리가 그들을 충분히 오랫동안 진정시킨다면, SS국가지도자와 기사단국에 '계획'을 세상에 내놓을 충분한 시간이 주어지고 우리의 의지에 대한 그러한 평화주의적 각성의 필요성이 지구상에서 사라지지 않을까요?"
+BRG_unlock.2.a:0 "계획이 착착 진행되고 있다."
+
+BRG_unlock.3.t:0 "협력자는 필요없다"
+BRG_unlock.3.desc:0 "수 년 동안 기사단국은 그 운영을 협력자 군단에 의존했습니다. 그러나 라이히에 봉사하기 위해 그들 자신의 국적을 배반한 사람들의 충성심은 항상 의심스러웠고, SS국가지도자께서는 너무 오랫동안 이 기회주의적인 협력자들을 항상 만족시키고 더 이상 권력을 잡을 새로운 기회를 주지 않기 위해 부끄러운 줄타기를 하셨습니다.\n\n줄타기의 시간이 끝났습니다. 샤를마뉴와 발로니엔의 배신자들은 그들에게 잘 맞을 때는 SS국가지도자를 위해 일했겠지만, 그들의 마음은 반역과 배신에 대한 생각으로 검게 변했습니다. 그런 숨겨진 음모와 포부를 과소평가해서는 안 됩니다.\n\n기사단국은 이제 그런 협력자들을 달랠 필요가 없어질 만큼 성장했습니다. 그들은 해체될 것입니다. 그들의 재산은 압류될 것입니다. 그들이 가지고 있는 자원들도 압류될 것입니다. 군단이 배후를 공격할 두려움 없이 기사단국이 편히 쉴 수 있도록 마지막 노력을 해야 합니다."
+BRG_unlock.3.a:0 "모두 다 압류해라."
+
+BRG_unlock.4.t:0 "아리아인의 정복"
+BRG_unlock.4.desc:0 "게르마니아의 노쇠한 정치인의 사슬에서 벗어나신 SS국가지도자께서는 기사단국을 이끌고 프랑스국에 대항한 정복 운동을 전개하셨습니다. 그리고 우리는 프랑스를 정복했습니다. 다시 한 번 프랑스가 독일의 손에 재빨리 넘어가면서 광대한 영토를 기사단국에 넘겨주었습니다.\n\n프랑스국의 나약함에도 불구하고 그들이 가졌었던 땅은 부유합니다. 비옥하고, 인구가 많고, 천연자원이 풍부한 이 땅의 잠재력을 프랑스인은 수년간 낭비하며 가지고 있었습니다. 그러나 아리아인은 그렇게 퇴폐적이지 않습니다. 적지 않은 노력이 들겠지만, 우리는 프랑스인이 실패한 바로 그 땅 위에서 위대함을 성취할 것입니다.\n\n이 모든 것은 기존의 산업과 노동력에서 시작됩니다. 짧은 전쟁으로 피해를 입은 자산은 수리되어야 하고, 아리아 인종의 개선을 위해 이전 프랑스 산업과 노동력은 부르군트 사회에 통합되어야 합니다. 이 땅은 헛되이 해서는 안 될 일꾼입니다."
+BRG_unlock.4.a:0 "우리는 다른 사람이 실패한 곳에서 성공할 것이다."
+
+BRG_unlock.5.t:0 "Dependant No More"
+BRG_unlock.5.desc:0 "Oil was something that drove the world, and no one in the modern nation could live without it. Not the United States, not Japan, not Germany - not even the Ordensstaat. \n\nHimmler knew this inconvenient fact, and as a result oil was a highly controlled resource in the Ordensstaat - one which he made sure was always closely watched. By the standards of some nations, much of Burgundy's industry was unnecessarily manual and labor-intensive - but the fact was that oil was too precious to be wantonly used. \n\nHowever, he had always sought to break this dependency. There were means of artificially producing oil, and such technology was in the hands of others - his spies had been charged with finding the schematics and secrets of these nations for years now. \n\nToday, they had succeeded. \n\nHimmler held the report from the Ministry of Resource Management in one hand, one which detailed what was known as synthetic refining. The specifics of the technology he did not especially care about - but the actual result he most certainly did. According to the report, they would be able to synthetically produce oil with the resources in Burgundy - effectively eliminating their dependency on crude oil. \n\nHe smiled. \n\nHis spies had done well, stealing these blueprints. There would be a period of time for these refineries to be made, and when they were, Burgundy would roar to life. No more would they be chained by their dependence on oil. That age was over. \n\nSomething beautiful was about to begin."
+BRG_unlock.5.a:0 "His industrial revolution would now begin."
+
+BRG_unlock.6.t:0 "죽음이 되기 위해"
+BRG_unlock.6.desc:0 "마침내 기사단국은 처음으로 핵무기를 생산하는 데 성공했습니다. 확신할 수 있는 중대한 성취이지만 아직 충분하지 않습니다. 아직 첫 단계여서 생산된 핵무기가 얼마 되지 않지만 수십 년의 군비경쟁 끝에 핵 강대국이 생산하낸 선진 핵무기에 비하면 그정도의 핵무기는 없는 것과 마찬가지라는 사실을 명심해야 합니다.\n\n기사단국은 게르마니아나 워싱턴이 보유하고 있는 묵시론적인 양의 핵무기를 결코 생산할 수 없을 것입니다. 그러나 우리는 억제력을 보유해야 합니다. 현재로선 수십만 명의 민간인이 기사단국에 대항해 무기를 들고 일어나는 것을 원치 않는 단호한 지도자에 불과할 것입니다. 그리고 그 시점에서 패배할 수도 있다는 것을 알아야 합니다.\n\n핵무기는 어떤 대가를 치르더라도 늘려야 합니다. SS국가지도자의 적이 기사단국으로 넘어가는 것이 자살과 마찬가지라는 것을 세계가 알게 해야 합니다. 이것은 생존의 문제입니다."
+BRG_unlock.6.a:0 "세상의 파괴자가 되기 위해."
+
+BRG_unlock.7.t:0 "퇴폐 억제"
+BRG_unlock.7.desc:0 "프랑스가 다시 한번 몰락하고 그 땅은 기사단국의 것이 되면서, 이미 확립된 부르군트의 이상에 어울리지 않는 수백만의 프랑스 인을 얻게 된다는 예측 가능한 결과가 나왔습니다. 그러나 통상적인 재교육과 독일화 노력의 비율은 이 경우 충분치 않을 것입니다.\n\n부분적으로 SS-샤를마뉴 협력자들에 의존할 수도 있고, 그들이 정기적으로 SS국가지도자에게 충성을 맹세할 수도 있지만, 그들은 그들이 프랑스 민족주의자라는 사실을 무시하지 않을 수도 있습니다. 그들은 기사단국을 확실하게 무너뜨릴 만큼 큰 힘을 가질 날을 갈망하며 무릎을 꿇고 있습니다. 그리고 새로 얻은 프랑스인들은 그들에게 확실히 감질나는 기회입니다.\n\n이 반역의 기회는 그들 앞에서 해체될 것입니다. 샤를마뉴가 초래한 불안정은 더 이상 커지지 않을 것입니다. 프랑스 영토에 살고 있는 모든 사람들이 게르만족의 지배를 받을 때까지, 재교육과 독일화의 노력은 배가될 것입니다. 기사단국의 안정성은 이에 달려있습니다."
+BRG_unlock.7.a:0 "고삐를 잡아라"
+
+BRG_unlock.8.t:0 "곡물 저장고가 비어간다"
+BRG_unlock.8.desc:0 "기사단국은 지난 수년간 산업적 성공과 기량의 세계적인 선봉으로 자리잡았습니다. 다른 나라들이 주춤거리고 산업이 쇠퇴했지만, 기사단국 산업의 생산 지표는 몇 달이고 계속 증가했습니다. 그러나 이런 성공에 비용이 들지 않는 것은 아닌 것 같습니다.\n\n농부들이 밭을 떠났습니다. 그 쟁기는 기사단국 전역의 제철소와 공장에서 일했던 기록적인 숫자의 사람들처럼 렌치로 바꾸어졌습니다. 그러나 곡식이 줄었기 때문에, 저장고는 조용히 더 적은 곡식을 저장하기 시작했습니다. 세상이 곡식으로 가득하니 우리의 노력은 흔들리지 않았습니다. 때때로 저장고는 다시 한번 비기 시작했고, WVHA는 단순히 우크라이나로부터 추가 곡물 수입을 확보했습니다. 사람들은 매일 먹고 생산 라인으로 돌아갈 수 있었습니다.\n\n하지만 우크라이나 곡물 수송이 중단되었습니다. 더 이상 곡물을 가득 실은 기차가 노동자들을 먹여 살리기 위해 저장고에서 벗어나지를 않고 있습니다. 고립된 저장고는 빠르게 비워지기 시작했으며, 심각한 국내 조치가 취해지지 않는 한 그것들을 다시 채울 방법이 없습니다. 현재는 아직 고갈되지 않았지만, 지평선 바로 앞에 SS국가지도자의 계획을 위험에 빠뜨릴 것 같은 끔찍한 기근이 닥쳐오고 있습니다. 이는 용납될 수 없습니다."
+BRG_unlock.8.a:0 "최대한 빨리 이를 고쳐야 한다."
+
+BRG_unlock.9.t:0 "죽음이 가까이 다가온다"
+BRG_unlock.9.desc:0 "이렇게 큰 노력이 이렇게 작은 영향을 끼친 적은 없었습니다. 기사단국은 곡식이 저장고로 돌아가고 노동자들은 밭으로 돌아가도록 갈아엎어졌습니다. 그 계획은 효과가 있었어야 했습니다. 그러나 WVHA의 계산은 불완전했습니다. 우리의 노력은 어떻게 해서든 계속했어야 했을 때 끝났습니다.\n\n그 결과 기근은 기사단국을 계속 황폐화시키고 있으며, 전보다 더 심해졌습니다. 다시 한 번 급진적으로 행동할 수밖에 없습니다. 이전보다 훨씬 더 급진적이지 않다면, 최고위층부터 가장 바람직하지 않은 사람들에 이르기까지 부르군트 사회의 모든 면이 엄청난 고통을 감내하며 버텨야할 대격변적인 집단 기아에 직면할 것입니다.\n\n가능한 모든 조치를 강구해야 합니다. 가능한. 모든. 조치를."
+BRG_unlock.9.a:0 "필요하다면 도시를 불태울 것이다."
+
+BRG_unlock.1000.t:0 "세계계획 활성화"
+BRG_unlock.1000.desc:0 "기밀! 인가받은 인원만 열람 가능\n\n사령관님,\n 우리는 그 계획을 진행할 것입니다. 국가지도자께서 적에 대항하여 행동할 권한을 부여하셨습니다. 첨부된 자료를 읽고, 다음 조치를 결정해주시기 바랍니다.\n\n대의를 위해.\n\nSS상급집단지도자 하인리히 뮐러."
+BRG_unlock.1000.a:0 "다음 행동을 할 시간이다!."
+BRG_unlock.1000.a.tt:0 "§Y세계계획§!의 §O활성화§!와 함께, 새로운 §Y행동§!을 취하는 것이 가능해졌습니다. §Y국가 중점§!을 완료하고 §Y결정§!을 행하여 우리의 §R계획§!을 진전시켜야 합니다."
+
+BRG_unlock.1001.t:0 "세계계획 대기시간이 끝남"
+BRG_unlock.1001.desc:0 "기밀! 인가받은 인원만 열람 가능\n\n사령관님,\n 기사단국은 또 다른 세계계획을 활성화하기 위한 충분한 자원과 물자를 모았습니다. 첨부된 자료를 가능한 한 빨리 읽고, 다음 조치를 신중하게 결정해주시기 바랍니다. 사령관님은 다음 행동 방침에 대해 국가지도자께 직접 조언을 들을 것입니다. 신중하게 선택사항을 숙고해주시기 바랍니다.\n\nSS상급집단지도자 하인리히 뮐러."
+BRG_unlock.1001.a:0 "확인."
+BRG_unlock.1001.a.tt:0 "§Y세계계획 대기시간§!이 끝났으니, 새로운 §Y세계계획§!이 §Y세계계획 £decision_icon_small 결정 메뉴§!에서 §O활성화§!되었을 지도 모릅니다."
+
+###################################################################################################################################################################################################################################################################################
+
+################ NEW OPENING TREE fuck you git
+
+####################################################################################################################################################################################################################################################################################
+
+
+ #New Opening Tree Foci
+
+ BRG_a_wise_leader:0 "[Root.GetBRGFocusA_Wise_Leader]"
+ BRG_a_loyal_army:0 "[Root.GetBRGFocusA_Loyal_Army]"
+ BRG_a_pure_race:0 "[Root.GetBRGFocusA_Pure_Race]"
+ BRG_the_last_hope_for_germania:0 "[Root.GetBRGFocusThe_Last_Hope_For_Germania]"
+ BRG_a_change_in_plan:0 "[Root.GetBRGFocusA_Change_In_Plan]"
+ BRG_admit_no_fault:0 "[Root.GetBRGFocusAdmit_No_Fault]"
+ BRG_expand_the_camps:0 "[Root.GetBRGFocusExpand_The_Camps]"
+ BRG_redouble_re_education_efforts:0 "[Root.GetBRGFocusRedouble_Re_Education_Efforts]"
+ BRG_sonnenfinsternis:0 "[Root.GetBRGFocusSonnenfinsternis]"
+ BRG_expand_project_gjallarhorn:0 "[Root.GetBRGFocusExpand_Project_Gjallarhorn]"
+ BRG_the_ultimate_deterrent:0 "[Root.GetBRGFocusThe_Ultimate_Deterrent]"
+ BRG_the_ultimate_salvation:0 "[Root.GetBRGFocusThe_Ultimate_Salvation]"
+ BRG_admit_no_loyalty:0 "[Root.GetBRGFocusAdmit_No_Loyalty]"
+ BRG_drill_the_waffen:0 "[Root.GetBRGFocusDrill_The_Waffen]"
+ BRG_call_upon_the_butcher:0 "[Root.GetBRGFocusCall_Upon_The_Butcher]"
+ BRG_await_the_wanenkrieg:0 "[Root.GetBRGFocusAwait_The_Wanenkrieg]"
+ BRG_die_enzig_hoffnung:0 "[Root.GetBRGFocusDie_Enzig_Hoffnung]"
+ 
+ BRG_unter_der_schwarzen_sonne:0 "Unter der Schwarzen Sonne" #여길 번역하면 포커스명이 출력되지 않음
+ BRG_unter_der_schwarzen_sonne_text:0 "검은 태양 아래에서"
+ BRG_a_wise_leader_text:0 "현명한 지도자"
+ BRG_a_loyal_army_text:0 "충성스런 군대"
+ BRG_a_pure_race_text:0 "순수한 인종"
+ BRG_the_last_hope_for_germania_text:0 "게르마니아 최후의 희망"
+ BRG_a_change_in_plan_text:0 "계획 변경"
+ BRG_admit_no_fault_text:0 "결점 제거"
+ BRG_expand_the_camps_text:0 "수용소 확대"
+ BRG_redouble_re_education_efforts_text:0 "재교육 강화"
+ BRG_sonnenfinsternis_text:0 "목적을 위한 수단"
+ BRG_expand_project_gjallarhorn_text:0 "걀라르호른 계획 확대"
+ BRG_the_ultimate_deterrent_text:0 "궁극의 억지력"
+ BRG_the_ultimate_salvation_text:0 "궁극의 구원"
+ BRG_admit_no_loyalty_text:0 "충성은 없다"
+ BRG_drill_the_waffen_text:0 "친위대 단련"
+ BRG_call_upon_the_butcher_text:0 "도살자 지원"
+ BRG_await_the_wanenkrieg_text:0 "아스-반 전쟁을 기다려라"
+ BRG_die_enzig_hoffnung_text:0 "유일한 희망"
+ 
+ BRG_unter_der_schwarzen_sonne_desc:0 "기사단국은 민족을 위해서가 아닌 방해를 위해서 세워졌습니다. 히틀러는 SS국가지도자가 프랑스인과 벨기에인의 반항적인 성격 때문에 독일 내에서 영향력을 공고히 하는 대신 원주민들을 달래느라 바빠지기를 바랐습니다.\n\n총통 자신이 아리아인의 지략을 과소평가한다는 것은 참 아이러니한 일이었습니다. 기사단국은 게르마니아의 의심스럽게 바라보는 눈길에서 벗어나 우리가 준비를 할 수 있을만한 완벽한 장소였습니다. 그리고 우리가 그들 눈앞에 다시 발을 들이면, 그들의 핵심은 흔들릴 것입니다."
+ BRG_a_wise_leader_desc:0 "정적들은 SS국가지도자를 "제복 입은 미친놈"으로 치부하고 있습니다. 사실은 그는 독일에서 마지막으로 제정신인 사람입니다. 자기들의 지도자가 국가사회주의를 버렸고, 그 명분을 떠맡을 만한 다른 사람이 없다는 것을 국민들이 어떻게 깨닫지 못할 수 있겠습니까?\n\n다행히도 SS국가지도자는 게르마니아가 불타는 동안 허송세월을 보내지 않았습니다. 모든 것이 잘 되어 유럽에서 질서가 회복되는 때가 곧 올 것입니다."
+ BRG_a_loyal_army_desc:0 "히틀러가 기사단국 건국에서 행한 첫 번째 실수는 SS국가지도자가 원하는 만큼 추종자를 부르도록 허용한 것이었습니다. 총통의 귀를 들어먹고 있는 썩어빠진 놈들에게 이것은 완벽한 생각처럼 보였습니다. 소위 광신자들은 더 이상 집 앞을 지나며 행진하지도 않고, 지키지도 못한 가치를 상기시키며, 그들 자신을 위해 건설한 퇴폐적인 낙원을 없애겠다고 위협했습니다.\n\n그러나 그것이 새로생긴 기사단국에 호재에 불과하다는 것이 밝혀졌습니다. 한때 충섬심이 의심되는 프랑스 "협력자"로 가득 찬 관료집단과 헌병대는 경험 많고, 능률적이며, 무엇보다도 헌신적인 군대로 대체되었습니다. 그들은 국가를 운영하고, 빨치산을 처단하고, 가장 가혹한 조건에서 싸우는 법을 압니다. 그리고 그들이 다시 싸우는 날이 곧 올지도 모릅니다."
+ BRG_a_pure_race_desc:0 "아리안 인종은 대재앙의 위기에 처해 있습니다. 그들의 조상이자 영적 본거지인 대독일국은 퇴폐와 부패로 들끓고 있습니다. 국민들이 국가사회주의에서 떠나갈 때 지도자들은 기꺼이 방관할 것입니다. 그들은 지배민족으로서의 지위가 그들을 산업의 정점으로 만들기 보다는 모든 노동에서 벗어나게 해준다고 믿습니다. 그들이 히틀러와 슈페어의 과대망상이 지은 호화로운 저택에서 빈둥거리면서 정신은 썩고 몸은 부드러워지고 있습니다.\n\n 그러나 기사단국 국민은 그러한 타락에 굴복하지 않습니다. 그들은 일의 가치, 이념의 중요성, 그리고 무엇보다도 국가에 대한 의무를 이해합니다."
+ BRG_the_last_hope_for_germania_desc:0 "무능한 자유민주주의 국가에서는 저항권을 최후의 수단으로 취급합니다. 이른바 폭정으로부터 자신의 권리를 지키겠다는 노예주들은 수많은 법이 위반되거나, 수많은 정당이 금지되거나, 수많은 사람들이 체포될 때 행동하겠다고 주장할 뿐입니다. 누군가 기개를 보여달라고 할 때마다 "지금은 안 되고, 아직 때가 아니다"라고만 말하는 것은 스스로의 나약함을 변호하는 것입니다.\n\n그러나 아리아인은 기다리지 않습니다. 아리아인은 권력의 기회를 보고, 가능한 최대한의 힘으로 권력을 장악합니다! 아리아인은 썩어빠진 낡은 건물을 허물고 자신의 생각대로 재건하는 것을 두려워하지 않습니다! 배신이나 유배는 아리아인의 의지를 꺾지 못합니다! 아리아인은 앞을 가로막는 모든 것을 없애고, 잘못된 것을 영원히 바로잡습니다!"
+ BRG_a_change_in_plan_desc:0 "무언가 심하게 잘못되어 있습니다. 히틀러는 여전히 숨을 쉬고 있을 뿐만 아니라 자신의 죽음을 고통스럽게 인식하고 있습니다. 누군가는 곧 총통의 공식 후계자로 등극할 것이며, 만약 SS국가지도자라 권력을 장악하려고 한다면 공식 후계자를 지지하는 정부와 국방군 지지자들은 고도의 경계심을 갖을 것입니다.\n\n망가진 독일에서 다시 권력을 얻는 것은 방법을 다시 생각해야 합니다. 처음에 예상했던 것보다 더 오래 걸릴 수도 있지만, 도중에 변경되거나 운에 맡기는 일은 없을 것입니다. 회의를 소집할 시간입니다."
+ BRG_admit_no_fault_desc:0 "암살 시도의 진실을 안다면 SS국가지도자를 실패한 이념을 옹호하는 비겁한 약자라고 모욕할 사람들이 있습니다. 그들은 더 이상 진리에서 벗어날 수 없습니다. sS국가지도자는 국가사회주의의 의미를 충분히 이해하고 있으며, 게르마니아에서 이른바 이념가들은 건전한 이념 대신에 타락한 거짓말을 계속 토해내고 있습니다.\n\n나치즘의 결점 같은 것은 없고 그것을 실행하는 인종에만 결점이 있을 뿐입니다. 그리고 아리아인은 반드시 없애야 할 많은 결점을 가지고 있습니다."
+ BRG_expand_the_camps_desc:0 "힘있는 사람은 많은 적을 만들지 않고는 정상에 오를 수 없습니다. 관료 조직 내에는 인민을 희생하고 자신의 목적을 더 진전시키기 위해 끊임없이 남을 음해하는 경쟁자들이 있습니다. 그것은 반대자와 소문꾼입니다. 이들은 거짓말을 퍼뜨리고 국가사회주의의 진실을 비난하길 좋아합니다. 또한 스파이와 공작원도 있어 셈족 주인들을 돕기 위해 매 차례 아리아 인종을 거꾸러트릴려고 합니다.\n\n이 해충들은 다른 해충과 마찬가지로 추적되어 잡힐 것입니다. 그리고 이는 수용소를 지을 더 많은 땅이 필요하다는 것을 의미합니다. 새로운 건설 현장과 가깝고 날씨가 좋지 않아 탈출하기 어려우므로 알프스 산맥에 있는 땅을 확보해놨습니다."
+ BRG_redouble_re_education_efforts_desc:0 "기사단국에는 유전적으로 순수한 훌륭한 아리아인 젊은이들이 많이 있지만, 그들의 마음은 불행하게도 타락한 부모나 교육자들의 가르침으로 더럽혀졌습니다. 많이 늦었지만, 그들을 이상적인 아리아인 남녀의 모습으로 만들 수 있다는 희망은 여전히 남아 있습니다.\n\n국가사회주의의 긍정적 가치관은 강화되어야 하며 자유주의, 좌익주의, 또는 유대-세계주의적 "전통주의" 의 부정적 가치관은 근절되어야 합니다. 성인이 될 때쯤이면 그들은 기사단국을 자랑스럽게 섬길 것입니다."
+ BRG_sonnenfinsternis_desc:0 "기사단국은 한 가지 목적만을 가지고 있습니다. 기사단국은 SS국가지도자의 의지를 집행하는 기관입니다. 그 이상도 이하도 아닙니다. 우리의 목적은 민족국가를 건설하는 것도 아니고, 원주민을 아리아인화시키는 것도 아닙니다. SS국가지도자의 목표는 프랑스인 소굴 꼭대기에 인종적으로 순수한 거주지를 만드는 것보다 훨씬 더 웅장합니다. 그리고 프랑스에 있는 독일인은 이를 달성하는데 유용할 것입니다."
+ BRG_expand_project_gjallarhorn_desc:0 "전쟁에서 모든 패배는 인간의 실수 때문입니다. 적을 제대로 예상하지 못하고 스스로 준비하지 못한 것은 역사의 쓰레기통에서 수십 명의 왕과 정복자를 파멸시켰습니다. 그러나 우리는 불시에 당하지는 않을 것입니다.\n\n기사단국 첫 날에, sS국가지도자는 "보탄"이라는 이름의 핵 조기 경보 프로그램을 개발할 것을 명령했습니다. 프로그램은 결국 폐기되었지만, 보탄의 기반 시설과 자원은 더 큰 목적을 위해 재사용될 수 있습니다. 감시자로서가 아니라 선각자로서 말입니다."
+ BRG_the_ultimate_deterrent_desc:0 "세계 강대국들이 두려워하는 무기, 막강한 미군을 굴복시킬 수 있는 무기, 신의 창조를 되돌릴 수 있는 무기가 있습니다. 바로 원자폭탄입니다. 원자폭탄은 우리의 생존을 보장하는 도구로, 이는 우리의 승리를 보장한다는 것을 의미합니다.\n\n게르마니아에서 음모를 꾸미는 타락한 자들이 우리가 단번에 패배할 것이라고 생각하지 않도록 우리는 핵무기를 획득해야 합니다. 단추를 누르면 우리가 그들의 소중한 저택과 사창가를 잿더미로 만들 수 있다는 것을 안다면 그들은 참전하기 전에 다시 생각할 것입니다."
+ BRG_the_ultimate_salvation_desc:0 "지금으로선 우리는 엄밀히 따지면 독일의 일부이기 때문에 외국은 우리를 내버려두고 있습니다. 우리를 공격하는 것은 유니티팍트에 대한 공격이기 때문입니다. 그러나 독일의 정통성이 계속 부식되면서 기사단국은 점점 적들의 위협에 노출되기 때문에 자연히 억지력을 만드는 것은 우리의 몫이 됩니다.\n\n 수년 동안, 우리는 핵무기를 생산할 기반 시설과 수단을 비밀리에 만들었습니다. 첫 번째 핵무기는 완성 직전입니다. 머지 않아, 탄두를 시험하는 것만이 남을 것입니다. 성공적인 폭발은 세계에서 우리의 지위를 보장하고 게르마니아의 타락한자들, 미국의 유대인들, 그리고 뒷짐지고 있는 사무라이들을 우리의 문제에서 제외시킬 것입니다. 우리가 핵 억지력을 갖고 있는 동안에는 아무도 감히 기사단국에 개입하지 않을 것입니다."
+ BRG_admit_no_loyalty_desc:0 "오직 노예만이 강한 하인이 약한 주인에게 복종하는 체제에 만족할 것이며, 아리아인은 노예의 사고방식에서 벗어났습니다. 우리는 게르마니아에 있는 그 몸도 제대로 못 가누는 얼간이의 명령을 받지 않을 것이며, 총통자리를 두고 다투는 멍청한 병신들의 정통성도 인정할 수 없습니다.\n\nSS국가지도자는 우리의 지침이 될 것이고, 우리는 열등인간의 그늘 아래 옹기종기 모여 있길 좋아하는 사람들을 경멸할 것입니다."
+ RG_drill_the_waffen_desc:0 "착한 아리아인은 언제나 마음과 몸을 최고로 유지하고, 결코 만족의 늪에 빠지지 않도록 해야 합니다. 독일이 제공해야 할 가장 강력하고 충성스러운 아리아인 군인들을 포함하고 있는 SS무장친위대도 예외는 아닙니다.\n\n훈련은 반드시 빈번하고 엄격해야 하며, 모든 군인들이 전투의 열기 동안 지시된 대로 정확히 지시를 이행할 수 있도록 해야 합니다. 그들의 기개를 시험할 때가 곧 올 것이며, 우리는 멍청한 놈들을 군대로 보내지 않을 것입니다."
+ BRG_call_upon_the_butcher_desc:0 "라인하르트 하이드리히는 SS국가지도자의 충직하고 유능한 하인으로, 기사단국 건국 이후 개인적으로 독일SS의 관리를 맡았을 정도로 매우 유능한 인물입니다. 그의 경력에 티끌 한점 없는 것은 아닙니다. 하이드리히는 SS 쿠데타 실패 당시 히틀러를 붙잡지 못했고, 일각에서는 이것이 의도된 행동이라고 추측하고 있습니다.\n\n하지만, 이 일이 한줄기 희망을 비췄으며 그는 총통의 신임을 받아 좋은 자리에 앉게 되었습니다. 히틀러의 귀와 독일SS 전체를 등에 업은 하이드리히는 가장 만만치 않은 총통 후보 중 하나가 되었습니다. 그리고 만약 그가 성공한다면, SS국가지도자의 계획은 훨씬 더 쉽게 성취될 것입니다..."
+ BRG_await_the_wanenkrieg_desc:0 "오딘과 아스 신족이 반 신족을 상대로 전쟁을 벌였을 때, 그 싸움은 한쪽이 파괴되는 것이 아니라, 오히려 상호 이익이 되는 결과를 낳았습니다. 신들은 오딘의 현명한 감독 아래 하나로 합쳐져 새로운 평화의 시대가 도래했습니다.\n\n이는 독일에서도 마찬가지일 것입니다. 총통의 임종은 가까워졌습니다. 곧 혼란이 독일을 지배할 것이며, 라인하르트 하이드리히의 독일-SS의 확고한 힘만이 질서를 회복할 수 있습니다. 그리고 그들이 조국에 평화와 단결을 가져다 주면 SS국가지도자가 그들을 안내할 것입니다."
+ BRG_die_enzig_hoffnung_desc:0 "SS국가지도자는 부패한 자들은 전멸하고 다른 인종이 숙청된 새로운 세계를 그려내고 있씁니다. 아리아인이 그가 보기에 맞는대로 자유롭게 정착할 수 있는 세계, 국가사회주의의 틀 안에서 새로운 사회를 건설하는 세계...\n\n그 세계는 세계적인 열핵전쟁의 불길 속에서 형성된 세계입니다."
+
+ #New Opener Tooltips
+ BRG_unter_der_schwarzen_sonne_tt:0 ""
+ BRG_a_wise_leader_tt:0 ""
+ BRG_a_loyal_army_tt:0 ""
+ BRG_a_pure_race_tt:0 ""
+ BRG_last_hope_for_germania_tt:0 ""
+ 
+ #Tooltips
+
+ BRG_we_can_enter_SAF:0 "§lWe can now send volunteers to Ostafrika!§!"
+ BRG_we_can_enter_GGR:0 "§lWe can now send volunteers for Goering's faction!§!"
+ BRG_we_can_enter_HGR:0 "§lWe can now aid Heydrich's SS!§!"
+ BRG_it_begins_tt:0 "\n§lIt begins.§!"
+ BRG_unlock_temp_nuke_boost:0 "Will unlock the ability to stimulate the §ynuclear program§! by providing additional §Yfunding.§!\n"
+ BRG_unlock_worker_reserve_decision_construction:0 "Will unlock a decision for §Yconstruction speed§! at the cost of §Mskilled workers.§!\n"
+ BRG_unlock_worker_reserve_decision_output:0 "Will unlock a decision for §Yfactory output§! at the cost of §Mskilled workers.§!\n"
+ BRG_unlock_drilling:0 "Unlocks regional decisions allowing us to §Gsignificantly boost§! §gsecurity personnel§! effectiveness.\n"
+ 
+ BRG_increase_himmler_loyalty_small:0 "This will marginally §Gincrease§! §lHimmler§! Support locally!\n"
+ BRG_increase_himmler_loyalty_medium:0 "This will substantially §Gincrease§! §lHimmler§! Support locally!\n"
+ BRG_increase_himmler_loyalty_large:0 "This will exponentially §Gincrease§! §lHimmler§! Support locally!\n"
+
+ BRG_decrease_himmler_loyalty_small:0 "This will marginally §Rdecrease§! §lHimmler§! Support locally...\n"
+ BRG_decrease_himmler_loyalty_medium:0 "This will substantially §Rdecrease§! §lHimmler§! Support locally...\n"
+ BRG_decrease_himmler_loyalty_large:0 "This will exponentially §Rdecrease§! §lHimmler§! Support locally...\n"
+
+ BRG_increase_langemarck_loyalty_small:0 "This will marginally §Rincrease§! §jLangermarck-SS§! Support locally!\n"
+ BRG_increase_langemarck_loyalty_medium:0 "This will substantially §Rincrease§! §jLangermarck-SS§! Support locally!\n"
+ BRG_increase_langemarck_loyalty_large:0 "This will exponentially §Rincrease§! §jLangermarck-SS§! Support locally!\n"
+
+ BRG_decrease_langemarck_loyalty_small:0 "This will marginally §Gdecrease§! §jLangermarck-SS§! Support locally...\n"
+ BRG_decrease_langemarck_loyalty_medium:0 "This will substantially §Gdecrease§! §jLangermarck-SS§! Support locally...\n"
+ BRG_decrease_langemarck_loyalty_large:0 "This will exponentially §Gdecrease§! §jLangermarck-SS§! Support locally...\n"
+
+ BRG_increase_walloon_loyalty_small:0 "This will marginally §Rincrease§! §wWallonian-SS§! Support locally!\n"
+ BRG_increase_walloon_loyalty_medium:0 "This will substantially §Rincrease§! §wWallonian-SS§! Support locally!\n"
+ BRG_increase_walloon_loyalty_large:0 "This will exponentially §Rincrease§! §wWallonian-SS§! Support locally!\n"
+
+ BRG_decrease_walloon_loyalty_small:0 "This will marginally §Gdecrease§! §wWallonian-SS§! Support locally...\n"
+ BRG_decrease_walloon_loyalty_medium:0 "This will substantially §Gdecrease§! §wWallonian-SS§! Support locally...\n"
+ BRG_decrease_walloon_loyalty_large:0 "This will exponentially §Gdecrease§! §wWallonian-SS§! Support locally...\n"
+
+ BRG_increase_charlemagne_loyalty_small:0 "This will marginally §Rincrease§! §iCharlemagne-SS§! Support locally!\n"
+ BRG_increase_charlemagne_loyalty_medium:0 "This will substantially §Rincrease§! §iCharlemagne-SS§! Support locally!\n"
+ BRG_increase_charlemagne_loyalty_large:0 "This will exponentially §Rincrease§! §iCharlemagne-SS§! Support locally!\n"
+
+ BRG_decrease_charlemagne_loyalty_small:0 "This will marginally §Gdecrease§! §iCharlemagne-SS§! Support locally...\n"
+ BRG_decrease_charlemagne_loyalty_medium:0 "This will substantially §Gdecrease§! §iCharlemagne-SS§! Support locally...\n"
+ BRG_decrease_charlemagne_loyalty_large:0 "This will exponentially §Gdecrease§! §iCharlemagne-SS§! Support locally...\n"
+ 
+ 
+ 
+ 
+ #Ideas
+
+ BRG_idea_changed_plans:0 "새로운 목표"
+ BRG_idea_changed_plans_desc:0 "노쇠한 총통 아돌프 히틀러 암살 시도는 실패했으며, 라이히는 유대볼셰비즘의 계략에 따라 계속해서 타락과 파멸로 빠져들고 있습니다. 이제, 우리는 기사단국을 재정비해야 합니다. 즉, 세계를 궁극적인 목표, 즉 SS국가지도자의 위대한 계획의 끝으로 몰고 가는 것입니다. 시간과 자원이 필요하겠지만, 우리는 의지에 따라 이뤄낼 것입니다."
+ 
+ #Decisions
+ BRG_drilling:0 "[FROM.GetName]에서 부대 훈련"
+ 
+ # Opening Tree Events
+
+ BRG_opening_category:0 "기사단국의 상태"
+ BRG_opening_category_desc:0 "아돌프 히틀러, 독일과 조국 전체를 끔찍한 유대-볼셰비즘의 구렁텅이에 빠뜨려 부패와 혐오를 초래한 자, 우리의 권력 장악 시도 이후 우리를 기사단국으로 귀향보내며 크게 모욕하고 질책한 자, 는 암살 미수에서 살아남음으로써 다시 한번 더 나은 세계를 향한 우리의 꿈을 거스르기 위해 나섰습니다. SS국가지도자께서는 히틀러가 깨어날 때마다 건강이 나빠지는 것을 보며 기사단국의 특권을 바꿀 때가 되었다는 것을 인정하셨습니다. 오늘은 우리의 초점을 이러한 소규모 비밀 작전에서 보다 대담하고 세계적인 움직임으로 옮겨가는 날이며, 이는 핵 미사일 비축량의 영향과 핵 미사일이 SS국가지도자의 계획을 전달하는 능력에 따라 나뉠 것입니다. 더 이상 이 세계는 지금 있는 혐오와 부패의 구덩이에서 온몸을 더럽힌 채 허우적대지 않을 것이며, 매일같이 이 부패의 씨앗이 이 지구에 더 많이 뿌려지는 동안 가만히 서있지도 않을 것입니다. 만약 원자의 구름 속에서 이 세상이 멸망하는 것을 지켜봐야 한다 해도 말입니다."
+ BRG_idea_project_gjallarhorn:0 "걀라르호른 계획"
+ BRG_idea_project_gjallarhorn_desc:0 "아리아인의 권력을 뒤엎으려는 비겁한 열등인종의 시도를 더 이상 외면할 수는 없습니다. 우리의 힘이 부족하지 않는다면 이 세상에 대한 지배권을 주장하려는 우리의 주장을 더 이상 가로막지 않을 것입니다. 아니, 신의 힘을 빌려 성공적인 핵실험을 할 수 있었으니, 우리 스스로 만든 무기의 힘으로 이 지구를 무너뜨릴 수 있습니다. 천둥신 토르가 라그나로크에서 묠니르의 힘으로 맹독을 가진 미드가르드오름, 요르문간드르를 격파했을 때와 마찬가지로, 라그나로크에서 신의 힘을 빌린 우리의 묠니르, 핵미사일로 이 지구를 무너트릴 것입니다!"
+ 
+ 
+ BRG_opening.1.t:0 "늙은 장군과의 이별"
+ BRG_opening.1.desc:0 "카를-하인리히 폰 슈튈프나겔 장군은 리무진 창밖으로 점점 멀어지며 작아지는 오스트-파리스를 바라보았습니다. 그는 처음에는 독일 군사 점령군의 수장으로서 20년을 도시에서 보냈고, 그 후 협력 정부를 위해 "자문위원"이라는 모호한 직책에 있었습니다. 어느 쪽에 있든, 그가 할 일은 그대로였습니다: 게르만 족의 군화로 프랑스의 목을 계속 누르는 것. 이것은 그가 훌륭하게 해낸 일이었지만 수십 년 동안 잠자리에서 그를 괴롭혔습니다. 그가 서명한 명령, 저항군의 고향을 상대로 한 보복 살인, 다시는 돌아오지 않을 사람들로 가득 찬 소떼차... 그의 조국을 위해 기꺼이 참고 싶었지만, 때때로 선을 넘은 일도 많았습니다.\n\n그러나 그가 자부심을 가지고 수행했던 직무에는 다른 측면들이 있었습니다. 정권이 재편되고 힘러가 상사로 임명되자 카를-하인리히는 SS의 고삐를 쥐기 위해 최선을 다했습니다. 그러나 그가 행정부에서 신뢰했던 모든 사람들은 갑자기 좌천되거나 의심스러운 혐의로 체포되거나 비극적인 사고를 당했습니다. 그의 권력은 약해졌고, 그는 힘러가 최근 행한 일을 게르마니아에 그대로 전하는 정보원에 지나지 않게 되었습니다. 이제, 그는 더 이상 그것조차 할 수 없었습니다. 사실, 그는 매일 그 심연을 응시한다는 짐을 더 이상 지고 있지 않아도 된다는 사실에 안도감을 느끼고 있어야 했습니다.\n\n그러나 아무도 보고 있지 않을 때 그들이 무엇을 할 것인가 하는 생각에 그가 느낀 것은 공포뿐이었습니다."
+ BRG_opening.1.a:0 "그립지는 않겠군."
+ 
+ BRG_opening.2.t:0 "구성과 맥락"
+ BRG_opening.2.desc:0 "나라의 중요한 문제에서는 외관만이 전부입니다. 식당에서의 좌석 배치만큼 사소한 일은 저명한 장군에 대한 호화로운 시상식만큼 정치적 영향을 끼칠 수 있습니다. 그리고 보잘것없는 액자에 관해서도 예외는 없습니다.\n\n20년 동안 총통의 공식 초상화는 어디서나 볼 수 있었습니다. 1930년대의 젊고 역동적인 선동가의 모습이든, 아니면 우아하게 늙어가는 1950년대 초 정복자의 모습이든 간에, 수백만 개의 푸른 눈이 독일의 교실, 사무실, 방에서 총통을 바라보았습니다. 그리고 기사단국의 국경 안에서는 예의를 지키고 총통에 복종하면서 자신을 우러러보게 하는 방법으로써 언제나 SS국가지도자의 더 작고, 더 고상한 흑백 초상화가 그 옆에 있었습니다.\n\n하지만 더 이상은 아닙니다. 주말 동안 기사단국의 모든 SS부서에서 새로운 초상화를 받았습니다. 그것은 휘황찬란한 예복을 입고 챙이 달린 모자와 외투를 착용한 SS국가지도자의 초상화였는데, 이는 총통 흉내를 내기 위한 것이 분명했습니다. 그 초상화는 총통의 것과 정확히 같은 크기였고, 더욱 충격적인 것은 히틀러의 초상화와 같은 높이에 걸으라는 명령이었습니다.\n\nSS 대원들은 이 명령에 응했고, 오스트-파리스에서 독일을 대표하는 몇 안 되는 고위 인사들은 조용히 이 움직임에 동조했습니다. 말 한마디면 게르마니아로 돌아갈 수 있을 것이고 총통은 이것이 힘러가 음모를 꾸민 증거라고 극찬할 것입니다. 하지만 어떻게 해야 할까요? 고작 초상화 때문에 내전을 치루어야 할까요?"
+ BRG_opening.2.a:0 "불길한 조짐이군."
+ 
+ BRG_opening.3.t:0 "수료"
+ BRG_opening.3.desc:0 "SS 후보생들이 주변에 횃불만이 있는 연병장으로 행진할 때 어둠 속에서 북소리가 울려 퍼졌습니다. 전기가 흐르는 듯한 긴장된 분위기였으며, 그들 모두가 이를 느낄 수 있었습니다. 이것은 그들이 기다리던 순간, 그들이 받던 훈련의 절정이었습니다. 더 이상 독일의 보살핌 아래에 있는 소년이 아닌 무장친위대원이 될 순간 말입니다.\n\n나팔 소리가 울려 퍼지고, 스와스티카, 승리의 룬, 검은 태양 등 아리아인의 온갖 상징을 담은 깃발들이 무대 위로 옮겨지면서 군악대가 'SS는 적지로 돌격한다'를 연주했습니다.\n\n연주가 끝나자 그들 모두가 기다리고 있던 순간이 시작되었습니다. 그들은 군기가 잡힌 모습으로 오른손을 들어 경례를 하고, 몇 주 동안 암기하며 보냈던 말을 읊었습니다.\n"나는 아리아 인종의 지도자와 구세주이신\n하인리히 힘러, SS국가지도자께\n영원히 순종할 것이며,\n언제나 혈통과 인종, 조국의 이름으로\n기꺼이 목숨을 바치리라."\n\n선서가 끝나자 군악대는 호르스트 베셀의 노래를 연주했습니다. 흐릿하고 어두운 불빛 속에서는 거의 보이지 않았지만, 연병장의 모든 병사들은 빙그레 웃고 있었습니다."
+ BRG_opening.3.a:0 "충성은 나의 영광이다!"
+
+ BRG_opening.4.t:0 "요람에서 무덤까지"
+ BRG_opening.4.desc:0 "힐다는 병원 침대에 누워 힘을 되찾기 위해 노력했습니다. 셋째 아이임에도 불구하고 출산의 고통은 더 이상 줄어들지 않았습니다. 그러나 최악은 지나갔으며, 곧 그녀는 작은 행복 보따리를 집으로 가져갈 수 있었습니다. 그녀와 남편은 아들의 이름을 라스와 지크프리트 중 무엇으로 할 것인지 의견이 갈렸습니다. 결국 힐다는 남편을 만나기를 기다렸다가 그 때 어떤 이름이 잘 어울리는지 선택하기로 결정했습니다.\n\n간호사가 클립보드를 들고 들어왔습니다. "프라우 힐다 뮐러? 이것 좀 작성해주시겠어요?" 간호사는 기계적으로 말하며 힐다의 무릎에 클립보드를 들이밀었습니다.\n\n힐다는 클립보드를 집어들고 위에 놓인 문서를 바라보았습니다. 사망 통지서?!\n\n"당신 아들은 몽고증의 가시적인 징후를 보였으며 1933년 단종법에 따라 안락사되었습니다. 양식에 쓰일 이름이 필요합니다."\n\n힐다는 감정에 휩쓸릴 뻔 하였으나 간신히 말할 수 있을 정도로 눈물을 참았습니다. "그-그렇죠, 이-이-인종을 위해..." 그녀는 펜을 집어들고는 사자 이름란에 "라스"를 휘갈겨 적었습니다. 지크프리트 다섯 글자를 모두 쓸 때까지 오랫동안 침착할 수 없을 거라 생각했기 때문입니다.\n\n간호사는 클립보드를 낚아채고 성큼성큼 방을 나가 문을 쾅 닫았습니다. 마침내 힐다는 홀로 슬픔에 빠져 방해받지 않고 흐느껴 울 수 있었습니다."
+ BRG_opening.4.a:0 "한 명의 죽음은 비극이지만, 백만의 죽음은 통계이다."
+
+ BRG_opening.5.t:0 "어둠 속 칼날"
+ BRG_opening.5.desc:0 "그가 오스트-파리스에 정착한 첫날부터, SS국가지도자는 게르마니아로 돌아갈 기나긴 나날을 그리며 시간을 보냈습니다. 그리고 그 여정이 시작될 때가 왔습니다.\n\n계획을 세우는 데 몇 달이 걸렸습니다. 당면한 임무는 두 가지였습니다; 보안국은 외국인을 게르마니아로 몰래 보내야 했을 뿐만 아니라, 그가 저항하지 않도록 해야 했습니다. 보안국은 스파이를 파견하는 데 경험이 있었지만, 대개 그런 스파이들은 고향에 있기를 원했습니다. 다행히 보안국 요원들은 그 불쌍한 멍청이의 가족을 붙잡아 두었고, 그들의 목소리를 녹음하여 그가 순순히 따르게 했습니다. 그는 위조 신분증, 난부 권총, 청산가리 알약만 가지고 독일로 보내졌습니다. 그는 영원히 돌아올 기약이 없었습니다. 다음날 신문에 "암살자가 체포되는 동안 살해되었다" 외의 기사가 실린다면 아내와 아이들은 느리고 고통스러운 최후를 겪을 것이 분명합니다. 임무는 독일에 있는 모든 남자, 여자, 어린이(그리고 모든 군인, 보초, 장교)의 눈이 텔레비전에 붙어 있을 달 착륙 중에 해내야 할 것입니다.\n\n달에 캡슐이 착륙할 날이 가까워지듯 독일 운명의 날도 가까워졌습니다. 부르군트-SS는 경계 태세에 들어갔고, 독일-SS는 묵묵히 동원을 준비하고 있으며, 두번째 학살이 계획되어 있습니다. 모든 것이 잘 이뤄지고 있으며, 이제 SS국가지도자가 할 수 있는 일은 다음 날이 밝아오기 만을 기다리는 것뿐입니다."
+ BRG_opening.5.a:0 "그는 잠자리에서 승리의 꿈을 꾸었다."
+ 
+ BRG_opening.6.t:0 "프랑스 침공"
+ BRG_opening.6.desc:0 "독일이 죽음의 문턱에서 내전을 벌이고 있는 가운데, 애처로운 프랑스를 보호하는 마지막 장벽이 무너졌습니다. 이미 프랑스군은 피할 수 없는 상황에 대비하기 위해 무기를 급하게 모으는 등 공황 상태에 빠져 있습니다.\n\n그들의 저항 시도는 우습습니다. 우리는 어떤 반항도 소용없다는 것을 보여줄 것입니다.\n\n제시된 계획은 간단합니다. 프랑스 비무장지대를 점령하고, 파리의 나머지를 점령하고, 프랑스가 우리 정권에 저항할 수 있다는 어떤 희망도 깨부숴야 합니다. 전쟁은 짧고 신속할 것이며, 우리가 빨리 중부 프랑스를 점령한다면 프랑스는 저항할 의지나 수단을 가지지 못할 것입니다."
+ BRG_opening.6.a:0 "때가 왔다. 침공하라."
+ 
+ BRG_opening.7.t:0 "실험"
+ BRG_opening.7.desc:0 "SS국가지도자는 크리스마스 아침에 잠에서 깨어난 아이처럼 신경질적인 흥분으로 가득 찬 채 묵묵히 헬리콥터에서 내렸습니다. 엘리베이터 앞에 섰을 때 두 손을 비틀었고, 지하 복도를 성큼성큼 걸어 내려갈 때 걸음걸이가 조금 빨라졌으며, 관찰실에 서 있을 때 신경질적으로 펜을 만지작거렸습니다. 오늘은 기사단국과 세계 전체에 중대한 날이었고, 방안에 있는 모든 사람들이 이를 알고 있었습니다. 실수할 여지가 없었습니다.\n\n카운트다운이 시작되었고, 방안에는 긴장된 분위기만 남았습니다. 과학자들은 스위치를 켰고, 창을 닫았으며, 고속 카메라를 켰습니다. 카운트다운이 가까워지자 SS국가지도자의 이마에 땀방울이 맺히기 시작했습니다. 십 년간의 야망이 마침내 실현되려고 하는 순간이었습니다.\n카운트다운이 마침내 막바지에 다다랐습니다.\n삼.\n이.\n일.\n\n잠시 동안 셔터 가장자리 사이로 섬광이 스며들면서 방을 환하게 밝혔습니다. 낮고 우르릉거리는 굉음이 들렸고, 매 초마다 점점 커졌으며, 컴퓨터는 덜컹거리고 천장에서 먼지가 떨어졌습니다. 이윽고 갑자기 소리가 멈췄습니다. 창은 천천히 열렸고, SS국가지도자는 창으로 달려들어 바깥을 바라보았습니다. 두 산 사이에 있는 실험장에 틀림없는 버섯구름의 모습이 보였습니다. SS국가지도자의 입술 끝이 당겨지기 시작했습니다. 그리고 몇 년 만에 처음으로..."
+ BRG_opening.7.a:0 "힘러는 웃었습니다."
+ 
+ BRG_opening.8.t:0 "실패"
+ BRG_opening.8.desc:0 "SS국가지도자는 흥분에 빠져 책상에 앉아 있었습니다. 그는 평소와는 달리 신경을 가라앉히는 데 도움을 주기 위해 슈납스를 한 잔을 마셨지만, 감히 한 잔을 더 마실 수는 없었습니다. 그는 한 순간도 놓치고 싶지 않았습니다.\n\n문이 활짝 열리며, 당황한 기색이 역력한 장교들이 손에 신문을 들고 불쑥 들어왔습니다. "국가지도자 각하..."\n\n그는 그들의 손에서 푈키셔 베오바흐터를 낚아채 일면을 보았습니다. 주름이 가득한 총통의 흑백 초상화와 폭스할레 사진이 실려있었는데, 사진에서는 국방군이 폭스할레의 출입을 통제하고 구급대원이 안으로 달려들고 있었습니다. 신문에는 검고 진한 글씨로 "총통 암살 시도"라 쓰여있었습니다. 뭐? 시도?\n\n"암살이 실패했습니다." 장교가 탄식해며 말했습니다. "히틀러는 살아있습니다!"\n\nSS국가지도자의 몸은 얼어붙었으며, 마치 시간이 멈춘 것 같았습니다. 아니, 아니, 아니, 아니, 아니, 아니! 이래선 안돼! 암살이 성공할 것이 확실했는데! 그는 곧 거칠고 불같은 분노로 폭발했습니다. 힘러는 서투른 암살자, 일본 민족, 끊임없이 위협적인 유대인, 노쇠한 총통, 빌어먹을 개인 경호원, 그리고 이름을 댈 수 있는 모든 신을 저주했습니다.\n\n장광설이 끝나자, 그는 다시 의자에 털썩 주저앉았습니다. 그는 기운이 모두 빠졌습니다. 몇 년 만에 처음으로 힘러는 완전한 허탈함과 절망을 느꼈습니다."
+ BRG_opening.8.a:0 "어떻게 해야 되지? 어떻게 해야 돼?"
+ 
+ BRG_opening.9.t:0 "궁극의 구원"
+ BRG_opening.9.desc:0 "수 년 동안, SS국가지도자는 핵무기 계획의 진행 상황을 면밀히 감시했습니다. 이 꿈을 실현하기 위해 엄청난 양의 자원과 인력이 밀반입되어 국내로 흘러들어왔습니다.\n\n그 비용은 엄청났습니다; 수천 명의 노예 노동자들이 소중한 우라늄을 정제하기 위해 밤낮을 가리지 않고 일했으며 시설을 짓다가 죽었습니다. 세계, 특히 독일로부터 이런 대규모 프로젝트를 비밀에 부치는 것은 무기 자체 개발만큼이나 어려운 일이었습니다. 비밀이 가장 중요했습니다. 만약 이것이 세상에 노출된다면, 그 결과는... 대재앙일 것입니다.\n\n우리의 노력이 마침내 결실을 맺어 가고 있습니다. 머지 않아, 세계는 기사단국이 더 이상 무방비 상태가 아니라는 사실에 전율할 것입니다. 그렇게 된다면 더 이상 독일은 우리의 머리 위에 핵무기를 떨어트릴 생각을 가지지 못할 것입니다! 우리는 SS국가지도자가 정한 길을 따라 길을 개척할 것입니다. 그의 계획은 어떤 대가를 치르더라도 실행될 것이며, 외세에 의한 국내에서의 방해는 없을 것입니다. "
+ BRG_opening.9.a:0 "곧 우리는 무적이 될 것이다."
+ 
+ 
  egy.15.t:0 "파루크 1세의 승하!"
  egy.15.desc:0 "카이로와 로마의 공동 성명에 의해 이집트의 파루크 1세의 승하가 보도되었습니다. 극도로 사치스러운 생활방식으로 악명 높은 그는 최근 몇 년 동안 관광, 여행, 향락에 빠져지냈습니다. 파티를 열어 이집트를 파산시킬 뻔했던 그는 이제 모든 종류의 사치품을 몸에 두르며 살았던 대로 죽었습니다.\n\n왕실 대표단, 정부 관리, 사치스러운 음식, 비싼 악단, 터무니없이 많은 수의 합성 마약으로 완성된 특별하게 큰 행사에서, 파루크는 마침내 지나치게 즐긴 것으로 보입니다. 저녁 식사 도중 그의 약한 심장은 멈췄고, 닭다리를 들고 앉은 채로 승하한 것으로 판명이 났습니다.\n\n이집트가 이제 왕의 승하로 곤경에 처할 것이라는 것은 의심의 여지가 없지만, 몇몇은 이제 파루크의 향락에 돈을 쓰지 않아도 되는 것에 기뻐하고 있습니다. 다른 사람들은 그가 아마도 독살당했을 것이라고 의심하지만, 현재는 그가 너무 많이 먹었다는 것이 주요 의견입니다."
  egy.15.a:0 "적어도 행복하게 떠났군."
@@ -2636,9 +2881,6 @@ BRG_education.24.b:0 "오직 우리만이 우월하다. 하원을 해산하고, 
  BRG_academic_espionage_tt:0 "글렌의 우주 탐구는 정치적 파장과 함께 상당히 후퇴할 것이며, 반면 우리의 핵 기술은 훨씬 더 진보할 것입니다."
  #Miscellaneous Tooltips
  BRG_tree_nuke_tt:0 "§Y이를 실행하면 현재 국가 중점 트리거가 모두 지워집니다.§!\n§R중점 트리 다시 불러오기 스크립트를 실행하면 새 트리거가 설정되지 않는 한 로드된 모든 중점 트리가 지워집니다 - 디버그 도구로만 사용하세요!§!"
-
- ## Leader Bios ##
- POLITICS_HEINRICH_HIMMLER_DESC:0 "하인리히 힘러는 1923년 뮌헨 폭동까지 참여했을 정도로 수십 년간 나치당의 충실한 당원이었습니다. 정부 전복 시도 이래로 몇 달간 지속된 독일의 실패에 힘러는 격분했으며 환멸했고 그 어느 때보다 지신만의 신념에 몰두하게 되었습니다.\n\n전후의 희열이 가시고 거창한 계획들이 독일 경제에 압박을 주기 시작하자 힘러의 신념은 흔들렸습니다. 경제가 붕괴하고 게르마니아의 정부가 그것을 해결할 길이 요원해 보이자 그의 신념은 불안정해졌습니다. 소련 잔존 세력들이 모스크바 수복 목전까지 왔을 때, 그의 신념은 산산조각 났습니다. 이는 유대인의 음모 혹은 연합군의 방해공작에 의한 것이 아니었습니다. 이번에는 아무도 독일의 등을 찌르지 않았으니까요... 나치 그 자신을 제외하고는 말입니다.\n\n힘러는 나치당이 끝내 타락했으며 안에서부터 독일을 갉아먹고 있다고 확신하게 되었습니다. 독일을 그 자체로부터 구원하는것은 힘러의 의무 - 아니, 그의 소명이었습니다. 파리에서부터 게르마니아까지 그리고 급속하게 무너지고 있는 동부의 A-A 전선까지, 무장SS 부대는 히틀러를 실각시키고 독일의 방향을 바로잡을 준비가 되었습니다. 그러나, 음모에 대한 첩보를 사전에 입수한 슈파이델이 맞불 작전을 시행하면서 음모는 초장에 실패하였습니다.\n\n힘러의 계획이 누설되었다는 소식과 함께 십여 개의 사단이 생포되었으며 SS의 파멸은 기정사실화 되었습니다. 히틀러가 드물게 정신이 맑아지는 순간에, 힘러를 죽이는 것은 곧 내전을 의미함을 깨닫고 그에게 게르마니아에서 멀리 떨어진 영토(부르군트 SS 기사단국)를 내주어 독일 정치에 접근하지 못하도록 하였습니다. 힘러는 이를 마지못해 수용했고 독일 내 SS의 지휘권을 그의 충실한 부관, 라인하르트 하이드리히에게 맡긴 뒤 오스트 파리로 떠났습니다. 그러나 힘러는 자신의 신념을 더욱 확고히 했을 뿐만 아니라, 자신에게 행해진 불의를 잊지 않고 있습니다..."
 
  ## Focus Tree ##
  #Dummy focuses for start screen
