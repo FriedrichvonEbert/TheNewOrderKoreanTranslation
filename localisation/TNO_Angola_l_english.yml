@@ -6,6 +6,11 @@
 
  ANG_CIVIL_WAR_despotism:0 "앙골라 완전독립 민족동맹"
  ANG_CIVIL_WAR_despotism_DEF:0 "앙골라 완전독립 민족동맹"
+ UNITA_postCW:0 "앙골라 국민공화국"
+ UNITA_postCW_DEF:0 "앙골라 국민공화국"
+ UNITA_postCW_ADJ:0 "앙골라"
+ ANG_CIVIL_WAR_UNITA:0 "UNITA"
+ ANG_CIVIL_WAR_UNITA_long:0 "União Nacional para a Independência Total de Angola"
 
  ANG_SKL_Mission_Activated:0 "We are not currently using the SKL for research"
  ANG_SKL_Industrial_Mission_Activated:0 "We are not currently using SKL for production"
@@ -13,17 +18,26 @@
  ANG_Hellmut_von_Leipzig_mil:0 "헬무트 폰 라이프치히"
  ANG_Gerhard_Homuth_for:0 "게르하르트 호무트"
  ANG_Otto_Herrigel_eco:0 "오토 헤리겔"
+ 
+ ANG_Wolfgang_Schenck_dep_desc:0 "------------\n§LOnce one of the Reich's most decorated fighting aces, Wolfgang Schenck's administration over Südwestafrika is wrought by the air. He is renowned in the fatherland for flying hundreds of combat missions and in the Luftwaffe he is distinguished for expertise in the development of bombers. Domestically, however, he presides over the poorest Reichskommissariat in Africa, lacking an industrial base and relying on imports and gas fees for its runways. The burgeoning air force of the nation is his sole focus, as evident to anyone who ever looked over the Angolan horizon. His planes rule the sub-saharan skies.\n\nOver the years, Schenck has ensured that Südwestafrika is the air hub of German Africa. In other internal matters, he is known for his leniency and the close camaraderie he shares with fellow Reichskommissar Siegfried Müller, who he often attends Safaris with in his personal helicopters or joining in the hunt. Perhaps it is the refuge of the tropospheric clouds, away from affairs pertaining to natives or the SS, that attracts him to the skies. It is where solace lies.§!"
+ 
+ ANG_Hellmut_von_Leipzig_mil_desc:0 "------------\n§LHellmut von Leipzig, a German born in Africa, was one of the leading candidates for Reichskommissar of Südwestafrika after the war, in recognition of his loyal service within the Afrika-Korps. Despite the eventual choice of Schenck to lead the Reichskommissariat, von Leipzig has remained both highly popular and highly influential in the parts of Africa once ruled by the Second Reich under Imperial Africa.\n\nWhile disagreeing with Schenck on certain methodology and goals, the native-born von Leipzig also believes that the natives and Germans should strive to build stable, mixed communities within Africa. As such, he has happily worked with the Reichskommissar in his efforts to empower the natives and bring them into the fold, though he may balk once he realizes the full extent of Schenck's plans.§!"
+ 
+ ANG_Gerhard_Homuth_for_desc:0 "------------\n§LGehard Homuth, like many in the African Reichskommissariats, achieved his position by pure virtue of serving alongside the unlikely sap chosen to be Reichskommissar. A former pilot in the Luftwaffe and a good friend of Schenck's, Homuth was chosen to assist Südwestafrika in their bombardment efforts. He has little experience leading men, but this is something that Schenck has seemed more than happy to overlook.\n\nEver since a near-fatal encounter on the Eastern Front, Homuth has avoided participating in the bombardments himself, instead helping to train and supply braver, more stupid pilots. Like Schenck, Homuth spends much of his time in the skies above Windhoek. Unlike Schenck, however, he does not take the time to engage himself in politics and scheming, even whilst grounded.§!"
+ 
+ ANG_Otto_Herrigel_eco_desc:0 "------------\n§LOtto Herrigel is a young up-and-comer in politics of the region, strangely appointed as economic minister of Südwestafrika upon his own request. After completion of Herrigel's degree in economics in Germany, he wrote Schenck a letter asking to assist with the economics of his home Reichskommissariat. Surprisingly, Schenck responded by offering him the position of head economic advisor, despite his lack of practical experience in the field.\n\nDespite his position, Herrigel is rather far from being in control of Südwestafrika's economy. Schenck and von Leipzig treat his advice as something of light suggestions, and oftentimes Herrigel will be unable to make sense of the books he is given by his superiors and subordinates alike. Despite multiple entreaties to Schenck to change the total disorder the economy is in, Schenck often merely shrugs and asks Herrigel to switch the numbers around, something the young man dutifully does.§!"
 
  ANG_Jeremias_Chitunda_dep:0 "제레미아스 치툰다"
  ANG_Demosthenes_Amos_Chilingutila_mil:0 "Demosthenes Amos Chilingutila"
  ANG_Jorge_Sangumba_for:0 "Jorge Sangumba"
  ANG_Jose_Eduardo_dos_Santos_eco:0 "José Eduardo dos Santos"
 
- ANG_despotism_party:0 "남서아프리카 업무총국"
+ ANG_authoritarian_democracy_party:0 "African Militias"
+ ANG_authoritarian_democracy_party_long:0 "African Militias"
+ ANG_despotism_party:0 "GfSA"
  ANG_despotism_party_long:0 "남서아프리카 업무총국"
- ANG_fascism_party:0 "남서아프리카 업무총국"
+ ANG_fascism_party:0 "GfSA"
  ANG_fascism_party_long:0 "남서아프리카 업무총국"
- ANG_national_socialism_party_long:0 "남서아프리카 업무총국"
  ANG_national_socialism_party:0 "남서아프리카 업무총국"
  ANG_national_socialism_party_long:0 "남서아프리카 업무총국"
 
@@ -35,37 +49,44 @@
  ANG_German_Displeasure_Down_Medium:0 "§G독일이 좋아할 것입니다.\n§!"
  ANG_German_Displeasure_Down_Large:0 "§G독일이 매우 좋아할 것입니다.\n§!"
 
-ANG_germanys_southern_airport_tt:0 "New £decision_icon_small §HDecisions§! to exploit our airfields will be unlocked.\n"
+ ANG_germanys_southern_airport_tt:0 "New £decision_icon_small §HDecisions§! to exploit our airfields will be unlocked.\n"
 
-ANG_rapid_runways_tt:0 "New £decision_icon_small §HDecisions§! to get more cargo off our runways will be unlocked.\n"
+ ANG_rapid_runways_tt:0 "New £decision_icon_small §HDecisions§! to get more cargo off our runways will be unlocked.\n"
 
-ANG_German_support:0 "The Air Empire"
-ANG_Fighter_Plans:0 "A New League of Fighters"
+ ANG_German_support:0 "The Air Empire"
+ ANG_Fighter_Plans:0 "A New League of Fighters"
+
 
 ##################################################
 ######################### Decisions
 ##################################################
 
  ANG_Cashmoney:0 "아프리카의 비행장"
- ANG_Cashmoney_desc:0 "솅크 국가판무관이 개발에 관심이 없는 것과 같은 이유로 남서아프리카 경제는 세 아프리카 국가판무관부 중 제일 뒤떨어졌습니다. 하지만 남서아프리카가 수입이 없다는 뜻은 아닙니다.\n\n위치와 정부 덕분에 남서아프리카는 아프리카 전역으로 출동하는 루프트바페 항공기의 주요 거점이 되었습니다. 이 기체들은 아프리카계 민간인들을 폭탄을 실험하거나 남아프리카 영공을 초계합니다. 우리는 아프리카너 루프트바페를 가지고 있기에 다른 국가판무관부들보다 더 간단한 경로로 자금을 확보할 수도 있습니다. 물론 이 경로에서 돈을 긁어내 앙골라를 위해 쓸수도 있습니다.\n\n하지만 모든 것에는 대가가 따릅니다. 굶주리고 있는 제국은 죽어가는 경제를 살리기 위해 식민지를 점점 더 휘어잡으려 할 것입니다. 우리 "창의적인 회계 기술"을 쓸 때는 큰 주의를 기울여야 합니다. 서류에 모순점이 많아질수록 독일이 조사에 나설 확률도 높아집니다. 현행법으로 잡힌다면 무슨 일이 일어날지는 알고 있겠죠...\n\n현재 우리가 가지고 있는 투자 준비금은 §Y[?ANG_Liquid_Cash]M 달러§!입니다.\n\n현재 우리는 정기적으로 독일에 §Y[?ANG_German_Collection]M 달러§!를 보내야 합니다.\n\n지금은, 독일이 우리에게 [GetANGGermanDispleasure] 실망한 상태입니다."
+ ANG_Cashmoney_desc:0 "\n\n\n\n\n\nThanks to its location and administration, the §nReichskommissariat§! has become an important staging ground for §MLuftwaffe airplanes§! sent on missions across the entire continent, whether for testing bombs on African civilians or sending patrols over South Africa. As the §oAfrikaner Luftwaffe§!'s masters, we can obtain funds through simpler channels than those granted to other RKs. Of course, we can also skim money from such channels to develop §wAngola§! instead.\n\n§YAll of this means that, unlike our fellow Reichskommissariats, we can spend money from our investment funds rather than taking them directly from our state coffers, completely freeing us from any form of debt.§!\n\nThis comes at a §xprice,§! however. §oThe Reich§! is starving, and soon their grip will §xtighten and squeeze us§! dry to fuel their dying economy. Thus, our §Y"creative accounting techniques"§! must be used with great caution; the more inconsistencies found within our balance sheets, the likelier §oGermania§! will investigate. And we all know what happens when we get caught red-handed...\n\nCurrently, we have §Y[?ANG_Liquid_Cash] million USD§! in investment funds.\n\nCurrently, we will have to send§Y [?ANG_German_Collection] million USD§! to Germany each collection period.\n\nAs of now, Germany is [GetANGGermanDispleasure] displeased ([?ANG_German_Displeasure|0Y]/§R100§!) with us."
+
+ ANG_cash_paid_for_investors_tt:0 "§YThe expenses of this endeavor will be payed for from our investment funds.§!\n\n"
 
  ANG_Cash_Monthly:0 "자금 납부"
  ANG_Pre_SAW_Fucking_Germany:0 "우리는 현재 작전 수행 중입니다."
+ 
+ ANG_guns_from_germany:0 "Incoming Gun Shipment from Germany"
+ ANG_buy_guns_from_germany:0 "Buy Guns from Germany"
 
- ANG_Prioritized_Runways:0 "밀러의 화물 대부분은 중앙아프리카 기업이 생산한 잘 팔리는 상품입니다. 이 화물에 우선권을 주면 뮐러가 우리 몫도 나눠줄 것입니다. 이는 우리 경제 계획에 큰 도움이 될 것입니다.\n물론 이는 보급품과 폭탄을 수송하라는 조국의 요청을 무시하는 것입니다. 어떤 형태로든 반발이 있을 것입니다."
- ANG_Redirect_Traffic_tt:0 "우리 정부에게 "우선권 비용"을 줄 수 있는 최고급 항공편이나 개인 비행기에 착륙 우선권을 준다면 많은 양의 수익을 벌 수 있을 것입니다.\n더러운 돈 아니냐고요? 아마도요. 라이히가 화내지 않겠냐고요? 화낼 겁니다. 많은 돈을 벌 수 있냐고요? 겁나 당연하죠!"
- ANG_Increase_Transportation_Capability_Tooltip:0 "게르마니아는 우리 활주로가 보급과 군사 작전을 언제라도 수행할 수 있기를 바랍니다. 하지만 뮐러가 우리가 그의 자원을 수송해준다면 짭짤한 돈을 주겠다고 제안해왔습니다. 분명 합의할 수 있습니다..."
- ANG_Skimming_A_Little_Fuel_tt:0 "보급 물자에서 석유를 조금 빼돌려 민간 시장에 팔면 괜찮은 수익을 볼 수 있습니다. 물론 언젠가 게르마니아가 장부에서 모순점을 찾아낼 것입니다. 하지만 그 때에는 증거를 숨길만한 자금이 있을 것입니다... 적어도 그러기를 바랍니다."
- ANG_Skimming_A_Lot_Of_Fuel_tt:0 "늘어난 자금 수요를 충당하기 위해 더 많은 연료를 빼돌려 팔 수 있습니다. 최악의 경우 게르마니아가 조사를 벌일지도 모르는 일입니다. 하지만 우리는 자금이 필요합니다. 우리가 할 수 있는 선택은 별로 없을지도 모릅니다."
- ANG_Selling_Gold_Diamonds:0 "다른 국가판무관부들 보다는 보잘것없지만 남서아프리카에는 금과 다이아몬드가 있습니다. 이것들을 적당한 가격에 팔아치우면 꽤 많은 수익을 볼 수 있습니다."
- ANG_Sending_Off_Fuel:0 "합법적인 방법과 덜 합법적인 방법 모두를 통해 연료 공급량이 늘었습니다. 국제 시장에 이 연료를 공개적으로 팔 수 있습니다. 이러면 국내 업자들에게 파는 것 보다 더 큰 수익을 볼 수 있습니다!"
- ANG_Sending_Off_Fuel_Fuck_ton:0 "우리의 석유 산업과 연료 산업이 점점 더 성장하고 있습니다. 최대한 많이 생산하면 전 세계에 수출할 수 있습니다. 남서아프리카 경제를 부흥시킵시다!"
- ANG_buy_steel_tt:0 "남서아프리카의 생산시설은 산업용 원자재 부족을 겪고 있습니다. 무기 공장의 수요를 맞추기 위해 고향 투자자들이 강철을 공급해주도록 설득할 수 있습니다."
- ANG_buy_alimunium_tt:0 "남서아프리카의 생산시설은 산업용 원자재 부족을 겪고 있습니다. 항공기 공장의 수요를 맞추기 위해 고향 투자자들이 알루미늄을 공급해주도록 설득할 수 있습니다."
- ANG_buy_rubber_tt:0 "남서아프리카의 생산시설은 산업용 원자재 부족을 겪고 있습니다. 산업 수요를 맞추기 위해 고향 투자자들이 고무를 공급해주도록 설득할 수 있습니다."
- ANG_Market_Build_Roads_tt:0 "항공 수송을 빼면, 우리의 기반시설은 다른 국가판무관부들처럼 매우 열악합니다. 조국에 있는 투자자들을 설득해 남서아프리카 전역에 새 도로와 철로를 짓는데 필요한 자금을 확보할 수 있습니다."
- ANG_Market_Build_factories:0 "라이히의 병든 경제가 아직 손대지 않은 시장과 인력 공급처를 찾고 있습니다. 대부분의 현대 기업들은 지금까지 남서아프리카를 신경쓰지 않았습니다. 저들에게 우리 존재를 알린다면 자회사 설립을 설득할 수도 있습니다. 물론 이는 라이히의 영광을 위해섭니다!"
- ANG_Market_Build_bombs:0 "우리 군수 산업으로 주둔군과 아프리카너 루프트바페 모두의 수요를 맞출 수는 없습니다. 본토와의 보급선이 끊겼을 때 우리 군대를 완벽하게 보급하려면 우리 도시에 새 공장을 열어달라고 라이히를 설득해야 합니다."
+ ANG_Prioritized_Runways:0 "밀러의 화물 대부분은 중앙아프리카 기업이 생산한 잘 팔리는 상품입니다. 이 화물에 우선권을 주면 뮐러가 우리 몫도 나눠줄 것입니다. 이는 우리 경제 계획에 큰 도움이 될 것입니다.\n물론 이는 보급품과 폭탄을 수송하라는 조국의 요청을 무시하는 것입니다. 어떤 형태로든 반발이 있을 것입니다.\n\n"
+ ANG_Redirect_Traffic_tt:0 "우리 정부에게 "우선권 비용"을 줄 수 있는 최고급 항공편이나 개인 비행기에 착륙 우선권을 준다면 많은 양의 수익을 벌 수 있을 것입니다.\n더러운 돈 아니냐고요? 아마도요. 라이히가 화내지 않겠냐고요? 화낼 겁니다. 많은 돈을 벌 수 있냐고요? 겁나 당연하죠!\n\n"
+ ANG_Increase_Transportation_Capability_Tooltip:0 "게르마니아는 우리 활주로가 보급과 군사 작전을 언제라도 수행할 수 있기를 바랍니다. 하지만 뮐러가 우리가 그의 자원을 수송해준다면 짭짤한 돈을 주겠다고 제안해왔습니다. 분명 합의할 수 있습니다...\n\n"
+ ANG_Optimized_Runway_Schemes_Tooltip:0 "By compacting flight schedules together, we can achieve further efficiency and reduce our costs. And perhaps simultaneously, we can prioritize better schedules to those that may be... willing to pay the right price."
+ ANG_Skimming_A_Little_Fuel_tt:0 "보급 물자에서 석유를 조금 빼돌려 민간 시장에 팔면 괜찮은 수익을 볼 수 있습니다. 물론 언젠가 게르마니아가 장부에서 모순점을 찾아낼 것입니다. 하지만 그 때에는 증거를 숨길만한 자금이 있을 것입니다... 적어도 그러기를 바랍니다.\n\n"
+ ANG_Skimming_A_Lot_Of_Fuel_tt:0 "늘어난 자금 수요를 충당하기 위해 더 많은 연료를 빼돌려 팔 수 있습니다. 최악의 경우 게르마니아가 조사를 벌일지도 모르는 일입니다. 하지만 우리는 자금이 필요합니다. 우리가 할 수 있는 선택은 별로 없을지도 모릅니다.\n\n"
+ ANG_Selling_Gold_Diamonds:0 "다른 국가판무관부들 보다는 보잘것없지만 남서아프리카에는 금과 다이아몬드가 있습니다. 이것들을 적당한 가격에 팔아치우면 꽤 많은 수익을 볼 수 있습니다.\n\n"
+ ANG_Sending_Off_Fuel:0 "합법적인 방법과 덜 합법적인 방법 모두를 통해 연료 공급량이 늘었습니다. 국제 시장에 이 연료를 공개적으로 팔 수 있습니다. 이러면 국내 업자들에게 파는 것 보다 더 큰 수익을 볼 수 있습니다!\n\n"
+ ANG_Sending_Off_Fuel_Fuck_ton:0 "우리의 석유 산업과 연료 산업이 점점 더 성장하고 있습니다. 최대한 많이 생산하면 전 세계에 수출할 수 있습니다. 남서아프리카 경제를 부흥시킵시다!\n\n"
+ ANG_buy_steel_tt:0 "남서아프리카의 생산시설은 산업용 원자재 부족을 겪고 있습니다. 무기 공장의 수요를 맞추기 위해 고향 투자자들이 강철을 공급해주도록 설득할 수 있습니다.\n\n"
+ ANG_buy_alimunium_tt:0 "남서아프리카의 생산시설은 산업용 원자재 부족을 겪고 있습니다. 항공기 공장의 수요를 맞추기 위해 고향 투자자들이 알루미늄을 공급해주도록 설득할 수 있습니다.\n\n"
+ ANG_buy_rubber_tt:0 "남서아프리카의 생산시설은 산업용 원자재 부족을 겪고 있습니다. 산업 수요를 맞추기 위해 고향 투자자들이 고무를 공급해주도록 설득할 수 있습니다.\n\n"
+ ANG_Market_Build_Roads_tt:0 "항공 수송을 빼면, 우리의 기반시설은 다른 국가판무관부들처럼 매우 열악합니다. 조국에 있는 투자자들을 설득해 남서아프리카 전역에 새 도로와 철로를 짓는데 필요한 자금을 확보할 수 있습니다.\n\n"
+ ANG_Market_Build_factories:0 "라이히의 병든 경제가 아직 손대지 않은 시장과 인력 공급처를 찾고 있습니다. 대부분의 현대 기업들은 지금까지 남서아프리카를 신경쓰지 않았습니다. 저들에게 우리 존재를 알린다면 자회사 설립을 설득할 수도 있습니다. 물론 이는 라이히의 영광을 위해섭니다!\n\n"
+ ANG_Market_Build_bombs:0 "우리 군수 산업으로 주둔군과 아프리카너 루프트바페 모두의 수요를 맞출 수는 없습니다. 본토와의 보급선이 끊겼을 때 우리 군대를 완벽하게 보급하려면 우리 도시에 새 공장을 열어달라고 라이히를 설득해야 합니다.\n\n"
 
  ANG_buy_steel_from_germany:0 "독일로부터 강철 수입"
  ANG_buy_aluminium_from_germany:0 "독일로부터 알루미늄 수입"
@@ -86,30 +107,30 @@ ANG_Fighter_Plans:0 "A New League of Fighters"
  ANG_request_military_expansion:0 "산업 지원 요청"
  ANG_request_infrastructure_buildup:0 "기반시설 확장"
 
- ANG_Liquid_Cash_Gain_1:0 "투자 준비금 §Y1M 달러§!를 얻습니다.\n\n"
- ANG_Liquid_Cash_Gain_2:0 "투자 준비금 §Y2M 달러§!를 얻습니다.\n\n"
- ANG_Liquid_Cash_Gain_3:0 "투자 준비금 §Y3M 달러§!를 얻습니다.\n\n"
- ANG_Liquid_Cash_Gain_4:0 "투자 준비금 §Y4M 달러§!를 얻습니다.\n\n"
- ANG_Liquid_Cash_Gain_5:0 "투자 준비금 §Y5M 달러§!를 얻습니다.\n\n"
- ANG_Liquid_Cash_Gain_6:0 "투자 준비금 §Y6M 달러§!를 얻습니다.\n\n"
- ANG_Liquid_Cash_Gain_7:0 "투자 준비금 §Y7M 달러§!를 얻습니다.\n\n"
- ANG_Liquid_Cash_Gain_10:0 "투자 준비금 §Y10M 달러§!를 얻습니다.\n\n"
+ ANG_Liquid_Cash_Gain_1:0 "§Y투자 준비금§! §Y1M 달러§!를 얻습니다.\n\n"
+ ANG_Liquid_Cash_Gain_2:0 "§Y투자 준비금§! §Y2M 달러§!를 얻습니다.\n\n"
+ ANG_Liquid_Cash_Gain_3:0 "§Y투자 준비금§! §Y3M 달러§!를 얻습니다.\n\n"
+ ANG_Liquid_Cash_Gain_4:0 "§Y투자 준비금§! §Y4M 달러§!를 얻습니다.\n\n"
+ ANG_Liquid_Cash_Gain_5:0 "§Y투자 준비금§! §Y5M 달러§!를 얻습니다.\n\n"
+ ANG_Liquid_Cash_Gain_6:0 "§Y투자 준비금§! §Y6M 달러§!를 얻습니다.\n\n"
+ ANG_Liquid_Cash_Gain_7:0 "§Y투자 준비금§! §Y7M 달러§!를 얻습니다.\n\n"
+ ANG_Liquid_Cash_Gain_10:0 "§Y투자 준비금§! §Y10M 달러§!를 얻습니다.\n\n"
 
- ANG_Market_requirement_1:0 "투자 준비금으로 §Y1M 달러§!가 있습니다.\n\n"
- ANG_Market_requirement_2:0 "투자 준비금으로 §Y2M 달러§!가 있습니다.\n\n"
- ANG_Market_requirement_3:0 "투자 준비금으로 §Y3M 달러§!가 있습니다.\n\n"
- ANG_Market_requirement_4:0 "투자 준비금으로 §Y4M 달러§!가 있습니다.\n\n"
- ANG_Market_requirement_5:0 "투자 준비금으로 §Y5M 달러§!가 있습니다.\n\n"
- ANG_Market_requirement_5:0 "투자 준비금으로 §Y6M 달러§!가 있습니다.\n\n"
- ANG_Market_requirement_10:0 "투자 준비금으로 §Y10M 달러§!가 있습니다.\n\n"
+ ANG_Market_requirement_1:0 "§Y투자 준비금§!으로 §Y1M 달러§!가 있습니다.\n\n"
+ ANG_Market_requirement_2:0 "§Y투자 준비금§!으로 §Y2M 달러§!가 있습니다.\n\n"
+ ANG_Market_requirement_3:0 "§Y투자 준비금§!으로 §Y3M 달러§!가 있습니다.\n\n"
+ ANG_Market_requirement_4:0 "§Y투자 준비금§!으로 §Y4M 달러§!가 있습니다.\n\n"
+ ANG_Market_requirement_5:0 "§Y투자 준비금§!으로 §Y5M 달러§!가 있습니다.\n\n"
+ ANG_Market_requirement_5:0 "§Y투자 준비금§!으로 §Y6M 달러§!가 있습니다.\n\n"
+ ANG_Market_requirement_10:0 "§Y투자 준비금§!으로 §Y10M 달러§!가 있습니다.\n\n"
 
- ANG_Market_Cost_1:0 "§Y1M 달러§!가 사용됩니다.\n"
- ANG_Market_Cost_2:0 "§Y2M 달러§!가 사용됩니다.\n"
- ANG_Market_Cost_3:0 "§Y3M 달러§!가 사용됩니다.\n"
- ANG_Market_Cost_4:0 "§Y4M 달러§!가 사용됩니다.\n"
- ANG_Market_Cost_5:0 "§Y5M 달러§!가 사용됩니다.\n"
- ANG_Market_Cost_6:0 "§Y6M 달러§!가 사용됩니다.\n"
- ANG_Market_Cost_10:0 "§Y10M 달러§!가 사용됩니다.\n"
+ ANG_Market_Cost_1:0 "§Y투자 준비금§!에서 §Y1M 달러§!가 사용됩니다.\n"
+ ANG_Market_Cost_2:0 "§Y투자 준비금§!에서 §Y2M 달러§!가 사용됩니다.\n"
+ ANG_Market_Cost_3:0 "§Y투자 준비금§!에서 §Y3M 달러§!가 사용됩니다.\n"
+ ANG_Market_Cost_4:0 "§Y투자 준비금§!에서 §Y4M 달러§!가 사용됩니다.\n"
+ ANG_Market_Cost_5:0 "§Y투자 준비금§!에서 §Y5M 달러§!가 사용됩니다.\n"
+ ANG_Market_Cost_6:0 "§Y투자 준비금§!에서 §Y6M 달러§!가 사용됩니다.\n"
+ ANG_Market_Cost_10:0 "§Y투자 준비금§!에서 §Y10M 달러§!가 사용됩니다.\n"
 
  ANG_Sell_Surplus_Fuel_Lots:0 "연료 대량 판매"
  ANG_Sell_Surplus_Fuel_small:0 "연료 소량 판매"
@@ -117,9 +138,9 @@ ANG_Fighter_Plans:0 "A New League of Fighters"
  ANG_Sell_fighters:0 "노후 전투기 판매"
  ANG_Sell_interceptors:0 "노후 요격기 판매"
  ANG_Sell_bombers:0 "노후 폭격기 판매"
- ANG_sell_planes:0 "아프리카의 국가판무관 동료들이 우리 구식 기체 일부를 사고싶다고 합니다. 거래에 시간이 좀 걸리지만 §Y30대§!를 팔아 §G3M 달러§!를 벌 수 있다고 예상됩니다. 원래 가치보다는 낮지만, 거래 특성상 어쩔 수 없죠."
- ANG_sell_planes_interceptors:0 "아프리카의 국가판무관 동료들이 우리 구식 기체 일부를 사고싶다고 합니다. 거래에 시간이 좀 걸리지만 §Y40대§!를 팔아 §G4M 달러§!를 벌 수 있다고 예상됩니다. 원래 가치보다는 낮지만, 거래 특성상 어쩔 수 없죠."
- ANG_sell_planes_bombers:0 "아프리카의 국가판무관 동료들이 우리 구식 기체 일부를 사고싶다고 합니다. 거래에 시간이 좀 걸리지만 §Y50대§!를 팔아 §G5M 달러§!를 벌 수 있다고 예상됩니다. 원래 가치보다는 낮지만, 거래 특성상 어쩔 수 없죠."
+ ANG_sell_planes:0 "아프리카의 국가판무관 동료들이 우리 구식 기체 일부를 사고싶다고 합니다. 거래에 시간이 좀 걸리지만 §Y30대§!를 팔아 §G3M 달러§!를 벌 수 있다고 예상됩니다. 원래 가치보다는 낮지만, 거래 특성상 어쩔 수 없죠.\n\n"
+ ANG_sell_planes_interceptors:0 "아프리카의 국가판무관 동료들이 우리 구식 기체 일부를 사고싶다고 합니다. 거래에 시간이 좀 걸리지만 §Y40대§!를 팔아 §G4M 달러§!를 벌 수 있다고 예상됩니다. 원래 가치보다는 낮지만, 거래 특성상 어쩔 수 없죠.\n\n"
+ ANG_sell_planes_bombers:0 "아프리카의 국가판무관 동료들이 우리 구식 폭격기 기체 일부를 사고싶다고 합니다. 거래에 시간이 좀 걸리지만 §Y50대§!를 팔아 §G5M 달러§!를 벌 수 있다고 예상됩니다. 원래 가치보다는 낮지만, 거래 특성상 어쩔 수 없죠.\n\n"
 
  ANG_sell_stockpiles_decision:0 "£decision_icon_small §HDecisions§! to sell our old stockpiles to Zentralafrika and Ostafrika will be unlocked.\n\n"
  ANG_sell_oil_stockpiles_decision:0 "\n£decision_icon_small §HDecisions§! to sell our oil surplus will be unlocked.\n\n"
@@ -127,7 +148,7 @@ ANG_Fighter_Plans:0 "A New League of Fighters"
 ####### The Research Academy
 
  ANG_SKL_RD_Decisions:0 "The SKL"
- ANG_SKL_RD_Decisions_desc:0 "Schenck is a man with passion for little else besides airplanes: the gorgeous metal birds that carry him hundreds of feet beyond his earthly concerns. The dedicated aeronautics research facility Südwestafrikanisches Kolonialamt für Luftfahrtforschung, or SKL, is simply another facet for this passion. Within its aerodynamics labs and enormous hangars, Schenck can spend his days dreaming not in the sky but of it - of his sky, beckoning like an aluminum dream - designing new airplanes that can take him faster and higher than ever before."
+ ANG_SKL_RD_Decisions_desc:0 "§rSchenck§! is a man with passion for little else besides §Yairplanes:§! the gorgeous metal birds that carry him hundreds of feet beyond his §Gearthly concerns§!. The dedicated aeronautics research facility §YSüdwestafrikanisches Kolonialamt für Luftfahrtforschung§!, or §YSKL§!, is simply another facet for this passion. Within its aerodynamics labs and enormous hangars, §rSchenck§! can spend his days dreaming not in the sky but of it - of §Mhis sky§!, beckoning like an aluminum dream - designing new airplanes that can take him §Yfaster§! and §Yhigher§! than ever before."
 
  ANG_unlock_Academy:0 "£decision_icon_small §HDecisions§! to expand the SKL, allowing us to research and produce better planes, will be available.\n\n"
  ANG_build_bombers:0 "£decision_icon_small §HDecisions§! to build up our Bomber fleet will be unlocked."
@@ -286,6 +307,15 @@ ANG_Fighter_Plans:0 "A New League of Fighters"
 
  ANG_build_quickly_idea:0 "Enforced Mining Quotas"
  ANG_build_quickly_idea_desc:0 "It is time to enforce some mining quotas throughout the reichskommissariat. While we do not want to overwork the natives too much, the additional flow of minerals will let us stock up on steel and other industrial metals. No matter the situation out there, we can rely on our own industrial sector for plane parts and other necessities."
+ 
+ ANG_air_control_sudwestafrika_econ:0 "The Südwestafrikaner Air Control"
+ ANG_bomber_plans_econ:0 "Formulating New Bomber Plans"
+ ANG_fighter_plans_econ:0 "Formulating New Fighter Plans"
+ ANG_air_attack_plans_econ:0 "Formulating Air Attack Plans"
+ ANG_better_than_new_econ:0 "Salvaging Equipment and Parts"
+ ANG_planesforfactories_econ:0 "Trading Planes for Industrial Power"
+ ANG_conqueringthedesert_econ:0 "Constructing Air Bases on the Desert"
+ ANG_thesouthernskies_econ:0 "Constructing Air Bases in the South"
 
 #Better tomorrow
  ANG_Slipping_The_Plans:0 "Cracked Codes"
@@ -359,14 +389,14 @@ ANG_Fighter_Plans:0 "A New League of Fighters"
  ANG_Mutual_Assistance_Pact_desc:0 "Afrika's designated airport was never built to handle a land war; moreover, with our supply lines from the Vaterland cut, we will eventually run out of supplies and fuel sooner rather than later. That is, unless we actually cooperate with our fellow Reichskommissarriats. How helpful they'll end up being is questionable; after all, Hüttig seems to hate us with a passion and Müller... well, we have no indication that Müller will necessarily care any more about our life or death struggle than he ever did about running his colony. Still, if we can actually get them to take the pressure off of our land forces we can better fight the air war. Everyone will win, but only if we bother to."
  ANG_Mutual_Assistence_Pact_COG:0 "The Mutual Assistance Agreement"
  ANG_Mutual_Assistance_Pact_COG_desc:0 "We may not really like our friends here in the colonies - Schenck is a bit of a bore and Hüttig is a bit of a stiff asshole - but we have no choice now but to work with them if we wish to survive, and we certainly fucking do. So if Schenck needs our boys' feet on his ground so he and his planes can fuck about in the sky for us, then he'll get what he wants. Likewise with Hüttig and the ores he needs to make guns for gunning kids down or whatever he does for fun.\n\nOf course, any trade comes with give and takes. Our bases better damn well start seeing transports and anti-partisan units soon."
- ANG_Mutual_Assistence_Pact_MZB:0 "The Mutual Assistance Agreement"
- ANG_Mutual_Assistance_Pact_MZB_desc:0 "It pains to admit, but for the moment at least, we need those degenerate failures in Windhoek and Léopoldville to give us support if we wish to drive the OFN's race traitors to Hell. Naturally, we do this only out of pure practicality. The idea of collaborating with Müller, the incompetent bastard, or bleeding-heart Schenck is almost enough to make us nasueous - but we all have to make sacrifices in a crisis. With a little luck and a few million liters of spilt American and South African blood we can end this farce quickly. After then... well, then we won't need dead weight any longer, now will we?"
+ ANG_Mutual_Assistence_Pact_GRO:0 "The Mutual Assistance Agreement"
+ ANG_Mutual_Assistance_Pact_GRO_desc:0 "It pains to admit, but for the moment at least, we need those degenerate failures in Windhoek and Léopoldville to give us support if we wish to drive the OFN's race traitors to Hell. Naturally, we do this only out of pure practicality. The idea of collaborating with Müller, the incompetent bastard, or bleeding-heart Schenck is almost enough to make us nasueous - but we all have to make sacrifices in a crisis. With a little luck and a few million liters of spilt American and South African blood we can end this farce quickly. After then... well, then we won't need dead weight any longer, now will we?"
 
  ANG_Road_Of_Life:0 "Der Weg des Lebens"
  ANG_Road_Of_Life_desc:0 "It is an unfortunate geographical fact that Südwestafrika, with a good air force but poor army, borders South Africa whereas Zentralafrika, with a good army but poor air force, does not. Still, crying over truths will get us nothing, and technology will carve a path across the barriers Nature has set up between our brothers in the north and the front.\n\nWe have set up a deal with Müller where our sizable complement transport planes and helicopters will establish an "air highway" between his divisions and our airports. The Afrikaner Luftwaffe will ensure Müller's men march into combat as fresh as before they left the Congo."
 
- MZB_Financed_Shit:0 "Financed Industry"
- MZB_Financed_Shit_desc:0 "As Ostafrikan marks flow in to help pay Südwestafrikan industries' expenses, the colonial elite find themselves with enough cash to expand their enterprises. With the generous inflow of capital comes warming opinions of Hüttig among Südwestafrika's self-made men. Reichskommissar Schenck cannot pretend to detest this gesture, even if personal relations between the two Reichskommissars remain chilly."
+ GRO_Financed_Shit:0 "Financed Industry"
+ GRO_Financed_Shit_desc:0 "As Ostafrikan marks flow in to help pay Südwestafrikan industries' expenses, the colonial elite find themselves with enough cash to expand their enterprises. With the generous inflow of capital comes warming opinions of Hüttig among Südwestafrika's self-made men. Reichskommissar Schenck cannot pretend to detest this gesture, even if personal relations between the two Reichskommissars remain chilly."
  ANG_Roll_Them_Off_The_Line:0 "Factory Efficiency Reforms"
  ANG_Roll_Them_Off_The_Line_desc:0 "The office of the Reichskommissar has announced a sweeping program of regulations and reforms aimed to drastically improve efficiency, specifically in fighter production. Südwestafrika's air fleets may be the most impressive in all of the continent, but now that the OFN has begun to deploy their squadrons by the dozens above South Africa, the Schild's own airbase must step up to the task of matching Amerikaner planes in numbers."
 
@@ -386,7 +416,7 @@ ANG_Fighter_Plans:0 "A New League of Fighters"
  ANG_SS_Anti_Terror_desc:0 "As a show of good-will between our two Reichskommissariats, Hüttig has sent several SS brigades he assured us were "experts" in counterinsurgency and anti-terror operations. He was not lying; these SS men are good and what they do. Perhaps too good in fact.\n\nReports from our own counter-insurgency teams report entire villages razed to the ground, and even evidence of mass graves close to some of these ruins. While some in our administration have voiced concerns that such actions may damage long-term stability, we have observed a noticeable decrease in raids on our forces. These measures may be difficult to stomach, but war demands sacrifices."
 
  ANG_SS_Anti_Terror_2:0 "Trained SS Squadrons"
- ANG_SS_Anti_Terror_2_desc:0 "Given the SS' laudable performance since their arrival, Schenck has felt compelled to request further support from Hüttig. Despite the personal disagreements the two have had, it seems that Hüttig genuinely enjoys stomping out native movements wherever he can find them, even if he has to work with men he personally despises. The newest batch of SS troops he has deployed within Südwestafrika are highly competent butchers, many of whom have significant experience from service in Ostland and Moscowien.\n\nWhile any help is appreciated, some are beginning to wonder if the price is worth Hüttig's own. We've since received more reports of partisan actions against civilian population centers than before, especially by groups heretofore unsuspected of participating in reprisals. Native representatives are outraged, and more than one of Schenck's aides have blanched when shown photos of what the SS has done to two prominent native communities in Angola."
+ ANG_SS_Anti_Terror_2_desc:0 "Given the SS' laudable performance since their arrival, Schenck has felt compelled to request further support from Hüttig. Despite the personal disagreements the two have had, it seems that Hüttig genuinely enjoys stomping out native movements wherever he can find them, even if he has to work with men he personally despises. The newest batch of SS troops he has deployed within Südwestafrika are highly competent butchers, many of whom have significant experience from service in Ostland and Moskowien.\n\nWhile any help is appreciated, some are beginning to wonder if the price is worth Hüttig's own. We've since received more reports of partisan actions against civilian population centers than before, especially by groups heretofore unsuspected of participating in reprisals. Native representatives are outraged, and more than one of Schenck's aides have blanched when shown photos of what the SS has done to two prominent native communities in Angola."
 
  ANG_Reprisal_Attacks:0 "Reprisal Attacks"
  ANG_Reprisal_Attacks_desc:0 "When the first reports of widespread attacks on supply lines and depots began to filter in, we assumed it was the work of OFN spec ops units. It wasn't until local barracks started getting hit that we realized the truth was far more concerning: native reprisals, far more coordinated than anything we had ever seen from them before, occurring on a daily basis.\n\nIt seems that we could only keep them checked in fear for so long, but now that our attention is fixed firmly south, they have chosen their moment to strike like snakes in the grass. If we are unable to resolve this situation we risk having our attention dangerously divided."
@@ -430,12 +460,13 @@ ANG_Fighter_Plans:0 "A New League of Fighters"
  ANG_Reducing_Native_Unrest:0 "We are not already reducing §YNative Unrest§!."
  ANG_Reducing_Native_Militancy:0 "We are not already reducing §ONative Militancy§!."
 
-
-
  ANG_Afrikaner_Airstrip:0 "Afrikaner Airstrip"
 
  ANG_The_Fatherland_Arrives:0 "The Heimat Arrives"
  ANG_The_Fatherland_Arrives_desc:0 "Following immense delay and widespread perceptions of abandonment, support from Germany has at last arrived to assist us in the struggle against the OFN. While the forces from the Heimat are officially in the Afrikan Reichskommissariats strictly to conduct routine colonial duties - training, garrison duty, pacification - with due diligence, they also bring with them expertise, cutting edge equipment, and veteran leadership. Given the public image Germania wishes to preserve, German forces will be hard pressed to assist us in the conducting of offensive operations. We may rest assured, however, that the Heimat will not abandon its colonies to be savaged by the OFN!"
+ 
+ ANG_Air_Empire_Dynmod_Dummy:0 "The Air Empire"
+ ANG_Air_Empire_Dynmod_Dummy_desc:0 "§DResource Gain Efficiency: [?ANG_Air_Empire_Resource_Extration|+%]\nProduction Efficiency Retention: [?ANG_Air_Empire_Production_Retention|+%]\n£prod_eff_cap Production Efficiency Cap: [?ANG_Air_Empire_Max_Production|+%]\nFuel Gain per Oil: [?ANG_Air_Empire_Fuel_Gain|+%]\nFuel Capacity: [?ANG_Air_Empire_Max_Fuel|+%]§!\n§g--------------§!\nReichskommissariat Südwestafrika is often nicknamed the so-called "The Air Empire" for its crucial role as the base of operations for the Luftwaffe in the sub-Saharan region of Africa. Though ridiculous in speech, many within the Südwestafrikaner government have taken this nickname seriously, and thus, it shall truly be the Air Empire.\n\nFor this 'empire' to thrive, the Reichskommissariat must ensure that excels in its role. Thus, efficiency, production, management, and everything the Reichskommissariat does must have the highest of standards to truly live up to its title."
 
  ####### Terror Attacks
 
@@ -834,8 +865,8 @@ ANG_prewar.30.f:0 "run the displeasure script"
  ANG_meetwiththeothers_desc:0 "No matter our past relationships, we are all in this together... at least until our plans come to completion. To present a united front against the Amerikaner, we need to meet with the other Reichskommissars and find a common strategy for this war.\n\nOf course, we expect the meeting to either fail or end with nothing, but at least we'll be able to tell Germania that we tried..."
 
  ANG_inourhand:0 "Our Own Designs"
- ANG_inourhand_desc:0 "Our duty is to protect the skies of Deutsche-Afrika from any would-be enemy. For more than a decade, our skilled pilots have soared the torrid skies, and learnt by heart the difficult weather conditions that make the Dark Continent completely different from any other air battlefield. From their knowledge and special needs, our repair crews have progressively developed new and improved ways to make our airplanes survive in even the most difficult situations.\n\nThese new designs are far superior to anyone finding themselves fighting for air supremacy over our skies, and our so-called "brothers" from the other Reichskommissariars would never be able to understand them: therefore, we can't risk lowering the quality of our planes by lending them to inexperienced users."
-
+ ANG_inourhand_desc:0 "Our duty is to protect the skies of Deutsche-Afrika from any would-be enemy. For more than a decade, our skilled pilots have soared the torrid skies, and learnt by heart the difficult weather conditions that make the Dark Continent completely different from any other air battlefield. From their knowledge and special needs, our repair crews have progressively developed new and improved ways to make our airplanes survive in even the most difficult situations.\n\nThese new designs are far superior to anyone finding themselves fighting for air supremacy over our skies, and our so-called "brothers" from the other Reichskommissariats would never be able to understand them: therefore, we can't risk lowering the quality of our planes by lending them to inexperienced users."
+ 
  ANG_jointoffensiveprepartions:0 "Joint Offensive Preparations"
  ANG_jointoffensiveprepartions_desc:0 "With each member of the Afrika-Schild focused on a certain aspect of the war, coordination is essential. If our bombers don't know where their allies are moving, they won't be able to provide support, or they could even bomb them by mistake! We need to at least try to find common ground and coordinate our offensives to ensure our war effort proceeds without too many problems."
 
@@ -892,7 +923,6 @@ ANG_prewar.30.f:0 "run the displeasure script"
 
  ANG_freshofftheconveyorbelt:0 "Fresh Off The Conveyor Belt"
  ANG_freshofftheconveyorbelt_desc:0 "Thanks to our deal with Hüttig, our production rates are increasing substantially. With the new factories dedicated to pumping out fighters and bombers, we can easily increase the size of our air force and replace losses as needed.\n\nThough this deal has cost us more than mere money, at least we'll be able to keep working towards our... other goals without the risk of being suspected of treason, which is progress in itself."
-
 
  ANG_usethecamps:0 "Use The Camps"
  ANG_usethecamps_desc:0 "Our prisons and detention camps are turning into recruitment ground for the worst extremists detained there, who find fertile ground for their propaganda in the many who have been imprisoned there for lesser crimes. The petty criminals are quickly radicalized, turning into freedom fighters as soon as they get out of there.\n\nIn order to reduce the chance of such recruitment happening, Hüttig has been more than happy to accept our request to send him hundreds of captured rebels. The knowledge that their comrades are going to die horribly in the Ostafrikan slave pits will most likely enrage their surviving comrades, but at least it will grant us the reprieve we need to mount a counteroffensive. It's such a pity that we have to resort to such methods to fulfill our duty to the people of Angola..."
@@ -972,6 +1002,8 @@ ANG_prewar.30.f:0 "run the displeasure script"
  ######## Tooltips
 
 
+ ANG_Has_US_Support:0 "The §YUnited States§! will supply us with §Ymoney§! and §Infantry Equipment§!"
+ 
  ANG_best_of_the_best_tt:0 "Keeping the air force under will allow us to §Gincrease its lethality and effectiveness§!.\n"
  ANG_FuckTheNatives:0 "We have decided not to let the natives into the air force."
  ANG_LetTheNativesIn:0 "We have decided to let the natives into the air force."
@@ -1078,7 +1110,7 @@ ANG.1.a:0 "앙골라를 구해보려 하기 위해."
 ANG.1.b:0 "독일을 지키려 하기 위해."
 
 ANG.4.t:0 "Under The Sweltering Sun"
-ANG.4.desc:0 "It always took great effort or terrible circumstances for all three Reichskommissars to meet in the same room. Both had been at work when Müller and Hüttig agreed to join a strategy meeting with Schenck. Nothing short of a miracle, however, would have made both of his colleagues pleased to be in the sweltering war room. After less than thirty minutes spent doubled over maps of South African troop deployments, Reichskomissar Müller suggested adjourning for the day.\n\n"Surely you jest, Herr Müller." Hüttig was the first to respond, picking his words carefully. "I'm currently bringing the two of you up to speed on matters that I've said for years are crucial to African security."\n\n"Of course, of course." Müller smiled. The agreeable expression never faltered. "I've read your memos. Well, most of them. But it's been a long day. Why not let our underlings carry on the topic while we get some drinks, get out of this heat."\n\nHüttig's face twisted in contempt for an instant, before subsiding. Schenck wondered if this moment of fury had gotten through to Müller. "Gentlemen." Schenck began. "The day will be much longer if we dally."\n\n"Of course it will," Hüttig snapped. "There's a war out there, yes? Why am I stuck here explaining concepts instead of fighting with my men?"\n\n"You'll be back there as soon as we are done discussing this." Schenck replied. "The same goes for you, Müller."
+ANG.4.desc:0 "It always took great effort or terrible circumstances for all three Reichskommissars to meet in the same room. Both had been at work when Müller and Hüttig agreed to join a strategy meeting with Schenck. Nothing short of a miracle, however, would have made both of his colleagues pleased to be in the sweltering war room. After less than thirty minutes spent doubled over maps of South African troop deployments, Reichskommissar Müller suggested adjourning for the day.\n\n"Surely you jest, Herr Müller." Hüttig was the first to respond, picking his words carefully. "I'm currently bringing the two of you up to speed on matters that I've said for years are crucial to African security."\n\n"Of course, of course." Müller smiled. The agreeable expression never faltered. "I've read your memos. Well, most of them. But it's been a long day. Why not let our underlings carry on the topic while we get some drinks, get out of this heat."\n\nHüttig's face twisted in contempt for an instant, before subsiding. Schenck wondered if this moment of fury had gotten through to Müller. "Gentlemen." Schenck began. "The day will be much longer if we dally."\n\n"Of course it will," Hüttig snapped. "There's a war out there, yes? Why am I stuck here explaining concepts instead of fighting with my men?"\n\n"You'll be back there as soon as we are done discussing this." Schenck replied. "The same goes for you, Müller.""
 ANG.4.a:0 "No fighting in the war room."
 
 ANG.5.t:0 "The Winds of War"
@@ -1153,7 +1185,7 @@ ANG.54.t:0 "In the Dead of Night"
 ANG.54.desc:0 "It was never truly dark in the German encampment. At dawn, the soldiers would rise and check their camouflage nets, making sure that not even the slightest trace could be seen by the American planes who prowled the sky above. The campsite was illuminated by the eerie flickering glow of lanterns and a single searchlight. Enough to keep the defenders prepared for even the slightest provocation, but not so much as to tip off their location. But it wouldn't matter. They were SS, and darkness was their ally.\n\nThe night sky yawned, and from its gaping mouth, fire rained. Awaking amidst the explosions, the SS raced between burning tents to the bunkers. Rifles in hand, they would wait out the storm, and rebuild anew. But the bombs were not the only threat that night.\n\nFrom the bushes around the camp poured the Americans. They were hard men with cruel faces; some wore necklaces made of dismembered ears. Tracers danced between the spreading fires, as the best of the Reich went hand to hand with the 'Green Berets' from a distant land. To a man they died fighting, a gun in hand and a snarl upon their lips, but they died nonetheless.\n\nWithin an hour it was over, and nothing remained of the camp but corpses and torn fabric. A report on the attack was hastily written upon the devestation's discovery the next day, and upon reading its contents, Hans Hüttig snarled in rage."
 ANG.54.a:0 "How does this keep happening!?"
 ANG.55.t:0 "A Ring of Fire"
-ANG.55.desc:0 "Life in the Ostafrikan factories was cruel. Better than in the fields, where slaves died by noon to be processed into fertilizer by night, but cruel nonetheless. The Africans worked twelve hour shifts, crafting weapons for the Germans and the Boers, interrupted only by regular beatings.\n\nIn Dar es Salaam, things were as they always were. The whip cracked, the fingers ached, and the whip snapped. One of the overseers was new. A tall fellow, well-credentialed but speaking German in a strange accent.\n\nThen from everywhere and nowhere, the fire came.\n\nA timer went off, primaries activated secondaries, and the overseers office blew apart. The slaves looked up with dull eyes, to see the new overseer staring down at them. They prepared for punishment, if not death, but neither came, as the new overseer unlocked their chains and yelled at them to go.\n\nSome would be quickly recaptured and tortured for their insubordination. Some would make it to the bush, only to die of hunger. A few found rebels to take them in, dedicating their lives to revenge against their former masters.\n\nReading reports of yet another case of factory sabotage, Hans Hüttig raged. There were traitors in his ranks. His subordinates were liars. His allies were useless. He would win. He would show them."
+ANG.55.desc:0 "Life in the Ostafrikan factories was cruel. Better than in the fields, where slaves died by noon to be processed into fertilizer by night, but cruel nonetheless. The Africans worked twelve hour shifts, crafting weapons for the Germans and the Boers, interrupted only by regular beatings.\n\nIn Daressalam, things were as they always were. The whip cracked, the fingers ached, and the whip snapped. One of the overseers was new. A tall fellow, well-credentialed but speaking German in a strange accent.\n\nThen from everywhere and nowhere, the fire came.\n\nA timer went off, primaries activated secondaries, and the overseers office blew apart. The slaves looked up with dull eyes, to see the new overseer staring down at them. They prepared for punishment, if not death, but neither came, as the new overseer unlocked their chains and yelled at them to go.\n\nSome would be quickly recaptured and tortured for their insubordination. Some would make it to the bush, only to die of hunger. A few found rebels to take them in, dedicating their lives to revenge against their former masters.\n\nReading reports of yet another case of factory sabotage, Hans Hüttig raged. There were traitors in his ranks. His subordinates were liars. His allies were useless. He would win. He would show them."
 ANG.55.a:0 "Chains snapped, whips burned."
 
 ANG.56.t:0 "Our Saviour in Red White and Blue"
@@ -1493,7 +1525,7 @@ ANG.235.a:0 "War is hell, and we are its devils."
 
 
 
-ANG_Terror.1.t:0 "FIELD REPORT: Rebel Infrastructure Sabatoge"
+ANG_Terror.1.t:0 "FIELD REPORT: Rebel Infrastructure Sabotage"
 ANG_Terror.1.desc:0 "Reichskommissar, reports have reached us of native rebels acting behind the frontline.\n\nYesterday, several explosions were reported on several critical highways. Regular troops were deployed in response, but were too late to catch the bandits.\n\nOur preliminary reports point to inexperienced rebels using American-procured explosives. The rebels failed to place enough explosives in any one spot to create holes large enough to disrupt traffic. Neither have they made use of insurgency tactics, such as placing mines to kill any of our follow-up troops investigating the bombing. As soon as our bomb disposal units clear the roads, engineers can repair the roads rapidly.\n\nCounter-insurgency specialists are fanning out in the region and interrogating any native they find. We'll find those clowns and we'll make an example of them, Reichskommissar. They won't get a second chance."
 ANG_Terror.1.a:0 "Uproot those rats!"
 
@@ -1774,15 +1806,15 @@ ANG_Raise_Huttig_Sus_Low:0 "This will raise §GHüttig's Suspicion§! a §Slittl
 ANG_Raise_Huttig_Sus_Medium:0 "This will raise §GHüttig's Suspicion§! §Osomewhat§!\n"
 ANG_Raise_Huttig_Sus_High:0 "This will raise §GHüttig's Suspicion§! by a §Rlot§!\n"
 
-ANG_Raise_Muller_Sus_Low:0 "This will raise §YMüller's Suspicion§! a §Slitte§!\n"
+ANG_Raise_Muller_Sus_Low:0 "This will raise §YMüller's Suspicion§! a §Slittle§!\n"
 ANG_Raise_Muller_Sus_Medium:0 "This will raise §YMüller's Suspicion§! §Osomewhat§!\n"
 ANG_Raise_Muller_Sus_High:0 "This will raise §YMüller's Suspicion§! by a §Rlot§!\n"
 
-ANG_Lower_Muller_Sus_Low:0 "This will lower §YMüller's Suspicion§! a §Mlitte§!\n"
+ANG_Lower_Muller_Sus_Low:0 "This will lower §YMüller's Suspicion§! a §Mlittle§!\n"
 ANG_Lower_Muller_Sus_Medium:0 "This will lower §YMüller's Suspicion§! §zsomewhat§!\n"
 ANG_Lower_Muller_Sus_High:0 "This will lower §YMüller's Suspicion§! by a §ylot§!\n"
 
-ANG_Lower_Huttig_Sus_Low:0 "This will lower §GHüttig's Suspicion§! a §Mlitte§!\n"
+ANG_Lower_Huttig_Sus_Low:0 "This will lower §GHüttig's Suspicion§! a §Mlittle§!\n"
 ANG_Lower_Huttig_Sus_Medium:0 "This will lower §GHüttig's Suspicion§! §zsomewhat§!\n"
 ANG_Lower_Huttig_Sus_High:0 "This will lower §GHüttig's Suspicion§! a §ylot§!\n"
 
@@ -1805,6 +1837,10 @@ ANG_RK_Sus_None:0 "§ynot suspicious at all§!"
 #ANG_Other_RK_Sus_Check_Calculations (Does the calculations)
 
 
+### Free angola parties
+ANG_Free_Authdem:0 "UNITA"
+ANG_Free_Authdem_long:0 "União Nacional para a Independência Total de Angola"
+
 #### Free Angolan Decisions
 
 ANG_Free_Angolan_War_Decisions:0 "The Independence War"
@@ -1822,4 +1858,62 @@ ANG_Repurpose_German_Assets_desc:0 "If our colonizers enjoyed one thing, it was 
 ANG_Convert_Buildings_Into_Warehouses:0 "Convert Buildings into Warehouses"
 ANG_Convert_Buildings_Into_Warehouses_desc:0 "The expulsion of the Reich administration in our land has led to quite a notable amount of left behind and forgotten infrastructure. Should we convert this infrastructure into warehouse facilities for the war effort, we may be able to boost production of the basics, such as medicine and uniforms. It would be a costly undertaking, however our supply lines would surely benefit from such a boon."
 
+#Debug deccat
 
+ANG_debug_deccat:0 "Angola/Südwestafrika Debug Category"
+ANG_debug_deccat_desc:0 "I'm at my breaking point, how is this thing considered releasable??? Also I'm too lazy to do the fucking priority thing on focuses its just gonna end up breaking the game\n\nAlso if you're reading this, go outside and touch some grass\n\n-Scars"
+
+ANG_load_angola_tree:0 "§YLoad Better Tomorrow tree§!"
+ANG_load_RK_SAW_tree:0 "§YLoad RK SAW Tree§!"
+ANG_load_free_tree:0 "§YLoad Free Angola Tree§!"
+ANG_load_OFN_tree:0 "§YLoad OFN Mandate Tree§!§x (bad ending)§!"
+
+# Civil War Victory 
+
+ANG_PW.1.t:0 "UNITA Victory in Anolga" 
+ANG_PW.1.desc:0 "The Angolan Civil War has come to a close, and the victor is clear. Jovas Savimbi, an influential Angolan leader since the days of the Reichskommissariat, has once again consolidated Angola under his rule. Heavily backed by United States forces, Savimbi's victory is an important shift in the African balance of power, as America and Japan continue to battle over the fate of Africa itself.\n\nNo longer trapped in wartime, Savimbi has announced a slate of coming reforms, including joining the OFN and pledging to a "gradual transition" towards democracy. While further stability in Angola is yet to be seen, the influx of American support and influence speaks to an American effort to grant Savimbi a more permanent grasp on his nation. Perhaps, at long last, Angola will know peace."
+ANG_PW.1.a:0 "America further tightens its grip over Africa."
+
+ANG_PW.2.t:0 "MPLA Victory in Angola"
+ANG_PW.2.desc:0 "The world looks in awe, as the balance of the Cold War shifts once more. Famed writer and activist Agostinho Neto has managed to break Savimbi's grip over Angola. Most prominent analysis of the war saw the MPLA as unlikely to succeed - their success is a statement of the MPLA's campaign of unconventional warfare, and to failures within Savimbi's forces.\n\nNo longer trapped in perpetual conflict, Neto has begun a litany of plans to repair the broken nation. Tokyo has already congratulated Neto for his victory, declaring him a "liberator of the African people." For his part, Neto has wasted no time in installing a popular republic, one reliant on Japanese aid and support. It seems for the present, the two have become closely intertwined - Japan may at last have its foothold over Africa."
+ANG_PW.2.a:0 "The sun rises over Luanda."
+
+# Civil War Flavor Events 
+
+ANG_PW.10.t:0 "A Thousand Words"
+ANG_PW.10.d:0 "Angola was a depressing experience, yet each day he got up and kept pressing forward. War correspondents didn't get sent expecting comfort - the places he stayed was proof. Dirty shacks with infrequent running water was roughly the standard. Fortunately he didn't spend much time in them.\n\nHis work was out in the villages and towns, speaking to the people and soldiers living through this war. He remained struck by the devastation that touched everything, throughout the country. Even the richest towns had an undercurrent of uneasiness, fear, and weariness. No matter where he traveled, how many soldiers he spoke to regardless of side, this feeling of devastation; a country that had only just been starting to recover, persisted.\n\nHe had his limits. He didn't wander into ongoing fights. His PRESS badge wouldn't protect him there, though gunfire was a common occurrence, and he'd definitely been shot at more than once. The longer he stayed here, the more he struggled to capture the magnitude, horror, weariness, and importance of the wars that were consuming not just Angola, but the entire continent. Nothing seemed to properly capture this, and so he kept working.\n\nToday he was wandering the remains of a skirmish. Broken barricades, destroyed guns and equipment, and even some burned-out tanks and transports were strewn around the battlefield. He even saw the bodies from both sides sprawled on the ground, forgotten, abandoned, and rotting.\n\nA sound made him start, as he realized he wasn't alone. He spun to the noise, and his heartbeat slowly relaxed as he saw it was only a child. A boy that couldn't have been more than thirteen, dressed in ragged clothes, and little more than skin and bones. He didn't seem to be paying attention to him, instead trying to scour the remains of a tank for scrap to sell. Almost of its own accord, Matthew raised his camera, and snapped a picture."
+ANG_PW.10.a:0 "War is hell."
+
+ANG_PW.11.t:0 "Memories of Lungué-Bungo"
+ANG_PW.11.d:0 "If this was the face of the enemy, Issac thought, then he wouldn't have ever enlisted in the United States' Armed Forces. This was a jovial, happy face, one that indulged in alcohol from time to time, but that seemed to be its biggest vice. The thought never crossed Issac's mind that this man could have been a soldier in the Free Angolan Army.\n\nThe man was native in Chokwe, but over time had learnt enough Portuguese to be able to communicate with it, which was fortunate for Issac. Isaac's ability to speak the language was a major boost to his application to join the volunteer force in the first place, but now it served as a telephone line between two vastly different cultures. They met well, as Issac was in severe need of somebody to drink with, and Adrien knew nobody that spoke either Chokwe or Portuguese.\n\nBetween drinks Issac talked about his hometown in New Orleans. Adrien, the name of Issac's drinking buddy, was interested in the intense mingling of culture that had made the city famous in both America, and now, it seemed, Angola. Adrien shared anecdotes from his time as a professional fisherman, which turned out to be less anecdotes and more fishing tips for the next time Issac was travelling down Lungué-Bungo.\n\nAs time went by, their conversations gradually shifted to the war. Both men were careful not to reveal their true professions as soldiers, but they spoke optimistically about the end of the conflict. Adrien spoke sorrowfully about the war, wishing an end to the conflict and a peaceful homeland for his people, a universal value so it seemed to Issac.\n\nIt grew late into the night when Adrien departed. Shouting had erupted from outside the bar, and the sounds of trucks grew louder and louder. Adrien understood the sounds well enough; his joyful expression had turned grim, but before he departed the establishment, he made a promise to Issac to once again meet at the same bar they were standing in right now. As the door to the bar slammed shut, Isaac truly wondered if he would be able to return to this place before the end of his deployment."
+ANG_PW.11.a:0 "Hope resides where men believe it resides"
+
+ANG_PW.12.t:0 "A talk with Savimbi"
+ANG_PW.12.d:0 "Checking his bag, Will triple-checked that he had everything he'd needed for the interview. While he'd never thought himself of much as a reporter- photography was more his forte, but when the US government offers you the opportunity to interview an ally out of Angola, you don't refuse. Standing on the helipad, his shoulder-long brown hair blew in the wind of the descending Huey bearing the focus of Will's trip. As it descended in front of him, Jonas Savimbi jumped out of the passenger seat, wearing his iconic beret, camouflaged uniform, and khaki slacks, he seemed like something out of a TV action flick. The burly monster of a man smiled through his bushy beard, and moved his mouth, though Will couldn't hear any words, thanks to the whirring helicopter behind him. "What?!" Jonas cuffed his hands together and yelled into the face of the journalist. "I take it your ears aren't shattered?!" The pair shared a smile. \n\nDriving through the city bearing nothing short of a thousand guards, Will was getting the grand tour. "And there would be the arms depot- you're not a spy, are you?" Savimbi flashed a smile, hardly caught out of the corner of Will's eye as he snapped a picture of the warehouse. "Heh, no, of course not. Now, you've said that the bombing raids against the Socialists have been something of a point of contention in the high command?" Savimbi scoffed, then let out a sigh. "Some of my subordinates call it 'inhumane'. They don't know that this is the best way forward for Angola, even with a few more craters. They don't know what is best, and I do." Will felt as though he was getting a better idea of Savimbi than Jonas knew. Looking at his notes, Will looked back to Savimbi. "Before the German occupation lifted, you said that you'd do whatever it took to liberate your people from the German menace. Since the civil war, however, you have received aid with open arms from German sources." Will looked to Savimbi, as his subject of interrogation slowly turned his head to him. What Will saw was not a look of anger, however. The closest which he could compare it to was his father when recounting stories of his youth. Nostalgic. Smiling, he looked to Will."
+ANG_PW.12.a:0 "I did what I had to do."
+
+
+ANG_PW.20.t:0 "The Excuses of Empires"
+ANG_PW.20.d:0 "Angola. A land of humidity, jungles, mud, and death. A nation of little importance, which was barely industrialized, and that held nothing but the bitter wounds and consequences of Nazism.\n\nYet he was here all the same. A Japanese commander in Angola, assisting the MPLA against the OFN-backed UNITA. He looked out the window in his small office, as children played with a ball below, and released a resigned sigh. What was he even doing here? What was even the point of this escapade? Spreading the liberation of Pan-Asianism? In Africa? Angola was well beyond where the Co-Prosperity Sphere was supposed to end.\n\nThere had been a time where he'd believed in the cause and mission, where he'd been proud knowing that they were better than the imperialists who had enslaved and exploited Asia for so long.\n\nNow though? He found this entire situation uncomfortable. Wrong. Japan had as much right to involve itself in Africa as the OFN did - which was in short, none whatsoever. How, exactly, were they supposed to claim to be better than the Germans and Americans when they engaged in the same imperial tactics? The politicians sold it as spreading 'liberation' and 'protection' from the 'evil west' - the exact same excuses the OFN and Nazis also used. He found them just as unconvincing, no matter if they came from Tokyo or Washington.\n\nIn the end, it all came down to a desire for power. Principles didn't matter when there was opportunity to spite the United States. He shook his head as he watched the children play. They were so carefree, and reminded him of his younger brother, and the times where they had feared the retaliation by the Americans after Hawaii. Japan might no longer need to fear America, but Angola was not so fortunate. Perhaps there was no reason to be here, but maybe he could at least ensure that something good came out of it regardless."
+ANG_PW.20.a:0 "The ambition of empires knows no bounds."
+
+
+ANG_PW.21.t:0 "An Interview with "Neto-Dono""
+ANG_PW.21.d:0 "Imada Harukichi, a journalist for the Mainichi Shimbun on assignment somewhere in Angola, found himself fairly impressed with the man he was interviewing. The man was Agostinho Neto; the venue was a fast motorboat on a river. The leader of the MPLA, far from being the bombastic Chō Hi that Imada would have expected, was instead a personable man of a moderate temperament. He treated Imada with courteous respect and asked polite questions about the journalist, his home, his newspaper and his family.\n\nAs the interview went on, Imada noticed one thing about Neto: the man was stubborn to a fault. Whenever Imada brought up the MPLA, Neto would narrow or roll his eyes and say things like "their ideas are at last misguided and at worst a prostration before American or German imperialism". After the second such attempt, Imada gave up, and changed the subject, only to be interrupted by Neto, who had ordered the boat stopped.\n\n"Senhor Imada, I beg your pardon, but can you tell me what you see?" Neto was pointing at a village by the far bank of the river. Imada looked and said that he saw a village. Neto sorrowfully shook his head.\n\n"You're right, but I don't just see that. I see destitute, hungry people, ruined by the imperialist manipulation of the masses. No riches, no pride in their own culture, no pan-Africanism, no nothing. That there, Senhor Imada, is what I fight for. To find a way to put an end to that sight. To give these people a chance for happier times, a happier life.""
+ANG_PW.21.a:0 "As his respect for Neto deepened, Imada nodded."
+
+ANG_PW.30.t:0 "Maine-Night Dinner"
+ANG_PW.30.t:0 "Road King was a classic, New England style restaurant, the busiest one in this part of Bangor. Especially at this time of night; people flowed in and out like a house on fire. Martin got a good look at them all. It was good to see faces laughing and talking, rather than shouting and cursing.\n\n"To be honest son, I don't think I knew Angola existed until you sent me that letter from the place!"\n\n"Maybe I just invented it, see if I could trick you." Martin took a bite from his lobster roll. Damn, Maine seafood tastes good. "And I've caught you hook line and stinker, it seems."\n\n"Nope, I pulled out the atlas… it was a Portugese colony beforehand, believe it or not. Nowadays… uh, then it had been a German one, and now we've got it. What's the word they use for it?"\n\n"A mandate." Martin's mother chipped in. Martin's niece said little of anything, babbling away to herself in her high chair, playing with the food her grandparents had bought for her.\n\n"How'd you like the people? You know, the Angolans?"\n\n"They were kind… and for a country so poor, they like to give. Little trinkets… you know, stuff like that. Even to the Germans they were kind enough. Most of the time, at least. I suppose that's the best we could've asked for, but even so… they were all so poor. My regiment never went into the cities, so maybe it was different there, but still. Sometimes it almost felt like… stealing."\n\n"Well, we're all proud of you, even Bethany." His mother said, smiling at the toddler, who gave her a little giggle back. "But don't get too up yourself, we won't have you lounging around the house like last time!""
+ANG_PW.30.t:0 "Home is eternal."
+
+ANG_PW.31.t:0 "Day Out"
+ANG_PW.31.t:0 "Richmond was in the process of exploding.\n\nEach street Tanner tried to walk down would be met with the bodies of a hundred chanting students. They held picket signs high into the sky, cramming up city streets with their persons. Most of the businesses in their path quickly closed up shop and commuters turned back around for easier crossing elsewhere. It was peaceful enough however, so Tanner removed his recorder from his jacket and approached one of the students.\n\nHe got a number of quotes that day. "We won't leave until they leave Angola!" was one of Tanner's favourites.\n\n"We've tainted our progress for peace. Every gun we've sent, every weapon… it's despicable, and the nation's only chance for redemption is an immediate withdrawal."\n\n"Conscription is crime!"\n\nBy the time he had gotten far more than enough quotes and a quick, snappy headline for his newspaper, they arrived. Ten vans, driving down both sides of the street. They blocked the approaching protestors, only stopping as the van doors creaked open.\n\nTanner watched as a new tide of counter-protestors erupted onto the streets of Richmond. Turning back around as the two sides met, the journalist decided that he could afford a few quotes more."
+ANG_PW.31.t:0 "Richmond Protests turn Violent!"
+
+ANG_PW.32.t:0 "Present and Past"
+ANG_PW.32.t:0 "The relic foreign district of Shanghai seemed only a little more of an oddity than Hayao would've first imagined. Derelict British era mansions and ancient French chateaus stood mighty against the low lying collection of slums that surrounded it, but if Hayao was to enter one of them, he was sure that the same type of inhabitants would be present.\n\nHe decided that this was not the portion of town he should linger in. Loading into a taxi, Hayao made for the shoreline.\n\nThe sun sunk behind the high-rise districts of the developing Chinese city, casting long shadows along the ocean's surface. The sky had developed into an orange hugh, forcing the few clouds to seemingly change colours. Focusing so strongly on the outside scenery, Hayao almost didn't realise that the taxi driver was talking to him.\n\n"There's a bunch of restaurants along the shoreline, most of them exclusive to Japanese, but that won't be much of a problem for you." Hayao sensed a slight tinge of resentment in the wizened driver. "You're a soldier, right?"\n\nBlinking, Hayao responded. "Uh… yeah."\n\n"Where'd you serve last?"\n\n"Angola." Hayao thought but did not say. "I was another volunteer helping destroy an undeveloped nation." The soldier shook his head. It would not serve well to reminisce. His vacation had barely begun, after all."
+ANG_PW.32.t:0 "Mind your own business, old man."
+
+ANG_PW.33.t:0 "Talking Business"
+ANG_PW.33.t:0 "Whoever had organised this meeting hadn't drawn any punches. Hayao Senior was thoroughly impressed by the level of professionalism the Angolan officials had shown him. He wondered if they would've shown the same level of respect to one of Hayao's foreign colleagues, but he determined it would not be wise to give that question to the two men. "It's quite the location. I've been told that this field in particular has a vast reservoir of diamonds about 750 meters underground."\n\n"That's right, untapped riches." The one on the right replied, his unflawed Japanese thoroughly surprising Hayao. "731 meters to be exact, and they've been located in various portions in the right of the field." The one of the left added, in similarly well punctuated Japanese. "But this field is one of many, and we are not here to merely discuss this particular set of diamonds. Your nation wants its mining firms all over Angola."\n\n"Correct. Diamonds are definitely going to be a large subsect of our endeavours, but iron ore as well as granite is a top priority. I've read up on reports… most say that while the resources are here, they are usually untapped."\n\n"That's right. We would be willing to sign onto almost any mining site, as long as we can maintain a few overseers over each sight. Plus a share of the profits, but that part was to be hashed out in the negotiations." The right hand Angolan feigned shock, and looked around the site in fake amazement, locking eyes back with Hayao after a few seconds. "Which appears to be happening right now."\n\nQuelling a laugh, Hayao thought for a moment. He was warned that the Angolans would've required a share of the profits. It would make overall profitability a little more difficult, certainly compared to Yunnan... but, this was an opportunity that a tiny caveat like that only made a little less desirable."
+ANG_PW.33.t:0 "Waste not, want not"
