@@ -1,0 +1,647 @@
+﻿l_english:
+ ## 1963 Crisis ##
+
+ ## GUI Elements
+
+ TNO_jamaica_referendum_category:0 "The Jamaican Question"
+ TNO_jamaica_referendum_category_enabled_tooltip:0 "Unlocks decisions to §Yinterefere with the Jamaican Referendum§!."
+
+ TNO_jamaica_jamaica_win_tt:0 "Jamaica leaves the West Indies Federation"
+ TNO_jamaica_wif_win_tt:0 "Jamaica remains in the West Indies Federation"
+
+ TNO_jamaica_referendum_category_desc_usa:0 "In order for the §QWest Indies Federation§! to succeed, it is imperative that §KJamaica§! remains in the union.\n\nWhile Prime Minister Norman Manley assures us that the referendum is only a formality, foreign meddling is not out of the question. It may be prudent that we lend him some assistance...\n\nCurrently, US backing is [GetJamaicaUSIntervention] and foreign interference is [GetJamaicaForeignIntervention]."
+
+ TNO_jamaica_referendum_category_desc_jap:0 "In aiming to pass a stronger constitution, the Americans have overplayed their hand in the §QWest Indies Federation§!, and now it may cost them dearly.\n\nA successful independence referendum for §KJamaica§! is an opportunity to embarass the United States in their own backyard.\n\nCurrently, US backing is [GetJamaicaUSIntervention] and foreign interference is [GetJamaicaForeignIntervention]."
+
+ TNO_jamaica_referendum_category_desc_ger:0 "In aiming to pass a stronger constitution, the Americans have overplayed their hand in the §QWest Indies Federation§!, and now it may cost them dearly.\n\nA successful independence referendum for §KJamaica§! is an opportunity to embarass the United States in their own backyard.\n\nCurrently, US backing is [GetJamaicaUSIntervention] and foreign interference is [GetJamaicaForeignIntervention]."
+
+
+ TNO_jamaica_referendum_chance:0 "The independence referendum has a\n§Y[?WIN.WIN_jamaica_win_pct|1%]§! chance of passing"
+ TNO_jamaica_referendum_chance_exp:0 "From the odds of the vote reaching a majority (§Y>50%§!)."
+
+ TNO_jamaica_referendum_none:0 "§Gnonexistent§!"
+ TNO_jamaica_referendum_light:0 "§Gminimal§!"
+ TNO_jamaica_referendum_med:0 "§Ymeasured§!"
+ TNO_jamaica_referendum_significant:0 "§Rsignificant§!"
+
+
+
+ TNO_jamaica_referendum_indep:0 "§KJamaican Independence§!"
+ TNO_jamaica_referendum_fed:0 "§QFederation Membership§!"
+
+ TNO_jamaica_timer_tt:0 "There are §Y[?WIN.WIN_referendum_days_left] / [?WIN.WIN_referendum_days_max]§! days left before the referendum is held"
+ 
+
+ ## Scripted Effects
+ TNO_increase_jamaica_indep_chance_low:0 "§KJamaican independence§! grows slightly more popular."
+ TNO_decrease_jamaica_indep_chance_low:0 "§QFederation membership§! grows slightly more popular."
+ TNO_increase_jamaica_indep_chance_med:0 "§KJamaican independence§! grows more popular."
+ TNO_decrease_jamaica_indep_chance_med:0 "§QFederation membership§! grows more popular."
+ TNO_increase_jamaica_indep_chance_high:0 "§KJamaican independence§! grows significantly more popular."
+ TNO_decrease_jamaica_indep_chance_high:0 "§QFederation membership§! grows significantly more popular."
+
+ TNO_increase_jamaica_indep_daily_tick_low:0 "Momentum for §KJamaican independence§! increases slightly."
+ TNO_decrease_jamaica_indep_daily_tick_low:0 "Momentum for §QFederation membership§! increases slightly."
+ TNO_increase_jamaica_indep_daily_tick_med:0 "Momentum for §KJamaican independence§! increases."
+ TNO_decrease_jamaica_indep_daily_tick_med:0 "Momentum for §QFederation membership§! increases."
+ TNO_increase_jamaica_indep_daily_tick_high:0 "Momentum for §KJamaican independence§! increases significantly."
+ TNO_decrease_jamaica_indep_daily_tick_high:0 "Momentum for §QFederation membership§! increases significantly."
+
+ TNO_increase_us_intervention_low:0 "Our §Qinterference§! becomes slightly more obvious."
+ TNO_increase_us_intervention_med:0 "Our §Qinterference§! becomes more obvious."
+ TNO_increase_us_intervention_high:0 "Our §Qinterference§! becomes significantly more obvious."
+
+ TNO_decrease_us_intervention_low:0 "Our §Qinterference§! becomes slightly less obvious."
+ TNO_decrease_us_intervention_med:0 "Our §Qinterference§! becomes less obvious."
+ TNO_decrease_us_intervention_high:0 "Our §Qinterference§! becomes significantly less obvious."
+
+ TNO_increase_foreign_intervention_low:0 "Our §Kinterference§! becomes slightly more obvious."
+ TNO_increase_foreign_intervention_med:0 "Our §Kinterference§! becomes more obvious."
+ TNO_increase_foreign_intervention_high:0 "Our §Kinterference§! becomes significantly more obvious."
+
+ TNO_decrease_foreign_intervention_low:0 "Our §Kinterference§! becomes slightly less obvious."
+ TNO_decrease_foreign_intervention_med:0 "Our §Kinterference§! becomes less obvious."
+ TNO_decrease_foreign_intervention_high:0 "Our §Kinterference§! becomes significantly less obvious."
+
+
+
+ ## Referendum Decisions
+
+ ## USA
+ TNO_jamaica_intensify_OFN_propaganda:0 "Broadcast Pro-Federation Material"
+ TNO_jamaica_intensify_OFN_propaganda_desc:0 "The West Indies Federation brings with it a wealth of trade opportunities and elevates the Caribbean to a negotiating position on the world stage. Leaving would be a mistake, and we must make sure all Jamaicans realize what they have to lose if the referendum were to pass."
+
+ TNO_jamaica_promote_pro_federation_groups:0 "Promote Pro Federation Groups"
+ TNO_jamaica_promote_pro_federation_groups_desc:0 "The Caribbean region, and the Indies Federation, in turn, is a rich cultural pot of some of the most diverse cultures of the New World, and many groups, cultural and political, do share our view. It wouldn't hurt to nudge them to more outstanding platforms, to remind the people how much stronger they are together."
+
+ TNO_jamaica_court_JLP_leaders:0 "Bribe Moderate JLP Leaders"
+ TNO_jamaica_court_JLP_leaders_desc:0 "In Jamaica just as in America, politics is about striking mutually beneficial deals. Many Jamaican Labour Party leaders aren't convinced by Bustamante's hardliner anti-Federation stances. A phone call from Washington and a campaign donation or two can go a long way towards changing minds."
+ TNO_jamaica_court_JLP_leaders_cost:0 "\nIt costs §Y50 Million USD§! to take this decision\nIf the value of our reserves is insufficient to cover that amount, the excess cost will be added to the §RNational Debt§!.\n"
+ 
+ TNO_jamaica_fund_unionist_cultural_groups:0 "Court Unionist cultural groups"
+ TNO_jamaica_fund_unionist_cultural_groups_desc:0 "Jamaica is a land of arts; be it through song, dance, and artwork, they're folk who loves to portray their creativity in an inspiring manner. However, contrary to what many think, exposure doesn't fill an artist's plate. So, we're simply doing a service to the cultural heritage of Jamaica by commissioning works that remind Jamaica of the strength of unity. Whatever side effect that might have is simply coincidental, of course."
+
+ TNO_jamaica_pull_back_influence:0 "Wait it Out"
+ TNO_jamaica_pull_back_influence_desc:0 "Like Poker, sometimes you might think you have a great hand, but your opponent might have a royal flush. Instead of dropping any more bets on this round, we'll simply fold and watch as the situation unfolds for a few weeks. Hopefully, our momentum will help us move forward until we need to apply gentle persuasion once again."
+
+ TNO_jamaica_blackmail_independence_activists:0 "Blackmail Independence Activists"
+ TNO_jamaica_blackmail_independence_activists_desc:0 "While it would be unwise to interfere directly with Jamaica's matters, our intelligence services may be able to procure dirt - real or otherwise - on key figures in the opposition. Were Jamaica to secede, this information may be "anonymously" forwarded to the authorities or the press."
+
+ TNO_jamaica_blackmail_JLF_sympathizers:0 "Blackmail JLF sympathizers"
+ TNO_jamaica_blackmail_JLF_sympathizers_desc:0 "While we cannot prove, it is painfully clear that external forces are putting their weight in our sphere to an unacceptable degree. While we cannot interfere directly with the Federation matters, nothing stops us from digging some of the loudest JLF supports about their unfortunate skeletons in the closet, and the disaster if those were to be "anonymously" forwarded to the authorities, was Jamaica to secede."
+ 
+ TNO_jamaica_investigate_interference:0 "Investigate Foreign Tampering"
+ TNO_jamaica_investigate_interference_desc:0 "At Manley's request, we will launch an investigation into foreign interference in the independence referendum. If we are able to gather enough evidence, we can both convince the public that the referendum is a foreign ploy, and even charge opposition leaders."
+ TNO_jamaica_investigate_interference_effect:0 "If foreign §Kinterference§! is still §Rsignificant§!:\n   Momentum for §QFederation membership§! increases slightly.\n   §QFederation membership§! grows more popular."
+
+ TNO_jamaica_accuse_foreign_tampering:0 "Accuse of Foreign tampering"
+ TNO_jamaica_blackmail_JLF_sympathizers_desc:0 "While nominally impartial to the decision of the Referendum, we can condemn, as OFN members, the transparent interference of outside parties to the matter of the Free World, and we will do as such, be it through Manley's declarations, and official spokespersons. Sure, eyebrows might be raised about our supposed neutrality, but this isn't a particular moment for subtetly."
+
+ TNO_jamaica_dial_back_rhetoric:0 "Dial Back Intervention"
+ TNO_jamaica_dial_back_rhetoric_desc:0 "It is important that the independence referendum appears legitimate, especially as Manley is relying on its results to discredit the JLP opposition. In order to alleviate any suspicion that we are tipping the scales, we will take a step back, giving pro-independence advocates a chance to speak."
+ TNO_jamaica_dial_back_rhetoric_effect:0 "We will be §Yunable to intervene§! while Active."
+
+ TNO_jamaica_postpone_referendum:0 "Postpone the Referendum"
+ TNO_jamaica_postpone_referendum_desc:0 "With evidence of foreign meddling in the independence referendum, we will advise Manley to push back the day of the vote, giving us more time to ensure the Federation will remain intact."
+ TNO_jamaica_postpone_referendum_effect:0 "The referendum will be §Ydelayed by 7 days§!."
+
+ TNO_us_intervention_medium_us:0 "Our §Qinterference§! is §Ymeasured§! or §Rsignificant§!"
+ TNO_foreign_intervention_medium_us:0 "Foreign §Kinterference§! is §Ymeasured§! or §Rsignificant§!"
+ TNO_foreign_intervention_high_us:0 "Foreign §Kinterference§! is §Rsignificant§!"
+ TNO_us_intervention_medium_foreign:0 "American §Qinterference§! is §Ymeasured§! or §Rsignificant§!"
+
+ TNO_jamaica_guerrilla_attack:0 "Rastafarian Guerrilla Uprising"
+ TNO_jamaica_guerrilla_attack_desc:0 "A poorly-equipped but well-entrenched group of Rastafarian Guerillas have begun a series of attacks on the Kingston area. The State Department has pivoted its efforts to quashing this uprising."
+ TNO_jamaica_crisis_guerillas_done:0 "The guerrilla uprising will be §Rcrushed§!, enabling us to §Ydeal with the referendum§!."
+
+ TNO_jamaica_crisis_us_blocked:0 "[GetWhyUSReferendumBlocked]"
+ TNO_jamaica_crisis_us_intervention_not_blocked:0 "We have not §Ydialed back our intervention§!"
+ TNO_jamaica_crisis_guerrillas_blocked:0 "We are not §Ydealing with a crisis§!"
+ TNO_jamaica_postpone_referendum_trigger:0 "The referendum has been delayed §Yfewer than 3 times§!"
+
+ ## Germany
+
+ TNO_jamaica_promote_independence:0 "Plant the Seeds of Independence"
+ TNO_jamaica_promote_independence_desc:0 "The [getGermanIntelAgencyShort] will produce and surrepetitiously distribute propaganda across Jamaica, exposing the weakness of the Americans and reinforcing that independence is the only logical path forward for the island."
+
+ TNO_jamaica_commonwealth_connection:0 "Make the Commonwealth Connection"
+ TNO_jamaica_commonwealth_connection_desc:0 "Jamaica is home to a small but powerful group of white Anglos, many of whom still pledge loyalty to the king. We will reach out to our contacts in England so that a connection can be made to these elites."
+ TNO_jamaica_commonwealth_connection_effect:0 "Enables decisions to §!exploit Jamaica's Anglo minority§!\n"
+
+ TNO_jamaica_appeal_white_jamaicans:0 "Mobilize the White Minority"
+ TNO_jamaica_appeal_white_jamaicans_desc:0 "With the new constitution, the West Indies Federation threatens to take the hard-earned wealth of its Anglo elites and distribute it as handouts to the poor surrounding islands. We will play up these fears, pushing these elites to use their wealth and power to advocate for independence."
+
+ TNO_jamaica_encourage_capital_flight:0 "Encourage Capital Flight"
+ TNO_jamaica_encourage_capital_flight_desc:0 "Even if Jamaica is to become independent, who is to say that the Americans won't meddle in its affairs again? Germany is always in need of entepreneurial minds. We will welcome any white Jamaican immigrants with open arms, as an economic - and political - victory."
+
+ TNO_jamaica_cover_our_tracks:0 "Cover Our Tracks"
+ TNO_jamaica_cover_our_tracks_desc:0 "The Americans' commitment to "democracy" means their intervention in the referendum is limited, unless we provide them justification to step in. Covering our tracks may be the prudent choice if only to make the Americans' defeat in the referendum even more embarassing."
+
+ TNO_jamaica_commonwealth_connection_made:0 "We have §Ycontacted Jamaica's Anglo minority§!"
+
+ TNO_jamaica_americans_investigation_ger:0 "Americans Investigating Interference"
+ TNO_jamaica_americans_investigation_ger_desc:0 "Our sources in Jamaica indicate the US is probing into potential foreign interference in the referendum. While we care little if the Americans know of our role, it could jeoparadize the success of the referendum."
+
+ TNO_jamaica_americans_postponing:0 "Referendum Being Postponed"
+ TNO_jamaica_americans_postponing_desc:0 "Prime Minister Manley has announced that the date of the referendum has been pushed back a week because of possible foreign interference."
+ TNO_jamaica_americans_postponing_2:0 "Referendum Postponed Again"
+ TNO_jamaica_americans_postponing_2_desc:0 "Manley has announced that the date of the referendum has been pushed back a week once more, citing claims of foreign meddling."
+ TNO_jamaica_americans_postponing_3:0 "Referendum Postponed Yet Again"
+ TNO_jamaica_americans_postponing_3_desc:0 "Manley has proclaimed that the date of the referendum will be pushed back one more week because of "malicious foreign actors"."
+
+ TNO_jamaica_americans_postponing_JAP:0 "Referendum Being Postponed"
+ TNO_jamaica_americans_postponing_JAP_desc:0 "Prime Minister Manley has announced that the date of the referendum has been pushed back a week because of possible foreign interference."
+ TNO_jamaica_americans_postponing_JAP_2:0 "Referendum Postponed Again"
+ TNO_jamaica_americans_postponing_JAP_2_desc:0 "Manley has announced that the date of the referendum has been pushed back a week once more, citing claims of foreign meddling."
+ TNO_jamaica_americans_postponing_JAP_3:0 "Referendum Postponed Yet Again"
+ TNO_jamaica_americans_postponing_JAP_3_desc:0 "Manley has proclaimed that the date of the referendum will be pushed back one more week because of "malicious foreign actors"."
+ 
+ TNO_jamaica_crisis_ger_intervention_not_blocked:0 "We are not §Ycovering our traces§!"
+
+
+ ## Japan
+
+ TNO_jamaica_antiimperialist_propaganda:0 "Spread Anti-Imperialist Propaganda"
+ TNO_jamaica_antiimperialist_propaganda_desc:0 "We will produce and spread propaganda expoding the Americans' imperialist crimes, and encouraging Jamaicans to escape the American grasp through voting for independence."
+
+ TNO_jamaica_promote_black_power:0 "Bankroll Black Power Movements"
+ TNO_jamaica_promote_black_power_desc:0 "The anti-colonialist Black Power movement has gained steam recently in Jamaica in wake of the new constitution, which some see as a form of neo-imperialism by the Americans. Of course, they're right, and we ought to make sure their message reaches as far as possible."
+
+ TNO_jamaica_leave_false_traces:0 "Leave False Traces"
+ TNO_jamaica_leave_false_traces_desc:0 "The Americans will no doubt take notice of our meddling in their backyard. No matter, our agents will leave dozens of red herrings and false trails so that any concrete ties will be impossible to find."
+
+ TNO_jamaica_fabricate_claims:0 "Fabricate American Schemes"
+ TNO_jamaica_fabricate_claims_desc:0 "The Jamaican Labour Party receives much of its support because of distrust of American intentions in the Caribbean. Fabricating a number of false scandals implicating the Americans in election-rigging, political assassinations, and economic manipulation will no doubt convince some Jamaicans of the need to distance themselves."
+
+ TNO_jamaica_americans_investigation_jap:0 "Americans Investigating Interference"
+ TNO_jamaica_americans_investigation_jap_desc:0 "Our sources in Jamaica indicate the US is probing into potential foreign interference in the referendum. While we care little if the Americans know of our role, it could jeoparadize the success of the referendum."
+
+ TNO_jamaica_help_rastafarians:0 "Supply Intel to Rastafarian Guerrillas"
+ TNO_jamaica_help_rastafarians_desc:0 "Our intelligence agents have learned of a small group of Rastafarian rebels in the Red Hills by Kingston. Woefully undersupplied, they pose little threat to the government, but would provide an ample destraction for the Manley government if we give them a target to strike."
+ TNO_jamaica_help_rastafarians_effect:0 "The §Rguerrilas will attack§!, leaving the Americans §Yunable to intervene§! while dealing with the uprising\n\n"
+
+ TNO_jamaica_crisis_jap_intervention_not_blocked:0 "We are not §Ylaying fake traces§!"
+
+ ## Crisis
+
+ TNO_jamaica_crisis_category_desc_usa:0 "Jamaica is in chaos. What begun as "Black Power" student protests has spiraled into nationawide unrest as JLP gangsters and Rastafarian dissidents have joined the fray.\n\nPrime Minister Manley's control is slipping. He has asked for our help in suppressing the riots, reducing their §OFervor§! enough for things to be smoothed over. But as long as protests continue without change, the risk of them turning to §VViolent§! means only increases."
+ TNO_jamaica_crisis_category_desc_jap:0 "America chose to ignore the Jamaicans' call for independence, and now her arrogance provides us with an opportunity. A coalition of downtrodden Rastafarians, Black Power protesters, and anticolonialist forces have taken to the streets to challenge Prime Minister Manley's administration.\n\nWith our encouragement, their §OFervor§! will continue to grow, and Manley will buckle. Given time, we may also be able to provide the rebels with weapons, for a §VViolent§! uprising is much harder to quash."
+ TNO_jamaica_crisis_fervor_tooltip:0 "£GFX_fervor_texticon §OFervor§! - §Y[?WIN.WIN_fervor|0] / 100§!"
+ TNO_jamaica_crisis_fervor_tooltip_delayed:0 "The overall size and intensity of the riots criss-crossing Jamaica is represented by §OFervor§!. If Fervor is decreased and repressed for long enough for the government to regain control, the riots can be quelled. However, if Fervor reaches a sufficiently high level for a long enough period, §Rthe Manley government's days may be numbered...§!"
+ TNO_jamaica_crisis_violence_tooltip:0 "£GFX_violence_texticon §VViolence§! - §Y[?WIN.WIN_violence|0] / 100§!"
+ TNO_jamaica_crisis_violence_tooltip_delayed:0 "While the protests in Jamaica began as a largely peaceful affair, instigators and gangsters are increasingly turning them §VViolent§!. As either side gains access to more weapons, Violence will continue to rise. High levels of Violence make it more difficult to decrease Fervor through peaceful means, and may lead to §Reven more drastic action.§!"
+
+ 
+ TNO_jamaica_fervor_none:0 "£GFX_fervor_texticon §OFervor§! is §Gcalmed§!"
+ TNO_jamaica_fervor_light:0 "£GFX_fervor_texticon §OFervor§! is §Ysimmering§!"
+ TNO_jamaica_fervor_med:0 "£GFX_fervor_texticon §OFervor§! is §Yinflamed§!"
+ TNO_jamaica_fervor_high:0 "£GFX_fervor_texticon §OFervor§! is §Runrestrained§!"
+
+ TNO_jamaica_violence_none:0 "£GFX_violence_texticon §VViolence§! is §Guncommon§!"
+ TNO_jamaica_violence_light:0 "£GFX_violence_texticon §VViolence§! is §Ymoderate§!"
+ TNO_jamaica_violence_med:0 "£GFX_violence_texticon §VViolence§! is §Ywidespread§!"
+ TNO_jamaica_violence_high:0 "£GFX_violence_texticon §VViolence§! is §Rout of control§!"
+
+ TNO_increase_crisis_violence_low_tt:0 "£GFX_violence_texticon §VViolence§! increases slighty."
+ TNO_increase_crisis_violence_med_tt:0 "£GFX_violence_texticon §VViolence§! increases."
+ TNO_increase_crisis_violence_high_tt:0 "£GFX_violence_texticon §VViolence§! sharply increases."
+ TNO_decrease_crisis_violence_low_tt:0 "£GFX_violence_texticon §VViolence§! decreases slightly."
+ TNO_decrease_crisis_violence_med_tt:0 "£GFX_violence_texticon §VViolence§! decreases."
+ TNO_decrease_crisis_violence_high_tt:0 "£GFX_violence_texticon §VViolence§! sharply decreases."
+
+ TNO_increase_fervor_low_tt:0 "£GFX_fervor_texticon §OFervor§! increases slighty."
+ TNO_increase_fervor_med_tt:0 "£GFX_fervor_texticon §OFervor§! increases."
+ TNO_increase_fervor_high_tt:0 "£GFX_fervor_texticon §OFervor§! sharply increases."
+ TNO_decrease_fervor_low_tt:0 "£GFX_fervor_texticon §OFervor§! decreases slighty."
+ TNO_decrease_fervor_med_tt:0 "£GFX_fervor_texticon §OFervor§! decreases."
+ TNO_decrease_fervor_high_tt:0 "£GFX_fervor_texticon §OFervor§! sharply decreases."
+
+ TNO_decrease_fervor_low_violence_sensitive:0 "£GFX_fervor_texticon §OFervor§! decreases slighty, however higher £GFX_violence_texticon §VViolence§! makes this action less effective!"
+ TNO_decrease_fervor_med_violence_sensitive:0 "£GFX_fervor_texticon §OFervor§! decreases, however higher £GFX_violence_texticon §VViolence§! makes this action less effective!"
+ TNO_decrease_fervor_high_violence_sensitive:0 "£GFX_fervor_texticon §OFervor§! sharply decreases, however higher £GFX_violence_texticon §VViolence§! makes this action less effective!"
+
+ TNO_jamaica_crisis_fervor_not_low:0 "£GFX_fervor_texticon §OFervor§! is no longer §Gcalmed§!"
+ TNO_jamaica_crisis_fervor_not_high:0 "£GFX_fervor_texticon §OFervor§! is no longer §Runrestrained§!"
+ TNO_jamaica_crisis_fervor_medium:0 "£GFX_fervor_texticon §OFervor§! is §Yinflamed§! or §Runrestrained§!"
+ TNO_jamaica_crisis_fervor_high:0 "£GFX_fervor_texticon §OFervor§! is §Runrestrained§!"
+ TNO_jamaica_crisis_violence_medium:0 "£GFX_violence_texticon §VViolence§! is §Ywidespread§! or §Rout of control§!"
+ TNO_jamaica_crisis_violence_high:0 "£GFX_violence_texticon §VViolence§! is §Ywidespread§! or §Rout of control§!"
+
+ ## USA
+
+ TNO_jamaica_crisis_restoring_order:0 "Restoring Order"
+ TNO_jamaica_crisis_restoring_order_desc:0 "With the riots' intensity lowered, the Jamaican government has started to slowly regain control over the nation. Unless the situation escalates, they may finally be able to put this crisis to rest."
+ TNO_jamaica_crisis_restoring_order_effect:0 "The Jamaican government will §Grestore order§!"
+
+ TNO_jamaica_crisis_losing_control:0 "Losing Control"
+ TNO_jamaica_crisis_losing_control_desc:0 "Unrest across Jamaica is at unprecedented levels, with little sign of stopping. The Jamaican government seems wholly unable to address the situation. Unless the government is able to restore some semblance of control, the crisis will soon reach its breaking point."
+ TNO_jamaica_crisis_losing_control_effect:0 "The crisis will §Rreach its conclusion§!"
+
+ TNO_jamaica_crisis_approach_the_students:0 "Court Student Activists"
+ TNO_jamaica_crisis_approach_the_students_desc:0 "Student protests were the genesis for the crisis which Jamaica now finds itself facing. While impassioned, these students are also some of the most rational and amicable among the opposition. Promises of reform might convince some of them to stand down."
+
+ TNO_jamaica_crisis_parley_jlp:0 "Parley with JLP Leaders"
+ TNO_jamaica_crisis_parley_jlp_desc:0 "While supporters of Manley's PNP and the opposition JLP frequently engage in violent gang warfare on the streets. The leaders of the opposition hardly endorse this violent turn of events, and may be willing to work together to curtail some of the violence."
+
+ TNO_jamaica_crisis_supply_police:0 "Supply Local Police"
+ TNO_jamaica_crisis_supply_police_desc:0 "The JCF, Jamaica's police force, are undersupplied and outnumbered by the vast crowds of disenchanted Jamaicans taking to the streets each day. Providing them with the newest in American supplies and armaments will help them better stay on top of the riots."
+
+ TNO_jamaica_crisis_arrest_troublemakers:0 "Arrest High Profile Targets"
+ TNO_jamaica_crisis_arrest_troublemakers_desc:0 "With our assistance, the JCF has kept tabs on a number of leaders of opposition groups. Launching arrests of some of the most outspoken and violent might rile up dissidents, but it will also help to quell the violence which has been growing far too quickly."
+
+ TNO_jamaica_crisis_squeeze_guns:0 "Inspect Shipments"
+ TNO_jamaica_crisis_squeeze_guns_effect:0 "Guns from §Youtside sources§! will be intercepted while Active, reducing their impact on £GFX_violence_texticon §VViolence§!\n"
+ TNO_jamaica_crisis_squeeze_guns_desc:0 "Guns of foreign make have been showing up in the hands of Rastafarian guerrilas and JLP gangsters, clearly supplied by some outside force. We will instruct the JCF to inspect suspicious shipments, in hopes of catching smuggled arms."
+
+ TNO_jamamica_crisis_impose_martial_law:0 "Impose Martial Law"
+ TNO_jamaica_crisis_impose_martial_law_effect:0 "Under Martial Law, £GFX_fervor_texticon §OFervor§! will begin to decay over time, but £GFX_violence_texticon §VViolence§! will start to build!\n"
+ TNO_jamamica_crisis_impose_martial_law_desc:0 "Protests have grown to an unforseen scale, with many ordinary Jamaicans joining the fray. We should instruct Manley to institute martial law, granting the JCF increased freedom to deal with rioters as they see fit. The threat of violence, if nothing else, will convince many to stay home."
+
+ TNO_jamamica_crisis_send_peacekeeping_units:0 "Send in Peacekeeping Units"
+ TNO_jamamica_crisis_send_peacekeeping_units_desc:0 "It was a mistake to address the Jamaican crisis with our hands tied. It is clear that Manley's JCF is incapable of controlling the violence. We must take matters into our own hands, sending in American peacekeepers to restore order by force if need be."
+
+ ## Japan
+
+ TNO_jamaica_crisis_restoring_order_jap:0 "Restoring Order"
+ TNO_jamaica_crisis_restoring_order_jap_desc:0 "With the riots' intensity lowered, the Jamaican government has started to slowly regain control over the nation. Unless the situation escalates, they may finally be able to put this crisis to rest."
+
+ TNO_jamaica_crisis_losing_control_jap:0 "Losing Control"
+ TNO_jamaica_crisis_losing_control_jap_desc:0 "Unrest across Jamaica is at unprecedented levels, with little sign of stopping. The Jamaican government seems wholly unable to address the situation. Unless the government is able to restore some semblance of control, the crisis will soon reach its breaking point."
+
+ TNO_jamaica_crisis_americans_searching_guns:0 "Shipments Being Monitored"
+ TNO_jamaica_crisis_americans_searching_guns_desc:0 "No doubt at the behest of their American puppetmasters, Jamaican police have begun searching shipments for illegal weapons. A portion of our deliveries may be intercepted during this period.\n\n§YEffects while Active:§!\n§FA portion of our §!§Yarms shipments§!§F will be intercepted, reducing their impact on §!£GFX_violence_texticon §VViolence§!"
+
+ TNO_jamaica_crisis_americans_martial_law:0 "Martial Law Imposed"
+ TNO_jamaica_crisis_americans_martial_law_desc:0 "At the guidance of the Americans, Prime Minister Manley has begun the process of instituting martial law across the nation. While this will unavoidably deter some of the protests, it will most certainly cause others to radicalize."
+ TNO_jamaica_crisis_americans_martial_law_effect:0 "Under Martial Law, £GFX_fervor_texticon §OFervor§! will begin to decay over time, but £GFX_violence_texticon §VViolence§! will start to build!\n"
+
+ TNO_jamaica_crisis_spread_propaganda:0 "Spread Inflammatory Propaganda"
+ TNO_jamaica_crisis_spread_propaganda_desc:0 "We will spread propaganda throughout Jamaica affirming the protesters' grievances. We will tell the truth that the United States refuses to acknowledge: Manley is nothing but its puppet, the leader of a repressive regime which unfairly targets minority groups."
+
+ TNO_jamaica_crisis_target_pnp_leaders:0 "Target PNP Leaders"
+ TNO_jamaica_crisis_target_pnp_leaders_desc:0 "In the streets of Kingston, gangsters affiliating themselves with the PNP and JLP trade blows. We can offer one of these young soldiers a better target: a PNP leader, whose whereabouts our intelligence serves have kept close tabs on. Striking the ruling administration, even unsuccessfully, will show the protesters that Manley is falliable."
+
+ TNO_stage_rabblerousers:0 "Incite Rabblerousers"
+ TNO_stage_rabblerousers_desc:0 "Manley's failed government has left many poor and destitute. The promise of payment and protection will certainly be enough to convince a few of them to start scuffles among protesters and police."
+
+ decision_cost_10_convoys:0 "£GFX_convoy_texticon §Y10§!"
+ decision_cost_10_convoys_blocked:0 "£GFX_convoy_texticon §R10§!"
+ decision_cost_25_convoys:0 "£GFX_convoy_texticon §Y25§!"
+ decision_cost_25_convoys_blocked:0 "£GFX_convoy_texticon §R25§!"
+ decision_cost_35_convoys:0 "£GFX_convoy_texticon §Y35§!"
+ decision_cost_35_convoys_blocked:0 "£GFX_convoy_texticon §R35§!"
+ decision_cost_65_convoys:0 "£GFX_convoy_texticon §Y65§!"
+ decision_cost_65_convoys_blocked:0 "£GFX_convoy_texticon §R65§!"
+ decision_cost_100_convoys:0 "£GFX_convoy_texticon §Y100§!"
+ decision_cost_100_convoys_blocked:0 "£GFX_convoy_texticon §R100§!"
+
+ TNO_contact_honduran_cartels:0 "Contact Honduran Cartels"
+ TNO_contact_honduran_cartels_desc:0 "Getting guns into the hands of Jamaican patroits in the heart of the OFN is no easy task. Thankfully, America's backyard is rife with violence and crime. S Kikan has already established ties with petty drug-smugglers in Honduras who may be open to an exchange: We have opium, and they have untraceable guns."
+ TNO_contact_honduran_cartels_tt:0 "§YUnlocks decisions to ready the ports§!"
+
+ TNO_grease_palms_at_harbors:0 "Grease Palms at the Ports"
+ TNO_grease_palms_at_harbors_desc:0 "The cartels were open to providing weaponry, but logistically many challenges remain. While smuggling our cargo through untraceable ships wouldn't be hard, finding friendly harbors willing to turn a blind eye to suspect freight will be trickier."
+ TNO_grease_palms_at_harbors_tt:0 "§YUnlocks decisions to finalize the shipments§!"
+
+ TNO_prepare_the_shipments:0 "Prepare the Shipments"
+ TNO_prepare_the_shipments_desc:0 "The cartels are onboard and the ports are aware of our scheduled deliveries. Now, all that is left is sorting out the logistics of the exchange."
+ TNO_prepare_the_shipments_tt:0 "§YUnlocks decisions to smuggle armaments§!"
+
+ TNO_smuggle_honduran_guns:0 "Smuggle Weapons to Protesters"
+ TNO_smuggle_honduran_guns_desc:0 "We will forward opium to our contacts in Honduras, who will arrange for weapons to be sent to Jamaican ports. There, our insiders distribute these guns across the island. Simple, clean, and untracable."
+
+ TNO_smuggle_honduran_supplies:0 "Smuggle Supplies to Protesters"
+ TNO_smuggle_honduran_supplies_desc:0 "In exchange for opium, our contacts in Honduras will arrange for miscellaneous supplies to be sent to Jamaican ports, put into the hands of protesters. A mix of food, propaganda material, and even luxury goods will keep them in good spirits."
+
+ TNO_Jamaica_Using_Supply_Lines:0 "Our supply route is in use"
+
+ ## BPR
+
+ TNO_trinidad_bpr_category_desc_usa:0 ""
+ TNO_trinidad_bpr_category_desc_jap:0 ""
+
+
+
+ ## Events
+
+ wif_crisis.1.t:0 "A Question of Independence"
+ wif_crisis.1.desc:0 "It was not quite the call Ambassador Miner had expected to hear today. The implications were concerning, as Jamaican Prime Minister Norman Manley laid out the situation developing in his country. "So to be clear," he said after Manley had finished explaining. "There is a push for independence."\n\n"Correct," Manley answered. "The usual suspects. Bustamante, obviously."\n\nMiner grunted. The Jamaican Labour Party was a consistent irritant and thorn in the side of both Manley and the West Indies Federation and Alexander Bustamante was the driving force. A persistent, relentless, and unapologetic anti-colonist who used the Labour Party as a vehicle for his agenda. "He's never been this aggressive before."\n\n"He's not had an opportunity like this before," Manley said. "The rewritten Federation constitution isn't exactly popular. It underrepresents and exploits us, so the common understanding goes. Some concerns are valid, for sure, but he's trying to turn it into something it isn't. Something bigger."\n\n"Certainly," Miner agreed, there was only one thing he was interested in right now. "Are you going to do it?"\n\nA pause on the other end of the line. "That's one reason I'm calling. I believe this referendum could be held and defeated easily. However, things are...unpredictable. The people may view it as weakness if I seemingly give in to Bustamante's demands."\n\nAnother pause. "A victory would be ideal, and it would negate Bustamante as a political problem. Technically, I do not have to entertain this at all - though if I refuse to hold it, it will be unpopular. I would need the support of the United States if I did this. Could I count on you, should that be decided?""
+ wif_crisis.1.a:0 ""I can promise you will have the backing of the United States. Do not give in to Bustamante's grandstanding.""
+ wif_crisis.1.b:0 ""Actually, if you believe you have the votes, I would recommend you strongly consider turning Bustamante's gamble against him.""
+
+ wif_crisis.1.a.tt:0 "Calls for independence will be §Yignored§!."
+ wif_crisis.1.b.tt:0 "An §Yindependence referendum§! will be held."
+
+ wif_crisis.2.t:0 "The Weighted Dice Rolled"
+ wif_crisis.2.desc:0 "Another day, another call - and this was one Ambassador Miner had been awaiting. Ever since conveying the support for a referendum, there was an expectation that the Prime Minister was going to allow it to go forward. The State Department was already preparing statements, and while he was not privy to certain other conversations, he was quite certain that there were more clandestine measures being planned.\n\n"I'm going to hold the referendum," Norman Manley said on the line after the usual pleasantries had been exchanged. "I've considered the risks and benefits. This is the best decision."\n\nAs expected, and he was personally pleased that the Prime Minister had considered and approved his suggestion. "Excellent. Is the event already scheduled?"\n\n"From start to finish. The voting date was determined, and a campaigning period set," Manley affirmed. "The result will strengthen my administration, humble and render Bustamante impotent, and also serve as a vote of confidence in the Federation."\n\n"You don't need to sell me on the benefits," Miner said. "So long as you take this seriously. Campaigns have a habit of humbling the overconfident. Ask any politician here."\n\n"Do not worry, we are not going to let Bustamante dominate the narrative," Manley assured him. "At the end of this, I promise that Jamaica will remain in the Federation, and make it stronger than ever."\n\nMiner smiled. "You have the full confidence of the United States, Prime Minister. And don't worry - we will not be idle either. Jamaica is the glue that holds the Federation together. Rest assured that we will do everything in our power to make sure this referendum is soundly defeated.""
+ wif_crisis.2.a:0 "American diplomacy at work."
+
+ wif_crisis.3.t:0 "United States Rejects Jamaican Independence Bid"
+ wif_crisis.3.desc:0 "Anger and protest has gripped Jamaica in recent days, as allegations have surfaced that the United States privately encouraged and backed the decision of Prime Minister Manley to ignore calls for a referendum on independence. This demand was sparked after plans were announced to rewrite the Jamaican constitution to strengthen its ties to the West Indies Federation, and received support across the Jamacian political spectrum.\n\nOpposition leader Alexander Bustamante has called it "an act of naked imperialism", and the Jamaican Labor Party has denounced the government, and begun organizing protests, citing fears that the new constitution will result in exploitation. These protests are expected to fall on deaf ears, as most agree that it is a clear sign that unless the United States gives their blessing, independence will remain a dream."
+ wif_crisis.3.a:0 "American hegemony will not be challenged."
+
+ wif_crisis.4.t:0 "Down in the Indies"
+ wif_crisis.4.desc:0 "One would think being the ambassador to the West Indies would be a prized posting within the ranks of the State Department, a coveted assignment to the sunny shores of the Caribbean. To Robert Graham Miner, he had one of the most unenviable positions of any statesman in service of the United States.\n\n"A maritime dispute, fish? Uh-huh, a small lagoon? Yeah, where is this again? Sint-Martin, Maarten, whatever, okay, and they can't handle this themselves? They're calling me because the Feder-. Christ, why doe-, alright, alright, I'll charter a boat later. Yeah, Goodbye."\n\nPutting down the phone with a look of disdain, the Ambassador Extraordinary and Plenipotentiary to the West Indies Federation nursed at his temple. It seemed every other week he'd be getting a phone call to mediate a dispute between the Federation's member states. Local authorities squabbling over resource rights, land, and in this case, maritime boundaries.\n\nAs Miner eyed the bottle of Jamaican rum on his shelf, he found himself forced to wonder if his predecessor's resignation had less to do with the post-Dulles shake-up of the State Department, but rather the sheer difficulty of dealing with the confused amalgamation of colonies from three empires lacking any sort of-. ring, ring. Sonuva-\n\n"Yes, hello, this is Robert Miner, Ambassador t-, yes, a-, wai-, a dispute, over what? Yes, yes, I'll be sure to look into the matter, will there be...""
+ wif_crisis.4.a:0 "Less tropic paradise, more tropic paradox."
+
+ wif_crisis.5.t:0 "A Manley with a Plan"
+ wif_crisis.5.desc:0 ""Ah, Prime Minister Manley, what can I do for you today," Miner responded with more cheer than he felt. Ever since the Guyana debacle, it seemed the disputes in the West Indies had only gotten worse, as the locals attempted to take advantage of America's seeming weakness.\n\n"Ambassador, it is good to hear from you," came the Jamaican PM's accented voice, "given recent events, I wasn't sure you'd be available."\n\n"Yes, well, it's certainly been a busy few months, but I trust that this isn't a mere courtesy call. What do you wish to discuss, Prime Minister?"\n\nManley, for his part, cut right to the chase. "Ambassador, as you are familiar by this point, the West Indies Federation is not what you would call the most stable of nations. Having bounced from one crisis to another ever since its formation in the aftermath of the War."\n\n"Your point, Prime Minister?"\n\n"As your President Lincoln once said, 'A house divided against itself cannot stand,' the Federation cannot continue in its present state. What I'm proposing is a plan to call a Constitutional Convention to strengthen the Federation's foundations and ensure its success."\n\nThere was a brief silence as Miner mulled over the idea. "Prime Minister, I need no convincing of the Federation's dysfunction, but how would I convince Washington of the merits of your plan. After all, nothing will be off the table at a Convention."\n\n"I wouldn't worry about our relations with the United States," Manley began. "We are all aware of the threat posed by the Fascists in both oceans, and a stable ally would be much preferable to one in a constant state of crisis, wouldn't it? Secondly, after the intervention in Guyana, the United States has been suffering from a surfeit of what your people call 'bad publicity.' A convention would do much to allay local concerns about the continued influence of the Colossus of the North."\n\nMiner had to admit, Manley had a point, now all he had to do was persuade D.C."
+ wif_crisis.5.a:0 ""You've convinced me, Prime Minister, and hopefully Washington as well.""
+
+ wif_crisis.6.t:0 "Chaos at Convention Day"
+ wif_crisis.6.desc:0 "Patrick Buchan-Hepburn was an inexpressive man, one of the many British exiles spread through the former territories of the British Empire. To Miner, he was the perfect man to oversee the West Indies Constitutional Convention.\n\n"Order! The Convention on the Federation of the West Indies is called to order. The clerk will now read the resolution under debate."\n\nA practiced voice rang out. "Resolved that the Federation of the West Indies recognizes the right of all citizens, including... linguistic minority population of a member nation." A few scattered shouts of approval from the French and Dutch delegations were quieted.\n\n"The resolution has been read. The..."\n\nAnd so it went, resolutions on language, trade, and law moving (relatively) smoothly, through the convention. Miner counted himself lucky that the Trinidad PM had seen fit to go through him before trying to get the Airforce to vacate Chaguaramas. As if the DoD would agree to downsize anything near the canal.\n\n"...through an upper house divided equally between the Federation's member states."\n\nThere was a brief silence before the chamber erupted in chaos. Miner grimaced as the delegates clashed amongst themselves.\n\n"Order! Order!  This chamber will come to order! The Honorable..." It took 15 minutes before Hepburn was able to get the room under control, another 5 for it to quiet down enough for Bustamante to speak.\n\n"Thank you, Mr. Speaker," Bustamante rose. "This resolution is nothing less than an insult to the good people of Jamaica, who despite making up... I cannot in good conscience support Jamaica's continued membership in the Federation and implore every Jamaican patriot to accompany me in abandoning this failed enterprise."\n\nMiner winced as he watched Bustamante and the members of the Jamaican Labour Party vacate the convention. Miner nursed a headache, and couldn't help but ponder..."
+ wif_crisis.6.a:0 "How in the world is the Federation still standing."
+
+ wif_crisis.11.t:0 "An American Illusion"
+ wif_crisis.11.desc:0 "Two men sat in the lobby of the Foreign Ministry building, early in the morning in a day that promised to be busy. "Fake." Tashiro said, unimpressed as he put the newspaper down. "A show put on by the Americans."\n\nSachi wasn't so sure. When he'd seen news of Jamaica's independence referendum from the West Indies Federation, he'd been skeptical of the intention behind it - until he'd looked at the reasons behind it. "The constitutional change in the Federation is unpopular in Jamaica. Supposedly, it's what triggered this in the first place."\n\n"And that changes what I said?" Tashiro poured himself some more coffee, the wrinkles on his face even more furrowed. "When it gets defeated, it's paraded around the OFN. This is irritatingly transparent. Do you really think the Americans would let this happen if they weren't sure it would fail?"\n\n"Not really," Sachi was forced to admit. "However...there is a chance it could be. Bustamante appears legitimate, and the grievance is real. I wouldn't say this should be dismissed."\n\n"Take this from someone who's been in this, and watched the American policy for years now," Tashiro took a sip of his coffee. "Let's assume this is real. Do you think the Americans will be idle? They'll rig the votes, smuggle in cash, and assassinate troublemakers before they let Jamaica leave the Federation. That is not speculation, that is a fact." He smiled. "The Americans play dirty. Believe me - I'd like to be proven wrong, but I'm not. Don't get your hopes up. Or that we'll get involved either."\n\nSachi didn't really have a good response to that. Tashiro was probably right, but there was something that told him not to make assumptions. Yes, the referendum would probably fail, yet there was a thought that he couldn't get out of his head."
+ wif_crisis.11.a:0 "What if it succeeded?"
+
+ wif_crisis.12.t:0 "An Unexpected Opportunity"
+ wif_crisis.12.desc:0 "Officer Krakouer put down the phone, his mind racing from what he'd just been told.\n\nAn independence referendum in Jamaica. The powerhouse of the West Indies Federation at risk of leaving. The world was abuzz about the possibilities and implications - and now so was the Reich. German intelligence wanted an immediate assessment.\n\nAs he began going through to find old and recent documents on Jamaica and the wider West Indies Federation, he considered the facts. Jamaica didn't so much as sneeze without American permission, and Manley was a reliable American stooge. America had expressed support for the referendum, which meant they either felt confident enough to give the people a symbolic vote - or they were under pressure to do this.\n\nWith a stack of files, Krakouer sat down and started reading. Alexander Bustamonte was the most prominent opposition to Manley, and an outspoken anti-colonialist and nationalist. A useful distraction, though directly assisting someone of such impure blood was out of the question. An Anglo minority on the island, still loyal to the King, would be a perfectly serviceable proxy instead.\n\nFurther research - and a delivered newspaper - revealed the cause for the unrest. A rewritten Federation constitution, one which purportedly was unfavorable to Jamaica. He smiled as he read that. Perfect, that could be the focus here. No one liked to be exploited, and the people saw through their American puppet.\n\nIt was, admittedly, a long shot, and Krakouer was under no illusions this would be an easy task. Yet if they succeeded, not only would they embarrass the Americans in their backyard, it would also mean the beginning of the end for the West Indies Federation. He quickly wrote down a list of agents to use, and contacts in the country. It was time to get to work."
+ wif_crisis.12.a:0 "An enemy of my enemy is my friend."
+
+ wif_crisis.15.t:0 "A Crisis of Faith"
+ wif_crisis.15.desc:0 "Delroy silently counted numbers in his head, trying to keep any resemblance of peace in his troubled mind, for the gaze outside his window brought nothing but harrowing dread to the barely adult boy, dreadlocks falling on his face akin to a veil, hiding his expression from the sterner man on the back of the truck. Delroy thought of his mother, working for barely any money to feed him and his siblings, a family of six. He thought of the expression of the devils dressed as "policemen", emotionless blocks of muscle and flesh, beating his father to hospitalization for the crime of simply speaking his mind against one of the "fine" citizens of Jamaica.\n\nThe boy's mind came to God, whom he prayed every day for things to change. And for Reverend Claudis Henry, who told him that God provides change, but men are the ones that bring it forward.\n\nHe felt the old, worn rifle in his hand, he sincerely pondered his relationship to God, and what he is about to do? His thoughts came to his mother is waiting for him back home with a warm stew, his youngest sister waiting with bated breath for his good night story for her to sleep. Of the second oldest, his brother of fifteen, who would pick up the slack if anything happened to him.\n\nIs this just? Is this God's trial for him? All because of who he was and the pride of his family in their culture?\n\nThe truck stopped, and his questions came to a pause. Outside, laid the house of one of fat, bloated mayors on the paycheck of the Government. They've got the intel of their security, and right now will be the best opportunity as any to show they would not be ignored, no matter how much the Federation tried.\n\nDelroy silence the doubts of his mind, and the remorse in his spirit, as stepped out of the truck, guns blazing."
+ wif_crisis.15.a:0 "His spot at the table would be empty,\nhis bowl gone cold."
+ wif_crisis.15.a.effect:0 "We will be §Yunable to interfere in the referendum§! as we assist with the response to the guerrillas."
+
+ # Referendum Passes
+ wif_crisis.14.t:0 "Jamaica Declares Independence"
+ wif_crisis.14.desc:0 "Shockwaves rippled across the international community as news of Jamaica voting to leave the West Indies Federation was announced. Despite opposition from Prime Minister Manley and substantial lobbying from the United States, it was not enough to sway the people into remaining in the Federation. Despite this defeat, the Prime Minister has vowed to abide by the will of the people.\n\nAlexander Bustamante of the Jamaican Labor Party, and primary proponent of the referendum, has hailed this as a great victory for the Jamaican people, stating that "Only we will determine our destiny!"\n\nAnalysts question the future of the Federation, as Jamaica was the primary economy of the bloc, and consider it an ominous sign that the influence of the United States has been shown to be far weaker than expected."
+ wif_crisis.14.a:0 "Is the United States losing her grip?"
+ wif_crisis.14.b:0 "An unfortunate oversight." 
+
+ # Referendum Fails
+ wif_crisis.17.t:0 "Jamaica Stays in the West Indies Federation"
+ wif_crisis.17.desc:0 "Many within the OFN and United States now breathe easier, as news broke that Jamaica voted to remain in the West Indies Federation. The vote ensured the largest economic presence in the bloc would remain, and acted as a vote of confidence in the administration of Prime Minister Manley, a consistent and strong supporter of the Federation.\n\nWith the mandate of the people, the Prime Minister has elected to proceed with his planned constitutional rewrite. Despite it being the driving force behind the referendum, Prime Minister Manley has stated that he considers the issue now resolved, and will proceed, promising Jamaicans that strengthening ties to the Federation will only lead to prosperity - while also permanently bringing the nation into the American sphere of influence."
+ wif_crisis.17.a:0 "As expected."
+
+
+ # Jamaican crisis
+ wif_crisis.100.t:0 "News Most Unwelcome"
+ wif_crisis.100.desc:0 "Politically agitated violence-" Robert began to say aloud, stopping himself halfway through.\n\nThat was a habit that had to go, Miner decided. Ever since he was a child he had never wrapped his head around reading in his own mind. He had caught some laughs for the habit during his service in the navy during the Second World War, but even now, at the height of his diplomatic career, he seemingly couldn't let it go. With a sickening sense of self-embarrassment, he noticed a couple snickering in his direction.\n\nSighing, he continued to read the newspaper, this time within the lump of matter Robert called a brain.\n\n"Politically agitated violence has broken out in the streets of Kingston throughout the past month, and more recently, across the state of Jamaica as a whole. Numerous incidents have occured, from the razing of shanty towns owned by Jamaica Labour Party affiliates to instances of not only vandalisation, but the destruction of People's National Party property, including multiple restaurants and cafes in broad daylight. Both Prime Minister Norman Manley and Labour Party leader Alexander Bustamante have yet to speak out about the escalating violence..."\n\nPutting the newspaper aside, Robert mentally compared the current events occuring in Jamaica to the situation in the States. Even in a foreign nation he could not escape the woes of his home, it seemed. He sighed a happy little sigh to himself. At least he was languishing the pointlessness of civil struggle and the battle for human rights within a tropical bar. What more could Robert ask for?
+ wif_crisis.100.a:0 ""Another drink please!""
+
+ wif_crisis.101.t:0 "Reprisal"
+ wif_crisis.101.desc:0 "Lloyd hadn't witnessed the Portmore Massacre, but he was about to witness the reprisal.\n\nThe police force came an hour before midnight, blaring sirens and thundering down the dirt roads of Lloyd's suburb. As he peaked from his window, he marvelled at the amount of dust the trucks kicked up, even at the dead of night. In response, their neighbour's dog, an old, massive English Mastiff, had gone berserk. It was a wonder the thing didn't bark its voice box out, but soon enough the dog's voice was joined by the cries and shouts of the human neighbours.\n\nHis father was the first to burst into his room. Between his hands he loosely held a flag of old Ethiopia, and without saying a word to his teenage son, tore down Llyod's own flag. His mother rushed in shortly afterwards, a lighter in her hand. The couple began to burn the two flags, and as Lloyd's father left the room with the burning flags in tow, his mother pulled her son's curtains shut. "Don't open that door for anybody Lloyd. Only for me and your father. Lock and bar it, and be quiet." And with that, she slammed the door behind herself.\n\nShouting echoed down the streets, and as Lloyd again peeked from his curtains, he could see three of his neighbours from across his street being pulled to the curb and pushed to their knees. Two of the three were rastas as well, and both were being manhandled by two knife wielding soldiers. Gripping the top of their scalps, they slashed their way through the black dreadlocks on the top of the rasta's heads. Surprisingly to Lloyd, neither of them cried out, but both looked to be in pain.\n\nDown Lloyd's street, similar events were occurring. Any rastas unfortunate enough to have not burnt their flags in time were having the soldiers doing it themselves. Many more dreadlocks had been cut and thrown to the dirt. Windows were smashed and doors kicked in... It was too much. With tears welling up in his eyes, Lloyd shut his curtains and crawled underneath his blankets, hoping for an end to his nightmare."
+ wif_crisis.101.a:0 "Jamaica's anguish."
+
+ wif_crisis.102.t:0 "A Strongly Worded Letter"
+ wif_crisis.102.desc:0 "Miner's workdays were packed with incidents. How could a nation with this many "incidents" continue to function? The answer; it couldn't. Every other day another Rastrafrian village would be burnt down, another Jamaican Labour Party affiliate attacked, or a People's National Party business destroyed by hateful mobs. Jamaica was tearing itself at the seams, and it was only a matter of time something big enough to bring down the whole state would occur.\n\nRobert looked at a report sitting on his table, headlined "Walter Rodney". If he had a television set, Robert could have been looking at his face too, news channels had been debating his removal from the university for most of the day now. For the public it was news, for Robert, it was  just another incident to deal with. Rodney was a Guyanese intellectual working in tandem with the Black Power movement in Jamaica. Nothing inherently wrong with that in Robert's eyes. Apparently it was wrong in somebody's mind, as the man was fired just today from his position at the University of the West Indies and expelled from Jamaica as a whole. And also apparently the removal ordered by the Jamacian government from a university Robert had nothing to do with was suddenly a diplomatic issue requiring Miner's most delicate touch.\n\nWhen the phone rang out again for the hundredth time today, Miner tore out the plug from the wall.\n\nHe returned to his desk with a bottle of rum, but realising the brown-tinted glass was empty, he threw it against the wall of his office, smiling as it shattered into a hundred pieces. It was the most enjoyable activity he had performed all day.\n\nIt was too much. Too much damn work, and for what? The nation was going to eat itself alive, regardless of what one lowly ambassador wanted. If there was a way to angrily grip a pen, Robert just did it. Starting with a blank piece of paper, he scribbled and scribbled and scribbled the rest of his day away. It was nearing dusk when he finished the letter, with an acute case of writer's wrist to show for it. Just before tucking it away into a white, fresh envelope, he re-read the opening line aloud."
+ wif_crisis.102.a:0 ""I hereby resign as ambassador for the United States of America.""
+
+ wif_crisis.103.t:0 "Leave it to Miner"
+ wif_crisis.103.desc:0 "The phone was ringing off the hook today, producing a dull clatter that had tormented Ambassador Miner for several hours. Every damn busybody with a few dollars in Jamaica wanted an answer. When had his job turned from making deals to soothing fears?\n\nIt was the damn Manley administration, of course. After the banning of Walter Rodney, they had let the situation get out of hand. It started with a few students, peaceful protests, simple stuff. Now, it seemed like every damn student with a bone to pick with Manley was out on the street. Rastafarians marched in droves claiming police brutality. Bustamante and his crew of JLP "anti-colonialists" were on every TV set with street gangs in tow. Norman Manley found himself forced to call a state of emergency. And then things got violent. \n\nThe papers called it "worse than anyone had imagined." It was worse than anyone in the State Department had imagined at least - Miner had to spend a full hour getting chewed out by the Secretary of State. They would have fired him if anyone else wanted this blasted mess. Instead, all Miner was left with was one command. "Fix it."\n\nAnd so, Miner would fix it. The vandalism, the violence, the possibility of full-blown collapse - Miner would find some answer for it all. Or maybe he wouldn't. Frankly, in the burning wreckage of Jamaica, it didn't seem like there was one."
+ wif_crisis.103.a:0 "The midnight oil burns on..."
+
+ wif_crisis.104.t:0 "An Unexpected Vacation"
+ wif_crisis.104.desc:0 "It was good to be back in Japan. Most Jamacians hadn't seen a Japanese national once in their life, and didn't look upon Hayao too kindly because of it. They would look upon him a lot less kindly if they knew what his actual purpose was in Jamaica.\n\nHis time in the Caribbean nation was well worth it however. Keeping careful tabs on the nation from inside the nation was easier than doing it from Japan, and it led him to understand Jamaica far better than any of the men sitting in front of him did. The recent chaos on the island lended itself to anti-Americanism, a fact of which Hayao was going to make very clear to the assembled higher ups.\n\n"Allow me to introduce the current situation in Jamaica. The state of emergency issued by the Jamacian Prime Minister Norman Manley has intensified an already tense situation, one of which we can take advantage of. The main proponents of this chaos are Jamaica Labour Party Leader Alexander Bustamante, Black Power affiliates and the religious social group titled Rastafarianism. They have formed a sort of unofficial coalition in the nation, a coalition which rejects American imperialism on the island and seeks to overthrow the current government."\n\n"So, I suggest to you this, as I have no way to do this myself, so I will leave the suggestion to you now. Find a way to influence, fund or arm the coalition, and we could find ourselves a new ally in America's backyard.""
+ wif_crisis.104.a:0 "Allies separated by a continent..."
+
+ wif_crisis.105.t:0 "A Greater Good"
+ wif_crisis.105.desc:0 "Slowly, painfully, the protests were coming to an end. Manley knew that it was going to still be a long ride until the end, but he could see the end in sight. Now it was up to him to make sure it ended peacefully. The good news was that the path to take was clear. The bad news was that it relied on another putting the country above himself.\n\n"You've looked better, cousin," Alexander Bustamante said over a bare table with mugs of tea, in an empty room at an undisclosed location. While they were enemies in the public, privately was another matter. Manley wouldn't say they were friendly, but there was a mutual respect between them, and an understanding that only family could have with each other, distant as it may be.\n\n"You're not much better," Manley said, taking a sip of tea, before getting to the heart of the matter. "The violence has to stop. Permanently."\n\nBustamante nodded sharply. "It's gone too far. The chaos, the violence..." he pursed his lips. "I didn't want this. You know I didn't want this."\n\n"I know that," Manley agreed. "Help me fix it. We've calmed down the worst of the riots, but you are a figurehead. We both know the fanatics will only listen to you. Your entire party needs to be deradicalized - and you know it does."\n\nA sigh released from his cousin's lips. "Easier said than done."\n\n"But it can be done." Manley let the sentence linger. "I know we don't agree on much politically, but we both want the clashes to end. Help me restore order. For the good of our nation."\n\nBustamante appraised Manley for a long minute, closed his eyes, and nodded."
+ wif_crisis.105.a:0 ""For the good of our nation.""
+
+ wif_crisis.106.t:0 "A Family Matter"
+ wif_crisis.106.desc:0 ""Tell me," Norman Manley's voice was low, tired, and hopeless. His features were gaunt, and his eyes those of a man who had not slept well in days. "Is there anything you can do?"\n\nAlexander Bustamante was slow in answering. The empty room the two public rivals met was devoid of anything but a table and chairs. Despite everything, despite the public spats, the politics, and different beliefs... they were still family, and they could trust each other to be honest, even now. With that said, Bustamante knew his cousin wasn't going to like honesty at this moment.\n\n"No, I can't. They're too angry. I can condemn the violence but..." he shook his head. "Those people? They stopped listening to me a long time ago. There's only one thing that will satisfy them now."\n\n"I step down." Manley's voice was almost a whisper.\n\n"Yes," Bustamante said simply. "You step down. Consider it. If you do, I promise that I'll be able to reign the extremists in. You'll be safe, and your people will also be safe. All they want is you gone. Without an enemy, I can curb their worst impulses." He was silent for a moment. "Norman... this is for the greater good. If you don't... then the violence isn't going to stop. It has to end, and only one of us has the power to do that now."\n\nManley folded his hands. Bustamante could see the conflict play out through his eyes. He didn't want to give up, he didn't want to concede. He was looking for some way - any way - that this could be saved. And he was going to find nothing. If he had thought of something, they wouldn't have met.\n\nWith a defeated sigh, he bowed his head and the capitulation of Norman Manley was complete."
+ wif_crisis.106.a:0 ""If it will end the violence, I'll resign.\nThere isn't another choice.""
+
+ wif_crisis.107.t:0 "Bloodless Coup in Jamaica"
+ wif_crisis.107.desc:0 "What began as peaceful protests by Black Power activists in Kingston quickly devolved into nationwide chaos, which has today reached its climax with the forced resignation of Prime Minister Norman Manley.\n\nJamaican Labour Party leader and Manley's rival Alexander Bustamante has taken the reins in his stead, little more than a figurehead for the loose coalition of Rastafaris, anti-colonialists, and other malcontents who have taken to the streets over the past weeks. During a rushed inaugaral address, Bustamante announced that Jamaica will move to immediately secede from the West Indies Federation. He also decried the Organisation of Free Nations, which he called a "significant factor" behind the issues plaguing Jamaican society.\n\nA frustrated and fractured nation now waits to see if things will truly be better under Bustamante.\n"
+ wif_crisis.107.a:0 "How will the Federation react?"
+
+ wif_crisis.108.t:0 "Unrest Quashed in Jamaica"
+ wif_crisis.108.desc:0 "A surprising reversal of fortunes has occurred in Jamaica, as protests which had gripped the nation over the past weeks have settled to a simmer. Prime Minister Norman Manley had faced heavy opposition from the Black Power movement and the Jamaican Labour Party over his role in the West Indies Federation's recent constitutional rewrite. Through careful negotiation and the imprisonment of several key leading figures within the protests, Manley has restored control over the island.\n\nIt appears that Manley and the Federation he worked so hard to build, have earned the approval of the majority of Jamaicans. Despite its recent struggles, it seems that the Federation shall remain united, no doubt pleasing its American allies."
+ wif_crisis.108.a:0 "The Federation lives to see another day."
+
+ # Trinidad Negotiations
+ 
+ wif_crisis.7.t:0 "Return to the Port"
+ wif_crisis.7.desc:0 "The withdrawal of Jamaica from the West Indies Federation had been a headache for everybody, for Robert Graham Miner, the US ambassador in the country, and more recently, for Prime Minister of Trinidad Eric Williams. To build a path forward, the charismatic Trinidadian has called for a dialogue with every remaining Federational Prime Minister in his very own capital, the Port of Spain.\n\nAfter a few introductions and welcoming speeches, Williams looked prepared to read out his own speech. "While Jamaica's exit from the Federation was unfortunate, we are not required to follow in their footsteps and dissolve the rest of the Federation. We are already a small country, but one I am proud of, and one I assure you can be led to prosperity. The Federational system has worked well for us in the past, but not well enough, so it seems."\n\nWilliams took a quick breather, curtly glancing at the ambassador seated across from him. "So what I suggest is this; to rebuild the Federation as something new." He paused again. "These West Indies were created as a strange hybrid of post World War Two nation building and foreign intervention, and definitely were not created to work for the West Indies. I suggest a total overhaul from a federational system to a unitary state, with the capital centered right here, in the Port of Spain."\n\nThe solution was a divisive one, at least in Robert's mind. Discussion had captured the room, mostly between the various prime ministers representing the various nations of the Caribbean. Most of them spoke of an infringement on their nation's rights, a fact of which Williams took notice of. "As a last note, and I do not intend for this to serve as blackmail, but if my proposal is rejected, I cannot be sure if I will be able to maintain Trinidad as part of the Federation. Mr Miner, perhaps you would like to weigh in on the issue?"\n\nIf his comment would've added more discussion into the room, Robert would never know. The rest of the committee had fallen silent, and all eyes now looked to Robert. With a sigh, he brought the microphone towards himself."
+ wif_crisis.7.a:0 "Williams' ideas have merit, move along with his proposal."
+ wif_crisis.7.a.tt:0 "We will push for a more §Yunitary model§! for the Federation."
+ wif_crisis.7.b:0 "The Federation has worked well so far"
+ wif_crisis.7.b.tt:0 "We will suggest the Federation keeps its §Ydecentralized model§!."
+
+
+ wif_crisis.8.t:0 "Trinidad Declares Independence"
+ wif_crisis.8.desc:0 "In the aftermath of negotiations following the Jamacian exit from the West Indies Federation, the Trinidadian state has decided to follow in Jamaica's footsteps and has since declared independence from the very same Federation. After Eric Williams' proposal to dissolve the Federation in favour for a unitary, Trinidad led state had seemingly fallen through with the other member states, it was decided that the only suitable course of action was to exit the Federation altogether.\n\nWhilst the decision was made to preserve Trinidad's economic and political integrity, Williams had reaffirmed that trading with the OFN will not cease and has also gone on to ensure OFN commitments are met. Despite reassurements of Grantley Adams, the writing on the wall seems hard to ignore for many Caribbeans..."
+ wif_crisis.8.a:0 "Can the remaining members salvage the Federation?"
+
+ wif_crisis.9.t:0 "A Unitary Caribbean"
+ wif_crisis.9.desc:0 "In the aftermath of negotiations following the Jamacian exit from the West Indies Federation, Trinidad and its charismatic Prime Minister Eric Williams have secured the West Indies' continued independence not as a federational state, but as a unitary state. With this deal, it seems the rivalry between the Trinidadian Prime Minister and the Federational Prime Minister, Grantley Adams, has been finally healed, and both are now working to draft a new constitution for the reformed state.\n\nWhile opposition from the "Little Eleven" as been noticeable as they see the change as the strangling of their respective states' liberties, most Caribbeans welcome Williams' new deal due to the defunct federation's inability to grow or develop. The effects of Jamaica's withdrawal from the federation have certainly been harsh, but a brighter future is now in sight.\n"
+ wif_crisis.9.a:0 "Will the Union endure the storm?"
+
+
+
+ # Post-Trinidad Negotiations
+
+ wif_crisis.30.t:0 "Federational Finality"
+ wif_crisis.30.desc:0 "He had returned. Trinidad's independence had put a serious damper on the conference hall, but he had returned, most likely for the final time. Robert had overseen not one, two failed negotiations and had been sent through the wringer in Washington as a result. Fortunately, the West Indies Federational Prime Minister, Grantley Adams, had called a final hearing in the Port of Spain, gathering as many Federational leaders as he could to hear his own, final solution. Both the ambassador and the Caribbean coalition sat in silence, waiting for Adams to give his proposal.\n\nAfter a few welcomes and introductions, Adams began. "As we all know, Jamaica and Trinidad represented a massive amount of the West Indian economy, mostly due to both of the islands being more developed and more populous than any other West Indian state. Their absence is already beginning to hit us financially, and if we allow the situation to continue, it is very possible living conditions in our own states could lower."\n\nAdams paused, and looked to Miner for his next statement. "So, Mr Ambassador, this is more of a proposal regarding you as anybody else in this room. The West Indies Federation formally requests economic support from the United States."\n\nHe paused again. It was true that Robert's higher ups could definitely provide funding, but not without a reason for doing so. Washington would not throw money into the ocean without the ocean giving something back. In the ambassador's mind grew two options. In return for American funding, the Federation must allow close military, economic and political partnership with the States. While the ambassador is unsure of this option's success, it is better than nothing.\n\nThe other option; a flat denial."
+ wif_crisis.30.a:0 ""The US can help, if you agree to these terms..."
+ wif_crisis.30.a.tt:0 "We will push for §Ycloser oversight§! in exchange for §Yeconomic support§!.\n\n§YIf accepted:§!"
+ wif_crisis.30.b:0 ""I cannot offer any more, Mr. Adams.""
+ wif_crisis.30.b.tt:0 "The fate of the Federation §Ylies in their hands§!."
+
+ wif_crisis.31.t:0 "A Good Conscience"
+ wif_crisis.31.desc:0 "That settled it.\n\nWhilst Adams did truly believe in a Caribbean unity, this was too far. In exchange for his fanciful ideas of a Caribbean nation, he would be practically signing away the independence of a whole country to achieve it.\n\nAs Adams scanned the room, it appeared most of the representatives felt the same way. Some seemed fine with the idea, but most had begun speaking in whispers, shaking their heads towards each other and towards Adams. An uneasy quietness had descended across a room which had overseen some of the longest, loudest arguments Adams had ever heard.\n\nWith a furrowed brow, a deep frown and a pair of crossed arms, Adams realised that the ambassador needed an official response to conclude the meeting, and so brought the microphone towards himself."
+ wif_crisis.31.a:0 ""I could never agree to that in good conscience.""
+
+ wif_crisis.32.t:0 "A Settled Conscience"
+ wif_crisis.32.desc:0 "Robert's statement immediately triggered discussion, some discussions louder than others. It was hard to tell what the members thought of the ambassador's comment. Some were definitely enraged by the proposal, throwing around the word "imperialist" more than once during their hushed discussions, but others seemed willing to work with the proposal.\n\nSensing the degradation of the members, Adams spoke up. "Alright, alright, that's enough. If we can proceed, I would like to organise a few comments from the committee. Uh, yes, you can go first."\n\nFor a good thirty minutes, Robert listened as each member gave their thoughts on the proposal. Most of the members described the proposal as "workable", but wished for more time to speak with their own constituents and respective states to come up with an official response. After the thirty minutes was up, Adams retook the stage.\n\n"As the rest of the committee said, we can accept the proposal you've given. It is definitely workable, but all I would like to add to it is a deadline, so they, as the committee members say, can speak with their respective states." He now looked to Robert. "Mr Ambassador, would you like to respond to that?"\n\n"That is certainly a reasonable request. A week from now seems like a good time to adjourn again, at least on my end." At that, Robert returned to silence, looking towards Adams. "I can agree to that. Alright, and with that, allow me to conclude today's meeting.""
+ wif_crisis.32.a:0 "A little more stable."
+
+ wif_crisis.33.t:0 "The Little Eleven Endure"
+ wif_crisis.33.desc:0 "Faced with the departure of its two largest population and economic bases in the region and a myriad of other political issues to deal with, the West Indies Federation seemed certain to implode into its constituent islands. However, the remaining Caribbean states, dubbed the "Little Eleven", have agreed to renew the Federation, even against the loss of Jamaica and Trinidad.\n\nFaced with the recent turmoil of his home nation, West Indian Prime Minister Grantley Adams is still confident in his country's ability to rebound from the incident and remarked that every nation must overcome a few stumbles to come into their own. Only time will tell whether these stumbles will result in the fall of the Federation at a later date, or if the Little Eleven will eventually begin to thrive."
+ wif_crisis.33.a:0 "We wish them luck. They'll need it."
+
+ wif_crisis.34.t:0 "America's Eleven"
+ wif_crisis.34.desc:0 "Faced with the departure of its two largest population and economic bases in the region and a myriad of other political issues to deal with, the West Indies Federation seemed certain to implode into its constituent islands. However, with the aid of US economic support, the remaining Caribbean states, dubbed the "Little Eleven", have agreed to renew the Federation.\n\nIn exchange for US economic support, Federational Prime Minister Grantley Adams has allowed extensive US influence into politics on the Little Eleven, also allowing the extension of US leased bases in the Caribbean and deepening cooperation between the two nation's militaries. With American aid, Adams is still confident in his country's ability to rebound from the incident and remarked that every nation must overcome a few stumbles to come into their own."
+ wif_crisis.34.a:0 "Is freedom the price to pay for stability?"
+
+ wif_crisis.35.t:0 "The Dissolution of the West Indies Federation"
+ wif_crisis.35.desc:0 "After several days of waiting, the world has its answer: the West Indies Federation is no more. The constituent "Little Eleven'' islands comprising what remained of the Federation following the departure of Jamaica and Trinidad have issued a joint statement announcing that that island federation has officially come to its end. Indeed, according to many analysts, this was only natural for the bloc given the twin losses of the first and second largest economies of the group in Jamaica and Trinidad respectively. Still, there are many who mourn the death of what might have been a promising experiment in Caribbean unity. US officials have offered a muted response to the dissolution itself but have promised to work closely with the newly independent island nations on matters of security and economic assistance."
+ wif_crisis.35.a:0 "Perhaps it was for the best..."
+
+ wif_crisis.36.t:0 "The Collapse of the West Indies Federation"
+ wif_crisis.36.desc:0 "When it was decided that the West Indies Federation would remain intact following the departure of Jamaica and then Trinidad, many analysts assumed it would not last long without its two largest economies. They seemed to have been proven wrong however, as for the past few years the island federation has managed to keep itself afloat.\n\nIt was not to be. The recent global economic collapse in the face of the so-called "Oil Crisis" has done what the loss of two of its member islands could not. The breakup of the West Indies Federation has been confirmed today by Prime Minister [WIN.GetLeader]. The various newly independent islands have all pledged to work closely together with each other and the United States in this time of economic chaos, but the death of Caribbean political unity has left many observers disappointed."
+ wif_crisis.36.a:0 "A damn shame."
+
+ wif_crisis.21.antigua_and_grenada:0 "Antigua and Barbuda, Grenada, and Curacao."
+ wif_crisis.21.just_antigua:0 "Antigua and Barbuda, and Curacao.\n\nIn search of economic partners, Grenada has joined with Trinidad to the south."
+ wif_crisis.21.just_grenada:0 "Grenada, and Curacao.\n\nIn search of economic partners, Antigua has formed a union with Jamaica to the west."
+ wif_crisis.21.neither:0 "and Curacao.\n\nIn search of economic partners, Antigua has formed a union with Jamaica to the west and Grenada has joined with Trinidad to the south."
+
+ wif_crisis.25.t:0 ""Black Power Revolution" Succeeds in Trinidad"
+ wif_crisis.25.desc:0 "Surprising news has emerged from the generally quiet Caribbean region, as one of its long-standing titans has fallen. Eric Williams, President and political goliath of Trinidad, has been toppled by a series of protests, strikes, and a mutiny that have come together under the banner of the "Black Power Revolution".\n\nThe Black Power movement began its agitation recently, protesting fiercely for socio-economic equality that they saw as withheld from the island's Black population. Williams' efforts to placate the tide would collapse in the face of a protestor's death at the hands of police, and the combination of a general strike, rioting, and a mutiny forced him out of office.\n\nMakandal Daaga, leader of the National Joint Action Committee, has been chosen to fill the role of interim President as the loose coalition of laborers, activists, and nationalists attempt to form a new government. No matter what, however, it seems that change is coming to the islands, as Daaga has signalled his intent to [GetTrinidadLeaveWIF]\n"
+
+ 
+ wif_crisis.25.b: "Revolution on our very doorstep!"
+ wif_crisis.25.c: "The Americans lose control of their own backyard."
+ wif_crisis.25.d: "What will this mean for us?"
+ wif_crisis.25.a: "The winds of change spare no-one."
+
+ wif_crisis.25.already_left:0 "declare independence and withdraw from "instruments of American imperialism.""
+ wif_crisis.25.leave:0 "unilaterally withdraw the nation from "instruments of American imperialism.""
+
+ # Flavor events
+ 
+ wif_crisis.300.t:0 "Speak to the Moment"
+ wif_crisis.300.d:0 "There's no reason to go crazy," Bunny Wailer said. "It's our first album."\n\n"I get that, but we need to do something that makes us stand out," Peter Tosh contested with a snort. "Yeah, do some covers, but we need something...distinctive. Memorable." It was something that Bob Marley agreed with.\n\nThe Wailers had enough of a following that an album would probably do well - but that laid upon the assumption that they would even get to that point. As it turned out though, figuring out exactly what that album was going to be was easier said than done as the hours of argument had proven.\n\n"We're doing this wrong," Bob finally interrupted. "We're talking about doing what everyone else has done before. Why not something on our own? Something actually Jamaican?"\n\n"No one wants that." Bunny dismissed.\n\n"No one?" Bob contested, gesturing outside. "Have you seen the referendum? We might have our own country soon. There isn't going to be a better time for something like this."\n\n"I'm on board," Peter said. " It's a risk, but fuck it. Bob's right, there's a moment here we should take."\n\n"I'd rather be remembered as trying to do something different, even if it doesn't work," Bob finished. "I want to make something that is ours - not American, German, or Japanese."\n\nBunny exhaled, but it was resigned - the sound that he knew meant that he would concede. "Alright then, if we're going to do this - we better make it the best damn album on the island." Bob grinned.This was going to be his defining moment - he could feel it."
+ wif_crisis.300.a:0 "Don't worry Bunny, we're not shooting for anything less."
+
+ wif_crisis.301.t:0 "Right Man, Right Moment, Right Music"
+ wif_crisis.301.d:0 "The best art was that which met the moment, and Bob Marley considered himself someone who had been the right man to capitalize on such moments. Of course, there had been a certain element of luck to it - after all, what were the chances that they'd be making an album right when a historic referendum was taking place?\n\nHe patted Bunny on the back as they celebrated. "Told you it was the right time."\n\nHis mate smiled. "For once, I'm glad that I was wrong."\n\nAs it turned out, his unconventional album idea had been exactly what the people were looking for. Something that was Jamaican. In the days since release, the album had become a point of national pride - and an international hit. Bob remembered walking down the streets, and hearing their music playing in restaurants, bars, on car radios, and even along street corners. They'd become celebrities, welcomed with applause and cheers wherever they went to perform.\n\n"Money, fame, and a label," Peter smiled as they drank. "I don't think we could ask for more."\n\n"No," Bob mused. "I don't think we could do better than this." They'd already been approached by a Japanese studio to sign them to a label. Something they hadn't expected to be even considered for years. Not one of the biggest labels in the Sphere.\n\nAs they celebrated, he wondered if anything would match this success. Well - only if he was content to keep everything the same. No, this was just the start. Whatever the future held, he would never become stagnant. There were many other artists who they were connecting with now, ones he looked forward to collaborating, learning, and being inspired from. It was a uniquely special time, and he felt that the best was yet to come."
+ wif_crisis.301.a:0 "A uniquely Jamiacan moment."
+ 
+ wif_crisis.302.t:0 "Tempered Success"
+ wif_crisis.302.d:0 "Bob Marley sighed. "Go on, say it. I know you want to."\n\nBunny's lips were fixed in an unhappy smile. "Told you so."\n\n"Yeah," Bob rubbed his eyes. "I suppose you did." Now that the initial numbers had come in, the numbers were...fine? Decent? Passable? The album was a success on paper - barely. However, they'd been told that for a first album, it wasn't bad. Most didn't even make their money back.\n\n"It's not a failure," Peter said, being the optimistic one. "More people know who we are now. And we won't be sleeping on the street."\n\n"Always looking on the bright side," Bunny said wryly.\n\nBob supposed that Bunny had been right in the end. People just didn't want this. There'd been a brief period of national Jamaican pride at the start of the whole referendum business, but that had faded. That made him...sad? Disappointed? Resigned? He wasn't sure, but it felt like an end of something. Forever.\n\n"We got lucky we broke even," Bunny said. "Next time? We're sticking with what works. Either of you disagree?"\n\n"Nope," Peter said. "Too bad, but I guess people want the familiar. Or at least...some of the familiar." Bob unfortunately agreed with that, though it was more resignation. Maybe in a few years, with a few more successes, they would be able to do something like this again. He supposed it was a learning experience for them all. It was time to move on."
+ wif_crisis.302.a:0 "Plans for the future."
+ 
+ wif_crisis.303.t:0 "The Curse of Caring"
+ wif_crisis.303.d:0 "Cool wind blew as Bob Marley walked alone as night fell upon Jamaica. It was a cloudless night, and the stars shined brightly upon the island. He walked without aim or purpose, his mind distracted. He should have been celebrating with his mates at the respectable success of the album. Maybe not as big as they might have hoped, but a lot of people were enjoying it. The Wailers were definitely a known name now, and the band was happy.\n\nAll of them, except him. No, no, that wasn't quite right. He was happy it was doing well, but he was...distracted. What happened with the referendum overshadowed everything. The United States crushing the idea of an independent Jamaica from even forming bothered him. He nor his mates had ever been very political, and something like this shouldn't really bother him. Politics was for the rich, the suits, and the politicians.\n\nHe shouldn't care, he didn't think he would care, but he did.\n\nIt seemed a cruel joke that an album that had such a Jamaican inspiration was released at a time when Jamaican independence was gone. It made something like an album seem unimportant in comparison. It made him think about the whole situation. Politics. He didn't really know what to do with this feeling now. It was all he could think about, and he couldn't ignore it. He cared. So he should do something, right? But what?\n\nSomething caught his eye, and he paused along a street corner. A pamphlet splattered with direct and water stains was plastered on the side of a wall, but perfectly legible. Something from the Labor Party, which condemned the US decision. The words spoke to his newfound frustration and anger. He'd never really given them much thought before, but...why not now? His hand reached up and took it down, and shoved it into his pocket before he turned, and began making his way home."
+ wif_crisis.303.a:0 "He had much to think about."
+  
+ wif_crisis.304.t:0 "Deterioration"
+ wif_crisis.304.d:0 "Robert Graham Miner, U.S. Ambassador to the West Indies Federation, read the report in front of him with a growing sense of alarm and trepidation.\n\n"REPORTS OF VIOLENCE AGAINST MEMBERS THE CURRENTLY-RULING PARTY, TO WHICH THE PRIME MINISTER OF JAMAICA BELONGS, ARE INCREASING DAILY. IF CURRENT INCREASING TREND CONTINUES HAVE EVERY REASON TO SUSPECT A POTENTIAL OUTBREAK OF WIDESPREAD POLITICAL VIOLENCE ON THE ISLAND."\n\nHe threw it down and grabbed his phone. Hopefully the Prime Minister would be able to clarify the situation and provide needed reassurance that it was under control.\n\nAfter a brief dial tone, the phone was picked up not by the PM but by his secretary. "I'm sorry, Ambassador Miner, but the Prime Minister is visiting his minister of the interior, who as I'm sure you know just got sent to the hospital. Would you like to leave a message, by any chance?"\n\nRobert shook his head. "No, thank you. I think it can wait." As he said that, he was already planning a trip to Kingston to confer personally with the Prime Minister.\n\nAs Robert passed by a cabinet, his eyes fell on a .38 revolver with six bullets left next to it. He abhorred violence, so it galled him beyond belief to have to consider it. Despite this he took the gun and its holster and put the bullets in a place where he could easily access them."
+ wif_crisis.304.a:0 "Just as a safety precaution, he thought."
+ 
+ wif_crisis.305.t:0 "I Shot the Sheriff"
+ wif_crisis.305.d:0 "The crowd had swelled in the past hour. Bob Marley didn't know who had organized it, but considering that the Rastafari made up a substantial majority, he could make an accurate guess. The growing repression and apathetic nature of the Jamaican government was hitting them hard. A line of police stood at the end of the streets and on corners, watching warily as the crowd chanted slogans and demands, tense and clutching their batons and rifles tightly.\n\nBob was only one of many in the crowds, but even he could feel the mood of the protest slowly shift. It had been growing for a long time, well before today, simmering on both sides, as the crowd began turning their ire on the police. There were no politicians here to listen to them, so the next logical target presented itself.\n\nThen it snapped. One of the protestors who'd gotten close to scream at the officer suddenly found himself grabbed and dragged away as the police immediately closed ranks as the fervor of the crowd grew to a fever pitch. It was unfair. It was an injustice, and Bob knew only that if nothing was done, that man would only be the first taken. He reached down, and picked up a brick.\n\nThe stone flew through the air, and directly hit the head of one of the officers. Bob could almost imagine the soft thunk as stone met flesh, before the officer collapsed. The crowd went silent, and sound seemed to fade as Bob looked at what he'd done. The anger he'd felt faded to horror at the knowledge that he might have just killed a man. He realized someone was grabbing his arm.\n\n"Hey!" It was another protestor, who was pulling him away. "Come on! We gotta get outta here now!" Bob looked up as the numb shock was shattered, and saw the police raise their rifles. They fired without hesitation, rubber bullets spraying the crowd as they marched forward. Hunting for the one who threw the brick. Hunting him as he fled."
+ wif_crisis.305.a:0 "And as he fled, the outrage built once more."
+ 
+ wif_crisis.306.t:0 "...But I Didn't Shoot the Deputy"
+ wif_crisis.306.d:0 ""What were you thinking, man?" Was the first words from Bunny when he'd gotten back to the band, exhausted, scraped, but the fire still burning. The words had been followed by a hug, and words of relief. "I told you these protests were bad news."\n\nBob didn't have an excuse. "It was something I had to do."\n\n"You're gonna get hurt if you keep doing this," Peter shook his head. "You're doing some good here, but you're gonna get hurt."\n\n"Yeah, Bob," Bunny shook his head. "You got lucky today, but it's only getting worse. Bad attention or no, I'm glad you're safe."\n\nBob was relieved that neither of them were too mad at him for what he'd done - especially when he'd realized his picture had been taken, and was on the front page of the daily paper. Were they mad he'd dragged the Wailers into controversy? That he'd been there at all? Clearly, but at the end of the day, he was their mate, and he was now safe.\n\nIt had been touching to realize that. Which was going to make what came next all the harder. "I can't keep doing this with you," he finally said, looking down. "I... can't pretend I don't care. About this. And I don't want to drag you down because of my choices. Besides..." he paused. "This is what I want to do. I see that now. I won't change anything through music. Maybe I can another way."\n\nBunny gave a somber nod, and Peter closed his eyes briefly. "Not gonna be the same without you... but I understand," Peter said. Neither of them seemed surprised, even if saddened. Bob knew he would remember the early days fondly, but life was full of surprises, and sometimes, it was time to just move on. With handshakes and hugs, he received one last farewell from Bunny."
+ wif_crisis.306.a:0 ""Take care of yourself Bob, and stop by if you're ever in the neighborhood.""
+ 
+ wif_crisis.307.t:0 "Reggae Craze" # OFN View 
+ wif_crisis.307.d:0 "Emerging from the multicultural traditions of Jamaica, musician Bob Marley has begun to take the world by storm with his new musical genre called "Reggae," which Marley claims is based on a Spanish word for "the king's music," though etymologists and musicians question this. Splitting off from musical group The Wailers to start his own solo career, Marley's style combines jazz, blues, and traditional Jamaican "mento" genre into a new musical style that is rooted in the Rastafari religion, helping bring the otherwise obscure pan-Africanist religion to prominence.\n\nAfter achieving widespread popularity throughout Jamaica and the West Indies, Marley's music spread to the United States, where it has become associated with youthful subcultures aiming to rebel against the norms of American society, and heavily associated with African-American liberation movements. While no one is quite sure how reggae got so popular so quickly, it's sure to not be disappearing anytime soon."
+ wif_crisis.307.a:0 "The kids sure seem to like it."
+ 
+ wif_crisis.308.t:0 "Reggae Craze" # Sphere View
+ wif_crisis.308.d:0 "Emerging from the multicultural traditions of Jamaica, musician Bob Marley has begun to take the world by storm with his new musical genre called "Reggae," which Marley claims is based on a Spanish word for "the king's music," though etymologists and musicians question this. Splitting off from musical group The Wailers to start his own solo career, Marley's style combines jazz, blues, and traditional Jamaican "mento" genre into a new musical style that is rooted in the Rastafari religion, helping bring the otherwise obscure pan-Africanist religion to prominence.\n\nAfter achieving widespread popularity throughout Jamaica and the West Indies, Marley's music spread to the United States, where it has become associated with youthful subcultures aiming to rebel against the norms of American society, and heavily associated with African-American liberation movements. While no one is quite sure how reggae got so popular so quickly, it's sure to not be disappearing anytime soon."
+ wif_crisis.308.a:0 "What the hell are those Americans doing?"
+
+ # Spirits
+
+ WIN_unnatural_union: "An Unnatural Union"
+ WIN_unnatural_union_desc: "Before 1945, there was no such thing as the West Indies Federation. What there was was a hodge-podge of colonial holdings, divided between once great European powers. Those great powers today are shadows of their former selves, and we now find our disparate islands tied together in a polity never meant to exist, despite cultural, linguistic, and economic differences.\n\nThe West Indies Federation was conceived as little more than a customs union with a weak parliament. Two decades later,the government struggles to manage even that, as individual islands use legal grey areas and ambiguity to manage their own affairs, often coming into conflict with one another. Until something is done about the weakness of the Federation, these problems show no signs of going away."
+
+ WIN_dreams_of_unity: "Dreams of Unity"
+ WIN_dreams_of_unity_desc: "Before 1945, there was no such thing as the West Indies Federation. What there was was a hodge-podge of colonial holdings, divided between once great European powers. Those great powers today are shadows of their former selves, and we now find our disparate islands tied together in a polity never meant to exist - but things have begun to look up in the Caribbean, despite our internal divisions.\n\nThe so-called Manley Constitution, recently ratified, clearly and firmly determines the difference in responsibilities between island and federation. In addition, the constitution will enshrine protections for local cultures, quelling the fears of assimilation that have caused so much mistrust. With this new clarity, it seems like the West Indies Federation is finally coming into its own."
+
+ WIN_more_perfect_union: "A More Perfect Union"
+ WIN_more_perfect_union_desc: "Many words have been used to describe the West Indies Federation in years past. Divided, dysfunctional, unworkable, doomed - all with valid reasons as to why they were such common descriptors. In recent days, though, a new verb has become more and more common - successful.\n\nThe islands of the Caribbean have stared down their most politically divided hours in decades, fanned by foreign powers using the Federation as a mere pawn in a greater game, and have emerged stronger from them. The Manley Constitution has taken effect across the islands, finally setting clear limits on what individual members can and cannot do, ending the endless bickering while also protecting the diverse cultures of each island. There is little talk of independence referendums, or unilateral exits - the Federation is stronger than it has ever been, and is ready to face the vast world of the Cold War as a single, united front."
+
+ WIN_trinidad_dominance: "Trinidadian Dominance"
+ WIN_trinidad_dominance_desc: "The West Indies Federation has lived through its greatest catastrophe, but it emerges radically different from the equally-balanced, if weak, Federation of before. Today, much of the Federation's power, political and economic, runs solely through the last remaining powerhouse of Trinidad, directed by its influential leader Eric Williams.\n\nJamaica's independence was initially thought to be a death blow to the powerless entity, now deprived of its strongest member, but Williams saw opportunity where others saw destruction. Swooping into an emergency session of Parliament, his proposal of a more unitary model centered around Trinidad was soon accepted, and the Federation underwent a radical change. Perhaps it was a vote borne of desperation, or perhaps it was to keep the Federation's last major island on board. Whatever the reason, Port of Spain now sees politicians from all over flock to it, and Trinidad finds itself at the head of a nation that has survived the worst-case scenario, ready to challenge an uncertain future."
+
+ WIN_fading_union: "The Union Fades"
+ WIN_fading_union_desc: "The West Indies Federation is dying, and it's unclear that anything can bring it back from the brink.\n\nJamaica was the first to leave, the economic powerhouse determining that independence was preferable to carrying the rest of the Caribbean islands on its back. Then, Trinidad's efforts to reform the Federation around itself fell through, and it too pulled out. Now, all that remains are the smallest eleven territories, rudderless and bickering with one another over what to do next, with nationalists in each declaring that the Federation would be better off dead than dragging its final members down with it.\n\nAdrift at sea, there remains faint, unlikely hope that the Federation will escape dissolution. If it does, it has been irrevocably weakened, dependent on American money and politically pathetic even within its own borders. There will be no great Caribbean nation moving forwards together anytime soon, but perhaps something can be salvaged from this disaster."
+
+ WIN_regional_nationalism: "Regional Nationalism"
+ WIN_regional_nationalism_desc: "At first, when the shackles of European colonialism were broken and the Caribbean Islands finally breathed freely, those who lived on these tropical lands rejoiced in celebration of their newfound freedom. Proudly, they supported the newborn Federation, hailing it as the best tool to keep any foreign power, European or otherwise, from dominating their affairs again.\n\nIt's been some years since the Federation's founding, however, and disillusionment with the once-illustrious idea has grown to higher levels than ever. Main grievances from regional nationalists tend to center around their island's financial commitments to its neighbors, as well as the overbearing shadow of the United States looming over every decision the Federation makes. Under these conditions, the nationalists say, the Federation is no better than the colonial empires it was forged from - and, with their numbers only swelling with each passing dysfunctional day, the premise of secession no longer seems as ridiculous as it once did."
+
+ WIN_minority_struggle: "Minority Rights Struggle"
+ WIN_minority_struggle_desc: "The West Indies Federation is a union of many peoples; Afro-West Indians, East Indians, white European settlers, Chinese and Arab immigrants, and native Caribs, with a smorgasbord of languages and religions across the islands. As the years have gone on, tensions between these different groups have bubbled ominously under the surface, punctured occasionally by the Civil Rights struggles in America and the fighting in Africa and Asia. It seems, however, that these tensions have risen into a slow, rapidly accelerating boil.\n\nSkirmishes break out regularly between Jamaican police and Rastafaris, choking Kingston streets in tear gas and smoke. Black Trinidadians march for representation, facing off against government forces, with talk of a major strike looming. European settlers withdraw deeper into their communities, fearfully arming themselves in case the worst comes to pass. Until an acceptable solution is reached, the issue of minority rights will continue to haunt our nation."
+
+ WIN_uncle_sams_aid: "Propped up by Uncle Sam"
+ WIN_uncle_sams_aid_desc: "The West Indies Federation, by all accounts, shouldn't have survived. Its leading islands pulled out amid growing discontent, leaving the remaining members floundering in the Atlantic. With no clear leader, no direction, and no money, that should have been the end of the West Indies experiment, and the Caribbean would have gone its separate ways.\n\nHowever, the world of the Cold War works in mysterious ways. In a final, desperate attempt to save what remained, a cry for help was thrown to the same Americans that were to blamed for the Federation's existence. The Yankees responded swiftly, sweeping in with pockets flush of cash and dollar signs in their eyes. In a flash, it was like they'd always been there - bases reinforced and leases renewed, mineral rights hurriedly signed over, and the government promised whatever financial resources it needed. The nationalists - indeed, many citizens - cry out in protest, seeing no difference between the Americans and their colonial masters from before, but the Federation has little choice.\n\nThe unnatural union will survive on the American lifeline, or they will fall to pieces."
+
+ JAM_political_violence: "Political Violence"
+ JAM_political_violence_desc: "There are two parties in Jamaica that truly matter. One one side is the social-democratic People's National Party; on the other is the conservative Jamaica Labour Party. These two factions, longtime rivals, have engaged in many political battles before, but another facet of Jamaican politics is left off official records - not back-room deals, but back-alley shootings, which have only become more common in the politically tense times we live in.\n\nEach day, youth gangs take to the streets clad in the colors of their favored party, ready to agitate their rivals, packing lead pipes, knives, and pistols to use. Jamaican side streets are the scenes of brawls, flurries of violence that break apart with the crack of guns and the shouts of police. The murder rate has skyrocketed, and the violence shows no sign of abating, despite the efforts of both parties to disavow their violent supporters. It seems only calmer times will fix this bloody rupture - or, at least, return it to its normal rate."
+
+ JAM_miracle: "Miracle on the Hope River"
+ JAM_miracle_desc: "While the world has spiraled further and further in chaos and conflict, these interesting times seem to have spared Jamaica from its worst effects. Indeed, a major reason of our secession from the Federation goes back to the sudden success of our economy - an economy that is now for Jamaica's benefit, and Jamaica alone.\n\nNever before have the people enjoyed such wealth as they do now, as trade rolls in from the United States and the other Caribbean nations and tourists flock to our golden beaches and clear blue skies. The wealth of our island, both in appearance and in resources, spurs our economic growth to greater and greater heights. As the money rolls in, we can raise a glass to prosperity, and relax secure in the knowledge that Jamaica has never been more free or wealthy than it is today."
+
+ JAM_rastafarian_repression: "Rastafarian Repression"
+ JAM_rastafarian_repression_desc: "Jamaican culture is inexorably tied to the Rastafarians. Born in the impoverished Black communities of the early 20th century, this unique religion has been the cause of interest for decades, with their worship of Emperor Haile Selassie as the messiah, smoking of "ganja", and distinctive dialect. These worshippers used to be little more than a curious subculture, keeping to themselves and meeting peacefully to spread their beliefs - but the Rastafari have grown far beyond their humble roots.\n\nThe relationship between the religion and the government  has always been strained, with the believers seeing non-believers as instruments of the decadent Babylon and non-believers seeing believers as delusional, but recent events have only amplified that tense relationship. Many believed that the exiled Selassie, being the Messiah, would never die, and his death has splintered parts of the Rastafari into vengeful, aggressive sects with differing explanations on what happened - from postulating that he was only an incarnation of Jah to claiming that Selassie faked his death and now orchestrates massive anti-Italian resistance. These offshoots regularly clash with the overworked police, who increasingly crack down on all Rastafarians, regardless of their personal actions. This spiral only worsens with every incident, and neither side has any trust or love lost for the other.\n\nIf a solution is not found, tensions could boil over in a deadly way."
+
+ JAM_jamaica_first: "No Federation, No Masters"
+ JAM_jamaica_first_desc: "First, it was the Spanish. They arrived hundreds of years ago in their massive warships, bringing deadly disease, cannons, and slaves. Taino and escaped slaves held out in the hills, escaping and resisting their clutches - the first native Jamaican identity emerging from their fight.\n\nThen it was the British, who replaced the Spanish in name but no less in cruelty. Plantations sprung up, along with thousands upon thousands of settlers and slaves, expanding the island massively in population. Still, the Jamaican identity held out in the overlooked nooks and crannies, growing in the places the British did not go.\n\nTime passed. The British loosened their grip, ended slavery on the island, passed more reforms - and then, like a storm, they were swept away in the chaos of the Second World War, and the Americans swooped in to replace them. Jamaica was roped into an ungainly, dysfunctional Federation, designed to take the wealth from Jamaicans and bundle it away. Once again, Jamaica rejected this imperialist dream, and broke free of its repression in spectacular fashion.\n\nNow, Jamaica is free. There are no more empires left to beat back. After centuries of struggle, the Rock will chart its own course and plan its own destiny.\n\nIs there anything sweeter than the taste of freedom?"
+
+ TRI_undersea_riches: "Undersea Riches"
+ TRI_undersea_riches_desc: "Though our hasty exit from the West Indies Federation was a cause for alarm to many citizens, Trinidad is in a uniquely good position to ride out the storm of instability such a rapid change has caused. Despite the sudden shortfall in trade both in and out of the country, our economy remains stable thanks to one crucial resource - oil, the lifeblood of the modern world, which lies in great quantities below Trinidadian waters.\n\nOil is our safety net, the force that keeps our economy in good condition despite the hardest conditions one can throw at it. As long as the oil flows, the money will flow with it, and Trinidad will remain prosperous."
+ 
+ TRI_disunited_front: "A Disunited Front"
+ TRI_disunited_front_desc: "Eric Williams is out, to the shock of millions around the Caribbean, his once-illustrious legacy tossed into the mud by the will of a people furious with his inaction. In his place rises a large coalition of anti-Williams leftists and conservatives alike, united by their burning will to see Williams out and change come to Trinidad.\n\nThe problem, of course, is deciding what this change actually will be.\n\nThe unions, whose strike ground the economy to a halt, demand further protections and benefits for them and their workers. The leaders of the Army, whose mutiny struck the final blow and toppled the Williams regime, demand that power be put into apolitical hands - their hands - as loudly as their soldiers cry for change. The Black Power movement, whose protests started this chain of events, demand that their cries for social change are accepted and implemented.\n\nIn the middle of this whirlpool, it falls to the interim Daaga government to chart an impossible course through the chaos. The future path of Trinidad hinges on their success or failure."
+
+ TRI_pnm_dominance: "PNM Dominance"
+ TRI_pnm_dominance_desc: "Trinidad is a democracy, undeniably, but it's hard to tell if one looks at the recent electoral results. The PNM dominates the political scene in every facet and position, disarming its opposition with an almost surgical precision. Led by the immensely popular Eric Williams, President and so-called "Father of the Nation", the PNM has enjoyed consistent popularity since the formation of the WIF, and has no challengers to truly oppose it.\n\nOf course, nothing lasts forever, and the nationalist, left-wing slant of the PNM has its fair share of opponents, as does Eric Williams himself. However, until these opponents are able to organize themselves - or until they're able to coax a majority of the people to their side - Eric Williams and the PNM look set to dominate the near future of Trinidad."
+
+# COLLAPSE TAGS
+ # SAINT KITTS NEVIS AND ANGUILLA PARTIES
+ SKN_social_democracy_party:0 "SKNLP"
+ SKN_social_democracy_party_long:0 "St. Kitts Nevis Anguilla Labour Party"
+ SKN_conservative_democracy_party:0 "PAM"
+ SKN_conservative_democracy_party_long:0 "People's Action Movement"
+ SKN_authoritarian_democracy_party:0 "UNM"
+ SKN_authoritarian_democracy_party_long:0 "United National Movement"
+
+ # ANTIGUA PARTIES
+ ANT_social_democracy_party:0 "PLM"
+ ANT_social_democracy_party_long:0 "Progressive Labour Movement"
+ ANT_liberal_democracy_party:0 "ALP"
+ ANT_liberal_democracy_party_long:0 "Antigua Labour Party"
+
+ # GUADELOUPE PARTIES
+ GUD_socialist_party:0 "PCG"
+ GUD_socialist_party_long:0 "Parti Communiste de Guadeloupe"
+ GUD_liberal_democracy_party:0 "GU"
+ GUD_liberal_democracy_party_long:0 "Guadeloupe Unie"
+ GUD_social_democracy_party:0 "PS"
+ GUD_social_democracy_party_long:0 "Parti Socialiste"
+ GUD_conservative_democracy_party:0 "PRG"
+ GUD_conservative_democracy_party_long:0 "Parti Républicain Guadeloupéen"
+
+ # DOMINICA PARTIES
+ DMI_social_democracy_party:0 "DLP"
+ DMI_social_democracy_party_long:0 "Dominica Labour Party"
+ DMI_conservative_democracy_party:0 "DFP"
+ DMI_conservative_democracy_party_long:0 "Dominica Freedom Party"
+ DMI_authoritarian_democracy_party:0 "DLP"
+ DMI_authoritarian_democracy_party_long:0 "Dominica Labour Party"
+
+ # BARBADOS PARTIES
+ BRB_social_democracy_party:0 "DLP"
+ BRB_social_democracy_party_long:0 "Democratic Labour Party"
+ BRB_liberal_democracy_party:0 "BLP"
+ BRB_liberal_democracy_party_long:0 "Barbados Labour Party"
+
+ # MARTINIQUE PARTIES
+ MRT_socialist_party:0 "PCM"
+ MRT_socialist_party_long:0 "Parti Communiste de Martinique"
+ MRT_social_democracy_party:0 "PS"
+ MRT_social_democracy_party_long:0 "Parti Socialiste"
+ MRT_conservative_democracy_party:0 "UDM"
+ MRT_conservative_democracy_party_long:0 "Union des Démocrates pour la Martinique"
+
+ # SAINT LUCIA PARTIES
+ SLU_conservative_democracy_party:0 "UWP"
+ SLU_conservative_democracy_party_long:0 "United Workers Party"
+ SLU_liberal_democracy_party:0 "SLLP"
+ SLU_liberal_democracy_party_long:0 "Saint Lucia Labour Party"
+ SLU_despotism_party:0 "SLMFO"
+ SLU_despotism_party_long:0 "Saint Lucia-Magnitogorsk Friendship Organization"
+
+ # SAINT VINCENT AND THE GRENADINES PARTIES
+ SVI_conservative_democracy_party:0 "SVLP"
+ SVI_conservative_democracy_party_long:0 "Saint Vincent Labour Party"
+ SVI_social_democracy_party:0 "PPP"
+ SVI_social_democracy_party_long:0 "People's Political Party"
+
+ # GRENADA PARTIES
+ GND_conservative_democracy_party:0 "GND"
+ GND_conservative_democracy_party_long:0 "Grenada National Party"
+ GND_social_democracy_party:0 "GULP"
+ GND_social_democracy_party_long:0 "Grenada United Labour Party"
+ GND_communist_party:0 "JEWEL"
+ GND_communist_party_long:0 "JEWEL"
+
+ # CURACAO PARTIES
+ CUR_conservative_democracy_party:0 "NV"
+ CUR_conservative_democracy_party_long:0 "Nationale Volkspartij"
+ CUR_social_democracy_party:0 "AB"
+ CUR_social_democracy_party_long:0 "Arbeiders Bevrijdingsfront"
+ CUR_liberal_democracy_party:0 "DP"
+ CUR_liberal_democracy_party_long:0 "Democratische Partij"
