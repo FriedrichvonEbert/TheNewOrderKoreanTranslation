@@ -2,24 +2,16 @@
  ### Parties ###
  TOM_communist_party: "VKP(b)"
  TOM_communist_party_long: "전연방 공산당 (볼셰비키)"
- TOM_socialist_party: "ND"
- TOM_socialist_party_long: "노브고로드 운동"
- TOM_social_democrat_party: "휴머니스트"
- TOM_social_democrat_party_long: "구마니스트"
- TOM_social_liberal_party: "모더니스트"
- TOM_social_liberal_party_long: "마데르니스트"
- TOM_social_conservative_party: "데카브리스트"
- TOM_social_conservative_party_long: "데카브리스트"
- TOM_authoritarian_democrat_party: "바스티야드"
- TOM_authoritarian_democrat_party_long: "바스틸랴르"
- TOM_despotism_party: "류리크 왕당파"
- TOM_despotism_party_long: "류리크 왕당파"
- TOM_fascism_party: "RFP"
- TOM_fascism_party_long: "러시아 파시스트당"
- TOM_national_socialism_party: "RFP"
- TOM_national_socialism_party_long: "러시아 파시스트당"
- TOM_ultranational_socialism_party: "흑색연합"
- TOM_ultranational_socialism_party_long: "흑색연합"
+ TOM_socialist_party: "휴머니스트"
+ TOM_socialist_party_long: "구마니스트"
+ TOM_social_democracy_party: "휴머니스트"
+ TOM_social_democracy_party_long: "구마니스트"
+ TOM_liberal_democracy_party: "모더니스트"
+ TOM_liberal_democracy_party_long: "마데르니스트"
+ TOM_conservative_democracy_party: "데카브리스트"
+ TOM_conservative_democracy_party_long: "데카브리스트"
+ TOM_authoritarian_democracy_party: "바스티야드"
+ TOM_authoritarian_democracy_party_long: "바스틸랴르"
  
  ### Leader Descriptions ###
  POLITICS_BORIS_PASTERNAK_DESC: "보리스 레오니도비치 파스테르나크는 직업상 정치인보다는 차라리 시인이자 학자에 가깝습니다. 유대인 조상을 둔 모스크바 사람인 그는 소비에트 연방 수립 초기에 수집한 시와 영어와 독일어 고전 시집을 번역한 일로 빠르게 유명세를 얻었습니다. 하지만 초창기 그가 지향했던 레닌에 대한 찬양은 빠르게 지쳐갔고, 얼마 지나지 않아 친구들과 동료들을 블랙리스트와 감옥에서 꺼내기 위한 노력을 개시했습니다. 파스테르나크는 명성을 잃어버렸음에도 불구하고 어떤 공식적인 견책이나 박해에 직면한 적이 없었는데, 정계와 NKVD 내부에서 그가 너무 수동적이고 현실 정치에서 떨어졌다는 판단이 퍼져 있었기 때문이었습니다. 독일이 모스크바로 진군해 오면서 파르테르나크를 위시한 여타 소련 인텔리겐치아들은 동쪽으로 도망쳤고 그 중 대다수가 톰스크 시에서 거처를 찾았습니다. 거기서 그들은 불멸의 러시아 민주주의 사상에 영감을 얻어 자유주의 헌법 초안을 작성하고 소비에트 치하에서 억압당했던 표현의 자유를 부활시키기로 결정했습니다. 그들은 힘을 합쳐 극동 소비에트국 독재주의에 실질적으로 저항할 수 있는 중앙 시베리아 공화국을 탄생시켰지만, 얼마 지나지 않아 자기네 내부 군부의 야망을 제어하는데 실패하면서 제 발에 걸려 넘어져 버렸습니다.\n\n현재 파스테르나크는 지식인과 예술가가 지배하고 사상가와 시인으로 가득 찬 국가를 통치합니다. 그와 동료들이 환상적인 연설 능력과 매혹적으로 읽히는 법률 초안, 그리고 아름다운 축가들을 선사했다고는 하지만 그들의 유일한 경험은 대학 강단을 넘어서지 못합니다. 파스테르나크와 몽상가들의 국가가 어떤 의미 있는 성취를 거둘지, 아니면 자기들이 앉아 있는 진리의 상아탑에 만족하고 말 것인지는 여전히 결정되지 않은 채 의문에 싸여 있습니다."
@@ -376,7 +368,9 @@
  TOM_setup_krasnoyarsk_variables_tt: "§G이것을 통해 §Y크라스노야르스크§!를 우리의 정치체제로 끌어들입니다.§!"
  TOM_setup_kemerovo_variables_tt: "§G이것을 통해 §Y케메로보§!를 우리의 정치체제로 끌어들입니다.§!"
 
- 
+ TOM_Apply_Hum_Duma_tt: "The §YUpper House§! will be abolished. The §YLower House§! will be expanded and known as §YThe House of Representatives§!."
+
+
  TOM_Increase_Dec_Pop_low_tt: "\n임의 지역구에서 §d데카브리스트§! 정당 선호도를 소폭 상승시킵니다.\n"
  TOM_Increase_Dec_Pop_med_tt: "\n임의 지역구에서 §d데카브리스트§! 정당 선호도를 상승시킵니다.\n"
  TOM_Increase_Dec_Pop_high_tt: "\n임의 지역구에서 §d데카브리스트§! 정당 선호도를 대폭 상승시킵니다.\n"
@@ -521,12 +515,12 @@
  TOM_Weaken_Decembrist_Authority: "§d데카브리스트§!의 권한을 약화시킵니다.\n£political_power_texticon  §Y25§!"
  TOM_Consolidate_Decembrist_Rule: "§d데카브리스트§!의 집권을 공고히 합니다.\n£political_power_texticon  §Y25§!"
 
- TOM_Ask_For_Decembrist_Support_in_Lower_House_tt: "[!TOM_Ask_For_Decembrist_Support_in_Lower_House_click]"
- TOM_Ask_For_Decembrist_Support_in_Upper_House_tt: "[!TOM_Ask_For_Decembrist_Support_in_Upper_House_click]"
- TOM_Anti_Decembrist_Propaganda_tt: "[!TOM_Anti_Decembrist_Propaganda_click]"
- TOM_Pro_Decembrist_Campaign_tt: "[!TOM_Pro_Decembrist_Campaign_click]"
- TOM_Weaken_Decembrist_Authority_tt: "[!TOM_Weaken_Decembrist_Authority_click]"
- TOM_Consolidate_Decembrist_Rule_tt: "[!TOM_Consolidate_Decembrist_Rule_click]"
+TOM_Ask_For_Decembrist_Support_in_Lower_House_tt: "[!TOM_Ask_For_Decembrist_Support_in_Lower_House_click_enabled]\n[!TOM_Ask_For_Decembrist_Support_in_Lower_House_click]"
+TOM_Ask_For_Decembrist_Support_in_Upper_House_tt: "[!TOM_Ask_For_Decembrist_Support_in_Upper_House_click_enabled]\n[!TOM_Ask_For_Decembrist_Support_in_Upper_House_click]"
+TOM_Anti_Decembrist_Propaganda_tt: "[!TOM_Anti_Decembrist_Propaganda_click_enabled]\n[!TOM_Anti_Decembrist_Propaganda_click]"
+TOM_Pro_Decembrist_Campaign_tt: "[!TOM_Pro_Decembrist_Campaign_click_enabled]\n[!TOM_Pro_Decembrist_Campaign_click]"
+TOM_Weaken_Decembrist_Authority_tt: "[!TOM_Weaken_Decembrist_Authority_click_enabled]\n[!TOM_Weaken_Decembrist_Authority_click]"
+TOM_Consolidate_Decembrist_Rule_tt: "[!TOM_Consolidate_Decembrist_Rule_click_enabled]\n[!TOM_Consolidate_Decembrist_Rule_click]"
  
  TOM_Ask_For_Modernist_Support_in_Lower_House: "§m모더니스트§!에 §Y하원§!내 지지 요청\n£political_power_texticon  §Y25§!"
  TOM_Ask_For_Modernist_Support_in_Upper_House: "§m모더니스트§!에 §Y상원§!내 지지 요청 \n£political_power_texticon  §Y25§!"
@@ -535,12 +529,12 @@
  TOM_Consolidate_Modernist_Rule: "§m모더니스트§!의 집권을 공고히 합니다.\n£political_power_texticon  §Y25§!"
  TOM_Pro_Modernist_Campaign: "친-§m모더니스트§! 캠페인\n£political_power_texticon  §Y25§!"
 
- TOM_Ask_For_Modernist_Support_in_Lower_House_tt: "[!TOM_Ask_For_Modernist_Support_in_Lower_House_click]"
- TOM_Ask_For_Modernist_Support_in_Upper_House_tt: "[!TOM_Ask_For_Modernist_Support_in_Upper_House_click]"
- TOM_Anti_Modernist_Propaganda_tt: "[!TOM_Anti_Modernist_Propaganda_click]"
- TOM_Pro_Modernist_Campaign_tt: "[!TOM_Pro_Modernist_Campaign_click]"
- TOM_Weaken_Modernist_Authority_tt: "[!TOM_Weaken_Modernist_Authority_click]"
- TOM_Consolidate_Modernist_Rule_tt: "[!TOM_Consolidate_Modernist_Rule_click]"
+TOM_Ask_For_Modernist_Support_in_Lower_House_tt: "[!TOM_Ask_For_Modernist_Support_in_Lower_House_click_enabled]\n[!TOM_Ask_For_Modernist_Support_in_Lower_House_click]"
+TOM_Ask_For_Modernist_Support_in_Upper_House_tt: "[!TOM_Ask_For_Modernist_Support_in_Upper_House_click_enabled]\n[!TOM_Ask_For_Modernist_Support_in_Upper_House_click]"
+TOM_Anti_Modernist_Propaganda_tt: "[!TOM_Anti_Modernist_Propaganda_click_enabled]\n[!TOM_Anti_Modernist_Propaganda_click]"
+TOM_Pro_Modernist_Campaign_tt: "[!TOM_Pro_Modernist_Campaign_click_enabled]\n[!TOM_Pro_Modernist_Campaign_click]"
+TOM_Weaken_Modernist_Authority_tt: "[!TOM_Weaken_Modernist_Authority_click_enabled]\n[!TOM_Weaken_Modernist_Authority_click]"
+TOM_Consolidate_Modernist_Rule_tt: "[!TOM_Consolidate_Modernist_Rule_click_enabled]\n[!TOM_Consolidate_Modernist_Rule_click]"
 
  TOM_Ask_For_Humanist_Support_in_Lower_House: "§h휴머니스트§!에 §Y하원§!내 지지 요청\n£political_power_texticon  §Y25§!"
  TOM_Ask_For_Humanist_Support_in_Upper_House: "§h휴머니스트§!에 §Y상원§!내 지지 요청\n£political_power_texticon  §Y25§!"
@@ -549,12 +543,12 @@
  TOM_Consolidate_Humanist_Rule: "§h휴머니스트§!의 집권을 공고히 합니다.\n£political_power_texticon  §Y25§!"
  TOM_Pro_Humanist_Campaign: "친-§h휴머니스트§! 캠페인\n£political_power_texticon  §Y25§!"
 
- TOM_Ask_For_Humanist_Support_in_Lower_House_tt: "[!TOM_Ask_For_Humanist_Support_in_Lower_House_click]"
- TOM_Ask_For_Humanist_Support_in_Upper_House_tt: "[!TOM_Ask_For_Humanist_Support_in_Upper_House_click]"
- TOM_Anti_Humanist_Propaganda_tt: "[!TOM_Anti_Humanist_Propaganda_click]"
- TOM_Pro_Humanist_Campaign_tt: "[!TOM_Pro_Humanist_Campaign_click]"
- TOM_Weaken_Humanist_Authority_tt: "[!TOM_Weaken_Humanist_Authority_click]"
- TOM_Consolidate_Humanist_Rule_tt: "[!TOM_Consolidate_Humanist_Rule_click]"
+TOM_Ask_For_Humanist_Support_in_Lower_House_tt: "[!TOM_Ask_For_Humanist_Support_in_Lower_House_click_enabled]\n[!TOM_Ask_For_Humanist_Support_in_Lower_House_click]"
+TOM_Ask_For_Humanist_Support_in_Upper_House_tt: "[!TOM_Ask_For_Humanist_Support_in_Upper_House_click_enabled]\n[!TOM_Ask_For_Humanist_Support_in_Upper_House_click]"
+TOM_Anti_Humanist_Propaganda_tt: "[!TOM_Anti_Humanist_Propaganda_click_enabled]\n[!TOM_Anti_Humanist_Propaganda_click]"
+TOM_Pro_Humanist_Campaign_tt: "[!TOM_Pro_Humanist_Campaign_click_enabled]\n[!TOM_Pro_Humanist_Campaign_click]"
+TOM_Weaken_Humanist_Authority_tt: "[!TOM_Weaken_Humanist_Authority_click_enabled]\n[!TOM_Weaken_Humanist_Authority_click]"
+TOM_Consolidate_Humanist_Rule_tt: "[!TOM_Consolidate_Humanist_Rule_click_enabled]\n[!TOM_Consolidate_Humanist_Rule_click]"
 
  TOM_Ask_For_Bastillard_Support_in_Lower_House: "§s바스티야드§!에 §Y하원§!내 지지 요청\n£political_power_texticon  §Y25§!"  
  TOM_Ask_For_Bastillard_Support_in_Upper_House: "§s바스티야드§!에 §Y상원§!내 지지 요청\n£political_power_texticon  §Y25§!"
@@ -563,12 +557,12 @@
  TOM_Consolidate_Bastillard_Rule: "§s바스티야드§!의 집권을 공고히 합니다.\n£political_power_texticon  §Y25§!"
  TOM_Pro_Bastillard_Campaign: "친-§s바스티야드§! 캠페인\n£political_power_texticon  §Y25§!"
 
- TOM_Ask_For_Bastillard_Support_in_Lower_House_tt: "[!TOM_Ask_For_Bastillard_Support_in_Lower_House_click]"
- TOM_Ask_For_Bastillard_Support_in_Upper_House_tt: "[!TOM_Ask_For_Bastillard_Support_in_Upper_House_click]"
- TOM_Anti_Bastillard_Propaganda_tt: "[!TOM_Anti_Bastillard_Propaganda_click]"
- TOM_Pro_Bastillard_Campaign_tt: "[!TOM_Pro_Bastillard_Campaign_click]"
- TOM_Weaken_Bastillard_Authority_tt: "[!TOM_Weaken_Bastillard_Authority_click]"
- TOM_Consolidate_Bastillard_Rule_tt: "[!TOM_Consolidate_Bastillard_Rule_click]"
+TOM_Ask_For_Bastillard_Support_in_Lower_House_tt: "[!TOM_Ask_For_Bastillard_Support_in_Lower_House_click_enabled]\n[!TOM_Ask_For_Bastillard_Support_in_Lower_House_click]"
+TOM_Ask_For_Bastillard_Support_in_Upper_House_tt: "[!TOM_Ask_For_Bastillard_Support_in_Upper_House_click_enabled]\n[!TOM_Ask_For_Bastillard_Support_in_Upper_House_click]"
+TOM_Anti_Bastillard_Propaganda_tt: "[!TOM_Anti_Bastillard_Propaganda_click_enabled]\n[!TOM_Anti_Bastillard_Propaganda_click]"
+TOM_Pro_Bastillard_Campaign_tt: "[!TOM_Pro_Bastillard_Campaign_click_enabled]\n[!TOM_Pro_Bastillard_Campaign_click]"
+TOM_Weaken_Bastillard_Authority_tt: "[!TOM_Weaken_Bastillard_Authority_click_enabled]\n[!TOM_Weaken_Bastillard_Authority_click]"
+TOM_Consolidate_Bastillard_Rule_tt: "[!TOM_Consolidate_Bastillard_Rule_click_enabled]\n[!TOM_Consolidate_Bastillard_Rule_click]"
  
  TOM_Interaction_cooldown_tt: "§R우리는 §! §Y30 일§!간 이 상호작용을 할 수 없습니다.\n"
 
@@ -691,13 +685,13 @@
  TOM_Bas_lower_seats_tt_G: "[?TOM_Bas_lower_seats|G0]"
  TOM_Bas_lower_seats_tt_Y: "[?TOM_Bas_lower_seats|Y0]"
 
- TOM_megaproject_progress_1_tt: "§Y거대 프로젝트 진척률§!이 1% 만큼 상승합니다.\n\n"
- TOM_megaproject_progress_3_tt: "§Y거대 프로젝트 진척률§!이 3% 만큼 상승합니다.\n\n"
- TOM_megaproject_progress_5_tt: "§Y거대 프로젝트 진척률§!이 5% 만큼 상승합니다.\n\n"
+ TOM_megaproject_progress_1_tt: "§Y거대 프로젝트 진척률§!이 1% 만큼 상승합니다.\n"
+ TOM_megaproject_progress_3_tt: "§Y거대 프로젝트 진척률§!이 3% 만큼 상승합니다.\n"
+ TOM_megaproject_progress_5_tt: "§Y거대 프로젝트 진척률§!이 5% 만큼 상승합니다.\n"
 
- TOM_megaproject_monthly_025_tt: "§Y매월 거대 프로젝트 진척률§!이 0.25% 만큼 상승합니다.\n\n"
- TOM_megaproject_monthly_05_tt: "§Y매월 거대 프로젝트 진척률§!이 0.5%만큼 상승합니다\n\n"
- TOM_megaproject_monthly_075_tt: "§Y매월 거대 프로젝트 진척률§!이 0.75%만큼 상승합니다\n\n"
+ TOM_megaproject_monthly_025_tt: "§Y매월 거대 프로젝트 진척률§!이 0.25% 만큼 상승합니다.\n"
+ TOM_megaproject_monthly_05_tt: "§Y매월 거대 프로젝트 진척률§!이 0.5%만큼 상승합니다\n"
+ TOM_megaproject_monthly_075_tt: "§Y매월 거대 프로젝트 진척률§!이 0.75%만큼 상승합니다\n"
  
  TOM_megaproject_decisions_unlocked_tt: "우리의 §Y거대 프로젝트§!를 진전시키기 위해 추가적인 §Y결정들§!이 해금될 것입니다.\n"
 
@@ -912,22 +906,22 @@
  TOM_Integration_bar: "정치적 통합"
  TOM_Integration_bar_desc: "정치적 통합은 §Y[?TOM_Integration_Value]% 상태입니다.§!"
 
- TOM_NO_OUTSIDTOM: "§Y무소속 정치인 없음§!"
- TOM_EXTREME_OUTSIDTOM: "§Y극도로 많은\n 무소속 정치인§!"
+ TOM_NO_OUTSIDERS: "§Y무소속 정치인 없음§!"
+ TOM_EXTREME_OUTSIDERS: "§Y극도로 많은\n 무소속 정치인§!"
 
- TOM_Increase_Idealism_low_tt: "§Y\n§G이상주의§!를 소폭 상승시킵니다.\n§!"
- TOM_Increase_Idealism_med_tt: "§Y\n§G이상주의§!를 상승시킵니다.\n§!"
- TOM_Increase_Idealism_high_tt: "§Y\n§G이상주의§!를 대폭 상승시킵니다.\n§!"
- TOM_Decrease_Idealism_low_tt: "§Y\n§R냉소주의§!를 소폭 상승시킵니다.\n§!"
- TOM_Decrease_Idealism_med_tt: "§Y\n§R냉소주의§!를 상승시킵니다.\n§!"
- TOM_Decrease_Idealism_high_tt: "§Y\n§R냉소주의§!를 대폭 상승시킵니다.\n§!"
+ TOM_Increase_Idealism_low_tt: "§Y§G이상주의§!를 소폭 상승시킵니다.§!"
+ TOM_Increase_Idealism_med_tt: "§Y§G이상주의§!를 상승시킵니다.§!"
+ TOM_Increase_Idealism_high_tt: "§Y§G이상주의§!를 대폭 상승시킵니다.§!"
+ TOM_Decrease_Idealism_low_tt: "§Y§R냉소주의§!를 소폭 상승시킵니다.§!"
+ TOM_Decrease_Idealism_med_tt: "§Y§R냉소주의§!를 상승시킵니다.§!"
+ TOM_Decrease_Idealism_high_tt: "§Y§R냉소주의§!를 대폭 상승시킵니다.§!"
 
- TOM_Increase_Political_Outsiders_low_tt: "§Y\n무소속 정치인이 약간 §R증가§!합니다\n§!"
- TOM_Increase_Political_Outsiders_med_tt: "§Y\n§R무소속 정치인이 증가§!합니다\n§!"
- TOM_Increase_Political_Outsiders_high_tt: "§Y\n무소속 정치인이 매우 §R증가§!합니다\n§!"
- TOM_Decrease_Political_Outsiders_low_tt: "§Y\n무소속 정치인이 약간 §G감소s§!합니다\n§!"
- TOM_Decrease_Political_Outsiders_med_tt: "§Y\n무소속 정치인이 §G감소§!합니다\n§!"
- TOM_Decrease_Political_Outsiders_high_tt: "§Y\n무소속 정치인이 크게 §G감소§합니다\n§!"
+ TOM_Increase_Political_Outsiders_low_tt: "§Y무소속 정치인이 약간 §R증가§!합니다§!"
+ TOM_Increase_Political_Outsiders_med_tt: "§Y무소속 정치인이 §R증가§!합니다§!"
+ TOM_Increase_Political_Outsiders_high_tt: "§Y무소속 정치인이 매우 §R증가§!합니다§!"
+ TOM_Decrease_Political_Outsiders_low_tt: "§Y무소속 정치인이 약간 §G감소s§!합니다§!"
+ TOM_Decrease_Political_Outsiders_med_tt: "§Y무소속 정치인이 §G감소§!합니다§!"
+ TOM_Decrease_Political_Outsiders_high_tt: "§Y무소속 정치인이 크게 §G감소§합니다§!"
 
  TOM_The_Outsiders_Act: "무소속 정치인 법안"
  TOM_Expand_the_university_system: "대학 체계 확장"
@@ -993,19 +987,19 @@
  TOM_Modernist_increase_budget_10m: "§Y1000만 달러§! 투자"
  TOM_Decembrist_increase_budget_10m: "§Y1000만 달러§! 투자"
  TOM_Bastillard_increase_budget_10m: "§Y1000만 달러§! 투자"
- TOM_increase_budget_10m_tt: "효과를 대신해, §Y1000만 달러§!가 우리의 국가 부채에 더해집니다.\n\n"
+ TOM_increase_budget_10m_tt: "효과를 대신해, §Y1000만 달러§!가 우리의 국가 부채에 더해집니다.\n"
  
  TOM_Humanist_increase_budget_25m: "§Y2500만 달러§! 투자"
  TOM_Modernist_increase_budget_25m: "§Y2500만 달러§! 투자"
  TOM_Decembrist_increase_budget_25m: "§Y2500만 달러§! 투자"
  TOM_Bastillard_increase_budget_25m: "§Y2500만 달러§! 투자"
- TOM_increase_budget_25m_tt: "효과를 대신해, §Y2500만 달러§!가 우리의 국가 부채에 더해집니다.\n\n"
+ TOM_increase_budget_25m_tt: "효과를 대신해, §Y2500만 달러§!가 우리의 국가 부채에 더해집니다.\n"
  
  TOM_Humanist_increase_budget_50m: "§Y5000만 달러§! 투자"
  TOM_Modernist_increase_budget_50m: "§Y5000만 달러§! 투자"
  TOM_Decembrist_increase_budget_50m: "§Y5000만 달러§! 투자"
  TOM_Bastillard_increase_budget_50m: "§Y5000만 달러§! 투자"
- TOM_increase_budget_50m_tt: "효과를 대신해, §Y5000만 달러§!가 우리의 국가 부채에 더해집니다.\n\n"
+ TOM_increase_budget_50m_tt: "효과를 대신해, §Y5000만 달러§!가 우리의 국가 부채에 더해집니다.\n"
 
  #Expansion
  TOM_Siberian_Expansion_Category: "§Y시베리아 확장§!"
@@ -1013,7 +1007,7 @@
 
  TOM_War_Plan_Active: "최근에 전쟁계획을 실행하지 않음"
  TOM_War_Plan_DAnthes: "§y전쟁계획 당테스 입안§!"
- TOM_War_Plan_DAnthes_desc: "이제 §R[PAV.GetName]§!이라 칭하는 분리주의자들에게 눈을 돌릴 시간입니다. 공화국의 존속을 위해 포크리슈킨의 군사정부를 무너뜨려야 합니다!"
+ TOM_War_Plan_DAnthes_desc: "이제 §R[NOV.GetName]§!이라 칭하는 분리주의자들에게 눈을 돌릴 시간입니다. 공화국의 존속을 위해 포크리슈킨의 군사정부를 무너뜨려야 합니다!"
  TOM_War_Plan_DAnthes_strike_fast: "신속한 타격"
  TOM_War_Plan_DAnthes_decisive_battle_strategy: "결정적인 전투 전략"
  TOM_War_Plan_DAnthes_protect_the_industry: "산업을 보호하라"
@@ -1032,18 +1026,18 @@
  TOM_War_Plan_Vozneseniye_Seize_Church_Land: "교회부지 확보"
 
  TOM_War_Plan_Khorei: "§O전쟁계획 호레이 입안§!"
- TOM_War_Plan_Khorei_desc: "우리 지휘관들은 크라스노야르스크 침공에 관한 §O호레이 작전§!의 마무리 작업에 한창입니다. 스스로를 §R[SAH.GetName]§!이라 칭하는 반역자들에게서 점령된 영토를 회복하는 것은 우리의 전략적 목표를 달성하는데 도움을 줄 것입니다."
+ TOM_War_Plan_Khorei_desc: "우리 지휘관들은 크라스노야르스크 침공에 관한 §O호레이 작전§!의 마무리 작업에 한창입니다. 스스로를 §R[KRS.GetName]§!이라 칭하는 반역자들에게서 점령된 영토를 회복하는 것은 우리의 전략적 목표를 달성하는데 도움을 줄 것입니다."
  TOM_War_Plan_Khorei_Blitz_Krasnnoyarsk: "크라스노야르스크 전격전"
  TOM_War_Plan_Khorei_Blitz_Krasnnoyarsk_mission: "크라스노야르스크 전격전 - 임무"
  TOM_War_Plan_Khorei_Develop_Krasnoyarsk_Industries: "크라스노야르스크 산업 개발"
  TOM_War_Plan_Khorei_Purge_the_Traitors: "반역자 숙청"
 
  TOM_War_Plan_Tvyordaya_Ruka: "§S전쟁계획 트뵤르다야 루카 입안§!"
- TOM_War_Plan_Tvyordaya_Ruka_desc: "공화국은 §R[KHA.GetName]§!으로부터 영토를 되찾기 위한 공세인 §S트뵤르다야 루카 작전§!의 초입에 서있습니다. 동쪽의 무정부주의자들은 구 공화국에 많은 문제를 일으켰습니다. 이제 우리 군대에 의해 일거에 소탕될 시간이 왔습니다."
+ TOM_War_Plan_Tvyordaya_Ruka_desc: "공화국은 §R[SBA.GetName]§!으로부터 영토를 되찾기 위한 공세인 §S트뵤르다야 루카 작전§!의 초입에 서있습니다. 동쪽의 무정부주의자들은 구 공화국에 많은 문제를 일으켰습니다. 이제 우리 군대에 의해 일거에 소탕될 시간이 왔습니다."
  TOM_War_Plan_Tvyordaya_Ruka_Put_Down_Anarchy: "무정부주의자들을 진압하라"
 
  TOM_War_Plan_Shkola: "§x전쟁계획 슈콜라 입안§!"
- TOM_War_Plan_Shkola_desc: "공화국 지휘관들이 §R[SVO.GetName]§!의 최종적인 파멸을 위한 §x슈콜라 작전§! 실행준비를 마쳤습니다. 중앙 시베리아 전역을 확보하기 위해서 야고다가 이끄는 동쪽의 붉은 군대 잔당들보다는 명예로운 바실렙스키의 붉은 군대를 반드시 물리쳐야 합니다."
+ TOM_War_Plan_Shkola_desc: "공화국 지휘관들이 §R[PRC.GetName]§!의 최종적인 파멸을 위한 §x슈콜라 작전§! 실행준비를 마쳤습니다. 중앙 시베리아 전역을 확보하기 위해서 야고다가 이끄는 동쪽의 붉은 군대 잔당들보다는 명예로운 바실렙스키의 붉은 군대를 반드시 물리쳐야 합니다."
  TOM_War_Plan_Shkola_Fate_of_the_Reds: "붉은군대의 운명"
  
  ### Flags ###
@@ -1060,6 +1054,8 @@
 
  TOM_russian_republicanism: "러시아 공화주의"
  TOM_russian_republicanism_desc: "우리 국가의 목표는 정해졌습니다. 러시아는 러시아만이 가진 특성을 유지한 채 공화체제로 적절하게 변화될 것입니다. 우리의 땅과 자손들의 굴하지 않는 용기로 성스러운 러시아를 다시 한 번 구원할 것이며, 적들은 벌벌 떨고 우리의 동맹들은 우리를 존경할 것입니다!"
+
+TOM_idea_rationalizing_soes: "Rationalizing SOEs"
 
  TOM_idea_movement_based_warfare: "기동전 기반 교리"
  TOM_idea_protect_the_industry: "보호된 산업"
@@ -1078,6 +1074,9 @@
  TOM_Legacy_Of_The_Workers_Uprising_tt: "경제를 위해 §Y1000만 달러§!를 투자합니다.\n"
  TOM_Relief_For_Farmers_tt: "농민들에게 보상금으로 §Y500만 달러§!를 지원합니다.\n"
  TOM_Healing_The_Land_tt: "§Y2000만 달러§!를 우리의 불타버린 대지를 치유하고 재건하는데 투자합니다.\n"
+TOM_close_to_rivals_tt: "We will §Yestablish relations§! with any and all §Bdemocratic§! §nRussian states§!, and see if we can find §Gcommon ground§!."
+TOM_Potential_Enemies_tt: "The §DRussian Far East§! has §Yunified§! and we can gauge the threat that its master poses."
+TOM_Potential_Enemies_tt_unavailable: "§RThe Far East has yet to unify, and we cannot determine our diplomatic course of action as of right now.§!"
 
  #############################
  ##=====| Focus Trees |=====##
@@ -1153,6 +1152,8 @@
 
  TOM_the_new_chairman: "새로운 지도자"
  TOM_the_new_chairman_desc: "투표의 결과로 새로운 대통령이 마침내 선출되었습니다! 수주간 이어진 선거 캠페인과 연설 이후, 새로운 인물이 톰스크를 미래로 인도할 것입니다. 새로운 안건과 헌법을 정하고, 국민들에게 새로운 방향을 제시할 시간입니다. 톰스크는 마침내 임시정부 체제를 벗어나 정당성을 지닌 정부가 되었습니다. 우리의 민주주의와 러시아에게 밝은 미래가 기다리고 있습니다.\n\n새로운 러시아가 일어섰고, 자유민주주의를 갈망하는 모든이들의 대표자로서 앞으로 전진할 것입니다."
+
+TOM_the_new_chairman_tt: "§YThe People§! will decide who should take §YTomsk§! to the next stage."
 
  ### Humanist tree ###
  TOM_victory_for_the_humanist_association: "휴머니스트 정당의 승리!"
@@ -1344,7 +1345,7 @@
  TOM_the_embrace_of_idealism_desc: "이상주의는 물질세계의 구성요소로서 정신의 철학적인 포용입니다. 인간 경험의 한계를 벗어나 물질세계를 그 자체로 논하는 것은 무의미합니다.\n\n이상주의가 정치구조의 어떤 논의에도 영향을 미쳐야 한다는 것은 데카브리스트 협회의 지배적인 결론 중 하나입니다. 마르크스주의자나 테크노크라트, 그 밖의 물질세계에 부속된 냉소적인 이념 그 자체와는 달리, 우리는 현실은 경험하는 사람들과 분리하는 것이 불가능하다는 것을 여전히 알고 있습니다. 수확하는 날들은 자기 밭을 가꾸어 온 농민들과 분리될 수 없고, 전통과 문화유산과도 분리될 수 없습니다. 진보를 명분으로 우리의 환경과 우리 자신 사이의 이러한 깊은 연결을 끊는 것은 우리 사회의 안녕에 대한 매우 위험한 위협입니다. 이상주의는 포용되어야 하고, 물질주의는 국가에서 사라져야 합니다!"
 
  TOM_free_the_laborers: "노동자들을 자유롭게 하라"
- TOM_free_the_laborers_desc: "러시아 문명은 자유인의 등 뒤에 세워져 있습니다. 농노제는 다행히도 고쳐진 일탈에 불과합니다. 우리는 개인의 자유에 대한 새 위협이 영원히 억제되도록 경계해야 합니다\n\n우리가 사회주의라는 바이러스를 막아내고 이 시민들이 러시아 문화 발전에 전적으로 기여하도록 하기 위해서는 산업 노동자들가 자유로워야 합니다. 이 자유에는 위험하고 불명예스러운 작업 조건으로부터의 자유가 포함됩니다. 그들의 봉급은 괜찮아야 하고, 그들의 근무 조건은 안전해야 합니다. 사회적 지위가 높은 사람으로서 공장주들은 동료 시민들의 생명을 위험에 빠뜨리지 말아야 한다는 것을 잘 알아야 합니다. 사람의 지위가 높을수록 국가에 대한 지위의 의무는 커집니다."
+ TOM_free_the_laborers_desc: "러시아 문명은 자유인의 등 뒤에 세워져 있습니다. 농노제는 다행히도 고쳐진 일탈에 불과합니다. 우리는 개인의 자유에 대한 새 위협이 영원히 억제되도록 경계해야 합니다\n\n우리가 사회주의라는 바이러스를 막아내고 이 시민들이 러시아 문화 발전에 전적으로 기여하도록 하기 위해서는 산업 노동자들이 자유로워야 합니다. 이 자유에는 위험하고 불명예스러운 작업 조건으로부터의 자유가 포함됩니다. 그들의 봉급은 괜찮아야 하고, 그들의 근무 조건은 안전해야 합니다. 사회적 지위가 높은 사람으로서 공장주들은 동료 시민들의 생명을 위험에 빠뜨리지 말아야 한다는 것을 잘 알아야 합니다. 사람의 지위가 높을수록 국가에 대한 지위의 의무는 커집니다."
 
  TOM_bond_the_industrialists: "기업가들과 밀착"
  TOM_bond_the_industrialists_desc: "기업가들이 단순 노동자들보다 더 큰 보상을 받는 것을 기업가들의 막중한 의무로서 막을 필요는 없습니다. 우리는 공화국의 대자본가들이 국가에 대한 모든 사회적 의무를 다하는 한 그들의 일에서 기쁨과 성공을 찾을 수 있도록 보장해야 합니다.\n\n국가 경제에 크게 개입하는 것은 신중하지 못하겠지만, 우리는 여전히 비즈니스 엘리트들의 삶을 용이하기 위해 많은 일들을 할 수 있습니다. 관료주의를 없애고 사업을 쉽게 운영함으로써 우리는 실험과 새로운 사업의 창조를 장려할 수 있습니다. 이 증대된 경제적 역동성은 국가 경제를 자극하고 장기적으로 우리 모두를 훨씬 더 강하고 부유하게 만들 것입니다."
@@ -1577,6 +1578,9 @@
  TOM_New_Friends_In_The_Salons: "살롱의 새 친구들"
  TOM_Resolving_The_Political_Crisis: "정치적 위기의 해결"
 
+TOM_Novosibirsk_Conference_flag: "The §dDecembrist§!-§hHumanist§! proposal has been §GApproved§!"
+TOM_Integration_Bureau_flag: "The §mModernist§!-§sBastillard§! proposal has been §GApproved§!"
+
  TOM_Expanding_Politics_desc: "공화국은 모든 옛 영토에 의기양양하게 서 있습니다!\n\n이러한 승리의 시간에도 불구하고, 공화국은 아마도 정치적으로 이렇게 분열된 적이 없었을 것입니다. 수년간의 독립에 의해 대담해진 분리주의자들, 구 실로비키, 크라스노야르스크의 반란자들과 시베리아 흑군의 무정부주의자들은 장래를 확신하지 못하며 우리의 정치 체제를 경계하고 있습니다.\n\n혁신적인 우리의 헌법은 4대 살롱을 엄격히 강조하면서 일부 측면에서는 제한적입니다. 동시에, 파스테르나크의 위대한 헌법은 우리가 실험하고, 새로운 것을 시도하고, 새로운 방법을 수용할 수 있도록 힘을 주고 있습니다.\n\n우리의 위대한 공화국의 계획은 버티는 것이었다면, 우리는 감히 더 큰 꿈을 꾸고, 더 많은 사람들이 우리의 이상을 믿도록 영감을 주어야 합니다. 공화국은 견뎌야 합니다!"
 
  TOM_Discord_In_The_Salons_desc: "너무나도 많은 새로운 시민들을 어떻게 살롱 시스템에 통합시킬 것인가에 대한 주제는 톰스크의 살롱들 사이에서 꽤 많은 논쟁을 불러일으켰습니다. 어떤 이들은 공동 헌법을 개정해야 한다고 주장하고, 다른 이들은 우리의 민주적 꿈에 불길한 그림자를 드리울 정치적 제한을 제안했습니다.\n\n분위기를 가라앉히고 살롱 내의 혼란을 진정시키는 것이 중요합니다. 우리가 정치적 폭풍을 진정시키기 위해 단결된 전선을 제안하려면 모든 살롱이 정점에 달할 필요가 있을 것입니다. 모두의 마음과 가슴에 호소함으로서 톰스크의 방대한 재능을 한데 모아 위기의 새로운 해결책을 찾아낼 수 있을 것입니다."
@@ -1733,7 +1737,7 @@
 
  TOM_A_Light_Touch_desc: "The free market is one of the most powerful and transformative forces on Earth. In just a few decades, the free market turned the backwater agrarian United States into a global industrial superpower. Being that Russia was first under communist rule and then unsplit between dozens of warlords, we were never able to experience these transformative effects. Now, however, we've reunited a significant portion of Russia and have built an economic framework in which the free market can thrive. It's time to sit back, relax, and let the free market do its work."
 
- TOM_Healing_The_Land_desc: "Decades of Luftwaffe bombings, wars, roving raider bands, and smog inducing industrialization has taken a mighty toll on these lands. Forests lie barren, destroyed by years of heavy fighting and destruction. The links of rail and road that once held the nation together are now disjointed and fragmented. However, it doesn;t have to stay this way. Peace and civil governance is returning to these lands, and so too does the opportunity to fix all that we've wronged. The forests can be regrown, and the new railways put down to sew the nation together again. What point is there in reuniting Russia if all that's left is ash?"
+TOM_Healing_The_Land_desc: "Decades of Luftwaffe bombings, wars, roving raider bands, and smog inducing industrialization has taken a mighty toll on these lands. Forests lie barren, destroyed by years of heavy fighting and destruction. The links of rail and road that once held the nation together are now disjointed and fragmented. However, it doesn't have to stay this way. Peace and civil governance is returning to these lands, and so too does the opportunity to fix all that we've wronged. The forests can be regrown, and the new railways put down to sew the nation together again. What point is there in reuniting Russia if all that's left is ash?"
 
  TOM_Toward_Modernity_Confidently_desc: "The Russian peasant and worker is a cautious optimist. He must be, or else he wouldn't be able to survive in bleak lands such as these. However, in recent years, with our slow advance across Russia, he may finally have reason to be. Our state is a democracy, with liberty for all. Our industry is advanced, and sits atop the sturdy basis of the Siberian Plan. Our free market policies have opened the country to foreign investments and new technologies. Most importantly of all, under our rule, peace and civility is returning to his lands. The barbarous Russia of old is gone. A new, modern Russia approaches."
 
@@ -1813,7 +1817,7 @@
 
  TOM_Ad_Astra_desc: "중앙 시베리아는 보리스 파스테르나크가 도저히 꿈도 꿀 수 없을 정도로 발전했습니다! 공장들은 그 어느 때보다 충분하고 잘 운영되고, 국민들의 정신과 직업 의식은 사상 최고조에 달하며, 경제는 왠지 모르게 노동자와 기업인이 모두 만족할 정도로 순조롭게 운영되고 있습니다. 물론 다른 곳에서도 그렇듯이 우리는 여전히 문제를 안고 있지만, 성공과 행복 두 가지 모두 너무나 부족한 세상에서 중앙 시베리아는 물질적 성공과 행복의 보루가 되었습니다. 우리는 달에 도달했습니다. 이제, 별들에게로!"
 
- TOM_Cultural_Shift_desc: "톰스크, 그리고 이제 중앙 시베리아 전역은 이미 물질적이고 정신적인 큰 이득을 얻었습니다. 하지만 여기서 멈출수는 없습니다. 우리의 산업과 문화를 현대화하는 것이 우리 사회에 큰 혜택을 주었다는 것을 이미 증명했으니, 이제 사회정책도 함께 앞서 나가는 것이 어떨까요?\n\n야심찬 계획이긴 하지만, 우리 사회가 개인 차원에서 모든 사람을 받아들일 수 있도록 보장하는 사회 문화와 법률들을 만들 수 있습니다. 이것은 여성들의 권리와 기회를 증진시킨다는 것을 의미합니다. 여성도 공부하고 일할 기회가 있어야 합니다! 인기없겠지만 그것은 비주류 집단의 권리를 보호하는 것을 의미하기도 합니다. 우리는 소수 민족, 문화, 종교적 소수민족에 대한 보호법을 제정할 것이고, 더 논란이 많은 LGBT+ 사람들도 보호할 것입니다. 만약 어떤 것이 통제할 수 없는 것이거나 개인적인 정체성의 일부라면, 그것때문에 차별을 받아서는 안 됩니다. 중앙 시베리아를 러시아 전역에서 가장 현대적이고 진보적인 곳으로 만듭시다."
+ TOM_Cultural_Shift_desc: "톰스크, 그리고 이제 중앙 시베리아 전역은 이미 물질적이고 정신적인 큰 이득을 얻었습니다. 하지만 여기서 멈출수는 없습니다. 우리의 산업과 문화를 현대화하는 것이 우리 사회에 큰 혜택을 주었다는 것을 이미 증명했으니, 이제 사회정책도 함께 앞서 나가는 것이 어떨까요?\n\n야심찬 계획이긴 하지만, 우리 사회가 개인 차원에서 모든 사람을 받아들일 수 있도록 보장하는 사회 문화와 법률들을 만들 수 있습니다. 이것은 여성들의 권리와 기회를 증진시킨다는 것을 의미합니다. 여성도 공부하고 일할 기회가 있어야 합니다! 인기없겠지만 그것은 비주류 집단의 권리를 보호하는 것을 의미하기도 합니다. 우리는 소수 민족, 문화, 종교적 소수민족에 대한 보호법을 제정할 것이고, 더 논란이 많은 성적 소수자들도 보호할 것입니다. 만약 어떤 것이 통제할 수 없는 것이거나 개인적인 정체성의 일부라면, 그것때문에 차별을 받아서는 안 됩니다. 중앙 시베리아를 러시아 전역에서 가장 현대적이고 진보적인 곳으로 만듭시다."
 
  TOM_Raising_Children_desc: "중앙 시베리아에 사는 모든 사람들은 공부하고 돈을 벌고 성취감을 주는 직업을 찾을 권리가 있습니다... 여성까지 포함해서! 역사적으로 우리 문화는 남성들이 그들의 꿈을 추구할 자유(그리고 음식을 식탁에 올릴 현금을)를 누리는 동안 여성들에게 가정주부나 하라고 강하게 압박해 왔습니다.\n\n상보육 프로그램은 부유하든 가난하든 모든 중앙 시베리아 가정에 도입되어 엄마들이 남들과 똑같이 배우고 일할 수 있는 기회를 갖게 될 것입니다."
 
@@ -1827,7 +1831,7 @@
  TOM_Defensive_Doctrine: "방어 전략"
  TOM_Counterattack_Doctrine: "반격 전략"
  TOM_Matryoshka_Preparations: "마트료시카 준비작업"
- TOM_Degrading_Enemy_Perforamance: "적군의 능력 저하"
+ TOM_Degrading_Enemy_Performance: "적군의 능력 저하"
  TOM_Endless_Material: "끝없는 자재들"
  TOM_To_The_Jugular: "급소를 향해"
  TOM_Nothing_Is_Forgotten: "잊혀지지 않는 모든 것"
@@ -1842,7 +1846,7 @@
 
  TOM_Matryoshka_Preparations_desc: "당신은 어떠한 나쁜 일이 일어날 지 고를 수 없습니다. 이는 분명한 것이지만 적절하기도 합니다. 언제든지, 우리의 적들 중 누군가, 혹은 모두가 우리 국경을 공격하고 우리와 전쟁을 벌일수도 있습니다. 우리는 우리가 예상할 수 있는 모든 상황에 대비해야 합니다. 방어선 너머의 방어선, 가능한 모든 악몽같은 시나리오에 대한 반격 계획, 가능한 모든 유형의 전쟁에 관한 계획 같은거 말이죠. 그런 계획들이 없는 채 고뇌하는 것보단, 지금 만드는 것이 훨씬 낫습니다."
 
- TOM_Degrading_Enemy_Perforamance_desc: "벙커 뒤에 숨어 1차 세계 대전스러운 포병 전략을 고수하는 전쟁에서 승리할 수는 없습니다. 프랑스인들은 1940년 여름에 파리가 처음 독일인들의 손아귀에 넘어갔을 때 많은 것을 배웠습니다. 미래의 전쟁에서는 전선에서 고도로 전문화된 부대들을 지원하는 근접항공지원 및 그들의 뒤에서, 또한 적의 보급을 파괴하는 전략폭격이 함께하는 방식으로 싸우게 될 것입니다. 우리의 정예 병력과 비행단에게 임무를 수행할 수 있는 자원이 주어진다면, 적군은 우리 주력 부대가 전장에서 그들을 만날 때까지 전투를 벌이기 힘들 것입니다."
+ TOM_Degrading_Enemy_Performance_desc: "벙커 뒤에 숨어 1차 세계 대전스러운 포병 전략을 고수하는 전쟁에서 승리할 수는 없습니다. 프랑스인들은 1940년 여름에 파리가 처음 독일인들의 손아귀에 넘어갔을 때 많은 것을 배웠습니다. 미래의 전쟁에서는 전선에서 고도로 전문화된 부대들을 지원하는 근접항공지원 및 그들의 뒤에서, 또한 적의 보급을 파괴하는 전략폭격이 함께하는 방식으로 싸우게 될 것입니다. 우리의 정예 병력과 비행단에게 임무를 수행할 수 있는 자원이 주어진다면, 적군은 우리 주력 부대가 전장에서 그들을 만날 때까지 전투를 벌이기 힘들 것입니다."
 
  TOM_Endless_Material_desc: "자재는 우리 정예 부대원들의 생명보다는 훨씬 쌉니다. 우리는 우리의 거대한 산업력을 최전방에 있는 우리 군대의 방패로서 사용할 수 있습니다. 멀리서 진격하는 군대를 없애버리기 위해, 우리 포탄이 적의 창공을 가를 것입니다. 그리고 이 적군이 우리를 공격할 수 있을 정도로 가까이 접근한다면, 그들은 매 시간마다 수 마일의 콘크리트 벙커에 맞닥뜨리게 될 것입니다. 우리나라의 공장은 적들의 침략에 굴복하기 전에, 러시아 전체를 쥐어짜낼 때까지 콘크리트와 강철을 생산할 것입니다."
 
@@ -1894,7 +1898,7 @@
 
  TOM_Legacy_Of_The_Four_Year_Plan_desc: "흥미롭게도, 민간 분야의 몇몇 친구들은 비록 편향적인 관심이긴 하지만, 우리가 이전에 실행했었던 4개년 계획의 후속조치에 대해 최근 관심을 보이고 있습니다. 정부가 공장을 새로 짓고, 국영기업에 돌아갈 몫을 더 높게 할당하는 대신, 우리 친구들은 그 자원들을 자유 시장에 투자하도록 제안했습니다. 이 자금은 최근의 전쟁과 반란으로 인한 파괴 이후 우리나라의 새로운 사업을 지원하고 이를 활성화하는데 사용될 것입니다."
 
- TOM_Exporting_Synthetic_Culture_desc: "What's to stop us from synthesizing a culture all our own? We control the state, and with that power we also gain the ability to influence the nation's culture, more specifically the worker's culture. Surely it wouldn't be too difficult to begin promoting Protestant style work ethic with Confusion obedience and Soviet worship of industry. Indeed, we should hope that such encouragement of this synthetic culture will bring about more productivity amongst our citizens and work to further increase the efficiency of the state."
+TOM_Exporting_Synthetic_Culture_desc: "What's to stop us from synthesizing a culture all our own? We control the state, and with that power we also gain the ability to influence the nation's culture, more specifically the worker's culture. Surely it wouldn't be too difficult to begin promoting Protestant style work ethic with Confucius obedience and Soviet worship of industry. Indeed, we should hope that such encouragement of this synthetic culture will bring about more productivity amongst our citizens and work to further increase the efficiency of the state."
 
  TOM_Legacy_Of_The_Three_Year_Plan_desc: "우리 정부의 관료들은 경제를 더욱 발전시키기 위한 우리의 다음 3개년 계획을 구상하기 위해 열심히 일하고 있습니다. 우리가 현재 유지하고 있는 중앙정부의 경제 기구와 반대되는 자유시장의 확대에 정부 재원을 투자하자는 설득력 있는 주장도 제기되었지만, 우리는 러시아가 하나의 정부 아래 통일되기 전까지는 군수 산업 공단같은 필수적인 산업에 대한 국가의 통제가 필요하다는 의견을 견지하고 있습니다. 우리나라가 지속적인 침략 위협으로부터 안전할 때가 된다면 우리는 일부 산업을 민영화하고 시장을 개방하는 조치를 고려할 수도 있지만 그 전까지는 중앙 계획 경제가 유지될 것입니다."
 
@@ -1923,7 +1927,7 @@
  TOM_humanist_advancing_our_projects: "우리 계획의 발전"
  TOM_humanist_the_peoples_war: "국민전쟁"
  TOM_humanist_the_peoples_education: "국민교육"
- TOM_humanist_the_workers_economy: "노동자 경제"
+ TOM_humanist_the_workers_economy: "인민 경제"
  TOM_humanist_the_grand_humanist_conference: "대규모 인문주의자 회담"
  TOM_humanist_the_tomsibar_plan: "톰시비르 계획"
  TOM_humanist_the_capillaries: "모세혈관"
@@ -1961,7 +1965,7 @@
 
  TOM_humanist_to_the_west_desc: "러시아의 반쪽을 우리가 성공적으로 통일한 반면, 다른 반쪽은 별도의 국가에 의해 통제되고 있으며, 이들은 그들 자신이 잠재적 경쟁자라고 생각하며 심지어 전쟁이 벌어진다면 적이 될 수도 있습니다.\n\n우리나라는 전쟁에 대비해야 합니다. 그것이 진정으로 필요하다면 말이죠. 우리는 잠재적으로 더 강한 적과 싸우고 싶지 않을 수도 있겠지만, 우리가 그들에게 대항할 수 있는지는 확실히 해야 합니다. 그러나, 가능하다면 우리는 서쪽의 국가와 외교적 접촉을 준비해야 합니다. 우리는 전면전을 선택하는 것을 고민하기 전에 모든 외교적 수단을 먼저 고려해보아야 합니다. 하지만, 우리는 어떠한 대가를 치르더라도 이에 대비해야 합니다. 운 좋게도, 현재 우리가 통제하고 있는 항구들 덕분에 우리는 마침내 더 효율적이고 내구도가 좋은 새로운 무기들을 마침내 수입할 수 있게 되었습니다. 시베리아의 혹독한 겨울은 그곳에서 싸워야 한다면 문제가 될 수 있습니다. 그렇기에 우리의 군인과 무기는 전투를 위해 강해져야 합니다. 무슨 수를 써서라도 살아남아야 하지만, 우리는 외교 노선을 시도해보아야 합니다."
 
- TOM_humanist_neutrality_to_the_sphere_desc: "세계의 많은 초강대국을 보자면, 세가지 주요 초강대국이 존재하고 있습니다. 독일과 그들의 유니티 팍트는 명백히 우리가 참여할 수 없는 것입니다. 두번째는 미국과 OFN입니다. 그들은 자유 세계의 투사이며 우리의 많은 문헌과 다른 물자들이 그들에게서 나왔지만, 그들은 공식적으로 우리 국가를 승인하고 있지 않습니다. 하지만, 그들과 우리는 중립을 지킬수는 있습니다.\n\n마지막 초강대국은 바로 일본과 그들의 공영권입니다. 매일매일 그들의 영향력이 축소되는 것으로 보이기는 하지만, 그들은 우리과 가장 가까운 초강대국입니다. 그러나, 그들은 우리나 다른 정복된 군벌 국가들과 상호작용이 전혀 없는 상태란 점을 고려해보면, 꽤 괜찮아보입니다. 우리가 그들의 어떠한 정책에 동의하지 않을지도 모르지만, 그들은 여전히 이를 알고도 우리와 교역할 것입니다. OFN처럼 공식적이지는 않겠지만 말입니다. 어쩌면 우리는 둘 중 어느쪽에 충성을 맹세할 것이 아니라, 그들과중립을 지켜야 할 지도 모릅니다. 이를 통해 새로운 무역 협정을 채결할 수 있게 되기를 바랍니다.."
+ TOM_humanist_neutrality_to_the_sphere_desc: "세계의 많은 초강대국을 보자면, 세가지 주요 초강대국이 존재하고 있습니다. 독일과 그들의 아인하이츠팍트는 명백히 우리가 참여할 수 없는 것입니다. 두번째는 미국과 OFN입니다. 그들은 자유 세계의 투사이며 우리의 많은 문헌과 다른 물자들이 그들에게서 나왔지만, 그들은 공식적으로 우리 국가를 승인하고 있지 않습니다. 하지만, 그들과 우리는 중립을 지킬수는 있습니다.\n\n마지막 초강대국은 바로 일본과 그들의 공영권입니다. 매일매일 그들의 영향력이 축소되는 것으로 보이기는 하지만, 그들은 우리과 가장 가까운 초강대국입니다. 그러나, 그들은 우리나 다른 정복된 군벌 국가들과 상호작용이 전혀 없는 상태란 점을 고려해보면, 꽤 괜찮아보입니다. 우리가 그들의 어떠한 정책에 동의하지 않을지도 모르지만, 그들은 여전히 이를 알고도 우리와 교역할 것입니다. OFN처럼 공식적이지는 않겠지만 말입니다. 어쩌면 우리는 둘 중 어느쪽에 충성을 맹세할 것이 아니라, 그들과중립을 지켜야 할 지도 모릅니다. 이를 통해 새로운 무역 협정을 채결할 수 있게 되기를 바랍니다.."
 
  TOM_humanist_science_of_the_free_world_desc: "톰스크가 서러시아 전쟁과, 심지어 곳에 따라서는 중앙 시베리아 전쟁에서도 상대적으로 피해를 입지 않았기 때문에, 우리의 대학들은 아직도 자랑스럽게 서있습니다. 그러나, 동시베리아의 대부분과 마찬가지로, 그들은 더 나아질 수도 있습니다.\n\n이제 우리가 바다로 나갈 수 있게 되었으니, 자유세계의 많은 훌륭한 대학들에게 연락을 보내기 시작할 수 있습니다. 스탠포드, MIT, 하버드, 맥길같은 곳들 말입니다. 희망적으로, 만약 이 대학들의 학생들과 관리자들이 우리의 연락에 귀기울여준다면, 그들은 의학, 공학, 기술, 산업 발전 같은 많은 과학 분야에서 그들이 보유한 지식 일부를 보내주기 시작할 수도 있을 것입니다. 그 대신, 많은 학생들이 톰스크로 건너와 우리 계획 중 하나를 발전시키는 것을 도와줄 수 있을 것입니다. 물론, 그들이 원한다면요."
 
@@ -2128,7 +2132,7 @@
  ### Opinion Modifiers ###
  TOM_russian_friends: "외교적 관점"
  ### Don't ask why these are here ###
- RAJ_japanese_connection: "Connections with the Japanese"
+ IND_japanese_connection: "Connections with the Japanese"
  ITA_look_to_the_west: "서쪽을 바라보다"
 
  ########################
@@ -2302,11 +2306,11 @@
  TOM.41.b: "우리가 생산 효율성을 유지하지 못한다면 장기적으로 봤을 때 당신들의 권리를 보장할 수 없다."
 
  TOM.43.t: "작전명 트뵤르다야 루카(거친 손)"
- TOM.43.desc: "샤포스니코프는 보좌관들이 전쟁부 구석구석을 돌아다니는 동안 자신의 싸구려 커피 한 잔을 애지중지하고 있었습니다. 조만간 [TOM.GetLeader] 대통령은 트뵤르다야 루카 작전을 공식적으로 승인할 것입니다.\n\n트뵤르다야 루카 작전은 초기 시베리아 공화국의 무정부주의자 진압 계획의 대부분을 재활용했습니다.  이 작전은 썩 괜찮았습니다. 신속한 기동으로 무정부주의자 반란군의 영토를 분단시키고, 시베리아 흑군의 본거지인 칸스크를 포위한다는 내용입니다. 크릴로프 장군의 최초 시도는 이를 거의 실현시킬 뻔했었지만, 안드레예프의 배신으로 인해 지속적인 공세가 불가능해졌습니다. 흑군이 칸스크 외곽에서 중화기들로 무장하는데 성공하자 중앙 시베리아 공화국에 사형선고가 내려졌었습니다. 무정부주의자들은 격렬히, 그리고 잘 싸웠습니다. 하지만 이번에는, 그들이 조우할 것은 지친 시베리아 공화국군이 아닙니다.\n\n시베리아 흑군에서 첩보를 얻기는 힘들었습니다. 공화국 정보부는 아직 초기 반란이 어떻게 촉발되었는지 확실히 단정짓지 못했습니다. 흑군 지도자인 스테파노프와 갈란스코프 둘 중 누가 실질적인 지도자인지도 확정지을수 없습니다. 샤포스니코프는 전투에서 진실이 드러나기를, 그리고 공화국이 자신들의 상대를 정확히 판단하고 물리칠수 있길 바랐습니다.\n\n전화가 울렸습니다. 공화국 원수는 전화를 들기도 전에 때가 왔다는 것을 알아차렸습니다."
+ TOM.43.desc: "샤포스니코프는 보좌관들이 전쟁부 구석구석을 돌아다니는 동안 자신의 싸구려 커피 한 잔을 애지중지하고 있었습니다. 조만간 [TOM.GetLeader] 대통령은 트뵤르다야 루카 작전을 공식적으로 승인할 것입니다.\n\n트뵤르다야 루카 작전은 초기 시베리아 공화국의 무정부주의자 진압 계획의 대부분을 재활용했습니다.  이 작전은 썩 괜찮았습니다. 신속한 기동으로 무정부주의자 반란군의 영토를 분단시키고, 시베리아 흑군의 본거지인 칸스크를 포위한다는 내용입니다. 크릴로프 장군의 최초 시도는 이를 거의 실현시킬 뻔했었지만, 안드레예프의 배신으로 인해 지속적인 공세가 불가능해졌습니다. 흑군이 칸스크 외곽에서 중화기들로 무장하는데 성공하자 중앙 시베리아 공화국에 사형선고가 내려졌었습니다. 무정부주의자들은 격렬히, 그리고 잘 싸웠습니다. 하지만 이번에는, 그들이 조우할 것은 지친 시베리아 공화국군이 아닙니다.\n\n시베리아 흑군에서 첩보를 얻기는 힘들었습니다. 공화국 정보부는 아직 초기 반란이 어떻게 촉발되었는지 확실히 단정짓지 못했습니다. 흑군 지도자인 스테파노프와 시우다 둘 중 누가 실질적인 지도자인지도 확정지을수 없습니다. 샤포스니코프는 전투에서 진실이 드러나기를, 그리고 공화국이 자신들의 상대를 정확히 판단하고 물리칠수 있길 바랐습니다.\n\n전화가 울렸습니다. 공화국 원수는 전화를 들기도 전에 때가 왔다는 것을 알아차렸습니다."
  TOM.43.a: "우리는 과거의 죄를 씻기위해 동쪽으로 진군한다."
 
  TOM.44.t: "반란 종식"
- TOM.44.desc: "결국, 야전에서의 승리로 시베리아 흑군의 중추가 박살 났습니다. 무정부주의자 병사들은 격렬히 그리고 오랫동안 싸웠습니다. 하지만 자들의 패배가 확실해지자 흑군 병력은 봄날에 눈 녹듯 사라졌습니다. 샤포슈니코프 원수가 제안한 토지 개혁과 군수 개혁과 식량 공급을 통해 톰스크군은 공세 과정에서 흑군과 민간 공동체를 분리하는데 성공했습니다. 스테파노프 장군과 부하들의 투항으로 흑군 잔당들은 더욱 격렬히 저항했습니다. 톰스크군 장성들은 병사들을 독려하여 적대적 마을을 고립시키고, 지역내 평화구역을 구축해나가기 시작했습니다.\n\n공화국의 최우선 과제는 갈란스코프 체포였으며 무정부주의자들을 박멸하기 위한 작전이 절정에 달했습니다. 투항 권고에도 불구하고 열렬한 무정부주의 신자들은 끝까지 싸울 것을 고집했습니다. 갈란스코프는 마지막 남은 동료들과 함게 북쪽 숲속 구석의 안전가옥에서 죽었습니다. 그들은 남녀를 가리지 않고 공화국을 인정하지 않은 채 총알이 떨어질 때까지 싸웠습니다. 갈란스코프가 죽었다는 소식이 지역에 퍼져나갔고, 이로 인해 새로운 반란이 유발될 우려가 있었으나, 이곳의 주민들은 10년간의 분쟁으로 이미  지쳐있었습니다.\n\n공화국군은 지역민들의 불만을 귀담아듣고, 굶주린 자들을 위해 식량을 공수해왔습니다. 아마도, 그들의 지도자는 다른 나라를 침략하기 위해 그들이 기꺼이 노예제를 받아들일 것이라 생각했나 봅니다. 농부들은 갈란스코프가 스스로 힘을 되찾아 자신들을 사면해 주길 바랐습니다.\n\n스테파노프의 재판이 곧 시작될 것입니다. 그는 붙잡힌 다른 분리주의자들과 마찬가지로 단지 끝없는 폭력에서 지역민들을 해방시키기 위해 반란을 일으켰다라고 항변할 것으로 예상됩니다. 톰스크에서는 유혈상태를 종식시키고 공화국의 영토를 정상적인 상태로 반환한 것을 감안해 스테파노프가 감형 받을 것이라는 소문이 무성합니다."
+ TOM.44.desc: "결국, 야전에서의 승리로 시베리아 흑군의 중추가 박살 났습니다. 무정부주의자 병사들은 격렬히 그리고 오랫동안 싸웠습니다. 하지만 자들의 패배가 확실해지자 흑군 병력은 봄날에 눈 녹듯 사라졌습니다. 샤포슈니코프 원수가 제안한 토지 개혁과 군수 개혁과 식량 공급을 통해 톰스크군은 공세 과정에서 흑군과 민간 공동체를 분리하는데 성공했습니다. 스테파노프 장군과 부하들의 투항으로 흑군 잔당들은 더욱 격렬히 저항했습니다. 톰스크군 장성들은 병사들을 독려하여 적대적 마을을 고립시키고, 지역내 평화구역을 구축해나가기 시작했습니다.\n\n공화국의 최우선 과제는 시우다 체포였으며 무정부주의자들을 박멸하기 위한 작전이 절정에 달했습니다. 투항 권고에도 불구하고 열렬한 무정부주의 신자들은 끝까지 싸울 것을 고집했습니다. 시우다는 마지막 남은 동료들과 함게 북쪽 숲속 구석의 안전가옥에서 죽었습니다. 그들은 남녀를 가리지 않고 공화국을 인정하지 않은 채 총알이 떨어질 때까지 싸웠습니다. 시우다가 죽었다는 소식이 지역에 퍼져나갔고, 이로 인해 새로운 반란이 유발될 우려가 있었으나, 이곳의 주민들은 10년간의 분쟁으로 이미  지쳐있었습니다.\n\n공화국군은 지역민들의 불만을 귀담아듣고, 굶주린 자들을 위해 식량을 공수해왔습니다. 아마도, 그들의 지도자는 다른 나라를 침략하기 위해 그들이 기꺼이 노예제를 받아들일 것이라 생각했나 봅니다. 농부들은 갈란스코프가 스스로 힘을 되찾아 자신들을 사면해 주길 바랐습니다.\n\n스테파노프의 재판이 곧 시작될 것입니다. 그는 붙잡힌 다른 분리주의자들과 마찬가지로 단지 끝없는 폭력에서 지역민들을 해방시키기 위해 반란을 일으켰다라고 항변할 것으로 예상됩니다. 톰스크에서는 유혈상태를 종식시키고 공화국의 영토를 정상적인 상태로 반환한 것을 감안해 스테파노프가 감형 받을 것이라는 소문이 무성합니다."
  TOM.44.a: "공화국은 용서하였으나, 잊지는 않을 것이다."
 
  TOM.45.t: "작전명 슈콜라(학교)"
@@ -2419,6 +2423,7 @@
  TOM.74.desc: "몇몇 사람들이 탐탁지 않은 이념인 과격주의 사상의 징후를 보이고 있습니다. 과격주의를 중심으로 하는 정치적 집단들이 우리 국경 내에서 하나둘씩 튀어나오고 있는데, 이 문제를 빨리 해결하지 않는다면, 우리 민주주의를 산산조각내어 잔인하게 찢어버리고 말 것입니다. 우리는 우리 영토에 몰래 들어와 전제 정치라는 독약으로 우리의 흐르는 지적 사상을 오염시킨 자들을 찾아내야 합니다.\n\n우리는 대중과, 심지어 어떠한 중대한 진전이 있다면 정치적 엘리트까지 주시할 것입니다. 그 동안, 우리 요원들은 농민들의 마음을 타락시키려고 시도하는 과격파 정당을 찾아내 부숴버릴 것입니다."
  TOM.74.a: "우리는 이 문제를 미연에 방지해야 한다."
 
+
  TOM.79.t: "우리의 외교적 상황"
  TOM.79.desc: "우리가 관심을 가지고 있는 국가, 특히 태평양의 강대국들에 접근할 때가 되었습니다. 우리의 가장 큰 관심사는 특히, 미국과 일본 같은 몇몇 국가들이 우리에 관심이 있는지 입니다. 우리는 냉전에서 중립을 지켜야 합니다. 동맹에 가깝게 근접시키는 것은 미래에 우리를 위험에 빠뜨릴 수 있습니다.\n\n이는 미국과 일본, 둘 다와 잘 지내는 것을 의미하며, 이것이 미국과 더 가까워지지 않아 몇몇 살롱들을 화나게 할 수도 있겠지만 일본의 맹렬한 분노를 받아내고 싶지 않다면 이는 훨씬 더 중요한 일입니다. 현 시점에서, 우리는 어떠한 종류의 금수조치나 침공의 위협을 감수할 수 없습니다. 금수조치는 우리 경제를 완전히 파괴하고, 서쪽의 경쟁자를 극복할 수 있는 기회를 완전히 끝내버릴 것입니다. 그리고, 침공의 가능성은 낮지만 우리는 항상 예상치 못한 결과에 대비해야 합니다.\n\n이러한 이유로, 미래에 우리는 일본과 미국, 모두와 친하게 지내야 합니다. 일본과의 우호적인 관계를 유지하는 것은 아마도 보상으로 돌아올 수도 있을 것입니다. 우리가 두 나라와의 관계를 계속 유지하려고 노력하는 데 두 국가 모두가 화내지 않기를 바랍니다."
  TOM.79.a: "우리는 위험한 게임을 하고 있군. "
@@ -2485,7 +2490,7 @@
  TOM.103.a: "그가 리카초프나 다른 사람들보단 낫다."
 
  TOM.105.t: "대통합의 유산" #Tomsk common regional Legacy of the Great Unification
- TOM.105.desc: "중앙 시베리아 공화국은 벼랑 끝에서 돌아왔습니다. 판단을 잘못했던 분리주의자들은 마지막 한사람까지 진압되었으며, 슬프지만 그 후의 노동자 봉기도 진압되었습니다. 노동자들은 공장으로 돌아가고 있으며, 다른 중앙 시베리아 파벌의 시민들은 아직 공공연한 반란을 일으키고 있지는 않습니다만, 긴장감은 눈에 띄게 높습니다.\n\n현재로선, 다소 과확장된 우리의 공화국은... 아직 작동하고 있습니다. 산업화 계획은 당연히 중앙시베리아 지역 전체로 확대되어야 할 필요가 있긴 하지만, 중앙 시베리아 계획을 통해 점진적인 진전이 이루어지고 있습니다. 정부는 최소한 국민에 대해 합법성과 느슨한 권위를 가지고 있긴 하지만, 러시아 전역의 통일은 언급할 필요도 없이, 국민의 신뢰를 얻고 완전히 갖춘 국가로서 발전하기 위해서는 매우 신중하게 행동해야 할 것입니다.\n\n카페, 집, 술집, 공장에서 사람들은 파스테르나크의 위대한 헌법과 우리의 살롱이 그들이 주장하는 것처럼 정말 이상적이고 사람들을 위한 것인지 서로에게 공공연히 질문하고 있습니다. 우리 국민들이 냉소적으로 변하는 중대한 위험이 도사리고 있으며, 이들의 무관심만으로도 우리 공화국은 몰락할 수 있습니다. 몇몇 사람들은 매우 분노하여 살롱 제도 바깥에서 공직에 출마하여 현재 우리 정부가 누리고 있는 균형과 안정을 위협하고 있는 것 같이 말이죠. 우선, 우리 정부의 성공을 위해서는 경제 발전, 정치적 안정 유지, 그리고 군의 개선이 필수적입니다. n\n우리의 이상주의는 오직 어느 정도까지만 우리를 이끌어줄 수 있습니다. 이 위대한 공화국 실험은 살아남을 수 있지만 도전적인 위치에 직면했습니다. 우리는 이를 계속하기 위해 필요한 것을 해야 합니다. 그렇게 말하긴 했지만, 만약 우리가 우리의 이상을 완전히 희생한다면, 우리가 하는 어떠한 일이든 가치가 있는 것일까요?"
+ TOM.105.desc: "중앙 시베리아 공화국은 벼랑 끝에서 돌아왔습니다. 판단을 잘못했던 분리주의자들은 마지막 한사람까지 진압되었으며, 마침내 전 지방에 질서가 돌아왔습니다. 노동자들은 공장으로 돌아가고 있으며, 다른 중앙 시베리아 파벌의 시민들은 아직 공공연한 반란을 일으키고 있지는 않습니다만, 긴장감은 눈에 띄게 높습니다.\n\n현재로선, 다소 과확장된 우리의 공화국은... 아직 작동하고 있습니다. 산업화 계획은 당연히 중앙시베리아 지역 전체로 확대되어야 할 필요가 있긴 하지만, 중앙 시베리아 계획을 통해 점진적인 진전이 이루어지고 있습니다. 정부는 최소한 국민에 대해 합법성과 느슨한 권위를 가지고 있긴 하지만, 러시아 전역의 통일은 언급할 필요도 없이, 국민의 신뢰를 얻고 완전히 갖춘 국가로서 발전하기 위해서는 매우 신중하게 행동해야 할 것입니다.\n\n카페, 집, 술집, 공장에서 사람들은 파스테르나크의 위대한 헌법과 우리의 살롱이 그들이 주장하는 것처럼 정말 이상적이고 사람들을 위한 것인지 서로에게 공공연히 질문하고 있습니다. 우리 국민들이 냉소적으로 변하는 중대한 위험이 도사리고 있으며, 이들의 무관심만으로도 우리 공화국은 몰락할 수 있습니다. 몇몇 사람들은 매우 분노하여 살롱 제도 바깥에서 공직에 출마하여 현재 우리 정부가 누리고 있는 균형과 안정을 위협하고 있는 것 같이 말이죠. 우선, 우리 정부의 성공을 위해서는 경제 발전, 정치적 안정 유지, 그리고 군의 개선이 필수적입니다. n\n우리의 이상주의는 오직 어느 정도까지만 우리를 이끌어줄 수 있습니다. 이 위대한 공화국 실험은 살아남을 수 있지만 도전적인 위치에 직면했습니다. 우리는 이를 계속하기 위해 필요한 것을 해야 합니다. 그렇게 말하긴 했지만, 만약 우리가 우리의 이상을 완전히 희생한다면, 우리가 하는 어떠한 일이든 가치가 있는 것일까요?"
  TOM.105.a: "공화국은 계속된다."
 
  TOM.106.t: "The Common Core Reforms" #Tomsk common regional The Common Core Reforms
@@ -2683,7 +2688,7 @@
  TOM.157.a: "이뤄진 꿈, 조화로운 노래."
 
  TOM.158.t: "민주적 절차"
- TOM.158.desc: "아브람은 톰스크의 꽁꽁 얼어붙은 거리를 벗어나 따뜻한 건물로 들어갔습니다. 두 손을 비벼가며 그는 창구로 향했고, 창구에는 안경 쓴 작은 여성이 한명 앉아있었습니다. "좋은 아침입니다, 부인. 제 이름은 아브라함 드미트리예프이고, 예전엔 노보시비르스크에서 정치인이었습니다. 제가 톰스크에서 공직 출마를 할 수 있을까요?"\n\n그 여자는 고개를 들고 미소지었습니다. "아, 아주 간단하죠. 이 서류에 서명하시고, 출마하고자 하는 선거구를 기입하시고, 지원받을 살롱 이름을 써주시기만 하면 됩니다."\n\n"잠시만요. 지원받을 살롱이 있어야만 합니까? 무소속으로 출마할 수는 없는 건가요?"\n\n여자의 미소가 희미해졌습니다. "파스테르나크가 우리의 독특한 민주주의를 그렇게 설계한 건 아닙니다만, 선생님. 살롱의 지원을 받아야 합니다. 그렇지 않다면 투표용지에 이름이 새겨질 수조차 없어요. 명확하고 간단하게요."\n\n"살롱의 이념을 따라야만 하다니, 민주적으로 보이지는 않군요., 그치만, 골라야 한다면 모더니스트가 제일 나을 것 같군요."\n\n여자는 의자에 등을 기댔습니다. "그렇다면, 모더니스트 지도자의 서명을 받아서 저에게 주세요. 그들은 다음 주에 컨벤션 홀에서 회의를 진행할 겁니다. 그리고 선생님. 이게 비민주적이라 불평하지 마세요. 당신은 그 젠장할 노보시비르스크에서 살았잖아요."
+ TOM.158.desc: "아브람은 톰스크의 꽁꽁 얼어붙은 거리를 벗어나 따뜻한 건물로 들어갔습니다. 두 손을 비벼가며 그는 창구로 향했고, 창구에는 안경 쓴 작은 여성이 한명 앉아있었습니다. "좋은 아침입니다, 부인. 제 이름은 아브라함 드미트리예프이고, 예전엔 노보시비르스크에서 정치인이었습니다. 제가 톰스크에서 공직 출마를 할 수 있을까요?"\n\n그 여자는 고개를 들고 미소지었습니다. "아, 아주 간단하죠. 이 서류에 서명하시고, 출마하고자 하는 선거구를 기입하시고, 지원받을 살롱 이름을 써주시기만 하면 됩니다."\n\n"잠시만요. 지원받을 살롱이 있어야만 합니까? 무소속으로 출마할 수는 없는 건가요?"\n\n여자의 미소가 희미해졌습니다. "파스테르나크가 우리의 독특한 민주주의를 그렇게 설계한 건 아닙니다만, 선생님. 살롱의 지원을 받아야 합니다. 그렇지 않다면 투표용지에 이름이 새겨질 수조차 없어요. 명확하고 간단하게요."\n\n"살롱의 이념을 따라야만 하다니, 민주적으로 보이지는 않군요., 그치만, 골라야 한다면 모더니스트가 제일 나을 것 같군요."\n\n여자는 의자에 등을 기댔습니다. "그렇다면, 모더니스트 지도자의 서명을 받아서 저에게 주세요. 그들은 다음 주에 컨벤션 홀에서 회의를 진행할 겁니다. 그리고 선생님. 이게 비민주적이라 불평하지 마세요. 당신은 그 젠장할 노보시비르스크에서 살았잖아요.""
  TOM.158.a: "그는 익숙해질 것이다."
 
  ### Election events ###
@@ -2703,12 +2708,13 @@
  TOM_elections.3.a: "축하합니다, 리카초프 당선인!"
 
  TOM_elections.4.t: "모더니스트 공동체의 승리"
- TOM_elections.4.desc: "모더니스트 살롱은 명백한 국민의 신임을 받는 데 성공했습니다. 모더니스트의 대통령 당선인인, 유명한 물리학자 안드레이 사하로프가 4년간 공화국을 이끌 것입니다. 이미 모더니스트 사람들은 청색 두마라고 부르는, 다양한 정치 살롱의 장관들에 대한 능력주의의 장을 구현하는 데 열심히 노력하고 있습니다. 장관들이 각 부처가 적임의 정치인들과 관료들에 의해 완전히 자리를 잡게 된 이후에는 사하로프는 경제 개선에 노력하는 것을 희망하고 있습니다. 이제 중앙 시베리아 계획을 모두 물려받은 모더니스트는 전문가 정책 입안이 이끄는 자유 시장 개혁의 결합을 통해 공화국을 더욱 더 현대적인 경제로 도약시킬 것이라고 주장합니다. 이 새로운 번영의 시대에는 여성과 동성애자 같은 소수자에 대한 더 많은 권리가 동반될 예정입니다. 사하로프는 개인적으로는 평화주의자로 유명하지만, 그와 그의 당은 중앙 시베리아 산업을 이용해 압도적 능력을 갖추고 공화국에 대한 어떠한 위협이든 줄일 수 있는 새로운 군대를 만들 것이라는 선거운동을 펼쳤습니다. 외교 정책에 대해서는, 외부 세계와의 연결이 회복된다면 모더니스트는 친-OFN 정책으로 기울 가능성이 높습니다."
+ TOM_elections.4.desc: "모더니스트 살롱은 명백한 국민의 신임을 받는 데 성공했습니다. 모더니스트의 대통령 당선인인, 유명한 물리학자 안드레이 사하로프가 4년간 공화국을 이끌 것입니다. 이미 모더니스트 사람들은 청색 두마라고 부르는, 다양한 정치 살롱의 장관들에 대한 능력주의의 장을 구현하는 데 열심히 노력하고 있습니다. 장관들이 각 부처가 적임의 정치인들과 관료들에 의해 완전히 자리를 잡게 된 이후에는 사하로프는 경제 개선에 노력하는 것을 희망하고 있습니다. 이제 중앙 시베리아 계획을 모두 물려받은 모더니스트는 전문가 정책 입안이 이끄는 자유 시장 개혁의 결합을 통해 공화국을 더욱 더 현대적인 경제로 도약시킬 것이라고 주장합니다. 이 새로운 번영의 시대에는 사회적 약자에 대한 더 많은 권리가 동반될 예정입니다. 사하로프는 개인적으로는 평화주의자로 유명하지만, 그와 그의 당은 중앙 시베리아 산업을 이용해 압도적 능력을 갖추고 공화국에 대한 어떠한 위협이든 줄일 수 있는 새로운 군대를 만들 것이라는 선거운동을 펼쳤습니다. 외교 정책에 대해서는, 외부 세계와의 연결이 회복된다면 모더니스트는 친-OFN 정책으로 기울 가능성이 높습니다."
  TOM_elections.4.a: "축하합니다, 사하로프 당선인!"
 
  TOM_elections.5.t: "바스티야드 공동체의 승리"
  TOM_elections.5.desc: "바스티야드 협회의 매끄러운 선거운동 이후 부조리주의자 시인인 다닐 하름스가 대통령에 당선된 것은 그다지 이상한 일은 아닙니다. 노동자 반란의 유산에도 불구하고, 공화국 시민들은 바스티야드의 회색 두마와 강력히 임명된 상원에 대해 여전히 신뢰를 보내고 있습니다.\n\n민주적으로 선택된 권위주의 정부라는 이 이상한 계약에 대한 답례로서, 공화국 시민들은 중앙 계획이 이끄는 경제 성장, 파시스트 및 공산주의 선동가들을 찾아내기 위해 국민을 감시하려는 정부, 어떠한 일이 있어도 반드시 러시아의 민주적인 미래를 보장하려는 실용적 외교 정책을 기대하고 있습니다. 군사 문제에 대해, 하름스는 몇 번이고 현대적 화력 및 자유사회와 적들 사이의 벽을 지을 공학의 중요성을 강조해 왔습니다.\n\n강철의 공화국의 대통령과 회색 두마는 진군하고 있습니다!"
  TOM_elections.5.a: "축하합니다, 하름스 당선인"
+
 
  TOM_elections.6.t: "휴머니스트의 승리!"
  TOM_elections.6.desc: "톰스크의 노동자들이 몰려사는 구역의 가장 세련된 카페와 찻집에서, 휴머니스트 협회의 지지자들은 숨을 죽이고 라디오를 기다렸습니다. 드미트리 쇼스타코비치의 대통령 선거 승리가 공표되었을 때, 많은 사람들이 눈물을 흘렸습니다. 혼란스러운 수년과 중앙 시베리아 공화국의 천천하고도 고통스러운 붕괴를 거쳐, 다른 사람들은 각각의 러시아 시민들이 타고난 품위에 대한 믿음을 잃어버렸습니다. 하지만, 휴머니스트들은 아니었죠.\n\n축해 행사 내내, 노동자들은 대중 연설가들 주변에 모여 휴머니스트 살롱의 선언문을 들었습니다. 그 당의 운동가들은 무질서한 아나키즘과, 마르크스적 사회주의를 큰 소리로 거부했습니다. 민주적인 목소리의 새로운 현대적 합창단은 마에스트로인 정부의 지휘를 받습니다. 시민들에게 국가는 도움을 줄 것이며, 과다한 노동을 제한하려고 노력하며, 호황기든 불황기든 상관없이, 교육과 의료를 제공할 것입니다. 이에 대한 보답으로, 국가는 그의 아이들에게 노력을 기대하게 될 것입니다. 새로운 정치 집회 문화, 그들 주변의 세상을 발전시키려고 하는 의지와 시민군에 입대해 중앙 시베리아 들판으로 진격해 나가려는 굳은 결단력 같은 것 말입니다.\n\n드미트리 쇼스타코비치는 그의 아파트에서 친구들과 가족들과 함께 축하했습니다. 다음 해는 쉽지 않을 것입니다. 국가라는 부담을 파스테르나크의 나약한 어깨로부터 쇼스타코비치 자신의 쇠약한 몸으로 떠안게 될 것입니다. 공화국은 견뎌낼 것입니다."
@@ -2846,7 +2852,7 @@
  
  TOM_constitutional_crisis.6.t: "모든 조치"
  TOM_constitutional_crisis.6.desc: "하름스는 내각 구성원들 앞에서 일어나면서 옷여무새를 바로했고, 대통령이 이 즉흥적 회의를 시작하는 걸 기다리며 내각 구성원들은 불편한 표정을 지었습니다. "왜 오늘 여러분들을 소집했는지 이해하셔야겠습니다." 그는 그들의 얼굴을 더이상 쳐다보지 않으며 말했습니다. "내부 안보와 관련된 문제입니다.""\n\n"각하, 그 사안은 이미 처리했습니다." 샤포슈니코프가 확신하는 목소리로 말했습니다.\n\n"그건 괜찮았지만, 그냥 노동자 반란만 말하는 게 아닙니다."\n\n"보즈네센스키가 샤포슈니코프를 쳐다보다, 그러고 나서 대통령을 응시하며 대화에 끼어들었습니다. "분리주의자의 선동에 대해서 말씀하시는 건가요?"\n\n"바로 그게 문제입니다. 분리주의자들이 소수이긴 한데, 그렇다 해서 덜 위협적인 것은 아니지요. 그들의 최근 시위로 인해서 뭐 예를 들자면, 그들의 메세지를 퍼트릴 수도 있겠지 않습니까. 그들은 지금 수년동안 이 공화국을 안전하게 지켜온 살롱 제도의 폐지를 요구하고 있어요."\n\n하름스는 그의 내각 구성원들의 찬성의견을 받기 위해 잠시 멈췄습니다. 그들이 고개를 끄덕이자, 그는 계속 말하기 시작했습니다. "이것이 그들이 해결되어야만 하는 이유가 되겠습니다. 그것도 곧 말이죠."\n\n"하름스 각하, 우리가 노동자들을 상대했던 것처럼 그들을 상대해야 할까요?"\n\n"아니, 그럴 필요는 없어요. 샤포슈니코프. 그들은 위험하긴 하지만, 그렇게까지 위험한건 아닙니다."\n\n"그들의 시위는 안정에는 도움이 되지 않을 거 같군요. 올레이니코프가 대답했습니다. "이미 휴머니스트들은 두마에서 그들에게 동정심을 표하는 입장을 내놓고 있어요. 우리 국가기관의 신뢰에 미치는 영향은 말할 것도 없습니다."\n\n"그게 우리가 그들을 주시하고 모든 조치를 강구해야 할 이유죠. 만약 그들이.... 폭력적으로 변한다면 말입니다. 이상적으로는, 그들은 모두 공화국 체제 내로 다시 복귀되어야만 하며, 우리 예상보다 그들이 너무 커져버릴 경우에 대비해서, 적절하고 합법적인 수단을 통해 그들을 상대해야 합니다. 모두 동의합니까?""
- TOM_constitutional_crisis.6.a: "예, 각하."
+ TOM_constitutional_crisis.6.a: ""예, 각하.""
  
  TOM_constitutional_crisis.7.t: "수도의 반시위대"
  TOM_constitutional_crisis.7.desc: "톰스크시 시장은 그의 책상에 앉아 톰스크 경찰청장의 상황 설명을 들으며 손을 심하게 떨었습니다. 통통하고, 몸집이 작은 시장은 고작 선출된지 1년밖에 되지 않앗습니다. 그리고 이미 시위자들은 그의 도시, 어쩌면 나라 전체까지도 갈갈이 찢어버리고 있었습니다. 그는 자신의 임기도 참 좆같이 시작한다며 씁쓸하게 생각했습니다. "시장님, 상황이 매우 심각합니다." 경찰청장이 이야기를 시작했습니다. "옛 분리주의자들이 우리 정부에 항의하기 위해 전국에서 올라온 것으로 보입니다."\n\n시장은 긴장을 가라앉히기 위한 보드카 한잔을 간절히 원하며 고개를 끄덕였습니다.\n\n"큰 충돌은 아직 일어나진 않았습니다."\n\n"반시위대는 어떻습니까?"\n\n"분노하는 건 그대로지만, 그들도 중대한 충돌은 일으키지 않고 있습니다."\n\n"상대가 먼저 움직이기를 기다리고 있는 것 같군요."\n\n경찰서장이 끄덕였습니다. "분리주의자에 맞서 공화국 지지자들을 보호하기 위한 경찰병력은 충분히 확보되어 있는 상태입니다."\n\n"우리가 그들을 그냥 내버려둘 수도 있겠군요."\n\n경찰청장은 눈썹을 치켜올렸지만, 아무 말도 하지 않았습니다.\n\n"이게 지역 문제일 뿐만 아니라 국가적 문제이기도 해서, 저는 정부의 지시를 기다리고 있는 중입니-"\n\n시장이 이렇게 말하자마자, 문이 쾅 열리더니, 간신히 학교는 졸업할 수 있었던 청년이 시장의 책상으로 달려왔습니다.\n\n"시장님, 내무부에서 온 전문입니다!"\n\n시장은 문서를 잡아들었고, 이 문서에 따르면 내무부는...."
