@@ -4,14 +4,38 @@
 
  SGR_RegimeStab_50:0 "최소한 £GFX_regime_stability_texticon §Y정권 안정도§!가 §Y50%§!이어야 함."
  SGR_RegimeStab_75:0 "최소한 £GFX_regime_stability_texticon §Y정권 안정도§!가 §Y75%§!이어야 함."
+ 
+ ## Economy ##
+ SGR_erratic_economy:0 "\nDue to our §Rerratic§! economic §Ypolicy§!, our §RNational Debt§!, §VInflation§! and §KGDP growth§! will be affected."
 
+ SGR_econ_con_1:0 "Our £SGR_econ_policy §geconomic policy§! will become slightly more £SGR_econ_con §sconservative§!!"
+ SGR_econ_con_2:0 "Our £SGR_econ_policy §geconomic policy§! will become more £SGR_econ_con §sconservative§!!"
+ SGR_econ_con_3:0 "Our £SGR_econ_policy §geconomic policy§! will become significantly more £SGR_econ_con §sconservative§!!"
+
+ SGR_econ_lib_1:0 "Our £SGR_econ_policy §geconomic policy§! will become slightly more £SGR_econ_lib §Mliberal§!!"
+ SGR_econ_lib_2:0 "Our £SGR_econ_policy §geconomic policy§! will become more £SGR_econ_lib §Mliberal§!!"
+ SGR_econ_lib_3:0 "Our £SGR_econ_policy §geconomic policy§! will become significantly more £SGR_econ_lib §Mliberal§!!"
+
+ SGR_econ_attention:0 "\nDuring our economic §Greforms§!, we will §Rinevitably§! have to §Ycompromise§! or implement §Ropposing§! economic actions to maintain our economic health. Depending on our §Bactions§!, our £SGR_econ_policy §geconomic policy§! may become more £SGR_econ_lib §Mliberal§! or £SGR_econ_con §sconservative§!. Keeping our £SGR_econ_policy §geconomic policy§! balanced or consistent will ensure continued economic §Ggrowth§!."
+ 
+ SGR_econ_liberal:0 "£SGR_econ_lib §MLIBERAL§!"
+ SGR_econ_conservative:0 "£SGR_econ_con §sCONSERVATIVE§!"
+ SGR_econ_balanced:0 "§YBALANCED§!"
+
+ SGR_econ_oppose_con:0 "£SGR_econ_con §sopposing§!"
+ SGR_econ_oppose_lib:0 "£SGR_econ_lib §Mopposing§!"
+ SGR_econ_oppose:0 "opposing"
+
+ SGR_econ_consist_con:0 "£SGR_econ_con §sconsistent§!"
+ SGR_econ_consist_lib:0 "£SGR_econ_lib §Mconsistent§!"
+ SGR_econ_consist:0 "consistent"
+
+ #£SGR_econ_policy £SGR_econ_con £SGR_econ_lib
  ## Decisions ##
-
- SGR_tree_reload_tt:0 "§T§Y중점 불러오기§!는 때때로 제대로 이뤄지지 않거나 즉시 이뤄지지 않을 수 있습니다. 이는 우리가 어떻게 해볼 수 없는 구동기의 버그입니다. §Y만일 당신에게 이런 일이 일어난다면, 인게임 상에서 며칠 기다려보시거나 세이브파일을 다시 불러와 보세요.§!§!"
 
  SGR_state_of_the_reich_category:0 "라이히의 상태"
  TNO_SGR_Decisions_GUI_regime_lean_text:0 "§Y정권§!이 현재 기울어지고 있습니다..."
- TNO_SGR_Decisions_GUI_desc_text:0 "§Y정권 안정도§!: £GFX_regime_stability_texticon [?SGRRegimeStability|W%]\n\n£GFX_regime_stability_texticon §Y정권 안정도§!는 §O총통 각하§!의 정부가 오래 존속하기 위해 가장 중요한 수치입니다. 이것은 §T사회적 관점§!에서 §R보수파§!와 §개혁파§!가 각각 반대편에 있을 때 두 세력 중 하나가 하는 행동을 포함한 §g논란의 여지가 있는 결정§!으로부터 영향을 받습니다. 또한 시시각각 변화하는 £GFX_stability_texticon §W국가 안정도§!로부터도 영향을 받을 것입니다. 만일 £GFX_regime_stability_texticon §Y정권 안정도§!가 §Y30%§! 이하로 내려가면  §O정부§!는 붕괴할 것입니다!\n\n§T사회적 관점§!: £social_outlook_texticon [getLeaningPivot] ([?SGRSocietyLevel|+2]/[getSGRLimits])\n\n§T관점§!은 [?SGRSocietyTick|+]/§Y14일§!에 [getSGROutlook]입니다.\n\n£social_outlook_texticon §T사회적 관점§!은 세계에 대한 §g독일 민족§!이 가진 관점의 척도입니다. 이는 §Q경제 개혁§!, §O정권 기울기§! 그리고, 시간이 지남에 따라 바뀝니다. 만약 §O정부§!가 그와는 반대편으로 기울어져 있다면  £GFX_regime_stability_texticon §Y정권 안정도§!는 떨어질 것입니다!"
+ TNO_SGR_Decisions_GUI_desc_text:0 "§Y정권 안정도§!: £GFX_regime_stability_texticon [?SGRRegimeStability|W%]\n\n£GFX_regime_stability_texticon §Y정권 안정도§!는 §O총통 각하§!의 정부가 오래 존속하기 위해 가장 중요한 수치입니다. 이것은 §T사회적 관점§!에서 §R보수파§!와 §개혁파§!가 각각 반대편에 있을 때 두 세력 중 하나가 하는 행동을 포함한 §g논란의 여지가 있는 결정§!으로부터 영향을 받습니다. 또한 시시각각 변화하는 £GFX_stability_texticon §W국가 안정도§!로부터도 영향을 받을 것입니다. 만일 £GFX_regime_stability_texticon §Y정권 안정도§!가 §Y30%§! 이하로 내려가면  §O정부§!는 붕괴할 것입니다!\n\n§T사회적 관점§!: £social_outlook_texticon [getLeaningPivot] ([?SGRSocietyLevel|+2]/[getSGRLimits])\n\n§T관점§!은 [?SGRSocietyTick|+]/§Y14일§!에 [getSGROutlook]입니다.\n\n£social_outlook_texticon §T사회적 관점§!은 세계에 대한 §g독일 민족§!이 가진 관점의 척도입니다. 이는 §Q경제 개혁§!, §O정권 기울기§! 그리고, 시간이 지남에 따라 바뀝니다. 만약 §O정부§!가 그와는 반대편으로 기울어져 있다면  £GFX_regime_stability_texticon §Y정권 안정도§!는 떨어질 것입니다!\n\n£SGR_econ_policy §gECONOMIC POLICY§!: [getSGREconomyLean] ([?SGR_econ_lib|M0] - [?SGR_econ_con|s0])\n\n£SGR_econ_policy §gEconomic policy§! is a measurement of our current economic policy based on our §Bactions§! during our economic §Greforms§!. Keeping our §geconomic policy§! balanced or [getSGROpposingEconomy2] will ensure continued economic §Ggrowth§!, while having an §Rerratic§! §geconomic policy§! will affect our §RNational Debt§!, §VInflation§! and §KGDP growth§! negatively."
 
  SGR_authdemvsfash_ticker_desc:0 "§Y정권 지지도§!는 현재 [getSGRAlignmentTrend] ([?alignmentTicker|+]/§Y1개월§!) 틱과 그리고 [getLeaningPivot] 중심을 가지고 있습니다.\n\n£social_outlook_texticon §T사회적 관점§! 중심은 §Y정권 기울기§!의 틱이 어디로 향하는지 결정하고 이것은 표시계에 표시됩니다."
 
@@ -39,11 +63,16 @@
  SGR_statereich_charge_treason:0 "§j반동분자§!를 §R반역죄§!로 기소"
  SGR_statereich_charge_treason_desc:0 "우리가 라이히를 통치할 수도 있지만, 그렇다고 해서 우리가 반대가 없는 것은 아닙니다. 그것과는 거리가 멀죠. 반동분자들은 처음부터 내내 발을 질질 끌며 우리 편에서 한결같은 눈엣가시입니다. 우리는 그들에게 누가 라이히에서 총을 쏘는지 그리고 그들이 그 프로그램으로 얻는 것이 최선인지, 아니면 다른 방법으로 얻는 것에 대해 상기시킬 필요가 있을 것입니다. 일부는 이를 과도하다고 볼 것이지만, 제국의 장기적인 이익을 위해서는 반드시 그렇게 해야 합니다."
 
+ SGR_statereich_shift_econ_liberal:0 "Shift the Economy Towards §MLiberalism§!"
+ SGR_statereich_shift_econ_conservative:0 "Shift the Economy Towards §gConservatism§!"
+
  SGR_StateReich_open_pakt:0 "§Y팍트-관계 디시전을 표시§!"
  SGR_StateReich_open_pakt_desc:0 "아인하이츠팍트 재창조와 관련된 결정을 표시하려면 클릭하십시오."
 
  SGR_StateReich_close_pakt:0 "§Y팍트-관계 디시전 숨기기§!"
  SGR_StateReich_close_pakt_desc:0 "아인하이츠팍트 재생성과 관련된 결정을 숨기려면 클릭하십시오."
+ 
+ SGR_pakt_open:0 "§YShowing Pakt-related decisions.§!"
 
  SGR_French_Question:0 "와인과 투쟁의 땅에서"
  SGR_French_Question_desc:0 "그럼에도 불구하고 프랑스인들은 지난 몇 년 동안 부분적으로 라이히의 손에 의해 많은 고통을 받았습니다. 그들이 다시 아인히스팍트에 가입하도록 설득하는 것은 어려울 것이며 양보가 필요할 것입니다. 그러나 우리는 노력해야 합니다, 그렇지 않으면 와인의 땅은 불안정의 가마솥에 머물 것입니다."
@@ -96,6 +125,19 @@
  SGR_Moskowien_Question:0 "러시아의 심장에서"
  SGR_Moskowien_Question_desc:0 "동쪽에서 피와 눈의 평야가 우리의 관심을 기다리고 있습니다. 지그프리드 카셰의 실종은 모스코비엔의 정치 지형을 이동시켰는데, 제국의 영토가 살아남고 번영하려면 우리가 절대적인 통제를 유지해야 하는 상황입니다."
 
+ SGR_Take_Moskowien:0 "Prepare for the Reconquest"
+ SGR_Take_Moskowien_desc:0 "[GetSGR_Take_Moskowien_desc]"
+ SGR_Take_Moskowien_desc_MSK:0 "The operation to retake Moskowien will be brutal. Trudging through what is essentially Europe's endless war field, the only silver lining remains in the fact that the country's shattering into many pieces has likewise shattered the morale of the civilians. There won't be many partisans left to oppose us, and we will mainly have to deal with whatever cobbled-up military might stand in our way. We should still be cautious, however, and not underestimate how difficult this may get."
+ SGR_Take_Moskowien_desc_PAU:0 "The case of von Helldorff is a unique one. He would have been a highly useful tool to us, putting priority on the Aryan colonists and making sure that Germany would inevitably reign at the top. The key word is 'would' have. Pushing aside even the Führer's personal distaste for the man, von Helldorff 's track record after Kasche's disappearance has been disaster after disaster. He is in no form to govern a colony as important as Moskowien, and the Führer has no qualms to let the man know by force."
+ SGR_Take_Moskowien_desc_OKB:0 "Von Saucken is a traitor, there is no argument about it. His government, following the disappearance of Kasche and Helldorff, is a perversion of the Reich's goals. His attempts to flush out the government from, in his own words, the "brown mob", have been half-hearted, with many still lurking within the government. He is publicly, in all senses of the word, an enemy of the state. His ideological differences - prevalent in von Saucken's reported personal hatred of Hitler - give all the reason to justify the fatherland taking back their colony. There will be no room for a king. Only a Führer."
+ SGR_Take_Moskowien_desc_MOS:0 "Bronislav Kaminski, head of the collaborator party NSPR-V who turned into one of the most prolific collaborators in Moskowien, has now taken full charge of the country after the disappearance of Kasche and the subsequent fracturing of the colony. Reports are mixed, yet harrowing. Some claim that Kaminski wants to make a country where the Russians would govern themselves, leaving the fate of Moskowien Germans in question. Others have spoken about rampant militarization, and how Kaminski is not satisfied with only Moskowien. No matter. A mad dog is merely that - a rabid, short-sighted animal, put down by more civilized creatures."
+ SGR_Take_Moskowien_desc_RDC:0 "With the former governor of Oryol now at the head of an independent Moskowien state, the security of our control over the continent is at stake. We don't know what Gorbachev is planning, and our contacts in Moskowien are dark. Just as with the case of Kasche's vanishing, Moskowien is under threat. This time, however, we are able to mobilize a response. Whatever plan Gorbachev has for the territory of Moskowien will be put to a stop, and the colony will thus return to the Pakt."
+
+ SGR_Moskowien_Setup:0 "Reorganize Moskowien"
+ SGR_Moskowien_Setup_desc:0 "With the long, empty territories of Moskowien finally back in our control, we must quickly re-organise it into a functional government. Alexis von Roenne will be instated as the official ruler of the country, and a military junta will be effectively established before we think about integrating it back into civilian control. They won't be happy, but they'll have to deal with it. It is better than whatever shattered Russian state could coax them into believing."
+
+ SGR_Moskowien_Setup_tt:0 "§YMoskowien will be put under new administration.§!"
+
  SGR_Kaukasien_Question:0 "카우카시아 문제"
  SGR_Kaukasien_Question_desc:0 "소용돌이치는 코카서스의 짙은 안개 속에 우리의 가장 단절되고 신비로운 국가판무관부가 놓여 있습니다. 주요 석유 생산국으로서 이 영토가 제국의 이익을 위해 계속 봉사하려면 완전히 안정되어야 합니다."
 
@@ -108,6 +150,19 @@
  SGR_Ostland_Question:0 "모범 식민지"
  SGR_Ostland_Question_desc:0 "한때 힘과 충성심의 보루였던 라이히의 이른바 '모범 식민지'가 내전과 혼란으로 황폐화됐습니다. 우리 영토의 안정을 기하기 위해 동쪽으로 눈을 옮겨 오스트란트 국가판무관부를 상대할 것입니다."
 
+ GER_Bohemia_Reconstruction_SGR_A:0 "Bohemian Reconstruction"
+ GER_Bohemia_Reconstruction_SGR_B:0 "Bohemian Reconstruction"
+
+ SGR_retake_madagascar_militarists:0 "Welcome Heroes From Madagaskar"
+ SGR_retake_madagascar_militarists_desc:0 "Brave men from the Madagaskar garrison have proven their worth in securing control of the island from traitors and natives, only to be cut off from Germania as the Bürgerkrieg began. Now, let us relief them from their duty and reestablish the Reich's presence in the Indian Ocean."
+ 
+ SGR_reclaim_mauritius_reunion:0 "Reclaim Mauritius And Reunion"
+ SGR_reclaim_mauritius_reunion_desc:0 "The end of the conflict in Madagaskar has driven out our garrisons - it is time to salvage what we can. Like an eagle, the Kriegsmarine shall extend its wings to seize Mauritius and Reunion and hand it back to the rightful owners."
+
+ SGR_place_nukes_mauritius_reunion:0 "Place Nuclear Weapons In Mauritius And Reunion"
+ SGR_place_nukes_mauritius_reunion_desc:0 "The Reich's swords cannot just lie in Europe, far from threatening our rivals. No, we must extend the reach of our nuclear weaponry to not only threaten their core lands, but to threaten their possesions nearby as well. The islands of Mauritius and Reunion lay as the first step in surrounding our enemies with global hellfire."
+
+ SGR_allow_reunion_nukes:0 "We have secured our position in Mauritius and Reunion."
 ## GUI stuff ##
 
  #State of the Reich
@@ -145,7 +200,7 @@
 
  SGR_launch_button_tt:0 "현재 §W프로파간다 작전§! 효과:\n\n-정치력 획득 모디파이어: [?SGRPropagandaPPDisplay|+%]\n-주 안정도 획득: [?SGRPropagandaStabDisplay|+%]\n-[getSGRPropagandaOutlook]\n-[getSGRPropagandaRegime]"
  SGR_reformist_regime_prop_display:0 "§G개혁파§! 정권 틱: [?SGRPropagandaReformistTickDisplay|+0]"
- SGR_conservative_regime_prop_display:0 "§R보수파§! 정권 틱: [?SGRPropagandaReformistTickDisplay|-0]"
+ SGR_conservative_regime_prop_display:0 "§R보수파§! 정권 틱: [?SGRPropagandaConservativeTickDisplay|-0]"
  SGR_reformist_outlook_prop_display:0 "£social_outlook_texticon §T사회적 관점§! §G진보§!: [?SGRReformistVarDisplay|+0]"
  SGR_conservative_outlook_prop_display:0 "£social_outlook_texticon §T사회적 관점§! §R퇴보§!: [?SGRConservativeVarDisplay|-0]"
 
@@ -254,3 +309,16 @@ SGR_fashtrend_large:0 "§R초강경 보수파§!"
  speerpropaganda.8.t:0 "총을 쟁기로"
  speerpropaganda.8.desc:0 "그의 주위에는 총성이 울렸다. 그는 라이히의 병사였다. 투지와 기개로 가득 찬 남자였다. 권총을 들고 있던 손에는 피가 잔뜩 묻어 있었으며 다른 한 손에는 날카롭고 깔끔한 칼이 들려 있었다. 그의 주위에는 전우들의 몸뚱아리가 있었다. 볼셰비키들의 학살보다 더 많은 수가 있었다. 그는 건물 모서리에 걸린 깃발을 분노에 가득 차 바라보았다. 깃발은 높이 세워져 그를 무시하고 있었다. 깃발은 밝은 붉은색이었다. 상단 좌측 모서리에는 망치와 낫 모양이 그려져 있었다.\n\n병사는 혐오와 옥신각신 싸우고 있었다. 그는 앞으로 걸어나가 칼을 높이 겨누었으며, 카메라는 그의 방향으로 이동했다. 그가 깃발에 가까이 다가서자, 그의 손은 아래로 흔들렸다. 칼을 거칠게 곧바로 던져 깃발을 찢어버리기 위함이었다. 그러다가 그는 움직임을 절반 정도 하다가 행동을 멈췄다. 그리고 그 장면은 천천히 다른 무언가로 바뀌었다.\n\n땅에 꽂혀 있는 괭이였다. 카메라는 뒤로 물러서서 태양 아래에서 일하고 있는 나이든 남자를 보여주었다. 목소리가 흘러나오기 시작했고, 화면 속의 남자는 일을 이어갔다. "당신의 복무는 국방군에서 떠난 후에도 끝나지 않아야 합니다." 그가 말했다. "진실로 그들은 라이히에 특히나 가치 있는 사람들입니다. 체력과 지력을 겸비한 사람들이자 충성이 옳은 것임을 잘 알고 있는 참전용사들은 라이히를 상징하는 사람들입니다! 그래서, 충성스럽게 복무를 이어나갔던 사람들에게 희망이 주어지고 있습니다."\n\n장면은 다른 나이든 남자로 넘어갔다. 그는 누군가의 집으로 걸어가 정중히 문을 두드렸고, 그들에게 편지를 전달하고 자리를 떠났다. "새로운 공장이 열렸고, 그리하여 여러분들은 새로운 기회를 얻게 되었습니다. 만일 여러분들이 육군, 루프트바페, 또는 크릭스마리네의 참전용사라면, 당신은 우선적으로 민간공장에 채용될 것입니다. 우리는 여러분들이 감수했던 희생을 잊을 수 없습니다. 그래서 지금부터, 여러분들은 그 보상을 받을 것입니다.""
  speerpropaganda.8.a:0 "잊지 마십시오. 국민들이 곧 라이히임을. 따라서 우리 모두 항상 국민들을 위해 일해야 함을!"
+
+
+ ## Tooltips ##
+ TNO_free_ukraine_tt:0 "§GThe desire for freedom is understandable,§! §jbut Germany can not starve for Ukraine's sake.§!"
+ TNO_collab_ukraine_tt:0 "§jLittle by little, Europe will be reshaped by our hands,§! §Gone willing to do the reforms necessary.§!"
+ TNO_Poland_Bully_tt:0 "§YThe Poles will not bend the knee on a whim. Our force will make them cower a second time.§!"
+ TNO_Poland_The_World_Watches_tt:0 "§YThe international community will observe how we deal with this matter. Our goodwill is at balance.§!"
+ TNO_Goodwill_Proven_Wrong_tt:0 "§jWe tried, but that won't be enough for the international community.§!"
+ TNO_Goodwill_Proven_Wrong_tt_2:0 "§jDespite our attempts, it seems Poland's destiny is to be lost.§!"
+ TNO_Poland_Lives_tt:0 "§GWith the international community as our witness, our goodwill was proven true, and Poland was not lost.§!"
+ SGR_careful_barons:0 "We will approach the new regime in Kaukasien with caution."
+ SGR_bruh_dont_do_this:0 "§WDoing this will §xmassively§! increase §Rtensions§! with other superpowers!§!"
+
