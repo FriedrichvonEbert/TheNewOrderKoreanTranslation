@@ -40,7 +40,7 @@ SGR_econ_overview:0 "§Q졸페어라인§!은 형식상 §g아인하이츠팍트
 #Zollverein Decision Category things
 
 SGR_Zollverein_members_investment_category:0 "졸페어라인"
-SGR_Zollverein_members_investment_category_desc:0 "\n\n\n\n\n\n§QTOTAL BUDGET: [?GER.ZollvereinBudget|+]§G백만 달러§!§!\n\n§Y할당:§! [?THIS.MemberZVBudget|+]§G백만 달러§!\n\n§O가용 예산:§! [?THIS.MemberSpentBudget|W]§W백만 달러§! / [?THIS.MemberZVBudget|+]§G백만 달러§!\n\n§Q졸페어라인§!은 유럽의 많은 국가들 간의 경제적 협력을 지향하는 거대하고 새로운 프로젝트입니다. §g독일의§! §G사인방§!에 의해 야심차게 추진된 이것은 경제적 협력과 상호 안정 확보를 실행 과정에서 확실히 하며, 공통의 단일한 시장 아래에 대륙을 통합하려 합니다."
+SGR_Zollverein_members_investment_category_desc:0 "\n\n\n\n\n\n§QTOTAL BUDGET: [?GER.ZollvereinBudget|+3]§G십억 달러§!§!\n\n§Y할당:§! [?THIS.MemberZVBudget|+3]§G십억 달러§!\n\n§O가용 예산:§! [?THIS.MemberSpentBudget|W3]§W십억 달러§! / [?THIS.MemberZVBudget|+3]§G십억 달러§!\n\n§Q졸페어라인§!은 유럽의 많은 국가들 간의 경제적 협력을 지향하는 거대하고 새로운 프로젝트입니다. §g독일의§! §G사인방§!에 의해 야심차게 추진된 이것은 경제적 협력과 상호 안정 확보를 실행 과정에서 확실히 하며, 공통의 단일한 시장 아래에 대륙을 통합하려 합니다."
 
 zv_quarterly_budget_tt:0 "§Q총 예산§!과 §Y할당량§!은 업데이트 될 것입니다."
 
@@ -110,7 +110,9 @@ SGR_Zollverein_Quarterly_Update_desc:0 "졸페어라인의 국가별 예산과 �
 
 #Economic GUI Costs & Tasks
 
-SGR_tasks_scriploc_tt:0 "[getSGRStatesTooltip]"
+SGR_tasks_scriploc_tt1:0 "[getSGRStatesTooltip1]"
+SGR_tasks_scriploc_tt2:0 "[getSGRStatesTooltip2]"
+SGR_tasks_scriploc_tt3:0 "[getSGRStatesTooltip3]"
 SGR_tasks_unavailable_tt:0 "§Y슈페어 각하께서 정권을 공고화한 뒤에야 국방경제 지도자와 싸울 수 있습니다.§!"
 
 SGR_task_invest:0 "§Y중산층 투자§!"
@@ -120,10 +122,9 @@ SGR_task_weaken:0 "§Y기업 자산 압류§!"
 SGR_task_weaken_tt:0 "국방군의 도움을 받으며 §Y국방경제 지도자§!로부터 §R회사 자산을 확보하는 것§!은 그들의 영향력을 줄이는 데 있어서 효율적이지만 동시에 잔인한 방법이 될 것입니다.\n\n§W1개월마다 가능함§!"
 
 SGR_task_antitrust:0 "§Y반독점 명령§!"
-SGR_task_antitrust_tt:0 "일단 지역 내에서 §Y국방경제 지도자의 힘§!£GFX_megacorp!이 §Y0%§!에 도달하면, §G정부§!는 지역 내에서 그들로부터 경제적 통제력을 뺏는 법령을 선포할 수 있습니다."
-SGR_task_antitrust_reward:0 "이 지역에서 §Y국방경제 지도자§!로부터 통제력을 뺏어오는 것은 다음과 같은 보너스를 가져옵니다: \n\n[getSGRStatesBonusTooltip]"
-SGR_task_antitrust_ger_tt:0 "§Y졸페어라인 위원회 지도국§! 소비재: §Y-2%§!"
-SGR_task_antitrust_notger_tt:0 "§Y66%§! §T확률§!:\n    §Y2개§!의 §T무작위 주의 민간 공장§!\n    §Y+1.5%§! §T지역 GDP 성장률§!\n\n§Y34%§! §T확률§!:\n    §Y4개§!의 §T무작위 주의 추가적 건설 슬롯§!\n    §Y+1.5%§! §T지역 GDP 성장률§!"
+SGR_task_antitrust_tt:0 "일단 지역 내에서 §Y국방경제 지도자의 힘§!£GFX_megacorp!이 §Y0%§!에 도달하면, §G정부§!는 지역 내에서 그들로부터 경제적 통제력을 뺏는 법령을 선포할 수 있습니다.\n이 지역에서 §Y국방경제 지도자§!로부터 통제력을 뺏어오는 것은 다음과 같은 보너스를 가져옵니다:\n\n[getSGRStatesBonusTooltip]"
+SGR_task_antitrust_ger_tt:0 "§Y졸페어라인 위원회 지도국§!:\nConsumer Goods Use Modifier: §G-2.00%§!"
+SGR_task_antitrust_notger_tt:0 "§Y66%§! §TChance of§!:\n    §Y2§! §GNational £tt_prod_unit Production Units§!\n    §Y+5%§! §GAdditional GDP Growth in a Random State§!\n\n§Y34%§! §TChance of§!:\n    §Y4§! §GAdditional Building Slots in a Random State§!\n    §Y+5%§! §GAdditional GDP Growth in a Random State§!" 
 
 SGR_task_cost1:0 "§Y5§!£political_power_texticon  | §Y10M§!£GFX_dollar_sign"
 SGR_task_cost2:0 "§Y10§!£political_power_texticon  | §Y30§!£GFX_command_power"
@@ -153,11 +154,14 @@ SGR_Ostland_investment_desc:0 "지난 수십 년 동안 오스트란트가 독�
 SGR_Kaukasien_investment:0 "카우카지엔에 투자"
 SGR_Kaukasien_investment_desc:0 "카우카지엔 지역 내의 풍부한 천연자원과 값싼 노동력은 카우카지엔과 독일 사이의 다소 불건전한 관계를 초래했습니다. 카우카지엔 국가판무관부의 노동 조건은 독일 지배자들이 값싸고 경험 없는 노동력을 착취하는 것으로 악명높습니다. 구체적인 경제 성장을 촉진하려면 카우카지엔의 이런 끔찍한 노동 조건을 해결해야 합니다."
 
-SGR_Volga_investment:0 "볼가에 투자"
+SGR_Volga_investment:0 "모스코비엔에 투자"
 SGR_Volga_investment_desc:0 "많은 사람들이 동쪽에 있는 우리 민족을 제멋대로이고 무법천지로 볼 수 있지만, 이 지역 내 독일인들과 러시아 원주민들 사이에 종종 협력적인 조치가 취해져 왔습니다. 만약 우리가 장기적인 경제적 번영의 외형을 만들려면, 라이히에 이익을 주기 위해 독일과 러시아 사이의 이러한 관계를 강화해야 합니다."
 
 SGR_konjunkturpaket_cost:0 "§W경기부양책의 비용은 매달 §R1억 달러§!입니다.§!"
+SGR_konjunkturpaket2_cost:0 "§WContinuing the Konjunkturpaket will cost us §R750,000,000 USD every month§! and §R500,000,000 USD in miscellaneous costs§!.§!"
+SGR_konjunkturpaket2_cost_inf:0 "§WThe Konjunkturpaket will increase our §Vinflation§! by §R0.25% every month§!.§!"
 SGR_eastern_investment_cost:0 "§W동부 투자의 비용은 매달 §R2500만 달러§!입니다.§!"
+SGR_eastern_investment2_cost:0 "§WEastern investment will cost us §R100,000,000 USD every month.§!§!"
 
 SGR_oilsteelchrome_reward:0 "§W§Y석유§!, §Y강철§!, §Y크로뮴§!을 포함한 자원 광상이 접근가능해질 것입니다.§!"
 SGR_oilsteel_reward:0 "§W§Y석유§!와 §Y강철§!을 포함한 자원 광상이 접근가능해질 것입니다.§!"
@@ -183,17 +187,17 @@ SGR_wealth_for_us:0 "§W에르하르트의 개혁 과정에서 우리가 얻었�
 
 #Ideas
 
-SGR_join_zollverein_tt:0 "§W§Y[THIS.GetName]§!이(가) §QZollverein§!에 가입함."
+SGR_join_zollverein_tt:0 "§W§Y[THIS.GetName]§!이(가) §QZollverein§!에 가입함.\n"
 
-SGR_zollverein_members_scriptedloc_bloc:0 "\n졸페어라인 예산 할당: §G$§![?FROM.MemberZVBudget|+]§G백만 달러§!"
+SGR_zollverein_members_scriptedloc_bloc:0 "\n졸페어라인 예산 할당: §G$§![?FROM.MemberZVBudget|+]§G십억 달러§!"
 
-SGR_zollverein_scriptedloc_bloc:0 "\n총 졸페어라인 예산: §G$§![?ZollvereinBudget|+]§G백만 달러§!\n졸페어라인 예산 지불: 연 수입의 [?ZollvereinPayments|0Y%]\n졸페어라인에 대한 예산 지불금: [?GER.SGRZVfactor|0+%]"
+SGR_zollverein_scriptedloc_bloc:0 "\n총 졸페어라인 예산: §G$§![?ZollvereinBudget|+]§G십억 달러§!\n졸페어라인 예산 지불: 연 수입의 [?ZollvereinPayments|0Y%]\n졸페어라인에 대한 예산 지불금: [?GER.SGRZVfactor|0+%]"
 
 SGR_zollverein_germany:0 "졸페어라인 지도국"
-SGR_zollverein_germany_desc:0 "§D시장으로 가는 자원: [?SGR_export_factor|0Y%]\n소비재 공장: [?SGR_consumer_goods|1Y%][getZollvereinIdeaBlock] \n--------------\n§!졸페어라인은 구성국들 사이의 공동 시장이자 관세 동맹입니다. 이는 구식이고 결함이 있는 유럽대륙 블록 개념을 대신하는 것으로, 독일이 유럽의 헤게모니를 계속해서 쥘 수 있게 하는 수단입니다. 비록 당장은 바라건대 피가 덜 흐르는 방식일지라도 말입니다."
+SGR_zollverein_germany_desc:0 "Consumer Goods Use Modifier: [?SGR_consumer_goods|1Y%][getZollvereinIdeaBlock] \n--------------\n§!졸페어라인은 구성국들 사이의 공동 시장이자 관세 동맹입니다. 이는 구식이고 결함이 있는 유럽대륙 블록 개념을 대신하는 것으로, 독일이 유럽의 헤게모니를 계속해서 쥘 수 있게 하는 수단입니다. 비록 당장은 바라건대 피가 덜 흐르는 방식일지라도 말입니다."
 
 SGR_zollverein_basic:0 "졸페어라인 회원국"
-SGR_zollverein_basic_desc:0 "§D정치력 획득 요인: [?THIS.ZV_pp_gain|0+%]\n소비재 공장: [?THIS.ZV_consumer_goods|1Y%]\n생산 효율성 획득 요인: [?THIS.ZV_production_gain|1+%][getZollvereinMembersIdeaBlock] \n--------------\n§!졸페어라인은 구성국들 사이의 공동 시장이자 관세 동맹입니다. 이는 구식이고 결함이 있는 유럽대륙 블록 개념을 대신하는 것으로, 독일이 유럽의 헤게모니를 계속해서 쥘 수 있게 하는 수단입니다. 비록 당장은 바라건대 피가 덜 흐르는 방식일지라도 말입니다."
+SGR_zollverein_basic_desc:0 "§D정치력 획득 요인: [?THIS.ZV_pp_gain|0+%]\nConsumer Goods Use Modifier: [?THIS.ZV_consumer_goods|1Y%]\n생산 효율성 획득 요인: [?THIS.ZV_production_gain|1+%][getZollvereinMembersIdeaBlock] \n--------------\n§!졸페어라인은 구성국들 사이의 공동 시장이자 관세 동맹입니다. 이는 구식이고 결함이 있는 유럽대륙 블록 개념을 대신하는 것으로, 독일이 유럽의 헤게모니를 계속해서 쥘 수 있게 하는 수단입니다. 비록 당장은 바라건대 피가 덜 흐르는 방식일지라도 말입니다."
 
 SGR_zollverein_reich:0 "독일의 졸페어리인"
 SGR_zollverein_reich_desc:0 "졸페어라인의 독일 중심 관료주의는 대체로 유지되어 왔으며, 어떤 면에서는 심지어 강화되었습니다. 따라서 독일 경제와 동유럽 경제를 구분하는 일은 앞으로도 거의 없을 것입니다. 같고, 또 같을 것 입니다."
@@ -250,6 +254,7 @@ SGR_repatriation_increase_mid:0 "§W본국 송환 노력은 §G향상될 것§!�
 SGR_repatriation_increase_big:0 "§W본국 송환 노력이 §G크게 향상될 것§!입니다!§!"
 
 SGR_igfarben_attack_tt:0 "§W§LIG 파르벤§!에 대한 노력의 §G힘이 증가할 것§!입니다.§!"
+SGR_igfarben_defend_tt:0 "§WEfforts against §LIG FARBEN§! will §Rdecrease in strength§!.§!"
 SGR_reichswerke_attack_tt:0 "§W§j라이히스베르케§!에 대한 노력의 §G힘이 증가할 것§!입니다.§!"
 SGR_daimler_attack_tt:0 "§W§g다임러-벤츠§!에 대한 노력의 §G힘이 증가할 것§!입니다.§!"
 SGR_siemens_attack_tt:0 "§W§T지멘스§!에 대한 노력의 §G힘이 증가할 것§!입니다.§!"
@@ -352,7 +357,7 @@ SGR_economic_katharinastadt_tt:0 "§Y카타리나슈타트§!\n\n현재 이 경�
 
 #Leningrad
 
-SGR_economic_leningrad_tt:0 "§Y브라우히치슈타트§!\n\n현재 이 경제권에는 [getLeningradSlaves]가 있습니다.\n\n이 지역은 [GetLeningradMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
+SGR_economic_leningrad_tt:0 "§Y장크트페테르스부르크§!\n\n현재 이 경제권에는 [getLeningradSlaves]가 있습니다.\n\n이 지역은 [GetLeningradMegacorp]에 의해 지배되고 있습니다.\n\n§Y추가 행동을 위해 클릭하세요§!"
 
 #Holland
 
@@ -407,7 +412,7 @@ SGR_eastukraine:0 "§Y제베리엔§!"
 SGR_azerbaijan:0 "§Y아제르바이잔§!"
 SGR_georgia:0 "§Y게오르기엔§!"
 SGR_katharinastadt:0 "§Y카타리나슈타트§!"
-SGR_leningrad:0 "§Y브라우히치슈타트§!"
+SGR_leningrad:0 "§Y장크트페테르스부르크§!"
 SGR_holland:0 "§Y니덜란데§!"
 SGR_denmark:0 "§Y대네마르크§!"
 SGR_oslo:0 "§Y외스트란데트§!"
@@ -447,3 +452,38 @@ SGR_uppervolga_pw:0 "[?SGR_WWS_Megacorps_Power^24|%]"
 SGR_lowervolga_pw:0 "[?SGR_WWS_Megacorps_Power^25|%]"
 SGR_bessarabia_pw:0 "[?SGR_WWS_Megacorps_Power^26|%]"
 
+# RSFSTP
+
+SGR_RSFSTP_title:0 "§gREICHSSCHNELLFAHRSTRECKENPROGRAMM§!"
+SGR_RSFSTP_title_tt:0 "Following the infrastructural §Rcollapse§! of §gGermany§! during the §xGerman Civil War§!, alongside its overall §Rdecay§!, the government has initiated a project to begin building §Bhigh speed railway§! along the §gEinheitspakt§!.\n\nThese are expected to reap §Glarge§! economical rewards, §Yconnecting§! major cities and §Gdrastically§! shortening travel times for skilled workers.\n\nIt will also provide a §Gbenefit§! to the transportation of civilians, repatriated slaves, and goods. The project is §Rtime-consuming and expensive§!, but for the good of §gGermany§!, no expense is too much."
+SGR_RSFSTP_bottom_text:0 "The §WReichsschnellfahrstreckenprogramm§! is [?SGR_RSFSTP_progress|G1]% complete."
+SGR_RSFSTP_PU:0 "[?SGR_RSFSTP_PUs|G0] £GFX_tt_prod_unit_big"
+SGR_RSFSTP_add_tt:0 "Allocate §G+2§!£tt_prod_unit to the §gReichsschnellfahrstreckenprogramm§!, increasing monthly construction speed by §G0.2%§!, cost by §R+125M USD§!, and §R-0.05§! daily political power.\n--------------\n§TIt costs§! £political_power_texticon §Y20§! §Tto make this change.§!"
+SGR_RSFSTP_sub_tt:0 "Allocate §R-2§!£tt_prod_unit to the §gReichsschnellfahrstreckenprogramm§!, decreasing monthly construction speed by §R-0.2%§!, cost by §G-125M USD§!, and §G0.05§! daily political power.\n--------------\n§TIt costs§! £political_power_texticon §Y20§! §Tto make this change.§!"
+SGR_RSFSTP_add_locked:0 "We have allocted the maximum possible resources to this project."
+SGR_RSFSTP_sub_locked:0 "We have allocted the fewest possible resources to this project."
+SGR_RSFSTP_OC_tt:0 "The ability to modify our investment is §Rlocked§! due to the current §Rglobal economic meltdown§!."
+
+SGR_RSFSTP_add:0 "[getSGRRSFSTPIncrease]"
+SGR_RSFSTP_sub:0 "[getSGRRSFSTPDecrease]"
+
+SGR_RSFSTP_investment_count_tt:0 "This level of resource allocation for the §gReichsschnellfahrstreckenprogramm§! §Fcurrently affects:\n - Monthly Progress: §G+[?SGR_RSFSTP_progress_monthly|2]%§!\n - Daily Political Power Gain: [?SGR_RSFSTP_political_power_gain|=+]\n - Miscellaneous Costs: §Y[?SGR_RSFSTP_cost|2]B USD§!§!"
+GER_SGR_RSFSTP_dynamic_modifier:0 "Reichsschnellfahrstreckenprogramm"
+SGR_RSFSTP_modifier:0 "Reichsschnellfahrstreckenprogramm"
+GER_SGR_RSFSTP_Dummy:0 "Reichsschnellfahrstreckenprogramm"
+GER_SGR_RSFSTP_Dummy_desc:0 "§FDaily Political Power Gain: [?SGR_RSFSTP_political_power_gain|=+]\nProduction Units Cost: [?SGR_RSFSTP_PU_Cost|+=0] £tt_prod_unit.\nMiscellaneous Costs: §Y[?SGR_RSFSTP_cost|2]B USD§!§!\n§g--------------§!\nA massive infrastructure project approved by the Führer and his Gang, it involves the construction of high-speed railways across the entirety of Germany, offering several economic benefits. Upon its completion, the project will allow for goods to be transported much quicker across Germany, and in much higher quantities. This will also have the side-benefit of improving the repatriation of slaves, as these trains can be used to transport them to the borders of Germany."
+SGR_RSFSTP_add_debug:0 "§WAdd 10% progress to RSFSTP§!."
+
+GER_SGR_RSFSTP_begin_tt:0 "§WThe §gReichsschnellfahrstreckenprogramm§! will §Ybegin§! its construction.\n\nEach month, more §Rslaves§! will be repatriated and §Gskilled workforce§! growth will increase with the construction of the §gReichsschnellfahrstreckenprogramm§!.§!"
+GER_SGR_RSFSTP_abs_tt:0 "§WEnlisting the help of IG Farben and Deutsche Bank into §gReichsschnellfahrstreckenprogramm§! will force us to make some concessions.§!"
+GER_SGR_RSFSTP_halt_tt:0 "§WThe construction of the §gReichsschnellfahrstreckenprogramm§! will §Rhalt§!, and the cost of maintaining existing infrastructure will increase by §R250%§!.\nThe ability to change our §Yinvestment§! into the §gReichsschnellfahrstreckenprogramm§! will be §Rlocked§!.§!"
+GER_SGR_RSFSTP_liberate_tt:0 "§WThe progress of the §gReichsschnellfahrstreckenprogramm§!'s construction will §Rdecrease§! by §R5%§!.\n§R25,000§! §Rslaves§! has been §Gliberated§! in regions where construction was happening.§!"
+
+SGR_RSFSTP_modifer_impact_tt:0 "§WEach province covered by the §gReichsschnellfahrstreckenprogramm§! will gain an §Gincrease§! in §Ydivision speed§!, §Yorganization regain§!, §Ostate GDP growth§! and §Yinfrastructure level§!.§!"
+SGR_RSFSTP_monthly_add_tt:0 "§WThe monthly progress of the §gReichsschnellfahrstreckenprogramm§! will be §Gincreased§! by §G[?RSFSTP_monthly_temp?0.1|=2]%§!, bringing it to §Y[?SGR_RSFSTP_progress_monthly_temp|2]%§!."
+SGR_RSFSTP_monthly_sub_tt:0 "§WThe monthly progress of the §gReichsschnellfahrstreckenprogramm§! will be §Rdecreased§! by §R[?RSFSTP_monthly_temp?0.1|=2]%§!, bringing it to §Y[?SGR_RSFSTP_progress_monthly_temp|2]%§!."
+SGR_RSFSTP_repatriation_add_tt:0 "§WThe amount of slaves repatriated by the §gReichsschnellfahrstreckenprogramm§! monthly will be §Gincreased§! by §G[?RSFSTP_slave_repatriation_temp?0.1|=0]§!, bringing it to §Y[?SGR_RSFSTP_slave_repatriation_temp|0]§!."
+SGR_RSFSTP_repatriation_sub_tt:0 "§WThe amount of slaves repatriated by the §gReichsschnellfahrstreckenprogramm§! monthly will be §Rdecreased§! by §R[?RSFSTP_slave_repatriation_temp?0.1|=0]§!, bringing it to §Y[?SGR_RSFSTP_slave_repatriation_temp|0]§!."
+
+SGR_RSFSTP_workforce_add_tt:0 "§WThe skilled workforce growth provided by the §gReichsschnellfahrstreckenprogramm§! will increase by §G[?RSFSTP_workforce_temp]§!!§!"
+SGR_RSFSTP_workforce_sub_tt:0 "§WThe skilled workforce growth provided by the §gReichsschnellfahrstreckenprogramm§! will decrease by §R[?RSFSTP_workforce_temp]§!!§!"
