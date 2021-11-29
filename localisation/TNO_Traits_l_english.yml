@@ -54,6 +54,8 @@ hog_defender_of_democracy: "민주주의 방어자"
 hog_believer_in_democracy: "민주주의 신봉자"
 hog_beloved_folk_hero:0 "민중의 영웅"
 hog_idiosyncratic_academic:0 "기이한 교수"
+hog_air_auxiliary_veteran: "공군 보조 베테랑"
+hog_elder_son_of_republic: "공화국의 나이든 아들"
 
 ### Economy Minister ###
 eco_administrative_genius: "행정의 천재"
@@ -94,6 +96,7 @@ eco_u_boat_proponent: "유보트 지지자"
 eco_tank_proponent: "전차 지지자"
 
 eco_the_minister_for_everything: "모든 이들의 장관"
+eco_vice_dealer: "Vice Dealer"
 eco_vernacular_industrialiser: "내수산업가"
 eco_slave_master: "노예의 주인"
 eco_man_with_a_plan: "계획 있는 사람"
@@ -124,6 +127,10 @@ for_italophile: "친이파"
 for_kneel_or_die: "단편적인 싸움꾼"
 for_disgraced_ambassador: "불명예스러운 대사"
 for_talleyrands_spirit: "탈레르랑의 정신"
+for_vanguard_of_the_future: "미래의 수호자"
+for_the_old_air_marshall: "공군의 노장"
+MCW_nspr_ss: "NSPR (V)의 지도자, 루슬란트지도자-SS"
+MCW_tver_forest: "트베르 숲의 괴물"
 
 ### Security Minister ###
 sec_back_stabber: "밀실 모략가"
@@ -438,7 +445,7 @@ air_controller_desc: "해군항공 초기분야의 전문가인 항공관제사�
 naval_invader: "침략자"
 naval_invader_desc: "해상 침입의 전문가입니다. 적국의 해안에 침입할 준비와 이를 수행하는데 제격입니다."
 bearer_of_artillery: "대포 운반자"
-bearer_of_artillery_desc: "절대 상자를 떨어뜨리지 않아요!"
+bearer_of_artillery_desc: "아주 멀리 있는 사람들에게 뭔가를 던지는 데 전문가입니다."
 dictator: "독재자"
 CAS_manufacturer: "근접항공지원기 설계사"
 light_aircraft_manufacturer: "경비행기 설계사"
@@ -476,14 +483,14 @@ exiled: "추방자"
 exiled_desc: "박해의 위협 아래에서 그들은 최근 몇 년 간의 정치적 혼란을 해외에서 보냈습니다."
 
 #LEADER TRAITS TNO
-bumbling_oaf: "Bumbling Oaf"
-bumbling_oaf_desc: "To call this leader a strong one would be akin to calling a nuclear weapon subtle."
+bumbling_oaf: "흔들리는 멍청이"
+bumbling_oaf_desc: "이 지도자를 강하다고 부르는 건 핵무기를 미묘하다고 부르는 것과 같습니다."
 terrorizer: "공포 정치가"
 terrorizer_desc: "철권을 지닌 이 통치자는 영토 내에 어떠한 반대자도 남겨두지 않습니다. 사람들은 공포 속에서 사는게 최선이라는걸 압니다. 그렇지 않는다면 뭔가 실수해 목을 짓밟힐테니까요." 
 career_burocrat: "직업 관료"
 career_buroccrat_desc: "이 지도자는 오랜 시간을 관료직에 있었으며 관료제를 효율적으로 운영하는 법을 압니다."
 spineless_politician: "줏대 없는 정치인"
-#terrorizer_desc: "This leader doesn't care of the political developments of the country, giving other ideologies the chance to grow and expand." #duplicate loc key
+#terrorizer_desc: "이 지도자는 국가의 정치적 발전에는 관심이 없고, 다른 이념들이 성장하고 확장할 기회를 줍니다." #duplicate loc key
 utterly_abandoned: "완전히 버려진 자"
 utterly_abandoned_CAU: "완전히 버려진 자"
 exile: "추방자"
@@ -516,6 +523,7 @@ devil_of_showa: "쇼와의 요괴"
 schattenregierung: "그늘 속의 통치자"
 in_his_footsteps: "앞사람의 발자취"
 son_of_admiralty: "해군성의 아들"
+bolshoy_boss: "볼쇼이의 대장"
 
 #GENERAL TRAITS TNO
 panzer_savant: "기갑 추종 증후군"

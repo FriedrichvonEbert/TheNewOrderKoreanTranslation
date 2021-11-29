@@ -4,6 +4,8 @@
  USA_CIA_Decisions_GUI_Title:0 "§MCIA§!"
 
  TNO_US_CIA_Decisions_GUI_Action_Window_visible:0 "다른 작전을 선택했습니다"
+ USA_CIA_american_influence_cooldown:0 "§YHas bolstered American political influence in the last 6 months.§!"
+ USA_CIA_trade_influence_cooldown:0 "§YHas bolstered American trade influence in the last 6 months.§!"
 
  ########################################
  ####
@@ -43,9 +45,13 @@
 ####
 ########################################
 
- USA_CIA_Change_Budget_Tooltip:0 "예산: §w[?USA_CIA_Budget]§!/§w[?USA_CIA_annual_budget]M§!"
- USA_CIA_Change_Budget_Change_Tooltip:0 "§w[?USA_CIA_Budget_Change_Variable]M§!"
- USA_CIA_Mission_Cost_15_Million:0 "§w1천 5백만 달러§!"
+ USA_CIA_Change_Budget_tt:0 "[USA_CIA_Change_Budget_sl]"
+ USA_CIA_Change_Budget_Change_tt:0 "[USA_CIA_Change_Budget_Change_sl]"
+ USA_CIA_Change_Budget_Tooltip:0 "Budget: §w[?USA_CIA_Budget_display]§!/§w[?USA_CIA_annual_budget_display] Million§!"
+ USA_CIA_Change_Budget_Change_Tooltip:0 "§w[?USA_CIA_Budget_Change_Variable_display]M§!"
+ USA_CIA_Invested_Budget_tt:0 "[USA_CIA_Invested_Budget_sl]"
+ USA_CIA_Invested_Budget_Tooltip:0 "[?USA_CIA_Invested_Budget_display] Million Allocated"
+ USA_CIA_Mission_Cost_15_Million:0 "§w15M 달러§!"
  USA_CIA_Mission_Cost_25_Million:0 "§w2천 5백만 달러§!"
  USA_CIA_Mission_Cost_30_Million:0 "§w3천만 달러§!"
  USA_CIA_Mission_Cost_35_Million:0 "§w3천 5백만 달러§!"
@@ -58,20 +64,6 @@
  USA_CIA_Mission_Cost_35_Million_blocked:0 "§R3천 5백만 달러§!"
  USA_CIA_Mission_Cost_45_Million_blocked:0 "§R4천 5백만 달러§!"
  USA_CIA_Mission_Cost_50_Million_blocked:0 "§R5천만 달러§!"
-
- USA_CIA_Mission_ShortCost_15_Million:0 "§w15M 달러§!"
- USA_CIA_Mission_ShortCost_25_Million:0 "§w2천 5백만 달러§!"
- USA_CIA_Mission_ShortCost_30_Million:0 "§w3천만 달러§!"
- USA_CIA_Mission_ShortCost_35_Million:0 "§w3천 5백만 달러§!"
- USA_CIA_Mission_ShortCost_45_Million:0 "§w4천 5백만 달러§!"
- USA_CIA_Mission_ShortCost_50_Million:0 "§w5천만 달러§!"
-
- USA_CIA_Mission_ShortCost_15_Million_blocked:0 "§R1천 5백만 달러§!"
- USA_CIA_Mission_ShortCost_25_Million_blocked:0 "§R2천 5백만 달러§!"
- USA_CIA_Mission_ShortCost_30_Million_blocked:0 "§R3천만 달러§!"
- USA_CIA_Mission_ShortCost_35_Million_blocked:0 "§R3천 5백만 달러§!"
- USA_CIA_Mission_ShortCost_45_Million_blocked:0 "§R4천 5백만 달러§!"
- USA_CIA_Mission_ShortCost_50_Million_blocked:0 "§R5천만 달러§!"
 
  USA_CIA_Mission_Cost_2500_guns:0 "§w2500§! £GFX_weapon_icon" # might remove the weapon budget
  USA_CIA_Mission_Cost_2500_guns_blocked:0 "§R2500§! £GFX_weapon_icon"
@@ -144,8 +136,8 @@
  USA_CIA_sabotage_ins:0 "우리는 인도네시아 기반시설을 §R마비§!시키는 작전을 개시할 것입니다.\n"
 
  USA_speer_radio_address_tt:0 "내전 중인 슈페어의 독일에 §G안정도를 늘리고 정치력 획득량을 증가§!시키는 작전을 개시할 것입니다."
- USA_speer_send_weapons_tt:0 "내전 중인 슈페어의 독일에 §G사기와 전투능력을 향상§!시키는 작전을 개시할 것입니다."
- USA_speer_support_internationally_tt:0 "내전 중인 슈페어의 독일에 §G보병 장비를 제공§!하는 작전을 개시할 것입니다."
+ USA_speer_send_weapons_tt:0 "내전 중인 슈페어의 독일에 §G보병 장비를 제공§!하는 작전을 개시할 것입니다."
+ USA_speer_support_internationally_tt:0 "내전 중인 슈페어의 독일에 §G사기와 전투능력을 향상§!시키는 작전을 개시할 것입니다."
  USA_speer_send_fighters_tt:0 "내전 중인 슈페어의 독일에 §G전투기를 제공§!하는 작전을 개시할 것입니다."
  USA_CIA_early_game_speer_reactionary_weaken:0 "라이히 내의 §R반동주의§!의 목소리를 잠재우는 작전을 개시할 것입니다.\n"
  USA_CIA_early_game_speer_reformist_strengthen:0 "라이히 내의 §G개혁파§!의 목소리를 강화하는 작전을 개시할 것입니다.\n"
@@ -177,17 +169,13 @@
  USA_CIA_IRK_industrial_aid:0 "우리는 [IRK.GetName]의 보수파들과 접촉하여 산업 지원을 제공할 것입니다. 이로써 미래의 잠재적 동맹국을 강화할 수 있고, 우리에게 가장 호의적인 사람들의 정치적 영향력을 증대시킬 수 있습니다.\n"
  USA_CIA_IRK_political_aid:0 "우리는 [IRK.GetName]의 보수파들에게 정치적 지원을 제공하는 작전을 개시할 것입니다.\n"
 
-
- USA_CIA_bor_workforce_sabotage:0 "우리의 숙련공 성장 속도가 §R감소§!할 것입니다."
- USA_CIA_bor_infrastructure_sabotage:0 "§Y그로스라움§!을 유지하는 데 필요한 최소 투자액이 §R상승§!할 것입니다.\n"
-
  USA_nixon_cia:0 "CIA"
  USA_nixon_cia_desc:0 "CIA는 독일과 일본의 영향력에 대항하기 위해 몇 가지 계획을 수립했습니다. 이 계획에는 트리움비라투스와 협력하는 것은 물론 일본의 지배력을 약화시키기 위해 일본 공영권 내에 있는 다양한 저항단체를 지원하는 계획이 포함되어 있습니다."
  USA_CIA_Allign_Iberia_Towards_Franco:0 "프랑코와의 정치적 동맹"
  USA_CIA_Allign_Iberia_Towards_Salazar:0 "살라자르와의 정치적 동맹"
  USA_CIA_Iberia_AAS_Resources:0 "이베리아 AAS에 기여"
  USA_CIA_Iberia_Strike_At_Iberian_Terrorism:0 "이베리아 테러리스트 공격"
- USA_CIA_Fund_Gibralter_Dam:0 "지브롤터 댐에 자금 지원"
+ USA_CIA_Fund_Gibraltar_Dam:0 "지브롤터 댐에 자금 지원"
  USA_CIA_Add_Reform_Iberia:0 "이베리아 평의회 개혁파 결집"
  USA_CIA_Add_Stabilize_Iberia:0 "이베리아 안정화"
  USA_CIA_Back_Iberian_Wars:0 "이베리아 전쟁 군수 보급"
@@ -213,6 +201,16 @@
  USA_CIA_pro_usa_tooltip:0 "이 지역에서 우리의 정치적 영향력을 강화하기 위한 작전이 시작될 것입니다. 만약 성공한다면 우리는 약간의 §Y정치력§!을 얻게 될 것입니다.\n"
  USA_CIA_training_with_australians_cooldown:0 "이 작전을 실행한 지 적어도 1년이 지나야 합니다.\n"
 
+ USA_CIA_BRA_boost_random_UDN_senator_support:0 "This will launch an operation to boost a £BRA_udn_texticon §QUDN§! candidate's support in the current election season.\n"
+ USA_CIA_BRA_raise_lott_influence:0 "This will launch an operation to increase §KPresident Lott§!'s influence.\n[BRA.BRA_lottquadros_bar_tooltip_dyn]\n"
+ USA_CIA_BRA_raise_quadros_influence:0 "This will launch an operation to increase §QVice President Quadros§!' influence.\n[BRA.BRA_lottquadros_bar_tooltip_dyn]\n"
+ USA_CIA_BRA_ensure_lacerda_get_nominated:0 "An operation to help §QCarlos Lacerda§! win the £BRA_udn_texticon §QUDN§! presidential candidate nomination will be initiated.\n"
+ USA_CIA_BRA_ensure_lacerda_win_hundred_days:0 "We shall try to help §QCarlos Lacerda§! claim the presidency in the current crisis.\n"
+ USA_CIA_BRA_boost_lacerda_in_presidential_election:0 "An operation to help §QCarlos Lacerda§! win the current presidential election will be initiated.\n"
+ USA_CIA_BRA_boost_kubitschek_in_presidential_election:0 "An operation to help §YJuscelino Kubitschek§! win the current presidential election will be initiated.\n"
+ USA_CIA_BRA_boost_adhemar_in_presidential_election:0 "An operation to help §hAdhemar de Barros§! win the current presidential election will be initiated.\n"
+ USA_CIA_BRA_increase_military_loyalty:0 "This will launch an operation to increase §KBrazilian military loyalty§!.\n"
+ USA_CIA_BRA_decrease_military_loyalty:0 "This will launch an operation to decrease §KBrazilian military loyalty§!.\n"
 
  USA_CIA_af_status:0 "[GetCIAAFStatus]"
  USA_CIA_af_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_Africa_Encryption]§!\n"
@@ -271,6 +269,7 @@
  CIA_tech_9_tt:0 "§G분석 능력§!: §Y+2§!\n§G군대 정찰§!: §Y+0.1§!\n§G일간 내부통제 이득§!: §Y+0.010%§!\n비용:\n§w$1억 달러§!\n§Y50§! §S숙련도§!"
  CIA_tech_10_tt_delayed:0 "이것은 누가 봐도 1921년산 1달러 은화처럼 보이며, 미소짓는 자유의 여신 흉상이 순도 90%에 폭 1.5인치로 도배되어 있습니다.\n\n동료들을 위해 1달러당 사들인 국가기밀인 셈입니다. 인플레이션, 맞죠?"
  CIA_tech_10_tt:0 "§G임무 성공 확률§!: §Y+2%§!\n§G경쟁국 임무를 혼란시키는 효율성 증가§!\n§G성공한 임무로 얻는 숙련도 증가§!\n비용:\n§w$5천만 달러§!\n§Y50§! §S숙련도§!"
+ TNO_CIA_razak_likelihood_increase_tt: "This will increase our candidate's chances at the election!"
 
  CIA_tech_1:0 "비둘기 카메라"
  CIA_tech_2:0 "벨리 버스터"
@@ -310,7 +309,6 @@
  USA_look_into_italy:0 "Look into Italy"
  USA_look_into_italy_desc:0 "Fill this out"
  USA_look_into_iberia:0 "Look into Iberia"
-# USA_look_into_iberia:0 "Fill this out" #duplicate loc key
 
 ###################
 ### NORTH AMERICA
@@ -318,23 +316,23 @@
 
  USA_CIA_Dummy_Decision_1:0 "§Y작전명§! §P미드나잇§!"
  
- USA_CIA_fuckery_republicans:0 "우리는 §S공화당§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
- USA_CIA_fuckery_democrats:0 "우리는 §B민주당§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
- USA_CIA_fuckery_right:0 "우리는 §gNPP-극우파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
- USA_CIA_fuckery_center:0 "우리는 §PNPP-중도파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
- USA_CIA_fuckery_yockey:0 "우리는 §jNPP-요키파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
- USA_CIA_fuckery_left:0 "우리는 §eNPP-좌파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
+ USA_CIA_fuckery_republicans:0 "우리는 £GFX_rd_r_texticon §w공화당§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
+ USA_CIA_fuckery_democrats:0 "우리는 £GFX_rd_d_texticon §B민주당§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
+ USA_CIA_fuckery_right:0 "우리는 £GFX_npp_fr_texticon §gNPP-극우파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
+ USA_CIA_fuckery_center:0 "우리는 £GFX_npp_c_texticon §PNPP-중도파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
+ USA_CIA_fuckery_yockey:0 "우리는 £GFX_npp_y_texticon §jNPP-요키파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
+ USA_CIA_fuckery_left:0 "우리는 £GFX_npp_l_texticon §eNPP-좌파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
 
 USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_analize_intelligence_desc:0 "과거의 실패에 얽매여있긴 하지만, 우리의 기밀 보고서 더미를 제대로 분석할 때 배울 점이 많습니다."
- USA_CIA_slander_republicans:0 "§Y작전명§! §SLN머시§!"
- USA_CIA_slander_democrats:0 "§Y작전명§! §BLN실링§!"
+ USA_CIA_slander_republicans:0 "§Y작전명§! §wLN머시§!"
+ USA_CIA_slander_democrats:0 "§Y작전명§! §MLN실링§!"
  USA_CIA_slander_right:0 "§Y작전명§! §gLN포스쳐§!"
  USA_CIA_slander_center:0 "§Y작전명§! §PLN모티프§!"
  USA_CIA_slander_yockey:0 "§Y작전명§! §jLN정글§!"
  USA_CIA_slander_left:0 "§Y작전명§! §eLN셰이크§!"
  
- USA_CIA_mhchaos:0 "§Y작전명§! §PLN카오스§!"
+ USA_CIA_mhchaos:0 "§Y작전명§! §PMH카오스§!"
 
 #####################
 ### CENTRAL AMERICA
@@ -350,6 +348,16 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 
  USA_CIA_trade_influence_sa:0 "미국 기업 이익 수호"
  USA_CIA_pro_usa_sa:0 "친미정서 강화"
+ USA_CIA_boost_UDN_in_senate_elections:0 "§YOperation§! §zBLUE FRIEND§!"
+ USA_CIA_raise_lott_influence:0 "§YOperation§! §RRED BEACH§!"
+ USA_CIA_raise_quadros_influence:0 "§YOperation§! §DNORTH ZONE§!"
+ USA_CIA_ensure_lacerda_get_nominated:0 "§YOperation§! §QSOARING CROW§!"
+ USA_CIA_ensure_lacerda_win_hundred_days:0 "§YOperation§! §QSOARING CROW§!"
+ USA_CIA_boost_lacerda_in_presidential_election:0 "§YOperation§! §iFLYING CROW§!"
+ USA_CIA_boost_kubitschek_in_presidential_election:0 "§YOperation§! §wOLD ALLY§!"
+ USA_CIA_boost_adhemar_in_presidential_election:0 "§YOperation§! §pVENAL GAMBIT§!"
+ USA_CIA_increase_brazilian_military_loyalty:0 "§YOperation§! §KSUCCUBUS§!"
+ USA_CIA_decrease_brazilian_military_loyalty:0 "§YOperation§! §VALIENATION§!"
 
 ###################
 ### EUROPE
@@ -380,7 +388,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  # NDL
  USA_CIA_NDL_LIBERALS_1_tt:0 "외무부에 잠입하면 NDL 내 휘그당의 입지와와 대중에 대한 인기를 약화시키기 위해 행정부의 영향력을 사용할 수 있게 됩니다."
  USA_CIA_NDL_CONSERVATIVES_1_tt:0 "프랑스의 난민으로 가장한 요원을 영국으로 보내 이민과 난민 정책을 옹호하는 선전 운동을 벌이도록 할 것이며, 애국자계열의 말이 NDL 내 영향력을 약화시킬 것입니다."
- USA_CIA_NDL_MODERATES_1_tt:0 "영국 내에서 직접적인 자금 지원과 선전 활동을 통해 좌파와 우파의 극단주의자를 공격하고, NDL 내 민주계열의 지지도를 높일 것입니다."
+ USA_CIA_NDL_MODERATES_1_tt:0 "영국 내에서 선전 활동에 대한 직접적인 자금 지원으로 좌파와 우파의 극단주의자를 공격하고, NDL 내 민주계열의 지지도를 높일 것입니다."
  # SuperMac
  USA_CIA_MAC_MACMILLAN_1_tt:0 "우리는 영국 내 §j독일§!의 영향력을 조사하고 이를 널리 알려 영국인들에게 독일과 멀어지도록 겁을 줄 것입니다. 이것은 맥밀런의 신중한 미사여구를 더욱 인기 있게 만들 것입니다."
  USA_CIA_MAC_LIBERALS_1_tt:0 "기관은 영국이 보다 자유 무역 정책을 받아들이도록 미국과 영국의 무역 선전에 투자할 것입니다. 이것은 모들링의 자유주의적 수사학을 미사여구를 더욱 인기 있게 만들 것입니다."
@@ -549,10 +557,21 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 ###################
 ### EAST ASIA
 ###################
-
+ TNO_CIA_MLY_Operations_Can_Begin:0 "The War ended in our favour!"
  USA_CIA_debuff_ins:0 "인도네시아 마비 작전"
  USA_CIA_strike_ins:0 "인도네시아 기반시설 타격"
  USA_CIA_buff_fri:0 "자유 인도네시아 지원 작전"
+ USA_CIA_support_razak:0 "§YOPERATION§! §QDIVIDER§!"
+ USA_CIA_support_razak_desc:0 "We've won the battle, but not the war. Thankful we are for Chin Peng and his faction for tearing Malaya from the Sphere's grasp, most of his faction and successors aren't particular eager to deepen relationship, with the exception of one: Tun Abdul Razak and his party are adherent of a democratic, stable representative democracy, and, most importantly, for entry in the OFN as an observer.\n\nTo lit the fire of democracy in the South East Asia, some eggs need to be cracked, and some ballots overtuned."
+ USA_CIA_USAFIP_supply_lines:0 "§YOPERATION§! §QACE§!"
+ USA_CIA_USAFIP_supply_lines_desc:0 "Malaya isn't just a stark example of the weakness of the Sphere, but most importantly, a safe port for our operations in Asia. Now that the naval blockade through the Pacific is simply not an issue anymore, we can move shipments the long way towards our long-since separated divisions in the Philippines. Guns, supplies, letters; America did not forget them, and will bring her sons back home."
+ USA_CIA_FRI_discreet_supply_lines:0 "§YOPERATION§! §PCUTTHROAT§!"
+ USA_CIA_FRI_discreet_supply_lines_desc:0 "The Java Sea and the Straits of Malacca are a wealthy, rich fishing region, their bounties however doesn't belong to free Filipinos, but the damnable Rising Sun and their cronies. Yet, it is solely because of their intense fishing activity, that we can smuggle supplies to the underground resistance cells, disguised as another bounty of the sea. Won't be hard to find Malayan fishers willing to part with their ships for a wealthy sum, after all."
+ USA_Operation_Domino:0 "§YOPERATION§! §DDOMINO§!"
+ USA_Operation_Domino_desc:0 "Shonan-To means in Japanese the Light of the South. Even as the Capital is renamed back to it's natural Singapore, Malaya has the potential to be, together with Australia, the shining light of Freedom and trade in South East Asia. But, to make sure it lives to it's potential, it needs to heal from it's bleeding wounds which, thankfully, shouldn't be too big of an issue.\n\nNothing like a little elbow grease, American Capital and Enterpreneurship won't do to make Malayan the shining example of what Asia under an actual benefactor can look like."
+ TNO_CIA_MLY_OPERATION_DOMINO_tt: "Using our established connections, we will start operations of investment in Malaya's rebuilding and reconstruction."
+ TNO_CIA_FRI_Supply_Lines_tt: "We will smuggle weapons and supplies to the Indonesian Resistance. Depending of our success of operations in the Philippines and our success in Malaya, surely Indonesia will be inclined into a favourable relationship with us."
+
 
 ###################
 ### SOUTH EAST ASIA
@@ -646,7 +665,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_IBR.4.a:0 "¡Gracias americano!"
 
  USA_CIA_IBR.5.t:0 "Gibraltar Dam Aid from the USA"
- USA_CIA_IBR.5.desc:0 "An old and creaky "Liberty Ship built over 20 years ago has docked at Cadiz, flying the flag of Nicaragua and renamed as the SS Awastara. It's old, it's leaking... but it's a lifeline to the giant wall that separates Atlantic from Mediterranian.\n\nThe US Central Intelligence Agency has chartered the SS Awastara and filled it with steel, cement, machinery and tools, provided at below market values, to help with our never ending efforts to keep the Gibraltar Dam from collapsing, and maybe even to finally finish what the Germans had so haphazardly abandoned. There are many other ships similar profiles and materials that will soon be arriving in Iberia to help us.\n\nBut even more valuable to us is what the single passenger on the ship is carrying. His name isn't that important, and whatever name he gave the custom's officials would not be his real name. But the information he provides on microfilm, stashed in one of the crates of cigarettes he is "selling," has information regarding efforts of workers associated with the Gibraltar Dam and their secret, illegal union and organization activity. Soon the identified leaders would be whisked away, never to be seen again, and the efforts of the workers to undermine our society and the Dam will be removed."
+ USA_CIA_IBR.5.desc:0 "An old and creaky "Liberty Ship" built over 20 years ago has docked at Cádiz, flying the flag of Nicaragua and renamed as the SS Awastara. It's old, it's leaking... but it's a lifeline to the giant wall that separates the Atlantic from the Mediterranean.\n\nThe US Central Intelligence Agency has chartered the SS Awastara and filled it with steel, cement, machinery and tools, provided at below market values, to help with our never ending efforts to keep the Gibraltar Dam from collapsing, and maybe even to finally finish what the Germans had so haphazardly abandoned. There are many other ships similar profiles and materials that will soon be arriving in Iberia to help us.\n\nBut even more valuable to us is what the single passenger on the ship is carrying. His name isn't that important, and whatever name he gave the customs officials would not be his real name. But the information he provides on microfilm, stashed in one of the crates of cigarettes he is "selling," has information regarding efforts of workers associated with the Gibraltar Dam and their secret, illegal union and organization activity. Soon the identified leaders would be whisked away, never to be seen again, and the efforts of the workers to undermine our society and the Dam will be removed."
  USA_CIA_IBR.5.a:0 "The Dam will one day be complete!"
 
  USA_CIA_IBR.6.t:0 "Outside Aid for Iberian Unity"
@@ -663,11 +682,11 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_SGR.1.a:0 "Just one of many concerns."
  
  USA_CIA_SGR.2.t:0 "The Black Market Headache"
- USA_CIA_SGR.2.desc:0 "The police reports are becoming increasingly disconcerting and worrying. Investigations into the black market that is keeping ordinary Germans fed and clothed, but also questioning National Socialism, is now uncovering something more drastic. A new batch of pamphlets and short books are appearing, calling out for drastic reforms to the Reich. Some include those that Speer's advisors and supporters have called for that a majority of the nation is at best lukewarm too. But some of the pamphlets are calling for such crazy ideas as free, multi-candidate elections and even reducing the Fuhrer's power!\n\nThere is no doubt that some foreign power is behind this, most likely the Americans with their silly ideas of democracy, or perhaps the Japanese or Italians trying to take advantage of our weakened state. However, the Reich is in little position to actually combat this growing tide of foreign backed destabilization, so all we can do is manage it, and hope our reform efforts will convince the ordinary Germans that we know what we are doing."
+ USA_CIA_SGR.2.desc:0 "The police reports are becoming increasingly disconcerting and worrying. Investigations into the black market that is keeping ordinary Germans fed and clothed, but also questioning National Socialism, is now uncovering something more drastic. A new batch of pamphlets and short books are appearing, calling out for drastic reforms to the Reich. Some include those that Speer's advisors and supporters have called for that a majority of the nation is at best lukewarm too. But some of the pamphlets are calling for such crazy ideas as free, multi-candidate elections and even reducing the Führer's power!\n\nThere is no doubt that some foreign power is behind this, most likely the Americans with their silly ideas of democracy, or perhaps the Japanese or Italians trying to take advantage of our weakened state. However, the Reich is in little position to actually combat this growing tide of foreign backed destabilization, so all we can do is manage it, and hope our reform efforts will convince the ordinary Germans that we know what we are doing."
  USA_CIA_SGR.2.a:0 "The people will never believe this!"
  
  USA_CIA_SGR.3.t:0 "The Bolstered Opposition"
- USA_CIA_SGR.3.desc:0 "More reports reaching the Reichskanzlei have illustrated a disturbing trend. Across the Reich, many reformist groups have been hanging more posters and distributing leaflets calling on the Fuhrer to accelerate his efforts to overhaul the nation. Even more concerning is a variety of groups that advocate for the rights of slaves, for democracy, and even the demolishing of the whole National Socialist state. While most of these groups are small, disunited in aims, and spread over a vast area, they have all seen a massive boost in organizational activity and resources that seems rather sudden and surprising.\n\nUndoubtedly, this is the work of a foreign power, using their secret service to fund our opponents to undermine our power and strength. But despite our efforts, we haven't been able to trace the source of the funds and support they are receiving. After all, we still have a Reich to rebuild!\n\nWe can deal with some posters and pamphlets for now, but we will have to keep a close eye on the people, for if too many are swayed and misled, it could spell trouble."
+ USA_CIA_SGR.3.desc:0 "More reports reaching the Reichskanzlei have illustrated a disturbing trend. Across the Reich, many reformist groups have been hanging more posters and distributing leaflets calling on the Führer to accelerate his efforts to overhaul the nation. Even more concerning is a variety of groups that advocate for the rights of slaves, for democracy, and even the demolishing of the whole National Socialist state. While most of these groups are small, disunited in aims, and spread over a vast area, they have all seen a massive boost in organizational activity and resources that seems rather sudden and surprising.\n\nUndoubtedly, this is the work of a foreign power, using their secret service to fund our opponents to undermine our power and strength. But despite our efforts, we haven't been able to trace the source of the funds and support they are receiving. After all, we still have a Reich to rebuild!\n\nWe can deal with some posters and pamphlets for now, but we will have to keep a close eye on the people, for if too many are swayed and misled, it could spell trouble."
  USA_CIA_SGR.3.a:0 "Why would anyone listen to a piece of paper on the wall?"
  
  USA_CIA_SGR.4.t:0 "Public Accusations"
@@ -679,11 +698,11 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_SGR.5.a:0 "Good Germans would never fall for such nonsense!"
  
  USA_CIA_SGR.6.t:0 "Growing Opposition"
- USA_CIA_SGR.6.desc:0 "In the more liberal regime of Albert Speer, some things that would have been unthinkable just a few years before are now commonplace. Take for instance the daily student protests: all over the Reich, we've allowed some semblance of peaceful assembly since many of these young men and women are supporters of the Fuhrer, and the last thing he wants is to betray that trust. However, that doesn't mean plainclothes, undercover police officers can't investigate and infiltrate these movements, and their reports are increasingly worrying.\n\nSomehow, these disparate groups are receiving funds and resources that these students shouldn't have in their possession, which is allowing them to expand their efforts outside of university campuses and technical college classrooms. Even more disturbing is the reports that groups like the Reichsbanner are also receiving such resources, allowing these more radical groups to grow in strength.\n\nWhile we've been able to track, confiscate and seize some of the funds that investigators can prove are illegal, it's clear that some foreign power is putting a lot of time and energy in bolstering the pro-democracy and anti-National Socialist movements in Europe."
+ USA_CIA_SGR.6.desc:0 "In the more liberal regime of Albert Speer, some things that would have been unthinkable just a few years before are now commonplace. Take for instance the daily student protests: all over the Reich, we've allowed some semblance of peaceful assembly since many of these young men and women are supporters of the Führer, and the last thing he wants is to betray that trust. However, that doesn't mean plainclothes, undercover police officers can't investigate and infiltrate these movements, and their reports are increasingly worrying.\n\nSomehow, these disparate groups are receiving funds and resources that these students shouldn't have in their possession, which is allowing them to expand their efforts outside of university campuses and technical college classrooms. Even more disturbing is the reports that groups like the Reichsbanner are also receiving such resources, allowing these more radical groups to grow in strength.\n\nWhile we've been able to track, confiscate and seize some of the funds that investigators can prove are illegal, it's clear that some foreign power is putting a lot of time and energy in bolstering the pro-democracy and anti-National Socialist movements in Europe."
  USA_CIA_SGR.6.a:0 "They can complain in the streets now, what more do they want?"
  
  USA_CIA_SGR.7.t:0 "Reparation Chaos!"
- USA_CIA_SGR.7.desc:0 "A foreign stereotype of the German people is our penchant for efficiency and order, stretching back to the era of Frederick the Great and beyond. Of course, we know better than that: the National Socialist regime is riven with internal strife, corruption, overlapping responsibilities and red tape. While the Fuhrer has done his best to clean up the mess and reorganize the whole Reich's bureaucracy, it is an uphill struggle.\n\nEven in brand new structures like the Reich's slave reparation system, created from the ground up for a noble cause, there have been problems. But this one in particular has caught everyone's attention. A dozen civil servants in the reparation program have been accused of corruption, kickbacks and other measures, despite previously stellar records. Not only that, but a fire in three offices, set within a week of each other in Frankfurt, Essen and Rostock have destroyed thousands of files related to many slaves, casting them adrift into the byzantine system. The scandal and fire, along with many other misplaced papers and orders has cast a dark shadow over the whole program.\n\nIt's too suspicious and coordinated to be merely accidental or coincidental, but we have been unable to uncover any proof that there is such a plot to wreak havoc with our attempts to reform our economy."
+ USA_CIA_SGR.7.desc:0 "A foreign stereotype of the German people is our penchant for efficiency and order, stretching back to the era of Frederick the Great and beyond. Of course, we know better than that: the National Socialist regime is riven with internal strife, corruption, overlapping responsibilities and red tape. While the Führer has done his best to clean up the mess and reorganize the whole Reich's bureaucracy, it is an uphill struggle.\n\nEven in brand new structures like the Reich's slave reparation system, created from the ground up for a noble cause, there have been problems. But this one in particular has caught everyone's attention. A dozen civil servants in the reparation program have been accused of corruption, kickbacks and other measures, despite previously stellar records. Not only that, but a fire in three offices, set within a week of each other in Frankfurt, Essen and Rostock have destroyed thousands of files related to many slaves, casting them adrift into the byzantine system. The scandal and fire, along with many other misplaced papers and orders has cast a dark shadow over the whole program.\n\nIt's too suspicious and coordinated to be merely accidental or coincidental, but we have been unable to uncover any proof that there is such a plot to wreak havoc with our attempts to reform our economy."
  USA_CIA_SGR.7.a:0 "In order to fix this, please fill out forms AH-829 and JI-315 in triplicate."
  
  USA_CIA_SGR.8.t:0 "Accidents or Sabotage?"
@@ -714,11 +733,11 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_BOR.2.a:0 "Who prints these things"
 
  USA_CIA_BOR.3.t:0 "Grossraum Hiccups"
- USA_CIA_BOR.3.desc:0 "Our efforts to restructure our economy and make it more efficient and self-sufficient, there would undoubtedly be problems. In the past few months, we've had an ever increasing number of such issues come up. Our infrastructure has been hampered with a large number of mechanical breakdowns and suspected sabotage. Bureaucrats throughout the civil service in charge of the Grossraum have been exposed for crimes including bribery, spying, and much more, forcing the police to investigate each case.\n\nWhile none of these will irrevocably destroy the Grossraum project, it will slow it down. Our intelligence services suspect that one of our many rivals could have been behind this, due to the rather coincidental nature of so many issues happening at once. However, there is no hard evidence, and we can only speculate at who it is at the moment. And maybe it is just a coincidence, the result of trying to get the Grossraum moving as fast as possible, and the speculation is just paranoid minds seeing patterns where none exist. Nonetheless, such impacts on our great plans will harm the Third Reich, and the Fuhrer himself in the eyes of the public and the world. We must remain on guard and try to rectify these problems as soon as we can."
+ USA_CIA_BOR.3.desc:0 "Our efforts to restructure our economy and make it more efficient and self-sufficient, there would undoubtedly be problems. In the past few months, we've had an ever increasing number of such issues come up. Our infrastructure has been hampered with a large number of mechanical breakdowns and suspected sabotage. Bureaucrats throughout the civil service in charge of the Grossraum have been exposed for crimes including bribery, spying, and much more, forcing the police to investigate each case.\n\nWhile none of these will irrevocably destroy the Grossraum project, it will slow it down. Our intelligence services suspect that one of our many rivals could have been behind this, due to the rather coincidental nature of so many issues happening at once. However, there is no hard evidence, and we can only speculate at who it is at the moment. And maybe it is just a coincidence, the result of trying to get the Grossraum moving as fast as possible, and the speculation is just paranoid minds seeing patterns where none exist. Nonetheless, such impacts on our great plans will harm the Third Reich, and the Führer himself in the eyes of the public and the world. We must remain on guard and try to rectify these problems as soon as we can."
  USA_CIA_BOR.3.a:0 "Human error or not, we will continue."
 
  USA_CIA_BOR.4.t:0 "Grossraum Slowdowns"
- USA_CIA_BOR.4.desc:0 "Railway switches flipped the wrong way. Valuable machinery breaking. Misplaced paperwork. Wildcat strikes and slowdowns. Throughout the Reich, the Grossraum project is facing an increasing number of issues that seem designed to belay our often touted Germanic efficiency. While we are seeing improvements in nearly every sector of the economy, there has been an uptick in the number of incidents of human error or suspected sabotage: it's hard to separate the two.\n\nIt was always going to be difficult to reform the economy by getting rid of the slaves and replacing them with skilled German workers, while also maintaining and increasing the current level of production. But it's becoming increasingly harder to wave off these incidents as simply untrained and new workers getting used to their jobs. Some evidence has come to light that there is a foreign plot against us, but we still have no idea who is doing this.\n\nBut we must push on. For the Volk, for the Reich, for the Fuhrer!"
+ USA_CIA_BOR.4.desc:0 "Railway switches flipped the wrong way. Valuable machinery breaking. Misplaced paperwork. Wildcat strikes and slowdowns. Throughout the Reich, the Grossraum project is facing an increasing number of issues that seem designed to belay our often touted Germanic efficiency. While we are seeing improvements in nearly every sector of the economy, there has been an uptick in the number of incidents of human error or suspected sabotage: it's hard to separate the two.\n\nIt was always going to be difficult to reform the economy by getting rid of the slaves and replacing them with skilled German workers, while also maintaining and increasing the current level of production. But it's becoming increasingly harder to wave off these incidents as simply untrained and new workers getting used to their jobs. Some evidence has come to light that there is a foreign plot against us, but we still have no idea who is doing this.\n\nBut we must push on. For the Volk, for the Reich, for the Führer!"
  USA_CIA_BOR.4.a:0 "Teething troubles. That's all it is. Right?"
 
  USA_CIA_BOR.5.t:0 "Hampering the Manumission"
@@ -726,7 +745,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_BOR.5.a:0 "Why are they like this? We try to send them back and they revolt?!"
 
  USA_CIA_BOR.6.t:0 "Derailing the Manumission"
- USA_CIA_BOR.6.desc:0 "Terrible news! A train carrying a lot of former slaves has derailed outside Warsaw!\n\nOf course, we aren't too concerned about the slaves, many of whom were injured or died in the crash, but it damaged an important railroad bridge over the Vistula River. Engineers say it could take weeks or months to repair the bridge to allow trains to pass over it again. Investigations are underway to determine the cause of the crash, but as of yet no definitive proof has been uncovered, either showing it was intentional sabotage or an accident.\n\nThis will greatly hamper our efforts to send more of the slaves back to the Reichskommisariats. We'd have to divert trains in other directions, costing time and money and hampering other important products and freight that needs to be moved around the Reich. But if we want the Grossraum project to be a success, we will have to power through, spend the extra resources and time to get the slaves out of Germany and to the eastern lands."
+ USA_CIA_BOR.6.desc:0 "Terrible news! A train carrying a lot of former slaves has derailed outside Warsaw!\n\nOf course, we aren't too concerned about the slaves, many of whom were injured or died in the crash, but it damaged an important railroad bridge over the Vistula River. Engineers say it could take weeks or months to repair the bridge to allow trains to pass over it again. Investigations are underway to determine the cause of the crash, but as of yet no definitive proof has been uncovered, either showing it was intentional sabotage or an accident.\n\nThis will greatly hamper our efforts to send more of the slaves back to the Reichskommissariats. We'd have to divert trains in other directions, costing time and money and hampering other important products and freight that needs to be moved around the Reich. But if we want the Grossraum project to be a success, we will have to power through, spend the extra resources and time to get the slaves out of Germany and to the eastern lands."
  USA_CIA_BOR.6.a:0 "Why does getting rid of slavery have to be so damn hard?"
 
  USA_CIA_BOR.7.t:0 "Fire on the Manumission"
@@ -760,11 +779,11 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_RUS.1.a:0 "Great help from our capitalist comrades, regardless."
 
  USA_CIA_RUS.2.t:0 "The Shift Toward Bukharinism"
- USA_CIA_RUS.2.desc:0 "Comrade Sablin is a traitor, and will not carry our revolution forward! We must preserve Bukharin's legacy at any cost!"\n\nMany cries of peaceful protesters sounded something similar to this all across the country. For whatever reason, a rather noticeable wave of support for the Bukharinite wing has overtaken our country. The cities are full of demonstrators, Bukharinite posters adorn building walls and their fliers litter the hands of our citizens. Perhaps even more concerningly, several low-ranking bureaucratic members of our party have simply switched allegiances or jumped ship to fully support the supporters of Bukharin.\n\nAs far as we know, no major societal rift or change has been noticed by our government in order to cause such an increase in support. Despite several of our party wing's informants in bars, meeting halls, and demonstrations, they all come to the immediate observation that the support simply sprouted out of thin air. However, the attitude in our cabinet is more cynical. Given that both of our wings are roughly equal in raw power and resources, it is incredibly likely that an outside benefactor has been supporting the Bukharin wing directly. Even after an informant of ours managed to get hands on their financial records however, there is no succinct proof, and for the time being we cannot be sure of where their good fortune is coming from. We may be simply becoming unpopular, but paranoia is beginning to run deep among our administration..."
+ USA_CIA_RUS.2.desc:0 ""Comrade Sablin is a traitor, and will not carry our revolution forward! We must preserve Bukharin's legacy at any cost!"\n\nMany cries of peaceful protesters sounded something similar to this all across the country. For whatever reason, a rather noticeable wave of support for the Bukharinite wing has overtaken our country. The cities are full of demonstrators, Bukharinite posters adorn building walls and their fliers litter the hands of our citizens. Perhaps even more concerningly, several low-ranking bureaucratic members of our party have simply switched allegiances or jumped ship to fully support the supporters of Bukharin.\n\nAs far as we know, no major societal rift or change has been noticed by our government in order to cause such an increase in support. Despite several of our party wing's informants in bars, meeting halls, and demonstrations, they all come to the immediate observation that the support simply sprouted out of thin air. However, the attitude in our cabinet is more cynical. Given that both of our wings are roughly equal in raw power and resources, it is incredibly likely that an outside benefactor has been supporting the Bukharin wing directly. Even after an informant of ours managed to get hands on their financial records however, there is no succinct proof, and for the time being we cannot be sure of where their good fortune is coming from. We may be simply becoming unpopular, but paranoia is beginning to run deep among our administration..."
  USA_CIA_RUS.2.a:0 "What could be causing this?"
 
  USA_CIA_RUS.3.t:0 "마가단의 미국 사업"
- USA_CIA_RUS.3.desc:0 "A new ship arrived at our port this morning, emerging out of the crisp fog with the rustling of the deep sea waves. She was oddly clean looking, large, modern. Many on the horn were sure they were Americans, but why were they here? Nobody on the horn knew. As the men at our port scrambled to prepare for a potential rogue ship, a voice on the other side of the radio responded.\n\n"Hello, Magadan! This is the Porter. inbound from Seattle. We're here to provide commercial aid to this port on request of the government. Will you let us dock?"\n\nThe radio room fell silent. As far as everyone knew, there was no official order to let an American ship dock at our shipyard. Some in the radio room were furious, and were considering calling the city garrison. Others were vastly supportive, not opposed to American economic aid. Most did not care, and were simply worried about the uncertainty of this event. However, after a bit of bickering and impatience on the other side, a single voice was spoken through the radio.\n\n"This is Magadan. You can dock."\n\nA businessman in a black suit walked out, looking at the sky around him while puffing a cigarette. Several men behind him were beginning to unload crates full of valuable goods, industrial material, and civilian supplies. As the dock administrators approached in front of him, eyeing the seemingly endless supply of surplus arriving on their shores, he extinguished his cigarette, and smiled warmly.\n\n"Gentlemen. You'd best make room for more ships with this aid, since more are coming."
+ USA_CIA_RUS.3.desc:0 "A new ship arrived at our port this morning, emerging out of the crisp fog with the rustling of the deep sea waves. She was oddly clean looking, large, modern. Many on the horn were sure they were Americans, but why were they here? Nobody on the horn knew. As the men at our port scrambled to prepare for a potential rogue ship, a voice on the other side of the radio responded.\n\n"Hello, Magadan! This is the Porter. inbound from Seattle. We're here to provide commercial aid to this port on request of the government. Will you let us dock?"\n\nThe radio room fell silent. As far as everyone knew, there was no official order to let an American ship dock at our shipyard. Some in the radio room were furious, and were considering calling the city garrison. Others were vastly supportive, not opposed to American economic aid. Most did not care, and were simply worried about the uncertainty of this event. However, after a bit of bickering and impatience on the other side, a single voice was spoken through the radio.\n\n"This is Magadan. You can dock."\n\nA businessman in a black suit walked out, looking at the sky around him while puffing a cigarette. Several men behind him were beginning to unload crates full of valuable goods, industrial material, and civilian supplies. As the dock administrators approached in front of him, eyeing the seemingly endless supply of surplus arriving on their shores, he extinguished his cigarette, and smiled warmly.\n\n"Gentlemen. You'd best make room for more ships with this aid, since more are coming.""
  USA_CIA_RUS.3.a:0 "돈이 흐르게 하자!"
 
  USA_CIA_RUS.4.t:0 "Reaping the Red, White, and Blue"
@@ -784,7 +803,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_RUS.7.a:0 "Can't bite the hand that feeds us."
 
  USA_CIA_RUS.8.t:0 "외세의 영향력이 강해지다"
- USA_CIA_RUS.8.desc:0 "As Magadan pushes west and begins to unify the broken Russian people into a new, powerful state, it is not without its problems. Cities have been fought over, farms have been burnt, factories are ruined husks, not to mention the lack of manpower and the limited resources we have to accomplish things quickly. While in time we can rebuild all of it and further increase our power, it will be a long, hard road.\n\nHowever, this hasn't stopped some from trying to fix it themselves. Rich Russian emigres from the west are returning by the boatload, with pockets full of gold seeking to rebuild factories and mines. Alongside them are many Americans and other foreign nationals, with the technical know-how or even deeper pockets of greenbacks, seeking to build massive fortunes by buying up the factories and rebuilding them and turning them over to American corporations, using the labor of poor Russian men and women to make their products to sell here and abroad, often for wages slightly higher than can be given by loyal RFP aligned businesses.\n\nMatkovsky himself has grown suspicious and wary of the arrival of all these Americans and American influenced Russians, wildily spending money and resources. Of course, getting the economy back on track would be a good thing, and the taxes and customs Magadan can charge will provide a steadily increasing source of income, but there is a cost. American style consumerism and ideals are spreading amongst the people. Matkovsky is also increasingly convinced that the tales of all these successful Russians or Americans looking to make their fortune are actually CIA plants, seeking to increase the USA's influence in Magadan, and turn us into a puppet state of Western Imperialism..."
+ USA_CIA_RUS.8.desc:0 "As Magadan pushes west and begins to unify the broken Russian people into a new, powerful state, it is not without its problems. Cities have been fought over, farms have been burnt, factories are ruined husks, not to mention the lack of manpower and the limited resources we have to accomplish things quickly. While in time we can rebuild all of it and further increase our power, it will be a long, hard road.\n\nHowever, this hasn't stopped some from trying to fix it themselves. Rich Russian émigrés from the west are returning by the boatload, with pockets full of gold seeking to rebuild factories and mines. Alongside them are many Americans and other foreign nationals, with the technical know-how or even deeper pockets of greenbacks, seeking to build massive fortunes by buying up the factories and rebuilding them and turning them over to American corporations, using the labor of poor Russian men and women to make their products to sell here and abroad, often for wages slightly higher than can be given by loyal RFP aligned businesses.\n\nMatkovsky himself has grown suspicious and wary of the arrival of all these Americans and American influenced Russians, wildily spending money and resources. Of course, getting the economy back on track would be a good thing, and the taxes and customs Magadan can charge will provide a steadily increasing source of income, but there is a cost. American style consumerism and ideals are spreading amongst the people. Matkovsky is also increasingly convinced that the tales of all these successful Russians or Americans looking to make their fortune are actually CIA plants, seeking to increase the USA's influence in Magadan, and turn us into a puppet state of Western Imperialism..."
  USA_CIA_RUS.8.a:0 "Vozhd, you are being paranoid. Why not calm down and relax with a bottle of Pepsi-Cola?"
 
  USA_CIA_RUS.9.t:0 "미국의 보급품이 도착하다!"
@@ -870,7 +889,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_JAP.4.a:0 "걱정되는군."
 
  USA_CIA_JAP.5.t:0 "Unrest in the Hawaiian Islands" 
- USA_CIA_JAP.5.desc:0 "Jails in Honolulu have been overflowing this past week with the arrests of several anti-Japanese terrorist cells on the islands. Since the beginning of its fraternity with the home islands in 1946, integrating Hawaii into the great Japanese realm has always been a challenge, only intensified in recent years. This latest batch of attacks seems to be split into two camps, namely American nationalist and Native Hawaiian resistance. Both groups have attacked military and police installations, disrupting naval supply lines, and harassing Japanese citizens on the islands. Thankfully, they have all been apprehended and turned in for questioning. Interestingly, the American safe houses had several articles of wartime propaganda and blueprints for American rifles. The Kempeitai will be pursuing this further.""
+ USA_CIA_JAP.5.desc:0 "Jails in Honolulu have been overflowing this past week with the arrests of several anti-Japanese terrorist cells on the islands. Since the beginning of its fraternity with the home islands in 1946, integrating Hawaii into the great Japanese realm has always been a challenge, only intensified in recent years. This latest batch of attacks seems to be split into two camps, namely American nationalist and Native Hawaiian resistance. Both groups have attacked military and police installations, disrupting naval supply lines, and harassing Japanese citizens on the islands. Thankfully, they have all been apprehended and turned in for questioning. Interestingly, the American safe houses had several articles of wartime propaganda and blueprints for American rifles. The Kenpeitai will be pursuing this further.""
  USA_CIA_JAP.5.a:0 "Those can never stay still can they."
 
 # Indonesia
@@ -887,6 +906,31 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_ICW.3.desc:0 "The reports continue to pile in - twisted railway tracks, detonated bridges, and roads blocked by jungle foliage. Even as our men on the lines need as much ammunition and supplies as we can send them from Jakarta, the infrastructure needed to transport critical goods continues to be sabotaged at an alarming rate.\n\nWhile we expected some degree of partisan activity and sabotage, the ability of Hatta's rebels to penetrate deep into our interior and the breadth of their attacks almost certainly indicates outside help. Whether it be by forward observers or by clandestine airstrikes, the Americans and their intelligence operatives are clearly trying to tip the scales of the war in the rebels' favor.\n\nSadly, given our stretched resources and the pressing need to prevent a wider intervention in our war, we have limited options to retaliate directly against the Americans. We will simply have to rebuild what was destroyed, and hope that it won't be destroyed again."
  USA_CIA_ICW.3.a:0 "제발, 미국인들 좀 우리 전쟁에서 꺼지라고 할 수 없나?!"
 
+# Malaya
+ USA_CIA_MLY.1.t:0 "Giving Razak a Boost"
+ USA_CIA_MLY.1.desc:0 "Central Intelligence Agency operatives have recently begun the hard work of increasing the powerbase of Abdul Razak, leader of the faction in the Malaysian government most favorable to our Organization of Free Nations. In safehouses, residences, and offices throughout Malaya, lists of people to approach are being determined. Functionaries are figuring out who and who not to try and get hold of.\n\nThe UMAJF in its original form certainly skewed communist; this is what made it so attractive to the L-NPP and other such Marxist-Bukharinist factions. But Chin Peng, having fought himself to exhaustion against the Japanese in the Civil War, is no longer in a fit state to direct what does and does not happen in the coalition. As a result, the coalition is no longer bound by a united purpose. Therefore it is only a matter of time before it splinters into its constituent fragments, and those fragments begin to fight over who will take the wheel from Mr. Chin.\n\nPlans have been set to make this play out in a way that benefits the OFN. We will inflame the ideological differences and uncertainty every chance we can get. Then, when the Malay politicians are fully engaged in cringe-inducing slap-fights, and the people are all bemused, confused, or at a loss, we will help them understand that Mr. Razak is the only reasonable candidate for the next leader of Malaysia. A post-revolutionary government needs a steady hand to keep it from collapsing, and Mr. Razak, being relatively level-minded and agreeable, will be perfectly placed to provide that."
+ USA_CIA_MLY.1.a:0 "It is for their own good, really."
+
+ USA_CIA_MLY.2.t:0 "Making the Decision Easier"
+ USA_CIA_MLY.2.desc:0 "The Malayan people were not enthusiastic to waste their time listening to campaigns and fill out ballots. They barely understood what all the squabbling was in aid of, and wanted it to stop once and for all. Ismail bin Hussein, mayor of the city of Jelutong in Penang, knew that all too well. It was the reason why in Penang, as in every other region of Malaya, the electorate had been shrunk down to not more than a hundred people. The decision of who would lead the first postwar government went to representatives of each city, town, and district, rather than bothering with a full-on election.\n\nThis was also the reason why another obnoxious campaign letter from another candidate was sitting on Ismail's desk. This time it seemed to be from that one moderate character, Razak Hassan bin Tunku Dato' Abdul or whatever his name was. As usual, it was the same old political boilerplate: "vote for moderation and compromise", "vote for a sane hand at the tiller", "vote for a good future for the bumiputera", "influence your like-minded allies". Blah, blah, blah! What nonsense. Everyone knew how the boilerplate went by now. Ismail was about to throw the letter away when he noticed how unusually heavy it was. Then he saw a fairly thick envelope attached to the bottom of it.\n\nIn the envelope - much to Muhammad's glee - there was a large quantity of cash marked "donation". American cash. With the yen being removed from the Malayan economy faster than one could say "yang amat berhormat", large amounts of solid, reliable US dollars were a very big incentive for anyone in their right mind to support... What was his name again?\n...Oh, yes, Tun Abdul Razak bin Dato' Hussein.\n\nThe next day, Mayor Ismail bin Hussein of Jelutong publicly declared his endorsement for Tun Abdul Razak, and even started referring to himself in public as "a Tun man"."
+ USA_CIA_MLY.2.a:0 "The drug called payola is quite effective."
+
+ USA_CIA_MLY.3.t:0 "A Meeting of Leaders"
+ USA_CIA_MLY.3.desc:0 "Ahmad Boestamam was disappointed. He was disappointed that Malaya had refused to put his trust in him after the departure of Chin Peng and that people had become disillusioned with him and Chin's style of leadership. It also cut him to the quick that only the most loyal, ideologically stubborn members of the old guard of the UMAJF had remained with him, while all the moderate and conservative-come-latelys had gone over to Abdul Razak Hussein.\n\nHe said all that to Razak, whose response was simple and surprisingly sympathetic.\n"I can understand that, Ahmad. Had I been in your shoes I'm fairly sure I'd have the same attitude. Is there anything that you want me to keep in mind?"\n\nAhmad nodded. "I do. Now let's be very clear here, Razak. I don't hate you, and I'm not particularly angry. I know that you and I share one all-important goal, despite our differences. You, I, Malayans all, we want the pain to go away. We want the Japanese legacy scrubbed out. We want the trauma and pain to follow them into the sunset. In that you've got my good wishes and whatever support I can give without selling out my own beliefs and objectives."\n\nRazak indicated his agreement as Ahmad continued.\n\n"But there's one thing I'm deeply concerned about, Razak. I've heard strange rumors about the Americans intervening on your behalf in the election; Allah alone knows the reason. I don't hold this against you, far from it; you and I both know how hard it is to understand the logic of those Yankees. But I have to ask one thing of you. Please, Razak, don't trade one puppetmaster for another. Keep Malaysia free. Don't let the Americans do to us what the Japanese scum did."\n\nRazak nodded. "I'll keep that in mind, Ahmad. Thank you for everything.""
+ USA_CIA_MLY.3.a:0 "With that, the two parted as friends."
+
+ USA_CIA_MLY.4.t:0 "One Generation Meets Another"
+ USA_CIA_MLY.4.desc:0 "In the darkness of a shore somewhere in the south of the Philippine archipelago, the comparative peace of the tropical ecosystem was disrupted by the presence of a fairly large vessel landing on the beach. On it there was a CIA agent, Tony Poe by name, with a small escort of various regular infantrymen picked for their silence and discretion, joined by a young officer from the airborne troops named Roger Donlon, who was carrying a sniper rifle for the time being.\n\nPoe, Donlon, and company were looking with suspicion at a lantern shining from the darkness. Poe was doubtful. "This can't be the guy we're looking for. Looks like some random idiot wandering, or worse yet some kind of informant. "The sergeant of the infantrymen nodded his agreement. "We can open fire, Agent Poe, if you give the order."\n\nPoe nodded. As he was about to give the order, Donlon put a hand on his shoulder to stop him. "No, don't do that, Agent Poe. Look through the binoculars. You'll see it's one of ours - the USFIPs to be exact."\n\nPoe nodded and looked through and was shocked at what he saw. A worn but unbroken face, with eyes still bright, attached to a man in well-maintained but very clearly old-model uniform from the Second World War. "You're right, Donlon, it's one of ours. At ease, soldiers. We've met friends."\n\nAs the troopers lowered their arms, Donlon and Poe cautiously walked to the man holding the lantern. The man seemed to be repressing strong emotion at the sight of the Americans. When they reached him and shook hands, the man, who ID'd himself as Colonel Russell W. Volckmann, a close collaborator of Colonel Fertig, said, with admirable steadiness, "On behalf of the Colonel, welcome to the Philippines, gentlemen.""
+ USA_CIA_MLY.4.a:0 "At that point, Colonel Volckmann broke down in tears."
+
+ USA_CIA_MLY.5.t:0 "A Chat Between Fishermen"
+ USA_CIA_MLY.5.desc:0 "In a busy fishing market in the city of Bengkulu, a pair of fishermen were having a chat. To everyone else, it seemed like they were talking partitioning out the day's haul.\n\n"So this amount of fish over there, eh?"\n\n"Yes, those fish there, and perhaps some others in another place, and maybe the leftovers in that house over there."\n\nThis was nothing abnormal to the people of Bengkulu; fishermen on joint ventures split their takings all the time. Sometimes they got into cringe-inducing slap fights over the matter that attracted eclectic crowds of amused onlookers ranging from the imam and the muezzin to the harbormaster and the librarian. The local policemen had to be shaken awake and often showed up thirty seconds after everything had calmed down.\n\nNo wonder, then, that nobody wised up to what was actually being discussed. In fact, this "chat" was a preplanned secret communication between a CIA agent and a contact operating on behalf of the Indonesian resistance. If one looked really closely, they would be able to tell that the two were rather suspicious of each other's intentions.\n\n"Yeah, it's a deal."\n\nFortunately for the free world, though, that suspicion didn't stand in the way of the deal."
+ USA_CIA_MLY.5.a:0 "We'll send the fish where you want them, pronto."
+ TNO_CIA_Supply_Lines_tt:0 "The CIA will help §YTun Abdul Razak's election chances§!."
+
+ USA_CIA_MLY.6.t:0 "INCOMING TELEGRAM Department of State"
+ USA_CIA_MLY.6.desc:0 "FROM: AMEMBASSY SINGAPORE\nTO: D/CIA, SECSTATE\n\nEYES ONLY D/CIA, SECSTATE\n\nIN THE AFTERMATH OF THE VICTORY OF THE UMAJF, THE STRATEGIC UTILITY OF MALAYA CANNOT BE UNDERESTIMATED, AND THE CIA AND STATE DEPARTMENT HAVE THEREFORE ATTEMPTED TO LEVERAGE THAT. RECENTLY, MAKING USE OF OUR CONTACTS WITH POLITICIANS AND MEMBERS OF THE RULING PARTY OF MALAYA, OUR AGENTS HAVE MANAGED TO TIE TOGETHER THE LAST STRINGS OF OPERATION DOMINO. THE AIM OF THIS OPERATION IS TO USE MALAYA AS A STEPPING STONE TO TEAR THE WHOLE OF SOUTHEAST ASIA SPHERE OUT OF THE CONTROL OUT OF THE CO-PROSPERITY SPHERE. WE HAVE IDENTIFIED MULTIPLE AREAS, IN PARTICULAR THE RECENTLY INCREASINGLY UNSTABLE INDONESIAN STATE, WHICH WE CAN TARGET IN SERVICE OF THIS GOAL.\n\nDUE TO THE ENTHUSIASM OF THE MALAYAN SUPPORT FOR OUR WORK, AND ALSO BECAUSE OF THE GREAT EFFORT OUR AGENTS AND THEIR CONTACTS HAVE PUT IN, I AM PLEASED TO STATE THAT OPERATION DOMINO IS READY TO BE EXECUTED. I AWAIT D/CIA AND SECSTATE'S ORDERS TO PROCEED WITH THIS PLAN.\n\nBELL"
+ USA_CIA_MLY.6.a:0 "I think we can proceed then."
 
 
 ###################
@@ -894,7 +938,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 ###################
 
  USA_ICW_CIA_fri_buff:0 "CIA 작전 지원"
- USA_ICW_CIA_fri_debuff:0 "외국의 사보타주"
+ USA_ICW_CIA_ins_debuff:0 "외국의 사보타주"
 
 # Russia
  RUS_Unification_WSR_Intel:0 "적 정보"
@@ -904,6 +948,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  RUS_Unification_RWS_Intel:0 "적 정보"
  RUS_Unification_SIB_Intel:0 "적 정보"
  RUS_Unification_Sabotage_Victim:0 "사보타주된 보급선"
+ RUS_Unification_Troops_Drilled:0 "Troops Drilled"
 
 
 
@@ -973,8 +1018,8 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 
 # Explanatory note: This event's effect depends on the idea that the civil service can use it's influence behind the back to boost or reduce the popularities of ministers
  USA_CIA_UK.31.t:0 "A Conversation in the Foreign Office"
- USA_CIA_UK.31.desc:0 " The Minister of the Crown, the Secretary for Foreign Affairs St John-Stevas was sitting at his desk, staring intensely at a piece of paper in front of him. He lifted his eyes, and he saw his principal private secretary Pritchard enter the room.\n\n"Good Morning, Minister," said the secretary.\n\n"Two weeks ago I asked you to report about the rumors of CIA interference in the Civil Service. This report is totally unintelligible and doesn't answer the question," responded John-Stevas\n\n"Well Minister, we would be happy to redraft it for you."\n\n"And it would still would not answer my question. Will you give me a straight answer to a straight question? Are there agents of the CIA in the Civil Service?"\n\n"Well Minister, if you ask me for a straight answer, then I shall say that looking at it by and large, taking one thing with another in terms of the average of departments, then in the final analysis it is probably true to say, in general terms, you would probably find that there probably wasn't very much in it one way or the other. "\n\n"So no?"\n\n"No, Minister."\n\n"That's a relief. On other matters, do you have that statement to the press about the meeting in Washington?""
- USA_CIA_UK.31.a:0 "Yes, Minister"
+ USA_CIA_UK.31.desc:0 " The Minister of the Crown, the Secretary for Foreign Affairs St John-Stevas was sitting at his desk, staring intensely at a piece of paper in front of him. He lifted his eyes, and he saw his principal private secretary Pritchard enter the room.\n\n"Good Morning, Minister," said the secretary.\n\n"Two weeks ago I asked you to report about the rumors of CIA interference in the Civil Service. This report is totally unintelligible and doesn't answer the question," responded John-Stevas.\n\n"Well Minister, we would be happy to redraft it for you."\n\n"And it would still would not answer my question. Will you give me a straight answer to a straight question? Are there agents of the CIA in the Civil Service?"\n\n"Well Minister, if you ask me for a straight answer, then I shall say that looking at it by and large, taking one thing with another in terms of the average of departments, then in the final analysis it is probably true to say, in general terms, you would probably find that there probably wasn't very much in it one way or the other. "\n\n"So no?"\n\n"No, Minister."\n\n"That's a relief. On other matters, do you have that statement to the press about the meeting in Washington?""
+ USA_CIA_UK.31.a:0 "Yes, Minister."
 
  USA_CIA_UK.32.t:0 "작전명 위그노"
  USA_CIA_UK.32.desc:0 "밥캣이 이글즈 네스트에게\n\n제롬 헤드런드 기자와 접촉하여 작가들의 싱크탱크가 제공한 기사를 실을 수 있도록 유도함. 이민자 "마르셀린 부비에"가 영국인들과 물의를 일으킨다는 내용임. 그녀의 위조 신원이 밝혀지지 않도록 적절한 조치를 취했음. 위조한 신상은 다른 기자들이 유사한 기사/이민자/가족 비극을 찾고 출판하도록 고무하는 효과를 주었음.\n\n이녹 파월과 애국자계열이 프랑스 개신교 신자들의 영국 입국을 거부한 것에 대한 비난 여론이 생성됨. 애국자계열의 인기도기 역대 최저치를 기록함.\n\n제롬 헤드런드가 의도치 않게 "진짜" 마르셀린 부비에를 찾기 위해 '대본'을 벗어남. 그를 제거하기 위해 조치를 취함. 헤드런드는 더이상 '장면'에 등장하지 못함.\n\n상황 전개에 따라 계속 보고하겠음."
@@ -997,7 +1042,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_UK.40.a:0 "이글즈 네스트가 밥캣에게: 교과서적이다!"
 
  USA_CIA_UK.41.t:0 "The German Connection"
- USA_CIA_UK.41.desc:0 "BBC--BREAKING NEWS At 11:57 this morning, agents of MI5, in cooperation with the London Metropolitan Police, arrested five Members of Parliament and charged them with corruption. The details of the crime are as follows: that these men knowingly, without undue pressure or coercion, accepted bribes from persons known to be affiliated with the German State. Matthew Whelan, Horace Fuller, Frederick Price, Harold St. John, and Lewis Weaver were strong advocates of a reconstruction effort that would rebuild a portion of London's sewer system that collapsed during the war. During a session in Parliament last month, they abruptly changed their votes and reclassified the motion as a waste of time and resources. Later, London Police were approached by an individual (whose name has not been disclosed to the BBC) who informed them that these MPs had taken a bribe from an agent of Germany enticing them to prevent the reconstruction effort from succeeding. The informant provided photographic evidence of several meetings between the MPs in question and a party MI5 has identified as a known espionage agent. An arraignment date has not yet been set, and it is not expected the MPs will be tried individually. The BBC made an attempt to interview the informant who broke the story but MI5, we are told, has lost track of this person. While the information this informant provided has been verified, questions are now being raised as to whether the informant themselves might be an agent of a foreign power.\n\nIn any case, the quick ousting of the corrupt MPs has garnered a wave of support for the government, bolstered further by the fact that investigations into a number of other Members of Parliament have been announced."
+ USA_CIA_UK.41.desc:0 "EBC--BREAKING NEWS At 11:57 this morning, agents of MI5, in cooperation with the London Metropolitan Police, arrested five Members of Parliament and charged them with corruption. The details of the crime are as follows: that these men knowingly, without undue pressure or coercion, accepted bribes from persons known to be affiliated with the German State. Matthew Whelan, Horace Fuller, Frederick Price, Harold St. John, and Lewis Weaver were strong advocates of a reconstruction effort that would rebuild a portion of London's sewer system that collapsed during the war. During a session in Parliament last month, they abruptly changed their votes and reclassified the motion as a waste of time and resources. Later, London Police were approached by an individual (whose name has not been disclosed to the EBC) who informed them that these MPs had taken a bribe from an agent of Germany enticing them to prevent the reconstruction effort from succeeding. The informant provided photographic evidence of several meetings between the MPs in question and a party MI5 has identified as a known espionage agent. An arraignment date has not yet been set, and it is not expected the MPs will be tried individually. The EBC made an attempt to interview the informant who broke the story but MI5, we are told, has lost track of this person. While the information this informant provided has been verified, questions are now being raised as to whether the informant themselves might be an agent of a foreign power.\n\nIn any case, the quick ousting of the corrupt MPs has garnered a wave of support for the government, bolstered further by the fact that investigations into a number of other Members of Parliament have been announced."
  USA_CIA_UK.41.a:0 "A clean house."
 
  USA_CIA_UK.42.t:0 "작전명 콘로우"
@@ -1043,3 +1088,4 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_UK.101.t:0 "An Untimely Defection"
  USA_CIA_UK.101.desc:0 " "You're backing LeMass?" Tom McShane was frankly at a loss for words. For weeks, O'Connelly had agreed that Ireland needed to be truly independent. Subservience to the Americans was just as bad as to the Germans, and the economic collapse had shown just how bad indeed that had been. He had been one of the votes McShane was most certain of. But now, in McShane's office, he seemed to have changed his tune.\n\n"I've taken a closer look at what the United States have done for Canada and Australia." O'Connelly remarked, fidgeting with his shiny new watch as if he was entirely too anxious for the meeting to be over. He leaned in, his voice quieter. "Listen, Tommy. It's better the Yanks than the Germans or the Brits, and without someone keeping us afloat, it'll be the Germans or Brits who scoop us back up. We might as well try something new, eh?"\n\nWhen no immediate response was given, O'Connelly clapped the stunned McShane on the back and briskly fled the office. He mumbled something about how he needed to meet the missus for dinner, but McShane was barely paying attention. O'Connelly was only the most recent in a long line of defections to LeMass, and not a single one could be explained. Had McShane missed something?\n\nAs he remained quietly in thought, a noise floated through the open window. O'Connelly was starting his car, preparing to go home for the day. As McShane watched the older man struggle with his keys, a thought struck him. Hadn't that car been red just the other day?"
  USA_CIA_UK.101.a:0 "Something suspicious is going on here..."
+ IRE_CIA_bonus:0 "We will receive the following §Gbonuses§! if we choose to side with §MOFN§! in the future:"
