@@ -42,19 +42,19 @@
  GER_BOR_political_rodeo_idea_desc:0 "§FStability from our level of §YControl§!:§! [?BOR_SIGDynMod_Values^12|=+%2]\n§g--------------§!\nThe Third Reich's politics are a labyrinthine mess - the legacy of Hitler's constant playing off of various factions and individuals against one another. Anyone with even a modicum of power is convinced that they, and they alone, know what is best for Germany. As a result, the various demographics and interest groups within the Reich can never be relied upon to support each other, only the Führer. In order to bind the fractured Reich back together, he will have to court or coerce each and every one of these dissident factions, bringing them back into line under the Führerprinzip. Should he fail, the Reich is sure to enter a state of stagnation, decline and ultimately collapse. Only a will of iron, ruthless intrigue and the velvet glove can save National Socialism.\n§g--------------§!\n§WOur relations with the various §DSpecial Interest Groups§! within the Reich grants us:§!\n\n§F§YBureaucracy§! - [BOR_GetSIGEffects_0]\n§YPeople§! - [BOR_GetSIGEffects_1]\n§YIntelligentsia§! - [BOR_GetSIGEffects_2]\n§YChurch§! - [BOR_GetSIGEffects_3]\n§YHeer§! - [BOR_GetSIGEffects_4]\n§YKriegsmarine§! - [BOR_GetSIGEffects_5]\n§YOrpo§! - [BOR_GetSIGEffects_6]\n§YReichswerke§! - [BOR_GetSIGEffects_7]\n§YIG Farben§! - [BOR_GetSIGEffects_8]\n§YSiemens§! - [BOR_GetSIGEffects_9]\n§YSlave Plantations§! - [BOR_GetSIGEffects_10]\n§YBanks§! - [BOR_GetSIGEffects_11]§!"
  GER_BOR_political_rodeo_dynamic_modifier:0 "The Political Rodeo"
 
- BOR_SIGEffects_0:0 "Party Popularity Stability: [?BOR_SIGDynMod_Values^Party_Bureaucracy|=+%2]"
- BOR_SIGEffects_1:0 "Political Power Gain: [?BOR_SIGDynMod_Values^People|=+%0]"
- BOR_SIGEffects_2:0 "Research Speed: [?BOR_SIGDynMod_Values^Intelligentsia|=+%2]"
- BOR_SIGEffects_3:0 "Ideology drift defense: [?BOR_SIGDynMod_Values^Church|=+%1]"
- BOR_SIGEffects_4:0 "Daily Command Power Gain Multiplier: [?BOR_SIGDynMod_Values^Heer|=+%0]"
- BOR_SIGEffects_5:0 "Naval Experience Gain: [?BOR_SIGDynMod_Values^Kriegsmarine|=+%1]"
- BOR_SIGEffects_6:0 "Decryption: [?BOR_SIGDynMod_Values^Orpo|=+%2]"
- BOR_SIGEffects_7:0 "Factory Output: [?BOR_SIGDynMod_Values^ZIndustry|=+%2]"
- BOR_SIGEffects_8:0 "Synthetic Oil: [?BOR_SIGDynMod_Values^RIndustry|=+%2]"
- BOR_SIGEffects_9:0 "£prod_eff Production Efficiency growth: [?BOR_SIGDynMod_Values^SIndustry|=+%2]"
- BOR_SIGEffects_10:0 "Construction Speed: [?BOR_SIGDynMod_Values^Plantations|=+%2]"
+ BOR_SIGEffects_0:0 "정당 지지도 안정성: [?BOR_SIGDynMod_Values^Party_Bureaucracy|=+%2]"
+ BOR_SIGEffects_1:0 "일일 정치력 증가량: [?BOR_SIGDynMod_Values^People|=+%0]"
+ BOR_SIGEffects_2:0 "연구 속도: [?BOR_SIGDynMod_Values^Intelligentsia|=+%2]"
+ BOR_SIGEffects_3:0 "이념 변화 방어: [?BOR_SIGDynMod_Values^Church|=+%1]"
+ BOR_SIGEffects_4:0 "일일 지휘력 증가량 변화 요소: [?BOR_SIGDynMod_Values^Heer|=+%0]"
+ BOR_SIGEffects_5:0 "해군 경험치 증가: [?BOR_SIGDynMod_Values^Kriegsmarine|=+%1]"
+ BOR_SIGEffects_6:0 "암호 해독: [?BOR_SIGDynMod_Values^Orpo|=+%2]"
+ BOR_SIGEffects_7:0 "공장 생산량: [?BOR_SIGDynMod_Values^ZIndustry|=+%2]"
+ BOR_SIGEffects_8:0 "합성석유: [?BOR_SIGDynMod_Values^RIndustry|=+%2]"
+ BOR_SIGEffects_9:0 "£prod_eff 생산 효율성 증가: [?BOR_SIGDynMod_Values^SIndustry|=+%2]"
+ BOR_SIGEffects_10:0 "건설 속도: [?BOR_SIGDynMod_Values^Plantations|=+%2]"
  BOR_SIGEffects_11:0 "Excise Taxes: [?BOR_SIGDynMod_Values^Banks|=Y%0]"
- BOR_SIGEffects_Dismantled:0 "§e(DISMANTLED)§!"
+ BOR_SIGEffects_Dismantled:0 "§e(해산됨)§!"
 
  #Starter tree
  GER_BOR_shellshocked_wehrmacht_dynamic_modifier: "전투 피로증을 겪는 국방군"
@@ -151,8 +151,8 @@
  #Moskowien diplo
  BOR_moskowien_reconstruction: "모스코비엔"
  BOR_moskowien_reconstruction_desc: "The war to reconquer Moskowien is over, and the Reichskommissariat is once again under full German control. Now, a comprehensive effort has been undertaken to rebuild the region and ensure it can become a productive province of the larger Reich: large funds are being destined to reconstruct cities, factories and key infrastructures destroyed by the belligerents."
- BOR_MCW_russian_dissidence:0 "Russian Dissidence러시아인 반대파"
- BOR_MCW_russian_dissidence_desc:0 "The native Russians in Moskowien are fomenting dissent and rebellion in the Reichskommissariat. Whether their grievances are justified, or they are merely trying to secede once more from the Reich, this is disturbing ordinary life as protests and terrorist attacks cause delays in public works and victims among the security forces: if decisive actions are not undertaken, the protest will only continue, and may even grow."
+ BOR_MCW_russian_dissidence:0 "러시아인 반대파"
+ BOR_MCW_russian_dissidence_desc:0 "러시아 현지인들이 국가판무관부에서 분열과 반란을 조장하고 있습니다. 그들의 불만이 정당화되든 라이히로부터 독립하려고 하든 이 시위와 테러 공격은은 공공사업을 지연시키고 보안부대에 타격을 주고 있습니다. 과감한 행동을 하지 않는다면 저항은 계속 일어나거나 심지어 커질 것입니다."
  
  #Italy diplo
  BOR_ITA_ever_vigilant_watch: "조심히 지켜보기"
@@ -171,12 +171,12 @@
  GER_BOR_sphere_megacorp_presence_1:0 "독일 기업의 존재" 
  GER_BOR_sphere_megacorp_presence_1_desc:0 "독일-일본 관계가 완화되자 양 초강대국간의 무역이 재개되었습니다. 광동성의 컴퓨터 제조업체들은 이 지역에 독자적인 발판을 마련한 지멘스 AG에게 새로운 경쟁의 대상이 되고 있습니다., 만주산 석탄과 철은 라이히스베르케의 라인란트산 자원과 가격 경쟁을 하고 있습니다. 일본 화학산업은 유럽 시장을 장악한 IG 파르벤의 진출로 생긴 경쟁으로 인해 생기가 돌고 있고, 자동차 산업의 선두인 미쓰비시는 일본 시장에 진출한 다임러-벤츠에게 자리를 위협받고 있습니다. 규모의 경제로 얻은 독점은 자이바츠들이 그랬던 것처럼 라이히의 거대기업들에게도 적용되었고, 경쟁은 경제 전쟁 이후로 공영권에서 찾아볼 수 없었던 혁신과 이익을 가져왔습니다." 
 
- GER_BOR_anti_sphere:0 "Anti-Sphere Vanguard"
- GER_BOR_anti_sphere_1_desc:0 "The Japanese "Co-Prosperity Sphere" is a clear product of cognitive dissonance, the unrestrained bullying of weaker nations, and an extension of Japanese imperialism across the Asian continents. This hypocrisy is fortunately understood by none other than the former ally of the Japanese, the Greater Germanic Reich.\n\nThrough their generous spending and efforts to coordinate this anti-imperialism, South Asia, and perhaps later beyond, can rest easy knowing that they stand with the vanguard against Japan's "Co-Prosperity Sphere" at their back."
- GER_BOR_anti_sphere_2_desc:0 "The Japanese "Co-Prosperity Sphere" is a clear product of cognitive dissonance, the unrestrained bullying of weaker nations, and an extension of Japanese imperialism across the Asian continents. This hypocrisy is fortunately understood by none other than the former ally of the Japanese, the Greater Germanic Reich.\n\nThrough their generous spending and efforts to coordinate this anti-imperialism, South Asia, and perhaps later beyond, can rest easy knowing that they stand with the vanguard against Japan's "Co-Prosperity Sphere" at their back."
- GER_BOR_anti_sphere_3_desc:0 "The Japanese "Co-Prosperity Sphere" is a clear product of cognitive dissonance, the unrestrained bullying of weaker nations, and an extension of Japanese imperialism across the Asian continents. This hypocrisy is fortunately understood by none other than the former ally of the Japanese, the Greater Germanic Reich.\n\nThrough their generous spending and efforts to coordinate this anti-imperialism, South Asia, and perhaps later beyond, can rest easy knowing that they stand with the vanguard against Japan's "Co-Prosperity Sphere" at their back."
- GER_BOR_anti_sphere_4_desc:0 "The Japanese "Co-Prosperity Sphere" is a clear product of cognitive dissonance, the unrestrained bullying of weaker nations, and an extension of Japanese imperialism across the Asian continents. This hypocrisy is fortunately understood by none other than the former ally of the Japanese, the Greater Germanic Reich.\n\nThrough their generous spending and efforts to coordinate this anti-imperialism, South Asia, and perhaps later beyond, can rest easy knowing that they stand with the vanguard against Japan's "Co-Prosperity Sphere" at their back."
- GER_BOR_anti_sphere_5_desc:0 "The Japanese "Co-Prosperity Sphere" is a clear product of cognitive dissonance, the unrestrained bullying of weaker nations, and an extension of Japanese imperialism across the Asian continents. This hypocrisy is fortunately understood by none other than the former ally of the Japanese, the Greater Germanic Reich.\n\nThrough their generous spending and efforts to coordinate this anti-imperialism, South Asia, and perhaps later beyond, can rest easy knowing that they stand with the vanguard against Japan's "Co-Prosperity Sphere" at their back."
+ GER_BOR_anti_sphere:0 "공영권에 맞서는 선봉"
+ GER_BOR_anti_sphere_1_desc:0 "일본의 ‘공영권’은 누구나 알 수 있는 불화의 산물입니다. 더 약한 국가를 괴롭히고 아시아 대륙에 뻗친 일본 제국주의의 연장입니다. 다행히도 이 위선을 다름아닌 일본의 전 동맹국 대독일제국이 알아차렸습니다.\n\n그들의 자비로운 지출과 반제국주의와 화합하려는 노력 덕분에 남아시아, 그리고 어쩌면 나중에 나머지 국가들도 일본의 ‘공영권’에 맞서는 선봉을 뒤에 두고 있다는 것을 쉽게 알 수 있을 것입니다."
+ GER_BOR_anti_sphere_2_desc:0 "일본의 ‘공영권’은 누구나 알 수 있는 불화의 산물입니다. 더 약한 국가를 괴롭히고 아시아 대륙에 뻗친 일본 제국주의의 연장입니다. 다행히도 이 위선을 다름아닌 일본의 전 동맹국 대독일제국이 알아차렸습니다.\n\n그들의 자비로운 지출과 반제국주의와 화합하려는 노력 덕분에 남아시아, 그리고 어쩌면 나중에 나머지 국가들도 일본의 ‘공영권’에 맞서는 선봉을 뒤에 두고 있다는 것을 쉽게 알 수 있을 것입니다."
+ GER_BOR_anti_sphere_3_desc:0 "일본의 ‘공영권’은 누구나 알 수 있는 불화의 산물입니다. 더 약한 국가를 괴롭히고 아시아 대륙에 뻗친 일본 제국주의의 연장입니다. 다행히도 이 위선을 다름아닌 일본의 전 동맹국 대독일제국이 알아차렸습니다.\n\n그들의 자비로운 지출과 반제국주의와 화합하려는 노력 덕분에 남아시아, 그리고 어쩌면 나중에 나머지 국가들도 일본의 ‘공영권’에 맞서는 선봉을 뒤에 두고 있다는 것을 쉽게 알 수 있을 것입니다."
+ GER_BOR_anti_sphere_4_desc:0 "일본의 ‘공영권’은 누구나 알 수 있는 불화의 산물입니다. 더 약한 국가를 괴롭히고 아시아 대륙에 뻗친 일본 제국주의의 연장입니다. 다행히도 이 위선을 다름아닌 일본의 전 동맹국 대독일제국이 알아차렸습니다.\n\n그들의 자비로운 지출과 반제국주의와 화합하려는 노력 덕분에 남아시아, 그리고 어쩌면 나중에 나머지 국가들도 일본의 ‘공영권’에 맞서는 선봉을 뒤에 두고 있다는 것을 쉽게 알 수 있을 것입니다."
+ GER_BOR_anti_sphere_5_desc:0 "일본의 ‘공영권’은 누구나 알 수 있는 불화의 산물입니다. 더 약한 국가를 괴롭히고 아시아 대륙에 뻗친 일본 제국주의의 연장입니다. 다행히도 이 위선을 다름아닌 일본의 전 동맹국 대독일제국이 알아차렸습니다.\n\n그들의 자비로운 지출과 반제국주의와 화합하려는 노력 덕분에 남아시아, 그리고 어쩌면 나중에 나머지 국가들도 일본의 ‘공영권’에 맞서는 선봉을 뒤에 두고 있다는 것을 쉽게 알 수 있을 것입니다."
 
  #Oil Crisis
  GER_Bormann_OC_bombing_runs:0 "독일 테러 폭격"
@@ -184,9 +184,9 @@
  GER_Bormann_OC_bombing_runs_intensified:0 "Intensified German Bombing"
  GER_Bormann_OC_orpo_sabotage:0 "질서경찰의 사보타주"
  GER_Bormann_OC_orpo_sabotage_desc:0 "The German intelligence is operating in our country! Despite our efforts, we can't stop the enemy from conducting operations throughout the country, sabotaging strategic assets and spying on our military forces."
- GER_Bormann_OC_wehrmacht_advisors:0 "Wehrmacht Advisors"
+ GER_Bormann_OC_wehrmacht_advisors:0 "국방군 군사조언가"
  GER_Bormann_OC_wehrmacht_advisors_desc:0 "Germany has sent military advisors to help us improve our armed forces. Under their guidance, we'll improve both training procedures and tactics, dramatically improving overall efficiency of our war effort."
- GER_Bormann_OC_german_technicians:0 "German Industrial Support"
+ GER_Bormann_OC_german_technicians:0 "독일의 산업 지원"
  GER_Bormann_OC_german_technicians_desc:0 "The Reich has sent engineers and technicians to help us increase our production rates. With modern machinery already in place, and the experts training new skilled workforce among our own laborers, we'll soon be able to better supply our army!"
  GER_Bormann_OC_heat_of_the_desert:0 "사막의 열기"
  GER_Bormann_OC_heat_of_the_desert_desc:0 "중동은 싸우기 힘든 지역입니다. 햇빛이 내리쬐고,건조한 산과 항상 뜨거운 공기 속에서 우리 병사들이 죽지 않고 싸우려면 특별한 훈련과 장비가 필요할 겁니다."
@@ -206,10 +206,10 @@
  GER_BOR_Econ_RK_idea:0 "그로스라움 콘티넨탈오이로파" # Reichskommissariat idea
  GER_BOR_Econ_RK_idea_desc:0 "§F일일 정치력 증가량: [?BOR_Econ_RK_political_power_gain|=+]\n안정도: [?BOR_Econ_RK_stability_factor|=%+2]\nResources to Market: [?BOR_Econ_RK_min_export|=%Y0]\n자원 추출 효율성: [?BOR_Econ_RK_local_resources_factor|=%+2]\n공장 생산량: [?BOR_Econ_RK_industrial_capacity_factory|=%+2]\n건설 속도: [?BOR_Econ_RK_production_speed_buildings_factor|=%+2]\nGDP to Sphere Leader: [?BOR_Econ_RK_GDP_to_sphere_leader_modifier|=%Y2]§!\n§g--------------§!\n그로스라움 콘티넨탈오이로파는 자급자족을 달성하고 퇴폐적인 노예화를 단계적으로 폐지하며, 국가판무관부들을 우리의 뜻에 따라 제어하기 위해 라이히가 세운 계획입니다."
 
- GER_BOR_Ausgrenzung_idea:0 "Ausgrenzungsprogramm"
+ GER_BOR_Ausgrenzung_idea:0 "노예 배제 프로그램"
  GER_BOR_Ausgrenzung_idea_desc:0 "§FDaily Political Power Gain: [?BOR_Ausgrenzung_political_power_gain|=+]\nGDP Growth: §G+[?BOR_Ausgrenzung_gdp_growth_modifier|2]%§!\nIndustrial Equipment Monthly Change: [?BOR_Ausgrenzung_industrial_equipment_monthly_rate|+=2]\nIndustrial Expertise Monthly Change: [?BOR_Ausgrenzung_industrial_expertise_monthly_rate|+=2]\nMiscellaneous Costs: §Y[?BOR_AusgrenzungCost_Display|2]B USD§!§!\n§g--------------§!\nIn accordance with a recent declaration by Martin Bormann, the slaves formerly held in concentration camps throughout the Nazi empire will now be turned into 'free' laborers and redeployed to wherever they are needed for the various major infrastructure projects. Separated work camps will be set up and turned into full-fledged settlements after the completion of the projects for which they were established.\n\nNeedless to say, the needs of the Reich's infrastructure projects come well ahead of concerns of "ethnic harmony". To the Reich Government it matters not whether we end up deploying Poles in Moskowien or Ukrainians in Estonia. Ethnic and social conflicts are of no relevance to the Reich, so long as the projects get done."
  
- GER_BOR_Breitspurbahn_idea:0 "Breitspurbahn"
+ GER_BOR_Breitspurbahn_idea:0 "광궤철도"
  GER_BOR_Breitspurbahn_idea_desc:0 "§FDaily Political Power Gain: [?BOR_Breitspurbahn_political_power_gain|=+]\nProduction Units Cost: [?BOR_BreitspurbahnInvestment|+=0] £tt_prod_unit.\nMiscellaneous Costs: §Y[?BOR_BreitspurbahnCost|2]B USD§!§!\n§g--------------§!\nThe Breitspurbahn (Broad-Gauge Railway) was a planned broad-gauge railway, initially proposed by Adolf Hitler. It was supposed to run with double-deck coaches between major cities of Greater Germany and various neighboring states. Our Führer Martin Bormann has decreed that the original project will now be massively expanded upon: rather than settling for a single nation-scale U-Bahn, he will connect the whole of the German empire into a single, efficient and wide transportation network (through both railways and Autobahns, but with an emphasis on the former)."
  
  #Econ I ideas
@@ -332,10 +332,10 @@
  GER_BOR_ukrainian_self_rule_tooltip:0 "§우크라이나인들이 팍트로 돌아오는 것에 동의했으니, 우리는 합작 정부가 이끄는 '자유로운' 우크라이나 정부를 설립할 것입니다.§!\n"
  
  UKR_Bormann_fascism_party_name:0 "UKNR"
- UKR_Bormann_fascism_party_name_long:0 "Ukrainischer Nationalrat"
+ UKR_Bormann_fascism_party_name_long:0 "우크라이나 국민의회"
 
  #Moskowien diplo trees
- BGR_Moskowien_Setup_tt:0 "§YMoskowien will be put under new administration.§!"
+ BGR_Moskowien_Setup_tt:0 "§Y모스코비엔에 새 행정부가 들어설 것입니다.§!"
  GER_BOR_set_up_moskowien_tt: "모스코비엔은 복구를 위해 임시적으로 군사 정부의 통치를 받게 될 것입니다."
 
  #Kaukasien diplo trees
@@ -381,7 +381,7 @@
  BOR_JAP_mauritius_reunion_nukes_tt:0 "§RWe will begin to station §Ynuclear weapons§! at our territories in Mauritius and Réunion.§!\n\n"
  BOR_JAP_spy_increase_tt:0 "§Y동아시아와 동남아시아에서의 국가안전부정찰총국 작전이 성공할 확률이 증가할 것입니다.§!"
  
- BOR_built_up_mauritius_and_reunion:0 "We have finished the military buildup of Mauritius and Réunion"
+ BOR_built_up_mauritius_and_reunion:0 "모리셔스와 레위니옹의 군사기지 설치를 완료했습니다."
 
  GER_diplomatic_mission:0 "Diplomatic mission"
  GER_IND_anti_japanese_rethoric:0 "Anti-Japanese rhetoric"
@@ -401,14 +401,14 @@
  #Econ I tree
  BOR_ECON_ONE_as_long_as_theyre_useful: "우리는 §B그로스라움§!의 우리의 통제를 공고히 할 것입니다."
  BOR_ECON_ONE_reaping_the_reward: "계획이 결실을 맺고 있습니다. §Y경제 성장률이 0.2% 증가합니다.§!.\n\n"
- BOR_ECON_ONE_our_eternal_hegemony: "Unlocks decisions to tie the economies of §BGroßraum§! members to our own §Rensuring they never escape our grip§!."
+ BOR_ECON_ONE_our_eternal_hegemony: "§B그로스라움§! 구성국들의 경제를 종속시키고 §R우리의 손에서 절대로 벗어날 수 없을 것이란 사실§!을 그들에게 가르쳐 줄 결정이 열릴 것입니다.."
  BOR_ECON_ONE_the_disconnected_pipelines: "This will further the integration of §Tall Reichskommissariats§! into the §YGroßraum§! and the §QReich's economy.§!"
- BOR_ECON_ONE_a_reforged_reich: "Führer Bormann's policies have reforged the Reich's economy, 보어만 총통의 정책이 라이히의 경제를 개혁했습니다. 더 이상 독일은 세계의 병자로 보이지 않을 겁니다!\n§YThis will increase the effectiveness of the Entscheidungsnetzwerk§!."
+ BOR_ECON_ONE_a_reforged_reich: "Führer Bormann's policies have reforged the Reich's economy, 보어만 총통의 정책이 라이히의 경제를 개혁했습니다. 더 이상 독일은 세계의 병자로 보이지 않을 겁니다!\n§YThis will increase the effectiveness of the 결정 네트워크§!."
  BOR_ECON_ONE_germanys_new_railways: "보어만의 새로운 기반시설 건설 계획이 더 많은 독일인들에게 일자리를 주었습니다.§Y빈곤율이 감소합니다.§!."
- BOR_ECON_ONE_our_new_profits: "Our massive investments have resulted in similarly massive returns, §Yyielding us §G$500 million§! in profit§!"
- BOR_ECON_ONE_the_german_golden_age: "The modern wunderwaffe is completed, our economy is stronger than ever! §YThis will increase our §Ggrowth by 0.5%§!, our §Gconstruction speed by 3%§! and reduce our §Gneeded consumer goods by 2%.§!§!\nThis is the start of the §GGerman Golden Century§!!"
- BOR_ECON_ONE_das_entscheidungsnetzwerk: "Our investments have produced the §YEntscheidungsnetzwerk§!\na complex computer network that will aid in the management of the Reich's economy by §Yimproving growth and reducing costs§!."
- BOR_ECON_ONE_the_cogs_turn: "The §YEntscheidungsnetzwerk§! has already shown its potential; by making multiple economic ministers redundant it has §Yallowed us to reduce inessential costs.§!"
+ BOR_ECON_ONE_our_new_profits: "우리가 한 대규모 투자는 대규모 이익을 보아, §Y수익금으로 §G$500 백만 달러§!를 돌려받았습니다.§!"
+ BOR_ECON_ONE_the_german_golden_age: "The modern wunderwaffe is completed, our economy is stronger than ever! §YThis will increase our §Ggrowth by 0.5%§!, our §Gconstruction speed by 3%§! and reduce our §Gneeded consumer goods by 2%.§!§!\n§G독일의 황금기§가 시작된 것입니다!"
+ BOR_ECON_ONE_das_entscheidungsnetzwerk: "Our investments have produced the §Y결정 네트워크§!\na complex computer network that will aid in the management of the Reich's economy by §Yimproving growth and reducing costs§!."
+ BOR_ECON_ONE_the_cogs_turn: "The §Y결정 네트워크§!는 이미 그 잠재력을 보였습니다. has already shown its potential; by making multiple economic ministers redundant it has §Yallowed us to reduce inessential costs.§!"
  BOR_ECON_ONE_the_impoverished_and_useless: "The increased employment of German workers has resulted in said workers spending more, this increased demand has caused more German firms to be opened which in turn hire more workers and restart the cycle.\n§YFurther decreasing our poverty rate.§!"
  BOR_ECON_ONE_now_proud_and_productive: "This increased spending has §Yincreased the amount of money circulating in our economy, raising growth by§! §G0.5%§!"
  BOR_ECON_ONE_laying_the_ground: "This shall unlock §Ydecisions relating to building domestic infrastructure§!."
@@ -421,15 +421,15 @@
  BOR_ECON_ONE_the_power_of_the_machine: "우리의 투자는 §G$100 백만§!달러의 이익을 냈습니다."
  BOR_ECON_ONE_und_das_werk_der_intelligenz: "중소기업의 연구를 지원하기 위해 §R$100 백만 달러§!를 지원할 것입니다"
  BOR_ECON_ONE_stunting_cybersyn_one: "§Y결정 네트워크§!는 예산 부족으로 지체되었습니다. §Y우리 GDP 성장률에 미치는 영향이 §R1.5%§! 감소하고 비용 절약 능력이 §R0.5%§!감소합니다.§!"
- BOR_ECON_ONE_stunting_cybersyn_two: "The §YEntscheidungsnetzwerk§! has been stunted due to lack of funds and further development has been abandoned, §Yreducing it's impact on our growth by §R1.5%§! and its ability to reduce costs by §R0.15%§!§!"
+ BOR_ECON_ONE_stunting_cybersyn_two: "The §Y결정 네트워크§! has been stunted due to lack of funds and further development has been abandoned, §Yreducing it's impact on our growth by §R1.5%§! and its ability to reduce costs by §R0.15%§!§!"
  BOR_ECON_ONE_stunting_cybersyn_three: "Our investment in the startup has been abandoned due to our inability to provide further funds, yielding us an §Yunfinished Entscheidungsnetzwerk§! that can §Gincrease growth and reduce costs by 0.1%§!."
  BOR_ECON_ONE_put_them_to_work: "§R25,000명의 노예를 없애 노동에 투입될 것입니다.§!"
 
  #Oil Crisis trees
  BOR_OilCrisis_End: "알림:위기가 끝났습니다."
- BOR_begin_supply_runs_tt: "§YDecisions§! will be unlocked to send military supplies for the Ba'athist states."
- BOR_baathists_have_a_port: "The Ba'athists have secured a Mediterraenan port"
- BOR_liquidate_our_assets_tt: "§YOur liquid reserves will be cleared.§!"
+ BOR_begin_supply_runs_tt: "바트주의자 지역에 군수물품을 보낼 §Y결정§!이 열릴 것입니다."
+ BOR_baathists_have_a_port: "바트주의자들이 지중해 항구를 확보했습니다."
+ BOR_liquidate_our_assets_tt: "§Y우리의 연료 비축량이 없어질 것입니다.§!"
 
  BOR_max_volunteers_plus_one_tt: " §Y1개§!§T의 추가 자원병 사단을§! §G바트주의자 지역으로§! §T보낼 수 있게 될 것입니다.§!"
  BOR_max_volunteers_plus_two_tt: "§Y2개§!§T의 추가 자원병 사단을 §! §G바트주의자 지역으로§! §T보낼 수 있게 될 것입니다.§!"
@@ -562,8 +562,8 @@
  GER_Bormann_OC_steal_oil:0 "§Y연료 비축분 압수§!"
 
  BOR_OC_country_still_at_war: "---"
- BOR_OC_country_is_gonna_invade_the_saudis: "§RPreparing for §nSaudi§! intervention§!"
- BOR_OC_country_were_uninvolved: "§gNo Supported Faction§!"
+ BOR_OC_country_is_gonna_invade_the_saudis: "§R§n사우디아라비아§!에 개입 준비 중§!"
+ BOR_OC_country_were_uninvolved: "§g지원한 세력 없음§!"
  BOR_OC_country_victory: "§G승리§!"
  BOR_OC_country_defeat: "§R패배§!"
  BOR_OC_war_ongoing: "§e진행 중§!"
@@ -588,9 +588,9 @@
  GER_Bormann_EconMech_category:0 "그로스라움 콘티넨탈오이로파"
  TNO_Bormann_EconMech_GUI_Info_tt:0 "독일과 팍트를 다시 한번 강하게 만들기 위해 보어만은 라이히와 유럽을 완전 자급자족이 가능한 공유 시장으로 만들 목적으로 그로스라움 콘티넨탈오이로파 경제 계획을 도입했습니다. 또한 그로스라움은 총통이 독일의 지배를 확언한 경제적 족쇄이기도 합니다. 더 정확히 말하자면 그로스라움은 국가판무관부들의 경제를 라이히에 다시 종속시키며, 노예제의 규모를 차차 줄여나가 결국에는 완전히 없애는 것을 목표로 한 계획입니다.\n\n§R"The Slavs are to work for us. In so far as we don't need them, they may die. The fertility of the Slavs is undesirable. As to food, they are to not get more than necessary. We are the masters; we come first."§!"
  
- GER_BOR_Econ_GER_dynamic_modifier:0 "Großraum Kontinentaleuropa"
- GER_BOR_Ausgrenzung_dynamic_modifier:0 "Ausgrenzungsprogramm"
- GER_BOR_Breitspurbahn_dynamic_modifier:0 "Breitspurbahn"
+ GER_BOR_Econ_GER_dynamic_modifier:0 "그로스라움 콘티넨탈오이로파"
+ GER_BOR_Ausgrenzung_dynamic_modifier:0 "노예 배제 프로그램"
+ GER_BOR_Breitspurbahn_dynamic_modifier:0 "광궤철도"
  
  GER_Bormann_EconMech_new_decision_available_tt:0 "§Y그로스라움§!에서 §G새 프로젝트§!를 실행할 수 있게 될 것입니다."
 
@@ -694,10 +694,10 @@
  BOR_EconMech._RK_integration_tt_DEN:0 "\n이것은§T덴마크§!를 §Y그로스라움§! 과 §Q라이히의 경제§!로의 통합을 진전시킬 것입니다."
  BOR_EconMech_RK_integration_tt_NOR:0 "\n이것은§T노르웨이§!를 §Y그로스라움§! 과 §Q라이히의 경제§!로의 통합을 진전시킬 것입니다."
  GER_Bormann_EconMech_increase_integration_tt:0 "§T[FROM.GetName]§!의 효과:\n§g그로스라움 콘티넨탈오이로파§! 수정하기 효과:effect:\n    일일 정치력 증가량: §R-0.10§!\n    Civilian Factories to [GER.GetFlag] Germany: §G+5.00%§!\n    Military Factories to [GER.GetFlag] Germany:§! §G+5.00%§!\n    Extra Trade to [GER.GetFlag] Germany: §G+2.50%§!\n    Trade Cost for [GER.GetFlag] Germany: §G-2.50%§!\n"
- BOR_EconMech_explored_ns_oil:0 "The §winitial exploration§! of the §T북해§! oil fields has been §G완료되었습니다.§!"
+ BOR_EconMech_explored_ns_oil:0 "§winitial exploration§! of the §T북해§! oil fields has been §G완료되었습니다.§!"
  BOR_EconMech_siegfried_line_completed:0 "The §R지크프리트 선§!이 §G재활성화되었습니다§!."
- BOR_EconMech_germania_copenhagen_connection_tt:0 "\nThe §oBreitspurbahn§! project will be expanded to include an extra line between §WGermania§! and §WCopenhagen§!.\n"
- BOR_EconMech_misc_income_increase_tt:0 "Increases the §YGroßraum Kontinentaleuropa§!'s misc income by §Y$RIGHT$B USD§!."
+ BOR_EconMech_germania_copenhagen_connection_tt:0 "\n§o광궤철도§! 프로젝트는 §W게르마니아§!와 §W코펜하겐§!으로 확장될 것입니다.\n"
+ BOR_EconMech_misc_income_increase_tt:0 "§Y그로스라움 콘티넨탈오이로파§!의 부수적인 수익이§Y$RIGHT$ 10억 USD 만큼 늘립니다.§!."
 
  GER_Bormann_EconMech_RK_selection_tt:0 "\n이 결정을 내리면 §M위 지도§!에서 건설을 시작할  §T국가판무관부§!를 선택할 수 있게 될 것입니다.\n§Y만약§! §T국가판무관부§!§Y가§! §M3일 내§!§Y로 선택되지 않는다면 무작위로 선택될 것입니다.§!\n"
  GER_Bormann_EconMech_RK_selection_complete_tt:0 "§g건설은 선택한§! §T국가판무관부§!§g에서 완료될 것입니다.§!"
@@ -716,7 +716,7 @@
 
  GER_Bormann_EconMech_SlavePop_info:0 "노예 인구: §W[?BOR_SlavePop^Germany]백만§!"
  GER_Bormann_EconMech_SlavePop_info_tt:0 "독일 안의 강제 노동에 동원된 인구와 '해방된' 노예 인구 수치입니다. 더 많은 노예가 동부 영토에 재정착하면 노예 인구의 수는 더 감소할 것입니다.\n\n현재 §g라이히§!전체에는 [?BOR_SlavePop^Total|Y] §Y백만§!명의 노예가 있습니다. \n\n§Y[?BOR_RepatriatedSlaves|0] 천§! 명의 노예가 지난 달에 송환되었습니다.\n §Y[?BOR_SlaveRepatriation^Poland|0] 천 명§! to [Get_EconMech_POL_status]\n §g오스틀란트§!로 §Y[?BOR_SlaveRepatriation^Ostland|0] 천 명§! \n §g우크라이나§!로 §Y[?BOR_SlaveRepatriation^Ukraine|0] 천 명§! \n §g카우카지엔§!으로 §Y[?BOR_SlaveRepatriation^Kaukasien|Y0] 천 명§!  \n §g모스코비엔§!으로 §Y[?BOR_SlaveRepatriation^Moskowien|Y0] 천 명§!"
- GER_Bormann_EconMech_Workforce_info:0 "Skilled Workforce: §W[?BOR_Workforce|3] Million§!"
+ GER_Bormann_EconMech_Workforce_info:0 "숙련 노동자: §W[?BOR_Workforce|3] Million§!"
  GER_Bormann_EconMech_Workforce_info_tt:0 "The current well trained non-slave civilian workforce, relative to the potentially available workforce of §Y[?BOR_MaxWorkforce|3] Million§!. As the slave system weakens, these skilled civilians will increase in numbers, improving our economy.\n\nThe §Ynon-slave workforce§! had an increase of §Y[?BOR_AusgrenzungProgressMonthly]%§! last month."
  
  TNO_Bormann_EconMech_Projects_Investment_Count_tt:0 "[Get_EconMech_Project_Investment]"
@@ -728,30 +728,30 @@
  TNO_Bormann_EconMech_Projects_Investment_Count_Tooltip_Breitspurbahn:0 "This level of resouce allocation for the §oBreitspurbahn§! §Fcurrently affects:\n - Monthly Progress: §G+[?BOR_BreitspurbahnProgressMonthly|2]%§!\n - Daily Political Power Gain: [?BOR_Breitspurbahn_political_power_gain|=+]\n - Miscellaneous Costs: §Y[?BOR_BreitspurbahnCost|2]B USD§!§!"
 
  TNO_Bormann_EconMech_Projects_Progress_tt:0 "[Get_EconMech_Project_Status]"
- TNO_Bormann_EconMech_Projects_Progress_Ausgrenzung:0 "The §WAusgrenzungsprogramm§! is §G[?BOR_AusgrenzungProgress|1]%§! complete."
- TNO_Bormann_EconMech_Projects_Progress_Breitspurbahn:0 "The §WBreitspurbahn§! is §G[?BOR_BreitspurbahnProgress|1]%§! complete."
+ TNO_Bormann_EconMech_Projects_Progress_Ausgrenzung:0 "§W노예 배제 프로그램§!은 §G[?BOR_AusgrenzungProgress|1]%§!퍼센트 완료되었습니다."
+ TNO_Bormann_EconMech_Projects_Progress_Breitspurbahn:0 "§W광궤철도§!는 §G[?BOR_BreitspurbahnProgress|1]%§!퍼센트 완공되었습니다."
 
  ER_Bormann_EconMech_investment_increase_tt:0 "[Get_EconMech_Project_Investment_Increase]"
- GER_Bormann_EconMech_Ausgrenzung_investment_increase_locked:0 "We have allocted the maximum possible resources to this project."
+ GER_Bormann_EconMech_Ausgrenzung_investment_increase_locked:0 "이 프로젝트에 사용 가능한 자원을 모두 할당했습니다."
  GER_Bormann_EconMech_Ausgrenzung_investment_increase:0 "§GIncrease§! our economical investment into the §QAusgrenzungsprogramm§! by §G+0.5%§! of our current GDP and increasing the cost by §R-0.05 daily political power§!.\n--------------\n§TIt costs§! £political_power_texticon §Y20§! §Tto make this change.§!"
  GER_Bormann_EconMech_Breitspurbahn_investment_increase:0 "Allocate §G+2§!£tt_prod_unit to the §oBreitspurbahn§!, increasing monthly development speed to §G[?MonthlyProgressTemp|1]%§!, cost by §R+125M USD§!, and §R-0.05 daily political power§!.\n--------------\n§TIt costs§! £political_power_texticon §Y20§! §Tto make this change.§!"
 
  GER_Bormann_EconMech_investment_decrease_tt:0 "[Get_EconMech_Project_Investment_Decrease]"
- GER_Bormann_EconMech_Ausgrenzung_investment_decrease_locked:0 "We have allocted the fewest possible resources to this project."
+ GER_Bormann_EconMech_Ausgrenzung_investment_decrease_locked:0 "이 프로젝트를 가동할 최소한의 자원만을 투입했습니다."
  GER_Bormann_EconMech_Ausgrenzung_investment_decrease:0 "§RDecrease§! our economical investment into the §QAusgrenzungsprogramm§! by §R-0.5%§! of our current GDP and decreasing the cost by §G+0.05 daily political power§!.\n--------------\n§TIt costs§! £political_power_texticon §Y20§! §Tto make this change.§!"
  GER_Bormann_EconMech_Breitspurbahn_investment_decrease:0 "Allocate §R-2§!£tt_prod_unit to the §oBreitspurbahn§!, decreasing monthly development speed to §R[?MonthlyProgressTemp|1]%§!, cost by §G-125M USD§!, and §G+0.05 daily political power§!.\n--------------\n§TIt costs§! £political_power_texticon §Y20§! §Tto make this change.§!"
 
- BOR_EconMech_Ausgrenzung_Modify_Progress_add_tt:0 "The §QAusgrenzungsprogramm§!'s progress will be §Gincreased§! by §G[?BOR_Ausgrenzung_Progress_Change?4|=2]%§!, bringing it to §Y[?BOR_AusgrenzungProgress_temp|2]%§!."
- BOR_EconMech_Ausgrenzung_Modify_Progress_sub_tt:0 "The §QAusgrenzungsprogramm§!'s progress will be §Rdecreased§! by §R[?BOR_Ausgrenzung_Progress_Change?4|=2]%§!, bringing it to §Y[?BOR_AusgrenzungProgress_temp|2]%§!."
+ BOR_EconMech_Ausgrenzung_Modify_Progress_add_tt:0 "§Q노예 배제 프로그램§!의 진행도가 §G[?BOR_Ausgrenzung_Progress_Change?4|=2]%§!만큼 §G증가§!하여 §Y[?BOR_AusgrenzungProgress_temp|2]%§!이 될 것입니다."
+ BOR_EconMech_Ausgrenzung_Modify_Progress_sub_tt:0 "§Q노예 배제 프로그램§!의 진행도가 §R[?BOR_Ausgrenzung_Progress_Change?4|=2]%§!만큼 §R감소§!하여 §Y[?BOR_AusgrenzungProgress_temp|2]%§!이 될 것입니다."
 
- BOR_EconMech_Breitspurbahn_Modify_Progress_add_tt:0 "The §oBreitspurbahn§!'s progress will be §Gincreased§! by §G[?BOR_Breitspurbahn_Progress_Change?4|=2]%§!, bringing it to §Y[?BOR_BreitspurbahnProgress_temp|2]%§!."
- BOR_EconMech_Breitspurbahn_Modify_Progress_sub_tt:0 "The §oBreitspurbahn§!'s progress will be §Rdecreased§! by §R[?BOR_Breitspurbahn_Progress_Change?4|=2]%§!, bringing it to §Y[?BOR_BreitspurbahnProgress_temp|2]%§!."
+ BOR_EconMech_Breitspurbahn_Modify_Progress_add_tt:0 "§o광궤철도§!의 진행도가 §G[?BOR_Breitspurbahn_Progress_Change?4|=2]%§!만큼 §G증가§!하여 §Y[?BOR_BreitspurbahnProgress_temp|2]%§!이 될 것입니다."
+ BOR_EconMech_Breitspurbahn_Modify_Progress_sub_tt:0 "§o광궤철도§!의 진행도가 §R[?BOR_Breitspurbahn_Progress_Change?4|=2]%§!만큼 §R감소§!하여 §Y[?BOR_BreitspurbahnProgress_temp|2]%§!이 될 것입니다."
 
- BOR_EconMech_Ausgrenzung_Modify_MonthlyProgress_add_tt:0 "The §QAusgrenzungsprogramm§!'s monthly progress will be §Gincreased§! by §G[?BOR_Ausgrenzung_MonthlyProgress_Change?0.1|=2]%§!, bringing it to §Y[?BOR_AusgrenzungMonthlyProgress_temp|2]%§!."
- BOR_EconMech_Ausgrenzung_Modify_MonthlyProgress_sub_tt:0 "The §QAusgrenzungsprogramm§!'s monthly progress will be §Rdecreased§! by §R[?BOR_Ausgrenzung_MonthlyProgress_Change?0.1|=2]%§!, bringing it to §Y[?BOR_AusgrenzungMonthlyProgress_temp|2]%§!."
+ BOR_EconMech_Ausgrenzung_Modify_MonthlyProgress_add_tt:0 "§Q노예 배제 프로그램§!의 월간 진행도가 §G[?BOR_Ausgrenzung_MonthlyProgress_Change?0.1|=2]%§! 만큼 §G증가§!하여 §Y[?BOR_AusgrenzungMonthlyProgress_temp|2]%§!가 되었습니다."
+ BOR_EconMech_Ausgrenzung_Modify_MonthlyProgress_sub_tt:0 "§Q노예 배제 프로그램§!의 월간 진행도가 §R[?BOR_Ausgrenzung_MonthlyProgress_Change?0.1|=2]%§!만큼 §R감소§!하여 §Y[?BOR_AusgrenzungMonthlyProgress_temp|2]%§!가 되었습니다."
 
- BOR_EconMech_Breitspurbahn_Modify_MonthlyProgress_add_tt:0 "The §oBreitspurbahn§!'s monthly progress will be §Gincreased§! by §G[?BOR_Breitspurbahn_MonthlyProgress_Change?0.1|=2]%§!, bringing it to §Y[?BOR_BreitspurbahnMonthlyProgress_temp|2]%§!."
- BOR_EconMech_Breitspurbahn_Modify_MonthlyProgress_sub_tt:0 "The §oBreitspurbahn§!'s monthly progress will be §Rdecreased§! by §R[?BOR_Breitspurbahn_MonthlyProgress_Change?0.1|=2]%§!, bringing it to §Y[?BOR_BreitspurbahnMonthlyProgress_temp|2]%§!."
+ BOR_EconMech_Breitspurbahn_Modify_MonthlyProgress_add_tt:0 "§o광궤철도§!의 월간 진행도가 §G[?BOR_Breitspurbahn_MonthlyProgress_Change?0.1|=2]%§!만큼 §G증가§!  하여 §Y[?BOR_BreitspurbahnMonthlyProgress_temp|2]%§!가 되었습니다."
+ BOR_EconMech_Breitspurbahn_Modify_MonthlyProgress_sub_tt:0 "§o광궤철도§!의 월간 진행도가 §R[?BOR_Breitspurbahn_MonthlyProgress_Change?0.1|=2]%§!만큼 §R감소§!하여 §Y[?BOR_BreitspurbahnMonthlyProgress_temp|2]%§!가 되었습니다."
 
  BOR_econ_debug_tt:0 "§Y디버그- 매달 업데이트§!"
  
@@ -776,7 +776,7 @@
  
  #Sphere trade
  GER_Bormann_Sphere_Trade_category:0 "공영권에 심은 씨앗"
- GER_Bormann_Sphere_Trade_category_desc:0 "마르틴 보어만은 아인하이츠팍트와 공영권 간의 협의안을 협상했습니다. 현재 약속된 조항에 따라 강력한 두 세력에서 무역이 재개될 것이고, 독일 대기업들은 일본의 영토에서 영업을 할 수 있도록 허가될 것입니다. 총통의 전능한 외교적 통치력으로 일본과의 관계는 그 어느 때보다 좋아지겠지만, 이 협의가 얼마나 오래 지속될 것인지는 라이히의 일본과에 관계에 달려 있습니다.\n\n§R일본§!과의 관계는 §R[BOR_SphereTrade_GetOpinion]. ([?BOR_Sphere_Trade_japan_opinion]/10)§!\n\nDepending on the status of our relationship with §RJapan§!, they may issue certain §xdemands§! in exchange for our continued participation in their markets. §RFailing to meet these demands may jeopardize everything we've gained so far.§!\n\n우리는 §Y[BOR_SphereTrade_NoPresence][BOR_SphereTrade_PresenceAzadHind][BOR_SphereTrade_PresenceThailand][BOR_SphereTrade_PresenceIndonesia][BOR_SphereTrade_PresenceFreeIndonesia]§!에 경제적 영향을 가지고 있습니다."
+ GER_Bormann_Sphere_Trade_category_desc:0 "마르틴 보어만은 아인하이츠팍트와 공영권 간의 협의안을 협상했습니다. 현재 약속된 조항에 따라 강력한 두 세력에서 무역이 재개될 것이고, 독일 대기업들은 일본의 영토에서 영업을 할 수 있도록 허가될 것입니다. 총통의 전능한 외교적 통치력으로 일본과의 관계는 그 어느 때보다 좋아지겠지만, 이 협의가 얼마나 오래 지속될 것인지는 라이히의 일본과에 관계에 달려 있습니다.\n\n§R일본§!과의 관계는 §R[BOR_SphereTrade_GetOpinion]. ([?BOR_Sphere_Trade_japan_opinion]/10)§!\n\nDepending on the status of our relationship with §R일본§!과의 관계에 따라 특정한 , they may issue certain §xdemands§! in exchange for our continued participation in their markets. §RFailing to meet these demands may jeopardize everything we've gained so far.§!\n\n우리는 §Y[BOR_SphereTrade_NoPresence][BOR_SphereTrade_PresenceAzadHind][BOR_SphereTrade_PresenceThailand][BOR_SphereTrade_PresenceIndonesia][BOR_SphereTrade_PresenceFreeIndonesia]§!에 경제적 영향을 가지고 있습니다."
 
  BOR_Sphere_Trade_relationship_0:0 "일본은 협의를 파기하고 싶어합니다"
  BOR_Sphere_Trade_relationship_1:0 "일본은 우리를 혐오합니다"
@@ -1968,10 +1968,10 @@ bormann_iberianwars.3.t:0 "How much for Mr. Falangist?"
 bormann_iberianwars.3.desc:0 "The attaché closed his eyes as the helicopter descended into [SPS.Capital.GetName]. Even years into his service with the German foreign office, descending into farflung cities on a moment's notice, air travel still made him nauseous. He'd spent the entire ride across the peninsula not studying the teeming streets or the military outpost on which he would land but trying to keep his breakfast down.\n\nHe felt the helicopter thud to the ground and his side door peel open. "You must be Señor Adam Vogt," shouted a voice over the roar of the engine. He opened his eyes to see an older man with a thin mustache saluting him with a forced smile. "Name's Jaime Milans del Bosch. Welcome to España."\n\nAdam ignored the gesture and put a shaky foot on the helipad, then another. He forced himself to walk coolly and calmly away from the machine and its thundering rotors. The man greeting him looked furious for a moment before concealing his emotion and trailing behind him like a lost puppy.\n\n"Let me be the first to say," Jaime said, trying to catch up without dropping his sharp smile, "how grateful we are that the Reich has come to aid us in our fight against liberalism and degeneracy. All of my men... all of them... look to your government as a beacon in the darkness. Your beloved Führer is-."\n\n"An inspiration, I'm sure," said Adam in a deadpan. Now several feet away from the helicopter, he took a moment to look around at the military outpost and his host. Everywhere, there were signs of dilapidation. It was in the cracks that spiderwebbed across the base and the haphazardly created helipad. It was in the old uniform the so-called leader of Iberia wore and the desperate smile on his face. Repairing them, making the Falangists a stable and functional ally, would require an untold number of Reichsmarks.\n\nThe man across from him ignored the remark and kept up his same, forced grin. Both of them knew the power dynamic.\n\nAdam sighed. "Forgive me, Herr Bosch. The ride here was rough. Let's go inside and discuss what Germany can do for its brothers in arms.""
 bormann_iberianwars.3.a:0 "Allies don't come cheap..."
 
-bormann_iberianwars.4.t:0 "Photos from Iberia"
+bormann_iberianwars.4.t:0 "이베리아에서 온 사진"
 bormann_iberianwars.4.desc:0 ""Simply unacceptable." The attache shook his head as he glanced down at the photographs in his hands. "The German People have no need for pictures of disheveled men with scorched helmets. You may send this one back, however." He slid one of Felix's photos back to him. It was one of his worse ones, a staged photo of a unit of infantry, posing with their guns atop of an Iberian tank, as if they had been its conquerors. In reality, they had simply found it like that, presumably abandoned after whatever renegade military unit that operated it had run out of fuel.\n\nEither way, this, out of dozens of photos of the battlefield, was to be his sole contribution for the evening. He had been expecting this, but Felix had hoped that maybe somehow the scrutinizing eye of the censors would pass over his images of the bullet-riddled Church his unit had repelled a leftist assault in, or a one-in-a-million shot of Federal Mortars landing a mere dozen yards away from his position. He seemed to be incapable of doing anything except setting himself up for disappointment.\n\nThere was no time to waste though. Muttering his apologies and gratitude to the attache, Felix backed out of the tent, glancing down at his camera. He had a quota to fill, and not much time left for it. He made his way across the austere military camp to the squad he had been assigned to. Maybe, if he could get them mustered for a moment, he could take some basic pose-\n\nThe familiar wail of sirens filled the base. An air raid was inbound.\n\nThe first few times Felix had heard it, he clutched his ears. By now, he merely winced, whispering curses underneath his breath as he took a trained, practically involuntary step back. And then he turned towards the bunker. God knew how long he'd be hiding down there, and how long it'd take for the base to be put back together well enough for the censors to accept... "
-bormann_iberianwars.4.a:0 "Keep Your Head Down"
+bormann_iberianwars.4.a:0 "머리 숙여."
 
-bormann_iberianwars.5.t:0 "A Very Modern Iberian Movie"
+bormann_iberianwars.5.t:0 "매우 현대적인 이베리아 영화"
 bormann_iberianwars.5.desc:0 "It was a rare day in [SPS.Capital.GetName]. The sun shone bright. Church bells rang. People enjoyed a brief respite in fighting to go out and enjoy themselves, to reclaim some semblance of normalcy amid the civil war. All of this was a disaster for Gerda, who stood with her camera glowering. The awful sunburn she'd developed in the course of a few hours was bad enough, but the lack of action in the city was intolerable. She'd been tasked by the Propagandaministerium to show the so-called heroes of Frente Azud fighting. Instead, she found herself working with a bunch of Spanish degenerates and German halfwits to stage a battle instead.\n\n "Nein! No. You're ruining the composition," she yelled in broken Spanish. "Stay. Stay where I place you. Do not move until I say 'Action.'"\n\nA Spanish boy, he couldn't be older than fourteen, turned around and gaped at her. Without hesitation, she grabbed the back of his neck and jerked him to the ground. She bet Riefenstahl didn't have to deal with such unsuitable subjects. She wasn't forced to adhere to a strict budget or work with the local help. No. She got to manage a big film studio near the capital.\n\n"You are supposed to be fighting a horde of communists and democrats," she screamed, pointing off down a cordoned street. She'd managed to use her connections to get the German military to close off a busy section of street and erect some barricades. It looked like a real battlefield. "Try to look like real Aryans in front of the camera or I guarantee no one in Germany will care about you and your pathetic, little war."\n\nNo one moved as Gerda marched back to her camera. She would make the perfect propaganda film, she thought. She would overcome her loser's attitude and make these grovelling imbeciles into icons. It didn't matter that the whole scene was fabricated; she would give the Führer and all the German people something to celebrate.\n\nAs the world became still, she pressed her eye against the viewfinder and raised her hand skyward."
-bormann_iberianwars.5.a:0  ""And action!""
+bormann_iberianwars.5.a:0  ""그리고.. 액션!""
