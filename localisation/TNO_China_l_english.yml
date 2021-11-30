@@ -242,12 +242,14 @@
  CHI_Zhou_Fohai_hog_desc:0 "--------------\n§LZhou Fohai was not always a prominent member of the KMT Old Guard; way back in the when, in fact, he had helped found the Chinese Communist Party. By the time he joined Wang Jingwei and Chen Gongbo in defecting, however, all this was far forgotten. When the Reorganized National Government was consolidated Zhou was already influential enough where nobody dared bring it up.\n\nHaving served as the economy minister for the past two decades - as well as replacing Chen Gongbo as the Premier of the Executive Yuan later - his political and financial influence is omnipresent; just as much so, in fact, as his flagrant and militant corruption.§!"
  CHI_Li_Shengwu_for:0 "리셩우"
  CHI_Li_Shengwu_for_desc:0 "--------------\n"
- CHI_Zhou_Longxiang_for:0 "저우룽샹"
- CHI_Zhou_Longxiang_for_desc:0 "--------------\n"
+ CHI_Tao_Xisheng_for:0 "Tao Xisheng"
+ CHI_Tao_Xisheng_for_desc:0 "--------------\n§LTao Xisheng is a propaganda officer of the reorganized Chinese Kuomintang; he has stood with President Gao Zongwu for decades. In fact, the two go as far back as the era of the Peace Movement, when Gao and other collaborations advised the then KMT government to cooperate with Japan and seek peace at any price. Being a loyal, staunch ally of Gao even now, and having some experience in foreign affairs, Gao has entrusted him with the office of Foreign Minister of China. Tao will strive to see Gao's dream of a modernized and eventually free China to fruition through strategic alliances and other such statecraft.§!"
+ CHI_Zhang_Renli_eco:0 "Zhang Renli"
+ CHI_Zhang_Renli_eco_desc:0 "--------------\n§LSon of the famous Qing era official Zhang Zhidong, Zhang Renli has been a loyal ally of Japanese interests since 1935, serving them first as an administrator in East Hebei. After later being successively promoted to Mayor of Wuhan and Tianjin, showing the trust that the Japanese had chosen to place in him, and after performing exceptionally well in these roles, he earned a place within the highest circles of society in China. Inspired by his elder brother Zhang Yanqing, a prominent official within the Empire of Manchuria, Zhang Renli is a genuine believer in pan-asian solidarity and cooperation, and that good relations with Japan are the key to Chinese prosperity. With his prominent family, long history of competent service, and pro-Japanese beliefs, Zhang acts as the leader of the Gaizupai within China, made up of people with similar views to himself. He will do everything he must to keep Gao in check and preserve Japanese leadership of Asia- even if those means should happen to be less than peaceful....§!"
  CHI_Ye_Peng_sec:0 "예펑"
  CHI_Ye_Peng_sec_desc:0 "--------------\n"
  CHI_Xiao_Shuxuan_sec:0 "샤오슈쉬엔"
- CHI_Xiao_Shuxuan_sec_desc:0 "--------------\n"
+ CHI_Xiao_Shuxuan_sec_desc:0 "--------------\n§LXiao Shuxuan is a member of the old guard of the Chinese republican movement, but he has strayed somewhat from his roots. At the beginning, he was a fighter in the Xinhai Revolution, and worked under Chiang Kai-Shek's supervision in the Northern Expedition. But in 1940, disillusioned with the Chiang regime, Xiao joined Wang in defecting to Japan, and has followed Wang and then Gao ever since. His loyalty and competence in military matters have earned him the rank of Army Minister of the Reorganized Government.§!"
  CHI_Mei_Siping_sec:0 "메이쓰핑"
  CHI_Mei_Siping_sec_desc:0 "--------------\n"
  CHI_Zhou_Xuechang_sec:0 "저우췌창"
@@ -259,11 +261,14 @@
  FIELD_MARSHAL_BAO_WENYUE:0 "War Minister Bao Wenyue was a graduate of the Peking Military Institute and served as a member of the Military Affairs Commission during WWII until he surrendered to the Japanese and joined the collaborationist government. He was elevated to his current position which he has held since the end of the war."
 
  #Dynamic Modifiers
- CHI_research_dynamic_modifier:0 "개선된 연구 능력"
+ CHI_research_dynamic_modifier:0 "중국의 연구 능력"
+ CHI_Research_Dummy_idea:0 "Chinese Research Capabilities"
+ CHI_Research_Dummy_idea_desc:0 "§FResearch Speed: [?CHI_research_speed_buff|2+%]\nResearch Facilities Monthly Rate: [?CHI_research_socdev_rate|2+]\nOffices Policy Effect: [?CHI_research_office_PE|2+%]\nOffices Coverage Effect: [?CHI_research_office_coverage|2+%]\nMisc. Costs: §Y[?CHI_research_misc_costs|3]B§!\nMisc. Income: §Y[?CHI_research_misc_income|3] B§!\n§F--------------\nTechnology is one of President Gao's Five Modernizations and is of overriding importance in securing progress in the other four modernizations. The better our technology is, the more efficient our nation will be in all things: in industry, in society and politics, and in our nation's journey towards gaining sufficient strength to assert itself on the global stage."
  CHI_coop_mil_dynamic_modifier:0 "공영권과의 군사협력"
  CHI_coop_research_dynamic_modifier:0 "공영권과의 연구협력"
  CHI_coop_econ_dynamic_modifier:0 "공영권과의 경제협력"
-
+ CHI_oilcrisis_status_modifier:0 "The Oil Crisis - China's Situation"
+ 
  #Opinion Modifiers 
  CHI_placed_troops_on_YUN_border:0 "남서부 국경에 병력을 배치시켰습니다."
  CHI_investigate_YUN:0 "[YUN.GetName] 조사 중"
@@ -274,9 +279,9 @@
  #Events
  #China Central Gov
 
- chi.1.t:0 "5대 현대화"
- chi.1.d:0 "가오쭝우의 궁극적인 꿈으로 구상된 5대 현대화는 중국의 산업, 교육, 군사, 연구, 국력을 정비하고 현대화하려는 계획입니다. 마침내, 근래 중국 역사상 가장 큰 정책 추진을 위한 설계와 정교한 편집 끝에 현대화가 시작되는 것만을 기다리고 있습니다. \n\n그러나 가오쭝우의 정권에서 모든 것이 잘 돌아가고 있진 않습니다. 일본인들은 중국이 그들의 빵바구니보다 나은 모습으로 변하는 것을 좋아하지 않을 수도 있을 것이며, 그 과정은 분명 고통스러울 것입니다. 진보는 변화와 함께 오고, 변화와 함께 뒤쳐지는 사람들이 있겠지만, 결국에는 중국인의 꿈을 위해 목숨을 바친 자들의 희생은 영광이 될 것입니다. 그 때 까지, 우리는 5대 현대화를 진행하며 신중히 나아가야 합니다. \n\n 국가 재건을 위한 가오쭝우의 노력은 이미 진행중이며, 몇 년 후 중국은 동정대신 동경받는 현대국가가 될 것입니다." 
- chi.1.a:0 "우리는 세계에서의 우리 자리를 되찾을 것이다."
+ chi.1.t:0 "The Situation in China"
+ chi.1.d:0 "The history of China is a complex one. Perhaps the most ancient civilization known to man, China has both dominated and been held under the boot. As the moon waxes and wanes, as does China, and currently the nation has suffered under decades of embarrassment, the so-called century of humiliation. But as rebels seized Nanjing and the Qing Dynasty came to its end, hope abounded. Hope for a new republican state where the Han controlled China. Hope for a true, lasting peace, where warlords no longer threatened the sanctity of life and every man was free.\n\nThe liberties and vices of the Roaring 20's came to a sudden stop with a coordinated Japanese invasion. Two giants of China, Chiang Kai-Shek and Mao Zedong, died alongside each other as they fought against the Japanese menace in the ruins of Chongqing. Outside of these giants of history, gears turned. Former KMT loyalist Wang Jingwei defected to the Japanese, hoping to defeat Chiang and his lackeys. When he began negotiations with the Japanese, he found out that the Japanese had no other intentions but to make China a simple colony. They had swiftly dismantled the old government and created a new Chinese Republic in its place, one that would be more open to "cooperation." Wang Jingwei resigned to his fate and died, knowing that he had betrayed his country and ushered in another era of humiliation.\n\nThe majority of China still begrudgingly supports the Japanese regime. Even if they weren't granted national self-determination, the Japanese have kept China from falling back into the anarchy of Chiang Kai-Shek's government two decades prior. While warlords still run rampant on the peripheries, many trust in the status quo for continued stability, and some even profit. Old members of the KMT who defected now enjoy cushy sinecures and positions of power, regardless of true merit...\n\nChina remains shackled to the Japanese yoke in countless ways. The Japanese make no attempt to hide the massive sway they hold over China in all aspects of government. The Chinese military is one deeply connected to the IJA, armed with nothing but rifles dating back to the last war, seeing little action but counter-insurgency operations. The Japanese government has slowly lifted the harshest restrictions of the state, but they still leech on our resources and our people. Much of the government's funds that were hoped to use to industrialize and improve welfare have been slashed for Japanese projects - as a result, China remains a largely deindustrialized and pitiful colony. Additionally, Guangdong and Manchuria, two of the most developed regions of China, remain tightly in the grip of the Japanese, despite the sheer amount of wealth it could bring to the Chinese government. Its currency is also pegged to the Japanese Yen, with Chinese banks and economic groups orchestrated by Japan."
+ chi.1.a:0 "Get out, pseudo colonalist scum!"
 
  chi.2.t:0 "정부 내 옛 국민당 스파이 적발"
  chi.2.d:0 "옛 국민당은 일본의 도래와 정복 이전 중국의 집권당이었습니다. 그들이 신정부를 세우고 국민당을 탄압하자, 장제스의 옛 동료들은 지하로 들어갔습니다. 국민당 우파 세력이 정부에 침투해 정책 결정에 영향을 미친다는 소문이 관료주의 내부에 퍼지면서 중국을 무정부 상태로 몰아가고 있습니다. \n\n 오늘, 이러한 의혹들이 사실로 드러났습니다. 말단 하위직에서 고위층에 이르기까지 다수의 공무원들이 국민당 우파의 스파이였음이 드러났습니다. 그들은 난징에서 원난으로 불러온 열차를 통해 남동부의 국민당 게릴라군과 은밀히 내톤하고 있음이 밝혀졌습니다. 한 경찰관이 기차역에서 그들을 발견하고 화물칸에 적합한 것이 있는지 확신하지 못해 그들과 이야기 하러 갔습니다. 그들이 형편없는 변명과 서류 위조 끝에, 경찰은 그 조직을 상급자에 보고하기로 결정했으며, 이로 인해 밀실이 발견되어 경찰은 그 조직을 체포했습니다. 현재 그들은 재판을 기다리고 이으며, 반역죄가 구형될 것으로 예상됩니다." 
