@@ -1,0 +1,327 @@
+﻿# |==================================================================| #
+#    _____      _     _  __          __           _____ _    _ _____   #
+#   / ____|    | |   | | \ \        / /          / ____| |  | |_   _|  #
+#  | |     ___ | | __| |  \ \  /\  / /_ _ _ __  | |  __| |  | | | |    #
+#  | |    / _ \| |/ _` |   \ \/  \/ / _` | '__| | | |_ | |  | | | |    #
+#  | |___| (_) | | (_| |    \  /\  / (_| | |    | |__| | |__| |_| |_   #
+#   \_____\___/|_|\__,_|     \/  \/ \__,_|_|     \_____|\____/|_____|  #
+#                                                                      #
+# |=========================| Localization |=========================| #
+ 
+l_english:
+TNO_Cold_War_GUI_Selected_Superpower_tt: "Data - Viewing [Superpower_GetNameColor]"
+TNO_Cold_War_GUI_Selected_Superpower_USA: "§m[?USA.GetName]§!"
+TNO_Cold_War_GUI_Selected_Superpower_GER: "§q[?GER.GetName]§!"
+TNO_Cold_War_GUI_Selected_Superpower_JAP: "§e[?JAP.GetName]§!"
+TNO_Cold_War_GUI_Selected_Superpower_ITA: "§n[?ITA.GetName]§!"
+TNO_Cold_War_GUI_Selected_Superpower_RUS: "§K[?RUS.GetName]§!"
+TNO_Cold_War_GUI_Selected_Superpower_CHI: "§O[?CHI.GetName]§!"
+TNO_Cold_War_GUI_Selected_Superpower_IND: "§E[?IND.GetName]§!"
+
+superpower_scoring_effects_modifier: "Score effects"
+superpower_power_projection_modifier: "Power Projection effects"
+
+threat_button_tt: "Open Cold War GUI"
+
+## Power Projection
+Cold_War_GUI_PowerProjection_AddSeaZone_tt:0 "We will §Ggain§! the ability to project power in the §Y[Cold_War_GUI_GetSeaZone_Name]§!."
+Cold_War_GUI_PowerProjection_RemoveSeaZone_tt:0 "We will §Rlose§! the ability to project power in the §Y[Cold_War_GUI_GetSeaZone_Name]§!."
+
+Cold_War_GUI_PowerProjection_Info_tt:0 "§F§WPower Projection§! is a measure of a superpower's ability to project force across the globe via its military and bases. This is measured via its access to different §YSea Zones§!, which it'll be able to lose or gain depending on the outcomes of the international conflicts that it participates in.[Cold_War_GUI_PowerProjection_Bonuses]"
+Cold_War_GUI_PowerProjection_Bonuses_tt:0 "\n\nWe currently gain [?power_projection_pp_effect|=+2] Political Power and [?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^7|G0] Cold War Score from our §WPower Projection§! ability.§!"
+
+Cold_War_GUI_PowerProjection_InfoDelayed_tt:0 "[Cold_War_GUI_PowerProjection_InfoDelayed]"
+Cold_War_GUI_PowerProjection_InfoDelayed_info_tt:0 "§FOur §YSea Zone§! access status:§!\n  §YEast Pacific:§! [Cold_War_GUI_GetSeaZone_Status_0]\n  §YWest Pacific:§! [Cold_War_GUI_GetSeaZone_Status_1]\n  §YSouth Atlantic:§! [Cold_War_GUI_GetSeaZone_Status_2]\n  §YNorth Atlantic:§! [Cold_War_GUI_GetSeaZone_Status_3]\n  §YNorth Sea:§! [Cold_War_GUI_GetSeaZone_Status_4]\n  §YMediterranean:§! [Cold_War_GUI_GetSeaZone_Status_5]\n  §YIndian Ocean:§! [Cold_War_GUI_GetSeaZone_Status_6]"
+
+Cold_War_GUI_PowerProjection_Access_tt:0 "§W[THIS.GetNameWithFlag]§! §Fhas the ability to project power on the:§!§Y[Cold_War_GUI_GetSeaZone_Access_0][Cold_War_GUI_GetSeaZone_Access_1][Cold_War_GUI_GetSeaZone_Access_2][Cold_War_GUI_GetSeaZone_Access_3][Cold_War_GUI_GetSeaZone_Access_4][Cold_War_GUI_GetSeaZone_Access_5][Cold_War_GUI_GetSeaZone_Access_6]§!"
+
+Cold_War_GUI_GetSeaZone_Access_EastPacific_tt:0 "\n  East Pacific"
+Cold_War_GUI_GetSeaZone_Access_WestPacific_tt:0 "\n  West Pacific"
+Cold_War_GUI_GetSeaZone_Access_SouthAtlantic_tt:0 "\n  South Atlantic"
+Cold_War_GUI_GetSeaZone_Access_NorthAtlantic_tt:0 "\n  North Atlantic"
+Cold_War_GUI_GetSeaZone_Access_NorthSea_tt:0 "\n  North Sea"
+Cold_War_GUI_GetSeaZone_Access_Mediterranean_tt:0 "\n  Mediterranean"
+Cold_War_GUI_GetSeaZone_Access_IndianOcean_tt:0 "\n  Indian Ocean"
+
+Cold_War_GUI_GetSeaZone_Status_Yes_tt:0 "§GYes§!"
+Cold_War_GUI_GetSeaZone_Status_No_tt:0 "§RNo§!"
+
+has_access_to_seazone_east_pacific_tt:0 "Has the ability to project power on the §YEast Pacific§!."
+has_access_to_seazone_west_pacific_tt:0 "Has the ability to project power on the §YWest Pacific§!."
+has_access_to_seazone_south_atlantic_tt:0 "Has the ability to project power on the §YSouth Atlantic§!."
+has_access_to_seazone_north_atlantic_tt:0 "Has the ability to project power on the §YNorth Atlantic§!."
+has_access_to_seazone_north_sea_tt:0 "Has the ability to project power on the §YNorth Sea§!."
+has_access_to_seazone_mediterranean_tt:0 "Has the ability to project power on the §YMediterranean§!."
+has_access_to_seazone_indian_ocean_tt:0 "Has the ability to project power on the §YIndian Ocean§!."
+
+## Scoring Categories
+# Military
+TNO_Cold_War_GUI_Rankings_Military_Categories: "ARMY SIZE:\nNAVY SIZE:\n\nARMY PROF.:\nNUKE STOCKPILE:"
+TNO_Cold_War_GUI_Rankings_Military_Points: "§W[?Cold_War_GUI_Selected_Superpower.Score_Military^1]\n[?Cold_War_GUI_Selected_Superpower.Score_Military^3]\n\n[?Cold_War_GUI_Selected_Superpower.Score_Military^4]\n[?Cold_War_GUI_Selected_Superpower.Score_Military^5]§!"
+
+# Economy
+TNO_Cold_War_GUI_Rankings_Economy_Categories: "GDP/CAPITA:\nNATIONAL DEBT:\nPOVERTY RATE:"
+TNO_Cold_War_GUI_Rankings_Economy_Points: "§W[?Cold_War_GUI_Selected_Superpower.Score_Economy^1]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^2]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^3]§!"
+TNO_Cold_War_GUI_Rankings_Economy_Categories2: "STABILITY:\nTECHNOLOGY:\nSOCDEV:"
+TNO_Cold_War_GUI_Rankings_Economy_Points2: "§W[?Cold_War_GUI_Selected_Superpower.Score_Economy^4]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^5]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^6]§!"
+
+# Faction
+TNO_Cold_War_GUI_Rankings_Diplomacy_Categories: "SIZE:\nIND. NATIONS:\nOBSERVERS:\n\nPOWER PROJ.:"
+TNO_Cold_War_GUI_Rankings_Diplomacy_Points: "§W[?Cold_War_GUI_Selected_Superpower.faction_members] Memb.\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^2]\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^6]\n\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^7]§!"
+TNO_Cold_War_GUI_Rankings_Diplomacy_Categories2: "TOTAL MIL. SCORE:\nTOTAL ECO. SCORE:\n\nSPHERE SIZE:\nSPHERE POWER:"
+TNO_Cold_War_GUI_Rankings_Diplomacy_Points2: "§W[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^3]\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^4]\n\n[?Cold_War_GUI_Selected_Superpower.econ_sphere_members^num] Memb.\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^5]§!"
+
+## Victories/Achievements
+TNO_Cold_War_GUI_Rankings_Victory_Entry_Name: "[Cold_War_GUI_GetVictoryName]"
+TNO_Cold_War_GUI_Rankings_Victory_Entry_Status: "[Cold_War_GUI_GetVictoryOutcome]\n[?Cold_War_GUI_Selected_Superpower.TNO_Cold_War_GUI_Victory_Points_Display^TNO_Cold_War_GUI_Victories_i|+0]"
+
+# Conflicts/crises
+TNO_Cold_War_Victory_ID_1: "HAWAIIAN MISSILE CRISIS"
+TNO_Cold_War_Victory_ID_2: "MOON LANDING"
+TNO_Cold_War_Victory_ID_3: "GUYANAN WAR"
+TNO_Cold_War_Victory_ID_4: "SOUTH AFRICAN WAR"
+TNO_Cold_War_Victory_ID_5: "MARS LANDING"
+TNO_Cold_War_Victory_ID_6: "BATTLE FOR ITALY"
+TNO_Cold_War_Victory_ID_7: "WESTERN INSURRECTION"
+TNO_Cold_War_Victory_ID_8: "INDONESIAN WAR"
+TNO_Cold_War_Victory_ID_9: "OIL CRISIS"
+TNO_Cold_War_Victory_ID_10: "BRITISH REUNIFICATION"
+TNO_Cold_War_Victory_ID_11: "ITALO-GERMAN GREAT GAME"
+TNO_Cold_War_Victory_ID_12: "IRANIAN CIVIL WAR"
+TNO_Cold_War_Victory_ID_13: "FALL ROLLO"
+TNO_Cold_War_Victory_ID_14: "GERMAN CIVIL WAR"
+TNO_Cold_War_Victory_ID_15: "WEST INDIES CRISIS"
+TNO_Cold_War_Victory_ID_16: "WEST AFRICA CRISIS"
+TNO_Cold_War_Victory_ID_17: "BATTLE FOR ENGLAND"
+TNO_Cold_War_Victory_ID_18: "IBERIAN WARS"
+TNO_Cold_War_Victory_ID_19: "BALINTAWAK BLITZ"
+TNO_Cold_War_Victory_ID_20: "PHILIPPINE LANDING"
+TNO_Cold_War_Victory_ID_21: "MOZAMBIQUE CIVIL WAR"
+TNO_Cold_War_Victory_ID_22: "CENTRAL ASIAN UNIFICATION"
+TNO_Cold_War_Victory_ID_23: "ANGOLAN CIVIL WAR"
+TNO_Cold_War_Victory_ID_24: "CONGO WARS"
+TNO_Cold_War_Victory_ID_25: "MALAYAN INSURGENCY"
+TNO_Cold_War_Victory_ID_26: "MALAGASY CIVIL WAR"
+TNO_Cold_War_Victory_ID_27: "GREAT ASIAN WAR"
+
+# Outcomes
+TNO_Cold_War_Victory_Outcome_Error: "§xIND. OUTCOME§!"
+TNO_Cold_War_Victory_Outcome_Ongoing: "§WONGOING§!"
+TNO_Cold_War_Victory_Outcome_Total_Defeat: "§eT. DEFEAT§!"
+TNO_Cold_War_Victory_Outcome_Defeat: "§RDEFEAT§!"
+TNO_Cold_War_Victory_Outcome_Stalemate: "§YSTALEMATE§!"
+TNO_Cold_War_Victory_Outcome_Victory: "§GVICTORY§!"
+TNO_Cold_War_Victory_Outcome_Total_Victory: "§yT. VICTORY§!"
+
+TNO_Cold_War_GUI_Rankings_Total_Score_Military: "§RTOTAL SCORE:§! [?Cold_War_GUI_Selected_Superpower.Score_Military^0|W0]"
+TNO_Cold_War_GUI_Rankings_Total_Score_Economy: "§RTOTAL SCORE:§! [?Cold_War_GUI_Selected_Superpower.Score_Economy^0|W0]"
+TNO_Cold_War_GUI_Rankings_Total_Score_Diplomacy: "§RTOTAL SCORE:§! [?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^0|W0]"
+TNO_Cold_War_GUI_Rankings_Total_Score_Victories: "§RTOTAL SCORE:§! [?Cold_War_GUI_Selected_Superpower.Score_Victories|W0]"
+
+TNO_Cold_War_GUI_Victories_Gridbox_DBG_tt: "§YDEBUG - ADD/REMOVE LOGS§!\n§YLeft click§!: add one log\n§YRight click§!: clear arrays"
+TNO_Cold_War_GUI_Victories_Sample_DBG_tt: "§YDEBUG - SET EXAMPLE LOGS§!"
+
+TNO_Cold_War_GUI_World_Tension_PB_tt: "The §YWorld Tension§! currently sits at §Y[?global.TNO_World_Tension]%§!."
+TNO_Cold_War_GUI_World_Tension_PB_tt_delayed: "The §YWorld Tension§! is a quantitative measurement of the §Vgeneral state of conflict and instability in the world§!. §xWars, instability, political changes, economic crashes and revolutions§! increase the value; §Gpeace agreements and other such indicators of success and prosperity§! lower it. If this value ever reaches §Y100%§!, §othen the world has been plunged into conflict of a sort unheard of since the dawn of the New Order§!, and it may be a matter of time before everything we once knew and held dear is §eset ablaze, leading down a path the end of which no mortal being is cognisant§!."
+
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Background_tt: "§Y[THIS.GetNameWithFlag]§! currently holds the §Y[Cold_War_GUI_GetScoreRanking_Sufix]§! spot in the Cold War rankings."
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Background_tt_delayed: "This position grants them the following benefits:\n  Daily Political Power Gain: [?score_effects_array^1|=+2]\n  War Support: [?score_effects_array^2|=+%2]\n  Research Speed: [?score_effects_array^3|=+%2]\n  Maximum Command Power Increase: [?score_effects_array^0|=+0]\n  Consumer Goods Production Factor: [?score_effects_array^4|=+%2]\n  Debt Ceiling: §Y[?score_effects_array^5|=]%§!"
+
+## Tensions Tab
+superpower_ger_jap_tension_modifier:0 "German - Japanese tension effects" 
+superpower_jap_usa_tension_modifier:0 "Japanese - American tension effects"
+superpower_ger_usa_tension_modifier:0 "German - American tension effects"
+TNO_The_World_Watches_TT:0 "The world watches our every move in this. Let's put up a show, shall we?"
+CWGUI_Tension_Info_Text:0 "§FIn the cold war, §Rthe world hangs on a balance§! between the three superpowers, so called partly because of their capability to §Rdestroy the world§!. Should §Mthe United States§!, §rthe German Reich§! and §ethe Japanese Empire§! ever fall into total war, their nuclear arsenals could utterly obliterate modern civilization. Though the three nations know this all too well, they often act as if they do not care; §osabre-rattling remains a common occurrence between them§!. Small or large international incidents can spike §VTension§! between a pair of superpowers, causing them to increase their war preparedness; the §VDEFCON§! level increases with the §VTension§!. Should Tension between two superpowers reach §Y100%§!, the unstable foundation on which this cold war has been laid shall §xcollapse§!, and the two involved superpowers will §xgo to war§!. When those two titans, inevitably joined by the rest of the world, begin to fight, §eall humanity has left is hope§!.§!"
+CWGUI_Incidents_Text:0 "[Cold_War_GUI_Superpower_Amount]"
+CWGUIIncidents: "§W[Cold_War_GUI_Past_Incidents]§!\n[Cold_War_GUI_Involved_Superpower_1] - [Cold_War_GUI_Involved_Superpower_2]"
+CWGUIIncidents_All: "§W[Cold_War_GUI_Past_Incidents]§!\nAll Superpowers"
+CWGUIIncidents_TensionChange: "[?global.TNO_Cold_War_GUI_Tension_Incidents_WT^TNO_Cold_War_GUI_Tension_Incidents_i|=-1]"
+Cold_War_GUI_Tension_Tab_Incidents_Entry_Test: "[Cold_War_GUI_Past_Incidents]"
+TNO_Cold_War_GUI_Tension_ID_Annual_Decay:0 "Annual Decay"
+TNO_Cold_War_GUI_Tension_ID_Westminster_Treaty: "The Westminster Treaty"
+TNO_Cold_War_GUI_Tension_ID_The_Akagi_Accords: "The Akagi Accords"
+TNO_Cold_War_GUI_Tension_ID_End_Of_Tripartite_Pact: "The End of the Tripartite Pact"
+TNO_Cold_War_GUI_Tension_ID_End_Of_Akagi_Accords: "The End of the Akagi Accords"
+TNO_Cold_War_GUI_Tension_ID_Hawaii_Missile_Crisis: "The Hawaiian Missile Crisis"
+TNO_Cold_War_GUI_Tension_ID_Pacification_of_Ukraine_Rada: "Implementation of the Ukrainian Rada"
+TNO_Cold_War_GUI_Tension_ID_The_Poland_Question: "The Question of Poland"
+TNO_Cold_War_GUI_Tension_ID_The_Poland_Invasion: "The Second Invasion of Poland"
+TNO_Cold_War_GUI_Tension_ID_Successful_Poland_Surrender: "Peaceful Polish Surrender"
+TNO_Cold_War_GUI_Tension_ID_First_Steps_GER_USA_Detente: "First Steps for an American-German Detente"
+TNO_Cold_War_GUI_Tension_ID_First_Steps_GER_USA_Backroom_Deals: "German-American Rapprochement"
+TNO_Cold_War_GUI_Tension_ID_First_Steps_GER_JAP_Backroom_Deals: "German-Japanese Rapprochement"
+TNO_Cold_War_GUI_Tension_ID_Speer_Pulls_Out_SAW: "Germany Pulls Out of the South African War"
+TNO_Cold_War_GUI_Tension_ID_Speer_Admits_Blame_Antlaropa: "Germany Admits Responsibility for Atlantropa"
+TNO_Cold_War_GUI_Tension_ID_The_Germo-American_Embargo_Negotiation_NPP: "The Reyjavik Accords"
+TNO_Cold_War_GUI_Tension_ID_The_Germo-American_Embargo_Negotiation_RD: "The Hamburg Accords"
+TNO_Cold_War_GUI_Tension_ID_The_Germo-American_Embargo_Negotiation_Failure: "Failure of Embargo Negotiations"
+TNO_Cold_War_GUI_Tension_ID_The_Toronto_Accords: "The Toronto Accords"
+TNO_Cold_War_GUI_Tension_ID_The_Copenhagem_Accords: "The Copenhagen Accords"
+TNO_Cold_War_GUI_Tension_ID_The_Melbourne_Accords: "The Melbourne Accords"
+TNO_Cold_War_GUI_Tension_ID_German_Diplomatic_Ventures: "Diplomatic Visit to America"
+TNO_Cold_War_GUI_Tension_ID_German_Diplomatic_Ventures_2: "Diplomatic Visit to Japan"
+TNO_Cold_War_GUI_Tension_ID_Collab_England_Joins_OFN:0 "England Joins the OFN"
+TNO_Cold_War_GUI_Tension_ID_Collab_England_Joins_EP:0 "England Joins the Einheitspakt"
+TNO_Cold_War_GUI_Tension_ID_Japanese_Mandate_Split:0 "Placeholder"
+TNO_Cold_War_GUI_Tension_ID_Nuclear_Weapons_Reunion:0 "Nuclear Weapons in Mauritius and Reunion"
+TNO_Cold_War_GUI_Tension_ID_German_SAW_intervention: "Reich Intervention in the South African War"
+TNO_Cold_War_GUI_Tension_ID_German_Japanese_Thaw: "German-Japanese Thaw"
+TNO_Cold_War_GUI_Tension_ID_German_sabre_rattling_japan: "German Sabre Rattling aganist Japan"
+TNO_Cold_War_GUI_Tension_ID_international_forum_on_the_stability_of_asia:0 "International Forum on the Stability of Asia"
+TNO_Cold_War_GUI_Tension_ID_Congo_Skirmishes:0 "The Congo Skirmishes Incident"
+TNO_Cold_War_GUI_Tension_ID_Glenn_Accords:0 "Nuclear Disarmament Talks Succeeds"
+TNO_Cold_War_GUI_Tension_ID_Glenn_Accords_Fails:0 "Nuclear Disarmament Talks Collapses"
+TNO_Cold_War_GUI_Tension_ID_German_American_Agreenment_Over_England:0 "German-American Agreenment Over England"
+TNO_Cold_War_GUI_Tension_ID_Supported_American_Claims:0 "Supported American Pacific Claims"
+TNO_Cold_War_GUI_Tension_ID_Successful_Stockholm_Conference:0 "Successful Stockholm Conference"
+TNO_Cold_War_GUI_Tension_ID_Failed_Stockholm_Conference:0 "Failed Stockholm Conference"
+TNO_Cold_War_GUI_Tension_ID_End_of_the_Hawaii_Missile_Crisis:0 "End of the Hawaiian Missile Crisis"
+TNO_Cold_War_GUI_Tension_ID_Hitler_Assasination_Attempt:0 "Hitler Assasination Attempt"
+TNO_Cold_War_GUI_Tension_ID_American_Bases_in_England:0 "American Military Bases in England"
+TNO_Cold_War_GUI_Tension_ID_Honolulu_Accords:0 "The Honolulu Accords"
+TNO_Cold_War_GUI_Tension_ID_Japan_Returns_Treaty_Ports:0 "Japan Returns the Treaty Ports"
+
+
+Tension_Opposing_Superpowers_Text: "[Cold_War_GUI_Tension_Superpower_1_ADJ] - [Cold_War_GUI_Tension_Superpower_2_ADJ] Tension"
+USA_GER_Tension: "American-German Tensions"
+GER_JAP_Tension: "German-Japanese Tensions"
+JAP_USA_Tension: "Japanese-American Tensions"
+TNO_Cold_War_GUI_Tension_Gridbox_DBG_tt: "§YDEBUG - ADD/REMOVE LOGS§!\n§YLeft click§!: add one log\n§YRight click§!: clear arrays"
+TNO_Cold_War_GUI_Tension_Sample_DBG_tt: "§YDEBUG - SET EXAMPLE LOGS§!"
+Superpower_Tension: "[Cold_War_GUI_Tension_Superpower_1] - [Cold_War_GUI_Tension_Superpower_2] Tension"
+TNO_Cold_War_GUI_Tension_Involved_Superpower_USA: "[USA.GetFlag] USA"
+TNO_Cold_War_GUI_Tension_Involved_Superpower_GER: "[GER.GetFlag] Germany"
+TNO_Cold_War_GUI_Tension_Involved_Superpower_JAP: "[JAP.GetFlag] Japan"
+TNO_Cold_War_GUI_Tension_Involved_Superpower_ALL: "All Superpowers"
+TNO_Cold_War_GUI_Tension_USA_ADJ: "American"
+TNO_Cold_War_GUI_Tension_GER_ADJ: "German"
+TNO_Cold_War_GUI_Tension_JAP_ADJ: "Japanese"
+TNO_Cold_War_GUI_Tension_ALL_ADJ: "Every Superpower"
+
+TNO_Cold_War_GUI_Tension_Entry_A_Progressbar_tooltip: "§FTension between America and Germany: §R[?global.TNO_superpower_tension^0]%§!.\nEffects on both nations:\nWar Support: [?USA.USA_GER_war_support_Tension_var|2%+]\nStability: [?USA.USA_GER_stability_Tension_var|2%+]\nFactory Output: [?USA.USA_GER_factory_output_var|2%+]\nDockyard Output: [?USA.USA_GER_dockyard_output_var|2%+]\nDivision Training Time: [?USA.USA_GER_division_training_time_var|2%Y]\nNuclear Production Output: [?USA.USA_GER_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?USA.USA_GER_misc_costs_of_gdp|2%]§!"
+TNO_Cold_War_GUI_Tension_Entry_B_Progressbar_tooltip: "§FTension between Germany and Japan: §R[?global.TNO_superpower_tension^1]%§!.\nEffects on both nations:\nWar Support: [?JAP.GER_JAP_war_support_Tension_var|2%+]\nStability: [?JAP.GER_JAP_stability_Tension_var|2%+]\nFactory Output: [?JAP.GER_JAP_factory_output_var|2%+]\nDockyard Output: [?JAP.GER_JAP_dockyard_output_var|2%+]\nDivision Training Time: [?JAP.GER_JAP_division_training_time_var|2%Y]\nNuclear Production Output: [?JAP.GER_JAP_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?JAP.GER_JAP_misc_costs_of_gdp|2%]§!"
+TNO_Cold_War_GUI_Tension_Entry_C_Progressbar_tooltip: "§FTension between Japan and America: §R[?global.TNO_superpower_tension^2]%§!.\nEffects on both nations:\nWar Support: [?JAP.JAP_USA_war_support_Tension_var|2%+]\nStability: [?JAP.JAP_USA_stability_Tension_var|2%+]\nFactory Output: [?JAP.JAP_USA_factory_output_var|2%+]\nDockyard Output: [?JAP.JAP_USA_dockyard_output_var|2%+]\nDivision Training Time: [?JAP.JAP_USA_division_training_time_var|2%Y]\nNuclear Production Output: [?JAP.JAP_USA_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?JAP.JAP_USA_misc_costs_of_gdp|2%]§!"
+
+TNO_Cold_War_GUI_Tension_GER_NameDef: "[GER.GetNameDef]"
+TNO_Cold_War_GUI_Tension_JAP_NameDef: "[JAP.GetNameDef]"
+TNO_Cold_War_GUI_Tension_USA_NameDef: "[USA.GetNameDef]"
+TNO_change_tension_tt: "§Y[Cold_War_GUI_Tension_Superpower_1_Tooltip_ADJ]-[Cold_War_GUI_Tension_Superpower_2_Tooltip_ADJ]§! tensions will [Cold_War_GUI_Tension_Tooltip_Increase_Decrease][Cold_War_GUI_Tension_Tooltip_Check_Change]."
+
+TNO_tension_change_nonzero_tt: " by [Cold_War_GUI_Tension_Tooltip_Check_Color][?tension_WT_display|0]%§!, for a total tension of [Cold_War_GUI_Tension_Tooltip_Check_Status]"
+TNO_tension_change_nonzero_ok_tt: "§Y[?total_temp|0]%§!"
+TNO_tension_change_nonzero_breakingpoint_tt: "§R[?total_temp|0]%§!, reaching a potential §Rbreaking point§!"
+
+TNO_Cold_War_GUI_Tension_Red: "§R"
+TNO_Cold_War_GUI_Tension_Green: "§G"
+
+TNO_Cold_War_GUI_Tension_Increase: "§Rincrease§!"
+TNO_Cold_War_GUI_Tension_Decrease: "§Gdecrease§!"
+TNO_Cold_War_GUI_Tension_Unchanged: "§Ynot change§!"
+
+## Spheres Tab
+TNO_Cold_War_GUI_Spheres_Tab_Sphere_Name_tt: "§W[?THIS.GetName]§!\n[GetSphereName]"
+TNO_Cold_War_GUI_Spheres_Tab_Info_tt: "Number of Members:\n[?econ_sphere_members^num|0W]\nTotal Sphere GDP: §W[?total_econ_sphere_GDP|2]B§!\nPercentage of Global GDP:\n§W[?econ_sphere_world_percent]%§!"
+
+Cold_War_GUI_Spheres_Tab_Spheres_Entry_Flags_Entry_Info_tt: "§W[?THIS.GDP|2]B§!"
+Cold_War_GUI_Spheres_Tab_Spheres_Entry_Flags_Entry_Overlay_tt: "§Y[?THIS.GetName]§!"
+Cold_War_GUI_Spheres_Tab_Spheres_Entry_Flags_Entry_Overlay_tt_delayed: "Economic Ranking: §Y[Cold_War_GUI_GetEconRanking_Sufix]§!\nGDP: §Y[?THIS.GDP|2]B§!\nGDP Growth: §Y[?THIS.GDP_growth_real|2]%§!\nDebt: §Y[?THIS.national_debt|2]B§!\nDebt-to-GDP: §Y[?THIS.debt_to_GDP_ratio|%]§!\nPoverty Rate: §Y[?THIS.poverty_rate|2]%§!\nGDP per Capita: §Y[?gdpc_display]$§!"
+
+TNO_SG_EconInfo_tt: "§Y[?THIS.GetName]§!\n§F--------------\nEconomic Ranking: §Y[Cold_War_GUI_GetEconRanking_Sufix]§!\nGDP: §Y[?THIS.GDP|2]B§!\nGDP Growth: §Y[?THIS.GDP_growth_real|2]%§!\nDebt: §Y[?THIS.national_debt|2]B§!\nDebt-to-GDP: §Y[?THIS.debt_to_GDP_ratio|%]§!\nPoverty Rate: §Y[?THIS.poverty_rate|2]%§!\nGDP per Capita: §Y[?gdpc_display]$§!"
+TNO_SG_EconInfo_Title_tt: "[Cold_War_GUI_GetSphereInfo]"
+
+Cold_War_GUI_EconRanking_Sufix_st: "[?econ_ranking]st"
+Cold_War_GUI_EconRanking_Sufix_nd: "[?econ_ranking]nd"
+Cold_War_GUI_EconRanking_Sufix_rd: "[?econ_ranking]rd"
+Cold_War_GUI_EconRanking_Sufix_th: "[?econ_ranking]th"
+
+Cold_War_GUI_ScoreRanking_Sufix_st: "[?super_ranking]st"
+Cold_War_GUI_ScoreRanking_Sufix_nd: "[?super_ranking]nd"
+Cold_War_GUI_ScoreRanking_Sufix_rd: "[?super_ranking]rd"
+Cold_War_GUI_ScoreRanking_Sufix_th: "[?super_ranking]th"
+
+## Influence Tab
+TNO_Cold_War_GUI_Influence_Tab_Title_tt: "[InfluenceTab_Activity]"
+TNO_Cold_War_GUI_Influence_Tab_Title_Active_tt: "§w[?THIS.GetName]§!"
+TNO_Cold_War_GUI_Influence_Tab_Title_Inactive_tt: "[?THIS.GetName]"
+
+CW_Conference_Proposals: "[CW_Conferences_GetProposal1]\n[CW_Conferences_GetProposal2]"
+CW_Conference_Effects: "[CW_Conferences_GetEffect1]\n[CW_Conferences_GetEffect2]"
+TNO_Conference_text: "Proposals:\n$CW_Conference_Proposals$\n\nEffects:\n$CW_Conference_Effects$"
+
+CW_GER_Test_Proposal_3: "Germany Test Proposal 3"
+CW_GER_Test_Proposal_5: "Germany Test Proposal 5"
+CW_GER_Test_Proposal_0: "Germany Test Proposal 0"
+
+CW_JAP_Test_Proposal_3: "Germany Test Proposal 3"
+CW_JAP_Test_Proposal_5: "Germany Test Proposal 5"
+CW_JAP_Test_Proposal_0: "Germany Test Proposal 0"
+
+CW_JAP_Test_Decision_4: "Japan Test Proposal 4"
+CW_JAP_Test_Decision_1: "Japan Test Proposal 1"
+CW_JAP_Test_Decision_3: "Japan Test Proposal 3"
+
+CW_GER_Test_Decision_4: "Japan Test Proposal 4"
+CW_GER_Test_Decision_1: "Japan Test Proposal 1"
+CW_GER_Test_Decision_3: "Japan Test Proposal 3"
+
+CW_GER_Test_Proposal_3_desc: "CW_GER_Test_Proposal_3_desc"
+CW_GER_Test_Proposal_5_desc: "CW_GER_Test_Proposal_5_desc"
+CW_GER_Test_Proposal_0_desc: "CW_GER_Test_Proposal_0_desc"
+
+CW_JAP_Test_Proposal_3_desc: "CW_JAP_Test_Proposal_3_desc"
+CW_JAP_Test_Proposal_5_desc: "CW_JAP_Test_Proposal_5_desc"
+CW_JAP_Test_Proposal_0_desc: "CW_JAP_Test_Proposal_0_desc"
+
+CW_GER_Test_Decision_4_desc: "CW_GER_Test_Decision_4_desc"
+CW_GER_Test_Decision_1_desc: "CW_GER_Test_Decision_1_desc"
+CW_GER_Test_Decision_3_desc: "CW_GER_Test_Decision_3_desc"
+
+CW_JAP_Test_Decision_3_desc: "CW_JAP_Test_Decision_3_desc"
+CW_JAP_Test_Decision_5_desc: "CW_JAP_Test_Decision_5_desc"
+CW_JAP_Test_Decision_0_desc: "CW_JAP_Test_Decision_0_desc"
+
+CW_Proposal1_text: "Proposal Placeholder 1"
+CW_Proposal2_text: "Proposal Placeholder 2"
+CW_Effect1_text: "Effect Placeholder 1"
+CW_Effect2_text: "Effect Placeholder 2"
+
+CW_Proposals_tooltip: "[CW_Conferences_GetProposalDesc]\n\n[!CW_Proposals_click]"
+CW_Decisions_tooltip: "[CW_Conferences_GetDecisionDesc]\n\n[!CW_Decisions_click]"
+
+
+conferences.2.t: "[Getconferences2_t]"
+conferences.2.desc: "[Getconferences2_desc]"
+conferences.2.a: "[Getconferences2_a]"
+
+conferences.3.t: "[Getconferences3_t]"
+conferences.3.desc: "[Getconferences3_desc]"
+conferences.3.a: "[Getconferences3_a]"
+conferences.3.b: "[Getconferences3_b]"
+
+conferences.4.t: "[Getconferences4_t]"
+conferences.4.desc: "[Getconferences4_desc]"
+conferences.4.a: "[Getconferences4_a]"
+conferences.4.a: "[Getconferences4_a]"
+
+conferences.5.t: "[Getconferences5_t]"
+conferences.5.desc: "[Getconferences5_desc]"
+conferences.5.a: "[Getconferences5_a]"
+
+conferences.6.t: "[Getconferences6_t]"
+conferences.6.desc: "[Getconferences6_desc]"
+conferences.6.a: "[Getconferences6_a]"
+
+conferences.7.t: "[Getconferences7_t]"
+conferences.7.desc: "[Getconferences7_desc]"
+conferences.7.a: "[Getconferences7_a]"
+conferences.7.a: "[Getconferences7_a]"
+
+conferences.8.t: "[Getconferences8_t]"
+conferences.8.desc: "[Getconferences8_desc]"
+conferences.8.a: "[Getconferences8_a]"
+
+conferences.9.t: "[Getconferences9_t]"
+conferences.9.desc: "[Getconferences9_desc]"
+conferences.9.a: "[Getconferences9_a]"
+
