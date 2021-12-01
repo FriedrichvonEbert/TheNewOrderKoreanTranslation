@@ -6,9 +6,9 @@
  ## Ministers ##
  
  ## Ideas ##
- NIK_socintern_member:0 "소인테른 회원국"
+ KOM_socintern_member:0 "ComIntern 회원국"
 
- NIK_socintern_associate:0 "소인테른 제휴국"
+ KOM_socintern_associate:0 "ComIntern 제휴국"
 
  RUS_comecon_withdrew_money:0 "코메콘 기금 철회"
 
@@ -23,28 +23,40 @@
 
  COMECON_desc:0 "In the name of international cooperation between socialist states, the §SCouncil for Mutual Economic Assistance§! offers an opportunity to sponsor the development of less developed nations through §SCOMECON§! aid and emergency assistance."
 
- COMECON_defense_transfer_amt:0 "$[?ROOT.COMECONDefTransferAmt]M"
- COMECON_dev_transfer_amt:0 "$[?ROOT.COMECONDevTransferAmt]M"
+ COMECON_defense_transfer_amt:0 "$[?ROOT.COMECONDefTransferAmt]B"
+ COMECON_dev_transfer_amt:0 "$[?ROOT.COMECONDevTransferAmt]B"
 
- COMECON_defense_transfer_amt_yearly:0 "$[?ROOT.COMECONDefTransferAmtYearly]M/yr"
- COMECON_dev_transfer_amt_yearly:0 "$[?ROOT.COMECONDevTransferAmtYearly]M/yr"
+ COMECON_defense_transfer_amt_yearly:0 "$[?ROOT.COMECONDefTransferAmtYearly]B/yr"
+ COMECON_dev_transfer_amt_yearly:0 "$[?ROOT.COMECONDevTransferAmtYearly]B/yr"
 
- COMECON_dev_amt:0 "$[?global.COMECON_monetary_fund_value|2]M"
- COMECON_defense_amt:0 "$[?global.COMECON_collective_defense_value|2]M"
+ COMECON_dev_amt:0 "$[?global.COMECON_monetary_fund_value|2]B"
+ COMECON_defense_amt:0 "$[?global.COMECON_collective_defense_value|2]B"
 
  COMECON_GUI_Country_Entry_Button_tt:0 "§S코메콘§!에서 [THIS.GetNameDef]의 원조금으로 §Y250만 달러§!가 전달될 것입니다."
+ Socintern_GUI_General_Assembly_Entry_Nation_tt:0 "[THIS.GetNameDef] - [THIS.GetSocInternVoteStatus]"
+ TNO_SOCINTERN_YES_VOTE:0 "voting §Gin favor§!."
+ TNO_SOCINTERN_ABS_VOTE:0 "§gabstaining§!."
+ TNO_SOCINTERN_NO_VOTE:0 "voting §Rin opposition§!."
+ TNO_SOCINTERN_UNDECIDED_VOTE:0 "§Wundecided§!."
+
+ COM_cooldown:0 "The §RGeneral Assembly§! is in recess."
 
  COMECON_GUI_Defense_Fund_Withdraw_Label_tt:0 "Withdrawals from the defense fund are unlocked when we are currently in an §Rarmed conflict§!."
  COMECON_GUI_Dev_Fund_Withdraw_Label_tt:0 "Withdrawals from the development fund are unlocked when we are §Rrunning a deficit§!, or have a §RGDP under $50 Billion§!."
 
  ### Decisions ###
 
- TNO_socintern_category:0 "§R사회주의 인터네셔널§!"
- TNO_socintern_category_desc:0 "\n\n\n\n\n\nTo facilitate the interests of mutual cooperation among those nations which have adopted the socialist ideology, the §RSocialist International§! serves as a premier means of providing global cooperation and strategic assistance. Through the §RSocIntern§!, socialist states may coordinate with each other in defensively and politically, and a forum to discuss assistance to global proletarian and national liberation movements may be provided.\n\n§RSocIntern§! §Ycollective defense fund§! balance: [?global.COMECON_collective_defense_value|2]M USD.\n\n[GetSocInternVote]"
- TNO_found_comecon:0 "§S코메콘§!의 창설"
- COM_invite_country:0 "[FROM.GetName]에게 회원국 지위 제공"
- COM_invite_country_associate:0 "[FROM.GetName]에게 제휴국 지위 제공"
- COM_propose_mutual_nap:0 "[FROM.GetName]에게 상호 불가침 조약 제안"
+ TNO_socintern_GUI:0 "§R공산주의 인터네셔널§!"
+ Socintern_desc:0 "To facilitate the interests of mutual cooperation among those nations which have embraced the proletarian revolution, the §RCommunist International§! serves as a premier means of providing global cooperation and strategic assistance. Through the §RComIntern§!, socialist states may coordinate with each other in defensively and politically, and a forum to discuss assistance to global proletarian and national liberation movements may be provided."
+ TNO_socintern_general_assembly_title:0 "§RTHE GENERAL ASSEMBLY§!"
+ TNO_socintern_general_assembly_motion_title:0 "§YCurrent Resolution§!"
+ TNO_socintern_general_assembly_motion_title_dyn:0 "[GetSocInternResolutionTitle]"
+ TNO_socintern_general_assembly_motion_desc:0 "[GetSocInternResolutionDesc]"
+ TNO_socintern_general_assembly_votes:0 "Votes: §G[?global.SocIntern_yes_votes]§!/§g[?global.SocIntern_abs_votes]§!/§R[?global.SocIntern_no_votes]§!"
+ SOCINTERN_VOTE_IN_PROGRESS:0 "A §Rvote§! is currently in progress."
+ TNO_socintern_cancel_vote:0 "The §Rvote§! is unable to continue."
+ TNO_socintern_vote_mission:0 "§RGeneral Assembly§! Voting"
+ TNO_socintern_vote_mission_tt:0 "Voting on the [GetSocInternResolutionTitle] will §Yconclude§!."
 
  TNO_SOCINTERN_VOTING:0 "Current SocIntern resolution - [GetSocInternResolutionTitle]\n\n[GetSocInternResolutionDesc]\n\n§GYES§! Votes - §G[?global.SocIntern_yes_votes]§!\n§RNO§! Votes - §R[?global.SocIntern_no_votes]§!\n§YABSTAIN§! Votes - §Y[?global.SocIntern_abs_votes]§!\n"
  TNO_SOCINTERN_NOT_VOTING:0 "No SocIntern resolution is currently be voted on."
