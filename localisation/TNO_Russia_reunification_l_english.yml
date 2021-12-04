@@ -1,0 +1,1291 @@
+﻿l_english:
+
+ RUS_reunification_category: "러시아의 재통일"
+ RUS_reunification_category_desc: "독일의 약탈자들이 조국을 산산조각 낸 후, 독일의 멍에에 들지 않은 러시아의 지역들은 무질서한 군벌 집단으로 산산조각 났습니다. 하지만 우리의 역사에서는 우리가 통일되었을 때 더 강했으며, 또한 통일되어야 비로써 우리는 어떠한 적이라도 맞서 싸울 수 있게 됩니다. 조국은 반드시 다시 일어서야 합니다."
+
+ russian_total_reunification: "모국의 재통일"
+ russian_total_reunification_desc: ""
+
+ russian_reunification: "러시아의 재통일"
+ siberian_reunification: "시베리아의 재통일"
+ 
+ can_form_west_russia_tt: "§Y서러시아§!의 모든 주를 소유\n"
+ can_form_southern_urals_tt: "§Y남부 우랄§!의 모든 주를 소유\n"
+ can_form_west_siberia_tt: "§Y서시베리아§!의 모든 주를 소유\n"
+ can_form_central_siberia_tt: "§Y중앙시베리아§!의 모든 주를 소유\n"
+ can_form_far_east_tt: "§Y극동§!의 모든 주를 소유\n"
+ can_form_kazakhstan_tt: "§Y카자흐스탄§!의 모든 주를 소유\n"
+
+ west_siberia_launch_race_to_urals: "우랄 남부에 영향력 행사하기"
+ west_russia_launch_race_to_urals: "우랄 남부에 영향력 행사하기"
+ launch_race_to_kazakhstan: "카자흐스탄에 영향력 행사하기"
+ integrate_south_urals: "우랄 남부에 최후통첩 보내기"
+ RUS_KAZ_is_compatible_tooltip: "카자흐스탄이 이념적으로 잘 맞음"
+
+ RUS_WSR_compatible_tt: "§Y서러시아§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
+ RUS_WSB_compatible_tt: "§Y서시베리아§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
+ RUS_CSB_compatible_tt: "§Y중앙시베리아§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
+ RUS_FST_compatible_tt: "§Y극동§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
+
+ RUS_RWS_compatible_tt: "§Y러시아§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
+ RUS_SIB_compatible_tt: "§Y시베리아§!의 통일자는 우리와 이념적으로 잘 맞습니다.\n"
+ RUS_diplo_action_executing: "우리는 현재 §Y외교적 행동§!을 취하는 중입니다."
+
+ #Reuinification
+ ###Peaceful Unification###
+ WSR_peace_category: "외교적 재통일"
+ WSR_peace_category_desc: "우리의 서쪽의 이웃과 이념적으로 비슷하기 때문에, 운 좋게도 §Y평화적 통일§!의 기회를 생겨났습니다. 이러한 분위기가 조성되고 있지만, 군벌 시기 러시아의 수많은 잔해들이 아직 남아있기 때문에 긴장감이 남아있습니다. 양국의 성공적인 §Y통일§!을 위해서는, 외교적으로 §R너무 무리하게 추진해§! 협상이 실패하여, 러시아가 다시 혼란의 시대로 빠지지 않게 해야 합니다.\n\n양국의 §Y통일 수용도§!은 §Y[?global.RWSUnificationReceptiveness]§!%입니다.\n\n양국의 §R외교적 긴장도§!는 §Y[?global.RWSUnificationTension]§!%입니다.\n\n협상 주도권은 현재 [GetRussianUnifierDominant].\n서러시아의 §l외교적 비중§!: §Y[?WSR.RUS_diplo_prestige]§!\n서시베리아의 §l외교적 비중§!: §Y[?WSB.RUS_diplo_prestige]§!"
+ WSR_begin_final_unification_talks: "§G최종 통일 회담§! 시작"
+ WSR_hold_preliminary_conference: "§G예비 회담§! 개최"
+ WSR_sign_declaration_of_friendship: "§G우호 선언§! 제안"
+ WSR_sign_non_aggression_agreement: "§Y불가침 협정§! 제안"
+ WSR_offer_access_to_foreign_goods: "§Y해외 상품에 대한 무역 제공§! 제안"
+ WSR_incentivize_pro_unification_factions: "§Y친통일 계파§! 지지"
+ WSR_propose_mutual_training_exercise: "§Y합동군사훈련§! 제안"
+ WSR_propose_border_treaty: "§Y국경 통행 조약§! 제안"
+ WSR_offer_diplomatic_concession: "§Y외교권 할양§! 제안"
+
+ WSB_peace_category: "외교적 재통일"
+ WSB_peace_category_desc: "우리의 서쪽의 이웃과 이념적으로 비슷하기 때문에, 운 좋게도 §Y평화적 통일§!의 기회를 생겨났습니다. 이러한 분위기가 조성되고 있지만, 군벌 시기 러시아의 수많은 잔해들이 아직 남아있기 때문에 긴장감이 남아있습니다. 양국의 성공적인 §Y통일§!을 위해서는, 외교적으로 §R너무 무리하게 추진해§! 협상이 실패하여, 러시아가 다시 혼란의 시대로 빠지지 않게 해야 합니다.\n\n양국의 §Y통일 수용도§!은 §Y[?global.RWSUnificationReceptiveness]§!%입니다.\n\n양국의 §R외교적 긴장도§!는 §Y[?global.RWSUnificationTension]§!%입니다.\n\n협상 주도권은 현재 [GetSiberianUnifierDominant].\n서러시아의 §l외교적 비중§!: §Y[?WSR.RUS_diplo_prestige]§!\n서시베리아의 §l외교적 비중§!: §Y[?WSB.RUS_diplo_prestige]§!"
+ WSB_begin_final_unification_talks: "§G최종 통일 회담§! 시작"
+ WSB_hold_preliminary_conference: "§G예비 회담§! 개최"
+ WSB_sign_declaration_of_friendship: "§G우호 선언§! 제안"
+ WSB_sign_non_aggression_agreement: "§Y불가침 협정§! 제안"
+ WSB_offer_resource_deals: "§Y자원접근조약§! 제공"
+ WSB_incentivize_pro_unification_factions: "§Y친통일 계파§! 지지"
+ WSB_propose_mutual_training_exercise: "§Y합동군사훈련§! 제안"
+ WSB_propose_border_treaty: "§Y국경 통행 조약§! 제안"
+ WSB_offer_diplomatic_concession: "§Y외교권 할양§! 제안"
+
+ CSB_peace_category: "외교적 재통일"
+ CSB_peace_category_desc: "우리의 동쪽의 이웃과 이념적으로 비슷하기 때문에, 운 좋게도 §Y평화적 통일§!의 기회를 생겨났습니다. 이러한 분위기가 조성되고 있지만, 군벌 시기 러시아의 수많은 잔해들이 아직 남아있기 때문에 긴장감이 남아있습니다. 양국의 성공적인 §Y통일§!을 위해서는, 외교적으로 §R너무 무리하게 추진해§! 협상이 실패하여, 러시아가 다시 혼란의 시대로 빠지지 않게 해야 합니다.\n\n양국의 §Y통일 수용도§!은 §Y[?global.RWSUnificationReceptiveness]§!%입니다.\n\n양국의 §R외교적 긴장도§!는 §Y[?global.RWSUnificationTension]§!%입니다.\n\n협상 주도권은 현재 [GetSiberianUnifierDominant].\n중앙시베리아의 §l외교적 비중§!: §Y[?CSB.RUS_diplo_prestige]§!\n극동의 §l외교적 비중§!: §Y[?FST.RUS_diplo_prestige]§!"
+ CSB_begin_final_unification_talks: "§G최종 통일 회담§! 시작"
+ CSB_hold_preliminary_conference: "§G예비 회담§! 개최"
+ CSB_sign_declaration_of_friendship: "§G우호 선언§! 제안"
+ CSB_sign_non_aggression_agreement: "§Y불가침 협정§! 제안"
+ CSB_offer_industrial_aid: "§Y산업원조협정§! 제공"
+ CSB_incentivize_pro_unification_factions: "§Y친통일 계파§! 지지"
+ CSB_propose_mutual_training_exercise: "§Y합동군사훈련§! 제안"
+ CSB_propose_border_treaty: "§Y국경 통행 조약§! 제안"
+ CSB_offer_diplomatic_concession: "§Y외교권 할양§! 제안"
+
+ FST_peace_category: "외교적 재통일"
+ FST_peace_category_desc: "우리의 서쪽의 이웃과 이념적으로 비슷하기 때문에, 운 좋게도 §Y평화적 통일§!의 기회를 생겨났습니다. 이러한 분위기가 조성되고 있지만, 군벌 시기 러시아의 수많은 잔해들이 아직 남아있기 때문에 긴장감이 남아있습니다. 양국의 성공적인 §Y통일§!을 위해서는, 외교적으로 §R너무 무리하게 추진해§! 협상이 실패하여, 러시아가 다시 혼란의 시대로 빠지지 않게 해야 합니다.\n\n양국의 §Y통일 수용도§!은 §Y[?global.RWSUnificationReceptiveness]§!%입니다.\n\n양국의 §R외교적 긴장도§!는 §Y[?global.RWSUnificationTension]§!%입니다.\n\n협상 주도권은 현재 [GetTotalUnifierDominant].\n중앙시베리아의 §l외교적 비중§!: §Y[?CSB.RUS_diplo_prestige]§!\n극동의 §l외교적 비중§!: §Y[?FST.RUS_diplo_prestige]§!"
+ FST_begin_final_unification_talks: "§G최종 통일 회담§! 시작"
+ FST_hold_preliminary_conference: "§G예비 회담§! 개최"
+ FST_sign_declaration_of_friendship: "§G우호 선언§! 제안"
+ FST_sign_non_aggression_agreement: "§Y불가침 협정§! 제안"
+ FST_offer_access_to_foreign_goods: "§Y해외 상품에 대한 무역 제공§! 제안"
+ FST_incentivize_pro_unification_factions: "§Y친통일 계파§! 지지"
+ FST_propose_mutual_training_exercise: "§Y합동군사훈련§! 제안"
+ FST_propose_border_treaty: "§Y국경 통행 조약§! 제안"
+ FST_offer_diplomatic_concession: "§Y외교권 할양§! 제안"
+ 
+ SIB_peace_category: "외교적 재통일"
+ SIB_peace_category_desc: "우리의 서쪽의 이웃과 이념적으로 비슷하기 때문에, 운 좋게도 §Y평화적 통일§!의 기회를 생겨났습니다. 이러한 분위기가 조성되고 있지만, 군벌 시기 러시아의 수많은 잔해들이 아직 남아있기 때문에 긴장감이 남아있습니다. 양국의 성공적인 §Y통일§!을 위해서는, 외교적으로 §R너무 무리하게 추진해§! 협상이 실패하여, 러시아가 다시 혼란의 시대로 빠지지 않게 해야 합니다.\n\n양국의 §Y통일 수용도§!은 §Y[?global.RUSUnificationReceptiveness]§!%입니다.\n\n양국의 §R외교적 긴장도§!는 §Y[?global.RUSUnificationTension]§!%입니다.\n\n협상 주도권은 현재 [GetTotalUnifierDominant].\n러시아의 §l외교적 비중§!: §Y[?RWS.RUS_diplo_prestige]§!\n시베리아의 §l외교적 비중§!: §Y[?SIB.RUS_diplo_prestige]§!"
+ SIB_begin_final_unification_talks: "§G최종 통일 회담§! 시작"
+ SIB_hold_preliminary_conference: "§G예비 회담§! 개최"
+ SIB_sign_declaration_of_friendship: "§G우호 선언§! 제안"
+ SIB_sign_non_aggression_agreement: "§Y불가침 협정§! 제안"
+ SIB_offer_access_to_foreign_goods: "§Y해외 상품에 대한 무역 제공§! 제안"
+ SIB_incentivize_pro_unification_factions: "§Y친통일 계파§! 지지"
+ SIB_propose_mutual_training_exercise: "§Y합동군사훈련§! 제안"
+ SIB_propose_border_treaty: "§Y국경 통행 조약§! 제안"
+ SIB_offer_diplomatic_concession: "§Y외교권 할양§! 제안"
+
+ RWS_peace_category: "외교적 재통일"
+ RWS_peace_category_desc: "우리의 동쪽의 이웃과 이념적으로 비슷하기 때문에, 운 좋게도 §Y평화적 통일§!의 기회를 생겨났습니다. 이러한 분위기가 조성되고 있지만, 군벌 시기 러시아의 수많은 잔해들이 아직 남아있기 때문에 긴장감이 남아있습니다. 양국의 성공적인 §Y통일§!을 위해서는, 외교적으로 §R너무 무리하게 추진해§! 협상이 실패하여, 러시아가 다시 혼란의 시대로 빠지지 않게 해야 합니다.\n\n양국의 §Y통일 수용도§!은 §Y[?global.RUSUnificationReceptiveness]§!%입니다.\n\n양국의 §R외교적 긴장도§!는 §Y[?global.RUSUnificationTension]§!%입니다.\n\n협상 주도권은 현재 [GetTotalUnifierDominant].\n러시아의 §l외교적 비중§!: §Y[?RWS.RUS_diplo_prestige]§!\n시베리아의 §l외교적 비중§!: §Y[?SIB.RUS_diplo_prestige]§!"
+ RWS_begin_final_unification_talks: "§G최종 통일 회담§! 시작"
+ RWS_hold_preliminary_conference: "§G예비 회담§! 개최"
+ RWS_sign_declaration_of_friendship: "§G우호 선언§! 제안"
+ RWS_sign_non_aggression_agreement: "§Y불가침 협정§! 제안"
+ RWS_offer_access_to_foreign_goods: "§Y해외 상품에 대한 무역 제공§! 제안"
+ RWS_incentivize_pro_unification_factions: "§Y친통일 계파§! 지지"
+ RWS_propose_mutual_training_exercise: "§Y합동군사훈련§! 제안"
+ RWS_propose_border_treaty: "§Y국경 통행 조약§! 제안"
+ RWS_offer_diplomatic_concession: "§Y외교권 할양§! 제안"
+
+ WSR_DOMINANT: "§Y[RUS_western_unifier.GetNameDef]§!쪽이 이끌고 있습니다"
+ WSB_DOMINANT: "§Y[RUS_west_siberia_unifier.GetNameDef]§!쪽이 이끌고 있습니다"
+ CSB_DOMINANT: "§Y[RUS_central_siberia_unifier.GetNameDef]§!쪽이 이끌고 있습니다"
+ FST_DOMINANT: "§Y[RUS_far_east_unifier.GetNameDef]§!쪽이 이끌고 있습니다"
+ RWS_DOMINANT: "weighted towards §Y[RUS_russian_unifier.GetNameDef]§!"
+ SIB_DOMINANT: "weighted towards §Y[RUS_siberian_unifier.GetNameDef]§!"
+ RUS_NONE_DOMINANT: "양쪽이 동등합니다"
+ SIB_NONE_DOMINANT: "양쪽이 동등합니다"
+
+ RUS_increase_receptiveness_3_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y3§!% §G증가합니다§!."
+ RUS_increase_receptiveness_5_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y5§!% §G증가합니다§!."
+ RUS_increase_receptiveness_10_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y10§!% §G증가합니다§!."
+ RUS_increase_receptiveness_15_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y15§!% §G증가합니다§!."
+ RUS_increase_receptiveness_20_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y20§!% §G증가합니다§!."
+
+ RUS_decrease_receptiveness_3_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y3§!% §R감소합니다§!."
+ RUS_decrease_receptiveness_5_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y5§!% §R감소합니다§!."
+ RUS_decrease_receptiveness_10_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y10§!% §R감소합니다§!."
+ RUS_decrease_receptiveness_15_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y15§!% §R감소합니다§!."
+ RUS_decrease_receptiveness_20_tt: "[GetOtherRegionalAdj]의 §Y통일 수용도§!가 §Y20§!% §R감소합니다§!."
+
+ RUS_increase_tension_3_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y3§!% §R증가합니다§!."
+ RUS_increase_tension_5_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y5§!% §R증가합니다§!."
+ RUS_increase_tension_10_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y10§!% §R증가합니다§!."
+ RUS_increase_tension_15_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y15§!% §R증가합니다§!."
+ RUS_increase_tension_20_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y20§!% §R증가합니다§!."
+
+ RUS_decrease_tension_3_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y3§!% §G감소합니다§!."
+ RUS_decrease_tension_5_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y5§!% §G감소합니다§!."
+ RUS_decrease_tension_10_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y10§!% §G감소합니다§!."
+ RUS_decrease_tension_15_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y15§!% §G감소합니다§!."
+ RUS_decrease_tension_20_tt: "[GetOtherRegionalAdj]의 §R외교적 긴장도§!가 §Y20§!% §G감소합니다§!."
+
+ RUS_increase_prestige_3_tt: "§l외교적 비중§!이 §Y3§!만큼 §G증가합니다§!."
+ RUS_increase_prestige_5_tt: "§l외교적 비중§!이 §Y5§!만큼 §G증가합니다§!."
+ RUS_increase_prestige_10_tt: "§l외교적 비중§!이 §Y10§!만큼 §G증가합니다§!."
+ RUS_increase_prestige_15_tt: "§l외교적 비중§!이 §Y15§!만큼 §G증가합니다§!."
+ RUS_increase_prestige_20_tt: "§l외교적 비중§!이 §Y20§!만큼 §G증가합니다§!."
+ 
+ RUS_decrease_prestige_3_tt: "§l외교적 비중§!이 §Y3§!만큼 §R감소합니다§!."
+ RUS_decrease_prestige_5_tt: "§l외교적 비중§!이 §Y5§!만큼 §R감소합니다§!."
+ RUS_decrease_prestige_10_tt: "§l외교적 비중§!이 §Y10§!만큼 §R감소합니다§!."
+ RUS_decrease_prestige_15_tt: "§l외교적 비중§!이 §Y15§!만큼 §R감소합니다§!."
+ RUS_decrease_prestige_20_tt: "§l외교적 비중§!이 §Y20§!만큼 §R감소합니다§!."
+
+ FST_held_preliminary_conference_tt: "우리는 앙국 간의 §Y통일§!을 위한 마지막 과정을 진행할 것입니다."
+
+ RUS_held_preliminary_conference: "§Y예비 통일 논의§!가 §G성공적으로 끝났습니다.§!"
+ RUS_request_denied_tt: "§R평화적 통일이 비현실적인 방법이라고 증명됐습니다.§!\n\n§R전투 작전§!을 통한 새로운 §Y통일 결정§!을 시작할 수 있게 되었습니다."
+
+ WSR_war_decisions: "군사력을 동원해 서러시아를 통일합니다."
+ WSB_war_decisions: "군사력을 동원해 서러시아를 통일합니다."
+ CSB_war_decisions: "군사력을 동원해 시베리아를 통일합니다."
+ FST_war_decisions: "군사력을 동원해 시베리아를 통일합니다."
+ SIB_war_decisions: "군사력을 동원해 러시아를 통일합니다."
+ RWS_war_decisions: "군사력을 동원해 러시아를 통일합니다."
+
+ WSR_peace_decisions: "외교적으로 서러시아를 통일합니다."
+ WSB_peace_decisions: "외교적으로 서러시아를 통일합니다."
+ CSB_peace_decisions: "외교적으로 시베리아를 통일합니다."
+ FST_peace_decisions: "외교적으로 시베리아를 통일합니다."
+ SIB_peace_decisions: "외교적으로 러시아를 통일합니다."
+ RWS_peace_decisions: "외교적으로 러시아를 통일합니다."
+ 
+ region_name_adj_WSB: "서시베리아"
+ region_name_adj_WSR: "서러시아"
+ region_name_adj_FST: "극동"
+ region_name_adj_CSB: "중앙시베리아"
+ region_name_adj_SIB: "시베리아"
+ region_name_adj_RUS: "러시아"
+
+ region_name_WSB: "서시베리아"
+ region_name_WSR: "서러시아"
+ region_name_FST: "극동"
+ region_name_CSB: "중앙시베리아"
+ region_name_RUS: "러시아"
+ region_name_SIB: "시베리아"
+
+ #NEW Race For The Urals decisions
+ 
+ RUS_race_for_the_urals_gui: "Race for the Urals"
+ RUS_RFTU_info_tt: "The §YSouthern Urals§! is a region that, thanks to its isolation, has escaped the efforts of various unifying forces to unite the Russian state. This, however, is not a state of affairs that can last if Russia is to be truly restored. Gaining §YInfluence§! over the Ural Warlords, and preventing [GetRFTURivalName] from establishing a §aSphere of Influence§! in the region, is necessary in order to finally integrate this region, and secure our hold over yet more of the Motherland.\n\nThe §YInfluence§! we have over a Ural state will be dependant largely on their §BInitial Receptivess§! to us, however we may be able to win over less receptive states with a period of §nInvestment in their economy and diplomatic favours§!. We will not be alone in trying to establish our §aSphere of Influence§! in the area however. Should our opponent prove too §YInfluential§! in the region to overcome, our only option may be to resport to an §RInvasion§!." 
+
+ # GUI Text
+ RUS_RFTU_no_faction_selected: "§RNo Faction Selected§!"
+ RUS_RFTU_orenburg_name: "§Y[ORE.GetName]§!"
+ RUS_RFTU_ural_league_name: "§Y[URL.GetName]§!"
+ RUS_RFTU_magnitogorsk_name: "§Y[MGN.GetName]§!"
+ RUS_RFTU_orsk_name: "§Y[DRL.GetName]§!"
+
+ RUS_RFTU_orenburg_flag: "§Y[ORE.GetNameWithFlag]§!"
+ RUS_RFTU_ural_league_flag: "§Y[URL.GetNameWithFlag]§!"
+ RUS_RFTU_magnitogorsk_flag: "§Y[MGN.GetNameWithFlag]§!"
+ RUS_RFTU_ural_orsk_flag: "§Y[DRL.GetNameWithFlag]§!"
+ RUS_RFTU_rival_WSB_flag: "§Y[WSB.GetNameWithFlag]§!"
+ RUS_RFTU_rival_WSR_flag: "§Y[WSR.GetNameWithFlag]§!"
+ 
+ RUS_RFTU_selected_region: "Selected Region: [GetRFTUStateSelected]"
+ RUS_RFTU_orenburg: "§YOrenburg§!"
+ RUS_RFTU_beloretsk: "§YBeloretsk§!"
+ RUS_RFTU_magnitogorsk: "§YMagnitogorsk§!"
+ RUS_RFTU_orsk: "§YOrsk§!"
+
+ RUS_RFTU_improve_relations: "Improve Relations"
+ RUS_RFTU_decrease_relations: "Decrease Rival Relations"
+ RUS_RFTU_discredit: "Discredit Rival"
+ RUS_RFTU_sphere: "ADD TO SPHERE"
+ RUS_RFTU_invade: "PREPARE INVASION"
+ RUS_RFTU_remove_from_sphere: "§RREMOVE FROM RIVAL SPHERE§!"
+ RUS_RFTU_integrate: "INTEGRATE"
+
+ RUS_RFTU_our_status_title: "§GOur Status§!"
+ RUS_RFTU_rival_status_title: "§RRival Status§!"
+ RUS_RFTU_our_status_criteria_wsr: "Receptiveness: §Y[?WSR.RUS_urals_receptiveness^RUS_selected_ural_faction|%]§!\nRelations: [GetRFTURelationsLevelWSR]\nInfluence: §Y[?WSR.RUS_urals_influence^RUS_selected_ural_faction]§!\nGrowth: §Y[?WSR.RUS_urals_influence_tick^RUS_selected_ural_faction|2]§!"
+ RUS_RFTU_our_status_criteria_wsb: "Receptiveness: §Y[?WSB.RUS_urals_receptiveness^RUS_selected_ural_faction|%]§!\nRelations: [GetRFTURelationsLevelWSB]\nInfluence: §Y[?WSB.RUS_urals_influence^RUS_selected_ural_faction]§!\nGrowth: §Y[?WSB.RUS_urals_influence_tick^RUS_selected_ural_faction|2]§!"
+
+ RUS_RFTU_magnitogorsk_tt: "[GetRFTUOwnerMagnitogorsk]\n\n§Y[WSR.GetNameWithFlag]§!: [GetRFTURelationsMagnitogorskLevelWSR]\n§Y[WSB.GetNameWithFlag]§!: [GetRFTURelationsMagnitogorskLevelWSB]"
+ RUS_RFTU_orenburg_tt: "[GetRFTUOwnerOrenburg]\n\n§Y[WSR.GetNameWithFlag]§!: [GetRFTURelationsOrenburgLevelWSR]\n§Y[WSB.GetNameWithFlag]§!: [GetRFTURelationsOrenburgLevelWSB]"
+ RUS_RFTU_orsk_tt: "[GetRFTUOwnerOrsk]\n\n§Y[WSR.GetNameWithFlag]§!: [GetRFTURelationsOrskLevelWSR]\n§Y[WSB.GetNameWithFlag]§!: [GetRFTURelationsOrskLevelWSB]"
+ RUS_RFTU_beloretsk_tt: "[GetRFTUOwnerBeloretsk]\n\n§Y[WSR.GetNameWithFlag]§!: [GetRFTURelationsBeloretskkLevelWSR]\n§Y[WSB.GetNameWithFlag]§!: [GetRFTURelationsBeloretskkLevelWSB]"
+
+ RUS_RFTU_no_relations: "§sNo Relations§!"
+ RUS_RFTU_poor_relations: "§RNascent§!"
+ RUS_RFTU_cordial_relations: "§YCordial§!"
+ RUS_RFTU_friendly_relations: "§GFriendly§!"
+ RUS_RFTU_sphered: "§aIn Sphere§!"
+
+ RUS_RFTU_investment_tick_tt: "§GIncreases Influence Growth§! in §Y[GetRFTUFactionSelectedFlag]§! by §G[?temp_tick_change]§!."
+ RUS_RFTU_must_be_receptive: "§Y[GetRFTUFactionSelected]§!: must be more than §Y0% Receptive§!."
+ RUS_RFTU_must_be_cordial: "§Y[GetRFTUFactionSelected]§! must be at least §YCordial§!."
+
+ RUS_building_in_orenburg: "Is already investing in §YOrenburg§!"
+ RUS_building_in_beloretsk: "Is already investing in §YBeloretsk§!"
+ RUS_building_in_magnitogorsk: "Is already investing in §YMagnitogorsk§!"
+ RUS_building_in_orsk: "Is already investing in §YOrsk§!"
+ RUS_RFTU_preparing_invasion: "We are preparing to Invade."
+ 
+ RUS_RFTU_increase_relations_tt: "[GetRFTUImproveRelationsTooltip]"
+ RUS_RFTU_increase_relations_normal_tt: "§Y[GetRFTUFactionSelectedFlag]§!:\nThis action costs §Y50§! influence. We currently have §Y[?RUS_urals_influence^RUS_selected_ural_faction]§!.\n\nOur relations with §Y[GetRFTUFactionSelectedFlag]§! will §GImprove§!."
+ RUS_RFTU_increase_relations_need_to_sphere_tt: "Our relations with §Y[GetRFTUFactionSelectedFlag]§! can no longer improve. It is time to bring them into our §aSphere of Influence§!."
+
+ RUS_RFTU_decrease_relations_tt: "[GetRFTUDecreaseRelationsTooltip]"
+ RUS_RFTU_decrease_relations_normal_tt: "§Y[GetRFTUFactionSelectedFlag]§!:\nThis action costs §Y50§! influence. We currently have §Y[?RUS_urals_influence^RUS_selected_ural_faction]§!.\n\n[GetRFTURivalName] relations with §Y[GetRFTUFactionSelectedFlag]§! will §RDecrease§!."
+ RUS_RFTU_decrease_relations_too_low_tt: "[GetRFTURivalName] relations with §Y[GetRFTUFactionSelectedFlag]§! are §Ralready too low to decrease further§!."
+
+ RUS_RFTU_discredit_rival_tt: "[GetRFTUDiscreditRivalTooltip]"
+ RUS_RFTU_discredit_rival_normal_tt: "§Y[GetRFTUFactionSelectedFlag]§!:\nThis action costs §Y50§! influence. We currently have §Y[?RUS_urals_influence^RUS_selected_ural_faction]§!.\n\n[GetRFTURivalName] Influence Growth will §RReduce§! by §Y50%§! for §Y60§! days."
+ RUS_RFTU_discredit_rival_no_growth_tt: "[GetRFTURivalName] Influence growth is §Y0§!. This action would have no effect."
+
+ RUS_RFTU_sphere_tt: "§Y[GetRFTUFactionSelectedFlag]§!:\nThis action costs §Y100§! influence. We currently have §Y[?RUS_urals_influence^RUS_selected_ural_faction]§!.\n\nWe must have at least §GFriendly§! Relations.\n\nWe will bring §Y[GetRFTUFactionSelectedFlag]§! into our §aSphere of Influence§!."
+ 
+ RUS_RFTU_remove_sphere_tt: "§Y[GetRFTUFactionSelectedFlag]§!:\nThis action costs §Y100§! influence. We currently have §Y[?RUS_urals_influence^RUS_selected_ural_faction]§!.\n\nWe must be at least §GFriendly§! relations.\n\nWe will §RRemove§! §Y[GetRFTUFactionSelectedFlag]§! from the §aSphere of Influence§! of [GetRFTURivalName]."
+
+ RUS_RFTU_integrate_tt: "§Y[GetRFTUFactionSelectedFlag]§!:\nThis action costs §Y50§! influence. We currently have §Y[?RUS_urals_influence^RUS_selected_ural_faction]§!.\n\n§Y[GetRFTUFactionSelectedFlag]§! will be integrated directly into our nation."
+ 
+ RUS_RFTU_invade_tt: "§RNothing can be left to chance, we will launch an invasion of ALL remaining Ural States.§!\n\nActivates a §YMission§! that will last for §Y90§! days, upon completion we will be able to §RLaunch our Invasion§!."
+
+ # Decisions
+
+ RUS_RFTU_war_mission: "Launch Invasion of the Southern Urals"
+ 
+ RUS_RFTU_orenburg_losen_trade_barriers: "Loosen Trade Barriers"
+ RUS_RFTU_invest_in_local_businesses_orenburg: "Invest in Local Businesses"
+ RUS_RFTU_fund_school_construction_orenburg: "Fund School Construction"
+ RUS_RFTU_fund_hospital_construction_orenburg: "Fund Hospital Construction"
+ RUS_RFTU_invest_in_local_infastructure_orenburg: "Invest in Local Infrastructure"
+ RUS_RFTU_fund_oil_extraction_orenburg: "Fund Oil Extraction"
+ RUS_RFTU_establish_joint_military_base_orenburg: "Establish Joint Military Base"
+ 
+ RUS_RFTU_joint_military_excersises: "Conduct Joint Military Exercise"
+ RUS_RFTU_invest_in_local_businesses_beloretsk: "Invest in Local Businesses"
+ RUS_RFTU_fund_school_construction_beloretsk: "Fund School Construction"
+ RUS_RFTU_fund_hospital_construction_beloretsk: "Fund Hospital Construction"
+ RUS_RFTU_invest_in_local_infastructure_beloretsk: "Invest in Local Infrastructure"
+ RUS_RFTU_fund_oil_extraction_beloretsk: "Fund Oil Extraction"
+ RUS_RFTU_establish_joint_military_base_beloretsk: "Establish Joint Military Base"
+
+ RUS_RFTU_farming_subsidies_magnitogorsk: "Offer Agricultural Subsidies"
+ RUS_RFTU_invest_in_local_businesses_magnitogorsk: "Invest in Local Businesses"
+ RUS_RFTU_fund_school_construction_magnitogorsk: "Fund School Construction"
+ RUS_RFTU_fund_hospital_construction_magnitogorsk: "Fund Hospital Construction"
+ RUS_RFTU_invest_in_local_infastructure_magnitogorsk: "Invest in Local Infrastructure"
+ RUS_RFTU_fund_oil_extraction_magnitogorsk: "Fund Oil Extraction"
+ RUS_RFTU_establish_joint_military_base_magnitogorsk: "Establish Joint Military Base"
+
+ RUS_RFTU_relief_for_victims: "Relief for Dirlewanger's Victims"
+ RUS_RFTU_invest_in_local_businesses_orsk: "Invest in Local Businesses"
+ RUS_RFTU_fund_school_construction_orsk: "Fund School Construction"
+ RUS_RFTU_fund_hospital_construction_orsk: "Fund Hospital Construction"
+ RUS_RFTU_invest_in_local_infastructure_orsk: "Invest in Local Infrastructure"
+ RUS_RFTU_fund_oil_extraction_orsk: "Fund Oil Extraction"
+ RUS_RFTU_establish_joint_military_base_orsk: "Establish Joint Military Base"
+
+ #Race For The Urals decisions
+ RUS_race_for_the_urals: "우랄을 향한 경주"
+ RUS_race_for_the_urals_desc: "§Y남부 우랄§! 지역은 고립되었다는 특성 때문에 러시아국을 통일하러는 여러 통일 주장 세력의 손길을 피할 수 있었습니다. 하지만 러시아가 진정으로 다시 복원되기 위해서는 이런 상황을 영원히 지속시킬 수 없습니다. 우랄 지역을 통합하고 우리가 조국을 더 많이 장악하기 위해서는 우랄 세력에 대한 영향력을 가지고 [GetOpponentName] 국가가 이 지역에 세력을 뻗으러는 것을 막아야만 합니다.[GetOrenburgText][GetUralText][GetMagnitogorskText][GetOrskText]" 
+
+ RUS_race_for_kazakhstan: "카자흐스탄을 향한 경주"
+ RUS_race_for_kazakhstan_desc: "최근 수 주 동안 카자흐스탄에서 우리와 경쟁자들 사이의 세력 다툼이 시작되었습니다. 양 국이 카자흐스탄을 동맹국으로 만들기 위해 점점 더 많은 자원을 투자하기 시작하면서 외교적 갈등은 점점 심각해졌습니다. 우리의 외교관들은 카자흐스탄이 넘어갈 경우 적국을 크게 강화시킬 것이며 심지어 전쟁이 일어날 경우 우리가 싸워야 할 전선이 늘어나기 때문에 카자흐스탄을 적국에게 넘기는 것은 절대로 두고 볼 수 없다고 말하고 있습니다. 카자흐스탄이 우리의 승리 또는 패배를 말해줄 것이기 때문에 우리는 반드시 카자흐스탄을 우리 편으로 끌어들어야 합니다.\n\n[GetNowaPoslkaText][GetKazakhText]" 
+
+ NPL_fire_string: "§Y[NPL.GetName]§! ([GetNPLRelations]):\n현재 §Y영향력 투자§!: [GetNPLInfluenceInvestment]\n현재 §Y영향력§!: §Y[?RUS_NPL_Influence]§!.\n현재 §Y영향력 획득:§! 1일당 §Y[?RUS_NPL_Influence_Daily_Ticker_End]§!.\n현재 §Y상대방의 영향력§!: §Y[GetOpponentNPLInfluence]§! ([GetNPLOpponentRelations]).\n\n"
+ KZK_fire_string: "§Y[RUS_kazakhstan_unifier.GetName]§! ([GetKAZRelations]):\n현재 §Y영향력 투자§!: [GetKAZInfluenceInvestment]\n현재 §Y영향력§!: §Y[?RUS_KAZ_Influence]§!.\n현재 §Y영향력 획득:§! 1일당 §Y[?RUS_KAZ_Influence_Daily_Ticker_End]§!.\n현재 §Y상대방의 영향력§!: §Y[GetOpponentKAZInfluence]§! ([GetKAZOpponentRelations])."
+
+ RUS_display_southern_urals_influence: "영향 변수 초기화"
+ BEGIN_SOUTHERN_URALS_CRISIS: "§Y남부 우랄§!에 §Y영향을 미치는§! 새로운 §Y결정§!을 선택할 수 있게 됩니다.\n"
+
+ RUS_has_not_max_current_investments: "우리는 이 군벌에 최대한의 §Y영향력§!을 투자하고 있지 않습니다."
+ RUS_has_current_investments: "우리는 이 군벌에 최대한의 §Y영향력§!을 투자하고 있습니다."
+ RUS_can_increase_relations: "우리와의 관계가 더 이상 늘어날 수 없습니다."
+ RUS_in_sphere: "이 군벌은 우리의 §M영향권§! 입니다."
+
+ RUS_increase_influence_in_orenburg: "§S오렌부르크§!를 향한 투자 증가"
+ RUS_decrease_influence_in_orenburg: "§S오렌부르크§!를 향한 투자 감소"
+ RUS_increase_relations_with_orenburg: "§S오렌부르크§!와의 관계 강화" 
+ RUS_increase_influence_in_ural_league: "§g우랄 연맹§!을 향한 투자 증가"
+ RUS_decrease_influence_in_ural_league: "§g우랄 연맹§!을 향한 투자 감소"
+ RUS_increase_relations_with_ural_league: "§g우랄 연맹§!과의 관계 강화"
+ RUS_increase_influence_in_magnitogorsk: "§R마그니토고르스크§!를 향한 투자 증가"
+ RUS_decrease_influence_in_magnitogorsk: "§R마그니토고르스크§!를 향한 투자 감소"
+ RUS_increase_relations_with_magnitogorsk: "§R마그니토고르스크§!와의 관계 강화"
+ RUS_discredit_opponent_in_orenburg: "§S오렌부르크§!에게 상대국을 불신하게 만들기"
+ RUS_discredit_opponent_in_ural_league: "§g우랄 연맹§!에게 상대국을 불신하게 만들기"
+ RUS_discredit_opponent_in_magnitogorsk: "§R마그니토고르스크§!에게 상대국을 불신하게 만들기"
+ RUS_decrease_opponent_influence_in_orenburg: "§S오렌부르크§!의 상대국에 대한 관계 감소시키기"
+ RUS_decrease_opponent_influence_in_ural_league: "우랄 연맹의 상대국에 대한 관계 감소시키기"
+ RUS_decrease_opponent_influence_in_magnitogorsk: "§R마그니토고르스크§!의 상대국에 대한 관계 감소시키기"
+ RUS_add_orenburg_to_sphere: "§S오렌부르크§!를 우리의 영향권에 두기"
+ RUS_add_ural_league_to_sphere: "§g우랄 연맹§!을 우리의 영향권에 두기"
+ RUS_add_magnitogorsk_to_sphere: "§R마그니토고르스크§!를 우리의 영향권에 두기"
+ RUS_integrate_orenburg: "§S오렌부르크§! 합병하기"
+ RUS_integrate_ural_league: "§g우랄 연맹§! 합병하기"
+ RUS_integrate_magnitogorsk: "§R마그니토고르스크§! 합병하기"
+ RUS_propose_partition_plan: "분할 계획 제안"
+ RUS_intervene_in_orenburg: "§S오렌부르크§!에 대한 군사적 개입"
+ RUS_intervene_in_orsk: "§O오르스크§!에 대한 군사적 개입"
+ RUS_launch_military_intervention: "군사 개입 시작"
+ RUS_propose_west_leaning_ceasefire: "서러시아에 유리한 휴전 제안"
+ RUS_propose_neutral_ceasefire: "중립적인 휴전 제안"
+ RUS_propose_east_leaning_ceasefire: "서시베리아에 유리한 휴전 제안"
+ RUS_remove_magnitogorsk_from_sphere: "§R마그니토고르스크§!를 상대국의 영향권에서 빼내기"
+ RUS_remove_orenburg_from_sphere: "§S오렌부르크§!를 상대국의 영향권에서 빼내기"
+ RUS_remove_ural_league_from_sphere: "§g우랄 연맹§!을 상대국의 영향권에서 빼내기"
+
+ RUS_increase_influence_in_kazakhstan: "§Y카자흐스탄§!을 향한 투자 증가"
+ RUS_decrease_influence_in_kazakhstan: "§Y카자흐스탄§!을 향한 투자 감소"
+ RUS_increase_relations_with_kazakhstan: "§Y카자흐스탄§!과의 관계 강화"
+ RUS_remove_kazakhstan_from_sphere: "§Y카자흐스탄§!을 상대국의 영향권에서 빼내기"
+ RUS_add_kazakhstan_to_sphere: "§Y카자흐스탄§!을 우리의 영향권에 두기"
+ RUS_integrate_kazakhstan: "§Y카자흐스탄§! 합병하기"
+ RUS_intervene_in_kazakhstan: "§Y카자흐스탄§!에 대한 군사적 개입"
+ RUS_discredit_opponent_in_kazakhstan: "§Y카자흐스탄§!에게 상대국을 불신하게 만들기"
+ RUS_decrease_opponent_influence_in_kazakhstan: "§Y카자흐스탄§!의 상대국에 대한 관계 감소시키기"
+
+ RUS_increase_influence_in_nowa_polska: "§R노바 폴스카§!를 향한 투자 증가"
+ RUS_decrease_influence_in_nowa_polska: "§R노바 폴스카§!를 향한 투자 감소"
+ RUS_increase_relations_with_nowa_polska: "§R노바 폴스카§!와의 관계 강화"
+ RUS_remove_nowa_polska_from_sphere: "§R노바 폴스카§!를 상대국의 영향권에서 빼내기"
+ RUS_add_nowa_polska_to_sphere: "§R노바 폴스카§!를 우리의 영향권에 두기"
+ RUS_integrate_nowa_polska: "§R노바 폴스카§! 합병하기"
+ RUS_intervene_in_nowa_polska: "§R노바 폴스카§!에 대한 군사적 개입"
+ RUS_discredit_opponent_in_nowa_polska: "§R노바 폴스카§!에게 상대국을 불신하게 만들기"
+ RUS_decrease_opponent_influence_in_nowa_polska: "§R노바 폴스카§!의 상대국에 대한 관계 감소시키기"
+
+ ORE_fire_string: "\n\n§S[ORE.GetName]§! ([GetORERelations]):\n현재 §Y영향력 투자§!: [GetOREInfluenceInvestment]\n현재 §Y영향력§!: §Y[?RUS_ORE_Influence]§!.\n현재 §Y영향력 획득량:§! 1일당 §Y[?RUS_ORE_Influence_Daily_Ticker_End]§!.\n현재 §Y상대방의 영향력§!: §Y[GetOpponentOREInfluence]§! ([GetOREOpponentRelations])."
+ ORE_nonexistent: ""
+
+ URL_fire_string: "\n\n§g[URL.GetName]§! ([GetURLRelations]):\n현재 §Y영향력 투자§!: [GetURLInfluenceInvestment]\n현재 §Y영향력§!: §Y[?RUS_URL_Influence]§!.\n현재 §Y영향력 획득량:§! 1일당  §Y[?RUS_URL_Influence_Daily_Ticker_End]§!.\n현재 §Y상대방의 영향력§!: §Y[GetOpponentURLInfluence]§! ([GetURLOpponentRelations])."
+ URL_nonexistent: ""
+
+ MGN_fire_string: "\n\n§R[MGN.GetName]§! ([GetMGNRelations]):\n현재 §Y영향력 투자§!: [GetMGNInfluenceInvestment]\n현재 §Y영향력§!: §Y[?RUS_MGN_Influence]§!.\n현재 §Y영향력 획득량:§! 1일당 §Y[?RUS_MGN_Influence_Daily_Ticker_End]§!.\n현재 §Y상대방의 영향력§!: §Y[GetOpponentMGNInfluence]§! ([GetMGNOpponentRelations])."
+ MGN_nonexistent: ""
+
+ DRL_fire_string: "\n\n§O[DRL.GetName]§! (§R무정부 상태§!):\n§R도적단§!과 §R테러리스트§!와고는 어떠한 외교도 할 수 없습니다."
+
+ RUS_100_influence_tt: "우리는 이 군벌에 100만큼의 §Y영향력§!이 있습니다.\n"
+ RUS_50_influence_tt: "우리는 이 군벌에 50만큼의 §Y영향력§!이 있습니다.\n"
+ RUS_25_influence_tt: "우리는 이 군벌에 25만큼의 §Y영향력§!이 있습니다.\n"
+ RUS_opponent_discredit_remove_tt: "우리의 상대국이 더 이상 §Y불신 상태§!가 아니게 될 것입니다.\n"
+ RUS_opponent_discredit_add_tt: "우리의 상대국이 45일간 §Y불신 상태§!가 되어 상대국의 군벌에 대한 §Y영향력 획득량§!이 감소할 것입니다.\n"
+ RUS_opponent_decrease_influence_tt: "이 지역에 대한 우리의 상대국의 영향력이 §Y감소§!할 것입니다.\n"
+ RUS_increase_relations_1_tt: "우리와의 관계를 §Y대항적§!으로 올리기.\n"
+ RUS_increase_relations_2_tt: "우리와의 관계를 §Y중립적§!으로 올리기.\n"
+ RUS_increase_relations_3_tt: "우리와의 관계를 §Y수용적§!으로 올리기.\n"
+ RUS_increase_relations_4_tt: "우리와의 관계를 §Y동맹§!으로 올리기.\n"
+ RUS_increase_relations_5_tt: "우리와의 관계를 §Y영향권§!으로 올리기.\n"
+
+ RUS_decrease_relations_5_tt: "상대와의 관계를 §Y동맹§!으로 내리기.\n"
+ RUS_decrease_relations_4_tt: "상대와의 관계를 §Y수용적§!으로 내리기.\n"
+ RUS_decrease_relations_3_tt: "상대와의 관계를 §Y중립적§!으로 내리기.\n"
+ RUS_decrease_relations_2_tt: "상대와의 관계를 §Y대항적§!으로 내리기.\n"
+ RUS_decrease_relations_1_tt: "상대와의 관계를 §Y적대적§!으로 내리기.\n"
+
+ WSR_INFLUENCE_LEVEL_1: "§Yopposed§! relations"
+ WSR_INFLUENCE_LEVEL_2: "§Yneutral§! relations"
+ WSR_INFLUENCE_LEVEL_3: "§Ycordial§! relations"
+ WSR_INFLUENCE_LEVEL_4: "§Yfriendly§! relations"
+ WSB_INFLUENCE_LEVEL_1: "§Yopposed§! relations"
+ WSB_INFLUENCE_LEVEL_2: "§Yneutral§! relations"
+ WSB_INFLUENCE_LEVEL_3: "§Ycordial§! relations"
+ WSB_INFLUENCE_LEVEL_4: "§Yfriendly§! relations"
+
+ opponent_is_WSR: "우리 서부의 경쟁자들" 
+ opponent_is_WSB: "우리 동부의 경쟁자들"
+ opponent_is_nonexistent: "다른 세력"
+ 
+ WSB_opponent_ORE_influence: "[?WSR.RUS_ORE_Influence]"
+ WSR_opponent_ORE_influence: "[?WSB.RUS_ORE_Influence]"
+ 
+ WSB_opponent_URL_influence: "[?WSR.RUS_URL_Influence]"
+ WSR_opponent_URL_influence: "[?WSB.RUS_URL_Influence]"
+
+ WSB_opponent_MGN_influence: "[?WSR.RUS_MGN_Influence]"
+ WSR_opponent_MGN_influence: "[?WSB.RUS_MGN_Influence]"
+
+ SIB_opponent_KAZ_influence: "[?SIB.RUS_KAZ_Influence]"
+ RWS_opponent_KAZ_influence: "[?RWS.RUS_KAZ_Influence]"
+
+ SIB_opponent_NPL_influence: "[?SIB.RUS_NPL_Influence]"
+ RWS_opponent_NPL_influence: "[?RWS.RUS_NPL_Influence]"
+
+ RUS_influence_0: "§g없음§!."
+ RUS_influence_1: "§O낮음§!."
+ RUS_influence_2: "§Y중간§!."
+ RUS_influence_3: "§G높음§!."
+ 
+ RUS_influence_in_sphere: "§M영향권§!"
+ RUS_influence_friendly: "§B동맹§!"
+ RUS_influence_cordial: "§G수용적§!"
+ RUS_influence_neutral: "§Y중립적§!"
+ RUS_influence_opposed: "§O대항적§!"
+ RUS_influence_hostile: "§R적대적§!"
+
+
+ RUS_REGIONAL_POLITICAL_TREE_DONE: "지금 당장 중요한 정치적 문제가 해결되었습니다."
+ RUS_unlock_race_to_urals_tt: "§Y남부 우랄§! 지역에 영향력을 행사하기 위한 §Y결정§!이 해제됩니다.\n"
+
+ far_east_war_with_csb: "전쟁 준비"
+ far_east_diplo_with_csb: "재통일 회담 시작"
+
+ central_siberia_war_with_fst: "전쟁 준비"
+ central_siberia_diplo_with_fst: "재통일 회담 시작"
+
+ west_siberia_war_with_wsr: "전쟁 준비"
+ west_siberia_diplo_with_wsr: "재통일 회담 시작"
+
+ west_russia_war_with_wsb: "전쟁 준비"
+ west_russia_diplo_with_wsb: "재통일 회담 시작"
+
+ siberia_diplo_with_russia: "재통일 회담 시작"
+ siberia_war_with_russia: "재통일 전쟁 준비"
+
+ russia_diplo_with_siberia: "재통일 회담 시작"
+ russia_war_with_siberia: "재통일 전쟁 준비"
+
+ war_preparation_tt: "우리의 §Y준비도§!가 §Y75§!%보다 높습니다."
+
+ peace_preparation_25_tt: "상호 §Y통일 수용도§!가 §Y25§!%보다 높습니다."
+ peace_preparation_50_tt: "상호 §Y통일 수용도§!가 §Y50§!%보다 높습니다."
+ peace_preparation_75_tt: "상호 §Y통일 수용도§!가 §Y75§!%보다 높습니다."
+
+ peace_preparation_prestige_tt: "우리의 §l통일 수용도§!가 §Y이웃§!보다 높습니다."
+
+ WSR_increase_prestige: "우리의 외교적 비중 상승"
+ WSB_increase_prestige: "우리의 외교적 비중 상승"
+ CSB_increase_prestige: "우리의 외교적 비중 상승"
+ FST_increase_prestige: "우리의 외교적 비중 상승"
+ RWS_increase_prestige: "우리의 외교적 비중 상승"
+ SIB_increase_prestige: "우리의 외교적 비중 상승"
+
+ WSR_war_category: "우랄 전쟁"
+ WSR_war_category_desc: "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 현실이 되었고, 의심의 여지없이 동쪽의 적들도 이에 대비하고 있습니다.\n\n전략적인 우위를 점하고, 우리의 적을 물리치기 위해, §Y준비도§!를 높혀야 합니다. 이러한 규모의 전쟁에서는 우리의 신생국가를 운에 맡기지 않는 것처럼, 중대한 사안을 남기지 않는 것이 최선입니다.\n\n우리의 현재 §Y준비도§!는 §Y[?RUSWarPreparedness]%§!이며, 우리가 선전 포고를 하기 위해서는 §Y준비도§!가 반드시 §Y75%§!를 넘어야 합니다.\n\n§Y공격을 개시하기 전에 더 높은 수준의 준비도를 갖춘다면 상황이 우리에게 유리해질 것입니다.§!"
+
+ WSR_launch_attack_on_WSB: "침공 시작"
+ WSR_cross_the_urals: "우랄 건너기"
+ WSR_establish_ural_fortifications: "우랄 요새 건설"
+ WSR_prepare_vorkuta_defenses: "보르쿠타 국경 준비"
+ WSR_survey_eastern_positions: "동부 지형 조사"
+ WSR_eastern_airbase_expansion: "동부 공군기지 확장"
+ WSR_develop_ural_supply_chain: "우랄 보급로 확보"
+ WSR_infiltrate_siberian_intelligence_service: "적 정보국 침투"
+ WSR_raise_additional_reserves: "추가 예산 확보"
+
+ WSR_establish_ural_fortifications_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ WSR_prepare_vorkuta_defenses_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ WSR_eastern_airbase_expansion_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ WSR_survey_eastern_positions_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+ WSR_develop_ural_supply_chain_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ WSR_infiltrate_siberian_intelligence_service_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ WSR_raise_additional_reserves_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+
+ WSB_war_category: "우랄 전쟁"
+ WSB_war_category_desc: "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 현실이 되었고, 의심의 여지없이 서쪽의 적들도 이에 대비하고 있습니다.\n\n전략적인 우위를 점하고, 우리의 적을 물리치기 위해, §Y준비도§!를 높혀야 합니다. 이러한 규모의 전쟁에서는 우리의 신생국가를 운에 맡기지 않는 것처럼, 중대한 사안을 남기지 않는 것이 최선입니다.\n\n우리의 현재 §Y준비도§!는 §Y[?RUSWarPreparedness]%§!이며, 우리가 선전 포고를 하기 위해서는 §Y준비도§!가 반드시 §Y75%§!를 넘어야 합니다.\n\n§Y공격을 개시하기 전에 더 높은 수준의 준비도를 갖춘다면 상황이 우리에게 유리해질 것입니다.§!"
+
+ WSB_launch_attack_on_WSR: "침공 시작"
+ WSB_cross_the_urals: "우랄 건너기"
+ WSB_establish_ural_fortifications: "우랄 요새 건설"
+ WSB_fortify_vorkuta_beachhead: "보르쿠타 교두보 요새화"
+ WSB_survey_western_positions: "서부 지형 조사"
+ WSB_convert_industrial_centers: "산업 중심지 전환"
+ WSB_develop_ural_supply_chain: "우랄 보급로 확보"
+ WSB_infiltrate_russian_intelligence_service: "적 정보국 침투"
+ WSB_raise_additional_reserves: "추가 예산 확보"
+
+ WSB_establish_ural_fortifications_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ WSB_fortify_vorkuta_beachhead_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ WSB_survey_western_positions_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ WSB_convert_industrial_centers_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+ WSB_develop_ural_supply_chain_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ WSB_infiltrate_russian_intelligence_service_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ WSB_raise_additional_reserves_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+
+ CSB_war_category: "제2차 시베리아 전쟁"
+ CSB_war_category_desc: "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 현실이 되었고, 의심의 여지없이 동쪽의 적들도 이에 대비하고 있습니다.\n\n전략적인 우위를 점하고, 우리의 적을 물리치기 위해, §Y준비도§!를 높혀야 합니다. 이러한 규모의 전쟁에서는 우리의 신생국가를 운에 맡기지 않는 것처럼, 중대한 사안을 남기지 않는 것이 최선입니다.\n\n우리의 현재 §Y준비도§!는 §Y[?RUSWarPreparedness]%§!이며, 우리가 선전 포고를 하기 위해서는 §Y준비도§!가 반드시 §Y75%§!를 넘어야 합니다.\n\n§Y공격을 개시하기 전에 더 높은 수준의 준비도를 갖춘다면 상황이 우리에게 유리해질 것입니다.§!"
+
+ CSB_launch_attack_on_FST: "침공 시작"
+ CSB_cross_the_border: "동쪽 휩쓸기"
+ CSB_establish_eastern_fortifications: "동부 요새 건설"
+ CSB_fortify_fallback_lines: "철수선 강화"
+ CSB_mobilize_airmobile_units: "공수부대 동원"
+ CSB_prepare_industrial_centers: "산업 중심지 준비"
+ CSB_develop_siberian_railways: "시베리아 철도 개발"
+ CSB_infiltrate_far_eastern_intelligence_service: "적 정보국 침투"
+ CSB_raise_additional_reserves: "추가 예산 확보"
+
+ CSB_establish_eastern_fortifications_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ CSB_fortify_fallback_lines_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ CSB_mobilize_airmobile_units_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ CSB_prepare_industrial_centers_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+ CSB_develop_siberian_railways_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ CSB_infiltrate_far_eastern_intelligence_service_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ CSB_raise_additional_reserves_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+
+ FST_war_category: "제2차 시베리아 전쟁"
+ FST_war_category_desc: "외교적 해법은 실패했습니다. 전쟁을 통한 시베리아 통일은 가능성에서 현실이 되었고, 의심의 여지없이 서쪽의 적들도 이에 대비하고 있습니다.\n\n전략적인 우위를 점하고, 우리의 적을 물리치기 위해, §Y준비도§!를 높혀야 합니다. 이러한 규모의 전쟁에서는 우리의 신생국가를 운에 맡기지 않는 것처럼, 중대한 사안을 남기지 않는 것이 최선입니다.\n\n우리의 현재 §Y준비도§!는 §Y[?RUSWarPreparedness]%§!이며, 우리가 선전 포고를 하기 위해서는 §Y준비도§!가 반드시 §Y75%§!를 넘어야 합니다.\n\n§Y공격을 개시하기 전에 더 높은 수준의 준비도를 갖춘다면 상황이 우리에게 유리해질 것입니다.§!"
+
+ FST_launch_attack_on_CSB: "침공 시작"
+ FST_cross_the_border: "서쪽 휩쓸기"
+ FST_establish_western_fortifications: "서부 요새 건설"
+ FST_establish_baikal_line: "바이칼 선 확립"
+ FST_survey_western_positions: "서부 위치 조사"
+ FST_convert_industrial_centers: "산업 중심지 전환"
+ FST_develop_trans_siberian_railroad: "트란스-시베리아 철도 개발"
+ FST_infiltrate_siberian_intelligence_service: "적 정보국 침투"
+ FST_raise_additional_reserves: "추가 예산 확보"
+
+ FST_establish_western_fortifications_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ FST_establish_baikal_line_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ FST_survey_western_positions_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ FST_convert_industrial_centers_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+ FST_develop_trans_siberian_railroad_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ FST_infiltrate_siberian_intelligence_service_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ FST_raise_additional_reserves_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+
+ RWS_war_category: "러시아 재통일 전쟁"
+ RWS_war_category_desc: "외교적 해법은 실패했습니다. 전쟁을 통한 모국 전체의 통일은 가능성에서 현실이 되었고, 의심의 여지없이 동쪽의 적들도 이에 대비하고 있습니다.\n\n전략적인 우위를 점하고, 우리의 적을 물리치기 위해, §Y준비도§!를 높혀야 합니다. 이러한 규모의 전쟁에서는 우리의 신생국가를 운에 맡기지 않는 것처럼, 중대한 사안을 남기지 않는 것이 최선입니다.\n\n우리의 현재 §Y준비도§!는 §Y[?RUSWarPreparedness]%§!이며, 우리가 선전 포고를 하기 위해서는 §Y준비도§!가 반드시 §Y75%§!를 넘어야 합니다.\n\n§Y공격을 개시하기 전에 더 높은 수준의 준비도를 갖춘다면 상황이 우리에게 유리해질 것입니다.§!"
+ RWS_launch_attack_on_SIB: "시베리아 타격"
+ RWS_cross_the_border: "동쪽 휩쓸기"
+ RWS_establish_eastern_fortifications: "동부 요새 건설"
+ RWS_fortify_fallback_lines: "철수선 강화"
+ RWS_mobilize_airmobile_units: "공수부대 동원"
+ RWS_prepare_industrial_centers: "전시 생산 대비"
+ RWS_develop_siberian_railways: "동부 철도 개발"
+ RWS_infiltrate_siberian_intelligence_service: "시베리아 정부 기관 침투"
+ RWS_raise_additional_reserves: "긴급 예산 상승"
+
+ RWS_establish_eastern_fortifications_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ RWS_fortify_fallback_lines_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ RWS_mobilize_airmobile_units_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ RWS_prepare_industrial_centers_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+ RWS_develop_siberian_railways_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ RWS_infiltrate_siberian_intelligence_service_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ RWS_raise_additional_reserves_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+
+ SIB_war_category: "러시아 재통일 전쟁"
+ SIB_war_category_desc: "외교적 해법은 실패했습니다. 전쟁을 통한 모국 전체의 통일은 가능성에서 현실이 되었고, 의심의 여지없이 서쪽의 적들도 이에 대비하고 있습니다.\n\n전략적인 우위를 점하고, 우리의 적을 물리치기 위해, §Y준비도§!를 높혀야 합니다. 이러한 규모의 전쟁에서는 우리의 신생국가를 운에 맡기지 않는 것처럼, 중대한 사안을 남기지 않는 것이 최선입니다.\n\n우리의 현재 §Y준비도§!는 §Y[?RUSWarPreparedness]%§!이며, 우리가 선전 포고를 하기 위해서는 §Y준비도§!가 반드시 §Y75%§!를 넘어야 합니다.\n\n§Y공격을 개시하기 전에 더 높은 수준의 준비도를 갖춘다면 상황이 우리에게 유리해질 것입니다.§!"
+ SIB_launch_attack_on_RWS: "러시아 타격"
+ SIB_cross_the_border: "서쪽 휩쓸기"
+ SIB_establish_western_fortifications: "서부 요새 건설"
+ SIB_fortify_fallback_lines: "철수선 강화"
+ SIB_mobilize_airmobile_units: "공수부대 동원"
+ SIB_prepare_industrial_centers: "전시 생산 대비"
+ SIB_develop_siberian_railways: "서부 철도 개발"
+ SIB_infiltrate_russian_intelligence_service: "러시아 정부 기관 침투"
+ SIB_raise_additional_reserves: "긴급 예산 상승"
+ 
+ SIB_establish_western_fortifications_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ SIB_fortify_fallback_lines_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ SIB_mobilize_airmobile_units_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ SIB_prepare_industrial_centers_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+ SIB_develop_siberian_railways_tt: "§Y준비도§!가 §Y20§!% 상승합니다."
+ SIB_infiltrate_russian_intelligence_service_tt: "§Y준비도§!가 §Y10§!% 상승합니다."
+ SIB_raise_additional_reserves_tt: "§Y준비도§!가 §Y15§!% 상승합니다."
+ 
+ SIB_FINAL_CONFERENCE: "§Y최종 통일 회담§!이 개최됩니다."
+ SIB_PRELIM_CONFERENCE: "§Y예비 통일 회담§!이 개최됩니다."
+ SIB_DECLARE_FRIENDSHIP: "§Y우호 선언§!이 서명되었습니다."
+ SIB_NAP: "§Y불가침 협정§!이 서명되었습니다."
+ SIB_BORDER_TREATY: "§Y국경 통행 조약§!이 서명되었습니다."
+ SIB_held_preliminary_conference: "A preliminary conference has been held."
+
+ RWS_FINAL_CONFERENCE: "§Y최종 통일 회담§!이 개최됩니다."
+ RWS_PRELIM_CONFERENCE: "§Y예비 통일 회담§!이 개최됩니다."
+ RWS_DECLARE_FRIENDSHIP: "§Y우호 선언§!이 서명되었습니다."
+ RWS_NAP: "§Y불가침 협정§!이 서명되었습니다."
+ RWS_BORDER_TREATY: "§Y국경 통행 조약§!이 서명되었습니다."
+ RWS_held_preliminary_conference: "A preliminary conference has been held."
+
+ RUS_FINAL_CONFERENCE: "§Y최종 통일 회담§!이 개최됩니다."
+ RUS_PRELIM_CONFERENCE: "§Y예비 통일 회담§!이 개최됩니다."
+ RUS_DECLARE_FRIENDSHIP: "§Y우호 선언§!이 서명되었습니다."
+ RUS_NAP: "§Y불가침 협정§!이 서명되었습니다."
+ RUS_BORDER_TREATY: "§Y국경 통행 조약§!이 서명되었습니다."
+ RUS_held_preliminary_conference: "A preliminary conference has been held."
+
+ RUS_unification_conference_warning_tt: "성공한다면, §l외교적 비중§!이 더 §G높은§! 국가가 §R다른 국가§!를 병합합니다."
+ RUS_unification_gameover_tt: "당신이 §R낮은§! §l외교적 비중§!을 가지고 있기 때문에 §R게임이 끝날 것입니다§!."
+ 
+ ### West Russia ###
+ west_russia_reunification: "[ROOT.GetWestRussianReunificationTitle]"
+ west_russia_reunification_desc: "[ROOT.GetWestRussianReunificationDesc]"
+
+ RUS_VYT_west_russia: "§Y서러시아 자주국§! 수립"
+ RUS_VYT_west_russia_desc: "우리는 모든 볼셰비키와 독일인 추종자들이 쫓겨난 서러시아의 잿더미 속에서 의기양양하게 서 있습니다. 이제 우리는 모든 러시아를 제치고 블라디미르 3세가 진정한 통치자이며, 우리가 진정한 정부임을 제대로 선언할 때입니다. 신이시여 차르를 구하소서!"
+
+ RUS_KOM_west_russia: "§Y[ROOT.GetKomiIdeologyTitle]§! 수립"
+ RUS_KOM_west_russia_desc: "우리는 러시아 서부의 모든 주요 도시를 장악하고 있습니다. 우리나라가 형편없고 거짓된 국가라고 말했던 이들은, 이제 우리의 상승가도 뒤로 잊혀졌습니다. 조국의 완전한 해방을 향해 계속 나아가 진정한 러시아 정부로서의 진정한 지위를 주장합시다!"
+
+ RUS_PRM_west_russia: "§Y순수 아리안 형제단§! 수립"
+ RUS_PRM_west_russia_desc: "한때 러시아의 모퉁이가 우리 앞에 굴복했습니다! 러시아의 나머지 지역을 통합하기 위해 아리아인이 부여한 임무가 우리 앞에 놓여있는 한, 이 땅에서 우리의 위치를 공고히 해야 합니다. 정화를 시작합시다!"
+
+ RUS_SAM_west_russia: "§Y서러시아 임시 위원회§! 수립"
+ RUS_SAM_west_russia_desc: "우리는 러시아 서부의 모든 주요 도시를 장악하고 있습니다. 우리 군대가 전국을 휩쓸자 러시아의 정신이 솟구쳐 올라옵니다! 우리의 영광스러운 지위에 걸맞는 새로운 이름이 필요합니다."
+
+ RUS_WRS_west_russia: "§Y서러시아 혁명전선§!의 복원"
+ RUS_WRS_west_russia_desc: "마침내, 1950년대의 실패한 해방으로부터의 치욕이 뒤집혔습니다. 우리는 다시 한번 서러시아를 통제하고 있습니다! 모든것은 연방을 위하여, 우리는 앞을 향해 전진하리라!"
+
+
+ RUS_somethings_wrong: "디버그--뭔가 잘못됨"
+ RUS_somethings_wrong_desc: "lmao 누가 지랄해놨네"
+ 
+ RUS_end_warlord_tt: "우리 국가는 더 나은 정치, 산업, 군사, 외교 선택지를 운용할 수 있는 §Y지역 단계§!로 진입할 것입니다.\n"
+
+ ### West Siberia ###
+ west_siberia_reunification: "[ROOT.GetWestSiberianReunificationTitle]"
+ west_siberia_reunification_desc: "[ROOT.GetWestSiberianReunificationDesc]"
+
+ RUS_TYM_west_siberia: "§Y서시베리아 인민 공화국§! 수립"
+ RUS_TYM_west_siberia_desc: "우리는 서부 시베리아의 모든 주요 도시를 장악하고 있습니다. 사회주의가 널리 퍼지면서 국민들도 동참합니다! 곧, 우리는 붉은 깃발 아래, 모두를 위한 빵과 장미로 러시아를 통일할 것입니다!"
+ RUS_OMS_west_siberia: "§Y서시베리아 임시정부§! 수립"
+ RUS_OMS_west_siberia_desc: "우리는 서부 시베리아의 모든 주요 도시를 장악하고 있습니다. 러시아 전역과 전 세계에 그 어떤 것도 서시베리아 임시정부와 복수를 가로막지 않을 것임을 선언할 때가 왔습니다."
+ RUS_SVR_west_siberia: "§Y서시베리아 군구§! 수립"
+ RUS_SVR_west_siberia_desc: "우리는 서부 시베리아의 모든 주요 도시를 장악하고 있습니다. 원수는 러시아의 모든 국민은 자신의 보호를 받고 있으며, 모든 국민이 하나의 깃발 아래 모여들거나 파괴될 때가 되었다고 선언했습니다."
+ 
+ ### Central Siberia ###
+ central_siberia_reunification: "[ROOT.GetCentralSiberianReunificationTitle]"
+ central_siberia_reunification_desc: "[ROOT.GetCentralSiberianReunificationDesc]"
+
+ RUS_TOM_central_siberia: "§Y중앙 시베리아 공화국§! 수립"
+ RUS_TOM_central_siberia_desc: "우리는 중앙 시베리아에 있는 모든 주요 도시들을 장악하고 있습니다. 이제 우리는 중앙 시베리아 공화국이 민주주의의 등불임을 모두에게 선언할 것이며, 더 중요한 것은 모든 러시아인들의 희망이 된다는 것입니다."
+ RUS_TOM_HUM_central_siberia: "§Y시베리아 연방§! 수립"
+ RUS_TOM_HUM_central_siberia_desc: "우리는 중앙 시베리아에 있는 모든 주요 도시들을 장악하고 있습니다. 이제 우리는 중앙 시베리아 공화국이 민주주의의 등불임을 모두에게 선언할 것이며, 더 중요한 것은 모든 러시아인들의 희망이 된다는 것입니다."
+ RUS_KEM_central_siberia: "§Y중앙 시베리아 대공국§! 수립"
+ RUS_KEM_central_siberia_desc: "우리는 중앙 시베리아에 있는 모든 주요 도시들을 장악하고 있습니다. 러시아 전역에 대한 정당한 권위를 가진 류리크 왕정이 이곳에 다시 세워졌고, 우리는 이것을 세계에 선포할 것입니다!"
+ RUS_SBA_central_siberia: "§Y시베리아 자유 지구§! 수립"
+ RUS_SBA_central_siberia_desc: "우리는 중앙 시베리아에 있는 모든 주요 도시들을 장악하고 있습니다. 여기서부터, 우리는 국가주의자의 억압과 착취로부터 자유롭고 새로운 러시아를 만들 것이며, 이는 마흐노의 비전에 충실한 러시아입니다. 무정부주의자 혁명 만세!"
+ RUS_KRS_central_siberia: "§Y중앙시베리아 연방§! 수립"
+ RUS_KRS_central_siberia_desc: "우리는 중앙 시베리아에 있는 모든 주요 도시들을 장악하고 있습니다. 새로운 국가를 만들어 봅시다."
+ RUS_NOV_central_siberia: "§Y중앙시베리아 연방§! 수립"
+ RUS_NOV_central_siberia_desc: "우리는 중앙 시베리아에 있는 모든 주요 도시들을 장악하고 있습니다. 포크리슈킨 원수의 지휘 아래 옛 시베리아 공화국의 잿더미에서 새로운 시베리아 공화국을 세우고, 모국 재건설을 시작할 것입니다."
+ RUS_PRC_central_siberia: "§Y임시 중앙 시베리아 혁명위원회§! 수립"
+ RUS_PRC_central_siberia_desc: "우리는 중앙 시베리아에 있는 모든 주요 도시들을 장악하고 있습니다. 동지들, 러시아 해방의 첫걸음이 완료됐습니다! 사회주의를 위해! 어머니 러시아를 위해!"
+
+ ### Far East ###
+ far_east_reunification: "[ROOT.GetFarEasternReunificationTitle]"
+ far_east_reunification_desc: "[ROOT.GetFarEasternReunificationDesc]"
+
+ RUS_AMR_far_east: "§Y극동 전-러시아 정부§! 수립"
+ RUS_AMR_far_east_desc: "극동 러시아 전체가 우리 통제하에 있습니다. 보즈드께서는 우리만이 진정한 러시아 정부임을 발표하셨고 모국 복원을 시작하셨습니다. 하느님, 국가, 노동을 위해!"
+ RUS_BRY_far_east: "§Y극동 소비에트 공화국§! 수립"
+ RUS_BRY_far_east_desc: "폭군들은 패배했고 혁명의 붉은 깃발은 러시아 극동 지역에 자랑스럽게 나부끼고 있습니다. 이제 새로운 소비에트 공화국의 설립을 선언할 때이며, 곧 붉은 깃발이 모스크바와 레닌그라드의 하늘에 다시 물결칠 것입니다!"
+ RUS_IRK_far_east: "§Y극동 소비에트 사회주의 공화국§!의 복원"
+ RUS_IRK_far_east_desc: "우리는 극동 러시아의 수정주의자, 반동주의자, 파시스트들을 물리쳤습니다. 이제 우리는 소비에트 연방의 부활을 시작할 수 있고 서쪽의 땅을 평정할 수 있습니다. 야고다 동지를 위해 만세 삼창 합시다!"
+ RUS_MAG_far_east: "§Y시베리아 국민 공화국§! 수립"
+ RUS_MAG_far_east_desc: "우리는 극동 러시아의 모든 주요 도시를 장악하고 있습니다. 우리의 핵심 지역과 확보되고, 인력과 자원이 풍부해지면, 곧 러시아의 국기가 다시 한번 크레믈린궁에서 펄럭일 것입니다!"
+ RUS_MAG_WA_far_east: "§Y시베리아 합중국§!의 통제"
+ RUS_MAG_WA_far_east_desc: "대장님! 극동 러시아 지역의 주요한 평정 작전은 모두 끝났습니다. 즉시 우리의 모든 위치를 보강해야합니다."
+ RUS_CHT_far_east: "§Y극동 제국 영역§! 수립"
+ RUS_CHT_far_east_desc: "러시아 극동에 제국의 권위가 회복되었습니다. 이제, 우리는 스스로를 모든 러시아를 제치고 미하일 2세가 진정한 통치자이며 우리가 진정한 정부라고 선언했습니다. 신이시여 차르 미하일 2세를 구하소서!"
+ RUS_OMO_far_east: "§Y시베리아 신성통치령§! 수립"
+ RUS_OMO_far_east_desc: "우리는 극동 러시아의 모든 주요 도시를 장악하고 있습니다. 하지만 모국과 백성들은 여전히 구원이 필요합니다. 우리는 러시아의 모든 잃어버린 영혼들에게 주님과 그의 빛을 가져다 줄 것입니다. 아멘."
+ 
+ ### Kazakhstan ###
+ kazakhstan_reunification: "[ROOT.GetKazakhstanReunificationTitle]"
+ kazakhstan_reunification_desc: "[ROOT.GetKazakhstanReunificationDesc]"
+ 
+ KAZ_AKT_kazakhstan: "Form the §YKazakh State§!"
+ KAZ_ARL_kazakhstan: "Form the §YNational Republic of Kazakhstan§!"
+ KAZ_DER_kazakhstan: "Form the §YIslamic Republic of Kazakhstan§!"
+ KAZ_NPL_kazakhstan: "Solidify §YControl over Kazakhstan§!"
+ KAZ_KAZ_kazakhstan: "Form the §YKazakh Soviet Socialist Republic§!"
+ KAZ_KOK_kazakhstan: "Form the §YKazakh Khanate§!"
+ KAZ_PAV_kazakhstan: "Form the §YRepublic of Kazakhstan§!"
+
+
+ # Unification Events
+ russia_unification.0.t: "얼어붙은 날들"
+ russia_unification.0.d: "유감스럽게도, 일련의 움직임을 보아 [FROM.GetNameDef]와의 평화에 대한 희망은 물거품이 된 것 같습니다. [FROM.Capital.GetName]에서의 성명문에서, [FROM.GetAdjective]은 우리가 러시아 전체를 재통일 하기 위한 길을 가로막는 불법 국가라고 주장했습니다. 이 적대적 선언의 결과로, 놈들의 국경 내에 있는 우리의 모든 시민들을 추방했습니다.\n\n놈들의 군대가 움직이기 시작했고, 구름이 지평선을 그리면서, 우리의 이해 충돌은 협상 테이블이 아닌 전쟁터에서 해결되어야 할 것으로 보입니다."
+ russia_unification.0.a: "걱정되는군."
+
+ russia_unification.1.t: "최후의 결전"
+ russia_unification.1.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 이제는 벼랑에 서 있습니다. 러시아의 광활한 영토는 광대하며, [ROOT.GetName]은 상당 부분을 장악하고 있지만, 여전히 정복해야 할 지역이 훨씬 더 많습니다. 우리 앞에 닥친 전쟁은 우리 군대가 이전에 치뤘던 모든 전쟁과는 다르기 때문에 반드시 준비해야 합니다. [GetOtherRegionalName]은 사라질 것입니다."
+ russia_unification.1.a: "마지막에 누가 우뚝 설지 지켜보지."
+ 
+ russia_unification.2.t: "펼쳐진 올리브 가지"
+ russia_unification.2.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 하지만, 지금 직면한 상황은 좀 특별합니다. [GetOtherRegionalDef]은 우리와 호의적인 정부이기 때문에, 피흘리는 것을 원치 않습니다. 우리는 양국을 하나로 묶는 길고 힘든 과정을 거칠 것이며, 그래야만이 나머지 러시아가 우리 시야에 들어왔을때 우리가 완강히 버틸 수 있을 것입니다. 이는 우리 행정부에 대한 규제를 강화할 것이지만, 결국 그럴만한 가치가 있을 것입니다."
+ russia_unification.2.a: "계속 밀어 붙여라."
+
+ russia_unification.3.t: "최후의 결전"
+ russia_unification.3.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 이제는 벼랑에 서 있습니다. 러시아의 광활한 영토는 광대하며, [ROOT.GetName]은 상당 부분을 장악하고 있지만, 여전히 정복해야 할 지역이 훨씬 더 많습니다. 우리 앞에 닥친 전쟁은 우리 군대가 이전에 치뤘던 모든 전쟁과는 다르기 때문에 반드시 준비해야 합니다. [GetOtherRegionalName]은 사라질 것입니다."
+ russia_unification.3.a: "마지막에 누가 우뚝 설지 지켜보지."
+
+ russia_unification.4.t: "펼쳐진 올리브 가지"
+ russia_unification.4.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 하지만, 지금 직면한 상황은 좀 특별합니다. [GetOtherRegionalDef]은 우리와 호의적인 정부이기 때문에, 피흘리는 것을 원치 않습니다. 우리는 양국을 하나로 묶는 길고 힘든 과정을 거칠 것이며, 그래야만이 나머지 러시아가 우리 시야에 들어왔을때 우리가 완강히 버틸 수 있을 것입니다. 이는 우리 행정부에 대한 규제를 강화할 것이지만, 결국 그럴만한 가치가 있을 것입니다."
+ russia_unification.4.a: "계속 밀어 붙여라."
+
+ russia_unification.5.t: "최후의 결전"
+ russia_unification.5.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 이제는 벼랑에 서 있습니다. 러시아의 광활한 영토는 광대하며, [ROOT.GetName]은 상당 부분을 장악하고 있지만, 여전히 정복해야 할 지역이 훨씬 더 많습니다. 우리 앞에 닥친 전쟁은 우리 군대가 이전에 치뤘던 모든 전쟁과는 다르기 때문에 반드시 준비해야 합니다. [GetOtherRegionalName]은 사라질 것입니다."
+ russia_unification.5.a: "끝에서 누가 서있을지 지켜보지."
+
+ russia_unification.6.t: "펼쳐진 올리브 가지"
+ russia_unification.6.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 하지만, 지금 직면한 상황은 좀 특별합니다. [GetOtherRegionalDef]은 우리와 호의적인 정부이기 때문에, 피흘리는 것을 원치 않습니다. 우리는 양국을 하나로 묶는 길고 힘든 과정을 거칠 것이며, 그래야만이 나머지 러시아가 우리 시야에 들어왔을때 우리가 완강히 버틸 수 있을 것입니다. 이는 우리 행정부에 대한 규제를 강화할 것이지만, 결국 그럴만한 가치가 있을 것입니다."
+ russia_unification.6.a: "모든 걸 밀어 붙여라."
+
+ russia_unification.7.t: "최후의 결전"
+ russia_unification.7.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 이제는 벼랑에 서 있습니다. 러시아의 광활한 영토는 광대하며, [ROOT.GetName]은 상당 부분을 장악하고 있지만, 여전히 정복해야 할 지역이 훨씬 더 많습니다. 우리 앞에 닥친 전쟁은 우리 군대가 이전에 치뤘던 모든 전쟁과는 다르기 때문에 반드시 준비해야 합니다. [GetOtherRegionalName]은 사라질 것입니다."
+ russia_unification.7.a: "끝에서 누가 서있을지 지켜보지."
+
+ russia_unification.8.t: "펼쳐진 올리브 가지"
+ russia_unification.8.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 하지만, 지금 직면한 상황은 좀 특별합니다. [GetOtherRegionalDef]은 우리와 호의적인 정부이기 때문에, 피흘리는 것을 원치 않습니다. 우리는 양국을 하나로 묶는 길고 힘든 과정을 거칠 것이며, 그래야만이 나머지 러시아가 우리 시야에 들어왔을때 우리가 완강히 버틸 수 있을 것입니다. 이는 우리 행정부에 대한 규제를 강화할 것이지만, 결국 그럴만한 가치가 있을 것입니다."
+ russia_unification.8.a: "모든 걸 밀어 붙여라."
+
+ russia_unification.9.t: "수평선 위로 드러난 전쟁"
+ russia_unification.9.d: "[GetOtherRegionalDef]의 군대가 우리 국경에 집결하기 시작했습니다. 요새화된 방어 진지와 군사 작전이 점차 보이게 되면서 놈들의 의도가 명확해졌습니다. 전쟁이 우리 앞에 다가올 것이고, 전선에서 압도당하지 않으려면 빨리 군대를 동원해야 합니다. 놈들의 군대는 우리의 패기를 시험할 것이지만 놈들의 의지가 먼저 깨질 것이며, 우리나라는 러시아에서 승리할 것입니다."
+ russia_unification.9.a: "승자가 모든 걸 가져간다."
+
+ russia_unification.10.t: "몰려오는 전운"
+ russia_unification.10.d: "우리보다 먼저 [GetOtherRegionalName]가 모든 준비를 마쳤습니다. 위험천만한 러시아에서는 동맹국의 문제는 신경쓸 정도로 중요하진 않았지만, 여기서는 예외가 되었습니다. 놈들의 군대가 우리의 모든 국경에 대치하여 집결하고 있습니다. 우리 둘 중 무엇을 원하든, 이 싸움은 그 누구도 지고 싶지 않을 것입니다. 우리는 완전히 통합되어있진 않지만, 생존을 위한 싸움에는 공통점이 있습니다. 전쟁이 빠르게 다가오고 있기에, 군대를 동원하는데 지체할 틈이 없을 것입니다."
+ russia_unification.10.a: "놈들이 온다."
+
+ russia_unification.11.t: "수평선 위로 드러난 전쟁"
+ russia_unification.11.d: "[GetOtherRegionalDef]의 군대가 우리 국경에 집결하기 시작했습니다. 요새화된 방어 진지와 군사 작전이 점차 보이게 되면서 놈들의 의도가 명확해졌습니다. 전쟁이 우리 앞에 다가올 것이고, 전선에서 압도당하지 않으려면 빨리 군대를 동원해야 합니다. 놈들의 군대는 우리의 패기를 시험할 것이지만 놈들의 의지가 먼저 깨질 것이며, 우리나라는 러시아에서 승리할 것입니다."
+ russia_unification.11.a: "승자가 모든 걸 가져간다."
+ 
+ russia_unification.12.t: "몰려오는 전운"
+ russia_unification.12.d: "우리보다 먼저 [GetOtherRegionalName]가 모든 준비를 마쳤습니다. 위험천만한 러시아에서는 동맹국의 문제는 신경쓸 정도로 중요하진 않았지만, 여기서는 예외가 되었습니다. 놈들의 군대가 우리의 모든 국경에 대치하여 집결하고 있습니다. 우리 둘 중 무엇을 원하든, 이 싸움은 그 누구도 지고 싶지 않을 것입니다. 우리는 완전히 통합되어있진 않지만, 생존을 위한 싸움에는 공통점이 있습니다. 전쟁이 빠르게 다가오고 있기에, 군대를 동원하는데 지체할 틈이 없을 것입니다."
+ russia_unification.12.a: "놈들이 온다."
+
+ russia_unification.13.t: "수평선 위로 드러난 전쟁"
+ russia_unification.13.d: "[GetOtherRegionalDef]의 군대가 우리 국경에 집결하기 시작했습니다. 요새화된 방어 진지와 군사 작전이 점차 보이게 되면서 놈들의 의도가 명확해졌습니다. 전쟁이 우리 앞에 다가올 것이고, 전선에서 압도당하지 않으려면 빨리 군대를 동원해야 합니다. 놈들의 군대는 우리의 패기를 시험할 것이지만 놈들의 의지가 먼저 깨질 것이며, 우리나라는 러시아에서 승리할 것입니다."
+ russia_unification.13.a: "승자가 모든 걸 가져간다."
+
+ russia_unification.14.t: "몰려오는 전운"
+ russia_unification.14.d: "우리보다 먼저 [GetOtherRegionalName]가 모든 준비를 마쳤습니다. 위험천만한 러시아에서는 동맹국의 문제는 신경쓸 정도로 중요하진 않았지만, 여기서는 예외가 되었습니다. 놈들의 군대가 우리의 모든 국경에 대치하여 집결하고 있습니다. 우리 둘 중 무엇을 원하든, 이 싸움은 그 누구도 지고 싶지 않을 것입니다. 우리는 완전히 통합되어있진 않지만, 생존을 위한 싸움에는 공통점이 있습니다. 전쟁이 빠르게 다가오고 있기에, 군대를 동원하는데 지체할 틈이 없을 것입니다."
+ russia_unification.14.a: "놈들이 온다."
+
+ russia_unification.15.t: "수평선 위로 드러난 전쟁"
+ russia_unification.15.d: "[GetOtherRegionalDef]의 군대가 우리 국경에 집결하기 시작했습니다. 요새화된 방어 진지와 군사 작전이 점차 보이게 되면서 놈들의 의도가 명확해졌습니다. 전쟁이 우리 앞에 다가올 것이고, 전선에서 압도당하지 않으려면 빨리 군대를 동원해야 합니다. 놈들의 군대는 우리의 패기를 시험할 것이지만 놈들의 의지가 먼저 깨질 것이며, 우리나라는 러시아에서 승리할 것입니다."
+ russia_unification.15.a: "승자가 모든 걸 가져간다."
+
+ russia_unification.16.t: "몰려오는 전운"
+ russia_unification.16.d: "우리보다 먼저 [GetOtherRegionalName]가 모든 준비를 마쳤습니다. 위험천만한 러시아에서는 동맹국의 문제는 신경쓸 정도로 중요하진 않았지만, 여기서는 예외가 되었습니다. 놈들의 군대가 우리의 모든 국경에 대치하여 집결하고 있습니다. 우리 둘 중 무엇을 원하든, 이 싸움은 그 누구도 지고 싶지 않을 것입니다. 우리는 완전히 통합되어있진 않지만, 생존을 위한 싸움에는 공통점이 있습니다. 전쟁이 빠르게 다가오고 있기에, 군대를 동원하는데 지체할 틈이 없을 것입니다."
+ russia_unification.16.a: "놈들이 온다."
+
+ russia_unification.17.t: "최후의 결전"
+ russia_unification.17.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 이제는 벼랑에 서 있습니다. 러시아의 광활한 영토는 광대하며, [ROOT.GetName]은 상당 부분을 장악하고 있지만, 여전히 정복해야 할 지역이 훨씬 더 많습니다. 우리 앞에 닥친 전쟁은 우리 군대가 이전에 치뤘던 모든 전쟁과는 다르기 때문에 반드시 준비해야 합니다. [GetOtherRegionalName]은 사라질 것입니다."
+ russia_unification.17.a: "마지막 충돌이군."
+
+ russia_unification.18.t: "펼쳐진 올리브 가지"
+ russia_unification.18.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 하지만, 지금 직면한 상황은 좀 특별합니다. [GetOtherRegionalDef]은 우리와 호의적인 정부이기 때문에, 피흘리는 것을 원치 않습니다. 우리는 양국을 하나로 묶는 길고 힘든 과정을 거칠 것이며, 그래야만이 나머지 러시아가 우리 시야에 들어왔을때 우리가 완강히 버틸 수 있을 것입니다. 이는 우리 행정부에 대한 규제를 강화할 것이지만, 결국 그럴만한 가치가 있을 것입니다."
+ russia_unification.18.a: "모든 걸 밀어 붙여라."
+
+ russia_unification.19.t: "최후의 결전"
+ russia_unification.19.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 이제는 벼랑에 서 있습니다. 러시아의 광활한 영토는 광대하며, [ROOT.GetName]은 상당 부분을 장악하고 있지만, 여전히 정복해야 할 지역이 훨씬 더 많습니다. 우리 앞에 닥친 전쟁은 우리 군대가 이전에 치뤘던 모든 전쟁과는 다르기 때문에 반드시 준비해야 합니다. [GetOtherRegionalName]은 사라질 것입니다."
+ russia_unification.19.a: "마지막 충돌이군."
+
+ russia_unification.20.t: "펼쳐진 올리브 가지"
+ russia_unification.20.d: "[ROOT.GetName]은 평화 통일이나 강제 전쟁을 통해, 자국의 장애물을 극복하고 그 과정에서 다른 모든 나라를 정복했습니다. 하지만, 지금 직면한 상황은 좀 특별합니다. [GetOtherRegionalDef]은 우리와 호의적인 정부이기 때문에, 피흘리는 것을 원치 않습니다. 우리는 양국을 하나로 묶는 길고 힘든 과정을 거칠 것이며, 그래야만이 나머지 러시아가 우리 시야에 들어왔을때 우리가 완강히 버틸 수 있을 것입니다. 이는 우리 행정부에 대한 규제를 강화할 것이지만, 결국 그럴만한 가치가 있을 것입니다."
+ russia_unification.20.a: "모든 걸 밀어 붙여라."
+
+ russia_unification.201.t: "마지막 전쟁"
+ russia_unification.201.d: "우리와 마찬가지로 [GetOtherRegionalDef] 또한 준비를 마친 것 같습니다. 실제로, 놈들의 군대는 지난 며칠간 국경 지대에 집중 배치되었다는 것을 모든 사람들이 손쉽게 볼 수 있었습니다. 러시아에는 최후의 두 세력만이 남아있습니다. 앞으로 닥칠 전쟁은 길고 피비린내 나는 전쟁이 될 것입니다. 하지만 승리하는 세력이 우리 민족을 완전히 통일하는 힘이 될 것입니다."
+ russia_unification.201.a: "We can only hope that it is us."
+
+ russia_unification.202.t: "마지막 전쟁"
+ russia_unification.202.d: "우리와 마찬가지로 [GetOtherRegionalDef] 또한 준비를 마친 것 같습니다. 실제로, 놈들의 군대는 지난 며칠간 국경 지대에 집중 배치되었다는 것을 모든 사람들이 손쉽게 볼 수 있었습니다. 러시아에는 최후의 두 세력만이 남아있습니다. 앞으로 닥칠 전쟁은 길고 피비린내 나는 전쟁이 될 것입니다. 하지만 승리하는 세력이 우리 민족을 완전히 통일하는 힘이 될 것입니다."
+ russia_unification.202.a: "We can only hope that it is us."
+
+ russia_unification.203.t: "다윗 대 골리앗"
+ russia_unification.203.d: "[GetOtherRegionalDef]가 거의 완전한 통합을 이뤄냈습니다. 이제 놈들의 굶주린 시선이 우리를 노려보는 것처럼 놈들의 총구가 우리를 응시하고 있습니다. 우리를 둘러싼 나라들은 동맹국이 아님에도 우리는 하나로 뭉칠 것입니다. 우리 모두를 전멸시킬 위협적인 이 거인을 쓰러뜨리지 않으면, [Get Other Regional Def]가 러시아 국민들의 운명을 결정지을 것입니다."
+ russia_unification.203.a: "두렵군."
+
+ russia_unification.204.t: "다윗 대 골리앗"
+ russia_unification.204.d: "[GetOtherRegionalDef]가 거의 완전한 통합을 이뤄냈습니다. 이제 놈들의 굶주린 시선이 우리를 노려보는 것처럼 놈들의 총구가 우리를 응시하고 있습니다. 우리를 둘러싼 나라들은 동맹국이 아님에도 우리는 하나로 뭉칠 것입니다. 우리 모두를 전멸시킬 위협적인 이 거인을 쓰러뜨리지 않으면, [Get Other Regional Def]가 러시아 국민들의 운명을 결정지을 것입니다."
+ russia_unification.204.a: "두렵군."
+
+ russia_unification.21.t: "우호선언 제안"
+ russia_unification.21.d: "[FROM.GetNameDef]로부터 양국이 좀 더 가까워질 합동 계획을 시작하자는 요청서가 도착했습니다. 우정의 표시와, 우리 정부와의 협력 등이 포함되어 있습니다. 어떤 방향으로 결정하느냐에 따라, 더 세부적인 합의로 이어질 수 있습니다. 받아들이겠습니까?"
+ russia_unification.21.a: "만세!"
+ russia_unification.21.b: "우린 필요 없다."
+ 
+ russia_unification.22.t: "우호선언 거부"
+ russia_unification.22.d: "[FROM.GetNameDef]로부터 좋지 않은 소식이 들려왔습니다. 이 암울한 시기에 연합을 원하는 우리의 열망에 보답하는 것 같지 않습니다. 더욱이, 재시도를 위한 정치부문 예산 지출액이 우리 정부가 감당하기에는 너무 많습니다. 다른 방법을 찾아야 합니다."
+ russia_unification.22.a: "한 경로가 닫혔다."
+
+ russia_unification.23.t: "우호선언 승인"
+ russia_unification.23.d: "좋은 소식입니다! [FROM.GetNameDef]가 양국을 더욱 가깝게 하기 위한 합의에 동의했습니다. 이로 인해 양국 관계에 즉각적인 효과가 있을 것이며, 어쩌면 미래의 통일 정서를 자극할지도 모릅니다."
+ russia_unification.23.a: "러시아가 하나로 행진한다."
+
+ russia_unification.24.t: "NAP 제안"
+ russia_unification.24.d: "After having agreed to a mutual declaration of friendship, [FROM.GetNameDef] has approached us with yet another offer. To cement our status as allies, they recommend that the border between our nations is only reduced to a skeleton crew of soldiers. This will show a sign that we do not need to fear each other, and that our population can rest at east knowing that one frontier is safe. Do we accept?"
+ russia_unification.24.a: "조약에 서명하자."
+ russia_unification.24.b: "조약을 거부하자."
+
+ russia_unification.25.t: "NAP 거부"
+ russia_unification.25.d: "While we have managed to get into step one with binding ourselves closer with [FROM.GetNameDef], they've unfortunately denied our non-aggression pact for reasons we cannot fully ascertain. Though our relations are not hostile, there is some disappointment in this fact. Trying again may backfire, so we will simply rest on what we have."
+ russia_unification.25.a: "부끄럽군."
+
+ russia_unification.26.t: "NAP 승인"
+ russia_unification.26.d: "[FROM.GetNameDef] has accepted our non-aggression pact! The effects of it shall come into play immediately, and if both sides are strict on enforcing it, it should mean lasting peace between our two nations. Not only that, the pact will bring a sense of solidarity in the war-torn lands of Russia."
+ russia_unification.26.a: "앞으로!"
+
+ russia_unification.27.t: "Foreign Trade Deal Proposed"
+ russia_unification.27.d: "Previously, our nation and [FROM.GetNameDef] have had limited, if any, exports and imports between each other. However, they've approached us with an offer. To loosen border restrictions and let goods flow between it, citing that it would only bring prosperity to both sides. If we do accept, we could also negotiate an enlarged agreement, which would be purchasing a large supply of goods from them, as a way to entice our economy as well as being a sign of good-will. What do we do?"
+ russia_unification.27.a: "Accept the deal and propose a counter-offer."
+ russia_unification.27.b: "Loosen border restrictions."
+ russia_unification.27.c: "Refuse the deal."
+
+ russia_unification.28.t: "Our Partners Accept!"
+ russia_unification.28.d: "It seems like [From.GetNameDef] has done more than just accept our trade deal. They've come to us with a sort of counter-offer. A large, immediate purchase of raw and refined goods from us. The offer was tempting enough that there was no real reason to refuse, and now the border between our two countries can finally begin to relax!"
+ russia_unification.28.a: "Prosperity comes a deal at a time."
+
+ russia_unification.29.t: "Our Partners Accept!"
+ russia_unification.29.d: "We can now begin proper trading with [From.GetNameDef]! The goods from their country will flow into ours, and so shall ours into theirs. There is a healthy profit margin expected to come out of this, and we will be all the better for it."
+ russia_unification.29.a: "Prosperity comes a deal at a time."
+
+ russia_unification.30.t: "Our Partners Decline"
+ russia_unification.30.d: "[From.GetNameDef] has seen it fit to deny our trade deal. This news comes to us as highly unfortunate - the potential for a trading partner in war-torn Russia has now decreased by one state. If we wish to expand our economy like this, we must shift our focus elsewhere."
+ russia_unification.30.a: "Not every attempt is a success."
+
+ russia_unification.31.t: "Incentivizing Our Allies"
+ russia_unification.31.d: "It's come to the point where sentiments in [From.GetNameDef] have grown so high that there is a significant portion of the populace that shares ideas about binding our nations together into one. We could take advantage of this fact by covertly sending funds to groups that are sympathetic to our cause - and there are two ways about this. First, we can do this discreetly, only sending a minor amount of funds that would provide a mild boost in popularity. This has a very low chance of backfiring on us, and isn't going to be a major step forward, but something is better than nothing.\n\nAlternatively, we could begin publicly endorsing pro-unification groups within [From.GetNameDef]. If this is successful, we could get a large boost of support. If not, this may work against us and cause relations to sour between our government and theirs. What decision shall we make?"
+ russia_unification.31.a: "Discreetly support pro-unification groups."
+ russia_unification.31.b: "Support them openly."
+ 
+ russia_unification.32.t: "Public Support for Unification Increases!"
+ russia_unification.32.d: "More and more of our citizens have begun voicing the opinion that [ROOT.GetName] and [From.GetNameDef] will follow a better destiny if they are one nation. We will eye this growing sentiment with caution, as it can be as much of a force of good as it can be of ill."
+ russia_unification.32.a: "Let's see if this goes anywhere."
+
+ russia_unification.33.t: "Public Support for Unification Greatly Increases!"
+ russia_unification.33.d: "Many voices are beginning to cheer on the idea that [ROOT.GetName] and [From.GetNameDef] should pursue unification. A large number of our populace is now in open support of that idea - and we will have to keep a close track on just where this situation leads, if we wish to make advantage of this fact or to keep them in check."
+ russia_unification.33.a: "Sentiment grows."
+
+ russia_unification.34.t: "Foreign Influence Revealed!"
+ russia_unification.34.d: "Our government has received word that [From.GetNameDef] is attempting to influence our politics to be more receptive towards unification! We must make a decision immediately. Will we begin attempting to curb this influence, or shall we make token attempts to steer our own government's wheel, and let these sentiments rise?"
+ russia_unification.34.a: "Curb this subversive influence."
+ russia_unification.34.b: "Unification is our goal, let them be."
+
+ russia_unification.35.t: "Our Efforts Condemned!"
+ russia_unification.35.d: "[From.GetNameDef] has rejected our funding! It seems as if they would rather determine what they shall do on their own terms, rather than us giving them a push they could use. While this has had a negative effect of growing suspicions between their government and ours, it hasn't completely ruined talks of unification - even if it turned out to be a waste of funds."
+ russia_unification.35.a: "Diplomacy marches on."
+
+ russia_unification.36.t: "Amnesty for our Efforts"
+ russia_unification.36.d: "[From.GetNameDef] has been quiet in their reaction about our public endorsement of the various pro-unification groups in their country. If they were against it, there was no reason to be silent about our interference, but they seem content with letting us meddle in their affairs. We are grateful for that, and in time, so shall their citizens."
+ russia_unification.36.a: "One step closer."
+
+ russia_unification.37.t: "[GetOtherRegionalName] Proposes Joint Exercises!"
+ russia_unification.37.d: "A message from [GetOtherRegionalName] has reached [ROOT.Capital.GetName] early today. Its contents make mention of a proposal from [FROM.GetLeader]: joint training exercises with [FROM.GetHerHis] armed forces and ours. No doubt soldiers and generals from both sides will benefit massively from such an exchange of expertise and skill, and perhaps even stoke great rivalries capable of pushing each other's acumen to greater heights. Nevertheless, some of our more cautious generals advise against so freely offering a potential adversary access to the nation's military secrets."
+ russia_unification.37.a: "Let us promote dialogue between our men!"
+ russia_unification.37.b: "Absolutely not."
+
+ russia_unification.38.t: "[GetOtherRegionalName] Refuses Joint Exercises!"
+ russia_unification.38.d: "Whether because of distrust or incapacity, [FROM.GetLeader]'s answer remains the same: [GetOtherRegionalName]'s armies are forbidden from conducting joint exercises with our own troops. Reactions from our officer cadres are evenly mixed; while some lamented the missed opportunities, others expressed their pleasure from having protected the secrecy of their war plans. Either way, both our nations' armies will have to make do without the added experience."
+ russia_unification.38.a: "Oh well."
+
+ russia_unification.39.t: "[GetOtherRegionalName] Agrees to Joint Exercises!"
+ russia_unification.39.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] has allowed [GetOtherRegionalName]'s armies to participate in training missions with our own. Already [ROOT.GetName]'s generals have begun sending communiques with their counterparts in order to prepare mutually satisfactory schedules for themselves and their charges. The experience and goodwill we'll acquire from this will do us no small good in the future."
+ russia_unification.39.a: "A toast to jolly cooperation!"
+
+ russia_unification.40.t: "[GetOtherRegionalName] Proposes a Border Treaty!"
+ russia_unification.40.d: "A message from [GetOtherRegionalName] has reached [ROOT.Capital.GetName] early today. Its contents make mention of a proposal from [FROM.GetLeader]: a treaty calling for cessation of hostilities along the border we share with [GetOtherRegionalName]. This will relieve pressure from our men and resources, in addition to preventing more civilian deaths, but will also preclude the army from launching incursions into their territory - incursions which may have given us resources and equipment aplenty in the past."
+ russia_unification.40.a: "We shall secure peace with [GetOtherRegionalName]!"
+ russia_unification.40.b: "Our army has yet to have their fill!"
+
+ russia_unification.41.t: "[GetOtherRegionalName] Refuses the Border Treaty!"
+ russia_unification.41.d: "Much to our dismay, [FROM.GetLeader] has rejected our entreaties for peace along the shared border. [FROM.GetSheHeCap] continued by stating that [GetOtherRegionalName] is disinclined to cooperating diplomatically with us at this time. It seems war will remain a looming specter over [ROOT.GetName]'s faraway citizenry for some time yet."
+ russia_unification.41.a: "A Russian war continues."
+ 
+ russia_unification.42.t: "[GetOtherRegionalName] Agrees to the Border Treaty!"
+ russia_unification.42.d: "Our negotiators have struck a diplomatic success! Representing [GetOtherRegionalName], [FROM.GetLeader] has signed the treaty just this morning, pledging to forbid [FROM.GetHerHis] armies from assaulting [ROOT.GetName]'s farms, mines and villages near the shared border. Now our citizens will no longer need to worry about marauders from [GetOtherRegionalName] ransacking their homes for the first time in many years."
+ russia_unification.42.a: "A victory for diplomacy!"
+
+ russia_unification.43.t: "[GetOtherRegionalName] Proposes Trade Deal!"
+ russia_unification.43.d: "A missive from [GetOtherRegionalName] has reached [ROOT.Capital.GetName] early today. Its contents make mention of a proposal from [FROM.GetLeader]: the sale of their resources at fair price. [ROOT.GetLeader]'s economists believe our industries will benefit from the raw materials [GetOtherRegionalName] has offered, though a sizable faction also argues against handing our precious ores to another state.\n\nOn the other hand, we can also consider paying for a fraction of their oil reserves in specie. The black gold is ever an essential luxury in war-torn Russia; building up our stockpiles thereof may yield more benefit than exchanging raw material for raw material."
+ russia_unification.43.a: "Cash for oil!"
+ russia_unification.43.b: "Cash for ore!"
+ russia_unification.43.c: "How about neither?"
+
+ russia_unification.44.t: "[GetOtherRegionalName] Agrees to Oil Trade!"
+ russia_unification.44.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] recently approved a trade agreement involving several hundred barrels of our oil and an equal, fair market amount of their cash. Both our countries's ambassadors left the negotiating table feeling richer than when they arrived."
+ russia_unification.44.a: "Perfect balance of trade."
+
+ russia_unification.45.t: "[GetOtherRegionalName] Accepts Resource Exchange!"
+ russia_unification.45.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] recently approved a trade agreement involving their ores and our cash. Both our countries's ambassadors left the negotiating table feeling richer than when they arrived."
+ russia_unification.45.a: "Perfect balance of trade."
+
+ russia_unification.46.t: "[GetOtherRegionalName] Declines Resource Exchange!"
+ russia_unification.46.d: "Unfortunately, [FROM.GetLeader] declined the trade agreement we proposed, saying that [GetOtherRegionalName] needs their resources more than we do at this time. [ROOT.GetName]'s industries will have to make do with shortages for the time being."
+ russia_unification.46.a: "Drats."
+
+ russia_unification.47.t: "[GetOtherRegionalName] Proposes Industrial Support!"
+ russia_unification.47.d: "A missive from [GetOtherRegionalName] has reached [ROOT.Capital.GetName] early today. Its contents make mention of a proposal from [FROM.GetLeader]: partial access to their assembly lines, for a price. By accepting we will reduce the burden our own industries will bear; conversely, we risk indebting ourselves to another power. Should we do accept their offer, we can choose between using either both their arms and consumer goods factories, or their consumer goods factories only."
+ russia_unification.47.a: "[ROOT.GetName] needs guns and butter!"
+ russia_unification.47.b: "[ROOT.GetName] needs butter only!"
+ russia_unification.47.c: "[ROOT.GetName] can live without either!"
+
+ russia_unification.48.t: "[GetOtherRegionalName] Accepts Heavy Industrial Support!"
+ russia_unification.48.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] has accepted our mighty industries' invitation to a portion of their needs. Soon enough, [ROOT.GetName]'s factories will allocate some of their machinery and manpower to producing both weapons and foodstuffs for [GetOtherRegionalName]."
+ russia_unification.48.a: "None better than using money to make money."
+
+ russia_unification.49.t: "[GetOtherRegionalName] Accepts Light Industrial Support!"
+ russia_unification.49.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] has accepted our mighty industries' invitation to a portion of their needs. Soon enough, [ROOT.GetName]'s factories will allocate some of their machinery and manpower to producing foodstuffs, clothing, timber and many other essential goods for [GetOtherRegionalName]."
+ russia_unification.49.a: "None better than using money to make money."
+
+ russia_unification.50.t: "[GetOtherRegionalName] Declines Industrial Support!"
+ russia_unification.50.d: "It appears we underestimated [GetOtherRegionalName]'s misfortunes - that, or their stubbornness. Just an hour ago we received [FROM.GetLeader]'s dismissive reply, saying that [FROM.GetHerHis] country has no need for our, and to quote verbatim, "petty workshops to do our bidding". Arrogant or not, the fact remains that our factories have lost a potentially lucrative customer; that, in itself, is lamentable."
+ russia_unification.50.a: "Our ministers' gamble has failed."
+
+ russia_unification.51.t: "Choice of Carrot"
+ russia_unification.51.d: "In an attempt to endear our fellow warlord to the possibility of peacefully joining [ROOT.GetName], [ROOT.GetLeader]'s advisors suggested offering them a concession from our quantitatively and qualitatively superior resource base.\n\nTowards this they offered four suggestions: first, handing the warlord "monetary assistance" in large enough qualities to overwhelm rational thought; second, supplying the warlord's factories with resources that can sustain their activities for years; third, supporting the warlord's researchers with schematics and equipment; and lastly, offering the warlord themselves, and their clique, an important place in [ROOT.GetName]'s government.\n\nWhich shall [ROOT.GetLeader] choose?"
+ russia_unification.51.a: "Some bribery should do the trick."
+ russia_unification.51.b: "Their industries are ours to feed."
+ russia_unification.51.c: "Science shall grow unimpeded even in Warlord Russia!"
+ russia_unification.51.e: "Their rulers will remain rulers, but under our management."
+ 
+ russia_unification.52.t: "[GetOtherRegionalName] Offers Monetary Assistance!"
+ russia_unification.52.d: "Another day passes where [GetOtherRegionalName] entices us into surrendering our sovereignty with honeyed words. This time, however, their offer seems almost gregarious: money enough, both in precious metals and rubles, to pay our men and generals for months! Though their diplomats' platitudes of unconditional generosity are as plain as ever... perhaps there is merit in heeding their words. Just this once."
+ russia_unification.52.a: "We'll take their money with a smile."
+ russia_unification.52.b: "The [ROOT.GetName] is worth no ruble!"
+
+ russia_unification.53.t: "[GetOtherRegionalName] Accepts Monetary Assistance!"
+ russia_unification.53.d: "Our friends in [GetOtherRegionalName] have made the right choice by welcoming [ROOT.GetName]'s generous assistance to their finances. [FROM.GetLeader] wrote extensively on the wonders our money will fund: construction projects, better equipment, larger food supplies, and more. Already our hefty investment has borne fruit in the shape of goodwill; perhaps it won't be long now before they consider more permanent ties with us."
+ russia_unification.53.a: "Their treasurers chose wisely."
+
+ russia_unification.54.t: "[GetOtherRegionalName] Declines Monetary Assistance!"
+ russia_unification.54.d: "The leaders of [GetOtherRegionalName] have made the idiotic choice of refusing our monetary assistance, decrying it as "bribery and distinctively un-Russian."" This is an affront to us, and relations between our two nations has decreased, with them hurling insults and stating that they "will not sell out Russia's freedom for honeyed words and petty cash.""
+ russia_unification.54.a: "A shame."
+
+ russia_unification.55.t: "[GetOtherRegionalName] Offers Resource Surplus!"
+ russia_unification.55.d: "Another day passes where [GetOtherRegionalName] entices us into surrendering our sovereignty with honeyed words. This time, however, their offer seems almost gregarious: a glut of steel, chromium, tungsten, and more ores enough to feed our hungry factories until they themselves give! Though their diplomats' platitudes of unconditional generosity are as plain as ever... perhaps there is merit in heeding their words. Just this once."
+ russia_unification.55.a: "Bring them into [ROOT.Capital.GetName] by the truckload!"
+ russia_unification.55.b: "Dump the drivel someplace else."
+
+ russia_unification.56.t: "[GetOtherRegionalName] Accepts Resource Surplus!"
+ russia_unification.56.d: "Our friends in [GetOtherRegionalName] have made the right choice by welcoming [ROOT.GetName]'s generous assistance to their factories' needs. The convoy we've sent remarked that [FROM.Capital.GetName]'s laborers unloaded their shipments in a matter of minutes, so eager were they to receive new materials at last. Already our hefty investment has borne fruit in the shape of goodwill; perhaps it won't be long now before they consider more permanent ties with us."
+ russia_unification.56.a: "Their captains of industry chose wisely."
+
+ russia_unification.57.t: "[GetOtherRegionalName] Declines Resource Surplus!"
+ russia_unification.57.d: "Our offer of resources has come back as [GetOtherRegionalName] refuses it foolishly! In a lengthy statement to our emissaries and our government they have stated that they "need nothing of the sort from us" and that their factories need nothing as they are "richer in resources than we are in character." They have further stated they will "not be accepting our bribes", and our relationship has taken a large hit. We will remember their affront."
+ russia_unification.57.a: "A stupid mistake their production efficiency will pay for."
+
+ russia_unification.58.t: "[GetOtherRegionalName] Offers Research Agreement!"
+ russia_unification.58.d: "Another day passes where [GetOtherRegionalName] entices us into surrendering our sovereignty with honeyed words. This time, however, their offer seems almost gregarious: their finest scientists and engineers, with schemata and blueprints in tow! Though their diplomats' platitudes of unconditional generosity are as plain as ever... perhaps there is merit in heeding their words. Just this once."
+ russia_unification.58.a: "We shall invite their technical expertise."
+ russia_unification.58.b: "...then we will at least lose as free men!"
+
+ russia_unification.59.t: "[GetOtherRegionalName] Accepts Research Agreement!"
+ russia_unification.59.d: "Our friends in [GetOtherRegionalName] have made the right choice by welcoming [ROOT.GetName]'s generous assistance to their fledgling scientific community. [FROM.GetLeader] has written glowingly on the strides they have achieved with the men and equipment we loaned. Already our hefty investment has borne fruit in the shape of goodwill; perhaps it won't be long now before they consider more permanent ties with us."
+ russia_unification.59.a: "Their scientists chose wisely."
+
+ russia_unification.60.t: "[GetOtherRegionalName] Rejects Research Agreement!"
+ russia_unification.60.d: "The rulers of [GetOtherRegionalName] have decided not to accept our generous offers of scientific research assistance. Perhaps they did not want to be reliant on a foreign power, or perhaps they suspect us of espionage. In either case, this leaves both of us weaker and more ignorant."
+ russia_unification.60.a: "If they so wish to waste opportunities..."
+
+ russia_unification.61.t: "[GetOtherRegionalName] Offers Cabinet Positions!"
+ russia_unification.61.d: "Another day passes where [GetOtherRegionalName] entices us into surrendering our sovereignty with honeyed words. This time, however, their offer seems almost gregarious: their trusted word that [ROOT.GetLeader] and [ROOT.GetHerHis] close associates will acquire high positions in [GetOtherRegionalName]'s government! Though their diplomats' platitudes of unconditional generosity are as plain as ever... perhaps there is merit in heeding their words. Just this once."
+ russia_unification.61.a: "If we can't beat them..."
+ russia_unification.61.b: "...then at least we will lose as free men!"
+ 
+ russia_unification.62.t: "[GetOtherRegionalName] Accepts Cabinet Positions!"
+ russia_unification.62.d: "Our friends in [GetOtherRegionalName] have made the right choice by welcoming [ROOT.GetName]'s generous promises to their leadership's futures. [FROM.GetLeader]'s last letter to [ROOT.GetLeader], for instance, looked and sounded like a winding, heartwarming epistle from a long-lost friend. Already our hefty investment has borne fruit in the shape of goodwill; perhaps it won't be long now before they consider more permanent ties with us."
+ russia_unification.62.a: "Our new best friends chose wisely."
+
+ russia_unification.63.t: "[GetOtherRegionalName] Declines Cabinet Positions!"
+ russia_unification.63.d: "Ultimately, our counterparts in [GetOtherRegionalName] refused to take our offer of ministerial positions. They had "no desire to sacrifice their sovereignty at the altar of improving ties". We have made no progress in this area of diplomacy and remain as apart as ever."
+ russia_unification.63.a: "We will not ask them a second time."
+
+ russia_unification.64.t: "A Conference on Unification"
+ russia_unification.64.d: "Thankfully, our great nation here in [ROOT.GetName] has endured the trials necessary to succeed in the broken state of Russia today. However, while it may be broken, it doesn't have to stay that way, and blood isn't necessary to achieve unification. Thankfully, we have prepared an invitation to the government of [GetOtherRegionalName] to a preliminary conference on the topic of the unification of our states. With all our hopes and desires, a united Russia may be possible yet."
+ russia_unification.64.a: "May the odds be in Russia's favor!"
+
+ russia_unification.65.t: "Foundations of the Conference"
+ russia_unification.65.d: "With their rightful invitation to our halls for a Conference regarding the beginnings of governmental unification, the government of [GetOtherRegionalName] must be swayed enough to work in our favor to accept this. Thus, it is our top priority to prepare every speech, every legal parchment, every political discussion topic. The unification of the Russian nation may rely on the success of this conference."
+ russia_unification.65.a: "Prepare, prepare, prepare!"
+
+ russia_unification.66.t: "Checking the Air in the Room"
+ russia_unification.66.d: "If we seek for the successfully peaceful unification between the people of [GetOtherRegionalName] and ourselves, then we must keep a watchful eye on how things are faring between each of our governments. Should things look well, then our plans shall be well ready to be set in motion; however, if there are rising tensions between our states..."
+ russia_unification.66.a: "We must rally the Russians!"
+ russia_unification.66.b: "This could be a viable course."
+ russia_unification.66.c: "We must prioritize our sovereignty."
+
+ russia_unification.67.t: "With Welcome Applause"
+ russia_unification.67.d: "With recent incoming transmissions from the state of [GetOtherRegionalName], it appears as though their government is more than willing to enter into the preliminary conferences we have organized. For their sake, our sake, and the sake of all Russians, may we hope that we can find a way towards unification and greatness for all of Russia!"
+ russia_unification.67.a: "A conference with great hopes!"
+
+ russia_unification.68.t: "Concessions and Cooperation"
+ russia_unification.68.d: "In our efforts to bring about the greatness of a Russian future, the Preliminary Conference we've organized with [GetOtherRegionalName] on the topic of unification has resulted in a success of mixed results. It is absolutely true that they've authorized the unification of our states; however, with some amount of concessions having to be made by the end of it, some politicians or leaders may end up dissatisfied. However, knowing that Russia is one more step to unification is worth all of the worries."
+ russia_unification.68.a: "Mixed results and shaking hands!"
+
+ russia_unification.69.t: "Measured Rejection"
+ russia_unification.69.d: "Unfortunately, it has come to our attention that a disappointing transmission has come across our most recent reports. In extended detail, the government of [GetOtherRegionalName] has quietly stated a list of reasons by which they have stated an inability to attend the Conference we have set up regarding the unification of our states, most of all their hesitance to surrender [GetOtherRegionalName]'s autonomy. This presents a significant issue in regards to our potential for a peaceful unification of Russians of the land, and sends a wave of unpreparedness and worry over the potentially deadly future of our time."
+ russia_unification.69.a: "Only the future knows."
+
+ russia_unification.70.t: "The Unification Conference"
+ russia_unification.70.d: "Today, it has been announced that the state of [GetOtherRegionalName] has wholeheartedly signed into the concordance of a state of unity with the government of [ROOT.GetName], promising a peaceful and unified future for the Russian nation. Victory shall be ours in our great work towards promising a better and brighter future for the people of Russia!"
+ russia_unification.70.a: "Forward unto unity, peace, and Russia!"
+ 
+ russia_unification.71.t: "Disaster on the Home Front"
+ russia_unification.71.d: "It comes with a certain degree of shame, worry, and dishonor that we have to report the failure of the preliminary conferences with the government of [GetOtherRegionalName] and our representatives. Not only does this provide for a cloud of worry to cast over the Russian people this day, in fear of the bloodsoaked past recurring once again. Furthermore, the failure of the conference has provided for great disappointment amongst the leadership of our government, and has effectively caused a great deal of stress upon our government."
+ russia_unification.71.a: "Dreams of a united Russia, now faded slightly."
+
+ russia_unification.72.t: "May Our Work Be Fruitful"
+ russia_unification.72.d: "It is officially time for the Conference we have prepared for so diligently between our government and the leadership of [GetOtherRegionalName]. The future is frightening, anxiety-inducing, enthralling, and exciting all at once. Yes, it is quite terribly filled with the unknown, but through this unknown, we must find hope, confidence, and a light at the end of the tunnel for this battered Russian people."
+ russia_unification.72.a: "To hope, to Russia!"
+ russia_unification.72.b: "We shall reject their honeyed lies once and for all!"
+
+ russia_unification.73.t: "After So Long..."
+ russia_unification.73.d: "Our diplomats leave the conference with their new compatriots in tow and a treaty declaring the [GetOtherRegionalName]'s integration into the [ROOT.GetName]. These two nations, already so intertwined with each other's economy, military and politics, have now formalized their unity by sharing a banner and name. Though work in adapting the [GetOtherRegionalName]'s laws and administration remains, our union can no longer be interfered with or interrupted by other, ill-intentioned nations.\n\nWith malice towards none and charity for all, we have bound one more wound on the Motherland's bleeding soma."
+ russia_unification.73.a: "Yet many more fester."
+
+ russia_unification.74.t: "...And Still Not Enough"
+ russia_unification.74.d: "The first day ended with shouting and bleeding, broken fists.\n\nThe second day ended with lead-riddled corpses haystrewn in and outside of the conference hall.\n\nWe never bothered attending the third. Reportedly, neither did they."
+ russia_unification.74.a: "Peace is an option no longer."
+
+ russia_unification.121.t: "Declaration of Friendship Proposed"
+ russia_unification.121.d: "We've received a message from [FROM.GetNameDef] - they're asking us to begin a joint program that shall bind our nations closer. Showing signs of friendship, cooperation between our governments, and so on. Depending on where this goes, this may lead into further, more detailed agreements. Shall we accept this?"
+ russia_unification.121.a: "Hurrah!"
+ russia_unification.121.b: "We have no need for this."
+ 
+ russia_unification.122.t: "Declaration of Friendship Rejected"
+ russia_unification.122.d: "Unfortunate news has come bearing from [FROM.GetNameDef]. They do not seem to be reciprocating our desire for an alliance in these dark times. What's more, the political capital necessary to expend in order to do this again is too much of a cost worth taking in the eyes of many in our government. We'll have to try somewhere else."
+ russia_unification.122.a: "A path is closed."
+
+ russia_unification.123.t: "Declaration of Friendship Accepted"
+ russia_unification.123.d: "Good news! [FROM.GetNameDef] has accepted the agreement to bring our two governments closer. This should have an immediate effect of boosting relations between our two countries, and perhaps even begin stirring sentiments about a potential unification process."
+ russia_unification.123.a: "Russia marches down the path of one country."
+
+ russia_unification.124.t: "NAP Proposed"
+ russia_unification.124.d: "After having agreed to a mutual declaration of friendship, [FROM.GetNameDef] has approached us with yet another offer. To cement our status as allies, they recommend that the border between our nations is only reduced to a skeleton crew of soldiers. This will show a sign that we do not need to fear each other, and that our population can rest at east knowing that one frontier is safe. Do we accept?"
+ russia_unification.124.a: "Sign the treaty."
+ russia_unification.124.b: "Reject the treaty."
+
+ russia_unification.125.t: "NAP Rejected"
+ russia_unification.125.d: "While we have managed to get into step one with binding ourselves closer with [FROM.GetNameDef], they've unfortunately denied our non-aggression pact for reasons we cannot fully ascertain. Though our relations are not hostile, there is some disappointment in this fact. Trying again may backfire, so we will simply rest on what we have."
+ russia_unification.125.a: "A shame."
+
+ russia_unification.126.t: "NAP Accepted"
+ russia_unification.126.d: "[FROM.GetNameDef] has accepted our non-aggression pact! The effects of it shall come into play immediately, and if both sides are strict on enforcing it, it should mean lasting peace between our two nations. Not only that, the pact will bring a sense of solidarity in the war-torn lands of Russia."
+ russia_unification.126.a: "Onwards!"
+
+ russia_unification.127.t: "Foreign Trade Deal Proposed"
+ russia_unification.127.d: "Previously, our nation and [FROM.GetNameDef] have had limited, if any, exports and imports between each other. However, they've approached us with an offer. To loosen border restrictions and let goods flow between it, citing that it would only bring prosperity to both sides. If we do accept, we could also negotiate an enlarged agreement, which would be purchasing a large supply of goods from them, as a way to entice our economy as well as being a sign of good-will. What do we do?"
+ russia_unification.127.a: "Accept the deal and propose a counter-offer."
+ russia_unification.127.b: "Loosen border restrictions."
+ russia_unification.127.c: "Refuse the deal."
+
+ russia_unification.128.t: "Our Partners Accept!"
+ russia_unification.128.d: "It seems like [From.GetNameDef] has done more than just accept our trade deal. They've come to us with a sort of counter-offer. A large, immediate purchase of raw and refined goods from us. The offer was tempting enough that there was no real reason to refuse, and now the border between our two countries can finally begin to relax!"
+ russia_unification.128.a: "Prosperity comes a deal at a time."
+
+ russia_unification.129.t: "Our Partners Accept!"
+ russia_unification.129.d: "We can now begin proper trading with [From.GetNameDef]! The goods from their country will flow into ours, and so shall ours into theirs. There is a healthy profit margin expected to come out of this, and we will be all the better for it."
+ russia_unification.129.a: "Prosperity comes a deal at a time."
+
+ russia_unification.130.t: "Our Partners Decline"
+ russia_unification.130.d: "[From.GetNameDef] has seen it fit to deny our trade deal. This news comes to us as highly unfortunate - the potential for a trading partner in war-torn Russia has now decreased by one state. If we wish to expand our economy like this, we must shift our focus elsewhere."
+ russia_unification.130.a: "Not every attempt is a success."
+
+ russia_unification.131.t: "Incentivizing Our Allies"
+ russia_unification.131.d: "It's come to the point where sentiments [From.GetNameDef] have grown so high that there is a significant portion of the populace that shares ideas about binding our nations together into one. We could take advantage of this fact by covertly sending funds to groups that are sympathetic to our cause - and there are two ways about this. First, we can do this discreetly, only sending a minor amount of funds that would provide a mild boost in popularity. This has a very low chance of backfiring on us, and isn't going to be a major step forward, but something is better than nothing.\n\nAlternatively, we could begin publicly endorsing pro-unification groups within [From.GetNameDef]. If this is successful, we could get a large boost of support. If not, this may work against us and cause relations to sour between our government and theirs. What decision shall we make?"
+ russia_unification.131.a: "Discreetly support pro-unification groups."
+ russia_unification.131.b: "Support them openly."
+ 
+ russia_unification.132.t: "Public Support for Unification Increases!"
+ russia_unification.132.d: "More and more of our citizens have begun voicing the opinion that [ROOT.GetName] and [From.GetNameDef] will follow a better destiny if they are one nation. We will eye this growing sentiment with caution, as it can be as much of a force of good as it can be of ill."
+ russia_unification.132.a: "Let's see if this goes anywhere."
+
+ russia_unification.133.t: "Public Support for Unification Greatly Increases!"
+ russia_unification.133.d: "Many voices are beginning to cheer on the idea that [ROOT.GetName] and [From.GetNameDef] should pursue unification. A large number of our populace is now in open support of that idea - and we will have to keep a close track on just where this situation leads, if we wish to make advantage of this fact or to keep them in check."
+ russia_unification.133.a: "Sentiment grows."
+
+ russia_unification.134.t: "Foreign Influence Revealed!"
+ russia_unification.134.d: "Our government has received word that [From.GetNameDef] is attempting to influence our politics to be more receptive towards unification! We must make a decision immediately. Will we begin attempting to curb this influence, or shall we make token attempts to steer our own government's wheel, and let these sentiments rise?"
+ russia_unification.134.a: "Curb this subversive influence."
+ russia_unification.134.b: "Unification is our goal, let them be."
+
+ russia_unification.135.t: "Our Efforts Condemned!"
+ russia_unification.135.d: "[From.GetNameDef] has rejected our funding! It seems as if they would rather determine what they shall do on their own terms, rather than us giving them a push they could use. While this has had a negative effect of growing suspicions between their government and ours, it hasn't completely ruined talks of unification - even if it turned out to be a waste of funds."
+ russia_unification.135.a: "Diplomacy marches on."
+
+ russia_unification.136.t: "Amnesty for our Efforts"
+ russia_unification.136.d: "[From.GetNameDef] has been quiet in their reaction about our public endorsement of the various pro-unification groups in their country. If they were against it, there was no reason to be silent about our interference, but they seem content with letting us meddle in their affairs. We are grateful for that, and in time, so shall their citizens."
+ russia_unification.136.a: "One step closer."
+
+ russia_unification.137.t: "[GetOtherRegionalName] Proposes Joint Exercises!"
+ russia_unification.137.d: "A message from [GetOtherRegionalName] has reached [ROOT.Capital.GetName] early today. Its contents make mention of a proposal from [FROM.GetLeader]: joint training exercises with [FROM.GetHerHis] armed forces and ours. No doubt soldiers and generals from both sides will benefit massively from such an exchange of expertise and skill, and perhaps even stoke great rivalries capable of pushing each other's acumen to greater heights. Nevertheless, some of our more cautious generals advise against so freely offering a potential adversary access to the nation's military secrets."
+ russia_unification.137.a: "Let us promote dialogue between our men!"
+ russia_unification.137.b: "Absolutely not."
+
+ russia_unification.138.t: "[GetOtherRegionalName] Refuses Joint Exercises!"
+ russia_unification.138.d: "Whether because of distrust or incapacity, [FROM.GetLeader]'s answer remains the same: [GetOtherRegionalName]'s armies are forbidden from conducting joint exercises with our own troops. Reactions from our officer cadres are evenly mixed; while some lamented the missed opportunities, others expressed their pleasure from having protected the secrecy of their war plans. Either way, both our nations' armies will have to make do without the added experience."
+ russia_unification.138.a: "Oh well."
+
+ russia_unification.139.t: "[GetOtherRegionalName] Agrees to Joint Exercises!"
+ russia_unification.139.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] has allowed [GetOtherRegionalName]'s armies to participate in training missions with our own. Already [ROOT.GetName]'s generals have begun sending communiques with their counterparts in order to prepare mutually satisfactory schedules for themselves and their charges. The experience and goodwill we'll acquire from this will do us no small good in the future."
+ russia_unification.139.a: "A toast to jolly cooperation!"
+
+ russia_unification.140.t: "[GetOtherRegionalName] Proposes a Border Treaty!"
+ russia_unification.140.d: "A message from [GetOtherRegionalName] has reached [ROOT.Capital.GetName] early today. Its contents make mention of a proposal from [FROM.GetLeader]: a treaty calling for cessation of hostilities along the border we share with [GetOtherRegionalName]. This will relieve pressure from our men and resources, in addition to preventing more civilian deaths, but will also preclude the army from launching incursions into their territory - incursions which may have given us resources and equipment aplenty in the past."
+ russia_unification.140.a: "We shall secure peace with [GetOtherRegionalName]!"
+ russia_unification.140.b: "Our army has yet to have their fill!"
+
+ russia_unification.141.t: "[GetOtherRegionalName] Refuses the Border Treaty!"
+ russia_unification.141.d: "Much to our dismay, [FROM.GetLeader] has rejected our entreaties for peace along the shared border. [FROM.GetSheHeCap] continued by stating that [GetOtherRegionalName] is disinclined to cooperating diplomatically with us at this time. It seems war will remain a looming specter over [ROOT.GetName]'s faraway citizenry for some time yet."
+ russia_unification.141.a: "A Russian war continues."
+ 
+ russia_unification.142.t: "[GetOtherRegionalName] Agrees to the Border Treaty!"
+ russia_unification.142.d: "Our negotiators have struck a diplomatic success! Representing [GetOtherRegionalName], [FROM.GetLeader] has signed the treaty just this morning, pledging to forbid [FROM.GetHerHis] armies from assaulting [ROOT.GetName]'s farms, mines and villages near the shared border. Now our citizens will no longer need to worry about marauders from [GetOtherRegionalName] ransacking their homes for the first time in many years."
+ russia_unification.142.a: "A victory for diplomacy!"
+
+ russia_unification.143.t: "[GetOtherRegionalName] Proposes Trade Deal!"
+ russia_unification.143.d: "A missive from [GetOtherRegionalName] has reached [ROOT.Capital.GetName] early today. Its contents make mention of a proposal from [FROM.GetLeader]: the sale of their resources at fair price. [ROOT.GetLeader]'s economists believe our industries will benefit from the raw materials [GetOtherRegionalName] has offered, though a sizable faction also argues against handing our precious ores to another state.\n\nOn the other hand, we can also consider paying for a fraction of their oil reserves in specie. The black gold is ever an essential luxury in war-torn Russia; building up our stockpiles thereof may yield more benefit than exchanging raw material for raw material."
+ russia_unification.143.a: "Cash for oil!"
+ russia_unification.143.b: "Cash for ore!"
+ russia_unification.143.c: "How about neither?"
+
+ russia_unification.144.t: "[GetOtherRegionalName] Agrees to Oil Trade!"
+ russia_unification.144.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] recently approved a trade agreement involving several hundred barrels of our oil and an equal, fair market amount of their cash. Both our countries's ambassadors left the negotiating table feeling richer than when they arrived."
+ russia_unification.144.a: "Perfect balance of trade."
+
+ russia_unification.145.t: "[GetOtherRegionalName] Accepts Resource Exchange!"
+ russia_unification.145.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] recently approved a trade agreement involving their ores and our cash. Both our countries's ambassadors left the negotiating table feeling richer than when they arrived."
+ russia_unification.145.a: "Perfect balance of trade."
+
+ russia_unification.146.t: "[GetOtherRegionalName] Declines Resource Exchange!"
+ russia_unification.146.d: "Unfortunately, [FROM.GetLeader] declined the trade agreement we proposed, saying that [GetOtherRegionalName] needs their resources more than we do at this time. [ROOT.GetName]'s industries will have to make do with shortages for the time being."
+ russia_unification.146.a: "Drats."
+
+ russia_unification.147.t: "[GetOtherRegionalName] Proposes Industrial Support!"
+ russia_unification.147.d: "A missive from [GetOtherRegionalName] has reached [ROOT.Capital.GetName] early today. Its contents make mention of a proposal from [FROM.GetLeader]: partial access to their assembly lines, for a price. By accepting we will reduce the burden our own industries will bear; conversely, we risk indebting ourselves to another power. Should we do accept their offer, we can choose between using either both their arms and consumer goods factories, or their consumer goods factories only."
+ russia_unification.147.a: "[ROOT.GetName] needs guns and butter!"
+ russia_unification.147.b: "[ROOT.GetName] needs butter only!"
+ russia_unification.147.c: "[ROOT.GetName] can live without either!"
+
+ russia_unification.148.t: "[GetOtherRegionalName] Accepts Heavy Industrial Support!"
+ russia_unification.148.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] has accepted our mighty industries' invitation to a portion of their needs. Soon enough, [ROOT.GetName]'s factories will allocate some of their machinery and manpower to producing both weapons and foodstuffs for [GetOtherRegionalName]."
+ russia_unification.148.a: "None better than using money to make money."
+
+ russia_unification.149.t: "[GetOtherRegionalName] Accepts Light Industrial Support!"
+ russia_unification.149.d: "Our negotiators have struck a diplomatic success! [FROM.GetLeader] has accepted our mighty industries' invitation to a portion of their needs. Soon enough, [ROOT.GetName]'s factories will allocate some of their machinery and manpower to producing foodstuffs, clothing, timber and many other essential goods for [GetOtherRegionalName]."
+ russia_unification.149.a: "None better than using money to make money."
+
+ russia_unification.150.t: "[GetOtherRegionalName] Declines Industrial Support!"
+ russia_unification.150.d: "It appears we underestimated [GetOtherRegionalName]'s misfortunes - that, or their stubbornness. Just an hour ago we received [FROM.GetLeader]'s dismissive reply, saying that [FROM.GetHerHis] country has no need for our, and to quote verbatim, "petty workshops to do our bidding". Arrogant or not, the fact remains that our factories have lost a potentially lucrative customer; that, in itself, is lamentable."
+ russia_unification.150.a: "Our ministers' gamble has failed."
+
+ russia_unification.151.t: "Choice of Carrot"
+ russia_unification.151.d: "In an attempt to endear our fellow warlord to the possibility of peacefully joining [ROOT.GetName], [ROOT.GetLeader]'s advisors suggested offering them a concession from our quantitatively and qualitatively superior resource base.\n\nTowards this they offered four suggestions: first, handing the warlord "monetary assistance" in large enough qualities to overwhelm rational thought; second, supplying the warlord's factories with resources that can sustain their activities for years; third, supporting the warlord's researchers with schematics and equipment; and lastly, offering the warlord themselves, and their clique, an important place in [ROOT.GetName]'s government.\n\nWhich shall [ROOT.GetLeader] choose?"
+ russia_unification.151.a: "Some bribery should do the trick."
+ russia_unification.151.b: "Their industries are ours to feed."
+ russia_unification.151.c: "Science shall grow unimpeded even in Warlord Russia!"
+ russia_unification.151.e: "Their rulers will remain rulers, but under our management."
+ 
+ russia_unification.152.t: "[GetOtherRegionalName] Offers Monetary Assistance!"
+ russia_unification.152.d: "Another day passes where [GetOtherRegionalName] entices us into surrendering our sovereignty with honeyed words. This time, however, their offer seems almost gregarious: money enough, both in precious metals and rubles, to pay our men and generals for months! Though their diplomats' platitudes of unconditional generosity are as plain as ever... perhaps there is merit in heeding their words. Just this once."
+ russia_unification.152.a: "We'll take their money with a smile."
+ russia_unification.152.b: "[ROOT.GetName] is worth no ruble!"
+
+ russia_unification.153.t: "[GetOtherRegionalName] Accepts Monetary Assistance!"
+ russia_unification.153.d: "Our friends in [GetOtherRegionalName] have made the right choice by welcoming [ROOT.GetName]'s generous assistance to their finances. [FROM.GetLeader] wrote extensively on the wonders our money will fund: construction projects, better equipment, larger food supplies, and more. Already our hefty investment has borne fruit in the shape of goodwill; perhaps it won't be long now before they consider more permanent ties with us."
+ russia_unification.153.a: "Their treasurers chose wisely."
+
+ russia_unification.154.t: "[GetOtherRegionalName] Declines Monetary Assistance!"
+ russia_unification.154.d: "The leaders of [GetOtherRegionalName] have made the idiotic choice of refusing our monetary assistance, decrying it as "bribery and distinctively un-Russian."" This is an affront to us, and relations between our two nations has decreased, with them hurling insults and stating that they "will not sell out Russia's freedom for honeyed words and petty cash.""
+ russia_unification.154.a: "A shame."
+
+ russia_unification.155.t: "[GetOtherRegionalName] Offers Resource Surplus!"
+ russia_unification.155.d: "Another day passes where [GetOtherRegionalName] entices us into surrendering our sovereignty with honeyed words. This time, however, their offer seems almost gregarious: a glut of steel, chromium, tungsten, and more ores enough to feed our hungry factories until they themselves give! Though their diplomats' platitudes of unconditional generosity are as plain as ever... perhaps there is merit in heeding their words. Just this once."
+ russia_unification.155.a: "Bring them into [ROOT.Capital.GetName] by the truckload!"
+ russia_unification.155.b: "Dump the drivel someplace else."
+
+ russia_unification.156.t: "[GetOtherRegionalName] Accepts Resource Surplus!"
+ russia_unification.156.d: "Our friends in [GetOtherRegionalName] have made the right choice by welcoming [ROOT.GetName]'s generous assistance to their factories' needs. The convoy we've sent remarked that [FROM.Capital.GetName]'s laborers unloaded their shipments in a matter of minutes, so eager were they to receive new materials at last. Already our hefty investment has borne fruit in the shape of goodwill; perhaps it won't be long now before they consider more permanent ties with us."
+ russia_unification.156.a: "Their captains of industry chose wisely."
+
+ russia_unification.157.t: "[GetOtherRegionalName] Declines Resource Surplus!"
+ russia_unification.157.d: "Our offer of resources has come back as [GetOtherRegionalName] refuses it foolishly! In a lengthy statement to our emissaries and our government they have stated that they "need nothing of the sort from us" and that their factories need nothing as they are "richer in resources than we are in character." They have further stated they will "not be accepting our bribes," and our relationship has taken a large hit. We will remember their affront."
+ russia_unification.157.a: "A stupid mistake their production efficiency will pay for."
+
+ russia_unification.158.t: "[GetOtherRegionalName] Offers Research Agreement!"
+ russia_unification.158.d: "Another day passes where [GetOtherRegionalName] entices us into surrendering our sovereignty with honeyed words. This time, however, their offer seems almost gregarious: their finest scientists and engineers, with schemata and blueprints in tow! Though their diplomats' platitudes of unconditional generosity are as plain as ever... perhaps there is merit in heeding their words. Just this once."
+ russia_unification.158.a: "We shall invite their technical expertise."
+ russia_unification.158.b: "...then we will at least lose as free men!"
+
+ russia_unification.159.t: "[GetOtherRegionalName] Accepts Research Agreement!"
+ russia_unification.159.d: "Our friends in [GetOtherRegionalName] have made the right choice by welcoming [ROOT.GetName]'s generous assistance to their fledgling scientific community. [FROM.GetLeader] has written glowingly on the strides they have achieved with the men and equipment we loaned. Already our hefty investment has borne fruit in the shape of goodwill; perhaps it won't be long now before they consider more permanent ties with us."
+ russia_unification.159.a: "Their scientists chose wisely."
+
+ russia_unification.160.t: "[GetOtherRegionalName] Rejects Research Agreement!"
+ russia_unification.160.d: "The rulers of [GetOtherRegionalName] have decided not to accept our generous offers of scientific research assistance. Perhaps they did not want to be reliant on a foreign power, or perhaps they suspect us of espionage. In either case, this leaves both of us weaker and more ignorant."
+ russia_unification.160.a: "If they so wish to waste opportunities..."
+
+ russia_unification.161.t: "[GetOtherRegionalName] Offers Cabinet Positions!"
+ russia_unification.161.d: "Another day passes where [GetOtherRegionalName] entices us into surrendering our sovereignty with honeyed words. This time, however, their offer seems almost gregarious: their trusted word that [ROOT.GetLeader] and [ROOT.GetHerHis] close associates will acquire high positions in [GetOtherRegionalName]'s government! Though their diplomats' platitudes of unconditional generosity are as plain as ever... perhaps there is merit in heeding their words. Just this once."
+ russia_unification.161.a: "If we can't beat them..."
+ russia_unification.161.b: "...then at least we will lose as free men!"
+ 
+ russia_unification.162.t: "[GetOtherRegionalName] Accepts Cabinet Positions!"
+ russia_unification.162.d: "Our friends in [GetOtherRegionalName] have made the right choice by welcoming [ROOT.GetName]'s generous promises to their leadership's futures. [FROM.GetLeader]'s last letter to [ROOT.GetLeader], for instance, looked and sounded like a winding, heartwarming epistle from a long-lost friend. Already our hefty investment has borne fruit in the shape of goodwill; perhaps it won't be long now before they consider more permanent ties with us."
+ russia_unification.162.a: "Our new best friends chose wisely."
+
+ russia_unification.163.t: "[GetOtherRegionalName] Declines Cabinet Positions!"
+ russia_unification.163.d: "Ultimately, our counterparts in [GetOtherRegionalName] refused to take our offer of ministerial positions. They had "no desire to sacrifice their sovereignty at the altar of improving ties". We have made no progress in this area of diplomacy and remain as apart as ever."
+ russia_unification.163.a: "We will not ask them a second time."
+
+ russia_unification.164.t: "A Conference on Unification"
+ russia_unification.164.d: "Thankfully, our great nation here in [ROOT.GetName] has endured the trials necessary to succeed in the broken state of Russia today. However, while it may be broken, it doesn't have to stay that way, and blood isn't necessary to achieve unification. Thankfully, we have prepared an invitation to the government of [GetOtherRegionalName] to a preliminary conference on the topic of the unification of our states. With all our hopes and desires, a united Russia may be possible yet."
+ russia_unification.164.a: "May the odds be in Russia's favor!"
+
+ russia_unification.165.t: "Foundations of the Conference"
+ russia_unification.165.d: "With their rightful invitation to our halls for a Conference regarding the beginnings of governmental unification, the government of [GetOtherRegionalName] must be swayed enough to work in our favor to accept this. Thus, it is our top priority to prepare every speech, every legal parchment, every political discussion topic. The unification of the Russian nation may rely on the success of this conference."
+ russia_unification.165.a: "Prepare, prepare, prepare!"
+
+ russia_unification.166.t: "Checking the Air in the Room"
+ russia_unification.166.d: "If we seek for the successfully peaceful unification between the people of [GetOtherRegionalName] and ourselves, then we must keep a watchful eye on how things are faring between each of our governments. Should things look well, then our plans shall be well ready to be set in motion; however, if there are rising tensions between our states..."
+ russia_unification.166.a: "We must rally the Russians!"
+ russia_unification.166.b: "This could be a viable course."
+ russia_unification.166.c: "We must prioritize our sovereignty."
+
+ russia_unification.167.t: "With Welcome Applause"
+ russia_unification.167.d: "With recent incoming transmissions from the state of [GetOtherRegionalName], it appears as though their government is more than willing to enter into the preliminary conferences we have organized. For their sake, our sake, and the sake of all Russians, may we hope that we can find a way towards unification and greatness for all of Russia!"
+ russia_unification.167.a: "A conference with great hopes!"
+
+ russia_unification.168.t: "Concessions and Cooperation"
+ russia_unification.168.d: "In our efforts to bring about the greatness of a Russian future, the Preliminary Conference we've organized with [GetOtherRegionalName] on the topic of unification has resulted in a success of mixed results. It is absolutely true that they've authorized the unification of our states; however, with some amount of concessions having to be made by the end of it, some politicians or leaders may end up dissatisfied. However, knowing that Russia is one more step to unification is worth all of the worries."
+ russia_unification.168.a: "Mixed results and shaking hands!"
+
+ russia_unification.169.t: "Measured Rejection"
+ russia_unification.169.d: "Unfortunately, it has come to our attention that a disappointing transmission has come across our most recent reports. In extended detail, the government of [GetOtherRegionalName] has quietly stated a list of reasons by which they have stated an inability to attend the Conference we have set up regarding the unification of our states, most of all their hesitance to surrender [GetOtherRegionalName]'s autonomy. This presents a significant issue in regards to our potential for a peaceful unification of Russians of the land, and sends a wave of unpreparedness and worry over the potentially deadly future of our time."
+ russia_unification.169.a: "Only the future knows."
+
+ russia_unification.170.t: "The Unification Conference"
+ russia_unification.170.d: "Today, it has been announced that the state of [GetOtherRegionalName] has wholeheartedly signed into the concordance of a state of unity with the government of [ROOT.GetName], promising a peaceful and unified future for the Russian nation. Victory shall be ours in our great work towards promising a better and brighter future for the people of Russia!"
+ russia_unification.170.a: "Forward unto unity, peace, and Russia!"
+ 
+ russia_unification.171.t: "Disaster on the Home Front"
+ russia_unification.171.d: "It comes with a certain degree of shame, worry, and dishonor that we have to report the failure of the preliminary conferences with the government of [GetOtherRegionalName] and our representatives. Not only does this provide for a cloud of worry to cast over the Russian people this day, in fear of the bloodsoaked past recurring once again. Furthermore, the failure of the conference has provided for great disappointment amongst the leadership of our government, and has effectively caused a great deal of stress upon our government."
+ russia_unification.171.a: "Dreams of a united Russia, now faded slightly."
+
+ russia_unification.172.t: "May Our Work Be Fruitful"
+ russia_unification.172.d: "It is officially time for the Conference we have prepared for so diligently between our government and the leadership of [GetOtherRegionalName]. The future is frightening, anxiety-inducing, enthralling, and exciting all at once. Yes, it is quite terribly filled with the unknown, but through this unknown, we must find hope, confidence, and a light at the end of the tunnel for this battered Russian people."
+ russia_unification.172.a: "To hope, to Russia!"
+ russia_unification.172.b: "We shall reject their honeyed lies once and for all!"
+
+ russia_unification.173.t: "After So Long..."
+ russia_unification.173.d: "Our diplomats leave the conference with their new compatriots in tow and a treaty declaring the [GetOtherRegionalName]'s integration into the [ROOT.GetName]. These two nations, already so intertwined with each other's economy, military and politics, have formalized their unity by sharing a banner and name. Though work in adapting the [GetOtherRegionalName]'s laws and administration remains, our union can no longer be interfered with or interrupted by other, ill-intentioned nations.\n\nSo ends in peace Russia's half-century of national humiliation."
+ russia_unification.173.a: "And so begins a hundred years of rebirth."
+
+ russia_unification.174.t: "...And Still Not Enough"
+ russia_unification.174.d: "The first day ended with shouting and bleeding, broken fists.\n\nThe second day ended with lead-riddled corpses haystrewn in and outside of the conference hall.\n\nWe never bothered attending the third. Reportedly, neither did they."
+ russia_unification.174.a: "One shall stand; one shall fall."
+
+ # Scood Was Here
+
+ RUS_superregional_stage: "At Superregional Stage"
