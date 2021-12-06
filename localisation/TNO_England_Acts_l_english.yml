@@ -18,12 +18,24 @@ ENG_Acts_Compromise_UE_Liberals:0 "§f자유당§!과의 타협"
 ENG_Acts_Compromise_RP:0 "§g근왕당§!과의 타협"
 ENG_Acts_Compromise_Old_Guard:0 "§g원로들§!과의 타협"
 ENG_Acts_Compromise_UE:0 "§B잉글랜드 통합당§!과의 타협"
+ENG_Acts_Compromise_NF:0 "Compromise with the §jNational Front§!"
+ENG_Acts_Compromise_SLP_NDL:0 "Compromise with the §fNational Democratic League§!"
+ENG_Acts_Compromise_SLP_MSA:0 "Compromise with the §LMovement in Support of the Army§!"
+ENG_Acts_Compromise_NDL_MSA:0 "Compromise with the §LMovement in Support of the Army§!"
+ENG_Acts_Compromise_RP_NF:0 "Compromise with the §jNational Front§!" #idk why there's 2 copies of this, I'm not touching any more England code than I have to
+ENG_Acts_Compromise_UE_NF:0 "Compromise with the §jNational Front§!"
+ENG_Acts_Compromise_NDL_SLP:0 "Compromise with the §PSocialist Labour Party§!"
+ENG_instant_pass:0 "Instantly §GPass§! the Act"
+ENG_instant_pass_desc:0 "\nDebug decision, don't use in noraml gameplay!"
+ENG_instant_fail:0 "Instantly §RFail§! the Act"
+ENG_instant_fail_desc:0 "\nDebug decision, don't use in noraml gameplay!"
 
 compromise_moderate_tt:0 "§g민주당§!과의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 힘을 강화할 것입니다."
 compromise_liberal_tt:0 "§f신 휘그당§!과의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 힘을 강화할 것입니다."
 compromise_conserv_tt:0 "§B애국당§!과의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 힘을 강화할 것입니다."
 compromise_SLP_tt:0 "§PSLP§!와의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 인기도를 매우 늘릴 것입니다."
 compromise_reform_tt:0 "§P개혁파§!와의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 영향력을 늘릴 것입니다."
+compromise_msa_tt:0 "Compromising with the §PMSA§! will increase their support for [Root.ENG_Act_Name] while increasing their influence."
 compromise_hardliner_tt:0 "§e강경파§!와의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 영향력을 늘릴 것입니다."
 compromise_NDL_tt:0 "§fNDL§!과의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 인기도를 매우 늘릴 것입니다."
 compromise_macmillanists_tt:0 "§B맥밀런주의자들§!과의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 영향력을 늘릴 것입니다."
@@ -31,6 +43,7 @@ compromise_ue_liberals_tt:0 "§f자유당§!과의 타협은 [Root.ENG_Act_Name]
 compromise_RP_tt:0 "§g근왕당§!과의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 인기도를 매우 늘릴 것입니다."
 compromise_old_guard_tt:0 "§g원로들§!과의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 영향력을 늘릴 것입니다."
 compromise_UE_tt:0 "§B잉글랜드 통합당§!과의 타협은 [Root.ENG_Act_Name]에 대한 그들의 지지도를 높이는 동시에 그들의 인기도를 매우 늘릴 것입니다."
+compromise_nf_tt:0 "Compromising with the §jNational Front§! will increase their support for [Root.ENG_Act_Name] while massively increasing their popularity."
 
 ENG_acts.1.t:0 "법안이 통과되다"
 ENG_acts.1.desc:0 "한 노인이 벤치에 앉아 지역 신문을 읽습니다. 1면에는 웨스트민스터에서의 사건이 나와 있습니다. 그의 주변의 거리는 조금 더 활기차 보이는 모습입니다. 하늘 또한 더 맑습니다.\n\n새로운 법안이 하원을 통과하여 시행되기 시작했다는 뉴스가 퍼졌습니다. 생방송 뉴스의 앵커들은 최근의 사건이 어떤 영향을 가져올 것인지에 대해 논의했습니다. 정치인들은 이 날이 자신들의 당과 영국의 주요한 성공이라고 말합니다.\n\n수백만명의 남녀의 미래는, 그들이 알지 못하더라도 이 법안의 영향을 받게 될 것입니다. 법안이 좋은 것인지 나쁜 것인지에 대한 것은 시간이 지나야만 알 수 있을 것입니다."
@@ -148,12 +161,21 @@ SLP_Act_National_Wage_desc:0 "Every man needs a living wage, but unfortunately, 
 SLP_Act_National_Wage_tt:0 "Completing this focus will initialize §Ythe National Wage Act§!."
 
 UE_Act_Anti_Bribery:0 "반부패법"
-UE_Act_Anti_Bribery_desc:0 "The Anti-Bribery Act is a piece of legislation focused on preventing and punishing the corruption of government officials of all ranks. Being the first party to really invest in this sort of thing will make the others look somewhat bad in comparison, but the overarching effect of the act will be an increase to national stability. After all, people not having to pay bribes are people more inclined to vote the right way."
-UE_Act_Anti_Bribery_tt:0 "Completing this focus will initialize §Ythe Anti-Bribery Act§!."
+UE_Act_Anti_Bribery_desc:0 "The Anti Corruption Act is a piece of legislation focused on preventing and punishing the corruption of government officials of all ranks. Being the first party to really invest in this sort of thing will make the others look somewhat bad in comparison, but the overarching effect of the act will be an increase to national stability. After all, people not having to pay bribes are people more inclined to vote the right way."
+UE_Act_Anti_Bribery_tt:0 "Completing this focus will initialize §Ythe Anti Corruption Act§!."
 
-UE_Act_Education:0 "교육법"
-UE_Act_Education_desc:0 "The Education Act is focused around correcting some of the deficiencies in our modern educational system. Namely a grievous overuse of corporal punishment, a lack of adequate teaching staff in many rural schools and increase the number of opportunities available to impoverished or remote students. It will also increase public school funding in general, and give us some more academics."
-UE_Act_Education_tt:0 "Completing this focus will initialize §Ythe Education Act§!."
+UE_Act_Anti_Fascism:0 "Anti-Fascism Act"
+UE_Act_Anti_Fascism_desc:0 "Fascism, is a disease. A corpulent pulsating tumor on the body of civilisation. It brings nothing but destruction, ruin and death to all who would spread it. But now we have the chance to bring England to medical attention. So that we may excise this cancer from our body. Germanophiles, fascists, criminals all. We will remove them from politics, and from society not through violence but through a clear and concise act that will offer the penalties of their continued defiance. If they choose to poison our society after this? On their heads be it, we will make sure of that to say the least. For Macmillan and for England we must prevail."
+UE_Act_Anti_Fascism_tt:0 "Completing this focus will initialize §Ythe Anti-Fascism Act§!."
+
+UE_Act_Anti_Oppression:0 "Anti-Oppression Act"
+UE_Act_Anti_Oppression_desc:0 "The late Royal Party was guilty of many things, the persecution of our native minority populations being foremost amongst their crimes. Be it the Jewish population of England, now reduced to a third by emigration and flight, or the assortment of cultural minorities like homosexuals and jehovah's witnesses, we will now offer our aegis of protection over them legally. Preventing them from being discriminated or overtly acted against without cause as was common under the rule of the Royal Party. We are after all, better than them, and now we can prove it once and for all."
+UE_Act_Anti_Oppression_tt:0 "Completing this focus will initialize §Ythe Anti-Oppression Act§!."
+
+
+UE_Act_Education:0 "Better Education Act"
+UE_Act_Education_desc:0 "The Better Education Act is focused around correcting some of the deficiencies in our modern educational system. Namely a grievous overuse of corporal punishment, a lack of adequate teaching staff in many rural schools and increase the number of opportunities available to impoverished or remote students. It will also increase public school funding in general, and give us some more academics."
+UE_Act_Education_tt:0 "Completing this focus will initialize §Ythe Better Education Act§!."
 
 UE_Act_Fair_Employment:0 "공정고용법"
 UE_Act_Fair_Employment_desc:0 "The Fair Employment Act is more accurately described as a series of acts under a single banner. The act in question primarily covers the subject of employer and employee relationships, preventing the firing of employees without compensation unless it is done under specific criteria and banning women from being fire without compensation whilst being pregnant. Additionally, the act offers job opportunities to disabled persons and subsidies for businesses that offer these opportunities of their own will."
@@ -175,21 +197,21 @@ UE_Act_Free_Labour:0 "자유노동법"
 UE_Act_Free_Labour_desc:0 "The Free Labour Act is a comprehensive series of reforms which guarantee pensions and the right to unemployment subsidies for those injured out out of work. The pension reforms are a guarantee that all persons who are forced into retirement will have sufficient money to live off of, and the unemployment reforms will ensure that those who can work will have incentive to do so."
 UE_Act_Free_Labour_tt:0 "Completing this focus will initialize §Ythe Free Labour Act§!."
 
-UE_Act_Anti_Corruption:0 "반부패법"
-UE_Act_Anti_Corruption_desc:0 "The Anti-Corruption Act is a piece of legislation which aims to deal with the problem of corrupt local officials, judiciary and the legislature. Though not specifically worded to affect any single party, it is undeniable that the Royal Party takes the brunt of the likely enforcing of this law. Perhaps fittingly, the Corruption Act is retroactive, and will ensure that those who thought themselves secure in prior misdeeds can be brought to trial."
-UE_Act_Anti_Corruption_tt:0 "Completing this focus will initialize §Ythe Anti-Corruption Act§!."
+UE_Act_Anti_Corruption:0 "Corruption Act"
+UE_Act_Anti_Corruption_desc:0 "The Corruption Act is a piece of legislation which aims to deal with the problem of corrupt local officials, judiciary and the legislature. Though not specifically worded to affect any single party, it is undeniable that the Royal Party takes the brunt of the likely enforcing of this law. Perhaps fittingly, the Corruption Act is retroactive, and will ensure that those who thought themselves secure in prior misdeeds can be brought to trial."
+UE_Act_Anti_Corruption_tt:0 "Completing this focus will initialize §Ythe Corruption Act§!."
 
-UE_Act_Anti_Extremism:0 "반극단주의법"
-UE_Act_Anti_Extremism_desc:0 "An act which bans fascism in its totality, mot merely as a political force but as an ideology that can be held by the average person, the Anti-extremism Act is a statement of the Macmillan government's intentions towards all extreme right political movements. Some of whom though not officially calling themselves fascists are likely nonetheless to be caught up in the Act's aftereffects."
-UE_Act_Anti_Extremism_tt:0 "Completing this focus will initialize §Ythe Anti-Extremism Act§!."
+UE_Act_Anti_Extremism:0 "Anti-Fascist Act"
+UE_Act_Anti_Extremism_desc:0 "An act which bans fascism in its totality, not merely as a political force but as an ideology that can be held by the average person, the Anti-Fascist Act is a statement of the Macmillan government's intentions towards all extreme right political movements. Some of whom though not officially calling themselves fascists are likely nonetheless to be caught up in the Act's aftereffects."
+UE_Act_Anti_Extremism_tt:0 "Completing this focus will initialize §Ythe Anti-Fascist Act§!."
 
-UE_Act_Protect_Democracy:0 "민주주의의 보호를 위한 법률"
+UE_Act_Protect_Democracy:0 "Protection of Our Democracy Act"
 UE_Act_Protect_Democracy_desc:0 "Democracy is a fragile construct, and one that must be carefully nurtured and protected from harm by overzealous or malicious actors. To the end of stopping harm to our democracy, some restrictions on public meetings and the content of media will be reinforced. Additionally media outlets will have to have supervision on certain release, lest they release material that is too radical for the English public."
-UE_Act_Protect_Democracy_tt:0 "Completing this focus will initialize §Ythe Protection of Democracy Act§!."
+UE_Act_Protect_Democracy_tt:0 "Completing this focus will initialize §Ythe Protection of Our Democracy Act§!."
 
-UE_Act_Patriot:0 "애국자법"
-UE_Act_Patriot_desc:0 "Is it not the duty of every man to act in the interests of England first and foremost? Well, perhaps not. But the Patriot Act is primarily focused on gathering information on those who believe that the destruction of England is a worthwhile goal. Fascists mostly, but Royal Party sympathisers, leftover HMMLR cells and other vagrant terrorist organisations as well can all be hunted down."
-UE_Act_Patriot_tt:0 "Completing this focus will initialize §Ythe Patriot Act§!."
+UE_Act_Patriot:0 "The Safe Streets Act"
+UE_Act_Patriot_desc:0 "Is it not the duty of every man to act in the interests of England first and foremost? Well, perhaps not. But the Safe Streets is primarily focused on gathering information on those who believe that the destruction of England is a worthwhile goal. Fascists mostly, but Royal Party sympathisers, leftover HMMLR cells and other vagrant terrorist organisations as well can all be hunted down."
+UE_Act_Patriot_tt:0 "Completing this focus will initialize §Ythe Safe Streets Act§!."
 
 UE_Act_Equal_Vote:0 "평등투표법"
 UE_Act_Equal_Vote_desc:0 "The Equal Vote Act is an act which grants the right to vote and the protection of that right to all people born within the confines of England and any constituent nations. Men and women regardless of color, creed or ideology may vote as they wish and it will be this government's duty to protect that right. This will garner us support across the nation, for those granted this right will be most grateful."
@@ -215,13 +237,13 @@ UE_Act_Income_Tax:0 "소득세법"
 UE_Act_Income_Tax_desc:0 "The Income Tax Act is an act which primarily aims to reduce the affect of the income tax on the English consumers average spending. An economy requires transactions to get moving after all and that of England is no exception. Additionally within the act there are some minor business friendly tax code changes on the subject of holding their assets within England."
 UE_Act_Income_Tax_tt:0 "Completing this focus will initialize §Ythe Income Tax Act§!."
 
-UE_Act_Open_Democracy:0 "개방적 민주주의를 위한 법률"
+UE_Act_Open_Democracy:0 "Fair Politics Act"
 UE_Act_Open_Democracy_desc:0 "Why should any man be barred from public political life? Well, unless they were a fascist anyway but then someone of that particular political persuasion is unlikely to work well in our new and modern democracy. Restrictions on public meetings will also be further lessened, why after all should it be the government's business what some group of old fishwives are talking about?"
-UE_Act_Open_Democracy_tt:0 "Completing this focus will initialize §Ythe Open Democracy Act§!."
+UE_Act_Open_Democracy_tt:0 "Completing this focus will initialize §Ythe Fair Politics Act§!."
 
-UE_Act_Free_Education:0 "자유교육법"
+UE_Act_Free_Education:0 "Democratic Education Act"
 UE_Act_Free_Education_desc:0 "It is important that during the course of education the English student receives a proper and full understanding of the rights and privileges that being in a democratic society gives them. Moreover, this act is an excuse to bring even more funding into the education sector to bring our pool of specialist and educated professional workers back up to our pre-Second World War levels."
-UE_Act_Free_Education_tt:0 "Completing this focus will initialize §Ythe Free Education Act§!."
+UE_Act_Free_Education_tt:0 "Completing this focus will initialize §Ythe Democratic Education Act§!."
 
 UE_Act_Charter:0 "헌장법"
 UE_Act_Charter_desc:0 "The Charter Act is an essential bill of political rights and freedoms enshrined within English society. Amongst other things it forbids the persecution or banning of any political organisation willing to work within a democratic framework. This has allowed the return of the old Labour Party, long banned under the yoke of the Royal Party and then attached to HMMLR, but now resurrected."
@@ -232,31 +254,31 @@ UE_Act_Unions_desc:0 "The lack of the ability for our workers to organize is inh
 UE_Act_Unions_tt:0 "Completing this focus will initialize §Ythe Unions Act§!."
 
 RP_Act_Workplace_Management:0 "노동현장관리법"
-RP_Act_Workplace_Management_desc:0 "불공정한 관행이 기업 분야에서 잉글랜드의 돈을 세게 만들고 있습니다. 정실 인사가 큰 문제입니다. 명시되지 않은 추가 임금을 지급하는 관행 또한 그렇습니다. 물론 수많은 암묵적 거래 또한 있습니다. 우리는 이 모든 것을 중단시켜야 합니다. 모든 수상한 행동들은 불법으로 규정하고 수사를 받을 것입니다. 또한 기업은 다른 모두와 동일한 규정 아래에 운영하게 될 것입니다."
+RP_Act_Workplace_Management_desc:0 "Unfair and corrupt practices are costing England money in the corporate world. Nepotism is a big issue, of course, and so is the practice of offering extra wages 'under the books', thereby avoiding paying taxes on those wages. And, of course, there are plenty of shady deals. The Workplace Management Act will put a stop to all that: Any suspicious activities will be made illegal and investigated, and the corporations will have to play by the same playbook as everyone else."
 RP_Act_Workplace_Management_tt:0 "이 중점을 완료하는 것은 §Y노동현장관리법§!을 시행하게 할 것입니다."
 
 RP_Act_Business_Protection:0 "사업보호법"
-RP_Act_Business_Protection_desc:0 "높은 세금은 잉글랜드 기업의 경제를 억압하고 혁신을 손상시키고 있으므로 감면이 필요합니다. 우리는 이 세금 감면을 제공하도록 하겠습니다. 기업과 사업체에 대한 세금이 경감되어서 자유 시장이 한 번 더 세력을 떨칠 수 있도록 할 것입니다. 아마 기업들 역시 우리가 번창하는 모습을 보고 싶은 산업체들에게 주는 세금 우대 조치를 이용할 것입니다. 그리고 만일 그들이 어디를 제대로 봐야할지 안다면 그 행위에는 다른 기회도 몇 가지 있을 것입니다."
+RP_Act_Business_Protection_desc:0 "Corporate England needs relief from the high taxes that are stifling the economy and crippling innovation. We will provide this relief. Taxes will be reduced on corporations and businesses, allowing the free market to allocate more capital towards expansion and innovation. In addition to this, certain tax breaks will be implemented to further accelerate England's innovations."
 RP_Act_Business_Protection_tt:0 "이 중점을 완료하는 것은 §Y사업보호법§!을 시행하게 할 것입니다."
 
 RP_Act_Housing:0 "주택법"
-RP_Act_Housing_desc:0 "잉글랜드의 가난한 사람들에게는 살 집이 필요합니다. 그와 동시에 공공 주택의 수가 늘어나고 있습니다. 집에 살고 있는 사람은 그 집을 구매할 자격이 있습니다. 공공 주택에 살고 있는 사람들에게 그 집을 구매할 수 있도록 법을 바꿀 것입니다. 이로써 주택 보유라는 기회를 많은 이들에게 줄 수 있습니다. 그들은 이제 행정당국으로부터의 허가가 필요하지 않게 될 것입니다."
+RP_Act_Housing_desc:0 "Every English citizen need a home to live in; Poor English citizens need them more than anyone else. To fill this need, the number of council homes has risen, a vain public effort to house the poor in the Reconstruction. Simply put, if you live in a home, you deserve to be able to buy it. We will change the law so that residents of council housing can buy the homes they live in. This will give many people the chance to achieve home ownership; No longer must they need permission from the civil authorities."
 RP_Act_Housing_tt:0 "이 중점을 완료하는 것은 §Y주택법§!을 시행하게 할 것입니다."
 
 RP_Act_New_Healthcare:0 "신건강보험법"
-RP_Act_New_Healthcare_desc:0 "우리 의료제도에는 더 많은 자금이 필요합니다. 우리는 재정 지원의 부족으로 인해 시민들이 고통받는 일이 없도록 많은 자금을 제공해야 할 것입니다. 우리는 병원을 새로 짓고 새로운 의사를 고용할 것이며 현대적인 장비와 구급차도 제공할 것입니다. 그리고 참전용사들을 돌보기 위해 특별한 기금도 마련할 것입니다. 우리가 일만 한다면, 잉글랜드는 훌륭한 삶의 질이 보장되는 국가가 될 것입니다."
+RP_Act_New_Healthcare_desc:0 "When people are suffering and dying in our healthcare facilities, we can not simply stand by. Our healthcare system needs more funding: For new hospitals, new doctors, modern equipment and ambulances. In addition to that, special funds will be marked for taking care of our veterans from the Civil War. We can have a decent quality of life here in England, we just need to work for it."
 RP_Act_New_Healthcare_tt:0 "이 중점을 완료하는 것은 §Y신건강보험법§!을 시행하게 할 것입니다."
 
 RP_Act_Hunger:0 "기아법"
-RP_Act_Hunger_desc:0 "잉글랜드 전역에서, 사람들이 굶주리고 있습니다. 식량은 너무 비싸 구할 수가 없고, 돈이 있더라도 아예 식량 자체가 없는 경우도 있습니다. 우리는 사람들에게 빵과, 같이 먹을 다른 것들도 제공해야 합니다. 기아 구제 제도를 위한 재정을 늘릴 것입니다. 그리고 사람들이 필요할 때 구제받을 수 있도록 지원 자격 요건도 완화할 것입니다."
+RP_Act_Hunger_desc:0 "Across England, people starve only because food is too expensive for them. And when it isn't expensive, often it's unavailable for people to have due to shortages or logistical erors. We will give the English people bread, and a few other things to put on it as well. Funding for hunger relief programs will be increased, and eligibility requirements will be relaxed so that many more people can get the relief they need."
 RP_Act_Hunger_tt:0 "이 중점을 완료하는 것은 §Y기아법§!을 시행하게 할 것입니다."
 
 RP_Act_Leash:0 "구속법"
-RP_Act_Leash_desc:0 "우리는 반대 세력을 통제해야 합니다. 지금도 그들은 우리가 달성하고 쟁취한 것들을 무너뜨리려 하고 있습니다. 만약 이걸 허용한다면, 우리가 이뤄낸 것들은 헛수고가 될 것이며, 이런 일은 절대 일어나선 안 됩니다. 우리는 그들의 활동을 탄압하고, 언론을 통해 선동하지 못하도록 제한할 것입니다. 비록 이 정책이 지지받지 못하고 반대 세력이 규탄하더라도, 반드시 시행될 것입니다."
+RP_Act_Leash_desc:0 "We need to get a handle on the opposition. Right now, they are working to destroy everything we have accomplished and fought for. If they are allowed to succeed, everything we have done will be for naught. For the safety and security of England, that must not happen. We shall clamp down on their meetings, and limit the slander they are allowed to put in the press. No matter how unpopular, or how much they howl, it will be done."
 RP_Act_Leash_tt:0 "이 중점을 완료하는 것은 §Y구속법§!을 시행하게 할 것입니다."
 
 RP_Act_Security:0 "보안법"
-RP_Act_Security_desc:0 "감시 카메라는 그 효능을 여러 차례 증명했습니다. 불행히도 이것을 빌딩 안에 설치하려면 소유자의 허가가 필요하고 영상은 따로 요청하지 않는 한 당국에 공유되지 않습니다. 우리는 당국이 범죄가 일어날 수 있다고 판단하는 곳에 소유자의 허가 없이 감시 카메라를 설치할 수 있게 만들 것입니다. 이 영상은 또한 중앙 모니터링 시스템에도 공유 됩니다. 이제 우리는 어느 곳에서든 가치 있는 증거를 수집할 수 있습니다."
+RP_Act_Security_desc:0 "Security cameras have been proven effective time and time again in dealing with nefarious activities. Unfortunately, to put them inside buildings requires the permission of the property owner, and the footage isn't shared with the authorities unless it is requested. On a number of occasions, this has negatively affected our security apparatus. We will allow authorities to place security cameras in places that they determine crime may occur, regardless of the owner's permission. This footage will also be shared with a central monitoring system. Now, we can gather valuable evidence anywhere."
 RP_Act_Security_tt:0 "이 중점을 완료하는 것은 §Y보안법§!을 시행하게 할 것입니다."
 
 RP_Act_Anti_Fascism:0 "반파시즘법"
@@ -264,11 +286,11 @@ RP_Act_Anti_Fascism_desc:0 "우리의 반대 세력 중 일부가 진정으로 �
 RP_Act_Anti_Fascism_tt:0 "이 중점을 완료하는 것은 §Y반파시즘법§!을 시행하게 할 것입니다."
 
 RP_Act_Work_Safety:0 "노동안전법"
-RP_Act_Work_Safety_desc:0 "기업들은 너무 오랫동안 노동자들로부터 부당한 이득을 취해왔습니다. 더 큰 문제는 정부가 이에 대해 어떤 조치도 할 수 없다는 것입니다. 하지만 이제 우리는 기업과 그 관리자에게 불공정 관행이 있었는지 조사할 권리를 얻을 것입니다. 무엇이라도 찾아낸다면 그들을 처벌할 것입니다. 잉글랜드의 노동자 계급은 공정한 대우를 받을 자격이 있으며 우리가 그 자격을 부여할 것입니다."
+RP_Act_Work_Safety_desc:0 "Companies have been abusing their workers for far too long. What's worse, the government isn't able to do anything about it. With the Work Safety Act, we will gain the right to investigate corporations and their leadership for any unfair practices. If we find any, we will bring down the hammer on them. England's working classes deserve a fair shake, and we will grant them that."
 RP_Act_Work_Safety_tt:0 "이 중점을 완료하는 것은 §Y노동안전법§!을 시행하게 할 것입니다."
 
 RP_Act_Coal:0 "석탄법"
-RP_Act_Coal_desc:0 "새로운 일을 시도해봅시다. 석탄 산업이 원래 의도 된 대로 잘 되고 있지 않다는 불평이 흔했습니다. 그리고 그 이유에 대해 의심해보신분 계신가요? 정부가 착수하는 어떤 일에서든 결코 유능하지 않습니다. 사업체 전체를 가장 높은 가격을 제시하는 입찰자에게 매각해보도록 하겠습니다. 그러면 우리는 그들이 그 기업을 더 잘 운영할 수 있는지 확인할 것입니다."
+RP_Act_Coal_desc:0 "It's been a common complaint that the coal industry does not work as it is supposed to. And does anyone doubt the reason why? The government is never efficient in anything it sets out to do, and as the years have gone on the nationalization of Coal has only caused us problems. The best way to get rid of a problem is to do it quickly; Let us sell off the entire business to the highest bidder. The free market will lessen the burden of the government."
 RP_Act_Coal_tt:0 "이 중점을 완료하는 것은 §Y석탄법§!을 시행하게 할 것입니다."
 
 RP_Act_Communications:0 "통신법"
@@ -276,7 +298,7 @@ RP_Act_Communications_desc:0 "자유 경쟁 시장의 진정한 성공을 이끌
 RP_Act_Communications_tt:0 "이 중점을 완료하는 것은 §Y통신법§!을 시행하게 할 것입니다."
 
 RP_Act_Aviation:0 "항공법"
-RP_Act_Aviation_desc:0 "비싼 티켓과 텅 빈 항공기, 잉글랜드의 항공 산업의 상태는 엉망입니다. 우리가 개입해서 모두 바꿔놓아야 합니다. 더 저렴한 항공을 제공하는 민간 항공사들이 시장에 진입할 수 있게 허가하고, 여러 항공사가 경쟁하게 만든다면 이득을 보는 것은 바로 승객이 될 것입니다."
+RP_Act_Aviation_desc:0 "Expensive tickets and Empty flights. To put it simply, the aviation industry of England is a mess. We must come in and change it all. Private airlines will be allowed to enter the market, offering flights for cheaper prices. When multiple airline companies compete, the flyers win."
 RP_Act_Aviation_tt:0 "이 중점을 완료하는 것은 §Y항공법§!을 시행하게 할 것입니다."
 
 RP_Act_Rail_Road:0 "철도 및 도로법"
@@ -291,7 +313,38 @@ RP_Act_Equality:0 "공정고용법"
 RP_Act_Equality_desc:0 "영국은 너무 오랫동안 그 오만함으로 인해 인구의 반을 차지하는 여성이 노동을 하지 못하게 막았습니다. 이제 현대 시대에 들어온 이상, 영국은 서방의 다른 국가들과 함께 발전해야 하며, 여성에게도 노동의 기회를 제공하기 시작해야 합니다. 기회뿐만 아니라 이를 장려함으로써 새롭게 성장한 노동자들에게 새로운 생산 정신을 부여해야 할 것입니다. 여성이 현대 노동력에 가세함에 따라, 우리의 경제는 새로운 정점에 도달할 수 있을 것입니다."
 RP_Act_Equality_tt:0 "이 중점을 완료하는 것은 §Y공정고용법§!을 시행하게 할 것입니다."
 
-ENG_Act_NDL_MPs:0 "§Y[?ActMechanic_MPs^11]§! of the §Y[?ParliamentMechanic_Party_SeatNum^11]§! §gNDL Moderate§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^10]§! of the §Y[?ParliamentMechanic_Party_SeatNum^10]§! §fNDL Liberal§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^12]§! of the §Y[?ParliamentMechanic_Party_SeatNum^12]§! §BNDL Conservative§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^13]§! of the §Y[?ParliamentMechanic_Party_SeatNum^13]§! §PSLP Reformist§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^14]§! of the §Y[?ParliamentMechanic_Party_SeatNum^14]§! §eSLP Hardliner§! MPs support the Act.\n\n전체, §Y[?totalseats]§!명의 하원의원 중 §Y[?MPs_Support]§!명이 법안을 지지하고 있으며, 통과되려면 최소 §Y[?half_totalseats]§!명의 하원의원이 지지해야 합니다.""
-ENG_Act_SLP_MPs:0 "§Y[?ActMechanic_MPs^13]§! of the §Y[?ParliamentMechanic_Party_SeatNum^13]§! §PSLP Reformist§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^14]§! of the §Y[?ParliamentMechanic_Party_SeatNum^14]§! §eSLP Hardliner§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^11]§! of the §Y[?ParliamentMechanic_Party_SeatNum^11]§! §gNDL Moderate§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^10]§! of the §Y[?ParliamentMechanic_Party_SeatNum^10]§! §fNDL Liberal§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^12]§! of the §Y[?ParliamentMechanic_Party_SeatNum^12]§! §BNDL Conservative§! MPs support the Act.\n\n전체, §Y[?totalseats]§!명의 하원의원 중 §Y[?MPs_Support]§!명이 법안을 지지하고 있으며, 통과되려면 최소 §Y[?half_totalseats]§!명의 하원의원이 지지해야 합니다.""
-ENG_Act_UE_MPs:0 "§fUE-자유파§! §Y[?ParliamentMechanic_Party_SeatNum^6]§!명의 하원의원 중 §Y[?ActMechanic_MPs^6]§!명이 법안을 지지하고 있습니다.\n\n§§BUE-맥밀런파§! §Y[?ParliamentMechanic_Party_SeatNum^5]§!명의 하원의원 중 §Y[?ActMechanic_MPs^5]§!명이 법안을 지지하고 있습니다.\n\n§E근왕당§! §Y[?ParliamentMechanic_Party_SeatNum^7]§!명의 하원의원 중 §Y[?ActMechanic_MPs^7]§!명이 법안을 지지하고 있습니다.\n\n전체, §Y[?totalseats]§!명의 하원의원 중 §Y[?MPs_Support]§!명이 법안을 지지하고 있으며, 통과되려면 최소 §Y[?half_totalseats]§!명의 하원의원이 지지해야 합니다.""
-ENG_Act_RP_MPs:0 "§E근왕당§! §Y[?ParliamentMechanic_Party_SeatNum^7]§!명의 하원의원 중 §Y[?ActMechanic_MPs^7]§!명이 법안을 지지하고 있습니다.\n\n§fUE-자유파§! §Y[?ParliamentMechanic_Party_SeatNum^6]§!명의 하원의원 중 §Y[?ActMechanic_MPs^6]§!명이 법안을 지지하고 있습니다.\n\n§BUE-맥밀런파§! §Y[?ParliamentMechanic_Party_SeatNum^5]§!명의 하원의원 중 §Y[?ActMechanic_MPs^5]§!명이 법안을 지지하고 있습니다.\n\n전체, §Y[?totalseats]§!명의 하원의원 중 §Y[?MPs_Support]§!명이 법안을 지지하고 있으며, 통과되려면 최소 §Y[?half_totalseats]§!명의 하원의원이 지지해야 합니다."
+RP_Act_ER:0 "The Emergency Relief Act"
+RP_Act_ER_desc:0 "Proposed by MacMillan, this act has the goal of facilitating the bureaucracy within Parliament to the set of Emergency Actions to be taken with executive permission regarding the emergency the HMMLR has set upon our state. On the threat to our state, all politicians should set their goals aside, or there will be no state for us to argue a future for."
+RP_Act_ER_tt:0 "Completing this focus will initialize §YEmergency Relief Act§!."
+
+RP_Act_Iron:0 "The Iron And Steel Act"
+RP_Act_Iron_desc:0 "The British industrial complexes have always been horrendously inefficient. The government owned ones at any rate. We subsidize them when that coinage could go to far more important matters of policy. Our government is hardly perfect but we aren't wasteful, and leaving the situation as is would be simply intolerable. Thus, we will divest ourselves of the worst offending industries. Iron and steel will make a profit, or find themselves vanishing with the winds."
+RP_Act_Iron_tt: "Completing this focus will initialize §Ythe Iron And Steel Act§!."
+
+RP_Act_Taxation:0 "The Indirect Taxation Act"
+RP_Act_Taxation_desc:0 "The burden of taxation need not necessarily apply to all our citizens. After all, many do not have the resources to warrant it. By focusing on indirect taxation through a Goods and Services Tax, this government will have the income to meaningfully affect policy without outwardly pressuring any concerned groups. After all, if you don't want the tax simply buy less."
+RP_Act_Taxation_tt: "Completing this focus will initialize §Ythe Indirect Taxation Act§!."
+
+RP_Act_Company:0 "The Company Investigation Act"
+RP_Act_Company_desc:0 "Money ought not to buy influence, but since when have the wealthy ever considered themselves truly bound by the laws established over the common folk? Excesses create issues, they create resentment. If the businessmen can't understand that, perhaps they will understand a proverbial loaded gun being pointed at them. For with this act our government can take a very close look at their illicit affairs indeed."
+RP_Act_Company_tt: "Completing this focus will initialize §Ythe Company Investigation Act§!."
+
+RP_Act_Local:0 "The Local Power Act"
+RP_Act_Local_desc:0 "Rotten boroughs, gerrymandering, pork barrelling. Why is it that corruption always seems to set in most prominently at a local level? Why for that matter, is it always the case that the government is so hamstrung in addressing it? A question for philosophers. The matter is a problem this government intends to deal with for good. Local councils will no longer enjoy their vaunted privileges, they'll face the same scrutiny as anyone else in politics under the Local Powers Act."
+RP_Act_Local_tt: "Completing this focus will initialize §Ythe Local Power Act§!."
+
+MSA_Act_YDL:0 "Repealing the YDL"
+MSA_Act_YDL_desc:0 "The sword of tyranny hangs over our heads so long as the Young Democracy Law remains in place. This undemocratic law threatens the safety and integrity of our rightfully elected regime, poised to strike it down should we take any action that defies the wills of Claude Auchinleck and Bill Alexander. We must see the YDL excised from our nation's laws before it can be used against British democracy."
+MSA_Act_YDL_tt:0 "Completing this focus will initialize §RRepealing of the YDL§!."
+MSA_Act_YDL_vote_tt:0 "Voting will commence on the repeal of the YDL."
+
+NF_Act_POBIAC:0 "The Promotion of British Ideas And Culture Act"
+NF_Act_POBIAC_desc:0 "Britain faces a crossroads. The degenerate forces of communism, of zionism and the weakness which so infected our past threatens to overwhelm us once more. We require legal means to preserve and protect the true cultural legacy of Britain against these malignant tumors in our society. Let the Elders of Zion pluck their puppet strings, we shall cut them off. With legal recourse to act more directly against those individuals who seek to pollute or distort our British way of life. With force, if neccessary."
+NF_Act_POBIAC_tt:0 "Completing this focus will initialize §RThe Promotion of British Ideas And Culture Act§!."
+NF_Act_POBIAC_vote_tt:0 "Voting will commence on the §RPromotion of British Ideas And Culture Act§!"
+
+ENG_Act_NDL_MPs:0 "§Y[?ActMechanic_MPs^11]§! of the §Y[?ParliamentMechanic_Party_SeatNum^11]§! §gNDL Moderate§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^10]§! of the §Y[?ParliamentMechanic_Party_SeatNum^10]§! §fNDL Liberal§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^12]§! of the §Y[?ParliamentMechanic_Party_SeatNum^12]§! §BNDL Conservative§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^13]§! of the §Y[?ParliamentMechanic_Party_SeatNum^13]§! §PSLP Reformist§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^14]§! of the §Y[?ParliamentMechanic_Party_SeatNum^14]§! §eSLP Hardliner§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^15]§! of the §Y[?ParliamentMechanic_Party_SeatNum^15]§! §jMSA§! MPs support the Act.\n\n전체, §Y[?totalseats]§!명의 하원의원 중 §Y[?MPs_Support]§!명이 법안을 지지하고 있으며, 통과되려면 최소 §Y[?half_totalseats]§!명의 하원의원이 지지해야 합니다.""
+ENG_Act_SLP_MPs:0 "§Y[?ActMechanic_MPs^13]§! of the §Y[?ParliamentMechanic_Party_SeatNum^13]§! §PSLP Reformist§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^14]§! of the §Y[?ParliamentMechanic_Party_SeatNum^14]§! §eSLP Hardliner§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^11]§! of the §Y[?ParliamentMechanic_Party_SeatNum^11]§! §gNDL Moderate§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^10]§! of the §Y[?ParliamentMechanic_Party_SeatNum^10]§! §fNDL Liberal§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^12]§! of the §Y[?ParliamentMechanic_Party_SeatNum^12]§! §BNDL Conservative§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^15]§! of the §Y[?ParliamentMechanic_Party_SeatNum^15]§! §jMSA§! MPs support the Act.\n\n전체, §Y[?totalseats]§!명의 하원의원 중 §Y[?MPs_Support]§!명이 법안을 지지하고 있으며, 통과되려면 최소 §Y[?half_totalseats]§!명의 하원의원이 지지해야 합니다.""
+ENG_Act_UE_MPs:0 "§fUE-자유파§! §Y[?ParliamentMechanic_Party_SeatNum^6]§!명의 하원의원 중 §Y[?ActMechanic_MPs^6]§!명이 법안을 지지하고 있습니다.\n\n§§BUE-맥밀런파§! §Y[?ParliamentMechanic_Party_SeatNum^5]§!명의 하원의원 중 §Y[?ActMechanic_MPs^5]§!명이 법안을 지지하고 있습니다.\n\n§E근왕당§! §Y[?ParliamentMechanic_Party_SeatNum^7]§!명의 하원의원 중 §Y[?ActMechanic_MPs^7]§!명이 법안을 지지하고 있습니다.\n\n§Y[?ActMechanic_MPs^8]§! of the §Y[?ParliamentMechanic_Party_SeatNum^8]§! §jNational Front§! MPs support the Act.\n\n전체, §Y[?totalseats]§!명의 하원의원 중 §Y[?MPs_Support]§!명이 법안을 지지하고 있으며, 통과되려면 최소 §Y[?half_totalseats]§!명의 하원의원이 지지해야 합니다.""
+ENG_Act_RP_MPs:0 "§E근왕당§! §Y[?ParliamentMechanic_Party_SeatNum^7]§!명의 하원의원 중 §Y[?ActMechanic_MPs^7]§!명이 법안을 지지하고 있습니다.\n\n§fUE-자유파§! §Y[?ParliamentMechanic_Party_SeatNum^6]§!명의 하원의원 중 §Y[?ActMechanic_MPs^6]§!명이 법안을 지지하고 있습니다.\n\n§BUE-맥밀런파§! §Y[?ParliamentMechanic_Party_SeatNum^5]§!명의 하원의원 중 §Y[?ActMechanic_MPs^5]§!명이 법안을 지지하고 있습니다.\n\n§Y[?ActMechanic_MPs^8]§! of the §Y[?ParliamentMechanic_Party_SeatNum^8]§! §jNational Front§! MPs support the Act.\n\n전체, §Y[?totalseats]§!명의 하원의원 중 §Y[?MPs_Support]§!명이 법안을 지지하고 있으며, 통과되려면 최소 §Y[?half_totalseats]§!명의 하원의원이 지지해야 합니다."
+ENG_Act_PreEcw_MPs:0 "§Y[?ActMechanic_MPs^1]§! of the §Y[?ParliamentMechanic_Party_SeatNum^1]§! §dIndependent§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^2]§! of the §Y[?ParliamentMechanic_Party_SeatNum^2]§! §PRP Moderate§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^3]§! of the §Y[?ParliamentMechanic_Party_SeatNum^3]§! §CRP Reformist§! MPs support the Act.\n\n§Y[?ActMechanic_MPs^4]§! of the §Y[?ParliamentMechanic_Party_SeatNum^4]§! §ERP Hardliner§! MPs support the Act.\n\nOverall, §Y[?MPs_Support]§! of the §Y[?totalseats]§! MPs in the House of Commons support the Act, and we need the support of at least §Y[?half_totalseats]§! MPs to pass the Act."
