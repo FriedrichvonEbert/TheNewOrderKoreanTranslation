@@ -25,6 +25,7 @@
  TNO_ElectionSeason_SE_Entry_CampaignBtn_tt: "우리 당의 인기도에 4§!인기도§!를 추가합니다"
 
  TNO_ElectionSeason_SE_Entry_StateName_text: "§Y[ElectionMech_GetStateName]§!"
+ TNO_ElectionSeason_SE_Short_London_name: "Greater London" #The state's name (Greater London Area) doesn't fit in the GUI box
  TNO_ElectionSeason_SE_Entry_TurnoutValue_text: "" #Oprhaned
 
  TNO_ElectionSeason_SE_Entry_PartyIcon_text: "[ElectionMech_GetDominantParty]이(가) §Y[ElectionMech_GetStateName]§!에서 투표를 주도하고 있습니다. 이 주에는 §W[ElectionMech_GetAlottedSeats]§!개의 의석이 있습니다."
@@ -66,11 +67,14 @@
  TNO_ElectionSeason_SE_PartyName_RP_R: "£RP_Moderates_texticon. §PRP (개혁파)§!"
  TNO_ElectionSeason_SE_PartyName_RP_H: "£RP_Hardliners_texticon. §PRP (강경파)§!"
  TNO_ElectionSeason_SE_PartyName_RP_T: "£RP_Thatcherites_texticon. §PRP§!"
- TNO_ElectionSeason_SE_PartyName_UE_M: "£UE_MacMillanists_texticon. §BUE (맥밀런파)§!"
+ TNO_ElectionSeason_SE_PartyName_UE_M: "£UE_Macmillanists_texticon. §BUE (맥밀런파)§!"
  TNO_ElectionSeason_SE_PartyName_UE_L: "£UE_Liberals_texticon. §MUE (자유파)§!"
  TNO_ElectionSeason_SE_PartyName_NF_2: "£NF_texticon. §ONF§!"
+ 
+ TNO_ElectionSeason_Info:0 "Despite the many changes wrought due to the assortment of conflicts that have occurred in England since the end of the 2nd World War, elections are still an important and respected business. For the purposes of simplification the parliamentary seats of the British Isles have been divided into regions with an assigned number of seats within that. Varying from populous London, to dreary little Cornwall. The goal of a party in an election is to command the loyalty of a majority of those seats, and that is where the regions come in.\n\nAs each region contains a number of seats, the votes in that region are counted as a percentage, and the seats distributed according to their percentage. Note however, that seats won are counted by the faction of a party which won them, and subsequently if a party has multiple factions they will be tallied together for the purposes of a majority. Thus one should always be careful when looking at a projected victor in an election, if your two runners up are part of the same party victory might be a closer ask than it appears.\n\nOnce all seats are tallied, the party with the most overall seats will form the government and win the election. For now, best of luck to your desired victor in the upcoming elections. And may the voters be ever in your favour."
 
  ENG_ES_ElectionTimer: "선거까지 남은 시간"
+ ENG_ES_ElectionTimer_desc: "The current polls show a victory for the [ElectionMech_GetCurrentPolling]."
  ENG_ES_Campaigning: "[ElectionMech_GetCampaigningParty]이(가) §Y[TNO_Britain_ElectionSeason_CampaignState.GetName]§!에서 선거운동 중
  ENG_ES_Campaigning_desc: "모든 칸막이에 선거 포스터를 붙였고, 모든 광장에서 돌아다니며 연설했으며, 모든 지역에서 집회를 열었습니다. 마침내 [ElectionMech_GetCampaigningParty]이(가) 진정으로 [TNO_Britain_ElectionSeason_CampaignState.GetName]에 도달했습니다. 선거 기간이 본격화되면서, [ElectionMech_GetCampaigningParty]은(는) [TNO_Britain_ElectionSeason_CampaignState.GetName] 내에서 크게 선거운동을 벌여 지지를 강화하고 경쟁자의 유권자를 훔치기를 희망하고 있습니다. 그들이 [TNO_Britain_ElectionSeason_CampaignState.GetName]에서 유권자의 마음, 정신, 소중한 한표를 얻을 수 있다면 [ElectionMech_GetCampaigningParty]이(가) 선거에서 승리하는 데 필요한 충분한 조건이 채워질 수도 있습니다..."
  ENG_ES_AI_Campaigning_A: "[ElectionMech_GetAICampaigningParty_A]이(가) §Y[TNO_Britain_ElectionSeason_AI_CampaignState_A.GetName]§!에서 선거운동 중
@@ -78,6 +82,7 @@
  ENG_ES_AI_Campaigning_B: "[ElectionMech_GetAICampaigningParty_B]이(가) §Y[TNO_Britain_ElectionSeason_AI_CampaignState_B.GetName]§!에서 선거운동 중
  ENG_ES_AI_Campaigning_B_desc: "모든 칸막이에 선거 포스터를 붙였고, 모든 광장에서 돌아다니며 연설했으며, 모든 지역에서 집회를 열었습니다. 마침내 [ElectionMech_GetAICampaigningParty_B]이(가) 진정으로 [TNO_Britain_ElectionSeason_AI_CampaignState_B.GetName]에 도달했습니다. 선거 기간이 본격화되면서, [ElectionMech_GetAICampaigningParty_B]은(는) [TNO_Britain_ElectionSeason_AI_CampaignState_B.GetName] 내에서 크게 선거운동을 벌여 지지를 강화하고 경쟁자의 유권자를 훔치기를 희망하고 있습니다. 그들이 [TNO_Britain_ElectionSeason_AI_CampaignState_B.GetName]에서 유권자의 마음, 정신, 소중한 한표를 얻을 수 있다면 [ElectionMech_GetAICampaigningParty_B]이(가) 선거에서 승리하는 데 필요한 충분한 조건이 채워질 수도 있습니다..."
  ENG_ES_ElectionDebug: "§Y디버그§! - 무제한 선거운동"
+ ENG_ES_EndElectionDebug: "§YDEBUG§! - End the Election"
 
  TNO_Britain_ElectionSeason_Active_tt: "§Y선거철§!이 끝났습니다."
 
@@ -86,6 +91,7 @@
  ENG_ElectionSeason.1.desc: "때가 왔습니다. 후보들이 정당에서 선출되었습니다. 각 정당은 다우닝가 10번지를 점거할 차기 총리를 선출했습니다. 그리고 이제 영국 의회의 짧지만 혼란스러운 전통이 다가옵니다. 선거할 시간입니다!\n\n국가민주연맹과 사회노동당은 이번 선거의 양대 정당입니다. 조지 젤리코가 이끌고 클라우드 오킨렉이 후원하는 NDL은 전통적인 대전쟁 전 영국의 복원을 의미하지만, 현대에 맞게 유지하고 영국을 세계 무대에서 다시 한번 존경받게 하기 위해 필요한 개혁안을 생각중입니다. 해럴드 윌슨이 이끌고 빌 알렉산더가 지지하는 SLP는 보다 급진적인 행태를 취하고 있습니다. 영국은 마침내 노동자들을 구속했던 사슬을 끊을 것이고, 빈곤에서 벗어날 것이며, 전세계 프롤레타리아와 함께 더 평등한 미래를 향해 나아갈 것입니다.\n\n데이비드 스털링의 조직도 있지만, 많은 유권자들이 이를 극단주의 군소 정당으로 취급하고 있습니다. 선택은 젤리코의 과거의 영광 회복이냐 윌슨이 주장한 미래의 영광이냐에 갈릴 것입니다."
  ENG_ElectionSeason.1.o_ndl: "NDL! 여왕폐하와 국가를 위해!"
  ENG_ElectionSeason.1.o_slp: "SLP에 투표하고 평화를 이루자!"
+ ENG_ElectionSeason.1.o_msa: "Defend Britain, vote for the MSA!"
  ENG_ElectionSeason.1.o_dbg: ""
 
  ENG_ElectionSeason.2.t: "NDL - 당파"
@@ -109,7 +115,7 @@
  ENG_ElectionSeason.5.desc: "원하든 원하지 않든, '왕실의 이혼'은 다가오는 선거에서 우리에게 편을 들도록 강요했습니다. 흄 총리가 어떤 계획을 세웠든 결단을 내려야 합니다. 맥밀런과 함께 국가가 절실히 필요로 하는 변화를 이끌어내기 위해 선거운동을 진행할까요? 아니면 대처와 협력해서 국가를 안정시키고 재건하는 것을 시작할까요?"
  ENG_ElectionSeason.5.o_ue: "잉글랜드에 더 나은 변화의 바람을, 잉글랜드 통합당에!"
  ENG_ElectionSeason.5.o_rp: "더 안정된 나라 위해, 근왕당으로!"
- ENG_ElectionSeason.5.o_nf: ""
+ ENG_ElectionSeason.5.o_nf: "Long live England, vote for the National Front!"
  ENG_ElectionSeason.5.o_dbg: ""
 
  ENG_ElectionSeason.6.t: "잉글랜드 통합당 대회"
