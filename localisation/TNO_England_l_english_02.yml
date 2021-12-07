@@ -102,28 +102,6 @@ ENG_MIL_EFF_VH:0 "§y매우 효율적§!입니다."
 
 ENG_MILMAN_FX_EXPLANATION:0 "최고사령부의 충성도와 효율성이 다음과 같은 효과를 줍니다:\n\n사단 공격력: [?ENG_MILMAN_FX|=+%1]\n사단 방어력: [?ENG_MILMAN_FX|=+%1]\n계획 수립 속도: [?ENG_MILMAN_FX|=+%1]\n사단 조직도: [?ENG_MILMAN_ORG|=+%1]\n사단 회복율: [?ENG_MILMAN_ORG|=+%1]\n정부 안정성: [?ENG_MILMAN_STAB_SHOW|=+%1]"
 
-ENG_Faction_Category_ENG:0 "우리가 지금 어느 편이지"
-ENG_Faction_Category_ENG_desc:0 "잉글랜드는 냉전의 가장 뜨거운 화제로 부상했습니다. 아인하이츠팍트와 자유국가기구는 저마다 우리를 끌어들이기 위해 다양한 방법으로 경쟁하고 있습니다. 이들 중 한 세력의 영향력이 일정 수준에 도달하면 우리는 그 세력에 조인할 수 있습니다. 하지만 그렇게 된다면 두 세력 또한 우리를 강제로 가입시킬 수 있다는 사실을 잊지 마세요.\n\n팍트와 OFN의 영향력:\n\nOFN: [?ENG.ENG_OFN_Influence]%\n\n자유국가기구의 영향력은 매달 [?ENG.ENG_OFN_Influence_Increase]%씩 증가할 것입니다.\n\n팍트: [?ENG.ENG_PAKT_Influence]%\n\n우리의 영향력은 매달 [?ENG.ENG_PAKT_Influence_Increase]%씩 증가할 것입니다."
-
-ENG_Faction_Petition_to_join_PAKT:0 "팍트에 가입 요청"
-ENG_Faction_Petition_to_join_OFN:0 "OFN에 가입 요청"
-ENG_Faction_ENG_Rebuke_PAKT_efforts:0 "팍트의 노력을 저버리다"
-ENG_Faction_ENG_Rebuke_OFN_efforts:0 "OFN의 노력을 저버리다"
-
-ENG_Faction_Category_GER:0 "잉글랜드를 우방으로"
-ENG_Faction_Category_GER_desc:0 "잉글랜드는 냉전의 가장 뜨거운 화제로 부상했습니다. 아인하이츠팍트와 자유국가기구는 저마다 우리를 끌어들이기 위해 다양한 방법으로 경쟁하고 있습니다. 이들 중 한 세력의 영향력이 일정 수준에 도달하면 우리는 그 세력에 조인할 수 있습니다. 하지만 그렇게 된다면 두 세력 또한 우리를 강제로 가입시킬 수 있다는 사실을 잊지 마세요.\n\n팍트와 OFN의 영향력:\n\nOFN: [?ENG.ENG_OFN_Influence]%\n\nOFN의 영향력은 매월 [?ENG.ENG_OFN_Influence_Increase]% 만큼 증가할 것입니다.\n\n팍트: [?ENG.ENG_PAKT_Influence]%\n\n우리의 영향력은 매월 [?ENG.ENG_PAKT_Influence_Increase]% 만큼 증가할 것입니다."
-
-ENG_Faction_GER_Pressure_England_to_join:0 "잉글랜드가 가입하도록 압박하라"
-ENG_Faction_GER_Increase_Influence:0 "영향력 증가"
-ENG_Faction_GER_Decrease_USA_Influence:0 "미국 영향력 감소"
-
-ENG_Faction_Category_USA:0 "잉글랜드를 끌어들이기"
-ENG_Faction_Category_USA_desc:0 "잉글랜드는 냉전의 가장 뜨거운 화제로 부상했습니다. 아인하이츠팍트와 자유국가기구는 저마다 우리를 끌어들이기 위해 다양한 방법으로 경쟁하고 있습니다. 이들 중 한 세력의 영향력이 일정 수준에 도달하면 우리는 그 세력에 조인할 수 있습니다. 하지만 그렇게 된다면 두 세력 또한 우리를 강제로 가입시킬 수 있다는 사실을 잊지 마세요.\n\n팍트와 OFN의 영향력:\n\nOFN: [?ENG.ENG_OFN_Influence]%\n\n우리의 영향력은 매월 [?ENG.ENG_OFN_Influence_Increase]% 만큼 증가할 것입니다.\n\n팍트: [?ENG.ENG_PAKT_Influence]%\n\nOFN의 영향력은 매월 [?ENG.ENG_PAKT_Influence_Increase]% 만큼 증가할 것입니다."
-
-ENG_Faction_USA_Pressure_England_to_join:0 "잉글랜드가 가입하도록 압박하라"
-ENG_Faction_USA_Increase_Influence:0 "영향력 증가"
-ENG_Faction_USA_Decrease_PAKT_Influence:0 "팍트 영향력 감소"
-
 ############thatcher cornwall crisis 
 
 ENG_Thatcher_Cornwall:0 "콘월 위기"
@@ -173,50 +151,155 @@ ENG_DEC_THATCHER_SHIPS_10_desc:0 ""
 # GUIs #
 ########
 
- # State Economy
- ENG_ECON_TT:0 "[get.GetEconEnglandState]"
-  ENG_StateEcon_1300_tt:0 "§Y지역 경제§!\n\n§g인구: [?1300.state_population_k]\n국내 일자리: [?1300.domestic_jobs]\n해외 일자리: [?1300.foreign_jobs]\n실업률: [?1300.unemployment]\n국내　기업　비율: [?1300.domestic_business_ratio]\n국내　일자리　증가: [?1300.domestic_job_growth]\n해외　일자리　증가: [?1300.foreign_job_growth]\n지역　GDP: [?1300.state_GDP]\n국내　GDP　가치: [?1300.domestic_GDP_value]\n해외　GDP　가치: [?1300.foreign_GDP_value]\n１인당　GDP: [?1300.GDP_per_capita]§!"
- ENG_StateEcon_126_tt:0 "§Y지역 경제§!\n\n§g인구: [?126.state_population_k]\n국내 일자리: [?126.domestic_jobs]\n해외 일자리: [?126.foreign_jobs]\n실업률: [?126.unemployment]\n국내　기업　비율: [?126.domestic_business_ratio]\n국내　일자리　증가: [?126.domestic_job_growth]\n해외　일자리　증가: [?126.foreign_job_growth]\n지역　GDP: [?126.state_GDP]\n국내　GDP　가치: [?126.domestic_GDP_value]\n해외　GDP　가치: [?126.foreign_GDP_value]\n１인당　GDP: [?126.GDP_per_capita]§!"
- ENG_StateEcon_125_tt:0 "§Y지역 경제§!\n\n§g인구: [?125.state_population_k]\n국내 일자리: [?125.domestic_jobs]\n해외 일자리: [?125.foreign_jobs]\n실업률: [?125.unemployment]\n국내　기업　비율: [?125.domestic_business_ratio]\n국내　일자리　증가: [?125.domestic_job_growth]\n해외　일자리　증가: [?125.foreign_job_growth]\n지역　GDP: [?125.state_GDP]\n국내　GDP　가치: [?125.domestic_GDP_value]\n해외　GDP　가치: [?125.foreign_GDP_value]\n１인당　GDP: [?125.GDP_per_capita]§!"
- ENG_StateEcon_129_tt:0 "§Y지역 경제§!\n\n§g인구: [?129.state_population_k]\n국내 일자리: [?129.domestic_jobs]\n해외 일자리: [?129.foreign_jobs]\n실업률: [?129.unemployment]\n국내　기업　비율: [?129.domestic_business_ratio]\n국내　일자리　증가: [?129.domestic_job_growth]\n해외　일자리　증가: [?129.foreign_job_growth]\n지역　GDP: [?129.state_GDP]\n국내　GDP　가치: [?129.domestic_GDP_value]\n해외　GDP　가치: [?129.foreign_GDP_value]\n１인당　GDP: [?129.GDP_per_capita]§!"
- ENG_StateEcon_127_tt:0 "§Y지역 경제§!\n\n§g인구: [?127.state_population_k]\n국내 일자리: [?127.domestic_jobs]\n해외 일자리: [?127.foreign_jobs]\n실업률: [?127.unemployment]\n국내　기업　비율: [?127.domestic_business_ratio]\n국내　일자리　증가: [?127.domestic_job_growth]\n해외　일자리　증가: [?127.foreign_job_growth]\n지역　GDP: [?127.state_GDP]\n국내　GDP　가치: [?127.domestic_GDP_value]\n해외　GDP　가치: [?127.foreign_GDP_value]\n１인당　GDP: [?127.GDP_per_capita]§!"
- ENG_StateEcon_130_tt:0 "§Y지역 경제§!\n\n§g인구: [?130.state_population_k]\n국내 일자리: [?130.domestic_jobs]\n해외 일자리: [?130.foreign_jobs]\n실업률: [?130.unemployment]\n국내　기업　비율: [?130.domestic_business_ratio]\n국내　일자리　증가: [?130.domestic_job_growth]\n해외　일자리　증가: [?130.foreign_job_growth]\n지역　GDP: [?130.state_GDP]\n국내　GDP　가치: [?130.domestic_GDP_value]\n해외　GDP　가치: [?130.foreign_GDP_value]\n１인당　GDP: [?130.GDP_per_capita]§!"
- ENG_StateEcon_131_tt:0 "§Y지역 경제§!\n\n§g인구: [?131.state_population_k]\n국내 일자리: [?131.domestic_jobs]\n해외 일자리: [?131.foreign_jobs]\n실업률: [?131.unemployment]\n국내　기업　비율: [?131.domestic_business_ratio]\n국내　일자리　증가: [?131.domestic_job_growth]\n해외　일자리　증가: [?131.foreign_job_growth]\n지역　GDP: [?131.state_GDP]\n국내　GDP　가치: [?131.domestic_GDP_value]\n해외　GDP　가치: [?131.foreign_GDP_value]\n１인당　GDP: [?131.GDP_per_capita]§!"
- ENG_StateEcon_132_tt:0 "§Y지역 경제§!\n\n§g인구: [?132.state_population_k]\n국내 일자리: [?132.domestic_jobs]\n해외 일자리: [?132.foreign_jobs]\n실업률: [?132.unemployment]\n국내　기업　비율: [?132.domestic_business_ratio]\n국내　일자리　증가: [?132.domestic_job_growth]\n해외　일자리　증가: [?132.foreign_job_growth]\n지역　GDP: [?132.state_GDP]\n국내　GDP　가치: [?132.domestic_GDP_value]\n해외　GDP　가치: [?132.foreign_GDP_value]\n１인당　GDP: [?132.GDP_per_capita]§!"
- ENG_StateEcon_128_tt:0 "§Y지역 경제§!\n\n§g인구: [?128.state_population_k]\n국내 일자리: [?128.domestic_jobs]\n해외 일자리: [?128.foreign_jobs]\n실업률: [?128.unemployment]\n국내　기업　비율: [?128.domestic_business_ratio]\n국내　일자리　증가: [?128.domestic_job_growth]\n해외　일자리　증가: [?128.foreign_job_growth]\n지역　GDP: [?128.state_GDP]\n국내　GDP　가치: [?128.domestic_GDP_value]\n해외　GDP　가치: [?128.foreign_GDP_value]\n１인당　GDP: [?128.GDP_per_capita]§!"
- ENG_StateEcon_885_tt:0 "§Y지역 경제§!\n\n§g인구: [?885.state_population_k]\n국내 일자리: [?885.domestic_jobs]\n해외 일자리: [?885.foreign_jobs]\n실업률: [?885.unemployment]\n국내　기업　비율: [?885.domestic_business_ratio]\n국내　일자리　증가: [?885.domestic_job_growth]\n해외　일자리　증가: [?885.foreign_job_growth]\n지역　GDP: [?885.state_GDP]\n국내　GDP　가치: [?885.domestic_GDP_value]\n해외　GDP　가치: [?885.foreign_GDP_value]\n１인당　GDP: [?885.GDP_per_capita]§!"
- ENG_StateEcon_777_tt:0 "§Y지역 경제§!\n\n§g인구: [?777.state_population_k]\n국내 일자리: [?777.domestic_jobs]\n해외 일자리: [?777.foreign_jobs]\n실업률: [?777.unemployment]\n국내　기업　비율: [?777.domestic_business_ratio]\n국내　일자리　증가: [?777.domestic_job_growth]\n해외　일자리　증가: [?777.foreign_job_growth]\n지역　GDP: [?777.state_GDP]\n국내　GDP　가치: [?777.domestic_GDP_value]\n해외　GDP　가치: [?777.foreign_GDP_value]\n１인당　GDP: [?777.GDP_per_capita]§!"
- ENG_StateEcon_338_tt:0 "§Y지역 경제§!\n\n§g인구: [?338.state_population_k]\n국내 일자리: [?338.domestic_jobs]\n해외 일자리: [?338.foreign_jobs]\n실업률: [?338.unemployment]\n국내　기업　비율: [?338.domestic_business_ratio]\n국내　일자리　증가: [?338.domestic_job_growth]\n해외　일자리　증가: [?338.foreign_job_growth]\n지역　GDP: [?338.state_GDP]\n국내　GDP　가치: [?338.domestic_GDP_value]\n해외　GDP　가치: [?338.foreign_GDP_value]\n１인당　GDP: [?338.GDP_per_capita]§!"
- ENG_StateEcon_1301_tt:0 "§Y지역 경제§!\n\n§g인구: [?1301.state_population_k]\n국내 일자리: [?1301.domestic_jobs]\n해외 일자리: [?1301.foreign_jobs]\n실업률: [?1301.unemployment]\n국내　기업　비율: [?1301.domestic_business_ratio]\n국내　일자리　증가: [?1301.domestic_job_growth]\n해외　일자리　증가: [?1301.foreign_job_growth]\n지역　GDP: [?1301.state_GDP]\n국내　GDP　가치: [?1301.domestic_GDP_value]\n해외　GDP　가치: [?1301.foreign_GDP_value]\n１인당　GDP: [?1301.GDP_per_capita]§!"
- ENG_StateEcon_122_tt:0 "§Y지역 경제§!\n\n§g인구: [?122.state_population_k]\n국내 일자리: [?122.domestic_jobs]\n해외 일자리: [?122.foreign_jobs]\n실업률: [?122.unemployment]\n국내　기업　비율: [?122.domestic_business_ratio]\n국내　일자리　증가: [?122.domestic_job_growth]\n해외　일자리　증가: [?122.foreign_job_growth]\n지역　GDP: [?122.state_GDP]\n국내　GDP　가치: [?122.domestic_GDP_value]\n해외　GDP　가치: [?122.foreign_GDP_value]\n１인당　GDP: [?122.GDP_per_capita]§!"
- ENG_StateEcon_123_tt:0 "§Y지역 경제§!\n\n§g인구: [?123.state_population_k]\n국내 일자리: [?123.domestic_jobs]\n해외 일자리: [?123.foreign_jobs]\n실업률: [?123.unemployment]\n국내　기업　비율: [?123.domestic_business_ratio]\n국내　일자리　증가: [?123.domestic_job_growth]\n해외　일자리　증가: [?123.foreign_job_growth]\n지역　GDP: [?123.state_GDP]\n국내　GDP　가치: [?123.domestic_GDP_value]\n해외　GDP　가치: [?123.foreign_GDP_value]\n１인당　GDP: [?123.GDP_per_capita]§!"
- ENG_StateEcon_1296_tt:0 "§Y지역 경제§!\n\n§g인구: [?1296.state_population_k]\n국내 일자리: [?1296.domestic_jobs]\n해외 일자리: [?1296.foreign_jobs]\n실업률: [?1296.unemployment]\n국내　기업　비율: [?1296.domestic_business_ratio]\n국내　일자리　증가: [?1296.domestic_job_growth]\n해외　일자리　증가: [?1296.foreign_job_growth]\n지역　GDP: [?1296.state_GDP]\n국내　GDP　가치: [?1296.domestic_GDP_value]\n해외　GDP　가치: [?1296.foreign_GDP_value]\n１인당　GDP: [?1296.GDP_per_capita]§!"
- ENG_StateEcon_1375_tt:0 "§Y지역 경제§!\n\n§g인구: [?1375.state_population_k]\n국내 일자리: [?1375.domestic_jobs]\n해외 일자리: [?1375.foreign_jobs]\n실업률: [?1375.unemployment]\n국내　기업　비율: [?1375.domestic_business_ratio]\n국내　일자리　증가: [?1375.domestic_job_growth]\n해외　일자리　증가: [?1375.foreign_job_growth]\n지역　GDP: [?1375.state_GDP]\n국내　GDP　가치: [?1375.domestic_GDP_value]\n해외　GDP　가치: [?1375.foreign_GDP_value]\n１인당　GDP: [?1375.GDP_per_capita]§!"
- ENG_StateEcon_121_tt:0 "§Y지역 경제§!\n\n§g인구: [?121.state_population_k]\n국내 일자리: [?121.domestic_jobs]\n해외 일자리: [?121.foreign_jobs]\n실업률: [?121.unemployment]\n국내　기업　비율: [?121.domestic_business_ratio]\n국내　일자리　증가: [?121.domestic_job_growth]\n해외　일자리　증가: [?121.foreign_job_growth]\n지역　GDP: [?121.state_GDP]\n국내　GDP　가치: [?121.domestic_GDP_value]\n해외　GDP　가치: [?121.foreign_GDP_value]\n１인당　GDP: [?121.GDP_per_capita]§!"
- ENG_StateEcon_1321_tt:0 "§Y지역 경제§!\n\n§g인구: [?1321.state_population_k]\n국내 일자리: [?1321.domestic_jobs]\n해외 일자리: [?1321.foreign_jobs]\n실업률: [?1321.unemployment]\n국내　기업　비율: [?1321.domestic_business_ratio]\n국내　일자리　증가: [?1321.domestic_job_growth]\n해외　일자리　증가: [?1321.foreign_job_growth]\n지역　GDP: [?1321.state_GDP]\n국내　GDP　가치: [?1321.domestic_GDP_value]\n해외　GDP　가치: [?1321.foreign_GDP_value]\n１인당　GDP: [?1321.GDP_per_capita]§!"
- ENG_StateEcon_133_tt:0 "§Y지역 경제§!\n\n§g인구: [?133.state_population_k]\n국내 일자리: [?133.domestic_jobs]\n해외 일자리: [?133.foreign_jobs]\n실업률: [?133.unemployment]\n국내　기업　비율: [?133.domestic_business_ratio]\n국내　일자리　증가: [?133.domestic_job_growth]\n해외　일자리　증가: [?133.foreign_job_growth]\n지역　GDP: [?133.state_GDP]\n국내　GDP　가치: [?133.domestic_GDP_value]\n해외　GDP　가치: [?133.foreign_GDP_value]\n１인당　GDP: [?133.GDP_per_capita]§!"
- ENG_StateEcon_1320_tt:0 "§Y지역 경제§!\n\n§g인구: [?1320.state_population_k]\n국내 일자리: [?1320.domestic_jobs]\n해외 일자리: [?1320.foreign_jobs]\n실업률: [?1320.unemployment]\n국내　기업　비율: [?1320.domestic_business_ratio]\n국내　일자리　증가: [?1320.domestic_job_growth]\n해외　일자리　증가: [?1320.foreign_job_growth]\n지역　GDP: [?1320.state_GDP]\n국내　GDP　가치: [?1320.domestic_GDP_value]\n해외　GDP　가치: [?1320.foreign_GDP_value]\n１인당　GDP: [?1320.GDP_per_capita]§!"
- ENG_StateEcon_136_tt:0 "§Y지역 경제§!\n\n§g인구: [?136.state_population_k]\n국내 일자리: [?136.domestic_jobs]\n해외 일자리: [?136.foreign_jobs]\n실업률: [?136.unemployment]\n국내　기업　비율: [?136.domestic_business_ratio]\n국내　일자리　증가: [?136.domestic_job_growth]\n해외　일자리　증가: [?136.foreign_job_growth]\n지역　GDP: [?136.state_GDP]\n국내　GDP　가치: [?136.domestic_GDP_value]\n해외　GDP　가치: [?136.foreign_GDP_value]\n１인당　GDP: [?136.GDP_per_capita]§!"
- ENG_StateEcon_120_tt:0 "§Y지역 경제§!\n\n§g인구: [?120.state_population_k]\n국내 일자리: [?120.domestic_jobs]\n해외 일자리: [?120.foreign_jobs]\n실업률: [?120.unemployment]\n국내　기업　비율: [?120.domestic_business_ratio]\n국내　일자리　증가: [?120.domestic_job_growth]\n해외　일자리　증가: [?120.foreign_job_growth]\n지역　GDP: [?120.state_GDP]\n국내　GDP　가치: [?120.domestic_GDP_value]\n해외　GDP　가치: [?120.foreign_GDP_value]\n１인당　GDP: [?120.GDP_per_capita]§!"
- ENG_StateEcon_337_tt:0 "§Y지역 경제§!\n\n§g인구: [?337.state_population_k]\n국내 일자리: [?337.domestic_jobs]\n해외 일자리: [?337.foreign_jobs]\n실업률: [?337.unemployment]\n국내　기업　비율: [?337.domestic_business_ratio]\n국내　일자리　증가: [?337.domestic_job_growth]\n해외　일자리　증가: [?337.foreign_job_growth]\n지역　GDP: [?337.state_GDP]\n국내　GDP　가치: [?337.domestic_GDP_value]\n해외　GDP　가치: [?337.foreign_GDP_value]\n１인당　GDP: [?337.GDP_per_capita]§!"
- ENG_StateEcon_1322_tt:0 "§Y지역 경제§!\n\n§g인구: [?1322.state_population_k]\n국내 일자리: [?1322.domestic_jobs]\n해외 일자리: [?1322.foreign_jobs]\n실업률: [?1322.unemployment]\n국내　기업　비율: [?1322.domestic_business_ratio]\n국내　일자리　증가: [?1322.domestic_job_growth]\n해외　일자리　증가: [?1322.foreign_job_growth]\n지역　GDP: [?1322.state_GDP]\n국내　GDP　가치: [?1322.domestic_GDP_value]\n해외　GDP　가치: [?1322.foreign_GDP_value]\n１인당　GDP: [?1322.GDP_per_capita]§!"
- ENG_StateEcon_119_tt:0 "§Y지역 경제§!\n\n§g인구: [?119.state_population_k]\n국내 일자리: [?119.domestic_jobs]\n해외 일자리: [?119.foreign_jobs]\n실업률: [?119.unemployment]\n국내　기업　비율: [?119.domestic_business_ratio]\n국내　일자리　증가: [?119.domestic_job_growth]\n해외　일자리　증가: [?119.foreign_job_growth]\n지역　GDP: [?119.state_GDP]\n국내　GDP　가치: [?119.domestic_GDP_value]\n해외　GDP　가치: [?119.foreign_GDP_value]\n１인당　GDP: [?119.GDP_per_capita]§!"
- ENG_StateEcon_1355_tt:0 "§Y지역 경제§!\n\n§g인구: [?1355.state_population_k]\n국내 일자리: [?1355.domestic_jobs]\n해외 일자리: [?1355.foreign_jobs]\n실업률: [?1355.unemployment]\n국내　기업　비율: [?1355.domestic_business_ratio]\n국내　일자리　증가: [?1355.domestic_job_growth]\n해외　일자리　증가: [?1355.foreign_job_growth]\n지역　GDP: [?1355.state_GDP]\n국내　GDP　가치: [?1355.domestic_GDP_value]\n해외　GDP　가치: [?1355.foreign_GDP_value]\n１인당　GDP: [?1355.GDP_per_capita]§!"
- ENG_StateEcon_1315_tt:0 "§Y지역 경제§!\n\n§g인구: [?1315.state_population_k]\n국내 일자리: [?1315.domestic_jobs]\n해외 일자리: [?1315.foreign_jobs]\n실업률: [?1315.unemployment]\n국내　기업　비율: [?1315.domestic_business_ratio]\n국내　일자리　증가: [?1315.domestic_job_growth]\n해외　일자리　증가: [?1315.foreign_job_growth]\n지역　GDP: [?1315.state_GDP]\n국내　GDP　가치: [?1315.domestic_GDP_value]\n해외　GDP　가치: [?1315.foreign_GDP_value]\n１인당　GDP: [?1315.GDP_per_capita]§!"
- ENG_StateEcon_1357_tt:0 "§Y지역 경제§!\n\n§g인구: [?1357.state_population_k]\n국내 일자리: [?1357.domestic_jobs]\n해외 일자리: [?1357.foreign_jobs]\n실업률: [?1357.unemployment]\n국내　기업　비율: [?1357.domestic_business_ratio]\n국내　일자리　증가: [?1357.domestic_job_growth]\n해외　일자리　증가: [?1357.foreign_job_growth]\n지역　GDP: [?1357.state_GDP]\n국내　GDP　가치: [?1357.domestic_GDP_value]\n해외　GDP　가치: [?1357.foreign_GDP_value]\n１인당　GDP: [?1357.GDP_per_capita]§!"
- ENG_StateEcon_113_tt:0 "§Y지역 경제§!\n\n§g인구: [?113.state_population_k]\n국내 일자리: [?113.domestic_jobs]\n해외 일자리: [?113.foreign_jobs]\n실업률: [?113.unemployment]\n국내　기업　비율: [?113.domestic_business_ratio]\n국내　일자리　증가: [?113.domestic_job_growth]\n해외　일자리　증가: [?113.foreign_job_growth]\n지역　GDP: [?113.state_GDP]\n국내　GDP　가치: [?113.domestic_GDP_value]\n해외　GDP　가치: [?113.foreign_GDP_value]\n１인당　GDP: [?113.GDP_per_capita]§!"
- ENG_StateEcon_1374_tt:0 "§Y지역 경제§!\n\n§g인구: [?1374.state_population_k]\n국내 일자리: [?1374.domestic_jobs]\n해외 일자리: [?1374.foreign_jobs]\n실업률: [?1374.unemployment]\n국내　기업　비율: [?1374.domestic_business_ratio]\n국내　일자리　증가: [?1374.domestic_job_growth]\n해외　일자리　증가: [?1374.foreign_job_growth]\n지역　GDP: [?1374.state_GDP]\n국내　GDP　가치: [?1374.domestic_GDP_value]\n해외　GDP　가치: [?1374.foreign_GDP_value]\n１인당　GDP: [?1374.GDP_per_capita]§!"
- ENG_StateEcon_135_tt:0 "§Y지역 경제§!\n\n§g인구: [?135.state_population_k]\n국내 일자리: [?135.domestic_jobs]\n해외 일자리: [?135.foreign_jobs]\n실업률: [?135.unemployment]\n국내　기업　비율: [?135.domestic_business_ratio]\n국내　일자리　증가: [?135.domestic_job_growth]\n해외　일자리　증가: [?135.foreign_job_growth]\n지역　GDP: [?135.state_GDP]\n국내　GDP　가치: [?135.domestic_GDP_value]\n해외　GDP　가치: [?135.foreign_GDP_value]\n１인당　GDP: [?135.GDP_per_capita]§!"
- ENG_StateEcon_134_tt:0 "§Y지역 경제§!\n\n§g인구: [?134.state_population_k]\n국내 일자리: [?134.domestic_jobs]\n해외 일자리: [?134.foreign_jobs]\n실업률: [?134.unemployment]\n국내　기업　비율: [?134.domestic_business_ratio]\n국내　일자리　증가: [?134.domestic_job_growth]\n해외　일자리　증가: [?134.foreign_job_growth]\n지역　GDP: [?134.state_GDP]\n국내　GDP　가치: [?134.domestic_GDP_value]\n해외　GDP　가치: [?134.foreign_GDP_value]\n１인당　GDP: [?134.GDP_per_capita]§!"
- ENG_StateEcon_1356_tt:0 "§Y지역 경제§!\n\n§g인구: [?1356.state_population_k]\n국내 일자리: [?1356.domestic_jobs]\n해외 일자리: [?1356.foreign_jobs]\n실업률: [?1356.unemployment]\n국내　기업　비율: [?1356.domestic_business_ratio]\n국내　일자리　증가: [?1356.domestic_job_growth]\n해외　일자리　증가: [?1356.foreign_job_growth]\n지역　GDP: [?1356.state_GDP]\n국내　GDP　가치: [?1356.domestic_GDP_value]\n해외　GDP　가치: [?1356.foreign_GDP_value]\n１인당　GDP: [?1356.GDP_per_capita]§!"
- ENG_StateEcon_1358_tt:0 "§Y지역 경제§!\n\n§g인구: [?1358.state_population_k]\n국내 일자리: [?1358.domestic_jobs]\n해외 일자리: [?1358.foreign_jobs]\n실업률: [?1358.unemployment]\n국내　기업　비율: [?1358.domestic_business_ratio]\n국내　일자리　증가: [?1358.domestic_job_growth]\n해외　일자리　증가: [?1358.foreign_job_growth]\n지역　GDP: [?1358.state_GDP]\n국내　GDP　가치: [?1358.domestic_GDP_value]\n해외　GDP　가치: [?1358.foreign_GDP_value]\n１인당　GDP: [?1358.GDP_per_capita]§!"
- ENG_StateEcon_1352_tt:0 "§Y지역 경제§!\n\n§g인구: [?1352.state_population_k]\n국내 일자리: [?1352.domestic_jobs]\n해외 일자리: [?1352.foreign_jobs]\n실업률: [?1352.unemployment]\n국내　기업　비율: [?1352.domestic_business_ratio]\n국내　일자리　증가: [?1352.domestic_job_growth]\n해외　일자리　증가: [?1352.foreign_job_growth]\n지역　GDP: [?1352.state_GDP]\n국내　GDP　가치: [?1352.domestic_GDP_value]\n해외　GDP　가치: [?1352.foreign_GDP_value]\n１인당　GDP: [?1352.GDP_per_capita]§!"
- ENG_StateEcon_1353_tt:0 "§Y지역 경제§!\n\n§g인구: [?1353.state_population_k]\n국내 일자리: [?1353.domestic_jobs]\n해외 일자리: [?1353.foreign_jobs]\n실업률: [?1353.unemployment]\n국내　기업　비율: [?1353.domestic_business_ratio]\n국내　일자리　증가: [?1353.domestic_job_growth]\n해외　일자리　증가: [?1353.foreign_job_growth]\n지역　GDP: [?1353.state_GDP]\n국내　GDP　가치: [?1353.domestic_GDP_value]\n해외　GDP　가치: [?1353.foreign_GDP_value]\n１인당　GDP: [?1353.GDP_per_capita]§!"
- ENG_StateEcon_1354_tt:0 "§Y지역 경제§!\n\n§g인구: [?1354.state_population_k]\n국내 일자리: [?1354.domestic_jobs]\n해외 일자리: [?1354.foreign_jobs]\n실업률: [?1354.unemployment]\n국내　기업　비율: [?1354.domestic_business_ratio]\n국내　일자리　증가: [?1354.domestic_job_growth]\n해외　일자리　증가: [?1354.foreign_job_growth]\n지역　GDP: [?1354.state_GDP]\n국내　GDP　가치: [?1354.domestic_GDP_value]\n해외　GDP　가치: [?1354.foreign_GDP_value]\n１인당　GDP: [?1354.GDP_per_capita]§!"
+#Devastation GUI
+GFX_ENG_EnglishGoogleMaps_State131_Collab:0 "GFX_ENG_EnglishGoogleMaps_State131_Collab"
+GFX_ENG_EnglishGoogleMaps_State131_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State131_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State130_Collab:0 "GFX_ENG_EnglishGoogleMaps_State130_Collab"
+GFX_ENG_EnglishGoogleMaps_State130_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State130_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State132_Collab:0 "GFX_ENG_EnglishGoogleMaps_State132_Collab"
+GFX_ENG_EnglishGoogleMaps_State132_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State132_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State129_Collab:0 "GFX_ENG_EnglishGoogleMaps_State129_Collab"
+GFX_ENG_EnglishGoogleMaps_State129_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State129_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State128_Collab:0 "GFX_ENG_EnglishGoogleMaps_State128_Collab"
+GFX_ENG_EnglishGoogleMaps_State128_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State128_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State885_Collab:0 "GFX_ENG_EnglishGoogleMaps_State885_Collab"
+GFX_ENG_EnglishGoogleMaps_State885_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State885_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State125_Collab:0 "GFX_ENG_EnglishGoogleMaps_State125_Collab"
+GFX_ENG_EnglishGoogleMaps_State125_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State125_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State126_Collab:0 "GFX_ENG_EnglishGoogleMaps_State126_Collab"
+GFX_ENG_EnglishGoogleMaps_State126_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State126_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State777_Collab:0 "GFX_ENG_EnglishGoogleMaps_State777_Collab"
+GFX_ENG_EnglishGoogleMaps_State777_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State777_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State338_Collab:0 "GFX_ENG_EnglishGoogleMaps_State338_Collab"
+GFX_ENG_EnglishGoogleMaps_State338_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State338_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State127_Collab:0 "GFX_ENG_EnglishGoogleMaps_State127_Collab"
+GFX_ENG_EnglishGoogleMaps_State127_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State127_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State1300_Collab:0 "GFX_ENG_EnglishGoogleMaps_State1300_Collab"
+GFX_ENG_EnglishGoogleMaps_State1300_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State1300_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State123_Collab:0 "GFX_ENG_EnglishGoogleMaps_State123_Collab"
+GFX_ENG_EnglishGoogleMaps_State123_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State123_Hmmlr"
+GFX_ENG_EnglishGoogleMaps_State1296_Collab:0 "GFX_ENG_EnglishGoogleMaps_State1296_Collab"
+GFX_ENG_EnglishGoogleMaps_State1296_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State1296_Hmmlr"
+
+
+ENG_Devastation_ChosenState_Devastation_text:0 "§eDevastation §gin this state is currently at [?var:ENG_GUI_Devastation_ChosenState:ENG_GUI_Devastation_State|1]% and changes by [?var:ENG_GUI_Devastation_ChosenState:ENG_GUI_Devastation_State_Total_Tick|1]% daily."
+ENG_Devastation_ChosenState_Radicalisation_text:0 "§rRadicalisation §gin this state is currently [ENG_GUI_Devastation_Radicalisation_State]"
+ENG_Devastation_National_Devastation_text:0 "§eDevastation §gnationwide is currently at [?ROOT.ENG_GUI_Devastation_National_Devastation|1]%."
+ENG_Devastation_National_Devastation_Effects_Text:0 "Effects on the people: §V[?ROOT.ENG_GUI_Devastation_Stab_Factor|V]§g stability daily, §V[?ROOT.ENG_GUI_Devastation_WS_Factor|V]§g daily.\n\n §gRadicalisation nationwide is [ENG_GUI_Devastation_Radicalisation_National]."
+ENG_Devastation_ChosenState_Devastation_effects_text:0 "Effects on the troops: §n+[?ROOT.ENG_GUI_Devastation_Attack_Factor|n] §gattack, §n+[?ROOT.ENG_GUI_Devastation_Attack_Factor|n] §gdefence, §V-[?ROOT.ENG_GUI_Devastation_Attack_Factor|V] §gmovement speed."
+
+ENG_GUI_Devastation_DynMod:0 "A Devastating War"
+ENG_DECCAT_ENG_Devastation:0 "A Devastating War"
+
+Radicalisation_low:0 "§nlow"
+Radicalisation_med:0 "§ymoderate"
+Radicalisation_high:0 "§Vhigh"
+
+Devastation_Increase_tt:0 "§gDevastation in this state will§! §Vincrease§!.\n"
+Devastation_Decrease_tt:0 "§gDevastation in this state will§! §nDecrease§!.\n"
+Devastation_Tick_Increase_tt:0 "§gThe monthly change in devastation in this state will§! §Vincrease§!.\n"
+Devastation_Tick_Decrease_tt:0 "§gThe monthly change in devastation in this state will§! §nDecrease§!.\n"
+
+Radicalisation_Increase_tt:0 "§gRadicalisation in this state will§! §Vincrease§!.\n"
+Radicalisation_Decrease_tt:0 "§gRadicalisation in this state will§! §nDecrease§g.\n"
+Radicalisation_Tick_Increase_tt:0 "§gThe monthly change in radicalisation in this state will§! §Vincrease§!.\n"
+Radicalisation_Tick_Decrease_tt:0 "§gThe monthly change in radicalisation in this state will§! §nDecrease§!.\n"
+
+
+ENG_Reconstruction_North_Show:0 "Show Reconstruction Decisions For The North"
+ENG_Reconstruction_North_Hide:0 "Hide Reconstruction Decisions For The North"
+ENG_Reconstruction_Assign_Army_North:0 "Assign Military Units to Reconstruction Efforts"
+ENG_Reconstruction_Spend_Money_North:0 "Invest into Public Works"
+ENG_Reconstruction_Slow_Down_North:0 "Delay Reconstruction Efforts"
+ENG_Reconstruction_Deradicalise_North:0 "Deradicalise the Population"
+ENG_Reconstruction_Hunt_Remnants_North:0 "Hunt Down Remnants"
+
+
+ENG_Reconstruction_Midlands_Show:0 "Show Reconstruction Decisions For The Midlands"
+ENG_Reconstruction_Midlands_Hide:0 "Hide Reconstruction Decisions For The Midlands"
+ENG_Reconstruction_Assign_Army_Midlands:0 "Assign Military Units to Reconstruction Efforts"
+ENG_Reconstruction_Spend_Money_Midlands:0 "Invest into Public Works"
+ENG_Reconstruction_Slow_Down_Midlands:0 "Delay Reconstruction Efforts"
+ENG_Reconstruction_Deradicalise_Midlands:0 "Deradicalise the Population"
+ENG_Reconstruction_Hunt_Remnants_Midlands:0 "Hunt Down Remnants"
+
+
+ENG_Reconstruction_Souf_Show:0 "Show Reconstruction Decisions For The South"
+ENG_Reconstruction_Souf_Hide:0 "Hide Reconstruction Decisions For The South"
+ENG_Reconstruction_Assign_Army_Souf:0 "Assign Military Units to Reconstruction Efforts"
+ENG_Reconstruction_Spend_Money_Souf:0 "Invest into Public Works"
+ENG_Reconstruction_Slow_Down_Souf:0 "Delay Reconstruction Efforts"
+ENG_Reconstruction_Deradicalise_Souf:0 "Deradicalise the Population"
+ENG_Reconstruction_Hunt_Remnants_Souf:0 "Hunt Down Remnants"
+
+ENG_Reconstruction:0 "Reconstruction in Progress"
+ENG_Reconstruction_North_Show_decisions:0 "Show decisions for the North"
+ENG_Reconstruction_Midlands_Show_decisions:0 "Show decisions for the Midlands"
+ENG_Reconstruction_Souf_Show_decisions:0 "Show decisions for South"
+
+ENG_devastation.1.t:0 "matt was here"
+ENG_devastation.1.d:0 "why are you seeing this, this is a hidden event"
+ENG_devastation.1.a:0 "fuck you this is debug"
+
+ENG_devastation.5.d:0 "this will be hidden at release, just need it rn to make sure stuff works"
+
+
+ENG_Devastation_info_button_tt:0 "§YNo nation comes out of a civil war unscathed, and the scars take long to heal. The English Civil War ravages the land, destroying livelihoods and forcing ordinary people to turn to extreme solutions.§!\n\n§eDevastation§! will increase monthly in every §Rcontested§! state. A state is considered §Rcontested§! when no one side has full control over the state or its neighbouring states. Should one side manage to take complete control of a single state and secure that state's borders, it will become a §Gsecured§! state and §edevastation§! will cease to increase monthly, unless affected by other factors.\n\nThe more §edevastated§! a state is, and the longer it remains §edevastated§! for, the more §jradicalised§! the populace there will become, leading them to consider more §rextreme§! options."
   
 ############
 # Tooltips #
 ############
+
+
+## Scripted Tooltips I am not reading all over this fuck you Bamba ##
+ENG_Collab_Support_increase_vl:0 "§jGovernment§! support will §Gincrease§! by §Y2.5§!.\n"
+ENG_Collab_Support_increase_low:0 "§jGovernment§! support will §Gincrease§! by §Y5§!.\n"
+ENG_Collab_Support_increase_med:0 "§jGovernment§! support will §Gincrease§! by §Y10§!.\n"
+ENG_Collab_Support_increase_high:0 "§jGovernment§! support will §Gincrease§! by §Y20§!.\n"
+
+ENG_HMMLR_Support_increase_vl:0 "§THMMLR§! support will §Gincrease§! by §Y2.5§!.\n"
+ENG_HMMLR_Support_increase_low:0 "§THMMLR§! support will §Gincrease§! by §Y5§!.\n"
+ENG_HMMLR_Support_increase_med:0 "§THMMLR§! support will §Gincrease§! by §Y10§!.\n"
+ENG_HMMLR_Support_increase_high:0 "§THMMLR§! support will §Gincrease§! by §Y20§!.\n"
+
+ENG_HMMLR_Support_Decrease_vl:0 "§THMMLR§! support will §Rdecrease§! by §Y2.5§!.\n"
+ENG_HMMLR_Support_Decrease_low:0 "§THMMLR§! support will §Rdecrease§! by §Y5§!.\n"
+ENG_HMMLR_Support_Decrease_med:0 "§THMMLR§! support will §Rdecrease§! by §Y10§!.\n"
+ENG_HMMLR_Support_Decrease_high:0 "§THMMLR§! support will §Rdecrease§! by §Y20§!.\n"
+
+ENG_State_Stab_decrease5.tt:0 "§OState Stability§! will be §RReduced§! by §Y5%§!.\n"
+ENG_State_Stab_decrease10.tt:0 "§OState Stability§! will be §RReduced§! by §Y10%§!.\n"
+ENG_State_Stab_decrease15.tt:0 "§OState Stability§! will be §RReduced§! by §Y15%§!.\n"
+ENG_State_Stab_decrease20.tt:0 "§OState Stability§! will be §RReduced§! by §Y20%§!.\n"
+ENG_State_Stab_increase5.tt:0 "§OState Stability§! will be §GIncreased§! by §Y5%§!.\n"
+ENG_State_Stab_increase10.tt:0 "§OState Stability§! will be §GIncreased§! by §Y10%§!.\n"
+ENG_State_Stab_increase15.tt:0 "§OState Stability§! will be §GIncreased§! by §Y15%§!.\n"
+ENG_State_Stab_increase20.tt:0 "§OState Stability§! will be §GIncreased§! by §Y20%§!.\n"
+
+ENG_HMMLR_Trend_decrease_sml_tt:0 "Monthly trend of §THMMLR§! Support will §Rdecrease§! by §Y0.5%§!."
+ENG_HMMLR_Trend_decrease_med_tt:0 "Monthly trend of §THMMLR§! Support will §Rdecrease§! by §Y1%§!."
+ENG_HMMLR_Trend_increase_sml_tt:0 "Monthly trend of §THMMLR§! Support will §Gincrease§! by §Y0.5%§!."
+ENG_HMMLR_Trend_increase_med_tt:0 "Monthly trend of §THMMLR§! Support will §Gincrease§! by §Y1%§!."
+
+ENG_Collab_Trend_decrease_sml_tt:0 "Monthly trend of §jGovernment§! Support will §Rdecrease§! by §Y0.5%§!."
+ENG_Collab_Trend_decrease_med_tt:0 "Monthly trend of §jGovernment§! Support will §Rdecrease§! by §Y1%§!."
+ENG_Collab_Trend_increase_sml_tt:0 "Monthly trend of §jGovernment§! Support will §Gincrease§! by §Y0.5%§!."
+ENG_Collab_Trend_increase_med_tt:0 "Monthly trend of §jGovernment§! Support will §Gincrease§! by §Y1%§!."
+
+ENG_DEC_INCREASEHMMLRTREND_tt:0 "Monthly trend of §THMMLR§! Support will §Gincrease§! by §Y0.5%§!."
+ENG_DEC_INCREASEHMMLRTREND_tt:0 "Monthly trend of §THMMLR§! Support will §Gincrease§! by §Y1.0%§!."
+
+###Government Stab TT
+ENG_Government_Stab_reduction5.tt:0 "Our §OGovernment Stability§! will be §RReduced§! with §Y5%§!.\n"
+ENG_Government_Stab_reduction10.tt:0 "Our §OGovernment Stability§! will be §RReduced§! with §Y10%§!.\n"
+ENG_Government_Stab_reduction20.tt:0 "Our §OGovernment Stability§! will be §RReduced§! with §Y20%§!.\n"
+ENG_Government_Stab_increase5.tt:0 "Our §OGovernment Stability§! will be §GIncreased§! by §Y5%§!.\n"
+ENG_Government_Stab_increase10.tt:0 "Our §OGovernment Stability§! will be §GIncreased§! by §Y10%§!.\n"
+ENG_Government_Stab_increase20.tt:0 "Our §OGovernment Stability§! will be §GIncreased§! by §Y20%§!.\n"
+#cornwall tooltips
+
+
+
 
 ENG_gone_over_tt:0 "§R부대를 훈련하거나, 해체하거나 부대 편제를 수정할 수 없습니다.\n독일의 허가없이 수송선을 제외한 어떤 장비도 생산할 수 없습니다.§!"
 ENG_the_prime_minister_speaks_tt:0 "§Y에드워드 국왕§!의 성공적인 연설을 준비하는 §j정부 입장§!에서 이야기를 §G진행§!합니다.\n§B결정§! 메뉴에서 §T저항군§!에 대한 지역 제어 결정이 §G해제§!됩니다."
@@ -229,12 +312,16 @@ ENG_keeping_ahead_tt:0 "연설 안전도를 §G증가§!시키는 능력이 사�
 ENG_writing_on_the_walls_tt:0 "연설 안전도를 §R감소§!시키는 능력이 사라집니다.\n"
 ENG_keeping_ahead_trigger_tt:0 "연설 §O안전도§!가 §Y80§!보다 높습니다."
 ENG_writing_on_the_walls_trigger_tt:0 "연설 §O안전도§!가 §Y20§!보다 낮습니다."
-ENG_the_kings_speech_tt:0 "더 이상의 준비는 없습니다. §Y국왕 폐하§!는 생방송 무대에 섰습니다.\n§B결정§! 메뉴에서 행사를 통제하는 결정을 실행할 수 있습니다."
+ENG_the_kings_speech_tt:0 "더 이상의 준비는 없습니다. §Y국왕 폐하§!는 생방송 무대에 섰습니다.\n§B결정§! §G메뉴에서 행사를 통제하는 결정을 실행할 수 있습니다.§!"
 ENG_InfoButton_tt:0 "이 인터페이스에 대한 정보를 엽니다."
 ENG_an_announcement_for_everyone_tt:0 "§Y더글러스 흄§! 총리는 §R사임§!할 것입니다."
 ENG_new_focus_tree_reconstruction_2_tt:0 "§Y새로운 중점 계통§!이 사용됩니다."
 ENG_and_now_its_on_fire_tt:0 "일련의 §Y재건 결정§을 사용할 수 있게 됩니다."
 ENG_act_not_in_progress.tt:0 "§Y의회에서 다뤄지지 않는 법§!"
+ENG_cornwall_support_decrease_tt:0 "§rCornwall§! support will decrease slighty.\n"
+ENG_cornwall_support_small_tt:0 "§rCornwall§! support will increase slighty.\n"
+ENG_cornwall_support_medium_tt:0 "§rCornwall§! support will increase.\n"
+ENG_cornwall_support_large_tt:0 "§rCornwall§! support will increase by a large amount."
 
 ENG_collabs_gain_strength_tt:0 "§j정부§!가 §Y20의 힘§!을 §G얻게§! 됩니다.\n"
 ENG_collabs_lose_strength_tt:0 "§j정부§!가 §Y20의 힘§!을 §G잃게§! 됩니다.\n"
