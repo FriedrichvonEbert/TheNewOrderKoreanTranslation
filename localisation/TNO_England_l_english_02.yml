@@ -443,19 +443,28 @@ ENG_operation_collab_3_tt:0 "Unlock Special Mission: §MCOLLAB ID 3§!\nStabilit
 
 ENG_operation_bad_morning_mission_tt:0 "Unlock Operation: §MBAD MORNING§!\nStability and support in §MLondon§! will affect this operation."
 ENG_operation_stock_mission_tt:0 "Unlock Operation: §MSTOCK§!\nStability and support in §MNewcastle§! will affect this operation."
-ENG_operation_stock_mission_tt:0 "작전명: §M스톡§!을 활성화합니다.\n§M뉴캐슬§!의 §Y주 안정도§!가 §Y60 이상§!이어야 합니다.\n"
-ENG_operation_broken_telephone_mission_tt:0 "작전명: §M브로큰 텔레폰§!을 활성화합니다.\n§M옥스퍼드셔§!의 §Y주 안정도§!가 §Y60 이상§!이어야 합니다.\n"
-ENG_operation_look_up_mission_tt:0 "작전명: §M룩 업§!\n§M랭커셔§!의 §Y주 안정도§!가 §Y60 이상§!이어야 합니다.\n"
-ENG_operation_inspection_mission_tt:0 "작전명: §M인스펙션§!을 활성화합니다.\n§M이스트 앵글리아§!의 §Y주 안정도§!가 §Y60 이상§!이어야 합니다.\n"
-ENG_operation_loud_and_clear_mission_tt:0 "작전명: §M라우드 앤 클리어§!을 활성화합니다.\n§M서섹스§!의 §Y주 안정도§!가 §Y75 이상§!이어야 합니다."
-ENG_operation_franz_mission_tt:0 "작전명: §M프란츠§!을 활성화합니다.\n§M글로스터셔§!의 §Y주 안정도§!가 §Y75 이상§!이어야 합니다."
-ENG_operation_lancaster_mission_tt:0 "작전명: §M랭커스터§!을 활성화합니다.\n§M런던§!의 §Y주 안정도§!가 §Y75 이상§!이어야 합니다."
-ENG_operation_beartrap_mission_tt:0 "작전명: §M베어트랩§!을 활성화합니다.\n§M이스트 미들랜즈§!의 §Y주 안정도§!가 §Y75 이상§!이어야 합니다."
-ENG_operation_white_ship_mission_tt:0 "작전명: §M화이트 쉽§!을 활성화합니다.\n§M이스트 앵글리아§!의 §Y주 안정도§!가 §Y60 이상§!이어야 합니다.\n"
-ENG_operation_george_mission_tt:0 "작전명: §M조지§!을 활성화합니다.\n§M윌트셔§!의 §Y주 안정도§!가 §Y75 이상§!이어야 합니다."
-ENG_operation_rufus_mission_tt:0 "작전명: §M루퍼스§!을 활성화합니다.\n§M글로스터셔§!의 §Y주 안정도§!가 §Y60 이상§!이어야 합니다.\n"
-ENG_operation_flyswatter_mission_tt:0 "작전명: §M플라이 스웨터§!을 활성화합니다.\n§M세번§!의 §Y주 안정도§!가 §Y75 이상§!이어야 합니다."
-ENG_operation_william_mission_tt:0 "작전명: §M윌리엄§!을 활성화합니다.\n§M뉴캐슬§!, §M랭커셔§!, §M요크셔§!의 §Y주 안정도§!가 §Y50 이상§!이어야 합니다."
+ENG_operation_broken_telephone_mission_tt:0 "Unlock Operation: §MBROKEN TELEPHONE§!\nStability and support in §MOxfordshire§! will affect this operation."
+ENG_operation_look_up_mission_tt:0 "Unlock Operation: §MLOOK UP§!\nStability and support in §MLancashire§! will affect this operation."
+ENG_operation_inspection_mission_tt:0 "Unlock Operation: §MINSPECTION§!\nStability and support in §MEast Anglia§! will affect this operation."
+ENG_operation_loud_and_clear_mission_tt:0 "Unlock Operation: §MLOUD AND CLEAR§!\nStability and support in §MSussex§! will affect this operation."
+ENG_operation_franz_mission_tt:0 "Unlock Operation: §MFRANZ§!\nStability and support in §MGloucestershire§! will affect this operation."
+ENG_operation_lancaster_mission_tt:0 "Unlock Special Mission: §MLANCASTER§!\nStability and support in §MLondon§! will affect this operation."
+ENG_operation_beartrap_mission_tt:0 "Unlock Special Mission: §MBEARTRAP§!\nStability and support in §MEast Midlands§! and §MWest Midlands§! will affect this operation."
+ENG_operation_white_ship_mission_tt:0 "Unlock Special Mission: §MWHITE SHIP§!\nStability and support in §MEast Anglia§! will affect this operation."
+ENG_operation_george_mission_tt:0 "Unlock Special Mission: §MGEORGE§!\nStability and support in §MWiltshire§! will affect this operation."
+ENG_operation_rufus_mission_tt:0 "Unlock Special Mission: §MRUFUS§!\nStability and support in §MGlouchestershire§! will affect this operation."
+ENG_operation_flyswatter_mission_tt:0 "Unlock Operation: §MFLYSWATTER§!\nStability and support in §MSevern§! will affect this operation."
+ENG_operation_william_mission_tt:0 "Unlock Special Mission: §MWILLIAM§!\nStability and support in §MNewcastle§!, §MLancashire§!, and §MYorkshire§! will affect this operation."
+TNO_the_situation_of_the_north_tt:0 "§BHMMLR§! Support must be above 60 on the North, and our government stability should be above 60.\n"
+
+ENG_operation_start:0 "An Operation is in Progress"
+ENG_operation_decision:0 "[getENGOperationDecName]"
+ENG_operation_dec_prep:0 "Preparing §M[getENGOperationTitle]§!"
+ENG_operation_dec_prog:0 "Operation in Progress"
+
+ENG_operation_success:0 "The operation will be successful, [getENGOperationSuccess]"
+ENG_operation_partial_success:0 "The operation will be somewhat successful, [getENGOperationSomewhat]"
+ENG_operation_fail:0 "The operation will fail, [getENGOperationFail]"
 
 ENG_reconstruction_1_tt:0 "§G우리는 나라를 재건해야 한다.§G"
 ENG_reconstruction_2_tt:0 "§G우리는 이제 다시 건설을 시작할 것이다.§G"
@@ -463,36 +472,23 @@ ENG_reconstruction_3_tt:0 "§R근왕당 분열§!"
 
 NDL_election_start:0 "§w국가민주동맹§!을 위한 선전 운동을 시작합니다."
 SLP_election_start:0 "§R사회노동당§!!을 위한 선전 운동을 시작합니다."
+MSA_election_start:0 "We Will Campaign for the §oMovement in Support of the Army§!."
 
-###Government Stab TT
-ENG_Government_Stab_reduction5.tt:0 "§O정부 안정성§!이 §Y5%§! §e감소§!하게 됩니다."
-#cornwall tooltips
+FEN_NDL_ECON_JOBLESS_tt:0 "§YThis will increase our GDP growth and income, at the cost of increasing our debt.§!"
+FEN_NDL_ECON_MORE_JOBS_NORTH_tt:0 "§YThis will increase our GDP growth and income, at the cost of increasing our debt.§!"
 
-ENG_Cornwall_Invasion_Decisions_tt:0 "이제 침공에 대한 결정을 사용할 수 있습니다."
+FEN_a_nation_reborn_tt:0 "This will improve our GDP depending on how well the reconstruction was handled."
 
-###economic tree tooltips - mac
-econ_misc_income_add_0.5_percent.tt:0 "This Will Grant us a new source of §YIncome§! worth §Y0.5% of GDP§!"
-ENG_open_more_steel_mills_tt:0 "Unemployment in §YEast Anglia§! and §YSevern§! will §Gdecrease§!"
-ENG_over_the_atlantic_tt:0 "The number of §Yforeign jobs§! will §Gincrease§!."
-ENG_ET_macmillan_invite_american_corp_tt:0 "The value of §Yforeign jobs§! will §Gincrease§! by a small amount."
-ENG_ET_macmillan_mac_donalds_tt:0 "§YForeign job growth§! will §Gincrease§! by a large amount."
-ENG_ET_macmillan_over_the_pacific_tt:0 "§YForeign job growth§! will §Gincrease§! by a moderate amount."
-ENG_ET_macmillan_the_issue_of_industry_tt:0 "The number of §Ydomestic jobs§! will §Gincrease§!."
-ENG_ET_macmillan_business_at_home_tt:0 "§YDomestic job growth§! will §Gincrease§! by a moderate amount."
-ENG_eco_mac_increase_jobs_midlands:0 "Unemployment in the §YMidlands§! will §Gdecrease§!"
-ENG_eco_mac_increase_jobs_south:0 "Unemployment in the §YSouth§! will §Gdecrease§!"
-ENG_eco_mac_increase_jobs_north:0 "Unemployment in the §YNorth§! will §Gdecrease§!"
-ENG_ET_macmillan_not_here_or_there_tt:0 "The number of §Ydomestic jobs§! will §Gincrease§!."
-ENG_ET_macmillan_invite_big_banks_tt:0 "§YDomestic job growth§! will §Gincrease§! by a moderate amount."
-ENG_mac_eco_increase_gdp_growth:0 "Our §YGDP Growth§! will §Gincrease."
-ENG_ET_macmillan_a_professional_england_tt:0 "The value of §Ydosmetic jobs§! will §Gincrease§! by a small amount."
-ENG_ET_macmillan_no_more_discrimination_tt:0 "The value of §Ydosmetic jobs§! will §Gincrease§! by a moderate amount."
+ENG_Cornwall_Invasion_Decisions_tt:0 "Decisions about the invasion are now available."
+
+###economic tree tooltips
+econ_misc_income_add_0.5_percent.tt:0 "This will grant us a new source of §Yincome§! worth §Y0.5% of GDP§!."
+econ_misc_income_add_1_percent.tt:0 "This will grant us a new source of §Yincome§! worth §Y1% of GDP§!."
+ENG_eco_increase_gdp_growth:0 "Our §YGDP Growth§! will §Gincrease."
 
 ###Economic Thatcher Tree Tooltips
-econ_misc_costs_add_0.5_percent.tt:0 "The §YCutting of Taxes§! will cost us §Y0.5% of our GDP Yearly§!"
-ENG_thatcher_speed_monetarism1.tt:0 "This will give us the benefits of §YMonetarism Quicker§!, but we have more §rDebuffs§! in that Period"
-ENG_thatcher_slow_monetarism1.tt:0 "This will give us the benefits of §YMonetarism Slower§!, but we have less §rDebuffs§! in that Period"
-ENG_monetarism_poverty_decrease.tt:0 "Due to our Monetary Reforms, Britain will see §Ya decrease in Poverty 1 Year from Now§!"
+ENG_thatcher_speed_monetarism1.tt:0 "This will give us the benefits of §Ymonetarism §Gquicker§!§!, but we have §Rmore§! §rdebuffs§! in the period."
+ENG_thatcher_slow_monetarism1.tt:0 "This will give us the benefits of §Ymonetarism §Rslower§!§!, but we have §Gless§! §rdebuffs§! in the period."
 ENG_thatcher_monetarism2.tt:0 "We Will Continue our Monetary Reforms"
 ENG_thatcher_influence10.tt:0 "Margaret Thatcher has at least §G10% influence over the Royal§! Party"
 ENG_thatcher_influence20.tt:0 "Margaret Thatcher has at least §G20% influence over the Royal§! Party"
@@ -575,24 +571,27 @@ ENG_MAC_GOVTSTAB_-12.5.tt:0 "§xGovernment Stability: -12.50%§!"
 
 
 ###NDL Military Tooltips
-FEN_jellicoe_finished.tt:0 "We will lay down the §YHMS Jellicoe§!"
-FEN_US_contract_tt:0 "Our §YLiquid Reserves§! will increase"
+FEN_jellicoe_finished.tt:0 "We will lay down the §YHMS Jellicoe§!."
+FEN_US_contract_tt:0 "Our §YLiquid Reserves§! will increase."
 
 ##SLP International Tooltips
-ENG_international_brotherhood.tt:0 "이것은 §x우리에 대한 모든 사회주의 국가들의 의견§!을 증가시킬 것입니다"
+ENG_international_brotherhood.tt:0 "이것은 §x우리에 대한 모든 사회주의 국가들의 의견§!을 증가시킬 것입니다."
 
 ###NDL Economic Tooltips
 FEN_economy_from_a_young_age_tt:0 "Our §YGDP Growth§! will increase by §G0.5%§!"
 FEN_fixing_tax_system_tt:0 "Our §YGDP Growth§! will increase by §G2%§!"
+FEN_NDL_political_19a_tt:0 "§mThis will raise our income and business taxation.§!"
+FEN_NDL_political_19b_tt:0 "§mThis will decrease our income and business taxation.§!"
+FEN_NDL_political_19c_tt:0 "§mWe will maintain our status quo.§!"
 #FEN_betterpay_for_doctors_tt:0 "Our §YGDP Growth§! will decrease by §R0.5%§!"
 
 ###NDL Politics Tooltips
-FEN_NDL_liberals_gain_strength:0 "The strength of the §YWhigs§! §Gincreases§!"
-FEN_NDL_moderates_gain_strength:0 "The strength of the §MDemocrats§! §Gincreases§!"
-FEN_NDL_conservatives_gain_strength:0 "The strength of the §gPatriots§! §Gincreases§!"
-FEN_NDL_liberals_lose_strength:0 "The strength of the §YWhigs§! §Rdecreases§!"
-FEN_NDL_moderates_lose_strength:0 "The strength of the §MDemocrats§! §Rdecreases§!"
-FEN_NDL_conservatives_lose_strength:0 "The strength of the §gPatriots§! §Rdecreases§!"
+FEN_NDL_liberals_gain_strength:0 "The strength of the §YWhigs§! §Gincreases§!."
+FEN_NDL_moderates_gain_strength:0 "The strength of the §MDemocrats§! §Gincreases§!."
+FEN_NDL_conservatives_gain_strength:0 "The strength of the §gPatriots§! §Gincreases§!."
+FEN_NDL_liberals_lose_strength:0 "The strength of the §YWhigs§! §Rdecreases§!."
+FEN_NDL_moderates_lose_strength:0 "The strength of the §MDemocrats§! §Rdecreases§!."
+FEN_NDL_conservatives_lose_strength:0 "The strength of the §gPatriots§! §Rdecreases§!."
 ENG_NDL_Liberal_30.tt:0 "The §wLiberals need at least 30% Influence.§!"
 
 ###Reconstruction Tooltips
