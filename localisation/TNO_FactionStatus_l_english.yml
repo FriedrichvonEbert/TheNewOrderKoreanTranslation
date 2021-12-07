@@ -1,153 +1,197 @@
 ﻿l_english:
- #DisplayKeys
- Pakt_Leader_displaykey: "GFX_Pakt_Leader"
- Pakt_Military_Authority_displaykey: "GFX_Pakt_Military_Authority"
- Pakt_Protektorat_displaykey: "GFX_Pakt_Protektorat"
- Pakt_Integrated_Reichskommissariat_displaykey: "GFX_Pakt_Integrated_Reichskommissariat"
- Pakt_Autonomous_Reichskommissariat_displaykey: "GFX_Pakt_Autonomous_Reichskommissariat"
- Pakt_Reichsland_displaykey: "GFX_Pakt_Reichsland"
- Pakt_Marionettenstaat_displaykey: "GFX_Pakt_Marionettenstaat"
- Pakt_Mitstreiter_displaykey: "GFX_Pakt_Mitstreiter"
- Pakt_Bundnispartner_displaykey: "GFX_Pakt_Bundnispartner"
- Pakt_Ordensstaat_displaykey: "GFX_Pakt_Ordensstaat"
- Pakt_Observer_displaykey: "GFX_Pakt_Observer"
- Anti_Heydrich_Pact_displaykey: "GFX_Anti_Heydrich_Pact"
- Anti_Himmler_displaykey: "GFX_Pakt_Leader"
- Anti_Heydrich_displaykey: "GFX_Pakt_Ordensstaat"
- Sphere_Leader_displaykey: "GFX_Sphere_Leader"
- Sphere_Special_Econ_Zone_displaykey: "GFX_Sphere_Special_Econ_Zone"
- Sphere_Imp_Protectorate_displaykey: "GFX_Sphere_Imp_Protectorate"
- Sphere_Fully_Dependent_displaykey: "GFX_Sphere_Fully_Dependent"
- Sphere_Economic_Dependent_displaykey: "GFX_Sphere_Economic_Dependent"
- Sphere_Coequal_displaykey: "GFX_Sphere_Coequal"
- OFN_Leader_of_The_Free_World_displaykey:0 "GFX_OFN_leader_of_the_free_world"
- OFN_Independent_Member_displaykey:0 "GFX_OFN_Leader"
- OFN_Dependent_Member_displaykey:0 "GFX_OFN_dependent_ofn_member"
- OFN_Military_Government_displaykey:0 "GFX_OFN_ofn_military_government"
- OFN_Mandate_displaykey:0 "GFX_OFN_ofn_mandate"
- TRI_Founder_IT_displaykey:0 "GFX_TRI_Founder_IT"
- TRI_Founder_IB_displaykey:0 "GFX_TRI_Founder_IB"
- TRI_Founder_TR_displaykey:0 "GFX_TRI_Founder_TR"
- TRI_Member_displaykey:0 "GFX_TRI_Member"
- TRI_Member_Client_displaykey:0 "GFX_TRI_Member_Client"
  ###Tooltips
- CURRENT_FACTION_STATUS_SHORT_TT: "§Y[This.GetFactionStatus_name]§![This.GetFactionStatus_effect]"
- CURRENT_FACTION_STATUS_TT: "[This.GetFactionStatus_tooltip]"
+CURRENT_FACTION_STATUS_SHORT_TT: "§Y[This.GetFactionStatus_name]§![This.GetFactionStatus_effect]"
+CURRENT_FACTION_STATUS_TT: "[This.GetFactionStatus_tooltip]"
 
- ##Template
- FactionStatus_tooltip: "§L[This.GetFactionStatus_desc]§!"
- NoFaction: "GFX_generic_faction_small"
+##Template
+FactionStatus_tooltip: "§L[This.GetFactionStatus_desc]§!"
 
- ##Pakt
- Pakt_Leader: "유럽의 지배자"
- Pakt_Leader_effect: "[!Pakt_Leader]"
- Pakt_Leader_desc: "국제 사회에서 유니티팍트라고 불리는 아인하이츠팍트는 나치 질서의 범유럽적 동맹입니다. 타락한 국가들과 퇴폐적인 부패의 옛 질서는 사라졌고, 이제 그 자리에는 독일 패권국이 이끄는 유럽인의 형제애와 통합이 있습니다. 팍트에는 수많은 선언문이 있습니다. 수많은 회원국의 경제적, 군사적, 정치적 관계를 서술한 이 선언문들은 모두 독일의 이권을 위해 만들어졌습니다. 유럽 현안에 대해 견줄 수 없는 통제권을 쥔 팍트는 유럽의 운명과 §Y유럽의 지배자§!, 라이히의 린치핀임이 틀림 없습니다."
+##Generic
+Generic_Faction: "Member of the [This.GetFactionName]"
+Generic_Faction_desc: "[This.GetNameDef] is a member of the [This.GetFactionName]. They are in a faction, which means that if any of its members were to be attacked or otherwise have entered a war, members of the alliance will join their war in aid for their comrade. They can act as a unison in the world stage, and can project their influence as a result of their collective power. It may also not be limited to a military pact, but it can expand on many fronts, such as economic co-operation and other forms of collaboration that mutually benefits its members."
 
- Pakt_Military_Authority: "군정청"
- Pakt_Military_Authority_effect: "[!Pakt_Military_Authority]"
- Pakt_Military_Authority_desc: "대독일국과 조약 당사국 사이에 일련의 조약에 따라 설립된 §Y군정청§!은 육군최고사령부의 직속 명령을 수행합니다. 그들은 조약 당사국으로부터 그들의 관할 지구 내의 모든 업무를 통제할 수 있는 특별한 권한을 부여받았습니다. 이 권한은 관할 지구 내의 경찰력을 지휘하고 지방 정부에 개입하는 근거를 제공하고 무엇보다도 조약 당사국의 '경솔한 행위'를 감시하고 조기에 대응하는 데에 필수불가결합니다. 이런 점들로 §Y군정청§!은 독일의 유럽 패권을 증명하는 가장 확연한 수단입니다."
+##Pakt
+Pakt_Leader: "유럽의 지배자"
+Pakt_Leader_effect: "[!Pakt_Leader]"
+Pakt_Leader_desc: "국제 사회에서 유니티팍트라고 불리는 아인하이츠팍트는 나치 질서의 범유럽적 동맹입니다. 타락한 국가들과 퇴폐적인 부패의 옛 질서는 사라졌고, 이제 그 자리에는 독일 패권국이 이끄는 유럽인의 형제애와 통합이 있습니다. 팍트에는 수많은 선언문이 있습니다. 수많은 회원국의 경제적, 군사적, 정치적 관계를 서술한 이 선언문들은 모두 독일의 이권을 위해 만들어졌습니다. 유럽 현안에 대해 견줄 수 없는 통제권을 쥔 팍트는 유럽의 운명과 §Y유럽의 지배자§!, 라이히의 린치핀임이 틀림 없습니다."
 
- Pakt_Protektorat: "국가보호령"
- Pakt_Protektorat_effect: "[!Pakt_Protektorat]"
- Pakt_Protektorat_desc: "§Y국가보호령§!은 라이히로 완전히 통합되어버린 옛 국가의 잔재입니다. 게르마니아의 발표에 따르면, 이들은 어느 정도의 자치를 보장받으며 독립된 자치 행정부를 보유한 라이히의 특수지구입니다. 하지만 이런 자치의 허울 아래에 그들의 경제와 정치는 궁극적으로 게르마니아에 종속되어 있습니다. 경제는 독일의 기업들에 통제되고 정치는 독일의 압제에 휘둘립니다. 보호령은 그저 라이히의 미래 영토일 뿐입니다. 라이히의 모든 영토가 본래 독일인의 것이 아니었듯이 이들 또한 마찬가지일 겁니다."
+Pakt_Military_Authority: "군정청"
+Pakt_Military_Authority_effect: "[!Pakt_Military_Authority]"
+Pakt_Military_Authority_desc: "대독일국과 조약 당사국 사이에 일련의 조약에 따라 설립된 §Y군정청§!은 육군최고사령부의 직속 명령을 수행합니다. 그들은 조약 당사국으로부터 그들의 관할 지구 내의 모든 업무를 통제할 수 있는 특별한 권한을 부여받았습니다. 이 권한은 관할 지구 내의 경찰력을 지휘하고 지방 정부에 개입하는 근거를 제공하고 무엇보다도 조약 당사국의 '경솔한 행위'를 감시하고 조기에 대응하는 데에 필수불가결합니다. 이런 점들로 §Y군정청§!은 독일의 유럽 패권을 증명하는 가장 확연한 수단입니다.\n\nGDP Growth Boost: §R-3.5%§!"
 
- Pakt_Integrated_Reichskommissariat: "통합 국가판무관부"
- Pakt_Integrated_Reichskommissariat_effect: "[!Pakt_Integrated_Reichskommissariat]"
- Pakt_Integrated_Reichskommissariat_desc: "§Y통합 국가판무관부§!는 라이히가 합병을 준비하기 위해 세웠고, 그 합병이 머지 않은 식민지 행정부입니다. 행정부는 제국 그 자체의 행정부와 점점 얽혀서 사업과 사람들은 아무 문제 없이 국경을 넘어갈 수 있습니다. 이 §Y국가판무관부§! 안에서 점점 많아지는 정치적 지위 역시 이 곳이 곧 독일의 영토가 될거라는 암시 중 하나입니다."
+Pakt_Protektorat: "국가보호령"
+Pakt_Protektorat_effect: "[!Pakt_Protektorat]"
+Pakt_Protektorat_desc: "§Y국가보호령§!은 라이히로 완전히 통합되어버린 옛 국가의 잔재입니다. 게르마니아의 발표에 따르면, 이들은 어느 정도의 자치를 보장받으며 독립된 자치 행정부를 보유한 라이히의 특수지구입니다. 하지만 이런 자치의 허울 아래에 그들의 경제와 정치는 궁극적으로 게르마니아에 종속되어 있습니다. 경제는 독일의 기업들에 통제되고 정치는 독일의 압제에 휘둘립니다. 보호령은 그저 라이히의 미래 영토일 뿐입니다. 라이히의 모든 영토가 본래 독일인의 것이 아니었듯이 이들 또한 마찬가지일 겁니다.\n\nGDP Growth Boost: §Y3.5%§!\nGDP to Overlord Modifier: §Y3.5%§!"
 
- Pakt_Autonomous_Reichskommissariat: "자치 국가판무관부"
- Pakt_Autonomous_Reichskommissariat_effect: "[!Pakt_Autonomous_Reichskommissariat]"
- Pakt_Autonomous_Reichskommissariat_desc: "§Y자치 국가판무관부§!는 통합 국가판무관부처럼 국가가 아니라 대독일국이 언젠가 있을 합병에 대비해 세운 식민지 행정부입니다. 총통이 임명한 국가판무관이 이끄는 이 행정 지역은 게르마니아의 밀접한 감시로부터 어느 정도의 자치권을 얻었는데, 이는 본국 간의 거리나 지역의 특성 때문입니다. 자치권이라는 허울은 엘리트 계층에게만 적용됩니다. 이걸 가지고 뭘 할지는 오직 저들의 몫입니다."
+Pakt_Integrated_Reichskommissariat: "통합 국가판무관부"
+Pakt_Integrated_Reichskommissariat_effect: "[!Pakt_Integrated_Reichskommissariat]"
+Pakt_Integrated_Reichskommissariat_desc: "§Y통합 국가판무관부§!는 라이히가 합병을 준비하기 위해 세웠고, 그 합병이 머지 않은 식민지 행정부입니다. 행정부는 제국 그 자체의 행정부와 점점 얽혀서 사업과 사람들은 아무 문제 없이 국경을 넘어갈 수 있습니다. 이 §Y국가판무관부§! 안에서 점점 많아지는 정치적 지위 역시 이 곳이 곧 독일의 영토가 될거라는 암시 중 하나입니다.\n\nGDP Growth Boost: §R-7.5%§!\nGDP to Overlord Modifier: §Y5%§!"
 
- Pakt_Reichsland: "국가령"
- Pakt_Reichsland_effect: "[!Pakt_Reichsland]"
- Pakt_Reichsland_desc: "§Y국가령§!은 라이히에게 합병된 대독일국의 영토입니다. 이들은 법률적으로나 국제적으로나 대독일국의 일부이지만, 라이히의 통치를 정당화하고 현지민들을 순응시키기 위해 라이히에게 충성하는 부역자들의 정부가 설립되어 있습니다."
- 
- Pakt_Marionettenstaat: "괴뢰국"
- Pakt_Marionettenstaat_effect: "[!Pakt_Marionettenstaat]"
- Pakt_Marionettenstaat_desc: "§Y괴뢰국§!는 명목상으론 독립국가인 팍트 조인국입니다. 이들과 라이히는 밀접한 형제 관계에 있으며 대독일국의 방침에 적극적으로 동조하며 팍트 평의회 동안 서로의 이익을 위해 단결합니다. 그들의 거리, 기업, 병영, 의회 등 전국 각지에는 독일인들이 있습니다. 이것은 대독일국의 범유럽 적 이상에 대한 그들의 강력한 지지입니다. 전우국들은 모두 라이히의 가까운 형제들이지만, §Y괴뢰국§!과 라이히는 함께 노래에 맞춰 춤을 추며 하나 됩니다."
+Pakt_Autonomous_Reichskommissariat: "자치 국가판무관부"
+Pakt_Autonomous_Reichskommissariat_effect: "[!Pakt_Autonomous_Reichskommissariat]"
+Pakt_Autonomous_Reichskommissariat_desc: "§Y자치 국가판무관부§!는 통합 국가판무관부처럼 국가가 아니라 대독일국이 언젠가 있을 합병에 대비해 세운 식민지 행정부입니다. 총통이 임명한 국가판무관이 이끄는 이 행정 지역은 게르마니아의 밀접한 감시로부터 어느 정도의 자치권을 얻었는데, 이는 본국 간의 거리나 지역의 특성 때문입니다. 자치권이라는 허울은 엘리트 계층에게만 적용됩니다. 이걸 가지고 뭘 할지는 오직 저들의 몫입니다.\n\nGDP Growth Boost: §R-5%§!\nGDP to Overlord Modifier: §Y5%§!"
 
- Pakt_Mitstreiter: "전우국"
- Pakt_Mitstreiter_effect: "[!Pakt_Mitstreiter]"
- Pakt_Mitstreiter_desc: "대독일국의 자랑스러운 §Y전우국§!인 이 국가는 타락의 족쇄를 벗어 전지고 새로운 시대에 접어들었습니다. 이제 아인하이츠팍트가 주도하는 유럽의 통합과 번영의 전투에서 친밀한 전우로 여겨지는 이들의 운명은 독일과 밀접하게 엮여있습니다. 게르마니아는 이를 상호적이며 번영하는 관계라고 주장합니다. 사실 이 소위 전우라는 이들은 동등한 파트너보다는 노리개에 가깝지만 말입니다."
+Pakt_Reichsland: "국가령"
+Pakt_Reichsland_effect: "[!Pakt_Reichsland]"
+Pakt_Reichsland_desc: "§Y국가령§!은 라이히에게 합병된 대독일국의 영토입니다. 이들은 법률적으로나 국제적으로나 대독일국의 일부이지만, 라이히의 통치를 정당화하고 현지민들을 순응시키기 위해 라이히에게 충성하는 부역자들의 정부가 설립되어 있습니다.\n\nGDP Growth Boost: §Y4%§!\nGDP to Overlord Modifier: §Y2.5%§!"
+ 
+Pakt_Marionettenstaat: "괴뢰국"
+Pakt_Marionettenstaat_effect: "[!Pakt_Marionettenstaat]"
+Pakt_Marionettenstaat_desc: "§Y괴뢰국§!는 명목상으론 독립국가인 팍트 조인국입니다. 이들과 라이히는 밀접한 형제 관계에 있으며 대독일국의 방침에 적극적으로 동조하며 팍트 평의회 동안 서로의 이익을 위해 단결합니다. 그들의 거리, 기업, 병영, 의회 등 전국 각지에는 독일인들이 있습니다. 이것은 대독일국의 범유럽 적 이상에 대한 그들의 강력한 지지입니다. 전우국들은 모두 라이히의 가까운 형제들이지만, §Y괴뢰국§!과 라이히는 함께 노래에 맞춰 춤을 추며 하나 됩니다.\n\nGDP Growth Boost: §Y4.5%§!"
 
- Pakt_Bundnispartner: "동맹국"
- Pakt_Bundnispartner_effect: "[!Pakt_Bundnispartner]"
- Pakt_Bundnispartner_desc: "대독일국의 §Y동맹국§!인 이 국가는 지혜롭게 유럽 최대의 제국과 평화적으로 협조하고 상호 원조를 했으며 동등한 파트너로서 아인하이츠팍트에 가입했습니다. 이제 국제 무대에서 라이히의 동맹으로 여겨지는 이들은 동맹이 따라야 할 너무 많은 조약과 책임을 지고 있습니다. 아인하이츠팍트에 가입하는 이유는 형제와 같은 단결의 추구라고들 하지만, 이 별로 평등하지 않은 관계에 이끌리는 국가들은 보통 경제적 번영과 안전에 이끌린 것입니다."
+Pakt_Mitstreiter: "전우국"
+Pakt_Mitstreiter_effect: "[!Pakt_Mitstreiter]"
+Pakt_Mitstreiter_desc: "대독일국의 자랑스러운 §Y전우국§!인 이 국가는 타락의 족쇄를 벗어 전지고 새로운 시대에 접어들었습니다. 이제 아인하이츠팍트가 주도하는 유럽의 통합과 번영의 전투에서 친밀한 전우로 여겨지는 이들의 운명은 독일과 밀접하게 엮여있습니다. 게르마니아는 이를 상호적이며 번영하는 관계라고 주장합니다. 사실 이 소위 전우라는 이들은 동등한 파트너보다는 노리개에 가깝지만 말입니다.\n\nGDP Growth Boost: §Y7.5%§!"
 
- Pakt_Ordensstaat: "기사단국"
- Pakt_Ordensstaat_effect: "[!Pakt_Ordensstaat]"
- Pakt_Ordensstaat_desc: "이 국가는 팍트에서 보기 드문 §Y기사단국§!으로 SS만이 통제하는 군사 행정부입니다. 공식적으로는 정치적, 군사적, 경제적으로 라이히의 일부로 총통의 최종 지휘를 받지만 현실의 §Y기사단국§!은 SS국가지도자 하임리히 힘러의 개인 영지에 지나지 않습니다. §Y기사단국§! 내에서 무슨 일이 일어나는지 대중에 알려진 것은 적지만 시민들의 행동, 말, 심지어 생각까지 완전히 통제하고 있다는 소문이 돌고 있습니다. 독일이 §Y기사단국§!을 통제하고 있다는 환상은 흔들리고 있습니다. 불꽃 하나만 튄다면 모든 것이 불탈 것입니다..."
- 
- Pakt_Observer: "옵서버"
- Pakt_Observer_effect: "[!Pakt_Observer]"
- Pakt_Observer_desc: "§Y옵서버§!는 대독일국과 팍트 구성국과 긴밀한 관계를 맺고 있습니다. 그들은 팍트로 부터 독립된 지위로 일부 팍트 프로그램과 활동에 참여할 수 있는 권리를 부여받음과 함께 팍트의 회원국들에 부여되는 책임과 의무를 분담합니다."
- 
- Anti_Heydrich_Pact: "반하이드리히 조약"
- Anti_Heydrich_Pact_effect: "[!Anti_Heydrich_Pact]"
- Anti_Heydrich_Pact_desc: ""
- 
- Anti_Himmler: "반힘러 연합"
- Anti_Himmler_effect: "[!Anti_Himmler]"
- Anti_Himmler_desc: ""
- 
- Anti_Heydrich: "힘러 충성파"
- Anti_Heydrich_effect: "[!Anti_Heydrich]"
- Anti_Heydrich_desc: ""
+Pakt_Bundnispartner: "동맹국"
+Pakt_Bundnispartner_effect: "[!Pakt_Bundnispartner]"
+Pakt_Bundnispartner_desc: "대독일국의 §Y동맹국§!인 이 국가는 지혜롭게 유럽 최대의 제국과 평화적으로 협조하고 상호 원조를 했으며 동등한 파트너로서 아인하이츠팍트에 가입했습니다. 이제 국제 무대에서 라이히의 동맹으로 여겨지는 이들은 동맹이 따라야 할 너무 많은 조약과 책임을 지고 있습니다. 아인하이츠팍트에 가입하는 이유는 형제와 같은 단결의 추구라고들 하지만, 이 별로 평등하지 않은 관계에 이끌리는 국가들은 보통 경제적 번영과 안전에 이끌린 것입니다.\n\nGDP Growth Boost: §Y10%§!"
 
- #Sphere
- Sphere_Leader: "공영권의 지도자"
- Sphere_Leader_effect: "[!Sphere_Leader]"
- Sphere_Leader_desc: "흔히 "공영권"이라고 불리는 대동아공영권(다이토아쿄에이켄)은 서구의 식민주의와 제국주의에 대항한 전쟁에서 해방된 아시아 독립국들의 국제 기구입니다. 적어도 공식적으로는 그럽니다. 실제로는 공영권에 자발적으로 가입한 국가는 적습니다. 공영권은 일본 노예주에게 봉사하도록 만들어진 이름뿐인 독립국들로 이루어져 있습니다. 공영권은 경제동맹, 정치적 상부구조, 군사동맹, 통합 계획의 혼합물입니다. 하지만 제일 중요한 것은 제국의 완전한 지배의 연장으로 작동한다는 것입니다."
- Sphere_Leader_tt: "§M공영권의 지도자로서 우리 연간 예산이 더 증가합니다. 이는 하위 공영권 회원국들이 내는 정기 납입금 덕분입니다.\n\n추가로, 종속국의 예속 수준에 따라 각국의 산업 능력 일부가 우리에게 이전됩니다.§!"
+Pakt_Ordensstaat: "기사단국"
+Pakt_Ordensstaat_effect: "[!Pakt_Ordensstaat]"
+Pakt_Ordensstaat_desc: "이 국가는 팍트에서 보기 드문 §Y기사단국§!으로 SS만이 통제하는 군사 행정부입니다. 공식적으로는 정치적, 군사적, 경제적으로 라이히의 일부로 총통의 최종 지휘를 받지만 현실의 §Y기사단국§!은 SS국가지도자 하임리히 힘러의 개인 영지에 지나지 않습니다. §Y기사단국§! 내에서 무슨 일이 일어나는지 대중에 알려진 것은 적지만 시민들의 행동, 말, 심지어 생각까지 완전히 통제하고 있다는 소문이 돌고 있습니다. 독일이 §Y기사단국§!을 통제하고 있다는 환상은 흔들리고 있습니다. 불꽃 하나만 튄다면 모든 것이 불탈 것입니다...\n\nGDP Growth Boost: §R-10%§!"
  
- Sphere_Coequal: "공영권의 공동회원국"
- Sphere_Coequal_effect: "[!Sphere_Coequal]"
- Sphere_Coequal_desc: "이 나라는 대동아공영권의 완전한 공동회원국으로, 비자발적인 꼭두각시 정부로서가 아니라 선택에 의해 회원국의 역할을 하고 있습니다. 공영권의 독립적인 회원국으로서, 이들 국가들은 주로 지역 강대국이며, 다른 더 의존적인 국가들의 평화를 유지하는 데 한몫을 하고 있습니다. 하지만, 이러한 국가들의 충성도가 문제시 될 가능성이 가장 높습니다."
+Pakt_Observer: "팍트 옵서버"
+Pakt_Observer_effect: "[!Pakt_Observer]"
+Pakt_Observer_desc: "§Y옵서버§!는 대독일국 및 팍트 구성국과 긴밀한 관계를 맺고 있습니다. 그들은 팍트로부터 독립된 지위로 일부 팍트 프로그램과 활동에 참여할 수 있는 권리를 부여받음과 함께 팍트의 회원국들에 부여되는 책임과 의무를 분담합니다.\n\nGDP Growth Boost: §Y5%§!"
  
- Sphere_Economic_Dependent: "공영권의 경제의존국"
- Sphere_Economic_Dependent_effect: "[!Sphere_Economic_Dependent]"
- Sphere_Economic_Dependent_desc: "대부분 독립적이긴 하지만, 이 국가의 경제는 대동아공영권에 존속하기 위해 외부의 개입을 필요로 합니다. 여기에 또한 더 독립적인 구성원들과의 추가적인 군사 협력과, 일반적으로 이들의 지배자들뿐만 아니라 다른 세력들이 더 직접적으로 관여하는 것을 포함합니다.\n\n§M이 나라는§! §Y연간 총수입§!의 15%§M를§! §M공영권§!§M의§! §e지도자§!§M에게 지급해야 합니다.§!"
+Anti_Heydrich_Pact: "반하이드리히 조약"
+Anti_Heydrich_Pact_effect: "[!Anti_Heydrich_Pact]"
+Anti_Heydrich_Pact_desc: "A terrible, once unimaginable outcome is now a frightening possibility. Reinhard Heydrich-the Butcher of Prague, the Hangman, Himmler's confidante-could prevail in the German Civil War. Reinhard Heydrich could become Germany's next Führer.\n\nSuffice to say, such an outcome is untenable. To prevent a catastrophe from befalling the Reich, most of the remaining combatants in the civil war have put their disagreements aside and agreed to an informal truce. So long as Heydrich still stands, so long as he still poses a threat to Germany and all it stands for, they will not attack one another. They will work together to destroy the madman and his allies.\n\n§xMay God have mercy on Germany if they fail.§!"
  
- Sphere_Fully_Dependent: "공영권의 완전의존국"
- Sphere_Fully_Dependent_effect: "[!Sphere_Fully_Dependent]"
- Sphere_Fully_Dependent_desc: "이 나라는 군사, 경제, 정치적 측면에서 완전히 외부에 의존하고 있습니다. 이들은 대동아공영권의 꼭두각시 국가로서 무의식적으로 합류했는데, 그리고 자주 공영권의 전쟁과 외교에 관여하게 됩니다. 하지만, 통제는 종종 이러한 사회에 반란이라는 불협화음을 뿌릴 수도 있습니다.\n\n§M이 나라는§! §Y연간 총수입§!의 25%§M를§! §M공영권§!§M의§! §e지도자§!§M에게 지급해야 합니다.§!"
+Anti_Himmler: "반힘러 연합"
+Anti_Himmler_effect: "[!Anti_Himmler]"
+Anti_Himmler_desc: "The name of the Anti-Himmler-Koalition is somewhat unnecessary, in the eyes of many Germans. After all, practically everyone has been against Himmler for decades, outside of the SS. Still, the name fits well for the expansive, disorderly alliance that ammasses against the black masses of Himmler's legions - including Himmler's former protege, Reinhard Heydrich, who leads the Koalition. Truly, any movement that encompasses everything from democrats to militarists to SS men is a coalition borne purely of hatred for a greater evil.\n\nIt is that evil alone, who plots and schemes the end of the world in Ost-Paris, who holds his opponents together. When he dies, the coalition will go with him, and the forces of a united opposition will break apart once more. Even with this in mind, the members know that scheming against one another borders on foolish, for what is the point in plotting for tomorrow if the world might end today?"
+GER_HGR_Anti_Himmler: "Anti-Himmler-Koalition"
  
- Sphere_Imp_Protectorate: "제국 보호령"
- Sphere_Imp_Protectorate_effect: "[!Sphere_Imp_Protectorate]"
- Sphere_Imp_Protectorate_desc: "이 나라는 일본의 지도력의 결과로 보호를 받고 있기에 대동아공영권으로 합류했습니다. 이 국가들은 일본에 직접 복종하고, 이에 대답합니다. 이것은 완전한 병합을 제외하고 공영권에서 가장 직접적인 일본의 영향을 받는 형태입니다.\n\n§M이 나라는§! §Y연간 총수입§!의 40%§M를§! §M공영권§!§M의§! §e지도자§!§M에게 지급해야 합니다.§!"
+Anti_Heydrich: "힘러 충성파"
+Anti_Heydrich_effect: "[!Anti_Heydrich]"
+Anti_Heydrich_desc: "It takes a truly special kind of man to side with someone as evil as Heinrich Himmler when the cards are down. The Reich is split apart, sliced into pieces by the man once hailed as the future of the Aryan race - Reinhard Heydrich, the greatest traitor of modern times. His revolt has forced everyone in Central Europe, German or not, to take a side. These men are the ones who have sided with the Burgundian System.\n\nThese men, once few in number, are now stronger than they've ever been. Heydrich's victory in Germany has granted the loyalists of the SS great weaponry and positions, which they now take up to defend against degenerate hordes that wish to tear down everything that the Aryan man has fought for. Many fight for the Burgundian System and Aryanism. Some fight for Himmler. Very few fight for - or know of - Himmler's true plans. Yet, no matter their reasons, they are armed, trained, deadly, and highly dangerous, and they will stop at nothing to put Europe under the cold scorch of the Black Sun."
+
+#Sphere
+Sphere_Leader: "공영권의 지도자"
+Sphere_Leader_effect: "[!Sphere_Leader]"
+Sphere_Leader_desc: "흔히 "공영권"이라고 불리는 대동아공영권(다이토아쿄에이켄)은 서구의 식민주의와 제국주의에 대항한 전쟁에서 해방된 아시아 독립국들의 국제 기구입니다. 적어도 공식적으로는 그럽니다. 실제로는 공영권에 자발적으로 가입한 국가는 적습니다. 공영권은 일본 노예주에게 봉사하도록 만들어진 이름뿐인 독립국들로 이루어져 있습니다. 공영권은 경제동맹, 정치적 상부구조, 군사동맹, 통합 계획의 혼합물입니다. 하지만 제일 중요한 것은 제국의 완전한 지배의 연장으로 작동한다는 것입니다."
+Sphere_Leader_tt: "§M공영권의 지도자로서 우리 연간 예산이 더 증가합니다. 이는 하위 공영권 회원국들이 내는 정기 납입금 덕분입니다.\n\n추가로, 종속국의 예속 수준에 따라 각국의 산업 능력 일부가 우리에게 이전됩니다.§!"
  
- Sphere_Special_Econ_Zone: "특수경제지대"
- Sphere_Special_Econ_Zone_effect: "[!Sphere_Special_Econ_Zone]"
- Sphere_Special_Econ_Zone_desc: "\n\n§M이 나라는§! §Y연간 총수입§!의 60%§M를§! §M공영권§!§M의§! §e지도자§!§M에게 지급해야 합니다.§!"
- #OFN
- OFN_Leader_of_The_Free_World: "자유세계의 지도자"
- OFN_Leader_of_The_Free_World_effect: "[!OFN_Leader_of_The_Free_World]"
- OFN_Leader_of_The_Free_World_desc: "동서양의 실존적인 위협에 처한 미국은 적들이 넘지 말아야 할 선을 그어버리기 전에 가능한 한 빠르게 동맹국들을 소집하였습니다. 비용과 국내 상황이 어떻든 간에 초강대국의 지도자들과 그 군대는 제정신과 광기 사이에 형성되어 있는 얇디얇은 국경선을 충실하게 감시하기로 맹세하였습니다.\n\n이를 인정한 정부와 억압받는 국민들은 마찬가지로 지도받고, 안전을 보장받고, 물질적 지원을 받기 위해 워싱턴으로 향합니다. 하지만 이런 특권에는 다음과 같은 불문율적 의무가 따릅니다. 미국은 자유세계 가족이 따를 가치 있는 가부장이 어느 순간 없어져 버리는 일이 일어나지 않도록 그 이름에 맞는 높은 기준을 유지해야 합니다..."
+Sphere_Coequal: "공영권의 공동회원국"
+Sphere_Coequal_effect: "[!Sphere_Coequal]"
+Sphere_Coequal_desc: "이 나라는 대동아공영권의 완전한 공동회원국으로, 비자발적인 꼭두각시 정부로서가 아니라 선택에 의해 회원국의 역할을 하고 있습니다. 공영권의 독립적인 회원국으로서, 이들 국가들은 주로 지역 강대국이며, 다른 더 의존적인 국가들의 평화를 유지하는 데 한몫을 하고 있습니다. 하지만, 이러한 국가들의 충성도가 문제시 될 가능성이 가장 높습니다.\n\nGDP Growth Boost: §Y10%§!"
  
- OFN_Independent_Member: "OFN 독립회원국"
- OFN_Independent_Member_effect: "[!OFN_Independent_Member]"
- OFN_Independent_Member_desc: "OFN은 무엇보다도 자유민주주의 성향을 가진 국가들 사이의 상호방위동맹이라는 것이 가장 중요합니다. 뉴욕 헌장의 서명자들로 구성되어 있으며, (일부 예외는 빼고) 전술한 문서의 제3조 "무장 공격에 저항할 개인 및 집단적 능력을 유지하고 개발할 것"에 따라 모든 회원국의 대표자 협의회는 각각 한 표를 행사할 수 있으며, 동맹의 일상적이고 장기적인 업무를 관리합니다.\n\n독립 회원국은 미국으로부터 정치적, 경제적, 군사적 자율권을 유지하는 회원국들을 말합니다. 이 동맹의 첫 번째 독립 회원국은 캐나다, 호주, 뉴질랜드입니다."
+Sphere_Economic_Dependent: "공영권의 경제의존국"
+Sphere_Economic_Dependent_effect: "[!Sphere_Economic_Dependent]"
+Sphere_Economic_Dependent_desc: "대부분 독립적이긴 하지만, 이 국가의 경제는 대동아공영권에 존속하기 위해 외부의 개입을 필요로 합니다. 여기에 또한 더 독립적인 구성원들과의 추가적인 군사 협력과, 일반적으로 이들의 지배자들뿐만 아니라 다른 세력들이 더 직접적으로 관여하는 것을 포함합니다.\n\n§M이 나라는§! §Y연간 총수입§!의 15%§M를§! §M공영권§!§M의§! §e지도자§!§M에게 지급해야 합니다.§!\n\nGDP Growth Boost: §Y3%§!\nGDP to Overlord Modifier: §Y2.5%§!"
  
- OFN_Dependent_Member: "OFN 의존회원국"
- OFN_Dependent_Member_effect: "[!OFN_Dependent_Member]"
- OFN_Dependent_Member_desc: "자원도 인력도 없는 회원국들이 자기방위군보다 더 큰 군을 유지할 수 있도록 하기 위해 서명국들은 제5조 "회원과 회원국이 공격받는 것을 돕기 위해... 무력을 사용한다."라는 조항에 따라 이들이 거의 사용하지 않는 상비군을 위해 그들의 경제를 갈취하는 것을 수반합니다. 이러한 제약을 염두에 두고, 뉴욕 헌장의 절충안이 수정될 때까지 OFN에서 소수 국가들이 차지하는 위치는 활발한 토론의 대상이 되었습니다.\n\n현재 용어인 "의존회원국 지위 조항"은 엄격한 기준을 통과한 회원국들에게 제5조의 의무를 이행하는 것을 면제해 줍니다. 사실상, 미군이 수행할 것으로 예상되는 임무의 상당 부분을 포함하고 있습니다. 1962년 현재 서인도 연방, 벨리즈, 가이아나만이 이 특별한 지위로 분류하고 있습니다."
+Sphere_Fully_Dependent: "공영권의 완전의존국"
+Sphere_Fully_Dependent_effect: "[!Sphere_Fully_Dependent]"
+Sphere_Fully_Dependent_desc: "이 나라는 군사, 경제, 정치적 측면에서 완전히 외부에 의존하고 있습니다. 이들은 대동아공영권의 꼭두각시 국가로서 무의식적으로 합류했는데, 그리고 자주 공영권의 전쟁과 외교에 관여하게 됩니다. 하지만, 통제는 종종 이러한 사회에 반란이라는 불협화음을 뿌릴 수도 있습니다.\n\n§M이 나라는§! §Y연간 총수입§!의 25%§M를§! §M공영권§!§M의§! §e지도자§!§M에게 지급해야 합니다.§!\n\nGDP Growth Boost: §Y5%§!\nGDP to Overlord Modifier: §Y5%§!"
  
- OFN_Military_Government: "미국 군사정부"
- OFN_Military_Government_effect: "[!OFN_Military_Government]"
- OFN_Military_Government_desc: "미국은 재건 시대 이래로 현존하는 지역 민법이 아니라 군대의 지배를 받는 점령 지역인 군정을 도입한 경험이 있습니다. 전쟁으로 피폐해진 지역이나 분쟁 지역에서 즉각적인 평화와 안정을 시행하기 위해 군사 정부에선 장군들의 감독 하에 상당한 수의 미군이 파견됩니다. 행정부는 어떤 이유로든 이 관행을 오늘날에도 계속하기로 결정할 수 있습니다.\n\n가장 최근의 예는 1941년 이후 섬의 사실상 전 지휘권을 가진 미군정 아이슬란드입니다."
+Sphere_Imp_Protectorate: "제국 보호령"
+Sphere_Imp_Protectorate_effect: "[!Sphere_Imp_Protectorate]"
+Sphere_Imp_Protectorate_desc: "이 나라는 일본의 지도력의 결과로 보호를 받고 있기에 대동아공영권으로 합류했습니다. 이 국가들은 일본에 직접 복종하고, 이에 대답합니다. 이것은 완전한 병합을 제외하고 공영권에서 가장 직접적인 일본의 영향을 받는 형태입니다.\n\n§M이 나라는§! §Y연간 총수입§!의 40%§M를§! §M공영권§!§M의§! §e지도자§!§M에게 지급해야 합니다.§!\n\nGDP Growth Boost: §R-3%§!\nGDP to Overlord Modifier: §Y3.5%§!"
  
- OFN_Mandate: "OFN 위임통치령"
- OFN_Mandate_effect: "[!OFN_Mandate]"
- OFN_Mandate_desc: "틀을 짜는 사람들의 목표를 감안할 때, OFN은 기대뿐만 아니라 자유세계의 이해관계가 걸린 분쟁에 개입해야 한다는 압박도 받고 있습니다. 하지만 종종 이 지역의 실상은 독립 후 성공적인 민주주의를 유지할 수 있는 안정성과 제도, 그리고 경험이 부족한 경우가 많다는 점이 보입니다.\n\n뉴욕 헌장 제12조에서는 앞서 언급한 주체가 능력 있는 지방 정부로 되어 관할권 내에서 자유롭고 공정한 선거를 감독할 수 있는 민정 이양이 가능할 때까지 위임통치령을 설립할 수 있는 권한을 동맹에서 사전에 승인했습니다. 이러한 과도기가 다른 때보다 자신의 운명을 잡을 수 있는 더 좋은 장비를 갖춘 국가들을 만드는 데 도움이 되기를 희망합니다."
+Sphere_Special_Econ_Zone: "특수경제지대"
+Sphere_Special_Econ_Zone_effect: "[!Sphere_Special_Econ_Zone]"
+Sphere_Special_Econ_Zone_desc: "Much less a nation and more of a giant corporate playground, the Special Economic Zone is a state whose purpose is trade and manufacturing for the Zaibatsus. The entire country, especially the cities, is completely void of trade laws and restrictions. Endless sweatshops dot the land, with corporate symbolism appearing in such magnitude one forgets that it is Japan, not the Zaibatsus, that runs the Zone.\n\nGDP Growth Boost: §Y7.5%§!\nGDP to Overlord Modifier: §Y7.5%§!"
+
+Sphere_Observer: "공영권 옵서버"
+Sphere_Observer_effect: "[!Sphere_Observer]"
+Sphere_Observer_desc: "This status represents a nation gradually transitioning into full membership in the Co-Prosperity Sphere, usually through the means of extensive economic and diplomatic agreements and low-level military personnel training. Markets between these nations are often dominated by Japanese goods and are subject to the whims of Japanese investors, but the political landscape is usually untouched by Japanese interests, allowing the nation certain freedoms from Tokyo control.\n\nGDP Growth Boost: §Y5%§!"
+
+#NLF
+NLF_Leader: "Leader of the Third United Front"
+NLF_Leader_effect: "[!NLF_Leader]"
+NLF_Leader_desc: "In the wake of the destruction of the Second United Front, China was rendered asunder by the Japanese.\n\nNever must that happen again.\n\nLong Yun, the so-called King of the Southwest, has returned from his exile, while the remnants of the Second United Front scattered across Southeast Asia have banded together into a de-facto Third United Front against Japanese domination. From Yunnan in the furthest reaches of the south to the cold of Dongbei, such forces are gathering to resist imperialism, to resist the simple oppression that Japan holds over the people. Such a fight has been decried as useless and suicidal by many, yet their time is over. What sparks of hope the sons and daughters of China have must be kindled into a great flame, one that any power in the world will not extinguish. Liberation is coming. Hope is here. The rising sun shall set."
+
+NLF_Member: "Member of the Third United Front"
+NLF_Member_effect: "[!NLF_Member]"
+NLF_Member_desc: "The war of resistance never truly ended - but will this latest confrontation end the same or will it end in victory?\n\nThat is the question asked of the numerous warlords that still dominate significant swathes of China. Once, this territory and its people fought relentlessly to keep Japan from conquering them and their countrymen. Then, as the Japanese closed in on Mao Zedong and Chiang Kai-shek, proud heroes of the resistance in Chongqing, they had no choice but to abandon the United Front and save themselves. Two decades of suffering later, a new Front has been born and the Chinese people have reforged their bonds once more. Though some may decry the mission of overthrowing Japanese control as suicidal and a journey of suffering, there are no regrets to be found. It is better to say one resisted for a day and was cut down, unlike the dogs in Nanjing who serve Japan China on a silver platter. The legacy of the Third United Front, whether that is a loss or a victory, will be that of inspiration: of Chinese people rising up against their oppressors against all odds.\n\nDivision Attack: §G+10%§!\nDivision Defense: §G+10%§!\nDivision Recovery Rate: §G+10%§!\nSurrender Limit: §G+30%§!"
+
+#OFN
+OFN_Leader_of_The_Free_World: "자유세계의 지도자"
+OFN_Leader_of_The_Free_World_effect: "[!OFN_Leader_of_The_Free_World]"
+OFN_Leader_of_The_Free_World_desc: "동서양의 실존적인 위협에 처한 미국은 적들이 넘지 말아야 할 선을 그어버리기 전에 가능한 한 빠르게 동맹국들을 소집하였습니다. 비용과 국내 상황이 어떻든 간에 초강대국의 지도자들과 그 군대는 제정신과 광기 사이에 형성되어 있는 얇디얇은 국경선을 충실하게 감시하기로 맹세하였습니다.\n\n이를 인정한 정부와 억압받는 국민들은 마찬가지로 지도받고, 안전을 보장받고, 물질적 지원을 받기 위해 워싱턴으로 향합니다. 하지만 이런 특권에는 다음과 같은 불문율적 의무가 따릅니다. 미국은 자유세계 가족이 따를 가치 있는 가부장이 어느 순간 없어져 버리는 일이 일어나지 않도록 그 이름에 맞는 높은 기준을 유지해야 합니다..."
  
- OFN_Observer: "OFN 옵서버"
- OFN_Observer_effect: "[!OFN_Observer]"
- OFN_Observer_desc: "OFN 가입 자격은 뉴욕 헌장 서명국으로 제한되어 있지만 많은 국가들은 노예화로부터 자유 세계를 지키기 위한 단 하나의 세력권이 있다는 것을 깨달았습니다. 이런 "OFN 옵서버 국가"는 완전한 자립을 이루진 못해 헌장에서 지정한 국가가 되지는 못했습니다. 간단히 말하자면 경제, 외교, 군사적 문제에 있어 자신의 빵에 버터가 어디에 발려져 있을 지 말할 수는 있는 국가를 말합니다. 하지만 인간의 자유를 중요시하는 모든 국가들처럼 이들도 언젠가는 OFN에 가입할 수 있을 것입니다."
+OFN_Independent_Member: "OFN 독립회원국"
+OFN_Independent_Member_effect: "[!OFN_Independent_Member]"
+OFN_Independent_Member_desc: "OFN은 무엇보다도 자유민주주의 성향을 가진 국가들 사이의 상호방위동맹이라는 것이 가장 중요합니다. 뉴욕 헌장의 서명자들로 구성되어 있으며, (일부 예외는 빼고) 전술한 문서의 제3조 "무장 공격에 저항할 개인 및 집단적 능력을 유지하고 개발할 것"에 따라 모든 회원국의 대표자 협의회는 각각 한 표를 행사할 수 있으며, 동맹의 일상적이고 장기적인 업무를 관리합니다.\n\n독립 회원국은 미국으로부터 정치적, 경제적, 군사적 자율권을 유지하는 회원국들을 말합니다. 이 동맹의 첫 번째 독립 회원국은 캐나다, 호주, 뉴질랜드입니다.\n\nGDP Growth Boost: §Y10%§!"
  
- #Triumvirate
- TRI_Founder_IT: "트리움비라투스 창립국"
- TRI_Founder_IB: "트리움비라투스 창립국"
- TRI_Founder_TR: "트리움비라투스 창립국"
- TRI_Member: "트리움비라투스 회원국"
- TRI_Member_Client: "트리움비라투스 의존국"
+OFN_Dependent_Member: "OFN 의존회원국"
+OFN_Dependent_Member_effect: "[!OFN_Dependent_Member]"
+OFN_Dependent_Member_desc: "자원도 인력도 없는 회원국들이 자기방위군보다 더 큰 군을 유지할 수 있도록 하기 위해 서명국들은 제5조 "회원과 회원국이 공격받는 것을 돕기 위해... 무력을 사용한다."라는 조항에 따라 이들이 거의 사용하지 않는 상비군을 위해 그들의 경제를 갈취하는 것을 수반합니다. 이러한 제약을 염두에 두고, 뉴욕 헌장의 절충안이 수정될 때까지 OFN에서 소수 국가들이 차지하는 위치는 활발한 토론의 대상이 되었습니다.\n\n현재 용어인 "의존회원국 지위 조항"은 엄격한 기준을 통과한 회원국들에게 제5조의 의무를 이행하는 것을 면제해 줍니다. 사실상, 미군이 수행할 것으로 예상되는 임무의 상당 부분을 포함하고 있습니다. 1962년 현재 서인도 연방, 벨리즈, 가이아나만이 이 특별한 지위로 분류하고 있습니다.\n\nGDP Growth Boost: §Y5%§!"
+ 
+OFN_Military_Government: "미국 군사정부"
+OFN_Military_Government_effect: "[!OFN_Military_Government]"
+OFN_Military_Government_desc: "미국은 재건 시대 이래로 현존하는 지역 민법이 아니라 군대의 지배를 받는 점령 지역인 군정을 도입한 경험이 있습니다. 전쟁으로 피폐해진 지역이나 분쟁 지역에서 즉각적인 평화와 안정을 시행하기 위해 군사 정부에선 장군들의 감독 하에 상당한 수의 미군이 파견됩니다. 행정부는 어떤 이유로든 이 관행을 오늘날에도 계속하기로 결정할 수 있습니다.\n\n가장 최근의 예는 1941년 이후 섬의 사실상 전 지휘권을 가진 미군정 아이슬란드입니다.\n\nGDP Growth Boost: §R-2.5%§!"
+ 
+OFN_Mandate: "OFN 위임통치령"
+OFN_Mandate_effect: "[!OFN_Mandate]"
+OFN_Mandate_desc: "틀을 짜는 사람들의 목표를 감안할 때, OFN은 기대뿐만 아니라 자유세계의 이해관계가 걸린 분쟁에 개입해야 한다는 압박도 받고 있습니다. 하지만 종종 이 지역의 실상은 독립 후 성공적인 민주주의를 유지할 수 있는 안정성과 제도, 그리고 경험이 부족한 경우가 많다는 점이 보입니다.\n\n뉴욕 헌장 제12조에서는 앞서 언급한 주체가 능력 있는 지방 정부로 되어 관할권 내에서 자유롭고 공정한 선거를 감독할 수 있는 민정 이양이 가능할 때까지 위임통치령을 설립할 수 있는 권한을 동맹에서 사전에 승인했습니다. 이러한 과도기가 다른 때보다 자신의 운명을 잡을 수 있는 더 좋은 장비를 갖춘 국가들을 만드는 데 도움이 되기를 희망합니다.\n\nGDP Growth Boost: §R-5%§!"
+ 
+OFN_Observer: "OFN 옵서버"
+OFN_Observer_effect: "[!OFN_Observer]"
+OFN_Observer_desc: "OFN 가입 자격은 뉴욕 헌장 서명국으로 제한되어 있지만 많은 국가들은 노예화로부터 자유 세계를 지키기 위한 단 하나의 세력권이 있다는 것을 깨달았습니다. 이런 "OFN 옵서버 국가"는 완전한 자립을 이루진 못해 헌장에서 지정한 국가가 되지는 못했습니다. 간단히 말하자면 경제, 외교, 군사적 문제에 있어 자신의 빵에 버터가 어디에 발려져 있을 지 말할 수는 있는 국가를 말합니다. 하지만 인간의 자유를 중요시하는 모든 국가들처럼 이들도 언젠가는 OFN에 가입할 수 있을 것입니다."
+ 
+#Triumvirate
+TRI_Founder_IT: "트리움비라투스 창립국"
+TRI_Founder_IT_desc: "Of all of the conquests and victories Italy enjoyed during the twentieth century, many consider the formation of the Triumvirate to be the greatest among them. The diplomatic pride and joy of the Empire, the Triumvirate is- on paper- merely a defensive pact around the Mediterranean for mutual protection against the German Reich to their north. In practice, however, it was a masterstroke for Italian foreign policy. Italy's central place in the Mediterranean, and the bounty from her overseas Empire has granted her the unofficial position of first among equals amidst the Triumvirate's Founders.\n\nThe alliance has been on the decline, and as Italy seems to be its primary beneficiary, she is also the nation that has been fighting the hardest to keep it intact. Their Iberian and Turkish allies have not seem the diplomatic fruits of the partnership though, and without drastic action, this Italian bloc in all but name may indeed be reduced to merely Italy and her puppets.\n\nGDP Growth Boost: §Y10%§!"
+TRI_Founder_IB: "트리움비라투스 창립국"
+TRI_Founder_IB_desc: "Of the three Founders of the Triumvirate, the Iberian Union faced the most direct peril at the hands of the rampaging Germans. They seized the former Portuguese colonies in Africa by force, after all, and then they foisted Atlantropa upon them, a pile of grey stone that has thus far only wrought misery upon Iberia and all of the nations of the Mediterannean. What was a project in power projection for Italy and a way to shore up border concerns for Turkey was a matter of survival for Iberia, and as such Iberia fought for the formation and maintenance of the Triumvirate since its inception.\n\nBut times are different now. The Germans seem to be retracting inwards these days, or at least stagnating somewhat, and Iberia no longer feels the existential threat of the Reich loom over them so heavily anymore. Now it is the time to ask what Iberia's ambitions are, and whether or not the Triumvirate is conducive to those aims. And if it's not, then perhaps it might be time to graduate beyond being a supporting actor behind the Italians on the world stage.\n\nGDP Growth Boost: §Y10%§!"
+TRI_Founder_TR: "트리움비라투스 창립국"
+TRI_Founder_TR_desc: "The Republic of Turkey, unlike her western counterparts in Italy and Iberia, found herself aligning with the Italians and their Triumvirate not necessarily out of fear of the Germans to the north, but out of a need to secure their borders and foreign policy so they could focus on the nation's internal struggles. The Twentieth Century has seen great gains for the Young Republic, but with their massive successes, they have also gained much in the way of burdens, namely in the area of regional minorities that struggle ceaselessly against the nation. Turkey has needed breathing room to deals with these threats, and if nothing else the Triumvirate has provided exactly that.\n\nBut times change, and to survive, nations need to adapt to those changes. The Triumvirate is, to put it bluntly, a dying alliance. It no longer offers the security or support to Turkey that it once did, having evolved into a vanity project of Italian duces over the years. Turkey once again strains within her borders, and looks to break out of the constraints that the nature of their alliance places upon them.\n\nGDP Growth Boost: §Y10%§!"
+TRI_Member: "트리움비라투스 회원국"
+TRI_Member_desc: "There are three founders of the Triumvirate, that is where the name comes from after all. However, in spite of that, the alliance encompasses more than merely Italy, Iberia, Turkey, and their respective puppets. A number of smaller nations find themselves in the orbit of one or more of these secondary powers and have, for one reason or another, petitioned the Founders for induction into the Triumvirate as a junior partner.\n\nThese nations maintain their legal autonomy and independence, but find their interests largely subordinated to that of the "Big Three" members of the Triumvirate both economically and in terms of foreign policy. This is all, of course, in exchange for the protection and security that the Triumvirate provides. Even still, many consider the inclusion within the Triumvirate to be more of a burden than an aid, because while they maintain their technical sovereignty over their own borders, everyone knows that Rome, Istanbul and Madrid hold significant sway over the politicians in every one of the minor nations that seek out the Triumvirate.\n\nGDP Growth Boost: §Y5%§!"
+TRI_Member_Client: "트리움비라투스 의존회원국"
+TRI_Member_Client_desc: "Legally speaking, the various client states, puppet regimes, and regional authorities of the Triumvirate represent less of a junior or underclass of nations within the Triumvirate, and something more akin to tumors or growths off of their parent nations. The legal status of client states within the Triumvirate is murky, with the Founders desiring recognition for the full membership of their vassals, while also seeking to prevent the other two from doing the same.\n\nFor this reason, the status of clients and subordinate nations and regions will remain something of a grey area from now until the end of the alliance, which may be fast approaching. In spite of how little they truly gain from the alliance, the Triumvirate has thus far kept their master nations restrained and at peace with one another, but with the disintegration of the Triumvirate looking as likely as it is now, the smallest of nations have much to fear as the local juggernauts begin sharpening their knives...\n\nGDP Growth Boost: §R-2.5%§!"
+TRI_Observer: "트리움비라투스 옵서버"
+TRI_Observer_desc: "Where the Triumvirate's reach extends beyond the Mediterranean, there can be found the associated nations known as Triumvirate Observers. Though not formal members of the alliance, they still take part in its activities and benefit from mutual cooperation. Someday, these nations may seek to join the Triumvirate as full members... If the bloc can last that long, that is.\n\nGDP Growth Boost: §Y2.5%§!"
+
+#Levantine Union
+LEV_UNION_Member:0 "Levantine Union Member"
+LEV_UNION_Member_desc:0 "This nation is a member of the Levantine Union, a mutual alliance, a powerful economic bloc, and a foreign alignment at the same time. Born after the Jerusalem Conference, this nation is young but promising. If the Union survives, perhaps it could be the first of a new breed of cooperation between nations..."
+LEV_UNION_Mandate:0 "Levantine Union Mandate"
+LEV_UNION_Mandate_desc:0 "This 'nation' is a Mandate of the Levantine Union, the mutual alliance, economic bloc, and alignment born after the Jerusalem Conference. Jerusalem is, in theory, a completely neutral zone, free from the sectarian conflicts that divide the rest of the Levant. As tensions rise, though, it remains to be seen if the Union's mandate system will remain in place..."
+
+
+### Philippines
+UFF_Faction: "Co-Founder of the United Filipino Front"
+UFF_Faction_desc: "Malayang magkaisa; aliping mag-iisa. United we stand; divided we fall.\n\nThese are the tenets that the United Filipino Front abide to. This alliance of convenience is in truth, more than that. The §RAFRSR§! and the §DUSFIP§!, though heavily contrasted in ideals, share a common goal: to preserve the independence and freedom of the Philippines from any invaders willing to take it from them. Perhaps, this alliance may just be the key to their freedom, though perhaps it may not be enough as the rays of the rising sun loom above..."
+
+### West Africa
+# War
+PALF_Faction: "Member of the Pan-African Liberation Front"
+PALF_Faction_desc: "Born in the fires of German terror bombings and the revolutionary halls of Yaoundé, the Pan-African Liberation Front has dedicated itself to the liberation of Africa from the colonialist devils that wrack it. Based primarily in Cameroon, the organization crosses borders and cultures, striving for one goal- freedom and unity for all Africans.\n\nPan-Africanism is not without its opponents, of course. The Germans and English occupy everything south of the Sahara, the Italians control much of what's left, and the rest is snapped up by Iberians and French alike, leaving only slivers free. Still, the PALF fights on, waiting for its opportunity- an opportunity which will surely come, for nothing can hold the African people down forever.\n\nDivision Attack: §G+15%§!\nDivision Recovery Rate: §G+5%§!"
+PALF_Satellite: "Liberated Satellite"
+PALF_Satellite_desc: "This nation is a Liberated Satellite, and has been freed by the Pan African Liberation Front from the forces of colonialism and reaction. Its newly formed administration has chosen to cooperate with and be supervised by the Front in order to dismantle the remnants and legacies of imperialism. This nation and its leadership now follow the principles of Pan-Africanism, and work towards creating a united Africa, even if they are still nominally independent from their allies at this time. United by a common ideology, these Liberated Satellites shall work alongside the Front in order to create a new future for Africa.\n\nDivision Defense: §G+10%§!\nDivision Recovery Rate: §R-5%§!"
+
+WAA_Faction: "Signatory of the West African Alliance"
+WAA_Faction_desc: "Established in light of Pan-African movements raising red flags across West Africa, both metaphorically and literally, Wolofia -among other nations- took it upon themselves to found a national defense pact, one which would ensure mutual safety from powers looking to destabilize neutral nations in the region. Of course, this alliance is one that exists out of necessity, as opposed to being a collection of nations within one sphere or another. In such circumstances as this, the WAA has no choice but to band together, lest it faces total collapse.\n\nDivision Defense on Core Territory: §G+15%§!\nReinforce Rate: §G+10%§!"
+WAA_Protectorate: "West African Protectorate"
+WAA_Protectorate_desc: "This nation is a West African Protectorate, and is under the supervision of one of the larger member nations within the West African Alliance. This protectorate status may have arisen out of willing collaboration, or through force of arms. No matter how this nation has ended up a protectorate of the Alliance, they depend on their allies both for military protection and internal stability. Without their allies within the Alliance to back them, the administration of this nation would be unlikely to survive for long. It is fortunate for them, then, that the West African Alliance is so willing to invest in their member nations.\n\nEntrenchment Speed: §G+10%§!"
+
+FMA_Faction: "Signatory of the French Military Alliance"
+FMA_Faction_desc: "The last two decades have knocked the French giant flat on her back, but roots run deep in her former colonies. The French Military Alliance is, predictably, an alliance dominated by the Free French. Made up of nations in the French sphere of influence, whether out of goodwill or necessity, the FMA has drawn its line in the jungles of West Africa- here is where the radical Pan-Africans will be stopped, and here is where French influence will be restored.\n\nThe long term goal of the alliance is far more ambitious than power plays in the bombed-out ruins of West Africa- rather, the stated purpose of the FMA is the eventual reclamation of the homeland, 4,000 kilometers away. Though whether it'll ever achieve such a lofty goal is questionable, the current focus is clearly on affairs closer to home. Free France will reassert itself on the African stage, or it will die- and after all that's been sacrificed, the second is not an option.\n\nDivision Organization: §G+15%§!\nReinforce Rate: §G+10%§!"
+FMA_Puppet: "French Military Puppet"
+FMA_Puppet_desc: "A familiar flag waves over cities across West Africa- that of the French Tricolor, pulled from dusty boxes where they were stored twenty years ago to proudly fly again. However, not all of these flags fly over French cities outright. Instead, these flags signify the coming of a new kind of state to the region- that of the puppet government.\n\nComparable to the colonies of before, these states are tied to France in every way but name. Though their governments are led by native Africans, it's impossible to miss the French soldiers keeping order in the streets, nor is it possible to not notice how closely every decision lines up with the Free French's preferred line. Quickly, these citizens have picked up on the new, inescapable truth- they are nothing more than a stepping stone in de Gaulle's dream of reclaiming Metropolitan France.\n\nDivision Organization: §G+5%§!\nDivision Defense: §R-5%§!"
+
+# Post War
+PALF_Faction_peace: "Member of the Pan-African Liberation Front"
+PALF_Faction_peace_desc: "Born in the fires of German terror bombings and the revolutionary halls of Yaoundé, the Pan-African Liberation Front has dedicated itself to the liberation of Africa from the colonialist devils that wrack it. Based primarily in Cameroon, the organization crosses borders and cultures, striving for one goal- freedom and unity for all Africans.\n\nPan-Africanism is not without its opponents, of course. The Germans and English occupy everything south of the Sahara, the Italians control much of what's left, and the rest is snapped up by Iberians and French alike, leaving only slivers free. Still, the PALF fights on, waiting for its opportunity- an opportunity which will surely come, for nothing can hold the African people down forever.\n\nGDP Growth Boost: §Y5%§!"
+PALF_Satellite_peace: "Liberated Satellite"
+PALF_Satellite_peace_desc: "This nation is a Liberated Satellite, and has been freed by the Pan African Liberation Front from the forces of colonialism and reaction. Its newly formed administration has chosen to cooperate with and be supervised by the Front in order to dismantle the remnants and legacies of imperialism. This nation and its leadership now follow the principles of Pan-Africanism, and work towards creating a united Africa, even if they are still nominally independent from their allies at this time. United by a common ideology, these Liberated Satellites shall work alongside the Front in order to create a new future for Africa.\n\nGDP Growth Boost: §Y2%§!\nGDP to Overlord Modifier: §Y2.5%§!"
+
+WAF_Faction: "Member of the West African Federation"
+WAF_Faction_desc: "As the last ounce of blood has been shed on behalf of independence by the West African Alliance, the WAA has found itself without further threats against its existence, and it seemed its dissolution was inevitable. However, with the benefits of the alliance revealed with the end of the West African Conflict, it has become clear that further cooperation is only beneficial. With little incentive to break the alliance apart, relations between the nations have only improved, and drastically at that.\n\nGDP Growth Boost: §Y5%§!"
+WAF_Supervised: "West African Supervised State"
+WAF_Supervised_desc: "This nation is a West African Supervised State, and is under the common supervision from the member states of the West African Federation. This supervision is required to guarantee stability within the nation's territory, and to prop up its administration as it recovers. Born from the ashes of recent conflict and war, these supervised states are still unstable and in need of outside assistance in order to stay afloat. While these nations are not nominally members of the West African Federation, they are completely tied to it, and are expected to be fully pushed into the Federation in the future.\n\nGDP Growth Boost: §Y2.5%§!"
+
+FRU_Faction: "French Community Member"
+FRU_Faction_desc: "Liberty. Fraternity. Equality.\n\nThese are the core of the enshrined values that compose the new French Community, one of the newest international entities on the world stage. The question remains if the French Community truly embodies these values - or if it is merely a rebranding of the former French Empire.\n\nOfficially, the ultimate intent of the Community is to economy and militarily link its member states for mutual prosperity. In practice, this primarily serves to secure and elevate French interests - which will one day include the return to the homeland, and reclamation of the Metropolis.\n\nGDP Growth Boost: §Y5%§!"
+FRU_Associated: "French Associated State"
+FRU_Associated_desc: "The Associated States of the French Community are nations who officially receive protection  and economic support from the Community. But nothing comes for free.\n\nIt is more than protection they receive, but direct supervision by the French. There are still limits, as the control exercised by the French varies, with many retaining a notable degree of autonomy.\n\nNonetheless, French influence is pervasive - and they exercise deep control over the nation's economy. The end expectation is simple - the French expect that it is not a matter of if these nations will join the French Community in full - but when.\n\nGDP Growth Boost: §Y1.5%§!\nGDP to Overlord Modifier: §Y4%§!"
+
+Mano_Member: "Signatory of the Mano River Pact"
+Mano_Member_desc: "The overwhelming victory of Pan-Africanism over its chosen enemies has not been welcomed in the slightest by certain peoples and nations of West Africa. Sierra Leone and Liberia remain as the sole roadblocks upon which the PALF might still trip and fall - so long as they can keep their guns pointed east, rather than at each other across the river for which their alliance is named."
+
+UAS_Member: "Member of the United Arab States"
+UAS_Member_desc: "The United Arab States is born in the ashes of the faltering Italian, as a host of nations proclaim their sovereignty and unite in the struggle to cast off the chains of colonialism, and take hold over their own destiny. These newly christened revolutionary states are committed to the unification of the Arab world in its entirety, from the Atlas Mountains to the dunes of the Arabian Peninsula, into a single whole assailing the forces of imperialism and protecting against what they may perceive as threats to the continued survival of their Pan-Arab experiment."
