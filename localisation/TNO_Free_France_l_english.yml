@@ -5,35 +5,40 @@
  FFR_communist_party_long:0 "노동자 저항운동"
  FFR_socialist_party:0 "FSU"
  FFR_socialist_party_long:0 "사회주의 연합전선"
- FFR_social_democrat_party:0 "FSU"
- FFR_social_democrat_party_long:0 "사회주의 연합전선"
- FFR_social_liberal_party:0 "PNV"
- FFR_social_liberal_party_long:0 "신파당"
- FFR_market_liberal_party:0 "LFL"
- FFR_market_liberal_party_long:0 "자유 프랑스 자유당"
- FFR_social_conservative_party:0 "GFL"
- FFR_social_conservative_party_long:0 "자유 프랑스 드골주의당"
- FFR_authoritarian_democrat_party:0 "PPF"
- FFR_authoritarian_democrat_party_long:0 "군사정부"
+ FFR_social_democracy_party:0 "FSU"
+ FFR_social_democracy_party_long:0 "사회주의 연합전선"
+ FFR_liberal_democracy_party:0 "PNV"
+ FFR_liberal_democracy_party_long:0 "신파당"
+ FFR_conservative_democracy_party:0 "GFL"
+ FFR_conservative_democracy_party_long:0 "자유 프랑스 드골주의당"
+ FFR_authoritarian_democracy_party:0 "PPF"
+ FFR_authoritarian_democracy_party_long:0 "군사정부"
  FFR_despotism_party:0 "보나파르트주의자"
  FFR_despotism_party_long:0 "보나파르트주의자"
  FFR_fascism_party:0 "PRN"
  FFR_fascism_party_long:0 "국민부흥당"
  FFR_national_socialism_party:0 "PRN"
  FFR_national_socialism_party_long:0 "국민부흥당"
- FFR_ultranational_socialism_party:0 "GCdF"
- FFR_ultranational_socialism_party_long:0 "화염십자단"
+ FFR_ultranationalism_party:0 "GCdF"
+ FFR_ultranationalism_party_long:0 "화염십자단"
  
  FFR_despotism_party_challe:0 "샬 파벌"
 
  #Leader descriptions
- POLITICS_CHARLES_DE_GAULLE_DESC:0 ""자유 프랑스"가 자리한 이래, 샤를 드 골은 그 키를 잡고 서왔습니다. 20년 넘도록 드 골은 가장 거대한 역경에 맞서 지난하고도 절박한 싸움 속에서 마지막 남은 자유 프랑스인들을 이끌고 있습니다. 드 골은 한때 군에 개혁을 가져오고자 했던 프랑스 제 4공화정의 영민한 사단장이었습니다. 하지만 그의 시도들이 너무 늦어버리며 프랑스는 빠르게 국방군의 손아귀에 떨어졌습니다. 싸움을 계속하던 영민한 드 골은 모을 수 있는 지지를 끌어모아 아프리카로 향했습니다. 계속되는 싸움이었지만, 그곳에서조차 상황은 약간 밖에 나아지지 못 했습니다. 수년이 흐르면서 자유 프랑스군은, 한때 남은 프랑스 공화국의 식민소유지였던 아주 작은 구획에 이를 때까지 아프리카 전역에서 계속 쫓겨다녔습니다. 그 모든 사태를 거치면서, 여전히 자유 프랑스를 따르는 이들에게 드 골은 위인이자 악인이 되었습니다. "해방"을 향한 온전한 신념을 늙어가는 지도자의 순수한 열의와 떼어놓고 말하기는 어렵습니다. 그리고 안타깝게도, 신념은 그의 극단적인 고집과 짝을 이루고 있습니다. 자신의 장성들이 심지어 중앙아프리카의 독일인들을 비롯해 서아프리카의 여러 국가들에서 용병으로 활동하느라 분주한 것이 일상임에도, 드 골은 인기 없는 군사정부의 종결을 꺼리고 있습니다. 매일 병사들을 행진시키며 라디오 연설을 하고 부대를 시찰하는 드 골은 그것이 조국을 향한 여정의 시작이라 확신하는 듯합니다. 드 골은 선거를 약속하기도 했었습니다. 그 시한이 점차 다가오고 있음에도, 일부에선 드 골이 정녕 그 정도까지 인민에게 양보하겠느냐며 확신하지 못하고 있습니다. 장성들이 자신의 퇴임을 바란다는 걸 받아들이지도 않을 테지만, 장성들에겐 자기들의 바람을 실현할 능력이 있는 것 또한 사실입니다. 조국을 다시 보려면, 드 골도 자신의 상황을 깨닫고 타협해야만 할 것입니다."
+ POLITICS_CHARLES_DE_GAULLE_DESC:0 ""자유 프랑스"가 자리한 이래, 샤를 드 골은 그 키를 잡고 서왔습니다. 20년 넘도록 드 골은 가장 거대한 역경에 맞서 지난하고도 절박한 싸움 속에서 마지막 남은 자유 프랑스인들을 이끌고 있습니다. 드 골은 한때 군에 개혁을 가져오고자 했던 프랑스 제 4공화정의 영민한 사단장이었습니다. 하지만 그의 시도들이 너무 늦어버리며 프랑스는 빠르게 국방군의 손아귀에 떨어졌습니다.\n\n싸움을 계속하던 영민한 드 골은 모을 수 있는 지지를 끌어모아 아프리카로 향했습니다. 계속되는 싸움이었지만, 그곳에서조차 상황은 약간 밖에 나아지지 못 했습니다. 수년이 흐르면서 자유 프랑스군은, 한때 남은 프랑스 공화국의 식민소유지였던 아주 작은 구획에 이를 때까지 아프리카 전역에서 계속 쫓겨다녔습니다. 그 모든 사태를 거치면서, 여전히 자유 프랑스를 따르는 이들에게 드 골은 위인이자 악인이 되었습니다. "해방"을 향한 온전한 신념을 늙어가는 지도자의 순수한 열의와 떼어놓고 말하기는 어렵습니다. 그리고 안타깝게도, 신념은 그의 극단적인 고집과 짝을 이루고 있습니다. 자신의 장성들이 심지어 중앙아프리카의 독일인들을 비롯해 서아프리카의 여러 국가들에서 용병으로 활동하느라 분주한 것이 일상임에도, 드 골은 인기 없는 군사정부의 종결을 꺼리고 있습니다.\n\n매일 병사들을 행진시키며 라디오 연설을 하고 부대를 시찰하는 드 골은 그것이 조국을 향한 여정의 시작이라 확신하는 듯합니다. 드 골은 선거를 약속하기도 했었습니다. 그 시한이 점차 다가오고 있음에도, 일부에선 드 골이 정녕 그 정도까지 인민에게 양보하겠느냐며 확신하지 못하고 있습니다. 장성들이 자신의 퇴임을 바란다는 걸 받아들이지도 않을 테지만, 장성들에겐 자기들의 바람을 실현할 능력이 있는 것 또한 사실입니다. 조국을 다시 보려면, 드 골도 자신의 상황을 깨닫고 타협해야만 할 것입니다."
  POLITICS_CHARLES_DE_GAULLE_DESC1:0 "자유 프랑스를 뺀 다른 모든 곳에선 드 골을 실패자라 여깁니다. 드 골은 가장 어두운 시점에서 조국을 일으키는 데 실패했습니다. 드 골은 전쟁주력을 지원하는 데 실패했습니다. 드 골은 프랑스를 실망시켰습니다. 하지만 그건 자유 프랑스 바깥에서의 이야기에 불과합니다. 이제는 희미해져가는 이라 할지라도, 자유 프랑스에서 그는 영웅입니다. 누구도 드 골의 감화력과 낙관주의를 부정할 수 없으며, 드 골은 스스로를 위해 빚어낸 조그마한 제국에서 자신의 그러한 특성을 최대한으로 이용하고 있습니다. 지나온 그 모든 역경들에도, 드 골의 프랑스에서 프랑스인들은 여전히 거리를 행진하며, 라 마르세예즈를 제창하고 "자유, 평등, 박애"를 찬탄합니다.\n\n세상 누구라도 샤를 드 골에게 확신할 수 있는 건 그가 절대 프랑스를 포기하지 않으리란 것입니다. 마지막 숨을 내뱉는 그 순간까지, 드 골은 포기하지 않을 겁니다."
+ POLITICS_PHILIPPE_LECLERC_1: ""
+ POLITICS_PHILIPPE_LECLERC_2: ""
+ POLITICS_PHILIPPE_LECLERC_3: ""
 
  #ideas
 
  FFR_military_administration:0 "군사행정부"
  FFR_military_administration_desc:0 "현재의 상황은 샤를 드 골이 우리 영토 대부분에서 군사통제를 가하도록 강제했습니다. 장성들은 현지 부족장 및 지도자들과 자유로이 친분을 쌓으며 자신의 사군에 대한 접근권을 주었습니다. 효율적인 방법이라곤 해도, 이에 따라 우리는 우리 장성들의 손에 막대한 권력을 남겨둔 채, 나머지 지역에서 무슨 일이 벌어지는지도 알 수 없게 되었습니다."
+ FFR_military_administration_2: "군사행정부"
+ FFR_military_administration_2_desc: "War has come to Free France.\n\nOur borders have come under siege, our soldiers march, and our state begins to mobilize against our enemies. The generals and officers of the military administration have prioritized the management and mitigation of the internal matters of the state, matters which will ensure the territory in our possession is effectively maintained and controlled."
+ FFR_military_administration_3: "군사행정부"
+ FFR_military_administration_3_desc: "The French march onward.\n\nThe military administration, through their efforts to manage our internal matters, have ensured our nation functions as an effective, lethal, and well-oiled machine. One which in their hands, will be guided towards our greater goal.\n\nOur victory is within sight."
  #7 Copies of the military administration idea due to coding reasons, - Oh may the mercifull lord save us
  FFR_military_administrationTRAINING_AND_NOTHING_ELSE:0 "군사행정부"
  FFR_military_administrationTRAINING_AND_NOTHING_ELSE_desc:0 "현재의 상황은 샤를 드 골이 우리 영토 대부분에서 군사통제를 가하도록 강제했습니다. 장성들은 현지 부족장 및 지도자들과 자유로이 친분을 쌓으며 자신의 사군에 대한 접근권을 주었습니다. 효율적인 방법이라곤 해도, 이에 따라 우리는 우리 장성들의 손에 막대한 권력을 남겨둔 채, 나머지 지역에서 무슨 일이 벌어지는지도 알 수 없게 되었습니다."
@@ -70,7 +75,7 @@
  FFR_case_belgian_citizenship_desc:0 "레조 코메트는 자유 프랑스로 프랑스 저항군 뿐만 아니라 벨기에 저항군까지 끌어들였습니다. 프랑스의 투쟁에 벨기에의 저항운동이 큰 도움이 되었기에 전후 드 골은, 프랑스의 해방 이후 벨기에의 해방을 약속하며, 벨기에인들에게 그때까지 자유 프랑스에 머무르는 것이 어떻겠느냐 제안했었습니다. 15년의 망명 이래 벨기에의 정치적 지위는 여전히 미약하기만 하니, 벨기에인들은 자유 프랑스 정부가 해결책을 찾아야 한다 주장하고 있습니다."
 
  FFR_ami_plan:0 "아밀라흐바리의 계획"
- FFR_ami_plan_desc:0 "WIP LOL"
+ FFR_ami_plan_desc:0 "WIP LOL" # (They never finished it, 28/09/2021)
  
  FFR_ivory_coast_rush:0 "코트 디부아르 러시"
  FFR_ivory_coast_rush_desc:0 ""
@@ -92,7 +97,10 @@
  FFR_mil_overseen_deployment2_desc:0 ""
  FFR_mil_overseen_deployment3:0 "군의 개발감독"
  FFR_mil_overseen_deployment3_desc:0 ""
-
+ 
+ # WAC ideas
+  FFR_tomb_republic: "Tomb of the French Republic"
+  FFR_tomb_republic_desc: "After their failed war in Western Africa, the last remnants of Free France have been reduced to occupying the lonely island of Kerguelen.\n\nKerguelen is a small landmass devoid of both strategic value and military resources. There is no hope of reclaiming the mainland for the exiles now, and like Napoleon and Saint Helena, the last scraps of Free France can now only wait for death to take them."
 
  FFR_Dimitri_Amilakhvari_mil:0 "디미트리 아밀라흐바리"
  FFR_Edouard_Balladur_eco:0 "에두아르 발라뒤르"
