@@ -1,0 +1,885 @@
+﻿l_english:
+
+  USA_foreign_policy_category:0 "Global Conflicts"
+  JAP_foreign_policy_category:0 "Global Conflicts"
+  GER_foreign_policy_category:0 "Global Conflicts"
+  BRA_foreign_policy_category:0 "Global Conflicts"
+
+  fopo_name_tab:0 "§Y[Get_fopo_tab_name]§!"
+  fopo_name_tab_1:0 "South African War"
+  fopo_name_tab_2:0 "Indonesian Civil War"
+  fopo_name_tab_3:0 "Jamaican Independence Referendum"
+  fopo_name_tab_4:0 "Jamaican Crisis"
+  fopo_name_tab_5:0 "Iranian Civil War"
+  fopo_name_tab_6:0 "Malayan Civil War"
+  fopo_name_tab_7:0 "Congolese Civil War"
+  fopo_name_tab_8:0 "West African Conflict"
+  fopo_name_tab_9:0 "Angolan Civil War"
+  fopo_name_tab_10_just_yemen:0 "Yemeni Civil War"
+  fopo_name_tab_10_arabian_peninsula:0 "The Arabian Peninsula in Chaos"
+  fopo_name_tab_10:0 "The Middle East in Flames"
+  fopo_name_tab_11:0 "The Iberian Wars"
+  fopo_name_tab_13:0 "Trinidad Black Power Revolution"
+  fopo_name_tab_14:0 "Reunification of Turkestan: Preparation"
+  fopo_name_tab_15:0 "Mozambique Civil War"
+  fopo_name_tab_16:0 "The Balintawak Blitz"
+  fopo_name_tab_17_JAP:0 "Southern Sphere Stabilization Operations"
+  fopo_name_tab_18:0 "The War for the Philippines"
+  fopo_name_tab_19:0 "The Mengjiang Conflict"
+  fopo_name_tab_20:0 "The African Mandates"
+  fopo_name_tab_21:0 "Malagasy Civil War"
+  fopo_name_tab_22:0 "Reconstruction of the Philippines"
+  fopo_name_tab_24_orungu:0 "Orungu Conflict"
+  fopo_name_tab_24_CAF:0 "Central African War"
+
+  fopo_desc_text:0 "[Get_fopo_desc]"
+  fopo_header_type:0 "[Get_fopo_header]"
+
+  fopo_ongoing_title:0 "§BONGOING CONFLICTS§!"
+
+  fopo_frontlines_tt:0 "Deal with the situation on §YThe Frontlines§!"
+  fopo_homefront_tt:0 "Deal with the situation on §YThe Homefront§!"
+
+### Effect Tooltips
+  TNO_add_num_volunteers_tt:0 "We will be able to send [?to_add|Y0] more volunteer units to §Y[?target.GetNameWithFlag]§!."
+
+  WAC_involvement_tt: "§YWe are now involved in West Africa.§!"
+  WAC_escalation_tt: "§RThe West African War will escalate.§!"
+  WAC_escalation_large_tt: "§RThe West African War will significantly escalate.§!"
+  WAC_escalation_immense_tt: "§eThe West African War will immensely escalate.§!"
+  WAC_deescalation_tt: "§GThe West African War will de-escalate.§!"
+  WAC_deescalation_large_tt: "§GThe West African War will significantly de-escalate.§!"
+  WAC_intervention_tt: "§YIt is now possible to directly intervene in West Africa.§!"
+
+### GER
+################## SAW
+ GER_bor_saw_desc:0 "§YINVOLVEMENT:§! [GetBORSAWInvolvement] ([?GER_Bormann_SAW_involvement|Y1]§Y%§!)  §MPROTEST:§! [GetBORSAWProtest] ([?GER_Bormann_SAW_civilian_protest|Y1]§Y%§!)\n\nOur strategy is currently [getBORSAWStrategy].\n\nThe §RSouth African War§! was not instigated or even intended by the §YFührer§!, but we can nonetheless profit from it. Whether we push the §RUnited States§! out of Africa or §Gwithdraw§! will have repercussions.\n\nIn spite of all this, the §Mcivilian population§! is protesting our involvement in this war already. We must carefully balance their demands and our plans, or §Rbe forced to withdraw§!."
+
+################## Congo
+ GER_congo_civil_war_desc:0 "Africa was lost to us, yet it seems our troubles in the continent are not over. With the Congo falling to chaos, the Cabal Holdout has requested our support - and if we answer, perhaps there lies an opportunity to at least recover a portion of what we lost."
+ JAP_congo_civil_war_desc:0 "The Congo has fallen to chaos, and with the Americans and Germans trying to control the remains, it falls upon us to deny these imperialists the benefits of the Congo. Our victory in the Congo will solidify our influence, and continue to deny Africa to our enemies.""
+ USA_congo_civil_war_desc:0 "The Congo has fallen to chaos, and with the Japanese and Germans trying to control the remains, it falls upon us to deny these tyrants the benefits of the Congo. Our victory in the Congo will solidify our influence, and continue to deny Africa to our enemies.""
+ OFN_congo_civil_war_desc:0 "Once the centrepiece of the American nation-building model, the Congo now faces turmoil of near-anarchic proportions as the American administration collapses under its own weight. From the towers of Leopoldville to the jungles of Katanga, the Congo is thrown into disarray as native insurgents rise to cast off the remaining vestiges of American rule, while elements of the insidious native SS still looming throughout the hinterlands of the Congo remain as a cancerous tumour attached to all. Predictions of coming decolonisation and prosperity have been proven rather short-sighted and naive; one can only truly wonder if the Congo will ever see peace?"
+ 
+ GER_meeting_with_generals_CCW:0 "Meet With [GRO.GetFlag] German Generals"
+ GER_bombing_runs_CCW_1:0 "Ship German Military Advisors"
+ GER_supply_freedom_fighters_CCW_1:0 "Authorize Bombing Sorties"
+ GER_send_military_advisors_CCW_1:0 "Supply [GRO.GetFlag] German Forces"
+ GER_technician_aid_CCW_1:0 "Send German Combat Engineers"
+ GER_sabotage_effort_CCW_1:0 "Sabotage Enemy Logistics"
+
+ USA_meeting_with_generals_CCW:0 "Meet With [CFS.GetFlag] Congolese Generals"
+ USA_bombing_runs_CCW:0 "Authorize Bombing Sorties"
+ USA_supply_freedom_fighters_CCW:0 "Supply [CFS.GetFlag] Congolese Freedom Fighters"
+ USA_send_military_advisors_CCW:0 "Send American Military Advisors"
+ USA_technician_aid_CCW:0 "Send American Technical Aid"
+ USA_sabotage_effort_CCW:0 "Sabotage Enemy Logistics"
+
+ USA_meeting_with_generals_CCW_2:0 "Meet With [COG.GetFlag] Congolese Generals"
+ USA_bombing_runs_CCW_2:0 "Authorize Bombing Sorties"
+ USA_supply_freedom_fighters_CCW_2:0 "Supply [COG.GetFlag] Congolese Freedom Fighters"
+ USA_send_military_advisors_CCW_2:0 "Send American Military Advisors"
+ USA_technician_aid_CCW_2:0 "Send American Technical Aid"
+ USA_sabotage_effort_CCW_2:0 "Sabotage Enemy Logistics"
+
+ JAP_meeting_with_generals_CCW:0 "Meet With [AZD.GetFlag] Azande Generals"
+ JAP_bombing_runs_CCW:0 "Authorize Bombing Sorties"
+ JAP_supply_freedom_fighters_CCW:0 "Supply [AZD.GetFlag] Azande Freedom Fighters"
+ JAP_send_military_advisors_CCW:0 "Send Japanese Military Advisors"
+ JAP_technician_aid_CCW:0 "Send Japanese Technical Aid"
+ JAP_sabotage_effort_CCW:0 "Sabotage Enemy Logistics"
+### BRA
+################## SAW
+
+ BRA_SAW_begin_blockade:0 "§YOperation Curtain Call§!"
+ BRA_SAW_begin_blockade_desc:0 "Admiral Toscano will be charged with organizing a partial naval blockade of the Afrika-Schild's Atlantic ports, blocking resupply from Germania or its allies."
+ BRA_saw_blockade:0 "Brazillian Naval Blockade"
+ BRA_saw_blockade_desc:0 "With Brazils intervention in the South African war, Brazillian ships have begun to restrict trade and resources reaching our nations. This has begun to severely impact our industrial production and will strangle us in the long run unless we win soon."
+
+ BRA_SAW_reassign_hardliners:0 "Assign £BRA_hardliners_texticon §gHardliners§! to the Frontlines"
+ BRA_SAW_reassign_hardliners_desc:0 "The so-called Hardliners' overambition is their weakness. Assigning some of their rank to the African frontlines will ensure they will be out of our hair for a time."
+ BRA_SAW_reassign_sorbonne:0 "Assign £BRA_sorbonne_texticon §QSorbonne§! to the Frontlines"
+ BRA_SAW_reassign_sorbonne_desc:0 "The Sorbonne are plagued by their sense of duty. Many are more than willing to serve on the frontlines of the South African War, where they will have little say in how the nation is run."
+ BRA_SAW_reassign_const:0 "Assign £BRA_constitutionalists_texticon §KConstitutionalists§! to the Frontlines"
+ BRA_SAW_reassign_const_desc:0 "The Constitutionalists left in Brazil's armed forces are those who have kept their mouths shut. They will hardly object to being reassigned to the South African front, happy to escape scrutiny."
+
+ BRA_SAW_weapons_category:0 "The South African War"
+ BRA_SAW_show_hide_buy_weapons_decisions:0 "Show/Hide Decisions For Buying Weapons"
+ BRA_SAW_show_hide_sell_weapons_decisions:0 "Show/Hide Decisions For Selling Weapons"
+ BRA_SAW_buy_guns:0 "Purchase Infantry Equipment"
+ BRA_SAW_buy_support_equipments:0 "Purchase Support Equipment"
+ BRA_SAW_buy_artilleries:0 "Purchase Artillery"
+ BRA_SAW_buy_motorized_equipments:0 "Purchase Motorized Equipments"
+ BRA_SAW_buy_tanks:0 "Purchase Tanks"
+ BRA_SAW_buy_helicopters:0 "Purchase Helicopters"
+ BRA_SAW_buy_fuel:0 "Purchase Fuel"
+ BRA_SAW_buy_APC:0 "Purchase Armoured Personnel Carriers"
+ BRA_SAW_sell_guns:0 "Sell Infantry Equipment"
+ BRA_SAW_sell_support_equipments:0 "Sell Support Equipment"
+ BRA_SAW_sell_artilleries:0 "Sell Artillery"
+ BRA_SAW_sell_motorized_equipments:0 "Sell Motorized Equipments"
+ BRA_SAW_sell_tanks:0 "Sell Tanks"
+ BRA_SAW_sell_helicopters:0 "Sell Helicopters"
+ BRA_SAW_sell_fuel:0 "Sell Fuel"
+ BRA_SAW_sell_APC:0 "Sell Armoured Personnel Carriers"
+
+ BRA_SAW_reassign_tt:0 "\n§YEffects when the South African War concludes:§!"
+ BRA_SAW_weapons_category_desc:0 "It was just a few decades ago that Brazilians fought valiantly against the Nazi threat across the Atlantic, fighting to defend Britain when the Germans launched Operation Sealion. Now, the jackboot threatens once again to stamp out democracy in South Africa.\n\nOur involvement in the South African War is necessarily limited, but Brazil is uniquely positioned to help control the Atlantic and act as a backdoor for American weapons. From the Lobster War we have gained invaluable experience striking against the Nazi threat, and intelligence on their colonial forces, and we have not forgotten about the damned fascists attacking our convoys, forcing us into the war.\n\nIt's true that the war in South Africa is largely a ground war, and our recent past anti-fascist experience has been in naval affairs. And there are some at home who would prefer we have nothing to do with the Americans. But we cannot risk the Lobster War happening again, we must protect our nation from fascist influence, and we must do everything to stop another country falling to the cruel Nazi imperialists!\n\nBrazil must succeed!"
+
+ BRA_SAW_brazilian_tech_assistance:0 "Provide Brazilian Technical Assistance"
+ BRA_SAW_brazilian_tech_assistance_desc:0 "Due to the chaos of the war and frequent bombing raids by the Schild's air force, the South African industrial and technical spheres are in chaos. Brazil will provide technicians and engineers to South Africa to help increase production of infantry equipment and ensure there are enough guns for the South African troops to use."
+ BRA_brazillian_tech_assistance:0 "Brazillian Tech Assistance"
+ BRA_brazillian_tech_assistance_desc:0 "Brazil is aiding our industry and research in researching and producing infantry equipment for the war effort."
+ BRA_SAW_operation_search_destroy:0 "OPERATION SEARCH AND DESTROY"
+ BRA_SAW_operation_search_destroy_desc:0 "The nature of the South African War is a logistical nightmare with partisans under every bush. Boer troops with knowledge of the terrain are able to ambush our troops and then disappear without a trace. Meanwhile Schild werewolf troops have managed to penetrate through our lines and wreck havock. This must be brought to a end. We will launch Search and Destroy Operations to crush these partisans and commandos."
+ BRA_brazillian_search_and_destroy_operations:0 "Brazillian Search and Destroy Operations"
+ BRA_brazillian_search_and_destroy_operations_desc:0 "Brazil has begun engaging in search and destroy operations. Hunting down resistance cells and German commando units and destroying them. This will reduce the amount of resistance we face in this war from captured territory."
+ BRA_SAW_operation_withdraw:0 "OPERATION BAILOUT"
+ BRA_SAW_operation_withdraw_desc:0 "Despite the Brazilian military's best efforts, the war situation has developed not necessarily to Brazil's advantage. The Schild's advance into South Africa has not stopped and the South African Republic is on the verge of collapse. To stay any longer in the war may risk us being unable to bring our soldiers home and would be a catastrophic disaster. We can not allow this to occur and will immediately send the orders to withdraw our troops. We will send our best wishes to South Africa and the remaining Yankees, but they must fight the rest of the war on their own."
+ decision_cost_10_cp:0 "£command_power §Y10§!"
+ decision_cost_10_cp_blocked:0 "£command_power §R10§!"
+
+### JAP
+################## ICW
+ JAP_indo_war_desc:0 "Indonesia - one of the most valued member states of the Sphere due to its excellent strategic position and abundance of natural resources, has fallen into anarchy. While our position so far has been thoroughly identified with the Sukarno administration, Daihon'ei has strongly recommended the Prime Minister to take a more direct and aggressive approach to the Indonesia War. Hence, it would be wise for us to consider means of intervention militarily, using our assets in the region, and if need be, the deployment of domestic assets. Though, it should be noted that intervention would place a further strain on our resources, and should we fail to deliver on our promises, this would lead to negative political consequences down the line."
+ USA_SHO_aid_category_desc:0 "Test"
+
+ JAP_indo_war:0 "The Indonesian War"
+ 
+ JAP_INS_special_forces:0 "Expanded Special Forces"
+ JAP_INS_special_forces_desc:0 "To combat the Free Indonesian Army, we have deployed more Special Forces to the region."
+ 
+ JAP_send_equip_indonesia:0 "Send Infantry Equipment"
+ JAP_send_planes_indonesia:0 "Send Aircraft"
+ JAP_send_volunteer_indonesia_small:0 "Send More §GMilitary Advisors§!"
+ JAP_lower_conscription:0 "Increase Conscription"
+ JAP_send_officers:0 "Send Officers"
+ JAP_more_sf_ins:0 "Expand Special Forces"
+ JAP_INS_war_offensive:0 "Offensive in Indonesia"
+ JAP_anti_FRI_offensive:0 "Launch an Offensive"
+
+################## Malaya
+ JAP_SHO_aid_category_desc:0 "Shonan has been one of our most problematic colonies for a considerable amount of time. Ever since we plied it off the British hands, while most have rightfully seen us as liberators, saving Malaya from exploitation at British hands, others have taken up arms against our government, the colony has been stuck in a perpetual cycle between the military government, and the rebels. While our most recent operation has reclaimed Shonan and all ports from their illegitimate government, we have information that they have stretched their hands for the Americans of all people.\n\nIt's clear that the situation in South East Asia is escaping our control, and harsher measures must immediately be taken, starting with squashing Chin Peng and the UMAJF once and for all, before we turn towards the Philippines, and their own little rebel problem too.\n\nHawaii might have been an overstretch, but the Pacific belongs to us, and we will not let this afront to our hold in the Pacific stand."
+ 
+ JAP_meeting_with_generals_SHO:0 "Meet With the Generals of the [SHO.GetFlag]25th Army"
+ JAP_increase_commitments_SHO:0 "Increase Commitments to [SHO.GetFlag]Shonan"
+ JAP_bombing_runs_SHO:0 "Authorize Bombing Sorties Against the [MLY.GetFlag][MLY.GetName]"
+ JAP_supply_imperialistic_fighters_SHO:0 "Supply Anti-Imperialist Forces"
+ JAP_send_military_advisors_SHO:0 "Ship Japanese Military Advisors"
+ JAP_technician_aid_SHO:0 "Send Japanese Combat Engineers"
+ JAP_sabotage_effort_SHO:0 "Sabotage the [MLY.GetFlag] Rebels' War Machine"
+
+################## Congo
+ JAP_congo_civil_war_desc:0 "The Congo has fallen to chaos, and with the Americans and Germans trying to control the remains, it falls upon us to deny these imperialists the benefits of the Congo. Our victory in the Congo will solidify our influence, and continue to deny Africa to our enemies."
+
+################## WAC
+  JAP_wac_desc:0 "Cameroon is not an ideal ally. They are distrustful, display questionable ideologies, are internally unstable, and their ambitions of Pan-Africanism are dangerous. Yet even if they dislike us, they hate the western colonists more. If we want to deny a powerful OFN pawn, then Cameroon must be supported."
+ 
+  # Shipments
+  WAC_convoys_being_harassed_tt: "§YOur convoys are not being harassed.§!"
+  JAP_WAC_toggle_infantry_equipment_shipments: "Toggle Infantry Equipment Shipments"
+  JAP_WAC_toggle_ground_vehicle_shipments: "Toggle Ground Vehicles Shipments"
+  JAP_WAC_toggle_heavy_weapons_shipments: "Toggle Heavy Weaponry Shipments"
+
+  JAP_WAC_shipment_trigger: "We are not currently sending another shipment."
+  JAP_WAC_infantry_equipment_target: "Send Infantry Equipment to [FROM.GetFlag][FROM.GetName]"
+  JAP_WAC_infantry_equipment_target_large: "Send Infantry Equipment to [FROM.GetFlag][FROM.GetName]"
+  JAP_WAC_ground_vehicle_target: "Send Ground Vehicles to [FROM.GetFlag][FROM.GetName]"
+  JAP_WAC_ground_vehicle_target_large: "Send Ground Vehicles to [FROM.GetFlag][FROM.GetName]"
+  JAP_WAC_heavy_weapons_target: "Send Heavy Weaponry to [FROM.GetFlag][FROM.GetName]"
+  JAP_WAC_heavy_weapons_target_large: "Send Heavy Weaponry to [FROM.GetFlag][FROM.GetName]"
+
+  # Gulf of Guinea
+  WAC_JAP_defended_gulf_of_guinea_tt: "§YWe have successfully defended the Gulf of Guinea.§!"
+  WAC_gulf_of_guinea_blockaded_tt: "§YThe Gulf of Guinea is not being blockaded.§!"
+  JAP_WAC_defend_gulf_of_guinea: "Secure the Gulf of Guinea"
+  JAP_WAC_defend_gulf_of_guinea_available_tt: "§YThe Gulf of Guinea has not been successfully blockaded.§!"
+  JAP_WAC_defend_gulf_of_guinea_failure_tt: "§GAid to the PALF will be made significantly more difficult.§!"
+  JAP_WAC_defend_gulf_of_guinea_success_tt: "§ROur supply line to the PALF will stand.§!"
+  JAP_WAC_build_up_ports: "Build Up Ports"
+  JAP_WAC_build_up_ports_tt_1: "§GOur operational capacity in West Africa will be greatly expanded.§!"
+  JAP_WAC_build_up_ports_tt_2: "§GIt will become possible to expand equipment shipments to the PALF.§!"
+  JAP_WAC_station_task_force: "Station a Naval Task Force"
+  JAP_WAC_station_task_force_available_tt_1: "§YWe have built up Cameroonian ports.§!"
+  JAP_WAC_station_task_force_available_tt_2: "§YThe PALF controls the port of Èkó.§!"
+  JAP_WAC_station_task_force_tt: "§GWe will be able to conduct more naval operations.§!"
+  JAP_WAC_increase_naval_patrols: "Ramp Up Naval Patrols"
+  JAP_WAC_increase_naval_patrols_tt: "§GOur convoys will be better protected while the patrols last.§!"
+  JAP_WAC_retrofit_fishers: "Retrofit Cameroonian Ships"
+  JAP_WAC_retrofit_fishers_desc: "While Cameroon might not have an actual navy, and building one up would take years, they can still feasibly threaten lone OFN ships near land with torpedo boats. By taking some common fishing and civilian boats and arming them with torpedoes and machine guns, and giving them better engines and some protection, we'll go a long way towards threatening OFN operations in the Gulf of Guinea."
+  JAP_WAC_naval_helicopters: "Transfer Naval Helicopters to Cameroon"
+
+  # Decisions
+  JAP_Crank_Up_The_Draft_WA: "Expand Military Operations"
+  JAP_WAC_expand_shipments: "Expand Military Shipments"
+  JAP_WAC_expand_shipments_available_tt: "§YWe successfully defended the Gulf of Guinea.§!"
+  JAP_WAC_plan_offensive: "Plan Offensive"
+  JAP_ship_oil_WA: "Send Oil Shipments"
+  JAP_bombing_runs_WA: "Authorize Bombing Runs"
+  JAP_supply_air_force_WA: "Supply Air Vehicles"
+  JAP_send_military_advisors_WA: "Send Military Advisors"
+  JAP_promote_rebellion_WA: "Arm Insurgencies"
+
+################## Angola
+ JAP_angola_civil_war_desc:0 "Angola has fallen into civil war, and the OFN has already intervened. Left unchallenged, they will assimilate yet another nation into its imperial fold. We must not allow this. Should the MPLA succeed, not only will we defeat American imperialism, but gain a valuable ally - and a gateway into the continent."
+
+ JAP_meeting_with_generals:0 "Meet with [ANL.GetFlag] MPLA Generals"
+ JAP_bombing_runs:0 "Authorize Bombing Sorties"
+ JAP_send_military_advisors:0 "Send Japanese Military Advisors"
+ JAP_supply_imperialistic_fighters:0 "Supply [ANL.GetFlag] MPLA Anti-Imperialists"
+
+################## Mozambique
+ USA_GZCW_PW_desc_mondlane: "Politics makes strange bedfellows, and in the world of superpower conflict waged via proxy, some bedfellows can be stranger than others. A premise aptly demonstrated in Mozambique. Eduardo Mondlane is not your typical American proxy, an avowed socialist, nationalist, and harshly critical of the Cold War waged across the third world. Relations are tense at the best of times, and there is no delusion over where his true loyalties lie.\n\nYet, as Mozambique buckles under the weight of warring factions, Tokyo looks on with a keen eye. Mondlane represents America's best shot at keeping this part of Africa out of the Sphere's grasp. Even if it means placing it in the hands of neutrals.\n\nDevastation is : [?ZZZ.gazaland_devastation]\n\nMin is : [?ZZZ.gazaland_devastation_exponential_min]\n\nMax is : [?ZZZ.gazaland_devastation_exponential_max]\nEvery 3 weeks devestation will increase by a number between the min and the max. If it gets over a 100 then failstate happens."
+ USA_GZCW_PW_desc_simango: "Mozambique buckles under the bloody specter of Civil War. Competing interests and bloody rivalries spilling out from closed rooms onto city streets and rural plains and inevitably drawing the attention of the Superpowers eager to exploit national tragedy for international gain.\n\nUria Simango heads neither the strongest nor the most numerous faction in the conflict, but what is lacking in strength is more than made up for in pliability. Heavily reliant on American support, a victory for Simango not only means keeping Japan out of Africa but also ensuring Mozambique's place in the ranks of the Free World.\n\nDevastation is : [?ZZZ.gazaland_devastation]\n\nMin is : [?ZZZ.gazaland_devastation_exponential_min]\n\nMax is : [?ZZZ.gazaland_devastation_exponential_max]\nEvery 3 weeks devestation will increase by a number between the min and the max. If it gets over a 100 then failstate happens."
+ JAP_GZCW_PW_desc: "Mozambique has fallen into chaos with the victory of Samora Machel in the young nation's elections. Samora Machel is a socialist, and far from a true friend of Japan, but we have already come to an agreement with him to help him restore his broken nation in exchange for economic and political concessions. The Americans will no doubt back the opposition, who has risen up in armed conflict to try to oust Machel and install their own dictator in its place, so it falls to us to protect the Machel regime and our interests in not only Mozambique, but all of Africa as well by extension, blunting the tip of the Yankee sphere in Africa in the process.\n\nDevastation is : [?ZZZ.gazaland_devastation]\n\nMin is : [?ZZZ.gazaland_devastation_exponential_min]\n\nMax is : [?ZZZ.gazaland_devastation_exponential_max]\nEvery 3 weeks devestation will increase by a number between the min and the max. If it gets over a 100 then failstate happens."
+
+ USA_meeting_with_generals_gazaland:0 "Meet With [GAZ.GetFlag] Mozambique Generals"
+ USA_bombing_runs_gazaland:0 "Authorize Bombing Sorties"
+ USA_supply_freedom_fighters_gazaland:0 "Supply [GAZ.GetFlag] Mozambique Freedom Fighters"
+ USA_send_military_advisors_gazaland:0 "Send American Military Advisors"
+ USA_technician_aid_gazaland:0 "Send American Technical Aid"
+ USA_sabotage_effort_gazaland:0 "Sabotage Enemy Logistics"
+
+ JAP_meeting_with_generals_gazaland:0 "Meet With [GZO.GetFlag] Mozambique Generals"
+ JAP_bombing_runs_gazaland:0 "Authorize Bombing Sorties"
+ JAP_supply_imperialistic_fighters_gazaland:0 "Supply [GZO.GetFlag] Mozambique Anti-Imperialists"
+ JAP_send_military_advisors_gazaland:0 "Send Japanese Military Advisors"
+ JAP_technician_aid_gazaland:0 "Send Japanese Technical Aid"
+ JAP_sabotage_effort_gazaland:0 "Sabotage Enemy Logistics"
+
+################## Malaya
+ USA_MLY_aid_category_desc:0 "After our defeat in the Second World War, a crested wave has descended upon the Pacific Ocean, the wave of Japan's so called Co-Prosperity Sphere. Recently however, an opportunity has arisen from the war-torn region of Malaya. Having endured decades of occupation from the Japanese invaders, the Malayan people have seen the government alternate between collaborators and rebels from time and time again, and has fought a relentless guerilla campaign against the Japanese occupiers.\n\nThe 25th Army, which are stationed there by the Japanese, has launched a final desperate offensive in the hopes of destroying rebel presence in the region once and for all. This has led the rebels to contact us in search for aid to defeat the Japanese.\n\nDespite our clear ideological differences, the opportunity that Malaya provides is immeasurable. We are finally able to strike them where it hurts, and if the stars align, We will tear down the Crested Wave piece by piece, and we will watch as their glorious Sphere crumble before our eyes."
+
+ USA_meeting_with_generals_MLY:0 "Meet With [MLY.GetFlag][MLY.GetName] Generals"
+ USA_bombing_runs_MLY:0 "Authorize Bombing Sorties against [SHO.GetFlag]Shonan"
+ USA_supply_imperialistic_fighters_MLY:0 "Supply [MLY.GetFlag][MLY.GetName] Forces"
+ USA_send_military_advisors_MLY:0 "Ship American Military Advisors"
+ USA_technician_aid_MLY:0 "Send American Combat Engineers"
+ USA_instigate_local_revolts:0 "Instigate Local Revolts"
+ USA_hold_the_line:0 "Hold the Line"
+ USA_sabotage_effort_MLY:0 "Sabotage [SHO.GetFlag]Shonan's War Machine"
+
+################## Congo
+ USA_congo_civil_war_desc:0 "PLACEHOLDER, add something here"
+
+################## West African Crisis
+  USA_wac_desc_1: "The foothold of the free world in West Africa is under threat! Under the guise of 'anti-colonialism', the Pan-African Liberation Front - little more than Japanese stooges playing up racial politics - is marching upon our old allies in Free France, as well as any fellow Africans who have spurned their home-grown version of imperialism.\n\nIt is our duty - and in our best interests - to stand against totalitarians, fascist or not. The American people are having difficulty grasping our justification for intervention, but that stems from ignorance of reality. If we fail to oppose those self-proclaimed crusaders, their oriental masters will dig cruel, greedy blades into the heart, soil, and soul of free Africa."
+  USA_wac_desc_2: "The foothold of the free world in West Africa is under threat! The French and their allies - old friends of ours - are beset on all sides by enemies of freedom. To the west and north: opportunists and the misguided, striking at the French for all manner of petty reasons. To the east: Japan's hypocritical puppets, the Pan-African Liberation Front. To the south: the great Atlantic, from which the OFN will arrive to defend its brothers-in-arms.\n\nThere is considerable domestic resistance to involving the USA in such a chaotic war, especially with the added complexity of a third side which is clearly not backed by our global enemies. Still, involve ourselves we must, for the sake of free nations everywhere. Whether or not they are stooges of fascists, the enemies of freedom are the enemies of America."
+  
+  # Shipments
+  USA_WAC_toggle_infantry_equipment_shipments: "Toggle Infantry Equipment Shipments"
+  USA_WAC_toggle_ground_vehicle_shipments: "Toggle Ground Vehicles Shipments"
+  USA_WAC_toggle_heavy_weapons_shipments: "Toggle Heavy Weaponry Shipments"
+
+  WAC_infantry_equipment_shipments_tt_1: "§YWill hide infantry equipment shipments.§!"
+  WAC_infantry_equipment_shipments_tt_2: "§YWill show infantry equipment shipments.§!"
+  WAC_ground_vehicle_shipments_tt_1: "§YWill hide ground vehicles shipments.§!"
+  WAC_ground_vehicle_shipments_tt_2: "§YWill show ground vehicles shipments.§!"
+  WAC_ground_heavy_weapons_tt_1: "§YWill hide heavy weaponry shipments.§!"
+  WAC_ground_heavy_weapons_tt_2: "§YWill show heavy weaponry shipments.§!"
+
+  USA_WAC_shipment_trigger: "We are not currently sending another shipment."
+  USA_WAC_infantry_equipment_target: "Send Infantry Equipment to [FROM.GetFlag][FROM.GetName]"
+  USA_WAC_infantry_equipment_target_large: "Send Infantry Equipment to [FROM.GetFlag][FROM.GetName]"
+  USA_WAC_ground_vehicle_target: "Send Ground Vehicles to [FROM.GetFlag][FROM.GetName]"
+  USA_WAC_ground_vehicle_target_large: "Send Ground Vehicles to [FROM.GetFlag][FROM.GetName]"
+  USA_WAC_heavy_weapons_target: "Send Heavy Weaponry to [FROM.GetFlag][FROM.GetName]"
+  USA_WAC_heavy_weapons_target_large: "Send Heavy Weaponry to [FROM.GetFlag][FROM.GetName]"
+
+  # Gulf of Guinea Campaign
+  USA_WAC_secure_gulf_of_guinea: "Secure the Gulf of Guinea"
+  USA_WAC_secure_gulf_of_guinea_available_tt: "§YOur allies control the Gulf of Guinea.§!"
+  USA_WAC_secure_gulf_of_guinea_failure_tt: "§RThe PALF will retain its supply line.§!"
+  USA_WAC_secure_gulf_of_guinea_success_tt: "§GSphere aid to the PALF will be made significantly more difficult.§!"
+  USA_WAC_secure_gulf_of_guinea_desc: "Our immediate most important priority in the West African conflict is to deny supply to the PALF, which is currently mostly being delivered through a maritime route via the Gulf of Guinea and into Cameroonian ports.\n\nWhile we don't wish to directly intervene in the conflict yet and risk an escalation, we can trust that our Free French allies can, with their significant naval forces, block off this route if we provide enough support to them.\n\nThe §YGulf of Guinea Campaign§! is currently [GetWACGulfAdvantage]"
+  WAC_Gulf_Advantage_OFN: "going on the §mOFN's§! favor."
+  WAC_Gulf_Advantage_Sphere: "going on the §xSphere's§! favor."
+  WAC_Gulf_Advantage_none: "going on §Ynobody's§! favor."
+
+  WAC_OFN_increase_gulf_advantage_tt: "§YWill increase the§! §mOFN's§! §Yadvantage in the Gulf of Guinea Campaign.§!"
+  WAC_OFN_increase_gulf_advantage_large_tt: "§YWill largely increase the§! §mOFN's§! §Yadvantage in the Gulf of Guinea Campaign.§!"
+  WAC_OFN_decrease_gulf_advantage_tt: "§YWill decrease the§! §mOFN's§! §Yadvantage in the Gulf of Guinea Campaign.§!"
+  WAC_OFN_decrease_gulf_advantage_large_tt: "§YWill largely decrease the§! §mOFN's§! §Yadvantage in the Gulf of Guinea Campaign.§!"
+
+  WAC_Sphere_increase_gulf_advantage_tt: "§YWill increase the§! §xSphere's§! §Yadvantage in the Gulf of Guinea Campaign.§!"
+  WAC_Sphere_increase_gulf_advantage_large_tt: "§YWill largely increase the§! §xSphere's§! §Yadvantage in the Gulf of Guinea Campaign.§!"
+  WAC_Sphere_decrease_gulf_advantage_tt: "§YWill decrease the§! §xSphere's§! §Yadvantage in the Gulf of Guinea Campaign.§!"
+  WAC_Sphere_decrease_gulf_advantage_large_tt: "§YWill largely decrease the§! §xSphere's§! §Yadvantage in the Gulf of Guinea Campaign.§!"
+
+  USA_WAC_infiltrate_ports: "Infiltrate Ports"
+  USA_WAC_infiltrate_ports_desc: "Our current presence in Central Africa via the Mandates allows us to infiltrate some commando units into Cameroon through our shared land border, with the purpose of gathering intel on naval movements and strength."
+  USA_WAC_infiltrate_ports_tt: "§GWe will be able to sabotage the buildup of Cameroonian ports.§!"
+  USA_WAC_sabotage_construction: "Sabotage Port Construction"
+  USA_WAC_sabotage_construction_desc: "By using our infiltrated assets in the ports of the Cameroon we will sabotage and slow down the construction and buildup of new ports, this will buy us valuable time by preventing the Japanese from expanding their own operations in the area significantly."
+  USA_WAC_sabotage_construction_tt: "§GPort construction in Cameroon will be put behind schedule.§!"
+  USA_WAC_release_the_bearn: "Release the Béarn"
+  USA_WAC_release_the_bearn_desc: "The Béarn aircraft carrier, which was interned in the French Caribbean after the Invasion of France and has since then been left mothballed in the West Indies, could instead be serving as a formidable tool in West Africa. After doing some maintenance and retrofitting its equipment, we shall release the Béarn for use by Free French naval forces."
+  USA_WAC_provide_naval_intelligence: "Provide Naval Intelligence"
+  USA_WAC_harass_convoys: "Harass Convoys"
+  USA_WAC_harass_convoys_tt: "§GEnemy shipments will be made difficult while active.§!"
+  USA_WAC_train_naval_bombers: "Train Naval Bombers"
+
+  # Decisions
+  USA_WAC_stabilize_front: "Stabilize Fronts"
+  USA_WAC_stabilize_front_tt: "§YThe fronts in West Africa will stabilize.§!"
+  USA_WAC_plan_offensive: "Plan Offensive"
+  USA_WAC_expand_shipments: "Expand Military Shipments"
+  USA_WAC_expand_shipments_tt: "§GWe'll be able to send larger shipments to our allies.§!"
+  USA_swell_foreign_legion_WA: "Swell the French Foreign Legion"
+  USA_swell_foreign_legion_WA_desc: "While we might be limited on our capacity to send troops to West Africa due to various circumstances, we can still circle around this problem by recruiting for, arming, and generally supporting the French Foreign Legion. We'll offer social security, subsidies, and other measures in order to attract veterans and volunteers into this elite troop."
+  USA_swell_foreign_legion_WA_tt: "§GThe French Foreign Legion will expand!§!"
+  USA_bombing_runs_WA: "Frontline Bombing Campaign"
+  USA_send_military_advisors_WA: "Send Military Advisors"
+  USA_Crank_Up_The_Draft_WA: "Expand Military Operations"
+  USA_ship_oil_WA: "Send Oil Shipments"
+  USA_supply_air_force_WA: "Send the Flying Roosters"
+  USA_egypt_intelligence_WA: "§YOperation Silent Sitatunga§!"
+  USA_egypt_intelligence_WA_desc: "Since the start of the conflict in West Africa, the situation on the Egyptian-Cameroonian border has been carefully monitored. Vis-a-vis their Egyptian intelligence contacts, our Italian allies are more than willing to provide us insight on Cameroonian troop movements and radio activity."  
+  
+  # unused
+  USA_congo_confrontation_WA: "§ROperation Coiled Python§!"
+  USA_congo_confrontation_WA_desc: "The warlords and petty tyrants of the northern Congo are not exactly fond of our attempt to govern their territory, but they are no more fond of their Cameroonian neighbors who similarly threaten their rule. In exchange for weapons and the promise of a lighter touch, we may be able to get them to focus their attention northward."
+
+################## Angola
+ angola_civil_war_please_dont_end_instantly: "The Terrain of Angola"
+ USA_angola_civil_war_desc: "PLACEHOLDER, add something here"
+ mines_planted: "Landmines Planted"
+ bombing_campaign: "Bombing Campaign"
+
+ USA_angola_plant_mines: "Plant Mines in [?From.GetName]"
+ USA_angola_plant_mines_desc: "We will instruct local forces in [?From.GetName] to plant mines across the region to slow motorized advances."
+
+ USA_angola_bombing_campaigns: "Bombing Campaign in [?From.GetName]"
+ USA_angola_bombing_campaigns_desc: "We will authorize our bombers to begin sorties targeting [?ANL.GetName] forces in [?From.GetName]."
+
+ US_bombing_ANG_active: "Has active bombing campaign in Angola."
+ 
+ USA_guns_for_diamonds_ANG: "Guns for Diamonds"
+ USA_guns_for_diamonds_ANG_desc: "Angola's Northeast Lunda province has a wealth of diamonds. The current civil war means they would be more than willing to exchange these gems for arms, at a favorable rate.\n\n"These ain't conflict diamonds, is they, Jacob? Don't lie to me, man.""
+
+ USA_ANG_sit_down_with_savimbi: "Sit Down with Savimbi"
+ USA_ANG_sit_down_with_savimbi_desc: "Savimbi has drawn the approval of several notable American conservatives. We will arrange an informal meeting between these leaders and the Angolan, as a sign of goodwill."
+
+ ANG_savimbi_acknowledged: "American Engagement with Savimbi"
+
+ USA_ANG_CIA_intelligence_SAF: "Work with South African Intelligence"
+ USA_ANG_CIA_intelligence_SAF_desc: "The CIA, in coordination with South African intelligence, will provide details into [?ANL.GetName] troop movements, allowing our allied forces to better counter their strikes."
+
+ USA_ANG_CIA_intelligence: "Provide CIA Intelligence"
+ USA_ANG_CIA_intelligence_desc: "CIA assets in the region will provide details into [?ANL.GetName] troop movements, allowing our allied forces to better counter their strikes."
+
+ USA_ANG_economic_aid: "Provide Industrial Support"
+ USA_ANG_economic_aid_desc: "We will direct funds to prop up [?ANG.GetName] industry in support of the war effort."
+
+ USA_ANG_send_military_advisors: "Dispatch Military Advisors"
+ USA_ANG_send_military_advisors_desc: "American military advisors will train [?ANG.GetName] forces in modern tactics and weaponry."
+
+################### Madagascar
+USA_madagascar_conflict:0 "When Emil Maurice, longtime Reichskommissar of German Madagascar approached us with an offer to defect, it was a chance we could not pass up. Admiral Moorer of the Indian Ocean Command quickly spearheaded the initiative to extract Maurice from his own crumbling fiefdom while laying the groundwork for the OFN presence to come on the island.\n\nOf course there was bound to be resistance. A faction of the garrison led by Field Marshal Erhard Milch, a known confidant of Reich Marshal Hermann Göring, has been ignoring Maurice's orders for some time now from their positions in the west of the island. Further complicating things is the group of natives led by Gabriel Ramanantsoa who have taken the opportunity to rebel in the north. While we had hoped to avoid violent confrontation with them, peaceful coexistence has proven impossible as they have refused to deal with us given our admittance of several members of the former administration into our United Coalition Government. We must therefore struggle against the German hardliners and native rebels both if we wish to establish a free Malagasy."
+GER_madagascar_conflict:0 "All Hell has broken loose in Reichskommissariat Madagaskar with the traitor Emil Maurice fled and the natives in open revolt. Now only Milch and those loyal to him and the Reich remain to fend off the encroaching degeneracy. The Americans and Japanese have already begun to meddle in the affair, propping up the challenges to our control.\n\nThe OFN have established a proxy administration full of their own men and remnants of Maurice's administration. It seems the rot coming from the head infected the whole body. Meanwhile in the north of the island our onetime ally Japan is sponsoring natives led by the former collaborator Gabriel Ramanantsoa against both our garrison and the self-proclaimed OFN administration. We cannot allow Madagaskar to be the weak link that spoils our whole chain; we must rally our resources and restore order to the island!"
+JAP_madagascar_conflict:0 "The collapse of the German Reich's only Indian Ocean holding came as a complete surprise - the planned defection of Reichskommissar Emil Maurice to the OFN had not even been known to us until our agents in the Kenpeitai discovered that he had already vanished. Surprise or no though, this is an opportunity we can ill afford to waste. The Indian Ocean is our rightful domain and the Germans have overstayed their welcome. The Americans too are over stepping in their blatant attempt to claim the island for their own hegemony.\n\nIt falls on us to sweep the island clear of unwanted foreign influences. Luckily a group of natives under Gabriel Ramanantsao have risen up in the north of the island to combat both the remaining garrison and the OFN puppets. While they wish to maintain their independence, we can appeal to them as friends of imperialized peoples of the world. We may not be able to project direct control in this fashion but we can gain an ally in close proximity to Africa while denying our rivals the eastward launching pad that they might use against us."
+
+TNO_USA_We_can_intervene_MAD:0 "§wWe can now intervene in the Malagasy Civil War!§!"
+
+ USA_meeting_with_generals_MaCW:0 "Meet With [MAD.GetFlag] Malagasy Generals"
+ USA_bombing_runs_MaCW:0 "Authorize Bombing Sorties"
+ USA_supply_freedom_fighters_MaCW:0 "Supply [MAD.GetFlag] Malagasy Forces"
+ USA_send_military_advisors_MaCW:0 "Ship American Military Advisors"
+ USA_technician_aid_MaCW:0 "Send American Combat Engineers"
+ USA_sabotage_effort_MaCW:0 "Sabotage Enemy Logistics"
+
+ JAP_meeting_with_generals_MaCW:0 "Meet With [MDM.GetFlag] Malagasy Generals"
+ JAP_bombing_runs_MaCW:0 "Authorize Bombing Sorties"
+ JAP_supply_freedom_fighters_MaCW:0 "Supply Freedom Fighters"
+ JAP_supply_imperialistic_fighters_MaCW:0 "Supply [MDM.GetFlag] Malagasy Forces"
+ JAP_send_military_advisors_MaCW:0 "Ship Japanese Military Advisors"
+ JAP_technician_aid_MaCW:0 "Send Japanese Combat Engineers"
+ JAP_sabotage_effort_MaCW:0 "Sabotage Enemy Logistics"
+
+ GER_meeting_with_generals_MaCW:0 "Meet With [MDG.GetFlag] Militärstaat Generals"
+ GER_bombing_runs_MaCW:0 "Authorize Bombing Sorties"
+ GER_supply_freedom_fighters_MaCW:0 "Supply [MDG.GetFlag] Militärstaat Forces"
+ GER_send_military_advisors_MaCW:0 "Ship German Military Advisors"
+ GER_technician_aid_MaCW:0 "Send German Combat Engineers"
+ GER_sabotage_effort_MaCW:0 "Sabotage Enemy Logistics"
+ GER_redouble_efforts_MaCW:0 "Redouble Our Efforts"
+ GER_redouble_efforts_MaCW_desc:0 "The situation of the Militärstaat has not turned out into their advantage- their soldiers have been forced to bunker down due to a lack of support from us and their failure to break the stalemate in Madagaskar. Nevertheless, we will redouble our aid to the Militärstaat to finally secure our victory."
+ GER_redouble_efforts_tt:0 "This will set our volunteer limit to §G5§! divisions."
+
+################## ICW
+  USA_ICW_Military_Cat:0 "The Front Lines"
+  USA_ICW_Military_Cat_desc:0 ""
+  USA_ICW_Domestic_Cat:0 "The Domestic Situation"
+  USA_ICW_WAR_Currently_Doing_Military_Action:0 "Currently engaging in Military action in Indonesia."
+  USA_INS_Diplo_Action:0 "Currently engaging in diplomatic activity in Indonesia."
+  USA_rd_propaganda:0 "Making propaganda for the war"
+
+  USA_IW_Peace_Decisions:0 "The Indonesian War"
+  USA_ICW_Domestic_Cat_desc:0 "The outbreak of hostilities in Indonesia offers an opportunity to chip away at the Japanese dominance in Southeast Asia. Still, we must exercise caution in the scope of our intervention. The more we invest into the rebels, the more their failure will blow back on us.\n\nInitially we may find it quite §Geasy§! to escalate the fight in Indonesia, but the §Rlonger§! and §Rharder§! we fight, the more the public will find itself disillusioned with a war we have little right to be fighting in.\n\n§GMaintaining§! support for the war from the £GFX_rd_texticon §wRepublican§!-§BDemocrats§! and the £GFX_npp_texticon §ONational Progressive Party§! will be essential to allow congress to let us send §Gmore§! support for the war effort, but should both parties be §Rsupportive§! of the war, anti-war activists may find themselves looking towards §Rextremism.§! Keeping the war §Gpopular§! will mean higher §Gsupport§! for our party.\n\n[USA_ICW_Active]"
+  USA_ICW_Frontlines_Cat_desc:0 "From the cities of Sumatra to the thick jungles of New Guinea, the emerald of the equator lies ablaze. The decrepit Sukarno regime that has long ruled over the islands as a mere appendage of the Japanese Empire buckles under the weight of a new generation of patriots and freedom fighters, eager to cast off the shackles of Japanese suzerainty. Victory in Indonesia will not only restrain Japanese access to vital supplies of rubber and oil, but also provide vital breathing space to our Australian allies and peel away yet another nation from Tokyo's so-called "Co-Prosperity" Sphere.\n\nThe Japanese may have won the war, but we will ensure that they will not win the peace."
+  USA_Pull_Out_Of_Indonesian_War:0 "Withdraw Our Support"
+  USA_MLY_aid_category_desc:0 "Test"
+
+  USA_ICW_Domestic_Pop:0 "Domestic support for the war is [GetICWDomesticSupport] ([?USA_INS_CW_Domestic_Support])\n£GFX_rd_texticon §wRepublican§!-§BDemocrat§! support for the war is [GetICWRDSupport] ([?USA_INS_CW_RD_Support])\n£GFX_npp_texticon §ONational Progressive§! support for the war is [GetICWNPPSupport] ([?USA_INS_CW_NPP_Support])"
+
+  ICW_HIGH_SUPPORT:0 "§Ghigh§!"
+  ICW_MID_SUPPORT:0 "§Ymiddling§!"
+  ICW_LOW_SUPPORT:0 "§Rlow§!"
+
+  ICW_NPP_HIGH_SUPPORT:0 "§Ghigh§!"
+  ICW_NPP_MID_SUPPORT:0 "§Ymiddling§!"
+  ICW_NPP_LOW_SUPPORT:0 "§Rlow§!"
+
+  ICW_RD_HIGH_SUPPORT:0 "§Ghigh§!"
+  ICW_RD_MID_SUPPORT:0 "§Ymiddling§!"
+  ICW_RD_LOW_SUPPORT:0 "§Rlow§!"
+
+  USA_ICW_Has_Enough_Support:0 "£GFX_npp_texticon §ONational Progressive§! support + £GFX_rd_texticon §wRepublican§!-§BDemocrat§! for the war equals to 51 or above."
+
+  USA_ICW_Lower_Domestic:0 "This will §Rlower§! §mdomestic§! support for the war."
+  USA_ICW_Raise_Domestic:0 "This will §Graise§! §mdomestic§! support for the war."
+
+  USA_ICW_Lower_RD:0 "This will §Rlower§! £GFX_rd_texticon §wRepublican§!-§BDemocrat§! support for the war."
+  USA_ICW_Raise_RD:0 "This will §Graise§! £GFX_rd_texticon §wRepublican§!-§BDemocrat§! support for the war."
+
+  USA_ICW_Lower_NPP:0 "This will §Rlower§! £GFX_npp_texticon §ONational Progressive§! support for the war."
+  USA_ICW_Raise_NPP:0 "This will §Graise§! £GFX_npp_texticon §ONational Progressive§! support for the war."
+
+  USA_Plan_ICW_Naval_Invasion:0 "§ROperation Starlight§!"
+  USA_Invasion_Plan_Land:0 "§GOperation Davy Crocket§!"
+  USA_ICW_Jungle_Invasion_Decision:0 "§YOperation Rolling Stone§!"
+  USA_FRI_Gun_purchases:0 "Send Over Guns"
+  USA_FRI_Super_Support_Purchases:0 "Send Over Equipment"
+
+  USA_ICW_Jungle_Invasion:0 "§YOperation Rolling Stone§!"
+  USA_ICW_Land_Invasion:0 "§GOperation Davy Crocket§!"
+  USA_ICW_Naval_Invasion:0 "§ROperation Starlight§!"
+
+  USA_pick_up_the_red_phone:0 "Pick up the §cRed Phone§!"
+  
+
+  USA_Gain_Domestic_Support_High:0 "Rally §mDomestic§! Support"
+  USA_secure_supply_lines:0 "Secure the Supply Lines"
+  USA_lessons_from_saf:0 "Lessons from the South African War"
+  USA_expand_the_fleet:0 "Expand the Fleet Presence"
+  USA_technician_aid_FRI:0 "Send our Engineers"
+  USA_Naval_blockage:0 "Establish a Naval Blockage"
+  USA_fan_the_fire:0 "Stoke Independent Movements"
+  USA_Call_the_Red_Cross:0 "Send the Red Cross"
+  USA_Enforce_The_Rules_Of_War:0 "Enforce the Rules of War"
+  USA_Propaganda_Campaign:0 "Propaganda Campaigns"
+  USA_Condemn_Japanese_Imperialism:0 "Condemn §OJapanese Imperialism§!"
+  USA_To_Project_Freedom:0 "Stoke the §BDemocratic§! §BSpirit§!"
+  USA_A_War_Of_Words:0 "A §wWar§! §Bof§! §OWords§!"
+  USA_Embrace_the_Immigrants:0 "Embrace the War Refugees"
+  USA_expand_the_airforce:0 "Expand the Airforce Presence"
+  USA_Gain_NPP_Support_High:0 "Rally £GFX_npp_texticon §ONational Progressive§! Support"
+  USA_Gain_RD_Support_High:0 "Rally £GFX_rd_texticon §wRepublican§!-§BDemocrat§! Support"
+  USA_Gain_PP_ICW:0 "Raise Political Power"
+  USA_Raise_Volunteers:0 "Send More §GMilitary Advisors§!"
+  USA_Withdraw_Volunteers:0 "§RWithdraw§! Some Advisors"
+
+  USA_fan_the_fire_tt:0 "Rebels will rise and aid Free Indonesia.\n"
+
+  USA_ICW_Discontent_1:0 "Little Discontent"
+  USA_ICW_Discontent_2:0 "Rising Discontent"
+  USA_ICW_Discontent_3:0 "Moderate Discontent"
+  USA_ICW_Discontent_4:0 "High Discontent"
+  USA_ICW_Discontent_5:0 "Extreme Discontent"
+  USA_ICW_Discontent_1_desc:0 "The Indonesian Civil War is going very well for the United States, and with a very small amount of American aid. The forces of Free Indonesia are holding their ground with the help of a small group of American advisors, and have suffered no major defeats. Due to this success, the vast majority of the American public are either pleased with or don't care about the war. However, there is a small group discontent with America's involvement as a whole, but they are basically inconsequential."
+  USA_ICW_Discontent_2_desc:0 "With rising American involvement in the Indonesian Civil War, more public attention is being devoted to the conflict. Many more Americans are beginning to understand the war's ramifications, some of which do not sit well with them. While actual protests are rare, calls for the return of American troops back home grow ever louder."
+  USA_ICW_Discontent_3_desc:0 "The United States is now fully committed to supporting the cause of Free Indonesia in the Indonesian Civil War. Tens of Thousands of American troops are fighting in the jungles across the archipelago. As more young American men go across the Pacific, however, more wrapped flags come home. Widows sob and a large portion of the American populace call for justice. Anti-war protests are becoming ever more common, and the public are beginning to turn against the government."
+  USA_ICW_Discontent_4_desc:0 "America is deeply involved in the Indonesian Civil War, and has committed hundreds of thousands of men and dozens of atrocities. In addition, thousands of American soldiers will never come home. While victories have been claimed, it is simply not enough to quench the public. The American people are tired of war, and protests in Washington are now a weekly occurrence."
+  USA_ICW_Discontent_5_desc:0 "The Indonesian Civil War has seen hundreds of atrocities committed by American troops, along with tens of thousands of those same troops killed. The United States and Free Indonesia, despite the high cost paid, can hardly be described as winning the war. As such, the vast majority of the American public is simply outraged with the war and demands it to be over. If the President does not do something soon, the public will elect someone who will."
+
+  ## IBW
+  USA_IBW_PW_desc:0 "As Iberia falls to civil war for the second time in mere decades, the Spanish Republic has emerged once more. Franco has proven himself a tyrant - so we will support the Republic and set history right. Perhaps the second time will be the charm."
+  JAP_IBW_PW_desc:0 "Iberia has largely been irrelevant to us, but a fledgling state called the Rif Republic has emerged in the Moroccan territory, and requested our aid. With access to the Atlantic and Africa, it is an opportunity worth taking to help them in their struggle."
+  GER_IBW_PW_desc:0 "Our control over Eastern Europe is unmatched, though dubious in the west. Now Iberia has collapsed, and the Falangists have again emerged. If they succeed, we will have access to the Atlantic, and reaffirm ourselves as the uncontested Masters of Europe."
+  
+  ## Philippines
+  ##USA
+  USA_PHI_PW_1_desc:0 "Of the 30,000 Americans who had made their last stands in Bataan and Corregidor, only half would return stateside by war's end. The rest had either died in combat, died in captivity, or fled back into the jungles after repatriation ended abruptly, abysmally. Tales thereafter told of men continuing the good fight to the south, in the mountains and forests Manila cannot reach.\n\nTwenty years have passed hence, and recent developments have shown the true extent of their long campaign. Where before they were cast to the untrammeled wilds, now only a hundred miles stand between them and Manila. Many have clamored the President to send our old soldiers aid lest they falter and fall. And so he shall.\n\nNo longer will we idle from the sidelines. One way or another, we'll finish our boys' fight and bring them back home.\n\nWe shall not fail a second time."
+  weakened_bombing_campaign:0 "Weakened Bombing Campaign"
+  PHI_proxy_war:0 "The Philippines is ablaze."
+  PHI_proxy_war_started:0 "The Philippines has been set ablaze."
+
+  USA_PHI_aid_from_west_point:0 "Offer Aid from West Point"
+  USA_PHI_little_olive_men:0 "Ship the Little Olive Men"
+  USA_PHI_cargo_haulers:0 "Send Over Cargo Haulers"
+  USA_PHI_military_advisors:0 "Send Military Advisors"
+  USA_PHI_flying_tigers:0 "Send the Flying Tigers"
+  USA_PHI_escalation:0 "§REscalate the War§!"
+  USA_UPH_morale_lowers:0 "§R[UPH.GetFlag][UPH.GetName] Morale Lowers§!"
+
+  #Just in case we may want to bring this back to the CIA, I kept the loc key the same
+  USA_PHI_huks_Irregular:0 "Launch Operation §eIRREGULAR§!"
+  USA_PHI_huks_Irregular_Exhaustion_tt:0 "The Blitz has taken at least §Y5 months§!"
+  USA_PHI_huks_Irregular_effect_tt:0 "We shall launch an operation aimed to §Gfurther our cooperation§! with the §eHuks§!. It will allow us to directly aid them through military volunteers, §Ralthough this will prevent us from escalating our support in the USFIP.§!"
+  USA_PHI_huks_Irregular_desc:0 "The Balintawak Blitz, true to its name, was meant to be a quick and relatively bloodless war against the Japanese-aligned government in Maynila, in the hopes of crippling Japanese influence in the pacific, and yet, that was not what it turned out to be. The Maynila government has put up more of a fight than what we have anticipated, and the war has grinded down to a bloody standstill with no clear winner.\n\nPerhaps the AFRSR might be willing to work with us, finding those that want to cooperate may just give us enough boost for us to drive the Japanese out of the islands, and perhaps make the future of post-war Philippines ever so certain, once we win that is."
+
+  USA_weaken_japan_bombings:0 "§GThis will weaken [JAP.GetFlag]Japan's Bombing Campaigns.§!"
+  TNO_Controls_Central_Luzon_Airport:0 "§Y[PHI.GetFlag]The [PHI.GetName]§! does not control Gitnang Luzon."
+  USA_PHI_advisors_tt:0 "We can send a Volunteer Division to the §G[UPH.GetFlag][UPH.GetName].§!"
+  USA_PHI_advisors_have_been_sent:0 "§YAdvisors§! have already been sent."
+  
+  tt_USA_PHI_olive_men:0 "§GUsing our equipment, the Filipino rebels will be able to field an additional division.§!"
+  tt_USA_PHI_GDP:0 "§GOur industrial aid will slightly increase their GDP.§!"
+  TNO_USA_Philippines_Action_tooltip:0 "We don't have any other ongoing operations in the §YPhilippines.§!"
+  decision_cost_30_cp_60_pp: "£command_power §Y30§! £political_power_texticon §Y60§!"
+  decision_cost_30_cp_60_pp_blocked: "£command_power §R30§! £political_power_texticon §R60§!"
+  decision_cost_20_cp_25_pp: "£command_power §Y20§! £political_power_texticon §Y25§!"
+  decision_cost_20_cp_25_pp_blocked: "£command_power §R20§! £political_power_texticon §R25§!"
+
+  decision_cost_40_cp_75_pp:0 "£command_power §Y40§! £political_power_texticon §Y75§!"
+  decision_cost_40_cp_75_pp_blocked:0 "£command_power §R40§! £political_power_texticon §R75§!"
+  TNO_Balintawak_30_Days_Passed:0 "§Y30 days have passed§! since the Balintawak Blitz began."
+  TNO_Balintawak_60_Days_Passed:0 "§Y60 days have passed§! since the Balintawak Blitz began."
+  USA_PHI_instability_cooperation:0 "§xThis will alienate the Huks in the north, preventing us from engaging in any potential future cooperation with them.§!"
+  TNO_increase_volunteers_USFIP_2:0 "Increases our volunteer cap to §G[UPH.GetFlag][UPH.GetName]§! by §Y2§!."
+  USA_PHI_aid_from_west_point_buffs:0 "§GIncreases [UPH.GetFlag][UPH.GetName]§!'s Organization and Reinforce Rate by §Y5.00%§!."
+  USA_UPH_morale_lowers:0 "§RThe [UPH.GetFlag][UPH.GetName]'s Morale Lowers§!"
+  USA_UPH_morale_lowers_tt:0 "§RThe [UPH.GetName]'s buffs will be reduced.§!"
+
+  ##Japan
+  JAP_PHI_PW_1_desc:0 "The Philippine insurgency is perhaps the longest-enduring conflict the IJA has ever had the dishonor of quelling, matched perhaps only by that in Malaya. A posting in the islands often spells the death knell of every glory-hound and careerist, for their jungles promise only malaria and a .50-caliber cure. Further hampering any lasting success are the budget cuts of ministries past, dwindling the once-formidable 14th Army's numbers into a glorified garrison - a trend only recently stymied by the damnable rebels' resurgence.\n\nNevertheless, the archipelago's importance is rarely overstated. For the Pearl of the Orient secures not just our sea lanes to Indonesia but also our grand bulwark against the American leviathan. A loss now will leave our lands and seas exposed once more to Western intrusion; Heavens know what will happen from there.\n\nThankless and bloody our job may be, but it is necessary. Let's get to it."
+  TNO_JAP_Philippines_Action_tooltip:0 "§YWe don't have any other ongoing operations in the Philippines.§!"
+  JAP_continue_with_aid_shipments:0 "Continue with Aid Shipments"
+  JAP_philippines_bombing_campaigns:0 "Bombing Campaign in §e[?From.GetName]§!"
+  JAP_philippines_troop_surge:0 "Troop Surge to the Philippines"
+  JAP_bomber_offensives:0 "Begin the Bomber Offensive"
+  JAP_makeshift_manila_fortifications:0 "Construct Makeshift Fortifications in Manila"
+  JAP_training_schemes:0 "Filipino-Japanese Training Scheme"
+  JAP_mountain_constabularies:0 "Construct Mountain Constabularies"
+  JAP_last_stand_of_the_orient_pearl:0 "§RThe Last Stand of the Orient Pearl§!"
+  JAP_PHI_morale_lowers:0 "§GThe [PHI.GetFlag][PHI.GetName]'s' Morale Rises as§! §RThe Insurgents§! §GBecome Exhausted§!"
+  JAP_PHI_morale_lowers_tt:0 "§G[PHI.GetName]'s buff will increase§!"
+
+  JAP_create_3_divisions_manila_PHI:0 "§G3 Japanese divisions will be shipped to Manila.§!"
+  JAP_increase_maximum_bombings_PHI_3:0 "§GWe can now bomb 3 states at the same time.§!"
+  JAP_training_schemes_buffs:0 "§GIncreases the [PHI.GetFlag][PHI.GetName]'s defense and entrenchment speed with 5%.§!"
+  JAP_mountain_constabularies_buffs:0 "§GDecreases the [PHI.GetFlag][PHI.GetName]'s terrain debuffs 10%.§!"
+  JAP_last_stand_of_the_orient_pearl_buffs:0 "§GIncreases the [PHI.GetFlag][PHI.GetName]'s defense and entrenchment speed with respectively 10% and 15%.§!"
+  JAP_last_stand_of_the_orient_pearl_removal:0 "§RRemoves the previously added buffs.§!"
+  TNO_JAP_PHI_does_not_control_neighbour_manila:0 "§RThe [PHI.GetFlag][PHI.GetName] does not control one of Manila's neighbor states.§!"
+
+  JAP_PHI_morale_rises:0 "Morale Rises"
+  JAP_PHI_morale_rises_tt:0 "§YMorale§! will rise."
+
+
+  JAP_bombing_campaigns_tt:0 "§RThe [PHI.GetFlag][PHI.GetName] does not fully control [?From.GetName].§!"
+  JAP_not_exceeded_bombing_limit:0 "We have not exceeded our state bombing capacity of §Y[?JAP_PHI_max_bombings|0]§!."
+  decision_cost_15_cp_35_pp_500_inf_eq: "£command_power §Y15§! £political_power_texticon §Y35§! £weapon_icon §Y500§!"
+  decision_cost_15_cp_35_pp_500_inf_eq_blocked: "£command_power §R15§! £political_power_texticon §R35§! £weapon_icon §R500§!"
+  decision_cost_30_cp: "£command_power §Y30§!"
+  decision_cost_30_cp_blocked: "£command_power §R30§!"
+  decision_cost_35_cp: "£command_power §Y35§!"
+  decision_cost_35_cp_blocked: "£command_power §R35§!"
+  decision_costs_10_army_xp:"£army_experience §Y10§!"
+  decision_costs_10_army_xp_blocked:"£army_experience §Y10§!"
+
+  ###Balintawak Blitz Success Decisions
+  ##The US of A
+  USA_PHI_PW_2_desc:0 "As the 14th Army's boats scurried full speed to Tokyo, a commodore left one last burst of Morse code to a watchtower by the coast: "We shall return."\n\nThe exact date is muddled by rumormongering and disinformation, ones Intelligence hasn't even begun to disentangle. Nevertheless, Japan's parting shot is as direct as it is profuse with irony: that the Empire would so easily surrender is laughable at best, and a lethal jape at worst. The real test begins soon, at the rare moment in a man's life where history repeats and legends are retold.\n\nSo rally the men, raise the palisades, man the guns - but above all, never lose hope. If we've beaten the devils once, we'll beat them again."
+  USA_PHI_macarthur_line:0 "The MacArthur Line"
+  USA_PHI_mcarthurt_fort_tt:0 "§GIn cooperation with the Huks, we will build a line of fortifications in Luzon to prepare for the Japanese invasion§!"
+  USA_PHI_comphrehensive_aid:0 "Comprehensive Aid Package"
+  decision_cost_100_million:0 "§Y$100M§!"
+  decision_cost_100_million_blocked:0 "§R$100M§!"
+  UPH_usa_aid_package:0 "American Economic Aid Package"
+  USA_PHI_black_budget_programs:0 "Black Budget Programs"
+  decision_cost_100_million_25_cp:0 "§Y$100M§! £command_power §Y25§!"
+  decision_cost_100_million_25_cp_blocked:0 "§R$100M§! £command_power §R25§!"
+  USA_PHI_mass_conscription:0 "Mass Conscription"
+  USA_PHI_mass_conscription_tt:0 "§Y5§! Auxillary brigades will be raised in the [UPH.GetFlag]§G[UPH.GetName]§!."
+  decision_cost_500_guns_10_pp:0 "£weapon_icon §Y500§! £political_power_texticon §Y10§!"
+  decision_cost_500_guns_10_pp_blocked:0 "£weapon_icon §R500§! £political_power_texticon §R10§!"
+  USA_PHI_expand_army:0 "Expand the Philippine Army" 
+  USA_PHI_expand_army_tt:0 "§Y2§! Infantry divisions will be raised in the [UPH.GetFlag]§G[UPH.GetName]§!."
+  USA_PHI_IJN_blockade_dummy:0 "Imperial Japanese Navy §RBlockade§!"
+  USA_PHI_IJN_blockade_dummy_desc:0 "Our capacity to provide further support to the Filipino rebels has been effectively neutered due to an ongoing blockade on the islands by the IJN. We can only afford to slip through supplies for our volunteers, and nothing else, lest our ships are to be blown out of the waters."
+  decision_cost_500_guns_5_army_xp:0 "£weapon_icon §Y500§! £army_experience §Y5§!"
+  decision_cost_500_guns_5_army_xp_blocked:0 "£weapon_icon §R500§! £army_experience §R5§!"
+  USA_PHI_doing_preparation_decision:0 "Doing another decision to prepare against a Japanese invasion."
+  ##Japan
+  JAP_PHI_PW_2_desc:0 "The 14th Army returned home with ashes in their mouths and the ashes of their comrades in tow. Wails of families bereft of sons, fathers and brothers mingled with grudges oathed in anguish. No more mercy, said a youth in a recruiting station; no more half-measures, said an old man brandishing his old tasseled guntō. So say Japan as one: vengeance for the dead. Vengeance for their heroes.\n\nIn two months' time we shall depart to reclaim the Gods-forsaken islands once more. Until then, we must decide which divisions to bring."
+  JAP_PHI_supply_text:0 "Our current £GFX_PHI_supply_texticon §kSupply§! is §k[?JP_PHI_supply]/100§!\nThe invasion's £GFX_PHI_supply_floor_texticon §SMinimum Supply§! is §S[?JP_PHI_supply_perc]§!"
+  JAP_PHI_supply_tt:0 "£GFX_PHI_supply_texticon §kSupply: [?JP_PHI_supply]/100§!\n£GFX_PHI_supply_floor_texticon §SMinimum Supply: [?JP_PHI_supply_perc]§!"
+  JAP_PHI_customize_desc:0 "[GetCustomizationDesc]" 
+  JAP_PHI_preparations_custom:0 "Using the below decisions, we can assemble the landing force to retake the Philippines. The number of Divisions we can send is limited by §kSupply§!.\n\nThe 14th Army is currently equipped with \n§Y[?JAP_PHI_Army] divisions§!. An efficient landing force has at most §R10 divisions§!."
+  JAP_PHI_ongoing_custom:0 "We must make sure that the §ksupplies§! are enough to sustain the 14th Army until the end of the campaign, lest they will receive §enegative effects.§!\n\n§YThe Outcome of the 14th Army's campaign will be decided in six months.§!"
+
+  JAP_PHI_Invasion_Begins:0 "§eThe Invasion Begins...§!"
+  JAP_PHI_Use_4th_Division:0 "    Order the 4th Division"
+  JAP_PHI_Use_8th_Division:0 "    Order the 8th Division"
+  JAP_PHI_Use_30th_Division:0 "    Order the 30th Division"
+  JAP_PHI_Use_16th_Division:0 "    Order the 16th Division"
+  JAP_PHI_Use_48th_Division:0 "    Order the 48th Division"
+  JAP_PHI_Use_102nd_Division:0 "    Order the 102nd Division"
+  JAP_PHI_Use_First_Guards_Division:0 "    Order the 1st Guards Division"
+  JAP_PHI_Use_Third_Guards_Division:0 "    Order the 3rd Guards Division"
+  JAP_PHI_Use_2nd_Tank_Division:0 "    Order the 2nd Tank Division"
+  JAP_PHI_Use_3rd_Tank_Division:0 "    Order the 3rd Tank Division"
+  JAP_PHI_Use_1st_Yokosukai_Division:0 "    Order the 1st Yokosuka Division"
+  JAP_PHI_Use_1st_Raiding_Group_Division:0 "    Order the 1st Raiding Group"
+  JAP_PHI_show_infantry:0 "§GShow Infantry Deployment§!"
+  JAP_PHI_hide_infantry:0 "§RHide Infantry Deployment§!"
+  JAP_PHI_show_armored_forces:0 "§GShow Armored Forces Deployment§!"
+  JAP_PHI_hide_armored_forces:0 "§RHide Armored Forces Deployment§!"
+  JAP_PHI_show_special_forces:0 "§GShow Special Forces Deployment§!"
+  JAP_PHI_hide_special_forces:0 "§RHide Special Forces Deployment§!" 
+  JAP_PHI_show_supply_decisions:0 "§GShow Supply Decisions§!"
+  JAP_PHI_hide_supply_decisions:0 "§RHide Supply Decisions§!"
+
+  JAP_PHI_show_supply_decisions:0 "§GShow Supply Decisions§!"
+  JAP_PHI_hide_supply_decisions:0 "§RHide Supply Decisions§!"
+
+  JP_PHI_10_Supply_cost:0 "£GFX_PHI_supply_texticon  §Y10§!"
+  JP_PHI_10_Supply_cost_blocked:0 "£GFX_PHI_supply_texticon  §R10§!"
+  JAP_PHI_Organize_More_Units:0 "    Organize More Officers"
+  JAP_PHI_Lobby_For_More_Supplies:0 "    Negotiate for Supplies"
+  JAP_PHI_Lobby_For_More_Supplies_AI:0 "$JAP_PHI_Lobby_For_More_Supplies$"
+  JAP_PHI_Ask_For_IJN_Landing_Support:0 "    Lobby for IJN Naval Bombardment"
+  JAP_PHI_Redirect_Fuel_To_IJAAF:0 "    Redirect Fuel to the IJAAF"
+  JAP_14_army_IJN_support_tt:0 "§F§YThe 14th Army§! will be stronger in the §YEarly days of the conflict§! in the north, aided by the §GIJN§!.§!"
+  JAP_14_army_IJAAF_support_tt:0 "§F§YThe 14th Army§! will §Greceive planes§! to use in the invasion, as well as giving us access to §Rmass bombard enemy targets§!.§!"
+  decision_cost_20_cp_15_supply:0 "£command_power §Y20 £GFX_PHI_supply_texticon  15§!"
+  decision_cost_20_cp_15_supply_blocked:0 "£command_power §R20 £GFX_PHI_supply_texticon  15§!"
+  decision_cost_25_cp_10_supply:0 "£command_power §Y20 £GFX_PHI_supply_texticon  10§!"
+  decision_cost_25_cp_10_supply_blocked:0 "£command_power §R20 £GFX_PHI_supply_texticon  10§!"
+  decision_cost_35_cp_15_supply:0 "£command_power §Y20 £GFX_PHI_supply_texticon  15§!"
+  decision_cost_35_cp_15_supply_blocked:0 "£command_power §R20 £GFX_PHI_supply_texticon  15§!"
+  JAP_PHI_invasion_supply_pos_tt:0 "£GFX_PHI_supply_floor_texticon §SMinimum Supply:§! [Check_Invasion_Supply_Position_Neg][?JP_PHI_target_pos_add|=]§!"
+  JAP_PHI_invasion_supply_tt:0 "£GFX_PHI_supply_texticon §kSupply:§! [Check_Invasion_Supply_Pos_Neg][?JP_PHI_supply_add|=]§!"
+
+  PHI_supply_increase:0 "an increase"
+  PHI_supply_decrease:0 "a decrease"
+  PHI_supply_no_change:0 "no change"
+  PHI_supply_increase_no_an:0 "increase"
+  PHI_supply_decrease_no_a:0 "decrease"
+  PHI_supply_red:0 "§R"
+  PHI_supply_green:0 "§G"
+  PHI_supply_neutral:0 "§Y"
+  
+  ##Balintawak Blitz 14 Army Landing Decisions
+  JAP_PHI_PW_3_desc:0 "The men demand vengeance, and vengeance shall be delivered. The 14th Army has been ordered to retake the Philippine Islands once and for all. Every last detail has been meticulously accounted for to make sure nothing could go wrong. The battle lines have been drawn, and for now, we can do no more than watch and hope for victory.\n\n[Get14ArmyCampaignStatus]Currently, our supply §Rdecays§! at a rate of §R[?JP_PHI_supply_decay]§!"
+  JAP_PHI_14th_Army_Secure_Philippines:0 "§xSecure the Philippine Isles§!"
+  JAP_14th_ceasefire_tooltip:0 "§RWithin the next six months, the outcome of the campaign shall be decided...§!"
+  JAP_PHI_14th_Army_send_guns:0 "Ship Weapons to the [FGB.Getflag]14th Army"
+  JAP_PHI_14th_Army_send_tanks:0 "Ship Tank Eq. to the [FGB.Getflag]14th Army"
+  JAP_PHI_commit_emergency_supplies:0 "Commit §REmergency Supplies§!"
+  JAP_PHI_intensify_air_bombardments:0 "Intensify IJAAF Bombing Raids"
+  JAP_PHI_intensify_air_bombardments_2:0 "§RFurther Intensify§! IJAAF Bombing Raids"
+  JAP_PHI_14th_Army_send_manpower:0 "Send Reserves to the [FGB.Getflag]14th Army"
+  
+  decision_cost_1000_guns_25_cp:0 "§Y£weapon_icon 1000 £command_power 25§!"
+  decision_cost_1000_guns_25_cp_blocked:0 "§R£weapon_icon 1000 £command_power 25§!"
+  decision_cost_150_mbt_25_cp:0 "§Y£mbt_texticon 150 £command_power 25§!"
+  decision_cost_150_mbt_25_cp_blocked:0 "§R£mbt_texticon 150 £command_power 25§!"
+  
+  JAP_PHI_you_fucked_up_tt:0 "At this rate, we will be §Rforced to withdraw§! our forces completely from the isles. We must capture §MMaynila§! to improve the outcome of the campaign.\n\n"
+  JAP_PHI_small_victory_tt:0 "At this rate, we will be able to secure §Mmost of Luzon§!, but nothing more. To further improve the outcome of the campaign, we must capture the region of §lSilangang Bisayas.§!\n"
+  JAP_PHI_half_victory_tt:0 "At this rate, we will be able to secure §lmost of the Philippines.§! To §Gtruly achieve victory§! in this war, we must secure §GThe Island of Mindanao.§!\n\n"
+  JAP_PHI_full_victory_tt:0 "§GWe have secured victory! Now, we must hold out and tire the remaining enemy forces until the end of the campaign to fulfill our victory.§!\n\n"
+  
+  ###PHILIPPINES RECONSTRUCTION
+  PHI_reconstruction_complete_button_tt:0 "§YDeclare reconstruction complete§!"
+  
+  reconstruction_desc_text:0 "[GetPHIreconstructionDesc]"
+  reconstruction_desc_text_USA:0 "[GetPHIreconstructionUSADesc]"
+  
+  JAP_PHI_reconstruction_desc:0 "The failure of the Balintawak Blitz has brought us ever further into solidifying our position as the sole master of all of Asia. Though their rebellions have collapsed, the damage that they inflicted is here to stay, and is costing the Filipino government a fortune to clean up, which if they're not careful, could spell economic and societal disaster within the country.\n\nThus, we have elected that we will bring aid for our Filipino brothers in many shapes and forms, be it money, medical equipment, construction, or even weapons to clean up any remaining resistance fighters.\n\nHowever, we have been warned that the tension in the islands are very palpable, and that a failed reconstruction campaign may warrant §Runforeseen consequences§!. We must be weary."
+  
+  USA_USFIP_Fertig_reconstruction_desc:0 "Although the parties have died down and the beer taps have finally run dry, the Filipino people must still contend with the pains of a nation exhausted both in land and spirit. American aid in easing this process goes without saying.\n\nOur analysts estimate that we have no more than six months of leeway to fix the war's worst damages before public sentiment compels a withdrawal. By then authority should be restored to an elected civilian government, whether it is of Carlos P. Romulo's Commonwealth exiles or Carlos P. Garcia's "new Filipinos."\n\nNote that Mr. Romulo has staked his legitimacy on us delivering not merely reconstruction, but a timely, well-managed one at that. Should we exceed the six-month deadline, Mr. Garcia will likely succeed the late Sergio Osmeña, Sr. as President and establish a government less open to our suggestions than the "Filipino Franklin's.""
+  USA_UPH_OFN_Mandate_reconstruction_desc:0 "With the general breakdown of civilian government in the Philippine Islands, Congress has authorized the Philippine Department to enforce martial law within the former Commonwealth's jurisdiction until order is fully restored and the bare minimum of economic activities may resume. General Beach pledged that martial law will last for no more than six months, after which the Mandate authorities will assume all government functions.\n\nFor the country today, insofar as it may still be one, is a hollow shell of what it was before the Blitz. Villages lay empty, the hollow wrecks of cities wail, and what few parcels of farmland that haven't been bombed, burned, or defoiled have been plucked of all they're worth by the bandits that rule the interior. Hope has fled for fairer climes; much as it pains us to say, the Filipino people will have to do without it for quite some time."
+  USA_SPH_Coalition_reconstruction_desc:0 "In response to the 14th Army invasion, the USFIP and the Communist insurgency brokered an agreement which elevated their non-agression pact during the Blitz into a full-fledged alliance. Among its stipulations was a binding pledge to organize a post-war government composed of appointees from the Communist Party of the Philippines, the military and civilian halves of the USFIP, and miscellaneous groups opposed to the former KALIBAPI. Thus, the so-termed United Filipino Front evolved into the Coalition Government following the Evacuation.\n\nActing President Lorenzo Tañada's popularity can only preserve its precarious balance for so long before either Ramon Magsaysay's militarists or Luis Taruc's Communists grow too dissatisfied with their current arrangement. What happens in either case is anyone's guess, but it certainly won't be good for the country - or for us, after all we'd sunk into prying it off Japan."
+  
+  PHI_Reconstruction_text:0 "§YReconstruction progress§! is at [GetPHIReconstructionColor][?PHI_reconstruction_var]%§! towards completion."
+  PHI_Reconstruction_color_red:0 "§R"
+  PHI_Reconstruction_color_orange:0 "§O"
+  PHI_Reconstruction_color_green:0 "§G"
+  PHI_Reconstruction_color_blue:0 "§D"
+  
+  # Reconstruction Decisions
+  # PHI Tooltips
+  PHI_fopo_begin_reconstruction_tt:0 "§GReconstruction§! of the §YPhilippine Isles§! begins."
+  PHI_Doing_Reconstruction:0 "We are currently aiding in the reconstruction in a different manner."
+  JAP_PHI_disallow_rebel_encirclement:0 "We have disbanded the militias and the constabularies."
+  JAP_PHI_disallow_rebel_encirclement_tt:0 "§RChoosing this decision will disallow us from performing anti-guerilla sweeps by ourselves, which may hinder the process of reconstruction in some way.§!"
+  JAP_PHI_disallow_disband_militia:0 "We have committed to hunt down the rebels ourselves"
+  JAP_PHI_disallow_disband_militia_tt:0 "§RChoosing this decisions will disallow us from disbanding the militias and the constabularies.§!"
+  PHI_Reconstruction_decrease_tt:0 "§YPhilippines§! - reconstruction setback: §R[?PHI_reconstruction_temp|=2]%.§!"
+  PHI_Reconstruction_increase_tt:0 "§YPhilippines§! - reconstruction progress: §G[?PHI_reconstruction_temp|=2]%.§!"
+  #Costs
+  decision_cost_20_million_10_pp:0 "§Y$20M§! £political_power_texticon  §Y10§!"
+  decision_cost_20_million_10_pp_blocked:0 "§R$20M§! £political_power_texticon  §R10§!"
+  decision_cost_30_million_10_pp:0 "§Y$30M§! £political_power_texticon  §Y10§!"
+  decision_cost_30_million_10_pp_blocked:0 "§R$30M§! £political_power_texticon  §R10§!"
+  decision_cost_50_million_25_cp:0 "§Y$50M§! £command_power §Y25§!"
+  decision_cost_50_million_25_cp_blocked:0 "§R$50M§! £command_power §R25§!"
+  decision_cost_100_million_50_cp:0 "§Y$100M§! £command_power §Y50§!"
+  decision_cost_100_million_50_cp_blocked:0 "§R$100M§! £command_power §R50§!"
+  decision_cost_1000_manpower_15_cp:0 "£manpower_texticon §Y1000 £command_power 15§!"
+  decision_cost_1000_manpower_15_cp_blocked:0 "£manpower_texticon §R1000 £command_power 15§!"
+  decision_cost_750_manpower_10_cp:0 "£manpower_texticon §Y750 £command_power 10§!
+  decision_cost_750_manpower_10_cp_blocked:0 "£manpower_texticon §R750 £command_power 10§!"
+  
+  #JAP - PHI Decisions
+  JAP_PHI_Assist_Reconstruction:0 "Assist in Reconstruction"
+  JAP_PHI_Assist_Reconstruction_desc:0 "We will directly send aid to the government of the Philippines for reconstruction in many forms, be it material or monetary."
+  JAP_demobilize_militias:0 "Demobilize Militias and Constabularies"
+  JAP_demobilize_militias_desc:0 "With the militiamen and constabularies having already done their job, we do not have any more need of them. Keeping them organized is a waste of resources that can be used somewhere else, thus, militias and constabularies that have been ever useful for us during the war shall now be disbanded."
+  JAP_dismantle_manila_forts:0 "Dismantle Manila Forts"
+  JAP_dismantle_manila_forts_desc:0 "The many fortifications in the city of Manila is an unfortunate sight to see. Along with its horrible look, it also hinders the process of reconstruction by taking up space that can be used for more useful buildings or infrastructure. Thus, a demolition and clean-up is in order."
+  JAP_emergency_price_fixing_laws:0 "Emergency Price Fixing Laws"
+  JAP_emergency_price_fixing_laws_desc:0 "The economic situation in the Philippines is at a critical, with the war-torn country struggling to feed and provide the people with their needs as a result of decades of endless war. We must impose emergency price fixing laws to ensure that the people suffer the least, and to ensure that the economic situation does not degrade further."
+  JAP_anti_rebel_encirclement_campaigns:0 "Anti-Rebel Encirclement Campaigns"
+  JAP_anti_rebel_encirclement_campaigns_desc:0 "With our militias on the islands, we will launch numerous campaigns targeted to eliminate rebel holdings within the jungles of the Philippines ourselves. This will aid in reconstruction immensely by eliminating threats to the regime."
+  JAP_anti_rebel_encirclement_campaigns_success_tt:0 "The hunt against the §Rremaining rebels§! in the Philippines §Gsucceeds§!."
+  JAP_anti_rebel_encirclement_campaigns_fail_tt:0 "The hunt against the §Rremaining rebels§! in the Philippines §efails§!."
+  JAP_PHI_recon_timeout:0 "Philippines Reconstruction Deadline"
+  JAP_PHI_recon_timeout_tt:0 "§RThe Philippines dramatically destabilizes...§!"
+  
+  #USA - USFIP/Coalition Decisions
+  #TTs
+  USA_PHI_disallow_demobilization:0 "Unable to demobilize the Philippine Army"
+  USA_PHI_disallow_demobilization_tt:0 "§RChoosing this decision will disallow us from demobilizing the Philippine Army.§!\n"
+  USA_PHI_disallow_hunt_bandidos:0 "Unable to perform anti-bandidos actions"
+  USA_PHI_disallow_hunt_bandidos_tt:0 "§RChoosing this decision will disallow us from performing anti-bandidos actions.§!\n"
+  USA_delegitimze_leyte_proclamation_tt:0 "Delegitimizing the Leyte Proclamation will put §YCarlos Romulo,§! our preferred candidate for the President of the Philippines, §Gin charge of the country.§!\n\nHis §Gfriendliness§! to us will grant us another ally within the §DOrganization of Free Nations§!.\n"
+  USA_USFIP_anti_referendum_campaign_tt:0 "Campaigning against the §RSocialist Referendum§! guarantees Lorenzo Tañada's continued rule of the Philippines, and prevents the §xCommunists§! from taking over the government in the future.\n"
+  
+  USA_USFIP_recon_timeout_tt:0 "§RWe will lose the favor of the Philippine Government, placing the undesired candidate, §YCarlos Garcia§! in charge of the Philippines.§!"
+  USA_SPH_recon_timeout_tt:0 "§RThe Philippines dramatically destabilizes...§!"
+  
+  #Dec loc
+  USA_assist_reconstruction:0 "Assist in Reconstruction"
+  USA_demobilize_philippine_army:0 "Demobilize the Philippine Army"
+  USA_dismantle_manila_forts:0 "Dismantle Manila Forts"
+  USA_emergency_price_fixing_laws:0 "Emergency Price Fixing Laws"
+  USA_bandidos_hunt:0 "Hunt the Bandidos"
+  USA_bandidos_hunt_success_tt:0 "The hunt against the §Rbandidos§! rampant in the Philippines §Gsucceeds§!."
+  USA_bandidos_hunt_fail_tt:0 "The hunt against the §Rbandidos§! rampant in the Philippines §efails§!."
+  USA_delegitimize_leyte_proclamation:0 "§YDelegitimize the Leyte Proclamation§!"
+  USA_USFIP_anti_referendum_campaign:0 "§YAnti-Referendum Campaign§!"
+  USA_USFIP_recon_timeout:0 "Philippines Reconstruction Deadline"
+  USA_SPH_recon_timeout:0 "Philippines Reconstruction Deadline"
+  
+ ################ MALAYAN RECONSTRUCTION / South Seas Reconstruction Strategic Initiative
+ TNO_malaya_reconstruction_category_desc_usa:0 "Rome wasn't built in a day, and Malayan surely won't be rebuilt in a hour. While the country shed the shackles from the Japanese Sphere, the truth is, it stands alone surrounded by agressive countries that see them as traitors, and her only allies being the Indian and the Australians, and who knows what holds for them in the future. The war is over, but the real battle to rebuild the country from years of warfare has begin; one battle that, thankfully, is much easier on our burdens. Investors and Money are much more pliable to movement than guns and tanks."
+ 
+ TNO_malaya_reconstruction_category_desc_jap:0 "Our protectorates and network of allies in Southeast Asia have been under varying degrees of tepid control, prone to infiltration by resistance groups and Western-backed cronies. To this end, the Greater East Asian Ministry and the Ministry of Foreign Affairs have proposed the Southern Sphere Reconstruction and Stabilisation Initiative - a plan to grease the wheels of the full economic potential of the region. From the tin mines of Malaya to the rubber plantations of North Borneo, our grip on the Sphere will be reforged, and our political hegemony in the region will be secured."
+
+ TNO_SEA_Status_Yellow:0 "Our control over the South Seas is: §CInadequate§!"
+ 
+ JAP_Rebuild_Penang:0 "Rebuild Penang"
+ JAP_Put_POWs_to_Work:0 "Assign POWs to Workplaces"
+ JAP_Expanding_Singapore:0 "Expand Shonan"
+ JAP_Strengthening_Military_Presence:0 "Strengthen Military Presence in the SPR"
+ JAP_Contact_Sukarno:0 "Contact Sukarno"
+ JAP_Verify_North_Borneo_Situation:0 "Survey the North Borneo Territory"
+ JAP_Invest_In_the_Klang_Valley:0 "Invest in the Klang Valley"
+ JAP_Scour_for_Oil:0 "Scour the South China Sea for Oil"
+
+########################## IBW
+
+#USA
+USA_Arm_Spanish_Militia:0 "Arm [SPR.GetFlag]Spanish Militia"
+USA_Arm_Spanish_Militia_desc:0 "Send guns to "Republicans", what could go wrong?"
+USA_Equip_Spanish_Air_Forces:0 "Equip the [SPR.GetFlag]Spanish Air Forces"
+USA_Equip_Spanish_Air_Forces_desc:0 ""
+USA_Form_Republican_Tank_Corps:0 "Form the Republican Tank Corps"
+USA_Send_American_Advisors:0 "Send American Advisors"
+USA_Send_American_Advisors_desc:0 ""
+USA_Send_Peacekeepers:0 "Send Peacekeepers"
+USA_Send_Peacekeepers_desc:0 ""
+USA_send_peacekeepers_tt:0 "You will now be able to send more volunteers to [SPR.GetFlag]the Spanish Republic."
+#GER
+GER_Second_Condor_Legion:0 "Form the Second Condor Legion"
+GER_Second_Condor_Legion_desc:0 """
+GER_Aid_Spanish_Bombing_Campaigns:0 "Aid [SPS.GetFlag] Spanish Bombing Campaigns"
+GER_Aid_Spanish_Bombing_Campaigns_desc:0 ""
+GER_Tank_Trials:0 "Tank Trials"
+GER_Tank_Trials_desc:0 ""
+GER_Guns_For_Falangists:0 "Guns For Falangists"
+GER_Luftwaffe_Testing_Grounds:0 "Luftwaffe Testing Grounds"
+GER_send_peacekeepers_tt:0 "You will now be able to send more volunteers to [SPS.GetFlag] the Falangists."
+#Jap
+JAP_Iberian_Intervention:0 "Intervention in Iberia"
+JAP_Aid_Catalan_Freedom_Fighters:0 "Aid Catalan Freedom Fighters"
+JAP_Support_Basque_Nationalists:0 "Support Basque Nationalists"
+JAP_Supply_Regional_Merchant_Marines:0 "Supply Regional Merchant Marine"
+JAP_send_peacekeepers_tt:0 "You will now be able to send more volunteers to regional separatists."
+
+
+### Mengjiang Conflict 
+
+JAP_mengjiang_conflict_desc:0 "Long after its destruction in the World War, the ghosts of the Soviet Union still haunt us.\n\nIn the far northwestern reach of our sphere of influence, a war yet rages. A faithful ally of Japan, Prince Demchugdongrub of Mengjiang, finds himself embroiled in a bitter conflict with a rebellion on his northern frontier. The so-called "Mongolian People's Front" is a puppet organization controlled by an exiled Red Army clique, and if they are allowed to succeed in their aims, it could start a chain destabilization of the entire Sphere. For obvious reasons, this cannot be allowed.\n\nHowever, we have faith in the Prince and his soldiers to be able to handle the situation, and for all the better. It is best that local troops handle what is ultimately a local crisis, but that does not mean we cannot send some aid and support their way in the form of guns, advice, and other equipment. With low-grade support like this, we can hopefully prevent the situation from spiralling so badly that it'd require a direct intervention.\n\nAll the same, we will do what we must."
+
+### Iranian Civil War
+
+JAP_ircw_category_desc:0 "Once one of the few allies belonging to Germany in the Middle East, Iran has recently imploded into civil war following the death of its Shah, Mohammed Reza Pahlavi, a largely unpopular figure following his overthrowing of Prime Minister Mohammad Mosaddegh and establishment of his pro-German regime. As the instability of the region has been threatening to boil over since the beginning of the Oil Crisis, it seems only natural that with the death of its leader, the partisans of Iran have made their move for power.\n\nAmong these rebels moving against the government of Iran are the Democratic Republic of Iran, led by Karim Sanjabi, the Socialist Federation of Iran under Iraj Eskanderi, and the Baluchi Liberation Front, an independence movement in the south of the nation led by Sher Mohammed Marri, among others. Of course, there is also the remnants of the pro-German government holed out of the north of the nation.\n\nAs fresh arms flow into the region, and the anti-German alliance already shows cracks, it would seem as though it's in the best interest of the world powers to send aid the way of their preferred candidates."
+
+### SAF War - Aftermath
+
+TNO_SAF_Aftermath_desc_USA:0 "We have won a great victory for democracy in South Africa, but our work is far from finished. While the German army is defeated, remnants of their forces still fight on. In addition, many local warlords have established their own forces, and would like nothing better than expel us from their lands. Victory in Africa means nothing if we cannot stabilize the continent.\n\nSome of our officers have suggested continuing our strategy of attrition, using overwhelming firepower and superior tactics to eliminate as many rebels that we can while minimizing our own losses. However, diplomatic officials have suggested using a softer touch to win over the natives, which they claim will stabilize the continent better in the long term. Whichever approach we take, the public demands that our young men return home soon, and leave a stable continent behind. If we fail to satisfy the public, we will surely suffer at the polls."
+TNO_SAF_Aftermath_desc_GER:0 "Larp harder"
+
+Angola_status_progbar_tt:0 "§Y[ANG.GetName]§! §FStability:§! §W[?ANG.OFN_MANDATE_rebel_stability|%1]§!"
+Congo_status_progbar_tt:0 "§Y[COG.GetName]§! §FStability:§! §W[?COG.OFN_MANDATE_rebel_stability|%1]§!"
+EastAfrica_status_progbar_tt:0 "§Y[MZB.GetName]§! §FStability:§! §W[?MZB.OFN_MANDATE_rebel_stability|%1]§!"
+
+ ## Generic Ideas
+ JAP_Plane_Bombing:0 "Japanese Bombing Runs"
+ JAP_Plane_Bombing_desc:0 "The outbreak of war with the Japanese puppet has brought the wrath of the Japanese Air Force down upon us. Bombs rain down upon critical infrastructure and military installations and our ability to offer resistance in the air is minimal.\n\nThis will disrupt the organisation of our forces and will damage domestic support for the war effort, but we have little choice but to press on and hope that this bombardment does not escalate further."
+ JAP_military_advisors:0 "Japanese Military Advisors"
+ JAP_military_advisors_desc:0 "Our friends in Japan have seen fit to dispatch advisors from the IJA to aid our armed forces in the current conflict. With their support we shall see a significant improvement in the overall performance of our soldiers, as well as learning important lessons about modern warfare which will improve the efficiency of our armed forces in the future."
+ JAP_technician_aid:0 "Japanese Technical Aid"
+ JAP_technician_aid_desc:0 "Japan has seen fit to dispatch technicians to aid our war effort and we are already seeing significant benefits to a range of different areas of our military and economy as a result. We can only hope that such aid continues to be forthcoming."
+ JAP_sabotage_effort:0 "Japanese Sabotage Effort"
+ JAP_sabotage_effort_desc:0 "The outbreak of war with the Japanese puppet has resulted in Japanese spies being unleashed against us. A wave of sabotage has swept our country as their agents set to work stealing state secrets, sabotaging military operations, and assassinating officials.\n\nThis is proving detrimental to the war effort, not only because of the direct consequences of the sabotage but also because of the paranoia gripping our government as our own agents struggle to prevent further damage."
+
+ JAP_military_advisors_dynmod:0 "Japanese Military Advisors"
+ JAP_technician_aid_dynmod:0 "Japanese Technical Aid"
+ JAP_sabotage_effort_dynmod:0 "Japanese Sabotage Effort"
+
+ USA_Plane_Bombing:0 "American Bombing Runs"
+ USA_Plane_Bombing_desc:0 "The outbreak of war with the American's puppet has brought the wrath of the US Air Force down upon us. Bombs rain down upon critical infrastructure and military installations and our ability to offer resistance in the air is minimal.\n\nThis will disrupt the organisation of our forces and will damage domestic support for the war effort, but we have little choice but to press on and hope that this bombardment does not escalate further."
+ USA_military_advisors:0 "American Military Advisors"
+ USA_military_advisors_desc:0 "Our friends in the US have seen fit to dispatch military advisors to aid our armed forces. With their support we shall see a significant improvement in the overall performance of our soldiers, as well as learning important lessons about modern warfare which will improve the efficiency of our armed forces in the future."
+ USA_technician_aid:0 "American Technical Aid"
+ USA_technician_aid_desc:0 "The United States has seen fit to dispatch technicians to aid our war effort and we are already seeing significant benefits to a range of different areas of our military and economy as a result. We can only hope that aid such as this shall continue to be forthcoming."
+ USA_sabotage_effort:0 "American Sabotage Effort"
+ USA_sabotage_effort_desc:0 "The outbreak of war with the American puppet has resulted in the CIA being unleashed against us. A wave of sabotage and paranoia has swept our country as their agents set to work stealing state secrets, sabotaging military operations, and assassinating officials.\n\nThis is proving detrimental to the war effort, not only because of the direct consequences of the sabotage but also because of the paranoia gripping our government as our own agents struggle to prevent further damage."
+ USA_rules_of_engagement:0 "Follow Rules of Engagement"
+ USA_rules_of_engagement:0 "The rules of engagement are a set of internal rules and policies defining how, when, and where a soldier can use force. Amid our interventions abroad, the president has issued an order to the secretary of defense mandating that these rules be updated and more strictly enforced. While some criticize this move as forcing the military to fight with "one hand tied behind their back," others believe it will limit potential atrocities and preserve US credibility at home and abroad."
+ USA_War_Immigrants:0 "War Refugees"
+ USA_War_Immigrants_desc:0 "Where war breaks out, Washington is never far behind. While we are beating back the tide of Fascism and Imperialism, there are consequences. Our proxy wars have resulted in thousands of refugees flocking to America. While we may gain more people, the societal tension of a refugee crisis cannot be understated. However, America is nothing without immigrants. Just like the Statue of Liberty says:\n\n"Give me your tired, your poor, Your huddled masses yearning to breathe free.""
+
+ USA_military_advisors_dynmod:0 "American Military Advisors"
+ USA_technician_aid_dynmod:0 "American Technical Aid"
+ USA_sabotage_effort_dynmod:0 "American Sabotage Effort"
+
+ GER_Plane_Bombing:0 "German Bombing Runs"
+ GER_Plane_Bombing_desc:0 "The outbreak of war with the German puppet has brought the wrath of the Luftwaffe down upon us. Bombs rain down upon critical infrastructure and military installations and our ability to offer resistance in the air is minimal.\n\nThis will disrupt the organisation of our forces and will damage domestic support for the war effort, but we have little choice but to press on and hope that this bombardment does not escalate further."
+ GER_military_advisors:0 "German Military Advisors"
+ GER_military_advisors_desc:0 "Our friends in the Reich have seen fit to dispatch advisors from the Wehrmacht to aid our armed forces in the current conflict. With their support we shall see a significant improvement in the overall performance of our soldiers, as well as learning important lessons about modern warfare which will improve the efficiency of our armed forces in the future."
+ GER_technician_aid:0 "German Technical Aid"
+ GER_technician_aid_desc:0 "The Reich has seen fit to dispatch technicians to aid our war effort and we are already seeing significant benefits to a range of different areas of our military and economy as a result. We can only hope that aid such as this continues to be forthcoming."
+ GER_sabotage_effort:0 "German Sabotage Effort"
+ GER_sabotage_effort_desc:0 "The outbreak of war with the German puppet has resulted in the Abwehr being unleashed against us. A wave of sabotage has swept our country as their agents set to work stealing state secrets, sabotaging military operations, and assassinating officials.\n\nThis is proving detrimental to the war effort, not only because of the direct consequences of the sabotage but also because of the paranoia gripping our government as our own agents struggle to prevent further damage."
+
+ GER_military_advisors_dynmod:0 "German Military Advisors"
+ GER_technician_aid_dynmod:0 "German Technical Aid"
+ GER_sabotage_effort_dynmod:0 "German Sabotage Effort"
+
+# Mano Campaign
+USA_manu_campaign_desc: "West Africa has gone from crisis to outright disaster! It was bad enough to see the colors of the PALF, masking those of the Rising Sun, flying over the ruins of democratic nations we failed to defend. Now Japan's bloodthirsty stooges have taken advantage of the Oil Crisis to continue their 'liberation' efforts, striking at Sierra Leone and Liberia.\n\nThese two nations, imperfect as they may be, are the OFN's only friends left in the region. The alternative to victory in this war is absolute Japanese dominance of West Africa and its vast resources. America will not stand by while slavery is reimposed upon Africans - defeat is not an option!"
+JAP_manu_campaign_desc: "Our cohorts in anti-imperialism, the Pan-African Liberation Front, has excelled thus far in West Africa; their defeat of the 'Free' French, even backed by the OFN, proved the righteousness of our cause. Western avarice is no match for the armed wrath of the oppressed. Now, with the Oil Crisis raging, and the PALF relatively unaffected, they have seized the opportunity and struck at the last bastions of imperialism: Sierra Leone and Liberia.\n\nBoth ourselves and the OFN are impacted by the Oil Crisis, but the Americans have still thrown what they can spare into the conflict. If the PALF fais now, West Africa will continue to be threatened by the colonialist boot - we cannot permit that. One last effort to dislodge the imperialists, and the region will be freed at last... and firmly within our sphere."
+
+# Orungu
+
+USA_orungu_alone_desc:0 "damn big PALF!!!"
+USA_orungu_CAF_desc:0 "damn big PALF!!!"
+JAP_orungu_alone_desc:0 "damn big PALF!!!"
+JAP_orungu_CAF_desc:0 "damn big PALF!!!"
