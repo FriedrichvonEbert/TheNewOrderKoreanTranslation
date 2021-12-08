@@ -1112,7 +1112,9 @@
 ###### Decisions
  GGR_match_them_mission:0 "겨루기"
  GGR_ringhorn_bb_mission:0 "링호른 독트린"
+ GGR_ringhorn_bb_mission_tooltip:0 "우리는 미국이나 일본 양 국가가 가진 순양함의 70% 이상의 전함을 가져야 합니다."
  GGR_ringhorn_cv_mission:0 "링호른 독트린"
+ GGR_ringhorn_cv_mission_tooltip:0 "우리는 미국이나 일본 양 국가가 가진 순양함의 70% 이상의 전함을 가져야 합니다."
  GGR_return_to_norway:0 "노르웨이를 스칸디나비아 국가판무관부로 병합"
  GGR_annex_the_netherlands:0 "네덜란드 병합"
  GGR_annex_bohemia:0 "보헤미아 병합"
@@ -1125,7 +1127,11 @@
  GGR_invade_bulgaria:0 "불가리아 침공"
  GGR_enable_hard_mode:0 "설정: 하드 모드 활성화"
  GGR_ignore_enemy_aid_events:0 "설정: 적국 원조 이벤트 감추기"
+ GGR_re_enable_enemy_aid_events:0 "적국 원조 이벤트 다시 켜기"
  GGR_militarist_coup:0 "임박한 군국주의자 쿠데타"
+ 
+ GER_Bohemia_Reconstruction_GGR_A:0 "보헤미아 재건"
+ GER_Bohemia_Reconstruction_GGR_B:0 "보헤미아 재건"
 
  Goring_ITA_great_game_category:0 "시간과의 싸움"
 
@@ -1139,8 +1145,9 @@
  GGR_decrease_military_concern:0 "군사의 우려 감소"
  GGR_decrease_public_concern:0 "대중의 우려 감소"
  GGR_decrease_overal_concern_slow:0 "총체적인 우려 감소"
- GGRCSI_discontinue:0 "GGRCSI 활동 중단"
- GGRCSI_give_schorner_control:0 "GGRCSI 통제권을 쇠르너에게 넘기기"
+ GGRCSI_discontinue:0 "GRWI 활동 중단"
+ GGRCSI_give_schorner_control:0 "GRWI 통제권을 쇠르너에게 넘기기"
+ GGRCSI_getting_shut_down:0 "§RGRWI 완전 해체§!"
 
  # Military demands
 
@@ -1169,7 +1176,7 @@
  GER_GOR_war_plan_c_desc:0 "먼저 우리는 산산조각난 라이히를 평정하였으며, 이후 아돌프 히틀러의 비전을 현실에 재현하면서 유럽의 패권을 다시 확립하였습니다. 이제 우리는 변덕스러온 동맹국들이 우리를 배신하고 러시아 잔당들이 우리 군을 괴롭힐 염려 없이 아돌프 히틀러의 진정한 꿈을 이루며 다시 한 번 승리를 거뒀습니다. 이제 그렇게나 많은 전쟁이 지나간 후 우리는 마침내 막의 종막인 진정한 궁극적인 승리를 향해 가고 있습니다.\n\n이제는 핵 강대국들과 우리 사이에 끼어 있는 작은 국가들만이 남았습니다. 이에는 SS 국가인 부르군트, 퇴폐적인 민주국가인 미국, 그리고 대일본제국이 있습니다. 그들은 지금까지 우리가 맞닥뜨린 어떠한 적보다도 훨씬 강할 것이지만, 그들이 얼마나 많은 핵과 총을 우리에게 겨누는 지에 상관없이 그들은 전부 나약한 운터멘쉬들입니다. 우리는 궁극적인 승리를 향해 행진할 것입니다. 지크 하일!"
  GER_GOR_war_plan_C_new:0 "C호 전쟁계획"
  GER_GOR_war_plan_C_new_desc:0 "하인리히 힘러는 1950년대 우리를 배신하려 하였습니다. 이제 그의 썩어가는 국가 부스러기가 육군 전차의 궤도 밑에서 으스러 터질 것입니다. 무너지는 일본 제국은 약속을 배반하고 추축국에서 깨져나갔는데, 이제 그 국가는 크릭스마리네의 힘에 익사할 것입니다. 부패한 유대-자본주의 미국인들은 독일을 "유럽의 병자"라고 부르면서 스스로를 자화자찬하였지만, 이제 그들은 우리의 영광스러운 루프트바페에 불타버린 자국으로만 남을 것입니다.\n\n마음의 준비를 해야 할 시간이 다가왔습니다. 마지막으로 전 세계의 운명을 바꿀 시간이 왔으며 이제 지구 전체가 아리안 인종의 위엄에 굽힐 것입니다. 전투 준비!"
- GER_GOR_five_year_industrial_plan2:0 "5개년 산업 계획"
+ GER_GOR_five_year_industrial_plan2:0 "4개년 산업 계획"
  GER_GOR_wrangling_the_reichstag:0 "라이크스타크 논쟁"
  GER_GOR_wrangling_the_reichstag_desc:0 "세계적인 석유 파동이 독일을 강타하였습니다. 그동안 우리에게 영향력을 행사해 온 우리 정부 내 군국주의 파벌들은 현재 완전히 분열되어 있습니다.\n\n위기가 초래한 혼란과 격변으로 인해 그들이 가지고 있던 권력 상당수가 일시적으로 사라졌습니다. 쇠르너와 그들의 패거리가 현재 휘두룰 수 있는 힘은 아주 미미합니다.\n\n시간을 헛되이 쓸 수 없습니다! 지금이야말로 이 권력에 굶주린 놈들을 제자리로 돌려보낼 절호의 기회입니다! 괴링과 그의 측근들은 현재 경쟁자들을 행정부에서 뽑아버릴 만한 충분한 힘을 가지고 있습니다. 이 일을 완벽하게 만들 시간은 없습니다. 지금 당장 행동해야 하며, 괴링 총통에게 다시 한번 영원한 라이히를 확보해 주어야 할 때입니다!"
  GER_GOR_the_great_purge_desc:0 "한때 총성과 폭발의 악랄한 불협화음이 들렸던 곳은 이제 따분한 침묵만이 공허함을 채우고 있습니다. 비명소리는 사라지고, 먼지는 가라앉고 있으며 피와 연기의 맛은 아득한 먼 날의 기억처럼 허공에 사라져 가고 있습니다... 하지만 마지막 몸통은 아직도 쓰러지지 않았습니다. 영원한 승리는 혀에 달콤하지만, 이 맛을 망치는 독들이 여전히 곳곳에 남아 있습니다. 라이히 전역의 쓰래기들이 쥐처럼 숨어들어 우리의 가장 비열한 적들을 감추면서 내전의 종결이 자신의 안전을 예고한다고 어리석게 믿고 있습니다.\n\n그들은 틀렸습니다. 슈페어의 거짓말을 맹목적으로 따랐던 자유주의자 쓰래기부터 부패한 현 상태를 지켰던 보르만계 족재비들까지 우리의 대숙청은 배신자를 구하지 않을 것입니다. 제국원수 페르디난트 쇠르너와 국방군의 크나큰 도움을 받아 괴링의 승리가 앞으로도 계속 유지될 것입니다!"
@@ -1189,7 +1196,7 @@
  GER_GOR_war_plan_0_desc:0 "덴마크, 오스트란트, 네덜란드, 보헤미아, 폴란드, 슬로바키아. 모든 여행은 첫걸음에서 시작됩니다. 그리고 라이히의 영광을 되찾는 것은 중유럽에서 정당한 영토를 제빨리 확보하는 데에 있습니다. 이 작전은 0호 전쟁계획이란 이름이 붙어졌습니다. 저항은 헛되고 미미할 것으로 예상됩니다."
  GER_GOR_war_plan_A_desc:0 "중유럽의 라이히 패권이 다시 확립된 지금, 국방군은 이미 발칸반도, 스칸디나비아, 브리튼 제도, 동방의 나머지 국가판무관부를 향해 바라보고 있습니다. A호 전쟁계획은 독일의 철을 통해 이런 중요 지역에 대한 통제권을 확보하는 것을 포함하고 있습니다. 이는 라이히의 내전 이전 영토를 회복하는 것 뿐 아니라 발트해와 발칸에서 여전히 우리에 맞서고 있는 국가들에게 질서를 가져다 줄 것입니다."
  GER_GOR_war_plan_b_desc:0 "대독일국 주변의 붕괴된 국가들을 정복하는 것은 필연적인 일이었습니다. 이제 조국이 우리를 없애러 하는 악랄한 세력들을 분쇄하고 다시 한 번 영원한 유럽의 일인자가 될 시간이 찾아왔습니다. 동쪽에서는 러시아의 썩어가는 잔해 속에서 옹기종기 모여 있는 운터멘쉬들이 누워 있으며, 마지막으로 한 번만 밀어버리면 슬라브 족속 무리들은 진격하는 국방군의 강력한 군홧발 아래에 깔려 압사할 것입니다. 남쪽에서는 계략을 꾸미고 있는 이탈리아인인 정장 입은 원숭이들이 서로 싸우고 야유하는 동안 위험족속인 집시족들이 자유롭게 돌아다니고 있습니다. 일단 라이히가 이베리아와 터키에서 승리를 거둬야만 지중해에 대한 패권을 확보할 수 있으며, 이러면 그 어떤 것도 수 세기 전 로마가 그랬던 것처럼 이탈리아가 무너지는 것을 막을 수 없을 것입니다."
- GER_GOR_five_year_industrial_plan2_desc:0 "우리는 새로워진 독일에 대해 말할 수도 있지만, 이제는 일해야 할 시간입니다. 공장은 폐허가 되었으며, 거리는 돌무더기로 점철되어 있고 밭에는 죽은 자들의 시신이 가득합니다. 라이히 밖에서의 통제를 회복하러는 시도를 하기 전에 우선 우리는 라이히 내의 이런 일부터 바로잡아야 합니다.\n\n자신의 실수를 배우는 것도 좋지만, 우리의 적에게서부터 배우는 것이 더 좋습니다. 소비에트가 있었던 동안 한 두 개 정도는 좋은 생각이 있었으며, 경제적 지혜를 담은 5개년 계획은 총통이 목표로 삼은 것입니다. 우리의 산업 계획자들은 얼마나 빨리 철강 생산량이 내전 이전의 수준으로 되돌아올 수 있을 지에 대한 전망을 작성할 것입니다. 보급 거점 사이에 도로는 얼마나 빨리 재포장될 것이며, 화학 물질 생산량은 얼마나 빨리 확장할 수 있을까요? 마감일은 모든 사람을 더욱 열심히 일하게 만듭니다."
+ GER_GOR_five_year_industrial_plan2_desc:0 "우리는 새로워진 독일에 대해 말할 수도 있지만, 이제는 일해야 할 시간입니다. 공장은 폐허가 되었으며, 거리는 돌무더기로 점철되어 있고 밭에는 죽은 자들의 시신이 가득합니다. 라이히 밖에서의 통제를 회복하러는 시도를 하기 전에 우선 우리는 라이히 내의 이런 일부터 바로잡아야 합니다.\n\n자신의 실수를 배우는 것도 좋지만, 우리의 적에게서부터 배우는 것이 더 좋습니다. 소비에트가 있었던 동안 한 두 개 정도는 좋은 생각이 있었으며, 경제적 지혜를 담은 4개년 계획은 총통이 목표로 삼은 것입니다. 우리의 산업 계획자들은 얼마나 빨리 철강 생산량이 내전 이전의 수준으로 되돌아올 수 있을 지에 대한 전망을 작성할 것입니다. 보급 거점 사이에 도로는 얼마나 빨리 재포장될 것이며, 화학 물질 생산량은 얼마나 빨리 확장할 수 있을까요? 마감일은 모든 사람을 더욱 열심히 일하게 만듭니다."
  
 
 
@@ -1332,7 +1339,8 @@
  GGR_wargames_occurring_tooltip:0 "실행 중인 전쟁계획이 없음"
  GGR_economy:0 "독일 경제"
  #GGR_economy_desc:0 "The German economy should be the envy of the entire world, and for a long time, it truly was. Fueled by our conquests of the lesser nations of Europe, Germany grew strong and prosperous. It is no coincidence that our beloved Führer Herman Göring had a large amount of influence on the economy during those years, his economic genius saving the nation from ruin countless times.\n\nBut as a new decade dawned, we had forgotten how to properly manage our financials. The steady flow of plunder and loot rightfully earned by the Reich through its glorious conquests was stopped in the name of stability, and this act proved itself to be disastrous, as the economy itself ground to a halt soon after.\n\nThe mistakes of the past will not be repeated, and under the guidance of our new Führer, a true economic prodigy, we shall restore Germany to its proper place as the foremost economy of the entire world.\n\nTemporary section for easy development and testing of the economic system\n\nCurrent §Yworker participation§! is: §Y[?GGR_worker_participation|%]§!\nCurrent §wworker enthusiasm§! is: §Y[?GGR_worker_enthusiasm|%]§!\n\nCurrent §jslave participation is:§! §Y[?GGR_slave_participation|%]§!\nCurrent §rslave organisation§! is: §Y[?GGR_slave_organisation|%]§!\n\nCurrent §Oforeign participation§! is: §Y[?GGR_foreign_participation|%]§!\n\nCurrent §Rinflation§! is: §Y[?GGR_inflation|%]§!\nCurrent §Smonetary faith§! is: §Y[?GGR_monetary_faith|%]§!\n\nCurrent §Lcivilian investment§! is: §Y[?GGR_civilian_investment|%]§!\nCurrent §gbanking participation§! is: §Y[?GGR_banking_participation|%]§!\nCurrent §emilitary industrial participation§! is: §Y[?GGR_military_industrial_participation|%]§!"
- GOR_mefo_bills_mission:0 "MEFO 청구서"
+ GOR_mefo_bills_mission:0 "MEFO 어음"
+ TNO_GER_mefo_bills_mission_tt:0 "§Y'MEFO 어음'§!을 6개월 연장 발행은 현행 MEFO 어음의 지급 기한일에 발효합니다.\n\n어음의 각 연장 비용은 시간이 갈수록 늘어날 것입니다."
  GGR_import_slaves:0 "노예 수입"
  GGR_encourage_foreign_trade:0 "대외 무역 추진"
  GGR_cut_down_worker_influence:0 "노동자의 영향력 축소"
@@ -1347,14 +1355,14 @@
  GGR_encourage_the_workers:0 "노동자 격려하기"
  
  GGR_wunderwaffe_projects:0 "대독일국 과학 혁신 기구 (GRWI)"
- GGR_wunderwaffe_projects_desc:0 "대독일국 과학 혁신 기구는 일부에게는 라이히 과학의 미래로 꿈꿔지지만 총통에게는 단순히 군국주의자들의 권력과 영향력을 파괴한다는 최종 목표를 가지고 설립된 또 다른 쓸모 없는 조직입니다. 이 불길한 최종 목표 때문에 우리는 GRWI의 연간 부패율의 배와 같은 금액을 매달 지출해야 합니다. 하지만 GRWI은 공백 상태에서는 운영할 수 없으며 만일 군이나 민간의 우려가 100%에 도달한다면 우리는 전체 작전을 중단해야 합니다.\n§G지출§!: [?GGR_GGRCSI_spending]\n§R부패도§!: [?GGR_GGRCSI_corruption]\n§Y대중의 우려§!: [?GGR_GGRCSI_public_concern]\n§e군의 우려§!: [?GGR_GGRCSI_military_concern]\n[ROOT.GetGGR_nuclear_info_description]"
+ GGR_wunderwaffe_projects_desc:0 "대독일국 과학 혁신 기구는 일부에게는 라이히 과학의 미래로 꿈꿔지지만 총통에게는 단순히 군국주의자들의 권력과 영향력을 파괴한다는 최종 목표를 가지고 설립된 또 다른 쓸모 없는 조직입니다. 이 불길한 최종 목표 때문에 우리는 GRWI의 연간 부패율의 배와 같은 금액을 매달 지출해야 합니다. 하지만 GRWI은 공백 상태에서는 운영할 수 없으며 만일 군이나 민간의 우려가 100%에 도달한다면 우리는 전체 작전을 중단해야 합니다.\n§G지출§!: [?GGRCSI_spending] 백만\n§R부패도§!: [?GGRCSI_corruption|%0]\n§Y대중의 우려§!: [?GGRCSI_public_concern|%0]\n§e군의 우려§!: [?GGRCSI_military_concern|%0]\n[ROOT.GetGGR_nuclear_info_description]"
  GGR_nuclear_info:0 "현재 우리에게는: [?GGRCSI_total_nuclear_reactors]기의 원자로가 존재하며 각각의 원자로마다 [?nuclear_maintenance]M$ 가량의 예산이 1개월마다 사용되고 있습니다. 이 수치는 월단위로 갱신됩니다."
  GGR_nuclear_reactors_required_6:0 "이 디시전을 선택하려면 §Y원자로 6기§!가 필요합니다."
  GGR_nuclear_reactors_required_10:0 "이 디시전을 선택하려면 §Y원자로 10기§!가 필요합니다."
  GGR_nuclear_reactors_required_20:0 "이 디시전을 선택하려면 §Y원자로 20기§!가 필요합니다."
- GGR_nuclear_reactors_required_80:0 "이 디시전을 선택하려면 §Y원자로 80기§!가 필요합니다."
+ GGR_nuclear_reactors_required_50:0 "이 디시전을 선택하려면 §Y원자로 50기§!가 필요합니다."
  GGR_convincing_the_heer:0 "육군의 중앙집중화: [?heer_centralisation]"
- GGR_convincing_the_kriegsmarine:0 "해군의 중앙집중화: [?heer_centralisation]"
+ GGR_convincing_the_kriegsmarine:0 "해군의 중앙집중화: [?kriegsmarine_centralisation]"
 
  
  GGR_westgerman_railroad_contruction:0 "서부독일 철도시스템"
