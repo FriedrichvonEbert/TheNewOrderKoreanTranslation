@@ -1371,15 +1371,19 @@
 
  GGR_loot_category:0 "반드시 닥칠 일을 피해보기"
  GGR_loot_category_desc:0 ""
- GGR_loot_switserland:0 "스위스 약탈 ([?GGR_switserland_loot|Y1000]M$)"
- GGR_loot_netherlands:0 "네덜란드 약탈 ([?GGR_netherlands_loot|Y1000]M$)"
+ GGR_loot_switserland:0 "스위스 약탈 ([?GGR_switserland_loot|Y1000]B$)"
+ GGR_loot_netherlands:0 "네덜란드 약탈 ([?GGR_netherlands_loot|Y1000]B$)"
  GGR_integrate_ostland:0 "오스트란트 통합"
- GGR_loot_ostland:0 "오스트란트 약탈 ([?GGR_ostland_loot|Y1000]M$)"
- GGR_loot_the_balkans:0 "발칸 약탈 ([?GGR_balkan_loot|Y1000]M$)"
- GGR_loot_scandinavia:0 "스칸디나비아 약탈 ([?GGR_scandinavia_loot|Y1000]M$)"
- GGR_loot_ukraine:0 "우크라이나 약탈 ([?GGR_ukraine_loot|Y1000]M$)"
- GGR_loot_moskowien:0 "모스코비엔 약탈 ([?GGR_moskowien_loot|Y1000]M$)"
- GGR_loot_the_isles:0 "브리튼 제도 약탈 ([?GGR_isles_loot|Y1000]M$)"
+ GGR_loot_ostland:0 "오스트란트 약탈 ([?GGR_ostland_loot|Y1000]B$)"
+ GGR_loot_the_balkans:0 "발칸 약탈 ([?GGR_balkan_loot|Y1000]B$)"
+ GGR_loot_scandinavia:0 "스칸디나비아 약탈 ([?GGR_scandinavia_loot|Y1000]B$)"
+ GGR_loot_ukraine:0 "우크라이나 약탈 ([?GGR_ukraine_loot|Y1000]B$)"
+ GGR_loot_moskowien:0 "모스코비엔 약탈 ([?GGR_moskowien_loot|Y1000]B$)"
+ GGR_loot_the_isles:0 "브리튼 제도 약탈 ([?GGR_isles_loot|Y1000]B$)"
+ GGR_loot_iberia:0 "이베리아 약탈 ([?GGR_iberia_loot|Y1000]B$)"
+ GGR_loot_russia:0 "러시아 약탈 ([?GGR_russia_loot|Y1000]B$)"
+ GGR_loot_italy:0 "이탈리아 약탈 ([?GGR_italy_loot|Y1000]B$)"
+ GGR_loot_turkey:0 "터키 약탈 ([?GGR_turkey_loot|Y1000]B$)"
  
  GGR_kriegsmarine_development_category:0 "크릭스마리네 개발"
  GGR_kriegsmarine_development_category_desc:0 "현재 우리 함대의 함선 수 [?GGR_ship_count|Y0], 미국의 함선 수: [?GGR_USA_ship_count|Y0]. 일본의 함선 수: [?GGR_JAP_ship_count|Y0]. 우리는 적 함대의 75% 수준까지 함대규모를 확장시킬 필요가 있으며, 미국을 따라잡기 위해선 [?GGR_USA_ship_target|Y0] 가량이 필요하며 일본을 따라잡기 위해선 [?GGR_JAP_ship_target|Y0] 가량이 필요합니다\n현재 가장 작은 규모의 함대는 [Root.GetGGR_ringhorn_smallest_navy]" 
@@ -1389,17 +1393,17 @@
 
 
  GGR_crack_the_sphere_category:0 "공영권 분쇄"
- GGR_crack_the_sphere_category_desc:0 "박명 상황은 빠른 속도로 계속되어 대일본제국과 공영권을 전부 또는 부분적으로 파괴하러는 우리의 계획이 시작될 것입니다. 우리는 일본의 괴뢰국 내 일본 영향력을 전복시키고 천황에 대한 충성심을 총통에 대한 충성심으로 바꾸기 위해 노력할 것입니다.\n\n§G일본 제국§! [ROOT.GetGGR_japan_tension]\n§G필리핀§! [PHI.GetGGR_sphere_influence]\n§G인도네시아§! [IND.GetGGR_sphere_influence]\n§G버마§! [BUR.GetGGR_sphere_influence]\n§G시암§! [SIA.GetGGR_sphere_influence]\n§G캄보디아§! [CAM.GetGGR_sphere_influence]\n§G라오스§! [LAO.GetGGR_sphere_influence]\n§G베트남§! [VIN.GetGGR_sphere_influence]\n§G쇼난§! [SYO.GetGGR_sphere_influence]\n§G아자드 힌드§! [BEN.GetGGR_sphere_influence]\n[ROOT.GetGGR_warlord_influence]"
+ GGR_crack_the_sphere_category_desc:0 "박명 상황은 빠른 속도로 계속되어 대일본제국과 공영권을 전부 또는 부분적으로 파괴하러는 우리의 계획이 시작될 것입니다. 우리는 일본의 괴뢰국 내 일본 영향력을 전복시키고 천황에 대한 충성심을 총통에 대한 충성심으로 바꾸기 위해 노력할 것입니다.\n\n§G일본 제국§! [ROOT.GetGGR_japan_tension]\n§G필리핀§! [PHI.GetGGR_sphere_influence]\n§G인도네시아§! [INS.GetGGR_sphere_influence]\n§G버마§! [BUR.GetGGR_sphere_influence]\n§G태국§! [THA.GetGGR_sphere_influence]\n§G캄보디아§! [CAM.GetGGR_sphere_influence]\n§G라오스§! [LAO.GetGGR_sphere_influence]\n§G베트남§! [VIN.GetGGR_sphere_influence]\n§G쇼난§! [SHO.GetGGR_sphere_influence]\n§G자유 인도§! [AZH.GetGGR_sphere_influence]\n[ROOT.GetGGR_warlord_influence]"
  
  phi_control_warlord_icon_values:0 "§G필리핀§! [PHI.GetGGR_InfluenceLevel]\n"
  ins_control_warlord_icon_values:0 "§G인도네시아§! [INS.GetGGR_InfluenceLevel]\n"
  bur_control_warlord_icon_values:0 "§G버마§! [BUR.GetGGR_InfluenceLevel]\n"
- sia_control_warlord_icon_values:0 "§G시암§! [SIA.GetGGR_InfluenceLevel]\n"
+ sia_control_warlord_icon_values:0 "§G태국§! [THA.GetGGR_InfluenceLevel]\n"
  cam_control_warlord_icon_values:0 "§G캄보디아§! [CAM.GetGGR_InfluenceLevel]\n"
  lao_control_warlord_icon_values:0 "§G라오스§! [LAO.GetGGR_InfluenceLevel]\n"
  vin_control_warlord_icon_values:0 "§G베트남§! [VIN.GetGGR_InfluenceLevel]\n"
- syo_control_warlord_icon_values:0 "§G쇼난§! [SYO.GetGGR_InfluenceLevel]\n"
- ben_control_warlord_icon_values:0 "§G아자드 힌드§! [BEN.GetGGR_InfluenceLevel]\n"
+ SHO_control_warlord_icon_values:0 "§G쇼난§! [SHO.GetGGR_InfluenceLevel]\n"
+ ben_control_warlord_icon_values:0 "§G자유 인도§! [AZH.GetGGR_InfluenceLevel]\n"
  
  GGR_sphere_influence_1:0 "§e일본에 충성하고 있습니다§!"
  GGR_sphere_influence_2:0 "§S일본에 우호적입니다§!"
@@ -1421,7 +1425,7 @@
  GGR_decrease_german_influence:0 "이 국가는 우리와 일하기를 더 선호할 것입니다."
  GGR_increase_japanese_awarenes_tooltip:0 "일본 제국과의 긴장도가 높아질 것입니다." 
  
- GGR_warlord_influence:0 "[SHX.GetInfluenceBreakdown][SIK.GetInfluenceBreakdown][ETR.GetInfluenceBreakdown][XSM.GetInfluenceBreakdown][HUI.GetInfluenceBreakdown]\n[SIC.GetInfluenceBreakdown][YAA.GetInfluenceBreakdown][YUN.GetInfluenceBreakdown][GUZ.GetInfluenceBreakdown]\n[GXC.GetInfluenceBreakdown][GNG.GetInfluenceBreakdown][MEN.GetInfluenceBreakdown]"
+ GGR_warlord_influence:0 "[SHX.GetInfluenceBreakdown][SIK.GetInfluenceBreakdown][ETR.GetInfluenceBreakdown][QIN.GetInfluenceBreakdown][GAN.GetInfluenceBreakdown]\n[SIC.GetInfluenceBreakdown][XIK.GetInfluenceBreakdown][YUN.GetInfluenceBreakdown][GUZ.GetInfluenceBreakdown]\n[GUX.GetInfluenceBreakdown][GNG.GetInfluenceBreakdown][MEN.GetInfluenceBreakdown]"
 
  GGR_anti_goering_preparation:0 "다가오는 폭풍 준비"
  anti_goering_preparation_desc:0 "전차들이 우리 국경으로 굴러들어오고, 지도자들은 우리의 종말에 대해 소리치며 부하들은 총을 재장전하면서 독일 전쟁기계가 우리 국가를 향해 뚫어저라 보고 있습니다. 독일군은 크지만, 가장 중요한 자원인 시간이 부족합니다. 독일의 경제는 매초마다 침체되고 있으며 우리는 최대한 오랫동안 무너지지 않게 유지해야 합니다. 이를 위해 우리들은 제대로 준비해서 그들의 전차를 우리의 요새가 분쇄시킬 것이며, 그들의 지도자들을 잠못지내게 만들며 그들의 부하들은 단 하나의 목적, 생존이라는 우리 민족의 단결된 의지에 부딪칠 것입니다."
