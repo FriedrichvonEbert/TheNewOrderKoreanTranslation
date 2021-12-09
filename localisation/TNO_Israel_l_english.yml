@@ -1,37 +1,85 @@
 ﻿l_english:
  ISR_fascism:0 "이스라엘"
  ISR_fascism_DEF:0 "이스라엘국"
- ISR_social_liberal:0 "이스라엘"
- ISR_social_liberal_DEF:0 "이스라엘국"
- ISR_market_liberal:0 "이스라엘"
- ISR_market_liberal_DEF:0 "이스라엘국"
- ISR_social_conservative:0 "이스라엘"
- ISR_social_conservative_DEF:0 "이스라엘국"
- ISR_authoritarian_democrat:0 "이스라엘국"
- ISR_authoritarian_democrat_DEF:0 "이스라엘국"
- ISR_social_democrat:0 "이스라엘 공화국"
- ISR_social_democrat_DEF:0 "이스라엘 공화국"
+ ISR_liberal_democracy:0 "이스라엘"
+ ISR_liberal_democracy_DEF:0 "이스라엘국"
+ ISR_conservative_democracy:0 "이스라엘"
+ ISR_conservative_democracy_DEF:0 "이스라엘국"
+ ISR_authoritarian_democracy:0 "이스라엘"
+ ISR_authoritarian_democracy_DEF:0 "이스라엘국"
+ ISR_social_democracy:0 "이스라엘"
+ ISR_social_democracy_DEF:0 "이스라엘국"
  ISR_despotism:0 "이스라엘"
  ISR_despotism_DEF:0 "이스라엘국"
  ISR_communist:0 "이스라엘"
- ISR_communist_DEF:0 "이스라엘 사회주의국"
+ ISR_communist_DEF:0 "이스라엘국"
  ISR_socialist:0 "이스라엘"
- ISR_socialist_DEF:0 "이스라엘 사회주의 공화국"
+ ISR_socialist_DEF:0 "이스라엘국"
  ISR_national_socialism:0 "이스라엘 왕국"
  ISR_national_socialism_DEF:0 "이스라엘 왕국"
- ISR_ultranational_socialism:0 "이스라엘 왕국"
- ISR_ultranational_socialism_DEF:0 "이스라엘 왕국"
+ ISR_ultranationalism:0 "이스라엘 왕국"
+ ISR_ultranationalism_DEF:0 "이스라엘 왕국"
  ISR_fascism_ADJ:0 "이스라엘"
- ISR_social_liberal_ADJ:0 "이스라엘"
- ISR_market_liberal_ADJ:0 "이스라엘"
- ISR_social_conservative_ADJ:0 "이스라엘"
- ISR_authoritarian_democrat_ADJ:0 "이스라엘"
+ ISR_liberal_democracy_ADJ:0 "이스라엘"
+ ISR_conservative_democracy_ADJ:0 "이스라엘"
+ ISR_authoritarian_democracy_ADJ:0 "이스라엘"
  ISR_communist_ADJ:0 "이스라엘"
  ISR_despotism_ADJ:0 "이스라엘"
  ISR_socialist_ADJ:0 "이스라엘"
- ISR_ultranational_socialism_ADJ:0 "이스라엘"
+ ISR_ultranationalism_ADJ:0 "이스라엘"
  ISR_national_socialism_ADJ:0 "이스라엘"
 
+
+
+
+
+
+ #Party Names
+ ISR_communist_party:0 "Maki"
+ ISR_communist_party_long:0 "Miflaga Komunistit Yisra'elit - Maki"
+ ISR_socialist_party:0 "Mapam"
+ ISR_socialist_party_long:0 "Mifleget HaPoalim HaMeuhedet"
+ ISR_social_democracy_party:0 "Mapai"
+ ISR_social_democracy_party_long:0 "Mifleget Poalei Eretz Yisrael"
+ ISR_liberal_democracy_party:0 "Le"
+ ISR_liberal_democracy_party_long:0 "Libralim Atzma'im"
+ ISR_conservative_democracy_party:0 "Herut"
+ ISR_conservative_democracy_party_long:0 "Miflaga Libralit Yisra'elit"
+ ISR_authoritarian_democracy_party:0 "Herut"
+ ISR_authoritarian_democracy_party_long:0 "Ha-'Irgun Ha-Tzva'i Ha-Leumi b-Eretz Yisra'el"
+ ISR_despotism_party:0 "Miflaga Datit Leumit"
+ ISR_despotism_party_long:0 "Mafdal"
+ ISR_fascism_party:0 "Lehi"
+ ISR_fascism_party_long:0 "Lohamei Herut Israel - Lehi"
+ ISR_national_socialism_party:0 "Lehi"
+ ISR_national_socialism_party_long:0 "Lohamei Herut Israel - Lehi"
+ ISR_ultranationalism_party:0 "Kach"
+ ISR_ultranationalism_party_long:0 "Kach"
+ ISR_despotism_party_jrm:0 "JRM"
+ ISR_despotism_party_long_jrm:0 "Tnu'at HaMeri Halvri"
+ 
+ 
+ 
+ 
+ 
+ ##Party Names for Begin Paths##
+ 
+ #ConDem Begin#
+ ISR_social_democracy_party2:0 "Ma'arach"
+ ISR_social_democracy_party_long2:0 "Ma'arach"
+ ISR_conservative_democracy_party2:0 "Likud"
+ ISR_conservative_democracy_party_long2:0 "Likud"
+ ISR_authoritarian_democracy_party2:0 "Miflaga Datit Leumit"
+ ISR_authoritarian_democracy_party_long2:0 "Miflaga Datit Leumit"
+ ISR_fascism_party2:0 "Resimat HaLochamim"
+ ISR_fascism_party_long2:0 "Resimat HaLochamim"
+ 
+ #LibDem Begin# 
+ ISR_conservative_democracy_party3:0 "General Zionists"
+ ISR_conservative_democracy_party_long3:0 "General Zionists"
+ ISR_liberal_democracy_party3:0 "Herut"
+ ISR_liberal_democracy_party_long3:0 "Herut"
+ 
 
 
  #Leader Bios
@@ -39,3 +87,7 @@
  POLITICS_AVRAHAM_STERN_DESC:0 "아브라함 슈테른은 단순히 잔인한 사람 따위가 아닙니다. 아브라함 슈테른을 독재자라고 하는것도 마찬가지입니다. 아브라함 슈테른이 유대국가를 위해 일생을 바쳤다는 것도 한참 부족한 표현입니다. 1907년 러시아에서 태어난 슈테른은 1925년 18세의 나이로 영국령 팔레스타인으로 이민을 갔습니다. 1929년 하가나와 연을 맺으면서 슈테른은 빠르게 급진적으로 변했고, 곧 레반트를 포괄하는 유대국가를 주장하기 시작했습니다. 그는 하가나를 떠나 이르군으로 향했고, 2차 세계대전이 발발하자 자신만의 신념을 위해 이르군을 떠났습니다. 이스라엘의 자유를 위한 무장단체, 레히.\n\n슈테른은 선택받은 사람들을 믿게 되었지만, 독일의 그것과는 다릅니다. 세상의 진정한 주인은 이스라엘의 아이들인 유대인이었습니다. 전쟁 중 슈테른은 독일과 이탈리아 편에 서서 참전하겠다고 제안했지만 아무런 도움도 오지 않았고, 그는 직접 이스라엘을 위해 싸우기로 결심했습니다. 독일에 영감을 받은 권위주의적 이스라엘에 대한 꿈은 이뤄지지 않았지만, 그와 동료군인들을 싸움을 끝내려 하지 않았습니다.\n\n슈테른과 레히는 20년 동안 꿈과 공포로 둘러싸인 삶과 죽음의 그림자를 위해 싸우고 피 흘렸고, 수많은 남자, 여자, 아이들이 전쟁에서 잔인하게 죽음을 당했지만 별로 중요하지 않습니다. 이제 그들의 꿈이 현실이 되었습니다.\n\n이스라엘의 도시와 텔아비브, 예루살렘엔 "수호와 정복"이라는 현수막이 걸려있습니다. 레반트의 많은 민족과 종교의 미래가 어둡다고 말하는 것은 가장 최악의 과소평가입니다."
  POLITICS_Menachem_Begin_DESC:0 "20년 전 유대국가에 대한 꿈은 나치 군화에 깨진 유치한 환상에 불과했지만, 시온은 지중해 댐을 지나 영국, 독일, 이탈리아의 지배로부터 독립한 요르단 강둑에서 나타났습니다. 이 모든 것은 한 사람 덕분이었습니다. 메나헴 베긴은 1913년 여름 브레스트에서 태어났고, 어린 시절부터 가문을 위해 싸웠습니다. 베타르 수정 시온주의 단체에 가입한 베긴은 1942년 팔레스타인으로 보내지기 전 NKVD에 의해 잠시 수감되었습니다. 제브 자보틴스키의 제자이자 수정 시온주의의 아버지인 베긴이 준군사조직 이르군에 합류하는 건 당연한 일이었습니다. 영국과의 협력에 격렬히 반대하며 극단적 수정주의 세력인 레히의 도움으로 무장반란을 일으켰고, 이탈리아 및 독일의 침공에 합세하여 점령군을 팔레스타인 밖으로 내몰았습니다.\n\n베긴의 자유 이스라엘에 대한 꿈은 이탈리아가 군정을 세우면서 산산조각 났고, 이르군은 파시스트들에 맞서기로 결심했습니다.\n\n수 년 동안 그들은 자유를 위해 싸우고 피를 흘렸습니다. 심지어 원래 총독이었던 로돌포 그라치아니를 암살하기도 했습니다. 이제 드디어 때가 왔습니다. 반대파는 그를 권위주의적이고 반민주적 짐승이라고 비난하지만, 오직 베긴만이 레반트에 대한 계획을 가지고 있습니다. 에레츠 이스라엘에 새시대가 밝았고, 메나헴 베긴은 유대인들을 미래로 이끌 것입니다."
  POLITICS_YISRAEL_GALILI_DESC:0 "이스라엘 갈릴리는 여러모로 하가나의 그림자였습니다. 종종 보이진 않지만 항상 존재하는 그런 존재였습니다. 1911년 우크라이나의 외딴 마을에서 태어나 어린 시절 텔아비브로 이주한 어린 이스라엘은 시온주의에 동참하며 이름에 걸맞는 삶을 살았습니다. 하노아르 하오베드의 창립멤버가 되고 노동 시온주의 청년당원이었던 갈릴리는 영국에 맞서 무기를 들고 일찍이 하가나에 입대했습니다. 레반트와 시대의 변화속에서 다재다능한 그는 조직에서 빠르게 승진하여 숙련된 군인일 뿐만 아니라 카리스마 있는 지도자이자 정치가임을 장명했습니다.\n\n지중해에서 새로운 지배자인 로마 독수리가 해안 너머로 날개를 펼치자 그 그림자 아래의 레반트 유대인들은 불확실한 운명을 마주하게 되었습니다. 동맹국인 나치와 사이가 틀어졌지만, 이탈리아는 여전히 유대인들과 불안정한 관계를 유지했고 유대인들의 민족성 보호를 약속했다가도 얼마 지나지않아 그것을 부인했습니다. 하가나의 다른 사람들은 이탈리아에게 유화적인 "기다리자"는 태도를 장려했지만, 갈릴리는 제국의 날개를 잘라내기 위해 유대인들이 무기를 들 것을 강력하고 일관되게 요구했습니다.\n\n하가나와 라이벌 이르군 사이의 긴장이 고조되자 갈릴리는 연합된 유대인 전선을 주장했고, 레반트에서 하라키인 활동이 급증하면서 공동전선은 실현되었습니다. 이탈리아는 이 지역이 공산주의자들에게 넘어가지 않도록 하기 위해 유대인 군대를 구걸할 수 밖에 없었습니다. 이에 따라 갈릴리와 그의 가장 가까운 동맹인 (소문에 따르면) 노련한 정치인 골다 메이어는 유대국가 뿐만 아니라 레반트에 항구적인 평화를 이룩해야 하는 어려운 과제에 직면하게 되었습니다. 그들이 성공할지는 아마 성지 위에서 비밀을 속삭이는 고대의 바람만이 알고 있을 것입니다."
+ POLITICS_SHIMON_PERES_DESC:0 "If the whole person of Shimon Peres could be summed up in a single expression, it would be "Bitzo'ist," Hebrew for "One who does his work."\n\nBorn in the Polish republic in 1923, (due to a local scholar's blessing no less, he claims) Peres's family made aliyah in 1934, and the boy was plunged headfirst into Mandatory Palestine's world of Levantine Jewish politics. Already a hard working man ever since his Youth, Peres dedicated his life to politics and to Zionism, eventually emerging as a preeminent member of David Ben Gurion's youth circles, and inheriting many of the ideas of Israel's founding father. In the kibbutzes and the party meeting halls, he did his work.\n\nA Labour Zionist at heart, and one known for his willingness to cooperate and sympathise with the native Arabs, it is no surprise that he was one of the few prominent voices that passionately argued for the creation of the Levantine Union, in his own words the only way to build lasting peace in a Levant cannibalised by decades of occupation - and the only way forward towards his dream of Jewish and Arab co-existence. Within the party itself, these views have made him remarkably unpopular despite his well-known dedication and industriousness, making it unlikely for him to secure serious power were it not for the intercession of his own mentor in a quest to secure a young and promising leader in his image, divorced from Mapai's scars and grudges, fuelled by the passion of youth, and devoted only to the development of the Zionist nation. Peres, for his part, has proven himself to be all of these and more, and for all his detractors had to say, Shimon Peres was a man of labour. In the councils of Mapai and the explosive rallies of Tel Aviv, he did his work.\n\nWith this support, Peres has quickly overtaken his sole competitor in the hawkish Golda Meir, and walks the minefields of Levantine politics confidently, always gazing towards the stars - and towards a future peace. When it comes to that, much work remains to be done."
+ POLITICS_GOLDA_MEIR_DESC:0 "One cannot try to erase the past merely because it does not fit the present. That is something every Jew knows very well. The memories of the horrors and massacres they had to suffer century after century is ingrained into the souls of every child of Israel. It is thus not surprising, now that the Jews have a nation of their own, that they turn over to nationalism and militarism. And among the players inside the Knesseth, nobody has capitalized on these feelings better than Golda Meir, the "Iron Lady" of Israel.\n\nBorn in Kiev during the late days of the Russian Empire, Golda Meir's earliest memories were of her father boarding up the front door in response to rumours of an imminent pogrom, and the death of five of her siblings due to poverty. The hardships felt during childhood shaped her personality and when she emigrated with her family to America, young Meir displayed strong leadership skills and a keen interest in politics. At the age of 14, she moved to her sister's house in Denver and it was there Meir came into contact for the first time with Zionist thought. This was the beginning of her career in politics and as an advocate for Zionism, emigrating with her husband in Israel in 1921 and being elected secretary of the largest Jewish female union in the country. From there, she continued to rise the ranks of Israeli politics and to campaign for the Zionist cause in America. Even with the collapse of British rule in the Levant and the establishment of the Italian military administration, Meir still remained untouchable to authorities, as she took the lead of the "Bitchonist" faction, or the old guard, of Haganah, in opposition to the "Bitzoist" faction, the young guard composed of new settlers who seek collaboration with the Arabs.\n\nNow, as the Italian rule of the Levant is no more and the Jews have regained their homeland after 2000 years, Meir finds herself leading this new nation, where Jewish people will not have to collaborate with the Arab or the imperialist. Meir strongly believes that Israel must first of all fight for itself, and become the dominant force in the Levant. Peace for the Yishuv will only come when the surrounding nations respect their strength of arms. David Ben Gurion will eventually go, and perhaps after the old father fades, Mother Hawk will rise."
+ POLITICS_DAVID_BEN_GURION_DESC:0 "If you had to describe Jewish history in one word it would be sacrifice. Since the diaspora it was only with countless sacrifices that Jewish identity was preserved, the fathers protecting their children so that they may live on. And when the Jewish people finally got their own nation, it was to their father that they turned to find leadership and safety. And although David Ben Gurion wants nothing more than to rest, he will once more put the needs of Israel before his own.\n\nBorn as David Grün in Russian occupied Poland in 1886, David Ben Gurion was an ardent Labor Zionist since his youth teaching Hebrew in Warsaw. His commitment to the cause was so strong that in 1906 he was one of the first Jews to emigrate to Palestine with the express purpose of creating a Jewish homeland in the Holy Land, facing mistrust from the locals and violence from the Ottoman army. With the outbreak of World War One, Ben Gurion was deported to Egypt where he enrolled under the Jewish Legion of the British Army that liberated Palestine from Ottoman occupation and placed it under a British mandate. But the struggle was not over yet, as Ben Gurion realized soon the need for the Jewish people to defend themselves, so he founded the Haganah, the main paramilitary group of the Yishuv. Its pro-British leanings, however, didn't help much when the Italians invaded Palestine and established their own colony, marking the beginning of a new struggle for the Yishuv, one where Ben Gurion decided to not openly resist this new occupation, instead he would pressure Italy into allowing statehood for Jews. This decision was deeply unpopular among the Yishuv and within the Haganah itself, but Ben Gurion, now at the lead of the organization, stuck to his resolution and managed to achieve the impossible: founding a state for the Yishuv, granted from those who persecuted them just years ago.\n\nNow Ben Gurion stands tall, finally reaching the goal he has fought for so long - Zion has been found. But he does not want to keep this power for himself, instead he sees the future of the nation in the hands of the young, those who have given their blood and tears to form the nation - and perhaps they shall be the ones who truly find peace at home. He does not know if he will live to see that day; he only knows how tired - and old - he is. How much longer until an old man can rest?"
+ 
