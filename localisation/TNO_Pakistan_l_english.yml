@@ -5,16 +5,16 @@
  ###########
  PAK_communist_party:0 "CPP"
  PAK_communist_party_long:0 "파키스탄 공산당"
- PAK_social_democrat_party:0 "PPP"
- PAK_social_democrat_party_long:0 "파키스탄 인민당"
- PAK_social_liberal_party:0 "UOP"
- PAK_social_liberal_party_long:0 "연합야당"
- PAK_social_conservative_party:0 "ML"
- PAK_social_conservative_party_long:0 "무슬림 연맹"
- PAK_authoritarian_democrat_party:0 "CML"
- PAK_authoritarian_democrat_party_long:0 "연합 무슬림 연맹"
+ PAK_social_democracy_party:0 "PPP"
+ PAK_social_democracy_party_long:0 "파키스탄 인민당"
+ PAK_liberal_democracy_party:0 "UOP"
+ PAK_liberal_democracy_party_long:0 "연합야당"
+ PAK_conservative_democracy_party:0 "ML"
+ PAK_conservative_democracy_party_long:0 "무슬림 연맹"
+ PAK_authoritarian_democracy_party:0 "CML"
+ PAK_authoritarian_democracy_party_long:0 "연합 무슬림 연맹"
  PAK_despotism_party:0 "Razakars"
- PAK_ultranational_socialism_party:0 "무자헤딘"
+ PAK_ultranationalism_party:0 "무자헤딘"
  
  ###########
  ##Faction##
@@ -70,67 +70,3 @@
  PAK_Sajid_Mir_eco:0 "사지드 미르"
  PAK_Ehsan_Elahi_Zaheer_for:0 "에산 일라히 자히르"
  PAK_Sufi_Muhammad_sec:0 "수피 무하마드"
- 
- #############
- ##Decisions##
- #############
- PAK_Pakistani_Insurgency_Cat:0 "[PAK_PakistanInsurgency]"
- PAK_Pakistani_Insurgency_Cat_desc:0 "1800년대 이후 힌두교인들은 우리 땅을 점령했고, 우리 위에 군림하고, 일어나지 않은 소위 테러에 근거하여 우리를 억압했습니다. 하지만 더는 아닙니다! 우리는 우리의 자유를 위해 우리를 공과 사슬에 묶이게 하는 힌두교도와 싸울 것입니다. 순수한 땅의 자유와 우르두의 해방을 위해! [PAK.GetNameDEF]가 파키스탄을 위해 싸웁니다!"
- PAK_Rise_up_in_Indian_Lands:0 "인도에서의 봉기"
- PAK_low_level_insurgency_tt:0 "우리는 낮은 수준의 반란을 진압하고 있습니다."
- PAK_insurgency_cooldown_tt:0 "우리의 마지막 봉기가 있은 지 60일이 넘었다."
- PAK_Rise_up_in_Indian_Lands_tt:0 "우리는 [RAJ.GetNameDEF]가 점거하고 있는 우리 땅에서 민중 봉기를 시작할 것입니다."
- PAK_Rise_up_in_Afghan_Lands:0 "아프간에서의 봉기"
- PAK_Rise_up_in_Afghan_Lands_tt:0 "우리는 [AFG.GetNameDEF]가 점거하고 있는 우리 땅에서 민중 봉기를 시작할 것입니다.\n"
- PAK_PakistanInsurgency_MKF_loc:0 "위대한 해방 전쟁"
- PAK_PakistanInsurgency_Mujahideen_loc:0 "파키스탄의 지하드"
- PAK_PakistanInsurgency_India_loc:0 "파키스탄의 반란"
- 
- #########
- ##Ideas##
- #########
- PAK_Jihad_for_Freedom:0 "자유를 위한 지하드"
- PAK_Go_It_Alone:0 "혼자 힘으로"
- 
- ########
- ##Foci##
- ########
- ##War Tree##
- PAK_War_The_Hour_Has_Come:0 "때가 왔다"
- PAK_War_A_Democratic_Republic:0 "민주 공화국"
- PAK_War_A_Nonpartisan_Struggle:0 "초당파 투쟁"
- PAK_War_Communists_and_Conservatives_Alike:0 "공산주의자와 보수주의자 모두 똑같이"
- PAK_War_An_Appeal_to_the_Free_World:0 "자유세계와"
- PAK_War_And_the_Not_So_Free:0 "...자유롭지 못한 세계에 대한 호소"
- PAK_War_Secularism:0 "세속주의"
- PAK_War_Diversity:0 "다양성"
- PAK_War_Freedom:0 "자유"
- PAK_War_Hold_Free_Elections:0 "자유 선거 실시"
- PAK_War_The_Iron_Fist:0 "철권"
- PAK_War_Crack_Down_on_Liberties:0 "자유 탄압"
- PAK_War_A_Tight_Leash:0 "단단한 사슬"
- PAK_War_Strengthen_the_Razakars:0 "라자카르 강화"
- PAK_War_Cry_for_Help:0 "도움 요청"
- PAK_War_Faith:0 "믿음"
- PAK_War_Unity:0 "단결"
- PAK_War_Discipline:0 "규율"
- PAK_War_Hold_Fair_Elections:0 "공정 선거 실시"
- PAK_War_Our_Afghan_Brothers:0 "우리 아프간 형제들"
- PAK_War_Call_for_Aid:0 "원조 요청"
- PAK_War_A_Brotherhood_of_Islam:0 "이슬람 형제단"
- PAK_War_Request_Money_For_Razakar_Regiments:0 "라자카르 연대 자금 요청"
- PAK_War_An_Alliance_of_Gain:0 "이익의 동맹"
- PAK_War_An_Alliance_of_Respect:0 "존중의 동맹"
- PAK_War_A_Helping_Hand:0 "도움의 손길"
- PAK_War_Remember_the_Acronym:0 "약자를 기억해라"
- PAK_War_Afghania:0 "아프가니아"
- PAK_War_Balochistan:0 "발루치스탄"
- PAK_War_Deliver_an_Ultimatum:0 "최후 통첩 전달"
- PAK_War_Pakistan_Never_Forgets:0 "파키스탄은 절대 잊지 않는다"
- PAK_War_Unite_Pakistan:0 "하나된 파키스탄"
- PAK_War_Go_It_Alone:0 "혼자 힘으로"
- PAK_War_Pak_Sarzamin:0 "성지에서"
- 
- ##########
- ##Events##
- ##########
