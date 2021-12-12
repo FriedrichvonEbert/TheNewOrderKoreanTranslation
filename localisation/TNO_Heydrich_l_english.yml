@@ -2,16 +2,16 @@
 
  ### Country Names ###
  
- HGR_burgundian_system:0 "하이드리히의 독일"
- HGR_burgundian_system_DEF:0 "하이드리히의 독일"
- HGR_burgundian_system_ADJ:0 "독일"
+ HGR_esoteric_nazism:0 "하이드리히의 독일"
+ HGR_esoteric_nazism_DEF:0 "하이드리히의 독일"
+ HGR_esoteric_nazism_ADJ:0 "독일"
 
  ### Parties ###
  
  HGR_national_socialism_party:0 "NSDAP"
  HGR_national_socialism_party_long:0 "국가사회주의 독일 노동자당"
- HGR_burgundian_system_party:0 "NSDAP - SS 파벌"
- HGR_burgundian_system_party_long:0 "국가사회주의 독일 노동자당"
+ HGR_esoteric_nazism_party:0 "NSDAP - SS 파벌"
+ HGR_esoteric_nazism_party_long:0 "국가사회주의 독일 노동자당"
  
  ### Leaders ###
  
@@ -112,7 +112,6 @@
  HGR_construction_speed_large:0 "품질을 희생하여 건설 속도를 눈에 띄게 증가시킵니다."
  HGR_speed_boost_plans:0 "완성 후 건설이 더 효율적으로 진행될 것입니다."
  HGR_speed_boost_report:0 "건설이 더 효율적으로 진행될 것입니다."
- 
  HGR_nuke_material_small:0 "우리의 핵물질 비축량이 약간 증가할 것입니다."
  HGR_nuke_material_medium:0 "우리의 핵물질 비축량이 어느 정도 증가할 것입니다."
  HGR_nuke_material_large:0 "우리의 핵물질 비축량이 눈에 띄게 증가할 것입니다."
@@ -121,6 +120,9 @@
  HGR_production_speed_large:0 "품질을 희생하여 생산속도를 눈에 띄게 증가시킵니다."
  HGR_speed_boost_plans_nukes:0 "완성 후 생산이 더 효율적으로 진행될 것입니다."
  HGR_speed_boost_report_nukes:0 "생산이 더 효율적으로 진행될 것입니다."
+ 
+ HGR_breakaways_tt:0 "§ROptions are now avaiable to deal with the splinters.§!"
+ HGR_debt_is_meaningless_TT:0 "§RWith the Reich fractured and the World at the brink, debt and debtors have become meaningless.§!"
  
  HGR_the_game_begins_tt:0 "게르마니아 전투에서 승리했습니다. 이제 §Y세상의 운명§!을 건 투쟁이 시작됩니다."
  HGR_all_eyes_on_heydrich_tt:0 "산산조각난 라이히의 각 세력에 §Y영향력§!을 행사하는 결정을 §G해금§!합니다."
@@ -244,13 +246,13 @@
  HGR_promises_of_power_tt:0 "새로운 §Y결정§!을 사용할 수 있습니다."
  HGR_josias_refusal:0 "§R요지아스가 우리와 함께하기를 거부하였습니다.§!"
 
- HGR_incorporate_SSL_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 조직력§! §G+5%§!\n§Y소비재 공장§! §G-10%§!"
+ HGR_incorporate_SSL_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 조직력§! §G+5%§!\n§Y필요 소비재§! §G-10%§!"
  HGR_incorporate_SSW_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 조직력§! §G+2.5%§!\n§Y사단 회복률§! §G+12.5%§!\n§Y건설 속도§! §G+10%§!"
  HGR_incorporate_AGS_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 조직력§! §G+2.5%§!\n§Y사단 속도§! §G+10%§!\n§Y육군 경험치 획득§! §G+15%§!\n§Y전쟁 지지도§! §G+10%§!"
  HGR_incorporate_KHP_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 회복률§! §G+5%§!\n§Y사단 속도§! §G+5%§!\n§Y육군 경험치 획득§! §G+10%§!\n§Y전쟁 지지도§! §G+10%§!"
- HGR_incorporate_SSN_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 회복률§! §G+20%§!\n§Y요새 건설 속도§! §G+5%§!\n§Y건설 속도§! §G+10%§!\n§Y소비재 공장§! §G-7.5%§!"
+ HGR_incorporate_SSN_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 회복률§! §G+20%§!\n§Y요새 건설 속도§! §G+5%§!\n§Y건설 속도§! §G+10%§!\n§Y필요 소비재§! §G-7.5%§!"
  HGR_incorporate_KLB_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y복호화§! §G+15%§!\n§Y암호화§! §G+15%§!\n§Y요새 건설 속도§! §G+10%§!"
- HGR_incorporate_FSP_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 조직력§! §G+5%§!\n§Y건설 속도§! §G+15%§!\n§Y소비재 공장§! §G-2.5%§!"
+ HGR_incorporate_FSP_tt:0 "§YSS이상파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 조직력§! §G+5%§!\n§Y건설 속도§! §G+15%§!\n§Y필요 소비재§! §G-2.5%§!"
  HGR_incorporate_BEL_tt:0 "§YSS실용파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 방어§! §G+5%§!\n§Y사단 공격§! §G+5%§!\n§Y보급 소모§! §G-5%§!"
  HGR_incorporate_DSH_tt:0 "§YSS실용파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 회복률§! §G+5%§!\n§Y정치력 획득§! §G+10%§!\n§Y보급 소모§! §G-10%§!"
  HGR_incorporate_APF_tt:0 "§YSS실용파 지원§!의 효과가 §Y변경§!됩니다.\n§Y사단 공격§! §G+10%§!\n§Y보급 고갈§! §G-15%§!"
@@ -259,7 +261,7 @@
  HGR_incorporate_AUS_tt:0 "§YSS실용파 지원§!의 효과가 §Y변경§!됩니다.\n§Y복호화§! §G+25%§!\n§Y암호화§! §G+25%§!\n§Y보급 소모§! §G-5%§!\n§Y보급 고갈§! §G-30%§!"
  HGR_incorporate_OER_tt:0 "§Y군국주의자 지원§!의 효과가 §Y변경§!됩니다.\n§Y징병 가능 인구 획득치§! §G+10%§!\n§Y육군 경험치 획득§! §G+15%§!\n§Y사단 공격§! §G+10%§!"
  HGR_incorporate_DSG_tt:0 "§Y군국주의자 지원§!의 효과가 §Y변경§!됩니다.\n§Y해군 경험치 획득§! §G+25%§!\n§Y함대 조직§! §G+20%§!\n§Y상륙작전 속도§! §G+25%§!"
- HGR_incorporate_ISS_tt:0 "§Y군국주의자 지원§!의 효과가 §Y변경§!됩니다.\n§Y공장 생산력§! §R+20%§!\n§Y합성 정유§! §R+15%§!\n§Y소비재 공장§! §R+10%§!"
+ HGR_incorporate_ISS_tt:0 "§Y군국주의자 지원§!의 효과가 §Y변경§!됩니다.\n§Y공장 생산력§! §R+20%§!\n§Y합성 정유§! §R+15%§!\n§Y필요 소비재§! §R+10%§!"
  HGR_incorporate_FHH_tt:0 "§Y온건파 지원§!의 효과가 §Y변경§!됩니다.\n§Y복호화§! §G+30%§!\n§Y암호화§! §G+30%§!\n§Y정치력 획득§! §G+25%§!"
  HGR_incorporate_OKL_tt:0 "§Y온건파 지원§!의 효과가 §Y변경§!됩니다.\n§Y공군 경험치 획득§! §G+25%§!\n§Y지상 지원§! §G+15%§!\n§Y제공권§! §G+15%§!"
  HGR_incorporate_FPG_tt:0 "§Y온건파 지원§!의 효과가 §Y변경§!됩니다.\n§Y정찰§! §G+25%§!\n§Y소모율§! §G-10%§!\n§Y사단 조직력§! §G+15%§!"
@@ -418,17 +420,17 @@
  HGR_native_appeal_1:0 "§e토착민§! 지도자와의 만남"
  HGR_native_appeal_2:0 "§e노예 송환 계획§! 논의"
 
- increase_Heydrich_influence_tiny_tt:0 "Slightly increases loyalty to §GHeydrich§!.\n"
- increase_Heydrich_influence_small_tt:0 "Somewhat increases loyalty to §GHeydrich§!.\n"
- increase_Heydrich_influence_medium_tt:0 "Increases loyalty to §GHeydrich§!.\n"
- increase_Heydrich_influence_large_tt:0 "Greatly increases loyalty to §GHeydrich§!.\n"
- increase_Heydrich_influence_huge_tt:0 "Decisively increases loyalty to §GHeydrich§!.\n"
+ increase_Heydrich_influence_tiny_tt:0 "§G하이드리히§!를 향한 충성심이 아주 조금 늘어납니다.\n"
+ increase_Heydrich_influence_small_tt:0 "§G하이드리히§!를 향한 충성심이 조금 늘어납니다.\n"
+ increase_Heydrich_influence_medium_tt:0 "§G하이드리히§!를 향한 충성심이 늘어납니다.\n"
+ increase_Heydrich_influence_large_tt:0 "§G하이드리히§!를 향한 충성심이 많이 늘어납니다.\n"
+ increase_Heydrich_influence_huge_tt:0 "§G하이드리히§!를 향한 충성심이 매우 많이 늘어납니다.\n"
 
- increase_Himmler_influence_tiny_tt:0 "Slightly increases loyalty to §EHimmler§!.\n"
- increase_Himmler_influence_small_tt:0 "Somewhat increases loyalty to §EHimmler§!.\n"
- increase_Himmler_influence_medium_tt:0 "Increases loyalty to §EHimmler§!.\n"
- increase_Himmler_influence_large_tt:0 "Greatly increases loyalty to §EHimmler§!.\n"
- increase_Himmler_influence_huge_tt:0 "Decisively increases loyalty to §EHimmler§!.\n"
+ increase_Himmler_influence_tiny_tt:0 "§E힘러§!를 향한 충성심이 아주 조금 늘어납니다.\n"
+ increase_Himmler_influence_small_tt:0 "§E힘러§!를 향한 충성심이 조금 늘어납니다.\n"
+ increase_Himmler_influence_medium_tt:0 "§E힘러§!를 향한 충성심이 늘어납니다.\n"
+ increase_Himmler_influence_large_tt:0 "§E힘러§!를 향한 충성심이 많이 늘어납니다.\n"
+ increase_Himmler_influence_huge_tt:0 "§E힘러§!를 향한 충성심이 매우 많이 늘어납니다.\n"
  
  increase_native_HGR_Heydrich_Influence_Bonus_Mult_Small:0 "Our §Yinfluence efforts§! focused at §enative§! factions will be §Gslightly more effective§!."
  increase_native_HGR_Heydrich_Influence_Bonus_Mult_Med:0 "Our §Yinfluence efforts§! focused at §enative§! factions will be §Gmoderately more effective§!."
@@ -747,7 +749,7 @@
  HGR_burgerkreig_desc:0 "우리는 국가의 종말이라는 결과를 맞닥뜨렸습니다. 불결한 피와 종말의 폭풍이 집과 대지와 산을 휩쓸고 있습니다. 종말의 길에는 총통님의 진정한 후계자이자 독일 SS의 수장이였던 라인하르트 하이드리히라는 사람이 서 있습니다. 순수한 아리아인을 위해, 국가의 미래를 위해, 영광스러운 독일의 구원을 위해서 그는 반드시 승리해야 한다는 사명감을 가지고 있습니다. 하일 하이드리히!"
  HGR_burgundische_SS:0 "부르군트-SS"
  HGR_burgundische_SS_desc:0 "부르군트 SS는 가장 충성스럽고 참된 병사들입니다. 그들만이 총통에 대한 절대적인 복종, 끊임없는 유혹으로부터의 저항, 100% 순종 아리아인이라는 3개의 특성을 가지고 있을 것입니다. 맞은편인 독일-SS는 충성심이 강하지만, 히틀러의 허약한 영향을 많이 받았으며, 바펜-SS는 지나치게 미화된 용병에 그치지 않습니다. 순수한 혈통만이 승리를 확보할 수 있습니다."
- HGR_a_helping_hand:0 "도움의 손길"
+ HGR_a_helping_hand:0 "도움의 손길을."
  HGR_a_helping_hand_desc:0 "위대한 힘러 친위대장께서 모든 자원을 동원하여 우리를 돕겠다고 약속했습니다. 총, 보급품, 장비, 항공기, 트럭 등 우리에게 필요한 모든 물품을 제공받기로 결정했습니다. 그리고 부르군트의 순수한 아리아인 형제들이 라인강을 넘기 시작했다는 것입니다. 엘자스 로트링겐의 언덕은 군화의 행진 소리로 다시 한번 메아리칠 것입니다."
  HGR_advisor_staff:0 "군사고문"
  HGR_advisor_staff_desc:0 "As Reichsführer Himmler has correctly assessed, the officers at our disposal are not... adequate for our purposes. There are too many factors that make them inherently unreliable: familial ties, material possessions, self-aggrandizement. Officers sourced directly from Ost-Paris, the heart of Burgundy itself, are the cream of the crop, and Himmler has generously agreed to send a number of them to aid us. They will serve in direct advisory roles, as well as keep an eye on the lesser men of the Deutsch-SS."
@@ -1442,57 +1444,11 @@
  HGR.7.desc:0 "In perhaps the first rational move the degenerate Speidel has made yet, he and his cowardly commander Rommel ordered a stand-down of all their soldiers and allowed us passage into Germania. Although the Welthauptstadt has been corrupted by greed, degeneracy, and chaos, the rightful Führer, Heydrich, will quickly ensure that these practices come to an end.\n\nThe end of the long and brutal German Civil War would normally be a joyous time for Germany, but the streets of Germania are empty. Citizens have locked themselves in their homes in fear, with some of the more daft Germanians even attempting Communist-like partisan attacks. These attackers, however, were made short work of, and the partisans we captured have been executed publicly to set an example. The new rules the German public must follow to ensure the Aryan ideals thrive shall be met, finally, and the rightful Führer now stands with a united Reich we have been fighting for."
  HGR.7.a:0 "Deutschland über alles."
  
- HGR.8.t:0 "Speidel Refuses Surrender!"
+ HGR.8.t:0 "슈파이델이 항복하길 거부하다!"
  HGR.8.desc:0 "From the beginning, we have been prepared to fight for our Welthauptstadt. After all, degenerates will fight the hardest to retain their ideology of sin. To this end, we have been proven correct: Speidel has predictably declared that Germania will never fall to the forces of Himmler and his puppet, and has called all Germanians to fight against us. Even if our people have raised us concerns on the future state of Germania, whether it will survive the fighting, we are confident enough in our SS to purge the pure capital belonging to the Aryan citizen of any degenerates while ensuring unity and peace remains. The important news, most of all, is that Speidel does not wish to end his little charade.\n\nThe Führer will fix that."
  HGR.8.a:0 "The strongest shall survive."
  
- HGR.9.t:0 "Anarchy Reigns"
- HGR.9.desc:0 "The war has dragged on, famine has begun spreading across the cities as food and water has become a harder found resource than any other. The men are all gone, dead or dying by choice or by force on the battlefield. Millions are dead, and the major cities of Germany have been absolutely wiped out, none free from some form of devastation or another. As more and more of the little remaining infrastructure becomes victim to various war efforts, food and supplies no longer move around, and the famine only gets worse, disease quickly following along with it.\n\nThis is the true beginning of what people are calling the German Anarchy, and the worst has yet to come."
- HGR.9.a:0 "Rocks fall everyone dies." 
-
- HGR.10.t:0 "The Dutch send volunteers"
- HGR.10.desc:0 "Now that the dust has settled in the RK Niederlande and Feldmeijer is in charge, the new Dutch government has decided to gather and train a division of volunteers to send us."
- HGR.10.a:0 "Our thanks to the Dutch"
- 
- HGR.15.t:0 "The Germania Corridor?"
- HGR.15.desc:0 "Placeholder"
- HGR.15.a:0 "Placeholder"
- HGR.15.b:0 "Placeholder"
- HGR.15.c:0 "Placeholder"
- 
- HGR.16.t:0 "Escalate the conflict with Speidel?"
- HGR.16.desc:0 "Placeholder"
- HGR.16.a:0 "Yes"
- HGR.16.b:0 "Just take more territory"
- HGR.16.c:0 "Maybe later"
- 
- HGR.17.t:0 "Escalate the conflict with Speidel?"
- HGR.17.desc:0 "Placeholder"
- HGR.17.a:0 "Yes"
- HGR.17.b:0 "Just take more territory"
- HGR.17.c:0 "Maybe later"
- 
- HGR.18.t:0 "Escalate the conflict with Speidel?"
- HGR.18.desc:0 "Placeholder"
- HGR.18.a:0 "Yes"
- HGR.18.b:0 "Just take more territory"
- HGR.18.c:0 "Maybe later"
- 
- HGR.19.t:0 "Make a move on Germania?"
- HGR.19.desc:0 "Placeholder"
- HGR.19.a:0 "Quickly! To Germania!"
- HGR.19.b:0 "This is not in our interest."
- 
- HGR.20.t:0 "The Scramble for Germania"
- HGR.20.desc:0 "Placeholder"
- HGR.20.a:0 "Quickly! To Germania!"
- HGR.20.b:0 "This is not in our interest."
- 
- HGR.21.t:0 "The Reaper Arrives in Germania"
- HGR.21.desc:0 "Despite the resistance of Hans Speidel and the best efforts of our adversaries for the leadership of the Reich in the hellish struggle for Germania, the SS have managed to finally secure the capital, and have already begun to fortify the city against or enemies. Field Marshal Speidel has reportedly been arrested and is now awaiting trial, which must now wait until after the war is concluded.\n\nShockwaves off the capture of Germania have already affected the morale of our opposition, with the fact that even the combined forces of Bormann, Göring, and Speer not being enough to halt the dark prince's advance causing great unease internationally. Whilst an eerie silence has taken over the city as the population wait to see what lays in store for them now, we know that it will not be long until all of Germany is subdued under the black boot of the SS."
- HGR.21.a:0 "Darkness surrounds us."
-
- HGR.22.t:0 "The Ultimatum"
+ HGR.22.t:0 "최후통첩"
  HGR.22.desc:0 "Germania was alight with activity.\n\nSpeidel read lists, reports, catalogs, inventories, records and registers, rolls, files, dockets, and two different dossiers in the middle of what was once a park in downtown Germania, and was now Staffenberg's headquarters along the southern flank.\n\nThe lists contained information on their supplies. How much ammo they had, how much ammo they needed, how much ammo they expected to be lost if the enemy dedicated themselves to sabotage, how much ammo was to be lost in the more likely scenario that the enemy dedicated themselves to bombarding them, how much food they had, how long the food would last in siege, how long rations would last if civilians were put on a single meal a day, how much food would be saved if militia forces were also put on a single meal, how much food would be saved if they all just ate a single meal a day, which parts of the city were the most well barricaded, which parts were the least, where the enemy would most likely attack, where they wouldn't attack (which means they very might do so in an attempt to surprise them), most likely composition of enemy forces, amount of armored support they had, how much aircraft they could field, the number of vehicles that had been left abandoned outside of the city they had likely reclaimed.\n\nHe read a thousand records and dockets and the damn dossiers and he did it while giving orders and ensuring the situation did not fall into chaos, and he did it without skipping a beat until a junior aide ran in to inform him that the Butcher had demanded their surrender."
  HGR.22.a:0 "Send the response."
 
@@ -1811,6 +1767,10 @@
  HGR.253.t:0 "The News with Hermann Fegelein"
  HGR.253.d:0 ""Good evening, Germany," said Fegelein, putting on his best smile for the cameras. He tried, with extreme effort, not to look at Heydrich standing off beyond the cameraman. "I'm Generalleutnant Fegelein, producer of the all-new Reich Broadcasting Service, and you're watching the latest update from Germania, provided by yours truly." Bullshit. Fucking Heydrich, putting him back on the air with a gun to his head...\n\nFegelein cleared his throat. Don't start sweating. Don't start sweating. "I am pleased to inform you, citizens of the Reich, that the Führer himself has seen fit to endorse this broadcast. Thanks to his great generosity, we are now able to reach audiences right across the Reich! So, whether you're in Strassburg, Hamburg, Königsberg or any other 'burg', be sure to thank him for making your daily news update possible!"\n\nOh my God, he thought. That was a terrible reading. It's his fucking eyes. What's he staring at me for? The director frantically waved his hand to snap Fegelein out of it, jerking him back to reality with a start. "Uh... ah, excuse me. A-a-as I said, the F-Führer will be personally overseeing this station starting today. We at the studio are very grateful for his involvement, and you can be sure that our broadcasts will be of the highest standard as always, and still your number one source for the truth! And now, a message from the Führer."\n\n"Cut!" shouted the director. "My Führer, was that acceptable?"\n\n"Yes, acceptable," remarked Heydrich. "Good man, Herr Fegelein. Continue your operations like that, and perhaps there'll be a pardon in your future.""
  HGR.253.a:0 "God help me!"
+ 
+ HGR.256.t:0 "Debts of Hell"
+ HGR.256.d:0 "The timorous rapping of Heydrich's nails sounded to him like drums in the silence. The numbers on the sheet had grown denser since he'd started reading; vast debts compounded into vaster debts collapsing into each other in an ugly sum. There was no way to pay, just a black pit to crawl from and the bloody fingers from the climb. He wouldn't pay. He couldn't pay. Heydrich would void the debt and let the only victory for Aryan kind be that, notwithstanding the apocalypse, no Jew banker would have a bit of German silver more. No minatory Semite debtor a bit of silver more.\n\nHeydrich tediously heeled from his desk and drew in from a wilting cigarette. Once, the smoke and its stench had worried him for that it might reveal his flagging asceticism. He liked it now; it made it harder to breathe, more taxing on the transient generals who circled him. And they came from his office reeking of smoke - that was the best part, he thought. It kept them from bothering him like the debtors would. But no Jew will get their silver, and no apocalypse will strike.\n\nHeydrich snatched a sheet of off-white bank paper and fed it into his typewriter, where the lamplight shone harshly and shadowed his desk in letterhead. There would be no debt, no burdensome, awkward pecuniary obligations. It was all void, and Germany was unshackled."
+ HGR.256.a:0 "One day, they'll owe us."
 
  HGR.300.t:0 "Memorandum on the Status of the Cornwall Garrison"
  HGR.300.desc:0 "EP-515\nGermania, [GetDate]\nReichsführer-Deutsch-SS OTTO GILLE\n\nMy Führer,\nThe English War was brought to a successful conclusion some time ago, largely due to the performance of Generaloberst Halder's forces. Following the defeat of the so-called "HMMLR" regular forces, the Cornwall garrison returned to its pre-1963 headquarters.\n\nThe English War was brought to a successful conclusion some time ago, largely due to the performance of Generaloberst Halder's forces. Following the defeat of the so-called "HMMLR" regular forces, the Cornwall garrison returned to its pre-1963 headquarters.\n\nThere are strong reasons to believe the English government intends to attack the garrison. Therefore, I recommend we begin negotiations with Halder about the repatriation of his men at the earliest possible date. Otherwise, it is likely the garrison will be disarmed, lessening their usefulness in the context of the present struggle."
@@ -2214,10 +2174,10 @@
  Leader_HGR_Walloon_Ger:0 "§G[BEL.GetLeader]§!"
  Leader_HGR_Walloon_Neu:0 "§Y[BEL.GetLeader]§!"
  
- HGR_COUNTRY_ROW_1:0 "[LHH.GetNameDef]\n[KLB.GetNameDef]\n[SSF.GetNameDef]\n[DSH.GetNameDef]\n[ISS.GetNameDef]\n[PRK.GetNameDef]\n[SSL.GetNameDef]\n[OKL.GetNameDef]\n[OER.GetNameDef]\n[SSN.GetNameDef]"
+ HGR_COUNTRY_ROW_1:0 "§E[LHH.GetNameDef]§!\n§E[KLB.GetNameDef]§!\n§l[SSF.GetNameDef]§!\n§l[DSH.GetNameDef]§!\n§r[ISS.GetNameDef]§!\n§e[PRK.GetNameDef]§!\n§E[SSL.GetNameDef]§!\n§g[OKL.GetNameDef]§!\n§r[OER.GetNameDef]§!\n§E[SSN.GetNameDef]§!"
  HGR_COUNTRY_ROW_SUPPORT_1:0 "[get.HGRgetLHHLOVE]\n[get.HGRgetKLBLOVE]\n[get.HGRgetSSFLOVE]\n[get.HGRgetDSHLOVE]\n[get.HGRgetISSLOVE]\n[get.HGRgetPRKLOVE]\n[get.HGRgetSSLLOVE]\n[get.HGRgetOKLLOVE]\n[get.HGRgetOERLOVE]\n[get.HGRgetSSNLOVE]"
  
- HGR_COUNTRY_ROW_2:0 "[AUS.GetNameDef]\n[FPG.GetNameDef]\n[FSP.GetNameDef]\n[FHH.GetNameDef]\n[DSG.GetNameDef]\n[KHP.GetNameDef]\n[AGS.GetNameDef]\n[APF.GetNameDef]\n[KSS.GetNameDef]\n[SSW.GetNameDef]"
+ HGR_COUNTRY_ROW_2:0 "§l[AUS.GetNameDef]§!\n§g[FPG.GetNameDef]§!\n§E[FSP.GetNameDef]§!\n§g[FHH.GetNameDef]§!\n§r[DSG.GetNameDef]§!\n§E[KHP.GetNameDef]§!\n§E[AGS.GetNameDef]§!\n§l[APF.GetNameDef]§!\n§l[KSS.GetNameDef]§!\n§E[SSW.GetNameDef]§!"
  HGR_COUNTRY_ROW_SUPPORT_2:0 "[get.HGRgetAUSLOVE]\n[get.HGRgetFPGLOVE]\n[get.HGRgetFSPLOVE]\n[get.HGRgetFHHLOVE]\n[get.HGRgetDSGLOVE]\n[get.HGRgetKHPLOVE]\n[get.HGRgetAGSLOVE]\n[get.HGRgetAPFLOVE]\n[get.HGRgetKSSLOVE]\n[get.HGRgetSSWLOVE]"
  
  HGR_AlsaceLorraine_occupied_KLB:0 "§B[LHH.GetNameDef] is controlled by§! [get.HGRgetBarbie_leader] §Band owned by§! [get.HGRgetAlsaceLorraine_leader].\n----------"

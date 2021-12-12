@@ -7,8 +7,25 @@
  RULE_OPTION_ZOMBIES_ACTIVE_DESC:0 "§R언데드 이벤트가 활성화됩니다.§!"
  
  ### WW3 Chains Detente
-CRISIS_DETENTE_STATUS:0 "외교 위기"
-RULE_OPTION_DEFAULT_CRISIS:0 "일반"
-RULE_OPTION_DEFAULT_CRISIS_DESC:0 "§W외교 위기가 §R제3차 세계 대전§!으로 번질 수 §R있습니다§!.§!"
-RULE_OPTION_CRISIS_DISABLED:0 "언제나 완화"
-RULE_OPTION_CRISIS_DISABLED_DESC:0 "§W외교 위기가 §R제3차 세계 대전§!을 불러오기 전에 §G언제나 완화§!됩니다.§!"
+SUPERPOWER_TENSION_STATUS:0 "Superpower Tension"
+RULE_OPTION_TENSION_DEFAULT:0 "일반"
+RULE_OPTION_TENSION_DEFAULT_DESC:0 "§WA player superpower and a player-led §YOrdensstaat Burgund§! can cause §RWorld War Three.§!§!"
+RULE_OPTION_TENSION_DISABLED:0 "3차대전 비활성화"
+RULE_OPTION_TENSION_DISABLED_DESC:0 "§WSuperpower tension can never cause §RWorld War Three.§!§!"
+RULE_OPTION_TENSION_TENSION_FULLY_ENABLED:0 "3차대전 활성화"
+RULE_OPTION_TENSION_TENSION_FULLY_ENABLED_DESC:0 "§WThe AI can through tension cause §RWorld War Three.§!§!"
+
+#Burgundian Collapse
+BURGUNDY_COLLAPSE_STATUS:0 "AI 부르군트 붕괴"
+BURGUNDY_COLLAPSE_DEFAULT:0 "Default"
+BURGUNDY_COLLAPSE_DEFAULT_DESC:0 "§W§YOrdensstaat Burgund§! will collapse in 1970 around §Y50%§! of the time, provided Speer or Bormann leads Germany.§!"
+BURGUNDY_COLLAPSE_ENSURED:0 "Ensured"
+BURGUNDY_COLLAPSE_ENSURED_DESC:0 "§W§YOrdensstaat Burgund§! will collapse in 1970, §Yprovided that Speer or Bormann leads Germany.§!§!"
+BURGUNDY_COLLAPSE_DISABLED:0 "Disabled"
+BURGUNDY_COLLAPSE_DISABLED_DESC:0 "§W§YOrdensstaat Burgund§! will §Ynot§! collapse.§!"
+##SuperEvent silence##
+SuperMusic_status: "Mute Music on Superevent"
+RULE_OPTION_DEFAULT_SuperSilent: "Interrupt Music"
+RULE_OPTION_DEFAULT_SuperSilent_DESC: "§WThe current track will be interrupted every time a superevent is triggered.§!"
+RULE_OPTION_No_Silence: "Do Not Interrupt Music"
+RULE_OPTION_No_Silence_DESC: "§WThe current track will not be interrupted when a superevent is triggered. This setting is recommended if you play with game music paused.§!"

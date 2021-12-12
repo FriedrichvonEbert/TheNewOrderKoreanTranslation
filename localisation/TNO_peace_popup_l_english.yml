@@ -5,6 +5,9 @@
  TNO_PEACE_POPUP_FLAVOR:0 "[GetFlavor]"
 
  TNO_PEACE_POPUP_CLOSE:0 "닫기"
+ 
+ TNO_PEACE_POPUP_FLAG1_TT:0 "§GVictor:§! [winning_country.GetFlag]§Y[winning_country.GetName]§!"
+ TNO_PEACE_POPUP_FLAG2_TT:0 "§RDefeated:§! [losing_country.GetFlag]§Y[losing_country.GetName]§!"
 
  TNO_PEACE_POPUP_COUNTRY_PLURAL:0 "과 그 동맹국이 "
  TNO_PEACE_POPUP_COUNTRY_SINGULAR:0 ""
@@ -44,7 +47,61 @@
  
  TNO_PEACE_POPUP_WAR_CONCLUSION_GER_PLANZEROWIN:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§!이(가) [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!을(를) 상대로 승리해 영국 재통일의 첫걸음을 내디뎠습니다."
  
- TNO_PEACE_POPUP_WAR_SCOTLAND_WIN:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§!이(가) [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!(으)로부터 위치를 지켜 잉글랜드가 무정부상태에 빠지는 것을 막았습니다."
+ TNO_PEACE_POPUP_WAR_CONCLUSION_INS_LOSE:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has broken the chains of slavery, defeating [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! and §YSukarno§!'s corrupt government in the aftermath of the §YIndonesian Civil War§!."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_FRI_LOSE:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has maintained the unity of the isles from the rebels of [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! in the aftermath of the §YIndonesian Civil War§!."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_PHI_BLITZ:0 "In the violence of the Balintawak Blitz, [winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has triumphed over [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_PHI_BLITZ_REBEL_WIN:0 "In the violence of the Balintawak Blitz, [UPH.GetFlag]§Ythe [UPH.GetName]§! and [SPH.GetFlag]§Ythe [SPH.GetName]§! has rid the Philippines from [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!'s heel."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_PHI_LANDING:0 "In the aftermath of the §Y14th Army's Invasion§!, [winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has conquered [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!."
+
+ TNO_PEACE_POPUP_WAR_CONCLUSION_SRT_DEAD:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§!'s jackboot has landed on the throats of the daring fighters of [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! once more."
+
+ TNO_PEACE_POPUP_WAR_CONCLUSION_SCHORNER_DEAD:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has crushed the mutinous soldiers of [losing_country.GetFlag] §YDas Militärbezirk Russland§! in the chaos of the §YSlave Revolt§!."
+
+ TNO_PEACE_POPUP_WAR_CONCLUSION_WAA_1:0 "The [winning_country.GetFlag] §YWest African Alliance§! has triumphed against the aggression of the [losing_country.GetFlag] §YPan-African Liberation Front§! in the brutality of the §YWest African War§!."
+ TNO_PEACE_POPUP_WAR_CONCLUSION_PALF_1:0 "The [winning_country.GetFlag] §YPan-African Liberation Front§! has expelled the imperialists and collaborators of the [losing_country.GetFlag] §YWest African Alliance§! in the brutality of the §YWest African War§!."
+
+ TNO_PEACE_POPUP_WAR_CONCLUSION_WAAvsFMA_2:0 "The [winning_country.GetFlag] §YWest African Alliance§! has expelled the imperialists of the [losing_country.GetFlag] §YFrench Military Alliance§! in the chaos of the §YWest African War§!."
+ TNO_PEACE_POPUP_WAR_CONCLUSION_WAAvsPALF_2:0 "The [winning_country.GetFlag] §YWest African Alliance§! has repelled the aggression of the [losing_country.GetFlag] §YPan-African Liberation Front§! in the chaos of the §YWest African War§!."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_FMAvsWAA_2:0 "The [winning_country.GetFlag] §YFrench Military Alliance§! has restored its hegemony over the lands of the [losing_country.GetFlag] §YWest African Alliance§! in the chaos of the §YWest African War§!."
+ TNO_PEACE_POPUP_WAR_CONCLUSION_FMAvsPALF_2:0 "The [winning_country.GetFlag] §YFrench Military Alliance§! has beaten back the aggression of the [losing_country.GetFlag] §YPan-African Liberation Front§! in the chaos of the §YWest African War§!."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_PALFvsWAA_2:0 "The [winning_country.GetFlag] §YPan-African Liberation Front§! has beaten the forces of the reaction in the [losing_country.GetFlag] §YWest African Alliance§! in the chaos of the §YWest African War§!."
+ TNO_PEACE_POPUP_WAR_CONCLUSION_PALFvsFMA_2:0 "The [winning_country.GetFlag] §YPan-African Liberation Front§! has expelled the imperialists of the [losing_country.GetFlag] §YPan-African Liberation Front§! in the chaos of the §YWest African War§!."
+
+ TNO_PEACE_POPUP_WAR_CONCLUSION_FMA_3:0 "The [winning_country.GetFlag] §YFrench Military Alliance§! has broken the momentum of the [losing_country.GetFlag] §YPan-African Liberation Front§! and beaten them back in the brutality of the §YWest African War§!."
+ TNO_PEACE_POPUP_WAR_CONCLUSION_PALF_3:0 "The [winning_country.GetFlag] §YPan-African Liberation Front§! has broken the imperialists and collaborators of the [losing_country.GetFlag] §YFrench Military Alliance§! in the brutality of the §YWest African War§!."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_URL4:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has claimed [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! as their own in the midst of the §YRace for the Urals§!."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_RUS:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has conquered [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! in the struggle for §YThe Fate of Russia§!."
+ TNO_PEACE_POPUP_WAR_CONCLUSION_RUS_tabby:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has §Rsealed the fate of Russia§!, conquering [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!.\n\n§IGod save Russia, for no one else can.§!" # For shits and giggles
+ TNO_PEACE_POPUP_WAR_CONCLUSION_PRC_MEN:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has asserted themselves over [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!, thwarting them off for good."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_FIN_red:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has avenged the humiliation of the §YWinter War§!, reclaiming their rightful land from [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!."
+ TNO_PEACE_POPUP_WAR_CONCLUSION_FIN:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has reclaimed their rightful land from [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!, righting the failures of the old regime."
+ 
+ TNO_PEACE_POPUP_WAR_CONSLUSION_DISSOLUTION:0 "In Moskowien's darkest times, [winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has robbed [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! of §RDestiny§!'s Blessing."
+
+ TNO_PEACE_POPUP_WAR_CONSLUSION_WI_GAW:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has successfully defeated the fake [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! in its crusade against Japanese imperialism."
+ TNO_PEACE_POPUP_WAR_CONSLUSION_WI_LOSE:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has stalled the flames of rebellion from the Western Insurrection before it burns out of control and [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! has come to reestablish order in Xinan."
+ TNO_PEACE_POPUP_WAR_CONSLUSION_GAW_LOSE:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has restored order in China from the traitorous [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!, China's fate is now set in stone."
+ 
+ TNO_PEACE_POPUP_WAR_ECW_HMMLR_WIN:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! have bested [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! and taken their first steps towards reuniting Great Britain."
+ TNO_PEACE_POPUP_WAR_ECW_HMMLR_WIN2:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! have overwhelmed [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! and cleansed German influence from Britain."
+ TNO_PEACE_POPUP_WAR_ECW_COLLABS_WIN:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! defended their position from [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! and prevented the country from falling into anarchy."
+ 
+ TNO_PEACE_POPUP_WAR_ENG_WALES:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has brought itself one step closer to reuniting §YBritain§!, defeating [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!."
+ TNO_PEACE_POPUP_WAR_ENG_WALES_LOSE:0 "[losing_country.GetFlag] §Y[losing_country.GetNameDef]§!'s attempts at bringing down the §Rred dragon§! has been met with failure, with [winning_country.GetFlag] §Y[winning_country.GetNameDef]§! standing tall above the rubble."
+ 
+ TNO_PEACE_POPUP_WAR_SCOTLAND_WIN:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§!이(가) [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!(을)를 정복하고 브리튼 제도를 계승했습니다."
+ TNO_PEACE_POPUP_WAR_SCOTLAND_LOSE:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has conquered the isles once again, eliminating [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! in its way."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_BRITTANY:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! has reclaimed [losing_country.GetFlag] §Y[losing_country.GetNameDef]§!, bringing them one step closer on their return to §YParis§!."
 
  #점령 (전쟁 지속) 이벤트
  
@@ -60,10 +117,10 @@
  TNO_PEACE_POPUP_FLAVOR_SPEER:0 "이 재판이 필요한 일이라는걸 역사가 보여줄 것이다." #뉘른베르크 재판 당시 발언
  TNO_PEACE_POPUP_FLAVOR_GOERING:0 "승자는 언제나 재판관이 되고 패자는 피고석에 선다." #뉘른베르크 재판 당시 발언
  TNO_PEACE_POPUP_FLAVOR_HEYDRICH:0 "세상은 손풍금이라네. 신이 손잡이를 돌리면 우리 모두 그의 음악에 맞춰 춤을 추지." #유인원 작전 이후 아내에게 한 유언
- TNO_PEACE_POPUP_FLAVOR_DSR:0 "죽음을 그토록 두려워 말라. 못난 인생을 두려워 하라." #베르톨트 브레히트의 말
  TNO_PEACE_POPUP_FLAVOR_SPEIDEL:0 "당신은 사자처럼 싸웠고 당나귀에게 이끌렸소."
  TNO_PEACE_POPUP_FLAVOR_SCHOERNER:0 "우린 회색 빛의 무인 지대를 향해\n패배와 함께 나아간다\n우리들 중 그 누구도\n고향으로 돌아갈 수 없더라도" #노래 모든 길이 끝나는 곳에서도, 군가A 번역을 사용함
-
+ TNO_PEACE_POPUP_FLAVOR_SLAVE_REVOLT:0 "내 생애를 모두 종합해 보았을 때 완전한 절망이란 없다는 통찰을 얻어낼 수 있다."
+ TNO_PEACE_POPUP_FLAVOR_SCHORNER_MUTINY:0 "I undertake to hold the position now occupied by us to the last man without regard to casualties and whether or not ammunition is available."
 
  #오스틀란트 전용
  TNO_PEACE_POPUP_FLAVOR_KOVNER:0 "미뤄진 꿈에 어떤 일이 벌어지는가?" #랭스턴 휴즈의 시 할렘
@@ -73,20 +130,21 @@
  TNO_PEACE_POPUP_FLAVOR_VITUSKA:0 "빈민의 왕관이 좌절되었습니다."
  TNO_PEACE_POPUP_FLAVOR_DRECHSLER:0 "독수리의 발톱이 부러졌습니다."
 
-
  #몽골 전용
- TNO_PEACE_POPUP_FLAVOR_MEN:0 "몽골 민족이 단결했습니다."
+ TNO_PEACE_POPUP_FLAVOR_MEN:0 "The living denied a table; the dead get a whole coffin."
  TNO_PEACE_POPUP_FLAVOR_MON:0 "대초원에 질서가 돌아왔습니다."
- TNO_PEACE_POPUP_FLAVOR_SVO_MEN:0 "몽골이 통일되었습니다."
+ TNO_PEACE_POPUP_FLAVOR_PRC_MEN:0 "몽골이 통일되었습니다."
  
  #서부 반란
- TNO_PEACE_POPUP_FLAVOR_YUN_NPA:0 "미친 개가 죽었습니다. 다시 한 번 남서부에 질서가 자리잡혔습니다."
+ TNO_PEACE_POPUP_FLAVOR_YUN_NPA:0 "이것은 생존을 위한 국가의 투쟁이자 사투이니, 우리 자랑스러운 중국인 모두가 혼과 노력을 바치리라."
+ TNO_PEACE_POPUP_FLAVOR_YUN_NPA_LOSE:0 "미친 개가 죽었습니다. 다시 한 번 남서부에 질서가 자리잡혔습니다."
 
  #대 아시아 전쟁 전용
  TNO_PEACE_POPUP_FLAVOR_CHI_GAW:0 "일본군이 상하이, 베이징, 난징을 행진하며 자유의 희망이 짓밟혔습니다. 일본이 중국을 상대로 한 전쟁에서 승리했습니다. 동양이 하나가 되었습니다."
  
  #브루군트-부르타뉴-프랑스 전용
  TNO_PEACE_POPUP_FLAVOR_FRA:0 "그림자가 프랑스를 뒤덮었습니다."
+ TNO_PEACE_POPUP_FLAVOR_BRT:0 "길들여진 개들이 야성을 되찾으리니."
  
  #이베리아 전쟁
  TNO_PEACE_POPUP_FLAVOR_SPR:0 "우리는 지나갔다!"
@@ -106,108 +164,234 @@
  TNO_PEACE_POPUP_FLAVOR_PRT:0 "포르투가 또 한 번 평안함을 찾았습니다."
  TNO_PEACE_POPUP_FLAVOR_RIF:0 "역사는 반복됩니다."
  
+ #Indonesia flavor
+ TNO_PEACE_POPUP_FLAVOR_FRI:0 "There is only one country that deserves to be mine. It grows by action, and those actions are mine."
+ TNO_PEACE_POPUP_FLAVOR_INS:0 "A great nation is a nation that values the service of its heroes."
  
  #아메리카 질서 유지 활동 전용
  TNO_PEACE_POPUP_FLAVOR_GUY:0 "어디에서 발생을 하든 불의는 세상의 모든곳에 있는 정의를 위협한다."
  TNO_PEACE_POPUP_FLAVOR_WIN:0 "서인도의 분열된 집은 설 수 없습니다."
  
- #제2차 이탈리아-터키 전쟁 #둘 모두 주세페 베르디가 작곡한 오페라《나부코》의 곡인 〈히브리 노예의 합창〉 가사
- TNO_PEACE_POPUP_FLAVOR_IME:0 "오, 너무나 사랑하는 빼앗긴 조국이여!"
- TNO_PEACE_POPUP_FLAVOR_TUR:0 "요르단의 큰 강둑과 시온의 무너진 탑들에 참배를 하라..."
+ #제2차 이탈리아-터키 전쟁
+ TNO_PEACE_POPUP_FLAVOR_IME:0 "오, 너무나 사랑하는 빼앗긴 조국이여!"  #주세페 베르디의 오페라《나부코》의 곡인 〈히브리 노예의 합창〉 가사
+ TNO_PEACE_POPUP_FLAVOR_TUR:0 "Those who wear the shirt of fire will realize it burns as much as it warms."
+ TNO_PEACE_POPUP_FLAVOR_ARM:0 "예레반의 시민들은 울음을 쏟으며, 낯선 외지를 방황하며 죽어갔습니다."
+ 
+ #Madagascar Flavor
+ TNO_PEACE_POPUP_FLAVOR_MAD:0 "그들의 구원은 영원히 그 손아귀 밖에 놓일 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_MDG:0 "첫째 도미노가 쓰러졌으니, 이제 나머지가 곧 뒤따를 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_MDM:0 "붉은 섬은 그 주민들의 피로 흠뻑 젖었습니다."
  
  #남아프리카 전용
  TNO_PEACE_POPUP_FLAVOR_ANC:0 "범아프리카주의의 꿈이 좌절되었습니다."
  TNO_PEACE_POPUP_FLAVOR_BOR:0 "보어국은 끝났지만, 분쟁은 끝나지 않을겁니다."
  TNO_PEACE_POPUP_FLAVOR_SAF:0 "아프리카에서 민주주의의 빛이 꺼졌습니다."
  TNO_PEACE_POPUP_FLAVOR_ANG:0 "아프리카 공항은 하늘의 미군을 상대로 버티지 못했습니다."
- TNO_PEACE_POPUP_FLAVOR_MZB:0 "그렇게 휘티히의 공포 정치가 끝났습니다."
+ TNO_PEACE_POPUP_FLAVOR_GRO:0 "그렇게 휘티히의 공포 정치가 끝났습니다."
+ TNO_PEACE_POPUP_FLAVOR_COG:0 "콩고의 구부러진 해안가 위로 해가 떠오릅니다."
 
  #전쟁계획 0
  TNO_PEACE_POPUP_FLAVOR_CZE:0 "이들의 용맹은 인정 받을 만 합니다. 하지만 보헤미아는 또다시 독일 라이히의 먹이가 되었습니다."
  TNO_PEACE_POPUP_FLAVOR_SLO:0 "브라티슬라바가 불탑니다. 더 밝은 미래를 위한 마지막 보루도 불탑니다. 슬로바키아 사람들에게 남은 희망은 없습니다."
  TNO_PEACE_POPUP_FLAVOR_POL:0 "폴란드 본토의 남녀가 모든 것을 가지고 싸웠지만, 폴란드는 죽었습니다. 이번에는 영원히 죽을 것입니다."
 
+ #GGN
+ TNO_PEACE_POPUP_FLAVOR_GGN:0 "적백기가 다시 한번 바르샤바에 나부낍니다."
+
  #영국 통일 전용
  TNO_PEACE_POPUP_FLAVOR_SCO:0 "높이 솟은 용맹한 명성, 포근한 나의 산 스코틀랜드여, 그대의 자랑스러운 깃발이 드높이 영광스레 휘날리기를." #노래 Scoltland the Brave
+ TNO_PEACE_POPUP_FLAVOR_SCO_LOSE:0 "에딘버러에서는 더 이상 백파이프의 노래가 들려오지 않습니다."
+ 
+ #British Isles flavor
+ TNO_PEACE_POPUP_FLAVOR_ENG:0 "그녀를 결박하고, 갈아버리고, 불에 태우고, 그 재를 바다에 뿌린다 해도 - 그녀는 벗어나리라, 그녀는 열망하리라, 그녀는 인간을 자유롭게 하기 위해 일어서리라."
+ TNO_PEACE_POPUP_FLAVOR_FEN:0 "무수히 많은 이들의 이름이 영원히 알려지지 않을 것이고, 그들의 업적은 영원히 기록되지 않을 것이다. 이것은 이름 없는 투사들의 전쟁이다."
+ TNO_PEACE_POPUP_FLAVOR_CRN:0 "당신의 소생인 우리, 당신의 이름 어찌 높이리오? 넓게 더 넓게 당신의 강역이 세워지리니. 당신에게 힘을 주신 하느님께서, 당신을 더욱 강대하게 하시리라."
+ TNO_PEACE_POPUP_FLAVOR_WAL:0 "용은 그 최후의 숨을 들이쉽니다."
+
+ #Ireland Flavour
+ TNO_PEACE_POPUP_FLAVOUR_ULS_TWOMEY:0 "우리는 800년 동안 두려움 없이 네놈들과 싸웠으니, 기꺼이 800년을 더 싸워주리라."
+ TNO_PEACE_POPUP_FLAVOUR_ULS_PAISLEY:0 "얼스터에는 국기를 내리기보다는 차라리 죽음을 택할 이들이 있습니다."
+ TNO_PEACE_POPUP_FLAVOUR_IRE:0 "아일랜드를 정복할 수는 없다. 아일랜드의 자유를 향한 열망을 꺼뜨릴 수는 없다. 우리가 이룬 일이 자유를 얻기에 충분하지 못하다면, 우리의 아이들이 더 많은 것을 해내 승리하리라."
+  
+ #Phili flavor
+ TNO_PEACE_POPUP_FLAVOR_PHI:0 "사상누각은 결국 무너져 내리게 되어 있습니다."
+ TNO_PEACE_POPUP_FLAVOR_SPH:0 "그들은 시들어 잊혀질 것입니다. 그 국민들조차 그들을 거부할 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_UPH:0 "나는 내 조국 위로 여명이 밝아오는 것을 보지 못하고 죽는다."
+ TNO_PEACE_POPUP_FLAVOR_FGB:0 "복수를 시작하기 전에는 두 개의 무덤을 준비해야 합니다."
+ 
+ #Finland - A.K.A West Russia's punching bag
+ TNO_PEACE_POPUP_FLAVOR_FIN:0 "Where is now my son beloved, In the Kingdom of Manala?\nSow thy crops, thou dread Tuoni, Harrow well the fields of Kalma!"
+ 
+ #Croatia
  
  #러시아
  TNO_PEACE_POPUP_FLAVOR_WRS:0 "의무는 죽음으로서만 끝납니다."
  TNO_PEACE_POPUP_FLAVOR_VOL:0 "러시아에 평화가 찾아올 기회는 없던 것 같습니다."
- TNO_PEACE_POPUP_FLAVOR_NIK:0 "판도라의 상자가 영원히 닫혔습니다."
+ TNO_PEACE_POPUP_FLAVOR_KOM:0 "판도라의 상자가 영원히 닫혔습니다."
  TNO_PEACE_POPUP_FLAVOR_GAY:0 "꾸준한 사람은 많은 복을 받는다." #잠언 28장 20절
- TNO_PEACE_POPUP_FLAVOR_KIR:0 "독수리는 다시는 울지 않을 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_VYT:0 "독수리는 다시는 울지 않을 것입니다."
  TNO_PEACE_POPUP_FLAVOR_MAR:0 "러시아는 이중 정부에 호의적이지 않습니다."
  TNO_PEACE_POPUP_FLAVOR_SAM:0 "반역자들은 자신들의 이야기를 하지 못할 것입니다."
- TNO_PEACE_POPUP_FLAVOR_CHU:0 "전쟁 기계가 박살 나고 산산이 조각났습니다."
+ TNO_PEACE_POPUP_FLAVOR_GOR:0 "전쟁 기계가 박살 나고 산산이 조각났습니다."
  TNO_PEACE_POPUP_FLAVOR_PRM:0 "러시아 무정부 상태에도 정의라는 게 남아는 있나 봅니다."
  TNO_PEACE_POPUP_FLAVOR_TAR:0 "자유는 죽을만한 가치가 있는 것입니다."
  TNO_PEACE_POPUP_FLAVOR_BKR:0 "무에진이 더는 노래 부르지 않습니다."
- TNO_PEACE_POPUP_FLAVOR_VTY:0 "유럽으로 가는 문이 열렸습니다. 다시 한번 전쟁의 냄새가 풍깁니다."
+ TNO_PEACE_POPUP_FLAVOR_ONG:0 "유럽으로 가는 문이 열렸습니다. 다시 한번 전쟁의 냄새가 풍깁니다."
  TNO_PEACE_POPUP_FLAVOR_KST:0 "보호자를 잃은 중립시는 늑대 떼에게 던져졌습니다."
- TNO_PEACE_POPUP_FLAVOR_DON:0 "폴란드는 또 죽었습니다."
+ TNO_PEACE_POPUP_FLAVOR_NPL:0 "폴란드는 또 죽었습니다."
  TNO_PEACE_POPUP_FLAVOR_ARL:0 "오노프리엔코 의장의 실험은 실패로 끝났습니다."
  TNO_PEACE_POPUP_FLAVOR_AKT:0 "악타우의 화로에 재만이 남았습니다."
  TNO_PEACE_POPUP_FLAVOR_KAZ:0 "병사들도 파업에 나설지니, 전열을 떠나 더는 싸우지 않으리..." #인터내셔널가 영어판
  TNO_PEACE_POPUP_FLAVOR_DER:0 "알라는 관용과 자비로 충만하시리라." #쿠란 4장 106절 
- TNO_PEACE_POPUP_FLAVOR_SEM:0 "지금까지 가장 향기로웠던 꽃은 시들어 줄기가 되었네." #노래 Unquiet Grave의 가사
+ TNO_PEACE_POPUP_FLAVOR_PAV:0 "지금까지 가장 향기로웠던 꽃은 시들어 줄기가 되었네." #노래 Unquiet Grave의 가사
  TNO_PEACE_POPUP_FLAVOR_KOK:0 "칸은 역사를 앞지르지 못했습니다."
  TNO_PEACE_POPUP_FLAVOR_VOR:0 "그 저주받은 영혼들은 이제 이들의 지옥을 지키지 않습니다."
- TNO_PEACE_POPUP_FLAVOR_KOM:0 "강도와 도적들은 군대를 이길 수 없습니다."
- TNO_PEACE_POPUP_FLAVOR_TOB:0 "노병은 죽지 않는다. 다만 사라질 뿐이다."
- TNO_PEACE_POPUP_FLAVOR_ISH:0 "철의 국가, 눈물의 땅."
+ TNO_PEACE_POPUP_FLAVOR_YGR:0 "강도와 도적들은 군대를 이길 수 없습니다."
+ TNO_PEACE_POPUP_FLAVOR_SVR:0 "노병은 죽지 않는다. 다만 사라질 뿐이다."
+ TNO_PEACE_POPUP_FLAVOR_TYM:0 "철의 국가, 눈물의 땅."
  TNO_PEACE_POPUP_FLAVOR_OMS:0 "그들은 죽음에서 안식을 찾았을 겁니다."
- TNO_PEACE_POPUP_FLAVOR_UDM:0 "밧줄을 팔던 상인이 그 밧줄에 목 매달렸습니다."
+ TNO_PEACE_POPUP_FLAVOR_ZLT:0 "밧줄을 팔던 상인이 그 밧줄에 목 매달렸습니다."
  TNO_PEACE_POPUP_FLAVOR_FAV:0 "그녀는 밤하늘로 날아가며 슬프게 미소지었습니다."
- TNO_PEACE_POPUP_FLAVOR_PAV:0 "매라도 폭풍 속에서는 날지 못합니다."
- TNO_PEACE_POPUP_FLAVOR_ERS:0 "시인이 죽었다. 그는 명예의 노예였으니." #레르멘토프의 시 시인의 죽음
- TNO_PEACE_POPUP_FLAVOR_KHA:0 "그리고 무정부의 강은 계속 흘렀다."
- TNO_PEACE_POPUP_FLAVOR_SAH:0 "안드레예프의 반란은 시작처럼 끝났습니다."
+ TNO_PEACE_POPUP_FLAVOR_NOV:0 "매라도 폭풍 속에서는 날지 못합니다."
+ TNO_PEACE_POPUP_FLAVOR_TOM:0 "시인이 죽었다. 그는 명예의 노예였으니." #레르멘토프의 시 시인의 죽음
+ TNO_PEACE_POPUP_FLAVOR_SBA:0 "그리고 무정부의 강은 계속 흘렀다."
+ TNO_PEACE_POPUP_FLAVOR_KRS:0 "안드레예프의 반란은 시작처럼 끝났습니다."
  TNO_PEACE_POPUP_FLAVOR_KEM:0 "미친 왕의 통치가 끝났습니다."
  TNO_PEACE_POPUP_FLAVOR_ALT:0 "전통을 부르는 소리는 전쟁의 북소리에 묻혔습니다."
- TNO_PEACE_POPUP_FLAVOR_SVO:0 "이들이 마지막으로 생각한 것은 고향과 사랑하는 사람들이었습니다."
+ TNO_PEACE_POPUP_FLAVOR_PRC:0 "이들이 마지막으로 생각한 것은 고향과 사랑하는 사람들이었습니다."
  TNO_PEACE_POPUP_FLAVOR_IRK:0 "고통 앞에서는 영웅이 없다." #조지 오웰의 소설 1984년.
  TNO_PEACE_POPUP_FLAVOR_BRY:0 "겁 없는 미친 짓에 우리는 노래를 바친다."
- TNO_PEACE_POPUP_FLAVOR_SEV:0 "길잃은 영혼들이 마침내 안식을 찾았습니다."
+ TNO_PEACE_POPUP_FLAVOR_ALD:0 "길잃은 영혼들이 마침내 안식을 찾았습니다."
  TNO_PEACE_POPUP_FLAVOR_YAK:0 "이들의 다이아몬드는 더는 빛나지 않습니다."
- TNO_PEACE_POPUP_FLAVOR_WCH:0 "타협은 없습니다. 러시아의 차르는 지배하거나 사라져야 합니다."
+ TNO_PEACE_POPUP_FLAVOR_CHT:0 "타협은 없습니다. 러시아의 차르는 지배하거나 사라져야 합니다."
  TNO_PEACE_POPUP_FLAVOR_AMR:0 "비극으로 시작된 러시아 파시스트는 희극 속에서 끝났습니다."
  TNO_PEACE_POPUP_FLAVOR_MAG:0 "쥐와 인간이 아무리 잘 짠 계획도 가끔 틀어집니다."
  TNO_PEACE_POPUP_FLAVOR_KMC:0 "이들의 원통함은 바다의 티끌로 사라졌습니다." #MGSV 드립
  TNO_PEACE_POPUP_FLAVOR_OMO:0 "하느님께서는 그들의 눈에서 모든 눈물을 씻어주실 것이다. 이제는 죽음이 없을 것이다." #요한 묵시록 21장 4절
+ TNO_PEACE_POPUP_FLAVOR_PLS:0 "I told myself that I shall either be a general at thirty, or that I shall not be alive by then."
+ TNO_PEACE_POPUP_FLAVOR_UKH:0 "아니 땐 굴뚝에 어찌 연기가 나겠습니까."
+ TNO_PEACE_POPUP_FLAVOR_DRL:0 "우랄의 괴물은 안락사당했습니다. 그를 그리워하는 사람은 없을 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_MGN:0 "산의 비밀은 영원히 세계로부터 감춰진 채로 남을 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_ORE:0 "아아, 오렌부르크의 마을들에 자유는 지속될 수 없었던 것이로구나."
+ TNO_PEACE_POPUP_FLAVOR_URL:0 "끝 또한 여정의 일부입니다."
 
  #After Midnight
  TNO_PEACE_POPUP_FLAVOR_WRS_AM:0 "무덤들 사이로 바람이 부네."
  TNO_PEACE_POPUP_FLAVOR_VOL_AM:0 "노예는 당신이 가는 길의 벽돌이 아니다. 노예의 삶은 당신 구원사의 구절이 아니다." #세상과 나 사이: 흑인 아버지가 아들에게 보내는 편지
- TNO_PEACE_POPUP_FLAVOR_NIK_AM:0 "섭정의 흉뮬이 밤으로 넘어갑니다."
+ TNO_PEACE_POPUP_FLAVOR_KOM_AM:0 "섭정의 흉뮬이 밤으로 넘어갑니다."
  TNO_PEACE_POPUP_FLAVOR_MAR_AM:0 "창백한 말이 이제는 달리지 않습니다."
  TNO_PEACE_POPUP_FLAVOR_SAM_AM:0 "오 주여, 당신은 우리를 당신을 향해서 살도록 창조하셨으므로 우리 마음이 당신 안에서 안식할 때까지는 편안하지 않습니다." #어거스틴의 고백록
- TNO_PEACE_POPUP_FLAVOR_MIR_AM:0 "폴란드는 자신의 피에 목이 막혀 세번째로 죽었습니다."
+ TNO_PEACE_POPUP_FLAVOR_PLS_AM:0 "폴란드는 자신의 피에 목이 막혀 세번째로 죽었습니다."
  TNO_PEACE_POPUP_FLAVOR_TAR_AM:0 "Pressing close, our enemies bellicose, unsleeping, Aim to make us feeble, if our name is scorned, if our fame is shamed, What defines us as a people?" #리자 파질
  TNO_PEACE_POPUP_FLAVOR_ORE_AM:0 "결과를 정당화하는게 있는 한 결과가 수단을 정당화할수도 있다." #레온 트로츠키
  TNO_PEACE_POPUP_FLAVOR_URL_AM:0 "죽음을 환영하라. 집으로 돌아가는 영웅처럼." #테쿰세의 시
- TNO_PEACE_POPUP_FLAVOR_BAS_AM:0 "러시아에서 진보의 불빛이 꺼졌습니다."
+ TNO_PEACE_POPUP_FLAVOR_MGN_AM:0 "러시아에서 진보의 불빛이 꺼졌습니다."
  TNO_PEACE_POPUP_FLAVOR_AKT_AM:0 "미친 개가 죽었습니다."
  TNO_PEACE_POPUP_FLAVOR_KOK_AM:0 "한 남자가 아내의 죽음을 슬퍼하며 아내가 묻힐 때까지 웁니다. 한 남자가 모국의 죽음을 슬퍼하며 자기가 묻힐 때까지 웁니다."
- TNO_PEACE_POPUP_FLAVOR_KOM_AM:0 "운명의 손이 저들을 하늘에서 뜯어냈습니다."
- TNO_PEACE_POPUP_FLAVOR_TOB_AM:0 "What remains in diseases after the crisis is apt to produce relapses." #히포크라테스
+ TNO_PEACE_POPUP_FLAVOR_YGR_AM:0 "운명의 손이 저들을 하늘에서 뜯어냈습니다."
+ TNO_PEACE_POPUP_FLAVOR_SVR_AM:0 "What remains in diseases after the crisis is apt to produce relapses." #히포크라테스
  TNO_PEACE_POPUP_FLAVOR_OMS_AM:0 "Confounded, though immortal. But his doom, reserved him to more wrath; for now the thought both of lost happiness and lasting pain torments him." #실낙원
  TNO_PEACE_POPUP_FLAVOR_FAV_AM:0 "저들은 더는 자유를 외치지 않을겁니다."
- TNO_PEACE_POPUP_FLAVOR_PAV_AM:0 "희망 위에 세워진 새 공화국은 요람에서 목졸려 죽었습니다."
- TNO_PEACE_POPUP_FLAVOR_ERS_AM:0 "우리는 예술의 본질이 선전이 목적이 아니라 진실을 표현하기위한 유형이란 사실을 절대 잊어서는 아니 되겠습니다." #존 F. 케네디의 로버트 프로스트 추모 연설
- TNO_PEACE_POPUP_FLAVOR_KHA_AM:0 "저들은 자유롭게 죽었습니다. 이보다 더 좋은 결말은 없습니다."
- TNO_PEACE_POPUP_FLAVOR_SAH_AM:0 "당신은 혁명을 살 수 없다. 혁명을 만들수도 없다. 혁명이 될 수만이 있다. 혁명은 당신의 정신 안에 있다. 그 외의 곳에는 없다." #빼앗긴 자들
+ TNO_PEACE_POPUP_FLAVOR_NOV_AM:0 "희망 위에 세워진 새 공화국은 요람에서 목졸려 죽었습니다."
+ TNO_PEACE_POPUP_FLAVOR_TOM_AM:0 "우리는 예술의 본질이 선전이 목적이 아니라 진실을 표현하기위한 유형이란 사실을 절대 잊어서는 아니 되겠습니다." #존 F. 케네디의 로버트 프로스트 추모 연설
+ TNO_PEACE_POPUP_FLAVOR_SBA_AM:0 "저들은 자유롭게 죽었습니다. 이보다 더 좋은 결말은 없습니다."
+ TNO_PEACE_POPUP_FLAVOR_KRS_AM:0 "당신은 혁명을 살 수 없다. 혁명을 만들수도 없다. 혁명이 될 수만이 있다. 혁명은 당신의 정신 안에 있다. 그 외의 곳에는 없다." #어슐러 르 귄의 빼앗긴 자들
  TNO_PEACE_POPUP_FLAVOR_ALT_AM:0 "류리크의 계보는 완전히 사라졌습니다. 다시는 볼 수 없습니다."
  TNO_PEACE_POPUP_FLAVOR_IRK_AM:0 "알렉세이는 우리들의 손을 떠나 영원히 가버렸습니다."
  TNO_PEACE_POPUP_FLAVOR_BRY_AM:0 "러시아 귀족들의 유령같은 대열에 또다른 왕이 합류합니다."
  TNO_PEACE_POPUP_FLAVOR_AMR_AM:0 "선행이라고 벌을 받지 않는건 아닙니다."
  TNO_PEACE_POPUP_FLAVOR_MAG_AM:0 "부의 강이 피로 바뀌었습니다."
  TNO_PEACE_POPUP_FLAVOR_KMC_AM:0 "아무도 구하러 오지 않습니다."
+ 
+ #SBA Collapse
+ TNO_PEACE_POPUP_FLAVOR_NOV_SBA:0 "노동 계급의 해방은 오로지 노동자의 책무라네."
+ TNO_PEACE_POPUP_FLAVOR_KEM_SBA:0 "두 번째 광인왕은 첫째와 같은 운명을 맞이합니다."
+ TNO_PEACE_POPUP_FLAVOR_SBA_SBA:0 "그리고 칸스크에서는 버찌들이 눈물을 흘립니다."
+ TNO_PEACE_POPUP_FLAVOR_KRS_SBA:0 "나는 선한 세상에 태어나 온 마음을 담아 세상을 사랑했다. 이제 나는 악해진 세상을 떠나니 작별 인사로 할 말이 아무것도 없다."
+ TNO_PEACE_POPUP_FLAVOR_PRC_SBA:0 "우리는 인민의 영혼 안의 야수를 깨워, 전쟁을 향해 진군하리라."
+ TNO_PEACE_POPUP_FLAVOR_ALT_SBA:0 "땅을 일구지 않는 이들은 양곡을 거둘 수도 없을 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_TAN:0 "저곳, 저 산과 절벽과 수림에서 나는 태어났다네. 그렇기에 나는 강하다네."
 
-  # 환상의 끝
-  TNO_PEACE_POPUP_FLAVOR_ARGENTINA:0 "5월의 태양이 집니다, 아마도 영원히."
-  TNO_PEACE_POPUP_FLAVOR_BRAZIL:0 "나는 삶을 떠나 역사로 들어선다." #제툴리오 바르가스가 자살 직전 남긴 유언장의 구절
-  TNO_PEACE_POPUP_FLAVOR_CHILE:0 "이제 압제를 피할 곳은 없습니다. 자유의 무덤은 영원합니다."
-  TNO_PEACE_POPUP_FLAVOR_PANAMA:0 "땅은 영원히 나눠집니다."
-  TNO_PEACE_POPUP_FLAVOR_CANAL:0 "수문이 열리며 무역의 강이 붉게 물듭니다."
-  TNO_PEACE_POPUP_FLAVOR_URUGUAY:0 "누가 중립국을 위해 울어줄까요?"
-  TNO_PEACE_POPUP_FLAVOR_PARAGUAY:0 "또 다른 파라과이 전쟁, 또 다른 파라과이의 굴욕."
+ # Moskowien
+ TNO_PEACE_POPUP_FLAVOR_MSK_RDC:0 "Those who are late will be punished by life itself."
+ TNO_PEACE_POPUP_FLAVOR_MSK_MOS:0 "광신에서 야만으로 넘어가는데엔 오직 한발짝 뿐입니다."
+ TNO_PEACE_POPUP_FLAVOR_MSK_OKB:0 "비열하게 성공하느니 명예롭게 실패하리라."
+ TNO_PEACE_POPUP_FLAVOR_MSK_PAU:0 "Justice is always violent to the party offending, for every man is innocent in his own eyes."
+
+ # 환상의 끝
+ TNO_PEACE_POPUP_FLAVOR_ARGENTINA:0 "세계의 자유인들이 화답하네: "그들은 명예롭게 죽었도다.""
+ TNO_PEACE_POPUP_FLAVOR_BRAZIL:0 "나는 삶을 떠나 역사로 들어선다." #제툴리오 바르가스가 자살 직전 남긴 유언장의 구절
+ TNO_PEACE_POPUP_FLAVOR_CHILE:0 "이제 압제를 피할 곳은 없습니다. 자유의 무덤은 영원합니다."
+ TNO_PEACE_POPUP_FLAVOR_PANAMA:0 "땅은 영원히 나눠집니다."
+ TNO_PEACE_POPUP_FLAVOR_CANAL:0 "수문이 열리며 무역의 강이 붉게 물듭니다."
+ TNO_PEACE_POPUP_FLAVOR_URUGUAY:0 "누가 중립국을 위해 울어줄까요?"
+ TNO_PEACE_POPUP_FLAVOR_PARAGUAY:0 "또 다른 파라과이 전쟁, 또 다른 파라과이의 굴욕."
+
+ # Speer endings
+ TNO_PEACE_POPUP_FLAVOR_GERMANY_SPEER:0 "대규모 전쟁은 인류 문화와 문명의 파괴로 끝을 맺을 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_GERMANY_SCHMIDT:0 "나는 다시 젊기를 구하지 않는다; 내가 원하는 그저 계속 늙어가는 것뿐이다."
+ TNO_PEACE_POPUP_FLAVOR_GERMANY_OBERLANDER:0 "민족을 위한 투쟁은 그저 평화의 껍데기 아래 전쟁을 지속하는 것에 지나지 않습니다."
+ 
+ # Burgundy Collapse
+ TNO_PEACE_POPUP_FLAVOR_BURGUNDY_COLLAPSE:0 "시체 사이를 거닐어야 하는 것은 위대한 이의 저주이다."
+ TNO_PEACE_POPUP_FLAVOR_FLANDERS_COLLAPSE:0 "그림자 속에서 피어난 음모는 다시 한번 그림자로 돌아갈 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_BELGIUM_COLLAPSE:0 "널 죽이려는 적들보다 더 강하게 훈련하라, 휴식은 관짝 안에서도 실컷 취할수 있으니까."
+ TNO_PEACE_POPUP_FLAVOR_CHARLEMAGNE_COLLAPSE:0 "이들의 영광은 비참하게 끝났습니다."
+
+ # West African Crisis
+  TNO_PEACE_POPUP_FLAVOR_WOL: "That which we call Cold War and Decolonization are only the exterior signs of the painful labour, from which will be born the world of the Future, with all divisions healed."
+ TNO_PEACE_POPUP_FLAVOR_FFR: "확고하고, 순결하고 신실히 임하세. 우리 슬픔의 끝에 있는 세계에서 가장 장대한 영광은 오로지 포기하지 않은 이들의 것이리니."
+ TNO_PEACE_POPUP_FLAVOR_CAO: "자신만을 위한 행동은 당신에게 아무런 이득을 주지 않을것이다. 그러나 모두를 위한 행동은 당신을 영원으로 이끌것이다."
+ TNO_PEACE_POPUP_FLAVOR_EWE: "적에게 사랑의 왕관을 씌워 준다면 그는 평화의 하인이 될 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_EWE_soc: "나는 죽음조차 결코 내가 가나와 아프리카에 밝힌 횃불을 꺼뜨릴 수 없다는 것을 알고 있다."
+ TNO_PEACE_POPUP_FLAVOR_MLI: "Brushing aside every obstacle, contemptuous of all pressures, we must then proceed, stage by stage, to concrete actions, looking only to the ideals of liberation and African unity."
+ TNO_PEACE_POPUP_FLAVOR_SWB: "농노의 몸으로 사는 것보다는 한 사람 인간의 몸으로 죽는 것이 낫습니다."
+ TNO_PEACE_POPUP_FLAVOR_GBE: ""
+ TNO_PEACE_POPUP_FLAVOR_GBE_soc: "The work of Nigeria is not complete for as long as there is any one Nigerian who goes to bed on an empty stomach."
+ TNO_PEACE_POPUP_FLAVOR_SUS: "To take part in the African revolution, it is not enough to write a revolutionary song. You must fashion the revolution with the people, the songs will come by themselves."
+ TNO_PEACE_POPUP_FLAVOR_FTF: "풀라니인들의 익살극이 그 끝을 맞이합니다."
+ TNO_PEACE_POPUP_FLAVOR_YOR: "그들의 뒤로는 대홍수가 뒤따릅니다."
+ TNO_PEACE_POPUP_FLAVOR_HAU: "시디크의 왕국은 망각의 열사 속으로 돌아갑니다."
+ TNO_PEACE_POPUP_FLAVOR_BKF: "그들의 소원은 최악의 악몽이 되었습니다."
+ TNO_PEACE_POPUP_FLAVOR_KAY: ""
+
+ TNO_PEACE_POPUP_FLAVOR_FTF_postWAC: ""
+ TNO_PEACE_POPUP_FLAVOR_NNG_postWAC: ""
+ TNO_PEACE_POPUP_FLAVOR_MDI_postWAC: ""
+ TNO_PEACE_POPUP_FLAVOR_ZAR_postWAC: ""
+ TNO_PEACE_POPUP_FLAVOR_KAY_postWAC: ""
+
+ TNO_PEACE_POPUP_FLAVOR_CAO_collapse: "범아프리카주의의 꿈은 두 번째로 산산조각났습니다."
+ TNO_PEACE_POPUP_FLAVOR_BFR_collapse: "그들은 영원히 자유의 몸이 되지 못할 것입니다."
+ TNO_PEACE_POPUP_FLAVOR_CHD_collapse: "쿠세리의 기억은 그들을 다시금 짓밟을 것입니다. 영원히,"
+ TNO_PEACE_POPUP_FLAVOR_NNG_collapse: ""
+ TNO_PEACE_POPUP_FLAVOR_NGA_collapse: ""
+
+ #The Oil Crisis
+ TNO_PEACE_POPUP_FLAVOR_YEM:0 "The Italians were left with only themselves to fight."
+ TNO_PEACE_POPUP_FLAVOR_NYM:0 "그들은 사막의 모래더미를 마지막 피 한 방울까지 지켰습니다."
+ TNO_PEACE_POPUP_FLAVOR_SAU:0 "나의 형제들이여, 부탁이니 나를 그대들의 형제이자 하인으로 바라보아 주겠나. '전하'는 오직 주님을 위한 말이요 '왕좌'는 오직 천상과 지구의 왕좌뿐이라네."
+ TNO_PEACE_POPUP_FLAVOR_OMA:0 "어제는 완전한 어둠이었지만 주의 도움이 있다면, 내일은 무스카트, 오만과 그 백성들에게 새로운 여명이 찾아오리라."
+ TNO_PEACE_POPUP_FLAVOR_OMI:0 "All revolutions in the Arab world are led by colonels... I am having no Arab colonels in my army."
+ TNO_PEACE_POPUP_FLAVOR_OMB:0 "힘으로 빼앗긴 것은 오로지 힘으로만 되찾을 수 있습니다."
+ TNO_PEACE_POPUP_FLAVOR_EGY:0 "세상엔 오직 5명의 왕, 이탈리아의 킹, 스페이드 킹, 클럽 킹, 하트 킹, 다이아몬드 킹만 남을것이다."
+ TNO_PEACE_POPUP_FLAVOR_EGB:0 "오랜 시간을 공모자로서 살아온 나는 어디서도 신뢰받을수 없었다."
+ TNO_PEACE_POPUP_FLAVOR_EGQ:0 "의인들이 하나둘씩 쓰러져 가고, 무지의 병폐가 스며들었습니다."
+ TNO_PEACE_POPUP_FLAVOR_RPS:0 "자유는 불이자 빛입니다, 빛을 찾기 위해선 불꽃 근처에 있어야 합니다."
+ TNO_PEACE_POPUP_FLAVOR_SDF:0 "They say that the Army can not speak the language of their own people, very well!"
+ TNO_PEACE_POPUP_FLAVOR_SDS:0 "The preachers, the radicals and the governors all feared us, and left us with no room."
+ TNO_PEACE_POPUP_FLAVOR_IRQ:0 "The simple fact is this: they are foreigners inside a country which has rejected them. Therefore, they will be rained down with bullets from everyone."
+ TNO_PEACE_POPUP_FLAVOR_BIR:0 "The great duel, the mother of all battles has begun.... The dawn of victory nears as this great showdown begins!"
+ TNO_PEACE_POPUP_FLAVOR_IRP:0 "Shamelessly claim you are the free leader. As for me, I righteously abstain from all exploitation."
+ TNO_PEACE_POPUP_FLAVOR_SNI:0 "Happy are those who have departed through martyrdom."
+ TNO_PEACE_POPUP_FLAVOR_KUR:0 "Death is a possibility, but never would I surrender. Death is a possibility, but never would I go to prison. Thus, there is only one possibility left – to stay in the mountains."
+ TNO_PEACE_POPUP_FLAVOR_SYR:0 "Oh land your soil is kafuri, in the trench my magazine sang."
+ TNO_PEACE_POPUP_FLAVOR_AZA:0 "영웅이 마을에서 죽는다면, 사람들은 울지 못합니다."
+ TNO_PEACE_POPUP_FLAVOR_AYA:0 "오 나의 백성들이여, 오 나의 백성들이여, 누가 날 해방시켜주겠나?"
+ TNO_PEACE_POPUP_FLAVOR_PER:0 "왕관과 권좌는 피의 유약한 반석 위에는 세워질 수 없었습니다."
+ TNO_PEACE_POPUP_FLAVOR_IRL:0 "Thank God we in Iran have neither the desire nor the need to suffer from democracy."
+ TNO_PEACE_POPUP_FLAVOR_IRC:0 "Shah is a kind of magic word with the Persian people."
+ TNO_PEACE_POPUP_FLAVOR_IRA:0 "Bury your guns; One day, for Iran, A tree will grow from the rifle."
+ TNO_PEACE_POPUP_FLAVOR_IRI:0 "Death is nothing but happiness, and living under tyrants nothing but living in a hell."
+ TNO_PEACE_POPUP_FLAVOR_IRB:0 "전쟁은 지옥입니다."
+ 

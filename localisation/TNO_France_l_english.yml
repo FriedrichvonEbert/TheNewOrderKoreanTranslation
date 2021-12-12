@@ -17,6 +17,7 @@
  FRA_Max_Bonnafous_eco:0 "막스 보나푸"
  FRA_Jean_Bichelonne_eco:0 "장 비셸론"
  FRA_Rene_Belin_eco:0 "르네 벨랭"
+ FRA_Jacques_Rueff_eco:0 "Jacques Rueff"
  
  FRA_Charles_Huntziger_sec:0 "샤를 욍치제"
  FRA_Marcel_Carpentier_sec:0 "마르셀 카르팡티에"
@@ -26,26 +27,29 @@
  FRA_Marcel_Bucard_sec:0 "마르셀 뷔카르"
 
  #parties
- FRA_communist_party:0 "운동제파"
- FRA_communist_party_long:0 "학생운동제파"
- FRA_socialist_party:0 "운동제파"
- FRA_socialist_party_long:0 "학생운동제파"
- FRA_social_democrat_party:0 "PSP"
- FRA_social_democrat_party_long:0 "사회페탱주의당"
- FRA_social_liberal_party:0 "UDF"
- FRA_social_liberal_party_long:0 "프랑스 민주정을 위한 연합"
- FRA_social_conservative_party:0 "RPN"
- FRA_social_conservative_party_long:0 "국가를 위한 모임"
- FRA_authoritarian_democrat_party:0 "PN-CNIP"
- FRA_authoritarian_democrat_party_long:0 "국민당 - 독립과 농민을 위한 전국중앙회"
+ FRA_communist_party:0 "NMS"
+ FRA_communist_party_long:0 "Nouveau Mouvement Social"
+ FRA_socialist_party:0 "Nouveau Mouvement Social"
+ FRA_socialist_party_long:0 "Nouveau Mouvement Social"
+ FRA_social_democracy_party:0 "PTF"
+ FRA_social_democracy_party_long:0 "Parti Travailliste Français"
+ FRA_liberal_democracy_party:0 "UDF"
+ FRA_liberal_democracy_party_long:0 "프랑스 민주정을 위한 연합"
+ FRA_conservative_democracy_party:0 "RPN"
+ FRA_conservative_democracy_party_long:0 "국가를 위한 모임"
+ FRA_authoritarian_democracy_party:0 "PN-R"
+ FRA_authoritarian_democracy_party_long:0 "국민당 - 개혁파"
  FRA_despotism_party:0 "AF"
  FRA_despotism_party_long:0 "악시옹 프랑세즈"
  FRA_fascism_party:0 "PN"
  FRA_fascism_party_long:0 "국민당"
  FRA_national_socialism_party:0 "PPF"
  FRA_national_socialism_party_long:0 "프랑스 인민당"
- FRA_ultranational_socialism_party:0 "MF"
- FRA_ultranational_socialism_party_long:0 "무브망 프랑시스트"
+ FRA_ultranationalism_party:0 "OAS"
+ FRA_ultranationalism_party_long:0 "Organisation Armée Secrète"
+ 
+ FRA_despotism_party_bichelonne_long:0 "Parti National - Technocrates"
+ FRA_despotism_party_bichelonne:0 "PN - T"
  
  #ideas
  FRA_economic_meltdown:0 "경제붕괴"
@@ -56,6 +60,15 @@
  FRA_the_treaty_of_vichi_desc:0 "프랑스인들에게 2차 세계대전은 짧지만 굴욕적인 사안이지만, 독일인들이 날린 가장 큰 타격은 비시 조약의 강요였습니다. 조약이 양차 대전의 참극을 프랑스에게 돌리며 우리 군사력에 심대한 제약을 가한 결과 우리 육군은 의장대 수준으로 쪼그라들었습니다. 더불어 조약이 국가가 어떤 연구를 후원할 수 있는지도 제약하며, 우리 체제에 대한 수많은 정치적 규제들까지 부과하면서, 독일은 자기들이 바라던 대로 프랑스령에 대한 무제한적 접근권을 손쉽게 얻어냈습니다."
  FRA_les_annees_noires:0 "검은 세월"
  FRA_les_annees_noires_desc:0 "자신의 인기가 생존에 크게 작용했던 원수 페탱의 죽음은, 인민에게는 우리 파시스트 정권에 대한 용인의 끝을 뜻했습니다. 주요 도시에서의 행군이 드물지 않은 모습이 되어가면서, 틱시에-비냥쿠르는 원수가 집권 말기에 가졌던 인기도를 누리지 못하고 있습니다. 우리 국가안보국의 노력에도, 이제 우리 인민이 프랑스 내 파시즘의 대안을 물색하고 요구함에 따라 거의 모든 이념사상들의 인기도가 프랑스 전역에서 치솟는 중입니다."
+ 
+ #leaders
+ POLITICS_JEAN-LOUIS_TIXIER-VIGNANCOUR_DESC:0 "In his ascension to Presidency, Jean-Louis Tixier-Vignancour is the quintessential representation of the current catastrophic deadlock the French State finds itself in. Elected to the long-defunct National Assembly of the Third Republic in 1936 and the subsequent French State, he is as loved as he is hated in the spheres of French Politics.\n\nAfter the catastrophic West Russian War and the establishment of the Ordensstat, Piere Laval's - the then-President of France - unexpectedly died, leaving the French State once again with a ruinous political system. The nearly-collapsing State found Tixier-Vignancour as the most capable man of uniting a shattered nation, and thus, he was appointed to the seat of power. Loved as much as he is hated, he nonetheless succeeded in ensuring the continued existence of the French State, through successfully uniting the fractured Parti Nationale, rebuilding the faint sense of stability that had been destroyed in the wake of the economic crisis.\n\nWhile ostensibly not a Germanophile, his messages of further collaboration with the Germans continues to draw large numbers to the various opposition movements in the Assemblée, hungering for a change from the status quo. As the Reich continues to deteriorate, and the chaos that had gripped France before rears its head once more, Jean-Louis Tixier-Vignancour and his government are stuck fighting over meaningless issues - while the new era of French politics begins to advance without them.\n\nWith the Résistance growing in strength in every passing day, and the looming threat of Burgundy breathing down the French State's neck, the French State is perhaps in the worst position it can be in.\n\nVignancour himself knows that the peace in Europe is tenuous, and once broken - France may well burn once more."
+ POLITICS_CHARLES_HUNTZIGER_DESC:0 "Charles Huntziger has served France for many years. He served as a general in both World Wars, and he was one of Petain's original cabinet members. As Petain forged an armistice, he appointed Huntziger to lead the French side of the negotiations, although Huntziger was unsuccessful in lessening the Treaty of Vichy's harsh conditions. Huntziger served as commander-in-chief of the French land forces and as Minister of Defense for twenty years.\n\nHuntziger could only watch as his nation turned into a shadow of its former self. When the German economy collapsed, France could do nothing. When the Germans gave away half of France to Himmler to run as his own nightmare-ish fiefdom, France could do nothing. Now, as Himmler's SS cross the French border, conquering French cities and killing French people, France can do nothing.\n\nTixier-Vignancour fled the nation, his destination unknown. Huntziger was made temporary Head of State, a half-hearted attempt to callback to the glory of the Maréchal. Huntziger feels no glory in his promotion, he feels no legitimacy. The old man has placed France's future in the hands of the Assemblée, in hopes that his successor may be able to restore some hope in France's future."
+ POLITICS_PIERRE_POUJADE_DESC:0 "If any person can bear the unfortunate task of representing the current devastation of France, it is Pierre Poujade. Steadily climbing the pillars of power in the chaos of the 1950's, he secured the Prime Ministership after Vignancour's successful bid for President. Enjoying his newfound position of power, Poujade was hopeful for a slow, careful political career. Of course, that all changed when Europe was once more thrown into utter mayhem.\n\nViolently thrust into the spotlight after the chaos of the Franco-Burgundian War, he was delegated the responsibility of grappling with yet another period of utter chaos as the political foundation of the French State fell through. Using his array of contacts, allies, and friends in the different strata of the remaining administration, Poujade managed to steer himself out of the fire and into the throne of power once more.\n\nPolitically, Poujade prides himself as the protector of the "little man", promoting a culture based around the founding principles of the state: Labor, Family, Fatherland. Promising a rebirth of a grand France, he does not delude himself into thinking it will be easy to rebuild his nation after the deluge of catastrophe which has struck it, especially with the hidden forces that lurk within the government, plotting to destroy his rule from within.\n\nShould he fail to keep these rotten forces at bay, the French State as he knows it may very well cease to exist. Should he succeed, however it will finally begin to emerge from the ashes of oppression."
+ POLITICS_PIERRE_SIDOS_DESC:0 "The descendent of a long line of French soldiers and nationalists, Pierre Sidos has always been at the forefront of the traditionalist and hardliner wings of French politics. Losing both his father and his brothers in the Second World War, Pierre stands out in the scene of nationalism in being a stern pacifist.\n\nCreating a new movement in the 1950s, which aimed to embrace the new German World Order as well as to push against the rapidly-spreading flame of socialist and communist movements across the country. This movement, named the Mouvement Occident, became his gateway into the vast world of French politics.\n\nA passionate speaker, able to easily sway crowds with his intricate knowledge of expressions and mannerisms, he quickly rose the ranks. Becoming the head of the Parti Populaire Français, he led the party to become the flagship nationalist and most German-friendly party in France.\nFollowing the Franco-Burgundinian war and the ensuing chaos, Sidos finally found his chance to strike. Securing the Presidency, he now bears his responsibility - the completion of the Révolution Nationale - to extinguish the weak democracy of France, to promote a Europe that is united in brothership (including with the Germans), and finally, to return to the fundamental values which founded the French State."
+ POLITICS_ANTOINE_PINAY_DESC:0 "Brave men carry the torch of liberty even when to do so is hard. Braver men still craft this torch from the ashes of oppression - and Antoine Pinay is one such man.\n\nA long-standing veteran of French politics, Antoine Pinay has long been mired in the politics of France, serving in both the Third Republic as well as the subsequent French State. A charismatic and eloquent speaker, he used his relative popularity among the population to assert himself as a moderate and an industrialist in the Parti National. Pinay is a firm believer in the dream of a truly fair French State, taking the mantle on the reformation of France following the death of Pierre  Laval as the leader of the reformist wing of the Parti National. However, despite enjoying a broad support base, Pinay never did have the chance to truly push his reformist ideals - sidelined by the numerous hardliners of the French State, many thought that his ideals of a fair France would never see the light of day.\n\nOf course, then Burgundian tanks entered Paris. In the ensuing chaos, Antoine Pinay, along with the rest of the Réformistes, successfully made a bid for the seat of power in France, bringing the reformist light to France once more.\n\nHe now controls a shattered nation - shellshocked from the war, with the already-tenuous political system having been utterly destroyed, the fragile foundations giving way to the pressures of reality. With the conservative elements of the Parti National plot in the darkness, while the flame of extremism continues to spread unchecked throughout the population, Pinay certainly knows he does not have an easy path ahead of him.\n\nRegardless of all of the obstacles he faces, Pinay will never give up hope on his dream: a new France, free, fair and democratic. In the end, he seeks nothing less than the restoration of the French Republic - and he will go through any steps necessary to ensure that Democracy will triumph."
+ POLITICS_JEAN_BICHELONNE_DESC:0 "The goal of a country must be of continued self improvement - the steady march of progress, development, and strength. Jean Bichelonne sees this as his motto; a devout technocrat, he has been deeply involved in the French State and it's economy ever since the end of the Second World War.\n\nPerhaps the most defining moment of his development as a politician, he was one of the loudest and most ardent critics of French economic policies only years before the economic crisis that the French State found itself with the collapse of the German economy. Losing all faith in the idea of a continental industrial powerhouse, Bichelonne now presents an alternative - a technocratic France, a major industrial center of both themselves as a country, and Europe as a whole.\n\nCold and calculating, members of the Parti National frequently describe him as "an exceptional mathematician lost in politics". Stubborn in his ideals of a France free from German meddling, he shows no sign of compromise in his relentless criticism of the Reich, usually to the dismay of those who wish to try to find an agreeable path forward with him. Certainly not a politician, his consistent inability to compromise and negotiate makes the road to his plans difficult, but he does not let that stop him. Foreseeing a utopic plan of industrialization, development, modernization, Bichelonne possesses a decisive will to put France back on the list of some of the most developed nations in the world. An optimistic plan, yes, but he will let nothing get in his way of a truly modern France on the world stage."
+ POLITICS_PIERRE_GAXOTTE_DESC:0 "Among most politically aware French men and women, few would have expected Pierre Gaxotte to have risen to the top of the political ladder to become their President. An academic historian by trade and journalist by inclination, Gaxotte has made his monarchist and militaristic sympathies apparent in his writing. Even with the fall of the French Republic, his critical work on the French Revolution continues to inspire the reactionary and oligarchical upper class of the French State.\n\nAn underling of the far-right political theorist Charles Maurass, he has kept his mentor's party, Action Française, from collapsing following his death. Seeking to return the Bourbon dynasty of the pre-Revolution monarchy back to the throne and highly critical of Pétain's rule, Gaxotte has remained a relatively minor force in French politics. Now, as its President, he intends to use his power to revive monarchism in France, regardless of what its people think. Backed by the forces of reaction, Gaxotte intends to crush what remains of France's revolutionary spirit." 
  
  #events
  FRA_DUMMY.1.t:0 "틱시에-비냥쿠르가 도망치다"

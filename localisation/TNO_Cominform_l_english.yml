@@ -6,9 +6,9 @@
  ## Ministers ##
  
  ## Ideas ##
- NIK_socintern_member:0 "소인테른 회원국"
+ KOM_socintern_member:0 "코민테른 회원국"
 
- NIK_socintern_associate:0 "소인테른 제휴국"
+ KOM_socintern_associate:0 "코민테른 제휴국"
 
  RUS_comecon_withdrew_money:0 "코메콘 기금 철회"
 
@@ -23,45 +23,92 @@
 
  COMECON_desc:0 "In the name of international cooperation between socialist states, the §SCouncil for Mutual Economic Assistance§! offers an opportunity to sponsor the development of less developed nations through §SCOMECON§! aid and emergency assistance."
 
- COMECON_defense_transfer_amt:0 "$[?ROOT.COMECONDefTransferAmt]M"
- COMECON_dev_transfer_amt:0 "$[?ROOT.COMECONDevTransferAmt]M"
+ COMECON_defense_transfer_amt:0 "$[?ROOT.COMECONDefTransferAmt]B"
+ COMECON_dev_transfer_amt:0 "$[?ROOT.COMECONDevTransferAmt]B"
 
- COMECON_defense_transfer_amt_yearly:0 "$[?ROOT.COMECONDefTransferAmtYearly]M/yr"
- COMECON_dev_transfer_amt_yearly:0 "$[?ROOT.COMECONDevTransferAmtYearly]M/yr"
+ COMECON_defense_transfer_amt_yearly:0 "$[?ROOT.COMECONDefTransferAmtYearly]B/yr"
+ COMECON_dev_transfer_amt_yearly:0 "$[?ROOT.COMECONDevTransferAmtYearly]B/yr"
 
- COMECON_dev_amt:0 "$[?global.COMECON_monetary_fund_value|2]M"
- COMECON_defense_amt:0 "$[?global.COMECON_collective_defense_value|2]M"
+ COMECON_dev_amt:0 "$[?global.COMECON_monetary_fund_value|2]B"
+ COMECON_defense_amt:0 "$[?global.COMECON_collective_defense_value|2]B"
 
  COMECON_GUI_Country_Entry_Button_tt:0 "§S코메콘§!에서 [THIS.GetNameDef]의 원조금으로 §Y250만 달러§!가 전달될 것입니다."
+ Socintern_GUI_General_Assembly_Entry_Nation_tt:0 "[THIS.GetNameDef] - [THIS.GetSocInternVoteStatus]"
+ TNO_SOCINTERN_YES_VOTE:0 "voting §Gin favor§!."
+ TNO_SOCINTERN_ABS_VOTE:0 "§gabstaining§!."
+ TNO_SOCINTERN_NO_VOTE:0 "voting §Rin opposition§!."
+ TNO_SOCINTERN_UNDECIDED_VOTE:0 "§Wundecided§!."
+
+ COM_cooldown:0 "The §RGeneral Assembly§! is in recess."
 
  COMECON_GUI_Defense_Fund_Withdraw_Label_tt:0 "Withdrawals from the defense fund are unlocked when we are currently in an §Rarmed conflict§!."
  COMECON_GUI_Dev_Fund_Withdraw_Label_tt:0 "Withdrawals from the development fund are unlocked when we are §Rrunning a deficit§!, or have a §RGDP under $50 Billion§!."
 
  ### Decisions ###
 
- TNO_socintern_category:0 "§R사회주의 인터네셔널§!"
- TNO_socintern_category_desc:0 "\n\n\n\n\n\nTo facilitate the interests of mutual cooperation among those nations which have adopted the socialist ideology, the §RSocialist International§! serves as a premier means of providing global cooperation and strategic assistance. Through the §RSocIntern§!, socialist states may coordinate with each other in defensively and politically, and a forum to discuss assistance to global proletarian and national liberation movements may be provided.\n\n§RSocIntern§! §Ycollective defense fund§! balance: [?global.COMECON_collective_defense_value|2]M USD.\n\n[GetSocInternVote]"
- TNO_found_comecon:0 "§S코메콘§!의 창설"
- COM_invite_country:0 "[FROM.GetName]에게 회원국 지위 제공"
- COM_invite_country_associate:0 "[FROM.GetName]에게 제휴국 지위 제공"
- COM_propose_mutual_nap:0 "[FROM.GetName]에게 상호 불가침 조약 제안"
+ TNO_socintern_GUI:0 "§R공산주의 인터네셔널§!"
+ Socintern_desc:0 "To facilitate the interests of mutual cooperation among those nations which have embraced the proletarian revolution, the §RCommunist International§! serves as a premier means of providing global cooperation and strategic assistance. Through the §RComIntern§!, socialist states may coordinate with each other in defensively and politically, and a forum to discuss assistance to global proletarian and national liberation movements may be provided."
+ TNO_socintern_general_assembly_title:0 "§RTHE GENERAL ASSEMBLY§!"
+ TNO_socintern_general_assembly_motion_title:0 "§YCurrent Resolution§!"
+ TNO_socintern_general_assembly_motion_title_dyn:0 "[GetSocInternResolutionTitle]"
+ TNO_socintern_general_assembly_motion_desc:0 "[GetSocInternResolutionDesc]"
+ TNO_socintern_general_assembly_votes:0 "Votes: §G[?global.SocIntern_yes_votes]§!/§g[?global.SocIntern_abs_votes]§!/§R[?global.SocIntern_no_votes]§!"
+ SOCINTERN_VOTE_IN_PROGRESS:0 "A §Rvote§! is currently in progress."
+ TNO_socintern_cancel_vote:0 "The §Rvote§! is unable to continue."
+ TNO_socintern_vote_mission:0 "§RGeneral Assembly§! Voting"
+ TNO_socintern_vote_mission_tt:0 "Voting on the [GetSocInternResolutionTitle] will §Yconclude§!."
 
- TNO_SOCINTERN_VOTING:0 "Current SocIntern resolution - [GetSocInternResolutionTitle]\n\n[GetSocInternResolutionDesc]\n\n§GYES§! Votes - §G[?global.SocIntern_yes_votes]§!\n§RNO§! Votes - §R[?global.SocIntern_no_votes]§!\n§YABSTAIN§! Votes - §Y[?global.SocIntern_abs_votes]§!\n"
- TNO_SOCINTERN_NOT_VOTING:0 "No SocIntern resolution is currently be voted on."
- SOCINTERN_VOTE_NON_AGGRESSION_PACT_DESC:0 "§LProposal for every organization in the SocIntern to officially declare a policy of mutual co-existence and non-aggression against all other SocIntern member organizations.§!"
+ COM_invite_country_associate:0 "Offer §lAssociate Status§! to [FROM.GetName]"
+ COM_invite_country:0 "Offer §RMembership§! to [FROM.GetName]"
+ COM_propose_mutual_nap:0 "Propose Mutual Non-Aggression Pact"
+ TNO_found_comecon:0 "Propose §SCOMECON§! Establishment"
+ TNO_establish_COMECON_scientific_bureau:0 "Propose the §SCOMECON§! Scientific Bureau"
+ TNO_increase_COMECON_centralization:0 "Increase §SCOMECON§! Centralization" 
+ COM_establish_international_brigades:0 "Propose the §xInternational Brigades§!"
+ COM_intervene_in_country:0 "Propose §xMilitary Assistance§! to [FROM.GetName]"
+ TNO_show_hide_invitations:0 "Show/Hide §RInvitation Decisions§!"
+ TNO_show_hide_associate_invitations:0 "Show/Hide §lAssociate Invitation Decisions§!"
+ TNO_show_hide_interventions:0 "Show/Hide §xIntervention Decisions§!"
 
- SOCINTERN_VOTE_NON_AGGRESSION_PACT_TITLE:0 "§R상호 불가침 조약§!"
+ ###RESOLUTIONS###
 
- COM_invite_country_associate_tt:0 "선택된 국가는 §R사회주의 인터내셔널§!에서 §l제휴국 지위§!를 제공받을 것입니다."
- COM_invite_country_tt:0 "선택된 국가는 §R사회주의 인터내셔널§!에서 §R회원국 지위§!를 제공받을 것입니다."
+ SOCINTERN_VOTE_NON_AGGRESSION_PACT_TITLE:0 "§WMutual Non-Aggression Pact§!"
+ SOCINTERN_VOTE_NON_AGGRESSION_PACT_DESC:0 "§gProposal for every organization in the §RComIntern§! to officially declare a policy of mutual co-existence and non-aggression against all other §RComIntern§! member organizations.\n\nMember states will pledge to recognize one another's borders and sovereignty over their territories, and pledge to not aggress upon the territories of other member states.§!"
+
+ SOCINTERN_VOTE_COMECON_TITLE:0 "§WEstablishment of §SCOMECON§!§!"
+ SOCINTERN_VOTE_COMECON_DESC:0 "§gProposal for the establishment of the §SCouncil for Mutual Economic Assistance§!, an organization that will aid with the development of socialist nations. §SCOMECON§! shall provide financial support to socialist nations, as well as possessing emergency funds for debt relief or defense spending in the case of war.\n\nAll member states will have the ability to contribute to §SCOMECON§!, and donations will be able to be granted to even non-ComIntern nations in the name of international solidarity.§!"
+
+ SOCINTERN_VOTE_COMECON_SCIENCE_TITLE:0 "§WEstablishment of §SCOMECON§! Scientific Bureau§!"
+ SOCINTERN_VOTE_COMECON_SCIENCE_DESC:0 "§gProposal for the establishment of the §SCouncil for Mutual Economic Assistance§!'s Scientific Bureau. The §SCOMECON§! Scientific Bureau shall become the collective international scientific organization of the §RCommunist International§!, and serve as the research and development wing of §SCOMECON§!. Its purpose shall be to assist with mutual research, and allow the rapid advancement of developing countries to technological parity with the rest of the §SCOMECON§! member nations.§!"
+
+ SOCINTERN_VOTE_INVITATION_TITLE:0 "§W§RMembership§! for [SOCINTERN_INVITED.GetName]§!"
+ SOCINTERN_VOTE_INVITATION_DESC:0 "§gProposal to extend an immediate offer of full §RComIntern§! membership to the ruling party of [SOCINTERN_INVITED.GetNameDef]. If they accept, they shall immediately be inducted into the §RComIntern§! as a voting member of the General Assembly, and gain access to all §RComIntern§! programs.\n\nAll diplomatic overtures, such as non-aggression pacts, extended as part of §RComIntern§! policy shall be extended to [SOCINTERN_INVITED.GetNameDef] as well.§!"
+
+ SOCINTERN_VOTE_ASSOCIATESHIP_TITLE:0 "§W§lAssociate Status§! for [SOCINTERN_INVITED.GetName]§!"
+ SOCINTERN_VOTE_ASSOCIATESHIP_DESC:0 "§gProposal to extend an immediate offer of §RComIntern§! associate status to the ruling party of [SOCINTERN_INVITED.GetNameDef]. If they accept, they shall immediately be inducted into the §RComIntern§! as an associate, and be able to apply for full membership at a later date.\n\n[SOCINTERN_INVITED.GetNameDef] will not be included in current §RComIntern§! policies until they achieve full membership status.§!"
+ 
+ SOCINTERN_VOTE_INTERNATIONAL_BRIGADES_TITLE:0 "§WEstablishment of the §xInternational Brigades§!§!"
+ SOCINTERN_VOTE_INTERNATIONAL_BRIGADES_DESC:0 "§gProposal to create a §RComIntern§! bureau for providing clandestine military assistance to revolutionary movements. The §xInternational Brigades§! will be charged with facilitating passports, armaments, and transportation to those that wish to assist in socialist revolutionary activity abroad.\n\nThe formation of this bureau will allow §RComIntern§! member states the ability to dispatch international brigades to assist socialist nations at war, and grant a one-time bonus to military expertise.§!"
+
+ SOCINTERN_VOTE_SPHERIFICATION_TITLE:0 "§WExpanded Centralization of §SCOMECON§!§!"
+ SOCINTERN_VOTE_SPHERIFICATION_DESC:0 "§gProposal to further centralize the §SCouncil for Mutual Economic Assistance§! for the purpose of improved mutual assistance, lower trade barriers, and more fruitful economic cooperation between socialist nations.\n\nWith this reform, §SCOMECON§! will be considered an economic bloc of its own on the world stage.§!"
+
+ SOCINTERN_VOTE_VOLUNTEERS_TITLE:0 "§W§xMilitary Assistance§! for [SOCINTERN_VOLUNTEERS.GetName]§!"
+ SOCINTERN_VOTE_VOLUNTEERS_DESC:0 "§gProposal to dispatch §xinternational brigades§! to assist [SOCINTERN_VOLUNTEERS.GetNameDef] in its ongoing conflict. §xInternational brigades§! will be able to be dispatched by each ComIntern member state, and will be recalled following the end of the conflict.\n\nAdditionally, material assistance to [SOCINTERN_VOLUNTEERS.GetNameDef] shall be available, if §SCOMECON§! has been founded.§!"
+
+ SOCINTERN_NONE_TITLE:0 "§WNone§!"
+ SOCINTERN_NONE_DESC:0 "§gNo proposal is currently being voted upon.§!"
+
+ COM_invite_country_associate_tt:0 "The selected country shall be offered §lassociate status§! in the §RCommunist International§!."
+ COM_invite_country_tt:0 "The selected country shall be offered §Rmembership§! in the §RCommunist International§!."
 
  TNO_COMECON_GUI:0 "§SCOMECON§!"
  
  ## Tooltips ##
  deficit_ratio_sufficient_tt:0 "Our §Ydeficit-to-income§! ratio is above 40%."
- COMECON_money_transfer_10_tt:0 "§Y10%§! of the §RSocIntern§! §Ycollective defense fund§! shall be transfered to our coffers."
- COMECON_money_transfer_25_tt:0 "§Y25%§! of the §RSocIntern§! §Ycollective defense fund§! shall be transfered to our coffers."
- COMECON_money_transfer_50_tt:0 "§Y50%§! of the §RSocIntern§! §Ycollective defense fund§! shall be transfered to our coffers."
+ COMECON_money_transfer_10_tt:0 "§Y10%§! of the §RComIntern§! §Ycollective defense fund§! shall be transfered to our coffers."
+ COMECON_money_transfer_25_tt:0 "§Y25%§! of the §RComIntern§! §Ycollective defense fund§! shall be transfered to our coffers."
+ COMECON_money_transfer_50_tt:0 "§Y50%§! of the §RComIntern§! §Ycollective defense fund§! shall be transfered to our coffers."
 
  COMECON_money_transfer_10_monetary_tt:0 "§Y10%§! of the §SCOMECON§! §Ymutual monetary fund§! shall be transfered to our coffers."
  COMECON_money_transfer_25_monetary_tt:0 "§Y25%§! of the §SCOMECON§! §Ymutual monetary fund§! shall be transfered to our coffers."
@@ -98,7 +145,7 @@
  COMECON_monetary_fund_million:0 "[?global.COMECON_monetary_fund_value|2]M USD"
  COMECON_monetary_fund_thousand:0 "[?global.COMECON_monetary_fund_value_thousand|2]K USD"
 
- RUS_comecon_withdrew_money:0 "소인테른 기금 철회"
+ RUS_comecon_withdrew_money:0 "코민테른 기금 철회"
  RUS_comecon_built_factory:0 "Developed Partner Industries"
  RUS_comecon_sent_aid:0 "코메콘 원조 전송"
  RUS_comecon_requested_aid:0 "Requested COMECON Aid"
@@ -107,31 +154,31 @@
  
  ## Events ##
 
- socintern.0.t:0 "사회주의 인터내셔널의 총회가 이제 준비되다"
- socintern.0.d:0 "Ever since the creation of the Socialist Internationale, work has been on going to prepare a great assembly. There, representatives of the world's socialist parties would be able to gather to discuss issues and propose various motions. Today, the work is complete and the Assembly is ready!\n\nMembers of the SocIntern will be able to propose motions, and vote on them through a secret ballot. The addition of the Assembly to the organization's charter will no doubt prove to be an important tool in the struggle to advance Socialism internationally."
+ socintern.0.t:0 "공산주의 인터내셔널의 총회가 이제 준비되다"
+ socintern.0.d:0 "Ever since the creation of the Communist International, work has been on going to prepare a great assembly. There, representatives of the world's socialist parties would be able to gather to discuss issues and propose various motions. Today, the work is complete and the Assembly is ready!\n\nMembers of the ComIntern will be able to propose motions, and vote on them through a secret ballot. The addition of the Assembly to the organization's charter will no doubt prove to be an important tool in the struggle to advance Socialism internationally."
  socintern.0.a:0 "만국의 노동자들에게 영광스러운 날이로군!"
 
- socintern.1.t:0 "[FROM.GetName]이/가 회원국 지위를 제안하다"
- socintern.1.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Socialist International as associate member. This new organization, often shortened to the "SocIntern" is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the SocIntern or not."
+ socintern.1.t:0 "[FROM.GetNameDef]이/가 코민테른 회원국 지위를 제안하다"
+ socintern.1.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Communist International as associate member. This new organization, often shortened to the "ComIntern" is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the ComIntern or not."
  socintern.1.a:0 "우리는 기꺼이 받아들일 것이다."
  socintern.1.b:0 "제휴국 지위를 받도록 하자."
- socintern.1.c:0 "우리는 소인테른과 관계를 맺을 의사가 없다."
+ socintern.1.c:0 "우리는 코민테른과 관계를 맺을 의사가 없다."
  
- socintern.2.t:0 "[FROM.GetName]이/가 제휴국 지위를 제안하다"
- socintern.2.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Socialist International as associate member. This new organization, often shortened to the "SocIntern" is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the SocIntern or not."
+ socintern.2.t:0 "[FROM.GetNameDef]이/가 코민테른 제휴국 지위를 제안하다"
+ socintern.2.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Communist International as associate member. This new organization, often shortened to the "ComIntern" is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the ComIntern or not."
  socintern.2.a:0 "제휴국 지위를 받도록 하자."
- socintern.2.b:0 "우리는 소인테른과 관계를 맺을 의사가 없다."
+ socintern.2.b:0 "우리는 코민테른과 관계를 맺을 의사가 없다."
 
- socintern.3.t:0 "[FROM.GetName]이/가 회원국 지위를 받아들이다"
- socintern.3.d:0 "We've received news that the ruling party of [FROM.GetNameDef] has agreed to join the Socialist Internationale as a full member. We can look forward to seeing their contributions and proposals in the SocIntern's meetings."
+ socintern.3.t:0 "[FROM.GetNameDef]이/가 회원국 지위를 받아들이다"
+ socintern.3.d:0 "We've received news that the ruling party of [FROM.GetNameDef] has agreed to join the Communist International as a full member. We can look forward to seeing their contributions and proposals in the ComIntern's meetings."
  socintern.3.a:0 "환영하오, 동지들!"
 
- socintern.4.t:0 "[FROM.GetName]이/가 제휴국 지위를 받아들이다"
- socintern.4.d:0 "We've received news that the ruling party of [FROM.GetNameDef] has agreed to join the Socialist Internationale as an associate member. Their presence as observers on the organization's meeting will let them gauge our progress, and in time perhaps the closer ties between our nations will lead to their growth into full membership."
+ socintern.4.t:0 "[FROM.GetNameDef]이/가 제휴국 지위를 받아들이다"
+ socintern.4.d:0 "We've received news that the ruling party of [FROM.GetNameDef] has agreed to join the Communist International as an associate member. Their presence as observers on the organization's meeting will let them gauge our progress, and in time perhaps the closer ties between our nations will lead to their growth into full membership."
  socintern.4.a:0 "환영하오, 동지들!"
 
- socintern.5.t:0 "[FROM.GetName]이/가 초대를 거절하다"
- socintern.5.d:0 "Sadly, it seems that [FROM.GetNameDef] will not join the Socialist Internationale. Representatives of their ruling party have politely but firmly turned down our invitation to join the new organization and its fight for workers' rights and socialism. Perhaps [FROM.GetNameDef] will show more interest in the future; for now joining the SocIntern is simply not within their priorities."
+ socintern.5.t:0 "[FROM.GetNameDef]이/가 초대를 거절하다"
+ socintern.5.d:0 "Sadly, it seems that [FROM.GetNameDef] will not join the Communist International. Representatives of their ruling party have politely but firmly turned down our invitation to join the new organization and its fight for workers' rights and socialism. Perhaps [FROM.GetNameDef] will show more interest in the future; for now joining the ComIntern is simply not within their priorities."
  socintern.5.a:0 "유감스럽군."
 
  socintern.6.t:0 "[FROM.GetNameDef]로부터의 초청"
@@ -143,81 +190,126 @@
  socintern.7.d:0 "Excellent news! The Rykov Conference has been a splendid affair. The parties invited were cordial and honest, as old enmities were swept beneath the tide of global revolution. The minor disputes that occurred were quickly settled by the conference chairs, and on the whole the meeting was both productive and enjoyable.\n\nIf the conference is any indication, it appears that the ideological force of Socialism will once again return to the global scene. Let the worldwide enemies of the proletariat and popular justice tremble before the awesome power of the allied socialist nations!"
  socintern.7.a:0 "국제적인 이상이 인류를 통합하다!"
 
- socintern.8.t:0 "[FROM.GetName]이/가 소인테른의 회원국 지위를 요청하다"
- socintern.8.d:0 "Every day seems to bring new triumphs for the nations of the SocIntern. Our ranks are expanding, our economic output is expanding, and even the nations most submerged in the filth of fascism and capitalism are beginning to feel the first tremors of the socialist earthquake.\n\nWe have recently received yet another application for full membership from the nation of [FROM.GetNameDef], whose people have felt the siren call of the global revolution. No doubt their presence among our faction will strengthen our capabilities against the enemies of the proletariat worldwide."
+ socintern.8.t:0 "[FROM.GetNameDef]이/가 코민테른의 회원국 지위를 요청하다"
+ socintern.8.d:0 "Every day seems to bring new triumphs for the nations of the ComIntern. Our ranks are expanding, our economic output is expanding, and even the nations most submerged in the filth of fascism and capitalism are beginning to feel the first tremors of the socialist earthquake.\n\nWe have recently received yet another application for full membership from the nation of [FROM.GetNameDef], whose people have felt the siren call of the global revolution. No doubt their presence among our faction will strengthen our capabilities against the enemies of the proletariat worldwide."
  socintern.8.a:0 "우리는 기꺼이 받아들일 것이다."
  socintern.8.b:0 "우리는 그들과 관계를 맺을 의사가 없다."
 
- socintern.9.t:0 "[FROM.GetName]이/가 우리의 신청을 받아주다"
- socintern.9.d:0 "When our nation first began its path towards membership in the SocIntern, many called it a fool's errand. After all, the power of the bourgeoisie is formidable, and their will to crush any stirrings among the proletariat absolute. But in spite of the odds and naysayers, our ruling party vanquished its foes and now dominates local politics. Even this victory appeared fragile until recently we received word that our government's application to the SocIntern has been accepted. We are now acknowledged as an equal by the greatest socialist powers of the world, and stand besides them in their struggle."
+ socintern.9.t:0 "[FROM.GetNameDef]이/가 우리의 신청을 받아주다"
+ socintern.9.d:0 "When our nation first began its path towards membership in the ComIntern, many called it a fool's errand. After all, the power of the bourgeoisie is formidable, and their will to crush any stirrings among the proletariat absolute. But in spite of the odds and naysayers, our ruling party vanquished its foes and now dominates local politics. Even this victory appeared fragile until recently we received word that our government's application to the ComIntern has been accepted. We are now acknowledged as an equal by the greatest socialist powers of the world, and stand besides them in their struggle."
  socintern.9.a:0 "훌륭하군!"
 
- socintern.10.t:0 "[FROM.GetName]이/가 우리의 신청을 거절하다"
- socintern.10.d:0 "Terrible news! It seems that the leadership of the SocIntern has been corrupted by the very forces of capitalism and revisionism that they claim to fight against, how else can we explain their rejection of our application for full membership?\n\nHopefully in time, the winds of change will displace these two-faced fools and replace them in the movement's leadership position with nations more committed to the global revolution, but until then it seems that we must struggle against the capitalist oppressors on our own.\n\nPainful as it might be to be separated from our comrades, we must continue onwards, until one day our fellow proletarian governments see the light and acknowledge us once more."
+ socintern.10.t:0 "[FROM.GetNameDef]이/가 우리의 신청을 거절하다"
+ socintern.10.d:0 "Terrible news! It seems that the leadership of the ComIntern has been corrupted by the very forces of capitalism and revisionism that they claim to fight against, how else can we explain their rejection of our application for full membership?\n\nHopefully in time, the winds of change will displace these two-faced fools and replace them in the movement's leadership position with nations more committed to the global revolution, but until then it seems that we must struggle against the capitalist oppressors on our own.\n\nPainful as it might be to be separated from our comrades, we must continue onwards, until one day our fellow proletarian governments see the light and acknowledge us once more."
  socintern.10.a:0 "유감스럽군."
 
- socintern.11.t:0 "[FROM.GetName]이/가 소인테른의 제휴국 지위를 요청하다"
- socintern.11.d:0 "The winds of change, the basic forces of economics, and the inevitable victory of the socialist revolution cannot be rushed. Attempting to bring about our final victory before its time will only delay the day of triumph -- as the Bukharinists learned to their sorrow. Therefore, although it is saddening that they had not considered themselves worth of full membership, the application of [FROM.GetName] to join the SocIntern as an associate nation is still cause for celebration. We must now determine whether they are worthy of this honor, or if their form of socialism is insufficient for the needs of the global proletariat."
+ socintern.11.t:0 "[FROM.GetNameDef]이/가 코민테른의 제휴국 지위를 요청하다"
+ socintern.11.d:0 "The winds of change, the basic forces of economics, and the inevitable victory of the socialist revolution cannot be rushed. Attempting to bring about our final victory before its time will only delay the day of triumph -- as the Bukharinists learned to their sorrow. Therefore, although it is saddening that they had not considered themselves worth of full membership, the application of [FROM.GetName] to join the ComIntern as an associate nation is still cause for celebration. We must now determine whether they are worthy of this honor, or if their form of socialism is insufficient for the needs of the global proletariat."
  socintern.11.a:0 "우리는 기꺼이 받아들일 것이다."
  socintern.11.b:0 "우리는 그들과 관계를 맺을 의사가 없다."
  
  socintern.12.t:0 "[FROM.GetName]이/가 우리의 신청을 받아주다"
- socintern.12.d:0 "Excellent news on the diplomatic front. We have recently received an official communique from the SocIntern high council formally accepting our nation into the pact as an associate member.\n\nThis is good news for our government, we are now poised to either join the organization in full should we consider it useful for our interests, or to leave with few repercussions if it is not. We can only hope that our new allies understand our position, and are able to win our trust."
+ socintern.12.d:0 "Excellent news on the diplomatic front. We have recently received an official communique from the ComIntern high council formally accepting our nation into the pact as an associate member.\n\nThis is good news for our government, we are now poised to either join the organization in full should we consider it useful for our interests, or to leave with few repercussions if it is not. We can only hope that our new allies understand our position, and are able to win our trust."
  socintern.12.a:0 "훌륭하군!"
 
  socintern.13.t:0 "[FROM.GetName]이/가 우리의 신청을 거절하다"
- socintern.13.d:0 "Tragic news from the diplomatic front. It seems that the fools in the SocIntern leadership have rejected our membership in their special club. Although we had hoped to head off this scenario by requesting membership as an associate rather than in full, even this was not enough for the so-called "leadership" of the organization. Despite this humiliation, our nation has not abandoned our commitment to the workers of the world, though we will have to find alternative channels to express it."
+ socintern.13.d:0 "Tragic news from the diplomatic front. It seems that the fools in the ComIntern leadership have rejected our membership in their special club. Although we had hoped to head off this scenario by requesting membership as an associate rather than in full, even this was not enough for the so-called "leadership" of the organization. Despite this humiliation, our nation has not abandoned our commitment to the workers of the world, though we will have to find alternative channels to express it."
  socintern.13.a:0 "유감스럽군."
 
  socintern.0.t:0 "총회가 개최되다"
- socintern.0.d:0 "Ever since the creation of the Socialist Internationale, work has been on going to prepare a great assembly. There, representatives of the world's socialist parties would be able to gather to discuss issues and propose various motions. Today, the work is complete and the Assembly is ready!\n\nMembers of the SocIntern will be able to propose motions, and vote on them through a secret ballot. The addition of the Assembly to the organization's charter will no doubt prove to be an important tool in the struggle to advance Socialism internationally."
+ socintern.0.d:0 "Ever since the creation of the Communist International, work has been on going to prepare a great assembly. There, representatives of the world's socialist parties would be able to gather to discuss issues and propose various motions. Today, the work is complete and the Assembly is ready!\n\nMembers of the ComIntern will be able to propose motions, and vote on them through a secret ballot. The addition of the Assembly to the organization's charter will no doubt prove to be an important tool in the struggle to advance Socialism internationally."
  socintern.0.a:0 "만국의 노동자들에게 영광스러운 날이로군!"
 
- socintern.14.t:0 "상호 불가침 조약이 제안되다"
- socintern.14.d:0 "It is time for the SocIntern to consider a new proposal. One of the nations has proposed a mutual non-aggression pact between all SocIntern nations. They argue that the revolution must not fall to infighting, and that this pact is the first step towards making the SocIntern a viable force within global politics. Of course, not everyone agrees, and some claim that this would be both a waste of time, and that this pact would unfairly restrict the sovereignty of the member nations."
- socintern.14.a:0 "매우 흥미롭군."
- socintern.14.b:0 "발의안을 찬성하자."
- socintern.14.c:0 "발의안에 거부권을 행사하자."
+ socintern.14.t:0 ""
+ socintern.14.d:0 ""
+ socintern.14.a:0 ""
+ socintern.14.b:0 ""
+ socintern.14.c:0 ""
 
- socintern.15.t:0 "상호 불가침 조약이 거부되다"
- socintern.15.d:0 "It appears that the General-Secretary of the SocIntern did not agree with the reasoning behind the mutual non-aggression pact. Whatever their reasons were, the motion has been vetoed. If the General Assembly does not vote to overturn the veto, the proposal will fail and be shelved for now. If we overturn the veto, the proposal must be voted upon once more in the General Assembly to see if the motion actually passes or not. As it stands currently, we can either vote to overturn the veto, vote against overturning the veto, or abstain from voting."
- socintern.15.a:0 "번복되기를 빌며 투표하자."
- socintern.15.b:0 "거부권을 유지하는데 투표하자."
- socintern.15.c:0 "기권하자."
+ socintern.15.t:0 ""
+ socintern.15.d:0 ""
+ socintern.15.a:0 ""
+ socintern.15.b:0 ""
+ socintern.15.c:0 ""
 
- socintern.16.t:0 "서기장의 거부권이 무효화되다"
- socintern.16.d:0 "The General Assembly has voted, and the results are clear: the General Assembly has voted to overturn the General-Secretary's veto. This means that the mutual non-aggression pact has survived, and will pass on to the General Assembly, where the motion shall be voted upon once more. While the General Assembly could vote against the motion, many agree that the motion's chances of passing are fairly decent."
- socintern.16.a:0 "Onto the vote."
+ socintern.16.t:0 ""
+ socintern.16.d:0 ""
+ socintern.16.a:0 ""
 
- socintern.17.t:0 "거부권이 유지되다"
- socintern.17.d:0 "It appears that the General-Secretary's decision will not be opposed by the General Assembly, and that the veto will not be overturned. The motion for a mutual non-aggression pact has been killed, and some of the delegations seem disappointed with the outcome. However, what's done is done, and the motion will be shelved for now. The mutual non-aggression pact may be proposed again in the future, but for now the SocIntern must turn their attention to other matters."
- socintern.17.a:0 "아주 좋아."
+ socintern.17.t:0 "The Establishment of COMECON"
+ socintern.17.d:0 "Great news! Our socialist allies have come to their senses and have voted for the establishment of COMECON. COMECON, or the Council of Mutual Economic Assistance, is an international program set up by the nations of the Comintern for the members of the Comintern. It promises to assist the development of any and all nations that require it via aid and the funnelling of resources towards them. Moreover, it helps to build bridges and strengthen economic bonds between our peoples and make them sturdier to the conspiring forces of Capitalism and Fascism. We shall make ourselves richer while keeping our workers all the freer.\n\nToday is a great day for Socialism. Now even the most feeble of our compatriots will rise above themselves - into something more extraordinary than the sum of their parts. However, with such a big task comes a time of rest. It will be one month before the General Assembly can pass such a monumental resolution like this."
+ socintern.17.a:0 "From each according to his ability, to each according to his needs."
 
- socintern.18.t:0 "불가침 조약에 대한 투표"
- socintern.18.d:0 "The proposal for the mutual non-aggression pact between all SocIntern members has reached the General Assembly. The debates from earlier have been revived, attempting to sway votes to their side at the eleventh hour. The proponents for the motion claim there is no valid reason to oppose such a motion, claiming that only traitors to the revolution would refuse to sign such a thing. The opponents claim that it is not for the SocIntern to determine such matters, and that it should be up to the individual nations to determine their own diplomacy.\n\nEventually, the debates and arguments ended, and the vote could finally occur. Now is the time for decisions to be made. Do we vote in favor of the motion, against the motion, or abstain?"
- socintern.18.a:0 "찬성에 투표하자."
- socintern.18.b:0 "반대에 투표하자"
- socintern.18.c:0 "기권하자."
+ socintern.18.t:0 "The Failure of COMECON"
+ socintern.18.d:0 "Grave news has come out of the General Assembly. Foolishly deciding that the narrow-minded goals of their nation were more important than the emancipation of humanity, the COMECON proposal has been shot down. If it had succeeded, it would have provided vital assistance to the Socialist nations of the planet. From the weakest statelets to the largest and most prosperous, none would have been exempt from economic aid, and security.\n\nThe events of the vote have been dark days for the Comintern. Many say that if we cannot even decide to vote together, then what is the point of fighting together? The ties that bind us together are growing slacker with each passing day. If we cannot stand together we will be torn apart and butchered by the hungry wolves of Capitalism and Fascism. Regardless of now, there is always next time. In a month, the General Assembly will once more decide on a resolution again. When that time comes, we will not be so easily split apart."
+ socintern.18.a:0 "What happened to Proletarian unity?"
 
  socintern.19.t:0 "불가침 조약이 통과되다"
- socintern.19.d:0 "The General Assembly has finished voting, and it seems that the General Assembly has decided to pass the motion. Now all members of the SocIntern shall have mutual non-aggression pacts between them, preventing them from going to war with each other. Some proponents of the motion claim that this is a key step towards a truly international revolution. While it is still far too early to claim or suggest such ideas, the proponents of the mutual non-aggression pact still have reason to celebrate. With the motion passed, the matter of the mutual non-aggression pact has been resolved, and the SocIntern can turn its attention to other matters."
- socintern.19.a:0 "세상은 평화롭다."
-
+ socintern.19.d:0 "Peace has come to the world, at last! Or at least peace in the Socialist World. Today, the General Assembly has voted for the Non-Aggression Resolution. This resolution means two things. One, a war against two Socialist nations is strictly forbidden to preserve Leftist Unity. A formal treaty of Non-Aggression will be signed by all the nations of the Comintern towards each other to uphold this. Secondly, all members of the Comintern will recognise all Socialist territorial claims and holdings. Including not only "internationally unrecognised" holdings of Comintern nations but territorial claims and borders that we all desire, even if we do not control the area.\n\nMay the Capitalists tremble in fear, for we have put our petty differences aside and focused on the real enemy. Not other workers, who are simply trying to survive, but the fatcats who made us suffer in the first place. Regardless, this has been a colossal undertaking. Yet we cannot vote for a similarly sized resolution until next month. Then, we can advance the interests of the workers even more."
+ socintern.19.a:0 "Peace between nations, not between classes."
+ 
  socintern.20.t:0 "불가침 조약이 거부되다"
- socintern.20.d:0 "The General Assembly has finished voting, and it seems that the motion has failed. There shall be no mutual non-aggression pact between SocIntern nations, and the proposal will be shelved for now. This is not necessarily the end of such a proposal, and it may return in the future. However, for now the delegations must be content with the current vote's outcome, as the SocIntern turns its attention to other matters."
- socintern.20.a:0 "연대에 대한 타격인가?"
+ socintern.20.d:0 "Plato said that "Only the dead have seen the end of war". If the events of the last few days have proved anything, it's that the ancient philosopher's words still ring true, with a harsh, stinging clang. The vote to not only sign a treaty of non-aggression but also recognise the territorial claims of all Comintern nations has died in the General Assembly.\n\nWhether it was conflicting interests or outside pressure from within or without the nation, the Comintern has failed to unite under one banner. With the Act's failure, our enemies salivate with malice and glee, as they know a door has been opened. A gateway into internecine, inter-Socialist warfare. While the chances of a war between member nations are low, the possibility still hangs over our heads, like the Damoclean sword of old. The Capitalists will be all too willing to exploit this chance and have our brothers do their fighting for them.\n\nDespite the failure, the vote was a stressful time for us all. Due to this, the General Assembly will not be able to vote on another resolution like this until one month later. Maybe then, the members of the Comintern will find true peace with each other."
+ socintern.20.a:0 "Pax Communistica lay only inches away from our grasp."
 
- socintern.20.t:0 "총회가 휴회하다"
- socintern.20.d:0 "The matter of the latest proposal has been concluded, and the decision finalized. Regardless of the outcome or the opinions of the delegations, there is nothing more to say on the matter.\n\nAs such, the General Assembly has gone into recess until the next proposal is put forth. The assembly has been adjourned, and the various delegations return to their respective embassies and governments to report the events of the meeting. They also return to discuss their plans for the future regarding the SocIntern, and the next assembly will likely be just as eventful as the last."
- socintern.20.a:0 "알았다."
+ socintern.21.t:0 "The Establishment of the COMECON Scientific Bureau"
+ socintern.21.d:0 "Glory to those who look forwards! And few look as far ahead, as the nations of the Comintern. The passing of the COMECON Scientific Bureau has been a massive success to our technological efforts. Calling for the establishment of a pan-Socialist board of science will ensure that the Comintern can catch up with the more "traditional" powerhouses of engineering and science. The Scientific Bureau is an international board that provides both the resources and the attention that emerging technologies from Socialist nations need to flourish. One can only imagine how the Capitalists can only look in panicked terror, as they realise that they will not be able to live in the future alone.\n\nWith the passing of the resolution, the Comintern will genuinely become the arbiters of the future. More importantly, the direction of these technologies will not suppress the workers of the world - but ease their worldly issues. Some of our more ambitious members even talk of a Socialist Space Program! While Red Boots on the Red Planet may be a long way away, it is no longer in the realm of fantasy. However, we must now rest for one month. Then, we can vote once more on what course we want to take - and how best to bring the Red Tide to the entire Universe."
+ socintern.21.a:0 "Workers of the Worlds, Unite!"
 
+ socintern.22.t:0 "The Failure of the COMECON Scientific Bureau"
+ socintern.22.d:0 "There was once a dream amongst our more visionary members. It was a dream, so grand that nothing else could compare. The idea is that we would be able to not just live, toil and die on this barren, wet rock we call home. But to go outwards. Outwards into the shining beauty of the cosmos. Outwards into the churning, grinding processes of the nebulae and stars, we had neglected for so long. Today, that glorious vision has been swept aside by the cold, dark reality of politicking.\n\nThe proposal would have had the Comintern at the cutting edge of technology, with unseen and undreamt wonders constructed at our very whims. A gathering of the brightest and most brilliant across the planet would have guided humanity's emancipation. Not just from the iron chains of Capitalism but from the shackles of life itself for the good of the species. It seems that the General Assembly did not agree with this thesis, however. The fantastical boundaries of science - where the warm embrace of it and magic reigned - remain outside our hold. Even if by inches.\n\nWe will not be able to vote until a month passes. Let us hope that we make Eden on Earth rather than in the night sky."
+ socintern.22.a:0 "We were born on Earth. We do not have to die there."
+
+ socintern.23.t:0 "Another Joins the Fold"
+ socintern.23.d:0 "Throughout history, the top crust of society oppressed the huddled, yearning masses of workers. Call it a tribal chief, a noble, an Emperor or a CEO; they are the many iterations of one hateful concept. Tyranny. Not against one particular group - although that has certainly happened - against the downtrodden of society, every single collection of human beings. The proletariat. Where we once raised our eyes to the baking Mesopotamian horizon, hopeful for a future yet to come, we now stand tall and mighty amongst our peers. As today has proven, we are only getting stronger.\n\nThe vote to admit a fellow Socialist power to the Comintern has passed. Today is a glorious day for the workers of the world. Our movement is not an iron fist, gleefully beating against our oppressors until we attain freedom; it is a tide. A tide is slow, almost unmoving. Yet bit, by bit, it rises. Slowly, it washes away all that stands against its goal until it has stood - proud and triumphant. We are the tide, drowning the Capitalists. Against all the money and weapons they will throw against us; they will only slow down the inevitable. Let them savor the last few seconds of dominance. It will be their last.\n\nWe cannot vote again until a month passes. Then our advance restarts anew."
+ socintern.23.a:0 "For now, let us be merry."
+
+ socintern.24.t:0 "Left Out in the Cold"
+ socintern.24.d:0 "Can we not stand together? Is the simple goal of unity too Herculean of a task for us? When a fellow Socialist power tries to enter the Comintern, is it not our duty to humanity to let them join? Today, the General Assembly has answered those questions with a deafening finality. The vote to let a nation join the Comintern, in its entirety, has failed to make headway. A massive blow to our goals, the backroom politicking and factionalism proved too much for the resolution.\n\nThe diplomats of the applicant nation walk home, hanging their heads in shame. Many among us see this as a lost opportunity for a more powerful Comintern. Even the smallest member would be an achievement for our alliance as a tool to legitimise ourselves. However, it seems that it was simply not to be. Other budding revolutionaries are reeling at this news. After all, what would be the point of a revolution if we were left isolated by our comrades overseas? Perhaps, this may have been a blessing in disguise. Perhaps that the applicant would have been a parasite on our resources. Sapping our resources and weakening our alliance. Whatever the case, we will never know now.\n\nWe will not be able to vote until one month passes. May the next applicant have better success than the last."
+ socintern.24.a:0 "Do not turn away in anger but work for a better future."
+
+ socintern.25.t:0 "Observer Status Extended"
+ socintern.25.d:0 "Some nations do not want to directly join the Comintern. Whether out of political necessity, lack of resources or pure anxiety, there are some out there who admire our work but cannot join our ranks. In any other scenario, we would be out of luck. However today, one such nation gets an opportunity to see how our organisation works. The vote has passed on bestowing one applicant the special title of an "observer" nation. While they are not part of the Comintern fully and therefore cannot participate, they are still under our protection and guidance for now. If they so wish, they can join the Comintern fully, provided the vote goes their way.\n\nAll that is left is for the applicant to accept our offer. If they take up a position inside the Comintern, then they are more than happy to join us. For some reason, if they do not then they will forge their path elsewhere. Whatever the case, we have at least proven our unity in the face of total uncertainty. The ball is now in their court.\n\nWe cannot vote on a resolution until one month passes. Perhaps more nations will pique their curiosity towards our organisation."
+ socintern.25.a:0 "Anything helps."
+
+ socintern.26.t:0 "Observer Status Rejected"
+ socintern.26.d:0 "Unfortunately, the doors have shut on the Comintern. Some nations do not want to join the Comintern for their reasons but seek to 'observe' our ways and methods of organising. Appropriately named the 'Observers', they can decide either to leave or integrate fully into the Comintern. How this would work is that an applicant shows interest in becoming an 'Observer'; approaching the General Assembly. The Assembly would hold a vote. If passed, an offer is sent out to the applicant. If the applicant accepts, then they become an Observer.\n\nHowever, today that vote has failed. The applicant nation has walked away in bitter defeat. Dissenting voices to the majority decry this as 'factionalism 'and condemn elitism, from an organisation that was formed to combat elitism. Others say that the Comintern must be a monolithic alliance, and to do that we must cut off ties from the rest of the world to compete with the Capitalist powers. Whatever the case, the Red Tide has halted in its drive against the black heart of Capitalism.\n\nWe cannot vote again until one month passes. We will be more open to change next time."
+ socintern.26.a:0 "What was the harm of letting them in?"
+
+ socintern.27.t:0 "The Passing of the COMECON Cohesion Resolution"
+ socintern.27.d:0 "While we may despise it, currency and gold remain the Emperor of our species, sitting upon its wretched, malformed throne of blood and skulls. Once the revolution is complete, we will overthrow this last, great tyrant from its throne and burn down the Royal Court, where it and its kind dwell. For now, we play by its rules. If today has proven anything, we are playing it well. The Grand Assembly has voted on its resolution. The resolution is relatively simple. Solidifying COMECON - a collective development fund - into a full-on economic bloc. Not only does this mean that trade between our nations will be easier, but we will prove ourselves an unbreachable bastion against the frothing tides of Capitalist economic pressure.\n\nNow that we have voted yes on the resolution, our work has begun. Already, thousands of bureaucrats and aspiring NEPmen of far-flung nations are discussing how best to integrate our economies so that the sum is superior to its parts. This news will not be taken by the reactionary fatcats lightly. They will try to break our unity and drive us into bankruptcy. They will try to deprive our people of their hard-gotten gains and sacrifices to further their interests. They will try to stamp out the will of the worker like they have done for so many millennia! They will fail.\n\nWe cannot vote again until one month passes. For now, it is time to reap the fruits of our labor."
+ socintern.27.a:0 "Another Economic Superpower joins the Scene."
+
+ socintern.28.t:0 "The Failure of the COMECON Cohesion Resolution"
+ socintern.28.d:0 "It seems that our ambitions were too lofty for many of the Comintern. Today the Grand Assembly has killed the COMECON Bloc Act during its voting period. If it were successful, it would have bound the nations of the Comintern into one, tangible whole. Not politically - to the chagrin of our most eager members - but economically. No longer would the toil of our workers be delivered into the hands of the Capitalists; but have been sent to our fellow revolutionaries abroad. If the act had passed, the Comintern could have proven itself as a sincerely legitimate force amongst the global superpowers of the world. Yet, democracy is a fiddly, uncaring thing.\n\nThe exact reasoning for each member's refusal of the policy is too complicated and varied to list in its entirety. It does not matter, regardless. The Comintern grows further divided, and while we may still frequently trade with each other, our financial advisors cannot help wonder. Wonder about an opportunity missed for a brighter future. A future where our grandchildren work, not to survive, but to thrive. A society where the dark, Victorian smog that strangled our ancestors is nothing but a half-remembered fairytale. A future where everything was a little more hopeful.\n\nWe cannot vote again until one month passes. The ties that bind are not invincible."
+ socintern.28.a:0 "We will have to grow richer by ourselves."
+
+ socintern.29.t:0 "The Passing of the International Brigades"
+ socintern.29.d:0 "The path to a global revolution will be a terrible journey for us all. Not all will live to see the end of it, and even fewer who are alive will be able to enjoy it, but it will come. The maw of the reactionary pigs who surround us is salivating and ever-hungry. It thirsts for our blood, and they will be relentless. We cannot afford to make a mistake when it comes to vanquishing our enemy. Today, we have forged an unbreakable sword that will slash through all those that resist us. Today, we have voted for the creation of the International Brigades.\n\nToo much of humanity toils under the slavish conditions of the bourgeoisie, still. Our Comintern united the Socialist world, but there is still so much work to do. When - and it is a question of when - the workers rise against their masters, we will be there. A force of only the most elite collection of soldiers from across the planet will assist the Revolution, no matter where or when. Trained to the limits of human endurance; armed with only the deadliest weaponry, they will be killing machines. Not against our fellow man, but against those that seek to destroy us. Whatever comes our way, the International Brigades will be ready.\n\nWe cannot vote again until one month passes. Let our warriors rest for now. Their time will come."
+ socintern.29.a:0 "Por vuestra libertad y la nuestra..."
+
+ socintern.30.t:0 "The Failure of the International Brigades"
+ socintern.30.d:0 "The International Brigades Act has failed. It lies skewered by those that it would have protected. All that is left is broken hopes and unkept promises. If it had succeeded, it would have been the magnificent Vanguard of the Revolution that the people deserved. The International Brigades would have been a highly trained, well-equipped legion of volunteers, hand-picked from all the far-flung corners of the planet. When a worker's revolution broke out, they would have been sent to assist and train the workers in their fight against the Reactionary pigs of Fascism and Capitalism.\n\nUnfortunately, this has proven too resource-intensive for most of the Comintern. Whether it was fear of Capitalist "retribution" - if you call the suppression of our emancipation that - or lack of funds, resources or men to spare, the International Brigades Act is nothing more but a flight of fantasy. Some of our older members remember the original International Brigades. A gathering of all sorts. All languages and cultures came together and fought for their Spanish comrades. In the baking plains under the Iberian sun, they were slaughtered so far from home by the Francoist dogs and their masters in Germania. One can't help but wonder if this is the final insult to their memories.\n\nWe cannot vote again until one month passes. We sing a song to the madness of daring."
+ socintern.30.a:0 "A Revolution, split into pieces."
+
+ socintern.31.t:0 "The Passing of the Military Assistance Resolution"
+ socintern.31.d:0 "Time is of the utmost urgency. A revolution has broken out, and the workers clamor for their ultimate freedoms! The Grand Assembly has voted on the Military Assistance Resolution. Despite the dry name, this is the most important resolution that has passed through the annals of the Grand Assembly. The resolution entails military assistance to the target nation. We will assist them with their struggle against the reactionary forces. Now is not the time for factionalism or politicking - but a time of iron will and blood.\n\nFortunately, our compatriots agree. They have passed the resolution through and have ratified it in its entirety. Already, the resolution has caused shockwaves across the international geopolitical scene. While the Capitalists - and their reactionary dogs of Fascism and Imperialism - may rage against the passing of the resolution, there is nothing they can do about it. We will meet their puppets on the battlefield and leave them as ashes in the wind. Once more, the proletariat will triumph and our dream slowly materialises into view.\n\nWe cannot vote again until one month passes. For now, let us hope our strength of arms prevails against the dark."
+ socintern.31.a:0 "The fires of the Revolution burn bright!"
+
+ socintern.32.t:0 "The Failure of the Military Assistance Resolution"
+ socintern.32.d:0 "Our pretenses of a united, Socialist world have fallen on deaf ears. What was supposed to be a show of solidarity to any armed Proletarian revolution has ended in bitter defeat. The Capitalists are mocking our indecisiveness while their butchers cut through our comrades with startling ease. While we can only hope for the best; many of our members fear that their revolution is doomed. At least without our help. The Military Assistance Resolution - if it had passed - would have meant sending vital military supplies to the target in question. Military Aid, in this case, would have meant anything from vital caches of weapons to fresh volunteers, all too eager to fight for their comrades.\n\nHowever, we have allowed ourselves to fracture. Some question the usefulness of a pan-Socialist organisation if it fails to help other Socialist nations in desperate need. Others say that getting ourselves bogged down in a conflict without end would only weaken our resolve to the world. Whatever the case, it seems that this revolt must fight its battles alone. We can only wish them the best.\n\nWe cannot vote again until one month passes. Founded on the ideals of global revolt, the Comintern is left with one question. What happens if that utopia fails to realise?"
+ socintern.32.a:0 "It splinters, cracks and dies in the dustbin of obscurity."
+
+ socintern.400.t:0 "A New Leader"
+ socintern.400.d:0 "Grave news has come. Whether by invasion, revolt or coup, the leader of the free Socialist world has fallen. Crushed by defeat, the members of the General Assembly have come together in solidarity. We must avenge our fallen comrades in any shape or form. While this has been a grievous blow to us, we don't have the luxury of despair on our side. If we fail to act, then it will only be a matter of time until all of us are targeted by the Capitalists. We will be picked apart by vultures, and only the Sun will watch over our bones.\n\nThis is why choosing a new leader of the Comintern is so crucial to our efforts. As the second most powerful nation in the Comintern, the General Assembly has chosen our nation to become the new head of the Socialist Revolution. Now the torch has been passed to us, and we have become the Arsenal of Socialism. Recovering from such a defeat will take everything we have, and our enemies will not make it easy for us. Yet if we prevail then we will have lit a fire that our grandchildren that not even the howling winds of time can put out. If."
+ socintern.400.a:0 "We have a long road ahead of us. Let's not falter now."
 
  comecon.1.t:0 "발전을 위한 원조"
  comecon.1.d:0 "When our comrades are in great struggle, it is upon us to come to their aid. The common people of [From.GetName], from the miners and soldiers to the bureaucrats and generals, are in a great struggle. The bourgeoisie of the world, from the black fascism of the Germans, to the decadent imperialism of the Japanese, to the capitalistic slavery that inhabits and infests the American spirit; all stand tall and oppress the worker. In their moral struggle against these corrupt powers, the siren song of nationalism and greed promising an escape from unideal circumstances, the [From.GetNameAdj] people called out for aid from the rest of our International.\n\nWe have spared no expense, providing resources beyond measure to our allies, most of all being our camaraderie. In this act, we have ensured that our comrades abroad are freed from their struggle, and that they can develop their paradise."
  comecon.1.a:0 "세상을 건설하자."
  
  comecon.2.t:0 "코메콘의 원조가 도착하다"
- comecon.2.d:0 "Our comrades within the SocIntern, the COMECON, have decided to provide us with aid! Large supplies of currency, in reliable gold and silver, have crossed our borders and shores and into our stores, all thanks to our cooperation with our comrades across the globe. While this aid has been provided to us, and though we are very thankful, we must hold off on the celebrations. Before we can smile at the fortune of our government and people, we must decide what we shall dedicate our new resource to.\n\nWe can add it to ourLiquid Reserves, gaining significant financial boons, however this gain will be only in the short-term.\n\nWe can dedicate it to a variety of long term programs, which would grow our humble economy overtime.\n\nWe can cement our dedication to the socialistic promise, and distribute the wealth to the humble worker, which would greaten the equality of our society.\n\nUltimately, we must decide what to do with the funds, and we will..."
+ comecon.2.d:0 "Our comrades within the ComIntern, the COMECON, have decided to provide us with aid! Large supplies of currency, in reliable gold and silver, have crossed our borders and shores and into our stores, all thanks to our cooperation with our comrades across the globe. While this aid has been provided to us, and though we are very thankful, we must hold off on the celebrations. Before we can smile at the fortune of our government and people, we must decide what we shall dedicate our new resource to.\n\nWe can add it to ourLiquid Reserves, gaining significant financial boons, however this gain will be only in the short-term.\n\nWe can dedicate it to a variety of long term programs, which would grow our humble economy overtime.\n\nWe can cement our dedication to the socialistic promise, and distribute the wealth to the humble worker, which would greaten the equality of our society.\n\nUltimately, we must decide what to do with the funds, and we will..."
  comecon.2.a:0 "우리의 국고에 돈을 보관하라."
  comecon.2.b:0 "직접적인 경제 성장을 위해 사용하라."
  comecon.2.c:0 "생활 수준의 증진을 위해 투자하라."
@@ -232,7 +324,7 @@
  comecon.4.a:0 "다음에 잘하면 돼."
 
  comecon.5.t:0 "[FROM.GetAdjective]의 원조가 승인되다."
- comecon.5.d:0 "Our comrades within the SocIntern, the COMECON, have aided us as requested! Large supplies of currency, in reliable gold and silver, have crossed our borders and shores and into our stores, all thanks to our cooperation with our comrades across the globe. While this aid has been provided to us, and though we are very thankful, we must hold off on the celebrations. Before we can smile at the fortune of our government and people, we must decide what we shall dedicate our new resource to.\n\nWe can add it to ourLiquid Reserves, gaining significant financial boons, however this gain will be only in the short-term.\n\nWe can dedicate it to a variety of long term programs, which would grow our humble economy overtime.\n\nWe can cement our dedication to the socialistic promise, and distribute the wealth to the humble worker, which would greaten the equality of our society.\n\nUltimately, we must decide what to do with the funds, and we will..."
+ comecon.5.d:0 "Our comrades within the ComIntern, the COMECON, have aided us as requested! Large supplies of currency, in reliable gold and silver, have crossed our borders and shores and into our stores, all thanks to our cooperation with our comrades across the globe. While this aid has been provided to us, and though we are very thankful, we must hold off on the celebrations. Before we can smile at the fortune of our government and people, we must decide what we shall dedicate our new resource to.\n\nWe can add it to ourLiquid Reserves, gaining significant financial boons, however this gain will be only in the short-term.\n\nWe can dedicate it to a variety of long term programs, which would grow our humble economy overtime.\n\nWe can cement our dedication to the socialistic promise, and distribute the wealth to the humble worker, which would greaten the equality of our society.\n\nUltimately, we must decide what to do with the funds, and we will..."
  comecon.5.a:0 "우리의 국고에 돈을 보관하라."
  comecon.5.b:0 "직접적인 경제 성장을 위해 사용하라."
  comecon.5.c:0 "생활 수준의 증진을 위해 투자하라."
@@ -251,14 +343,14 @@
  comecon.7.c:0 "기금의 50%를 철회하라."
 
  comecon.8.t:0 "상호 방위를 위한 기금"
- comecon.8.d:0 "For the defense of socialism and equality abroad, we have elected to put a portion of our budget towards the protection of our comrades within the SocIntern. These funds will be used by those who require the resources to keep the Revolution burning, and our contribution may be absolutely vital in the years to come. If we need the financial support, in the future, we will be able to withdraw a portion of the funding ourselves during our time of great need. Of course, only those who are waging war for the good of the Humble Worker may access the fund, to ensure the sanctity of its usage.\n\nNow that our humble donation to the fund has been agreed upon, the only question remains is the size of our contribution."
+ comecon.8.d:0 "For the defense of socialism and equality abroad, we have elected to put a portion of our budget towards the protection of our comrades within the ComIntern. These funds will be used by those who require the resources to keep the Revolution burning, and our contribution may be absolutely vital in the years to come. If we need the financial support, in the future, we will be able to withdraw a portion of the funding ourselves during our time of great need. Of course, only those who are waging war for the good of the Humble Worker may access the fund, to ensure the sanctity of its usage.\n\nNow that our humble donation to the fund has been agreed upon, the only question remains is the size of our contribution."
  comecon.8.a:0 "예산의 1%를 내자."
  comecon.8.b:0 "예산의 2.5%를 내자."
  comecon.8.c:0 "예산의 5%를 내자."
  comecon.8.e:0 "예산의 7%를 내자."
 
  comecon.9.t:0 "상호 방위를 위한 기금"
- comecon.9.d:0 "For the defense of socialism and equality abroad, the SocIntern has a Revolutionary Aid Fund. These funds are used by those who require the resources to keep the Revolution burning, and we fit the criteria required, considering the conflict we are now waging for the good of the Humble Worker. Whatever we remove from the fund will aid us in our present battles, however there will be less to draw from for our future comrades. Of course, our present struggle may justify a larger amount of financial support. It is ultimately within our judgement, now.\n\nWith our withdrawal has been approved, the only question remains is how much our struggle requires."
+ comecon.9.d:0 "For the defense of socialism and equality abroad, the ComIntern has a Revolutionary Aid Fund. These funds are used by those who require the resources to keep the Revolution burning, and we fit the criteria required, considering the conflict we are now waging for the good of the Humble Worker. Whatever we remove from the fund will aid us in our present battles, however there will be less to draw from for our future comrades. Of course, our present struggle may justify a larger amount of financial support. It is ultimately within our judgement, now.\n\nWith our withdrawal has been approved, the only question remains is how much our struggle requires."
  comecon.9.a:0 "기금의 10%를 철회하라."
  comecon.9.b:0 "기금의 25%를 철회하라."
  comecon.9.c:0 "기금의 50%를 철회하라."
@@ -279,5 +371,5 @@
  comecon_tech_group_desc:0 "The COMECON Scientific Bureau is the collective international scientific organization of the Communist International, and serves as the research and development wing of COMECON. Its purpose is to assist with mutual research, and allow the rapid advancement of developing countries to technological parity with the rest of the COMECON member nations."
  
  ## Opinion Modifiers ##
- TNO_socintern_member:0 "소인테른 회원국"
- TNO_socintern_associate:0 "소인테른 제휴국"
+ TNO_socintern_member:0 "코민테른 회원국"
+ TNO_socintern_associate:0 "코민테른 제휴국"

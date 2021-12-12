@@ -143,6 +143,7 @@ l_english:
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_Harold_Macmillan: "GFX_Portrait_ENG_Harold_Macmillan"
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_Arthur_Chesterton: "GFX_Portrait_ENG_Arthur_Chesterton"
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_Margaret_Thatcher: "GFX_Portrait_ENG_Margaret_Thatcher"
+   TNO_ParliamentMechanic_Ideas_Speaker_Picture_Margaret_Thatcher_2: "GFX_Portrait_ENG_Margaret_Thatcher_2"
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_Rab_Butler: "GFX_Portrait_ENG_Rab_Butler"
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_George_Jellicoe: "GFX_Portrait_ENG_George_Jellicoe"
    TNO_ParliamentMechanic_Ideas_Speaker_Picture_Harold_Wilson: "GFX_Portrait_ENG_Harold_Wilson"
@@ -169,11 +170,11 @@ l_english:
    TNO_ParliamentMechanic_Ideas_Speaker_Name_Bernard_Montgomery: "버나드 몽고메리"
 
   ## Effects
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_ex: "총리\n국가사회주의\nPolitical Protege\n\t매일 정치력 획득: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_ex: "총리\n국가사회주의\nPolitical Protege\n매일 정치력 획득: §G+0.10§!\n소비재 필요량: §Y7%§!"
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_Military_Government: "총리\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §R-0.50§!\n§G++ 군대 충성도§!\n§G++ 군대 효율성§!"
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_No_Opposition: "총리"
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_Alec_Douglas_Home: "총리\n§E근왕당-온건파§!\n정부 안정도 영향: §G+10.00%§!\n매일 정치력 획득: §G+0.10§!\n§G++ 군대 충성도§!"
-   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Harold_Macmillan: "총리\n§i잉글랜드 통합당-맥밀런파§!\n정부 안정도 영향: §G+5.00%§!\n매일 정치력 획득: §G+0.05§!\n§G++ 고용률§!\n§i++ 맥밀런파 영향력§!"
+   TNO_ParliamentMechanic_Ideas_Speaker_Effects_Harold_Macmillan: "의장\n§i잉글랜드 통합당-맥밀런파§!\n정부 안정도 영향: §G+5.00%§!\n매일 정치력 획득: §G+0.05§!\n§G++ 고용률§!\n§i++ 맥밀런파 영향력§!"
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_Arthur_Chesterton: "총리\n§J국가전선§!\n정부 안정도 영향: §R-10.00%§!\n매일 정치력 획득: §R-0.10§!\n§R-- 군대 충성도§!\n§R-- 군대 효율성§!"
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_Margaret_Thatcher: "총리\n§E근왕당§!\n정부 안정도 영향: §G+5.00%§!\n매일 정치력 획득: §G0.1§!\n§G++ 군대 충성도§!\n§E++ 대처파 영향력§!"
    TNO_ParliamentMechanic_Ideas_Speaker_Effects_Rab_Butler: "총리\n§E근왕당§!\n정부 안정도 영향: §R-20.00%§!\n매일 정치력 획득: §R-0.05§!\n§R-- 군대 충성도§!"
@@ -218,7 +219,7 @@ l_english:
    TNO_ParliamentMechanic_Ideas_Monarch_Name_NoMonarch: "공위"
 
   ## Effects
-   TNO_ParliamentMechanic_Ideas_Monarch_Effects_ex: "군주\n국가사회주의\nPolitical Protege\n\t매일 정치력 획득: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
+   TNO_ParliamentMechanic_Ideas_Monarch_Effects_ex: "군주\n국가사회주의\nPolitical Protege\n매일 정치력 획득: §G+0.10§!\n\소비재 필요량: §Y7%§!"
    TNO_ParliamentMechanic_Ideas_Monarch_Effects_Edward_VIII: "군주\n권위민주주의\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §R-0.10§!\n전쟁 지지도: §R-10.00%§!"
    TNO_ParliamentMechanic_Ideas_Monarch_Effects_Elizabeth_II: "군주\n보수민주주의\n정부 안정도 영향: §G+5.00%§!\n전쟁 지지도: §G+10.00%§!"
    TNO_ParliamentMechanic_Ideas_Monarch_Effects_Henry_IX: "군주\n보수민주주의\n정부 안정도 영향: §G+5.00%§!\n매일 정치력 획득: §G+0.05§!\n전쟁 지지도: §G+5.00%§!"
@@ -227,7 +228,7 @@ l_english:
 
   ## Description (Tooltip Delayed)
    TNO_ParliamentMechanic_Ideas_Monarch_Desc_ex: "설명이다, 뀨!"
-   TNO_ParliamentMechanic_Ideas_Monarch_Desc_Edward_VIII: "영국에서 두 번 왕위에 오른 에드워드 8세는 빌 알렉산더부터 영국 교회에 이르기까지 많은 이들에게 미움을 샀습니다. 빅토리아 2세 여왕 시대에 태어난 에드워드는 영국 왕위 계승 서열 1위였습니다. 그는 1936년에 첫 왕위에 올랐고 위기가 닥치기 전에 평온한 3년 동안 통치했습니다. 하지만 에드워드 8세는 미국인 이혼녀와 결혼을 하기 위해 왕위를 포기할 수 밖에 없었습니다. 이것은 오래가지 않았습니다.\n\n독일군이 영국 해안에 상륙했을 때, 이들은 에드워드를 꼭두각시로 왕위에 앉혔고, 다시 한번 에드워드는 어쩔 수 없이 잉글랜드의 왕이 되었습니다. 그러나 그의 두 번째 치세는 첫 번째 치세에 비해 훨씬 더 비참했고, 그가 지켜본 것은 찰나의 시간이지만 HMMLR 세력은 날로 커져만 갔으며, 경제 위기에 처한 나라였습니다. 사실 에드워드는 왕위를 포기하는 것 외에는 아무것도 원하지 않았지만, 이제 이 혼란의 시기에 조국을 인도하는 것은 그에게 달려 있습니다."
+   TNO_ParliamentMechanic_Ideas_Monarch_Desc_Edward_VIII: "영국에서 두 번 왕위에 오른 에드워드 8세는 빌 알렉산더부터 영국 교회에 이르기까지 많은 이들에게 미움을 샀습니다. 빅토리아 여왕 시대에 태어난 에드워드는 영국 왕위 계승 서열 1위였습니다. 그는 1936년에 첫 왕위에 올랐고 위기가 닥치기 전에 평온한 3년 동안 통치했습니다. 하지만 에드워드 8세는 미국인 이혼녀와 결혼을 하기 위해 왕위를 포기할 수 밖에 없었습니다. 이것은 오래가지 않았습니다.\n\n독일군이 영국 해안에 상륙했을 때, 이들은 에드워드를 꼭두각시로 왕위에 앉혔고, 다시 한번 에드워드는 어쩔 수 없이 잉글랜드의 왕이 되었습니다. 그러나 그의 두 번째 치세는 첫 번째 치세에 비해 훨씬 더 비참했고, 그가 지켜본 것은 찰나의 시간이지만 HMMLR 세력은 날로 커져만 갔으며, 경제 위기에 처한 나라였습니다. 사실 에드워드는 왕위를 포기하는 것 외에는 아무것도 원하지 않았지만, 이제 이 혼란의 시기에 조국을 인도하는 것은 그에게 달려 있습니다."
    TNO_ParliamentMechanic_Ideas_Monarch_Desc_Elizabeth_II: "엘리자베스 알렉산드라 메리 윈저로 태어난 엘리자베스는 평생동안 왕녀로 살아갈 운명이였습니다. 이 모든 것이 그녀의 삼촌의 퇴위와 아버지가 왕으로 즉위하면서 바뀌었습니다. 엘리자베스는 얼마지나지 않아 영국의 왕위 계승자가 되었습니다. 영국 해협의 벽이 무너졌을 때, 엘리자베스는 캐나다로 가장 먼저 대피했고, 이후 20년 동안 명목상 영국 왕실을 이끌며 그곳에 머물렀습니다.\n\n대영제국의 붕괴했지만, 그녀는 여왕 폐하의 충성스러운 저항군과 더불어 이전 영국령과 집안에서 많은 지지를 받았습니다. 내전에서 HMMLR의 승리로, 엘리자베스는 이제 영국의 여왕 엘리자베스 2세로 고국으로 돌아왔습니다. 영국인들은 새로운 엘리자베스가 그녀의 삼촌과 같은 운명을 함께하지 않고, 영국을 번영의 새로운 시대로 이끌기를 바라고 있습니다. 이제 그녀는 잿더미에서 무너진 왕국을 재건해야 합니다."
    TNO_ParliamentMechanic_Ideas_Monarch_Desc_Henry_IX: "헨리 윈저는 조지 5세의 셋째 아들로 태어났고, 예상치 못한 왕입니다. 그는 왕위 계승 순위가 많이 낮았기 때문에 평생 동안 그의 형제들이 영국을 통치하는 것을 보아야 했습니다. 단지 글로스터 공작이자 윈저 왕가의 왕자였습니다. 헨리의 왕위는 에드워드가 퇴위하고 영국 내전에서 협력정부가 승리하면서 마침내 찾아왔습니다.\n\n적법한 후계자 엘리자베스를 포함하여 다른 선택 사항이 없기에, 협력자들은 헨리를 새로운 왕으로 추대하기로 결정했습니다. 헨리 9세는 이제 어쩔수 없이 영국의 왕이 되었고, 이제 영국 국민의 신뢰를 회복하고 영국을 재건하는 것은 그의 몫입니다."
    TNO_ParliamentMechanic_Ideas_Monarch_Desc_Henry_IX_Incapacitated: "유감스럽지만 헨리 9세는 더이상 영국을 통치할 수 없게 되었습니다. 즉위 1년 만에 뇌졸중으로 쓰러진 그는, 이제 나라를 다스리는 것은 고사하고 걸을 수조차 없게 되었습니다. 그의 빈 자리를 아들인 윌리엄 왕자가 섭정이 되어 통치하고 있지만, 곧 아버지를 대신해 윌리엄 5세가 되어, 즉위해야 할 수도 있습니다. 영국인들의 왕이 왕위에 오른 지 불과 1년 만에 쓰러졌다는 것은 불길한 징조로 보여졌습니다. 국민들은 나라가 왕과 같은 운명을 맞이하지 않기를 바랄 뿐입니다."
@@ -255,7 +256,7 @@ l_english:
    TNO_ParliamentMechanic_Ideas_OppLeader_Name_No_Opposition: "공석"
    
   ## Effects
-   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_ex: "야당 당수\nNational Socialism\nPolitical Protege\n\t매일 정치력 획득: §G+0.10§!\n\tConsumer Goods Factories: §Y7%§!"
+   TNO_ParliamentMechanic_Ideas_OppLeader_Effects_ex: "야당 당수\nNational Socialism\nPolitical Protege\n매일 정치력 획득: §G+0.10§!\n소비재 필요량: §Y7%§!"
    TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Harold_Macmillan: "야당 당수\n§E근왕당-개혁파§!\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §R-0.05§!\n§G++ 고용률§!"
    TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Margaret_Thatcher: "야당 당수\n§E근왕당§!\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §G+0.20§!"
    TNO_ParliamentMechanic_Ideas_OppLeader_Effects_Arthur_Chesterton: "야당 당수\n§J국가전선§!\n정부 안정도 영향: §R-5.00%§!\n매일 정치력 획득: §G+0.10§!\n§G++ 군대 충성도§!"
