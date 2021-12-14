@@ -1,21 +1,55 @@
 ﻿l_english:
  # Economic modifiers
  annual_gdp_growth_factor:0 "연간 GDP 성장 요인"
- proportional_gdp_cost:0 "비례 GDP 비용"
+ proportional_pop_cost:0 "비례 비용"
  personnel_cost_modifier:0 "Personnel Cost Modifier"
+ research_cost_modifier:0 "Research Cost Modifier"
+ personnel_cost_factor_modifier:0 "Personnel Cost Factor"
  taxable_population_modifier:0 "납세 인구"
  taxable_population_factor:0 "납세 인구 요인"
  income_rate_modifier:0 "소득률"
  income_rate_factor:0 "소득률 요인"
  construction_costs_modifier:0 "건설 비용 요인"
- income_rate_factor:0 "소득률"
+ construction_costs_modifier_factor:0 "Construction Costs Factor"
  civilian_expenditures_factor:0 "민간 사용 부문"
  military_expenditures_factor:0 "군사 사용 부문"
- military_annual_cost:0 "연간 비용 (군사)"
- civilian_annual_cost:0 "연간 비용 (민간)"
- misc_costs_modifier:0 "잡다한 비용"
- misc_income_modifier:0 "잡다한 수익"
+ naval_cost_modifier:0 "Navy Cost Modifier"
+ airforce_cost_modifier:0 "Aircraft Cost Modifier"
+ army_cost_modifier:0 "Army Cost Modifier"
+ civilian_annual_cost:0 "Civilian Misc Costs (as Billions in $)"
+ military_costs_misc:0 "Military Misc Costs (as Billions in $)"
+ misc_costs_modifier:0 "Miscellaneous Costs (as Billions in $)"
+ misc_costs_percent_of_GDP_modifier:0 "Miscellaneous Costs (as % GDP)"
+ misc_income_modifier:0 "Miscellaneous Income (as Billions in $)"
  gdp_growth_modifier:0 "GDP 성장률"
+ social_program_cost_factor:0 "Social Program Cost Factor"
+ consumer_goods_use_modifier:0 "Needed Consumer Goods"
+ naval_industry_cost_modifier:0 "Naval Industry Cost"
+ monthly_credit_rating_progress:0 "Monthly Credit Rating Progress"
+ poverty_taxation_rate_modifier: "Taxation on Poor Modifier"
+ income_tax_rate_modifier_factor: "Income Tax Rate Modifier Factor"
+
+ production_units_to_GDP_ratio_modifier:0 "£tt_prod_unit Production Units to GDP ratio modifier"
+ free_production_units_modifier:0 "Free£tt_prod_unit Production Units"
+ consumer_goods_production_factor:0 "Consumer Goods Production Factor"
+ inflation_rate_modifier:0 "Inflation Rate Modifier"
+ interest_rate_modifier:0 "Interest Rate Modifier"
+ interest_rate_factor_modifier:0 "Interest Rate Factor"
+ GDP_to_sphere_leader_modifier:0 "GDP to Overlord Modifier"
+ debt_to_GDP_ceiling_modifier:0 "Debt Ceiling"
+ Deficit_political_power_cost_modifier:0 "Deficit Impact on Political Power gain modifier"
+ state_GDP_growth_factor_modifier:0 "State GDP Growth Factor§!"
+
+ income_tax_rate_modifier_factor:0 "Income Tax Rate"
+ business_tax_rate_modifier:0 "Business Tax Rate"
+ sales_tax_rate_modifier:0 "Sales Tax Rate"
+ tariff_tax_rate_modifier:0 "Tariff Tax Rate"
+
+ military_industry_cost_modifier:0 "Military Industry Cost Factor"
+ military_industry_equipment_cost_factor:0 "Military Industry Equipment Cost Factor"
+ admin_program_cost_factor:0 "Administrative Program Cost Factor"
+ tno_other_program_proportional_pop_cost:0 "Social Expenditures Costs per Capita"
+ tno_admin_proportional_pop_cost:0 "Admin Expenditures Costs per Capita"
 
  # Social Development modifiers
  academic_base_monthly_rate:0 "매월 과학적 기반 변화"
@@ -24,5 +58,29 @@
  poverty_monthly_rate:0 "매월 빈곤율 변화"
  industrial_equipment_monthly_rate:0 "매월 산업 장비 변화"
  industrial_expertise_monthly_rate:0 "매월 산업 경험 변화"
- army_professionalism_monthly_rate:0 "매월 군대 전문성 변화"
- nuclear_stockpile_monthly_rate:0 "매월 핵무기 비축량 변화"
+ army_professionalism_monthly_rate:0 "매월 군 전문성 변화"
+ nuclear_stockpile_monthly_rate:0 "Monthly Warhead Production"
+ admin_efficiency_monthly_rate:0 "매월 행정 효율 변화"
+ 
+ # Building modifiers
+ schools_coverage_modifier: "Schools Coverage Effect"
+ hospitals_coverage_modifier: "Hospitals Coverage Effect"
+ prisons_coverage_modifier: "Prisons Coverage Effect"
+ barracks_coverage_modifier: "Army Bases Coverage Effect"
+ offices_coverage_modifier: "Administrative Offices Coverage Effect"
+ 
+ schools_PE_modifier: "Schools Policy Effect"
+ hospitals_PE_modifier: "Hospitals Policy Effect"
+ prisons_PE_modifier: "Prisons Policy Effect"
+ barracks_PE_modifier: "Army Base Policy Effect"
+ offices_PE_modifier: "Administrative Offices Policy Effect"
+
+ # Resource modifiers
+steel_cost_civilian_factories: "Civilian Factories Steel Consumption"
+
+ #Japan Modifiers
+ other_factions_approval_modifier:0 "Other Factions Approval Modifier"
+ #State Modifiers
+ state_GDP_growth_modifier:0 "§YState GDP Growth Modifier§!"
+ #Used for dummy ideas only
+ proportional_pop_cost_factor:0 "Policy Cost Per Capita " 
