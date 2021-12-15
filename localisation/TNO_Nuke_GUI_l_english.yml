@@ -1,0 +1,50 @@
+﻿# |==================================================================| #
+#               _   _       _           _____ _    _ _____             #
+#              | \ | |     | |         / ____| |  | |_   _|            #
+#              |  \| |_   _| | _____  | |  __| |  | | | |              #
+#              | . ` | | | | |/ / _ \ | | |_ | |  | | | |              #
+#              | |\  | |_| |   <  __/ | |__| | |__| |_| |_             #
+#              |_| \_|\__,_|_|\_\___|  \_____|\____/|_____|            #
+#                                                                      #
+# |=========================| Localization |=========================| #
+ 
+l_english:
+ TNO_Nuke_GUI_OpenButton_tt: "Open the Strategic Arsenal GUI"
+ TNO_Nuke_GUI_Display_Stockpile_tt: "Nuclear Stockpile:\n§W[?nuclear_stockpile] Warheads§!"
+ TNO_Nuke_GUI_Display_StockpileChange_tt: "[GetNuclearProductionStatus]\n[GetNuclearProductionQtd]"
+ TNO_Nuke_GUI_Display_StockpileChange_Prod_tt: "Monthly Production:"
+ TNO_Nuke_GUI_Display_StockpileChange_Decomm_tt: "Monthly Decommission:"
+ TNO_Nuke_GUI_Display_StockpileChange_pdx_tt: "Active Enrichment Plants: [?num_of_reactors|0Y]"
+ TNO_Nuke_GUI_Display_StrikeCapability_tt: "Strike Capability: §W[?nuclear_strike_capability|%0]§!"
+ TNO_Nuke_GUI_Display_StrikeCapability_pdx_tt: "MISSILE SILOS:\n[?num_of_silos|0Y]\nNUCLEAR SUBMARINES:\n[?num_ships_with_type@submarine|0Y]\nSTRATEGIC BOMBERS:\n[?num_deployed_planes_with_type@strat_bomber_equipment|0Y]\nSTEALTH-STRATEGIC BOMBERS:\n[?num_deployed_planes_with_type@strat_stealth_equipment|0Y]"
+ TNO_Nuke_GUI_Display_StrikeCapability_pdx_tt_delayed: "§YStrike Capability§! represents the capacity of our §Wnuclear triad§! to adequately deliver our atomic arsenal. It can be increased by expanding our triad, in the form of §WMissile Silos§!, §WSubmarines§! or §WStrategic Bombers§!.\n\nAn insufficient delivery infrastructure will make our arsenal look §Rless threatening§! to other countries, §Rdecreasing§! our §TNuclear Stockpile§! score."
+ TNO_Nuke_GUI_Display_GlobalCoverage_tt: "Global Coverage: §W[?nuclear_global_coverage|%0]§!"
+ TNO_Nuke_GUI_Display_GlobalCoverage_pdx_tt: "§YGlobal Coverage§! is a measure of the reach of our nuclear arsenal. A higher coverage will make our arsenal appear §Rmore threatening§! to other countries, increasing our §TNuclear Stockpile§! score."
+ Cold_War_GUI_NuclearPowers_Name_tt: "§W[?THIS.GetName]§!\n[GetNuclearStockpileQtd] Warheads"
+ TNO_Nuke_GUI_Display_DecommissionButton_Inactive_tt: "§RDecommission§!"
+ TNO_Nuke_GUI_Display_DecommissionButton_Active_tt: "§GDecommission§!"
+ TNO_Nuke_GUI_Display_DecommissionButton_tt: "Open the Decommission menu"
+ TNO_Nuke_GUI_DecommissionDisplay_CapQtd_tt_super: "Due to our position as a global superpower, we are obliged to keep at least §Y3500§! warheads in our stockpile."
+ TNO_Nuke_GUI_DecommissionDisplay_CapQtd_tt_other: "We cannot fully dismantle our nuclear arsenal, and must keep at least one warhead in it."
+ TNO_Nuke_GUI_DecommissionDisplay_QtdPlusButton_tt: "Shortcuts:\n§F--------------§!\n§YLeft Click§!: +50\n§YShift+Left Click§!: +5"
+ TNO_Nuke_GUI_DecommissionDisplay_QtdMinusButton_tt: "Shortcuts:\n§F--------------§!\n§YLeft Click§!: -50\n§YShift+Left Click§!: -5"
+ TNO_Nuke_GUI_DecommissionDisplay_CapPlusButton_tt: "Shortcuts:\n§F--------------§!\n§YLeft Click§!: +10\n§YControl+Left Click§!: +100\n§YShift+Left Click§!: +1000\n§YRight Click§!: +1"
+ TNO_Nuke_GUI_DecommissionDisplay_CapMinusButton_tt: "Shortcuts:\n§F--------------§!\n§YLeft Click§!: -10\n§YControl+Left Click§!: -100\n§YShift+Left Click§!: -1000\n§YRight Click§!: -1"
+ TNO_Nuke_GUI_DecommissionDisplay_Activate_tt: "[GetDecommissionActivateButtonText]"
+ TNO_Nuke_GUI_DecommissionDisplay_Activate_Green_tt: "§GActivate§!"
+ TNO_Nuke_GUI_DecommissionDisplay_Activate_Gray_tt: "§gActivate§!"
+ TNO_Nuke_GUI_DecommissionDisplay_Activate_pdx_tt: "Shut off our nuclear production and dismantle our warheads down to a certain value.\n\nOnce that value is reached, the stockpile dismantlement will stop and our production will be put on hold until the decommisioning is deactivated."
+ TNO_Nuke_GUI_DecommissionDisplay_Deactivate_tt: "§RDeactivate§!"
+ TNO_Nuke_GUI_DecommissionDisplay_Deactivate_pdx_tt: "Switch back to the normal warhead production."
+
+ Cold_War_GUI_Nuke_Confirmation_Tooltip_YesButton_tt: "§GCONFIRM§!"
+ Cold_War_GUI_Nuke_Confirmation_Tooltip_NoButton_tt: "§RCANCEL§!"
+
+ nuclear_stockpile_qtd: "[?nuclear_stockpile|0]"
+ nuclear_stockpile_qtd_thousand: "[?nuclear_stockpile_k|1]K"
+
+ nuclear_production_ongoing: "§W[?nuclear_stockpile_change|0] Warheads§!"
+ nuclear_production_stopped: "§W---§!"
+
+ nuclear_global_coverage_change_add_tt:0 "The §YGlobal Coverage§! of our §Rnuclear weapons§! will increase by [?global_coverage_change_temp?0.05|%=+]."
+ nuclear_global_coverage_change_sub_tt:0 "The §YGlobal Coverage§! of our §Rnuclear weapons§! will decrease by [?global_coverage_change_temp?0.05|%=+]."
