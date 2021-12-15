@@ -1,46 +1,21 @@
 ﻿l_english:
  #Country Names
- NRB_fascism:0 "북보르네오 행정부"
- NRB_fascism_DEF:0 "북보르네오 행정부"
- NRB_social_liberal:0 "북보르네오 행정부"
- NRB_social_liberal_DEF:0 "북보르네오 행정부"
- NRB_market_liberal:0 "북보르네오 행정부"
- NRB_market_liberal_DEF:0 "북보르네오 행정부"
- NRB_social_conservative:0 "북보르네오 행정부"
- NRB_social_conservative_DEF:0 "북보르네오 행정부"
- NRB_authoritarian_democrat:0 "북보르네오 행정부"
- NRB_authoritarian_democrat_DEF:0 "북보르네오 행정부"
- NRB_despotism:0 "북보르네오 행정부"
- NRB_despotism_DEF:0 "북보르네오 행정부"
- NRB_communist:0 "북보르네오 행정부"
- NRB_communist_DEF:0 "북보르네오 행정부"
- NRB_socialist:0 "북보르네오 행정부"
- NRB_socialist_DEF:0 "북보르네오 행정부"
- NRB_national_socialism:0 "북보르네오 행정부"
- NRB_national_socialism_DEF:0 "북보르네오 행정부"
- NRB_ultranational_socialism:0 "북보르네오 행정부"
- NRB_ultranational_socialism_DEF:0 "북보르네오 행정부"
- NRB_fascism_ADJ:0 "북보르네오"
- NRB_market_liberal_ADJ:0 "북보르네오"
- NRB_social_liberal_ADJ:0 "북보르네오"
- NRB_social_conservative_ADJ:0 "북보르네오"
- NRB_authoritarian_democrat_ADJ:0 "북보르네오"
- NRB_communist_ADJ:0 "북보르네오"
+ NRB_despotism:0 "남방군정총감"
+ NRB_despotism_DEF:0 "남방군정총감"
  NRB_despotism_ADJ:0 "북보르네오"
- NRB_socialist_ADJ:0 "북보르네오"
- NRB_national_socialism_ADJ:0 "북보르네오"
- NRB_ultranational_socialism_ADJ:0 "북보르네오"
 
  #Parties
- NRB_despotism_party:0 "GH"
- NRB_despotism_party_long:0 "Gunsei Honbu"
+ NRB_despotism_party:0 "제37군 사령부" # Changed to english for consistency with the Philippines and Malaysia
+ NRB_despotism_party_long:0 "북보르네오 제37군사령부"
+ #NRB_despotism_party:0 "남방군정총감"
+ #NRB_despotism_party_long:0 "남방군정총감"
 
  #Leader Bios
  POLITICS_BABA_MASAO_DESC:0 "보르네오에 있는 영국의 유산은 일본의 아시아 지배 계획에서 항상 특별한 위치를 차지합니다. 이 섬의 석유 자원은 대일본제국의 경제 거물들을 유혹했고, 동아시아-호주 항로들 사이에 있는 전략적 위치는 아시아의 전쟁터를 가로지르는 일본군에게 매우 귀중합니다. 일본군의 짧은 보르네오 작전이 성공한 이후, 옛 영국령은 강한 의지를 가진 단호한 지휘관이 움켜쥐는 군대의 영역으로 재편되었습니다. 그가 바로 한때 보르네오 주둔군으로 여겨졌던 37군단장 바바 마사오입니다.\n\n타고난 육군 장교이자 프로이센적 규율의 학생인 바바는 인도네시아에서 일본의 전쟁을 수행하면서 급속히 전공을 쌓았고 미군에 맞서 승리하면서 길을 닦았습니다. 그 후 그는 보르네오 주둔군과 군정의 독보적인 사령관이 되었습니다. 일본의 군국주의 통치자에 걸맞게 바바는 모든 저항 시도를 억압하고 의지를 강요하기 위해 어떤 잔인한 방법도 피하지 않고 철권통치를 했습니다. 일본우월주의의 신봉자로서 그는 일본 동화 정책을 확장했고, 일본 독점자본의 놀이터로 만들어서 섬에서 한몫 챙길수 있게 했습니다.\n\n북보르네오가 전쟁과 그 여파에 따라 중무장하고 확고히 자리잡게 되면서, 옛 영국의 보호령은 동남아시아 해안의 육군 전초기지가 되었습니다. 인도네시아와의 국경에서 강력한 입지를 유지하고 있는 바바 산하 37군단은 인도네시아가 스스로 반공영권 반란을 진압하기 못할 경우에 대 순다 열도 장악을 위한 '보충군'역할을 하고 있습니다."
 
  #Ideas
- NRB_The_37th_Army:0 "Home of the 37th Army"
- NRB_The_37th_Army_desc:0 "The famous, or perhaps infamous Baba Masao commands the 37th Army, which is directed to maintain its garrison in North Borneo. Nominally ensuring that the interests of Syonan and Indonesia are protected, in reality, the 37th Army's sole purpose is to ensure that the strategic port of Kuchin does not fall to dissidents and rebels hiding within the Bornean jungle.\n\nComprised of the 56th Mixed Infantry Brigade and the 71st Mixed Infantry Brigade, it is quite a weak force in comparison to others across the Co-Prosperity Sphere, but their invaluable combat experience ensures that their lack of manpower is made up for in skill. Needless to say, there is no North Borneo without the 37th Army, lest Japan lose their sole directly-controlled foothold in the Spice Islands."
+ NRB_The_37th_Army:0 "제37군의 사령부"
+ NRB_The_37th_Army_desc:0 "The famous, or perhaps infamous Baba Masao commands the 37th Army, which is directed to maintain its garrison in North Borneo. Nominally ensuring that the interests of Shonan and Indonesia are protected, in reality, the 37th Army's sole purpose is to ensure that the strategic port of Kuchin does not fall to dissidents and rebels hiding within the Bornean jungle.\n\nComprised of the 56th Mixed Infantry Brigade and the 71st Mixed Infantry Brigade, it is quite a weak force in comparison to others across the Co-Prosperity Sphere, but their invaluable combat experience ensures that their lack of manpower is made up for in skill. Needless to say, there is no North Borneo without the 37th Army, lest Japan lose their sole directly-controlled foothold in the Spice Islands."
 
  NRB_Extremely_Underfunded:0 "Extremely Underfunded"
  NRB_Extremely_Underfunded_desc:0 "It is undeniable to Baba: the administration he runs operates on a budget to budget basis. His men's wages, the maintenance of heavy weaponry, infrastructure projects, all are subject to the whims of Tōkyō and its backstabbing kleptocratic politicians.\n\nHowever, as an honorable general, Baba remains resourceful as one can be in a situation like his, and simply puts in a notice to the Imperial General Headquarters every quarter to request lobbying in favor of an increased budget. Regardless, more yen is needed if the administration is to function at its highest point, rather than at its most conservative..."
@@ -49,6 +24,6 @@
  NRB_Sarawak_Independence_Movement_desc:0 "Before the North Borneo Administration, there was the Raj of Sarawak, and in the northeast British North Borneo. While British North Borneo, or perhaps more appropriately Sabah, submitted more easily to foreign control due to its lack of native rulers for some time, Sarawak maintained its own Raj and government.\n\nSomewhere in the suburbs of Canberra, the last Raj to reign, Vyner of the House of Brooke, continues to maintain his contacts with pro-independence elements in North Borneo in addition to OFN leaders, in the hope of returning to his native land. With this competent government-in-exile posing a threat to Japanese interests in Borneo, it will be quite difficult to fully cement our hold on the territory of Kuchin and its surroundings with this threat at hand..."
 
  #Cosmetic
- NRB_COLLAPSE_authoritarian_democrat:0 "Sabah"
- NRB_COLLAPSE_authoritarian_democrat_DEF:0 "the State of Sabah"
- NRB_COLLAPSE_authoritarian_democrat_ADJ:0 "Sabahnese"
+ NRB_COLLAPSE_authoritarian_democracy:0 "사바"
+ NRB_COLLAPSE_authoritarian_democracy_DEF:0 "사바국"
+ NRB_COLLAPSE_authoritarian_democracy_ADJ:0 "사바"
