@@ -1,30 +1,30 @@
 ﻿l_english:
 
-economy_multiplicative_modifiers_base: "Base values"
+economy_multiplicative_modifiers_base: "기준치"
 
 ### NEW NEW GUI ###
 
-puCalc_gdp_text: "£production_units_texticon  §GPUs§! from §YGDP§!:"
+puCalc_gdp_text: "§YGDP§!에서 얻은 £production_units_texticon  §G생산단위s§! :"
 puCalc_gdp_tt: ""
 puCalc_gdp_tt_long: ""
 puCalc_gdp_value_text: "[?production_units_gdp_raw|+0]"
 
-puCalc_trade_text: "£production_units_texticon  §GPUs§! from §YTrade§!:"
+puCalc_trade_text: "§Y무역§!에서 얻은 £production_units_texticon  §G생산단위§!:"
 puCalc_trade_tt: ""
 puCalc_trade_tt_long: ""
 puCalc_trade_value_text: "[?PU_trade_balance|+0]"
 
-puCalc_other_text: "£production_units_texticon  Other §GPUs§!:"
+puCalc_other_text: "£production_units_texticon  기타 §G생산단위§!:"
 puCalc_other_tt: ""
 puCalc_other_tt_long: ""
 puCalc_other_value_text: "[?production_units_modifier|+0]"
 
 ### OLD NEW GUI ###
 
-nominal_GDP_growth_txt: "§GNominal GDP Growth:§!"
+nominal_GDP_growth_txt: "§G명목 경제성장률::§!"
 nominal_GDP_growth_txt_number: "§W[?GDP_growth_nominal|3]%§!"
 nominal_GDP_growth_tt: "Our nominal GDP growth rate is £gdp_growth_texticon §W[?GDP_growth_nominal|3]%§! from a base nominal growth of §W[?GDP_growth_nominal_display_tt|3]%§! and a multiplier of [?GDP_growth_multiplier|+][GetRedGreenGDPMultiplier]x§!.\n\nOur base nominal growth is §W[?GDP_growth_nominal_display_tt|3]%§!: \n  [?GDP_growth|+=][GetRedGreenBaseGDPGrowth]%§! base rate[GetGDPGrowthModifierExists][GetGDPGrowthEffectReservesExists]\n  [?deficit_GDP_growth_effect|+=][GetRedGreenSpendingEffect]%§! from our [Get_deficit_surplus]\n\nOur GDP growth rate multiplier is [?GDP_growth_multiplier|3+][GetRedGreenGDPMultiplier]x§!:\n  [?1|+=] base multiplier[GetGrowthMultiplierExists][GetGDPGrowthDebtEffectExists][GetTotalInfrastructureExists][GetDamagedInfrastructureExists][GetTaxesEffectExists][GetPopulationEffectExists][GetTradeEffectExists]"
-nominal_GDP_growth_tt_long:0 "£gdp_growth_texticon Nominal GDP growth is our GDP growth before the effects of inflation are applied. This is our national growth rate and does not account for state GDP growth effects."
+nominal_GDP_growth_tt_long:0 "£gdp_growth_texticon 명목 경제성장률은 인플레이션의 효과를 계산하기 전의 경제성장률입니다. 이는 국가경제성장률이며 주별 경제성장률로 간주되지 않습니다."
 
 gdp_growth_modifier_info:0 "\n  [?modifier@gdp_growth_modifier|+=3][GetRedGreenModifierGDPGrowth]%§! from country modifiers"
 gdp_growth_reserves_info:0 "\n  [?reserves_effect_on_GDP_growth|+=3]§R%§! from our reserve size of §Y[?reserves_as_GDP_percent|%]§! of GDP."
@@ -39,15 +39,15 @@ gdp_growth_multiplier_trade_effect_info:0 "\n  [?trade_effect|+=3] from our trad
 gdp_growth_multiplier_market_centralization_info:0 "\n  [?market_gdp_growth_centralization_effect|3+=] from our §YEconomic Centralization§!"
 
 
-debt_ceiling_txt: "§RDebt Ceiling:§!"
+debt_ceiling_txt: "§R채무한계:§!"
 debt_ceiling_txt_number_value: "§W[?debt_ceiling|2%]§!"
 debt_ceiling_txt_number: "[GetDebtCeilingNumOrText]"
-debt_ceiling_txt_number_text: "§WUnlimited§!"
+debt_ceiling_txt_number_text: "§W무제한§!"
 
-national_debt_txt: "§RNational Debt:§!"
+national_debt_txt: "§R국채:§!"
 national_debt_txt_number: "§W$[?national_debt] B"
-national_debt_tt_short: "Our §YInterest Rates§! are currently §Y[?ROOT.interest_rates]%§!\nAnnual §YCivilian Expenditures§!: §Y[ROOT.Get_civilian_expenditures]§!\nAnnual §YMilitary Expenditures§!: §Y[ROOT.Get_military_expenditures]§!"
-national_debt_tt_long: "The §YNational Debt§! represents the total unpaid funds carried by our national government, typically valued by the outstanding securities issued by our treasury, measured in §Y1960 USD§!. As creditors are not in the business of providing free money, we must pay a certain percentage of our national debt as interest each month, determined by our §YInterest Rates§!."
+national_debt_tt_short: "우리의 §Y금리§!는 현재 §Y[?ROOT.interest_rates]%§!입니다.\n연간 §Y민간 지출§!: §Y[ROOT.Get_civilian_expenditures]§!\n연간 §Y군수 지출§!: §Y[ROOT.Get_military_expenditures]§!"
+national_debt_tt_long: "§Y국채§!는 우리나라 정부가 발행한 채권 중 아직 갚지 않은 빚들을 나타내며, 주로 우리 재무부에서 발행한 증권의 가치에 의해 매겨지며, §Y1960년 미국 달러§!가치를 기준으로 측정됩니다. 채권자들이 그저 돈을 퍼주는 것이 아니기 때문에, 우리는 §Y금리§!에 따라 매달 국채의 일정량을 지불해야 합니다."
 
 national_debt_interest_txt: "§RDebt Interest:§!"
 national_debt_interest_txt_number: "§W[?interest_rates|3]%§!"
