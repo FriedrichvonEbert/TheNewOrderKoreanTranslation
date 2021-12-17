@@ -1028,11 +1028,11 @@ TNO_econ_set_min_credit_rating:0 "Our minimal §YCredit Rating§! will be set to
 TNO_econ_set_max_credit_rating:0 "Our maximal §YCredit Rating§! will be set to [?temp_credit_rating_max|2Y]."
 
 #Income Rate Factors
-tno_tax_rate_no_taxation_gui: "No Taxation: §Y+0.0%§!"
-tno_tax_rate_low_taxation_gui: "Low Taxation: §G+30.0%§!"
-tno_tax_rate_medium_taxation_gui: "Medium Taxation: §G+50.0%§!"
-tno_tax_rate_high_taxes_gui: "High Taxes: §G+60.0%§!"
-tno_tax_rate_exploitative_taxation_gui: "Exploitative Taxation: §G+65.0%§!"
+tno_tax_rate_no_taxation_gui: "세금 없음: §Y+0.0%§!"
+tno_tax_rate_low_taxation_gui: "낮은 세율: §G+30.0%§!"
+tno_tax_rate_medium_taxation_gui: "적당한 세율: §G+50.0%§!"
+tno_tax_rate_high_taxes_gui: "높은 세율: §G+60.0%§!"
+tno_tax_rate_exploitative_taxation_gui: "착취적인 세율: §G+65.0%§!"
 
 tno_income_taxation_elite_tax_exemptions_gui: "Elite Tax Exemptions: §G+1.5%§!"
 tno_income_taxation_tax_havens_gui: "Tax Havens: §G+5.0%§!"
@@ -1313,7 +1313,7 @@ TNO_naval_funding_dynamic_modifier: "§YNaval§! Funding"
 TNO_research_funding_dynamic_modifier: "§YResearch§! Funding"
 TNO_admin_funding_dynamic_modifier: "§YAdministrative§! Funding"
 
-TNO_consumer_goods_production_dynamic_modifier: "Consumer Goods Production"
+TNO_consumer_goods_production_dynamic_modifier: "소비재 생산"
 TNO_market_dynamic_modifier: "Market"
 TNO_stockpile_dynamic_modifier: "Stockpile"
 
@@ -2011,7 +2011,7 @@ econ_subtype_change_19_tt:0 "우리의 경제체제가 호즈라스초트 체제
 
 econ_help_x_t: "[GetEconHelpTitle]"
 econ_help_0_t: "£tt_prod_unit Production Units"
-econ_help_1_t: "Central Bank"
+econ_help_1_t: "중앙은행"
 econ_help_2_t: "Spending Sliders"
 econ_help_3_t: "Spending Buttons"
 
