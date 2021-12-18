@@ -9,7 +9,7 @@
 # |=========================| Localization |=========================| #
  
 l_english:
-TNO_Cold_War_GUI_Selected_Superpower_tt: "Data - Viewing [Superpower_GetNameColor]"
+TNO_Cold_War_GUI_Selected_Superpower_tt: "데이터 - [Superpower_GetNameColor] 보기"
 TNO_Cold_War_GUI_Selected_Superpower_USA: "§m[?USA.GetName]§!"
 TNO_Cold_War_GUI_Selected_Superpower_GER: "§q[?GER.GetName]§!"
 TNO_Cold_War_GUI_Selected_Superpower_JAP: "§e[?JAP.GetName]§!"
@@ -18,7 +18,7 @@ TNO_Cold_War_GUI_Selected_Superpower_RUS: "§K[?RUS.GetName]§!"
 TNO_Cold_War_GUI_Selected_Superpower_CHI: "§O[?CHI.GetName]§!"
 TNO_Cold_War_GUI_Selected_Superpower_IND: "§E[?IND.GetName]§!"
 
-superpower_scoring_effects_modifier: "Score effects"
+superpower_scoring_effects_modifier: "점수 효과"
 superpower_power_projection_modifier: "Power Projection effects"
 
 threat_button_tt: "냉전 GUI 열기"
@@ -60,7 +60,7 @@ TNO_Cold_War_GUI_Rankings_Military_Categories: "ARMY SIZE:\nNAVY SIZE:\n\nARMY P
 TNO_Cold_War_GUI_Rankings_Military_Points: "§W[?Cold_War_GUI_Selected_Superpower.Score_Military^1]\n[?Cold_War_GUI_Selected_Superpower.Score_Military^3]\n\n[?Cold_War_GUI_Selected_Superpower.Score_Military^4]\n[?Cold_War_GUI_Selected_Superpower.Score_Military^5]§!"
 
 # Economy
-TNO_Cold_War_GUI_Rankings_Economy_Categories: "GDP/CAPITA:\nNATIONAL DEBT:\nPOVERTY RATE:"
+TNO_Cold_War_GUI_Rankings_Economy_Categories: "GDP/CAPITA:\n국가 부채:\n빈곤률:"
 TNO_Cold_War_GUI_Rankings_Economy_Points: "§W[?Cold_War_GUI_Selected_Superpower.Score_Economy^1]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^2]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^3]§!"
 TNO_Cold_War_GUI_Rankings_Economy_Categories2: "STABILITY:\nTECHNOLOGY:\nSOCDEV:"
 TNO_Cold_War_GUI_Rankings_Economy_Points2: "§W[?Cold_War_GUI_Selected_Superpower.Score_Economy^4]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^5]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^6]§!"
@@ -113,13 +113,13 @@ TNO_Cold_War_Victory_Outcome_Stalemate: "§Y무승부§!"
 TNO_Cold_War_Victory_Outcome_Victory: "§G승리§!"
 TNO_Cold_War_Victory_Outcome_Total_Victory: "§y총체적 승리§!"
 
-TNO_Cold_War_GUI_Rankings_Total_Score_Military: "§RTOTAL SCORE:§! [?Cold_War_GUI_Selected_Superpower.Score_Military^0|W0]"
-TNO_Cold_War_GUI_Rankings_Total_Score_Economy: "§RTOTAL SCORE:§! [?Cold_War_GUI_Selected_Superpower.Score_Economy^0|W0]"
-TNO_Cold_War_GUI_Rankings_Total_Score_Diplomacy: "§RTOTAL SCORE:§! [?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^0|W0]"
-TNO_Cold_War_GUI_Rankings_Total_Score_Victories: "§RTOTAL SCORE:§! [?Cold_War_GUI_Selected_Superpower.Score_Victories|W0]"
+TNO_Cold_War_GUI_Rankings_Total_Score_Military: "§R총 점수:§! [?Cold_War_GUI_Selected_Superpower.Score_Military^0|W0]"
+TNO_Cold_War_GUI_Rankings_Total_Score_Economy: "§R총 점수:§! [?Cold_War_GUI_Selected_Superpower.Score_Economy^0|W0]"
+TNO_Cold_War_GUI_Rankings_Total_Score_Diplomacy: "§R총 점수:§! [?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^0|W0]"
+TNO_Cold_War_GUI_Rankings_Total_Score_Victories: "§R총 점수:§! [?Cold_War_GUI_Selected_Superpower.Score_Victories|W0]"
 
-TNO_Cold_War_GUI_Victories_Gridbox_DBG_tt: "§YDEBUG - ADD/REMOVE LOGS§!\n§YLeft click§!: add one log\n§YRight click§!: clear arrays"
-TNO_Cold_War_GUI_Victories_Sample_DBG_tt: "§YDEBUG - SET EXAMPLE LOGS§!"
+TNO_Cold_War_GUI_Victories_Gridbox_DBG_tt: "§Y디버그 - ADD/REMOVE LOGS§!\n§YLeft click§!: add one log\n§YRight click§!: clear arrays"
+TNO_Cold_War_GUI_Victories_Sample_DBG_tt: "§Y디버그 - SET EXAMPLE LOGS§!"
 
 TNO_Cold_War_GUI_World_Tension_PB_tt: "The §YWorld Tension§! currently sits at §Y[?global.TNO_World_Tension]%§!."
 TNO_Cold_War_GUI_World_Tension_PB_tt_delayed: "The §YWorld Tension§! is a quantitative measurement of the §Vgeneral state of conflict and instability in the world§!. §xWars, instability, political changes, economic crashes and revolutions§! increase the value; §Gpeace agreements and other such indicators of success and prosperity§! lower it. If this value ever reaches §Y100%§!, §othen the world has been plunged into conflict of a sort unheard of since the dawn of the New Order§!, and it may be a matter of time before everything we once knew and held dear is §eset ablaze, leading down a path the end of which no mortal being is cognisant§!."
@@ -164,8 +164,8 @@ TNO_Cold_War_GUI_Tension_ID_German_Diplomatic_Ventures_2: "Diplomatic Visit to J
 TNO_Cold_War_GUI_Tension_ID_Collab_England_Joins_OFN:0 "잉글랜드의 OFN 가입"
 TNO_Cold_War_GUI_Tension_ID_Collab_England_Joins_EP:0 "잉글랜드의 아인하이츠팍트 가입"
 TNO_Cold_War_GUI_Tension_ID_Japanese_Mandate_Split:0 "Placeholder"
-TNO_Cold_War_GUI_Tension_ID_Nuclear_Weapons_Reunion:0 "Nuclear Weapons in Mauritius and Reunion"
-TNO_Cold_War_GUI_Tension_ID_German_SAW_intervention: "Reich Intervention in the South African War"
+TNO_Cold_War_GUI_Tension_ID_Nuclear_Weapons_Reunion:0 "모리셔스와 레위니옹의 핵무기"
+TNO_Cold_War_GUI_Tension_ID_German_SAW_intervention: "라이히의 남아프리카 전쟁 개입"
 TNO_Cold_War_GUI_Tension_ID_German_Japanese_Thaw: "German-Japanese Thaw"
 TNO_Cold_War_GUI_Tension_ID_German_sabre_rattling_japan: "German Sabre Rattling aganist Japan"
 TNO_Cold_War_GUI_Tension_ID_international_forum_on_the_stability_of_asia:0 "International Forum on the Stability of Asia"
@@ -193,11 +193,11 @@ Superpower_Tension: "[Cold_War_GUI_Tension_Superpower_1] - [Cold_War_GUI_Tension
 TNO_Cold_War_GUI_Tension_Involved_Superpower_USA: "[USA.GetFlag] 미국"
 TNO_Cold_War_GUI_Tension_Involved_Superpower_GER: "[GER.GetFlag] 독일"
 TNO_Cold_War_GUI_Tension_Involved_Superpower_JAP: "[JAP.GetFlag] 일본"
-TNO_Cold_War_GUI_Tension_Involved_Superpower_ALL: "All Superpowers"
+TNO_Cold_War_GUI_Tension_Involved_Superpower_ALL: "모든 초강대국"
 TNO_Cold_War_GUI_Tension_USA_ADJ: "미국"
 TNO_Cold_War_GUI_Tension_GER_ADJ: "독일"
 TNO_Cold_War_GUI_Tension_JAP_ADJ: "일본"
-TNO_Cold_War_GUI_Tension_ALL_ADJ: "Every Superpower"
+TNO_Cold_War_GUI_Tension_ALL_ADJ: "모든 초강대국"
 
 TNO_Cold_War_GUI_Tension_Entry_A_Progressbar_tooltip: "§FTension between America and Germany: §R[?global.TNO_superpower_tension^0]%§!.\nEffects on both nations:\nWar Support: [?USA.USA_GER_war_support_Tension_var|2%+]\nStability: [?USA.USA_GER_stability_Tension_var|2%+]\nFactory Output: [?USA.USA_GER_factory_output_var|2%+]\nDockyard Output: [?USA.USA_GER_dockyard_output_var|2%+]\nDivision Training Time: [?USA.USA_GER_division_training_time_var|2%Y]\nNuclear Production Output: [?USA.USA_GER_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?USA.USA_GER_misc_costs_of_gdp|2%]§!"
 TNO_Cold_War_GUI_Tension_Entry_B_Progressbar_tooltip: "§FTension between Germany and Japan: §R[?global.TNO_superpower_tension^1]%§!.\nEffects on both nations:\nWar Support: [?JAP.GER_JAP_war_support_Tension_var|2%+]\nStability: [?JAP.GER_JAP_stability_Tension_var|2%+]\nFactory Output: [?JAP.GER_JAP_factory_output_var|2%+]\nDockyard Output: [?JAP.GER_JAP_dockyard_output_var|2%+]\nDivision Training Time: [?JAP.GER_JAP_division_training_time_var|2%Y]\nNuclear Production Output: [?JAP.GER_JAP_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?JAP.GER_JAP_misc_costs_of_gdp|2%]§!"
@@ -221,13 +221,13 @@ TNO_Cold_War_GUI_Tension_Unchanged: "§Y변화 없음§!"
 
 ## Spheres Tab
 TNO_Cold_War_GUI_Spheres_Tab_Sphere_Name_tt: "§W[?THIS.GetName]§!\n[GetSphereName]"
-TNO_Cold_War_GUI_Spheres_Tab_Info_tt: "회원국 수:\n[?econ_sphere_members^num|0W]\n공영권 총 GDP: §W[?total_econ_sphere_GDP|2]B§!\n세계 GDP 비율:\n§W[?econ_sphere_world_percent]%§!"
+TNO_Cold_War_GUI_Spheres_Tab_Info_tt: "회원국 수:\n[?econ_sphere_members^num|0W]\n영향권 내 총 GDP: §W[?total_econ_sphere_GDP|2]B§!\n세계 GDP 비율:\n§W[?econ_sphere_world_percent]%§!"
 
 Cold_War_GUI_Spheres_Tab_Spheres_Entry_Flags_Entry_Info_tt: "§W[?THIS.GDP|2]B§!"
 Cold_War_GUI_Spheres_Tab_Spheres_Entry_Flags_Entry_Overlay_tt: "§Y[?THIS.GetName]§!"
-Cold_War_GUI_Spheres_Tab_Spheres_Entry_Flags_Entry_Overlay_tt_delayed: "Economic Ranking: §Y[Cold_War_GUI_GetEconRanking_Sufix]§!\nGDP: §Y[?THIS.GDP|2]B§!\nGDP Growth: §Y[?THIS.GDP_growth_real|2]%§!\nDebt: §Y[?THIS.national_debt|2]B§!\nDebt-to-GDP: §Y[?THIS.debt_to_GDP_ratio|%]§!\nPoverty Rate: §Y[?THIS.poverty_rate|2]%§!\nGDP per Capita: §Y[?gdpc_display]$§!"
+Cold_War_GUI_Spheres_Tab_Spheres_Entry_Flags_Entry_Overlay_tt_delayed: "경제력 순위: §Y[Cold_War_GUI_GetEconRanking_Sufix]§!\nGDP: §Y[?THIS.GDP|2]B§!\nGDP Growth: §Y[?THIS.GDP_growth_real|2]%§!\nDebt: §Y[?THIS.national_debt|2]B§!\nDebt-to-GDP: §Y[?THIS.debt_to_GDP_ratio|%]§!\nPoverty Rate: §Y[?THIS.poverty_rate|2]%§!\nGDP per Capita: §Y[?gdpc_display]$§!"
 
-TNO_SG_EconInfo_tt: "§Y[?THIS.GetName]§!\n§F--------------\nEconomic Ranking: §Y[Cold_War_GUI_GetEconRanking_Sufix]§!\nGDP: §Y[?THIS.GDP|2]B§!\nGDP Growth: §Y[?THIS.GDP_growth_real|2]%§!\nDebt: §Y[?THIS.national_debt|2]B§!\nDebt-to-GDP: §Y[?THIS.debt_to_GDP_ratio|%]§!\nPoverty Rate: §Y[?THIS.poverty_rate|2]%§!\nGDP per Capita: §Y[?gdpc_display]$§!"
+TNO_SG_EconInfo_tt: "§Y[?THIS.GetName]§!\n§F--------------\n경제력 순위: §Y[Cold_War_GUI_GetEconRanking_Sufix]§!\nGDP: §Y[?THIS.GDP|2]B§!\nGDP Growth: §Y[?THIS.GDP_growth_real|2]%§!\nDebt: §Y[?THIS.national_debt|2]B§!\nDebt-to-GDP: §Y[?THIS.debt_to_GDP_ratio|%]§!\nPoverty Rate: §Y[?THIS.poverty_rate|2]%§!\nGDP per Capita: §Y[?gdpc_display]$§!"
 TNO_SG_EconInfo_Title_tt: "[Cold_War_GUI_GetSphereInfo]"
 
 Cold_War_GUI_EconRanking_Sufix_st: "[?econ_ranking]st"
