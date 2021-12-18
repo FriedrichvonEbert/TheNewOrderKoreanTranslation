@@ -4,7 +4,7 @@ economy_multiplicative_modifiers_base: "기준치"
 
 ### NEW NEW GUI ###
 
-puCalc_gdp_text: "§YGDP§!에서 얻은 £production_units_texticon  §G생산단위s§! :"
+puCalc_gdp_text: "§YGDP§!에서 얻은 £production_units_texticon  §G생산단위§! :"
 puCalc_gdp_tt: ""
 puCalc_gdp_tt_long: ""
 puCalc_gdp_value_text: "[?production_units_gdp_raw|+0]"
@@ -179,7 +179,7 @@ Debt_servicing_spending_txt_number: "§W$[?debt_servicing_expenditures|2]B§!"
 econ_other_spending_txt: "§l기타 비용:§!"
 econ_other_spending_txt_number: "§W$[?misc_costs_true|2]B§!"
 
-econ_total_spending_txt: "Total Spending: §W$[?total_expenditures|2]B§!"
+econ_total_spending_txt: "총 지출: §W$[?total_expenditures|2]B§!"
 econ_total_spending_txt_number: "§W$[?total_expenditures|2]B§!"
 
 econ_total_spending_pie_tt: "§RTotal Expenditures:§! §W$[?total_expenditures|2]B§!\n--------------\n\n§S[?military_expenditures_percent]% Military Spending:§! §W$[?military_expenditures|2]B§!\n§w[?civilian_expenditures_percent]% Civilian Spending:§! §W$[?civilian_expenditures|2]B§!\n§O[?debt_servicing_expenditures_percent]% Debt Servicing:§! §W$[?debt_servicing_expenditures|2]B§!\n§l[?misc_expenditures_percent]% Other Costs:§! §W$[?misc_costs_true|2]B§!"
