@@ -75,7 +75,7 @@ econ_deficit_monetization_txt_number: "§W[?econ_deficit_monetization_slider_pct
 econ_deficit_monetization_slider_button_left_tt: "화폐발행을 1% 줄이려면 §G클릭§!\n화폐발행을 10% 줄이려면 £shift  §G+ 클릭§!\n화폐발행을 최소한으로 하려면 £ctrl  §G+ 클릭§!"
 econ_deficit_monetization_slider_button_right_tt: "화폐발행을 1% 늘리려면 §G클릭§!\n화폐발행을 10% 늘리려면 £shift  §G+ 클릭§!\n화폐발행을 최대한으로 하려면£ctrl  §G+ 클릭§!"
 econ_deficit_monetization_slider_tt: "화폐발행은 우리로 하여금 돈을 찍어낼 수 있게 하며, 인플레이션을 유발하지만 추가적인 자금을 발행함으로서 장기적으로 위험할 수 있는 적자상태를 벗어날 수 있게 합니다. 화폐발행의 큰 리스크 때문에, 이는 우리가 §R적자§! 상태일 때만 활성화됩니다.."
-econ_deficit_monetization_set_button_tt: "§GClick§! to set Money Creation to §W[get_deficit_monetization_slider_tooltip]§!"
+econ_deficit_monetization_set_button_tt: "§G클릭§!으로 화폐 발행을 §W[get_deficit_monetization_slider_tooltip]§!로 변경합니다."
 
 econ_civ_spending_txt: "§w민간 지출:§!"
 econ_civ_spending_txt_extended: "민간 예산:"
@@ -165,7 +165,7 @@ econ_constr_spending_txt_number: "§W$[?construction_expenditures|2]B§!"
 
 econ_consumer_goods_txt: "§g필요한 소비재§!: §W[?consumer_goods_monthly_use|0]§!"
 
-econ_consumer_goods_per_pu_txt: "§gConsumer Goods Production Modifier§!: [GetConsumerGoodsProductionModiferGoodBadNeutral]"
+econ_consumer_goods_per_pu_txt: "§g소비재 생산 요인§!: [GetConsumerGoodsProductionModiferGoodBadNeutral]"
 
 econ_consumer_goods_production_modifier_good: "§G[?modifier@consumer_goods_production_factor|%]§!"
 econ_consumer_goods_production_modifier_neutral: "§W[?modifier@consumer_goods_production_factor|%]§!"
@@ -176,7 +176,7 @@ econ_consumer_goods_per_pu_tt: "By default every one of our £tt_prod_unit §GPr
 Debt_servicing_spending_txt: "§ODebt Servicing:§!"
 Debt_servicing_spending_txt_number: "§W$[?debt_servicing_expenditures|2]B§!"
 
-econ_other_spending_txt: "§lOther Costs:§!"
+econ_other_spending_txt: "§l기타 비용:§!"
 econ_other_spending_txt_number: "§W$[?misc_costs_true|2]B§!"
 
 econ_total_spending_txt: "Total Spending: §W$[?total_expenditures|2]B§!"
@@ -246,7 +246,7 @@ econ_spending_percent: "[?spending_slider_percent]"
 
 econ_cost_display: "§W$[?cost_to_show|2]B§!"
 
-econ_army_expenditures_slider_txt: "Army Expenditures:"
+econ_army_expenditures_slider_txt: "육군 지출:"
 econ_army_expenditures_slider_txt_number: "§W$[?army_costs|2]B§!"
 econ_army_expenditures_slider_button_left_tt: "§GClick§! to decrease Army Funding by 1%\n£shift  §G+ Click§! to decrease Army Funding by 10%\n£ctrl  §G+ Click§! to set Army Funding to minimum"
 econ_army_expenditures_slider_button_right_tt: "§GClick§! to increase Army Funding by 1%\n£shift  §G+ Click§! to increase Army Funding by 10%\n£ctrl  §G+ Click§! to set Army Funding to maximum"
@@ -264,7 +264,7 @@ econ_army_maintenance_slider_button_left_tt: "§GClick§! to decrease Army Maint
 econ_army_maintenance_slider_button_right_tt: "§GClick§! to increase Army Maintenance Funding by 1%\n£shift  §G+ Click§! to increase Army Maintenance Funding by 10%\n£ctrl  §G+ Click§! to set Army Maintenance Funding to maximum"
 econ_army_maintenance_slider_tt: "Current §OArmy Maintenance Funding§!§F effects:\nDivision Organization: [?TNO_army_funding_army_org_factor_display|=+%]\nDivision Recovery Rate: [?TNO_army_funding_army_morale_factor_display|=+%]\nMonthly Military Professionalism: [?TNO_army_funding_army_professionalism_change_display|+=]\nWar Support: [?TNO_army_funding_war_support_factor_display|=+%]\nStability: [?TNO_army_funding_stability_factor_display|=+%]§!\n§YArmy Training§! actual effectiveness: [?TNO_army_training_policy_effectiveness_effect_display|=+%]"
 
-econ_army_logistics_slider_txt: "Logistics Funding:"
+econ_army_logistics_slider_txt: "보급 비용:"
 econ_army_logistics_slider_txt_number: "§W$[?army_logistics_costs|2]B§!"
 econ_army_logistics_slider_button_left_tt: "§GClick§! to decrease Army Logistics Funding by 1%\n£shift  §G+ Click§! to decrease Army Logistics Funding by 10%\n£ctrl  §G+ Click§! to set Army Logistics Funding to minimum"
 econ_army_logistics_slider_button_right_tt: "§GClick§! to increase Army Logistics Funding by 1%\n£shift  §G+ Click§! to increase Army Logistics Funding by 10%\n£ctrl  §G+ Click§! to set Army Logistics Funding to maximum"
@@ -276,19 +276,19 @@ econ_army_procurement_slider_button_left_tt: "§GClick§! to decrease Army Procu
 econ_army_procurement_slider_button_right_tt: "§GClick§! to increase Army Procurement Funding by 1%\n£shift  §G+ Click§! to increase Army Procurement Funding by 10%\n£ctrl  §G+ Click§! to set Army Procurement Funding to maximum"
 econ_army_procurement_slider_tt: "Current §OArmy Procurement Funding§!§F effects:\nFactory Output: [?TNO_army_procurement_funding_effect_display|=+%0]\nProduction Efficiency Growth [?TNO_army_procurement_funding_effect_display|=+%0]"
 
-econ_naval_expenditures_slider_txt: "Naval Expenditures:"
+econ_naval_expenditures_slider_txt: "해군 지출:"
 econ_naval_expenditures_slider_txt_number: "§W$[?naval_costs|2]B§!"
 econ_naval_expenditures_slider_button_left_tt: "§GClick§! to decrease Naval Funding by 1%\n£shift  §G+ Click§! to decrease Naval Funding by 10%\n£ctrl  §G+ Click§! to set Naval Funding to minimum"
 econ_naval_expenditures_slider_button_right_tt: "§GClick§! to increase Naval Funding by 1%\n£shift  §G+ Click§! to increase Naval Funding by 10%\n£ctrl  §G+ Click§! to set Naval Funding to maximum"
 econ_naval_expenditures_slider_tt: "Current §ONavy Funding§!§F effects:\nFleet Coordination: [?TNO_naval_funding_naval_coordination_display|=+%]\nNaval Speed: [?TNO_naval_funding_naval_speed_factor_display|=+%]\nNaval Max Range: [?TNO_naval_funding_navy_max_range_factor_display|=+%]\nSpotting Speed: [?TNO_naval_funding_spotting_chance_display|=+%]\nDockyard Output: [?TNO_naval_funding_industrial_capacity_dockyard_display|=+%]\nWar Support: [?TNO_naval_funding_war_support_factor_display|=+%]\nStability: [?TNO_naval_funding_stability_factor_display|=+%]\nNavy research speed: [?naval_funding_other_effects_display|=+%]\nNaval aviation reliability: [?naval_funding_other_effects_display|=+%]\nNaval aviation range: [?naval_funding_other_effects_display|=+%]§!"
 
-econ_nuclear_expenditures_slider_txt: "Nuclear Expenditures:"
+econ_nuclear_expenditures_slider_txt: "핵 지출:"
 econ_nuclear_expenditures_slider_txt_number: "§W$[?nuclear_costs|2]B§!"
 econ_nuclear_expenditures_slider_button_left_tt: "§GClick§! to decrease Nuclear Funding by 1%\n£shift  §G+ Click§! to decrease Nuclear Funding by 10%\n£ctrl  §G+ Click§! to set Nuclear Funding to minimum"
 econ_nuclear_expenditures_slider_button_right_tt: "§GClick§! to increase Nuclear Funding by 1%\n£shift  §G+ Click§! to increase Nuclear Funding by 10%\n£ctrl  §G+ Click§! to set Nuclear Funding to maximum"
 econ_nuclear_expenditures_slider_tt: "Due to our §ONuclear Funding§!§F and §WNuclear Decomission§! policy each month our nuclear stockpile will change by [?nuclear_stockpile_change|+=0]§! Warheads."
 
-econ_construction_expenditures_slider_txt: "Constr. Expenditures:"
+econ_construction_expenditures_slider_txt: "건설 지출:"
 econ_construction_expenditures_slider_txt_number: "§W$[?construction_expenditures|2] B§!".
 econ_construction_expenditures_slider_button_left_tt: "§GClick§! to decrease Construction Funding by 10%\n£ctrl  §G+ Click§! to set Construction Funding to minimum"
 econ_construction_expenditures_slider_button_right_tt: "§GClick§! to increase Construction Funding by 10%\n£ctrl  §G+ Click§! to set Construction Funding to maximum"
@@ -306,7 +306,7 @@ econ_consumer_goods_slider_tt: "Current §OConsumer Goods§! effects:\nStability
 econ_consumer_goods_slider_delayed_tt: "This allows us to fine tune how many §YConsumer Goods§! our populace is provided with. By providing more both our §YEconomic Growth§! as well as our §YStability§! will benefit but we will also need to devote more of our resources towards §Rsecuring§! §YConsumer Goods.§! Alternatively we can lighten the burden by providing §Gfewer§! §YConsumer Goods§! in exchange for §Rlowered§! §YEconomic Growth§! and §YStability.§!"
 econ_consumer_goods_too_poor_pp_tt: "At least §Y30§! Political Power is needed to change this.\n"
 
-econ_social_expenditures_slider_txt: "Social Expenditures:"
+econ_social_expenditures_slider_txt: "사회복지 지출:"
 econ_social_expenditures_slider_txt_number: "§W$[?total_sp_costs|2]B§!"
 econ_social_expenditures_slider_button_left_tt: "[§GClick§! to decrease Social Funding by 1%\n£shift  §G+ Click§! to decrease Social Funding by 10%\n£ctrl  §G+ Click§! to set Social Funding to minimum]"
 econ_social_expenditures_slider_button_right_tt: "[§GClick§! to increase Social Funding by 1%\n£shift  §G+ Click§! to increase Social Funding by 10%\n£ctrl  §G+ Click§! to set Social Funding to maximum]"
@@ -389,8 +389,8 @@ econ_research_facilities_slider_button_left_tt: "§GClick§! to decrease Facilit
 econ_research_facilities_slider_button_right_tt: "§GClick§! to increase Facilities Funding by 1%\n£shift  §G+ Click§! to increase Facilities Funding by 10%\n£ctrl  §G+ Click§! to set Facilities Funding to maximum"
 econ_research_facilities_slider_tt: "Current §OFacilities Funding§!§F effects:\nResearch Facilities Monthly Change: [?TNO_research_funding_facilities_effect_display|2+=]§!"
 
-econ_pay_off_national_debt: "§RPAY OFF\nNATIONAL DEBT§!"
-econ_invest_into_gdp: "§GINVEST INTO GDP§!"
+econ_pay_off_national_debt: "§R국가 부채\n상환§!"
+econ_invest_into_gdp: "§GGDP에 투자§!"
 
 econ_reserves_management: "§W[GetCurrency][?money_reserves|3]B§!" 
 reserves_management_amount_text: "§W[GetCurrency][?reserves_management_amount|3]B§!"
@@ -419,11 +419,11 @@ economy_view_title: "경제"
 
 
 ###GUI###
-economy_view_GDP: "§WKey Economic Indicators§!"
-economy_view_debt: "§SDEBT§!"
-economy_view_debt_to_gdp_ratio: "§SDEBT-TO-GDP§!"
+economy_view_GDP: "§W주요 경제 지표§!"
+economy_view_debt: "§S부채§!"
+economy_view_debt_to_gdp_ratio: "§S부채의 GDP 비율§!"
 economy_view_income: "§n수입§!"
-economy_view_expenditures: "§YEXPENDITURES§!"
+economy_view_expenditures: "§Y지출§!"
 economy_view_deficit_reserves: "§ODEFICIT & RESERVES§!"
 
 econ_tab_actions_invest_into_GDP_button_tt: "Spends the amount of liquid reserves specified to increase the GDP with a 10 to 1 ratio."
@@ -432,10 +432,10 @@ econ_tab_actions_invest_into_GDP_button_tt: "Spends the amount of liquid reserve
 econ_tab_actions_emergency_actions_tax_increase_tt: "§F§YImmediately:§!\n  Political Power: §S-100§!\n  Gain Base Stability: §S-5.00%§!\n  Income Tax Rate: §G+2.50%§!\n  Business Tax Rate: §G+2.50%§!\n§YAfter a Year:§!\n  Income Tax Rate: §S-1.50%§!\n  Business Tax Rate: §S-1.50%§!§!"
 econ_tab_actions_emergency_actions_debase_currency_tt: "§FPolitical Power: §S-150§!\nGain Base Stability: §S-10.00%§!\nDebt: §G-16.50%§!\nInterest Rate: §S+3.00%§!§!"
 
-military_buttons_value: "MILITARY SPENDING"
-civilian_buttons_value: "CIVILIAN SPENDING"
-reserves_buttons_value: "LIQUID RESERVES"
-construction_buttons_value: "CONSTRUCTION"
+military_buttons_value: "군사 지출"
+civilian_buttons_value: "민간 지출"
+reserves_buttons_value: "유동준비금"
+construction_buttons_value: "건설"
 
 gdp_value: "총 GDP:"
 gdp_value_number: "§W$[?GDP] B§!"
@@ -444,16 +444,16 @@ gdp_value_tt: "We expect our GDP to change by $[?GDP_growth_real_monthly_number|
 income_rate_value: "Annual Income Rate:"
 income_rate_value_number: "§W$[?ROOT.income_rate|%]§!"
 
-gdp_growth_value: "Annual GDP Growth:"
+gdp_growth_value: "연간 GDP 성장률:"
 gdp_growth_value_number: "§W[?ROOT.GDP_growth_display|%]§!"
 
-misc_income_value: "Other Income:"   
+misc_income_value: "기타 수입:"   
 misc_income_value_number: "§W$[?misc_income] B§!"   
 
 annual_budget_value: "Annual Revenue:"
 annual_budget_value_number: "§W$[?total_income] B§!"
 
-deficit_value: "Annual [Get_deficit_surplus_capitalized]:"
+deficit_value: "연간 [Get_deficit_surplus_capitalized]:"
 deficit_value_number: "§W$[Get_deficit_surplus_amount_b] B§!"
 
 
@@ -462,7 +462,7 @@ deficit_value_number: "§W$[Get_deficit_surplus_amount_b] B§!"
 national_debt_interest_paying: "\nWe must pay §R$[?monthly_interest_payment]§! B in interest every month."
 national_debt_interest_paying_no: ""
 
-national_credit_rating: "Credit Rating:"
+national_credit_rating: "신용 등급:"
 national_credit_rating_value: "§W[GetCreditRatingValue]§!"
 credit_rating_tt: "Credit rating is determined by our §Yfiscal and economic health§! and affects our §Yinterest rates§! and §Ydebt ceiling§!. Our current credit rating is[GetLockedCreditRatingOrUnlocked] [GetCreditRatingValue][GetCreditRatingUpDown][GetCreditRatingDisabled].\n\nThis gives us the following effects:[GetCreditRatingEffects][GetCreditRatingMinMax]"
 credit_rating_effect_normal: "\n  Debt Ceiling: [?debt_ceiling_from_credit_rating|%+=]\n  Interest Rates: §Y[?interest_rate_from_credit_rating]%§!\n  Effect of debt on Interest Rates: [?credit_rating_interest_rates_from_debt|%-]\n  Stability: [?stability_from_credit_rating|%+=]\n  Effect of debt on GDP growth: [?credit_rating_effect_on_debt_GDP_effect|%-=]"
@@ -583,19 +583,19 @@ tno_econ_credit_type: "[GetCreditRatingValue]"
 tno_econ_ladder_credit_type: "[GetLadderCreditRatingValue]"
 
 
-civilian_expenditures_value: "Civilian Spending:"
+civilian_expenditures_value: "민간 지출:"
 civilian_expenditures_value_number: "§W$[?civilian_expenditures] B§!"
 
-military_expenditures_value: "Military Spending:"
+military_expenditures_value: "군사 지출:"
 military_expenditures_value_number: "§W$[?military_expenditures] B§!"
 
-construction_expenditures_value: "Constr. Spending:"
+construction_expenditures_value: "건설 지출:"
 construction_expenditures_value_number: "C§W$[?construction_expenditures] B§!"
 
 misc_costs_value: "Other Expenditures:"
 misc_costs_value_number: "§W$[?misc_costs] B§!"
 
-money_reserves_value: "Liquid Reserves:"
+money_reserves_value: "유동준비금:"
 money_reserves_value_number: "§W$[?money_reserves] B§!"
 
 deficit_to_gdp_ratio_value: "Annual [Get_deficit_surplus_capitalized] to GDP Ratio:"
@@ -617,51 +617,51 @@ total_expenditures_value_number: "§W[GetCurrency][?total_expenditures] B§!"
 
 economy_line_break: "-------------------------------------------"
 
-line_graph_data_label: "[econ_graph_month] [econ_graph_year]"
-line_graph_gdp_value_label: "[econ_graph_month] [econ_graph_year]: §G[econ_graph_gdp_no]§!"
+line_graph_data_label: "[econ_graph_year]년 [econ_graph_month]"
+line_graph_gdp_value_label: "[econ_graph_year]년 [econ_graph_month]: §G[econ_graph_gdp_no]§!"
 econ_gdp_no_m: "$[?display|1] M"
 econ_gdp_no_b: "$[?display|1] B"
-line_graph_debt_value_label: "[econ_graph_month] [econ_graph_year]: §R[econ_graph_debt_no]§!"
+line_graph_debt_value_label: "[econ_graph_year]년 [econ_graph_month]: §R[econ_graph_debt_no]§!"
 econ_debt_no_m: "$[?display|1] M"
 econ_debt_no_b: "$[?display|1] B"
 
 
-econ_month_0: "Jan"
-econ_month_1: "Feb"
-econ_month_2: "Mar"
-econ_month_3: "Apr"
-econ_month_4: "May"
-econ_month_5: "Jun"
-econ_month_6: "Jul"
-econ_month_7: "Aug"
-econ_month_8: "Sep"
-econ_month_9: "Oct"
-econ_month_10: "Nov"
-econ_month_11: "Dec"
+econ_month_0: "1월"
+econ_month_1: "2월"
+econ_month_2: "3월"
+econ_month_3: "4월"
+econ_month_4: "5월"
+econ_month_5: "6월"
+econ_month_6: "7월"
+econ_month_7: "8월"
+econ_month_8: "9월"
+econ_month_9: "10월"
+econ_month_10: "11월"
+econ_month_11: "12월"
 econ_year: "'[?year]"
 
 pay_off_debt_amount_txt: "§W[GetCurrency][?national_debt_payoff_liquid] B§!"
 invest_into_gdp_amount_txt: "§W[GetCurrency][?gdp_increase_liquid] B§!"
 
-sp_health_care_cost: "Health Care:"
+sp_health_care_cost: "의료복지:"
 sp_health_care_cost_number: "§W[GetCurrency][?health_care_cost_modified|2] B§!"
 
-sp_education_cost: "Education:"
+sp_education_cost: "교육:"
 sp_education_cost_number: "§W[GetCurrency][?education_cost_modified|2] B§!"
 
-sp_security_cost: "Policing:"
+sp_security_cost: "치안:"
 sp_security_cost_number: "§W[GetCurrency][?security_cost_modified|2] B§!"
 
-sp_pensions_cost: "Pensions:"
+sp_pensions_cost: "연금:"
 sp_pensions_cost_number: "§W[GetCurrency][?pensions_cost_modified|2] B§!"
 
 sp_unemployment_cost: "실업률:"
 sp_unemployment_cost_number: "§W[GetCurrency][?unemployment_cost_modified|2] B§!"
 
-sp_other_program_cost: "Other Programs:"
+sp_other_program_cost: "기타 사업:"
 sp_other_program_cost_number: "§W[GetCurrency][?other_program_cost_modified|2] B§!"
 
-sp_total_cost: "Total Programs:"
+sp_total_cost: "총 사업:"
 sp_total_cost_number: "§W[GetCurrency][?total_sp_costs|2] B§!"
 
 econ_revenue_header: "§MREVENUE§!"
@@ -785,14 +785,14 @@ grid_power_display: "§Y[?resource@power]§!"
 prod_units_assignment_ok: "§G"
 prod_units_assignment_blocked: "§Y"
 
-civilian_factory_allocation_type_fancy: "£tt_civ_factory §RCivilian Factories§!"
-military_factory_allocation_type_fancy: "£tt_mil_factory §GMilitary Factories§!"
+civilian_factory_allocation_type_fancy: "£tt_civ_factory §R민간 공장§!"
+military_factory_allocation_type_fancy: "£tt_mil_factory §G군수 공장§!"
 military_workshop_allocation_type_fancy: "£tt_mil_workshop §OMilitary Workshops§!"
-consumer_goods_allocation_type_fancy: "£tt_consumer_goods §BConsumer Goods§!"
-civilian_factory_allocation_type: "Civilian Factories"
-military_factory_allocation_type: "Military Factories"
+consumer_goods_allocation_type_fancy: "£tt_consumer_goods §B소비재§!"
+civilian_factory_allocation_type: "민간 공장"
+military_factory_allocation_type: "군수 공장"
 military_workshop_allocation_type: "Military Workshops"
-consumer_goods_allocation_type: "Consumer Goods"
+consumer_goods_allocation_type: "소비재"
 
 production_unit_5x_tt: "[Get_production_unit_5x_tt]"
 production_unit_10x_tt: "[Get_production_unit_10x_tt]"
@@ -804,7 +804,7 @@ production_unit_scale_10x_tt: "§GClick§! to scale up to §Y10x§! view"
 production_unit_add_tt: "§GClick§! to add 1 £tt_prod_unit §GProduction Units§!\n£ctrl §G+ Click§! to add 5 £tt_prod_unit §GProduction Units§!\n£shift  §G+ Click§! to add 10 £tt_prod_unit §GProduction Units§!"
 production_unit_sub_tt: "§GClick§! to subtract 1 £tt_prod_unit §GProduction Units§!\n£ctrl §G+ Click§! to subtract 5 £tt_prod_unit §GProduction Units§!\n£shift  §G+ Click§! to subtract 10 £tt_prod_unit §GProduction Units§!"
 
-production_unit_open_tt: "§YProduction Units§!\nManage the allocation of Production Units to different factory types.[emptyloc]"
+production_unit_open_tt: "§Y생산 단위§!\n여러 생산 공장 유형마다 각각 배치할 생산 단위를 관리할 수 있습니다.[emptyloc]"
 
 production_units_info_tt: "§FA country's industrial potential, based on its §YGDP§!, is represented in the form of £tt_prod_unit §GProduction Units§!. This menu allows these units to be allocated freely between £tt_civ_factory §RCivilian Factories§!, £tt_mil_factory §GMilitary Factories§!, and £tt_consumer_goods §BConsumer Goods§!.\n\nThe number of assignable units is limited by the nation's production of £tt_power §YGrid Power§!, increased by building §YPower Plants§!. \n\n£tt_civ_factory §RCivilian Factories§! are used to construct new buildings on the map in the §YConstruction§! tab.\n\n£tt_mil_factory §GMilitary Factories§! can be assigned to produce materiel in the §YProduction§! tab.\n\n£tt_consumer_goods §BConsumer Goods§! are a resource that can be exchanged on the §YTrade§! tab. Each month, the civilian populace will demand a certain amount of these goods. We must satisfy their demands via a combination of our own products or foreign §Yimports.§!§![emptyloc]"
 # [emptyloc] to make the fucking thing appear FOR SOME REASON RHAOGNAEIFGN;THKNLGHNDRGLHNDRGJIHNRTGIOHJNDGOHKNDGHONGHJNI
@@ -836,14 +836,14 @@ trade_resource_name_tt: "[Get_resource_name]"
 trade_total_money: "[GetTradeTotalMoney]"
 trade_total_money_g: "§G$[?total|2] B§!"
 trade_total_money_r: "§R$[?total|2] B§!"
-trade_imported_money: "Imports: $[GetTradeImportedMoney] B"
-trade_exported_money: "Exports: $[GetTradeExportedMoney] B"
+trade_imported_money: "수입: $[GetTradeImportedMoney] B"
+trade_exported_money: "수출: $[GetTradeExportedMoney] B"
 trade_money_tt: "This represents the monetary value of the trade ocurring in our nation. The import values are taxed at a rate of [?tariff_tax_display|0Y%]."
 
 trade_pu_totals: "£tt_prod_unit_big §G[?production_units_used]§!/§G[?production_units]§!"
 trade_pu_from_trade: "[?PU_trade_balance|+=0]£tt_prod_unit_big"
-trade_pu_from_trade_imported: "Imports: §R-[?PU_imports_m|0]§!"
-trade_pu_from_trade_exported: "Exports: §G+[?PU_exports_m|0]§!"
+trade_pu_from_trade_imported: "수입: §R-[?PU_imports_m|0]§!"
+trade_pu_from_trade_exported: "수출: §G+[?PU_exports_m|0]§!"
 trade_pu_from_trade_next: "Intended: [?PU_trade_balance_ideal|=+0]"
 
 trade_pu_money_txt: "Value"
@@ -879,14 +879,14 @@ trade_monthly_increase_sell_tooltip: "§GClick§! to increase our weekly export 
 trade_monthly_decrease_sell_tooltip: "§GClick§! to decrease our weekly export of §Y[Get_selected_resource_name]§! by §Y10§! units weekly\n£shift  §G+ Click§! to decrease by §Y50§!\n£shift  §G+ Click§! to decrease by §Y50§!\n£ctrl  §G+ Click§! to reset to §Y0§!"
 
 trade_amount_resource: "[?ZZZ.TNO_export_size^TNO_market_selected_resource|0]"
-market: "MARKET"
+market: "시장"
 auto_balance: "Auto Balance"
 auto_balance_tt: "With Auto Balance enabled, we will try to balance our imports to buy just what we need and export the surpluses that we have from our resource production."
 auto_balance_cgs: "Auto Balance\nAlways Enabled"
 auto_balance_cgs_tt: "The consumers buy their needed goods directly from the market, without our direct intervention."
-trade_partners: "TRADING PARTNERS"
-view_trade_partners: "VIEW TRADING PARTNERS"
-trade_partners_header_name: "Country"
+trade_partners: "교역 상대국"
+view_trade_partners: "교역 상대국 보기"
+trade_partners_header_name: "국가"
 trade_partners_header_trade: "[Get_selected_resource_name][GetNeedsTradeNewline][Get_selected_resource_import_export]"
 trade_newline: "\n"
 trade_partners_header_influence: "Trade\nOpinion"
@@ -1098,7 +1098,7 @@ tno_industrial_equipment_factory_complexes_gui: "Factory Complexes: §G90%§!"
 tno_industrial_equipment_modern_gui: "Modern Industrial Equipment: §Y100%§!"
 tno_industrial_equipment_cutting_edge_gui: "Cutting-Edge Equipment: §R120%§!"
 
-tno_oil_crisis_military_expenditure: "Oil Crisis: [?OC_personel_cost_modifier|Y=%]\n"
+tno_oil_crisis_military_expenditure: "석유 위기: [?OC_personel_cost_modifier|Y=%]\n"
 
 #Construction Expenditure Factors
 construction_level_0_gui: "§Y20%§! Utilization: §Y0.0%§!"
@@ -1304,7 +1304,7 @@ econ_debt_rate_200_percent_increase: "\n§RInterest rates on our debt will tripl
 econ_debt_rate_generic_increase: "\n§YInterest rates on our debt will be increased.§!\n"
 
 Econ_GDPC_Dynamic_Modifier: "§YGDP§! per Capita"
-Poverty_Dynamic_Modifier: "§YPoverty rate§! effect"
+Poverty_Dynamic_Modifier: "§Y빈곤률§! 효과"
 TNO_buildings_coverage_modifier:0 "§YBuilding coverage§! effect"
 TNO_building_resource_consumption_modifier:0 "§YBuilding§! Resource Consumption"
 
@@ -1314,7 +1314,7 @@ TNO_research_funding_dynamic_modifier: "§YResearch§! Funding"
 TNO_admin_funding_dynamic_modifier: "§YAdministrative§! Funding"
 
 TNO_consumer_goods_production_dynamic_modifier: "소비재 생산"
-TNO_market_dynamic_modifier: "Market"
+TNO_market_dynamic_modifier: "시장"
 TNO_stockpile_dynamic_modifier: "Stockpile"
 
 state_GDP_contribution_to_total_state_GDP_modifier: "Available state GDP"
@@ -1423,8 +1423,8 @@ econ_sphere_button_tt_delayed_no_shere: "Click for more information about the gl
 econ_sphere_custom_name_text: "[GetSphereName]"
 
 econ_sphere_name_GER: "Großraum"
-econ_sphere_name_ZV: "Zollverein"
-econ_sphere_name_JAP: "Co-Prosperity Sphere"
+econ_sphere_name_ZV: "촐페라인"
+econ_sphere_name_JAP: "공영권"
 econ_sphere_name_ITA: "Italian Sphere"
 econ_sphere_name_IBR: "Iberian Sphere"
 econ_sphere_name_USA: "American Sphere"
@@ -1435,14 +1435,14 @@ econ_sphere_name_WOL: "West African Zone"
 econ_sphere_name_FFR: "French Community"
 econ_sphere_name_CAO: "PACMEA"
 econ_sphere_name_ADN: "Andean Pact" # add scripted loc maybe eventually
-econ_sphere_name_CME: "COMECON" # add scripted loc maybe eventually
+econ_sphere_name_CME: "코메콘" # add scripted loc maybe eventually
 
 econ_sphere_leader_text: "The leader of our sphere is [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]."
 
 econ_sphere_tab_total_GDP_text: "Total §Ysphere§! GDP:"
 econ_sphere_tab_total_world_GDP_text: "Total §Yworld§! GDP:\n§YSphere§! percent global GDP:"
 
-econ_sphere_tab_sphereless_total_world_GDP_text: "Total §Yworld§! GDP:"
+econ_sphere_tab_sphereless_total_world_GDP_text: "§Y전 세계§! 총 GDP:"
 econ_sphere_tab_sphereless_total_world_GDP_text_number: "§W$[?ZZZ.total_world_gdp|2]B§!"
 
 econ_sphere_tab_total_GDP_text_number: "§W$[?total_econ_sphere_GDP|2]B§!"
@@ -1475,32 +1475,32 @@ construction_level_20: "99% Utilization"
 
 construction_laws: "Construction Spending"
 
-military_budget_cuts: "Military Austerity"
+military_budget_cuts: "군사 부문 긴축"
 military_budget_cuts_desc: "Budget cuts have forced the government to take immediate measures to stave off the worst effects. Military cuts were implemented, as it was judged that implementing cuts to the civilian sector would generate backlash. While the economic situation is stabilizing, our military will be degraded due to slower equipment production, fewer training opportunities, and minimal recruitment. Military officials have criticized the cuts, but it is necessary to ensure the situation does not worsen."
-military_budget_cuts_heavy: "Heavy Military Austerity"
+military_budget_cuts_heavy: "강한 군사 부문 긴축"
 military_budget_boost: "Military Budget Boost"
-civilian_budget_cuts: "Civilian Austerity"
+civilian_budget_cuts: "민간 부문 긴축"
 civilian_budget_cuts_desc: "Unexpected budgetary shortfalls have forced the government to make significant cuts to the civilian sector until the economy stabilizes and our budget is back on track. As a result, the remaining funds must be put towards maintaining our existing industry, and deprioritizing the building of new factories or infrastructure. While this has led to some discontent among our citizens, it is necessary to keep our economy working, and by doing this, we will hopefully ensure this crisis does not worsen."
-civilian_budget_cuts_heavy: "Heavy Civilian Austerity"
+civilian_budget_cuts_heavy: "강한 민간 부문 긴축"
 civilian_budget_boost: "Civilian Budget Boost"
 
 bankrupt_military: "Bankrupt Military"
 bankrupt_civilian: "Bankrupt Civilian Programs"
 
 ###DECISIONS###
-economy_test_category: "Economy Crisis"
-economy_test_category_desc: "holy fucking shit we can't pay our debts no more"
+economy_test_category: "경제 위기"
+economy_test_category_desc: "아 씨발, 더 이상은 빚을 못 갚는다고."
 
-economic_crisis: "Uncontrollable Debt"
-economic_crisis_desc: "so basically we're going to die"
+economic_crisis: "통제 불가능한 부채"
+economic_crisis_desc: "근본적으로 말하자면 우린 뒤진다는 말이야."
 
-econ_emergency_taxes: "Emergency Tax Hike"
+econ_emergency_taxes: "긴급 조세 인상"
 econ_emergency_taxes_desc: ""
-econ_emergency_military_austerity: "Emergency Military Austerity"
+econ_emergency_military_austerity: "긴급 군사 부문 긴축"
 econ_emergency_military_austerity_desc: ""
-econ_emergency_civilian_austerity: "Emergency Civilian Austerity"
+econ_emergency_civilian_austerity: "긴급 민간 부문 긴축"
 econ_emergency_civilian_austerity_desc: ""
-econ_use_liquid_reserves: "Use Liquid Reserves"
+econ_use_liquid_reserves: "유동준비금 사용"
 econ_use_liquid_reserves_desc: ""
 
 ### Events ###
@@ -1766,8 +1766,8 @@ TNO_ECON_NAVAL_IDEA_SPAM_18: "§YNaval§! spending"
 TNO_ECON_NAVAL_IDEA_SPAM_19: "§YNaval§! spending"
 TNO_ECON_NAVAL_IDEA_SPAM_20: "§YNaval§! spending"
 
-TNO_looming_fiscal_crisis:0 "§RLooming Fiscal Crisis§!"
-TNO_fiscal_crisis_modifier: "§ROngoing Fiscal Crisis§!"
+TNO_looming_fiscal_crisis:0 "§R다가오는 재정 위기§!"
+TNO_fiscal_crisis_modifier: "§R진행중인 전쟁 위기§!"
 combatting_fiscal_crisis:0 "§YCombatting Fiscal Crisis§!"
 TNO_deficit_effects_modifier: "§YBudget balance§! effect"
 deficit_pp_cost_modifier:0 "Deficit Effect on Political Power Modifier"
@@ -2016,7 +2016,7 @@ econ_help_2_t: "Spending Sliders"
 econ_help_3_t: "Spending Buttons"
 
 econ_help_x_d: "[GetEconHelpText]"
-econ_help_0_d: "£tt_prod_unit Production Units are your primary resource for military and civilian production. The amount you have is directly proportional with your GDP. The military production can be subdivided into workshops for easier production line management. For further information, check the £tt_prod_unit Production Units tab, which you can find to the right of the tutorial button."
-econ_help_1_d: "One of the tools at your disposal are the central bank policies. You can open the list of policies in the inflation quadrant to see your options. Hovering over the policies you can see their effect."
+econ_help_0_d: "£tt_prod_unit 생산 단위는 군사 및 민간 부문 생산에 필요한 당신의 기초적인 자원입니다. 당신이 가진 생산 단위는 자국 GDP에 정비례합니다. 군사 생산은 생산라인 관리가 용이하도록 각 작업장별로 세분화할 수 있습니다. 자세한 내용은 튜토리얼 버튼 오른쪽에 있는 £tt_prod_unit 생산 단위 탭을 참고하세요."
+econ_help_1_d: "당신이 사용할 수 있는 도구 중 하나는 중앙은행의 정책입니다. 인플레이션 항목들 안에 있는 정책 목록 탭에서 사용 가능한 세부 정책을 볼 수 있습니다. 각 정책에 커서를 올리면 그 정책의 효과를 볼 수 있습니다."
 econ_help_2_d: "The Spending sliders help fine tune your budget. The more you spend, the more effective your policies tied to those sliders are. You can further refine your budget by changing the sub-sliders, which you can reach with the small gear on the left of the slider. Keep an eye on your debt, if your debt-to-gdp ratio gets too high, you might enter a fiscal crisis, which will have drastic consequences on your nation."
 econ_help_3_d: "You can use your political power to temporarily change your income and expenses with the buttons below expenditure and revenue breakdown. These will help you refine your budget better."
