@@ -56,7 +56,7 @@ national_debt_interest_tt_long: "우리의 이자율은 현재 다음과 같은 
 
 inflation_txt: "§R인플레이션:§!"
 inflation_txt_number: "§W[?clamped_inflation_rate|3]%§!"
-inflation_tt: "우리의 매년 인플레이션은 £inflation_texticon [?clamped_inflation_rate|3-]§R%§!입니다. 인플레이션은 언제나 경제성장률을 §R하락§!시키며, §Y0§!% 아래로는 갈 수 없습니다.\n\nOur inflation is:\n  [?base_inflation_rate|3-]§R%§! base inflation rate\n  [?inflation_cycling_effect_adjusted|3-][GetRedGreenInflationCycling]%§! from the natural variation of inflation[GetInflationModifierExists][GetDeficitMonetizationEffectExists]\n\n[GetHasInflationProductivityEffects]"
+inflation_tt: "우리의 매년 인플레이션은 £inflation_texticon [?clamped_inflation_rate|3-]§R%§!입니다. 인플레이션은 언제나 경제성장률을 §R하락§!시키며, §Y0§!% 아래로는 갈 수 없습니다.\n\n우리의 인플레이션:\n  [?base_inflation_rate|3-]§R%§! base inflation rate\n  [?inflation_cycling_effect_adjusted|3-][GetRedGreenInflationCycling]%§! from the natural variation of inflation[GetInflationModifierExists][GetDeficitMonetizationEffectExists]\n\n[GetHasInflationProductivityEffects]"
 inflation_long_tt: ""
 
 inflation_modifier_info:0 "\n  [?modifier@inflation_rate_modifier|3-][GetRedGreenInflationRateModifier]%§! from country modifiers"
@@ -182,7 +182,7 @@ econ_other_spending_txt_number: "§W$[?misc_costs_true|2]B§!"
 econ_total_spending_txt: "총 지출: §W$[?total_expenditures|2]B§!"
 econ_total_spending_txt_number: "§W$[?total_expenditures|2]B§!"
 
-econ_total_spending_pie_tt: "§RTotal Expenditures:§! §W$[?total_expenditures|2]B§!\n--------------\n\n§S[?military_expenditures_percent]% Military Spending:§! §W$[?military_expenditures|2]B§!\n§w[?civilian_expenditures_percent]% Civilian Spending:§! §W$[?civilian_expenditures|2]B§!\n§O[?debt_servicing_expenditures_percent]% Debt Servicing:§! §W$[?debt_servicing_expenditures|2]B§!\n§l[?misc_expenditures_percent]% Other Costs:§! §W$[?misc_costs_true|2]B§!"
+econ_total_spending_pie_tt: "§R총 지출:§! §W$[?total_expenditures|2]B§!\n--------------\n\n§S[?military_expenditures_percent]% Military Spending:§! §W$[?military_expenditures|2]B§!\n§w[?civilian_expenditures_percent]% Civilian Spending:§! §W$[?civilian_expenditures|2]B§!\n§O[?debt_servicing_expenditures_percent]% Debt Servicing:§! §W$[?debt_servicing_expenditures|2]B§!\n§l[?misc_expenditures_percent]% Other Costs:§! §W$[?misc_costs_true|2]B§!"
 
 tax_hike_button_tt: "[!tax_hike_button_click_enabled]\nThis will increase all our taxes rates by at least 15% of their current values, granting us extra income, but impacting our growth for the next 6 months"
 tax_cut_button_tt: "[!tax_cuts_button_click_enabled]\nThis will cut all our taxes rates by at least 15% of their current values and gives us £political_power_texticon §Y20§!, reducing our income, but increasing our growth for the next 6 months"
@@ -191,18 +191,18 @@ recent_tax_button_used: "We are not under the effect of an exceptional tax chang
 econ_total_revenue_pie_tt: "§GTotal Revenue:§! §W$[?total_income|2]B§!\n--------------\n\n§B[?income_revenue_percent]% Income Tax:§! §W$[?income_tax_revenue|2]B§!\n§n[?business_revenue_percent]% Business Tax:§! §W$[?industrial_contribution|2]B§!\n§Q[?excise_revenue_percent]% Excise Revenue:§! §W$[?excise_income_true|2]B§!\n§I[?other_revenue_percent]% Other Revenue:§! §W$[?misc_income_true|2]B§!"
 
 
-econ_expenditures_title: "§RExpenditures:§! §W$[?total_expenditures|2]B§!"
-econ_revenue_title: "§GRevenue:§! §W$[?total_income|2]B§!"
+econ_expenditures_title: "§R지출:§! §W$[?total_expenditures|2]B§!"
+econ_revenue_title: "§G수입:§! §W$[?total_income|2]B§!"
 
 econ_deficit_surplus_title: "[Get_deficit_surplus_capitalized] §W$[Get_deficit_surplus_amount_b]B§!"
 econ_deficit_to_gdp_title: "§W[?deficit_to_GDP_ratio]§!§W%§! [GetRedGreenDeficit]of GDP§!"
-econ_deficit_title: "[GetRedGreenDeficit]DEFICIT:§!"
-econ_surplus_title: "§GSURPLUS:§!"
+econ_deficit_title: "[GetRedGreenDeficit]적자:§!"
+econ_surplus_title: "§G흑자:§!"
 deficit_value_number: "§W$[Get_deficit_surplus_amount_b]B§!"
 econ_deficit_surplus_description_tt:0 "[Get_deficit_surplus_desc]"
 econ_surplus_desc: "§FOur economy has an annual §GSurplus§! of §W$[Get_deficit_surplus_amount_b] Billion§!.\n\nAn economic surplus is caused if our §Yspending§! is §Gless than our revenue§!, and will lead to a §Rdecrease§! in our £gdp_growth_texticon §Wnominal GDP growth§! as long as it continues. However, we will gain extra reserves and avoid the £political_power_texticon §Ypolitical power§! cost from a §Rdeficit§!.\n\nA §Gsurplus§! can save our economy from expanding debts, but §Rharms our economic growth§!.§!"
 econ_deficit_desc: "§FOur economy has an annual §RDeficit§! of §W$[Get_deficit_surplus_amount_b] Billion§!.\n\nAn economic deficit is caused if our §Yspending§! is §Rmore than our revenue§!, and will lead to an §Gincrease§! in our £gdp_growth_texticon §Wnominal GDP growth§! as long as it continues. However, our debt will also increase by our monthly deficit every month, along with a cost in £political_power_texticon §Ypolitical power§!.\n\nA §Rdeficit§! is often superior to a §Gsurplus§!, allowing us to expand our economy §Ygreatly§! §D(Indicated by the color of the text)§!, but a §Rhigh deficit§! can also lead to §eextreme debt§!.§!"
-econ_deficit_surplus_effects_tt:0 "Our [Get_deficit_surplus] has the following effects:\n   GDP Growth: [Get_deficit_gdp_growth_effect]\n   Political Power Cost: §Y[?deficit_PP_cost_display|-]"
+econ_deficit_surplus_effects_tt:0 "Our [Get_deficit_surplus] has the following effects:\n   GDP 성장률: [Get_deficit_gdp_growth_effect]\n   정치력 비용: §Y[?deficit_PP_cost_display|-]"
 econ_deficit_GDP_growth_positive:0 "§G[?deficit_GDP_growth_effect]%§!"
 econ_deficit_GDP_growth_negative:0 "§R[?deficit_GDP_growth_effect]%§!"
 econ_deficit_GDP_growth_neutral:0 "§Y[?deficit_GDP_growth_effect]%§!"
@@ -1417,12 +1417,12 @@ econ_sphere_has_leader: ", which is led by [?ECON_SPHERE_LEADER.GetFlag] [?ECON_
 econ_sphere_info_tt: "[THIS.GETNAME] is a member of [GetSphereName], which is led by [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]."
 econ_sphere_na_info_tt: "[THIS.GETNAME] is not a member of any sphere."
 econ_sphere_button_tt_delayed: "[GetSphereButtonDelayedTooltip]"
-econ_sphere_button_tt_delayed_in_shere: "Click for more information about our economic sphere."
-econ_sphere_button_tt_delayed_no_shere: "Click for more information about the global economy."
+econ_sphere_button_tt_delayed_in_shere: "클릭하여 우리의 경제권역에 대한 더욱 자세한 정보를 볼 수 있습니다."
+econ_sphere_button_tt_delayed_no_shere: "클릭하여 세계 경제에 대한 더욱 자세한 정보를 볼 수 있습니다."
 
 econ_sphere_custom_name_text: "[GetSphereName]"
 
-econ_sphere_name_GER: "Großraum"
+econ_sphere_name_GER: "그로스라움"
 econ_sphere_name_ZV: "촐페라인"
 econ_sphere_name_JAP: "공영권"
 econ_sphere_name_ITA: "Italian Sphere"
@@ -1440,7 +1440,7 @@ econ_sphere_name_CME: "코메콘" # add scripted loc maybe eventually
 econ_sphere_leader_text: "The leader of our sphere is [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]."
 
 econ_sphere_tab_total_GDP_text: "Total §Ysphere§! GDP:"
-econ_sphere_tab_total_world_GDP_text: "Total §Yworld§! GDP:\n§YSphere§! percent global GDP:"
+econ_sphere_tab_total_world_GDP_text: "§Y세계§! 총 GDP:\n§YSphere§! percent global GDP:"
 
 econ_sphere_tab_sphereless_total_world_GDP_text: "§Y전 세계§! 총 GDP:"
 econ_sphere_tab_sphereless_total_world_GDP_text_number: "§W$[?ZZZ.total_world_gdp|2]B§!"
@@ -1638,8 +1638,8 @@ TNO_Econ_Color_Text_Yellow: "§Y"
 
 TNO_Econ_GetWarTaxesStatus: "[GetWarTaxesChange]"
 TNO_Econ_GetWarTaxesStatusBtn: "[GetWarTaxesActiveText]"
-TNO_Econ_GetWarTaxesStatusTextActive: "§RACTIVE§!"
-TNO_Econ_GetWarTaxesStatusTextInactive: "§YINACTIVE§!"
+TNO_Econ_GetWarTaxesStatusTextActive: "§R활성화§!"
+TNO_Econ_GetWarTaxesStatusTextInactive: "§Y비활성화§!"
 TNO_Econ_WarTaxesInfo_tt:0 "WAR TAXES are currently [GetWarTaxesChangeTT].\n--------------\n§LWar taxes can be enacted in times of need, when a war takes too much of a toll on the national economy, and when the costs of enacting it are deemed to be worth the economic boost.§!\n\n§FEnacting war taxes will grant:\n   Business Tax Rate: [?0.15|+=2%]\n   Income Tax rate: [?0.15|+=2%]\n\nAt the cost of the following debuffs:\n   War Support: [?-0.075|+=2%]\n   GDP Growth: [?-0.015|+=2%]\n   (Temp) §YDraft Exemptions§! policy effectiveness: [?-0.1|+=2%]\n\nIt costs £political_power_texticon §Y50§! to enact war taxes."
 #, Income Tax is currently [?income_tax_factor|%] Business Tax is currently [?business_tax_rate_total|0Y%]
 TNO_ECON_ARMY_IDEA_SPAM_0: "§YArmy§! research spending at [?army_idea_number]%"
@@ -1774,7 +1774,7 @@ deficit_pp_cost_modifier:0 "Deficit Effect on Political Power Modifier"
 
 tax_hike_dynmod: "Temporary tax hike"
 tax_cut_dynmod: "Temporary tax cut"
-econ_ledger_open_tt:0 "§F§YGovernment Expenses Ledger§!\nView how much is being spent on what sectors by our government.§!"
+econ_ledger_open_tt:0 "§F§Y정부 지출 내역§!\n정부 내에서 각 분야별로 어느 정도의 예산을 소모하는지 살펴봅니다.§!"
 # Alerts
 alerts_realGrowth_text_l: "[getEconAlertText_realGrowth]"
 alerts_realGrowth_text_inactive: "NEGATIVE REAL GROWTH"
@@ -1798,8 +1798,8 @@ alerts_deficit_tt_active: ""
 alerts_deficit_tt_active_long: ""
 
 alerts_debt_text_l: "[getEconAlertText_debt]"
-alerts_debt_text_inactive: "CRITICAL DEBT"
-alerts_debt_text_active: "§RCRITICAL DEBT§!"
+alerts_debt_text_inactive: "치명적인 부채"
+alerts_debt_text_active: "§R치명적인 부채§!"
 alerts_debt_tt_inactive: ""
 alerts_debt_tt_active: ""
 alerts_debt_tt_active_long: ""
@@ -1813,8 +1813,8 @@ alerts_reserves_tt_active_long: ""
 
 
 alerts_crisis_text_l: "[getEconAlertText_crisis]"
-alerts_crisis_text_inactive: "FISCAL CRISIS"
-alerts_crisis_text_active: "§RFISCAL CRISIS§!"
+alerts_crisis_text_inactive: "재정 위기"
+alerts_crisis_text_active: "§R재정 위기§!"
 alerts_crisis_tt_inactive: ""
 alerts_crisis_tt_active: ""
 alerts_crisis_tt_active_long: ""
@@ -2010,7 +2010,7 @@ econ_subtype_yagoda_tt:0 "종종 우리말로 "원가 계산"으로 번역되는
 econ_subtype_change_19_tt:0 "우리의 경제체제가 호즈라스초트 체제로 변경될 것입니다!"
 
 econ_help_x_t: "[GetEconHelpTitle]"
-econ_help_0_t: "£tt_prod_unit Production Units"
+econ_help_0_t: "£tt_prod_unit 생산 단위"
 econ_help_1_t: "중앙은행"
 econ_help_2_t: "Spending Sliders"
 econ_help_3_t: "Spending Buttons"
