@@ -21,9 +21,9 @@ puCalc_other_value_text: "[?production_units_modifier|+0]"
 
 ### OLD NEW GUI ###
 
-nominal_GDP_growth_txt: "§G명목 경제성장률::§!"
+nominal_GDP_growth_txt: "§G명목 경제성장률:§!"
 nominal_GDP_growth_txt_number: "§W[?GDP_growth_nominal|3]%§!"
-nominal_GDP_growth_tt: "Our nominal GDP growth rate is £gdp_growth_texticon §W[?GDP_growth_nominal|3]%§! from a base nominal growth of §W[?GDP_growth_nominal_display_tt|3]%§! and a multiplier of [?GDP_growth_multiplier|+][GetRedGreenGDPMultiplier]x§!.\n\nOur base nominal growth is §W[?GDP_growth_nominal_display_tt|3]%§!: \n  [?GDP_growth|+=][GetRedGreenBaseGDPGrowth]%§! base rate[GetGDPGrowthModifierExists][GetGDPGrowthEffectReservesExists]\n  [?deficit_GDP_growth_effect|+=][GetRedGreenSpendingEffect]%§! from our [Get_deficit_surplus]\n\nOur GDP growth rate multiplier is [?GDP_growth_multiplier|3+][GetRedGreenGDPMultiplier]x§!:\n  [?1|+=] base multiplier[GetGrowthMultiplierExists][GetGDPGrowthDebtEffectExists][GetTotalInfrastructureExists][GetDamagedInfrastructureExists][GetTaxesEffectExists][GetPopulationEffectExists][GetTradeEffectExists]"
+nominal_GDP_growth_tt: "우리의 명목 경제성장률은 £gdp_growth_texticon §W[?GDP_growth_nominal|3]%§!로, 기초 명목성장률 §W[?GDP_growth_nominal_display_tt|3]%§!에 [?GDP_growth_multiplier|+][GetRedGreenGDPMultiplier]x§! 만큼 곱하여 계산됩니다.\n\n우리의 기초 명목성장률은 §W[?GDP_growth_nominal_display_tt|3]%§! 입니다. \n  [?GDP_growth|+=][GetRedGreenBaseGDPGrowth]%§! base rate[GetGDPGrowthModifierExists][GetGDPGrowthEffectReservesExists]\n  [?deficit_GDP_growth_effect|+=][GetRedGreenSpendingEffect]%§! from our [Get_deficit_surplus]\n\nOur GDP growth rate multiplier is [?GDP_growth_multiplier|3+][GetRedGreenGDPMultiplier]x§!:\n  [?1|+=] base multiplier[GetGrowthMultiplierExists][GetGDPGrowthDebtEffectExists][GetTotalInfrastructureExists][GetDamagedInfrastructureExists][GetTaxesEffectExists][GetPopulationEffectExists][GetTradeEffectExists]"
 nominal_GDP_growth_tt_long:0 "£gdp_growth_texticon 명목 경제성장률은 인플레이션의 효과를 계산하기 전의 경제성장률입니다. 이는 국가경제성장률이며 주별 경제성장률로 간주되지 않습니다."
 
 gdp_growth_modifier_info:0 "\n  [?modifier@gdp_growth_modifier|+=3][GetRedGreenModifierGDPGrowth]%§! from country modifiers"
@@ -171,9 +171,9 @@ econ_consumer_goods_production_modifier_good: "§G[?modifier@consumer_goods_prod
 econ_consumer_goods_production_modifier_neutral: "§W[?modifier@consumer_goods_production_factor|%]§!"
 econ_consumer_goods_production_modifier_bad: "§R[?modifier@consumer_goods_production_factor|%]§!"
 
-econ_consumer_goods_per_pu_tt: "By default every one of our £tt_prod_unit §GProduction Units§! will produce §Y1 Consumer Good.§! This is further modified by [?modifier@consumer_goods_production_factor|%].§!"
+econ_consumer_goods_per_pu_tt: "기본적으로 우리의 모든 £tt_prod_unit §G생산 단위§!는 §Y1개 소비재§!를 생산합니다. This is further modified by [?modifier@consumer_goods_production_factor|%].§!"
 
-Debt_servicing_spending_txt: "§ODebt Servicing:§!"
+Debt_servicing_spending_txt: "§O부채 상환:§!"
 Debt_servicing_spending_txt_number: "§W$[?debt_servicing_expenditures|2]B§!"
 
 econ_other_spending_txt: "§l기타 비용:§!"
@@ -182,13 +182,13 @@ econ_other_spending_txt_number: "§W$[?misc_costs_true|2]B§!"
 econ_total_spending_txt: "총 지출: §W$[?total_expenditures|2]B§!"
 econ_total_spending_txt_number: "§W$[?total_expenditures|2]B§!"
 
-econ_total_spending_pie_tt: "§R총 지출:§! §W$[?total_expenditures|2]B§!\n--------------\n\n§S[?military_expenditures_percent]% Military Spending:§! §W$[?military_expenditures|2]B§!\n§w[?civilian_expenditures_percent]% Civilian Spending:§! §W$[?civilian_expenditures|2]B§!\n§O[?debt_servicing_expenditures_percent]% Debt Servicing:§! §W$[?debt_servicing_expenditures|2]B§!\n§l[?misc_expenditures_percent]% Other Costs:§! §W$[?misc_costs_true|2]B§!"
+econ_total_spending_pie_tt: "§R총 지출:§! §W$[?total_expenditures|2]B§!\n--------------\n\n§S[?military_expenditures_percent]% 군사 지출:§! §W$[?military_expenditures|2]B§!\n§w[?civilian_expenditures_percent]% 민간 지출:§! §W$[?civilian_expenditures|2]B§!\n§O[?debt_servicing_expenditures_percent]% 부채 상환:§! §W$[?debt_servicing_expenditures|2]B§!\n§l[?misc_expenditures_percent]% 기타 비용:§! §W$[?misc_costs_true|2]B§!"
 
 tax_hike_button_tt: "[!tax_hike_button_click_enabled]\nThis will increase all our taxes rates by at least 15% of their current values, granting us extra income, but impacting our growth for the next 6 months"
 tax_cut_button_tt: "[!tax_cuts_button_click_enabled]\nThis will cut all our taxes rates by at least 15% of their current values and gives us £political_power_texticon §Y20§!, reducing our income, but increasing our growth for the next 6 months"
 recent_tax_button_used: "We are not under the effect of an exceptional tax change"
 
-econ_total_revenue_pie_tt: "§GTotal Revenue:§! §W$[?total_income|2]B§!\n--------------\n\n§B[?income_revenue_percent]% Income Tax:§! §W$[?income_tax_revenue|2]B§!\n§n[?business_revenue_percent]% Business Tax:§! §W$[?industrial_contribution|2]B§!\n§Q[?excise_revenue_percent]% Excise Revenue:§! §W$[?excise_income_true|2]B§!\n§I[?other_revenue_percent]% Other Revenue:§! §W$[?misc_income_true|2]B§!"
+econ_total_revenue_pie_tt: "§G총 수입:§! §W$[?total_income|2]B§!\n--------------\n\n§B[?income_revenue_percent]% Income Tax:§! §W$[?income_tax_revenue|2]B§!\n§n[?business_revenue_percent]% Business Tax:§! §W$[?industrial_contribution|2]B§!\n§Q[?excise_revenue_percent]% Excise Revenue:§! §W$[?excise_income_true|2]B§!\n§I[?other_revenue_percent]% Other Revenue:§! §W$[?misc_income_true|2]B§!"
 
 
 econ_expenditures_title: "§R지출:§! §W$[?total_expenditures|2]B§!"
@@ -220,7 +220,7 @@ econ_excise_revenue_txt_number: "§W$[?excise_income_true|2]B§!"
 econ_excise_revenue_txt_number_tt: "§F§W[GetCurrency][?sales_tax_total_income|2]B§! dollars comes from our sales tax, taxed at [?sales_tax_display|0Y%]\n§W[GetCurrency][?tariff_tax_total_income|2]B§! dollars comes from our tariff tax, taxed at [?tariff_tax_display|0Y%]§![GetWarTaxes]"
 econ_excise_revenue_txt_number_tt_war_taxes: "\n§F§W[GetCurrency][?war_tax_total_income|2]B§! dollars comes from our war taxes§!"
 
-econ_other_revenue_txt: "§IOther Revenue:§!"
+econ_other_revenue_txt: "§I기타 수입:§!"
 econ_other_revenue_txt_number: "§W$[?misc_income_true|2]B§!"
 
 
@@ -424,13 +424,13 @@ economy_view_debt: "§S부채§!"
 economy_view_debt_to_gdp_ratio: "§S부채의 GDP 비율§!"
 economy_view_income: "§n수입§!"
 economy_view_expenditures: "§Y지출§!"
-economy_view_deficit_reserves: "§ODEFICIT & RESERVES§!"
+economy_view_deficit_reserves: "§O적자금 및 흑자금§!"
 
 econ_tab_actions_invest_into_GDP_button_tt: "Spends the amount of liquid reserves specified to increase the GDP with a 10 to 1 ratio."
 
 
-econ_tab_actions_emergency_actions_tax_increase_tt: "§F§YImmediately:§!\n  Political Power: §S-100§!\n  Gain Base Stability: §S-5.00%§!\n  Income Tax Rate: §G+2.50%§!\n  Business Tax Rate: §G+2.50%§!\n§YAfter a Year:§!\n  Income Tax Rate: §S-1.50%§!\n  Business Tax Rate: §S-1.50%§!§!"
-econ_tab_actions_emergency_actions_debase_currency_tt: "§FPolitical Power: §S-150§!\nGain Base Stability: §S-10.00%§!\nDebt: §G-16.50%§!\nInterest Rate: §S+3.00%§!§!"
+econ_tab_actions_emergency_actions_tax_increase_tt: "§F§Y즉시 발생 효과:§!\n  정치력: §S-100§!\n  기본 안정도 획득: §S-5.00%§!\n  Income Tax Rate: §G+2.50%§!\n  Business Tax Rate: §G+2.50%§!\n§Y1년 후 효과:§!\n  Income Tax Rate: §S-1.50%§!\n  Business Tax Rate: §S-1.50%§!§!"
+econ_tab_actions_emergency_actions_debase_currency_tt: "§F정치력: §S-150§!\n기본 안정도 획득: §S-10.00%§!\n부채: §G-16.50%§!\n금리: §S+3.00%§!§!"
 
 military_buttons_value: "군사 지출"
 civilian_buttons_value: "민간 지출"
@@ -439,7 +439,7 @@ construction_buttons_value: "건설"
 
 gdp_value: "총 GDP:"
 gdp_value_number: "§W$[?GDP] B§!"
-gdp_value_tt: "We expect our GDP to change by $[?GDP_growth_real_monthly_number|+] §gB this month.§!"
+gdp_value_tt: "우리는 이번 달 GDP가 $[?GDP_growth_real_monthly_number|+] §gB 로 변할 것으로 예상합니다.§!"
 
 income_rate_value: "Annual Income Rate:"
 income_rate_value_number: "§W$[?ROOT.income_rate|%]§!"
@@ -467,7 +467,7 @@ national_credit_rating_value: "§W[GetCreditRatingValue]§!"
 credit_rating_tt: "Credit rating is determined by our §Yfiscal and economic health§! and affects our §Yinterest rates§! and §Ydebt ceiling§!. Our current credit rating is[GetLockedCreditRatingOrUnlocked] [GetCreditRatingValue][GetCreditRatingUpDown][GetCreditRatingDisabled].\n\nThis gives us the following effects:[GetCreditRatingEffects][GetCreditRatingMinMax]"
 credit_rating_effect_normal: "\n  Debt Ceiling: [?debt_ceiling_from_credit_rating|%+=]\n  Interest Rates: §Y[?interest_rate_from_credit_rating]%§!\n  Effect of debt on Interest Rates: [?credit_rating_interest_rates_from_debt|%-]\n  Stability: [?stability_from_credit_rating|%+=]\n  Effect of debt on GDP growth: [?credit_rating_effect_on_debt_GDP_effect|%-=]"
 credit_rating_effect_prime: "\n  Debt Ceiling: §GUnlimited§!\n  Interest Rates: §Y[?interest_rate_from_credit_rating]%§!\n  Effect of debt on Interest Rates: [?credit_rating_interest_rates_from_debt|%-=]\n  Stability: [?stability_from_credit_rating|%+]\n  Effect of debt on GDP growth: [?credit_rating_effect_on_debt_GDP_effect|%-=]"
-credit_rating_delayed_tt: "Click to open the credit ratings information panel."
+credit_rating_delayed_tt: "클릭하여 신용 등급 정보 패널을 엽니다."
 national_credit_rating_tt: "Our credit rating is determined by a combination of our economic performance, our existing debt, and our deficit-to-GDP ratio. It affects the interest we pay on our existing debt and determines the level of debt that we may go into."
 
 credit_rating_locked_short: " locked at"
@@ -592,7 +592,7 @@ military_expenditures_value_number: "§W$[?military_expenditures] B§!"
 construction_expenditures_value: "건설 지출:"
 construction_expenditures_value_number: "C§W$[?construction_expenditures] B§!"
 
-misc_costs_value: "Other Expenditures:"
+misc_costs_value: "기타 지출:"
 misc_costs_value_number: "§W$[?misc_costs] B§!"
 
 money_reserves_value: "유동준비금:"
@@ -612,7 +612,7 @@ DeficitColorRatioYellow: "§Y"
 DeficitColorRatioOrange: "§O"
 DeficitColorRatioRed: "§R"
 
-total_expenditures_value: "Total Expenditures:"
+total_expenditures_value: "총 지출:"
 total_expenditures_value_number: "§W[GetCurrency][?total_expenditures] B§!"
 
 economy_line_break: "-------------------------------------------"
@@ -664,9 +664,9 @@ sp_other_program_cost_number: "§W[GetCurrency][?other_program_cost_modified|2] 
 sp_total_cost: "총 사업:"
 sp_total_cost_number: "§W[GetCurrency][?total_sp_costs|2] B§!"
 
-econ_revenue_header: "§MREVENUE§!"
-econ_expenditures_header: "§YEXPENDITURES§!"
-econ_social_programs_header: "§CSOCIAL PROGRAMS§!"
+econ_revenue_header: "§M수입§!"
+econ_expenditures_header: "§Y지출§!"
+econ_social_programs_header: "§C사회 복지§!"
 
 econ_income_rate_txt: "Avg. Income Tax Rate:"
 econ_income_rate_txt_number: "§W[?income_tax_factor|%]§!"
@@ -677,7 +677,7 @@ econ_business_rate_txt_number: "§W[?business_tax_display]%§!"
 
 econ_poverty_rate: "빈곤률:"
 econ_poverty_rate_number: "§W[?poverty_rate|2]%§!"
-econ_poverty_rate_effect_tt: "§FCurrent §OPoverty§! effects:\nStability: [?poverty_rate_stability_effect|%=+]\nWar Support: [?poverty_rate_war_support_effect|%=+]\nRecruitable Population: [?poverty_rate_conscription_effect|%=+]\nMonthly Population: [?poverty_rate_monthly_pop_effect|%=+]\nResearch Speed: [?poverty_rate_research_effect|%=+]\nConsumer Goods Consumption: [?poverty_consumer_goods_effect|%=-]\nAcademic Base Monthly Change: [?poverty_academic_admin_socdev_effect|+=]\nAdministrative Efficiency Monthly Change: [?poverty_academic_admin_socdev_effect|+=]\nAgricultural Methods Monthly Change: [?poverty_agriculture_industrial_socdev_effect|=+]\nIndustrial Expertise Monthly Change: [?poverty_agriculture_industrial_socdev_effect|=+]\nPersonnel Cost Modifier: [?poverty_manpower_cost_effect|-=%]"
+econ_poverty_rate_effect_tt: "§F현재 §O빈곤률§! 효과:\n안정도: [?poverty_rate_stability_effect|%=+]\nWar Support: [?poverty_rate_war_support_effect|%=+]\nRecruitable Population: [?poverty_rate_conscription_effect|%=+]\nMonthly Population: [?poverty_rate_monthly_pop_effect|%=+]\nResearch Speed: [?poverty_rate_research_effect|%=+]\nConsumer Goods Consumption: [?poverty_consumer_goods_effect|%=-]\nAcademic Base Monthly Change: [?poverty_academic_admin_socdev_effect|+=]\nAdministrative Efficiency Monthly Change: [?poverty_academic_admin_socdev_effect|+=]\nAgricultural Methods Monthly Change: [?poverty_agriculture_industrial_socdev_effect|=+]\nIndustrial Expertise Monthly Change: [?poverty_agriculture_industrial_socdev_effect|=+]\nPersonnel Cost Modifier: [?poverty_manpower_cost_effect|-=%]"
 
 econ_poverty_rate_change: "빈곤률 변화:"
 econ_poverty_rate_change_number: "[econ_poverty_rate_display]"
