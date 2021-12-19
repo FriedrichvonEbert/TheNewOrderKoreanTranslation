@@ -56,19 +56,19 @@ has_access_to_seazone_indian_ocean_tt:0 "Has the ability to project power on the
 
 ## Scoring Categories
 # Military
-TNO_Cold_War_GUI_Rankings_Military_Categories: "ARMY SIZE:\nNAVY SIZE:\n\nARMY PROF.:\nNUKE STOCKPILE:"
+TNO_Cold_War_GUI_Rankings_Military_Categories: "육군 크기:\n해군 크기:\n\nARMY PROF.:\n핵 미축량:"
 TNO_Cold_War_GUI_Rankings_Military_Points: "§W[?Cold_War_GUI_Selected_Superpower.Score_Military^1]\n[?Cold_War_GUI_Selected_Superpower.Score_Military^3]\n\n[?Cold_War_GUI_Selected_Superpower.Score_Military^4]\n[?Cold_War_GUI_Selected_Superpower.Score_Military^5]§!"
 
 # Economy
 TNO_Cold_War_GUI_Rankings_Economy_Categories: "GDP/CAPITA:\n국가 부채:\n빈곤률:"
 TNO_Cold_War_GUI_Rankings_Economy_Points: "§W[?Cold_War_GUI_Selected_Superpower.Score_Economy^1]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^2]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^3]§!"
-TNO_Cold_War_GUI_Rankings_Economy_Categories2: "STABILITY:\nTECHNOLOGY:\nSOCDEV:"
+TNO_Cold_War_GUI_Rankings_Economy_Categories2: "안정도:\n기술력:\n사회 발전:"
 TNO_Cold_War_GUI_Rankings_Economy_Points2: "§W[?Cold_War_GUI_Selected_Superpower.Score_Economy^4]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^5]\n[?Cold_War_GUI_Selected_Superpower.Score_Economy^6]§!"
 
 # Faction
 TNO_Cold_War_GUI_Rankings_Diplomacy_Categories: "SIZE:\nIND. NATIONS:\nOBSERVERS:\n\nPOWER PROJ.:"
 TNO_Cold_War_GUI_Rankings_Diplomacy_Points: "§W[?Cold_War_GUI_Selected_Superpower.faction_members] Memb.\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^2]\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^6]\n\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^7]§!"
-TNO_Cold_War_GUI_Rankings_Diplomacy_Categories2: "TOTAL MIL. SCORE:\nTOTAL ECO. SCORE:\n\nSPHERE SIZE:\nSPHERE POWER:"
+TNO_Cold_War_GUI_Rankings_Diplomacy_Categories2: "총 군사 점수:\n총 경제 점수:\n\nSPHERE SIZE:\nSPHERE POWER:"
 TNO_Cold_War_GUI_Rankings_Diplomacy_Points2: "§W[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^3]\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^4]\n\n[?Cold_War_GUI_Selected_Superpower.econ_sphere_members^num] Memb.\n[?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^5]§!"
 
 ## Victories/Achievements
@@ -121,7 +121,7 @@ TNO_Cold_War_GUI_Rankings_Total_Score_Victories: "§R총 점수:§! [?Cold_War_G
 TNO_Cold_War_GUI_Victories_Gridbox_DBG_tt: "§Y디버그 - ADD/REMOVE LOGS§!\n§YLeft click§!: add one log\n§YRight click§!: clear arrays"
 TNO_Cold_War_GUI_Victories_Sample_DBG_tt: "§Y디버그 - SET EXAMPLE LOGS§!"
 
-TNO_Cold_War_GUI_World_Tension_PB_tt: "The §YWorld Tension§! currently sits at §Y[?global.TNO_World_Tension]%§!."
+TNO_Cold_War_GUI_World_Tension_PB_tt: "§Y세계 긴장도§!는 현재 §Y[?global.TNO_World_Tension]%§!인 상태입니다."
 TNO_Cold_War_GUI_World_Tension_PB_tt_delayed: "The §YWorld Tension§! is a quantitative measurement of the §Vgeneral state of conflict and instability in the world§!. §xWars, instability, political changes, economic crashes and revolutions§! increase the value; §Gpeace agreements and other such indicators of success and prosperity§! lower it. If this value ever reaches §Y100%§!, §othen the world has been plunged into conflict of a sort unheard of since the dawn of the New Order§!, and it may be a matter of time before everything we once knew and held dear is §eset ablaze, leading down a path the end of which no mortal being is cognisant§!."
 
 TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Background_tt: "§Y[THIS.GetNameWithFlag]§! currently holds the §Y[Cold_War_GUI_GetScoreRanking_Sufix]§! spot in the Cold War rankings."
