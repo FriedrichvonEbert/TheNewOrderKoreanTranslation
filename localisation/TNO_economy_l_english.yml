@@ -207,7 +207,7 @@ econ_deficit_GDP_growth_positive:0 "§G[?deficit_GDP_growth_effect]%§!"
 econ_deficit_GDP_growth_negative:0 "§R[?deficit_GDP_growth_effect]%§!"
 econ_deficit_GDP_growth_neutral:0 "§Y[?deficit_GDP_growth_effect]%§!"
 
-econ_income_revenue_txt: "§BIncome Tax:§!"
+econ_income_revenue_txt: "§B소득세:§!"
 econ_income_revenue_txt_number: "§W$[?income_tax_revenue|2]B§!"
 econ_income_revenue_txt_number_tt: "§F§W[GetCurrency][?non_poor_income_tax_revenue|2]B§! dollars comes from our workers above the poverty line, taxed at [?income_tax_factor|2Y%]\n§W[GetCurrency][?poor_income_tax_revenue|2]B§! dollars comes from our workers below the poverty line, taxed at an effective rate of [?poverty_income_tax_factor|2Y%]§!"
 
@@ -215,7 +215,7 @@ econ_business_revenue_txt: "§nBusiness Tax:§!"
 econ_business_revenue_txt_number: "§W$[?industrial_contribution|2]B§!"
 econ_business_revenue_txt_number_tt: "§F§W[GetCurrency][?industrial_contribution|2]B§! dollars comes from our consumer goods production, taxed at [?business_tax_rate_total|0Y%]§!"
 
-econ_excise_revenue_txt: "§QExcise Revenue:§!"
+econ_excise_revenue_txt: "§Q소비세 수입:§!"
 econ_excise_revenue_txt_number: "§W$[?excise_income_true|2]B§!"
 econ_excise_revenue_txt_number_tt: "§F§W[GetCurrency][?sales_tax_total_income|2]B§! dollars comes from our sales tax, taxed at [?sales_tax_display|0Y%]\n§W[GetCurrency][?tariff_tax_total_income|2]B§! dollars comes from our tariff tax, taxed at [?tariff_tax_display|0Y%]§![GetWarTaxes]"
 econ_excise_revenue_txt_number_tt_war_taxes: "\n§F§W[GetCurrency][?war_tax_total_income|2]B§! dollars comes from our war taxes§!"
@@ -225,7 +225,7 @@ econ_other_revenue_txt_number: "§W$[?misc_income_true|2]B§!"
 
 
 econ_gdp_title: "§GGDP:§! §W[GetCurrency][?GDP|2]B§!"
-econ_debt_to_gdp_title: "§RDEBT-TO-GDP:§! §W[?debt_to_GDP_ratio|1%]§!"
+econ_debt_to_gdp_title: "§RGDP대 부채 비율:§! §W[?debt_to_GDP_ratio|1%]§!"
 
 
 econ_tab_actions_emergency_actions_civ_aust_tt: "[!civ_austerity_button_click_enabled]\n[!civ_austerity_button_click]"
@@ -429,7 +429,7 @@ economy_view_deficit_reserves: "§O적자금 및 흑자금§!"
 econ_tab_actions_invest_into_GDP_button_tt: "Spends the amount of liquid reserves specified to increase the GDP with a 10 to 1 ratio."
 
 
-econ_tab_actions_emergency_actions_tax_increase_tt: "§F§Y즉시 발생 효과:§!\n  정치력: §S-100§!\n  기본 안정도 획득: §S-5.00%§!\n  Income Tax Rate: §G+2.50%§!\n  Business Tax Rate: §G+2.50%§!\n§Y1년 후 효과:§!\n  Income Tax Rate: §S-1.50%§!\n  Business Tax Rate: §S-1.50%§!§!"
+econ_tab_actions_emergency_actions_tax_increase_tt: "§F§Y즉시 발생 효과:§!\n  정치력: §S-100§!\n  기본 안정도 획득: §S-5.00%§!\n  소득세율: §G+2.50%§!\n  Business Tax Rate: §G+2.50%§!\n§Y1년 후 효과:§!\n  소득세율: §S-1.50%§!\n  Business Tax Rate: §S-1.50%§!§!"
 econ_tab_actions_emergency_actions_debase_currency_tt: "§F정치력: §S-150§!\n기본 안정도 획득: §S-10.00%§!\n부채: §G-16.50%§!\n금리: §S+3.00%§!§!"
 
 military_buttons_value: "군사 지출"
@@ -668,9 +668,9 @@ econ_revenue_header: "§M수입§!"
 econ_expenditures_header: "§Y지출§!"
 econ_social_programs_header: "§C사회 복지§!"
 
-econ_income_rate_txt: "Avg. Income Tax Rate:"
+econ_income_rate_txt: "평균 소득세율:"
 econ_income_rate_txt_number: "§W[?income_tax_factor|%]§!"
-econ_income_rate_txt_number_tt: "Base Rate: [?income_tax_rate|+%]\n§wIncome Taxation§! §Fpolicy factor:§! [?tno_income_taxation_poverty_taxation_rate|+%]"
+econ_income_rate_txt_number_tt: "기본 세율: [?income_tax_rate|+%]\n§wIncome Taxation§! §Fpolicy factor:§! [?tno_income_taxation_poverty_taxation_rate|+%]"
 
 econ_business_rate_txt: "Avg. Business Tax Rate:"
 econ_business_rate_txt_number: "§W[?business_tax_display]%§!"
@@ -774,7 +774,7 @@ production_unit_square_amount: "[?amount]"
 econ_prod_tab_type_tt: "[GetProdTabTooltip]"
 econ_cosnumer_factories_production_tt: ""
 econ_military_factories_production_tt: ""
-econ_cosnumer_goods_production_tt: "§dBase production: §Y[?PU_base_consumer_goods_produced]§!\nOur Consumer Goods Production Modifier: [?modifier@consumer_goods_production_factor|%+]\nReal Produced Consumer Goods: §Y[?consumer_goods_monthly_use]§!"
+econ_cosnumer_goods_production_tt: "§d기본 생산: §Y[?PU_base_consumer_goods_produced]§!\n우리의 소비재 생산 요인: [?modifier@consumer_goods_production_factor|%+]\n실제 생산되는 소비재: §Y[?consumer_goods_monthly_use]§!"
 
 production_units_allocation_tt: "Based on the §YGDP§! of our states and our §Ytrade balance§!, our nation has [?production_units] £tt_prod_unit §GProduction Units§! available\n\nWe need §W[GetCurrency][Get_missing_gdp_for_pu]B§! §YGDP§! to gain 1 more £tt_prod_unit §GProduction Units§!.\n\nWe are limited to using [?resource@power] of these units due to our £tt_power §YGrid Power§!"
 production_units_allocation_power_tt: "Our nation is currently producing [?resource@power] £tt_power §YGrid Power§!"
@@ -813,7 +813,7 @@ mils_mult_num: "X [?mils_mult]"
 mils_mult_tt: "§F£tt_prod_unit §GProduction Units§! assigned to £tt_mil_factory §Gmilitary production§! can be divided into multiple less efficient £tt_mil_workshop §Oworkshops§!, in order to more easily balance our production lines.\n\nSuch action will §Gdouble§! (§Y[?2]x§!) the number of our military factories but §Rdecrease the output§! by §R50.00%§!.§!"
 
 ## TRADE MENU
-trade_stockpile: "STOCKPILE"
+trade_stockpile: "비축고"
 trade_stockpile_tt: "We have §Y[?TNO_stockpile^resource_type]§! units of §Y[Get_resource_name]§! stockpiled for use. This changed by [GetTradeStockpileChange] units from last week based on out total resources. We have a maximum stockpile size of §W9999§!. We can choose to import more resources to increase our stockpile in case of war."
 trade_stockpile_tt_explanation: "We can choose to import more resources to increase our stockpile in case of war."
 trade_stockpile_long_tt: "§B[Get_resource_desc]§!"
@@ -1272,10 +1272,10 @@ increase_civilian_budget_tt_delayed: "[!increase_civilian_budget_click]"
 increase_civilian_budget_tt: "increase Civilian Budget:\nTemporarily increases the civilian budget by §Y15%§! for §Y120 days§!, with corresponding penalties."
 increase_civilian_budget_tt_delayed: "[!increase_civilian_budget_click]"
 
-dump_liquid_reserves_tt: "Use all your liquid reserves to pay off national debt."
+dump_liquid_reserves_tt: "모든 유동준비금을 국가 부채 상환에 사용합니다."
 dump_liquid_reserves_tt_delayed: "[!dump_liquid_reserves_click]"
 
-invest_liquid_reserves_tt: "Invest your liquid reserves to increase GDP."
+invest_liquid_reserves_tt: "유동준비금을 GDP 성장에 투자합니다."
 invest_liquid_reserves_tt_delayed: "[!invest_liquid_reserves_click]"
 
 econ_invest_money_tt: "Your liquid reserves will be converted to GDP at a rate of §Y50%§!."
@@ -1315,7 +1315,7 @@ TNO_admin_funding_dynamic_modifier: "§YAdministrative§! Funding"
 
 TNO_consumer_goods_production_dynamic_modifier: "소비재 생산"
 TNO_market_dynamic_modifier: "시장"
-TNO_stockpile_dynamic_modifier: "Stockpile"
+TNO_stockpile_dynamic_modifier: "비축고"
 
 state_GDP_contribution_to_total_state_GDP_modifier: "Available state GDP"
 
@@ -1412,10 +1412,10 @@ econ_join_sphere_CME_tt: "§Y[THIS.GetName]§! joins the [?CME.GetFlag]§YCounci
 
 econ_leave_sphere_tt: "§Y[THIS.GetName]§! leaves current economic sphere."
 
-econ_sphere_button_tt: "We are a member of [GetSphereName][GetSphereLeaderTooltip]."
+econ_sphere_button_tt: "우리는 [GetSphereName][GetSphereLeaderTooltip]의 회원국입니다."
 econ_sphere_has_leader: ", which is led by [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]"
 econ_sphere_info_tt: "[THIS.GETNAME] is a member of [GetSphereName], which is led by [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]."
-econ_sphere_na_info_tt: "[THIS.GETNAME] is not a member of any sphere."
+econ_sphere_na_info_tt: "[THIS.GETNAME]는 어느 경제권에도 속해 있지 않습니다."
 econ_sphere_button_tt_delayed: "[GetSphereButtonDelayedTooltip]"
 econ_sphere_button_tt_delayed_in_shere: "클릭하여 우리의 경제권역에 대한 더욱 자세한 정보를 볼 수 있습니다."
 econ_sphere_button_tt_delayed_no_shere: "클릭하여 세계 경제에 대한 더욱 자세한 정보를 볼 수 있습니다."
@@ -1425,21 +1425,21 @@ econ_sphere_custom_name_text: "[GetSphereName]"
 econ_sphere_name_GER: "그로스라움"
 econ_sphere_name_ZV: "촐페라인"
 econ_sphere_name_JAP: "공영권"
-econ_sphere_name_ITA: "Italian Sphere"
-econ_sphere_name_IBR: "Iberian Sphere"
-econ_sphere_name_USA: "American Sphere"
-econ_sphere_name_ARG: "Argentinian Sphere"
-econ_sphere_name_BRA: "Brazilian Sphere"
-econ_sphere_name_MEX: "Mexican Sphere"
-econ_sphere_name_WOL: "West African Zone"
-econ_sphere_name_FFR: "French Community"
+econ_sphere_name_ITA: "이탈리아 경제권"
+econ_sphere_name_IBR: "이베리아 경제권"
+econ_sphere_name_USA: "미국 경제권"
+econ_sphere_name_ARG: "아르헨티나 경제권"
+econ_sphere_name_BRA: "브라질 경제권"
+econ_sphere_name_MEX: "멕시코 경제권"
+econ_sphere_name_WOL: "서아프리카 지역"
+econ_sphere_name_FFR: "프랑스어 공동체"
 econ_sphere_name_CAO: "PACMEA"
-econ_sphere_name_ADN: "Andean Pact" # add scripted loc maybe eventually
+econ_sphere_name_ADN: "안데스 조약" # add scripted loc maybe eventually
 econ_sphere_name_CME: "코메콘" # add scripted loc maybe eventually
 
-econ_sphere_leader_text: "The leader of our sphere is [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]."
+econ_sphere_leader_text: "우리 경제권의 주도국은 [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName] 입니다."
 
-econ_sphere_tab_total_GDP_text: "Total §Ysphere§! GDP:"
+econ_sphere_tab_total_GDP_text: "§Y경제권§! 총 GDP:"
 econ_sphere_tab_total_world_GDP_text: "§Y세계§! 총 GDP:\n§YSphere§! percent global GDP:"
 
 econ_sphere_tab_sphereless_total_world_GDP_text: "§Y전 세계§! 총 GDP:"
@@ -1640,7 +1640,7 @@ TNO_Econ_GetWarTaxesStatus: "[GetWarTaxesChange]"
 TNO_Econ_GetWarTaxesStatusBtn: "[GetWarTaxesActiveText]"
 TNO_Econ_GetWarTaxesStatusTextActive: "§R활성화§!"
 TNO_Econ_GetWarTaxesStatusTextInactive: "§Y비활성화§!"
-TNO_Econ_WarTaxesInfo_tt:0 "WAR TAXES are currently [GetWarTaxesChangeTT].\n--------------\n§LWar taxes can be enacted in times of need, when a war takes too much of a toll on the national economy, and when the costs of enacting it are deemed to be worth the economic boost.§!\n\n§FEnacting war taxes will grant:\n   Business Tax Rate: [?0.15|+=2%]\n   Income Tax rate: [?0.15|+=2%]\n\nAt the cost of the following debuffs:\n   War Support: [?-0.075|+=2%]\n   GDP Growth: [?-0.015|+=2%]\n   (Temp) §YDraft Exemptions§! policy effectiveness: [?-0.1|+=2%]\n\nIt costs £political_power_texticon §Y50§! to enact war taxes."
+TNO_Econ_WarTaxesInfo_tt:0 "전시 세금은 현재 [GetWarTaxesChangeTT].\n--------------\n§LWar taxes can be enacted in times of need, when a war takes too much of a toll on the national economy, and when the costs of enacting it are deemed to be worth the economic boost.§!\n\n§FEnacting war taxes will grant:\n   Business Tax Rate: [?0.15|+=2%]\n   Income Tax rate: [?0.15|+=2%]\n\nAt the cost of the following debuffs:\n   War Support: [?-0.075|+=2%]\n   GDP Growth: [?-0.015|+=2%]\n   (Temp) §YDraft Exemptions§! policy effectiveness: [?-0.1|+=2%]\n\nIt costs £political_power_texticon §Y50§! to enact war taxes."
 #, Income Tax is currently [?income_tax_factor|%] Business Tax is currently [?business_tax_rate_total|0Y%]
 TNO_ECON_ARMY_IDEA_SPAM_0: "§YArmy§! research spending at [?army_idea_number]%"
 TNO_ECON_ARMY_IDEA_SPAM_1: "§YArmy§! research spending at [?army_idea_number]%"
@@ -1784,15 +1784,15 @@ alerts_realGrowth_tt_active: "Our real GDP growth is currently §Rnegative§!, w
 alerts_realGrowth_tt_active_long: "When inflation exceeds the GDP growth rate, §Yreal GDP§! decreases, as overall prices rise faster than the economy is growing."
 
 alerts_inflation_text_l: "[getEconAlertText_inflation]"
-alerts_inflation_text_inactive: "INFLATION CRITICAL"
-alerts_inflation_text_active: "§RINFLATION CRITICAL§!"
+alerts_inflation_text_inactive: "치명적인 인플레이션"
+alerts_inflation_text_active: "§R치명적인 인플레이션§!"
 alerts_inflation_tt_inactive: "Our £inflation_texticon §RInflation§! rate is currently under control."
 alerts_inflation_tt_active: "Our £inflation_texticon §RInflation§! is currently §Yvery high§!. This can result in §Rnegative§! real GDP growth which shrinks our economy.\n\nIt also adversely effects factory output, construction speed and consumer goods production.\n\nTo counter inflation, consider adjusting central bank policy or reducing money creation."
 alerts_inflation_tt_active_long: "Inflation occurs when general price levels rise. It generally occurs when §Ymoney creation§! exceeds a nation's general growth rate. High inflation can lead to §Rdistorted§! and §Rinefficient§! economies. "
 
 alerts_deficit_text_l: "[getEconAlertText_deficit]"
-alerts_deficit_text_inactive: "EXTREMELY HIGH DEFICIT"
-alerts_deficit_text_active: "§REXTREMELY HIGH DEFICIT§!"
+alerts_deficit_text_inactive: "극도로 높은 적자액"
+alerts_deficit_text_active: "§R극도로 높은 적자액§!"
 alerts_deficit_tt_inactive: ""
 alerts_deficit_tt_active: ""
 alerts_deficit_tt_active_long: ""
@@ -1828,7 +1828,7 @@ Central_Bank_Policy_0:0 "Fresh off the Presses"
 Central_Bank_Policy_0_tt:0 "§F명목 GDP 성장률이 §G1%§! 증가합니다.\n\nThis policy is at [?central_bank_effectiveness_0|%Y0] effectiveness, increasing growth by [?central_bank_growth_display|2%G]. It will improve over time reaching its best effects §W5§! months after it was enacted.§!"
 Central_Bank_Policy_1:0 "Count our Pennies"
 Central_Bank_Policy_1_tt:0 "§F§G20%§! reduction of Base Inflation Rate, up to a §W3%§! total reduction.\n\nThis policy is at [?central_bank_effectiveness_1|%Y0] effectiveness, reducing inflation by §G[?suppresed_inflation]%§!. It will improve over time reaching its best effects §W10§! months after it was enacted.§!"
-Central_Bank_Policy_2:0 "Fight Poverty" #consider rename
+Central_Bank_Policy_2:0 "빈곤과의 전쟁" #consider rename
 Central_Bank_Policy_2_tt:0 "§F§G0.01%§! monthly reduction of the national Poverty Rate, at the cost of §R0.5%§! decrease on nominal GDP Growth.\n\nThis policy is at [?central_bank_effectiveness_2|%Y0] effectiveness, decreasing poverty by §G[?central_bank_poverty_monthly_rate|3]%§! per month, and costing §R[?central_bank_effectiveness_2_gdp_cost_display|2]%§! GDP growth. It will improve over time reaching its best effects §W10§! months after it was enacted.§!"
 Central_Bank_Policy_3:0 "Power Things Up"
 Central_Bank_Policy_3_tt:0 "§F§G5.0%§! increase of our total £tt_power §YGrid Power§!, at the cost of §R0.5%§! decrease on nominal GDP Growth.\n\nThis policy is at [?central_bank_effectiveness_3|%Y0] effectiveness, producing [?central_bank_power_display|%G0] extra £tt_power §YGrid Power§! (£tt_power §Y[?central_bank_power]§!), and costing §R[?central_bank_effectiveness_3_gdp_cost_display|2]%§! GDP growth. It will improve over time reaching its best effects §W10§! months after it was enacted.§!"
@@ -2012,11 +2012,11 @@ econ_subtype_change_19_tt:0 "우리의 경제체제가 호즈라스초트 체제
 econ_help_x_t: "[GetEconHelpTitle]"
 econ_help_0_t: "£tt_prod_unit 생산 단위"
 econ_help_1_t: "중앙은행"
-econ_help_2_t: "Spending Sliders"
-econ_help_3_t: "Spending Buttons"
+econ_help_2_t: "지출 슬라이더"
+econ_help_3_t: "지출 버튼"
 
 econ_help_x_d: "[GetEconHelpText]"
 econ_help_0_d: "£tt_prod_unit 생산 단위는 군사 및 민간 부문 생산에 필요한 당신의 기초적인 자원입니다. 당신이 가진 생산 단위는 자국 GDP에 정비례합니다. 군사 생산은 생산라인 관리가 용이하도록 각 작업장별로 세분화할 수 있습니다. 자세한 내용은 튜토리얼 버튼 오른쪽에 있는 £tt_prod_unit 생산 단위 탭을 참고하세요."
 econ_help_1_d: "당신이 사용할 수 있는 도구 중 하나는 중앙은행의 정책입니다. 인플레이션 항목들 안에 있는 정책 목록 탭에서 사용 가능한 세부 정책을 볼 수 있습니다. 각 정책에 커서를 올리면 그 정책의 효과를 볼 수 있습니다."
-econ_help_2_d: "The Spending sliders help fine tune your budget. The more you spend, the more effective your policies tied to those sliders are. You can further refine your budget by changing the sub-sliders, which you can reach with the small gear on the left of the slider. Keep an eye on your debt, if your debt-to-gdp ratio gets too high, you might enter a fiscal crisis, which will have drastic consequences on your nation."
+econ_help_2_d: "지출 슬라이더는 당신의 예산을 세밀하게 조절하는 데 쓸 수 있습니다. The more you spend, the more effective your policies tied to those sliders are. You can further refine your budget by changing the sub-sliders, which you can reach with the small gear on the left of the slider. Keep an eye on your debt, if your debt-to-gdp ratio gets too high, you might enter a fiscal crisis, which will have drastic consequences on your nation."
 econ_help_3_d: "You can use your political power to temporarily change your income and expenses with the buttons below expenditure and revenue breakdown. These will help you refine your budget better."
