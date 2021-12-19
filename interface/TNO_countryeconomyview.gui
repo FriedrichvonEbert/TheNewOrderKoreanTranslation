@@ -258,7 +258,7 @@ guiTypes = {
 						maxWidth = 173
 						font = "Bomb_24"
 						format = center
-						text = "Macro"
+						text = "개괄"
 					}
 
 					#instantTextBoxType = { 
@@ -267,7 +267,7 @@ guiTypes = {
 					#	maxWidth = 173
 					#	font = "Bomb_24"
 					#	format = center
-					#	text = "Social"
+					#	text = "사회"
 					#}
 
 					instantTextBoxType = {
@@ -276,7 +276,7 @@ guiTypes = {
 						maxWidth = 173
 						font = "Bomb_24"
 						format = center
-						text = "Trade"
+						text = "무역"
 					}
 				## Text ##
 
@@ -300,7 +300,7 @@ guiTypes = {
 						maxWidth = 173
 						font = "Bomb_24"
 						format = center
-						text = "Macro"
+						text = "개괄"
 					}
 
 					#instantTextBoxType = {
@@ -309,7 +309,7 @@ guiTypes = {
 					#	maxWidth = 173
 					#	font = "Bomb_24"
 					#	format = center
-					#	text = "Social"
+					#	text = "사회"
 					#}
 
 					instantTextBoxType = {
@@ -318,7 +318,7 @@ guiTypes = {
 						maxWidth = 173
 						font = "Bomb_24"
 						format = center
-						text = "Trade"
+						text = "무역"
 					}
 				## Text ##
 			### Active ###
@@ -558,7 +558,7 @@ guiTypes = {
 					name = "credit_rating_title"
 					position = { x = 0 y = 4 }
 					font = "Bomb_16"
-					text = "Credit Rating"
+					text = "신용 등급"
 					maxWidth = 125
 					maxHeight = 20
 					format = center
@@ -679,7 +679,7 @@ guiTypes = {
 
 				format = center 
 				font = "aldrich_30_outline"
-				text = "HELP" 
+				text = "도움말" 
 			}
 		}
 
@@ -744,7 +744,7 @@ guiTypes = {
 				alwaystransparent = yes
 				position = { x = 0 y = 12 }
 				font = "aldrich_30_outline"
-				text = "CREDIT RATINGS"
+				text = "신용 등급"
 				maxWidth = 320
 				format = center
 			}
@@ -934,7 +934,7 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x = 0 y = 346 }
 			font = "aldrich_30_outline"
-			text = "TOP 10 ECONOMIES"
+			text = "경제력 상위 10개국"
 			maxWidth = 330
 			format = center
 		}
@@ -1038,7 +1038,7 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x = 0 y = 46 }
 			font = "aldrich_30_outline"
-			text = "TOP 10 ECONOMIES"
+			text = "경제력 상위 10개국"
 			maxWidth = 330
 			format = center
 		}
@@ -2311,7 +2311,7 @@ guiTypes = {
 							name = "reserves_title"
 							position = { x = 3 y = 3 }
 							font = "aldrich_24_outline"
-							text = "RESERVES:"
+							text = "준비금:"
 							maxheight = 24
 							maxWidth = 254
 							format = left
@@ -2393,7 +2393,7 @@ guiTypes = {
 								position = { x = 0 y = 27 }
 								size = { x = 123 y = 26 }
 								buttonFont = "aldrich_20_outline"
-								text = "Pay Debt"
+								text = "부채 상환"
 							}
 
 							buttonType = {
@@ -2403,7 +2403,7 @@ guiTypes = {
 								position = { x = 126 y = 27 }
 								size = { x = 123 y = 26 }
 								buttonFont = "aldrich_20_outline"
-								text = "Invest"
+								text = "투자"
 								#pdx_tooltip = invest_into_GDP_button_tt
 							}
 
@@ -2412,7 +2412,7 @@ guiTypes = {
 								name = "autopayment"
 								position = { x = 86 y = 57 }
 								font = "aldrich_18_outline"
-								text = "Auto Payment"
+								text = "자동 상환"
 								format = left
 								maxheight = 18
 								pdx_tooltip = autopay_explanation_tt
@@ -2497,7 +2497,7 @@ guiTypes = {
 						name = "alerts_title"
 						position = { x = 0 y = 3 }
 						font = "Bomb_24"
-						text = "Economic Warning Signs"
+						text = "경제 위험 신호"
 						maxWidth = 274
 						maxHeight = 20
 						format = center
@@ -5883,7 +5883,7 @@ guiTypes = {
 					alwaystransparent = yes
 					position = { x = 0 y = 5 }
 					font = "aldrich_18_outline"
-					text = "Production Units"
+					text = "생산 단위"
 					maxWidth = 150
 					format = center
 				}
@@ -5917,7 +5917,7 @@ guiTypes = {
 					alwaystransparent = yes
 					position = { x = 151 y = 5 }
 					font = "aldrich_18_outline"
-					text = "Grid Power"
+					text = "전력"
 					maxWidth = 100
 					format = center
 				}
@@ -6034,7 +6034,7 @@ guiTypes = {
 					alwaystransparent = yes
 					position = { x = 0 y = 5 }
 					font = "aldrich_18_outline"
-					text = "Production Units"
+					text = "생산 단위"
 					maxWidth = 150
 					format = center
 				}
@@ -6068,7 +6068,7 @@ guiTypes = {
 					alwaystransparent = yes
 					position = { x = 151 y = 5 }
 					font = "aldrich_18_outline"
-					text = "Grid Power"
+					text = "전력"
 					maxWidth = 100
 					format = center
 				}
@@ -6284,7 +6284,7 @@ guiTypes = {
 					alwaystransparent = yes
 					position = { x = 0 y = 5 }
 					font = "aldrich_18_outline"
-					text = "Production Units"
+					text = "생산 단위"
 					maxWidth = 150
 					format = center
 				}
@@ -6318,7 +6318,7 @@ guiTypes = {
 					alwaystransparent = yes
 					position = { x = 151 y = 5 }
 					font = "aldrich_18_outline"
-					text = "Grid Power"
+					text = "전력"
 					maxWidth = 100
 					format = center
 				}
@@ -6409,7 +6409,7 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x = 0 y = 5 }
 			font = "aldrich_18_outline"
-			text = "Produced"
+			text = "생산됨"
 			maxWidth = 78
 			format = right
 		}
@@ -6418,7 +6418,7 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x = 0 y = 23 }
 			font = "aldrich_18_outline"
-			text = "Imported"
+			text = "수입됨"
 			maxWidth = 78
 			format = right
 		}
@@ -6427,7 +6427,7 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x = 0 y = 41 }
 			font = "aldrich_18_outline"
-			text = "Exported"
+			text = "수출됨"
 			maxWidth = 78
 			format = right
 		}
@@ -6436,7 +6436,7 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x = 0 y = 59 }
 			font = "aldrich_18_outline"
-			text = "Consumed"
+			text = "소비됨"
 			maxWidth = 78
 			format = right
 		}
@@ -6445,7 +6445,7 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x = 0 y = 78 }
 			font = "aldrich_18_outline"
-			text = "Total"
+			text = "총 합"
 			maxWidth = 78
 			format = right
 		}
@@ -6516,7 +6516,7 @@ guiTypes = {
 				alwaystransparent = yes
 				position = { x = 6 y = 7 }
 				font = "aldrich_30_outline"
-				text = "PRODUCTION"
+				text = "생산"
 				maxWidth = 529
 				format = center
 			}
@@ -6545,7 +6545,7 @@ guiTypes = {
 			# 	alwaystransparent = yes
 			# 	position = { x = 0 y = 7 }
 			# 	font = "aldrich_30_outline"
-			# 	text = "TRADE BALANCE"
+			# 	text = "무역 수지"
 			# 	maxWidth = 529
 			# 	format = center
 			# }
@@ -7552,7 +7552,7 @@ guiTypes = {
 			name = "econ_tab_actions_title"
 			position = { x = 0 y = 369 }
 			font = "aldrich_30_outline"
-			text = "ACTIONS"
+			text = "조치"
 			maxWidth = 330
 			format = center
 		}
@@ -7566,7 +7566,7 @@ guiTypes = {
 				name = "econ_tab_actions_emergency_actions_title"
 				position = { x = 0 y = 346 }
 				font = "aldrich_24_outline"
-				text = "Emergency Actions"
+				text = "긴급 조치"
 				maxWidth = 330
 				format = center
 			}
@@ -7576,7 +7576,7 @@ guiTypes = {
 				position = { x = 25 y = 381 }
 				quadTextureSprite = "GFX_econ_tab_action_button_red_small"
 				buttonFont = "aldrich_16_outline"
-				text = "Civilian Austerity"
+				text = "민간 부문 긴축"
 				pdx_tooltip = econ_tab_actions_emergency_actions_civ_aust_tt
 			}
 			buttonType = {
@@ -7584,7 +7584,7 @@ guiTypes = {
 				position = { x = 25 y = 381 }
 				quadTextureSprite = "GFX_econ_tab_action_button_green_small"
 				buttonFont = "aldrich_16_outline"
-				text = "Civilian Austerity"
+				text = "민간 부문 긴축"
 				pdx_tooltip = econ_tab_actions_emergency_actions_civ_aust_tt
 			}
 			
@@ -7593,7 +7593,7 @@ guiTypes = {
 				position = { x = 168 y = 381 }
 				quadTextureSprite = "GFX_econ_tab_action_button_red_small"
 				buttonFont = "aldrich_16_outline"
-				text = "Military Austerity"
+				text = "군사 부문 긴축"
 				pdx_tooltip = econ_tab_actions_emergency_actions_mil_aust_tt
 			}
 			buttonType = {
@@ -7601,7 +7601,7 @@ guiTypes = {
 				position = { x = 168 y = 381 }
 				quadTextureSprite = "GFX_econ_tab_action_button_green_small"
 				buttonFont = "aldrich_16_outline"
-				text = "Military Austerity"
+				text = "군사 부문 긴축"
 				pdx_tooltip = econ_tab_actions_emergency_actions_mil_aust_tt
 			}
 			
@@ -7610,7 +7610,7 @@ guiTypes = {
 				position = { x = 25 y = 431 }
 				quadTextureSprite = "GFX_econ_tab_action_button_red_small"
 				buttonFont = "aldrich_16_outline"
-				text = "Temp. Tax Increase"
+				text = "임시 증세"
 				pdx_tooltip = econ_tab_actions_emergency_actions_tax_increase_tt
 			}
 			buttonType = {
@@ -7618,7 +7618,7 @@ guiTypes = {
 				position = { x = 25 y = 431 }
 				quadTextureSprite = "GFX_econ_tab_action_button_green_small"
 				buttonFont = "aldrich_16_outline"
-				text = "Temp. Tax Increase"
+				text = "임시 증세"
 				pdx_tooltip = econ_tab_actions_emergency_actions_tax_increase_tt
 			}
 			
@@ -7627,7 +7627,7 @@ guiTypes = {
 				position = { x = 168 y = 431 }
 				quadTextureSprite = "GFX_econ_tab_action_button_red_small"
 				buttonFont = "aldrich_16_outline"
-				text = "Debase Currency"
+				text = "화폐 절하"
 				pdx_tooltip = econ_tab_actions_emergency_actions_debase_currency_tt
 			}
 			buttonType = {
@@ -7635,7 +7635,7 @@ guiTypes = {
 				position = { x = 168 y = 431 }
 				quadTextureSprite = "GFX_econ_tab_action_button_green_small"
 				buttonFont = "aldrich_16_outline"
-				text = "Debase Currency"
+				text = "화폐 절하"
 				pdx_tooltip = econ_tab_actions_emergency_actions_debase_currency_tt
 			}
 		}
@@ -7649,7 +7649,7 @@ guiTypes = {
 				name = "econ_tab_actions_interest_rates_title"
 				position = { x = 0 y = 381 }
 				font = "aldrich_24_outline"
-				text = "Interest Rates"
+				text = "금리"
 				maxWidth = 330
 				format = center
 				tooltip = "Set our interest rates"
