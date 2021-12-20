@@ -745,7 +745,7 @@ economy_topbar_GDP_short_tt: "Our §YGDP§! is currently §Y[ROOT.Get_GDP]§!\nO
 economy_topbar_GDP_long_tt: "The §YGDP§! (§YGross Domestic Product§!) of our nation is a monetary measure of the value of all goods and services produced within a year, measured in §Y1960 USD§!."
 
 economy_topbar_production_units_text: "[?production_units]"
-economy_topbar_production_units_short_tt: "§YProduction Units§!\n£tt_prod_unit §GProduction Units§! in use: §Y[?production_units_used]§!/§Y[?production_units]§!\n        From trade: [?PU_trade_balance|+0]\n\nAllocated to £tt_civ_factory §RCivilian Factories§!: §Y[?PU_civilian_factories]§!\nAllocated to £tt_mil_factory §GMilitary Factories§!: §Y[?PU_military_factories]§!\nAllocated to £tt_consumer_goods §BConsumer Goods§!: §Y[?PU_consumer_goods]§!"
+economy_topbar_production_units_short_tt: "§Y생산 단위§!\n£tt_prod_unit §GProduction Units§! in use: §Y[?production_units_used]§!/§Y[?production_units]§!\n        From trade: [?PU_trade_balance|+0]\n\nAllocated to £tt_civ_factory §RCivilian Factories§!: §Y[?PU_civilian_factories]§!\nAllocated to £tt_mil_factory §GMilitary Factories§!: §Y[?PU_military_factories]§!\nAllocated to £tt_consumer_goods §BConsumer Goods§!: §Y[?PU_consumer_goods]§!"
 economy_topbar_production_units_long_tt: "Production Units are a measure of our nation's industrial capacity, and can be allocated towards Civilian Factories, Military Factories, or to produce Consumer Goods."
 
 economy_topbar_power_text: "[?resource@power]"
@@ -1440,7 +1440,7 @@ econ_sphere_name_CME: "코메콘" # add scripted loc maybe eventually
 econ_sphere_leader_text: "우리 경제권의 주도국은 [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName] 입니다."
 
 econ_sphere_tab_total_GDP_text: "§Y경제권§! 총 GDP:"
-econ_sphere_tab_total_world_GDP_text: "§Y세계§! 총 GDP:\n§YSphere§! percent global GDP:"
+econ_sphere_tab_total_world_GDP_text: "§Y세계§! 총 GDP:\n세계 GDP에서 §Y경제권§!의 비율:"
 
 econ_sphere_tab_sphereless_total_world_GDP_text: "§Y전 세계§! 총 GDP:"
 econ_sphere_tab_sphereless_total_world_GDP_text_number: "§W$[?ZZZ.total_world_gdp|2]B§!"
@@ -1640,7 +1640,7 @@ TNO_Econ_GetWarTaxesStatus: "[GetWarTaxesChange]"
 TNO_Econ_GetWarTaxesStatusBtn: "[GetWarTaxesActiveText]"
 TNO_Econ_GetWarTaxesStatusTextActive: "§R활성화§!"
 TNO_Econ_GetWarTaxesStatusTextInactive: "§Y비활성화§!"
-TNO_Econ_WarTaxesInfo_tt:0 "전시 세금은 현재 [GetWarTaxesChangeTT].\n--------------\n§LWar taxes can be enacted in times of need, when a war takes too much of a toll on the national economy, and when the costs of enacting it are deemed to be worth the economic boost.§!\n\n§FEnacting war taxes will grant:\n   Business Tax Rate: [?0.15|+=2%]\n   Income Tax rate: [?0.15|+=2%]\n\nAt the cost of the following debuffs:\n   War Support: [?-0.075|+=2%]\n   GDP Growth: [?-0.015|+=2%]\n   (Temp) §YDraft Exemptions§! policy effectiveness: [?-0.1|+=2%]\n\nIt costs £political_power_texticon §Y50§! to enact war taxes."
+TNO_Econ_WarTaxesInfo_tt:0 "전시 세금은 현재 [GetWarTaxesChangeTT] 상태입니다.\n--------------\n§LWar taxes can be enacted in times of need, when a war takes too much of a toll on the national economy, and when the costs of enacting it are deemed to be worth the economic boost.§!\n\n§FEnacting war taxes will grant:\n   Business Tax Rate: [?0.15|+=2%]\n   Income Tax rate: [?0.15|+=2%]\n\nAt the cost of the following debuffs:\n   War Support: [?-0.075|+=2%]\n   GDP Growth: [?-0.015|+=2%]\n   (Temp) §YDraft Exemptions§! policy effectiveness: [?-0.1|+=2%]\n\nIt costs £political_power_texticon §Y50§! to enact war taxes."
 #, Income Tax is currently [?income_tax_factor|%] Business Tax is currently [?business_tax_rate_total|0Y%]
 TNO_ECON_ARMY_IDEA_SPAM_0: "§YArmy§! research spending at [?army_idea_number]%"
 TNO_ECON_ARMY_IDEA_SPAM_1: "§YArmy§! research spending at [?army_idea_number]%"
