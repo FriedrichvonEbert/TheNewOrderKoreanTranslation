@@ -207,11 +207,11 @@ econ_deficit_GDP_growth_positive:0 "§G[?deficit_GDP_growth_effect]%§!"
 econ_deficit_GDP_growth_negative:0 "§R[?deficit_GDP_growth_effect]%§!"
 econ_deficit_GDP_growth_neutral:0 "§Y[?deficit_GDP_growth_effect]%§!"
 
-econ_income_revenue_txt: "§B소득세:§!"
+econ_income_revenue_txt: "§B소득세 수입:§!"
 econ_income_revenue_txt_number: "§W$[?income_tax_revenue|2]B§!"
 econ_income_revenue_txt_number_tt: "§F§W[GetCurrency][?non_poor_income_tax_revenue|2]B§! dollars comes from our workers above the poverty line, taxed at [?income_tax_factor|2Y%]\n§W[GetCurrency][?poor_income_tax_revenue|2]B§! dollars comes from our workers below the poverty line, taxed at an effective rate of [?poverty_income_tax_factor|2Y%]§!"
 
-econ_business_revenue_txt: "§nBusiness Tax:§!"
+econ_business_revenue_txt: "§n법인세 수입:§!"
 econ_business_revenue_txt_number: "§W$[?industrial_contribution|2]B§!"
 econ_business_revenue_txt_number_tt: "§F§W[GetCurrency][?industrial_contribution|2]B§! dollars comes from our consumer goods production, taxed at [?business_tax_rate_total|0Y%]§!"
 
@@ -450,7 +450,7 @@ gdp_growth_value_number: "§W[?ROOT.GDP_growth_display|%]§!"
 misc_income_value: "기타 수입:"   
 misc_income_value_number: "§W$[?misc_income] B§!"   
 
-annual_budget_value: "Annual Revenue:"
+annual_budget_value: "연간 수입:"
 annual_budget_value_number: "§W$[?total_income] B§!"
 
 deficit_value: "연간 [Get_deficit_surplus_capitalized]:"
