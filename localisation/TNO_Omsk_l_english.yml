@@ -1622,21 +1622,21 @@
   OMS_SE_insurgency_start_tt: "§e그리고, 바토프의 반란이 시작되었습니다.§!\n\n"
   OMS_batov_insurgency_dynomod: "바토프의 반란"
   OMS_batov_insurgency_dynmod_dummy: "바토프의 반란"
-  OMS_batov_insurgency_dynmod_dummy_desc: "§F자원 획득 효율성: [?OMS_ins_dynomod_array^2|2R%+=]\n보급 소모량: [?OMS_ins_dynomod_array^1|2R%-=]\n안정도: [?OMS_ins_dynomod_array^3|2R%+=]\n주둔군 피해: [?OMS_ins_dynomod_array^0|2R%-=]\nGDP 성장률: [?OMS_ins_dynomod_array^4|2R+=]§R%§!\nMiscellaneous Military Costs: §R$[?OMS_ins_dynomod_array^5|3R-]B§!\n--------------\n§!배반자 장군 파벨 바토프가 흑색연합을 상대로 반란을 일으켰습니다. 인정하긴 싫지만, 그들의 존재는 흑색연합과 대시련의 존립 위기입니다. 그는 반드시 제거되어야 하며, 그렇지 않으면 우리 국가가 무너질 것입니다..."
+  OMS_batov_insurgency_dynmod_dummy_desc: "§F자원 획득 효율성: [?OMS_ins_dynomod_array^2|2R%+=]\n보급 소모량: [?OMS_ins_dynomod_array^1|2R%-=]\n안정도: [?OMS_ins_dynomod_array^3|2R%+=]\n주둔군 피해: [?OMS_ins_dynomod_array^0|2R%-=]\nGDP 성장률: [?OMS_ins_dynomod_array^4|2R+=]§R%§!\n잡다한 군사 비용: §R$[?OMS_ins_dynomod_array^5|3R-]B§!\n--------------\n§!배반자 장군 파벨 바토프가 흑색연합을 상대로 반란을 일으켰습니다. 인정하긴 싫지만, 그들의 존재는 흑색연합과 대시련의 존립 위기입니다. 그는 반드시 제거되어야 하며, 그렇지 않으면 우리 국가가 무너질 것입니다..."
   OMS_BI_state_dynomod: "§e바토프의 반란§!"
   OMS_BI_state_dynomod_tt: "§L바토프의 반란은 서시베리아의 지역주민들의 일상에 방해가 되고 있습니다. 우리는 그들의 작전을 끝내서 우리 인민이 다시금 일상을 회복하게 해야 합니다.§!\n§F--------------§!\n"
  
   # Custom effect tooltips
   OMS_insurgency_increase_free_bases: "[?1|G0]개의 §Y새로운 기지들§!이 건설 가능해질 것입니다.\n"
-  OMS_build_base_tt: "§Y[GetOMSGUIdecisionStatename_build]§에 §G대태러 기지§! 건설하기"
-  OMS_attack_enemy_base_tt: "Removes §RInsurgent Bases§! in this state, allowing us to move in and §Rquell the insurgency.§!"
-  OMS_dismantle_base_tt: "Dismantles the §GCounter-Insurgency Base§! present here to enable relocation of resources elsewhere."
-  OMS_purge_state_tt: "\n   §GSeverely damages§! insurgency activity in this state. §eBatov§! can no longer build bases in this state, §Gnor can he attack our bases built here.§!"
+  OMS_build_base_tt: "§Y[GetOMSGUIdecisionStatename_build]§에 §G대반란 기지§! 건설하기"
+  OMS_attack_enemy_base_tt: "이 주에 있는 §R반란군 기지§!로인해 우리가 움직여 §R반란을 진압할 것입니다.§!"
+  OMS_dismantle_base_tt: "§G대반란 기지§!를 해체해 다른 곳으로 자원을 집중하는 것이 가능해질 것입니다."
+  OMS_purge_state_tt: "\n   이 주의 반란군 활동에 §G삼각한 피해§!를 입힙니다. §e바토프§!가 이곳에 더 이상 기지를 지을 수 없고, §G여기에 지어진 우리의 기지도 공격하지 못할 것입니다.§!"
   
-  OMS_purge_zlatoust_tt: "§YZlatoust§! shall be §Rpurged of insurgents and sympathizers.§!"
-  OMS_purge_chelyabinsk_tt: "§YChelyabinsk§! shall be §Rpurged of insurgents and sympathizers.§!"
-  OMS_purge_tyumen_tt: "§YTyumen§! shall be §Rpurged of insurgents and sympathizers.§!"
-  OMS_purge_sverdlovsk_tt: "§YSverdlovsk§! shall be §Rpurged of insurgents and sympathizers.§!"
+  OMS_purge_zlatoust_tt: "§Y즐라토우스트§!에서 §R반란군과 그 동조자들이 숙청될 것입니다.§!"
+  OMS_purge_chelyabinsk_tt: "§Y첼랴빈스크§!에서 §R반란군과 그 동조자들이 숙청될 것입니다.§!"
+  OMS_purge_tyumen_tt: "§Y튜멘§!에서 §R반란군과 그 동조자들이 숙청될 것입니다.§!"
+  OMS_purge_sverdlovsk_tt: "§Y스베들롭스크§!에서 §R반란군과 그 동조자들이 숙청될 것입니다.§!"
   OMS_purge_vorkuta_tt: "§Y보르쿠타§!에서 §R반란군과 그 동조자들이 숙청될 것입니다.§!"
   OMS_assassinate_batov_req_tt: "§Y국가적 반란 세력§!이 §G15%§보다 적어야 합니다.."
   OMS_assassinate_batov_tt: "§R파벨 바토프§!는 암살될 것이며, §e반란은 분쇄될 것입니다.§!"
@@ -1649,8 +1649,8 @@
   OMS_insurgency_we_have_a_base: "§G우리는 여기에 기지가 있습니다.§!"
   OMS_insurgency_batov_has_a_base: "§R바토프의 반란군이 여기에 기지를 보유하고 있습니다.§!"
   OMS_trigger_available_base: "우리는 건설가능한 기지가 있습니다."
-  OMS_trigger_is_neighbor_to_base: "This state is adjacent with a state containing a §Gcounter-insurgency§! base."
-  OMS_trigger_has_neighbor_enemy_base: "This state is adjacent with a state containing an §Rinsurgent§! base."
+  OMS_trigger_is_neighbor_to_base: "이 주는 §G대반란§! 기지를 보유하는 주에 근접하고 있습니다."
+  OMS_trigger_has_neighbor_enemy_base: "이 주는 §R반란군§! 기지를 보유하는 주에 근접하고 있습니다."
   
   # GUI tooltips
   OMS_insurgency_selected_state_ttl: "선택한 주: §Y[?insurgency_state_selected.GetName]§!\n반란군 세력: [GetOMSGUIdynamicColorTXT][?insurgency_state_selected:insurgency_strength|1%]§!"
@@ -1660,7 +1660,7 @@
   OMS_insurgency_top_bar_strength_bar: "국가적 반란 세력: §R[?ROOT.insurgency_strength|2]%§!\n--------------\n§F§R반란 세력§!의 국가적 평균이 §G15%§!정도 되어야 성공적으로 바토프의 공포정치를 끝낼 수 있습니다."
   OMS_insurgency_map_state_tt: "[?OMS_map_value.GetName]\n반란 세력: [GetOMSGUIdynamicColorTT][?OMS_map_value:insurgency_strength|%1]§!\n--------------\n[GetOMSStateBaseTT]"
   
-  OMS_insurgency_top_bar_bases_bar: "§FIn order to fight effectively against Batov and his insurgency, we need to establish military bases and camps around the country.\n\nPlacing a §Gcounter-insurgency§! base within a state will change the state's insurgency strength by §G[?OMS_our_base_effectiveness|%1]§! weekly. On the other hand, §Rinsurgency bases will increase them by [?OMS_batov_base_effectiveness|%1].§! We have a §Rlimited amount of bases that we can place§! in our territory. When we have finished rooting out the insurgency from a territory, we can then §Yremove the base from said state to be used elsewhere§! where it is needed.\n\nWe can attack enemy bases in states which are adjacent to where our counter-insurgency bases are located.\n--------------\nThe §GCounter-Insurgency§! has [?OMSK_YAZOV_COUNTER_INSURGENCY_BASES_NUMBER|Y0] §Gcounter-insurgency bases.§!\nWe have [?AVAILABLE_BASES|Y0] available bases.\n\n§RBatov and his insurgents§! have [?BATOV_INSURGENCY_BASES_NUMBER|Y0] bases.§!"
+  OMS_insurgency_top_bar_bases_bar: "§F바토프와 그의 반란에 효율적으로 싸우기 위해서는, 국가 전역에 군사 기지와 캠프를 설치하는 것이 필요합니다.\n\n§Gcounter-insurgency§!Placing a §G대반란§! 기지를 주에 설치하는 것이 반란군 세력을 주마다 G[?OMS_our_base_effectiveness|%1]§!씩 줄일 수 있습니다. 하지만, §R반란군 기지는 반란 세력을 주마다 [?OMS_batov_base_effectiveness|%1]씩 늘릴 수 있습니다.§! 우리는 우리 영토에 §R우리가 설치 가능한 제한된 기지 수§!가 있습니다. When we have finished rooting out the insurgency from a territory, we can then §Yremove the base from said state to be used elsewhere§! where it is needed.\n\nWe can attack enemy bases in states which are adjacent to where our counter-insurgency bases are located.\n--------------\n§G대반란군§!은 [?OMSK_YAZOV_COUNTER_INSURGENCY_BASES_NUMBER|Y0]개의 §G대반란 기지를 가지고 있습니다.§!\nWe have [?AVAILABLE_BASES|Y0] available bases.\n\n§RBatov and his insurgents§! have [?BATOV_INSURGENCY_BASES_NUMBER|Y0] bases.§!"
  
   # Decisions
   OMS_acquire_more_bases: "더 많은 기지 확보하기 ([?OMS_available_new_bases|Y0]번 남음)"
@@ -1672,8 +1672,8 @@
   OMS_batov_making_moves: "§E바토프가 움직임을 만들고 있습니다!§!"
   
   OMS_rally_people_against_batov: "바토프에 대항해 사람들을 모아라"
-  OMS_intensify_operations: "Intensify Counter-Insurgent Operations"
-  OMS_intensify_operations_tt: "§Y대테러 기지가§! 반란을 쓰러트리는데 §G더 효율적이게§! 될 것입니다."
+  OMS_intensify_operations: "대반란 작전 심화시키기"
+  OMS_intensify_operations_tt: "§Y대반란 기지가§! 반란을 쓰러트리는데 §G더 효율적이게§! 될 것입니다."
   
   OMS_purge_chelyabinsk: "Initiate §TOperation: SMOKE PIT§!"
   OMS_purge_zlatoust: "Initiate §OOperation: DRAGON'S LAIR§!"
