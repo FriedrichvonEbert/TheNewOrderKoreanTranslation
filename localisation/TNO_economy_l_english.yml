@@ -23,14 +23,14 @@ puCalc_other_value_text: "[?production_units_modifier|+0]"
 
 nominal_GDP_growth_txt: "§G명목 경제성장률:§!"
 nominal_GDP_growth_txt_number: "§W[?GDP_growth_nominal|3]%§!"
-nominal_GDP_growth_tt: "우리의 명목 경제성장률은 £gdp_growth_texticon §W[?GDP_growth_nominal|3]%§!로, 기초 명목성장률 §W[?GDP_growth_nominal_display_tt|3]%§!에 [?GDP_growth_multiplier|+][GetRedGreenGDPMultiplier]x§! 만큼 곱하여 계산됩니다.\n\n우리의 기초 명목성장률은 §W[?GDP_growth_nominal_display_tt|3]%§! 입니다. \n  [?GDP_growth|+=][GetRedGreenBaseGDPGrowth]%§! base rate[GetGDPGrowthModifierExists][GetGDPGrowthEffectReservesExists]\n  [?deficit_GDP_growth_effect|+=][GetRedGreenSpendingEffect]%§! from our [Get_deficit_surplus]\n\nOur GDP growth rate multiplier is [?GDP_growth_multiplier|3+][GetRedGreenGDPMultiplier]x§!:\n  [?1|+=] base multiplier[GetGrowthMultiplierExists][GetGDPGrowthDebtEffectExists][GetTotalInfrastructureExists][GetDamagedInfrastructureExists][GetTaxesEffectExists][GetPopulationEffectExists][GetTradeEffectExists]"
+nominal_GDP_growth_tt: "우리의 명목 경제성장률은 £gdp_growth_texticon §W[?GDP_growth_nominal|3]%§!로, 기본 명목성장률 §W[?GDP_growth_nominal_display_tt|3]%§!에 [?GDP_growth_multiplier|+][GetRedGreenGDPMultiplier]x§! 만큼 곱하여 계산됩니다.\n\n우리의 기본 명목성장률은 §W[?GDP_growth_nominal_display_tt|3]%§! 입니다. \n  [?GDP_growth|+=][GetRedGreenBaseGDPGrowth]%§! 기본 비율[GetGDPGrowthModifierExists][GetGDPGrowthEffectReservesExists]\n  [?deficit_GDP_growth_effect|+=][GetRedGreenSpendingEffect]%§! from our [Get_deficit_surplus]\n\n우리의 경제성장률 곱은 [?GDP_growth_multiplier|3+][GetRedGreenGDPMultiplier]x§! 이며 다음과 같이 계산됩니다.\n  [?1|+=] 기본 곱[GetGrowthMultiplierExists][GetGDPGrowthDebtEffectExists][GetTotalInfrastructureExists][GetDamagedInfrastructureExists][GetTaxesEffectExists][GetPopulationEffectExists][GetTradeEffectExists]"
 nominal_GDP_growth_tt_long:0 "£gdp_growth_texticon 명목 경제성장률은 인플레이션의 효과를 계산하기 전의 경제성장률입니다. 이는 국가경제성장률이며 주별 경제성장률로 간주되지 않습니다."
 
-gdp_growth_modifier_info:0 "\n  [?modifier@gdp_growth_modifier|+=3][GetRedGreenModifierGDPGrowth]%§! from country modifiers"
+gdp_growth_modifier_info:0 "\n  [?modifier@gdp_growth_modifier|+=3][GetRedGreenModifierGDPGrowth]%§! 국가 변동치"
 gdp_growth_reserves_info:0 "\n  [?reserves_effect_on_GDP_growth|+=3]§R%§! from our reserve size of §Y[?reserves_as_GDP_percent|%]§! of GDP."
 gdp_growth_debt_level_info:0 "\n  [?debt_effect_on_nominal_growth|+=3] from our current debt level of [?debt_to_GDP_ratio|%-]\n    Modified to [?debt_GDP_effect_multiplier|=-%] of base effect of [?debt_effect_base_display|+=] by:\n      [?1|-=%] base value\n      [?credit_rating_effect_on_debt_GDP_effect|-=%] from credit rating\n      [?modifier@debt_effect_on_GDP_growth_modifier|-=%] from modifiers"
 
-gdp_growth_multiplier_modifier_info:0 "\n  [?modifier@annual_gdp_growth_factor|+=] from country modifiers"
+gdp_growth_multiplier_modifier_info:0 "\n  [?modifier@annual_gdp_growth_factor|+=] 국가 변동치"
 gdp_growth_multiplier_total_infrastructure_info:0 "\n  [?total_state_infrastructure_effect|+3=] from §Y[?total_infrastructure_built_in_core_state]§! built infrastructure / §Y[?total_possible_infrastructure_display_tt]§! max possible infrastructure in core states"
 gdp_growth_multiplier_damaged_infrastructure_info:0 "\n  [?total_state_damaged_infrastructure_effect|=3+] from §Rdamaged§! infrastructure in core states"
 gdp_growth_multiplier_taxes_info:0 "\n  [?total_taxes_effect|+=3] from taxes:\n    [?income_taxes_effect|+=3] from income taxes\n    [?business_taxes_effect|+=3] from business taxes\n    [?sales_taxes_effect|+3=] from sales taxes"
@@ -56,11 +56,11 @@ national_debt_interest_tt_long: "우리의 이자율은 현재 다음과 같은 
 
 inflation_txt: "§R인플레이션:§!"
 inflation_txt_number: "§W[?clamped_inflation_rate|3]%§!"
-inflation_tt: "우리의 매년 인플레이션은 £inflation_texticon [?clamped_inflation_rate|3-]§R%§!입니다. 인플레이션은 언제나 경제성장률을 §R하락§!시키며, §Y0§!% 아래로는 갈 수 없습니다.\n\n우리의 인플레이션:\n  [?base_inflation_rate|3-]§R%§! base inflation rate\n  [?inflation_cycling_effect_adjusted|3-][GetRedGreenInflationCycling]%§! from the natural variation of inflation[GetInflationModifierExists][GetDeficitMonetizationEffectExists]\n\n[GetHasInflationProductivityEffects]"
+inflation_tt: "우리의 매년 인플레이션은 £inflation_texticon [?clamped_inflation_rate|3-]§R%§!입니다. 인플레이션은 언제나 경제성장률을 §R하락§!시키며, §Y0§!% 아래로는 갈 수 없습니다.\n\n우리의 인플레이션:\n  [?base_inflation_rate|3-]§R%§! 기본 인플레이션율\n  [?inflation_cycling_effect_adjusted|3-][GetRedGreenInflationCycling]%§! 인플레이션의 자연변화율[GetInflationModifierExists][GetDeficitMonetizationEffectExists]\n\n[GetHasInflationProductivityEffects]"
 inflation_long_tt: ""
 
 inflation_modifier_info:0 "\n  [?modifier@inflation_rate_modifier|3-][GetRedGreenInflationRateModifier]%§! from country modifiers"
-inflation_deficit_monetization_info:0 "\n  [?deficit_monetization_inflation_effect|3-]§R%§! from our level of money creation"
+inflation_deficit_monetization_info:0 "\n  [?deficit_monetization_inflation_effect|3-]§R%§! 우리의 화폐발행 정도"
 
 inflation_productivity_effects_info:0 "지난 달의 인플레이션 £inflation_texticon 은 [?last_month_clamped_inflation_rate|3-]§R%§! 다음과 같은 효과를 지닙니다:\n  [?TNO_econ_inflation_factory_output_penalty|1%+] $MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$\n  [?TNO_econ_inflation_factory_output_penalty|1%+] $MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$\n  [?TNO_econ_inflation_construction_speed_penalty|1%+] $MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$\n  [?TNO_econ_inflation_consumer_goods_production_penalty|1%+] $consumer_goods_production_factor$" 
 TNO_factory_multiplier:0 "군수공장 효과"
@@ -81,7 +81,7 @@ econ_civ_spending_txt: "§w민간 지출:§!"
 econ_civ_spending_txt_extended: "민간 예산:"
 econ_civ_spending_txt_number: "§W$[?civilian_expenditures|2]B§!"
 
-econ_civ_spending_tt: "§WThis is the sum of our civilian expenditures multiplied by civilian expenditures modifier of §w[?modifier@civilian_expenditures_factor|%]§!. Spending effects will update monthly, and costs will go into effect then as well§!"
+econ_civ_spending_tt: "§W이 수치는 우리의 민간 지출의 합에 민간 지출 변동치 §w[?modifier@civilian_expenditures_factor|%]§! 만큼을 곱한 값입니다. 지출 효과는 매월마다 업데이트되며 비용도 매 월마다 적용됩니다.§!"
 
 econ_social_spending_txt: "사회 지출:"
 econ_social_spending_txt_number: "§W$[?total_sp_costs|2]B§!"
