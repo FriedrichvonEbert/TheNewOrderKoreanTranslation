@@ -3056,10 +3056,10 @@ defined_text = {
 	name = Get_selected_resource_import_export
 	text = {
 		trigger = { check_variable = { TNO_fulfilled_imports^TNO_market_selected_resource > 0 } }
-		localization_key = "Imports"
+		localization_key = "수입"
 	}
 	text = {
-		localization_key = "Exports"
+		localization_key = "수출"
 	}
 }
 
