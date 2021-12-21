@@ -557,8 +557,8 @@ credit_rating_aggregate_NEUTRAL: " and holding §Ysteady§!"
 credit_rating_aggregate_DOWN: " and §Rfalling§!"
 credit_rating_aggregate_LOCKED: ""
 
-credit_rating_progress_title:0 "Downgrade/Upgrade Progress"
-credit_rating_progress_bar_tt:0 "Our current credit rating is[GetLockedCreditRatingOrUnlocked] [GetCreditRatingValue][GetCreditRatingUpDown][GetCreditRatingDisabled].\n\n[GetCreditRatingLocked]"
+credit_rating_progress_title:0 "등급 상향/하향 진행률"
+credit_rating_progress_bar_tt:0 "현재 우리의 신용등급은 [GetLockedCreditRatingOrUnlocked] [GetCreditRatingValue][GetCreditRatingUpDown][GetCreditRatingDisabled].\n\n[GetCreditRatingLocked]"
 credit_ratingupdown_desc_tt:0 "Our credit rating varies based on our fiscal, economic, and geopolitical system. It varies between a minimum and maximum.[GetCreditRatingMinMax]"
 
 credit_rating_desc_superhigh: "We are currently a §GHighly Rated§! creditor. Investors cannot fathom the idea that we would default. We can borrow nearly infinitely."
@@ -1831,7 +1831,7 @@ Central_Bank_Policy_1_tt:0 "§F기준 인플레이션율을 §G20%§! 감소시�
 Central_Bank_Policy_2:0 "빈곤과의 전쟁" #consider rename
 Central_Bank_Policy_2_tt:0 "§F국가의 빈곤률을 월간 §G0.01%§! 내리는 대신, 명목 GDP 성장률을 §R0.5%§! 감소시킵니다.\n\n이 정책은 [?central_bank_effectiveness_2|%Y0] 만큼 효율적이며, 달마다 빈곤률을 §G[?central_bank_poverty_monthly_rate|3]%§! 만큼 감소시키는 대신 GDP 성장률이 §R[?central_bank_effectiveness_2_gdp_cost_display|2]%§! 만큼 감소합니다. 이 효과는 시간이 지날수록 강해지며 정책 제정 후 §W10§!개월이 지나면 최대 효과를 가질 것입니다.§!"
 Central_Bank_Policy_3:0 "전력에 전력을 다해라"
-Central_Bank_Policy_3_tt:0 "§F§G5.0%§! increase of our total £tt_power §YGrid Power§!, at the cost of §R0.5%§! decrease on nominal GDP Growth.\n\n이 정책은 [?central_bank_effectiveness_3|%Y0] 만큼 효율적이며, 추가로 [?central_bank_power_display|%G0] 만큼 £tt_power §Y전력§! (£tt_power §Y[?central_bank_power]§!)을 생산하는 대신 GDP 성장률이 §R[?central_bank_effectiveness_3_gdp_cost_display|2]%§! 만큼 감소합니다. 이 효과는 시간이 지날수록 강해지며 정책 제정 후 §W10§!개월이 지나면 최대 효과를 가질 것입니다.§!"
+Central_Bank_Policy_3_tt:0 "§F총 £tt_power §Y전력§! 생산량을 §G5.0%§! 늘리는 대신, 명목 GDP 성장률을 §R0.5%§! 감소시킵니다.\n\n이 정책은 [?central_bank_effectiveness_3|%Y0] 만큼 효율적이며, 추가로 [?central_bank_power_display|%G0] 만큼 £tt_power §Y전력§! (£tt_power §Y[?central_bank_power]§!)을 생산하는 대신 GDP 성장률이 §R[?central_bank_effectiveness_3_gdp_cost_display|2]%§! 만큼 감소합니다. 이 효과는 시간이 지날수록 강해지며 정책 제정 후 §W10§!개월이 지나면 최대 효과를 가질 것입니다.§!"
 
 has_spare_money_tt: "We have enough reserves for this investment."
 no_spare_money_tt: "We do not have enough reserves for this investment."
