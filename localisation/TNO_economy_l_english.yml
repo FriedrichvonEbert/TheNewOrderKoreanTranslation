@@ -31,8 +31,8 @@ gdp_growth_reserves_info:0 "\n  [?reserves_effect_on_GDP_growth|+=3]§R%§! from
 gdp_growth_debt_level_info:0 "\n  [?debt_effect_on_nominal_growth|+=3] from our current debt level of [?debt_to_GDP_ratio|%-]\n    Modified to [?debt_GDP_effect_multiplier|=-%] of base effect of [?debt_effect_base_display|+=] by:\n      [?1|-=%] 기본값\n      [?credit_rating_effect_on_debt_GDP_effect|-=%] 신용 등급 영향\n      [?modifier@debt_effect_on_GDP_growth_modifier|-=%] 변동치 영향"
 
 gdp_growth_multiplier_modifier_info:0 "\n  [?modifier@annual_gdp_growth_factor|+=] 국가 변동치"
-gdp_growth_multiplier_total_infrastructure_info:0 "\n  [?total_state_infrastructure_effect|+3=] from §Y[?total_infrastructure_built_in_core_state]§! built infrastructure / §Y[?total_possible_infrastructure_display_tt]§! max possible infrastructure in core states"
-gdp_growth_multiplier_damaged_infrastructure_info:0 "\n  [?total_state_damaged_infrastructure_effect|=3+] from §Rdamaged§! infrastructure in core states"
+gdp_growth_multiplier_total_infrastructure_info:0 "\n  [?total_state_infrastructure_effect|+3=] 건서로딘 §Y[?total_infrastructure_built_in_core_state]§!개 기반시설 영향 / 핵심주에 건설 가능한 최대 기반시설 §Y[?total_possible_infrastructure_display_tt]§!개"
+gdp_growth_multiplier_damaged_infrastructure_info:0 "\n  핵심주에서 §R피해를 입은§! [?total_state_damaged_infrastructure_effect|=3+]개 기반시설"
 gdp_growth_multiplier_taxes_info:0 "\n  [?total_taxes_effect|+=3] 우리의 조세 영향:\n    [?income_taxes_effect|+=3] 소득세 영향\n    [?business_taxes_effect|+=3] 법인세 영향\n    [?sales_taxes_effect|+3=] 소비세 영향"
 gdp_growth_multiplier_decreasing_population_info:0 "\n  [?population_growth_effect|+=3] from a §Rdecreasing§! population"
 gdp_growth_multiplier_trade_effect_info:0 "\n  [?trade_effect|+=3] from our trade balance of §Y$[?total_trade_value|3]B§!"
