@@ -5649,27 +5649,27 @@ defined_text = {
 		trigger = { 
 			check_variable = { selected_central_bank_id = 1 }
 		}
-		localization_key = Central_Bank_Policy_0
+		localization_key = "허리띠를 조여라"
 	}
 
 	text = {
 		trigger = { 
 			check_variable = { selected_central_bank_id = 2 }
 		}
-		localization_key = Central_Bank_Policy_1
+		localization_key = "빈곤과의 전쟁"
 	}
 
 	text = {
 		trigger = { 
 			check_variable = { selected_central_bank_id = 3 }
 		}
-		localization_key = Central_Bank_Policy_2
+		localization_key = "전력에 전력을 다해라"
 	}
 	
 	# Default - 0
 	text = {
 		trigger = { check_variable = { selected_central_bank_id = 0 } }
-		localization_key = Central_Bank_Policy_3
+		localization_key = "윤전기를 돌려라"
 	}
 }
 

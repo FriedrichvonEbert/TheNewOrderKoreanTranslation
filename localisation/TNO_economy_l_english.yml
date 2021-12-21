@@ -188,7 +188,7 @@ tax_hike_button_tt: "[!tax_hike_button_click_enabled]\nThis will increase all ou
 tax_cut_button_tt: "[!tax_cuts_button_click_enabled]\nThis will cut all our taxes rates by at least 15% of their current values and gives us £political_power_texticon §Y20§!, reducing our income, but increasing our growth for the next 6 months"
 recent_tax_button_used: "We are not under the effect of an exceptional tax change"
 
-econ_total_revenue_pie_tt: "§G총 수입:§! §W$[?total_income|2]B§!\n--------------\n\n§B[?income_revenue_percent]% Income Tax:§! §W$[?income_tax_revenue|2]B§!\n§n[?business_revenue_percent]% Business Tax:§! §W$[?industrial_contribution|2]B§!\n§Q[?excise_revenue_percent]% Excise Revenue:§! §W$[?excise_income_true|2]B§!\n§I[?other_revenue_percent]% Other Revenue:§! §W$[?misc_income_true|2]B§!"
+econ_total_revenue_pie_tt: "§G총 수입:§! §W$[?total_income|2]B§!\n--------------\n\n§B[?income_revenue_percent]% 소득세 수입:§! §W$[?income_tax_revenue|2]B§!\n§n[?business_revenue_percent]% 법인세 수입:§! §W$[?industrial_contribution|2]B§!\n§Q[?excise_revenue_percent]% 소비세 수입:§! §W$[?excise_income_true|2]B§!\n§I[?other_revenue_percent]% 기타 수입:§! §W$[?misc_income_true|2]B§!"
 
 
 econ_expenditures_title: "§R지출:§! §W$[?total_expenditures|2]B§!"
@@ -603,7 +603,7 @@ deficit_to_gdp_ratio_value_number: "[GetDeficitRatioColoring][?deficit_to_GDP_ra
 
 national_deficit_to_GDP_short_tt: "[GetGrowingFasterSlowerEqual]"
 national_deficit_to_GDP_growing_faster: "Our debt-to-GDP ratio is currently §Gshrinking§! by §G[?monthly_deficit_debt_GDP_ratio_change]§!§W%§! per month."
-national_deficit_to_GDP_growing_equal: "Our debt-to-GDP ratio is currently §Ystatic§!."
+national_deficit_to_GDP_growing_equal: "우리의 GDP 대 부채 비율은 §Y안정적§!입니다."
 national_deficit_to_GDP_growing_slower: "Our debt-to-GDP ratio is currently §Rgrowing§! by §R[?monthly_deficit_debt_GDP_ratio_change]§!§W%§! per month."
 national_deficit_to_GDP_tt: "The deficit-to-GDP ratio is an indicator of how sustainable our spending is. When it is above our GDP growth rate, our debt-to-GDP ratio is §Rincreasing§!. When it is below our GDP growth rate, our debt-to-GDP ratio is §Gdecreasing§!."
 
@@ -670,9 +670,9 @@ econ_social_programs_header: "§C사회 복지§!"
 
 econ_income_rate_txt: "평균 소득세율:"
 econ_income_rate_txt_number: "§W[?income_tax_factor|%]§!"
-econ_income_rate_txt_number_tt: "기본 세율: [?income_tax_rate|+%]\n§wIncome Taxation§! §Fpolicy factor:§! [?tno_income_taxation_poverty_taxation_rate|+%]"
+econ_income_rate_txt_number_tt: "기본 세율: [?income_tax_rate|+%]\n§w소득세율§! §F정책 요인:§! [?tno_income_taxation_poverty_taxation_rate|+%]"
 
-econ_business_rate_txt: "Avg. Business Tax Rate:"
+econ_business_rate_txt: "평균 법인세율:"
 econ_business_rate_txt_number: "§W[?business_tax_display]%§!"
 
 econ_poverty_rate: "빈곤률:"
@@ -745,7 +745,7 @@ economy_topbar_GDP_short_tt: "Our §YGDP§! is currently §Y[ROOT.Get_GDP]§!\nO
 economy_topbar_GDP_long_tt: "The §YGDP§! (§YGross Domestic Product§!) of our nation is a monetary measure of the value of all goods and services produced within a year, measured in §Y1960 USD§!."
 
 economy_topbar_production_units_text: "[?production_units]"
-economy_topbar_production_units_short_tt: "§Y생산 단위§!\n£tt_prod_unit §GProduction Units§! in use: §Y[?production_units_used]§!/§Y[?production_units]§!\n        From trade: [?PU_trade_balance|+0]\n\nAllocated to £tt_civ_factory §RCivilian Factories§!: §Y[?PU_civilian_factories]§!\nAllocated to £tt_mil_factory §GMilitary Factories§!: §Y[?PU_military_factories]§!\nAllocated to £tt_consumer_goods §BConsumer Goods§!: §Y[?PU_consumer_goods]§!"
+economy_topbar_production_units_short_tt: "§Y생산 단위§!\n사용 중인 £tt_prod_unit §G생산 단위§!: §Y[?production_units_used]§!/§Y[?production_units]§!\n        From trade: [?PU_trade_balance|+0]\n\nAllocated to £tt_civ_factory §RCivilian Factories§!: §Y[?PU_civilian_factories]§!\nAllocated to £tt_mil_factory §GMilitary Factories§!: §Y[?PU_military_factories]§!\nAllocated to £tt_consumer_goods §BConsumer Goods§!: §Y[?PU_consumer_goods]§!"
 economy_topbar_production_units_long_tt: "Production Units are a measure of our nation's industrial capacity, and can be allocated towards Civilian Factories, Military Factories, or to produce Consumer Goods."
 
 economy_topbar_power_text: "[?resource@power]"
@@ -880,7 +880,7 @@ trade_monthly_decrease_sell_tooltip: "§GClick§! to decrease our weekly export 
 
 trade_amount_resource: "[?ZZZ.TNO_export_size^TNO_market_selected_resource|0]"
 market: "시장"
-auto_balance: "Auto Balance"
+auto_balance: "자동 조정"
 auto_balance_tt: "With Auto Balance enabled, we will try to balance our imports to buy just what we need and export the surpluses that we have from our resource production."
 auto_balance_cgs: "Auto Balance\nAlways Enabled"
 auto_balance_cgs_tt: "The consumers buy their needed goods directly from the market, without our direct intervention."
@@ -1412,10 +1412,10 @@ econ_join_sphere_CME_tt: "§Y[THIS.GetName]§! joins the [?CME.GetFlag]§YCounci
 
 econ_leave_sphere_tt: "§Y[THIS.GetName]§! leaves current economic sphere."
 
-econ_sphere_button_tt: "우리는 [GetSphereName][GetSphereLeaderTooltip]의 회원국입니다."
-econ_sphere_has_leader: ", which is led by [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]"
-econ_sphere_info_tt: "[THIS.GETNAME] is a member of [GetSphereName], which is led by [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]."
-econ_sphere_na_info_tt: "[THIS.GETNAME]는 어느 경제권에도 속해 있지 않습니다."
+econ_sphere_button_tt: "우리는 [GetSphereLeaderTooltip] [GetSphereName]의 소속국입니다."
+econ_sphere_has_leader: "[?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]이 주도국인"
+econ_sphere_info_tt: "[THIS.GETNAME]은(는) [?ECON_SPHERE_LEADER.GetFlag] [?ECON_SPHERE_LEADER.GetName]이 주도국인 [GetSphereName]의 소속국입니다."
+econ_sphere_na_info_tt: "[THIS.GETNAME]은(는) 어느 경제권에도 속해 있지 않습니다."
 econ_sphere_button_tt_delayed: "[GetSphereButtonDelayedTooltip]"
 econ_sphere_button_tt_delayed_in_shere: "클릭하여 우리의 경제권역에 대한 더욱 자세한 정보를 볼 수 있습니다."
 econ_sphere_button_tt_delayed_no_shere: "클릭하여 세계 경제에 대한 더욱 자세한 정보를 볼 수 있습니다."
