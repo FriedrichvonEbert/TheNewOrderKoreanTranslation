@@ -33,7 +33,7 @@ gdp_growth_debt_level_info:0 "\n  [?debt_effect_on_nominal_growth|+=3] from our 
 gdp_growth_multiplier_modifier_info:0 "\n  [?modifier@annual_gdp_growth_factor|+=] 국가 변동치"
 gdp_growth_multiplier_total_infrastructure_info:0 "\n  [?total_state_infrastructure_effect|+3=] from §Y[?total_infrastructure_built_in_core_state]§! built infrastructure / §Y[?total_possible_infrastructure_display_tt]§! max possible infrastructure in core states"
 gdp_growth_multiplier_damaged_infrastructure_info:0 "\n  [?total_state_damaged_infrastructure_effect|=3+] from §Rdamaged§! infrastructure in core states"
-gdp_growth_multiplier_taxes_info:0 "\n  [?total_taxes_effect|+=3] from taxes:\n    [?income_taxes_effect|+=3] from income taxes\n    [?business_taxes_effect|+=3] from business taxes\n    [?sales_taxes_effect|+3=] from sales taxes"
+gdp_growth_multiplier_taxes_info:0 "\n  [?total_taxes_effect|+=3] 우리의 조세 영향:\n    [?income_taxes_effect|+=3] 소득세 영향\n    [?business_taxes_effect|+=3] 법인세 영향\n    [?sales_taxes_effect|+3=] 소비세 영향"
 gdp_growth_multiplier_decreasing_population_info:0 "\n  [?population_growth_effect|+=3] from a §Rdecreasing§! population"
 gdp_growth_multiplier_trade_effect_info:0 "\n  [?trade_effect|+=3] from our trade balance of §Y$[?total_trade_value|3]B§!"
 gdp_growth_multiplier_market_centralization_info:0 "\n  [?market_gdp_growth_centralization_effect|3+=] from our §YEconomic Centralization§!"
@@ -749,8 +749,8 @@ economy_topbar_production_units_short_tt: "§Y생산 단위§!\n£tt_prod_unit �
 economy_topbar_production_units_long_tt: "Production Units are a measure of our nation's industrial capacity, and can be allocated towards Civilian Factories, Military Factories, or to produce Consumer Goods."
 
 economy_topbar_power_text: "[?resource@power]"
-economy_topbar_power_short_tt: "§YGrid Power§!\nProduced £tt_power §YGrid Power§!: §Y[Get_power_produced_amnt]§!\n\nFrom §Ystates§!:\n[!power_bg_click]\n\nBuilding £tt_power §YGrid Power Consumption§! §R-[?buildings_power_demand|0]§![Get_Uranium_Missing_Power]"
-economy_topbar_power_long_tt: "Grid Power is used to power your nation's economy, and is produced by Power Plant buildings. Grid Power acts as a cap on the number of Production Units which can be assigned."
+economy_topbar_power_short_tt: "§Y전력§!\n생산중인 £tt_power §Y전력§!: §Y[Get_power_produced_amnt]§!\n\nFrom §Ystates§!:\n[!power_bg_click]\n\nBuilding £tt_power §YGrid Power Consumption§! §R-[?buildings_power_demand|0]§![Get_Uranium_Missing_Power]"
+economy_topbar_power_long_tt: "전력은 국가 전체에 전기를 공급하기 위해 필요하며, 발전소를 통해 생산할 수 있습니다. 전력은 할당 가능한 생산 단위의 상한선 역할을 합니다."
 economy_topbar_missing_uranium_tt: "\n§RMissing Uranium in Reactors: -[?buildings_uranium_missing_demand]§!"
 
 economy_topbar_power_from_a_state: "produces £tt_power §Y[?new_power|0]§!"
@@ -777,7 +777,7 @@ econ_military_factories_production_tt: ""
 econ_cosnumer_goods_production_tt: "§d기본 생산: §Y[?PU_base_consumer_goods_produced]§!\n우리의 소비재 생산 요인: [?modifier@consumer_goods_production_factor|%+]\n실제 생산되는 소비재: §Y[?consumer_goods_monthly_use]§!"
 
 production_units_allocation_tt: "Based on the §YGDP§! of our states and our §Ytrade balance§!, our nation has [?production_units] £tt_prod_unit §GProduction Units§! available\n\nWe need §W[GetCurrency][Get_missing_gdp_for_pu]B§! §YGDP§! to gain 1 more £tt_prod_unit §GProduction Units§!.\n\nWe are limited to using [?resource@power] of these units due to our £tt_power §YGrid Power§!"
-production_units_allocation_power_tt: "Our nation is currently producing [?resource@power] £tt_power §YGrid Power§!"
+production_units_allocation_power_tt: "우리는 현재 [?resource@power] 만큼의 £tt_power §Y전력§!을 생산하고 있습니다."
 
 production_unit_assignment_numbers: "[ProdUnitsPowerLimitStatus][?production_units_used]§!§G/[?production_units]§!"
 grid_power_display: "§Y[?resource@power]§!"
@@ -1786,7 +1786,7 @@ alerts_realGrowth_tt_active_long: "When inflation exceeds the GDP growth rate, �
 alerts_inflation_text_l: "[getEconAlertText_inflation]"
 alerts_inflation_text_inactive: "치명적인 인플레이션"
 alerts_inflation_text_active: "§R치명적인 인플레이션§!"
-alerts_inflation_tt_inactive: "Our £inflation_texticon §RInflation§! rate is currently under control."
+alerts_inflation_tt_inactive: "우리의 £inflation_texticon §R인플레이션§!은 현재 통제 하에 있습니다."
 alerts_inflation_tt_active: "Our £inflation_texticon §RInflation§! is currently §Yvery high§!. This can result in §Rnegative§! real GDP growth which shrinks our economy.\n\nIt also adversely effects factory output, construction speed and consumer goods production.\n\nTo counter inflation, consider adjusting central bank policy or reducing money creation."
 alerts_inflation_tt_active_long: "Inflation occurs when general price levels rise. It generally occurs when §Ymoney creation§! exceeds a nation's general growth rate. High inflation can lead to §Rdistorted§! and §Rinefficient§! economies. "
 
