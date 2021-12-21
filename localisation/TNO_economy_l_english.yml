@@ -185,7 +185,7 @@ econ_total_spending_txt_number: "§W$[?total_expenditures|2]B§!"
 econ_total_spending_pie_tt: "§R총 지출:§! §W$[?total_expenditures|2]B§!\n--------------\n\n§S[?military_expenditures_percent]% 군사 지출:§! §W$[?military_expenditures|2]B§!\n§w[?civilian_expenditures_percent]% 민간 지출:§! §W$[?civilian_expenditures|2]B§!\n§O[?debt_servicing_expenditures_percent]% 부채 상환:§! §W$[?debt_servicing_expenditures|2]B§!\n§l[?misc_expenditures_percent]% 기타 비용:§! §W$[?misc_costs_true|2]B§!"
 
 tax_hike_button_tt: "[!tax_hike_button_click_enabled]\n이를 시행하면 향후 6개월간 모든 세율을 현재의 최소 15% 인상하여 우리에게 추가 수입을 가져다 주겠지만, 경제성장률에 큰 영향을 끼칠 것입니다."
-tax_cut_button_tt: "[!tax_cuts_button_click_enabled]\nT이를 시행하면 향후 6개월간 모든 세율을 현재의 최소 15% 인하하여 우리의 수입이 줄어들겠지만, £political_power_texticon 정치력 §Y20§!을 추가해주며 향후 6개월간 경제성장률이 증가할 것입니다."
+tax_cut_button_tt: "[!tax_cuts_button_click_enabled]\n이를 시행하면 향후 6개월간 모든 세율을 현재의 최소 15% 인하하여 우리의 수입이 줄어들겠지만, £political_power_texticon 정치력 §Y20§!을 추가해주며 향후 6개월간 경제성장률이 증가할 것입니다."
 recent_tax_button_used: "이례적인 세율 변경에 영향을 받지 않음"
 
 econ_total_revenue_pie_tt: "§G총 수입:§! §W$[?total_income|2]B§!\n--------------\n\n§B[?income_revenue_percent]% 소득세 수입:§! §W$[?income_tax_revenue|2]B§!\n§n[?business_revenue_percent]% 법인세 수입:§! §W$[?industrial_contribution|2]B§!\n§Q[?excise_revenue_percent]% 소비세 수입:§! §W$[?excise_income_true|2]B§!\n§I[?other_revenue_percent]% 기타 수입:§! §W$[?misc_income_true|2]B§!"
