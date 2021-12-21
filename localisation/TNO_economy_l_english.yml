@@ -776,7 +776,7 @@ econ_cosnumer_factories_production_tt: ""
 econ_military_factories_production_tt: ""
 econ_cosnumer_goods_production_tt: "§d기본 생산: §Y[?PU_base_consumer_goods_produced]§!\n우리의 소비재 생산 요인: [?modifier@consumer_goods_production_factor|%+]\n실제 생산되는 소비재: §Y[?consumer_goods_monthly_use]§!"
 
-production_units_allocation_tt: "우리의 §YGDP§!와 §Y무역 수지§!에 기반하여 계산하여 현재 [?production_units]개 £tt_prod_unit §G생산 단위§!를 사용할 수 있습니다.\n\n£tt_prod_unit §G생산 단위§!를 1개 더 늘리기 위해서는 §YGDP§!를 §W[GetCurrency][Get_missing_gdp_for_pu]B§! 더 늘려야 합니다.\n\n우리는 현재 tt_power §Y전력§! 때문에 최대 [?resource@power]개 단위까지만 사용할 수 있습니다."
+production_units_allocation_tt: "우리의 §YGDP§!와 §Y무역 수지§!에 기반하여 계산하여 현재 [?production_units]개 £tt_prod_unit §G생산 단위§!를 사용할 수 있습니다.\n\n£tt_prod_unit §G생산 단위§!를 1개 더 늘리기 위해서는 §YGDP§!를 §W[GetCurrency][Get_missing_gdp_for_pu]B§! 더 늘려야 합니다.\n\n우리는 현재 £tt_power §Y전력§! 때문에 최대 [?resource@power]개 단위까지만 사용할 수 있습니다."
 production_units_allocation_power_tt: "우리는 현재 [?resource@power] 만큼의 £tt_power §Y전력§!을 생산하고 있습니다."
 
 production_unit_assignment_numbers: "[ProdUnitsPowerLimitStatus][?production_units_used]§!§G/[?production_units]§!"
