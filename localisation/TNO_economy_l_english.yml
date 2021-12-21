@@ -171,7 +171,7 @@ econ_consumer_goods_production_modifier_good: "§G[?modifier@consumer_goods_prod
 econ_consumer_goods_production_modifier_neutral: "§W[?modifier@consumer_goods_production_factor|%]§!"
 econ_consumer_goods_production_modifier_bad: "§R[?modifier@consumer_goods_production_factor|%]§!"
 
-econ_consumer_goods_per_pu_tt: "기본적으로 우리의 모든 £tt_prod_unit §G생산 단위§!는 §Y1개 소비재§!를 생산합니다. This is further modified by [?modifier@consumer_goods_production_factor|%].§!"
+econ_consumer_goods_per_pu_tt: "기본적으로 우리의 모든 £tt_prod_unit §G생산 단위§!는 §Y1개 소비재§!를 생산합니다. 여기에 [?modifier@consumer_goods_production_factor|%] 만큼 변동치가 발생했습니다.§!"
 
 Debt_servicing_spending_txt: "§O부채 상환:§!"
 Debt_servicing_spending_txt_number: "§W$[?debt_servicing_expenditures|2]B§!"
