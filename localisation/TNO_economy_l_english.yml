@@ -225,7 +225,7 @@ econ_other_revenue_txt_number: "§W$[?misc_income_true|2]B§!"
 
 
 econ_gdp_title: "§GGDP:§! §W[GetCurrency][?GDP|2]B§!"
-econ_debt_to_gdp_title: "§RGDP대 부채 비율:§! §W[?debt_to_GDP_ratio|1%]§!"
+econ_debt_to_gdp_title: "§RGDP 대 부채 비율:§! §W[?debt_to_GDP_ratio|1%]§!"
 
 
 econ_tab_actions_emergency_actions_civ_aust_tt: "[!civ_austerity_button_click_enabled]\n[!civ_austerity_button_click]"
@@ -1777,8 +1777,8 @@ tax_cut_dynmod: "Temporary tax cut"
 econ_ledger_open_tt:0 "§F§Y정부 지출 내역§!\n정부 내에서 각 분야별로 어느 정도의 예산을 소모하는지 살펴봅니다.§!"
 # Alerts
 alerts_realGrowth_text_l: "[getEconAlertText_realGrowth]"
-alerts_realGrowth_text_inactive: "NEGATIVE REAL GROWTH"
-alerts_realGrowth_text_active: "§RNEGATIVE REAL GROWTH§!"
+alerts_realGrowth_text_inactive: "경제 역성장"
+alerts_realGrowth_text_active: "§R경제 역성장§!"
 alerts_realGrowth_tt_inactive: "Our real GDP growth (£gdp_growth_texticon Nominal GDP growth - £inflation_texticon Inflation) is positive right now."
 alerts_realGrowth_tt_active: "Our real GDP growth is currently §Rnegative§!, which means that our economy is §Rshrinking§!. This reduces our available £tt_prod_unit Production Units and §Ytax income§!!\n\nTake action to increase £gdp_growth_texticon §GNominal GDP growth§! or reduce £inflation_texticon §RInflation§!."
 alerts_realGrowth_tt_active_long: "When inflation exceeds the GDP growth rate, §Yreal GDP§! decreases, as overall prices rise faster than the economy is growing."
@@ -1805,8 +1805,8 @@ alerts_debt_tt_active: ""
 alerts_debt_tt_active_long: ""
 
 alerts_reserves_text_l: "[getEconAlertText_reserves]"
-alerts_reserves_text_inactive: "BLOATED RESERVES"
-alerts_reserves_text_active: "§RBLOATED RESERVES§!"
+alerts_reserves_text_inactive: "넘쳐나는 유동준비금"
+alerts_reserves_text_active: "§R넘쳐나는 유동준비금§!"
 alerts_reserves_tt_inactive: ""
 alerts_reserves_tt_active: ""
 alerts_reserves_tt_active_long: ""
