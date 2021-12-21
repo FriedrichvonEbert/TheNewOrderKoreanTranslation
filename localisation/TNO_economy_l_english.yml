@@ -1640,7 +1640,7 @@ TNO_Econ_GetWarTaxesStatus: "[GetWarTaxesChange]"
 TNO_Econ_GetWarTaxesStatusBtn: "[GetWarTaxesActiveText]"
 TNO_Econ_GetWarTaxesStatusTextActive: "§R활성화§!"
 TNO_Econ_GetWarTaxesStatusTextInactive: "§Y비활성화§!"
-TNO_Econ_WarTaxesInfo_tt:0 "전시 세금은 현재 [GetWarTaxesChangeTT] 상태입니다.\n--------------\n§LWar taxes can be enacted in times of need, when a war takes too much of a toll on the national economy, and when the costs of enacting it are deemed to be worth the economic boost.§!\n\n§FEnacting war taxes will grant:\n   Business Tax Rate: [?0.15|+=2%]\n   Income Tax rate: [?0.15|+=2%]\n\nAt the cost of the following debuffs:\n   War Support: [?-0.075|+=2%]\n   GDP Growth: [?-0.015|+=2%]\n   (Temp) §YDraft Exemptions§! policy effectiveness: [?-0.1|+=2%]\n\nIt costs £political_power_texticon §Y50§! to enact war taxes."
+TNO_Econ_WarTaxesInfo_tt:0 "전시 세금은 현재 [GetWarTaxesChangeTT] 상태입니다.\n--------------\n§L전시 세금은 전쟁이 국가 경제에 너무 큰 타격을 입히고 있으며 제정할 때 드는 비용이 경제 부양으로 따라오는 이득을 감수할 만한 때 시행할 수 있습니다.§!\n\n§FEnacting war taxes will grant:\n   Business Tax Rate: [?0.15|+=2%]\n   Income Tax rate: [?0.15|+=2%]\n\nAt the cost of the following debuffs:\n   War Support: [?-0.075|+=2%]\n   GDP Growth: [?-0.015|+=2%]\n   (Temp) §YDraft Exemptions§! policy effectiveness: [?-0.1|+=2%]\n\nIt costs £political_power_texticon §Y50§! to enact war taxes."
 #, Income Tax is currently [?income_tax_factor|%] Business Tax is currently [?business_tax_rate_total|0Y%]
 TNO_ECON_ARMY_IDEA_SPAM_0: "§YArmy§! research spending at [?army_idea_number]%"
 TNO_ECON_ARMY_IDEA_SPAM_1: "§YArmy§! research spending at [?army_idea_number]%"
