@@ -36,7 +36,7 @@ gdp_growth_multiplier_damaged_infrastructure_info:0 "\n  핵심주에서 §R피�
 gdp_growth_multiplier_taxes_info:0 "\n  [?total_taxes_effect|+=3] 우리의 조세 영향:\n    [?income_taxes_effect|+=3] 소득세 영향\n    [?business_taxes_effect|+=3] 법인세 영향\n    [?sales_taxes_effect|+3=] 소비세 영향"
 gdp_growth_multiplier_decreasing_population_info:0 "\n  [?population_growth_effect|+=3] from a §Rdecreasing§! population"
 gdp_growth_multiplier_trade_effect_info:0 "\n  [?trade_effect|+=3] from our trade balance of §Y$[?total_trade_value|3]B§!"
-gdp_growth_multiplier_market_centralization_info:0 "\n  [?market_gdp_growth_centralization_effect|3+=] from our §YEconomic Centralization§!"
+gdp_growth_multiplier_market_centralization_info:0 "\n  [?market_gdp_growth_centralization_effect|3+=] 자국의 §Y경제 중앙화§! 영향"
 
 
 debt_ceiling_txt: "§R채무한계:§!"
@@ -59,7 +59,7 @@ inflation_txt_number: "§W[?clamped_inflation_rate|3]%§!"
 inflation_tt: "우리의 매년 인플레이션은 £inflation_texticon [?clamped_inflation_rate|3-]§R%§!입니다. 인플레이션은 언제나 경제성장률을 §R하락§!시키며, §Y0§!% 아래로는 갈 수 없습니다.\n\n우리의 인플레이션:\n  [?base_inflation_rate|3-]§R%§! 기본 인플레이션율\n  [?inflation_cycling_effect_adjusted|3-][GetRedGreenInflationCycling]%§! 인플레이션의 자연변화율[GetInflationModifierExists][GetDeficitMonetizationEffectExists]\n\n[GetHasInflationProductivityEffects]"
 inflation_long_tt: ""
 
-inflation_modifier_info:0 "\n  [?modifier@inflation_rate_modifier|3-][GetRedGreenInflationRateModifier]%§! from country modifiers"
+inflation_modifier_info:0 "\n  [?modifier@inflation_rate_modifier|3-][GetRedGreenInflationRateModifier]%§! 국가 변동치"
 inflation_deficit_monetization_info:0 "\n  [?deficit_monetization_inflation_effect|3-]§R%§! 우리의 화폐발행 정도"
 
 inflation_productivity_effects_info:0 "지난 달의 인플레이션 £inflation_texticon 은 [?last_month_clamped_inflation_rate|3-]§R%§! 다음과 같은 효과를 지닙니다:\n  [?TNO_econ_inflation_factory_output_penalty|1%+] $MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$\n  [?TNO_econ_inflation_factory_output_penalty|1%+] $MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$\n  [?TNO_econ_inflation_construction_speed_penalty|1%+] $MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$\n  [?TNO_econ_inflation_consumer_goods_production_penalty|1%+] $consumer_goods_production_factor$" 
@@ -81,7 +81,7 @@ econ_civ_spending_txt: "§w민간 지출:§!"
 econ_civ_spending_txt_extended: "민간 예산:"
 econ_civ_spending_txt_number: "§W$[?civilian_expenditures|2]B§!"
 
-econ_civ_spending_tt: "§W이 수치는 우리의 민간 지출의 합에 민간 지출 변동치 §w[?modifier@civilian_expenditures_factor|%]§! 만큼을 곱한 값입니다. 지출 효과는 매월마다 업데이트되며 비용도 매 월마다 적용됩니다.§!"
+econ_civ_spending_tt: "§W이 수치는 우리의 민간 지출의 총 합에 민간 지출 변동치 §w[?modifier@civilian_expenditures_factor|%]§! 만큼을 곱한 값입니다. 지출 효과는 매월마다 업데이트되며 비용도 매 월마다 적용됩니다.§!"
 
 econ_social_spending_txt: "사회 지출:"
 econ_social_spending_txt_number: "§W$[?total_sp_costs|2]B§!"
@@ -123,7 +123,7 @@ central_bank_policy_title_txt:0 "중앙은행 정책"
 econ_mil_spending_txt: "§S군비 지출:§!"
 econ_mil_spending_txt_number: "§W$[?military_expenditures|2]B§!"
 
-econ_mil_spending_tt: "§WThis is the sum of our military expenditures multiplied by military expenditures modifier of §S[?modifier@military_expenditures_factor|%]§!. Spending effects will update monthly, and costs will go into effect then as well§!"
+econ_mil_spending_tt: "§W이 수치는 우리 군사 지출의 총 합에 군사 지출 변동치 §S[?modifier@military_expenditures_factor|%]§! 만큼을 곱한 값입니다. 지출 효과는 매월마다 업데이트되며 비용도 매 월마다 적용됩니다.§!"
 
 econ_spending_title: "정부 지출 내역"
 
