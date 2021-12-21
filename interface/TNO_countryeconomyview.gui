@@ -613,7 +613,7 @@ guiTypes = {
 					position = { x = 4 y = 4 }
 					textureFile = ""
 					font = "Bomb_16"
-					text = "Economic Sphere"
+					text = "경제권"
 					maxWidth = 125
 					maxHeight = 20
 					format = center
@@ -7652,8 +7652,8 @@ guiTypes = {
 				text = "금리"
 				maxWidth = 330
 				format = center
-				tooltip = "Set our interest rates"
-				pdx_tooltip_delayed = "Interest rates affect both inflation and GDP growth. High inflation can be countered by raising interest rates, but this will negatively impact GDP growth as well. Conversely, the economy can be stimulated by lowering interest rates, but this can result in higher inflation."
+				tooltip = "금리 설정"
+				pdx_tooltip_delayed = "금리는 인플레이션과 GDP 성장률 양쪽 모두에 영향을 미칩니다. 높은 인플레이션은 금리 인상으로 해결할 수 있지만 이는 국내총생산 성장률에 부정적인 영향을 미칠 것입니다. 반대로 금리를 인하하면 경제를 부양할 수 있지만 인플레이션도 더 높아질 것입니다."
 			}
 
 			instantTextboxType = {
