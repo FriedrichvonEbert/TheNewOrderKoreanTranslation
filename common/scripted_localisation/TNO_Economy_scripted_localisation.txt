@@ -1,0 +1,6198 @@
+﻿defined_text = {
+	name = get_topbar_economy_button_tt
+	text = {
+		localization_key = topbar_economy_button_tt_normal
+	}
+}
+
+### EconAlerts #
+getEconAlertText_realGrowth = {
+	name = getEconAlertText_realGrowth
+
+	# Active
+	text = {
+		trigger = { has_country_flag = ECON_WARNING_LOW_GROWTH }
+		localization_key = alerts_realGrowth_text_active
+	}
+
+	# Inactive
+	text = {
+		trigger = { NOT = { has_country_flag = ECON_WARNING_LOW_GROWTH } }
+		localization_key = alerts_realGrowth_text_inactive
+	}
+}
+
+getEconAlertText_inflation = {
+	name = getEconAlertText_inflation
+
+	# Active
+	text = {
+		trigger = { has_country_flag = ECON_WARNING_HIGH_INFLATION }
+		localization_key = alerts_inflation_text_active
+	}
+
+	# Inactive
+	text = {
+		trigger = { NOT = { has_country_flag = ECON_WARNING_HIGH_INFLATION } }
+		localization_key = alerts_inflation_text_inactive
+	}
+}
+
+getEconAlertText_deficit = {
+	name = getEconAlertText_deficit
+
+	# Active
+	text = {
+		trigger = { has_country_flag = ECON_WARNING_HIGH_DEFICIT }
+		localization_key = alerts_deficit_text_active
+	}
+
+	# Inactive
+	text = {
+		trigger = { NOT = { has_country_flag = ECON_WARNING_HIGH_DEFICIT } }
+		localization_key = alerts_deficit_text_inactive
+	}
+}
+
+getEconAlertText_debt = {
+	name = getEconAlertText_debt
+
+	# Active
+	text = {
+		trigger = { has_country_flag = ECON_WARNING_HIGH_DEBT }
+		localization_key = alerts_debt_text_active
+	}
+
+	# Inactive
+	text = {
+		trigger = { NOT = { has_country_flag = ECON_WARNING_HIGH_DEBT } }
+		localization_key = alerts_debt_text_inactive
+	}
+}
+# EconAlerts ###
+
+getEconAlertText_reserves = {
+	name = getEconAlertText_reserves
+
+	# Active
+	text = {
+		trigger = { has_country_flag = ECON_WARNING_BLOATED_RESERVES }
+		localization_key = alerts_reserves_text_active
+	}
+
+	# Inactive
+	text = {
+		trigger = { NOT = { has_country_flag = ECON_WARNING_BLOATED_RESERVES } }
+		localization_key = alerts_reserves_text_inactive
+	}
+}
+
+getEconAlertText_crisis = {
+	name = getEconAlertText_crisis
+
+	# Active
+	text = {
+		trigger = { has_country_flag = ECON_ONGOING_FISCAL_CRISIS }
+		localization_key = alerts_crisis_text_active
+	}
+
+	# Inactive
+	text = {
+		trigger = { NOT = { has_country_flag = ECON_ONGOING_FISCAL_CRISIS } }
+		localization_key = alerts_crisis_text_inactive
+	}
+}
+
+defined_text = {
+	name = GetMajorAddendum
+	text = {
+		trigger = {
+			OR = {
+				tag = USA
+				tag = GER
+				tag = JAP
+			}
+		}
+		localization_key = " Since we are a major power, our credit rating cannot fall."
+	}
+
+	text = {
+		localization_key = ""
+	}
+}
+
+
+defined_text = {
+	name = Get_deficit_ratio
+	text = {
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio > 0 }
+		}
+		localization_key = surplus_ratio_green
+	}
+	text = {
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio > -10 }
+		}
+		localization_key = deficit_ratio_green
+	}
+	text = {
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio > -30 }
+		}
+		localization_key = deficit_ratio_yellow
+	}
+	text = {
+		localization_key = deficit_ratio_red
+	}
+}
+
+defined_text = {
+	name = Get_GDP
+	text = {
+		trigger = {
+			check_variable = { GDP < 1 }
+		}
+		localization_key = GDP_million
+	}
+	text = {
+		trigger = {
+			check_variable = { GDP > 999 }
+		}
+		localization_key = GDP_trillion
+	}
+	text = {
+		localization_key = GDP_billion
+	}
+}
+
+defined_text = {
+	name = Get_GDP_topbar
+	text = {
+		trigger = {
+			check_variable = { GDP < 1 }
+		}
+		localization_key = GDP_million_topbar
+	}
+	text = {
+		trigger = {
+			check_variable = { GDP > 999 }
+		}
+		localization_key = GDP_trillion_topbar
+	}
+	text = {
+		localization_key = GDP_billion_topbar
+	}
+}
+
+defined_text = {
+	name = Get_annual_debt_payments
+	text = {
+		trigger = {
+			check_variable = { GDP < 1 } #already converted to billion
+		}
+		localization_key = annual_debt_payments_million
+	}
+	text = {
+		trigger = {
+			check_variable = { GDP > 999 } #already converted to billion
+		}
+		localization_key = annual_debt_payments_trillion
+	}
+	text = {
+		localization_key = annual_debt_payments_billion
+	}
+}
+
+
+defined_text = {
+	name = Get_total_budget
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { total_budget < 1 }
+				check_variable = { total_budget > -1 }
+			}
+		}
+		localization_key = total_budget_million
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { total_budget > 1000 }
+				check_variable = { total_budget < -1000 }
+			}
+		}
+		localization_key = total_budget_trillion
+	}
+	text = {
+		localization_key = total_budget_billion
+	}
+}
+
+defined_text = {
+	name = Get_total_expenditures
+	text = {
+		trigger = {
+			check_variable = { total_expenditures < 1 }
+		}
+		localization_key = total_expenditures_million
+	}
+	text = {
+		trigger = {
+			check_variable = { total_expenditures > 1000 }
+		}
+		localization_key = total_expenditures_trillion
+	}
+	text = {
+		localization_key = total_expenditures_billion
+	}
+}
+
+defined_text = {
+	name = Get_civilian_expenditures
+	text = {
+		trigger = {
+			check_variable = { civilian_expenditures < 1 }
+		}
+		localization_key = civilian_expenditures_million
+	}
+	text = {
+		trigger = {
+			check_variable = { civilian_expenditures > 1000 }
+		}
+		localization_key = civilian_expenditures_trillion
+	}
+	text = {
+		localization_key = civilian_expenditures_billion
+	}
+}
+
+defined_text = {
+	name = Get_civilian_expenditures_topbar
+	text = {
+		trigger = {
+			check_variable = { civilian_expenditures < 1 }
+		}
+		localization_key = civilian_expenditures_million_topbar
+	}
+	text = {
+		trigger = {
+			check_variable = { civilian_expenditures > 1000 }
+		}
+		localization_key = civilian_expenditures_trillion_topbar
+	}
+	text = {
+		localization_key = civilian_expenditures_billion_topbar
+	}
+}
+
+defined_text = {
+	name = Get_military_expenditures
+	text = {
+		trigger = {
+			check_variable = { military_expenditures < 1 }
+		}
+		localization_key = military_expenditures_million
+	}
+	text = {
+		trigger = {
+			check_variable = { military_expenditures > 1000 }
+		}
+		localization_key = military_expenditures_trillion
+	}
+	text = {
+		localization_key = military_expenditures_billion
+	}
+}
+
+defined_text = {
+	name = Get_military_expenditures_topbar
+	text = {
+		trigger = {
+			check_variable = { military_expenditures < 1 }
+		}
+		localization_key = military_expenditures_million_topbar
+	}
+	text = {
+		trigger = {
+			check_variable = { military_expenditures > 1000 }
+		}
+		localization_key = military_expenditures_trillion_topbar
+	}
+	text = {
+		localization_key = military_expenditures_billion_topbar
+	}
+}
+
+
+defined_text = {
+	name = Get_construction_expenditures
+	text = {
+		trigger = {
+			check_variable = { construction_expenditures < 1 }
+		}
+		localization_key = construction_expenditures_million
+	}
+	text = {
+		trigger = {
+			check_variable = { construction_expenditures > 1000 }
+		}
+		localization_key = construction_expenditures_trillion
+	}
+	text = {
+		localization_key = construction_expenditures_billion
+	}
+}
+
+defined_text = {
+	name = Get_money_reserves
+	text = {
+		trigger = {
+			check_variable = { money_reserves < 0.001 } #already converted to billion
+		}
+		localization_key = money_reserves_million
+	}
+	text = {
+		trigger = {
+			check_variable = { money_reserves > 1.0 } #already converted to billion
+		}
+		localization_key = money_reserves_trillion
+	}
+	text = {
+		localization_key = money_reserves_billion
+	}
+}
+
+defined_text = {
+	name = Get_national_debt
+	text = {
+		trigger = {
+			check_variable = { national_debt < 1 }
+		}
+		localization_key = national_debt_million
+	}
+	text = {
+		trigger = {
+			check_variable = { national_debt > 999 }
+		}
+		localization_key = national_debt_trillion
+	}
+	text = {
+		localization_key = national_debt_billion
+	}
+}
+
+defined_text = {
+	name = Get_national_debt_topbar
+	text = {
+		trigger = {
+			check_variable = { national_debt < 1 }
+		}
+		localization_key = national_debt_million_topbar
+	}
+	text = {
+		trigger = {
+			check_variable = { national_debt > 999 }
+		}
+		localization_key = national_debt_trillion_topbar
+	}
+	text = {
+		localization_key = national_debt_billion_topbar
+	}
+}
+
+defined_text = {
+	name = Get_deficit_surplus
+	text = {
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio > 0 }
+		}
+		localization_key = "흑자"
+	}
+	text = {
+		localization_key = "적자"
+	}
+}
+
+defined_text = {
+	name = Get_deficit_surplus_desc
+	text = {
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio > 0 }
+		}
+		localization_key = "econ_surplus_desc"
+	}
+	text = {
+		localization_key = "econ_deficit_desc"
+	}
+}
+
+defined_text = {
+	name = Get_deficit_surplus_capitalized
+	text = {
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio > 0 }
+		}
+		localization_key = "econ_surplus_title"
+	}
+	text = {
+		localization_key = "econ_deficit_title"
+	}
+}
+
+defined_text = {
+	name = Get_deficit_gdp_growth_effect
+	text = {
+		trigger = {
+			check_variable = { deficit_GDP_growth_effect > 0 }
+		}
+		localization_key = "econ_deficit_GDP_growth_positive"
+	}
+	text = {
+		trigger = {
+			check_variable = { deficit_GDP_growth_effect < 0 }
+		}
+		localization_key = "econ_deficit_GDP_growth_negative"
+	}
+	text = {
+		localization_key = "econ_deficit_GDP_growth_neutral"
+	}
+}
+
+defined_text = {
+	name = GetRedGreenBaseGDPGrowth
+	text = {
+		trigger = {
+			check_variable = { gdp_growth > 0}
+		}
+
+		localization_key = DeficitColorRatioGreen
+	}
+
+	text = {
+		trigger = {
+			check_variable = { gdp_growth < 0 }
+		}
+		localization_key = DeficitColorRatioRed
+
+	}
+
+	text = {
+		localization_key = DeficitColorRatioYellow
+	}
+}
+
+defined_text = {
+	name = GetGDPGrowthModifierExists
+	text = {
+		trigger = {
+			check_variable = { modifier@gdp_growth_modifier = 0 }
+		}
+
+		localization_key = ""
+	}
+
+	text = {
+		localization_key = gdp_growth_modifier_info
+	}
+}
+
+defined_text = {
+	name = GetRedGreenModifierGDPGrowth
+	text = {
+		trigger = {
+			check_variable = { modifier@gdp_growth_modifier > 0}
+		}
+
+		localization_key = DeficitColorRatioGreen
+	}
+
+	text = {
+		trigger = {
+			check_variable = { modifier@gdp_growth_modifier < 0 }
+		}
+		localization_key = DeficitColorRatioRed
+
+	}
+
+	text = {
+		localization_key = DeficitColorRatioYellow
+	}
+}
+
+defined_text = {
+	name = GetGDPGrowthEffectReservesExists
+	text = {
+		trigger = {
+			check_variable = { reserves_effect_on_GDP_growth = 0 }
+		}
+
+		localization_key = ""
+	}
+
+	text = {
+		localization_key = gdp_growth_reserves_info
+	}
+}
+
+defined_text = {
+	name = GetRedGreenSpendingEffect
+	text = {
+		trigger = {
+			check_variable = { deficit_GDP_growth_effect > 0}
+		}
+
+		localization_key = DeficitColorRatioGreen
+	}
+
+	text = {
+		trigger = {
+			check_variable = { deficit_GDP_growth_effect < 0 }
+		}
+		localization_key = DeficitColorRatioRed
+
+	}
+
+	text = {
+		localization_key = DeficitColorRatioYellow
+	}
+}
+
+
+defined_text = {
+	name = GetGDPGrowthDebtEffectExists
+	text = {
+		trigger = {
+			check_variable = { debt_effect_on_nominal_growth = 0 }
+		}
+
+		localization_key = ""
+	}
+
+	text = {
+		localization_key = gdp_growth_debt_level_info
+	}
+}
+
+defined_text = {
+	name = GetRedGreenGDPMultiplier
+	text = {
+		trigger = {
+			check_variable = { GDP_growth_multiplier > 0}
+		}
+
+		localization_key = DeficitColorRatioGreen
+	}
+
+	text = {
+		trigger = {
+			check_variable = { GDP_growth_multiplier < 0 }
+		}
+		localization_key = DeficitColorRatioRed
+
+	}
+	text = {
+		localization_key = DeficitColorRatioYellow
+	}
+}
+
+defined_text = {
+	name = GetGrowthMultiplierExists
+	text = {
+		trigger = {
+			check_variable = { modifier@annual_gdp_growth_factor = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = gdp_growth_multiplier_modifier_info
+	}
+}
+
+defined_text = {
+	name = GetTotalInfrastructureExists
+	text = {
+		trigger = {
+			check_variable = { total_state_infrastructure_effect = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = gdp_growth_multiplier_total_infrastructure_info
+	}
+}
+
+defined_text = {
+	name = GetDamagedInfrastructureExists
+	text = {
+		trigger = {
+			check_variable = { total_state_damaged_infrastructure_effect = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = gdp_growth_multiplier_damaged_infrastructure_info
+	}
+}
+
+defined_text = {
+	name = GetTaxesEffectExists
+	text = {
+		trigger = {
+			check_variable = { total_taxes_effect = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = gdp_growth_multiplier_taxes_info
+	}
+}
+
+defined_text = {
+	name = GetPopulationEffectExists
+	text = {
+		trigger = {
+			check_variable = { population_growth_effect = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = gdp_growth_multiplier_decreasing_population_info
+	}
+}
+
+defined_text = {
+	name = GetTradeEffectExists
+	text = {
+		trigger = {
+			check_variable = { trade_effect = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = gdp_growth_multiplier_trade_effect_info
+	}
+}
+defined_text = {
+	name = GetMarketCentralizationEffectExists
+	text = {
+		trigger = {
+			check_variable = { market_gdp_growth_centralization_effect = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = gdp_growth_multiplier_market_centralization_info
+	}
+}
+
+defined_text = {
+	name = GetCentralizationLevelBenefits
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 1 }
+		}
+		localization_key = CapitalismBenefits
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 2 }
+		}
+		localization_key = CorporatismBenefits
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 3 }
+		}
+		localization_key = PlannedBenefits
+	}
+}
+
+defined_text = {
+	name = GetFullDecentralization
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 1 }
+		}
+		localization_key = CapitalismFullDecentralization
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 2 }
+		}
+		localization_key = CorporatismFullDecentralization
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 3 }
+		}
+		localization_key = PlannedFullDecentralization
+	}
+}
+
+defined_text = {
+	name = GetFullCentralization
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 1 }
+		}
+		localization_key = CapitalismFullCentralization
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 2 }
+		}
+		localization_key = CorporatismFullCentralization
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 3 }
+		}
+		localization_key = PlannedFullCentralization
+	}
+}
+
+defined_text = {
+	name = GetBaseBonusCentralization
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 1 }
+		}
+		localization_key = CapitalismBase
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 2 }
+		}
+		localization_key = CorporatismBase
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = 3 }
+		}
+		localization_key = PlannedBase
+	}
+}
+
+defined_text = {
+	name = GetRedGreenInflationCycling
+	text = {
+		trigger = {
+			check_variable = { inflation_cycling_effect_adjusted < 0}
+		}
+
+		localization_key = DeficitColorRatioGreen
+	}
+
+	text = {
+		trigger = {
+			check_variable = { inflation_cycling_effect_adjusted > 0 }
+		}
+		localization_key = DeficitColorRatioRed
+
+	}
+	text = {
+		localization_key = DeficitColorRatioYellow
+	}
+}
+
+defined_text = {
+	name = GetInflationModifierExists
+	text = {
+		trigger = {
+			check_variable = { modifier@inflation_rate_modifier = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = inflation_modifier_info
+	}
+}
+
+defined_text = {
+	name = GetRedGreenInflationRateModifier
+	text = {
+		trigger = {
+			check_variable = { modifier@inflation_rate_modifier < 0}
+		}
+
+		localization_key = DeficitColorRatioGreen
+	}
+
+	text = {
+		trigger = {
+			check_variable = { modifier@inflation_rate_modifier > 0 }
+		}
+		localization_key = DeficitColorRatioRed
+
+	}
+	text = {
+		localization_key = DeficitColorRatioYellow
+	}
+}
+
+defined_text = {
+	name = GetDeficitMonetizationEffectExists
+	text = {
+		trigger = {
+			check_variable = { deficit_monetization_inflation_effect = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = inflation_deficit_monetization_info
+	}
+}
+
+defined_text = {
+	name = GetHasInflationProductivityEffects
+	text = {
+		trigger = {
+			check_variable = { TNO_econ_inflation_factory_output_penalty = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = inflation_productivity_effects_info
+	}
+}
+
+defined_text = {
+	name = GetWTFBug
+	text = {
+		localization_key = GetWTFBugLoc
+	}
+}
+defined_text = {
+	name = GetWTFBug2
+	text = {
+		localization_key = GetWTFBugLoc2
+	}
+}
+defined_text = {
+	name = GetWTFBug3
+	text = {
+		localization_key = GetWTFBugLoc3
+	}
+}
+
+defined_text = {
+	name = GetEconomyCentralizationDesc
+	text = {
+		trigger = { 
+			check_variable = { economic_centralization < 10 }
+		}
+		localization_key = EconomyCentralizationLaissezFaire
+	}
+	text = {
+		trigger = { 
+			check_variable = { economic_centralization < 30 }
+		}
+		localization_key = EconomyCentralizationMarketOriented
+	}
+	text = {
+		trigger = { 
+			check_variable = { economic_centralization < 50 }
+		}
+		localization_key = EconomyCentralizationInterventionist
+	}
+	text = {
+		trigger = { 
+			check_variable = { economic_centralization < 70 }
+		}
+		localization_key = EconomyCentralizationMixed
+	}
+	text = {
+		trigger = { 
+			check_variable = { economic_centralization < 90 }
+		}
+		localization_key = EconomyCentralizationPlanned
+	}
+	text = {
+		localization_key = EconomyCentralizationCommand
+	}
+}
+
+
+defined_text = {
+	name = GetRedGreenDeficit
+	text = {
+		trigger = {
+			set_temp_variable = { deficit_color_check = GDP_growth_real }
+			multiply_temp_variable = { deficit_color_check = -1 }
+			check_variable = { deficit_to_GDP_ratio < deficit_color_check }
+		}
+		localization_key = DeficitColorRatioRed
+	}
+	text = {
+		localization_key = DeficitColorRatioGreen
+	}
+}
+
+defined_text = {
+	name = Get_deficit_surplus_amount_b
+	text = {
+		trigger = {
+			check_variable = { deficit < 0 }
+			set_temp_variable = { surplus = deficit }
+			multiply_temp_variable = { surplus = -1 }
+		}
+		localization_key = "[?surplus|2]"
+	}
+	text = {
+		localization_key = "[?deficit|2]"
+	}
+}
+
+defined_text = {
+	name = Get_deficit
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { deficit < 1 }
+				check_variable = { deficit > 0 }
+			}
+		}
+		localization_key = deficit_million
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { deficit > 1000 }
+				check_variable = { deficit < -1000 }
+			}
+		}
+		localization_key = deficit_trillion
+	}
+	text = {
+		localization_key = deficit_billion
+	}
+}
+
+defined_text = {
+	name = Get_manpower_costs
+	text = {
+		trigger = {
+			check_variable = { manpower_costs < 1 }
+		}
+		localization_key = manpower_costs_million
+	}
+	text = {
+		trigger = {
+			check_variable = { manpower_costs > 1000 }
+		}
+		localization_key = manpower_costs_trillion
+	}
+	text = {
+		localization_key = manpower_costs_billion
+	}
+}
+
+defined_text = {
+	name = Get_military_factory_costs
+	text = {
+		trigger = {
+			check_variable = { military_factory_costs < 1 }
+		}
+		localization_key = military_factory_costs_million
+	}
+	text = {
+		trigger = {
+			check_variable = { military_factory_costs > 1000 }
+		}
+		localization_key = military_factory_costs_trillion
+	}
+	text = {
+		localization_key = military_factory_costs_billion
+	}
+}
+
+defined_text = {
+	name = Get_misc_costs
+	text = {
+		trigger = {
+			check_variable = { misc_costs_display < 1 }
+		}
+		localization_key = misc_costs_million
+	}
+	text = {
+		trigger = {
+			check_variable = { misc_costs_display > 1000 }
+		}
+		localization_key = misc_costs_trillion
+	}
+	text = {
+		localization_key = misc_costs_billion
+	}
+}
+
+defined_text = {
+	name = Get_misc_costs_topbar
+	text = {
+		trigger = {
+			check_variable = { misc_costs_display < 1 }
+		}
+		localization_key = misc_costs_million_topbar
+	}
+	text = {
+		trigger = {
+			check_variable = { misc_costs_display > 1000 }
+		}
+		localization_key = misc_costs_trillion_topbar
+	}
+	text = {
+		localization_key = misc_costs_billion_topbar
+	}
+}
+
+
+defined_text = {
+	name = Get_misc_income
+	text = {
+		trigger = {
+			check_variable = { misc_income_display < 1 }
+		}
+		localization_key = misc_income_million
+	}
+	text = {
+		trigger = {
+			check_variable = { misc_income_display > 1000 }
+		}
+		localization_key = misc_income_trillion
+	}
+	text = {
+		localization_key = misc_income_billion
+	}
+}
+
+defined_text = {
+	name = Get_misc_income_topbar
+	text = {
+		trigger = {
+			check_variable = { misc_income_display < 1 }
+		}
+		localization_key = misc_income_million_topbar
+	}
+	text = {
+		trigger = {
+			check_variable = { misc_income_display > 1000 }
+		}
+		localization_key = misc_income_trillion_topbar
+	}
+	text = {
+		localization_key = misc_income_billion_topbar
+	}
+}
+
+defined_text = {
+	name = Get_income_tax
+	text = {
+		trigger = {
+			has_idea = tno_income_taxation_elite_tax_exemptions
+		}
+		localization_key = tno_income_taxation_elite_tax_exemptions_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_income_taxation_tax_havens
+		}
+		localization_key = tno_income_taxation_tax_havens_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_income_taxation_low_income_weighted
+		}
+		localization_key = tno_income_taxation_low_income_weighted_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_income_taxation_flat_taxes
+		}
+		localization_key = tno_income_taxation_flat_taxes_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_income_taxation_high_income_weighted
+		}
+		localization_key = tno_income_taxation_high_income_weighted_gui
+	}
+}
+
+## Civilian
+
+defined_text = {
+	name = Get_health_care
+	text = {
+		trigger = {
+			has_idea = tno_health_care_support_for_emergencies
+		}
+		localization_key = tno_health_care_support_for_emergencies_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_health_care_low_income_protections
+		}
+		localization_key = tno_health_care_low_income_protections_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_health_care_universal_health_care
+		}
+		localization_key = tno_health_care_universal_health_care_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_health_care_free_universal_care
+		}
+		localization_key = tno_health_care_free_universal_care_gui
+	}
+}
+
+defined_text = {
+	name = Get_education
+	text = {
+		trigger = {
+			has_idea = tno_education_elite_only
+		}
+		localization_key = tno_education_elite_only_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_education_public_education
+		}
+		localization_key = tno_education_public_education_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_education_subsidised_higher_education
+		}
+		localization_key = tno_education_subsidised_higher_education_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_education_public_higher_education
+		}
+		localization_key = tno_education_public_higher_education_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_education_free_education
+		}
+		localization_key = tno_education_free_education_gui
+	}
+}
+
+defined_text = {
+	name = Get_security_service
+	text = {
+		trigger = {
+			has_idea = tno_security_anarchic
+		}
+		localization_key = tno_security_anarchic_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_security_police
+		}
+		localization_key = tno_security_police_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_security_security_service
+		}
+		localization_key = tno_security_security_service_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_security_data_cohesion
+		}
+		localization_key = tno_security_data_cohesion_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_security_wire_tapping
+		}
+		localization_key = tno_security_wire_tapping_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_security_preemptive_security
+		}
+		localization_key = tno_security_preemptive_security_gui
+	}
+}
+
+defined_text = {
+	name = Get_pensions
+	text = {
+		trigger = {
+			has_idea = tno_pensions_no_pensions
+		}
+		localization_key = tno_pensions_no_pensions_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_pensions_trinket_pensions
+		}
+		localization_key = tno_pensions_trinket_pensions_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_pensions_low_pensions
+		}
+		localization_key = tno_pensions_low_pensions_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_pensions_acceptable_pensions
+		}
+		localization_key = tno_pensions_acceptable_pensions_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_pensions_good_pensions
+		}
+		localization_key = tno_pensions_good_pensions_gui
+	}
+}
+
+defined_text = {
+	name = Get_unemployment
+	text = {
+		trigger = {
+			has_idea = tno_unemployment_no_subsidies
+		}
+		localization_key = tno_unemployment_no_subsidies_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_unemployment_trinket_subsidies
+		}
+		localization_key = tno_unemployment_trinket_subsidies_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_unemployment_low_subsidies
+		}
+		localization_key = tno_unemployment_low_subsidies_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_unemployment_generous_subsidies
+		}
+		localization_key = tno_unemployment_generous_subsidies_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_unemployment_basic_income
+		}
+		localization_key = tno_unemployment_basic_income_gui
+	}
+}
+
+## Military
+
+defined_text = {
+	name = Get_training
+	text = {
+		trigger = {
+			has_idea = tno_training_none
+		}
+		localization_key = tno_training_none_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_training_minimal_training
+		}
+		localization_key = tno_training_minimal_training_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_training_basic_training
+		}
+		localization_key = tno_training_basic_training_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_training_combat_schooling
+		}
+		localization_key = tno_training_combat_schooling_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_training_advanced_training_methods
+		}
+		localization_key = tno_training_advanced_training_methods_gui
+	}
+}
+
+defined_text = {
+	name = Get_military_supervision
+	text = {
+		trigger = {
+			has_idea = tno_military_supervision_kill_em_all
+		}
+		localization_key = tno_military_supervision_kill_em_all_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_military_supervision_no_supervision
+		}
+		localization_key = tno_military_supervision_no_supervision_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_military_supervision_military_policing
+		}
+		localization_key = tno_military_supervision_military_policing_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_military_supervision_rules_of_engagement
+		}
+		localization_key = tno_military_supervision_rules_of_engagement_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_military_supervision_watchdog_groups
+		}
+		localization_key = tno_military_supervision_watchdog_groups_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_military_supervision_total_supervision
+		}
+		localization_key = tno_military_supervision_total_supervision_gui
+	}
+}
+
+#Oil Crisis
+defined_text = {
+	name = Get_oilcrisis_military
+	text = {
+		trigger = { has_idea = TNO_Oil_Crisis }
+		localization_key = tno_oil_crisis_military_expenditure
+	}
+}
+
+defined_text = {
+	name = Get_industrial_expertise
+	text = {
+		trigger = {
+			has_idea = tno_industrial_expertise_pre_industrial
+		}
+		localization_key = tno_industrial_expertise_pre_industrial_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_industrial_expertise_incompetent
+		}
+		localization_key = tno_industrial_expertise_incompetent_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_industrial_expertise_nascent
+		}
+		localization_key = tno_industrial_expertise_nascent_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_industrial_expertise_experienced
+		}
+		localization_key = tno_industrial_expertise_experienced_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_industrial_expertise_innovative
+		}
+		localization_key = tno_industrial_expertise_innovative_gui
+	}
+}
+
+defined_text = {
+	name = Get_industrial_equipment
+	text = {
+		trigger = {
+			has_idea = tno_industrial_equipment_hand_tools
+		}
+		localization_key = tno_industrial_equipment_hand_tools_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_industrial_equipment_power_tools
+		}
+		localization_key = tno_industrial_equipment_power_tools_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_industrial_equipment_manufacturing_lines
+		}
+		localization_key = tno_industrial_equipment_manufacturing_lines_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_industrial_equipment_factory_complexes
+		}
+		localization_key = tno_industrial_equipment_factory_complexes_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_industrial_equipment_modern
+		}
+		localization_key = tno_industrial_equipment_modern_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_industrial_equipment_cutting_edge
+		}
+		localization_key = tno_industrial_equipment_cutting_edge_gui
+	}
+}
+
+# defined_text = {
+# 	name = Get_construction_level
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_0
+# 		}
+# 		localization_key = construction_level_0_gui
+# 	}
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_1
+# 		}
+# 		localization_key = construction_level_1_gui
+# 	}
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_2
+# 		}
+# 		localization_key = construction_level_2_gui
+# 	}
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_3
+# 		}
+# 		localization_key = construction_level_3_gui
+# 	}
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_4
+# 		}
+# 		localization_key = construction_level_4_gui
+# 	}
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_5
+# 		}
+# 		localization_key = construction_level_5_gui
+# 	}
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_6
+# 		}
+# 		localization_key = construction_level_6_gui
+# 	}
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_7
+# 		}
+# 		localization_key = construction_level_7_gui
+# 	}
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_8
+# 		}
+# 		localization_key = construction_level_8_gui
+# 	}
+# 	text = {
+# 		trigger = {
+# 			has_idea = construction_level_9
+# 		}
+# 		localization_key = construction_level_9_gui
+# 	}
+# }
+
+defined_text = {
+	name = Get_safety
+	text = {
+		trigger = {
+			has_idea = tno_safety_no_regulations
+		}
+		localization_key = tno_safety_no_regulations_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_safety_minimal_regulations
+		}
+		localization_key = tno_safety_minimal_regulations_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_safety_limited_regulations
+		}
+		localization_key = tno_safety_limited_regulations_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_safety_acceptable_regulations
+		}
+		localization_key = tno_safety_acceptable_regulations_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_safety_excellent_regulations
+		}
+		localization_key = tno_safety_excellent_regulations_gui
+	}
+}
+
+defined_text = {
+	name = Get_pollution
+	text = {
+		trigger = {
+			has_idea = tno_pollution_no_controls
+		}
+		localization_key = tno_pollution_no_controls_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_pollution_few_regulations
+		}
+		localization_key = tno_pollution_few_regulations_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_pollution_some_regulations
+		}
+		localization_key = tno_pollution_some_regulations_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_pollution_good_regulations
+		}
+		localization_key = tno_pollution_good_regulations_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_pollution_strict_regulations
+		}
+		localization_key = tno_pollution_strict_regulations_gui
+	}
+}
+
+defined_text = {
+	name = Get_penal_system
+	text = {
+		trigger = {
+			has_idea = tno_penal_system_penal_slavery
+		}
+		localization_key = tno_penal_system_penal_slavery_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_penal_system_capital_punishment
+		}
+		localization_key = tno_penal_system_capital_punishment_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_penal_system_penal_labor
+		}
+		localization_key = tno_penal_system_penal_labor_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_penal_system_incarceration
+		}
+		localization_key = tno_penal_system_incarceration_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_penal_system_rehabilitation
+		}
+		localization_key = tno_penal_system_rehabilitation_gui
+	}
+}
+
+defined_text = {
+	name = Get_minimum_wage
+	text = {
+		trigger = {
+			has_idea = tno_minimum_wage_no_minimum_wage
+		}
+		localization_key = tno_minimum_wage_no_minimum_wage_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_minimum_wage_trinket_minimum_wage
+		}
+		localization_key = tno_minimum_wage_trinket_minimum_wage_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_minimum_wage_low_minimum_wage
+		}
+		localization_key = tno_minimum_wage_low_minimum_wage_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_minimum_wage_acceptable_minimum
+		}
+		localization_key = tno_minimum_wage_acceptable_minimum_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_minimum_wage_good_minimum_wage
+		}
+		localization_key = tno_minimum_wage_good_minimum_wage_gui
+	}
+}
+
+defined_text = {
+	name = Get_max_workhours
+	text = {
+		trigger = {
+			has_idea = tno_max_workhours_unlimited_work_day
+		}
+		localization_key = tno_max_workhours_unlimited_work_day_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_max_workhours_14_hour_work_day
+		}
+		localization_key = tno_max_workhours_14_hour_work_day_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_max_workhours_12_hour_work_day
+		}
+		localization_key = tno_max_workhours_12_hour_work_day_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_max_workhours_10_hour_work_day
+		}
+		localization_key = tno_max_workhours_10_hour_work_day_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_max_workhours_8_hour_work_day
+		}
+		localization_key = tno_max_workhours_8_hour_work_day_gui
+	}
+}
+
+defined_text = {
+	name = Get_child_labor
+	text = {
+		trigger = {
+			has_idea = tno_child_labor_legal
+		}
+		localization_key = tno_child_labor_legal_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_child_labor_restricted
+		}
+		localization_key = tno_child_labor_restricted_gui
+	}
+	text = {
+		trigger = {
+			has_idea = tno_child_labor_illegal
+		}
+		localization_key = tno_child_labor_illegal_gui
+	}
+}
+
+
+#tempoarary modifiers#
+defined_text = {
+	name = Get_military_budget_modifier
+	text = {
+		trigger = {
+			has_idea = military_budget_boost
+		}
+		localization_key = military_budget_boost_gui
+	}
+	text = {
+		trigger = {
+			has_idea = military_budget_cuts
+		}
+		localization_key = military_budget_cuts_gui
+	}
+	text = {
+		trigger = {
+			has_idea = military_budget_cuts_heavy
+		}
+		localization_key = military_budget_cuts_heavy_gui
+	}
+	text = {
+		trigger = {
+			has_idea = bankrupt_military
+		}
+		localization_key = bankrupt_military_gui
+	}
+}
+
+defined_text = {
+	name = Get_civilian_budget_modifier
+	text = {
+		trigger = {
+			has_idea = civilian_budget_boost
+		}
+		localization_key = civilian_budget_boost_gui
+	}
+	text = {
+		trigger = {
+			has_idea = civilian_budget_cuts
+		}
+		localization_key = civilian_budget_cuts_gui
+	}
+	text = {
+		trigger = {
+			has_idea = civilian_budget_cuts_heavy
+		}
+		localization_key = civilian_budget_cuts_heavy_gui
+	}
+	text = {
+		trigger = {
+			has_idea = bankrupt_civilian
+		}
+		localization_key = bankrupt_civilian_gui
+	}
+}
+
+defined_text = {
+	name = Get_1_Loot_cost_tooltip
+	text = {
+		trigger = {
+			check_variable = { loot_amount > 1 }
+		}
+		localization_key = decision_cost_loot_1
+	}
+	text = {
+		localization_key = decision_cost_loot_1_blocked
+	}
+}
+
+defined_text = {
+	name = Get_2_Loot_cost_tooltip
+	text = {
+		trigger = {
+			check_variable = { loot_amount > 2 }
+		}
+		localization_key = decision_cost_loot_2
+	}
+	text = {
+		localization_key = decision_cost_loot_2_blocked
+	}
+}
+
+defined_text = {
+	name = Get_3_Loot_cost_tooltip
+	text = {
+		trigger = {
+			check_variable = { loot_amount > 3 }
+		}
+		localization_key = decision_cost_loot_3
+	}
+	text = {
+		localization_key = decision_cost_loot_3_blocked
+	}
+}
+
+defined_text = {
+	name = Get_4_Loot_cost_tooltip
+	text = {
+		trigger = {
+			check_variable = { loot_amount > 4 }
+		}
+		localization_key = decision_cost_loot_4
+	}
+	text = {
+		localization_key = decision_cost_loot_4_blocked
+	}
+}
+
+defined_text = {
+	name = Get_5_Loot_cost_tooltip
+	text = {
+		trigger = {
+			check_variable = { loot_amount > 5 }
+		}
+		localization_key = decision_cost_loot_5
+	}
+	text = {
+		localization_key = decision_cost_loot_5_blocked
+	}
+}
+
+defined_text = {
+	name = GetCominformMonetaryValue
+	text = {
+		trigger = {
+			check_variable = { global.COMECON_monetary_fund_value < 1 }
+		}
+		localization_key = COMECON_monetary_fund_thousand
+	}
+	text = {
+		trigger = {
+			check_variable = { global.COMECON_monetary_fund_value > 1000 }
+		}
+		localization_key = COMECON_monetary_fund_billion
+	}
+	text = {
+		localization_key = COMECON_monetary_fund_million
+	}
+}
+
+defined_text = {
+	name = GetCominformDefenseValue
+	text = {
+		trigger = {
+			check_variable = { global.COMECON_collective_defense_value < 1 }
+		}
+		localization_key = COMECON_defense_fund_thousand
+	}
+	text = {
+		trigger = {
+			check_variable = { global.COMECON_collective_defense_value > 1000 }
+		}
+		localization_key = COMECON_defense_fund_billion
+	}
+	text = {
+		localization_key = COMECON_defense_fund_million
+	}
+}
+
+defined_text = {
+	name = GetGDPGraphUnit
+	text = {
+		trigger = {
+			check_variable = { gdp_unit = 0 }
+		}
+		localization_key = econ_unit_m
+	}
+	text = {
+		trigger = {
+			check_variable = { gdp_unit = 1 }
+		}
+		localization_key = econ_unit_b
+	}
+}
+defined_text = {
+	name = GetDebtGraphUnit
+	text = {
+		trigger = {
+			check_variable = { debt_unit = 0 }
+		}
+		localization_key = econ_unit_m
+	}
+	text = {
+		trigger = {
+			check_variable = { debt_unit = 1 }
+		}
+		localization_key = econ_unit_b
+	}
+}
+
+defined_text = {
+	name = econ_graph_year
+	text = {
+		trigger = {
+			set_temp_variable = { i = segment_idx }
+			add_to_temp_variable = { i = 1 }
+			set_temp_variable = { months = econ_graph_months^i }
+			divide_temp_variable = { months = 12 }
+			subtract_from_temp_variable = { months = 0.49 }
+			round_temp_variable = months
+			set_temp_variable = { year = 60 }
+			add_to_temp_variable = { year = months }
+		}
+		localization_key = econ_year
+	}
+}
+
+defined_text = {
+	name = econ_graph_gdp_no
+	text = {
+		trigger = {
+			set_temp_variable = { i = segment_idx }
+			add_to_temp_variable = { i = 1 }
+			set_temp_variable = { display = gdp_numbers^i }
+
+			check_variable = { display < 1 }
+			multiply_temp_variable = { display = 1000 }
+		}
+		localization_key = econ_gdp_no_m
+	}
+	text = {
+		localization_key = econ_gdp_no_b
+	}
+}
+defined_text = {
+	name = econ_graph_debt_no
+	text = {
+		trigger = {
+			set_temp_variable = { i = segment_idx }
+			add_to_temp_variable = { i = 1 }
+			set_temp_variable = { display = debt_numbers^i }
+
+			check_variable = { display < 1 }
+			multiply_temp_variable = { display = 1000 }
+		}
+		localization_key = econ_debt_no_m
+	}
+	text = {
+		localization_key = econ_debt_no_b
+	}
+}
+
+defined_text = {
+	name = line_graph_first_data_label
+	text = {
+		trigger = {
+			set_temp_variable = { segment_idx = -1 }
+		}
+		localization_key = line_graph_data_label
+	}
+}
+
+defined_text = {
+	name = econ_graph_month
+	text = {
+		trigger = {
+			set_temp_variable = { i = segment_idx }
+			add_to_temp_variable = { i = 1 }
+			set_temp_variable = { months = econ_graph_months^i }
+			modulo_temp_variable = { months = 12 }
+			check_variable = { months = 0 }
+		}
+		localization_key = econ_month_0
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 1 }
+		}
+		localization_key = econ_month_1
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 2 }
+		}
+		localization_key = econ_month_2
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 3 }
+		}
+		localization_key = econ_month_3
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 4 }
+		}
+		localization_key = econ_month_4
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 5 }
+		}
+		localization_key = econ_month_5
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 6 }
+		}
+		localization_key = econ_month_6
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 7 }
+		}
+		localization_key = econ_month_7
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 8 }
+		}
+		localization_key = econ_month_8
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 9 }
+		}
+		localization_key = econ_month_9
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 10 }
+		}
+		localization_key = econ_month_10
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 11 }
+		}
+		localization_key = econ_month_11
+	}
+}
+
+
+defined_text = {
+	name = get_health_care_sp_effect
+	text = {
+		trigger = {
+			check_variable = { tno_health_care_effectiveness_sp_effect < 0 }
+		}
+		localization_key = TNO_health_care_sp_effect_neg
+	}
+	text = {
+		trigger = {
+			check_variable = { tno_health_care_effectiveness_sp_effect > 0 }
+		}
+		localization_key = TNO_health_care_sp_effect_pos
+	}
+	text = {
+		localization_key = TNO_health_care_sp_effect_net
+	}
+}
+
+defined_text = {
+	name = get_education_sp_effect
+	text = {
+		trigger = {
+			check_variable = { tno_education_effectiveness_sp_effect < 0 }
+		}
+		localization_key = TNO_education_sp_effect_neg
+	}
+	text = {
+		trigger = {
+			check_variable = { tno_education_effectiveness_sp_effect > 0 }
+		}
+		localization_key = TNO_education_sp_effect_pos
+	}
+	text = {
+		localization_key = TNO_education_sp_effect_net
+	}
+}
+
+defined_text = {
+	name = get_penal_system_sp_effect
+	text = {
+		trigger = {
+			check_variable = { tno_penal_system_effectiveness_sp_effect < 0 }
+		}
+		localization_key = TNO_penal_system_sp_effect_neg
+	}
+	text = {
+		trigger = {
+			check_variable = { tno_penal_system_effectiveness_sp_effect > 0 }
+		}
+		localization_key = TNO_penal_system_sp_effect_pos
+	}
+	text = {
+		localization_key = TNO_penal_system_sp_effect_net
+	}
+}
+
+defined_text = {
+	name = get_security_sp_effect
+	text = {
+		trigger = {
+			check_variable = { tno_security_effectiveness_sp_effect < 0 }
+		}
+		localization_key = TNO_security_sp_effect_neg
+	}
+	text = {
+		trigger = {
+			check_variable = { tno_security_effectiveness_sp_effect > 0 }
+		}
+		localization_key = TNO_security_sp_effect_pos
+	}
+	text = {
+		localization_key = TNO_security_sp_effect_net
+	}
+}
+
+defined_text = {
+	name = get_unemployment_sp_effect
+	text = {
+		trigger = {
+			check_variable = { tno_unemployment_effectiveness_sp_effect < 0 }
+		}
+		localization_key = TNO_unemployment_sp_effect_neg
+	}
+	text = {
+		trigger = {
+			check_variable = { tno_unemployment_effectiveness_sp_effect > 0 }
+		}
+		localization_key = TNO_unemployment_sp_effect_pos
+	}
+	text = {
+		localization_key = TNO_unemployment_sp_effect_net
+	}
+}
+
+defined_text = {
+	name = get_construction_effect_tt
+	text = {
+		trigger = {
+			check_variable = { econ_construction_expenditures_slider_value = 20 }
+		}
+		localization_key = econ_construction_expenditures_slider_tt_20
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { construction_expenditures_effect_display = 20 }
+			subtract_from_temp_variable = { construction_expenditures_effect_display = econ_construction_expenditures_slider_value }
+			multiply_temp_variable = { construction_expenditures_effect_display = 0.033 }
+		}
+		localization_key = econ_construction_expenditures_slider_tt_x
+	}
+}
+
+defined_text = {
+	name = get_deficit_monetization_slider_tooltip
+	text = {
+		trigger = {
+			set_temp_variable = { percent = button_idx }
+			multiply_temp_variable = { percent = 100 }
+			divide_temp_variable = { percent = 60 }
+		}
+		localization_key = "[?percent|2]%"
+	}
+}
+
+defined_text = {
+	name = get_expenditures_button_percent
+	text = {
+		trigger = {
+			set_temp_variable = { spending_slider_percent = button_idx }
+			multiply_temp_variable = { spending_slider_percent = 1.66}
+			round_temp_variable = spending_slider_percent
+		}
+		localization_key = econ_spending_percent
+	}
+}
+
+defined_text = {
+	name = get_army_expentiures_slider_tooltip
+	text = {
+		trigger = {
+			set_temp_variable = { army_cost_slider_effect = button_idx }
+			if = { #50% Expenditure at 0
+				limit = {
+					check_variable = { army_cost_slider_effect < 25 }
+				}
+				multiply_temp_variable = { army_cost_slider_effect = 0.02 }
+				add_to_temp_variable = { army_cost_slider_effect = 0.5 }
+			}
+			else_if = {
+				if = { #200% Expenditure at 100
+					limit = {
+						check_variable = { army_cost_slider_effect > 24.99 }
+					}
+					divide_temp_variable = { army_cost_slider_effect = 30 }
+				}
+			}
+			set_temp_variable = { cost_to_show = army_costs_base }
+			multiply_temp_variable = { cost_to_show = army_cost_slider_effect }
+		}
+		localization_key = econ_cost_display
+	}
+}
+defined_text = {
+	name = get_naval_expentiures_slider_tooltip
+	text = {
+		trigger = {
+			set_temp_variable = { naval_cost_slider_effect = button_idx }
+			if = { #50% Expenditure at 0
+				limit = {
+					check_variable = { naval_cost_slider_effect < 25 }
+				}
+				multiply_temp_variable = { naval_cost_slider_effect = 0.02 }
+				add_to_temp_variable = { naval_cost_slider_effect = 0.5 }
+			}
+			else_if = {
+				if = { #200% Expenditure at 100
+					limit = {
+						check_variable = { naval_cost_slider_effect > 24.99 }
+					}
+					divide_temp_variable = { naval_cost_slider_effect = 30 }
+				}
+			}
+			set_temp_variable = { cost_to_show = naval_costs_base }
+			multiply_temp_variable = { cost_to_show = naval_cost_slider_effect }
+		}
+		localization_key = econ_cost_display
+	}
+}
+defined_text = {
+	name = get_nuclear_expentiures_slider_tooltip
+	text = {
+		trigger = {
+			set_temp_variable = { nuclear_cost_slider_effect = button_idx }
+			if = { #50% Expenditure at 0
+				limit = {
+					check_variable = { nuclear_cost_slider_effect < 25 }
+				}
+				multiply_temp_variable = { nuclear_cost_slider_effect = 0.02 }
+				add_to_temp_variable = { nuclear_cost_slider_effect = 0.5 }
+			}
+			else_if = {
+				if = { #200% Expenditure at 100
+					limit = {
+						check_variable = { nuclear_cost_slider_effect > 24.99 }
+					}
+					divide_temp_variable = { nuclear_cost_slider_effect = 30 }
+				}
+			}
+			set_temp_variable = { cost_to_show = nuclear_costs_base }
+			multiply_temp_variable = { cost_to_show = nuclear_cost_slider_effect }
+		}
+		localization_key = econ_cost_display
+	}
+}
+defined_text = {
+	name = get_social_expentiures_slider_tooltip
+	text = {
+		trigger = {
+			set_temp_variable = { social_cost_slider_effect = button_idx }
+			if = { #50% Expenditure at 0
+				limit = {
+					check_variable = { social_cost_slider_effect < 25 }
+				}
+				multiply_temp_variable = { social_cost_slider_effect = 0.02 }
+				add_to_temp_variable = { social_cost_slider_effect = 0.50 }
+			}
+			else_if = {
+				if = { #200% Expenditure at 100
+					limit = {
+						check_variable = { social_cost_slider_effect > 24.99 }
+					}
+					divide_temp_variable = { social_cost_slider_effect = 30 }
+				}
+			}
+			set_temp_variable = { cost_to_show = total_sp_costs_base }
+			multiply_temp_variable = { cost_to_show = social_cost_slider_effect }
+		}
+		localization_key = econ_cost_display
+	}
+}
+defined_text = {
+	name = get_admin_expentiures_slider_tooltip
+	text = {
+		trigger = {
+			set_temp_variable = { admin_cost_slider_effect = button_idx }
+			if = { #50% Expenditure at 0
+				limit = {
+					check_variable = { admin_cost_slider_effect < 25 }
+				}
+				multiply_temp_variable = { admin_cost_slider_effect = 0.02 }
+				add_to_temp_variable = { admin_cost_slider_effect = 0.5 }
+			}
+			else_if = {
+				if = { #200% Expenditure at 100
+					limit = {
+						check_variable = { admin_cost_slider_effect > 24.99 }
+					}
+					divide_temp_variable = { admin_cost_slider_effect = 30 }
+				}
+			}
+			set_temp_variable = { cost_to_show = admin_costs_base }
+			multiply_temp_variable = { cost_to_show = admin_cost_slider_effect }
+		}
+		localization_key = econ_cost_display
+	}
+}
+defined_text = {
+	name = get_research_expentiures_slider_tooltip
+	text = {
+		trigger = {
+			set_temp_variable = { research_cost_slider_effect = button_idx }
+			if = { #50% Expenditure at 0
+				limit = {
+					check_variable = { research_cost_slider_effect < 25 }
+				}
+				multiply_temp_variable = { research_cost_slider_effect = 0.02 }
+				add_to_temp_variable = { research_cost_slider_effect = 0.5 }
+			}
+			else_if = {
+				if = { #200% Expenditure at 100
+					limit = {
+						check_variable = { research_cost_slider_effect > 24.99 }
+					}
+					divide_temp_variable = { research_cost_slider_effect = 30 }
+				}
+			}
+			set_temp_variable = { cost_to_show = research_costs_base }
+			multiply_temp_variable = { cost_to_show = research_cost_slider_effect }
+		}
+		localization_key = econ_cost_display
+	}
+}
+defined_text = {
+	name = get_construction_expentiures_slider_tooltip
+	text = {
+		trigger = {
+			set_temp_variable = { cost_to_show = construction_expenditures }
+			multiply_temp_variable = { cost_to_show = button_idx }
+			divide_temp_variable = { cost_to_show = econ_construction_expenditures_slider_value }
+		}
+
+		localization_key = econ_cost_display
+	}
+}
+
+defined_text = {
+	name = econ_poverty_rate_display
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_monthly_rate_display = modifier@poverty_monthly_rate }
+			add_to_temp_variable = { poverty_monthly_rate_display = poverty_monthly_change }
+			multiply_temp_variable = { poverty_monthly_rate_display = -1 }
+			check_variable = { poverty_monthly_rate_display > 0 }
+		}
+		localization_key = econ_poverty_rate_change_number_tt_neg
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_monthly_rate_display = modifier@poverty_monthly_rate }
+			add_to_temp_variable = { poverty_monthly_rate_display = poverty_monthly_change }
+			multiply_temp_variable = { poverty_monthly_rate_display = -1 }
+			check_variable = { poverty_monthly_rate_display < 0 }
+		}
+		localization_key = econ_poverty_rate_change_number_tt_pos
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_monthly_rate_display = modifier@poverty_monthly_rate }
+			add_to_temp_variable = { poverty_monthly_rate_display = poverty_monthly_change }
+			multiply_temp_variable = { poverty_monthly_rate_display = -1 }
+		}
+		localization_key = econ_poverty_rate_change_number_tt_neu
+	}
+}
+
+defined_text = {
+	name = econ_poverty_dampener_display
+	text = {
+		trigger = { check_variable = { poverty_dampener_effect < 1 } }
+		localization_key = econ_poverty_dampener_display_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = econ_poverty_real_growth_display
+	text = {
+		trigger = { check_variable = { gdp_effect_on_poverty < 0 } }
+		localization_key = econ_poverty_real_growth_display_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = econ_poverty_rate_base_display
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_monthly_rate_base_display = poverty_monthly_change }
+			multiply_temp_variable = { poverty_monthly_rate_base_display = -1 }
+			check_variable = { poverty_monthly_rate_base_display > 0 }
+		}
+		localization_key = econ_poverty_rate_base_display_tt_neg
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_monthly_rate_base_display = poverty_monthly_change }
+			multiply_temp_variable = { poverty_monthly_rate_base_display = -1 }
+			check_variable = { poverty_monthly_rate_base_display < 0 }
+		}
+		localization_key = econ_poverty_rate_base_display_tt_pos
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_monthly_rate_base_display = poverty_monthly_change }
+			multiply_temp_variable = { poverty_monthly_rate_base_display = -1 }
+		}
+		localization_key = econ_poverty_rate_base_display_tt_neu
+	}
+}
+
+
+defined_text = {
+	name = econ_poverty_rate_change_tu_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_tu_display = tno_trade_unions_policy_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_tu_display = -1 }
+			NOT = { check_variable = { poverty_tu_display = 0 } }
+		}
+		localization_key = econ_poverty_rate_change_tu_number_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_sl_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_sl_display = tno_slavery_policy_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_sl_display = -1 }
+			NOT = { check_variable = { poverty_sl_display = 0 } }
+		}
+		localization_key = econ_poverty_rate_change_sl_number_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_rf_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_rf_display = tno_refugees_policy_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_rf_display = -1 }
+			NOT = { check_variable = { poverty_rf_display = 0 } }
+		}
+		localization_key = econ_poverty_rate_change_rf_number_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_hc_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_hc_display = tno_health_care_policy_poverty_rate_factor }
+			multiply_temp_variable = { poverty_hc_display = -1 }
+			check_variable = { poverty_hc_display > 0 }
+		}
+		localization_key = econ_poverty_rate_change_hc_number_tt_neg
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_hc_display = tno_health_care_policy_poverty_rate_factor }
+			multiply_temp_variable = { poverty_hc_display = -1 }
+			check_variable = { poverty_hc_display < 0 }
+		}
+		localization_key = econ_poverty_rate_change_hc_number_tt_pos
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_ed_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_ed_display = tno_education_policy_poverty_rate_factor }
+			multiply_temp_variable = { poverty_ed_display = -1 }
+			check_variable = { poverty_ed_display > 0 }
+		}
+		localization_key = econ_poverty_rate_change_ed_number_tt_neg
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_ed_display = tno_education_policy_poverty_rate_factor }
+			multiply_temp_variable = { poverty_ed_display = -1 }
+			check_variable = { poverty_ed_display < 0 }
+		}
+		localization_key = econ_poverty_rate_change_ed_number_tt_pos
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_mw_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_mw_display = tno_minimum_wage_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_mw_display = -1 }
+			check_variable = { poverty_mw_display > 0 }
+		}
+		localization_key = econ_poverty_rate_change_mw_number_tt_neg
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_mw_display = tno_minimum_wage_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_mw_display = -1 }
+			check_variable = { poverty_mw_display < 0 }
+		}
+		localization_key = econ_poverty_rate_change_mw_number_tt_pos
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_pe_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_pe_display = tno_pensions_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_pe_display = -1 }
+			check_variable = { poverty_pe_display > 0 }
+		}
+		localization_key = econ_poverty_rate_change_pe_number_tt_neg
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_pe_display = tno_pensions_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_pe_display = -1 }
+			check_variable = { poverty_pe_display < 0 }
+		}
+		localization_key = econ_poverty_rate_change_pe_number_tt_pos
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_un_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_un_display = tno_unemployment_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_un_display = -1 }
+			check_variable = { poverty_un_display > 0 }
+		}
+		localization_key = econ_poverty_rate_change_un_number_tt_neg
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_un_display = tno_unemployment_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_un_display = -1 }
+			check_variable = { poverty_un_display < 0 }
+		}
+		localization_key = econ_poverty_rate_change_un_number_tt_pos
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_BFI_OFN_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_BFI_OFN_display = BFI_OFN_poverty }
+			multiply_temp_variable = { poverty_BFI_OFN_display = -1 }
+			NOT = { check_variable = { poverty_BFI_OFN_display = 0 } }
+		}
+		localization_key = econ_poverty_rate_change_BFI_OFN_number_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_BFI_USA_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_BFI_USA_display = BFI_USA_poverty }
+			multiply_temp_variable = { poverty_BFI_USA_display = -1 }
+			NOT = { check_variable = { poverty_BFI_USA_display = 0 } }
+		}
+		localization_key = econ_poverty_rate_change_BFI_USA_number_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_BFI_CPS_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_BFI_CPS_display = BFI_CPS_poverty }
+			multiply_temp_variable = { poverty_BFI_CPS_display = -1 }
+			NOT = { check_variable = { poverty_BFI_CPS_display = 0 } }
+		}
+		localization_key = econ_poverty_rate_change_BFI_CPS_number_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_BFI_JAP_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_BFI_JAP_display = BFI_JAP_poverty }
+			multiply_temp_variable = { poverty_BFI_JAP_display = -1 }
+			NOT = { check_variable = { poverty_BFI_JAP_display = 0 } }
+		}
+		localization_key = econ_poverty_rate_change_BFI_JAP_number_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_NOV_MC4_number_sl
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_NOV_MC4_display = NOV_MC4_poverty_monthly_rate }
+			multiply_temp_variable = { poverty_NOV_MC4_display = -1 }
+			NOT = { check_variable = { poverty_NOV_MC4_display = 0 } }
+		}
+		localization_key = econ_poverty_rate_change_NOV_MC4_number_tt
+	}
+}
+#ideas
+defined_text = {
+	name = econ_poverty_rate_change_ENG_reconstruction_of_England_sl
+	text = {
+		trigger = { has_idea = ENG_reconstruction_of_England }
+		localization_key = econ_poverty_rate_change_ENG_reconstruction_of_England_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_ENG_Lying_In_Ruins_sl
+	text = {
+		trigger = { has_idea = ENG_Lying_In_Ruins }
+		localization_key = econ_poverty_rate_change_ENG_Lying_In_Ruins_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_FEN_Reconstruction_Of_England_sl
+	text = {
+		trigger = { has_idea = FEN_Reconstruction_Of_England }
+		localization_key = econ_poverty_rate_change_FEN_Reconstruction_Of_England_tt
+	}
+	#text = {
+		#trigger = { has_idea = FEN_Reconstruction_Of_England_2 }
+		#localization_key = econ_poverty_rate_change_FEN_Reconstruction_Of_England_2_tt
+	#}
+}
+defined_text = {
+	name = econ_poverty_rate_change_FEN_Food_Insecurity_sl
+	text = {
+		trigger = { has_idea = FEN_Food_Insecurity }
+		localization_key = econ_poverty_rate_change_FEN_Food_Insecurity_tt
+	}
+	text = {
+		trigger = { has_idea = FEN_Food_Insecurity_2 }
+		localization_key = econ_poverty_rate_change_FEN_Food_Insecurity_2_tt
+	}
+	text = {
+		trigger = { has_idea = FEN_Food_Insecurity_3 }
+		localization_key = econ_poverty_rate_change_FEN_Food_Insecurity_3_tt
+	}
+	text = {
+		trigger = { has_idea = FEN_Food_Insecurity_4 }
+		localization_key = econ_poverty_rate_change_FEN_Food_Insecurity_4_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_endsieg_sl
+	text = {
+		trigger = { has_idea = endsieg }
+		localization_key = econ_poverty_rate_change_endsieg_tt
+	}
+}
+defined_text = {
+	name = econ_poverty_rate_change_UKR_shroud_of_generalplan_ost_sl
+	text = {
+		trigger = { has_idea = UKR_shroud_of_generalplan_ost }
+		localization_key = econ_poverty_rate_change_UKR_shroud_of_generalplan_ost_tt
+	}
+}
+
+defined_text = {
+	name = gdp_number_display_sl
+	text = {
+		localization_key = gdp_number_display_tooltip
+	}
+}
+
+
+defined_text = {
+	name = Get_allocation_type_text
+	text = {
+		trigger = { check_variable = { good_type = 0 } }
+		localization_key = civilian_factory_allocation_type
+	}
+	text = {
+		trigger = { 
+			check_variable = { good_type = 1 } 
+			NOT = {
+				check_variable = { mils_mult = 2 }
+			}
+		}
+		localization_key = military_factory_allocation_type
+	}
+	text = {
+		trigger = {
+			check_variable = { good_type = 1 }
+			NOT = {
+				check_variable = { mils_mult = 1 }
+			}
+		}
+		localization_key = military_workshop_allocation_type
+	}
+	text = {
+		trigger = { check_variable = { good_type = 2 } }
+		localization_key = consumer_goods_allocation_type
+	}
+}
+defined_text = {
+	name = Get_allocation_type_text_fancy
+	text = {
+		trigger = { check_variable = { good_type = 0 } }
+		localization_key = civilian_factory_allocation_type_fancy
+	}
+	text = {
+		trigger = { 
+			check_variable = { good_type = 1 }
+			NOT = {
+				check_variable = { mils_mult = 2 }
+			}
+		}
+		localization_key = military_factory_allocation_type_fancy
+	}
+	text = {
+		trigger = {
+			check_variable = { good_type = 1 }
+			NOT = {
+				check_variable = { mils_mult = 1 }
+			}
+		}
+		localization_key = military_workshop_allocation_type_fancy
+	}
+	text = {
+		trigger = { check_variable = { good_type = 2 } }
+		localization_key = consumer_goods_allocation_type_fancy
+	}
+}
+defined_text = {
+	name = Get_allocation_type_icon
+	text = {
+		trigger = { check_variable = { good_type = 0 } }
+		localization_key = GFX_production_units_civ
+	}
+	text = {
+		trigger = { check_variable = { good_type = 1 } }
+		localization_key = GFX_production_units_mil
+	}
+	text = {
+		trigger = { check_variable = { good_type = 2 } }
+		localization_key = GFX_production_units_toaster
+	}
+}
+defined_text = {
+	name = Get_missing_gdp_for_pu
+	text = {
+		trigger = { 
+			always = yes
+
+			set_temp_variable = { missing_gdp = production_units_raw }
+			subtract_from_temp_variable = { missing_gdp = modifier@free_production_units_modifier }
+			subtract_from_temp_variable = { missing_gdp = free_production_units }
+			divide_temp_variable = { missing_gdp = production_units_multiplier }
+			subtract_from_temp_variable = { missing_gdp = totalstateGDP }
+		}
+		localization_key = "[?missing_gdp|2]"
+	}
+}
+
+defined_text = {
+	name = Get_production_unit_5x_tt
+	text = {
+		trigger = { check_variable = { prod_units_display_amounts^good_type = 5 } }
+		localization_key = "production_unit_scale_1x_tt"
+	}
+	text = {
+		localization_key = "production_unit_scale_5x_tt"
+	}
+}
+defined_text = {
+	name = Get_production_unit_10x_tt
+	text = {
+		trigger = { check_variable = { prod_units_display_amounts^good_type = 10 } }
+		localization_key = "production_unit_scale_1x_tt"
+	}
+	text = {
+		localization_key = "production_unit_scale_10x_tt"
+	}
+}
+
+defined_text = {
+	name = Get_production_unit_display
+	text = {
+		trigger = { 
+			check_variable = { good_type = 0 }
+			check_variable = { PU_civilian_factories_desired > PU_civilian_factories }
+		} 
+		localization_key = "production_unit_civs_display_wanted"
+	}
+	text = {
+		trigger = { 
+			check_variable = { good_type = 0 }
+		} 
+		localization_key = production_unit_civs_display
+	}
+	text = {
+		trigger = { 
+			check_variable = { good_type = 1 }
+			check_variable = { PU_military_factories_desired > PU_military_factories }
+		} 
+		localization_key = "production_unit_mils_display_wanted"
+	}
+	text = {
+		trigger = { 
+			check_variable = { good_type = 1 }
+		} 
+		localization_key = production_unit_mils_display
+	}
+	text = {
+		trigger = { 
+			check_variable = { good_type = 2 }
+			check_variable = { PU_consumer_goods_desired > PU_consumer_goods }
+		} 
+		localization_key = "production_unit_cgs_display_wanted"
+	}
+	text = {
+		trigger = { 
+			check_variable = { good_type = 2 }
+		} 
+		localization_key = production_unit_cgs_display
+	}
+	text = {
+		localization_key = "None"
+	}
+}
+
+defined_text = {
+	name = production_unit_square_sl
+	text = {
+		trigger = { check_variable = { good_type = 2 } } 
+		localization_key = production_unit_square_tt_cgs
+	}
+	text = {
+		localization_key = production_unit_square_tt_goods
+	}
+}
+
+defined_text = {
+	name = Get_production_square_amount
+	text = {
+		trigger = {
+			set_temp_variable = { amount = square_idx }
+			add_to_temp_variable = { amount = 1 }
+			multiply_temp_variable = { amount = prod_units_display_amounts^good_type }
+		}
+		localization_key = production_unit_square_amount
+	}
+}
+
+defined_text = {
+	name = get_can_afford_consumer_goods_shift_left
+	text = {
+		trigger = { has_political_power > 29 }
+		localization_key = econ_consumer_goods_slider_button_left_have_pp_tt
+	}
+	text = {
+		localization_key = econ_consumer_goods_too_poor_pp_tt
+	}
+}
+
+defined_text = {
+	name = get_can_afford_consumer_goods_shift_right
+	text = {
+		trigger = { has_political_power > 29 }
+		localization_key = econ_consumer_goods_slider_button_right_have_pp_tt
+	}
+	text = {
+		localization_key = econ_consumer_goods_too_poor_pp_tt
+	}
+}
+
+
+
+defined_text = {
+	name = Get_increase_button_tt
+	text = {
+		trigger = {
+			check_variable = { TNO_recurring_trade_pus^TNO_market_selected_resource > 0 }
+		}
+		localization_key = "trade_monthly_decrease_sell_tooltip"
+	}
+	text = {
+		localization_key = "trade_monthly_increase_buy_tooltip"
+	}
+}
+defined_text = {
+	name = Get_decrease_button_tt
+	text = {
+		trigger = {
+			check_variable = { TNO_recurring_trade_pus^TNO_market_selected_resource < 0 }
+		}
+		localization_key = "trade_monthly_decrease_buy_tooltip"
+	}
+	text = {
+		localization_key = "trade_monthly_increase_sell_tooltip"
+	}
+}
+
+defined_text = {
+	name = Get_monthly_trade_sell_buy
+	text = {
+		trigger = {
+			check_variable = { TNO_recurring_trade_pus^TNO_market_selected_resource > 0 }
+		}
+		localization_key = "sell"
+	}
+	text = {
+		localization_key = "buy"
+	}
+}
+
+defined_text = {
+	name = Get_monthly_trade_cost_benefit
+	text = {
+		trigger = {
+			check_variable = { TNO_recurring_trade_pus^TNO_market_selected_resource > 0 }
+		}
+		localization_key = "benefit"
+	}
+	text = {
+		localization_key = "cost"
+	}
+}
+
+defined_text = {
+	name = Get_monthly_trade_texticon
+	text = {
+		trigger = {
+			check_variable = { TNO_recurring_trade_pus^TNO_market_selected_resource = 0 }
+		}
+		localization_key = big_pu_texticon_y
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_recurring_trade_pus^TNO_market_selected_resource < 0 }
+		}
+		localization_key = big_pu_texticon_r
+	}
+	text = {
+		localization_key = big_pu_texticon
+	}
+}
+
+defined_text = {
+	name = GetTradeTotalMoney
+	text = {
+		trigger = {
+			check_variable = { net_put_trade > 0 }
+			set_temp_variable = { total = net_put_trade }
+			divide_temp_variable = { total = pu_to_gdp_ratio }
+		}
+		localization_key = trade_total_money_g
+	}
+	text = {
+		trigger = {
+			check_variable = { net_put_trade < 0 }
+			set_temp_variable = { total = net_put_trade }
+			divide_temp_variable = { total = pu_to_gdp_ratio }
+			multiply_temp_variable = { total = -1 }
+		}
+		localization_key = trade_total_money_r
+	}
+	text = {
+		localization_key = "$0.00 B"
+	}
+}
+defined_text = {
+	name = GetTradeImportedMoney
+	text = {
+		trigger = {
+			set_temp_variable = { total = PU_imports_m }
+			divide_temp_variable = { total = pu_to_gdp_ratio }
+		}
+		localization_key = "[?total|2]"
+	}
+}
+defined_text = {
+	name = GetTradeExportedMoney
+	text = {
+		trigger = {
+			set_temp_variable = { total = PU_exports_m }
+			divide_temp_variable = { total = pu_to_gdp_ratio }
+		}
+		localization_key = "[?total|2]"
+	}
+}
+defined_text = {
+	name = GetTradePUMoney
+	text = {
+		trigger = {
+			set_temp_variable = { total = 1 }
+			divide_temp_variable = { total = pu_to_gdp_ratio }
+		}
+		localization_key = "[?total|2]"
+	}
+}
+
+defined_text = {
+	name = Get_resource_buy_amount
+	text = {
+		trigger = {
+			set_temp_variable = { cost = amount }
+			multiply_temp_variable = { cost = 10 }
+		}
+		localization_key = "[?cost|0]"
+	}
+}
+defined_text = {
+	name = Get_resource_sell_amount
+	text = {
+		trigger = {
+			set_temp_variable = { cost = amount }
+			multiply_temp_variable = { cost = 10 }
+		}
+		localization_key = "[?cost|0]"
+	}
+}
+defined_text = {
+	name = Get_resource_buy_cost_gdp
+	text = {
+		trigger = {
+			set_temp_variable = { cost = 0 }
+		}
+		localization_key = "[?cost|0]"
+	}
+}
+defined_text = {
+	name = Get_resource_sell_offer_gdp
+	text = {
+		trigger = {
+			set_temp_variable = { cost = 0 }
+		}
+		localization_key = "[?cost|0]"
+	}
+}
+
+defined_text = {
+	name = Get_selected_resource_name
+	text = {
+		trigger = { set_temp_variable = { resource_type = TNO_market_selected_resource } }
+		localization_key = "[Get_resource_name]"
+	}
+}
+
+defined_text = {
+	name = Get_selected_resource_import_export
+	text = {
+		trigger = { check_variable = { TNO_fulfilled_imports^TNO_market_selected_resource > 0 } }
+		localization_key = "Imports"
+	}
+	text = {
+		localization_key = "Exports"
+	}
+}
+
+defined_text = {
+	name = Get_Uranium_Missing_Power
+	text = {
+		trigger = { check_variable = { buildings_uranium_missing_demand = 0 } }
+		localization_key = ""
+	}
+	text = {
+		localization_key = economy_topbar_missing_uranium_tt
+	}
+}
+
+defined_text = {
+	name = GetNeedsTradeNewline
+	text = {
+		trigger = { 
+			OR = {
+				check_variable = { TNO_market_selected_resource = 1 } 
+				check_variable = { TNO_market_selected_resource = 5 } 
+			}
+		}
+		localization_key = trade_newline
+	}
+	text = {
+		localization_key = " "
+	}
+}
+
+defined_text = {
+	name = Get_other_trade_opinion
+	text = {
+		trigger = { NOT = { check_variable = { trade_opinion_modifier@var:trade_partner = 0 } } }
+		localization_key = trade_partner_influence_other
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = Get_other_trade_sphere
+	text = {
+		trigger = { 
+			has_variable = ECON_SPHERE_LEADER
+			NOT = { check_variable = { ECON_SPHERE_LEADER = trade_partner:ECON_SPHERE_LEADER } } 
+		}
+		localization_key = trade_partner_influence_sphere
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = Get_trade_opinion_detail
+	text = {
+		trigger = { has_war_with = var:trade_partner }
+		localization_key = trade_partner_influence_war
+	}
+	text = {
+		trigger = { check_variable = { trade_opinion_embargo@var:trade_partner = 1 } }
+		localization_key = trade_partner_influence_embar_us
+	}
+	text = {
+		trigger = { var:trade_partner = { check_variable = { trade_opinion_embargo@PREV = 1 } } }
+		localization_key = trade_partner_influence_embar_them
+	}
+	text = {
+		localization_key = trade_partner_influence_normal
+	}
+}
+
+defined_text = {
+	name = Get_trade_opinion_explanation
+	text = {
+		trigger = {
+			OR = {
+				has_war_with = var:trade_partner 
+				check_variable = { trade_opinion_embargo@var:trade_partner = 1 } 
+				var:trade_partner = { check_variable = { trade_opinion_embargo@PREV = 1 } }
+			}
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = trade_partner_influence_explanation
+	}
+}
+
+defined_text = {
+	name = Get_influence_disp
+	text = {
+		trigger = { has_war_with = var:trade_partner }
+		localization_key = trade_partner_influence_war_txt
+	}
+	text = {
+		trigger = { 
+			OR = {
+				check_variable = { trade_opinion_embargo@var:trade_partner = 1 }
+				var:trade_partner = { check_variable = { trade_opinion_embargo@PREV = 1 } }
+			}
+		}
+		localization_key = trade_partner_influence_embar_txt
+	}
+	text = {
+		localization_key = trade_partner_influence_num
+	}
+}
+
+defined_text = {
+	name = Get_trade_partner_box_GFX
+	text = {
+		trigger = {
+			has_war_with = var:trade_partner
+		}
+		localization_key = "GFX_trade_trade_partner_box_red"
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { trade_opinion_embargo@var:trade_partner = 1 }
+				var:trade_partner = { check_variable = { trade_opinion_embargo@PREV = 1 } }
+			}
+		}
+		localization_key = "GFX_trade_trade_partner_box_embargo"
+	}
+	text = {
+		localization_key = "GFX_trade_trade_partner_box"
+	}
+}
+
+defined_text = {
+	name = Get_owner_flag_overlay_GFX
+	text = {
+		trigger = {
+			has_war_with = var:trade_partner
+		}
+		localization_key = "GFX_trade_flag_overlay_red"
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { trade_opinion_embargo@var:trade_partner = 1 }
+				var:trade_partner = { check_variable = { trade_opinion_embargo@PREV = 1 } }
+			}
+		}
+		localization_key = "GFX_trade_flag_overlay_embargo"
+	}
+	text = {
+		localization_key = "GFX_trade_flag_overlay"
+	}
+}
+
+defined_text = {
+	name = Get_resource_traded_amount
+	text = {
+		trigger = { 
+			check_variable = { TNO_market_selected_resource = 1 }
+			set_temp_variable = { total = trade_oil@var:trade_partner }
+			multiply_temp_variable = { total = ZZZ.TNO_export_size^TNO_market_selected_resource }
+		}
+		localization_key = "[?total]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_market_selected_resource = 2 }
+			set_temp_variable = { total = trade_aluminium@var:trade_partner }
+			multiply_temp_variable = { total = ZZZ.TNO_export_size^TNO_market_selected_resource }
+		}
+		localization_key = "[?total]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_market_selected_resource = 3 }
+			set_temp_variable = { total = trade_rubber@var:trade_partner }
+			multiply_temp_variable = { total = ZZZ.TNO_export_size^TNO_market_selected_resource }
+		}
+		localization_key = "[?total]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_market_selected_resource = 4 }
+			set_temp_variable = { total = trade_tungsten@var:trade_partner }
+			multiply_temp_variable = { total = ZZZ.TNO_export_size^TNO_market_selected_resource }
+		}
+		localization_key = "[?total]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_market_selected_resource = 5 }
+			set_temp_variable = { total = trade_steel@var:trade_partner }
+			multiply_temp_variable = { total = ZZZ.TNO_export_size^TNO_market_selected_resource }
+		}
+		localization_key = "[?total]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_market_selected_resource = 6 }
+			set_temp_variable = { total = trade_chromium@var:trade_partner }
+			multiply_temp_variable = { total = ZZZ.TNO_export_size^TNO_market_selected_resource }
+		}
+		localization_key = "[?total]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_market_selected_resource = 7 }
+			set_temp_variable = { total = trade_uranium@var:trade_partner }
+			multiply_temp_variable = { total = ZZZ.TNO_export_size^TNO_market_selected_resource }
+		}
+		localization_key = "[?total]"
+	}
+	text = {
+		trigger = { check_variable = { TNO_market_selected_resource = 8 } 
+			set_temp_variable = { total = trade_consumer_goods@var:trade_partner }
+			multiply_temp_variable = { total = ZZZ.TNO_export_size^TNO_market_selected_resource }
+		}
+		localization_key = "[?total|0]"
+	}
+}
+
+defined_text = {
+	name = Get_resource_name
+	text = {
+		trigger = { check_variable = { resource_type = 1 } }
+		localization_key = PRODUCTION_MATERIALS_OIL
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 2 } }
+		localization_key = PRODUCTION_MATERIALS_ALUMINIUM
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 3 } }
+		localization_key = PRODUCTION_MATERIALS_RUBBER
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 4 } }
+		localization_key = PRODUCTION_MATERIALS_TUNGSTEN
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 5 } }
+		localization_key = PRODUCTION_MATERIALS_STEEL
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 6 } }
+		localization_key = PRODUCTION_MATERIALS_CHROMIUM
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 7 } }
+		localization_key = PRODUCTION_MATERIALS_URANIUM
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 8 } }
+		localization_key = PRODUCTION_MATERIALS_CONSUMER_GOODS
+	}
+}
+
+defined_text = {
+	name = Get_resource_desc
+	text = {
+		trigger = { check_variable = { resource_type = 1 } }
+		localization_key = oil_desc
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 2 } }
+		localization_key = aluminium_desc
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 3 } }
+		localization_key = rubber_desc
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 4 } }
+		localization_key = tungsten_desc
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 5 } }
+		localization_key = steel_desc
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 6 } }
+		localization_key = chromium_desc
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 7 } }
+		localization_key = uranium_desc
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 8 } }
+		localization_key = consumer_goods_desc
+	}
+}
+
+defined_text = {
+	name = GetTradeStockpileChange
+	text = {
+		trigger = { check_variable = { resource_type = 2 } }
+		localization_key = "[?TNO_stockpile_aluminium|0=+]"
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 3 } }
+		localization_key = "[?TNO_stockpile_rubber|0=+]"
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 4 } }
+		localization_key = "[?TNO_stockpile_tungsten|0=+]"
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 5 } }
+		localization_key = "[?TNO_stockpile_steel|0=+]"
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 6 } }
+		localization_key = "[?TNO_stockpile_chromium|0=+]"
+	}
+	text = {
+		trigger = { check_variable = { resource_type = 7 } }
+		localization_key = "[?TNO_stockpile_uranium|0=+]"
+	}
+}
+
+defined_text = {
+	name = Get_power_produced_amnt
+	text = {
+		trigger = {
+			set_temp_variable = { total = resource_produced@power }
+			add_to_temp_variable = { total = buildings_power_demand }
+			add_to_temp_variable = { total = buildings_uranium_missing_demand }
+		}
+		localization_key = "[?total|+0]"
+	}
+}
+
+defined_text = {
+	name = Get_resource_extracted_amnt
+	text = {
+		trigger = {
+			check_variable = { resource_type = 1 } 
+			set_temp_variable = { total = TNO_market_oil }
+			add_to_temp_variable = { total = resource_produced@oil }
+			add_to_temp_variable = { total = buildings_oil_demand }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 2 } 
+			set_temp_variable = { total = TNO_market_aluminium }
+			add_to_temp_variable = { total = TNO_stockpile_aluminium }
+			add_to_temp_variable = { total = resource_produced@aluminium }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 3 }
+			set_temp_variable = { total = TNO_market_rubber }
+			add_to_temp_variable = { total = TNO_stockpile_rubber }
+			add_to_temp_variable = { total = resource_produced@rubber }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { resource_type = 4 } 
+			set_temp_variable = { total = TNO_market_tungsten }
+			add_to_temp_variable = { total = TNO_stockpile_tungsten }
+			add_to_temp_variable = { total = resource_produced@tungsten }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 5 } 
+			set_temp_variable = { total = TNO_market_steel }
+			add_to_temp_variable = { total = TNO_stockpile_steel }
+			add_to_temp_variable = { total = PU_civ_steel_consumption }
+			add_to_temp_variable = { total = resource_produced@steel }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 6 }
+			set_temp_variable = { total = TNO_market_chromium }
+			add_to_temp_variable = { total = TNO_stockpile_chromium }
+			add_to_temp_variable = { total = resource_produced@chromium }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { resource_type = 7 } 
+			set_temp_variable = { total = TNO_market_uranium }
+			add_to_temp_variable = { total = TNO_stockpile_uranium }
+			add_to_temp_variable = { total = buildings_uranium_demand }
+			add_to_temp_variable = { total = resource_produced@uranium }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { resource_type = 8 } 
+			set_temp_variable = { total = PU_consumer_goods_production }
+			multiply_temp_variable = { total = -1 }
+		}
+		localization_key = "[?total|+0]"
+	}
+}
+defined_text = {
+	name = Get_resource_consumed_amnt
+	text = {
+		trigger = {
+			check_variable = { resource_type = 1 }
+			set_temp_variable = { total = resource_produced@oil }
+			subtract_from_temp_variable = { total = resource@oil }
+			add_to_temp_variable = { total = buildings_oil_demand }
+		}
+		localization_key = "[?total|-0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 2 }
+			set_temp_variable = { total = resource_produced@aluminium }
+			subtract_from_temp_variable = { total = resource@aluminium }
+		}
+		localization_key = "[?total|-0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 3 }
+			set_temp_variable = { total = resource_produced@rubber }
+			subtract_from_temp_variable = { total = resource@rubber }
+		}
+		localization_key = "[?total|-0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 4 }
+			set_temp_variable = { total = resource_produced@tungsten }
+			subtract_from_temp_variable = { total = resource@tungsten }
+		}
+		localization_key = "[?total|-0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 5 }
+			set_temp_variable = { total = resource_produced@steel }
+			add_to_temp_variable = { total = PU_civ_steel_consumption }
+			subtract_from_temp_variable = { total = resource@steel }
+		}
+		localization_key = "[?total|-0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 6 }
+			set_temp_variable = { total = resource_produced@chromium }
+			subtract_from_temp_variable = { total = resource@chromium }
+		}
+		localization_key = "[?total|-0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 7 }
+			set_temp_variable = { total = resource_produced@uranium }
+			add_to_temp_variable = { total = buildings_uranium_demand }
+			subtract_from_temp_variable = { total = resource@uranium }
+		}
+		localization_key = "[?total|-0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 8 }
+		}
+		localization_key = "[?consumer_goods_monthly_use|-0]"
+	}
+}
+defined_text = {
+	name = Get_resource_total_amnt
+	text = {
+		trigger = {
+			check_variable = { resource_type = 1 }
+			set_temp_variable = { total = resource@oil }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 2 }
+			set_temp_variable = { total = TNO_stockpile_aluminium }
+			add_to_temp_variable = { total = resource@aluminium }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 3 }
+			set_temp_variable = { total = TNO_stockpile_rubber }
+			add_to_temp_variable = { total = resource@rubber }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 4 }
+			set_temp_variable = { total = TNO_stockpile_tungsten }
+			add_to_temp_variable = { total = resource@tungsten }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 5 }
+			set_temp_variable = { total = TNO_stockpile_steel }
+			add_to_temp_variable = { total = resource@steel }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 6 }
+			set_temp_variable = { total = TNO_stockpile_chromium }
+			add_to_temp_variable = { total = resource@chromium }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 7 }
+			set_temp_variable = { total = TNO_stockpile_uranium }
+			add_to_temp_variable = { total = resource@uranium }
+		}
+		localization_key = "[?total|+0]"
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 8 }
+			set_temp_variable = { total = PU_consumer_goods_production }
+			multiply_temp_variable = { total = -1 }
+			subtract_from_temp_variable = { total = consumer_goods_monthly_use }
+			subtract_from_temp_variable = { total = TNO_market_consumer_goods }
+		}
+		localization_key = "[?total|+0]"
+	}
+}
+defined_text = {
+	name = GetTradeTotalToStockpile
+	text = {
+		trigger = {
+			check_variable = { resource_type = 2 }
+			set_temp_variable = { total = TNO_stockpile_aluminium }
+			add_to_temp_variable = { total = resource@aluminium }
+			check_variable = { total > 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_added
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 2 }
+			set_temp_variable = { total = TNO_stockpile_aluminium }
+			add_to_temp_variable = { total = resource@aluminium }
+			check_variable = { total < 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_extracted
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 3 }
+			set_temp_variable = { total = TNO_stockpile_rubber }
+			add_to_temp_variable = { total = resource@rubber }
+			check_variable = { total > 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_added
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 3 }
+			set_temp_variable = { total = TNO_stockpile_rubber }
+			add_to_temp_variable = { total = resource@rubber }
+			check_variable = { total < 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_extracted
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 4 }
+			set_temp_variable = { total = TNO_stockpile_tungsten }
+			add_to_temp_variable = { total = resource@tungsten }
+			check_variable = { total > 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_added
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 4 }
+			set_temp_variable = { total = TNO_stockpile_tungsten }
+			add_to_temp_variable = { total = resource@tungsten }
+			check_variable = { total < 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_extracted
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 5 }
+			set_temp_variable = { total = TNO_stockpile_steel }
+			add_to_temp_variable = { total = resource@steel }
+			check_variable = { total > 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_added
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 5 }
+			set_temp_variable = { total = TNO_stockpile_steel }
+			add_to_temp_variable = { total = resource@steel }
+			check_variable = { total < 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_extracted
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 6 }
+			set_temp_variable = { total = TNO_stockpile_chromium }
+			add_to_temp_variable = { total = resource@chromium }
+			check_variable = { total > 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_added
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 6 }
+			set_temp_variable = { total = TNO_stockpile_chromium }
+			add_to_temp_variable = { total = resource@chromium }
+			check_variable = { total < 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_extracted
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 7 }
+			set_temp_variable = { total = TNO_stockpile_uranium }
+			add_to_temp_variable = { total = resource@uranium }
+			check_variable = { total > 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_added
+	}
+	text = {
+		trigger = {
+			check_variable = { resource_type = 7 }
+			set_temp_variable = { total = TNO_stockpile_uranium }
+			add_to_temp_variable = { total = resource@uranium }
+			check_variable = { total < 0 }
+		}
+		localization_key = trade_total_amnt_tooltip_extracted
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = GetDeficitRatioColoring
+	text = {
+		trigger = { # check to see if there is a surplus
+			check_variable = { deficit_to_GDP_ratio > 0 }
+		}
+		localization_key = DeficitColorRatioGreen
+	}
+	text = {
+		trigger = { # check to see if the deficit is less than the GDP growth
+			check_variable = { deficit_to_GDP_ratio > GDP_growth_inverted }
+		}
+		localization_key = DeficitColorRatioGreen
+	}
+	text = { # check to see if the deficit is below 5% of GDP  
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio > -5 } 
+		}
+		localization_key = DeficitColorRatioYellow 
+	}
+
+	text = { # check to see if the deficit is above 5% but below 10% of GDP
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio > -10 } 
+		}
+		localization_key = DeficitColorRatioOrange
+	}
+
+	text = { # check to see if the deficit is above 10% of GDP
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio < -10 } 
+		}
+		localization_key = DeficitColorRatioRed
+	}
+}
+
+defined_text = {
+	name = GetDebtGDPRatioGoodBad
+	text = {
+		trigger = { # check to see if is below 100
+			check_variable = { debt_to_GDP_ratio < 1 }
+		}
+		localization_key = DeficitColorRatioGreen
+	}
+	text = { # check to see if the debt is within 10% of the limit
+		trigger = {
+			set_temp_variable = temp_debt_to_GDP_ratio_below_10
+			add_to_temp_variable = { temp_debt_to_GDP_ratio_below_10 = 0.1 }
+			check_variable = { temp_debt_to_GDP_ratio_below_10 > modifier@debt_to_GDP_ceiling_modifier } 
+		}
+		localization_key = DeficitColorRatioOrange
+	}
+
+	text = {
+		trigger = { # check to see below debt ceiling
+			check_variable = { debt_to_GDP_ratio < modifier@debt_to_GDP_ceiling_modifier }
+		}
+		localization_key = DeficitColorRatioYellow
+	}
+
+	text = { # check to see if the debt is above the ceiling
+		trigger = {
+			check_variable = { debt_to_GDP_ratio > modifier@debt_to_GDP_ceiling_modifier } 
+		}
+		localization_key = DeficitColorRatioRed
+	}
+}
+
+defined_text = {
+	name = GetGrowingFasterSlowerEqual
+	text = {
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio > GDP_growth_inverted }
+		}
+		localization_key = national_deficit_to_GDP_growing_faster
+	}
+	text = {
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio = GDP_growth_inverted }
+		}
+		localization_key = national_deficit_to_GDP_growing_equal
+	}
+	text = {
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio < GDP_growth_inverted }
+		}
+		localization_key = national_deficit_to_GDP_growing_slower
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingDescription
+		text = {
+			trigger = {
+				check_variable = { credit_rating_average = 9 }
+			}
+			localization_key = credit_rating_desc_superhigh
+		}
+		text = {
+			trigger = {
+				check_variable = { credit_rating_average > 7 }
+			}
+		localization_key = credit_rating_desc_very_high
+		}
+		text = {
+			trigger = {
+					check_variable = { credit_rating_average > 5 }
+			}
+			localization_key = credit_rating_desc_high
+		}
+		text = {
+			trigger = {
+					check_variable = { credit_rating_average > 3 }
+			}
+			localization_key = credit_rating_desc_average
+		}
+		text = {
+			trigger = {
+					check_variable = { credit_rating_average > 0 }
+			}
+			localization_key = credit_rating_desc_low
+		}
+		text = {
+			trigger = {
+					check_variable = { credit_rating_average = 0 }
+			}
+			localization_key = credit_rating_desc_default
+		}
+}
+
+defined_text = {
+	name = GetCreditRatingValue
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 11 }
+		}
+		localization_key = TNO_econ_credit_11
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 10 }
+		}
+		localization_key = TNO_econ_credit_10
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 9 }
+		}
+		localization_key = TNO_econ_credit_9
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 8 }
+		}
+		localization_key = TNO_econ_credit_8
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 7 }
+		}
+		localization_key = TNO_econ_credit_7
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 6 }
+		}
+		localization_key = TNO_econ_credit_6
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 5 }
+		}
+		localization_key = TNO_econ_credit_5
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 4 }
+		}
+		localization_key = TNO_econ_credit_4
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 3 }
+		}
+		localization_key = TNO_econ_credit_3
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 2 }
+		}
+		localization_key = TNO_econ_credit_2
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 1 }
+		}
+		localization_key = TNO_econ_credit_1
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingMinMax
+	text = {
+		trigger = {
+			check_variable = { credit_rating = credit_rating_min }
+			check_variable = { credit_rating = credit_rating_max }
+		}
+		localization_key = credit_rating_minmax_no
+	}
+	text = {
+		localization_key = credit_rating_minmax
+	}
+ }
+
+defined_text = {
+	name = GetCreditRatingMax
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 10 }
+		}
+		localization_key = TNO_econ_credit_10
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 9 }
+		}
+		localization_key = TNO_econ_credit_9
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 8 }
+		}
+		localization_key = TNO_econ_credit_8
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 7 }
+		}
+		localization_key = TNO_econ_credit_7
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 6 }
+		}
+		localization_key = TNO_econ_credit_6
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 5 }
+		}
+		localization_key = TNO_econ_credit_5
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 4 }
+		}
+		localization_key = TNO_econ_credit_4
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 3 }
+		}
+		localization_key = TNO_econ_credit_3
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 2 }
+		}
+		localization_key = TNO_econ_credit_2
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_max = 1 }
+		}
+		localization_key = TNO_econ_credit_1
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingMin
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 10 }
+		}
+		localization_key = TNO_econ_credit_10
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 9 }
+		}
+		localization_key = TNO_econ_credit_9
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 8 }
+		}
+		localization_key = TNO_econ_credit_8
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 7 }
+		}
+		localization_key = TNO_econ_credit_7
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 6 }
+		}
+		localization_key = TNO_econ_credit_6
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 5 }
+		}
+		localization_key = TNO_econ_credit_5
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 4 }
+		}
+		localization_key = TNO_econ_credit_4
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 3 }
+		}
+		localization_key = TNO_econ_credit_3
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 2 }
+		}
+		localization_key = TNO_econ_credit_2
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_min = 1 }
+		}
+		localization_key = TNO_econ_credit_1
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingUpDown
+	text = {
+		trigger = {
+			check_variable = { credit_rating = credit_rating_min }
+			check_variable = { credit_rating = credit_rating_max }
+		}
+		localization_key = credit_rating_aggregate_LOCKED
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_change_aggregate = 0 }
+		}
+		localization_key = credit_rating_aggregate_NEUTRAL
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating_change_aggregate > 0 }
+		}
+		localization_key = credit_rating_aggregate_UP
+	}
+	text = { 
+		localization_key = credit_rating_aggregate_DOWN
+	}
+}
+
+defined_text = {
+	name = GetCreditLadderDesc
+	text = {
+		trigger = {
+			OR = {
+				tag = GER
+	 			check_variable = { ECON_SPHERE_LEADER = GER }
+			}
+		}
+		localization_key = TNO_GER_sphere_credit_loc
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = JAP
+	 			check_variable = { ECON_SPHERE_LEADER = JAP }
+			}
+		}
+		localization_key = TNO_JAP_sphere_credit_loc
+	}
+	# text = {
+	# 	trigger = {
+	# 		OR = {
+	# 			tag = ITA
+	#  			check_variable = { ECON_SPHERE_LEADER = ITA }
+	# 		}
+	# 	}
+	# 	localization_key = TNO_ITA_sphere_credit_loc
+	# }
+	text = {
+		localization_key = TNO_USA_sphere_credit_loc
+	}
+}
+
+defined_text = {
+	name = GetGERCreditRatingLoc
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 10 }
+		}
+		localization_key = TNO_GER_ladder_10
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 9 }
+		}
+		localization_key = TNO_GER_ladder_9
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 8 }
+		}
+		localization_key = TNO_GER_ladder_8
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 7 }
+		}
+		localization_key = TNO_GER_ladder_7
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 6 }
+		}
+		localization_key = TNO_GER_ladder_6
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 5 }
+		}
+		localization_key = TNO_GER_ladder_5
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 4 }
+		}
+		localization_key = TNO_GER_ladder_4
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 3 }
+		}
+		localization_key = TNO_GER_ladder_3
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 2 }
+		}
+		localization_key = TNO_GER_ladder_2
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 1 }
+		}
+		localization_key = TNO_GER_ladder_1
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetJAPCreditRatingLoc
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 10 }
+		}
+		localization_key = TNO_JAP_ladder_10
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 9 }
+		}
+		localization_key = TNO_JAP_ladder_9
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 8 }
+		}
+		localization_key = TNO_JAP_ladder_8
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 7 }
+		}
+		localization_key = TNO_JAP_ladder_7
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 6 }
+		}
+		localization_key = TNO_JAP_ladder_6
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 5 }
+		}
+		localization_key = TNO_JAP_ladder_5
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 4 }
+		}
+		localization_key = TNO_JAP_ladder_4
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 3 }
+		}
+		localization_key = TNO_JAP_ladder_3
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 2 }
+		}
+		localization_key = TNO_JAP_ladder_2
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 1 }
+		}
+		localization_key = TNO_JAP_ladder_1
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetUSACreditRatingLoc
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 10 }
+		}
+		localization_key = TNO_USA_ladder_10
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 9 }
+		}
+		localization_key = TNO_USA_ladder_9
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 8 }
+		}
+		localization_key = TNO_USA_ladder_8
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 7 }
+		}
+		localization_key = TNO_USA_ladder_7
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 6 }
+		}
+		localization_key = TNO_USA_ladder_6
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 5 }
+		}
+		localization_key = TNO_USA_ladder_5
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 4 }
+		}
+		localization_key = TNO_USA_ladder_4
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 3 }
+		}
+		localization_key = TNO_USA_ladder_3
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 2 }
+		}
+		localization_key = TNO_USA_ladder_2
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 1 }
+		}
+		localization_key = TNO_USA_ladder_1
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetLadderCreditRatingLongTT
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 10 }
+		}
+		localization_key = TNO_credit_long_tt_10
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 9 }
+		}
+		localization_key = TNO_credit_long_tt_9
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 8 }
+		}
+		localization_key = TNO_credit_long_tt_8
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 7 }
+		}
+		localization_key = TNO_credit_long_tt_7
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 6 }
+		}
+		localization_key = TNO_credit_long_tt_6
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 5 }
+		}
+		localization_key = TNO_credit_long_tt_5
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 4 }
+		}
+		localization_key = TNO_credit_long_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 3 }
+		}
+		localization_key = TNO_credit_long_tt_3
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 2 }
+		}
+		localization_key = TNO_credit_long_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 1 }
+		}
+		localization_key = TNO_credit_long_tt_1
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+
+defined_text = {
+	name = GetLadderCreditRatingValue
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 10 }
+		}
+		localization_key = TNO_econ_credit_10
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 9 }
+		}
+		localization_key = TNO_econ_credit_9
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 8 }
+		}
+		localization_key = TNO_econ_credit_8
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 7 }
+		}
+		localization_key = TNO_econ_credit_7
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 6 }
+		}
+		localization_key = TNO_econ_credit_6
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 5 }
+		}
+		localization_key = TNO_econ_credit_5
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 4 }
+		}
+		localization_key = TNO_econ_credit_4
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 3 }
+		}
+		localization_key = TNO_econ_credit_3
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 2 }
+		}
+		localization_key = TNO_econ_credit_2
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = 1 }
+		}
+		localization_key = TNO_econ_credit_1
+	}
+	text = {
+		localization_key = "에러"
+	}
+}
+
+defined_text = {
+	name = GetWarTaxesActiveText
+
+	text = {
+		trigger = {
+			NOT = { has_country_flag = war_taxes_enabled }
+		}
+		localization_key = "시행"
+	}
+	text = { 
+		localization_key = "폐지"
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingLadderColor
+
+	text = {
+		trigger = {
+			check_variable = { credit_rating = ladder_credit_rating }
+		}
+		localization_key = GFX_econ_credit_rating_box_white
+	}
+	text = { 
+		localization_key = GFX_econ_credit_rating_box_blue
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingLadderBracket
+
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = credit_rating_min }
+			check_variable = { ladder_credit_rating = credit_rating_max }
+		}
+		localization_key = GFX_econ_credit_rating_bracket_both
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = credit_rating_min }
+		}
+		localization_key = GFX_econ_credit_rating_bracket_bottom
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating = credit_rating_max }
+		}
+		localization_key = GFX_econ_credit_rating_bracket_top
+	}
+	text = {
+		trigger = {
+			check_variable = { ladder_credit_rating < credit_rating_max }
+			check_variable = { ladder_credit_rating > credit_rating_min }
+		}
+		localization_key = GFX_econ_credit_rating_bracket_middle
+	}
+	text = { 
+		localization_key = GFX_empty_bg
+	}
+}
+
+
+defined_text = {
+	name = GetCreditRatingLocked
+	text = {
+		trigger = {
+			check_variable = { credit_rating = credit_rating_min }
+			check_variable = { credit_rating = credit_rating_max }
+		}
+		localization_key = credit_rating_locked
+	}
+	text = { 
+		localization_key = credit_rating_not_locked
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingDisabled 
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 11 }
+		}
+		localization_key = credit_rating_disabled
+	}
+	text = {
+		localization_key = credit_rating_enabled
+	}
+}
+
+defined_text = {
+	name = GetLockedCreditRatingOrUnlocked
+	text = {
+		trigger = {
+			check_variable = { credit_rating = credit_rating_min }
+			check_variable = { credit_rating = credit_rating_max }
+		}
+		localization_key = credit_rating_locked_short
+	}
+	text = { 
+		localization_key = credit_rating_unlocked_short
+	}
+}
+
+defined_text = {
+	name = CreditRatingUpgrade
+	text = { 
+		trigger = {
+			check_variable = { credit_rating = credit_rating_max }
+		}
+		localization_key = credit_rating_upgrade_impossible
+	}
+	text = {
+		localization_key = credit_rating_upgrade_possible
+	}
+}
+
+defined_text = {
+	name = CreditRatingDowngrade
+	text = { 
+		trigger = {
+			check_variable = { credit_rating = credit_rating_min }
+		}
+		localization_key = credit_rating_downgrade_impossible
+	}
+	text = {
+		localization_key = credit_rating_downgrade_possible
+	}
+}
+
+defined_text = {
+	name = GetNextLevelCreditUpgrade
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 9 }
+		}
+		localization_key = TNO_econ_credit_10
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 8 }
+		}
+		localization_key = TNO_econ_credit_9
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 7 }
+		}
+		localization_key = TNO_econ_credit_8
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 6 }
+		}
+		localization_key = TNO_econ_credit_7
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 5 }
+		}
+		localization_key = TNO_econ_credit_6
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 4 }
+		}
+		localization_key = TNO_econ_credit_5
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 3 }
+		}
+		localization_key = TNO_econ_credit_4
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 2 }
+		}
+		localization_key = TNO_econ_credit_3
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 1 }
+		}
+		localization_key = TNO_econ_credit_2
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 0 }
+		}
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetNextLevelCreditDowngrade
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 10 }
+		}
+		localization_key = TNO_econ_credit_9
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 9 }
+		}
+		localization_key = TNO_econ_credit_8
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 8 }
+		}
+		localization_key = TNO_econ_credit_7
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 7 }
+		}
+		localization_key = TNO_econ_credit_6
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 6 }
+		}
+		localization_key = TNO_econ_credit_5
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 5 }
+		}
+		localization_key = TNO_econ_credit_4
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 4 }
+		}
+		localization_key = TNO_econ_credit_3
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 3 }
+		}
+		localization_key = TNO_econ_credit_2
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 2 }
+		}
+		localization_key = TNO_econ_credit_1
+	}
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 0 }
+		}
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingEffects 
+	text = {
+		trigger = {
+			check_variable = { credit_rating = 10 }
+		}
+		localization_key = credit_rating_effect_prime
+	}
+	text = {
+		localization_key = credit_rating_effect_normal
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingDeficit
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { deficit_to_GDP_ratio > GDP_growth_inverted }
+				check_variable = { deficit_to_GDP_ratio = 0 }
+			}
+		}
+		localization_key = credit_rating_deficit_good
+	}
+	text = {
+		localization_key = credit_rating_deficit_bad
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingDebt
+	text = {
+		trigger = {
+			set_temp_variable = { temp_debt_ceiling_adjusted = debt_ceiling }
+			subtract_from_temp_variable = { temp_debt_ceiling_adjusted = .25 }
+			check_variable = { debt_to_GDP_ratio > temp_debt_ceiling_adjusted }
+		}
+		localization_key = credit_rating_debt_level_bad
+	}
+	text = {
+		localization_key = credit_rating_debt_level_good
+	}
+}
+
+defined_text = { 
+	name = GetDebtCeilingNumOrText
+	text = { 
+		trigger = {
+			check_variable = { debt_ceiling > 10 }
+		}
+		localization_key = debt_ceiling_txt_number_text
+	}
+	text = {
+		localization_key = debt_ceiling_txt_number_value
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingWar
+	text = {
+		trigger = {
+			has_war = yes 
+		}
+		localization_key = credit_rating_war
+	}
+	text = {
+		localization_key = credit_rating_peace
+	}
+}
+
+defined_text = {
+	name = GetCreditRatingFromModifiers
+	text = {
+		trigger = {
+			NOT = {
+				check_variable = { modifier@monthly_credit_rating_progress = 0 }
+			}
+		}
+		localization_key = credit_rating_from_modifiers
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = GetPayingDebt
+	text = {
+		trigger = {
+			check_variable = { monthly_interest_payment > 0 }
+		}
+		localization_key = national_debt_interest_paying
+	}
+
+	text = {
+		localization_key = national_debt_interest_paying_no
+	}
+
+}
+
+defined_text = { 
+	name = GetB
+	text = {
+		localization_key = capitalB
+	}
+}
+
+defined_text = {
+	name = increaseGDP
+	text = {
+		localization_key = increaseGDP
+	}
+}
+
+defined_text = {
+	name = decreaseGDP
+	text = {
+		localization_key = decreaseGDP
+	}
+}
+
+defined_text = {
+	name = closecolor
+	text = {
+		localization_key = closecolor
+	}
+}
+
+
+defined_text = {
+	name = GetJoinSphereTooltip
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = WOL } }
+		localization_key = econ_sphere_name_WOL
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = FFR } }
+		localization_key = econ_sphere_name_FFR
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = CAO } }
+		localization_key = econ_sphere_name_CAO
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = ADN } }
+		localization_key = econ_sphere_name_ADN
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = CME } }
+		localization_key = econ_sphere_name_CME
+	}
+	text = { localization_key = econ_join_sphere_target_0_tt }
+}
+
+defined_text = {
+	name = GetSphereName
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = GER }
+			NOT = {
+				has_global_flag = german_civil_war_speervic
+			}
+		}
+
+		localization_key = econ_sphere_name_GER
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = GER }
+			has_global_flag = german_civil_war_speervic
+		}
+
+		localization_key = econ_sphere_name_ZV
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = JAP } }
+		localization_key = econ_sphere_name_JAP
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = ITA } }
+		localization_key = econ_sphere_name_ITA
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = IBR } }
+		localization_key = econ_sphere_name_IBR
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = ARG } }
+		localization_key = econ_sphere_name_ARG
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = BRA } }
+		localization_key = econ_sphere_name_BRA
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = MEX } }
+		localization_key = econ_sphere_name_MEX
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = USA } }
+		localization_key = econ_sphere_name_USA
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = WOL } }
+		localization_key = econ_sphere_name_WOL
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = FFR } }
+		localization_key = econ_sphere_name_FFR
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = CAO } }
+		localization_key = econ_sphere_name_CAO
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { ECON_SPHERE_LEADER = ADN }
+				tag = ADN
+			}
+		}
+		localization_key = econ_sphere_name_ADN
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { ECON_SPHERE_LEADER = CME }
+				tag = CME
+			}
+		}
+		localization_key = econ_sphere_name_CME
+	}
+	text = { localization_key = "No Sphere" }
+}
+
+defined_text = {
+	name = GetSphereLeaderTooltip
+	text = {
+		trigger = {
+			has_variable = ECON_SPHERE_LEADER
+		}
+
+		localization_key = econ_sphere_has_leader
+	}
+	text = { localization_key = "" }
+}
+
+defined_text = {
+	name = GetSphereButtonDelayedTooltip
+	text = {
+		trigger = {
+			has_variable = ECON_SPHERE_LEADER
+		}
+
+		localization_key = econ_sphere_button_tt_delayed_in_shere
+	}
+	text = { 
+		trigger = {
+			NOT {
+				has_variable = ECON_SPHERE_LEADER
+			}
+		}
+		localization_key = econ_sphere_button_tt_delayed_no_shere
+	}
+}
+
+defined_text = {
+	name = GetCurrency
+	# text = {
+	# 	trigger = {
+	# 		# OR = {
+	# 		# 	tag = GER
+	# 		# 	check_variable = { ECON_SPHERE_LEADER = GER }
+	# 			ROOT = {
+	# 				OR = {
+	# 					tag = GER
+	# 					check_variable = { ECON_SPHERE_LEADER = GER }
+	# 				}
+	# 			}
+	# 		#}
+	# 	}
+
+	# 	localization_key = CURRENCY_REICHSMARK
+	# }
+
+	# text = {
+	# 	trigger = {
+	# 		# OR = {
+	# 		# 	tag = JAP
+	# 		# 	check_variable = { ECON_SPHERE_LEADER = JAP }
+	# 			ROOT = {
+	# 				OR = {
+	# 					tag = JAP
+	# 					check_variable = { ECON_SPHERE_LEADER = JAP }
+	# 				}
+	# 			}
+	# 		#}
+	# 	}
+
+	# 	localization_key = CURRENCY_YEN
+	# }
+
+	# text = { # ask about coding this in for all russian folks
+	# 	trigger = {
+	# 		# OR = {
+	# 		# 	is_russian_nation = yes
+    # 		# 	is_kazakh_nation = yes
+	# 			ROOT = {
+	# 				OR = {
+	# 					is_russian_nation = yes
+    # 					is_kazakh_nation = yes
+	# 				}
+	# 			}
+	# 		#}
+	# 	}
+
+	# 	localization_key = CURRENCY_RUBLE
+	# }
+
+	text = {
+		localization_key = CURRENCY_USD
+	}
+}
+
+defined_text = {
+	name = Get_economy_button_GFX
+	text = {
+		trigger = {
+			OR = {
+				tag = GER
+				tag = BGR
+				tag = GGR
+				tag = SGR
+				tag = HGR
+				tag = RNW
+				tag = BRG
+				check_variable = { ECON_SPHERE_LEADER = GER }
+			}
+		}
+
+		localization_key = "GFX_economy_button_RM"
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				tag = JAP
+				check_variable = { ECON_SPHERE_LEADER = JAP }
+			}
+		}
+
+		localization_key = "GFX_economy_button_JPY"
+	}
+
+	text = { # ask about coding this in for all russian folks
+		trigger = {
+			OR = {
+				is_russian_nation = yes
+    			is_kazakh_nation = yes
+			}
+		}
+
+		localization_key = "GFX_economy_button_RUBLE"
+	}
+
+	text = {
+		localization_key = "GFX_economy_button_USD"
+	}
+}
+
+defined_text = {
+	name = GetSphereIcon
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = GER }
+			NOT = {
+				has_global_flag = german_civil_war_speervic
+			}
+		}
+		localization_key = "GFX_econ_sphere_icon_GER"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = GER }
+			has_global_flag = german_civil_war_speervic
+		}
+		localization_key = "GFX_econ_sphere_icon_ZV_GER"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = JAP }
+		}
+		localization_key = "GFX_econ_sphere_icon_JAP"
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { ECON_SPHERE_LEADER = ITA }
+				check_variable = { ECON_SPHERE_LEADER = IBR }
+			}
+			NOT = {
+				has_global_flag = Triumvirate_Collapse
+			}
+		}
+		localization_key = "GFX_econ_sphere_icon_ITA_TRI"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = ITA }
+			has_global_flag = Triumvirate_Collapse
+		}
+		localization_key = "GFX_econ_sphere_icon_ITA"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = IBR }
+			has_global_flag = Triumvirate_Collapse
+		}
+		localization_key = "GFX_econ_sphere_icon_IBR"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = USA }
+		}
+		localization_key = "GFX_econ_sphere_icon_USA"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = ARG }
+		}
+		localization_key = "GFX_econ_sphere_icon_ARG"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = BRA }
+		}
+		localization_key = "GFX_econ_sphere_icon_BRA"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = MEX }
+		}
+		localization_key = "GFX_econ_sphere_icon_MEX"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = FFR }
+		}
+		localization_key = "GFX_econ_sphere_icon_FFR"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = WOL }
+		}
+		localization_key = "GFX_econ_sphere_icon_WOL"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = CAO }
+		}
+		localization_key = "GFX_econ_sphere_icon_CAO"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = ADN }
+		}
+		localization_key = "GFX_econ_sphere_icon_ADN"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = CME }
+		}
+		localization_key = "GFX_econ_sphere_icon_CME"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = ENG }
+		}
+		localization_key = "GFX_econ_sphere_icon_ENG"
+	}
+	text = {
+		localization_key = "GFX_econ_sphere_icon_none"
+	}
+}
+
+defined_text = {
+	name = GetSphereCreditRatingType
+	text = {
+		trigger = {
+			OR = {
+				TAG = GER
+				TAG = BGR
+				TAG = GGR
+				TAG = SGR
+				TAG = HGR
+				TAG = RNW
+				check_variable = { ECON_SPHERE_LEADER = GER }
+			}
+		}
+		localization_key = "GFX_econ_credit_ratings_GER"
+	}
+	text = {
+		trigger = {
+			OR = {
+				TAG = JAP
+				check_variable = { ECON_SPHERE_LEADER = JAP }
+			}
+		}
+		localization_key = "GFX_econ_credit_ratings_JAP"
+	}
+	text = {
+		trigger = {
+			tag = ARG
+		}
+		localization_key = "GFX_econ_credit_ratings_ARG"
+	}
+	text = {
+		localization_key = "GFX_econ_credit_ratings"
+	}
+}
+
+defined_text = {
+	name = GetDebtIncreaseDecrease
+	text = {
+		trigger = { OR = { check_variable = { debt_temp > 0 } check_variable = { temp_econ_spending_amount > 0 } } }
+		localization_key = "TNO_Econ_Increase_lowercase"
+	}
+	text = {
+		trigger = { OR = { check_variable = { debt_temp < 0 } check_variable = { temp_econ_spending_amount < 0 } } }
+		localization_key = "TNO_Econ_Decrease_lowercase"
+	}
+	text = {
+		trigger = { OR = { check_variable = { debt_temp = 0 } check_variable = { temp_econ_spending_amount = 0 } } }
+		localization_key = "TNO_Econ_Unchanged_lowercase"
+	}
+}
+
+defined_text = {
+	name = GetDebtChangeColor
+	text = {
+		trigger = { OR = { check_variable = { debt_temp > 0 } check_variable = { temp_econ_spending_amount > 0 } } }
+		localization_key = "TNO_Econ_Color_Text_Red"
+	}
+	text = {
+		trigger = { OR = { check_variable = { debt_temp < 0 } check_variable = { temp_econ_spending_amount < 0 } } }
+		localization_key = "TNO_Econ_Color_Text_Green"
+	}
+	text = {
+		trigger = { OR = { check_variable = { debt_temp = 0 } check_variable = { temp_econ_spending_amount = 0 } } }
+		localization_key = "TNO_Econ_Color_Text_Yellow"
+	}
+}
+
+text = {
+	name = GetStateGDPDisplay
+	text = {
+		trigger = {
+			check_variable = { modifier@state_GDP_contribution_to_total_state_GDP_modifier < 0 }
+		}
+		localization_key = gdp_number_display_modified
+	}
+	text = { 
+		localization_key = gdp_number_display_normal
+	}
+}
+
+defined_text = {
+	name = GetStateContributionMorB 
+	text = {
+		trigger = {
+			check_variable = { state_value_B < 1 }
+		}
+		localization_key = "[?state_GDP_contribution|2]M"
+	}
+	text = {
+		localization_key = "[?state_GDP_contribution_B|2]B"
+	}
+}
+
+defined_text = {
+	name = GetStateValueMorB
+	text = {
+		trigger = {
+			check_variable = { state_value_B < 1 }
+		}
+		localization_key = "[?state_value|2]M"
+	}
+	text = {
+		localization_key = "[?state_value_B|2]B"
+	}
+}
+
+defined_text = {
+	name = GetStateGDPGrowth 
+	text = {
+		trigger = {
+			CONTROLLER = {
+				set_temp_variable = { temp_real_GDP_growth = GDP_growth_real }
+				set_temp_variable = { temp_real_GDP_growth_display = GDP_growth_real }
+			}
+			add_to_temp_variable = { temp_real_gdp_growth = modifier@state_GDP_growth_modifier }
+			# log = "[?temp_real_GDP_growth] is temp real gdp growth"
+			set_temp_variable = { temp_infra_damaged = damaged_building_level@infrastructure }
+			divide_temp_variable = { temp_infra_damaged = infrastructure_level } # spits out % of infrastructure damaged - should be 0 
+			# log = "[?temp_infra_damaged] is temp % of infra damaged"
+			set_temp_variable = { temp_infra_damaged_factor_effect = temp_infra_damaged }
+			divide_temp_variable = { temp_infra_damaged_factor_effect = 2 }
+
+			set_temp_variable = { temp_state_GDP_growth_factor = 1 }
+			add_to_temp_variable = { temp_state_GDP_growth_factor = modifier@state_GDP_growth_factor_modifier }
+			subtract_from_temp_variable = { temp_state_GDP_growth_factor = temp_infra_damaged_factor_effect }
+
+
+			multiply_temp_variable = { temp_real_GDP_growth = temp_state_GDP_growth_factor }
+			# log = "[?temp_real_GDP_growth] is temp real GDP growth after applying infra mult and modifier"
+
+
+
+			set_temp_variable = { temp_infra_damaged_effect = temp_infra_damaged }
+			multiply_temp_variable = { temp_infra_damaged_effect = -5 }
+
+			add_to_temp_variable = { temp_real_GDP_growth = temp_infra_damaged_effect }
+			# log = "[?temp_real_GDP_growth] is temp real GDP growth after applying infra flat"
+
+			# NO MORE UNIFICATION HERE 
+		}
+		localization_key = "[?temp_real_GDP_growth|2]%"
+	}
+}
+
+defined_text = {
+	name = GetStateGDPGrowthBreakdown
+	text = {
+		trigger = {
+			CONTROLLER = {
+				set_temp_variable = { temp_real_GDP_growth = GDP_growth_real }
+				set_temp_variable = { temp_real_GDP_growth_display = GDP_growth_real }
+			}
+			add_to_temp_variable = { temp_real_gdp_growth = modifier@state_GDP_growth_modifier }
+			# log = "[?temp_real_GDP_growth] is temp real gdp growth"
+			set_temp_variable = { temp_infra_damaged = damaged_building_level@infrastructure }
+			divide_temp_variable = { temp_infra_damaged = infrastructure_level } # spits out % of infrastructure damaged - should be 0 
+			# log = "[?temp_infra_damaged] is temp % of infra damaged"
+			set_temp_variable = { temp_infra_damaged_factor_effect = temp_infra_damaged }
+			divide_temp_variable = { temp_infra_damaged_factor_effect = 2 }
+
+			set_temp_variable = { temp_state_GDP_growth_factor = 1 }
+			add_to_temp_variable = { temp_state_GDP_growth_factor = modifier@state_GDP_growth_factor_modifier }
+			subtract_from_temp_variable = { temp_state_GDP_growth_factor = temp_infra_damaged_factor_effect }
+
+
+			multiply_temp_variable = { temp_real_GDP_growth = temp_state_GDP_growth_factor }
+			# log = "[?temp_real_GDP_growth] is temp real GDP growth after applying infra mult and modifier"
+
+			set_temp_variable = { temp_infra_damaged_effect = temp_infra_damaged }
+			multiply_temp_variable = { temp_infra_damaged_effect = -5 }
+
+			add_to_temp_variable = { temp_real_GDP_growth = temp_infra_damaged_effect }
+			# log = "[?temp_real_GDP_growth] is temp real GDP growth after applying infra flat"
+
+			# UNIFICATION ENDS HERE
+
+			set_temp_variable = { temp_next_month_GDP_growth_value = temp_real_GDP_growth }
+			set_temp_variable = { temp_next_month_real_GDP_growth = temp_real_GDP_growth }
+			divide_temp_variable = { temp_next_month_real_GDP_growth = 12 }
+			multiply_temp_variable = { temp_next_month_GDP_growth_value = state_value }
+			multiply_temp_variable = { temp_next_month_GDP_growth_value = 0.01 } # convert to a reasonable number
+			divide_temp_variable = { temp_next_month_GDP_growth_value = 12 } # spit out a monthly number 
+			multiply_temp_variable = { temp_infra_damaged_factor_effect = -1 } # make it display nice
+			# divide_temp_variable = { temp_infra_damaged_effect = 100 } # make it display nice 
+
+			# if = { 
+			# 	limit = {
+			# 		check_variable = { temp_next_month_GDP_growth_value > 1000 }
+			# 	}
+			# 	divide_temp_variable = { temp_next_month_GDP_growth_value = 1000 }
+			# }
+		}
+
+		localization_key = stateGDPGrowthBreakdownTemp
+	}
+}
+
+defined_text = { 
+	name = GetStateGDPModifierExists 
+	text = {
+		trigger = { 
+			NOT = {
+				check_variable = { modifier@state_GDP_growth_modifier = 0 }
+			}
+		}
+		localization_key = stateGDPGrowthHasAdditiveModifier
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = GetInfraDamagedStateEffect
+	text = {
+		trigger = {
+			check_variable = { damaged_building_level@infrastructure > 0 }
+		}
+		localization_key = stateGDPGrowthBreakdownInfraDamaged
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = GetMiscIncomeChangeColor
+	text = {
+		trigger = { check_variable = { misc_income > 0 } }
+		localization_key = "TNO_Econ_Color_Text_Green"
+	}
+	text = {
+		trigger = { check_variable = { misc_income < 0 } }
+		localization_key = "TNO_Econ_Color_Text_Red"
+	}
+	text = {
+		trigger = { check_variable = { misc_income = 0 } }
+		localization_key = "TNO_Econ_Color_Text_Yellow"
+	}
+}
+
+defined_text = {
+	name = GetMiscIncomeIncreaseDecrease
+	text = {
+		trigger = { check_variable = { misc_income > 0 } }
+		localization_key = "TNO_Econ_Increase_lowercase"
+	}
+	text = {
+		trigger = { check_variable = { misc_income < 0 } }
+		localization_key = "TNO_Econ_Decrease_lowercase"
+	}
+	text = {
+		trigger = { check_variable = { misc_income = 0 } }
+		localization_key = "TNO_Econ_Unchanged_lowercase"
+	}
+}
+
+defined_text = {
+	name = GetMiscCostsChangeColor
+	text = {
+		trigger = { check_variable = { misc_costs_temp < 0 } }
+		localization_key = "TNO_Econ_Color_Text_Green"
+	}
+	text = {
+		trigger = { check_variable = { misc_costs_temp > 0 } }
+		localization_key = "TNO_Econ_Color_Text_Red"
+	}
+	text = {
+		trigger = { check_variable = { misc_costs_temp = 0 } }
+		localization_key = "TNO_Econ_Color_Text_Yellow"
+	}
+}
+
+defined_text = {
+	name = GetMiscCostsIncreaseDecrease
+	text = {
+		trigger = { check_variable = { misc_costs_temp > 0 } }
+		localization_key = "TNO_Econ_Increase_lowercase"
+	}
+	text = {
+		trigger = { check_variable = { misc_costs_temp < 0 } }
+		localization_key = "TNO_Econ_Decrease_lowercase"
+	}
+	text = {
+		trigger = { check_variable = { misc_costs_temp = 0 } }
+		localization_key = "TNO_Econ_Unchanged_lowercase"
+	}
+}
+
+defined_text = {
+	name = GetMoneyReservesChangeColor
+	text = {
+		trigger = { check_variable = { money_reserves_temp > 0 } }
+		localization_key = "TNO_Econ_Color_Text_Green"
+	}
+	text = {
+		trigger = { check_variable = { money_reserves_temp < 0 } }
+		localization_key = "TNO_Econ_Color_Text_Red"
+	}
+	text = {
+		trigger = { check_variable = { money_reserves_temp = 0 } }
+		localization_key = "TNO_Econ_Color_Text_Yellow"
+	}
+}
+
+defined_text = {
+	name = GetWarTaxes
+	text = {
+		trigger = { has_country_flag = war_taxes_enabled } 
+		localization_key = econ_excise_revenue_txt_number_tt_war_taxes
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = GetWarTaxesChange
+	text = {
+		trigger = { has_country_flag = war_taxes_enabled } 
+		localization_key = "활성화"
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = war_taxes_enabled } }
+		localization_key = "비활성화"
+	}
+}
+
+defined_text = {
+	name = GetWarTaxesChangeTT
+	text = {
+		trigger = { has_country_flag = war_taxes_enabled } 
+		localization_key = "TNO_Econ_GetWarTaxesStatusTextActive"
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = war_taxes_enabled } }
+		localization_key = "TNO_Econ_GetWarTaxesStatusTextInactive"
+	}
+}
+
+defined_text = {
+	name = GetMoneyReservesIncreaseDecrease
+	text = {
+		trigger = { check_variable = { money_reserves_temp > 0 } }
+		localization_key = "TNO_Econ_Increase_lowercase"
+	}
+	text = {
+		trigger = { check_variable = { money_reserves_temp < 0 } }
+		localization_key = "TNO_Econ_Decrease_lowercase"
+	}
+	text = {
+		trigger = { check_variable = { money_reserves_temp = 0 } }
+		localization_key = "TNO_Econ_Unchanged_lowercase"
+	}
+}
+
+defined_text = {
+	name = GetSpendingSource
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { temp_econ_spending_amount_unmodified > money_reserves }
+				check_variable = { money_reserves > 0 }
+			}
+		}
+		localization_key = TNO_add_to_debt_including_money_reserves
+	}
+	text = {
+		trigger = { 
+			check_variable = { money_reserves > temp_econ_spending_amount_unmodified }
+		}
+		localization_key = TNO_use_money_reserves_spending
+	}
+	text = {
+		localization_key = TNO_add_to_debt_only
+	}
+}
+
+defined_text = {
+	name = GetConsumerGoodsProductionModiferGoodBadNeutral
+	text = {
+		trigger = {
+			check_variable = { modifier@consumer_goods_production_factor < 0 }
+		}
+		localization_key = econ_consumer_goods_production_modifier_bad
+	}
+	text = {
+		trigger = { 
+			check_variable = { modifier@consumer_goods_production_factor > 0 }
+		}
+		localization_key = econ_consumer_goods_production_modifier_good
+	}
+	text = {
+		localization_key = econ_consumer_goods_production_modifier_neutral
+	}
+}
+
+defined_text = {
+	name = ProdUnitsPowerLimitStatus
+	text = {
+		trigger = { check_variable = { production_units_used = resource@power } }
+		localization_key = prod_units_assignment_blocked
+	}
+	text = {
+		localization_key = prod_units_assignment_ok
+	}
+}
+
+defined_text = {
+	name = GetProdTabTooltip
+	text = {
+		trigger = {
+			check_variable = { good_type = 0 }
+		}
+		localization_key = econ_cosnumer_factories_production_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { good_type = 1 }
+		}
+		localization_key = econ_military_factories_production_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { good_type = 2 }
+		}
+		localization_key = econ_cosnumer_goods_production_tt
+	}
+}
+
+defined_text = {
+	name = Get_Central_Bank_Policy
+
+	text = {
+		trigger = { 
+			check_variable = { selected_central_bank_id = 1 }
+		}
+		localization_key = "Count our Pennies"
+	}
+
+	text = {
+		trigger = { 
+			check_variable = { selected_central_bank_id = 2 }
+		}
+		localization_key = "Fight Poverty"
+	}
+
+	text = {
+		trigger = { 
+			check_variable = { selected_central_bank_id = 3 }
+		}
+		localization_key = "Power Things Up"
+	}
+	
+	# Default - 0
+	text = {
+		trigger = { check_variable = { selected_central_bank_id = 0 } }
+		localization_key = "Fresh off the Presses"
+	}
+}
+
+
+defined_text = {
+	name = Get_Central_Bank_Policy_tt
+	text = {
+		trigger = { 
+			check_variable = { selected_central_bank_id = 1 }
+		}
+		localization_key = Central_Bank_Policy_1_tt
+	}
+
+	text = {
+		trigger = { 
+			check_variable = { selected_central_bank_id = 2 }
+		}
+		localization_key = Central_Bank_Policy_2_tt
+	}
+
+	text = {
+		trigger = { 
+			check_variable = { selected_central_bank_id = 3 }
+		} 
+		localization_key = Central_Bank_Policy_3_tt
+	}
+
+	# Default - 0
+	text = {
+		trigger = { always = yes }
+		localization_key = Central_Bank_Policy_0_tt
+	}
+}
+
+defined_text = {
+	name = Get_Central_Bank_Policy_icon
+
+	text = {
+		trigger = { 
+			check_variable = { selected_central_bank_id = 1 }
+		}
+		localization_key = "GFX_cb_policy_icon_count"
+	}
+
+	text = {
+		trigger = { 
+			check_variable = { selected_central_bank_id = 2 }
+		}
+		localization_key = "GFX_cb_policy_icon_poverty"
+	}
+
+	text = {
+		trigger = { 
+			check_variable = { selected_central_bank_id = 3 }
+		}
+		localization_key = "GFX_cb_policy_icon_power"
+	}
+
+	# Default - 0
+	text = {
+		trigger = { always = yes }
+		localization_key = "GFX_cb_policy_icon_print"
+	}
+}
+
+
+defined_text = {
+	name = GetEconomyTypeText
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 1 } } 
+		localization_key = econ_subtype_american_capitalism_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 2 } } 
+		localization_key = econ_subtype_workerdirected_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 3 } } 
+		localization_key = econ_subtype_crown_corporatism_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 4 } } 
+		localization_key = econ_type_anarchism_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 5 } } 
+		localization_key = econ_subtype_nazicorporatocracy_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 6 } } 
+		localization_key = econ_subtype_militarydirected_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 7 } } 
+		localization_key = econ_subtype_burgsys_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 8 } } 
+		localization_key = econ_subtype_banditry_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 9 } } 
+		localization_key = econ_subtype_corporate_oligopoly_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 10 } } 
+		localization_key = econ_subtype_dirigisme_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 11 } } 
+		localization_key = econ_subtype_anarcho_communism_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 12 } } 
+		localization_key = econ_subtype_deytsch_economics_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 13 } } 
+		localization_key = econ_subtype_warcom_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 14 } } 
+		localization_key = econ_subtype_permit_raj_title
+	}
+    text = {
+		trigger = { check_variable = { TNO_economy_subtype = 15 } } 
+		localization_key = econ_subtype_christian_anarchism_title
+	}	
+    text = {
+		trigger = { check_variable = { TNO_economy_subtype = 16 } } 
+		localization_key = econ_subtype_social_market_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 17 } } 
+		localization_key = econ_subtype_agrarian_spartanism_title
+	}
+		text = {
+		trigger = { check_variable = { TNO_economy_subtype = 18 } } 
+		localization_key = econ_subtype_futurist_corporatism_title
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 19 } } 
+		localization_key = econ_subtype_yagoda_title
+	}
+	
+	text = {
+		trigger = { 
+			check_variable = { TNO_economy_type = 1 }
+			check_variable = { TNO_economy_subtype = 0 }
+		}  
+		localization_key = econ_type_capitalism_title
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_economy_type = 2 }
+			check_variable = { TNO_economy_subtype = 0 }
+		} 
+		localization_key = econ_type_corporatism_title
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_economy_type = 3 }
+			check_variable = { TNO_economy_subtype = 0 }
+		}  
+		localization_key = econ_type_planned_title
+	}
+
+}
+
+defined_text = {
+	name = GetEconomyTypeGFX
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 1 } } 
+		localization_key = "GFX_econ_type_american_capitalism"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 2 } } 
+		localization_key = "GFX_econ_type_workerdirected"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 3 } } 
+		localization_key = "GFX_econ_type_crown_corporatism"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 4 } }  
+		localization_key = "GFX_econ_type_anarchism"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 5 } } 
+		localization_key = "GFX_econ_type_nazicorporatocracy"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 6 } } 
+		localization_key = "GFX_econ_type_militarydirected"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 7 } } 
+		localization_key = "GFX_econ_type_burgsys"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 8 } } 
+		localization_key = "GFX_econ_type_banditry"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 9 } } 
+		localization_key = "GFX_econ_type_corporate_oligopoly"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 10} } 
+		localization_key = "GFX_econ_type_dirigisme"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 11} } 
+		localization_key = "GFX_econ_type_anarcho_communism"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 12} } 
+		localization_key = "GFX_econ_type_deystch_economics"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 13} } 
+		localization_key = "GFX_econ_type_warcom"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 14} } 
+		localization_key = "GFX_econ_type_permit_raj"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 15} } 
+		localization_key = "GFX_econ_type_christian_anarchism"
+	} 
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 16} } 
+		localization_key = "GFX_econ_type_social_market"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 17} } 
+		localization_key = "GFX_econ_type_agrarian_spartanism"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 18} } 
+		localization_key = "GFX_econ_type_futurist_corporatism"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 19} } 
+		localization_key = "GFX_econ_type_yagoda"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_economy_type = 1 }
+			check_variable = { TNO_economy_subtype = 0 }
+		} 
+		localization_key = "GFX_econ_type_capitalism"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_economy_type = 2 }
+			check_variable = { TNO_economy_subtype = 0 }
+		} 
+		localization_key = "GFX_econ_type_corporatism"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_economy_type = 3 }
+			check_variable = { TNO_economy_subtype = 0 }
+		} 
+		localization_key = "GFX_econ_type_planned"
+	}
+}
+
+defined_text = {
+	name = GetEconomyTypeTooltip
+
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 1 } }
+		localization_key = econ_subtype_american_capitalism_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 2 } }
+		localization_key = econ_subtype_workerdirected_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 3 } } 
+		localization_key = econ_subtype_crown_corporatism_tt
+	}
+	text = {
+		trigger = {check_variable = { TNO_economy_subtype = 4 }} 
+		localization_key = "econ_type_anarchism_tt"
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 5 } }
+		localization_key = econ_subtype_nazicorporatocracy_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 6 } }
+		localization_key = econ_subtype_militarydirected_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 7 } }
+		localization_key = econ_subtype_burgsys_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 8 } }
+		localization_key = econ_subtype_banditry_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 9 } }
+		localization_key = econ_subtype_corporate_oligopoly_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 10 } }
+		localization_key = econ_subtype_dirigisme_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 11 } }
+		localization_key = econ_subtype_anarcho_communism_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 12 } }
+		localization_key = econ_subtype_deytsch_economics_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 13 } }
+		localization_key = econ_subtype_warcom_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 14 } }
+		localization_key = econ_subtype_permit_raj_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 15 } }
+		localization_key = econ_subtype_christian_anarchism_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 16 } }
+		localization_key = econ_subtype_social_market_tt
+	}
+		text = {
+		trigger = { check_variable = { TNO_economy_subtype = 17 } }
+		localization_key = econ_subtype_agrarian_spartanism_tt
+	}
+    	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 18 } }
+		localization_key = econ_subtype_futurist_corporatism_tt
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_subtype = 19 } }
+		localization_key = econ_subtype_yagoda_tt
+	}
+
+	text = {
+		trigger = { 
+			check_variable = { TNO_economy_type = 1 }
+			check_variable = { TNO_economy_subtype = 0 }
+		} 
+		localization_key = "econ_type_capitalism_tt"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_economy_type = 2 }
+			check_variable = { TNO_economy_subtype = 0 }
+		} 
+		localization_key = "econ_type_corporatism_tt"
+	}
+	text = {
+		trigger = { 
+			check_variable = { TNO_economy_type = 3 }
+			check_variable = { TNO_economy_subtype = 0 }
+		} 
+		localization_key = "econ_type_planned_tt"
+	}
+}
+
+#Building coverage scripted loc
+
+defined_text = {
+	name = econ_schools_coverage
+	text = {
+		trigger = {has_country_flag = TNO_eliminate_building_demand}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_schools_coverage_yes
+	}
+}
+
+defined_text = {
+	name = econ_offices_coverage
+	text = {
+		trigger = {has_country_flag = TNO_eliminate_building_demand}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_offices_coverage_yes
+	}
+}
+
+defined_text = {
+	name = econ_hospitals_coverage
+	text = {
+		trigger = {has_country_flag = TNO_eliminate_building_demand}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_hospitals_coverage_yes
+	}
+}
+
+defined_text = {
+	name = econ_prisons_coverage
+	text = {
+		trigger = {has_country_flag = TNO_eliminate_building_demand}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_prisons_coverage_yes
+	}
+}
+
+defined_text = {
+	name = econ_barracks_coverage
+	text = {
+		trigger = {has_country_flag = TNO_eliminate_building_demand}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_barracks_coverage_yes
+	}
+}
+
+defined_text = {
+	name = econ_empty_schools_coverage
+	text = {
+		trigger = {check_variable = {school_in_best_empty_state=0}}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_empty_schools_coverage_yes
+	}
+}
+
+defined_text = {
+	name = econ_empty_offices_coverage
+	text = {
+		trigger = {check_variable = {office_in_best_empty_state=0}}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_empty_offices_coverage_yes
+	}
+}
+
+defined_text = {
+	name = econ_empty_hospitals_coverage
+	text = {
+		trigger = {check_variable = {hospital_in_best_empty_state=0}}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_empty_hospitals_coverage_yes
+	}
+}
+
+defined_text = {
+	name = econ_empty_racks_coverage
+	text = {
+		trigger = {NOT = {has_variable = state_without_racks}}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_empty_racks_coverage_yes
+	}
+}
+
+defined_text = {
+	name = econ_empty_prisons_coverage
+	text = {
+		trigger = {NOT = {has_variable = state_without_prisons}}
+		localization_key = ""
+	}
+	text = {
+		localization_key = econ_empty_prisons_coverage_yes
+	}
+}
+
+## Tutorial
+
+defined_text = {
+	name = GetEconHelpTitle
+	text = {
+		trigger = { check_variable = { TNO_economy_help_index = 0 } }
+		localization_key = econ_help_0_t
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_help_index = 1 } }
+		localization_key = econ_help_1_t
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_help_index = 2 } }
+		localization_key = econ_help_2_t
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_help_index = 3 } }
+		localization_key = econ_help_3_t
+	}
+}
+
+defined_text = {
+	name = GetEconHelpText
+	text = {
+		trigger = { check_variable = { TNO_economy_help_index = 0 } }
+		localization_key = econ_help_0_d
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_help_index = 1 } }
+		localization_key = econ_help_1_d
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_help_index = 2 } }
+		localization_key = econ_help_2_d
+	}
+	text = {
+		trigger = { check_variable = { TNO_economy_help_index = 3 } }
+		localization_key = econ_help_3_d
+	}
+}
