@@ -745,19 +745,19 @@ economy_topbar_GDP_short_tt: "§YGDP§!는 현재 §Y[ROOT.Get_GDP]§! 입니다
 economy_topbar_GDP_long_tt: "The §YGDP§! (§YGross Domestic Product§!) of our nation is a monetary measure of the value of all goods and services produced within a year, measured in §Y1960 USD§!."
 
 economy_topbar_production_units_text: "[?production_units]"
-economy_topbar_production_units_short_tt: "§Y생산 단위§!\n사용 중인 £tt_prod_unit §G생산 단위§!: §Y[?production_units_used]§!/§Y[?production_units]§!\n        From trade: [?PU_trade_balance|+0]\n\nAllocated to £tt_civ_factory §RCivilian Factories§!: §Y[?PU_civilian_factories]§!\nAllocated to £tt_mil_factory §GMilitary Factories§!: §Y[?PU_military_factories]§!\nAllocated to £tt_consumer_goods §BConsumer Goods§!: §Y[?PU_consumer_goods]§!"
-economy_topbar_production_units_long_tt: "Production Units are a measure of our nation's industrial capacity, and can be allocated towards Civilian Factories, Military Factories, or to produce Consumer Goods."
+economy_topbar_production_units_short_tt: "§Y생산 단위§!\n사용 중인 £tt_prod_unit §G생산 단위§!: §Y[?production_units_used]§!/§Y[?production_units]§!\n        무역에서: [?PU_trade_balance|+0]\n\n£tt_civ_factory §R민간 공장§!에 배치: §Y[?PU_civilian_factories]§!\n£tt_mil_factory §G군수 공장§!에 배치: §Y[?PU_military_factories]§!\n£tt_consumer_goods §B소비재§!에 배치: §Y[?PU_consumer_goods]§!"
+economy_topbar_production_units_long_tt: "생산 단위는 우리나라의 산업 역량을 가늠하는 척도로, 민간 공장, 군수 공장, 소비재 생산 등에 배분할 수 있습니다."
 
 economy_topbar_power_text: "[?resource@power]"
-economy_topbar_power_short_tt: "§Y전력§!\n생산중인 £tt_power §Y전력§!: §Y[Get_power_produced_amnt]§!\n\nFrom §Ystates§!:\n[!power_bg_click]\n\nBuilding £tt_power §YGrid Power Consumption§! §R-[?buildings_power_demand|0]§![Get_Uranium_Missing_Power]"
+economy_topbar_power_short_tt: "§Y전력§!\n생산중인 £tt_power §Y전력§!: §Y[Get_power_produced_amnt]§!\n\n§Y주§!에서:\n[!power_bg_click]\n\n£tt_power §Y전력 소비§! 시설 건설 §R-[?buildings_power_demand|0]§![Get_Uranium_Missing_Power]"
 economy_topbar_power_long_tt: "전력은 국가 전체에 전기를 공급하기 위해 필요하며, 발전소를 통해 생산할 수 있습니다. 전력은 할당 가능한 생산 단위의 상한선 역할을 합니다."
-economy_topbar_missing_uranium_tt: "\n§RMissing Uranium in Reactors: -[?buildings_uranium_missing_demand]§!"
+economy_topbar_missing_uranium_tt: "\n§R원자로에 부족한 우라늄: -[?buildings_uranium_missing_demand]§!"
 
 economy_topbar_power_from_a_state: "produces £tt_power §Y[?new_power|0]§!"
 economy_topbar_power_changed_by_modifier: "Power in every state is modified by the §Ylocal resouces factor§! of [?modifier@local_resources_factor|+%]."
 
 economy_topbar_debt_text: "[ROOT.Get_national_debt_topbar]"
-economy_topbar_debt_short_tt: "Our §YInterest Rates§! are currently §Y[?ROOT.interest_rates]%§!\nAnnual §YCivilian Expenditures§!: §Y[ROOT.Get_civilian_expenditures]§!\nAnnual §YMilitary Expenditures§!: §Y[ROOT.Get_military_expenditures]§!"
+economy_topbar_debt_short_tt: "우리의 §Y금리는§! 현재 §Y[?ROOT.interest_rates]%§! 입니다.\nAnnual §YCivilian Expenditures§!: §Y[ROOT.Get_civilian_expenditures]§!\nAnnual §YMilitary Expenditures§!: §Y[ROOT.Get_military_expenditures]§!"
 economy_topbar_debt_long_tt: "The §YNational Debt§! represents the total unpaid funds carried by our national government, typically valued by the outstanding securities issued by our treasury, measured in §Y1960 USD§!. As creditors are not in the business of providing free money, we must pay a certain percentage of our national debt as interest each month, determined by our §YInterest Rates§!."
 
 production_unit_civs_display_wanted: "§W[?PU_civilian_factories]§!/[?PU_civilian_factories_desired]"
