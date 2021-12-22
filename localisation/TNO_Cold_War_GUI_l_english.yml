@@ -33,7 +33,7 @@ Cold_War_GUI_PowerProjection_Bonuses_tt:0 "\n\nWe currently gain [?power_project
 Cold_War_GUI_PowerProjection_InfoDelayed_tt:0 "[Cold_War_GUI_PowerProjection_InfoDelayed]"
 Cold_War_GUI_PowerProjection_InfoDelayed_info_tt:0 "§FOur §YSea Zone§! access status:§!\n  §YEast Pacific:§! [Cold_War_GUI_GetSeaZone_Status_0]\n  §YWest Pacific:§! [Cold_War_GUI_GetSeaZone_Status_1]\n  §YSouth Atlantic:§! [Cold_War_GUI_GetSeaZone_Status_2]\n  §YNorth Atlantic:§! [Cold_War_GUI_GetSeaZone_Status_3]\n  §YNorth Sea:§! [Cold_War_GUI_GetSeaZone_Status_4]\n  §YMediterranean:§! [Cold_War_GUI_GetSeaZone_Status_5]\n  §YIndian Ocean:§! [Cold_War_GUI_GetSeaZone_Status_6]"
 
-Cold_War_GUI_PowerProjection_Access_tt:0 "§W[THIS.GetNameWithFlag]§! §Fhas the ability to project power on the:§!§Y[Cold_War_GUI_GetSeaZone_Access_0][Cold_War_GUI_GetSeaZone_Access_1][Cold_War_GUI_GetSeaZone_Access_2][Cold_War_GUI_GetSeaZone_Access_3][Cold_War_GUI_GetSeaZone_Access_4][Cold_War_GUI_GetSeaZone_Access_5][Cold_War_GUI_GetSeaZone_Access_6]§!"
+Cold_War_GUI_PowerProjection_Access_tt:0 "§W[THIS.GetNameWithFlag]§! §F국가는 다음 해역에 세력을 투사하고 있습니다.§!§Y[Cold_War_GUI_GetSeaZone_Access_0][Cold_War_GUI_GetSeaZone_Access_1][Cold_War_GUI_GetSeaZone_Access_2][Cold_War_GUI_GetSeaZone_Access_3][Cold_War_GUI_GetSeaZone_Access_4][Cold_War_GUI_GetSeaZone_Access_5][Cold_War_GUI_GetSeaZone_Access_6]§!"
 
 Cold_War_GUI_GetSeaZone_Access_EastPacific_tt:0 "\n  동태평양"
 Cold_War_GUI_GetSeaZone_Access_WestPacific_tt:0 "\n  서태평양"
@@ -118,7 +118,7 @@ TNO_Cold_War_GUI_Rankings_Total_Score_Economy: "§R총 점수:§! [?Cold_War_GUI
 TNO_Cold_War_GUI_Rankings_Total_Score_Diplomacy: "§R총 점수:§! [?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^0|W0]"
 TNO_Cold_War_GUI_Rankings_Total_Score_Victories: "§R총 점수:§! [?Cold_War_GUI_Selected_Superpower.Score_Victories|W0]"
 
-TNO_Cold_War_GUI_Victories_Gridbox_DBG_tt: "§Y디버그 - ADD/REMOVE LOGS§!\n§YLeft click§!: add one log\n§YRight click§!: clear arrays"
+TNO_Cold_War_GUI_Victories_Gridbox_DBG_tt: "§Y디버그 - 로그 추가/제거§!\n§Y좌클릭§!: 로그 1개 추가\n§Y우클릭§!: 로그 비우기"
 TNO_Cold_War_GUI_Victories_Sample_DBG_tt: "§Y디버그 - 예시 로그 세팅§!"
 
 TNO_Cold_War_GUI_World_Tension_PB_tt: "§Y세계 긴장도§!는 현재 §Y[?global.TNO_World_Tension]%§!인 상태입니다."
@@ -187,9 +187,9 @@ Tension_Opposing_Superpowers_Text: "[Cold_War_GUI_Tension_Superpower_1_ADJ] - [C
 USA_GER_Tension: "미국-독일 긴장"
 GER_JAP_Tension: "독일-일본 긴장"
 JAP_USA_Tension: "일본-미국 긴장"
-TNO_Cold_War_GUI_Tension_Gridbox_DBG_tt: "§YDEBUG - ADD/REMOVE LOGS§!\n§YLeft click§!: add one log\n§YRight click§!: clear arrays"
-TNO_Cold_War_GUI_Tension_Sample_DBG_tt: "§YDEBUG - SET EXAMPLE LOGS§!"
-Superpower_Tension: "[Cold_War_GUI_Tension_Superpower_1] - [Cold_War_GUI_Tension_Superpower_2] Tension"
+TNO_Cold_War_GUI_Tension_Gridbox_DBG_tt: "§Y디버그 - 로그 추가/제거§!\n§Y좌클릭§!: 로그 1개 추가\n§Y우클릭§!: 로그 비우기"
+TNO_Cold_War_GUI_Tension_Sample_DBG_tt: "§Y디버그 - 예시 로그 세팅§!"
+Superpower_Tension: "[Cold_War_GUI_Tension_Superpower_1] - [Cold_War_GUI_Tension_Superpower_2] 긴장"
 TNO_Cold_War_GUI_Tension_Involved_Superpower_USA: "[USA.GetFlag] 미국"
 TNO_Cold_War_GUI_Tension_Involved_Superpower_GER: "[GER.GetFlag] 독일"
 TNO_Cold_War_GUI_Tension_Involved_Superpower_JAP: "[JAP.GetFlag] 일본"
@@ -199,9 +199,9 @@ TNO_Cold_War_GUI_Tension_GER_ADJ: "독일"
 TNO_Cold_War_GUI_Tension_JAP_ADJ: "일본"
 TNO_Cold_War_GUI_Tension_ALL_ADJ: "모든 초강대국"
 
-TNO_Cold_War_GUI_Tension_Entry_A_Progressbar_tooltip: "§F독일과 미국 사이 긴장도: §R[?global.TNO_superpower_tension^0]%§!.\nEffects on both nations:\nWar Support: [?USA.USA_GER_war_support_Tension_var|2%+]\nStability: [?USA.USA_GER_stability_Tension_var|2%+]\nFactory Output: [?USA.USA_GER_factory_output_var|2%+]\nDockyard Output: [?USA.USA_GER_dockyard_output_var|2%+]\nDivision Training Time: [?USA.USA_GER_division_training_time_var|2%Y]\nNuclear Production Output: [?USA.USA_GER_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?USA.USA_GER_misc_costs_of_gdp|2%]§!"
-TNO_Cold_War_GUI_Tension_Entry_B_Progressbar_tooltip: "§F독일과 일본 사이 긴장도: §R[?global.TNO_superpower_tension^1]%§!.\nEffects on both nations:\nWar Support: [?JAP.GER_JAP_war_support_Tension_var|2%+]\nStability: [?JAP.GER_JAP_stability_Tension_var|2%+]\nFactory Output: [?JAP.GER_JAP_factory_output_var|2%+]\nDockyard Output: [?JAP.GER_JAP_dockyard_output_var|2%+]\nDivision Training Time: [?JAP.GER_JAP_division_training_time_var|2%Y]\nNuclear Production Output: [?JAP.GER_JAP_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?JAP.GER_JAP_misc_costs_of_gdp|2%]§!"
-TNO_Cold_War_GUI_Tension_Entry_C_Progressbar_tooltip: "§F미국과 일본 사이 긴장도: §R[?global.TNO_superpower_tension^2]%§!.\nEffects on both nations:\nWar Support: [?JAP.JAP_USA_war_support_Tension_var|2%+]\nStability: [?JAP.JAP_USA_stability_Tension_var|2%+]\nFactory Output: [?JAP.JAP_USA_factory_output_var|2%+]\nDockyard Output: [?JAP.JAP_USA_dockyard_output_var|2%+]\nDivision Training Time: [?JAP.JAP_USA_division_training_time_var|2%Y]\nNuclear Production Output: [?JAP.JAP_USA_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?JAP.JAP_USA_misc_costs_of_gdp|2%]§!"
+TNO_Cold_War_GUI_Tension_Entry_A_Progressbar_tooltip: "§F독일과 미국 사이 긴장도: §R[?global.TNO_superpower_tension^0]%§!.\n양국이 받는 효과:\n전쟁 지지도: [?USA.USA_GER_war_support_Tension_var|2%+]\n안정도: [?USA.USA_GER_stability_Tension_var|2%+]\n공장 산출량: [?USA.USA_GER_factory_output_var|2%+]\n조선소 산출량: [?USA.USA_GER_dockyard_output_var|2%+]\n사단 훈련 시간: [?USA.USA_GER_division_training_time_var|2%Y]\n핵무기 생산 산출량: [?USA.USA_GER_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?USA.USA_GER_misc_costs_of_gdp|2%]§!"
+TNO_Cold_War_GUI_Tension_Entry_B_Progressbar_tooltip: "§F독일과 일본 사이 긴장도: §R[?global.TNO_superpower_tension^1]%§!.\n양국이 받는 효과:\n전쟁 지지도: [?JAP.GER_JAP_war_support_Tension_var|2%+]\n안정도: [?JAP.GER_JAP_stability_Tension_var|2%+]\n공장 산출량: [?JAP.GER_JAP_factory_output_var|2%+]\n조선소 산출량: [?JAP.GER_JAP_dockyard_output_var|2%+]\n사단 훈련 시간: [?JAP.GER_JAP_division_training_time_var|2%Y]\n핵무기 생산 산출량: [?JAP.GER_JAP_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?JAP.GER_JAP_misc_costs_of_gdp|2%]§!"
+TNO_Cold_War_GUI_Tension_Entry_C_Progressbar_tooltip: "§F미국과 일본 사이 긴장도: §R[?global.TNO_superpower_tension^2]%§!.\n양국이 받는 효과:\n전쟁 지지도: [?JAP.JAP_USA_war_support_Tension_var|2%+]\n안정도: [?JAP.JAP_USA_stability_Tension_var|2%+]\n공장 산출량: [?JAP.JAP_USA_factory_output_var|2%+]\n조선소 산출량: [?JAP.JAP_USA_dockyard_output_var|2%+]\n사단 훈련 시간: [?JAP.JAP_USA_division_training_time_var|2%Y]\n핵무기 생산 산출량: [?JAP.JAP_USA_nuclear_production_factor_var|2%+]\nMisc. Costs of %GDP: §Y[?JAP.JAP_USA_misc_costs_of_gdp|2%]§!"
 
 TNO_Cold_War_GUI_Tension_GER_NameDef: "[GER.GetNameDef]"
 TNO_Cold_War_GUI_Tension_JAP_NameDef: "[JAP.GetNameDef]"
@@ -230,15 +230,15 @@ Cold_War_GUI_Spheres_Tab_Spheres_Entry_Flags_Entry_Overlay_tt_delayed: "경제�
 TNO_SG_EconInfo_tt: "§Y[?THIS.GetName]§!\n§F--------------\n경제력 순위: §Y[Cold_War_GUI_GetEconRanking_Sufix]§!\nGDP: §Y[?THIS.GDP|2]B§!\nGDP 성장률: §Y[?THIS.GDP_growth_real|2]%§!\n부채: §Y[?THIS.national_debt|2]B§!\nGDP 대 부채 비율: §Y[?THIS.debt_to_GDP_ratio|%]§!\n빈곤률: §Y[?THIS.poverty_rate|2]%§!\n1인당 GDP: §Y[?gdpc_display]$§!"
 TNO_SG_EconInfo_Title_tt: "[Cold_War_GUI_GetSphereInfo]"
 
-Cold_War_GUI_EconRanking_Sufix_st: "[?econ_ranking]st"
-Cold_War_GUI_EconRanking_Sufix_nd: "[?econ_ranking]nd"
-Cold_War_GUI_EconRanking_Sufix_rd: "[?econ_ranking]rd"
-Cold_War_GUI_EconRanking_Sufix_th: "[?econ_ranking]th"
+Cold_War_GUI_EconRanking_Sufix_st: "[?econ_ranking]위"
+Cold_War_GUI_EconRanking_Sufix_nd: "[?econ_ranking]위"
+Cold_War_GUI_EconRanking_Sufix_rd: "[?econ_ranking]위"
+Cold_War_GUI_EconRanking_Sufix_th: "[?econ_ranking]위"
 
-Cold_War_GUI_ScoreRanking_Sufix_st: "[?super_ranking]st"
-Cold_War_GUI_ScoreRanking_Sufix_nd: "[?super_ranking]nd"
-Cold_War_GUI_ScoreRanking_Sufix_rd: "[?super_ranking]rd"
-Cold_War_GUI_ScoreRanking_Sufix_th: "[?super_ranking]th"
+Cold_War_GUI_ScoreRanking_Sufix_st: "[?super_ranking]위"
+Cold_War_GUI_ScoreRanking_Sufix_nd: "[?super_ranking]위"
+Cold_War_GUI_ScoreRanking_Sufix_rd: "[?super_ranking]위"
+Cold_War_GUI_ScoreRanking_Sufix_th: "[?super_ranking]위"
 
 ## Influence Tab
 TNO_Cold_War_GUI_Influence_Tab_Title_tt: "[InfluenceTab_Activity]"
@@ -247,7 +247,7 @@ TNO_Cold_War_GUI_Influence_Tab_Title_Inactive_tt: "[?THIS.GetName]"
 
 CW_Conference_Proposals: "[CW_Conferences_GetProposal1]\n[CW_Conferences_GetProposal2]"
 CW_Conference_Effects: "[CW_Conferences_GetEffect1]\n[CW_Conferences_GetEffect2]"
-TNO_Conference_text: "Proposals:\n$CW_Conference_Proposals$\n\nEffects:\n$CW_Conference_Effects$"
+TNO_Conference_text: "제안:\n$CW_Conference_Proposals$\n\n효과:\n$CW_Conference_Effects$"
 
 CW_GER_Test_Proposal_3: "Germany Test Proposal 3"
 CW_GER_Test_Proposal_5: "Germany Test Proposal 5"
