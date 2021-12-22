@@ -1,0 +1,304 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TNO_SG_Diplomacy_Faction"
+		position = { x = 465 y = 40 } #y = 134
+
+		iconType = {
+			name = "current_faction_status"
+			spriteType = "GFX_idea_unknown"
+			position = { x = 0 y = 0 }
+			scale = 0.85
+			alwaystransparent = no
+			pdx_tooltip = "CURRENT_FACTION_STATUS_SHORT_TT"
+			pdx_tooltip_delayed = "CURRENT_FACTION_STATUS_TT"
+		}
+	}
+	
+	containerWindowType = {
+		name = "TNO_SG_cold_war_arrows"
+		position = { x = 222 y = -45 }
+		
+		buttonType = {
+			name = "transparent_block"
+			spritetype = "GFX_tno_return_to_diplo_ui_block"
+			pdx_tooltip = OPEN_COUNTRY_LIST_tt
+		}
+		iconType = {
+			name = "arrows"
+			spritetype = "GFX_gui_alert"
+			alwaystransparent = yes
+			scale = 0.6
+			position = { x = -8 y = -32 }
+		}
+	}
+	
+	containerWindowType = {
+		name = "TNO_No_LaR_Flag_Frame_Diplomacy"
+		position = { x = 0 y = 0 }
+		
+		iconType = {
+			name = "diplo_flag_frame_no_LaR"
+			spriteType = "GFX_diplo_flag_frame_no_LaR"
+			position = { x = 13 y = 24 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "TNO_SG_Diplomacy_Ideology"
+		position = { x = 0 y = 0 } #y = 134
+
+		instantTextboxType = {
+			name = "ideology"
+			position = { x = 251 y = 144 }
+			font = "aldrich_20_outline"
+			text = [GetSubIdeologyLoc]
+			alwaystransparent = yes
+			maxWidth = 270
+			maxHeight = 20
+			format = left
+			fixedsize = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_EconInfo_Container"
+		position = { x = 17 y = 372 }
+		size = { width = 255 height = 72 }
+
+		iconType = {
+			name = "econ_bg"
+			spriteType = "GFX_diplo_econ_bg"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "TNO_SG_EconInfo_tt"
+		}
+
+		instantTextboxType = {
+			name = "TNO_SG_EconInfo_EconSphere_Title"
+			position = { x = 16 y = 15 }
+			font = "Bomb_16"
+			text = "경제"
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+			fixedsize = yes
+			pdx_tooltip = "TNO_SG_EconInfo_Title_tt"
+		}
+
+		iconType = {
+			name = "current_sphere_status"
+			spriteType = "GFX_idea_unknown"
+			position = { x = 165 y = 7 }
+			alwaystransparent = no
+			pdx_tooltip = "TNO_SG_EconInfo_Title_tt"
+			pdx_tooltip_delayed = "TNO_SG_EconInfo_tt"
+		}
+
+		iconType = {
+			name = "economy_type"
+			spriteType = "GFX_idea_unknown"
+			position = { x = 120 y = 12 }
+			alwaystransparent = no
+			pdx_tooltip = "econ_type_title_diplo_tt"
+			pdx_tooltip_delayed = "econ_type_tt"
+		}
+
+	}
+	
+	containerWindowType = {
+		name = "TNO_SG_Diplomacy_self_container"
+		position = { x = 280 y = 385 }
+		
+		iconType = {
+			name = "TNO_Diplomacy_self_animation"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = GFX_Diplomacy_Self_Animation
+		}
+	}
+	
+	containerWindowType = {
+		name = "TNO_Anarchy_Diplomacy_Container"
+		position = { x = 0 y = 0 }
+		size = { width = 540 height = -11 }
+		
+		icontype = {
+			name = "TNO_Anarchy_Relations_Block"
+			position = { x = 324 y = -45 }
+			spriteType = "GFX_Anarchy_Relations_Block"
+		}
+		
+		containerWindowType = {
+			name = "TNO_Anarchy_Diplomacy_Wallpaper_Container"
+			position = { x = 12 y = -12 }
+		
+			iconType = { # Image gets replaced thru scripted loc
+				name = "TNO_Anarchy_ZZZ"
+				spriteType = "GFX_Anarchy_ZZZ"
+				position = { x = 0 y = 0 }
+				pdx_tooltip = TNO_Anarchy_ToolTip
+				pdx_tooltip_delayed = TNO_Anarchy_ToolTip_Delayed
+			}
+		}
+		containerWindowType = {
+			name = "TNO_Anarchy_Diplomacy_Animation_clip"
+			position = { x = 280 y = 380 }
+			size = { width = 250 height = -11 } 
+	 		verticalScrollbar = "right_vertical_slider"
+			#clipping = yes
+			
+			background = {
+	 			name = "TNO_Anarchy_Diplomacy_Animation_clip_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+	 		}
+			iconType = {
+				name = "TNO_Anarchy_scrollbar_block"
+				position = { x = 235 y = 0 }
+				spriteType = "GFX_Anarchy_scrollbar_block"
+			}
+			iconType = {
+				name = "TNO_Anarchy_Diplomacy_Animation"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_Anarchy_diplo_animation"
+				pdx_tooltip = TNO_Anarchy_diplo_tt
+			}
+		}
+	}
+	
+	# containerWindowType = {
+	# 	name = "TNO_SG_IntAlignment_Empty_Container"
+	# 	position = { x = 17 y = 372 }
+	# 	size = { width = 255 height = 100 }
+
+	# 	containerWindowType = {
+	# 		name = "TNO_SG_IntAlignment_EmptyGrid_Container"
+	# 		position = { x = 0 y = 0 }
+	# 		size = { width = 255 height = 124 }
+
+	# 		background = {
+	# 			name = "TNO_SG_IntAlignment_Grid_Container_Background"
+	# 			spriteType = "GFX_tiled_window_thin_border2"
+	# 		}
+	# 	}
+	# }
+
+	# containerWindowType = {
+	# 	name = "TNO_SG_IntAlignment_Container"
+	# 	position = { x = 17 y = 372 }
+	# 	size = { width = 255 height = 100 }
+
+	# 	containerWindowType = {
+	# 		name = "TNO_SG_IntAlignment_Grid_Container"
+	# 		position = { x = 0 y = 0 }
+	# 		size = { width = 255 height = 124 }
+
+	# 		background = {
+	# 			name = "TNO_SG_IntAlignment_Grid_Container_Background"
+	# 			spriteType = "GFX_tiled_window_thin_border2"
+	# 		}
+
+	# 		verticalScrollbar = "right_vertical_slider"
+	# 		iconType = {
+	# 			name = "TNO_SG_IntAlignment_Frame"
+	# 			spriteType = "GFX_diplo_IntAlign_Bar_Frame"
+	# 			position = { x = 10 y = 9 }
+	# 		}
+
+	# 		gridboxtype = {
+	# 			name = "TNO_SG_IntAlignment_Progbars"
+	# 			position = { x = 12 y = 10 }
+	# 			size = { width = 230 height = 29 }
+	# 			slotsize = { width = 100%% height = 0 }
+	# 			max_slots_horizontal = 1
+	# 			format = "UPPER_LEFT"
+	# 		}
+
+	# 		gridboxtype = {
+	# 			name = "TNO_SG_IntAlignment_Progbar_Tooltips"
+	# 			position = { x = 12 y = 10 }
+	# 			size = { width = 230 height = 29 }
+	# 			slotsize = { width = 100%% height = 0 }
+	# 			max_slots_horizontal = 1
+	# 			format = "UPPER_LEFT"
+	# 		}
+
+	# 		gridboxtype = {
+	# 			name = "TNO_SG_IntAlignment_Grid"
+	# 			position = { x = 14 y = 44 }
+	# 			size = { width = 120 height = 100%% }
+	# 			slotsize = { width = 120 height = 35 }
+	# 			# size = { width = 255 height = 100%% }
+	# 			# slotsize = { width = 200 height = 35 }
+	# 			max_slots_horizontal = 2
+	# 			add_horizontal = yes
+	# 			format = "UPPER_LEFT"
+	# 		}
+	# 	}
+	# }
+
+	# containerWindowType = {
+	# 	name = "TNO_SG_IntAlignment_Progbar_Container"
+	# 	size = { width = 200 height = 35 }
+	# 	clipping = no
+
+	# 	iconType = {
+	# 		name = "TNO_SG_IntAlignment_Bar"
+	# 		spriteType = "GFX_diplo_IntAlign_GER_ProgressBar"
+	# 		position = { x = 0 y = 0 }
+	# 	}
+	# }
+
+	# # A transparent sprite which is moved to create a tooltip "hitbox" for each progress bar segment
+	# containerWindowType = {
+	# 	name = "TNO_SG_IntAlignment_Progbar_Tooltip_Container"
+	# 	size = { width = 200 height = 35 }
+	# 	clipping = no
+
+	# 	iconType = {
+	# 		name = "TNO_SG_IntAlignment_Tooltip_Hitbox"
+	# 		spriteType = "GFX_diplo_IntAlign_Bar_Tooltip"
+	# 		position = { x = 0 y = 0 }
+	# 		pdx_tooltip = "TNO_SG_IntAlignment_Tooltip"
+	# 	}
+	# }
+
+	# containerWindowType = {
+	# 	name = "TNO_SG_IntAlignment_Grid_Container"
+	# 	size = { width = 200 height = 35 }
+	# 	clipping = no
+
+	# 	iconType = {
+	# 		name = "TNO_SG_IntAlignment_Grid_Flag"
+	# 		quadTextureSprite = "GFX_flag_small2_plain"
+	# 		position = { x = 24 y = 17 }
+	# 	}
+		
+	# 	iconType = {
+	# 		name = "TNO_SG_IntAlignment_Grid_Flag_Cover"
+	# 		position = { x = 0 y = 0 }
+	# 		spriteType = "GFX_flag_frame_warscreen"
+	# 		alwaystransparent = yes
+	# 	}
+
+	# 	instantTextboxType = {
+	# 		name = "TNO_SG_IntAlignment_Grid_Text"
+	# 		position = { x = -12 y = 1 } #53
+	# 		font = "aldrich_16_outline"
+	# 		text = "TNO_SG_IntAlignment_Grid_Text_tt"
+	# 		maxWidth = 180
+	# 		maxHeight = 36
+	# 		format = center
+	# 		fixedsize = yes
+	# 	}
+
+	# 	buttonType = {
+	# 		name = "TNO_SG_IntAlignment_Grid_DebugButton"
+	# 		spriteType = "GFX_add_one"
+	# 		position = { x = 11 y = 5 } #-10
+	# 		# Orientation = "UPPER_RIGHT"
+	# 		pdx_tooltip = "TNO_SG_IntAlignment_Grid_DebugButton_tt"
+	# 	}
+	# }
+}
+

@@ -10,7 +10,7 @@ JAP_public_support_dynamic_modifier:0 "대중의 지지"
 JAP_D_house_of_reps:0 "§W중의원§!"
 JAP_D_Imperial_Diet_Title:0 "§W제국의회§!"
 
-JAP_D_govt_stab_text:0 "£jap_govt_stability_texticon §C정부 안정도§! §W-§!"
+JAP_D_govt_stab_text:0 "£jap_govt_stability_texticon §C정권 안정도§! §W-§!"
 JAP_D_govt_stab_var:0 "§Y[?JAP_government_stability]%§!"
 
 JAP_D_Approval_Main_Title:0 "§WAPPROVAL OF THE:§!"
@@ -23,7 +23,7 @@ JAP_D_Interactions:0 "§W상호작용§!"
 #Factions
 JAP_D_royalist_faction:0 "§s키도파§!"
 JAP_D_reformists_faction:0 "§Q개혁파§!"
-JAP_D_independents_faction:0 "§B무소속S§!"
+JAP_D_independents_faction:0 "§B무소속§!"
 JAP_D_authdem_technocrats:0 "§s온건 기술관료파§!"
 JAP_D_despot_technocrats:0 "§q온건 기술관료파§!"
 JAP_D_fash_technocrats:0 "§j기술관료파§!"
@@ -222,7 +222,7 @@ JAP_Peers_support_decrease_huge:0 "£GFX_podium_texticon §M귀족원의 지지�
 
 
 #Government Stability
-Japan_Internal_GUI_Gov_Stab_tt:0 "우리의 £jap_govt_stability_texticon §C정부 안정도는§! §Y[?JAP_government_stability]%입니다.§!\n\nThis comes from:\n  §G[?JAP_government_stability_base]%§! Base £jap_govt_stability_texticon §CGovernment Stability§![GetJapGovStabPowerTT][GetJapGovStabPeersTT]\n-------------------\n£jap_govt_stability_texticon §CGovernment Stability§! is a measure of general confidence of, and unity within our government. Ensuring our faction maintains a plurality in the Diet, secures the confience of the £GFX_podium_texticon §MHouse of Peers§! and succeeds in passing its legislation £jap_govt_stability_texticon §CGovernment Stability§! will remain high. Should we loose the pillars of our support, or suffer multiple defeats in the Diet, £jap_govt_stability_texticon §CGovernment Stability§! will be damaged.\n\nShould £jap_govt_stability_texticon §CGovernment Stability§! fall too low we may begin to face growing pressure to step down, §Rand allow another faction to attempt to form a government.§!"
+Japan_Internal_GUI_Gov_Stab_tt:0 "우리의 £jap_govt_stability_texticon §C정권 안정도는§! §Y[?JAP_government_stability]%입니다.§!\n\nThis comes from:\n  §G[?JAP_government_stability_base]%§! Base £jap_govt_stability_texticon §CGovernment Stability§![GetJapGovStabPowerTT][GetJapGovStabPeersTT]\n-------------------\n£jap_govt_stability_texticon §CGovernment Stability§! is a measure of general confidence of, and unity within our government. Ensuring our faction maintains a plurality in the Diet, secures the confience of the £GFX_podium_texticon §MHouse of Peers§! and succeeds in passing its legislation £jap_govt_stability_texticon §CGovernment Stability§! will remain high. Should we loose the pillars of our support, or suffer multiple defeats in the Diet, £jap_govt_stability_texticon §CGovernment Stability§! will be damaged.\n\nShould £jap_govt_stability_texticon §CGovernment Stability§! fall too low we may begin to face growing pressure to step down, §Rand allow another faction to attempt to form a government.§!"
 
 JAP_no_plurality_tt:0 "\n    §Rx0.66§! Not the largest faction the in Diet."
 JAP_lost_peer_support_tt:0 "\n    §Rx[?peers_support_modifier|2]§! Less than §Y50%§! £GFX_podium_texticon §MHouse of Peers Support§!."

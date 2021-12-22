@@ -8,7 +8,7 @@
  ## Ideas ##
  KOM_socintern_member:0 "코민테른 회원국"
 
- KOM_socintern_associate:0 "코민테른 제휴국"
+ KOM_socintern_associate:0 "코민테른 준회원국"
 
  RUS_comecon_withdrew_money:0 "코메콘 기금 철회"
 
@@ -21,7 +21,7 @@
  ## GUI ##
  COM_invest_in_cooperative_research:0 "§S코메콘§!의 §Y과학국§!에 참여"
 
- COMECON_desc:0 "In the name of international cooperation between socialist states, the §SCouncil for Mutual Economic Assistance§! offers an opportunity to sponsor the development of less developed nations through §SCOMECON§! aid and emergency assistance."
+ COMECON_desc:0 "사회주의 국가 사이의 국제적인 협력의 이름 아래, §S경제상호원조회의§!는 §S코메콘§! 원조 및 긴급 지원금을 통해 저개발 국가의 발전을 후원하는 기회를 제공합니다."
 
  COMECON_defense_transfer_amt:0 "$[?ROOT.COMECONDefTransferAmt]B"
  COMECON_dev_transfer_amt:0 "$[?ROOT.COMECONDevTransferAmt]B"
@@ -34,51 +34,51 @@
 
  COMECON_GUI_Country_Entry_Button_tt:0 "§S코메콘§!에서 [THIS.GetNameDef]의 원조금으로 §Y250만 달러§!가 전달될 것입니다."
  Socintern_GUI_General_Assembly_Entry_Nation_tt:0 "[THIS.GetNameDef] - [THIS.GetSocInternVoteStatus]"
- TNO_SOCINTERN_YES_VOTE:0 "voting §Gin favor§!."
- TNO_SOCINTERN_ABS_VOTE:0 "§gabstaining§!."
- TNO_SOCINTERN_NO_VOTE:0 "voting §Rin opposition§!."
- TNO_SOCINTERN_UNDECIDED_VOTE:0 "§Wundecided§!."
+ TNO_SOCINTERN_YES_VOTE:0 "§G찬성§!에 표를 던집니다."
+ TNO_SOCINTERN_ABS_VOTE:0 "§g기권§!합니다."
+ TNO_SOCINTERN_NO_VOTE:0 "§R반대§!에 표를 던집니다."
+ TNO_SOCINTERN_UNDECIDED_VOTE:0 "§R반대§!에 표를 던집니다."
 
- COM_cooldown:0 "The §RGeneral Assembly§! is in recess."
+ COM_cooldown:0 "§R총회§!는 휴회 중입니다."
 
- COMECON_GUI_Defense_Fund_Withdraw_Label_tt:0 "Withdrawals from the defense fund are unlocked when we are currently in an §Rarmed conflict§!."
- COMECON_GUI_Dev_Fund_Withdraw_Label_tt:0 "Withdrawals from the development fund are unlocked when we are §Rrunning a deficit§!, or have a §RGDP under $50 Billion§!."
+ COMECON_GUI_Defense_Fund_Withdraw_Label_tt:0 "우리가 §R무력분쟁§! 중일 경우, 방위 기금을 수령하는 것이 가능해집니다."
+ COMECON_GUI_Dev_Fund_Withdraw_Label_tt:0 "우리가 §R적자 상태§!이거나 GDP가 §R50B 달러 이하§!일 경우, 개발 기금을 수령하는 것이 가능해집니다."
 
  ### Decisions ###
 
  TNO_socintern_GUI:0 "§R공산주의 인터네셔널§!"
- Socintern_desc:0 "To facilitate the interests of mutual cooperation among those nations which have embraced the proletarian revolution, the §RCommunist International§! serves as a premier means of providing global cooperation and strategic assistance. Through the §RComIntern§!, socialist states may coordinate with each other in defensively and politically, and a forum to discuss assistance to global proletarian and national liberation movements may be provided."
- TNO_socintern_general_assembly_title:0 "§RTHE GENERAL ASSEMBLY§!"
- TNO_socintern_general_assembly_motion_title:0 "§YCurrent Resolution§!"
+ Socintern_desc:0 "프롤레타리아 혁명을 받아들인 국가들 사이의 상호 협력을 통한 이익을 촉진하기 위해, §R공산주의 인터네셔널§!은 국제적 협력과 전략적 지원을 제공해주는 최고의 수단입니다. §R코민테른§!을 통해 사회주의 국가들은 안보적, 정치적 차원에서 서로 협력할 수 있게 되었으며, 전세계의 프롤레타리아 및 민족 해방 운동에 대한 원조를 논의할 수 있는 자리가 마련되었습니다."
+ TNO_socintern_general_assembly_title:0 "§R총회§!"
+ TNO_socintern_general_assembly_motion_title:0 "§Y현재 의제§!"
  TNO_socintern_general_assembly_motion_title_dyn:0 "[GetSocInternResolutionTitle]"
  TNO_socintern_general_assembly_motion_desc:0 "[GetSocInternResolutionDesc]"
  TNO_socintern_general_assembly_votes:0 "Votes: §G[?global.SocIntern_yes_votes]§!/§g[?global.SocIntern_abs_votes]§!/§R[?global.SocIntern_no_votes]§!"
- SOCINTERN_VOTE_IN_PROGRESS:0 "A §Rvote§! is currently in progress."
- TNO_socintern_cancel_vote:0 "The §Rvote§! is unable to continue."
- TNO_socintern_vote_mission:0 "§RGeneral Assembly§! Voting"
- TNO_socintern_vote_mission_tt:0 "Voting on the [GetSocInternResolutionTitle] will §Yconclude§!."
+ SOCINTERN_VOTE_IN_PROGRESS:0 "§R투표§!가 현재 진행 중입니다."
+ TNO_socintern_cancel_vote:0 "§R투표§!를 계속할 수 없습니다."
+ TNO_socintern_vote_mission:0 "§R총회 표결§!"
+ TNO_socintern_vote_mission_tt:0 "[GetSocInternResolutionTitle]에 대한 투표는 종료될 것입니다."
 
- COM_invite_country_associate:0 "Offer §lAssociate Status§! to [FROM.GetName]"
- COM_invite_country:0 "Offer §RMembership§! to [FROM.GetName]"
- COM_propose_mutual_nap:0 "Propose Mutual Non-Aggression Pact"
- TNO_found_comecon:0 "Propose §SCOMECON§! Establishment"
- TNO_establish_COMECON_scientific_bureau:0 "Propose the §SCOMECON§! Scientific Bureau"
- TNO_increase_COMECON_centralization:0 "Increase §SCOMECON§! Centralization" 
- COM_establish_international_brigades:0 "Propose the §xInternational Brigades§!"
- COM_intervene_in_country:0 "Propose §xMilitary Assistance§! to [FROM.GetName]"
- TNO_show_hide_invitations:0 "Show/Hide §RInvitation Decisions§!"
- TNO_show_hide_associate_invitations:0 "Show/Hide §lAssociate Invitation Decisions§!"
- TNO_show_hide_interventions:0 "Show/Hide §xIntervention Decisions§!"
+ COM_invite_country_associate:0 "[FROM.GetName]에게 §l준회원국§! 지위 제의"
+ COM_invite_country:0 "[FROM.GetName]에게 §R회원국§! 지위 제의"
+ COM_propose_mutual_nap:0 "상호 불가침조약 제안"
+ TNO_found_comecon:0 "§S코메콘§! 창설 제안"
+ TNO_establish_COMECON_scientific_bureau:0 "§S코메콘§! 과학국 제안"
+ TNO_increase_COMECON_centralization:0 "§S코메콘§!의 중앙집권화 확대" 
+ COM_establish_international_brigades:0 "§x국제 여단§! 제안"
+ COM_intervene_in_country:0 "[FROM.GetName]에게 §x군사원조§! 제안"
+ TNO_show_hide_invitations:0 "§R회원국 초청 결정들§! 보이기/숨기기"
+ TNO_show_hide_associate_invitations:0 "§R회원국 초청 결정들§! 보이기/숨기기"
+ TNO_show_hide_interventions:0 "§x개입 관련 결정들§! 보이기/숨기기"
 
  ###RESOLUTIONS###
 
- SOCINTERN_VOTE_NON_AGGRESSION_PACT_TITLE:0 "§WMutual Non-Aggression Pact§!"
+ SOCINTERN_VOTE_NON_AGGRESSION_PACT_TITLE:0 "§W상호 불가침조약§!"
  SOCINTERN_VOTE_NON_AGGRESSION_PACT_DESC:0 "§gProposal for every organization in the §RComIntern§! to officially declare a policy of mutual co-existence and non-aggression against all other §RComIntern§! member organizations.\n\nMember states will pledge to recognize one another's borders and sovereignty over their territories, and pledge to not aggress upon the territories of other member states.§!"
 
- SOCINTERN_VOTE_COMECON_TITLE:0 "§WEstablishment of §SCOMECON§!§!"
+ SOCINTERN_VOTE_COMECON_TITLE:0 "§W§S코메콘§!의 창설§!"
  SOCINTERN_VOTE_COMECON_DESC:0 "§gProposal for the establishment of the §SCouncil for Mutual Economic Assistance§!, an organization that will aid with the development of socialist nations. §SCOMECON§! shall provide financial support to socialist nations, as well as possessing emergency funds for debt relief or defense spending in the case of war.\n\nAll member states will have the ability to contribute to §SCOMECON§!, and donations will be able to be granted to even non-ComIntern nations in the name of international solidarity.§!"
 
- SOCINTERN_VOTE_COMECON_SCIENCE_TITLE:0 "§WEstablishment of §SCOMECON§! Scientific Bureau§!"
+ SOCINTERN_VOTE_COMECON_SCIENCE_TITLE:0 "§W§S코메콘§! 과학국의 창설§!"
  SOCINTERN_VOTE_COMECON_SCIENCE_DESC:0 "§gProposal for the establishment of the §SCouncil for Mutual Economic Assistance§!'s Scientific Bureau. The §SCOMECON§! Scientific Bureau shall become the collective international scientific organization of the §RCommunist International§!, and serve as the research and development wing of §SCOMECON§!. Its purpose shall be to assist with mutual research, and allow the rapid advancement of developing countries to technological parity with the rest of the §SCOMECON§! member nations.§!"
 
  SOCINTERN_VOTE_INVITATION_TITLE:0 "§W§RMembership§! for [SOCINTERN_INVITED.GetName]§!"
@@ -87,22 +87,22 @@
  SOCINTERN_VOTE_ASSOCIATESHIP_TITLE:0 "§W§lAssociate Status§! for [SOCINTERN_INVITED.GetName]§!"
  SOCINTERN_VOTE_ASSOCIATESHIP_DESC:0 "§gProposal to extend an immediate offer of §RComIntern§! associate status to the ruling party of [SOCINTERN_INVITED.GetNameDef]. If they accept, they shall immediately be inducted into the §RComIntern§! as an associate, and be able to apply for full membership at a later date.\n\n[SOCINTERN_INVITED.GetNameDef] will not be included in current §RComIntern§! policies until they achieve full membership status.§!"
  
- SOCINTERN_VOTE_INTERNATIONAL_BRIGADES_TITLE:0 "§WEstablishment of the §xInternational Brigades§!§!"
+ SOCINTERN_VOTE_INTERNATIONAL_BRIGADES_TITLE:0 "§W§x국제 여단§!의 창설§!"
  SOCINTERN_VOTE_INTERNATIONAL_BRIGADES_DESC:0 "§gProposal to create a §RComIntern§! bureau for providing clandestine military assistance to revolutionary movements. The §xInternational Brigades§! will be charged with facilitating passports, armaments, and transportation to those that wish to assist in socialist revolutionary activity abroad.\n\nThe formation of this bureau will allow §RComIntern§! member states the ability to dispatch international brigades to assist socialist nations at war, and grant a one-time bonus to military expertise.§!"
 
- SOCINTERN_VOTE_SPHERIFICATION_TITLE:0 "§WExpanded Centralization of §SCOMECON§!§!"
+ SOCINTERN_VOTE_SPHERIFICATION_TITLE:0 "§W§S코메콘§!의 중앙집권화 확대 §!"
  SOCINTERN_VOTE_SPHERIFICATION_DESC:0 "§gProposal to further centralize the §SCouncil for Mutual Economic Assistance§! for the purpose of improved mutual assistance, lower trade barriers, and more fruitful economic cooperation between socialist nations.\n\nWith this reform, §SCOMECON§! will be considered an economic bloc of its own on the world stage.§!"
 
- SOCINTERN_VOTE_VOLUNTEERS_TITLE:0 "§W§xMilitary Assistance§! for [SOCINTERN_VOLUNTEERS.GetName]§!"
+ SOCINTERN_VOTE_VOLUNTEERS_TITLE:0 "§W[SOCINTERN_VOLUNTEERS.GetName]를 위한 §x군사적 원조e§!§!"
  SOCINTERN_VOTE_VOLUNTEERS_DESC:0 "§gProposal to dispatch §xinternational brigades§! to assist [SOCINTERN_VOLUNTEERS.GetNameDef] in its ongoing conflict. §xInternational brigades§! will be able to be dispatched by each ComIntern member state, and will be recalled following the end of the conflict.\n\nAdditionally, material assistance to [SOCINTERN_VOLUNTEERS.GetNameDef] shall be available, if §SCOMECON§! has been founded.§!"
 
- SOCINTERN_NONE_TITLE:0 "§WNone§!"
- SOCINTERN_NONE_DESC:0 "§gNo proposal is currently being voted upon.§!"
+ SOCINTERN_NONE_TITLE:0 "§W없음§!"
+ SOCINTERN_NONE_DESC:0 "§g현재 투표 중인 안건이 존재하지 않습니다.§!"
 
- COM_invite_country_associate_tt:0 "The selected country shall be offered §lassociate status§! in the §RCommunist International§!."
- COM_invite_country_tt:0 "The selected country shall be offered §Rmembership§! in the §RCommunist International§!."
+ COM_invite_country_associate_tt:0 "선정된 국가는 §R 공산주의 인터내셔널§!의 §l준회원국§! 지위를 제의받을 것입니다."
+ COM_invite_country_tt:0 "선정된 국가는 §R공산주의 인터내셔널§!의 §R회원국§! 지위를 제의받을 것입니다."
 
- TNO_COMECON_GUI:0 "§SCOMECON§!"
+ TNO_COMECON_GUI:0 "§S코메콘§!"
  
  ## Tooltips ##
  deficit_ratio_sufficient_tt:0 "Our §Ydeficit-to-income§! ratio is above 40%."
@@ -164,7 +164,7 @@
  socintern.1.b:0 "제휴국 지위를 받도록 하자."
  socintern.1.c:0 "우리는 코민테른과 관계를 맺을 의사가 없다."
  
- socintern.2.t:0 "[FROM.GetNameDef]이/가 코민테른 제휴국 지위를 제안하다"
+ socintern.2.t:0 "[FROM.GetNameDef]이/가 코민테른 준회원국 지위를 제안하다"
  socintern.2.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Communist International as associate member. This new organization, often shortened to the "ComIntern" is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the ComIntern or not."
  socintern.2.a:0 "제휴국 지위를 받도록 하자."
  socintern.2.b:0 "우리는 코민테른과 관계를 맺을 의사가 없다."
@@ -173,7 +173,7 @@
  socintern.3.d:0 "We've received news that the ruling party of [FROM.GetNameDef] has agreed to join the Communist International as a full member. We can look forward to seeing their contributions and proposals in the ComIntern's meetings."
  socintern.3.a:0 "환영하오, 동지들!"
 
- socintern.4.t:0 "[FROM.GetNameDef]이/가 제휴국 지위를 받아들이다"
+ socintern.4.t:0 "[FROM.GetNameDef]이/가 준회원국 지위를 받아들이다"
  socintern.4.d:0 "We've received news that the ruling party of [FROM.GetNameDef] has agreed to join the Communist International as an associate member. Their presence as observers on the organization's meeting will let them gauge our progress, and in time perhaps the closer ties between our nations will lead to their growth into full membership."
  socintern.4.a:0 "환영하오, 동지들!"
 
@@ -203,7 +203,7 @@
  socintern.10.d:0 "Terrible news! It seems that the leadership of the ComIntern has been corrupted by the very forces of capitalism and revisionism that they claim to fight against, how else can we explain their rejection of our application for full membership?\n\nHopefully in time, the winds of change will displace these two-faced fools and replace them in the movement's leadership position with nations more committed to the global revolution, but until then it seems that we must struggle against the capitalist oppressors on our own.\n\nPainful as it might be to be separated from our comrades, we must continue onwards, until one day our fellow proletarian governments see the light and acknowledge us once more."
  socintern.10.a:0 "유감스럽군."
 
- socintern.11.t:0 "[FROM.GetNameDef]이/가 코민테른의 제휴국 지위를 요청하다"
+ socintern.11.t:0 "[FROM.GetNameDef]이/가 코민테른의 준회원국 지위를 요청하다"
  socintern.11.d:0 "The winds of change, the basic forces of economics, and the inevitable victory of the socialist revolution cannot be rushed. Attempting to bring about our final victory before its time will only delay the day of triumph -- as the Bukharinists learned to their sorrow. Therefore, although it is saddening that they had not considered themselves worth of full membership, the application of [FROM.GetName] to join the ComIntern as an associate nation is still cause for celebration. We must now determine whether they are worthy of this honor, or if their form of socialism is insufficient for the needs of the global proletariat."
  socintern.11.a:0 "우리는 기꺼이 받아들일 것이다."
  socintern.11.b:0 "우리는 그들과 관계를 맺을 의사가 없다."
@@ -236,7 +236,7 @@
  socintern.16.d:0 ""
  socintern.16.a:0 ""
 
- socintern.17.t:0 "The Establishment of COMECON"
+ socintern.17.t:0 "코메콘이 창설되다"
  socintern.17.d:0 "Great news! Our socialist allies have come to their senses and have voted for the establishment of COMECON. COMECON, or the Council of Mutual Economic Assistance, is an international program set up by the nations of the Comintern for the members of the Comintern. It promises to assist the development of any and all nations that require it via aid and the funnelling of resources towards them. Moreover, it helps to build bridges and strengthen economic bonds between our peoples and make them sturdier to the conspiring forces of Capitalism and Fascism. We shall make ourselves richer while keeping our workers all the freer.\n\nToday is a great day for Socialism. Now even the most feeble of our compatriots will rise above themselves - into something more extraordinary than the sum of their parts. However, with such a big task comes a time of rest. It will be one month before the General Assembly can pass such a monumental resolution like this."
  socintern.17.a:0 "From each according to his ability, to each according to his needs."
 
@@ -372,4 +372,4 @@
  
  ## Opinion Modifiers ##
  TNO_socintern_member:0 "코민테른 회원국"
- TNO_socintern_associate:0 "코민테른 제휴국"
+ TNO_socintern_associate:0 "코민테른 준회원국"
