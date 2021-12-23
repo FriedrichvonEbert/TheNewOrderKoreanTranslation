@@ -464,7 +464,7 @@ national_debt_interest_paying_no: ""
 
 national_credit_rating: "신용 등급:"
 national_credit_rating_value: "§W[GetCreditRatingValue]§!"
-credit_rating_tt: "Credit rating is determined by our §Yfiscal and economic health§! and affects our §Yinterest rates§! and §Ydebt ceiling§!. Our current credit rating is[GetLockedCreditRatingOrUnlocked] [GetCreditRatingValue][GetCreditRatingUpDown][GetCreditRatingDisabled].\n\nThis gives us the following effects:[GetCreditRatingEffects][GetCreditRatingMinMax]"
+credit_rating_tt: "Credit rating is determined by our §Yfiscal and economic health§! and affects our §Yinterest rates§! and §Ydebt ceiling§!. 우리의 현재 신용등급은[GetLockedCreditRatingOrUnlocked] [GetCreditRatingValue][GetCreditRatingUpDown][GetCreditRatingDisabled].\n\nThis gives us the following effects:[GetCreditRatingEffects][GetCreditRatingMinMax]"
 credit_rating_effect_normal: "\n  채무한계: [?debt_ceiling_from_credit_rating|%+=]\n  금리: §Y[?interest_rate_from_credit_rating]%§!\n  부채가 이자율에 미치는 영향: [?credit_rating_interest_rates_from_debt|%-]\n  Stability: [?stability_from_credit_rating|%+=]\n  부채가 GDP 성장에 미치는 영향: [?credit_rating_effect_on_debt_GDP_effect|%-=]"
 credit_rating_effect_prime: "\n  채무한계: §GUnlimited§!\n  금리: §Y[?interest_rate_from_credit_rating]%§!\n  부채가 이자율에 미치는 영향: [?credit_rating_interest_rates_from_debt|%-=]\n  Stability: [?stability_from_credit_rating|%+]\n  부채가 GDP 성장에 미치는 영향: [?credit_rating_effect_on_debt_GDP_effect|%-=]"
 credit_rating_delayed_tt: "클릭하여 신용 등급 정보 패널을 엽니다."
