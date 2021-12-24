@@ -29,7 +29,7 @@
   fopo_name_tab_20:0 "아프리카 위임통치령"
   fopo_name_tab_21:0 "마다가스카르 내전"
   fopo_name_tab_22:0 "필리핀 재건"
-  fopo_name_tab_24_orungu:0 "오룬구 분쟁"
+  fopo_name_tab_24_orungu:0 "오룽구 분쟁"
   fopo_name_tab_24_CAF:0 "중앙아프리카 전쟁"
 
   fopo_desc_text:0 "[Get_fopo_desc]"
@@ -45,11 +45,11 @@
 
   WAC_involvement_tt: "§Y서아프리카에 개입합니다.§!"
   WAC_escalation_tt: "§R서아프리카 전쟁이 격화됩니다.§!"
-  WAC_escalation_large_tt: "§RThe West African War will significantly escalate.§!"
-  WAC_escalation_immense_tt: "§eThe West African War will immensely escalate.§!"
-  WAC_deescalation_tt: "§GThe West African War will de-escalate.§!"
-  WAC_deescalation_large_tt: "§GThe West African War will significantly de-escalate.§!"
-  WAC_intervention_tt: "§YIt is now possible to directly intervene in West Africa.§!"
+  WAC_escalation_large_tt: "§R서아프리카 전쟁이 상당히 격화됩니다.§!"
+  WAC_escalation_immense_tt: "§e서아프리카 전쟁이 심각하게 격화됩니다.§!"
+  WAC_deescalation_tt: "§G서아프리카 전쟁이 진정됩니다.§!"
+  WAC_deescalation_large_tt: "§G서아프리카 전쟁이 상당히 진정됩니다.§!"
+  WAC_intervention_tt: "§Y서아프리카에 직접 개입할 수 있습니다.§!"
 
 ### GER
 ################## SAW
@@ -61,12 +61,12 @@
  USA_congo_civil_war_desc:0 "The Congo has fallen to chaos, and with the Japanese and Germans trying to control the remains, it falls upon us to deny these tyrants the benefits of the Congo. Our victory in the Congo will solidify our influence, and continue to deny Africa to our enemies.""
  OFN_congo_civil_war_desc:0 "Once the centrepiece of the American nation-building model, the Congo now faces turmoil of near-anarchic proportions as the American administration collapses under its own weight. From the towers of Leopoldville to the jungles of Katanga, the Congo is thrown into disarray as native insurgents rise to cast off the remaining vestiges of American rule, while elements of the insidious native SS still looming throughout the hinterlands of the Congo remain as a cancerous tumour attached to all. Predictions of coming decolonisation and prosperity have been proven rather short-sighted and naive; one can only truly wonder if the Congo will ever see peace?"
  
- GER_meeting_with_generals_CCW:0 "Meet With [GRO.GetFlag] German Generals"
- GER_bombing_runs_CCW_1:0 "Ship German Military Advisors"
- GER_supply_freedom_fighters_CCW_1:0 "Authorize Bombing Sorties"
- GER_send_military_advisors_CCW_1:0 "Supply [GRO.GetFlag] German Forces"
- GER_technician_aid_CCW_1:0 "Send German Combat Engineers"
- GER_sabotage_effort_CCW_1:0 "Sabotage Enemy Logistics"
+ GER_meeting_with_generals_CCW:0 "[GRO.GetFlag] 독일 장교와 대담"
+ GER_bombing_runs_CCW_1:0 "독일 군사 고문관 파견"
+ GER_supply_freedom_fighters_CCW_1:0 "폭격 출격 허가"
+ GER_send_military_advisors_CCW_1:0 "[GRO.GetFlag] 독일군 폭격"
+ GER_technician_aid_CCW_1:0 "독일군 전투공병단 파견"
+ GER_sabotage_effort_CCW_1:0 "적 보급선 타격"
 
  USA_meeting_with_generals_CCW:0 "Meet With [CFS.GetFlag] Congolese Generals"
  USA_bombing_runs_CCW:0 "Authorize Bombing Sorties"
@@ -510,11 +510,11 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   USA_PHI_military_advisors:0 "군사 고문관 파견"
   USA_PHI_flying_tigers:0 "Send the Flying Tigers"
   USA_PHI_escalation:0 "§R전쟁 확대§!"
-  USA_UPH_morale_lowers:0 "§R[UPH.GetFlag][UPH.GetName] Morale Lowers§!"
+  USA_UPH_morale_lowers:0 "§R[UPH.GetFlag][UPH.GetName] 사기 저하 심리전§!"
 
   #Just in case we may want to bring this back to the CIA, I kept the loc key the same
   USA_PHI_huks_Irregular:0 "§e비정규전§! 작전 시행"
-  USA_PHI_huks_Irregular_Exhaustion_tt:0 "The Blitz has taken at least §Y5 months§!"
+  USA_PHI_huks_Irregular_Exhaustion_tt:0 "전격전이 최소 §Y5개월§!이 지남"
   USA_PHI_huks_Irregular_effect_tt:0 "We shall launch an operation aimed to §Gfurther our cooperation§! with the §eHuks§!. It will allow us to directly aid them through military volunteers, §Ralthough this will prevent us from escalating our support in the USFIP.§!"
   USA_PHI_huks_Irregular_desc:0 "The Balintawak Blitz, true to its name, was meant to be a quick and relatively bloodless war against the Japanese-aligned government in Maynila, in the hopes of crippling Japanese influence in the pacific, and yet, that was not what it turned out to be. The Maynila government has put up more of a fight than what we have anticipated, and the war has grinded down to a bloody standstill with no clear winner.\n\nPerhaps the AFRSR might be willing to work with us, finding those that want to cooperate may just give us enough boost for us to drive the Japanese out of the islands, and perhaps make the future of post-war Philippines ever so certain, once we win that is."
 
@@ -581,7 +581,7 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   ###Balintawak Blitz Success Decisions
   ##The US of A
   USA_PHI_PW_2_desc:0 "As the 14th Army's boats scurried full speed to Tokyo, a commodore left one last burst of Morse code to a watchtower by the coast: "We shall return."\n\nThe exact date is muddled by rumormongering and disinformation, ones Intelligence hasn't even begun to disentangle. Nevertheless, Japan's parting shot is as direct as it is profuse with irony: that the Empire would so easily surrender is laughable at best, and a lethal jape at worst. The real test begins soon, at the rare moment in a man's life where history repeats and legends are retold.\n\nSo rally the men, raise the palisades, man the guns - but above all, never lose hope. If we've beaten the devils once, we'll beat them again."
-  USA_PHI_macarthur_line:0 "The MacArthur Line"
+  USA_PHI_macarthur_line:0 "맥아더 선"
   USA_PHI_mcarthurt_fort_tt:0 "§GIn cooperation with the Huks, we will build a line of fortifications in Luzon to prepare for the Japanese invasion§!"
   USA_PHI_comphrehensive_aid:0 "Comprehensive Aid Package"
   decision_cost_100_million:0 "§Y$100M§!"
@@ -683,7 +683,7 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   JAP_PHI_full_victory_tt:0 "§GWe have secured victory! Now, we must hold out and tire the remaining enemy forces until the end of the campaign to fulfill our victory.§!\n\n"
   
   ###PHILIPPINES RECONSTRUCTION
-  PHI_reconstruction_complete_button_tt:0 "§YDeclare reconstruction complete§!"
+  PHI_reconstruction_complete_button_tt:0 "§Y재건 완료 선언§!"
   
   reconstruction_desc_text:0 "[GetPHIreconstructionDesc]"
   reconstruction_desc_text_USA:0 "[GetPHIreconstructionUSADesc]"
@@ -825,9 +825,9 @@ JAP_ircw_category_desc:0 "Once one of the few allies belonging to Germany in the
 TNO_SAF_Aftermath_desc_USA:0 "We have won a great victory for democracy in South Africa, but our work is far from finished. While the German army is defeated, remnants of their forces still fight on. In addition, many local warlords have established their own forces, and would like nothing better than expel us from their lands. Victory in Africa means nothing if we cannot stabilize the continent.\n\nSome of our officers have suggested continuing our strategy of attrition, using overwhelming firepower and superior tactics to eliminate as many rebels that we can while minimizing our own losses. However, diplomatic officials have suggested using a softer touch to win over the natives, which they claim will stabilize the continent better in the long term. Whichever approach we take, the public demands that our young men return home soon, and leave a stable continent behind. If we fail to satisfy the public, we will surely suffer at the polls."
 TNO_SAF_Aftermath_desc_GER:0 "Larp harder"
 
-Angola_status_progbar_tt:0 "§Y[ANG.GetName]§! §FStability:§! §W[?ANG.OFN_MANDATE_rebel_stability|%1]§!"
-Congo_status_progbar_tt:0 "§Y[COG.GetName]§! §FStability:§! §W[?COG.OFN_MANDATE_rebel_stability|%1]§!"
-EastAfrica_status_progbar_tt:0 "§Y[MZB.GetName]§! §FStability:§! §W[?MZB.OFN_MANDATE_rebel_stability|%1]§!"
+Angola_status_progbar_tt:0 "§Y[ANG.GetName]§! §F안정도:§! §W[?ANG.OFN_MANDATE_rebel_stability|%1]§!"
+Congo_status_progbar_tt:0 "§Y[COG.GetName]§! §F안정도:§! §W[?COG.OFN_MANDATE_rebel_stability|%1]§!"
+EastAfrica_status_progbar_tt:0 "§Y[MZB.GetName]§! §F안정도:§! §W[?MZB.OFN_MANDATE_rebel_stability|%1]§!"
 
  ## Generic Ideas
  JAP_Plane_Bombing:0 "Japanese Bombing Runs"
