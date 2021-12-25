@@ -10,7 +10,7 @@
 
  KOM_socintern_associate:0 "코민테른 준회원국"
 
- RUS_comecon_withdrew_money:0 "코메콘 기금 철회"
+ RUS_comecon_withdrew_money:0 "코메콘 기금을 수령함"
 
  RUS_comecon_sent_aid:0 "코메콘이 보내준 원조"
 
@@ -67,7 +67,7 @@
  COM_establish_international_brigades:0 "§x국제 여단§! 제안"
  COM_intervene_in_country:0 "[FROM.GetName]에게 §x군사원조§! 제안"
  TNO_show_hide_invitations:0 "§R회원국 초청 결정들§! 보이기/숨기기"
- TNO_show_hide_associate_invitations:0 "§R회원국 초청 결정들§! 보이기/숨기기"
+ TNO_show_hide_associate_invitations:0 "§l준회원국 초청 결정들§! 보이기/숨기기"
  TNO_show_hide_interventions:0 "§x개입 관련 결정들§! 보이기/숨기기"
 
  ###RESOLUTIONS###
@@ -81,10 +81,10 @@
  SOCINTERN_VOTE_COMECON_SCIENCE_TITLE:0 "§W§S코메콘§! 과학국의 창설§!"
  SOCINTERN_VOTE_COMECON_SCIENCE_DESC:0 "§gProposal for the establishment of the §SCouncil for Mutual Economic Assistance§!'s Scientific Bureau. The §SCOMECON§! Scientific Bureau shall become the collective international scientific organization of the §RCommunist International§!, and serve as the research and development wing of §SCOMECON§!. Its purpose shall be to assist with mutual research, and allow the rapid advancement of developing countries to technological parity with the rest of the §SCOMECON§! member nations.§!"
 
- SOCINTERN_VOTE_INVITATION_TITLE:0 "§W§RMembership§! for [SOCINTERN_INVITED.GetName]§!"
+ SOCINTERN_VOTE_INVITATION_TITLE:0 "§W for [SOCINTERN_INVITED.GetName]에게 §R회원국§! 자격 지급§!"
  SOCINTERN_VOTE_INVITATION_DESC:0 "§gProposal to extend an immediate offer of full §RComIntern§! membership to the ruling party of [SOCINTERN_INVITED.GetNameDef]. If they accept, they shall immediately be inducted into the §RComIntern§! as a voting member of the General Assembly, and gain access to all §RComIntern§! programs.\n\nAll diplomatic overtures, such as non-aggression pacts, extended as part of §RComIntern§! policy shall be extended to [SOCINTERN_INVITED.GetNameDef] as well.§!"
 
- SOCINTERN_VOTE_ASSOCIATESHIP_TITLE:0 "§W§lAssociate Status§! for [SOCINTERN_INVITED.GetName]§!"
+ SOCINTERN_VOTE_ASSOCIATESHIP_TITLE:0 "§W[SOCINTERN_INVITED.GetName]에게 §l준회원국§! 자격 지급§!"
  SOCINTERN_VOTE_ASSOCIATESHIP_DESC:0 "§gProposal to extend an immediate offer of §RComIntern§! associate status to the ruling party of [SOCINTERN_INVITED.GetNameDef]. If they accept, they shall immediately be inducted into the §RComIntern§! as an associate, and be able to apply for full membership at a later date.\n\n[SOCINTERN_INVITED.GetNameDef] will not be included in current §RComIntern§! policies until they achieve full membership status.§!"
  
  SOCINTERN_VOTE_INTERNATIONAL_BRIGADES_TITLE:0 "§W§x국제 여단§!의 창설§!"
