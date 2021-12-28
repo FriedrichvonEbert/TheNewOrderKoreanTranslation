@@ -2232,7 +2232,7 @@
 
  ## Armed Forces Mechanic
  BRA_military_category: "브라질군"
- BRA_military_info_tt: "브라질의 §Y군대§! 1935년 쿠데타 미수 사건 이후 브라질 정부의 주 감시 대상입니다. 군은 전투 태세를 약화시키는 §Y족벌주의§!로 골머리를 앓고 있으며, 군 지도부의 §G충성도§!는 미미한 수준입니다.\n\n브라질군 내부는 현재 3개 족벌 사이 권력 투쟁을 빚고 있습니다. 친민주주의 계열인 £BRA_constitutionalists_texticon §K입헌파§!, 중도 계열인 £BRA_sorbonne_texticon §Q소브로네파§!, 적대적인 £BRA_hardliners_texticon §g강경파§! 3개 파벌이 있습니다. The faction in control and level of military §GLoyalty§! will determine how much §Rinstability§! the military will tolerate before §Rintervention§! is seen as the only option.\n\nThe President must act wisely, for their actions towards the military and on issues of national security will affect all of these properties."
+ BRA_military_info_tt: "브라질의 §Y군대§! 1935년 쿠데타 미수 사건 이후 브라질 정부의 주 감시 대상입니다. 군은 전투 태세를 약화시키는 §Y족벌주의§!로 골머리를 앓고 있으며, 군 지도부의 §G충성도§!는 미미한 수준입니다.\n\n브라질군 내부는 현재 3개 족벌 사이 권력 투쟁을 빚고 있습니다. 친민주주의 계열인 £BRA_constitutionalists_texticon §K입헌파§!, 중도 계열인 £BRA_sorbonne_texticon §Q소브로네파§!, 적대적인 £BRA_hardliners_texticon §g강경파§! 3개 파벌이 있습니다. 지배적인 파벌과 그 §G충성도§! 수준이 §R군의 개입§!을 유일한 선택으로 생각하기 전까지 얼마나 군이 §R불안정§! 상황을 용인할 지 결정합니다.\n\n군과 국가 안보 문제에 대한 행동이 이 모든 수치에 영향을 미치기 때문에 대통령은 현명하게 행동해야 합니다."
 
  # UNUSED, kind of long
  BRA_military_category_description: "The military is [BRA_military_loyalty_level] and [BRA_military_nepotism_level]"
@@ -2268,15 +2268,15 @@
 
  BRA_military_hardliners_name: "£BRA_hardliners_texticon §g강경파S§!"
  BRA_military_hardliners_power: "§g[?BRA_military_hardliners_power|0]§!"
- BRA_military_hardliners_tt: "£BRA_hardliners_texticon §gHardliners§!\n--------------\nKnown as "Goosesteppers" to their detractors, the Hardliners are the most antagonistic faction to Brazilian democracy. The group has existed for decades, held together by their common ambition. Many of those that forced Vargas from power were Hardliners, the same officers and generals who aimed to take power in the failed 1955 coup. As long as the Hardliners are promised wealth and power, they will remain loyal, but they won't ever be sated for long."
+ BRA_military_hardliners_tt: "£BRA_hardliners_texticon §g강경파S§!\n--------------\nKnown as "Goosesteppers" to their detractors, the Hardliners are the most antagonistic faction to Brazilian democracy. The group has existed for decades, held together by their common ambition. Many of those that forced Vargas from power were Hardliners, the same officers and generals who aimed to take power in the failed 1955 coup. As long as the Hardliners are promised wealth and power, they will remain loyal, but they won't ever be sated for long."
 
  BRA_military_sorbonne_name: "£BRA_sorbonne_texticon §Q소르보네파§!"
  BRA_military_sorbonne_power: "§Q[?BRA_military_sorbonne_power|0]§!"
- BRA_military_sorbonne_tt: "£BRA_sorbonne_texticon §QSorbonne§!\n--------------\nThe Sorbonne headed by Ernesto Geisel are the so-called moderates of the Brazilian military, favoring the status quo. The primary concern of the Sorbonne is ensuring a stable Brazil that ensures their checks come in on time and they can retire with a sizable pension. While they may lack the ambition of the Hardliners and the ideological devotion of the Constitutionalists, what the Sorbonne do have is pragmatism."
+ BRA_military_sorbonne_tt: "£BRA_sorbonne_texticon §Q소르보네파§!\n--------------\nThe Sorbonne headed by Ernesto Geisel are the so-called moderates of the Brazilian military, favoring the status quo. The primary concern of the Sorbonne is ensuring a stable Brazil that ensures their checks come in on time and they can retire with a sizable pension. While they may lack the ambition of the Hardliners and the ideological devotion of the Constitutionalists, what the Sorbonne do have is pragmatism."
 
  BRA_military_constitutionalists_name: "£BRA_constitutionalists_texticon §K입헌파§!"
  BRA_military_constitutionalists_power: "§K[?BRA_military_const_power|0]§!"
- BRA_military_constitutionalists_tt: "£BRA_constitutionalists_texticon §KConstitutionalists§!\n--------------\nFounded by Marshall Lott during the attempted coup of 1955, the Consitutionalists support the continuation of the Fourth Republic and democracy, no matter its leader. The Constitutionalists aim to quell any suggestion of a military solution to Brazil's woes, and will shield the president to intervention to the best of their abilities."
+ BRA_military_constitutionalists_tt: "£BRA_constitutionalists_texticon §K입헌파§!\n--------------\nFounded by Marshall Lott during the attempted coup of 1955, the Consitutionalists support the continuation of the Fourth Republic and democracy, no matter its leader. The Constitutionalists aim to quell any suggestion of a military solution to Brazil's woes, and will shield the president to intervention to the best of their abilities."
 
  BRA_military_debug_add_loyalty_tt: "§YAdd Loyalty§!\n--------------\n§YLeft Click:§! Add 1 §GLoyalty§!\n§YRight Click:§! Add 5 §GLoyalty§!"
  BRA_military_debug_sub_loyalty_tt: "§YSubtract Loyalty§!\n--------------\n§YLeft Click:§! Subtract 1 §GLoyalty§!\n§YRight Click:§! Subtract 5 §GLoyalty§!"
@@ -2465,7 +2465,7 @@
 
  ## Hundred Days Mechanic
  BRA_hundred_days_category: "백일 위기"
- BRA_hundred_days_info_tt: "The §YHundred Days Crisis§! will only be resolved once one of the four contenders reaches §G50%§! support, becoming interim president.\n\nThe military's threat of §Rintervention§! dangles over the Senado, a Sword of Damocles ready to strike if the 100 day period elapses or the political situation grows too §Runstable§!.\n\nTotal Support:\n§YKubitschek§! has §Y[?BRA_hd_kubitschek_support|1]%§! support.\n§VGoulart§! has §Y[?BRA_hd_goulart_support|1]%§! support.\n§QLacerda§! has §Y[?BRA_hd_lacerda_support|1]%§! support.\n§hAdhemar§! has §Y[?BRA_hd_adhemar_support|1]%§! support."
+ BRA_hundred_days_info_tt: "§Y백일 위기§!는 네 명의 후보 중 한 명이 §G50%§!의 지지를 얻어 임시 대통령이 되어야지만 해결됩니다.\n\nThe military's threat of §Rintervention§! dangles over the Senado, a Sword of Damocles ready to strike if the 100 day period elapses or the political situation grows too §Runstable§!.\n\nTotal Support:\n§YKubitschek§! has §Y[?BRA_hd_kubitschek_support|1]%§! support.\n§VGoulart§! has §Y[?BRA_hd_goulart_support|1]%§! support.\n§QLacerda§! has §Y[?BRA_hd_lacerda_support|1]%§! support.\n§hAdhemar§! has §Y[?BRA_hd_adhemar_support|1]%§! support."
 
  BRA_hd_kubitschek_name: "§YJuscelino Kubitschek§!"
 
