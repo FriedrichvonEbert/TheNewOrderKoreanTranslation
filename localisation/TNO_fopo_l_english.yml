@@ -233,16 +233,16 @@
  USA_GZCW_PW_desc_simango: "Mozambique buckles under the bloody specter of Civil War. Competing interests and bloody rivalries spilling out from closed rooms onto city streets and rural plains and inevitably drawing the attention of the Superpowers eager to exploit national tragedy for international gain.\n\nUria Simango heads neither the strongest nor the most numerous faction in the conflict, but what is lacking in strength is more than made up for in pliability. Heavily reliant on American support, a victory for Simango not only means keeping Japan out of Africa but also ensuring Mozambique's place in the ranks of the Free World.\n\nDevastation is : [?ZZZ.gazaland_devastation]\n\nMin is : [?ZZZ.gazaland_devastation_exponential_min]\n\nMax is : [?ZZZ.gazaland_devastation_exponential_max]\nEvery 3 weeks devestation will increase by a number between the min and the max. If it gets over a 100 then failstate happens."
  JAP_GZCW_PW_desc: "Mozambique has fallen into chaos with the victory of Samora Machel in the young nation's elections. Samora Machel is a socialist, and far from a true friend of Japan, but we have already come to an agreement with him to help him restore his broken nation in exchange for economic and political concessions. The Americans will no doubt back the opposition, who has risen up in armed conflict to try to oust Machel and install their own dictator in its place, so it falls to us to protect the Machel regime and our interests in not only Mozambique, but all of Africa as well by extension, blunting the tip of the Yankee sphere in Africa in the process.\n\nDevastation is : [?ZZZ.gazaland_devastation]\n\nMin is : [?ZZZ.gazaland_devastation_exponential_min]\n\nMax is : [?ZZZ.gazaland_devastation_exponential_max]\nEvery 3 weeks devestation will increase by a number between the min and the max. If it gets over a 100 then failstate happens."
 
- USA_meeting_with_generals_gazaland:0 "Meet With [GAZ.GetFlag] Mozambique Generals"
+ USA_meeting_with_generals_gazaland:0 "[GAZ.GetFlag] 모잠비크 장군과의 대담"
  USA_bombing_runs_gazaland:0 "폭격 출격 허가"
- USA_supply_freedom_fighters_gazaland:0 "Supply [GAZ.GetFlag] Mozambique Freedom Fighters"
+ USA_supply_freedom_fighters_gazaland:0 "[GAZ.GetFlag] 모잠비크 자유군 보급"
  USA_send_military_advisors_gazaland:0 "미국 군사 고문관 파견"
  USA_technician_aid_gazaland:0 "미국 기술 지원단 파견"
  USA_sabotage_effort_gazaland:0 "적 보급선 타격"
 
- JAP_meeting_with_generals_gazaland:0 "Meet With [GZO.GetFlag] Mozambique Generals"
+ JAP_meeting_with_generals_gazaland:0 "[GZO.GetFlag] 모잠비크 장군과의 대담"
  JAP_bombing_runs_gazaland:0 "폭격 출격 허가"
- JAP_supply_imperialistic_fighters_gazaland:0 "Supply [GZO.GetFlag] Mozambique Anti-Imperialists"
+ JAP_supply_imperialistic_fighters_gazaland:0 "[GZO.GetFlag] 모잠비크 반제주의 군대 보급"
  JAP_send_military_advisors_gazaland:0 "일본 군사 고문관 파견"
  JAP_technician_aid_gazaland:0 "일본 기술 지원단 파견"
  JAP_sabotage_effort_gazaland:0 "적 보급선 타격"
@@ -287,8 +287,8 @@
   USA_WAC_heavy_weapons_target_large: "Send Heavy Weaponry to [FROM.GetFlag][FROM.GetName]"
 
   # Gulf of Guinea Campaign
-  USA_WAC_secure_gulf_of_guinea: "Secure the Gulf of Guinea"
-  USA_WAC_secure_gulf_of_guinea_available_tt: "§YOur allies control the Gulf of Guinea.§!"
+  USA_WAC_secure_gulf_of_guinea: "기니만 확보"
+  USA_WAC_secure_gulf_of_guinea_available_tt: "§Y연합군이 기니만을 통제합니다.§!"
   USA_WAC_secure_gulf_of_guinea_failure_tt: "§RThe PALF will retain its supply line.§!"
   USA_WAC_secure_gulf_of_guinea_success_tt: "§GSphere aid to the PALF will be made significantly more difficult.§!"
   USA_WAC_secure_gulf_of_guinea_desc: "Our immediate most important priority in the West African conflict is to deny supply to the PALF, which is currently mostly being delivered through a maritime route via the Gulf of Guinea and into Cameroonian ports.\n\nWhile we don't wish to directly intervene in the conflict yet and risk an escalation, we can trust that our Free French allies can, with their significant naval forces, block off this route if we provide enough support to them.\n\nThe §YGulf of Guinea Campaign§! is currently [GetWACGulfAdvantage]"
@@ -323,7 +323,7 @@
   USA_WAC_stabilize_front: "전선 안정화"
   USA_WAC_stabilize_front_tt: "§Y서아프리카의 전선이 안정될 것입니다.§!"
   USA_WAC_plan_offensive: "공세 계획"
-  USA_WAC_expand_shipments: "Expand Military Shipments"
+  USA_WAC_expand_shipments: "군수 물자 수송 확대"
   USA_WAC_expand_shipments_tt: "§GWe'll be able to send larger shipments to our allies.§!"
   USA_swell_foreign_legion_WA: "Swell the French Foreign Legion"
   USA_swell_foreign_legion_WA_desc: "While we might be limited on our capacity to send troops to West Africa due to various circumstances, we can still circle around this problem by recruiting for, arming, and generally supporting the French Foreign Legion. We'll offer social security, subsidies, and other measures in order to attract veterans and volunteers into this elite troop."
@@ -341,15 +341,15 @@
   USA_congo_confrontation_WA_desc: "The warlords and petty tyrants of the northern Congo are not exactly fond of our attempt to govern their territory, but they are no more fond of their Cameroonian neighbors who similarly threaten their rule. In exchange for weapons and the promise of a lighter touch, we may be able to get them to focus their attention northward."
 
 ################## Angola
- angola_civil_war_please_dont_end_instantly: "The Terrain of Angola"
+ angola_civil_war_please_dont_end_instantly: "앙골라 지역"
  USA_angola_civil_war_desc: "PLACEHOLDER, add something here"
- mines_planted: "Landmines Planted"
- bombing_campaign: "Bombing Campaign"
+ mines_planted: "지뢰 살포"
+ bombing_campaign: "폭격 전역"
 
- USA_angola_plant_mines: "Plant Mines in [?From.GetName]"
+ USA_angola_plant_mines: "[?From.GetName] 지뢰 살포"
  USA_angola_plant_mines_desc: "We will instruct local forces in [?From.GetName] to plant mines across the region to slow motorized advances."
 
- USA_angola_bombing_campaigns: "Bombing Campaign in [?From.GetName]"
+ USA_angola_bombing_campaigns: "[?From.GetName] 폭격 전역"
  USA_angola_bombing_campaigns_desc: "We will authorize our bombers to begin sorties targeting [?ANL.GetName] forces in [?From.GetName]."
 
  US_bombing_ANG_active: "Has active bombing campaign in Angola."
@@ -410,14 +410,14 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   USA_ICW_Military_Cat:0 "전선"
   USA_ICW_Military_Cat_desc:0 ""
   USA_ICW_Domestic_Cat:0 "국내 상황"
-  USA_ICW_WAR_Currently_Doing_Military_Action:0 "Currently engaging in Military action in Indonesia."
-  USA_INS_Diplo_Action:0 "Currently engaging in diplomatic activity in Indonesia."
-  USA_rd_propaganda:0 "Making propaganda for the war"
+  USA_ICW_WAR_Currently_Doing_Military_Action:0 "현재 인도네시아의 군사 행동에 가담하고 있습니다."
+  USA_INS_Diplo_Action:0 "현재 인도네시아의 외교 행동에 가담하고 있습니다."
+  USA_rd_propaganda:0 "전쟁 선전 수행"
 
   USA_IW_Peace_Decisions:0 "인도네시아 전쟁"
   USA_ICW_Domestic_Cat_desc:0 "The outbreak of hostilities in Indonesia offers an opportunity to chip away at the Japanese dominance in Southeast Asia. Still, we must exercise caution in the scope of our intervention. The more we invest into the rebels, the more their failure will blow back on us.\n\nInitially we may find it quite §Geasy§! to escalate the fight in Indonesia, but the §Rlonger§! and §Rharder§! we fight, the more the public will find itself disillusioned with a war we have little right to be fighting in.\n\n§GMaintaining§! support for the war from the £GFX_rd_texticon §wRepublican§!-§BDemocrats§! and the £GFX_npp_texticon §ONational Progressive Party§! will be essential to allow congress to let us send §Gmore§! support for the war effort, but should both parties be §Rsupportive§! of the war, anti-war activists may find themselves looking towards §Rextremism.§! Keeping the war §Gpopular§! will mean higher §Gsupport§! for our party.\n\n[USA_ICW_Active]"
   USA_ICW_Frontlines_Cat_desc:0 "From the cities of Sumatra to the thick jungles of New Guinea, the emerald of the equator lies ablaze. The decrepit Sukarno regime that has long ruled over the islands as a mere appendage of the Japanese Empire buckles under the weight of a new generation of patriots and freedom fighters, eager to cast off the shackles of Japanese suzerainty. Victory in Indonesia will not only restrain Japanese access to vital supplies of rubber and oil, but also provide vital breathing space to our Australian allies and peel away yet another nation from Tokyo's so-called "Co-Prosperity" Sphere.\n\nThe Japanese may have won the war, but we will ensure that they will not win the peace."
-  USA_Pull_Out_Of_Indonesian_War:0 "Withdraw Our Support"
+  USA_Pull_Out_Of_Indonesian_War:0 "지원 철회"
   USA_MLY_aid_category_desc:0 "Test"
 
   USA_ICW_Domestic_Pop:0 "Domestic support for the war is [GetICWDomesticSupport] ([?USA_INS_CW_Domestic_Support])\n£GFX_rd_texticon §wRepublican§!-§BDemocrat§! support for the war is [GetICWRDSupport] ([?USA_INS_CW_RD_Support])\n£GFX_npp_texticon §ONational Progressive§! support for the war is [GetICWNPPSupport] ([?USA_INS_CW_NPP_Support])"
@@ -505,23 +505,23 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   PHI_proxy_war_started:0 "필리핀이 불길에 휩싸였습니다."
 
   USA_PHI_aid_from_west_point:0 "웨스트포인트 장교단 지원"
-  USA_PHI_little_olive_men:0 "Ship the Little Olive Men"
-  USA_PHI_cargo_haulers:0 "Send Over Cargo Haulers"
+  USA_PHI_little_olive_men:0 "친절한 청년들 파견"
+  USA_PHI_cargo_haulers:0 "화물 트럭 수송"
   USA_PHI_military_advisors:0 "군사 고문관 파견"
-  USA_PHI_flying_tigers:0 "Send the Flying Tigers"
+  USA_PHI_flying_tigers:0 "플라잉 타이거즈 파견"
   USA_PHI_escalation:0 "§R전쟁 확대§!"
   USA_UPH_morale_lowers:0 "§R[UPH.GetFlag][UPH.GetName] 사기 저하 심리전§!"
 
   #Just in case we may want to bring this back to the CIA, I kept the loc key the same
   USA_PHI_huks_Irregular:0 "§e비정규전§! 작전 시행"
   USA_PHI_huks_Irregular_Exhaustion_tt:0 "전격전이 최소 §Y5개월§!이 지남"
-  USA_PHI_huks_Irregular_effect_tt:0 "We shall launch an operation aimed to §Gfurther our cooperation§! with the §eHuks§!. It will allow us to directly aid them through military volunteers, §Ralthough this will prevent us from escalating our support in the USFIP.§!"
+  USA_PHI_huks_Irregular_effect_tt:0 "우리는 §e후크§!와 함께 §G협력 증진§! 작전을 수행할 것입니다. 자원병 파견을 통해 그들에게 직접적인 도움을 줄 수 있지만, 대신 §R우리의 USFIP 지원이 증대되는 것을 막아버릴 것입니다.§!"
   USA_PHI_huks_Irregular_desc:0 "The Balintawak Blitz, true to its name, was meant to be a quick and relatively bloodless war against the Japanese-aligned government in Maynila, in the hopes of crippling Japanese influence in the pacific, and yet, that was not what it turned out to be. The Maynila government has put up more of a fight than what we have anticipated, and the war has grinded down to a bloody standstill with no clear winner.\n\nPerhaps the AFRSR might be willing to work with us, finding those that want to cooperate may just give us enough boost for us to drive the Japanese out of the islands, and perhaps make the future of post-war Philippines ever so certain, once we win that is."
 
-  USA_weaken_japan_bombings:0 "§GThis will weaken [JAP.GetFlag]Japan's Bombing Campaigns.§!"
+  USA_weaken_japan_bombings:0 "§G이는 [JAP.GetFlag]일본의 폭격 전역을 약화시킬 것입니다.§!"
   TNO_Controls_Central_Luzon_Airport:0 "§Y[PHI.GetFlag]The [PHI.GetName]§! does not control Gitnang Luzon."
   USA_PHI_advisors_tt:0 "We can send a Volunteer Division to the §G[UPH.GetFlag][UPH.GetName].§!"
-  USA_PHI_advisors_have_been_sent:0 "§YAdvisors§! have already been sent."
+  USA_PHI_advisors_have_been_sent:0 "§Y고문관§!이 이미 파견되었습니다."
   
   tt_USA_PHI_olive_men:0 "§GUsing our equipment, the Filipino rebels will be able to field an additional division.§!"
   tt_USA_PHI_GDP:0 "§GOur industrial aid will slightly increase their GDP.§!"
