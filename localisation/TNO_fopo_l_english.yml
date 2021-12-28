@@ -41,7 +41,7 @@
   fopo_homefront_tt:0 "§Y국내 여론§! 상황에 대처"
 
 ### Effect Tooltips
-  TNO_add_num_volunteers_tt:0 "We will be able to send [?to_add|Y0] more volunteer units to §Y[?target.GetNameWithFlag]§!."
+  TNO_add_num_volunteers_tt:0 "우리는 §Y[?target.GetNameWithFlag]§!로 [?to_add|Y0]개 자원병을 더 보낼 수 있습니다."
 
   WAC_involvement_tt: "§Y서아프리카에 개입합니다.§!"
   WAC_escalation_tt: "§R서아프리카 전쟁이 격화됩니다.§!"
@@ -580,27 +580,27 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
 
   ###Balintawak Blitz Success Decisions
   ##The US of A
-  USA_PHI_PW_2_desc:0 "As the 14th Army's boats scurried full speed to Tokyo, a commodore left one last burst of Morse code to a watchtower by the coast: "We shall return."\n\nThe exact date is muddled by rumormongering and disinformation, ones Intelligence hasn't even begun to disentangle. Nevertheless, Japan's parting shot is as direct as it is profuse with irony: that the Empire would so easily surrender is laughable at best, and a lethal jape at worst. The real test begins soon, at the rare moment in a man's life where history repeats and legends are retold.\n\nSo rally the men, raise the palisades, man the guns - but above all, never lose hope. If we've beaten the devils once, we'll beat them again."
+  USA_PHI_PW_2_desc:0 "제14군의 작은 배는 도쿄로 전속력으로 향하며 제독은 해안가에 있는 망루에서 다음과 같은 마지막 모스 부호를 남겼습니다. "우리는 돌아올 것이다."\n\n정확한 날짜는 온갖 루머와 허위 정보로 혼란스러우며, 정보부는 아직까지 진상 파악을 시도조차 하지 못했습니다. 그럼에도 일본의 작별 인사는 아이러니로 가득 찬 것 만큼이나 직접적인 말입니다. 제국이 그렇게 쉽게 항복한다는 건 기껏해야 농담일 뿐이지만 최악의 경우엔 치명적일 것입니다. 역사가 반복되고 전설이 다시 시작되는 그 드문 순간인 진정한 시험이 시작될 것입니다.\n\n그러니 병사를 규합하고 벽을 높이며 무장시켜야 합니다. 하지만 무엇보다도 희망을 잃어서는 안됩니다. 우리가 악마를 한 번 물리쳤으니 우리는 다시 물리칠 수 있을 것입니다."
   USA_PHI_macarthur_line:0 "맥아더 선"
-  USA_PHI_mcarthurt_fort_tt:0 "§GIn cooperation with the Huks, we will build a line of fortifications in Luzon to prepare for the Japanese invasion§!"
-  USA_PHI_comphrehensive_aid:0 "Comprehensive Aid Package"
+  USA_PHI_mcarthurt_fort_tt:0 "§G후크발라합과 협력하여 루손섬에 방어선을 구축해 일본의 침공에 대비할 것입니다§!"
+  USA_PHI_comphrehensive_aid:0 "종합 지원 패키지"
   decision_cost_100_million:0 "§Y$100M§!"
   decision_cost_100_million_blocked:0 "§R$100M§!"
-  UPH_usa_aid_package:0 "American Economic Aid Package"
-  USA_PHI_black_budget_programs:0 "Black Budget Programs"
+  UPH_usa_aid_package:0 "미국 경제 원조 패키지"
+  USA_PHI_black_budget_programs:0 "검은 예산 프로그램"
   decision_cost_100_million_25_cp:0 "§Y$100M§! £command_power §Y25§!"
   decision_cost_100_million_25_cp_blocked:0 "§R$100M§! £command_power §R25§!"
-  USA_PHI_mass_conscription:0 "Mass Conscription"
-  USA_PHI_mass_conscription_tt:0 "§Y5§! Auxillary brigades will be raised in the [UPH.GetFlag]§G[UPH.GetName]§!."
+  USA_PHI_mass_conscription:0 "집단 징병"
+  USA_PHI_mass_conscription_tt:0 "§[UPH.GetFlag]§G[UPH.GetName]§!에 자원 여단 Y5§!개가 나타날 것입니다."
   decision_cost_500_guns_10_pp:0 "£weapon_icon §Y500§! £political_power_texticon §Y10§!"
   decision_cost_500_guns_10_pp_blocked:0 "£weapon_icon §R500§! £political_power_texticon §R10§!"
-  USA_PHI_expand_army:0 "Expand the Philippine Army" 
-  USA_PHI_expand_army_tt:0 "§Y2§! Infantry divisions will be raised in the [UPH.GetFlag]§G[UPH.GetName]§!."
-  USA_PHI_IJN_blockade_dummy:0 "Imperial Japanese Navy §RBlockade§!"
-  USA_PHI_IJN_blockade_dummy_desc:0 "Our capacity to provide further support to the Filipino rebels has been effectively neutered due to an ongoing blockade on the islands by the IJN. We can only afford to slip through supplies for our volunteers, and nothing else, lest our ships are to be blown out of the waters."
+  USA_PHI_expand_army:0 "필리핀군 확충" 
+  USA_PHI_expand_army_tt:0 "[UPH.GetFlag]§G[UPH.GetName]§!에 보병 사단 §Y2§! 개가 나타날 것입니다."
+  USA_PHI_IJN_blockade_dummy:0 "대일본제국해군의 §R봉쇄§!"
+  USA_PHI_IJN_blockade_dummy_desc:0 "대일본제국해군의 계속되는 봉쇄로 필리핀 반군에게 추가적인 지원을 제공해 줄 우리의 지원 능력을 완전히 상실하였습니다. 우리 함선을 바다에서 잃어버릴 순 없으므로, 자원병을 위한 보급품만 겨우 빼돌려 보낼 수 있습니다."
   decision_cost_500_guns_5_army_xp:0 "£weapon_icon §Y500§! £army_experience §Y5§!"
   decision_cost_500_guns_5_army_xp_blocked:0 "£weapon_icon §R500§! £army_experience §R5§!"
-  USA_PHI_doing_preparation_decision:0 "Doing another decision to prepare against a Japanese invasion."
+  USA_PHI_doing_preparation_decision:0 "일본의 침공에 대비하기 위해 또 다른 결정을 할 것입니다."
   ##Japan
   JAP_PHI_PW_2_desc:0 "The 14th Army returned home with ashes in their mouths and the ashes of their comrades in tow. Wails of families bereft of sons, fathers and brothers mingled with grudges oathed in anguish. No more mercy, said a youth in a recruiting station; no more half-measures, said an old man brandishing his old tasseled guntō. So say Japan as one: vengeance for the dead. Vengeance for their heroes.\n\nIn two months' time we shall depart to reclaim the Gods-forsaken islands once more. Until then, we must decide which divisions to bring."
   JAP_PHI_supply_text:0 "Our current £GFX_PHI_supply_texticon §kSupply§! is §k[?JP_PHI_supply]/100§!\nThe invasion's £GFX_PHI_supply_floor_texticon §SMinimum Supply§! is §S[?JP_PHI_supply_perc]§!"
@@ -609,7 +609,7 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   JAP_PHI_preparations_custom:0 "Using the below decisions, we can assemble the landing force to retake the Philippines. The number of Divisions we can send is limited by §kSupply§!.\n\nThe 14th Army is currently equipped with \n§Y[?JAP_PHI_Army] divisions§!. An efficient landing force has at most §R10 divisions§!."
   JAP_PHI_ongoing_custom:0 "We must make sure that the §ksupplies§! are enough to sustain the 14th Army until the end of the campaign, lest they will receive §enegative effects.§!\n\n§YThe Outcome of the 14th Army's campaign will be decided in six months.§!"
 
-  JAP_PHI_Invasion_Begins:0 "§eThe Invasion Begins...§!"
+  JAP_PHI_Invasion_Begins:0 "§e침공이 시작될 것입니다...§!"
   JAP_PHI_Use_4th_Division:0 "    Order the 4th Division"
   JAP_PHI_Use_8th_Division:0 "    Order the 8th Division"
   JAP_PHI_Use_30th_Division:0 "    Order the 30th Division"
@@ -753,9 +753,9 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   USA_SPH_recon_timeout_tt:0 "§RThe Philippines dramatically destabilizes...§!"
   
   #Dec loc
-  USA_assist_reconstruction:0 "Assist in Reconstruction"
-  USA_demobilize_philippine_army:0 "Demobilize the Philippine Army"
-  USA_dismantle_manila_forts:0 "Dismantle Manila Forts"
+  USA_assist_reconstruction:0 "재건 지원"
+  USA_demobilize_philippine_army:0 "필리핀군 동원령 해제"
+  USA_dismantle_manila_forts:0 "마닐라 요새 해체"
   USA_emergency_price_fixing_laws:0 "Emergency Price Fixing Laws"
   USA_bandidos_hunt:0 "Hunt the Bandidos"
   USA_bandidos_hunt_success_tt:0 "The hunt against the §Rbandidos§! rampant in the Philippines §Gsucceeds§!."
