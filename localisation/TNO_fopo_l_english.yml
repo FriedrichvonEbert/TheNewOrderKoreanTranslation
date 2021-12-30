@@ -230,7 +230,7 @@
 
 ################## Mozambique
  USA_GZCW_PW_desc_mondlane: "Politics makes strange bedfellows, and in the world of superpower conflict waged via proxy, some bedfellows can be stranger than others. A premise aptly demonstrated in Mozambique. Eduardo Mondlane is not your typical American proxy, an avowed socialist, nationalist, and harshly critical of the Cold War waged across the third world. Relations are tense at the best of times, and there is no delusion over where his true loyalties lie.\n\nYet, as Mozambique buckles under the weight of warring factions, Tokyo looks on with a keen eye. Mondlane represents America's best shot at keeping this part of Africa out of the Sphere's grasp. Even if it means placing it in the hands of neutrals.\n\nDevastation is : [?ZZZ.gazaland_devastation]\n\nMin is : [?ZZZ.gazaland_devastation_exponential_min]\n\nMax is : [?ZZZ.gazaland_devastation_exponential_max]\nEvery 3 weeks devestation will increase by a number between the min and the max. If it gets over a 100 then failstate happens."
- USA_GZCW_PW_desc_simango: "Mozambique buckles under the bloody specter of Civil War. Competing interests and bloody rivalries spilling out from closed rooms onto city streets and rural plains and inevitably drawing the attention of the Superpowers eager to exploit national tragedy for international gain.\n\nUria Simango heads neither the strongest nor the most numerous faction in the conflict, but what is lacking in strength is more than made up for in pliability. Heavily reliant on American support, a victory for Simango not only means keeping Japan out of Africa but also ensuring Mozambique's place in the ranks of the Free World.\n\nDevastation is : [?ZZZ.gazaland_devastation]\n\nMin is : [?ZZZ.gazaland_devastation_exponential_min]\n\nMax is : [?ZZZ.gazaland_devastation_exponential_max]\nEvery 3 weeks devestation will increase by a number between the min and the max. If it gets over a 100 then failstate happens."
+ USA_GZCW_PW_desc_simango: "모잠비크는 피비린내나는 내전의 망령에 휘청거리고 있습니다. Competing interests and bloody rivalries spilling out from closed rooms onto city streets and rural plains and inevitably drawing the attention of the Superpowers eager to exploit national tragedy for international gain.\n\nUria Simango heads neither the strongest nor the most numerous faction in the conflict, but what is lacking in strength is more than made up for in pliability. Heavily reliant on American support, a victory for Simango not only means keeping Japan out of Africa but also ensuring Mozambique's place in the ranks of the Free World.\n\nDevastation is : [?ZZZ.gazaland_devastation]\n\nMin is : [?ZZZ.gazaland_devastation_exponential_min]\n\nMax is : [?ZZZ.gazaland_devastation_exponential_max]\nEvery 3 weeks devestation will increase by a number between the min and the max. If it gets over a 100 then failstate happens."
  JAP_GZCW_PW_desc: "Mozambique has fallen into chaos with the victory of Samora Machel in the young nation's elections. Samora Machel is a socialist, and far from a true friend of Japan, but we have already come to an agreement with him to help him restore his broken nation in exchange for economic and political concessions. The Americans will no doubt back the opposition, who has risen up in armed conflict to try to oust Machel and install their own dictator in its place, so it falls to us to protect the Machel regime and our interests in not only Mozambique, but all of Africa as well by extension, blunting the tip of the Yankee sphere in Africa in the process.\n\nDevastation is : [?ZZZ.gazaland_devastation]\n\nMin is : [?ZZZ.gazaland_devastation_exponential_min]\n\nMax is : [?ZZZ.gazaland_devastation_exponential_max]\nEvery 3 weeks devestation will increase by a number between the min and the max. If it gets over a 100 then failstate happens."
 
  USA_meeting_with_generals_gazaland:0 "[GAZ.GetFlag] 모잠비크 장군과의 대담"
@@ -307,16 +307,16 @@
   WAC_Sphere_decrease_gulf_advantage_large_tt: "§x공영권§!의 §Y기니만 전역에서의 이점이 매우 감소할 것입니다.§!"
 
   USA_WAC_infiltrate_ports: "항구 침투"
-  USA_WAC_infiltrate_ports_desc: "Our current presence in Central Africa via the Mandates allows us to infiltrate some commando units into Cameroon through our shared land border, with the purpose of gathering intel on naval movements and strength."
+  USA_WAC_infiltrate_ports_desc: "중앙아프리카에 있는 우리 자치령을 이용하여 해군의 움직임과 해군력 정보를 얻기 위해 육지 국경을 통해 카메룬에 특공대를 침투시킬 수 있습니다."
   USA_WAC_infiltrate_ports_tt: "§G우리는 카메룬 항구 건설현장을 방해할 수 있습니다.§!"
   USA_WAC_sabotage_construction: "항구 건설 사보타주"
-  USA_WAC_sabotage_construction_desc: "By using our infiltrated assets in the ports of the Cameroon we will sabotage and slow down the construction and buildup of new ports, this will buy us valuable time by preventing the Japanese from expanding their own operations in the area significantly."
-  USA_WAC_sabotage_construction_tt: "§GPort construction in Cameroon will be put behind schedule.§!"
-  USA_WAC_release_the_bearn: "Release the Béarn"
-  USA_WAC_release_the_bearn_desc: "The Béarn aircraft carrier, which was interned in the French Caribbean after the Invasion of France and has since then been left mothballed in the West Indies, could instead be serving as a formidable tool in West Africa. After doing some maintenance and retrofitting its equipment, we shall release the Béarn for use by Free French naval forces."
+  USA_WAC_sabotage_construction_desc: "카메룬 항구에 침투한 우리 자산을 이용하여 새로운 항구 건설과 증축을 방해하여 일본이 카메룬 지역에 작전을 크게 확대하는 것을 막아 우리에게 귀중한 시간을 벌어다 줄 것입니다."
+  USA_WAC_sabotage_construction_tt: "§G카메룬의 항만 건설이 예정보다 늦어질 것입니다.§!"
+  USA_WAC_release_the_bearn: "베아른 양도"
+  USA_WAC_release_the_bearn_desc: "프랑스 침공 이후 프랑스령 카리브해에 은신하였다가 이후 서인도 제도에 방치되었던 베아른 항공모함은 서아프리카에서 매우 강력한 도구로 사용할 수 있습니다. 약간의 정비와 개조를 거쳐 자유 프랑스군이 사용할 수 있도록 베아른 호를 양도할 것입니다."
   USA_WAC_provide_naval_intelligence: "해군 첩보 제공"
-  USA_WAC_harass_convoys: "Harass Convoys"
-  USA_WAC_harass_convoys_tt: "§GEnemy shipments will be made difficult while active.§!"
+  USA_WAC_harass_convoys: "호송대 위협"
+  USA_WAC_harass_convoys_tt: "§G적군의 무기 선적 활동이 매우 어려워질 것입니다.§!"
   USA_WAC_train_naval_bombers: "해군 폭격기 훈련"
 
   # Decisions
@@ -324,8 +324,8 @@
   USA_WAC_stabilize_front_tt: "§Y서아프리카의 전선이 안정될 것입니다.§!"
   USA_WAC_plan_offensive: "공세 계획"
   USA_WAC_expand_shipments: "군수 물자 수송 확대"
-  USA_WAC_expand_shipments_tt: "§GWe'll be able to send larger shipments to our allies.§!"
-  USA_swell_foreign_legion_WA: "Swell the French Foreign Legion"
+  USA_WAC_expand_shipments_tt: "§G우리 동맹국에 더 많은 화물을 선적할 수 있을 것입니다.§!"
+  USA_swell_foreign_legion_WA: "프랑스 외인부대 증원"
   USA_swell_foreign_legion_WA_desc: "While we might be limited on our capacity to send troops to West Africa due to various circumstances, we can still circle around this problem by recruiting for, arming, and generally supporting the French Foreign Legion. We'll offer social security, subsidies, and other measures in order to attract veterans and volunteers into this elite troop."
   USA_swell_foreign_legion_WA_tt: "§GThe French Foreign Legion will expand!§!"
   USA_bombing_runs_WA: "Frontline Bombing Campaign"
