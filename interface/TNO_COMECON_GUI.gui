@@ -221,7 +221,7 @@ guiTypes = {
 				name = "COMECON_GUI_Defense_Fund_Title"
 				position = { x = 20 y = 184 }
 				font = "aldrich_18_outline"
-				text = "COMECON Defense Fund"
+				text = "코메콘 방위기금"
 				maxWidth = 232
 				format = center
 				alwaystransparent = yes
@@ -263,7 +263,7 @@ guiTypes = {
 				name = "COMECON_GUI_Defense_Fund_Withdraw_Underbutton"
 				spriteType = "GFX_COMECON_GUI_Large_Grey_Button"
 				position = { x = 32 y = 258 }
-				buttonText = "Withdraw"
+				buttonText = "출금"
 				buttonFont = "aldrich_18_outline"
 				pdx_tooltip = COMECON_GUI_Defense_Fund_Withdraw_Label_tt
 			}
@@ -272,7 +272,7 @@ guiTypes = {
 				name = "COMECON_GUI_Defense_Fund_Deposit_Label"
 				position = { x = 80 y = 263 }
 				font = "aldrich_18_outline"
-				text = "Deposit"
+				text = "입금"
 				maxWidth = 232
 				format = center
 				alwaystransparent = yes
@@ -283,7 +283,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_COMECON_GUI_Large_Red_Button"
 				position = { x = 32 y = 258 }
 				buttonFont = "aldrich_18_outline"
-				text = "Withdraw"
+				text = "출금"
 				pdx_tooltip = COMECON_GUI_Defense_Fund_Withdraw_Label_tt
 			}
 			
@@ -292,14 +292,14 @@ guiTypes = {
 				quadTextureSprite = "GFX_COMECON_GUI_Large_Green_Button"
 				position = { x = 151 y = 258 }
 				buttonFont = "aldrich_18_outline"
-				text = "Deposit"
+				text = "입금"
 			}
 			
 			instantTextboxType = {
 				name = "COMECON_GUI_Defense_Fund_Yearly_Contrib_Title"
 				position = { x = 20 y = 288 }
 				font = "aldrich_18_outline"
-				text = "Yearly Contribution"
+				text = "연간 분담금"
 				maxWidth = 232
 				format = center
 				alwaystransparent = yes
@@ -337,7 +337,7 @@ guiTypes = {
 				name = "COMECON_GUI_Dev_Fund_Title"
 				position = { x = 20 y = 184 }
 				font = "aldrich_18_outline"
-				text = "COMECON Development Fund" 
+				text = "코메콘 개발기금" 
 				maxWidth = 232
 				format = center
 				alwaystransparent = yes
@@ -379,7 +379,7 @@ guiTypes = {
 				name = "COMECON_GUI_Dev_Fund_Withdraw_Underbutton"
 				spriteType = "GFX_COMECON_GUI_Large_Grey_Button"
 				position = { x = 32 y = 258 }
-				buttonText = "Withdraw"
+				buttonText = "출금"
 				buttonFont = "aldrich_18_outline"
 				pdx_tooltip = COMECON_GUI_Dev_Fund_Withdraw_Label_tt
 			}
@@ -388,7 +388,7 @@ guiTypes = {
 				name = "COMECON_GUI_Dev_Fund_Deposit_Label"
 				position = { x = 80 y = 263 }
 				font = "aldrich_18_outline"
-				text = "Deposit"
+				text = "입금"
 				maxWidth = 232
 				format = center
 				alwaystransparent = yes
@@ -399,7 +399,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_COMECON_GUI_Large_Red_Button"
 				position = { x = 32 y = 258 }
 				buttonFont = "aldrich_18_outline"
-				text = "Withdraw"
+				text = "출금"
 				pdx_tooltip = COMECON_GUI_Dev_Fund_Withdraw_Label_tt
 			}
 			
@@ -408,14 +408,14 @@ guiTypes = {
 				quadTextureSprite = "GFX_COMECON_GUI_Large_Green_Button"
 				position = { x = 151 y = 258 }
 				buttonFont = "aldrich_18_outline"
-				text = "Deposit"
+				text = "입금"
 			}
 			
 			instantTextboxType = {
 				name = "COMECON_GUI_Dev_Fund_Yearly_Contrib_Title"
 				position = { x = 20 y = 288 }
 				font = "aldrich_18_outline"
-				text = "Yearly Contribution"
+				text = "연간 분담금"
 				maxWidth = 232
 				format = center
 				alwaystransparent = yes
@@ -448,7 +448,7 @@ guiTypes = {
 			name = "COMECON_GUI_Participants_Title"
 			position = { x = 20 y = 374 }
 			font = "aldrich_32_outline"
-			text = "COMECON PARTICIPANTS"
+			text = "코메콘 소속국들"
 			maxWidth = 481
 			format = center
 			#alwaystransparent = yes
@@ -480,7 +480,7 @@ guiTypes = {
 			name = "COMECON_GUI_Eligible_Title"
 			position = { x = 20 y = 633 }
 			font = "aldrich_32_outline"
-			text = "ELIGIBLE NON-MEMBERS"
+			text = "자격있는 비회원국들"
 			maxWidth = 481
 			format = center
 			#alwaystransparent = yes
@@ -660,7 +660,7 @@ guiTypes = {
 			name = "Socintern_GUI_general_assembly_voting_text"
 			position = { x = 60 y = 911 }
 			font = "aldrich_32_outline"
-			text = "Voting"
+			text = "표결"
 			maxWidth = 410 
 			maxHeight = 130
 			format = center
