@@ -1,0 +1,703 @@
+guiTypes = {
+	
+	extendedScrollbarType = {
+		name = "left_vertical_slider_COMECON"
+		position = { x = 0 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x=-17 y = -19}
+		}
+	}
+
+	containerWindowType = {
+		name = "Socintern_GUI_General_Assembly_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 482 height = 52 }
+		
+		iconType = {
+			name = "Socintern_GUI_General_Assembly_Entry_Flag"
+			quadTextureSprite = "GFX_flag_small"
+			position = { x = 0 y = 30 }
+			pdx_tooltip = Socintern_GUI_General_Assembly_Entry_Nation_tt
+		}	
+		
+		iconType = {
+			name = "Socintern_GUI_Vote_Indicator"
+			quadTextureSprite = "GFX_SocIntern_GUI_vote_strip"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+			pdx_tooltip = Socintern_GUI_General_Assembly_Entry_Nation_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "COMECON_GUI_Member_Country_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 482 height = 52 }
+	 
+		background = {
+			name = "Background"    
+			quadTextureSprite = "GFX_COMECON_GUI_Country_Entry"
+		}
+		
+		iconType = {
+			name = "COMECON_GUI_Country_Entry_Members_Flag"
+			quadTextureSprite = "GFX_flag_small2_plain"
+			position = { x = 28 y = 22 }
+		}
+		
+		iconType = {
+			name = "COMECON_GUI_Country_Entry_Flag_Overlay"
+			quadTextureSprite = "GFX_flag_overlay_stateview"
+			position = { x = 8 y = 10 }
+			alwaystransparent = yes
+			scale = 1.03
+		}
+		
+		instantTextboxType = {
+			name = "COMECON_GUI_Country_Entry_Name"
+			position = { x = 53 y = 11 }
+			font = "aldrich_16_outline"
+			text = "[This.GetName]"
+			maxWidth = 400
+			format = left
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "COMECON_GUI_Country_Entry_Button_line1_Label"
+			position = { x = 384 y = 7 }
+			font = "aldrich_16_outline"
+			text = "Dispatch"
+			maxWidth = 400
+			format = left
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "COMECON_GUI_Country_Entry_Button_line2_Label"
+			position = { x = 366 y = 23 }
+			font = "aldrich_16_outline"
+			text = "COMECON Aid"
+			maxWidth = 400
+			format = left
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "COMECON_GUI_Country_Entry_Button"
+			quadTextureSprite = "GFX_COMECON_GUI_Country_Entry_Button"
+			position = { x = 347 y = 4 }
+			buttonFont = "aldrich_16_outline"
+			text = "Dispatch COMECON Aid"
+			multiline = yes
+			pdx_tooltip = COMECON_GUI_Country_Entry_Button_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "COMECON_GUI_Eligible_Country_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 482 height = 52 }
+	 
+		background = {
+			name = "Background"    
+			quadTextureSprite = "GFX_COMECON_GUI_Country_Entry"
+		}
+		
+		iconType = {
+			name = "COMECON_GUI_Country_Entry_Eligible_Flag"
+			quadTextureSprite = "GFX_flag_small2_plain"
+			position = { x = 28 y = 22 }
+		}
+		
+		iconType = {
+			name = "COMECON_GUI_Country_Entry_Flag_Overlay"
+			quadTextureSprite = "GFX_flag_overlay_stateview"
+			position = { x = 8 y = 10 }
+			alwaystransparent = yes
+			scale = 1.03
+		}
+		
+		instantTextboxType = {
+			name = "COMECON_GUI_Country_Entry_Name"
+			position = { x = 53 y = 11 }
+			font = "aldrich_16_outline"
+			text = "[This.GetName]"
+			maxWidth = 400
+			format = left
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "COMECON_GUI_Country_Entry_Button_line1_Label"
+			position = { x = 384 y = 7 }
+			font = "aldrich_16_outline"
+			text = "Dispatch"
+			maxWidth = 400
+			format = left
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "COMECON_GUI_Country_Entry_Button_line2_Label"
+			position = { x = 366 y = 23 }
+			font = "aldrich_16_outline"
+			text = "COMECON Aid"
+			maxWidth = 400
+			format = left
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "COMECON_GUI_Country_Entry_Button"
+			quadTextureSprite = "GFX_COMECON_GUI_Country_Entry_Button"
+			position = { x = 347 y = 4 }
+			buttonFont = "aldrich_16_outline"
+			text = "Dispatch COMECON Aid"
+			multiline = yes
+			pdx_tooltip = COMECON_GUI_Country_Entry_Button_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "COMECON_GUI"
+		size = { width = 525 height = 875 }
+		position = { x = -9 y = 0 }
+		
+		iconType = {
+			name = "COMECON_GUI_Upper_bg"
+			spriteType = "GFX_COMECON_GUI_Upper_bg"
+			position = { x = 20 y = -6 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "COMECON_GUI_Upper_Info"
+			position = { x = 20 y = 100 }
+			font = "aldrich_18_outline"
+			text = COMECON_desc
+			maxWidth = 481
+			maxHeight = 113
+			format = left
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "COMECON_GUI_Defense_Fund"
+			size = { width = 0 height = 0 }
+			position = { x = 0 y = 0 }
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Defense_Fund_Title"
+				position = { x = 20 y = 184 }
+				font = "aldrich_18_outline"
+				text = "COMECON Defense Fund"
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Defense_Fund_Amount"
+				position = { x = 20 y = 204 }
+				font = "aldrich_18_outline"
+				text = COMECON_defense_amt
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Defense_Fund_Sub"
+				spriteType = "GFX_reserves_button_minus"
+				position = { x = 49 y = 226 }
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Defense_Fund_Add"
+				spriteType = "GFX_reserves_button_plus"
+				position = { x = 189 y = 226 }
+			}
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Defense_Transfer_Amount"
+				position = { x = 20 y = 229 }
+				font = "aldrich_18_outline"
+				text = COMECON_defense_transfer_amt
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+
+			buttonType = {
+				name = "COMECON_GUI_Defense_Fund_Withdraw_Underbutton"
+				spriteType = "GFX_COMECON_GUI_Large_Grey_Button"
+				position = { x = 32 y = 258 }
+				buttonText = "Withdraw"
+				buttonFont = "aldrich_18_outline"
+				pdx_tooltip = COMECON_GUI_Defense_Fund_Withdraw_Label_tt
+			}
+
+			instantTextboxType = {
+				name = "COMECON_GUI_Defense_Fund_Deposit_Label"
+				position = { x = 80 y = 263 }
+				font = "aldrich_18_outline"
+				text = "Deposit"
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Defense_Fund_Withdraw"
+				quadTextureSprite = "GFX_COMECON_GUI_Large_Red_Button"
+				position = { x = 32 y = 258 }
+				buttonFont = "aldrich_18_outline"
+				text = "Withdraw"
+				pdx_tooltip = COMECON_GUI_Defense_Fund_Withdraw_Label_tt
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Defense_Fund_Deposit"
+				quadTextureSprite = "GFX_COMECON_GUI_Large_Green_Button"
+				position = { x = 151 y = 258 }
+				buttonFont = "aldrich_18_outline"
+				text = "Deposit"
+			}
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Defense_Fund_Yearly_Contrib_Title"
+				position = { x = 20 y = 288 }
+				font = "aldrich_18_outline"
+				text = "Yearly Contribution"
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Defense_Fund_Yearly_Contrib_Amount"
+				position = { x = 20 y = 308 }
+				font = "aldrich_18_outline"
+				text = COMECON_defense_transfer_amt_yearly
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+
+			buttonType = {
+				name = "COMECON_GUI_Defense_Fund_Yearly_Contrib_Sub"
+				spriteType = "GFX_reserves_button_minus"
+				position = { x = 86 y = 330 }
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Defense_Fund_Yearly_Contrib_Add"
+				spriteType = "GFX_reserves_button_plus"
+				position = { x = 154 y = 330 }
+			}
+		}
+		
+		containerWindowType = {
+			name = "COMECON_GUI_Dev_Fund"
+			size = { width = 0 height = 0 }
+			position = { x = 249 y = 0 }
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Dev_Fund_Title"
+				position = { x = 20 y = 184 }
+				font = "aldrich_18_outline"
+				text = "COMECON Development Fund" 
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Dev_Fund_Amount"
+				position = { x = 20 y = 204 }
+				font = "aldrich_18_outline"
+				text = COMECON_dev_amt
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Dev_Fund_Sub"
+				spriteType = "GFX_reserves_button_minus"
+				position = { x = 49 y = 226 }
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Dev_Fund_Add"
+				spriteType = "GFX_reserves_button_plus"
+				position = { x = 189 y = 226 }
+			}
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Dev_Transfer_Amount"
+				position = { x = 20 y = 229 }
+				font = "aldrich_18_outline"
+				text = COMECON_dev_transfer_amt
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Dev_Fund_Withdraw_Underbutton"
+				spriteType = "GFX_COMECON_GUI_Large_Grey_Button"
+				position = { x = 32 y = 258 }
+				buttonText = "Withdraw"
+				buttonFont = "aldrich_18_outline"
+				pdx_tooltip = COMECON_GUI_Dev_Fund_Withdraw_Label_tt
+			}
+
+			instantTextboxType = {
+				name = "COMECON_GUI_Dev_Fund_Deposit_Label"
+				position = { x = 80 y = 263 }
+				font = "aldrich_18_outline"
+				text = "Deposit"
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Dev_Fund_Withdraw"
+				quadTextureSprite = "GFX_COMECON_GUI_Large_Red_Button"
+				position = { x = 32 y = 258 }
+				buttonFont = "aldrich_18_outline"
+				text = "Withdraw"
+				pdx_tooltip = COMECON_GUI_Dev_Fund_Withdraw_Label_tt
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Dev_Fund_Deposit"
+				quadTextureSprite = "GFX_COMECON_GUI_Large_Green_Button"
+				position = { x = 151 y = 258 }
+				buttonFont = "aldrich_18_outline"
+				text = "Deposit"
+			}
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Dev_Fund_Yearly_Contrib_Title"
+				position = { x = 20 y = 288 }
+				font = "aldrich_18_outline"
+				text = "Yearly Contribution"
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			instantTextboxType = {
+				name = "COMECON_GUI_Dev_Fund_Yearly_Contrib_Amount"
+				position = { x = 20 y = 308 }
+				font = "aldrich_18_outline"
+				text = COMECON_dev_transfer_amt_yearly
+				maxWidth = 232
+				format = center
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Dev_Fund_Yearly_Contrib_Sub"
+				spriteType = "GFX_reserves_button_minus"
+				position = { x = 86 y = 330 }
+			}
+			
+			buttonType = {
+				name = "COMECON_GUI_Dev_Fund_Yearly_Contrib_Add"
+				spriteType = "GFX_reserves_button_plus"
+				position = { x = 154 y = 330 }
+			}
+		}
+		
+		instantTextboxType = {
+			name = "COMECON_GUI_Participants_Title"
+			position = { x = 20 y = 374 }
+			font = "aldrich_32_outline"
+			text = "COMECON PARTICIPANTS"
+			maxWidth = 481
+			format = center
+			#alwaystransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "COMECON_GUI_Participants_Info"
+			size = { width = 525 height = 215 }
+			position = { x = -1 y = 408 }
+			verticalScrollbar = "left_vertical_slider_COMECON"
+			clipping = yes
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "COMECON_GUI_Participants_List"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
+				slotsize = { width = 482 height = 52 } 
+				add_horizontal = no
+				max_slots_horizontal = 1
+			}
+		}
+		
+		instantTextboxType = {
+			name = "COMECON_GUI_Eligible_Title"
+			position = { x = 20 y = 633 }
+			font = "aldrich_32_outline"
+			text = "ELIGIBLE NON-MEMBERS"
+			maxWidth = 481
+			format = center
+			#alwaystransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "COMECON_GUI_Eligible_Info"
+			size = { width = 525 height = 215 }
+			position = { x = -1 y = 667 }
+			verticalScrollbar = "left_vertical_slider_COMECON"
+			clipping = yes
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "COMECON_GUI_Eligible_List"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
+				slotsize = { width = 482 height = 52 } 
+				add_horizontal = no
+				max_slots_horizontal = 1
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "Socintern_GUI"
+		size = { width = 525 height = 1023 }
+		position = { x = -9 y = 0 }
+
+		iconType = {
+			name = "Socintern_GUI_bg" 
+			spriteType = "GFX_Socintern_GUI_bg"
+			position = { x = 20 y = -6 }
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "Socintern_GUI_Upper_Info"
+			position = { x = 20 y = 100 } 
+			font = "aldrich_18_outline"
+			text = Socintern_desc
+			maxWidth = 481
+			maxHeight = 175
+			format = left 
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "Socintern_GUI_general_assembly_title"
+			position = { x = 20 y = 240 } 
+			font = "aldrich_36_outline"
+			text = TNO_socintern_general_assembly_title
+			maxWidth = 481
+			maxHeight = 175
+			format = center 
+			alwaystransparent = yes
+		}	
+		
+		instantTextboxType = {
+			name = "Socintern_GUI_general_assembly_motion_title"
+			position = { x = 20 y = 285 } 
+			font = "aldrich_24_outline"
+			text = TNO_socintern_general_assembly_motion_title
+			maxWidth = 481
+			maxHeight = 175
+			format = center
+			fixedsize = yes
+			alwaystransparent = yes
+		}	
+
+		instantTextboxType = {
+			name = "Socintern_GUI_general_assembly_motion_title_dyn"
+			position = { x = 20 y = 310 } 
+			font = "aldrich_24_outline"
+			text = TNO_socintern_general_assembly_motion_title_dyn
+			maxWidth = 481
+			maxHeight = 175
+			format = center 
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Socintern_GUI_general_assembly_motion_desc"
+			position = { x = 50 y = 360 }
+			font = "aldrich_20_outline"
+			text = TNO_socintern_general_assembly_motion_desc
+			maxWidth = 410
+			maxHeight = 130
+			format = left
+			alwaystransparent = yes
+			scrollbartype = "standardtext_slider"
+		}
+
+		
+		instantTextBoxType = {
+			name = "Socintern_GUI_general_assembly_votes"
+			position = { x = 50 y = 515 }
+			font = "aldrich_32_outline"
+			text = TNO_socintern_general_assembly_votes
+			maxWidth = 410 
+			maxHeight = 130
+			format = center
+			scrollbartype = "standardtext_slider"
+		}
+
+		containerWindowType = {
+			name = "Socintern_GUI_General_Assembly"
+			size = { width = 1000 height = 315 }
+			position = { x = -410 y = 635 }
+			verticalScrollbar = "left_vertical_slider_COMECON"
+			clipping = yes
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "Socintern_GUI_General_Assembly_list"
+				position = { x = 0 y = 2 }
+				size = { width = 100% height = 100% }
+				slotsize = { width = 52 height = 52 } 
+				add_horizontal = yes
+				max_slots_horizontal = 8
+			}
+		}
+
+		containerWindowType = {
+			name = "Socintern_GUI_General_Assembly_Leader_Box"
+			size = { width = 525 height = 215 }
+			position = { x = 207 y = 550 }
+			clipping = yes
+			
+			iconType = {
+				name = "Socintern_GUI_Leader_Vote_Indicator_1"
+				quadTextureSprite = "GFX_SocIntern_GUI_vote_strip"
+				position = { x = 0 y = 2 }
+				alwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "Socintern_GUI_Leader_Vote_Indicator_2"
+				quadTextureSprite = "GFX_SocIntern_GUI_vote_strip"
+				position = { x = 40 y = 2 }
+				alwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "Socintern_GUI_Leader_Vote_Indicator_3"
+				quadTextureSprite = "GFX_SocIntern_GUI_vote_strip"
+				position = { x = 80 y = 2 }
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "Socintern_GUI_Leader_Flag"
+				quadTextureSprite = "GFX_flag_small2_plain"
+				position = { x = 53 y = 53 }
+			}
+			
+			iconType = {
+				name = "Socintern_GUI_Leader_Flag_Overlay"
+				quadTextureSprite = "GFX_flag_overlay_stateview"
+				position = { x = 33 y = 41 }
+				alwaystransparent = yes
+				scale = 1.03
+			}
+		}
+	
+		instantTextBoxType = {
+			name = "Socintern_GUI_general_assembly_voting_text"
+			position = { x = 60 y = 911 }
+			font = "aldrich_32_outline"
+			text = "Voting"
+			maxWidth = 410 
+			maxHeight = 130
+			format = center
+		}
+
+		iconType = {
+			name = "Socintern_GUI_vote_yes_button_highlight"
+			quadTextureSprite = "GFX_Socintern_GUI_highlight_button"
+			position = { x = 180 y = 952 }
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "Socintern_GUI_vote_yes_button"
+			spriteType = "GFX_Socintern_GUI_yes_button"
+			position = { x = 182 y = 954 }
+		}
+		iconType = {
+			name = "Socintern_GUI_vote_abstain_button_highlight"
+			quadTextureSprite = "GFX_Socintern_GUI_highlight_button"
+			position = { x = 240 y = 952 }
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "Socintern_GUI_vote_abstain_button"
+			spriteType = "GFX_Socintern_GUI_abstain_button"
+			position = { x = 242 y = 954 }
+		}
+		iconType = {
+			name = "Socintern_GUI_vote_no_button_highlight"
+			quadTextureSprite = "GFX_Socintern_GUI_highlight_button"
+			position = { x = 300 y = 952 }
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "Socintern_GUI_vote_no_button"
+			spriteType = "GFX_Socintern_GUI_no_button"
+			position = { x = 302 y = 954 }
+		}
+	}
+}
