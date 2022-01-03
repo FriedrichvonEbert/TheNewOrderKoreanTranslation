@@ -215,47 +215,47 @@
  IBRDisrespectedMinoritiesCouncil:0 "소수민족 권리 박탈"
  
  #Dynamic modifiers
- IBR_iberian_economy_miracle_dyn_mod:0 "Iberian Economic Miracle"
- IBR_iberian_economy_nightmare_dyn_mod:0 "Iberian Economic Malaise"
- IBR_gibraltar_dam_dyn_mod:0 "The Gibraltar Dam"
+ IBR_iberian_economy_miracle_dyn_mod:0 "이베리아의 경제 기적"
+ IBR_iberian_economy_nightmare_dyn_mod:0 "이베리아의 경제 침체"
+ IBR_gibraltar_dam_dyn_mod:0 "지브롤터 댐"
  
- IBR_OC_new_energy_dyn_mod:0 "New Sources of Energy"
- IBR_OC_oil_ration_dyn_mod:0 "Reduced Oil Consumption"
+ IBR_OC_new_energy_dyn_mod:0 "에너지의 새 원천"
+ IBR_OC_oil_ration_dyn_mod:0 "석유 소비 감소"
  
- IBR_agri_subsidies_dyn_mod:0 "Agricultural Subsidies"
- IBR_colony_subsidies_dyn_mod:0 "Colonial Subsidies"
- IBR_foreign_investment_dyn_mod:0 "Foreign Investment"
+ IBR_agri_subsidies_dyn_mod:0 "농업 보조금"
+ IBR_colony_subsidies_dyn_mod:0 "식민지 보조금"
+ IBR_foreign_investment_dyn_mod:0 "대외 투자"
  
  ##dynmod tooltips for misc costs/income
  
  #agricultural subsidies
  
- TNO_agricultural_misc_costs_decrease_tt: "This will §Gdecrease§! our §lAgricultural Subsidies§! by §Y[GetCurrency][?misc_costs_temp] B§!.\n"
- TNO_agricultural_misc_costs_increase_tt: "This will §Rincrease§! our §lAgricultural Subsidies§! by §Y[GetCurrency][?misc_costs_temp] B§!.\n"
+ TNO_agricultural_misc_costs_decrease_tt: "§l농업 보조금§!을 §Y[GetCurrency][?misc_costs_temp] B§!만큼 §G감소§!할 것입니다.\n"
+ TNO_agricultural_misc_costs_increase_tt: "§l농업 보조금§!을 §Y[GetCurrency][?misc_costs_temp] B§!만큼 §R증가§!할 것입니다.\n"
  
  #colonial subsidies
  
- TNO_colonial_misc_costs_decrease_tt: "This will §Gdecrease§! our §lColonial Subsidies§! by §Y[GetCurrency][?misc_costs_temp] B§!.\n"
- TNO_colonial_misc_costs_increase_tt: "This will §Rincrease§! our §lColonial Subsidies§! by §Y[GetCurrency][?misc_costs_temp] B§!.\n"
+ TNO_colonial_misc_costs_decrease_tt: "§l식민지 보조금§!을 §Y[GetCurrency][?misc_costs_temp] B§!만큼 §G감소§!할 것입니다.\n"
+ TNO_colonial_misc_costs_increase_tt: "§l식민지 보조금§!을 §Y[GetCurrency][?misc_costs_temp] B§!만큼 §R증가§!할 것입니다.\n"
  
  #foreign investment
  
- TNO_foreign_misc_income_decrease_tt: "This will §Rdecrease§! our §IForeign Investment income§! by §Y[GetCurrency][?misc_income_temp] B§!.\n"
- TNO_foreign_misc_income_increase_tt: "This will §Gincrease§! our §IForeign Investment income§! by §Y[GetCurrency][?misc_income_temp] B§!.\n"
+ TNO_foreign_misc_income_decrease_tt: "§I대외 투자 수익§!이 §Y[GetCurrency][?misc_income_temp] B§!만큼 §R감소§!할 것입니다.\n"
+ TNO_foreign_misc_income_increase_tt: "§I대외 투자 수익§!이 §Y[GetCurrency][?misc_income_temp] B§!만큼 §G증가§!할 것입니다.\n"
  
- TNO_foreign_misc_costs_decrease_tt: "This will §Gdecrease§! our §lForeign Investment costs§! by §Y[GetCurrency][?misc_costs_temp] B§!.\n"
- TNO_foreign_misc_costs_increase_tt: "This will §Rincrease§! our §lForeign Investment costs§! by §Y[GetCurrency][?misc_costs_temp] B§!.\n"
+ TNO_foreign_misc_costs_decrease_tt: "§l대외 투자 비용§!이 §Y[GetCurrency][?misc_costs_temp] B§!만큼 §G감소§!할 것입니다.\n"
+ TNO_foreign_misc_costs_increase_tt: "§l대외 투자 비용§!이 §Y[GetCurrency][?misc_costs_temp] B§!만큼 §R증가§!할 것입니다.\n"
  
  
  #Ideas
  Iberian_Economic_Nightmare:0 "이베리아 경제의 문제들"
- Iberian_Economic_Nightmare_desc:0 "§gGDP growth:§! [?IBR_gdp_growth_nightmare_variable|=|+]§R%§!\n§gInflation rate:§! [?IBR_inflation_nightmare_variable|=|-]§R%§!\n§gMiscellaneous income:§! [?IBR_misc_income_nightmare_variable|=|+]\n§gIndustrial efficiency gain:§! [?IBR_efficiency_gain_nightmare_variable|%|=|+]\n§gIndustrial capacity:§! [?IBR_capacity_factory_nightmare_variable|%|=|+]\n§gBuilding speed:§! [?IBR_building_speed_nightmare_variable|%|=|+]\n§g--------------§!\nHad the conditions been any different, the Iberian Union would be prosperous beyond belief, as the combined forces of Spain and Portugal come together to economically conquer the Mediterranean. Unfortunately, the circumstances do not allow for such blessed dreams to become reality.\n\nWhile the economy struggles to breath while being suffocated by a mile and a half of red tape, the system in place exists in constant conflict with itself, as our bizarre mix of capitalism, corporatism, and high-state participation, acting in constant opposition with the economy's attempts at growth."
+ Iberian_Economic_Nightmare_desc:0 "§gGDP 성장률:§! [?IBR_gdp_growth_nightmare_variable|=|+]§R%§!\n§g인플레이션율:§! [?IBR_inflation_nightmare_variable|=|-]§R%§!\n§g기타 수입:§! [?IBR_misc_income_nightmare_variable|=|+]\n§g산업 효율성 획득:§! [?IBR_efficiency_gain_nightmare_variable|%|=|+]\n§g산업 효율성:§! [?IBR_capacity_factory_nightmare_variable|%|=|+]\n§g건설 속도:§! [?IBR_building_speed_nightmare_variable|%|=|+]\n§g--------------§!\nHad the conditions been any different, the Iberian Union would be prosperous beyond belief, as the combined forces of Spain and Portugal come together to economically conquer the Mediterranean. Unfortunately, the circumstances do not allow for such blessed dreams to become reality.\n\nWhile the economy struggles to breath while being suffocated by a mile and a half of red tape, the system in place exists in constant conflict with itself, as our bizarre mix of capitalism, corporatism, and high-state participation, acting in constant opposition with the economy's attempts at growth."
 
  Iberian_Economic_Bubble_2:0 "이베리아 경제 버블"
  Iberian_Economic_Bubble_2_desc:0 "경제 자립 시스템의 시행으로 전례없는 거대한 버블이 형성되었습니다. 특정 상품의 가격은 심하게 부풀려졌고, 경제학자들은 이 경제 버블이 더 커질 것인지, 터지지 않을 것인지 확답하지 못하고 있습니다. 우리는 신속히 대처해야 합니다. 만약 버블이 터지면, 이베리아는 이전보다 두배나 큰 경제 위기를 맞게 될 것입니다."
 
  Iberian_Economic_Miracle:0 "이베리아의 경제 기적" 
- Iberian_Economic_Miracle_desc:0 "§gMiscellaneous income:§! [?IBR_misc_income_miracle_variable|=|+]\n§gGDP growth:§! [?IBR_gdp_growth_miracle_variable|=|+]%\n§gIndustrial efficiency gain:§! [?IBR_efficiency_gain_miracle_variable|%|=|+]\n§gIndustrial capacity:§! [?IBR_capacity_factory_miracle_variable|%|=|+]\n§gBuilding speed:§! [?IBR_building_speed_miracle_variable|%|=|+]\n§g--------------§!\n몇 년 동안, 이베리아 반도는 국가의 존망을 걸고 경제 위기에 대처해오고 있었습니다. 많은 이들은 노숙자가 되어 거리에 나앉았고 수많은 공장들은 얼마 안되는 보조금의 실타래를 움켜쥐고 버텼습니다. 하지만, 기술 관료들의 조언을 들은 카우디요와 정부가 개입하여 단순 보조금 일색이었던 정책을 적극적 개입 정책으로 바꾸면서 이베리아 경제는 엄청난 속도로 회복하기 시작했습니다. GDP는 하늘로 치솟고 있으며 실업률은 역대 최저 수준입니다\n\n§G무엇보다도, 이베리아가 점점 살기 좋은 곳으로 바뀌고 있습니다.§!"
+ Iberian_Economic_Miracle_desc:0 "§g기타 수익:§! [?IBR_misc_income_miracle_variable|=|+]\n§gGDP 성장률:§! [?IBR_gdp_growth_miracle_variable|=|+]%\n§g산업 효율성 획득:§! [?IBR_efficiency_gain_miracle_variable|%|=|+]\n§g산업 효율성:§! [?IBR_capacity_factory_miracle_variable|%|=|+]\n§g건설 속도:§! [?IBR_building_speed_miracle_variable|%|=|+]\n§g--------------§!\n몇 년 동안, 이베리아 반도는 국가의 존망을 걸고 경제 위기에 대처해오고 있었습니다. 많은 이들은 노숙자가 되어 거리에 나앉았고 수많은 공장들은 얼마 안되는 보조금의 실타래를 움켜쥐고 버텼습니다. 하지만, 기술 관료들의 조언을 들은 카우디요와 정부가 개입하여 단순 보조금 일색이었던 정책을 적극적 개입 정책으로 바꾸면서 이베리아 경제는 엄청난 속도로 회복하기 시작했습니다. GDP는 하늘로 치솟고 있으며 실업률은 역대 최저 수준입니다\n\n§G무엇보다도, 이베리아가 점점 살기 좋은 곳으로 바뀌고 있습니다.§!"
 
  Return_to_Autarky:0 "자립정책으로 돌아가기" 
  Return_to_Autarky_desc:0 "경제위기가 계속되고 있는 가운데 정부는 기업조직과 경제권에 대한 국가의 중재를 바탕으로 하는 자생적이고 자주적인 국가경제를 개발하는 것을 목표로 하는 낡은 경제 정책으로 돌아가기로 했습니다. 옛 팔랑헤당 조직의 영향을 받아, 카우디요들은 1950년대에 더 자유주의적이고 현대적인 경제 발전을 위해 버려졌던 전통적인 경제 자립 정책으로 돌아가기로 결정했습니다. 카우디요의 경제자문단은 구 제도로의 전환이 경제문제를 야기할 것이지만, 이베리아 경제가 다시 활성화되는 것은 시간문제일 것이라고 믿고 있습니다."
