@@ -68,11 +68,11 @@
  IBR_conservative_democracy_party_long:0 "다양한 보수계파"
  IBR_authoritarian_democracy_party:0 "UN"
  IBR_authoritarian_democracy_party_long:0 "국민연합"
- IBR_despotism_party:0 "UN-FET y de las JONS"
- IBR_despotism_party_long:0 "União Nacional-Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista"
+ IBR_despotism_party:0 "국민연합-팔랑헤당"
+ IBR_despotism_party_long:0 "국민연합-국민생디칼리슴 공세평의회 에스파냐 전통주의자 팔랑헤 연합"
  IBR_fascism_coup:0 "JTE"
  IBR_fascism_coup_long:0 "국가기술위원회"
- IBR_fascism_party_long:0 "Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista (Camisas Viejas)"
+ IBR_fascism_party_long:0 "국민생디칼리슴 공세평의회 에스파냐 전통주의자 팔랑헤 (구파)"
  IBR_fascism_party:0 "FET-JONS (CV)"
  IBR_national_socialism_party_long:0 "콘도르 연맹"
  IBR_ultranationalism_party:0 "알룸브라도스"
@@ -99,17 +99,17 @@
  IBR_liberal_democracy_salvation:0 "CSD"
  IBR_liberal_democracy_salvation_long:0 "민주구국연합"
  
- IBR_soclib_positive_change:0 "The §lSocial Liberals§! are strengthened by this change in popularity.\n"
- IBR_soclib_negative_change:0 "The §lSocial Liberals§! are weakened by this change in popularity.\n"
+ IBR_soclib_positive_change:0 "§l사회자유주의§! 세력의 지지율이 더 강해집니다.\n"
+ IBR_soclib_negative_change:0 "§l사회자유주의§! 세력의 지지율이 더 약해집니다.\n"
  
- IBR_soclib_random_positive_change:0 "The §lSocial Liberals§! are strengthened in popularity by a §Yrandom amount§!.\n"
- IBR_soclib_random_negative_change:0 "The §lSocial Liberals§! are weakened in popularity by a §Yrandom amount§!.\n"
+ IBR_soclib_random_positive_change:0 "§l사회자유주의§! 세력의 지지율이 §Y무작위만큼§! 더 강해집니다.\n"
+ IBR_soclib_random_negative_change:0 "§l사회자유주의§! 세력의 지지율이 §Y무작위만큼§! 더 약해집니다.\n"
  
- IBR_marlib_positive_change:0 "The §wMarket Liberals§! are strengthened by this change in popularity.\n"
- IBR_marlib_negative_change:0 "The §wMarket Liberals§! are weakened by this change in popularity.\n"
+ IBR_marlib_positive_change:0 "§w시장자유주의§! 세력의 지지율이 더 강해집니다.\n"
+ IBR_marlib_negative_change:0 "§w시장자유주의§! 세력의 지지율이 더 약해집니다.\n"
  
- IBR_marlib_random_positive_change:0 "The §wMarket Liberals§! are strengthened in popularity by a §Yrandom amount§!.\n"
- IBR_marlib_random_negative_change:0 "The §wMarket Liberals§! are weakened in popularity by a §Yrandom amount§!.\n"
+ IBR_marlib_random_positive_change:0 "§w시장자유주의§! 세력의 지지율이 §Y무작위만큼§! 더 강해집니다.\n"
+ IBR_marlib_random_negative_change:0 "§w시장자유주의§! 세력의 지지율이 §Y무작위만큼§! 더 약해집니다.\n"
  
  #Ministers and leader traits 
  #17 deputies ( 9 Spanish 8 Portuguese)
@@ -249,7 +249,7 @@
  
  #Ideas
  Iberian_Economic_Nightmare:0 "이베리아 경제의 문제들"
- Iberian_Economic_Nightmare_desc:0 "§gGDP 성장률:§! [?IBR_gdp_growth_nightmare_variable|=|+]§R%§!\n§g인플레이션율:§! [?IBR_inflation_nightmare_variable|=|-]§R%§!\n§g기타 수입:§! [?IBR_misc_income_nightmare_variable|=|+]\n§g산업 효율성 획득:§! [?IBR_efficiency_gain_nightmare_variable|%|=|+]\n§g산업 효율성:§! [?IBR_capacity_factory_nightmare_variable|%|=|+]\n§g건설 속도:§! [?IBR_building_speed_nightmare_variable|%|=|+]\n§g--------------§!\n조건이 조금이라도 달랐다면 스페인과 포르투갈이 힘을 합쳐 지중해를 경제적으로 정복하여 이베리아 연합이 믿을 수 없을 정도로 번영했을 것입니다. 불행하게도 현 상황으로는 그런 행복한 꿈을 현실로 이룰 수 없습니다.\n\nWhile the economy struggles to breath while being suffocated by a mile and a half of red tape, the system in place exists in constant conflict with itself, as our bizarre mix of capitalism, corporatism, and high-state participation, acting in constant opposition with the economy's attempts at growth."
+ Iberian_Economic_Nightmare_desc:0 "§gGDP 성장률:§! [?IBR_gdp_growth_nightmare_variable|=|+]§R%§!\n§g인플레이션율:§! [?IBR_inflation_nightmare_variable|=|-]§R%§!\n§g기타 수입:§! [?IBR_misc_income_nightmare_variable|=|+]\n§g산업 효율성 획득:§! [?IBR_efficiency_gain_nightmare_variable|%|=|+]\n§g산업 효율성:§! [?IBR_capacity_factory_nightmare_variable|%|=|+]\n§g건설 속도:§! [?IBR_building_speed_nightmare_variable|%|=|+]\n§g--------------§!\n조건이 조금이라도 달랐다면 스페인과 포르투갈이 힘을 합쳐 지중해를 경제적으로 정복하여 이베리아 연합이 믿을 수 없을 정도로 번영했을 것입니다. 불행하게도 현 상황으로는 그런 행복한 꿈을 현실로 이룰 수 없습니다.\n\n경제는 길이가 2km나 되는 서류더미에 숨막혀하며, 자본주의, 조합주의, 국가의 강한 개입주의가 기이하게 혼합되어 서로 다른 체제끼리 끊임없이 충돌하며 유지되면서 끊임없이 경제가 성장하는 것을 방해할 것입니다."
 
  Iberian_Economic_Bubble_2:0 "이베리아 경제 버블"
  Iberian_Economic_Bubble_2_desc:0 "경제 자립 시스템의 시행으로 전례없는 거대한 버블이 형성되었습니다. 특정 상품의 가격은 심하게 부풀려졌고, 경제학자들은 이 경제 버블이 더 커질 것인지, 터지지 않을 것인지 확답하지 못하고 있습니다. 우리는 신속히 대처해야 합니다. 만약 버블이 터지면, 이베리아는 이전보다 두배나 큰 경제 위기를 맞게 될 것입니다."
@@ -266,8 +266,8 @@
  Iberian_Economic_Bubble_1:0 "이베리아 경제 버블"
  Iberian_Economic_Bubble_1_desc:0 "경제 자립 시스템의 시행으로 전례없는 거대한 버블이 형성되었습니다. 특정 상품의 가격은 심하게 부풀려졌고, 경제학자들은 이 경제 버블이 더 커질 것인지, 터지지 않을 것인지 확답하지 못하고 있습니다. 우리는 신속히 대처해야 합니다. 만약 버블이 터지면, 이베리아는 이전보다 두배나 큰 경제 위기를 맞게 될 것입니다."
  
- IBR_OC_oil_ration_idea:0 "Reduced Oil Consumption"
- IBR_OC_oil_ration_idea_desc:0 "§gFuel Gain per Oil:§! [?IBR_OC_oil_ration_var|%|=|+]\n§gStability:§! [?IBR_OC_oil_ration_stab_var|%|=|+]\n§g--------------§!\n"
+ IBR_OC_oil_ration_idea:0 "석유 소비 감소"
+ IBR_OC_oil_ration_idea_desc:0 "§g석유에서 얻는 연료 비율:§! [?IBR_OC_oil_ration_var|%|=|+]\n§g안정도:§! [?IBR_OC_oil_ration_stab_var|%|=|+]\n§g--------------§!\n"
 
  Council_Dissolved:0 "의회 해산!" 
  Council_Dissolved_desc:0 "영향력 있는 카우디요들의 명령에 따라 이베리아 평의회는 해산될 것입니다. 하지만, 이 소식은 평의회를 이베리아의 수많은 사람들을 연결할 다리로 본 많은 이들에게 충격을 안겨줬습니다. 많은 정치인들은 그들의 걱정을 표현하였고 평의회를 재소집해야 한다고 주장하고 있으나, 카우디요들은 평의회 해산 조치는 순조롭게 진행될 것이라 밝혔습니다. 그들은 몇 주가 지나면 항의는 잦아들 것이고 평화가 찾아올 것이라 믿고 있습니다."
@@ -280,13 +280,13 @@
  IBR_regional_faction_buff:0 "지역주의의 기류"
 
  The_Gibraltar_Dam:0 "지브롤터 댐"
- The_Gibraltar_Dam_desc:0 "§gMiscellaneous costs:§! [?IBR_misc_costs_dam_variable|=|-]\n§g--------------§!\n댐 계획은 완전히 잘못된 것은 아니지만, 지중해를 메우려는 독일의 계획이 끝나자마자 독일 경제는 곤두박칠쳤습니다. 독일이 댐을 방치한 채 떠나면서, 이베리아인들은 수많은 장애물에 맞닥뜨리게 되었습니다. 지중해 해안가에 거주하는 수백만의 시민들의 삶은 나락으로 굴러떨어졌고, 이베리아는 "유럽에서 가장 위대한 제국"이 싸지른 똥을 치우는 처지가 되었습니다."
+ The_Gibraltar_Dam_desc:0 "§g기타 비용:§! [?IBR_misc_costs_dam_variable|=|-]\n§g--------------§!\n댐 계획은 완전히 잘못된 것은 아니지만, 지중해를 메우려는 독일의 계획이 끝나자마자 독일 경제는 곤두박칠쳤습니다. 독일이 댐을 방치한 채 떠나면서, 이베리아인들은 수많은 장애물에 맞닥뜨리게 되었습니다. 지중해 해안가에 거주하는 수백만의 시민들의 삶은 나락으로 굴러떨어졌고, 이베리아는 "유럽에서 가장 위대한 제국"이 싸지른 똥을 치우는 처지가 되었습니다."
  
  IBR_The_Gibraltar_Dam_Abandoned:0 "지브롤터 댐- 종말"
- IBR_The_Gibraltar_Dam_Abandoned_desc:0 "§gMiscellaneous costs:§! [?IBR_misc_costs_dam_variable|=|-]\n§g--------------§!\n예산 한계 때문에, 이베리아 연합은 댐을 안정적으로 유지시킨다는 목표를 공식적으로 포기했습니다. 이제 최소한의 유지보수, 구조물 점검, 필수적 수리만이 이루어질 것입니다. 이제 이베리아는 더이상 댐 보수 비용으로 경제에 충격을 안겨주지 않아도 됩니다."
+ IBR_The_Gibraltar_Dam_Abandoned_desc:0 "§g기타 비용:§! [?IBR_misc_costs_dam_variable|=|-]\n§g--------------§!\n예산 한계 때문에, 이베리아 연합은 댐을 안정적으로 유지시킨다는 목표를 공식적으로 포기했습니다. 이제 최소한의 유지보수, 구조물 점검, 필수적 수리만이 이루어질 것입니다. 이제 이베리아는 더이상 댐 보수 비용으로 경제에 충격을 안겨주지 않아도 됩니다."
 
  The_Gibraltar_Dam_Completed:0 "완공된 지브롤터 댐" 
- The_Gibraltar_Dam_Completed_desc:0 "§gGrid Power:§! [?IBR_power_dam_variable|=0+]\n§g--------------§!\n£grid_power_texticon\n§gGDP growth:§! [?IBR_gdp_growth_dam_variable|=|+]%\n§gMiscellaneous costs:§! [?IBR_misc_costs_dam_variable|=|-]\n§g--------------§!\n지브롤터 댐은 한때 "유럽에서 가장 위대한 제국"의 자만심의 상징이었습니다. 단지 쇳덩어리와 콘크리트로 이루어진.\n\n지금은 아닙니다. 지브롤터 댐은 이제는 이베리아인들의 능력과 강인함의 상징이 되었습니다. 댐은 대륙 절반에 전기를 공급하고 있으며, 유럽과 아프리카를 철로와 도로로 이어 아무 방해도 받지 않고 지브롤터 해협을 건널 수 있게 해주었습니다. 관광객들과 시민들은 댐과 그 영광을 보려 지브롤터와 탕헤르로 몰려들고 있습니다.\n\n실패의 상징이었던 댐은 이제 새로운 세계 불가사의로 탈바꿈했습니다."
+ The_Gibraltar_Dam_Completed_desc:0 "§g전력:§! [?IBR_power_dam_variable|=0+]\n§g--------------§!\n£grid_power_texticon\n§gGDP 성장률:§! [?IBR_gdp_growth_dam_variable|=|+]%\n§g기타 비용:§! [?IBR_misc_costs_dam_variable|=|-]\n§g--------------§!\n지브롤터 댐은 한때 "유럽에서 가장 위대한 제국"의 자만심의 상징이었습니다. 단지 쇳덩어리와 콘크리트로 이루어진.\n\n지금은 아닙니다. 지브롤터 댐은 이제는 이베리아인들의 능력과 강인함의 상징이 되었습니다. 댐은 대륙 절반에 전기를 공급하고 있으며, 유럽과 아프리카를 철로와 도로로 이어 아무 방해도 받지 않고 지브롤터 해협을 건널 수 있게 해주었습니다. 관광객들과 시민들은 댐과 그 영광을 보려 지브롤터와 탕헤르로 몰려들고 있습니다.\n\n실패의 상징이었던 댐은 이제 새로운 세계 불가사의로 탈바꿈했습니다."
 
  Betray_Old_Guard:0 "원로 보수파의 배신"
  Betray_Old_Guard_desc:0 "While both Franco and Salazar may seem like a pair of strongmen who steer the nation all by themselves, this couldn't be farther from the truth. Both men lie at the top of an intricate web of alliances, factions, ideologies and interests that decided to elevate them to their current positions. They both previously enjoyed great loyalty from their allies, but the creation of Iberia slowly and steadily ended their universal popularity.\n\nWithout the prospect of a possible restoration, monarchists from both nations promptly abandoned their silent collaboration and many have even left the country. Hardcore nationalists from Spain and Portugal now accuse the Caudillos of treason, and rumors abound of coups attempts by hardliners in the regime, which were put down before news of them even left the offices of the government. Even the Catholic Church and the Armed Forces, the two strongest pillars of the system, have begun quietly complaining. With this situation, the Caudillos now sit almost alone, holding onto anyone that shows the slightest sign of loyalty; but ultimately betrayed by their allies, isolated by their own decisions."
