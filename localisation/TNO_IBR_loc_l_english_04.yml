@@ -1827,7 +1827,7 @@ IBR_influence_tt_25:0 "The lack of foresight in South Africa will §Ydecrease th
  ADMIRAL_AMERICO_TOMAS_DESC:0 "If there was ever a man that symbolized the Portuguese Old Guard, it is Américo Tomás. In the First World War, Tomás served on the deck of the Vasco da Gama, Portugal's only battleship, and by the end of the war had been promoted to lieutenant. Shortly after war he joined the crew of a research corvette which sought to measure the depth of the waters off the Portuguese coast, becoming the ship's captain in 1924. For the following twelve years he extensively surveyed the seas, for which he gained considerable recognition within the navy. He became acting head of the Portuguese Hydrographic Institute in 1931, a title he wore proudly for five years.\n\nIn recognition of his expert ability to organize sailors and crew members at sea, in addition to his advanced understanding of hydrology and shipping logistics, Salazar appointed Tomás as Navy Chief of Staff in 1936. His duties continuously expanded as he consistently outperformed other naval staff, eventually mastering ichthyology, naval aviation, and most importantly: naval warfare. It was only natural that he became Portuguese Navy Minister in 1944.\n\nIn the Südwestafrikan War, Tomás commanded Portugal's largest warship, the Afonso de Albuquerque, and was the admiral tasked with the evacuation of thousands of Portuguese settlers and administrators. His success turned him into a national hero in Portugal, and guaranteed his selection for Naval Minister in the newly formed Iberian Union. In this role he has worked extensively to modernize Iberia's navy, and in particular expand its merchant marine.\n\nThough widely admired by the public and understood by all to be one of the finest navy men of the modern age, Tomás is a socially awkward man and has rather little influence in political matters besides those directly concerning the Navy. He rarely feels obliged to debate in political matters, being largely supportive of both the Union and its Caudillos, but as a conservative old enough to remember the chaos of the First Portuguese Republic, he has grown increasingly concerned by the recent rise of liberal agitation."
  #####CAUDILLO POPULARITY MECHANIC 
  IBR_caudillos_category:0 "카우디요의 인기" 
- IBR_caudillos_category_desc:0 "연합은 평등하고 두 카우디요가 동등한 권력을 나누고 있다고는 하지만, 이것이 국민들에게 똑같이 지지받는다는 것을 의미하는 것은 아닙니다. 이베리아 사회는 각각 프랑코와 살라자르를 지지하는 서로 다른 여러 집단들로 구성되어 있습니다.\n§R가장 인기가 높은 카우디요가 사실상의 국가원수로 인정받을 것입니다§!\nThe military [ROOT.GetIBR_military_alignment]\nThe bureaucrats [ROOT.GetIBR_burocrat_alignment]\nThe Church [ROOT.GetIBR_church_alignment]\nThe businessmen [ROOT.GetIBR_business_alignment]\nThe intellectuals [ROOT.GetIBR_intellectual_alignment]\nColonial settlers [ROOT.GetIBR_settlers_alignment]\nColonial natives [ROOT.GetIBR_native_alignment]\nForeign leaders [ROOT.GetIBR_foreign_alignment]\nThe "silent majority" [ROOT.GetIBR_majority_alignment]\nRegional nationalists [ROOT.GetIBR_region_alignment]" 
+ IBR_caudillos_category_desc:0 "연합은 평등하고 두 카우디요가 동등한 권력을 나누고 있다고는 하지만, 이것이 국민들에게 똑같이 지지받는다는 것을 의미하는 것은 아닙니다. 이베리아 사회는 각각 프랑코와 살라자르를 지지하는 서로 다른 여러 집단들로 구성되어 있습니다.\n§R가장 인기가 높은 카우디요가 사실상의 국가원수로 인정받을 것입니다§!\n군부는 [ROOT.GetIBR_military_alignment]\n관료들은 [ROOT.GetIBR_burocrat_alignment]\n교회는 [ROOT.GetIBR_church_alignment]\n기업계는 [ROOT.GetIBR_business_alignment]\n지식인들은 [ROOT.GetIBR_intellectual_alignment]\n식민지 정착민은 [ROOT.GetIBR_settlers_alignment]\n식민지 원주민은 [ROOT.GetIBR_native_alignment]\n대외 지도자들은 [ROOT.GetIBR_foreign_alignment]\n"침묵하는 다수"는 [ROOT.GetIBR_majority_alignment]\n지역 민족주의자는 [ROOT.GetIBR_region_alignment]" 
  
  IBR_popularity_love_franco_singular:0 "§w완전히 프랑코 편입니다.§!" 
  IBR_popularity_favours_franco_singular:0 "§w대체로 프랑코 편입니다.§!" 
@@ -1897,7 +1897,7 @@ IBR_influence_tt_25:0 "The lack of foresight in South Africa will §Ydecrease th
  caudillo.1.d:0 "이베리아 반도의 통합은 필요한 일이었지만, 소란스런 일이었습니다. 분쟁의 여지가 있는 사회적, 정치적 문제들의 발생을 예방하기 위해 두 지도자는 동등하게 권력을 나눠 가지기로 합의했습니다. 그들은 이베리아의 카우디요가 되었고, 연합의 구원자가 되었습니다.\n\n하지만, 둘 중 아무도 현 상황에 완벽히 만족하진 않았고 끊임없이 권력과 영향력을 얻기 위해 씨름하고 있습니다. 이를 위해 그들은 지역 소수민족이나 기업가들 같은 각각의 이익 집단의 지지를 얻으려 하고 있습니다. 이베리아의 정치판은 유동적이고 복잡하며, 두 카우디요는 서로를 견제하고 있습니다."
  caudillo.1.a:0 "흥미롭군."
  
- caudillo.3.t:0 "Debug: Check AI Caudillo Favor"
+ caudillo.3.t:0 "디버그: AI 카우디요의 지지도 확인"
  caudillo.3.desc:0 "현재 AI의 성향은 : [GetIBR_AI_Caudillo] \n 우세한 카우디요: [GetIBR_AI_Caudillo_lead]"
  caudillo.3.a:0 "좋아"
  caudillo.3.b:0 "살라자르 편에 섬"
@@ -1992,9 +1992,9 @@ IBR_influence_tt_25:0 "The lack of foresight in South Africa will §Ydecrease th
  IBR_soclib_milhost_category:0 "정부에 대한 군대의 호전성" 
  IBR_soclib_milhost_category_desc:0 "이베리아를 정의로운 사회로 바꾸는 작업은 불가피하게 적을 만들 것이며, 이베리아 군부에 깊이 뿌리박힌 반동분자만큼 무서운 적은 없습니다.\n\n국민들의 뜻을 위해서는, 군대가 방해하기 전에 개혁이 이루어져야 합니다. 만일 군대가 너무 §Y호전적§!이 될 경우, 이베리아의 자유주의는 우리와 함께 쓰러질 것입니다.\n\n현재 군대의 §Y호전성§! : [ROOT.GetIBR_milhost]"
  
-IBR_rise_officer_wages:0 "Rise military officer wages"
-IBR_dine_generals:0 "Dine with the generals"
-IBR_promote_young_officers:0 "Promote young officers"
+ IBR_rise_officer_wages:0 "군사 장교 봉급 인상"
+ IBR_dine_generals:0 "장군과의 만찬"
+ IBR_promote_young_officers:0 "청년 장교와의 대화"
  
  IBR_soclib_milhost_critical:0 "§e치명적!§!"
  IBR_soclib_milhost_high:0 "§R높음§!"
