@@ -420,19 +420,19 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   USA_Pull_Out_Of_Indonesian_War:0 "지원 철회"
   USA_MLY_aid_category_desc:0 "Test"
 
-  USA_ICW_Domestic_Pop:0 "Domestic support for the war is [GetICWDomesticSupport] ([?USA_INS_CW_Domestic_Support])\n£GFX_rd_texticon §wRepublican§!-§BDemocrat§! support for the war is [GetICWRDSupport] ([?USA_INS_CW_RD_Support])\n£GFX_npp_texticon §ONational Progressive§! support for the war is [GetICWNPPSupport] ([?USA_INS_CW_NPP_Support])"
+  USA_ICW_Domestic_Pop:0 "국내의 전쟁 지지도는 [GetICWDomesticSupport]. ([?USA_INS_CW_Domestic_Support])\n£GFX_rd_texticon §w공화§!-§B민주당§!의 전쟁 지지도는 [GetICWRDSupport]. ([?USA_INS_CW_RD_Support])\n£GFX_npp_texticon §O국민진보당§!의 전쟁 지지도는 [GetICWNPPSupport. ([?USA_INS_CW_NPP_Support])"
 
-  ICW_HIGH_SUPPORT:0 "§Ghigh§!"
-  ICW_MID_SUPPORT:0 "§Ymiddling§!"
-  ICW_LOW_SUPPORT:0 "§Rlow§!"
+  ICW_HIGH_SUPPORT:0 "§G높습니다§!"
+  ICW_MID_SUPPORT:0 "§Y중간입니다§!"
+  ICW_LOW_SUPPORT:0 "§R낮습니다§!"
 
-  ICW_NPP_HIGH_SUPPORT:0 "§Ghigh§!"
-  ICW_NPP_MID_SUPPORT:0 "§Ymiddling§!"
-  ICW_NPP_LOW_SUPPORT:0 "§Rlow§!"
+  ICW_NPP_HIGH_SUPPORT:0 "§G높습니다§!"
+  ICW_NPP_MID_SUPPORT:0 "§Y중간입니다§!"
+  ICW_NPP_LOW_SUPPORT:0 "§R낮습니다§!"
 
-  ICW_RD_HIGH_SUPPORT:0 "§Ghigh§!"
-  ICW_RD_MID_SUPPORT:0 "§Ymiddling§!"
-  ICW_RD_LOW_SUPPORT:0 "§Rlow§!"
+  ICW_RD_HIGH_SUPPORT:0 "§G높습니다§!"
+  ICW_RD_MID_SUPPORT:0 "§Y중간입니다§!"
+  ICW_RD_LOW_SUPPORT:0 "§R낮습니다§!"
 
   USA_ICW_Has_Enough_Support:0 "£GFX_npp_texticon §ONational Progressive§! support + £GFX_rd_texticon §wRepublican§!-§BDemocrat§! for the war equals to 51 or above."
 
@@ -459,15 +459,15 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   
 
   USA_Gain_Domestic_Support_High:0 "Rally §mDomestic§! Support"
-  USA_secure_supply_lines:0 "Secure the Supply Lines"
-  USA_lessons_from_saf:0 "Lessons from the South African War"
+  USA_secure_supply_lines:0 "보급선 확보"
+  USA_lessons_from_saf:0 "남아프리카 전쟁의 교훈"
   USA_expand_the_fleet:0 "Expand the Fleet Presence"
-  USA_technician_aid_FRI:0 "Send our Engineers"
-  USA_Naval_blockage:0 "Establish a Naval Blockage"
+  USA_technician_aid_FRI:0 "공병대 파견"
+  USA_Naval_blockage:0 "해상 봉쇄 실행"
   USA_fan_the_fire:0 "Stoke Independent Movements"
-  USA_Call_the_Red_Cross:0 "Send the Red Cross"
+  USA_Call_the_Red_Cross:0 "적십자사 파견"
   USA_Enforce_The_Rules_Of_War:0 "Enforce the Rules of War"
-  USA_Propaganda_Campaign:0 "Propaganda Campaigns"
+  USA_Propaganda_Campaign:0 "선전 작전"
   USA_Condemn_Japanese_Imperialism:0 "Condemn §OJapanese Imperialism§!"
   USA_To_Project_Freedom:0 "Stoke the §BDemocratic§! §BSpirit§!"
   USA_A_War_Of_Words:0 "A §wWar§! §Bof§! §OWords§!"
@@ -519,8 +519,8 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   USA_PHI_huks_Irregular_desc:0 "The Balintawak Blitz, true to its name, was meant to be a quick and relatively bloodless war against the Japanese-aligned government in Maynila, in the hopes of crippling Japanese influence in the pacific, and yet, that was not what it turned out to be. The Maynila government has put up more of a fight than what we have anticipated, and the war has grinded down to a bloody standstill with no clear winner.\n\nPerhaps the AFRSR might be willing to work with us, finding those that want to cooperate may just give us enough boost for us to drive the Japanese out of the islands, and perhaps make the future of post-war Philippines ever so certain, once we win that is."
 
   USA_weaken_japan_bombings:0 "§G이는 [JAP.GetFlag]일본의 폭격 전역을 약화시킬 것입니다.§!"
-  TNO_Controls_Central_Luzon_Airport:0 "§Y[PHI.GetFlag]The [PHI.GetName]§! does not control Gitnang Luzon."
-  USA_PHI_advisors_tt:0 "We can send a Volunteer Division to the §G[UPH.GetFlag][UPH.GetName].§!"
+  TNO_Controls_Central_Luzon_Airport:0 "§Y[PHI.GetFlag] [PHI.GetName]§! 국가가 기트낭 루손을 통제하고 있지 않습니다."
+  USA_PHI_advisors_tt:0 "§G[UPH.GetFlag][UPH.GetName].§! 국가에 의용군 사단을 파견할 수 있습니다."
   USA_PHI_advisors_have_been_sent:0 "§Y고문관§!이 이미 파견되었습니다."
   
   tt_USA_PHI_olive_men:0 "§GUsing our equipment, the Filipino rebels will be able to field an additional division.§!"
