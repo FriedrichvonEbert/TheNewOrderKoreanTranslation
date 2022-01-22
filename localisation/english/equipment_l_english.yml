@@ -272,6 +272,30 @@ l_english:
  ### Specific Equipment Versions ###
 
 ### Upgrades (Used in Equipment Designer) ###
+### NSB Special ###
+  train_equipment:0 "Train"
+  train_equipment_desc:0 "Trains transport supplies from the Supply Capital to Supply Hubs connected by rail."
+ 
+  train_equipment_1:0 "Civilian Train"
+  train_equipment_1_desc:0 "Taken over by the military from regular civilian freight duty, this train engine is well-suited to move a large amount of supplies over long distances. However, its civilian construction makes it vulnerable."
+ 
+  train_equipment_2:0 "War Austerity Train"
+  train_equipment_2_desc:0 "A simplified design that omits many features commonly found on regular freight trains for the sake of cheaper production. It is still every bit as vulnerable as a regular train, but can more easily be replaced."
+ 
+  train_equipment_3:0 "Armored Train"
+  train_equipment_3_desc:0 "A train engine encased in heavy armor to make it less vulnerable to enemy attack. It can carry as much cargo as any other design, but is more expensive to produce."
+ 
+  railway_gun_equipment:0 "Railway Artillery"
+  railway_gun_equipment_desc:0 "A heavy cannon mounted on a railway carriage for transportation."
+  railway_gun_desc:0 "Railways offer an opportunity to move heavy guns far inland at a reasonable speed, allowing us to bombard enemy position at great range and with good effect."
+  railway_gun_equipment_1:0 "Railway Gun"
+
+  floating_harbor_equipment:0 "Floating Harbor"
+  floating_harbor_equipment_desc:1 "A series of pontoons and pre-fabricated concrete structures that can be moved across water and assembled within hours to create a sheltered landing space to unload supplies."
+  floating_harbor_equipment_1:0 "Floating Harbor"
+  floating_harbor_equipment_1_desc:1 "A series of pontoons and pre-fabricated concrete structures that can be moved across water and assembled within hours to create a sheltered landing space to unload supplies."
+ ### NSB Special ###
+ 
  ### Tanks ###
   tank_armor_upgrade:0 "장갑"
   tank_armor_upgrade_desc:0 "적이 관통할 수 없는 장갑은 큰 이점이지만 느려지게 만들 것입니다."
@@ -512,62 +536,68 @@ l_english:
   ## Normal ##
 
   ## Light Self-Propelled ##
-   APC_artillery_equipment:0 "경자주포"
-   APC_artillery_equipment_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
+   IFV_artillery_chassis_desc:0 "Light Self-Propelled Artillery"
+   IFV_artillery_equipment:0 "경자주포"
+   IFV_artillery_equipment_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
+   IFV_artillery_equipment_0:0 "경자주포"
+   IFV_artillery_equipment_0_desc:0 "Larger caliber rounds and better propellants are today's order in the post-war decade, even for self-propelled artillery chassis."
     
    # 1950
-   APC_artillery_equipment_1:0 "기본적 경자주포"
-   APC_artillery_equipment_1_short:0 "기본적 경SPART"
-   APC_artillery_equipment_1_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
+   IFV_artillery_equipment_1:0 "기본적 경자주포"
+   IFV_artillery_equipment_1_short:0 "기본적 경자주포"
+   IFV_artillery_equipment_1_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
 
    # 1960
-   APC_artillery_equipment_2:0 "개선된 경자주포"
-   APC_artillery_equipment_2_short:0 "개선된 경SPART"
-   APC_artillery_equipment_2_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
+   IFV_artillery_equipment_2:0 "개선된 경자주포"
+   IFV_artillery_equipment_2_short:0 "개선된 경자주포"
+   IFV_artillery_equipment_2_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
 
    # 1970
-   APC_artillery_equipment_3:0 "진보된 경자주포"
-   APC_artillery_equipment_3_short:0 "진보된 경SPART"
-   APC_artillery_equipment_3_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
+   IFV_artillery_equipment_3:0 "진보된 경자주포"
+   IFV_artillery_equipment_3_short:0 "진보된 경자주포"
+   IFV_artillery_equipment_3_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
    
    # 1980
-   APC_artillery_equipment_4:0 "준현대 경자주포"
-   APC_artillery_equipment_4_short:0 "준현대 경SPART"
-   APC_artillery_equipment_4_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
+   IFV_artillery_equipment_4:0 "준현대 경자주포"
+   IFV_artillery_equipment_4_short:0 "준현대 경자주포"
+   IFV_artillery_equipment_4_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
 
    # 1990
-   APC_artillery_equipment_5:0 "현대 경자주포"
-   APC_artillery_equipment_5_short:0 "현대 경SPART"
-   APC_artillery_equipment_5_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
+   IFV_artillery_equipment_5:0 "현대 경자주포"
+   IFV_artillery_equipment_5_short:0 "현대 경자주포"
+   IFV_artillery_equipment_5_desc:0 "더 큰 구경과 더 많은 장약은 전후 오늘날의 대세입니다. 이건 자주포 차체를 얘기할 때도 마찬가지입니다."
   ## Light Self-Propelled ##
 
   ## Self-Propelled ##
+   MBT_artillery_chassis_desc:0 "Heavy Self-Propelled Artillery"
    MBT_artillery_equipment:0 "중자주포"
    MBT_artillery_equipment_desc:0 "무거운 차체에 대형 포를 얹은 이 자주포는 엄청난 화력을 지니고 있습니다."
+   MBT_artillery_equipment_0:0 "중자주포"
+   MBT_artillery_equipment_0_desc:0 "A large artillery piece mounted on a heavy chassis, these self-propelled guns carry a lot of firepower."
   
    # 1950
    MBT_artillery_equipment_1:0 "기본적 중자주포"
-   MBT_artillery_equipment_1_short:0 "기본적 중SPART"
+   MBT_artillery_equipment_1_short:0 "기본적 중자주포"
    MBT_artillery_equipment_1_desc:0 "무거운 차체에 대형 포를 얹은 이 자주포는 엄청난 화력을 지니고 있습니다."
 
    # 1960
    MBT_artillery_equipment_2:0 "개선된 중자주포"
-   MBT_artillery_equipment_2_short:0 "개선된 중SPART"
+   MBT_artillery_equipment_2_short:0 "개선된 중자주포"
    MBT_artillery_equipment_2_desc:0 "무거운 차체에 대형 포를 얹은 이 자주포는 엄청난 화력을 지니고 있습니다."
 
    # 1970
    MBT_artillery_equipment_3:0 "진보된 중자주포"
-   MBT_artillery_equipment_3_short:0 "진보된 중SPART"
+   MBT_artillery_equipment_3_short:0 "진보된 중자주포"
    MBT_artillery_equipment_3_desc:0 "무거운 차체에 대형 포를 얹은 이 자주포는 엄청난 화력을 지니고 있습니다."
 
    # 1980
    MBT_artillery_equipment_4:0 "준현대 중자주포"
-   MBT_artillery_equipment_4_short:0 "준현대 중SPART"
+   MBT_artillery_equipment_4_short:0 "준현대 중자주포"
    MBT_artillery_equipment_4_desc:0 "무거운 차체에 대형 포를 얹은 이 자주포는 엄청난 화력을 지니고 있습니다."
 
    # 1990
    MBT_artillery_equipment_5:0 "현대 중자주포"
-   MBT_artillery_equipment_5_short:0 "현대 중SPART"
+   MBT_artillery_equipment_5_short:0 "현대 중자주포"
    MBT_artillery_equipment_5_desc:0 "무거운 차체에 대형 포를 얹은 이 자주포는 엄청난 화력을 지니고 있습니다."
   ## Self-Propelled ##
 
@@ -610,38 +640,44 @@ l_english:
   ## Normal ##
 
   ## Light Self-Propelled ##
-   APC_aa_equipment:0 "경자주대공포"
-   APC_aa_equipment_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
+   IFV_aa_chassis_desc:0 "경자주대공포"
+   IFV_aa_equipment:0 "경자주대공포"
+   IFV_aa_equipment_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
+   IFV_aa_equipment_0:0 "경자주대공포"
+   IFV_aa_equipment_0_desc:0 "With the mobile warfare doctrine fully adopted by most nations worldwide, it's only natural that artillery and support pieces have been adapted. Light and powerful, self-propelled anti-air batteries can protect the army from any airborne peril as it advances or retreats."
     
    # 1950
-   APC_aa_equipment_1:0 "기본적 경자주대공포"
-   APC_aa_equipment_1_short:0 "기본적 경SPAA"
-   APC_aa_equipment_1_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
+   IFV_aa_equipment_1:0 "기본적 경자주대공포"
+   IFV_aa_equipment_1_short:0 "기본적 경SPAA"
+   IFV_aa_equipment_1_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
 
    # 1960
-   APC_aa_equipment_2:0 "개선된 경자주대공포"
-   APC_aa_equipment_2_short:0 "개선된 경SPAA"
-   APC_aa_equipment_2_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
+   IFV_aa_equipment_2:0 "개선된 경자주대공포"
+   IFV_aa_equipment_2_short:0 "개선된 경SPAA"
+   IFV_aa_equipment_2_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
 
    # 1970
-   APC_aa_equipment_3:0 "진보된 경자주대공포"
-   APC_aa_equipment_3_short:0 "진보된 경SPAA"
-   APC_aa_equipment_3_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
+   IFV_aa_equipment_3:0 "진보된 경자주대공포"
+   IFV_aa_equipment_3_short:0 "진보된 경SPAA"
+   IFV_aa_equipment_3_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
    
    # 1980
-   APC_aa_equipment_4:0 "준현대 경자주대공포"
-   APC_aa_equipment_4_short:0 "준현대 경SPAA"
-   APC_aa_equipment_4_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
+   IFV_aa_equipment_4:0 "준현대 경자주대공포"
+   IFV_aa_equipment_4_short:0 "준현대 경SPAA"
+   IFV_aa_equipment_4_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
 
    # 1990
-   APC_aa_equipment_5:0 "현대 경자주대공포"
-   APC_aa_equipment_5_short:0 "현대 경SPAA"
-   APC_aa_equipment_5_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
+   IFV_aa_equipment_5:0 "현대 경자주대공포"
+   IFV_aa_equipment_5_short:0 "현대 경SPAA"
+   IFV_aa_equipment_5_desc:0 "대부분의 국가가 기동전 교리를 도입했으니 포병과 지원부대 역시 기동화되는 것은 당연한 일입니다. 가볍고 강력한 자주대공포대는 아군이 진격하건 후퇴하건 하늘의 위협으로부터 지킬 수 있습니다."
   ## Light Self-Propelled ##
 
   ## Self-Propelled ##
+   MBT_aa_chassis_desc:0 "중자주대공포"
    MBT_aa_equipment:0 "중자주대공포"
    MBT_aa_equipment_desc:0 "강력한 무기를 가진 중자주대공포대는 적 폭격기나 다른 대형 항공기를 막는 데 적합합니다. 과거에는 견인식이거나 고정식이었지만 더 나은 자주성과 기동성을 위해 스스로 움직입니다."
+   MBT_aa_equipment_0:0 "중자주대공포"
+   MBT_aa_equipment_0_desc:0 "Heavy anti-air batteries are perfect to protect the army from enemy bombers or other heavy aircraft with their powerful payload. No longer towed or fixed into place, they are now self propelled for higher autonomy and mobility."
     
    # 1950
    MBT_aa_equipment_1:0 "기본적 중자주대공포"
@@ -667,14 +703,6 @@ l_english:
    MBT_aa_equipment_5:0 "현대 중자주대공포"
    MBT_aa_equipment_5_short:0 "현대 중SPAA"
    MBT_aa_equipment_5_desc:0 "강력한 무기를 가진 중자주대공포대는 적 폭격기나 다른 대형 항공기를 막는 데 적합합니다. 과거에는 견인식이거나 고정식이었지만 더 나은 자주성과 기동성을 위해 스스로 움직입니다."
-  ## Self-Propelled ##
- ### Anti-Air ###
-
- ### Deprecated ###
-  anti_tank_equipment:0 "대전차 장비"
-  anti_tank_equipment_desc:0 "대전차 장비"
- ### Deprecated ###
-#### Artillery & Anti-Air ####
 
 #### Armor ####
  # See 'Artillery & Anti-Air' for Self-Propelled ART/AA
@@ -730,6 +758,11 @@ l_english:
   APC_equipment_5:0 "현대 APC"
   APC_equipment_5_desc:0 "두꺼운 하부 장갑은 이 차량이 지뢰나 여타 IED에 대한 내구성을 높이는 데 도움이 되며, 통합 컴퓨팅 기술을 통해 운송 상태가 아닐때 결합 상태를 유지하고 추가적인 지원을 제공할 수 있습니다."
  ### APC ###
+ 
+ ### Funny ###
+
+  kugelpanzer_chassis:0 "쿠겔판처"
+  kugelpanzer_chassis_1:0 "Kugelpanzer Chassis"
 
  ### IFV ###
   IFV_equipment:0 "보병전투차량"
@@ -751,12 +784,32 @@ l_english:
 
   IFV_equipment_5:0 "현대 IFV"
   IFV_equipment_5_desc:0 "통합 디지털 시스템과 통신 장비를 장착한 이 차량은 상당한 화력 지원을 제공할 수 있으며, 특수 장갑 업그레이드를 통해 악조건에서도 탑승자를 안전하게 지킬 수 있습니다."
- ### IFV ###
+ 
+  IFV_chassis:0 "Infantry Fighting Vehicle Chassis"
+  IFV_chassis_desc:0 "IFV"
+
+  IFV_chassis_0:0 "Early IFV Chassis"
+  IFV_chassis_0_desc:0 "Infantry fighting vehicle that was developed during the Second World War, generally with a half-track or light tank design. Able to transport a squadron of soldiers while also having an autocannon or heavier gun for direct fire support."
+
+  IFV_chassis_1:0 "Basic IFV Chassis"
+  IFV_chassis_1_desc:0 "Intended to fill the gap between an APC and a MBT, this vehicle is purpose-designed with both troop transport and combat capability in mind. Its heavier armaments can prove useful in a firefight when no other support is available."
+
+  IFV_chassis_2:0 "Improved IFV Chassis"
+  IFV_chassis_2_desc:0 "This new generation of IFV is both heavily armed and armored, packing a powerful automatic cannon and adorned with armor nearly as thick as an APC. It can serve as an effective assault vehicle that can fight alongside the troops inside."
+
+  IFV_chassis_3:0 "Advanced IFV Chassis"
+  IFV_chassis_3_desc:0 "Featuring additional armaments such as a mounted machine gun in addition to the cannon, this IFV allows troops to fight from both within the vehicle using gun ports, or from outside the vehicle, using its heavier armor as cover."
+
+  IFV_chassis_4:0 "Semi-Modern IFV Chassis"
+  IFV_chassis_4_desc:0 "Additional armor features and countermeasures have been built into this IFV, offering improved protection from high-caliber rounds and artillery fragments, as well as thicker skirts to protect the wheels and treads from damage."
+
+  IFV_chassis_5:0 "Modern IFV Chassis"
+  IFV_chassis_5_desc:0 "Integrated digital systems and communications equipment enables this vehicle to provide substantial fire support, and specialized armor upgrades will allow it to keep its occupants safe in even the most hazardous of conditions."
+ 
  
  ### MBT ###
   MBT_equipment:0 "주력전차"
   MBT_Das_Liger:0 "더 리거"
-  MBT_das_liger:0 "더 리거"
 
   MBT_equipment_0:0 "초기 MBT"
   MBT_equipment_0_desc:0 "수많은 종류의 전차를 개발하는 것보다는 모든 임무를 수행할 수 있는 차량을 설계하는게 훨씬 더 효율적이고 효과적입니다. 초기 주력전차는 제2차 세계 대전 당시 사용되었던 중형전차로부터 발전했습니다.
@@ -775,7 +828,117 @@ l_english:
 
   MBT_equipment_5:0 "현대 MBT"
   MBT_equipment_5_desc:0 "통합전자식 화력제어체계는 새롭게 개발된 컴퓨팅 기술을 활용할 수 있어, 우리 전차가 더 높은 정확도로 더 먼 거리에 있는 목표물과 교전할 수 있고, 교전 중 승무원의 할당량을 줄일 수 있습니다."
- ### MBT ###
+
+  MBT_chassis:0 "Main Battle Tank Chassis"
+  MBT_chassis_desc:0 "MBT"
+
+  MBT_chassis_0:0 "Early MBT Chassis"
+  MBT_chassis_0_desc:0 "Instead of developing a multitude of tank variants, it is much more efficient and effective to design a vehicle that can fill handle all roles. Early main battle tanks were developed from medium tanks used during the Second World War."
+  
+  MBT_chassis_1:0 "Basic MBT Chassis"
+  MBT_chassis_1_desc:0 "With the development of more powerful engines, lighter tanks can carry heavier armaments and thicker armor, all while keeping a respectable top speed. This main battle tank will form a key component of our armored forces."
+
+  MBT_chassis_2:0 "Improved MBT Chassis"
+  MBT_chassis_2_desc:0 "More powerful main cannons, with calibers around 100mm, can penetrate nearly any type of armor at long ranges. Specialized armor will help to increase tank survivability as anti-tank weapons continue to become more advanced."
+
+  MBT_chassis_3:0 "Advanced MBT Chassis"
+  MBT_chassis_3_desc:0 "Further increasing the capabilities of the engines in our main battle tanks will allow us to make their armor even thicker and cover more of the vehicle, as well as increase overall reliability and fuel efficiency."
+
+  MBT_chassis_4:0 "Semi-Modern MBT Chassis"
+  MBT_chassis_4_desc:0 "Explosive reactive armor and other countermeasure system can further increase vehicle survivability, as helicopters and missiles continue to become a greater threat to our armored vehicles."
+
+  MBT_chassis_5:0 "Modern MBT Chassis"
+  MBT_chassis_5_desc:0 "Integrated electronic fire control systems can make use of newly developed computing technology, allowing our tanks to engage targets over longer distances with higher accuracy, and lighten the workload of the crew during an engagement."
+  
+### UPGRADE MODULES ###
+
+  NSB_MBT_1945_modules_1:0 "Expanded Fuel Capacity"
+  NSB_MBT_1945_modules_1_desc:0 "An expanded fuel capacity in a vehicle enhances its ability to act for longer without stopping for resupply."
+
+  NSB_MBT_1945_modules_2:0 "Mounted Dozer Blades"
+  NSB_MBT_1945_modules_2_desc:0 "Dozer blades to be mounted to vehicles, allowing the manipulation of environments and assisting in entrenchment."
+
+  NSB_MBT_1950_modules_1:0 "Main Gun Stabilizers"
+  NSB_MBT_1950_modules_1_desc:0 "Gun stabilisers, capable of greatly reducing the instability of a weapon whilst the vehicle is moving, and enabling accurate fire on the move."
+
+  NSB_MBT_1950_modules_2:0 "Computerized Fire Control Systems"
+  NSB_MBT_1950_modules_2_desc:0 "Fire control systems, made to assist a vehicle crew in aquiring, aiming at and hitting enemy targets."
+
+  NSB_MBT_1960_modules_1:0 "Auto-Loaders"
+  NSB_MBT_1960_modules_1_desc:0 "Mechanical loading assistance systems made to remove the need for a loader within the tank."
+
+  NSB_MBT_1960_modules_2:0 "Explosive Reactive Armour"
+  NSB_MBT_1960_modules_2_desc:0 "An advanced form of protection designed to protect against oncoming projectiles through its own detonation."
+
+  NSB_IFV_1945_modules_1:0 "Smoke Emitters"
+  NSB_IFV_1945_modules_1_desc:0 "Equipment to allow a vehicle to lay smoke in it's path, granting visual cover to allied forces which may help in advancing."
+  
+  NSB_IFV_1945_modules_2:0 "Improved Commander's Optics"
+  NSB_IFV_1945_modules_2_desc:0 "Improved optical equipment to assist a vehicle crew in seeing their surrounding and identifying enemy forces before being seen themselves."
+  
+  NSB_IFV_1950_modules_1:0 "Dedicated Crew Heaters"
+  NSB_IFV_1950_modules_1_desc:0 "Dedicated equipment for keeping the occupants of a vehicle warm and in a combat-ready condition."
+
+  NSB_IFV_1950_modules_2:0 "Automatic Fire Suppression Systems"
+  NSB_IFV_1950_modules_2_desc:0 "Equipment for combating the outbreak of fires within a vehicle, reducing the harm it can inflict."
+
+  NSB_IFV_1960_modules_1:0 "Remote Controlled Autocannons"
+  NSB_IFV_1960_modules_1_desc:0 "A small unmanned autocannon emplacement, remotely controlled by a crewman within the hull of the vehicle."
+
+  NSB_IFV_1960_modules_2:0 "Nuclear, Biological, and Chemical Protection Systems"
+  NSB_IFV_1960_modules_2_desc:0 "Special protective measures designed to protect a vehicle's crew from even inhospitable environents."
+
+  NSB_artillery_MODULE:0 "Vehicular Weapons Development"
+  NSB_artillery_MODULE_desc:0 "Development in weaponry for use within armoured vehicles, to compete with the ever-improving armour of foreign designs."
+
+  NSB_antiair_MODULE:0 "Vehicular Anti-Air Development"
+  NSB_antiair_MODULE_desc:0 "Development in mounted anti-air weaponry that will allow vehicles to deny airspace to hostile aircraft whilst retaining armoured protection."
+
+### APC UPGRADES ###
+
+  NSB_APC_1950_basic_turret:0 "Basic Turret Improvements"
+  NSB_APC_1950_basic_armor:0 "Basic Armour Improvements"
+
+  NSB_APC_1960_basic_turret:0 "Improved Turret Improvements"
+  NSB_APC_1960_basic_armor:0 "Improved Armour Improvements"
+
+  NSB_APC_1970_basic_turret:0 "Advanced Turret Improvements"
+  NSB_APC_1970_basic_armor:0 "Advanced Armour Improvements"
+
+  NSB_APC_1980_basic_turret:0 "Semi-Modern Turret Improvements"
+  NSB_APC_1980_basic_armor:0 "Semi-Modern Armour Improvements"
+
+### ARTILLERY UPGRADES ###
+
+  NSB_artillery_1950_SA:0 "50's Artillery Armament Upgrade"
+  NSB_artillery_1950_SA_desc:0 "Compounding on World War II era designs, these shells pack a higher yield for a lower cost. Effective at softening hard targets, as well as providing fire support, they are a must have in modern warfare."
+  NSB_artillery_1950_SA_2:0 "50's Artillery Armament Upgrade"
+  NSB_artillery_1950_SA_2_desc:0 "Compounding on earlier designs, these shells pack a higher yield for a lower cost. Effective at softening hard targets, as well as providing fire support, they are a must have in modern warfare."
+  NSB_artillery_1950_SA_3:0 "50's Artillery 'Base Bleed'"
+  NSB_artillery_1950_SA_3_desc:0 "One innovation recently developed in artillery to increase range is "base bleed" - a controlled amount of fuel being let go out of the back of the shell in order to increase aerodynamic efficiency. When engineered correctly, this technique can allow shells to go 16-30% farther."
+
+  NSB_artillery_1970_SA:0 "70's Artillery Armament Upgrade"
+  NSB_artillery_1970_SA_desc:0 "Compounding on earlier designs, these shells pack a higher yield for a lower cost. Effective at softening hard targets, as well as providing fire support, they are a must have in modern warfare."
+  NSB_artillery_1970_SA_2:0 "70's Artillery 'Base Bleed'"
+  NSB_artillery_1970_SA_2_desc:0 "One innovation recently developed in artillery to increase range is "base bleed" - a controlled amount of fuel being let go out of the back of the shell in order to increase aerodynamic efficiency. When engineered correctly, this technique can allow shells to go 17-30% farther."
+  NSB_artillery_1970_SA_3:0 "70's Artillery Rocket Assisted Projectiles"
+  NSB_artillery_1970_SA_3_desc:0 "While perhaps the most expensive option, rocket assisted projectiles have small rocket engines inside that can shoot shells as far as practically needed."
+
+### ANTIAIR UPGRADES ###
+
+  NSB_antiair_1950_AA:0 "50's Anti-Air Armament Upgrade"
+  NSB_antiair_1950_AA_desc:0 "While our anti-air cannons are powerful, it has grown quite difficult to effectively land hits on an enemy jet. Improved sights will be added to the weaponry, as well as a radar scanner and improved announcement to do maximum damage."
+  NSB_antiair_1950_AA_2:0 "50's Anti-Air Larger Guns"
+  NSB_antiair_1950_AA_2_desc:0 "Jet planes have rendered the smaller caliber weapons of the past useless. Larger guns, with longer ranges and faster shell velocities, are the only real practical option in our new, terrifying world."
+  NSB_antiair_1950_AA_3:0 "50's Anti-Air Radar Guides"
+  NSB_antiair_1950_AA_3_desc:0 "With conventional guns it is almost impossible to take down jets. However, the introduction of radar guiding will allow for bullets to land, even with a ton of inaccuracy."
+
+  NSB_antiair_1970_AA:0 "70's Anti-Air Armament Upgrade"
+  NSB_antiair_1970_AA_desc:0 "While our anti-air cannons are powerful, it has grown quite difficult to effectively land hits on an enemy jet. Improved sights will be added to the weaponry, as well as a radar scanner and improved announcement to do maximum damage."
+  NSB_antiair_1970_AA_2:0 "70's Anti-Air Larger Guns"
+  NSB_antiair_1970_AA_2_desc:0 "Jet planes have rendered the smaller caliber weapons of the past useless. Larger guns, with longer ranges and faster shell velocities, are the only real practical option in our new, terrifying world."
+  NSB_antiair_1970_AA_3:0 "70's Anti-Air Radar Guides"
+  NSB_antiair_1970_AA_3_desc:0 "With conventional guns it is almost impossible to take down jets. However, the introduction of radar guiding will allow for bullets to land, even with a ton of inaccuracy."
 
  ### Misc Junk ###
   super_heavy_tank_equipment:0 "초중전차"
@@ -805,11 +968,8 @@ l_english:
   GER_kugelpanzer_equipment_desc:0 "악퉁! 쿠겔판처!"
   GER_kugelpanzer_equipment_1:0 "쿠겔판처"
   GER_kugelpanzer_equipment_1_desc:0 "악퉁! 쿠겔판처!"
-  MBT_equipment:0 "MBT"
   MBT_equipment_desc:0 "MBT"
-  IFV_equipment:0 "IFV"
   IFV_equipment_desc:0 "IFV"
-  APC_equipment:0 "APC"
   APC_equipment_desc:0 "APC"
   infantry_anti_tank:0 "보병 대전차"
  ### Misc Junk ###
