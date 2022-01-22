@@ -11,7 +11,13 @@ getEconAlertText_realGrowth = {
 
 	# Active
 	text = {
-		trigger = { has_country_flag = ECON_WARNING_LOW_GROWTH }
+		trigger = {
+			check_variable = { 
+				var = GDP_growth_real 
+				value = 0 
+				compare = less_than
+			}
+		}
 		localization_key = alerts_realGrowth_text_active
 	}
 
@@ -27,7 +33,13 @@ getEconAlertText_inflation = {
 
 	# Active
 	text = {
-		trigger = { has_country_flag = ECON_WARNING_HIGH_INFLATION }
+		trigger = {
+			check_variable = {
+				var = clamped_inflation_rate
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
 		localization_key = alerts_inflation_text_active
 	}
 
@@ -43,7 +55,9 @@ getEconAlertText_deficit = {
 
 	# Active
 	text = {
-		trigger = { has_country_flag = ECON_WARNING_HIGH_DEFICIT }
+		trigger = {
+			check_variable = { deficit_to_GDP_ratio < -9.999 }
+		}
 		localization_key = alerts_deficit_text_active
 	}
 
@@ -59,7 +73,11 @@ getEconAlertText_debt = {
 
 	# Active
 	text = {
-		trigger = { has_country_flag = ECON_WARNING_HIGH_DEBT }
+		trigger = {
+			set_temp_variable = { temp_debt_ceiling = debt_ceiling }
+			subtract_from_temp_variable = { temp_debt_ceiling = debt_to_GDP_ratio }
+			check_variable = { temp_debt_ceiling < 0.099 }
+		}
 		localization_key = alerts_debt_text_active
 	}
 
@@ -76,7 +94,9 @@ getEconAlertText_reserves = {
 
 	# Active
 	text = {
-		trigger = { has_country_flag = ECON_WARNING_BLOATED_RESERVES }
+		trigger = {
+			check_variable = { reserves_as_GDP_percent > 0.1 }
+		}
 		localization_key = alerts_reserves_text_active
 	}
 
@@ -113,7 +133,7 @@ defined_text = {
 				tag = JAP
 			}
 		}
-		localization_key = " Since we are a major power, our credit rating cannot fall."
+		localization_key = " 강대국인 이상 신용등급이 하락할 수 없습니다."
 	}
 
 	text = {
@@ -1450,69 +1470,6 @@ defined_text = {
 	}
 }
 
-# defined_text = {
-# 	name = Get_construction_level
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_0
-# 		}
-# 		localization_key = construction_level_0_gui
-# 	}
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_1
-# 		}
-# 		localization_key = construction_level_1_gui
-# 	}
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_2
-# 		}
-# 		localization_key = construction_level_2_gui
-# 	}
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_3
-# 		}
-# 		localization_key = construction_level_3_gui
-# 	}
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_4
-# 		}
-# 		localization_key = construction_level_4_gui
-# 	}
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_5
-# 		}
-# 		localization_key = construction_level_5_gui
-# 	}
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_6
-# 		}
-# 		localization_key = construction_level_6_gui
-# 	}
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_7
-# 		}
-# 		localization_key = construction_level_7_gui
-# 	}
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_8
-# 		}
-# 		localization_key = construction_level_8_gui
-# 	}
-# 	text = {
-# 		trigger = {
-# 			has_idea = construction_level_9
-# 		}
-# 		localization_key = construction_level_9_gui
-# 	}
-# }
 
 defined_text = {
 	name = Get_safety
@@ -1708,61 +1665,6 @@ defined_text = {
 
 
 #tempoarary modifiers#
-defined_text = {
-	name = Get_military_budget_modifier
-	text = {
-		trigger = {
-			has_idea = military_budget_boost
-		}
-		localization_key = military_budget_boost_gui
-	}
-	text = {
-		trigger = {
-			has_idea = military_budget_cuts
-		}
-		localization_key = military_budget_cuts_gui
-	}
-	text = {
-		trigger = {
-			has_idea = military_budget_cuts_heavy
-		}
-		localization_key = military_budget_cuts_heavy_gui
-	}
-	text = {
-		trigger = {
-			has_idea = bankrupt_military
-		}
-		localization_key = bankrupt_military_gui
-	}
-}
-
-defined_text = {
-	name = Get_civilian_budget_modifier
-	text = {
-		trigger = {
-			has_idea = civilian_budget_boost
-		}
-		localization_key = civilian_budget_boost_gui
-	}
-	text = {
-		trigger = {
-			has_idea = civilian_budget_cuts
-		}
-		localization_key = civilian_budget_cuts_gui
-	}
-	text = {
-		trigger = {
-			has_idea = civilian_budget_cuts_heavy
-		}
-		localization_key = civilian_budget_cuts_heavy_gui
-	}
-	text = {
-		trigger = {
-			has_idea = bankrupt_civilian
-		}
-		localization_key = bankrupt_civilian_gui
-	}
-}
 
 defined_text = {
 	name = Get_1_Loot_cost_tooltip
@@ -2912,10 +2814,10 @@ defined_text = {
 		trigger = {
 			check_variable = { TNO_recurring_trade_pus^TNO_market_selected_resource > 0 }
 		}
-		localization_key = "sell"
+		localization_key = "판매"
 	}
 	text = {
-		localization_key = "buy"
+		localization_key = "구입"
 	}
 }
 
@@ -2925,10 +2827,10 @@ defined_text = {
 		trigger = {
 			check_variable = { TNO_recurring_trade_pus^TNO_market_selected_resource > 0 }
 		}
-		localization_key = "benefit"
+		localization_key = "수익"
 	}
 	text = {
-		localization_key = "cost"
+		localization_key = "비용"
 	}
 }
 
@@ -3767,7 +3669,7 @@ defined_text = {
 	}
 	text = { # check to see if the debt is within 10% of the limit
 		trigger = {
-			set_temp_variable = temp_debt_to_GDP_ratio_below_10
+			set_temp_variable = { temp_debt_to_GDP_ratio_below_10 = debt_to_GDP_ratio }
 			add_to_temp_variable = { temp_debt_to_GDP_ratio_below_10 = 0.1 }
 			check_variable = { temp_debt_to_GDP_ratio_below_10 > modifier@debt_to_GDP_ceiling_modifier } 
 		}
@@ -3920,7 +3822,7 @@ defined_text = {
 		localization_key = TNO_econ_credit_1
 	}
 	text = {
-		localization_key = "ERROR"
+		localization_key = "에러"
 	}
 }
 
@@ -4001,7 +3903,7 @@ defined_text = {
 		localization_key = TNO_econ_credit_1
 	}
 	text = {
-		localization_key = "ERROR"
+		localization_key = "에러"
 	}
 }
 
@@ -4068,7 +3970,7 @@ defined_text = {
 		localization_key = TNO_econ_credit_1
 	}
 	text = {
-		localization_key = "ERROR"
+		localization_key = "에러"
 	}
 }
 
@@ -4195,7 +4097,7 @@ defined_text = {
 		localization_key = TNO_GER_ladder_1
 	}
 	text = {
-		localization_key = "ERROR"
+		localization_key = "에러"
 	}
 }
 
@@ -4262,7 +4164,7 @@ defined_text = {
 		localization_key = TNO_JAP_ladder_1
 	}
 	text = {
-		localization_key = "ERROR"
+		localization_key = "에러"
 	}
 }
 
@@ -4329,7 +4231,7 @@ defined_text = {
 		localization_key = TNO_USA_ladder_1
 	}
 	text = {
-		localization_key = "ERROR"
+		localization_key = "에러"
 	}
 }
 
@@ -4396,7 +4298,7 @@ defined_text = {
 		localization_key = TNO_credit_long_tt_1
 	}
 	text = {
-		localization_key = "ERROR"
+		localization_key = "에러"
 	}
 }
 
@@ -4658,7 +4560,7 @@ defined_text = {
 		trigger = {
 			check_variable = { credit_rating = 0 }
 		}
-		localization_key = "ERROR"
+		localization_key = "에러"
 	}
 }
 
@@ -4722,7 +4624,7 @@ defined_text = {
 		trigger = {
 			check_variable = { credit_rating = 0 }
 		}
-		localization_key = "ERROR"
+		localization_key = "에러"
 	}
 }
 
@@ -4941,6 +4843,10 @@ defined_text = {
 		localization_key = econ_sphere_name_CAO
 	}
 	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = ENG } }
+		localization_key = econ_sphere_name_ENG
+	}
+	text = {
 		trigger = {
 			OR = {
 				check_variable = { ECON_SPHERE_LEADER = ADN }
@@ -4958,7 +4864,7 @@ defined_text = {
 		}
 		localization_key = econ_sphere_name_CME
 	}
-	text = { localization_key = "No Sphere" }
+	text = { localization_key = "무소속" }
 }
 
 defined_text = {
@@ -4976,18 +4882,10 @@ defined_text = {
 defined_text = {
 	name = GetSphereButtonDelayedTooltip
 	text = {
-		trigger = {
-			has_variable = ECON_SPHERE_LEADER
-		}
-
+		trigger = { has_variable = ECON_SPHERE_LEADER }
 		localization_key = econ_sphere_button_tt_delayed_in_shere
 	}
 	text = { 
-		trigger = {
-			NOT {
-				has_variable = ECON_SPHERE_LEADER
-			}
-		}
 		localization_key = econ_sphere_button_tt_delayed_no_shere
 	}
 }
