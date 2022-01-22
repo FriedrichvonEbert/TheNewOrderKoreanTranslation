@@ -10,6 +10,22 @@ TNO_has_big_opening_screen = {
 	}
 }
 
+TNO_has_two_page_opening_screen = {
+	OR = {
+		tag = YUN
+	}
+}
+
+TNO_has_three_page_opening_screen = {
+	OR = {
+		tag = KOM
+		tag = USA
+		tag = GER
+		tag = CHL
+		tag = BRA
+	}
+}
+
 Is_BRG_Player = {
 	BRG = {
 		is_ai = no
