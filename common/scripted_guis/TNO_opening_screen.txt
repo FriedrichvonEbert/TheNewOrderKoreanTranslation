@@ -121,8 +121,13 @@ scripted_gui = {
 				OR = {
 					AND = {
 						check_variable = { TNO_Opening_Screen = 1 }
-						TNO_has_big_opening_screen = yes
+						TNO_has_three_page_opening_screen = yes
 						check_variable = { COUNTRY_INFO_PAGE < 1.99 }
+					}
+					AND = {
+						check_variable = { TNO_Opening_Screen = 1 }
+						TNO_has_two_page_opening_screen = yes
+						check_variable = { COUNTRY_INFO_PAGE < 0.99 }
 					}
 					AND = {
 						check_variable = { TNO_Opening_Screen = 3 }
