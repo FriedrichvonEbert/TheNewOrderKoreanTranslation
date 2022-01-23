@@ -25,13 +25,6 @@
  BRY_fascism_ADJ: "부랴티야"
  BRY_ultranationalism_ADJ: "부랴티야"
  
- ### Opinion Modifiers ###
- BRY_GER_JAP_denounced_us: "우리를 비난하다"
-
- ### Leader Descriptions ###
- POLITICS_VALERY_SABLIN_DESC: "1939년 레닌그라드 새해축하 행사 도중에 태어난 발레리 사블린은 일가족이 완전히 박살난 상임 간부회 잔당과 함께 동부로 피난갔을 때에도 고작 어린 아이였습니다. 그의 아버지는 최고소비에트 상임간부회의 일원이자 해군 장교로서 크릭스마리네를 맞이하기 위해 출항했고 파멸을 맞이했습니다. 아버지의 희생을 항상 마음 속에 새겨놓고 있었던 사블린은 거의 경험해 본 적도 없던 연방과 아버지가 목숨 바쳐가며 싸웠던 혁명을 꿈꾸며 자랐습니다. 야고다의 지휘력에 의구심을 품었음에도 불구하고 사블린은 자진해서 정치장교로 군에 입대했는데 이는 아고다의 전체주의적 제국에 대한 충성심의 발로가 아니라 아직까지 자리를 지키고 서있는 금방이라도 무너질듯한 사관학교 안 깊은 곳에서 자신이 품던 의문에 대한 대답을 찾을 수 있을지도 모른다는 어찌 보면 바보같은 희망에서 나온 결정이었습니다. 이것이 진짜로 이전 시대의 사람들이 원하던 것이었을까요? 그는 실망에 빠졌습니다. 그가 찾아낸 얼마 되지 않는 책들은 읽기 불가능할 정도로 검열된 상태였으며, NKVD가 언제 어디서나 그를 감시하고 있다는 사실을 깨달았기 때문이었습니다.\n\n중앙 시베리아 전쟁이 동부를 불태울 때에도 사블린은 충실히 복무했고 부하들에게 사회주의와 평등을 위해 싸우도록 사기를 북돋아 주는 역할을 수행했습니다. 하지만 부하들이 더 많은 지도를 원할수록 정말 자신이 옳은 편에 서 있는가 하는 의문은 커져만 갔습니다. 마침내 그의 의구심이 폭발했습니다. 사블린은 충성스러운 병사 몇 명을 데리고 라디오 방송국을 급습해 동방 전역에서 들을 수 있도록 방송을 내보냈습니다. 여기서 사블린은 러시아 인민들이 맞닥트린 고난에 대해 진심으로 이야기하고 야고다가 휘두르는 공포로부터 자유로우며 진정으로 평등한 사회주의 국가에 관한 꿈을 발표했습니다. 그는 누구도 자신의 발표를 들어주지 않으리라 믿었지만, 인민은 그의 발표를 경청해 주었습니다. 꿈을 가진 자, 반체제인사, 젊은이를 위시한 수많은 남녀가 그의 군세에 합류했습니다. 이제 사블린과 혁명가들은 꿈을 위해 궁극적인 희생을 할 준비를 마쳤고 미래를 위해 싸우고 있습니다."
- 
- 
  ### Parties ###
  BRY_newparty_party: "자유 소비에트 공산당"
  BRY_newparty_party_long: "자유 소비에트 공산당"
@@ -55,15 +48,40 @@
  BRY_national_socialism_party_long: "러시아 파시스트당"
  BRY_ultranationalism_party: "러시아 파시스트당"
  BRY_ultranationalism_party_long: "러시아 파시스트당"
+ 
+ ### Opinion Modifiers ###
+ BRY_GER_JAP_denounced_us: "우리를 비난하다"
 
- ### Ministers ###
- BRY_Susanna_Pechuro_hog: "수잔나 페츄로"
- BRY_Otto_Braun_for: "오토 브라운"
- BRY_Maya_Ulanovskaya_eco: "마야 울라노프스카야"
- BRY_Mikhail_Markheev_sec: "미하일 마르헤예프"
+ ### Character Loc ###
+ # Leaders #
+ BRY_Valery_Sablin: "발레리 사블린"
+ POLITICS_VALERY_SABLIN_DESC: "1939년 레닌그라드 새해축하 행사 도중에 태어난 발레리 사블린은 일가족이 완전히 박살난 상임 간부회 잔당과 함께 동부로 피난갔을 때에도 고작 어린 아이였습니다. 그의 아버지는 최고소비에트 상임간부회의 일원이자 해군 장교로서 크릭스마리네를 맞이하기 위해 출항했고 파멸을 맞이했습니다. 아버지의 희생을 항상 마음 속에 새겨놓고 있었던 사블린은 거의 경험해 본 적도 없던 연방과 아버지가 목숨 바쳐가며 싸웠던 혁명을 꿈꾸며 자랐습니다. 야고다의 지휘력에 의구심을 품었음에도 불구하고 사블린은 자진해서 정치장교로 군에 입대했는데 이는 아고다의 전체주의적 제국에 대한 충성심의 발로가 아니라 아직까지 자리를 지키고 서있는 금방이라도 무너질듯한 사관학교 안 깊은 곳에서 자신이 품던 의문에 대한 대답을 찾을 수 있을지도 모른다는 어찌 보면 바보같은 희망에서 나온 결정이었습니다. 이것이 진짜로 이전 시대의 사람들이 원하던 것이었을까요? 그는 실망에 빠졌습니다. 그가 찾아낸 얼마 되지 않는 책들은 읽기 불가능할 정도로 검열된 상태였으며, NKVD가 언제 어디서나 그를 감시하고 있다는 사실을 깨달았기 때문이었습니다.\n\n중앙 시베리아 전쟁이 동부를 불태울 때에도 사블린은 충실히 복무했고 부하들에게 사회주의와 평등을 위해 싸우도록 사기를 북돋아 주는 역할을 수행했습니다. 하지만 부하들이 더 많은 지도를 원할수록 정말 자신이 옳은 편에 서 있는가 하는 의문은 커져만 갔습니다. 마침내 그의 의구심이 폭발했습니다. 사블린은 충성스러운 병사 몇 명을 데리고 라디오 방송국을 급습해 동방 전역에서 들을 수 있도록 방송을 내보냈습니다. 여기서 사블린은 러시아 인민들이 맞닥트린 고난에 대해 진심으로 이야기하고 야고다가 휘두르는 공포로부터 자유로우며 진정으로 평등한 사회주의 국가에 관한 꿈을 발표했습니다. 그는 누구도 자신의 발표를 들어주지 않으리라 믿었지만, 인민은 그의 발표를 경청해 주었습니다. 꿈을 가진 자, 반체제인사, 젊은이를 위시한 수많은 남녀가 그의 군세에 합류했습니다. 이제 사블린과 혁명가들은 꿈을 위해 궁극적인 희생을 할 준비를 마쳤고 미래를 위해 싸우고 있습니다."
 
- BRY_Alexander_Vlasov_hog: "알렉산드르 블라소프"
- BRY_Alexandra_Achkasova_eco: "알렉산드라 아치카소바"
+ # Ministers #
+ BRY_Susanna_Pechuro: "Susanna Pechuro"
+ BRY_Susanna_Pechuro_hog_desc: "§YHead of Government§!\n§YCommunism§!\n------------\n§L§!"
+ BRY_Otto_Braun: "Otto Braun"
+ BRY_Otto_Braun_for_desc: "§YForeign Minister§!\n§YBukharinism§!\n------------\n§L§!"
+ BRY_Maya_Ulanovskaya: "Maya Ulanovskaya"
+ BRY_Maya_Ulanovskaya_eco_desc: "§YEconomy Minister§!\n§YCommunism§!\n------------\n§L§!"
+ BRY_Mikhail_Markheev: "Mikhail Markheev"
+ BRY_Mikhail_Markheev_sec_desc: "§YSecurity Minister§!\n§YBukharinism§!\n------------\n§L§!"
+
+ BRY_Alexander_Vlasov: "Alexander Vlasov"
+ BRY_Alexander_Vlasov_hog_desc: "§YHead of Government§!\n§YBukharinism§!\n------------\n§L§!"
+ BRY_Alexandra_Achkasova: "Alexandra Achkasova"
+ BRY_Alexandra_Achkasova_eco_desc: "§YEconomy Minister§!\n§YBukharinism§!\n------------\n§L§!"
+ 
+ # Generals #
+ BRY_Ilya_Baldinov: "Ilya Baldinov"
+ BRY_Badma_Zhabon: "Badma Zhabon"
+ BRY_Boris_Slutsky: "Boris Slutsky"
+ BRY_Namsaray_Badmazhabe: "Namsaray Badmazhabe"
+ BRY_Vladilen_Furman: "Vladilen Furman"
+ BRY_Evgeny_Gurevich: "Evgeny Gurevich"
+ BRY_Gurzhap_Ochirov: "Gurzhap Ochirov"
+ BRY_Dzhems_Chulkov: "Dzhems Chulkov"
+ BRY_Viktor_Potapov: "Viktor Potapov"
 
  ### Ideas ###
  BRY_uncertain_revolutionaries: "이상주의 혁명가"
