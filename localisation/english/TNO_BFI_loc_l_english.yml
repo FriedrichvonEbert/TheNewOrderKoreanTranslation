@@ -2,41 +2,79 @@
 
  ## BATTLE FOR ITALY REWORK ##
  ## GUI
+ TNO_BFI_GUI_Issue_tt:0 "문제: [BFI_current_issue_text]"
+ TNO_BFI_GUI_Points_tt:0 "점수: [?bfi_points_available]"
+
+
+ BFI_gui_italy_name:0 "이탈리아"
+ BFI_gui_usa_name:0 "미국"
+ BFI_gui_japan_name:0 "일본"
+ 
  # Button 1
+ BFI_gui_action_button_1_name:0 "No Investment"
  BFI_gui_action_button_1_tt:0 "[BFI_gui_action_button_1_sl_tt]"
  BFI_gui_action_button_1_delayed_tt:0 "[BFI_gui_action_button_1_sl_delayed_tt]"
  # Button 2
+ BFI_gui_action_button_2_name:0 "Minimal Investment"
  BFI_gui_action_button_2_tt:0 "[BFI_gui_action_button_2_sl_tt]"
  BFI_gui_action_button_2_delayed_tt:0 "[BFI_gui_action_button_2_sl_delayed_tt]"
  # Button 3
+ BFI_gui_action_button_3_name:0 "Mild Investment"
  BFI_gui_action_button_3_tt:0 "[BFI_gui_action_button_3_sl_tt]"
  BFI_gui_action_button_3_delayed_tt:0 "[BFI_gui_action_button_3_sl_delayed_tt]"
  # Button 4
+ BFI_gui_action_button_4_name:0 "Medium Investment"
  BFI_gui_action_button_4_tt:0 "[BFI_gui_action_button_4_sl_tt]"
  BFI_gui_action_button_4_delayed_tt:0 "[BFI_gui_action_button_4_sl_delayed_tt]"
  # Button 5
+ BFI_gui_action_button_5_name:0 "High Investment"
  BFI_gui_action_button_5_tt:0 "[BFI_gui_action_button_5_sl_tt]"
  BFI_gui_action_button_5_delayed_tt:0 "[BFI_gui_action_button_5_sl_delayed_tt]"
  # Button 6
+ BFI_gui_action_button_6_name:0 "Maximum Investment"
  BFI_gui_action_button_6_tt:0 "[BFI_gui_action_button_6_sl_tt]"
  BFI_gui_action_button_6_delayed_tt:0 "[BFI_gui_action_button_6_sl_delayed_tt]"
  
  #issues tooltips
- TNO_BFI_GUI_Italy_Window_T5_button_3:0 "This will affect:\n\nEncryption\nDecryption\n§YSuez§! Radar Station\n§YKuwait§! Radar Station\n§YTrentino§! Radar Station"
- TNO_BFI_GUI_Italy_Window_T5_button_2:0 "This will affect:\n\nInvasion Preparation Time\nDaily Army Experience\nDaily Navy Experience\nDaily Air Experience"
+ TNO_BFI_GUI_Italy_Window_T5_text_tt:0 "Military Affairs"
+ TNO_BFI_GUI_Italy_Window_T5_button_1_name:0 "Going Nuclear"
  TNO_BFI_GUI_Italy_Window_T5_button_1:0 "This will affect:\n\nResearch Speed"
- TNO_BFI_GUI_Italy_Window_T4_button_3:0 "This will affect:\n\nResources to Market\nTrade Opinion\nAnnual GDP Growth\nMonthy Poverty Rate"
- TNO_BFI_GUI_Italy_Window_T4_button_2:0 "This will affect:\n\nResearch bonus for: §YInfantry Weapons§!\nResearch bonus for: §YMain Battle Tank§!\nFactory Output"
+ TNO_BFI_GUI_Italy_Window_T5_button_2_name:0 "Joint Exercises"
+ TNO_BFI_GUI_Italy_Window_T5_button_2:0 "This will affect:\n\nInvasion Preparation Time\nDaily Army Experience\nDaily Navy Experience\nDaily Air Experience"
+ TNO_BFI_GUI_Italy_Window_T5_button_3_name:0 "Bridge of Spies"
+ TNO_BFI_GUI_Italy_Window_T5_button_3:0 "This will affect:\n\nEncryption\nDecryption\n§YSuez§! Radar Station\n§YKuwait§! Radar Station\n§YTrentino§! Radar Station"
+
+ TNO_BFI_GUI_Italy_Window_T4_text_tt:0 "Strengthening Italy"
+ TNO_BFI_GUI_Italy_Window_T4_button_1_name:0 "The Enemy of My Enemy"
  TNO_BFI_GUI_Italy_Window_T4_button_1:0 "This will affect:\n\nEncryption\nMax Planning\nPlanning Speed"
- TNO_BFI_GUI_Italy_Window_T3_button_3:0 "This will affect:\n\nMonthly Industrial Expertise\nMonthly Industrial Equipment\nMonthly Poverty Rate"
- TNO_BFI_GUI_Italy_Window_T3_button_2:0 "This will affect:\n\nTrade Deal Opinion Factor\nIdeology Drift Defense\nDaily Political Power"
+ TNO_BFI_GUI_Italy_Window_T4_button_2_name:0 "Engines of War"
+ TNO_BFI_GUI_Italy_Window_T4_button_2:0 "This will affect:\n\nResearch bonus for: §YInfantry Weapons§!\nResearch bonus for: §YMain Battle Tank§!\nFactory Output"
+ TNO_BFI_GUI_Italy_Window_T4_button_3_name:0 "Trade Compacts"
+ TNO_BFI_GUI_Italy_Window_T4_button_3:0 "This will affect:\n\nResources to Market\nTrade Opinion\nAnnual GDP Growth\nMonthy Poverty Rate"
+ 
+ TNO_BFI_GUI_Italy_Window_T3_text_tt:0 "Opening the Empire"
+ TNO_BFI_GUI_Italy_Window_T3_button_1_name:0 "Politics of Petrol"
  TNO_BFI_GUI_Italy_Window_T3_button_1:0 "This will affect:\n\nResources to Market\nNeeded Consumer Goods"
- TNO_BFI_GUI_Italy_Window_T2_button_3:0 "This will affect:\n\nMonthly Agricultural Methods\nMonthly Poverty Rate"
- TNO_BFI_GUI_Italy_Window_T2_button_2:0 "This will affect:\n\nDaily Political Power\nResearch Speed\nMonthly Academic Base\nMonthly Research Facilities"
+ TNO_BFI_GUI_Italy_Window_T3_button_2_name:0 "Diplomatic Accords"
+ TNO_BFI_GUI_Italy_Window_T3_button_2:0 "This will affect:\n\nTrade Deal Opinion Factor\nIdeology Drift Defense\nDaily Political Power"
+ TNO_BFI_GUI_Italy_Window_T3_button_3_name:0 "Investment in the Italosphere"
+ TNO_BFI_GUI_Italy_Window_T3_button_3:0 "This will affect:\n\nMonthly Industrial Expertise\nMonthly Industrial Equipment\nMonthly Poverty Rate"
+
+ TNO_BFI_GUI_Italy_Window_T2_text_tt:0 "Reversing Autarky"
+ TNO_BFI_GUI_Italy_Window_T2_button_1_name:0 "Industrial Endeavours"
  TNO_BFI_GUI_Italy_Window_T2_button_1:0 "This will affect:\n\nMonthly Industrial Expertise\nAnnual GDP Growth"
- TNO_BFI_GUI_Italy_Window_T1_button_3:0 "This will affect:\n\nMonthly Population\nTourism Income"
- TNO_BFI_GUI_Italy_Window_T1_button_2:0 "This will affect:\n\nResources to Market\nMonthly Industrial Equipment\nMonthly Industrial Expertise"
+ TNO_BFI_GUI_Italy_Window_T2_button_2_name:0 "The Meanders of Academia"
+ TNO_BFI_GUI_Italy_Window_T2_button_2:0 "This will affect:\n\nDaily Political Power\nResearch Speed\nMonthly Academic Base\nMonthly Research Facilities"
+ TNO_BFI_GUI_Italy_Window_T2_button_3_name:0 "Agricultural Agreements"
+ TNO_BFI_GUI_Italy_Window_T2_button_3:0 "This will affect:\n\nMonthly Agricultural Methods\nMonthly Poverty Rate"
+ 
+ TNO_BFI_GUI_Italy_Window_T1_text_tt:0 "International Society"
+ TNO_BFI_GUI_Italy_Window_T1_button_1_name:0 "Cultural Exchange"
  TNO_BFI_GUI_Italy_Window_T1_button_1:0 "This will affect:\n\nDaily Political Power\nImprove Opinion"
+ TNO_BFI_GUI_Italy_Window_T1_button_2_name:0 "Made in Italy"
+ TNO_BFI_GUI_Italy_Window_T1_button_2:0 "This will affect:\n\nResources to Market\nMonthly Industrial Equipment\nMonthly Industrial Expertise"
+ TNO_BFI_GUI_Italy_Window_T1_button_3_name:0 "Transoceanic Tourism"
+ TNO_BFI_GUI_Italy_Window_T1_button_3:0 "This will affect:\n\nMonthly Population\nTourism Income"
 
  # No issue selected
  BFI_gui_action_button_1_ITA_tt:0 "우리 문제를 §R무시§!할 수 없습니다."
@@ -1685,7 +1723,7 @@ BFI.13.a:0 "Damn..."
 
 BFI.14.t:0 "공영권이 유럽에 발을 딪다" # ( Japan Event ) Italy joins the CPS! Very nice for us!
 BFI.14.d:0 "Celebrations broke out in cities across the Sphere today as Tokyo and Rome officially signed Italian entry into the Co-Prosperity Sphere\nWhile some analysts feared that Italy might instead join the America-led OFN, the Sphere's perseverance and close ties with Italy seem to have won the day.\n\nWith this move the Sphere's interests in the west are one step closer to being secure. The Sphere not only gains a large foothold on the Einheitspakt's very doorstep, it also guarantees the Sphere access to some of the world's most vital trade routes including the Suez Canal. Not to mention important Middle-Eastern oil supplies.\n\nThe announcement of the alliance has led to a small surge of "Italiamania" among the population, with Italian music records selling faster than stores can import them and language schools being inundated with requests for Italian lessons."
-BFI.14.a:0 "They made the right choice"
+BFI.14.a:0 "They made the right choice."
 
 BFI.15.t:0 "Italy maintains its independence" # ( Italy Event ) We maintain diplomatic freedom! We aren't joining any faction!
 BFI.15.d:0 "The Americans and the Japanese circled us like vultures to a fresh corpse, but we stood strong. In the interests of enjoying our independence, and in the name of every Italian, we have announced that we shall not join any faction championed by the powers of the West and of the East. Our diplomatic freedom allows us to decide on issues as they come, not facing any undue pressure due to our ties, and to act always in the best interest of Italy."
