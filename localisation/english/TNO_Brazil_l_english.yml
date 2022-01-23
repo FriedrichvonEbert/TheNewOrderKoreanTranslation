@@ -1,7 +1,6 @@
 ﻿l_english:
  brazil.1000.desc: "PTB 의석: [?BRA_PTB_seats]\n\nPSD 의석: [?BRA_PSD_seats]\n\nPSP 의석: [?BRA_PSP_seats]\n\nUDN 의석: [?BRA_UDN_seats]\n\nPRP 의석: [?BRA_PRP_seats]" # use this event to check senate seats
 
- BRA_trans_amazon_highway: "아마조니아 횡단 고속도로 변동치"
  BRA_development_modifier: "개발 변동치"
  BRA_inflation_modifier: "인플레이션 변동치"
  BRA_corruption_level: "부패 변동치"
@@ -16,7 +15,7 @@
  
  BRA_new_cabinet_tt: "§Y내각이 교체됩니다.§!"
  BRA_new_cabinet_muller_tt: "§YFilinto Müller will assume the Vice-Presidency.§!"
- BRA_new_cabinet_muller_tt: "§YJoão Goulart will assume the Vice-Presidency.§!"
+ BRA_new_cabinet_goulart_tt: "§YJoão Goulart will assume the Vice-Presidency.§!"
  
  BRA_denounce_guyana_war: "가이아나 전쟁 비난"
  BRA_support_guyana_war: "가이아나 전쟁 지원"
@@ -65,7 +64,7 @@
  BRA_idea_RK_settlement_bad_cg_mp_desc: "The Lobster War has ended... But at what price?\n\nOur negotiators have given much concessions, and received very little guarantees in return. At home, public opposition has not been contained to those who make a living from the sea's bounty. The people ask why their leadership has given up so easily to the enemy. After all, more than lobster was at stake!\n\nPopular anger is not everything, however. The War is over, and our government is free to focus on new concerns. Our former enemies might have conceded little, but this imperfect peace is much preferable to the uncertainties of war. The people will get over their disappointment."
   
  BRA_idea_overbearing_military: "강압적인 군부"
- BRA_idea_overbearing_military_desc: "While the constitution states that the elected Presidency and Legislature hold the power in Brazil, this is not an idea shared by everyone. In barracks and poker games between some Generals, it is discussed what Brazil would be like if an unfortunate hypothetical scenario were to occur and the military were to be in charge.\n\nThe Fourth Republic was born out of the fire of a military coup and throughout the fifties there were many close calls where a coup could have occurred. However, through the work of some generals and politicians such as Lott, the military has been appeased and coups have so far been prevented.\n\n§xBut if a disastrous event was to occur in Brazil, the military might be forced to intervene.§!"
+ BRA_idea_overbearing_military_desc: "While the constitution states that the elected Presidency and Legislature hold the power in Brazil, this is not an idea shared by everyone. In barracks and poker games between some Generals, it is discussed what Brazil would be like if an unfortunate hypothetical scenario were to occur and the military were to be in charge.\n\nThe Fourth Republic was born out of the fire of a military coup and throughout the fifties there were many close calls where a coup could have occurred. However, through the work of some generals and politicians such as Lott, the military has been appeased and coups have so far been prevented.\n\n§OBut if a disastrous event were to occur in Brazil, the military might be forced to intervene.§!"
  BRA_trans_amazon_highway: "아마조니아 횡단 고속도로"
  BRA_idea_trans_amazon_highway: "아마조니아 횡단 고속도로"
  BRA_idea_trans_amazon_highway_desc: "The Trans-Amazonian Highway is President Lott's grand ambition: a roadway stretching across the inhospitable Amazon, opening the rainforest to development and connecting Brazil to Colombia.\n\n§WDaily Political Power Gain: §R[?BRA_develop_pp_cost|2]§W\nConsumer Goods Factories: §Y[?BRA_develop_highway_consumer_goods|1%]§!"
@@ -87,14 +86,14 @@
  BRA_Agrarian_Reform_Stronger_desc: "President Lott's Agrarian Reform bill has passed. Now the law of the land, rural citizens are now feeling the effects of its implementation.\n\nBacked by energized allies in the dominant coalition as well as a few populists within the opposition, President Lott's reform package has gained speed as it has sailed through the Senado. The scope of the project and the ressources attributed to it are beyond the President's initial targets.\n\nIn the countryside, a quiet revolution has begun as large magnates are seeing their empires parceled off to dispossessed families. The new independent farmers are enrolling into agricultural colleges in great numbers, as the state prepares them for their new life. Not all will become prosperous, but an overwhelming majority will be given the dignity of providing for their family.\n\nThe reforms are progressing at a breakneck pace. While the ever cautious President Lott is putting on the brakes here and there to prevent possible corruption or legal mishaps, he has been delighted at the speed at which his plan is proceeding. His joy has been matched by thousands of rural families, their life forever improved by this new era. "
  BRA_army_nepotism_5: "육군의 파벌주의: §x심각함§!"
  BRA_army_nepotism_5_desc: "The Army has escaped completely out of our control. Shadowy puppetmasters, with their own interests, define who moves within the bureocracy, and what happens within it, and any actions we take against this beast is dilluted by the raw corruption laid within. Either we purge this disease, or §xthey will get delusions of control.§!"
- BRA_army_nepotism_4: "육군의 파벌주의: 높음"
+ BRA_army_nepotism_4: "육군의 파벌주의: §R높음§!"
  BRA_army_nepotism_4_desc: "Many in the bureocratical branches of the army turn to their benefactors rather than our authority, and many "promotions" are sketchy at best. While unnaceptable, it is still remediable, if we keep our chin upward and keep chipping at their hold."
- BRA_army_nepotism_3: "육군의 파벌주의: 중간"
+ BRA_army_nepotism_3: "육군의 파벌주의: §f중간§!"
  BRA_army_nepotism_3_desc: "The Army, as it stand, is split apart. The constitutionalists refer to the government as the final authority, but it's no secret that many generals and marechals have their loyalty not the Republic and Brazil, but to whoever put them in place. If we desire to not constantly watch our back against our own protectors, we need to excise this cancer from our armed forces."
- BRA_army_nepotism_2: "육군의 파벌주의: 낮음"
+ BRA_army_nepotism_2: "육군의 파벌주의: §B낮음§!"
  BRA_army_nepotism_2_desc: "The Beast, to the shadowy puppets discontent, bleeds. Members of the army, long neglected a real chance of promotion, are seen now for their value to the armed forces, not by favours. The tug of war, however is not over yet."
  BRA_army_nepotism_1: "육군의 파벌주의: §n미미함§!"
- BRA_army_nepotism_1_desc: "Only in an utopia would our army be a true stratocracy, but we've reached as close as possible to this ideal. Effort will be due rewarded in the Army, and not by the whims of corrupt Marechals, but by the devotion they've had for Brazil, and our nation. §nArmy and State, for the first time in a long time, walk as equal, not as rivals.§!"
+ BRA_army_nepotism_1_desc: "Only in an utopia would our army be a true meritocracy, but we've reached as close as possible to this ideal. Effort will be due rewarded in the Army, and not by the whims of corrupt Marechals, but by the devotion they've had for Brazil, and our nation. §nArmy and State, for the first time in a long time, walk as equal, not as rivals.§!"
 
  BRA_idea_nationwide_chaos_max: "마비된 국가"
  BRA_idea_nationwide_chaos_high: "전국구 혼란"
