@@ -2,12 +2,13 @@
  RESEARCH_BONUSES_TOOLTIP:0 "제한된 기술 혜택:"
  RESEARCH_BONUSES_EMPTY_TOOLTIP:0 "제한된 기술 혜택이 여기에 열거될 것입니다."
  RESEARCH_BONUS_SPEED_DESC:0 "§Y$COUNT$x§! $VALUE|G%0$연구속도 $NAME$"
- RESEARCH_BONUS_AHEAD_DESC:0 "§Y$COUNT$x§! $VALUE|G.1$년의 단축시간으로 $NAME$(이)가 감소합니다."
- RESEARCH_BONUS_SPEED_AHEAD_DESC:0 "연구속도 §Y$COUNT$x§! $VALUE1|G%0$와 $VALUE2|G.1$년의 단축시간으로 $NAME$(이)가 감소합니다"
- RESEARCH_BONUS_SPEED_NO_COUNT_DESC:0 "연구 속도가 $VALUE|G%0$ 까지 늘어날 것입니다."
- RESEARCH_BONUS_AHEAD_NO_COUNT_DESC:0 "시대를 앞서 나간 불이익은  $VALUE|.1G$로 줄어들 것입니다."
+ RESEARCH_BONUS_AHEAD_DESC:1 "§Y$COUNT$x§! $VALUE|G.1$년의 단축시간으로 $NAME$(이)가 감소합니다."
+ RESEARCH_BONUS_SPEED_AHEAD_DESC:1 "연구속도 §Y$COUNT$x§! $VALUE1|G%0$와 $VALUE2|G.1$년의 단축시간으로 $NAME$(이)가 감소합니다"
+ RESEARCH_BONUS_SPEED_NO_COUNT_DESC:1 "연구 속도가 $VALUE|G%0$ 까지 늘어날 것입니다."
+ RESEARCH_BONUS_AHEAD_NO_COUNT_DESC:1 "시대를 앞서 나간 불이익은  $VALUE|.1G$로 줄어들 것입니다."
  RESEARCH_BONUS_SPEED_AHEAD_NO_COUNT_DESC:2 "연구 속도는 $VALUE|G%0$로 증가하고 선행 연구 불이익은 $VALUE2|.1G$로 줄어들 것입니다."
  RESEARCH_BONUS_VALUE_DESC:0 "연구 혜택: $VALUE|Y%0$"
+ RESEARCH_BONUS_COST_REDUCTION:0 "Cost Reduction bonus: $NAME$: -$VALUE|G%0$"
  TECH_BASE_COST:0 "기본 비용: $BASE|Y0$ 일\n"
  TECH_ALREADY_RESEARCHED_COST:0 "이미 연구됨: $POINTS|0Y$ 일\n"
  RESEARCH_NO_RESEARCH:0 "사용되지 않음"
@@ -22,12 +23,13 @@
  RESEARCH_REPLACE_EXCLUSIVE_TITLE:0 "상호 배타적인 연구를 교체합니다"
  RESEARCH_REPLACE_EXCLUSIVE_DESC:0 "정말로 §Y$OLD_TECH$§! 대신에 §Y$NEW_TECH$§! 를 연구하고 모든 하위 기술들을 바꾸겠습니까?"
  RESEARCH_EXCLUSIVE_INFO_TITLE_TOOLTIP:0 "§R이 연구는 다음 연구와 상호 배타적:§!"
+ RESEARCH_DOCTRINE_EXCLUSIVE_INFO_TITLE_TOOLTIP:0 "§RThe doctrine is mutually exclusive with:§!"
  RESEARCH_EXCLUSIVE_INFO_DESC:0 "다음과 상호 배타적 :"
  RESEARCH_EXCLUSIVE_INFO_ENTRY:0 "$TECH|Y$"
  RESEARCH_YEAR_AHEAD_PENALTY_NO_VALUE:0 "§R$YEARS|2$년을 앞선 선행 연구입니다. 연구 시기가 빠를수록, 연구 시간에 더 큰 불이익을 받습니다.§!"
- RESEARCH_YEAR_AHEAD_PENALTY:0 "§R기술이 $YEARS|2$년 앞선 것입니다 (+$VALUE|%0$). 시간이 갈수록 불이익은 줄어들 것입니다.§!"
+ RESEARCH_YEAR_AHEAD_PENALTY:1 "§R기술이 $YEARS|2$년 앞선 것입니다 (+$VALUE|%0$). 시간이 갈수록 불이익은 줄어들 것입니다.§!"
  RESEARCH_YEAR_AHEAD_PENALTY_RED:2 "§R기술은 $YEARS|2$년 앞선 것이지만 (+$VALUE|%0$), 선행 연구로 인한 불이익은 국가 방침에 따라 $REDUCED_YEARS|.1$년 (+$RED|%0$) 만큼 줄어들었습니다. 시간이 갈수록 불이익은 줄어들 것 입니다.§!"
- RESEARCH_TECH_UNUSED:0 "§G연구하려면 클릭§!\n30일 이내에, 연구 시간의 손실 없이 연구할 새로운 분야를 선택할 수 있습니다."
+ RESEARCH_TECH_UNUSED:1 "§G연구하려면 클릭§!\n30일 이내에, 연구 시간의 손실 없이 연구할 새로운 분야를 선택할 수 있습니다."
  RESEARCH_NO_LONGER_AVAILABLE:0 "$RESEARCH|H$\n§R더 이상 사용할 수 없음 - 다음 날 제거될 것입니다§!"
  RESEARCH_EQUIPMENT_HEADER:0 "장비"
  RESEARCH_UPGRADES_HEADER:0 "업그레이드"
@@ -41,16 +43,6 @@
  RESEARCH_MESSAGE_UNLOCKED_TITLE:0 "연구 완료!"
  RESEARCH_MESSAGE_UNLOCKED_DESC:0 "우리 나라는 다음 연구를 완료했습니다 $NAME|Y$.\n $DESC$"
  RESEARCH_INSTANT_DESC:0 "하나 이상 완료된 기술이 있는 계통도를 변경하면 연구는 즉시 이루어집니다."
- # RESEARCH_BONUS_AHEAD_DESC:0 "§Y$COUNT$x§! $VALUE|G%0$ ahead of time $NAME$" #duplicate loc key
- # RESEARCH_BONUS_SPEED_AHEAD_DESC:0 "§Y$COUNT$x§! $VALUE1|G%0$ research speed and $VALUE2|G%0$ ahead of time $NAME$" #duplicate loc key
- # RESEARCH_BONUS_SPEED_NO_COUNT_DESC:0 "Research time will be reduced by $VALUE|G%0$" #duplicate loc key
- # RESEARCH_BONUS_AHEAD_NO_COUNT_DESC:0 "Ahead of time penalty will be reduced by $VALUE|G%0$" #duplicate loc key
- # RESEARCH_BONUS_SPEED_AHEAD_NO_COUNT_DESC:0 "Research time will be reduced by $VALUE|G%0$ and ahead of time penalty reduced by $VALUE2|G%0$" #duplicate loc key
- # RESEARCH_YEAR_AHEAD_PENALTY_RED:0 "§RTechnology is $YEARS|2$ years ahead of time (+$VALUE|%0$), but the ahead of time penalty have been reduced to (+$RED|%0$) due to national focuses. The penalty will decrease over time.§!" #duplicate loc key
- RESEARCH_PROGRESS_DONE:0 "§T연구된 시간: $WEEKS|H$§!"
- RESEARCH_PROGRESS_COMPACT:0 "§T$DAYS|H$ 일§!"
- RESEARCH_PROGRESS_INSTANT:0 "§T즉시§!"
- already_researching:0 "§G당신은 이미 이 기술을 연구하고 있습니다.§!"
  AIR_TITLE_CAS:0 "근접항공\n지원기"
  AIR_TITLE_FIGHTER:0 "전간기 복엽기"
  AIR_TITLE_NAV:0 "전투기"
@@ -98,7 +90,10 @@
  BATTLEFIELD_SUPPORT_DESC:0 "우리 공군은 하늘을 완벽하게 통제하며 적 공군이 효과적으로 개입할 수 없을 정도의 공중 우세를 유지할 것입니다. 우리는 지구 전역에서 벌어지는 우리 군사적 선택에 항공 지원을 제공할 수 있어야 하며 언제나 어디든지 타격할 수 있도록 장거리 폭격기 편대를 단단히 준비해둬야 합니다."
  OPERATIONAL_INTEGRITY_DESC:0 "우리 국가의 영공은 우리의 것입니다. 우리에게 필요한 것은 우리 국가의 하늘을 완벽하게 지킬 수 있는 공군입니다. 우리는 적 공군의 과도한 개입 없이 지상군과 해상군을 완전히 지원할 수 있도록 지역적 우세를 유지할 것입니다."
  STRATEGIC_DESTRUCTION_DESC:0 "우리 공군의 주목표는 전장의 부대에 항공지원을 해주는 것입니다. 우리 공군은 세상에서 제일 큰 공군은 아니겠지만 COIN기나 경 헬리콥터를 가진다면 저강도전이나 게릴라전에서 큰 차이를 만들 수 있습니다."
+ research_requirements_or:0 "Requires one of the following technologies:"
+ research_requirements_and:0 "Requires the following technologies:"
  RESEARCH_REQUIREMENTS_SINGLE:0 "§R기술 필요 ($TECH$)§!"
+ RESEARCH_DOCTRINE_REQUIREMENTS_SINGLE:0 "§RRequires Doctrine ($TECH$)§!"
  UNUSED_SLOT:0 "연구할 기술 선택"
  ETA_SHORT_D:0 "§T$DAYS|H$ 일§!"
  ETA_SHORT_W:0 "§T$WEEKS|H$ 주§!"
@@ -113,13 +108,16 @@
  DAYS_SAVED_RESEARCH_DESC:0 "단축된 일수: $DAYS|0G$\n"
  NO_RESEARCH_PENALTY:0 "§G기술은 현재 - 연구 불이익이 없습니다§!"
  FINISHED_RESEARCH_POPUP_DESC:0 "...그리고 $NUM|H$ 추가효과가 적용됩니다. 세부사항 보기."
+ RESEARCH_PROGRESS_DONE:0 "§TResearched time: $WEEKS|H$§!"
+ RESEARCH_PROGRESS_COMPACT:0 "§T$DAYS|H$ day(s)§!"
+ RESEARCH_PROGRESS_COMPACT_WITH_XP:0 "§T$DAYS|H$ day(s) ($XP_TEXT$)§!"
+ RESEARCH_PROGRESS_INSTANT:0 "§TInstantly§!"
+ already_researching:0 "§GYou are already researching this technology.§!"
 
  # 일반
  base_cost:0 "기본 비용"
  civilian_industry:0 "민간 산업"
  military_industry:0 "군수 산업"
- research_requirements_or:0 "아래의 기술 중 하나를 필요로 합니다:"
- research_requirements_and:0 "아래의 기술을 필요로 합니다:"
 
  base_strike_main:0 "기지 타격 교리"
 
@@ -153,9 +151,11 @@
 
  excavation_tech_research:0 "채굴"
  computing_tech_research:0 "연산"
- radar_tech_research:0 "레이다"
  construction_tech_research:0 "건설"
  industry:0 "산업"
+ 
+ no_doctrine_chosen:0 "No Doctrine Selected"
+ click_to_open_doctrine:0 "§GClick§! to open doctrines"
  
 #### 카테고리 ####
  air_doctrine:0 "공군 교리"
@@ -214,7 +214,6 @@
  light_fighter:0 "전투기"
  logistics_tech:0 "군수 기술"
  maintenance_company_tech:0 "정비 기술"
- marine_tech:0 "해병 기술"
  medium_air:0 "중형 항공기"
  military_police_tech:0 "헌병대 기술"
  mountaineers_tech:0 "산악 보병 기술"
@@ -264,6 +263,7 @@
  INFANTRY_TITLE_WEAPONS:0 "소총"
  INFANTRY_TITLE_SPECIAL:0 "특수부대"
  INFANTRY_TITLE_MOTORISED:0 "기동 보병"
+ INFANTRY_TITLE_TRAINS:0 "TRAINS"
  INFANTRY_TITLE_SUPPORT:0 "지원 장비"
  INFANTRY_TITLE_SQUAD_WEAPONS:0 "지원화기체계"
  INFANTRY_TITLE_ANTI_TANK_WEAPONS:0 "대전차 무기"
@@ -457,6 +457,11 @@
    infantry_aa13:0 "" #장비 잠금 해제, 그러니 장비 이름과 설명을 씀
    infantry_aa13_desc:0 ""
   ## 보병 대공 ##
+  
+  ## Trains and Rail ##
+  train_tech:0 "Trains and Railways"
+  SUPPORT_TITLE_TRAINS:0 "Trains"
+  ## Trains and Rail ##
 
   ## 곧 삭제됨 ##
    infantry_aa:0 "보병 대공장비 I"
@@ -764,6 +769,10 @@
  # 폴더
  armour_folder:0 "기갑"
  armour_folder_desc:0 "주력전차, 병력 수송 장갑차, 그리고 보병 전투 장갑차"
+ 
+ # NO STEP BACK #
+ nsb_armour_folder:0 "Military Engineering"
+ nsb_armour_folder_desc:0 "Main battle tanks, armored personnel carriers, and infantry fighting vehicles alongside artillery and anti-air equipmnent"
 
  # 레이블 / 섹션 제목
  ARMOUR_TITLE_IFV:0 "보병 전투 차량 (IFV)"
@@ -1029,9 +1038,6 @@
   ## 일반 대포 ##
    artillery_1950_soft_attack:0 "50년형 대포 무장 업그레이드"
    artillery_1950_soft_attack_desc:0 "2대전 설계로 이루어진 이 포탄은 가성비가 좋습니다. 하드 타겟을 부드럽게 만들거나 화력지원을 제공하는데 효율적인 이 포탄은 현대전의 필수품입니다."
-   artillery_1970_soft_attack:0 "70년형 대포 무장 업그레이드"
-   artillery_1970_soft_attack_desc:0 "효율과 파괴력을 계속 개선했더니 매우 파괴적인 포탄을 만들 수 있게 되었습니다. 이 무기는 10년 전에 만든 무기들을 멍청해보이게 만듭니다."
-  ## 일반 대포 ##
 
   ## 경자주포 / Light SPART ##
    # 업그레이드- 속력 (옛날 것)
@@ -1041,13 +1047,6 @@
    light_SPART_1980_speed:0 "80년형 경장갑 자주포 속력 업그레이드"
 
    # 업그레이드- 무장
-   light_SPART_1950_soft_attack:0 "50년형 경장갑 자주포 무장 업그레이드"
-   light_SPART_1950_soft_attack_desc:0 "The early upgrades to SPART guns allowed for more mobility and a higher firing rate within the driving brand, enabling greater lethality."
-   light_SPART_1960_soft_attack:0 "60년형 경장갑 자주포 무장 업그레이드"
-   light_SPART_1960_soft_attack_desc:0 "전투 경험에 따르면 근거리 총격전에 화력 지원을 할 때 제일 중요한 것은 기동성입니다. 이에 맞춰 설계를 개선할 것입니다."
-   light_SPART_1970_soft_attack:0 "70년형 경장갑 자주포 무장 업그레이드"
-   light_SPART_1970_soft_attack_desc:0 "병사들 몇몇이 불평하던 주포의 정확도 및 신뢰성을 개선할 수 있습니다. 이는 우리 무기 체계가 전투에서 더 효과적으로 작동하게 해줄 것입니다."
-   light_SPART_1980_soft_attack:0 "80년형 경장갑 자주포 무장 업그레이드"
    light_SPART_1980_soft_attack_desc:0 "사거리가 더 긴 미사일을 쏘면서, GPS 유도 시스템을 탑재하도록 미사일 시스템을 업그레이드 할 수 있습니다. GPS 유도 시스템은 압도적인 화력에 레이저와 같이 정밀한 정확도를 더해줄 것입니다."
   ## 경자주포 / Light SPART ##
 
@@ -1057,16 +1056,6 @@
    SPART_1960_speed:0 "60년형 자주포 속력 업그레이드"
    SPART_1970_speed:0 "70년형 자주포 속력 업그레이드"
    SPART_1980_speed:0 "80년형 자주포 속력 업그레이드"
-
-   # 업그레이드- 무장
-   SPART_1950_soft_attack:0 "50년형 자주포 무장 업그레이드"
-   SPART_1950_soft_attack_desc:0 "제2차 세계 대전에서 자주포가 처음 사용된 이후 이 분야에서 이루어진 진보는 자주포를 공수해 공수부대를 지원할 수 있게 해주었습니다."
-   SPART_1960_soft_attack:0 "60년형 자주포 무장 업그레이드"
-   SPART_1960_soft_attack_desc:0 "1960년대 설계된 자주포 무장의 종류는 전보다 다양했습니다. 이는 작전 및 전술적 유연성을 증가시켰습니다."
-   SPART_1970_soft_attack:0 "70년형 자주포 무장 업그레이드"
-   SPART_1970_soft_attack_desc:0 "1970년대에는 미사일이 도입되어 자주포의 무장을 보충했습니다. 미사일은 자주포의 사거리와 대보병 및 대기갑 살상력을 증대시켰습니다."
-   SPART_1980_soft_attack:0 "80년형 자주포 무장 업그레이드"
-   SPART_1980_soft_attack_desc:0 "더 진보한 자주포 주포는 현대 전장의 거의 모든 곳을 지원할 수 있게 해줬습니다. 보병들은 교전을 시작한 후 얼마 지나지 않아 완전한 지원을 받을 수 있게 되었습니다."
   
    # 마지막에 추가한 것들
    
@@ -1094,14 +1083,10 @@
    SPART_1950_armor_2_desc:0 "세라믹 장갑과 같은 신기술이 기갑 차량의 대세가 되어가고 있습니다. 이 기술들을 자주포에 적용하려면 조정이 좀 필요하겠습니다. 그렇지만 이건 생각할 필요도 없는 일입니다."
    SPART_1950_armor_3:0 "50년형 자주포 복합장갑 적용"
    SPART_1950_armor_3_desc:0 "복합장갑은 값비싼 미개척지지만 방호력을 보장합니다. 또한 복합장갑의 가벼움은 전장에 도입할만한 가치가 있습니다."
-   artillery_1950_soft_attack:0 "50년형 야포 무장 업그레이드"
-   artillery_1950_soft_attack_desc:0 "초기 설계로 이루어진 이 포탄은 가성비가 좋습니다. 하드 타겟을 부드럽게 만들거나 화력지원을 제공하는데 효율적인 이 포탄은 현대전의 필수품입니다."
    artillery_1950_soft_attack_2:0 "50년형 야포 '항력감속탄' 도입"
    artillery_1950_soft_attack_2_desc:0 "최근 포병 개발사에서 이루어진 사거리의 혁신이라면 "항력감소탄"입니다. 공기역학적 효율을 증대시키기 위해 많은 양의 연료가 통제 하에 포탄 뒤에서 나오도록 하는거죠. 제대로만 만들어진다면 포탄이 15~30% 더 날아가게 할 수 있습니다."
    artillery_1950_soft_attack_3:0 "50년형 야포 로켓보조탄 도입"
    artillery_1950_soft_attack_3_desc:0 "제일 비싼 방법이기는 하지만 안에 소형 로켓 엔진이 달린 로켓보조탄은 현실적으로 필요한 거리까지 포탄을 날릴 수 있습니다."
-   light_SPAA_1950_air_attack:0 "50년형 경장갑 자주대공포 무장 업그레이드"
-   light_SPAA_1950_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
    light_SPAA_1950_air_attack_2:0 "50년형 경장갑 자주대공포 대구경 포 설치"
    light_SPAA_1950_air_attack_2_desc:0 "제트기는 과거의 소구경 화기를 무용지물로 만들었습니다. 이 무서운 신세계에서 실용적인 선택은 더 긴 사거리와 더 높은 포구초속을 가진 더 큰 포 뿐입니다."
    light_SPAA_1950_air_attack_3:0 "50년형 경장갑 자주대공포 레이다 유도 도입"
@@ -1161,8 +1146,6 @@
    artillery_1960_soft_attack_2_desc:0 "최근 포병 개발사에서 이루어진 사거리의 혁신이라면 "항력감소탄"입니다. 공기역학적 효율을 증대시키기 위해 많은 양의 연료가 통제 하에 포탄 뒤에서 나오도록 하는거죠. 제대로만 만들어진다면 포탄이 16~30% 더 날아가게 할 수 있습니다."
    artillery_1960_soft_attack_3:0 "60년형 야포 로켓보조탄 도입"
    artillery_1960_soft_attack_3_desc:0 "제일 비싼 방법이기는 하지만 안에 소형 로켓 엔진이 달린 로켓보조탄은 현실적으로 필요한 거리까지 포탄을 날릴 수 있습니다."
-   light_SPAA_1960_air_attack:0 "60년형 경장갑 자주대공포 무장 업그레이드"
-   light_SPAA_1960_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
    light_SPAA_1960_air_attack_2:0 "60년형 경장갑 자주대공포 대구경 포 설치"
    light_SPAA_1960_air_attack_2_desc:0 "제트기는 과거의 소구경 화기를 무용지물로 만들었습니다. 이 무서운 신세계에서 실용적인 선택은 더 긴 사거리와 더 높은 포구초속을 가진 더 큰 포 뿐입니다."
    light_SPAA_1960_air_attack_3:0 "60년형 경장갑 자주대공포 레이다 유도 도입"
@@ -1192,8 +1175,8 @@
    antiair_1960_air_attack_3:0 "60년형 대공포 레이다 유도 도입"
    antiair_1960_air_attack_3_desc:0 "기존의 포로 제트기를 격추하는 것은 불가능에 가깝습니다. 하지만, 레이다 유도를 도입하면 포탄을 맞출 수 있습니다. 심히 부정확하긴 하지만 말입니다."
    
-   light_SPART_1970_soft_attack:0 "70년형 경장갑 자주포 포열 개선"
-   light_SPART_1970_soft_attack_desc:0 "The early upgrades to SPART guns allow for more mobility and a higher firing rate within the driving brand, enabling greater lethality."
+   light_SPART_1970_soft_attack:0 "70's Light SPART Armament Upgrade"
+   light_SPART_1970_soft_attack_desc:0 "We can improve the accuracy and the reliability of the main gun, which several of our soldiers have complained about. This will allow our system to be even more effective in combat."
    light_SPART_1970_soft_attack_2:0 "70년형 경장갑 자주포 기관총 설치"
    light_SPART_1970_soft_attack_2_desc:0 "지금의 경자주포는 소구경 무장을 탑재했습니다. 단거리 기관총을 추가한다면 자주포 포대가 어느 정도의 방어 능력을 갖게 됩니다."
    light_SPART_1970_soft_attack_3:0 "70년형 경장갑 자주포 포탄 재설계"
@@ -1222,8 +1205,6 @@
    artillery_1970_soft_attack_2_desc:0 "최근 포병 개발사에서 이루어진 사거리의 혁신이라면 "항력감소탄"입니다. 공기역학적 효율을 증대시키기 위해 많은 양의 연료가 통제 하에 포탄 뒤에서 나오도록 하는거죠. 제대로만 만들어진다면 포탄이 17~30% 더 날아가게 할 수 있습니다."
    artillery_1970_soft_attack_3:0 "70년형 야포 로켓보조탄 도입"
    artillery_1970_soft_attack_3_desc:0 "제일 비싼 방법이기는 하지만 안에 소형 로켓 엔진이 달린 로켓보조탄은 현실적으로 필요한 거리까지 포탄을 날릴 수 있습니다."
-   light_SPAA_1970_air_attack:0 "70년형 경장갑 자주대공포 무장 업그레이드"
-   light_SPAA_1970_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
    light_SPAA_1970_air_attack_2:0 "70년형 경장갑 자주대공포 대구경 포 설치"
    light_SPAA_1970_air_attack_2_desc:0 "제트기는 과거의 소구경 화기를 무용지물로 만들었습니다. 이 무서운 신세계에서 실용적인 선택은 더 긴 사거리와 더 높은 포구초속을 가진 더 큰 포 뿐입니다."
    light_SPAA_1970_air_attack_3:0 "70년형 경장갑 자주대공포 레이다 유도 도입"
@@ -1234,8 +1215,6 @@
    light_SPAA_1970_armor_2_desc:0 "세라믹 장갑과 같은 신기술이 기갑 차량의 대세가 되어가고 있습니다. 이 기술들을 자주대공포에 적용하려면 조정이 좀 필요하겠습니다. 그렇지만 이건 생각할 필요도 없는 일입니다."
    light_SPAA_1970_armor_3:0 "70년형 경장갑 자주대공포 복합장갑 적용"
    light_SPAA_1970_armor_3_desc:0 "복합장갑은 값비싼 미개척지지만 방호력을 보장합니다. 또한 복합장갑의 가벼움은 전장에 도입할만한 가치가 있습니다."
-   SPAA_1970_air_attack:0 "70년형 자주대공포 무장 업그레이드"
-   SPAA_1970_air_attack_desc:0 "냉전이 시작되며, 자주대공포가 제트기를 더 잘 상대할 수 있도록 화포 기반 플랫폼의 화력이 증강되고 사거리가 증가했습니다."
    SPAA_1970_air_attack_2:0 "70년형 자주대공포 대구경 포 설치"
    SPAA_1970_air_attack_2_desc:0 "제트기는 과거의 소구경 화기를 무용지물로 만들었습니다. 이 무서운 신세계에서 실용적인 선택은 더 긴 사거리와 더 높은 포구초속을 가진 더 큰 포 뿐입니다."
    SPAA_1970_air_attack_3:0 "70년형 자주대공포 레이다 유도 도입"
@@ -1254,7 +1233,6 @@
    antiair_1970_air_attack_3_desc:0 "기존의 포로 제트기를 격추하는 것은 불가능에 가깝습니다. 하지만, 레이다 유도를 도입하면 포탄을 맞출 수 있습니다. 심히 부정확하긴 하지만 말입니다."
    
    light_SPART_1980_soft_attack:0 "80년형 경장갑 자주포 포열 개선"
-   light_SPART_1980_soft_attack_desc:0 "The early upgrades to SPART guns allow for more mobility and a higher firing rate within the driving brand, enabling greater lethality."
    light_SPART_1980_soft_attack_2:0 "80년형 경장갑 자주포 기관총 설치"
    light_SPART_1980_soft_attack_2_desc:0 "지금의 경자주포는 소구경 무장을 탑재했습니다. 단거리 기관총을 추가한다면 자주포 포대가 어느 정도의 방어 능력을 갖게 됩니다."
    light_SPART_1980_soft_attack_3:0 "80년형 경장갑 자주포 포탄 재설계"
@@ -1283,8 +1261,6 @@
    artillery_1980_soft_attack_2_desc:0 "최근 포병 개발사에서 이루어진 사거리의 혁신이라면 "항력감소탄"입니다. 공기역학적 효율을 증대시키기 위해 많은 양의 연료가 통제 하에 포탄 뒤에서 나오도록 하는거죠. 제대로만 만들어진다면 포탄이 18~30% 더 날아가게 할 수 있습니다."
    artillery_1980_soft_attack_3:0 "80년형 야포 로켓보조탄 도입"
    artillery_1980_soft_attack_3_desc:0 "제일 비싼 방법이기는 하지만 안에 소형 로켓 엔진이 달린 로켓보조탄은 현실적으로 필요한 거리까지 포탄을 날릴 수 있습니다."
-   light_SPAA_1980_air_attack:0 "80년형 경장갑 자주대공포 무장 업그레이드"
-   light_SPAA_1980_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
    light_SPAA_1980_air_attack_2:0 "80년형 경장갑 자주대공포 대구경 포 설치"
    light_SPAA_1980_air_attack_2_desc:0 "제트기는 과거의 소구경 화기를 무용지물로 만들었습니다. 이 무서운 신세계에서 실용적인 선택은 더 긴 사거리와 더 높은 포구초속을 가진 더 큰 포 뿐입니다."
    light_SPAA_1980_air_attack_3:0 "80년형 경장갑 자주대공포 레이다 유도 도입"
@@ -1295,8 +1271,6 @@
    light_SPAA_1980_armor_2_desc:0 "세라믹 장갑과 같은 신기술이 기갑 차량의 대세가 되어가고 있습니다. 이 기술들을 자주대공포에 적용하려면 조정이 좀 필요하겠습니다. 그렇지만 이건 생각할 필요도 없는 일입니다."
    light_SPAA_1980_armor_3:0 "80년형 경장갑 자주대공포 복합장갑 적용"
    light_SPAA_1980_armor_3_desc:0 "복합장갑은 값비싼 미개척지지만 방호력을 보장합니다. 또한 복합장갑의 가벼움은 전장에 도입할만한 가치가 있습니다."
-   SPAA_1980_air_attack:0 "80년형 자주대공포 무장 업그레이드"
-   SPAA_1980_air_attack_desc:0 "냉전이 시작되며, 자주대공포가 제트기를 더 잘 상대할 수 있도록 화포 기반 플랫폼의 화력이 증강되고 사거리가 증가했습니다."
    SPAA_1980_air_attack_2:0 "80년형 자주대공포 대구경 포 설치"
    SPAA_1980_air_attack_2_desc:0 "제트기는 과거의 소구경 화기를 무용지물로 만들었습니다. 이 무서운 신세계에서 실용적인 선택은 더 긴 사거리와 더 높은 포구초속을 가진 더 큰 포 뿐입니다."
    SPAA_1980_air_attack_3:0 "80년형 자주대공포 레이다 유도 도입"
@@ -1390,13 +1364,6 @@
  ### 대포 ###
 
  ### 대공 ###
-  ## 그냥 대공 ##
-   antiair_1950_air_attack:0 "50년형 대공포 무장 업그레이드"
-   antiair_1950_air_attack_desc:0 "While our anti-air cannons are powerful, it has grown quite difficult to effectively land hits on an enemy jet. Improved sights will be added to the weaponry, as well as a radar scanner and improved announcement to do maximum damage."
-   antiair_1970_air_attack:0 "70년형 대공포 무장 업그레이드"
-   antiair_1970_air_attack_desc:0 "현재 우리가 사용하는 미사일은 부정확하고, 따돌리기도 쉬울 뿐만 아니라 모든 방면에서 평균 이하입니다. 추적 컴퓨터를 개선하고 더 나은 미사일을 도입한다면 확인된 격추율이 증가할 것이 틀림 없습니다."
-  ## 그냥 대공 ##
-
   ## 경자주대공포 / Light SPAA ##
    # 업그레이드- 속력 (옛날 것)
    light_SPAA_1950_speed:0 "50년형 경장갑 자주대공포 속력 업그레이드"
@@ -1405,10 +1372,6 @@
    light_SPAA_1980_speed:0 "80년형 경장갑 자주대공포 속력 업그레이드"
 
    # 업그레이드- 무장
-   light_SPAA_1950_air_attack:0 "50년형 경장갑 자주대공포 무장 업그레이드"
-   light_SPAA_1950_air_attack_desc:0 "With additional seed the light SPAA is capable of quickly maneuvering to strategic positions in order to support infantry against enemy aircraft."
-   light_SPAA_1960_air_attack:0 "60년형 경장갑 자주대공포 무장 업그레이드"
-   light_SPAA_1960_air_attack_desc:0 "포탄 속도에 집중한다면, 경자주대공포가 전보다 뛰어난 정확도로 적 항공기 편대를 도륙할 수 있습니다."
    light_SPAA_1970_air_attack:0 "70년형 경장갑 자주대공포 무장 업그레이드"
    light_SPAA_1970_air_attack_desc:0 "신형 목표획득 컴퓨터 시스템은 경자주대공포 운용병이 적 기체 식별 뿐만 아니라, 더 쉽게 격추할 수 있도록 경로를 추적하는 것도 도와줍니다."
    light_SPAA_1980_air_attack:0 "80년형 경장갑 자주대공포 무장 업그레이드"
@@ -1826,7 +1789,6 @@
   
    # Deprecated (Equipment)
    basic_ship_hull_ballistic_submarine:0 "1950년형 탄도 미사일 잠수함 선체"
-   basic_ship_hull_ballistic_submarine:0 "1950년형 탄도 미사일 잠수함 선체"
    improved_ship_hull_ballistic_submarine:0 "1960년형 탄도 미사일 잠수함 선체"
    advanced_ship_hull_ballistic_submarine:0 "1970년형 탄도 미사일 잠수함 선체"
    semi_modern_ship_hull_ballistic_submarine:0 "1980년형 탄도 미사일 잠수함 선체"
@@ -2083,7 +2045,6 @@
   ship_hull_cruiser_coastal_defense_ship:0 "Coastal Defense Ship"
   ship_hull_torpedo_cruiser:0 "Torpedo Cruiser"
   ship_hull_super_heavy_1:0 "Super Heavy Battleship Hull"
-  ship_hull_cruiser_submarine:0 "Cruiser Submarine"
  ### *Possibly* Deprecated / Dont Care ###
 #### NAVAL FOLDER ####
 
@@ -2165,12 +2126,6 @@
  # Assorted
  jet_engines:0 "제트 엔진"
  jet_engines_desc:0 "추진 기술 분야의 신성인 제트 엔진은 완전 새로운 세대의 항공기를 개발할 수 있게 해줄겁니다."
- improved_jet_range_1:0 "외부연료탱크"
- improved_jet_range_1_desc:0 "TODO"
- improved_jet_range_2:0 "발전된 외부연료탱크"
- improved_jet_range_2_desc:0 "TODO"
- stealth_research:0 "스텔스 기술"
- stealth_research_desc:0 "TODO"
 #### LIGHT AIRCRAFT FOLDER ####
 
 
@@ -2185,8 +2140,6 @@
  jet_engines_bombers:0 "대형 제트 엔진"
  jet_engines_bombers_desc:0 "TODO"
  improved_jet_engines_bombers_1:0 "고중량 제트 엔진"
- jet_bomber_equipment_engines:0 "고중량 제트 엔진"
- jet_bomber_equipment_engines_desc:0 "이 장비의 구조는 경량 제트 엔진과 같습니다. 중요한 차이점은 배기량이 더 큰 엔진을 탑재하기 위해 터빈의 크기가 커졌다는 점입니다. 배기량이 더 큰 엔진은 폭격기나 수송기처럼 더 무겁고 더 많은 것을 실은 항공기가 날 수 있게 해줍니다."
  improved_jet_engines_bombers_2:0 "진보된 공중급유"
  improved_jet_engines_bombers_2_desc:0 "TODO"
  heavy_stealth_research:0 "대형 동체 스텔스 기술"
