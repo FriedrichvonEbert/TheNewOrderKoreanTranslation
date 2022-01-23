@@ -58,6 +58,8 @@
  BOR_SIG_AddLoyalty_loc: "충성도 증가"
  BOR_SIG_SubLoyalty_loc: "충성도 감소"
  Kartenhaus_Log_ID_text: "[?TNO_BOR_SIG_GUI_Logs_Gridbox_i]"
+ Kartenhaus_LogBox_Title_tt:0 "INTERACTIONS LOG"
+ Kartenhaus_CountBox_Title_tt:0 "INTERACTIONS COUNT"
 
  BOR_SIG_Log_ReformistName: "§GRef.§!"
  BOR_SIG_Log_ConservativeName: "§LCon.§!"
@@ -200,6 +202,8 @@
  Kartenhaus_DismantleBtn_Execution_text_inactive:0 "§gEXECUTE§!"
  Kartenhaus_DismantleBtn_Execution_text_active:0 "§REXECUTE§!"
  Kartenhaus_DismantleBtn_tt: ""
+ Kartenhaus_ControlPower_Title_tt:0 "CONTROL & FACTION POWER"
+ Kartenhaus_FactionLoyalty_Title_tt:0 "FACTION LOYALTY"
  Kartenhaus_FactionLoyalty_Title_Reformist_text: "§G개혁주의자§!"
  Kartenhaus_FactionLoyalty_Bar_Reformist_tt: "현재 §G개혁주의자§! 지원: §Y[?BOR_ReformistSupport|0]%§!"
  Kartenhaus_FactionLoyalty_Title_Conservative_text: "§Y보수주의자§!"
@@ -277,7 +281,7 @@
  TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_Unavailable_tt: "§Y먼저 대상을 선택하세요§!"
  TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_AvailableAdd_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!에 §Y2§! [BOR_Kartenhaus_SelectionBtn_Loyalty_GetTarget] §Y충성도§! 추가"
  TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_AvailableSub_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!에 §Y2§! [BOR_Kartenhaus_SelectionBtn_Loyalty_GetTarget] §Y충성도§! 제거"
- TNO_Bormann_Kartenhaus_Card_Interaction_Btn_Cost_tt: "§W이 작업을 수행하려면§! £political_power_texticon §Y40§!이 §W필요합니다§!"
+ TNO_Bormann_Kartenhaus_Card_Interaction_Btn_Cost_tt: "§W이 작업을 수행하려면§! £political_power_texticon §Y20§!이 §W필요합니다§!"
 
  # SIGType Display
  TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_text: "[BOR_Card_SIG_GetTypeTitle]"
