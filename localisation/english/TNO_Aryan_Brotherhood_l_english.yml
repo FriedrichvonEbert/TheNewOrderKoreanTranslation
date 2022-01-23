@@ -33,27 +33,57 @@
  the_fyurer: "총통"
  the_high_priest: "대사제"
  
+ ### Character Localisation ###
+ PRM_Gutrum_Vagner: "Gutrum Vagner"
+ PRM_Velimir: "Velimir" # For simplicity's sake, Velimir and his german larp alias are two different characters
+ PRM_Zigfrid_Shultz: "Zigfrid Shultz"
+ PRM_Power_Vaccuum: "Power Vaccuum
+ PRM_Alexander_Medvedev: "Alexander Medvedev"
+ 
+ ### Generals ###
+ PRM_Filip_Leman: "Filip Leman"
+ PRM_Gabriel_Shvarzenbakh: "Gabriel Shvarzenbakh"
+ PRM_Feliks_Shnayder: "Feliks Shnayder"
+ 
  ### Ministers ###
  #Vagner
- PRM_Baldur_Goltz_hog: "Baldur Goltz"
- PRM_Johan_Schwartz_for: "요한 슈바르츠"
- PRM_Markus_Shtayner_eco: "마르쿠스 시타이네르"
- PRM_Siegfried_Schulz_sec: "지그프리트 슐츠"
- PRM_Tristan_Shmit_sec: "Tristan Shmit"
- PRM_No_available_sec: "Depreciated Ministry"
- PRM_No_available_sec_desc: "Zigfrid Shultz showed his true colors but, in his arrogance, he underestimated our Fyurer's might.\nVagner has no need for weak-blooded traitors, and no ministry that brews such cowardice.\n\nHeil Vagner!\n"
+ PRM_Baldur_Goltz: "Baldur Goltz"
+ PRM_Baldur_Goltz_hog_desc: "§YReykhminister\nNational Socialism§!"
+ 
+ PRM_Johan_Schwartz: "요한 슈바르츠"
+ PRM_Johan_Schwartz_for_desc: "§YReykhminister des Auswartiygen\nNational Socialism§!"
+ 
+ PRM_Markus_Shtayner: "마르쿠스 시타이네르"
+ PRM_Markus_Shtayner_eco_desc: "§YReykhwiyrtsaftminister\nNational Socialism§!"
+ 
+ PRM_Tristan_Shmit: "Tristan Shmit"
+ PRM_Tristan_Shmit_sec_desc: "§YReykhmarshal\nNational Socialism§!"
  
  #Post-Onega Collapse
- PRM_Vladimir_Trapeznikov_hog: "블라디미르 트라페즈니코프"
- PRM_Viktor_Mitrakov_for: "빅토르 미트라코프"
- PRM_Grigory_Sivkov_eco: "그리고리 시프코프"
- PRM_Vladimir_Bezukladnikov_sec: "블라디미르 볘즈클라드니코프"
+ PRM_Vladimir_Trapeznikov: "블라디미르 트라페즈니코프"
+ PRM_Vladimir_Trapeznikov_hog_desc: "§YHead of Government\nStratocracy§!"
+ 
+ PRM_Viktor_Mitrakov: "빅토르 미트라코프"
+ PRM_Viktor_Mitrakov_for_desc: "§YForeign Minister\nStratocracy§!"
+ 
+ PRM_Grigory_Sivkov: "그리고리 시프코프"
+ PRM_Grigory_Sivkov_eco_desc: "§YEconomic Minister\nStratocracy§!"
+ 
+ PRM_Vladimir_Bezukladnikov: "블라디미르 볘즈클라드니코프"
+ PRM_Vladimir_Bezukladnikov_sec_desc: "§YSecurity Minister\nStratocracy§!"
  
  #Yemelyanov
- PRM_Valery_Yemelyanov_hog: "발레리 예멜라노프"
- PRM_Viktor_Bezverkhiy_for: "빅토르 볘즈베르키"
- PRM_Yevgeniy_Yevseyev_eco: "예브게니 예브세예프"
- PRM_Anatoly_Ivanov_Skuratov_sec: "아나톨리 이바노프 스쿠라토프"
+ PRM_Valery_Yemelyanov: "발레리 예멜라노프"
+ PRM_Valery_Yemelyanov_hog_desc: "§YHead of Government\nSlavo-Aryanism§!"
+ 
+ PRM_Viktor_Bezverkhiy: "빅토르 볘즈베르키"
+ PRM_Viktor_Bezverkhiy_for_desc: "§YForeign Minister\nSlavo-Aryanism§!"
+ 
+ PRM_Yevgeniy_Yevseyev: "예브게니 예브세예프"
+ PRM_Yevgeniy_Yevseyev_eco_desc: "§YEconomic Minister\nSlavo-Aryanism§!"
+ 
+ PRM_Anatoly_Ivanov_Skuratov: "아나톨리 이바노프 스쿠라토프"
+ PRM_Anatoly_Ivanov_Skuratov_sec_desc: "§YSecurity Minister\nSlavo-Aryanism§!"
  
  ### Decisions ###
  #Debug
@@ -102,7 +132,7 @@
  PRM_autonomous_raiders: "독자적인 약탈자들"
  PRM_autonomous_raiders_desc: "Terror isn't about how hard you bleed your enemies, but how many wounds they're bleeding for. If we let them rest, if even for a moment, they can recover, and create delusions of survival. Our armies will not give them a single inch of rest, until they're nothing but ruins trampling down our feet."
  PRM_aryan_control_5: "아리아인의 통제력 - 굳건함"
- PRM_aryan_control_5: "The Untermensch can't help but look to the ground, in fear and pain at our radiance. Our control is absolute in every single aspect of our society, and they know. Russia will finally be back at the hands of the people it truly belongs, and nothing will stop our natural manifest shape into reality."
+ PRM_aryan_control_5_desc: "The Untermensch can't help but look to the ground, in fear and pain at our radiance. Our control is absolute in every single aspect of our society, and they know. Russia will finally be back at the hands of the people it truly belongs, and nothing will stop our natural manifest shape into reality."
  PRM_aryan_control_4: "아리아인의 통제력 - 훌륭함"
  PRM_aryan_control_4_desc: "Small pockets of resistance are to be seen, but those don't bring us as much trouble as they used to. The Untermensch are learning their place in our society, and as long as we keep pressing the jackboots against their throat, eventually these delusions of freedom will sputter to darkness."
  PRM_aryan_control_3: "아리아인의 통제력 - 느슨함"
@@ -119,8 +149,6 @@
  PRM_rebuilding_industry_desc: "Berlin wasn't built in a day, and our empire will need many, if it is to one day rejoin with our kin west. Our industry will spill columns of black smoke, and our industry will forge the sword that will hang over the weaker races across Russia."
  PRM_revitalized_industry: "재활성화된 산업"
  PRM_revitalized_industry_desc: "Like a veil of smog, Perm became the beating heart of our land. Like blood, it pumps the weapons of the Aryan warriors through the land, to cast the untermensch back to where it belongs: In Chains and bound to factories, to toil for us." 
- PRM_the_aryan_slav: "아리안 슬라브"
- PRM_the_aryan_slav_desc: "Vagner, the bloated carcass he is now, fooled the Slav of it's place in the world. We are not to toil in work of the meagre vermins, who plot our extermination. The Masonic, the Jew, and the Germanic will quake in fear, as their worst fears will materialize, in our grandiose awakening.\n\n§iOur drums, long since abandoned, start to beat once again.§!"
  PRM_true_aryans: "순수한 아리아주의"
  PRM_true_aryans_desc: "We've tolerated the meangering of for long enough. Shultz's betrayal finally revealed to us how insiduous and deep the machinations of the Jew spreads, to reach for the desperate, traitorous kin with our land. We will crush, and trample the very concept and idea of these races to dust, until there is only one distinction in Russia:\n\n§VThe Aryan, and the slave."
  PRM_labor_for_freedom: "자유를 위한 노동"
@@ -207,6 +235,7 @@
  PRM_levantine_claims_tt: "§IWe will gain claims on our rightful lands in the Levant.§!"
  PRM_Yemmy_power: "This will §Yincrease§! the influence of §IZigfrid Shultz§!."
  PRM_vagner_power: "This will §Yincrease§! the influence of §jGutrum Vagner§!."
+ PRM_call_to_the_world_tt: "§IWorld shall hear about our great reawakening.§!"
  
  ### National Focus Tree ###
  ##Initial Tree##
