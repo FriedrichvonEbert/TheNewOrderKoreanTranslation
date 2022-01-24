@@ -624,9 +624,9 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
 
   JAP_create_3_divisions_manila_PHI:0 "§G3 Japanese divisions will be shipped to Manila.§!"
   JAP_increase_maximum_bombings_PHI_3:0 "§GWe can now bomb 3 states at the same time.§!"
-  JAP_training_schemes_buffs:0 "§GIncreases the [PHI.GetFlag][PHI.GetName]'s defense and entrenchment speed with 5%.§!"
-  JAP_mountain_constabularies_buffs:0 "§GDecreases the [PHI.GetFlag][PHI.GetName]'s terrain debuffs 10%.§!"
-  JAP_last_stand_of_the_orient_pearl_buffs:0 "§GIncreases the [PHI.GetFlag][PHI.GetName]'s defense and entrenchment speed with respectively 10% and 15%.§!"
+  JAP_training_schemes_buffs:0 "§GIncreases the [PHI.GetFlag][PHI.GetName]'s defense and entrenchment speed by 5%.§!"
+  JAP_mountain_constabularies_buffs:0 "§GDecreases the [PHI.GetFlag][PHI.GetName]'s terrain debuffs by 10%.§!"
+  JAP_last_stand_of_the_orient_pearl_buffs:0 "§GIncreases the [PHI.GetFlag][PHI.GetName]'s defense and entrenchment speed by 10% and 15%.§!"
   JAP_last_stand_of_the_orient_pearl_removal:0 "§RRemoves the previously added buffs.§!"
   TNO_JAP_PHI_does_not_control_neighbour_manila:0 "§RThe [PHI.GetFlag][PHI.GetName] does not control one of Manila's neighbor states.§!"
 
@@ -636,14 +636,7 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
 
   JAP_bombing_campaigns_tt:0 "§RThe [PHI.GetFlag][PHI.GetName] does not fully control [?From.GetName].§!"
   JAP_not_exceeded_bombing_limit:0 "We have not exceeded our state bombing capacity of §Y[?JAP_PHI_max_bombings|0]§!."
-  decision_cost_15_cp_35_pp_500_inf_eq: "£command_power §Y15§! £political_power_texticon §Y35§! £weapon_icon §Y500§!"
-  decision_cost_15_cp_35_pp_500_inf_eq_blocked: "£command_power §R15§! £political_power_texticon §R35§! £weapon_icon §R500§!"
-  decision_cost_30_cp: "£command_power §Y30§!"
-  decision_cost_30_cp_blocked: "£command_power §R30§!"
-  decision_cost_35_cp: "£command_power §Y35§!"
-  decision_cost_35_cp_blocked: "£command_power §R35§!"
-  decision_costs_10_army_xp:"£army_experience §Y10§!"
-  decision_costs_10_army_xp_blocked:"£army_experience §Y10§!"
+
 
   ###Balintawak Blitz Success Decisions
   ##The US of A
@@ -651,12 +644,9 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   USA_PHI_macarthur_line:0 "맥아더 선"
   USA_PHI_mcarthurt_fort_tt:0 "§G후크발라합과 협력하여 루손섬에 방어선을 구축해 일본의 침공에 대비할 것입니다§!"
   USA_PHI_comphrehensive_aid:0 "종합 지원 패키지"
-  decision_cost_100_million:0 "§Y$100M§!"
-  decision_cost_100_million_blocked:0 "§R$100M§!"
+
   UPH_usa_aid_package:0 "미국 경제 원조 패키지"
   USA_PHI_black_budget_programs:0 "검은 예산 프로그램"
-  decision_cost_100_million_25_cp:0 "§Y$100M§! £command_power §Y25§!"
-  decision_cost_100_million_25_cp_blocked:0 "§R$100M§! £command_power §R25§!"
   USA_PHI_mass_conscription:0 "집단 징병"
   USA_PHI_mass_conscription_tt:0 "§[UPH.GetFlag]§G[UPH.GetName]§!에 자원 여단 Y5§!개가 나타날 것입니다."
   decision_cost_500_guns_10_pp:0 "£weapon_icon §Y500§! £political_power_texticon §Y10§!"
@@ -689,17 +679,14 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   JAP_PHI_Use_3rd_Tank_Division:0 "    Order the 3rd Tank Division"
   JAP_PHI_Use_1st_Yokosukai_Division:0 "    Order the 1st Yokosuka Division"
   JAP_PHI_Use_1st_Raiding_Group_Division:0 "    Order the 1st Raiding Group"
-  JAP_PHI_show_infantry:0 "§GShow Infantry Deployment§!"
-  JAP_PHI_hide_infantry:0 "§RHide Infantry Deployment§!"
-  JAP_PHI_show_armored_forces:0 "§GShow Armored Forces Deployment§!"
-  JAP_PHI_hide_armored_forces:0 "§RHide Armored Forces Deployment§!"
-  JAP_PHI_show_special_forces:0 "§GShow Special Forces Deployment§!"
-  JAP_PHI_hide_special_forces:0 "§RHide Special Forces Deployment§!" 
-  JAP_PHI_show_supply_decisions:0 "§GShow Supply Decisions§!"
-  JAP_PHI_hide_supply_decisions:0 "§RHide Supply Decisions§!"
-
-  JAP_PHI_show_supply_decisions:0 "§GShow Supply Decisions§!"
-  JAP_PHI_hide_supply_decisions:0 "§RHide Supply Decisions§!"
+  JAP_PHI_show_infantry:0 "§G보병 배치 보이기§!"
+  JAP_PHI_hide_infantry:0 "§R보병 배치 감추기§!"
+  JAP_PHI_show_armored_forces:0 "§G기갑 부대 배치 보이기§!"
+  JAP_PHI_hide_armored_forces:0 "§R기갑 부대 배치 감추기§!"
+  JAP_PHI_show_special_forces:0 "§G특수 부대 배치 보이기§!"
+  JAP_PHI_hide_special_forces:0 "§R특수 부대 배치 감추기§!" 
+  JAP_PHI_show_supply_decisions:0 "§G보급 결정 보이기§!"
+  JAP_PHI_hide_supply_decisions:0 "§R보급 결정 감추기§!"
 
   JP_PHI_10_Supply_cost:0 "£GFX_PHI_supply_texticon  §Y10§!"
   JP_PHI_10_Supply_cost_blocked:0 "£GFX_PHI_supply_texticon  §R10§!"
@@ -891,7 +878,7 @@ JAP_ircw_category_desc:0 "Once one of the few allies belonging to Germany in the
 
 TNO_SAF_Aftermath_desc_USA:0 "We have won a great victory for democracy in South Africa, but our work is far from finished. While the German army is defeated, remnants of their forces still fight on. In addition, many local warlords have established their own forces, and would like nothing better than expel us from their lands. Victory in Africa means nothing if we cannot stabilize the continent.\n\nSome of our officers have suggested continuing our strategy of attrition, using overwhelming firepower and superior tactics to eliminate as many rebels that we can while minimizing our own losses. However, diplomatic officials have suggested using a softer touch to win over the natives, which they claim will stabilize the continent better in the long term. Whichever approach we take, the public demands that our young men return home soon, and leave a stable continent behind. If we fail to satisfy the public, we will surely suffer at the polls."
 TNO_SAF_Aftermath_desc_GER:0 "Larp harder"
-
+TNO_SAF_Aftermath_USA_investment_level:0 "투자:"
 Angola_status_progbar_tt:0 "§Y[ANG.GetName]§! §F안정도:§! §W[?ANG.OFN_MANDATE_rebel_stability|%1]§!"
 Congo_status_progbar_tt:0 "§Y[COG.GetName]§! §F안정도:§! §W[?COG.OFN_MANDATE_rebel_stability|%1]§!"
 EastAfrica_status_progbar_tt:0 "§Y[MZB.GetName]§! §F안정도:§! §W[?MZB.OFN_MANDATE_rebel_stability|%1]§!"
@@ -919,7 +906,7 @@ EastAfrica_status_progbar_tt:0 "§Y[MZB.GetName]§! §F안정도:§! §W[?MZB.OF
  USA_sabotage_effort:0 "American Sabotage Effort"
  USA_sabotage_effort_desc:0 "The outbreak of war with the American puppet has resulted in the CIA being unleashed against us. A wave of sabotage and paranoia has swept our country as their agents set to work stealing state secrets, sabotaging military operations, and assassinating officials.\n\nThis is proving detrimental to the war effort, not only because of the direct consequences of the sabotage but also because of the paranoia gripping our government as our own agents struggle to prevent further damage."
  USA_rules_of_engagement:0 "Follow Rules of Engagement"
- USA_rules_of_engagement:0 "The rules of engagement are a set of internal rules and policies defining how, when, and where a soldier can use force. Amid our interventions abroad, the president has issued an order to the secretary of defense mandating that these rules be updated and more strictly enforced. While some criticize this move as forcing the military to fight with "one hand tied behind their back," others believe it will limit potential atrocities and preserve US credibility at home and abroad."
+ USA_rules_of_engagement_desc:0 "The rules of engagement are a set of internal rules and policies defining how, when, and where a soldier can use force. Amid our interventions abroad, the president has issued an order to the secretary of defense mandating that these rules be updated and more strictly enforced. While some criticize this move as forcing the military to fight with "one hand tied behind their back," others believe it will limit potential atrocities and preserve US credibility at home and abroad."
  USA_War_Immigrants:0 "War Refugees"
  USA_War_Immigrants_desc:0 "Where war breaks out, Washington is never far behind. While we are beating back the tide of Fascism and Imperialism, there are consequences. Our proxy wars have resulted in thousands of refugees flocking to America. While we may gain more people, the societal tension of a refugee crisis cannot be understated. However, America is nothing without immigrants. Just like the Statue of Liberty says:\n\n"Give me your tired, your poor, Your huddled masses yearning to breathe free.""
 
@@ -950,3 +937,50 @@ USA_orungu_alone_desc:0 "damn big PALF!!!"
 USA_orungu_CAF_desc:0 "damn big PALF!!!"
 JAP_orungu_alone_desc:0 "damn big PALF!!!"
 JAP_orungu_CAF_desc:0 "damn big PALF!!!"
+
+# SAW withdrawal
+
+GER_saf_withdrawal_desc:0 "What was an attempt at triumph by §Rrogue Reichskommissariats§! has taken its toll on the Reich, recovering from the horrors of the §RBürgerkrieg§! only to be thrown into a §Ypointless conflict§!. With our near total grip on German society gone, pressure from elements inside the government and the §mcivilians§! have forced us to conduct a §Rwithdrawal§! from the war.\n\nWe have exactly §Y1 year§! to properly conduct a §Gwithdrawal§! of our military forces from Afrika before the materiel advantage of §BSouth Africa§! and the §BOFN§! turns the tide of the war against the Reichskommissariats and severely §Rdisrupting§! our future plans for Afrika.\n\nHowever, should we §Rexceed§! the deadline or if the war ends in the §BOFN's§! favour before our withdrawal is §Gcomplete§!, we will have to §Rrush§! our withdrawal, causing our plans to §Rfall in disarray§!. We must act quickly."
+GER_withdrawal_text:0 "§YWithdrawal progress§! is at [GetGERWithdrawalColor][?GER_withdrawal_var]%§! towards completion."
+GER_withdrawal_complete_button_tt:0 "§YComplete the withdrawal§!."
+
+GER_withdrawal_deadline:0 "§RThe Deadline Approaches...§!"
+GER_promote_kai_uwe_von_hassel:0 "'Promote' Kai-Uwe von Hassel"
+GER_prepare_german_loyalists:0 "Prepare German Loyalists"
+GER_investigate_internal_affairs:0 "Investigate African Internal Affairs"
+GER_investigate_african_rebels:0 "Investigate African Rebel Groups"
+
+SGR_open_withdrawal_decisions:0 "Show §GWithdrawal Decisions§!"
+SGR_close_withdrawal_decisions:0 "Hide §GWithdrawal Decisions§!"
+SGR_schedule_troop_withdrawal:0 "Schedule Troop Withdrawals"
+SGR_ship_back_assets:0 "Ship Back Assets"
+SGR_quell_down_protests:0 "Quell Pacifist Protests"
+SGR_plans_for_the_future:0 "Draw Up Future Battleplans"
+SGR_appropriate_resources:0 "Reappropriate Colonial Resources"
+SGR_liquidate_german_properties:0 "Liquidate German Properties"
+SGR_speedtrack_evacuation_timeline:0 "Speedtrack Withdrawal Deadlines"
+SGR_maximize_colonial_exploitation:0 "Maximize Colonial Exploitation"
+SGR_seize_natural_resources:0 "Seize Natural Resources"
+
+BOR_open_withdrawal_decisions:0 "Show §GWithdrawal Decisions§!"
+BOR_close_withdrawal_decisions:0 "Hide §GWithdrawal Decisions§!"
+BOR_schedule_troop_withdrawal:0 "Schedule Troop Withdrawals"
+BOR_ship_back_assets:0 "Ship Back Assets"
+BOR_quell_down_protests:0 "Quell Pacifist Protests"
+BOR_plans_for_the_future:0 "Draw Up Future Battleplans"
+BOR_appropriate_resources:0 "Reappropriate Colonial Resources"
+BOR_promise_glory_to_veterans:0 "Promise Honors to Militarists"
+BOR_put_dissidents_on_duty:0 "Assign Postings to Dissidents"
+BOR_hone_shock_and_awe_tactics:0 "Hone Shock and Awe Tactics"
+BOR_the_final_shipments:0 "Send The Best Weapons to Afrika"
+
+GGR_open_withdrawal_decisions:0 "Show §GWithdrawalDecisions§!"
+GGR_close_withdrawal_decisions:0 "Hide §GWithdrawal Decisions§!"
+GGR_schedule_troop_withdrawal:0 "Schedule Troop Withdrawals"
+GGR_ship_back_assets:0 "Ship Back Assets"
+GGR_quell_down_protests:0 "Quell Pacifist Protests"
+GGR_plans_for_the_future:0 "Draw Up Future Battleplans"
+GGR_appropriate_resources:0 "Reappropriate Colonial Resources"
+
+GER_SAW_Withdrawal_Modify_Progress_add_tt:0 "Our §Gwithdrawal§! progress will be §Gincreased§! by §G[?GER_withdrawal_var_change?4|=2]%§!, bringing it to §Y[?GER_withdrawal_var_temp|2]%§!."
+GER_SAW_Withdrawal_Modify_Progress_sub_tt:0 "Our §Gwithdrawal§! progress will be §Rdecreased§! by §R[?GER_withdrawal_var_change?4|=2]%§!, bringing it to §Y[?GER_withdrawal_var_temp|2]%§!."
