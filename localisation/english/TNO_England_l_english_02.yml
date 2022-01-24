@@ -804,31 +804,26 @@ ENG_GUI_Operations_CommenceOperation:0 "COMMMENCE OPERATION"
 ENG_GUI_Operations_CommenceWhenReady:0 "COMMENCE WHEN READY"
 
 ENG_operation_1_t:0 "OPERATION BAD MORNING"
-ENG_operation_1_d:0 "We will try to injure Templer"
 ENG_operation_1_success:0 "Severely injuring Templer"
 ENG_operation_1_somewhat:0 "Lightly injuring Templer"
 ENG_operation_1_fail:0 "boosting Government morale"
 
 ENG_operation_2_t:0 "OPERATION STOCK"
-ENG_operation_2_d:0 "We will try to rob an armory"
 ENG_operation_2_success:0 "getting lots of guns and various other eq. at the start of the war"
 ENG_operation_2_somewhat:0 "getting some guns"
 ENG_operation_2_fail:0 "boosting Government morale"
 
 ENG_operation_3_t:0 "OPERATION BROKEN TELEPHONE"
-ENG_operation_3_d:0 "We will try to kill two generals and get some weapons"
 ENG_operation_3_success:0 "getting lots of guns"
 ENG_operation_3_somewhat:0 "getting some of guns"
 ENG_operation_3_fail:0 "boosting Government morale"
 
 ENG_operation_4_t:0 "OPERATION INSPECTION"
-ENG_operation_4_d:0 "We will try to kill Cassels"
 ENG_operation_4_success:0 "killing Cassels"
 ENG_operation_4_somewhat:0 "injuring Cassels"
 ENG_operation_4_fail:0 "boosting Government morale"
 
 ENG_operation_5_t:0 "OPERATION LOOP UP"
-ENG_operation_5_d:0 "We will try to kill Carver"
 ENG_operation_5_success:0 "killing Carver"
 ENG_operation_5_somewhat:0 "injuring Carver"
 ENG_operation_5_fail:0 "boosting Government morale"
@@ -889,9 +884,6 @@ ENG_drifting_away:0 "우리의 영역에서 벗어남"
 WAR_NAME_ENG_FEN:0 "잉글랜드 내전"
 WAR_NAME_FEN_ENG:0 "잉글랜드 내전"
 WAR_NAME_FEN_CRN:0 "잉글랜드 내전"
-WAR_NAME_CRN_FEN:0 "잉글랜드 내전"
-WAR_NAME_ENG_CRN:0 "잉글랜드 내전"
-WAR_NAME_CRN_ENG:0 "잉글랜드 내전"
 
 ##########
 # Flags #
@@ -1152,10 +1144,10 @@ ENG_intro.48.desc:0 "The office of the Prime Minister was a surprisingly sparse 
 ENG_intro.48.a:0 "Let's look at our options."
 
 ENG_intro.49.t:0 "A Choice to Make"
-ENG_intro.49.desc:0 "Alec Douglass-Home, Prime Minister of what had once been the United Kingdom, gazed at the reports with an unreadable expression on his face. Across from him, Philby, Montgomery and Templar sat steadfastly silent. They were waiting on him to be the decision maker, and Home supposed that was part of the responsibility that came with being Prime Minister. The fact was though, he knew he couldn't hope to take down HMMLR with a single strike.\n\nThe forces required, it would give the terrorists too much warning. No, it was too risky to attempt to strike the entire organisation as one. But a single key piece, that was more achievable. To eliminate Bill Alexander would be a propaganda victory without compare, the communist had been on the run for almost a decade and a half. To strike down Stirling might actually be better, without him blowing up half the barracks in England the army might get something done.\n\nThe third option though, well it was tempting. To put down whatever mad dog headed HMMLR and had forged the compromise which bound the organisation was very, very tempting. Men like that couldn't be easily replaced by terrorist groups. Still, the Prime Minister knew he had to choose. Looking up at last, he spoke to the men gathered in front of him."
-ENG_intro.49.a:0 "Find HMMLR's leader, we can deal with the rest later."
-ENG_intro.49.b:0 "Bill Alexander must be stopped, the others are lesser threats."
-ENG_intro.49.c:0 "Stirling has been an embarrassment for 20 years, no longer."
+ENG_intro.49.desc:0 "Alec Douglas-Home, Prime Minister of what had once been the United Kingdom, gazed at the reports with an unreadable expression on his face. Across from him, Philby, Montgomery and Templar sat steadfastly silent. They were waiting on him to be the decision maker, and Home supposed that was part of the responsibility that came with being Prime Minister. The fact was though, he knew he couldn't hope to take down HMMLR with a single strike.\n\nThe forces required, it would give the terrorists too much warning. No, it was too risky to attempt to strike the entire organisation as one. But a single key piece, that was more achievable. To eliminate Bill Alexander would be a propaganda victory without compare, the communist had been on the run for almost a decade and a half. To strike down Stirling might actually be better, without him blowing up half the barracks in England the army might get something done.\n\nThe third option though, well it was tempting. To put down whatever mad dog headed HMMLR and had forged the compromise which bound the organisation was very, very tempting. Men like that couldn't be easily replaced by terrorist groups. Still, the Prime Minister knew he had to choose. Looking up at last, he spoke to the men gathered in front of him."
+ENG_intro.49.a:0 ""Find HMMLR's leader, we can deal with the rest later.""
+ENG_intro.49.b:0 ""Bill Alexander must be stopped, the others are lesser threats.""
+ENG_intro.49.c:0 ""Stirling has been an embarrassment for 20 years, no longer.""
 
 ENG_intro.50.t:0 "The Clock is Ticking"
 ENG_intro.50.desc:0 "Rebellion is like a hydra. Defeat those opposed to the Armistice and the Communists rose in their place. When they were slain at Cable Street, HMMLR rose in turn. There are three rebel leaders of note, Stirling, Alexander and whomever is their backer. The mysterious "boss". We can't eliminate them all, but chances are we can grab or kill at least one of them. These actions won't be for the faint of heart, but they must be seen through. Else we risk the Germans deeming us incompetant or worse, unneeded. We have seen what happened to France when they were deemed irrelevant. The same cannot be allowed to happen here."
@@ -1264,9 +1256,9 @@ ENG_HMMLRECW.7.desc:0 "Unfortunately, it seems as though our sphere of influence
 ENG_HMMLRECW.7.a:0 "Not much of a silver lining."
 
 ENG_HMMLRECW.8.t:0 "A Secret Meeting"
-ENG_HMMLRECW.8.desc:0 "As the street of Whitehall was bathed in the crimson glow of sunset, Prime Minister Alec Douglas Home jittered from the cup of coffee he had just consumed. Across from him, His Majesty King Edward VIII sat beside Field Marshal Montgomery, the two of them summoned as fast as the message could carry. Their eyes were bloodshot, and and their faces were full of worry. \n\n"It was the Germans who have brought the rebels upon us, Your Majesty! If we are to survive as a country, we must break free of their shackles and reassert ourselves!" \n\nThe King gave the Marshal a long, cold stare before speaking. \n\n"The Germans have protected us from Bolsheviks and insurgents for more than a decade. Without them, I would still be an exile across the Atlantic! We are nothing without them! We must call upon Halder to protect us from this new menace!" \n\nThe Prime Minister sat, contemplating. In the end, it would be he who would decide whether to tie the battle against HMMLR to the Germans or not. Outside, soldiers were already setting up barricades and machine gun emplacements in preparation for a potential rebel assault on London. No matter what the Prime Minister chose, the battle for England would be long and hard."
-ENG_HMMLRECW.8.a:0 "I'm afraid the accords are dead, Your Highness."
-ENG_HMMLRECW.8.b:0 "We are nothing without the Germans!"
+ENG_HMMLRECW.8.desc:0 "As the street of Whitehall was bathed in the crimson glow of sunset, Prime Minister Alec Douglas-Home jittered from the cup of coffee he had just consumed. Across from him, His Majesty King Edward VIII sat beside Field Marshal Montgomery, the two of them summoned as fast as the message could carry. Their eyes were bloodshot, and and their faces were full of worry. \n\n"It was the Germans who have brought the rebels upon us, Your Majesty! If we are to survive as a country, we must break free of their shackles and reassert ourselves!" \n\nThe King gave the Marshal a long, cold stare before speaking. \n\n"The Germans have protected us from Bolsheviks and insurgents for more than a decade. Without them, I would still be an exile across the Atlantic! We are nothing without them! We must call upon Halder to protect us from this new menace!" \n\nThe Prime Minister sat, contemplating. In the end, it would be he who would decide whether to tie the battle against HMMLR to the Germans or not. Outside, soldiers were already setting up barricades and machine gun emplacements in preparation for a potential rebel assault on London. No matter what the Prime Minister chose, the battle for England would be long and hard."
+ENG_HMMLRECW.8.a:0 ""I'm afraid the accords are dead, Your Highness.""
+ENG_HMMLRECW.8.b:0 ""We are nothing without the Germans!""
 
 ENG_HMMLRECW.9.t:0 "HMMLR Requests Aid"
 ENG_HMMLRECW.9.desc:0 "Prime Minister [CAN.GetLeader] was just walking to the car to go home for the evening when an intern came rushing out of the Langevin Building, a piece of paper in his hand.\n\n"Mr. Prime Minister!" the young man said, panting heavily. "I... I have a message for you."\n\nWith a sigh, the PM turned from the car to grab his message, quickly reading over it, before frowning, then reading it again. "Are you sure about this?"\n\n"National Defense just sent it," the intern said, still trying to catch his breath. "They have verified it."\n\nThe Prime Minister looked down at the message again, before he motioned to the Mountie holding the car door open to close it. "Summon the rest of the cabinet. We have a long evening ahead of us."\n\nThe intern nodded his order, and ran back into the building. The Prime Minister started up the steps back into the building that held his office, but he paused, turned around, and looked across the street. There were the stately, Gothic style buildings on Parliament Hill, where the Red Ensign flag lazily flapped in the wind from the Peace Tower. Even from this distance, you could make out the Union Jack in the top left corner.\n\nGeneral Claude Auchinleck of Her Majesty's Most Loyal Resistance had just requested the help of Canada to help restore the United Kingdom, if this note was to be believed. And now it was up to [CAN.GetLeader] to decide if the Queen, currently sitting at Rideau Hall in self-imposed exile, will get the help of this nation to go back home."
