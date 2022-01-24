@@ -2,13 +2,15 @@
  IRI_COALITION_despotism:0 "이란 해방 혁명전선"
  IRI_COALITION_despotism_DEF:0 "이란 해방 혁명전선"
  
- APF_CZECH_esoteric_nazism:0 "뵈멘-메렌 보호령"
- APF_CZECH_esoteric_nazism_DEF:0 "뵈멘-메렌 보호령"
- APF_CZECH_esoteric_nazism_ADJ:0 "뵈멘"
+ APF_CZECH_esoteric_nazism:0 "뵈멘-메렌 무장친위사령관부"
+ APF_CZECH_esoteric_nazism_DEF:0 "뵈멘-메렌 무장친위사령관부"
+ APF_CZECH_esoteric_nazism_ADJ:0 "슈츠슈타펠"
  
  GER_COG_int:0 "콩고 조약판무관부"
  GER_COG_int_DEF:0 "콩고 조약판무관부"
  GER_COG_int_ADJ:0 "콩고"
+ GLC_kommission_party:0 "EfdK"
+ GLC_kommission_party_long:0 "콩고 통일조약위원회"
  
  IRA_COALITION_communist:0 "이란 사회주의 연방"
  IRA_COALITION_communist_DEF:0 "이란 사회주의 연방"
@@ -316,8 +318,6 @@
  BRG_SS_esoteric_nazism:0 "부르군트 SS 기사단국"
  BRG_SS_esoteric_nazism_DEF:0 "부르군트 SS 기사단국"
  BRG_SS_esoteric_nazism_ADJ:0 "부르군트"
- FRA_gaxotte_kingdom:0 "프랑스 왕국"
- FRA_gaxotte_kingdom_DEF:0 "프랑스 왕국"
  FRA_pinay_republic:0 "프랑스 공화국"
  FRA_pinay_republic_DEF:0 "프랑스 공화국"
 
@@ -672,7 +672,7 @@
  RK_Italy_fascism_ADJ:0 "이탈리아"
  ITA_middle_east_government:0 "중동 총독부"
  ITA_middle_east_government_DEF:0 "중동 총독부"
- ITA_middle_east_government_DEF:0 "중동"
+ ITA_middle_east_government_ADJ:0 "중동"
  ITA_middle_east_government_saudis:0 "아라비아반도 총독부"
  ITA_middle_east_government_saudis_DEF:0 "아라비아반도 총독부"
  ITA_middle_east_government_saudis_ADJ:0 "사우디"
@@ -1836,6 +1836,8 @@
  #German Post-Burgundy puppet
  GLC_Kommission:0 "프랑크라이히 조약판무관부"
  GLC_Kommission_DEF:0 "프랑크라이히 조약판무관부"
+ GLC_despotism_postBRG_party:0 "EfF"
+ GLC_despotism_postBRG_party_long:0 "프랑크라이히 통일조약위원회"
  
  #United Kingdom
  ENG_united_kingdom:0 "영국"
@@ -1984,9 +1986,8 @@
  CRI_SGR_DEF: "고텐란트 관할구"
  CRI_SGR_ADJ: "고텐란트"
 
- CZE_GER: "뵈멘-메렌 보호령"
- CZE_GER_DEF: "뵈멘-메렌 보호령"
- CZE_GER_ADJ: "뵈멘-메렌"
+ CZE_GER: "제19군구"
+ CZE_GER_DEF: "제19군구"
 
  KAC_ARMY: "카친 독립군"
  KAC_ARMY_DEF: "카친 독립군"
@@ -2165,9 +2166,6 @@ NRB_NB_DEF:0 "북보르네오 과도군정"
 NRB_NB_ADJ:0 "북보르네오"
 
 # WAC
-IRQ_UAR_socialist:0 "아랍 연합공화국"
-IRQ_UAR_socialist_DEF:0 "아랍 연합공화국"
-
 PAR_SOLER:0 "파라과이"
 PAR_SOLER_DEF:0 "파라과이 사회주의 공화국"
 PAR_SOLER_ADJ:0 "파라과이"
@@ -2176,7 +2174,7 @@ SDS_postwar:0 "수단 사회주의 공화국"
 SDS_postwar_DEF:0 "수단 사회주의 공화국"
 SDS_postwar_ADJ:0 "수단"
 
-ARG_confederation:0 "아르헨티나 정의연합"
+ARG_confederation:0 "아르헨티나 연합"
 ARG_confederation_DEF:0 "아르헨티나 정의연합"
 ARG_confederation_ADJ:0 "아르헨티나"
 
