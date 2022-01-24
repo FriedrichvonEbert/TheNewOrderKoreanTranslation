@@ -154,8 +154,8 @@ SGR_RND_infiltrate_uzbekistan_desc:0 "Uzbekistan's borders with the legion have 
 SGR_RND_korsimat_prepare_the_sniper:0 "§RUnternehmen Zentralasien - Adlerauge§!"
 SGR_RND_korsimat_prepare_the_sniper_desc:0 "Most importantly, we need to find a means to justify Korsimat's coup, as well as getting rid of Veyuum. We will hire, with no string attached, a hunter from the Steppes, to take a "vacation" to Samarqand, see the sights, stay on a very incospicuous building, facing fairly distant from where we will incentivate Veyuum to make his speech, and make sure Korsimat's men assure the other members of the Legion there is nothing at all in this building."
 
-SGR_RND_assasinate_korsimat:0 "§RUnternehmen Zentralasien - Frührente§!"
-SGR_RND_assasinate_korsimat_desc:0 ""Korsimat is the wildest card of the legion, a man with burning ambition, scorned by Veyuum, rampant and ruthless. He is a wild variable we simply cannot trust and cannot spare for our plans with the Legion, and a headache overrall.\n\nThankfully, such achings have effective medicines."
+SGR_RND_assassinate_korsimat:0 "§RUnternehmen Zentralasien - Frührente§!"
+SGR_RND_assassinate_korsimat_desc:0 ""Korsimat is the wildest card of the legion, a man with burning ambition, scorned by Veyuum, rampant and ruthless. He is a wild variable we simply cannot trust and cannot spare for our plans with the Legion, and a headache overrall.\n\nThankfully, such achings have effective medicines."
 
 ## Brazil ##
 
@@ -192,22 +192,23 @@ SGR_RND_coup_crimea_desc:0 "되니츠는 라이히의 배신자입니다. RND �
 SGR_RND_coup_crimea_cost:0 "§Y5%§!£GFX_training_icon, §Y1000만§!£GFX_dollar_sign"
 SGR_RND_coup_crimea_cost_blocked:0 "§R5%§!£GFX_training_icon, §R1000만§!£GFX_dollar_sign"
 
+## Paraguay ##
+
 SGR_RND_assist_paraguay_bush_war_gov:0 "§TUnternehmen Würgegriff§!"
-SGR_RND_assist_paraguay_bush_war_gov_desc:0 ""
+SGR_RND_assist_paraguay_bush_war_gov_desc:0 "The Paraguayan government is under attack by an armed movement called FULNA. While the movement itself is under equipped and weaker compared to the Paraguayan army, the Villasboa government is surrounded by American friendly nations, and we have reasons to believe that FULNA itself is a front for American interests. We will send equipment and agents to help Paraguay counter the insurgency and repel liberal propaganda."
 
 SGR_RND_assist_paraguay_bush_war_fdg:0 "§sUnternehmen Kanonier§!"
-SGR_RND_assist_paraguay_bush_war_fdg_desc:0 ""
+SGR_RND_assist_paraguay_bush_war_fdg_desc:0 "The Paraguayan government is under attack by an armed movement called FULNA. While the movement itself is under equipped and weaker compared to the Paraguayan army, FULNA still managed to drive the government away from Asunción, doubtlessly thanks to the help of the Americans. We will send equipment and agents to help the Frente da Guerra counter the insurgency and bring back stability."
 
 SGR_RND_find_che:0 "§oUnternehmen Wegweiser§!"
-SGR_RND_find_che_desc:0 ""
+SGR_RND_find_che_desc:0 "Among the several destabilizing forces active in South America, none is more dangerous than the Bolshevik revolutionary Ernesto "Che" Guevara. Charismatic and ruthless, he represents danger for the interests of the Reich in the region. Our intel from Paraguay tells us he may be active in the country, the RND will organize a mission to locate him and, if his presence is confirmed, prepare for further containment operations." 
+GER_find_che:0 "The trail has shown §Rpatterns§!."
 
 SGR_RND_assist_paraguay_beat_back_pcp:0 "§VUnternehmen Rotes Blut§!"
-SGR_RND_assist_paraguay_beat_back_pcp_desc:0 ""
+SGR_RND_assist_paraguay_beat_back_pcp_desc:0 "The unthinkable has happened: the communist guerrilla commander Ernesto "Che" Guevara took power in Paraguay. This situation is unacceptable and while we cannot regain our lost influence, we can at least destabilize the revolutionary government. The FULNA itself is fragile, if we can drive a wedge between the liberals and the socialists, the alliance will collapse sooner."
 
 SGR_RND_assist_paraguay_help_foreign_intervention:0 "§RUnternehmen Brennende Flagge§!"
-SGR_RND_assist_paraguay_help_foreign_intervention_desc:0 ""
-
-GER_find_che:0 "The trail has shown §Rpatterns§!."
+SGR_RND_assist_paraguay_help_foreign_intervention_desc:0 "The unthinkable has happened: the communists took power in Paraguay with the help of FULNA. This situation is unacceptable and while we cannot regain our lost influence, we can at least hit them where it hurts. The RND has several operatives active in the country, ready to target sensitive logistic objectives to facilitate a future military invasion."
 
 ### Speer Standard Missions ###
 SGR_RND_bribe_enemies:0 "정적에게 뇌물 주기"
@@ -232,11 +233,11 @@ TNO_GER_Missions_Available:0 "To put our man, we need to be done with the old. N
 GER_BOR_HVA_infiltrate_burgundy:0 "§P작전명 용기§!"
 GER_BOR_HVA_infiltrate_burgundy_desc:0 "첩보계에서는 위험한 브루노라고 알려져 있는 기사단국에 잠입하기 위해, 라인하르트 게렌은 고도로 위험한 임무를 개시하기 위해 그의 오래된 군 정보기관을 이용하고 있습니다. 한밤중에 팔쉬름예거 중에서도 엘리트 부대가 지대공미사일 사정거리의 훨씬 위에서 투하될 것이고 미국에서 실험 중에 있는 고고도이탈 저고도개방 강하로 알려진 수직 강하를 행할 것입니다. 뒤이어 이들은 신속하게 신호가 표시하고 있는, SS-하우프트암트가 통제하고 있는 가장 약한 지역인 옛 발로니아에 착륙할 것입니다. 그들은 SS 통신 센터를 급습하여 가치가 높은 정보를 입수하여 됭케르크 북동쪽의 해안으로 빠져나올 것입니다. 이들이 레이다 신호기를 발동시키면 잠수함을 통해 수송할 것입니다. 모든 준비가 완료되었습니다."
 
-GER_BOR_HVA_assasinate_korsimat:0 "§PAssassinate Korsimat§!"
-GER_BOR_HVA_assasinate_korsimat_desc:0 "Sher "Korsirmat" Muhammed is a competent and driven leader, but that drive does not extend to his ideological pursuits. Indeed, he is propelled only by a want for personal power, and will surely scheme against our preferred leaders if left to his own devices. For the Legion to remain steady and loyal, he must die."
+GER_BOR_HVA_assassinate_korsimat:0 "§PAssassinate Korsimat§!"
+GER_BOR_HVA_assassinate_korsimat_desc:0 "Sher "Korsirmat" Muhammed is a competent and driven leader, but that drive does not extend to his ideological pursuits. Indeed, he is propelled only by a want for personal power, and will surely scheme against our preferred leaders if left to his own devices. For the Legion to remain steady and loyal, he must die."
 
-GER_BOR_HVA_assasinate_veyuum:0 "§oAssassinate Veyuum§!"
-GER_BOR_HVA_assasinate_veyuum_desc:0 "Velim Kayyum Han is little more than a glorified bandit king, relishing in excess and luxuries while his forces wither away under him. Corrupt to his core, there is nothing he can do for us that another leader in the Legion cannot do with more competence and intelligence. For the Legion to reach its true potential, he must die."
+GER_BOR_HVA_assassinate_veyuum:0 "§oAssassinate Veyuum§!"
+GER_BOR_HVA_assassinate_veyuum_desc:0 "Velim Kayyum Han is little more than a glorified bandit king, relishing in excess and luxuries while his forces wither away under him. Corrupt to his core, there is nothing he can do for us that another leader in the Legion cannot do with more competence and intelligence. For the Legion to reach its true potential, he must die."
 
 GER_BOR_HVA_make_contact_with_china:0 "§w작전명 용§!"
 GER_BOR_HVA_make_contact_with_china_desc:0 "독일국과 중국 정부 사이에 협력을 해야 할 이유는 너무나도 명백합니다. 그 이유는 일본제국 그 자체입니다. 라이히와 중국은 일본이 삼국동맹 조약에 서명하기 전부터 오랫동안 친구였습니다. 일본이 계속해서 빈번히 라이히와 그 이권을 배신하고 있는 상황에서, 우리는 옛 친구들이 라이히의 영향권에 다시 돌아오는 것을 환영해야 합니다. 우리는 가오종우의 정부를 만날 요원들을 보내서 은밀하게 중국이 일본에 맞서서 성장한다면 독일이 지원을 제공한다고 제안할 것입니다. 그들은 베르사유 조약 직후 우리가 직면했던 것과 비슷한 상황에 있습니다. 제국주의 국가들에게 억압받고 착취되며 군홧발에 짓밟히고 있습니다. 우리는 그들에게 탈출구를 제공할 것입니다. 히틀러께서 우리에게 그러셨듯 말입니다."
@@ -254,11 +255,11 @@ GER_BOR_HVA_iranian_counterinsurgency_cost_blocked:0 "§R10§!£GFX_army_experie
 GER_BOR_HVA_saudi_sabotage:0 "§L작전명 검은 황금§!"
 GER_BOR_HVA_saudi_sabotage_desc:0 "중동은 오랫동안 이탈리아의 영역이었습니다. 때문에 그 지역에 있는 수많은 자원들은 이탈리아가 우리의 동맹을 깨뜨린 이후로 우리에게 돌아오지 못했습니다. 하지만 이탈리아와의 이러한 적대감은 또 다른 친구를 얻을 수 있도록 했습니다. 엄격한 반식민주의적 움직임인 바트주의 운동은 이탈리아를 경멸합니다. 우리는 자연스레 그들의 친구이고, 따라서 그들은 자원을 우리와 기꺼이 나누고자 할 것입니다. 만일 우리가 경쟁 국가들의 군사 기반시설을 사보타주 할 수 있게 된다면 바트주의 운동은 아랍 세계를 통합하게 되어 이탈리아를 반대하는 세력을 형성하고, 라이히와 긴밀히 협력하려 하는 국가가 될 것입니다!"
 
-GER_BOR_HVA_assasinate_speer:0 "§O작전명 건축가§!"
-GER_BOR_HVA_assasinate_speer_desc:0 "알베르트 슈페어를 가장 간결하게 정의할 수 있는 단어가 세 개 있습니다. 기만자, 겁쟁이, 배신자. 내전에서 권력을 잡으려 한 이후로, 가엾은 슈페어 씨는 미국으로 도망쳐서 지금까지 히틀러 각하와 보어만 각하에 대하여 더러운 거짓말을 계속해서 퍼뜨리고 있습니다. 우리는 그를 끝내야만 합니다. 벌레같은 혓바닥을 침묵시킬 뿐만 아니라 저 국가적 위신을 해치는 자가 주목받지 못하도록 해야 합니다. 우리 요원들이 슈페어에게 접근하는 것은 어렵지 않을 것입니다. 그는 매일 절반은 미국 토크쇼 진행자과 똑같이 행동하는 것 같습니다. 이제 남은 일은 명령하는 일 뿐입니다. 그러면 알베르트 슈페어는 멀고 불쾌한 기억으로 남을 것입니다."
+GER_BOR_HVA_assassinate_speer:0 "§O작전명 건축가§!"
+GER_BOR_HVA_assassinate_speer_desc:0 "알베르트 슈페어를 가장 간결하게 정의할 수 있는 단어가 세 개 있습니다. 기만자, 겁쟁이, 배신자. 내전에서 권력을 잡으려 한 이후로, 가엾은 슈페어 씨는 미국으로 도망쳐서 지금까지 히틀러 각하와 보어만 각하에 대하여 더러운 거짓말을 계속해서 퍼뜨리고 있습니다. 우리는 그를 끝내야만 합니다. 벌레같은 혓바닥을 침묵시킬 뿐만 아니라 저 국가적 위신을 해치는 자가 주목받지 못하도록 해야 합니다. 우리 요원들이 슈페어에게 접근하는 것은 어렵지 않을 것입니다. 그는 매일 절반은 미국 토크쇼 진행자과 똑같이 행동하는 것 같습니다. 이제 남은 일은 명령하는 일 뿐입니다. 그러면 알베르트 슈페어는 멀고 불쾌한 기억으로 남을 것입니다."
 
-GER_BOR_HVA_assasinate_erhard_kiesinger:0 "§M작전명 네 사람§!"
-GER_BOR_HVA_assasinate_erhard_kiesinger_desc:0 "우리 정부에는 슈페어의 부하들인 키징어와 에르하르트에게 관용을 베풀어 라이히로 돌아올 수 있도록 허락해야 한다고 생각하는 사람들이 있습니다. 바보 같은 자들입니다. 그들이 어쩌면 당장은 보어만 각하께 충성을 맹세하고 동시에 슈페어를 깎아내릴지 모릅니다. 대신 그들은 쥐새끼같은 주인처럼 꼬리를 다리 사이에 끼고 도망칠 것입니다. 스위스가 보어만 각하의 라이히보다 더 좋은 곳이라면 거기서 뼈를 묻게 될 것입니다. 요원들이 그들을 제거하는 것은 아주 간단한 일이 될 것입니다. 스위스에서 이게 뉴스거리가 될지도 의심스럽습니다."
+GER_BOR_HVA_assassinate_erhard_kiesinger:0 "§M작전명 네 사람§!"
+GER_BOR_HVA_assassinate_erhard_kiesinger_desc:0 "우리 정부에는 슈페어의 부하들인 키징어와 에르하르트에게 관용을 베풀어 라이히로 돌아올 수 있도록 허락해야 한다고 생각하는 사람들이 있습니다. 바보 같은 자들입니다. 그들이 어쩌면 당장은 보어만 각하께 충성을 맹세하고 동시에 슈페어를 깎아내릴지 모릅니다. 대신 그들은 쥐새끼같은 주인처럼 꼬리를 다리 사이에 끼고 도망칠 것입니다. 스위스가 보어만 각하의 라이히보다 더 좋은 곳이라면 거기서 뼈를 묻게 될 것입니다. 요원들이 그들을 제거하는 것은 아주 간단한 일이 될 것입니다. 스위스에서 이게 뉴스거리가 될지도 의심스럽습니다."
 
 ### Bormann Standard Missions ###
 
@@ -396,6 +397,9 @@ RND_research_tt:0 "£GFX_science_icon §T연구와 발전§!은 §W[getGermanInt
 RND_research_button_tt:0 "[getGermanIntelAgencyShort] 연구 메뉴 열기"
 
 ### Map tooltips ###
+SGR_RND_Decisions_GUI_Selected_Region_tt:0 "선택된 지역: [GetSGRRNDRegionScriptedLoc]"
+Missions_Window_Target_Desc_tt:0 "지역 정보"
+
 RND_worldmap_europe_tt:0 "§x유럽§!\n\n£GFX_counter_intelligence_GER §Q[getGermanIntelAgencyShort] 암호화§!: [?GER_Regional_Encryption^1]\n£GFX_counter_intelligence_USA §MCIA 암호화§!: [?USA.USA_Regional_Encryption^1]\n\n§W지역별 임무를 활성화하려면 클릭하세요§!"
 RND_worldmap_europe_tt_delayed:0 "§g라이히§!와 그에 의존하는 §g아인하이츠팍트§!의 국가들, 그리고 the §G[ITA.GetName]§!와(과) 그들의 옛 동맹국인 §O트리움비라투스§!, 마지막으로 §R브리튼 제도§!와 §M스칸디나비아§!로 나뉘어 있습니다. §x구대륙§!에의 통제를 유지하는 것은 §g독일의§! 미래에 필수적입니다."
 
@@ -429,6 +433,7 @@ RND_worldmap_southamerica_tt_delayed:0 "§R남아메리카§!는 순진하게 �
 # \n£GFX_counter_intelligence_JAP §RGaiji-ka Encryption§!: [var]
 
 #### Technologies ####
+RND_tech_window_title_tt:0 "[getGermanIntelAgencyShort] 연구 완료"
 RND_research_window_title:0 "기술연구부"
 RND_research_window_subtitle:0 "아래에서 연구를 고르세요."
 
@@ -498,7 +503,7 @@ GER_Espionage.2.a:0 "귀찮은 것을 잘 쫓아냈군."
 GER_Espionage.3.t:0 "작전명 검 보고서"
 GER_Espionage.3.desc_west_russia:0 "극비\n복사 및 발설 금지\n[getGermanIntelAgencyCaps]의 모든 구성원들에게\n\n작전명 검\n\n러시아 - 서러시아\n\n[getGermanIntelAgencyShort] 요원들은 성공적으로 [WSR.GetNameDef]에 잠입했다. 요원들은 허구의 철도노동자 폭동에 대하여 현지 주둔군들에게 알림으로써 그들의 주의를 분산시켰다. 그곳에서 요원들은 밀수한 다이너마이트로 철도 몇 곳과 무기공장 몇 곳을 사보타주하는데 성공했다. 그 뒤 그들은 탈출지점으로 향해 복귀했다. 이는 서러시아 정부에게 있어서 심대한 보급 문제를 야기할 것이다.\n\n독일이 항상 안전하기를."
 GER_Espionage.3.desc_west_siberia:0 "극비\n복사 및 발설 금지\n[getGermanIntelAgencyCaps]의 모든 구성원들에게\n\n작전명 검\n\n러시아 - 서시베리아\n\n[getGermanIntelAgencyShort] 요원들은 성공적으로 [WSB.GetNameDef]에 잠입했다. 요원들은 허구의 철도노동자 폭동에 대하여 현지 주둔군들에게 알림으로써 그들의 주의를 분산시켰다. 그곳에서 요원들은 밀수한 다이너마이트로 철도 몇 곳과 무기공장 몇 곳을 사보타주하는데 성공했다. 그 뒤 그들은 탈출지점으로 향해 복귀했다. 이는 서시베리아 정부에게 있어서 심대한 보급 문제를 야기할 것이다.\n\n독일이 항상 안전하기를."
-GER_Espionage.3.desc_central_siberia:0 "극비\n복사 및 발설 금지\n[getGermanIntelAgencyCaps]의 모든 구성원들에게\n\n작전명 검\n\n러시아 -  중앙 시베리아\n\n[getGermanIntelAgencyShort] 요원들은 성공적으로 [CSR.GetNameDef]에 잠입했다. 요원들은 허구의 철도노동자 폭동에 대하여 현지 주둔군들에게 알림으로써 그들의 주의를 분산시켰다. 그곳에서 요원들은 밀수한 다이너마이트로 철도 몇 곳과 무기공장 몇 곳을 사보타주하는데 성공했다. 그 뒤 그들은 탈출지점으로 향해 복귀했다. 이는 중앙 시베리아 정부에게 있어서 심대한 보급 문제를 야기할 것이다.\n\n독일이 항상 안전하기를."
+GER_Espionage.3.desc_central_siberia:0 "극비\n복사 및 발설 금지\n[getGermanIntelAgencyCaps]의 모든 구성원들에게\n\n작전명 검\n\n러시아 -  중앙 시베리아\n\n[getGermanIntelAgencyShort] 요원들은 성공적으로 [CSB.GetNameDef]에 잠입했다. 요원들은 허구의 철도노동자 폭동에 대하여 현지 주둔군들에게 알림으로써 그들의 주의를 분산시켰다. 그곳에서 요원들은 밀수한 다이너마이트로 철도 몇 곳과 무기공장 몇 곳을 사보타주하는데 성공했다. 그 뒤 그들은 탈출지점으로 향해 복귀했다. 이는 중앙 시베리아 정부에게 있어서 심대한 보급 문제를 야기할 것이다.\n\n독일이 항상 안전하기를."
 GER_Espionage.3.desc_far_east:0 "극비\n복사 및 발설 금지\n[getGermanIntelAgencyCaps]의 모든 구성원들에게\n\n작전명 검\n\n러시아 -  극동\n\n[getGermanIntelAgencyShort] 요원들은 성공적으로 [FST.GetNameDef]에 잠입했다. 요원들은 허구의 철도노동자 폭동에 대하여 현지 주둔군들에게 알림으로써 그들의 주의를 분산시켰다. 그곳에서 요원들은 밀수한 다이너마이트로 철도 몇 곳과 무기공장 몇 곳을 사보타주하는데 성공했다. 그 뒤 그들은 탈출지점으로 향해 복귀했다. 이는 극동 정부에게 있어서 심대한 보급 문제를 야기할 것이다.\n\n독일이 항상 안전하기를."
 GER_Espionage.3.a:0 "눈밭에서의 성공이군."
 
@@ -780,10 +785,6 @@ RND.45.a:0 "Every pawn is an important piece."
 RND.46.t:0 "From Torrent to Torrent"
 RND.46.desc:0 "TOP SECRET\nEYES ONLY\nTO ALL MEMBERS OF THE REICHSNACHRICHTENDIENST\nPARAGUAY - UNDER CONTROL OF FULNA\n\nAnticipating the coming clash between the communist and democratic factions within FULNA, the RND has managed to discover multiple bases, fortifications, and zones of interest that the communist have hidden, or are trying to hide from the democrats. Well-known democratic figures within FULNA will receive this information under 'anonymous' sources, as we currently have no agents that can disguise as FULNA soldiers and personnel. This is expected to also sharpen tensions even further, leading to a quicker conflict.\n\nMAY GERMANY BE IN SAFE HANDS"
 RND.46.a:0 "Conflict is in human nature; we simply expedite the process."
-
-RND.48.t:0 "Problems I've Had A Few"
-RND.48.desc:0 "TOP SECRET\nEYES ONLY\nTO ALL MEMBERS OF THE REICHSNACHRICHTENDIENST\nSUBJECT: ERNESTO "CHE" GUEVARA\n\nErnesto "Che" Guevara, a well-known communist revolutionary in South America, has vanished once again. From the information we can gather, it is likely that Che is aware that he is being tracked by our intelligence agencies and is planning to move to another, safer location. Matching up the patterns he has had in previous years, our assumption is that he will move to Paraguay in order to foster further rebellion against the government there, as well as mobilize any communist elements within Paraguayan society.\n\nThe current best action to undertake would be to continue pursuing Che Guevara, in hopes that he can be tracked down again and his position revealed. There are already several locations marked on pg. 1 to 12. Additionally, the information of Che Guevara's whereabouts can be safely handed over to either the Brazilian or Argentinian government, or both, of whom would highly appreciate removing a Bolshevik revolutionary from the premises of South America. This can serve as a vital way to orient both countries to view us positively, and view Paraguay, which is a regime currently supported by the USA, negatively. More information about the collection of information on Che Guevara's backstory and personality can be found in pg. 13 to 16.\n\nMAY GERMANY BE IN SAFE HANDS."
-RND.48.a:0 "Three countries, one man."
 
 RND.47.t:0 "Flames of A Country"
 RND.47.desc:0 "TOP SECRET\nEYES ONLY\nTO ALL MEMBERS OF THE REICHSNACHRICHTENDIENST\nPARAGUAY - UNDER CONTROL OF COMMUNIST FORCES\n\nAgainst all odds, even with the help we have been giving them, the democratic faction within FULNA has been decimated, with the communists now having taken near-complete control over the group, and therefore the country as a whole. A communist nation in South America cannot be tolerated. Given that the RND already has a large base of operations within Paraguay, and is nominal allies with the intelligence agencies of Argentina and Brazil, we will begin staging immediate efforts to destabilize the country and target key figureheads within the communists to divide and conquer them, while aiding German-sympathetic groups within the region.\n\nMAY GERMANY BE IN SAFE HANDS"
