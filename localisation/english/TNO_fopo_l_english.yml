@@ -31,6 +31,7 @@
   fopo_name_tab_22:0 "필리핀 재건"
   fopo_name_tab_24_orungu:0 "오룽구 분쟁"
   fopo_name_tab_24_CAF:0 "중앙아프리카 전쟁"
+  fopo_name_tab_25:0 "남아프리카 철수"
 
   fopo_desc_text:0 "[Get_fopo_desc]"
   fopo_header_type:0 "[Get_fopo_header]"
@@ -56,17 +57,21 @@
  GER_bor_saw_desc:0 "§Y개입도:§! [GetBORSAWInvolvement] ([?GER_Bormann_SAW_involvement|Y1]§Y%§!)  §M시위:§! [GetBORSAWProtest] ([?GER_Bormann_SAW_civilian_protest|Y1]§Y%§!)\n\n우리의 전략은 현재 [getBORSAWStrategy].\n\n§R남아프리카 전쟁§!은 §Y총통§!께서 선동하거나 일으킨 것은 아니지만, 그럼에도 우리는 이 전쟁으로 이득을 얻을 수 있습니다. 우리가 §R미합중국§!을 아프리카에서 완전히 밀어내든지, §G철수시키든지§! 어떻게든 파장이 일 것입니다.\n\n그럼에도 불구하고 §M민간인§!들은 이미 이 전쟁에 우리가 개입한 것에 항의하고 있습니다.이제 그들의 요구와 우리의 계획을 신중하게 조율하지 않으면 §R철수해야만 하는 상황이 올 것입니다§!."
 
 ################## Congo
- GER_congo_civil_war_desc:0 "우리는 아프리카에서 패배했지만, 대륙에서 우리의 문제는 아직 끝나지 않았습니다. 콩고가 혼란에 빠지자 반역자의 잔당들이 우리의 지원을 요청했습니다. 우리가 이에 부응한다면 적어도 우리가 잃은 것 중 일부는 되찾을 수 있을지도 모릅니다."
+ GER_congo_civil_war_desc:0 "우리는 아프리카에서 패배했지만, 대륙에서 우리의 문제는 아직 끝나지 않았습니다. 콩고가 혼란에 빠지자 레오폴트빌의 독일계 행정부가 우리의 지원을 요청했습니다. 우리가 이에 부응한다면 적어도 우리가 잃은 것 중 일부는 되찾을 수 있을지도 모릅니다."
  JAP_congo_civil_war_desc:0 "콩고는 혼란에 빠졌고 독일과 미국이 그 잔재를 통제하러 움직이는 가운데, 이 제국주의자들이 콩고의 이익을 가지지 못하게 막는 것은 우리에게 달려있습니다. 콩고에서 승리하면 우리의 영향력이 강해질 것이며, 우리의 적이 아프리카를 침범하지 못하게 만들 것입니다."
  USA_congo_civil_war_desc:0 "콩고는 혼란에 빠졌고 독일과 일본이 그 잔재를 통제하러 움직이는 가운데, 이 폭군들이 콩고의 이익을 가지지 못하게 막는 것은 우리에게 달려있습니다. 콩고에서 승리하면 우리의 영향력이 강해질 것이며, 우리의 적이 아프리카를 침범하지 못하게 만들 것입니다."
  OFN_congo_civil_war_desc:0 "한때 미국의 국가수립모델을 대표하던 콩고는 이제 미국이 세운 행정부가 스스로의 무게를 이기지 못하고 붕괴하면서 거의 무정부 상태에 가까운 혼란에 빠져 있습니다. 레오폴드빌의 빌딩에서 카탕카의 정글에 이르기까지 콩고 전역은 혼란에 빠져 원주민 반군들은 봉기하여 미국 통치의 잔존물을 없애고 있으며, 모든 이들에게 암처럼 기생하며 살아왔던 은밀한 토착민 SS 잔존 대원들이 콩고 내륙 전역에서 나타나고 있습니다. 다가올 탈식민지화와 번영의 예측은 근시안적이고 순진한 생각이었다는 것이 드러났습니다. 콩고가 진정으로 평화를 찾을 수 있을 것이라고 생각할 사람이 있을까요?"
  
  GER_meeting_with_generals_CCW:0 "[GRO.GetFlag] 독일 장군과의 대담"
- GER_bombing_runs_CCW_1:0 "독일 군사 고문관 파견"
- GER_supply_freedom_fighters_CCW_1:0 "폭격 출격 허가"
- GER_send_military_advisors_CCW_1:0 "[GRO.GetFlag] 독일군 폭격"
+ GER_bombing_runs_CCW_1:0 "폭격 출격 허가"
+ GER_supply_freedom_fighters_CCW_1:0 "[GRO.GetFlag] 독일군 보급"
+ GER_send_military_advisors_CCW_1:0 "독일 군사 고문관 파견"
  GER_technician_aid_CCW_1:0 "독일군 전투공병단 파견"
  GER_sabotage_effort_CCW_1:0 "적 보급선 타격"
+ ### USA
+################## SAW
+ TNO_fopo_USA_saw_away_btn:0 "아프리카 전선"
+ TNO_fopo_USA_saw_home_btn:0 "국내 전선"
 
  USA_meeting_with_generals_CCW:0 "[CFS.GetFlag] 콩고 장군과의 대담"
  USA_bombing_runs_CCW:0 "폭격 출격 허가"
@@ -136,8 +141,6 @@
  BRA_brazillian_search_and_destroy_operations_desc:0 "브라질이 수색 및 파괴 작전에 가담하기 시작했습니다. 저항군 조직과 독일 특공대원을 사냥하여 파괴해야 합니다. 이 작전으로 전쟁으로 얻은 점령지에서 일어나는 저항 강도가 줄어들 것입니다."
  BRA_SAW_operation_withdraw:0 "베일아웃 작전"
  BRA_SAW_operation_withdraw_desc:0 "브라질군은 최선을 다하고 있지만, 전황이 반드시 브라질에게 유리하게만 전개된 것은 아닙니다. 실트가 남아프리카 지역으로 계속 진출하고 있으며 이제 남아프리카 공화국은 붕괴 위기에 처했습니다. 더 이상 전쟁에 계속 가담하고 있으면 병사들을 집에 데려오지 못하고 재앙이 될 수도 있는 위험을 가지고 있습니다. 우리는 이런 일이 일어나지 않도록 즉시 전군에게 철군 명령을 내릴 것입니다. 남아프리카 공화국과 남아 있는 양키들에게는 좋은 일이 일어나도록 기도는 해줄 순 있지만 그들은 이제부터 전쟁을 스스로 해쳐 나가야 합니다."
- decision_cost_10_cp:0 "£command_power §Y10§!"
- decision_cost_10_cp_blocked:0 "£command_power §R10§!"
 
 ### JAP
 ################## ICW
@@ -168,9 +171,6 @@
  JAP_send_military_advisors_SHO:0 "일본 군사 고문관 파견"
  JAP_technician_aid_SHO:0 "일본군 전투공병단 파견"
  JAP_sabotage_effort_SHO:0 "[MLY.GetFlag] 반군의 전쟁 기계 타격"
-
-################## Congo
- JAP_congo_civil_war_desc:0 "콩고는 대혼란에 빠져들어 미국과 독일이 그 잔해를 통제하러 움직이는 가운데, 이 제국주의자들에게서 콩고의 이익을 가져가지 못하게 막는 것은 우리의 일입니다. 콩고에서의 승리는 우리의 영향력을 공고히 만들 것이며, 우리의 적들이 아프리카를 계속 침탈하지 못하게 막을 것입니다."
 
 ################## WAC
   JAP_wac_desc:0 "카메룬은 이상적인 동맹국이 아닙니다. 그들은 의심스러우며, 미심쩍은 사상을 보여주며 내부적으로 불안정하며 그들이 말하는 범아프리카주의라는 야망은 위험합니다. 하지만 그들은 우리보다도 서부 개척민들을 더더욱 싫어합니다. 강력한 OFN의 노리개를 더 늘리지 않기 위해 카메룬을 지원해야 합니다."
@@ -259,12 +259,15 @@
  USA_hold_the_line:0 "전선 유지"
  USA_sabotage_effort_MLY:0 "[SHO.GetFlag]쇼난의 전쟁 기계 타격"
 
-################## Congo
- USA_congo_civil_war_desc:0 "PLACEHOLDER, add something here"
-
-################## West African Crisis
+################## West African War
+  solid_frontline: "통합 전선"
   USA_wac_desc_1: "서아프리카 자유 세계의 발판이 위협받고 있습니다! 반식민주의라는 미명 아래, 일본의 들러리들이 인종정치를 내세우는 것에 지나지 않는 범아프리카 해방전선이 자유 프랑스에 있는 우리의 옛 동맹국들과 "자국식 제국주의"라고 비난하는 같은 아프리카 동료를 향해 총부리를 겨누고 있습니다.\n\n파시스트든 아니든 전체주의자들과 맞서 싸우는 것이 우리의 의무이자 우리의 최대 이익입니다. 미국 국민들은 우리 개입의 정당성을 이해하길 매우 어려워하고 있지만, 이는 국민들이 현실에 대해 무지하기 때문입니다. 우리가 만일 자칭 십자군에 대항하지 못한다면 동방의 지배자들이 자유 아프리카의 심장, 대지, 영혼에 잔인하고 탐욕스러운 칼날을 댈 것입니다."
   USA_wac_desc_2: "서아프리카 자유 세계의 발판이 위협받고 있습니다! 우리의 오랜 친구였던 프랑스와 그 동맹들은 사방에서 자유의 적들에게 포위되었습니다. 서쪽과 북쪽에서는 기회주의자들과 오판한 이들이 온갖 사소한 이유로 프랑스를 공격하고 있습니다. 동쪽에서는 일본의 위선적인 들러리인 범아프리카 해방전선이 있습니다. 남쪽의 대서양에서 OFN이 전우를 지키기 위해 다가갈 것입니다.\n\n미국이 이런 혼란스러운 전쟁에 개입하는 것에 대해 국내에서는 상당한 저항이 있습니다. 특히 세계적인 적의 지원을 제대로 받지 못하는 삼파전이라는 복잡함이 강조된 전쟁에선 말이죠. 하지만 우리는 모든 자유 국가를 위해 개입해야 합니다. 그들이 파시스트이든 아니든 자유의 적이 미국의 적입니다."
+  
+  USA_WAC_cameroon_capitulates: "카메룬 항복"
+  USA_WAC_cameroon_capitulates_desc: "After a hard-fought offensive our side has managed to take control over the center of operations of the PALF, Douala. By holding it for enough time, the Cameroonians will see no choice but to accept surrendering to us."
+  USA_WAC_cameroon_capitulates_success_tt: "§G카메룬이 항복할 것입니다.§!"
+  USA_WAC_cameroon_capitulates_failure_tt: "§R전쟁은 계속될 것입니다...§!"
   
   # Shipments
   USA_WAC_toggle_infantry_equipment_shipments: "보병 장비 수송 보기/감추기"
@@ -320,8 +323,11 @@
   USA_WAC_train_naval_bombers: "해군 폭격기 훈련"
 
   # Decisions
-  USA_WAC_stabilize_front: "전선 안정화"
-  USA_WAC_stabilize_front_tt: "§Y서아프리카의 전선이 안정될 것입니다.§!"
+  USA_WAC_solidify_front: "전선 굳히기"
+  JAP_WAC_solidify_front: "전선 굳히기""
+  USA_WAC_stabilize_front: "전선 통합"
+  USA_WAC_stabilize_front_tt: "§Y서아프리카의 전선이 통합될 것입니다.§!"
+  USA_WAC_solidify_front_tt: "§Y서아프리카의 전선이 굳어질 것입니다.§!"
   USA_WAC_plan_offensive: "공세 계획"
   USA_WAC_expand_shipments: "군수 물자 수송 확대"
   USA_WAC_expand_shipments_tt: "§G우리 동맹국에 더 많은 화물을 선적할 수 있을 것입니다.§!"
@@ -334,11 +340,80 @@
   USA_ship_oil_WA: "석유 수송선 파견"
   USA_supply_air_force_WA: "플라잉 루스타즈 파병"
   USA_egypt_intelligence_WA: "§Y사잉런트 시타퉁가 작전§!"
-  USA_egypt_intelligence_WA_desc: "서아프리카에서 분쟁이 시작된 이래, 이집트-카메룬 국경에서는 세심하게 관망하고 있는 상황입니다. 이집트 정보부와의 접촉과 비교할 때, 이탈리아 동맹국은 카메룬의 군사 움직임과 통신량 활동에 대한 정보를 제공해줄 용의가 있습니다."  
+  USA_egypt_intelligence_WA_desc: "서아프리카에서 분쟁이 시작된 이래, 이집트-카메룬 국경에서는 세심하게 관망하고 있는 상황입니다. 이집트 정보부와의 접촉과 비교할 때, 이탈리아 동맹국은 카메룬의 군사 움직임과 통신량 활동에 대한 정보를 제공해줄 용의가 있습니다."
+  USA_coup_mali_WA: "§fOperation Leaping Drill§!"
+  USA_coup_mali_WA_desc: "The momentum with which the Pan-African Liberation Front has invaded the West African region has exposed a mortal flank of theirs: Moussa Traoré. With most of Mali's forces committed to the frontlines, their leadership could not afford a purge, allowing personalities like Traoré to expand their influence. This presents a golden opportunity that could prove a turning point, as, according to intelligence reports, Traoré and his followers are unhappy with their government bending the knee to Cameroon. If we were to spend our resources and part of our strength into propping up these dissidents, we could effectively strike Mali's Achilles' Heel and turn the tide on that front."
+  USA_coup_mali_WA_tt: "§GA rebellion will be sparked in western Mali!§!"
+
+  # Offensives
+  USA_WAC_preparing_offensive: "Logistics Saturated"
+  USA_WAC_preparing_offensive_desc: "Due to our logistics being directed towards a recent offensive, for the time being we can't begin planning for any new large scale offensive."
+  JAP_WAC_preparing_offensive: "Logistics Saturated"
+  JAP_WAC_preparing_offensive_desc: "Due to our logistics being directed towards a recent offensive, for the time being we can't begin planning for any new large scale offensive."
+
+  WAC_logistics_not_saturated_tt: "Our logistics are not saturated."
+  WAC_offensive_neighbor_state_tt: "Our allies border at least one state in the area."
+
+ #American
+  
+  USA_WAC_offensive_ghana: "Prepare Offensive into Ghana"
+  USA_WAC_offensive_ghana_stagnate: "The Ghana Front Stagnates"
+
+  USA_WAC_offensive_benin: "Prepare Offensive into Bénin"
+  USA_WAC_offensive_benin_stagnate: "The Bénin Front Stagnates"
+
+  USA_WAC_offensive_yoruba: "Prepare Offensive into Yorubaland"
+  USA_WAC_offensive_yoruba_stagnate: "The Yorubaland Front Stagnates"
+
+  USA_WAC_offensive_douala: "Prepare Offensive into Douala"
+  USA_WAC_offensive_douala_desc: "We will prepare what is, hopefully, one final offensive in this war into Cameroonian territory. By taking and holding Douala, Cameroon will surely see any further resistance as futile and seek out peace. We must expect fierce resistance, however."
+  USA_WAC_offensive_douala_stagnate: "The Douala Front Stagnates"
+
+  USA_WAC_offensive_mali: "Prepare Offensive into Mali"
+  USA_WAC_offensive_mali_stagnate: "The Mali Front Stagnates"
+
+  USA_WAC_offensive_guinea: "Prepare Offensive into Guinea"
+  USA_WAC_offensive_guinea_stagnate: "The Guinea Front Stagnates"
+
+  USA_WAC_offensive_wolofia: "Prepare Offensive into Wolofia"
+  USA_WAC_offensive_wolofia_stagnate: "The Wolofia Front Stagnates"
+
+  USA_WAC_offensive_burkina: "Prepare Offensive into Mossiland"
+  USA_WAC_offensive_burkina_stagnate: "The Mossiland Front Stagnates"
+
+ #Japanese
+
+  JAP_WAC_offensive_ghana: "Prepare Offensive into Ghana"
+  JAP_WAC_offensive_ghana_stagnate: "The Ghana Front Stagnates"
+
+  JAP_WAC_offensive_benin: "Prepare Offensive into Bénin"
+  JAP_WAC_offensive_benin_stagnate: "The Bénin Front Stagnates"
+
+  JAP_WAC_offensive_yoruba: "Prepare Offensive into Yorubaland"
+  JAP_WAC_offensive_yoruba_stagnate: "The Yorubaland Front Stagnates"
+
+  JAP_WAC_offensive_cote_divorie: "Prepare Offensive into Douala"
+  JAP_WAC_offensive_cote_divorie_desc: "We will prepare what is, hopefully, one final offensive to knock the Free French out of this war. By taking and holding Côte d'Ivoire, the rump imperialist state of France will surely be unable to continue standing, and their allies shall surely fall alongside them."
+  JAP_WAC_offensive_cote_divorie_stagnate: "The Côte d'Ivoire Front Stagnates"
+
+  JAP_WAC_offensive_mali: "Prepare Offensive into Mali"
+  JAP_WAC_offensive_mali_stagnate: "The Mali Front Stagnates"
+
+  JAP_WAC_offensive_guinea: "Prepare Offensive into Guinea"
+  JAP_WAC_offensive_guinea_stagnate: "The Guinea Front Stagnates"
+
+  JAP_WAC_offensive_wolofia: "Prepare Offensive into Wolofia"
+  JAP_WAC_offensive_wolofia_stagnate: "The Wolofia Front Stagnates"
+
+  JAP_WAC_offensive_burkina: "Prepare Offensive into Mossiland"
+  JAP_WAC_offensive_burkina_stagnate: "The Mossiland Front Stagnates"
   
   # unused
   USA_congo_confrontation_WA: "§R코일드 파이선 작전§!"
   USA_congo_confrontation_WA_desc: "The warlords and petty tyrants of the northern Congo are not exactly fond of our attempt to govern their territory, but they are no more fond of their Cameroonian neighbors who similarly threaten their rule. In exchange for weapons and the promise of a lighter touch, we may be able to get them to focus their attention northward."
+
+################## Mano Campaign
+
 
 ################## Angola
  angola_civil_war_please_dont_end_instantly: "앙골라 지역"
@@ -418,7 +493,6 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   USA_ICW_Domestic_Cat_desc:0 "인도네시아에서의 적대 행위 발생은 동남아시아에서 일본의 지배력을 조금씩 잠식시킬 수 있는 역할을 합니다. 그럼에도 불구하고 우리는 개입 범위를 신중하게 생각해야 합니다. 우리가 반군에게 더욱 많이 투자할수록 그들의 실패가 더욱 우리에게 돌아올 것입니다.\n\nInitially we may find it quite §Geasy§! to escalate the fight in Indonesia, but the §Rlonger§! and §Rharder§! we fight, the more the public will find itself disillusioned with a war we have little right to be fighting in.\n\n§GMaintaining§! support for the war from the £GFX_rd_texticon §wRepublican§!-§BDemocrats§! and the £GFX_npp_texticon §ONational Progressive Party§! will be essential to allow congress to let us send §Gmore§! support for the war effort, but should both parties be §Rsupportive§! of the war, anti-war activists may find themselves looking towards §Rextremism.§! Keeping the war §Gpopular§! will mean higher §Gsupport§! for our party.\n\n[USA_ICW_Active]"
   USA_ICW_Frontlines_Cat_desc:0 "From the cities of Sumatra to the thick jungles of New Guinea, the emerald of the equator lies ablaze. The decrepit Sukarno regime that has long ruled over the islands as a mere appendage of the Japanese Empire buckles under the weight of a new generation of patriots and freedom fighters, eager to cast off the shackles of Japanese suzerainty. Victory in Indonesia will not only restrain Japanese access to vital supplies of rubber and oil, but also provide vital breathing space to our Australian allies and peel away yet another nation from Tokyo's so-called "Co-Prosperity" Sphere.\n\nThe Japanese may have won the war, but we will ensure that they will not win the peace."
   USA_Pull_Out_Of_Indonesian_War:0 "지원 철회"
-  USA_MLY_aid_category_desc:0 "Test"
 
   USA_ICW_Domestic_Pop:0 "국내의 전쟁 지지도는 [GetICWDomesticSupport]. ([?USA_INS_CW_Domestic_Support])\n£GFX_rd_texticon §w공화§!-§B민주당§!의 전쟁 지지도는 [GetICWRDSupport]. ([?USA_INS_CW_RD_Support])\n£GFX_npp_texticon §O국민진보당§!의 전쟁 지지도는 [GetICWNPPSupport. ([?USA_INS_CW_NPP_Support])"
 
@@ -510,7 +584,7 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   USA_PHI_military_advisors:0 "군사 고문관 파견"
   USA_PHI_flying_tigers:0 "플라잉 타이거즈 파견"
   USA_PHI_escalation:0 "§R전쟁 확대§!"
-  USA_UPH_morale_lowers:0 "§R[UPH.GetFlag][UPH.GetName] 사기 저하 심리전§!"
+
 
   #Just in case we may want to bring this back to the CIA, I kept the loc key the same
   USA_PHI_huks_Irregular:0 "§e비정규전§! 작전 시행"
@@ -526,13 +600,6 @@ TNO_USA_We_can_intervene_MAD:0 "§w이제 마다가스카르 내전에 개입할
   tt_USA_PHI_olive_men:0 "§GUsing our equipment, the Filipino rebels will be able to field an additional division.§!"
   tt_USA_PHI_GDP:0 "§GOur industrial aid will slightly increase their GDP.§!"
   TNO_USA_Philippines_Action_tooltip:0 "We don't have any other ongoing operations in the §YPhilippines.§!"
-  decision_cost_30_cp_60_pp: "£command_power §Y30§! £political_power_texticon §Y60§!"
-  decision_cost_30_cp_60_pp_blocked: "£command_power §R30§! £political_power_texticon §R60§!"
-  decision_cost_20_cp_25_pp: "£command_power §Y20§! £political_power_texticon §Y25§!"
-  decision_cost_20_cp_25_pp_blocked: "£command_power §R20§! £political_power_texticon §R25§!"
-
-  decision_cost_40_cp_75_pp:0 "£command_power §Y40§! £political_power_texticon §Y75§!"
-  decision_cost_40_cp_75_pp_blocked:0 "£command_power §R40§! £political_power_texticon §R75§!"
   TNO_Balintawak_30_Days_Passed:0 "§Y30 days have passed§! since the Balintawak Blitz began."
   TNO_Balintawak_60_Days_Passed:0 "§Y60 days have passed§! since the Balintawak Blitz began."
   USA_PHI_instability_cooperation:0 "§xThis will alienate the Huks in the north, preventing us from engaging in any potential future cooperation with them.§!"
