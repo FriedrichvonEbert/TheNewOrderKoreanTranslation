@@ -48,23 +48,35 @@
  GAY_ultranationalism_party_long: "Vozrozhdeniye"
  
  ### Leader Desc ###
+ GAY_Mikhail_Antipin: "미하일 안티핀"
  POLITICS_MIKHAIL_ANTIPIN_DESC: "미하일 이바노비치 안티핀은 원래 첼랴빈스크 출신의 미천한 농부였습니다. 교육이나 철학적 문제 대신 일상적 생존에 더 중점을 둔 그저 그런 농부입니다. 징병된 그는 육군에 기관총사로 들어가 주로 우크라이나 전선에서 싸웠습니다. 그는 한때 소련 영웅 훈장까지 수상하는 등 능력 많은 군인이었습니다. 그러나 얼마 지나지 않아 연방이 붕괴되면서 제대로 된 예우를 받질 못했습니다. 그의 여단은 내전으로 붕괴했고 그는 간신히 옷만 걸치고 달아났습니다.\n\n한 달 넘게 황야를 헤매던 안티핀이 가이니 마을에 도달하자 지역 신부가 그를 데리고 가 건강을 되찾게 했습니다. 그 동안 안티핀은 러시아를 뒤흔든 이 모든 끔찍한 비극들 - 차르, 독일, 10월 혁명, 소련, 기근, 다시 한번 독일 - 이 우연히 일어난 것이 아니라 심판이라는 사실을 깨달으면서 종교적으로 각성했습니다. 러시아 백성이 여호와를 져버려서 죄에 대해 보복하신 것입니다.\n\n이 깨달음은 안티핀의 삶에 새로운 목적을 가져다 주었습니다. 그는 "진리의 창으로 무신론의 용을 박살내겠다"며 가이니와 주변 마을 사람들을 "성 조지 기사단"의 깃발 아래 집결시켰습니다. 규모는 작지만 기사단은 지역 주민들에게 안정과 영적인 격려를 제공하며, 주변의 미치광이와 이교도들을 막아내는데 효과적이라는게 증명되었습니다. 그랜드 마스터 미하일은 오직 하나님 앞에만 무릎을 꿇고 어떤 필멸의 통치자도 거부하지만, 만약 충분히 경건하다고 생각되는 지도자를 찾아낸다면 기꺼이 부하들과 함께 그 대의에 따르겠노라 맹세할 것입니다."
 
+ GAY_ONG_Yakov_Panteleev: "야코프 판텔레예프"
  POLITICS_YAKOV_PENTELEEV_DESC: "야코프 엘리자로비치 판텔레예프는 셀 수 없이 많은 전쟁의 베테랑입니다. 우드무르티아 마을에서 태어난 농부였던 그는 대조국전쟁이 발발한지 며칠 지나지 않아 붉은 군대로 징집되었습니다. 그는 고향에서 멀리 떨어진 이델 우랄의 도시를 용감하게 방어하여 많은 훈장을 얻고 승진했으며, 독일군이 볼가 둑에 도달할 때까지 싸웠지만, 모든 희망은 사라졌습니다. 여전히 마음속으로는 애국자였던 판텔레예프는 서러시아 전쟁에서 우드무르트인 부대에 자원입대했지만, 러시아는 다시한번 국방군에게 패배했고 판텔레예프는 장교에서 무일푼이 되었습니다.\n\n반공 수비대가 러시아 북서부에 군림하고 볼가 지역의 정권이 무너지기 전까지는 그랬습니다. 존경받는 육군 사령관으로서 야코프는 급조된 지방의회에 의해 만장일치로 우드무르트 공화국의 새 대통령으로 선출되었고, 충실한 동맹인 북러시아 공화국과 연합하였습니다.\n\n처음으로 판텔레예프의 사람들은 그들 자신을 위한 국가를 갖게 되었고, 그는 이 상태를 유지하기를 원합니다."
 
  ### Leader Traits ###
  the_militant_shepherd: "The Militant Shepherd"
  
  ### Ministers ###
- GAY_Cyril_Pavlov_hog: "Cyril Pavlov"
- GAY_Ivan_Snychev_eco: "Ivan Snychev"
- GAY_Nikolay_Fomichev_for: "Nikolay Fomichev"
- GAY_Ilya_Limonov_sec: "Ilya Limonov"
- #Post-Onega Collapse
- GAY_Flor_Vasilyev_hog: "Flor Vasilyev"
- GAY_Nikolay_Bayteryakov_for: "Nikolay Bayteryakov"
- GAY_Pyotr_Sysoyev_eco: "Pyotr Sysoyev"
- GAY_Zosim_Makarov_sec: "Zosim Makarov"
+ # Starting Cabinet
+ GAY_Cyril_Pavlov: "Cyril Pavlov"
+ GAY_Cyril_Pavlov_hog_desc: "Head of Government\nTheocracy"
+ GAY_Nikolay_Fomichev: "Nikolay Fomichev"
+ GAY_Nikolay_Fomichev_for_desc: "Foreign Minister\nTheocracy"
+ GAY_Ivan_Snychev: "Ivan Snychev"
+ GAY_Ivan_Snychev_eco_desc: "Economy Minister\nTheocracy"
+ GAY_Ilya_Limonov: "Ilya Limonov"
+ GAY_Ilya_Limonov_sec_desc: "Security Minister\nTheocracy"
+
+ # Post-Onega Collapse
+ GAY_ONG_Flor_Vasilyev: "Flor Vasilyev"
+ GAY_ONG_Nikolay_Bayteryakov: "Nikolay Bayteryakov"
+ GAY_ONG_Pyotr_Sysoyev: "Pyotr Sysoyev"
+ GAY_ONG_Zosim_Makarov: "Zosim Makarov"
+
+ ### Generals ###
+ GAY_Ivan_Kalinin: "Ivan Kalinin"
+ GAY_Frol_Vaskin: "Frol Vaskin"
  
  ### Ideas ###
  GAY_warrior_order: "Warrior Order"
