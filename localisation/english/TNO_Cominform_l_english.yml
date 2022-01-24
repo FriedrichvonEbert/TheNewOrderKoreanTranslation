@@ -10,12 +10,6 @@
 
  KOM_socintern_associate:0 "코민테른 준회원국"
 
- RUS_comecon_withdrew_money:0 "코메콘 기금을 수령함"
-
- RUS_comecon_sent_aid:0 "코메콘이 보내준 원조"
-
- RUS_comecon_requested_aid:0 "요청된 코메콘 원조"
-
  RUS_comecon_built_factory:0 "코메콘 동맹국의 산업 개발"
  
  ## GUI ##
@@ -28,17 +22,30 @@
 
  COMECON_defense_transfer_amt_yearly:0 "$[?ROOT.COMECONDefTransferAmtYearly]B/yr"
  COMECON_dev_transfer_amt_yearly:0 "$[?ROOT.COMECONDevTransferAmtYearly]B/yr"
+ 
+ COMECON_defense_title_tt:0 "COMECON Defense Fund"
+ COMECON_defense_withdraw_tt:0 "Withdraw"
+ COMECON_defense_deposit_tt:0 "Deposit"
+ COMECON_defense_yearly_contrib_tt:0 "Yearly Contribution"
 
+ COMECON_dev_title_tt:0 "COMECON Development Fund"
  COMECON_dev_amt:0 "$[?global.COMECON_monetary_fund_value|2]B"
  COMECON_defense_amt:0 "$[?global.COMECON_collective_defense_value|2]B"
 
+ COMECON_GUI_Country_Entry_Button_1:0 "Dispatch"
+ COMECON_GUI_Country_Entry_Button_2:0 "COMECON Aid"
+ COMECON_GUI_Country_Entry_Button_name:0 "Dispatch COMECON Aid"
  COMECON_GUI_Country_Entry_Button_tt:0 "§S코메콘§!에서 [THIS.GetNameDef]의 원조금으로 §Y250만 달러§!가 전달될 것입니다."
  Socintern_GUI_General_Assembly_Entry_Nation_tt:0 "[THIS.GetNameDef] - [THIS.GetSocInternVoteStatus]"
+ TNO_SOCINTERN_VOTE_TEXT:0 "Voting"
  TNO_SOCINTERN_YES_VOTE:0 "§G찬성§!에 표를 던집니다."
  TNO_SOCINTERN_ABS_VOTE:0 "§g기권§!합니다."
  TNO_SOCINTERN_NO_VOTE:0 "§R반대§!에 표를 던집니다."
  TNO_SOCINTERN_UNDECIDED_VOTE:0 "§R반대§!에 표를 던집니다."
 
+ COMECON_participants_title_tt:0 "COMECON PARTICIPANTS"
+ COMECON_eligible_title_tt:0 "ELIGIBLE NON-MEMBERS"
+ 
  COM_cooldown:0 "§R총회§!는 휴회 중입니다."
 
  COMECON_GUI_Defense_Fund_Withdraw_Label_tt:0 "우리가 §R무력분쟁§! 중일 경우, 방위 기금을 수령하는 것이 가능해집니다."
@@ -146,17 +153,12 @@
  COMECON_monetary_fund_thousand:0 "[?global.COMECON_monetary_fund_value_thousand|2]K USD"
 
  RUS_comecon_withdrew_money:0 "코민테른 기금 철회"
- RUS_comecon_built_factory:0 "Developed Partner Industries"
  RUS_comecon_sent_aid:0 "코메콘 원조 전송"
  RUS_comecon_requested_aid:0 "Requested COMECON Aid"
  
  ## Focus Tree ##
  
  ## Events ##
-
- socintern.0.t:0 "공산주의 인터내셔널의 총회가 이제 준비되다"
- socintern.0.d:0 "Ever since the creation of the Communist International, work has been on going to prepare a great assembly. There, representatives of the world's socialist parties would be able to gather to discuss issues and propose various motions. Today, the work is complete and the Assembly is ready!\n\nMembers of the ComIntern will be able to propose motions, and vote on them through a secret ballot. The addition of the Assembly to the organization's charter will no doubt prove to be an important tool in the struggle to advance Socialism internationally."
- socintern.0.a:0 "만국의 노동자들에게 영광스러운 날이로군!"
 
  socintern.1.t:0 "[FROM.GetNameDef]이/가 코민테른 회원국 지위를 제안하다"
  socintern.1.d:0 "An invitation has arrived today from [FROM.GetNameDef] inviting our ruling party into the Communist International as associate member. This new organization, often shortened to the "ComIntern" is meant to bring together all those who fight for the rights of workers and the advancement of mankind toward socialism.\n\nOur party has received an invitation of associate membership; this position would allow us to observe the organization's meetings, and perhaps in the future join it fully. The [FROM.GetAdjective]s await our reply as to our decision concerning joining the ComIntern or not."
