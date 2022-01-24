@@ -27,7 +27,7 @@
  FIN_intro_the_karelian_question: "The Karelian Question"
  FIN_intro_russian_auxiliary_police: "Russian Auxiliary Police"
  FIN_intro_put_down_the_riots: "Put Down the Riots"
- FIN_intro_dispatch_an_attache: "Dispatch an Attache"
+ FIN_intro_dispatch_an_attache: "Dispatch an Attaché"
  FIN_intro_step_up_the_resettlement: "Step Up the Resettlement"
  FIN_intro_expand_the_mannerheim_line: "Expand the Mannerheim Line"
  FIN_intro_the_koivisto_plan: "The Koivisto Plan"
@@ -359,30 +359,52 @@
  FIN_Nyet_Vinjaya: "Nyet, Venäjä!"
  FIN_Only_Way: "승리할 유일한 방법"
  
+ #Character loc
+ FIN_Karl_Lennart_Oesch: "Karl Lennart Oesch"
+ FIN_Teuvo_Aura: "Teuvo Aura"
+ FIN_Karl_August_Fagerholm: "Karl-August Fagerholm"
+ FIN_Urho_Kekkonen: "Urho Kekkonen"
+ FIN_Paavo_Susitaival: "Paavo Susitaival"
+ FIN_Aimo_Aaltonen: "Aimo Aaltonen"
+ FIN_Sulo_Nykanen:0 "Sulo Nykänen"
+ 
  #Ministers
- FIN_Martti_Miettunen_hog: "Martti Miettunen"
- FIN_Mauno_Koivisto_eco: "Mauno Koivisto"
- FIN_Arvo_Pentti_sec: "Arvo Pentti"
- FIN_Ahti_Karjalainen_for: "Ahti Karjalainen"
- FIN_Johannes_Virolainen_hog: "Johannes Virolainen"
- FIN_Mauno_Jussila_eco: "Mauno Jussila"
- FIN_Rafael_Paasio_hog: "Rafael Paasio"
- FIN_Sulo_Suorttanen_sec: "Sulo Suorttanen"
- FIN_Paivio_Hetemaki_hog: "Päiviö Hetemäki"
- FIN_Osmo_P_Karttunen_eco: "Osmo P. Karttunen"
- FIN_Kaarlo_Leinonen_sec: "Kaarlo Leinonen"
- FIN_Paavo_Talvela_hog: "Paavo Talvela"
- FIN_Rolf_Nevanlinna_eco: "Rolf Nevanlinna"
- FIN_Bruno_Salmiala_sec: "Bruno Salmiala"
- FIN_Elias_Simojoki_for: "Elias Simojoki"
- FIN_Aarne_Saarinen_hog: "Aarne Saarinen"
- FIN_Erkki_Salomaa_eco: "Erkki Salomaa"
- FIN_Tuure_Lehen_sec: "Tuure Lehen"
- FIN_Ville_Pessi_for: "Ville Pessi"
+ FIN_Martti_Miettunen: "Martti Miettunen"
+ FIN_Mauno_Koivisto: "Mauno Koivisto"
+ FIN_Arvo_Pentti: "Arvo Pentti"
+ FIN_Ahti_Karjalainen: "Ahti Karjalainen"
+ 
+ FIN_Johannes_Virolainen: "Johannes Virolainen"
+ FIN_Mauno_Jussila: "Mauno Jussila"
+
+ FIN_Rafael_Paasio: "Rafael Paasio"
+ FIN_Sulo_Suorttanen: "Sulo Suorttanen"
+ 
+ FIN_Paivio_Hetemaki: "Päiviö Hetemäki"
+ FIN_Osmo_P_Karttunen: "Osmo P. Karttunen"
+ FIN_Kaarlo_Leinonen: "Kaarlo Leinonen"
+ 
+ FIN_Paavo_Talvela: "Paavo Talvela"
+ FIN_Rolf_Nevanlinna: "Rolf Nevanlinna"
+ FIN_Bruno_Salmiala: "Bruno Salmiala"
+ FIN_Elias_Simojoki: "Elias Simojoki"
+ 
+ FIN_Aarne_Saarinen: "Aarne Saarinen"
+ FIN_Erkki_Salomaa: "Erkki Salomaa"
+ FIN_Tuure_Lehen: "Tuure Lehen"
+ FIN_Ville_Pessi: "Ville Pessi"
+ 
+ # Generals
+ FIN_Kaarlo_Olavi_Leinonen: "Kaarlo Olavi Leinonen"
+ FIN_Yrjo_Ilmari_Keinonen: "Yrjö Ilmari Keinonen"
+ FIN_Armas_Eino_Martola: "Armas-Eino Martola"
+ FIN_Sakari_Simelius: "Sakari Simelius"
+ FIN_Ensio_Siilasvuo: "Ensio Siilasvuo"
+ FIN_Adolf_Ehrnrooth: "Adolf Ehrnrooth"
  
  #Decisions
  
- FIN_issues: "The National Issues"
+ FIN_issues: "국내 문제"
  FIN_issues_desc: "Although our borders stretch from coast to coast, we find ourselves in a difficult position, beset by internal strife and tensions in the Russian-majority eastern zones. Handling these issues will be crucial for our survival.\n\nSupport for the current regime is currently [GetApprovalRating].\n\nThe opposition is currently [GetRadicalizationFinlandOpp].\n\nTension in Russian-majority areas is currently [GetRussiaTensions].\n\nOnega is currently [GetOnegaRelations] with us.\n\nWe have made [GetPromises] promises to the opposition."
  FIN_status: "Reset Status"
  FIN_supplemental_aid_to_onega: "Additional Aid To Onega"
