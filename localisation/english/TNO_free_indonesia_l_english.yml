@@ -21,13 +21,28 @@
  #Army leaders
  FIELD_MARSHAL_JOOP_WAROUW:0 "Joop Warouw believes in Indonesia. He believed in Indonesia during the National Revolution when he showed valor again and again in the fight against the Dutch. He believed in Indonesia during the first years of Independence, trusting in men like Hatta and Sukarno to build the new nation. His faith faltered with the passage of Presidential Decree no. 321/1965, but after Hatta's speech and subsequent revolt, it was inflamed once again. Joop Warouw believes in Indonesia and that belief may yet carry him through this conflict and, finally, to an Indonesia worth believing in."
  GENERAL_SUTOMO:0 "Sutomo "Bung Tomo" is, or was, one of the few men in the military with a conscience. The corruption, the abuses of power, and the dereliction of duty to the nation disgusted him. When rumours of resistance against Sukarno, whom Sutomo viewed as one of the worst offenders of self interest above that of Indonesia's, he covertly put as much support as he could behind the nascent revolution. With Hatta's speech and the declaration of a new, free Indonesia, he put his oratory skills, second only to Sukarno, to good use, convincing a decent amount of troops to defect alongside him in the struggle for a government that puts the good of the nation before the weight of its pockets."
+ 
+ # Character loc #
+ FRI_Moh_Hatta: "Mohammad Hatta"
+ 
+ # Generals #
+ FRI_Sutomo: "수토모"
+ FRI_Joop_Warouw: "Joop Warouw"
 
  #ministers
- FRI_minister_Mohammad_Natsir_hog:0 "Mohammad Natsir"
- FRI_minister_Mohammad_Natsir_hog_desc:0 "§LA journalist, intellectual, and scholar, Mohammad Natsir is defined by his big ideas and ever greater opposition to Sukarno. His political beliefs derive from his religious beliefs, and the two complement each other like the push and pull of the tide. Natsir wants an Islamic Indonesia, built on the Koran and united by faith in Allah. This, as well as his advocacy for human rights, brought him into conflict with Sukarno and when Hatta made his promises of a new, free Indonesia, Natsir saw his chance to finally change his country for the better.§!"
- FRI_minister_Subandrio_for:0 "수반드리오"
- FRI_minister_Amir_Sjarifuddin_eco:0 "Amir Sjarifuddin"
- FRI_minister_General_Maludin_Simbolon_sec:0 "Maludin Simbolon"
+ FRI_Mohammad_Natsir:0 "Mohammad Natsir"
+ FRI_Mohammad_Natsir_hog_desc:0 "§YHead of Government\nIslamic Democracy§!\n§F------------§!\n§LA journalist, intellectual, and scholar, Mohammad Natsir is defined by his big ideas and ever greater opposition to Sukarno. His political beliefs derive from his religious beliefs, and the two complement each other like the push and pull of the tide. Natsir wants an Islamic Indonesia, built on the Koran and united by faith in Allah. This, as well as his advocacy for human rights, brought him into conflict with Sukarno and when Hatta made his promises of a new, free Indonesia, Natsir saw his chance to finally change his country for the better.§!"
+ 
+ FRI_Subandrio:0 "수반드리오"
+ FRI_Subandrio_for_desc:0 "§YForeign Minister\nNational Liberalism§!"
+ FRI_Subandrio_hog_desc:0 "§YHead of Government\nNational Liberalism§!"
+ 
+ FRI_Amir_Sjarifuddin:0 "Amir Sjarifuddin"
+ FRI_Amir_Sjarifuddin_eco_desc:0 "§YEconomic Minister\nSocial Democracy§!"
+ FRI_Amir_Sjarifuddin_hog_desc:0 "§YHead of Government\nSocial Democracy§!"
+ 
+ FRI_General_Maludin_Simbolon:0 "Maludin Simbolon"
+ FRI_General_Maludin_Simbolon_sec_desc:0 "§YSecurity Minister\nNational Liberalism!"
 
  #foci 
 
@@ -36,7 +51,7 @@
  FRI_to_arms_for_a_free_indonesia_tt:0 "The struggle for Freedom has begun!"
 
  FRI_the_international_stage:0 "The International Stage"
- FRI_the_international_stage_desc:0 "It is certainly possible to win this war alone, but why should we? There are countless nations around the world, some more powerful than others and engaged in their own, less violent, conflicts, yet united in one thing: Hatred for the Japanese. The Americans, the Germans, the Indians, and even some members of the CoProsperity Sphere desire nothing more than the defeat and humiliation of the Japanese Empire. They are willing to provide us with guns, advisors, and equipment - anything we ask - just as long as we make good on our promise to undermine the Rising Sun."
+ FRI_the_international_stage_desc:0 "It is certainly possible to win this war alone, but why should we? There are countless nations around the world, some more powerful than others and engaged in their own, less violent, conflicts, yet united in one thing: Hatred for the Japanese. The Americans, the Germans, the Indians, and even some members of the Co-Prosperity Sphere desire nothing more than the defeat and humiliation of the Japanese Empire. They are willing to provide us with guns, advisors, and equipment - anything we ask - just as long as we make good on our promise to undermine the Rising Sun."
  FRI_the_free_nations:0 "The Free Nations"
  FRI_the_free_nations_desc:0 "The Americans, and by extension the rest of the OFN, are no friends of Japan, their enemy in the last World War. Even so, many doubt that they'll involve themselves in another conflict so soon after South Africa, a terrible, bloody conflict that claimed the lives of many of their sons. But the American spirit is anything but peace loving and serene, and with a few carefully chosen words like "freedom," "liberty," and "rich Indonesia oil fields" it will prove trivial to convince the Yankees to poke their noses where they don't belong."
  FRI_plead_with_germany:0 "Plead with Germany"
@@ -44,7 +59,7 @@
  FRI_help_from_india:0 "Help From India"
  FRI_help_from_india_desc:0 "India, a growing power in Asia, is a natural rival to Japan. The humiliation of the last war and the ache of the Japanese pretender puppet regime embedded in their side like a splinter serve only to ensure a growing environment of hostility between the two nations. They are not yet ready for open confrontation with the East, but our war is the perfect theater in which to test their mettle. The Indians must be made to understand that by helping us they will hurt the Japanese."
  FRI_dissent_in_the_sphere:0 "Dissent in the Sphere"
- FRI_dissent_in_the_sphere_desc:0 "The CoProsperity Sphere is hardly the grand alliance of Pan Asian unity that the propaganda claims it is. Japan is a foreign master, and no amount of ideology can change that. Subversives and nationalists, both within and outside of Sphere aligned governments, plot the eventual fall of the Rising Sun. In their eyes, our war represents a real chance to strike a blow at Japan and it's Asian hegemony."
+ FRI_dissent_in_the_sphere_desc:0 "The Co-Prosperity Sphere is hardly the grand alliance of Pan Asian unity that the propaganda claims it is. Japan is a foreign master, and no amount of ideology can change that. Subversives and nationalists, both within and outside of Sphere aligned governments, plot the eventual fall of the Rising Sun. In their eyes, our war represents a real chance to strike a blow at Japan and its Asian hegemony."
 
  FRI_old_foes_new_friends:0 "Old Foes, New Friends"
  FRI_old_foes_new_friends_desc:0 "Ours is not the only organization that opposes Sukarno. Various cells, radical groups, and volunteer organizations exist in Indonesia, some of which align more with our goals than others. Ideological purity is hardly our most pressing issue, however. All of these groups resist Sukarno and his military dictatorship. All of them would be a great boon to the Revolution. All of them will certainly be destroyed if we do not fight as one."
@@ -129,8 +144,6 @@
  FRI_structure_the_blend:0 "Structure the Blend"
  FRI_structure_the_blend_desc:0 "The Free Indonesian Army is a disparate, complex mixture. Old veterans fight alongside young enlistees. Militias with unique symbology and group culture debate strategy with identical uniformed men. Indonesians from every conceivable military background work together towards a common goal. Some would look at our liberating force and call it chaos. Perhaps a little chaos is necessary to free Indonesia."
 
- FRI_sutomos_plan:0 "Sutomo's Plan"
- FRI_sutomos_plan_desc:0 "Field Marshal Sutomo has proposed a general plan to focus on the offensive. Using unconventional tactics, civilian support, and a general psychology of aggressive advancement, he believes the Free Indonesia Army will be able to handily defeat the comparatively traditional and rigid officers of Sukarno. The Revolution will be fought unlike any war ever before."
  FRI_act_behind_the_frontlines:0 "Act Behind the Frontlines"
  FRI_act_behind_the_frontlines_desc:0 "The enemy's greatest tool is their cities, factories, and people. It is also their greatest weakness. Infiltrators and spies will slip across the frontlines. Once in enemy territory, they will spread dissent, steal military secrets, and sabotage production. They will serve in the shadows to protect the light."
  FRI_all_out_disruption:0 "All-Out Disruption"
@@ -147,7 +160,7 @@
  FRI_charge_bravely:0 "Charge Bravely"
  FRI_charge_bravely_desc:0 "Our army will flash forth from the topmost of the heavens. The vanguard of Indonesia's liberation will march fearlessly through the dens and ratholes of traitors, driving them out into the holy, crimson dawn of freedom. Forward! Ever forward towards the future of Indonesia!"
  FRI_defend_valiantly:0 "Defend Valiantly"
- FRI_defend_valiantly_desc:0 "Our army will hide in the most secret recesses of the earth. We will sequester ourselves behind the strongest defenses and stratagems. The enemy will attack again and again; again and again they will stumble across our impenetrable will.. We will hold for a thousand years if need be. We will never be conquered!"
+ FRI_defend_valiantly_desc:0 "Our army will hide in the most secret recesses of the earth. We will sequester ourselves behind the strongest defenses and stratagems. The enemy will attack again and again; again and again they will stumble across our impenetrable will. We will hold for a thousand years if need be. We will never be conquered!"
  FRI_heroes_behind_the_front:0 "Heroes behind the Front"
  FRI_heroes_behind_the_front_desc:0 "The greatest hero of the Revolution is not the idealistic politician, the valiant soldier, nor the erudite officer. The greatest hero of the Revolution is the defiant partisan, an average citizen willing strength and courage against the enemy within their own territory. When we secure the power of the everyday person, the enemy has already lost."
 
@@ -378,7 +391,7 @@
  fri.100.a:0 "I'm not sure what they expected to happen."
 
  fri.101.t:0 "First Contact"
- fri.101.desc:0 "Hatta ran his fingers across a typewriter. It was hefty, metal, and expensive. It was also almost out of ink. The guilty discarded papers covered his desk, mocking him with their pointless, wasteful existence. So many words, so much ink, so much time - only to be thrown out and left unread. Hatta sighed, and began yet another composition.\n\nTo the\n\nHatta crumpled up the paper and threw it aside before beginning again.\n\nThis is not the time for conflict. When Indonesia is free, we can debate. When there is peace, we can afford to campaign and argue and compete. When tyranny lies defeated and democracy rules, the people will judge the validity of our beliefs. For now, we must cooperate, or none of our many visions of the future can or will come to pass.\n\nWhy do we fight each other when a common enemy lies before us? No matter the extent or deficit of my piety or class consciousness, Sukarno acts to destroy our movement and all we protect. Brothers, I implore you, turn your weapons against Sukarno and leave your comrades be. When Sukarno is defeated, the people will decide Indonesia's path.\n\nHatta reread his work and looked at the clock in his office. He rubbed his forehead. It would have to do."
+ fri.101.desc:0 "Hatta ran his fingers across a typewriter. It was hefty, metal, and expensive. It was also almost out of ink. The guilty discarded papers covered his desk, mocking him with their pointless, wasteful existence. So many words, so much ink, so much time - only to be thrown out and left unread. Hatta sighed, and began yet another composition.\n\n"To the"\n\nHatta crumpled up the paper and threw it aside before beginning again.\n\n"This is not the time for conflict. When Indonesia is free, we can debate. When there is peace, we can afford to campaign and argue and compete. When tyranny lies defeated and democracy rules, the people will judge the validity of our beliefs. For now, we must cooperate, or none of our many visions of the future can or will come to pass.\n\nWhy do we fight each other when a common enemy lies before us? No matter the extent or deficit of my piety or class consciousness, Sukarno acts to destroy our movement and all we protect. Brothers, I implore you, turn your weapons against Sukarno and leave your comrades be. When Sukarno is defeated, the people will decide Indonesia's path."\n\nHatta reread his work and looked at the clock in his office. He rubbed his forehead. It would have to do."
  fri.101.a:0 "Promises look good on paper."
  fri.101.a.tt:0 "§YThis presents us with an opportunity to secure a committed anti-Sukarno alliance with the Islamists and Communists.§!\n§RWe cannot let it go to waste!§!"
 
@@ -422,7 +435,7 @@
  
  fri.201.t:0 "Good Ol' Yanks"
  fri.201.desc:0 "Hatta and his two insuppressible advisors met again at their informally designated meeting table.\n\n"Do you have it?" the first advisor practically squealed.\n\n"Oh goodness, please tell us you have it." added the second.\n\nHatta withdrew an envelope from his suit pocket. "This came in this morning straight from Washington, figuratively speaking. I haven't read it yet." Hatta paused. "I'm not sure I want to."\n\n"If you won't read it I will." sputtered the first advisor. In one fluid motion, he swiped the envelope, opened it, and skimmed the letter. After a moment of reading, he started to laugh. He laughed maniacally, dropping the letter on to the ground. His eyes filled with tears and he cupped his face in his palms.\n\n"Well?" asked the second advisor. "What did they say?" But his colleague, who was now wheezing, was incapable of giving a response. "Damn it, I'll read it myself." he declared. He picked the letter up off of the floor and read it, muttering the words to himself. Unlike his companion, he read the entire message before looking up. He was dead silent..\n\nHatta was impatient now. "What did they say? Are the Americans going to help?"\n\nThe second advisor looked at him blankly. His forehead creased in confusion.\n\n"Did you really think they would back down, sir?" asked the first advisor, finally regaining his breath. "You need more faith."\n\n"Yes sir, they're coming." stated the second advisor in a low, quiet voice. "The yanks are coming."\n\nBreaking his professional composure, Hatta yelled at the top of his lungs."
- fri.201.a:0 "Send the word over there!"
+ fri.201.a:0 ""Send the word over there!""
 
  fri.202.t:0 "Left on the Hanger"
  fri.202.desc:0 "Hatta wished he was disappointed. Hatta wished he could feel his hope crushed, if only to know that it had existed at all. But he felt nothing as he held the expensive, officially unofficial looking letter.\n\n"Maybe they're open to further negotiations? Or perhaps they are promising limited aid?" the second advisor asked nervously.\n\n"No, I'm afraid the language is very clear." sneered the first advisor. "The Americans have abandoned us, not that we need them that is."\n\n"It's always good to have allies." remarked Hatta. "Especially ones as powerful as the United States."\n\n"I think we should send another letter." faintly advised the second advisor.\n\n"What for?" countered the first. "The Americans have proven that they don't give a damn about democracy, freedom, or even fucking up the Rising Sun." He shook his head. "They don't want to 'inflame tensions' as if half of them aren't frothing at the mouth to bomb Tokyo."\n\nHatta let his mind drift far away from the routine petty spat between his advisors. Without American support, the war would be difficult, maybe impossible. More than that, the factions composing Free Indonesia would grow restless and worried. The front was breaking, all because the Yankees weren't ready for another adventure."
@@ -531,8 +544,6 @@
  FRI_sutomos_plan1_desc:0 "Sutomo's Plan aims to end the war as rapidly as possible through aggressive, unorthodox tactics. The army as a whole will become a rollling, unending offensive crashing through enemy lines in direct battle and harrassing them within their own territory with partisans. With luck, Sukarno's rigid strategy will prove unadaptive our attacks and a series of decisive battles will bring a quick end to this destructive civil war."
  FRI_sutomos_plan2:0 "Sutomo's Plan"
  FRI_sutomos_plan2_desc:0 "Sutomo's Plan aims to end the war as rapidly as possible through aggressive, unorthodox tactics. The army as a whole will become a rollling, unending offensive crashing through enemy lines in direct battle and harrassing them within their own territory with partisans. With luck, Sukarno's rigid strategy will prove unadaptive our attacks and a series of decisive battles will bring a quick end to this destructive civil war."
- FRI_rijadis_strategy:0 "Rijadi's Strategy"
- FRI_rijadis_strategy_desc:0 "Rijadi's Strategy is focused on sturdy defense and cautious advancement, with the intention of capitalizing on the instability of Sukarno's regime. Entrenched, unmoving frontlines will ensure the maximum preservation of Indonesian life until a peace settlement can be reached. If such a scenario seems impossible, superior organization and drilling will ensure a slow, yet inexorable, victory."
  FRI_rijadis_strategy1:0 "Rijadi's Strategy"
  FRI_rijadis_strategy1_desc:0 "Rijadi's Strategy is focused on sturdy defense and cautious advancement, with the intention of capitalizing on the instability of Sukarno's regime. Entrenched, unmoving frontlines will ensure the maximum preservation of Indonesian life until a peace settlement can be reached. If such a scenario seems impossible, superior organization and drilling will ensure a slow, yet inexorable, victory."
  FRI_rijadis_strategy2:0 "Rijadi's Strategy"
@@ -542,11 +553,13 @@
  FRI_rijadis_strategy4:0 "Rijadi's Strategy"
  FRI_rijadis_strategy4_desc:0 "Rijadi's Strategy is focused on sturdy defense and cautious advancement, with the intention of capitalizing on the instability of Sukarno's regime. Entrenched, unmoving frontlines will ensure the maximum preservation of Indonesian life until a peace settlement can be reached. If such a scenario seems impossible, superior organization and drilling will ensure a slow, yet inexorable, victory."
  FRI_smuggler_assistance:0 "Smuggler Assistance"
- FRI_smuggler_assistance_desc:0 "Despite their unsavory reputation, the many smugglers of Indonesia are no friend to Sukarno and therefore a very good friend to us. With promises of amnesty for any past crimes commited under the previous regime, the various criminal elements of Indonesia have flocked to our side. Trawling trhough rivers and seas and crawling through jungles and mud, they both guide and supply our soldiers in our quest to liberate Indonesia."
+ FRI_smuggler_assistance_desc:0 "Despite their unsavory reputation, the many smugglers of Indonesia are no friends to Sukarno and therefore very good friends to us. With promises of amnesty for any past crimes commited under the previous regime, the various criminal elements of Indonesia have flocked to our side. Trawling through rivers and seas and crawling through jungles and mud, they both guide and supply our soldiers in our quest to liberate Indonesia."
  FRI_unified_supply_lines:0 "Unified Supply Lines"
  FRI_unified_supply_lines_desc:0 "A combination of both land and aerial supply routes has created a truly efficient system for the maintenance of our troops. Heavy and unimportant supplies take the long way through jungles and along dirt, arriving at their destinations at a carefully calculated date. Lighter or more critical supplies take an express trip above the treeline, reaching their destinations in record time."
  FRI_air_mail:0 "Air Mail"
  FRI_air_mail_desc:0 "A fleet of civilian and stolen military aircraft fills the skies, transporting supplies across Indonesia to our soldiers, ever hungery for ammunition and rations. The speed of these aerial couriers grants a significant degree of flexibility to our strategists. When a resupply can arrive in just a few hours, its possible to make attacks will weapons that are miles away."
+ FRI_fuel_war_machine:0 "Fuel the War Machine"
+ FRI_fuel_war_machine_desc:0 "The war is taking its toll on our meagre industry, new directives from the capital have ordered to increase our production. This will help the war effort."
  FRI_USA_backchannels_desc:0 "The Yankees are here! The Americans have begun officially unofficailly supporting our war against Sukarno. Their promise of future aide is enough to invigorate our leaders and generals with a new found optimism and vigor."
  FRI_USA_secure_supply_lines_desc:0 "The Americans have begun providing material and logistical aide to our amry. Their support ensures that our men never want for provisions or other neccesities. As equipment is supplemented, the strain on our paper thin supply lines is lessened."
  FRI_USA_saf_lessons_desc:0 "The Americans have begun sharing their military expertise honed to perfection during their adventure in South Africa. Though the enemy we face are not exactly the same as German SS, American experience will be invaluable in our effort to secure victory."
