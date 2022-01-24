@@ -23,6 +23,11 @@ superpower_power_projection_modifier: "세력 투사 영향"
 
 threat_button_tt: "냉전 GUI 열기"
 
+Cold_War_GUI_Rankings_Button_tt:0 "순위"
+Cold_War_GUI_Tension_Button_tt:0 "긴장도"
+Cold_War_GUI_Spheres_Button_tt:0 "영향권"
+Cold_War_GUI_Nukes_Button_tt:0 "핵무기"
+
 ## Power Projection
 Cold_War_GUI_PowerProjection_AddSeaZone_tt:0 "§Y[Cold_War_GUI_GetSeaZone_Name]§!에 세력을 투사할 능력을 §G갖추게 될§! 것입니다."
 Cold_War_GUI_PowerProjection_RemoveSeaZone_tt:0 "§Y[Cold_War_GUI_GetSeaZone_Name]§!에 세력을 투사할 능력을 §R잃게 될§! 것입니다."
@@ -113,6 +118,11 @@ TNO_Cold_War_Victory_Outcome_Stalemate: "§Y무승부§!"
 TNO_Cold_War_Victory_Outcome_Victory: "§G승리§!"
 TNO_Cold_War_Victory_Outcome_Total_Victory: "§y총체적 승리§!"
 
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Info_Entry_Military_Title_tt: "군사"
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Info_Entry_Economy_Title_tt: "경제"
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Info_Entry_Diplomacy_Title_tt: "외교"
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Info_Entry_Victory_Title_tt: "점수"
+
 TNO_Cold_War_GUI_Rankings_Total_Score_Military: "§R총 점수:§! [?Cold_War_GUI_Selected_Superpower.Score_Military^0|W0]"
 TNO_Cold_War_GUI_Rankings_Total_Score_Economy: "§R총 점수:§! [?Cold_War_GUI_Selected_Superpower.Score_Economy^0|W0]"
 TNO_Cold_War_GUI_Rankings_Total_Score_Diplomacy: "§R총 점수:§! [?Cold_War_GUI_Selected_Superpower.Score_Diplomacy^0|W0]"
@@ -124,10 +134,18 @@ TNO_Cold_War_GUI_Victories_Sample_DBG_tt: "§Y디버그 - 예시 로그 세팅§
 TNO_Cold_War_GUI_World_Tension_PB_tt: "§Y세계 긴장도§!는 현재 §Y[?global.TNO_World_Tension]%§!인 상태입니다."
 TNO_Cold_War_GUI_World_Tension_PB_tt_delayed: "§Y세계 긴장도§!란 §V세계의 전반적인 갈등과 불안정성 상태§!를 정량적으로 측정한 것입니다.. §x전쟁, 불안정, 정치적 변화, 경제적 붕괴, 혁명§!은 이 수치를 높입니다. 반대로 §G평화 협정이나 세계적 성공과 번영을 나타내는 기타 지표들이 나타나면§! 그 수치는 내려갑니다. 만약 이 수치가 §Y100%§!에 도달한다면, §o세계는 신질서가 도래한 뒤로 전례 없는 분쟁에 빠져들게 될 것이며§!, 우리가 한 때 알고 있었고 소중히 여겼던 모든 것들이 §e불타서 어떤 이도 알지 못하는 길로 넘어가는 것은 시간 문제가 될 것입니다§!."
 
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Score_tt: "점수: [?TotalScore]"
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Mil_Score_tt: "군사: [?Score_Military^0]"
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Econ_Score_tt: "경제: [?Score_Economy^0]"
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Vic_Score_tt: "승리: [?Score_Victories]"
+TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Diplo_Score_tt: "진영: [?Score_Diplomacy^0]"
+
 TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Background_tt: "§Y[THIS.GetNameWithFlag]§! currently holds the §Y[Cold_War_GUI_GetScoreRanking_Sufix]§! spot in the Cold War rankings."
 TNO_Cold_War_GUI_Rankings_Tab_Superpower_Large_Entry_Background_tt_delayed: "This position grants them the following benefits:\n  Daily Political Power Gain: [?score_effects_array^1|=+2]\n  War Support: [?score_effects_array^2|=+%2]\n  Research Speed: [?score_effects_array^3|=+%2]\n  Maximum Command Power Increase: [?score_effects_array^0|=+0]\n  Consumer Goods Production Factor: [?score_effects_array^4|=+%2]\n  Debt Ceiling: §Y[?score_effects_array^5|=]%§!"
 
 ## Tensions Tab
+TNO_Cold_War_GUI_Tension_Tab_Title_tt: "초강대국 긴장도"
+TNO_Cold_War_GUI_Tension_Tab_Past_Incidents_Title_tt: "과거 사건들"
 superpower_ger_jap_tension_modifier:0 "독일-일본 긴장도 효과" 
 superpower_jap_usa_tension_modifier:0 "일본-미국 긴장도 효과"
 superpower_ger_usa_tension_modifier:0 "독일-미국 긴장도 효과"
@@ -177,7 +195,7 @@ TNO_Cold_War_GUI_Tension_ID_Supported_American_Claims:0 "미국 태평양 영유
 TNO_Cold_War_GUI_Tension_ID_Successful_Stockholm_Conference:0 "스톡홀름 회의의 성공"
 TNO_Cold_War_GUI_Tension_ID_Failed_Stockholm_Conference:0 "스톡홀름 회의의 실패"
 TNO_Cold_War_GUI_Tension_ID_End_of_the_Hawaii_Missile_Crisis:0 "하와이 미사일 위기의 끝"
-TNO_Cold_War_GUI_Tension_ID_Hitler_Assasination_Attempt:0 "히틀러 암살 시도"
+TNO_Cold_War_GUI_Tension_ID_Hitler_Assassination_Attempt:0 "히틀러 암살 시도"
 TNO_Cold_War_GUI_Tension_ID_American_Bases_in_England:0 "잉글랜드의 미군기지"
 TNO_Cold_War_GUI_Tension_ID_Honolulu_Accords:0 "호놀룰루 협정"
 TNO_Cold_War_GUI_Tension_ID_Japan_Returns_Treaty_Ports:0 "일본의 조약항 반환"
@@ -220,6 +238,7 @@ TNO_Cold_War_GUI_Tension_Decrease: "§G감소§!"
 TNO_Cold_War_GUI_Tension_Unchanged: "§Y변화 없음§!"
 
 ## Spheres Tab
+TNO_Cold_War_GUI_Spheres_Tab_Title_tt: "경제권"
 TNO_Cold_War_GUI_Spheres_Tab_Sphere_Name_tt: "§W[?THIS.GetName]§!\n[GetSphereName]"
 TNO_Cold_War_GUI_Spheres_Tab_Info_tt: "회원국 수:\n[?econ_sphere_members^num|0W]\n영향권 내 총 GDP: §W[?total_econ_sphere_GDP|2]B§!\n세계 GDP 비율:\n§W[?econ_sphere_world_percent]%§!"
 
@@ -239,6 +258,14 @@ Cold_War_GUI_ScoreRanking_Sufix_st: "[?super_ranking]위"
 Cold_War_GUI_ScoreRanking_Sufix_nd: "[?super_ranking]위"
 Cold_War_GUI_ScoreRanking_Sufix_rd: "[?super_ranking]위"
 Cold_War_GUI_ScoreRanking_Sufix_th: "[?super_ranking]위"
+
+## Nukes Tab
+Cold_War_GUI_NuclearPowers_Title_tt: "핵무기 능력"
+Cold_War_GUI_StockpileTitle_tt: "전략 핵무기"
+Cold_War_GUI_DecommissionDisplay_DismantleQtd_Title_tt: "Dismantle"
+Cold_War_GUI_DecommissionDisplay_CapQtd_Title_tt: "warheads per month, down to a minimum Nuclear Stockpile of"
+Cold_War_GUI_Triad_Title_tt: "3대 핵전력"
+Cold_War_GUI_Nuke_Confirmation_Tooltip_Title_tt: "핵무기 발사 승인"
 
 ## Influence Tab
 TNO_Cold_War_GUI_Influence_Tab_Title_tt: "[InfluenceTab_Activity]"
@@ -302,7 +329,7 @@ conferences.3.b: "[Getconferences3_b]"
 conferences.4.t: "[Getconferences4_t]"
 conferences.4.desc: "[Getconferences4_desc]"
 conferences.4.a: "[Getconferences4_a]"
-conferences.4.a: "[Getconferences4_a]"
+conferences.4.b: "[Getconferences4_b]"
 
 conferences.5.t: "[Getconferences5_t]"
 conferences.5.desc: "[Getconferences5_desc]"
@@ -315,7 +342,7 @@ conferences.6.a: "[Getconferences6_a]"
 conferences.7.t: "[Getconferences7_t]"
 conferences.7.desc: "[Getconferences7_desc]"
 conferences.7.a: "[Getconferences7_a]"
-conferences.7.a: "[Getconferences7_a]"
+conferences.7.b: "[Getconferences7_b]"
 
 conferences.8.t: "[Getconferences8_t]"
 conferences.8.desc: "[Getconferences8_desc]"
