@@ -41,19 +41,34 @@
  POLITICS_GLEB_YAKUNIN_COLLAPSE_DESC: "Father Gleb Pavlovich Yakunin is no stranger to fleeing for his life. In youth, his entire family had been relocated from Moscow to Irktursk ahead of the advancing German forces. When Yagoda seized absolute control of the Presidium, Father Yakunin vanished into the woods with his mentor, Father Men, to escape a cruel fate at the hands of the NKVD. He found temporary shelter in the true believers of the far north, but Father Men's divine mission would once again drive him forward.\n\nNow, Father Yakunin has made what he hopes will be his last journey. He does not know how he alone managed to evade Sudoplatov's thugs - only God could have saved him. He finds himself in Magadan, surrounded by the last remnants of Men's vision. He leads a flock of his own, preaching that hope still remains for the believers.\n\nBut these words ring hollow, for Father Yakunin is not the visionary and reformer that Men was. His interpretation of the Orthodox Faith is far more like the Tsarist Church - whose sins brought the wrath of God upon her. No matter his skill at oratory, Father Yakunin will never unite the Motherland. To the world, he is nothing but a sad reminder of the movement that could have redeemed the soul of Russia."
  
  POLITICS_VLADIMIR_KUROEDOV_COLLAPSE_DESC: "Vladimir Alekseevich Kuroedov was selected by Sudoplatov to lead his 1st Army in the aftermath of the collapse of the Divine Mandate. It was Sudoplatov's desperate hope that Kuroedov's personal experience in religious administration would help him mollify the locals and win them over to his side.\n\nInstead, the old commander has been acting increasingly strange. Rather than acting like a general or a Holy Synod bureaucrat or anything else one might have expected, he has taken up a new public persona - that of a scheming, zealous preacher quoting from Scripture and the Apostolic Fathers and draping himself in the ways of the old Father. While few take this garish display at face value, its intent is obvious.\n\nAs order in the Far East becomes an ever more distant memory, and Kureodov increasingly refuses to follow reports from Amur, it is clear to all that the Protection Committee's likeliest challenger already lies within its walls."
+ 
+ ### Character Loc ###
+ OMO_No_Authority: "No Authority"
+ OMO_Alexander_Men: "Alexander Men"
+ OMO_Pavel_Sudoplatov: "Pavel Sudoplatov"
+ OMO_Ivan_Nikishov: "Ivan Nikishov"
+ 
+ NRL_No_Authority: "No Authority"
 
  ### Ministers ###
  #Men
- OMO_Nikolay_Eshliman_hog: "니콜라이 에쉴리만"
- OMO_Yuriy_Rytkheu_for: "유리 릿헤우"
- OMO_Vasily_Nalimov_eco: "바실리 날리모프"
- OMO_Gleb_Yakunin_sec: "글레프 야쿠닌"
+ OMO_Nikolay_Eshliman: "니콜라이 에쉴리만"
+ OMO_Nikolay_Eshliman_hog_desc: "§YHead of Government\nChristian Socialism§!"
+ 
+ OMO_Yuriy_Rytkheu: "유리 릿헤우"
+ OMO_Yuriy_Rytkheu_for: "§YForeign Minister\nChristian Socialism§!"
+ 
+ OMO_Vasily_Nalimov: "바실리 날리모프"
+ OMO_Vasily_Nalimov_eco: "§YEconomy Minister\nChristian Socialism§!"
+ 
+ OMO_Gleb_Yakunin: "글레프 야쿠닌"
+ OMO_Gleb_Yakunin_sec: "§YSecurity Minister\nChristian Socialism§!"
 
- #Sudoplatov collapse
- OMO_Nahum_Eitingon_hog: "나훔 에이틴곤"
- OMO_Vasily_Bekkerov_for: "바실리 베케로프"
- OMO_Ivan_Arento_eco: "이반 아렌토"
- OMO_Yakov_Serebryansky_sec: "야코프 세레브랸스키"
+ ### Generals ###
+ OMO_Mikhail_Vukvol: "Mikhail Vukvol"
+ OMO_Pavel_Adelgeim: "Pavel Adelgeim"
+ OMO_Timofey_Yelkov: "Timofey Yelkov"
+ OMO_Vladimir_Gladilin: "Vladimir Gladilin"
 
  ### Focuses ###
  OMO_sermon_of_the_father: "아버지의 강론"
@@ -524,9 +539,9 @@
  RUS_faith_in_holy_father_2: "성부에 대한 믿음"
  RUS_faith_in_holy_father_2_desc: "Our Holy Father Alexander Men has taught us the word of the LORD, and his services to Christianity and the people of Russia has earned him the trust and faith of all."
  OMO_holy_duty: "우리의 신성한 의무"
- OMO_holy_duty_desc: "It is the Divine Mandate's Holy Duty to bring the word of the LORD to the people of Russia, and bring to her peace unending. The people under the Divine Mandate nows this well."
+ OMO_holy_duty_desc: "It is the Divine Mandate's Holy Duty to bring the word of the LORD to the people of Russia, and bring to her peace unending. The people under the Divine Mandate know this well."
  OMO_holy_duty_2: "우리의 신성한 의무"
- OMO_holy_duty_2_desc: "It is the Divine Mandate's Holy Duty to bring the word of the LORD to the people of Russia, and bring to her peace unending. The people under the Divine Mandate nows this well."
+ OMO_holy_duty_2_desc: "It is the Divine Mandate's Holy Duty to bring the word of the LORD to the people of Russia, and bring to her peace unending. The people under the Divine Mandate know this well."
  OMO_holy_russia: "신성한 러시아"
  OMO_holy_russia_desc: "Like the story of Noah, the sins of Russia must be washed away. Unruly wealth and greed must be cleansed, and people shall only find Holiness within oneself."
  OMO_holy_russia_godly: "신성한 러시아"
@@ -567,6 +582,8 @@
  OMO_didnt_evade_the_judgement_of_the_LORD: "유혹에 굴복했다는 판단에 직면해있습니다."
 
  OMO_deal_with_peasant_uprisings_tt: "§Y우리는 지역 농민들의 봉기로 인한 충격을 줄일 방안을 마련할 것입니다!§!\n"
+ 
+ OMO_FST_free_pus_tt: "§YWe will expand our industrial production.§!\n"
  
  ### Scripted Loc ###
  OMO_sudoplatov_influence_very_high: "§R매우 높은§!"
