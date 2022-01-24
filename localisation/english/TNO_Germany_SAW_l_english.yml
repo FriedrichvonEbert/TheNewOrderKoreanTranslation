@@ -111,6 +111,8 @@
  SGR_SAW_bombingruns:0 "§R루프트바페 폭격작전 개시§!"
  SGR_SAW_bombingruns_desc:0 "남아프리카의 상황은 더욱 직접적인 개입을 필요로 합니다. 루프트바페야말로 그러한 능력을 갖추고 있습니다."
 
+ SGR_SAW_withdrawal_soften_the_blow_tt:0 "§WWill unlock more §Gwithdrawal decisions§! to accelerate our departure from South Africa.§!"
+ SGR_SAW_withdrawal_youre_on_your_own_tt:0 "§WWill unlock more §Gwithdrawal decisions§! to maximize our profits from Africa before our withdrawal.§!"
  #BORMANN
  GER_Bormann_SAF_War_category:0 "§O남쪽의 전쟁§!"
  GER_Bormann_SAF_War_category_desc:0 "§Y개입:§! [GetBORSAWInvolvement] ([?GER_Bormann_SAW_involvement|Y1]§Y%§!)  §M저항:§! [GetBORSAWProtest] ([?GER_Bormann_SAW_civilian_protest|Y1]§Y%§!)\n\n우리의 전략은 현재 [getBORSAWStrategy].\n\n§R남아프리카 전쟁§!은 §Y총통 각하§!께서 일으킨 것도, 심지어는 의도된 것도 아닙니다. 하지만 그럼에도 그것으로부터 이익을 얻어낼 수는 있습니다. 우리가 §R미국§!을 아프리카에서 몰아내든 우리가 §G철수§!하든 심대한 결과를 낳을 것입니다.\n\n이 모든 지점에도 불구하고, §M시민들§!은 벌써부터 이 전쟁에 우리가 개입한 것에 저항하고 있습니다. 우리는 신중히 그들의 요구와 우리의 계획을 조정해야하며, 그렇지 않으면 §R강제로 철수해야§! 할 것입니다."
@@ -128,9 +130,6 @@
 
  GER_Bormann_SAF_war_report:0 "전쟁 보고"
  GER_Bormann_SAF_war_report_desc:0 "매달마다 정부는 국방군 최고사령부로부터 남아프리카 전쟁에 관한 최신 보고를 받습니다. 검열을 지속적으로 하고 있음에도 불구하고, 정보는 천천히 새나가고 있습니다. 그리고 아프리카에서 벌어지는 이 의미없는 전쟁에 과한 진실은 독일 민족을 행복하게 하지 못하고 있습니다."
-
- GER_Bormann_SAF_war_effort_failure:0 "§x다가오는 실패§!"
- GER_Bormann_SAF_war_effort_failure_desc:0 "점차 심해지는 §M대중§!들의 압력으로 인해, 남아프리카에서의 §g라이히의§! 용맹한 전쟁 수행은 곧 중지되어야 할지도 모릅니다. 이렇게 고귀하고, 수익이 넘치는 대의로서는 진정 부끄러운 결과가 아닐 수 없습니다..."
 
  GER_Bormann_SAF_propaganda_open:0 "§T프로파간다 결정§! 보이기"
  GER_Bormann_SAF_propaganda_open_desc:0 "클릭하여 §T프로파간다 결정§! 보이기."
@@ -188,6 +187,12 @@
 
  GER_Bormann_SAF_festung_johannesburg:0 "§O요하네스부르크 요새§!"
  GER_Bormann_SAF_festung_johannesburg_desc:0 "요하네스부르크는 암흑의 대륙에서 거의 200년 동안 아리아인 정착지의 최후의 보루였습니다. 금의 발견으로 보어인 정착민들이 홍수를 이루었고, 빠르게 남아프리카에서 가장 큰 도시들 중 하나로 성장했으며, 지금은 보어 공화국의 수도입니다. 우리의 아프리카 동맹국들은 자신의 땅을 지키느라 불안정하지 않아도 될 것입니다. 우리는 공학자들을 파견하여 이 도시를 요새로 바꿔놓아야 합니다. 한때 영국에게 그러했듯 미국에게 다시 한 번 더 함락되지 않도록 말입니다."
+ 
+ GER_Bormann_SAW_withdrawal_veterans_of_the_civil_war_tt:0 "§WWill unlock a §Gwithdrawal decision§! to further dispose of members of the §RMilitarist§! faction.§!"
+ GER_Bormann_SAW_withdrawal_not_so_volunteers_tt:0 "§WWill unlock a §Gwithdrawal decision§! to further dispose of members of the §GReformist§! faction.§!"
+
+ GER_Bormann_SAW_withdrawal_abwehrabteilung_afrika_tt:0 "§WWill unlock a §Gwithdrawal decision§! to further hone our tactics in open warfare.§!"
+ GER_Bormann_SAW_withdrawal_the_best_gear_tt:0 "§WWill unlock a §Gwithdrawal decision§! to send a final shipment of the best weapons.§!"
  
  #Göring
  GER_Goring_SAF_War_category:0 "§ODer Krieg im Süden§!"
@@ -308,6 +313,7 @@
  SGR_SAW_advisors_decisions:0 "§W§Y고문§! 관련 결정이 가능해집니다.§!"
  SGR_SAW_drugs_decisions:0 "§W§R전투용 약물§! 관련 결정이 가능해집니다.§!"
  SGR_SAW_soldier_return:0 "§W[?SGR_SAW_manpower|R0]명의 병사들이 §g독일§!로 돌아옵니다.§!\n§RAll§! volunteer divisions sent to §YAfrica§! will be recalled back to §gGermany§!.§!"
+ BOR_SAW_soldier_return:0 "§W[?GER_Bormann_SAF_manpower|R0] soldiers return to §gGermany§!.\n§RAll§! volunteer divisions sent to §YAfrica§! will be recalled back to §gGermany§!.§!"
 
  SGR_SAW_war_report_predic_tt:0 "§W다음 달에는 §M민간의 혼란§!이 [?SGR_SAW_civilian_protest_growth_base|Y]§Y%§!만큼 증가할 것으로 예상됩니다.§!"
  SGR_SAW_war_failure_tt:0 "§W§M대중의§! 압력이 너무 심각해졌습니다!§!"
@@ -367,3 +373,11 @@
  SGR_SAW_strat_rob_tt:0 "§W우리의 전시 전략은 §G아프리카에 남아있는 부를 대피시키는데§! 주안점을 둘 것입니다.§!"
  SGR_SAW_strat_win_tt:0 "§W우리의 전시 전략은 §R전쟁을 승리로 이끄는데§! 주안점을 둘 것입니다.§!"
  BOR_SAW_strat_dis_tt:0 "§W우리의 전시 전략은 §g전쟁을 통해 반정부주의자들을 제거하는데§! 주안점을 둘 것입니다.§!""
+ 
+ # SAW Withdrawal
+
+ GER_promote_kai_uwe_von_hassel_tt:0 "§WThe §gReich's§! interests in Afrika shall be represented by a proper administrator.§!"
+ GER_prepare_german_loyalists_tt:0 "§WWe will ensure our interests remain at the top of the African RKs' priorities.§!"
+ GER_investigate_internal_affairs_tt:0 "§WA better understanding of internal affairs in Afrika will help us evaluate our future options.§!"
+ GER_investigate_african_rebels_tt:0 "§WWe will be able to interact with native rebels in the future.§!"
+ GER_African_RKs_Collapse_tt:0 "§RThe African Reichskommissariats will begin to collapse in the face of §BSouth Africa's§! materiel advantage.§!"
