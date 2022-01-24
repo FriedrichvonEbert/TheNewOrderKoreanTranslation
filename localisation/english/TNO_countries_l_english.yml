@@ -95,7 +95,7 @@
  ARA_ADJ: "아라칸"
 
  ARP: "아르헨티나 점령지대"
- ARP_DEF: "아르헨티나 점령지대"
+ ARP_DEF: "아르헨티나의 파라과이 점령지대"
  ARP_ADJ: "아르헨티나"
 
  ARL: "악퇴베"
@@ -136,7 +136,6 @@
 
  AZD: "아잔데란드"
  AZD_DEF: "아잔데란드"
- AZD_ADJ: "아잔데란드"
 
  AZH: "자유 인도 정부"
  AZH_DEF: "자유 인도 정부"
@@ -228,7 +227,7 @@
  BRM_ADJ: "카리브"
 
  BRP: "브라질 점령지대"
- BRP_DEF: "브라질 점령지대"
+ BRP_DEF: "브라질의 파라과이 점령지대"
  BRP_ADJ: "브라질"
 
  BRT: "브리타니 공화국"
@@ -285,10 +284,6 @@
  CBR: "버마 인민공화국"
  CBR_DEF: "버마 인민공화국"
  CBR_ADJ: "버마"
-
- CGF: "전걸프 노동조합 회의"
- CGF_DEF: "전걸프 노동조합 회의"
- CGF_ADJ: "걸프"
 
  CHD: "사라 공화국"
  CHD_DEF: "사라 공화국"
@@ -397,9 +392,8 @@
  CYL_socialist: "스리랑카 사회주의 공화국"
  CYL_socialist_DEF: "스리랑카 사회주의 공화국"
  
- CZE: "뵈멘-메렌 보호령"
- CZE_DEF: "뵈멘-메렌 보호령"
- CZE_ADJ: "뵈멘-메렌"
+ CZE: "제19군구"
+ CZE_DEF: "제19군구"
 
  DEN: "덴마크"
  DEN_DEF: "덴마크"
@@ -525,7 +519,8 @@
  FRA_authoritarian_democracy_DEF:0 "프랑스국"
  FRA_despotism: "프랑스국"
  FRA_despotism_DEF: "프랑스국"
- FRA_authoritarian_democracy_DEF: "프랑스 공화국"
+ FRA_despotism_absolute_monarchy_subtype: "프랑스 왕국"
+ FRA_despotism_absolute_monarchy_subtype_DEF: "프랑스 왕국"
  FRA_ADJ: "프랑스"
 
  FRI: "자유 인도네시아"
@@ -576,10 +571,6 @@
  GAL: "갈리치아 공화국"
  GAL_DEF: "갈리치아 공화국"
  GAL_ADJ: "갈리치아"
-
- GBL: "쥐도스틀란트"
- GBL_DEF: "쥐도스틀란트"
- GBL_ADJ: "쥐도스틀란트"
 
  GND: "그레나다"
  GND_DEF: "그레나다"
@@ -681,13 +672,6 @@
  ISS_DEF: "슐레지엔 산업연합"
  ISS_ADJ: "독일"
 
- IVO: "코트디부아르"
- IVO_DEF: "코트디부아르 공화국"
- IVO_DEF: "코트디부아르"
- IVO_socialist: "코트디부아르"
- IVO_socialist_DEF: "코트디부아르 사회주의 공화국"
- IVO_socialist_DEF: "코트디부아르"
-
  # J
  JAM: "자메이카"
  JAM_DEF: "자메이카"
@@ -750,7 +734,7 @@
 
  KJA: "칼렌지니아"
  KJA_DEF: "칼렌지니아"
- KJA_DEF: "칼렌지니아"
+ KJA_ADJ: "칼렌지니아"
 
  KLB: "SS국가지도자 보안국"
  KLB_DEF: "SS국가지도자 보안국"
@@ -763,6 +747,10 @@
  KOL: "야나"
  KOL_DEF: "야나"
  KOL_ADJ: "야나"
+ 
+ KOR: "한국"
+ KOR_DEF: "한국"
+ KOR_ADJ: "한국"
 
  KRL: "카렐리아 자치령"
  KRL_DEF: "카렐리아 자치령"
@@ -824,13 +812,6 @@
  # N
  NAM: "나미비아 공화국"
  NAM_DEF: "나미비아 공화국"
- NAM_communist: "나미비아 인민공화국"
- NAM_communist_DEF: "나미비아 인민공화국"
- NAM_socialist: "나미비아 인민공화국"
- NAM_socialist_DEF: "나미비아 인민공화국"
- NAM_national_socialism: "포어베크란트 국가사회주의 국가주"
- NAM_national_socialism_DEF: "포어베크란트 국가사회주의 국가주"
- NAM_ADJ: "나미비아"
  
  NAX: "낙살라이트 반란"
  NAX_DEF: "낙살라이트 반란"
@@ -989,10 +970,6 @@
  PRU_DEF: "페루 공화국"
  PRU_ADJ: "페루"
  
- PSG: "폴란드 지하정부"
- PSG_DEF: "폴란드 지하정부"
- PSG_ADJ: "폴란드"
-
  PUR: "푸에르토리코"
  PUR_DEF: "푸에르토리코"
  PUR_ADJ: "카리브"
@@ -1163,11 +1140,7 @@
  SHO: "쇼난"
  SHO_DEF: "쇼난"
  SHO_ADJ: "쇼난"
- SHO_communist: "말라야"
- SHO_communist_DEF: "말라야"
  SHO_communist_ADJ: "말라야"
- SHO_socialist: "말라야"
- SHO_socialist_DEF: "말라야"
  SHO_socialist_ADJ: "말라야"
 
  SHX: "산시"
@@ -1223,7 +1196,7 @@
  SML_ADJ: "소말리아"
 
  SMO: "스몰렌스크"
- SMO: "스몰렌스크"
+ SMO_ADJ: "스몰렌스크"
  SMO_DEF: "스몰렌스크"
 
  SND: "신두데시"
@@ -1306,8 +1279,8 @@
  SWB_DEF: "스와바"
  SWB_ADJ: "스와바"
 
- SWE: "스웨덴"
- SWE_DEF: "스웨덴"
+ SWE: "스웨덴 왕국"
+ SWE_DEF: "스웨덴 왕국"
  SWE_ADJ: "스웨덴"
 
  SWI: "스위스"
@@ -1554,7 +1527,7 @@
  URL_ADJ: "우랄"
  
  URP: "우루과이 점령지대"
- URP_DEF: "우루과이 점령지대"
+ URP_DEF: "우루과이의 파라과이 점령지대"
  URP_ADJ: "우루과이"
  
  USA: "미합중국"
