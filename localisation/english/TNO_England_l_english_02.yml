@@ -35,7 +35,7 @@
 #############
 
 ENG_DECCAT_PreEcwHmmlrGuns:0 "HMMLR-OFN 관계도"
-ENG_DECCAT_PreEcwHmmlrGuns_desc:0 "당연하게도, 본격적인 작전을 수행하기 위해서는 소총, 수류탄, 탄약 등의 무기가 필요합니다. 또한 그 무기로 무장할 사람도 지금보단 더 많이 필요하죠. 이 문제를 해결하기 위한 유일한 방법은 법적으로 정당화 받지 못하는... 총기 거래입니다.\n\n우리는 우리에게 친근한 몇몇 연락책을 통해 자유국가들로부터 무기를 지원받을 수 있습니다. 그러나 실제로 들여올 수 있는 수량은 북부 잉글랜드의 안정성에 달려있습니다.\n\n일단 우리가 정부와 전면전 상태에 들어간다면 그렇게 모인 무기들은 일선 부대에 §T장비§!로 지급될 것입니다. 뉴캐슬, 랭커셔, 요크셔의 §T주 안정도§!가 높아질수록 우리의 총기가 통과할 가능성도 높아지며 정부에 발각되는 횟수도 줄어들 것입니다. 관계는 매월 자동적으로 §x조금씩§! 하락합니다.\n\n§YHMMLR§!이 받은 총기: [?ENG.ENG_Hmmlr_Guns] £weapon_icon \n§YHMMLR§!-§MOFN§! 관계: [GetENG_HMMMLR_OFN_Relations]"
+ENG_DECCAT_PreEcwHmmlrGuns_desc:0 "당연하게도, 본격적인 작전을 수행하기 위해서는 소총, 수류탄, 탄약 등의 무기가 필요합니다. 또한 그 무기로 무장할 사람도 지금보단 더 많이 필요하죠. 이 문제를 해결하기 위한 유일한 방법은 법적으로 정당화 받지 못하는... 총기 거래입니다.\n\n우리는 우리에게 친근한 몇몇 연락책을 통해 자유국가들로부터 무기를 지원받을 수 있습니다. 그러나 실제로 들여올 수 있는 수량은 북부 잉글랜드가 얼마나 불안정하냐에 달려있습니다.\n\n일단 우리가 정부와 전면전 상태에 들어간다면 그렇게 모인 무기들은 일선 부대에 §T장비§!로 지급될 것입니다. 뉴캐슬, 랭커셔, 요크셔의 §T주 안정도§!가 낮아질수록 우리의 총기가 통과할 가능성도 높아지며 정부에 발각되는 횟수도 줄어들 것입니다. 관계는 매월 자동적으로 §x조금씩§! 하락합니다.\n\n§YHMMLR§!이 받은 총기: [?ENG.ENG_Hmmlr_Guns] £weapon_icon \n§YHMMLR§!-§MOFN§! 관계: [GetENG_HMMMLR_OFN_Relations]"
 ENG_DEC_HmmlrGunsSmall:0 "소규모 총기 반입"
 ENG_DEC_HmmlrGunsSmall_desc:0 "총은 세상을 돌아가게 하는 물건입니다. 적어도 지하 혁명조직에게는 그런 것처럼 보입니다. 운 좋게도, 우리는 자유국가기구 친구들이 산더미처럼 쌓아놓은 총기들이 밀반입되길 기다리고 있습니다. 접선 포인트는 해안경비대의 사각에 위치한 북쪽 외딴곳입니다. 우리는 이 지역에 괴뢰 정부가 경계를 강화하지 않도록 주의해야 합니다.\n\n§Y저항군§!-§MOFN§ 관계도가 §낮음§! 이상이어야 합니다. 밀반입되는 총기의 수량은 북잉글랜드 지역 중 안정성이 가장 낮은 주에 따라 달라집니다. 가능한 최대 획득량은 100정입니다."
 ENG_DEC_HmmlrRelationLow_tt:0 "We have a minimum level of §xLow§! §YHMMLR§!-§MOFN§! Relations."
@@ -83,6 +83,8 @@ ENG_DECCAT_High_Command:0 "최고사령부"
 #ENG_DECCAT_High_Command_desc:0 "충성도: [?ENG_MIL_LOY]%\n\n효율성: [?ENG_MIL_EFF]%\n\n최소값:\n충성도: [?ENG_MIL_LOY_FLR]%\n효율성: [?ENG_MIL_EFF_FLR]%\n\n다음달 수치\n충성도: [?ENG_MIL_LOY_NXT_MTH]%\n효율성: [?ENG_MIL_EFF_NXT_MTH]%"
 ENG_DECCAT_High_Command_LOY_tt:0 "최고사령부의 현재 충성도는 [?ENG_MIL_LOY]%입니다.\n\n다음달 최고사령부의 충성도는[?ENG_MIL_LOY_NXT_MTH]%가 될 것입니다.\n\n현재 최고사령부의 기본 충성도는 [?ENG_MIL_LOY_FLR]%입니다."
 ENG_DECCAT_High_Command_EFF_tt:0 "최고사령부의 현재 효율성은 [?ENG_MIL_EFF]%입니다.\n\n다음달 최고사령부의 효율성은 [?ENG_MIL_EFF_NXT_MTH]%가 될 것입니다.\n\n현재 최고사령부의 기본 충성도는 [?ENG_MIL_EFF_FLR]%입니다."
+ENG_GUI_MILMAN_LOY_HEADER_tt:0 "충성도"
+ENG_GUI_MILMAN_LOY_TXT_tt:0 "OUR HIGH COMMAND IS: [ENG_MILMAN_LOY_TXT]"
 ENG_DEC_MILMAN1:0 "힘의 부패"
 ENG_DEC_MILMAN2:0 "정치적 양보"
 ENG_DEC_MILMAN3:0 "불충한 장교 해임"
@@ -95,6 +97,8 @@ ENG_MIL_LOY_L:0 "§Y불충§!스럽습니다."
 ENG_MIL_LOY_H:0 "§G충성§!스럽습니다."
 ENG_MIL_LOY_VH:0 "§y매우 충성§!스럽습니다."
 
+ENG_GUI_MILMAN_EFF_HEADER_tt:0 "효율성"
+ENG_GUI_MILMAN_EFF_TXT_tt:0 "OUR HIGH COMMAND IS: [ENG_MILMAN_EFF_TXT]"
 ENG_MIL_EFF_VL:0 "§R매우 비효율적§!입니다."
 ENG_MIL_EFF_L:0 "§Y비효율적§!입니다."
 ENG_MIL_EFF_H:0 "§G효율적§!입니다."
@@ -181,11 +185,11 @@ GFX_ENG_EnglishGoogleMaps_State123_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State123_H
 GFX_ENG_EnglishGoogleMaps_State1296_Collab:0 "GFX_ENG_EnglishGoogleMaps_State1296_Collab"
 GFX_ENG_EnglishGoogleMaps_State1296_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State1296_Hmmlr"
 
-
+Eng_Devastation_ChosenStateName_text:0 "Selected State: [Eng_Devastation_ChosenStateName]"
 ENG_Devastation_ChosenState_Devastation_text:0 "§eDevastation §gin this state is currently at [?var:ENG_GUI_Devastation_ChosenState:ENG_GUI_Devastation_State|1]% and changes by [?var:ENG_GUI_Devastation_ChosenState:ENG_GUI_Devastation_State_Total_Tick|1]% daily."
 ENG_Devastation_ChosenState_Radicalisation_text:0 "§rRadicalisation §gin this state is currently [ENG_GUI_Devastation_Radicalisation_State]"
 ENG_Devastation_National_Devastation_text:0 "§eDevastation §gnationwide is currently at [?ROOT.ENG_GUI_Devastation_National_Devastation|1]%."
-ENG_Devastation_National_Devastation_Effects_Text:0 "Effects on the people: §V[?ROOT.ENG_GUI_Devastation_Stab_Factor|V]§g stability daily, §V[?ROOT.ENG_GUI_Devastation_WS_Factor|V]§g daily.\n\n §gRadicalisation nationwide is [ENG_GUI_Devastation_Radicalisation_National]."
+ENG_Devastation_National_Devastation_Effects_Text:0 "Effects on the people: §V[?ROOT.ENG_GUI_Devastation_Stab_Factor|V]§g stability, §V[?ROOT.ENG_GUI_Devastation_WS_Factor|V]§g daily.\n\n §gRadicalisation nationwide is [ENG_GUI_Devastation_Radicalisation_National]."
 ENG_Devastation_ChosenState_Devastation_effects_text:0 "Effects on the troops: §n+[?ROOT.ENG_GUI_Devastation_Attack_Factor|n] §gattack, §n+[?ROOT.ENG_GUI_Devastation_Attack_Factor|n] §gdefence, §V-[?ROOT.ENG_GUI_Devastation_Attack_Factor|V] §gmovement speed."
 
 ENG_GUI_Devastation_DynMod:0 "A Devastating War"
