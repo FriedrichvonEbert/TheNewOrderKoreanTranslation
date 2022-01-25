@@ -32,28 +32,44 @@ VAC_despotism_party_long:0 "성좌"
 ###########################
 
 ### Andorra ###
-PAD_Julia_Reig_hog:0 "Julià Reig Ribó"
-PAD_Francesc_Cairat_for:0 "Francesc Cairat i Freixes" 
-PAD_Josep_Pintat_eco:0 "Josep Pintat-Solans"
-PAD_Jacint_Riberaygua_mil:0 "Jacint Riberaygua Caelles"
+PAD_Co_Princes:0 "Co-Princes"
+PAD_Julia_Reig:0 "Julià Reig Ribó"
+PAD_Julia_Reig_hog_desc:0 "§YHead of Government\nAuthoritarian Democracy§!"
+PAD_Francesc_Cairat:0 "Francesc Cairat i Freixes" 
+PAD_Francesc_Cairat_for_desc:0 "§YForeign Minister\nAuthoritarian Democracy§!"
+PAD_Josep_Pintat:0 "Josep Pintat-Solans"
+PAD_Josep_Pintat_eco_desc:0 "§YEconomy Minister\nConservative Democracy§!"
+PAD_Jacint_Riberaygua:0 "Jacint Riberaygua Caelles"
+PAD_Jacint_Riberaygua_mil_desc:0 "§YSecurity Minister\nAuthoritarian Democracy§!"
 
 ### Monaco ###
-MOC_Pierre_Voizard_hog:0 "Pierre Voizard"
-MOC_Andre_Saint_Mleux_for:0 "André Saint-Mleux"
-MOC_Francois_Didier_Gregh_eco:0 "François-Didier Gregh"
-MOC_Paul_Demange_sec:0 "Paul Demange"
+MOC_Charlotte_Louise_Juliette_Grimaldi:0 "Charlotte Louise Juliette Grimaldi"
+MOC_Pierre_Voizard:0 "Pierre Voizard"
+MOC_Pierre_Voizard_hog_desc:0 "§YHead of Government\nAuthoritarian Democracy§!"
+MOC_Andre_Saint_Mleux:0 "André Saint-Mleux"
+MOC_Andre_Saint_Mleux_for_desc:0 "§YForeign Minister\nAuthoritarian Democracy§!"
+MOC_Francois_Didier_Gregh:0 "François-Didier Gregh"
+MOC_Francois_Didier_Gregh_eco_desc:0 "§YEconomy Minister\nAuthoritarian Democracy§!"
+MOC_Paul_Demange:0 "Paul Demange"
+MOC_Paul_Demange_sec_desc:0 "§YSecurity Minister\nAuthoritarian Democracy§!"
 
 ### San Marino ###
-SNM_Francesco_Balsimelli_hog:0 "프란체스코 발시멜리"
-SNM_Marino_Michelotti_for:0 "마리노 미켈로티"
-SNM_Federico_Bigi_eco:0 "페데리코 비지"
-SNM_Orlando_Reffi_sec:0 "오를란도 레피"
+SNM_Leonida_Suzzi_Valli:0 "Leonida Suzzi Valli"
+SNM_Francesco_Balsimelli:0 "프란체스코 발시멜리"
+SNM_Francesco_Balsimelli_hog_desc:0 "§YHead of Government\nFascism§!"
+SNM_Marino_Michelotti:0 "마리노 미켈로티"
+SNM_Marino_Michelotti_for_desc:0 "§YForeign Minister\nFascism§!"
+SNM_Federico_Bigi:0 "페데리코 비지"
+SNM_Federico_Bigi_eco_desc:0 "§YEconomy Minister\nFascism§!"
+SNM_Orlando_Reffi:0 "오를란도 레피"
+SNM_Orlando_Reffi_sec_desc:0 "§YSecurity Minister\nFascism§!"
 
 ### Vatican City ###
-VAC_Alberto_di_Jorio_hog:0 "알베르토 디 요리오"
-VAC_Angelo_DellAcqua_for:0 "안젤로 델라콰"
-VAC_Amleto_Giovanni_Cicognani_eco:0 "암레토 조반니 치코냐니"
-VAC_Robert_Nunlist_sec:0 "로베르트 뉜리스트"
+VAC_John_XXIII:0 "요한 23세"
+VAC_Alberto_di_Jorio:0 "알베르토 디 요리오"
+VAC_Angelo_DellAcqua:0 "안젤로 델라콰"
+VAC_Amleto_Giovanni_Cicognani:0 "암레토 조반니 치코냐니"
+VAC_Robert_Nunlist:0 "로베르트 뉜리스트"
 
 #######################
 ##=====| Ideas |=====##
@@ -79,12 +95,14 @@ SNM_burgeoning_indust_desc:0 "Since the times of Mussolini, Italy and San Marino
 SNM_rising_discontent:0 "Rising Discontent"
 SNM_rising_discontent_desc:0 "Despite the recent industrial development, economic inequality is still a serious problem in the Republic. This, combined with the curtailing of labour rights by the fascist administration and the dominance of the PFS reducing political freedoms, is causing a serious wave of discontent among the working and lower classes. While our law enforcement is still keeping things under control for now, we have reason to suspect that the clandestine Partito Comunista Sammarinese is exploiting the situation to spread its seditious doctrine among the proles. Unless we deal with the situation, we might have trouble down the line."
 
-### Vatican ###
+
+
+## Ideas ##
 VAC_lateran_pacts:0 "라테라노 조약"
 VAC_lateran_pacts_desc:0 "Signed in 1929 by Benito Mussolini and the Holy See, the Lateran Pacts are the legal and diplomatic basis for the existence of the Vatican City State. Ending almost 60 years of animosity between the Papacy and the Italian state, which began with Italy's seizure of Rome during the Risorgimento, the Lateran Pacts not only restored a proper Papal State (albeit limited to the sole Vatican), but also gave other concessions to the Church such as state financing, recognition of Catholicism as the Italian state religion, and allowing the Church to maintain teaching of Catholic doctrine in public schools. As long as the Lateran Pacts are still in force, we can rest assured that our country suffers no threat under Italy's protective wing."
 
-VAC_one_holy_catholic:0 "One, Holy, Catholic, Divided Church"
+VAC_one_holy_catholic:0 "하나이며 거룩하고 보편되며 분열된 교회"
 VAC_one_holy_catholic_desc:0 "Being the largest religious organization in the world and the spiritual home of millions of Catholics, it is only natural that, despite its divine unity, the Church suffers from some very human division. Faced with the challenges of a changing world, the Church is divided on what is to be done to preserve its role as the worldly house of Christ: to continue working with the numerous oppressive and tyrannical regimes of the world as long as they pay lip service to Christian doctrine, ignoring their violent excesses? To instead take a stance against the brutality of fascism and imperialism, and to truly help the poor and the meek? Or to distance from worldly politics altogether, only tending to the souls of the Catholic flock? These and more questions divide the Church, and God only knows how they will be resolved."
 
-VAC_good_pope:0 "좋은 교황"
+VAC_good_pope:0 "선한 교황"
 VAC_good_pope_desc:0 "After the controversial papacy of Pius XII, the election of John XXIII marked a significant shift in the politics of the Holy See. Where Pius XII was austere, solemn and distant, John XXIII has always been perceived as close to the common man, preaching to the masses, revitalizing the activity of lay Catholic political associations, and criticizing the oppression of the fascist regimes of Europe and beyond. The far reaching popularity of pope Roncalli earned him the nickname of "il Papa buono" in Italy and beyond, and the suspicion of several governments the world over. However, with his health ailing, the Good Pope knows he only has a limited time to guide the Church in the direction he wishes it to take, before God recalls him by His side."
