@@ -44,6 +44,12 @@ JAP_D_Reformists_desc:0 "Within the ranks of Yokusankai, reformist elements had 
 JAP_D_Independents_desc:0 "While Taisei Yokusankai has fortified its de facto position as the sole political party of the Empire through Yokusan Taisei and its diet endorsement system, non-YSK independents still exist among the seats of the diet. Those diet members not endorsed by YSK come from different backgrounds; some are local politicians who have won the hearts and minds of their countrymen, some are ex-YSK members expelled from the party but have not yet faced the challenge of reelection.\n\nWhile they may appear trivial before the combined might of Yokusankai, it would be foolish to overlook their role in politics when YSK is plagued by factionalism and infighting."
 JAP_D_Conservatives_desc:0 "Conservatism has characterized post-war Yokusankai, though things remain to be seen if this shall still be the case. Evident from the faction name, the conservatives seek not to shake the boat too much while implementing piecemeal reforms to make sure the boat stays afloat.\n\nRegardless of which faction assumes control of the premiership, support from the conservatives, one of the most prominent factions of Yokusankai, is nearly a must for any policy to be passed."
 JAP_D_Technocrat_desc:0 "Technocrats like Kaya Okinori set their focus on running the country like a machine. Efficiency and profit in their veins and much of the bureaucracy at their hands, the technocrats are a force to be reckoned with.\n\nWhile their corporatist inclination is met with caution and even distaste from other factions of YSK, a wise politician must think twice before being on the wrong side of the technocrats."
+JAP_D_Technocrats_fukuda_desc:0 "The moderate faction of the technocrats led by Fukuda Takeo is unique for their flexibility to rally both the conservatives and the reformists in passing their bills. Their liberal financial stance, combined with conservative Japanese values, and further mixed with anti-corruption and emphasis on social welfare, make the Fukudaites the most approachable faction that the Yokusankai has ever seen. However, while the moderate technocrats are much more willing to sit down and talk with other factions than its former self under Kaya, their commitment to the technocratic vision is unwavering as always."
+JAP_D_Technocrats_shiina_desc:0 "With Shiina and Kishi's ascension to power, the once sidelined Reform Bureaucrats have finally emerged as a prominent force within the Diet. Needless to say, their rise is perceived as a threat by both conservative and reformist factions of the Yokusankai; even some of Kaya's most loyal followers distanced themselves from the RBs.\n\nNow that the RBs have risen to the point where neither Ikeda nor Takagi could pass bills without RB support, unless the conservatives and the reformists are willing to set aside their differences to counter the RBs, Japan's history will change forever at the mercy of the Devil of Showa."
+
+Jap_kidoites_desc:0 "[GetDietLeft1FactionDesc]"
+JAP_conservatives_desc:0 "[GetDietRight2FactionDesc]"
+JAP_technocrats_desc:0 "[GetDietRight1FactionDesc]"
 
 JAP_GUI_faction_seats_texticon_1:0 "£GFX_diet_texticon [?JAP_Diet_Seats^1|Y0]"
 JAP_GUI_faction_seats_texticon_2:0 "[GetJapReformistsMPsColour]"
@@ -137,6 +143,10 @@ JAP_ConservativeParty_Ino:0 "이노"
 JAP_ConservativeParty_Ikeda:0 "이케다"
 
 #IJA/IJN/Tension
+Japan_Internal_GUI_Sidebar_Title_tt:0 "대일본제국군"
+Japan_Internal_GUI_Sidebar_IJA_tt:0 "대일본제국육군 지지도"
+Japan_Internal_GUI_Sidebar_IJN_tt:0 "대일본제국해군 지지도"
+Japan_Internal_GUI_Sidebar_Tension_tt:0 "편집증도"
 
 IJA_action_1_taken:0 "이번 달에 이 행동을 수행했습니다."
 IJA_action_2_taken:0 "이번 달에 이 행동을 수행했습니다."
@@ -268,7 +278,7 @@ Takagi_increase_small:0 "§WThe £jap_reformists_texticon §Q혁신파§!의 영
 Takagi_increase_avg:0 "§WThe £jap_reformists_texticon §Q혁신파§!의 영향력이 §Y5%§!만큼 §G증가§!합니다.§!"
 Takagi_increase_subst:0 "§WThe £jap_reformists_texticon §Q혁신파§!의 영향력이 §Y7.5%§!만큼 §G증가§!합니다.§!"
 Takagi_increase_overwhel:0 "§WThe £jap_reformists_texticon §Q혁신파§!의 영향력이 §Y10%§!만큼 §G증가§!합니다!§!"
-Takagi_too_weak:0 "As ££jap_reformists_texticon §Q혁신파§!의 영향력이 ([?JAP_Diet_Faction_Power^2|%Y]) §Y2.5%§!이거나 이보다 낮다면, 더 이상 감소하지 않습니다."
+Takagi_too_weak:0 "As £jap_reformists_texticon §Q혁신파§!의 영향력이 ([?JAP_Diet_Faction_Power^2|%Y]) §Y2.5%§!이거나 이보다 낮다면, 더 이상 감소하지 않습니다."
 Takagi_decrease_mini:0 "§WThe £jap_reformists_texticon §Q혁신파§!의 영향력이 §Y1%§!만큼 §R감소§!합니다.§!"
 Takagi_decrease_small:0 "§WThe £jap_reformists_texticon §Q혁신파§!의 영향력이 §Y2.5%§!만큼 §R감소§!합니다.§!"
 Takagi_decrease_avg:0 "§WThe £jap_reformists_texticon §Q혁신파§!의 영향력이 §Y5%§!만큼 §R감소§!합니다.§!"
