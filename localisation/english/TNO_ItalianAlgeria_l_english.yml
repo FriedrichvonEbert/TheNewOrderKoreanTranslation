@@ -1,7 +1,7 @@
 ﻿l_english:
 
 
- #Names
+ #Names#
  ILG_fascism:0 "알제리 군사구역"
  ILG_fascism_DEF:0 "알제리 군사구역"
  ILG_liberal_democracy:0 "알제리 군사구역"
@@ -30,7 +30,7 @@
  ILG_ultranationalism_ADJ:0 "이탈리아령 알제리"
  ILG_national_socialism_ADJ:0 "이탈리아령 알제리"
 
- #Parties
+ #Parties#
  ILG_authoritarian_democracy_party:0 "Tribal Rulers"
  ILG_authoritarian_democracy_party_long:0 "Tribal Rulers"
  ILG_despotism_party:0 "Delease-A"
@@ -40,14 +40,14 @@
  ILG_national_socialism_party:0 "Delease"
  ILG_national_socialism_party_long:0 "Delegazione Africa Settentrionale - Algeria"
 
- #Provisional Government Parties
+ #Provisional Government Parties#
  ILG_fascism_party_provgov:0 "GMA"
  ILG_fascism_party_provgov_long:0 "Governo Militare dell'Algeria"
 
  ILG_authoritarian_democracy_party_provgov:0 "UDMA"
  ILG_authoritarian_democracy_party_provgov_long:0 "Union Démocratique du Manifeste Algérien"
 
- #Starting Ideas
+ #Starting Ideas#
  ILG_Wild_Frontier:0 "The Wild Frontier"
  ILG_Wild_Frontier_desc:0 "As an unofficial military governorate in de jure French territory, we do not receive much attention from Rome. This has essentially rendered us useless and impotent, and our only hope for survival is aid from our Italian brethren."
 
@@ -77,7 +77,7 @@
 
  ILG_Provisional_Government:0 "Provisional Government of Algeria"
  ILG_Provisional_Government_desc:0 "With this step forward, we state the right of the peoples of Algeria to form a state, even if the land is nominally French. However, with a bureaucracy and functioning system, Algeria will prosper!"
- #Focuses
+ #Focuses#
 
  #Intro#
 
@@ -89,7 +89,7 @@
  ILG_the_western_frontier_desc:0 ""
  ILG_the_western_frontier_tt:0 "§YUpdate Rome on our situation.§!"
 
- #Banditry
+ #Banditry#
 
  ILG_saharan_bandits:0 "Saharan Bandits"
  ILG_saharan_bandits_desc:0 ""
@@ -121,7 +121,7 @@
 
  ILG_bandit_status_tt:0 "§YTaking these decisions will help §Gsolve§! our bandit problem!§!"
 
- #Government
+ #Government#
 
  ILG_forming_a_government:0 "Forming A Government"
  ILG_forming_a_government_desc:0 ""
@@ -268,23 +268,25 @@
  ILG_Destroy_Illizi_Bandits:0 "Destroy Bandits in Illizi"
  ILG_Destroy_Adrar_Bandits:0 "Destroy Bandits in Adrar"
 
- #Ministers
- ILG_Giuseppe_Castellano_dep:0 "Giuseppe Castellano"
- ILG_Giuseppe_Castellano_eco:0 "Giuseppe Castellano"
- ILG_Giuseppe_Castellano_for:0 "Giuseppe Castellano"
- ILG_Giuseppe_Castellano_sec:0 "Giuseppe Castellano"
- ILG_Ferhat_Abbas_dep:0 "Ferhat Abbas"
- ILG_Said_Boualam_dep:0 "Said Boualam"
- ILG_Ferhat_Abbas_eco:0 "Ferhat Abbas"
- ILG_Salvatore_Castagna_for:0 "Salvatore Castagna"
- ILG_Mourad_Kaouah_sec:0 "Mourad Kaouah"
-# ILG_Pierre_Guillaume_dep:0 "Pierre Guillaume" #duplicate loc key
-# ILG_Enrico_Braggiotti_eco:0 "Enrico Braggiotti" #duplicate loc key
-# ILG_Luciano_Mascia_for:0 "Luciano Mascia" #duplicate loc key
-# ILG_Fernando_Tanucci_Nannini_sec:0 "Fernando Tanucci Nannini" #duplicate loc key
+ #Leaders#
+ ILG_Giuseppe_Castellano:0 "주세페 카스텔라노"
+ ILG_Said_Boualam:0 "Said Boualam"
+ ILG_Ferhat_Abbas:0 "Ferhat Abbas"
+ ILG_Messali_Hadj:0 "Messali Hadj"
+ #Ministers#
+ ILG_Giuseppe_Castellano_dep_desc:0 "§Y$head_of_government$\n$despotism_colonial_government_subtype$§!"
+ ILG_Giuseppe_Castellano_eco_desc:0 "§YForeign Minister\n$despotism_colonial_government_subtype$§!"
+ ILG_Giuseppe_Castellano_for_desc:0 "§YEconomic Minister\n$despotism_colonial_government_subtype$§!"
+ ILG_Giuseppe_Castellano_sec_desc:0 "§YSecurity Minister\n$despotism_colonial_government_subtype$§!"
+ #Generals#
+ ILG_Fernando_Tanucci_Nannini:0 "Fernando Tanucci Nannini"
+ ILG_Salvatore_Castagna:0 "Salvatore Castagna"
+ ILG_Pierre_Guillaume:0 "Pierre Guillaume"
 
- #Country Flags
+ #Country Flags#
  ILG_bandit_situation_addressed:0 "The bandit situation has been addressed..."
 
- #Leader Description
- POLITICS_GIUSEPPE_CASTELLANO_DESC:0 "주세페 카스텔라노 장군은 아마 이탈리아 왕국 육군 고위층에서 가장 흔한 가십거리일 것입니다. 두 번의 세계대전의 베테랑인 그는 지난 세계 대전 동안 발칸반도에서 뛰어난 활약을 펼쳐 이탈리아 최고사령부 반열에 올랐습니다. 카스텔라노의 야망은 극에 달했지만, 운명을 다른 길로 향했습니다. 전쟁이 끝나고 몇 년 후, 새로운 두체 갈레아초 치아노는 카스텔라노에게 무법천지인 알제리 국경 지역의 감시 역할을 맡겼습니다.\n\n카스텔라노는 현재 몇 년째 알제리 군사령부 수장을 맡고있지만, 그의 지도력은 지역 정세를 개선하는데 그다지 효과적이지 못했습니다. 대부분 시칠리아 출신이라 옛 마피아 가문에 얽매여있는 이탈리아 정착민들은 로마 당국의 감시와 거리가 먼 알제리에 끌렸습니다. 정착민들의 거주지는 알제리 지형에 도배되어 있고, 카스텔라노와 마피아의 관계에 대해 많은 소문이 나돌고 있습니다. 로마가 이베리아 및 피에 누아르 동맹에 맞선 무력 분쟁에서 알제리 원주민 민병대를 지원하기로 결정함에 따라 불안정은 더욱 커지고 있습니다.\n\n알제리에 발이 묶이고 자원이 거의 주어지지 않은 총독은 상황이 자신의 손아귀에서 떠나자 앉아서 지켜볼 수 밖에 없었습니다. 하지만 트리움비라투스에서 긴장이 다시 고조되고, 곧 알제리와 카스텔라노는 다시 한번 주목을 받게 될 지도 모릅니다. 일단 그렇게 되면, 카스텔라노는 이탈리아가 자신을 새롭게 볼 기회를 갖게 될 것입니다. 음습한 거래와 밀실 협상을 이용한 제국의 뒷골목 통치에서부터 수많은 적들로부터 국경지대를 구한 국가의 영웅에 이르기까지."  
+ #Leader Description#
+ POLITICS_GIUSEPPE_CASTELLANO_DESC:0 "주세페 카스텔라노 장군은 아마 이탈리아 왕국 육군 고위층에서 가장 흔한 가십거리일 것입니다. 두 번의 세계대전의 베테랑인 그는 지난 세계 대전 동안 발칸반도에서 뛰어난 활약을 펼쳐 이탈리아 최고사령부 반열에 올랐습니다. 카스텔라노의 야망은 극에 달했지만, 운명을 다른 길로 향했습니다. 전쟁이 끝나고 몇 년 후, 새로운 두체 갈레아초 치아노는 카스텔라노에게 무법천지인 알제리 국경 지역의 감시 역할을 맡겼습니다.\n\n카스텔라노는 현재 몇 년째 알제리 군사령부 수장을 맡고있지만, 그의 지도력은 지역 정세를 개선하는데 그다지 효과적이지 못했습니다. 대부분 시칠리아 출신이라 옛 마피아 가문에 얽매여있는 이탈리아 정착민들은 로마 당국의 감시와 거리가 먼 알제리에 끌렸습니다. 정착민들의 거주지는 알제리 지형에 도배되어 있고, 카스텔라노와 마피아의 관계에 대해 많은 소문이 나돌고 있습니다. 로마가 이베리아 및 피에 누아르 동맹에 맞선 무력 분쟁에서 알제리 원주민 민병대를 지원하기로 결정함에 따라 불안정은 더욱 커지고 있습니다.\n\n알제리에 발이 묶이고 자원이 거의 주어지지 않은 총독은 상황이 자신의 손아귀에서 떠나자 앉아서 지켜볼 수 밖에 없었습니다. 하지만 트리움비라투스에서 긴장이 다시 고조되고, 곧 알제리와 카스텔라노는 다시 한번 주목을 받게 될 지도 모릅니다. 일단 그렇게 되면, 카스텔라노는 이탈리아가 자신을 새롭게 볼 기회를 갖게 될 것입니다. 음습한 거래와 밀실 협상을 이용한 제국의 뒷골목 통치에서부터 수많은 적들로부터 국경지대를 구한 국가의 영웅에 이르기까지."
+ POLITICS_SAID_BOUALAM_DESC:0 ""
+ POLITICS_MESSALI_HADJ_DESC:0 ""
