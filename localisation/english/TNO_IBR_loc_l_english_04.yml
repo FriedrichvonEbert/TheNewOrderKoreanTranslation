@@ -1489,8 +1489,6 @@ IBR_influence_tt_33:0 "The successful resolution of this conflict (thanks to mon
  iberia.62.t:0 "March in Support of the Prisoners"
  iberia.62.d:0 "A large number of citizens gathered in Madrid but especially in Lisbon. There, they began to march. Against so large a group, with such a cause, law enforcement was unable to do anything to stop them. The whole affair lacked glamour - frequently just citizens marching through either city - but grew, as street goers joined in. Some of the most dedicated held up pictures, taken of the soldiers of Timor. Others chanted slogans, with 'where did they go' showing itself as the most popular. Lasting for hours, the public demonstrations carried on until sunset, as the darkening sky made it difficult to coordinate. The people had departed, but their message had not.\n\nOur refusal to press the issue on Timor has proven disastrous. Confusing pragmatism with forgetfulness, the public has expressed anger at the government. We have to release a statement now, if we hope to save any face."
  iberia.62.a:0 "We did what we could."
- IBR_reformist_tt_47:0 "The failure of diplomacy will §Ydecrease reformism in the Council.§!"
-
 
  iberia.63.t:0 "Japan Proclaims Prisoners Will Never be Released"
  iberia.63.d:0 "Our decision to drop the support of our prisoners has proven to be a horrible mistake. In the hopes of reaching stable relations otherwise with Japan, the Timor garrison was deemed less important. As if out of spite, Tokyo released a public statement affirming that the former garrison was imprisoned, and will remain that way. Never at any point will they be released, and especially not given transport back to Iberia. Because of our continental separation, we can not do anything. Even if we were closer, we still could not do anything in retaliation. This decision has to be accepted, against our wills.\n\nThe international community has taken a keen interest in this, too - our seeming weakness has been noted, and we have been rendered a laughingstock. It will take a long time to recover from this blow, and even then our standing will never reach what it once was. Indonesia has taken from us even more than our prisoners."
@@ -2310,9 +2308,12 @@ IBR_influence_tt_25:0 "The lack of foresight in South Africa will §Ydecrease th
  #Terror group names
  
  IBR_CNT_name:0 "§RCNT-FAI§!"
+ IBR_CNT_name_long:0 "Confederacion Nacional del Trabajo Federacion Anarquista Iberica"
  IBR_FSLP_name:0 "§YFSLP§!"
  IBR_ETA_name:0 "§GETA§!"
+ IBR_ETA_name_long:0 "Euskadi Ta Askatasuna"
  IBR_BTA_name:0 "§eBTA§!"
+ IBR_BTA_name_long:0 "Batallones de Trabajadores Asturianos"
  
  #Variables
  
@@ -2357,10 +2358,13 @@ IBR_influence_tt_25:0 "The lack of foresight in South Africa will §Ydecrease th
  
  #CNT BUTTONS
  
+ IBR_CNT_CRACKDOWN:0 "지역 분쇄"
  IBR_CNT_CRACKDOWN_TT:0 "[ROOT.GetIBR_CNT_Crackdown]\n\n[ROOT.GetIBR_CNT_BUYDOWN_COST]"
  IBR_CNT_CRACKDOWN_NOT_TT:0 "[ROOT.GetIBR_CNT_Crackdown_NOT]\n\n[ROOT.GetIBR_CNT_BUYDOWN_COST]"
+ IBR_CNT_PROPAGANDA:0 "선전술"
  IBR_CNT_PROPAGANDA_TT:0 "[ROOT.GetIBR_CNT_Propaganda]\n\n[ROOT.GetIBR_CNT_BUYDOWN_COST]"
  IBR_CNT_PROPAGANDA_NOT_TT:0 "[ROOT.GetIBR_CNT_Propaganda_NOT]\n\n[ROOT.GetIBR_CNT_BUYDOWN_COST]"
+ IBR_CNT_RAID:0 "보급품 습격"
  IBR_CNT_RAID_TT:0 "[ROOT.GetIBR_CNT_Raid]\n\n[ROOT.GetIBR_CNT_BUYDOWN_COST]"
  IBR_CNT_RAID_NOT_TT:0 "[ROOT.GetIBR_CNT_Raid_NOT]\n\n[ROOT.GetIBR_CNT_BUYDOWN_COST]"
  
