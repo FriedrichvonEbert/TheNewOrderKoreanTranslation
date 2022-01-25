@@ -75,19 +75,51 @@
  
  NOV_sovereign_security_act: "Sovereign Security Act"
  
+ ### Character localisation ###
+ NOV_Alexander_Pokryshkin: "Alexander Pokryshkin"
+ NOV_Vasily_Shukshin: "Vasily Shuksin"
+ NOV_Neizvestnyy: "Neizvestnyy"
+ 
  ### Ministers ###
  #Pokryshkin
- NOV_Vasily_Shukshin_hog: "바실리 슈크신"
- NOV_Mikhail_Devyatayev_hog: "미하일 데비타이에프"
- NOV_Nikolay_Skomorokhov_for: "니콜라이 스코모로콥"
- NOV_Georgy_Langemak_eco: "게오르기 란게마크"
- NOV_Dmitry_Glinka_sec: "드미트리 글린카"
-
+ NOV_Vasily_Shukshin_hog_desc: "§YVice President\nAgrarianism§!"
+ 
+ NOV_Mikhail_Devyatayev: "Mikhail Devyatayev"
+ NOV_Mikhail_Devyatayev_hog_desc: "§YVice President\nOligarchy§!"
+ 
+ NOV_Nikolay_Skomorokhov: "Nikolay Skomorokhov"
+ NOV_Nikolay_Skomorokhov_for_desc: "§YForeign Minister\nOligarchy§!"
+ 
+ NOV_Georgy_Langemak: "Georgy Langemak"
+ NOV_Georgy_Langemak_eco_desc: "§YEconomic Minister\nOligarchy§!"
+ 
+ NOV_Dmitry_Glinka: "Dmitry Glinka"
+ NOV_Dmitry_Glinka_sec_desc: "§YSecurity Minister\nOligarchy§!"
+ 
  #Shukshin
- NOV_Alexander_Pokryshkin_hog: "알렉산드르 포크리슈킨"
- NOV_Vladimir_Sobolev_for: "블라디미르 소볼레프"
- NOV_Mikhail_Kerchenko_eco: "미하일 케르첸코"
- NOV_Amet_khan_Sultan_sec: "아메트 한 술탄"
+ NOV_Alexander_Pokryshkin_hog_desc: "§YVice President\nOligarchy§!"
+ 
+ NOV_Vladimir_Sobolev: "Vladimir Sobolev"
+ NOV_Vladimir_Sobolev_for_desc: "§YForeign Minister\nAgrarianism§!"
+ 
+ NOV_Mikhail_Kerchenko: "Mikhail Kerchenko"
+ NOV_Mikhail_Kerchenko_eco_desc: "§YEconomic Minister\nAgrarianism§!"
+ 
+ NOV_Amet_khan_Sultan: "Amet-khan Sultan"
+ NOV_Amet_khan_Sultan_sec_desc: "Amet-khan Sultan"
+ 
+ # Generals
+ NOV_Alexander_Novikov: "Alexander Novikov"
+ NOV_Ivan_Tarasov: "Ivan Tarasov"
+ NOV_Mikhail_Baganov: "Mikhail Baganov"
+ NOV_Valery_Polunovsky: "Valery Polunovsky"
+ NOV_Nestor_Kozin: "Nestor Kozin"
+ NOV_Mikhail_Evseev: "Mikhail Evseev"
+ NOV_Matvei_Batrakov: "Matvei Batrakov"
+ NOV_Vasily_Margelov: "Vasily Margelov"
+ NOV_Georgy_Migirenko: "Georgy Migirenko"
+ NOV_Boris_Fulik: "Boris Fulik"
+ NOV_Georgy_Kuznetsov: "Georgy Kuznetsov"
 
  ### Country Flags ###
  NOV_operation_in_progress: "대테러 작전이 §Y진행중입니다§!"
@@ -136,6 +168,12 @@
  #####################################
  ##=====| Decisions/Mechanics |=====##
  #####################################
+ ### GUI ###
+ NOV_Target_Country_Name_tt: "[?NOV_target_country.GetName] Missions"
+ NOV_Interact_TakeOver_tt_1: "TAKEOVER"
+ NOV_Silovik_GUI_selected_state_tt: "Selected State: [?NOV_target_country.GetName]"
+ NOV_Silovik_GUI_megacorp_option_1_text_tt: "Loyalty"
+ NOV_Silovik_GUI_megacorp_option_2_text_tt: "Power"
  ### Debug ###
  NOV_debug_category: "노보시비르스크 디버그 카테고리"
  NOV_debug_category_desc: "Insert witty placeholder loc."
@@ -1045,15 +1083,15 @@
  NOV_regional.20.desc: "바실리 마르겔로프가 처음 연방 공수부대를 맡게 되고 시간이 흘러, 장군의 눈에는 많은 것이 바뀐 것 같아 보였다. 예전의 그 군대는, 이제 최신장비를 갖추었으며, 모든 명령에 군말없이 따르고 있다.\n\n그의 숙련된 가르침 덕에, 그들 중 일부는 그를 '바시야 삼촌'이라고 부르기도 했고, 그것을 생각하는 것만으로도 그의 눈에 눈물이 날 뻔했다. 그들은 이미 비판의 여지가 없는 훌륭한 군인이 되었으며, 무엇보다 중요한 건, 한때 군대에서의 그들의 역할에 대해 무관심했던 것처럼 보였던 그들이 이제는 열정적으로 서로를 돕는다는 것이었다. 시간이 주어진다면, 그들은 마르겔로프와 함께했던 이들 중 함께했을 때 가장 즐거웠던 군인으로 기억 속에 남을 것이다.\n\n하지만, 그에겐 할 일이 남았고, 그는 미소를 지우며 그들을 가르치는 데만 집중하기로 마음먹었다. 누군가 그의 감동받은 듯한 눈동자를 본다면, 목이 메여 말을 제대로 할 수 없을 것이다."
  NOV_regional.20.a: "바시야 삼촌에겐 조카들이 엄청 많군."
 
- NOV_regional.22.t: "중앙시베리아 연방과 일본의 밀월"
+ NOV_regional.22.t: "[Get_newspaper_header]중앙시베리아 연방과 일본의 밀월"
  NOV_regional.22.desc: "오늘 중앙시베리아 연방은 거대기업 시비르와 페닉스 사이의 짧은 분쟁 끝에 합의가 이루어졌다고 발표했습니다. 노보시비르스크의 시베리아 경제장관은 중앙시베리아 연방의 경제적 이익은 동방에 있다고 선언했습니다.\n\n농업 제국인 시비르는 국가 공식 지원을 보장받았고, 이제 공영권과의 무역을 주도하게 될 것입니다. 물론 이는 불가피하게 중앙시베리아 연방이 일본과 자이바쓰의 마수로 끌려들어가는 결과를 불러올 것입니다.\n\n하지만 연방의 사기는 높고 경제는 번영하고 있습니다. 누가 감히 이 경제적 협력의 결과를 예단할 수 있을까요."
  NOV_regional.22.a: "그들이 노보시비르스크에 와서도 엔화를 내밀까?"
  
- NOV_regional.23.t: "중앙시베리아 연방과 미국의 밀월"
+ NOV_regional.23.t: "[Get_newspaper_header]중앙시베리아 연방과 미국의 밀월"
  NOV_regional.23.desc: "오늘 중앙시베리아 연방은 거대기업 시비르와 페닉스 사이의 짧은 분쟁 끝에 합의가 이루어졌다고 발표했습니다. 노보시비르스크의 시베리아 경제장관은 중앙시베리아 연방의 경제적 이익은 서방에 있다고 선언했습니다.\n\n총기 제국인 페닉스는 국가 공식 지원을 보장받았고, 이제 OFN과의 무역을 주도하게 될 것입니다. 물론 이는 미국과 캐나다의 상품과 미디어가 중앙시베리아 공화국으로 밀어닥치는 결과를 초래할 것입니다.\n\n하지만 연방의 사기는 높고 경제는 번영하고 있습니다. 누가 감히 이 경제적 협력의 결과를 예단할 수 있을까요."
  NOV_regional.23.a: "그들이 노보시비르스크에 와서도 달러를 내밀까?"
  
- NOV_regional.24.t: "시베리아 경제 내전"
+ NOV_regional.24.t: "[Get_newspaper_header]시베리아 경제 내전"
  NOV_regional.24.desc: "한동안 중앙 시베리아 연방은 두 거대 기업들 간의 경제적 내분으로 골머리를 앓아왔습니다. 군사 괴물 페닉스와 농업의 거인 시비르는 무자비하게 싸워왔으며, 노보시비르스크 정부가 마비될 지경입니다.\n\n중앙 시베리아 경제는 마치 미친 운전사가 산길을 돌아 운전하고 있는 차와 같으며, 자동차가 계곡에 쳐박히는 것은 시간 문제일 뿐입니다. 상황이 급속도로 악화됨에 따라 이 신생국에 재앙이 머지않아 보입니다."
  NOV_regional.24.a: "쟤들도 독일처럼 되겠군?"
 
