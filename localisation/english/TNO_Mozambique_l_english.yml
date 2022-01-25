@@ -1,4 +1,11 @@
 ﻿l_english:
+ #Characters
+ GAZ_Eduardo_Mondlane:0 "Eduardo Mondlane"
+ GAZ_Joaquim_Chissano:0 "Joaquim Chissano"
+ GAZ_Alberto_Massavanhane:0 "Alberto Massavanhane"
+ GAZ_Marcelino_dos_Santos:0 "Marcelino dos Santos"
+ GAZ_Samora_Machel:0 "Samora Machel"
+ 
  ## Country Names ##
  GAZ_socialist:0 "모잠비크 민중공화국"
  GAZ_socialist_DEF:0 "모잠비크 민중공화국"
@@ -11,10 +18,10 @@
 
  ## Ministers ##
  
- GAZ_Joaquim_Chissano_hog:0 "Joaquim Chissano"
- GAZ_Alberto_Massavanhane_for:0 "Alberto Massavanhane"
- GAZ_Marcelino_dos_Santos_eco:0 "Marcelino dos Santos"
- GAZ_Samora_Machel_sec:0 "Samora Machel"
+ GAZ_Joaquim_Chissano_hog_desc:0 "Head of Government\nSocialism\n------------\n§L"
+ GAZ_Alberto_Massavanhane_for_desc:0 "Foreign Minister\nSocialism\n------------\n§L"
+ GAZ_Marcelino_dos_Santos_eco_desc:0 "Economy Minister\nSocialism\n------------\n§L"
+ GAZ_Samora_Machel_sec_desc:0 "Security Minister\nSocialism\n------------\n§L"
 
  ## Ideas ##
  
@@ -29,8 +36,8 @@
  TNO_Mozambique_lowmedium_devastation_tt:0 "GFX_violence_texticon §VDevastation§! is §Yat moderate level§!!"
  TNO_Mozambique_medium_devastation_tt:0 "£GFX_violence_texticon §VDevastation§! is §Ywidespread! The nations look at the sleeping stocks of Ostafrika, long abandoned.§!!"
  TNO_Mozambique_highmedium_devastation_tt:0 "£GFX_violence_texticon §VViolence§! is §Rout of control. If this war doesn't end soon, extreme measures will be taken to safeguard it will.§!!"
- TNO_Mozambique_violent_devastation_tt:0 "£GFX_violence_texticon §RThe shade of Hüttig threatens to loom over Mozambique again. The people are at the blade's edge, desperation will bring call upon the Pale Horse once again.§"
- TNO_Mozambique_devastation_tt:0 "£GFX_violence_texticon §lDespite the death of the only nazi in Africa, his black sun returned to bathe us in it's accursed glow. The Arsenal has been deployed.\n\nGod help us all.§"
+ TNO_Mozambique_violent_devastation_tt:0 "£GFX_violence_texticon §RThe shade of Hüttig threatens to loom over Mozambique again. The people are at the blade's edge, desperation will bring call upon the Pale Horse once again.§!"
+ TNO_Mozambique_devastation_tt:0 "£GFX_violence_texticon §lDespite the death of the only nazi in Africa, his black sun returned to bathe us in it's accursed glow. The Arsenal has been deployed.\n\nGod help us all.§!"
  ## Focus Tree ##
  
  ## Events ##
@@ -39,8 +46,8 @@ GAZ.1.t:0 ""
 GAZ.1.desc:0 ""
 GAZ.1.a:0 ""
 
-GAZ.2.t:0 "CIA REPORT: Mozambique"
-GAZ.2.desc:0 "Situation report: Armed conflict in Mozambique.\n\nIt would seem as though not all of Africa has had its fill of violence. In the Mozambique region, the recently established state has collapsed into a state of civil war, with two broad factions known to us at this time. The first is led by Samora Machel, a local socialist leader who supposedly won the Mozambique elections over his non-socialist rivals. This claim has been disputed by his opposition, and the resulting destabilization of the region has transformed into an armed conflict. The Japanese, naturally, threw their weight behind Machel, as have several other nearby governments, no doubt expecting his administration to favor them in return for their support.\n\nThe future of American interests in Mozambique, and Africa as a whole, depends on our ability to knock down Machel's regime. The opposition in this case however, is not necessarily ideal. Eduardo Mondlane is an extreme figure, to say the least, with ideas that are not exactly conducive to the future of democracy in Mozambique. What's more is that Mondlane is a firm isolationist, opposed to the idea of any more interference in Mozambique by foreign powers. Even if we can topple Machel's regime, the United States will not benefit directly from Mondlane's victory in terms of trade or diplomacy.\n\nThere is, of course, a second option to consider. Within Mondlane's camp there is another figure who may be more amenable to future cooperation with the United States. Uria Simango is the resident moderate in Mondlane's party, someone who the idealists in government and our population will be more comfortable with supporting. More critically, a Simango regime would be more open to the idea of economic and diplomatic ties going forward. However, Simango has discounted the idea of making a move without our support, and if we were to aid him, Mondlane wouldn't just stand aside and allow Simango to take the lead. Mondlane and Simango would be stronger as a united front, and we need to consider our priorities before making a decision."
+GAZ.2.t:0 "CIA 보고서: 모잠비크"
+GAZ.2.desc:0 "상황 보고서: 모잠비크의 무장 분쟁.\n\nIt would seem as though not all of Africa has had its fill of violence. In the Mozambique region, the recently established state has collapsed into a state of civil war, with two broad factions known to us at this time. The first is led by Samora Machel, a local socialist leader who supposedly won the Mozambique elections over his non-socialist rivals. This claim has been disputed by his opposition, and the resulting destabilization of the region has transformed into an armed conflict. The Japanese, naturally, threw their weight behind Machel, as have several other nearby governments, no doubt expecting his administration to favor them in return for their support.\n\nThe future of American interests in Mozambique, and Africa as a whole, depends on our ability to knock down Machel's regime. The opposition in this case however, is not necessarily ideal. Eduardo Mondlane is an extreme figure, to say the least, with ideas that are not exactly conducive to the future of democracy in Mozambique. What's more is that Mondlane is a firm isolationist, opposed to the idea of any more interference in Mozambique by foreign powers. Even if we can topple Machel's regime, the United States will not benefit directly from Mondlane's victory in terms of trade or diplomacy.\n\nThere is, of course, a second option to consider. Within Mondlane's camp there is another figure who may be more amenable to future cooperation with the United States. Uria Simango is the resident moderate in Mondlane's party, someone who the idealists in government and our population will be more comfortable with supporting. More critically, a Simango regime would be more open to the idea of economic and diplomatic ties going forward. However, Simango has discounted the idea of making a move without our support, and if we were to aid him, Mondlane wouldn't just stand aside and allow Simango to take the lead. Mondlane and Simango would be stronger as a united front, and we need to consider our priorities before making a decision."
 GAZ.2.a:0 "Whatever keeps Japan out of Africa is a victory for America."
 GAZ.2.b:0 "We can't invest in this without an eventual return."
 
