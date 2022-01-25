@@ -111,59 +111,167 @@
  IBR_marlib_random_positive_change:0 "§w시장자유주의§! 세력의 지지율이 §Y무작위만큼§! 더 강해집니다.\n"
  IBR_marlib_random_negative_change:0 "§w시장자유주의§! 세력의 지지율이 §Y무작위만큼§! 더 약해집니다.\n"
  
- #Ministers and leader traits 
- #17 deputies ( 9 Spanish 8 Portuguese)
- IBR_Antonio_Salazar_dep:0 "안토니오 데 올리베이라 살라사르" 
- IBR_Francisco_Franco_dep:0 "프란시스코 프랑코 바아몬데"
- IBR_Iberian_Council_dep:0 "이베리아 의회"
- IBR_Marcelo_Caetano_dep:0 "마르셀로 다스 네베스 알베스 카에타노"
- IBR_Antonio_da_Mota_Veiga_dep:0 "안토니오 호르헤 마르틴스 다 모타 베이가"
- IBR_Gregorio_Bravo_dep:0 "그레고리오 로페스-브라보"
-
- IBR_Manuel_Fraga_dep:0 "마누엘 프라가 이리바르네" 
- IBR_Diogo_Freitas_dep:0 "디오고 프레이타스 도 아마랄" 
- IBR_Jorge_Verstrynge_dep:0 "호르헤 베르스트링헤 로하스" 
- IBR_Adelino_Costa_dep:0 "아델리노 아마로 다 코스타" 
-
- IBR_Leopoldo_Sotelo_dep:0 "레오폴도 칼보-소텔로" 
- IBR_Jose_Llorca_dep:0 "호세 페드로 페레스-요르카"
- IBR_Adelino_Palma_dep:0 "아델리노 다 팔마 카를로스" 
- IBR_Vasco_Gonsalves_dep:0 "바스쿠 두스 산투스 곤살베스" 
- IBR_Agustin_Rodriguez_dep:0 "아구스틴 로드리게스 사아군" 
- IBR_Ignacio_Camunas_dep:0 "이그나시오 카무냐스 솔리스" 
+ #CHARACTERS
+ IBR_Francisco_Franco:0 "프란시스코 프랑코"
+ IBR_Francisco_Franco_dep_desc:0 "§YC이베리아의 카우디요\n전제주의§!"
+ POLITICS_FRANCISCO_FRANCO_DESC:0 "While internationally a divisive figure, it cannot be denied that Caudillo Francisco Franco clawed his way to his position through merit. With the German victory in WW2, António de Oliveira Salazar of Portugal approached Franco to create a protective union against the Germans. Spain found itself uniting with Portugal in a comprehensive defence-pact-turned nation.\n\nBut of course, that was the past. In the last decade, Franco has been witness to insurmountable calamities. The disaster of the Atlantropa project destroyed the economy, and Germany going into utter freefall obliterated what little remained. His erstwhile allies in the Triumvirate are at each other's throats, ready to drop all pretence of unity over the slightest dispute. The colonization of Algeria in the 1950s, considered a proud accomplishment, has revealed itself as a double-edged sword that has dragged his nation into constant conflict with Italy. Salazar's unfounded notions of a non-existent "Law of Succession", that would see Portugal absorbed into Spain under the reinstated Spanish monarchy after both Caudillos had died, has raised questions about the future of Iberia under Franco. An attempted coup by old shirt Falangists was only just stopped through their removal from power by Franco.\n\nIberia, once proud, has fallen on hard times, and even the Caudillo himself has begun to doubt their ability to stay unified, though he'd never admit this to anybody. He can see the writing on the wall, and deep down he feels that it's only a matter of time before all that he's worked for comes crashing down around him."
+ POLITICS_FRANCISCO_FRANCO_WARS_DESC:0 "While internationally a divisive figure, it cannot be denied that Caudillo Francisco Franco clawed his way to his position through merit. With the German victory in WW2, Antonio de Oliveira Salazar of Portugal approached Franco to create a protective union against the Germans. Spain found itself uniting with Portugal in a comprehensive defence-pact-turned nation.\n\nBut of course, that was the past. In the last decade, Franco has been witness to insurmountable calamities. The disaster of the Atlantropa project destroyed the economy, and Germany going into utter freefall obliterated what little remained. His erstwhile allies in the Triumvirate are at each other's throats, ready to drop all pretence of unity over the slightest dispute. The colonization of Algeria in the 1950s, considered a proud accomplishment, has revealed itself as a double-edged sword that has dragged his nation into constant conflict with Italy. Salazar's unfounded notions of a non-existent "Law of Succession", that would see Portugal absorbed into Spain under the reinstated Spanish monarchy after both Caudillos had died, has raised questions about the future of Iberia under Franco. An attempted coup by old shirt Falangists was only just stopped through their removal from power by Franco.\n\nIberia, once proud, has fallen on hard times, and even the Caudillo himself has begun to doubt their ability to stay unified, though he'd never admit this to anybody. He can see the writing on the wall, and deep down he feels that it's only a matter of time before all that he's worked for comes crashing down around him.\n\nWith the rise of the Basques, and Salazar's initial incompetency in helping deal with the revolt and his later treasonous flight back to Portugal, the time had come. With factions and traitors all around him Franco held onto what he had helped build. After all, did the federal government not have the real legitimate authority over Iberia?"
  
- IBR_Francisco_Carneiro_dep:0 "프란시스쿠 사 카르네이루" 
- IBR_Mario_Soares_dep:0 "마리우 소아르스" 
- IBR_Alfonso_Guerra_dep:0 "알폰소 게라 곤살레스" 
- IBR_Guillermo_Galeote_dep:0 "기예르모 갈레오테 히메네스" 
- #Wars Cabinet 
- IBR_Alejandro_Valcarcel_dep:0 "알레한드로 로드리게스 데 발카르셀" 
- IBR_Luis_Carrero_Blanco_mil:0 "루이스 카레로 블랑코" 
- IBR_Pedro_Cortina_for:0 "페드로 코르티나 마우리" 
- IBR_Gregorio_Bravo_eco:0 "그레고리오 로페스-브라보"
+ IBR_Antonio_Salazar:0 "안토니오 데 올리베이라 살라사르"
+ IBR_Antonio_Salazar_dep_desc:0 "§Y이베리아의 카우디요\n전제주의§!"
+ POLITICS_ANTONIO_DE_OLIVEIRA_SALAZAR_IBERIA_DESC:0 "It would be quite unfair to dismiss Antonio de Olivera Salazar, the leader of Portugal since 1932, as merely an obstructive bureaucrat. Coming to power in Portugal a few years before Franco gained control of Spain, Salazar was a political power player in his own right. Only under the pressure of German troops seizing Angola and Mozambique did he decide to accept a deal with his own personal devil. When Franco approached Salazar to create a defensive-pact-turned-nation, he accepted, merging Portugal with the similarly right-wing nation of Spain. Now the Iberian Union, the two countries would work together in harmony... at least in theory.\n\nIn actuality, however, this could not be further from the truth. Salazar was not concerned with the welfare of the Union so much as the welfare of Portugal. Wielding a desire to protect his nation from anything that might harm her in the one hand, and an almost pathological obsession with vetoing proposals that would solidify the Union further in the other, Salazar quickly gained a reputation in the Council for being obstructive. His paranoia concerning "Spanish oppression of Portugal" led to many a confrontation with Franco himself, who saw him as one of many reasons why Iberia was likely to fall apart. With Franco's attempted passing of the "Law of Succession", meaning Portugal's absorption into Spain through the reinstallation of the monarchy after the deaths of the Caudillos, the divide between the two was firmly set. This was despite Salazar removing old shirt falangist elements who had attempted to stage a coup against the Union."
+ 
+ IBR_Artur_Oliveira:0 "아르투르 아게두 드 올리베이라"
+ IBR_Artur_Oliveira_eco_desc:0 "§YMinister of Economic Affairs\nDespotism§!"
+ 
+ IBR_Carlos_Asensio_Cabanillas:0 "Carlos Asensio Cabanillas"
+ 
+ IBR_Agustin_Munoz_Grandes:0 "Agustín Muñoz Grandes"
+ IBR_Agustin_Munoz_Grandes_desc:0 "Few, if any men in Iberia, are as frightening as Agustín Muñoz Grandes. Born in a small farming village in 1896, he clawed his way to the top by his merit and brutality as an officer in the Rif War, gaining fame for his ability to suppress any insurgency in the cities he marched through. In 1937, he narrowly escaped a massacre by Republican militias to join the rebellion, becoming a division commander in Franco's army only a year later. For his valiant service in Aragon and Catalonia, he was made Brigadier General.\n\nImpressing Franco, Muñoz Grandes was made Secretary General of the Party in spite of his lack of experience and his radical right-wing views. A strong supporter of Hitler during the Second World War, he was ecstatic to be chosen to lead the Blue Division volunteering on the Eastern Front, and he marched into Leningrad as a hero revered by the Spanish far-right.\n\nIn the New Order created by Hitler's victory, Franco could not realistically try to sideline "Hitler's favorite Spaniard", despite increasing fears that he had visions of establishing a more explicitly pro-Nazi Spanish dictatorship led by himself. Indeed, it was in part due to fear of Muñoz Grandes growing influence that Franco and Salazar sought to combine their might in the Iberian Union.\n\nThough his opinions on Germany and Nazism have soured somewhat since the end of the war, Muñoz Grandes remains easily the most reactionary member of the Caudillos' inner circle. He is frustrated by the amount of power Portugal now has over Spanish affairs, and many suspect he would prefer if Franco were sole Caudillo. Whether these rumors are true or not, it is clear that he wishes for a strong and authoritarian Iberian government that can crush all who would oppose it."
+ IBR_Agustin_Munoz_mil_desc:0 "§YMinister of War\nDespotism§!"
+ 
+ IBR_Francisco_Coloma_Gallegos:0 "Francisco Coloma Gallegos"
 
- #8 military advisors (4 Spanish 4 Portuguese)
- IBR_Agustin_Munoz_mil:0 "아구스틴 무뇨스 그란데스" 
- IBR_Fernando_Santos_mil:0 "페르난두 두스 산투스 코스타"
- IBR_Manuel_Alegria_mil:0 "마누엘 디에스-알레그리아" 
- IBR_Horacio_Viana_mil:0 "오라시우 드 사 비아나 헤벨루" 
- IBR_Jose_Azevedo_mil:0 "조제 피녜이루 드 아제베두"
- IBR_Manuel_Gutierrez_mil:0 "마누엘 구티에레스 메야도" 
- IBR_Jaime_Silverio_mil:0 "자이므 실베리우 마르케스" 
- IBR_Alvaro_Leloup_mil:0 "알바로 데 라카예 렐로웁"
+ IBR_Mohammed_Mezziane:0 "Mohammed ben Mizzian"
+ IBR_Mohammed_Mezziane_desc:0 "The story of how Mohamed Meziane became one of the top generals in Iberia is an unusual one, not the least because he was born the son of an insignificant tribal leader and raised as a Tarifit speaking Muslim. While enrolled in a colonial school where he learned Spanish, Mohamed had a chance encounter with King Alfonso XIII of Spain when he briefly visited the school. Impressing the king with his knowledge of European Geography and his ambition to join the Spanish military, when Mohamed's father was murdered the following year, the King himself paid for the boy to be educated at the Toledo Infantry Academy, overturning a rule that prohibited Muslims from receiving officer training.\n\nDuring the Rif war, Meziane served as a low ranking officer. When an ambush caught the Spanish camp by complete surprise, Meziane shot a rebel that had pointed a pistol at a little known lieutenant colonel.\n\nLieutenant Colonel Francisco Franco.\n\nThe two men became close friends on the campaign. Grateful that he had saved his life, after Franco rose to become General of the Army of Africa, he ensured that Meziane would be brought along to the top with him, with the newly appointed Caudillo naming him Commander General of Ceuta after the Civil War. Shortly after the establishment of the Iberian Union, he was promoted to Army General, and commanded the Iberian seizure of Morocco.\n\nMeziane is widely regarded in Rif and Morocco, as a man who practices Islam and is sympathetic to the concerns of the people in the Northwest African colonies. In recent years he has aided Prince Hassan in his efforts to maintain the peace in the face of rising anti-colonial sentiment. He maintains close personal friendships with both Caudillo Franco and the Moroccan Prince, and though Franco may trust him implicitly, others suspect he may be more loyal to the Kingdom of Morocco than the Iberian Union."
 
- IBR_Alejandro_Valcarcel_for:0 "알레한드로 로드리게스 데 발카르셀" 
- IBR_Luis_Carrero_Blanco_for:0 "루이스 카레로 블랑코" 
- IBR_Pio_Cabanillas_for:0 "피오 카바니야스 가야스" 
- IBR_Joaquin_Gimenez_for:0 "호아킨 루이스-히메네스"
+ IBR_Alfonso_Armada:0 "Alfonso Armada"
+ IBR_Alfonso_Armada_desc:0 "Alfonso Armada is among the youngest of Iberia's generals. Only a teenager when he served in the Civil War and only 22 when he marched into Leningrad with the Blue Division, his rise to prominence had little to do with his actual military talent. Rather, it was his connections to the royal family.\n\nAlfonso's father Luis was a Gentleman of the Chamber and close friend of King Alfonso XIII, such that Alfonso's own godmother was none other than the King's mother. He was among the men selected to groom Prince Juan Carlos for an eventual military career, tutoring the Prince throughout his childhood. They maintain a friendly relationship to this day.\n\nIn the reshuffling of the army command structure when the Iberian Union was established, Armada was promoted to Lieutenant General. Today he serves in some ways as a liaison between the Caudillos and the former Spanish royal family, serving as a conduit through which the Caudillos hope to ensure that Juan Carlos remains loyal to and supportive of the Iberian Union and its government."
 
- IBR_Artur_Oliveira_eco:0 "아르투르 아게두 드 올리베이라" 
- IBR_Mariano_Rubio_eco:0 "마리아노 나바로 루비오" 
- IBR_Jose_Giron_Velasco_eco:0 "호세 안토니오 히론 데 벨라스코" 
- IBR_Ulisses_Cortes_eco:0 "울리스스 크루스 드 아기아르 코르테스" 
- IBR_Licinio_Fuente_eco:0 "리시니오 데 라 푸엔테" 
- IBR_Juan_Garcia_eco:0 "후안 안토니오 가르시아 디에스" 
- IBR_Miguel_Boyer_eco:0 "미겔 보예르 살바도르" 
+ IBR_Antonio_Spinola:0 "António de Spínola"
+ IBR_Antonio_Spinola_desc:0 "António de Spínola is a relative newcomer to the Iberian military command. Born in 1910, he became a cavalry officer in the Portuguese Army in 1928, a position which he would hold for more than twenty years. When Südwestafrika began massing troops on Portuguese West Africa's southern border, he volunteered to lead a cavalry battalion, and held the strategically important border town of Namacunde for several days. His bold defense gave Portuguese nationals precious time to evacuate the colony before its complete takeover by the SS.\n\nHis strategic victory at Namacunde greatly increased his recognition in military circles, positioning him to become a brigadier general in the newly formed Iberian Army. Shortly thereafter he was deployed to Equatorial Guinea for the Congo Expedition. Following the death of his commanding officer from malaria, Spínola became a Divisional General in charge of all Portuguese forces in Equatorial Africa, and under his command the army secured all Cameroonian lands south of the Sanaga River more than a week prior to the expected completion date.\n\nHaving achieved two great military accomplishments in the colonies, Spínola has only become more prominent and is now well acquainted with the Caudillos, as well as other top-ranking military members. An orthodox conservative, he is supportive of the Union and its present leadership, and is not especially drawn to partisan politics. Perhaps the one political issue he is truly passionate about is the reclamation of the stolen colonies of Portuguese West Africa and Moçambique. Though he recognizes that such a reconquest is likely impossible, should an opportunity emerge to fight in Africa once more there is little doubt Spínola will want to serve on the frontlines."
+
+ IBR_Francisco_Costa_Gomes:0 "Francisco da Costa Gomes"
+ IBR_Francisco_Costa_Gomes_desc:0 "Francisco da Costa Gomes did not wish to join the army, but when his father died while he was eight years old, his mother lacked the means to care for him, so she sent him to the Lisbon Military Academy in the hopes that he may earn himself a better future. Francisco despised his time at the academy, but he soon graduated and spent his young adulthood in low-ranking officer positions. Assigned to the defense of Portuguese West Africa against Südwestafrikan aggression as Cavalry Captain, da Costa Gomes distinguished himself as his company prevented German efforts to cut the supply chain to Namacunde for two days.\n\nCosta Gomes had been promoted to Colonel when he was sent to Cameroon, finding that he had coincidentally been assigned to the same division as his former commander in Namacunde-António de Spínola. The two men developed a fondness for each other, and their successful drive to the Sanaga River saw da Costa Gomes promoted to Brigadier General.\n\nAs a bright commander and fast-learner, da Costa Gomes was invited into the Iberian General Staff on recommendation of Spínola in 1951. He has remained a prominent figure in both political and military matters ever since. Da Costa Gomes maintains a strong friendship with General Spinola and is noted for his unusual interest in and sympathy towards the United States of America and its culture."
+
+ IBR_Rafael_Garcia_Valino:0 "Rafael García Valiño"
+
+ IBR_Afonso_Almeida_Fernandes:0 "Afonso Almeida Fernandes"
+
+ IBR_Manuel_Diez_Alegria:0 "Manuel Díez-Alegría Gutiérrez"
+ IBR_Manuel_Alegria_mil_desc:0 "§YMinister of Defense\nAuthoritarian Democracy§!"
+
+ IBR_Camilo_Alonso_Vega:0 "Camilo Alonso Vega"
+
+ IBR_Santiago_Amado_Loriga:0 "Santiago Amado Lóriga"
+
+ IBR_Luis_Carrero_Blanco:0 "Luis Carrero Blanco"
+ IBR_Luis_Carrero_Blanco_desc:0 "Luis Carrero Blanco lived an unassuming life before the Civil War, briefly serving as a naval lieutenant in the 1920s and teaching Submarine Tactics at the Naval Warfare College after that. After his father and brother were killed by communist militiamen in The Red Terror, Blanco escaped to Mexico, then returned to Spain to join the rebellion and avenge his family.\n\nAs one of the few experienced naval commanders in the rebel camp, Blanco quickly rose through the ranks, with Franco appointing him as Chief of the Navy General Staff in 1939 just after the war ended. He gained Franco's friendship and trust shortly thereafter, convincing him to maintain Spanish neutrality in the Second World War and urging closer relations between Franco's government and that of Salazar. As one of the architects of unification, he is highly respected by his fellow military and political men alike, both Spanish and Portuguese.\n\nBlanco has not seen naval combat since the Spanish Civil War, and with Américo Tomás becoming the dominant figure in the Iberian Navy, he is increasingly regarded as primarily a political figure rather than a military one. A man prone to conspiratorial thinking, Blanco sees Jewish and Masonic plots hiding behind every corner, and believes that separatists, anti-colonialists, and democratic reformists, seek to destroy Christian Civilization itself. At the same time, he is opposed to Autarky espoused by the Falange, and is supportive of technocrats' efforts to promote free trade and market competition."
+ IBR_Luis_Carrero_Blanco_mil_desc:0 "§YMinister of War\nDespotism§!"
+
+ IBR_Angel_Liberal_Lucini:0 "Ángel Liberal Lucini"
+
+ IBR_Gabriel_Pita_Veiga:0 "Gabriel Pita da Veiga"
+
+ IBR_Americo_Tomas:0 "Ámerico Tomás"
+ IBR_Americo_Tomas_desc:0 "If there was ever a man that symbolized the Portuguese Old Guard, it is Américo Tomás. In the First World War, Tomás served on the deck of the Vasco da Gama, Portugal's only battleship, and by the end of the war had been promoted to lieutenant. Shortly after war he joined the crew of a research corvette which sought to measure the depth of the waters off the Portuguese coast, becoming the ship's captain in 1924. For the following twelve years he extensively surveyed the seas, for which he gained considerable recognition within the navy. He became acting head of the Portuguese Hydrographic Institute in 1931, a title he wore proudly for five years.\n\nIn recognition of his expert ability to organize sailors and crew members at sea, in addition to his advanced understanding of hydrology and shipping logistics, Salazar appointed Tomás as Navy Chief of Staff in 1936. His duties continuously expanded as he consistently outperformed other naval staff, eventually mastering ichthyology, naval aviation, and most importantly: naval warfare. It was only natural that he became Portuguese Navy Minister in 1944.\n\nIn the Südwestafrikan War, Tomás commanded Portugal's largest warship, the Afonso de Albuquerque, and was the admiral tasked with the evacuation of thousands of Portuguese settlers and administrators. His success turned him into a national hero in Portugal, and guaranteed his selection for Naval Minister in the newly formed Iberian Union. In this role he has worked extensively to modernize Iberia's navy, and in particular expand its merchant marine.\n\nThough widely admired by the public and understood by all to be one of the finest navy men of the modern age, Tomás is a socially awkward man and has rather little influence in political matters besides those directly concerning the Navy. He rarely feels obliged to debate in political matters, being largely supportive of both the Union and its Caudillos, but as a conservative old enough to remember the chaos of the First Portuguese Republic, he has grown increasingly concerned by the recent rise of liberal agitation."
+
+ IBR_Henrique_Tenreiro:0 "Henrique Tenreiro"
+
+ IBR_Adolfo_Baturone_Colombo:0 "Adolfo Baturone Colombo"
+
+ IBR_Pedro_Nieto_Antunez:0 "Pedro Nieto Antúnez"
+
+ IBR_Alberto_Ullastres_Calvo:0 "Alberto Ullastres Calvo"
+
+ IBR_Alejandro_Valcarcel:0 "Alejandro Rodríguez de Valcárcel"
+ IBR_Alejandro_Valcarcel_dep_desc:0 "§YPresident of the Government\nAuthoritarian Democracy§!"
+ IBR_Alejandro_Valcarcel_for_desc:0 "§YMinister of Foreign Affairs\nAuthoritarian Democracy§!"
+
+ IBR_Iberian_Council:0 "The Iberian Council"
+ IBR_Iberian_Council_dep_desc:0 "Head of Government"
+
+ IBR_Marcelo_Caetano:0 "Marcelo Caetano"
+ IBR_Marcelo_Caetano_dep:0 "§YCaudillo of Iberia\nAuthoritarian Democracy§!"
+
+ IBR_Antonio_Mota_Veiga:0 "Antonio da Mota Veiga"
+ IBR_Antonio_da_Mota_Veiga_dep:0 "§YCaudillo of Iberia\nDespotism§!"
+
+ IBR_Diogo_Freitas:0 "Diogo Freitas do Amaral"
+ IBR_Diogo_Freitas_dep:0 "§YVice-President of the Government\nConservative Democracy§!"
+
+ IBR_Leopoldo_Sotelo:0 "Leopoldo Calvo-Sotelo"
+ IBR_Leopoldo_Sotelo_dep:0 "§YVice-President of the Government\nLiberal Democracy§!"
+
+ IBR_Adelino_Palma:0 "Adelino da Palma Carlos"
+ IBR_Adelino_Palma_dep_desc:0 "§YVice-President of the Government\nLiberal Democracy§!"
+
+ IBR_Fernando_Santos:0 "Fernando dos Santos Costa"
+ IBR_Fernando_Santos_mil_desc:0 "§YMinister of War\nDespotism§!"
+
+ IBR_Horacio_Viana:0 "Horácio de Sá Viana Rebelo"
+ IBR_Horacio_Viana_mil_desc:0 "§YMinister of Defense\nConservative Democracy§!"
+
+ IBR_Jose_Azevedo:0 "José Pinheiro de Azevedo"
+ IBR_Jose_Azevedo_mil:0 "§YMinister of War\nLiberal Democracy§!"
+
+ IBR_Manuel_Gutierrez:0 "Manuel Gutiérrez-Mellado"
+ IBR_Manuel_Gutierrez_mil_desc:0 "§YMinister of War\nLiberal Democracy§!"
+
+ IBR_Pedro_Cortina:0 "Pedro Cortina Mauri"
+ IBR_Pedro_Cortina_for:0 "§YMinister of Foreign Affairs\nAuthoritarian Democracy§!"
+
+ IBR_Pio_Cabanillas:0 "Pío Cabanillas Gallas"
+ IBR_Pio_Cabanillas_for_desc:0 "§YMinister of Foreign Affairs\nConservative Democracy§!"
+
+ IBR_Joaquin_Gimenez:0 "Joaquín Ruiz-Giménez"
+ IBR_Joaquin_Gimenez_for_desc:0 "§YMinister of Foreign Affairs\nSocial Democracy§!"
+
+ IBR_Gregorio_Bravo:0 "Gregorio López-Bravo"
+ IBR_Gregorio_Bravo_eco_desc:0 "§YMinister of Economic Affairs\nAuthoritarian Democracy§!"
+
+ IBR_Mariano_Rubio:0 "Mariano Navarro Rubio"
+ IBR_Mariano_Rubio_eco:0 "§YMinister of Economic Affairs\nAuthoritarian Democracy§!"
+
+ IBR_Jose_Giron_Velasco:0 "José Girón de Velasco"
+ IBR_Jose_Giron_Velasco_eco_desc:0 "§YMinister of Economic Affairs\nFascism§!"
+
+ IBR_Ulisses_Cortes:0 "Ulisses de Aguiar Cortês"
+ IBR_Ulisses_Cortes_eco_desc:0 "§YMinister of Economic Affairs\nFascism§!"
+
+ IBR_Licinio_Fuente:0 "Licinio de la Fuente"
+ IBR_Licinio_Fuente_eco:0 "§YMinister of Economic Affairs\nConservative Democracy§!"
+
+ IBR_Juan_Garcia:0 "Juan Antonio García Díez"
+ IBR_Juan_Garcia_eco:0 "§YMinister of Economic Affairs\nLiberal Democracy§!"
+
+ IBR_Fernando_Dias:0 "Fernando Dias"
+
+ IBR_Pablo_Martin_Alonso:0 "Pablo Martín Alonso"
+
+ IBR_Jose_Lacalle_Larraga:0 "José Lacalle Larraga"
+
+ IBR_Kaulza_de_Arriaga:0 "Kaúlza de Arriaga"
+
+ IBR_Antonio_Barroso:0 "Antonio Barroso y Sánchez-Guerra"
+
+ IBR_Manuel_Fraga:0 "Manuel Fraga Iribarne"
+ POLITICS_MANUEL_FRAGA_DESC:0 "To some, Manuel Fraga Iribarne is the champion of the new democratic Iberia, a firm and fair leader who can keep the country from falling apart in the aftermath of the transition to democracy. To others, Fraga is just another Falangist, a holdover from the old regime whose project is to retain the economic and political legacy of the dictatorship while giving the same old authoritarianism a new, modern sheen. The truth lies somewhere in the middle.\n\nA lawyer by trade, Fraga's involvement in politics goes back to the 1950's, when he held various minor posts in the regime of the Caudillos. His big break came when he was appointed Minister for Information and Tourism, where he earned a name for himself by revitalizing the Iberian tourism industry, leading a campaign under the slogan "Iberia is different!" In the 60's Fraga also earned an unsavory reputation for his role as a propagandist for the regime, publicly justifying the execution of political prisoners such as Julian Grimau. Despite his complicity in the worst abuses of the Caudillos, Fraga became a part of a reformist faction within the regime, seeking to move Iberia in the direction of democracy. When the rule of the Caudillos ended, he formed the Alianza Popular, an alliance of various smaller parties led by former reformist ministers in the old regime.\n\nElected to a majority in Iberia's first democratic elections, Fraga and the Alianza Popular now seek to strike a balance between reform and order, bringing Iberia into the 20th century and doing away with the old institutions while also keeping the country together against the forces of political extremism and separatism."
+ POLITICS_MANUEL_FRAGA_DSC_DESC:0 "To some, Manuel Fraga Iribarne is the champion of the new democratic Iberia, a firm and fair leader who can keep the country from falling apart in the aftermath of the transition to democracy. To others, Fraga is just another Falangist, a holdover from the old regime whose project is to retain the economic and political legacy of the dictatorship while giving the same old authoritarianism a new, modern sheen. The truth lies somewhere in the middle.\n\nA lawyer by trade, Fraga's involvement in politics goes back to the 1950's, when he held various minor posts in the regime of the Caudillos. His big break came when he was appointed Minister for Information and Tourism, where he earned a name for himself by revitalizing the Iberian tourism industry, leading a campaign under the slogan "Iberia is different!" In the 60's Fraga also earned an unsavory reputation for his role as a propagandist for the regime, publicly justifying the execution of political prisoners such as Julian Grimau. Despite his complicity in the worst abuses of the Caudillos, Fraga became a part of a reformist faction within the regime, seeking to move Iberia in the direction of democracy. When the rule of the Caudillos ended, he formed the Alianza Popular, an alliance of various smaller parties led by former reformist ministers in the old regime.\n\nAfter the election of the Unión Nacional in Iberia's first democratic elections, Fraga and the Alianza Popular eventually entered into opposition, opposing the anti-democratic trajectory of the new government. With President Valcárcel's failed attempt to destroy the Iberian Council and re-establish a dictatorial regime, Fraga was forced to band together with the other democratic parties in what is now known as the Democratic Salvation Coalition. Thrust into the position of President, he must now keep the unruly transitional coalition alive long enough to deal with the Unión Nacional and ensure the continuation of Iberian democracy."
+ 
+ POLITICS_ALBERTO_ULLASTRES_DESC:0 "Ullastres Calvo was born on the eve of only the first of the many unfathomable catastrophes that seized the reins of the 20th century. He dedicated his early years in Madrid to attaining a strong education, graduating first in Law and Commerce and later obtaining his doctorate. Initially working as professor for Political Economy he soon found his way into serving for the newly established Iberian administration. His economic knowledge was greatly needed as the Union took a harsh economic hit from the 1950s German Financial Crash and the animosity between the Einheitspakt and the Triumvirate.\n\nQuickly working his way up the civil service ladder he was soon screened for ministerial positions. Reservations about his revealed close connections to the highly religious order Opus Dei remained but Ullastres managed to finally serve as trade minister for the Union. The longer he served however the more disillusioned he became with the current direction of the Union, especially its economic policy. So when Iberia's democratisation succeeded he finally decided to act. Along with fellow business reform minded people within the administration and private organizations, amongst them notably Opus Dei, he formed the Partido Renovador Democrático. The party advocated for cutting more government restrictions in the economy and generally scaling back the size of the state. These they argued would bring greater prosperity to the people of Iberia and ensure the capacity of the Union to withstand modern challenges. With lofty promises and great propaganda Ullastres and the party were able to seize the reins of control. They could now begin to shape the future."
+ 
+ IBR_Torcuato_Fernandez_Miranda:0 "Torcuato Fernández-Miranda"
+ POLITICS_TORCUATO_FERNANDEZ_MIRANDA_DESC:0 "Born on the north coast of Spain in 1915 Torcuato Fernández-Miranda enjoyed an education in law before joining the civil war and leaving the conflict as lieutenant. Proceeding to make use of his education he started work as a law professor at the University of Oviedo. His connections to the Francoist regime would however not be limited to the civil conflict. Apparently picked by Franco himself, Fernández-Miranda was chosen to serve in the education department of the new Iberian state. He was reported to be an effective civil servant yet questioned on his political beliefs at times.\n\nOnly when he was able to rise higher in the state apparatus did he choose to disclose some of his leanings. Believing that the Union desperately required a democratic transition to continue thriving and not falling to the traps of ethnic tensions and representation. He soon became a solid part of the reformist faction of the government. Watching as inactivity and caution however reined in men like Fraga and other conservatives he realized the path for the Union required a different path. Creating a new faction around him he was able to garner the support of those with more radical views on democratization and social issues. He now steers towards providing a better and more fair future for the Iberian peninsula."
+
+ IBR_Felipe_Gonzalez:0 "Felipe González"
+ IBR_Alvaro_Cunhal:0 "Álvaro Cunhal"
+ IBR_Rodolfo_Llopis:0 "Rodolfo Llopis"
+ MAU_Ahmed_Baba_Miske:0 "Ahmed Baba Miské"
+ ADS_Harald_von_Hirschfeld:0 "Harald von Hirschfeld"
+ 
+ #only give this to elected valcarcel
+ POLITICS_ALEJANDRO_VALCARCEL_DESC:0 "Alejandro Rodriguez de Valcárcel is a man from another era.\n\nBorn in 1917 in the closing hours of World War I, the man had little of note occur to him until the Spanish Civil War. A dedicated Falangist, Valcárcel served in a Falangist militia during the civil war. A student of law, Valcárcel was unable to finish his studies until after the war had concluded.\n\nThe man led an uneventful life for much of the 50's and some of the 60's, serving as a medium-level provincial governor. He slowly worked up the ranks of Iberia, and by the middle of the 1960's he held high government offices in service to the state. He was noted by Franco for his apathy towards reforms, as he did not like them, but did little to stop them.\n\nOnce Iberia democratized, he saw that his livelihood was being put in dire risk, as with the rest of the politicians of his sort. He later took the role of their leader, rallying all the old guard politicians behind him to create the new Unión Nacional, a party made from the merger of the União Nacional and the Falange.\n\nValcárcel may have won the election, but he has not won the war. Now that he is in power, it falls to him to bring back the Iberia of old, where the Falange reigned supreme. Valcárcel is a man from another era, and if he has his way, then Iberia shall return to it."
+ 
+ POLITICS_ALFONSO_ARMADA_DESC:0 "Alfonso Armada Comyn has found himself reliving his glory days.\n\nBorn in 1920 to a family with a history of fighting and warfare, he was quick to pick up the tradition for himself. Deeply religious, it is easy to say that the apple didn't fall far from the tree. At the young age of 16, he opted to carry on his family's legacy in the best way possible - saving Spain from Bolshevism. After fighting through all of Spain, he later joined the Blue Division and participated in the Fall of Leningrad, aiming to help save a second country from Bolshevism.\n\nBy the late 1940's, Alfonso had become a military instructor in several different academies. He was a natural choice for promotion, from a mixture of genuine talent and political compatibility.\n\nDemocracy treated the man very poorly. He hated every facet, every moment of the system, but for the sake of his job he bit his tongue. He learned greatly from his comrades, who lost their positions for their protests. When the new democracy began to tear down Franco's legacy, he reached his limit. He secretly organized a coup, so that he may save Iberia from Bolshevism once more.\n\nAlfonso Armada shall see himself Caudillo, and he will ensure that Iberia's new state does not repeat the mistakes that made the old Caudillos weak."
+ 
+ POLITICS_ANTONIO_SPINOLA_DESC:0 "António de Spínola was born in 1910 in Estremoz, in what was formerly Portugal. He had a very uneventful childhood, and his path to leadership began in 1920, when he entered the Military School of Lisbon. He learned there for eight more years, and his education paid off when he was made commander of the National Republican Guard. Come 1940, he was sent to Germany to observe their troops operate during Barbarossa.\n\nAntónio was never one for political involvement, finding that politics got in the way of his duties as commander. Even so, he always leaned towards the conservative side of things - though how much this truly showed itself is debatable. This effort clearly worked, since Spinola kept being granted promotion after promotion. It was joked that he would be a Caudillo before 1970, with how fast he was promoted.\n\nWhen Franco died, the Council could not find anyone else to replace his spot as President, and it increasingly seemed like Iberia would have to make do with only Caetano. That is, before Spinola intervened. Through some "surprise politics", he was found Franco's successor.\n\nHe may not have been a Caudillo by 1970, but he still came exceptionally close. Now, with politics as the forefront of his duty, Spinola has set to ensuring that Iberia stays content within its status quo, by any means necessary."
+ 
+ POLITICS_MANUEL_MELLADO_DESC:0 "Manuel Gutiérrez Mellado was born in 1912, in Madrid. Orphaned at a very young age, he relied on his uncle to provide him with what he needed in order to continue studies. He entered the Zaragoza Military Academy in 1929, which was then headed by Francisco Franco. Under Franco's tutelage, he also joined the Falange in 1935. During the civil war, he was quick to distinguish himself and rapidly rose through the ranks, assisting in the operations of the secret police. When World War II broke out, he joined the Blue Division as one of its high commanders, overseeing their operations from Berlin.\n\nAfter the war, Mellado continued to obtain promotions. He was seen by his peers as a righteous man, and despite his lack of political commitment, his strong moral compass often landed him as a reformist. He had no particular attachment to them, but their proposals often found a champion in him.\n\nWhen the Iberian Council lost its grip on the country, they began to take drastic measures to keep their grip. The Council's desperate flailing came to a head when Mellado was ordered to fire upon protestors. Enough was enough.\n\nNow, Mellado has been appointed the provisional President of Iberia. Now, he must create a democracy from a state that did its hardest to stop it. Manuel Mellado wants the best for the Iberian people, but can he achieve this before the infighting consumes Iberia?"
+ 
+ POLITICS_IBERIAN_COUNCIL_PRE68:0 "Every country needs a leader, and Iberia is no exception. However, how do you determine the sole, singular leader of a state when it has two equal leaders? The influence of both Caudillos wane and wax as time progresses, and one takes a greater role in the Union depending on just how much influence they could muster.\n\nSometimes, neither Caudillo can take precedence over one another. When both Caudillos are equal, then neither can honestly be called the greatest leader of Iberia. Therefore, a third party must take their place - the Council."
+ 
+ #leader traits
  
  franco_heir:0 "프랑코의 후계자"
  new_caudillo:0 "새 카우디요"
@@ -175,7 +283,6 @@
 
  #Trees
  
- IBR_Triumvirate_Fell:0 "트리움비라투스 이후"
  IBR_PostMaltaPolitics_Tree:0 "트리움비라투스 이후"
  IBR_PostBombingCouncil_Tree:0 "이베리아 평의회"
  IBR_germany_in_flames_tree:0 "화염 속의 독일"
@@ -186,7 +293,6 @@
  IBR_economic_miracle_paths:0 "이베리아의 경제 기적"
  IBR_economic_bubble:0 "이베리아 경제 버블"
  IBR_anti_separatista_tree:0 "테러리스트에 대한 반격"
- IBR_death_of_salazar:0 "살라자르의 죽음"
  IBR_death_of_salazar_caetano:0 "새 카우디요, 카에타누"
  IBR_death_of_salazar_franco:0 "외로운 카우디요"
  IBR_the_iberian_congress:0 "평의회의 운명"
@@ -209,7 +315,6 @@
  IBR_politics_despotist_union:0 "전제적 이베리아"
  IBR_politics_despotist_union_oil:0 "석유 파동"
  IBR_letting_go_tree:0 "이베리아의 이혼"
- IBR_politics_carnation_revolution:0 "카네이션 혁명"
  
  IBREmpoweredMinoritiesCouncil:0 "소수민족 권리 부여"
  IBRDisrespectedMinoritiesCouncil:0 "소수민족 권리 박탈"
@@ -816,9 +921,9 @@ IBR_new_mines_tt:0 "We will §Ggain§! 30 £aluminium_texticon aluminium.\nWe wi
 
 IBR_national_infrastrcture_plan:0 "National Infrastructure Plan"
 IBR_national_infrastrcture_plan_desc:0 "The Iberian Union is considerably well connected in terms of transportation, at least concerning the fact that the Union is an odd fusion of two nations fused through little beyond circumstance and determination. In fact, the infrastructure is above average, rivaled only by Germany's Autobahn. Even still, we find ourselves capable of further uniting the nation.\n\nNot only will a closely connected nation decrease commuting costs for products, but laboring to improve upon the infrastructure will also open up countless jobs to Iberians, decreasing unemployment. The National Infrastructure Plan will do much more than build new train stations, airports, naval ports, and roads, it will also bring the Iberian Union closer together, in far more ways than one."
-IBR_national_infrastrcture_plan_tt:0 "Every §YEuropean state§! with an §Yairport§! §Gwill receive another one§!.\nEvery §YEuropean state without an airport and more than 700000 people §Gwill receive one§!.\nEvery §YEuropean state§! with less than 5 infrastructure §Gwill get one more§!.\nEvery §YEuropean state§! with a §Yport§! §Gwill receive another one§!."
+IBR_national_infrastrcture_plan_tt:0 "Every §YEuropean state§! with an §Yairport§! §Gwill receive another one§!.\nEvery §YEuropean state without an airport and more than 700000 people §Gwill receive one§!.\nEvery §YEuropean state§! with less than 5 infrastructure §Gwill get one more§!.\nEvery §YEuropean state§! with a §Yport§! §Gwill receive another one§!. Multiple new §Yrailway lines§! shall be constructed on the mainland."
 
-IBR_expand_heavy_industry:0 "Expand Heavy Industry"
+IBR_expand_heavy_industry:0 "중공업 확장"
 IBR_expand_heavy_industry_desc:0 "One of the great resources within Iberia has always been iron deposits. Even today, iron has been a massive contributor to the Iberian war machine and international market. Of course, we can also melt and cast this useful material into countless products which can be sold abroad. While even now we greatly benefit from this resource, we can always improve our margins, and further exploit these profits.\n\nWhile there is a considerable amount of blast furnaces and other metallurgy across the Union, we will build several new establishments to further exploit this natural resource, as well as provide the Union with a stronger revenue stream. All it will take to make the most of these resources is some legwork, and we will find ourselves rich in iron beyond our wildest dreams."
 IBR_expand_heavy_industry_tt:0 "We will §Ggain§! 2 £tt_prod_unit production units."
 
@@ -2802,9 +2907,7 @@ IBR_dam_15_millions:0 "§Y1500만 달러 $§!"
  
  stability_regional_decision:0 "소수민족 지역정부에 제한을 가하자"
  stability_regional_decision_tt:0 "이러한 중요한 시기에는 지방정부의 특혜 따위는 언제든지 취소될 수 있습니다.\n"
- 
- IBR_pp_decisions_blocked:0 "현재 진행중인 조치가 있습니다!"
- 
+  
  #taking all gives stability or something? idkk
  
  #Terrorism Decisions
@@ -2945,7 +3048,7 @@ IBR_dam_15_millions:0 "§Y1500만 달러 $§!"
  legislature_council:0 "입법 평의회 구성"
  IBR_in_crisis:0 "위기로 치닫는 이베리아"
  
- Iberian_Wars:0 "§Y이베리아§!가 §R내전§!에 빠져듭니다."
+ Iberian_Wars_tt:0 "§Y이베리아§!가 §R내전§!에 빠져듭니다."
  
  IBR_economic_tree_paths:0 "경제부문 조언이 받아들여짐"
  IBR_congress_debate_over:0 "최종 논쟁이 끝남"
