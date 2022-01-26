@@ -19,7 +19,7 @@ SGR_siemens_expository_text:0 "§W에른스트 폰 지멘스§!는 그의 동료
 
 #Frontscreen Metrics
 
-SGR_GDP_entry_1:0 "졸페어라인 GDP:  §W$§![?reich_GDP|2|W]§WB§! | [?zollvereinGDP_growth|%W2]"
+SGR_GDP_entry_1:0 "졸페어라인 GDP: §W$§![?reich_GDP|2|W]§WB§! | [?zollvereinGDP_growth|%W2]"
 SGR_slave_entry_scripted_loc:0 "[getSGRSlaveryStatus]"
 SGR_slave_entry_1:0 "노예: [?Reich_SlavesNum_m|3|R] §R백만 명§!"
 SGR_slavery_abolished_entry:0 "§G노예제 폐지§!"
@@ -60,6 +60,12 @@ SGR_ZV_introduce_rationing_desc:0 "쉬우나 사회에게는 고통스러운 일
 
 SGR_ZV_fight_systematic_issues:0 "§Y시스템의 문제와의 싸움§!"
 SGR_ZV_fight_systematic_issues_desc:0 "석유 파동을 유발했던 지정학적인 사건들과 상관없이, 우리나라에 이러한 상황이 닥칠 수 있게 한 사실 자체가 경제 개혁의 필요성을 보여줍니다. 뒤늦은 깨달음은 항상 정확합니다."
+
+# Projects
+
+SGR_RSFSTP_Extend_Railway:0 "Extend the §gReichsschnellfahrstreckenprogramm§!"
+SGR_RSFSTP_Extend_Railway_desc:0 "The Reichsschnellfahrstreckenprogramm has progressed far enough for us to cut costs and increase efficiency of our construction of railway lines. Now that a direct line of high-speed rail exists from Prag to Germania, an opportunity has presented itself.\n\nKrakau, a city with a decent existing rail infrastructure and great opportunities for expansion, now lie as a viable target of expansion. Should we extend the line, we will greatly boost the connection of Poland to the Reich."
+SGR_RSFSTP_Krakau_Trigger:0 "§WHas §Gcompleted§! the §YPrag-Germania§! line.\n    Has §Rnot§! completed the §!§gReichsschnellfahrstreckenprogramm§!."
 
 # Standards #
 
@@ -456,34 +462,51 @@ SGR_bessarabia_pw:0 "[?SGR_WWS_Megacorps_Power^26|%]"
 
 SGR_RSFSTP_title:0 "§gREICHSSCHNELLFAHRSTRECKENPROGRAMM§!"
 SGR_RSFSTP_title_tt:0 "Following the infrastructural §Rcollapse§! of §gGermany§! during the §xGerman Civil War§!, alongside its overall §Rdecay§!, the government has initiated a project to begin building §Bhigh speed railway§! along the §gEinheitspakt§!.\n\nThese are expected to reap §Glarge§! economical rewards, §Yconnecting§! major cities and §Gdrastically§! shortening travel times for skilled workers.\n\nIt will also provide a §Gbenefit§! to the transportation of civilians, repatriated slaves, and goods. The project is §Rtime-consuming and expensive§!, but for the good of §gGermany§!, no expense is too much."
-SGR_RSFSTP_bottom_text:0 "The §WReichsschnellfahrstreckenprogramm§! is [?SGR_RSFSTP_progress|G1]% complete."
-SGR_RSFSTP_PU:0 "[?SGR_RSFSTP_PUs|G0] £GFX_tt_prod_unit_big"
+SGR_RSFSTP_bottom_text:0 "The §WReichsschnellfahrstreckenprogramm§! is [?SGR_Project_Progress^RSFSTP|G1]% complete."
+SGR_RSFSTP_notification_text_tt:0 "Click on the states for further interactions"
+SGR_RSFSTP_PU:0 "[?SGR_Project_PU_Investment^RSFSTP|G0] £GFX_tt_prod_unit_big"
 SGR_RSFSTP_add_tt:0 "Allocate §G+2§!£tt_prod_unit to the §gReichsschnellfahrstreckenprogramm§!, increasing monthly construction speed by §G0.2%§!, cost by §R+125M USD§!, and §R-0.05§! daily political power.\n--------------\n§TIt costs§! £political_power_texticon §Y20§! §Tto make this change.§!"
 SGR_RSFSTP_sub_tt:0 "Allocate §R-2§!£tt_prod_unit to the §gReichsschnellfahrstreckenprogramm§!, decreasing monthly construction speed by §R-0.2%§!, cost by §G-125M USD§!, and §G0.05§! daily political power.\n--------------\n§TIt costs§! £political_power_texticon §Y20§! §Tto make this change.§!"
 SGR_RSFSTP_add_locked:0 "We have allocted the maximum possible resources to this project."
 SGR_RSFSTP_sub_locked:0 "We have allocted the fewest possible resources to this project."
 SGR_RSFSTP_OC_tt:0 "The ability to modify our investment is §Rlocked§! due to the current §Rglobal economic meltdown§!."
-
 SGR_RSFSTP_add:0 "[getSGRRSFSTPIncrease]"
 SGR_RSFSTP_sub:0 "[getSGRRSFSTPDecrease]"
 
-SGR_RSFSTP_investment_count_tt:0 "This level of resource allocation for the §gReichsschnellfahrstreckenprogramm§! §Fcurrently affects:\n - Monthly Progress: §G+[?SGR_RSFSTP_progress_monthly|2]%§!\n - Daily Political Power Gain: [?SGR_RSFSTP_political_power_gain|=+]\n - Miscellaneous Costs: §Y[?SGR_RSFSTP_cost|2]B USD§!§!"
+SGR_RSFSTP_investment_count_tt:0 "This level of resource allocation for the §gReichsschnellfahrstreckenprogramm§! §Fcurrently affects:\n - Monthly Progress: §G+[?SGR_Project_Progress_Monthly^RSFSTP|2]%§!\n - Daily Political Power Gain: [?SGR_Project_PP_Cost^RSFSTP|=+]\n - Miscellaneous Costs: §Y[?SGR_Project_Actual_Cost^RSFSTP|2]B USD§!§!\n - Original Miscellaneous Costs: §Y[?SGR_Project_Cost_Temp^RSFSTP|2]B USD§!, which is multiplied by:\n  - Our administrative efficiency ("§Y[GetSocietyDevelopment_AdminEfficiency]§!"): [?SGR_project_cost_mult_disp|Y%]\n  - Our bureaucracy funding (§Y[?econ_admin_bureaucracy_slider_pct]%§!): §Y-[?SGR_Project_Bureaucracy_Display^RSFSTP|2%]§! from [?SGR_project_cost_mult_disp|Y%]\n[getSGRRSFSTPMult]"
 GER_SGR_RSFSTP_dynamic_modifier:0 "Reichsschnellfahrstreckenprogramm"
 SGR_RSFSTP_modifier:0 "Reichsschnellfahrstreckenprogramm"
 GER_SGR_RSFSTP_Dummy:0 "Reichsschnellfahrstreckenprogramm"
-GER_SGR_RSFSTP_Dummy_desc:0 "§FDaily Political Power Gain: [?SGR_RSFSTP_political_power_gain|=+]\nProduction Units Cost: [?SGR_RSFSTP_PU_Cost|+=0] £tt_prod_unit.\nMiscellaneous Costs: §Y[?SGR_RSFSTP_cost|2]B USD§!§!\n§g--------------§!\nA massive infrastructure project approved by the Führer and his Gang, it involves the construction of high-speed railways across the entirety of Germany, offering several economic benefits. Upon its completion, the project will allow for goods to be transported much quicker across Germany, and in much higher quantities. This will also have the side-benefit of improving the repatriation of slaves, as these trains can be used to transport them to the borders of Germany."
 SGR_RSFSTP_add_debug:0 "§WAdd 10% progress to RSFSTP§!."
+SGR_RSFSTP_mult_OC:0 "  - Oil Crisis: §R250%§! onto §YOriginal Miscellaneous Costs§!"
+
+#project names
+
+SGR_project_name_RSFSTP:0 "§gReichsschnellfahrstreckenprogramm§!"
+SGR_project_name_RUSSIAN_WALL:0 "§ORusslandwall§!"
+
+SGR_project_colour_green:0 "§Gin"
+SGR_project_colour_red:0 "§Rde"
+SGR_project_colour_green_no_text:0 "§G"
+SGR_project_colour_red_no_text:0 "§R"
 
 GER_SGR_RSFSTP_begin_tt:0 "§WThe §gReichsschnellfahrstreckenprogramm§! will §Ybegin§! its construction.\n\nEach month, more §Rslaves§! will be repatriated and §Gskilled workforce§! growth will increase with the construction of the §gReichsschnellfahrstreckenprogramm§!.§!"
-GER_SGR_RSFSTP_abs_tt:0 "§WEnlisting the help of IG Farben and Deutsche Bank into §gReichsschnellfahrstreckenprogramm§! will force us to make some concessions.§!"
+GER_SGR_RSFSTP_abs_tt:0 "§WEnlisting the help of IG Farben and Deutsche Bank into §gReichsschnellfahrstreckenprogramm§! will force us to make some concessions.§!\n"
 GER_SGR_RSFSTP_halt_tt:0 "§WThe construction of the §gReichsschnellfahrstreckenprogramm§! will §Rhalt§!, and the cost of maintaining existing infrastructure will increase by §R250%§!.\nThe ability to change our §Yinvestment§! into the §gReichsschnellfahrstreckenprogramm§! will be §Rlocked§!.§!"
 GER_SGR_RSFSTP_liberate_tt:0 "§WThe progress of the §gReichsschnellfahrstreckenprogramm§!'s construction will §Rdecrease§! by §R5%§!.\n§R25,000§! §Rslaves§! has been §Gliberated§! in regions where construction was happening.§!"
+SGR_RSFSTP_krakau_unlock_tt:0 "\n§WWill §Yunlock§! the option to §Gextend§! the §gReichsschnellfahrstreckenprogramm§! to §YKrakau§!.§!"
 
-SGR_RSFSTP_modifer_impact_tt:0 "§WEach province covered by the §gReichsschnellfahrstreckenprogramm§! will gain an §Gincrease§! in §Ydivision speed§!, §Yorganization regain§!, §Ostate GDP growth§! and §Yinfrastructure level§!.§!"
-SGR_RSFSTP_monthly_add_tt:0 "§WThe monthly progress of the §gReichsschnellfahrstreckenprogramm§! will be §Gincreased§! by §G[?RSFSTP_monthly_temp?0.1|=2]%§!, bringing it to §Y[?SGR_RSFSTP_progress_monthly_temp|2]%§!."
-SGR_RSFSTP_monthly_sub_tt:0 "§WThe monthly progress of the §gReichsschnellfahrstreckenprogramm§! will be §Rdecreased§! by §R[?RSFSTP_monthly_temp?0.1|=2]%§!, bringing it to §Y[?SGR_RSFSTP_progress_monthly_temp|2]%§!."
+SGR_RSFSTP_modifer_impact_tt:0 "§WEach province covered by the §gReichsschnellfahrstreckenprogramm§! will gain an §Gincrease§! in §Yrailway level§!, §Ostate GDP growth§! and §Yinfrastructure level§!.§!"
+
+SGR_project_monthly_change_tt:0 "§WThe monthly progress of the [GetSGRProjectName] will [GetSGRProjectColour]crease§! by [GetSGRProjectColourNoText][?SGR_Amount_Change_Mod_temp?0.1|=2]%§!, bringing it to §Y[?SGR_Amount_Change_Mod_temp_tt|2]%§!."
+
 SGR_RSFSTP_repatriation_add_tt:0 "§WThe amount of slaves repatriated by the §gReichsschnellfahrstreckenprogramm§! monthly will be §Gincreased§! by §G[?RSFSTP_slave_repatriation_temp?0.1|=0]§!, bringing it to §Y[?SGR_RSFSTP_slave_repatriation_temp|0]§!."
 SGR_RSFSTP_repatriation_sub_tt:0 "§WThe amount of slaves repatriated by the §gReichsschnellfahrstreckenprogramm§! monthly will be §Rdecreased§! by §R[?RSFSTP_slave_repatriation_temp?0.1|=0]§!, bringing it to §Y[?SGR_RSFSTP_slave_repatriation_temp|0]§!."
 
 SGR_RSFSTP_workforce_add_tt:0 "§WThe skilled workforce growth provided by the §gReichsschnellfahrstreckenprogramm§! will increase by §G[?RSFSTP_workforce_temp]§!!§!"
 SGR_RSFSTP_workforce_sub_tt:0 "§WThe skilled workforce growth provided by the §gReichsschnellfahrstreckenprogramm§! will decrease by §R[?RSFSTP_workforce_temp]§!!§!"
+
+# Russian Wall
+
+SGR_russian_wall_bottom_text:0 "The §ORusslandwall§! is [?SGR_Project_Progress^RUSSIAN_WALL|G1]% complete."
+GER_SGR_russian_wall_dynamic_modifier:0 "Russlandwall"
