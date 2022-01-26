@@ -9,11 +9,11 @@
 # |=========================| Localization |=========================| #
  
 l_english:
- TNO_Nuke_GUI_OpenButton_tt: "Open the Strategic Arsenal GUI"
+ TNO_Nuke_GUI_OpenButton_tt: "전략 핵무기 GUI 열기"
  TNO_Nuke_GUI_Display_Stockpile_tt: "Nuclear Stockpile:\n§W[?nuclear_stockpile] Warheads§!"
  TNO_Nuke_GUI_Display_StockpileChange_tt: "[GetNuclearProductionStatus]\n[GetNuclearProductionQtd]"
- TNO_Nuke_GUI_Display_StockpileChange_Prod_tt: "Monthly Production:"
- TNO_Nuke_GUI_Display_StockpileChange_Decomm_tt: "Monthly Decommission:"
+ TNO_Nuke_GUI_Display_StockpileChange_Prod_tt: "월간 생산량:"
+ TNO_Nuke_GUI_Display_StockpileChange_Decomm_tt: "월간 해체량:"
  TNO_Nuke_GUI_Display_StockpileChange_pdx_tt: "Active Enrichment Plants: [?num_of_reactors|0Y]"
  TNO_Nuke_GUI_Display_StrikeCapability_tt: "Strike Capability: §W[?nuclear_strike_capability|%0]§!"
  TNO_Nuke_GUI_Display_StrikeCapability_pdx_tt: "MISSILE SILOS:\n[?num_of_silos|0Y]\nNUCLEAR SUBMARINES:\n[?num_ships_with_type@submarine|0Y]\nSTRATEGIC BOMBERS:\n[?num_deployed_planes_with_type@strat_bomber_equipment|0Y]\nSTEALTH-STRATEGIC BOMBERS:\n[?num_deployed_planes_with_type@strat_stealth_equipment|0Y]"
@@ -37,8 +37,8 @@ l_english:
  TNO_Nuke_GUI_DecommissionDisplay_Deactivate_tt: "§RDeactivate§!"
  TNO_Nuke_GUI_DecommissionDisplay_Deactivate_pdx_tt: "Switch back to the normal warhead production."
 
- Cold_War_GUI_Nuke_Confirmation_Tooltip_YesButton_tt: "§GCONFIRM§!"
- Cold_War_GUI_Nuke_Confirmation_Tooltip_NoButton_tt: "§RCANCEL§!"
+ Cold_War_GUI_Nuke_Confirmation_Tooltip_YesButton_tt: "§G승인§!"
+ Cold_War_GUI_Nuke_Confirmation_Tooltip_NoButton_tt: "§R취소§!"
 
  nuclear_stockpile_qtd: "[?nuclear_stockpile|0]"
  nuclear_stockpile_qtd_thousand: "[?nuclear_stockpile_k|1]K"
