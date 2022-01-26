@@ -7,6 +7,8 @@
  CIVIL_WAR_NAME:0 "$ORDER$$SECOND$ 내전"
  WAR_TAKE_CORE_NAME:0 "$ORDER$$FIRST$ $STATE$ 재수복 전쟁"
  WAR_TAKE_CLAIM_NAME:0 "$ORDER$$FIRST$ $STATE$ 침공"
+ INDEPENDENCE_WAR_NAME:0 "$ORDER$$FIRST$ 독립 전쟁"
+ create_puppet_wargoal_usa:0 "§HPuppet (Focus)§! wargoal gained by §Y[ROOT.GetNameDef]§!"
  
  ### Russian Wars ###
  WAR_NAME_IRK_BRY:0 "부랴트 반란"
@@ -163,7 +165,6 @@
  ### England ###
  CIVIL_WAR_NAME_ENG_FEN:0 "잉글랜드 내전"
  CIVIL_WAR_NAME_FEN_ENG:0 "잉글랜드 내전"
- WAR_NAME_FEN_CRN:0 "잉글랜드 내전: 콘월 분쟁"
  WAR_NAME_CRN_FEN:0 "잉글랜드 내전: 콘월 분쟁"
  WAR_NAME_ENG_CRN:0 "콘월 수복"
  WAR_NAME_CRN_ENG:0 "콘월 수복"
@@ -237,7 +238,6 @@
  
  WAR_NAME_CAO_HAU:0 "소코토 내전"
  WAR_NAME_SWB_HAU:0 "소코토 내전"
- WAR_NAME_HAU_SWB:0 "소코토 내전"
  WAR_NAME_HAU_SWB:0 "소코토 내전"
 
  WAR_NAME_EWE_CPP:0 "가나 내전"
