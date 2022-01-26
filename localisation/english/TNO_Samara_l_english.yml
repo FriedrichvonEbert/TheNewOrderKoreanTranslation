@@ -162,35 +162,70 @@
  SAM_zykov_democrats_dominant: "§MDemocrats Dominant§!"
  SAM_zykov_democrats_dominant_desc: "Against all odds, Zykov's faction of democrats has become dominant within the ROA. Backed by young officers as well as civilian leaders, Miletiy Zykov looks to be the likeliest successor to Vlasov. All speculate on the enigmatic propagandist's true intentions, but his actions have so far been coherent with his claimed hopes of liberalization and democratization."
  
+ ### Character loc ###
+ # Leaders
+ SAM_Andrey_Vlasov: "Andrey Vlasov"
+ SAM_Sergey_Bunyachenko: "Sergei Bunyachenko"
+ SAM_Miletiy_Zykov: "Miletiy Zykov"
+ SAM_Mikhail_Oktan: "Mikhail Oktan"
+ SAM_Disorganized_Cliques: "Disorganized Cliques"
+ SAM_Nikolay_Rumyantsev: "Nikolay Rumyantsev"
+ SAM_Viktor_Polyakov: "Viktor Polyakov"
+
+ # Generals
+ SAM_Konstantin_Kromiadi: "Konstantin Kromiadi"
+ SAM_Nikolay_Tarasov: "Nikolay Tarasov"
+ SAM_Viktor_Maltsev: "Viktor Maltsev"
+ SAM_Vasily_Malyshkin: "Vasily Malyshkin"
+ SAM_Pavel_Butkov: "Pavel Butkov"
+ SAM_Alexander_Scheglov: "Alexander Scheglov"
  
  ### Leader Traits ###
  marshall_and_chairman: "장군과 의장"
 
  ### Ministers ###
- SAM_Sergey_Bunyachenko_hog: "세르게이 부냐첸코"
- SAM_Miletiy_Zykov_hog: "밀레티 지코프"
- SAM_Viktor_Maltsev_hog: "빅토르 말체프"
- SAM_Konstantin_Kromiadi_sec: "콘스탄틴 크로미아디"
- SAM_Mikhail_Oktan_hog: "미하일 옥탄"
- SAM_Mikhail_Meandrov_hog: "미하일 메안드로프"
- SAM_Dmitry_Zakutnyy_eco: "드미트리 자쿠트니"
- SAM_Vladimir_Artsezo_for: "블라디미르 아르체조"
- SAM_Fyodor_Trukhin_sec: "Fyodor Trukhin"
- 
- #Post-Onega Collapse
- SAM_Vitaly_Vorotnikov_hog: "비탈리 보로트니코프"
- SAM_Leonid_Yefremov_for: "레오니드 예프레모프"
- SAM_Alexey_Rosovsky_eco: "알렉세이 로솝스키"
- SAM_Grigory_Shambarov_sec: "그리고리 샴바로프"
- SAM_Nikolay_Troitsky_hog: "니콜라이 트로이츠키"
- SAM_Georgy_Zhilenikov_hog: "게오르기 질레니코프"
- SAM_Vladimir_Samarin_hog: "블라디미르 사마린"
- SAM_Leonid_Samutin_eco: "레오니드 사무틴"
- SAM_Mikhail_Lukin_eco: "미하일 부킨"
- SAM_Fyodor_Bogatyrchuk_for: "표도르 보가티르추크"
- SAM_Nikolay_Sokolovsky_for: "니콜라이 소콜롭스키"
- SAM_Vladimir_Bayersky_sec: "블라디미르 바예르스키"
- SAM_Alexander_Albov_sec: "알렉산드르 알보프"
+ # Vlasov Cabinet
+ SAM_Mikhail_Meandrov: "Mikhail Meandrov"
+ SAM_Mikhail_Meandrov_hog_desc: "§Y$head_of_government$\n$despotism_military_junta_subtype$§!"
+ SAM_Miletiy_Zykov_hog_desc: "§Y$head_of_government$\n$authoritarian_democracy_controlled_democracy_subtype$§!"
+ SAM_Sergey_Bunyachenko_hog_desc: "§Y$head_of_government$\n$despotism_civilian_dictatorship_subtype$§!"
+ SAM_Mikhail_Oktan_hog_desc: "§Y$head_of_government$\n$fascism_corporate_statism_subtype$§!"
+ SAM_Vladimir_Artsezo: "Vladimir Artsezo"
+ SAM_Vladimir_Artsezo_for_desc: "§YForeign Minister\n$fascism_corporate_statism_subtype$§!"
+ SAM_Dmitry_Zakutnyy: "Dmitry Zakutnyy"
+ SAM_Dmitry_Zakutnyy_eco_desc: "§YEconomic Minister\n$despotism_civilian_dictatorship_subtype$§!"
+ SAM_Fyodor_Trukhin: "Fyodor Trukhin"
+ SAM_Fyodor_Trukhin_sec_desc: "§YSecurity Minister\n$despotism_military_junta_subtype$§!"
+ # Zykov Cabinet
+ SAM_Nikolay_Troitsky: "Nikolay Troitsky"
+ SAM_Nikolay_Troitsky_hog_desc: "§Y$head_of_government$\n$authoritarian_democracy_controlled_democracy_subtype$§!"
+ SAM_Fyodor_Bogatyrchuk: "Fyodor Bogatyrchuk"
+ SAM_Fyodor_Bogatyrchuk_for_desc: "§YForeign Minister\n$authoritarian_democracy_controlled_democracy_subtype$§!"
+ SAM_Leonid_Samutin: "Leonid Samutin"
+ SAM_Leonid_Samutin_eco_desc: "§YEconomic Minister\n$authoritarian_democracy_controlled_democracy_subtype$§!"
+ SAM_Vladimir_Bayersky: "Vladimir Bayersky"
+ SAM_Vladimir_Bayersky_sec_desc: "§YSecurity Minister\n$authoritarian_democracy_controlled_democracy_subtype$§!"
+ # Bunyachenko Cabinet
+ SAM_Georgy_Zhilenikov: "Georgy Zhilenkov"
+ SAM_Georgy_Zhilenikov_hog_desc: "§Y$head_of_government$\n$despotism_civilian_dictatorship_subtype$§!"
+ SAM_Nikolay_Sokolovsky: "Nikolay Sokolovsky"
+ SAM_Nikolay_Sokolovsky_for_desc: "§YForeign Minister\n$despotism_civilian_dictatorship_subtype$§!"
+ # Oktan Cabinet
+ SAM_Vladimir_Samarin: "Vladimir Samarin"
+ SAM_Vladimir_Samarin_hog_desc: "§Y$head_of_government$\n$fascism_corporate_statism_subtype$§!"
+ SAM_Evgeny_Sadovsky: "Evgeny Sadovsky"
+ SAM_Evgeny_Sadovsky_eco_desc: "§YEconomic Minister\n$fascism_corporate_statism_subtype$§!"
+ SAM_Alexander_Albov: "Alexander Albov"
+ SAM_Alexander_Albov_sec_desc: "§YSecurity Minister\n$fascism_corporate_statism_subtype$§!"
+ # Polyakov Cabinet
+ SAM_Vitaly_Vorotnikov: "Vitaly Vorotnikov"
+ SAM_Vitaly_Vorotnikov_hog_desc: "§Y$head_of_government$\n$social_democracy_left_wing_populism_subtype$§!"
+ SAM_Leonid_Yefremov: "Leonid Yefremov"
+ SAM_Leonid_Yefremov_for_desc: "§YForeign Minister\n$social_democracy_left_wing_populism_subtype$§!"
+ SAM_Alexey_Rosovsky: "Alexey Rosovsky"
+ SAM_Alexey_Rosovsky_eco_desc: "§YEconomic Minister\n$social_democracy_left_wing_populism_subtype$§!"
+ SAM_Grigory_Shambarov: "Grigory Shambarov"
+ SAM_Grigory_Shambarov_sec_desc: "§YSecurity Minister\n$social_democracy_left_wing_populism_subtype$§!"
  
  ### Flags ###
  SAM_Zykov: "§g지코프§!가 권력 투쟁에서 승리하였습니다."
@@ -214,20 +249,20 @@
  SAM_received_foreign_support_tt: "We will receive §Y$100 million USD§! for our monetary reserves.\n"
  SAM_ROA_Ready: "§YThe situation has been stabilized§!."
  SAM_no_smuggling: "Has ended smuggling operations."
- SAM_no_smuggling_tt: "We will §Yend§! our §Rsmuggling operations§!."
- SAM_Oktan_web_tt: "§jOktan§! must ensure that the §Yweb of tensions§! of our regime do not §Rensnare him§!."\
- SAM_Oktan_tt: "§jOktan§! shall be proclaimed §WVlasov's§! heir.\n\nTo ensure a §Gpeaceful transition of power§!, §acivilian§! and §Omilitary§! morale must be above §Rlow§! and the ROA must be §Gloyal§! when we unite §QWest Russia§!."
- SAM_Bunya_tt: "§TBunyachenko§! shall be proclaimed §WVlasov's§! heir.\n\nTo ensure a §Gpeaceful transition of power§!, §acivilian§! morale must be above §Rlow§!, §Vcorruption§! must be lower than §Ymedium§!, and the ROA must be §Gloyal§! when we unite §QWest Russia§!."
- SAM_Zykov_tt: "§gZykov§! shall be proclaimed §WVlasov's§! heir.\n\nTo ensure a §Gpeaceful transition of power§!, §Omilitary§! morale must be above §Rlow§!, §Vcorruption§! must be lower than §Ymedium§!, and the ROA must be §Gloyal§! when we unite §QWest Russia§!."
- SAM_mechanics_cleanup_tt: "§YWith the political situation stabilizing, the §WROA§!'s loyalty is secure and our officers are numerous, thus disabling the §WROA Officer Shortage Mechanic§!.§!"
+ SAM_no_smuggling_tt: "We will §Yend§! our §Rsmuggling operations§!.\n"
+ SAM_Oktan_web_tt: "§jOktan§! must ensure that the §Yweb of tensions§! of our regime do not §Rensnare him§!.\n"
+ SAM_Oktan_tt: "§jOktan§! shall be proclaimed §WVlasov's§! heir.\n\nTo ensure a §Gpeaceful transition of power§!, §acivilian§! and §Omilitary§! morale must be above §Rlow§! and the ROA must be §Gloyal§! when we unite §QWest Russia§!.\n"
+ SAM_Bunya_tt: "§TBunyachenko§! shall be proclaimed §WVlasov's§! heir.\n\nTo ensure a §Gpeaceful transition of power§!, §acivilian§! morale must be above §Rlow§!, §Vcorruption§! must be lower than §Ymedium§!, and the ROA must be §Gloyal§! when we unite §QWest Russia§!.\n"
+ SAM_Zykov_tt: "§gZykov§! shall be proclaimed §WVlasov's§! heir.\n\nTo ensure a §Gpeaceful transition of power§!, §Omilitary§! morale must be above §Rlow§!, §Vcorruption§! must be lower than §Ymedium§!, and the ROA must be §Gloyal§! when we unite §QWest Russia§!.\n"
+ SAM_mechanics_cleanup_tt: "§YWith the political situation stabilizing, the §WROA§!'s loyalty is secure and our officers are numerous, thus disabling the §WROA Officer Shortage Mechanic§!.§!\n"
  
- SAM_roa_influence_tt: "The §jROA§! has §Y35§! or more §Ginfluence§!."
- SAM_civ_influence_tt: "The §MDemocrats§! has §Y35§! or more §Ginfluence§!."
- SAM_bus_influence_tt: "The §TBusinesses§! has §Y35§! or more §Ginfluence§!."
+ SAM_roa_influence_tt: "The §jROA§! has §Y35§! or more §Ginfluence§!.\n"
+ SAM_civ_influence_tt: "The §MDemocrats§! has §Y35§! or more §Ginfluence§!.\n"
+ SAM_bus_influence_tt: "The §TBusinesses§! has §Y35§! or more §Ginfluence§!.\n"
  
- SAM_roa_influence_high_tt: "The §jROA§! has §Y40§! or more §Ginfluence§!."
- SAM_civ_influence_high_tt: "The §MDemocrats§! has §Y40§! or more §Ginfluence§!."
- SAM_bus_influence_high_tt: "The §TBusinesses§! has §Y40§! or more §Ginfluence§!."
+ SAM_roa_influence_high_tt: "The §jROA§! has §Y40§! or more §Ginfluence§!.\n"
+ SAM_civ_influence_high_tt: "The §MDemocrats§! has §Y40§! or more §Ginfluence§!.\n"
+ SAM_bus_influence_high_tt: "The §TBusinesses§! has §Y40§! or more §Ginfluence§!.\n"
  
  ### Decisions ###
  SAM_debug_category: "Samara Debug Category"
@@ -756,7 +791,7 @@
  SAM_German_Arms_desc: "독일인들의 덕으로, 수송품들은 재빠르게 도착했고, 양도 상당했습니다. 그러나 독일의 지원은 물품의 빠른 배달과 많은 양, 딱 그것뿐입니다.\n\n병사들은 며칠간을 2차 대전기 Kar98k 소총과 7.92x57mm 마우저 탄약이 든 상자들을 하차하고 또 하차하며 보냈습니다. 독일인들은 낡은 무기와 탄약, 그리고 퀴퀴한 전투식량들을 한껏 보내왔습니다. 낙관론자들은 그것들이 서러시아 전쟁 때의 것이며, 아직 먹을 수 있다고 주장합니다. 비관론자들은 그것들이 2차 세계대전에서 남은 것들이라고 주장합니다.\n\n옥탄과 그 지지자들은 신경쓰지 않는 것으로 보입니다. 음식은 음식이고, 무기는 무기입니다. 군대가 이기느냐 죽느냐는 규율과 리더쉽으로 판가름나는 문제이고, KONR은 둘 다 넘쳐납니다...  현재 장교진의 칭얼거리는 부정적 태도만 아니라면 말입니다. 공산주의자 폭도들, 병신 민주주의자들과 알코올에 찌든 도적떼를 치우는 데에 총검 이상의 것을 요구해서는 안 됩니다."
 
  SAM_Moskowien_Contacts: "모스코비엔과의 접촉"
- SAM_Moskowien_Contacts_desc: "라이히로부터 온 물자들은 그 진가를 증명할 것입니다. 그렇지만 어쩌면 아직 독일의 도움을 통해 얻을 수 있는 것이 더 있을 지도 모릅니다. 당연하게도, 독일 정부는 바쁘기 십상이고, 그렇기에 우리는 다른 독일계 친구들과 이야기해 보는 것이 좋겠습니다.\n\n국경 너머에는 AA선 이서 러시아를 담당하기 위해 만들어진 독일 행정부, 모스코비엔 국가판무관부가 존재합니다. 개척자들, 주둔군과 러시아인 이등 시민들로 구성된 그 궁핍한 국민들은 국경 너머에 도사리는 군벌들과 도적들의 그림자 아래 살아가기를 시도합니다. 지난 몇 년 동안, 옥탄과 같은 KONR의 일원들은 모스코비엔의 시민군과 군 사령관과 연락을 주고받았습니다. 사마라의 정부를 돕고 지원하는 대가로, KONR은 이쪽이 담당한 국경을 감독하는 데에 최선을 다해 왔습니다. 독일의 폭격 원정이 끝맺어질 지도 모르는 지금, 국경 너머의 협력자들과 연락해, 우리의 국경을 건너 볼셰비키 무정부주의자들과 도적들이 떼를 지어 몰려들지 않도록 더 많은 물자를 달라고 요청하는 것이 어떻겠습니까?"
+ SAM_Moskowien_Contacts_desc: "라이히로부터 온 물자들은 그 진가를 증명할 것입니다. 그렇지만 어쩌면 아직 독일의 도움을 통해 얻을 수 있는 것이 더 있을 지도 모릅니다. 당연하게도, 독일 정부는 바쁘기 십상이고, 그렇기에 우리는 다른 독일계 친구들과 이야기해 보는 것이 좋겠습니다.\n\n국경 너머에는 AA선 이서 러시아를 담당하기 위해 만들어진 독일 행정부, 모스코비엔 국가판무관부가 존재합니다. 개척자들, 주둔군과 러시아인 이등 시민들로 구성된 그 궁핍한 국민들은 국경 너머에 도사리는 군벌들과 도적들의 그림자 아래 살아가기를 시도합니다. 지난 몇 년 동안, 옥탄과 같은 KONR의 일원들은 모스코비엔의 시민군과 군 사령관과 연락을 주고받았습니다. 사마라의 정부를 돕고 지원하는 대가로, KONR은 이쪽이 담당한 국경을 감독하는 데에 최선을 다해 왔습니다. 독일의 폭격 원정이 끝맺어질 지도 모르는 지금, 국경 너머의 협력자들과 연락해, 우리의 국경을 건너 볼셰비키, 무정부주의자들과 도적들이 떼를 지어 몰려들지 않도록 더 많은 물자를 달라고 요청하는 것이 어떻겠습니까?"
 
  SAM_Dealing_with_Dissent: "반발에 대한 대처"
  SAM_Dealing_with_Dissent_desc: "블라소프와 KONR의 지도부는 우리 국가해방군이 우리가 이미 "해방"한 우리 "국가"의 구성원들 사이에서도 인기가 바닥을 친다는 사실을 놓치지 않았습니다.\n\n우리가 악화시켰을 수도, 그러지 않았을 수도 있는 당장의 조세 문제를 무시하더라도, 사마라의 민중은 우리를 외지인들의 앞잡이라고 경멸합니다. 많은 시민들, 특히 좌편향된 이들은 우리를 서러혁전의 실패에 기여한, 부끄러울 줄도 모르는 반역자들로 보고 있습니다.\n\n최고의 해결책이 무엇인지에 대한 장교진의 의견은 평소처럼 여러 제안으로 나뉘어 있습니다. 그렇기에 참모 회의를 다시 한 번 소집해 이 문제에 대해 이야기를 나누고, 민중의 선의를 확보하거나... 아니라면 최소한 불만을 잠재우기라도 할 하나의 전략을 확고히 하는 것이 최선의 선택일 것입니다."
