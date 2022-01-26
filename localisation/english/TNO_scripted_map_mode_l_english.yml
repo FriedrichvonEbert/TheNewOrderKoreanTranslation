@@ -1,0 +1,44 @@
+﻿l_english:
+ # Econ Sphere map mode
+ MAPMODE_TNO_ECON_SPHERE_MAP_MODE:0 "§Yr경제권§!"
+ MAPMODE_TNO_ECON_SPHERE_MAP_MODE_NAME:0 "경제권"
+ MAPMODE_TNO_ECON_SPHERE_MAP_MODE_DESCRIPTION:0 "Shows the economic spheres that the countries on the map belong to."
+ 
+ tno_econ_sphere_map_mode_tooltip:0 "§Y[FROM.Controller.GetSphereName]§!"
+ tno_econ_sphere_map_mode_tooltip_delayed:0 "§F§Y[FROM.Controller.GetNameWithFlag]§! is part of §Y[FROM.Controller.GetSphereName]§!."
+ 
+ econ_sphere_map_mode_mapicon_tooltip: "§F[!econ_sphere_leader_icon_click]§!"
+ econ_sphere_map_mode_mapicon_tooltip_filled: "§Y[FROM.GetNameWithFlag]§! is the leader of the §Y[FROM.GetSphereName]§! which consists of:§!"
+ econ_sphere_map_mode_mapicon_tooltip_alone: "§Y[FROM.GetNameWithFlag]§! is the leader of the §Y[FROM.GetSphereName]§! which currently only consists of itself.§!"
+
+ econ_sphere_map_mode_mapicon_tooltip_entry: "  - §Y[?FROM.econ_sphere_members^temp_sphere_idx.GetNameWithFlag]§!"
+ 
+ # Culture map mode
+ MAPMODE_TNO_CULTURE_MAP_MODE:0 "§Y문화§!"
+ MAPMODE_TNO_CULTURE_MAP_MODE_NAME:0 "문화"
+ MAPMODE_TNO_CULTURE_MAP_MODE_DESCRIPTION:0 "세계 지도에 주요 문화를 보여줍니다."
+ 
+ tno_culture_map_mode_tooltip:0 "§Y[FROM.GetNationality]§!"
+ tno_culture_map_mode_tooltip_delayed:0 "§F(§Y[FROM.Controller.GetNameWithFlag]§!): [FROM.GetName] has a majority culture of §Y[FROM.GetNationality]§!.§!"
+ 
+ tno_culture_map_mode_debug: "§디버그: Go to a state without a culture§!"
+ 
+ # GDP Map mode
+ MAPMODE_GDP_MAP_MODE: "§Y1인당 GDP§!"
+ MAPMODE_GDP_MAP_MODE_NAME: "1인당 GDP"
+ MAPMODE_GDP_MAP_MODE_DESCRIPTION: "국가 혹은 주별 1인당 GDP를 보여줍니다."
+
+ gdp_map_mode_tooltip: "§F[Get_GDPMapMode_tooltip]§!"
+ gdp_map_mode_tooltip_delayed: "§F[Get_GDPMapMode_tooltip_delayed]§!"
+ 
+ gdp_STATE_map_mode_tooltip: "[FROM.GetName]: §Y$[?FROM.state_GDPPC]§!"
+ gdp_STATE_map_mode_tooltip_delayed: "§Y[FROM.GetName]§! has a GDP per capita of §Y$[?FROM.state_GDPPC]§!, [FROM.Get_GDPMapMode_STATE_average]"
+ gdp_COUNTRY_map_mode_tooltip: "(§Y[FROM.controller.GetNameWithFlag]§!): §Y$[?FROM.controller:gdpc_display]§!§!"
+ gdp_COUNTRY_map_mode_tooltip_delayed: "§Y[FROM.controller.GetName]§! has a national GDP per capita of §Y$[?FROM.controller:gdpc_display]§!."
+
+ GDPpC_STATE_negative_average: "which is [?gdpcc_state_average_n|2%R] less than the [FROM.controller.getflag] §Ynational average§! of §Y$[?FROM.controller:gdpc_display]§!."
+ GDPpC_STATE_positive_average: "which is [?gdpcc_state_average|2%G] more than the [FROM.controller.getflag] §Ynational average§! of §Y$[?FROM.controller:gdpc_display]§!."
+ 
+ GDPpC_country_level_button_tt: "Click to view §YNational GDP per Capita§!"
+ GDPpC_state_level_button_tt: "Click to view §YLocal GDP per Capita§!"
+ GDpC_empty_tt: "§R이미 선택한 모드로 보고 있습니다§!"
