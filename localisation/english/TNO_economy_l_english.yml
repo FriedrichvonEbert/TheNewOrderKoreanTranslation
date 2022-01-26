@@ -562,9 +562,9 @@ credit_rating_peace: "  We are at §Ypeace§!: §G+1§!"
 
 credit_rating_from_modifiers: "  From §YModifiers§!: [?modifier@monthly_credit_rating_progress|+]"
 
-credit_rating_aggregate_UP: " and §Grising§!"
-credit_rating_aggregate_NEUTRAL: " and holding §Ysteady§!"
-credit_rating_aggregate_DOWN: " and §Rfalling§!"
+credit_rating_aggregate_UP: "이며 §G상승중§!입니다"
+credit_rating_aggregate_NEUTRAL: "이며 §Y고정되어§! 있습니다"
+credit_rating_aggregate_DOWN: " 이며 §R하락중§!입니다"
 credit_rating_aggregate_LOCKED: ""
 
 credit_rating_progress_title:0 "등급 상향/하향 진행률"
@@ -1040,12 +1040,12 @@ admin_funding_minimal_decrease_high_tt: "§RGreatly decreases§! §Yminimal inve
 
 TNO_econ_raise_credit_rating:0 "우리의 §Y신용 등급§!이 §G상승§!할 것입니다."
 TNO_econ_lower_credit_rating:0 "우리의 §Y신용 등급§!이 §R하락§!할 것입니다."
-TNO_econ_raise_min_credit_rating:0 "Our minimal §YCredit Rating§! will be §Graised§!."
-TNO_econ_lower_min_credit_rating:0 "Our minimal §YCredit Rating§! will be §Rdowngraded§!."
-TNO_econ_raise_max_credit_rating:0 "Our maximal §YCredit Rating§! will be §Graised§!."
-TNO_econ_lower_max_credit_rating:0 "Our maximal §YCredit Rating§! will be §Rdowngraded§!."
-TNO_econ_set_min_credit_rating:0 "Our minimal §YCredit Rating§! will be set to [?temp_credit_rating_min|2Y]."
-TNO_econ_set_max_credit_rating:0 "Our maximal §YCredit Rating§! will be set to [?temp_credit_rating_max|2Y]."
+TNO_econ_raise_min_credit_rating:0 "우리의 최소 §Y신용 등급§!이 §G상승§!할 것입니다."
+TNO_econ_lower_min_credit_rating:0 "우리의 최소 §Y신용 등급§!이 §R하락§!할 것입니다."
+TNO_econ_raise_max_credit_rating:0 "우리의 최대 §Y신용 등급§!이 §G상승§!할 것입니다."
+TNO_econ_lower_max_credit_rating:0 "우리의 최대 §Y신용 등급§!이 §R하락§!할 것입니다."
+TNO_econ_set_min_credit_rating:0 "우리의 최소 §Y신용 등급§!이 [?temp_credit_rating_min|2Y] 등급으로 설정될 것입니다."
+TNO_econ_set_max_credit_rating:0 "우리의 최대 §Y신용 등급§!이 [?temp_credit_rating_max|2Y] 등급으로 설정될 것입니다."
 
 #Income Rate Factors
 tno_tax_rate_no_taxation_gui: "세금 없음: §Y+0.0%§!"
@@ -1279,7 +1279,7 @@ econ_positive_budget: "\nWe have enough money for minimum payments on our debt (
 econ_default_debt: "\n§RWe will default on all our national debt!§!"
 econ_use_liquid_reserves_tt: "We will put all our reserves towards paying off our national debt."
 
-Econ_GDPC_Dynamic_Modifier: "§YGDP§! per Capita"
+Econ_GDPC_Dynamic_Modifier: "1인당 §YGDP§!"
 Poverty_Dynamic_Modifier: "§Y빈곤률§! 효과"
 TNO_buildings_coverage_modifier:0 "§YBuilding coverage§! effect"
 TNO_building_resource_consumption_modifier:0 "§YBuilding§! Resource Consumption"
