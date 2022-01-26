@@ -270,7 +270,6 @@ USA_RFK_Party_Above_All_Unity_Decrease_Small:0 "§R극우파와의 간극이 조
 #USA_RFK_Party_Above_All_Unity_Decrease_Small:0 "§xThis will decrease our standing with the Far Right by a lot!\n§!" #duplicate loc key
 effect_tt_war_on_poverty_rfk:0 "너의 지치고 가난한 사람들을 내게 보내라!\n"
 rfk_anger_le_hawks:0 "§RNPP의 많은 매파 의원들을 크게 화나게 할 것입니다!§!\n"
-rfk_appease_le_hawks:0 "§G매파가 우리 등 뒤에서 물러날 것입니다!\n§!"
 RFK_is_done_tour:0 "§G바비가 전국을 다 돌았습니다!\n§!"
 Silence_The_AG:0 "§R법무장관의 입을 막았습니다§!"
 
@@ -289,7 +288,6 @@ USA_RFK_CRA_Level_Up:0 "민권법 수준이 §G올라갈§! 것입니다!\n"
  USA_rfk_hand_in_tooltip:0 "나중에 공화당과 함께 일할 수도 있지 않을까요?\n\n"
  USA_rfk_push_tooltip:0 "민권법을 철회해야 할 때입니다.\n"
  USA_rfK_sit_with_chaves_tt:0 ""앉읍시다, 차베스씨"\n\n"
- USA_rfK_r_WIP:0 "TOOLTIP TO BE SPECIFIED\n"
  USA_rfK_r_WIP:0 "§R자유를 위한 축배를 들어라!§!"
  USA_injustice_tt:0 "미국 그 어디에서도 불평등은 용납되지 않는다!\n"
  USA_RFK_wawm_tt:0 "법보다 위에 있는 사람은 아무도 없다.\n"
@@ -354,7 +352,7 @@ USA_rfk_federal_food_banks:0 "연방식량은행"
 USA_rfk_federal_food_banks_desc:0 "빈곤한 미국 국민이 매일 겪고 있는 투쟁을 종식 시켜야합니다. 그러기 위해서 케네디 대통령은 흑인 빈민가와 시골 마을과 같은 지역사회에 정부가 지원하는 식량은행을 추진하도록 승인했습니다. 과거에는 자선단체와 비영리단체가 자금의 지원 없이 이런 일을 하는 부담을 안았었지만, 백악관의 힘과 더 방대한 자원으로 이타적인 시민들이 하던 것보다 더 큰 성공을 달성할 수 있을 것입니다."
 USA_b4_healthcare_act:0 "The Healthcare Act"
 USA_rfk_national_healthcare_system:0 "National Healthcare System"
-USA_rfk_national_healthcare_system:0 "With penstrokes on a stack of paper, President Robert F. Kennedy has enscrolled free healthcare for Americans of every age, race, sex and creed into the United States' highest laws. This act of legal theater culminates the realization of a dream that had eluded thinkers and statesmen alike for centuries.\n\nIt also heralds a great many firsts for a nation made infinitely greater by them. For the first time, no American will be compelled to beggar themselves for medical attention. No American will dread the maladies lurking behind their fallible sight. Heartened by the generous guarantees of their right to live, Americans can now pursue their right to live freely and happily with élan their ancestors can only imagine.\n\nThe nation has triumphed in a war whose only memorials are tombstones of promising lives cut short. Proxy conflicts may secure its interests now and tomorrow, but neither guns nor bombs could have delivered its greatest victory yet against an evil as old as man."
+USA_rfk_national_healthcare_system_desc:0 "With penstrokes on a stack of paper, President Robert F. Kennedy has enscrolled free healthcare for Americans of every age, race, sex and creed into the United States' highest laws. This act of legal theater culminates the realization of a dream that had eluded thinkers and statesmen alike for centuries.\n\nIt also heralds a great many firsts for a nation made infinitely greater by them. For the first time, no American will be compelled to beggar themselves for medical attention. No American will dread the maladies lurking behind their fallible sight. Heartened by the generous guarantees of their right to live, Americans can now pursue their right to live freely and happily with élan their ancestors can only imagine.\n\nThe nation has triumphed in a war whose only memorials are tombstones of promising lives cut short. Proxy conflicts may secure its interests now and tomorrow, but neither guns nor bombs could have delivered its greatest victory yet against an evil as old as man."
 
 ########################################################################## EVENTS
 
@@ -1192,7 +1190,7 @@ RFK_REp_Goodwill_Votes_Available:0 "이제 결정 메뉴를 통해 얼마나 많
  bobby.92.b:0 "남부를 위한 의료시스템!"
  bobby.92.c:0 "흑인을 위한 의료시스템!"
 
- bobby.96.t:0 "Strom Thurmond Inaugurated as US President!"
+ bobby.96.t:0 "[Get_newspaper_header]Strom Thurmond Inaugurated as US President!"
  bobby.96.desc:0 "America is in a state of national mourning. Following the stunning assassination of President Robert F. Kennedy and Vice President Hubert Humphrey, the President Pro Tempore of the US Senate, Strom Thurmond, has been sworn in as America's chief executive.\n\nThurmond, a leading member of the NPP's far right, hails from the state of South Carolina, and he is well-known as an ardent segregationist.\n\nIn an address to Congress, he has called for unity and patriotism "in the wake of this national tragedy", but many are already fearing what the new president may do. "
  bobby.96.a:0 "President Thurmond? What year is it, again?"
  bobby.110.t:0 "The Will to Fight"
@@ -1429,14 +1427,20 @@ bobby.164.a:0 ""저자를 그냥 두면 안 되겠어""
  bobby.f.1.t:0 "헨리 월리스의 장례식"
 
  ##Ideas
- USA_Hubert_Humphrey_dep:0 "휴버트 험프리"
+ USA_Hubert_Humphrey:0 "휴버트 험프리"
+ USA_Hubert_Humphrey_dep_desc:0 "§YVice President\nSocial Democracy§!\n§F------------§!\n§LFew people are as qualified for their job as Hubert Humphrey, vice president of the United States of America.\n\nHumphrey has been in politics for decades, and his entire career is one big progressive accomplishment after another. He founded the Minnesota Democratic–Farmer–Labor Party and laid the groundwork for turning the state into the bastion of social democracy it is today, he founded the Peace Corps to aid the most vulnerable nations, and he has always been a strict antifascist willing to go as far as to jail those who wish to subvert the republic with their toxic ideology. It is said that the vice president is only one heartbeat away from the highest office - and if something terrible would happen, Hubert Humphrey would be a more than suitable replacement for Robert F. Kennedy.§!"
+ 
  USA_Scoop_Jackson_pol:0 "헨리 M. '스쿱' 잭슨"
  USA_Scoop_Jackson_eco:0 "헨리 M. '스쿱' 잭슨"
- USA_William_Winter_pol:0 "윌리엄 F. 윈터"
- USA_Douglas_Fraser_eco:0 "더글러스 프래저"
+  
  USA_James_Martin_eco:0 "제임스 D. 마틴"
- USA_Claude_Pepper_mil:0 "클로드 페퍼"
- USA_Henry_Mucci_mil:0 "헨리 무치"
+ 
+ USA_Claude_Pepper:0 "클로드 페퍼"
+ USA_Claude_Pepper_pol_desc:0 "§YSecretary of State\nSocial Democracy\n§F------------§!\n§LAmerica aims to be the lighthouse in a sea of fascism, the guiding light helping the few remaining free nations to navigate through the dark waves. The keeper of this proverbial lighthouse is no one other than Clause Pepper, the current Secretary of State.\n\nPepper's career is peppered with groundbreaking achievements, such as being one of the youngest senators to ever take office and being a trailblazer when it comes to fighting for labor and the elderly. His foreign policy is marked by his bold anti-fascist ideology, which extends not only to the US itself or her sphere of influence, but the entire world instead. Anti-american ideologies simply do not belong on this planet, and Claude Pepper is set to ensure that even the smallest microstates stay far away from allying with the Germans.§!"
+ 
+ USA_Henry_Mucci:0 "헨리 무치"
+ USA_Henry_Mucci_mil_desc:0 "§YSecretary of Defense\nSocial Democracy\n§F------------§!\n§LIn dark times like these, it takes a hero to shatter the enduring malaise and revitalize the eternal American spirit. Henry Andrews Mucci fits that archetype to a T - his daring liberation of a prisoner camp back in the Scottish theatre sparked the hope that the war could be turned around after all, and even though it wasn't enough to turn the tides, it still created a legend that lives on to this day.\n\nBorn into an Italian immigrant family with ten children, Mucci never had any success handed to him. His career is nothing but decades of dutiful work for the United States, and his nomination by Robert F. Kennedy signifies that personal courage is still something to be rewarded in America.§!"
+ 
  USA_Curtis_LeMay_mil:0 "커티스 르메이"
    
  ##Flags
@@ -1741,7 +1745,8 @@ bobby.164.a:0 ""저자를 그냥 두면 안 되겠어""
  USA_HAR_fatigue_moderate:0 "§OMany§!§M of our voters in §!§gthe South§!§M have become §Rdisillusioned.§!\n§LSome§!§M of our voters in §!§ythe Rockies§!§M have become §Rdisillusioned.§!\n"
  USA_HAR_fatigue_large:0 "§RNearly all§!§M of our voters in §!§gthe South§!§M have become §Rdisillusioned.§!\n§OMany§!§M of our voters in §!§ythe Rockies§!§M have become §Rdisillusioned.§!\n§LSome§!§M of our voters in §!§xthe North§!§M have become §Rdisillusioned.§!\n"
  USA_HAR_fatigue_severe:0 "§RNearly all§!§M of our voters in §!§gthe South§!§M have become §Rdisillusioned.§!\n§RNearly all§!§M of our voters in §!§ythe Rockies§!§M have become §Rdisillusioned.§!\n§OMany§!§M of our voters in §!§xthe North§!§M have become §Rdisillusioned.§!\n"
- USA_HAR_fatigue_radicalisation_low:0 "§gThe South§!§M becmoes increasingly §jradicalized.§!\n"
+ USA_HAR_fatigue_radicalisation_low:0 "§gThe South§!§M becomes increasingly §jradicalized.§!\n"
+ USA_HAR_fatigue_radicalisation_medium:0 "§OThe South and the West§!§M become increasingly §jradicalized.§!\n"
  USA_HAR_fatigue_radicalisation_high:0 "§RThe Nation§!§M becomes increasingly §jradicalized.§!\n"
  USA_HAR_fatigue_bill_support_loss:0 "Legislative support for our agenda §Rfalls.§!\n"
 
@@ -2256,7 +2261,6 @@ NPP_Aggressive_Recruiting_Methods_tt:0 "§G징병 지원§!§Y을 확대하기 �
 npp_fp_gender_rights_improved:0 "§GGender Rights will relatively improve§!"
 npp_fp_women_army_improved:0 "§GWomen will progressively be integrated into the Armed Forces.§!"
 
-NPP_FP_invest_in_allies_category:0 "함께 싸우는 형제들"
 NPP_FP_CAN_Investments:0 "캐나다 기업에 투자"
 NPP_FP_CAN_Arms:0 "캐나다에 보병 장비 수송"
 NPP_FP_CAN_Armor:0 "캐나다에 장갑차 수송"
