@@ -55,25 +55,59 @@
  POLITICS_BORIS_SHCHERBINA_ONEGA_DESC: "It is no wonder Boris Yevdokimovich Shcherbina was selected as the administrator of Tyumen when one looks at his record. After arriving in West Siberia as a young yet ambitious party official, he soon found himself stranded as the government in Moscow fell. He was shielded from the chaos by Lazar Kaganovich, who saw his skills, and by the time of the Onega invasion had long made him his chief economic advisor.\n\nHowever, his lack of loyalty to the authoritarian system Kaganovich admired so much was made clear as soon as the well-armed forces of Kirpichnikov marched eastwards. Abandoning his former beliefs and lusting for power, Shcherbina came to a secret agreement with the anti-communists. The North Russian Republic could use like him in governing the lawless lands, and for that he would be appointed governor of Tyumen. His talent soon became clear as day, and now Shcherbina wishes to make his territory a model province, even under the watchful eye of Onega."
 
  POLITICS_NIKITA_KHRUSHCHEV_DESC: "Nikita Sergeyevich Khrushchev is a man that represents both what was, and what never came to be. Born in 1894 in abject poverty, his family struggled heavily to give him what bare higher education the Russian peasantry could afford, and perhaps it was this sheer determination of his parents and his own siblings to give him a better life that gave the man a sense of patience, muted intelligence and cautiousness that was lacking severely within many of the more idealistic members of the Communist Party under Bukharin, a detail that brought the attention of Lazar Kaganovich, a man that would become his mentor, and were once his friend.\n\nUnder Lazar Kaganovich's wing, and the late Stalin's tutelage, the humble serf grew into a diligent, yet wary statesman, a quiet critic of the system that Bukharin put into place, doubly so as the purges rolled and the many people he knew as friends ended up dead and missing, up and including Joseph Stalin himself, his death as an "industrial accident" being something that neither he nor Kaganovich ever believed.\n\nWhen the USSR fell, however, a rift between the heirs of Stalinism, subtle at first, yet ever-widening, rose with time: Kaganovich gave himself more to his ideal vision of Stalinism, of what a perfect, state-driven Communism would be, a state of strength that wouldn't fall like Bukharin's failed experiment did, yet all Nikita looked was the starving children and women, and the empty grave of his own son.\n\nThe differences between both men became irreconcilable, and Nikita regretfully struck first against the man that was once his mentor and friend. Now he stands alone not as a diligent second man, or a disciple, but as the Chairman of a new Soviet Russia. He never quite desired the spotlights so heavily upon him, so close to his own retirement, but much like his own family sacrificed so much for him to be in this very same spot, so will he sacrifice to give Russia the future it deserves.\n\nHe owes Stalin and Leonid that much."
+ 
+ ### Character loc ###
+ TYM_Lazar_Kaganovich: "Lazar Kaganovich"
+ TYM_Nikita_Khrushchev: "Nikita Khrushchev"
+ 
+ TYM_Boris_Shcherbina: "Boris Shcherbina"
+ 
+ ### Generals ###
+ TYM_Filipp_Golikov: "Filipp Golikov"
+ TYM_Oleg_Losik: "Oleg Losik"
+ TYM_Vasily_Kuznetsov: "Vasily Kuznetsov"
+ TYM_Alexander_Logunov: "Alexander Logunov"
+ TYM_Sergey_Shtemenko: "Sergey Shtemenko"
+ TYM_Pyotr_Lushev: "Pyotr Lushev"
 
  ### Leader Traits ###
  man_of_steel: "강철의 사나이"
  
  ### Ministers ###
  #Kaganovich cabinet
- TYM_Nikita_Khrushchev_hog: "니키타 흐루쇼프"
- TYM_Vyacheslav_Molotov_for: "뱌체슬라프 몰로토프"
- TYM_Mikhail_Kaganovich_eco: "미하일 카가노비치"
- TYM_Ivan_Konev_sec: "이반 코네프"
- #Post-Zlatoust cabinet
- TYM_Ivan_Fedyuninsky_hog: "이반 페디닌스키"
- TYM_Yelena_Karbysheva_for: "엘레나 카르비셰바"
- TYM_Ernest_Voznesensky_eco: "에르네스트 보즈네센스키"
- TYM_Artyom_Sergeyev_sec: "아르티옴 세르게예프"
+ TYM_Nikita_Khrushchev_hog_desc: "§YHead of Government\nStalinism§!"
+ 
+ TYM_Vyacheslav_Molotov: "Vyacheslav Molotov"
+ TYM_Vyacheslav_Molotov_for_desc: "§YForeign Minister\nStalinism§!"
+
+ TYM_Mikhail_Kaganovich: "Mikhail Kaganovich"
+ TYM_Mikhail_Kaganovich_eco_desc: "§YEconomic Minister\nStalinism§!"
+
+ TYM_Ivan_Konev: "Ivan Konev"
+ TYM_Ivan_Konev_sec_desc: "§YSecurity Minister\nStalinism§!"
+
  #Khrushchev cabinet
- TYM_Fyodor_Kulakov_hog: "표도르 쿨라코프"
- TYM_Andrei_Gromyko_for: "안드레이 그로미코"
- TYM_Dmitry_Polyansky_eco: "드미트리 폴리안스키"
+ TYM_Fyodor_Kulakov: "Fyodor Kulakov"
+ TYM_Fyodor_Kulakov_hog_desc: "§YHead of Government\nStalinism§!"
+ 
+ TYM_Andrei_Gromyko: "Andrei Gromyko"
+ TYM_Andrei_Gromyko_for_desc: "§YForeign Minister\nStalinism§!"
+ 
+ TYM_Dmitry_Polyansky: "Dmitry Polyansky"
+ TYM_Dmitry_Polyansky_eco_desc: "§YEconomic Minister\nStalinism§!"
+ 
+ #Post-Zlatoust cabinet
+ TYM_Ivan_Fedyuninsky: "Ivan Fedyuninsky"
+ TYM_Ivan_Fedyuninsky_hog_desc: "§YHead of Government\nStalinism§!"
+ 
+ TYM_Yelena_Karbysheva: "Yelena Karbysheva"
+ TYM_Yelena_Karbysheva_for_desc: "§YForeign Minister\nStratocracy§!"
+ 
+ TYM_Ernest_Voznesensky: "Ernest Voznesensky"
+ TYM_Ernest_Voznesensky_eco_desc: "§YEconomic Minister\nStratocracy§!"
+ 
+ TYM_Artyom_Sergeyev: "Artyom Sergeyev"
+ TYM_Artyom_Sergeyev_sec_desc: "§YSecurity Minister\nStratocracy§!"
  
  ### Decisions ###
  #Debug
@@ -107,13 +141,10 @@
  TYM_fyp_the_third_five_year_plan_mission: "제2차 5개년 계획"
  TYM_fyp_another_five_year_plan_mission: "제3차 5개년 계획"
  
- #TYM_fyp_expand_industry: "§GRebuild§! our §WIndustrial Base§!"
  TYM_fyp_expand_electric: "§GReconnect§! the §YPower Grid§!"
- TYM_fyp_expand_healthcare_infrastructure: "§GExpand§! §VMedical Care§! for Industrial Workers"
- #TYM_fyp_expand_education_infrastructure: "§GConstruct§! New §aSchools§!"
- #TYM_fyp_expand_penal_infrastructure: "§GBuild§! New §OPrisons§!"
- #TYM_fyp_expand_military_infrastructure: "§GEstablish§! §RMilitary Academies§!"
- TYM_fyp_expand_administrative_infrastructure: "§GExpand§! §gIndustrial Planning§! Infrastructure"
+ TYM_fyp_expand_healthcare_infrastructure: "§GExpand§! §VMedical Care§! for Workers"
+ TYM_fyp_expand_school_infrastructure: "§GRestore§! §RProletarian Education§!"
+ TYM_fyp_expand_administrative_infrastructure: "§GRebuild§! §gIndustrial Planning§! Infrastructure"
  TYM_fyp_new_production_methods: "§GModernize§! §kProduction Methods§!"
  TYM_fyp_collectivize_farms: "§RCollectivize§! §fKulak Farms§!"
 
@@ -217,7 +248,7 @@
  TYM_socfash_tt: "We will §Ydenounce§! the §Revils§! of §Psocial§! §jfascism§!, guiding the §Vinternational proletariat§! away from §Rfoolish reformism§! and towards §eproper Marxist doctrine§!."
  TYM_tanks_tt: "§YWe will receive one armored division.§!"
  TYM_collective_farms_tt: "Our §fAgriculture§! §WSocietal Development§! progress will be §Rreduced§! by §R10§!."
- TYM_new_production_methods_tt: "Our §gIndustrial Expertise§! §WSocietal Development§! will be §Rreduced§! by §R5§!."
+ TYM_new_production_methods_tt: "Our §gIndustrial Expertise§! §WSocietal Development§! will be §Rreduced§! by §R15§!."
  TYM_khrushchev_coup_tt: "\nThe §Rinternal opposition§! will §Rgain influence§!."
  TYM_fate_of_the_union_tt: "§YThe §Rfate§! of the new §VSoviet Union§! will be §Rdecided§!.§!\n\n"
 
