@@ -53,58 +53,84 @@
  VYT_ultranationalism_party: "보로즈데니예"
  VYT_ultranationalism_party_long: "보로즈데니예"
  
- ### 지도자 설명 ###
+ ### Character Loc ###
+ # Leaders
+ VYT_Vladimir_III: "블라디미르 3세"
  POLITICS_TSAR_VLADIMIR_DESC: "1917년 태어나면서부터 망명 생활을 한 블라디미르 키릴로비치 로마노프 대공은 아버지이자 사망한 차르 니콜라이 2세의 사촌인 키릴 블라디미로비치가 1938년 죽은 후 망명 러시아 황가의 수장이 되었습니다.\n\n제2차 세계 대전 당시 브르타뉴에 거주하던 블라디미르는 얼마 가지 못해 가족과 함께 독일에게 구류되었습니다. 곧 블라디미르는 독일 당국의 '강요'로 러시아인들에게 소비에트 정권에서 망명하기를 권하는 라디오 방송을 하며 부역을 시작했습니다. 전쟁이 끝날 때는 우크라이나 섭정직을 제안 받았지만, 러시아의 분열이라는 받아들일 수 없는 결과를 불러올 직위를 거절했습니다.\n\n하지만, 전쟁이 끝나도 블라디미르는 러시아로 돌아갈 수 없었습니다. 독일인들은 블라소프 때처럼 블라디미르의 인기가 독일 통치를 약화시킬까 걱정했습니다. 서러시아 전쟁이 벌어진 뒤에야 독일인들을 설득할 수 있었던 블라디미르는 왕정주의자와 백계 망명자들로 이루어진 사단 하나를 만들어 매우 성공적인 역습을 이끌었습니다. 국방군 공세가 멈출 때 블라디미르는 멈추지 않고 그대로 돌파해 러시아에 왕정주의자들이 지배하는 고립 구역을 만들었습니다.\n\n이후 몇 년 동안, 새로 선포된 차르 블라디미르 3세는 자신의 구역을 별로 확장하지 못했고, 수많은 내부의 골칫거리도 찾아냈습니다. 이제 차르는 기다립니다. 공격해 그의 신성한 생득권인 전 러시아를 되찾을 순간을 기다립니다."
 
+ VYT_Boris_I: "보리스 1세"
  POLITICS_BORIS_SKOSSYREFF_DESC: "서러시아의 마지막 군주 보리스 1세의 이야기는 기이하지만 대단히 흥미롭습니다. 보리스 미하일로비치 스코시레프는 당시 러시아 제국 땅이었던 빌나의 부유한 가문에서 태어났습니다. 보리스는 상류 계급 가문의 일원이었지만 태어날때는 어떤 직위의 권리주장자도 아니었습니다. 그렇지만 혈통이 가져다 줄 수 없는 것을 스스로 얻어냈습니다.\n\n10월 혁명이 발발했을 때, 보리스는 도망쳐 수많은 망명자 중 하나가 되었습니다. 곧 영국 외무부에서 이름을 날렸고 수많은 임무에 참가했습니다. 그 뒤에는 네덜란드에, 그리고 지금까지 밝혀진 그의 모험 중 제일 유명한 일이 벌어진 곳 - 안도라에 발을 디뎠습니다. 조심스럽게 음모를 꾸민 보리스는 1930년대에 대중의 지지를 통해 대공 직위를 빼앗았으며 안도라를 현대 국가로 만들겠다고 약속했습니다. 얼마 못가 체포 및 수감되었지만 서유럽 감옥에서 몇 년을 보낸 후, 운 좋게 나치 점령 당국에게 풀려나 이들과 협조했습니다. 서러시아 전쟁이 일어나고 차르 블라디미르가 원정을 떠날 때, 보리스는 기꺼이 합류해 충성스러운 연락책으로서 블라디미르와 함께했습니다. 그 위치가 불편해지기 전까지는 말입니다.\n\n반공경비대가 승리를 거듭할 때 스코시레프는 가만히 있지 않았습니다. 어느날, 반공경비대가 뱟카에 접근하자 보리스는 도시 중심부로 가서 총질을 한 다음, 과거의 서러시아 당국은 끝났으며 키르피흐니코프의 군대가 이를 대체한다고 선언했습니다. 이제 뱟카 대공이자 변방 지대의 수호자인 보리스 1세는 반공경비대와 러시아 국민의 이름으로 도시의 부패한 지도자들을 대신해 이 땅을 다스립니다. 이 공국이 얼마나 오래갈지 누가 알겠습니까."
  
- ### 지도자 트레잇 ###
- the_rightful_heir: "적법한 계승자"
-
- ### 장관 ###
- #시작
+ # Ministers #
  VYT_Vladimir_Kharzhevsky_hog: "블라디미르 하르젭스키"
- VYT_Vladimir_Kharzhevsky_hog_desc: "------------\n§LA veteran of both World Wars, Russian Civil War, and the West Russian War, Vladimir Kharzhevsky now sits at the right hand of the Tsar himself. Serving with Pytor Wrangel's front as a major general and commander of the Drozdovsky Division, he fled with Wrangel with his men into exile after their evacuation from Crimea, Vladimir bounced around Europe throughout the 20s and 30s aimlessly. He only truly gained a calling when Tsar Vladimir III proclaimed himself Tsar and agreed to work with the Germans. Moving to Germany, he soon sent an offer to the ROVS and was promptly reappointed as a major general and the newly revived Drozdovsky Regiment.\n\nVladimir served the Tsar faithfully, fighting with the ROVS and their German masters for over a decade. He even formed a close personal relationship with his monarch, becoming one of his closest political advisors. When the ROVS moved to break with the German lines and seize Vyatka during the tail end of the West Russian War the head of the ROVS, Alexei Aleksandrovich von Lampe, resigned from command due to his disagreeing of breaking relations with the Germans. This left Vladimir has the easy choice to succeed Alexei as leader of the ROVS and by extension, de facto Head of Government of the newly formed Principality of Vyatka.\n\nNow Vladimir sits at his Tsar's side, dispensing advise to his friend. Vladimir also finds himself exasperated at the bickering of the émigré factions, but whatever may happen with them, the Tsar will always have an ally in his most trusted friend.§!"
- VYT_Roman_Gul_for: "로만 굴"
- VYT_Roman_Gul_for_desc: "------------\n§LCan someone be both a White émigré and a liberal at the same time? Enter Roman Borisovich Gul, a veteran of both the First World War and the Russian Civil War who fought with Lavr Kornilov's Shock Regiment during the First Kuban Campaign, Gul emigrated to Berlin and became a liberal writer. This drew the ire of the Reich when they rose to power during the 1930s, and he was quickly thrown into a concentration camp for his writings. He barely escaped with his life from Germany into France and became the writer for several liberal émigré magazines. When the Germans successfully invaded France in 1941, Gul was forced into hiding to avoid being captured by the Germans, working in a glass factory and taking a new identity.\n\nWhen the Tsar officially gave his support to the Germans, Roman smelt an opportunity. Taking a gamble, Roman sent Tsar Vladimir a letter stating that in exchange for the Reich giving him a pardon, he would become the ROVS's propaganda minister. Appealing to the Germans, the Reich begrudgingly granted the Tsar's request and Roman became the propaganda minister for the entire ROVS.\n\nHowever, Roman never truly abandoned his liberal ideals nor his hatred to the vile Germans. When the opportunity presented itself for the Tsarists to break with the Germans and attempt to form their own state, Roman was a fierce advocate for it. When they finally took Vyatka, Roman and other like-minded émigrés reformed the old liberal monarchist Kadets, and has now become the most prominent liberal reformer in Vyatka with him having an ever fierce rivalry with the more reactionary factions. Time will tell if Vyatka will follow Gul's path, or if he will be left in the dust.§!"
- VYT_Igor_Birman_eco: "이고르 비르만"
- VYT_Igor_Birman_eco_desc: "------------\n§L§!"
- VYT_Evgeny_Messner_sec: "예브게니 메세네르"
- VYT_Evgeny_Messner_sec_desc: "------------\n§L§!"
+ VYT_Vladimir_Kharzhevsky_hog_desc: "§YHead of Government§!\n§YAristocratic Conservatism§!\n------------\n§LA veteran of both World Wars, Russian Civil War, and the West Russian War, Vladimir Kharzhevsky now sits at the right hand of the Tsar himself. Serving with Pytor Wrangel's front as a major general and commander of the Drozdovsky Division, he fled with Wrangel with his men into exile after their evacuation from Crimea, Vladimir bounced around Europe throughout the 20s and 30s aimlessly. He only truly gained a calling when Tsar Vladimir III proclaimed himself Tsar and agreed to work with the Germans. Moving to Germany, he soon sent an offer to the ROVS and was promptly reappointed as a major general and the newly revived Drozdovsky Regiment.\n\nVladimir served the Tsar faithfully, fighting with the ROVS and their German masters for over a decade. He even formed a close personal relationship with his monarch, becoming one of his closest political advisors. When the ROVS moved to break with the German lines and seize Vyatka during the tail end of the West Russian War the head of the ROVS, Alexei Aleksandrovich von Lampe, resigned from command due to his disagreeing of breaking relations with the Germans. This left Vladimir has the easy choice to succeed Alexei as leader of the ROVS and by extension, de facto Head of Government of the newly formed Principality of Vyatka.\n\nNow Vladimir sits at his Tsar's side, dispensing advise to his friend. Vladimir also finds himself exasperated at the bickering of the émigré factions, but whatever may happen with them, the Tsar will always have an ally in his most trusted friend.§!"
+ VYT_Roman_Gul: "로만 굴"
+ VYT_Roman_Gul_for_desc: "§YForeign Minister§!\n§YLiberal Democracy§!\n------------\n§LCan someone be both a White émigré and a liberal at the same time? Enter Roman Borisovich Gul, a veteran of both the First World War and the Russian Civil War who fought with Lavr Kornilov's Shock Regiment during the First Kuban Campaign, Gul emigrated to Berlin and became a liberal writer. This drew the ire of the Reich when they rose to power during the 1930s, and he was quickly thrown into a concentration camp for his writings. He barely escaped with his life from Germany into France and became the writer for several liberal émigré magazines. When the Germans successfully invaded France in 1941, Gul was forced into hiding to avoid being captured by the Germans, working in a glass factory and taking a new identity.\n\nWhen the Tsar officially gave his support to the Germans, Roman smelt an opportunity. Taking a gamble, Roman sent Tsar Vladimir a letter stating that in exchange for the Reich giving him a pardon, he would become the ROVS's propaganda minister. Appealing to the Germans, the Reich begrudgingly granted the Tsar's request and Roman became the propaganda minister for the entire ROVS.\n\nHowever, Roman never truly abandoned his liberal ideals nor his hatred to the vile Germans. When the opportunity presented itself for the Tsarists to break with the Germans and attempt to form their own state, Roman was a fierce advocate for it. When they finally took Vyatka, Roman and other like-minded émigrés reformed the old liberal monarchist Kadets, and has now become the most prominent liberal reformer in Vyatka with him having an ever fierce rivalry with the more reactionary factions. Time will tell if Vyatka will follow Gul's path, or if he will be left in the dust.§!"
+ VYT_Evgeny_Messner: "예브게니 메세네르"
+ VYT_Evgeny_Messner_sec_desc: "§YSecurity Minister§!\n§YAristocratic Conservatism§!\n------------\n§L§!"
 
  #자민
- VYT_Roman_Gul_hog: "로만 굴"
- VYT_Boris_Pryanishnikov_for: "보리스 프랴니시니코프"
- VYT_Nikolay_Rumyantsev_sec: "니콜이 루먄체프"
+ VYT_Roman_Gul_hog_desc: "§YHead of Government§!\n§YLiberal Democracy§!\n------------\n§L§!"
+ VYT_Boris_Pryanishnikov: "Boris Pryanishnikov"
+ VYT_Boris_Pryanishnikov_for_desc: "§YForeign Minister§!\n§YNational Liberalism§!\n------------\n§L§!"
+ VYT_Igor_Birman: "Igor Birman"
+ VYT_Igor_Birman_eco_desc: "§YEconomy Minister§!\n§YLiberal Democracy§!\n------------\n§L§!"
+ VYT_Nikolay_Rumyantsev: "Nikolay Rumyantsev"
+ VYT_Nikolay_Rumyantsev_sec_desc: "§YSecurity Minister§!\n§YLiberal Democracy§!\n------------\n§L§!"
  
  #보민
- VYT_Vasily_Shulgin_hog: "바실리 슐긴"
- VYT_Alexander_Kazembek_for: "알렉산드르 카젬베크"
- VYT_Sergey_Obolensky_for: "세르게이 오볼렌스키"
- VYT_Boris_Izhboldin_eco: "보리스 이즈볼딘"
- VYT_Vladimir_Kharzhevsky_sec: "블라디미르 하르제프스키"
+ VYT_Vasily_Shulgin: "Vasiliy Shulgin"
+ VYT_Vasily_Shulgin_hog_desc: "§YHead of Government§!\n§YChristian Democracy§!\n------------\n§L§!"
+ VYT_Alexander_Kazembek: "Alexander Kazembek"
+ VYT_Alexander_Kazembek_for_desc: "§YForeign Minister§!\n§YChristian Democracy§!\n------------\n§L§!"
+ VYT_Boris_Izhboldin_: "Boris Izhboldin"
+ VYT_Boris_Izhboldin_eco_desc: "§YEconomy Minister§!\n§YChristian Democracy§!\n------------\n§L§!"
+ VYT_Vladimir_Kharzhevsky: "Vladimir Kharzevsky"
+ VYT_Vladimir_Kharzhevsky_sec_desc: "§YSecurity Minister§!\n§YChristian Democracy§!\n------------\n§L§!"
 
  #권민
- VYT_Aleksandr_Solzhenitsyn_hog: "알렉산드르 솔제니친"
- VYT_Arkady_Stolypin_for: "아르카디 스톨리핀"
- VYT_Gleb_Rar_eco: "글레프 라르"
- VYT_Gleb_Rar_eco_desc: "------------\n§L§!"
+ VYT_Aleksandr_Solzhenitsyn: "Aleksandr Solzhenitsyn"
+ VYT_Aleksandr_Solzhenitsyn_hog_desc: "§YHead of Government§!\n§YSolidarism§!\n------------\n§L§!"
+ VYT_Arkady_Stolypin: "Arkady Stolypin"
+ VYT_Arkady_Stolypin_for_desc: "§YForeign Minister§!\n§YSolidarism§!\n------------\n§L§!"
+ VYT_Gleb_Rar: "Gleb Rahr"
+ VYT_Gleb_Rar_eco_desc: "§YEconomy Minister§!\n§YSolidarism§!\n------------\n§L§!"
 
  #특수
- VYT_Boris_Smyslovsky_sec: "보리스 스미슬롭스키"
+ VYT_Boris_Smyslovsky: "보리스 스미슬롭스키"
+ VYT_Boris_Smyslovsky_sec_desc: "§YSecurity Minister§!\n§Y§!\n------------\n§L§!"
 
  #오네가 분할 이후
- VYT_Nikolay_Rumyantsev_hog: "니콜라이 루먄체프"
- VYT_Leonid_Makerov_for: "레오니트 마케로프"
- VYT_Nikolay_Pauzin_eco: "니콜라이 파우진"
- VYT_Georgey_Zagainov_sec: "게오르기 자가이노프"
+ VYT_Nikolay_Rumyantsev_hog_desc: "§YHead of Government§!\n§YLiberal Democracy§!\n------------\n§L§!"
+ VYT_Leonid_Makerov: "Leonid Makerov"
+ VYT_Leonid_Makerov_desc: "§YForeign Minister§!\n§YPaternalistic Conservatism§!\n------------\n§L§!"
+ VYT_Nikolay_Pauzin: "Nikolay Pauzin"
+ VYT_Nikolay_Pauzin_eco_desc: "§YEconomy Minister§!\n§YPaternalistic Conservatism§!\n------------\n§L§!"
+ VYT_Georgey_Zagainov: "Georgiy Zagaynov"
+ VYT_Georgey_Zagainov_sec_desc: "§YSecurity Minister§!\n§YLiberal Democracy§!\n------------\n§L§!"
+ 
+ # Generals
+ VYT_Nikolay_Fyodorov: "Nikolay Fyodorov"
+ VYT_Grigory_Lamsdorf: "Grigory Lamsdorf"
+ VYT_Nikolay_Rutchenko: "Nikolay Rutchenko"
+ VYT_Adrian_Lyubishchev: "Adrian Lyubishchev"
+ VYT_Boris_Lyubishchev: "Boris Lyubishchev"
+ VYT_Mikhail_Levitov: "Mikhail Levitov"
+ VYT_Konstantin_Cherkasov: "Konstantin Cherkasov"
+ VYT_Vladimir_Vygran: "Vladimir Vygran"
+ VYT_Igor_Sakharov: "Igor Sakharov"
+ VYT_Vladimir_Granitov: "Vladimir Granitov"
+# VYT_Vladimir_Kharzhevsky: "Vladimir Kharzhevsky" #duplicate loc key
+ 
+ ### Leader Traits ###
+ the_rightful_heir: "적법한 계승자"
  
  ### Ideas ###
  VYT_unrepentant_reaction: "부끄럼 없는 반발"
  VYT_unrepentant_reaction_desc: "구 제국이 무너진 후 러시아는 여러 폭군들 밑에서 고통받아왔습니다. 공산주의와 그 가면을 쓴 대리인 사회주의는 러시아 국민들에게 얼마 남지 않은 것마저 뺏어가고자 발광했습니다. 이러한 행보에 대해 차르께서는 '더는 안된다!'라고 선포하셨습니다. 제국은 다시 일어날 것입니다. 공산주의자들은 말살될 것입니다. 차르의 정당한 통치와 함께, 이 위대한 땅에 평화가 돌아올 것입니다."
 
  VYT_Imperial_Market: "The Empire's Bounty, for the World!"
- VYT_Imperial_Market: "The idea that a monarchy cannot compete in the cutthroat market is naive at best, and ignorant at most, for the Russian Empire lays upon what is easily the world's richest resource bounty on the planet: Steel, Oil, the riches of Russia go out for the highest bidders with their full coffers entering the treasury, to later return as investments to bring the Tsardom and Russia to the modern age.\n\nSoon, there will be a time we will not be a provider but a seller, but it will make do for now."
+ VYT_Imperial_Market_desc: "The idea that a monarchy cannot compete in the cutthroat market is naive at best, and ignorant at most, for the Russian Empire lays upon what is easily the world's richest resource bounty on the planet: Steel, Oil, the riches of Russia go out for the highest bidders with their full coffers entering the treasury, to later return as investments to bring the Tsardom and Russia to the modern age.\n\nSoon, there will be a time we will not be a provider but a seller, but it will make do for now."
 
  VYT_officer_infighting: "군사적 내분"
  VYT_officer_infighting_desc: "백군, 혹은 그 잔당들은 통일 전선을 이루었던 적이 한 번도 없습니다. 공산주의에 대한 증오가 백군을 단결시키지만 통일 러시아를 어떻게 통치해야 할지에 관한 문제는 차르의 군대의 단결을 깨부술 수도 있습니다. 일부는 과거의 이상을 믿지만 다른 이들은 민주주의를 요구합니다. 심지어 몇몇은 파시즘 정권의 힘을 말하기도 합니다. 이들이 줄 맞춰 설 수 있게 해주는 것은 차르 뿐이십니다. 그것도 간신히 이루어지는 것이지만 말입니다. 나라가 잃었던 것을 되찾으려면 군대가 튼튼히 단결하도록 해야한다는 것은 확실합니다."
@@ -864,7 +890,6 @@
  VYT_reestablishing_contacts: "Reestablishing Contacts"
  VYT_reestablishing_contacts_desc: "With the establishment and political stability of the Sovereignty established, it is now time to do something that no Russian state has done in a long time, and begin a coordinated, and global, diplomatic campaign. We have many resources to offer the world, and need just as many advancements and investments in return.\n\nSerious investment will be required, in both the establishment of reliable diplomatic infrastructure as well as the standardization of treaties of recognition, trade, and extrnational representation. They will be made. Russia will no longer stand alone on the world stage."
 
- VYT_the_imperial_diplomatic_corps: "The Imperial Diplomatic Corps"
  VYT_the_imperial_diplomatic_corps: "The Imperial Diplomatic Corps"
  VYT_the_imperial_diplomatic_corps_desc: "In order to achieve our diplomatic goals and open our nation to the world, the Sovereignty must have a capable and professional diplomatic corps. Sufficient investment will therefore be made to ensure that we do.\n\nThe Imperial Diplomatic Corps will be prioritized in order to ensure that it attracts the best and brightest and, sent around the world, they will secure advantage for the state. Agreements of diplomatic recognition, trade, mutual protection and, perhaps eventually, global alliance can and will be pursued. In so doing, Russia will prove once again that it is once again, at least a regional power, and should be negotiated with as such."
 
