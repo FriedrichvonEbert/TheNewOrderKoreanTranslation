@@ -6,8 +6,6 @@
  UZB_national_socialism_party_long: ""
  UZB_ultranationalism_party: ""
  UZB_ultranationalism_party_long: ""
- #KYR_despotism_party: "Askerdik Hunta" #duplicate loc key
- #KYR_despotism_party_long: "Askerdik Hunta" #duplicate loc key
  UZB_authoritarian_democracy_party: "MBP"
  UZB_authoritarian_democracy_party_long: "Milliy Buyurtmashi Partiyasi"
  UZB_conservative_democracy_party: "ODP"
@@ -22,11 +20,23 @@
  UZB_communist_party_long: "우즈베크 공산당"
  
  ### Leader Bios ###
- POLITICS_VELI_KAYUM_KHAN_DESC: "Veli Kayyum Han began flirting with anti-communist and nationalist ideology with the rise of the Soviet Union, which he despised. He would move to Germany to study, but he chose to never return to the USSR. Soon, he rose to prominence in the Turkestani émigré movement for his pan-Turkic and anti-Soviet rhetoric and beliefs. When war broke out in Europe, he would attempt to help the Nazis with his ideology which had much in common. To achieve this, he would help found the Turkestan Legion, a unit of the army composed of Turkestani collaborators and prisoners of war. Even though they were considered "inferior races" by the Nazis, this attitude would quickly change as they wished to exploit the anti-Soviet sentiment of the Turkic peoples of Central Asia during Operation Barbarossa. The Legion would play a minor role in the swift conquest of Bukharin's Soviet Union.\n\nWith the end of the war, the country that had oppressed Kayum-Khan's ethnic group for so long completely collapsed, and Uzbekistan finally had a chance to become free. This push for independence would fail and wither into nothing, however, and it would be years until he would find himself with another chance. With time, tenacity, and Afghan support, however, the legion has made considerable gains. Believing in Pan-Turanism, Kayyum's ultimate goal is to unite all peoples of Central Asia. Of course, the first step to do that is to defeat all those who stand in his way, no matter which meddling powers stand in his way.\n\nEven though he rules with an iron fist, Kayyum still faces strong opposition. Many are not loyal to his fascist government, with some even harbouring Fayzullah sympathies. If he is to develop power as leader of Turkestan, Han will need to secure his unstable state, and ensure that all of Central Asia stands behind him through respect, and faith in his pan-Turkic beliefs."
-
+ ZB_Fayzulla_Khodzhayev: "Fayzulla Khodzhayev"
+ 
  POLITICS_FAYZULLA_KHODZHAYEV_DESC: "It is impossible to describe the human spirit or to give it a solid, cohesive definition. Identifying what makes humanity wake up in the morning to work away at its doings is difficult beyond comprehension, as there is a limitless pool of definitions of what persuades the individual to work and live their life. Not one of these definitions can be found in the hearts or minds of any living soul in Uzbekistan.\n\nAbandoned, ignored, and humiliated would be the only way to describe the minds of those within the Uzbekistani state, as the Central Asia war, the collapse of the USSR time and time again, and the backwards state which the nation has been left in have all taken their toll on the national psyche and even culture of Uzbekistan. This mindset is expressed better by none other than the premier of Uzbekistan; Fayzulla Khodzhayev.\n\nOnce an idealistic member of the Uzbek Communist Party, Uzbekistan's limited contributions from the USSR in favor of the varied other Soviet Republics had already left it desolate, though his faith would only falter further until receiving its deathblow when the West Russian Revolutionary Front was crushed forever. Since then, the increasingly apathetic state of the government has solidified and has only crawled further into a worsening state.\n\nToday, Uzbekistan sits quietly in Central Asia, allowing for its cynicism crisis to worsen further and further. With little hope for the Uzbekistani people beyond a silent, apathetic future, nothing can be done for Uzbekistan.\n\nNothing beyond the people causing the future themselves."
 
+ UZB_Islam_Karimov: "Islam Karimov"
  POLITICS_ISLAM_KARIMOV_DESC: "The lower bowels of the Uzbekistani political scene are one saturated with the party politics and power struggles that would seem more at home in the United States of America rather than a state smack dab in the middle of central Asia. Even still, there is no greater product of this chaotic state of affairs than Islam Karimov, President of Uzbekistan and puppet of the Jadidi.\n\nBorn into a troubled life between an Uzbek and a Tajik, Karimov spent much of his youth in an orphanage, though decided to follow the path which his parents had blazed- that of a civil servant. Throughout his youth, Karimov could not help but look to the disasters which befell Uzbekistan, the broken world in which he grew up. He could not claim to remember the day that the USSR fell, nor can he claim to have been on the frontlines of the West Russian War, Karimov can claim to want the best for Uzbekistan. Even still, with the Jadidi holding most all the legitimate power in the government, Karimov can only do so much for his country and vows to one day make change for his world.\n\nNo matter how long it takes to get there."
+ 
+ ### Characters ###
+ UZB_Azim_Rakhimov: "Azim Rakhimov"
+ UZB_Vildan_Saidovich_Khabiev: "Vildan Saidovich Khabiev"
+ UZB_Amin_Irmatovich_Niyazov: "Amin Irmatovich Niyazov"
+ UZB_Veli_Kayum_Khan: "Veli Kayum-Khan"
+ UZB_Mirzamahmud_Musakhanov: "Mirzamahmud Musakhanov"
+ UZB_Abid_Sadykov: "Abid Sadykov"
+ UZB_Baymirza_Hayit: "Baymirza Hayit"
+ UZB_Power_Vacuum: "Power Vacuum"
+ 
  ### Ideas ###
  UZB_Turkic_United_Front: "튀르크 연합 전선"
  UZB_Aktau_Cooperation: "악타우 혁명"
@@ -36,16 +46,11 @@
  UZB_Armiya_Millatdir: "Armiya Millatdir"
  UZB_Jami_Urush: "Jami Urush"
  UZB_The_Kyrgyz_Campaign: "The Campaign in Kirghizia"
+ UZB_The_Oligarchy: "The Oligarchy"
  UZB_Jadid: "Jadid"
  UZB_Jadid_desc: "Since the days of the October revolution, Jadidist thought has proliferated across Uzbekistan, with some of the earliest revolutionaries being the strongest advocates of the socialist branch of Jadidism. Now, however, with the failings of socialism demonstrated clearly by the end of Bukharin's regime, the other side of Jadidism has come to light. That of inspiration from the Western age of enlightenment, and the proliferation of hope for an Islamic age of enlightenment, all under a Western-style democracy. With such promises of a better future and such firm roots in Uzbekistan as a whole, the ideology has become nothing short of a considerable force in Uzbekistani culture, influencing art forms, literature, and even fashion. Whether these promises of a brighter future can be achieved, however, remain up in the air at best."
  UZB_Rise_of_Discontent: "Rise of Discontent"
  UZB_Rise_of_Discontent_desc: "While Jadidism is a greatly influential factor in Uzbekistani life, there remains a doubt among those whom it affects. As the ideology has been a part of life since the days of the USSR -in one form or another- faith in the belief has been shaken to its core, as the fall of the USSR, the fall of the WRRF, and the ongoing desolate state of Central Asia has provided nothing but ammunition for those who would claim that Jadidism is nothing but a ploy manipulating Islam for power.\n\nMuch remains to be seen if these claims are true, but if they are, it will spell doom for the ruling government, and the stability of Uzbekistan will surely suffer for it."
-
- ### Ministers ###
- UZB_Veli_Kayum_Khan_hog: "벨리 카윰 칸"
- UZB_Mirzamahmud_Musakhanov_for: "미르자마후드 무사하노프"
- UZB_Abid_Sadykov_eco: "아비드 사디코프"
- UZB_Baymirza_Hayit_sec: "바이미르자 하잇"
 
  ### Decisions ###
  UZB_Pacification_Campaign: "정부 상태"
