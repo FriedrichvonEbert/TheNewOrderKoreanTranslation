@@ -46,11 +46,15 @@
 ########################################
 
  USA_CIA_Change_Budget_tt:0 "[USA_CIA_Change_Budget_sl]"
+ USA_CIA_Change_Budget_increase_tt:0 "Increase Budget by:"
  USA_CIA_Change_Budget_Change_tt:0 "[USA_CIA_Change_Budget_Change_sl]"
- USA_CIA_Change_Budget_Tooltip:0 "Budget: §w[?USA_CIA_Budget_display]§!/§w[?USA_CIA_annual_budget_display] Million§!"
+ USA_CIA_Change_Budget_Tooltip:0 "예산: §w[?USA_CIA_Budget_display]§!/§w[?USA_CIA_annual_budget_display] 백만 달러§!"
  USA_CIA_Change_Budget_Change_Tooltip:0 "§w[?USA_CIA_Budget_Change_Variable_display]M§!"
+ USA_CIA_Budget_Title_tt:0 "작전 개시"
+ USA_CIA_Success_Percent_tt:0 "[?USA_CIA_Operation_Success_Chance]% 성공 확률"
+ USA_CIA_Action_Title_tt:0 "개시"
  USA_CIA_Invested_Budget_tt:0 "[USA_CIA_Invested_Budget_sl]"
- USA_CIA_Invested_Budget_Tooltip:0 "[?USA_CIA_Invested_Budget_display] Million Allocated"
+ USA_CIA_Invested_Budget_Tooltip:0 "[?USA_CIA_Invested_Budget_display] 백만 달러 할당"
  USA_CIA_Mission_Cost_15_Million:0 "§w15M 달러§!"
  USA_CIA_Mission_Cost_25_Million:0 "§w2천 5백만 달러§!"
  USA_CIA_Mission_Cost_30_Million:0 "§w3천만 달러§!"
@@ -79,6 +83,8 @@
 
  USA_CIA_Mission_Over25_Obfuscation:0 "§Y지역 복호화가 25 이상임§!"
 
+ USA_CIA_Yes_text_tt:0 "예"
+ USA_CIA_No_text_tt:0 "아니오"
  USA_CIA_Yes_Unlock_Tooltip:0 "[GetUSACIAUnlockBudgetTooltip]"
  USA_CIA_Not_Enough_Budget:0 "§R예산이 충분하지 않습니다.§!"
 
@@ -112,7 +118,7 @@
  USA_CIA_remove_50_expertise:0 "우리는 §Y50§!의 숙련도를 §R잃을 것입니다.§!\n"
  USA_CIA_remove_60_expertise:0 "우리는 §Y60§!의 숙련도를 §R잃을 것입니다.§!\n"
 
-
+ USA_CIA_GUI_recruit_expertise_title_tt:0 "상태"
  USA_CIA_recruit_bar_status:0 "[GetCIARecruitBarStatus]"
  USA_CIA_recruit_button_status:0 "[GetCIARecruitStatus]"
  USA_CIA_can_recruit:0 "우리는 §Y15§!M의 예산과 §Y50§!의 숙련도를 지불해 새로운 요원을 모집할 수 있습니다. 훈련이 완료되면 §Y25§!의 숙련도를 돌려 받을 것입니다."
@@ -241,6 +247,20 @@
 
  USA_CIA_au_status:0 "[GetCIAAUStatus]"
  USA_CIA_au_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_Oceania_Encryption]§!\n"
+ 
+ USA_CIA_Decisions_GUI_Selected_Region_tt:0 "선택한 지역: [GetUSACIARegionScriptedLoc]"
+ USA_CIA_Decisions_GUI_Decryption_Info_tt:0 "현재 분석 능력: [?USA_CIA_Decryption]"
+ USA_CIA_Decisions_GUI_Expertise_Info_tt:0 "현재 경험: [?USA_CIA_expertise]"
+ USA_CIA_Decisions_GUI_Agent_Info_tt:0 "활동중인 요원: [?USA_CIA_operatives]"
+ USA_CIA_Decisions_GUI_Recruit_Window_Agent_1_Name:0 "요원 1 이름"
+ USA_CIA_Decisions_GUI_Recruit_Window_Agent_2_Name:0 "요원 2 이름"
+ USA_CIA_Decisions_GUI_Recruit_Window_Agent_3_Name:0 "요원 3 이름"
+ USA_CIA_Decisions_GUI_Recruit_Window_Agent_4_Name:0 "요원 4 이름"
+ USA_CIA_Decisions_GUI_tech_window_Upgrades_title:0 "과학기술국"
+ USA_CIA_Decisions_GUI_tech_window_Upgrades_subtitle:0 "아래에 연구를 선택하세요."
+
+ USA_CIA_Decisions_GUI_CIA_upper_tech_row_title_tt:0 "랭클리 연구 센터"
+ USA_CIA_Decisions_GUI_CIA_lower_tech_row_title_tt:0 "윌리엄 도너번 연구실"
 
  USA_CIA_region_locked:0 "§R잠김§!"
 
@@ -283,6 +303,7 @@
  CIA_tech_10:0 "속이 빈 동전"
 
  USA_CIA_research_progress:0 "연구가 §Y[?USA_CIA_research_progress_percentage|%]§!만큼 진행됐습니다."
+ USA_CIA_Decisions_GUI_tech_window_completed_tt:0 "CIA 연구 완료"
 
 
 
@@ -874,7 +895,7 @@ USA_CIA_analize_intelligence:0 "정보 분석"
 
  USA_CIA_JAP.1.t:0 "Unauthorized go-slow action"
  USA_CIA_JAP.1.desc:0 "A disruption on the Kyōto-sen is beginning to draw an unfortunate amount of attention. Train drivers, apparently frustrated by a lack of responsiveness on the part of management, seem to have brought their complaints about working conditions into the public in the form of a daily go-slow action. As the trains spend an extra couple of minutes at each station, fliers outlining the drivers' requests are circulated among the ridership.\n\nCrucially, and embarrassingly, one of the demands is for measures to limit suicides by train.\n\nSuicide has been a growing problem, and one we have spent a great deal of energy playing down the significance of. For it to be common enough to be a source of major concern for train drivers flies in the face of that messaging, undoing our efforts. While the matter is now being dealt with, a lot of damage has already been done, and we should expect a significantly higher consciousness on the suicide issue in the near future.\n\nThe high level of coordination and the sophistication of the printed material makes us believe the train drivers are unlikely to be operating alone. Unfortunately, however, our investigations have so far failed to make any progress in uncovering who their backers might be."
- USA_CIA_JAP.1.a:0 "Damn it"
+ USA_CIA_JAP.1.a:0 "망할."
 
  USA_CIA_JAP.2.t:0 "조선 상황 보고"
  USA_CIA_JAP.2.desc:0 "조선반도에 대한 총독부의 보고는 최근 분리주의자 테러 공격의 급증을 알리고 있습니다. 관할 경찰서와 군부대 주둔지들이 특히 심각한 타격을 받아, 본토의 보급품 수송 과정을 방해햇습니다. 다행히도, 모든 용의자는 구금된 상태이며, 사형을 선고받을 가능성이 높습니다.\n\n심문중에, 테러리스트들은 그들의 어떠한 후원자의 이름도 대지 않았지만, 이후 관련된 장소를 급습하자 은닉된 수많은 미국산 무기와 군수품들이 발견되었습니다. 헌병대 조선 지부는 이 문제를 더 조사할 예정입니다."
@@ -889,8 +910,8 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_JAP.4.a:0 "걱정되는군."
 
  USA_CIA_JAP.5.t:0 "Unrest in the Hawaiian Islands" 
- USA_CIA_JAP.5.desc:0 "Jails in Honolulu have been overflowing this past week with the arrests of several anti-Japanese terrorist cells on the islands. Since the beginning of its fraternity with the home islands in 1946, integrating Hawaii into the great Japanese realm has always been a challenge, only intensified in recent years. This latest batch of attacks seems to be split into two camps, namely American nationalist and Native Hawaiian resistance. Both groups have attacked military and police installations, disrupting naval supply lines, and harassing Japanese citizens on the islands. Thankfully, they have all been apprehended and turned in for questioning. Interestingly, the American safe houses had several articles of wartime propaganda and blueprints for American rifles. The Kenpeitai will be pursuing this further.""
- USA_CIA_JAP.5.a:0 "Those can never stay still can they."
+ USA_CIA_JAP.5.desc:0 "Jails in Honolulu have been overflowing this past week with the arrests of several anti-Japanese terrorist cells on the islands. Since the beginning of its fraternity with the home islands in 1946, integrating Hawaii into the great Japanese realm has always been a challenge, only intensified in recent years. This latest batch of attacks seems to be split into two camps, namely American nationalist and Native Hawaiian resistance. Both groups have attacked military and police installations, disrupting naval supply lines, and harassing Japanese citizens on the islands. Thankfully, they have all been apprehended and turned in for questioning. Interestingly, the American safe houses had several articles of wartime propaganda and blueprints for American rifles. The Kenpeitai will be pursuing this further."
+ USA_CIA_JAP.5.a:0 "Those can never stay still, can they."
 
 # Indonesia
 
