@@ -43,7 +43,7 @@
  BRG_Spend_75_NI:0 "§Y75§! §R사상 주입§!을 잃을 것입니다."
  BRG_Unlock_Some_French:0 "§B프랑스인§!의 충성도를 얻기 위해 몇몇 결정을 §G해금할§! 것입니다."
  BRG_NI_Boost_10:0 "§Y20§! §G사상 주입§!을 얻을 것입니다."
- BRG_NI_Boost_35:0 "We will gain §Y35§! §GNational Indoctrination§!."
+ BRG_NI_Boost_35:0 "§Y35§! §G사상 주입§!을 얻을 것입니다."
  BRG_NI_Boost_25:0 "§Y45§! §G사상 주입§!을 얻을 것입니다."
  BRG_DestroyingSchoolsTrigger:0 "Any owned state with §BFrench§! Culture:\n   All of the following must be true:\n      Has §Y1§! or more school."
  BRG_DestroyingSchoolsTT:0 "A school will be §Rdestroyed§! in a state with §BFrench§! Culture"
@@ -579,7 +579,7 @@
  BRG_GCW_panzers_for_goring_decision:0 "괴링파에 전차 공급
  BRG_GCW_panzers_for_goring_decision_desc:0 ""
  
- BRG_globalplan_kondor_decisions_desc:0 "이베리아 연합은 아리아인의 고유한 힘과 이 세계를 지배한다는 정당한 주장에 맞서기 위해 협력하는 두 열등인간 부족의 최악의 측면이 합쳐진 것입니다. 스페인과 포르투갈 카우딜로의 이중 독재정권은 할 수 있는 모든 것을 했지만 자신들의 무능, 허영심, 눈뜨고 못 봐줄 능력 아래에서 나라는 매일 고통을 받으며 그들의 통치능력에 대한 가장 좋은 예가 되었습니다. 우리의 의무는 아리아인 패권의 불꽃을 통해 이들의 종말을 보는 것이며 그렇게 함으로써 나머지 세계를 이 쓰라린 갈등 속으로 끌어들이는 것입니다. 그것이 새로운 전쟁의 메아리가 되든, 정규군급 무기의 전달이 되든, 이 화약고에 있는 반란 세력들의 지원이 되든, 나머지 국가들은 이 폭발의 한복판에 자신들을 던질 수밖에 없을 것입니다.\n\n[GetBRGTerroristStatus]"
+ BRG_globalplan_kondor_decisions_desc:0 "이베리아 연합은 아리아인의 고유한 힘과 이 세계를 지배한다는 정당한 주장에 맞서기 위해 협력하는 두 열등인간 부족의 최악의 측면이 합쳐진 것입니다. 스페인과 포르투갈 카우디요의 이중 독재정권은 할 수 있는 모든 것을 했지만 자신들의 무능, 허영심, 눈뜨고 못 봐줄 능력 아래에서 나라는 매일 고통을 받으며 그들의 통치능력에 대한 가장 좋은 예가 되었습니다. 우리의 의무는 아리아인 패권의 불꽃을 통해 이들의 종말을 보는 것이며 그렇게 함으로써 나머지 세계를 이 쓰라린 갈등 속으로 끌어들이는 것입니다. 그것이 새로운 전쟁의 메아리가 되든, 정규군급 무기의 전달이 되든, 이 화약고에 있는 반란 세력들의 지원이 되든, 나머지 국가들은 이 폭발의 한복판에 자신들을 던질 수밖에 없을 것입니다.\n\n[GetBRGTerroristStatus]"
  BRG_terrorist_status:0 "CNT 자원량: [?IBR.IBR_CNT_Resources]\nCNT 활동도: [?IBR.IBR_CNT_Activity]\nCNT 지원도: [?IBR.IBR_CNT_Support]\n\nFSLP 자원량: [?IBR.IBR_FSLP_Resources]\nFSLP 활동도: [?IBR.IBR_FSLP_Activity]\nFSLP 지원도: [?IBR.IBR_FSLP_Support]\n\nTBA 자원량: [?IBR.IBR_TBA_Resources]\nTBA 활동도: [?IBR.IBR_TBA_Activity]\nTBA 지원도: [?IBR.IBR_TBA_Support]\n\nETA 자원량: [?IBR.IBR_ETA_Resources]\nETA 활동도: [?IBR.IBR_ETA_Activity]\nETA 지원도: [?IBR.IBR_ETA_Support]\n\n"
  BRB_no_status:0 "여기에는 볼 게 없습니다."
 
@@ -2049,10 +2049,10 @@ BRG.5401.a:0 "The Russians take up arms again."
  ### ENDING TOOLTIPS
  ####################
 
- BRG_Lost_Revolt_Ending_TT:0 "The Burgundian nightmare will not longer haunt those who were forced under its spell...\n\n§WFrom the entire Burgundy team, thank you for playing! We hope you've enjoyed this expierence and will play through Burgundy again to discover all the paths it has to offer!§!"
- BRG_Won_Revolt_Ending_TT:0 "The Burgundian nightmare still persists, but it will never haunt Europe again...\n\n§WFrom the entire Burgundy team, thank you for playing! We hope you've enjoyed this expierence and will play through Burgundy again to discover all the paths it has to offer!§!"
- BRG_Nuclear_War_Ending_TT:0 "§RAll it takes is one man to change the world forever...§!\n\n§WFrom the entire Burgundy team, thank you for playing and congratulations for beating Burgundy! We hope you've enjoyed this experience and will play again to discover all the paths it has to offer.§!"
- BRG_Novak_Barbie_Ending_TT:0 "§PEichmann§!\n\n§YEriksson§!\n\n§RLe Phénix§!\n\nThere can only be one...\n\n\n§WFrom the entire Burgundy team, thank you for playing! We hope you've enjoyed it!!"
+ BRG_Lost_Revolt_Ending_TT:0 "부르군트의 악몽은 더 이상 그 아래에 놓였던 자들을 괴롭히지 않을 것입니다...\n\n§W전체 부르군트 팀을 대표하여 플레이해주셔서 감사합니다. 여러분이 이번 게임을 즐겼기를 바라며, 부르군트에 있는 모든 경로를 찾기 위해 다시 한번 했으면 좋겠습니다!§!"
+ BRG_Won_Revolt_Ending_TT:0 "부르군트의 악몽은 여전히 지속되고 있지만 다시는 유럽을 괴롭히지 않을 것입니다...\n\n§W전체 부르군트 팀을 대표하여 플레이해주셔서 감사합니다. 여러분이 이번 게임을 즐겼기를 바라며, 부르군트에 있는 모든 경로를 찾기 위해 다시 한번 했으면 좋겠습니다!§!"
+ BRG_Nuclear_War_Ending_TT:0 "§R세상을 영원히 바꾸려면 한 사람만 있으면 됩니다...§!\n\n§W전체 부르군트 팀을 대표하여 플레이해주셔서 감사하고 부르군트로 이긴 것을 축하합니다! 즐거운 시간 되셨기를 바라며, 다시 플레이하여 이 게임이 제공하는 모든 경로를 확인해 보세요!§!"
+ BRG_Novak_Barbie_Ending_TT:0 "§P아이히만§!\n\n§Y에릭손§!\n\n§R르 피닉스§!\n\n하나만 있을 수 있습니다...\n\n\n§W전체 부르군트 팀을 대표하여 플레이해주셔서 감사합니다! 즐거운 시간 되셨기를 바랍니다!!"
 
 
 ################################################################################################
