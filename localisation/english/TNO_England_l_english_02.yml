@@ -186,11 +186,13 @@ GFX_ENG_EnglishGoogleMaps_State1296_Collab:0 "GFX_ENG_EnglishGoogleMaps_State129
 GFX_ENG_EnglishGoogleMaps_State1296_Hmmlr:0 "GFX_ENG_EnglishGoogleMaps_State1296_Hmmlr"
 
 Eng_Devastation_ChosenStateName_text:0 "Selected State: [Eng_Devastation_ChosenStateName]"
-ENG_Devastation_ChosenState_Devastation_text:0 "§eDevastation §gin this state is currently at [?var:ENG_GUI_Devastation_ChosenState:ENG_GUI_Devastation_State|1]% and changes by [?var:ENG_GUI_Devastation_ChosenState:ENG_GUI_Devastation_State_Total_Tick|1]% daily."
-ENG_Devastation_ChosenState_Radicalisation_text:0 "§rRadicalisation §gin this state is currently [ENG_GUI_Devastation_Radicalisation_State]"
-ENG_Devastation_National_Devastation_text:0 "§eDevastation §gnationwide is currently at [?ROOT.ENG_GUI_Devastation_National_Devastation|1]%."
-ENG_Devastation_National_Devastation_Effects_Text:0 "Effects on the people: §V[?ROOT.ENG_GUI_Devastation_Stab_Factor|V]§g stability, §V[?ROOT.ENG_GUI_Devastation_WS_Factor|V]§g daily.\n\n §gRadicalisation nationwide is [ENG_GUI_Devastation_Radicalisation_National]."
-ENG_Devastation_ChosenState_Devastation_effects_text:0 "Effects on the troops: §n+[?ROOT.ENG_GUI_Devastation_Attack_Factor|n] §gattack, §n+[?ROOT.ENG_GUI_Devastation_Attack_Factor|n] §gdefence, §V-[?ROOT.ENG_GUI_Devastation_Attack_Factor|V] §gmovement speed."
+ENG_Devastation_ChosenState_Devastation_text:0 "Devastation:§e [?ENG_GUI_Devastation_ChosenState:ENG_GUI_Devastation_State|2]%§!, Daily Change: §e[?ENG_GUI_Devastation_ChosenState:ENG_GUI_Devastation_State_Total_Tick|=2]%§!"
+ENG_Devastation_ChosenState_Devastation_text_2:0 "Daily Change: §e[?ENG_GUI_Devastation_ChosenState:ENG_GUI_Devastation_State_Total_Tick|2]%§!"
+ENG_Devastation_ChosenState_Radicalisation_text:0 "State Radicalisation is [ENG_GUI_Devastation_Radicalisation_State].§!"
+ENG_Devastation_National_Devastation_text:0 "Nationwide Devastation: §e[?ROOT.ENG_GUI_Devastation_National_Devastation|2]%§!"
+
+ENG_Devastation_National_Devastation_Effects_TT:0 "§F§eDevastation§! §Yeffects on the people§!:\n   Stability: [?ENG_GUI_Devastation_Stab_Factor|+=2%]\n   Weekly Stability: [?ENG_GUI_Devastation_WS_Factor|+=2%]\n\n§eDevastation§! §Yeffects on the troops§!:\n   Division Attack: [?ENG_GUI_Devastation_Attack_Factor|+=2%]\n   Division Defense: [?ENG_GUI_Devastation_Attack_Factor|+=2%]\n   Division Speed: [?ENG_GUI_Devastation_Speed_Factor|+=2%]§!"
+ENG_Devastation_National_Devastation_Effects_Text:0 "Nationwide Radicalisation is [ENG_GUI_Devastation_Radicalisation_National].§!"
 
 ENG_GUI_Devastation_DynMod:0 "A Devastating War"
 ENG_DECCAT_ENG_Devastation:0 "A Devastating War"
@@ -199,15 +201,15 @@ Radicalisation_low:0 "§nlow"
 Radicalisation_med:0 "§ymoderate"
 Radicalisation_high:0 "§Vhigh"
 
-Devastation_Increase_tt:0 "§gDevastation in this state will§! §Vincrease§!.\n"
-Devastation_Decrease_tt:0 "§gDevastation in this state will§! §nDecrease§!.\n"
-Devastation_Tick_Increase_tt:0 "§gThe monthly change in devastation in this state will§! §Vincrease§!.\n"
-Devastation_Tick_Decrease_tt:0 "§gThe monthly change in devastation in this state will§! §nDecrease§!.\n"
+Devastation_Increase_tt:0 "Devastation in this state will §Vincrease§!.\n"
+Devastation_Decrease_tt:0 "Devastation in this state will §nDecrease§!.\n"
+Devastation_Tick_Increase_tt:0 "The monthly change in devastation in this state will§! §Vincrease§!.\n"
+Devastation_Tick_Decrease_tt:0 "The monthly change in devastation in this state will§! §nDecrease§!.\n"
 
-Radicalisation_Increase_tt:0 "§gRadicalisation in this state will§! §Vincrease§!.\n"
-Radicalisation_Decrease_tt:0 "§gRadicalisation in this state will§! §nDecrease§g.\n"
-Radicalisation_Tick_Increase_tt:0 "§gThe monthly change in radicalisation in this state will§! §Vincrease§!.\n"
-Radicalisation_Tick_Decrease_tt:0 "§gThe monthly change in radicalisation in this state will§! §nDecrease§!.\n"
+Radicalisation_Increase_tt:0 "Radicalisation in this state will§! §Vincrease§!.\n"
+Radicalisation_Decrease_tt:0 "Radicalisation in this state will§! §nDecrease§!.\n"
+Radicalisation_Tick_Increase_tt:0 "The monthly change in radicalisation in this state will§! §Vincrease§!.\n"
+Radicalisation_Tick_Decrease_tt:0 "The monthly change in radicalisation in this state will§! §nDecrease§!.\n"
 
 
 ENG_Reconstruction_North_Show:0 "Show Reconstruction Decisions For The North"
