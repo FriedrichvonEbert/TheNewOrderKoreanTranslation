@@ -31,7 +31,7 @@
  
  #Kartenhaus
  GER_BOR_political_rodeo_idea:0 "정치 로데오"
- GER_BOR_political_rodeo_idea_desc:0 "§FStability from our level of §YControl§!:§! [?BOR_SIGDynMod_Values^12|=+%2]\n§g--------------§!\nThe Third Reich's politics are a labyrinthine mess - the legacy of Hitler's constant playing off of various factions and individuals against one another. Anyone with even a modicum of power is convinced that they, and they alone, know what is best for Germany. As a result, the various demographics and interest groups within the Reich can never be relied upon to support each other, only the Führer. In order to bind the fractured Reich back together, he will have to court or coerce each and every one of these dissident factions, bringing them back into line under the Führerprinzip. Should he fail, the Reich is sure to enter a state of stagnation, decline and ultimately collapse. Only a will of iron, ruthless intrigue and the velvet glove can save National Socialism.\n§g--------------§!\n§WOur relations with the various §DSpecial Interest Groups§! within the Reich grants us:§!\n\n§F§Y관료§! - [BOR_GetSIGEffects_0]\n§Y국민§! - [BOR_GetSIGEffects_1]\n§Y지식인§! - [BOR_GetSIGEffects_2]\n§Y교회§! - [BOR_GetSIGEffects_3]\n§Y육군§! - [BOR_GetSIGEffects_4]\n§Y크릭스마리네§! - [BOR_GetSIGEffects_5]\n§Y질서경찰§! - [BOR_GetSIGEffects_6]\n§Y라이히스베르케§! - [BOR_GetSIGEffects_7]\n§YIG Farben§! - [BOR_GetSIGEffects_8]\n§Y지멘스§! - [BOR_GetSIGEffects_9]\n§Y노예농장§! - [BOR_GetSIGEffects_10]\n§Y은행§! - [BOR_GetSIGEffects_11]§!"
+ GER_BOR_political_rodeo_idea_desc:0 "§F§Y통제§! 정도에 따른 안정도:§! [?BOR_SIGDynMod_Values^12|=+%2]\n§g--------------§!\n히틀러가 여러 세력과 세력을, 개인과 개인을 지속적으로 대치시킨 결과 제 3제국의 정치는 미로와 같이 복잡해졌습니다. 아주 작은 권력을 가진 누구라도 그 자신만이 무엇이 독일을 위해 최선인지를 알고 있다고 확신합니다. 그 결과로 , 독일인들과 다양한 이익 집단은 서로에게 의지하고 지원할 수 없으며, 그 대상은 오직 총통만입니다. 산산조각난 제국을 되돌리기 위해, 총통은 모든 반체제 세력을 법정에 세우거나 협박해야 할 것입니다. 강철의 의지와 무자비한 음모,표면적인 부드러움만이 국가사회주의를 구할 수 있습니다.\n§g--------------§!\n§W라이히 내부의 §D특별한 이익 집단§!과의 관계는:§!\n\n§F§Y관료§! - [BOR_GetSIGEffects_0]\n§Y국민§! - [BOR_GetSIGEffects_1]\n§Y지식인§! - [BOR_GetSIGEffects_2]\n§Y교회§! - [BOR_GetSIGEffects_3]\n§Y육군§! - [BOR_GetSIGEffects_4]\n§Y크릭스마리네§! - [BOR_GetSIGEffects_5]\n§Y질서경찰§! - [BOR_GetSIGEffects_6]\n§Y라이히스베르케§! - [BOR_GetSIGEffects_7]\n§YIG 파르벤§! - [BOR_GetSIGEffects_8]\n§Y지멘스§! - [BOR_GetSIGEffects_9]\n§Y노예농장§! - [BOR_GetSIGEffects_10]\n§Y은행§! - [BOR_GetSIGEffects_11]§!"
  GER_BOR_political_rodeo_dynamic_modifier:0 "정치 로데오"
 
  BOR_SIGEffects_0:0 "정당 지지도 안정성: [?BOR_SIGDynMod_Values^Party_Bureaucracy|=+%2]"
@@ -104,12 +104,12 @@
  #Poland
  GER_bormann_surround_the_borders:0 "국방군 동원"
  GER_bormann_surround_the_borders_desc:0 "The border to Poland has proven to be dangerously fragile during the Bürgerkrieg. No longer. As the Wehrmacht mobilises we will lock the border so tight, that not even a Polish rat will be able to get through."
- GER_bormann_abwehr_army_focus:0 "Abwehr Army Focus"
- GER_bormann_abwehr_army_focus_desc:0 "The Polish military might be clearly inferior compared to the might of the Wehrmacht, but stacking the cards further in our favour can always help. The Abwehr shall thus infiltrate every level of the Polish forces."
- GER_bormann_abwehr_logistics_focus:0 "Abwehr Logistics Focus"
+ GER_bormann_abwehr_army_focus:0 "국방군 육군 집중"
+ GER_bormann_abwehr_army_focus_desc:0 "폴란드군은 국방군에 비해 확실히 열세이긴 하지만 우리에게 유리하게 미리 준비하는 것은 항상 도움이 됩니다. 그러므로 국방군은 폴란드군의 모든  단계에 침투할 것입니다."
+ GER_bormann_abwehr_logistics_focus:0 "국방군 보급 집중"
  GER_bormann_abwehr_logistics_focus_desc:0 "The Polish military is working on a rather fragile logistics network. With the Abwehr sent to infiltrate their supply lines, the Untermensch shall soon see their rear support crumble like a house of cards."
- GER_bormann_polish_humiliation:0 "Polish Humiliation"
- GER_bormann_polish_humiliation_desc:0 "Those delusional Poles have refused our generous offer to return to the clearly superior rule of a new Generalgouvernement, embarrassing Führer Bormann in front of the world. This will not be forgotten!"
+ GER_bormann_polish_humiliation:0 "폴란드의 굴욕"
+ GER_bormann_polish_humiliation_desc:0 "멍청한 폴란드인들이 확실히 우월한 새로운 총독부의 통치 아래로 돌아오라는 우리의 자비로운 제안을 거절해 보어만 총통을 전 세계가 보는 앞에서 망신을 주었습니다. 이 일은 잊혀지지 않을 것입니다!"
  GER_bormann_nsdap_oversight:0 "NSDAP Oversight"
  GER_bormann_nsdap_oversight_desc:0 "The incompetence of Hans Frank has exploded into our face during the Civil War. A lot of pragmatic checks and reforms are to be implemented to prevent this from ever happening in the Generalgouvernement again."
  
@@ -131,20 +131,20 @@
  BOR_recruit_dutch_refugees_desc:0 "SS의 잔인함은 특히 라이히의 국경 주변에 사는 많은 네덜란드인들을 고향에서 쫓아냈습니다. 그들 대부분은 국방군에 참가해 힘러의 깡패 조직을 몰아내는 데 함께하고 싶어합니다."
 
  #Nordic diplo
- BOR_FIN_military_attache: "German Military Attaché"
+ BOR_FIN_military_attache: "독일 주재무관"
  
- BOR_scandic_defence_initiative:0 "Scandinavian Defence Initiative"
+ BOR_scandic_defence_initiative:0 "스칸디나비아 방어 작전"
  BOR_scandic_defence_initiative_desc:0 ""
- BOR_swedesh_tech_cooperation:0 "Wissenschaftliche Gruppe"
- BOR_swedesh_tech_cooperation_desc:0 "The Wissenschaftliche Gruppe, known as the Scientific Group to American observers, is a technological collaboration between the Third Reich and Sweden, building on pre-existing industrial ties to bolster one another's economies. It enables scientists, engineers, and other specialists to better exchange their knowledge and promote innovation across the Pakt."
- BOR_scandic_maneuvres:0 "Maneuvres in Scandinavia"
+ BOR_swedesh_tech_cooperation:0 "기술집단"
+ BOR_swedesh_tech_cooperation_desc:0 "기술집단은 3제국과 스웨덴의 기술적 협력으로, 현재 존재하는 산업적 연관성을 강화해 서로의 경제를 강화하는 기술적 합작입니다. 이로 인해 과학자들, 공학자들, 기타 학자들이 더 폭넓은 지식을 알게 되고 팍트 전역에서 혁신을 촉진할 수 있게 합니다."
+ BOR_scandic_maneuvres:0 "스칸디나비아 기동"
  BOR_scandic_maneuvres_desc:0 ""
 
- BOR_FIN_bunkers:0 "Finnish Bunkers"
+ BOR_FIN_bunkers:0 "핀란드 벙커"
 
  #Moskowien diplo
  BOR_moskowien_reconstruction: "모스코비엔"
- BOR_moskowien_reconstruction_desc: "The war to reconquer Moskowien is over, and the Reichskommissariat is once again under full German control. Now, a comprehensive effort has been undertaken to rebuild the region and ensure it can become a productive province of the larger Reich: large funds are being destined to reconstruct cities, factories and key infrastructures destroyed by the belligerents."
+ BOR_moskowien_reconstruction_desc: "모스코비엔 재정복 전쟁이 끝났고, 판무관부는 다시 한번 독일의 통제 하에 있습니다. 이제, 지역을 재건하고 더 큰 라이히의 생산적인 지역이 될 수 있도록 하려는 행동이 시작되었습니다. 많은 투자금이 적이 파괴한 도시와 공장, 기반시설을 재건하는 데 투입되었습니다."
  BOR_MCW_russian_dissidence:0 "러시아인 반대파"
  BOR_MCW_russian_dissidence_desc:0 "러시아 현지인들이 국가판무관부에서 분열과 반란을 조장하고 있습니다. 그들의 불만이 정당화되든 라이히로부터 독립하려고 하든 이 시위와 테러 공격은은 공공사업을 지연시키고 보안부대에 타격을 주고 있습니다. 과감한 행동을 하지 않는다면 저항은 계속 일어나거나 심지어 커질 것입니다."
  
@@ -379,11 +379,11 @@
  
  BOR_built_up_mauritius_and_reunion:0 "모리셔스와 레위니옹의 군사기지 설치를 완료했습니다."
 
- GER_diplomatic_mission:0 "Diplomatic mission"
- GER_IND_anti_japanese_rethoric:0 "Anti-Japanese rhetoric"
- GER_united_against_japan:0 "United against Japan"
+ GER_diplomatic_mission:0 "외교적 임무"
+ GER_IND_anti_japanese_rethoric:0 "반일 미사여구"
+ GER_united_against_japan:0 "일본에 맞서 하나로"
 
- econ_misc_income_add_small_increase:0 "§GIncreases§! our misc income by a §Ysmall§! amount."
+ econ_misc_income_add_small_increase:0 "우리의 기타 수익이 §Y조금§! §G증가§!합니다."
  
  #OFN diplo
  GER_BOR_OFN_Talks_Fail:0 "미국-독일 회담이 §R실패했습니다§!"
@@ -404,10 +404,10 @@
  BOR_ECON_ONE_a_reforged_reich: "Führer Bormann's policies have reforged the Reich's economy, 보어만 총통의 정책이 라이히의 경제를 개혁했습니다. 더 이상 독일은 세계의 병자로 보이지 않을 겁니다!\n§YThis will increase the effectiveness of the 결정 네트워크§!."
  BOR_ECON_ONE_germanys_new_railways: "보어만의 새로운 기반시설 건설 계획이 더 많은 독일인들에게 일자리를 주었습니다.§Y빈곤율이 감소합니다.§!."
  BOR_ECON_ONE_our_new_profits: "우리가 한 대규모 투자는 대규모 이익을 보아, §Y수익금으로 §G$500 백만 달러§!를 돌려받았습니다.§!"
- BOR_ECON_ONE_the_german_golden_age: "The modern wunderwaffe is completed, our economy is stronger than ever! §YThis will increase our §Ggrowth by 0.5%§!, our §Gconstruction speed by 3%§! and reduce our §Gneeded consumer goods by 2%.§!§!\n§G독일의 황금기§가 시작된 것입니다!"
+ BOR_ECON_ONE_the_german_golden_age: "현대적 꿈의 무기가 완성되었고, 우리 경제는 그 어느 때보다 강력합니다!§Y이것은 GDP 성장률을 §G0.5%§!,건설 속도를 §G3%§! 증가시키고 소비재 필요량§G2%§! 감소시킬 것입니다.§!\n§G독일의 황금기§가 시작된 것입니다!"
  BOR_ECON_ONE_das_entscheidungsnetzwerk: "Our investments have produced the §Y결정 네트워크§!\na complex computer network that will aid in the management of the Reich's economy by §Yimproving growth and reducing costs§!."
  BOR_ECON_ONE_the_cogs_turn: "The §Y결정 네트워크§!는 이미 그 잠재력을 보였습니다. has already shown its potential; by making multiple economic ministers redundant it has §Yallowed us to reduce inessential costs.§!"
- BOR_ECON_ONE_the_impoverished_and_useless: "The increased employment of German workers has resulted in said workers spending more, this increased demand has caused more German firms to be opened which in turn hire more workers and restart the cycle.\n§YFurther decreasing our poverty rate.§!"
+ BOR_ECON_ONE_the_impoverished_and_useless: "The increased employment of German workers has resulted in said workers spending more, this increased demand has caused more German firms to be opened which in turn hire more workers and restart the cycle.\n§Y빈곤율이 계속 감소합니다.§!"
  BOR_ECON_ONE_now_proud_and_productive: "This increased spending has §Yincreased the amount of money circulating in our economy, raising growth by§! §G0.5%§!"
  BOR_ECON_ONE_laying_the_ground: "This shall unlock §Ydecisions relating to building domestic infrastructure§!."
  BOR_ECON_ONE_by_carrot: "§R이것은 $250만 달러§!의 비용이 들 것입니다."
@@ -419,7 +419,7 @@
  BOR_ECON_ONE_the_power_of_the_machine: "우리의 투자는 §G$100 백만§!달러의 이익을 냈습니다."
  BOR_ECON_ONE_und_das_werk_der_intelligenz: "중소기업의 연구를 지원하기 위해 §R$100 백만 달러§!를 지원할 것입니다"
  BOR_ECON_ONE_stunting_cybersyn_one: "§Y결정 네트워크§!는 예산 부족으로 지체되었습니다. §Y우리 GDP 성장률에 미치는 영향이 §R1.5%§! 감소하고 비용 절약 능력이 §R0.5%§!감소합니다.§!"
- BOR_ECON_ONE_stunting_cybersyn_two: "The §Y결정 네트워크§! has been stunted due to lack of funds and further development has been abandoned, §Yreducing it's impact on our growth by §R1.5%§! and its ability to reduce costs by §R0.15%§!§!"
+ BOR_ECON_ONE_stunting_cybersyn_two: "The §Y결정 네트워크§! 는 예산 부족으로 지체되었고 향후 진전has been stunted due to lack of funds and further development has been abandoned, §Y우리 경제 성장률에 미치는 영향력 §R1.5%§!와 비용 감소 능력§R0.15%§!를 제거합니다.§!"
  BOR_ECON_ONE_stunting_cybersyn_three: "Our investment in the startup has been abandoned due to our inability to provide further funds, yielding us an §Yunfinished Entscheidungsnetzwerk§! that can §Gincrease growth and reduce costs by 0.1%§!."
  BOR_ECON_ONE_put_them_to_work: "§R25,000명의 노예를 없애 노동에 투입될 것입니다.§!"
 
@@ -446,7 +446,7 @@
 
  #Dismantlement I
  BOR_Dismantlement_PreparationAvailable:0 "\n§x해체 버튼이§! §Y70%§! §L통제율§! §e에 도달한다면 선택할 수 있게 될 것입니다.§!"
- BOR_Dismantlement_ExecutionAvailable:0 "§eThe§! §xExecute§! §ebutton will become available once we reach§! §Y75%§! §LControl.§!"
+ BOR_Dismantlement_ExecutionAvailable:0 "§L통제율§! §Y75%§!에 도달한다면 §x해체§! §e버튼이 활성화될 것입니다."
  BOR_Dismantlement_Church:0 "§Y교회§!는 §R완전히§! §e해체§!될 것입니다."
  BOR_Dismantlement_Plantations:0 "§Y노예농장§!은 §R완전히§! §e해체§!될 것입니다."
  BOR_Dismantlement_Siemens:0 "§Y지멘스§!는 §R완전히§! §e해체§!될 것입니다."
@@ -519,11 +519,11 @@
  GER_Bormann_Foreign_Policy_Mauritius_and_Reunion:0 "천국의 정복"
  GER_Bormann_Foreign_Policy_Mauritius_and_Reunion_desc:0 "독일령 아프리카 본토의 몰락과 마다가스카르 상실 이후 우리는 인도양의 유일한 전초기지를 상실했고 남반구의 바다에 대한 일본의 통치를 막아낼 수 없게 되었습니다. 하지만 아프리카의 혼란스러운 상황은 우리가 이 지역에 다시 들어갈 기회를 제공해주었습니다. 크릭스마리네는 마다가스카르 근처의 모리셔스와 레위니옹을 점거하고 있는 적대 세력에 대한 빠른 공격을 준비하고 있습니다.\n\n만약 그들이 성공한다면 우리는 인도양에서 일본의 공격을 견뎌낼 기지를 재설치할 수 있을 것입니다."
  
- BGR_Take_Moskowien:0 "Take Moskowien"
- BGR_Moskowien_Setup:0 "Reorganize Moskowien"
+ BGR_Take_Moskowien:0 "모스코비엔 점령"
+ BGR_Moskowien_Setup:0 "모스코비엔 재조직"
  
- GER_Bohemia_Reconstruction_BGR_A:0 "Bohemian Reconstruction"
- GER_Bohemia_Reconstruction_BGR_B:0 "Bohemian Reconstruction"
+ GER_Bohemia_Reconstruction_BGR_A:0 "보헤미아 재건"
+ GER_Bohemia_Reconstruction_BGR_B:0 "보헤미아 재건"
 
  #Fall Rollo
  GER_Bormann_Fall_Rollo_category:0 "롤로 상황"
@@ -1216,10 +1216,10 @@ BOR_reichs_northern_fortress:0 "라이히의 북방 요새"
 BOR_reichs_northern_fortress_desc:0 "1940년, 그 해는 라이히의 역사에 영광의 시간으로 영원히 기억될 것입니다. 베저위붕 작전은 그 해에 가장 성공적인 작전은 아니었지만, 그래도 퇴폐적인 연합군을 몰아내고 노르웨이의 자원이 우리 것이 된 만큼 꽤 성공적이었습니다. 그뿐만 아니라. 노르웨이인들은 라이히에 통합된 첫 번쨰 스칸디나비아인이 되었습니다. 마침내, 노르웨이의 항구와 피요르는 라이히에게 북해의 제해권을 얻을 기회를 주었고, 그 기회는 영국 침공에서 모두 정말 유용했습니다.이 모든 장점으로 전쟁이 끝난 이후에도 노르웨이에 남아 있기로 한 결정에는 의문의 여지가 없습니다. 노르웨이는 북방과 아버지 조국을 지키는 우리의 가장 중요한 국가판무관부로 남았습니다.\n\n한편 최근에 노르웨이에 대한 우리의 지배권은 원전히 무너졌습니다. 자신의 상황을 비관한 테르보펜은 내전에서 싸우려 부하들과 노르웨이를 떠났습니다. 명예로운 결정이긴 하지만 동시에 지역에서의 우리 지배를 무너뜨렸습니다. 이 결정은 우리 북부 지방을 서구 제국주의에게 열어 주었고, 심지어 미국인들이 영향력을 확장할 기회를 잡으려 북해에서 돌아다니고 있습니다. \n\n다행히도, 라이히는 다시 한번 보어만 총통 아래에서 기반을 다시 세웠고, 우리가 잃은 요새를 다시 찾을 수 있는 기회를 잡았습니다. 이것이 쉬운 방법은 아니지만, 라이히에겐 너무 어려운 것이란 없습니다. 곧, 노르웨이는 다시 우리의 것이 될 겁니다."
 
 ##NS Radicals##
-BOR_a_welcome_return:0 "A Welcome Return"
-BOR_a_welcome_return_desc:0 "When Bormann opened the issue of returning to Norway, there was some consternation among the Reich's diplomatic corps. Much of Norway, as infuriating as it is, is against the return of the Reichskommissariat, making our deal harder. However, when the first ambassadors sailed across the Danish Straits, they landed to something decidedly unexpected- a band, Jonas Lie himself, and swastikas waving in the wind next to their Norwegian counterparts. Things only got better from there.\n\nAs it turned out, when Terboven left Norway, the NS- a collaborationist party that controlled much of Norwegian politics- immediately devolved into multiple cliques of politicians, each fighting for control. After a hard-fought struggle, Lie and his brand of radicals seized power and took the government. Incredibly enough, Lie is more in favor of Germany than the moderates of the NS ever were. We did not even need to ask about a Norwegian re-entry to the Pakt- they suggested it themselves!\n\nOf course, such a positive development is being spread heavily among official papers back home. Already, crowds read fluff stories about the Norwegian's loyalty and belief in the Aryan dream- a loyalty and belief so great that they remained true to the Fatherland, even in our moment of greatest weakness. Such a tale has gone over quite well in the Reich, and it seems that Norway's re-entry to the Pakt is only a matter of paperwork now. Who knew it would be this easy?"
+BOR_a_welcome_return:0 "복귀 환영"
+BOR_a_welcome_return_desc:0 "보어만이 노르웨이로 돌아가는 문제를 다시 꺼냈을 때, 라이히의 외교관들은 실망했습니다. 노르웨이인 대부분은 국가판무관부로 다시 돌아가는 것을 반대하며 협상을 더 어렵게 만들고 있습니다. 하지만 첫번째 대사들이 덴마크 해협을 지나자 확실히 예상 못한 장면을 보게 되었습니다. 노르웨이 대표단에 요나스 리 본인이 있고, 스와스티카가 바람에 휘날리는 것이었습니다. 그때부터 상황은 계속 나아졌습니다.\n\n밝혀진 바로는, 테르보펜이 노르웨이를 떠났을 때 독일 협력파들이 노르웨이 정치 대부분을 제어하고 있었고, 정치인들의 군벌들로 나누어져 국가 통제권을 놓고 서로 다투고 있었던 것입니다. 힘든 싸움 이후에 리와 그의 급진파들은 권력을 장악하고 정부를 차지했습니다. 이미 믿기 힘들지만 리는 나치당 중도파들이 그랬던 것보다 독일의 이익에 부합합니다. 우리는 노르웨이가 팍트로 돌아올지도 물어보지 않았습니다, 그들이 스스로 제안한 것입니다!\n\n물론, 이런 긍정적인 상황은 국내에서 신문으로 아주 널리 퍼지고 있습니다. 이미 대중들은 노르웨이인들의 충성과 아리아인의 꿈에 관한 따뜻한 이야기를 읽고 있습니다. 그들의 충성과 믿음은 정말 강해 우리의 가장 약한 상황에서도 조국에 진실하게 남았습니다. 이런 이야기는 라이히 전체에 잘 퍼졌고, 노르웨이의 복귀는 서류 작업 몇 번만 하면 될 것 같습니다. 누가 이렇게 쉬울 줄 알았겠습니까?"
 
-BOR_commend_their_loyalty:0 "Commend Their Loyalty"
+BOR_commend_their_loyalty:0 "그들의 충성을 칭찬하기"
 BOR_commend_their_loyalty_desc:0 "The story of Lie and his radicals only gets more brilliant with each passing day. Every day, we learn of the tales of their loyalty in the face of treachery, how they stared down those who wished to take advantage of our indisposition and defeated them. In fact, it's becoming an opinion of many in the government that the Norwegians were more loyal to National Socialism than much of Germany itself.\n\nOf course, such blind faith in our system deserves some reward for their effort. It has become a topic of some discussion in Bormann's inner circle that Lie and his clique deserve, at the very least, a commendation of their bravery and loyalty. Such an award would undoubtedly please the NS, and would set an example to other, less scrupulous Reichskommissariats that loyalty to the Reich will be rewarded."
 
 BOR_grain_and_steel1:0 "철과 곡식"
@@ -1276,22 +1276,22 @@ BOR_keep_things_under_control:0 "제어 유지하기"
 BOR_keep_things_under_control_desc:0 "Per Borten continues to push what is acceptable to the Reich to its absolute limit, and he has crossed that line today. Recently, we have received words of his new economic plan for Norwegen- a plan to not only defy our agricultural policy that we have pushed for years, but even liberalize their economy, opening up to Western influence! Such policy flies directly in the face of National Socialist doctrine at best and is downright treasonous at worst, but the kicker is the motive we suspect to be behind this action- Borten pretends that this is only for the good of Norway, but it's clear that this motion is meant to distance Norway from us economically, allowing them to slip away while we aren't looking!\n\nIf Borten truly believes that he can slide such treachery past us without us noticing, he'll be proven wrong. We shall twist Borten's attempt to break from us to our own ends, using his own desire to see his reforms through to tie Norway even closer to Germania. Trade with the Americans will be redirected to Germany, while industrial parts will be sourced from Siemens rather than the Steel Belt. All of Europe will be part of the Reich, whether they like it or not, and they will be the better for it."
 
 ##Milorg, Reformist Bormann##
-BOR_milorg_in_power:0 "A King in the North"
+BOR_milorg_in_power:0 "북쪽의 왕"
 BOR_milorg_in_power_desc:0 "Disaster has struck the northern fortress of the Reich. When Terboven retreated from Norway, he left what he believed to be a strong collaborationist presence to maintain control until the Heer could return. Unfortunately, his judgement proved incorrect. The collaborationists proved to be weak and incompetent, tearing themselves apart in their own petty grabs at power. In the chaos, the worst case scenario happened- the Milorg, long thought to be on their last legs, found a final surge of enthusiasm and seized power. The northern fortress, long thought to be impregnable, has been captured by decadent capitalists who now aim a dagger directly at the heart of National Socialism.\n\nThough many in the highest positions of Germany have advocated for immediate military action, Führer Bormann has decided against such an immediate action. Instead, we shall hold a conference with the Norwegian government. After all, we are more than warmongering brutes- the Aryan is not just a warrior, but a scholar and a statesman as well. We shall come to the table and find peace for the Norwegian situation, as unlikely as a diplomatic solution may be.\n\nBesides, in the case that talks fall through, we shall certainly have bought time for any backup plans we may wish to have in place."
 
-BOR_open_negotiations:0 "Let's Get Down to Business"
+BOR_open_negotiations:0 "일하러 가자"
 BOR_open_negotiations_desc:0 "Our plan to negotiate a settlement has cleared the first hurdle- the Norwegians have agreed to enter talks. Our best diplomats will be sent to hammer out a deal acceptable to all of us, no matter how daunting such a task may be. With skill, talent, and a healthy dose of luck, anything is possible, and we shall do our best to see Norway back in the Pakt.\n\nWhile the food for the conference is extravagant, and the tables for the conference have been made, set, and placed with the utmost care, there is an undeniable feeling of futility among the diplomatic corps. How can they actually convince the Norwegians, already high on the opiate of Western decadency, that partnership with the Germans is better? Worst of all, does Bormann truly even want this to succeed? The Führer is not well known for his love of capitalist nations, and his rather lackluster support of the conference seems to indicate a rather shaky interest in a peaceful solution. Is this whole conference just a ruse for whatever the Führer is planning?\n\nIn any case, the Norwegians are coming, and they're bringing briefcases and innumerable files. It remains up to the diplomats to find the perfect solution."
 
 BOR_a_surprising_success:0 "놀라운 성공"
 BOR_a_surprising_success_desc:0 "To the shock of nearly the entire diplomatic corps, talks with the Norwegian government have succeeded. By some miracle, a peaceful solution to the Norwegian problem has been found, and both nations scramble to find ambassadors to send on a mission they had no expectation of existing. Though the success of the conference is a surprise, it is certainly a welcome one for many- an invasion of Norway would certainly be a costly, long, and bloody affair.\n\nNone seem to be as surprised by the success of the conference as the Führer, who seems to have been fully expecting talks to fall apart. Forces on high alert have been stood down, pilots that had been readied for deployment now suddenly see the fuel take from their planes, and the Kriegsmarine's crews are dismissed from their ships after days of waiting. Most interestingly, numerous special agents have suddenly been recalled, their unknown mission suddenly cancelled. All of this demobilization seems to have deflated the militarists, who were similar to the Führer in their full expectation of a glorious new campaign for the Heer.\n\nThough the success of these talks may have been unexpected, both nations can cheer for a new era of relations between the Aryans of Germany and the Nordic people of Scandinavia, now ready to move forward in an era of unity."
 
-BOR_towards_a_fruitful_relationship:0 "Towards a Fruitful Relationship"
+BOR_towards_a_fruitful_relationship:0 "이익이 되는 관계로"
 BOR_towards_a_fruitful_relationship_desc:0 "The flag of the Reich flies proudly in Oslo, but no longer as that of a conqueror- rather, it is now proudly stationed above the German Embassy, just as the Norwegian flag flies in Germania. The new dynamic between former master and subject has sent shockwaves through Europe, and the people of both nations now enjoy the cuisine, music, and culture that the other provides. A new era of European cooperation seems to be dawning, and the partnership between Germany and Norway seems to be the first step on the path to a unified, proud Europe.\n\nOf course, the differences between the two are still massive. Norway's western, democratic outlook sharply clashes with the National Socialist doctrine that pervades through the Reich. Their capitalistic, free-market approach to economics drives a similar wedge in between the two nations. Some among the higher echelons of the Reich's political machine question why we ever negotiated with a rebellious subject. Bormann has his reasons, of course. Publically, it's because the Aryan is an inherently diplomatic race- one that can compromise and treat with anyone. Privately, it's because the cost of invasion would be much higher than necessary. After all, why would you need to force an ideology on a nation when you can simply nudge their politics that way from within?"
 
 BOR_the_expected_outcome:0 "예상된 결과"
 BOR_the_expected_outcome_desc:0 "Perhaps it was inevitable that talks would break down. There were a hundred places where talks could get hung up on- from economics, to the Pakt, to democracy, to American influence. In any case, one of these ended up catching the negotiations in a trap, and from there the conference spiraled. Reasonable discussion turned into shouting, shouting turned to insults, and insults led to the Norwegian delegation leaving the conference with no treaty.\n\nOf course, this was entirely expected in the Reich. Plans drawn up in the case of a negotiation breakdown are already finding themselves activated, as soldiers mobilize across the Reich for what could be the first major naval invasion the Reich has done since Sea Lion. However, the military may not be necessary if all goes well. Our agents have been hard at work in the cities of the northern fortress, and perhaps we will see a favorable outcome without needing to get our hands dirty.\n\nIn any case, it seems that the odds of blood remaining unspilt are diminishing by the hour. We can only make our moves and hope that they turn out favorably."
 
-BOR_its_time_for_plan_b:0 ""
+BOR_its_time_for_plan_b:0 "계획을 짤 시간"
 BOR_its_time_for_plan_b_desc:0 "Though an agreement may have been the preferred solution to the Norwegian problem for many, it certainly was not the only solution laid out on the table. Even while talks were being organized, plans were made behind the scenes in case of a conclusion to the conference that was deemed unfavorable.\n\nUnfortunately, it seems these plans will need to be put in practice.\n\nWe have made contact with numerous cells of old collaborators and loyalists, who are currently as displeased with Norway's leanings as we are. These men are the hardliners of the old regime, who were by far the most receptive to our rule. They were never able to hold the reins of the NS back in the Reichskommissariat days, but perhaps that can be changed.\n\nGuns, artillery, training, advisors- all are on their way to outfit our loyal fighters with the equipment necessary to overthrow the Norwegian government. Soon, our Norwegian allies shall throw the capitalist pigs down from their pillars, and the Reich shall reel in its errant brother."
 
 BOR_the_last_resort:0 "The Last Resort"
@@ -1500,7 +1500,7 @@ BOR_just_more_of_the_same:0 "같은 일의 반복일 뿐..."
 BOR_just_more_of_the_same_desc:0 "외교적 대실패 이후 총통은 이탈리아인들에게 큰 보복을 하기로 결정했습니다. 모든 양보는 취소될 것이며, 알프스 국경은 다시 완전히 무장될 겁니다. 거기다  우리는 배신자들에게 우리의 인내심을 이용할 수 있는 사람은 없다는 사실을 알려줄 새로운 방벽을 지을 겁니다.\n\n우리는 정말 변하려고 했습니다. 하지만 이탈리아인들은 그러지 않았습니다.\n\n그러므로, 지금부터 우리는 다시 한번 이전으로 돌아갈 것입니다.\n\n이번에는 영원히."
 
 ##Bormann Econ I focuses##
-BOR_a_modern_wunderwaffe:0 "현대의 꿈의 무기"
+BOR_a_modern_wunderwaffe:0 "현대적 꿈의 무기"
 BOR_a_modern_wunderwaffe_desc:0 "Just like the days of old, Germany's economic strength lies in the motivation, grit, and determination of its civilian populace! Martin Bormann, Führer of the Reich, has motioned to look into the past and see what had made Germany so great, and so strong!\n\nAs it was thirty years ago, the people of Germany will build infrastructure across the nation - the heart of the Reich is in its steel and concrete, after all - and make sure that every part of Germany is connected to each other. We will invest into the heart of Europe, and when we receive our due profits, we shall invest further, until the economy soars above the rest of the world!\n\nWith Bormann's vision, the future of Germany will be all the brighter - no longer shall the slave be the working man's image of the Reich. Instead, it will be the German man working in the factories and in the fields - and it is the Führer's will that slavery will no longer serve as Germany's modus operandi."
 
 BOR_removing_the_weeds:0 "잡초를 뽑자..."
