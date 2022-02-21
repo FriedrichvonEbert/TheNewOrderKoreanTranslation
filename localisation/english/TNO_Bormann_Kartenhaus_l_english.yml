@@ -1,23 +1,7 @@
-﻿l_english:
-
-#██████╗  ██████╗ ██████╗ ███╗   ███╗ █████╗ ███╗   ██╗███╗   ██╗#
-#██╔══██╗██╔═══██╗██╔══██╗████╗ ████║██╔══██╗████╗  ██║████╗  ██║#
-#██████╔╝██║   ██║██████╔╝██╔████╔██║███████║██╔██╗ ██║██╔██╗ ██║#
-#██╔══██╗██║   ██║██╔══██╗██║╚██╔╝██║██╔══██║██║╚██╗██║██║╚██╗██║#
-#██████╔╝╚██████╔╝██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║██║ ╚████║#
-#╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝	  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝#
-#Kartenhaus Localization
-
-#|=====[ DECISION VIEW ]=====|#
- ##Decision Loc itself
+l_english:
  GER_Bormann_category:0 "Das Kartenhaus(카드하우스)"
  GER_Bormann_category_desc:0 "제3제국의 정치는 마치 미로와도 같이 엉망진창이며 히틀러가 다른 파벌과 개개인을 끊임없이 적대시하면서 생긴 유산입니다. 어느 정도의 힘을 가진 사람이라면 누구든지 자신들만이 독일을 위한 최선이 무엇인지 알고 있다고 확신합니다. 결과적으로, 독일 내의 다양한 계층과 이익 집단들은 결코 서로가 도움을 줄 수 없으며, 오직 총통만이 할 수 있습니다. 분열된 독일을 다시 하나로 묶기 위해서는, 반체제 파벌들을 모두 법정에 세우거나 협박해야 할 것입니다. 그러면 그들은 알아서 총통 휘하의 일렬로 다시 정렬하게 될 것입니다. 만약 실패한다면, 제국은 반드시 침체하고 쇠퇴할 것이며 궁극적으로 붕괴 상태에 들어갈 것입니다. 오직 무쇠 같은 의지, 무자비한 음모, 그리고 표면의 부드러움만이 국가사회주의를 구할 수 있습니다."
- #\n\n[BOR_GetInfluenceOverview]\n\n[BOR_GetRow1]\n\n[BOR_GetRow2]\n\n[BOR_GetRow3]\n\n[BOR_GetRow4]\n\n"
-
  TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl:0 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-
-#|========[ OVERVIEW ]=======|#
- #BOR_InfluenceOverview:0 "                    §g|§!      제어:      §g|§!                    \n                    §g|§!   §Y453§!/§Y1000§! (§Y45%§!)   §g|§!                    \n\n     §G개혁주의자§!     §g|§!       §LState§!        §g|§!    §R군국주의자§!     \n     영향력: §Y188§!     §g|§!     영향력: §Y265§!     §g|§!     영향력: §Y547§!     \n    지지도: §G74%§!    §g|§!    지지도: §Y---§!    §g|§!    지지도: §R12%§!    "
  BOR_InfluenceOverview:0 "[BOR_GetControlDivider_20]§g|§![BOR_GetControlHeader]§g|§![BOR_GetControlDivider_20]\n[BOR_GetControlDivider_20]§g|§![BOR_GetControlNumDisplay]§g|§![BOR_GetControlDivider_20]\n\n[BOR_GetReformistHeader]§g|§![BOR_GetStateHeader]§g|§![BOR_GetMilitaristHeader]\n[BOR_GetReformistPower]§g|§![BOR_GetStatePower]§g|§![BOR_GetMilitaristPower]\n[BOR_GetReformistSupport]§g|§![BOR_GetStateSupport]§g|§![BOR_GetMilitaristSupport]"
  GER_BOR_dismantle_tooltip:0 "Placeholder"
  GER_BOR_Control_tooltip:0 "Placeholder"
@@ -28,28 +12,19 @@
  BOR_PowerBar_tooltip_Reformists:0 "§G개혁주의자§!\n영향력: [?BOR_ReformistPower|Y0]\n총 영향력 비율: [?BOR_ReformistPowerPerc|Y1]%\n\n"
  BOR_PowerBar_tooltip_Militarists:0 "\n\n§R군국주의자§!\n영향력: [?BOR_MilitaristPower|Y0]\n총 영향력 비율: [?BOR_MilitaristPowerPerc|Y1]%"
  BOR_PowerBar_tooltip_Dismantled:0 "§e==해체됨==§!"
-
- ##Formatting
- #Loyalty Divider, used in SIG
  BOR_SIGLoyalty_Divider:0 "§Y충성도§!"
- 
-#|========[ CONTROL ]========|#
  BOR_ControlHeader:0 "제어:"
  BOR_ControlNumDisplay:0 "[?BOR_AlliedControl|Y0]/[?BOR_TotalControl|Y0] (§Y[?BOR_AlliedControlPerc|0]%§!)"
  BOR_ControlNumDisplay_4_4_2:0 "[?BOR_AlliedControl|Y0]/[?BOR_TotalControl|Y0] (§Y[?BOR_AlliedControlPerc|0]%§!)"
-
- #Temp debug stuff
- BOR_SIG_debug_enable:0 "(right click for debug buttons)"
+ BOR_SIG_debug_enable:0 "(우클릭으로 디버그 버튼)"
  BOR_LogList_dbg_setup: "§Y디버그 - SET EXAMPLE LOGS§!\n§YLeft click§!: set log array\n§YRight click§!: clear log array"
  BOR_LogList_dbg_add_remove: "§Y디버그 - ADD/REMOVE LOGS§!\n§YLeft click§!: add one log\n§YRight click§!: remove one log"
  BOR_LogList_dbg_add_interaction: "§Y디버그 - ADD INTERACTIONS§!"
  BOR_LogList_dbg_reformist_support: "§Y디버그 - ADD REFORMIST SUPPORT§!\n§YLeft click§!: +1 reformist support\n§YRight click§!: -1 reformist support"
  BOR_LogList_dbg_conservative_support: "§Y디버그 - ADD CONSERVATIVE SUPPORT§!\n§YLeft click§!: +1 conservative support\n§YRight click§!: -1 conservative support"
- BOR_LogList_dbg_militarist_support: "§Y디버그 - ADD MILITARIST SUPPORT§!\n§YLeft click§!: +1 militarist support\n§YRight click§!: -1 militarist support" 
+ BOR_LogList_dbg_militarist_support: "§Y디버그 - ADD MILITARIST SUPPORT§!\n§YLeft click§!: +1 militarist support\n§YRight click§!: -1 militarist support"
  BOR_LogList_dbg_kill_the_church: "§Y디버그 - CHURCH DISMANTLEMENT§!\n§YLeft click§!: dismantle the church\n§YRight click§!: restore the church"
  BOR_LogList_dbg_AI_test: "§Y디버그 - WEEKLY AI TICK§!"
-
-#|========[ LOG LOCS ]========|#
  BOR_SIG_Log1_loc: "[BOR_SIG_Log_GetActor]: [BOR_GetSIGName]"
  BOR_SIG_Log2_loc: "[BOR_SIG_Log_GetInteractionType]: [?BOR_SIG_Log_BeforeValue^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0] -> [?BOR_SIG_Log_AfterValue^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0] ([?BOR_SIG_Log_ValueChange^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0+=])"
  BOR_SIG_Log3_loc: "[BOR_SIG_Log_GetInteractionType] ([BOR_SIG_Log_GetInteractionTarget]): [?BOR_SIG_Log_BeforeValue^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0] -> [?BOR_SIG_Log_AfterValue^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0] ([?BOR_SIG_Log_ValueChange^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0+=])"
@@ -58,59 +33,32 @@
  BOR_SIG_AddLoyalty_loc: "충성도 증가"
  BOR_SIG_SubLoyalty_loc: "충성도 감소"
  Kartenhaus_Log_ID_text: "[?TNO_BOR_SIG_GUI_Logs_Gridbox_i]"
- Kartenhaus_LogBox_Title_tt:0 "INTERACTIONS LOG"
- Kartenhaus_CountBox_Title_tt:0 "INTERACTIONS COUNT"
-
+ Kartenhaus_LogBox_Title_tt:0 "상호작용 기록"
+ Kartenhaus_CountBox_Title_tt:0 "상호작용 횟수"
  BOR_SIG_Log_ReformistName: "§GRef.§!"
  BOR_SIG_Log_ConservativeName: "§LCon.§!"
  BOR_SIG_Log_MilitaristName: "§RMil.§!"
-
-#|========[ FACTIONS ]========|#
- ##Reformists
  BOR_ReformistHeader:0 "§G개혁주의자§!"
  BOR_ReformistPower_Dismantled:0 "영향력: §e---§!"
- #BOR_ReformistPower:0 "영향력: [?BOR_ReformistPower|Y0]"
- #BOR_ReformistSupport_Bad:0 "지원: [?BOR_ReformistSupport|R0]%"
- #BOR_ReformistSupport_Good:0 "지원: [?BOR_ReformistSupport|G0]%"
- 
- ##State
  BOR_StateHeader:0 "§L보수주의자§!"
- #BOR_StatePower:0 "영향력: [?BOR_StatePower|Y0]"
- #BOR_StateSupport_Bad:0 "지원: [?BOR_StateSupport|R0]%"
- #BOR_StateSupport_Good:0 "지원: [?BOR_StateSupport|G0]%"
- 
- ##Militarists
  BOR_MilitaristHeader:0 "§R군국주의자§!"
  BOR_MilitaristPower_Dismantled:0 "영향력: §e---§!"
- #BOR_MilitaristPower:0 "영향력: [?BOR_MilitaristPower|Y0]"
- #BOR_MilitaristSupport_Bad:0 "지원: [?BOR_MilitaristSupport|R0]%"
- #BOR_MilitaristSupport_Good:0 "지원: [?BOR_MilitaristSupport|G0]%"
-
  BOR_EventHeader: "§W이벤트§!"
-
-#|==========[ SIG ]=========|#
  BOR_Minus:0 "§b-§!"
  BOR_Plus:0 "§b+§!"
  BOR_Question:0 "§b?§!"
-
  Kartenhaus_Title_text: "카드하우스"
-
- ##SIG Types
  BOR_SIGType_Dismantled:0 "§e해체됨§!"
  BOR_SIGType_Immutable:0 "§g불변적§!"
  BOR_SIGType_Allied:0 "§G연합됨§!"
  BOR_SIGType_Supportive:0 "§M지원적§!"
  BOR_SIGType_Opposition:0 "§R반대적§!"
-
- ##SIG Loyalty
  BOR_SIGLoyalty_Faction_Ref: "§G개혁.§!"
  BOR_SIGLoyalty_Faction_State: "§L보수.§!"
  BOR_SIGLoyalty_Faction_Mil: "§R군국주의자§!"
  BOR_SIGLoyalty_Value_Ref: "§Y[?BOR_SIGLoyalty_Ref^Kartenhaus_SIGGridBox_i|0]%§!"
  BOR_SIGLoyalty_Value_State: "§Y[?BOR_SIGLoyalty_State^Kartenhaus_SIGGridBox_i|0]%§!"
  BOR_SIGLoyalty_Value_Mil: "§Y[?BOR_SIGLoyalty_Mil^Kartenhaus_SIGGridBox_i|0]%§!"
-
- ##
  BOR_SIGLoyalty_Disp_Top_Faction: "[BOR_GetSIGLoyalty_Top_Faction]"
  BOR_SIGLoyalty_Disp_Top_Value: "[BOR_GetSIGLoyalty_Top_Value]"
  BOR_SIGLoyalty_Disp_Mid_Faction: "[BOR_GetSIGLoyalty_Mid_Faction]"
@@ -118,69 +66,43 @@
  BOR_SIGLoyalty_Disp_Bot_Faction: "[BOR_GetSIGLoyalty_Bot_Faction]"
  BOR_SIGLoyalty_Disp_Bot_Value: "[BOR_GetSIGLoyalty_Bot_Value]"
  BOR_SIGLoyalty_Dismantled: "§Y---§!"
-
- ##SIG #0:   PARTY BUREAUCRACY
  BOR_SIGName_0:0 "정당 관료"
  BOR_SIGName_Formatted_0:0 "정당 관료"
  BOR_SIGName_Long:0 "정당 관료"
  BOR_SIGName_Formatted_0_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n§Y정당 관료§!은 글쟁이이자 책상물림, 그리고 정치쟁이로 독일의 복잡한 관료제를 유지하는 데 전념하고 있습니다. 독일의 주요 의사결정 기관으로 구성된 §Y관료§!는 NSDAP 당수이자 총통인 마르틴 보어만과 §L보수주의자§! 동맹의 영향을 받아 왔습니다. 그러나 이들에 대한 통제력은 시간이 지나면서 조금씩 사라지고 있는데, 이는 내전의 발생과 안정을 위한 재건의 노력 때문입니다. 귀찮아지기 전에, §L보수주의자§!에선 재빨리 그 독일 관료주의 아틀라스들에 대한 통제권을 확보하도록 행동해야 합니다."
- 
- ##SIG #1:THE PEOPLE
  BOR_SIGName_1:0 "국민"
  BOR_SIGName_Formatted_1:0 "국민"
  BOR_SIGName_Formatted_1_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n1억이 넘는 국민들은 10년 이상 분열과 불안에 휩싸여 왔습니다. 한때, 정복의 영광은 국민에게 엄청난 애국심을 심어주었고 점령지로부터의 원자재 약탈과 수입은 국민들을 세계에서 가장 높은 생활수준을 누릴 수 있게 해주었습니다. 그러나 이젠 어떤 이는 빵을, 어떤 이는 통치를, 어떤 이는 평화를, 어떤 이는 전쟁을, 어떤 이는 생명을, 어떤 이는 죽음을 외치는 인류의 광대한 소리가 총통에게 소리치고 있습니다. 국가사회주의가 승리를 가능케 한 것은 국민이었고, 그들은 이 체제를 쉽게 무너뜨릴 수 있습니다."
- 
- ##SIG #2:INTELLIGENTSIA
  BOR_SIGName_2:0 "지식인"
  BOR_SIGName_Formatted_2:0 "지식인"
  BOR_SIGName_Formatted_2_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n자유주의, 마르크스주의와 유대인들한테 동정을 보내는 집결지라는 이유로 종종 외면받던 독일의 지식인들은 현재 30년 동안 대부분 배경에 존재해 왔습니다. NSDAP의 부흥이 불러온 인재 유출은 그것에 따른 보상을 받지 못했지만, 독일의 지능적 전통을 유지할만큼 충분히 대학에 남아 있습니다. 공개적으로, 그들은 일종의 와일드카드로 남아있지만, 슈페어주의자와 학생 운동과 지식인들 사이의 연관성은 명백합니다. 크게보자면 대부분 당과 무관하지만 젊고 감수성이 풍부한 그들의 영향력은 과소평가되어서는 안됩니다."
- 
- ##SIG #3:CHURCH
  BOR_SIGName_3:0 "교회"
  BOR_SIGName_Formatted_3:0 "교회"
  BOR_SIGName_Formatted_3_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n오랜 기간 (폭력이나 다른 방식으로) 탄압의 대상이었던 독일의 종교 기관들은 총통으로서는 영원한 가시와 같은 존재입니다. 히틀러가 권력을 잡는 동안에는 쓸만한 바보들로 기능했던 그들은 그가 독일에 절대 권력을 얻자 빠르게 영향력을 제한당하고 거세되었습니다. 이론상으로는 바티칸 조약에 따라 가톨릭교회와 NSDAP는 화해했지만 실제로는 그들은 계속해서 국가사회주의 인종정책과 반유대주의를 반대하고 있고 심지어는 유대인들과 정치적 불순분자들을 보호해주기까지 합니다. 그 결과 그들은 하이드리히 휘하 SS에게 끔찍한 탄압을 받았습니다. 그들은 더는 정치에 관여하지 않지만, 여전히 독일 국민의 정신과 영혼을 놓고 NSDAP와 경쟁할 수 있습니다. 이는 국가사회주의의 미래 전망에 중대한 위협입니다."
- 
- ##SIG #4:HEER
  BOR_SIGName_4:0 "육군"
  BOR_SIGName_Formatted_4:0 "육군"
  BOR_SIGName_Formatted_4_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n육군은 총통의 강인한 오른팔로 적들의 척추를 부러뜨려 제3 라이히에게 최종적인 승리를 안겨주었습니다. 육군에는 길고 잔인한 2차대전으로 단련된 베테랑들이 하얗게 센 머리나 상처 난 피부 따위는 상관없이 많이 복무하고 있습니다. 정치적으로는 야전원수 페르디난트 쇠르너의 강경한 군국주의 파벌에 지배되지만, 육군 전체의 사상이 같은 것만은 아닙니다. 많은 병사는 내전 동안 슈페어, 슈파이델, 보어만을 선택하기도 했습니다. 그들의 이상은 다양할지라도 육군의 다양한 파벌들은 한 가지 사안에는 이의 없이 동의합니다.: 그들의 희생은 독일을 지금의 모습으로 만들었으며 그들은 이에 따라 존경받아야 한다는 것입니다. 세계에서 가장 거대한 군대의 일원을 존중하는 데 실패한다면 끔찍한 결과를 유발할 수 있습니다."
- 
- ##SIG #5:KRIEGSMARINE
  BOR_SIGName_5:0 "크릭스마리네"
  BOR_SIGName_Formatted_5:0 "크릭스마리네"
  BOR_SIGName_Formatted_5_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n독일에서도 자주 잊히지만, 언제나 라이히의 해군에게 진정으로 감사를 표하는 존재는 역대 총통들과 그의 당뿐입니다. 유보트 울프 팩과 순양함, 전함의 쉼 없는 업무가 없었더라면 브리튼 침공은 절대 불가능했을 것입니다. 오늘날 크릭스마리네는 라이히가 그 힘을 대서양으로 투사하는 수단으로 서부의 자산과 아프리카의 국가판무관부를 수호하고 있습니다. 미국의 정찰용 소함대 중 많은 수가 수평선에 나타난 크릭스마리네의 기동 함대를 보고 독일의 바다에서 도망갑니다. 그들 없이는 라이히는 세계 최강의 자리에 다시 올라가리라고는 기대조차 할 수 없습니다."
- 
- ##SIG #6:ORDUNGSPOLIZEI
  BOR_SIGName_6:0 "질서경찰"
  BOR_SIGName_Formatted_6:0 "질서경찰"
  BOR_SIGName_Formatted_6_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n질서경찰 - 통칭 Orpo - 는 독일의 민간 경찰력으로 NSDAP가 거리의 질서를 지키고 다루기 힘든 시민들을 통제하는 수단입니다. 일반적인 경찰과는 다르게 질서경찰은 완전히 정치적이며 총통의 통치를 유지하기 위해 매 순간 폭력과 잔혹성을 사용합니다. 질서경찰 신병들은 치안 유지 능력이나 온화함이 아닌 힘과 충성으로 선택됩니다. 그들은 전통적으로 주인에게 순종해왔지만, 내전과 수년간의 불안정으로 심각하게 흔들렸습니다. 그들의 숫자는 전쟁이 시작되며 탈주, 징병, 모병, 전투로 곤두박질쳤고 조직은 옛날 같은 최상의 상태가 아닙니다. 여전히 그들은 재건되어야 하며 필요하다면 다시 한번 부서지고 강제로 봉사해야 합니다."
- 
- ##SIG #7:MITTELDEUTSCHE INDUSTRY
  BOR_SIGName_7:0 "라이히스베르케"
  BOR_SIGName_Formatted_7:0 "라이히스베르케"
  BOR_SIGName_Formatted_7_tt:0 "§YReichswerke§!\n§g--------------------§!\n거대한 철강, 군수 산업체 라이히스베르케(예전 이름은 라이히스베르케 헤르만 괴링)에 지배되는 §Y중부 독일§!의 산업은 게르마니아와 가장 가까우며 쉽게 영향을 받는 동시에 영향력 있는 존재입니다. §Y중부 독일§!의 경제 대부분은 이런 산업체에 의존합니다. 이상적인 상황에서는 이들은 게르마니아의 수많은 주민을 위해 수십만 개의 일자리를 제공하게 되어있습니다. 그러나 게르마니아는 경제난에 처했고 주민을 위한 일자리 대부분은 기업이 소수의 인물이 소유한 노동 노예 집단에 접촉하며 노예제에 종속되었습니다. 이 기업들의 실무자들은 내전의 막대한 민간 피해로 값싼 임대 노예들이 그들의 부서진 소유물들을 재건하는 데 사용되면서 변화된 상황으로 거의 성과보수를 내지 못했습니다."
- 
- ##SIG #8:RHINE INDUSTRY
  BOR_SIGName_8:0 "IG 파르벤"
  BOR_SIGName_Formatted_8:0 "IG 파르벤"
  BOR_SIGName_Formatted_8_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n라인란트 산업의 가장 큰 손은 세계 최대의 화학 회사이며 합성유 제작 최고의 혁신가 이게파르벤, 그리고 양차 세계대전에서 큰 역할을 했던 철강과 총기의 세기의 명가 크루프입니다. 라인란트에는 당연히 십여 개의 산업체가 있지만, 정계에서는 이 둘이 거의 완전히 지배하고 있습니다. 히틀러의 집권 기간 크게 선호된 이 거인들이 생산한 제품은 엄청난 양이지만 이는 내전으로 라인란트가 전장이 되기 전 일입니다. 루르 탄천이 재활성화되고 산업체가 재가동되었으니 독일 경제의 완전한 몰락을 두 번 보고 싶은 것이 아니라면 총통은 라인의 산업계 거인들과 그들의 노예들을 조심스럽게 다루어야 합니다."
- 
- ##SIG #9:SÜDDEUTSCHE INDUSTRY
  BOR_SIGName_9:0 "지멘스"
  BOR_SIGName_Formatted_9:0 "지멘스"
  BOR_SIGName_Formatted_9_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n남부의 기업들은 북부와 서부와 비교하면 군수 공업과는 덜 연관되어있지만, 경제에서의 필요성은 둘째가라면 서러울 것입니다. (혁신적인 전자식 계산기와 전자기기를 생산하는) 지멘스나 (민수용, 군수용 차량을 생산하는) 다임러-벤츠와 같은 기업들은 숙련 노동자를 더 많이 필요로 하고 일부 작은 작업장에서 단순 작업을 위해 이용하는 것을 제외하면 거의 노예를 사용하지 않습니다. 이는 그들을 불안정하게 만들었습니다. 독일에는 그들을 성장시킬 만큼 충분한 숙련 노동자가 부족하지만, 노예를 사서 섬세한 전자기기, 엔진, 백색 가전을 만들도록 하는 것은 불가능한 일입니다. 미국과 일본은 이 분야에서 빠르게 독일 이상 가는 발전을 이루었으며 현재 수십 년간 중공업에만 집중하는 NSDAP에 대한 분노가 끓어오르고 있습니다. 총통은 그들을 이용하거나 무릎 꿇려야 합니다."
- 
- ##SIG #10:SLAVE PLANTATIONS
  BOR_SIGName_10:0 "노예 플랜테이션"
  BOR_SIGName_Formatted_10:0 "노예 플랜테이션"
  BOR_SIGName_Formatted_10_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n프로이센의 푸른 토지의 거대한 §Y노예 플랜테이션§!에서는 라이히의 식량과 직물을 대규모로 생산하는 다양한 산업이 기능할 수 있도록 수백만 명의 노예들이 끊임없이 일하고 있습니다. 제2차 세계대전에서의 정복으로 탄생한 §Y노예 플랜테이션§!은 전쟁 영웅들의 삶에 특별한 요소입니다. 그들의 일부, 혹은 전체는 베테랑들이 소유하며 §Y플랜테이션§!의 유지를 위해 노예들을 대량으로 사용합니다. §Y노예 플랜테이션§!이 특권이 있는 전쟁 영웅들의 이익과 강하게 연결되어있다는 것에는 이견이 없습니다. §Y노예 플랜테이션§!은 극단적인 노예제 옹호, 확장주의 정책에 큰 지분을 차지하며 §R군국주의자§!들의 지지도의 원천입니다."
- 
- ##SIG #11:BANKS
  BOR_SIGName_11:0 "은행"
  BOR_SIGName_Formatted_11:0 "은행"
  BOR_SIGName_Formatted_11_tt:0 "§Y[BOR_SIG_GetName_Formatted_New]§!\n§g--------------------§!\n나치의 초창기에 가장 선호되는 먹잇감이었던 은행들은 영원히 인기 없겠지만 제3라이히의 생존에 필수적입니다. '유대인'과 '금권정치'의 흔적은 오래전 정화되었지만, 이전과 같은 불평은 여전히 존재합니다. 은행들은 탐욕스러우며 평범한 이의 소득을 갈취하며 독일이 견뎌야 할 모든 경제위기에 책임이 있다는 것입니다. 아이러니하게도 은행들은 NSDAP와 가까운 연줄이 있으며 재정상의 마법으로 1930년대 초 히틀러의 '경제 기적'을 가능하게 했습니다. 은행들은 정복한 국가들에서 나오는 막대한 약탈품의 유입을 관리했고 이들을 독일의 군수 경제를 가동할 엔진의 연료가 되고 시민들의 식량과 옷으로 사용되는 유동 자산으로 변환했습니다. 이론상으로는 총통의 명령만을 기다려야 하지만 은행들은 라이히의 경제를 너무나도 많이 자기 마음대로 통제하고 있습니다. 얼마나 많은 총으로 겨눌 수 있을 지와는 상관없이 그들을 거스르는 것은 매우 끔찍할 것입니다."
-
-#|===[ GUI - Main ]==|#
  BOR_SIGPowerDisp: "[?BOR_SIGPower^Kartenhaus_SIGGridBox_i|Y0]"
  BOR_Kartenhaus_InteractionsCountDisp: "[?BOR_Kartenhaus_InteractionsCount]"
  GFX_Kartenhaus_SIG_Party_Bureaucracy_bg: "GFX_Kartenhaus_Cards_bg_bureaucracy"
@@ -199,11 +121,11 @@
  Kartenhaus_DismantleBtn_text: "[Kartenhaus_DismantleBtn_GetText]"
  Kartenhaus_DismantleBtn_text_inactive:0 "§g해체§!"
  Kartenhaus_DismantleBtn_text_active:0 "§R해체§!"
- Kartenhaus_DismantleBtn_Execution_text_inactive:0 "§gEXECUTE§!"
- Kartenhaus_DismantleBtn_Execution_text_active:0 "§REXECUTE§!"
+ Kartenhaus_DismantleBtn_Execution_text_inactive:0 "§g처형§!"
+ Kartenhaus_DismantleBtn_Execution_text_active:0 "§R처형§!"
  Kartenhaus_DismantleBtn_tt: ""
  Kartenhaus_ControlPower_Title_tt:0 "CONTROL & FACTION POWER"
- Kartenhaus_FactionLoyalty_Title_tt:0 "FACTION LOYALTY"
+ Kartenhaus_FactionLoyalty_Title_tt:0 "파벌 충성도"
  Kartenhaus_FactionLoyalty_Title_Reformist_text: "§G개혁주의자§!"
  Kartenhaus_FactionLoyalty_Bar_Reformist_tt: "현재 §G개혁주의자§! 지원: §Y[?BOR_ReformistSupport|0]%§!"
  Kartenhaus_FactionLoyalty_Title_Conservative_text: "§Y보수주의자§!"
@@ -218,8 +140,6 @@
  Kartenhaus_SIG_Status_Supportive: "§T지원적§!"
  Kartenhaus_SIG_Status_Opposition: "§R반대적§!"
  Kartenhaus_SIG_Status_tt: "§Y상태§!는 우리 정권에 대한 특별 단체의 충성심을 대표하는 것입니다. §L국가사회주의§!에 대한 미래를 보장하기 위해 우리의 §G연합§!이 §Y충성스럽고§! §Y힘있는§! 사람으로 이루어지게 하고 §R반대측§!이 §e해체§!의 길로 잘 가고 있는지 확인해야 합니다."
-
-#|===[ GUI - InfoSection ]==|#
  TNO_Bormann_Kartenhaus_Info_Header_Text_text: "nfo\nsection"
  TNO_Bormann_Kartenhaus_InfoScrawl_Header_Title_Text: "[BOR_Kartenhaus_Get_InfoScrawl_Header]"
  TNO_Bormann_Kartenhaus_Info_TBZ_OverviewBtn_text: "개요"
@@ -230,29 +150,18 @@
  TNO_Bormann_Kartenhaus_Info_TBZ_SIGBtn_tt: "§e죄송스럽게도, 이 버전에서는 아직 사용할 수 없습니다!§!"
  TNO_Bormann_Kartenhaus_Info_TBZ_InteractionsBtn_text: "상호작용"
  TNO_Bormann_Kartenhaus_Info_TBZ_InteractionsBtn_tt: "§e죄송스럽게도, 이 버전에서는 아직 사용할 수 없습니다!§!"
-
  TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_Text: "[BOR_Kartenhaus_Get_InfoScrawl_Scrawl]"
  TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_Overview: "제3제국의 정치는 마치 미로와도 같이 엉망진창이며 히틀러가 다른 파벌과 개개인을 끊임없이 적대시하면서 생긴 유산입니다. 어느 정도의 힘을 가진 사람이라면 누구든지 자신들만이 독일을 위한 최선이 무엇인지 알고 있다고 확신합니다. 결과적으로, 독일 내의 다양한 계층과 이익 집단들은 결코 서로가 도움을 줄 수 없으며, 오직 총통만이 할 수 있습니다. 분열된 독일을 다시 하나로 묶기 위해서는, 반체제 파벌들을 모두 법정에 세우거나 협박해야 할 것입니다. 그러면 그들은 알아서 총통 휘하의 일렬로 다시 정렬하게 될 것입니다. 만약 실패한다면, 제국은 반드시 침체하고 쇠퇴할 것이며 궁극적으로 붕괴 상태에 들어갈 것입니다. 오직 무쇠 같은 의지, 무자비한 음모, 그리고 표면의 부드러움만이 국가사회주의를 구할 수 있습니다."
  TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_ControlAndFactions: "TODO"
  TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_SIG: "TODO"
  TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_Interactions: "TODO"
-
-#|===[ GUI - Card ]==|#
- # Header
  TNO_Bormann_Kartenhaus_Card_Header_Text_text: "[BOR_SIG_GetName_Formatted_New]"
  TNO_Bormann_Kartenhaus_Card_Header_Text_tt: "[BOR_SIG_GetDescription]"
-
- #Loyalty Bar Base
  TNO_Bormann_Kartenhaus_Card_LoyaltyBar_Base_tt: "[BOR_SIG_GetName_Formatted_New]'s §Y충성도§!\n--------------------\n§G개혁주의자§!에 대한 충성도: [?BOR_SIGLoyalty_Ref^BOR_Kartenhaus_SIG_Target|Y1]%\n§Y보수주의자§!에 대한 충성도: [?BOR_SIGLoyalty_State^BOR_Kartenhaus_SIG_Target|Y1]%\n§R군국주의자§!에 대한 충성도: [?BOR_SIGLoyalty_Mil^BOR_Kartenhaus_SIG_Target|Y1]%"
  TNO_Bormann_Kartenhaus_Card_LoyaltyBar_Base_ttd: "§Y충성도§는 어떤 §Y특별 이익 집단§!이 §Y라이히§!의 정계를 주도하는 파벌들에 얼마나 충성스러운 지를 나타내는 수치입니다. 독일국의 통제를 확보하려면 §G동맹§!의 §Y충성도§!를 지키고 §Y통제§!할 수 없는 이들을 §R혼란§!하게 만들어야합니다."
-
- # Power Display
  TNO_Bormann_Kartenhaus_Card_PowerDisplay_text: "[?BOR_SIGPower^BOR_Kartenhaus_SIG_Target|Y0]"
  TNO_Bormann_Kartenhaus_Card_PowerDisplay_tt: "[BOR_SIG_GetName_Formatted_New]의 §Y영향력§!"
- #TNO_Bormann_Kartenhaus_Card_PowerDisplay_ttd: "§YPower§! is a measure of a §YSpecial Interest Group's§! influence in the State. In order to dominate the affairs of the German state, one must keep their allies §Ypowerful§! and their enemies §Rweak§!."
- TNO_Bormann_Kartenhaus_Card_PowerDisplay_ttd: "hha funn"
-
- # Selection Button
+ TNO_Bormann_Kartenhaus_Card_PowerDisplay_ttd: "하하 짠"
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_tt: "§G개혁주의자§!를 대상으로 삼기"
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_tt_active: "현재 대상은 §G개혁주의자§!입니다"
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_tt_inactive: "§G개혁주의자§!를 대상으로 삼기"
@@ -262,7 +171,6 @@
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_tt: "§R군국주의자§!를 대상으로 삼기"
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_tt_active: "현재 대상은 §R군국주의자§!입니다"
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_tt_inactive: "§R군국주의자§!를 대상으로 삼기"
-
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_text: "§G개혁§!"
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_text_active: "§G개혁§!"
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_text_inactive: "§g개혁§!"
@@ -272,8 +180,6 @@
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_text: "§R군국§!"
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_text_active: "§R군국§!"
  TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_text_inactive: "§g군국§!"
-
- # Interaction Button
  TNO_Bormann_Kartenhaus_Card_InteractionBtn_Power_Add_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!에 §Y영향력 5§! 추가"
  TNO_Bormann_Kartenhaus_Card_InteractionBtn_Power_Sub_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!에 §Y영향력 5§! 제거"
  TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_Add_tt: "[BOR_Kartenhaus_SelectionBtn_AddLoyalty_GetAvailability]"
@@ -282,17 +188,9 @@
  TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_AvailableAdd_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!에 §Y2§! [BOR_Kartenhaus_SelectionBtn_Loyalty_GetTarget] §Y충성도§! 추가"
  TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_AvailableSub_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!에 §Y2§! [BOR_Kartenhaus_SelectionBtn_Loyalty_GetTarget] §Y충성도§! 제거"
  TNO_Bormann_Kartenhaus_Card_Interaction_Btn_Cost_tt: "§W이 작업을 수행하려면§! £political_power_texticon §Y20§!이 §W필요합니다§!"
-
- # SIGType Display
  TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_text: "[BOR_Card_SIG_GetTypeTitle]"
  TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_tt: "[BOR_SIG_GetName_Formatted_New]'s §Y상태§!"
  TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_ttd: "§Y상태§!는 우리 정권에 대한 특별 단체의 충성심을 대표하는 것입니다. §L국가사회주의§!에 대한 미래를 보장하기 위해 우리의 §G연합§!이 §Y충성스럽고§! §Y힘있는§! 사람으로 이루어지게 하고 §R반대측§!이 §e해체§!의 길로 잘 가고 있는지 확인해야 합니다."
-
-#|=======[ TOOLTIPS ]========|#
- ###################
- ###  ADD POWER  ###
- ###################
- #####  SIG 0  #####
  BOR_SIG_AP_0_1_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_0_2_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_0_3_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 획득: §G+3§!\n"
@@ -300,7 +198,6 @@
  BOR_SIG_AP_0_5_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_0_10_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_0_20_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 1  #####
  BOR_SIG_AP_1_1_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_1_2_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_1_3_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 획득: §G+3§!\n"
@@ -308,7 +205,6 @@
  BOR_SIG_AP_1_5_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_1_10_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_1_20_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 2  #####
  BOR_SIG_AP_2_1_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_2_2_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_2_3_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 획득: §G+3§!\n"
@@ -316,7 +212,6 @@
  BOR_SIG_AP_2_5_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_2_10_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_2_20_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 3  #####
  BOR_SIG_AP_3_1_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_3_2_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_3_3_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 획득: §G+3§!\n"
@@ -324,7 +219,6 @@
  BOR_SIG_AP_3_5_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_3_10_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_3_20_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 4  #####
  BOR_SIG_AP_4_1_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_4_2_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_4_3_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 획득: §G+3§!\n"
@@ -332,7 +226,6 @@
  BOR_SIG_AP_4_5_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_4_10_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_4_20_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 5  #####
  BOR_SIG_AP_5_1_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_5_2_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_5_3_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 획득: §G+3§!\n"
@@ -340,7 +233,6 @@
  BOR_SIG_AP_5_5_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_5_10_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_5_20_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 6  #####
  BOR_SIG_AP_6_1_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_6_2_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_6_3_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 획득: §G+3§!\n"
@@ -348,7 +240,6 @@
  BOR_SIG_AP_6_5_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_6_10_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_6_20_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 7  #####
  BOR_SIG_AP_7_1_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_7_2_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_7_3_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 획득: §G+3§!\n"
@@ -356,7 +247,6 @@
  BOR_SIG_AP_7_5_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_7_10_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_7_20_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 8  #####
  BOR_SIG_AP_8_1_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_8_2_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_8_3_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 획득: §G+3§!\n"
@@ -364,7 +254,6 @@
  BOR_SIG_AP_8_5_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_8_10_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_8_20_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 9  #####
  BOR_SIG_AP_9_1_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_9_2_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_9_3_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 획득: §G+3§!\n"
@@ -372,7 +261,6 @@
  BOR_SIG_AP_9_5_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_9_10_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_9_20_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 10  #####
  BOR_SIG_AP_10_1_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_10_2_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_10_3_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 획득: §G+3§!\n"
@@ -380,7 +268,6 @@
  BOR_SIG_AP_10_5_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_10_10_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_10_20_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 획득: §G+20§!\n"
- #####  SIG 11  #####
  BOR_SIG_AP_11_1_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 획득: §G+1§!\n"
  BOR_SIG_AP_11_2_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 획득: §G+2§!\n"
  BOR_SIG_AP_11_3_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 획득: §G+3§!\n"
@@ -388,11 +275,6 @@
  BOR_SIG_AP_11_5_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 획득: §G+5§!\n"
  BOR_SIG_AP_11_10_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 획득: §G+10§!\n"
  BOR_SIG_AP_11_20_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 획득: §G+20§!\n"
-
- ###################
- ###  SUB POWER  ###
- ###################
- #####  SIG 0  #####
  BOR_SIG_SP_0_1_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_0_2_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_0_3_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 감소: §R-3§!\n"
@@ -400,7 +282,6 @@
  BOR_SIG_SP_0_5_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_0_10_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_0_20_tt: "(§Y[BOR_GetSIGName_0]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 1  #####
  BOR_SIG_SP_1_1_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_1_2_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_1_3_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 감소: §R-3§!\n"
@@ -408,7 +289,6 @@
  BOR_SIG_SP_1_5_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_1_10_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_1_20_tt: "(§Y[BOR_GetSIGName_1]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 2  #####
  BOR_SIG_SP_2_1_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_2_2_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_2_3_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 감소: §R-3§!\n"
@@ -416,7 +296,6 @@
  BOR_SIG_SP_2_5_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_2_10_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_2_20_tt: "(§Y[BOR_GetSIGName_2]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 3  #####
  BOR_SIG_SP_3_1_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_3_2_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_3_3_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 감소: §R-3§!\n"
@@ -424,7 +303,6 @@
  BOR_SIG_SP_3_5_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_3_10_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_3_20_tt: "(§Y[BOR_GetSIGName_3]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 4  #####
  BOR_SIG_SP_4_1_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_4_2_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_4_3_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 감소: §R-3§!\n"
@@ -432,7 +310,6 @@
  BOR_SIG_SP_4_5_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_4_10_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_4_20_tt: "(§Y[BOR_GetSIGName_4]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 5  #####
  BOR_SIG_SP_5_1_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_5_2_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_5_3_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 감소: §R-3§!\n"
@@ -440,7 +317,6 @@
  BOR_SIG_SP_5_5_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_5_10_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_5_20_tt: "(§Y[BOR_GetSIGName_5]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 6  #####
  BOR_SIG_SP_6_1_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_6_2_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_6_3_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 감소: §R-3§!\n"
@@ -448,7 +324,6 @@
  BOR_SIG_SP_6_5_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_6_10_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_6_20_tt: "(§Y[BOR_GetSIGName_6]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 7  #####
  BOR_SIG_SP_7_1_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_7_2_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_7_3_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 감소: §R-3§!\n"
@@ -456,7 +331,6 @@
  BOR_SIG_SP_7_5_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_7_10_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_7_20_tt: "(§Y[BOR_GetSIGName_7]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 8  #####
  BOR_SIG_SP_8_1_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_8_2_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_8_3_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 감소: §R-3§!\n"
@@ -464,7 +338,6 @@
  BOR_SIG_SP_8_5_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_8_10_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_8_20_tt: "(§Y[BOR_GetSIGName_8]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 9  #####
  BOR_SIG_SP_9_1_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_9_2_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_9_3_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 감소: §R-3§!\n"
@@ -472,7 +345,6 @@
  BOR_SIG_SP_9_5_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_9_10_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_9_20_tt: "(§Y[BOR_GetSIGName_9]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 10  #####
  BOR_SIG_SP_10_1_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_10_2_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_10_3_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 감소: §R-10§!\n"
@@ -480,7 +352,6 @@
  BOR_SIG_SP_10_5_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_10_10_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_10_20_tt: "(§Y[BOR_GetSIGName_10]§!) 영향력 감소: §R-20§!\n"
- #####  SIG 11  #####
  BOR_SIG_SP_11_1_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 감소: §R-1§!\n"
  BOR_SIG_SP_11_2_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 감소: §R-2§!\n"
  BOR_SIG_SP_11_3_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 감소: §R-11§!\n"
@@ -488,14 +359,6 @@
  BOR_SIG_SP_11_5_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 감소: §R-5§!\n"
  BOR_SIG_SP_11_10_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 감소: §R-10§!\n"
  BOR_SIG_SP_11_20_tt: "(§Y[BOR_GetSIGName_11]§!) 영향력 감소: §R-20§!\n"
-
- #".* (\d+).*SIG#(\d+).."
- #"(§Y[BOR_GetSIGName_$2]§!) Power: §G+$1§!"
-
- ###################
- ##  ADD LOYALTY  ##
- ###################
- #####  SIG 0  #####
  BOR_SIG_AL_0_1_0_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_0_1_1_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_0_1_2_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -514,7 +377,6 @@
  BOR_SIG_AL_0_6_0_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_0_6_1_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_0_6_2_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 1  #####
  BOR_SIG_AL_1_1_0_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_1_1_1_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_1_1_2_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -533,7 +395,6 @@
  BOR_SIG_AL_1_6_0_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_1_6_1_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_1_6_2_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 2  #####
  BOR_SIG_AL_2_1_0_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_2_1_1_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_2_1_2_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -552,7 +413,6 @@
  BOR_SIG_AL_2_6_0_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_2_6_1_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_2_6_2_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 3  #####
  BOR_SIG_AL_3_1_0_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_3_1_1_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_3_1_2_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -571,7 +431,6 @@
  BOR_SIG_AL_3_6_0_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_3_6_1_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_3_6_2_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 4  #####
  BOR_SIG_AL_4_1_0_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_4_1_1_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_4_1_2_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -590,7 +449,6 @@
  BOR_SIG_AL_4_6_0_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_4_6_1_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_4_6_2_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 5  #####
  BOR_SIG_AL_5_1_0_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_5_1_1_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_5_1_2_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -609,7 +467,6 @@
  BOR_SIG_AL_5_6_0_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_5_6_1_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_5_6_2_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 6  #####
  BOR_SIG_AL_6_1_0_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_6_1_1_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_6_1_2_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -628,7 +485,6 @@
  BOR_SIG_AL_6_6_0_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_6_6_1_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_6_6_2_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 7  #####
  BOR_SIG_AL_7_1_0_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_7_1_1_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_7_1_2_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -647,7 +503,6 @@
  BOR_SIG_AL_7_6_0_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_7_6_1_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_7_6_2_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 8  #####
  BOR_SIG_AL_8_1_0_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_8_1_1_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_8_1_2_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -666,7 +521,6 @@
  BOR_SIG_AL_8_6_0_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_8_6_1_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_8_6_2_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 9  #####
  BOR_SIG_AL_9_1_0_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_9_1_1_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_9_1_2_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -685,7 +539,6 @@
  BOR_SIG_AL_9_6_0_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_9_6_1_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_9_6_2_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 10  #####
  BOR_SIG_AL_10_1_0_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_10_1_1_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_10_1_2_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -704,7 +557,6 @@
  BOR_SIG_AL_10_6_0_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_10_6_1_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_10_6_2_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
- #####  SIG 11  #####
  BOR_SIG_AL_11_1_0_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetReformistHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_11_1_1_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetStateHeader] 충성도: §G+1.00%§!\n"
  BOR_SIG_AL_11_1_2_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetMilitaristHeader] 충성도: §G+1.00%§!\n"
@@ -723,11 +575,6 @@
  BOR_SIG_AL_11_6_0_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetReformistHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_11_6_1_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetStateHeader] 충성도: §G+6.00%§!\n"
  BOR_SIG_AL_11_6_2_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetMilitaristHeader] 충성도: §G+6.00%§!\n"
-
- ###################
- ##  SUB LOYALTY  ##
- ###################
- #####  SIG 0  #####
  BOR_SIG_SL_0_1_0_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_0_1_1_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_0_1_2_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -746,7 +593,6 @@
  BOR_SIG_SL_0_6_0_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_0_6_1_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_0_6_2_tt: "(§Y[BOR_GetSIGName_0]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 1  #####
  BOR_SIG_SL_1_1_0_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_1_1_1_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_1_1_2_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -765,7 +611,6 @@
  BOR_SIG_SL_1_6_0_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_1_6_1_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_1_6_2_tt: "(§Y[BOR_GetSIGName_1]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 2  #####
  BOR_SIG_SL_2_1_0_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_2_1_1_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_2_1_2_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -784,7 +629,6 @@
  BOR_SIG_SL_2_6_0_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_2_6_1_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_2_6_2_tt: "(§Y[BOR_GetSIGName_2]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 3  #####
  BOR_SIG_SL_3_1_0_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_3_1_1_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_3_1_2_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -803,7 +647,6 @@
  BOR_SIG_SL_3_6_0_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_3_6_1_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_3_6_2_tt: "(§Y[BOR_GetSIGName_3]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 4  #####
  BOR_SIG_SL_4_1_0_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_4_1_1_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_4_1_2_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -822,7 +665,6 @@
  BOR_SIG_SL_4_6_0_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_4_6_1_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_4_6_2_tt: "(§Y[BOR_GetSIGName_4]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 5  #####
  BOR_SIG_SL_5_1_0_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_5_1_1_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_5_1_2_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -841,7 +683,6 @@
  BOR_SIG_SL_5_6_0_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_5_6_1_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_5_6_2_tt: "(§Y[BOR_GetSIGName_5]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 6  #####
  BOR_SIG_SL_6_1_0_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_6_1_1_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_6_1_2_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -860,7 +701,6 @@
  BOR_SIG_SL_6_6_0_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_6_6_1_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_6_6_2_tt: "(§Y[BOR_GetSIGName_6]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 7  #####
  BOR_SIG_SL_7_1_0_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_7_1_1_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_7_1_2_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -879,7 +719,6 @@
  BOR_SIG_SL_7_6_0_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_7_6_1_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_7_6_2_tt: "(§Y[BOR_GetSIGName_7]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 8  #####
  BOR_SIG_SL_8_1_0_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_8_1_1_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_8_1_2_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -898,7 +737,6 @@
  BOR_SIG_SL_8_6_0_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_8_6_1_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_8_6_2_tt: "(§Y[BOR_GetSIGName_8]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 9  #####
  BOR_SIG_SL_9_1_0_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_9_1_1_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_9_1_2_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -917,7 +755,6 @@
  BOR_SIG_SL_9_6_0_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_9_6_1_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_9_6_2_tt: "(§Y[BOR_GetSIGName_9]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 10  #####
  BOR_SIG_SL_10_1_0_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_10_1_1_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_10_1_2_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -936,7 +773,6 @@
  BOR_SIG_SL_10_6_0_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_10_6_1_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_10_6_2_tt: "(§Y[BOR_GetSIGName_10]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
- #####  SIG 11  #####
  BOR_SIG_SL_11_1_0_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetReformistHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_11_1_1_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetStateHeader] 충성도: §R-1.00%§!\n"
  BOR_SIG_SL_11_1_2_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetMilitaristHeader] 충성도: §R-1.00%§!\n"
@@ -955,11 +791,6 @@
  BOR_SIG_SL_11_6_0_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetReformistHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_11_6_1_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetStateHeader] 충성도: §R-6.00%§!\n"
  BOR_SIG_SL_11_6_2_tt: "(§Y[BOR_GetSIGName_11]§!) [BOR_GetMilitaristHeader] 충성도: §R-6.00%§!\n"
-
- #####################
- ###  ADD SUPPORT  ###
- #####################
- #####  REFORMISTS (0)  #####
  BOR_SIG_AS_0_1_tt: "§G개혁주의자§! 지원: §G+1.00%§!\n"
  BOR_SIG_AS_0_2_tt: "§G개혁주의자§! 지원: §G+2.00%§!\n"
  BOR_SIG_AS_0_3_tt: "§G개혁주의자§! 지원: §G+3.00%§!\n"
@@ -970,7 +801,6 @@
  BOR_SIG_AS_0_20_tt: "§G개혁주의자§! 지원: §G+20.00%§!\n"
  BOR_SIG_AS_0_25_tt: "§G개혁주의자§! 지원: §G+25.00%§!\n"
  BOR_SIG_AS_0_30_tt: "§G개혁주의자§! 지원: §G+30.00%§!\n"
- #####  CONSERVATIVES (1)  #####
  BOR_SIG_AS_1_1_tt: "§g보수주의자§! 지원: §G+1.00%§!\n"
  BOR_SIG_AS_1_2_tt: "§g보수주의자§! 지원: §G+2.00%§!\n"
  BOR_SIG_AS_1_3_tt: "§g보수주의자§! 지원: §G+3.00%§!\n"
@@ -981,7 +811,6 @@
  BOR_SIG_AS_1_20_tt: "§g보수주의자§! 지원: §G+20.00%§!\n"
  BOR_SIG_AS_1_25_tt: "§g보수주의자§! 지원: §G+25.00%§!\n"
  BOR_SIG_AS_1_30_tt: "§g보수주의자§! 지원: §G+30.00%§!\n"
- #####  MILITARISTS (2)  #####
  BOR_SIG_AS_2_1_tt: "§R군국주의자§! 지원: §G+1.00%§!\n"
  BOR_SIG_AS_2_2_tt: "§R군국주의자§! 지원: §G+2.00%§!\n"
  BOR_SIG_AS_2_3_tt: "§R군국주의자§! 지원: §G+3.00%§!\n"
@@ -992,11 +821,6 @@
  BOR_SIG_AS_2_20_tt: "§R군국주의자§! 지원: §G+20.00%§!\n"
  BOR_SIG_AS_2_25_tt: "§R군국주의자§! 지원: §G+25.00%§!\n"
  BOR_SIG_AS_2_30_tt: "§R군국주의자§! 지원: §G+30.00%§!\n"
-
- #####################
- ###  SUB SUPPORT  ###
- #####################
- #####  REFORMISTS (0)  #####
  BOR_SIG_SS_0_1_tt: "§G개혁주의자§! 지원: §R-1.00%§!\n"
  BOR_SIG_SS_0_2_tt: "§G개혁주의자§! 지원: §R-2.00%§!\n"
  BOR_SIG_SS_0_3_tt: "§G개혁주의자§! 지원: §R-3.00%§!\n"
@@ -1007,7 +831,6 @@
  BOR_SIG_SS_0_20_tt: "§G개혁주의자§! 지원: §R-20.00%§!\n"
  BOR_SIG_SS_0_25_tt: "§G개혁주의자§! 지원: §R-25.00%§!\n"
  BOR_SIG_SS_0_30_tt: "§G개혁주의자§! 지원: §R-30.00%§!\n"
- #####  CONSERVATIVES/STATE (1)  #####
  BOR_SIG_SS_1_1_tt: "§g보수주의자§! 지원: §R-1.00%§!\n"
  BOR_SIG_SS_1_2_tt: "§g보수주의자§! 지원: §R-2.00%§!\n"
  BOR_SIG_SS_1_3_tt: "§g보수주의자§! 지원: §R-3.00%§!\n"
@@ -1018,7 +841,6 @@
  BOR_SIG_SS_1_20_tt: "§g보수주의자§! 지원: §R-20.00%§!\n"
  BOR_SIG_SS_1_25_tt: "§g보수주의자§! 지원: §R-25.00%§!\n"
  BOR_SIG_SS_1_30_tt: "§g보수주의자§! 지원: §R-30.00%§!\n"
- #####  MILITARISTS (2)  #####
  BOR_SIG_SS_2_1_tt: "§R군국주의자§! 지원: §R-1.00%§!\n"
  BOR_SIG_SS_2_2_tt: "§R군국주의자§! 지원: §R-2.00%§!\n"
  BOR_SIG_SS_2_3_tt: "§R군국주의자§! 지원: §R-3.00%§!\n"

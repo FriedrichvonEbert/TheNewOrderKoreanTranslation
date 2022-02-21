@@ -1,11 +1,6 @@
-﻿l_english:
-
- #characters
+l_english:
  ARC_David_Dragunsky:0 "다비드 드라군스키"
- 
- ### Leader Descriptions ###
  POLITICS_DAVID_DRAGUNSKY_DESC: "드라군스키는 러시아가 세 번이나 추락하는 것을 보았으며, 다시는 추락하게 두지 않을 것입니다... 1910년 유대인계 재단사 집안에서 태어난 드라군스키는 처음에 노보집코프에서 건설 노동자로 활동하다 1933년 소련군에 입대했습니다. 그리고선 전쟁이 시작되었습니다.\n\n드라군스키는 러시아 전차 부대를 지휘했지만 이내 러시아군이 붕괴되었습니다. 그와 부하는 최선을 다해 방어선을 꾸렸지만 연방은 완전히 붕괴되었습니다. 이러한 혼란 속에서 드라군스키와 그 부하들은 서러시아의 붉은 군대 잔당들로 인해 강제로 카가노비치의 부하와 맞서 서러시아 혁명전선을 위해 싸우게 되었습니다. 그 후 전투가 잦아들자 전선은 독일로 관심을 바꿨습니다. 드라군스키는 다시 한번 그의 병사들이 가능한 많은 독일인을 죽이도록 지휘했습니다. 그가 충성했던 러시아와 정부가 무너질 때까지. From there, Dragunsky's men wandered the ruined wastes of Russia, biding their time until someone would unify it.\n\nWhat he didn't expect was the Germans to be the ones to do it.\n\nWith Russia defeated yet again, Dragunsky vowed to not stand by and watch anymore. He refused to surrender this time. He and his remaining loyal crew set to work creating a partisan network that spanned the whole of Russia. They would not be torn apart by internal division or ideology this time, this was a matter of life or death. As months past and it seemed like Russia would never be free again, news reached the exhausted crew. The Germans were in another civil war! Dragunsky and his men have now seized land from the Germans' tired Reichskommissariats, and are prepared to drive the fascist dogs from their lands. They will make sure that Russia will never lose again, no matter what the cost."
- #Tooltips
  ARC_fortifying_the_country_tooltip: "§RBy taking this decision we will be prevented from sending volunteers for 24 days and cooperating with the other warlords will be difficult.§!"
  ARC_the_ideal_worker_tooltip: "§YWe have a unique opportunity to spread propaganda amongst the proletariat of the other warlords, the question is if we will do so.§!\n"
  ARC_wartime_industrial_expansion_tooltip: "§YWhile our industry is doing quite nicely that of our neighbors is lacking, we could help them or simply increase our own production to compensate.§!\n"
@@ -28,81 +23,63 @@
  ARC_the_problem_of_equipment_tooltip: "§YBy focusing on the Army our industry has degraded, we will bring up the issue of equipment with the congress.§!\n"
  ARC_the_problem_of_labor_tooltip: "§YWith the short term problem of equipment solved its time to look at the long term problem of workers, which we also lack due to the war.§!\n"
  ARC_improving_recruitment_methods_tooltip: "§YThe recruitment methods of our allies are lacking to say the least and we have been granted permission by the congress to improve them.§!\n"
- 
  ARC_voting_tooltip: "Our current amount of votes is:[?ARC_personal_votes|Y0].\n§MThe unity of the §!§TAll-Russian Congress§!§M will change depending on the difference between the votes for and against.§!"
- 
  ARC_decrease_agriculture: "§ROur agricultural development will take a hit because of this.§!\n"
  ARC_decrease_industrial_expertise: "§ROur industrial expertise will take a hit because of this.§!\n"
  ARC_increase_industrial_expertise: "§RThe Industrial Expertise of every member of the All-Russian Congress will increase.§!\n"
  ARC_calm_russians_minor: "§PPartisan activity§! will §gslightly§! decrease.\n"
  ARC_calm_russians_medium: "§PPartisan activity§! will decrease by a §wdecent§! amount.\n"
- ARC_calm_russians_major: "§PPartisan activity§! will face a §Rmajor§! decrease.\n" 
+ ARC_calm_russians_major: "§PPartisan activity§! will face a §Rmajor§! decrease.\n"
  ARC_anger_russians_minor: "§PPartisan activity§! will §Lslightly§! increase.\n"
  ARC_anger_russians_medium: "§PPartisan activity§! will increase by a §Ydecent§! amount.\n"
  ARC_anger_russians_major: "§PPartisan activity§! will face a §Gmajor§! increase.\n"
  ARC_recall_partisans_tooltip: "§YKeeping pressure behind enemy lines has become of secondary importance to our own survival, order some partisans to start rising up and move to our territory.§!"
- 
  ARC_unity_decrease: "§TThe All-Russian Congress§! will §Rfracture§! more.\n"
  ARC_unity_increase: "§TThe All-Russian Congress§! will grow §Gcloser§! together.\n"
- 
- #Decisions
  Russian_fall_rot_decisions: "적색 상황"
  Russian_fall_rot_decisions_desc: "The German Goliath is once again on Russian soil. Its foul tanks driving our people away and its planes striking without mercy. But this time it is different, this time the Russian people have learned from our past mistakes. Our nation, although shattered, has grown stronger in spirit. While we do not stand much of a chance alone against the German threat, there is a small chance that we could stand united.\n\n§PAnti German Partisan activity§! [ROOT.GetGGR_russian_population_anger]\n[ROOT.GetARC_unity]"
  ARC_leader_increase_partisan_support: "Increase Partisan Support"
  ARC_leader_invest_in_the_partisans: "Invest in the Partisans"
  ARC_leader_blow_up_factory: "Blow up enemy factories"
  ANC_pull_back_partisans: "Pull back Partisans"
- 
  ARC_unity_brink: "§TThe All-Russian Congress§! is on the §ebrink of collapse§!."
  ARC_unity_low: "§TThe All-Russian Congress§! is §Rdisunited§!."
  ARC_unity_medium: "§TThe All-Russian Congress§! is §Yunited but not stable§!."
  ARC_unity_high: "§TThe All-Russian Congress§! is on the §Gunited and stable§!."
- 
- ### ARC events ###
  ARC.2.t: "Russia Still Stands"
  ARC.2.desc: "For fifty days our forces have beat the odds and stemmed the German tide. Göring's overconfident forces have become bogged down and are being opposed at every turn not only by our regular forces, but by spontaneous uprisings of the people. The heroism and dignity of the common Russian has held back the Hun's bayonet.\n\nHowever, a few members of our high command have examined our current situation, and their analysis is grim: supplies are growing thin, and the miracle we have experienced so far cannot last forever. We must face reality, they say - while we claim to be the legitimate government of all Russia, by any rational assessment we are simply a warlord state, and increasingly some within our high command are arguing that we lack the resources to take on a superpower alone. They call for an unprecedented move - reaching out to our rivals across Russia and forming a coalition to bring all of the country's resources to bear against the Teutonic hordes. Yet, it goes without saying that this would be politically costly and would risk putting too much trust in our enemies within Russia itself. Collaborating with our rivals could very well doom our vision of a united Russia to failure. But failing to do so could imperil the very idea of Russia itself.\n\nThis proposal has sparked a tremendous controversy within our faction's ranks, and a decision must be made."
  ARC.2.a: "Form the coalition. We will stand together."
  ARC.2.b: "Only we can save Russia. We fight alone."
- 
  ARC.3.t: "The West has Fallen"
  ARC.3.desc: "Under any other circumstances, the news of the total destruction of our rivals to the west would be cause for jubilation. Yet, the news that the German Wehrmacht has already subdued western Russia, on a timetable exceeding even the most liberal of estimates, only means one thing - we are next on the firing line, and we must face Führer Göring's gun alone.\n\nOr perhaps we need not go alone.\n\nConsidering the dire circumstances, it seems reasonable that our rivals elsewhere in Russia - as hostile to us as they may be - might be amenable to some sort of temporary coalition to push the wolf back from our collective doorstep. Doing so would involve putting a questionable and quite possibly excessive amount of trust in them. But, at the same time, if we could assert a leading role in such a coalition of all Russians, the opportunities to advance our own agenda could be numerous.\n\nYet, many of our generals argue that we can go it alone. Speaking of the readiness and training of their men and the might of our forces, along with the harshness of the terrain, they assert that we are more than capable of ending Herr Göring's little military adventure where others have failed, and proving once and for all that we are the rightful government of all Russia."
  ARC.3.a: "Form the coalition. We will stand together."
  ARC.3.b: "Only we can save Russia. We fight alone."
- 
  ARC.4.t: "A Modest Proposal"
- ARC.4.desc: "Today, our government received something highly unusual - diplomatic mail. Above-the-table, formalized diplomacy is not something that comes often, if at all, on the windswept steppes of warlord Russia. Our leaders have become accustomed to being addressed with disdain by other warlords, as a king would speak to a pretender to his throne. Yet today's arrival actually treated us like a sovereign government, for once - perhaps speaking to the desperation of those sending it.\n\n"To the Leadership of the [Root.GetNameDef]:\n\nOur nation is once again threatened by the German behemoth. The Hitlerite beast is now at our door, and, try as we might, no single one of us can stem the Nazi tide alone. We have different beliefs and ideas of what Russia is and what it should be. But we are all Russians. We are but branches of the same tree, children of a lineage of a thousand years of hardship and triumph. The All-Russian Congress is exactly what it sounds like - a coalition of other warlords intended to bring the full resources of this nation and land we share to bear against the German war machine. Russians have only ever been victorious when standing together. We pray that you will stand with us in our fight to save Russia.""
- ARC.4.a: "We will stand together." 
- ARC.4.b: "No. Flattery cannot make this proposal sensible." 
- 
+ ARC.4.desc: "Today, our government received something highly unusual - diplomatic mail. Above-the-table, formalized diplomacy is not something that comes often, if at all, on the windswept steppes of warlord Russia. Our leaders have become accustomed to being addressed with disdain by other warlords, as a king would speak to a pretender to his throne. Yet today's arrival actually treated us like a sovereign government, for once - perhaps speaking to the desperation of those sending it.\n\n\"To the Leadership of the [Root.GetNameDef]:\n\nOur nation is once again threatened by the German behemoth. The Hitlerite beast is now at our door, and, try as we might, no single one of us can stem the Nazi tide alone. We have different beliefs and ideas of what Russia is and what it should be. But we are all Russians. We are but branches of the same tree, children of a lineage of a thousand years of hardship and triumph. The All-Russian Congress is exactly what it sounds like - a coalition of other warlords intended to bring the full resources of this nation and land we share to bear against the German war machine. Russians have only ever been victorious when standing together. We pray that you will stand with us in our fight to save Russia.\""
+ ARC.4.a: "We will stand together."
+ ARC.4.b: "No. Flattery cannot make this proposal sensible."
  ARC.5.t: "[From.GetNameDef] Joins the Congress"
  ARC.5.desc: "[From.GetNameDef]'s leadership has seen the light. No doubt swayed by the threat posed by Göring's invasion, they have agreed to join the All-Russian Congress and provide their forces for the common defense of all Russia. Though it remains to be seen as to how materially they will actually contribute to the war effort, this, at the very least, bodes well for the All-Russian project."
  ARC.5.a: "Strength in numbers."
- 
  ARC.6.t: "The Congress is Formed!"
  ARC.6.desc: "At long last, our rivals have seen the wisdom of our project to defend all Russia against the German threat. Today, in a packed hall in [Root.Capital.GetName], representatives of several of Russia's warlord states made a firm commitment to fight side-by-side in order to repel the invasion. Our government's propagandists have already hailed this as a shining victory of [Root.GetAdjective] diplomacy, and an undeniable display of our destiny to one day become Russia's one and only government.\n\nCynics, of course, have been quick to suggest that holding our rivals to the commitments they made today will be harder than it sounds, and that getting so many different governments, militaries, and militias to actually cooperate may be akin to herding cats. After all, as one general wryly commented, today's agreement is nothing but a piece of paper, and we live in a country where illiteracy runs rampant. But, for today, at least for a moment, optimism and idealism reigned, as we took a moment to remember that despite our political differences, we are still all Russians."
  ARC.6.a: "God save the Congress! God save Russia!"
- 
  ARC.8.t: "[From.GetNameDEF] wants to Join!"
  ARC.8.desc: "Despite their initial opposition to the plan, [From.GetNameDEF] seems to have come around to our way of thinking, and today submitted a formal request to join the All-Russian Congress. Many are skeptical of their sudden change of heart, but it cannot be denied that there is strength in numbers."
  ARC.8.a: "Welcome aboard... friends?"
  ARC.8.b: "They cannot be trusted."
- 
  ARC.9.t: "The Congress rejects Our offer!"
  ARC.9.desc: "Our humble request for membership in the All-Russian Congress has been denied! Whether this is the result of our initial opposition to the project somehow poisoning relations, or the product of some political intrigue, this is a grave insult and an unconscionable betrayal of the pan-Russian ideals the Congress claims to represent."
- ARC.9.a: "We are better off without such "friends"."
- 
+ ARC.9.a: "We are better off without such \"friends\"."
  ARC.10.t: "The Congress accepts Our offer!"
  ARC.10.desc: "No doubt eager to add our formidable strength to their own, the All-Russian Congress has formally accepted our request for membership, and has declared us a full member of the coalition against the German invasion. This marks a great step forward in our government's foreign policy, and confirms our position as a force to be reckoned with in the chaotic Russian political theater."
  ARC.10.a: "United we stand, divided we fall."
- 
  ARC.11.t: "The Torch of Leadership Has Been Passed"
  ARC.11.desc: "With the recent collapse of [ARC_leader.GetNameDEF], until now the de facto leader of the Congress, the task of leading the coalition has fallen to our government. As [ARC_leader.Capital.GetName] falls silent and is claimed by the ravages of history, our state is presented with a task that is at once a titanic burden but also an opportunity of astounding magnitude. If we succeed where [ARC_leader.GetNameDEF] failed, our government will no doubt take a preeminent place in the struggle to reunify Russia. If we fail, however..."
  ARC.11.a: "God save the Congress. God save Russia."
- 
  ARC.34.t: "의회의 종말"
  ARC.34.desc: "이젠 끝났습니다. Finally, the Congress has fallen apart completely. Perhaps it was coming for a long time- it's unclear that anyone is surprised by its final collapse. However, with the flaming remains of the ARC coming down, so goes the dream of Russian cooperation. We are unquestionably alone.\n\nIt's unclear whether, without the ARC, the Russian people will be able to hold off the Germans any longer. Each warlord that Germany threatens has sworn to continue the fight- however, without the aid of those who once were our allies, we may no longer have the organization needed to push the Germans back. Though our men will certainly do their best to win the war, some are beginning to see the war as lost- in any case, it's certain to be much, much more difficult to win."
  ARC.34.a: "God help us."
- 
  ARC.36.t: "의회의 해산"
  ARC.36.desc: "독일이 마침내 패퇴했습니다! Finally, Göring and his pack of jackals have retreated, abandoning their hopes and dreams in the Russian plains, and we finally stand victorious over our enemies. However, as Germany falls, so too does the purpose of the All-Russian Congress, and it has been agreed that the organization shall be dissolved.\n\nThis is certainly a disappointment to those who thought the ARC could be the future of Russia, but perhaps this outcome was inevitable. The ARC, for its usefulness as a faction, was wracked internally by ideological debates between incompatible factions. It was doomed to collapse - this is certainly the best way for it to happen.\n\nWith the ARC gone, the conflict between warlords is sure to resume. Only the strongest shall emerge victorious. We can only hope that one day, Russia will be as united as it was in the heyday of the All-Russian Congress."
  ARC.36.a: "All good things must end."

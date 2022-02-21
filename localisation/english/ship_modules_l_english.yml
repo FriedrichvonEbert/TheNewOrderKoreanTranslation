@@ -1,5 +1,4 @@
-﻿l_english:
- ### EQUIPMENT MODULE CATEGORIES ###
+l_english:
  EQ_MOD_CAT_ship_light_battery_TITLE:0 "속사포"
  EQ_MOD_CAT_ship_sub_snorkel_TITLE:0 "스노클"
  EQ_MOD_CAT_ship_torpedo_TITLE:0 "어뢰 발사기"
@@ -36,8 +35,6 @@
  EQ_MOD_CAT_battleship_ship_nuclear_engine_TITLE:0 "전함 핵 반응로"
  EQ_MOD_CAT_carrier_ship_nuclear_engine_TITLE:0 "항공모함 핵 반응로"
  EQ_MOD_CAT_sub_ship_nuclear_engine_TITLE:0 "잠수함 핵 반응로"
- 
- ### EQUIPMENT MODULE SLOTS ###
  EQ_MOD_SLOT_fixed_ship_battery_slot_TITLE:0 "주포"
  EQ_MOD_SLOT_fixed_ship_secondaries_slot_TITLE:0 "부포"
  EQ_MOD_SLOT_fixed_ship_anti_air_slot_TITLE:0 "대공"
@@ -55,7 +52,6 @@
  EQ_MOD_SLOT_mid_3_custom_slot_TITLE:0 "커스텀 중앙 3"
  EQ_MOD_SLOT_rear_1_custom_slot_TITLE:0 "커스텀 후면 1"
  EQ_MOD_SLOT_rear_2_custom_slot_TITLE:0 "커스텀 후면 2"
- ### EQUIPMENT MODULES ###
  ship_light_battery_1:0 "5인치 38구경 함포"
  ship_light_battery_1_short:0 "경함포 I"
  ship_light_battery_1_desc:0 ""
@@ -68,11 +64,9 @@
  ship_light_battery_4:0 "5인치 62구경 함포"
  ship_light_battery_4_short:0 "경함포 IV"
  ship_light_battery_4_desc:0 ""
- 
  dp_light_battery:0 "127mm 공지양용 함포"
  dp_light_battery_short:0 "공지양용 주포"
  dp_light_battery_desc:0 "항공기뿐만 아니라 수면 목표물과도 교전할 수 있는, 특수한 작은 포입니다."
- 
  ship_heavy_battery_1:0 "40.6cm 함포"
  ship_heavy_battery_1_short:0 "중함포 I"
  ship_heavy_battery_1_desc:0 ""
@@ -85,11 +79,9 @@
  ship_heavy_battery_4:0 "50.8 cm 함포"
  ship_heavy_battery_4_short:0 "중함포 IV"
  ship_heavy_battery_4_desc:0 ""
- 
  ship_super_heavy_battery_1:0 "46 cm 함포"
  ship_super_heavy_battery_1_short:0 "초중함포"
  ship_super_heavy_battery_1_desc:0 ""
- 
  ship_light_medium_battery_1:0 "14.5 cm 함포"
  ship_light_medium_battery_1_short:0 "경순양함포 I"
  ship_light_medium_battery_1_desc:0 "발사 속도와 포탄의 무게를 놓고 타협점을 찾은 주포로서, 상대적으로 왜소한 크기의 함선을 상대하기 위해 경순양함에 장착합니다."
@@ -101,8 +93,7 @@
  ship_light_medium_battery_3_desc:0 "여러 신기술로 설계한, 이 경무장 포는 구축함과 경순양함 간의 격차를 더욱 증가시킵니다."
  ship_light_medium_battery_4:0 "15.5 cm 함포 자동 장전식"
  ship_light_medium_battery_4_short:0 "경순양함포 IV"
- ship_light_medium_battery_4_desc:0 ""철저히 높은 발포 속도를 위해 설계된, 이 포는 경순양함이 다수의 공격으로 더 큰 적을 무력화시키기 위해 만들어졌습니다."
- 
+ ship_light_medium_battery_4_desc:0 "\"철저히 높은 발포 속도를 위해 설계된, 이 포는 경순양함이 다수의 공격으로 더 큰 적을 무력화시키기 위해 만들어졌습니다."
  ship_medium_battery_1:0 "17 cm 함포"
  ship_medium_battery_1_short:0 "중순양함포 I"
  ship_medium_battery_1_desc:0 "전함을 상대로 큰 피해를 줄 수는 없지만, 이 중형포는 중순양함이 경선박과 다른 순양함을 상대로 자신있게 교전할 수 있도록 합니다."
@@ -115,18 +106,15 @@
  ship_medium_battery_4:0 "20.3 cm 함포 자동 장전식"
  ship_medium_battery_4_short:0 "중순양함포 IV"
  ship_medium_battery_4_desc:0 "기존 탄약 공급에 의해 제한된 구경과 오래된 선박을 개조할 목적으로 제작한, 이 새로운 포는 발포 속도를 대폭 향상시킨 첨단 자동 장전 시스템이 특징입니다."
- 
  ship_secondaries_1:0 "75mm 속사포"
  ship_secondaries_1_short:0 "부포 I"
  ship_secondaries_1_desc:0 "선박 측면에 있는 포대에 탑재된, 이 경포는 대형 선박이 작은 선박에 대한 방어책을 제공합니다."
  ship_secondaries_2:0 "120mm 속사포"
  ship_secondaries_2_short:0 "부포 II"
  ship_secondaries_2_desc:0 "구축함과 어뢰정으로부터 주력함을 방어하기 위해 설계된, 속사포를 탑재한 작은 포탑입니다."
- 
  dp_ship_secondaries:0 "127mm 공지양용 부포"
  dp_ship_secondaries_short:0 "공지양용 부포"
  dp_ship_secondaries_desc:0 "중대공포와 보조 포 역활을 합친, 이 포는 함선의 대공 능력을 대폭 향상시키며 또한 작은 해상 목표물에 대한 방어책을 제공합니다."
- 
  ship_anti_ship_missile_battery_1:0 "1960년형 대함미사일 발사관"
  ship_anti_ship_missile_battery_1_short:0 "함대함 미사일 발사관 I"
  ship_anti_ship_missile_battery_1_desc:0 ""
@@ -139,7 +127,6 @@
  ship_anti_ship_missile_battery_4:0 "1990년형 대함미사일 발사관"
  ship_anti_ship_missile_battery_4_short:0 "함대함 미사일 발사관 IV"
  ship_anti_ship_missile_battery_4_desc:0 ""
- 
  ship_anti_air_missile_battery_1:0 "1960년형 함대공미사일 발사관"
  ship_anti_air_missile_battery_1_short:0 "함대공미사일 발사관 I"
  ship_anti_air_missile_battery_1_desc:0 ""
@@ -152,7 +139,6 @@
  ship_anti_air_missile_battery_4:0 "1990년형 함대공미사일 발사관"
  ship_anti_air_missile_battery_4_short:0 "함대공미사일 발사관 IV"
  ship_anti_air_missile_battery_4_desc:0 ""
- 
  ship_fire_control_system_0:0 "중앙 거리측정기"
  ship_fire_control_system_0_short:0 "사격 통제 0"
  ship_fire_control_system_0_desc:0 "함선의 돛대 아주 높은 중앙 통제소에서 목표물까지의 거리를 측정하고 포대에 그 정보를 전달해줍니다."
@@ -165,7 +151,6 @@
  ship_fire_control_system_3:0 "탄도 계산기"
  ship_fire_control_system_3_short:0 "사격 통제 III"
  ship_fire_control_system_3_desc:0 "보다 복잡한 컴퓨터 기계로 목표물과 교전하기 위해 탄도 결과를 계산할때 다양한 요소들을 고려합니다."
- 
  ship_torpedo_1:0 "4x 533 mm 어뢰 발사관"
  ship_torpedo_1_short:0 "어뢰 발사관 I"
  ship_torpedo_1_desc:0 ""
@@ -178,7 +163,6 @@
  ship_torpedo_4:0 "6x 324 mm 어뢰 발사관"
  ship_torpedo_4_short:0 "어뢰 발사관 IV"
  ship_torpedo_4_desc:0 ""
- 
  ship_torpedo_sub_1:0 "10x 533mm 어뢰 발사관"
  ship_torpedo_sub_1_short:0 "어뢰 발사관 I"
  ship_torpedo_sub_1_desc:0 ""
@@ -197,7 +181,6 @@
  ship_torpedo_sub_6:0 "4x 533mm 어뢰 발사관 MK. III"
  ship_torpedo_sub_6_short:0 "어뢰 발사관 VI"
  ship_torpedo_sub_6_desc:0 ""
- 
  ship_anti_air_1:0 "40mm 4연장 대공포"
  ship_anti_air_1_short:0 "대공포 I"
  ship_anti_air_1_desc:0 ""
@@ -210,14 +193,12 @@
  ship_anti_air_4:0 "22mm 씨위즈"
  ship_anti_air_4_short:0 "대공포 IV"
  ship_anti_air_4_desc:0 ""
- 
  ship_mine_layer_1:0 "기뢰부설 레일"
  ship_mine_layer_1_desc:0 "기뢰를 운반하고 배치 할 수상함에 대한 변동치."
  ship_mine_sweeper_1:0 "기뢰 소해 장비"
  ship_mine_sweeper_1_desc:0 "다양한 소해 장비를 배치하는 장비입니다."
  ship_mine_layer_sub:0 "기뢰 부설관"
  ship_mine_layer_sub_desc:0 "잠수함 선체를 개조하여, 다수의 기뢰를 배치할 수 있게 합니다."
- 
  ship_depth_charge_1:0 "헷지호그 대잠 박격포"
  ship_depth_charge_1_short:0 "폭뢰 I"
  ship_depth_charge_1_desc:0 ""
@@ -236,17 +217,14 @@
  ship_depth_charge_6:0 "1990 대잠 박격포"
  ship_depth_charge_6_short:0 "폭뢰 VI"
  ship_depth_charge_6_desc:0 ""
- 
  ship_sub_snorkel_1:0 "기초 스노클"
  ship_sub_snorkel_1_desc:0 "수중에서 잠수함이 메인 엔진을 사용하게 하는 장치로 떠올라 공격에 노출되지 않고 배터리를 재충전 할 수 있습니다."
  ship_sub_snorkel_2:0 "향상된 스노클"
  ship_sub_snorkel_2_desc:0 "스노클의 설계가 개선되어 레이다에서 감지되는 확률을 줄이면서 메인 엔진을 심해에서 사용할 때의 문제점을 줄일 수 있습니다."
- 
  ship_airplane_launcher_1:0 "수상기 발사기"
  ship_airplane_launcher_1_desc:0 "간단한 비행기 발사대는 작은 정찰기를 공중으로 추진시킵니다."
  ship_airplane_launcher_2:0 "헬리콥터 이착륙대"
  ship_airplane_launcher_2_desc:0 ""
- 
  ship_deck_space:0 "표준 격납고 공간"
  ship_deck_space_desc:0 "선박 안에 있는 개방적인 공간으로 항공기의 무장과 수리를 가능하게 해줍니다. 격납고 공간을 확장하는 것은 비용을 급격하게 상승시킵니다."
  ship_deck_space_medium:0 "중형 격납고 공간"
@@ -255,7 +233,6 @@
  ship_deck_space_large_desc:0 " 안에 있는 매우 큰 개방적인 공간으로 항공기의 무장과 수리를 가능하게 해줍니다. 격납고 공간을 확장하는 것은 비용을 급격하게 상승시킵니다."
  ship_sub_deck_space:0 "잠수함 격납고 공간"
  ship_sub_deck_space_desc:0 "잠수함 안에 있는 개방적인 공간으로 하나의 항공기의 무장과 수리를 가능하게 해줍니다. "
- 
  ship_sonar_1:0 "수중 청음기"
  ship_sonar_1_desc:0 "잠수한 표적이 내는 소리를 추적하는 간단한 수중 청음기 세트입니다."
  ship_sonar_2:0 "능동 음파탐지기"
@@ -268,7 +245,6 @@
  ship_sonar_5_desc:0 ""
  ship_sonar_6:0 "1990년형 음파탐지기 모듈"
  ship_sonar_6_desc:0 ""
- 
  ship_radar_1:0 "데시미터파 해군 수색 레이다"
  ship_radar_1_short:0 "레이다 I"
  ship_radar_1_desc:0 "파장 범위가 50cm에서 작동하는 단순한 레이다 세트는 악천후에서도 10km 이상의 범위에 있는 수상함을 탐지 할 수 있습니다."
@@ -281,10 +257,8 @@
  ship_radar_4:0 "통합 사격 통제 레이다"
  ship_radar_4_short:0 "레이다 IV"
  ship_radar_4_desc:0 "센티미터 파장 범위에서 작동하는, 이 레이다 세트는 함선 포 통제장치와 완전히 통합되어 있으며 모든 기상 조건에서 매우 정확한 포격을 할 수 있습니다."
- 
  ship_extra_fuel_tank:0 "추가 연료 탱크"
  ship_extra_fuel_tank_desc:0 "확장된 연료 저장고는 작전 범위를 늘려줍니다."
- 
  light_ship_engine_1:0 "60,000 축마력 함선 엔진"
  light_ship_engine_1_short:0 "경형 엔진 I"
  light_ship_engine_1_desc:0 ""
@@ -303,7 +277,6 @@
  light_ship_engine_6:0 "105,000 제동마력 함선 엔진"
  light_ship_engine_6_short:0 "경형 엔진 VI"
  light_ship_engine_6_desc:0 ""
- 
  sub_ship_engine_1:0 "5,400 축마력 함선 엔진"
  sub_ship_engine_1_short:0 "잠수함 엔진 I"
  sub_ship_engine_1_desc:0 ""
@@ -322,7 +295,6 @@
  sub_ship_engine_6:0 "40,000 축마력 함선 엔진"
  sub_ship_engine_6_short:0 "잠수함 엔진 VI"
  sub_ship_engine_6_desc:0 ""
- 
  cruiser_ship_engine_1:0 "120,000 축마력 함선 엔진"
  cruiser_ship_engine_1_short:0 "순양함 엔진 I"
  cruiser_ship_engine_1_desc:0 ""
@@ -341,7 +313,6 @@
  cruiser_ship_engine_6:0 "130,000 축마력 함선 엔진"
  cruiser_ship_engine_6_short:0 "순양함 엔진 VI"
  cruiser_ship_engine_6_desc:0 ""
- 
  heavy_ship_engine_1:0 "212,000 축마력 함선 엔진"
  heavy_ship_engine_1_short:0 "중형 엔진 I"
  heavy_ship_engine_1_desc:0 ""
@@ -360,7 +331,6 @@
  heavy_ship_engine_6:0 "150,000 축마력 함선 엔진"
  heavy_ship_engine_6_short:0 "중형 엔진 VI"
  heavy_ship_engine_6_desc:0 ""
- 
  carrier_ship_engine_1:0 "212,000 축마력 함선 엔진"
  carrier_ship_engine_1_short:0 "항공모함 엔진 I"
  carrier_ship_engine_1_desc:0 ""
@@ -373,7 +343,6 @@
  carrier_ship_engine_4:0 "260,000 축마력 함선 엔진"
  carrier_ship_engine_4_short:0 "항공모함 엔진 IV"
  carrier_ship_engine_4_desc:0 ""
- 
  cruiser_ship_nuclear_engine_1:0 "1960년형 핵추진 순양함 반응로"
  cruiser_ship_nuclear_engine_1_short:0 "순양함 원자로 I"
  cruiser_ship_nuclear_engine_1_desc:0 ""
@@ -386,7 +355,6 @@
  cruiser_ship_nuclear_engine_4:0 "1990년형 핵추진 순양함 반응로"
  cruiser_ship_nuclear_engine_4_short:0 "순양함 원자로 IV"
  cruiser_ship_nuclear_engine_4_desc:0 ""
- 
  battleship_ship_nuclear_engine_1:0 "1960년형 핵추진 전함 반응로"
  battleship_ship_nuclear_engine_1_short:0 "전함 원자로 I"
  battleship_ship_nuclear_engine_1_desc:0 ""
@@ -399,7 +367,6 @@
  battleship_ship_nuclear_engine_4:0 "1990년형 핵추진 전함 반응로"
  battleship_ship_nuclear_engine_4_short:0 "전함 원자로 IV"
  battleship_ship_nuclear_engine_4_desc:0 ""
- 
  carrier_ship_nuclear_engine_1:0 "1960년형 핵추진 항모 반응로"
  carrier_ship_nuclear_engine_1_short:0 "항모 원자로 I"
  carrier_ship_nuclear_engine_1_desc:0 ""
@@ -412,7 +379,6 @@
  carrier_ship_nuclear_engine_4:0 "1990년형 핵추진 항모 반응로"
  carrier_ship_nuclear_engine_4_short:0 "항모 원자로 IV"
  carrier_ship_nuclear_engine_4_desc:0 ""
- 
  sub_ship_nuclear_engine_1:0 "1960년형 핵추진 잠수함 반응로"
  sub_ship_nuclear_engine_1_short:0 "잠수함 원자로 I"
  sub_ship_nuclear_engine_1_desc:0 ""
@@ -425,7 +391,6 @@
  sub_ship_nuclear_engine_4:0 "1990년형 핵추진 잠수함 반응로"
  sub_ship_nuclear_engine_4_short:0 "잠수함 원자로 IV"
  sub_ship_nuclear_engine_4_desc:0 ""
- 
  ship_armor_bb_1:0 "307mm 수선부/152mm 갑판"
  ship_armor_bb_1_short:0 "전함 장갑 I"
  ship_armor_bb_1_desc:0 ""
@@ -435,7 +400,6 @@
  ship_armor_bb_3:0 "380mm 수선부/160mm 갑판"
  ship_armor_bb_3_short:0 "전함 장갑 III"
  ship_armor_bb_3_desc:0 ""
- 
  ship_armor_bc_1:0 "150mm 수선부/25mm 갑판"
  ship_armor_bc_1_short:0 "순양전함 장갑 I"
  ship_armor_bc_1_desc:0 "더 작은 함포에 대해서 함선을 보호 하도록 설계된, 이 장갑 도식은 무게를 많이 줄여 속도를 훨씬 더 빠르게 합니다."
@@ -445,11 +409,9 @@
  ship_armor_bc_3:0 "330mm 수선부/130mm 갑판"
  ship_armor_bc_3_short:0 "순양전함 장갑 III"
  ship_armor_bc_3_desc:0 "이전의 근본적인 장갑 설계에서 벗어난 이 디자인은 함선의 중심에 중무장된 성채를 만들지만 함선의 보호를 위해 다른 부분을 희생합니다. 이것은 동일한 구경의 함포에 맞서 함선을 방어하기 위해 만들어졌습니다."
- 
  ship_armor_shbb:0 "410mm 수선부/200mm 갑판"
  ship_armor_shbb_short:0 "초중장갑"
  ship_armor_shbb_desc:0 ""
- 
  ship_armor_cruiser_1:0 "50mm 수선부/40mm 갑판"
  ship_armor_cruiser_1_short:0 "순양함 장갑 I"
  ship_armor_cruiser_1_desc:0 "구축함과 같은 경장갑함과 싸울 때 순양함에 약간의 우위를 부여하기위한 장갑 체계입니다."
@@ -468,11 +430,7 @@
  ship_armor_cruiser_6:0 ""
  ship_armor_cruiser_6_short:0 "순양함 장갑 VI"
  ship_armor_cruiser_6_desc:0 ""
- 
  ship_armor_carrier_deck:0 "193mm 수선부/89mm 갑판"
  ship_armor_carrier_deck_short:0 "비행갑판 장갑"
  ship_armor_carrier_deck_desc:0 ""
- 
  SHIP_DESIGNER_MODULE_SELECTION:0 "모듈 선택"
- ### Nation Specific Modules
- 

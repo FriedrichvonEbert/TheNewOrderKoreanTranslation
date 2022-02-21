@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  PRODUCTION_PRODUCTION_LABEL:0 "생산"
  PRODUCTION_EQUIPMENTPOOL_LABEL:0 "저장"
  PRODUCTION_EFFICIENCY_LABEL:0 "§T효율§!"
@@ -8,7 +8,7 @@
  PRODUCTION_FACTORIES_LABEL:0 "공장"
  PRODUCTION_OPERATIONAL_ARMS_FACTORIES_LABEL:0 "군수 공장"
  PRODUCTION_OPERATIONAL_DOCKYARDS_LABEL:0 "해군 조선소"
- PRODUCTION_OPERATIONAL_FACTORIES_LABEL:0 "민간 공장"
+ PRODUCTION_OPERATIONAL_FACTORIES_LABEL:0 "민간공장"
  PRODUCTION_OPERATIONAL_DOCKYARDS_LABEL_SHORT:0 "조선소"
  PRODUCTION_AVAILABLE_ARMS_FACTORIES_LABEL:0 "가능한 군수공장"
  PRODUCTION_AVAILABLE_DOCKYARDS_LABEL:0 "가능한 해군 조선소"
@@ -69,7 +69,7 @@
  PRODUCTION_CONSUMER_GOODS_VALUE:0 "$VALUE$"
  PRODUCTION_CONSUMER_GOODS:0 "소비재"
  PRODUCTION_CONSUMER_GOODS_LABEL:0 "§H소비재§!"
- PRODUCTION_CONSUMER_GOODS_DESC:0 "현재 우리의 경제 정책으로 볼때, 사람들은 우리 민간 및 군수 공장들 중에서 $PERCENTAGE|H0%$는 소비재를 생산할 것이라고 예상합니다. 이 수요는 오직 민간 공장으로만 채워지며, 남아 있는 $OPERATIONAL|H$개의 공장 중 무역에 $TRADE_USABLE|H$개를 사용할 수 있습니다."
+ PRODUCTION_CONSUMER_GOODS_DESC:1 "현재 우리의 경제 정책으로 볼때, 사람들은 우리 민간 및 군수 공장들 중에서 $PERCENTAGE|H0%$는 소비재를 생산할 것이라고 예상합니다. 이 수요는 오직 민간 공장으로만 채워지며, 남아 있는 $OPERATIONAL|H$개의 공장 중 무역에 $TRADE_USABLE|H$개를 사용할 수 있습니다."
  PRODUCTION_CIV_AND_MIL_FACTORIES:0 "민간 및 군수 공장: $KEY|H$"
  PRODUCTION_REQ_CONSUMER_GOODS_FACTORIES:0 "필요한 소비재: $KEY|H$"
  PRODUCTION_MATERIAL_COST_DESC:0 "§T이 생산 라인은 $AMOUNT|0H$만큼의 $MATERIAL|H$(을)를 소비하고있습니다.§!"
@@ -212,8 +212,6 @@
  PRODUCTION_FILTER_RIGHTCLICK:0 "\n§G우클릭§!으로 해당 항목 전부 계속 축소."
  PRODUCTION_FILTER_ARMS_FACTORIES:0 "사용 중인 군수 공장"
  PRODUCTION_FILTER_DOCKYARDS:0 "사용 중인 조선소"
- 
- 
  INTEL_CIVILIAN_FACTORIES_USED_ON_TRADE:0 "Estimated Civilian Factories used on trade"
  INTEL_ARMS_FACTORIES_USED_ON_EQUIPMENT:0 "Estimated Military Factories used on military equipments"
  INTEL_ARMS_FACTORIES_USED_ON_ARMOR:0 "Estimated Military Factories used on armored vehicles"
@@ -221,8 +219,6 @@
  INTEL_DOCKYARDS_USED_ON_CAPITAL:0 "Estimated Naval Dockyards used capital ships"
  INTEL_DOCKYARDS_USED_ON_SCREEN:0 "Estimated Naval Dockyards used screen ships"
  INTEL_DOCKYARDS_USED_ON_OTHER:0 "Estimated Naval Dockyards used other ships"
- 
- 
  PRODUCTION_DRAG_N_DROP:0 "§G드래그 앤 드롭§!으로 §Y우선권§! 변경."
  PRODUCTION_COLLAPSE:2 "§G클릭§!으로 접기.\n§GCtrl + 클릭§!으로 이 카테고리 모두 접기.\n§GShift + 클릭§!으로 모든 생산 라인 접기."
  PRODUCTION_EXPAND:2 "§G클릭§!으로 펼치기.\n§GCtrl + 클릭§!으로 이 카테고리 모두 펼치기.\n§GShift + 클릭§!으로 모든 생산 라인 펼치기."
@@ -243,9 +239,8 @@
  PRODUCTION_LINE_CONVERT_NO_EQUIPMENT_IN_STOCK:0 "§R현재 비축분으로 전환할 수 있는 장비가 없습니다: $VARIANT|H$§!"
  PRODUCTION_LINE_CONVERT_HEADER:0 "비축분으로부터 전환"
  PRODUCTION_LINE_CONVERT_ORDER_OF_CONVERSION:0 "전환 순서:"
- PRODUCTION_LINE_CONVERT_ORDER_OF_CONVERSION_ENTRY:0 "\n  $NUM|Y2$ of $VARIANT|G$ (§H$TYPE$§!) 비용:"
  PRODUCTION_LINE_CONVERT_ORDER_OF_CONVERSION_ENTRY_NO_TYPE:0 "$NUM|Y0$ of $VARIANT|G$ with cost: "
- PRODUCTION_LINE_CONVERT_ORDER_OF_CONVERSION_FREE_ENTRY:0 "\n  $NUM|Y2$ of $VARIANT|G$ (§H$TYPE$§!)"
+ PRODUCTION_LINE_CONVERT_ORDER_OF_CONVERSION_FREE_ENTRY:1 "\n  $NUM|Y2$ of $VARIANT|G$ (§H$TYPE$§!)"
  PRODUCTION_LINE_CONVERT_ORDER_OF_CONVERSION_FREE_ENTRY_NO_TYPE:0 "$NUM|Y0$ of $VARIANT|G$"
  PRODUCTION_LINE_CONVERT_RESOURCE_COST_ENTRY:0 "§H$NUM$§!£resources_strip|$FRAME$"
  PRODUCTION_LINE_CONVERT_DESC:1 "비축물자 중 §H만료된 장비§! 또는 §H노획한 장비§!를 변환합니다. 물자 변환이 이루어지는 중에는 현재 생산 라인에 차량을 할당하는 비용이 절감됩니다. 이 효력은 물자가 바닥날 때까지 지속됩니다."
@@ -290,7 +285,6 @@
  PRODUCTION_SUB_UNIT_FILTER:0 "보기 한정 $SUBUNIT|H$ ($COUNT|H$ match)"
  PRODUCTION_EQUIPMENT_ROLE_NO_FILTER:0 "모든 역할 보기"
  PRODUCTION_EQUIPMENT_ROLE_FILTER:0 "역할에 한정해서 장비 보기 $ROLE|H$"
-
  countryconstructionsview_shared_text:0 "공유됨"
  countryconstructionsview_state_text:0 "국가"
  countryconstructionsview_province_text:0 "주"

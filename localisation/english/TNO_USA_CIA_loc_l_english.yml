@@ -1,18 +1,9 @@
-﻿l_english:
-
+l_english:
  USA_CIA_Decisions_GUI:0 "중앙정보국"
  USA_CIA_Decisions_GUI_Title:0 "§MCIA§!"
-
  TNO_US_CIA_Decisions_GUI_Action_Window_visible:0 "다른 작전을 선택했습니다"
  USA_CIA_american_influence_cooldown:0 "§YHas bolstered American political influence in the last 6 months.§!"
  USA_CIA_trade_influence_cooldown:0 "§YHas bolstered American trade influence in the last 6 months.§!"
-
- ########################################
- ####
- #### REGION STUFF
- ####
- ########################################
-
  USA_CIA_Region_Loc_Africa:0 "§O아프리카§!"
  USA_CIA_Region_Loc_Russia:0 "§y러시아§!"
  USA_CIA_Region_Loc_Europe:0 "§x유럽§!"
@@ -25,26 +16,9 @@
  USA_CIA_Region_Loc_Middle_East:0 "§S중동§!"
  USA_CIA_Region_Loc_No_Region:0 "지역 선택되지 않음"
  USA_CIA_Unlock_Region_Tooltip:0 "이 지역에서의 작전을 준비하기 위해 §w30M 달러§!를 투자할까요?"
-
-
-########################################
-####
-#### RESEARCH SCREEN
-####
-########################################
-
-
  USA_CIA_Pick_Research_tt:0 "[GetResearchName]"
  USA_CIA_No_Research:0 "§Y연구 선택§!"
  USA_CIA_Research_Screen_Title_tt:0 "§M연구 및 개발§!"
-
-
-########################################
-####
-#### BUDGET STUFF
-####
-########################################
-
  USA_CIA_Change_Budget_tt:0 "[USA_CIA_Change_Budget_sl]"
  USA_CIA_Change_Budget_increase_tt:0 "Increase Budget by:"
  USA_CIA_Change_Budget_Change_tt:0 "[USA_CIA_Change_Budget_Change_sl]"
@@ -61,41 +35,27 @@
  USA_CIA_Mission_Cost_35_Million:0 "§w3천 5백만 달러§!"
  USA_CIA_Mission_Cost_45_Million:0 "§w4천 5백만 달러§!"
  USA_CIA_Mission_Cost_50_Million:0 "§w5천만 달러§!"
-
  USA_CIA_Mission_Cost_15_Million_blocked:0 "§R1천 5백만 달러§!"
  USA_CIA_Mission_Cost_25_Million_blocked:0 "§R2천 5백만 달러§!"
  USA_CIA_Mission_Cost_30_Million_blocked:0 "§R3천만 달러§!"
  USA_CIA_Mission_Cost_35_Million_blocked:0 "§R3천 5백만 달러§!"
  USA_CIA_Mission_Cost_45_Million_blocked:0 "§R4천 5백만 달러§!"
  USA_CIA_Mission_Cost_50_Million_blocked:0 "§R5천만 달러§!"
-
- USA_CIA_Mission_Cost_2500_guns:0 "§w2500§! £GFX_weapon_icon" # might remove the weapon budget
+ USA_CIA_Mission_Cost_2500_guns:0 "§w2500§! £GFX_weapon_icon"
  USA_CIA_Mission_Cost_2500_guns_blocked:0 "§R2500§! £GFX_weapon_icon"
  USA_CIA_Mission_Cost_5000_guns:0 "§w5000§! £GFX_weapon_icon"
  USA_CIA_Mission_Cost_5000_guns_blocked:0 "§R5000§! £GFX_weapon_icon"
-
  USA_CIA_Mission_ShortCost_2500_guns:0 "§w2500§! £GFX_weapon_icon"
  USA_CIA_Mission_ShortCost_2500_guns_blocked:0 "§R2500§! £GFX_weapon_icon"
  USA_CIA_Mission_ShortCost_5000_guns:0 "§w5000§! £GFX_weapon_icon"
  USA_CIA_Mission_ShortCost_5000_guns_blocked:0 "§R5000§! £GFX_weapon_icon"
-
  USA_CIA_1_agent_free:0 "최소 §Y1명§!의 요원이 필요합니다.\n"
-
  USA_CIA_Mission_Over25_Obfuscation:0 "§Y지역 복호화가 25 이상임§!"
-
  USA_CIA_Yes_text_tt:0 "예"
  USA_CIA_No_text_tt:0 "아니오"
  USA_CIA_Yes_Unlock_Tooltip:0 "[GetUSACIAUnlockBudgetTooltip]"
  USA_CIA_Not_Enough_Budget:0 "§R예산이 충분하지 않습니다.§!"
-
-########################################
-####
-#### OPERATIVE AND EXPERTISE STUFF
-####
-########################################
-
  USA_CIA_Training_Title_tt:0 "§R훈련§!"
-
  USA_CIA_not_at_operative_cap:0 "우리는 현재 보유한 요원은 §Y10§!명보다 적습니다.\n"
  USA_CIA_add_operative:0 "우리는 새로운 요원을 §G채용§!할 것입니다.\n"
  USA_CIA_operative_returns:0 "우리 요원이 새로운 작전을 행할 준비가 되었습니다.\n"
@@ -117,7 +77,6 @@
  USA_CIA_remove_40_expertise:0 "우리는 §Y40§!의 숙련도를 §R잃을 것입니다.§!\n"
  USA_CIA_remove_50_expertise:0 "우리는 §Y50§!의 숙련도를 §R잃을 것입니다.§!\n"
  USA_CIA_remove_60_expertise:0 "우리는 §Y60§!의 숙련도를 §R잃을 것입니다.§!\n"
-
  USA_CIA_GUI_recruit_expertise_title_tt:0 "상태"
  USA_CIA_recruit_bar_status:0 "[GetCIARecruitBarStatus]"
  USA_CIA_recruit_button_status:0 "[GetCIARecruitStatus]"
@@ -127,20 +86,15 @@
  USA_CIA_training_progress:0 "새 요원 훈련은 §Y[?USA_CIA_recruit_progress]%§! 완료된 상태입니다.\n"
  USA_CIA_already_recruiting:0 "우리는 이미 새로운 요원을 훈련하고 있습니다."
  USA_CIA_not_recruiting:0 "우리는 현재 새로운 요원을 훈련하지 않고 있습니다."
-
  USA_CIA_decrease_GER_capability:0 "우리는 이 지역 내 §j독일§!의 작전 수행 능력을 §G손상§!시키기 위한 작전을 개시할 것입니다.\n"
-
-
  USA_CIA_destabilize_japan_tt:0 "우리는 일본 내부의 §Y안정성§!을 해하는 작전을 개시할 것입니다.\n"
  USA_CIA_korean_resistance:0 "우리는 일본에 대항하여 조선 독립 단체에 자금을 지원하는 작전을 개시할 것입니다.\n"
  USA_CIA_vladivostok_resistance:0 "우리는 블라디보스토크의 일본 점령군에 맞서는 저항을 선동하는 작전을 개시할 것입니다.\n"
  USA_CIA_chinese_resistance:0 "우리는 일본이 지배하는 중국 도시의 저항 세력을 돕는 작전을 개시할 것입니다.\n"
  USA_CIA_hawaii_resistance:0 "우리는 일본이 점령한 하와이주의 용감한 자유투사를 지원하는 작전을 개시할 것입니다.\n"
-
  USA_CIA_give_fri_buff:0 "우리는 CIA에게 §G작전 수행§!으로 자유 인도네시아를 지원하도록 지시할 것입니다.\n"
  USA_CIA_give_ins_debuff:0 "우리는 CIA에게 인도네시아 군의 §R완전한 작전 수행§!을 사보타주하도록 지시할 것입니다.\n"
  USA_CIA_sabotage_ins:0 "우리는 인도네시아 기반시설을 §R마비§!시키는 작전을 개시할 것입니다.\n"
-
  USA_speer_radio_address_tt:0 "내전 중인 슈페어의 독일에 §G안정도를 늘리고 정치력 획득량을 증가§!시키는 작전을 개시할 것입니다."
  USA_speer_send_weapons_tt:0 "내전 중인 슈페어의 독일에 §G보병 장비를 제공§!하는 작전을 개시할 것입니다."
  USA_speer_support_internationally_tt:0 "내전 중인 슈페어의 독일에 §G사기와 전투능력을 향상§!시키는 작전을 개시할 것입니다."
@@ -156,9 +110,7 @@
  USA_CIA_late_game_speer_leaning_boost:0 "독일 정부를 교란시켜 §G개혁파§!의 목소리를 내게하는 작전을 개시할 것입니다.\n"
  USA_CIA_sabotaging_reptriation:0 "독일의 §R복원 노력§!을 방해하고 경제적 악화를 연장하기 위한 작전을 개시할 것입니다.\n"
  USA_CIA_destroying_repatriation_infrastructure:0 "독일의 §R복원 노력§!을 방해하고 경제성장을 방해하기 위해 독일의 기반시설을 목표로 하는 작전을 개시할 것입니다.\n"
-
  USA_CIA_slow_down_repatriation_small:0 "귀환 시도가 §R어려워질§! 것입니다.\n"
-
  USA_CIA_GER_BOR_political_fuckery:0 "라이히의 §Y내부 정치§!를 방해하기 위한 작전을 개시할 것입니다.\n"
  USA_CIA_GER_BOR_political_fuckery_big:0 "라이히의 §Y내부 정치§!를 방해하기 위한 또 다른 작전을 개시할 것입니다.\n"
  USA_CIA_GER_BOR_economic_fuckery:0 "독일의 숙련공 성장을 늦추기 위한 작전을 개시할 것입니다.\n"
@@ -169,12 +121,10 @@
  USA_CIA_GER_BOR_aid_reformists:0 "계속 되는 권력 투쟁에서 독일 개혁주의자들을 돕기 위한 작전을 개시할 것입니다.\n§R이로 인해 불행한 결과가 발생할 수 있습니다.§!\n"
  USA_CIA_GER_BOR_turn_the_people:0 "독일 국민들을 반대편으로 흔들 작전에 착수할 것입니다.\n"
  USA_CIA_GER_BOR_turn_the_banks:0 "독일 은행들을 반대편으로 흔들 작전에 착수할 것입니다.\n"
-
  USA_CIA_BRY_industrial_aid:0 "우리는 [BRY.GetName]의 부하린주의자들과 접촉하여 산업 지원을 제공할 것입니다. 이로써 미래의 잠재적 동맹국을 강화할 수 있고, 우리에게 가장 호의적인 사람들의 정치적 영향력을 증대시킬 수 있습니다.\n"
  USA_CIA_BRY_political_aid:0 "우리는 [BRY.GetName]의 부하린주의자들에게 정치적 지원을 제공하는 작전을 개시할 것입니다.\n"
  USA_CIA_IRK_industrial_aid:0 "우리는 [IRK.GetName]의 보수파들과 접촉하여 산업 지원을 제공할 것입니다. 이로써 미래의 잠재적 동맹국을 강화할 수 있고, 우리에게 가장 호의적인 사람들의 정치적 영향력을 증대시킬 수 있습니다.\n"
  USA_CIA_IRK_political_aid:0 "우리는 [IRK.GetName]의 보수파들에게 정치적 지원을 제공하는 작전을 개시할 것입니다.\n"
-
  USA_nixon_cia:0 "CIA"
  USA_nixon_cia_desc:0 "CIA는 독일과 일본의 영향력에 대항하기 위해 몇 가지 계획을 수립했습니다. 이 계획에는 트리움비라투스와 협력하는 것은 물론 일본의 지배력을 약화시키기 위해 일본 공영권 내에 있는 다양한 저항단체를 지원하는 계획이 포함되어 있습니다."
  USA_CIA_Allign_Iberia_Towards_Franco:0 "프랑코와의 정치적 동맹"
@@ -185,7 +135,6 @@
  USA_CIA_Add_Reform_Iberia:0 "이베리아 평의회 개혁파 결집"
  USA_CIA_Add_Stabilize_Iberia:0 "이베리아 안정화"
  USA_CIA_Back_Iberian_Wars:0 "이베리아 전쟁 군수 보급"
-
  USA_CIA_IBR_align_caudillo_franco:0 "누가 봐도, 두 명의 이베리아 카우디요 쌍둥이인 프란시스코 프랑코와 안토니우 드 올리베이라 살라자르는 서로 잘 지내고 있습니다. 하지만, 연합의 모든 사람이 똑같이 존경하진 않습니다. 다양하고 적극적인 방법으로, 우리는 §Y프랑코§!가 이베리아 지배권을 장악할 수 있도록 할 수 있습니다."
  USA_CIA_IBR_align_caudillo_salazar:0 "누가 봐도, 두 명의 이베리아 카우디요 쌍둥이인 프란시스코 프랑코와 안토니우 드 올리베이라 살라자르는 서로 잘 지내고 있습니다. 하지만, 연합의 모든 사람이 똑같이 존경하진 않습니다. 다양하고 적극적인 방법으로, 우리는 §Y살라자르§!가 이베리아 지배권을 장악할 수 있도록 할 수 있습니다."
  USA_CIA_IBR_aas_aid:0 "이베리아 연합은 다양한 테러 단체와 분리주의 단체의 본거지가 됐습니다. 바스크에서 포르투갈에 이르는 모든 민족 단체들이, 범이베리아 사회주의 게릴라들과 함께 두드러지고 있습니다. 우리는 이베리아와 정확히 동맹국은 아니지만, 연합의 지속적인 안정이 우리에게 이익이 됩니다. 이 단체들이 봉기할 때 온 연합이 도자기처럼 산산조각이 나지 않도록, 우리 정보국에서 이베리아 정부에 비밀 지원을 할 수 있습니다."
@@ -194,7 +143,6 @@
  USA_CIA_IBR_stabilize:0 "이베리아 안정도를 높이기 위한 작전이 시작될 것입니다.\n"
  USA_CIA_IBR_reform:0 "이베리아 정부 내 개혁주의자를 지원하기 위한 작전이 시작될 것입니다.\n"
  USA_CIA_IBR_interfer_wars:0 "이베리아 전쟁에서 우호적인 파벌을 돕기 위한 작전이 시작될 것입니다.\n"
-
  USA_CIA_franco_boost:0 "프랑코의 지지도는 크게 상승할 것입니다.\n"
  USA_CIA_salazar_boost:0 "살리자르의 지지도는 크게 상승할 것입니다.\n"
  USA_CIA_aas_boost:0 "§Y3 AAS§!의 자원을 §G얻게§!될 것입니다.\n"
@@ -202,11 +150,9 @@
  USA_CIA_gibraltar_boost:0 "댐의 유지 및 개선 비용이 §G감소§!할 것입니다.\n"
  USA_CIA_stability_boost:0 "§Y안정도§!가 §G상승§!할 것입니다.\n"
  USA_CIA_reformism_boost:0 "§Y개혁주의§!가 §Y상승§!할 것 입니다.\n"
-
  USA_CIA_trade_influence_tooltip:0 "해당 지역 국가와의 무역 영향력을 강화하기 위한 작전이 시작될 것입니다.\n"
  USA_CIA_pro_usa_tooltip:0 "이 지역에서 우리의 정치적 영향력을 강화하기 위한 작전이 시작될 것입니다. 만약 성공한다면 우리는 약간의 §Y정치력§!을 얻게 될 것입니다.\n"
  USA_CIA_training_with_australians_cooldown:0 "이 작전을 실행한 지 적어도 1년이 지나야 합니다.\n"
-
  USA_CIA_BRA_boost_random_UDN_senator_support:0 "This will launch an operation to boost a £BRA_udn_texticon §QUDN§! candidate's support in the current election season.\n"
  USA_CIA_BRA_raise_lott_influence:0 "This will launch an operation to increase §KPresident Lott§!'s influence.\n[BRA.BRA_lottquadros_bar_tooltip_dyn]\n"
  USA_CIA_BRA_raise_quadros_influence:0 "This will launch an operation to increase §QVice President Quadros§!' influence.\n[BRA.BRA_lottquadros_bar_tooltip_dyn]\n"
@@ -217,37 +163,26 @@
  USA_CIA_BRA_boost_adhemar_in_presidential_election:0 "An operation to help §hAdhemar de Barros§! win the current presidential election will be initiated.\n"
  USA_CIA_BRA_increase_military_loyalty:0 "This will launch an operation to increase §KBrazilian military loyalty§!.\n"
  USA_CIA_BRA_decrease_military_loyalty:0 "This will launch an operation to decrease §KBrazilian military loyalty§!.\n"
-
  USA_CIA_af_status:0 "[GetCIAAFStatus]"
  USA_CIA_af_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_Africa_Encryption]§!\n"
-
  USA_CIA_ea_status:0 "[GetCIAEAStatus]"
  USA_CIA_ea_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_East_Asian_Encryption]§!\n"
-
  USA_CIA_ca_status:0 "[GetCIACAStatus]"
  USA_CIA_ca_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_Central_America_Encryption]§!\n"
-
  USA_CIA_eu_status:0 "[GetCIAEUStatus]"
  USA_CIA_eu_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_Europe_Encryption]§!\n"
-
  USA_CIA_me_status:0 "[GetCIAMEStatus]"
  USA_CIA_me_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_Middle_East_Encryption]§!\n"
-
  USA_CIA_na_status:0 "[GetCIANAStatus]"
  USA_CIA_na_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_North_America_Encryption]§!\n"
-
  USA_CIA_ru_status:0 "[GetCIARUStatus]"
  USA_CIA_ru_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_Russian_Encryption]§!\n"
-
  USA_CIA_sa_status:0 "[GetCIASAStatus]"
  USA_CIA_sa_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_South_America_Encryption]§!\n"
-
  USA_CIA_sea_status:0 "[GetCIASEAStatus]"
  USA_CIA_sea_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_South_East_Asia_Encryption]§!\n"
-
  USA_CIA_au_status:0 "[GetCIAAUStatus]"
  USA_CIA_au_status_tooltip:0 "지역 복호화: §Y[?USA_CIA_Oceania_Encryption]§!\n"
- 
  USA_CIA_Decisions_GUI_Selected_Region_tt:0 "선택한 지역: [GetUSACIARegionScriptedLoc]"
  USA_CIA_Decisions_GUI_Decryption_Info_tt:0 "현재 분석 능력: [?USA_CIA_Decryption]"
  USA_CIA_Decisions_GUI_Expertise_Info_tt:0 "현재 경험: [?USA_CIA_expertise]"
@@ -258,22 +193,17 @@
  USA_CIA_Decisions_GUI_Recruit_Window_Agent_4_Name:0 "요원 4 이름"
  USA_CIA_Decisions_GUI_tech_window_Upgrades_title:0 "과학기술국"
  USA_CIA_Decisions_GUI_tech_window_Upgrades_subtitle:0 "아래에 연구를 선택하세요."
-
  USA_CIA_Decisions_GUI_CIA_upper_tech_row_title_tt:0 "랭클리 연구 센터"
  USA_CIA_Decisions_GUI_CIA_lower_tech_row_title_tt:0 "윌리엄 도너번 연구실"
-
  USA_CIA_region_locked:0 "§R잠김§!"
-
  USA_CIA_decryption_info:0 "우리의 분석 능력이 높을수록 우리는 더 많은 지역의 복호화에 대응할 수 있습니다."
-
  USA_CIA_expertise_info:0 "숙련도는 요원을 교육하고 고급 기술을 연구하는 데 사용됩니다. 임무에 보너스를 줄 수도 있습니다. 숙련도는 임무를 성공적으로 완수할 경우 얻을 수 있으며, 임무에 실패할 경우 잃습니다."
-
  USA_CIA_agent_info:0 "작업을 수행하려면 요원이 필요합니다. 숙련도를 교환하여 훈련할 수 있습니다."
  CIA_tech_1_tt_delayed:0 "항공 정찰은 비용이 많이 들고, 요격당하기 쉬우며, 계획 수립에 수백 인시의 인력이 필요합니다. 이와는 다르게 비둘기는 떼지어 몰려들고 어느 환경에서나 어색하지 않으며 훈련된 조련사의 명령을 쉽게 따릅니다. 지연 시간을 계산해 둔 소형 카메라를 단, 정해진 경로를 날아가게 만든 비둘기를 날려보내면 U2보다 높은 해상도를 가지면서도 매우 적은 비용을 들인 상공 사진을 얻을 수 있을 것입니다."
  CIA_tech_1_tt:0 "§G분석 능력§!: §Y+1§!\n§G임무 성공 확률§!: §Y+2%§!\n비용:\n§w$1억 달러§!\n§Y50§! §S숙련도§!\n"
- CIA_tech_2_tt_delayed:0 ""벨리 버스터"는 회사가 표준으로 보급하는 수동식 드릴을 의미하는 별칭입니다. 이름에서 알 수 있듯이 드릴은 사용자의 배로 드릴을 표면에 움직이지 않게 단단히 고정시킨 후 크랭크를 돌리면 작동됩니다. 숙련된 작업자는 혼자서 나무와 돌에 구멍을 뚫을 수 있으며, 청음 장치의 주의를 완전히 다른 곳으로 끌기 위해 의심받지 않는 인접 공간을 준비할 수 있습니다."
+ CIA_tech_2_tt_delayed:0 "\"벨리 버스터\"는 회사가 표준으로 보급하는 수동식 드릴을 의미하는 별칭입니다. 이름에서 알 수 있듯이 드릴은 사용자의 배로 드릴을 표면에 움직이지 않게 단단히 고정시킨 후 크랭크를 돌리면 작동됩니다. 숙련된 작업자는 혼자서 나무와 돌에 구멍을 뚫을 수 있으며, 청음 장치의 주의를 완전히 다른 곳으로 끌기 위해 의심받지 않는 인접 공간을 준비할 수 있습니다."
  CIA_tech_2_tt:0 "§G분석 능력§!: §Y+2§!\n§G정치력 증가율§!: §Y+1.5%§!\n비용:\n§w$5천만 달러§!\n§Y50§! §S숙련도§!"
- CIA_tech_3_tt_delayed:0 "오래된 스파이 기술에 새로운 방법과 장비를 동원해 기술이 진보하기도 하지만, 오래된 "빛을 이용한 속임수"는 딱히 변함없이 여전히 회사 직원들이 계속해서 잘 사용하고 있습니다. 문자 그대로 이 물건을 소개하자면 특정 각도에서 바라보면 숨겨진 문자와 그림이 나타나는 특수 설계된 거울입니다. 이러한 장비들은 요원이 눈길을 끌지 않고 미리 기록한 정보를 볼 수 있게 만들 수 있습니다. 아름다운 여성의 경우에는 얼굴 메이크업을 확인하는 것처럼 보일 것이고, 허영심 많은 신사는 낯짝이 어떤지 참을 수 없어 보는 것일 수도 있겠죠."
+ CIA_tech_3_tt_delayed:0 "오래된 스파이 기술에 새로운 방법과 장비를 동원해 기술이 진보하기도 하지만, 오래된 \"빛을 이용한 속임수\"는 딱히 변함없이 여전히 회사 직원들이 계속해서 잘 사용하고 있습니다. 문자 그대로 이 물건을 소개하자면 특정 각도에서 바라보면 숨겨진 문자와 그림이 나타나는 특수 설계된 거울입니다. 이러한 장비들은 요원이 눈길을 끌지 않고 미리 기록한 정보를 볼 수 있게 만들 수 있습니다. 아름다운 여성의 경우에는 얼굴 메이크업을 확인하는 것처럼 보일 것이고, 허영심 많은 신사는 낯짝이 어떤지 참을 수 없어 보는 것일 수도 있겠죠."
  CIA_tech_3_tt:0 "§G요원 탈출 기회§!: §Y+5%§!\n§G임무 성공 기회§!: §Y+1%§!\n비용:\n§w$5천만 달러§!\n§Y50§! §S숙련도§!"
  CIA_tech_4_tt_delayed:0 "매년 살아있는 사람들보다 더 많은 양의 담배가 팔립니다. 문명화되지 않은 변방이나, 전쟁으로 황폐화된 지옥구덩이나, 금연 구역이 아니라면 남자가 주머니에 럭키 스트라이크 한 갑을 넣고 다닌다고 뭐라 할 사람은 없을 것입니다. 우리 요원들은 담배갑에 소형 카메라를 장착해 이런 무죄 추정의 원칙을 이용합니다. 안에 든 구름과자는 흥정이나 뇌물 같은 더 좋은 용도에 쓰입니다."
  CIA_tech_4_tt:0 "§G분석 능력§!: §Y+1§!\n§G임무 성공 확률§!: §Y+2%§!\n§G기관 연구 속도§!: §Y+2%§!\n비용:\n§w$1억 5천만 달러§!\n§Y50§! §S숙련도§!"
@@ -281,7 +211,7 @@
  CIA_tech_5_tt:0 "§G요원 탈출 기회§!: §Y+2%§!\n§G임무 성공 기회§!: §Y+2%§!\n비용:\n§w$5천만 달러§!\n§Y50§! §S숙련도§!"
  CIA_tech_6_tt_delayed:0 "상류층 신분으로 위장한 요원들은 보통 작은 소리에도 민감하고 의심이 빗발치는 사교 모임 속에서 지시를 받는 데 어려움을 겪는 경우가 많습니다. 이 문제에는 파이프 시가의 좁은 손잡이 부분과 똑같이 설계된 라디오보다 더 좋은 해결법은 없을 것입니다. 이 기발한 장치들은 하악골에서 외이도까지 소리를 전달하는데, 이것은 노래와 춤의 연무 속에선 알아내기 쉽지 않을 것입니다."
  CIA_tech_6_tt:0 "§G임무 성공 확률§!: §Y+2%§!\n§G기관 연구 속도§!: §Y+1%§!\n§G실패한 임무로 인한 숙련도 손실 감소§!\n비용:\n§w$1억 달러§!\n§Y50§! §S숙련도§!"
- CIA_tech_7_tt_delayed:0 "한 남자는 쓰레기를 버리고, 다른 남자는 쓰레기를 줍는다: 이것은 스파이 기술 중에 알려진 가장 오래된 기술 중, "죽음의 낙하"의 작동 원리입니다. 오늘날 필름이 저장 매체로써 보편적으로 사용되기 때문에, 현대 스파이들은 이제 카메라 롤을 조그맣고, 무해한, 방수처리된 말뚝 속에 숨겨둬 약속한 날짜 및 장소에서 회수할 수 있습니다."
+ CIA_tech_7_tt_delayed:0 "한 남자는 쓰레기를 버리고, 다른 남자는 쓰레기를 줍는다: 이것은 스파이 기술 중에 알려진 가장 오래된 기술 중, \"죽음의 낙하\"의 작동 원리입니다. 오늘날 필름이 저장 매체로써 보편적으로 사용되기 때문에, 현대 스파이들은 이제 카메라 롤을 조그맣고, 무해한, 방수처리된 말뚝 속에 숨겨둬 약속한 날짜 및 장소에서 회수할 수 있습니다."
  CIA_tech_7_tt:0 "§G성공한 임무로 얻는 복호화 감소 증가§!\n§G실패한 임무로 얻는 숙련도 손실 감소§!\n비용:\n§w$5천만 달러§!\n§Y50§! §S숙련도§!"
  CIA_tech_8_tt_delayed:0 "수십 년 동안 증명되었듯이, 신사들은 실제로 서로의 우편물 따위를 읽습니다. 한 발짝 더 나아가 서로의 입모양을 읽어낼 수 있는 사람이 한둘이 아닙니다. 동료들에게 초음파 모션 센서를 제공해, 의심스러울 정도로 시간이 남아도는 참견꾼들로부터 도망치게 할 수 있습니다; 만약 이들의 눈에 보이지 않는 맥박이 침입자를 알아채지 못한다면, 신사분들은 민감한 대화를 매우 지루한 잡담으로 바꿔버릴 것입니다."
  CIA_tech_8_tt:0 "§G요원 탈출 기회§!: §Y+5%§!\n§G기관 연구 속도§!: §Y+2%§!\n§G경쟁국 임무를 혼란시키는 효율성 증가§!\n비용:\n§w$1억 5천만 달러§!\n§Y50§! §S숙련도§!"
@@ -290,7 +220,6 @@
  CIA_tech_10_tt_delayed:0 "이것은 누가 봐도 1921년산 1달러 은화처럼 보이며, 미소짓는 자유의 여신 흉상이 순도 90%에 폭 1.5인치로 도배되어 있습니다.\n\n동료들을 위해 1달러당 사들인 국가기밀인 셈입니다. 인플레이션, 맞죠?"
  CIA_tech_10_tt:0 "§G임무 성공 확률§!: §Y+2%§!\n§G경쟁국 임무를 혼란시키는 효율성 증가§!\n§G성공한 임무로 얻는 숙련도 증가§!\n비용:\n§w$5천만 달러§!\n§Y50§! §S숙련도§!"
  TNO_CIA_razak_likelihood_increase_tt: "This will increase our candidate's chances at the election!"
-
  CIA_tech_1:0 "비둘기 카메라"
  CIA_tech_2:0 "벨리 버스터"
  CIA_tech_3:0 "오목 거울"
@@ -301,20 +230,11 @@
  CIA_tech_8:0 "동작 감지기"
  CIA_tech_9:0 "그림 카운터"
  CIA_tech_10:0 "속이 빈 동전"
-
  USA_CIA_research_progress:0 "연구가 §Y[?USA_CIA_research_progress_percentage|%]§!만큼 진행됐습니다."
  USA_CIA_Decisions_GUI_tech_window_completed_tt:0 "CIA 연구 완료"
-
-
-
-##########################################################
-###### DECISIONS
-##########################################################
-
  USA_CIA_decisions_category:0 "CIA 국제작전"
  USA_CIA_decisions_category_desc:0 "우리는 전 세계의 요원, 오퍼레이터, 조력자들로 구성된 방대한 네트워크를 관리하고 있습니다. 그들은 미국 외교와 OFN에게 더 유리한 상태를 만드는 것을 목표로 하고 있습니다."
  USA_Fallen_Domino_tooltip:0 "§G노르웨이 저항세력§!과 §Y접촉해 영향력을 행사할 방법§!이 해제됩니다."
-
  USA_speer_radio_address:0 "자유 독일 라디오"
  USA_speer_send_weapons:0 "무기 밀수"
  USA_speer_support_internationally:0 "고문단 은닉"
@@ -324,27 +244,19 @@
  USA_CIA_start_selling_equipment_saf:0 "남아프리카에 총기 판매"
  USA_CIA_give_guns_to_fen:0 "잉글랜드 무기 밀수"
  USA_Supportin_Speer:0 "미리 우리가 선호중인 경쟁자를 지지하면 안됩니다."
-
  USA_aid_triumvirate_category:0 "트리움비라투스 지원"
  USA_aid_triumvirate_category_desc:0 "Fill this out"
  USA_look_into_italy:0 "Look into Italy"
  USA_look_into_italy_desc:0 "Fill this out"
  USA_look_into_iberia:0 "Look into Iberia"
-
-###################
-### NORTH AMERICA
-###################
-
  USA_CIA_Dummy_Decision_1:0 "§Y작전명§! §P미드나잇§!"
- 
  USA_CIA_fuckery_republicans:0 "우리는 £GFX_rd_r_texticon §w공화당§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
  USA_CIA_fuckery_democrats:0 "우리는 £GFX_rd_d_texticon §B민주당§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
  USA_CIA_fuckery_right:0 "우리는 £GFX_npp_fr_texticon §gNPP-극우파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
  USA_CIA_fuckery_center:0 "우리는 £GFX_npp_c_texticon §PNPP-중도파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
  USA_CIA_fuckery_yockey:0 "우리는 £GFX_npp_y_texticon §jNPP-요키파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
  USA_CIA_fuckery_left:0 "우리는 £GFX_npp_l_texticon §eNPP-좌파§!의 이미지를 떨어뜨리기 위한 작전을 개시할 것입니다."
-
-USA_CIA_analize_intelligence:0 "정보 분석"
+ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_analize_intelligence_desc:0 "과거의 실패에 얽매여있긴 하지만, 우리의 기밀 보고서 더미를 제대로 분석할 때 배울 점이 많습니다."
  USA_CIA_slander_republicans:0 "§Y작전명§! §wLN머시§!"
  USA_CIA_slander_democrats:0 "§Y작전명§! §MLN실링§!"
@@ -352,21 +264,10 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_slander_center:0 "§Y작전명§! §PLN모티프§!"
  USA_CIA_slander_yockey:0 "§Y작전명§! §jLN정글§!"
  USA_CIA_slander_left:0 "§Y작전명§! §eLN셰이크§!"
- 
  USA_CIA_mhchaos:0 "§Y작전명§! §PMH카오스§!"
-
-#####################
-### CENTRAL AMERICA
-#####################
-
  USA_CIA_trade_influence_ca:0 "미국 기업 이익 수호"
  USA_CIA_pro_usa_ca:0 "친미정서 강화"
  USA_CIA_coup:0 "§Y작전명§! §gKR워록§!"
-
-#####################
-### SOUTH AMERICA
-#####################
-
  USA_CIA_trade_influence_sa:0 "미국 기업 이익 수호"
  USA_CIA_pro_usa_sa:0 "친미정서 강화"
  USA_CIA_boost_UDN_in_senate_elections:0 "§YOperation§! §zBLUE FRIEND§!"
@@ -379,83 +280,57 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_boost_adhemar_in_presidential_election:0 "§YOperation§! §pVENAL GAMBIT§!"
  USA_CIA_increase_brazilian_military_loyalty:0 "§YOperation§! §KSUCCUBUS§!"
  USA_CIA_decrease_brazilian_military_loyalty:0 "§YOperation§! §VALIENATION§!"
-
-###################
-### EUROPE
-###################
-
  USA_CIA_mess_with_irish_politics:0 "아일랜드 정계 민주주의화"
  USA_CIA_mess_with_irish_politics_desc:0 "아일랜드 공화국은 그리 공화국이라 부를 수 없습니다. 아일랜드의 여당인 피어너 팔은 객관적으로 그리 민주적이진 않지만 불행하게도 아일랜드 내에서는 가장 민주적인 정당이며 독일국의 지원을 받는 권위주의적 정당의 지지도가 오르고 있습니다. 만일 그들이 권력을 장악하게 된다면 상황이 우리에게 크게 불리해질 것이며 우리는 그 일을 막기 위해 할 수 있는 최대한 모든 것을 해야 합니다."
-
  USA_CIA_IRELAND_1_tt:0 "아일랜드의 친OFN 성향 정치인들에게 자금을 지원하며 파시스트 정당 내의 불화의 씨를 뿌립니다."
-
  USA_CIA_OCW_1_tt:0 "정부는 슈페어에게 도움을 주는데 표를 던졌습니다. 독일에서 그의 상황을 개선시키기 위해, 우리는 오스틀란드에 있는 그들 사람에게 총기들을 보낼 것입니다.."
  USA_CIA_GGN_1_tt:0 "폴란드의 지하 국가와 접촉하여 폴란드의 저항을 더 강력히 만들고, 독일화 계획을 약화시킵니다."
  USA_CIA_SER_1_tt:0 "세르비아 내의 반란군에게 무기와 폭약을 보내 독일 꼭두각시 정부를 불안정하게 만들고, 독일 수비대를 약화시킵니다.."
-
  USA_CIA_Fen:0 "우리의 옛 동맹에게 총기를 보내는 것은 반란 발생시 도움이 될 것입니다."
  USA_CIA_give_guns_to_fen_big:0 "잉글랜드에 엄청나게 많은 무기 밀수"
  USA_CIA_Fen_big:0 "우리의 옛 동맹에게 엄청나게 많은 총기를 보내는 것은 반란 발생시 매우 도움이 될 것입니다."
  USA_increase_OFN_England_small:0 "대양을 가로질러 우리의 오래된 동맹국과 닿아 대화 창구를 만드는 것은 미래의 미-영 관계에 큰 역할을 할 수 있습니다."
-
- # England post civil war
  USA_CIA_ENGLAND_1_tt:0 "잉글랜드의 내전은 끝났습니다. 선거 이후, 우리는 승리정당 내부의 정치에 대한 정보가 별로 없습니다. 우리는 누가 정말 잉글랜드를 지배하고 있는지 알아내기 위해 스파이와 정보원들을 꽂아넣을 것입니다."
  USA_CIA_ENGLAND_MIL_LOY_INCREASE_tt:0 "잉글랜드군 최고사령부는 현 정부에 완전히 만족하는 것은 아닙니다. 그들이 우리의 동맹국이기에, 우리는 잉글랜드 내 요원을 동원해 군에 침투시키고 영향력을 행사하여 잉글랜드 정부 내의 우리 친구들을 지원하도록 해야 합니다."
  USA_CIA_ENGLAND_MIL_LOY_DECREASE_tt:0 "잉글랜드군 최고사령부는 현 정부에 완전히 만족하는 것은 아닙니다. 그들이 독일의 동맹국이기에, 우리는 잉글랜드 내 요원을 동원해 군에 침투시키고 영향력을 행사하여 잉글랜드의 '정권 교체'를 지원하도록 해야 합니다."
- # SLP
  USA_CIA_SLP_HARDLINERS_1_tt:0 "노동 조합과 좌익 볼셰비키 집단에 침투하여, SLP에서 내분과 강경파의 영향력을 줄이기 위한 사소한 방해물을 만들 수 있습니다."
  USA_CIA_SLP_REFORM_1_tt:0 "개혁 파벌과 영국의 또다른 개혁 단체들에 자금을 제공해, SLP의 개혁 진보 방향을 민주주의와 OFN과 부합하도록 가속화할 수 있습니다."
  USA_CIA_SLP_REFORMISTS_1_tt:0 "우리는 SLP 내 개혁파의 지지도를 높이기 선전 운동을 시작할 것입니다. 우리는 차티스트의 이미지와 민주주의의 생존 가능성을 매개체로 사용할 것입니다."
- # NDL
  USA_CIA_NDL_LIBERALS_1_tt:0 "외무부에 잠입하면 NDL 내 휘그당의 입지와와 대중에 대한 인기를 약화시키기 위해 행정부의 영향력을 사용할 수 있게 됩니다."
  USA_CIA_NDL_CONSERVATIVES_1_tt:0 "프랑스의 난민으로 가장한 요원을 영국으로 보내 이민과 난민 정책을 옹호하는 선전 운동을 벌이도록 할 것이며, 애국자계열의 말이 NDL 내 영향력을 약화시킬 것입니다."
  USA_CIA_NDL_MODERATES_1_tt:0 "영국 내에서 선전 활동에 대한 직접적인 자금 지원으로 좌파와 우파의 극단주의자를 공격하고, NDL 내 민주계열의 지지도를 높일 것입니다."
- # SuperMac
  USA_CIA_MAC_MACMILLAN_1_tt:0 "우리는 영국 내 §j독일§!의 영향력을 조사하고 이를 널리 알려 영국인들에게 독일과 멀어지도록 겁을 줄 것입니다. 이것은 맥밀런의 신중한 미사여구를 더욱 인기 있게 만들 것입니다."
  USA_CIA_MAC_LIBERALS_1_tt:0 "기관은 영국이 보다 자유 무역 정책을 받아들이도록 미국과 영국의 무역 선전에 투자할 것입니다. 이것은 모들링의 자유주의적 수사학을 미사여구를 더욱 인기 있게 만들 것입니다."
  USA_CIA_MAC_DEM_1_tt:0 "자금을 추상 미술로 돌리고 미국인 추상 미술가의 여행 자금을 지원하여, 독일 현실주의자들과 평행 관계를 이루게 하고, 영국에서 민주주의와 표현의 자유를 더욱 대중화합니다."
- # Thatcher
  USA_CIA_THATCHER_OG_1_tt:0 "우리는 대처가 당 내에서 더 많은 영향력을 행사할 수 있도록 충성당 보수파의 각종 더러운 일을 찾아내는 조사를 실시할 것입니다."
  USA_CIA_THATCHER_POP_1_tt:0 "우리는 대처의 대중영합적인 지지를 상승시키기 위해 친-대처 신문과 언론 매체를 만들도록 예산을 전용할 것을 제안합니다. 특히§O더 썬§!이라고 불리는 새로운 신문의 창간처럼 말이죠."
  USA_CIA_THATCHER_ELI_1_tt:0 "외교관과 경제학자들을 파견하여 잉글랜드의 충성당과 엘리트 모두에게 대처의 경제정책을 지지하도록 합니다."
-
  USA_CIA_contact_the_norwegian_resistance:0 "노르웨이 저항세력 접촉"
  USA_CIA_contact_the_norwegian_resistance_desc:0 "독일국의 가장자리에 노르웨이가 있습니다. 남북으로 길쭉하며 인구가 별로 없는 이 나라는 독일국이 점령한 상태입니다. 이 곳에 독일국은 국가판무관부를 세우고 노르웨이 국민을 감시하고 있습니다. 하지만 노르웨이인들은 끈질기게 저항을 계속하고 있습니다. 노르웨이의 적극적인 저항세력과 가장 긴밀한 사람들은 캐나다에 살고 있지만 우리가 비슷한 인적 네트워크를 구축하는 데 방해하는 것은 아무것도 없습니다. 스웨덴은 수년 간 노르웨이 저항세력에 무기와 돈줄을 대주는 창구를 운용했습니다. 우리는 이 연결고리를 이용해 라이히의 덩굴들을 불안정하게 만들 수 있습니다. 그들이 말하는 '국왕과 조국을 위해'서와 같이 말이죠."
  USA_CIA_NORWAY_1_tt:0 "저항 세력은 필요하다면 쿠데타를 일으킬 준비를 더욱 해놓을 것입니다."
-
-# ENG vs FEN
  USA_CIA_Increase_OFN_England_Relations:0 "§Y작전명§! §S홈스테드§!"
  USA_CIA_Smuggle_Guns_to_FEN:0 "§Y작전명§! §B라임스톤§!"
  USA_CIA_Smuggle_Lots_Of_Guns_to_FEN:0 "§Y작전명§! §M페벌§!"
-# Start
  USA_CIA_ENG_find_out_about_politics:0 "§Y작전명§! §W스테이츠룸§!"
  USA_CIA_ENG_increase_military_loyalty:0 "§Y작전명§! §G루퍼트§!"
  USA_CIA_ENG_decrease_military_loyalty:0 "§Y작전명§! §R페어펙스§!"
-# SLP
  USA_CIA_ENG_slp_reduce_hardliners:0 "§Y작전명§! §R트랜스포트§!"
  USA_CIA_ENG_slp_increase_reform:0 "§Y작전명§! §O펠멜§!"
  USA_CIA_ENG_slp_increase_reformists:0 "§Y작전명§! §P러벳§!"
-# NDL
  USA_CIA_ENG_ndl_decrease_liberals:0 "§Y작전명§! §S행키§!"
  USA_CIA_ENG_ndl_decrease_patriots:0 "§Y작전명§! §B위그노§!"
  USA_CIA_ENG_ndl_increase_moderates:0 "§Y작전명§! §M러시워스§!"
-# SuperMac
  USA_CIA_ENG_mac_increase_macmillan:0 "§Y작전명§! §M메리맥§!"
  USA_CIA_ENG_mac_increase_liberals:0 "§Y작전명§! §G콘로우§!"
  USA_CIA_ENG_mac_increase_democratization:0 "§Y작전명§! §웬디§!"
-# Maggie
  USA_CIA_ENG_thatcher_party_influence:0 "§Y작전명§! §R영블러드§!"
  USA_CIA_ENG_thatcher_populist_support:0 "§Y작전명§! §W써니§!"
  USA_CIA_ENG_thatcher_elite_support:0 "§Y작전명§! §O시카고보이§!"
-
-
  USA_CIA_Disrupt_Irish_Politics:0 "§Y작전명§! §G서펜드§!"
  USA_CIA_Build_Up_Norways_Resistance:0 "§Y작전명§! §O쿠쿠§!"
-
  USA_CIA_OCW_Send_Landrut_Rifles:0 "§Y작전명§! §W피닉스§!"
  USA_CIA_GGN_send_help_to_the_underground:0 "§Y작전명§! §g체리§!"
  USA_CIA_SER_send_rifles_to_the_insurrection:0 "§Y작전명§! §R채리티§!"
-
  USA_CIA_GER_SGR_weaken_reactionaries_early: "라이히에 반동에 반대하는 선전 퍼트리기"
  USA_CIA_GER_SGR_boost_reformers_early: "독일 개혁 세력 강화"
  USA_CIA_GER_SGR_buff_regime_leaning_early: "독일 정계 좌클릭"
@@ -467,7 +342,6 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_GER_SGR_buff_regime_leaning_late: "독일 행정 방해"
  USA_CIA_GER_SGR_sabotage_repatriation_efforts: "독일의 경제 회복 공격"
  USA_CIA_GER_SGR_sabotage_infrastructure: "동부에서 보내는 루트의 기반시설 사보타주"
-
  USA_CIA_GER_BOR_political_sabotage: "독일 정계 사보타주"
  USA_CIA_GER_BOR_political_sabotage_big: "보어만 정권 방해"
  USA_CIA_GER_BOR_economic_sabotage_initial: "그로스라움 계획 속도 늦추기"
@@ -480,104 +354,61 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_GER_BOR_fuck_with_dismantlement_2: "나치당 관료체제 힘 약화"
  USA_CIA_GER_BOR_fuck_with_dismantlement_2_people: "독일 국민을 반대파 쪽으로 흔들기"
  USA_CIA_GER_BOR_fuck_with_dismantlement_2_banks: "독일 은행을 반대파 쪽으로 흔들기"
-
-###################
-### MIDDLE EAST
-###################
-
  USA_CIA_Contact_Israeli_Paramilitaries:0 "§Y작전명§! §GWS로커스트§!"
  USA_CIA_IME_1_tt:0 "우리는 이르군 유대인 민병대와 접촉할 것입니다.\n\n그들이 개새끼일 수도 있습니다. 하지만 그들은 우리 개새끼입니다."
- 
  USA.4.t:0 "이르군이 더욱 더 자신감을 갖다"
  USA.4.desc:0 "CIA는 이르군에게 추가 지원을 할 것입니다.\n\nIrgun variable increased by 5\n\nLoc requested by Lazergaz: 9th of February 2020"
  USA.4.a:0 "Send loc pls"
-
-###################
-### AFRICA
-###################
-
  USA_CIA_Support_Monarchists_SAF:0 "§Y작전명§! §G주얼§!"
  USA_CIA_Sell_Guns_to_SAF:0 "§Y작전명§! §T콩코드§!"
  USA_CIA_support_the_monarchists_in_saf:0 "남아프리카 전제주의를 위한 작전"
  USA_CIA_SAF_1_tt:0 "주요 국가에서 그 제도에 대한 지지를 강화한다는 것은 우리의 백인 친구들을 계속 집권시키는 것을 의미할 것입니다."
  USA_CIA_SAF_2_tt:0 "어두운 대륙에서 자유의 마지막 빛이 나치의 위협 앞에서 살아 남을 수 있도록, 우리는 그 나라의 방위군을 갖춰주어야 합니다."
  USA_SAF_New_CIA_Decisions:0 "남아프리카에서의 새로운 작전이 해제됩니다.\n"
-
-###################
-### Russia
-###################
-# Debug Russian Ops
  CIA_RUS_random_get_regionals:0 "(Debug) Random Regionals"
-
-# Unification Wars
  USA_CIA_RUS_Unification_War_Shipment:0 "[FROM.GetNameDef]에게 전쟁 장비 운송"
  USA_CIA_RUS_Unification_Enemy_Intel:0 "[FROM.GetNameDef]에게 적 정보 제공"
  USA_CIA_UNIFICATION_1_tt:0 "§G성공한다면 우리 동맹에게 이익이 될 것입니다.§!"
  USA_CIA_RUS_Unification_Sabotage:0 "[FROM.GetNameDef]의 보급 사보타주"
  USA_CIA_UNIFICATION_3_tt:0 "§G이는 [FROM.GetNameDef]의 보급선을 사보타주할 것입니다.§!"
  USA_CIA_RUS_Unification_Organize_Troops:0 "[FROM.GetNameDef]의 군대를 조직"
-
-# Generic
  USA_CIA_RUS_Safehouses:0 "[FROM.GetNameDef]에게 안전가옥 제공"
  USA_CIA_RUS_Safehouses_tt:0 "§G거주민들을 더 잘 숨겨줄 것입니다.§!"
  USA_CIA_RUS_Large_Military_Shipment:0 "[FROM.GetNameDef]에게 대규모 군수품 운송"
  USA_CIA_RUS_Military_Shipment:0 "[FROM.GetNameDef]에게 군수품 운송"
  USA_CIA_Outgoing_Shipment_tt:0 "현재 우리는 화물을 운송하고 있지 않습니다."
  USA_CIA_RUS_Technical_Industrial_Support:0 "[FROM.GetNameDef]에게 기술적, 산업적 지원 제공"
-
-
-# Irkutsk
  USA_CIA_BRY_strengthen_bukharinist_wing_industry:0 "극동 부하린주의 파벌에 기술지원 운송"
  USA_CIA_BRY_strengthen_bukharinist_wing_politics:0 "극동 정계 변동 조장"
  USA_CIA_IRK_strengthen_party_wing_industry:0 "이르쿠츠크 당 파벌에 기술지원 운송"
  USA_CIA_IRK_strengthen_party_wing_politics:0 "이르쿠츠크 당 파벌 강화"
-
-# Novosibirsk
  USA_CIA_align_with_novosibirsk:0 "노보시비르스크의 OFN과 동조"
  USA_CIA_align_with_novosibirsk_tt:0 "This will add a moderate amount of §MOFN Trade Influence§! for §GNovosibirsk.§!"
- USA_CIA_disalign_novosibirsk:0 "공영권으로부터 노보시비르스크 거리두기" 
+ USA_CIA_disalign_novosibirsk:0 "공영권으로부터 노보시비르스크 거리두기"
  USA_CIA_disalign_novosibirsk_tt:0 "This will remove a moderate amount of §RSphere Trade Influence§! for §GNovosibirsk.§!"
- USA_CIA_invest_in_novosibirsk:0 "노보시비르스크 투자"
+ USA_CIA_invest_in_novosibirsk:0 "노보시비르스크에 투자"
  USA_CIA_invest_in_novosibirsk_tt:0 "This will give §GNovosibirsk§! a moderate amount of funds to support their trade efforts woth is."
-
-# WRRF
  USA_CIA_WRRF_Zhukov_Succession_Influence:0 "서러시아 혁명전선의 다음 원수 선택에 영향력 행사"
-
-# Komi
  USA_CIA_Komi_Elections:0 "코미 선거에 개입"
-
-# Vyatka
  USA_CIA_Vyatka_Elections:0 "뱟카 정계에 개입"
-
-# Magadan
  USA_CIA_Magadan_Debug_1:0 "(Debug) Toggle Magadan Market Flag"
  USA_CIA_Magadan_Debug_2:0 "(Debug) Toggle Magadan Regional Flags"
-
  USA_CIA_Magadan_Port:0 "마가단 항 증설"
  USA_CIA_Magadan_Port_desc:0 "우리는 RFP에 접근하여 항구 건설 제안과 향후 경제 협력에 대한 약속을 이행할 것입니다."
  USA_CIA_Magadan_1_tt:0 "§G마가단 보급 능력이 향상되고 우리는 이곳에서 다른 작전을 수행할 수 있게 됩니다.§!"
-
  USA_CIA_Magadan_Increase_Support:0 "[MAG.GetNameDef] 지원 강화"
  USA_CIA_Magadan_Increase_Support_desc:0 "우리는 [MAG.GetNameDef]의 RFP에 이익이 되는 후한 대출과 특혜를 줄 것입니다."
  USA_CIA_Magadan_2_tt:0 "§G마가단에 있는 RFP가 지원을 요청하면 더 많은 지원을 허가할 것입니다.§!"
-
  USA_CIA_Magadan_Military_Instructors:0 "마가단에 있는 고문 주둔 확장"
  USA_CIA_Magadan_Military_Instructors_desc:0 "우리는 마가단에 더 많은 요원을 파견하여, 군대를 훈련시키고 우리의 교리를 더 광범위하게 훈련시킬 것입니다."
  USA_CIA_Magadan_3_tt:0 "§G마가단의 병력의 질이 향상될 것입니다.§!"
-
  USA_CIA_Magadan_Arms_Shipment:0 "마가단으로 무기 선적"
  USA_CIA_Magadan_Arms_Shipment_desc:0 "마가단에 있는 우리 친구들의 명분을 돕는 가장 확실한 방법은 그들이 살아남기 위해 필요한 무기를 보내는 것입니다. 우리는 일본인들이 이들의 경쟁자들을 무장시키고 있다는 것을 알고 있기 때문에 우리는 현물로 대응해야 합니다."
-
  USA_CIA_Magadan_Support_Reformists:0 "[MAG.GetNameDef]의 개혁파 지원"
  USA_CIA_Magadan_Support_Reformists_desc:0 "[MAG.GetNameDef]의 개혁파는 우리 나라와 가장 잘 어울리기 때문에, 상호 이익을 위해 관계가 강화되어야 합니다."
  USA_CIA_Magadan_Suporting_Reformists_tt:0 "§G우리는 RFP의 개혁파에 지원할 것입니다.§!"
-
  USA_CIA_Magadan_Increase_Presence:0 "[MAG.GetNameDef]에서의 주둔 확장"
  USA_CIA_Magadan_Increase_Presence_tt:0 "§G[MAG.GetNameDef]에서의 새로운 임무가 해제됩니다.§!"
-
-###################
-### EAST ASIA
-###################
  TNO_CIA_MLY_Operations_Can_Begin:0 "The War ended in our favour!"
  USA_CIA_debuff_ins:0 "인도네시아 마비 작전"
  USA_CIA_strike_ins:0 "인도네시아 기반시설 타격"
@@ -592,29 +423,13 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_Operation_Domino_desc:0 "Shonan-To means in Japanese the Light of the South. Even as the Capital is renamed back to it's natural Singapore, Malaya has the potential to be, together with Australia, the shining light of Freedom and trade in South East Asia. But, to make sure it lives to it's potential, it needs to heal from it's bleeding wounds which, thankfully, shouldn't be too big of an issue.\n\nNothing like a little elbow grease, American Capital and Enterpreneurship won't do to make Malayan the shining example of what Asia under an actual benefactor can look like."
  TNO_CIA_MLY_OPERATION_DOMINO_tt: "Using our established connections, we will start operations of investment in Malaya's rebuilding and reconstruction."
  TNO_CIA_FRI_Supply_Lines_tt: "We will smuggle weapons and supplies to the Indonesian Resistance. Depending of our success of operations in the Philippines and our success in Malaya, surely Indonesia will be inclined into a favourable relationship with us."
-
-
-###################
-### SOUTH EAST ASIA
-###################
-
  USA_CIA_fund_korean_resistance:0 "조선 독립 단체에 자금 지원"
  USA_CIA_fund_vladivostok_resistance:0 "블라디보스토크 저항 운동 지원"
  USA_CIA_fund_chinese_resistance:0 "중국 반군 지원"
  USA_CIA_fund_hawaii_resistance:0 "하와이 자유투사 지원"
  USA_CIA_destabilize_japan:0 "일본의 불안정 조장"
-
-###################
-### AUSTRALIA 
-###################
-
  USA_CIA_train_with_australians:0 "§Y작전명§! §yMB게스트§!"
  USA_CIA_train_with_australians_tt:0 "우리는 호주 정보기관과 함께 훈련하기 위한 작전을 개시할 것입니다. 우리의 경험을 향상시킬 겁니다."
-
-########################
-### Messing up Germany
-########################
-
  USA_CIA_fuck_with_encryption_ger_na:0 "§Y작전명§! §mOK소다§!"
  USA_CIA_fuck_with_encryption_ger_ca:0 "§Y작전명§! §WAJ픽션§!"
  USA_CIA_fuck_with_encryption_ger_sa:0 "§Y작전명§! §gBT스타트§!"
@@ -625,343 +440,241 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  USA_CIA_fuck_with_encryption_ger_sea:0 "§Y작전명§! §mSG카운트§!"
  USA_CIA_fuck_with_encryption_ger_au:0 "§Y작전명§! §JFI크라운§!"
  USA_CIA_fuck_with_encryption_ger_ru:0 "§Y작전명§! §SPD서턴§!"
-
-
  USA_CIA_fuck_with_ger:0 "이 지역 내의 독일 작전 방해"
-
  USA_CIA_train_operatives:0 "새 요원 훈련"
-
-######################
-### OPERATIONS SCREEN
-######################
-
  USA_CIA.1.t:0 "작전 시작"
  USA_CIA.1.desc:0 "몇몇 준비를 끝낸 후, 우리 요원들은 임무를 시작하기 위해 막 떠났습니다. 우리 나라의 최고 실력자들은 적들의 영향력을 줄이고 전 세계 여러 지역에서 우리의 입지를 넓히기 위해 노력하고 있습니다. 불확실하긴 하지만, 우리의 요원들이 최선을 다해 작전을 수행할 것이라는 믿음을 가지고 있습니다. 우리는 바라건대 앞으로 이에 대한 성공과 실패에 대한 소식을 받을 수 있을 것입니다."
  USA_CIA.1.a:0 "행운을 빈다."
-
  USA_CIA.2.t:0 "작전 실패"
  USA_CIA.2.desc:0 "불행하게도 물류상의 차질, 미숙한 실력, 잘못된 타이밍, 정보의 부족, 또는 단순한 불운으로 우리의 작전은 실패했습니다! 아낄 수 있는 모든 자산이 신속하게 회수되었고, 생존한 요원들은 시간과 계획을 수립한 후, 다시 한 번 작전을 수행하려는 의지가 있습니다. 예산, 기술, 분석 역량 및 요원의 숙련도 등을 검토하여 다음 번에는 보다 원활한 임무를 수행할 수 있도록 해야 합니다."
  USA_CIA.2.a:0 "다음에는 꼭 해낼 것이다."
-
  USA_CIA.3.t:0 "작전 성공"
  USA_CIA.3.desc:0 "해냈습니다! 우리의 임무는 성공적으로 완수되었고, 모든 요원들이 무사히 귀환하고 있습니다. 이것은 미국과 자유 세계, CIA 모두의 통쾌한 승리입니다. 우리의 흔적이 가려지고 세계가 좀 더 안전하졌기에, 파시스트 위협에 대한 다음 급습을 위해 쉽고 편히 쉴 수 있을 것 입니다."
  USA_CIA.3.a:0 "모두 잘했네, 제군들!"
-
  USA_CIA.4.t:0 "요원이 작전 중 사망하다"
  USA_CIA.4.desc:0 "랭글리는 CIA의 해외 기밀 작전 중 하나가 실패해, 요원 중 한 명이 사망했음을 확인했다고 알려왔습니다. 그의 헌신과 충성은 영원히 기억될 것입니다. 그의 이름은 역사에 길이 남을 것입니다."
  USA_CIA.4.a:0 "편히 잠들길."
-
  USA_CIA.5.t:0 "임무를 실패한 채 돌아온 요원"
  USA_CIA.5.desc:0 "랭글리는 CIA의 해외 기밀 작전 중 하나가 실패해, 요원들이 목표 국가에서 성공적으로 빠져나와 미국으로 돌아왔다고 알려왔습니다.\n\n문제의 요원들은 현장으로 복귀하기 전에 상당한 기간 동안 보고와 심리적인 평가가 필요하겠지만, 최악의 상황은 피했다고 안심할 수 있습니다."
  USA_CIA.5.a:0 "다음에는 더 잘해야겠군..."
-
  USA_CIA.6.t:0 "새 요원 훈련을 시작한 CIA"
  USA_CIA.6.desc:0 "CIA의 훈련 시설에서 새로운 신병 집단이 훈련을 시작했습니다. 훈련을 받고 싶어하는 지원자들 중에서 단 한 명만이, 전 세계적인 숨겨진 투쟁과 자유의 장막을 차지하기 위해 강직함, 섬세함, 지적 엄격함의 올바른 조합을 보여줄 것입니다.\n\nCIA는 일부 재원을 종료 시까지 훈련 프로그램으로 전용할 것을 요청할 것이며, 이로 인해 다른 지역에서의 작전 수행이 지연될 수도 있습니다."
  USA_CIA.6.a:0 "알겠다."
-
  USA_CIA.7.t:0 "CIA 요원이 준비되다"
  USA_CIA.7.desc:0 "랭글리는 현지 작전을 위해 실질적으로 즉시 신규 요원에게 알렸습니다. 이제 훈련에 전용했던 재원을 다른 우선 순위로 재할당할 수 있습니다."
  USA_CIA.7.a:0 "알겠다."
-
  USA_CIA.10000.t:0 "CIA PULSE"
  USA_CIA.10000.desc:0 "If you get this post it on reddit for the obligatory karma but then also please contact the devs. Something has clearly gone wrong."
  USA_CIA.10000.a:0 "You probably used the console to get it though."
-
-## Events
-# IBR
  USA_CIA_IBR.1.t:0 "Franco Receives Popular Boost!"
  USA_CIA_IBR.1.desc:0 "Over the past few weeks, something rather strange and interesting has happened that has rocked the relationship between the two Caudillo's that lead Iberia. Fransisco Franco has received a large increase in his popular support lately, with some stories and gossip extolling his virtues, including some foreign publications with write ups about Franco and his work. On the other hand, the rumors about his colleague Salazar and his stumbles and failures have come to light, damaging his standing among the populace.\n\nIt seems rather strange, and too convenient for Franco to receive a sudden boost in support, and Salazar the simultaneous diminishing of his popularity, especially since both have taken great pains to be seen as equals in the past. So this must be the work of a foreign intelligence service seeking to sow divisions between the two Caudillos, and fracturing Iberian unity."
  USA_CIA_IBR.1.a:0 "It's just rabble rousing nonsense. We remain united!"
-
  USA_CIA_IBR.2.t:0 "Salazar Receives Popular Boost!"
  USA_CIA_IBR.2.desc:0 "Over the past few weeks, something rather strange and interesting has happened that has rocked the relationship between the two Caudillo's that lead Iberia. António de Oliveira Salazar has received a large increase in his popular support lately, with some stories and gossip extolling his virtues, including some foreign publications with write ups about Salazar and his work. On the other hand, the rumors about his colleague Franco and his stumbles and failures have come to light, damaging his standing among the populace.\n\nIt seems rather strange, and too convenient for Salazar to receive a sudden boost in support, and Franco the simultaneous diminishing of his popularity, especially since both have taken great pains to be seen as equals in the past. So this must be the work of a foreign intelligence service seeking to sow divisions between the two Caudillos, and fracturing Iberian unity."
  USA_CIA_IBR.2.a:0 "It's just rabble rousing nonsense. We remain united!"
-
  USA_CIA_IBR.3.t:0 "American Intelligence Support"
- USA_CIA_IBR.3.desc:0 "In the world of secret services and intelligence gathering and protecting, there are strange alliances that cut across ideological bounds, where even the study of geopolitics can't fully explain why such things happen. In the past couple of weeks, one such abnormal arrangement between the Axencia Anti-Separatista and the American Central Intelligence Agency has taken shape, initiated by the Americans nonetheless!\n\nThey have provided vast amounts of intelligence that they have gathered regarding some of the most persistent and dangerous underground groups in Iberia, including the CNT-FAI and FSLP, including providing the locations of safe houses and weapons caches that they have gathered. This information, correlated with our own, is allowing the AAS to begin planning operations and raids to further cripple the separatists and socialist groups that would seek to destroy Iberia.\n\nOf course, the United States would never publicly acknowledge that they would sacrifice those "fighting for freedom" to authoritarian states, and Iberia would, of course, never recognize that they needed the help of Americans to root out dissent. But their support and intelligence is still greatly appreciated."
+ USA_CIA_IBR.3.desc:0 "In the world of secret services and intelligence gathering and protecting, there are strange alliances that cut across ideological bounds, where even the study of geopolitics can't fully explain why such things happen. In the past couple of weeks, one such abnormal arrangement between the Axencia Anti-Separatista and the American Central Intelligence Agency has taken shape, initiated by the Americans nonetheless!\n\nThey have provided vast amounts of intelligence that they have gathered regarding some of the most persistent and dangerous underground groups in Iberia, including the CNT-FAI and FSLP, including providing the locations of safe houses and weapons caches that they have gathered. This information, correlated with our own, is allowing the AAS to begin planning operations and raids to further cripple the separatists and socialist groups that would seek to destroy Iberia.\n\nOf course, the United States would never publicly acknowledge that they would sacrifice those \"fighting for freedom\" to authoritarian states, and Iberia would, of course, never recognize that they needed the help of Americans to root out dissent. But their support and intelligence is still greatly appreciated."
  USA_CIA_IBR.3.a:0 "Secretly, of course."
-
  USA_CIA_IBR.4.t:0 "American Intelligence Treasure!"
  USA_CIA_IBR.4.desc:0 "Today, the American Central Intelligence Agency's Station Chief in Madrid met with his counterpart in the AAS, and handed over a large briefcase in a secret meeting in the dark corner of a cafe. Inside, as we found out when the suitcase was opened a few hours later, was the result of American intelligence gathering operations on several groups that Iberia considers to be terrorist organizations.\n\nWe've cross referenced the info the CIA has provided us with what we already know, and we are absolutely certain that this is all true, and not like the deceptive measures the western powers were so effective with in the Second World War. Membership lists, weapons storage locations, safe houses, recruitment efforts and even fully detailed plans are now in our hands, which will make targeting and crushing the many organizations seeking to destroy Iberia much, much easier.\n\nWe would never admit to needing the help, but it's unquestioned that the CIA has much more advanced technology and resources at their disposal than anything that we could provide our own agencies. If they are going to give us this info and not use it to undermine our nation, that can only mean they want to establish firmer relations with us."
  USA_CIA_IBR.4.a:0 "¡Gracias americano!"
-
  USA_CIA_IBR.5.t:0 "Gibraltar Dam Aid from the USA"
- USA_CIA_IBR.5.desc:0 "An old and creaky "Liberty Ship" built over 20 years ago has docked at Cádiz, flying the flag of Nicaragua and renamed as the SS Awastara. It's old, it's leaking... but it's a lifeline to the giant wall that separates the Atlantic from the Mediterranean.\n\nThe US Central Intelligence Agency has chartered the SS Awastara and filled it with steel, cement, machinery and tools, provided at below market values, to help with our never ending efforts to keep the Gibraltar Dam from collapsing, and maybe even to finally finish what the Germans had so haphazardly abandoned. There are many other ships similar profiles and materials that will soon be arriving in Iberia to help us.\n\nBut even more valuable to us is what the single passenger on the ship is carrying. His name isn't that important, and whatever name he gave the customs officials would not be his real name. But the information he provides on microfilm, stashed in one of the crates of cigarettes he is "selling," has information regarding efforts of workers associated with the Gibraltar Dam and their secret, illegal union and organization activity. Soon the identified leaders would be whisked away, never to be seen again, and the efforts of the workers to undermine our society and the Dam will be removed."
+ USA_CIA_IBR.5.desc:0 "An old and creaky \"Liberty Ship\" built over 20 years ago has docked at Cádiz, flying the flag of Nicaragua and renamed as the SS Awastara. It's old, it's leaking... but it's a lifeline to the giant wall that separates the Atlantic from the Mediterranean.\n\nThe US Central Intelligence Agency has chartered the SS Awastara and filled it with steel, cement, machinery and tools, provided at below market values, to help with our never ending efforts to keep the Gibraltar Dam from collapsing, and maybe even to finally finish what the Germans had so haphazardly abandoned. There are many other ships similar profiles and materials that will soon be arriving in Iberia to help us.\n\nBut even more valuable to us is what the single passenger on the ship is carrying. His name isn't that important, and whatever name he gave the customs officials would not be his real name. But the information he provides on microfilm, stashed in one of the crates of cigarettes he is \"selling,\" has information regarding efforts of workers associated with the Gibraltar Dam and their secret, illegal union and organization activity. Soon the identified leaders would be whisked away, never to be seen again, and the efforts of the workers to undermine our society and the Dam will be removed."
  USA_CIA_IBR.5.a:0 "The Dam will one day be complete!"
-
  USA_CIA_IBR.6.t:0 "Outside Aid for Iberian Unity"
  USA_CIA_IBR.6.desc:0 "Several groups and leaders of groups that seek to forge closer ties between all the people of Iberia have been receiving funds and resources lately from unknown sources. With this new windfall, pro-Iberian propaganda has increased across the nation, trying to convince everyone from Barcelona to Lisbon that a single, strong government is the best for everyone.\n\nInvestigations have stumbled on some clues that it's a foreign government and their intelligence service that is funding these groups, but it's hard to tell which group, and if this is just simply misdirection to hide where it's really coming from."
  USA_CIA_IBR.6.a:0 "Someone else wants a stronger Iberia, eh?"
-
  USA_CIA_IBR.7.t:0 "Foreign Support for Reformers"
  USA_CIA_IBR.7.desc:0 "Pro-reform groups across our nation have seen an increase in support lately, getting new sources of funding and resources from an unknown source. With this increase in aid, groups calling for changes to our nation and society have been able to spread their message across Iberia, swaying some to their side and their demands.\n\nWe are fairly certain that an external organization, most likely a foreign agency, is trying to sway the populace, we are uncertain who actually is providing these funds. Further work is required to get through the tangled web of shell companies and secret bank accounts that lead to many dead ends and loose threads."
  USA_CIA_IBR.7.a:0 "Someone else wants a reformed Iberia, eh?"
-
-# SGR
  USA_CIA_SGR.1.t:0 "The Black Market Problem"
  USA_CIA_SGR.1.desc:0 "The black market is one of those things that every totalitarian society has. It allows items that are in short supply such as food or consumer goods to reach the hands of the needy for inflated prices. Thanks to the destruction from the Civil War and our incomplete reforms, the black market is stronger than ever. It may keep the ordinary citizen fed and clothed right now, so for now we have to tolerate the black market's existence for now since we are still trying to repair and reform the whole system.\n\nThat doesn't mean we can't keep an eye on it, and our agents in the police that are doing such have reported a disturbing trend lately. Along with fresh vegetables and unrationed meat, there is an increased amount of uncensored literature, pamphlets and assorted media that is being distributed by these underground capitalists, which they appear to be selling for rather low prices, or even slipping into otherwise innocuous packages. They are denouncing our reform efforts, calling into question Speer's beliefs, and other such hogwash, undermining their faith in the new National Socialist system.\n\nUnfortunately, there is little that we can do right now. The police will continue to monitor the situation, report any increase in discontent, and maybe bust a few of the more egregious black marketeers. But we have many more pressing issues to do."
  USA_CIA_SGR.1.a:0 "Just one of many concerns."
- 
  USA_CIA_SGR.2.t:0 "The Black Market Headache"
  USA_CIA_SGR.2.desc:0 "The police reports are becoming increasingly disconcerting and worrying. Investigations into the black market that is keeping ordinary Germans fed and clothed, but also questioning National Socialism, is now uncovering something more drastic. A new batch of pamphlets and short books are appearing, calling out for drastic reforms to the Reich. Some include those that Speer's advisors and supporters have called for that a majority of the nation is at best lukewarm too. But some of the pamphlets are calling for such crazy ideas as free, multi-candidate elections and even reducing the Führer's power!\n\nThere is no doubt that some foreign power is behind this, most likely the Americans with their silly ideas of democracy, or perhaps the Japanese or Italians trying to take advantage of our weakened state. However, the Reich is in little position to actually combat this growing tide of foreign backed destabilization, so all we can do is manage it, and hope our reform efforts will convince the ordinary Germans that we know what we are doing."
  USA_CIA_SGR.2.a:0 "The people will never believe this!"
- 
  USA_CIA_SGR.3.t:0 "The Bolstered Opposition"
  USA_CIA_SGR.3.desc:0 "More reports reaching the Reichskanzlei have illustrated a disturbing trend. Across the Reich, many reformist groups have been hanging more posters and distributing leaflets calling on the Führer to accelerate his efforts to overhaul the nation. Even more concerning is a variety of groups that advocate for the rights of slaves, for democracy, and even the demolishing of the whole National Socialist state. While most of these groups are small, disunited in aims, and spread over a vast area, they have all seen a massive boost in organizational activity and resources that seems rather sudden and surprising.\n\nUndoubtedly, this is the work of a foreign power, using their secret service to fund our opponents to undermine our power and strength. But despite our efforts, we haven't been able to trace the source of the funds and support they are receiving. After all, we still have a Reich to rebuild!\n\nWe can deal with some posters and pamphlets for now, but we will have to keep a close eye on the people, for if too many are swayed and misled, it could spell trouble."
  USA_CIA_SGR.3.a:0 "Why would anyone listen to a piece of paper on the wall?"
- 
  USA_CIA_SGR.4.t:0 "Public Accusations"
  USA_CIA_SGR.4.desc:0 "Just when the Reich has finally reached an even keel after the devastating Civil War and the subsequent aftermath, something new comes to rock the boat. Lately a large number of conservaitve voices in the Reich have had their names smeared or past secrets dredged to the surface by unknown perpetrators. Small town mayors, minor party officials, government bureaucrats, local military heros and many others have had a deluge of criminal charges thrown at them in unsubstantiated pamphlets and word of mouth.\n\nScandalous stories of corruption, charges of fraud, even accusations of murder, are running rampant through the populace. Even more concerning isn't the popular opinion, but those that these salacious rumors are targeting: lower level National Socialist functionaries that are at best wary of Speer's reforms, and at worse actively opposed to them. How many of these rumors and accusations are true is unknown: some most likely are, though many more will have been fabricated whole cloth, but will be difficult to disprove nevertheless.\n\nOn one hand, this can be helpful to get some reforms passed. If our reactionary opponents are so busy defending themselves in the court of public opinion, they won't have the time or energy to stop those that want to reform the Reich. On the other hand, the fact that we can't find the source of these rumors means we should be wary: our unseen allies of reform today can become our worst enemies tomorrow."
  USA_CIA_SGR.4.a:0 "They can't all be true, can they?"
- 
  USA_CIA_SGR.5.t:0 "The Market for Reform"
  USA_CIA_SGR.5.desc:0 "The black market is a fact of daily life in the Reich, no matter how generous the rations or how many consumer goods are produced by good Germanic industries. Someone will always want a bit more meat on the plate, or some foreign made product that is superior in quality to those made within our empire. Even some of the highest ranking party members or military officers will get their hands on American cigarettes or Japanese electronics through these underground bazzars, so there is little incentive to root them out.\n\nBut with the smuggled luxuries and duplicate ration cards also comes something more sinister: verboten knowledge and ideas that would undermine our National Socialist state and efforts at reforming it. For weeks, undercover police officers have been reporting on a flood of pro-reformist literature and media, uncensored by the Propagandaministerium, advocating for policies and ideas that even the most strident Speerites would consider a step too far.\n\nLocal authorities and the Orpo have managed to crack down on the most destabilizing and blatant of these pro-reformist and destabilizing pamphlets and flyers, but it can only be a fraction of what is actually distributed. It's also been incredibly difficult to find out who is supplying these materials, but we are still investigating nonetheless."
  USA_CIA_SGR.5.a:0 "Good Germans would never fall for such nonsense!"
- 
  USA_CIA_SGR.6.t:0 "Growing Opposition"
  USA_CIA_SGR.6.desc:0 "In the more liberal regime of Albert Speer, some things that would have been unthinkable just a few years before are now commonplace. Take for instance the daily student protests: all over the Reich, we've allowed some semblance of peaceful assembly since many of these young men and women are supporters of the Führer, and the last thing he wants is to betray that trust. However, that doesn't mean plainclothes, undercover police officers can't investigate and infiltrate these movements, and their reports are increasingly worrying.\n\nSomehow, these disparate groups are receiving funds and resources that these students shouldn't have in their possession, which is allowing them to expand their efforts outside of university campuses and technical college classrooms. Even more disturbing is the reports that groups like the Reichsbanner are also receiving such resources, allowing these more radical groups to grow in strength.\n\nWhile we've been able to track, confiscate and seize some of the funds that investigators can prove are illegal, it's clear that some foreign power is putting a lot of time and energy in bolstering the pro-democracy and anti-National Socialist movements in Europe."
  USA_CIA_SGR.6.a:0 "They can complain in the streets now, what more do they want?"
- 
  USA_CIA_SGR.7.t:0 "Reparation Chaos!"
  USA_CIA_SGR.7.desc:0 "A foreign stereotype of the German people is our penchant for efficiency and order, stretching back to the era of Frederick the Great and beyond. Of course, we know better than that: the National Socialist regime is riven with internal strife, corruption, overlapping responsibilities and red tape. While the Führer has done his best to clean up the mess and reorganize the whole Reich's bureaucracy, it is an uphill struggle.\n\nEven in brand new structures like the Reich's slave reparation system, created from the ground up for a noble cause, there have been problems. But this one in particular has caught everyone's attention. A dozen civil servants in the reparation program have been accused of corruption, kickbacks and other measures, despite previously stellar records. Not only that, but a fire in three offices, set within a week of each other in Frankfurt, Essen and Rostock have destroyed thousands of files related to many slaves, casting them adrift into the byzantine system. The scandal and fire, along with many other misplaced papers and orders has cast a dark shadow over the whole program.\n\nIt's too suspicious and coordinated to be merely accidental or coincidental, but we have been unable to uncover any proof that there is such a plot to wreak havoc with our attempts to reform our economy."
  USA_CIA_SGR.7.a:0 "In order to fix this, please fill out forms AH-829 and JI-315 in triplicate."
- 
  USA_CIA_SGR.8.t:0 "Accidents or Sabotage?"
  USA_CIA_SGR.8.desc:0 "For as long as the Reich has relied on unwilling slave labor to fuel its economy, there have been an incredibly high number of workplace fatalities and deliberate attempts to undermine the rhythms of productive work. This is to be expected, with so many poorly trained foreigners that are motivated simply by gunpoint slipping up or breaking down. That is just one of the many reasons why we are now trying to wind it down.\n\nOur efforts to end the slave system while also keeping our economy going has not been easy, and reports of an increasing number of breakdowns of vehicles and factories all over the eastern territories has raised concern that this isn't just lazy or incomptent slaves like usual. No, this has all the hallmarks of a full on partisan movement like what we faced in the west during the war... except for the fact that we don't have definitive proof of such a widespread and organized movement among the slaves. Twenty years ago, we had an inkling that it was the Yankees and Brits that were funding the resistance movements in France or the Low Countries, but now?\n\nWe've put into place more safety requirements and training, and the damage to locomotives and trucks and machinery can be repaired, but it will slow down our slave reparation efforts and make everything just that much more expensive in the long run."
  USA_CIA_SGR.8.a:0 "They are only making it harder on themselves!"
-
  USA_CIA_SGR.9.t:0 "Another Problem"
  USA_CIA_SGR.9.desc:0 "As if the Oil Crisis and everything else going on wasn't enough of an issue to deal with, there have been reports all across the Reich of new rumors, gossip and accusations against conservative and reactionary Party members. Mayors, bureaucrats, policemen and others are being accused of all the regular things: criminal activities and political corruption, of course. But some are even blaming them for the whole Oil Crisis and the chaos in the east. The intelligence services believe that this is the work of a foreign power, but who they don't know.\n\nWe know very well that there are much more complicated reasons why our economy is crashing and the former slaves are rising up, but the average citizen doesn't, and some are taking this simple conspiracy theory to heart. However, many more see this as simple slander, and are rightly more focused on personal issues."
  USA_CIA_SGR.9.a:0 "Oh for the love of... just ignore it!"
-
-
  USA_CIA_SGR.10.t:0 "Not Our Propaganda"
  USA_CIA_SGR.10.desc:0 "From the very first days of the Third Reich under the late master Joseph Goebbels, propaganda has been the foundation of our strength and control over Germany and most of Europe. A few boasts here, some lies there, pictures, newsreels and films that stretch the truth, and you can convince the masses to believe anything.\n\nThe problem is that when everything starts going wrong, unofficial news and foreign propaganda can make headway despite all the censorship and the heavy handed police state. And lately, more unapproved posters on walls and pamphlets in the desks of lower level officials are appearing all over the Reich. They claim that our lacklustre reform efforts had resulted in this crisis: if only we had been more aggressive and willing to break even more, the Reich could have avoided the Oil Crisis and the increasing issues in the East.\n\nWe are positive that these are the efforts of outside nations, though we can't trace the source. We've also seen that most don't trust or believe these posters, since the average German was already hesitant about the necessity of reforms, since that meant they would have to accept that the propaganda they had been fed for thirty years was wrong, that the Reich wasn't perfect and great. But there is always some that are skeptical, and some that have actually asked the most dangerous question of all..."
  USA_CIA_SGR.10.a:0 "What if they are right?"
-
  USA_CIA_SGR.11.t:0 "Reichsbanner Support"
  USA_CIA_SGR.11.desc:0 "As if the Oil Crisis wasn't enough of a problem, now the Reich is facing discontent bordering on rebellion in the Eastern territories where many of the repatriated slaves were sent to, all gathering under the Reichsbanner.\n\nLately our intelligence sources in the east have reported that known groups of supporters of this dangerous group have been receiving resources, supplies and funds from unknown sources. This is allowing for more recruitment and weapons training, as well as influence and support amongst the teeming masses all over the territories in the eastern part of the Reich. This is clearly the work of another country, because where else are they going to get guns and money? But, to the frustration of those charged with finding out who is undermining the Reich, the source of these resources are still shrouded in mystery.\n\nIt may not be a lot of extra recruits and former slaves rushing to the Reichsbanner, but anyone going to the radicals and anarchists is a problem that someday we will have to deal with."
  USA_CIA_SGR.11.a:0 "We freed them from slavery and sent them home, what more do they want?"
-
-# BOR
-
  USA_CIA_BOR.1.t:0 "Malicious Rumours Circulating"
  USA_CIA_BOR.1.desc:0 "It is better if the people do not know how the government is run. A sentiment famously expressed by the Chancellor of the Second Reich, it has become a guiding principle of the Third.\n\nIt is therefore unfortunate that a leaflet alleging multiple instances of the government supporting and exonerating criminals is making the rounds. The leaflet names several instances of the government intervening to stop criminal proceedings and stifle criminal investigations, and ties them to a list of prominent Bormannites from the Bürgerkrieg. Describing the crimes in great detail, the leaflet's author accuses our government of abetting rapists and thieves.\n\nThis should have never reached the public. It is only natural that our supporters expect support and protection in return, but exposing the inner workings of that exchange will only feed a sense of disillusionment among the general populace.\n\nWe have little choice but to direct more of our resources to suppression. It might slow down some of our other efforts, but the printers of this drivel will be found and shut down, and the distributors of the leaflets will be prosecuted for treason."
  USA_CIA_BOR.1.a:0 "Clamp them down."
-
  USA_CIA_BOR.2.t:0 "More Leaflets Circulating"
  USA_CIA_BOR.2.desc:0 "The latest batch of confiscated leaflets has shown another incident of our government helping an ally of Bormann escape criminal proceedings added to the list and revealed to the public. While our security services are diligently working to limit the reach of the leaflets' authors, the revelation is likely to strengthen the feeling in parts of the population that there is an entirely separate set of rules for the rich and powerful, and disillusionment with our government as a result."
  USA_CIA_BOR.2.a:0 "Who prints these things"
-
  USA_CIA_BOR.3.t:0 "Grossraum Hiccups"
  USA_CIA_BOR.3.desc:0 "Our efforts to restructure our economy and make it more efficient and self-sufficient, there would undoubtedly be problems. In the past few months, we've had an ever increasing number of such issues come up. Our infrastructure has been hampered with a large number of mechanical breakdowns and suspected sabotage. Bureaucrats throughout the civil service in charge of the Grossraum have been exposed for crimes including bribery, spying, and much more, forcing the police to investigate each case.\n\nWhile none of these will irrevocably destroy the Grossraum project, it will slow it down. Our intelligence services suspect that one of our many rivals could have been behind this, due to the rather coincidental nature of so many issues happening at once. However, there is no hard evidence, and we can only speculate at who it is at the moment. And maybe it is just a coincidence, the result of trying to get the Grossraum moving as fast as possible, and the speculation is just paranoid minds seeing patterns where none exist. Nonetheless, such impacts on our great plans will harm the Third Reich, and the Führer himself in the eyes of the public and the world. We must remain on guard and try to rectify these problems as soon as we can."
  USA_CIA_BOR.3.a:0 "Human error or not, we will continue."
-
  USA_CIA_BOR.4.t:0 "Grossraum Slowdowns"
  USA_CIA_BOR.4.desc:0 "Railway switches flipped the wrong way. Valuable machinery breaking. Misplaced paperwork. Wildcat strikes and slowdowns. Throughout the Reich, the Grossraum project is facing an increasing number of issues that seem designed to belay our often touted Germanic efficiency. While we are seeing improvements in nearly every sector of the economy, there has been an uptick in the number of incidents of human error or suspected sabotage: it's hard to separate the two.\n\nIt was always going to be difficult to reform the economy by getting rid of the slaves and replacing them with skilled German workers, while also maintaining and increasing the current level of production. But it's becoming increasingly harder to wave off these incidents as simply untrained and new workers getting used to their jobs. Some evidence has come to light that there is a foreign plot against us, but we still have no idea who is doing this.\n\nBut we must push on. For the Volk, for the Reich, for the Führer!"
  USA_CIA_BOR.4.a:0 "Teething troubles. That's all it is. Right?"
-
  USA_CIA_BOR.5.t:0 "Hampering the Manumission"
  USA_CIA_BOR.5.desc:0 "One of the most important aspects of the Grossraum project is reducing and eventually eliminating slavery in our economy, replacing the low skilled foreign labor with skilled Germanic workers. But as the factories reduce their reliance on slaves, we need to get rid of the Untermenschen, sending them away to the east so they won't sully the Aryan race.\n\nBut lately many troubles have befallen the railways that would ship them away. Locomotives have been breaking down more rapidly, the destruction of water towers for our coal powered trains and the spoiling of diesel fuel for other trains with water. Not only that, but the overcrowded slave camps have seen increases in arson and vandalism, as well as protests and even riots that have strained the camp guards and require other police and military units to intervene. Sweeps of the camp have revealed illegal literature and propaganda, but we can't figure out who is trying to turn our slaves against us.\n\nWe can still get the slaves out of Germany proper, but it will be more expensive and take longer, as we may have to use trucks instead of trains or marching them through streets requiring armed guards. And eventually we will get rid of em all, somehow and someway."
  USA_CIA_BOR.5.a:0 "Why are they like this? We try to send them back and they revolt?!"
-
  USA_CIA_BOR.6.t:0 "Derailing the Manumission"
  USA_CIA_BOR.6.desc:0 "Terrible news! A train carrying a lot of former slaves has derailed outside Warsaw!\n\nOf course, we aren't too concerned about the slaves, many of whom were injured or died in the crash, but it damaged an important railroad bridge over the Vistula River. Engineers say it could take weeks or months to repair the bridge to allow trains to pass over it again. Investigations are underway to determine the cause of the crash, but as of yet no definitive proof has been uncovered, either showing it was intentional sabotage or an accident.\n\nThis will greatly hamper our efforts to send more of the slaves back to the Reichskommissariats. We'd have to divert trains in other directions, costing time and money and hampering other important products and freight that needs to be moved around the Reich. But if we want the Grossraum project to be a success, we will have to power through, spend the extra resources and time to get the slaves out of Germany and to the eastern lands."
  USA_CIA_BOR.6.a:0 "Why does getting rid of slavery have to be so damn hard?"
-
  USA_CIA_BOR.7.t:0 "Fire on the Manumission"
  USA_CIA_BOR.7.desc:0 "After heightening security, reinforcing key infrastructure and interrogating anyone who looked even vaguely foreign for answers, we had thought that our Grossraum-related woes were past us. We were wrong.\n\nNot one, but two trains carrying former slaves caught fire earlier today, whether due to an engine malfunction or deliberate arson. The fire quickly spread through the secure carriages, causing many slaves to either suffocate from smoke inhalation or else burn to death. The fire also damaged a station and several critical stretches of track, which will take weeks to fix. Worse, after news of the incident spread, many of the former slaves awaiting transfer eastwards began to riot, believing that the carnage was intentional on our part as a means of disposing of them.\n\nMany are by now practically screaming that this was a clear act of sabotage, but even after everything we are still drawing a blank on the real culprit. Fortunately, after all the recent chaos, senior management of the Grossraum project have met to draw up a comprehensive security plan that they assure us will put a stop to any security flaws. Hopefully, there should be no further issues."
  USA_CIA_BOR.7.a:0 "If there's any more trouble, someone is getting replaced!"
-
  USA_CIA_BOR.8.t:0 "Corruption in the Bureaucracy"
  USA_CIA_BOR.8.desc:0 "Our efforts to wrangle the many factions of the Reich to our will have hit a significant snag. Overnight, secret documents have been brought to the attention of senior party figures that reveal unacceptable acts of corruption by several key party bureaucrats. How these documents surfaced is currently unclear, but their contents have been validated as accurate. As a result, several members have had to be removed from their positions, while disciplinary action has been applied to those with less severe offenses.\n\nThough the press is working overtime to spin this as the work of corrupt foreign infiltrators, these events have damaged the efficiency and prestige of the bureaucracy. Being our Führer's staunchest supporters, this is deeply troubling news. A weak bureaucracy will hamper our efforts to dismantle the factions that stand in the way of Germany's future - let us hope that this is the only trouble we will have with them."
  USA_CIA_BOR.8.a:0 "It could be worse."
-
  USA_CIA_BOR.9.t:0 "Flood of Foreign Media"
  USA_CIA_BOR.9.desc:0 "In the last few years, especially in the run up to the civil war, subversive foreign media has been rife in the Reich. Lately, however, it seems that the stream of black market goods has become a deluge. The volume of arrests for the possession and distribution of films, books and other illicit products from overseas have skyrocketed, leading security figures to believe that some sort of concentrated effort is being made to flood the underground market with this rubbish. No direct link to foreign agencies has been found, however.\n\nReformist circles and underground youth movements in particular have lapped up the illegal media like the lowlifes that they are, and many are attempting to distribute it to other citizens in the hopes of converting them to their degenerate way of thinking. We cannot risk the resurgence of reformism in this country, lest we end up with another crisis on our hands. Efforts are being made to crush the black market rings responsible and to look into any potential foreign connections. Regardless of our present efforts however, the reformist movement has grown stronger as a result of the illegal activity, which will weaken our efforts to break them down significantly."
  USA_CIA_BOR.9.a:0 "Get this filth out of our Reich!"
-
  USA_CIA_BOR.10.t:0 "More Bureaucratic Corruption Uncovered"
  USA_CIA_BOR.10.desc:0 "Yet more trouble hangs over the Reichstag, as a wave of corrupt activity has been discovered amongst several high-ranking members of the party bureaucracy. Illicit favors owed to shady individuals, acts of degeneracy, money wired to secret bank accounts; all this and more has been revealed in the latest leaks that have reached our ears. Some of the figures involved are so critical to the function of the bureaucracy that we have had to work overtime to bury their messes for them, but the rest have been removed and several have been arrested for their crimes against the German state.\n\nThere is no doubt that this will only further hurt the bureaucracy, and put more dents in the party machinery necessary to the dismantlement of our enemies. Some are beginning to suspect that the recent uncovering of these activities is in fact the work of subversive elements who are actively seeking to limit our ability to control the Reich. Though no evidence of such activity has been found, it is certainly convenient that our most critical supporters are the ones getting the brunt of all this. Regardless, until we can replace the implicated individuals, the power of the bureaucracy will be significantly weakened."
  USA_CIA_BOR.10.a:0 "Can't you people NOT commit crimes?"
-
  USA_CIA_BOR.11.t:0 "Subversive Media Spikes"
  USA_CIA_BOR.11.desc:0 "Yet more banned media has been flooding our streets. This time, work of a far more insidious nature has begun to surface. Pamphlets, propaganda reels and other paraphernalia directly attacking our regime and encouraging people to join with the opposition to the NSDAP have begun to circulate rapidly. When state police moved in to make arrests of those responsible, minor outbreaks of unrest triggered in response. Though these protests were soon quashed, the fact that they sprang up so rapidly as a result of our actions is a worrying sign.\n\nThe production value on some of the seized media leads us strongly to believe that our foreign rivals are responsible for at least some of this recent influx, though without proof we would be risking a diplomatic incident to openly accuse them of this. Efforts to squash black market activity and clamp down on subversiveness have been redoubled, and hopefully we can soon get this situation under control. Unfortunately, it seems ideas cannot be squashed so easily; pro-reform and ani-party sentiment has grown considerably, and it will take significantly more effort to reverse this trend."
  USA_CIA_BOR.11.a:0 "Ideas are bulletproof. Unfortunately."
-
  USA_CIA_BOR.12.t:0 "Bankers Supporting the Opposition"
  USA_CIA_BOR.12.desc:0 "It has come to our attention that our political opponents have been quietly receiving funding from numerous banking institutions across the Reich. As our attempts to dismantle our opposition have worn on, it seems that the cash flow from the treacherous bankers has only increased, in what is certainly an effort to subvert our attempts to secure control. This is grossly unacceptable, of course, though we can't exactly send in armed police to storm the banks and arrest every key executive. Such a move would cause financial panic and cripple our already fragile economy.\n\nInstead, we will have to be more subtle. Letters have been sent out to the offending bankers politely asking them to end their little funding campaign, and threatening vague consequences should they refuse. We can resort to more heavy handed approaches should any keep up their treachery, but many have already affirmed their loyalty to the Reich and cut off any under-the-table deals. Unfortunately, the money that has already been sent out is still in the hands of our opponents, and the influx they did receive before we cut them off will certainly help them frustrate our efforts.\n\nCuriously enough, it seems some of the offending bankers have come clean, explaining that they had received money from unknown clients, with the agreement that they could keep a cut if they passed on the rest to the opposition. Who exactly is doing this is currently unclear."
  USA_CIA_BOR.12.a:0 "Trouble in the big banks."
-
-# Russia
-
  USA_CIA_RUS.1.t:0 "적백 (그리고 청) 연합"
  USA_CIA_RUS.1.desc:0 "A week ago, several delegates from America contacted several members of our government to invest into Magadan proper and its Port on top of discreetly shoveling us some industrial aid. This morning, several ships arrived on our shores, carrying literal boatloads of raw industrial equipment, raw materials, and generic supplies. While the sight of Americans was cheered on by many, and nobody will certainly be complaining about the influx of this material on our shores, there is something worrying people in the party.\n\nThe Americans only initially had success contacting the Bukharinites, and thus most if not all of the work involving this shipment came through and relied on them. Although certain Sablinite members of our government were informed and attempted to reach out to the delegates, no response was received despite the Bukharinites essentially having constant contact. Regardless, the Americans are clearly playing favorites for this aid, and many in the Bukharin wing of the party are celebrating. Members of their caucus shook hands with some of the delegates and workers arriving on the ships, creating an uneasy atmosphere among Sablin's cadre.\n\nOnly time will tell what becomes of this relationship and the aid received from it, but perhaps it may further exacerbate the rift between our great party's two wings."
  USA_CIA_RUS.1.a:0 "Great help from our capitalist comrades, regardless."
-
  USA_CIA_RUS.2.t:0 "The Shift Toward Bukharinism"
- USA_CIA_RUS.2.desc:0 ""Comrade Sablin is a traitor, and will not carry our revolution forward! We must preserve Bukharin's legacy at any cost!"\n\nMany cries of peaceful protesters sounded something similar to this all across the country. For whatever reason, a rather noticeable wave of support for the Bukharinite wing has overtaken our country. The cities are full of demonstrators, Bukharinite posters adorn building walls and their fliers litter the hands of our citizens. Perhaps even more concerningly, several low-ranking bureaucratic members of our party have simply switched allegiances or jumped ship to fully support the supporters of Bukharin.\n\nAs far as we know, no major societal rift or change has been noticed by our government in order to cause such an increase in support. Despite several of our party wing's informants in bars, meeting halls, and demonstrations, they all come to the immediate observation that the support simply sprouted out of thin air. However, the attitude in our cabinet is more cynical. Given that both of our wings are roughly equal in raw power and resources, it is incredibly likely that an outside benefactor has been supporting the Bukharin wing directly. Even after an informant of ours managed to get hands on their financial records however, there is no succinct proof, and for the time being we cannot be sure of where their good fortune is coming from. We may be simply becoming unpopular, but paranoia is beginning to run deep among our administration..."
+ USA_CIA_RUS.2.desc:0 "\"Comrade Sablin is a traitor, and will not carry our revolution forward! We must preserve Bukharin's legacy at any cost!\"\n\nMany cries of peaceful protesters sounded something similar to this all across the country. For whatever reason, a rather noticeable wave of support for the Bukharinite wing has overtaken our country. The cities are full of demonstrators, Bukharinite posters adorn building walls and their fliers litter the hands of our citizens. Perhaps even more concerningly, several low-ranking bureaucratic members of our party have simply switched allegiances or jumped ship to fully support the supporters of Bukharin.\n\nAs far as we know, no major societal rift or change has been noticed by our government in order to cause such an increase in support. Despite several of our party wing's informants in bars, meeting halls, and demonstrations, they all come to the immediate observation that the support simply sprouted out of thin air. However, the attitude in our cabinet is more cynical. Given that both of our wings are roughly equal in raw power and resources, it is incredibly likely that an outside benefactor has been supporting the Bukharin wing directly. Even after an informant of ours managed to get hands on their financial records however, there is no succinct proof, and for the time being we cannot be sure of where their good fortune is coming from. We may be simply becoming unpopular, but paranoia is beginning to run deep among our administration..."
  USA_CIA_RUS.2.a:0 "What could be causing this?"
-
  USA_CIA_RUS.3.t:0 "마가단의 미국 사업"
- USA_CIA_RUS.3.desc:0 "A new ship arrived at our port this morning, emerging out of the crisp fog with the rustling of the deep sea waves. She was oddly clean looking, large, modern. Many on the horn were sure they were Americans, but why were they here? Nobody on the horn knew. As the men at our port scrambled to prepare for a potential rogue ship, a voice on the other side of the radio responded.\n\n"Hello, Magadan! This is the Porter. inbound from Seattle. We're here to provide commercial aid to this port on request of the government. Will you let us dock?"\n\nThe radio room fell silent. As far as everyone knew, there was no official order to let an American ship dock at our shipyard. Some in the radio room were furious, and were considering calling the city garrison. Others were vastly supportive, not opposed to American economic aid. Most did not care, and were simply worried about the uncertainty of this event. However, after a bit of bickering and impatience on the other side, a single voice was spoken through the radio.\n\n"This is Magadan. You can dock."\n\nA businessman in a black suit walked out, looking at the sky around him while puffing a cigarette. Several men behind him were beginning to unload crates full of valuable goods, industrial material, and civilian supplies. As the dock administrators approached in front of him, eyeing the seemingly endless supply of surplus arriving on their shores, he extinguished his cigarette, and smiled warmly.\n\n"Gentlemen. You'd best make room for more ships with this aid, since more are coming.""
+ USA_CIA_RUS.3.desc:0 "A new ship arrived at our port this morning, emerging out of the crisp fog with the rustling of the deep sea waves. She was oddly clean looking, large, modern. Many on the horn were sure they were Americans, but why were they here? Nobody on the horn knew. As the men at our port scrambled to prepare for a potential rogue ship, a voice on the other side of the radio responded.\n\n\"Hello, Magadan! This is the Porter. inbound from Seattle. We're here to provide commercial aid to this port on request of the government. Will you let us dock?\"\n\nThe radio room fell silent. As far as everyone knew, there was no official order to let an American ship dock at our shipyard. Some in the radio room were furious, and were considering calling the city garrison. Others were vastly supportive, not opposed to American economic aid. Most did not care, and were simply worried about the uncertainty of this event. However, after a bit of bickering and impatience on the other side, a single voice was spoken through the radio.\n\n\"This is Magadan. You can dock.\"\n\nA businessman in a black suit walked out, looking at the sky around him while puffing a cigarette. Several men behind him were beginning to unload crates full of valuable goods, industrial material, and civilian supplies. As the dock administrators approached in front of him, eyeing the seemingly endless supply of surplus arriving on their shores, he extinguished his cigarette, and smiled warmly.\n\n\"Gentlemen. You'd best make room for more ships with this aid, since more are coming.\""
  USA_CIA_RUS.3.a:0 "돈이 흐르게 하자!"
-
  USA_CIA_RUS.4.t:0 "Reaping the Red, White, and Blue"
  USA_CIA_RUS.4.desc:0 "A new fleet of commercial ships from our American allies arrived today. Unloading precious supplies and goods, the businessmen have been cooperating greatly with their investments into the Port of Magadan. Further crates of theirs are being unloaded across the country to be put to use in various civilian, industrial, and military applications.\n\nAlong with this, several of the businessmen seem to be making closer ties with members of the RFP. While it is unusual that these sharply dressed American businessmen seem to be working so closely with our government, are providing loans, and generally making our lives easier for little economic gain on their part, nobody seems to be complaining. The goods are flowing, money is changing hands, and everyone is walking away happy.\n\nIt seems that with each visit the Americans make to our shores, it becomes easier for everyone to work together."
  USA_CIA_RUS.4.a:0 "Our American friends will help us greatly."
-
  USA_CIA_RUS.5.t:0 "랭글리로부터, 사랑을 담아"
- USA_CIA_RUS.5.desc:0 "Matkovsky sat tensely on a balcony overlooking the Port of Magadan. As far as the eye could see, both the sea and the life surrounding it was blooming. Despite all of this recent fortune, most of it was brought forward by that one fateful American ship arriving on our shores. He was expecting visitors. Some bigwig capitalist stockholders, with fancy Italian suits, selling goods to Russians. But what came through the doors was something much, much more important.\n\n"Mister Matkovsky. I'm Agent Morgan, and this is Agent Patterson. It's a pleasure to finally make your acquaintance."\n\nThe Vozhd sat nervous surrounded by the CIA agents. Formality upon formality, endless droning about the costs of economic aid building. How much eyes did they have on him? Did accepting that ship bring a lot more trouble than it was worth? He couldn't take it anymore. The longer they talked, the more power they got in this situation. He'd never let Russia be intertwined so deep with the American tendrils that they couldn't escape...\n\n"You look anxious, Mister Matkovsky. Something the matter?" He sat silent for some time. Standing up and facing the ocean, he began to speak.\n\n"We can never truly repay you for this aid, yet I feel we need something more... permanent than simple manufactured goods." The two agents exchanged glances. Patterson cleared his throat, and approached Matkovsky.\n\n"We figured you would say that. How is the state of your military training? I'm sure we could provide some assistance in that area..."
+ USA_CIA_RUS.5.desc:0 "Matkovsky sat tensely on a balcony overlooking the Port of Magadan. As far as the eye could see, both the sea and the life surrounding it was blooming. Despite all of this recent fortune, most of it was brought forward by that one fateful American ship arriving on our shores. He was expecting visitors. Some bigwig capitalist stockholders, with fancy Italian suits, selling goods to Russians. But what came through the doors was something much, much more important.\n\n\"Mister Matkovsky. I'm Agent Morgan, and this is Agent Patterson. It's a pleasure to finally make your acquaintance.\"\n\nThe Vozhd sat nervous surrounded by the CIA agents. Formality upon formality, endless droning about the costs of economic aid building. How much eyes did they have on him? Did accepting that ship bring a lot more trouble than it was worth? He couldn't take it anymore. The longer they talked, the more power they got in this situation. He'd never let Russia be intertwined so deep with the American tendrils that they couldn't escape...\n\n\"You look anxious, Mister Matkovsky. Something the matter?\" He sat silent for some time. Standing up and facing the ocean, he began to speak.\n\n\"We can never truly repay you for this aid, yet I feel we need something more... permanent than simple manufactured goods.\" The two agents exchanged glances. Patterson cleared his throat, and approached Matkovsky.\n\n\"We figured you would say that. How is the state of your military training? I'm sure we could provide some assistance in that area..."
  USA_CIA_RUS.5.a:0 "The roots grow deeper."
-
  USA_CIA_RUS.6.t:0 "미국산 무기 지원이 도착하다"
  USA_CIA_RUS.6.desc:0 "Today a nondescript ship has arrived in port, its holds filled with rifles and ammunition for us. Most of them are old, Second World War vintage weapons, but they are still functional and more than useful for our nation. While the flag on the ship was from Panama, it's well known to the upper leadership of Magadan, the dock workers of the city, and the troops in the field, that these are supplied by the American Central Intelligence Agency. Why they are supporting us even though they claim to hate our ideology, we don't know, and we don't care. We are just pleased to benefit from the American's generosity."
  USA_CIA_RUS.6.a:0 "감사하오, 미국인 동지들!"
-
  USA_CIA_RUS.7.t:0 "The Reformists are Growing Stronger"
  USA_CIA_RUS.7.desc:0 "In the past few weeks, we've noticed that some of those in the RFP who seek to reform our party and nation have received a boost in resources and money that they have used to try to increase their support. While we can't confirm where this money is coming from, we have a suspicion it's from a foreign source, most likely from the United States. However, we cannot verify this, and we can't tell the American's to stop either, since they are supporting our armed forces. But we will have to keep an eye on this."
  USA_CIA_RUS.7.a:0 "Can't bite the hand that feeds us."
-
  USA_CIA_RUS.8.t:0 "외세의 영향력이 강해지다"
  USA_CIA_RUS.8.desc:0 "As Magadan pushes west and begins to unify the broken Russian people into a new, powerful state, it is not without its problems. Cities have been fought over, farms have been burnt, factories are ruined husks, not to mention the lack of manpower and the limited resources we have to accomplish things quickly. While in time we can rebuild all of it and further increase our power, it will be a long, hard road.\n\nHowever, this hasn't stopped some from trying to fix it themselves. Rich Russian émigrés from the west are returning by the boatload, with pockets full of gold seeking to rebuild factories and mines. Alongside them are many Americans and other foreign nationals, with the technical know-how or even deeper pockets of greenbacks, seeking to build massive fortunes by buying up the factories and rebuilding them and turning them over to American corporations, using the labor of poor Russian men and women to make their products to sell here and abroad, often for wages slightly higher than can be given by loyal RFP aligned businesses.\n\nMatkovsky himself has grown suspicious and wary of the arrival of all these Americans and American influenced Russians, wildily spending money and resources. Of course, getting the economy back on track would be a good thing, and the taxes and customs Magadan can charge will provide a steadily increasing source of income, but there is a cost. American style consumerism and ideals are spreading amongst the people. Matkovsky is also increasingly convinced that the tales of all these successful Russians or Americans looking to make their fortune are actually CIA plants, seeking to increase the USA's influence in Magadan, and turn us into a puppet state of Western Imperialism..."
  USA_CIA_RUS.8.a:0 "Vozhd, you are being paranoid. Why not calm down and relax with a bottle of Pepsi-Cola?"
-
  USA_CIA_RUS.9.t:0 "미국의 보급품이 도착하다!"
  USA_CIA_RUS.9.desc:0 "A new shipment of weapons, ammo, clothing, medical supplies and much more has arrived at our borders, supplied by the generosity of the Central Intelligence Agency, so we can use these guns on our enemies, and eventually on the Germans that destroyed our nation. These weapons have traveled over great oceans, through hostile territory in horse drawn wagons and sleighs before finally arriving here. Undoubtedly, this is only a fraction of that the Americans actually shipped us, as corrupt officials and bandits would have been paid off with some of the bounty, but what we have received will be more than enough to equip some battalions with better weapons to continue our fight to unite Russia!"
  USA_CIA_RUS.9.a:0 "고맙소, 미국인 동지들!"
-
  USA_CIA_RUS.10.t:0 "새로운 수송품이 도착하다"
  USA_CIA_RUS.10.desc:0 "Many ships with suspicious port registries and questionable cargoes arrive every day along the freezing coasts of Russia, with products that could make or break warlords, or be the difference between life and death for many leaders seeking to reform Russia. Today, another such ship arrived at our port, but this one is different only in it's scale. Packed to the brim with weapons and ammo, this old, leaky ship is carrying more armaments than our factories could produce in months.\n\nThe cargo is provided by our American CIA contacts, as they seek to aid us in our quest to eventually rebuild Russia, and take the fight to our common enemies in the east. While the guns may be outdated and old, they are a godsend to us, allowing our state to grow stronger."
  USA_CIA_RUS.10.a:0 "Every little bit helps!"
-
  USA_CIA_RUS.11.t:0 "무엇을 보내주어야 할까요?"
- USA_CIA_RUS.11.desc:0 "Langley, Virginia. Somewhere deep within the labyrinthic headquarters of the Central Intelligence Agency, a mid-level office grunt named John was tasked with composing a detailed list of military equipment to be sent to a certain OFN-friendly nation state in Russia. Like any other CIA member, he conducted the task most diligently, laying out a number of possible options and contemplating the possible risks of benefits of each.\n\nThe simplest and most obvious option would be basic infantry equipment, of course. The clear superiority of mass-produced modern equipment over whatever scraps the local warlords can come up with would undoubtedly be a decisive factor in the upcoming conflicts, but Russia must be already overflowing with rifles and other assorted infantry equipment - would that marginal improvement really be worth it?\n\nAnother option would be sending a large quantity of motor vehicles. History proves that mobility is one of the most essential tools of warfare, with even Russia itself failing to counter the rapid advance of lightning-fast motorized forces. American vehicles could be spearheading a rapid push to encircle large enemy formations, but they could also be misused in front assaults against well-entrenched enemies. Could the Russian commanders be trusted to properly use these powerful tools?\n\nLastly, John thought of going as far as to send them helicopters and jets. It'd be an incredibly risky move, but the potential payoff would be huge - if they could figure out how to maintain, fuel, and pilot these machines, they'd be completely unstoppable in the skies for the foreseeable future. That "if" is a massive "if", however. Even the slightest amount of carelessness or incompetence would rapidly turn these fine tuned machines into useless piles of scrap, and John wasn't sure if that kind of expertise still existed in the wastes of Russia.\n\nIt took a while of crunching numbers and contemplating the strategic implications of the options, but eventually, he came to a decision. The first delivery was set to be dispatched in a few days, containing vast numbers of..."
+ USA_CIA_RUS.11.desc:0 "Langley, Virginia. Somewhere deep within the labyrinthic headquarters of the Central Intelligence Agency, a mid-level office grunt named John was tasked with composing a detailed list of military equipment to be sent to a certain OFN-friendly nation state in Russia. Like any other CIA member, he conducted the task most diligently, laying out a number of possible options and contemplating the possible risks of benefits of each.\n\nThe simplest and most obvious option would be basic infantry equipment, of course. The clear superiority of mass-produced modern equipment over whatever scraps the local warlords can come up with would undoubtedly be a decisive factor in the upcoming conflicts, but Russia must be already overflowing with rifles and other assorted infantry equipment - would that marginal improvement really be worth it?\n\nAnother option would be sending a large quantity of motor vehicles. History proves that mobility is one of the most essential tools of warfare, with even Russia itself failing to counter the rapid advance of lightning-fast motorized forces. American vehicles could be spearheading a rapid push to encircle large enemy formations, but they could also be misused in front assaults against well-entrenched enemies. Could the Russian commanders be trusted to properly use these powerful tools?\n\nLastly, John thought of going as far as to send them helicopters and jets. It'd be an incredibly risky move, but the potential payoff would be huge - if they could figure out how to maintain, fuel, and pilot these machines, they'd be completely unstoppable in the skies for the foreseeable future. That \"if\" is a massive \"if\", however. Even the slightest amount of carelessness or incompetence would rapidly turn these fine tuned machines into useless piles of scrap, and John wasn't sure if that kind of expertise still existed in the wastes of Russia.\n\nIt took a while of crunching numbers and contemplating the strategic implications of the options, but eventually, he came to a decision. The first delivery was set to be dispatched in a few days, containing vast numbers of..."
  USA_CIA_RUS.11.a:0 "...보병 장비을"
  USA_CIA_RUS.11.b:0 "...차량들을"
  USA_CIA_RUS.11.c:0 "...헬리콥터와 구식 제트기들을"
-
  USA_CIA_RUS.12.t:0 "러시아의 전쟁"
- USA_CIA_RUS.12.desc:0 "President [USA.GetLeader] sat at the Resolute desk, looking over the maps and files that the CIA had produced to illustrate the current situation in what was once the Soviet Union.\n\n"As you can see, Mr. President, the situation is rapidly changing," the CIA Director said. "Most of the warlords of the area have been defeated, and consolidation is proceeding rapidly. Just a few days ago, the western half of the old Russia erupted into war, trying to unify the whole area to prepare to take over all of Russia."\n\nThe President leaned forward. "And what are you proposing?"\n\n"We are still evaluating what options are available, depending on what side we think would be the most aligned with us, and which would be the strongest to balance against our enemies in Eurasia," The CIA Director said. "We will have some proposals within the next week."\n\nThe President drummed his fingers on the desk as he looked at the maps, with the rough dotted lines of where the old warlords had once been, the path of broken ideologies and armies that had failed in their goal to unify Russia. Finally, the CIA Director raised his voice and asked:\n\n"President, if I may, who do you think we should back?""
- USA_CIA_RUS.12.a:0 ""Our allies in [WSR.GetNameDef], naturally.""
- USA_CIA_RUS.12.b:0 ""물론, 우리 친구들인 [WSB.GetNameDef].""
- USA_CIA_RUS.12.c:0 ""싸우게 둬라.""
-
+ USA_CIA_RUS.12.desc:0 "President [USA.GetLeader] sat at the Resolute desk, looking over the maps and files that the CIA had produced to illustrate the current situation in what was once the Soviet Union.\n\n\"As you can see, Mr. President, the situation is rapidly changing,\" the CIA Director said. \"Most of the warlords of the area have been defeated, and consolidation is proceeding rapidly. Just a few days ago, the western half of the old Russia erupted into war, trying to unify the whole area to prepare to take over all of Russia.\"\n\nThe President leaned forward. \"And what are you proposing?\"\n\n\"We are still evaluating what options are available, depending on what side we think would be the most aligned with us, and which would be the strongest to balance against our enemies in Eurasia,\" The CIA Director said. \"We will have some proposals within the next week.\"\n\nThe President drummed his fingers on the desk as he looked at the maps, with the rough dotted lines of where the old warlords had once been, the path of broken ideologies and armies that had failed in their goal to unify Russia. Finally, the CIA Director raised his voice and asked:\n\n\"President, if I may, who do you think we should back?\""
+ USA_CIA_RUS.12.a:0 "\"Our allies in [WSR.GetNameDef], naturally.\""
+ USA_CIA_RUS.12.b:0 "\"물론, 우리 친구들인 [WSB.GetNameDef].\""
+ USA_CIA_RUS.12.c:0 "\"싸우게 둬라.\""
  USA_CIA_RUS.13.t:0 "The Battle for Russia: Eastern"
  USA_CIA_RUS.13.desc:0 "Interesting news has landed on the President's desk this morning. After years of preparation from regional-level states in the Russian Anarchy, [CSB.GetNameDef] in the Central Siberian Region and [FST.GetNameDef] in the Russian Far East have declared war on each other. The outcome of this war will most likely determine a successor of one half of the former Soviet Union, and as such, it is of great importance that we support the state which would be friendlier to America and the OFN.\n\nWhile we see many potential ins for each different country, advisors are suggesting a course of action be taken soon in order to best improve our chances of making a difference in this conflict. The Director of the CIA has assured the President that their men are standing by, and have a multitude of options to assist each nation. Whatever the case is, the President eventually stands up, clears their throat, and makes a decision..."
- USA_CIA_RUS.13.a:0 ""We should throw our support behind [CSB.GetNameDef].""
- USA_CIA_RUS.13.b:0 ""[FST.GetNameDef] would be the better contender.""
- USA_CIA_RUS.13.c:0 ""싸우게 둬라.""
-
+ USA_CIA_RUS.13.a:0 "\"We should throw our support behind [CSB.GetNameDef].\""
+ USA_CIA_RUS.13.b:0 "\"[FST.GetNameDef] would be the better contender.\""
+ USA_CIA_RUS.13.c:0 "\"싸우게 둬라.\""
  USA_CIA_RUS.14.t:0 "러시아 전쟁의 결말"
  USA_CIA_RUS.14.desc:0 "Sometime this morning, an urgent message has caught the attention of the President. With two states left in the former Soviet Union, [RWS.GetNameDef] in Western Russia and [SIB.GetNameDef] in Siberia, the struggle for unification is almost finished. Both nations have declared war on each other not long ago, and the winner will almost certainly have complete control over the former lands of Russia. An impromptu cabinet meeting was called today, with several advisors to the President making their cases and discussing strategies on how best to support American interests in this war.\n\nMuch like the other two reunification wars, the CIA is once again offering their help, and reassures the President that no candidate will win without our explicit approval. After hours of discussion, the entire room eventually comes to a conclusion, and concludes that..."
- USA_CIA_RUS.14.a:0 ""[RWS.GetNameDef]가 최선의 선택지임이 분명하군.""
- USA_CIA_RUS.14.b:0 ""[SIB.GetNameDef]는 더 강한 동맹이지. 그들을 지원하라.""
- USA_CIA_RUS.14.c:0 ""싸우게 둬라.""
-
+ USA_CIA_RUS.14.a:0 "\"[RWS.GetNameDef]가 최선의 선택지임이 분명하군.\""
+ USA_CIA_RUS.14.b:0 "\"[SIB.GetNameDef]는 더 강한 동맹이지. 그들을 지원하라.\""
+ USA_CIA_RUS.14.c:0 "\"싸우게 둬라.\""
  USA_CIA_RUS.15.t:0 "미국산 보급품들이 도착하다"
  USA_CIA_RUS.15.desc:0 "An unassuming freighter from the United States has arrived in the port of Magadan under the shroud of darkness, it's contents quickly unloaded by diligent dock workers under the careful gaze of the NKVD officers. The ship is full of industrial machinery and supplies that will greatly boost our economy as we work to reunify the Soviet Union.\n\nThis bounty was organized and shipped by the Central Intelligence Agency, seeking to aid all those who stand against fascism even if the Americans themselves are hostile to the teachings of Marx. Of course, they aren't doing this simply out of the goodness of their heartland to make it easier for us to kill our common enemies, but they are trying to influence our nation to their own ends. Some agents have investigated the crates to find pamphlets and other materials advocating for policies that align with the Party Faction. While we have confiscated all the foreign propaganda that we have found, undoubtedly more will slip through our hands and will be seen by our citizens and may sway them. "
  USA_CIA_RUS.15.a:0 "The supplies are appreciated, the propaganda is not."
-
  USA_CIA_RUS.16.t:0 "Discontent in the Party"
- USA_CIA_RUS.16.desc:0 ""Yagoda will doom us, there cannot be any doubt. If there is to be any hope for the future of the Union, we must have immediate and urgent reform through all strata of the state. Even if that means getting rid of him." - Transcript recorded by Commissar Sergey Chuprin. Subject taken into NKVD custody for questioning.\n\nThere have been rumblings of dissent within the Party towards Comrade Yagoda's rule as of late. While there have always been those who disagree with the state's direction, their voices seem to have become amplified in recent days. They have displayed greater cohesion and more willingness to speak out in state meetings, and many even boast far larger security details than before. This, understandably, has greatly angered Chairman Yagoda. Several arrests of lower ranking dissenters have occurred over the last few weeks, though many within the Party itself are largely immune to such action.\n\nIt is unclear what exactly is causing them to feel so comfortable speaking out, and allowing them to organize so freely. Though Yagoda quietly blames the foreign capitalists and fascists, believing them to be attempting to sabotage the revolution, many simply believe that the Party feels the time is right to push for reform. For now though, those opposed to the Chairman will still have to carefully watch their words for fear of provoking his ire."
+ USA_CIA_RUS.16.desc:0 "\"Yagoda will doom us, there cannot be any doubt. If there is to be any hope for the future of the Union, we must have immediate and urgent reform through all strata of the state. Even if that means getting rid of him.\" - Transcript recorded by Commissar Sergey Chuprin. Subject taken into NKVD custody for questioning.\n\nThere have been rumblings of dissent within the Party towards Comrade Yagoda's rule as of late. While there have always been those who disagree with the state's direction, their voices seem to have become amplified in recent days. They have displayed greater cohesion and more willingness to speak out in state meetings, and many even boast far larger security details than before. This, understandably, has greatly angered Chairman Yagoda. Several arrests of lower ranking dissenters have occurred over the last few weeks, though many within the Party itself are largely immune to such action.\n\nIt is unclear what exactly is causing them to feel so comfortable speaking out, and allowing them to organize so freely. Though Yagoda quietly blames the foreign capitalists and fascists, believing them to be attempting to sabotage the revolution, many simply believe that the Party feels the time is right to push for reform. For now though, those opposed to the Chairman will still have to carefully watch their words for fear of provoking his ire."
  USA_CIA_RUS.16.a:0 "Damned revisionists!"
-
  USA_CIA_RUS.17.t:0 "미국의 산업 지원"
  USA_CIA_RUS.17.desc:0 "While Russia was never a strongly-industrialized nation in its prime, our people dream of mighty factories, strong and efficient production lines, and modern conveniences brought on by mass industrialization. Today, our dream became a little bit closer to fruition. American businessmen have brought over shipments of industrial equipment, heavy machinery, and technical experts to send to our industrial sectors and factories.\n\nMany in our government and even the common population are thankful for this incoming aid, and the Americans themselves say that if their investments are successful, they will be back with more. Regardless of where it came from, our industry just got a bit mightier, and our country a bit more developed as a result."
  USA_CIA_RUS.17.a:0 "언젠가 우리들도 그들의 산업과 비슷해질 수 있을거야!"
-
  USA_CIA_RUS.18.t:0 "미국인들의 정보 지원"
  USA_CIA_RUS.18.desc:0 "In our ongoing war, any advantage to help us fight the enemy is necessary for our ultimate victory. As a stroke of luck would have it, our American allies have finally intercepted some important enemy intelligence and are willing to share it with us. CIA Agents have been operating closely deep in enemy territory, and have escaped successfully with a plethora of useful information. Our military staff are eager to further analyze this information and put it to better use, which will hopefully give us an upper hand in the tactical department."
  USA_CIA_RUS.18.a:0 "Time to hit our enemies where it hurts most..."
-
  USA_CIA_RUS.19.t:0 "사보타주된 보급선!"
  USA_CIA_RUS.19.desc:0 "Disaster has struck yesterday on one of our supply lines. Enemy infiltrators have snuck deep into our lines, and have blown up some basic infrastructure, sabotaged road signs, destroyed trucks, cut telephone wires, smashed signal radios, and generally caused chaos to our chain of supply inbound to our frontline troops. Surviving soldiers claim that the men were using American weapons, and were extremely well supplied with tactical gear, retreating back toward enemy territory under the cover of nighttime. While we can still send supplies to our front line, our ability to do so has been significantly hampered for the next few weeks while we repair the damage these subversives have caused. We should be more cautious in the future to prevent these enemy agents from causing further dismay."
  USA_CIA_RUS.19.a:0 "젠장할 미국 놈들!"
-
  USA_CIA_RUS.20.t:0 "Yakovlev's Surge of Popularity"
  USA_CIA_RUS.20.desc:0 "While Premier Zhukov is still considering a successor once he eventually passes away, like the great Marshal Voroshilov before him, a particular candidate has recently enjoyed a vast surge in popularity. Alexander Yakovlev's support has risen to even more notable levels recently. Yakovlev is enjoying a surge of endorsements from party members, has posters of him adorning city squares, and has received seemingly nothing but positive media coverage.\n\nWhile this normally would not be a problem, rumors have been speculating among Zhukov's inner circle as to why this surge has occurred. Some point to Yakovlev's internationalist beliefs which may attract foreign supporters. Others suspect that Yakovlev has been scheming within the government to gain favors, while the most extreme and paranoid claim that he is a reactionary working with major powers to subvert our revolution. Whatever the case is, it is without a doubt present that a majority of the public now supports Yakovlev taking the place of the Marshal, and, perhaps, Zhukov himself has something else to consider during his appointment."
  USA_CIA_RUS.20.a:0 "How could he have gotten this popular this fast?"
-
  USA_CIA_RUS.21.t:0 "민주주의의 병기창"
  USA_CIA_RUS.21.desc:0 "Wide eyed soldiers of ours look on in shock as an absolutely massive shipment of American military material has just arrived on our land today. Many can only consider it a treasure trove; crates full modern assault rifles, truckloads of native and foreign ammunition, a plethora AT equipment and rockets, a fleet of APCs and Multi-Role Helicopters, and, most surprisingly, some old jet planes along with staff to help us repair and maintain them.\n\nAlthough the Stars and Bars adorn our men's gear, they could not be happier. American equipment is obviously several steps above our own, and as such, our frontline officers are already working on distributing this equipment efficiently. Our footsoldiers shall march into combat fielding the most advanced weaponry known to man, and we will win against our now woefully obsolete foe!"
  USA_CIA_RUS.21.a:0 "Let's put it to good use, Hoo-rah!"
-
  USA_CIA_RUS.22.t:0 "American-Assisted Military Drilling"
  USA_CIA_RUS.22.desc:0 "Wars may be fought with weapons, but they are won by men. As such, it is imperative to the success of our military to be able to efficiently and effectively train new recruits and replace combat losses with experienced soldiers. Several American expats in our country have recently offered assistance to our military to help train our troops, which was generously accepted. Soldiers can now expect proper training facilities staffed by veteran Americans under a modern regimen. While they sweat with each push up, stress heavily crawling under barbed wire, and shake nervously when shooting their weapons, each second they spend training with the Americans will turn them into the very best soldiers, hardened by one of the most experienced fighting forces in the world."
  USA_CIA_RUS.22.a:0 "Our men are unstoppable being trained by the best!"
-
- # Japan
-
  USA_CIA_JAP.1.t:0 "Unauthorized go-slow action"
  USA_CIA_JAP.1.desc:0 "A disruption on the Kyōto-sen is beginning to draw an unfortunate amount of attention. Train drivers, apparently frustrated by a lack of responsiveness on the part of management, seem to have brought their complaints about working conditions into the public in the form of a daily go-slow action. As the trains spend an extra couple of minutes at each station, fliers outlining the drivers' requests are circulated among the ridership.\n\nCrucially, and embarrassingly, one of the demands is for measures to limit suicides by train.\n\nSuicide has been a growing problem, and one we have spent a great deal of energy playing down the significance of. For it to be common enough to be a source of major concern for train drivers flies in the face of that messaging, undoing our efforts. While the matter is now being dealt with, a lot of damage has already been done, and we should expect a significantly higher consciousness on the suicide issue in the near future.\n\nThe high level of coordination and the sophistication of the printed material makes us believe the train drivers are unlikely to be operating alone. Unfortunately, however, our investigations have so far failed to make any progress in uncovering who their backers might be."
  USA_CIA_JAP.1.a:0 "망할."
-
  USA_CIA_JAP.2.t:0 "조선 상황 보고"
  USA_CIA_JAP.2.desc:0 "조선반도에 대한 총독부의 보고는 최근 분리주의자 테러 공격의 급증을 알리고 있습니다. 관할 경찰서와 군부대 주둔지들이 특히 심각한 타격을 받아, 본토의 보급품 수송 과정을 방해햇습니다. 다행히도, 모든 용의자는 구금된 상태이며, 사형을 선고받을 가능성이 높습니다.\n\n심문중에, 테러리스트들은 그들의 어떠한 후원자의 이름도 대지 않았지만, 이후 관련된 장소를 급습하자 은닉된 수많은 미국산 무기와 군수품들이 발견되었습니다. 헌병대 조선 지부는 이 문제를 더 조사할 예정입니다."
  USA_CIA_JAP.2.a:0 "조선은 일본의 것이며, 앞으로도 그럴 것이다..."
-
- USA_CIA_JAP.3.t:0 "우라지오 봉기" 
- USA_CIA_JAP.3.desc:0 "우라지오 경찰서의 보고에 따르면, 비-야마토 민족의 민족주의적 폭력의 발생 빈도가 증가하고 있음을 알리고 있습니다. 도시 내 만주인 극단주의자와 러시아 소수민족은 중앙 경찰서와 군 보급로에 대한 공격을 시행했습니다. 지난 주, 지역 헌병대 부대는 체제 전복을 목표로 하는 자들을 찾아내고 격리시키기 위해 열심히 노력해왔으며, 현재 많은 헌병대원들이 주소지를 급습하고 있습니다. 테러리스트 심문에서 유용한 정보를 얻는 많은 성과를 거두진 못했지만, 테러리스트 중 상당수가 미제 무기를 소지한채 발견되었습니다. 현재로서, 만주의 상황은 정상화되었습니다.""
+ USA_CIA_JAP.3.t:0 "우라지오 봉기"
+ USA_CIA_JAP.3.desc:0 "우라지오 경찰서의 보고에 따르면, 비-야마토 민족의 민족주의적 폭력의 발생 빈도가 증가하고 있음을 알리고 있습니다. 도시 내 만주인 극단주의자와 러시아 소수민족은 중앙 경찰서와 군 보급로에 대한 공격을 시행했습니다. 지난 주, 지역 헌병대 부대는 체제 전복을 목표로 하는 자들을 찾아내고 격리시키기 위해 열심히 노력해왔으며, 현재 많은 헌병대원들이 주소지를 급습하고 있습니다. 테러리스트 심문에서 유용한 정보를 얻는 많은 성과를 거두진 못했지만, 테러리스트 중 상당수가 미제 무기를 소지한채 발견되었습니다. 현재로서, 만주의 상황은 정상화되었습니다.\""
  USA_CIA_JAP.3.a:0 "우리는 이제 이 지역을 더 자세히 지켜볼 것이다."
-
- USA_CIA_JAP.4.t:0 "중국 내 반정부 세력의 습격" 
+ USA_CIA_JAP.4.t:0 "중국 내 반정부 세력의 습격"
  USA_CIA_JAP.4.desc:0 "긴급 - 기밀 사항\n\n수신자 : 총리대신\n\n상황: 정보원들의 긴급한 경고에 따라, 육군은 해외 헌병대 부대에 산하이, 친타오, 다이렌에 있는 것으로 의심되는 반정부 저항세력에 대한 일련의 공격을 재가하였음.\n\n결과: 사상자는 예상보다 많음. 저항 게릴라는 예상보다 더 많은 무기를 축적하고 있었음. 그럼에도 불구하고 게릴라들을 제압하는 임무는 완료됨. 세 도시에서 압수된 무기의 출처를 밝히기 위해 인근 주민들에 대한 지역 헌병대 조사가 진행중임.\n\n예상: 지역 헌병대 사령관들은 노획한 수많은 중화기에 심각한 우려를 나타냈음. 우리 정보원들의 경고 없이, 게릴라들은 최소한의 노출로도 중대한 테러 공격을 실행하여 중국 내 제국의 군사, 경제적 이익을 위태롭게 할 정도의 위치에 있는 것으로 보임. 노획된 무기들의 수준은 게릴라들이 새롭게 불법이나 밀수된 무기에 접근할 수 있는 가능성을 제시하고 있음."
  USA_CIA_JAP.4.a:0 "걱정되는군."
-
- USA_CIA_JAP.5.t:0 "Unrest in the Hawaiian Islands" 
+ USA_CIA_JAP.5.t:0 "Unrest in the Hawaiian Islands"
  USA_CIA_JAP.5.desc:0 "Jails in Honolulu have been overflowing this past week with the arrests of several anti-Japanese terrorist cells on the islands. Since the beginning of its fraternity with the home islands in 1946, integrating Hawaii into the great Japanese realm has always been a challenge, only intensified in recent years. This latest batch of attacks seems to be split into two camps, namely American nationalist and Native Hawaiian resistance. Both groups have attacked military and police installations, disrupting naval supply lines, and harassing Japanese citizens on the islands. Thankfully, they have all been apprehended and turned in for questioning. Interestingly, the American safe houses had several articles of wartime propaganda and blueprints for American rifles. The Kenpeitai will be pursuing this further."
  USA_CIA_JAP.5.a:0 "Those can never stay still, can they."
-
-# Indonesia
-
  USA_CIA_ICW.1.t:0 "미국이 보낸 선물"
  USA_CIA_ICW.1.desc:0 "The recently arrived 'advisors' from the American Central Intelligence Agency have wasted little time in getting to work, focusing their efforts on providing tactical assistance and situational awareness to our freedom fighters in the field.\n\nWhile we receive CIA assistance on the battlefield, we can expect our fighters to be better prepared to defend against the Indonesian army's attacks and to be better organized on the offensive. To a limited extent, we are also intercepting communications from the Indonesian armed forces, courtesy of military ciphers broken by the Americans.\n\nThese benefits will not last forever - the Indonesian regime is sure to adopt new military secrecy codes and improve their own operational security against American espionage. But for now, we need any advantage we can get."
  USA_CIA_ICW.1.a:0 "!"
-
  USA_CIA_ICW.2.t:0 "방해된 지휘체계"
  USA_CIA_ICW.2.desc:0 "Orders being lost between Jakarta and the frontline. Entire units, rooted in place when they should have been redeployed. Networks of informants, in place for decades, suddenly going dark. A sharp increase in combat deaths of our junior officers, leaving the men without leadership at this most critical time.\n\nSome of this was expected, of course; Hatta's men have clearly been planning their rebellion for a long while, long enough to escape substantial detection - and long enough to prepare to disrupt our activities. But the scope of the interference hKas far exceeded what we thought reasonably achievable for a group of limited resources. Far from being isolated to the areas of strongest known rebel sympathies, the disruptions are occurring even in our most stalwart centers of support.\n\nEven without concrete proof, the culprit is abundantly clear - the United States and their Central Intelligence Agency, operating out of Australia and in the myriad islands of the Indonesian archipelago, must be aiding Hatta's rebels and sapping our ability to fight back. And they have done their work, for it will take months to recover what has been lost."
  USA_CIA_ICW.2.a:0 "젠장할 미국 놈들!"
-
  USA_CIA_ICW.3.t:0 "후방 보급선이 사보타주받다"
  USA_CIA_ICW.3.desc:0 "The reports continue to pile in - twisted railway tracks, detonated bridges, and roads blocked by jungle foliage. Even as our men on the lines need as much ammunition and supplies as we can send them from Jakarta, the infrastructure needed to transport critical goods continues to be sabotaged at an alarming rate.\n\nWhile we expected some degree of partisan activity and sabotage, the ability of Hatta's rebels to penetrate deep into our interior and the breadth of their attacks almost certainly indicates outside help. Whether it be by forward observers or by clandestine airstrikes, the Americans and their intelligence operatives are clearly trying to tip the scales of the war in the rebels' favor.\n\nSadly, given our stretched resources and the pressing need to prevent a wider intervention in our war, we have limited options to retaliate directly against the Americans. We will simply have to rebuild what was destroyed, and hope that it won't be destroyed again."
  USA_CIA_ICW.3.a:0 "제발, 미국인들 좀 우리 전쟁에서 꺼지라고 할 수 없나?!"
-
-# Malaya
  USA_CIA_MLY.1.t:0 "Giving Razak a Boost"
  USA_CIA_MLY.1.desc:0 "Central Intelligence Agency operatives have recently begun the hard work of increasing the powerbase of Abdul Razak, leader of the faction in the Malaysian government most favorable to our Organization of Free Nations. In safehouses, residences, and offices throughout Malaya, lists of people to approach are being determined. Functionaries are figuring out who and who not to try and get hold of.\n\nThe UMAJF in its original form certainly skewed communist; this is what made it so attractive to the L-NPP and other such Marxist-Bukharinist factions. But Chin Peng, having fought himself to exhaustion against the Japanese in the Civil War, is no longer in a fit state to direct what does and does not happen in the coalition. As a result, the coalition is no longer bound by a united purpose. Therefore it is only a matter of time before it splinters into its constituent fragments, and those fragments begin to fight over who will take the wheel from Mr. Chin.\n\nPlans have been set to make this play out in a way that benefits the OFN. We will inflame the ideological differences and uncertainty every chance we can get. Then, when the Malay politicians are fully engaged in cringe-inducing slap-fights, and the people are all bemused, confused, or at a loss, we will help them understand that Mr. Razak is the only reasonable candidate for the next leader of Malaysia. A post-revolutionary government needs a steady hand to keep it from collapsing, and Mr. Razak, being relatively level-minded and agreeable, will be perfectly placed to provide that."
  USA_CIA_MLY.1.a:0 "It is for their own good, really."
-
  USA_CIA_MLY.2.t:0 "Making the Decision Easier"
- USA_CIA_MLY.2.desc:0 "The Malayan people were not enthusiastic to waste their time listening to campaigns and fill out ballots. They barely understood what all the squabbling was in aid of, and wanted it to stop once and for all. Ismail bin Hussein, mayor of the city of Jelutong in Penang, knew that all too well. It was the reason why in Penang, as in every other region of Malaya, the electorate had been shrunk down to not more than a hundred people. The decision of who would lead the first postwar government went to representatives of each city, town, and district, rather than bothering with a full-on election.\n\nThis was also the reason why another obnoxious campaign letter from another candidate was sitting on Ismail's desk. This time it seemed to be from that one moderate character, Razak Hassan bin Tunku Dato' Abdul or whatever his name was. As usual, it was the same old political boilerplate: "vote for moderation and compromise", "vote for a sane hand at the tiller", "vote for a good future for the bumiputera", "influence your like-minded allies". Blah, blah, blah! What nonsense. Everyone knew how the boilerplate went by now. Ismail was about to throw the letter away when he noticed how unusually heavy it was. Then he saw a fairly thick envelope attached to the bottom of it.\n\nIn the envelope - much to Muhammad's glee - there was a large quantity of cash marked "donation". American cash. With the yen being removed from the Malayan economy faster than one could say "yang amat berhormat", large amounts of solid, reliable US dollars were a very big incentive for anyone in their right mind to support... What was his name again?\n...Oh, yes, Tun Abdul Razak bin Dato' Hussein.\n\nThe next day, Mayor Ismail bin Hussein of Jelutong publicly declared his endorsement for Tun Abdul Razak, and even started referring to himself in public as "a Tun man"."
+ USA_CIA_MLY.2.desc:0 "The Malayan people were not enthusiastic to waste their time listening to campaigns and fill out ballots. They barely understood what all the squabbling was in aid of, and wanted it to stop once and for all. Ismail bin Hussein, mayor of the city of Jelutong in Penang, knew that all too well. It was the reason why in Penang, as in every other region of Malaya, the electorate had been shrunk down to not more than a hundred people. The decision of who would lead the first postwar government went to representatives of each city, town, and district, rather than bothering with a full-on election.\n\nThis was also the reason why another obnoxious campaign letter from another candidate was sitting on Ismail's desk. This time it seemed to be from that one moderate character, Razak Hassan bin Tunku Dato' Abdul or whatever his name was. As usual, it was the same old political boilerplate: \"vote for moderation and compromise\", \"vote for a sane hand at the tiller\", \"vote for a good future for the bumiputera\", \"influence your like-minded allies\". Blah, blah, blah! What nonsense. Everyone knew how the boilerplate went by now. Ismail was about to throw the letter away when he noticed how unusually heavy it was. Then he saw a fairly thick envelope attached to the bottom of it.\n\nIn the envelope - much to Muhammad's glee - there was a large quantity of cash marked \"donation\". American cash. With the yen being removed from the Malayan economy faster than one could say \"yang amat berhormat\", large amounts of solid, reliable US dollars were a very big incentive for anyone in their right mind to support... What was his name again?\n...Oh, yes, Tun Abdul Razak bin Dato' Hussein.\n\nThe next day, Mayor Ismail bin Hussein of Jelutong publicly declared his endorsement for Tun Abdul Razak, and even started referring to himself in public as \"a Tun man\"."
  USA_CIA_MLY.2.a:0 "The drug called payola is quite effective."
-
  USA_CIA_MLY.3.t:0 "A Meeting of Leaders"
- USA_CIA_MLY.3.desc:0 "Ahmad Boestamam was disappointed. He was disappointed that Malaya had refused to put his trust in him after the departure of Chin Peng and that people had become disillusioned with him and Chin's style of leadership. It also cut him to the quick that only the most loyal, ideologically stubborn members of the old guard of the UMAJF had remained with him, while all the moderate and conservative-come-latelys had gone over to Abdul Razak Hussein.\n\nHe said all that to Razak, whose response was simple and surprisingly sympathetic.\n"I can understand that, Ahmad. Had I been in your shoes I'm fairly sure I'd have the same attitude. Is there anything that you want me to keep in mind?"\n\nAhmad nodded. "I do. Now let's be very clear here, Razak. I don't hate you, and I'm not particularly angry. I know that you and I share one all-important goal, despite our differences. You, I, Malayans all, we want the pain to go away. We want the Japanese legacy scrubbed out. We want the trauma and pain to follow them into the sunset. In that you've got my good wishes and whatever support I can give without selling out my own beliefs and objectives."\n\nRazak indicated his agreement as Ahmad continued.\n\n"But there's one thing I'm deeply concerned about, Razak. I've heard strange rumors about the Americans intervening on your behalf in the election; Allah alone knows the reason. I don't hold this against you, far from it; you and I both know how hard it is to understand the logic of those Yankees. But I have to ask one thing of you. Please, Razak, don't trade one puppetmaster for another. Keep Malaysia free. Don't let the Americans do to us what the Japanese scum did."\n\nRazak nodded. "I'll keep that in mind, Ahmad. Thank you for everything.""
+ USA_CIA_MLY.3.desc:0 "Ahmad Boestamam was disappointed. He was disappointed that Malaya had refused to put his trust in him after the departure of Chin Peng and that people had become disillusioned with him and Chin's style of leadership. It also cut him to the quick that only the most loyal, ideologically stubborn members of the old guard of the UMAJF had remained with him, while all the moderate and conservative-come-latelys had gone over to Abdul Razak Hussein.\n\nHe said all that to Razak, whose response was simple and surprisingly sympathetic.\n\"I can understand that, Ahmad. Had I been in your shoes I'm fairly sure I'd have the same attitude. Is there anything that you want me to keep in mind?\"\n\nAhmad nodded. \"I do. Now let's be very clear here, Razak. I don't hate you, and I'm not particularly angry. I know that you and I share one all-important goal, despite our differences. You, I, Malayans all, we want the pain to go away. We want the Japanese legacy scrubbed out. We want the trauma and pain to follow them into the sunset. In that you've got my good wishes and whatever support I can give without selling out my own beliefs and objectives.\"\n\nRazak indicated his agreement as Ahmad continued.\n\n\"But there's one thing I'm deeply concerned about, Razak. I've heard strange rumors about the Americans intervening on your behalf in the election; Allah alone knows the reason. I don't hold this against you, far from it; you and I both know how hard it is to understand the logic of those Yankees. But I have to ask one thing of you. Please, Razak, don't trade one puppetmaster for another. Keep Malaysia free. Don't let the Americans do to us what the Japanese scum did.\"\n\nRazak nodded. \"I'll keep that in mind, Ahmad. Thank you for everything.\""
  USA_CIA_MLY.3.a:0 "With that, the two parted as friends."
-
  USA_CIA_MLY.4.t:0 "One Generation Meets Another"
- USA_CIA_MLY.4.desc:0 "In the darkness of a shore somewhere in the south of the Philippine archipelago, the comparative peace of the tropical ecosystem was disrupted by the presence of a fairly large vessel landing on the beach. On it there was a CIA agent, Tony Poe by name, with a small escort of various regular infantrymen picked for their silence and discretion, joined by a young officer from the airborne troops named Roger Donlon, who was carrying a sniper rifle for the time being.\n\nPoe, Donlon, and company were looking with suspicion at a lantern shining from the darkness. Poe was doubtful. "This can't be the guy we're looking for. Looks like some random idiot wandering, or worse yet some kind of informant. "The sergeant of the infantrymen nodded his agreement. "We can open fire, Agent Poe, if you give the order."\n\nPoe nodded. As he was about to give the order, Donlon put a hand on his shoulder to stop him. "No, don't do that, Agent Poe. Look through the binoculars. You'll see it's one of ours - the USFIPs to be exact."\n\nPoe nodded and looked through and was shocked at what he saw. A worn but unbroken face, with eyes still bright, attached to a man in well-maintained but very clearly old-model uniform from the Second World War. "You're right, Donlon, it's one of ours. At ease, soldiers. We've met friends."\n\nAs the troopers lowered their arms, Donlon and Poe cautiously walked to the man holding the lantern. The man seemed to be repressing strong emotion at the sight of the Americans. When they reached him and shook hands, the man, who ID'd himself as Colonel Russell W. Volckmann, a close collaborator of Colonel Fertig, said, with admirable steadiness, "On behalf of the Colonel, welcome to the Philippines, gentlemen.""
+ USA_CIA_MLY.4.desc:0 "In the darkness of a shore somewhere in the south of the Philippine archipelago, the comparative peace of the tropical ecosystem was disrupted by the presence of a fairly large vessel landing on the beach. On it there was a CIA agent, Tony Poe by name, with a small escort of various regular infantrymen picked for their silence and discretion, joined by a young officer from the airborne troops named Roger Donlon, who was carrying a sniper rifle for the time being.\n\nPoe, Donlon, and company were looking with suspicion at a lantern shining from the darkness. Poe was doubtful. \"This can't be the guy we're looking for. Looks like some random idiot wandering, or worse yet some kind of informant. \"The sergeant of the infantrymen nodded his agreement. \"We can open fire, Agent Poe, if you give the order.\"\n\nPoe nodded. As he was about to give the order, Donlon put a hand on his shoulder to stop him. \"No, don't do that, Agent Poe. Look through the binoculars. You'll see it's one of ours - the USFIPs to be exact.\"\n\nPoe nodded and looked through and was shocked at what he saw. A worn but unbroken face, with eyes still bright, attached to a man in well-maintained but very clearly old-model uniform from the Second World War. \"You're right, Donlon, it's one of ours. At ease, soldiers. We've met friends.\"\n\nAs the troopers lowered their arms, Donlon and Poe cautiously walked to the man holding the lantern. The man seemed to be repressing strong emotion at the sight of the Americans. When they reached him and shook hands, the man, who ID'd himself as Colonel Russell W. Volckmann, a close collaborator of Colonel Fertig, said, with admirable steadiness, \"On behalf of the Colonel, welcome to the Philippines, gentlemen.\""
  USA_CIA_MLY.4.a:0 "At that point, Colonel Volckmann broke down in tears."
-
  USA_CIA_MLY.5.t:0 "A Chat Between Fishermen"
- USA_CIA_MLY.5.desc:0 "In a busy fishing market in the city of Bengkulu, a pair of fishermen were having a chat. To everyone else, it seemed like they were talking partitioning out the day's haul.\n\n"So this amount of fish over there, eh?"\n\n"Yes, those fish there, and perhaps some others in another place, and maybe the leftovers in that house over there."\n\nThis was nothing abnormal to the people of Bengkulu; fishermen on joint ventures split their takings all the time. Sometimes they got into cringe-inducing slap fights over the matter that attracted eclectic crowds of amused onlookers ranging from the imam and the muezzin to the harbormaster and the librarian. The local policemen had to be shaken awake and often showed up thirty seconds after everything had calmed down.\n\nNo wonder, then, that nobody wised up to what was actually being discussed. In fact, this "chat" was a preplanned secret communication between a CIA agent and a contact operating on behalf of the Indonesian resistance. If one looked really closely, they would be able to tell that the two were rather suspicious of each other's intentions.\n\n"Yeah, it's a deal."\n\nFortunately for the free world, though, that suspicion didn't stand in the way of the deal."
+ USA_CIA_MLY.5.desc:0 "In a busy fishing market in the city of Bengkulu, a pair of fishermen were having a chat. To everyone else, it seemed like they were talking partitioning out the day's haul.\n\n\"So this amount of fish over there, eh?\"\n\n\"Yes, those fish there, and perhaps some others in another place, and maybe the leftovers in that house over there.\"\n\nThis was nothing abnormal to the people of Bengkulu; fishermen on joint ventures split their takings all the time. Sometimes they got into cringe-inducing slap fights over the matter that attracted eclectic crowds of amused onlookers ranging from the imam and the muezzin to the harbormaster and the librarian. The local policemen had to be shaken awake and often showed up thirty seconds after everything had calmed down.\n\nNo wonder, then, that nobody wised up to what was actually being discussed. In fact, this \"chat\" was a preplanned secret communication between a CIA agent and a contact operating on behalf of the Indonesian resistance. If one looked really closely, they would be able to tell that the two were rather suspicious of each other's intentions.\n\n\"Yeah, it's a deal.\"\n\nFortunately for the free world, though, that suspicion didn't stand in the way of the deal."
  USA_CIA_MLY.5.a:0 "We'll send the fish where you want them, pronto."
  TNO_CIA_Supply_Lines_tt:0 "The CIA will help §YTun Abdul Razak's election chances§!."
-
  USA_CIA_MLY.6.t:0 "INCOMING TELEGRAM Department of State"
  USA_CIA_MLY.6.desc:0 "FROM: AMEMBASSY SINGAPORE\nTO: D/CIA, SECSTATE\n\nEYES ONLY D/CIA, SECSTATE\n\nIN THE AFTERMATH OF THE VICTORY OF THE UMAJF, THE STRATEGIC UTILITY OF MALAYA CANNOT BE UNDERESTIMATED, AND THE CIA AND STATE DEPARTMENT HAVE THEREFORE ATTEMPTED TO LEVERAGE THAT. RECENTLY, MAKING USE OF OUR CONTACTS WITH POLITICIANS AND MEMBERS OF THE RULING PARTY OF MALAYA, OUR AGENTS HAVE MANAGED TO TIE TOGETHER THE LAST STRINGS OF OPERATION DOMINO. THE AIM OF THIS OPERATION IS TO USE MALAYA AS A STEPPING STONE TO TEAR THE WHOLE OF SOUTHEAST ASIA SPHERE OUT OF THE CONTROL OUT OF THE CO-PROSPERITY SPHERE. WE HAVE IDENTIFIED MULTIPLE AREAS, IN PARTICULAR THE RECENTLY INCREASINGLY UNSTABLE INDONESIAN STATE, WHICH WE CAN TARGET IN SERVICE OF THIS GOAL.\n\nDUE TO THE ENTHUSIASM OF THE MALAYAN SUPPORT FOR OUR WORK, AND ALSO BECAUSE OF THE GREAT EFFORT OUR AGENTS AND THEIR CONTACTS HAVE PUT IN, I AM PLEASED TO STATE THAT OPERATION DOMINO IS READY TO BE EXECUTED. I AWAIT D/CIA AND SECSTATE'S ORDERS TO PROCEED WITH THIS PLAN.\n\nBELL"
  USA_CIA_MLY.6.a:0 "I think we can proceed then."
-
-
-###################
-### IDEAS
-###################
-
  USA_ICW_CIA_fri_buff:0 "CIA 작전 지원"
  USA_ICW_CIA_ins_debuff:0 "외국의 사보타주"
-
-# Russia
  RUS_Unification_WSR_Intel:0 "적 정보"
  RUS_Unification_WSB_Intel:0 "적 정보"
  RUS_Unification_CSB_Intel:0 "적 정보"
@@ -970,143 +683,103 @@ USA_CIA_analize_intelligence:0 "정보 분석"
  RUS_Unification_SIB_Intel:0 "적 정보"
  RUS_Unification_Sabotage_Victim:0 "사보타주된 보급선"
  RUS_Unification_Troops_Drilled:0 "Troops Drilled"
-
-
-
-################
-### MISSIONS ###
-################
-
  USA_CIA_UK.1.t:0 "작전명 스테이츠룸: 보고 A2D4Y6"
  USA_CIA_UK.1.desc: "장기간의 내전에서 독일 협력자들을 물리친 후, 여왕폐하의 가장 충성스러운 저항군(HMMLR)은 잉글랜드에 민주주의를 재건했으며, 최초의 자유 공개 선거에서 사회노동당(SLP)이 가장 많은 의석을 차지했고, 이제 유일한 여당이 되었음. 명목상의 공산당이었던 SLP는 스페인 내전 참전 용사 빌 알렉산더가 지하 조직 시기 동안 이끌었지만, 그 후 정계에서 은퇴했음. 현재 당 지도자는 SLP의 개혁파 대표인 해럴드 윌슨임. '피닉스'와의 접촉에 따르면 윌슨은 SLP의 내부 정치에서 레지널드 버치와 경쟁 관계에 있으며, 당내 볼셰비키 계파를 대변하고 있음.\n\n윌슨이 버치의 세력을 부정하고 당을 사회 민주주의와 좌파 사회주의를 하나로 변화시키기 위해 지칠 줄 모르고 일하는 동안, 우리 요원들은 SLP 통합의 불안정한 성격을 지적했음.\n\n윌슨과 버치 모두 자유국가기구와 미국과의 동맹에 대해 긍정적인 감정을 드러냈지만, 버치가 윌슨을 이길 경우 후임자 중 한 명이 급진적인 반미 입장을 취할 가능성이 존재함. 요원들이 성공하길 바란다면, 이 새로운 잉글랜드에서 작전을 유지하는 것이 무엇보다 중요함."
- USA_CIA_UK.1.a:0 "우리는 좌익 영국과 협력할 수 있다." 
-
+ USA_CIA_UK.1.a:0 "우리는 좌익 영국과 협력할 수 있다."
  USA_CIA_UK.2.t:0 "작전명 스테이츠룸: 보고 A2D4Y7"
  USA_CIA_UK.2.desc:0 "최근 선거에 이어 전국민주연맹의 조지 젤리코가 총리로 임명되었고, 영국이 우리의 국제 안보 이익에 부합하도록 확고히 했음.\n\nHMMLR의 승리에 따라 클로드 오친렉이 창당한 이 정당의 주된 목적은 엘리자베스 2세를 복위시키고, 더 나아가 전쟁 이전의 영국 사회를 복원하길 원하고 있음. 이 정당의 핵심은 젤리코와 민주당원들로, 영국의 OFN 기반에 완전히 통합되는 것을 지지하는 엣 귀족계급과 유대를 맺고 있는 온건계열임. 그는 당의 서로 다른 두 진영을 쥐고 있는 핵심인물임.\n\n이 정당의 제2진영은 노먼 세인트 존 스테바스의 신휘그계열임. 그는 특히 여성과 동성애자에 대한 보다 심층적인 사회 개혁과 기업 중심의 경제를 지지하고 있음. 그는 영국군의 규모를 축소하길 원하며, 명목상으로는 친-OFN이지만 영국이 그 안에서 적은 역할을 맡기길 원하고 있음. 이와 반대로 이넉 파월의 애국자계열과 반대됨. 파월은 OFN 가입의 필요성을 인정하지만, 외교 문제에서 영국의 독립을 유지하기를 원하고 있음. 그의 당은 또한 사회 문제에 대한 매우 강한 반동적인 노선을 지지하고 있었기 때문에, 우리 기관에서는 그가 HMMLR에 가입했다는 것에 놀람. 이 두 진영의 사이의 적대감은 어느 민주당원과의 차이 중에서도 가장 큼. 그래서 젤리코는 그의 온건한 입장을 이용하여 당 통합을 강화할 수 있음.\n\n이것은 미국이 유럽에서 얻을 수 있는 큰 성공임이 분명함. 젤리코가 당과 국가를 책임지고 있는 한, 영국군 및 안보 전반에서 OFN의 우세가 보장될 것임. 기관은 보수당과의 힘의 균형을 유지하는 한편, 공공연하고 은밀하게 NDL에 대한 지속적인 지원이 권고됨."
  USA_CIA_UK.2.a:0 "그의 승리가 우리의 승리다."
-
  USA_CIA_UK.3.t:0 "작전명 스테이츠룸: 보고 A2D4Y8"
  USA_CIA_UK.3.desc:0 "영국의 상황이 긍정적으로 변했음. HMMLR이 패배했지만, 이 전 협력주의 정부는 OFN과 제휴하기 위해 독일과 관계를 끊었음. 원래 협력주의자였으며, 영국 근왕당 분파주의자 중 하나인, 잉글랜드 통합당의 모들링 정부가 권력을 잡고 OFN 가입을 추진하고 있음.\n\n레지널드 모들링이 명목상의 총리이지만, 분석가들은 실질적인 권력은 과거 근왕당의 개혁 지지자였던 해럴드 맥밀런이 쥐고 있다고 보고됨. 그의 숨겨진 지도력은 영국의 국제적 위치를 확인하는 것을 어렵게 만들고 있음. 전쟁 전에는 민주화 성향으로 알려졌지만, 전쟁 중에는 왜 HMMLR에 대항했는지는 아직 불분명함. 하지만, 우리 분석가들은 그가 여전히 영국의 민주 개혁 강화를 지지한다고 생각하고 있으며, 나아가 진보성향의 셀윈 로이드 장관이 이끄는 친 OFN 세력이 맥밀런의 호감을 얻었다고 의견을 모으고 있음. 이들이 새로운 국제적 지지의 원동력일 될 것으로 생각됨.\n\n군국주의자인 앤서니 커쇼의 내각 내 입장으로 볼 때, 영국을 동맹국으로 받아들이는데 수반되는 안보 위험에 대한 우려가 제기됨. 커쇼는 OFN의 이익에 공개적으로 적대적이지 않다고 여겨지지만 충성심에 위험요소가 있는 것으로 확인되었음. 그는 잉글랜드가 복종적인 입장을 취하도록 강요받는 것을 제외하고 팍트에 남아 있는 것에 대해 본질적으로 반대하지 않고 있는 것이, 개혁주의 성향의 라이히 밑에서는 그렇지 않을 수도 있음. 그와 지지기반은 대처의 근왕당과 체스터턴의 국가전선에 맞서 싸우는 것을 OFN을 탈퇴하는 것보다 우선시하는 것처럼 보이지만, 그는 영구적인 미국의 동맹이 될 것이라고 믿을 수는 없음. 궁극적으로 커쇼는 무엇보다 맥밀런에 충성하며, 우리는 맥밀런의 전망을 확실히 알 수 없음.\n\n분석가들은 OFN에서 영국을 받아들일 것을 권고하지만, 또한 주의를 촉구하고 있음. 맥밀런의 정부는 우리의 이익을 위해 일할 수 있지만, 맥밀런의 정당 충성도는 보장할 수 없음. 영국의 정치적 발전에 대한 면밀한 감시가 필요할 것이며, 특히 모들링이 맥멀런에게서 당의 지배권을 빼앗을 경우, 영국은 계속 OFN에 소중한 자산으로 입증될 것으로 생각됨."
  USA_CIA_UK.3.a:0 "영국은 덤불 속의 새지만, 이제 우리 손 안에 있을지도 모른다."
-
  USA_CIA_UK.4.t:0 "작전명 스테이츠룸: 보고 A2D4Y9"
  USA_CIA_UK.4.desc:0 "내전에서 협력정부의 승리는 영국의 국제적 위치를 명확히 하지 않았습니다. 알렉 더글러스 흄이 사임한 후 새로운 지도부가 들어섰지만, 근왕당이 여전히 정권을 잡고 있음. 마가렛 대처는 총리가 되었고, OFN의 회원 자격을 찾길 원하고 있음.\n\n대처는 알려지지 않은 변수가 될 것으로 예상됨. 우리는 그녀가 랍 버틀러처럼 당의 늙은 호위병의 꼭두각시인지, 아니면 그녀가 진정으로 나라를 지배하고 있는지 확실히 확인할 수 없음. 그녀는 세계 무대에서 영국의 힘을 키우는 것을 지지하는 것처럼 보이지만, 정치 및 경제 개혁에 대한 그녀의 입장은 불확실함. 게다가, 그녀는 영국 군사력 강화에 초점을 맞추고 있음. 친-OFN 성향인 것 처럼 보이지만, 우리의 이익을 위한 그녀의 개인적 지원에 대해 확신을 가질 수 없음. 우리는 키스 조셉과 같은 반미 세력 지도자들이 그녀의 권위를 찬탈하지 않을 것이라고 장담할 수 없으며, 앞으로도 그녀가 미국의 동맹으로 남을 것이라고 보장할 수 없음.\n\n영국에서의 CIA 작전을 대처가 구속력 있는 조약을 통해 공식적으로 OFN에 가입하기 전까지는 시작되어서는 안 된다는 것이 우리 분석가들의 공통된 의견으로 모으고 있음. 기관도 또한 미래의 친구를 방해하거나 미래의 적을 돕기를 바라지 않을 것이며, 대처의 정치적 충성이 법으로 제정되기 전까지는 그녀의 정권을 은밀히 지원하거나 공격하는 것은 바람직하지 않게 보고 있음. 기관은 그때까지 국무부가 영국과의 모든 상호작용을 처리할 것을 권장하고 있음."
  USA_CIA_UK.4.a:0 "철의 여인이 우리를 등질 것인가?"
-
  USA_CIA_UK.10.t:0 "작전명 루퍼트"
  USA_CIA_UK.10.desc:0 "밥캣이 이글즈 네스트에게\n\n전후 회의 중에 *검열됨* 장군과 접촉하여 유죄를 입증하는 사진을 보여줌. 대상에게 위협의 형태로 해당 타협 자료를 공개하는 것으로 압박을 가했음. *검열됨*은 영국 민간 정부와 군사적 목표를 일치시키기 위해 모든 노력을 다할 것이라고 밝혔음. 지금까지 *검열됨*과 직접적인 책임이 있는 장교들은 이 약속을 지킬 것으로 보이며, 재건 노력에 군사적인 지원을 제공했음. 민간 관료들과 군사 연락 장교들 사이의 내분이 눈에 띄게 줄어듦. 정부가 제안한 획기적인 계획에 인력을 할당하였음. 기반시설 계획이 만족스럽게 진행되고 있음. 지금으로선 군사 문서의 기밀 해제는 발생되지 않음. 이 상태가 한 달 이내에 바뀌지 않는 경우, *검열됨* 장군과 다시 만날 예정임.\n\n작전에 대한 전반적인 평가: 성공적."
  USA_CIA_UK.10.a:0 "이글즈 네스트가 밥캣에게: 브라보!"
-
  USA_CIA_UK.11.t:0 "Strange Bedfellows"
  USA_CIA_UK.11.desc:0 "Wilbur Lowry had barely touched his dessert. The bespectacled, prematurely-balding young clerk had never thought peace would be as nerve-wracking as war, yet here he was: planted in a chair in a vast dining hall, gripping the arms with white knuckles, waiting for the false smiles to drop and the guns to come out. But they never did. As strange as it was... everyone was enjoying themselves.\n\nMilitary officers toasted members of parliament, Colonels twirled the wives of their civilian counterparts on the dance floor, and a Lieutenant had even shared a duck leg with Lowry ten minutes ago. Portraits of concord if ever there were.\n\nLowry looked down the length of the table to a certain well-known General in deep discussion with an MP. Here was the only inkling that something was off: the General's smile was a little too stiff, a little too forced. Lowry squeezed the arms of his chair and cast about the room. He spotted the Gentleman -- a well-dressed chap sporting horn-rim glasses -- standing in a corner, watching the General hawkishly. Lowry was perhaps the only one who'd seen this Gent slip the General a scrap of paper a month ago at a conference following the war. It had been a chance sighting; he'd just happened to look over and see the strange Gent slide the note to the General under the table. And now, the General was laughing with a civilian MP.\n\nLowry wasn't about to say anything, though. If he did he'd be reshuffled out of his cozy office job into oblivion. No guv, he'd worked hard to maintain his position and he'd be damned if he lost it to some under-the-table paper shuffling. And anyway, the spotted dick was really rather excellent..."
  USA_CIA_UK.11.a:0 "Never rock the boat."
-
  USA_CIA_UK.12.t:0 "작전명 페어펙스"
  USA_CIA_UK.12.desc:0 "밥캣이 이글즈 네스트에게\n\n영국 정부에 대한 항쟁을 위해 *검열됨* 장군을 선동하려는 초기 시도는 실패하였음. *검열됨*은 어떠한 종류의 압력에도 굴하지 않을 것으로 보임. 따라서, 스탠디시 대령에게 접근하여 국민적 자부심을 호소하도록 하였음. 스탠디시는 현재 진행 중인 재건 노력을 신뢰하진 않지만, 정부 전복이라는 개념에 대해 상반된 생각을 갖고 있다고 알려져 있음. 스탠디시에게 정부를 혼란스럽게 하고, 궁극적으로 전복하는 데 전폭적인 지원을 할 것임을 분명히 했음. 스탠디시는 이 말을 듣자마자 동의함.\n\n바로 다음 주에, 스탠디시처럼 동조하는 경찰관 몇 명을 섭외함. 우리의 지원이 구체적이고 물자가 다양하다면 모두가 기꺼이 동참할 것으로 추측됨. 따라서 다음 달 *검열됨*일에 리버풀로 배송될 *검열됨* 형식의 프로토타입을 본부에 요청하는 바임. 이해 당사자들 또한 참여할 것임.\n\n요약: 영국 정부에 대한 전복 시도를 위해, 방해 공작이 지속저으로 이루어질 것임. 계속 보고하겠음."
  USA_CIA_UK.12.a:0 "이글즈 네스트가 밥켓에게: 잘했음."
-
  USA_CIA_UK.13.t:0 "Request Denied"
- USA_CIA_UK.13.desc:0 "No sensible man ought to be in a hurry to see a dentist, but having a tooth pulled was both more productive and satisfying than the meeting with Colonel Standish. Lowry looked at the clock, hoping the Colonel would hurry up and finish reading the file. The clerk had a three-o-clock appointment; it was already quarter-to. The Lieutenant seated beside the Colonel on the other side of Lowry's desk kept looking anxiously between Lowry and his commanding officer. Strange... Lowry had never met this young man before. He looked to be Lowry's own age. Standish closed the file and threw it down on Lowry's desk. "No," he said. Lowry frowned. "Colonel," said the clerk, "this project would be a minimal strain on your manpower and provide clean water to a thousand--" "No."\n\nThe Lieutenant looked shocked at his CO's answer. "Sir," he said, "surely we can--" "It is incumbent upon bureaucrats like these--" Standish nodded to Lowry, "to go swimming in the muck and make sure the sewers work. I won't have our men sullied by a job like that." The Lieutenant scoffed and turned to Lowry. "I'll organize something," he said, "get some boys together." "You'll do no such thing, Davis," Standish said, rising from his chair. "If I hear you attempting anything of the sort, I'll send you straight back to boot camp." Standish glared at Lowry. "Leave the shit to the flies." With that, he turned on his heel and left the room. The Lieutenant stayed behind, a troubled look on his face. "Mr. Lowry," he said, whispering quickly, "I'm sorry this meeting wasn't more productive. Standish has been behaving strangely since his meeting at the American embassy last month. I think a word with the intelligence boys is in order. Could you arrange that?" Lowry made a noncommittal noise. The Lieutenant sighed. "Thank you, sir." He jogged from the office after his CO. Lowry proceeded to pack up his files and head to the dentist, not to the intelligence office. Standish was one thing, but voluntarily speaking to MI-6? Good Lord!"
+ USA_CIA_UK.13.desc:0 "No sensible man ought to be in a hurry to see a dentist, but having a tooth pulled was both more productive and satisfying than the meeting with Colonel Standish. Lowry looked at the clock, hoping the Colonel would hurry up and finish reading the file. The clerk had a three-o-clock appointment; it was already quarter-to. The Lieutenant seated beside the Colonel on the other side of Lowry's desk kept looking anxiously between Lowry and his commanding officer. Strange... Lowry had never met this young man before. He looked to be Lowry's own age. Standish closed the file and threw it down on Lowry's desk. \"No,\" he said. Lowry frowned. \"Colonel,\" said the clerk, \"this project would be a minimal strain on your manpower and provide clean water to a thousand--\" \"No.\"\n\nThe Lieutenant looked shocked at his CO's answer. \"Sir,\" he said, \"surely we can--\" \"It is incumbent upon bureaucrats like these--\" Standish nodded to Lowry, \"to go swimming in the muck and make sure the sewers work. I won't have our men sullied by a job like that.\" The Lieutenant scoffed and turned to Lowry. \"I'll organize something,\" he said, \"get some boys together.\" \"You'll do no such thing, Davis,\" Standish said, rising from his chair. \"If I hear you attempting anything of the sort, I'll send you straight back to boot camp.\" Standish glared at Lowry. \"Leave the shit to the flies.\" With that, he turned on his heel and left the room. The Lieutenant stayed behind, a troubled look on his face. \"Mr. Lowry,\" he said, whispering quickly, \"I'm sorry this meeting wasn't more productive. Standish has been behaving strangely since his meeting at the American embassy last month. I think a word with the intelligence boys is in order. Could you arrange that?\" Lowry made a noncommittal noise. The Lieutenant sighed. \"Thank you, sir.\" He jogged from the office after his CO. Lowry proceeded to pack up his files and head to the dentist, not to the intelligence office. Standish was one thing, but voluntarily speaking to MI-6? Good Lord!"
  USA_CIA_UK.13.a:0 "An intelligent move."
-
  USA_CIA_UK.20.t:0 "작전명 트랜스포트"
  USA_CIA_UK.20.desc:0 "밥캣이 이글즈 네스트에게\n\nSLP 당원 에버렛 브룩스의 연설문을 성공적으로 확보했음. 브룩스는 같은 당원 나딘 코스터가 SLP 민주계열을 지원하여 정당의 통제권을 장악하기 위해 연설을 썼다는 것으로 완전히 믿게 되었음. 브룩스는 회의를 소집해 SLP 연설자 지위에서 코스터를 제외시키는 명분을 만들었음. 브룩스의 행동은 코스터와 지지기반인 노동조합을 배척하였고, 사회주의 노동당에 큰 분열을 초래했음.\n\n그 후 며칠 동안, 브룩스는 10개의 다른 SLP 강경파와 논쟁을 벌였음. 하지만 당의 무력감, 단결력 결여, 노조 지지 상실로부터 어떻게 회복할 것인지에 대한 직접적인 행동 방침은 정해지지 못하였음. 이에 코스터가 브룩스에 맞서 무기를 들고 반란을 선동함. 분열의 진화를 지속적으로 관찰하면서 가능하다면 내분을 유도하도록 하겠음.\n\n요약: SLP가 혼란에 빠졌고, 노조 지원이 중단됨."
  USA_CIA_UK.20.a:0 "이글즈 네스트가 밥켓에게: 경이로움!"
-
  USA_CIA_UK.21.t:0 "Left Unity"
- USA_CIA_UK.21.desc:0 "Everett Brooks held the sheaf of papers aloft as if they were the pages of a holy Gospel. The crowd thundered, jeered, and booed. He let them vent their anger. When an appropriate interval passed, he raised his free hand for silence. "I will give not one inch," he declared, "Not one inch!--to any man or woman who puts self-interest before the Marxist-Leninist principles that our comrades died for on Cable Street!" The crowd clamoured. Brooks's opponent on the stage, Nadine Coster, fumed. "Time and again I've warned that our greatest enemy is the perversion of our words, our ideals to serve the individual." He shook the pages and the crowd roared.\n\n"Everett," said Coster when the shouting died, "have you considered that the pages you hold may have been planted? I have never once turned my back on our ideals. Documents can be doctored."\n\nBrooks turned to her. "So you've said, but I've yet to see one shred of evidence that supports you." At the back of the room, a young clerk watched a throng of the Socialist Labour Party crucify one of their most loyal members. Wilbur Lowry had been asked to discreetly attend the rally and observe the proceedings. There'd been word of a big shakeup coming but he'd never imagined it would be the ousting of Nadine Coster. He imagined the look on his boss's face when he submitted his report on this event. Coster had the support of several prominent trade unions, and this excision from the body politic of the SLP would weaken the party. We'll be scratching our heads about this till next Christmas, he thought. Yet, at the back of Lowry's mind, he couldn't shake the feeling that Coster might be right in saying the documents were doctored, for in a dark corner of the room, Lowry spotted a gentleman wearing horn-rim glasses watching Coster's crucifixion with a grin..."
+ USA_CIA_UK.21.desc:0 "Everett Brooks held the sheaf of papers aloft as if they were the pages of a holy Gospel. The crowd thundered, jeered, and booed. He let them vent their anger. When an appropriate interval passed, he raised his free hand for silence. \"I will give not one inch,\" he declared, \"Not one inch!--to any man or woman who puts self-interest before the Marxist-Leninist principles that our comrades died for on Cable Street!\" The crowd clamoured. Brooks's opponent on the stage, Nadine Coster, fumed. \"Time and again I've warned that our greatest enemy is the perversion of our words, our ideals to serve the individual.\" He shook the pages and the crowd roared.\n\n\"Everett,\" said Coster when the shouting died, \"have you considered that the pages you hold may have been planted? I have never once turned my back on our ideals. Documents can be doctored.\"\n\nBrooks turned to her. \"So you've said, but I've yet to see one shred of evidence that supports you.\" At the back of the room, a young clerk watched a throng of the Socialist Labour Party crucify one of their most loyal members. Wilbur Lowry had been asked to discreetly attend the rally and observe the proceedings. There'd been word of a big shakeup coming but he'd never imagined it would be the ousting of Nadine Coster. He imagined the look on his boss's face when he submitted his report on this event. Coster had the support of several prominent trade unions, and this excision from the body politic of the SLP would weaken the party. We'll be scratching our heads about this till next Christmas, he thought. Yet, at the back of Lowry's mind, he couldn't shake the feeling that Coster might be right in saying the documents were doctored, for in a dark corner of the room, Lowry spotted a gentleman wearing horn-rim glasses watching Coster's crucifixion with a grin..."
  USA_CIA_UK.21.a:0 "For whom does this bell toll?"
-
  USA_CIA_UK.22.t:0 "작전명 펠멜"
  USA_CIA_UK.22.desc:0 "밥캣이 이글즈 네스트에게\n\n사회노동당의 나딘 코스터와 접촉했고, 지원을 늘리기 위해 이글즈 네스트가 할당한 자금을 제공하였음. 코스터가 SLP 내 민주계열 지지기반을 강화하기 위해 해당 자금을 사용할 것으로 예상했지만, 그보다 더 한 발 더 나아갔음: 코스터는 SLP 공산계열 강경파인 에버렛 브룩스에 도전했고, 공개 집회에서 그를 당에서 축출했음. 코스터의 지지도는 두 배로 상승했고, SLP의 당원들이 몰려들기 시작했음. 코스터는 현재 자금을 현명하게 사용하고 있으며, 앞으로 6개월 동안 세력을 상당 부분 확장할 것으로 예상됨.\n\n펄 작전: 캠브리지와 옥스퍼드의 지식인들에게도 찾아간 '펠멜'은 앞으로 12주 동안 발표될 사회주의 노동 내에서 민주적인 부분에 대한 다수의 학술적 저작물을 의뢰하였음. 또한 런던 관보에 SLP의 개혁에 대해 쓰도록 유도하였음. 코스터는 언론과 학계에서 지속적인 지원을 받을 것으로 예상됨.\n\n요약: 사회주의 노동당 내의 민주계열이 빠른 속도로 성장하고 있으며, 특이점이 생길 경우 추가 보고하겠음."
  USA_CIA_UK.22.a:0 "이글즈 네스트가 밥켓에게: 정말 놀라움!"
-
  USA_CIA_UK.23.t:0 "The Voices of Reform"
- USA_CIA_UK.23.desc:0 "Nadine drifted to a stop in front of the news stand. She saw herself in black-and-white on the front page, standing on a stage, delivering her speech from apodium. She smiled as she read the headline: COSTER DENOUNCES BROOKS--SLP SWINGING TO CENTRE? Nadine purchased a copy of the newspaper and tucked it into her briefcase before continuing down the street. A week ago, the newspapers wouldn't dare touch a story like that; now the SLP was inundated in ink. It wasn't just the newspapers, either; scholarly and political papers poured out of the universities, and they all said the same thing: the SLP reformation was on the right track.\n\nA half hour later she arrived at a soaring office building. Her appointment was a lowly, prematurely-balding young clerk. The placard on the desk read WILBUR LOWRY. The bespectacled man looked up as she entered. "Morning, Ms. Coster," he said. "On time as usual." "And bearing gifts," said Nadine, taking a file folder out of her briefcase and setting it before Lowry. Lowry opened the folder and scanned the pages, face as placid as a still lake. "Everything seems to be above board." He looked up at her. "You've had a good run of donations lately." That was an understatement. Nadine thought about the man she'd met: the gentleman with the horn-rim glasses who'd come to the November rally. "We have a generous benefactor," she said. "Very generous, by the looks of this," Lowry said of the folder. Was that suspicion in his eyes? Nadine wanted to move away from such talk. As free as the Gentleman had been with his money, she had the feeling it would be better if Mr. Lowry remained ignorant of him a while longer. "I have another meeting soon." Nadine reached out a hand. "Is there anything else?" Lowry placed the folder in her hand. "No, ma'am. Between you and I, my superior is much happier to deal with you than Brooks." Nadine smiled and replaced the folder. "Here's to a fruitful future for us all." She thought again of her Benefactor, and the motives he might have in spending so lavishly on the Socialist Labour Party..."
+ USA_CIA_UK.23.desc:0 "Nadine drifted to a stop in front of the news stand. She saw herself in black-and-white on the front page, standing on a stage, delivering her speech from apodium. She smiled as she read the headline: COSTER DENOUNCES BROOKS--SLP SWINGING TO CENTRE? Nadine purchased a copy of the newspaper and tucked it into her briefcase before continuing down the street. A week ago, the newspapers wouldn't dare touch a story like that; now the SLP was inundated in ink. It wasn't just the newspapers, either; scholarly and political papers poured out of the universities, and they all said the same thing: the SLP reformation was on the right track.\n\nA half hour later she arrived at a soaring office building. Her appointment was a lowly, prematurely-balding young clerk. The placard on the desk read WILBUR LOWRY. The bespectacled man looked up as she entered. \"Morning, Ms. Coster,\" he said. \"On time as usual.\" \"And bearing gifts,\" said Nadine, taking a file folder out of her briefcase and setting it before Lowry. Lowry opened the folder and scanned the pages, face as placid as a still lake. \"Everything seems to be above board.\" He looked up at her. \"You've had a good run of donations lately.\" That was an understatement. Nadine thought about the man she'd met: the gentleman with the horn-rim glasses who'd come to the November rally. \"We have a generous benefactor,\" she said. \"Very generous, by the looks of this,\" Lowry said of the folder. Was that suspicion in his eyes? Nadine wanted to move away from such talk. As free as the Gentleman had been with his money, she had the feeling it would be better if Mr. Lowry remained ignorant of him a while longer. \"I have another meeting soon.\" Nadine reached out a hand. \"Is there anything else?\" Lowry placed the folder in her hand. \"No, ma'am. Between you and I, my superior is much happier to deal with you than Brooks.\" Nadine smiled and replaced the folder. \"Here's to a fruitful future for us all.\" She thought again of her Benefactor, and the motives he might have in spending so lavishly on the Socialist Labour Party..."
  USA_CIA_UK.23.a:0 "And the money keeps coming..."
-
  USA_CIA_UK.24.t:0 "작전명 러벳"
- USA_CIA_UK.24.desc:0 "밥캣이 이글즈 네스트에게\n\n"민주주의의 길"의 출간은 예상보다 훨씬 잘 진행되었음. 보들리 헤드의 존 레인은 우리가 예상한 최고치보다 더 많은 도서 판매량을 기록함. 레인은 작가들의 싱크탱크에 있는 소년 소녀들에게 얼마나 좋은 일을 했는지 알 수 있도록, 매출이 적게는 수백만 달러에 달한다고 말하면서, 빠르게 증가하고 있다고 말합니다. 이것은 최고의 작품이며 주목할 만한 독자층을 보유했다고 파악되었음!\n\n오늘 레인과 접촉했고, 다우닝가에서 "민주주의 길"이 거의 '반 SLP 성경'으로 사용하는 데 빛을 발했다는 것을 알아내었음. 영국은 공산주의에 의존하지 않고도 노동자를 위한 민주주의를 이룩할 수 있다는 소문이 퍼져나갔음. 최근 시위에서 다음과 같은 팻말이 확인됨: '검정 잉크가 빨강보다 낫다'\n\n판매량 및 정치적 영향이 외부로 파급됨에 따라 계속 관찰할 예정. 밥캣이 작가들을 의심해서 미안하다는 말과 함께 사과의 표시로 갓 추출된 위스키 상자를 보내주기로 전함."
+ USA_CIA_UK.24.desc:0 "밥캣이 이글즈 네스트에게\n\n\"민주주의의 길\"의 출간은 예상보다 훨씬 잘 진행되었음. 보들리 헤드의 존 레인은 우리가 예상한 최고치보다 더 많은 도서 판매량을 기록함. 레인은 작가들의 싱크탱크에 있는 소년 소녀들에게 얼마나 좋은 일을 했는지 알 수 있도록, 매출이 적게는 수백만 달러에 달한다고 말하면서, 빠르게 증가하고 있다고 말합니다. 이것은 최고의 작품이며 주목할 만한 독자층을 보유했다고 파악되었음!\n\n오늘 레인과 접촉했고, 다우닝가에서 \"민주주의 길\"이 거의 '반 SLP 성경'으로 사용하는 데 빛을 발했다는 것을 알아내었음. 영국은 공산주의에 의존하지 않고도 노동자를 위한 민주주의를 이룩할 수 있다는 소문이 퍼져나갔음. 최근 시위에서 다음과 같은 팻말이 확인됨: '검정 잉크가 빨강보다 낫다'\n\n판매량 및 정치적 영향이 외부로 파급됨에 따라 계속 관찰할 예정. 밥캣이 작가들을 의심해서 미안하다는 말과 함께 사과의 표시로 갓 추출된 위스키 상자를 보내주기로 전함."
  USA_CIA_UK.24.a:0 "이글즈 네스트가 밥켓에게: 그렇게 진행하길 바람!"
-
  USA_CIA_UK.25.t:0 "Echoes of the Past"
- USA_CIA_UK.25.desc:0 "Hooker breezed into John Lane's office as if no time had passed at all and sat across the desk. Lane, the founder of The Bodley Head publishing house, looked up from his work. Hooker, charming in his horn-rimmed glasses and freshly-laundered suit, flashed his teeth. Lane shook his head. "Good Heavens, chap," he said," have you been under a rock the last few months? Do you know what's been happening with 'The Path to Democracy'?"\n\nHooker chuckled. "Heard there was a bit of buzz for my book..."\n\n"A bit of..." Lane laughed, "George, you've become something of a hero. Downing Street's waving your book in the face of the military and bashing the SLP over the rump with it. Many are even calling it the antidote to British socialism. I've been trying to arrange a book tour for you."\n\n"Can't do it, old boy," Hooker interrupted. "Only popped in to hear how the book was doing."\n\nLane's eyes widened. "But... you're sure about that? You'd be a hit."\n\nHooker shook his head. "Let the book stand for itself. I assure you, no one would be very much interested in the likes of me. But come on, tell me more about what people are saying of my work..."\n\nLater, after Hooker had left, John Lane would reflect on just how little he knew about George Hooker, and how curious it was that the writer had submitted his original manuscript on Chartism just as socialism was gaining broad public appeal in England..."
+ USA_CIA_UK.25.desc:0 "Hooker breezed into John Lane's office as if no time had passed at all and sat across the desk. Lane, the founder of The Bodley Head publishing house, looked up from his work. Hooker, charming in his horn-rimmed glasses and freshly-laundered suit, flashed his teeth. Lane shook his head. \"Good Heavens, chap,\" he said,\" have you been under a rock the last few months? Do you know what's been happening with 'The Path to Democracy'?\"\n\nHooker chuckled. \"Heard there was a bit of buzz for my book...\"\n\n\"A bit of...\" Lane laughed, \"George, you've become something of a hero. Downing Street's waving your book in the face of the military and bashing the SLP over the rump with it. Many are even calling it the antidote to British socialism. I've been trying to arrange a book tour for you.\"\n\n\"Can't do it, old boy,\" Hooker interrupted. \"Only popped in to hear how the book was doing.\"\n\nLane's eyes widened. \"But... you're sure about that? You'd be a hit.\"\n\nHooker shook his head. \"Let the book stand for itself. I assure you, no one would be very much interested in the likes of me. But come on, tell me more about what people are saying of my work...\"\n\nLater, after Hooker had left, John Lane would reflect on just how little he knew about George Hooker, and how curious it was that the writer had submitted his original manuscript on Chartism just as socialism was gaining broad public appeal in England..."
  USA_CIA_UK.25.a:0 "Black ink is better than red."
-
  USA_CIA_UK.30.t:0 "작전명 행키"
  USA_CIA_UK.30.desc:0 "밥캣이 이글즈 네스트에게\n\n세인트 존 스테바스의 NDL 휘그계열과 정반대인 영국 대중의 여러 부류와 성공적으로 접촉했음. 작전 지시에 따라 여러 자산을 외무부 행정 조직에 배치했음.\n\n자산은 휘그계열에 대한 지원을 약화시키기 위해 위조 문서를 생성하는 것임. 가능한 경우 뇌물을 사용하여, 의원들을 흔들고 정부 보조 인력이 휘그계열에 대항하도록 하겠음. 필요하다면, 중책들에게 하원에서의 입장을 바꾸도록 협박하겠음.\n\n작전이 계획대로 순조롭게 진행중."
  USA_CIA_UK.30.a:0 "이글즈 네스트가 밥켓에게: 이해했음, 수고 많았음."
-
-# Explanatory note: This event's effect depends on the idea that the civil service can use it's influence behind the back to boost or reduce the popularities of ministers
  USA_CIA_UK.31.t:0 "A Conversation in the Foreign Office"
- USA_CIA_UK.31.desc:0 " The Minister of the Crown, the Secretary for Foreign Affairs St John-Stevas was sitting at his desk, staring intensely at a piece of paper in front of him. He lifted his eyes, and he saw his principal private secretary Pritchard enter the room.\n\n"Good Morning, Minister," said the secretary.\n\n"Two weeks ago I asked you to report about the rumors of CIA interference in the Civil Service. This report is totally unintelligible and doesn't answer the question," responded John-Stevas.\n\n"Well Minister, we would be happy to redraft it for you."\n\n"And it would still would not answer my question. Will you give me a straight answer to a straight question? Are there agents of the CIA in the Civil Service?"\n\n"Well Minister, if you ask me for a straight answer, then I shall say that looking at it by and large, taking one thing with another in terms of the average of departments, then in the final analysis it is probably true to say, in general terms, you would probably find that there probably wasn't very much in it one way or the other. "\n\n"So no?"\n\n"No, Minister."\n\n"That's a relief. On other matters, do you have that statement to the press about the meeting in Washington?""
+ USA_CIA_UK.31.desc:0 " The Minister of the Crown, the Secretary for Foreign Affairs St John-Stevas was sitting at his desk, staring intensely at a piece of paper in front of him. He lifted his eyes, and he saw his principal private secretary Pritchard enter the room.\n\n\"Good Morning, Minister,\" said the secretary.\n\n\"Two weeks ago I asked you to report about the rumors of CIA interference in the Civil Service. This report is totally unintelligible and doesn't answer the question,\" responded John-Stevas.\n\n\"Well Minister, we would be happy to redraft it for you.\"\n\n\"And it would still would not answer my question. Will you give me a straight answer to a straight question? Are there agents of the CIA in the Civil Service?\"\n\n\"Well Minister, if you ask me for a straight answer, then I shall say that looking at it by and large, taking one thing with another in terms of the average of departments, then in the final analysis it is probably true to say, in general terms, you would probably find that there probably wasn't very much in it one way or the other. \"\n\n\"So no?\"\n\n\"No, Minister.\"\n\n\"That's a relief. On other matters, do you have that statement to the press about the meeting in Washington?\""
  USA_CIA_UK.31.a:0 "Yes, Minister."
-
  USA_CIA_UK.32.t:0 "작전명 위그노"
- USA_CIA_UK.32.desc:0 "밥캣이 이글즈 네스트에게\n\n제롬 헤드런드 기자와 접촉하여 작가들의 싱크탱크가 제공한 기사를 실을 수 있도록 유도함. 이민자 "마르셀린 부비에"가 영국인들과 물의를 일으킨다는 내용임. 그녀의 위조 신원이 밝혀지지 않도록 적절한 조치를 취했음. 위조한 신상은 다른 기자들이 유사한 기사/이민자/가족 비극을 찾고 출판하도록 고무하는 효과를 주었음.\n\n이녹 파월과 애국자계열이 프랑스 개신교 신자들의 영국 입국을 거부한 것에 대한 비난 여론이 생성됨. 애국자계열의 인기도기 역대 최저치를 기록함.\n\n제롬 헤드런드가 의도치 않게 "진짜" 마르셀린 부비에를 찾기 위해 '대본'을 벗어남. 그를 제거하기 위해 조치를 취함. 헤드런드는 더이상 '장면'에 등장하지 못함.\n\n상황 전개에 따라 계속 보고하겠음."
+ USA_CIA_UK.32.desc:0 "밥캣이 이글즈 네스트에게\n\n제롬 헤드런드 기자와 접촉하여 작가들의 싱크탱크가 제공한 기사를 실을 수 있도록 유도함. 이민자 \"마르셀린 부비에\"가 영국인들과 물의를 일으킨다는 내용임. 그녀의 위조 신원이 밝혀지지 않도록 적절한 조치를 취했음. 위조한 신상은 다른 기자들이 유사한 기사/이민자/가족 비극을 찾고 출판하도록 고무하는 효과를 주었음.\n\n이녹 파월과 애국자계열이 프랑스 개신교 신자들의 영국 입국을 거부한 것에 대한 비난 여론이 생성됨. 애국자계열의 인기도기 역대 최저치를 기록함.\n\n제롬 헤드런드가 의도치 않게 \"진짜\" 마르셀린 부비에를 찾기 위해 '대본'을 벗어남. 그를 제거하기 위해 조치를 취함. 헤드런드는 더이상 '장면'에 등장하지 못함.\n\n상황 전개에 따라 계속 보고하겠음."
  USA_CIA_UK.32.a:0 "이글즈 네스트가 밥켓에게: 필요 악."
-
  USA_CIA_UK.33.t:0 "The French Survivor"
  USA_CIA_UK.33.desc:0 "Most young women would not imagine spending their sixteenth birthday crammed into a crate of grapes in the hold of a schooner crossing the English Channel, yet that is exactly how Marceline Bouvier spent hers. She is five-foot six, black of hair, with dark circles under her eyes and few laugh lines around her mouth. Burn marks ripple across her neck. In her eyes shines a determination few other girls her age possess. She has survived things the average Briton cannot imagine. The sole survivor of a family of French Protestants, the Bouviers were victimized by their Catholic countrymen. Harassed by their neighbours, the abuses culminated with a firebomb being thrown through the window of the Bouvier household. Marceline arrived home in time to see the flames consume her sister's bedroom. She plunged into the blaze, attempting to save her family, but she was already too late. Alone, and hounded by the Catholics, she fled for England, never to return. Her story has sparked country-wide outrage against Enoch Powell and his Patriots, with Powell specifically taking fire for his numerous comments about immigration. The story of Marceline Bouvier is kindling compassion in Englishmen and -women across the nation. Curiously, however, when I attempted to reach Ms. Bouvier at the address at which she claimed to be staying, she was not there, and the landlord claimed to have never hosted any such young woman under that name. Similar searches to other popular refugee abodes have met with dead ends. The township in the South of France Bouvier claims to be from does not appear on any current or past maps the libraries at Oxford or Cambridge possess.\n\nAddendum: Jerome Headlund, author of this widely-circulated piece, could not be reached for comment and his current whereabouts are unknown. Police are requesting that anyone with information about him or Marceline Bouvier come forward immediately. Headlund was last seen at Euston Station in the company of a man with dark hair, dressed in suit and tie, and wearing horn-rim glasses..."
  USA_CIA_UK.33.a:0 "The plot thickens..."
-
  USA_CIA_UK.34.t:0 "작전명 러시워스"
- USA_CIA_UK.34.desc:0 "밥캣이 이글즈 네스트에게\n\n재무부에서 할당한 자금이 영국 NDL 당에서 제일 민주적인 요소를 강화하기 위한 캠페인에 성공적으로 배치되었음. 캠페인은 "깨끗한 물, 깨끗한 거리, 깨끗한 정부, NDL에 투표하세요" 슬로건 형태로 진행하여, 대중의 의식 속에서 NDL이 전후 재건에 가장 적합하다는 면을 강조하고 있음. 현재 NDL에 대한 대중의 지지 물결과, 당의 극단주의자들에 대한 대규모 시위와 더불어 당원들 사이에서 사퇴 요구까지 목격되었음.\n\n지금까지는, 아무도 캠페인 혹은 자금의 출처를 확인하지 못하고 있음. 신휘그계열과 애국자계열이 신뢰를 회복하기 위해 서로 엎치락 뒤치락 하고 있음. 꽤 보기 좋은 광경임. 상황 전개에 따라 계속 보고 하겠음."
+ USA_CIA_UK.34.desc:0 "밥캣이 이글즈 네스트에게\n\n재무부에서 할당한 자금이 영국 NDL 당에서 제일 민주적인 요소를 강화하기 위한 캠페인에 성공적으로 배치되었음. 캠페인은 \"깨끗한 물, 깨끗한 거리, 깨끗한 정부, NDL에 투표하세요\" 슬로건 형태로 진행하여, 대중의 의식 속에서 NDL이 전후 재건에 가장 적합하다는 면을 강조하고 있음. 현재 NDL에 대한 대중의 지지 물결과, 당의 극단주의자들에 대한 대규모 시위와 더불어 당원들 사이에서 사퇴 요구까지 목격되었음.\n\n지금까지는, 아무도 캠페인 혹은 자금의 출처를 확인하지 못하고 있음. 신휘그계열과 애국자계열이 신뢰를 회복하기 위해 서로 엎치락 뒤치락 하고 있음. 꽤 보기 좋은 광경임. 상황 전개에 따라 계속 보고 하겠음."
  USA_CIA_UK.34.a:0 "이글즈 네스트가 밥캣에게: 정말 재밌음!"
-
  USA_CIA_UK.35.t:0 "For Peace and Stability"
- USA_CIA_UK.35.desc:0 "Arthur Seale, a Patriot MP, was having an interesting day. After a gruelling round of negotiations, Parliament finally seemed amenable to discussing a course of action that would lead to clean water for ten ridings. In Seale's opinion, the change in attitude seemed rather abrupt, but since he was spearheading the negotiations, he'd be only too happy to take credit for the change and keep buggering on. Privately, however, he couldn't puzzle the bastard thing out. At lunch, he made his way to a watering hole for Patriot MPs and encountered a lad putting up a poster. When Seale saw what was on it, he stopped in his tracks. It was the NDL logo with a caption beneath which read: CLEAN WATER, CLEAN STREETS, CLEAN GOVERNMENT, VOTE NDL. As he stared at it, he heard footsteps behind him. "Bloody hell, Seale," said a familiar voice. "Is this your doing? It's marvelous." Seale turned to see William Cosburn, his opposite number with the New Whigs. "No, is it yours?" Cosburn shook his head. The lad finished pasting the poster to the brick and moved on down the street.\n\n"Well," said Seale, "since someone is going to have to take the credit, I suppose the Patriots deserve a win."\n\n"Not a chance, Seale," Cosburn said. "The New Whigs have gone too long without some respectable promotion. This one's ours."\n\nSeale scratched his chin. "Well, then... I suppose it's down to who can make it back to Westminster first." He started walking up the street and Cosburn fell into step next to him. With each step, they picked up the pace, until both men were sprinting past the startled Englishmen and -women who were out that day... as well as a certain well-groomed Gentleman in horn-rim glasses, off to pay the poster lad for such excellent work."
+ USA_CIA_UK.35.desc:0 "Arthur Seale, a Patriot MP, was having an interesting day. After a gruelling round of negotiations, Parliament finally seemed amenable to discussing a course of action that would lead to clean water for ten ridings. In Seale's opinion, the change in attitude seemed rather abrupt, but since he was spearheading the negotiations, he'd be only too happy to take credit for the change and keep buggering on. Privately, however, he couldn't puzzle the bastard thing out. At lunch, he made his way to a watering hole for Patriot MPs and encountered a lad putting up a poster. When Seale saw what was on it, he stopped in his tracks. It was the NDL logo with a caption beneath which read: CLEAN WATER, CLEAN STREETS, CLEAN GOVERNMENT, VOTE NDL. As he stared at it, he heard footsteps behind him. \"Bloody hell, Seale,\" said a familiar voice. \"Is this your doing? It's marvelous.\" Seale turned to see William Cosburn, his opposite number with the New Whigs. \"No, is it yours?\" Cosburn shook his head. The lad finished pasting the poster to the brick and moved on down the street.\n\n\"Well,\" said Seale, \"since someone is going to have to take the credit, I suppose the Patriots deserve a win.\"\n\n\"Not a chance, Seale,\" Cosburn said. \"The New Whigs have gone too long without some respectable promotion. This one's ours.\"\n\nSeale scratched his chin. \"Well, then... I suppose it's down to who can make it back to Westminster first.\" He started walking up the street and Cosburn fell into step next to him. With each step, they picked up the pace, until both men were sprinting past the startled Englishmen and -women who were out that day... as well as a certain well-groomed Gentleman in horn-rim glasses, off to pay the poster lad for such excellent work."
  USA_CIA_UK.35.a:0 "A run for office."
-
  USA_CIA_UK.40.t:0 "작전명 메리맥"
- USA_CIA_UK.40.desc:0 "밥캣이 이글즈 네스트에게\n\nMI5와 접촉해서 "런던 파이브"(이 바보같은 암호명을 바꿀 수는 없는 건가?)의 증거를 정보 책임자에게 성공적으로 전달함. 오늘 다섯 명을 신속하게 체포하는 형태가 보였음. MI5는 단독임무를 수행하지 않을 것임. 하나의 지옥같은 재판쇼를 보는 것 같음.\n\n언론은 이미 기사를 손에 넣었고, 온갖 노력을 다했음. 영국민들은 독일에게 더 많은 하원 의원들이 위험에 빠졌다고 혼란스러워 했고, 의원들에 대한 추가 조사를 요구함. MI5와 정부는 이를 매우 기쁘게 받아들임. 연내 추가 체포가 예상됨.\n\n바보같은 암호명이지만, 이보다 더 완벽한 작전은 없다고 예상됨."
+ USA_CIA_UK.40.desc:0 "밥캣이 이글즈 네스트에게\n\nMI5와 접촉해서 \"런던 파이브\"(이 바보같은 암호명을 바꿀 수는 없는 건가?)의 증거를 정보 책임자에게 성공적으로 전달함. 오늘 다섯 명을 신속하게 체포하는 형태가 보였음. MI5는 단독임무를 수행하지 않을 것임. 하나의 지옥같은 재판쇼를 보는 것 같음.\n\n언론은 이미 기사를 손에 넣었고, 온갖 노력을 다했음. 영국민들은 독일에게 더 많은 하원 의원들이 위험에 빠졌다고 혼란스러워 했고, 의원들에 대한 추가 조사를 요구함. MI5와 정부는 이를 매우 기쁘게 받아들임. 연내 추가 체포가 예상됨.\n\n바보같은 암호명이지만, 이보다 더 완벽한 작전은 없다고 예상됨."
  USA_CIA_UK.40.a:0 "이글즈 네스트가 밥캣에게: 교과서적이다!"
-
  USA_CIA_UK.41.t:0 "The German Connection"
  USA_CIA_UK.41.desc:0 "EBC--BREAKING NEWS At 11:57 this morning, agents of MI5, in cooperation with the London Metropolitan Police, arrested five Members of Parliament and charged them with corruption. The details of the crime are as follows: that these men knowingly, without undue pressure or coercion, accepted bribes from persons known to be affiliated with the German State. Matthew Whelan, Horace Fuller, Frederick Price, Harold St. John, and Lewis Weaver were strong advocates of a reconstruction effort that would rebuild a portion of London's sewer system that collapsed during the war. During a session in Parliament last month, they abruptly changed their votes and reclassified the motion as a waste of time and resources. Later, London Police were approached by an individual (whose name has not been disclosed to the EBC) who informed them that these MPs had taken a bribe from an agent of Germany enticing them to prevent the reconstruction effort from succeeding. The informant provided photographic evidence of several meetings between the MPs in question and a party MI5 has identified as a known espionage agent. An arraignment date has not yet been set, and it is not expected the MPs will be tried individually. The EBC made an attempt to interview the informant who broke the story but MI5, we are told, has lost track of this person. While the information this informant provided has been verified, questions are now being raised as to whether the informant themselves might be an agent of a foreign power.\n\nIn any case, the quick ousting of the corrupt MPs has garnered a wave of support for the government, bolstered further by the fact that investigations into a number of other Members of Parliament have been announced."
  USA_CIA_UK.41.a:0 "A clean house."
-
  USA_CIA_UK.42.t:0 "작전명 콘로우"
- USA_CIA_UK.42.desc:0 "밥캣이 이글즈 네스트에게\n\n이 광경을 직접 봐주길 원함! 의회 밖에 수천명의 영국인들이 모여들었고 사회 각계각층의 시위대는 "총이 아니라 코카-콜라!"라는 팻말을 흔들고 있기에, 우리의 무역 캠페인은 대성공했다고 해도 과언이 아님. 미국의 뉴스 기사, 사진, 잡지들은 영국의 대중들을 보다 자유로운 무역 정책을 지지하도록 동요시켰음. 군중들은 맥밀런의 뒤에서 모들링에 맞서 단결함. 두 사람은 현재 무역 사안에 대해 회의 중임. 우리의 방식대로 흔들릴 것으로 예상됨.\n\n이 아름다운 날의 명장면을 다수 송신하겠음. 이것들은 역사책에 사용될 것으로 기대됨!"
+ USA_CIA_UK.42.desc:0 "밥캣이 이글즈 네스트에게\n\n이 광경을 직접 봐주길 원함! 의회 밖에 수천명의 영국인들이 모여들었고 사회 각계각층의 시위대는 \"총이 아니라 코카-콜라!\"라는 팻말을 흔들고 있기에, 우리의 무역 캠페인은 대성공했다고 해도 과언이 아님. 미국의 뉴스 기사, 사진, 잡지들은 영국의 대중들을 보다 자유로운 무역 정책을 지지하도록 동요시켰음. 군중들은 맥밀런의 뒤에서 모들링에 맞서 단결함. 두 사람은 현재 무역 사안에 대해 회의 중임. 우리의 방식대로 흔들릴 것으로 예상됨.\n\n이 아름다운 날의 명장면을 다수 송신하겠음. 이것들은 역사책에 사용될 것으로 기대됨!"
  USA_CIA_UK.42.a:0 "이글즈 네스트가 밥캣에게: 정말 놀라움!"
-
  USA_CIA_UK.43.t:0 "Guns, but not Coca-Cola?"
- USA_CIA_UK.43.desc:0 "Even deep inside the House of Commons, even over the shouting of red-faced MPs, even over Macmillan's booming declamations, Maudling could hear the roaring of the impassioned protesters out in the street. He heard them and it invigorated him. He rose to his feet as Macmillan finished speaking and returned fire: "We should need no further proof," he bellowed, "of the sorry state we're in than the articles, periodicals, and posters that have proliferated in Britain this past fortnight. The Americans have the solution to our deficit of goods! You would put guns in the hands of our people but not a bottle of Coca-Cola?"\n\nMacmillan re-entered the fray. "Guns make our people a free and independent state. Coca-Cola makes us a pawn of the OFN!"\n\nMaudling had to wait for the applause to die down before he replied. "I want," he said, "Britons everywhere to be able to afford a toaster, a radio, and a car that isn't three decades out of production! Who in this room will risk roasting a chicken in their own oven these days?" Dark laughter rippled throughout the House; the gas valves on most kitchen ovens were in notoriously poor states. "This media blitz," Macmillan interrupted, "is so clearly an American geopolitical tactic that a blind man couldn't fail to see it." Maudling was troubled by that; there'd been many whispers that the source of this pro-free trade propaganda was not, as most people believed, University students, but American economists and intelligence agents. All the same, it was a tool Maudling could use to bring affordable consumer goods into the country. It was also a weapon he could turn against Macmillan. Smiling, he retorted: "If that's the case, I think we should congratulate the Yanks; they finally engineered their way around your substantial ego, Macmillan." The House erupted into cheers, and all of it for Maudling."
+ USA_CIA_UK.43.desc:0 "Even deep inside the House of Commons, even over the shouting of red-faced MPs, even over Macmillan's booming declamations, Maudling could hear the roaring of the impassioned protesters out in the street. He heard them and it invigorated him. He rose to his feet as Macmillan finished speaking and returned fire: \"We should need no further proof,\" he bellowed, \"of the sorry state we're in than the articles, periodicals, and posters that have proliferated in Britain this past fortnight. The Americans have the solution to our deficit of goods! You would put guns in the hands of our people but not a bottle of Coca-Cola?\"\n\nMacmillan re-entered the fray. \"Guns make our people a free and independent state. Coca-Cola makes us a pawn of the OFN!\"\n\nMaudling had to wait for the applause to die down before he replied. \"I want,\" he said, \"Britons everywhere to be able to afford a toaster, a radio, and a car that isn't three decades out of production! Who in this room will risk roasting a chicken in their own oven these days?\" Dark laughter rippled throughout the House; the gas valves on most kitchen ovens were in notoriously poor states. \"This media blitz,\" Macmillan interrupted, \"is so clearly an American geopolitical tactic that a blind man couldn't fail to see it.\" Maudling was troubled by that; there'd been many whispers that the source of this pro-free trade propaganda was not, as most people believed, University students, but American economists and intelligence agents. All the same, it was a tool Maudling could use to bring affordable consumer goods into the country. It was also a weapon he could turn against Macmillan. Smiling, he retorted: \"If that's the case, I think we should congratulate the Yanks; they finally engineered their way around your substantial ego, Macmillan.\" The House erupted into cheers, and all of it for Maudling."
  USA_CIA_UK.43.a:0 "Coca-Cola, not Guns!"
-
  USA_CIA_UK.44.t:0 "작전명 웬디"
- USA_CIA_UK.44.desc:0 "밥캣이 이글즈 네스트에게\n\n앤디 워홀은 영국을 방문 중이며, 현재 덜리치 픽쳐 갤러리에 전시된 예술 작품을 관람 중임. 갤러리의 공동 큐레이터 이안 데자르뎅이 공을 들였음. 이유는 쉽게 파악됨. 워홀의 작품과 대중을 불태우는 독일의 현실주의 차이임. 영국 예술계가 미국만큼 자유롭지 못한 이유에 대해 많은 의문점이 생기고 있음.\n\n데자르뎅은 다우닝가와 대화를 나눴고, 이들은 워홀을 데려온 놀랍고 대단한 성취에 환호했음. 데자르뎅은 이들에게 자신의 "후원자"에 대해 아무 말도 하지 않았음. 우리의 자금 조달 계획은 현재 익명으로 유지됨. 다우닝가가 이 계획에 참여하고 워홀에게 더 큰 관심을 불러일으킬 것으로 에상됨.\n\n앤디 자신도 잘 버티고 있음. 당연히 발레리 솔라나스의 암살 시도는 여전히 그를 섬뜩하게 하고있음. 그는 대화도 나누고, 친구도 사귀고 있음.\n\n다우닝가가 워홀과 공식적으로 친구가 되기로 결정하면 모든 것이 순조롭게 진행될 것으로 추측됨. 그동안, 예술에 빠지고 취하겠음."
+ USA_CIA_UK.44.desc:0 "밥캣이 이글즈 네스트에게\n\n앤디 워홀은 영국을 방문 중이며, 현재 덜리치 픽쳐 갤러리에 전시된 예술 작품을 관람 중임. 갤러리의 공동 큐레이터 이안 데자르뎅이 공을 들였음. 이유는 쉽게 파악됨. 워홀의 작품과 대중을 불태우는 독일의 현실주의 차이임. 영국 예술계가 미국만큼 자유롭지 못한 이유에 대해 많은 의문점이 생기고 있음.\n\n데자르뎅은 다우닝가와 대화를 나눴고, 이들은 워홀을 데려온 놀랍고 대단한 성취에 환호했음. 데자르뎅은 이들에게 자신의 \"후원자\"에 대해 아무 말도 하지 않았음. 우리의 자금 조달 계획은 현재 익명으로 유지됨. 다우닝가가 이 계획에 참여하고 워홀에게 더 큰 관심을 불러일으킬 것으로 에상됨.\n\n앤디 자신도 잘 버티고 있음. 당연히 발레리 솔라나스의 암살 시도는 여전히 그를 섬뜩하게 하고있음. 그는 대화도 나누고, 친구도 사귀고 있음.\n\n다우닝가가 워홀과 공식적으로 친구가 되기로 결정하면 모든 것이 순조롭게 진행될 것으로 추측됨. 그동안, 예술에 빠지고 취하겠음."
  USA_CIA_UK.44.a:0 "이글즈 네스트가 밥캣에게: 사고방식을 넓히길 바람."
-
  USA_CIA_UK.45.a:0 "Artistic Liberties"
- USA_CIA_UK.45.desc:0 "Ian Dejardin, Co-Curator of Dulwich Picture Gallery, had never worked on a more audacious exhibit. Not because of the works featured, but because of what they were featured alongside. Andy Warhol, a name synonymous with experimentation and avant garde work, had been placed right next to some of the greatest German realists of the day, and he'd made the Germans look like indoctrinated progandist dullards. Londoners circulated throughout the exhibit, talking in hushed voices. "Why can't we see more like Warhol?" they asked. "What makes the realists so special?" Ian hid a smile. The moments when art patrons questioned the prevailing ideas of the day were the best moments of his career.\n\nHe wasn't entirely sure where the money had come from to transport Warhol and his work to London--rumours of a benefactor with a dark suit, well-groomed hair, and horn-rim glasses circulated among the Gallery accountants--nor did he particularly care. Warhol had struck like a meteorite, lighting England aflame with his weird, unique style. Even Downing Street had taken the time to recognize what Warhol was doing for free speech in the Isles.\n\nAnd as for the man himself? Well... he obviously wasn't the same since the attempt on his life. Ian couldn't imagine how terrifying that must have been for Andy. The bullet wound Valerie Solanas gave Warhol may have healed, but Warhol would forever be a wounded man; jumpy, looking around corners. Whatever his mental state, his art never failed to elicit a reaction from those who beheld, and right now, among Englishmen everywhere, the reaction took the form of a question, and it was one which applied to both art and government: "Where's our voice?""
+ USA_CIA_UK.45.desc:0 "Ian Dejardin, Co-Curator of Dulwich Picture Gallery, had never worked on a more audacious exhibit. Not because of the works featured, but because of what they were featured alongside. Andy Warhol, a name synonymous with experimentation and avant garde work, had been placed right next to some of the greatest German realists of the day, and he'd made the Germans look like indoctrinated progandist dullards. Londoners circulated throughout the exhibit, talking in hushed voices. \"Why can't we see more like Warhol?\" they asked. \"What makes the realists so special?\" Ian hid a smile. The moments when art patrons questioned the prevailing ideas of the day were the best moments of his career.\n\nHe wasn't entirely sure where the money had come from to transport Warhol and his work to London--rumours of a benefactor with a dark suit, well-groomed hair, and horn-rim glasses circulated among the Gallery accountants--nor did he particularly care. Warhol had struck like a meteorite, lighting England aflame with his weird, unique style. Even Downing Street had taken the time to recognize what Warhol was doing for free speech in the Isles.\n\nAnd as for the man himself? Well... he obviously wasn't the same since the attempt on his life. Ian couldn't imagine how terrifying that must have been for Andy. The bullet wound Valerie Solanas gave Warhol may have healed, but Warhol would forever be a wounded man; jumpy, looking around corners. Whatever his mental state, his art never failed to elicit a reaction from those who beheld, and right now, among Englishmen everywhere, the reaction took the form of a question, and it was one which applied to both art and government: \"Where's our voice?\""
  USA_CIA_UK.45.t:0 "Where indeed...?"
-
  USA_CIA_UK.50.t:0 "작전명 영블러드"
  USA_CIA_UK.50.desc:0 "밥캣이 이글즈 네스트에게\n\n방금 런던 경찰서장 줄리어스 호바트의 데스크에서 보고를 받음. 그는 우리가 제공한 정보에 따라 행동했고 데본 키이스 의원의 집을 급습함. 예상대로 폭력적으로 진행됨. 키스는 체포되었고 비서와 보좌관은 살해되었고, 이들은 급습한 경찰관들을 공격한 것처럼 증거를 조작했음. 키스는 독일에게 뇌물을 받고 마가렛 대처에 대항한 혐의로 재판을 받게 될 예정임.\n\n우리가 원하는 작전 형태가 아님: 너무 지저분하고, 호바트를 통제하기엔 어려움이 있음. 하지만 작업은 완료함. 선동을 생각하는 다른 의원들에게 보낸 명확한 메시지가 될 것으로 보임. 의회의 절반이 겁에 질린 것으로 관측됨.\n\n다른 의원들이 뇌물 수수혐의로 수감되면 보고하겠음. 철의 여인이 움직이고 있음."
  USA_CIA_UK.50.a:0 "이글즈 네스트가 밥캣에게: 소름끼치지만, 훌륭했음."
-
  USA_CIA_UK.51.t:0 "One for the Trial, Two for the Morgue"
- USA_CIA_UK.51.desc:0 "Captain Julius Hobart doffed his hat and dabbed his forehead with a kerchief. Outside the car, his boys were positioning a battering ram outside the door of an Exeter townhouse, preparing to make a forced entry into the home of a Royal Party MP, Devon Keith. Hobart had received an anonymous tip that Keith had been taking bribes and passing secrets to the Jerries, and after tailing Keith for three weeks, Hobart had counted no less than six illicit transactions with a known Reich agent, and now he was about to take Keith into custody, and arrange for the deaths of Keith's secretary and assistant.\n\nThe officers were almost ready. When the clock struck 2:01, they'd go in. Hobart looked at the seat beside him. The guns he planned to place on the bodies of the secretary and assistant once his boys put them down for good sat wrapped in cloth. Mrs. Thatcher needed Keith for a show trial, but she wanted to send a message to any and all aides of traitorous MPs. You never knew who might come forward with information when they learned their parliamentary associations wouldn't keep them safe.\n\nAs his officers swung the battering ram and stormed the MP's home, Hobart hummed a few bars of "Rule Britannia." Mrs. Thatcher had sworn that Britons would never again be slaves to Germany, and as long as Julius Hobart was in charge, he'd do everything in his power to help her uphold her vow. This arrest would be a major victory for her, and would serve as a warning to anyone else thinking of selling Britain to the Reich..."
+ USA_CIA_UK.51.desc:0 "Captain Julius Hobart doffed his hat and dabbed his forehead with a kerchief. Outside the car, his boys were positioning a battering ram outside the door of an Exeter townhouse, preparing to make a forced entry into the home of a Royal Party MP, Devon Keith. Hobart had received an anonymous tip that Keith had been taking bribes and passing secrets to the Jerries, and after tailing Keith for three weeks, Hobart had counted no less than six illicit transactions with a known Reich agent, and now he was about to take Keith into custody, and arrange for the deaths of Keith's secretary and assistant.\n\nThe officers were almost ready. When the clock struck 2:01, they'd go in. Hobart looked at the seat beside him. The guns he planned to place on the bodies of the secretary and assistant once his boys put them down for good sat wrapped in cloth. Mrs. Thatcher needed Keith for a show trial, but she wanted to send a message to any and all aides of traitorous MPs. You never knew who might come forward with information when they learned their parliamentary associations wouldn't keep them safe.\n\nAs his officers swung the battering ram and stormed the MP's home, Hobart hummed a few bars of \"Rule Britannia.\" Mrs. Thatcher had sworn that Britons would never again be slaves to Germany, and as long as Julius Hobart was in charge, he'd do everything in his power to help her uphold her vow. This arrest would be a major victory for her, and would serve as a warning to anyone else thinking of selling Britain to the Reich..."
  USA_CIA_UK.51.a:0 "The Iron Lady knocks!"
-
  USA_CIA_UK.52.t:0 "작전명 써니"
  USA_CIA_UK.52.desc:0 "밥캣이 이글즈 네스트에게\n\n작전 지시에 따라, 저스틴 페이든을 차후 미디어 공세를 위한 자금을 조달할 첫 번째 후보자로 선정함. 페이든은 자칭 대처지지자고, 케임브리지 대학에서 미디어학 학위를 가지고 있으며, 부지런하고 강인하다고 조사됨. 모든 것이 우리 목적에 매우 적합함.\n\n자금 지원을 받은 페이든은 마가렛 대처와 그녀의 견해를 지지하는 데 전념하는 새로운 출판사 썬을 설립함. 페이든은 믿을 수 없을 정도로 열정적이며 이미 새 사무실로 자리를 옮김.\n\n2차 후보 선정을 위해 케임브리지와 옥스포드로 다시 이동할 예정임. 미디어 공세가 시작됨. 더 추진할 예정."
  USA_CIA_UK.52.a:0 "이글즈 네스트가 밥캣에게: 좋은 사냥되길 바람!"
-
  USA_CIA_UK.53.t:0 "The New Paper in Town"
  USA_CIA_UK.53.desc:0 "Justine Faden walked through the doors of her newspaper and listened to the wisp and whirr of the printing press in the basement. It's all mine, she thought, all mine and I decide what to do with it. After two disastrous marriages and four calamitous courtships with men from her last job with the London Gazette, she'd lost more than she'd ever gained in her life. She'd resolved to strike out on her own, build whatever she wanted and share it with no one. The result was The Sun, and every word that came out of it would be in support of Margaret Thatcher.\n\nThe Iron Lady was a hero to Justine; someone who'd achieved power and was on the fast track to making Britain truly great. Thatcher, in Justine's view, was a woman to be admired in every respect, and raised as high as possible by the people. For their own good. For a while it had seemed like Justine would never get The Sun off the drawing board, until a strange man had approached her with money, and plenty of it. He said he wanted to help her, and by extension, help Thatcher. Justine had been suspicious initially, but the money was good and soon the doors to The Sun opened and writers came pouring in to work for her. Already she'd received numerous letters of encouragement from people in office.\n\nYes, Justine was doing well, and in her view, there was no limit to how far she could take The Sun. Careers were hers to make or break..."
  USA_CIA_UK.53.a:0 "A woman to watch."
-
  USA_CIA_UK.54.t:0 "작전명 시카고보이"
  USA_CIA_UK.54.desc:0 "밥캣이 이글즈 네스트에게\n\n골치 아픈 하루가 될 수도 있었음. 대처 당이 결국 늦었음. 시카고 학파 역할을 맡기로 한 요원들이 일을 망쳐버림. 대처는 '연극'을 완전히 사들였고, 마구잡이로 돈을 받았으며, 하원에서 우리의 의사를 발전시키기 위한 작업을 시작함.\n\n요점: 대처를 지원하는데 전념하는 더 큰 경제망 제안은 절묘했음. 그녀는 이제 미국 투자자들의 상당수가 자신을 지지한다고 전적으로 믿고 있음.\n\n우리 요원들이 술게임에서 어떻게 본인을 이겼는지 알 수 없음. 요원들은 술고래임에 틀림없음.\n\n다음 보고 이전에 숙취를 해결하겠음. 모든 것이 계획대로 진행되고 있어서 다행임. 앞으로 이틀 동안, 중요한 선택을 할 수 있는 상태가 아니기 때문."
  USA_CIA_UK.54.a:0 "이글즈 네스트가 밥캣에게: 숙취해소제가 필요할 것으로 추측함!"
-
  USA_CIA_UK.55.t:0 "A Chicago Tea Party"
- USA_CIA_UK.55.desc:0 "Margaret Thatcher had to admit, the sight of four tipsy Chicago economists belting out the "Star Spangled Banner" to the accompaniment of an out-of-tune piano was quite a sight. As the horribly-butchered song came to a sonorous end, Thatcher couldn't help but applaud the efforts of the brave lads. Beside her, her husband Denis did the same, albeit awkwardly as he was holding a tumbler of whiskey. "Is this enough to change your mind about accepting their offer, darling?" he asked Margaret.\n\nThatcher chuckled and shook her head. "Not a chance." The motley Chicagoans, despite their antics, were really a keen-minded crew who'd helped shape America's economic policy. Now, pockets bursting, they'd crossed the oceans and offered their money and support to Thatcher. Their reason: they sought a more stable England for doing business with and believed Thatcher could deliver it. On the surface, there were no snags, but at this party hosted at Margaret's estate, the Iron Lady happened to notice the Chicagoans were not quite as drunk as they appeared.\n\nIf this was a performance intended to put her off her guard, it was well-done, but Thatcher was never off her guard. This gift of funds and support might be a Trojan horse, but she knew how to deal with it if it was.\n\nThe trick was to have a torch to hand to set fire to the horse the instant it began to open its mouth. For now, however, she would accept this gift for what it was: a tool to make her more powerful than ever before..."
+ USA_CIA_UK.55.desc:0 "Margaret Thatcher had to admit, the sight of four tipsy Chicago economists belting out the \"Star Spangled Banner\" to the accompaniment of an out-of-tune piano was quite a sight. As the horribly-butchered song came to a sonorous end, Thatcher couldn't help but applaud the efforts of the brave lads. Beside her, her husband Denis did the same, albeit awkwardly as he was holding a tumbler of whiskey. \"Is this enough to change your mind about accepting their offer, darling?\" he asked Margaret.\n\nThatcher chuckled and shook her head. \"Not a chance.\" The motley Chicagoans, despite their antics, were really a keen-minded crew who'd helped shape America's economic policy. Now, pockets bursting, they'd crossed the oceans and offered their money and support to Thatcher. Their reason: they sought a more stable England for doing business with and believed Thatcher could deliver it. On the surface, there were no snags, but at this party hosted at Margaret's estate, the Iron Lady happened to notice the Chicagoans were not quite as drunk as they appeared.\n\nIf this was a performance intended to put her off her guard, it was well-done, but Thatcher was never off her guard. This gift of funds and support might be a Trojan horse, but she knew how to deal with it if it was.\n\nThe trick was to have a torch to hand to set fire to the horse the instant it began to open its mouth. For now, however, she would accept this gift for what it was: a tool to make her more powerful than ever before..."
  USA_CIA_UK.55.a:0 "A night to remember..."
-
  USA_CIA_UK.101.t:0 "An Untimely Defection"
- USA_CIA_UK.101.desc:0 " "You're backing LeMass?" Tom McShane was frankly at a loss for words. For weeks, O'Connelly had agreed that Ireland needed to be truly independent. Subservience to the Americans was just as bad as to the Germans, and the economic collapse had shown just how bad indeed that had been. He had been one of the votes McShane was most certain of. But now, in McShane's office, he seemed to have changed his tune.\n\n"I've taken a closer look at what the United States have done for Canada and Australia." O'Connelly remarked, fidgeting with his shiny new watch as if he was entirely too anxious for the meeting to be over. He leaned in, his voice quieter. "Listen, Tommy. It's better the Yanks than the Germans or the Brits, and without someone keeping us afloat, it'll be the Germans or Brits who scoop us back up. We might as well try something new, eh?"\n\nWhen no immediate response was given, O'Connelly clapped the stunned McShane on the back and briskly fled the office. He mumbled something about how he needed to meet the missus for dinner, but McShane was barely paying attention. O'Connelly was only the most recent in a long line of defections to LeMass, and not a single one could be explained. Had McShane missed something?\n\nAs he remained quietly in thought, a noise floated through the open window. O'Connelly was starting his car, preparing to go home for the day. As McShane watched the older man struggle with his keys, a thought struck him. Hadn't that car been red just the other day?"
+ USA_CIA_UK.101.desc:0 " \"You're backing LeMass?\" Tom McShane was frankly at a loss for words. For weeks, O'Connelly had agreed that Ireland needed to be truly independent. Subservience to the Americans was just as bad as to the Germans, and the economic collapse had shown just how bad indeed that had been. He had been one of the votes McShane was most certain of. But now, in McShane's office, he seemed to have changed his tune.\n\n\"I've taken a closer look at what the United States have done for Canada and Australia.\" O'Connelly remarked, fidgeting with his shiny new watch as if he was entirely too anxious for the meeting to be over. He leaned in, his voice quieter. \"Listen, Tommy. It's better the Yanks than the Germans or the Brits, and without someone keeping us afloat, it'll be the Germans or Brits who scoop us back up. We might as well try something new, eh?\"\n\nWhen no immediate response was given, O'Connelly clapped the stunned McShane on the back and briskly fled the office. He mumbled something about how he needed to meet the missus for dinner, but McShane was barely paying attention. O'Connelly was only the most recent in a long line of defections to LeMass, and not a single one could be explained. Had McShane missed something?\n\nAs he remained quietly in thought, a noise floated through the open window. O'Connelly was starting his car, preparing to go home for the day. As McShane watched the older man struggle with his keys, a thought struck him. Hadn't that car been red just the other day?"
  USA_CIA_UK.101.a:0 "Something suspicious is going on here..."
  IRE_CIA_bonus:0 "We will receive the following §Gbonuses§! if we choose to side with §MOFN§! in the future:"

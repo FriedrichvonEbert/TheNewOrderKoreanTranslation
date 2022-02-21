@@ -1,13 +1,8 @@
-﻿l_english:
-
- ### EQUIPMENT MODULE ROLE PERMISSIONS ###
+l_english:
  MODULE_ALLOW_ROLE:1 "§GAllows§! the $ROLE|H$ role"
  MODULE_ALLOW_ROLE_BUT_OTHER_FORBID:0 "§GAllows§! the $ROLE|H$ role, but $FORBIDDING_MODULE|H$ §Rforbids§! it"
  MODULE_FORBID_ROLE:1 "§RForbids§! the $ROLE|H$ role"
-
  MODULE_ALLOWED_ROLE_IS_FORBIDDEN_BY_ANOTHER_MODULE:0 "The role $ROLE|H$ is £trigger_yes£ by module $ALLOWING_MODULE|H$ but is £trigger_no£ by module $FORBIDDING_MODULE|H$.\n\n"
-
- ### EQUIPMENT MODULE CATEGORIES ###
  EQ_MOD_CAT_tank_engine_type_TITLE:0 "엔진 유형"
  EQ_MOD_CAT_tank_armor_type_TITLE:0 "장갑 유형"
  EQ_MOD_CAT_tank_suspension_type_TITLE:1 "궤도식 서스펜션"
@@ -22,8 +17,6 @@
  EQ_MOD_CAT_tank_radio_module_TITLE:0 "라디오"
  EQ_MOD_CAT_tank_secondary_turret_TITLE:0 "보조 포탑"
  EQ_MOD_CAT_tank_non_tracked_suspension_type_TITLE:0 "비 궤도식 서스펜션"
- 
- ### EQUIPMENT MODULE SLOTS ###
  EQ_MOD_SLOT_main_armament_slot_TITLE:0 "주포"
  EQ_MOD_SLOT_turret_type_slot_TITLE:0 "포탑"
  EQ_MOD_SLOT_suspension_type_slot_TITLE:0 "서스펜션"
@@ -33,16 +26,9 @@
  EQ_MOD_SLOT_special_type_slot_2_TITLE:0 "특수 기능"
  EQ_MOD_SLOT_special_type_slot_3_TITLE:0 "특수 기능"
  EQ_MOD_SLOT_special_type_slot_4_TITLE:0 "특수 기능"
-
- ### In-Designer Type Names ###
  tank_designer_IFV_chassis:0 "보병전투차"
  tank_designer_MBT_chassis:0 "주력전차"
  tank_designer_kugelpanzer_chassis:0 "쿠겔판처"
-
- ### EQUIPMENT MODULES ###
- 
- # Engine #
-
  tank_gasoline_engine:0 "가솔린 엔진"
  tank_gasoline_engine_desc:0 "가솔린으로 작동하는 엔진은 기존에 있던 동일한 크기의 엔진에 비해 더 빠르지만 연료에 불이 붙기 훨씬 쉽습니다."
  tank_diesel_engine:0 "디젤 엔진"
@@ -51,18 +37,12 @@
  tank_petrol_electric_engine_desc:0 "전기 모터에 전력을 공급하는 가솔린 엔진의 조합입니다. 이는 복잡하고, 비싸고, 신뢰할 수 없지만 전술적 움직임에서 타의 추종을 불허하는 성능을 제공합니다."
  tank_gas_turbine_engine:0 "가스 터빈"
  tank_gas_turbine_engine_desc:0 "제트 엔진에서부터 발전된 터빈입니다. 엔진 소비량은 높지만 기존에 있었던 같은 크기의 엔진들 중에서 가장 빠른 속도를 자랑합니다."
- 
- # Armour #
-
  tank_riveted_armor:0 "리벳장갑"
  tank_riveted_armor_desc:0 "장갑판은 가장자리를 리벳으로 뼈대와 고정됩니다. 매우 검증된 기술로서 상당히 저렴하지만, 리벳이 박힌 가장자리는 장갑에 약점을 제공하고 리벳이 피격되면 승무원이 리벳에 의해 부상당할 수 있습니다."
  tank_cast_armor:0 "주조장갑"
  tank_cast_armor_desc:0 "장갑을 포함한 차체 전체가 단일 구성으로 주조됩니다. 비용이 많이 들고 시간이 많이 소요되는 과정으로, 더 적은 약점을 가진 훨씬 두꺼운 장갑을 만들 수 있습니다."
  tank_welded_armor:0 "용접장갑"
  tank_welded_armor_desc:0 "장갑판이 용접된 차체입니다. 주조보다 빠른 공정임에도 좋은 방호력을 제공합니다."
- 
- # Suspension #
-
  tank_torsion_bar_suspension:0 "토션 바"
  tank_torsion_bar_suspension_desc:0 "금속 막대로 차체에 고정된 상당히 안정적인 서스펜션 시스템으로, 다른 서스펜션 유형보다 더욱 부드러운 승차감을 제공합니다."
  tank_christie_suspension:0 "크리스티 서스펜션"
@@ -74,9 +54,6 @@
  tank_hydropneumatic_suspension:0 "Hydropneumatic Suspension"
  tank_hydropneumatic_suspension_desc:0 "An advanced form of suspension, this design is costly but offers unparalleled stability to assist with mobile firing"
  KGP_suspension:0 "쿠겔판처 서스펜션"
- 
- # Turret #
-
  IFV_one_man_tank_turret:0 "1인용 포탑"
  IFV_one_man_tank_turret_desc:0 "A small turret barely large enough to hold a single crew member, who is tasked with aiming and loading the main armament as well as keeping watch for targets and threats."
  IFV_two_man_tank_turret:0 "2인용 포탑"
@@ -91,9 +68,6 @@
  MBT_three_man_tank_turret_desc:0 "A turret big enough for the three crew members to divide the tasks of loading and aiming the main armament as well as staying aware of the situation around them."
  MBT_fixed_superstructure_turret:1 "중형 고정 상부구조"
  MBT_fixed_superstructure_turret_desc:0 "A fixed superstructure only allows the main armament to traverse in a small arc without turning the entire vehicle. However, it allows the vehicle to mount a bigger armament while being overall of smaller size, making the vehicle perfect for ambushes."
- 
- # Armament #
- 
  tank_heavy_machine_gun:0 "중기관총"
  tank_heavy_machine_gun_desc:0 "A machine gun provides decent anti-infantry capability for a low cost. Even with special armor-piercing ammunition, its anti-armor performance leaves a lot to be desired."
  flamethrower:0 "화염방사기"
@@ -112,18 +86,14 @@
  IFV_anti_air_cannon_3_desc:0 "Special weaponry designed to engage aircraft. It has limited potential as a fire-support weapon against ground targets."
  IFV_anti_air_cannon_4:0 "현대 대공포"
  IFV_anti_air_cannon_4_desc:0 "Special weaponry designed to engage aircraft. It has limited potential as a fire-support weapon against ground targets."
- 
  MBT_heavy_artillery:0 "중곡사포"
  MBT_heavy_artillery_desc:0 "A heavier form of artillery for mounting on stronger chassis. Its primary purpose is indirect fire support against soft targets, but it can be fired directly at a target if necessary. Carrying only a small amount of armor-percing ammunition, it is ill-suited for anti-tank work."
  MBT_heavy_artillery_2:0 "개선된 중곡사포"
  MBT_heavy_artillery_2_desc:0 "A heavier form of artillery for mounting on stronger chassis. Its primary purpose is indirect fire support against soft targets, but it can be fired directly at a target if necessary. Carrying only a small amount of armor-percing ammunition, it is ill-suited for anti-tank work."
- 
-
  MBT_anti_air_cannon:0 "중대공포"
  MBT_anti_air_cannon_desc:0 "A heavier form of anti-air weaponry designed for mounting on stronger chassis. It is costlier and requires a stronger vehicle to carry, but is far more effective against aircraft."
  MBT_anti_air_cannon_2:0 "개선된 중대공포"
  MBT_anti_air_cannon_2_desc:0 "A heavier form of anti-air weaponry designed for mounting on stronger chassis. It is costlier and requires a stronger vehicle to carry, but is far more effective against aircraft."
- 
  IFV_cannon:0 "IFV 주포"
  IFV_cannon_desc:0 "A small and cheap cannon, able to fire both anti-infantry and anti-armor rounds. Its small caliber limits its usefulness."
  IFV_cannon_2:0 "개선된 IFV 주포"
@@ -132,7 +102,6 @@
  IFV_cannon_3_desc:0 "A small and cheap cannon, able to fire both anti-infantry and anti-armor rounds. Its small caliber limits its usefulness."
  IFV_cannon_4:0 "현대 IFV 주포"
  IFV_cannon_4_desc:0 "A small and cheap cannon, able to fire both anti-infantry and anti-armor rounds. Its small caliber limits its usefulness."
- 
  MBT_cannon:0 "MBT 주포"
  MBT_cannon_desc:0 "A general-purpose weapon well suited to a wide variety of tasks. It excells at neither anti-infantry nor anti-tank work, but it provides a vehicle with a lot of flexibility."
  MBT_cannon_2:0 "개선된 MBT 주포"
@@ -141,33 +110,26 @@
  MBT_cannon_3_desc:0 "A general-purpose weapon well suited to a wide variety of tasks. It excells at neither anti-infantry nor anti-tank work, but it provides a vehicle with a lot of flexibility."
  MBT_cannon_4:0 "현대 MBT 주포"
  MBT_cannon_4_desc:0 "A general-purpose weapon well suited to a wide variety of tasks. It excells at neither anti-infantry nor anti-tank work, but it provides a vehicle with a lot of flexibility."
- 
  IFV_high_velocity_cannon:0 "속사포"
  IFV_high_velocity_cannon_desc:0 "A cannon specifically designed to help lighter vehicles punch above their weight against armoured vehicles. Whilst effective against tanks, its performance against soft targets suffers."
  IFV_high_velocity_cannon_2:0 "개선된 속사포"
  IFV_high_velocity_cannon_2_desc:0 "A cannon specifically designed to help lighter vehicles punch above their weight against armoured vehicles. Whilst effective against tanks, its performance against soft targets suffers."
- 
  IFV_light_artillery:0 "곡사포"
  IFV_light_artillery_desc:0 "A small weapon designed to fire high-explosive shells against enemy field fortifications to help the infantry on the attack. While capable of engaging tanks, its limited ammunition and power make it unable to deal with more powerful enemy tanks."
  IFV_light_artillery_2:0 "개선된 곡사포"
  IFV_light_artillery_2_desc:0 "A small weapon designed to fire high-explosive shells against enemy field fortifications to help the infantry on the attack. While capable of engaging tanks, its limited ammunition and power make it unable to deal with more powerful enemy tanks."
  IFV_light_artillery_3:0 "진보된 곡사포"
  IFV_light_artillery_3_desc:0 "A small weapon designed to fire high-explosive shells against enemy field fortifications to help the infantry on the attack. While capable of engaging tanks, its limited ammunition and power make it unable to deal with more powerful enemy tanks."
-
- # Special Modules #
-
  autocannon_turret:0 "RWS Autocannon"
  autocannon_turret_desc:0 "An autocannon in a small unmanned turret which provides a significant boost to anti-infantry capabilities."
  secondary_turret_hmg:0 "Protected Machine Gun Turret"
  secondary_turret_hmg_desc:0 "A small secondary turret mounting a machine gun, to help engage soft targets without exposing crew."
  secondary_turret_small_cannon:0 "Secondary Small Cannon Turret"
  secondary_turret_small_cannon_desc:0 "A secondary low-caliber gun in its own mounting, providing a small boon to firepower at cost of compromised protection."
-
  tank_radio_1:0 "개선된 라디오"
  tank_radio_1_desc:0 "An improved radio allows commanders effective control over larger formations of tanks, permitting large-scale operational maneuvers."
  tank_radio_2:0 "진보된 라디오"
  tank_radio_2_desc:0 "With a more powerful transmitter and better reception, this radio allows communications over dozens of kilometers and in the face of enemy jamming."
-
  amphibious_drive:0 "Amphibious Drive"
  amphibious_drive_desc:0 "A set of floatation devices and a small screw allow this tank to quickly be rigged to traverse water, either from ship to shore or across a river."
  secondary_turret_close_support_gun:1 "Close Support Gun"
@@ -178,7 +140,6 @@
  smoke_launchers_desc:0 "A battery of pyrotechnic devices that can be triggered from inside the tank to create a thick cloud of smoke to hide the tank. Very useful when on the defensive or after driving into an ambush."
  smoke_emitter:0 "연막 방출기"
  smoke_emitter_desc:0 "Equipment that allows a vehicle to produce a smoke screen, providing visual cover to friendly troops following in its path."
-
  additional_armour:0 "Extra Armour Plating"
  additional_armour_desc:0 "A set of thin metal plates mounted on the vehicle, giving additional protection against anti-tank weapons and shaped charges."
  dozer_blade:0 "불도저 삽"
@@ -189,10 +150,8 @@
  expanded_toolbox_desc:0 "An expanded supply of maintenance tools allow for tank crews to keep their vehicles well maintained and ready for action."
  additional_machine_guns:0 "여분 기관포"
  additional_machine_guns_desc:0 "A set of machineguns in sponsons and special pintle mounts give the vehicle improved defense against close-in infantry attack."
-
  ERA:0 "폭발반응장갑"
  ERA_desc:0 "Special armour plates that react to an impacting projectile in order to minimise damage to the vehicle. This can be applied to vehicles in place of needing to make improvements to the base-armour."
-
  night_vision:0 "향상된 광학장비"
  night_vision_desc:0 "Advanced optical equipment, assisting vehicle crews in reconnaisance and identification of targets."
  nuclear_protection:0 "NBC Protection"
@@ -213,23 +172,16 @@
  crew_heater_desc:0 "The means to keep a vehicle's crew toasty even in harsh conditions, keeping them in a combat-ready state."
  fire_protection_equipment:0 "자동 화재진압 시스템"
  fire_protection_equipment_desc:0 "Automatic fire-fighting equipment greatly improves a vehicles ability to minimize damage should a fire break out inside."
-
-
- # Buff Techs #
-
  armor_tech_1_tt:0 "Enables Armor Upgrade values of 8 and below."
  armor_tech_2_tt:0 "Enables Armor Upgrade values of 12 and below."
  armor_tech_3_tt:0 "Enables Armor Upgrade values of 16 and below."
  armor_tech_4_tt:0 "Enables Armor Upgrade values of 20 and below."
-
  engine_tech_1_tt:0 "Enables Engine Upgrade values of 8 and below."
  engine_tech_2_tt:0 "Enables Engine Upgrade values of 12 and below."
  engine_tech_3_tt:0 "Enables Engine Upgrade values of 16 and below."
  engine_tech_4_tt:0 "Enables Engine Upgrade values of 20 and below."
-
  tank_nsb_armor_upgrade:0 "장갑"
  tank_nsb_engine_upgrade:0 "엔진"
-
  NSB_Armour_1:0 "Basic Armor Protection"
  NSB_Armour_1_desc:0 "The mechanical ravages of the first half of the 20th century provoked new developments in armor technology. Two of the crudest, and yet most effective innovations are spaced plates and slat armor. Though not immune to HEAT rounds, these early innovations certainly offer superior protection."
  NSB_Armour_2:0 "Improved Armor Protection"
@@ -238,7 +190,6 @@
  NSB_Armour_3_desc:0 "As anti-tank and HEAT weaponry became cheaper and more widespread, the superpowers' chief tank manufacturers were tasked with developing armor that could withstand the full force of a high-velocity superplastic jet. Their solution was composite armor formed from tactically arranged layers of ceramics, fibreglass, resin, and other like materials."
  NSB_Armour_4:0 "Modern Armor Protection"
  NSB_Armour_4_desc:0 "The long-theorized apex of Cold War armor technology, reactive armor meets the energy of enemy projectiles with energy of its own. Explosive reactive armor detonates on contact with a penetrator, shifting the point of impact in real time to increase effective thickness. Non-explosive reactive armor opts for a different approach, instead using an elastic layer between two harder, metallic layers to force the tank's plates to bulge and shift the rotation of a projectile."
-
  NSB_Engine_1:0 "Basic Engine Improvements"
  NSB_Engine_1_desc:0 "The development of efficient and reliable tank chassis has historically been limited by the size and uneconomical fuel consumption of early tank engines. Advancements in the design of combustion engines allowed for the maneuver of machines weighing many tons, but only recently have optimizations enabling relatively consistent high-speed travel been introduced en masse."
  NSB_Engine_2:0 "Improved Engine Improvements"
@@ -247,11 +198,6 @@
  NSB_Engine_3_desc:0 "To offset tank engines' common failure to achieve fuel-efficient operation, economizing devices such as recuperators were introduced. Recuperators work by harnessing exhaust and waste heat to preheat gases meant for combustion, thereby improving fuel efficiency and recovering energy that, otherwise, would have been needlessly expended."
  NSB_Engine_4:0 "Modern Engine Improvements"
  NSB_Engine_4_desc:0 "Modern tank warfare has precipitated innumerable innovations contributing to increased engine fuel efficiency, output, and safety. Recuperators grow ever more efficient, and reduced engine sizes allow for the introduction of more advanced firefighting and survival systems."
-
-
- 
- # Chassis #
-
  light_tank_chassis:0 "Light Tank"
  medium_tank_chassis:0 "Medium Tank"
  heavy_tank_chassis:0 "Heavy Tank"
@@ -442,8 +388,6 @@
  tank_wheeled_suspension_desc:0 "Derived from a truck chassis, this suspension is very limited in its carrying capacity and has limited cross-country performance, but has the advantage of being very cheap to make."
  tank_half_track_suspension:0 "Half-track Suspension"
  tank_half_track_suspension_desc:0 "A hybrid between a fully-tracked vehicle and a regular wheeled suspension, this setup has a pair of wheels up front for steering and a tracked rear axle to improve cross-country performance. While limited in its carrying capacity, it is still cheaper than a fully-tracked design."
- 
-
  GER_light_tank_flame_equipment_0:0 "Versuchsflammpanzer"
  GER_medium_tank_flame_equipment_0:0 "Versuchsflammpanzer (Mittelschwer)"
  GER_heavy_tank_flame_equipment_0:0 "Versuchsflammpanzer (schwer)"
@@ -483,14 +427,10 @@
  light_tank_artillery_equipment_0:0 "IW Light SP Artillery"
  medium_tank_artillery_equipment_0:0 "IW Medium SP Artillery"
  heavy_tank_artillery_equipment_0:0 "IW Heavy SP Artillery"
-
-
  GER_heavy_tank_equipment_0:0 "Versuchspanzerkampfwagen (schwer)"
  GER_light_tank_equipment_0:0 "Leichttraktor"
  GER_medium_tank_equipment_0:0 "Mittlerer Traktor"
-
  EQUIPMENT_AMPHIBIOUS:0 "Amphibious Tank"
-
  IFV_flame_tank:0 "IFV 화염방사 전차중대"
  IFV_flame_tank_desc:0 "A company of light, flamethrower-equipped vehicles to provide support in assaulting cities and fortifications."
  MBT_flame_tank:0 " MBT 화염방사 전차중대"

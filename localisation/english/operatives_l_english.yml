@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  INTELLIGENCEAGENCYVIEW_TITLE:0 "정보기관"
  SPY_MASTER_STATUS_NONE:1 "§H첩보장§!은 현재 없습니다."
  SPY_MASTER_STATUS_OTHER:0 "$COUNTRY|H$(은)는 현재 $FACTION|H$의 첩보장입니다."
@@ -23,17 +23,11 @@
  AGENCY_CREATED_TITLE:0 "첩보기관 생성 완료!"
  AGENCY_UPGRADED_TITLE:0 "첩보기관 개선 완료!"
  AGENCY_NAME:0 "첩보기관"
- 
- #Branch Names
- 
  branch_intelligence:0 "정보 부문"
  branch_defense:0 "방첩 활동"
  branch_operation:0 "비밀 작전"
  branch_operative:0 "작전 훈련"
  branch_crypto:0 "암호부"
- 
- #Intelligence
- 
  upgrade_economy_department:0 "산업부"
  upgrade_economy_department_desc:0 "§L우리 요원들은 적지에서 민간인의 역할을 하며 적의 산업과 민간 부문에서 활동할 수 있도록 훈련받을 것이고 적의 산업과 경제에 관한 정보를 획득하는데 주력할 것입니다.§!"
  upgrade_army_department:0 "육군부"
@@ -44,9 +38,6 @@
  upgrade_airforce_department_desc:0 "§L항공 정보부는 우리 기관의 유능한 부서로 적 공군의 침투와 적기 이동에 대한 정보 수집을 담당할 것입니다.§!"
  upgrade_space_department:0 "우주부"
  upgrade_space_department_desc:0 "§L우주부§!"
- 
- #Defense
- 
  upgrade_passive_defense:0 "소극적인 방어"
  upgrade_passive_defense_desc:1 "§L향토 방위대는 우리의 첩보에 중요한 도구가 될 잠재력이 있습니다. 향토 방위대와 주둔군에게 첩보와 방첩 활동을 훈련시키면, 우리의 전문가가 다른 일을 하고 있을 때 해당 지역에 방어력을 제공할 것입니다.§!"
  upgrade_anti_guerrilla_activities:0 "대게릴라 활동"
@@ -57,9 +48,6 @@
  upgrade_communications_interception_desc:0 "§L통신 가로채기§!"
  upgrade_covert_surveillance:0 "Covert Surveillance"
  upgrade_covert_surveillance_desc:0 "§LCovert Surveillance§!"
- 
- #Operations
- 
  upgrade_industrial_espionage:0 "산업 첩보"
  upgrade_industrial_espionage_desc:0 "§L우리는 적들이 실험적인 무기와 차량을 위한 비밀 프로젝트를 가지고 있다는 것은 알지만, 그 프로젝트가 무엇인지와 무엇을 만들고 있는지는 알지 못합니다. 이러한 실험 무기 부서에 침투한다면 적들의 계획을 알 수 있을 뿐만 아니라, 그 정보를 이용해 우리의 무기 부서를 성장시킬 독특한 기회를 가질 수 있을 것입니다.§!"
  upgrade_wiretapping:0 "도청"
@@ -70,9 +58,6 @@
  upgrade_surveillance_aircraft_desc:0 "§L새로운 제트기들은 그 어느 때보다 더 높고 멀리 갈 수 있습니다. 망원렌즈의 향상된 기능을 통해 적지를 날아다니며 눈에 띄지 않고 고품질 사진을 찍을 수 있습니다.§!"
  upgrade_computer_hacking:0 "컴퓨터 해킹"
  upgrade_computer_hacking_desc:0 "§L이제 모든 새 로그, 목록 및 데이터베이스가 컴퓨터에 저장되어 있는 것 같습니다. 정보를 계속 수집하려면 이 컴퓨터에 침입해야 합니다.§!"
- 
- #Training
- 
  upgrade_global_training_centers:0 "범세계 훈련 센터"
  upgrade_global_training_centers_desc:0 "§L우리 요원은 모든 환경에 적응할 수 있지만, 외국의 문화적 규범과 언어는 그 나라에서 태어나고 자란 사람들에게 더 자연스럽습니다. 만약 우리가 전세계에 첩보망을 구축하려한다면, 우리의 모집 및 훈련 센터를 전세계로 확장하고 모든 문화와 배경을 가진 요원을 모집해야 합니다.§!"
  upgrade_special_forces_training:0 "특수 부대 훈련"
@@ -83,9 +68,6 @@
  upgrade_diplomatic_training_desc:0 "§L우리 요원들을 외국인 투자자와 외교관에게 기름칠을 좀 하도록 교육함으로써 그들이 우리의 계획에 기부금을 내도록 하고, 그들의 이목을 우리의 적들로부터 끌어오도록 합니다.§!"
  upgrade_psychological_warfare:0 "심리전"
  upgrade_psychological_warfare_desc:0 "§L선전은 우리 영토 내에서는 우리의 이념적 이익을 확보하는 데 효과적인 도구였고, 적에 대한 공포와 그들이 우리나라에 가져올 수 있는 위협을 알리는데 효과적이었습니다. 우리 공작원들이 외국에서 반 이념 운동을 한다면, 우리는 전 세계에 우리의 이념을 더 효과적으로 전파할 수 있을 것입니다...§!"
- 
- #Crypto
- 
  upgrade_modernize_department:0 "현대화된 부서"
  upgrade_modernize_department_desc:0 "§L우리 암호학 부서는 수수께끼의 시대를 결코 지나치지 않을 것입니다. 새로운 암호화 기술이 스스로를 드러내고 있으며, 우리가 이를 활용할 때입니다.§!"
  upgrade_cryptographic_engineering:1 "암호화 공학"
@@ -96,9 +78,6 @@
  upgrade_public_key_cryptography_desc:0 "§L공개-키 암호화는 암호 이론의 비교적 새로운 발전이며, 두 개인 간의 직접적인 의사소통에 가장 적합합니다. 공개-키와 개인-키를 모두 개발하는 것이 스파이의 생존을 보장하는데 중요합니다.§!"
  upgrade_computerized_cracking:0 "전산화된 크래킹"
  upgrade_computerized_cracking_desc:0 "§L소프트웨어는 처음 접할때는 어렵지만, 매우 유연합니다. 충분히 숙달된 사람은 이것의 내용에 대한 끝없는 정보를 드러내는 방식으로 가지고 놀 수 있습니다.§!"
- 
- #Other Stuff
- 
  TRAINING_FACILITIES_ENABLED:0 "훈련소 건설 결정 잠금 해제"
  CRYPTO_DEPARTMENT_ENABLED:0 "암호부 잠금 해제"
  CREATE_AGENCY_BUTTON:0 "기관 창설"
@@ -108,11 +87,11 @@
  CANCEL_AGENCY_UPGRADE_MESSAGE:0 "정말로 정보기관 개선을 §R취소§! 하시겠습니까?"
  CREATE_AGENCY_BUTTON_PROGRESS:1 "정보기관 창설 중..."
  CREATE_AGENCY_BUTTON_TOOLTIP:0 "§G클릭§!하여 첩보기관 창설하기."
- CREATE_AGENCY_BUTTON_TOOLTIP_NO_FACTORIES:0 "§R기관을 창설하기 위한 §H민간 공장§!이 충분하지 않습니다.§! (당신은 $CURRENT|H$ 개의 공장이 있지만 $NEEDED|H$개의 공장이 필요합니다.)"
+ CREATE_AGENCY_BUTTON_TOOLTIP_NO_FACTORIES:0 "§R기관을 창설하기 위한 §H민간공장§!이 충분하지 않습니다.§! (당신은 $CURRENT|H$ 개의 공장이 있지만 $NEEDED|H$개의 공장이 필요합니다.)"
  CREATE_AGENCY_MODIFIER_NAME:0 "첩보기관 창설"
  CREATE_AGENCY_BLOCKED:0 "§R봉쇄§!"
- CREATE_AGENCY_SLOW:0 "§R민간 공장이 충분하지 않습니다.\n$MALUS|%0$일간 진행이 늦춰질 것입니다.§!"
- AGENCY_UPGRADE_NO_FACTORIES:0 "§R기관을 개선하기 위한 §H민간 공장§!이 충분하지 않습니다.§! (당신은 $CURRENT|H$개의 공장이 있지만 $NEEDED|H$개의 공장이 필요합니다.)"
+ CREATE_AGENCY_SLOW:0 "§R민간공장이 충분하지 않습니다.\n$MALUS|%0$일간 진행이 늦춰질 것입니다.§!"
+ AGENCY_UPGRADE_NO_FACTORIES:0 "§R기관을 개선하기 위한 §H민간공장§!이 충분하지 않습니다.§! (당신은 $CURRENT|H$개의 공장이 있지만 $NEEDED|H$개의 공장이 필요합니다.)"
  CHANGE_INTELLIGENCE_AGENCY_NAME_BUTTON:0 "§G클릭§!으로 이름과 휘장 변경."
  STATUS_NO_AGENCY_NO_OPERATIVE:2 "기관을 창설하기 전에는 정보원을 모집할 수 없습니다."
  STATUS_NO_AGENCY_UPGRADE:0 "진행 중인 개선 없음."
@@ -240,7 +219,6 @@
  PREPARE:0 "준비하기"
  PREPARED:0 "준비됨"
  DIPLOMATIC_PRESSURE_TENSION_MODIFIER:0 "£operative_mission_icons_small|7£ 외교 압력: $VALUE|-%0$"
- 
  OPERATION_TOKEN_RECEIVE:1 "$COUNTRY|H$에게서 $TOKEN|H$ 받아오기"
  OPERATION_TOKEN_REMOVE:1 "$COUNTRY|H$에게서 $TOKEN|H$ 제거"
  OPERATION_VIEW_AUTO_COMPLETE:0 "이 상자를 체크하고 모든 요건이 충족 된 뒤, 작업 §Yautomatically§!의 개시"
@@ -258,13 +236,11 @@
  OPERATION_VIEW_REFUND:0 "이 작전을 준비하던 동안 수집한 자원들을 돌려받습니다."
  OPERATION_VIEW_REFUND_NOT:0 "이미 시작된 작전을 취소할 수 없습니다."
  OPERATION_VIEW_SELECT_TARGET:0 "목표 선택"
- 
  EFFECT_STEAL_RANDOM_TECH:0 "Gain insight into advanced technology that they have researched and we have not."
  EFFECT_STEAL_RANDOM_TECH_INSTANT:0 "Steal plans for a random technology that they have researched and we have not."
  EFFECT_STEAL_RANDOM_CATEGORY_TECH_COMPLETE:0 "아군 첩보원들이 해당 기술계통의 보너스를 얻었습니다: $TECH|H$"
  EFFECT_STEAL_RANDOM_TECH_COMPLETE:0 "우린 진보된 기술의 통찰을 얻었습니다: $TECH|H$"
  EFFECT_STEAL_RANDOM_TECH_INSTANT_COMPLETE:0 "우린 진보된 기술 계획을 훔쳤습니다: $TECH|H$"
- 
  OPERATION_VIEW_ERROR_INSUFFICIENT_NETWORK_STRENGTH:0 "§RYou do not have the required network strength of $PERC|H$§!"
  OPERATION_VIEW_ERROR_NO_OPERATIVE_ON_NETWORK:0 "§R현재 첩보망에서 이 작전에 첩보원이 투입되지 않고 있습니다§!"
  OPERATION_VIEW_ERROR_INSUFFICIENT_OPERATIVES:0 "§R이 작전을 위해서 최소 $NUM|H$ 만큼의 첩보원이 필요합니다.§!"
@@ -274,11 +250,9 @@
  OPERATION_VIEW_ERROR_NEEDS_TO_SELECT_TARGET:0 "§RYou need to select a target state for this operation.§!"
  OPERATION_VIEW_REQUIREMENTS:0 "요구 사항"
  OPERATION_VIEW_CIVILIAN_FACTORIES_PROGRESS:0 "$PROGRESS|H$ 개의 민간공장 작업이 완료되었습니다."
- 
  OPERATION_VIEW_BASE_DURATION:0 "기본 기간: $DAYS|H$ 일"
  OPERATION_VIEW_DURATION_MALUS_REPETITION:0 "작전 반복: $VALUE|-%0$"
  OPERATION_VIEW_DURATION_MALUS_DEFENSE:0 "적의 방첩 활동: $VALUE|-%0$"
- 
  OPERATION_NOT_ALL_OPERATIVES_ASSIGNED:0 "모든 공작원이 아직 할당되지 않음"
  OPERATION_VIEW_AUTO_COMMENCE:0 "준비되면 시작"
  OPERATION_VIEW_AUTO_REPEAT:0 "자동으로 반복"
@@ -290,7 +264,7 @@
  OPERATION_VIEW_OPERATION_NOT_POSSIBLE_OR_AVAILABLE:1 "작전을 더 이상 가능하지 않거나 수행할 수 없습니다."
  OPERATION_OPERATIVE_ASSIGNMENT_NOT_ANYMORE:0 "작전을 수행하러 정보원을 보냈을 경우, 해당 정보원을 할당 해제하는 것은 불가능합니다."
  OPERATION_OPERATIVE_ASSIGNMENT_NOT_YET:0 "작전을 위한 자원 수집을 시작하면 이 작전에 첩보원을 할당 할 수 있습니다"
- OPERATION_CIVILIAN_FACTORIES_NOT_PREPARED_YET:0 "작전에 필요한 민간 공장이 다른 사유로 계속 가동 중이어서 작전 시작 준비를 마치지 못했습니다."
+ OPERATION_CIVILIAN_FACTORIES_NOT_PREPARED_YET:0 "작전에 필요한 민간공장이 다른 사유로 계속 가동 중이어서 작전 시작 준비를 마치지 못했습니다."
  OPERATION_REQUIREMENT_FULFILLED:0 "$NAME|H$(을)를 $HAS|H$/$NUM|H$개 획득했습니다."
  OPERATION_REQUIREMENT_NEEDED:0 "$NUM|H$개의 $NAME|H$(이)가 필요할 것입니다."
  OPERATION_REQUIREMENT_CIVILIAN_FACTORIES:0 "$FACTORIES|H$ over $NUM|H$ days"
@@ -300,7 +274,6 @@
  EFFECT_FREE_RANDOM_OPERATIVE_ALL:0 "$COUNTRY|H$에 인질로 잡혀있는 모든 우리 정보원을 구출 할 것입니다"
  EFFECT_FREE_RANDOM_OPERATIVE_ALL_SUCCESS:0 "We have successfully freed all of our operatives from captivity in $COUNTRY|H$"
  EFFECT_FREE_RANDOM_OPERATIVE_FAILURE:0 "$COUNTRY|H$에 잡혀있던 정보원들을 제 시간에 구출 할 수 없었습니다"
-
  OPERATION_ONMAP_CLICK_FOR_DETAILS:0 "§GClick§! to view the details."
  OPERATION_ONMAP_CLICK_FOR_MORE:0 "§GClick§! to see more operations"
  OPERATION_ONMAP_STATUS_COMPLETED:0 "이 작전은 완수되었습니다."
@@ -311,7 +284,6 @@
  SELECT_STATE_ON_CLICK_DISABLED:1 "§R해당 주를 대상으로 선택할 수 없습니다.§!"
  SELECT_REGION_ON_CLICK:0 "§G클릭§!으로 해당 지역을 대상으로 선택합니다."
  SELECT_REGION_ON_CLICK_DISABLED:0 "§R해당 지역을 대상으로 선택할 수 없습니다.§!"
-
  OPERATION_HAS_TOKEN:0 "$NAME|H$(을)를 가짐"
  OPERATION_HAS_TOKEN_NOT:0 "$NAME|H$(을)를 가지지 않음"
  OPERATION_EXPLANATION_FOR_TOKEN_ACCESS:0 "§HThe infiltration assets that you can get will lead to the following operations:§!"
@@ -326,9 +298,7 @@
  OPERATION_TOKEN_INFILTRATED_NAVY_DESC:0 "해당 국가의 해군에 침투하였습니다."
  OPERATION_TOKEN_INFILTRATED_RESISTANCE_CONTACTS:0 "저항군 접선"
  OPERATION_TOKEN_INFILTRATED_RESISTANCE_CONTACTS_DESC:0 "현지 저항군과의 접촉을 했습니다."
-
  PREPARED_OPERATION_REFUND_TOOLTIP:0 "Operation will be refunded in $DAYS|R$ days."
-
  DIPLOMATIC_PRESSURE_OPINION_REQUIREMENTS_DRIFT:1 "Changing the §Yopinion§! requirements by $DRIFT|H$ per day"
  DIPLOMATIC_PRESSURE_TENSION_REQUIREMENTS_DRIFT:1 "Changing the §Ytension§! requirements by $DRIFT|1%H$ per day"
  QUIET_INTEL_NETWORK_IN_STATE_DESC:0 "§RThe network is inactive§!\nThe network is maintained but its effects are not available and it cannot be used to launch an operation."

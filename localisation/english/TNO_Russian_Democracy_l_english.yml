@@ -1,56 +1,39 @@
-﻿l_english:
- 
+l_english:
  RUS_increase_urban_socdem_pop_tt: "§GIncreases§! §PSocial Democrat§! popularity in §gurban§! states.\n"
  RUS_increase_urban_auth_pop_tt: "§GIncreases§! §gAuthoritarian Democrat§! popularity in §gurban§! states.\n"
  RUS_increase_urban_liberal_pop_tt: "§GIncreases§! §MLiberal§! popularity in §gurban§! states.\n"
  RUS_increase_urban_conservative_pop_tt: "§GIncreases§! §BConservative§! popularity in §gurban§! states.\n"
-
  RUS_increase_rural_socdem_pop_tt: "§GIncreases§! §PSocial Democrat§! popularity in §Grural§! states.\n"
  RUS_increase_rural_auth_pop_tt: "§GIncreases§! §gAuthoritarian Democrat§! popularity in §Grural§! states.\n"
  RUS_increase_rural_liberal_pop_tt: "§GIncreases§! §MLiberal§! popularity in §Grural§! states.\n"
  RUS_increase_rural_conservative_pop_tt: "§GIncreases§! §BConservative§! popularity in §Grural§! states.\n"
-
  RUS_increase_state_auth_pop_tt: "§GIncreases§! local §BConservative§! popularity.\n"
  RUS_increase_state_socdem_pop_tt: "§GIncreases§! local §PSocial Democrat§! popularity.\n"
  RUS_increase_state_liberal_pop_tt: "§GIncreases§! local §MLiberal§! popularity.\n"
  RUS_increase_state_conservative_pop_tt: "§GIncreases§! local §BConservative§! popularity.\n"
- 
-# RUS_increase_state_auth_pop_tt: "§ODecreases§! local §gAuthoritarian Democrat§! popularity.\n" #duplicate loc key
-# RUS_increase_state_socdem_pop_tt: "§ODecreases§! local §PSocial Democrat§! popularity.\n" #duplicate loc key
-# RUS_increase_state_liberal_pop_tt: "§ODecreases§! local §MLiberal§! popularity.\n" #duplicate loc key
-# RUS_increase_state_conservative_pop_tt: "§ODecreases§! local §BConservative§! popularity.\n" #duplicate loc key
-
  RUS_increase_state_auth_minority_pop_tt: "§GIncreases§! §gAuthoritarian Democrat§! popularity with minorities.\n"
  RUS_increase_state_socdem_minority_pop_tt: "§GIncreases§! §PSocial Democrat§! popularity with minorities.\n"
  RUS_increase_state_liberal_minority_pop_tt: "§GIncreases§! §MLiberal§! popularity with minorities.\n"
  RUS_increase_state_conservative_minority_pop_tt: "§GIncreases§! §BConservative§! popularity with minorities.\n"
-
  RUS_decrease_state_auth_minority_pop_tt: "§ODecreases§! §gAuthoritarian Democrat§! popularity with minorities.\n"
  RUS_decrease_state_socdem_minority_pop_tt: "§ODecreases§! §PSocial Democrat§! popularity with minorities.\n"
  RUS_decrease_state_liberal_minority_pop_tt: "§ODecreases§! §MLiberal§! popularity with minorities.\n"
  RUS_decrease_state_conservative_minority_pop_tt: "§ODecreases§! §BConservative§! popularity with minorities.\n"
-
  RUS_increase_state_auth_industrial_pop_tt: "§GIncreases§! §gAuthoritarian Democrat§! popularity with industrial workers.\n"
  RUS_increase_state_socdem_industrial_pop_tt: "§GIncreases§! §PSocial Democrat§! popularity with industrial workers.\n"
  RUS_increase_state_liberal_industrial_pop_tt: "§GIncreases§! §MLiberal§! popularity with industrial workers.\n"
  RUS_increase_state_conservative_industrial_pop_tt: "§GIncreases§! §BConservative§! popularity with industrial workers.\n"
-
  RUS_suppress_rural_voting_tt: "§ODecreases§! voter turnout in §Grural§! states.\n"
  RUS_suppress_urban_voting_tt: "§ODecreases§! voter turnout in §gurban§! states.\n"
-
  RUS_encourage_rural_voting_tt: "§GIncreases§! voter turnout in §Grural§! states.\n"
  RUS_encourage_urban_voting_tt: "§GIncreases§! voter turnout in §gurban§! states.\n"
-
  RUS_suppress_minority_voting_tt: "§ODecreases§! voter turnout in minority states."
  RUS_encourage_minority_voting_tt: "§GIncreases§! voter turnout in minority states."
-
  RUS_add_ruling_party_temp_pop_small_tt: "Temporarily §Gincreases§! ruling party state popularity by a small amount.\n"
  RUS_add_ruling_party_temp_pop_medium_tt: "Temporarily §Gincreases§! ruling party state popularity.\n"
  RUS_add_ruling_party_temp_pop_large_tt: "Temporarily §Gincreases§! ruling party state popularity by a large amount.\n"
-
  RUS_decrease_ruling_party_temp_pop_small_tt: "Temporarily §Rdecreases§! ruling party state popularity by a small amount.\n"
  RUS_decrease_ruling_party_temp_pop_medium_tt: "Temporarily §Rdecreases§! ruling party state popularity.\n"
-
  RUS_democracy_auth_polling_lead_KOM: "§gPSD§! lead"
  RUS_democracy_socdem_polling_lead_KOM: "§PDSNP§! lead"
  RUS_democracy_liberal_polling_lead_KOM: "§MSMR§! lead"
@@ -58,28 +41,24 @@
  RUS_democracy_socdem_liberal_polling_lead_KOM: "§PDSNP§!/§MSMR§! lead"
  RUS_democracy_liberal_auth_polling_lead_KOM: "§gPSD§!/§MSMR§! lead"
  RUS_democracy_no_polling_lead_KOM: "No data"
-
  RUS_democracy_auth_polling_lead_VYT: "§gNTS§! lead"
  RUS_democracy_conservative_polling_lead_VYT: "§BVNS§! lead"
  RUS_democracy_liberal_polling_lead_VYT: "§MK-D§! lead"
  RUS_democracy_auth_conservative_polling_lead_VYT: "§gNTS§!/§BVNS§! lead"
  RUS_democracy_conservative_liberal_polling_lead_VYT: "§BVNS§!/§MK-D§! lead"
  RUS_democracy_liberal_auth_polling_lead_VYT: "§MK-D§/§gNTS§! lead"
-
  RUS_democracy_auth_polling_lead_SVR: "§gUKGS§! lead"
  RUS_democracy_conservative_polling_lead_SVR: "§BLPR§! lead"
  RUS_democracy_auth_conservative_polling_lead_SVR: "§gUKGS§!/§BLPR§! lead"
- 
- RUS_democracy_polling_party_overpowering: "§Moverpowering§!" #>85
- RUS_democracy_polling_party_exceptionall: "§Bexceptional§!" #75-85
- RUS_democracy_polling_party_very_strong: "§Tvery strong§!" #65-75
- RUS_democracy_polling_party_strong: "§Gstrong" #55-65
- RUS_democracy_polling_party_moderate: "§Ysignificant" #45-55 
- RUS_democracy_polling_party_middling: "§wmoderate" #35-45
- RUS_democracy_polling_party_weak: "§Oweak§!" #25-35 
- RUS_democracy_polling_party_very_weak: "§Rvery weak§!" #15-25 
- RUS_democracy_polling_party_nonexistent: "§Lirrelevant§!" #<15
-
+ RUS_democracy_polling_party_overpowering: "§Moverpowering§!"
+ RUS_democracy_polling_party_exceptionall: "§Bexceptional§!"
+ RUS_democracy_polling_party_very_strong: "§Tvery strong§!"
+ RUS_democracy_polling_party_strong: "§Gstrong"
+ RUS_democracy_polling_party_moderate: "§Ysignificant"
+ RUS_democracy_polling_party_middling: "§wmoderate"
+ RUS_democracy_polling_party_weak: "§Oweak§!"
+ RUS_democracy_polling_party_very_weak: "§Rvery weak§!"
+ RUS_democracy_polling_party_nonexistent: "§Lirrelevant§!"
  RUS_democracy_auth_win_KOM: "§gPSD§! victory"
  RUS_democracy_socdem_win_KOM: "§PDSNP§! victory"
  RUS_democracy_liberal_win_KOM: "§MSMR§! victory"
@@ -87,7 +66,6 @@
  RUS_democracy_socdem_liberal_tie_KOM: "§PDSNP§!-§MSMR§! tie"
  RUS_democracy_liberal_auth_tie_KOM: "§MSMR§!-§gPSD§! tie"
  RUS_democracy_pure_tie_KOM: "§MSMR§!-§gPSD§!-§PDSNP§! tie"
-
  RUS_democracy_auth_win_VYT: "§gNTS§! victory"
  RUS_democracy_liberal_win_VYT: "§MK-D§! victory"
  RUS_democracy_conservative_win_VYT: "§BVNS§! victory"
@@ -95,26 +73,17 @@
  RUS_democracy_conservative_liberal_tie_VYT: "§BVNS§!-§MK-D§! tie"
  RUS_democracy_liberal_auth_tie_VYT: "§MK-D§!-§gNTS§! tie"
  RUS_democracy_pure_tie_VYT: "§MK-D§!-§BVNS§!-§gNTS§! tie"
-
  RUS_democracy_auth_win_SVR: "§gUKGS§! victory"
  RUS_democracy_conservative_win_SVR: "§BLPR§! victory"
  RUS_democracy_pure_tie_SVR: "§gUKGS§!-§BLPR§! tie"
-
  RUS_democracy_auth_final_win_KOM: "\n§YPresidential§! Election Results:\n§gPSD§! victory (§g[?RUS_auth_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gPSD§! final provincial delegates - §g[?RUS_auth_votes]§!\n§MSMR§! final provincial delegates - §M[?RUS_liberal_votes]§!\n§PDSNP§! final provincial delegates - §P[?RUS_socdem_votes]§!\n\n§gPSD§! total vote - [?RUS_auth_percentage_vote]%\n§MSMR§! total vote - [?RUS_liberal_percentage_vote]%\n§PDSNP§! total vote - [?RUS_socdem_percentage_vote]%\n\n§YNational Assembly§! Election Results:\n§gPSD§! deputies - [?RUS_auth_deputies]\n§MSMR§! deputies - [?RUS_liberal_deputies]\n§PDSNP§! deputies - [?RUS_socdem_deputies]"
  RUS_democracy_socdem_final_win_KOM: "\n§YPresidential§! Election Results:\n§PDSNP§! victory (§P[?RUS_socdem_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gPSD§! final provincial delegates - §g[?RUS_auth_votes]§!\n§MSMR§! final provincial delegates - §M[?RUS_liberal_votes]§!\n§PDSNP§! final provincial delegates - §P[?RUS_socdem_votes]§!\n\n§gPSD§! total vote - [?RUS_auth_percentage_vote]%\n§MSMR§! total vote - [?RUS_liberal_percentage_vote]%\n§PDSNP§! total vote - [?RUS_socdem_percentage_vote]%\n\n§YNational Assembly§! Election Results:\n§gPSD§! deputies - [?RUS_auth_deputies]\n§MSMR§! deputies - [?RUS_liberal_deputies]\n§PDSNP§! deputies - [?RUS_socdem_deputies]"
  RUS_democracy_liberal_final_win_KOM: "\n§YPresidential§! Election Results:\n§MSMR§! victory (§M[?RUS_liberal_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gPSD§! final provincial delegates - §g[?RUS_auth_votes]§!\n§MSMR§! final provincial delegates - §M[?RUS_liberal_votes]§!\n§PDSNP§! final provincial delegates - §P[?RUS_socdem_votes]§!\n\n§gPSD§! total vote - [?RUS_auth_percentage_vote]%\n§MSMR§! total vote - [?RUS_liberal_percentage_vote]%\n§PDSNP§! total vote - [?RUS_socdem_percentage_vote]%\n\n§YNational Assembly§! Election Results:\n§gPSD§! deputies - [?RUS_auth_deputies]\n§MSMR§! deputies - [?RUS_liberal_deputies]\n§PDSNP§! deputies - [?RUS_socdem_deputies]"
-
  RUS_democracy_auth_final_win_VYT: "§gNTS§! victory (§g[?RUS_auth_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gNTS§! total vote - [?RUS_auth_percentage_vote]%\n§MK-D§! total vote - [?RUS_liberal_percentage_vote]%\n§BVNS§! total vote - [?RUS_conservative_percentage_vote]%"
  RUS_democracy_conservative_final_win_VYT: "§BVNS§! victory (§B[?RUS_conservative_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gNTS§! total vote - [?RUS_auth_percentage_vote]%\n§MK-D§! total vote - [?RUS_liberal_percentage_vote]%\n§BVNS§! total vote - [?RUS_conservative_percentage_vote]%"
  RUS_democracy_liberal_final_win_VYT: "§MK-D§! victory (§M[?RUS_liberal_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)\n\n§gNTS§! total vote - [?RUS_auth_percentage_vote]%\n§MK-D§! total vote - [?RUS_liberal_percentage_vote]%\n§BVNS§! total vote - [?RUS_conservative_percentage_vote]%"
-
-
  RUS_democracy_auth_final_win_SVR: "§gUKGS§! victory (§g[?RUS_auth_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)"
  RUS_democracy_conservative_final_win_SVR: "§BLPR§! victory (§B[?RUS_conservative_votes]§!/§W[?RUS_total_votes]§! total provincial delegates)"
-
-
-
-
  RUS_arctic_russia_campaign_tt: "We shall campaign in §YArctic Russia§!, granting a random amount of regional support."
  RUS_central_russia_campaign_tt: "We shall campaign in §YCentral Russia§!, granting a random amount of regional support."
  RUS_ural_region_campaign_tt: "We shall campaign in the §YUral Region§!, granting a random amount of regional support."
@@ -127,30 +96,22 @@
  RUS_eastern_siberia_campaign_tt: "We shall campaign in the §YEastern Siberia§!, granting a random amount of regional support."
  RUS_trans_baikal_campaign_tt: "We shall campaign in the §YTrans-Baikal§!, granting a random amount of regional support."
  RUS_far_east_campaign_tt: "We shall campaign in the §YFar East§!, granting a random amount of regional support."
-
-
  KOM_socdem_campaign_tt: "Unlocks decisions to campaign for §PDSNP§!."
  KOM_liberal_campaign_tt: "Unlocks decisions to campaign for §MSMR§!."
  KOM_auth_campaign_tt: "Unlocks decisions to campaign for §gPSD§!."
-
  VYT_liberal_campaign_tt: "Unlocks decisions to campaign for §MK-D§!."
  VYT_conservative_campaign_tt: "Unlocks decisions to campaign for §BVNS§!."
  VYT_authdem_campaign_tt: "Unlocks decisions to campaign for §gNTS§!."
-
  SVR_conservative_campaign_tt: "Unlocks decisions to campaign for §BLPR§!."
  SVR_authdem_campaign_tt: "Unlocks decisions to campaign for §gUKGS§!."
-
  KOM_authdem_campaign_ai: "§gPSD§!'s Campaign"
  KOM_liberal_campaign_ai: "§MSMR§!'s Campaign"
  KOM_socdem_campaign_ai: "§PDSNP§!'s Campaign"
-
  SVR_authdem_campaign_ai: "§gUKGS§!'s Campaign"
  SVR_conservative_campaign_ai: "§BLPR§!'s Campaign"
-
  VYT_authdem_campaign_ai: "§gNTS§!'s Campaign"
  VYT_conservative_campaign_ai: "§BVNS§!'s Campaign"
  VYT_liberal_campaign_ai: "§MK-D§!'s Campaign"
-
  KOM_campaign_arctic_russia: "Campaign in §YArctic Russia§!"
  KOM_campaign_central_russia: "Campaign in §YCentral Russia§!"
  KOM_campaign_ural_region: "Campaign in the §YUral Region§!"
@@ -163,7 +124,6 @@
  KOM_campaign_eastern_siberia: "Campaign in §YEastern Siberia§!"
  KOM_campaign_trans_baikal: "Campaign in §YTrans Baikal§!"
  KOM_campaign_far_east: "Campaign in §YFar East§!"
- 
  VYT_campaign_arctic_russia: "Campaign in §YArctic Russia§!"
  VYT_campaign_central_russia: "Campaign in §YCentral Russia§!"
  VYT_campaign_ural_region: "Campaign in the §YUral Region§!"
@@ -176,15 +136,12 @@
  VYT_campaign_eastern_siberia: "Campaign in §YEastern Siberia§!"
  VYT_campaign_trans_baikal: "Campaign in §YTrans Baikal§!"
  VYT_campaign_far_east: "Campaign in §YFar East§!"
-
  VYT_elections_timeout: "Election Campaigning"
  VYT_Suppress_Minorities_Voting: "Suppress §YMinority Voting§!"
  VYT_Encourage_Rural_Voting: "Encourage §YRural Voting§!"
  VYT_Encourage_Minorities_Voting: "Encourage §YMinority Voting§!"
- 
  VYT_is_campaigning: "A campaign is in progress."
  SVR_is_campaigning: "A campaign is in progress."
-
  SVR_campaign_arctic_russia: "Campaign in §YArctic Russia§!"
  SVR_campaign_central_russia: "Campaign in §YCentral Russia§!"
  SVR_campaign_ural_region: "Campaign in the §YUral Region§!"
@@ -197,19 +154,17 @@
  SVR_campaign_eastern_siberia: "Campaign in §YEastern Siberia§!"
  SVR_campaign_trans_baikal: "Campaign in §YTrans Baikal§!"
  SVR_campaign_far_east: "Campaign in §YFar East§!"
-
  SVR_Limit_LPR_Campaigning: "Limit §YLPR Campaigning§!"
  SVR_Encourage_Minorities_Voting: "Encourage §YMinority Voting§!"
  SVR_Suppress_Opposition_Voting: "Suppress §YOpposition Voting§!"
  SVR_Suppress_Opposition_Voting_tt: "§ODecreases§! opposition's voter turnout in all states."
-
  RUS_democracy_blank: ""
- RUS_democracy_arctic_russia_polls: "§YArctic Russia:§!\n[GetRUSOnegaPolls][GetRUSVytegraPolls][GetRUSArkhangelskPolls][GetRUSMezenPolls][GetRUSNaryanMarPolls][GetRUSPlesetskPolls][GetRUSVelskPolls][GetRUSVendegaPolls][GetRUSUkhtaPolls][GetRUSVorkutaPolls]\n" 
- RUS_democracy_central_russia_polls: "§YCentral Russia:§!\n[GetRUSBuyPolls][GetRUSVologdaPolls][GetRUSKostromaPolls][GetRUSSharyaPolls][GetRUSSemyonovPolls][GetRUSSlobodskoyPolls][GetRUSSyktyvkarPolls][GetRUSYoshkarOlaPolls][GetRUSKazanPolls][GetRUSVyatkaPolls][GetRUSKudymkarPolls][GetRUSIzhevskPolls]\n" 
- RUS_democracy_urals_region_polls: "§YUral Region:§!\n[GetRUSGaynyPolls][GetRUSYurlinskiyPolls][GetRUSBrznkPolls][GetRUSPermPolls][GetRUSSaygatkaPolls][GetRUSUfaPolls][GetRUSAshinskiyPolls]\n" 
- RUS_democracy_transvolga_polls: "§YTransvolga:§!\n[GetRUSGorkyPolls][GetRUSCheboksaryPolls][GetRUSStavropolNaVolgaPolls][GetRUSUlyanovskPolls][GetRUSSamaraPolls][GetRUSNeftegorskPolls][GetRUSBalakovoPolls]\n" 
- RUS_democracy_southern_urals_polls: "§YSouthern Urals:§!\n[GetRUSAlekseevkaPolls][GetRUSSterlitimakPolls][GetRUSOrenburgPolls][GetRUSUstKatavPolls][GetRUSMezhgoryePolls][GetRUSChelyabinskPolls][GetRUSMagnitogorskPolls][GetRUSOrskPolls]\n" 
- RUS_democracy_trans_urals_polls: "§YTrans-Urals:§!\n[GetRUSSaranpaulPolls][GetRUSNyaganPolls][GetRUSYugorskPolls][GetRUSNizhniyTagilPolls][GetRUSZlatoustPolls]\n" 
+ RUS_democracy_arctic_russia_polls: "§YArctic Russia:§!\n[GetRUSOnegaPolls][GetRUSVytegraPolls][GetRUSArkhangelskPolls][GetRUSMezenPolls][GetRUSNaryanMarPolls][GetRUSPlesetskPolls][GetRUSVelskPolls][GetRUSVendegaPolls][GetRUSUkhtaPolls][GetRUSVorkutaPolls]\n"
+ RUS_democracy_central_russia_polls: "§YCentral Russia:§!\n[GetRUSBuyPolls][GetRUSVologdaPolls][GetRUSKostromaPolls][GetRUSSharyaPolls][GetRUSSemyonovPolls][GetRUSSlobodskoyPolls][GetRUSSyktyvkarPolls][GetRUSYoshkarOlaPolls][GetRUSKazanPolls][GetRUSVyatkaPolls][GetRUSKudymkarPolls][GetRUSIzhevskPolls]\n"
+ RUS_democracy_urals_region_polls: "§YUral Region:§!\n[GetRUSGaynyPolls][GetRUSYurlinskiyPolls][GetRUSBrznkPolls][GetRUSPermPolls][GetRUSSaygatkaPolls][GetRUSUfaPolls][GetRUSAshinskiyPolls]\n"
+ RUS_democracy_transvolga_polls: "§YTransvolga:§!\n[GetRUSGorkyPolls][GetRUSCheboksaryPolls][GetRUSStavropolNaVolgaPolls][GetRUSUlyanovskPolls][GetRUSSamaraPolls][GetRUSNeftegorskPolls][GetRUSBalakovoPolls]\n"
+ RUS_democracy_southern_urals_polls: "§YSouthern Urals:§!\n[GetRUSAlekseevkaPolls][GetRUSSterlitimakPolls][GetRUSOrenburgPolls][GetRUSUstKatavPolls][GetRUSMezhgoryePolls][GetRUSChelyabinskPolls][GetRUSMagnitogorskPolls][GetRUSOrskPolls]\n"
+ RUS_democracy_trans_urals_polls: "§YTrans-Urals:§!\n[GetRUSSaranpaulPolls][GetRUSNyaganPolls][GetRUSYugorskPolls][GetRUSNizhniyTagilPolls][GetRUSZlatoustPolls]\n"
  RUS_democracy_west_siberia_polls: "§YWestern Siberia:§!\n[GetRUSKantyMansyPolls][GetRUSSverdlovskPolls][GetRUSTyumenPolls][GetRUSKurganPolls][GetRUSOmskPolls]\n"
  RUS_democracy_north_siberia_polls: "§YNorthern Siberia:§!\n[GetRUSSalekhardPolls][GetRUSSurgutPolls][GetRUSNorliskPolls][GetRUSKolpashevoPolls]\n"
  RUS_democracy_central_siberia_polls: "§YCentral Siberia:§!\n[GetRUSTomskPolls][GetRUSAsinovskyPolls][GetRUSNovosibirskPolls][GetRUSBarnaulPolls][GetRUSKemerovoPolls][GetRUSOyrotiaPolls]\n"
@@ -217,33 +172,25 @@
  RUS_democracy_eastern_siberia_polls: "§YEastern Siberia:§!\n[GetRUSKrasnoyarskPolls][GetRUSLesosibirskPolls][GetRUSBakhtaPolls][GetRUSKanskPolls][GetRUSTayshetPolls][GetRUSUstIlimskPolls]\n"
  RUS_democracy_transbaikal_polls: "§YTrans-Baikal:§!\n[GetRUSIrkutskPolls][GetRUSChernyshevskiyPolls][GetRUSOlenekPolls][GetRUSVilyuyPolls][GetRUSAldanPolls][GetRUSTaksimoPolls][GetRUSVerkhneudinskPolls]\n"
  RUS_democracy_far_east_polls: "§YFar East:§!\n[GetRUSAmurPolls][GetRUSBlagoveshchenskPolls][GetRUSChumikanPolls][GetRUSMagadanPolls][GetRUSYakutskPolls][GetRUSEvenkPolls][GetRUSYanaPolls][GetRUSOmolonPolls][GetRUSChukotkaPolls][GetRUSKamchatkaPolls]\n"
-
  SVR_democratic_politics_category: "Election Polling"
  SVR_democratic_politics_category_desc: "With democracy ensured, we are free to finally hold elections between our parties and political factions.\n\nLatest §Ypolls§! are as follows:\n\n[GetRUSArcticRussiaPolls][GetRUSCentralRussiaPolls][GetRUSTransvolgaPolls][GetRUSUralRegionPolls][GetRUSSouthernUralPolls][GetRUSTransUralsPolls][GetRUSWesternSiberiaPolls][GetRUSNorthernSiberiaPolls][GetRUSCentralSiberiaPolls][GetRUSTuvaPolls][GetRUSEasternSiberiaPolls][GetRUSTransBaikalPolls][GetRUSFarEastPolls]"
-
  SVR_election_results_category: "The Russian Elections"
  SVR_election_results_category_desc: "With democracy ensured, we are free to finally hold elections between our parties and political factions.\n\nLatest §Yelection results§!, in provincial delegates, are as follows:\n\n[GetRUSArcticRussiaResults][GetRUSCentralRussiaResults][GetRUSTransvolgaResults][GetRUSUralRegionResults][GetRUSSouthernUralResults][GetRUSTransUralsResults][GetRUSWesternSiberiaResults][GetRUSNorthernSiberiaResults][GetRUSCentralSiberiaResults][GetRUSTuvaResults][GetRUSEasternSiberiaResults][GetRUSTransBaikalResults][GetRUSFarEastResults]§YFinal Results:§!\n§gUKGS§! final provincial delegates - §g[?RUS_auth_votes]§!\n§BLPR§! final provincial delegates - §B[?RUS_conservative_votes]§!\n\n[GetRUSFinalElectionWinnerSVR]"
-
  VYT_democratic_politics_category: "Election Polling"
  VYT_democratic_politics_category_desc: "With democracy ensured, we are free to finally hold elections between our parties and political factions.\n\nLatest §Ypolls§! are as follows:\n\n[GetRUSArcticRussiaPolls][GetRUSCentralRussiaPolls][GetRUSTransvolgaPolls][GetRUSUralRegionPolls][GetRUSSouthernUralPolls][GetRUSTransUralsPolls][GetRUSWesternSiberiaPolls][GetRUSNorthernSiberiaPolls][GetRUSCentralSiberiaPolls][GetRUSTuvaPolls][GetRUSEasternSiberiaPolls][GetRUSTransBaikalPolls][GetRUSFarEastPolls]"
-
  VYT_election_results_category: "The Russian Elections"
  VYT_election_results_category_desc: "With democracy ensured, we are free to finally hold elections between our parties and political factions.\n\nLatest §Yelection results§!, in provincial delegates, are as follows:\n\n[GetRUSArcticRussiaResults][GetRUSCentralRussiaResults][GetRUSTransvolgaResults][GetRUSUralRegionResults][GetRUSSouthernUralResults][GetRUSTransUralsResults][GetRUSWesternSiberiaResults][GetRUSNorthernSiberiaResults][GetRUSCentralSiberiaResults][GetRUSTuvaResults][GetRUSEasternSiberiaResults][GetRUSTransBaikalResults][GetRUSFarEastResults]§YFinal Results:§!\n§gNTS§! final provincial delegates - §g[?RUS_auth_votes]§!\n§BVNS§! final provincial delegates - §B[?RUS_conservative_votes]§!\n§MK-D§! final provincial delegates - §M[?RUS_liberal_votes]§!\n\n[GetRUSFinalElectionWinnerVYT]"
-
  KOM_democratic_politics_category: "Election Polling"
  KOM_democratic_politics_category_desc: "With democracy ensured in our Republic, we are free to finally hold fair and unbiased elections between our multitude of parties and political factions.\n\nLatest §Ypolls§! are as follows:\n\n[GetRUSArcticRussiaPolls][GetRUSCentralRussiaPolls][GetRUSTransvolgaPolls][GetRUSUralRegionPolls][GetRUSSouthernUralPolls][GetRUSTransUralsPolls][GetRUSWesternSiberiaPolls][GetRUSNorthernSiberiaPolls][GetRUSCentralSiberiaPolls][GetRUSTuvaPolls][GetRUSEasternSiberiaPolls][GetRUSTransBaikalPolls][GetRUSFarEastPolls]"
-
  KOM_election_results_category: "The Russian Elections"
  KOM_election_results_category_desc: "With democracy ensured in our Republic, we are free to finally hold fair and unbiased elections between our multitude of parties and political factions.\n\nLatest §Yelection results§!, in provincial delegates, are as follows:\n\n[GetRUSArcticRussiaResults][GetRUSCentralRussiaResults][GetRUSTransvolgaResults][GetRUSUralRegionResults][GetRUSSouthernUralResults][GetRUSTransUralsResults][GetRUSWesternSiberiaResults][GetRUSNorthernSiberiaResults][GetRUSCentralSiberiaResults][GetRUSTuvaResults][GetRUSEasternSiberiaResults][GetRUSTransBaikalResults][GetRUSFarEastResults]§YFinal Results:§!\n[GetRUSFinalElectionWinnerKOM]"
-
  KOM_results_hide: "Hide Election Results"
-
- RUS_democracy_arctic_russia_results: "§YArctic Russia:§!\n[GetRUSOnegaResults][GetRUSVytegraResults][GetRUSArkhangelskResults][GetRUSMezenResults][GetRUSNaryanMarResults][GetRUSPlesetskResults][GetRUSVelskResults][GetRUSVendegaResults][GetRUSUkhtaResults][GetRUSVorkutaResults]\n" 
- RUS_democracy_central_russia_results: "§YCentral Russia:§!\n[GetRUSBuyResults][GetRUSVologdaResults][GetRUSKostromaResults][GetRUSSharyaResults][GetRUSSemyonovResults][GetRUSSlobodskoyResults][GetRUSSyktyvkarResults][GetRUSYoshkarOlaResults][GetRUSKazanResults][GetRUSVyatkaResults][GetRUSKudymkarResults][GetRUSIzhevskResults]\n" 
- RUS_democracy_ural_region_results: "§YUral Region:§!\n[GetRUSGaynyResults][GetRUSYurlinskiyResults][GetRUSBrznkResults][GetRUSPermResults][GetRUSSaygatkaResults][GetRUSUfaResults][GetRUSAshinskiyResults]\n" 
- RUS_democracy_transvolga_results: "§YTransvolga:§!\n[GetRUSGorkyResults][GetRUSCheboksaryResults][GetRUSStavropolNaVolgaResults][GetRUSUlyanovskResults][GetRUSSamaraResults][GetRUSNeftegorskResults][GetRUSBalakovoResults]\n" 
- RUS_democracy_southern_urals_results: "§YSouthern Urals:§!\n[GetRUSAlekseevkaResults][GetRUSSterlitimakResults][GetRUSOrenburgResults][GetRUSUstKatavResults][GetRUSMezhgoryeResults][GetRUSChelyabinskResults][GetRUSMagnitogorskResults][GetRUSOrskResults]\n" 
- RUS_democracy_trans_urals_results: "§YTrans-Urals:§!\n[GetRUSSaranpaulResults][GetRUSNyaganResults][GetRUSYugorskResults][GetRUSNizhniyTagilResults][GetRUSZlatoustResults]\n" 
+ RUS_democracy_arctic_russia_results: "§YArctic Russia:§!\n[GetRUSOnegaResults][GetRUSVytegraResults][GetRUSArkhangelskResults][GetRUSMezenResults][GetRUSNaryanMarResults][GetRUSPlesetskResults][GetRUSVelskResults][GetRUSVendegaResults][GetRUSUkhtaResults][GetRUSVorkutaResults]\n"
+ RUS_democracy_central_russia_results: "§YCentral Russia:§!\n[GetRUSBuyResults][GetRUSVologdaResults][GetRUSKostromaResults][GetRUSSharyaResults][GetRUSSemyonovResults][GetRUSSlobodskoyResults][GetRUSSyktyvkarResults][GetRUSYoshkarOlaResults][GetRUSKazanResults][GetRUSVyatkaResults][GetRUSKudymkarResults][GetRUSIzhevskResults]\n"
+ RUS_democracy_ural_region_results: "§YUral Region:§!\n[GetRUSGaynyResults][GetRUSYurlinskiyResults][GetRUSBrznkResults][GetRUSPermResults][GetRUSSaygatkaResults][GetRUSUfaResults][GetRUSAshinskiyResults]\n"
+ RUS_democracy_transvolga_results: "§YTransvolga:§!\n[GetRUSGorkyResults][GetRUSCheboksaryResults][GetRUSStavropolNaVolgaResults][GetRUSUlyanovskResults][GetRUSSamaraResults][GetRUSNeftegorskResults][GetRUSBalakovoResults]\n"
+ RUS_democracy_southern_urals_results: "§YSouthern Urals:§!\n[GetRUSAlekseevkaResults][GetRUSSterlitimakResults][GetRUSOrenburgResults][GetRUSUstKatavResults][GetRUSMezhgoryeResults][GetRUSChelyabinskResults][GetRUSMagnitogorskResults][GetRUSOrskResults]\n"
+ RUS_democracy_trans_urals_results: "§YTrans-Urals:§!\n[GetRUSSaranpaulResults][GetRUSNyaganResults][GetRUSYugorskResults][GetRUSNizhniyTagilResults][GetRUSZlatoustResults]\n"
  RUS_democracy_western_siberia_results: "§YWestern Siberia:§!\n[GetRUSKantyMansyResults][GetRUSSverdlovskResults][GetRUSTyumenResults][GetRUSKurganResults][GetRUSOmskResults]\n"
  RUS_democracy_north_siberia_results: "§YNorthern Siberia:§!\n[GetRUSSalekhardResults][GetRUSSurgutResults][GetRUSNorliskResults][GetRUSKolpashevoResults]\n"
  RUS_democracy_central_siberia_results: "§YCentral Siberia:§!\n[GetRUSTomskResults][GetRUSAsinovskyResults][GetRUSNovosibirskResults][GetRUSBarnaulResults][GetRUSKemerovoResults][GetRUSOyrotiaResults]\n"
@@ -251,65 +198,45 @@
  RUS_democracy_eastern_siberia_results: "§YEastern Siberia:§!\n[GetRUSKrasnoyarskResults][GetRUSLesosibirskResults][GetRUSBakhtaResults][GetRUSKanskResults][GetRUSTayshetResults][GetRUSUstIlimskResults]\n"
  RUS_democracy_transbaikal_results: "§YTrans-Baikal:§!\n[GetRUSIrkutskResults][GetRUSChernyshevskiyResults][GetRUSOlenekResults][GetRUSVilyuyResults][GetRUSAldanResults][GetRUSTaksimoResults][GetRUSVerkhneudinskResults]\n"
  RUS_democracy_far_east_results: "§YFar East:§!\n[GetRUSAmurResults][GetRUSBlagoveshchenskResults][GetRUSChumikanResults][GetRUSMagadanResults][GetRUSYakutskResults][GetRUSEvenkResults][GetRUSYanaResults][GetRUSOmolonResults][GetRUSChukotkaResults][GetRUSKamchatkaResults]\n"
-
- #Events
  russian_democracy_helpers.1.t: "Election Day"
  russian_democracy_helpers.1.d: "Following months of debates, speeches, politicking, and campaigning, the big day has finally arrived. As volunteers across the nation begin opening voting booths and counting ballots, candidates and voters settle around radios and street corners to await the results.\n\nAmidst the many elections for mayors, governors, and other elected bodies, the main focus rests on the general election and on who will lead Russia through the coming years.\n\nAs votes are tallied and ballots counted, it is clear the winner of the [GetYear] election is..."
  russian_democracy_helpers.1.a: "Results in decisions"
- 
  russian_democracy_helpers.2.t: "Hiding Election Results"
  russian_democracy_helpers.2.d: "As the victors celebrate and the losers mourn, the many polls which were a staple during election season have quickly faded from the forefront. While some continue to run, measuring public opinion on everything from voter satisfaction to the latest scandals, most have been shuttered, awaiting the next election cycle.\n\nThe many lessons learned from this year's election polling will soon be applied to the next, as experts and amateurs continue to look for ways to improve upon accuracy and reduce bias throughout the polling process."
  russian_democracy_helpers.2.a: "Hopefully they'll be more accurate next time around."
-
  russian_democracy_helpers.3.t: "Election Year"
  russian_democracy_helpers.3.d: "The people of Russia are gearing up for election season. An idea once unthinkable scant decades before, now it is up to the Russian people to decide the fate of their nation and their leaders.\n\nPolitical parties, both big and small, are preparing their supporters and their backers across the nation. Thousands of volunteers, campaign staff, and candidates make ready to depart to the rallies, tours, speeches, and debates that will dominate the headlines for the coming months. Candidates will be scrutinized, issues debated, and at its end, millions of voters will be able to make their voices heard by the powers-that-be."
  russian_democracy_helpers.3.a: "The DSNP; fighting for the working man!"
  russian_democracy_helpers.3.b: "The SMR; building better tomorrow!"
  russian_democracy_helpers.3.c: "The PSD, for a strong and sovereign Russia!"
-
  russian_democracy_helpers.3.e: "The Kadets, to a brighter future!"
  russian_democracy_helpers.3.f: "The VNS; Shulgin will show us the way!"
  russian_democracy_helpers.3.g: "The NTS, for strength and stability!"
-
  russian_democracy_helpers.3.h: "The LPR; For a better Russia!"
  russian_democracy_helpers.3.i: "For the Army, and the Rodina!"
-
  russian_democracy_helpers.4.t: "Polling Updated"
  russian_democracy_helpers.4.d: "Polling in Russia is an imperfect art, an unfortunate consequence of the destruction and turmoil of decades past. Yet, the introduction of democracy to a large population has brought with it quick development in the field. Monthly and weekly polls conducted by newspapers and new polling organizations have allowed campaigns, candidates, and the wider public to measure the popularity of candidates and their ideas.\n\nWhile struggling to balance bias, location, under-representation, and many other matters of concern, polling remains the only way to gauge a campaign's performance until the ballots are cast on election day."
  russian_democracy_helpers.4.a: "Time to check in on the horse race."
-
  russian_democracy_helpers.5.t: "The End of Election Season"
  russian_democracy_helpers.5.d: "The people of Russia have decided. The last of the ballots have been counted, and the winners of the [GetYear] election decided. The victors have made their speeches, thanked their voters, and have begun to focus energies towards the task of governance.\n\nReporters and journalists have returned to the regular crime, scandal, and fluff pieces pushed aside during the election. Party machines have begun shutting down, ads removed, and campaign posters and items put in storage for future use. Soon the campaign will become a distant memory, something for historians and political strategists to look back on in the future.\n\nAfter all, plans are already being drawn for the next election cycle, for when the whole process will begin again."
  russian_democracy_helpers.5.a: "Candidates and Voters, you have done Russia proud!"
-
  russian_democracy_helpers.6.t: "The [GetYear] General Election"
  russian_democracy_helpers.6.d: "Following months of debates, speeches, politicking, and campaigning, the big day has finally arrived. As volunteers across the nation begin opening voting booths and counting ballots, candidates and voters settle around radios and street corners to await the results.\n\nAmidst the many elections for mayors, governors, and other elected bodies, the main focus rests on the general election and on who will lead Russia through the coming years.\n\nAs votes are tallied and ballots counted, it is clear the winner of the [GetYear] election is..."
  russian_democracy_helpers.6.a: "Let the best candidate win."
-
  russian_democracy_helpers.61.t: "The [GetYear] General Election"
  russian_democracy_helpers.61.d: "Following months of debates, speeches, politicking, and campaigning, the big day has finally arrived. As volunteers across the nation begin opening voting booths and counting ballots, candidates and voters settle around radios and street corners to await the results.\n\nAmidst the many elections for mayors, governors, and other elected bodies, the main focus rests on the general election and on who will lead Russia through the coming years.\n\nAs votes are tallied and ballots counted, it is clear the winner of the [GetYear] election is..."
  russian_democracy_helpers.61.a: "Let the best candidate win."
-
  russian_democracy_helpers.7.t: "Where to Campaign?"
  russian_democracy_helpers.7.d: "If you see this someone fucked up"
-
  russian_democracy_helpers.8.t: "Where to Campaign?"
  russian_democracy_helpers.8.d: "If you see this someone fucked up"
-
  russian_democracy_helpers.9.t: "Where to Campaign?"
  russian_democracy_helpers.9.d: "If you see this someone fucked up"
-
  russian_democracy_helpers.10.t: "Where to Campaign?"
  russian_democracy_helpers.10.d: "If you see this someone fucked up"
-
  russian_democracy_helpers.11.t: ""
  russian_democracy_helpers.11.d: ""
  russian_democracy_helpers.11.a: ""
- 
-
- #Komi Parties
-
- ### RESULTS ###
  RUS_democracy_859_results_KOM: "[859.GetName] - [859.GetRUSElectionStateVictorKOM] (§g[?859.RUS_auth_state_votes]§! - §M[?859.RUS_liberal_state_votes]§! - §P[?859.RUS_socdem_state_votes]§!) (§W[?859.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_858_results_KOM: "[858.GetName] - [858.GetRUSElectionStateVictorKOM] (§g[?858.RUS_auth_state_votes]§! - §M[?858.RUS_liberal_state_votes]§! - §P[?858.RUS_socdem_state_votes]§!) (§W[?858.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_214_results_KOM: "[214.GetName] - [214.GetRUSElectionStateVictorKOM] (§g[?214.RUS_auth_state_votes]§! - §M[?214.RUS_liberal_state_votes]§! - §P[?214.RUS_socdem_state_votes]§!) (§W[?214.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -320,7 +247,6 @@
  RUS_democracy_870_results_KOM: "[870.GetName] - [870.GetRUSElectionStateVictorKOM] (§g[?870.RUS_auth_state_votes]§! - §M[?870.RUS_liberal_state_votes]§! - §P[?870.RUS_socdem_state_votes]§!) (§W[?870.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_869_results_KOM: "[869.GetName] - [869.GetRUSElectionStateVictorKOM] (§g[?869.RUS_auth_state_votes]§! - §M[?869.RUS_liberal_state_votes]§! - §P[?869.RUS_socdem_state_votes]§!) (§W[?869.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_863_results_KOM: "[863.GetName] - [863.GetRUSElectionStateVictorKOM] (§g[?863.RUS_auth_state_votes]§! - §M[?863.RUS_liberal_state_votes]§! - §P[?863.RUS_socdem_state_votes]§!) (§W[?863.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_857_results_KOM: "[857.GetName] - [857.GetRUSElectionStateVictorKOM] (§g[?857.RUS_auth_state_votes]§! - §M[?857.RUS_liberal_state_votes]§! - §P[?857.RUS_socdem_state_votes]§!) (§W[?857.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_351_results_KOM: "[351.GetName] - [351.GetRUSElectionStateVictorKOM] (§g[?351.RUS_auth_state_votes]§! - §M[?351.RUS_liberal_state_votes]§! - §P[?351.RUS_socdem_state_votes]§!) (§W[?351.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_856_results_KOM: "[856.GetName] - [856.GetRUSElectionStateVictorKOM] (§g[?856.RUS_auth_state_votes]§! - §M[?856.RUS_liberal_state_votes]§! - §P[?856.RUS_socdem_state_votes]§!) (§W[?856.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -333,7 +259,6 @@
  RUS_democracy_400_results_KOM: "[400.GetName] - [400.GetRUSElectionStateVictorKOM] (§g[?400.RUS_auth_state_votes]§! - §M[?400.RUS_liberal_state_votes]§! - §P[?400.RUS_socdem_state_votes]§!) (§W[?400.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_752_results_KOM: "[752.GetName] - [752.GetRUSElectionStateVictorKOM] (§g[?752.RUS_auth_state_votes]§! - §M[?752.RUS_liberal_state_votes]§! - §P[?752.RUS_socdem_state_votes]§!) (§W[?752.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_399_results_KOM: "[399.GetName] - [399.GetRUSElectionStateVictorKOM] (§g[?399.RUS_auth_state_votes]§! - §M[?399.RUS_liberal_state_votes]§! - §P[?399.RUS_socdem_state_votes]§!) (§W[?399.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_252_results_KOM: "[252.GetName] - [252.GetRUSElectionStateVictorKOM] (§g[?252.RUS_auth_state_votes]§! - §M[?252.RUS_liberal_state_votes]§! - §P[?252.RUS_socdem_state_votes]§!) (§W[?252.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_256_results_KOM: "[256.GetName] - [256.GetRUSElectionStateVictorKOM] (§g[?256.RUS_auth_state_votes]§! - §M[?256.RUS_liberal_state_votes]§! - §P[?256.RUS_socdem_state_votes]§!) (§W[?256.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_250_results_KOM: "[250.GetName] - [250.GetRUSElectionStateVictorKOM] (§g[?250.RUS_auth_state_votes]§! - §M[?250.RUS_liberal_state_votes]§! - §P[?250.RUS_socdem_state_votes]§!) (§W[?250.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -341,7 +266,6 @@
  RUS_democracy_850_results_KOM: "[850.GetName] - [850.GetRUSElectionStateVictorKOM] (§g[?850.RUS_auth_state_votes]§! - §M[?850.RUS_liberal_state_votes]§! - §P[?850.RUS_socdem_state_votes]§!) (§W[?850.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_251_results_KOM: "[251.GetName] - [251.GetRUSElectionStateVictorKOM] (§g[?251.RUS_auth_state_votes]§! - §M[?251.RUS_liberal_state_votes]§! - §P[?251.RUS_socdem_state_votes]§!) (§W[?251.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_755_results_KOM: "[755.GetName] - [755.GetRUSElectionStateVictorKOM] (§g[?755.RUS_auth_state_votes]§! - §M[?755.RUS_liberal_state_votes]§! - §P[?755.RUS_socdem_state_votes]§!) (§W[?755.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_866_results_KOM: "[866.GetName] - [866.GetRUSElectionStateVictorKOM] (§g[?866.RUS_auth_state_votes]§! - §M[?866.RUS_liberal_state_votes]§! - §P[?866.RUS_socdem_state_votes]§!) (§W[?866.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_865_results_KOM: "[865.GetName] - [865.GetRUSElectionStateVictorKOM] (§g[?865.RUS_auth_state_votes]§! - §M[?865.RUS_liberal_state_votes]§! - §P[?865.RUS_socdem_state_votes]§!) (§W[?865.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_398_results_KOM: "[398.GetName] - [398.GetRUSElectionStateVictorKOM] (§g[?398.RUS_auth_state_votes]§! - §M[?398.RUS_liberal_state_votes]§! - §P[?398.RUS_socdem_state_votes]§!) (§W[?398.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -349,7 +273,6 @@
  RUS_democracy_864_results_KOM: "[864.GetName] - [864.GetRUSElectionStateVictorKOM] (§g[?864.RUS_auth_state_votes]§! - §M[?864.RUS_liberal_state_votes]§! - §P[?864.RUS_socdem_state_votes]§!) (§W[?864.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_651_results_KOM: "[651.GetName] - [651.GetRUSElectionStateVictorKOM] (§g[?651.RUS_auth_state_votes]§! - §M[?651.RUS_liberal_state_votes]§! - §P[?651.RUS_socdem_state_votes]§!) (§W[?651.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_853_results_KOM: "[853.GetName] - [853.GetRUSElectionStateVictorKOM] (§g[?853.RUS_auth_state_votes]§! - §M[?853.RUS_liberal_state_votes]§! - §P[?853.RUS_socdem_state_votes]§!) (§W[?853.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_852_results_KOM: "[852.GetName] - [852.GetRUSElectionStateVictorKOM] (§g[?852.RUS_auth_state_votes]§! - §M[?852.RUS_liberal_state_votes]§! - §P[?852.RUS_socdem_state_votes]§!) (§W[?852.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_849_results_KOM: "[849.GetName] - [849.GetRUSElectionStateVictorKOM] (§g[?849.RUS_auth_state_votes]§! - §M[?849.RUS_liberal_state_votes]§! - §P[?849.RUS_socdem_state_votes]§!) (§W[?849.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_652_results_KOM: "[652.GetName] - [652.GetRUSElectionStateVictorKOM] (§g[?652.RUS_auth_state_votes]§! - §M[?652.RUS_liberal_state_votes]§! - §P[?652.RUS_socdem_state_votes]§!) (§W[?652.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -358,41 +281,34 @@
  RUS_democracy_754_results_KOM: "[754.GetName] - [754.GetRUSElectionStateVictorKOM] (§g[?754.RUS_auth_state_votes]§! - §M[?754.RUS_liberal_state_votes]§! - §P[?754.RUS_socdem_state_votes]§!) (§W[?754.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_582_results_KOM: "[582.GetName] - [582.GetRUSElectionStateVictorKOM] (§g[?582.RUS_auth_state_votes]§! - §M[?582.RUS_liberal_state_votes]§! - §P[?582.RUS_socdem_state_votes]§!) (§W[?582.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_846_results_KOM: "[846.GetName] - [846.GetRUSElectionStateVictorKOM] (§g[?846.RUS_auth_state_votes]§! - §M[?846.RUS_liberal_state_votes]§! - §P[?846.RUS_socdem_state_votes]§!) (§W[?846.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_581_results_KOM: "[581.GetName] - [581.GetRUSElectionStateVictorKOM] (§g[?581.RUS_auth_state_votes]§! - §M[?581.RUS_liberal_state_votes]§! - §P[?581.RUS_socdem_state_votes]§!) (§W[?581.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_756_results_KOM: "[756.GetName] - [756.GetRUSElectionStateVictorKOM] (§g[?756.RUS_auth_state_votes]§! - §M[?756.RUS_liberal_state_votes]§! - §P[?756.RUS_socdem_state_votes]§!) (§W[?756.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_845_results_KOM: "[845.GetName] - [845.GetRUSElectionStateVictorKOM] (§g[?845.RUS_auth_state_votes]§! - §M[?845.RUS_liberal_state_votes]§! - §P[?845.RUS_socdem_state_votes]§!) (§W[?845.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_871_results_KOM: "[871.GetName] - [871.GetRUSElectionStateVictorKOM] (§g[?871.RUS_auth_state_votes]§! - §M[?871.RUS_liberal_state_votes]§! - §P[?871.RUS_socdem_state_votes]§!) (§W[?871.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_573_results_KOM: "[573.GetName] - [573.GetRUSElectionStateVictorKOM] (§g[?573.RUS_auth_state_votes]§! - §M[?573.RUS_liberal_state_votes]§! - §P[?573.RUS_socdem_state_votes]§!) (§W[?573.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_580_results_KOM: "[580.GetName] - [580.GetRUSElectionStateVictorKOM] (§g[?580.RUS_auth_state_votes]§! - §M[?580.RUS_liberal_state_votes]§! - §P[?580.RUS_socdem_state_votes]§!) (§W[?580.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_653_results_KOM: "[653.GetName] - [653.GetRUSElectionStateVictorKOM] (§g[?653.RUS_auth_state_votes]§! - §M[?653.RUS_liberal_state_votes]§! - §P[?653.RUS_socdem_state_votes]§!) (§W[?653.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_403_results_KOM: "[403.GetName] - [403.GetRUSElectionStateVictorKOM] (§g[?403.RUS_auth_state_votes]§! - §M[?403.RUS_liberal_state_votes]§! - §P[?403.RUS_socdem_state_votes]§!) (§W[?403.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_572_results_KOM: "[572.GetName] - [572.GetRUSElectionStateVictorKOM] (§g[?572.RUS_auth_state_votes]§! - §M[?572.RUS_liberal_state_votes]§! - §P[?572.RUS_socdem_state_votes]§!) (§W[?572.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_571_results_KOM: "[571.GetName] - [571.GetRUSElectionStateVictorKOM] (§g[?571.RUS_auth_state_votes]§! - §M[?571.RUS_liberal_state_votes]§! - §P[?571.RUS_socdem_state_votes]§!) (§W[?571.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_844_results_KOM: "[844.GetName] - [844.GetRUSElectionStateVictorKOM] (§g[?844.RUS_auth_state_votes]§! - §M[?844.RUS_liberal_state_votes]§! - §P[?844.RUS_socdem_state_votes]§!) (§W[?844.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_579_results_KOM: "[579.GetName] - [579.GetRUSElectionStateVictorKOM] (§g[?579.RUS_auth_state_votes]§! - §M[?579.RUS_liberal_state_votes]§! - §P[?579.RUS_socdem_state_votes]§!) (§W[?579.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_516_results_KOM: "[516.GetName] - [516.GetRUSElectionStateVictorKOM] (§g[?516.RUS_auth_state_votes]§! - §M[?516.RUS_liberal_state_votes]§! - §P[?516.RUS_socdem_state_votes]§!) (§W[?516.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_577_results_KOM: "[577.GetName] - [577.GetRUSElectionStateVictorKOM] (§g[?577.RUS_auth_state_votes]§! - §M[?577.RUS_liberal_state_votes]§! - §P[?577.RUS_socdem_state_votes]§!) (§W[?577.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_578_results_KOM: "[578.GetName] - [578.GetRUSElectionStateVictorKOM] (§g[?578.RUS_auth_state_votes]§! - §M[?578.RUS_liberal_state_votes]§! - §P[?578.RUS_socdem_state_votes]§!) (§W[?578.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_887_results_KOM: "[887.GetName] - [887.GetRUSElectionStateVictorKOM] (§g[?887.RUS_auth_state_votes]§! - §M[?887.RUS_liberal_state_votes]§! - §P[?887.RUS_socdem_state_votes]§!) (§W[?887.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_570_results_KOM: "[570.GetName] - [570.GetRUSElectionStateVictorKOM] (§g[?570.RUS_auth_state_votes]§! - §M[?570.RUS_liberal_state_votes]§! - §P[?570.RUS_socdem_state_votes]§!) (§W[?570.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_40_results_KOM: "[40.GetName] - [40.GetRUSElectionStateVictorKOM] (§g[?40.RUS_auth_state_votes]§! - §M[?40.RUS_liberal_state_votes]§! - §P[?40.RUS_socdem_state_votes]§!) (§W[?40.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_569_results_KOM: "[569.GetName] - [569.GetRUSElectionStateVictorKOM] (§g[?569.RUS_auth_state_votes]§! - §M[?569.RUS_liberal_state_votes]§! - §P[?569.RUS_socdem_state_votes]§!) (§W[?569.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_654_results_KOM: "[654.GetName] - [654.GetRUSElectionStateVictorKOM] (§g[?654.RUS_auth_state_votes]§! - §M[?654.RUS_liberal_state_votes]§! - §P[?654.RUS_socdem_state_votes]§!) (§W[?654.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_757_results_KOM: "[757.GetName] - [757.GetRUSElectionStateVictorKOM] (§g[?757.RUS_auth_state_votes]§! - §M[?757.RUS_liberal_state_votes]§! - §P[?757.RUS_socdem_state_votes]§!) (§W[?757.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_888_results_KOM: "[888.GetName] - [888.GetRUSElectionStateVictorKOM] (§g[?888.RUS_auth_state_votes]§! - §M[?888.RUS_liberal_state_votes]§! - §P[?888.RUS_socdem_state_votes]§!) (§W[?888.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_576_results_KOM: "[576.GetName] - [576.GetRUSElectionStateVictorKOM] (§g[?576.RUS_auth_state_votes]§! - §M[?576.RUS_liberal_state_votes]§! - §P[?576.RUS_socdem_state_votes]§!) (§W[?576.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_568_results_KOM: "[568.GetName] - [568.GetRUSElectionStateVictorKOM] (§g[?568.RUS_auth_state_votes]§! - §M[?568.RUS_liberal_state_votes]§! - §P[?568.RUS_socdem_state_votes]§!) (§W[?568.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_758_results_KOM: "[758.GetName] - [758.GetRUSElectionStateVictorKOM] (§g[?758.RUS_auth_state_votes]§! - §M[?758.RUS_liberal_state_votes]§! - §P[?758.RUS_socdem_state_votes]§!) (§W[?758.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_567_results_KOM: "[567.GetName] - [567.GetRUSElectionStateVictorKOM] (§g[?567.RUS_auth_state_votes]§! - §M[?567.RUS_liberal_state_votes]§! - §P[?567.RUS_socdem_state_votes]§!) (§W[?567.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_329_results_KOM: "[329.GetName] - [329.GetRUSElectionStateVictorKOM] (§g[?329.RUS_auth_state_votes]§! - §M[?329.RUS_liberal_state_votes]§! - §P[?329.RUS_socdem_state_votes]§!) (§W[?329.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_814_results_KOM: "[814.GetName] - [814.GetRUSElectionStateVictorKOM] (§g[?814.RUS_auth_state_votes]§! - §M[?814.RUS_liberal_state_votes]§! - §P[?814.RUS_socdem_state_votes]§!) (§W[?814.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_566_results_KOM: "[566.GetName] - [566.GetRUSElectionStateVictorKOM] (§g[?566.RUS_auth_state_votes]§! - §M[?566.RUS_liberal_state_votes]§! - §P[?566.RUS_socdem_state_votes]§!) (§W[?566.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_575_results_KOM: "[575.GetName] - [575.GetRUSElectionStateVictorKOM] (§g[?575.RUS_auth_state_votes]§! - §M[?575.RUS_liberal_state_votes]§! - §P[?575.RUS_socdem_state_votes]§!) (§W[?575.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_761_results_KOM: "[761.GetName] - [761.GetRUSElectionStateVictorKOM] (§g[?761.RUS_auth_state_votes]§! - §M[?761.RUS_liberal_state_votes]§! - §P[?761.RUS_socdem_state_votes]§!) (§W[?761.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -401,7 +317,6 @@
  RUS_democracy_564_results_KOM: "[564.GetName] - [564.GetRUSElectionStateVictorKOM] (§g[?564.RUS_auth_state_votes]§! - §M[?564.RUS_liberal_state_votes]§! - §P[?564.RUS_socdem_state_votes]§!) (§W[?564.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_760_results_KOM: "[760.GetName] - [760.GetRUSElectionStateVictorKOM] (§g[?760.RUS_auth_state_votes]§! - §M[?760.RUS_liberal_state_votes]§! - §P[?760.RUS_socdem_state_votes]§!) (§W[?760.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_563_results_KOM: "[563.GetName] - [563.GetRUSElectionStateVictorKOM] (§g[?563.RUS_auth_state_votes]§! - §M[?563.RUS_liberal_state_votes]§! - §P[?563.RUS_socdem_state_votes]§!) (§W[?563.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_1364_results_KOM: "[1364.GetName] - [1364.GetRUSElectionStateVictorKOM] (§g[?1364.RUS_auth_state_votes]§! - §M[?1364.RUS_liberal_state_votes]§! - §P[?1364.RUS_socdem_state_votes]§!) (§W[?1364.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_561_results_KOM: "[561.GetName] - [561.GetRUSElectionStateVictorKOM] (§g[?561.RUS_auth_state_votes]§! - §M[?561.RUS_liberal_state_votes]§! - §P[?561.RUS_socdem_state_votes]§!) (§W[?561.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_886_results_KOM: "[886.GetName] - [886.GetRUSElectionStateVictorKOM] (§g[?886.RUS_auth_state_votes]§! - §M[?886.RUS_liberal_state_votes]§! - §P[?886.RUS_socdem_state_votes]§!) (§W[?886.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -412,9 +327,6 @@
  RUS_democracy_644_results_KOM: "[644.GetName] - [644.GetRUSElectionStateVictorKOM] (§g[?644.RUS_auth_state_votes]§! - §M[?644.RUS_liberal_state_votes]§! - §P[?644.RUS_socdem_state_votes]§!) (§W[?644.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_891_results_KOM: "[891.GetName] - [891.GetRUSElectionStateVictorKOM] (§g[?891.RUS_auth_state_votes]§! - §M[?891.RUS_liberal_state_votes]§! - §P[?891.RUS_socdem_state_votes]§!) (§W[?891.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_637_results_KOM: "[637.GetName] - [637.GetRUSElectionStateVictorKOM] (§g[?637.RUS_auth_state_votes]§! - §M[?637.RUS_liberal_state_votes]§! - §P[?637.RUS_socdem_state_votes]§!) (§W[?637.RUS_total_state_votes]§! §Wtotal§!)\n"
-
- ### POLLING ###
-
  RUS_democracy_859_polls_KOM: "§W[859.GetName]§! ([859.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [859.GetRUSAuthPolling]) (§MSMR§! - [859.GetRUSLiberalPolling]) (§PDSNP§! - [859.GetRUSSocDemPolling])\n"
  RUS_democracy_858_polls_KOM: "§W[858.GetName]§! ([858.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [858.GetRUSAuthPolling]) (§MSMR§! - [858.GetRUSLiberalPolling]) (§PDSNP§! - [858.GetRUSSocDemPolling])\n"
  RUS_democracy_214_polls_KOM: "§W[214.GetName]§! ([214.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [214.GetRUSAuthPolling]) (§MSMR§! - [214.GetRUSLiberalPolling]) (§PDSNP§! - [214.GetRUSSocDemPolling])\n"
@@ -425,7 +337,6 @@
  RUS_democracy_870_polls_KOM: "§W[870.GetName]§! ([870.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [870.GetRUSAuthPolling]) (§MSMR§! - [870.GetRUSLiberalPolling]) (§PDSNP§! - [870.GetRUSSocDemPolling])\n"
  RUS_democracy_869_polls_KOM: "§W[869.GetName]§! ([869.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [869.GetRUSAuthPolling]) (§MSMR§! - [869.GetRUSLiberalPolling]) (§PDSNP§! - [869.GetRUSSocDemPolling])\n"
  RUS_democracy_863_polls_KOM: "§W[863.GetName]§! ([863.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [863.GetRUSAuthPolling]) (§MSMR§! - [863.GetRUSLiberalPolling]) (§PDSNP§! - [863.GetRUSSocDemPolling])\n"
-
  RUS_democracy_857_polls_KOM: "§W[857.GetName]§! ([857.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [857.GetRUSAuthPolling]) (§MSMR§! - [857.GetRUSLiberalPolling]) (§PDSNP§! - [857.GetRUSSocDemPolling])\n"
  RUS_democracy_351_polls_KOM: "§W[351.GetName]§! ([351.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [351.GetRUSAuthPolling]) (§MSMR§! - [351.GetRUSLiberalPolling]) (§PDSNP§! - [351.GetRUSSocDemPolling])\n"
  RUS_democracy_856_polls_KOM: "§W[856.GetName]§! ([856.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [856.GetRUSAuthPolling]) (§MSMR§! - [856.GetRUSLiberalPolling]) (§PDSNP§! - [856.GetRUSSocDemPolling])\n"
@@ -438,7 +349,6 @@
  RUS_democracy_400_polls_KOM: "§W[400.GetName]§! ([400.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [400.GetRUSAuthPolling]) (§MSMR§! - [400.GetRUSLiberalPolling]) (§PDSNP§! - [400.GetRUSSocDemPolling])\n"
  RUS_democracy_752_polls_KOM: "§W[752.GetName]§! ([752.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [752.GetRUSAuthPolling]) (§MSMR§! - [752.GetRUSLiberalPolling]) (§PDSNP§! - [752.GetRUSSocDemPolling])\n"
  RUS_democracy_399_polls_KOM: "§W[399.GetName]§! ([399.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [399.GetRUSAuthPolling]) (§MSMR§! - [399.GetRUSLiberalPolling]) (§PDSNP§! - [399.GetRUSSocDemPolling])\n"
-
  RUS_democracy_252_polls_KOM: "§W[252.GetName]§! ([252.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [252.GetRUSAuthPolling]) (§MSMR§! - [252.GetRUSLiberalPolling]) (§PDSNP§! - [252.GetRUSSocDemPolling])\n"
  RUS_democracy_256_polls_KOM: "§W[256.GetName]§! ([256.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [256.GetRUSAuthPolling]) (§MSMR§! - [256.GetRUSLiberalPolling]) (§PDSNP§! - [256.GetRUSSocDemPolling])\n"
  RUS_democracy_250_polls_KOM: "§W[250.GetName]§! ([250.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [250.GetRUSAuthPolling]) (§MSMR§! - [250.GetRUSLiberalPolling]) (§PDSNP§! - [250.GetRUSSocDemPolling])\n"
@@ -446,7 +356,6 @@
  RUS_democracy_850_polls_KOM: "§W[850.GetName]§! ([850.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [850.GetRUSAuthPolling]) (§MSMR§! - [850.GetRUSLiberalPolling]) (§PDSNP§! - [850.GetRUSSocDemPolling])\n"
  RUS_democracy_251_polls_KOM: "§W[251.GetName]§! ([251.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [251.GetRUSAuthPolling]) (§MSMR§! - [251.GetRUSLiberalPolling]) (§PDSNP§! - [251.GetRUSSocDemPolling])\n"
  RUS_democracy_755_polls_KOM: "§W[755.GetName]§! ([755.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [755.GetRUSAuthPolling]) (§MSMR§! - [755.GetRUSLiberalPolling]) (§PDSNP§! - [755.GetRUSSocDemPolling])\n"
-
  RUS_democracy_866_polls_KOM: "§W[866.GetName]§! ([866.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [866.GetRUSAuthPolling]) (§MSMR§! - [866.GetRUSLiberalPolling]) (§PDSNP§! - [866.GetRUSSocDemPolling])\n"
  RUS_democracy_865_polls_KOM: "§W[865.GetName]§! ([865.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [865.GetRUSAuthPolling]) (§MSMR§! - [865.GetRUSLiberalPolling]) (§PDSNP§! - [865.GetRUSSocDemPolling])\n"
  RUS_democracy_398_polls_KOM: "§W[398.GetName]§! ([398.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [398.GetRUSAuthPolling]) (§MSMR§! - [398.GetRUSLiberalPolling]) (§PDSNP§! - [398.GetRUSSocDemPolling])\n"
@@ -454,7 +363,6 @@
  RUS_democracy_864_polls_KOM: "§W[864.GetName]§! ([864.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [864.GetRUSAuthPolling]) (§MSMR§! - [864.GetRUSLiberalPolling]) (§PDSNP§! - [864.GetRUSSocDemPolling])\n"
  RUS_democracy_651_polls_KOM: "§W[651.GetName]§! ([651.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [651.GetRUSAuthPolling]) (§MSMR§! - [651.GetRUSLiberalPolling]) (§PDSNP§! - [651.GetRUSSocDemPolling])\n"
  RUS_democracy_853_polls_KOM: "§W[853.GetName]§! ([853.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [853.GetRUSAuthPolling]) (§MSMR§! - [853.GetRUSLiberalPolling]) (§PDSNP§! - [853.GetRUSSocDemPolling])\n"
-
  RUS_democracy_852_polls_KOM: "§W[852.GetName]§! ([852.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [852.GetRUSAuthPolling]) (§MSMR§! - [852.GetRUSLiberalPolling]) (§PDSNP§! - [852.GetRUSSocDemPolling])\n"
  RUS_democracy_849_polls_KOM: "§W[849.GetName]§! ([849.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [849.GetRUSAuthPolling]) (§MSMR§! - [849.GetRUSLiberalPolling]) (§PDSNP§! - [849.GetRUSSocDemPolling])\n"
  RUS_democracy_652_polls_KOM: "§W[652.GetName]§! ([652.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [652.GetRUSAuthPolling]) (§MSMR§! - [652.GetRUSLiberalPolling]) (§PDSNP§! - [652.GetRUSSocDemPolling])\n"
@@ -463,41 +371,34 @@
  RUS_democracy_754_polls_KOM: "§W[754.GetName]§! ([754.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [754.GetRUSAuthPolling]) (§MSMR§! - [754.GetRUSLiberalPolling]) (§PDSNP§! - [754.GetRUSSocDemPolling])\n"
  RUS_democracy_582_polls_KOM: "§W[582.GetName]§! ([582.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [582.GetRUSAuthPolling]) (§MSMR§! - [582.GetRUSLiberalPolling]) (§PDSNP§! - [582.GetRUSSocDemPolling])\n"
  RUS_democracy_846_polls_KOM: "§W[846.GetName]§! ([846.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [846.GetRUSAuthPolling]) (§MSMR§! - [846.GetRUSLiberalPolling]) (§PDSNP§! - [846.GetRUSSocDemPolling])\n"
-
  RUS_democracy_581_polls_KOM: "§W[581.GetName]§! ([581.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [581.GetRUSAuthPolling]) (§MSMR§! - [581.GetRUSLiberalPolling]) (§PDSNP§! - [581.GetRUSSocDemPolling])\n"
  RUS_democracy_756_polls_KOM: "§W[756.GetName]§! ([756.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [756.GetRUSAuthPolling]) (§MSMR§! - [756.GetRUSLiberalPolling]) (§PDSNP§! - [756.GetRUSSocDemPolling])\n"
  RUS_democracy_845_polls_KOM: "§W[845.GetName]§! ([845.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [845.GetRUSAuthPolling]) (§MSMR§! - [845.GetRUSLiberalPolling]) (§PDSNP§! - [845.GetRUSSocDemPolling])\n"
  RUS_democracy_871_polls_KOM: "§W[871.GetName]§! ([871.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [871.GetRUSAuthPolling]) (§MSMR§! - [871.GetRUSLiberalPolling]) (§PDSNP§! - [871.GetRUSSocDemPolling])\n"
  RUS_democracy_573_polls_KOM: "§W[573.GetName]§! ([573.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [573.GetRUSAuthPolling]) (§MSMR§! - [573.GetRUSLiberalPolling]) (§PDSNP§! - [573.GetRUSSocDemPolling])\n"
-
  RUS_democracy_580_polls_KOM: "§W[580.GetName]§! ([580.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [580.GetRUSAuthPolling]) (§MSMR§! - [580.GetRUSLiberalPolling]) (§PDSNP§! - [580.GetRUSSocDemPolling])\n"
  RUS_democracy_653_polls_KOM: "§W[653.GetName]§! ([653.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [653.GetRUSAuthPolling]) (§MSMR§! - [653.GetRUSLiberalPolling]) (§PDSNP§! - [653.GetRUSSocDemPolling])\n"
  RUS_democracy_403_polls_KOM: "§W[403.GetName]§! ([403.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [403.GetRUSAuthPolling]) (§MSMR§! - [403.GetRUSLiberalPolling]) (§PDSNP§! - [403.GetRUSSocDemPolling])\n"
  RUS_democracy_572_polls_KOM: "§W[572.GetName]§! ([572.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [572.GetRUSAuthPolling]) (§MSMR§! - [572.GetRUSLiberalPolling]) (§PDSNP§! - [572.GetRUSSocDemPolling])\n"
  RUS_democracy_571_polls_KOM: "§W[571.GetName]§! ([571.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [571.GetRUSAuthPolling]) (§MSMR§! - [571.GetRUSLiberalPolling]) (§PDSNP§! - [571.GetRUSSocDemPolling])\n"
-
  RUS_democracy_844_polls_KOM: "§W[844.GetName]§! ([844.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [844.GetRUSAuthPolling]) (§MSMR§! - [844.GetRUSLiberalPolling]) (§PDSNP§! - [844.GetRUSSocDemPolling])\n"
  RUS_democracy_579_polls_KOM: "§W[579.GetName]§! ([579.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [579.GetRUSAuthPolling]) (§MSMR§! - [579.GetRUSLiberalPolling]) (§PDSNP§! - [579.GetRUSSocDemPolling])\n"
  RUS_democracy_516_polls_KOM: "§W[516.GetName]§! ([516.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [516.GetRUSAuthPolling]) (§MSMR§! - [516.GetRUSLiberalPolling]) (§PDSNP§! - [516.GetRUSSocDemPolling])\n"
  RUS_democracy_577_polls_KOM: "§W[577.GetName]§! ([577.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [577.GetRUSAuthPolling]) (§MSMR§! - [577.GetRUSLiberalPolling]) (§PDSNP§! - [577.GetRUSSocDemPolling])\n"
-
  RUS_democracy_578_polls_KOM: "§W[578.GetName]§! ([578.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [578.GetRUSAuthPolling]) (§MSMR§! - [578.GetRUSLiberalPolling]) (§PDSNP§! - [578.GetRUSSocDemPolling])\n"
  RUS_democracy_887_polls_KOM: "§W[887.GetName]§! ([887.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [887.GetRUSAuthPolling]) (§MSMR§! - [887.GetRUSLiberalPolling]) (§PDSNP§! - [887.GetRUSSocDemPolling])\n"
  RUS_democracy_570_polls_KOM: "§W[570.GetName]§! ([570.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [570.GetRUSAuthPolling]) (§MSMR§! - [570.GetRUSLiberalPolling]) (§PDSNP§! - [570.GetRUSSocDemPolling])\n"
  RUS_democracy_40_polls_KOM: "§W[40.GetName]§! ([40.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [40.GetRUSAuthPolling]) (§MSMR§! - [40.GetRUSLiberalPolling]) (§PDSNP§! - [40.GetRUSSocDemPolling])\n"
  RUS_democracy_569_polls_KOM: "§W[569.GetName]§! ([569.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [569.GetRUSAuthPolling]) (§MSMR§! - [569.GetRUSLiberalPolling]) (§PDSNP§! - [569.GetRUSSocDemPolling])\n"
  RUS_democracy_654_polls_KOM: "§W[654.GetName]§! ([654.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [654.GetRUSAuthPolling]) (§MSMR§! - [654.GetRUSLiberalPolling]) (§PDSNP§! - [654.GetRUSSocDemPolling])\n"
-
  RUS_democracy_757_polls_KOM: "§W[757.GetName]§! ([757.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [757.GetRUSAuthPolling]) (§MSMR§! - [757.GetRUSLiberalPolling]) (§PDSNP§! - [757.GetRUSSocDemPolling])\n"
  RUS_democracy_888_polls_KOM: "§W[888.GetName]§! ([888.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [888.GetRUSAuthPolling]) (§MSMR§! - [888.GetRUSLiberalPolling]) (§PDSNP§! - [888.GetRUSSocDemPolling])\n"
  RUS_democracy_576_polls_KOM: "§W[576.GetName]§! ([576.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [576.GetRUSAuthPolling]) (§MSMR§! - [576.GetRUSLiberalPolling]) (§PDSNP§! - [576.GetRUSSocDemPolling])\n"
  RUS_democracy_568_polls_KOM: "§W[568.GetName]§! ([568.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [568.GetRUSAuthPolling]) (§MSMR§! - [568.GetRUSLiberalPolling]) (§PDSNP§! - [568.GetRUSSocDemPolling])\n"
  RUS_democracy_758_polls_KOM: "§W[758.GetName]§! ([758.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [758.GetRUSAuthPolling]) (§MSMR§! - [758.GetRUSLiberalPolling]) (§PDSNP§! - [758.GetRUSSocDemPolling])\n"
  RUS_democracy_567_polls_KOM: "§W[567.GetName]§! ([567.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [567.GetRUSAuthPolling]) (§MSMR§! - [567.GetRUSLiberalPolling]) (§PDSNP§! - [567.GetRUSSocDemPolling])\n"
-
  RUS_democracy_329_polls_KOM: "§W[329.GetName]§! ([329.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [329.GetRUSAuthPolling]) (§MSMR§! - [329.GetRUSLiberalPolling]) (§PDSNP§! - [329.GetRUSSocDemPolling])\n"
  RUS_democracy_814_polls_KOM: "§W[814.GetName]§! ([814.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [814.GetRUSAuthPolling]) (§MSMR§! - [814.GetRUSLiberalPolling]) (§PDSNP§! - [814.GetRUSSocDemPolling])\n"
-
  RUS_democracy_566_polls_KOM: "§W[566.GetName]§! ([566.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [566.GetRUSAuthPolling]) (§MSMR§! - [566.GetRUSLiberalPolling]) (§PDSNP§! - [566.GetRUSSocDemPolling])\n"
  RUS_democracy_575_polls_KOM: "§W[575.GetName]§! ([575.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [575.GetRUSAuthPolling]) (§MSMR§! - [575.GetRUSLiberalPolling]) (§PDSNP§! - [575.GetRUSSocDemPolling])\n"
  RUS_democracy_761_polls_KOM: "§W[761.GetName]§! ([761.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [761.GetRUSAuthPolling]) (§MSMR§! - [761.GetRUSLiberalPolling]) (§PDSNP§! - [761.GetRUSSocDemPolling])\n"
@@ -506,7 +407,6 @@
  RUS_democracy_564_polls_KOM: "§W[564.GetName]§! ([564.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [564.GetRUSAuthPolling]) (§MSMR§! - [564.GetRUSLiberalPolling]) (§PDSNP§! - [564.GetRUSSocDemPolling])\n"
  RUS_democracy_760_polls_KOM: "§W[760.GetName]§! ([760.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [760.GetRUSAuthPolling]) (§MSMR§! - [760.GetRUSLiberalPolling]) (§PDSNP§! - [760.GetRUSSocDemPolling])\n"
  RUS_democracy_563_polls_KOM: "§W[563.GetName]§! ([563.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [563.GetRUSAuthPolling]) (§MSMR§! - [563.GetRUSLiberalPolling]) (§PDSNP§! - [563.GetRUSSocDemPolling])\n"
-
  RUS_democracy_1364_polls_KOM: "§W[1364.GetName]§! ([1364.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [1364.GetRUSAuthPolling]) (§MSMR§! - [1364.GetRUSLiberalPolling]) (§PDSNP§! - [1364.GetRUSSocDemPolling])\n"
  RUS_democracy_561_polls_KOM: "§W[561.GetName]§! ([561.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [561.GetRUSAuthPolling]) (§MSMR§! - [561.GetRUSLiberalPolling]) (§PDSNP§! - [561.GetRUSSocDemPolling])\n"
  RUS_democracy_886_polls_KOM: "§W[886.GetName]§! ([886.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [886.GetRUSAuthPolling]) (§MSMR§! - [886.GetRUSLiberalPolling]) (§PDSNP§! - [886.GetRUSSocDemPolling])\n"
@@ -517,10 +417,6 @@
  RUS_democracy_644_polls_KOM: "§W[644.GetName]§! ([644.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [644.GetRUSAuthPolling]) (§MSMR§! - [644.GetRUSLiberalPolling]) (§PDSNP§! - [644.GetRUSSocDemPolling])\n"
  RUS_democracy_891_polls_KOM: "§W[891.GetName]§! ([891.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [891.GetRUSAuthPolling]) (§MSMR§! - [891.GetRUSLiberalPolling]) (§PDSNP§! - [891.GetRUSSocDemPolling])\n"
  RUS_democracy_637_polls_KOM: "§W[637.GetName]§! ([637.GetRUSElectionStateLeaderKOM])§W:§!\n(§gPSD§! - [637.GetRUSAuthPolling]) (§MSMR§! - [637.GetRUSLiberalPolling]) (§PDSNP§! - [637.GetRUSSocDemPolling])\n"
-
- ##VYATKA##
-
-
  RUS_democracy_859_results_VYT: "[859.GetName] - [859.GetRUSElectionStateVictorVYT] (§g[?859.RUS_auth_state_votes]§! - §B[?859.RUS_conservative_state_votes]§! - §M[?859.RUS_liberal_state_votes]§!) (§W[?859.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_858_results_VYT: "[858.GetName] - [858.GetRUSElectionStateVictorVYT] (§g[?858.RUS_auth_state_votes]§! - §B[?858.RUS_conservative_state_votes]§! - §M[?858.RUS_liberal_state_votes]§!) (§W[?858.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_214_results_VYT: "[214.GetName] - [214.GetRUSElectionStateVictorVYT] (§g[?214.RUS_auth_state_votes]§! - §B[?214.RUS_conservative_state_votes]§! - §M[?214.RUS_liberal_state_votes]§!) (§W[?214.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -531,7 +427,6 @@
  RUS_democracy_870_results_VYT: "[870.GetName] - [870.GetRUSElectionStateVictorVYT] (§g[?870.RUS_auth_state_votes]§! - §B[?870.RUS_conservative_state_votes]§! - §M[?870.RUS_liberal_state_votes]§!) (§W[?870.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_869_results_VYT: "[869.GetName] - [869.GetRUSElectionStateVictorVYT] (§g[?869.RUS_auth_state_votes]§! - §B[?869.RUS_conservative_state_votes]§! - §M[?869.RUS_liberal_state_votes]§!) (§W[?869.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_863_results_VYT: "[863.GetName] - [863.GetRUSElectionStateVictorVYT] (§g[?863.RUS_auth_state_votes]§! - §B[?863.RUS_conservative_state_votes]§! - §M[?863.RUS_liberal_state_votes]§!) (§W[?863.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_857_results_VYT: "[857.GetName] - [857.GetRUSElectionStateVictorVYT] (§g[?857.RUS_auth_state_votes]§! - §B[?857.RUS_conservative_state_votes]§! - §M[?857.RUS_liberal_state_votes]§!) (§W[?857.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_351_results_VYT: "[351.GetName] - [351.GetRUSElectionStateVictorVYT] (§g[?351.RUS_auth_state_votes]§! - §B[?351.RUS_conservative_state_votes]§! - §M[?351.RUS_liberal_state_votes]§!) (§W[?351.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_856_results_VYT: "[856.GetName] - [856.GetRUSElectionStateVictorVYT] (§g[?856.RUS_auth_state_votes]§! - §B[?856.RUS_conservative_state_votes]§! - §M[?856.RUS_liberal_state_votes]§!) (§W[?856.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -544,7 +439,6 @@
  RUS_democracy_400_results_VYT: "[400.GetName] - [400.GetRUSElectionStateVictorVYT] (§g[?400.RUS_auth_state_votes]§! - §B[?400.RUS_conservative_state_votes]§! - §M[?400.RUS_liberal_state_votes]§!) (§W[?400.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_752_results_VYT: "[752.GetName] - [752.GetRUSElectionStateVictorVYT] (§g[?752.RUS_auth_state_votes]§! - §B[?752.RUS_conservative_state_votes]§! - §M[?752.RUS_liberal_state_votes]§!) (§W[?752.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_399_results_VYT: "[399.GetName] - [399.GetRUSElectionStateVictorVYT] (§g[?399.RUS_auth_state_votes]§! - §B[?399.RUS_conservative_state_votes]§! - §M[?399.RUS_liberal_state_votes]§!) (§W[?399.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_252_results_VYT: "[252.GetName] - [252.GetRUSElectionStateVictorVYT] (§g[?252.RUS_auth_state_votes]§! - §B[?252.RUS_conservative_state_votes]§! - §M[?252.RUS_liberal_state_votes]§!) (§W[?252.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_256_results_VYT: "[256.GetName] - [256.GetRUSElectionStateVictorVYT] (§g[?256.RUS_auth_state_votes]§! - §B[?256.RUS_conservative_state_votes]§! - §M[?256.RUS_liberal_state_votes]§!) (§W[?256.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_250_results_VYT: "[250.GetName] - [250.GetRUSElectionStateVictorVYT] (§g[?250.RUS_auth_state_votes]§! - §B[?250.RUS_conservative_state_votes]§! - §M[?250.RUS_liberal_state_votes]§!) (§W[?250.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -552,7 +446,6 @@
  RUS_democracy_850_results_VYT: "[850.GetName] - [850.GetRUSElectionStateVictorVYT] (§g[?850.RUS_auth_state_votes]§! - §B[?850.RUS_conservative_state_votes]§! - §M[?850.RUS_liberal_state_votes]§!) (§W[?850.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_251_results_VYT: "[251.GetName] - [251.GetRUSElectionStateVictorVYT] (§g[?251.RUS_auth_state_votes]§! - §B[?251.RUS_conservative_state_votes]§! - §M[?251.RUS_liberal_state_votes]§!) (§W[?251.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_755_results_VYT: "[755.GetName] - [755.GetRUSElectionStateVictorVYT] (§g[?755.RUS_auth_state_votes]§! - §B[?755.RUS_conservative_state_votes]§! - §M[?755.RUS_liberal_state_votes]§!) (§W[?755.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_866_results_VYT: "[866.GetName] - [866.GetRUSElectionStateVictorVYT] (§g[?866.RUS_auth_state_votes]§! - §B[?866.RUS_conservative_state_votes]§! - §M[?866.RUS_liberal_state_votes]§!) (§W[?866.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_865_results_VYT: "[865.GetName] - [865.GetRUSElectionStateVictorVYT] (§g[?865.RUS_auth_state_votes]§! - §B[?865.RUS_conservative_state_votes]§! - §M[?865.RUS_liberal_state_votes]§!) (§W[?865.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_398_results_VYT: "[398.GetName] - [398.GetRUSElectionStateVictorVYT] (§g[?398.RUS_auth_state_votes]§! - §B[?398.RUS_conservative_state_votes]§! - §M[?398.RUS_liberal_state_votes]§!) (§W[?398.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -560,7 +453,6 @@
  RUS_democracy_864_results_VYT: "[864.GetName] - [864.GetRUSElectionStateVictorVYT] (§g[?864.RUS_auth_state_votes]§! - §B[?864.RUS_conservative_state_votes]§! - §M[?864.RUS_liberal_state_votes]§!) (§W[?864.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_651_results_VYT: "[651.GetName] - [651.GetRUSElectionStateVictorVYT] (§g[?651.RUS_auth_state_votes]§! - §B[?651.RUS_conservative_state_votes]§! - §M[?651.RUS_liberal_state_votes]§!) (§W[?651.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_853_results_VYT: "[853.GetName] - [853.GetRUSElectionStateVictorVYT] (§g[?853.RUS_auth_state_votes]§! - §B[?853.RUS_conservative_state_votes]§! - §M[?853.RUS_liberal_state_votes]§!) (§W[?853.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_852_results_VYT: "[852.GetName] - [852.GetRUSElectionStateVictorVYT] (§g[?852.RUS_auth_state_votes]§! - §B[?852.RUS_conservative_state_votes]§! - §M[?852.RUS_liberal_state_votes]§!) (§W[?852.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_849_results_VYT: "[849.GetName] - [849.GetRUSElectionStateVictorVYT] (§g[?849.RUS_auth_state_votes]§! - §B[?849.RUS_conservative_state_votes]§! - §M[?849.RUS_liberal_state_votes]§!) (§W[?849.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_652_results_VYT: "[652.GetName] - [652.GetRUSElectionStateVictorVYT] (§g[?652.RUS_auth_state_votes]§! - §B[?652.RUS_conservative_state_votes]§! - §M[?652.RUS_liberal_state_votes]§!) (§W[?652.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -569,41 +461,34 @@
  RUS_democracy_754_results_VYT: "[754.GetName] - [754.GetRUSElectionStateVictorVYT] (§g[?754.RUS_auth_state_votes]§! - §B[?754.RUS_conservative_state_votes]§! - §M[?754.RUS_liberal_state_votes]§!) (§W[?754.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_582_results_VYT: "[582.GetName] - [582.GetRUSElectionStateVictorVYT] (§g[?582.RUS_auth_state_votes]§! - §B[?582.RUS_conservative_state_votes]§! - §M[?582.RUS_liberal_state_votes]§!) (§W[?582.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_846_results_VYT: "[846.GetName] - [846.GetRUSElectionStateVictorVYT] (§g[?846.RUS_auth_state_votes]§! - §B[?846.RUS_conservative_state_votes]§! - §M[?846.RUS_liberal_state_votes]§!) (§W[?846.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_581_results_VYT: "[581.GetName] - [581.GetRUSElectionStateVictorVYT] (§g[?581.RUS_auth_state_votes]§! - §B[?581.RUS_conservative_state_votes]§! - §M[?581.RUS_liberal_state_votes]§!) (§W[?581.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_756_results_VYT: "[756.GetName] - [756.GetRUSElectionStateVictorVYT] (§g[?756.RUS_auth_state_votes]§! - §B[?756.RUS_conservative_state_votes]§! - §M[?756.RUS_liberal_state_votes]§!) (§W[?756.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_845_results_VYT: "[845.GetName] - [845.GetRUSElectionStateVictorVYT] (§g[?845.RUS_auth_state_votes]§! - §B[?845.RUS_conservative_state_votes]§! - §M[?845.RUS_liberal_state_votes]§!) (§W[?845.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_871_results_VYT: "[871.GetName] - [871.GetRUSElectionStateVictorVYT] (§g[?871.RUS_auth_state_votes]§! - §B[?871.RUS_conservative_state_votes]§! - §M[?871.RUS_liberal_state_votes]§!) (§W[?871.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_573_results_VYT: "[573.GetName] - [573.GetRUSElectionStateVictorVYT] (§g[?573.RUS_auth_state_votes]§! - §B[?573.RUS_conservative_state_votes]§! - §M[?573.RUS_liberal_state_votes]§!) (§W[?573.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_580_results_VYT: "[580.GetName] - [580.GetRUSElectionStateVictorVYT] (§g[?580.RUS_auth_state_votes]§! - §B[?580.RUS_conservative_state_votes]§! - §M[?580.RUS_liberal_state_votes]§!) (§W[?580.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_653_results_VYT: "[653.GetName] - [653.GetRUSElectionStateVictorVYT] (§g[?653.RUS_auth_state_votes]§! - §B[?653.RUS_conservative_state_votes]§! - §M[?653.RUS_liberal_state_votes]§!) (§W[?653.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_403_results_VYT: "[403.GetName] - [403.GetRUSElectionStateVictorVYT] (§g[?403.RUS_auth_state_votes]§! - §B[?403.RUS_conservative_state_votes]§! - §M[?403.RUS_liberal_state_votes]§!) (§W[?403.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_572_results_VYT: "[572.GetName] - [572.GetRUSElectionStateVictorVYT] (§g[?572.RUS_auth_state_votes]§! - §B[?572.RUS_conservative_state_votes]§! - §M[?572.RUS_liberal_state_votes]§!) (§W[?572.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_571_results_VYT: "[571.GetName] - [571.GetRUSElectionStateVictorVYT] (§g[?571.RUS_auth_state_votes]§! - §B[?571.RUS_conservative_state_votes]§! - §M[?571.RUS_liberal_state_votes]§!) (§W[?571.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_844_results_VYT: "[844.GetName] - [844.GetRUSElectionStateVictorVYT] (§g[?844.RUS_auth_state_votes]§! - §B[?844.RUS_conservative_state_votes]§! - §M[?844.RUS_liberal_state_votes]§!) (§W[?844.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_579_results_VYT: "[579.GetName] - [579.GetRUSElectionStateVictorVYT] (§g[?579.RUS_auth_state_votes]§! - §B[?579.RUS_conservative_state_votes]§! - §M[?579.RUS_liberal_state_votes]§!) (§W[?579.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_516_results_VYT: "[516.GetName] - [516.GetRUSElectionStateVictorVYT] (§g[?516.RUS_auth_state_votes]§! - §B[?516.RUS_conservative_state_votes]§! - §M[?516.RUS_liberal_state_votes]§!) (§W[?516.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_577_results_VYT: "[577.GetName] - [577.GetRUSElectionStateVictorVYT] (§g[?577.RUS_auth_state_votes]§! - §B[?577.RUS_conservative_state_votes]§! - §M[?577.RUS_liberal_state_votes]§!) (§W[?577.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_578_results_VYT: "[578.GetName] - [578.GetRUSElectionStateVictorVYT] (§g[?578.RUS_auth_state_votes]§! - §B[?578.RUS_conservative_state_votes]§! - §M[?578.RUS_liberal_state_votes]§!) (§W[?578.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_887_results_VYT: "[887.GetName] - [887.GetRUSElectionStateVictorVYT] (§g[?887.RUS_auth_state_votes]§! - §B[?887.RUS_conservative_state_votes]§! - §M[?887.RUS_liberal_state_votes]§!) (§W[?887.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_570_results_VYT: "[570.GetName] - [570.GetRUSElectionStateVictorVYT] (§g[?570.RUS_auth_state_votes]§! - §B[?570.RUS_conservative_state_votes]§! - §M[?570.RUS_liberal_state_votes]§!) (§W[?570.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_40_results_VYT: "[40.GetName] - [40.GetRUSElectionStateVictorVYT] (§g[?40.RUS_auth_state_votes]§! - §B[?40.RUS_conservative_state_votes]§! - §M[?40.RUS_liberal_state_votes]§!) (§W[?40.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_569_results_VYT: "[569.GetName] - [569.GetRUSElectionStateVictorVYT] (§g[?569.RUS_auth_state_votes]§! - §B[?569.RUS_conservative_state_votes]§! - §M[?569.RUS_liberal_state_votes]§!) (§W[?569.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_654_results_VYT: "[654.GetName] - [654.GetRUSElectionStateVictorVYT] (§g[?654.RUS_auth_state_votes]§! - §B[?654.RUS_conservative_state_votes]§! - §M[?654.RUS_liberal_state_votes]§!) (§W[?654.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_757_results_VYT: "[757.GetName] - [757.GetRUSElectionStateVictorVYT] (§g[?757.RUS_auth_state_votes]§! - §B[?757.RUS_conservative_state_votes]§! - §M[?757.RUS_liberal_state_votes]§!) (§W[?757.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_888_results_VYT: "[888.GetName] - [888.GetRUSElectionStateVictorVYT] (§g[?888.RUS_auth_state_votes]§! - §B[?888.RUS_conservative_state_votes]§! - §M[?888.RUS_liberal_state_votes]§!) (§W[?888.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_576_results_VYT: "[576.GetName] - [576.GetRUSElectionStateVictorVYT] (§g[?576.RUS_auth_state_votes]§! - §B[?576.RUS_conservative_state_votes]§! - §M[?576.RUS_liberal_state_votes]§!) (§W[?576.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_568_results_VYT: "[568.GetName] - [568.GetRUSElectionStateVictorVYT] (§g[?568.RUS_auth_state_votes]§! - §B[?568.RUS_conservative_state_votes]§! - §M[?568.RUS_liberal_state_votes]§!) (§W[?568.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_758_results_VYT: "[758.GetName] - [758.GetRUSElectionStateVictorVYT] (§g[?758.RUS_auth_state_votes]§! - §B[?758.RUS_conservative_state_votes]§! - §M[?758.RUS_liberal_state_votes]§!) (§W[?758.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_567_results_VYT: "[567.GetName] - [567.GetRUSElectionStateVictorVYT] (§g[?567.RUS_auth_state_votes]§! - §B[?567.RUS_conservative_state_votes]§! - §M[?567.RUS_liberal_state_votes]§!) (§W[?567.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_329_results_VYT: "[329.GetName] - [329.GetRUSElectionStateVictorVYT] (§g[?329.RUS_auth_state_votes]§! - §B[?329.RUS_conservative_state_votes]§! - §M[?329.RUS_liberal_state_votes]§!) (§W[?329.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_814_results_VYT: "[814.GetName] - [814.GetRUSElectionStateVictorVYT] (§g[?814.RUS_auth_state_votes]§! - §B[?814.RUS_conservative_state_votes]§! - §M[?814.RUS_liberal_state_votes]§!) (§W[?814.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_566_results_VYT: "[566.GetName] - [566.GetRUSElectionStateVictorVYT] (§g[?566.RUS_auth_state_votes]§! - §B[?566.RUS_conservative_state_votes]§! - §M[?566.RUS_liberal_state_votes]§!) (§W[?566.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_575_results_VYT: "[575.GetName] - [575.GetRUSElectionStateVictorVYT] (§g[?575.RUS_auth_state_votes]§! - §B[?575.RUS_conservative_state_votes]§! - §M[?575.RUS_liberal_state_votes]§!) (§W[?575.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_761_results_VYT: "[761.GetName] - [761.GetRUSElectionStateVictorVYT] (§g[?761.RUS_auth_state_votes]§! - §B[?761.RUS_conservative_state_votes]§! - §M[?761.RUS_liberal_state_votes]§!) (§W[?761.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -612,7 +497,6 @@
  RUS_democracy_564_results_VYT: "[564.GetName] - [564.GetRUSElectionStateVictorVYT] (§g[?564.RUS_auth_state_votes]§! - §B[?564.RUS_conservative_state_votes]§! - §M[?564.RUS_liberal_state_votes]§!) (§W[?564.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_760_results_VYT: "[760.GetName] - [760.GetRUSElectionStateVictorVYT] (§g[?760.RUS_auth_state_votes]§! - §B[?760.RUS_conservative_state_votes]§! - §M[?760.RUS_liberal_state_votes]§!) (§W[?760.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_563_results_VYT: "[563.GetName] - [563.GetRUSElectionStateVictorVYT] (§g[?563.RUS_auth_state_votes]§! - §B[?563.RUS_conservative_state_votes]§! - §M[?563.RUS_liberal_state_votes]§!) (§W[?563.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_1364_results_VYT: "[1364.GetName] - [1364.GetRUSElectionStateVictorVYT] (§g[?1364.RUS_auth_state_votes]§! - §B[?1364.RUS_conservative_state_votes]§! - §M[?1364.RUS_liberal_state_votes]§!) (§W[?1364.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_561_results_VYT: "[561.GetName] - [561.GetRUSElectionStateVictorVYT] (§g[?561.RUS_auth_state_votes]§! - §B[?561.RUS_conservative_state_votes]§! - §M[?561.RUS_liberal_state_votes]§!) (§W[?561.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_886_results_VYT: "[886.GetName] - [886.GetRUSElectionStateVictorVYT] (§g[?886.RUS_auth_state_votes]§! - §B[?886.RUS_conservative_state_votes]§! - §M[?886.RUS_liberal_state_votes]§!) (§W[?886.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -623,9 +507,6 @@
  RUS_democracy_644_results_VYT: "[644.GetName] - [644.GetRUSElectionStateVictorVYT] (§g[?644.RUS_auth_state_votes]§! - §B[?644.RUS_conservative_state_votes]§! - §M[?644.RUS_liberal_state_votes]§!) (§W[?644.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_891_results_VYT: "[891.GetName] - [891.GetRUSElectionStateVictorVYT] (§g[?891.RUS_auth_state_votes]§! - §B[?891.RUS_conservative_state_votes]§! - §M[?891.RUS_liberal_state_votes]§!) (§W[?891.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_637_results_VYT: "[637.GetName] - [637.GetRUSElectionStateVictorVYT] (§g[?637.RUS_auth_state_votes]§! - §B[?637.RUS_conservative_state_votes]§! - §M[?637.RUS_liberal_state_votes]§!) (§W[?637.RUS_total_state_votes]§! §Wtotal§!)\n"
-
- ### POLLING ###
-
  RUS_democracy_859_polls_VYT: "§W[859.GetName]§! ([859.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [859.GetRUSAuthPolling]) (§BVNS§! - [859.GetRUSConservativePolling]) (§MK-D§! - [859.GetRUSLiberalPolling])\n"
  RUS_democracy_858_polls_VYT: "§W[858.GetName]§! ([858.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [858.GetRUSAuthPolling]) (§BVNS§! - [858.GetRUSConservativePolling]) (§MK-D§! - [858.GetRUSLiberalPolling])\n"
  RUS_democracy_214_polls_VYT: "§W[214.GetName]§! ([214.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [214.GetRUSAuthPolling]) (§BVNS§! - [214.GetRUSConservativePolling]) (§MK-D§! - [214.GetRUSLiberalPolling])\n"
@@ -636,7 +517,6 @@
  RUS_democracy_870_polls_VYT: "§W[870.GetName]§! ([870.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [870.GetRUSAuthPolling]) (§BVNS§! - [870.GetRUSConservativePolling]) (§MK-D§! - [870.GetRUSLiberalPolling])\n"
  RUS_democracy_869_polls_VYT: "§W[869.GetName]§! ([869.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [869.GetRUSAuthPolling]) (§BVNS§! - [869.GetRUSConservativePolling]) (§MK-D§! - [869.GetRUSLiberalPolling])\n"
  RUS_democracy_863_polls_VYT: "§W[863.GetName]§! ([863.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [863.GetRUSAuthPolling]) (§BVNS§! - [863.GetRUSConservativePolling]) (§MK-D§! - [863.GetRUSLiberalPolling])\n"
-
  RUS_democracy_857_polls_VYT: "§W[857.GetName]§! ([857.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [857.GetRUSAuthPolling]) (§BVNS§! - [857.GetRUSConservativePolling]) (§MK-D§! - [857.GetRUSLiberalPolling])\n"
  RUS_democracy_351_polls_VYT: "§W[351.GetName]§! ([351.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [351.GetRUSAuthPolling]) (§BVNS§! - [351.GetRUSConservativePolling]) (§MK-D§! - [351.GetRUSLiberalPolling])\n"
  RUS_democracy_856_polls_VYT: "§W[856.GetName]§! ([856.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [856.GetRUSAuthPolling]) (§BVNS§! - [856.GetRUSConservativePolling]) (§MK-D§! - [856.GetRUSLiberalPolling])\n"
@@ -649,7 +529,6 @@
  RUS_democracy_400_polls_VYT: "§W[400.GetName]§! ([400.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [400.GetRUSAuthPolling]) (§BVNS§! - [400.GetRUSConservativePolling]) (§MK-D§! - [400.GetRUSLiberalPolling])\n"
  RUS_democracy_752_polls_VYT: "§W[752.GetName]§! ([752.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [752.GetRUSAuthPolling]) (§BVNS§! - [752.GetRUSConservativePolling]) (§MK-D§! - [752.GetRUSLiberalPolling])\n"
  RUS_democracy_399_polls_VYT: "§W[399.GetName]§! ([399.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [399.GetRUSAuthPolling]) (§BVNS§! - [399.GetRUSConservativePolling]) (§MK-D§! - [399.GetRUSLiberalPolling])\n"
-
  RUS_democracy_252_polls_VYT: "§W[252.GetName]§! ([252.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [252.GetRUSAuthPolling]) (§BVNS§! - [252.GetRUSConservativePolling]) (§MK-D§! - [252.GetRUSLiberalPolling])\n"
  RUS_democracy_256_polls_VYT: "§W[256.GetName]§! ([256.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [256.GetRUSAuthPolling]) (§BVNS§! - [256.GetRUSConservativePolling]) (§MK-D§! - [256.GetRUSLiberalPolling])\n"
  RUS_democracy_250_polls_VYT: "§W[250.GetName]§! ([250.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [250.GetRUSAuthPolling]) (§BVNS§! - [250.GetRUSConservativePolling]) (§MK-D§! - [250.GetRUSLiberalPolling])\n"
@@ -657,7 +536,6 @@
  RUS_democracy_850_polls_VYT: "§W[850.GetName]§! ([850.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [850.GetRUSAuthPolling]) (§BVNS§! - [850.GetRUSConservativePolling]) (§MK-D§! - [850.GetRUSLiberalPolling])\n"
  RUS_democracy_251_polls_VYT: "§W[251.GetName]§! ([251.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [251.GetRUSAuthPolling]) (§BVNS§! - [251.GetRUSConservativePolling]) (§MK-D§! - [251.GetRUSLiberalPolling])\n"
  RUS_democracy_755_polls_VYT: "§W[755.GetName]§! ([755.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [755.GetRUSAuthPolling]) (§BVNS§! - [755.GetRUSConservativePolling]) (§MK-D§! - [755.GetRUSLiberalPolling])\n"
-
  RUS_democracy_866_polls_VYT: "§W[866.GetName]§! ([866.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [866.GetRUSAuthPolling]) (§BVNS§! - [866.GetRUSConservativePolling]) (§MK-D§! - [866.GetRUSLiberalPolling])\n"
  RUS_democracy_865_polls_VYT: "§W[865.GetName]§! ([865.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [865.GetRUSAuthPolling]) (§BVNS§! - [865.GetRUSConservativePolling]) (§MK-D§! - [865.GetRUSLiberalPolling])\n"
  RUS_democracy_398_polls_VYT: "§W[398.GetName]§! ([398.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [398.GetRUSAuthPolling]) (§BVNS§! - [398.GetRUSConservativePolling]) (§MK-D§! - [398.GetRUSLiberalPolling])\n"
@@ -665,7 +543,6 @@
  RUS_democracy_864_polls_VYT: "§W[864.GetName]§! ([864.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [864.GetRUSAuthPolling]) (§BVNS§! - [864.GetRUSConservativePolling]) (§MK-D§! - [864.GetRUSLiberalPolling])\n"
  RUS_democracy_651_polls_VYT: "§W[651.GetName]§! ([651.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [651.GetRUSAuthPolling]) (§BVNS§! - [651.GetRUSConservativePolling]) (§MK-D§! - [651.GetRUSLiberalPolling])\n"
  RUS_democracy_853_polls_VYT: "§W[853.GetName]§! ([853.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [853.GetRUSAuthPolling]) (§BVNS§! - [853.GetRUSConservativePolling]) (§MK-D§! - [853.GetRUSLiberalPolling])\n"
-
  RUS_democracy_852_polls_VYT: "§W[852.GetName]§! ([852.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [852.GetRUSAuthPolling]) (§BVNS§! - [852.GetRUSConservativePolling]) (§MK-D§! - [852.GetRUSLiberalPolling])\n"
  RUS_democracy_849_polls_VYT: "§W[849.GetName]§! ([849.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [849.GetRUSAuthPolling]) (§BVNS§! - [849.GetRUSConservativePolling]) (§MK-D§! - [849.GetRUSLiberalPolling])\n"
  RUS_democracy_652_polls_VYT: "§W[652.GetName]§! ([652.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [652.GetRUSAuthPolling]) (§BVNS§! - [652.GetRUSConservativePolling]) (§MK-D§! - [652.GetRUSLiberalPolling])\n"
@@ -674,41 +551,34 @@
  RUS_democracy_754_polls_VYT: "§W[754.GetName]§! ([754.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [754.GetRUSAuthPolling]) (§BVNS§! - [754.GetRUSConservativePolling]) (§MK-D§! - [754.GetRUSLiberalPolling])\n"
  RUS_democracy_582_polls_VYT: "§W[582.GetName]§! ([582.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [582.GetRUSAuthPolling]) (§BVNS§! - [582.GetRUSConservativePolling]) (§MK-D§! - [582.GetRUSLiberalPolling])\n"
  RUS_democracy_846_polls_VYT: "§W[846.GetName]§! ([846.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [846.GetRUSAuthPolling]) (§BVNS§! - [846.GetRUSConservativePolling]) (§MK-D§! - [846.GetRUSLiberalPolling])\n"
-
  RUS_democracy_581_polls_VYT: "§W[581.GetName]§! ([581.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [581.GetRUSAuthPolling]) (§BVNS§! - [581.GetRUSConservativePolling]) (§MK-D§! - [581.GetRUSLiberalPolling])\n"
  RUS_democracy_756_polls_VYT: "§W[756.GetName]§! ([756.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [756.GetRUSAuthPolling]) (§BVNS§! - [756.GetRUSConservativePolling]) (§MK-D§! - [756.GetRUSLiberalPolling])\n"
  RUS_democracy_845_polls_VYT: "§W[845.GetName]§! ([845.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [845.GetRUSAuthPolling]) (§BVNS§! - [845.GetRUSConservativePolling]) (§MK-D§! - [845.GetRUSLiberalPolling])\n"
  RUS_democracy_871_polls_VYT: "§W[871.GetName]§! ([871.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [871.GetRUSAuthPolling]) (§BVNS§! - [871.GetRUSConservativePolling]) (§MK-D§! - [871.GetRUSLiberalPolling])\n"
  RUS_democracy_573_polls_VYT: "§W[573.GetName]§! ([573.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [573.GetRUSAuthPolling]) (§BVNS§! - [573.GetRUSConservativePolling]) (§MK-D§! - [573.GetRUSLiberalPolling])\n"
-
  RUS_democracy_580_polls_VYT: "§W[580.GetName]§! ([580.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [580.GetRUSAuthPolling]) (§BVNS§! - [580.GetRUSConservativePolling]) (§MK-D§! - [580.GetRUSLiberalPolling])\n"
  RUS_democracy_653_polls_VYT: "§W[653.GetName]§! ([653.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [653.GetRUSAuthPolling]) (§BVNS§! - [653.GetRUSConservativePolling]) (§MK-D§! - [653.GetRUSLiberalPolling])\n"
  RUS_democracy_403_polls_VYT: "§W[403.GetName]§! ([403.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [403.GetRUSAuthPolling]) (§BVNS§! - [403.GetRUSConservativePolling]) (§MK-D§! - [403.GetRUSLiberalPolling])\n"
  RUS_democracy_572_polls_VYT: "§W[572.GetName]§! ([572.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [572.GetRUSAuthPolling]) (§BVNS§! - [572.GetRUSConservativePolling]) (§MK-D§! - [572.GetRUSLiberalPolling])\n"
  RUS_democracy_571_polls_VYT: "§W[571.GetName]§! ([571.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [571.GetRUSAuthPolling]) (§BVNS§! - [571.GetRUSConservativePolling]) (§MK-D§! - [571.GetRUSLiberalPolling])\n"
-
  RUS_democracy_844_polls_VYT: "§W[844.GetName]§! ([844.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [844.GetRUSAuthPolling]) (§BVNS§! - [844.GetRUSConservativePolling]) (§MK-D§! - [844.GetRUSLiberalPolling])\n"
  RUS_democracy_579_polls_VYT: "§W[579.GetName]§! ([579.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [579.GetRUSAuthPolling]) (§BVNS§! - [579.GetRUSConservativePolling]) (§MK-D§! - [579.GetRUSLiberalPolling])\n"
  RUS_democracy_516_polls_VYT: "§W[516.GetName]§! ([516.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [516.GetRUSAuthPolling]) (§BVNS§! - [516.GetRUSConservativePolling]) (§MK-D§! - [516.GetRUSLiberalPolling])\n"
  RUS_democracy_577_polls_VYT: "§W[577.GetName]§! ([577.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [577.GetRUSAuthPolling]) (§BVNS§! - [577.GetRUSConservativePolling]) (§MK-D§! - [577.GetRUSLiberalPolling])\n"
-
  RUS_democracy_578_polls_VYT: "§W[578.GetName]§! ([578.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [578.GetRUSAuthPolling]) (§BVNS§! - [578.GetRUSConservativePolling]) (§MK-D§! - [578.GetRUSLiberalPolling])\n"
  RUS_democracy_887_polls_VYT: "§W[887.GetName]§! ([887.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [887.GetRUSAuthPolling]) (§BVNS§! - [887.GetRUSConservativePolling]) (§MK-D§! - [887.GetRUSLiberalPolling])\n"
  RUS_democracy_570_polls_VYT: "§W[570.GetName]§! ([570.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [570.GetRUSAuthPolling]) (§BVNS§! - [570.GetRUSConservativePolling]) (§MK-D§! - [570.GetRUSLiberalPolling])\n"
  RUS_democracy_40_polls_VYT: "§W[40.GetName]§! ([40.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [40.GetRUSAuthPolling]) (§BVNS§! - [40.GetRUSConservativePolling]) (§MK-D§! - [40.GetRUSLiberalPolling])\n"
  RUS_democracy_569_polls_VYT: "§W[569.GetName]§! ([569.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [569.GetRUSAuthPolling]) (§BVNS§! - [569.GetRUSConservativePolling]) (§MK-D§! - [569.GetRUSLiberalPolling])\n"
  RUS_democracy_654_polls_VYT: "§W[654.GetName]§! ([654.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [654.GetRUSAuthPolling]) (§BVNS§! - [654.GetRUSConservativePolling]) (§MK-D§! - [654.GetRUSLiberalPolling])\n"
-
  RUS_democracy_757_polls_VYT: "§W[757.GetName]§! ([757.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [757.GetRUSAuthPolling]) (§BVNS§! - [757.GetRUSConservativePolling]) (§MK-D§! - [757.GetRUSLiberalPolling])\n"
  RUS_democracy_888_polls_VYT: "§W[888.GetName]§! ([888.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [888.GetRUSAuthPolling]) (§BVNS§! - [888.GetRUSConservativePolling]) (§MK-D§! - [888.GetRUSLiberalPolling])\n"
  RUS_democracy_576_polls_VYT: "§W[576.GetName]§! ([576.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [576.GetRUSAuthPolling]) (§BVNS§! - [576.GetRUSConservativePolling]) (§MK-D§! - [576.GetRUSLiberalPolling])\n"
  RUS_democracy_568_polls_VYT: "§W[568.GetName]§! ([568.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [568.GetRUSAuthPolling]) (§BVNS§! - [568.GetRUSConservativePolling]) (§MK-D§! - [568.GetRUSLiberalPolling])\n"
  RUS_democracy_758_polls_VYT: "§W[758.GetName]§! ([758.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [758.GetRUSAuthPolling]) (§BVNS§! - [758.GetRUSConservativePolling]) (§MK-D§! - [758.GetRUSLiberalPolling])\n"
  RUS_democracy_567_polls_VYT: "§W[567.GetName]§! ([567.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [567.GetRUSAuthPolling]) (§BVNS§! - [567.GetRUSConservativePolling]) (§MK-D§! - [567.GetRUSLiberalPolling])\n"
-
  RUS_democracy_329_polls_VYT: "§W[329.GetName]§! ([329.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [329.GetRUSAuthPolling]) (§BVNS§! - [329.GetRUSConservativePolling]) (§MK-D§! - [329.GetRUSLiberalPolling])\n"
  RUS_democracy_814_polls_VYT: "§W[814.GetName]§! ([814.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [814.GetRUSAuthPolling]) (§BVNS§! - [814.GetRUSConservativePolling]) (§MK-D§! - [814.GetRUSLiberalPolling])\n"
-
  RUS_democracy_566_polls_VYT: "§W[566.GetName]§! ([566.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [566.GetRUSAuthPolling]) (§BVNS§! - [566.GetRUSConservativePolling]) (§MK-D§! - [566.GetRUSLiberalPolling])\n"
  RUS_democracy_575_polls_VYT: "§W[575.GetName]§! ([575.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [575.GetRUSAuthPolling]) (§BVNS§! - [575.GetRUSConservativePolling]) (§MK-D§! - [575.GetRUSLiberalPolling])\n"
  RUS_democracy_761_polls_VYT: "§W[761.GetName]§! ([761.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [761.GetRUSAuthPolling]) (§BVNS§! - [761.GetRUSConservativePolling]) (§MK-D§! - [761.GetRUSLiberalPolling])\n"
@@ -717,7 +587,6 @@
  RUS_democracy_564_polls_VYT: "§W[564.GetName]§! ([564.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [564.GetRUSAuthPolling]) (§BVNS§! - [564.GetRUSConservativePolling]) (§MK-D§! - [564.GetRUSLiberalPolling])\n"
  RUS_democracy_760_polls_VYT: "§W[760.GetName]§! ([760.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [760.GetRUSAuthPolling]) (§BVNS§! - [760.GetRUSConservativePolling]) (§MK-D§! - [760.GetRUSLiberalPolling])\n"
  RUS_democracy_563_polls_VYT: "§W[563.GetName]§! ([563.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [563.GetRUSAuthPolling]) (§BVNS§! - [563.GetRUSConservativePolling]) (§MK-D§! - [563.GetRUSLiberalPolling])\n"
-
  RUS_democracy_1364_polls_VYT: "§W[1364.GetName]§! ([1364.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [1364.GetRUSAuthPolling]) (§BVNS§! - [1364.GetRUSConservativePolling]) (§MK-D§! - [1364.GetRUSLiberalPolling])\n"
  RUS_democracy_561_polls_VYT: "§W[561.GetName]§! ([561.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [561.GetRUSAuthPolling]) (§BVNS§! - [561.GetRUSConservativePolling]) (§MK-D§! - [561.GetRUSLiberalPolling])\n"
  RUS_democracy_886_polls_VYT: "§W[886.GetName]§! ([886.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [886.GetRUSAuthPolling]) (§BVNS§! - [886.GetRUSConservativePolling]) (§MK-D§! - [886.GetRUSLiberalPolling])\n"
@@ -728,9 +597,6 @@
  RUS_democracy_644_polls_VYT: "§W[644.GetName]§! ([644.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [644.GetRUSAuthPolling]) (§BVNS§! - [644.GetRUSConservativePolling]) (§MK-D§! - [644.GetRUSLiberalPolling])\n"
  RUS_democracy_891_polls_VYT: "§W[891.GetName]§! ([891.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [891.GetRUSAuthPolling]) (§BVNS§! - [891.GetRUSConservativePolling]) (§MK-D§! - [891.GetRUSLiberalPolling])\n"
  RUS_democracy_637_polls_VYT: "§W[637.GetName]§! ([637.GetRUSElectionStateLeaderVYT])§W:§!\n(§gNTS§! - [637.GetRUSAuthPolling]) (§BVNS§! - [637.GetRUSConservativePolling]) (§MK-D§! - [637.GetRUSLiberalPolling])\n"
-
- ##SVERD
-
  RUS_democracy_859_results_SVR: "[859.GetName] - [859.GetRUSElectionStateVictorSVR] (§g[?859.RUS_auth_state_votes]§! - §B[?859.RUS_conservative_state_votes]§!) (§W[?859.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_858_results_SVR: "[858.GetName] - [858.GetRUSElectionStateVictorSVR] (§g[?858.RUS_auth_state_votes]§! - §B[?858.RUS_conservative_state_votes]§!) (§W[?858.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_214_results_SVR: "[214.GetName] - [214.GetRUSElectionStateVictorSVR] (§g[?214.RUS_auth_state_votes]§! - §B[?214.RUS_conservative_state_votes]§!) (§W[?214.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -741,7 +607,6 @@
  RUS_democracy_870_results_SVR: "[870.GetName] - [870.GetRUSElectionStateVictorSVR] (§g[?870.RUS_auth_state_votes]§! - §B[?870.RUS_conservative_state_votes]§!) (§W[?870.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_869_results_SVR: "[869.GetName] - [869.GetRUSElectionStateVictorSVR] (§g[?869.RUS_auth_state_votes]§! - §B[?869.RUS_conservative_state_votes]§!) (§W[?869.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_863_results_SVR: "[863.GetName] - [863.GetRUSElectionStateVictorSVR] (§g[?863.RUS_auth_state_votes]§! - §B[?863.RUS_conservative_state_votes]§!) (§W[?863.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_857_results_SVR: "[857.GetName] - [857.GetRUSElectionStateVictorSVR] (§g[?857.RUS_auth_state_votes]§! - §B[?857.RUS_conservative_state_votes]§!) (§W[?857.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_351_results_SVR: "[351.GetName] - [351.GetRUSElectionStateVictorSVR] (§g[?351.RUS_auth_state_votes]§! - §B[?351.RUS_conservative_state_votes]§!) (§W[?351.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_856_results_SVR: "[856.GetName] - [856.GetRUSElectionStateVictorSVR] (§g[?856.RUS_auth_state_votes]§! - §B[?856.RUS_conservative_state_votes]§!) (§W[?856.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -754,7 +619,6 @@
  RUS_democracy_400_results_SVR: "[400.GetName] - [400.GetRUSElectionStateVictorSVR] (§g[?400.RUS_auth_state_votes]§! - §B[?400.RUS_conservative_state_votes]§!) (§W[?400.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_752_results_SVR: "[752.GetName] - [752.GetRUSElectionStateVictorSVR] (§g[?752.RUS_auth_state_votes]§! - §B[?752.RUS_conservative_state_votes]§!) (§W[?752.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_399_results_SVR: "[399.GetName] - [399.GetRUSElectionStateVictorSVR] (§g[?399.RUS_auth_state_votes]§! - §B[?399.RUS_conservative_state_votes]§!) (§W[?399.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_252_results_SVR: "[252.GetName] - [252.GetRUSElectionStateVictorSVR] (§g[?252.RUS_auth_state_votes]§! - §B[?252.RUS_conservative_state_votes]§!) (§W[?252.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_256_results_SVR: "[256.GetName] - [256.GetRUSElectionStateVictorSVR] (§g[?256.RUS_auth_state_votes]§! - §B[?256.RUS_conservative_state_votes]§!) (§W[?256.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_250_results_SVR: "[250.GetName] - [250.GetRUSElectionStateVictorSVR] (§g[?250.RUS_auth_state_votes]§! - §B[?250.RUS_conservative_state_votes]§!) (§W[?250.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -762,7 +626,6 @@
  RUS_democracy_850_results_SVR: "[850.GetName] - [850.GetRUSElectionStateVictorSVR] (§g[?850.RUS_auth_state_votes]§! - §B[?850.RUS_conservative_state_votes]§!) (§W[?850.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_251_results_SVR: "[251.GetName] - [251.GetRUSElectionStateVictorSVR] (§g[?251.RUS_auth_state_votes]§! - §B[?251.RUS_conservative_state_votes]§!) (§W[?251.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_755_results_SVR: "[755.GetName] - [755.GetRUSElectionStateVictorSVR] (§g[?755.RUS_auth_state_votes]§! - §B[?755.RUS_conservative_state_votes]§!) (§W[?755.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_866_results_SVR: "[866.GetName] - [866.GetRUSElectionStateVictorSVR] (§g[?866.RUS_auth_state_votes]§! - §B[?866.RUS_conservative_state_votes]§!) (§W[?866.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_865_results_SVR: "[865.GetName] - [865.GetRUSElectionStateVictorSVR] (§g[?865.RUS_auth_state_votes]§! - §B[?865.RUS_conservative_state_votes]§!) (§W[?865.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_398_results_SVR: "[398.GetName] - [398.GetRUSElectionStateVictorSVR] (§g[?398.RUS_auth_state_votes]§! - §B[?398.RUS_conservative_state_votes]§!) (§W[?398.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -770,7 +633,6 @@
  RUS_democracy_864_results_SVR: "[864.GetName] - [864.GetRUSElectionStateVictorSVR] (§g[?864.RUS_auth_state_votes]§! - §B[?864.RUS_conservative_state_votes]§!) (§W[?864.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_651_results_SVR: "[651.GetName] - [651.GetRUSElectionStateVictorSVR] (§g[?651.RUS_auth_state_votes]§! - §B[?651.RUS_conservative_state_votes]§!) (§W[?651.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_853_results_SVR: "[853.GetName] - [853.GetRUSElectionStateVictorSVR] (§g[?853.RUS_auth_state_votes]§! - §B[?853.RUS_conservative_state_votes]§!) (§W[?853.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_852_results_SVR: "[852.GetName] - [852.GetRUSElectionStateVictorSVR] (§g[?852.RUS_auth_state_votes]§! - §B[?852.RUS_conservative_state_votes]§!) (§W[?852.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_849_results_SVR: "[849.GetName] - [849.GetRUSElectionStateVictorSVR] (§g[?849.RUS_auth_state_votes]§! - §B[?849.RUS_conservative_state_votes]§!) (§W[?849.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_652_results_SVR: "[652.GetName] - [652.GetRUSElectionStateVictorSVR] (§g[?652.RUS_auth_state_votes]§! - §B[?652.RUS_conservative_state_votes]§!) (§W[?652.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -779,41 +641,34 @@
  RUS_democracy_754_results_SVR: "[754.GetName] - [754.GetRUSElectionStateVictorSVR] (§g[?754.RUS_auth_state_votes]§! - §B[?754.RUS_conservative_state_votes]§!) (§W[?754.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_582_results_SVR: "[582.GetName] - [582.GetRUSElectionStateVictorSVR] (§g[?582.RUS_auth_state_votes]§! - §B[?582.RUS_conservative_state_votes]§!) (§W[?582.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_846_results_SVR: "[846.GetName] - [846.GetRUSElectionStateVictorSVR] (§g[?846.RUS_auth_state_votes]§! - §B[?846.RUS_conservative_state_votes]§!) (§W[?846.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_581_results_SVR: "[581.GetName] - [581.GetRUSElectionStateVictorSVR] (§g[?581.RUS_auth_state_votes]§! - §B[?581.RUS_conservative_state_votes]§!) (§W[?581.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_756_results_SVR: "[756.GetName] - [756.GetRUSElectionStateVictorSVR] (§g[?756.RUS_auth_state_votes]§! - §B[?756.RUS_conservative_state_votes]§!) (§W[?756.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_845_results_SVR: "[845.GetName] - [845.GetRUSElectionStateVictorSVR] (§g[?845.RUS_auth_state_votes]§! - §B[?845.RUS_conservative_state_votes]§!) (§W[?845.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_871_results_SVR: "[871.GetName] - [871.GetRUSElectionStateVictorSVR] (§g[?871.RUS_auth_state_votes]§! - §B[?871.RUS_conservative_state_votes]§!) (§W[?871.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_573_results_SVR: "[573.GetName] - [573.GetRUSElectionStateVictorSVR] (§g[?573.RUS_auth_state_votes]§! - §B[?573.RUS_conservative_state_votes]§!) (§W[?573.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_580_results_SVR: "[580.GetName] - [580.GetRUSElectionStateVictorSVR] (§g[?580.RUS_auth_state_votes]§! - §B[?580.RUS_conservative_state_votes]§!) (§W[?580.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_653_results_SVR: "[653.GetName] - [653.GetRUSElectionStateVictorSVR] (§g[?653.RUS_auth_state_votes]§! - §B[?653.RUS_conservative_state_votes]§!) (§W[?653.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_403_results_SVR: "[403.GetName] - [403.GetRUSElectionStateVictorSVR] (§g[?403.RUS_auth_state_votes]§! - §B[?403.RUS_conservative_state_votes]§!) (§W[?403.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_572_results_SVR: "[572.GetName] - [572.GetRUSElectionStateVictorSVR] (§g[?572.RUS_auth_state_votes]§! - §B[?572.RUS_conservative_state_votes]§!) (§W[?572.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_571_results_SVR: "[571.GetName] - [571.GetRUSElectionStateVictorSVR] (§g[?571.RUS_auth_state_votes]§! - §B[?571.RUS_conservative_state_votes]§!) (§W[?571.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_844_results_SVR: "[844.GetName] - [844.GetRUSElectionStateVictorSVR] (§g[?844.RUS_auth_state_votes]§! - §B[?844.RUS_conservative_state_votes]§!) (§W[?844.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_579_results_SVR: "[579.GetName] - [579.GetRUSElectionStateVictorSVR] (§g[?579.RUS_auth_state_votes]§! - §B[?579.RUS_conservative_state_votes]§!) (§W[?579.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_516_results_SVR: "[516.GetName] - [516.GetRUSElectionStateVictorSVR] (§g[?516.RUS_auth_state_votes]§! - §B[?516.RUS_conservative_state_votes]§!) (§W[?516.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_577_results_SVR: "[577.GetName] - [577.GetRUSElectionStateVictorSVR] (§g[?577.RUS_auth_state_votes]§! - §B[?577.RUS_conservative_state_votes]§!) (§W[?577.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_578_results_SVR: "[578.GetName] - [578.GetRUSElectionStateVictorSVR] (§g[?578.RUS_auth_state_votes]§! - §B[?578.RUS_conservative_state_votes]§!) (§W[?578.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_887_results_SVR: "[887.GetName] - [887.GetRUSElectionStateVictorSVR] (§g[?887.RUS_auth_state_votes]§! - §B[?887.RUS_conservative_state_votes]§!) (§W[?887.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_570_results_SVR: "[570.GetName] - [570.GetRUSElectionStateVictorSVR] (§g[?570.RUS_auth_state_votes]§! - §B[?570.RUS_conservative_state_votes]§!) (§W[?570.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_40_results_SVR: "[40.GetName] - [40.GetRUSElectionStateVictorSVR] (§g[?40.RUS_auth_state_votes]§! - §B[?40.RUS_conservative_state_votes]§!) (§W[?40.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_569_results_SVR: "[569.GetName] - [569.GetRUSElectionStateVictorSVR] (§g[?569.RUS_auth_state_votes]§! - §B[?569.RUS_conservative_state_votes]§!) (§W[?569.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_654_results_SVR: "[654.GetName] - [654.GetRUSElectionStateVictorSVR] (§g[?654.RUS_auth_state_votes]§! - §B[?654.RUS_conservative_state_votes]§!) (§W[?654.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_757_results_SVR: "[757.GetName] - [757.GetRUSElectionStateVictorSVR] (§g[?757.RUS_auth_state_votes]§! - §B[?757.RUS_conservative_state_votes]§!) (§W[?757.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_888_results_SVR: "[888.GetName] - [888.GetRUSElectionStateVictorSVR] (§g[?888.RUS_auth_state_votes]§! - §B[?888.RUS_conservative_state_votes]§!) (§W[?888.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_576_results_SVR: "[576.GetName] - [576.GetRUSElectionStateVictorSVR] (§g[?576.RUS_auth_state_votes]§! - §B[?576.RUS_conservative_state_votes]§!) (§W[?576.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_568_results_SVR: "[568.GetName] - [568.GetRUSElectionStateVictorSVR] (§g[?568.RUS_auth_state_votes]§! - §B[?568.RUS_conservative_state_votes]§!) (§W[?568.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_758_results_SVR: "[758.GetName] - [758.GetRUSElectionStateVictorSVR] (§g[?758.RUS_auth_state_votes]§! - §B[?758.RUS_conservative_state_votes]§!) (§W[?758.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_567_results_SVR: "[567.GetName] - [567.GetRUSElectionStateVictorSVR] (§g[?567.RUS_auth_state_votes]§! - §B[?567.RUS_conservative_state_votes]§!) (§W[?567.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_329_results_SVR: "[329.GetName] - [329.GetRUSElectionStateVictorSVR] (§g[?329.RUS_auth_state_votes]§! - §B[?329.RUS_conservative_state_votes]§!) (§W[?329.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_814_results_SVR: "[814.GetName] - [814.GetRUSElectionStateVictorSVR] (§g[?814.RUS_auth_state_votes]§! - §B[?814.RUS_conservative_state_votes]§!) (§W[?814.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_566_results_SVR: "[566.GetName] - [566.GetRUSElectionStateVictorSVR] (§g[?566.RUS_auth_state_votes]§! - §B[?566.RUS_conservative_state_votes]§!) (§W[?566.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_575_results_SVR: "[575.GetName] - [575.GetRUSElectionStateVictorSVR] (§g[?575.RUS_auth_state_votes]§! - §B[?575.RUS_conservative_state_votes]§!) (§W[?575.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_761_results_SVR: "[761.GetName] - [761.GetRUSElectionStateVictorSVR] (§g[?761.RUS_auth_state_votes]§! - §B[?761.RUS_conservative_state_votes]§!) (§W[?761.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -822,7 +677,6 @@
  RUS_democracy_564_results_SVR: "[564.GetName] - [564.GetRUSElectionStateVictorSVR] (§g[?564.RUS_auth_state_votes]§! - §B[?564.RUS_conservative_state_votes]§!) (§W[?564.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_760_results_SVR: "[760.GetName] - [760.GetRUSElectionStateVictorSVR] (§g[?760.RUS_auth_state_votes]§! - §B[?760.RUS_conservative_state_votes]§!) (§W[?760.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_563_results_SVR: "[563.GetName] - [563.GetRUSElectionStateVictorSVR] (§g[?563.RUS_auth_state_votes]§! - §B[?563.RUS_conservative_state_votes]§!) (§W[?563.RUS_total_state_votes]§! §Wtotal§!)\n"
-
  RUS_democracy_1364_results_SVR: "[1364.GetName] - [1364.GetRUSElectionStateVictorSVR] (§g[?1364.RUS_auth_state_votes]§! - §B[?1364.RUS_conservative_state_votes]§!) (§W[?1364.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_561_results_SVR: "[561.GetName] - [561.GetRUSElectionStateVictorSVR] (§g[?561.RUS_auth_state_votes]§! - §B[?561.RUS_conservative_state_votes]§!) (§W[?561.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_886_results_SVR: "[886.GetName] - [886.GetRUSElectionStateVictorSVR] (§g[?886.RUS_auth_state_votes]§! - §B[?886.RUS_conservative_state_votes]§!) (§W[?886.RUS_total_state_votes]§! §Wtotal§!)\n"
@@ -833,9 +687,6 @@
  RUS_democracy_644_results_SVR: "[644.GetName] - [644.GetRUSElectionStateVictorSVR] (§g[?644.RUS_auth_state_votes]§! - §B[?644.RUS_conservative_state_votes]§!) (§W[?644.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_891_results_SVR: "[891.GetName] - [891.GetRUSElectionStateVictorSVR] (§g[?891.RUS_auth_state_votes]§! - §B[?891.RUS_conservative_state_votes]§!) (§W[?891.RUS_total_state_votes]§! §Wtotal§!)\n"
  RUS_democracy_637_results_SVR: "[637.GetName] - [637.GetRUSElectionStateVictorSVR] (§g[?637.RUS_auth_state_votes]§! - §B[?637.RUS_conservative_state_votes]§!) (§W[?637.RUS_total_state_votes]§! §Wtotal§!)\n"
-
- ### POLLING ###
-
  RUS_democracy_859_polls_SVR: "§W[859.GetName]§! ([859.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [859.GetRUSAuthPolling]) (§BLPR§! - [859.GetRUSConservativePolling])\n"
  RUS_democracy_858_polls_SVR: "§W[858.GetName]§! ([858.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [858.GetRUSAuthPolling]) (§BLPR§! - [858.GetRUSConservativePolling])\n"
  RUS_democracy_214_polls_SVR: "§W[214.GetName]§! ([214.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [214.GetRUSAuthPolling]) (§BLPR§! - [214.GetRUSConservativePolling])\n"
@@ -846,7 +697,6 @@
  RUS_democracy_870_polls_SVR: "§W[870.GetName]§! ([870.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [870.GetRUSAuthPolling]) (§BLPR§! - [870.GetRUSConservativePolling])\n"
  RUS_democracy_869_polls_SVR: "§W[869.GetName]§! ([869.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [869.GetRUSAuthPolling]) (§BLPR§! - [869.GetRUSConservativePolling])\n"
  RUS_democracy_863_polls_SVR: "§W[863.GetName]§! ([863.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [863.GetRUSAuthPolling]) (§BLPR§! - [863.GetRUSConservativePolling])\n"
-
  RUS_democracy_857_polls_SVR: "§W[857.GetName]§! ([857.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [857.GetRUSAuthPolling]) (§BLPR§! - [857.GetRUSConservativePolling])\n"
  RUS_democracy_351_polls_SVR: "§W[351.GetName]§! ([351.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [351.GetRUSAuthPolling]) (§BLPR§! - [351.GetRUSConservativePolling])\n"
  RUS_democracy_856_polls_SVR: "§W[856.GetName]§! ([856.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [856.GetRUSAuthPolling]) (§BLPR§! - [856.GetRUSConservativePolling])\n"
@@ -859,7 +709,6 @@
  RUS_democracy_400_polls_SVR: "§W[400.GetName]§! ([400.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [400.GetRUSAuthPolling]) (§BLPR§! - [400.GetRUSConservativePolling])\n"
  RUS_democracy_752_polls_SVR: "§W[752.GetName]§! ([752.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [752.GetRUSAuthPolling]) (§BLPR§! - [752.GetRUSConservativePolling])\n"
  RUS_democracy_399_polls_SVR: "§W[399.GetName]§! ([399.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [399.GetRUSAuthPolling]) (§BLPR§! - [399.GetRUSConservativePolling])\n"
-
  RUS_democracy_252_polls_SVR: "§W[252.GetName]§! ([252.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [252.GetRUSAuthPolling]) (§BLPR§! - [252.GetRUSConservativePolling])\n"
  RUS_democracy_256_polls_SVR: "§W[256.GetName]§! ([256.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [256.GetRUSAuthPolling]) (§BLPR§! - [256.GetRUSConservativePolling])\n"
  RUS_democracy_250_polls_SVR: "§W[250.GetName]§! ([250.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [250.GetRUSAuthPolling]) (§BLPR§! - [250.GetRUSConservativePolling])\n"
@@ -867,7 +716,6 @@
  RUS_democracy_850_polls_SVR: "§W[850.GetName]§! ([850.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [850.GetRUSAuthPolling]) (§BLPR§! - [850.GetRUSConservativePolling])\n"
  RUS_democracy_251_polls_SVR: "§W[251.GetName]§! ([251.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [251.GetRUSAuthPolling]) (§BLPR§! - [251.GetRUSConservativePolling])\n"
  RUS_democracy_755_polls_SVR: "§W[755.GetName]§! ([755.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [755.GetRUSAuthPolling]) (§BLPR§! - [755.GetRUSConservativePolling])\n"
-
  RUS_democracy_866_polls_SVR: "§W[866.GetName]§! ([866.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [866.GetRUSAuthPolling]) (§BLPR§! - [866.GetRUSConservativePolling])\n"
  RUS_democracy_865_polls_SVR: "§W[865.GetName]§! ([865.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [865.GetRUSAuthPolling]) (§BLPR§! - [865.GetRUSConservativePolling])\n"
  RUS_democracy_398_polls_SVR: "§W[398.GetName]§! ([398.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [398.GetRUSAuthPolling]) (§BLPR§! - [398.GetRUSConservativePolling])\n"
@@ -875,7 +723,6 @@
  RUS_democracy_864_polls_SVR: "§W[864.GetName]§! ([864.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [864.GetRUSAuthPolling]) (§BLPR§! - [864.GetRUSConservativePolling])\n"
  RUS_democracy_651_polls_SVR: "§W[651.GetName]§! ([651.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [651.GetRUSAuthPolling]) (§BLPR§! - [651.GetRUSConservativePolling])\n"
  RUS_democracy_853_polls_SVR: "§W[853.GetName]§! ([853.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [853.GetRUSAuthPolling]) (§BLPR§! - [853.GetRUSConservativePolling])\n"
-
  RUS_democracy_852_polls_SVR: "§W[852.GetName]§! ([852.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [852.GetRUSAuthPolling]) (§BLPR§! - [852.GetRUSConservativePolling])\n"
  RUS_democracy_849_polls_SVR: "§W[849.GetName]§! ([849.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [849.GetRUSAuthPolling]) (§BLPR§! - [849.GetRUSConservativePolling])\n"
  RUS_democracy_652_polls_SVR: "§W[652.GetName]§! ([652.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [652.GetRUSAuthPolling]) (§BLPR§! - [652.GetRUSConservativePolling])\n"
@@ -884,41 +731,34 @@
  RUS_democracy_754_polls_SVR: "§W[754.GetName]§! ([754.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [754.GetRUSAuthPolling]) (§BLPR§! - [754.GetRUSConservativePolling])\n"
  RUS_democracy_582_polls_SVR: "§W[582.GetName]§! ([582.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [582.GetRUSAuthPolling]) (§BLPR§! - [582.GetRUSConservativePolling])\n"
  RUS_democracy_846_polls_SVR: "§W[846.GetName]§! ([846.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [846.GetRUSAuthPolling]) (§BLPR§! - [846.GetRUSConservativePolling])\n"
-
  RUS_democracy_581_polls_SVR: "§W[581.GetName]§! ([581.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [581.GetRUSAuthPolling]) (§BLPR§! - [581.GetRUSConservativePolling])\n"
  RUS_democracy_756_polls_SVR: "§W[756.GetName]§! ([756.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [756.GetRUSAuthPolling]) (§BLPR§! - [756.GetRUSConservativePolling])\n"
  RUS_democracy_845_polls_SVR: "§W[845.GetName]§! ([845.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [845.GetRUSAuthPolling]) (§BLPR§! - [845.GetRUSConservativePolling])\n"
  RUS_democracy_871_polls_SVR: "§W[871.GetName]§! ([871.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [871.GetRUSAuthPolling]) (§BLPR§! - [871.GetRUSConservativePolling])\n"
  RUS_democracy_573_polls_SVR: "§W[573.GetName]§! ([573.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [573.GetRUSAuthPolling]) (§BLPR§! - [573.GetRUSConservativePolling])\n"
-
  RUS_democracy_580_polls_SVR: "§W[580.GetName]§! ([580.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [580.GetRUSAuthPolling]) (§BLPR§! - [580.GetRUSConservativePolling])\n"
  RUS_democracy_653_polls_SVR: "§W[653.GetName]§! ([653.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [653.GetRUSAuthPolling]) (§BLPR§! - [653.GetRUSConservativePolling])\n"
  RUS_democracy_403_polls_SVR: "§W[403.GetName]§! ([403.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [403.GetRUSAuthPolling]) (§BLPR§! - [403.GetRUSConservativePolling])\n"
  RUS_democracy_572_polls_SVR: "§W[572.GetName]§! ([572.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [572.GetRUSAuthPolling]) (§BLPR§! - [572.GetRUSConservativePolling])\n"
  RUS_democracy_571_polls_SVR: "§W[571.GetName]§! ([571.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [571.GetRUSAuthPolling]) (§BLPR§! - [571.GetRUSConservativePolling])\n"
-
  RUS_democracy_844_polls_SVR: "§W[844.GetName]§! ([844.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [844.GetRUSAuthPolling]) (§BLPR§! - [844.GetRUSConservativePolling])\n"
  RUS_democracy_579_polls_SVR: "§W[579.GetName]§! ([579.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [579.GetRUSAuthPolling]) (§BLPR§! - [579.GetRUSConservativePolling])\n"
  RUS_democracy_516_polls_SVR: "§W[516.GetName]§! ([516.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [516.GetRUSAuthPolling]) (§BLPR§! - [516.GetRUSConservativePolling])\n"
  RUS_democracy_577_polls_SVR: "§W[577.GetName]§! ([577.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [577.GetRUSAuthPolling]) (§BLPR§! - [577.GetRUSConservativePolling])\n"
-
  RUS_democracy_578_polls_SVR: "§W[578.GetName]§! ([578.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [578.GetRUSAuthPolling]) (§BLPR§! - [578.GetRUSConservativePolling])\n"
  RUS_democracy_887_polls_SVR: "§W[887.GetName]§! ([887.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [887.GetRUSAuthPolling]) (§BLPR§! - [887.GetRUSConservativePolling])\n"
  RUS_democracy_570_polls_SVR: "§W[570.GetName]§! ([570.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [570.GetRUSAuthPolling]) (§BLPR§! - [570.GetRUSConservativePolling])\n"
  RUS_democracy_40_polls_SVR: "§W[40.GetName]§! ([40.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [40.GetRUSAuthPolling]) (§BLPR§! - [40.GetRUSConservativePolling])\n"
  RUS_democracy_569_polls_SVR: "§W[569.GetName]§! ([569.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [569.GetRUSAuthPolling]) (§BLPR§! - [569.GetRUSConservativePolling])\n"
  RUS_democracy_654_polls_SVR: "§W[654.GetName]§! ([654.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [654.GetRUSAuthPolling]) (§BLPR§! - [654.GetRUSConservativePolling])\n"
-
  RUS_democracy_757_polls_SVR: "§W[757.GetName]§! ([757.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [757.GetRUSAuthPolling]) (§BLPR§! - [757.GetRUSConservativePolling])\n"
  RUS_democracy_888_polls_SVR: "§W[888.GetName]§! ([888.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [888.GetRUSAuthPolling]) (§BLPR§! - [888.GetRUSConservativePolling])\n"
  RUS_democracy_576_polls_SVR: "§W[576.GetName]§! ([576.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [576.GetRUSAuthPolling]) (§BLPR§! - [576.GetRUSConservativePolling])\n"
  RUS_democracy_568_polls_SVR: "§W[568.GetName]§! ([568.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [568.GetRUSAuthPolling]) (§BLPR§! - [568.GetRUSConservativePolling])\n"
  RUS_democracy_758_polls_SVR: "§W[758.GetName]§! ([758.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [758.GetRUSAuthPolling]) (§BLPR§! - [758.GetRUSConservativePolling])\n"
  RUS_democracy_567_polls_SVR: "§W[567.GetName]§! ([567.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [567.GetRUSAuthPolling]) (§BLPR§! - [567.GetRUSConservativePolling])\n"
-
  RUS_democracy_329_polls_SVR: "§W[329.GetName]§! ([329.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [329.GetRUSAuthPolling]) (§BLPR§! - [329.GetRUSConservativePolling])\n"
  RUS_democracy_814_polls_SVR: "§W[814.GetName]§! ([814.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [814.GetRUSAuthPolling]) (§BLPR§! - [814.GetRUSConservativePolling])\n"
-
  RUS_democracy_566_polls_SVR: "§W[566.GetName]§! ([566.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [566.GetRUSAuthPolling]) (§BLPR§! - [566.GetRUSConservativePolling])\n"
  RUS_democracy_575_polls_SVR: "§W[575.GetName]§! ([575.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [575.GetRUSAuthPolling]) (§BLPR§! - [575.GetRUSConservativePolling])\n"
  RUS_democracy_761_polls_SVR: "§W[761.GetName]§! ([761.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [761.GetRUSAuthPolling]) (§BLPR§! - [761.GetRUSConservativePolling])\n"
@@ -927,7 +767,6 @@
  RUS_democracy_564_polls_SVR: "§W[564.GetName]§! ([564.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [564.GetRUSAuthPolling]) (§BLPR§! - [564.GetRUSConservativePolling])\n"
  RUS_democracy_760_polls_SVR: "§W[760.GetName]§! ([760.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [760.GetRUSAuthPolling]) (§BLPR§! - [760.GetRUSConservativePolling])\n"
  RUS_democracy_563_polls_SVR: "§W[563.GetName]§! ([563.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [563.GetRUSAuthPolling]) (§BLPR§! - [563.GetRUSConservativePolling])\n"
-
  RUS_democracy_1364_polls_SVR: "§W[1364.GetName]§! ([1364.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [1364.GetRUSAuthPolling]) (§BLPR§! - [1364.GetRUSConservativePolling])\n"
  RUS_democracy_561_polls_SVR: "§W[561.GetName]§! ([561.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [561.GetRUSAuthPolling]) (§BLPR§! - [561.GetRUSConservativePolling])\n"
  RUS_democracy_886_polls_SVR: "§W[886.GetName]§! ([886.GetRUSElectionStateLeaderSVR])§W:§!\n(§gUKGS§! - [886.GetRUSAuthPolling]) (§BLPR§! - [886.GetRUSConservativePolling])\n"

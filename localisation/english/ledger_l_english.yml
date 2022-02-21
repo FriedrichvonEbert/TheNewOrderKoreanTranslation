@@ -1,5 +1,4 @@
-﻿l_english:
-
+l_english:
  IdeologyLoc:0 "[?This.GetIdeologyLoc]"
  LEDGER_TITLE_SL:0 "[Root.GetLedgerTitle]"
  LEDGER_TITLE:0 "차트"
@@ -9,9 +8,7 @@
  LEDGER_TITLE_TERRITORY:0 "영토"
  LEDGER_TITLE_FACTIONS:0 "동맹"
  LEDGER_TITLE_ECONOMY:0 "경제"
-
  LEDGER_OPEN:0 "차트 열기"
-
  LEDGER_SCORE:0 "점수"
  LEDGER_ARMY:0 "육군"
  LEDGER_NAVY:0 "해군"
@@ -22,7 +19,6 @@
  LEDGER_SORT_TT:0 "클릭으로 정렬"
  LEDGER_GROUP_TT:0 "클릭으로 모아보기"
  LEDGER_REFRESH_TT:0 "클릭으로 새로고침"
-
  LEDGER_IDEOLOGY:0 "이념"
  LEDGER_STABILITY:0 "안정도"
  LEDGER_WAR_SUPPORT:0 "전쟁 지지도"
@@ -31,8 +27,7 @@
  LEDGER_RESEARCH_SLOTS:0 "연구 슬롯"
  LEDGER_RESEARCH_SLOTS_TT:0 "연구 속도 보너스: [?this.modifier@research_speed_factor|+=%]\n연구를 공유하는 국가: [?this.num_tech_sharing_groups|Y0]\n시작 시 연구 슬롯: [?this.original_research_slots|Y0]"
  LEDGER_POLITICAL_POWER_TT:0 "일일 정치력 획득: [?this.political_power_daily|+=]"
- LEDGER_INDUSTRY_TT:0 "모든 민간 공장: [?this.num_of_civilian_factories|Y0]\n모든 군수 공장: [?this.num_of_military_factories|Y0]\n모든 조선소: [?this.num_of_naval_factories|Y0]"
-
+ LEDGER_INDUSTRY_TT:0 "모든 민간공장: [?this.num_of_civilian_factories|Y0]\n모든 군수공장: [?this.num_of_military_factories|Y0]\n모든 해군 조선소: [?this.num_of_naval_factories|Y0]"
  LEDGER_BATTALIONS:0 "대대"
  LEDGER_DIVISIONS:0 "사단"
  LEDGER_MANPOWER:0 "인력"
@@ -41,29 +36,25 @@
  LEDGER_COMMAND_POWER_TT:0 "일일 지휘력 획득: [?this.command_power_daily|+=]"
  LEDGER_CASUALTIES:0 "사상자"
  LEDGER_LAND_DOCTRINE_LEVEL:0 "육군 교리"
-
  LEDGER_NAVY_XP:0 "해군 경험치"
  LEDGER_AIR_XP:0 "공군 경험치"
  LEDGER_NUKES:0 "핵무기"
  LEDGER_NUCLEAR_REACTORS:0 "원자로"
  LEDGER_ROCKET_SITES:0 "로켓 사일로"
-
- LEDGER_CIV_FACTORIES:0 "민간 공장"
- LEDGER_CIV_FACTORIES_TT:0 "건설 속도 보너스: [?this.modifier@production_speed_buildings_factor|+=%]\n사용 가능한 민간 공장: [?this.effective_civilian_factories|Y0]"
+ LEDGER_CIV_FACTORIES:0 "민간공장"
+ LEDGER_CIV_FACTORIES_TT:0 "건설 속도 혜택: [?this.modifier@production_speed_buildings_factor|+=%]\n사용 가능한 민간공장: [?this.effective_civilian_factories|Y0]"
  LEDGER_CONSUMER_GOODS:0 "소비재"
- LEDGER_CONSUMER_GOODS_TT:0 "소비재로 사용되는 민간 공장: [?this.consumer_goods_factories|0Y]"
+ LEDGER_CONSUMER_GOODS_TT:0 "소비재로 사용되는 민간공장: [?this.consumer_goods_factories|0Y]"
  LEDGER_MILITARY_FACTORIES:0 "군사 공장"
  LEDGER_MILITARY_FACTORIES_TT:0 "공장 생산 보너스: [?this.modifier@industrial_capacity_factory|+=%]\n사용 가능한 군수 공장: [?this.effective_military_factories|Y0]"
  LEDGER_DOCKYARDS:0 "조선소"
  LEDGER_DOCKYARDS_TT:0 "조선소 건조 보너스: [?this.modifier@industrial_capacity_dockyard|+=%]\n사용 가능한 조선소: [?this.effective_naval_factories|Y0]"
  LEDGER_FUEL:0 "연료"
-
  LEDGER_OWNED_STATES:0 "소유한\n주"
  LEDGER_CONTROLLED_STATES:0 "지배하고 있는 주"
  LEDGER_OWNED_CONTROLLED_STATES:0 "소유, 지배하고 있는 주"
  LEDGER_OCCUPIED_STATES:0 "점령한\n주"
  LEDGER_CORE_STATES:0 "핵심\n주"
  LEDGER_CONTROLELD_STATES_INCLUDING_SUBJECTS:0 "괴뢰국을 포함하여 지배하고 있는 주"
-
  LEDGER_FACTION_LEADER:0 "지도국"
  LEDGER_FACTION_MEMBERS:0 "가맹국"

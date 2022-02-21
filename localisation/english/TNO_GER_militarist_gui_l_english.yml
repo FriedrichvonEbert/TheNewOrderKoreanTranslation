@@ -1,153 +1,104 @@
-﻿l_english:
- GER_MILITARIST_INFLUENCE_MAIN:0 "영향력: [GetGGR_militarist_influence]" 
- GER_MILITARIST_POWER_MAIN:0 "권력: [GetGGR_militarist_power]" 
- GER_MILITARIST_LOYALTY_MAIN:0 "선호도: [GetGGR_militarist_Loyalty]"  
+l_english:
+ GER_MILITARIST_INFLUENCE_MAIN:0 "영향력: [GetGGR_militarist_influence]"
+ GER_MILITARIST_POWER_MAIN:0 "권력: [GetGGR_militarist_power]"
+ GER_MILITARIST_LOYALTY_MAIN:0 "선호도: [GetGGR_militarist_Loyalty]"
  GER_MILITARIST_INFLUENCE_MAIN_TT:0 "군국주의자들은 독일국 내의 사건들에 [GetGGR_militarist_influence_intext] 영향력을 가지고 있습니다. (§Y[?GER_Militarist_Influence|0]%§!)"
  GER_MILITARIST_POWER_MAIN_TT:0 "군국주의자들은 독일국과의 이익과는 별개로 [GetGGR_militarist_power_intext] 권력을 가지고 있습니다. (§Y[?GER_Militarist_Power|0]%§!)"
  GER_MILITARIST_LOYALTY_MAIN_TT:0 "군국주의자들은 독일국의 지도층에 [GetGGR_militarist_Loyalty_intext] 있습니다. (§Y[?GER_Militarist_Loyalty|0]%§!)"
-
  GER_MILITARIST_INFLUENCE_ABSOLUTE:0 "§G완벽함§!"
- GER_MILITARIST_INFLUENCE_VERY_HIGH:0 "매우 높음" 
- GER_MILITARIST_INFLUENCE_HIGH:0 "높음" 
- GER_MILITARIST_INFLUENCE_MEDIUM:0 "중간"   
+ GER_MILITARIST_INFLUENCE_VERY_HIGH:0 "매우 높음"
+ GER_MILITARIST_INFLUENCE_HIGH:0 "높음"
+ GER_MILITARIST_INFLUENCE_MEDIUM:0 "중간"
+ GER_MILITARIST_INFLUENCE_VERY_LOW:0 "매우 낮음"
  GER_MILITARIST_INFLUENCE_LOW:0 "낮음"
-GER_MILITARIST_INFLUENCE_VERY_LOW:0 "매우 낮음" 
- GER_MILITARIST_INFLUENCE_CRITICAL:0 "§R위기!!§!"  
+ GER_MILITARIST_INFLUENCE_CRITICAL:0 "§R위기!!§!"
  GER_NOTHING:0 ""
-
-#Intext (used in the tooltip)
  GER_MILITARIST_INFLUENCE_VERY_HIGH_INTEXT:0 "§Y특출한§!"
  GER_MILITARIST_INFLUENCE_HIGH_INTEXT:0 "§Y주요한§!"
  GER_MILITARIST_INFLUENCE_MEDIUM_INTEXT:0 "§Y평균의§!"
  GER_MILITARIST_INFLUENCE_LOW_INTEXT:0 "§Y약간의§!"
  GER_MILITARIST_INFLUENCE_VERY_LOW_INTEXT:0 "§Y극히 작은§!"
- 
  GER_MILITARIST_POWER_VERY_HIGH_INTEXT:0 "§Y특출난§!"
  GER_MILITARIST_POWER_HIGH_INTEXT:0 "§Y주요한§!"
  GER_MILITARIST_POWER_MEDIUM_INTEXT:0 "§Y평균의§!"
  GER_MILITARIST_POWER_LOW_INTEXT:0 "§Y약간의§!"
  GER_MILITARIST_POWER_VERY_LOW_INTEXT:0 "§Y극히 작은§!"
- 
  GER_MILITARIST_LOYALTY_ABSOLUTE_INTEXT:0 "§Y특출나게§! 충성하고"
  GER_MILITARIST_LOYALTY_HIGH_INTEXT:0 "§Y크게§! 충성하고"
  GER_MILITARIST_LOYALTY_MEDIUM_INTEXT:0 "§Y그럭저럭§! 충성하고"
  GER_MILITARIST_LOYALTY_LOW_INTEXT:0 "§Y그다지 충성하지§! 않고"
  GER_MILITARIST_LOYALTY_VERY_LOW_INTEXT:0 "§Y충성하지 않고§!"
-
-#Leader Traits
  MILITARIST_LEADER_DESC:0 "[GetGER_militarist_leader_desc]"
- GER_MILITARIST_LEADER_TRAIT_1:0 "[GetGGR_militarist_leader_trait_1]"  
- GER_MILITARIST_LEADER_TRAIT_2:0 "[GetGGR_militarist_leader_trait_2]"  
- GER_MILITARIST_LEADER_TRAIT_3:0 "[GetGGR_militarist_leader_trait_3]"  
- GER_MILITARIST_LEADER_TRAIT_4:0 "[GetGGR_militarist_leader_trait_4]"   
-
-#Leader Descriptions
+ GER_MILITARIST_LEADER_TRAIT_1:0 "[GetGGR_militarist_leader_trait_1]"
+ GER_MILITARIST_LEADER_TRAIT_2:0 "[GetGGR_militarist_leader_trait_2]"
+ GER_MILITARIST_LEADER_TRAIT_3:0 "[GetGGR_militarist_leader_trait_3]"
+ GER_MILITARIST_LEADER_TRAIT_4:0 "[GetGGR_militarist_leader_trait_4]"
  GER_militarist_leader_goering_desc:0 "헤르만 괴링"
  GER_militarist_leader_schorner_desc:0 "페르디난트 쇠르너"
  GER_militarist_leader_speidel_desc:0 "한스 슈파이델"
  GER_militarist_leader_muller_desc:0 "지그프리드 뮐러"
  GER_militarist_leader_anarchy_desc:0 "지도자 없음"
  GER_militarist_leader_theodor_desc:0 "하인리히 테오도레 괴링"
-
-#Specific Leader Traits 
- GER_MILITARIST_LEADER_GOERING_TRAIT_1:0 "권력욕"  
- GER_MILITARIST_LEADER_GOERING_TRAIT_2:0 "허풍쟁이"  
- GER_MILITARIST_LEADER_GOERING_TRAIT_3:0 "참새"  
+ GER_MILITARIST_LEADER_GOERING_TRAIT_1:0 "권력욕"
+ GER_MILITARIST_LEADER_GOERING_TRAIT_2:0 "허풍쟁이"
+ GER_MILITARIST_LEADER_GOERING_TRAIT_3:0 "참새"
  GER_MILITARIST_LEADER_GOERING_TRAIT_4:0 "정치인"
- 
- GER_MILITARIST_LEADER_SCHORNER_TRAIT_1:0 "권력욕"  
- GER_MILITARIST_LEADER_SCHORNER_TRAIT_2:0 "선망가"  
- GER_MILITARIST_LEADER_SCHORNER_TRAIT_3:0 "무자비함"  
+ GER_MILITARIST_LEADER_SCHORNER_TRAIT_1:0 "권력욕"
+ GER_MILITARIST_LEADER_SCHORNER_TRAIT_2:0 "선망가"
+ GER_MILITARIST_LEADER_SCHORNER_TRAIT_3:0 "무자비함"
  GER_MILITARIST_LEADER_SCHORNER_TRAIT_4:0 "교활가"
- 
- GER_MILITARIST_LEADER_SPEIDEL_TRAIT_1:0 "정치욕 없음"  
- GER_MILITARIST_LEADER_SPEIDEL_TRAIT_2:0 "인기있음"  
- GER_MILITARIST_LEADER_SPEIDEL_TRAIT_3:0 "효율적"  
+ GER_MILITARIST_LEADER_SPEIDEL_TRAIT_1:0 "정치욕 없음"
+ GER_MILITARIST_LEADER_SPEIDEL_TRAIT_2:0 "인기있음"
+ GER_MILITARIST_LEADER_SPEIDEL_TRAIT_3:0 "효율적"
  GER_MILITARIST_LEADER_SPEIDEL_TRAIT_4:0 "금욕주의자"
- 
  GER_MILITARIST_LEADER_MULLER_TRAIT_1:0 "부패함"
  GER_MILITARIST_LEADER_MULLER_TRAIT_2:0 "야망없는"
  GER_MILITARIST_LEADER_MULLER_TRAIT_3:0 "자리를 꺼림"
  GER_MILITARIST_LEADER_MULLER_TRAIT_4:0 "인기있음"
- 
  GER_MILITARIST_LEADER_THEODOR_TRAIT_1:0 "순종적인"
  GER_MILITARIST_LEADER_THEODOR_TRAIT_2:0 "미숙한"
  GER_MILITARIST_LEADER_THEODOR_TRAIT_3:0 "인기없음"
  GER_MILITARIST_LEADER_THEODOR_TRAIT_4:0 "무관심함"
- 
- 
- # INFLUENCERS
- 
  GER_militarist_influence_influencer_positive:0 "§T[ROOT.GetGER_supported_the_navy][ROOT.GetGER_acted_against_ss][ROOT.GetGER_schorner_militarist_leader_influence][ROOT.GetGER_speidels_defeat_influence][ROOT.GetGER_oil_crisis_panic_increase][ROOT.GetGER_schorners_purge_influence]§!"
  GER_militarist_influence_influencer_negative:0 "§R[ROOT.GetGER_rampant_factionalism][ROOT.GetGER_reduced_heer_budget][ROOT.GetGER_domestic_unrest][ROOT.GetGER_speidels_victory_influence][ROOT.GetGER_vituskas_cunning][ROOT.GetGER_leaving_militarists]§!"
- 
  GER_militarist_power_influencer_positive:0 "§T[ROOT.GetGER_expanded_draft][ROOT.GetGER_supported_the_navy][ROOT.GetGER_drechslers_loyalty][ROOT.GetGER_schorner_militarist_leader_power]§!"
  GER_militarist_power_influencer_negative:0 "§R[ROOT.GetGER_overextended_airforce][ROOT.GetGER_rampant_factionalism][ROOT.GetGER_reduced_heer_budget][ROOT.GetGER_African_Intervention][ROOT.GetGER_vituskas_cunning][ROOT.GetGER_stahleckers_power][ROOT.GetGER_leaving_militarists][ROOT.GetGER_oil_crisis_panic_decrease][ROOT.GetGER_schorners_purge_power]§!"
- 
  GER_militarist_loyalty_influencer_positive:0 "§T[GetGER_faith_in_the_fuhrer][ROOT.GetGER_acted_against_ss][ROOT.GetGER_supported_the_navy][ROOT.GetGER_civil_war_victors][ROOT.GetGER_speidels_triumph_loyalty][ROOT.GetGER_drechslers_loyalty][ROOT.GetGER_militarist_demands_good]§!"
  GER_militarist_loyalty_influencer_negative:0 "§R[ROOT.GetGER_rampant_factionalism][ROOT.GetGER_reduced_heer_budget][ROOT.GetGER_domestic_unrest][ROOT.GetGER_schorner_militarist_leader_loyalty][ROOT.GetGER_African_Intervention][ROOT.GetGER_speidels_disgrace_loyalty][ROOT.GetGER_stahleckers_power][ROOT.GetGER_militarist_demands_bad][ROOT.GetGER_oil_crisis_panic_decrease][ROOT.GetGER_schorners_purge_loyalty][ROOT.GetGER_GGRCSI_failed]§!"
- 
- ######Influence
- 
  GER_INFLUENCER_SPEIDELS_DEFEAT:0 "+슈파이델의 패배\n"
  GER_INFLUENCER_SPEIDELS_VICTORY:0 "-슈파이델의 승리\n"
- 
  GER_INFLUENCER_SCHORNER_MIL_LEADER_INFLUENCE:0 "+쇠르너의 영향력\n"
- 
  GER_INFLUENCER_SPEIDELS_DISGRACE_INFLUENCE:0 "++슈파이델의 치욕\n"
  GER_INFLUENCER_SPEIDELS_TRIUMPH_INFLUENCE:0 "--슈파이델의 대승리\n"
- 
  GER_INFLUENCER_PANIC_INCREASE:0 "+패닉\n"
- 
  GER_INFLUENCER_SCHORNERS_PURGE_INFLUENCE:0 "++쇠르너 숙청\n"
- 
- ######Power
- 
  GER_INFLUENCER_EXPANDED_DRAFT:0 "+징병 확대\n"
  GER_INFLUENCER_OVEREXTENDED_AIRFORCE:0 "-지나치게 팽창한 공군\n"
- 
  GER_INFLUENCER_SCHORNER_MIL_LEADER_POWER:0 "+쇠르너의 영향력\n"
- 
  GER_INFLUENCER_SCHORNERS_PURGE_POWER:0 "-쇠르너의 숙청\n"
- 
- ######Loyalty
- 
  GGR_INFLUENCER_MILITARIST_DEMANDS_GOOD_1:0 "+요구 관철됨\n"
  GGR_INFLUENCER_MILITARIST_DEMANDS_GOOD_2:0 "++요구 관철됨\n"
  GGR_INFLUENCER_MILITARIST_DEMANDS_GOOD_3:0 "+++요구 관철됨\n"
  GGR_INFLUENCER_MILITARIST_DEMANDS_BAD_1:0 "-요구 달성 실패\n"
  GGR_INFLUENCER_MILITARIST_DEMANDS_BAD_2:0 "--요구 달성 실패\n"
  GGR_INFLUENCER_MILITARIST_DEMANDS_BAD_3:0 "---요구 달성 실패\n"
- 
  GER_INFLUENCER_FAITH_IN_THE_FUHRER:0 "+++총통에 대한 믿음\n"
- 
  GER_INFLUENCER_SCHORNER_MIL_LEADER_LOYALTY:0 "-쇠르너의 영향력\n"
  GER_INFLUENCER_CIVIL_WAR_VICTORS:0 "++내전의 승리자\n"
- 
  GER_INFLUENCER_SPEIDELS_DISGRACE_LOYALTY:0 "-슈파이델의 치욕\n"
  GER_INFLUENCER_SPEIDELS_TRIUMPH_LOYALTY:0 "+슈파이델의 대승리\n"
- 
  GER_INFLUENCER_SCHORNERS_PURGE_LOYALTY:0 "--쇠르너 숙청\n"
- 
  GER_INFLUENCER_GGRCSI_FAILED:0 "-GRWI 실패\n"
- ######Multiple
- 
  GER_INFLUENCER_STAHLECKERS_POWER:0 "-슈탈레커의 집권\n"
  GER_INFLUENCER_DRECHSLERS_LOYALTY:0 "+드렉슬러의 충성\n"
  GER_INFLUENCER_VITUSKAS_CUNNING:0 "-비투슈카의 간계\n"
- 
  GGR_INFLUENCER_LEAVING_MILITARISTS_1:0 "-점령\n"
  GGR_INFLUENCER_LEAVING_MILITARISTS_2:0 "--점령\n"
  GGR_INFLUENCER_LEAVING_MILITARISTS_3:0 "---점령\n"
-
  GER_INFLUENCER_RAMPANT_FACTIONALISM:0 "-만연한 파벌주의\n"
- #GER_INFLUENCER_SUPPORTED_THE_NAVY:0 "+해군의 지지\n"
  GER_INFLUENCER_ACTED_AGAINST_SS:0 "+SS에 대항하는 행동\n"
  GER_INFLUENCER_REDUCED_HEER_BUDGET:0 "-육군 예산 감축\n"
  GER_INFLUENCER_DOMESTIC_UNREST:0 "-국내의 혼란\n"
-
  GER_INFLUENCER_AFRICAN_INTERVENTION:0 "-아프리카의 개입\n"
- 
  GER_INFLUENCER_PANIC_DECREASE:0 "-패닉\n"
- 
  SGR_CLICK_ME:0 "확대하러면 각 상태를 클릭하십시오."

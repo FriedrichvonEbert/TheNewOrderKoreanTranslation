@@ -1,5 +1,4 @@
 ﻿l_english:
- ### Country Names ###
  KAZ_communist: "키질로르다"
  KAZ_communist_DEF: "카자흐 소비에트 사회주의 공화국"
  KAZ_socialist: "키질로르다"
@@ -27,36 +26,30 @@
  KAZ_fascism_ADJ: "키질로르다"
  KAZ_national_socialism_ADJ: "키질로르다"
  KAZ_ultranationalism_ADJ: "키질로르다"
-
- ### Parties ###
  KAZ_communist_party: "카자흐 붉은 군대"
  KAZ_communist_party_long: "카자흐 붉은 군대"
  KAZ_socialist_party: "카자흐스탄 공산당"
  KAZ_socialist_party_long: "카자흐스탄 공산당"
  KAZ_RUS_socialist_party: "KOKP"
  KAZ_RUS_socialist_party_long: "Kenes Odagi Kommunistik Partiyasi"
- KAZ_social_democrat_party: "QEP"
- KAZ_social_democrat_party_long: "Qazaqstarlia Enbek Partiyasi"
- KAZ_liberal_democracy_party: "DFP"
- KAZ_liberal_democracy_party_long: "Demokoratiyalia Fermerler Partiyasi"
- KAZ_conservative_democracy_party: "QUDP"
- KAZ_conservative_democracy_party_long: "Qazaq Ultiq-Demokratiyalia Partiyasi"
- KAZ_authoritarian_democracy_party: "QUDP"
- KAZ_authoritarian_democracy_party_long: "Qazaq Ultiq-Demokratiyalia Partiyasi - Avtoritarliq"
- KAZ_despotism_party: "IB"
- KAZ_despotism_party_long: "Ïslam Brïgadaları"
- KAZ_fascism_party: "UJB"
- KAZ_fascism_party_long: "Ultiq Janartu Partiyasi"
- KAZ_national_socialism_party: "QTP"
- KAZ_national_socialism_party_long: "Qazaq Tami Partiyasi"
- KAZ_ultranationalism_party: "QTP"
- KAZ_ultranationalism_party_long: "Qazaq Tami Partiyasi - Ekstremistik"
- 
- ### Leader Descriptions ###
+ KAZ_social_democracy_party: "카자흐스탄 노동당"
+ KAZ_social_democracy_party_long: "카자흐스탄 노동당"
+ KAZ_liberal_democracy_party: "민주농민당"
+ KAZ_liberal_democracy_party_long: "민주농민당"
+ KAZ_conservative_democracy_party: "카자흐스탄 국민민주당"
+ KAZ_conservative_democracy_party_long: "카자흐스탄 국민민주당"
+ KAZ_authoritarian_democracy_party: "카자흐스탄 국민민주당"
+ KAZ_authoritarian_democracy_party_long: "카자흐스탄 국민민주당 - 권위주의파"
+ KAZ_despotism_party: "이슬람 여단"
+ KAZ_despotism_party_long: "이슬람 여단"
+ KAZ_fascism_party: "국가재건당"
+ KAZ_fascism_party_long: "국가재건당"
+ KAZ_national_socialism_party: "카자흐 새벽당"
+ KAZ_national_socialism_party_long: "카자흐 새벽당"
+ KAZ_ultranationalism_party: "카자흐 새벽당"
+ KAZ_ultranationalism_party_long: "카자흐 새벽당 - 극단파"
  KAZ_Bauryzhan_Momyshuly: "바우이르잔 모미슐리"
  POLITICS_BAURYZHAN_MOMYSHULY_DESC: "모미슐리 장군은 소련과 카자흐스탄의 영웅이며 항상 두 고국에 충성합니다. 별볼일없는 출신인 그는 징집되기 전까진 카자흐스탄에서 수많은 일을 했고, 이제 전쟁에서 수많은 사단을 이끌 것입니다. 어떤 이들은 모미슐리가 알라쉬 오르다 시를 좋아하기 때문에 반소련 카자흐스탄 국수주의자라고 불렀고, 몇몇은 그가 소련군에서 완전히 벗어나려 한다고까지 했습니다. 그의 충성심은 독일의 침략으로 시험받았습니다. 소련에 대한 그의 충성심은 확인되었고 레닌주의에 대한 충성심도 확인되었습니다.\n\n전쟁이 끝나자 모미슐리는 남아 있던 군대와 지휘관들을 신속히 재편성하고 카자흐 소비에트 사회주의 공화국을 다시 수립했습니다. 현재 그는 카자흐스탄에서 가장 많은 영토를 지배하고 가장 강한 군대를 지휘합니다. 그는 속으로 소련과 공산주의가 일시적으로 무너졌을 뿐, 그것을 되살릴 촉매를 기다린다고 생각합니다. 그리고 그는 그 촉매가 되기로 결심했습니다."
- 
- ### Ministers ###
  KAZ_Sagadat_Nurmagambetov: "Sagadat Nurmagambetov"
  KAZ_Sagadat_Nurmagambetov_hog_desc: "Head of Government\nNational Communism"
  KAZ_Ismail_Yusupov: "Ismail Yusupov"
@@ -65,66 +58,50 @@
  KAZ_Dinmukhamed_Kunayev_eco_desc: "Economy Minister\nNational Communism"
  KAZ_Rakhimzhan_Qoshqarbaev: "Rakhimzhan Qoshqarbaev"
  KAZ_Rakhimzhan_Qoshqarbaev_sec_desc: "Security Minister\nNational Communism"
-
- ### Commanders ###
  KAZ_Serikkazy_Bekbosunov: "Serikkazy Bekbosunov"
  KAZ_Mao_Anying: "마오안잉"
- 
- ### Decisions ###
  RUS_kazakh_unification_category: "카자흐스탄 통일"
  KZK_prepared_attack: "[FROM.GetName] 급습 개시"
  KZK_surprise_attack: "[FROM.GetName] 급습 개시"
-
-
-
  KAZ_government_turmoil: "혼란에 빠진 정부"
  KAZ_government_turmoil_desc: "While we remain the only Kazakh state that has maintained a more or less coherent structure, we are still greatly weakened and forced to resort to many unsavory means in the Kazakh Anarchy. In order to keep Kyzylorda strong, we must ensure that factionalism does not cripple us.\n\nThe influence of civilian government is [GetCivilianGovernmentInfluence].\nThe influence of the Kazakh Red Army is [GetArmyGovernmentInfluence].\nIn general, [GetKAZPowerHolder].\nThe popular support for our regime is [GetKAZPopularSupport].\nThe level of corruption in the government is [GetKAZCorruption].\nOur current focus is [GetKAZGovernmentFocus].\n\nIn order to keep everything running smoothly, we should strive to keep the focus of our government aligned with our statelet's current goals."
  KAZ_check: "Update Values"
- 
  KAZ_Army_Power: "§S붉은 군대가 민간 정부를 통제하고 있습니다.§!"
  KAZ_Nobody_Power: "§g붉은 군대와 민간 정부 간의 세력균형이 이루어졌습니다.§!"
  KAZ_Civ_Power: "§W민간 정부가 붉은 군대를 통제하고 있습니다.§!"
- 
  KAZ_Civilian_influence_nonexistent: "§Rnonexistent§!"
  KAZ_Civilian_influence_low: "§Olow§!"
  KAZ_Civilian_influence_moderate: "§Ymoderate§!"
  KAZ_Civilian_influence_high: "§Ghigh§!"
  KAZ_Civilian_influence_highest: "§Bsupremely high§!"
- 
  KAZ_army_influence_nonexistent: "§Rnonexistent§!"
  KAZ_army_influence_low: "§Olow§!"
  KAZ_army_influence_moderate: "§Ymoderate§!"
  KAZ_army_influence_high: "§Ghigh§!"
  KAZ_army_influence_highest: "§Bsupremely high§!"
- 
  KAZ_popular_support_nonexistent: "§Rnonexistent§!"
  KAZ_popular_support_low: "§Olow§!"
  KAZ_popular_support_moderate: "§Ymoderate§!"
  KAZ_popular_support_high: "§Ghigh§!"
  KAZ_popular_support_highest: "§Bextremely high§!"
- 
  KAZ_corruption_level_nonexistent: "§Birrelevant§!"
  KAZ_corruption_level_low: "§Gmanageable§!"
  KAZ_corruption_level_moderate: "§Yconcerning§!"
  KAZ_corruption_level_high: "§Oexcessive§!"
  KAZ_corruption_level_highest: "§Rcrippling§!"
- 
  KAZFocusCivilIndustry: "§Ycivilian industrial development§!"
  KAZFocusMilIndustry: "§Smilitary industrial development§!"
  KAZFocusCivilian: "§Bcivilian political development§!"
  KAZFocusMilitary: "§Gmilitary development§!"
  KAZFocusUndecided: "§gundecided§!"
- 
  KAZFocusMilitaryBenefit: "\nThis focus' effects shall §Gbenefit§! from the §Gmilitary training and development§! §Ygovernment focus§!.\n"
  KAZFocusMilitaryIndustryBenefit: "\nThis focus' effects shall §Gbenefit§! from the §Smilitary industry§! §Ygovernment focus§!.\n"
  KAZFocusCivilianBenefit: "\nThis focus' effects shall §Gbenefit§! from the §Bcivilian political and social development§! §Ygovernment focus§!.\n"
  KAZFocusCivilianIndustryBenefit: "\nThis focus' effects shall §Gbenefit§! from the §Ycivilian industry§! §Ygovernment focus§!.\n"
- 
  KAZFocusMilitaryNegative: "\nThis focus' effects shall be §Rharmed§! by the §Gmilitary training and development§! §Ygovernment focus§!.\n"
  KAZFocusMilitaryIndustryNegative: "\nThis focus' effects shall be §Rharmed§! by the §Smilitary industry§! §Ygovernment focus§!.\n"
  KAZFocusCivilianNegative: "\nThis focus' effects shall be §Rharmed§! by the §Bcivilian political and social development§! §Ygovernment focus§!.\n"
  KAZFocusCivilianIndustryNegative: "\nThis focus' effects shall be §Rharmed§! by the §Ycivilian industry§! §Ygovernment focus§!.\n"
- 
  KAZ_clear_focus: "Clear Government Focus"
  KAZ_clear_focus_tt: "We shall prepare ourselves to change our government's §Yfocus§!, switching it back to §gundecided§!. Taking this decision shall clear all §Ygovernment focus decisions§! unlocked by the current focus."
  KAZ_switch_military_focus: "Adopt Military Focus"
@@ -138,53 +115,38 @@
  KAZ_switch_focus_trigger: "No active §Ygovernment focus§!."
  KAZ_clear_focus_trigger: "Has active §Ygovernment focus§!."
  KAZ_military_focus_trigger: "Has §Gmilitary training and development§! focus."
- 
  KAZ_military_development: "군사 훈련 및 개발"
  KAZ_military_development_desc: "Our current §Ygovernment focus§! allows for much greater efforts to perform §Gmilitary training and development§!, at the cost of greater §SRed Army influence§! in the government. Using this focus enables us to perform supplemental actions to improve our military forces directly."
  KAZ_supplemental_doctrine_development: "Supplemental Doctrine Development"
  KAZ_expand_conscription_standards: "Expand Conscription Standards"
  KAZ_intensive_military_training: "Carry Out Intensive Training"
- 
  KAZ_civindustry_development: "민간 산업 발전"
  KAZ_civindustry_development_desc: "Our current §Ygovernment focus§! allows for much greater efforts to perform §Ycivilian industrialization and economic development§!, at the cost of greater §Ycivilian influence§! in the government. Using this focus enables us to perform supplemental actions to improve our civilian industrial sector directly."
  KAZ_expand_national_infrastructure: "지역 기반시설 확장"
  KAZ_kyzylorda_steel_mines: "키질오르다 철광산 개발"
  KAZ_industrial_development_investments: "산업 발전에 투자"
- 
  KAZ_civilian_development: "정치적 및 사회적 발전"
  KAZ_civilian_development_desc: "Our current §Ygovernment focus§! allows for much greater efforts to perform §Bpolitical and social development§!, at the cost of greater §Ycivilian influence§! in the government. Using this focus enables us to perform supplemental actions to improve our political and social situation directly."
  KAZ_reinforce_civilian_government: "민간 정부 강화"
  KAZ_anti_corruption_crackdowns: "부패 엄중 단속"
  KAZ_public_support_programs: "공공 지원 계획"
- 
  KAZ_milindustry_development: "군수 산업 발전"
  KAZ_milindustry_development_desc: "Our current §Ygovernment focus§! allows for much greater efforts to perform §Smilitary industrialization and equipment acquisition§!, at the cost of greater §SRed Army influence§! in the government. Using this focus enables us to perform supplemental actions to improve our military industrial sector directly."
  KAZ_almaata_crude_oil_exploitation: "알마아타 유정 추출"
  KAZ_expand_kyzylordas_factories: "키질오르다 공장 확대"
  KAZ_procure_supplemental_firearms: "Procure Supplemental Firearms"
- 
  KAZSupportIncrease: "\nThis will §Gincrease§! our §YPopular Support§!.\n"
  KAZSupportSmallIncrease: "\nThis will §Gincrease§! our §YPopular Support§! by a small amount.\n"
  KAZSupportLargeIncrease: "\nThis will §Gincrease§! our §YPopular Support§! by a large amount.\n"
  KAZCorruptionIncrease: "\nThis will §Rincrease§! our §YCorruption§!.\n"
  KAZCorruptionSmallIncrease: "\nThis will §Rincrease§! our §YCorruption§! by a small amount.\n"
  KAZCorruptionLargeIncrease: "\nThis will §Rincrease§! our §YCorruption§! by a large amount.\n"
- 
  KAZSupportDecrease: "\nThis will §Rdecrease§! our §YPopular Support§!.\n"
  KAZSupportSmallDecrease: "\nThis will §Rdecrease§! our §YPopular Support§! by a small amount.\n"
  KAZSupportLargeDecrease: "\nThis will §Rdecrease§! our §YPopular Support§! by a large amount.\n"
  KAZCorruptionDecrease: "\nThis will §Gdecrease§! our §YCorruption§!.\n"
  KAZCorruptionSmallDecrease: "\nThis will §Gdecrease§! our §YCorruption§! by a small amount.\n"
  KAZCorruptionLargeDecrease: "\nThis will §Gdecrease§! our §YCorruption§! by a large amount.\n"
-
- ### Ministers ###
- KAZ_Sagadat_Nurmagambetov_hog: "Sagadat Nurmagambetov"
- KAZ_Zhumabay_Shayakhmetov_hog: "Zhumabay Shayakhmetov"
- KAZ_Ismail_Yusupov_for: "Ismail Yusupov"
- KAZ_Dinmukhamed_Kunayev_eco: "Dinmukhamed Kunayev"
- KAZ_Rakhimzhan_Qoshqarbaev_sec: "Rakhimzhan Qoshqarbaev"
-
- ### Ideas ###
  KAZ_kaz_red_army: "카자흐 붉은 군대"
  KAZ_kaz_red_army_desc: "The Kazakh Red Army is the last truly professional military force in Kazakhstan. Although lacking in manpower and equipment, we are still willing and able to wage a modern war against our foes."
  KAZ_kaz_red_army_12: "카자흐 붉은 군대"
@@ -229,12 +191,10 @@
  KAZ_bandit_plague_3: "도적떼의 창궐"
  KAZ_bandit_plague_4: "도적떼의 창궐"
  KAZ_trained_sniper_teams: "Trained Sniper Teams"
- 
- ### National Focuses ###
  KAZ_last_days_bandit: "Last Days Of The Bandit Kings"
- KAZ_last_days_bandit_desc: "Since the fall of the Union our army, while it fought valiantly, has been unable to deal with the infestation of bandits within our borders. The territory of Kyzylorda, while encompassing a third of Kazakhstan, has authority over a much less. Bandits have taken power in many areas and have become rich off raiding. This has to end. General Secretary Momyshuly has a plan to deal with these "bandit kings" that has been years in the making. They may not know it, but these are the last days of banditry in Kazakhstan."
+ KAZ_last_days_bandit_desc: "Since the fall of the Union our army, while it fought valiantly, has been unable to deal with the infestation of bandits within our borders. The territory of Kyzylorda, while encompassing a third of Kazakhstan, has authority over a much less. Bandits have taken power in many areas and have become rich off raiding. This has to end. General Secretary Momyshuly has a plan to deal with these \"bandit kings\" that has been years in the making. They may not know it, but these are the last days of banditry in Kazakhstan."
  KAZ_set_the_trap: "Set The Trap"
- KAZ_set_the_trap_desc: "A swift decapitation of the bandit leadership is a key component for dealing with this threat. For this operation we need to lure in the leadership of the various clans and petty "kingdoms" placate each one, and finally kill them all. While many potential execution methods have been proposed, the one decided on is to use German bombing campaigns to our advantage. Use radio static to get bombers near our preffered to location, and lure in the bandit leaders. Those outlaws are survivors, but few leave them a barrage of bombs alive."
+ KAZ_set_the_trap_desc: "A swift decapitation of the bandit leadership is a key component for dealing with this threat. For this operation we need to lure in the leadership of the various clans and petty \"kingdoms\" placate each one, and finally kill them all. While many potential execution methods have been proposed, the one decided on is to use German bombing campaigns to our advantage. Use radio static to get bombers near our preffered to location, and lure in the bandit leaders. Those outlaws are survivors, but few leave them a barrage of bombs alive."
  KAZ_whisper_campaign: "Whisper Campaign"
  KAZ_whisper_campaign_desc: "Distrust is a potent weapon of war. Destroying the leadership can only do so much, for others will rise to the occasion. Sowing distrust between groups and within groups by spreading unpleasent rumors and incessantly blackmailing will do no good for any groups wishing us harm. After all, how can they attack us when they are busy clawing at each other's throats?"
  KAZ_close_the_escape: "Close The Escape"
@@ -368,13 +328,13 @@
  KAZ_the_mad_khan: "The Mad Khan"
  KAZ_the_mad_khan_desc: "In Kokshetau, the worst forms of banditism took place. Left without any sign of authority and security, the city became a hub for the worst criminals of the Kazakh SSR, with their leader, Red Army defector Abu Dusukhambetov, coming to a grandiose delusion that he is not merely a high-level criminal, but a great conqueror, the new Khan who was chosen by the gods to conquer the world and burn it to the ground.\n\nEven if their imitations of the past may appear amusing to a casual observer, their brutality in Kokshetau knows no limits and their armed gangs present a surprisingly formidable force with a strong organizational level, something you wouldn't expect from regular banditry. Nevertheless, the Red Army faced far more threatening challenges in the past. The citizens of Kokshetau will no longer tremble in terror before trampling of a bandit horse when the Soviet soldiers will enter the city gates and trial Dusukhambetov for his crimes against the working people."
  KAZ_the_islamic_traitors: "The Islamic Traitors"
- KAZ_the_islamic_traitors_desc: ""A faraway call from the days of the Basmachi uprising, the Islamic fundamentalists and obscurantists under the leadership of Nikolay Zabelkin, a traitor to his Motherland and former bandit, took over the city of Kostanay and embarked on their despotic and intolerant rule, intending to fully eliminate every single gain of the proletarian dictatorship and enforce their medieval and patriarchal customs to every sphere of life.\n\nBut no matter how hard they are trying to, they can't turn the clock of history back. The Kazakh proletariat, which became free from the prejudices and superstitions of the past, will not follow the preachings of the parochial imams of Zabelkin. Armed with the hammer of modernity, the proletarian soldiers will smash the dogmatic ignorance of fundamentalists."
+ KAZ_the_islamic_traitors_desc: "\"A faraway call from the days of the Basmachi uprising, the Islamic fundamentalists and obscurantists under the leadership of Nikolay Zabelkin, a traitor to his Motherland and former bandit, took over the city of Kostanay and embarked on their despotic and intolerant rule, intending to fully eliminate every single gain of the proletarian dictatorship and enforce their medieval and patriarchal customs to every sphere of life.\n\nBut no matter how hard they are trying to, they can't turn the clock of history back. The Kazakh proletariat, which became free from the prejudices and superstitions of the past, will not follow the preachings of the parochial imams of Zabelkin. Armed with the hammer of modernity, the proletarian soldiers will smash the dogmatic ignorance of fundamentalists."
  KAZ_too_the_aral_sea: "Towards The Aral Sea"
  KAZ_too_the_aral_sea_desc: "The treasonous Onoprienko once used to be a commanding officer of Western Kazakhstan and one of the most trusted subordinates of General Momyshuly before he decided to turn his back on his country and establish his own megalomaniac and quasi-fascist dictatorship in Khromtau."
  KAZ_peace_with_the_poles: "Peace With The Polish"
- KAZ_peace_with_the_poles_desc: "The hellish march of Fascism broke the fates of numerous people and displaced many of once free nations, who were pressured to leave their homes to spare themselves from the German cruelty. Among them were the sons and daughters of Poland, who were forcibly resettled by Nazis in Western Kazakhstan. The Soviet government generously gave them shelter, but in the anarchy that followed, the Polish ASSR seceded from Soviet Kazakhstan.\n\nAs it stands, the "New Poland" does not recognize the Soviet power but neither it does seek to spread their reactionary customs and their government is mostly motivated by desire of their people to settle down in the new home. If we guarantee their safety and protection in exchange for acknowledging the ideals of Communism and preserving rights for their Kazakh minority, we can probably expect them to agree on a peaceful rejoining with the Kazakh SSR."
+ KAZ_peace_with_the_poles_desc: "The hellish march of Fascism broke the fates of numerous people and displaced many of once free nations, who were pressured to leave their homes to spare themselves from the German cruelty. Among them were the sons and daughters of Poland, who were forcibly resettled by Nazis in Western Kazakhstan. The Soviet government generously gave them shelter, but in the anarchy that followed, the Polish ASSR seceded from Soviet Kazakhstan.\n\nAs it stands, the \"New Poland\" does not recognize the Soviet power but neither it does seek to spread their reactionary customs and their government is mostly motivated by desire of their people to settle down in the new home. If we guarantee their safety and protection in exchange for acknowledging the ideals of Communism and preserving rights for their Kazakh minority, we can probably expect them to agree on a peaceful rejoining with the Kazakh SSR."
  KAZ_shatter_the_survivours: "Shatter The Survivors"
- KAZ_shatter_the_survivours_desc: "If there were any hope for a peaceful reunion of Poland and Kazakhstan, it doesn't exist anymore. In their arrogance, the Polish government refused to acknowledge the authority of the Kazakh Communist Party and decided to stick to their pernicious reactionary ways, leaving us with no options but war against them. The "National Salvation Council" of theirs should be eliminated and the powers of the Soviets should be reestablished for the good of the people of Western Kazakhstan."
+ KAZ_shatter_the_survivours_desc: "If there were any hope for a peaceful reunion of Poland and Kazakhstan, it doesn't exist anymore. In their arrogance, the Polish government refused to acknowledge the authority of the Kazakh Communist Party and decided to stick to their pernicious reactionary ways, leaving us with no options but war against them. The \"National Salvation Council\" of theirs should be eliminated and the powers of the Soviets should be reestablished for the good of the people of Western Kazakhstan."
  KAZ_destroy_the_facists: "Destroy The Fascists"
  KAZ_destroy_the_facists_desc: "The German beast did not dare to step on the Kazakh soil, yet the venomous seed of fascism took its root in Aktau, an abandoned mining city turned into a lair for the beasts in human form. Not only they have denounced the values of the Communist ideology and rejected the Soviet authority, but they also avowed to imitate the monstrous and cannibalistic customs of Hitler's Germany, waging terror against the honest laborers of our Motherland and pitting the Kazakh citizens against our internationalist Russian brothers and sisters. No words can describe the extent of horror spread by the Aktau Fascist militants.\n\nFor too long the Fascists reigned in our lands! Their short-lived and inhuman rule will meet its dishonorable end under the might of the Red Army!"
  KAZ_reunification: "Reunification"
@@ -408,16 +368,11 @@
  KAZ_a_smooth_integration_question_desc: "Since the days of the Union, from before the Great Patriotic War, the mining pits of Khromtau has provided Kazakhstan with valuable metals, such as the highly prized Chromium, vital to ensure that metallic tools do not rust out in the air. During Onoprienko's reign, he forced many of the miners to endure long work hours to produce more and more ores in the name of National Renewal. With his defeat, the administration now controls most of the mining pits.\n\nThe first step towards revitalizing the Chromium mining industry is to free the miners previously conscripted by the National Renewal junta. Next, the administration will entice them to work again in the mines in exchange for shorter work hours and a more friendly work environment. After all, miners are workers as well; we must restore their faith in socialism, for no worker shall be left behind in the march toward world revolution."
  KAZ_integration: "Integrate The Outliers"
  KAZ_integration_desc: "With the matter of the Poles and the National Renewal Front resolved, the administration now looks at the future. Starting from a stretch of land in Kyzylorda, it has defeated the other illegitimate warlords that prey on the workers of Kazakhstan. It now stands as the sole legitimate power in Kazakhstan, the inheritor to a legacy of a Union long dissolved in chaos and violence. Beyond its borders, the world still looms overhead, but we are not afraid.\n\nBut first things first: the lands of the National Renewal Front and Nowa Polska stand empty without any structure of bureaucracy over them. The administration would like to rectify this situation immediately. We will send our officers and bureaucrats to those lands to establish a new bureaucracy and management, ensuring that socialism is at work there. For the red flag now flies over Kazakhstan and the world revolution is closer to being complete."
-
- ### Opinion modifiers ###
  KAZ_intimidating_neighbor: "Intimidating Neighbor"
  KAZ_benevolent_neighbor: "Benevolent Neighbor"
  KAZ_friendly_neighbor: "Friendly Neighbor"
- 
- ### Events ###
  KAZ.1.t: "Last Days of the Bandit Kings"
  KAZ.1.d: "Something about Momyshuly planning in bunker and to lure them all into a trap and blow them up"
  KAZ.1.a: "The Beginning of the End for the Bandits"
- 
  KAZ.21.t: "The Fatal Inquiry"
  KAZ.36.t: "The Four Year Plan's Announcement"

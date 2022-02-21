@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  US_VOTE_PARTY_SPLIT_TEXT:0 "정당 구분:"
  US_VOTE_REP_SPLIT_TEXT_1_TT:0 "공화당:"
  US_VOTE_DEM_SPLIT_TEXT_1_TT:0 "민주당:"
@@ -6,14 +6,12 @@
  FARLEFT_NPP_AMOUNT_TEXT_1_TT:0 "NPP 극좌:"
  FARRIGHT_NPP_AMOUNT_TEXT_1_TT:0 "NPP 극우:"
  YOCKEYS_NPP_AMOUNT_TEXT_1_TT:0 "'요기카':"
-
  US_VOTE_REP_SPLIT_TEXT:0 "[?RD_R_senators|0]"
  US_VOTE_DEM_SPLIT_TEXT:0 "[?RD_D_senators|0]"
  CENTER_NPP_AMOUNT_TEXT:0 "[?NPP_C_senators|0]"
  FARLEFT_NPP_AMOUNT_TEXT:0 "[?NPP_L_senators|0]"
  FARRIGHT_NPP_AMOUNT_TEXT:0 "[?NPP_FR_senators|0]"
  YOCKEYS_NPP_AMOUNT_TEXT:0 "[?NPP_R_senators|0]"
-
  US_VOTE_ALABAMA_TEXT:0 "앨라배마"
  US_VOTE_ALASKA_TEXT:0 "알래스카"
  US_VOTE_ARIZONA_TEXT:0 "애리조나"
@@ -64,8 +62,6 @@
  US_VOTE_WEST_VIRGINIA_TEXT:0 "웨스트버지니아"
  US_VOTE_WISCONSIN_TEXT:0 "위스콘신"
  US_VOTE_WYOMING_TEXT:0 "와이오밍"
- 
- #This is for hovering over a state in the senate GUI
  US_VOTE_ALABAMA_TOOLTIP:0 "앨라배마\n--------------\n- [367.GetSenator_1_Party][367.GetSenator_1_ALABAMA]\n- [367.GetSenator_2_Party][367.GetSenator_2_ALABAMA]\n선거인단 투표: [?367.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [367.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [367.GetPartySupport_State_NPP]입니다."
  US_VOTE_ALASKA_TOOLTIP:0 "알래스카\n--------------\n- [463.GetSenator_1_Party][463.GetSenator_1_ALASKA]\n- [463.GetSenator_2_Party][463.GetSenator_2_ALASKA]\n선거인단 투표: [?463.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [463.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [463.GetPartySupport_State_NPP]입니다."
  US_VOTE_ARIZONA_TOOLTIP:0 "애리조나\n--------------\n- [377.GetSenator_1_Party][377.GetSenator_1_ARIZONA]\n- [377.GetSenator_2_Party][377.GetSenator_2_ARIZONA]\n선거인단 투표: [?377.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [377.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [377.GetPartySupport_State_NPP]입니다."
@@ -73,7 +69,7 @@
  US_VOTE_CALIFORNIA_TOOLTIP:0 "캘리포니아\n--------------\n- [378.GetSenator_1_Party][378.GetSenator_1_CALIFORNIA]\n- [378.GetSenator_2_Party][378.GetSenator_2_CALIFORNIA]\n선거인단 투표: [?378.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [378.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [378.GetPartySupport_State_NPP]입니다."
  US_VOTE_COLORADO_TOOLTIP:0 "콜로라도\n--------------\n- [382.GetSenator_1_Party][382.GetSenator_1_COLORADO]\n- [382.GetSenator_2_Party][382.GetSenator_2_COLORADO]\n선거인단 투표: [?382.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [382.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [382.GetPartySupport_State_NPP]입니다."
  US_VOTE_CONNECTICUT_TOOLTIP:0 "코네티컷\n--------------\n- [357.GetSenator_1_Party][357.GetSenator_1_CONNECTICUT]\n- [357.GetSenator_2_Party][357.GetSenator_2_CONNECTICUT]\n선거인단 투표: [?357.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [357.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [357.GetPartySupport_State_NPP]입니다."
- US_VOTE_DELAWARE_TOOLTIP:0 "델라웨어\n--------------\n- [954.GetSenator_1_Party][954.GetSenator_1_DELAWARE]\n- [954.GetSenator_2_Party][954.GetSenator_2_DELAWARE]\n선거인단 투표: [?954.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [954.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [954.GetPartySupport_State_NPP]입니다." #change ID
+ US_VOTE_DELAWARE_TOOLTIP:0 "델라웨어\n--------------\n- [954.GetSenator_1_Party][954.GetSenator_1_DELAWARE]\n- [954.GetSenator_2_Party][954.GetSenator_2_DELAWARE]\n선거인단 투표: [?954.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [954.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [954.GetPartySupport_State_NPP]입니다."
  US_VOTE_FLORIDA_TOOLTIP:0 "플로리다\n--------------\n- [366.GetSenator_1_Party][366.GetSenator_1_FLORIDA]\n- [366.GetSenator_2_Party][366.GetSenator_2_FLORIDA]\n선거인단 투표: [?366.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [366.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [366.GetPartySupport_State_NPP]입니다."
  US_VOTE_GEORGIA_TOOLTIP:0 "조지아\n--------------\n- [365.GetSenator_1_Party][365.GetSenator_1_GEORGIA]\n- [365.GetSenator_2_Party][365.GetSenator_2_GEORGIA]\n선거인단 투표: [?365.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [365.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [365.GetPartySupport_State_NPP]입니다."
  US_VOTE_HAWAII_TOOLTIP:0 "하와이\n--------------\n- [629.GetSenator_1_Party][629.GetSenator_1_HAWAII]\n- [629.GetSenator_2_Party][629.GetSenator_2_HAWAII]\n선거인단 투표: [?629.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [629.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [629.GetPartySupport_State_NPP]입니다."
@@ -116,7 +112,6 @@
  US_VOTE_WEST_VIRGINIA_TOOLTIP:0 "웨스트버지니아\n--------------\n- [953.GetSenator_1_Party][953.GetSenator_1_WEST_VIRGINIA]\n- [953.GetSenator_2_Party][953.GetSenator_2_WEST_VIRGINIA]\n선거인단 투표: [?953.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [953.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [953.GetPartySupport_State_NPP]입니다."
  US_VOTE_WISCONSIN_TOOLTIP:0 "위스콘신\n--------------\n- [394.GetSenator_1_Party][394.GetSenator_1_WISCONSIN]\n- [394.GetSenator_2_Party][394.GetSenator_2_WISCONSIN]\n선거인단 투표: [?394.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [394.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [394.GetPartySupport_State_NPP]입니다."
  US_VOTE_WYOMING_TOOLTIP:0 "와이오밍\n--------------\n- [381.GetSenator_1_Party] [381.GetSenator_1_WYOMING]\n- [381.GetSenator_2_Party][381.GetSenator_2_WYOMING]\n선거인단 투표: [?381.electoral_votes]\n현재 £GFX_rd_texticon §w공§!§T민§!당 지지는 [381.GetPartySupport_State_RD]이며 £GFX_npp_texticon §O진보당§! 지지는 [381.GetPartySupport_State_NPP]입니다."
-
  US_VOTE_DOT_ALABAMA_1:0 "[367.GetSenator_1]"
  US_VOTE_DOT_ALABAMA_2:0 "[367.GetSenator_2]"
  US_VOTE_DOT_ALASKA_1:0 "[463.GetSenator_1]"
@@ -217,7 +212,6 @@
  US_VOTE_DOT_WISCONSIN_2:0 "[394.GetSenator_2]"
  US_VOTE_DOT_WYOMING_1:0 "[381.GetSenator_1]"
  US_VOTE_DOT_WYOMING_2:0 "[381.GetSenator_2]"
-
  US_VOTE_APPROVAL_RATING_TEXT:0 "[This.GetUSApprovalLevel]"
  US_APPROVAL_1:0 "매우 높음"
  US_APPROVAL_2:0 "높음"

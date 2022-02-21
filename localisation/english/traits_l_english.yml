@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  cc_leader:0 "장군"
  fm_leader:0 "원수"
  navy_leader:0 "제독"
@@ -144,7 +144,7 @@
  army_logistics_2:1 "육군 군수\n(전문가)"
  army_logistics_3:1 "육군 군수\n(천재)"
  air_chief_decorated_ace:0 "Decorated Ace"
- air_chief_decorated_ace_desc:0 "Decorated Ace\n--------------\nThis officer has been forged in the thunder of numerous dogfights and is ready to make good use of their experience." #Placeholder for now
+ air_chief_decorated_ace_desc:0 "Decorated Ace\n--------------\nThis officer has been forged in the thunder of numerous dogfights and is ready to make good use of their experience."
  air_chief_reform_1:1 "공군 개혁가\n(특기병)"
  air_chief_reform_2:1 "공군 개혁가\n(숙련가)"
  air_chief_reform_3:1 "공군 개혁가\n(천재)"
@@ -544,7 +544,8 @@
  infantry_ratio_over_80:0 "보병 비율 > §H80%§!"
  armored_ratio_over_40:0 "기계화율 > §H40%§!"
  has_flanked:0 "적의 측면을 노리거나 노려짐"
- fighting_with_at_least_23_units:0 "최소한의 §H24§!개의 군을 제어 중"
+ fighting_with_enough_units:0 "Controlling at least §H24§! armies"
+ fighting_with_enough_units_field_marshal:0 "Controlling at least §H100§! armies"
  TRAIT_OPEN_WIKI:0 "웹에서 더 많은 것을 읽으려면 클릭하십시오."
  trait_xp_factor:0 "$NAME|H$ 경험 요인: $VAL|H%.0$"
  recently_promoted:0 "최근 진급함"
@@ -605,13 +606,13 @@
  torpedo_expert:0 "어뢰 전문가"
  torpedo_expert_desc:0 "§L8km 거리에서 상대각 72도, 25노트 속도로 항해하는 함정을 공격하는 것은 정말 간단한 수학일 뿐입니다.§!"
  loading_drill_master:0 "재장전 훈련의 대가"
- loading_drill_master_desc:0 "§L"다시 쏴! 아직 안 죽었잖아!"§!"
+ loading_drill_master_desc:0 "§L\"다시 쏴! 아직 안 죽었잖아!\"§!"
  hunter_killer:0 "탐지격침가"
  hunter_killer_desc:0 "§L고양이와 쥐의 지독한 싸움이라고 치면, 이 장교는 분명히 고양이일 것입니다.§!"
  marksman:0 "명사수"
- marksman_desc:0 "§L"함미쪽 0.5미터, 탄약고가 있는 곳에 곧장 다시 발사!"§!"
+ marksman_desc:0 "§L\"함미쪽 0.5미터, 탄약고가 있는 곳에 곧장 다시 발사!\"§!"
  crisis_magician:0 "위기관리의 마술사"
- crisis_magician_desc:0 "§L"함장님, 복수관이 고장났습니다. 통상 최소 6주나 걸릴테지만 저는 3시간 안에 고칠 수 있습니다."§!"
+ crisis_magician_desc:0 "§L\"함장님, 복수관이 고장났습니다. 통상 최소 6주나 걸릴테지만 저는 3시간 안에 고칠 수 있습니다.\"§!"
  fighter_director:0 "전투기 통솔가"
  fighter_director_desc:0 "§L이 장교만 있다면 하늘은 우리에게 우호적이거나, 적어도 중립적입니다.§!"
  torpedo_bomber:0 "뇌격기"
@@ -637,7 +638,7 @@
  caustic_personality:0 "독설가"
  caustic_personality_desc:0 "§L이 장교는 많은 사람들에게 퍽 껄끄럽습니다.§!"
  craven:0 "비겁자"
- craven_desc:0 "§L"적이 더 접근하면 교전 개시. 좀 더 많이 다가오면."§!"
+ craven_desc:0 "§L\"적이 더 접근하면 교전 개시. 좀 더 많이 다가오면.\"§!"
  naval_lineage:0 "해군 혈통"
  naval_lineage_desc:0 "§L배 한 척을 만드는데 3년. 전통 하나를 만드는데 300년.§!"
  navy_media_personality:0 "유명인"
@@ -648,7 +649,7 @@
  strict_austerity_adherent:0 "엄격한 긴축 지지자"
  dive_bomber_desc:0 "§L급강하 폭격기 활용 전문가.§!"
  defeatist:0 "패배주의자"
- little_churchill:0 ""작은 처칠""
+ little_churchill:0 "\"작은 처칠\""
  wilhelmina:0 "빌헬미나"
  disdain_for_politicians_1:0 "정치인들과의 단절"
  disdain_for_politicians_2:0 "정치인들과의 단절"
@@ -765,7 +766,6 @@
  operative_escape_artist_desc:0 "이 요원을 가두어 놓을 수 있는 감옥은 아직 없습니다."
  operative_demolition_expert:0 "파괴 공작 전문가"
  operative_demolition_expert_desc:0 "이 요원은 무언가를 다양한 방법으로 터뜨려버리는 데에 익숙합니다."
- 
  devoted_corporatist:0 "Devoted Corporatist"
  resolute_social_democrat:0 "Resolute Social Democrat"
  gifted_shipping_magnate:0 "Gifted Shipping Magnate"
@@ -794,7 +794,6 @@
  turkish_public_debt_administration:0 "Turkish Public Debt Administration"
  linchpin_of_infrastructure:0 "Linchpin of Infrastructure"
  industrial_monopoly:0 "Industrial Monopoly"
-
  trait_GRE_stauch_monarchist:0 "Staunch Monarchist"
  trait_GRE_stauch_monarchist_desc:0 "This leader is respects and reveres the monarchy as a Greek institution."
  trait_GRE_venezelist_loyalist:0 "Venezelist Loyalist"
@@ -803,7 +802,6 @@
  trait_GRE_marxist_acolyte_desc:0 "This leader is a communist who believes in the theories espoused by Karl Marx."
  trait_GRE_fascist_sympathizer:0 "Fascist Sympathizer"
  trait_GRE_fascist_sympathizer_desc:0 "This leader is sympathetic to the tenets of fascism."
- 
  inventive_genius:0 "Inventive Genius"
  father_of_the_turks:0 "Father of the Turks"
  father_of_the_turks_1:0 "Father of the Turks"
@@ -827,9 +825,7 @@
  reluctant_stalinist:0 "Reluctant Stalinist"
  freedom_fighter:0 "Freedom Fighter"
  experienced_insurgent:0 "Experienced Insurgent"
-
  the_humbled_knyaz:0 "The Humbled Knyaz"
-
  prime_minister_inonu:0 "Prime Minister"
  prime_minister_cakmak:0 "Prime Minister"
  prime_minister_bayar:0 "Prime Minister"
@@ -848,14 +844,11 @@
  irredentist_academic:0 "Irredentist Academic"
  avid_turanist:0 "Avid Turanist"
  revolutionary_author:0 "Revolutionary Author"
-
  trait_TUR_kemalist_champion:0 "Kemalist Champion"
  trait_TUR_kemalist_champion_desc:0 "This leader is a staunch adherent to the tenets of Kemalism and will fight to defend those principles."
- 
  underage_monarch:0 "Underage Monarch"
  legitimate_heir:0 "Legitimate Heir"
  collaborator_king:0 "Collaborator King"
-
  trait_BUL_zveno_member:0 "Zveno Member"
  trait_BUL_zveno_member_desc:0 "This leader is a member of the Zveno and will side with this faction if conflict breaks out."
  trait_BUL_tsar_loyalist:0 "Tsar Loyalist"
@@ -904,7 +897,6 @@
  peasant_sympathiser:0 "Peasant Sympathiser"
  peasant_sympathiser_desc:0 "§LHolds sympathies for the peasants and working class of Poland.§!"
  he_who_bears_the_throne:0 "He Who Bears the Throne"
-
  stalin_political_paranoia:0 "Political Paranoia"
  SOV_paranoia_modifier_increase_effect_tt:0 "  - Political Paranoia increases by §R1§! weekly"
  stalin_political_paranoia_advanced:0 "$stalin_political_paranoia$"
@@ -962,11 +954,9 @@
  trait_SOV_trotskyist_desc:0 "This character is loyal to the Trotskyist cause and will side with the Trotskyists in the event of a civil war."
  trait_SOV_bukharinist:0 "Bukharinist"
  trait_SOV_bukharinist_desc:0 "This character is loyal to Bukharin and his followers and will side with them in the event of a civil war."
-
  tank_refurbishment_plant:0 "Tank Refurbishment Plant"
  repair_and_refurbishment_plant:1 "Repair-Refurbishment Plant"
  black_sea_naval_manufacturer:1 "Black Sea Naval Designer"
-
  head_of_the_nkvd:0 "Head of the NKVD"
  head_of_the_nkvd_yagoda_initial:0 "$head_of_the_nkvd$"
  head_of_the_nkvd_yagoda:0 "$head_of_the_nkvd$"

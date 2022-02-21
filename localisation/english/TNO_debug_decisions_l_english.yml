@@ -1,9 +1,8 @@
-﻿l_english:
- global_debug_decisions:0 "Global Debug Decisions"
- show_hide_debug_decisions:0 "Show/Hide Debug Decisions"
-
+l_english:
+ global_debug_decisions:0 "세계 디버그 결정"
+ show_hide_debug_decisions:0 "디버그 결정 보이기/감추기"
  debug_open_the_rift:0 "Open The Rift"
- debug_open_the_rift_desc:0 ""Quintilius Varus, give me back my legions!""
+ debug_open_the_rift_desc:0 "\"Quintilius Varus, give me back my legions!\""
  debug_revive_goebbels:0 "Revive Joseph Goebbels"
  debug_revive_goebbels_desc:0 "The fifth contender has arrived."
  debug_activate_arcade_mode:0 "Activate Arcade Mode"
@@ -38,19 +37,13 @@
  debug_blow_up_reichstaat_1:0 "    Trigger Reichsstaat Collapse - Level 1"
  debug_blow_up_reichstaat_2:0 "    Trigger Reichsstaat Collapse - Level 2"
  debug_blow_up_reichstaat_3:0 "    Trigger Reichsstaat Collapse - Level 3"
-
- ## USA Debug
  debug_show_USA_debug_decisions:0 "§mUSA Debug Decisions§!"
  debug_show_USA_debug_decisions_desc:0 "Click to toggle these decisions"
  debug_show_US_var_display:0 "    Show/Hide State Variable Display"
  debug_USA_printing_show:0 "    Toggle Election Printing"
-
- ## China Debug
  debug_load_western_insurrection_warmup_tree:0 "Load Western Insurrection Warnup Tree"
  debug_load_western_insurrection_main_tree:0 "Load Western Insurrection Main Tree"
  debug_load_Nanjing_and_Oil_Crisis:0 "Load Nanjing and Oil Crisis Trees"
-
- ## Yunnan Debug
  debug_load_yun_initial:0 "Load Initial Tree"
  debug_load_lu_han_doesnt_care:0 "Load the very WIP Xinan insurgency GUI"
  debug_load_yun_post_unify:0 "Load Post-Unification Tree"
@@ -62,12 +55,8 @@
  debug_load_WI_warlord_GUI:0 "WIP the too simple and naive warlord GUI"
  debug_load_failed_yun:0 "Long Yun's Last Stand"
  debug_load_gaw_yun:0 "§RArise, Ye Who Refuse to Be Slaves!§!"
-
-
  debug_show_conflict_debug_decisions:0 "§YMajor Event Debug Decisions§!"
  debug_show_conflict_debug_decisions_desc:0 "Click to toggle these decisions"
-
- ##TT Economy Debug
  debug_show_tt_econ_debug_decisions:0 "§GTT Econ Debug Decisions§!"
  debug_tt_econ_month_forward:0 "§GTT Economy Advance One Month§!"
  debug_tt_econ_month_forward_desc:0 "Simulates end of month calculations. Only applies to current tag."
@@ -76,8 +65,6 @@
  debug_tt_econ_test_scripted_effect_minus_percent:0 "Simulate a GDP Drop of §R10%§!"
  debug_tt_econ_test_scripted_effect_plus_percent:0 "Simulate a GDP Increase of §G10%§!"
  debug_tt_econ_test_recalculate_GDP_and_PUs_on_demand:0 "Recalculate GDP and PUs"
-
- ## TT Proxy Debug
  debug_show_tt_debug_decisions:0 "§RTT Proxy Debug Decisions§!"
  debug_show_tt_debug_decisions_desc:0 "Click to toggle these decisions"
  debug_show_tt_africa_debug_decisions:0 "    Toggle Africa Proxy Decisions"
@@ -86,17 +73,12 @@
  debug_show_tt_wif_debug_decisions_desc:0 "Click to toggle these decisions"
  debug_show_tt_asia_debug_decisions:0 "    Toggle Asian Proxy Decisions"
  debug_show_tt_asia_debug_decisions_desc:0 "Click to toggle these decisions"
- 
- 
- debug_tt_command_power_cheat:0 "      999 Command Power" 
-
-
+ debug_tt_command_power_cheat:0 "      999 Command Power"
  ANG_Free_Angola:0 "        Free Angola"
  COG_Mandate_trigger_mandate_collapse:0 "        Collapse OFN Mandate of the Congo"
  WA_Timeskip_Africa:0 "        Trigger West African Expansion"
  TNO_Unleash_Congo:0 "        Ignite Congo Civil War"
  debug_gazaland_civil_war:0 "        Start Mozambique Civil War"
-
  TNO_WIF_Reset:0 "        Reset the West Indies Federation"
  TNO_WIF_Reset_desc:0 "Reset the West Indies Federation to its starting state."
  TNO_WIF_Collapse:0 "        Trigger West Indies Federation Collapse"
@@ -107,12 +89,10 @@
  TNO_JAM_Cancel_Referendum_desc:0 "Cancels the Jamaican referendum, with no effects."
  TNO_JAM_End_Referendum:0 "        Finish Jamaican Indep. Referendum"
  TNO_JAM_End_Referendum_desc:0 "Ends the Jamaican referendum, tallying the vote and triggering the corresponding result."
-
  TNO_JAM_Begin_Crisis:0 "        Begin Jamaican Crisis"
  TNO_JAM_Begin_Crisis_desc:0 "Begins the Jamaican crisis, inviting the US and Japan to participate."
  TNO_JAM_Cancel_Crisis:0 "        Cancel Jamaican Crisis"
  TNO_JAM_Cancel_Crisis_desc:0 "Cancels the Jamaican crisis, with no effects."
-
  TNO_JAM_Coup:0 "        Trigger Jamaican Coup"
  TNO_TRI_Indep:0 "        Trigger Trinidad Negotiations"
  TNO_TRI_BPR:0 "        Trigger Successful Black Power Rev."
@@ -124,5 +104,4 @@
  debug_PHI_blitz_crisis_SPH_win:0 "       Simulate SPH Victory"
  debug_PHI_blitz_crisis_SPR_win:0 "       Simulate SPR Victory"
  debug_PHI_blitz_crisis_fourteenth_army_landing:0 "       Simulate the 14th Army landing §r(USE ONLY AFTER SIMULATING EITHER SPH OR UPH VICTORY)§!"
-
-generic_debug.44.d: "This should be 1: [?negative_variable_test_2|Y]\nThis should be 1: [?negative_variable_test_3|Y]"
+ generic_debug.44.d: "This should be 1: [?negative_variable_test_2|Y]\nThis should be 1: [?negative_variable_test_3|Y]"

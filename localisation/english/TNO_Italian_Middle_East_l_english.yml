@@ -1,6 +1,4 @@
 ﻿l_english:
-
- #parties
  IME_communist_party:0 "하라킨"
  IME_communist_party_long:0 "아랍민족운동"
  IME_socialist_party:0 "하가나 - 좌파"
@@ -11,15 +9,14 @@
  IME_conservative_democracy_party_long:0 "팔레스타인 민족해방운동 - 우파"
  IME_authoritarian_democracy_party:0 "이르군"
  IME_authoritarian_democracy_party_long:0 "이스라엘 땅의 민족군사기구"
- IME_despotism_party:0 "군정청"
+ IME_despotism_party:0 "레반트 군정청"
  IME_despotism_party_long:0 "레반트 군정청"
- IME_fascism_party:0 "파시스트당"
+ IME_fascism_party:0 "국가 파시스트당 - 레반트 지부"
  IME_fascism_party_long:0 "레반트 국가 파시스트당"
  IME_national_socialism_party:0 "레히"
  IME_national_socialism_party_long:0 "이스라엘 자유투사 - 레히"
  IME_ultranationalism_party:0 "JTF - QA"
  IME_ultranationalism_party_long:0 "팔레스타인 해방전선 - 총사령부"
-
  JER_communist_party:0 "MIU"
  JER_communist_party_long:0 "통합과 통일을 위한 운동"
  JER_socialist_party:0 "NMLJ"
@@ -32,7 +29,7 @@
  JER_conservative_democracy_party_long:0 "예루살렘 민주동맹"
  JER_authoritarian_democracy_party:0 "MLI"
  JER_authoritarian_democracy_party_long:0 "이탈리아 법 임무단"
- JER_despotism_party:0 "GML"
+ JER_despotism_party:0 "이탈리아 군정청"
  JER_despotism_party_long:0 "이탈리아 군정청"
  JER_fascism_party:0 "레히"
  JER_fascism_party_long:0 "이스라엘 자유투사 - 레히"
@@ -40,9 +37,6 @@
  JER_national_socialism_party_long:0 "이스라엘 자유투사 - 레히"
  JER_ultranationalism_party:0 "JTF - QA"
  JER_ultranationalism_party_long:0 "팔레스타인 해방전선 - 총사령부"
-
-
-
  PAL_communist_party:0 "하라킨"
  PAL_communist_party_long:0 "아랍민족운동"
  PAL_socialist_party:0 "HSF"
@@ -63,7 +57,6 @@
  PAL_national_socialism_party_long:0 " 아랍해방전선"
  PAL_ultranationalism_party:0 "JTF - QA"
  PAL_ultranationalism_party_long:0 "팔레스타인 해방전선 - 총사령부"
-
  PAL_Levant_Union_communist_party:0 "LCP"
  PAL_Levant_Union_communist_party_long:0 "레반트 공산당"
  PAL_Levant_Union_socialist_party:0 "UWB"
@@ -84,118 +77,86 @@
  PAL_Levant_Union_national_socialism_party_long:0 "이스라엘 자유투사 - 레히"
  PAL_Levant_Union_ultranationalism_party:0 "JTF - QA"
  PAL_Levant_Union_ultranationalism_party_long:0 "팔레스타인 해방전선 - 총사령부"
- 
  JOR_Abdullah_despotism_party:0 "압둘라 궁정"
  JOR_Abdullah_despotism_party_long:0 "압둘라 궁정"
  JOR_Nayef_despotism_party:0 "나예프 궁정"
  JOR_Nayef_despotism_party_long:0 "나예프 궁정"
  JOR_Hussein_despotism_party:0 "후세인 궁정"
  JOR_Hussein_despotism_party_long:0 "후세인 궁정"
-
- #events#
- 
- ###intro events###
  ime.1.t:0 "레반트 총독부"
  ime.1.d:0 "The grand dreams of colonialism and an imperial Italy seemed so close to becoming reality. In the aftermath of the Second World War, the tricolour waved over the defeated British forts, as the victorious Regio Esercito advanced in the Middle East - after Egypt, Palestine soon fell, as the British lion bled under the talons of the Italian eagle. When Italian troops entered Jerusalem, Rome's propaganda took no time to paint the triumph as the mighty echo of an ancient past - the glorious legions, that had once brought order and peace to Judea under Vespasian and Trajan, have now returned to Palestine led by Benito Mussolini, the Caesar of our age.\n\nOf course, reality was much different, and its taste much more bitter. Native resistance to Italian occupation was strong, and the more the Italian Empire spread far and wide on the map, the more its forces were stretched thin on the ground. Fascist plans to turn the Levant into a loyal and Italian province of the Empire by assimilating the natives were soon canned, as opposition to Italy was one of the few things capable of uniting the various ethnic, religious and cultural groups in the region. Projects to resettle the Levant with Italians never left the drawing board, as the people of the peninsula preferred the much safer lands of the Fourth Shore, and after years of endless cycles of revolt and repression, the new Duce, Galeazzo Ciano, in his bid to resolve the many ailments of the Empire, finally decided that a new course of action was necessary.\n\nEnter Carlo Alberto Dalla Chiesa. In the Duce's eyes, the young general of the Carabinieri had three characteristics that made him especially fit for the position of governor - efficiency, demonstrated in his relatively short but dashing career, lack of sympathy for fascist rhetoric, and most of all, a complete lack of involvement or interest in politics. Since the beginning of Dalla Chiesa's tenure, a semblance of order returned to the Levant - with the new governor agreeing to allow autonomy and a moderate level of freedom to those who were content with that, and focusing the efforts of his garrison on the more radical paramilitaries and resistance groups. An uneasy peace was built in the Levant - a fickle, fragile truce, built to protect the many innocent civilians of the region, whatever their religion or ethnicity, from the horrors of what could very well be an endless, subterranean war."
  ime.1.a:0 "And yet, peace can't last."
- 
  ime.2.t:0 "A Letter From Karameh"
  ime.2.d:0 "Riservatissimo - For the Governor's Eyes Only\n\nTo Governor Dalla Chiesa in Jerusalem, From the regional Carabinieri command in Karameh.\n\nWe would like to report to Your Excellency that the construction of the new headquarters of Fatah in the town of Karameh has been completed, and the current leader of the organization Arafat Yasser has taken residence in the structure. As per Your Excellency's orders, a Carabinieri garrison was situated in the vicinities of the village, and the bridge over the river Jordan that connects the location to the West Bank is kept under watch for any unauthorized movements. The offer of emir Hussein of garrisoning the bridge with soldiers from his own armed forces has been kindly declined.\n\nThe loyalty of the emir of Transjordan is still questionable at best, and he is still one of the main providers of funding for Fatah. However, we do not believe that any direct threats are coming from his court in Amman, as the main source of Hussein's wealth is the oil deals between Transjordan and ENI - which of course, would become null and void should he break the treaties that bind him to us. At any rate, any move against the emir would surely provoke a widespread insurrection, as he enjoys widespread popularity among his subjects in Transjordan and many conservative Arabs in Palestine. Interestingly, Hussein's alliance with Arafat doesn't seem to be exactly comfortable - the two have little in common, besides a somewhat shared goal of more independence from Italy.\n\nRegarding Arafat himself, we still recommend keeping him under close watch. Despite his young age, he enjoys immense popularity among the Arab youths in the West Bank, and while it is true that allowing Fatah to maintain her own paramilitaries was a necessary evil, they still represent a threat - especially considering that Arafat has consistently refused to back down from his requests for full independence and native rule. Still, we believe that for now breaking the truce would be against Arafat's own interests, as fortunately he places the well being of his own people over mad quests for vengeance - and he too fears the consequences that hostilities would inevitably bring, should they resume. In conclusion, while the current situation is far from ideal and will inevitably deteriorate in time, we would strongly advise against any offensive move against either Arafat or Hussein. The most appropriate course of actions would be to continue the negotiations and buy for time, until hopefully Rome realizes the untenability of our situation in the long term."
  ime.2.a:0 "Keep Amman and Karameh under close watch, but do nothing else for now."
- 
  ime.3.t:0 "The Defense"
  ime.3.d:0 "The armored cars made their way along a dirt road, proceeding straight as a ruler along grain fields. Farmers in dirty clothes toiled the arid earth, as the scorching sun burned their skins, as the kibbutz came closer and closer into view. From the desert, life - fields, farms, animals, a small town, palm trees and flowers, defiant against the surrounding sand and rocks. Up above, the Italian flag flew in the wind, and right next to it, on a pole just as tall, the blue and white flag with the Star of David. When governor Dalla Chiesa stood up and left the car, a small band of soldiers stood to salute him - their uniforms kept impeccably, their weapons old but polished to a shine, despite having been just used in training. The local detachment of Haganah.\n\nThe kibbutz was ordinary, no different than all the others Dalla Chiesa had inspected in the past, all mostly concentrated around the areas where Jewish settlement was more prominent - around Tel Aviv and Haifa, and to the north near lake Tiberias. A town hall, a school with a playground in which children chased each other and kicked a ball around laughing and shouting, a small synagogue, rows and rows of small, clean and orderly houses. People of all ages walked around the streets of the village, busy in their daily mansions - kids, the first generation native to the kibbutz, young men growing strong and healthy by working in farms and shops, and smiling elderly people, hiding in their memories the horrors they had witnessed in the past. And around the village, watchtowers, barbed wire, and armed Haganah soldiers stood and watched, guns at the ready.\n\nWhen the Italian Empire began to allow Jewish refugees from the Reich in the Levant, accepting the existence of Haganah was a necessary, even if unspoken, part of that deal. After all, having a single self defense organization dedicated to protecting and policing the kibbutzim was a better solution for both the Jews and the Italians, especially considering the Haganah's self imposed policy of havlaga, or self-restraint - in other words, the Haganah never attacked, but only defended. The people of the kibbutzim, especially the elderly, had known what it meant to be defenseless in the face of horror - now, in their new home in the Levant, they would never be without a defense again."
  ime.3.a:0 "Order military patrols to steer clear of the kibbutzim in this region - no need to provoke tensions."
- 
  ime.4.t:0 "The Battle of Latrun"
  ime.4.d:0 "Truck tracks, footprints, blood. Italian soldiers running around, rifles in their hands, with officers shouting orders. Women crying in the streets, boys shouting insults and spitting on the ground while a soldier searches them and another one points a rifle at their backs. One tries to make a run for it, a burly Regio Esercito soldiers knocks him unconscious with the butt of his rifle, and two of his teeth fly away from his mouth. And in the middle of the chaos, the shouting, the crying, one man stands still, staring at the still warm corpses, covered with a white blanket - governor Dalla Chiesa.\n\nNobody knows yet how the Irgun commando managed to reach the village of Latrun, so far into Arab territory. The Carabinieri are still busy analyzing the scene, interrogating witnesses, examining corpses. They were a few dozens, and surrounded the town at night, attacking at dawn. For Irgun, Latrun has a symbolic meaning, as it sits on the only road connecting Tel Aviv to Jerusalem - but otherwise, it's only one of many tiny Arab villages scattered around Palestine. Perhaps this is why Irgun expected no resistance - their commando, numbering a few dozens, planned to attack at dawn, sweeping into the village, and causing mayhem before the Italians or anyone else had time to react. Instead, what they found was a sleeper cell of the ANM, which had set up shop long ago in Latrun.\n\nThe battle broke out immediately, and devolved into house by house fighting when Irgun units managed to enter the village. Gunfire was heard for hours, before the closest Italian division was able to encircle Latrun and mop up the remnants of the Irgun commando and the ANM fedayeen. Numerous civilians lost their lives in the short but violent battle, but among both Irgun and ANM soldiers, casualties were extremely high, and Italian troops even managed to take prisoners from both sides - a rather rare occurrence. Ironically, a tragedy such as this proved itself helpful. Dalla Chiesa turned away, and looked at the soldiers surrounding him. Something had to be done."
  ime.4.a:0 "Take care of the wounded civilians and set up a defensive perimeter. New orders will arrive shortly."
- 
  ime.5.t:0 "Scopi e Metodi dell'Irgun Zvaì Leumi B'Eretz-Israel"
- ime.5.d:0 ""As you know, Irgun, officially known as National Military Organization in the Land of Israel, is a clandestine paramilitary and terrorist movement operating in the entirety of the Levant. It was founded in 1931, from a small core of hardline Zionists, and it expanded slowly, absorbing smaller Zionist groups. Their ideology can be summed up in three points: first, every Jew has the right to enter Palestine; second, only active retaliation can stop the Arabs from encroaching on rightful Jewish land; third, only Jewish armed force can ensure a Jewish state. Their goal is simple - to turn the entirety of the Levant into a Jewish state.\n\nThey don't claim just Palestine, either - their aims include Transjordan as well. They're not afraid to extensively use violence against both Italian soldiers and Arab civilians. Their organization is rigid, with a well organized military hierarchy, and especially shadowy - they have contacts in many kibbutzim, Jewish communities and Haganah units scattered around the Levant, and every single Jew in the Governorate could potentially be a member or supporter of Irgun. While we do know the names of some of Irgun's major leaders, including their commander Menachem Begin, we have little actual information that would allow us to strike them precisely. They are a dangerous enemy, hiding behind every corner and every stone, and they will not hesitate to pull the trigger if they have you in your sights."\n\nDalla Chiesa stopped, and the Carabinieri generals and officers gathered in the room stood silent. Maps, diagrams, charts and photographs were hung on the walls and scattered on the table of the dimly lit room, as cigarette smoke filled the air. "Of course, a traditional counter insurgency campaign would be a disaster. There is no way to tell apart an Irgun affiliate with any average Haganah soldier or even any ordinary Jew - it would result in a massacre, and would break any good will existing between us and Haganah, eventually increasing Irgun's popularity among the Jews. A new tactic has to be employed.""
+ ime.5.d:0 "\"As you know, Irgun, officially known as National Military Organization in the Land of Israel, is a clandestine paramilitary and terrorist movement operating in the entirety of the Levant. It was founded in 1931, from a small core of hardline Zionists, and it expanded slowly, absorbing smaller Zionist groups. Their ideology can be summed up in three points: first, every Jew has the right to enter Palestine; second, only active retaliation can stop the Arabs from encroaching on rightful Jewish land; third, only Jewish armed force can ensure a Jewish state. Their goal is simple - to turn the entirety of the Levant into a Jewish state.\n\nThey don't claim just Palestine, either - their aims include Transjordan as well. They're not afraid to extensively use violence against both Italian soldiers and Arab civilians. Their organization is rigid, with a well organized military hierarchy, and especially shadowy - they have contacts in many kibbutzim, Jewish communities and Haganah units scattered around the Levant, and every single Jew in the Governorate could potentially be a member or supporter of Irgun. While we do know the names of some of Irgun's major leaders, including their commander Menachem Begin, we have little actual information that would allow us to strike them precisely. They are a dangerous enemy, hiding behind every corner and every stone, and they will not hesitate to pull the trigger if they have you in your sights.\"\n\nDalla Chiesa stopped, and the Carabinieri generals and officers gathered in the room stood silent. Maps, diagrams, charts and photographs were hung on the walls and scattered on the table of the dimly lit room, as cigarette smoke filled the air. \"Of course, a traditional counter insurgency campaign would be a disaster. There is no way to tell apart an Irgun affiliate with any average Haganah soldier or even any ordinary Jew - it would result in a massacre, and would break any good will existing between us and Haganah, eventually increasing Irgun's popularity among the Jews. A new tactic has to be employed.\""
  ime.5.a:0 "Dismissed."
- 
  ime.6.t:0 "Rapporto sull'Harakat al-Qawimin al-Arab"
  ime.6.d:0 "Riservatissimo - For the Governor's eyes only\n\nTo Governor Dalla Chiesa, Jerusalem From the regional Carabinieri command in Latrun.\n\nWe would like to report to Your Excellency that the interrogations of captives taken in following the events in Latrun has provided us with valuable information about the nature of the armed Palestinian resistance movements. After extensive application of persuasive interrogation methods, we have managed to learn that despite acting under a single name, the fedayeen fighting for the Harakiyyin have actually no idea about the overall operational status, tactical plans or even composition of ANM units different from their own.\n\nThis has led us to conclude that the ANM is organized in a loose and decentralized network of cells, each acting on their own and largely independent from one another. The chairman of the ANM, George Habash, is currently suspected to be hiding somewhere in the Lebanese highlands, and doesn't seem have to have much control over the organization. While nominally a communist movement, the ideological purity of the ANM seems shaky at best - when interrogated on the topic, the Latrun captives demonstrated only an extremely cursory knowledge of the works of Marx, Engels, Lenin and other classics of communist thought, and seemed to be motivated above all else by Arab nationalist, anti-Italian and anti-Zionist rhetoric.\n\nWe are led to believe that the ANM is in fact not a single movement, but a loose coalition of numerous pre-existing cells and organizations, united by their opposition to Italian rule and a decentralized chain of command. While apparently a weakness, this characteristic is also the ANM's greatest strength - such a movement is effectively impossible to decapitate, and focusing on eliminating one cell will do nothing against the organization at large, as its other parts can continue operating autonomously. We were not able to effectively confirm or deny the existence of ties between ANM cells and Fatah. The Latrun captives have been hospitalized following the interrogation, and will be transferred to the closest internment camp after they recover."
  ime.6.a:0 "File this report in the archives."
- 
  ime.7.t:0 "Operation Masada"
  ime.7.d:0 "Dalla Chiesa drank the last sip of coffee, by now disgustingly lukewarm, and put the cup back on the desk. Scattered on his desk, piles of documents, reports, interrogation logs, photographs, maps, all marked with coffee stains and pen markings and annotations. In this kibbutz near Haifa, there might be an Irgun commander disguised as a Haganah sergeant - this remote village in Transjordan could be the location of an ANM hidden arsenal - and at least a dozen different dots on the map of Palestine could be the location of the next Latrun massacre.\n\nThere are many in the Levant who hate Italy and everything it stands for, but those who are willing to pick up arms fueled by that hate, usually hate someone else even more. Divide et impera, the Romans said - and no place is more divided than the Italian Levant. There is only one way to deal with ANM and Irgun, and that is making them deal with each other - while at the same time making sure that the thin line protecting the civilians from the chaos is always occupied by an Italian soldier. The people of the Levant will learn that we are the only hope for peace in the country, and if that they'll have to work with us if they hope to bring an end to the bloodshed - and God knows, these lands, these people, have already seen too much blood.\n\nThe governor gathered the necessary documents into one large envelope. In it was a plan to ensure that the garrison could keep the Levant under control without excessive costs in money or lives, just for a few more years. Many in Rome wouldn't like it, and perhaps the goons in the PNF should be left unaware of the finer details. After all, Ciano would surely understand - this is for the greater good of Italy. Dalla Chiesa closed the envelope, and looked once again at the letters printed on the outside.\n\nOperation Masada."
  ime.7.a:0 "If everything has to stay the same, then everything has to change."
  ime_operation_masada_unlock:0 "Operation Masada Decisions Unlocked."
- 
- ime.8.t:0 "Operations against Irgun - Success!" 
+ ime.8.t:0 "Operations against Irgun - Success!"
  ime.8.d:0 "Our recent attempts to provoke armed conflict between the forces of Irgun and the Harakiyyin appear to have been a resounding success. According to recent reports by the Carabinieri, fifty Irgun terrorists travelling along a stretch of desert in search of a supposed newly established village (the location - and existence - of which we have fabricated) found themselves ambushed in the early morning by an ANM raiding party, as planned. While the Irgun fighters retaliated with their characteristic fury, the ANM possessed better weapons - not to mention more time to plan. In the end, the Irgun fighters barely escaped, leaving twenty of their own behind to rot in the desert sand. \n \n Irgun's activity throughout the Levant has dropped drastically as they slink back to their dens to lick their wounds, leaving the Harakiyyin the stronger power - for now. George Habash has not made a public statement on the matter, although our spies in the ANM inform us he is growing more confident of victory by the day."
  ime.8.a:0 "Mission Successful."
- 
  ime.9.t:0 "Operations against Irgun - Massive Success!"
  ime.9.d:0 "Irgun got fucking annihilated lol sucks to suck"
- ime.9.a:0 "Begin more like end :sunglasses:" 
- 
+ ime.9.a:0 "Begin more like end :sunglasses:"
  ime.10.t:0 "Operations against Irgun - failure!"
  ime.10.d:0 "Shit backfired yo"
  ime.10.a:0 "oh god oh fuck"
- 
- ime.11.t:0 "Operations against the Harakiyyin - Success!" 
+ ime.11.t:0 "Operations against the Harakiyyin - Success!"
  ime.11.d:0 "the Harakiyyin took some losses boys pack it in"
  ime.11.a:0 "Mission Successful."
- 
  ime.12.t:0 "Operations against the Harakiyyin - Massive Success!"
  ime.12.d:0 "the Harakiyyin got fucking annihilated lol sucks to suck"
- ime.12.a:0 "bash the habash :sunglasses:" 
- 
+ ime.12.a:0 "bash the habash :sunglasses:"
  ime.13.t:0 "Operations against the Harakiyyin - failure!"
  ime.13.d:0 "Shit backfired yo"
  ime.13.a:0 "oh god oh fuck"
- 
  ime.14.t:0 "I don't know what this is for"
  ime.14.d:0 "if this is post release and you're poking around in the files fuck you"
  ime.14.a:0 "jk love u bb"
- 
  ime.15.t:0 "현 상황"
  ime.15.d:0 ""
  ime.15.a:0 ""
-
  ime.16.t:0 "Kibbutzim Self-Rule Confirmed!"
  ime.16.d:0 ""
  ime.16.a:0 ""
-
  ime.17.t:0 "Crackdown on Illegal Settlements!"
  ime.17.d:0 ""
  ime.17.a:0 ""
-
  ime.18.t:0 "Legalization of Illegal Immigrants"
  ime.18.d:0 ""
  ime.18.a:0 ""
- 
  ime.19.t:0 "Resolving Land Disputes"
  ime.19.d:0 ""
  ime.19.a:0 ""
-
  ime.20.t:0 "Havlaga Solidified"
  ime.20.d:0 ""
  ime.20.a:0 ""
-
  ime.21.t:0 "Meeting with Rabin"
  ime.21.d:0 ""
  ime.21.a:0 ""
- 
- #ime.44.t:0 "Zog Nit Keynmol"
- #ime.44.desc:0 "Twenty five years. It had been twenty five years since the Nazis first came. They had rolled into Wilna, and everything changed. He was a young man, then, but even today he still remembered the first months of the occupation, the feverish hope that had gripped his family. Maybe the infamous hatred of his people by the Nazis were just rumors? Surely none could be so cruel?\n\nThe man knew better now. He remembered his first camp, too. The things he had seen had changed him over time, he also knew. When he had killed his first Nazi, he felt nothing. When he looted his first home, he had felt nothing. When they burned their first village, he felt nothing. But when he returned to Wilna, it was like a dam inside him burst - he had to leave. He had to find a new home - there was nothing left in Wilna but death and ash.\n\nHe had wandered for years through the wastes the Nazis had created. Lithuania, Russia, Slovakia, he had seen them all, seen their horrors, and seen what they had done to people. Still he pressed one. When he arrived in Italy, he dared not show his face. They said the Italians treated the Jews well - but they had also said that about the Nazis all those years ago. He wondered what he would find at his ultimate destination - more camps? More death? Perhaps he'd find more Kovners and Wilnas.\n\nWhen he stepped onto the Kibbutz, he did not know what he was looking at. The people seemed calm, happy, safe. He watched a child run to her mother, laughing. He turned his head again and saw a young man chatting nervously with a girl. He watched for a moment before he turned one last time - he saw an old man standing there, watching him. The sad look in the man's eye reminded him of his father, and as he approached, Hirsh Glick knew he was, at last, home."
- #ime.44.a:0 "Never say that you have reached the very end."
- 
  ime.48.t:0 "The War is Over"
  ime.48.d:0 ""
  ime.48.a:0 "Continue Preparations"
  ime_jerusalem_conference_timer_tt:0 "The §YJerusalem Conference§! begins in 6 months."
- 
- #ideas#
  IME_italys_finest:0 "총독군"
  IME_italys_finest_desc:0 "달라치에사 총독의 강력하고도 공정한 통치 아래, 레반트의 군대는 이탈리아의 식민지들 중에서 최강으로 등극했습니다. 시온주의와 팔레스타인 양쪽의 반란을 진압해야 하는, 어쩌면 소모전으로 갈지도 모르는 레반트의 군대는 중동 지역의 상황과 전투 방식에 익숙해졌습니다."
  IME_haganah_fatah_negotiations: "불안한 평화"
  IME_haganah_fatah_negotiations_desc:0 "이탈리아식 식민지배의 고전적인 통치 방법은 극단적으로 비효율적이기 때문에, 레반트 이탈리아 당국은 중동을 안정시키기 위한 노력으로 레반트의 정치 및 준군사 조직인 하가나와 파타와 협상할 수밖에 없었습니다. 하가나는 총독부의 승인을 받아 팔레스타인의 유대인 정착촌을 보호하는 민병대이고, 파타는 독립 아랍국으로써 레반트의 독립을 위해 헌신해온 아랍 단체이자 준군사 조직입니다. 두 조직 모두 자신들의 목표를 추구하기 위해 총독부와 협력하는 것을 어느 정도 받아들이고 있지만, 서로 간에 관계 진전에 다소 어려움을 겪고 있으며, 이탈리아인과 유대인과 아랍인들 사이에 종잇조각 처럼 얇은 불안한 평화는 당장이라도 찢겨질 위험에 처해 있습니다."
  IME_terrorism:0 "맞부딪히는 극단주의"
- IME_terrorism_desc:0 "이탈리아가 레반트 소요사태에 대해 일반적으로 비폭력적인 해결책을 찾으려는 노력에도 불구하고, 이 지역엔 여전히 이탈리아 정부에 격렬하게 반대하는 사람들이 많습니다. 유대인들 사이에서는, 하가나의 온건주의에 불만을 품은 사람들이 레반트 전체를 걸친 유대국가를 위해 싸우며, 이탈리아인들과 아랍인들을 계속 공격하는 것을 두려워하지 않는 수정시오니즘 준군사조직 이르군을 결성했습니다. 아랍인들 사이에서는. 수많은 공산주의자, 좌익 민족주의자 및 기타 단체들의 느슨한 연합체로 결성되어 있는 하라킨 또는 아랍 민족 운동이라 불리는 단체가 있습니다. 이들은 독립 아랍 레반트를 위한 운동을 벌이는 중이며, 이탈리아 제국주의자들과 그들의 꼭두각시로 여겨지는 시오니스트들을 공격하고 있습니다. 동시에, 이 단체들은 이탈리아 정부의 중요한 골칫거리로 판명되었으며 이탈리아 군인과 민간인들을 모두 공격함으로써 주민들 사이에 두려움과 공포를 퍼트렸습니다."
+ IME_terrorism_desc:0 "레반트 소요사태에 대해 일반적으로 비폭력적인 해결책을 찾으려는 이탈리아의 노력에도 불구하고, 이 지역엔 여전히 이탈리아 정부에 격렬하게 반대하는 사람들이 많습니다. 유대인들 사이에서는, 하가나의 온건주의에 불만을 품은 사람들이 레반트 전체를 걸친 유대국가를 위해 싸우며, 이탈리아인들과 아랍인들을 계속 공격하는 것을 두려워하지 않는 수정시오니즘 준군사조직 이르군을 결성했습니다. 아랍인들 사이에서는, 수많은 공산주의자, 좌익 민족주의자 및 기타 단체들의 느슨한 연합체로 결성되어 있는 하라킨 또는 아랍 민족 운동이라 불리는 단체가 있습니다. 이들은 독립 아랍 레반트를 위한 운동을 벌이는 중이며, 이탈리아 제국주의자들과 그들의 꼭두각시로 여겨지는 시오니스트들을 공격하고 있습니다. 동시에, 이 단체들은 이탈리아 정부의 중요한 골칫거리로 판명되었으며 이탈리아 군인과 민간인들을 모두 공격함으로써 주민들 사이에 두려움과 공포를 퍼트렸습니다."
  IME_emirate_of_transjordan:0 "트란스요르단 토후국"
  IME_emirate_of_transjordan_desc:0 "레반트 총독부의 총독께서 서부 지역의 불안한 평화를 유지하는 데 묘수로 요르단 강 너머의 영토에서 트란스요르단 토후국을 구성했습니다. 사실상 이탈리아의 종속국인 트란스요르단은 장교단(이탈리아인 장교단)에게 통제당하고 있지만, 명목상으로는 ENI와의 협력에서 얻을 수 있는 수익성 넘치는 석유 거래를 위해 이탈리아와 협력하여 에미리트를 현대화하고 개발할 수 있는 충분한 부를 제공받은 에미르 후세인 빈 탈랄이 지배하고 있습니다. 최근 트란스요르단의 에미르인 후세인은 전통주의적이고 온건한 정당인 파타의 후원자가 되었고, 그의 이러한 행보에 이탈리아는 약간의 경계를 하고 있습니다."
  IME_ghost_like_counterstrike:0 "귀신같은 반격"
@@ -214,8 +175,6 @@
  IME_joint_training:0 "합동훈련"
  IME_joint_strategy:0 "합동전술"
  IME_corrupt_officer_corps:0 "부패한 장교단"
- 
- #Israel - Palestine Ideas#
  ISR_dream_realised:0 "the Dream Realised"
  ISR_dream_realised_desc:0 "For 2000 years, the Jewish people have wished for a place to call home, and for the first time, this wish has been granted. A Jewish homeland has been founded in the Levant, and the Jewish people now have a place where they can live without fear of extermination and oppression. However, our situation is precarious. We must carefully navigate the many internal and external threats facing our nation if our homeland is to remain free. We have fought for too long to allow this dream to be crushed."
  ISR_ethnic_demon:0 "the Ethnic Demon"
@@ -227,7 +186,7 @@
  PAL_Fatah_Triumphant:0 "Fatah, Triumphant!"
  PAL_Fatah_Triumphant_desc:0 "Through careful political maneuvers and a great many promises to almost every party involved in the Levant, Fatah and the charismatic Arafat have wound up as the most legitimate authority in the Palestinian quarters of the Levant. Energetic, young, and immensely popular, Fatah is determined to prove itself as the only faction that can lead an Arab Palestine into both peace and prosperity through cooperation with her neighbors. It has paid off. Arafat's name is well known across the Levant as the man that won Palestine her independence - and the only man capable of leading her to a stable future."
  PAL_The_Spectre_Of_Corruption:0 "the Spectre of Corruption"
- PAL_The_Spectre_Of_Corruption_desc:0 "One could wonder how exactly Fatah has still managed to maintain its leadership over the wide spectrum of Palestinian parties and armed organizations. If one went along with that line of questioning, they would find themselves mired in a web of promises, underhanded deals, and bribes stretching across the Levantine Union.\n\nFatah, for the most part, has kept its head above the water, but several within the organization seem to conflate the words "Peace" and "Profit." This has not gone unnoticed by members of the opposition, and unless this specter of corruption is dispelled soon, a complacent Fatah could find its leadership and legitimacy challenged by a myriad of opponents vying for the coveted positions of leadership the party has secured."
+ PAL_The_Spectre_Of_Corruption_desc:0 "One could wonder how exactly Fatah has still managed to maintain its leadership over the wide spectrum of Palestinian parties and armed organizations. If one went along with that line of questioning, they would find themselves mired in a web of promises, underhanded deals, and bribes stretching across the Levantine Union.\n\nFatah, for the most part, has kept its head above the water, but several within the organization seem to conflate the words \"Peace\" and \"Profit.\" This has not gone unnoticed by members of the opposition, and unless this specter of corruption is dispelled soon, a complacent Fatah could find its leadership and legitimacy challenged by a myriad of opponents vying for the coveted positions of leadership the party has secured."
  PAL_The_King_And_His_Legion:0 "the King and his Legion"
  PAL_The_King_And_His_Legion_desc:0 "King Hussien of the Levant is many things. A reformer and a pragmatist to his supporters, and a repressive, authoritarian autocrat to his opponents. This difference of opinions matters little to the crown, but not the Arab Legion. A professional force trained and equipped once by the British Empire and then by the Italian. Political repression has been a hallmark of the monarchy's recent history and has only reached new heights as their reign extended to the Levant.\n\nHeavy-handed violence, regular army patrols in civilian territories, and an all but undeclared state of martial law have all contributed to an appearance of stability - and a reality of severe suppression for all those accused of fermenting opposition, be it purely political, Arab, Jewish, Shiite, or Maronite. Many wonder how long this trend of military despotism will continue unquestioned before it is met by an equally militant and radical opposition."
  ISR_Jewish_Unrest:0 "Jewish Unrest"
@@ -235,10 +194,7 @@
  ISR_Demands_For_Democracy:0 "Demands for Democracy"
  ISR_Demands_For_Democracy_desc:0 "If Hussein's belief was that the Arab population of the Levant would be automatically endeared to the government solely because the king shared their ethnicity, he was evidently sorely mistaken. Many of the younger generations see little difference between the autocracy of colonialism and the present dictatorship, and pro-democracy sentiment is expanding exponentially within the population. Although the power of the army prevents these feelings from amounting to much yet, the future could pose a challenge for the king's ability to retain power."
  ISR_Mapai_Dominance:0 "Mapai Dominance"
- ISR_Mapai_Dominance_desc:0 "In the wake of the Jerusalem Conference, the Haganah have transitioned from protectors of Jewish settlements in the Levant, to governing the young nation of Israel. Now known as the Mapai, or the "Workers' Party of Israel," they have effectively become the face of the new state. For better or for worse, the Mapai dominate Israel's politics, economy, and culture. While some celebrate their progressive policies and reforms, others are wary of their paramilitary past."
- 
- 
- #Decisions
+ ISR_Mapai_Dominance_desc:0 "In the wake of the Jerusalem Conference, the Haganah have transitioned from protectors of Jewish settlements in the Levant, to governing the young nation of Israel. Now known as the Mapai, or the \"Workers' Party of Israel,\" they have effectively become the face of the new state. For better or for worse, the Mapai dominate Israel's politics, economy, and culture. While some celebrate their progressive policies and reforms, others are wary of their paramilitary past."
  ime_intro_event:0 "이탈리아령 중동의 상황"
  IME_war_for_the_levant_category:0 "마사다 작전"
  IME_war_for_the_levant_category_desc:0 "레반트 총독부의 상황은 머리가 터질 정도로 복잡합니다. 이탈리아 정부는 명목상으로 레반트 전 지역을 통제하고 있지만, 실제로는 이츠하크 라빈이 이끄는 유대인 민병대 준군사 단체인 §M하가나§!와 아랍 조직인 §Y파테§!와 야세르 아라파트가 이끄는 좌익과 트란스요르단의 에미르 후세인이 이끄는 온건파까지도 어느정도의 타협을 필요로 했습니다. 이러한 4개의 그룹을 총독부로 우호적인 의견을 갖게 하는것은 지역의 안정을 유지하는 데 꼭 필요하지만 총독부는 유대인과 아랍인의 급진파가 존재한다는 문제에 봉착했습니다. 메나헴 비긴이 이끄는 시오니즘 및 민족주의 준군사 단체인 §T이르군§!과 조지 하바시가 이끄는 아랍 민족주의자 및 공산주의자의 연합인 §e아랍민족운동§!과 같은 두 그룹이 레반트에 폭력과 불신을 퍼뜨리고 있고, 어쩌면 이들의 행보는 아랍인과 유대인의 급진화라는 최악의 결과를 낳을수도 있습니다.\n\n[Root.GetIME_negotiation_bias]\n\n[Root.GetIME_irgun_strength]\n[Root.GetIME_anm_strength]\n[Root.GetIME_lehi_strength]\n[Root.GetIME_plfgc_strength]"
@@ -248,8 +204,6 @@
  anm_coup:0 "아랍민족운동의 쿠데타"
  lehi_coup:0 "레히의 쿠데타"
  plfgc_coup:0 "PLFGC의 쿠데타"
-
-#Names
  IME_fascism:0 "이탈리아령 중동"
  IME_fascism_DEF:0 "이탈리아령 중동"
  IME_liberal_democracy:0 "중동 공화국"
@@ -266,7 +220,7 @@
  IME_socialist_DEF:0 "중동 인민 공화국"
  IME_national_socialism:0 "이탈리아령 중동"
  IME_national_socialism_DEF:0 "이탈리아령 중동"
- IME_ultranational_socialism:0 "이탈리아령 중동"
+ IME_ultranationalism:0 "Italian Middle East"
  IME_ultranationalism_DEF:0 "이탈리아령 중동"
  IME_fascism_ADJ:0 "이탈리아령 중동"
  IME_liberal_democracy_ADJ:0 "이탈리아령 중동"
@@ -277,20 +231,15 @@
  IME_socialist_ADJ:0 "이탈리아령 중동"
  IME_ultranationalism_ADJ:0 "이탈리아령 중동"
  IME_national_socialism_ADJ:0 "이탈리아령 중동"
- 
- #leaders
  JOR_Nayef_Hawatmeh:0 "나예프 하와트메흐"
- JOR_Jordan_Abdullah:0 "압둘라 1세 빈 알 후세인"
+ JOR_Jordan_Abdullah:0 "압둘라 1세 빈 알후세인"
  JOR_Jordan_Prince_Nayef:0 "나예프 빈 압둘라"
  JOR_Jordan_Hussein:0 "후세인 빈 탈랄"
-
- PAL_Jordan_Abdullah:0 "압둘라 1세 빈 알 후세인"
+ PAL_Jordan_Abdullah:0 "압둘라 1세 빈 알후세인"
  PAL_George_Habash:0 "주르지 하바시"
  PAL_Yasser_Arafat:0 "야세르 아라파트"
  PAL_Ahmed_Jibril:0 "아메드 지브릴"
  JER_Umberto_La_Rocca:0 "움베르토 라 로카"
-
- #ministers#
  IME_Carlo_Alberta_dalla_Chiesa:0 "카를로 알베르토 달라 치에사"
  IME_Boris_Giuliano:0 "보리스 줄리아노"
  IME_Boris_Giuliano_hog_desc:0 "§YHead of Government\nDespotism§!"
@@ -300,33 +249,20 @@
  IME_Laura_Doriano_for_desc:0 "§YForeign Minister\nDespotism§!"
  IME_Piero_Sraffa:0 "피에로 스라파"
  IME_Piero_Sraffa_eco_desc:0 "§YEconomy Minister\nDespotism§!"
-
- #Generals
  IME_Alberto_Fantacone:0 "Alberto Fantacone"
  IME_Goffredo_Tonini:0 "Goffredo Tonini"
- 
- #Leader descriptions
  POLITICS_GG_CHIESA_DESC:0 "카를로 알베르토 달라 치에사 총독의 기상천외한 경력은 많은 사람들을 놀라게 합니다. 제2차 세계 대전의 훈장을 받은 베테랑인 달라 치에사는 카라비니에리 장군이었던 그의 아버지의 뒤를 따르기 위해 육군에서 카라비니에리로 자리를 옮겼습니다. 전쟁이 끝난 후, 그는 레반트에 있는 새로 획득한 영토로 배속되었고, 그는 그 지역을 괴롭혔던 다양한 테러리스트들과 준군사 집단을 조사하고 억압하는 과정에서 그의 기술과 용기를 보여주었습니다. 불순분자들의 체포에 체포가 잇따랐고, 그는 카라비니에리 내에서 빠르게 진급해 결국 갈레아초 치아노의 눈에 띄게 되었습니다.\n\n새로운 총독을 레반트에 임명할 때가 되었을 때, 신임 두체는 또 다른 늙은 파시스트를 선택하는 대신 젊은 장군을 후계자로 선택했습니다. 그는 파시즘성향이 거의 없다는 것이 잘 알려져 있었기 때문에, 그 선택은 논란의 여지가 있었습니다. 그의 짧은 재임 기간 동안 카라비니에리 장군은 비록 비정통적인 방법을 사용해야 했더라도, 레반트에 겉보기나마 평화로움을 가져다 주었습니다. 로마는 결과를 기대했고, 이것이 바로 달라 치에사가 그들에게 보여준 것입니다-극단주의 반군 단체들은 억압의 표적이 되었고, 반면에 협상할 용의가 있는 사람들은 휴전을 받아들였습니다. 하지만 레반트의 운명은 여전히 위태롭습니다.\n\n치에사는 이 지역에 대한 이탈리아의 통치는 오래가지 못할 것이라 믿고 있고, 이 지역이 다시 혼란에 빠지지 않는 한 이탈리아와 레반트의 많은 민족들 사이의 어떠한 형태의 합의가 이루어져야 한다고 여기고 있습니다. 카라비니에리 총독은 평화 비슷한 것을 레반트에 돌려주는데 성공했습니다. 그것이 얼마나 오래 지속될지는 아직 미지수입니다."
- 
  POLITICS_Umberto_La_Rocca_DESC:0 "It's said that the destinies of people are decided in the very moment of their birth, and in the case of Umberto La Rocca, that might be true. Born in Port Said from an Italian father and a French mother, young Umberto soon became fluent in three languages, including Arabic - because of this, he was attached to Arab troops in World War Two, fighting with distinction as an officer in North Africa and the Levant against the British. After the war, La Rocca started a brilliant diplomatic career, being sent on missions all over Europe and even to the U.S., where he represented Italy and her nascent empire.\n\nAmbassador La Rocca returned to his homeland in recent times, tasked with yet another mission. For years, the Levant has been a hotbed of conflict, but since the Jerusalem Conference ended with the partition of the Governorate, a fragile new order has been set up in the region, and Jerusalem itself is at the centre of it. Established as a corpus separatum, Jerusalem is a neutral area, garrisoned by Italian troops and administered by a council of representatives of the many religious and ethnic communities which make up the population of the world's holiest city - and at the head of the council sits La Rocca, the impartial and neutral negotiator tasked with making sure that conflicts are defused, crises are resolved, and everyone gets to go home safely at night.\n\nNow, La Rocca knows that from him depends not only the future of Jerusalem as a safe haven for peace among the peoples, but also that of the Levant itself - for while both Palestine and Israel reluctantly accepted the establishment of the corpus separatum, the volatile nature of Levantine politics means that a threat may arise suddenly and with no warning. Only time will tell if the Holy City will be the keystone for building a lasting peace in the Levant, or the eye of a newly risen storm."
- 
  POLITICS_Ahmed_Jibril_DESC:0 "Ahmed Jibril was never one for compromise. In his view, things in the Levant were simple, and plain for all to see. Palestine was inhabited by Arabs since ancient times - then, Western imperialists and their Zionist lackeys occupied the country, stole land, displaced inhabitants and claimed lives for the sake of their vile ambition and greed. The Palestinians wanted to resist, but alas, their leaders were grossly unfit to the task: cowards like Arafat, ready to sell his own country in exchange for empty promises of peace, puppets like Hussein, too content lining his pockets with lire to care about his homeland, and morons like Habash, too busy philosophizing to do anything useful.\n\nAnd so, the Palestinian Liberation Front - General Command was founded by Jibril and a small group of Palestinian fighters. Its goal - to liberate Palestine from the oppressor and the Jew. Its methods - anything and everything that could bring about its goal. The PLF-GC rapidly went from obscurity to becoming the most prominent Arab militia in the country, as many turned to the only group who was truly willing to fight for them. And wherever the PLF-GC went, terror, bloodshed and death soon followed - for no price was too great for the liberation of Palestine.\n\nNow, the Italians are gone, and Jibril and his men are finally in control of the country. And yet, their work is far from over. The Zionist snake still lurks, ready to spread its poison once again, and from all directions, threats are already emerging against the newly liberated Palestine. With any means necessary, Jibril and the PLF-GC intend to make sure that nobody can ever enslave Palestine and its Arab people ever again, and that the eternal Jew gets the payback it deserves for trying to steal what belongs to the Palestinians."
- 
- #POLITICS_Hussein_ibn_Talal_DESC:0 "Once, the name of Hussein ibn Talal, scion of the Hashemites, was merely one among many others in the long list of native rulers, tribal chiefs and petty kings, vassals to Italy's vast empire, the prestige of his dynasty barely elevating him above the others. His father Talal had agreed to renew the treaty of protection with Italy that his own father Abdullah had signed, but in later years, Talal's severe mental illness made him completely unfit even for the role of a puppet, and it was so that the young prince Hussein became Emir of Transjordan.\n\nEver since then, Hussein worked vigorously to develop his fiefdom - always presenting himself as a staunch ally of Italy while secretly supporting the fedayeen, and closely working with ENI and other Italian businesses to exploit Transjordan's vast resources while pocketing a massive hoard of wealth. Still, the emir's apparent loyalty was rewarded by Rome, and Transjordan was given considerable autonomy inside the Levant, even being allowed its own army. The more Palestine descended into ethnic strife and open rebellion, the more Transjordan became closer to a model protectorate: stable, prosperous, and loyal.\n\nHussein used his wealth and connections to gain Italy's trust, and so it was not surprising that after Italian hegemony in the Middle East was reaffirmed following the Second Italo-Turkish War, Rome saw that only an Arab king could keep the region stable in the long run. Now, Hussein, newly crowned King of the Levant, is in control of a new, hopeful Arab nation: however, the future already casts dark shadows upon his reign. Between the emir's autocratic tendencies and rising Jewish resistance to the new Arab majority kingdom, Italy's gamble to rely on Hussein's loyalty may soon prove to be a grave mistake..."
- 
- #POLITICS_Hussein_ibn_Talal_JOR_DESC:0 "Once, the name of Hussein ibn Talal, scion of the Hashemites, was merely one among many others in the long list of native rulers, tribal chiefs and petty kings, vassals to Italy's vast empire, the prestige of his dynasty barely elevating him above the others. His father Talal had agreed to renew the treaty of protection with Italy that his own father Abdullah had signed, but in later years, Talal's severe mental illness made him completely unfit even for the role of a puppet, and it was so that the young prince Hussein became Emir of Transjordan.\n\nEver since then, Hussein worked vigorously to develop his fiefdom - always presenting himself as a staunch ally of Italy while secretly supporting the fedayeen, and closely working with ENI and other Italian businesses to exploit Transjordan's vast resources while pocketing a massive hoard of wealth. Still, the emir's apparent loyalty was rewarded by Rome, and Transjordan was given considerable autonomy inside the Levant, even being allowed its own army. The more Palestine descended into ethnic strife and open rebellion, the more Transjordan became closer to a model protectorate: stable, prosperous, and loyal.\n\nHussein used his wealth and connections to gain Italy's trust, and so it was not surprising that after Italian hegemony in the Middle East was reaffirmed following the Second Italo-Turkish War, Rome needed a loyal ally to keep the region stable in the long run. Now, Hussein, newly crowned King of Jordan, is in control of a new, hopeful Arab nation: however, the future already casts dark shadows upon his reign. Between the emir's autocratic tendencies and the rising pan-Arabist resistance, Italy's gamble to rely on Hussein's loyalty may soon prove to be a grave mistake..."
  POLITICS_JORDAN_ABDULLAH_I_DESC:0 "The Name of Abdullah Ibn Hussein is one that sparks controversy, for some he may be a freedom-fighter who tries his best to counter the demands of the occupier and ensure the interests of his people, while for others he is no more than the lapdog of imperialists who betrayed his people and the legacy of his father. However, the truth is far more complicated than either the vilification or glorification of the man that has come to define 3 decades of Hashemite rule over the lands of Jordan.\n\n Born in 1882 to the future Sharif of Mecca, Abdullah would see his father revolt against the Ottoman caliph and their imperialist hold over Arabia and would lead his armies into the conflict, reigniting the once dim sparks of Arab nationalism. The Arabs revolted and the dream of a unified Arab state was over the horizon, yet it never came. The Arabs were partitioned into monarchies, each ruled by a son of the Sharif. The daring Abdullah was offered the throne of Iraq, but he refused it, instead opting to serve as Emir of the newly christened Protectorate of Transjordan. Abdullah would dutifully serve his country and the needs of his people into the dawn of the Second World War.\n\n As the Axis powers advanced into the Middle East and occupied the former British holdings, Abdullah would pledge his Allegiance to Italy in hopes of maintaining his rule under the Italian eagle. Though the Italians would remain distrustful of him due to his British collaboration and his struggle to balance the Italian interests with that of his own people, they would nevertheless, recognize his efficiency and administrative skills especially in comparison to the neighbouring governors in Palestine.\n\n  However, not all would be good for the Emir, as the Palestinian Jihad of Al Husayni would see an assassination attempt, an attempt that would reverberate throughout the Hashemite dynasty, cracking it into halves. As the King of the Arabs looms towards his death, the tension between these two factions of liberals and collaborationists sears."
  POLITICS_JORDAN_NAYEF_DESC:0 "Is the preservation of one's dynasty worth the betrayal of their ideals and the very virtues and principles that were once cherished by them? While the intellectuals with their romantic concepts of nationalism and democracy might say no, Nayef bin Abdallah of Jordan sees things in a different light.\n\nBorn in 1914 at the dawn of the First World War, Nayef was still young when his grandfather organized a revolt against the Turks, he did not experience that time of intensified nationalism in the region, instead, he only saw travesty as he matured. First the fall of the Hashemite stronghold of Hejaz, then the removal of the Hashemite King in Syria due to his overly dignified insistence on nationalism that brought him nothing but ruin, then worst of all the butchering of the Hashemites in Iraq like animals to the slaughterhouse. Nayef could not help but wonder if he and his father were next? The Prince's head would remain spinning with confusion and hesitancy at his own question.\n\n However, he would not remain undecided for long. The outbreak of Al-Husayni's Jihad would prove to be a turning point for him. His father was marked by Al-Husayni and targeted for assassination, but by some miracle from God himself, the bullet would miss. However, its consequences would echo in the prince's mind and the House of Hashim as a whole. To Nayef everything became obvious. Only by suppressing these so-called independence movements and aligning themselves further with the Italians could the King's head avoid the guillotine.\n\nThough he has always been his father's favoured son, Nayef still has the opposition of his brother and the court liberals. Nevertheless, the king remains committed to preventing the fall of the last bastion of Hashemite rule."
- POLITICS_JORDAN_HUSSEIN_DESC:0 "Born in 1935, Hussein ibn Talal was always the favourite of many, even his grandfather did not believe either of his sons could be king, instead seeing potential in his grandson Hussein and treating him with extra care and privilege. The young and charismatic prince made the masses cheer, while his father was mistrusted for his supposed lunacy, and his uncle jeered on as a traitor and bootlicker.\n\n Hussein has lived his entire life under an occupied Jordan, one exploited and colonized, first by the British and then by the Italians, and like his namesake before him, Hussein has forever despised this situation. He saw the misery of his people, whether Jordanian or Palestinian, and how they were crushed under the weight of the Italian Empire. The people dreamt of liberty, of freedom, of independence, yet their dreams were stolen from them.\n\nAngry with the exploitation of his people and wishing to see them set free, Hussein grew renowned for his idea of a "Liberal Experiment" and anti-Italian rhetoric, effectively becoming the face of Jordanian reformism and his father's deputy in the liberal faction of the royal court. Furthermore, his desire and wishes to see his people grow happier, see their dreams fulfilled, and their lives improved, has seen him grow increasingly popular with the common toiler.\n\nThe beloved King marches with his people onto new horizons with plans to continue the democratization efforts that his father started and advance the people's will. Hussein has even approached moderate pro-Italian and leftist movements in hopes of reaching common ground with them for the common benefit of his people and country. However, many remain doubtful of the monarch's sincerity and commitment to democratization, despite his own nationalist and liberal credentials; suspicions that may just be proven correct as he begins to clash with the more republican elements of Jordanian politics."
+ POLITICS_JORDAN_HUSSEIN_DESC:0 "Born in 1935, Hussein ibn Talal was always the favourite of many, even his grandfather did not believe either of his sons could be king, instead seeing potential in his grandson Hussein and treating him with extra care and privilege. The young and charismatic prince made the masses cheer, while his father was mistrusted for his supposed lunacy, and his uncle jeered on as a traitor and bootlicker.\n\n Hussein has lived his entire life under an occupied Jordan, one exploited and colonized, first by the British and then by the Italians, and like his namesake before him, Hussein has forever despised this situation. He saw the misery of his people, whether Jordanian or Palestinian, and how they were crushed under the weight of the Italian Empire. The people dreamt of liberty, of freedom, of independence, yet their dreams were stolen from them.\n\nAngry with the exploitation of his people and wishing to see them set free, Hussein grew renowned for his idea of a \"Liberal Experiment\" and anti-Italian rhetoric, effectively becoming the face of Jordanian reformism and his father's deputy in the liberal faction of the royal court. Furthermore, his desire and wishes to see his people grow happier, see their dreams fulfilled, and their lives improved, has seen him grow increasingly popular with the common toiler.\n\nThe beloved King marches with his people onto new horizons with plans to continue the democratization efforts that his father started and advance the people's will. Hussein has even approached moderate pro-Italian and leftist movements in hopes of reaching common ground with them for the common benefit of his people and country. However, many remain doubtful of the monarch's sincerity and commitment to democratization, despite his own nationalist and liberal credentials; suspicions that may just be proven correct as he begins to clash with the more republican elements of Jordanian politics."
  POLITICS_NAYEF_HAWATMEH_JOR_DESC:0 ""
- 
  POLITICS_George_Habash_DESC:0 "George Habash's rise to prominence was one fraught with hardship, pain, tears, and blood. Born into a Palestinian Christian family, as a young man Habash immediately joined the Arab fedayeen against the Italian occupation of the Levant following World War Two. A convinced Marxist, Habash founded the Arab Nationalist Movement, a wide front of socialists, communists and left-wing Arab nationalists fighting against Italian and Zionist occupation of the Levant - waging a violent guerrilla war against the fascist invaders while declaring their commitment to turn the Levantine lands into an independent, non-denominational, socialist republic.\n\nDespite internal divisions among the Levantine Arabs, largely thanks to Arafat attempting to sell his land to fascists and Zionists from under his own feet and Hussein's unrepentant reaction and greed - Habash and the ANM have finally achieved their revolutionary goals. The peoples of the Levant rose up against imperialism and bigotry, a crowning victory after years of popular struggle, and the country now marches ahead to build its new future, with Comrade Secretary-General Habash charting the course.\n\nHowever, Habash's struggle is far from over. Zionist militias such as Irgun, and even large sections of the Haganah, have taken up a bitter resistance against the new People's Republic, and among the Arab people, reactionary and fundamentalist sentiments still creep like a snake in the darkness, spreading their counter-revolutionary poison among the people. Now, Habash must defend what he conquered - defend the people, defend the idea, defend the Revolution. Only time will tell if the light of socialism will live on in the Levant, or if its flame will be stamped out by the rising darkness."
- 
- #Focuses Intro Tree
  ime_hotline_jerusalem:0 "Hotline Jerusalem"
  ime_hotline_jerusalem_desc:0 "Since the end of World War Two, the Levant has been one of the most troublesome areas of the newly acquired Italian empire. Ethnic conflicts, fierce resistance to Italian rule, and an inhospitable terrain have made the region into a hotbed of insurgency and rebellion, and the continuous crackdowns and repression of the past have proved ineffective. Now, a semblance of peace has been achieved in the Levant, as an uneasy truce has been brokered between the Italians, Haganah, and Fatah - however, governor Dalla Chiesa knows that such a situation is not destined to last. We must continue to solidify the existing relationships between us and our reluctant allies, otherwise all hope of maintaining the region stable will be lost."
  ime_yesh_matzav:0 "Yesh Matzav"
- ime_yesh_matzav_desc:0 ""The situation" - this is how the many Jews of the Levant refer to the somewhat peculiar circumstances they live in. Many of them were already here before World War Two, but a significant wave of Jewish immigrants reached the shores of Palestine during the chaos that rocked the Nazi empire in the 50s - as Italy decided to let them in and give them a place to settle in their ancestral homeland, hoping to gain a loyal ally in governing the region. Reality was much different, of course - the Jews weren't interested in becoming loyal subjects of Italy but much preferred to keep to themselves, and now some half a million Jews live in the territories of the Italian Levant, most of them concentrated in northern Palestine. Keeping the majority of the Jewish population content with our rule is fundamental to maintaining peace in the region, as it is the only way to contain the spread of Irgun and radical Zionist ideas."
+ ime_yesh_matzav_desc:0 "\"The situation\" - this is how the many Jews of the Levant refer to the somewhat peculiar circumstances they live in. Many of them were already here before World War Two, but a significant wave of Jewish immigrants reached the shores of Palestine during the chaos that rocked the Nazi empire in the 50s - as Italy decided to let them in and give them a place to settle in their ancestral homeland, hoping to gain a loyal ally in governing the region. Reality was much different, of course - the Jews weren't interested in becoming loyal subjects of Italy but much preferred to keep to themselves, and now some half a million Jews live in the territories of the Italian Levant, most of them concentrated in northern Palestine. Keeping the majority of the Jewish population content with our rule is fundamental to maintaining peace in the region, as it is the only way to contain the spread of Irgun and radical Zionist ideas."
  ime_confirm_kibbutzim_self_rule:0 "Confirm Kibbutzim Self-Rule"
  ime_confirm_kibbutzim_self_rule_desc:0 "Although many Jews of the Levant live in large cities, especially Tel Aviv, Haifa and Jerusalem, most of them live in newly built settlements in the countryside, known as kibbutzim. A kibbutz is a collective community, usually based on agriculture, which aims to be self sufficient and to be able to protect itself from attacks, with numerous kibbutzim having their own garrisons affiliated with Haganah. While initially there were attempts to directly govern the kibbutzim, we soon discovered that allowing them to autonomously govern themselves is a much better and cheaper option, as most of the Jews living there are simply looking to live their lives free of oppression and persecution. We shall push for new legislation confirming and expanding the autonomy of the kibbutzim, and reinforcing our pact with Haganah to allow them to defend themselves."
  ime_crackdown_on_illegal_settlements:0 "Crackdown on Illegal Settlements"
@@ -336,7 +272,7 @@
  ime_resolve_land_disputes:0 "Resolve Land Disputes"
  ime_resolve_land_disputes_desc:0 "One of the major causes of contention and discord between the Jews and other populations of the region, chiefly the Arabs, is land issues. When Jews were settled in the Levant, they were assigned some of the most fertile and rich land in the region, much to the dismay of the native Arabs who wished to keep it for themselves. To further complicate matters, in many cases Jewish settlements started to encroach on land which hadn't been granted to them, further escalating conflicts. By setting up an ad hoc bipartisan commission of surveyors, agronomists and legal experts, we can attempt to peacefully resolve such land conflicts, evicting squatters and offering compensations for those who have been deprived of their land."
  ime_solidify_havlaga:0 "Solidify Havlaga"
- ime_solidify_havlaga_desc:0 "Since before the Second World War, Haganah has been the major Jewish militia in Palestine. Its relationship with the other prominent Jewish paramilitary has always had its ups and downs - while Irgun has always been much more aggressive, often on the offensive against the Arabs and the British (and later, against us Italians), Haganah has usually been content with operating as a purely defensive militia, guarding the kibbutzim against aggressors. This policy is known as Havlaga, the Hebrew word for "self-restraint". We should enter talks with the Haganah leadership to ensure that this policy remains firmly in place and that the Jewish militias remain firmly inside their territory - if Haganah units begin to feel threatened and lash out against the Arabs, all hope of peace might be dashed."
+ ime_solidify_havlaga_desc:0 "Since before the Second World War, Haganah has been the major Jewish militia in Palestine. Its relationship with the other prominent Jewish paramilitary has always had its ups and downs - while Irgun has always been much more aggressive, often on the offensive against the Arabs and the British (and later, against us Italians), Haganah has usually been content with operating as a purely defensive militia, guarding the kibbutzim against aggressors. This policy is known as Havlaga, the Hebrew word for \"self-restraint\". We should enter talks with the Haganah leadership to ensure that this policy remains firmly in place and that the Jewish militias remain firmly inside their territory - if Haganah units begin to feel threatened and lash out against the Arabs, all hope of peace might be dashed."
  ime_support_rabin:0 "Support Rabin"
  ime_support_rabin_desc:0 "Among the ranks of Haganah, like in all political organizations, there is much more going on than it looks like at first glance. Many different factions with different visions about the future of the Jewish community struggle for leadership, and while in the past Haganah has been less than amicable towards Italy, the current leader of the organization has adopted a policy of negotiation, rather than open confrontation. Yitzhak Rabin, the supreme commander of Haganah, is not only an expert commander but also a charismatic politician and a skilled negotiator, and someone we would very much as a friend, rather than as an enemy. By helping Rabin cement his position as the leader of Haganah, we will be able to sleep soundly knowing that while we can't completely trust Haganah, we won't have to worry too much about them either."
  ime_the_jewish_national_council:0 "The Jewish National Council"
@@ -344,7 +280,7 @@
  ime_an_armed_peace:0 "An Armed Peace"
  ime_an_armed_peace_desc:0 "Our efforts to appease the Jewish population of the Levant have proved relatively successful - the spread of Irgun has been at least contained, the policy of Havlaga has been firmly cemented, and the leadership of Haganah is at least willing to sit at a table with us. However, while it's much better than what we had in the past, such a peace is still fragile. The Jews are still scared of what might happen to them should a less complacent governor fill Dalla Chiesa's spot in the future, or Italy's policy towards the colonies should change, or some other catastrophe were to befall them. We can only hold on for more time, hopefully waiting until new orders come from Rome."
  ime_si_vis_pacem_para_bellum:0 "Si Vis Pacem Para Bellum"
- ime_si_vis_pacem_para_bellum_desc:0 ""If you seek peace, prepare for war" - this old Roman adage was as true in the times of Scipio and Augustus as it is today. After all, diplomacy can only go so far, and the Levant simply wouldn't be able to exist as a governorate of Italy without its brave garrison, which counts some among the finest man of all the Empire. By reviewing and modernizing the garrison, we can keep the Levant safe from threats both internal and external, while making sure that anyone who wishes to openly challenge the might of Italy in these lands will have to think twice before doing so."
+ ime_si_vis_pacem_para_bellum_desc:0 "\"If you seek peace, prepare for war\" - this old Roman adage was as true in the times of Scipio and Augustus as it is today. After all, diplomacy can only go so far, and the Levant simply wouldn't be able to exist as a governorate of Italy without its brave garrison, which counts some among the finest man of all the Empire. By reviewing and modernizing the garrison, we can keep the Levant safe from threats both internal and external, while making sure that anyone who wishes to openly challenge the might of Italy in these lands will have to think twice before doing so."
  ime_review_the_garrison:0 "Review the Garrison"
  ime_review_the_garrison_desc:0 "There are numerous units that make up our garrison, but as our land based territory doesn't require the services of the Regia Marina, most of our men are drawn from the brave soldiers of the Regio Esercito, the daring airmen of the Regia Aeronautica, the proud Carabinieri and, sadly, the largely useless blackshirts of the MVSN. With the exception of the MVSN, which has been largely phased out of active duty in the region due to their proven incompetence, our units are among the proudest of all Italy, but there is still much room to improve. New doctrines, training regimes and budget allocation plans will make sure that our garrison is able to hold fast against anything that threatens us."
  ime_come_folgore_dal_cielo:0 "Come Folgore Dal Cielo"
@@ -364,7 +300,7 @@
  ime_limes_imperii:0 "Limes Imperii"
  ime_limes_imperii_desc:0 "In ancient times, the border of the Roman Empire, known as limes, was something more resembling a vaguely defined frontier, where commerce and movement of peoples and goods constantly took place under the aegis of the Caesars. Over time, the limes became increasingly militarized as the Empire's might faltered and civil strife rocked it from within, while its many enemies prepared to exploit its weakness and descend upon it. Now, Italy's faltering Empire has her own limes, and it's here in the rocky, arid lands of the Levantine borders. With a Turkish invasion now clearly coming for us, we must stand and fight - for even if we are nothing but a governorate in the far reaches of the Empire, victory or defeat here will have far reaching consequences for all of Italy, and perhaps the world."
  ime_ya_jabal_ma_yhezak:0 "Ya Jabal Ma Yhezhak Reeh"
- ime_ya_jabal_ma_yhezak_desc:0 ""The winds cannot shake the mountain" - this Arabic motto well encapsulated the fierce spirit of resistance of the Palestinians, and of Fatah. Founded as the major Arab organization in the country following an uneasy alliance - while its main goal is independence for an Arab state in the Levant and opposition to Zionism, many in Fatah would like to see the creation of a democratic state, while more conservative Arabs look with favour towards Transjordan and its autocratic emir. While the majority of Fatah supports its leader, Yasser Arafat, who is a committed supported of democracy, a vast amount of funding for the organization comes from the deep coffers of emir Hussein, giving him a vast influence over the movement. This uncomfortable situation is nonetheless mitigated by a truce we managed to agree upon with Fatah, but there is much to be done if we want the peace to hold."
+ ime_ya_jabal_ma_yhezak_desc:0 "\"The winds cannot shake the mountain\" - this Arabic motto well encapsulated the fierce spirit of resistance of the Palestinians, and of Fatah. Founded as the major Arab organization in the country following an uneasy alliance - while its main goal is independence for an Arab state in the Levant and opposition to Zionism, many in Fatah would like to see the creation of a democratic state, while more conservative Arabs look with favour towards Transjordan and its autocratic emir. While the majority of Fatah supports its leader, Yasser Arafat, who is a committed supported of democracy, a vast amount of funding for the organization comes from the deep coffers of emir Hussein, giving him a vast influence over the movement. This uncomfortable situation is nonetheless mitigated by a truce we managed to agree upon with Fatah, but there is much to be done if we want the peace to hold."
  ime_control_fatah:0 "Control Fatah"
  ime_control_fatah_desc:0 "The command structure of Fatah is set up as a pyramid, with Arafat and his inner circle located in the organization's headquarters in Karameh, and numerous local sub units and sections scattered around the Arab communities of the Levant. Its organizational scheme is quite complex, with numerous wings and branches devoted to different tasks, and its nature make it a nearly omnipresent presence in some regions, such as in the West Bank of the river Jordan. While a direct move against Fatah would prompt widespread insurrection, we must continue to keep a close watch on their operations around the Levant, to make sure that we're in control of the situation and worst of all, that Fatah isn't working with more extremist Palestinian cells associated with the ANM."
  ime_new_palestinian_villages:0 "New Palestinian Villages"
@@ -381,8 +317,6 @@
  ime_the_arab_higher_committee_desc:0 "Founded under British auspices in 1936, the Arab Higher Committee is the major political organ of the Palestinian Arabs. While once it was formed by elected representatives from various parties, when we took over the region we turned it into an advisory body made up mostly of appointed officials whom we bought off or pressured into working with us. However, the rising influence of Fatah and the clamour for liberalization means that now the Committee is filled with either supporters of Arafat and his movement or admirers of emir Hussein and his court. While both parties dislike us, we can use their strife to our advantage, in order to at least buy time and keep the Arabs divided while we try to keep the Levant together."
  ime_a_fragile_truce:0 "A Fragile Truce"
  ime_a_fragile_truce_desc:0 "The brokering of a truce with Fatah was one of the major achievements of Dalla Chiesa's tenure as governor of the Levant, and while it did considerably help our efforts to keep the region under control, it is far from a complete victory. Fatah isn't nearly the only movement seeking independence for Palestine, and its perceived moderation brought many to join the ranks of the ANM, while Fatah and Arafat himself are clearly not too content with sitting at a table with us, and emir Hussein is still scheming in Amman. We managed to keep the truce going on for some more time, but for how long will it last?"
-
- #Turkish War Tree
  ime_blood_stained_sand:0 "Blood Stained Sand"
  ime_blood_stained_sand_desc:0 "Our worst fears became true. With the collapse of the Triumvirate and the sudden worsening of Italo-Turkish relationships, the war was in the air - and yet, we didn't expect it so soon. Our soldiers are valiant and well equipped, but it is a force centered around counter insurgency rather than conventional warfare - and the Turkish forces are stronger in numbers, threatening to overwhelm us. A static, traditional defense would be our doom - eventually, we would get overrun by the Turkish black bull charging our way. Instead, we should focus on a strategy of asymmetrical warfare, using counter attacks, guerrilla warfare, commando operations and other such tactics to take down our enemy. However, waging such a war might be impossible without the support of the peoples of the Levant, and getting the Jews and the Palestinians to fight alongside us is vital to our war effort."
  ime_rally_the_palestinians:0 "Rally the Palestinians"
@@ -411,7 +345,6 @@
  ime_new_arab_officers_desc:0 "The Arab Legion and the militias of Fatah have proved their usefulness and loyalty to us multiple times at this point, and they've been an invaluable asset in the war. For this reason, there have been numerous proposals to set up a parallel Arab high command, working in tandem with our own, which will coordinate the efforts of Fatah, the Legion, and the various fedayeen groups. This would require professionalization and further training of the upper cadres of Arab military officers, to teach them how to effectively manage large scale warfare operations."
  ime_truce_with_anm:0 "Truce with the Harakiyyin?"
  ime_truce_with_anm_desc:0 "The main anti-Italian resistance movement among the Arabs of Palestine is the Arab Nationalist Movement, also known as the Harakiyyin. Mostly a loose organization of various communist, socialist, marxist and nasserist militias and fedayeen groups, the Harakiyyin are united by their violent opposition to Italian rule and to Zionism, often attacking Jewish settlements as well as Italian garrisons. They've always proven a major thorn in our side, and a source of trouble which has made it difficult for us to focus our efforts against the Turks. However, with our recent pro-Arab ouvertures, we might be able to negotiate a truce with the Harakiyyin, at least until the war is over. Doing so would certainly displease the Jews of the Levant, but it might just provide us the edge we need to finally win against the Turks."
- 
  ime_operation_palmyra:0 "Operation Palmyra"
  ime_operation_palmyra_desc:0 "As they were in the ancient past, these lands are the Empire's eastern frontier - a periphery, but a vital one - a land of conflicts, contradictions, faith, brotherhood, betrayal, and war. Rome's hegemony over the Middle East hinges on the Levantine lands, and the rise of Turkish power here will have ripple effects that might prove disastrous for the whole Empire. To avoid this catastrophe, our high command has drafted Operation Palmyra - a defense plan designed to exploit our few advantages and achieve victory against the Turkish juggernaut. It will not be easy, but it is our only hope."
  ime_a_new_lepanto:0 "A New Lepanto"
@@ -436,7 +369,6 @@
  ime_para_counterattacks_desc:0 "During the war, the numerous units of Paracadutisti in our service, from Folgore to the X Reggimento Arditi, were our most precious asset in defending the Levant. However, these highly versatile troops can also be used in an offensive role, and as the Turkish advance has lost its momentum, the Paràs shall be at the forefront of the counterattack. Using their superior mobility to encircle and harass Turkish troops, the Parà will prevent them from reorganizing and attempting to resume their offensive or have an orderly fighting retreat, allowing us to keep exploiting our advantage and inflict them heavier material and human losses."
  ime_non_il_valore:0 "Non Il Valore"
  ime_non_il_valore_desc:0 "One way or another, the war is approaching its end. In our attempts to defend the Levant, we have exhausted almost the entirety of the resources and capabilities of our garrison, and our capability to wage war is starting to wear out. If the Turks don't give in soon, we'll be on our last legs before long, and we will be forced to bend to Turkish demands of Middle Eastern hegemony. Whatever the outcome of this war, Italy and the war shall know that the sons of our country have bled and died to defend the far corners of the Empire - they will know that in face of a superior enemy, they stood defiant against all odds. Fortune lacked, not valour."
- 
  ime_rally_the_israelis:0 "Rally the Israelis"
  ime_rally_the_israelis_desc:0 "The Jews of the Levant are a relatively small population, but they do possess a remarkable fighting spirits. Numerous Levantine Jews possess military experience as partisans and guerrilla fighters in the territories occupied by the Reich, and the leadership of Haganah is formed of seasoned commanders of numerous battles both in the Reich and against fedayeen here in the Levant. By using the military prowess of the Levantine Jews to our advantage, we might be able to get the edge we need to take down the Turkish menace, which threatens them even more than it threatens us."
  ime_special_night_squads:0 "Special Night Squads"
@@ -463,7 +395,6 @@
  ime_israelis_in_high_command_desc:0 "We have exploited the capabilities of Haganah to a large degree by now, but there is still something we can do to improve their capabilities. By bringing a liaison of Haganah commanders into the highest command councils of the war, we will be able to jointly draw up plans to utilize Haganah assets during the war, dramatically increasing the effectiveness of our joint operations by sharing intel, strategic know-how and drawing up battle plans together. This will also convince the Jews of the Levant that this is truly their war as well, and not just ours, and they will be able to have a say on how it is carried out."
  ime_truce_with_irgun:0 "Truce with Irgun?"
  ime_truce_with_irgun_desc:0 "Irgun has always been a thorn in our side, and for decades it lurked in the Levant, spreading terror, blood, and their virulently nationalistic brand of revisionist Zionism in their wake. However, the group does enjoy the sympathy of many Levantine Jews, as they are seen as freedom fighters for the liberty of Israel, and while many disapprove their methods, they can't see fault in their goals. With our recent overtures to the Jews, we might able to broker a truce with Irgun, at least for the duration of the war - this would allow us to focus our efforts on the Turks, but it would understandably greatly upset the Arabs in the region."
-
  ime_against_a_common_enemy:0 "Against a Common Enemy"
  ime_against_a_common_enemy_desc:0 "Our efforts to involve the Arabs and Jews of the Levant have yielded mixed efforts - while tensions have indeed risen as a result of our openings to both camps, Arabs and Jews are integrated into our command structure more than ever, and while conflict between the groups is still present, we are in fact all fighting together. If we could, perhaps, try and instill the idea that maybe, just maybe, Jews and Arabs could possibly and effectively work together to defend their homeland, we might just manage to make a first, early attempt to bridge the abyss of mutual distrust and sometimes outright hatred that exists between Jews and Arabs in the Levant."
  ime_joint_training:0 "Joint Training"
@@ -472,7 +403,6 @@
  ime_joint_strategy_desc:0 "The Arab officers of the Arab Legion don't have the long military experience that many of the old and wizened Haganah commanders can boast, but they do have one thing that Haganah command often lacks - knowledge of the territory. By creating a joint planning board including Haganah and Arab Legion officers and generals overseen by us, we'll be able to coordinate Jewish and Arab efforts against the Turkish menace. Sure, this will inevitably cause scuffles and the first meetings of Arab and Jewish officers will likely turn into shouting matches, but the steady and devastating march of the Turkish menace leaves us with little choice - fight together, or die alone."
  ime_for_the_levant:0 "For the Levant"
  ime_for_the_levant_desc:0 "While tensions between Arabs and Jews are still high, the rhetoric of the propaganda of both sides is starting to change in tone in an interesting way. For Arafat and Fatah, the most dangerous enemy of the Palestinian and Arab people is no longer the encroaching Zionist plans of domination, but the oppressive yoke that Turkey wishes to place on Palestine just as it did on Syria - and for Haganah, the greatest obstacle to a Jewish homeland is no longer the terrorism committed by the Arabs, but the ever expanding tyranny of the Turkish state. While they certainly don't love each other, Arabs and Jews are now somewhat more willing to tolerate each other in the face of a common enemy, and that already is a sign for hope."
- 
  ime_failures_of_dalla_chiesa:0 "The Failures of Dalla Chiesa"
  ime_failures_of_dalla_chiesa_desc:0 ""
  ime_deploy_the_legion:0 "Deploy the Legion"
@@ -537,210 +467,158 @@
  ime_fumigation_protocols_desc:0 ""
  ime_situation_contained:0 "Situation Contained"
  ime_situation_contained_desc:0 ""
- 
  ime.100.t:0 "Governor Chiesa Assassinated"
- ime.100.d:0 "Governor Carlo Alberto Dalla Chiesa sat in his expensive, white, roofless Ferrari and waved politely to the crowds flanking either side of the parade. A "peace parade," it was called. To celebrate peace; To celebrate defeat. Chiesa forced a smile. He had to put on a show for the people. The Levant was unstable before the war and the defeat at the hands of the Turks had eradicated any pretense of stability. The Arabs and Jews had believed, at the very least, that the Italian presence provided some sense of security. That was clearly no longer true.\n\nDalla Chiesa heard an engine roar to his left followed by the screech of tires on pavement and shouting in Hebrew. He turned and saw two guards collapse into a pile of blood, their throats ripped open. The sound of the gunshots seemed to reach him later than the bullets reached their targets. He looked down the alley from where the gunshots had originated. A single car, black, was barreling towards him.\n\nScreams filled the air, Dalla Chiesa's included. He wanted to run but he couldn't. The parade wasn't advancing. His Ferrari wasn't moving. He wasn't moving! The car was going to hit him!\n\nThe black car rammed into Dalla Chiesa's Ferrari. The governor was thrown to the side, hitting his neck on the right side door. He lifted his head slowly and looked at the driver. The attacker, while muttering indeterminate words, lifted a detonator and, after closing his eyes, pushed the bright red button."
+ ime.100.d:0 "Governor Carlo Alberto Dalla Chiesa sat in his expensive, white, roofless Ferrari and waved politely to the crowds flanking either side of the parade. A \"peace parade,\" it was called. To celebrate peace; To celebrate defeat. Chiesa forced a smile. He had to put on a show for the people. The Levant was unstable before the war and the defeat at the hands of the Turks had eradicated any pretense of stability. The Arabs and Jews had believed, at the very least, that the Italian presence provided some sense of security. That was clearly no longer true.\n\nDalla Chiesa heard an engine roar to his left followed by the screech of tires on pavement and shouting in Hebrew. He turned and saw two guards collapse into a pile of blood, their throats ripped open. The sound of the gunshots seemed to reach him later than the bullets reached their targets. He looked down the alley from where the gunshots had originated. A single car, black, was barreling towards him.\n\nScreams filled the air, Dalla Chiesa's included. He wanted to run but he couldn't. The parade wasn't advancing. His Ferrari wasn't moving. He wasn't moving! The car was going to hit him!\n\nThe black car rammed into Dalla Chiesa's Ferrari. The governor was thrown to the side, hitting his neck on the right side door. He lifted his head slowly and looked at the driver. The attacker, while muttering indeterminate words, lifted a detonator and, after closing his eyes, pushed the bright red button."
  ime.100.a:0 "We are losing control."
- 
  ime.101.t:0 "Francesco Colombo Appointed Governor"
- ime.101.d:0 "Governor Francesco Colombo stepped off of the plane and stood on Levantine soil. He breathed in the fresh air, hinted with salt, sea, and insurrectionary terrorism. His first stop was a meeting with his new officers.\n\n"Well, there's your problem." he said after reviewing his predecessor's policies. "You're far too soft on them. The only thing these animals understand is violence." He pointed to several cities on the map laid out in front of him. "Begin executions here, here, and here. Twenty fives Jews and twenty five Arabs each day until someone comes forward with information about Dalla Chiesa's assassination. Imprison the rat and torture them until they give up the terrorists' identities."\n\nThe officers looked at one another nervously. Colombo was a very different man from Dalla Chiesa.\n\n"Stop gawking!" Colombo yelled. "Get out there and do your jobs before I start executing them myself!"\n\nAs his officers left to carry out his orders, Colombo stared at the map of the Italian Levant, or at least what was left of it. The Turks would pay, he assured himself. But first the Jews and Arabs would have to answer for their crimes."
+ ime.101.d:0 "Governor Francesco Colombo stepped off of the plane and stood on Levantine soil. He breathed in the fresh air, hinted with salt, sea, and insurrectionary terrorism. His first stop was a meeting with his new officers.\n\n\"Well, there's your problem.\" he said after reviewing his predecessor's policies. \"You're far too soft on them. The only thing these animals understand is violence.\" He pointed to several cities on the map laid out in front of him. \"Begin executions here, here, and here. Twenty fives Jews and twenty five Arabs each day until someone comes forward with information about Dalla Chiesa's assassination. Imprison the rat and torture them until they give up the terrorists' identities.\"\n\nThe officers looked at one another nervously. Colombo was a very different man from Dalla Chiesa.\n\n\"Stop gawking!\" Colombo yelled. \"Get out there and do your jobs before I start executing them myself!\"\n\nAs his officers left to carry out his orders, Colombo stared at the map of the Italian Levant, or at least what was left of it. The Turks would pay, he assured himself. But first the Jews and Arabs would have to answer for their crimes."
  ime.101.a:0 "Time to restore order."
- 
  ime.102.t:0 "Governor Chiesa Assassinated"
- ime.102.d:0 "Ever since the conclusion of the Second Italo-Turkish war, the situation in the levant has gone from a fragile peace interspersed with minor acts of violence to a hopeless status-quo of terror, strife and rabid fervor, only interrupted by utter catastrophe.\n\nToday, one such calamity has struck. Early on in the day Prime Minister Ciano received an urgent call from Jerusalem telling him that Governor Carlo Alberto Dalla Chiesa, talented adminstrator and personal friend, was shot dead by unidentified terrorists. A hastily written speech about the development had to be delivered to members of the PNF shortly, and the Duce found himself with little time to truly comprehend the magnitude of what had happened. Scribbling down minor notes about the governor's career into a short obituary, Ciano felt a true and muted dread over what would come next.\n\nOnce the meeting was officially in session, his fears proved to be well-justified. Scorza and his party of hardlines gave him no pause, denouncing Chiesa's "lenient policies" as cause for his untimely death, and insulting everything the man had ever done to sow the seeds of peace. Instead, they called for Francesco Colombo to be made governor of the Levant immediately, in order to 'restore Order' to the province and ensure that Italy's grip on the levant remains as tight as it can be. Colombo's appointment barely passes the vote, with a considerable minority abstaining. They could not concede the appointment to Scorza's man, but Chiesa's policies could not be supported when the man himself was filled with bullets when they failed. Therefor they stood in silenceas the vote was counted, and Ciano's own voice dictated the result."
+ ime.102.d:0 "Ever since the conclusion of the Second Italo-Turkish war, the situation in the levant has gone from a fragile peace interspersed with minor acts of violence to a hopeless status-quo of terror, strife and rabid fervor, only interrupted by utter catastrophe.\n\nToday, one such calamity has struck. Early on in the day Prime Minister Ciano received an urgent call from Jerusalem telling him that Governor Carlo Alberto Dalla Chiesa, talented adminstrator and personal friend, was shot dead by unidentified terrorists. A hastily written speech about the development had to be delivered to members of the PNF shortly, and the Duce found himself with little time to truly comprehend the magnitude of what had happened. Scribbling down minor notes about the governor's career into a short obituary, Ciano felt a true and muted dread over what would come next.\n\nOnce the meeting was officially in session, his fears proved to be well-justified. Scorza and his party of hardlines gave him no pause, denouncing Chiesa's \"lenient policies\" as cause for his untimely death, and insulting everything the man had ever done to sow the seeds of peace. Instead, they called for Francesco Colombo to be made governor of the Levant immediately, in order to 'restore Order' to the province and ensure that Italy's grip on the levant remains as tight as it can be. Colombo's appointment barely passes the vote, with a considerable minority abstaining. They could not concede the appointment to Scorza's man, but Chiesa's policies could not be supported when the man himself was filled with bullets when they failed. Therefor they stood in silenceas the vote was counted, and Ciano's own voice dictated the result."
  ime.102.a:0 "Send in Colombo."
-
  ita_colombo_imper_operations:0 "Governor Colombo is ready to begin operations"
  ita_colombo_imper_operations_tt:0 "Governor Colombo is ready to begin anti-terrorist operations."
- 
  ime.103.t:0 "Governor Colombo Installed as Governor"
- ime.103.d:0 "Francesco Colombo's methods were by no means popular or even widely supported in Rome, but one could not say they were not working. Jerusalem and its suburbs had been pacified in the span of days, with similar measures taking place in the major cities of the Levant under the eyes of his trusted lieutenants and their blackshirt squadrons. For the first time in weeks news coming from Jeruislame could be described as positive to the regime, and there was no reason to believe they would not continue to be this way, as the governor's "Special directives" regarding various resistance movements and how to best dispense with them showed no sign of slowing down. This week they were concerned with a recently discovered cache of Arab explosives east of Gaza, and how they would be captured and handled by the week's end...\n\nIn a half-collapsed mud hut on the outskirts of the small village of Najd, Haneen held on to her two children with all the power she could muster, wailing at the Blackshirt brutes whenever they asked her where her husband had gone, where he his his belongings, when he would be coming back. After what felt like years of torment the kicks and the rifle butts went away, leaving her half-conscious, but alive. Her elder was crying, and so she murmured an old song that she had first heard decades ago to calm the boy. Only moments later she vaguely heard the sound of bullets outside and instinctively shut her eyes, just in time to miss the sight of explosives being tossed in through the window, and the roof of her old home collapsing overhead. "
+ ime.103.d:0 "Francesco Colombo's methods were by no means popular or even widely supported in Rome, but one could not say they were not working. Jerusalem and its suburbs had been pacified in the span of days, with similar measures taking place in the major cities of the Levant under the eyes of his trusted lieutenants and their blackshirt squadrons. For the first time in weeks news coming from Jeruislame could be described as positive to the regime, and there was no reason to believe they would not continue to be this way, as the governor's \"Special directives\" regarding various resistance movements and how to best dispense with them showed no sign of slowing down. This week they were concerned with a recently discovered cache of Arab explosives east of Gaza, and how they would be captured and handled by the week's end...\n\nIn a half-collapsed mud hut on the outskirts of the small village of Najd, Haneen held on to her two children with all the power she could muster, wailing at the Blackshirt brutes whenever they asked her where her husband had gone, where he his his belongings, when he would be coming back. After what felt like years of torment the kicks and the rifle butts went away, leaving her half-conscious, but alive. Her elder was crying, and so she murmured an old song that she had first heard decades ago to calm the boy. Only moments later she vaguely heard the sound of bullets outside and instinctively shut her eyes, just in time to miss the sight of explosives being tossed in through the window, and the roof of her old home collapsing overhead. "
  ime.103.a:0 "Governor Colombo is a suitable replacement."
-
-
-
  ime.104.t:0 "Our Situation is Untenable"
  ime.104.d:0 "We have tried the rifle, and we have tried the olive branch. Governor Chiesa was shot dead for the latter and Colombo's depraved campaigns have done nothing but funnel and drain our resources into a genocide of his own design. The matter is simple, and should have been decided long ago: Italy's fortunes do not lie in the Levant, nor anywhere near it. Leave the Jews and the Arabs to deal with the endless lists of dead and wounded, Italy has bled long enough for strips of desert and orchads of orange trees. By the end of the month the last Italian soldiers will be leaving the Levant, and so will any Italian citizen that wishes to do so.\n\nWe must admit it, the Levantine experiment has failed. God can watch over his holy city from now on; Rome will not. "
  ime.104.a:0 "Give the Order."
- 
  ime.105.t:0 "Italy Orders Withdrawal"
  ime.105.d:0 "In a surprising turn of affairs, Italy has ordered a complete withdrawal from the Levant, with Italian garrisons already abandoning their posts and retreating to neighboring Egypt. Despite Colombo's protests that he was bringing the situation under control and that Italy was only a few more crackdowns away from stabilizing the Levant, the Italian general command have decided that the situation in the region is untenable, as Colombo's brutal and controversial counter-insurgency tactics have only served to radicalize the Jewish and Arab population. As Italian forces withdraw, both the Zionist Irgun and Marxist Arab National Movement paramilitaries have crawled out of the woodwork. Already, reports are coming in of pitched battles between the two forces that will determine the fate of the Levant. Whoever emerges the victor will be tasked with bringing order to a war-torn region populated by two ethnic groups that increasingly cannot stand each other's presence. It appears that the Levant's future is fated to be one of incessant conflict, as the remaining hope for peace flickers out."
  ime.105.a:0 "Let's see the natives try to bring peace to the Middle East."
- 
  ime.106.t:0 "Operazione Sion:A47F"
  ime.106.d:0 "TOP SECRET\n\nIn light of recent events, Il Duce has approved your proposed counter-insurgency operations against the Irgun. The Autonomous Legion Muti is hereby authorized to eliminate them by any means that you see fit. Do not disappoint us."
  ime.106.a:0 "Ready the Napalm"
- 
  ime.107.t:0 "Operazione Sion:B54C"
- ime.107.d:0 "TOP SECRET\n\nAfter preliminary scouting, a detachment of Muti legionnaires located a Jewish settlement built on land contested by both the Irgun and Harakiyyin and known to contain an Irgun training compound. After some deliberation, a squadron of bombers was sent to the target, and deployed approximately 40 tons of incendiary ordinance, destroying the compound. Collateral damage is estimated to be 1,000 deaths, and we believe this should have a chilling effect on the Zionist insurgents.\n\nSide Report: Unfortunately, the Lehi has discovered this action and is incorporating it into their recruitment campaign, declaring it a "depraved butchery of the Jewish race by their Italian oppressors." There is a chance that this will encourage a few members of the Irgun to defect to the Lehi, but we do not believe it will significantly affect our operations."
+ ime.107.d:0 "TOP SECRET\n\nAfter preliminary scouting, a detachment of Muti legionnaires located a Jewish settlement built on land contested by both the Irgun and Harakiyyin and known to contain an Irgun training compound. After some deliberation, a squadron of bombers was sent to the target, and deployed approximately 40 tons of incendiary ordinance, destroying the compound. Collateral damage is estimated to be 1,000 deaths, and we believe this should have a chilling effect on the Zionist insurgents.\n\nSide Report: Unfortunately, the Lehi has discovered this action and is incorporating it into their recruitment campaign, declaring it a \"depraved butchery of the Jewish race by their Italian oppressors.\" There is a chance that this will encourage a few members of the Irgun to defect to the Lehi, but we do not believe it will significantly affect our operations."
  ime.107.a:0 "An entire Kibbutz?"
- 
  ime.108.t:0 "Operazione Sion:E55Z"
- ime.108.d:0 "TOP SECRET\n\nFollowing the lead of informants among the Jewish population, a detachment of Muti legionnaires was sent to multiple kibbutzim with ties to the Irgun in a region contested by the Irgun and Harakiyyin. Our forces conducted numerous entries into civilian homes, gathered suspected Irgun members, and summarily executed them in public. In all, about 800 suspects were executed. We believe this should have a chilling effect on the Zionist insurgents.\n\nSide Report: Unfortunately, the Lehi has discovered this action and is incorporating it into their recruitment campaign, declaring it a "depraved butchery of the Jewish race by their Italian oppressors." There is a chance that this will encourage a few members of the Irgun to defect to the Lehi, but we do not believe it will significantly affect our operations."
+ ime.108.d:0 "TOP SECRET\n\nFollowing the lead of informants among the Jewish population, a detachment of Muti legionnaires was sent to multiple kibbutzim with ties to the Irgun in a region contested by the Irgun and Harakiyyin. Our forces conducted numerous entries into civilian homes, gathered suspected Irgun members, and summarily executed them in public. In all, about 800 suspects were executed. We believe this should have a chilling effect on the Zionist insurgents.\n\nSide Report: Unfortunately, the Lehi has discovered this action and is incorporating it into their recruitment campaign, declaring it a \"depraved butchery of the Jewish race by their Italian oppressors.\" There is a chance that this will encourage a few members of the Irgun to defect to the Lehi, but we do not believe it will significantly affect our operations."
  ime.108.a:0 "That's a lot"
- 
  ime.109.t:0 "Operazione Sion:G09F"
- ime.109.d:0 "TOP SECRET\n\nAfter a series of covert intelligence gathering operations conducted in Jerusalem, a detachment of Muti legionnaires was sent to the Jewish quarter in search of pro-Irgun agitators. In all, our forces arrested 2,000 individuals, including student activists and suspicious unemployed youth. All arrested individuals have been taken to a Legion compound for enhanced interrogation. We believe this should have a chilling effect on the Zionist insurgents.\n\nSide Report: Unfortunately, the Lehi has discovered this action and is incorporating it into their recruitment campaign, declaring it a "depraved repression of the Jewish race by their Italian oppressors." There is a chance that this will encourage a few members of the Irgun to defect to the Lehi, but we do not believe it will significantly affect our operations."
+ ime.109.d:0 "TOP SECRET\n\nAfter a series of covert intelligence gathering operations conducted in Jerusalem, a detachment of Muti legionnaires was sent to the Jewish quarter in search of pro-Irgun agitators. In all, our forces arrested 2,000 individuals, including student activists and suspicious unemployed youth. All arrested individuals have been taken to a Legion compound for enhanced interrogation. We believe this should have a chilling effect on the Zionist insurgents.\n\nSide Report: Unfortunately, the Lehi has discovered this action and is incorporating it into their recruitment campaign, declaring it a \"depraved repression of the Jewish race by their Italian oppressors.\" There is a chance that this will encourage a few members of the Irgun to defect to the Lehi, but we do not believe it will significantly affect our operations."
  ime.109.a:0 "That many?"
- 
  ime.110.t:0 "Operazione Al-Quds:A47F"
  ime.110.d:0 "TOP SECRET\n\nIn light of recent events, Il Duce has approved your proposed counter-insurgency operations against the Harakiyyin. The Autonomous Legion Muti is hereby authorized to eliminate them by any means that you see fit. Do not disappoint us."
  ime.110.a:0 "Ready the Napalm"
- 
  ime.111.t:0 "Operazione Al-Quds:B54C"
- ime.111.d:0 "TOP SECRET\n\nAfter preliminary scouting, a detachment of Muti legionnaires located a Palestinian settlement built on land contested by both the Irgun and Harakiyyin and known to contain an Harakiyyin training compound. After some deliberation, a squadron of bombers was sent to the target, and deployed approximately 40 tons of incendiary ordinance, destroying the compound. Collateral damage is estimated to be 1,000 deaths, and we believe this should have a chilling effect on the Arab insurgents.\n\nSide Report: Unfortunately, the radical faction of the PLC has discovered this action and is incorporating it into their recruitment campaign, declaring it a "depraved butchery of the Palestinian people by the Italian Empire and their Zionist masters." There is a chance that this will encourage a few members of the Harakiyyin to defect to the radicals, but we do not believe it will significantly affect our operations."
+ ime.111.d:0 "TOP SECRET\n\nAfter preliminary scouting, a detachment of Muti legionnaires located a Palestinian settlement built on land contested by both the Irgun and Harakiyyin and known to contain an Harakiyyin training compound. After some deliberation, a squadron of bombers was sent to the target, and deployed approximately 40 tons of incendiary ordinance, destroying the compound. Collateral damage is estimated to be 1,000 deaths, and we believe this should have a chilling effect on the Arab insurgents.\n\nSide Report: Unfortunately, the radical faction of the PLC has discovered this action and is incorporating it into their recruitment campaign, declaring it a \"depraved butchery of the Palestinian people by the Italian Empire and their Zionist masters.\" There is a chance that this will encourage a few members of the Harakiyyin to defect to the radicals, but we do not believe it will significantly affect our operations."
  ime.111.a:0 "An entire village?"
- 
  ime.112.t:0 "Operazione Al-Quds:E55Z"
- ime.112.d:0 "TOP SECRET\n\nFollowing the lead of informants among the Palestinian population, a detachment of Muti legionnaires was sent to multiple villages with ties to the Harakiyyin in a region contested by the Irgun and Harakiyyin. Our forces conducted numerous entries into civilian homes, gathered suspected Harakiyyin members, and summarily executed them in public. In all, about 800 suspects were executed. We believe this should have a chilling effect on the Arab insurgents.\n\nSide Report: Unfortunately, the radical faction of the PLC has discovered this action and is incorporating it into their recruitment campaign, declaring it a "depraved butchery of the Palestinian people by the Italian Empire and their Zionist masters." There is a chance that this will encourage a few members of the Harakiyyin to defect to the radicals, but we do not believe it will significantly affect our operations."
+ ime.112.d:0 "TOP SECRET\n\nFollowing the lead of informants among the Palestinian population, a detachment of Muti legionnaires was sent to multiple villages with ties to the Harakiyyin in a region contested by the Irgun and Harakiyyin. Our forces conducted numerous entries into civilian homes, gathered suspected Harakiyyin members, and summarily executed them in public. In all, about 800 suspects were executed. We believe this should have a chilling effect on the Arab insurgents.\n\nSide Report: Unfortunately, the radical faction of the PLC has discovered this action and is incorporating it into their recruitment campaign, declaring it a \"depraved butchery of the Palestinian people by the Italian Empire and their Zionist masters.\" There is a chance that this will encourage a few members of the Harakiyyin to defect to the radicals, but we do not believe it will significantly affect our operations."
  ime.112.a:0 "That's a lot"
- 
  ime.113.t:0 "Operazione Al-Quds:G09F"
- ime.113.d:0 "TOP SECRET\n\nAfter a series of covert intelligence gathering operations conducted in Jerusalem, a detachment of Muti legionnaires was sent to the Arab quarter in search of pro-Harakiyyin agitators. In all, our forces arrested 2,000 individuals, including student activists and suspicious unemployed youth. All arrested individuals have been taken to a Legion compound for enhanced interrogation. We believe this should have a chilling effect on the Arab insurgents.\n\nSide Report: Unfortunately, the radical faction of the PLC has discovered this action and is incorporating it into their recruitment campaign, declaring it a "depraved butchery of the Palestinian people by the Italian Empire and their Zionist masters." There is a chance that this will encourage a few members of the Harakiyyin to defect to the radicals, but we do not believe it will significantly affect our operations."
+ ime.113.d:0 "TOP SECRET\n\nAfter a series of covert intelligence gathering operations conducted in Jerusalem, a detachment of Muti legionnaires was sent to the Arab quarter in search of pro-Harakiyyin agitators. In all, our forces arrested 2,000 individuals, including student activists and suspicious unemployed youth. All arrested individuals have been taken to a Legion compound for enhanced interrogation. We believe this should have a chilling effect on the Arab insurgents.\n\nSide Report: Unfortunately, the radical faction of the PLC has discovered this action and is incorporating it into their recruitment campaign, declaring it a \"depraved butchery of the Palestinian people by the Italian Empire and their Zionist masters.\" There is a chance that this will encourage a few members of the Harakiyyin to defect to the radicals, but we do not believe it will significantly affect our operations."
  ime.113.a:0 "That many?"
- 
  ITA_pull_out_levant:0 "Pull Out of the Levant"
  ITA_crackdown_irgun:0 "Order Crackdown on Irgun"
  ITA_crackdown_harakiyyin:0 "Order Crackdown on the Harakiyyin"
  ITA_crackdown_tt:0 "It will cost §Y10 million§! to finance this operation."
- 
  imecolombo.1.t:0 "A New Governor"
  imecolombo.1.d:0 ""
  imecolombo.1.a:0 "He will do fine"
- 
  imecolombo.2.t:0 "The Legion Marches"
  imecolombo.2.d:0 ""
  imecolombo.2.a:0 "Time to restore order"
- 
  imecolombo.3.t:0 "Our First Target"
  imecolombo.3.d:0 ""
  imecolombo.3.a:0 ""
- 
  imecolombo.4.t:0 "Project Nakba"
  imecolombo.4.d:0 ""
  imecolombo.4.a:0 ""
- 
  imecolombo.5.t:0 "The Jewish Question"
  imecolombo.5.d:0 ""
  imecolombo.5.a:0 "Look to the past"
- 
  imecolombo.6.t:0 "The End of Haganah"
  imecolombo.6.d:0 ""
  imecolombo.6.a:0 "A fitting end"
- 
  imecolombo.7.t:0 "History on Repeat"
  imecolombo.7.d:0 ""
  imecolombo.7.a:0 ""
- 
  imecolombo.8.t:0 "Behind the Fences"
  imecolombo.8.d:0 ""
  imecolombo.8.a:0 "Deliver us"
- 
  imecolombo.9.t:0 "A Final Stand"
  imecolombo.9.d:0 ""
  imecolombo.9.a:0 "The Hunt Ends"
- 
  imecolombo.10.t:0 "Memories of Old"
  imecolombo.10.d:0 ""
  imecolombo.10.a:0 "Run"
- 
  imecolombo.11.t:0 "A Broken Home"
  imecolombo.11.d:0 ""
  imecolombo.11.a:0 "Will we ever find peace?"
- 
  imecolombo.12.t:0 "A Bright Blaze"
  imecolombo.12.d:0 ""
  imecolombo.12.a:0 "We must rebuild"
- 
  imecolombo.13.t:0 "A New Masada"
  imecolombo.13.d:0 ""
  imecolombo.13.a:0 "History Repeats Itself"
- 
  imecolombo.14.t:0 "Promised No More"
  imecolombo.14.d:0 ""
  imecolombo.14.a:0 "We must keep hoping"
- 
  imecolombo.15.t:0 "The First Ship"
  imecolombo.15.d:0 ""
  imecolombo.15.a:0 "One Last Look"
- 
  imecolombo.16.t:0 "A Slaughterhouse"
  imecolombo.16.d:0 ""
  imecolombo.16.a:0 "Where can we be safe?"
- 
  imecolombo.17.t:0 "The Final Defenders"
  imecolombo.17.d:0 ""
  imecolombo.17.a:0 "Until the End"
- 
  imecolombo.18.t:0 "A New Home"
  imecolombo.18.d:0 ""
  imecolombo.18.a:0 "I wonder who lived here before us?"
- 
  imecolombo.19.t:0 "The People Scattered"
  imecolombo.19.d:0 ""
  imecolombo.19.a:0 "Deliver Us"
- 
  imecolombo.20.t:0 "Soldiers in the Streets"
  imecolombo.20.d:0 ""
  imecolombo.20.a:0 ""
- 
  imecolombo.21.t:0 "An Unexpected Visit"
  imecolombo.21.d:0 ""
  imecolombo.21.a:0 "Have Mercy"
- 
  imecolombo.22.t:0 "A Home in Hebron"
  imecolombo.22.d:0 ""
  imecolombo.22.a:0 "Where will we go now?"
- 
  imecolombo.23.t:0 "The Conflegration"
  imecolombo.23.d:0 ""
  imecolombo.23.a:0 "Horrifying"
- 
  imecolombo.24.t:0 "New Arrivals"
  imecolombo.24.d:0 ""
  imecolombo.24.a:0 ""
- 
  imecolombo.25.t:0 "A New Home"
  imecolombo.25.d:0 ""
  imecolombo.25.a:0 ""
- 
  imecolombo.26.t:0 "Italian Levant"
  imecolombo.26.d:0 ""
  imecolombo.26.a:0 ""
- 
  imecolombo.27.t:0 "Our Jewel"
  imecolombo.27.d:0 ""
  imecolombo.27.a:0 ""
- 
  imecolombo.28.t:0 "End of the Legion"
  imecolombo.28.d:0 ""
  imecolombo.28.a:0 ""
- 
  imecolombo.29.t:0 "Lynching"
  imecolombo.29.d:0 ""
  imecolombo.29.a:0 ""
- 
  imecolombo.30.t:0 "Condemned"
  imecolombo.30.d:0 ""
  imecolombo.30.a:0 ""
- 
  imecolombo.31.t:0 "Just, Why"
  imecolombo.31.d:0 ""
  imecolombo.31.a:0 ""
- 
  imecolombo.32.t:0 "Empty Homes"
  imecolombo.32.d:0 ""
  imecolombo.32.a:0 ""
- 
- #Tooltips
  IME_operation_masada_unlock:0 "Decisions and Focus Trees related to §GOperation Masada§G §Dwill now be unlocked.§!\n"
- IME_operation_masada_activated:0 "§GOperation Masada§! has commenced.\n"  
+ IME_operation_masada_activated:0 "§GOperation Masada§! has commenced.\n"
  IME_empower_haganah:0 "This will tip the scales of negotiations in favor of §MHaganah§!!\n"
  IME_empower_fatah:0 "This will tip the scales of negotiations in favor of §YFatah§!!\n"
  IME_empower_none:0 "This will §Gbalance§! the scales of negotiation!\n"
  IME_greatly_empower_irgun:0 "This will greatly empower §TIrgun§!!\n"
  IME_empower_irgun:0 "This will empower §TIrgun§!!\n"
- IME_weaken_irgun:0 "This will weaken §TIrgun§!!\n" 
+ IME_weaken_irgun:0 "This will weaken §TIrgun§!!\n"
  IME_greatly_weaken_irgun:0 "This will greatly weaken §TIrgun§!!\n"
  IME_empower_anm:0 "This will empower the §eHarakiyyin§!!\n"
  IME_greatly_empower_anm:0 "This will greatly empower the §eHarakiyyin§!!\n"
@@ -748,44 +626,33 @@
  IME_greatly_weaken_anm:0 "This will greatly weaken the §eHarakiyyin§!!\n"
  IME_anm_truce:0 "Truce with the ANM"
  IME_irgun_truce:0 "Truce with Irgun"
- 
- #Scripted Loc#
  IME_no_bias:0 "Negotiations currently favor §gno one§!."
  IME_haganah_bias:0 "Negotiations currently favor §MHaganah§!."
  IME_fatah_bias:0 "Negotiations currently favor §YFatah§!."
- 
-
  IME_haganah_omnipotent:0 "§MHaganah§! is currently §xextremely powerful§!."
  IME_haganah_powerful:0 "§MHaganah§! is currently §Ypowerful§!."
  IME_haganah_influential:0 "§MHaganah§! is currently §Omoderately powerful§!."
  IME_haganah_pitiful:0 "§MHaganah§! is currently §gpitifully weak§!."
- 
  IME_fatah_omnipotent:0 "§YFatah§! is currently §xextremely powerful§!."
  IME_fatah_powerful:0 "§YFatah§! is currently §Ypowerful§!."
  IME_fatah_influential:0 "§YFatah§! is currently §Omoderately powerful§!."
  IME_fatah_pitiful:0 "§YFatah§! is currently §gpitifully weak§!."
- 
  IME_irgun_omnipotent:0 "§TIrgun§! is currently §xextremely powerful§!."
  IME_irgun_powerful:0 "§TIrgun§! is currently §Ypowerful§!."
  IME_irgun_influential:0 "§TIrgun§! is currently §Omoderately powerful§!."
  IME_irgun_pitiful:0 "§TIrgun§! is currently §gpitifully weak§!."
- 
  IME_anm_omnipotent:0 "The §eHarakiyyin§! is currently §xextremely powerful§!."
  IME_anm_powerful:0 "The §eHarakiyyin§! is currently §Ypowerful§!."
  IME_anm_influential:0 "The §eHarakiyyin§! is currently §Omoderately powerful§!."
  IME_anm_pitiful:0 "The §eHarakiyyin§! is currently §gpitifully weak§!."
- 
  IME_lehi_omnipotent:0 "§zLehi§! is currently §xextremely powerful§!."
  IME_lehi_powerful:0 "§zLehi§! is currently §Ypowerful§!."
  IME_lehi_influential:0 "§zLehi§! is currently §Omoderately powerful§!."
  IME_lehi_pitiful:0 "§zLehi§! is currently §gpitifully weak§!."
- 
  IME_plfgc_omnipotent:0 "The §yPalestinian Liberation Front - General Command§! is currently §xextremely powerful§!."
  IME_plfgc_powerful:0 "The §yPalestinian Liberation Front - General Command§! is currently §Ypowerful§!."
  IME_plfgc_influential:0 "The §yPalestinian Liberation Front - General Command§! is currently §Omoderately powerful§!."
  IME_plfgc_pitiful:0 "The §yPalestinian Liberation Front - General Command§! is currently §gpitifully weak§!."
- 
- #Decisions#
  ime_slightly_weakened_irgun:0 "§TIrgun§! has been slightly weakened"
  ime_weakened_irgun:0 "§TIrgun§! has been weakened"
  ime_greatly_weakened_irgun:0 "§TIrgun§! has been greatly weakened"
@@ -795,109 +662,84 @@
  ime_greatly_weakened_anm:0 "The §eHarakiyyin§! have been greatly weakened"
  ime_empower_anm:0 "The §eHarakiyyin§! are empowered"
  ime_both_sides_weakened:0 "Both sides have been weakened"
- 
  IME_stage_street_battle:0 "Stage battle Harakiyyin and Irgun"
  ime.51.t:0 "Street Battle - Harakiyyin Win"
  ime.51.d:0 "Our recent efforts to pit the ANM and the Irgun against each other has backfired. While we had hoped neither organisation would emerge victorious, as the dust settles, it is clear that the ANM has won a major victory. Having decisively defeated the Irgun forces in the region, the ANM is consolidating their resources and solidifying their control in the area, much to our chagrin. The ANM will pose an increased threat in the near future until our forces can bring them in line."
  ime.51.a:0 "Damnit"
- 
  ime.50.t:0 "Street Battle - Irgun Wins"
  ime.50.d:0 "Our recent efforts to pit the ANM and the Irgun against each other has backfired. While we had hoped neither organisation would emerge victorious, as the dust settles, it is clear that the Irgun has won a major victory. Having decisively defeated the ANM forces in the region, the Irgun is consolidating their resources and solidifying their control in the area, much to our chagrin. The Irgun will pose an increased threat in the near future until our forces can bring them in line."
  ime.50.a:0 "Not helpful."
- 
  ime.52.t:0 "Street Battle - Stalemate"
  ime.52.d:0 "Our recent efforts to pit the ANM and the Irgun against each other has paid off handsomely. Both sides have managed to fight themselves to exhaustion, allowing our forces to sweep in and dispatch both groups with relative ease. With the power of both organisations being hard hit, we should have an easier time suppressing their activities and maintaining peace for the near future."
  ime.52.a:0 "Nice work everyone."
- 
  IME_sow_discord:0 "Sow discord between factions"
  ime.53.t:0 "Choosing Our Targets"
  ime.53.d:0 "We will attempt to sow discord between the various factions opposed to our rule, but given our limited resources, we only have the ability to go after one group or the other. Thus, we need to choose, should we attempt to infiltrate the Irgun and sow discord among their ranks or go after the Arab Nationalist Movement?"
  ime.53.a:0 "Go after the Irgun, they've been a thorn in our side."
  ime.53.b:0 "Go after the AMN, they have far too much influence."
- 
  ime.54.t:0 "Discord - Harakiyyin members leave organization"
  ime.54.d:0 "Our attempts at infiltration have been a success! We have successfully instigated infighting within the ANM ranks, leading to many in the organisation joining the moderates of the Fatah or simply abandoning the movement altogether. The ANM has been badly weakened by our success and should pose much of the less of a problem in the near future."
  ime.54.a:0 "A toast to our success!"
- 
  ime.55.t:0 "Discord - Fatah members radicalize"
  ime.55.d:0 "Our attempts at infiltration have backfired on us. While we were able to infiltrate the organisation, our attempts to sow discord have failed, only leading to the radicalization of many in the moderates in the Fatah, who promptly joined the ANM. The ANM has been given a windfall of new supplies and recruits and will pose a much greater threat in the weeks and months ahead."
  ime.55.a:0 "This wasn't the plan"
- 
  ime.56.t:0 "Discord - Irgun members leave organization"
  ime.56.d:0 "Our attempts at infiltration have been a success! We have successfully instigated infighting within Irgun ranks, leading to many in the organisation joining the moderates of the Haganah or simply abandoning the movement altogether. The Irgun has been badly weakened by our success and should pose much of the less of a problem in the near future."
  ime.56.a:0 "All according to plan"
- 
  ime.57.t:0 "Discord - Haganah members radicalize"
  ime.57.d:0 "Our attempts at infiltration have backfired on us. While we were able to infiltrate the organisation, our attempts to sow discord have failed, only leading to the radicalization of many in the moderates in the Haganah, who promptly joined the Irgun. The Irgun has been granted a windfall of new supplies and recruits and will pose a much greater threat in the weeks and months ahead."
  ime.57.a:0 "This wasn't the plan"
- 
  IME_false_flag_operation:0 "False Flag Operation"
  ime.58.t:0 "Choosing Our Target"
  ime.58.d:0 "As part of our efforts to weaken the extremist groups who infest the Levant, we have often resorted to less than savoury methods, for instance, the use of false flag attacks to implicate other organizations and deflect their attention away from us.\n\nGiven our limited resources on top of the fact we do not want to raise undue suspicion, it is best that we only pick one faction to target, giving us the option between attacking either the Irgun or the ANM."
  ime.58.a:0 "Go after the ANM"
  ime.58.b:0 "Go after Irgun"
- 
  ime.60.t:0 "False Flag Operation - ANM Success"
- ime.60.d:0 "Unfortunately, despite catching the ANM by surprise, our men failed to seize the advantage and found themselves drawn into a running gun battle in which the ANM soon gained the upper hand. The intervention of local police soon put an end to the skirmish, but the damage has been done. Already Arab leaders are denouncing our "underhanded" methods and "cowardly" deceptions, greatly harming our public image."
+ ime.60.d:0 "Unfortunately, despite catching the ANM by surprise, our men failed to seize the advantage and found themselves drawn into a running gun battle in which the ANM soon gained the upper hand. The intervention of local police soon put an end to the skirmish, but the damage has been done. Already Arab leaders are denouncing our \"underhanded\" methods and \"cowardly\" deceptions, greatly harming our public image."
  ime.60.a:0 "Goddamnit!"
- 
  ime.59.t:0 "False Flag Operation - ANM Failure"
- ime.59.d:0 "Success! Our men were able to complete their objectives without any undue interruptions, dealing significant damage to the ANM while at the same time implicating the Lehi. Already the Arabs are launching reprisals raids against the people who "launched" an unprovoked attack on their organisation and have drastically reduced their activity against us."
+ ime.59.d:0 "Success! Our men were able to complete their objectives without any undue interruptions, dealing significant damage to the ANM while at the same time implicating the Lehi. Already the Arabs are launching reprisals raids against the people who \"launched\" an unprovoked attack on their organisation and have drastically reduced their activity against us."
  ime.59.a:0 "What fools!"
- 
  ime.62.t:0 "False Flag Operation - Irgun Success"
- ime.62.d:0 "Unfortunately, despite catching the Irgun by surprise, our men were unable to seize the advantage and soon found the tables turning against them as the Irgun brought in reinforcements. Outnumbered and outgunned our men were pushed back and forced to retreat. The intervention of local police soon put an end to the skirmish, but the damage has been done. Already Jewish leaders are denouncing our "underhanded" methods and "cowardly" deceptions, greatly harming our public image."
+ ime.62.d:0 "Unfortunately, despite catching the Irgun by surprise, our men were unable to seize the advantage and soon found the tables turning against them as the Irgun brought in reinforcements. Outnumbered and outgunned our men were pushed back and forced to retreat. The intervention of local police soon put an end to the skirmish, but the damage has been done. Already Jewish leaders are denouncing our \"underhanded\" methods and \"cowardly\" deceptions, greatly harming our public image."
  ime.62.a:0 "Goddamnit!"
- 
  ime.61.t:0 "False Flag Operation - Irgun Failure"
- ime.61.d:0 "Success! Our men were able to complete their objectives without any undue interruptions, dealing significant damage to the Irgun in the region while at the same time implicating the PLF in the attack. Already the Irgun are launching reprisals raids against the people who "launched" an unprovoked attack on their organisation and have drastically reduced their activity against us."
+ ime.61.d:0 "Success! Our men were able to complete their objectives without any undue interruptions, dealing significant damage to the Irgun in the region while at the same time implicating the PLF in the attack. Already the Irgun are launching reprisals raids against the people who \"launched\" an unprovoked attack on their organisation and have drastically reduced their activity against us."
  ime.61.a:0 "What fools!"
- 
  IME_assassinate_terrorist_leader:0 "Assassinate Terrorist Leader"
  ime.63.t:0 "Assassination Target"
  ime.63.d:0 "As part of our efforts to crack down on the terrorist movements afflicting the Levant, we shall attempt to assassinate a high ranking leader. However, given our limited resources and the scarcity of sources, we can only go after one of the two organizations which are causing us so much trouble. Thus, we need to choose, do we go after the Irgun or the ANM?"
  ime.63.a:0 "The ANM"
  ime.63.b:0 "Irgun"
- 
  ime.64.t:0 "Assassinate Harakiyyin Leader - Success"
  ime.64.d:0 "Success! After dozens of hours tracking down and identifying a senior officer within the ANM's ranks, we were able to successfully identify one of the establishments he frequented. One of our gunmen were able to close within several meters of the officer and get off several rounds from a concealed pistol before disappearing into the crowd. The ANM officer was critically wounded and passed within minutes. Such a brazen assassination of one of their senior leaders has badly affected the ANM, weakening their movements in the weeks and months to come."
  ime.64.a:0 "Mission Accomplished!"
- 
  ime.65.t:0 "Assassinate Harakiyyin Leader - Failure"
  ime.65.d:0 "After dozens of hours tracking down and identifying a senior officer within the ANM's ranks, we were able to successfully identify one of the establishments he frequented. One of our gunmen were able to close within several meters of the officer and get off several rounds from a concealed pistol before disappearing into the crowd. However, it appears that our assassination attempt was ultimately unsuccessful as the ANM officer later made it a statement over the radio, decrying our cowardly attempt to silence him. This is a major blow to our efforts to weaken the ANM, granting them a major propaganda victory and widespread public sympathy."
  ime.65.a:0 "That wasn't the plan"
- 
  ime.66.t:0 "Assassinate Irgun Leader - Success"
  ime.66.d:0 "Success! After spending days identifying and tracking down a high ranking officer within the Irgun, we were able to find one of the routes he commonly used and ambushed him with half a dozen gunmen. Armed with automatic weapons and a rocket launcher, our men hit his vehicle and riddled the remains with machine-gun fire before making a quick getaway. The brazen assassination of one of their senior leaders has badly affected the Irgun, weakening their organisation and reducing their activity in the weeks and months to come."
  ime.66.a:0 "Mission Accomplished!"
- 
  ime.67.t:0 "Assassinate Irgun Leader - Failure"
  ime.67.d:0 "After spending days identifying and tracking down a high ranking officer within the Irgun, we were able to find one of the routes he commonly used and ambushed him with half a dozen gunmen. Armed with automatic weapons and a rocket launcher, our men managed to surprise the officer's vehicle, but fumbled with the rocket launcher and found themselves in a running gun battle that was only stopped by the intervention of local law enforcement. The Irgun officer later made an announcement over the radio, denouncing the cowardly attempt on his life. This is a major blow to our efforts to weaken the Irgun, granting them a major propaganda victory and widespread public sympathy."
  ime.67.a:0 "That wasn't the plan"
- 
  IME_leak_target_information:0 "Leak Information"
  ime.68.t:0 "Information Leak"
- ime.68.d:0 "As part of our efforts to play both the Irgun and ANM against each other, we will leak "information" about their rivals to one of the organisations. Such information, however, will give the position one of our well-fortified outposts, hopefully allowing us to draw either the ANM or Irgun into the open where we can inflict a major defeat. However, we must choose, which organisation do we leak the information to?"
- ime.68.a:0 "Give the "information" to the ANM, those Arabs need to be put in their place."
- ime.68.b:0 "Give the "information" to the Irgun, we need to teach these jews a lesson."
- 
+ ime.68.d:0 "As part of our efforts to play both the Irgun and ANM against each other, we will leak \"information\" about their rivals to one of the organisations. Such information, however, will give the position one of our well-fortified outposts, hopefully allowing us to draw either the ANM or Irgun into the open where we can inflict a major defeat. However, we must choose, which organisation do we leak the information to?"
+ ime.68.a:0 "Give the \"information\" to the ANM, those Arabs need to be put in their place."
+ ime.68.b:0 "Give the \"information\" to the Irgun, we need to teach these jews a lesson."
  ime.69.t:0 "Succesful Leak - Harakiyyin Attacked"
  ime.69.d:0 "Success! The ANM has taken the bait and launched a major assault on one of our fortified positions. Having revealed themselves in the open, we were able to bring to bear our heavy weapons and fire support, decisively crushing their attack.\n\nThe ANM's strength has been badly affected by their failed attack, and their activity in the weeks and months ahead will likely be heavily curtailed."
  ime.69.a:0 "A toast to our boys!"
- 
  ime.70.t:0 "Failed Leak - No Attack"
  ime.70.d:0 "Unfortunately, it appears our ploy has failed, through one method or another the ANM was able to figure out our deception, and stayed well clear of the location we had given them. To make matters worse, they even made an announcement denouncing our cowardly and underhanded methods. This has given them a major propaganda victory as well as badly hurting our public image."
  ime.70.a:0 "To hell with these Arabs!"
- 
  ime.71.t:0 "Succesful Leak - Irgun Attacked"
  ime.71.d:0 "Success! The Irgun has taken the bait and launched a major assault on one of our fortified positions. Having revealed themselves in the open, we were able to bring to bear our heavy weapons and fire support, decisively crushing their attack. The Irgun's strength has been badly affected by their failed attack, and their activity in the weeks and months ahead will likely be heavily curtailed."
  ime.71.a:0 "A toast to our boys!"
- 
  ime.72.t:0 "Failed Leak - No Attack"
  ime.72.d:0 "Unfortunately, it appears our ploy has failed, through one method or another the Irgun was able to figure out our deception, and stayed well clear of the location we had given them. To make matters worse, they even made an announcement denouncing our cowardly and underhanded methods. This has given them a major propaganda victory as well as badly hurting our public image."
  ime.72.a:0 "To hell with these dastardly Jews!"
- 
- #Jerusalem Conference#
  ime_the_jerusalem_conference:0 "The Jerusalem Conference"
  ime_the_right_to_life:0 "The Right to Life"
  ime_water_for_the_fields:0 "Water for the Fields"
@@ -918,154 +760,121 @@
  ime_lifting_commercial_barriers:0 "Lifting Commercial Barriers"
  ime_forgetting_old_wrongs:0 "Forgetting Old Wrongs"
  ime_the_conference_closes:0 "The Conference Closes"
- 
  jercon.1.t:0 "The Conference Begins"
  jercon.1.d:0 "Palestinian, Israeli, and Italian delegations have all convened in Jerusalem to finally bring about peace in the Levant. Organized by the efforts of the Prime Minister, the conference is hoped to bring about a lasting solution to the numerous issues plaguing the Italian Middle East, namely the Palestinian-Israeli tensions that have dominated society. While some have criticized this as a move for re-election, our cause is valiant, and is part of our obligations as a member of the global community. It remains unclear if the Conference has any chance at succeeding, but so long as all enter with good faith, there might still be a chance for peace."
  jercon.1.a:0 "Let us pray for its success."
- 
  jercon.2.t:0 "The First Round"
  jercon.2.d:0 "The first round of negotiations will touch upon the prioritization of water for communities, the issue of the Bedouin nomads, the construction of oil pipelines, and the distribution of oil money. The fairest solutions must be negotiated, for the safety and prosperity of the Levant. But we must tread carefully, for any missteps could lead to the conference ending prematurely."
  jercon.2.a:0 "Can peace truly be stopped?"
- 
  jercon.3.t:0 "The Water Question"
  jercon.3.d:0 "A fierce debate has erupted over the prioritization of water in the Levantine countryside, with the main subjects being Jewish Kibbutzim -- agricultural communes -- and Arab villages. The case for prioritizing water for the Kibbutzim is obvious -- agriculture is generally water-intensive. However, the Palestinian delegation has lobbied for water to be prioritized for Arab villages, so that they may practice their own form of agriculture. In the end, it is Italy's decision as to who gets the most water."
  jercon.3.a:0 "Jewish Kibbutzim."
  jercon.3.b:0 "Arab Villages."
- 
  jercon.4.t:0 "Agricultural Subsidies"
  jercon.4.d:0 "Agricultural subsidies have historically been used to fund the general modernization of Levantine agriculture. Now, they are being fought over by both sides over who gets the lion's share of the money. Various arguments such as the relative lack of irrigation in Palestinian farms or the continued expansion of Kibbutzim have been brought up. Once more, both delegations look to Italy to decide this issue, as the mediator of the conference."
  jercon.4.a:0 "The Jews will receive subsidies."
  jercon.4.b:0 "Fund the Palestinians."
- 
  jercon.5.t:0 "The Nomad Question"
  jercon.5.d:0 "Bedouin nomads roam around the south, where small skirmishes have taken place between them and other settlers, over various land disputes as well as consumption of resources. The Palestinian delegation has called for more legal protections for the Bedouins, as well as incentives for nomads to urbanize. The Jews, on the other hand, argue that the status quo is fine as-is, and that funds should be focused on better issues such as poverty and infrastructure overhauls. Once more, Italy must rule on this issue."
  jercon.5.a:0 "Less Protection."
  jercon.5.b:0 "More Protection."
- 
  jercon.6.t:0 "Where The Black Gold Flows"
  jercon.6.d:0 "Unlike the rest of the Middle East, the Levant has little oil deposits, forcing it to rely on outside sources for its needs. As such, an additional oil pipeline shall be built in order to service their needs. The question is where exactly it should be built. The delegations have given their preferred options: Gaza and Tel-Aviv. The benefits of the pipeline being built in either city are obvious: it would provide numerous jobs to the local population during and after construction. Yet again, Italy must mediate this issue."
  jercon.6.a:0 "Tel Aviv."
  jercon.6.b:0 "Gaza."
- 
  jercon.7.t:0 "For Whom The Black Gold Flows"
  jercon.7.d:0 "Now that the issue of the pipeline has been solved, the debate has moved onto the topic of the oil revenues. The Palestinians argue that the oil money would be better used by them, in order to install infrastructural improvements such as electric expansion as well as social housing. Meanwhile, the Israelis are pushing for them to receive the oil money for use in upgrading hospitals as well as expanding schools in the region. Ultimately, it is decided that..."
  jercon.7.a:0 "The Jews get the money."
  jercon.7.b:0 "The Arabs get the money."
- 
  jercon.8.t:0 "Second Round"
  jercon.8.d:0 "With the issues of oil, nomads, agriculture, and water all resolved, the first round of negotiations has completed. The second round of negotiations begins now, with an agreement finally beginning to take shape. Sporadic protests have broken out in both Palestine and Israel, but they can be ignored. The agenda for this round of negotiations will be on refugee camps, reconstruction, the formation of a police force, Jerusalem, and the division of land."
  jercon.8.a:0 "We're making progress!"
- 
  jercon.9.t:0 "Refugee Camps"
  jercon.9.d:0 "Refugee camps are, surprisingly enough, a hot issue amongst the delegations. The Israelis argue that priority should be given to them in order to house Jews making Aliyah. Meanwhile, the Palestinians argue that priority should be given to them, as immigrants from the Arab nations have started to stream into the Levant. Only one side can prevail in this matter, as there are not enough funds to fully accommodate the projected numbers presented by both sides."
  jercon.9.a:0 "Refugee Camps for Jews in the West."
  jercon.9.b:0 "Refugee Camps for Arabs in the East."
- 
  jercon.10.t:0 "Levantine Reconstruction"
  jercon.10.d:0 "Reconstruction efforts have been going on intermittently, such as the repavement of roads, renovation of villages, as well as upgrades to sewage facilities. However, with the withdrawal of Italy from the Middle East, these reconstruction efforts would be better served focusing on either Judea or Lebanon. The Jews have pushed for Judea, as their historical homeland, to be reconstructed. Meanwhile, the Arab delegation has called for Lebanon to be reconstructed first, as numerous problems with infrastructure have been reported in the area."
  jercon.10.a:0 "Focus on Judea."
  jercon.10.b:0 "Focus on Lebanon."
- 
  jercon.11.t:0 "A New Police Force"
  jercon.11.d:0 "A police force must be formed in order to fill the vacuum left by the Italian withdrawal. There are two options, with the Jews pushing for the Palmach organization to lead it, while the Arabs are pushing for the Arab Legion. The Palmach is the elite strike force of Haganah, while the Arab Legion is the former regular army of Mandatory Palestine, now commanded by independence groups. It is decided that..."
  jercon.11.a:0 "Palmach will form the police force."
  jercon.11.b:0 "The Arab Legion will form the police force."
- 
  jercon.12.t:0 "Addressing the Jerusalem Controversy"
  jercon.12.d:0 "Jerusalem is an especially sensitive issue to both the Israelis and the Palestinians, given its role as a holy city for Muslims and Jews alike. As such, the Israelis are pressing for more rights and lands within the city. The Palestinians, on the other hand, argue that the status quo works just fine, and that no changes will be necessary. We must tread carefully, for many will be angered by the decision we take here."
  jercon.12.a:0 "Additional land and rights will be granted for the Jews."
  jercon.12.b:0 "No further adjustments are necessary on this issue."
- 
  jercon.13.t:0 "The Great Divide"
  jercon.13.d:0 "The next issue on the agenda are the borders between the explicitly Arab lands and the explicitly Jewish lands. These are essentially the boundaries for settlement for both the Arabs and the Jews. Ever since the formation of the Italian Middle East, these borders have been unclear. The Arab delegation has pushed for the Jerusalem line, which favors them, as well as a general expansion of settlement rights for their side. On the other hand, the Jews have advocated for the Jordan line, which would expand the potential for further Jewish settlement. After tense negotiations..."
  jercon.13.a:0 "Jordan Line."
  jercon.13.b:0 "Jerusalem Line."
- 
  jercon.14.t:0 "The Final Round"
  jercon.14.d:0 "The end grows near for the Jerusalem Conference, as all parties come closer and closer to reaching a full agreement on the status of the Levant. Peace is on the horizon, as the first drafts of the Jerusalem Accords have begun to be written. The next issues to be discussed are interfaith dialogue, a Good Neighbor Policy, new infrastructure, and trade. These are not as controversial amongst the delegations, and are essentially the finishing touches."
  jercon.14.a:0 "We are in the home stretch."
- 
  jercon.15.t:0 "Interfaith Dialogue"
  jercon.15.d:0 "Most of the tension in the Levant can be attributed to the difference of religions between Jews and Muslims. Under our watch, interfaith dialogue programs shall be launched in order to promote religious tolerance. Furthermore, cultural exchanges will fall under the purview of such interfaith programs, in order to promote non-discrimination. However, the conference is split on who to focus on: the Jews or the Muslims. With a vote called, the result is as follows:"
  jercon.15.a:0 "The interfaith programs should focus on the Jews."
  jercon.15.b:0 "The interfaith programs should focus on the Muslims."
- 
  jercon.16.t:0 "The Coexistence of Nations"
  jercon.16.d:0 "Italy is to enact a Good Neighbor Policy on the Levant, with economic aid, cultural exchanges, and mutual military assistance for all countries. However, fierce debate has been raging within the government over who we should focus our policy on. Rightists in the government are pushing for aid to be sent towards the Jews, while the more leftists are pushing for a policy in favor of the Arabs. After much deliberation, it is decided that..."
  jercon.16.a:0 "Priority should be given to the Jews."
  jercon.16.b:0 "Priority should be given to the Arabs."
- 
  jercon.17.t:0 "East or West?"
  jercon.17.d:0 "Before full withdrawal can take place, we must make amends and do our part to rebuild the Levant. Italian companies will build new rail lines in either the east or the west for further economic development as well as ease of transportation. For obvious reasons, the Arabs are pushing for the rail line to be built in the East. Meanwhile, the Jews are calling for it to be built in the West. After hours of deliberation, it is decided that..."
  jercon.17.a:0 "West."
  jercon.17.b:0 "East."
- 
  jercon.18.t:0 "Tariffs and Trade"
  jercon.18.d:0 "The issue of trade has been brought up, with the main problem with it being where it is being directed. Two possible solutions have been proposed: the sea and the ports, or the inland cities. Through ports, the importation of goods from faraway lands is far easier, although port expansions may take up money that could be better used elsewhere. Meanwhile, inland expansion would greatly improve infrastructure, at the cost of limiting our imports and exports. In the end, there can only be one."
  jercon.18.a:0 "Expand the ports."
  jercon.18.b:0 "Focus on the inland."
- 
  jercon.19.t:0 "Forgetting Old Wrongs"
  jercon.19.d:0 "targai please put in a prompt"
  jercon.19.a:0 "Favor The Jews."
  jercon.19.b:0 "Favor The Arabs."
- 
  jercon.20.t:0 "The End of the Jerusalem Conference"
  jercon.20.d:0 "The final drafts of the Jerusalem Accords have been distributed today, as the Conference winds down to its end. Through negotiation and compromise, an agreement has been reached between the two sides, to be ratified in the near future. With the issues and disputes having been resolved by the Conference, there remains a final question that must be answered, possibly the biggest problem for the delegates to resolve: whether or not the lands should be divided or remain together. However, with the previous success of the Conference, it is certain that a viable solution can be reached upon the issue. Sanity will prevail in the end."
- jercon.20.a:0 "The final choice awaits, and it is perhaps the biggest one of them all".
- 
+ jercon.20.a:0 "The final choice awaits, and it is perhaps the biggest one of them all"
  jercon.21.t:0 "One or Two?"
  jercon.21.d:0 "On the last day of the Jerusalem Conference, everyone has gathered to discuss the possible formation of a Levantine Confederation or a partition of the lands. For the first time, the Jewish and Arab delegations have both split on the matter, with pro-Confederation and pro-Partition camps forming. Those that argue for a Levantine Confederation say that ethnocultural and religious tensions can be solved, and that in time, these tensions will fade. Furthermore, it would bring less of an economic shock to the region if the Confederation was formed. In the pro-Partition camp, they argue that sectarian violence would only worsen under one country, and that it would be better to work as independent allies, rather than two adversaries chained together. Both make compelling arguments, but there is only one solution. That is..."
  jercon.21.a:0 "The partition of the Levant."
  jercon.21.b:0 "The formation of the Levantine Confederation."
- 
  jercon.22.t:0 "Irgun Growing in Power"
  jercon.22.d:0 "The paramilitary organization Irgun has recently exploded in membership and operations, with reports of increased activity across the Levant reaching our desk. Most in the government believe that it's for the best that we continue to work with Arafat, albeit with increased aid to help ensure this threat is combated. Others believe that we should contact King Hussein and get his aid in fighting the threat. Another, unspoken option, is to work with Irgun, while breaking our relationship with the Arabs."
  jercon.22.a:0 "Approach Emir Hussein."
  jercon.22.b:0 "Trust in Arafat."
  jercon.22.c:0 "A Deal With the Devil."
- 
  jercon.23.t:0 "The JRM Forms"
  jercon.23.d:0 "With the ANM takeover of the Levant, several Jewish groups such as Lehi, Haganah, and Irgun, have merged into the Jewish Resistance Movement. Their purpose is to resist the ANM wherever possible, and in time, overthrow them. At the moment, we can only send arms and funding to the JRM, but already, shipments are being organized for their efforts. We can only hope from afar that the JRM's efforts will bear fruit in the future."
  jercon.23.a:0 "Let's hope we can get a hold on this situation."
- 
  jercon.24.t:0 "A Meeting with Hussein"
- jercon.24.d:0 "The Governor-General has recently stepped out of a meeting with King Hussein with an interesting proposal. Hussein claims that Arafat is untrustworthy and is not negotiating in good faith.\n\nThe King maintains that in order to keep the peace in the Levant, it would be best to leak Arafat's location to the Irgun and let the Jews "handle" him for us. With Arafat out of the way, the Fatah will surely splinter, and thereby allowing us to negotiate directly with the King to secure a hopefully quick and advantageous agreement.\n\nBut, there's no telling what the ramifications of Arafat's assassination may bring if he's killed at all and perhaps it's best we keep things as is."
+ jercon.24.d:0 "The Governor-General has recently stepped out of a meeting with King Hussein with an interesting proposal. Hussein claims that Arafat is untrustworthy and is not negotiating in good faith.\n\nThe King maintains that in order to keep the peace in the Levant, it would be best to leak Arafat's location to the Irgun and let the Jews \"handle\" him for us. With Arafat out of the way, the Fatah will surely splinter, and thereby allowing us to negotiate directly with the King to secure a hopefully quick and advantageous agreement.\n\nBut, there's no telling what the ramifications of Arafat's assassination may bring if he's killed at all and perhaps it's best we keep things as is."
  jercon.24.a:0 "Leak Arafat's location to Irgun..."
- 
  jercon.25.t:0 "Arafat Assassinated!"
  jercon.25.d:0 "Arafat is dead, killed by an Irgun attack on his safehouse. Already rioting has ensued in Arab majority territories with Jewish communities find themselves under siege by Arab paramilitaries. Haganah and Irgun clash with the ANM and Fatah in running gun battles in Jerusalem while our garrison struggles to get the situation under control.\n\nHowever, not all news is bad, King Hussein has been able to maintain order in Trans-Jordan and the Arab Legion remains in peak fighting condition. We shall contact Hussein and ask him to assist our beleaguered forces in maintaining order in the rest of the Levant. The King has served us loyally in the past there is no reason we that should change now."
  jercon.25.a:0 "Get me a line to Amman!"
- 
  jercon.26.t:0 "A New Kingdom"
  jercon.26.d:0 "The Arab Legion marches west, King Hussein at its forefront. Disciplined soldiers and veteran officers sweeping aside Jewish and Arab paramilitaries alike. While the Legion fans out across the Levant to assist the garrison in crushing any stubborn holdouts, King Hussein departs to the Al Aqsa Mosque in Jerusalem.\n\nWith cheering crowds and our approval, the Emir of Transjordan had declared the Kingdom of the Levant, with him at its head. Hussein has promised continued cooperation with the Italian Empire on top of his other promises of secular and constitutional rule. Many doubt his sincerity but it's clear for the time being Hussein is wise enough not to bite the hand that feeds him, and we have secured ourselves a new ally in the Levant.\n\nHail King Hussein of the Levant! Saviour of the Levant! King of Jordan, Lebanon, Sinai and South Syria, Protector of Jerusalem and King of the Arabs!"
  jercon.26.a:0 "To future success and continued cooperation!"
- 
  jercon.27.t:0 "A Meeting with Begin"
- jercon.27.d:0 "Menachem Begin was an unassuming man, bald and wearing spectacles he wasn't what one would expect of a man whose organization has caused him so much trouble in the Levant. Sitting at a table cleaning his glasses, the man looked almost grand-fatherly, not that Chiesa would ever fall for that.\n\nBegin wasted no time getting down to business. The request was fairly simple all things considered, Chiesa and, by extension, Italy, would support Irgun's takeover of the Levant. In exchange, Begin would keep the Levant within the Italosphere and allow the ENI to continue to use the pipelines which flowed through the region.\n\nA hard bargain he knew, but what choice did he have? The Haganah and Fatah were at each other's throats, the ANM grow more powerful by the day, and god knows what the Lehi was up to.\n\n"Do we have a deal Governor?""
+ jercon.27.d:0 "Menachem Begin was an unassuming man, bald and wearing spectacles he wasn't what one would expect of a man whose organization has caused him so much trouble in the Levant. Sitting at a table cleaning his glasses, the man looked almost grand-fatherly, not that Chiesa would ever fall for that.\n\nBegin wasted no time getting down to business. The request was fairly simple all things considered, Chiesa and, by extension, Italy, would support Irgun's takeover of the Levant. In exchange, Begin would keep the Levant within the Italosphere and allow the ENI to continue to use the pipelines which flowed through the region.\n\nA hard bargain he knew, but what choice did he have? The Haganah and Fatah were at each other's throats, the ANM grow more powerful by the day, and god knows what the Lehi was up to.\n\n\"Do we have a deal Governor?\""
  jercon.27.a:0 "We do."
- 
  jercon.28.t:0 "The JRM Forms"
  jercon.28.d:0 "Our forces in the Levant have been forced into a humiliating retreat. The ANM has successfully instigated a general uprising, turning much of the population against us, and forcing us to withdraw. The presence of an anti-Italian state so closes the Suez is greatly destabilizing, not to mention the loss of the pipelines which connect us to the Oil fields of Iraq and Kuwait.\n\nHowever, not all is lost, the Jews of the Levant are no friends of the Arabs and have unified under the banner of the Jewish Resistance Movement. The JRM has approached us asking for support in overthrowing the ANM. In return, they promise the establishment of a pro-Italian state in the region. While the JRM represents an excellent opportunity to help restore some semblance of our old position in the Levant, many are wary of allying with the very people who caused us so much trouble in the past."
  jercon.28.a:0 "Give them our support, the Arabs need to be taught a lesson."
  jercon.28.b:0 "We cannot trust them."
- 
  jercon.29.t:0 "Arafat Assassinated!"
- jercon.29.d:0 "Yasser Arafat, leader of the so-called "moderates" of Fatah, has been in hiding ever since the Socialists in the ANM have taken over the region. Fatah, while weakened, has retained a significant presence throughout the region, contesting with both the Jewish Resistance and the ANM.\n\nHowever, a mouse can only hide for so long, and Arafat's location has finally been discovered thanks to a helpful tip from our Italian friends. Already an elite detachment of the best fighters the JRM has to offer is converging on his position, he will not get away. It's time to put an end to this nuisance for once and for all."
+ jercon.29.d:0 "Yasser Arafat, leader of the so-called \"moderates\" of Fatah, has been in hiding ever since the Socialists in the ANM have taken over the region. Fatah, while weakened, has retained a significant presence throughout the region, contesting with both the Jewish Resistance and the ANM.\n\nHowever, a mouse can only hide for so long, and Arafat's location has finally been discovered thanks to a helpful tip from our Italian friends. Already an elite detachment of the best fighters the JRM has to offer is converging on his position, he will not get away. It's time to put an end to this nuisance for once and for all."
  jercon.29.a:0 "Farewell, 'friend'."
- 
  jercon.30.t:0 "Victory for the Jewish Resistance"
  jercon.30.d:0 "Across the Holy land, the fighters of Judah have risen. Aided by Italian supplies, we have successfully crushed the Arab radicals who would oppress our people, like the Romans of old. Their leaders are dead, and their fighters scattered. As we speak, the last holdouts are being hunted and destroyed.\n\nStanding over it all is Yisrael Galili, the enigmatic leader of the JRM. While Galili's plans for the future of the Levant remains unclear, it appears that it will be sometime before the Arabs will acknowledge us as the rightful owners of this land. Already there is talk of Arab resistance even as the ANM is driven out. Peace it seems will remain a distant goal."
  jercon.30.a:0 "To the fighters of Judah!"
- 
  jercon.31.t:0 "An Israeli State"
  jercon.31.d:0 "We have done it! After months of struggle and conflict, we have defeated the ANM, and for the time being, crushed the last true obstacles to the formation of a Jewish state. As the flag of Zion rises above Jerusalem, the Jewish people have a home once more.\n\nHowever, discontent with the defacto military dictatorship run by the Haganah and Irgun is already starting to appear, and the issue of the native Arab population which outnumbers the Jews of the region by the substation margin grows more pressing by the day. The future of Israel remains cloudy and uncertain."
  jercon.31.a:0 "A homeland, if you can keep it."
- 
  jercon.32.t:0 "Triumph for the Arab Nationalist Movement"
  jercon.32.d:0 "While they may have fought hard, without outside aid the Jewish Resistance ultimately could not stand up to the strength of the Arab Nationalists. Their leaders dead or in hiding and their fighters scattered and driven underground, it appears the last threat to the ANM has been defeated. Already there are celebrations in the streets, as the Socialists consolidate their position. The region's Jews have already seen record levels of emigration, while those that remain brace themselves for another generation under what they consider foreign rule. "
  jercon.32.a:0 "The revolution is victorious!"
- 
  ime_jerusalem_conference_ongoing:0 "The Jerusalem Conference is ongoing"
  ime_jercon_jewish_bias_tt:0 "Our previous choices mean negotiations currently favour the §BJewish§! side."
  ime_jercon_arab_bias_tt:0 "Our previous choices mean negotiations currently favour the §IArab§! side."

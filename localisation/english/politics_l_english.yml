@@ -1,5 +1,4 @@
-﻿l_english:
- #POLITICS_SUBGOAL_HEADER:0 "$NAME$ ($COLOR$$PROGRESS|%0$§!):"
+l_english:
  POLITICS_SUBGOAL:0 "오브젝트 #$NUMBER$"
  DRIFT_DIM_RETURN:0 "비활동 정당: §R-$VAL$§!\n"
  POL_DAILY_CHANGE:0 "일간 변화량: $VAL$"
@@ -180,7 +179,6 @@
  TOPBAR_OFFICER_CORP_DESC:0 "조언가와 이론가를 관리하고, 육군, 해군 및 공군 정신을 선택하며, 군 교리를 해금합니다."
  IDEA_COST_NAVY_XP:0 "Cost (£navy_experience ): $VALUE|-0$"
  IDEA_COST_COMPACT_NAVY_XP:0 "£navy_experience  $VALUE|0$"
- 
  gdp_number_display_loc:0 "[GetStateGDPDisplay]"
  gdp_number_display_normal:0 "§Y[GetCurrency][?state_value_B|2]B§!"
  gdp_number_display_modified:0 "§R[GetCurrency][?state_GDP_contribution_B|2]B§!"

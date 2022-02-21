@@ -1,30 +1,24 @@
 ﻿l_english:
- #############
- ## Parties ##
- #############
- GNS_communist_party:0 "PCP"
+ GNS_communist_party:0 "공산당"
  GNS_communist_party_long:0 "포르투갈 공산당"
- GNS_socialist_party:0 "PT"
- GNS_socialist_party_long:0 "Partido Trabalhista"
- GNS_social_democracy_party:0 "ADS"
+ GNS_socialist_party:0 "노동당"
+ GNS_socialist_party_long:0 "노동당"
+ GNS_social_democracy_party:0 "사회민주연합"
  GNS_social_democracy_party_long:0 "사회민주연합"
- GNS_liberal_democracy_party:0 "ARS"
+ GNS_liberal_democracy_party:0 "공화사회연합"
  GNS_liberal_democracy_party_long:0 "공화사회연합"
- GNS_conservative_democracy_party:0 "MND"
- GNS_conservative_democracy_party_long:0 "Movimento Nacional Democrático"
+ GNS_conservative_democracy_party:0 "국민민주운동"
+ GNS_conservative_democracy_party_long:0 "국민민주운동"
  GNS_authoritarian_democracy_party:0 "FPLN"
  GNS_authoritarian_democracy_party_long:0 "Frente Portuguesa de Libertação Nacional"
  GNS_despotism_party:0 "CNP"
  GNS_despotism_party_long:0 "Conselho Nacional Republicano"
  GNS_fascism_party:0 "MNS"
  GNS_fascism_party_long:0 "Movimento Nacional Sindicalista"
- GNS_national_socialism_party:0 "GSN"
- GNS_national_socialism_party_long:0 "Governo de Salvação Nacional"
+ GNS_national_socialism_party:0 "구국정부"
+ GNS_national_socialism_party_long:0 "구국정부"
  GNS_ultranationalism_party:0 "Filhos de Viriato"
  GNS_ultranationalism_party_long:0 "Filhos de Viriato"
-
- #Country names 
-  
  GNS_fascism:0 "포르투갈 구국정부"
  GNS_fascism_DEF:0 "포르투갈 구국정부"
  GNS_liberal_democracy:0 "포르투갈 구국정부"
@@ -43,40 +37,19 @@
  GNS_national_socialism_DEF:0 "포르투갈 구국정부"
  GNS_ultranationalism:0 "포르투갈 구국정부"
  GNS_ultranationalism_DEF:0 "포르투갈 구국정부"
-
- #################
- ## Leader Desc ##
- #################
- POLITICS_KAULZA_DE_ARRIAGA_DESC:0 ""좋은 군사지도자는 학교와 사무실에서 만들어지고, 강사의 말을 듣고, 강의를 듣고, 시험을 보는 것이 아니라 현장에서 사람이 죽고 죽이는 것을 지켜봐야 합니다." 이는 카울자 데 아리아가 장군이 앙골라에서 처음으로 실전에 참여했을때 믿었던 것입니다. 계급, 훈장, 학위, 경례 따위에만 익숙한 포르투갈 군대가 빠르고 효율적인 독일인들에게 박살나버리고, 독일인들이 포르투갈 제국의 보석을 차지하고 그들 스스로를 지키기 위해 스페인 치하의 자랑스런 장군과 장관들을 복종시키는걸 보고 그는 확신했습니다.\n\n카울자 데 아리아가 장군은 새로운 군대의 광신자로서, 관료와 날로 먹는 진급으로부터 자유롭습니다. 정치가 아닌 전투에 전념하고, 어떠한 임무도 수행할 의지가 있도록 가혹한 기술적, 심리적 훈련을 받은 젊은 지원자들로만 구성하고 가장 최신 무기들로 무장시킵니다. 그의 생각은 스페인 사람들에게 완전히 거절당했지만, 포르투갈 장교들 사이에서 인기가 높아지면서 실험을 위한 작은 야전 연구실을 얻게 되었습니다. 알제리 반군 작전에서 첫 실전을 치룬 특공대입니다.\n\n그러고 나서 그는 자신을 배척한 장군과 정치인들이 제국의 나머지를 잃어버리고, 용맹한 포르투갈 남자들의 500년 대업을 되돌린 것만으로 충분하다고 판단했습니다. 그는 포르투갈이 몰락하는 동안 가만히 앉아 있을 것입니다. 특공대가 리스본을 행진하고 지옥이 뒤따랐습니다..."
- 
- ###################
- ## Leader Traits ##
- ###################
+ POLITICS_KAULZA_DE_ARRIAGA_DESC:0 "\"좋은 군사지도자는 학교와 사무실에서 만들어지고, 강사의 말을 듣고, 강의를 듣고, 시험을 보는 것이 아니라 현장에서 사람이 죽고 죽이는 것을 지켜봐야 합니다.\" 이는 카울자 데 아리아가 장군이 앙골라에서 처음으로 실전에 참여했을때 믿었던 것입니다. 계급, 훈장, 학위, 경례 따위에만 익숙한 포르투갈 군대가 빠르고 효율적인 독일인들에게 박살나버리고, 독일인들이 포르투갈 제국의 보석을 차지하고 그들 스스로를 지키기 위해 스페인 치하의 자랑스런 장군과 장관들을 복종시키는걸 보고 그는 확신했습니다.\n\n카울자 데 아리아가 장군은 새로운 군대의 광신자로서, 관료와 날로 먹는 진급으로부터 자유롭습니다. 정치가 아닌 전투에 전념하고, 어떠한 임무도 수행할 의지가 있도록 가혹한 기술적, 심리적 훈련을 받은 젊은 지원자들로만 구성하고 가장 최신 무기들로 무장시킵니다. 그의 생각은 스페인 사람들에게 완전히 거절당했지만, 포르투갈 장교들 사이에서 인기가 높아지면서 실험을 위한 작은 야전 연구실을 얻게 되었습니다. 알제리 반군 작전에서 첫 실전을 치룬 특공대입니다.\n\n그러고 나서 그는 자신을 배척한 장군과 정치인들이 제국의 나머지를 잃어버리고, 용맹한 포르투갈 남자들의 500년 대업을 되돌린 것만으로 충분하다고 판단했습니다. 그는 포르투갈이 몰락하는 동안 가만히 앉아 있을 것입니다. 특공대가 리스본을 행진하고 지옥이 뒤따랐습니다..."
  o_comandante:0 "O Comandante"
- 
- ###############
- ## Ministers ##
- ###############
  GNS_Jose_Manuel_Bettencourt_Rodrigues:0 "José Manuel Bettencourt Rodrigues"
  GNS_Jose_Manuel_Bettencourt_Rodrigues_hog_desc:0 "§YSecond-in-Command\nNational Socialism§!"
- 
  GNS_Fernando_Eduardo_da_Silva_Pais:0 "Fernando Eduardo da Silva Pais"
  GNS_Fernando_Eduardo_da_Silva_Pais_mil_desc:0 "§YMinister of War\nNational Socialism§!"
- 
  GNS_Rui_Patricio:0 "Rui Manuel de Medeiros d'Espiney Patrício"
  GNS_Rui_Patricio_for_desc:0 "§YMinister of Foreign Affairs\nNational Socialism§!"
- 
  GNS_Jorge_Jardim:0 "Jorge Pereira Jardim"
  GNS_Jorge_Jardim_eco_desc:0 "§YMinister of Economic Affairs\nNational Socialism§!"
-
- GNS_Kaulza_Arriaga:0 "Kaulza de Arriaga"
-
+ GNS_Kaulza_Arriaga:0 "카울자 드 아히아가"
  GNS_Francisco_Roxo:0 "Francisco Daniel Roxo"
-
  GNS_Joao_Bruno:0 "João de Almeida Bruno"
-
  GNS_Silvino_Marques:0 "Silvino Silvério Marques"
-
  GNS_Alvaro_Cardoso:0 "Álvaro Manuel Alves Cardoso"
-
  GNS_Guilherme_Calvao:0 "Guilherme Almor de Alpoim Calvão"
